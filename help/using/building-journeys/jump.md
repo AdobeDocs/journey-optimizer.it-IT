@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 10%
@@ -32,7 +32,7 @@ Nel percorso di origine, aggiungi semplicemente un&#39;attività **[!UICONTROL J
 
 Nel percorso di destinazione, il primo evento attivato internamente dall&#39;attività **[!UICONTROL Jump]** genererà il singolo flusso nel percorso.
 
-## Ciclo di vita
+## Ciclo di vita {#jump-lifecycle}
 
 Supponiamo che tu abbia aggiunto un&#39;attività **[!UICONTROL Jump]** in un percorso A a un percorso B. Il Percorso A è il **percorso di origine** e il percorso B, il **percorso di destinazione**.
 Di seguito sono riportati i diversi passaggi del processo di esecuzione:
@@ -52,9 +52,9 @@ Nel percorso B, il primo evento viene attivato internamente, tramite l&#39;attiv
 >
 >Il percorso B può essere attivato anche tramite un evento esterno.
 
-## Best practice e limitazioni
+## Best practice e limitazioni {#jump-limitations}
 
-### Authoring
+### Authoring {#jump-limitations-authoring}
 
 * L&#39;attività **[!UICONTROL Jump]** è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
 * È possibile passare solo a un percorso che utilizza lo stesso spazio dei nomi del percorso di origine.
@@ -65,12 +65,12 @@ Nel percorso B, il primo evento viene attivato internamente, tramite l&#39;attiv
 * Il percorso di destinazione può inoltre includere tutte le **[!UICONTROL attività Salta]** necessarie.
 * I pattern di loop non sono supportati. Non è possibile collegare due o più percorsi per creare un ciclo infinito. La schermata di configurazione dell&#39;attività **[!UICONTROL Jump]** non consente di eseguire questa operazione.
 
-### Execution
+### Execution {#jump-limitations-exec}
 
 * Quando l&#39;attività **[!UICONTROL Jump]** viene eseguita, viene attivata la versione più recente del percorso di destinazione.
 * Come sempre, un individuo può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso target, non entrerà in tale percorso. Non verrà segnalato alcun errore nell&#39;attività **[!UICONTROL Jump]** perché si tratta di un comportamento normale.
 
-## Configurazione dell’attività Salta
+## Configurazione dell’attività Salta {#jump-configure}
 
 1. Progetta il tuo **percorso di origine**.
 
@@ -110,7 +110,7 @@ Quando un&#39;attività **[!UICONTROL Jump]** è configurata in un percorso, vie
 
 ![](assets/jump7.png)
 
-## Risoluzione dei problemi
+## Risoluzione dei problemi {#jump-troubleshoot}
 
 Si verificano degli errori se:
 * il percorso target non esiste più

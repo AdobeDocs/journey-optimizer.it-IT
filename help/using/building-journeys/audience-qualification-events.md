@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1091'
 ht-degree: 10%
 
 ---
@@ -35,7 +35,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
 ### Note importanti{#important-notes-segment-qualification}
 
-* Tieni presente che i tipi di pubblico di Adobe Experience Platform vengono calcolati una volta al giorno (**batch** tipi di pubblico) o in tempo reale (**streaming** tipi di pubblico, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
+* Tieni presente che i tipi di pubblico di Adobe Experience Platform vengono calcolati una volta al giorno (**batch** tipi di pubblico) o in tempo reale (per **flussi di pubblico**, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
 
    * Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale.
    * Se il pubblico è batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso quando il calcolo del pubblico viene eseguito su Adobe Experience Platform.
@@ -51,6 +51,8 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 
 ### Configurare l’attività{#cnfigure-segment-qualification}
+
+Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, eseguire la procedura seguente:
 
 1. Espandi la categoria **[!UICONTROL Eventi]** e rilascia un&#39;attività **[!UICONTROL Qualifica pubblico]** nell&#39;area di lavoro.
 

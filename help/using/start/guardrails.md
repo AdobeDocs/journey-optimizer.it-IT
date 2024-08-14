@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 99%
+source-wordcount: '2239'
+ht-degree: 86%
 
 ---
 
@@ -81,11 +81,11 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 * Il pubblico e lo spazio dei nomi scelti nella **Qualificazione del pubblico** (primo nodo) non possono essere modificati nelle nuove versioni.
 * La regola di reingresso deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con un’attività di **Leggi pubblico** non può iniziare con un altro evento nelle versioni successive.
-* Non puoi creare una nuova versione di un percorso di Leggi pubblico con lettura incrementale. È necessario duplicare il percorso.
+* Non puoi creare una nuova versione di un percorso di Leggi pubblico con lettura incrementale. Devi duplicare il percorso.
 
 ### Azioni personalizzate {#custom-actions-g}
 
-* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e per sandbox. Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
+* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e per sandbox. Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili/s quando vengono utilizzate azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”
@@ -95,7 +95,7 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 * Le azioni personalizzate supportano il formato JSON solo quando si utilizzano payload di richiesta o risposta. Consulta [questa pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Quando scegli un endpoint per il targeting utilizzando un’azione personalizzata, assicurati che:
 
-   * Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.
+   * Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione deve supportare almeno 200 TPS.
    * Questo endpoint deve avere un tempo di risposta il più basso possibile. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva.
 
 ### Eventi {#events-g}
@@ -103,7 +103,8 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
 * I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
-* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma potrebbe causare sfide a valle in base alle azioni utilizzate.
+* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d&#39;uso in cui non è possibile ricevere eventi in streaming, è necessario creare un pubblico basato su tali eventi e utilizzare l&#39;attività **Read Audience**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma non è consigliata in quanto può causare problemi a valle in base alle azioni utilizzate.
+
 
 ### Origini dati {#data-sources-g}
 
@@ -126,23 +127,44 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 
+### Aggiorna profilo {#update-profile-g}
+
+Guardrail specifici applicabili all&#39;attività **[!UICONTROL Aggiorna profilo]**. Sono elencati in [questa pagina](../building-journeys/update-profiles.md).
+
+
 ### Leggere tipi di pubblico {#read-segment-g}
+
+Le seguenti protezioni si applicano all&#39;attività **[!UICONTROL Read Audience]**:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
 * Per i percorsi che utilizzano un’attività di Leggii pubblico esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi pubblico, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+* L’attività Read audience non può essere utilizzata con le attività di Adobe Campaign.
+* L’attività Read audience può essere utilizzata solo come prima attività in un percorso, o dopo un’attività evento business.
+* Un percorso può avere una sola attività Read audience.
+* Consulta anche i consigli su come utilizzare l&#39;attività Read audience in [questa pagina](../building-journeys/read-audience.md).
+
+
+### Qualifica tipi di pubblico {#audience-qualif-g}
+
+Il seguente guardrail si applica all&#39;attività **[!UICONTROL Qualificazione del pubblico]**:
+
+* L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
+
 
 ### Editor espressioni {#expression-editor}
 
-* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. È necessario creare un nuovo pubblico e utilizzare una condizione di pubblico nel percorso.
+* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. Devi creare un nuovo pubblico e utilizzare una condizione di non pubblico nel percorso.
 
 
-### Limitazioni delle attività in-app {#in-app-activity-limitations}
+### Attività in-app {#in-app-activity-limitations}
 
 * Questa funzione non è attualmente disponibile per la clientela del settore dell’assistenza sanitaria.
 
 * La personalizzazione può contenere solo attributi di profilo.
 
-* La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app all’interno di quel percorso cesseranno di essere visualizzati per quel profilo.  Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Al contrario, per impedire la visualizzazione dei messaggi in-app nel profilo, devi terminare l’intero percorso.
+* L’attività in-app non può essere utilizzata con le attività di Adobe Campaign.
+
+* La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app all’interno di quel percorso cesseranno di essere visualizzati per quel profilo.  Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Piuttosto, devi terminare l’intero percorso per impedire la visualizzazione dei messaggi in-app nel profilo.
 
 * In modalità di test, la visualizzazione in-app dipende dalla durata del percorso. Per evitare che il percorso termini anticipatamente durante il test, regola il valore **[!UICONTROL Tempo di attesa]** per le attività di **[!UICONTROL Attesa]**.
 
@@ -155,6 +177,17 @@ Puoi scegliere una delle due soluzioni seguenti:
 ## Guardrail dei tipi di pubblico {#audience}
 
 * Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
+
+### Attività Passa a {#jump-g}
+
+All&#39;attività **[!UICONTROL Salta]** si applicano protezioni specifiche. Sono elencati in [questa pagina](../building-journeys/jump.md#jump-limitations).
+
+### Attività campagna {#ac-g}
+
+Le seguenti protezioni si applicano alle attività **[!UICONTROL Campaign v7/v8]** e **[!UICONTROL Campaign Standard]**:
+
+* Le attività di Adobe Campaign non possono essere utilizzate con un’attività Read audience o Audience Qualification.
+* Queste attività non possono essere utilizzate con le attività in-app.
 
 ## Guardrail di gestione delle decisioni {#decision-management}
 

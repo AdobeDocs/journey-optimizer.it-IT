@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1478'
 ht-degree: 6%
 
 ---
@@ -40,6 +40,9 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
 * I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+
+I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
+
 
 ## Configurare l’attività {#configuring-segment-trigger-activity}
 
