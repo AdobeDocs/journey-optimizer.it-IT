@@ -4,12 +4,12 @@ product: journey optimizer
 title: Note sulla versione
 feature: Release Notes
 topic: Content Management
-description: Note sulla versione di Journey Optimizer
+description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 98%
+source-wordcount: '1830'
+ht-degree: 74%
 
 ---
 
@@ -26,9 +26,104 @@ ht-degree: 98%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
-## Aggiornamenti di agosto {#24-8-2024}
+## Note preliminari sulla versione di agosto 2024 {#e-2024}
 
-Le seguenti modifiche sono state rilasciate ad agosto:
+**Data di rilascio**: 20-21 agosto 2024
+
+>[!CAUTION]
+>
+>**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di rilascio**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati alla data di rilascio.
+>
+
+### Nuove funzionalità {#e-features}
+
+Questa versione include le nuove funzionalità elencate di seguito.
+
+<table>
+<thead>
+<tr>
+<th><strong>Impostazione canale guidato</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La configurazione guidata del canale consente di automatizzare i passaggi per la configurazione del canale mobile in un’esperienza unificata, per iniziare più rapidamente a utilizzare Journey Optimizer. Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Data Collection. Questo consente al team marketing di iniziare immediatamente con la creazione di campagne e percorsi.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Schede contenuto</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La scheda di contenuto è una nuova funzione di messaggistica digitale di Adobe Journey Optimizer che offre contenuti personalizzati e coinvolgenti direttamente all’interno di app mobili e siti web. A differenza delle notifiche push tradizionali, le schede di contenuto si integrano perfettamente nell’interfaccia utente, offrendo aggiornamenti persistenti e non intrusivi che migliorano l’interazione e l’esperienza dell’utente.</p>
+<p>Questa funzione consente agli addetti al marketing di presentare contenuti rich media rilevanti agli utenti, aumentando il coinvolgimento e garantendo la visualizzazione di messaggi importanti senza interrompere il percorso degli utenti.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Configurazioni del canale migliorate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora puoi definire, gestire e riutilizzare queste configurazioni per qualsiasi canale.</p>
+<p><ul>
+<li>Le superfici di canale ora sono rinominate in <strong>Configurazioni canale</strong></li>
+<li>Dall’inventario delle configurazioni di canale ora puoi creare configurazioni di canale riutilizzabili per tutti i canali, inclusi ora il web, la messaggistica in-app o l’esperienza basata su codice</li>
+<li>Il controllo dell'accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
+<li>Per alcuni canali, puoi creare configurazioni di canale mirate per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione del canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Azione personalizzata Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi integrare Adobe Journey Optimizer con Adobe Marketo Engage per creare i tuoi casi d’uso B2B. Una nuova azione personalizzata da un percorso consente di acquisire dati in Marketo.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variabili nei frammenti di contenuto</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I frammenti ora possono utilizzare variabili di input, sia nei <a href="../personalization/use-expression-fragments.md">frammenti di espressione</a> che nei <a href="../email/use-visual-fragments.md">frammenti visivi</a>. Puoi utilizzare queste variabili per personalizzare il contenuto e i parametri dei messaggi nelle campagne e nei percorsi.</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ Le seguenti modifiche sono state rilasciate ad agosto:
 </tr>
 </tbody>
 </table>
+
+
+### Miglioramenti {#e-improvements}
+
+Questa versione include i miglioramenti elencati di seguito.
+
+**Percorsi**
+
+* Nell&#39;attività **Condition**, per impostazione predefinita, la condizione Ora è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
+* Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati in un elenco a discesa, per allinearsi agli avvisi delle campagne e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale di zoom è ora visibile ed è possibile reimpostare facilmente il valore di zoom al 100%.
+
+**Tipi di pubblico**
+
+* L’utilizzo dei tipi di pubblico da caricamento personalizzato (file CSV) è ora disponibile con il componente aggiuntivo Privacy and Security Shield.
+* Quando esegui il targeting di un pubblico di caricamento personalizzato (file CSV), ora puoi utilizzare gli attributi del file nelle campagne e nei percorsi. Questi attributi sono disponibili nell’editor di personalizzazione, per personalizzare i messaggi, e nell’editor di espressioni avanzate di percorso.
 
 ## Note sulla versione di luglio 2024 {#24-7-2024}
 
@@ -96,8 +207,6 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * (Data di disponibilità: 8 luglio) **Editor di espressioni avanzate nella configurazione degli eventi percorso**: ora puoi sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, in modo da definire espressioni più complesse o utilizzare funzioni nella condizione ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## Note sulla versione di giugno 2024 {#24-6-2024}
 
 **Data di rilascio**: 18-19 giugno 2024
@@ -105,23 +214,6 @@ Questa versione include i miglioramenti elencati di seguito.
 ### Nuove funzionalità {#june-24-features}
 
 Questa versione include le nuove funzionalità elencate di seguito.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>

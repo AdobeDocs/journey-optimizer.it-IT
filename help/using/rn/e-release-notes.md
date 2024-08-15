@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 28%
+source-wordcount: '633'
+ht-degree: 34%
 
 ---
 
@@ -28,21 +28,6 @@ ht-degree: 28%
 ### Nuove funzionalità {#e-features}
 
 Questa versione include le nuove funzionalità elencate di seguito.
-
-<table>
-<thead>
-<tr>
-<th><strong>Azione personalizzata Marketo Engage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi integrare Adobe Journey Optimizer con Adobe Marketo Engage per creare i tuoi casi d’uso B2B. Una nuova azione personalizzata da un percorso consente di acquisire dati in Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
+<th><strong>Azione personalizzata Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi integrare Adobe Journey Optimizer con Adobe Marketo Engage per creare i tuoi casi d’uso B2B. Una nuova azione personalizzata da un percorso consente di acquisire dati in Marketo.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>Variabili nei frammenti di contenuto</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Flusso di lavoro di preparazione IP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Data di disponibilità: 13 agosto</p>
+<p>Se invii un’e-mail con un nuovo indirizzo IP, ora puoi eseguire facilmente i flussi di lavoro di preparazione IP direttamente dall’interfaccia utente. Adobe Journey Optimizer offre un modo standardizzato ed efficiente di preparare gli indirizzi IP seguendo le best practice per una recapitabilità ottimale.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/ip-warmup-gs.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>
