@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 47%
 
 ---
@@ -79,10 +79,10 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora puoi definire, gestire e riutilizzare queste configurazioni per qualsiasi canale.</p>
+<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora puoi definire, gestire e riutilizzare queste configurazioni per qualsiasi canale, incluso Web, messaggistica in-app o esperienza basata su codice.</p>
 <p><ul>
 <li>Le superfici di canale ora sono rinominate in <strong>Configurazioni canale</strong></li>
-<li>Dall’inventario delle configurazioni di canale ora puoi creare configurazioni di canale riutilizzabili per tutti i canali, inclusi ora il web, la messaggistica in-app o l’esperienza basata su codice</li>
+<li>Puoi allegare una o più azioni di marketing per applicare il consenso e i criteri di governance dei dati</li>
 <li>Il controllo dell'accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
 <li>Per alcuni canali, puoi creare configurazioni di canale mirate per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione del canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
 </ul></p>
@@ -91,7 +91,6 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
