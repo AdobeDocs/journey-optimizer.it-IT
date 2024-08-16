@@ -10,9 +10,9 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1326'
 ht-degree: 4%
 
 ---
@@ -173,7 +173,7 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
 
    * **[!UICONTROL Traduzione in corso]**: il provider di servizi sta lavorando attivamente alla traduzione.
 
-     Se hai selezionato **Traduzione interna** durante la configurazione delle **Impostazioni lingua**, puoi tradurre il contenuto direttamente nel progetto di traduzione. [Ulteriori informazioni](#manage-ht-project)
+     Se hai selezionato **Insourcing** durante la configurazione delle **impostazioni lingua**, puoi tradurre il contenuto direttamente nel progetto di traduzione. [Ulteriori informazioni](#manage-ht-project)
 
    * **[!UICONTROL Pronto per la revisione]**: il processo di revisione è pronto per iniziare, consentendo di accedere alla traduzione e di rifiutarla o approvarla.
 
@@ -203,11 +203,11 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
 
 Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l’impatto del percorso multilingue o della campagna all’interno dei rapporti.
 
-## Gestisci progetto di traduzione interna {#manage-ht-project}
+## Gestisci progetto di traduzione internalizzazione {#manage-ht-project}
 
-Se hai selezionato la traduzione interna durante la configurazione delle impostazioni di lingua, puoi tradurre il contenuto direttamente nel progetto di traduzione.
+Se hai selezionato Insourcing durante la configurazione delle impostazioni della lingua, puoi tradurre il contenuto direttamente nel progetto di traduzione.
 
-1. Dal **[!UICONTROL progetto di traduzione]**, accedi al menu **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Traduzione interna]**.
+1. Dal **[!UICONTROL progetto di traduzione]**, accedi al menu **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Insourcing]**.
 
    ![](assets/inhouse-translation-1.png)
 
