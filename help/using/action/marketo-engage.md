@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: marketo, integrazione marketo engagement
-source-git-commit: 6a49f4b2e0220b1c875b42f70dcb44f3405c6ad2
+source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -37,17 +37,17 @@ Approfitta di un percorso di integrazione perfetta dei dati con il Marketo Engag
 * Nell&#39;elenco Azioni fare clic su Crea azione. Ulteriori informazioni sulla creazione di azioni personalizzate qui (+link)
 * Immetti Nome, Descrizione e seleziona Adobe Marketo Engage come tipo di azione
 
-![](assets/engage-customaction-creation.png)
+![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
 * Fai clic su Modifica payload per i payload **Richiesta** e **Risposta**.
 * Per entrambi, componi il payload e incollalo nella finestra a comparsa dedicata.
 
-![](assets/engage-customaction-payload.png)
+![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * Inspect e configurare i valori del payload
 Nota: per passare i valori in modo dinamico, per ogni campo cambia **Costante** in **Variabile**.
 
-![](assets/engage-customaction-payload-fields.png)
+![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 * Fai clic su **Salva** nella finestra di configurazione del campo, quindi su **Salva** per eseguire l&#39;azione personalizzata.
 
@@ -114,5 +114,5 @@ Ora puoi utilizzare l’azione personalizzata nell’area di lavoro dedicata.
 * Trascina l’azione personalizzata nell’area di lavoro del percorso. (Scopri come utilizzare un’azione o un collegamento personalizzato)
 * In Parametri richiesta, fai clic su Modifica per ciascuno dei parametri con i valori dinamici configurati nel payload.
 
-![](assets/engage-use-canvas.png)
+![](assets/engage-use-canvas.png){width="70%" align="left"}
 
