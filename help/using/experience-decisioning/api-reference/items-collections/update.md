@@ -1,12 +1,14 @@
 ---
 title: Aggiornare una raccolta di elementi
+description: Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 8%
 Per modificare o aggiornare una raccolta di elementi, devi eseguire una richiesta PATCH all’API Libreria di offerte.
 
 Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](http://jsonpatch.com/).
-
-**Intestazioni Accept e Content-Type**
-
-La tabella seguente mostra i valori validi che comprendono i campi Content-Type nell’intestazione della richiesta:
-
-| Nome intestazione | Valore |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato API**
 

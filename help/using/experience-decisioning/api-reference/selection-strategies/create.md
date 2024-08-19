@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 9%
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 9%
 # Creare una strategia di selezione {#create-selection-strategy}
 
 Per creare una strategia di selezione, effettua una richiesta POST all’API Libreria di offerte.
-
-**Intestazioni Accept e Content-Type**
-
-La tabella seguente mostra i valori validi che comprendono i campi Content-Type nell’intestazione della richiesta:
-
-| Nome intestazione | Valore |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato API**
 

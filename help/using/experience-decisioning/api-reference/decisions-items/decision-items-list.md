@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 13%
 
 ---
@@ -58,7 +58,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce un elenco di elementi dell’offerta a cui hai accesso. Il _<imsOrg> il nodo ospita gli attributi degli elementi decisionali personalizzati.
+In caso di esito positivo, la risposta restituisce un elenco di elementi dell’offerta a cui hai accesso. Il nodo `_<imsOrg>` ospita gli attributi degli elementi decisionali personalizzati.
 
 ```json
 {
@@ -131,7 +131,7 @@ In caso di esito positivo, la risposta restituisce un elenco di elementi dell’
                     }
                 }
             },
-            "_<imsOrg>": {
+            "YOUR_CUSTOM_ATTRIBUTES": {
                 "some_field": "some value",
                 "some_boolean_field": true
             }

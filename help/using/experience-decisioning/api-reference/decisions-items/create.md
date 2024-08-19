@@ -1,14 +1,14 @@
 ---
 title: Creare un elemento di decisione
-description: Gli elementi decisionali sono offerte di marketing che puoi creare e organizzare in raccolte e cataloghi.
+description: Scopri come creare un elemento di decisione utilizzando l’API della Libreria di offerte.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 9%
 # Creare un elemento di decisione {#create-decision-items}
 
 Per creare un elemento decisionale, devi effettuare una richiesta POST all’API Libreria di offerte.
-
-**Intestazioni Accept e Content-Type**
-
-La tabella seguente mostra i valori validi che comprendono i campi Content-Type nell’intestazione della richiesta:
-
-| Nome intestazione | Valore |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **Formato API**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```
