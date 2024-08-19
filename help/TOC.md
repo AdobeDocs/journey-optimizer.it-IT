@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,16 +61,16 @@ ht-degree: 99%
       + [Introduzione alle attività dei percorsi](using/building-journeys/about-journey-activities.md)
       + [Eventi generali](using/building-journeys/general-events.md)
       + [Reazione](using/building-journeys/reaction-events.md)
-      + [Qualifica tipi di pubblico](using/building-journeys/audience-qualification-events.md)
+      + [Qualificazione del pubblico](using/building-journeys/audience-qualification-events.md)
       + [Condizione](using/building-journeys/condition-activity.md)
       + [Attendere](using/building-journeys/wait-activity.md)
-      + [Leggere tipi di pubblico](using/building-journeys/read-audience.md)
+      + [Leggi pubblico](using/building-journeys/read-audience.md)
       + [E-mail, In-app, Push, SMS](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Salta](using/building-journeys/jump.md)
-      + [Aggiorna profilo](using/building-journeys/update-profiles.md)
+      + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
    + Creare espressioni {#building-advanced-conditions-journeys}
       + [Utilizzare l’editor espressioni avanzato](using/building-journeys/expression/expressionadvanced.md)
       + Sintassi {#syntax}
