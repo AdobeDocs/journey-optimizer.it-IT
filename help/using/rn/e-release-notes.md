@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 34%
+ht-degree: 57%
 
 ---
 
@@ -70,12 +70,12 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora puoi definire, gestire e riutilizzare queste configurazioni per qualsiasi canale.</p>
+<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora è possibile definire, gestire e riutilizzare queste configurazioni per qualsiasi canale.</p>
 <p><ul>
-<li>Le superfici di canale ora sono rinominate in <strong>Configurazioni canale</strong></li>
-<li>Dall’inventario delle configurazioni di canale ora puoi creare configurazioni di canale riutilizzabili per tutti i canali, inclusi ora il web, la messaggistica in-app o l’esperienza basata su codice</li>
-<li>Il controllo dell'accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
-<li>Per alcuni canali, puoi creare configurazioni di canale mirate per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione del canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
+<li>Le superfici di canale ora sono state rinominate in <strong>Configurazioni di canale</strong></li>
+<li>Dall’inventario delle configurazioni di canale ora è possibile creare configurazioni di canale riutilizzabili per tutti i canali, inclusi il Web, la messaggistica in-app o l’esperienza basata su codice</li>
+<li>Il controllo dell’accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
+<li>Per alcuni canali, è possibile creare configurazioni di canale in grado di eseguire il targeting per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione di canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
 </ul></p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/ip-warmup-gs.md">documentazione dettagliata</a>.</p>
 </td>
@@ -155,7 +155,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Nell&#39;attività **Condition**, per impostazione predefinita, la condizione Ora è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
+* Nell’attività **Condizione**, per impostazione predefinita, adesso la condizione Tempo è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
 * Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati in un elenco a discesa, per allinearsi agli avvisi delle campagne e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale di zoom è ora visibile ed è possibile reimpostare facilmente il valore di zoom al 100%.
 

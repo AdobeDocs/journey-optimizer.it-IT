@@ -21,13 +21,13 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Agosto 2024 {#aug-2024}
 
-* I guardrail delle prestazioni per la gestione delle decisioni sono stati aggiornati per citare le velocità effettive di consegna delle API Decisioning con/senza segmentazione Edge. [Ulteriori informazioni](../start/guardrails.md#decision-management)
+* I guardrail delle prestazioni per la gestione delle decisioni sono stati aggiornati per citare le velocità effettive di consegna delle API Decisioning con/senza segmentazione di Edge. [Ulteriori informazioni](../start/guardrails.md#decision-management)
 * I guardrail di percorso sono stati aggiornati. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## Luglio 2024 {#july-2024}
 
-* Tutte le nuove funzioni e i miglioramenti apportati alla versione del 24 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di luglio 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stato aggiunto un caso di utilizzo di personalizzazione su come personalizzare un’e-mail con informazioni relative a piani sanitari e prescrizioni. [Ulteriori informazioni](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Giugno 2024 {#june-2024}
