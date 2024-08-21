@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,11 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
+
+### Guardrail del canale web {#web-guardrails}
+
+[!DNL Journey Optimizer] campagne web eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. Questo aumenterà il conteggio totale dei profili coinvolgibili, il che potrebbe avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
 
 ## Guardrail di sottodomini {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ All’attività **[!UICONTROL Qualificazione del pubblico]** viene applicato il 
 
 * La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
 
-## Guardrail dei tipi di pubblico {#audience}
 
-* Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
 ### Attività Salta {#jump-g}
 
@@ -188,6 +191,10 @@ I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
 * Queste attività non possono essere utilizzate con le attività in-app.
+
+## Guardrail dei tipi di pubblico {#audience}
+
+Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
 ## Guardrail di gestione delle decisioni {#decision-management}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1493'
 ht-degree: 17%
 
 ---
@@ -74,7 +74,7 @@ Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le c
 
 ## Condizione Data Source {#data_source_condition}
 
-Questo consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Scopri come utilizzare l’editor di espressioni in [questa sezione](expression/expressionadvanced.md).
+Utilizzare una **[!UICONTROL condizione Data Source]** per definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Questo tipo di condizione viene definito con l’editor di espressioni. Scopri come utilizzare l’editor di espressioni in [questa sezione](expression/expressionadvanced.md).
 
 Ad esempio, se esegui il targeting di un pubblico con attributi di arricchimento generati utilizzando un flusso di lavoro di composizione o un caricamento personalizzato (file CSV), puoi sfruttare questi attributi di arricchimento per creare la condizione.
 
@@ -82,13 +82,15 @@ Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più a
 
 ![](assets/journey50.png)
 
-## Condizione temporale{#time_condition}
+## Condizione temporale {#time_condition}
 
-Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al giorno della settimana. Ad esempio, puoi decidere di inviare notifiche push durante il giorno e e-mail di notte nei giorni feriali.
+Utilizza una **[!UICONTROL Condizione temporale]** per eseguire azioni diverse in base all&#39;ora del giorno e/o al giorno della settimana. Ad esempio, puoi decidere di inviare notifiche push durante il giorno e e-mail di notte nei giorni feriali.
 
 >[!NOTE]
 >
->Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>* Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/timezone-management.md).
+>
+>* Per impostazione predefinita, la **[!UICONTROL condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00.
 
 ![](assets/journey51.png)
 

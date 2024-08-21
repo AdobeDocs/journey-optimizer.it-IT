@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # Elenco dei componenti {#list-of-components-live}
+
+>[!AVAILABILITY]
+>
+>L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti e le relative definizioni a seconda del tipo di consegna.
 

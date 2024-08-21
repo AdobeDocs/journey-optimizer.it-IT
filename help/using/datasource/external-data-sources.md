@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 60%
+source-wordcount: '1535'
+ht-degree: 49%
 
 ---
 
@@ -102,7 +102,7 @@ In caso di una chiamata di GET che richieda i parametri, inseriscili nel campo *
 * Elencare i parametri da passare al momento della chiamata nel campo **[!UICONTROL Valori dinamici]** (nell&#39;esempio seguente: &quot;identifier&quot;).
 * Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A questo scopo, devi aggiungere: &quot;param&quot;: &quot;nome del tuo parametro&quot; (nell’esempio seguente: &quot;identifier&quot;). Attieniti alla sintassi seguente:
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -141,28 +141,28 @@ Con questa autenticazione, l’esecuzione dell’azione è un processo suddiviso
 
 ### Definizione dell’endpoint da chiamare per generare il token di accesso{#custom-authentication-endpoint}
 
-* endpoint: URL da utilizzare per generare l’endpoint
-* metodo della richiesta HTTP sull’endpoint (GET o POST)
-* intestazioni: coppie chiave-valore da inserire come intestazioni in questa chiamata, se necessario
-* corpo: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave-valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
-   * &#39;form&#39;: indica che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: indica che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* `endpoint`: URL da utilizzare per generare l&#39;endpoint
+* metodo della richiesta HTTP sull&#39;endpoint (`GET` o `POST`)
+* `headers`: coppie chiave-valore da inserire come intestazioni in questa chiamata, se necessario
+* `body`: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave-valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
+   * `form`: il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e le coppie chiave-valore verranno serializzate così come sono: key1=value1&amp;key2=value2&amp;...
+   * `json`: il tipo di contenuto sarà application/json (charset UTF-8) e le coppie chiave-valore saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definizione del modo in cui il token di accesso deve essere inserito nella richiesta HTTP dell’azione{#custom-authentication-access-token}
 
-* authorizationType: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l’azione. I valori possibili sono:
+* **authorizationType**: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l&#39;azione. I valori possibili sono:
 
-   * bearer: indica che il token di accesso deve essere inserito nell’intestazione Autorizzazione, ad esempio: _Authorization: Bearer &lt;token di accesso>_
-   * header: indica che il token di accesso deve essere inserito come intestazione, il nome dell’intestazione è definito dalla proprietà tokenTarget. Ad esempio, se tokenTarget è myHeader, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
-   * queryParam: indica che il token di accesso deve essere inserito come queryParam, il nome del param di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
+   * `bearer`: indica che il token di accesso deve essere inserito nell&#39;intestazione Autorizzazione, ad esempio: _Autorizzazione: Bearer &lt;token di accesso>_
+   * `header`: indica che il token di accesso deve essere inserito come intestazione, il nome dell&#39;intestazione è definito dalla proprietà `tokenTarget`. Ad esempio, se `tokenTarget` è `myHeader`, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
+   * `queryParam`: indica che il token di accesso deve essere inserito come queryParam, il nome del parametro di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
 
-* tokenInResponse: indica come estrarre il token di accesso dalla chiamata di autenticazione. Questa proprietà può corrispondere a:
-   * &#39;response&#39;: indica che la risposta HTTP è il token di accesso.
-   * Un selettore in un json: poiché la risposta deve essere un json, non sono supportati altri formati come XML. Il formato di questo selettore è _json://&lt;percorso della proprietà del token di accesso>_. Ad esempio, se la risposta della chiamata è: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656}_, tokenInResponse sarà: _json: //access_token_
+* **tokenInResponse**: indica come estrarre il token di accesso dalla chiamata di autenticazione. Questa proprietà può corrispondere a:
+   * `response`: indica che la risposta HTTP è il token di accesso
+   * un selettore in un json (supponendo che la risposta sia un json, non sono supportati altri formati come XML). Il formato di questo selettore è _json://&lt;percorso della proprietà del token di accesso>_. Ad esempio, se la risposta della chiamata è: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656}_, tokenInResponse sarà: _json: //access_token_
 
 Il formato di questa autenticazione è:
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ Il formato di questa autenticazione è:
 >
 >Encode64 è l’unica funzione disponibile nel payload di autenticazione.
 
-Adesso puoi modificare la durata della cache del token per un’origine dati di autenticazione personalizzata. Di seguito è riportato un esempio di payload di autenticazione personalizzato. La durata della cache è definita nel parametro “cacheDuration”. Tale parametro Specifica la durata di conservazione del token generato nella cache. L’unità può essere in millisecondi, secondi, minuti, ore, giorni, mesi, anni.
+Adesso puoi modificare la durata della cache del token per un’origine dati di autenticazione personalizzata. Di seguito è riportato un esempio di payload di autenticazione personalizzato. Durata della cache definita nel parametro `cacheDuration`. Tale parametro Specifica la durata di conservazione del token generato nella cache. L’unità può essere in millisecondi, secondi, minuti, ore, giorni, mesi, anni.
 
 Ecco un esempio per il tipo di autenticazione bearer:
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ Ecco un esempio per il tipo di autenticazione bearer:
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ Ecco un esempio per il tipo di autenticazione bearer:
 
 Di seguito è riportato un esempio per il tipo di autenticazione dell’intestazione:
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ Di seguito è riportato un esempio per il tipo di autenticazione dell’intestaz
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 Ecco un esempio della risposta della chiamata API di accesso:
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

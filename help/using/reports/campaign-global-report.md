@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '4806'
+source-wordcount: '4851'
 ht-degree: 23%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 23%
 >id="ajo_campaign_global_report"
 >title="Rapporto globale della campagna"
 >abstract="Il rapporto globale delle campagne consente di misurare l’impatto di una campagna in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
+
+>[!AVAILABILITY]
+>
+>L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 I report globali, accessibili dalla scheda **Tutto il tempo**, visualizzano gli eventi verificatisi almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 

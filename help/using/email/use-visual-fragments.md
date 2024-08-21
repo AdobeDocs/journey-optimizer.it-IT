@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '713'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,12 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 1. Se necessario, puoi interrompere l’ereditarietà con il frammento originale. [Ulteriori informazioni](#break-inheritance)
 
 1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le modifiche.
+
+## Usa variabili implicite {#implicit-variables-in-fragments}
+
+Le variabili implicite migliorano la funzionalità dei frammenti esistenti per migliorare l’efficienza in termini di riutilizzabilità dei contenuti e casi di utilizzo di script. I frammenti possono utilizzare variabili di input e creare variabili di output utilizzabili nel contenuto di campagne e percorsi.
+
+Scopri come utilizzare le variabili implicite in [questa sezione](../personalization/use-expression-fragments.md#implicit-variables).
 
 ## Personalizza campi modificabili {#customize-fields}
 

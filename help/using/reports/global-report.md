@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 28%
+source-wordcount: '873'
+ht-degree: 27%
 
 ---
 
 # Introduzione ai rapporti globali {#global-report}
+
+>[!AVAILABILITY]
+>
+>L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 >[!NOTE]
 >

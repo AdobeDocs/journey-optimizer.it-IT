@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Introduzione agli avvisi {#alerts}
+
+Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per verificare e risolvere gli errori prima di eseguirli o pubblicarli. Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md). Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md).
+
+È inoltre possibile abbonarsi agli avvisi di sistema di Adobe Journey Optimizer come descritto in questa pagina.
 
 ## Accedere e sottoscrivere gli avvisi {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ Per risolvere i problemi relativi agli avvisi di **Azione personalizzata**:
   ![](assets/alert-troubleshooting-3.png)
 
 * Controlla il tuo stepEvents di percorso per cercare ulteriori informazioni su &quot;failureReason&quot;.
-* Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Eseguire un controllo manuale con Postman,
-ad esempio.
+
+* Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Esegui un controllo manuale con Postman, ad esempio.

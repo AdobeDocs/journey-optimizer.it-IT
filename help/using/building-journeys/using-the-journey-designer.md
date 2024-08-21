@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Le attività di azione del canale consentono di includere un messaggio progettat
 
 Dalle attività di azione, utilizza azioni personalizzate per inviare messaggi con sistemi di terze parti. [Ulteriori informazioni sulle azioni personalizzate](about-journey-activities.md#action-activities).
 
-## Aggiungere percorsi alternativi{#paths}
+## Aggiungere percorsi alternativi {#paths}
 
 È possibile definire un&#39;azione di fallback in caso di errore o timeout per le seguenti attività di percorso: **[!UICONTROL Condizione]** e **[!UICONTROL Azione]**.
 

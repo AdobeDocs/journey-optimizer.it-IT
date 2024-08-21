@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '640'
 ht-degree: 3%
 
 ---
 
 # Introduzione ai rapporti sul canale {#channel-report-gs}
+
+>[!AVAILABILITY]
+>
+>L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 I rapporti per canale fungono da potente strumento che fornisce una panoramica completa delle metriche di traffico e coinvolgimento in un rapporto unificato per ciascun canale, includendo tutte le azioni di tutte le campagne e i Percorsi. È divisa in diversi widget, ciascuno dei quali fornisce una visualizzazione specifica delle prestazioni della campagna o del percorso.
 

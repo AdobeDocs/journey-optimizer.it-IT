@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3683'
+source-wordcount: '3728'
 ht-degree: 27%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 27%
 >id="ajo_channel_level_report"
 >title="Rapporto a livello di canale"
 >abstract="I rapporti sul canale offrono una panoramica completa delle metriche del traffico e del coinvolgimento su tutti i canali. I rapporti sono suddivisi in diversi widget che descrivono nel dettaglio i successi e gli errori della campagna e dei percorsi. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
+
+>[!AVAILABILITY]
+>
+>L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 >[!IMPORTANT]
 >

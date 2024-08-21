@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 57%
+source-wordcount: '325'
+ht-degree: 61%
 
 ---
 
@@ -28,77 +28,6 @@ ht-degree: 57%
 ### Nuove funzionalità {#e-features}
 
 Questa versione include le nuove funzionalità elencate di seguito.
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Impostazione canale guidato</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La configurazione guidata del canale consente di automatizzare i passaggi per la configurazione del canale mobile in un’esperienza unificata, per iniziare più rapidamente a utilizzare Journey Optimizer. Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Data Collection. Questo consente al team marketing di iniziare immediatamente con la creazione di campagne e percorsi.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Schede contenuto</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La scheda di contenuto è una nuova funzione di messaggistica digitale di Adobe Journey Optimizer che offre contenuti personalizzati e coinvolgenti direttamente all’interno di app mobili e siti web. A differenza delle notifiche push tradizionali, le schede di contenuto si integrano perfettamente nell’interfaccia utente, offrendo aggiornamenti persistenti e non intrusivi che migliorano l’interazione e l’esperienza dell’utente.</p>
-<p>Questa funzione consente agli addetti al marketing di presentare contenuti rich media rilevanti agli utenti, aumentando il coinvolgimento e garantendo la visualizzazione di messaggi importanti senza interrompere il percorso degli utenti.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Configurazioni del canale migliorate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora è possibile definire, gestire e riutilizzare queste configurazioni per qualsiasi canale.</p>
-<p><ul>
-<li>Le superfici di canale ora sono state rinominate in <strong>Configurazioni di canale</strong></li>
-<li>Dall’inventario delle configurazioni di canale ora è possibile creare configurazioni di canale riutilizzabili per tutti i canali, inclusi il Web, la messaggistica in-app o l’esperienza basata su codice</li>
-<li>Il controllo dell’accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
-<li>Per alcuni canali, è possibile creare configurazioni di canale in grado di eseguire il targeting per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione di canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
-</ul></p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/ip-warmup-gs.md">documentazione dettagliata</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Azione personalizzata Marketo Engage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi integrare Adobe Journey Optimizer con Adobe Marketo Engage per creare i tuoi casi d’uso B2B. Una nuova azione personalizzata da un percorso consente di acquisire dati in Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -163,6 +92,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * L’utilizzo dei tipi di pubblico provenienti da caricamento personalizzato (file CSV) è ora disponibile con Privacy and Security Shield.
 * Quando esegui il targeting di un pubblico di caricamento personalizzato (file CSV), ora puoi utilizzare gli attributi del file nelle campagne e nei percorsi. Questi attributi sono disponibili nell’editor di personalizzazione, per personalizzare i messaggi, e nell’editor di espressioni avanzate di percorso.
+
 
 <!--
 **Push channel**

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,39 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 >[!NOTE]
 >
 >Se crei un frammento di espressione che contiene più interruzioni di riga e lo utilizzi nel contenuto [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md), le interruzioni di riga vengono mantenute. Assicurati quindi di verificare il messaggio [SMS](../sms/send-sms.md) o [push](../push/send-push.md) prima di inviarlo.
+
+## Usa variabili implicite {#implicit-variables}
+
+Le variabili implicite migliorano la funzionalità dei frammenti esistenti per migliorare l’efficienza in termini di riutilizzabilità dei contenuti e casi di utilizzo di script. I frammenti possono utilizzare variabili di input e creare variabili di output che possono essere utilizzate nel contenuto di campagne e percorsi.
+
+Questa funzionalità può essere utilizzata, ad esempio, per inizializzare i parametri di tracciamento delle e-mail, in base alla campagna o al percorso corrente, e utilizzarli nei collegamenti personalizzati aggiunti al contenuto dell’e-mail.
+
+Sono possibili i seguenti casi d’uso:
+
+1. Utilizzare le variabili di input in un frammento
+
+   Quando un frammento viene utilizzato in un contenuto di azione Campaign/percorso, può sfruttare le variabili dichiarate al di fuori del frammento. Di seguito è riportato un esempio:
+
+   ![](../personalization/assets/variable-in-a-fragment.png)
+
+   Vediamo che sopra la variabile `utm_content` è dichiarata nel contenuto della campagna. Quando si utilizza il frammento **Blocco principale**, verrà visualizzato un collegamento a cui verrà aggiunto il valore del parametro `utm_content`. Risultato finale: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
+
+1. Utilizzare variabili di output da un frammento
+
+   Le variabili calcolate o definite all’interno di un frammento sono disponibili per l’utilizzo nel contenuto. Nell&#39;esempio seguente, un frammento **F1** dichiara un set di variabili:
+
+   ![](../personalization/assets/personalize-with-variables.png)
+
+   In un contenuto e-mail, possiamo avere la seguente personalizzazione:
+
+   ![](../personalization/assets/use-fragment-variable.png)
+
+   Il frammento F1 inizializza le seguenti variabili: `utm_campaign` e `utm_content`. Al collegamento nel contenuto del messaggio verranno aggiunti questi parametri. Risultato finale: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
+
+>[!NOTE]
+>
+>In fase di runtime, il sistema espande il contenuto dei frammenti e quindi interpreta il codice di personalizzazione dall’alto verso il basso. Tenendo presente questo aspetto, è possibile ottenere casi d’uso più complessi. Ad esempio, puoi avere un frammento F1 che passa le variabili a un altro frammento F2 che si trova sotto. È inoltre possibile che un frammento visivo F1 passi delle variabili a un frammento di espressione nidificato F2.
+
 
 ## Personalizza campi modificabili {#customize-fields}
 

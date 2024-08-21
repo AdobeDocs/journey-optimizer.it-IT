@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
 
 # Introduzione ai rapporti live {#live-report}
+
+>[!AVAILABILITY]
+>
+>L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata.
 I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**.
