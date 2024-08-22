@@ -27,7 +27,7 @@ ht-degree: 14%
 >id="ajo_create_expression_fragment"
 >title="Seleziona il tipo di espressione"
 >abstract="Crea da zero un frammento di espressione autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne. Quando utilizzi l’editor di personalizzazione, puoi sfruttare tutti i frammenti di espressione che sono stati creati nella sandbox corrente."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Sfruttare i frammenti di espressione"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Sfruttare i frammenti di espressione"
 
 I frammenti possono essere creati da zero dal menu a sinistra **[!UICONTROL Frammenti]**. Inoltre, è possibile anche salvare una parte del contenuto esistente come frammento durante la progettazione. [Scopri come](#save-as-fragment)
 

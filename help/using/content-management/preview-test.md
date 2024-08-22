@@ -16,12 +16,12 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Controlla come viene eseguito il rendering del contenuto"
+>title="Controllare come viene eseguito il rendering del contenuto"
 >abstract="Una volta definito il contenuto, puoi utilizzare i profili di test per visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="Controlla come viene eseguito il rendering del contenuto"
+>title="Controllare come viene eseguito il rendering del contenuto"
 >abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
 ## Informazioni sull’anteprima e il test dei contenuti {#about}
