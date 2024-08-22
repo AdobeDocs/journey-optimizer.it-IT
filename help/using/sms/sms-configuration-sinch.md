@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Quando utilizzi il provider Sinch con Journey Optimizer, puoi trovare due opzion
 
 Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journey Optimizer, effettua le seguenti operazioni:
 
-1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** `>` **[!UICONTROL Impostazioni SMS]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 
 1. Configura le credenziali API SMS, come descritto di seguito:
 
@@ -56,7 +56,7 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
-Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale per i messaggi SMS. [Ulteriori informazioni](sms-configuration-surface.md)
+Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi SMS. [Ulteriori informazioni](sms-configuration-surface.md)
 
 ## Credenziali API Sinch MMS {#sinch-mms}
 
@@ -66,7 +66,7 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare una 
 
 Per configurare Sinch MMS per l’invio di MMS con Journey Optimizer, effettua le seguenti operazioni:
 
-1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** `>` **[!UICONTROL Impostazioni SMS]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 
 1. Configura le credenziali API MMS, come descritto di seguito:
 
@@ -83,4 +83,4 @@ Per configurare Sinch MMS per l’invio di MMS con Journey Optimizer, effettua l
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
-Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale per i messaggi MMS. [Ulteriori informazioni](sms-configuration-surface.md)
+Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi MMS. [Ulteriori informazioni](sms-configuration-surface.md)

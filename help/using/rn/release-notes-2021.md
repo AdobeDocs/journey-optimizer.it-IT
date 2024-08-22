@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -285,7 +285,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 **Configurazione e-mail**
 
 * **Elenco Consentiti** - L’elenco Consentiti può ora essere abilitato e disabilitato in una sandbox non di produzione tramite una chiamata API. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
-* **Navigazione** - Elenco di soppressione, accessibile dal menu **Amministrazione > Canali > Configurazione e-mail > Generale** è stato spostato nel nuovo sottomenu **Elenco di eliminazione**, che raccoglie tutte le funzionalità correlate per un accesso più semplice. [Ulteriori informazioni](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Navigazione** - L&#39;elenco di soppressione, accessibile dal menu **Amministrazione > Canali > Impostazioni e-mail > Generale**, è stato spostato nel nuovo sottomenu **Elenco di eliminazione**, che raccoglie tutte le funzionalità correlate per un accesso più semplice. [Ulteriori informazioni](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestione delle decisioni**
 

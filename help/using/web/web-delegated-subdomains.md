@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sottodomini, configurazione
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -48,7 +48,7 @@ Puoi creare diversi sottodomini web, ma verrà utilizzato solo il sottodominio *
 
 ## Accesso e gestione dei sottodomini web {#access-web-subdomains}
 
-1. Vai al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Configurazione Web]** > **[!UICONTROL Sottodomini Web]**. Vengono visualizzati tutti i sottodomini configurati con la sandbox corrente.
+1. Vai al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni Web]** > **[!UICONTROL Sottodomini Web]**. Vengono visualizzati tutti i sottodomini configurati con la sandbox corrente.
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,7 +68,7 @@ Puoi creare diversi sottodomini web, ma verrà utilizzato solo il sottodominio *
 
 Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Configurazione Web]** > **[!UICONTROL Sottodomini Web]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni Web]** > **[!UICONTROL Sottodomini Web]**.
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
@@ -109,7 +109,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 >
 >Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare fino a 10 sottodomini in totale (che coprono sia i canali e-mail che web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Configurazione Web]** > **[!UICONTROL sottodomini Web]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni Web]** > **[!UICONTROL Sottodomini Web]**.
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
@@ -153,7 +153,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
    >
    >Prima di poter utilizzare tale sottodominio per inviare messaggi web, devi attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.
 
-1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare superfici di canale web.
+1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare configurazioni del canale web.
 
    Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
 

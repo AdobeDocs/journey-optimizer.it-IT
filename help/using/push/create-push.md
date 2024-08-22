@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 10%
 
 ---
 
@@ -34,7 +34,7 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
    ![](assets/push_create_1.png)
 
-1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli la superficie del messaggio da utilizzare. Il campo **[!UICONTROL Superficie]** è precompilato, per impostazione predefinita, con l&#39;ultima superficie utilizzata per quel canale dall&#39;utente.
+1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli la configurazione del messaggio da utilizzare.
 
    ![](assets/push_create_2.png)
 
@@ -54,21 +54,25 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
 >[!TAB Aggiungere un messaggio push a una campagna]
 
-1. Crea una nuova campagna pianificata o attivata da API, seleziona **[!UICONTROL Notifica push]** come azione e scegli la **[!UICONTROL Superficie app]** da utilizzare. [Ulteriori informazioni sulla configurazione push](push-configuration.md).
+1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
-   ![](assets/push_create_3.png)
+1. Seleziona il tipo di campagna da eseguire
 
-1. Fai clic su **[!UICONTROL Crea]**.
+   * **Pianificato - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi di marketing. Vengono configurati ed eseguiti dall’interfaccia utente di.
+
+   * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc.
 
 1. Dalla sezione **[!UICONTROL Proprietà]**, modifica il **[!UICONTROL Titolo]** e la **[!UICONTROL Descrizione]** della tua campagna.
-
-   ![](assets/push_create_4.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni](../audience/about-audiences.md).
 
 1. Nel campo **[!UICONTROL Spazio dei nomi identità]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/push_create_5.png)
+1. Nella sezione **[!UICONTROL Azioni]**, scegli la **[!UICONTROL notifica push]** e seleziona o crea una nuova configurazione.
+
+   Ulteriori informazioni sulla configurazione push in [questa pagina](push-configuration.md).
+
+   ![](assets/push_create_3.png)
 
 1. Fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l&#39;opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
@@ -122,7 +126,7 @@ I messaggi di consegna rapida sono forniti con i seguenti requisiti:
 
 1. Crea una campagna di notifica push e attiva l&#39;opzione **[!UICONTROL Consegna rapida]**.
 
-![](assets/create-campaign-burst.png)
+   ![](assets/create-campaign-burst.png)
 
 1. Configura il contenuto del messaggio e seleziona il pubblico di destinazione. [Scopri come creare una campagna](#create)
 

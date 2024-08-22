@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Per creare una campagna attivata da API, segui i passaggi seguenti. Informazioni
 
 1. Scegli la categoria **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]** a seconda del tipo di comunicazione che desideri inviare.
 
-1. Scegli uno dei canali supportati e la superficie di canale associata da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Crea]**.
+1. Scegli uno dei canali supportati e la relativa configurazione di canale da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Crea]**.
 
    ![](assets/api-triggered-type.png)
 

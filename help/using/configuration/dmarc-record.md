@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1355'
 ht-degree: 12%
 
 ---
@@ -82,7 +82,7 @@ L&#39;interfaccia di amministrazione [!DNL Journey Optimizer] consente di impost
 
 Per verificare che il record DMARC sia impostato per tutti i sottodomini delegati in [!DNL Journey Optimizer], eseguire la procedura seguente.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
 
 1. Per ogni sottodominio delegato, controlla la colonna **[!UICONTROL Record DMARC]**. Se non è stato trovato alcun record per un determinato sottodominio, viene visualizzato un avviso.
 

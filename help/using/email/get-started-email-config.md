@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configurazione, superficie, sottodomini
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,14 +28,14 @@ Per inviare e-mail tramite percorsi e campagne in [!DNL Journey Optimizer], devi
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Crea superfici di canale e seleziona il canale **[!UICONTROL e-mail]**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+1. Crea configurazioni canale e seleziona il canale **[!UICONTROL E-mail]**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. In ogni superficie di canale e-mail, configura tutti i parametri tecnici necessari per inviare e-mail. [Ulteriori informazioni](email-settings.md)
+1. In ogni configurazione del canale e-mail, configura tutti i parametri tecnici richiesti per la consegna delle e-mail. [Ulteriori informazioni](email-settings.md)
 
-   * In questo punto è possibile selezionare il sottodominio da utilizzare per inviare le e-mail e i pool IP da associare alla superficie. [Ulteriori informazioni](email-settings.md#subdomains-and-ip-pools)
+   * In questo caso, seleziona il sottodominio da utilizzare per inviare le e-mail e i pool IP da associare alla configurazione. [Ulteriori informazioni](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

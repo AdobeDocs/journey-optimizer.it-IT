@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 18%
+source-wordcount: '803'
+ht-degree: 16%
 
 ---
 
@@ -28,18 +28,20 @@ Per creare messaggi di direct mailing, crea una campagna pianificata e configura
 >Prima di creare un messaggio di direct mailing, assicurati di aver configurato:
 >
 >1. Una [configurazione di indirizzamento file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui deve essere caricato e memorizzato il file di estrazione,
->1. Una [superficie messaggi di direct mailing](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
+>1. [configurazione del messaggio di direct mailing](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
 
 
 ## Creare una campagna di direct mailing{#create-dm-campaign}
 
 Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
-1. Crea una nuova campagna pianificata e scegli **[!UICONTROL Direct mail]** come azione.
+1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
-1. Selezionare la **[!UICONTROL superficie di direct mailing]** da utilizzare e fare clic su **[!UICONTROL Crea]**. [Scopri come creare una superficie per direct mailing](direct-mail-configuration.md#direct-mail-surface).
+1. Seleziona il tipo di campagna da eseguire
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **Pianificato - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi di marketing. Vengono configurati ed eseguiti dall’interfaccia utente di.
+
+   * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc.
 
 1. Nella sezione **[!UICONTROL Proprietà]**, modifica il **[!UICONTROL Titolo]** e la **[!UICONTROL Descrizione]** della tua campagna.
 
@@ -51,7 +53,11 @@ Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
 1. Nel campo **[!UICONTROL Spazio dei nomi identità]**, seleziona lo spazio dei nomi appropriato per identificare i singoli utenti all&#39;interno del pubblico scelto. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. Nella sezione **[!UICONTROL Azioni]** scegliere **[!UICONTROL Direct mail]**.
+
+1. Selezionare o creare una nuova configurazione **[!UICONTROL Configurazione direct mailing]** da utilizzare. [Scopri come creare una configurazione di direct mailing](direct-mail-configuration.md#direct-mail-surface).
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. Le campagne possono essere pianificate per una data specifica o impostate per essere ricorrenti a intervalli regolari. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
 
@@ -78,12 +84,6 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
    1. Nel campo **[!UICONTROL Dati]**, seleziona gli attributi del profilo da visualizzare utilizzando l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
    1. Per ordinare il file di estrazione utilizzando una colonna, selezionare la colonna e attivare l&#39;opzione **[!UICONTROL Ordina per]**. Accanto all&#39;etichetta della colonna nella sezione **[!UICONTROL Campi dati]** viene visualizzata l&#39;icona **[!UICONTROL Ordina per]**.
-
-
-
-
-
-
 
 Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 

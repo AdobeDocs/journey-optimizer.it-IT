@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5454'
 ht-degree: 99%
@@ -205,7 +205,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiunta una nota per specificare che, se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
 * Nella gestione delle decisioni è stata chiarita la spiegazione su come garantire che gli eventi siano correttamente presi in considerazione nel contatore del limite della sezione **Evento di limitazione**. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping-event)
 * È stata aggiunta una nuova sezione alla pagina **Modifica gli indirizzi di esecuzione**. Questa specifica che è possibile sostituire il campo di esecuzione impostato globalmente nei parametri avanzati del percorso, ma la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
-* La sezione **Tracciamento URL** ora fornisce l’elenco e la descrizione di tutti gli attributi contestuali che possono essere impostati per il tracciamento degli URL in una superficie di un canale e-mail. [Ulteriori informazioni](../email/email-settings.md#url-tracking)
+* La sezione **Tracciamento URL** fornisce ora l&#39;elenco e la descrizione di tutti gli attributi contestuali che possono essere impostati per il tracciamento URL in una configurazione del canale e-mail. [Ulteriori informazioni](../email/email-settings.md#url-tracking)
 
 ## Marzo 2023 {#march-2023}
 
@@ -296,7 +296,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Luglio 2022 {#july-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione del 22 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
-* La sezione **Impostare le superfici di canale** è stata resa più chiara e aggiornata con collegamenti verso la pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
+* La sezione **Configurare le configurazioni del canale** è stata chiarita e aggiornata con collegamenti verso la pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * Nelle proprietà del percorso, l’opzione **Fuso orario del profilo** è disabilitata per impostazione predefinita. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Nell’attività **Attendi** l’opzione **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 * Sono state aggiunte più informazioni sull’opzione **Lettura incrementale** nell’attività **Leggi pubblico**. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

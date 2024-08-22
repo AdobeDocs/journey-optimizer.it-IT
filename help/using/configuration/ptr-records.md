@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 9%
@@ -36,7 +36,7 @@ Con i record PTR, i server di posta di ricezione possono verificare l&#39;autent
 
 ## Accedere ai record PTR dei sottodomini {#access-ptr-records}
 
-Dopo aver [delegato](delegate-subdomain.md) il primo sottodominio all&#39;Adobe in [!DNL Journey Optimizer], i record PTR vengono creati automaticamente per gli IP. Puoi accedervi dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Record PTR]**.
+Dopo aver [delegato](delegate-subdomain.md) il primo sottodominio all&#39;Adobe in [!DNL Journey Optimizer], i record PTR vengono creati automaticamente per gli IP. Puoi accedervi dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Record PTR]**.
 
 ![](assets/ptr-records.png)
 
@@ -86,7 +86,7 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando i
 
 1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select.png)
 
 1. Selezionare un sottodominio delegato all&#39;Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
 

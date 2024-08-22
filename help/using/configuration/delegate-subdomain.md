@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1820'
 ht-degree: 23%
 
 ---
@@ -57,7 +57,7 @@ Puoi affidarti ad Adobe per mantenere l’infrastruttura DNS necessaria per sodd
 
 Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi seguenti:
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
 
    ![](assets/subdomain-delegate.png)
 
@@ -137,7 +137,7 @@ La configurazione del sottodominio CNAME consente di creare un sottodominio e ut
 
 Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
 
 1. Selezionare il metodo **[!UICONTROL CNAME configurato]**.
 

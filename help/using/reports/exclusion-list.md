@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -35,22 +35,22 @@ ht-degree: 9%
 | DomainNotAllowed | 050106 | E-mail | Un evento di esclusione viene generato quando l’elenco Consentiti è abilitato e il dominio dell’e-mail di destinazione è escluso dall’elenco Consentiti. |
 | EmailNoSubscriberIdFoundInProfile | 050025 | E-mail | Un evento di esclusione viene generato quando subscriberId non viene trovato nel profilo di un’e-mail di abbonamento. |
 | EmailNoAddressFoundInProfile | 050020 | E-mail | Un evento di esclusione viene generato quando l’indirizzo e-mail non è presente nell’indirizzo di esecuzione. |
-| EmailNoAddressDefinedInPreset | 050021 | E-mail | Un evento di esclusione viene generato quando l’indirizzo di esecuzione non è definito nella superficie. |
+| EmailNoAddressDefinedInPreset | 050021 | E-mail | Un evento di esclusione viene generato quando l’indirizzo di esecuzione non è definito nella configurazione. |
 | EmailNoVariantDefined | 050026 | E-mail | Un evento di esclusione viene generato quando nel messaggio e-mail non è definita alcuna variante. |
 | EmailNoMessageFoundForTreatment | 050027 | E-mail | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | EmailMalformedAddress | 050024 | E-mail | Se l’e-mail contiene un indirizzo non valido, viene generato un evento di esclusione. |
 | InAppNoVariantDefined | 050041 | InApp | Un evento di esclusione viene generato quando non è definita alcuna variante per il messaggio InApp. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | PushNoTokenFoundInProfile | 050030 | Push | Quando il profilo non dispone di token push, viene generato un evento di esclusione. |
-| PushNoValidTokenFoundForApps | 050031 | Push | Quando non viene trovato alcun token valido per le app di destinazione nella superficie, viene generato un evento di esclusione. |
+| PushNoValidTokenFoundForApps | 050031 | Push | Quando non viene trovato alcun token valido per le app di destinazione nella configurazione, viene generato un evento di esclusione. |
 | PushMalformedProfile | 050034 | Push | Quando il formato di pushNotificationDetails nel profilo non è corretto, viene generato un evento di esclusione. |
 | PushNoConsent | 050111 | Push | Un evento di esclusione viene generato quando l’utente ha rinunciato alle notifiche push di marketing. |
-| PushNoApplicationDefinedInPreset | 050033 | Push | Un evento di esclusione viene generato quando la superficie non contiene alcuna applicazione di destinazione. |
+| PushNoApplicationDefinedInPreset | 050033 | Push | Un evento di esclusione viene generato quando la configurazione non contiene alcuna applicazione di destinazione. |
 | PushNoVariantDefined | 050035 | Push | Quando non è definita alcuna variante, viene generato un evento di esclusione. |
 | PushNoMessageFoundForTreatment | 050036 | Push | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | SMSNoConsent | 050104 | SMS | Un evento di esclusione viene generato quando l’utente ha rinunciato al marketing degli SMS. |
-| SMSFromNumberNotDefinedInPreset | 050152 | SMS | Quando &quot;FromNumber&quot; non è definito nella superficie, viene generato un evento di esclusione. |
-| SMSNoToNumberDefinedInProfile | 050153 | SMS | Un evento di esclusione viene generato quando &quot;ToNumber&quot; non è definito nella superficie. |
+| SMSFromNumberNotDefinedInPreset | 050152 | SMS | Un evento di esclusione viene generato quando &quot;FromNumber&quot; non è definito nella configurazione. |
+| SMSNoToNumberDefinedInProfile | 050153 | SMS | Un evento di esclusione viene generato quando &quot;ToNumber&quot; non è definito nella configurazione. |
 | SMSNoVariantDefined | 050154 | SMS | Quando non è definita alcuna variante, viene generato un evento di esclusione. |
 | SMSNoMessageFoundForTreatment | 050155 | SMS | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | WebNoVariantDefined | 050041 | Web | Un evento di esclusione viene generato quando non è definita alcuna variante per un messaggio web. |

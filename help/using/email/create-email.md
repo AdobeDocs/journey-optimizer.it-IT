@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 12%
+source-wordcount: '912'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 12%
 >id="ajo_message_email"
 >title="Creazione di e-mail"
 >abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
-
 
 ## Aggiungi un&#39;azione e-mail {#email-action}
 
@@ -36,11 +35,11 @@ Per creare un messaggio e-mail in [!DNL Journey Optimizer], aggiungi un&#39;azio
 
 1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria).
 
-1. Scegli la [superficie e-mail](email-settings.md) da utilizzare.
+1. Scegli o crea la [configurazione e-mail](email-settings.md).
 
    ![](assets/email_journey.png)
 
-   Per impostazione predefinita, il campo è precompilato con l’ultima superficie utilizzata dall’utente per quel canale.
+   Per impostazione predefinita, il campo è precompilato con l’ultima configurazione utilizzata dall’utente per quel canale.
 
 >[!NOTE]
 >
@@ -52,15 +51,15 @@ Per ulteriori informazioni su come configurare un percorso, consultare [questa p
 
 1. Crea una nuova campagna pianificata o attivata da API e seleziona **[!UICONTROL Invia e-mail]** come azione.
 
-1. Scegli la [superficie e-mail](email-settings.md) da utilizzare.
-
-   ![](assets/email_campaign.png)
-
-1. Fai clic su **[!UICONTROL Crea]**.
-
 1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
+
+1. Seleziona l&#39;azione **[!UICONTROL E-mail]**.
+
+1. Seleziona o crea la configurazione e-mail. [Ulteriori informazioni](email-settings.md)
+
+   ![](assets/email_campaign.png)
 
 <!--
 From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
@@ -85,7 +84,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    ![](assets/email_campaign_edit_content.png)
 
-   Nella sezione **[!UICONTROL Intestazione]** della schermata **[!UICONTROL Modifica contenuto]**, i campi **[!UICONTROL Da nome]**, **[!UICONTROL Da e-mail]** e **[!UICONTROL Ccn]** sono configurati nella superficie e-mail selezionata. [Ulteriori informazioni](email-settings.md) <!--check if same for journey-->
+   Nella sezione **[!UICONTROL Intestazione]** della schermata **[!UICONTROL Modifica contenuto]**, i campi **[!UICONTROL Da nome]**, **[!UICONTROL Da e-mail]** e **[!UICONTROL Ccn]** sono configurati nella configurazione e-mail selezionata. [Ulteriori informazioni](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -123,7 +122,7 @@ Possono verificarsi due tipi di avvisi:
 
      >[!NOTE]
      >
-     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [superficie di canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
+     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
 
    * **[!UICONTROL La versione di testo di HTML è vuota]**: non dimenticare di definire una versione di testo del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
 
@@ -139,7 +138,7 @@ Possono verificarsi due tipi di avvisi:
 
    * **[!UICONTROL La versione e-mail del messaggio è vuota]**: questo errore viene visualizzato quando il contenuto dell&#39;e-mail non è stato configurato. Scopri come progettare contenuti e-mail in [questa sezione](get-started-email-design.md).
 
-   * **[!UICONTROL La superficie non esiste]**: non puoi utilizzare il messaggio se la superficie selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, selezionare un&#39;altra superficie nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle superfici di canale in [questa sezione](../configuration/channel-surfaces.md).
+   * **[!UICONTROL la configurazione non esiste]**: non puoi utilizzare il messaggio se la configurazione selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, selezionare un&#39;altra configurazione nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle configurazioni dei canali in [questa sezione](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

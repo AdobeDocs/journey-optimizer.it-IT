@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 37%
@@ -89,7 +89,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [superficie di canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
+>I messaggi e-mail di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [configurazione canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
 
 ## Regolare i collegamenti {#adjust-links}
 
@@ -164,7 +164,7 @@ Il reporting sulle aperture e sui clic è disponibile nel [Live report](../repor
 
 ## Personalizzare il tracciamento URL {#url-tracking}
 
-In genere il [tracciamento URL](email-settings.md#url-tracking) viene gestito a livello di superficie, ma gli attributi di profilo non sono supportati. Attualmente l&#39;unico modo per eseguire questa operazione è [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) nella finestra di progettazione e-mail.
+In genere il [tracciamento URL](email-settings.md#url-tracking) viene gestito a livello di configurazione, ma gli attributi di profilo non sono supportati. Attualmente l&#39;unico modo per eseguire questa operazione è [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) nella finestra di progettazione e-mail.
 
 Per aggiungere parametri di tracciamento URL personalizzati ai collegamenti, segui i passaggi indicati di seguito.
 

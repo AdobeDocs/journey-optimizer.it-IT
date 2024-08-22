@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
@@ -110,3 +110,49 @@ ht-degree: 2%
 
    ![](assets/configure_web_inapp_14.png)
 
+## Creare una configurazione web in-app {#in-app-config}
+
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
+
+   ![](assets/in-app-web-config-1.png)
+
+1. Immetti un nome e una descrizione (facoltativa) per la configurazione, quindi seleziona il canale da configurare.
+
+   >[!NOTE]
+   >
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
+
+1. Seleziona **[!UICONTROL Azione di marketing]** per associare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso associati all’azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
+
+1. Seleziona il canale **Messaggistica in-app**.
+
+1. Definisci una configurazione di app. Sono disponibili due opzioni per apportare modifiche:
+
+   * È possibile immettere un **[!UICONTROL URL pagina]** per applicare le modifiche a una pagina specifica.
+
+   * Puoi creare una regola per eseguire il targeting di più URL che seguono lo stesso pattern.
+
++++ Come creare una regola di corrispondenza Pagine.
+
+      1. Seleziona **[!UICONTROL Regola di corrispondenza pagine]** come configurazione app e immetti il tuo **[!UICONTROL URL pagina]**.
+
+      1. Nella finestra **[!UICONTROL Modifica regola di configurazione]**, definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
+      1. Dai menu a discesa delle condizioni, personalizza ulteriormente i criteri.
+
+         Qui, ad esempio, per modificare gli elementi visualizzati in tutte le pagine dei prodotti di vendita del sito web Luma, seleziona Dominio > Inizia con > luma e Pagina > Contiene > vendite.
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. Fai clic su **[!UICONTROL Aggiungi un&#39;altra regola di pagina]** per creare un&#39;altra regola, se necessario.
+
+      1. Selezionare l&#39;**[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]**.
+
+      1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
+
++++
+
+1. Invia la configurazione Web in-app.
+
+Ora puoi [creare un Web in-app](../in-app/create-in-app-web.md) all&#39;interno di una campagna.

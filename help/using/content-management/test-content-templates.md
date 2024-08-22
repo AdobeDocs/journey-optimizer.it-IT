@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 6%
@@ -30,7 +31,7 @@ Puoi testare il rendering di alcuni modelli e-mail, creati da zero o da un conte
 
    * A tale scopo, fare clic sul pulsante **[!UICONTROL Invia bozza]** e seguire i passaggi descritti in [questa sezione](../content-management/proofs.md).
 
-   * Prima di inviare la bozza, è necessario selezionare la [superficie e-mail](../configuration/channel-surfaces.md) che verrà utilizzata per testare il contenuto.
+   * Prima di inviare la bozza, è necessario selezionare la [configurazione e-mail](../configuration/channel-surfaces.md) che verrà utilizzata per verificare il contenuto.
 
      ![](assets/content-template-stimulate-proof-surface.png)
 

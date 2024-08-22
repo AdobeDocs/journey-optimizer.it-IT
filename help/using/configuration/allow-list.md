@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -34,7 +34,7 @@ Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per
 
 ## Accedere all’elenco Consentiti {#access-allowed-list}
 
-Per accedere all&#39;elenco dettagliato degli indirizzi e dei domini e-mail consentiti, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** e seleziona **[!UICONTROL Elenco Consentiti]**.
+Per accedere all&#39;elenco dettagliato degli indirizzi e dei domini e-mail consentiti, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** e seleziona **[!UICONTROL Elenco Consentiti]**.
 
 ![](assets/allow-list-access.png)
 

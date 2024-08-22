@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 5%
+source-wordcount: '634'
+ht-degree: 7%
 
 ---
 
@@ -24,43 +24,19 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
 
 * Personalizza i trigger. La messaggistica Web in-app supporta due tipi di trigger: Inviati dati alla piattaforma e Manuali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* Crea la configurazione Web in-app. [Ulteriori informazioni](inapp-configuration.md)
+
 ## Creare la campagna di messaggi in-app Web {#create-inapp-web-campaign}
 
 1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
-1. Nella sezione **[!UICONTROL Proprietà]**, seleziona il tipo di esecuzione della campagna: Pianificato o Attivato da API. Ulteriori informazioni sui tipi di campagna in [questa pagina](../campaigns/create-campaign.md#campaigntype).
+1. Scegli il tipo di esecuzione della campagna: Pianificato o Attivato da API. Ulteriori informazioni sui tipi di campagna in [questa pagina](../campaigns/create-campaign.md#campaigntype).
 
-1. Nella sezione **[!UICONTROL Azioni]** scegliere il **[!UICONTROL messaggio in-app]**. Dal menu a discesa **[!UICONTROL Invia a]**, selezionare Web.
+1. Dal menu a discesa **[!UICONTROL Azioni]**, scegli il **[!UICONTROL messaggio in-app]**.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Definisci una superficie app. Sono disponibili due opzioni per apportare modifiche:
-
-   * È possibile immettere un **[!UICONTROL URL pagina]** per applicare le modifiche a una pagina specifica.
-
-   * Puoi creare una regola per eseguire il targeting di più URL che seguono lo stesso pattern.
-
-+++ Come creare una regola di corrispondenza Pagine.
-
-      1. Seleziona **[!UICONTROL Regola di corrispondenza pagine]** come superficie app.
-      1. Fai clic su **[!UICONTROL Crea regola]**.
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. Nella finestra **[!UICONTROL Modifica regola di superficie]**, definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
-      1. Dai menu a discesa delle condizioni, personalizza ulteriormente i criteri.
-
-         Qui, ad esempio, per modificare gli elementi visualizzati in tutte le pagine dei prodotti di vendita del sito web Luma, seleziona Dominio > Inizia con > luma e Pagina > Contiene > vendite.
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. Dopo aver selezionato e configurato la superficie dell&#39;app, fai clic su **[!UICONTROL Crea]**.
+1. Scegli o crea la configurazione dell&#39;app. [Ulteriori informazioni](inapp-configuration.md#channel-prerequisites)
 
 ## Definire la campagna di messaggi in-app web {#configure-inapp}
 
@@ -74,7 +50,7 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
 
 1. Nel campo **[!UICONTROL Spazio dei nomi identità]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
-1. Nel menu **[!UICONTROL Azione]**, puoi trovare le impostazioni precedentemente configurate come **[!UICONTROL Superficie app]**. Se necessario, puoi apportare modifiche qui o aggiornare la regola facendo clic su **[!UICONTROL Modifica regola]**.
+1. Nel menu **[!UICONTROL Azione]**, puoi trovare le impostazioni configurate in precedenza come **[!UICONTROL Configurazione app]**. Se necessario, puoi apportare modifiche qui o aggiornare la regola facendo clic su **[!UICONTROL Modifica regola]**.
 
 1. Fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l&#39;opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 

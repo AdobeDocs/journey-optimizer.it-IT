@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 2%
@@ -36,7 +36,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 1. Registrazione dell’app mobile di marca (Android o iOS) con i servizi di messaggistica push APN e Google FCM di Apple
 1. I servizi di messaggistica generano un token push, ovvero un identificatore che [!DNL Adobe Journey Optimizer] utilizzerà per eseguire il targeting del dispositivo specifico con una notifica push.
 1. Il token push generato in precedenza viene passato a Adobe Experience Platform e sincronizzato con Real-time Customer Profile; questa operazione viene eseguita OOTB con un SDK client di facile integrazione
-1. I messaggi push sono creati in [!DNL Adobe Journey Optimizer], i messaggi push sono creati su una superficie di canale (ossia un predefinito per messaggi)
+1. I messaggi push sono creati in [!DNL Adobe Journey Optimizer], i messaggi push sono creati in base a una configurazione di canale (ossia un predefinito per messaggi)
 1. I messaggi push possono essere inclusi nell’area di lavoro di orchestrazione in Percorsi
 1. Al momento della pubblicazione del Percorso, i profili cliente basati sulle condizioni del Percorso sono qualificati per ricevere notifiche push, e in questo passaggio i payload dei messaggi push sono personalizzati
 1. I payload push personalizzati vengono inoltrati a un servizio di consegna di messaggi push interno

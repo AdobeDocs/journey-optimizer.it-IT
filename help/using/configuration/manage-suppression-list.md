@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 21%
@@ -32,7 +32,7 @@ Inoltre, puoi sfruttare l&#39;API REST **Soppression** di Journey Optimizer per 
 
 ## Accedere all’elenco di soppressione {#access-suppression-list}
 
-Per accedere all&#39;elenco dettagliato degli indirizzi e dei domini e-mail esclusi, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** e seleziona **[!UICONTROL Elenco di soppressione]**.
+Per accedere all&#39;elenco dettagliato degli indirizzi e dei domini e-mail esclusi, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** e seleziona **[!UICONTROL Elenco di soppressione]**.
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ Le categorie di soppressione sono le seguenti:
 * **Manuale**: gli errori manuali sono stati aggiunti manualmente all&#39;elenco di soppressione. [Ulteriori informazioni](#add-addresses-and-domains)
 
 Per ogni indirizzo e-mail elencato, puoi anche controllare il **[!UICONTROL Tipo]** (e-mail o dominio), **[!UICONTROL Motivo]** per escluderlo, chi l&#39;ha aggiunto e la data/ora in cui è stato aggiunto all&#39;elenco di soppressione.
-
-![](assets/suppression-list.png)
 
 I possibili motivi di un errore di consegna sono:
 
@@ -230,8 +228,6 @@ Per recuperare tali indirizzi, esegui una query specifica con parametri personal
 
 Una volta identificati gli indirizzi e-mail interessati, filtra l’elenco di soppressione per visualizzarli. Ad esempio, se si è verificata un’interruzione del servizio ISP dall’11 novembre 2022 al 13 novembre 2022 sul dominio **test.com**, filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
-![](assets/remove-from-supp-list.png)
-
 Puoi quindi rimuovere gli indirizzi e-mail in quarantena dall&#39;elenco di soppressione utilizzando il pulsante **[!UICONTROL Elimina]**.
 
 ## Scaricare l’elenco di soppressione {#download-suppression-list}
@@ -250,8 +246,6 @@ Per esportare l’elenco di soppressione come file CSV, effettua le seguenti ope
    ![](assets/suppression-list-download-csv.png)
 
 1. Attendi che il file venga generato.
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

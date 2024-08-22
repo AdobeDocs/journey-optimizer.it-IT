@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: nuovi tentativi, mancato recapito, morbido, ottimizzatore, errore
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 9%
@@ -50,7 +50,7 @@ Se tra queste due e-mail non è stata tentata e non si è verificato alcun altro
 
 Nel caso in cui il valore predefinito 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura riportata di seguito.
 
-1. Vai a **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco di soppressione]**.
+1. Vai a **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Elenco di soppressione]**.
 
 1. Selezionare il pulsante **[!UICONTROL Modifica regole di soppressione]**.
 
@@ -72,7 +72,7 @@ Il periodo di tempo **per i tentativi** è l&#39;intervallo di tempo in cui verr
 
 Per impostazione predefinita, i nuovi tentativi verranno eseguiti per **3,5 giorni** (o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
 
-Tuttavia, per evitare che i tentativi vengano eseguiti quando non è più necessario, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di una [superficie di canale](channel-surfaces.md) (ossia un predefinito per messaggi) che si applica al canale e-mail.
+Tuttavia, per evitare che i nuovi tentativi vengano eseguiti quando non è più necessario, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di una [configurazione del canale](channel-surfaces.md) (ossia un predefinito per messaggi) che si applica al canale e-mail.
 
 Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un’e-mail transazionale relativa alla reimpostazione della password e contenente un collegamento valido solo per un giorno. Allo stesso modo, per una vendita di mezzanotte, puoi definire un periodo di esecuzione di un nuovo tentativo di 6 ore.
 
@@ -80,5 +80,5 @@ Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 or
 >
 >Il periodo di esecuzione dei nuovi tentativi non può superare le 84 ore. Il periodo minimo di nuovi tentativi è di 6 ore per le e-mail di marketing e di 10 minuti per le e-mail transazionali.
 
-Scopri come regolare i parametri dei tentativi e-mail durante la creazione di una superficie di canale in [questa sezione](../email/email-settings.md#email-retry).
+Scopri come regolare i parametri dei tentativi e-mail durante la creazione di una configurazione del canale in [questa sezione](../email/email-settings.md#email-retry).
 

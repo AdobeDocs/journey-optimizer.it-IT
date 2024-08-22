@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 23%
 
 ---
@@ -50,9 +50,7 @@ Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un alt
 
 Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Sottodomini della pagina di destinazione]**.
-
-   ![](assets/lp_access-subdomains.png)
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni pagina di destinazione]** > **[!UICONTROL Sottodomini pagina di destinazione]**.
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
@@ -105,7 +103,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Sottodomini della pagina di destinazione]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni pagina di destinazione]** > **[!UICONTROL Sottodomini pagina di destinazione]**.
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 

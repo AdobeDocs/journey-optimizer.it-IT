@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, recapito messaggi
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 12%
@@ -27,11 +27,11 @@ Prima di creare il piano di riscaldamento IP in [!DNL Journey Optimizer], è nec
 
 Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguito.
 
-1. Crea una [e-mail](../email/email-settings.md) canale [superficie](channel-surfaces.md) per il dominio e gli IP che hai identificato per il tuo piano di riscaldamento.
+1. Crea una [e-mail](../email/email-settings.md) canale [configurazione](channel-surfaces.md) per il dominio e gli IP che hai identificato per il tuo piano di riscaldamento.
 
    >[!NOTE]
    >
-   >* Scopri come selezionare il dominio e gli IP da utilizzare in un&#39;area e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
+   >Scopri come selezionare il dominio e gli IP da utilizzare in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Rivolgiti al tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare per il piano di riscaldamento IP.<!--TBC-->
 
@@ -39,11 +39,11 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
-1. Selezionate la superficie creata per il riscaldamento dell&#39;IP.
+1. Seleziona la configurazione creata per il riscaldamento dell’IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
 
-   <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
+   <!--You must use the same configuration as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
 1. Fai clic su **[!UICONTROL Crea]**.
 

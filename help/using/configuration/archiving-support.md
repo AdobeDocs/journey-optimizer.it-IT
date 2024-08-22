@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 7%
@@ -41,11 +41,11 @@ Normative come HIPAA richiedono che [!DNL Journey Optimizer] fornisca un modo pe
 
 ### Abilita e-mail Ccn {#enable-bcc}
 
-Per abilitare l&#39;opzione **[!UICONTROL E-mail Ccn]**, immetti l&#39;indirizzo e-mail desiderato nel campo dedicato della [superficie di canale](channel-surfaces.md) (ossia il predefinito per messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Se ad Adobe hai delegato il sottodominio *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* non sarà consentito.
+Per abilitare l&#39;opzione **[!UICONTROL E-mail Ccn]**, immettere l&#39;indirizzo di posta elettronica desiderato nel campo dedicato della [configurazione canale](channel-surfaces.md) (ossia il predefinito per messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Se ad Adobe hai delegato il sottodominio *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* non sarà consentito.
 
 >[!CAUTION]
 >
->È possibile definire un solo indirizzo e-mail Ccn. Assicurati che l’indirizzo Ccn disponga di una capacità di ricezione sufficiente per memorizzare tutte le e-mail inviate utilizzando la superficie di canale corrente.
+>È possibile definire un solo indirizzo e-mail Ccn. Assicurati che l’indirizzo Ccn disponga di una capacità di ricezione sufficiente per memorizzare tutte le e-mail inviate utilizzando la configurazione del canale corrente.
 >
 >Altri consigli sono elencati in [questa sezione](#bcc-recommendations-limitations).
 
@@ -55,13 +55,13 @@ Per abilitare l&#39;opzione **[!UICONTROL E-mail Ccn]**, immetti l&#39;indirizzo
 
 ![](assets/preset-bcc.png)
 
-Al termine della configurazione, tutti i messaggi e-mail basati su questa superficie vengono copiati in modo cieco nell&#39;indirizzo e-mail Ccn immesso. Da lì, i messaggi possono essere elaborati e archiviati utilizzando un sistema esterno.
+Al termine della configurazione, tutti i messaggi e-mail basati su questa configurazione vengono copiati in modalità nascosta nell&#39;indirizzo e-mail Ccn immesso. Da lì, i messaggi possono essere elaborati e archiviati utilizzando un sistema esterno.
 
 >[!CAUTION]
 >
->L’utilizzo della funzione Ccn viene conteggiato rispetto al numero di messaggi per i quali disponi della licenza. Pertanto, abilitarla solo nelle superfici utilizzate per le comunicazioni critiche che si desidera archiviare. Verifica la disponibilità di volumi con licenza nel contratto.
+>L’utilizzo della funzione Ccn viene conteggiato rispetto al numero di messaggi per i quali disponi della licenza. Pertanto, abilitalo solo nelle configurazioni utilizzate per le comunicazioni critiche che desideri archiviare. Verifica la disponibilità di volumi con licenza nel contratto.
 
-L’impostazione dell’indirizzo e-mail Ccn viene immediatamente salvata ed elaborata a livello di superficie. Quando si crea un nuovo messaggio utilizzando questa superficie, l&#39;indirizzo e-mail Ccn viene visualizzato automaticamente.
+L’impostazione dell’indirizzo e-mail Ccn viene immediatamente salvata ed elaborata a livello di configurazione. Quando si crea un nuovo messaggio utilizzando questa configurazione, l&#39;indirizzo e-mail Ccn viene visualizzato automaticamente.
 
 ![](assets/preset-bcc-in-msg.png)
 

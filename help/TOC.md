@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c41154f54fb7d93fc6eb2f4c84957db517686c8
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1950'
 ht-degree: 97%
 
 ---
@@ -241,6 +241,7 @@ ht-degree: 97%
    + Configurare il canale Web {#configure-web-channel}
       + [Prerequisiti per il canale Web](using/web/web-prerequisites.md)
       + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
+      + [Creare la configurazione del canale web](using/web/web-configuration.md)
    + [Creare esperienze web](using/web/create-web.md)
    + Authoring di pagine web {#author-web-pages}
       + [Modificare il contenuto di una pagina web](using/web/edit-web-content.md)
@@ -250,6 +251,7 @@ ht-degree: 97%
 + Esperienza basata su codice {#code-based-experience}
    + [Introduzione al canale basato su codice](using/code-based/get-started-code-based.md)
    + [Guardrail e prerequisiti](using/code-based/code-based-prerequisites.md)
+   + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
    + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
    + [Creare esperienze basate su codice](using/code-based/create-code-based.md)
 + Pagine di destinazione {#landing-pages}

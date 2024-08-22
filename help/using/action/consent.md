@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ Ad esempio, puoi [creare i criteri di consenso](https://experienceleague.adobe.c
 
    * Se disponi di **Healthcare Shield** o **Privacy and Security Shield** di Adobe, puoi creare un criterio di consenso personalizzato che sostituisce la logica predefinita. Ad esempio, puoi definire un criterio per inviare messaggi e-mail solo a tutte le persone che hanno dato il loro consenso. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
 
-  Per applicare un criterio personalizzato, è necessario definire un’azione di marketing in tale criterio e associarla a una superficie di canale. [Ulteriori informazioni](#surface-marketing-actions)
+  Per applicare un criterio personalizzato, è necessario definire un’azione di marketing in tale criterio e associarla a una configurazione di canale. [Ulteriori informazioni](#surface-marketing-actions)
 
 A livello di percorso, puoi applicare questi criteri di consenso alle azioni personalizzate.
 
 * Durante la **configurazione di un’azione personalizzata**, puoi definire un canale e un’azione di marketing. [Ulteriori informazioni](#consent-custom-action)
 * Durante l’aggiunta dell’**azione personalizzata in un percorso**, puoi definire un’azione di marketing aggiuntiva. [Ulteriori informazioni](#consent-journey)
 
-## Sfruttare i criteri di consenso tramite superfici di canale {#surface-marketing-actions}
+## Sfruttare i criteri di consenso tramite le configurazioni dei canali {#surface-marketing-actions}
 
 In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it) di Experience Platform{target="_blank"}. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"}.
 
@@ -73,13 +73,13 @@ Ad esempio, se desideri creare un criterio di consenso per eseguire il targeting
 
 1. In Journey Optimizer, crea una superficie e-mail. [Scopri come](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. Nei dettagli della superficie e-mail, seleziona l’azione di marketing **[!UICONTROL Targeting e-mail]**.
+1. Nei dettagli della configurazione e-mail, seleziona l&#39;azione di marketing **[!UICONTROL Targeting e-mail]**.
 
    ![](assets/surface-marketing-action.png)
 
 Tutti i criteri di consenso associati a tale azione di marketing vengono automaticamente usati per rispettare le preferenze della clientela.
 
-Pertanto, in questo esempio, qualsiasi [e-mail](../email/create-email.md) che utilizza tale superficie in una campagna o in un percorso viene inviata solo ai profili che hanno acconsentito a ricevere e-mail da te. Sono esclusi i profili che non hanno acconsentito a ricevere comunicazioni e-mail.
+Pertanto, in questo esempio, qualsiasi [e-mail](../email/create-email.md) che utilizza tale configurazione in una campagna o in un percorso viene inviata solo ai profili che hanno acconsentito a ricevere e-mail da te. Sono esclusi i profili che non hanno acconsentito a ricevere comunicazioni e-mail.
 
 ## Sfruttare i criteri di consenso tramite azioni personalizzate {#journey-custom-actions}
 

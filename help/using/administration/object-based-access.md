@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: oggetto, livello, accesso, controllo, etichette, olac, autorizzazione
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Il controllo dell&#39;accesso a livello di oggetto (OLAC) consente di definire l
 * Nome
 * Raccolta di offerte statiche
 * Decisione sull’offerta
-* Superficie di canale
+* Configurazione del canale
 * Piano di riscaldamento IP
 
 Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.

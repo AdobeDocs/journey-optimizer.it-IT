@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 18%
 
 ---
@@ -32,7 +32,7 @@ Quando esegui il targeting di un profilo, nel database potrebbero essere disponi
 
 In tal caso, [!DNL Journey Optimizer] utilizza **[!UICONTROL Campi di esecuzione]** per determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio del profilo come priorità.
 
-Per verificare i campi attualmente utilizzati per impostazione predefinita, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi di esecuzione]**.
+Per verificare i campi attualmente utilizzati per impostazione predefinita, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ Nella maggior parte dei casi, modificherai un campo di esecuzione a livello glob
 
 Per modificare globalmente i campi di esecuzione a livello di sandbox, segui i passaggi indicati di seguito.
 
-1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi di esecuzione]**.
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
 
 1. Fai clic su **[!UICONTROL Modifica]** per modificare i valori predefiniti.
 

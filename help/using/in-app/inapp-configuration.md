@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '869'
 ht-degree: 9%
 
 ---
@@ -20,9 +20,8 @@ ht-degree: 9%
 Per inviare messaggi in-app nei tuoi percorsi e nelle tue campagne con [!DNL Journey Optimizer], devi eseguire i seguenti passaggi di configurazione.
 
 1. Assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer prima di iniziare, anche se prevedi di utilizzare i messaggi in-app solo nei percorsi. Sono ancora necessarie le autorizzazioni per la campagna. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-È necessario concedere un&#39;autorizzazione specifica per accedere al menu **Superfici app** nella raccolta dati di Adobe Experience Platform. Ulteriori informazioni in [questo video](#video).
 1. Abilita Adobe Journey Optimizer nello stream di dati di raccolta dati Adobe Experience Platform e verifica il criterio di unione predefinito in Adobe Experience Platform, come descritto in [Prerequisiti per la consegna](#delivery-prerequisites) di seguito.
-1. Crea e configura una superficie app nella raccolta dati di Adobe Experience Platform, come descritto in [questa sezione](#channel-prerequisites).
+1. Creare una configurazione del canale dei messaggi in-app in Amministrazione > Canali > Configurazioni canale, come descritto in [questa sezione](#channel-prerequisites).
 1. Se utilizzi esperimenti di contenuto, assicurati di seguire i requisiti elencati in [questa sezione](#experiment-prerequisite).
 
 Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
@@ -53,77 +52,62 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
   [Ulteriori informazioni sulla visualizzazione Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery)
 
-## Prerequisiti per la configurazione del canale {#channel-prerequisites}
+## Creare una configurazione in-app {#channel-prerequisites}
 
-1. Accedi al menu **[!UICONTROL Superfici app]** e fai clic su **[!UICONTROL Crea superficie app]**.
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
 
-1. Aggiungi un nome alla **[!UICONTROL superficie app]**.
+   ![](assets/inapp_config_1.png)
 
-   ![](assets/inapp_config_2b.png)
+1. Immetti un nome e una descrizione (facoltativa) per la configurazione, quindi seleziona il canale da configurare.
 
-1. Dal menu a discesa **[!UICONTROL Apple iOS]**, configura la tua app mobile per Apple iOS.
+   >[!NOTE]
+   >
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
-+++ Ulteriori informazioni
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
-   1. Digita il tuo **[!UICONTROL ID bundle iOS]**. Per ulteriori informazioni su **ID bundle**, consulta la [documentazione di Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
+1. Seleziona **[!UICONTROL Azione di marketing]** per associare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso associati all’azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
 
-   1. (facoltativo) Scegli la **[!UICONTROL Sandbox]** da cui desideri inviare le notifiche push. La scelta di una sandbox specifica richiede le autorizzazioni di accesso necessarie.
+1. Seleziona il canale **Messaggistica in-app**.
 
-      Per ulteriori informazioni sulla gestione delle sandbox, consulta [questa pagina](../administration/sandboxes.md#assign-sandboxes).
+   ![](assets/inapp_config_9.png)
 
-   1. Abilita l&#39;opzione **[!UICONTROL Invia credenziali]** per trascinare e rilasciare il file della chiave di autenticazione .p8, se necessario.
+1. Seleziona la piattaforma per la quale verrà applicato il messaggio in-app.
 
-      Puoi anche abilitare l&#39;opzione **[!UICONTROL Immetti manualmente le credenziali push]** per copiare e incollare direttamente la chiave di autenticazione APNs.
+   ![](assets/inapp_config_10.png)
 
-   1. Immetti **[!UICONTROL ID chiave]** e **[!UICONTROL ID team]**.
+1. Per il Web:
 
-      ![](assets/inapp_config_2.png)
+   * È possibile immettere un **[!UICONTROL URL pagina]** per applicare le modifiche a una pagina specifica.
+
+   * Puoi creare una regola per eseguire il targeting di più URL che seguono lo stesso pattern.
+
++++ Come creare una regola di corrispondenza Pagine.
+
+      1. Seleziona **[!UICONTROL Regola di corrispondenza pagine]** come configurazione app e immetti il tuo **[!UICONTROL URL pagina]**.
+
+      1. Nella finestra **[!UICONTROL Modifica regola di configurazione]**, definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
+      1. Dai menu a discesa delle condizioni, personalizza ulteriormente i criteri.
+
+         Qui, ad esempio, per modificare gli elementi visualizzati in tutte le pagine dei prodotti di vendita del sito web Luma, seleziona Dominio > Inizia con > luma e Pagina > Contiene > vendite.
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. Fai clic su **[!UICONTROL Aggiungi un&#39;altra regola di pagina]** per creare un&#39;altra regola, se necessario.
+
+      1. Selezionare l&#39;**[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]**.
+
+      1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
 
 +++
 
-1. Dal menu a discesa **[!UICONTROL Android]**, configura la tua app mobile per Android.
+1. Per iOS e Android:
 
-+++ Ulteriori informazioni
+   * Immetti **[!UICONTROL ID app]**.
 
-   1. Digita il nome del pacchetto **[!UICONTROL Android]**. Per ulteriori informazioni su **Nome pacchetto**, consulta la [documentazione di Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores).
+1. Invia le modifiche.
 
-   1. (facoltativo) Scegli la **[!UICONTROL Sandbox]** da cui desideri inviare le notifiche push. La scelta di una sandbox specifica richiede le autorizzazioni di accesso necessarie.
-
-      Per ulteriori informazioni sulla gestione delle sandbox, consulta [questa pagina](../administration/sandboxes.md#assign-sandboxes).
-
-   1. Abilita l&#39;opzione **[!UICONTROL Invia credenziali]** per trascinare e rilasciare il file della chiave privata .json, se necessario.
-
-      Puoi anche abilitare l&#39;opzione **[!UICONTROL Immetti manualmente le credenziali push]** per copiare e incollare direttamente la chiave privata FCM.
-
-      ![](assets/inapp_config_7.png)
-
-1. Fai clic su **[!UICONTROL Salva]** al termine della configurazione della **[!UICONTROL superficie app]**.
-
-   ![](assets/inapp_config_3.png)
-
-   La **[!UICONTROL superficie app]** sarà ora disponibile quando crei una nuova campagna con un messaggio in-app. [Ulteriori informazioni](create-in-app.md)
-
-1. Dopo aver creato la superficie dell’app, ora devi creare una proprietà mobile.
-
-   Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile).
-
-   ![](assets/inapp_config_4.png)
-
-1. Dal menu Estensioni della proprietà appena creata, installa le seguenti estensioni:
-
-   * Edge Network Adobe Experience Platform
-   * Adobe Journey Optimizer
-   * AEP Assurance
-   * Consenso
-   * Identità
-   * Core mobile
-   * Profilo
-
-   Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension).
-
-   ![](assets/inapp_config_5.png)
-
-Il canale in-app è ora configurato. Puoi iniziare a inviare messaggi in-app agli utenti.
+Ora puoi selezionare la tua configurazione durante la creazione del messaggio in-app.
 
 ## Prerequisiti per l’esperimento sui contenuti {#experiment-prerequisites}
 
@@ -142,13 +126,6 @@ Se **non** utilizza i seguenti [gruppi di campi](https://experienceleague.adobe.
 >[!NOTE]
 >
 >L’aggiunta di questi gruppi di campi non influisce sulla normale raccolta di dati. Viene aggiunto solo per le pagine in cui è in esecuzione un esperimento, lasciando invariati tutti gli altri tracciamenti.
-
-## Video introduttivo{#video}
-
-Il video seguente mostra come assegnare l&#39;autorizzazione **Gestione configurazione app** per accedere al menu Superfici app.
-
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
-
 
 **Argomenti correlati:**
 

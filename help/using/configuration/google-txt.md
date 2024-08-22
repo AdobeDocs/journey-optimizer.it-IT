@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, google, txt, record, gmail, recapito messaggi
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '210'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,7 @@ Per garantire il recapito ottimale delle e-mail e la corretta consegna delle e-m
 
 Per aggiungere un record TXT di Google al sottodominio, effettua le seguenti operazioni:
 
-1. Apri il sottodominio dal menu **[!UICONTROL Canali]** / **[!UICONTROL Sottodomini]**.
+1. Apri il sottodominio dal menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Sottodomini]**.
 
 1. Nella sezione **[!UICONTROL Record TXT di Google]** immettere il codice di verifica generato da [Google Workspace](https://support.google.com/a/answer/183895?hl=it){target="_blank"}<!--G Suite Admin tools-->, quindi fare clic su **[!UICONTROL Salva]**.
 
