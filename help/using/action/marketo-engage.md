@@ -7,13 +7,11 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: marketo, integrazione marketo engagement
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -28,13 +26,13 @@ Approfitta di un percorso di integrazione perfetta dei dati con il Marketo Engag
 ## Prerequisiti {#prerequisites}
 
 * L’istanza cliente del Marketo Engage deve essere abilitata per IMS.
-* L’istanza di Marketo Engage e l’istanza AEP/AJO devono trovarsi nella stessa organizzazione IMS. +collegamento
-* Al cliente deve essere fornito l’accesso a MktoSync: Ingestion Service (NOTA DA AGGIUNGERE QUI + collegamento)
+* L’istanza di Marketo Engage e l’istanza AEP/AJO devono trovarsi nella stessa organizzazione IMS.
+* Al cliente deve essere fornito l&#39;accesso **MktoSync: servizio di acquisizione**
 
 ## Configurazione dell’azione {#configure-marketo-action}
 
 * Passa a Amministrazione > Configurazioni > Azioni e fai clic su Gestisci
-* Nell&#39;elenco Azioni fare clic su Crea azione. Ulteriori informazioni sulla creazione di azioni personalizzate qui (+link)
+* Nell&#39;elenco Azioni fare clic su Crea azione. Ulteriori informazioni sulle [azioni personalizzate](../building-journeys/using-custom-actions.md){target="_blank"}.
 * Immetti Nome, Descrizione e seleziona Adobe Marketo Engage come tipo di azione
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Ora puoi utilizzare l’azione personalizzata nell’area di lavoro dedicata.
 
 ## Utilizzo dell’azione {#engage-using}
 
-* Trascina l’azione personalizzata nell’area di lavoro del percorso. (Scopri come utilizzare un’azione o un collegamento personalizzato)
-* In Parametri richiesta, fai clic su Modifica per ciascuno dei parametri con i valori dinamici configurati nel payload.
+* Trascina l’azione personalizzata nell’area di lavoro del percorso.
+* Nella sezione **Parametri richiesta**, fai clic su Modifica per ciascuno dei parametri con valori dinamici configurati nel payload.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
