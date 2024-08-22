@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 16%
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confermare l’URL per la modifica"
->abstract="Conferma l’URL della pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sulla superficie web definita sopra. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
+>abstract="Conferma l’URL della pagina web specifica da utilizzare per la modifica del contenuto che verrà applicato alla configurazione web definita in precedenza. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 >[!CONTEXTUALHELP]
@@ -55,7 +55,7 @@ Per iniziare a creare la tua campagna web, segui i passaggi indicati di seguito.
 
    >[!NOTE]
    >
-   >Se hai inserito un singolo URL come superficie web, l’URL da personalizzare è già popolato.
+   >Se hai inserito un singolo URL come configurazione web, l’URL da personalizzare è già popolato.
 
    ![](assets/web-edit-enter-url.png)
 
@@ -152,13 +152,13 @@ In questa sezione vengono descritti i diversi modi in cui è possibile spostarsi
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Utilizzare la modalità Sfoglia"
->abstract="Da questa modalità puoi passare alla pagina esatta dalla superficie selezionata che desideri personalizzare."
+>abstract="Da questa modalità, puoi passare alla pagina esatta dalla configurazione selezionata che desideri personalizzare."
 
 È possibile passare dalla modalità predefinita **[!UICONTROL Progettazione]** alla modalità **[!UICONTROL Sfoglia]** utilizzando il pulsante dedicato.
 
 ![](assets/web-designer-browse-mode.png)
 
-Dalla modalità **[!UICONTROL Sfoglia]**, puoi passare alla pagina esatta dalla superficie selezionata che desideri personalizzare.
+Dalla modalità **[!UICONTROL Sfoglia]**, puoi passare alla pagina esatta dalla configurazione selezionata che desideri personalizzare.
 
 È particolarmente utile quando si tratta di pagine che sono dietro l’autenticazione o che non sono disponibili dall’inizio a un determinato URL. Ad esempio, potrai eseguire l&#39;autenticazione, passare alla pagina dell&#39;account o alla pagina del carrello e quindi tornare alla modalità **[!UICONTROL Progettazione]** per eseguire le modifiche nella pagina desiderata.
 

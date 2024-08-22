@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sottodomini, configurazione
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 15%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Delegare un sottodominio SMS/MMS"
->abstract="Devi configurare un sottodominio da utilizzare per i messaggi di testo, che ti servirà per creare una superficie SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
+>abstract="Devi configurare un sottodominio da utilizzare per i messaggi di testo, in quanto è necessario questo sottodominio per creare una configurazione SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Creare superfici SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="Selezionare un sottodominio SMS/MMS"
->abstract="Per creare una superficie SMS, accertati di aver configurato in precedenza almeno un sottodominio SMS da selezionare dall’elenco dei nomi di sottodominio."
+>abstract="Per poter creare una configurazione SMS, accertati di aver configurato in precedenza almeno un sottodominio SMS da scegliere dall’elenco Nome sottodominio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Creare superfici SMS"
 
-Per ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio che selezionerai quando [creerai una superficie SMS](sms-configuration.md#message-preset-sms).
+Per ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio che selezionerai quando [creerai una configurazione SMS](sms-configuration.md#message-preset-sms).
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe in [questa sezione](../configuration/delegate-subdomain.md).
 
@@ -49,9 +49,7 @@ Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un alt
 
 Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.
 
-1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Configurazione SMS]** > **[!UICONTROL Sottodomini SMS]**.
-
-   ![](assets/sms_access-subdomains.png)
+1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Impostazioni SMS]** > **[!UICONTROL Sottodomini SMS]**.
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
@@ -91,20 +89,22 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
    >
    >Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare superfici di canale SMS.
+1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare configurazioni del canale SMS.
 
 ## Configurare un nuovo sottodominio {#sms-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio SMS, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta superati i controlli di verifica, il sottodominio è pronto per essere utilizzato per creare le superfici SMS."
+>abstract="Per configurare un nuovo sottodominio SMS, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta che i controlli hanno avuto esito positivo, il sottodominio è pronto per essere utilizzato per creare configurazioni SMS."
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
-1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Configurazione SMS]** > **[!UICONTROL Sottodomini SMS]**.
+1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni SMS]** > **[!UICONTROL Sottodomini SMS]**.
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
+
+   ![](assets/sms_set-up-subdomain.png)
 
 1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
 
@@ -136,6 +136,6 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-Prima di utilizzare un sottodominio per l’invio di messaggi SMS, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).--> Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare superfici di canale SMS.
+Prima di utilizzare un sottodominio per l’invio di messaggi SMS, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).--> Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare configurazioni del canale SMS.
 
 Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.

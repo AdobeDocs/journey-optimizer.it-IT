@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilità limitata"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ I criteri di decisione contengono tutta la logica di selezione affinché il moto
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Definire il numero di elementi da restituire"
->abstract="Seleziona il numero di elementi decisionali che desideri restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la superficie corrente."
+>abstract="Seleziona il numero di elementi decisionali che desideri restituire. Ad esempio, se selezioni 2, verranno presentate le migliori 2 offerte idonee per la configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 
    ![](assets/decision-code-based-details.png)
 
-1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la superficie corrente. Fai clic su **[!UICONTROL Avanti]**
+1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le migliori 2 offerte idonee per la configurazione corrente. Fai clic su **[!UICONTROL Avanti]**
 
 1. Utilizza il pulsante **[!UICONTROL Aggiungi strategia]** per definire le strategie di selezione per i criteri di decisione. Ogni strategia è costituita da una raccolta di offerte associata a un vincolo di idoneità e da un metodo di classificazione per determinare le offerte da visualizzare. [Ulteriori informazioni](selection-strategies.md)
 

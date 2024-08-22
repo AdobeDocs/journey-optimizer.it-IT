@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 18%
+source-wordcount: '747'
+ht-degree: 16%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Definire una superficie web"
->abstract="Una superficie web può corrispondere all’URL di una sola pagina o più pagine, consentendoti di apportare modifiche al contenuto in una o più pagine web."
+>title="Definire una configurazione web"
+>abstract="Una configurazione web può corrispondere a un URL di una o più pagine, consentendoti di fornire modifiche al contenuto in una o più pagine web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -41,39 +41,20 @@ Per iniziare a creare la tua esperienza web attraverso una campagna, segui i pas
 >
 >Se è la prima volta che crei un’esperienza web, assicurati di seguire i prerequisiti descritti in [questa sezione](web-prerequisites.md).
 
-1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
+1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.[Ulteriori informazioni](../campaigns/create-campaign.md)
+
+
+1. Seleziona il tipo di campagna da eseguire
+
+   * **Pianificato - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi di marketing. Vengono configurati ed eseguiti dall’interfaccia utente di.
+
+   * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc.
+
+1. Completa i passaggi per creare una campagna web, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule).
 
 1. Selezionare l&#39;azione **[!UICONTROL Web]**.
 
-1. Definite una superficie web.
-
-   >[!NOTE]
-   >
-   >Una superficie web è una proprietà web identificata da un URL in cui verrà distribuito il contenuto. Può corrispondere a un singolo URL di pagina o a più pagine, consentendoti di apportare modifiche in una o più pagine web.
-
-   È possibile immettere un **[!UICONTROL URL pagina]** se si desidera applicare le modifiche solo a una singola pagina.
-
-   ![](assets/web-campaign-surface.png)
-
-1. Oppure puoi creare una **[!UICONTROL regola di corrispondenza pagine]** per eseguire il targeting di più URL che corrispondono alla stessa regola, ad esempio, se desideri applicare le modifiche a un banner principale in un intero sito Web o aggiungere un&#39;immagine superiore che viene visualizzata in tutte le pagine di prodotto di un sito Web.
-
-   A tale scopo, selezionare **[!UICONTROL Pagine corrispondenti alla regola]** e fare clic su **[!UICONTROL Crea regola]**.
-
-   ![](assets/web-campaign-matching-rule.png)
-
-1. Definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
-
-   Ad esempio, se desideri modificare gli elementi visualizzati in tutte le pagine del sito Web Luma relative alle donne, seleziona **[!UICONTROL Dominio]** > **[!UICONTROL Inizia con]** > `luma` e **[!UICONTROL Pagina]** > **[!UICONTROL Contiene]** > `women`.
-
-   ![](assets/web-pages-matching-rule.png)
-
-1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
-
-   ![](assets/web-pages-matching-rule-example.png)
-
-1. Una volta definita la superficie Web, selezionare **[!UICONTROL Crea]**.
-
-1. Completa i passaggi per creare una campagna web, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule).
+1. Seleziona o crea una nuova configurazione. [Ulteriori informazioni sulla configurazione Web](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +92,7 @@ Dopo aver definito le [impostazioni della campagna Web](#configure-web-campaign)
 
 1. Dalla tua campagna Web, seleziona **[!UICONTROL Verifica per attivare]**.
 
-1. Se necessario, seleziona e modifica il contenuto, le proprietà, la superficie, il pubblico e la pianificazione.
+1. Se necessario, seleziona e modifica il contenuto, le proprietà, la configurazione, il pubblico e la pianificazione.
 
 1. Seleziona **[!UICONTROL Attiva]**.
 

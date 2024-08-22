@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 22%
+source-wordcount: '1384'
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ Prima di poter generare questo file, devi creare:
    >
    >Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. Una [superficie di direct mailing](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing.
+1. [configurazione direct mailing](#direct-mail-configuration) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing.
 
 ## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 >[!TAB Amazon S3]
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione indirizzamento file]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [superficie direct mailing](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una superficie finché non sarà **[!UICONTROL Attiva]**.
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
 
 >[!TAB SFTP]
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione indirizzamento file]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [superficie direct mailing](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una superficie finché non sarà **[!UICONTROL Attiva]**.
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
 
 >[!TAB Azure]
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione indirizzamento file]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [superficie direct mailing](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una superficie finché non sarà **[!UICONTROL Attiva]**.
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
 
 >[!ENDTABS]
 
-## Creare una superficie per direct mail {#direct-mail-surface}
+## Creare una configurazione di direct mailing {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni per direct mail"
->abstract="Una superficie per direct mail contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
+>abstract="Una configurazione di direct mailing contiene le impostazioni per la formattazione del file che contiene i dati del pubblico target e verrà utilizzata dal provider di posta. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=it#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
@@ -181,17 +181,29 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 >title="Definire la soglia di divisione dei file"
 >abstract="Devi impostare il numero massimo di record per ogni file contenente i dati del pubblico. Puoi selezionare un numero qualsiasi compreso tra 1 e 200.000 record. Una volta raggiunta la soglia specificata, verrà creato un altro file per i record rimanenti."
 
-Per poter inviare direct mailing con [!DNL Journey Optimizer], è necessario creare una superficie di canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
+Per poter inviare direct mailing con [!DNL Journey Optimizer], è necessario creare una configurazione di canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
 
-Una superficie di direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
+Una configurazione di direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
 
-1. Create una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**. Fare clic sul pulsante **[!UICONTROL Crea configurazione canale]**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+
+   ![](assets/direct-mail-config-1.png)
+
+1. Immetti un nome e una descrizione (facoltativa) per la configurazione, quindi seleziona il canale da configurare.
+
+   >[!NOTE]
+   >
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
 1. Selezionare il canale **[!UICONTROL Direct mail]**.
 
-   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
+   ![](assets/direct-mail-config-2.png)
 
-1. Definisci le impostazioni della direct mailing nella sezione dedicata della configurazione della superficie di canale.
+1. Seleziona **[!UICONTROL Azione di marketing]** per associare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso associati all’azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
+
+1. Definisci le impostazioni della direct mailing nella sezione dedicata della configurazione del canale.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -207,13 +219,13 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
    >[!CAUTION]
    >
-   >Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
+   >Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Invia la superficie della direct mailing.
+1. Invia la configurazione di direct mailing.
 
 Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md) all&#39;interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene esportato automaticamente nel server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna di direct mailing.
 

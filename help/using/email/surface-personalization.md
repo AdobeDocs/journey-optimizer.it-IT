@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalizzare le impostazioni della superficie e-mail
-description: Scopri come definire valori personalizzati per le impostazioni a livello di superficie del canale e-mail
+title: Personalizzare le impostazioni di configurazione e-mail
+description: Scopri come definire valori personalizzati per le impostazioni a livello di configurazione del canale e-mail
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -10,32 +10,32 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 badge: label="Disponibilità limitata"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
-# Personalizzare le impostazioni della superficie e-mail {#surface-personalization}
+# Personalizzare le impostazioni di configurazione e-mail {#surface-personalization}
 
-Per una maggiore flessibilità e un maggiore controllo sulle impostazioni delle e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini e intestazioni<!--and URL tracking parameters--> durante la creazione di superfici e-mail.
+Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini e intestazioni<!--and URL tracking parameters--> durante la creazione di configurazioni e-mail.
 
 >[!AVAILABILITY]
 >
->La personalizzazione della superficie e-mail è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>La personalizzazione della configurazione e-mail è attualmente disponibile solo per un set di organizzazioni (Disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 ## Aggiungi i sottodomini dinamici {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalizzazione non disponibile"
->abstract="Questa superficie è stata creata senza alcun attributo di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
+>abstract="Questa configurazione è stata creata senza attributi di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Abilita i sottodomini dinamici"
->abstract="Quando crei una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni da te definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
+>abstract="Durante la creazione di una configurazione e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -43,17 +43,17 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni delle 
 >abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completato, puoi scegliere tra tutti i sottodomini disponibili."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
 
-Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base a condizioni specifiche.
+Durante la creazione di una configurazione e-mail, puoi impostare sottodomini dinamici in base a condizioni specifiche.
 
-Ad esempio, se disponi di vincoli legali per l’invio di messaggi da un indirizzo e-mail dedicato per paese, puoi utilizzare i sottodomini dinamici. Questo consente di creare una singola superficie con diversi sottodomini di invio corrispondenti a diversi paesi, anziché creare più superfici per ciascun paese. Puoi quindi eseguire il targeting dei clienti in vari paesi consolidati in una sola campagna.
+Ad esempio, se disponi di vincoli legali per l’invio di messaggi da un indirizzo e-mail dedicato per paese, puoi utilizzare i sottodomini dinamici. Questo consente di creare una singola configurazione con più sottodomini di invio corrispondenti a paesi diversi, anziché creare più configurazioni per ciascun paese. Puoi quindi eseguire il targeting dei clienti in vari paesi consolidati in una sola campagna.
 
-Per definire i sottodomini dinamici in una superficie di canale e-mail, segui i passaggi indicati di seguito.
+Per definire i sottodomini dinamici in una configurazione del canale e-mail, segui i passaggi indicati di seguito.
 
-1. Prima di creare una superficie, imposta i sottodomini da utilizzare per l’invio delle e-mail in base al caso d’uso. [Scopri come](../configuration/about-subdomain-delegation.md)
+1. Prima di creare una configurazione, imposta i sottodomini da utilizzare per l’invio delle e-mail in base al caso d’uso. [Scopri come](../configuration/about-subdomain-delegation.md)
 
    Ad esempio, supponiamo che tu voglia utilizzare sottodomini diversi per paesi diversi: imposta un sottodominio specifico per gli Stati Uniti, uno specifico per il Regno Unito, ecc.
 
-1. Create una superficie di canale. [Scopri come](../configuration/channel-surfaces.md)
+1. Crea una configurazione di canale. [Scopri come](../configuration/channel-surfaces.md)
 
 1. Seleziona il canale **[!UICONTROL E-mail]**.
 
@@ -81,11 +81,11 @@ Per definire i sottodomini dinamici in una superficie di canale e-mail, segui i 
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the configuration. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. Definisci tutte le altre [impostazioni e-mail](email-settings.md) e [invia](../configuration/channel-surfaces.md#create-channel-surface) la tua superficie.
+1. Definisci tutte le altre [impostazioni e-mail](email-settings.md) e [invia](../configuration/channel-surfaces.md#create-channel-surface) la tua configurazione.
 
-Dopo aver aggiunto uno o più sottodomini dinamici a una superficie, gli elementi seguenti verranno compilati in base al sottodominio dinamico risolto per questa superficie:
+Dopo aver aggiunto uno o più sottodomini dinamici a una configurazione, gli elementi seguenti verranno compilati in base al sottodominio dinamico risolto per questa configurazione:
 
 * Tutti gli URL (URL della risorsa, URL della pagina mirror e URL di tracciamento)
 
@@ -95,15 +95,15 @@ Dopo aver aggiunto uno o più sottodomini dinamici a una superficie, gli element
 
 >[!NOTE]
 >
->Se imposti sottodomini dinamici e poi disabiliti l&#39;opzione **[!UICONTROL Sottodominio dinamico]**, tutti i valori dinamici vengono rimossi. Seleziona un sottodominio e invia la superficie per rendere effettive le modifiche.
+>Se imposti sottodomini dinamici e poi disabiliti l&#39;opzione **[!UICONTROL Sottodominio dinamico]**, tutti i valori dinamici vengono rimossi. Seleziona un sottodominio e invia la configurazione per rendere effettive le modifiche.
 
 ## Personalizzare l’intestazione {#personalize-header}
 
-Puoi anche utilizzare la personalizzazione per tutti i parametri di intestazione definiti in una superficie.
+Puoi anche utilizzare la personalizzazione per tutti i parametri di intestazione definiti in una configurazione.
 
-Ad esempio, se disponi di più marchi, puoi creare una singola superficie e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di verificare che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con i nomi e le e-mail **From** corretti. Allo stesso modo, quando i destinatari hanno premuto il pulsante **Rispondi** nel software client di posta elettronica, si desidera che i nomi e le e-mail di **Rispondi a** corrispondano al marchio corretto per l&#39;utente corretto.
+Ad esempio, se disponi di più marchi, puoi creare una singola configurazione e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di verificare che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con i nomi e le e-mail **From** corretti. Allo stesso modo, quando i destinatari hanno premuto il pulsante **Rispondi** nel software client di posta elettronica, si desidera che i nomi e le e-mail di **Rispondi a** corrispondano al marchio corretto per l&#39;utente corretto.
 
-Per utilizzare variabili personalizzate per i parametri di intestazione di superficie, segui i passaggi seguenti.
+Per utilizzare variabili personalizzate per i parametri di intestazione della configurazione, segui i passaggi seguenti.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Per utilizzare variabili personalizzate per i parametri di intestazione di super
 
 >[!NOTE]
 >
->Se hai aggiunto uno o più sottodomini dinamici alla tua superficie, i suffissi **Da e-mail** e **E-mail di errore** verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains) risolto.
+>Se hai aggiunto uno o più sottodomini dinamici alla configurazione, i suffissi **Da e-mail** e **E-mail di errore** verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains) risolto.
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -142,19 +142,19 @@ To use personalized URL tracking prameters, follow the steps below.
 Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
 -->
 
-## Visualizza dettagli superficie {#view-surface-details}
+## Visualizza dettagli configurazione {#view-surface-details}
 
-Quando utilizzi una superficie con impostazioni personalizzate in una campagna o in una superficie, puoi visualizzarne i dettagli direttamente all’interno della campagna o della superficie. Segui i passaggi seguenti.
+Quando utilizzi una configurazione con impostazioni personalizzate in una campagna o in una configurazione, puoi visualizzare i dettagli della configurazione direttamente all’interno della campagna o della configurazione. Segui i passaggi seguenti.
 
 1. Crea una [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journey-gs.md) per e-mail.
 
 1. Selezionare il pulsante **[!UICONTROL Modifica contenuto]**.
 
-1. Fare clic sul pulsante **[!UICONTROL Visualizza dettagli superficie]**.
+1. Fare clic sul pulsante **[!UICONTROL Visualizza dettagli configurazione]**.
 
    ![](assets/campaign-view-surface-details.png)
 
-1. Viene visualizzata la finestra **[!UICONTROL Impostazioni consegna]**. Puoi visualizzare tutte le impostazioni della superficie, inclusi i sottodomini dinamici e i parametri di intestazione personalizzati.
+1. Viene visualizzata la finestra **[!UICONTROL Impostazioni consegna]**. Puoi visualizzare tutte le impostazioni di configurazione, inclusi i sottodomini dinamici e i parametri di intestazione personalizzati.
 
    >[!NOTE]
    >
