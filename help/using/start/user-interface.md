@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 99%
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -194,111 +194,3 @@ Per cambiare lingua:
 * Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
   ![](assets/select-language.png)
 
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_name"
->title="Nome configurazione per dispositivi mobilie e web"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Aggiungere dipendenze"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="Aggiungere il codice di inizializzazione"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance"
->title="Convalidare con Assurance"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_code"
->title="Codice JavaScript"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Avviare il sito e convalidare"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token"
->title="Recuperare il token del dispositivo"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_xcode"
->title="Avviare l’applicazione da Xcode."
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_certificate"
->title="Fornire un certificato push"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_key_id"
->title="ID chiave"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_team_id"
->title="ID team"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_inapp_tag_property"
->title="Scegliere la proprietà tag"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_push_certificate_fcm"
->title="Fornire un certificato push"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="Aggiungere dipendenze"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Importare dipendenze"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="Importare dipendenze"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="Aggiungere il codice di inizializzazione"
->abstract="DA CONFERMARE"
-
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="Recuperare il token del dispositivo"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Avviare l’applicazione da Android Studio"
->abstract="DA CONFERMARE"
-
-<!-- priority scores-->
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Priorità"
->abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne utilizzano la stessa superficie, Journey Optimizer selezionerà la campagna con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Priorità"
->abstract="Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due percorsi utilizzano la stessa superficie, Journey Optimizer selezionerà il percorso con il punteggio di priorità più alto. Se i percorsi hanno lo stesso punteggio, verrà scelto il percorso modificato più di recente."
