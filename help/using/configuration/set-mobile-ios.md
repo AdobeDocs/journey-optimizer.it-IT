@@ -10,9 +10,9 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Questa configurazione di iOS semplifica la configurazione rapida dei canali di m
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Aggiungere il codice di inizializzazione"
->abstract="DA CONFERMARE"
+>abstract="Per inizializzare correttamente l&#39;app, inserire il codice di inizializzazione fornito nel metodo **didFinishLaunchingWithOptions** del file AppDelegate. In questo modo l’app verrà eseguita al momento opportuno durante il suo processo di avvio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"

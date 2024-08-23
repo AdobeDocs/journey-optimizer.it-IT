@@ -10,10 +10,10 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Codice JavaScript"
->abstract="DA CONFERMARE"
+>abstract="Il tag `<head>` contiene metadati essenziali e risorse caricate prima del contenuto principale della pagina Web. Il posizionamento del codice in questa sezione garantisce che sia inizializzato correttamente ed eseguito in anticipo, consentendo alla pagina web di caricarsi e funzionare in modo efficiente. Aggiungendo codice alla sezione `<head>`, potrai migliorare la struttura, le prestazioni e l&#39;esperienza utente complessiva del sito."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="Avviare il sito e convalidare"
->abstract="DA CONFERMARE"
+>abstract="Una volta che il codice è stato implementato correttamente ed è attivo sul sito web, fornisci l’URL di base. Se necessario, puoi tornare a questa pagina in un secondo momento per riconvalidare e confermare che la configurazione funziona come previsto."
 
 Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Data Collection. Questo consente al team marketing di iniziare immediatamente con la creazione di campagne e percorsi.
 
