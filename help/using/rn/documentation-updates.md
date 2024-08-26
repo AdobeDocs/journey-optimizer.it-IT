@@ -22,7 +22,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Agosto 2024 {#aug-2024}
 
 * I guardrail delle prestazioni per la gestione delle decisioni sono stati aggiornati per citare le velocità effettive di consegna delle API Decisioning con/senza segmentazione di Edge. [Ulteriori informazioni](../start/guardrails.md#decision-management)
-* I guardrail di percorso sono stati aggiornati. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
+* I guardrail dei percorsi sono stati aggiornati. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## Luglio 2024 {#july-2024}

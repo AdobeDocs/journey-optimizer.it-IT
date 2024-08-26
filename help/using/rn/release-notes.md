@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -80,7 +80,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Configurazioni del canale migliorate</strong><br/></th>
+<th><strong>Configurazioni dei canali migliorate</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '1972'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -541,24 +541,24 @@ ht-degree: 95%
    + Decisioni per le esperienze (LA) {#experience-decisioning}
       + [Introduzione alle decisioni per le esperienze](using/experience-decisioning/gs-experience-decisioning.md)
       + Riferimento API{#api-reference}
-         + Elementi decisione{#decision-items}
+         + Elementi decisionali{#decision-items}
             + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [Elenco elementi di decisione](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [Elimina elementi di decisione](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [Ricercare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [Aggiornare gli elementi di decisione](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + Raccolte elementi{#items-collections}
+            + [Elenco elementi decisionali](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Eliminare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Cercare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Aggiornare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Raccolte di elementi{#items-collections}
             + [Creare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [Elimina raccolte elementi](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [Elenco raccolte elementi](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [Ricercare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [Aggiorna raccolte elementi](using/experience-decisioning/api-reference/items-collections/update.md)
+            + [Eliminare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Elenco raccolte di elementi](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Cercare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Aggiornare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/update.md)
          + Strategie di selezione{#selection-strategies}
             + [Creare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [Eliminare le strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [Strategie di selezione ricerca](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Eliminare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Cercare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
             + [Elenco strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [Aggiornare le strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/update.md)
+            + [Aggiornare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/update.md)
       + Gestire gli elementi decisionali {#decision-items}
          + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
          + [Creare elementi decisionali](using/experience-decisioning/items.md)
