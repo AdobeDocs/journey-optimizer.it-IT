@@ -10,10 +10,10 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 8%
+source-wordcount: '261'
+ht-degree: 25%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Convalidare con Assurance"
->abstract="Assicurati che la raccolta dati dell’app mobile e l’esperienza utente siano di qualità con Assurance. Questo strumento offre analisi, convalida e ottimizzazione complete. Inoltre, puoi collegare direttamente l’app per verificare l’accurata integrazione dell’SDK."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="Consulta la documentazione di Assurance"
+>abstract="Adobe Experience Platform Assurance è incorporato in questo flusso di lavoro per aiutarti a controllare l’implementazione dell’SDK e a simulare e convalidare gli eventi dell’applicazione."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Panoramica di Adobe Experience Platform Assurance"
 
 
-Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Data Collection. Questo consente al team marketing di iniziare immediatamente con la creazione di campagne e percorsi.
+Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Raccolta dati. Questo consente al team di marketing di iniziare immediatamente con la creazione di campagne e percorsi.
 
 Per implementare in modo efficace questa impostazione, è essenziale che un membro dell’organizzazione con l’autorità e la capacità tecnica di modificare il sito web o il codice mobile sovrintenda alla configurazione.
 
