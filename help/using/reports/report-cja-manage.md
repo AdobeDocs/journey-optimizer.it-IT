@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,93 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 Il report è ora disponibile per la visualizzazione, il download o la condivisione in un file PDF.
 
 >[!ENDTABS]
+
+## Creare una metrica semplice {#create-simple-metric}
+
+Puoi creare metriche calcolate personalizzate direttamente all’interno dei rapporti. Puoi generare informazioni più personalizzate e analizzare meglio i dati combinando due metriche esistenti in modo che soddisfino le tue esigenze di reporting specifiche.
+
+1. Per prima cosa, accedi al rapporto in cui desideri aggiungere una nuova metrica.
+
+1. Nella tabella all&#39;interno del report, selezionare le metriche desiderate tenendo premuto il tasto `Shift` o `CTRL/CMD` mentre si fa clic su di esse. Quindi, fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Crea metrica da selezione]**.
+
+   Se selezioni più di due metriche, nel generatore di metriche verranno utilizzate solo le prime due.
+
+   ![](assets/cja-create-metric_2.png)
+
+1. Dal generatore di metriche calcolate, assegna un nome alla nuova metrica digitando nel campo **[!UICONTROL Titolo]**. Puoi anche aggiungere una **[!UICONTROL Descrizione]**.
+
+   >[!NOTE]
+   >
+   >Se possiedi un Customer Journey Analytics, puoi personalizzare ulteriormente le metriche con opzioni aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+
+1. Scegli le **[!UICONTROL Cifre decimali]** appropriate e seleziona un **[!UICONTROL Formato]** (Decimale, Ora, Percentuale o Valuta) in base alla modalità di visualizzazione della metrica.
+
+1. Selezionare l&#39;operatore, ad esempio addizione, sottrazione, moltiplicazione o divisione, che determinerà la modalità di calcolo della metrica.
+
+   ![](assets/cja-create-metric.png)
+
+1. Se necessario, puoi riordinare i componenti.
+
+1. Quando sei soddisfatto delle tue impostazioni, fai clic su **[!UICONTROL Applica]** per finalizzare la nuova metrica.
+
+1. La nuova metrica verrà visualizzata accanto alle metriche originali nel rapporto.
+
+   ![](assets/cja-create-metric_3.png)
+
+La metrica appena creata verrà inclusa quando esporti il rapporto come PDF o CSV. Tuttavia, verrà rimosso dal report una volta chiuso.
+
+## Esplorare i dati con l’analisi esplorativa {#exploratory}
+
+Utilizza lo strumento di analisi esplorativa per creare facilmente tabelle e visualizzazioni dai **[!UICONTROL Dimension]** e dalle **[!UICONTROL metriche]** selezionati. Questo strumento semplifica l&#39;esplorazione dei dati, consentendo di personalizzare e analizzare le informazioni in modo semplice e automatico. Ulteriori informazioni sono disponibili in [questa documentazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+
+1. Per iniziare, accedi al rapporto in cui desideri utilizzare l’analisi esplorativa.
+
+1. Seleziona il menu Analisi esplorativa dal menu della barra a sinistra.
+
+   ![](assets/exploratory_analysis_1.png)
+
+1. Crea una query scegliendo un **[!UICONTROL Dimension]** e una **[!UICONTROL Metrica]** utilizzando i menu a discesa. Se necessario, puoi anche selezionare un **[!UICONTROL segmento]**.
+
+   ![](assets/exploratory_analysis_2.png)
+
+1. Definisci l’intervallo di date per l’analisi in modo da specificare il periodo su cui desideri concentrarti. Per impostazione predefinita, l’intervallo di date viene impostato su quello utilizzato nel pannello del rapporto.
+
+1. Utilizza le opzioni **[!UICONTROL Aggiungi suddivisione]** o **[!UICONTROL Aggiungi metrica]** per includere dimensioni aggiuntive, consentendo un raggruppamento dei dati più dettagliato.
+
+   Puoi aggiungere fino a tre **[!UICONTROL Dimension]**, **[!UICONTROL Metriche]** e **[!UICONTROL Segmenti]**.
+
+Ora puoi analizzare i dati utilizzando gli strumenti di tabella e visualizzazione personalizzati.
+
+<!--## Create a down-funnel metric {#down-funnel}
+
+1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+
+1. On the canvas editor, select the option to "add a metric".
+
+c. In the metric selector, choose whichever conversion metric seems appropriate and publish your journey
+
+d. Open the report for the journey that you added the metric to and ensure that the metric has been added to the table alongside all the other pre-configured metrics.
+-->
+
+## Creare un pubblico dai dati di reporting {#create-audience}
+
+Ora puoi selezionare dati specifici all’interno della tabella e creare direttamente un pubblico da queste selezioni, semplificando e semplificando il processo di creazione del pubblico.
+
+1. Per prima cosa, accedi alla tabella del rapporto contenente i dati da trasformare in un pubblico.
+
+1. Fare clic con il pulsante destro del mouse sulla cella desiderata e selezionare **[!UICONTROL Crea pubblico]**.
+
+   In alternativa, puoi avviare la creazione di un pubblico dal widget **[!UICONTROL area di lavoro Percorsi]** selezionando un nodo e facendo clic con il pulsante destro del mouse su di esso.
+
+1. Nella finestra **[!UICONTROL Crea pubblico]**, immetti un **[!UICONTROL Nome]** e imposta un **[!UICONTROL Intervallo di date occasionale]** per il pubblico che intendi pubblicare.
+
+   >[!NOTE]
+   >
+   >Se possiedi un Customer Journey Analytics, puoi personalizzare ulteriormente le metriche con opzioni aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+
+   ![](assets/audience_1.png)
+
+1. Fai clic sul pulsante **[!UICONTROL Crea]** per finalizzare la creazione del pubblico. Tieni presente che il completamento di questo processo potrebbe richiedere del tempo.
+
+Ora puoi continuare a utilizzare il pubblico appena creato con un Percorso o una campagna.
+
