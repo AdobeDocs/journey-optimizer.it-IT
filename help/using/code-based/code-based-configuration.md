@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 39%
+source-wordcount: '1125'
+ht-degree: 33%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 39%
 >id="ajo_admin_default_mobile_url"
 >title="URL predefinito per authoring e anteprima"
 >abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="URL predefinito per authoring e anteprima"
+>abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="URL di anteprima"
+>abstract="Questo campo è essenziale per abilitare la simulazione e l’anteprima del contenuto direttamente sul dispositivo all’interno dell’applicazione."
 
 ## Creare una configurazione di canale {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    * Immetti **[!UICONTROL ID app]** e **[!UICONTROL Posizione o percorso nell&#39;app]**.
 
+     ![](assets/code_config_3.png)
+
 1. Seleziona Altro come piattaforma se l’implementazione non è per Web, iOS o Android oppure se devi eseguire il targeting di URI specifici. Quando si scelgono più piattaforme o si aggiungono più URI, il contenuto viene distribuito a tutte le pagine o app selezionate.
 
    * Immettere l&#39;**[!UICONTROL URI superficie]**.
@@ -75,6 +87,35 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
    >[!CAUTION]
    >
    >Assicurati che l’URI di superficie utilizzato nella campagna basata su codice corrisponda a quello utilizzato nella tua implementazione. In caso contrario, le modifiche non verranno consegnate.
+
+1. Compila il campo **[!UICONTROL URL anteprima]** per abilitare le anteprime su dispositivo. Questo URL informa il servizio di anteprima dell’URL specifico da utilizzare quando si attiva un’anteprima.
+
+   * Per il Web:
+
+      * Se viene immesso un URL di una singola pagina, verrà utilizzato per l’anteprima.
+      * Se è selezionata una regola di corrispondenza della pagina, devi immettere un URL di anteprima predefinito che verrà utilizzato per visualizzare l’anteprima dell’esperienza nel browser.
+
+   * Per piattaforme mobili (iOS/Android):
+
+      * L’URL di anteprima è un collegamento diretto configurato dallo sviluppatore dell’app all’interno dell’app. In questo modo, gli URL corrispondenti allo schema del collegamento diretto si apriranno all’interno dell’app anziché in un browser web per dispositivi mobili. Contatta il tuo sviluppatore di app per ottenere lo schema di deep link configurato per la tua app.
+
++++  Le seguenti risorse possono essere utili per configurare collegamenti profondi per l’implementazione dell’app
+
+      * Per Android:
+
+         * [Creare deep link al contesto dell’app](https://developer.android.com/training/app-links/deep-linking)
+
+      * Per iOS:
+
+         * [Definizione di uno schema URL personalizzato per l’app](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [Supporto dei collegamenti universali nell’app](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Scegli il formato previsto dall’applicazione in quella particolare posizione. Verrà utilizzato per creare l’esperienza basata su codice in campagne e percorsi.
 
