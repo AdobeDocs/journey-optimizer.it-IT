@@ -10,9 +10,9 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Codice JavaScript"
->abstract="Le selezioni del menu  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> Il tag contiene metadati e risorse essenziali che vengono caricate prima del contenuto principale della pagina web. Il posizionamento del codice in questa sezione garantisce che sia inizializzato correttamente ed eseguito in anticipo, consentendo alla pagina web di caricarsi e funzionare in modo efficiente. Aggiungendo codice al <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> sezione, contribuisci a migliorare la struttura, le prestazioni e l’esperienza utente complessiva del sito."
+>abstract="Il tag head contiene metadati essenziali e risorse caricate prima del contenuto principale della pagina web. Il posizionamento del codice in questa sezione garantisce che sia inizializzato correttamente ed eseguito in anticipo, consentendo alla pagina web di caricarsi e funzionare in modo efficiente. Aggiungendo codice alla sezione head, potrai migliorare la struttura, le prestazioni e l’esperienza utente complessiva del sito."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
