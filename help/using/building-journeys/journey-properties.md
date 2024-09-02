@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 17%
@@ -24,8 +24,8 @@ ht-degree: 17%
 >abstract="Questa sezione mostra le proprietà del percorso. Per impostazione predefinita, i parametri di sola lettura sono nascosti. Le impostazioni disponibili dipendono dallo stato del percorso, dalle autorizzazioni e dalla configurazione del prodotto."
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Criteri di uscita dal percorso"
+>id="ajo_journey_exit_criteria"
+>title="Criteri di uscita percorso"
 >abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
 
 
