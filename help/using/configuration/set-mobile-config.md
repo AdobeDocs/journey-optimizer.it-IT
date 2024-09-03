@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 13%
@@ -48,6 +48,7 @@ La configurazione del canale guidato supporta le seguenti piattaforme e canali.
    * Messaggio push mobile
 
    * Web Basic
+
 
 Tieni presente che per ogni piattaforma da impostare è necessario creare una configurazione separata. Questo perché ogni app richiede una configurazione di canale univoca, che offre la flessibilità di determinare quali canali desideri per ogni piattaforma.
 

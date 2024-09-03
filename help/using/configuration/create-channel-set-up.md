@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 3%
@@ -51,6 +51,7 @@ ht-degree: 3%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID team"
 >abstract="L&#39;ID team, un valore stringa utilizzato per identificare il team, si trova nella scheda **Appartenenza** nell&#39;account sviluppatore."
+
 
 Questa configurazione semplifica la configurazione rapida dei canali di marketing, rendendo immediatamente disponibili tutte le risorse essenziali nelle app Experience Platform, Journey Optimizer e Data Collection. Questo consente al team marketing di iniziare rapidamente a creare campagne e percorsi.
 
