@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 33%
@@ -78,7 +79,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    * Immetti **[!UICONTROL ID app]** e **[!UICONTROL Posizione o percorso nell&#39;app]**.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. Seleziona Altro come piattaforma se l’implementazione non è per Web, iOS o Android oppure se devi eseguire il targeting di URI specifici. Quando si scelgono più piattaforme o si aggiungono più URI, il contenuto viene distribuito a tutte le pagine o app selezionate.
 
@@ -174,4 +175,3 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 | --------- | ----------- | ------- | 
 | Web jolly | `wildcard:web://domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
 | Web jolly | `wildcard:web://*domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina di tutti i domini che finiscono con “domain.com”. |
-
