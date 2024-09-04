@@ -8,8 +8,8 @@ description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,10 +88,10 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora puoi definire, gestire e riutilizzare queste configurazioni per qualsiasi canale, incluso Web, messaggistica in-app o esperienza basata su codice.</p>
+<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora è possibile definire, gestire e riutilizzare queste configurazioni per qualsiasi canale, incluso il Web, la messaggistica in-app o l’esperienza basata su codice.</p>
 <p><ul>
 <li>Le superfici di canale ora sono state rinominate in <strong>Configurazioni di canale</strong></li>
-<li>Puoi allegare una o più azioni di marketing per applicare il consenso e i criteri di governance dei dati</li>
+<li>È possibile allegare una o più azioni di marketing per applicare il consenso e i criteri di governance dei dati</li>
 <li>Il controllo dell’accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
 <li>Per alcuni canali, è possibile creare configurazioni di canale in grado di eseguire il targeting per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione di canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
 </ul></p>
@@ -127,7 +127,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Le variabili globali dei frammenti migliorano la funzionalità dei frammenti esistenti per migliorare l’efficienza in termini di riutilizzabilità dei contenuti e casi di utilizzo di script. I frammenti possono ora utilizzare variabili di input e creare variabili di output utilizzabili nel contenuto di campagne e percorsi. I frammenti possono utilizzare variabili di input, sia nei <a href="../personalization/use-expression-fragments.md">frammenti di espressione</a> che nei <a href="../email/use-visual-fragments.md">frammenti visivi</a>. Puoi utilizzare queste variabili per personalizzare il contenuto e i parametri dei messaggi nelle campagne e nei percorsi.</p>
+<p>Le variabili globali dei frammenti aumentano la funzionalità dei frammenti esistenti per migliorare l’efficienza in termini di riutilizzo dei contenuti e casi d’uso di scripting. I frammenti possono ora utilizzare variabili di input e creare variabili di output utilizzabili nel contenuto delle campagne e dei percorsi. I frammenti ora possono utilizzare variabili di input, sia nei <a href="../personalization/use-expression-fragments.md">frammenti di espressione</a> che nei <a href="../email/use-visual-fragments.md">frammenti visivi</a>. Puoi utilizzare queste variabili per personalizzare il contenuto e i parametri dei messaggi nelle campagne e nei percorsi.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/use-expression-fragments.md">documentazione dettagliata</a>.</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Nell&#39;attività **Condizione**, per impostazione predefinita, la **[!UICONTROL Condizione temporale]** è ora impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
-* Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati dal pulsante **Avvisi**, per allinearli ad altri avvisi e fornire un&#39;esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale di zoom è ora visibile ed è ora possibile reimpostare più facilmente il valore di zoom.
+* Nell’attività **Condizione**, per impostazione predefinita, adesso la **[!UICONTROL condizione Tempo]** è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
+* Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale dello zoom è ora visibile ed è possibile reimpostare più facilmente il valore dello zoom.
 
 <!--**Audiences and Profiles**-->
 
@@ -170,13 +170,13 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale push**
 
-* Ora puoi aggiungere le credenziali push dell’app mobile nelle impostazioni di configurazione del canale Adobe Journey Optimizer. Non è più necessario creare una superficie app nella raccolta dati di Adobe Experience Platform.
+* Ora è possibile aggiungere le credenziali push dell’app mobile nelle impostazioni della configurazione dei canali di Adobe Journey Optimizer. Non è più necessario creare una superficie app nella raccolta dati di Adobe Experience Platform.
 
 ### Altre modifiche {#changes}
 
 **Reporting**
 
-* L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi.
+* L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione semplice.
 
 [Introduzione alla nuova interfaccia di reporting di Journey Optimizer](../reports/report-gs-cja.md)
 

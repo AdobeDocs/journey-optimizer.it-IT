@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -200,7 +200,7 @@ ht-degree: 98%
    + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
    + Configurare il canale e-mail {#configure-email}
       + [ Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
-      + [Configurare le impostazioni di configurazione e-mail](using/email/email-settings.md)
+      + [Configurare le impostazioni della configurazione e-mail](using/email/email-settings.md)
       + [Personalizzare la configurazione e-mail](using/email/surface-personalization.md)
 + Canale in-app{#in-app}
    + [Introduzione al canale in-app](using/in-app/get-started-in-app.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
    + Configurare il canale Web {#configure-web-channel}
       + [Prerequisiti per il canale Web](using/web/web-prerequisites.md)
       + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
-      + [Creare la configurazione del canale web](using/web/web-configuration.md)
+      + [Creare la configurazione del canale Web](using/web/web-configuration.md)
    + [Creare esperienze web](using/web/create-web.md)
    + Authoring di pagine web {#author-web-pages}
       + [Modificare il contenuto di una pagina web](using/web/edit-web-content.md)
@@ -581,9 +581,9 @@ ht-degree: 98%
    + [Query](using/data/get-started-queries.md)
 + Configurazione {#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
-   + [Configurare le configurazioni dei canali](using/configuration/channel-surfaces.md)
-   + Configurazione canale guidato {#guided-setup}
-      + [Guida introduttiva alla configurazione del canale guidato](using/configuration/set-mobile-config.md)
+   + [Impostare le configurazioni dei canali](using/configuration/channel-surfaces.md)
+   + Configurazione guidata del canale {#guided-setup}
+      + [Guida introduttiva alla configurazione guidata del canale](using/configuration/set-mobile-config.md)
       + [Creare una configurazione di canale](using/configuration/create-channel-set-up.md)
    + Delegare i sottodomini e-mail {#delegate-subdomains}
       + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
