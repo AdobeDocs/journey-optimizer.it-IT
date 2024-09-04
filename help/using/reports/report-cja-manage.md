@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## Creare un pubblico dai dati di reporting {#create-audience}
+
+>[!IMPORTANT]
+>
+>Ogni organizzazione è limitata a pubblicare 25 tipi di pubblico. Inoltre, gli utenti possono pubblicare un massimo di 5 tipi di pubblico all&#39;ora e 20 al giorno
 
 Ora puoi selezionare dati specifici all’interno della tabella e creare direttamente un pubblico da queste selezioni, semplificando e semplificando il processo di creazione del pubblico.
 

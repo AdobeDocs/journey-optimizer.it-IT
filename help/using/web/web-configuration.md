@@ -1,18 +1,19 @@
 ---
 title: Configurazione del canale web
-description: Creare la configurazione del canale web
+description: Creare la configurazione del canale Web
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Creare la configurazione del canale web {#web-configuration}
+# Creare la configurazione del canale Web {#web-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
@@ -81,15 +82,46 @@ Operatori disponibili per la creazione di regole di corrispondenza delle pagine:
 
 * **Percorso**
 
-  | | | |
-  |-|-|-|
-  | Operatore  | Descrizione  | Esempi  |
-  | Uguale a  | Corrispondenza esatta del percorso.  |    |
-  | Inizia con  | Corrisponde a tutti i percorsi (inclusi i percorsi secondari) che iniziano con la stringa immessa.  |    |
-  | Termina con  | Corrisponde a tutti i percorsi (inclusi i percorsi secondari) che terminano con la stringa immessa.  |    |
-  | Qualsiasi  | Corrisponde a tutti i percorsi: utile quando si esegue il targeting di tutti i percorsi sotto uno o più domini.  |    |
-  | Corrispondenza con caratteri jolly  | L&#39;operatore &quot;Corrispondenza caratteri jolly&quot; consente all&#39;utente di definire un carattere jolly interno nel percorso, ad esempio &quot;/products/*/detail&quot;.  Il carattere jolly * nel componente ** percorso corrisponde a qualsiasi sequenza di caratteri fino a quando non viene rilevato il primo carattere /.  /*/ corrisponde a qualsiasi sequenza di caratteri (inclusi i percorsi secondari)  | Esempio: &quot;Corrispondenza con caratteri jolly: /products/*/detail&quot;, corrisponde a tutti i percorsi come:  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   Esempio: &quot;Corrisponde a: /prod*/detail, corrisponde a tutti i percorsi come:  example.com/products/detail  example.com/production/detail   non corrisponde a percorsi come:  example.com/products/yoga/detail  |
-  | Contiene  | &quot;contains&quot; viene tradotto in un carattere jolly come &quot;mystring&quot; e corrisponde a tutti i percorsi che contengono questa sequenza di caratteri.  | Esempio: &quot;Contains: product&quot; (Contiene: prodotto), corrisponde a tutti i percorsi che contengono la stringa di prodotto, come: example.com/products, example.com/yoga/perfproduct, example.com/surf/productdescription, example.com/home/product/page  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>Operatore</th>
+        <th><strong>Descrizione</th>
+        <th><strong>Esempi</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Uguale a</td>
+        <td>Corrispondenza esatta del percorso. </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Inizia con</td>
+        <td>Corrisponde a tutti i percorsi (inclusi i percorsi secondari) che iniziano con la stringa immessa.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Termina con</td>
+        <td>Corrisponde a tutti i percorsi (inclusi i percorsi secondari) che terminano con la stringa immessa.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Qualsiasi</td>
+        <td>Corrisponde a tutti i percorsi: utile quando si esegue il targeting di tutti i percorsi sotto uno o più domini.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Corrispondenza con caratteri jolly</td>
+        <td>L’operatore "Wildcard matching" (Corrispondenza caratteri jolly) consente di definire un carattere jolly interno al percorso, ad esempio "/products/*/detail".  Il carattere jolly * nel componente ** percorso corrisponde a qualsiasi sequenza di caratteri fino a quando non viene rilevato il primo carattere /.  /*/ corrisponde a qualsiasi sequenza di caratteri (inclusi i percorsi secondari)</td>
+        <td>Esempio: "Corrispondenza con caratteri jolly: /products/*/detail", corrisponde a tutti i percorsi come: <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Esempio: "Corrisponde a: /prod*/detail, corrisponde a tutti i percorsi come:  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  non corrisponde a percorsi come: <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>Contains</td>
+        <td>"contains" viene tradotto in un carattere jolly come "mystring" e corrisponde a tutti i percorsi che contengono questa sequenza di caratteri.</td>
+        <td>Esempio: "Contiene: product", corrisponde a tutti i percorsi che contengono la stringa product, come: <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 Se il caso d’uso non può essere modellato utilizzando una regola, puoi aggiungere più regole di pagina e utilizzare gli operatori &quot;Or&quot; o &quot;Exclude&quot; tra di esse. &#39;Escludi&#39; è utile quando una delle pagine che corrispondono alla regola definita non deve essere mirata: ad esempio, tutte le pagine &quot;example.com&quot; che contengono &quot;product&quot;, esclusa la pagina seguente: `https://example.com/blogs/productinfo`.
