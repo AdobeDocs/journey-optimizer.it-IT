@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagne"
->abstract="Crea campagne per distribuire contenuti una tantum a un pubblico specifico su vari canali. Prima di creare la campagna, assicurati di disporre di una configurazione del canale e di un pubblico Adobe Experience Platform pronto per l’uso."
+>abstract="Crea campagne per distribuire contenuti una tantum a un pubblico specifico su vari canali. Prima di creare una campagna, accertati di avere una configurazione dei canali e un pubblico di Adobe Experience Platform pronti per l’uso."
 
 Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
@@ -63,7 +63,7 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 +++
 
 1. **Hai bisogno di un pubblico**. I tipi di pubblico devono essere disponibili prima di creare la campagna. Ulteriori informazioni sui tipi di pubblico [in questa pagina](../audience/about-audiences.md).
-1. **È necessaria una configurazione del canale**. Per poter selezionare un canale, è necessario che sia stata creata e disponibile la configurazione di canale corrispondente (ossia il predefinito). Ulteriori informazioni sulle configurazioni dei canali [in questa pagina](../configuration/channel-surfaces.md).
+1. **È necessaria una configurazione dei canali**. Per poter selezionare un canale, è necessario che la configurazione dei canali corrispondente (ovvero, preimpostata) sia creata e disponibile. Ulteriori informazioni sulle configurazioni dei canali sono disponibili [in questa pagina](../configuration/channel-surfaces.md).
 
 ## Video introduttivo {#video}
 

@@ -10,15 +10,15 @@ level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Utilizzare i criteri di consenso {#consent-management}
 
-Questi dati possono essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati in Journey Optimizer siano conformi ai [criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. Questi criteri sono regole di Adobe Experience Platform che definiscono quali [azioni di marketing](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#marketing-actions){target="_blank"} è consentito eseguire sui dati.
+Questi dati possono essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati all’interno di Journey Optimizer siano conformi ai [criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. Questi criteri sono regole di Adobe Experience Platform che definiscono quali [azioni di marketing](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#marketing-actions){target="_blank"} è consentito eseguire sui dati.
 
 Tra i criteri di utilizzo dei dati disponibili vi sono i **criteri di consenso**. Questi consentono di adottare e applicare facilmente criteri di marketing al fine di rispettare le preferenze di consenso dei clienti. [Ulteriori informazioni sull’applicazione dei criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=it){target="_blank"}
 
@@ -34,7 +34,7 @@ Ad esempio, puoi [creare i criteri di consenso](https://experienceleague.adobe.c
 
    * Se disponi di **Healthcare Shield** o **Privacy and Security Shield** di Adobe, puoi creare un criterio di consenso personalizzato che sostituisce la logica predefinita. Ad esempio, puoi definire un criterio per inviare messaggi e-mail solo a tutte le persone che hanno dato il loro consenso. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
 
-  Per applicare un criterio personalizzato, è necessario definire un’azione di marketing in tale criterio e associarla a una configurazione di canale. [Ulteriori informazioni](#surface-marketing-actions)
+  Per applicare un criterio personalizzato, è necessario definire un’azione di marketing in tale criterio e associarla a una configurazione dei canali. [Ulteriori informazioni](#surface-marketing-actions)
 
 A livello di percorso, puoi applicare questi criteri di consenso alle azioni personalizzate.
 
@@ -63,7 +63,7 @@ Ad esempio, se desideri creare un criterio di consenso per eseguire il targeting
 
       >[!NOTE]
       >
-      >Le azioni di marketing di base fornite per Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#core-actions){target="_blank"}. I passaggi per creare un&#39;azione di marketing personalizzata sono elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
+      >Le azioni di marketing di base fornite già preconfigurate da Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#core-actions){target="_blank"}. I passaggi per creare un’azione di marketing personalizzata sono elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
 
    1. Seleziona cosa accade quando si applica l’azione di marketing. In questo esempio, seleziona **[!UICONTROL Consenso e-mail marketing]**.
 
@@ -73,7 +73,7 @@ Ad esempio, se desideri creare un criterio di consenso per eseguire il targeting
 
 1. In Journey Optimizer, crea una superficie e-mail. [Scopri come](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. Nei dettagli della configurazione e-mail, seleziona l&#39;azione di marketing **[!UICONTROL Targeting e-mail]**.
+1. Nei dettagli della configurazione e-mail, seleziona l’azione di marketing **[!UICONTROL Targeting e-mail]**.
 
    ![](assets/surface-marketing-action.png)
 

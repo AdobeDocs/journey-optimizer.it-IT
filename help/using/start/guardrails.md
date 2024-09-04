@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
 
-### Guardrail del canale web {#web-guardrails}
+### Guardrail per il canale Web {#web-guardrails}
 
-[!DNL Journey Optimizer] campagne web eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. Questo aumenterà il conteggio totale dei profili coinvolgibili, il che potrebbe avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Le campagne web di [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, potendo avere implicazioni di costo se fosse superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 ## Guardrail di sottodomini {#subdomain-guardrails}

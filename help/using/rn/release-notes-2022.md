@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -217,8 +217,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 **Amministrazione**
 
 * Quando si attiva o si disattiva l’elenco Consentiti, ora viene visualizzato una nuova avvertenza per specificare gli effetti di ogni azione. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
-* È stata aggiornata l’interfaccia utente per la creazione di configurazioni di canale, la creazione di pool IP, la gestione dell’elenco di soppressione e dell’elenco Consentiti e la configurazione del canale SMS.
-* Ora, quando si crea la configurazione del primo canale per un determinato sottodominio, il tempo di elaborazione richiederà da 10 minuti a 10 giorni e solo fino a 3 ore per le superfici successive che utilizzano tale sottodominio. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
+* È stata aggiornata l’interfaccia utente per creare configurazioni dei canali e pool IP, gestire l’elenco di soppressione e l’elenco Consentiti e configurare il canale SMS.
+* Ora, durante la creazione della prima configurazione dei canali per un determinato sottodominio, il tempo di elaborazione richiederà da 10 minuti a 10 giorni e solo fino a 3 ore per le superfici successive che utilizzano quello stesso sottodominio. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * È stata aggiornata l’interfaccia utente per la creazione dei predefiniti per pagina di destinazione e dei sottodomini della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
 **Controlli di audit**
@@ -399,7 +399,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Messaggi**
 
-* I predefiniti per messaggi sono ora **configurazioni canale**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+* I predefiniti per messaggi ora sono le **configurazioni dei canali**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 **Amministrazione**
 

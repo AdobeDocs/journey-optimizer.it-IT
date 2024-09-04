@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Inoltre, devi aggiungere gli utenti che hanno bisogno di accedere ad Assets Esse
 
 Quando accedi a [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un determinato numero di IP a seconda del contratto.
 
-Per creare i tuoi percorsi e inviare messaggi, accedi al menu **AMMINISTRAZIONE**. Sfoglia il menu **[!UICONTROL Canali]** per configurare i messaggi e le configurazioni dei canali (ossia i predefiniti per messaggi).
+Per creare i tuoi percorsi e inviare messaggi, accedi al menu **AMMINISTRAZIONE**. Sfoglia il menu **[!UICONTROL Canali]** per configurare i messaggi e le configurazioni dei canali (ad es. i predefiniti per messaggi).
 
 >[!NOTE]
 >Come **Amministratore di sistema**, se non trovi il menu **[!UICONTROL Canali]** in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Scopri come aggiornare il profilo di prodotto in [questa pagina](../../administration/permissions.md#edit-product-profile).
@@ -50,11 +50,11 @@ Per creare i tuoi percorsi e inviare messaggi, accedi al menu **AMMINISTRAZIONE*
 
 Segui i passaggi seguenti:
 
-1. **Configurare messaggi e canali**: definire configurazioni, adattare e personalizzare le impostazioni per e-mail, sms e messaggi push
+1. **Configura i messaggi e i canali**: definisci le configurazioni, adatta e personalizza le impostazioni per e-mail, SMS e messaggi push
 
    * Definisci le **impostazioni delle notifiche push** sia in [!DNL Adobe Experience Platform] e in [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../../push/push-gs.md)
 
-   * Crea **configurazioni canale** (ossia predefiniti messaggio) per configurare tutti i parametri tecnici richiesti per e-mail, sms e notifiche push. [Ulteriori informazioni](../../configuration/channel-surfaces.md)
+   * Crea **configurazioni dei canali** (ad esempio, i predefiniti per messaggi) per configurare tutti i parametri tecnici richiesti per e-mail, SMS e notifiche push. [Ulteriori informazioni](../../configuration/channel-surfaces.md)
 
    * Configura il **Canale SMS** per configurare tutti i parametri tecnici richiesti per gli SMS. [Ulteriori informazioni](../../sms/sms-configuration.md)
 
