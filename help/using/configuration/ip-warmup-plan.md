@@ -273,7 +273,7 @@ Ogni dominio ora viene visualizzato in una colonna diversa sulla stessa riga.
 >id="ajo_admin_ip_warmup_surface"
 >title="Seleziona una configurazione di marketing"
 >abstract="Devi selezionare la stessa configurazione di quella selezionata nella campagna da associare al piano di riscaldamento IP."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Configurare le configurazioni dei canali"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Impostare le configurazioni dei canali"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di preparazione IP"
 
 Per creare un piano di riscaldamento IP, attenersi alla procedura descritta di seguito.
