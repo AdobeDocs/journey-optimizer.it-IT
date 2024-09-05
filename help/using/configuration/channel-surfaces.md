@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare le configurazioni dei canali
+title: Impostare le configurazioni dei canali
 description: Scopri come configurare e monitorare le configurazioni dei canali
 feature: Surface, Channel Configuration
 topic: Administration
@@ -9,18 +9,18 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1737'
 ht-degree: 2%
 
 ---
 
-# Configurare le configurazioni dei canali {#set-up-channel-surfaces}
+# Impostare le configurazioni dei canali {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Configurazione del canale"
+>title="Configurazione dei canali"
 >abstract="Una configurazione di canale è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
 
 >[!CONTEXTUALHELP]
@@ -271,10 +271,9 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## Video introduttivo{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+Scopri cosa sono le configurazioni di canale e come vengono utilizzate in Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
