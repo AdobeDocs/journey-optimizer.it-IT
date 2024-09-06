@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '603'
 ht-degree: 21%
 
 ---
@@ -48,9 +48,9 @@ Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
 1. Attiva l&#39;opzione **[!UICONTROL Definisci il timeout evento]** dalle proprietà dell&#39;evento.
 
-1. Specifica il tempo di attesa dell&#39;evento da parte del percorso. La durata massima è di 29 giorni.
+1. Specifica il tempo di attesa dell&#39;evento da parte del percorso. La durata massima è di **90 giorni**.
 
-1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita l&#39;opzione **[!UICONTROL Imposta un percorso di timeout]**. Se questa opzione non è abilitata, il percorso continuerà per la singola persona una volta raggiunto il timeout. È consigliabile abilitare sempre l&#39;opzione **Imposta un percorso di timeout**.
+1. Quando non viene ricevuto alcun evento entro il timeout specificato, è consigliabile inviare i singoli utenti a un percorso di timeout. Abilitare l&#39;opzione **[!UICONTROL Imposta un percorso di timeout]**. In tal caso, il percorso continua per l’individuo una volta raggiunto il timeout. È consigliabile abilitare sempre l&#39;opzione **[!UICONTROL Imposta un percorso di timeout]**.
 
    ![](assets/event-timeout.png)
 
