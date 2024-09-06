@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
+source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '744'
+ht-degree: 85%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 0%
 <td>
 <p>La configurazione guidata dei canali consente di automatizzare e convalidare la configurazione dei canali in un’esperienza unificata, velocizzando il processo di introduzione a Journey Optimizer. Questa nuova configurazione guidata semplifica la configurazione rapida dei canali, garantendo che tutte le risorse necessarie siano prontamente installate e funzionanti in Experience Platform, Journey Optimizer e Data Collection. Questo consente ai team di marketing, product e data engineering di iniziare rapidamente con la creazione di campagne e percorsi.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/set-mobile-config.md">documentazione dettagliata</a>.</p>
+<img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
 </td>
 </tr>
