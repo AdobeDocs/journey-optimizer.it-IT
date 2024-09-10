@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 27%
+source-wordcount: '1343'
+ht-degree: 28%
 
 ---
 
@@ -98,7 +98,7 @@ Prendiamo un esempio per un timeout di 5 secondi.
 
 **Come si configura una regola di limitazione o limitazione? Esiste una regola predefinita?**
 
-Per impostazione predefinita, non esiste alcuna regola di limitazione o limite. Le regole vengono definite a livello di sandbox per un endpoint specifico (l’URL denominato), utilizzando l’API di limitazione o limitazione. Fai riferimento a [questa sezione](../configuration/external-systems.md#capping).
+Per creare regole di limitazione o limitazione, consultare [questa sezione](../configuration/external-systems.md#capping). Per impostazione predefinita, non esiste una regola di limitazione ma un limite massimo di 300.000 chiamate in un minuto definito per tutte le azioni personalizzate, per host e per sandbox. Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione.
 
 **Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra un nuovo tentativo e l&#39;altro?**
 
