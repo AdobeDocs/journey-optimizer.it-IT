@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '2295'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '2361'
+ht-degree: 92%
 
 ---
 
@@ -142,11 +142,12 @@ All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail sp
 All’attività **[!UICONTROL Leggi pubblico]**, vengono applicati i seguenti guardrail specifici:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
-* Per i percorsi che utilizzano un’attività di Leggii pubblico esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi pubblico, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
-* L’attività Leggi pubblico non può essere utilizzata con le attività di Adobe Campaign.
-* L’attività Leggi pubblico può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
-* Un percorso può disporre di una sola attività Leggi pubblico.
-* Consulta anche i consigli su come utilizzare l’attività Leggi pubblico in [questa pagina](../building-journeys/read-audience.md).
+* Per i percorsi che utilizzano un&#39;attività **Read Audience**, esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+* Impossibile utilizzare l&#39;attività **Read Audience** con le attività di Adobe Campaign.
+* L&#39;attività **Read Audience** può essere utilizzata solo come prima attività in un percorso, o dopo un&#39;attività evento business.
+* Un percorso può avere una sola attività **Read Audience**.
+* Consulta anche i consigli su come utilizzare l&#39;attività **Read Audience** in [questa pagina](../building-journeys/read-audience.md).
+* I nuovi tentativi vengono applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Read Audience** o **Business Event**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. In seguito, lo considereremo un fallimento. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 
 
 ### Qualificazione del pubblico {#audience-qualif-g}
