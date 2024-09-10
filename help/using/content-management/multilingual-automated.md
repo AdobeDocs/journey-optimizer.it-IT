@@ -10,14 +10,24 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 4%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
 # Creare contenuto multilingue con traduzione automatica {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="Aggiungi provider"
+>abstract="Aggiungi provider di traduzione e lingue in base alle esigenze. Questo consente di gestire quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare i tipi di pubblico in base ai requisiti correnti e all’ambito del progetto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="Modifica provider"
+>abstract="Modifica i provider di traduzione esistenti e aggiungi le lingue in base alle esigenze. Questa funzionalità consente di controllare quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e rivolgersi a tipi di pubblico specifici in base alle esigenze correnti e agli obiettivi del progetto."
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ Per creare contenuti multilingue mediante la traduzione automatica, segui la pro
 
 ## Crea lingua {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="Aggiungi lingua"
+>abstract="Quando configuri le preferenze della lingua, puoi creare altre lingue se quella desiderata non è disponibile per il contenuto multilingue."
+
 Durante la configurazione delle impostazioni della lingua, come descritto nella sezione [Creare le impostazioni della lingua](#language-settings), se non è disponibile una lingua specifica per il contenuto multilingue, è possibile creare il numero di nuove lingue necessario utilizzando il menu **[!UICONTROL Traduzione]**.
 
 1. Dal menu **[!UICONTROL Gestione contenuto]**, accedi a **[!UICONTROL Traduzione]**.
@@ -54,6 +69,16 @@ Durante la configurazione delle impostazioni della lingua, come descritto nella 
    ![](assets/locale_2.png)
 
 ## Crea progetto di traduzione {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="Crea progetto"
+>abstract="Per iniziare a creare contenuti multilingue, inizia il progetto di traduzione identificando la lingua di destinazione, selezionando la lingua o il dialetto regionale appropriato per il pubblico. Dopodiché, scegli un provider di traduzione che sia in linea con le esigenze del progetto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="Modifica Progetto"
+>abstract="Aggiorna il progetto di traduzione per incorporare altre impostazioni internazionali, che consentono di espandere il contenuto per raggiungere un pubblico più ampio."
 
 Avvia il progetto di traduzione specificando la lingua di Target, che indica la lingua o l’area geografica specifica per il contenuto. Puoi quindi scegliere il provider di traduzione.
 
@@ -205,6 +230,11 @@ Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l�
 
 ## Gestisci progetto di traduzione internalizzazione {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="Insourcing del progetto di traduzione"
+>abstract="L’internalizzazione del progetto di traduzione consente di gestire ed eseguire le traduzioni direttamente all’interno del progetto di traduzione, semplificando il processo e mantenendo un maggiore controllo sulla qualità e la coerenza della traduzione."
+
 Se hai selezionato Insourcing durante la configurazione delle impostazioni della lingua, puoi tradurre il contenuto direttamente nel progetto di traduzione.
 
 1. Dal **[!UICONTROL progetto di traduzione]**, accedi al menu **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Insourcing]**.
@@ -222,6 +252,16 @@ Se hai selezionato Insourcing durante la configurazione delle impostazioni della
 1. Se si è pronti a pubblicare il testo tradotto, fare clic su **[!UICONTROL Finalizza]**.
 
 ## Rivedi il progetto di traduzione {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="Rivedi il progetto di traduzione"
+>abstract="Una volta che il provider di traduzione scelto ha completato la traduzione, puoi rivedere i risultati direttamente in Journey Optimizer. Questo consente di valutare l’accuratezza e la qualità della traduzione, garantendo che sia allineata alle aspettative e ai requisiti del progetto prima di finalizzarla."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="Anteprima del progetto di traduzione"
+>abstract="La finestra Anteprima consente di visualizzare il modo in cui il contenuto tradotto viene visualizzato in ogni lingua. Questa funzione consente di esaminare il rendering e garantire che il contenuto venga visualizzato correttamente ed efficacemente in tutte le lingue selezionate."
 
 Se hai selezionato **[!UICONTROL Abilita flusso di lavoro di revisione]** nel **[!UICONTROL progetto di traduzione]**, puoi rivedere la traduzione direttamente in Journey Optimizer dopo il completamento da parte del provider di traduzione selezionato.
 
