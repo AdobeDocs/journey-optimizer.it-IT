@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -210,13 +210,13 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
->title="Visualizzatore conflitti nelle campagne"
->abstract="Visualizzatore conflitti nelle campagne"
+>title="Visualizzatore di conflitti nelle campagne"
+>abstract="Visualizzatore di conflitti nelle campagne"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Conflitto del visualizzatore in percorsi"
->abstract="Conflitto del visualizzatore in percorsi"
+>title="Visualizzatore di conflitti nei percorsi"
+>abstract="Visualizzatore di conflitti nei percorsi"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -225,17 +225,17 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_rule_set"
->title="Applica set di regole ai percorsi"
+>title="Applicare un set di regole ai percorsi"
 >abstract="Da definire"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
->title="Applicare il set di regole alle campagne"
+>title="Applicare un set di regole alle campagne"
 >abstract="Da definire"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
->title="Fattore nella definizione delle priorità"
+>title="Considerazioni per la prioritizzazione"
 >abstract="Da definire"
 
 <!--CONTENT LOCKING-->
@@ -252,8 +252,8 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="Abilita aggiunta contenuti"
->abstract="Abilita aggiunta contenuti"
+>title="Abilitare l’aggiunta di contenuti"
+>abstract="Abilitare l’aggiunta di contenuti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
@@ -262,13 +262,13 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
->title="Usa blocco specifico nel componente"
->abstract="Usa blocco specifico nel componente"
+>title="Utilizzare un blocco specifico nel componente"
+>abstract="Utilizzare un blocco specifico nel componente"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
->title="Evidenzia aree modificabili"
->abstract="Evidenzia aree modificabili"
+>title="Evidenziare le aree modificabili"
+>abstract="Evidenziare le aree modificabili"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
