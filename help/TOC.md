@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 0%
    + [Rivedere e attivare una campagna](using/campaigns/review-activate-campaign.md)
    + [Gestire le campagne](using/campaigns/modify-stop-campaign.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
++ Verifica le consegne {#test}
+   + Anteprima e verifica del contenuto {#preview-test}
+      + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
+      + [Selezionare i profili di test](using/content-management/test-profiles.md)
+      + [Anteprima del contenuto](using/content-management/preview.md)
+      + [Inviare bozze e-mail](using/content-management/proofs.md)
+      + [Testare il rendering delle e-mail](using/content-management/rendering.md)
+      + [Rapporto e-mail di spam](using/content-management/spam-report.md)
 + Canale e-mail {#email}
    + [Introduzione alle e-mail](using/email/get-started-email.md)
    + [Creare un messaggio e-mail](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 0%
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)
       + [Creare contenuti dinamici](using/personalization/dynamic-content.md)
-   + Anteprima e test del contenuto {#preview-test}
-      + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
-      + [Selezionare i profili di test](using/content-management/test-profiles.md)
-      + [Anteprima del contenuto](using/content-management/preview.md)
-      + [Inviare bozze e-mail](using/content-management/proofs.md)
-      + [Testare il rendering delle e-mail](using/content-management/rendering.md)
-      + [Rapporto e-mail di spam](using/content-management/spam-report.md)
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
