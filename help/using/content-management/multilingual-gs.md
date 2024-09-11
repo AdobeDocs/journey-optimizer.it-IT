@@ -10,7 +10,7 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -58,7 +58,9 @@ Se non riesci ad accedere alla pagina Traduzione, devi abilitare la funzione Tra
 
    ![](assets/multi-troubleshoot.png)
 
-1. L&#39;amministratore dovrà passare al menu **[!UICONTROL Traduzione]** nella barra laterale a sinistra. Il sistema attiverà automaticamente la funzione di traduzione.
+1. L&#39;amministratore dovrà passare al menu **[!UICONTROL Traduzione]** nella barra laterale a sinistra.
+
+   Il sistema attiverà automaticamente la funzione di traduzione.
 
 1. Una volta abilitata la funzionalità, potrai accedere alla pagina **[!UICONTROL Traduzione]** insieme alle schede **[!UICONTROL Progetti]**, **[!UICONTROL Provider]** e **[!UICONTROL Impostazioni internazionali]**.
 
