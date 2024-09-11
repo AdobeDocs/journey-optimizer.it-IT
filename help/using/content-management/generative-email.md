@@ -1,64 +1,50 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione di e-mail con l’assistente IA
-description: Inizia a generare contenuti e risorse e-mail con l’Assistente AI
+title: Generazione di e-mail con l’Assistente all’intelligenza artificiale in Journey Optimizer - Content Accelerator
+description: Inizia a generare contenuti e risorse e-mail con l’Assistente all’intelligenza artificiale in Journey Optimizer per l’accelerazione dei contenuti
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 24561293e744c048dd3f895360a487c8598b0765
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 13%
+source-wordcount: '1609'
+ht-degree: 8%
 
 ---
 
-# Generazione di e-mail con l’assistente IA {#generative-email}
+# Generazione di e-mail con l’Assistente all’intelligenza artificiale in Journey Optimizer - Content Accelerator {#generative-email}
 
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-* [Introduzione all’assistente IA](gs-generative.md)
-* Generazione di e-mail con l’assistente IA
-* [Generazione di SMS con l’assistente IA](generative-sms.md)
-* [Generazione di push con l’assistente IA](generative-push.md)
-* [Esperimento contenuti con l’assistente IA](generative-experimentation.md)
-
->[!ENDSHADEBOX]
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
+></br>
+>
+>È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Journey Optimizer per l&#39;accelerazione dei contenuti. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Dopo aver creato e personalizzato le e-mail, sfrutta la potenza dell’Assistente per l’intelligenza artificiale in Journey Optimizer, basata sull’intelligenza artificiale generativa, per migliorare i contenuti.
+Dopo aver creato e personalizzato le e-mail, sfrutta la potenza di AI Assistant in Journey Optimizer for Content Acceleration (Accelerazione dei contenuti), basata su un’intelligenza artificiale generativa, per migliorare i contenuti.
 
-Utilizza l’Assistente AI per migliorare l’efficacia delle campagne creando e-mail complete, frammenti di testo personalizzati e immagini personalizzate che parlano direttamente al pubblico, aumentando il coinvolgimento e l’interazione.
+Utilizza l’Assistente AI in Journey Optimizer per l’accelerazione dei contenuti per migliorare l’efficacia delle campagne creando e-mail complete, frammenti di testo personalizzati e immagini personalizzate che parlano direttamente al tuo pubblico, aumentando il coinvolgimento e l’interazione.
 
-Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer.
+Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer per l’accelerazione dei contenuti.
 
 >[!BEGINTABS]
 
 >[!TAB Generazione e-mail completa]
 
-Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un modello e-mail esistente.
+Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificiale per l’accelerazione dei contenuti per perfezionare un modello e-mail esistente.
 
 1. Dopo aver creato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
    Per ulteriori informazioni su come configurare la tua campagna e-mail, consulta [questa pagina](../campaigns/create-campaign.md).
 
-1. Personalizza l&#39;e-mail in base alle esigenze e accedi al menu **[!UICONTROL Assistente AI]**.
+1. Personalizza il layout in base alle esigenze e accedi al menu **[!UICONTROL Assistente AI]**.
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto della campagna, al nome e al pubblico selezionato.
-
-   La richiesta deve essere sempre associata al contenuto corrente.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente IA per l&#39;accelerazione dei contenuti per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -68,17 +54,28 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un model
 
 1. Puoi attivare/disattivare le opzioni **[!UICONTROL Oggetto]** e **[!UICONTROL Preintestazione]** per includerle nella generazione della variante.
 
-1. Fai clic su **[!UICONTROL Carica risorsa per il brand]** per aggiungere una risorsa per il brand contenente contenuto che possa fornire ulteriore contesto all&#39;Assistente all&#39;intelligenza artificiale o selezionarne una caricata in precedenza.
-
-   ![](assets/full-email-3.png){zoomable="yes"}
-
-1. Personalizza il prompt con le diverse opzioni:
+1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
-   * **[!UICONTROL Lingua]**: seleziona la lingua in cui desideri generare il contenuto.
    * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
 
    ![](assets/full-email-4.png){zoomable="yes"}
+
+1. Scegli le **[!UICONTROL impostazioni immagine]**:
+
+   * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
+   * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
+   * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
+   * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
+   * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
+
+   ![](assets/full-email-6.png){zoomable="yes"}
+
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+
+   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
+
+   ![](assets/full-email-3.png){zoomable="yes"}
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -90,6 +87,8 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un model
 
    * **[!UICONTROL Usa un linguaggio più semplice]**: sfrutta l&#39;Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
+   Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
+
    ![](assets/full-email-5.png){zoomable="yes"}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
@@ -100,9 +99,9 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un model
 
 Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la tua campagna e-mail. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)
 
->[!TAB Generazione testo]
+>[!TAB Generazione solo testo]
 
-Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenuto dell’e-mail.
+Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificiale per l’accelerazione dei contenuti per migliorare il contenuto dell’e-mail.
 
 1. Dopo aver creato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -112,9 +111,7 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenu
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto della campagna, al nome e al pubblico selezionato.
-
-   La richiesta deve essere sempre associata al contenuto corrente.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente IA per l&#39;accelerazione dei contenuti per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -122,18 +119,19 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenu
 
    ![](assets/text-genai-2.png){zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Carica risorsa marchio]** per aggiungere qualsiasi risorsa marchio contenente contenuto che possa fornire ulteriore contesto all&#39;Assistente IA per l&#39;intelligenza artificiale.
+1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
-
-1. Personalizza il prompt con le diverse opzioni:
-
-   * **[!UICONTROL Strategia di comunicazione]**: selezionare l&#39;approccio di comunicazione desiderato per il testo generato.
-   * **[!UICONTROL Lingua]**: scegli la lingua per il contenuto della variante.
-   * **[!UICONTROL Tono]**: verifica che il testo sia appropriato per il pubblico e lo scopo.
-   * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore di intervallo.
+   * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
+   * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 
    ![](assets/text-genai-4.png){zoomable="yes"}
+
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+
+   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
+
+   ![](assets/text-genai-3.png){zoomable="yes"}
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -151,6 +149,8 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenu
 
    * **[!UICONTROL Usa un linguaggio più semplice]**: sfrutta l&#39;Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
+   Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
+
    ![](assets/text-genai-5.png){zoomable="yes"}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
@@ -161,25 +161,21 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenu
 
 Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la tua campagna e-mail. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)
 
->[!TAB Generazione immagine]
+>[!TAB Generazione solo immagini]
 
-Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare e migliorare le risorse, garantendo un’esperienza più semplice da usare.
+Nell’esempio seguente, scopri come sfruttare l’Assistente IA per l’accelerazione dei contenuti per ottimizzare e migliorare le risorse, garantendo un’esperienza più semplice da usare.
 
 1. Dopo aver creato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
    Per ulteriori informazioni su come configurare la tua campagna e-mail, consulta [questa pagina](../email/create-email.md).
 
-1. Compila i **[!UICONTROL Dettagli di base]** per la tua campagna. Al termine, fai clic su **[!UICONTROL Modifica contenuto e-mail]**.
-
-1. Seleziona la risorsa da modificare con l’Assistente AI.
+1. Seleziona la risorsa da modificare con l’Assistente IA per l’accelerazione dei contenuti.
 
 1. Dal menu di destra, selezionare **[!UICONTROL Assistente AI]**.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
-
-   La richiesta deve essere sempre associata al contenuto corrente.
+1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** per l&#39;Assistente IA per l&#39;accelerazione dei contenuti per personalizzare nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -187,17 +183,20 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    ![](assets/image-genai-2.png){zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Carica risorsa marchio]** per aggiungere qualsiasi risorsa marchio contenente contenuto che possa fornire ulteriore contesto all&#39;Assistente IA per l&#39;intelligenza artificiale.
-
-1. Personalizza il prompt con le diverse opzioni:
+1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
    * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettere una dimensione personalizzata.
-   * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
+   * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
+   * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
    ![](assets/image-genai-4.png){zoomable="yes"}
+
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+
+   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
 1. Una volta completata la configurazione del prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -205,11 +204,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
-
-1. Scegliere **[!UICONTROL Mostra simili]** se si desidera visualizzare le immagini correlate a questa variante.
-
-   ![](assets/image-genai-6.png){zoomable="yes"}
+1. Scegliere **[!UICONTROL Genera simili]** se si desidera visualizzare le immagini correlate a questa variante.
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
@@ -221,8 +216,9 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
 >[!ENDTABS]
 
+
 ## Video introduttivo {#video}
 
-Scopri come utilizzare l’assistente AI per generare e-mail, testo o immagini completi.
+Scopri come utilizzare l’Assistente AI in Journey Optimizer for Content Acceleration per generare e-mail, testo o immagini completi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
+>[!VIDEO](https://video.tv.adobe.com/v/3433552)

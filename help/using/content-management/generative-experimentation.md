@@ -1,40 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esperimento contenuti con l’assistente IA
-description: Esperimento contenuti con l’assistente IA
+title: Esperimento sui contenuti con l’Assistente AI in Journey Optimizer - Acceleratore dei contenuti
+description: Esperimento sui contenuti con l’Assistente AI in Journey Optimizer per l’accelerazione dei contenuti
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d331c475f2460facf33ed275131f0c2e9517e27c
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 22%
+source-wordcount: '274'
+ht-degree: 8%
 
 ---
 
-# Esperimento contenuti con l’assistente IA {#generative-experimentation}
+# Esperimento sui contenuti con l’Assistente AI in Journey Optimizer - Acceleratore dei contenuti {#generative-experimentation}
 
->[!BEGINSHADEBOX]
+>[!IMPORTANT]
+>
+>Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
+></br>
+>
+>È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Journey Optimizer per l&#39;accelerazione dei contenuti. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-**Sommario**
+Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assistente IA in Adobe Journey Optimizer for Content Acceleration, che include la funzione Content Experiment. Questo strumento consente di definire più trattamenti di consegna, con contenuti diversi, per misurare le prestazioni per il pubblico di destinazione.
 
-* [Introduzione all’assistente IA](gs-generative.md)
-* [Generazione di e-mail con l’assistente IA](generative-email.md)
-* [Generazione di SMS con l’assistente IA](generative-sms.md)
-* [Generazione di push con l’assistente IA](generative-push.md)
-* Esperimento contenuti con l’assistente IA
-
->[!ENDSHADEBOX]
-
-Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assistente IA in Adobe Journey Optimizer, che include la funzione Esperimento contenuti. Questo strumento consente di definire più trattamenti di consegna, con contenuti diversi, per misurare le prestazioni per il pubblico di destinazione.
-
-1. Crea la campagna e utilizza l’assistente AI per generare le varianti.
+1. Crea la campagna e utilizza l’Assistente AI per l’accelerazione dei contenuti per generare le varianti.
 
    In questo esempio, abbiamo generato un’e-mail di conferma dell’abbonamento con un codice promozionale.
 
@@ -48,7 +40,7 @@ Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assiste
 
 1. Seleziona le Varianti da includere nell’esperimento.
 
-1. Fare clic su **Aggiungi X trattamenti**.
+1. Fai clic su **Aggiungi all&#39;esperimento**.
 
    ![](assets/experiment-genai-3.png)
 

@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: 0bf1b65787eaf4d66964430bf89488fe4f930bfc
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -20,23 +20,16 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di agosto è disponibile]
+>[!TAB Assistente AI in Ottimizzatore Percorso - Acceleratore contenuto]
 
-Scopri le nuove funzioni e i miglioramenti introdotti nella versione di agosto di Adobe Journey Optimizer.
-
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+Acquisisci un’esperienza pratica con la nostra anteprima live delle funzioni, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB Reporting con Customer Journey Analytics (Beta)]
 
 La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
-
->[!TAB Assistente IA]
-
-Assistente IA è una funzione dell’interfaccia utente che consente di comprendere i concetti Adobe e ottenere informazioni operative per il proprio ambiente specifico.
-
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
 >[!TAB Frammenti di contenuto]
 
