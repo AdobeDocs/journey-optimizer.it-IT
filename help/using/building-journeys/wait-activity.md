@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 15%
+source-wordcount: '598'
+ht-degree: 13%
 
 ---
 
@@ -107,3 +107,13 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
 ![](assets/journey57bis.png)-->
+
+## Nodo di attesa automatico  {#auto-wait-node}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_auto_wait_node "
+>title="Informazioni sul nodo di attesa automatico"
+>abstract="Un&#39;attività **Wait** viene aggiunta automaticamente dopo questa attività. È impostato per 3 giorni. Puoi rimuoverlo o configurarlo in base alle esigenze."
+
+Ogni attività messaggio in entrata (messaggio in-app, esperienza basata su codice o scheda) viene fornita con un&#39;attività **Wait** di 3 giorni. Poiché i messaggi in entrata terminano automaticamente quando un profilo raggiunge la fine del percorso, si presume che gli utenti debbano visualizzarlo almeno per 3 giorni. Puoi rimuovere questa attività **Attendi** o modificarne la configurazione, se necessario.

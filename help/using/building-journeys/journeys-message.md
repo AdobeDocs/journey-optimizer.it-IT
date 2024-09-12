@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 17%
 
 ---
@@ -40,7 +40,9 @@ Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:
 
 1. Dalla sezione **Actions** della palette, trascina un&#39;attività **email**, **In-app**, **SMS** o **Push** nell&#39;area di lavoro.
 
-1. Configura l’attività. Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
+1. Configura l’attività.
+
+   Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>Ogni attività messaggio in entrata (messaggio in-app, esperienza basata su codice o scheda) viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## Aggiornare contenuti live{#update-live-content}
 
