@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 18%
@@ -120,7 +120,7 @@ Puoi configurare **[!UICONTROL Opzioni avanzate]** per la notifica push. I param
 
 | Parametro | Descrizione |
 |---------|---------|
-| **[!UICONTROL Comprimibile]** (iOS/Android) | Un messaggio comprimibile è un messaggio che può essere sostituito da un nuovo messaggio se è diventato obsoleto. Un caso d’uso comune di messaggi comprimibili è rappresentato dai messaggi utilizzati per indicare a un’app mobile di sincronizzare i dati dal server. Un esempio potrebbe essere un’app sportiva che aggiorna gli utenti con il punteggio più recente. È rilevante solo il messaggio più recente. D’altra parte, con un messaggio non comprimibile, ogni messaggio è importante per l’app client e deve essere consegnato. |
+| **[!UICONTROL Comprimibile]** (iOS/Android) | Un messaggio comprimibile è un messaggio che può essere sostituito da un nuovo messaggio se è diventato obsoleto. Un caso d’uso comune di messaggi comprimibili è rappresentato dai messaggi utilizzati per indicare a un’app mobile di sincronizzare i dati dal server. Un esempio potrebbe essere un’app sportiva che aggiorna gli utenti con il punteggio più recente. È rilevante solo il messaggio più recente. D’altra parte, con i messaggi non comprimibili, ogni messaggio è importante per l’app client e deve essere consegnato. |
 | **[!UICONTROL Audio personalizzato]** (iOS/Android) | Il suono che il terminale mobile deve riprodurre quando viene ricevuta la notifica. L&#39;audio deve essere incluso nell&#39;app. |
 | **[!UICONTROL Distintivi]** (iOS/Android) | Un badge viene utilizzato per visualizzare direttamente sull’icona dell’applicazione il numero di nuove informazioni non lette. <br/>Il valore del badge scompare non appena l&#39;utente apre o legge il nuovo contenuto dall&#39;applicazione. Quando viene ricevuta una notifica su un dispositivo, quest’ultimo può aggiornare o aggiungere un valore di badge per l’app correlata.<br/>Ad esempio, se memorizzi il numero di articoli non letti dei tuoi clienti, puoi sfruttare la personalizzazione per inviare il valore univoco del badge degli articoli non letti per ciascun cliente. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md). |
 | **[!UICONTROL Gruppo di notifica]** (solo iOS) | Associa un gruppo di notifiche alla notifica push.<br/>A partire da iOS 12, i gruppi di notifica consentono di consolidare i thread di messaggi e gli argomenti delle notifiche in ID thread. Ad esempio, un brand può inviare notifiche di marketing con un ID gruppo, mantenendo più notifiche di tipo operativo con uno o più ID diversi.<br/>Per illustrare questa situazione, è possibile avere i gruppi di notifica groupID: 123 &quot;check out the new spring collection of sweaters&quot; e groupID: 456 &quot;your package was deliver&quot;. In questo esempio, tutte le notifiche di consegna sono raggruppate in ID gruppo: 456. |
