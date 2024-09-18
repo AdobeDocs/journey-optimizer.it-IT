@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
->title="Prioritizzare il futuro"
->abstract="Prioritizzare il futuro"
+>title="Priorità in vista"
+>abstract="Priorità in vista"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -330,8 +330,8 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_approval_status"
->title="Stato approvazione"
->abstract="Stato approvazione"
+>title="Stato di approvazione"
+>abstract="Stato di approvazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_approve"

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -174,8 +174,8 @@ ht-degree: 96%
    + [Rivedere e attivare una campagna](using/campaigns/review-activate-campaign.md)
    + [Gestire le campagne](using/campaigns/modify-stop-campaign.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
-+ Verifica le consegne {#test}
-   + Anteprima e verifica del contenuto {#preview-test}
++ Verificare le consegne {#test}
+   + Anteprima e test del contenuto {#preview-test}
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
       + [Selezionare i profili di test](using/content-management/test-profiles.md)
       + [Anteprima del contenuto](using/content-management/preview.md)
@@ -291,7 +291,7 @@ ht-degree: 96%
       + [Generazione di SMS con IA](using/content-management/generative-sms.md)
       + [Generazione web con IA](using/content-management/generative-web.md)
       + [Esperimento sui contenuti con IA](using/content-management/generative-experimentation.md)
-      + [Casi di utilizzo dell&#39;Assistente IA](using/content-management/generative-uc.md)
+      + [Casi d’uso dell’Assistente IA](using/content-management/generative-uc.md)
    + Utilizzare il contenuto multilingue{#content-multilingual}
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
       + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
@@ -595,7 +595,7 @@ ht-degree: 96%
    + [Impostare le configurazioni dei canali](using/configuration/channel-surfaces.md)
    + Configurazione guidata del canale {#guided-setup}
       + [Guida introduttiva alla configurazione guidata del canale](using/configuration/set-mobile-config.md)
-      + [Creare una configurazione di canale](using/configuration/create-channel-set-up.md)
+      + [Creare una configurazione del canale](using/configuration/create-channel-set-up.md)
    + Delegare i sottodomini e-mail {#delegate-subdomains}
       + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
       + [Delegare un sottodominio](using/configuration/delegate-subdomain.md)
