@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 99%
+source-wordcount: '1591'
+ht-degree: 95%
 
 ---
 
@@ -299,7 +299,7 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Violazione dei criteri di governance dei dati"
->abstract="Violazione dei criteri di governance dei dati"
+>abstract="Se viene identificato un campo con restrizioni in un percorso o in una campagna oppure un&#39;azione personalizzata, viene visualizzato un errore che impedisce la pubblicazione del campo. Utilizza il diagramma di derivazione dati in questa finestra di dialogo per capire quali altre modifiche alla configurazione devono essere apportate prima di poter attivare il percorso o la campagna."
 
 <!--APPROVAL POLICIES-->
 
