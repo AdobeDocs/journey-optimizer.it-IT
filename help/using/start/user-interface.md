@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorità"
->abstract="Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due percorsi utilizzano la stessa superficie, Journey Optimizer selezionerà il percorso con il punteggio di priorità più alto. Se i percorsi hanno lo stesso punteggio, verrà scelto il percorso modificato più di recente."
+>abstract="Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Il valore di priorità qui inserito viene ereditato da tutte le azioni in entrata (come In-App) contenute in questo percorso. Nelle situazioni in cui la stessa superficie in entrata viene utilizzata in altre campagne o percorsi, l’azione in entrata con il punteggio di priorità più alto viene mostrata al destinatario. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorità"
->abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne utilizzano la stessa superficie, Journey Optimizer selezionerà la campagna con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente."
+>abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Nelle situazioni in cui la stessa superficie in entrata (ad esempio in-app) viene utilizzata in altre campagne o percorsi, l’azione in entrata con il punteggio di priorità più alto viene mostrata al destinatario. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Visualizzatore di conflitti nelle campagne"
->abstract="Visualizzatore di conflitti nelle campagne"
+>abstract="Questo strumento consente di determinare la sovrapposizione con altri percorsi, campagne o superfici. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Visualizzatore di conflitti nei percorsi"
->abstract="Visualizzatore di conflitti nei percorsi"
+>abstract="Questo strumento consente di determinare la sovrapposizione con altri percorsi, campagne o superfici. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Applicare un set di regole ai percorsi"
->abstract="Da definire"
+>abstract="Applica un set di regole per escludere questo percorso a una parte del pubblico in base alle regole del limite di frequenza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorità in vista"
->abstract="Priorità in vista"
+>abstract=" Se viene programmato un percorso con priorità più alta entro il periodo di tempo specificato qui, al cliente verrà impedito di accedere a questo percorso. Per le situazioni in cui desideri che i percorsi vengano inseriti in base al principio &quot;primo arrivato, primo servito&quot;, consigliamo di scegliere il periodo di look ahead giornaliero e di assicurarsi che il punteggio di priorità di qualsiasi altro percorso in quella giornata sia inferiore al punteggio di priorità per il percorso. Fornendo un punteggio di priorità pari a 100 a un percorso si garantirebbe anche che il punteggio venga assegnato."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
