@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
+source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 47%
+source-wordcount: '973'
+ht-degree: 43%
 
 ---
 
@@ -186,9 +186,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * **Numero massimo di percorsi live** - Journey Optimizer ora dispone di un guardrail di 500 percorsi live sulle sandbox di produzione, anziché di 100. Il numero di percorsi live è visibile nell’area di lavoro del percorso.
 
-* **Rapporti in tempo reale di un Percorso** - I rapporti in tempo reale forniscono informazioni approfondite sulle prestazioni dei percorsi nelle ultime 24 ore. È stata migliorata con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati per errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del Percorso.
+* **Miglioramenti al reporting in tempo reale** - Il reporting in tempo reale fornisce informazioni approfondite sulle prestazioni dei tuoi percorsi nelle ultime 24 ore. È stata migliorata con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati per errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del Percorso.
 
-* Data di disponibilità: 10 settembre **Funzionalità Riprova**: i nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato. [Ulteriori informazioni](../building-journeys/read-audience.md#retries)
+* **Parametri nelle azioni personalizzate** - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate.
+
+* (Data di disponibilità: 10 settembre) **Nuovi tentativi automatici in Read Audience** - I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Read Audience** o **Business Event**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato. [Ulteriori informazioni](../building-journeys/read-audience.md#retries)
 
 **Canale e-mail**
 
