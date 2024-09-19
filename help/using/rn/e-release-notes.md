@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 41%
+source-wordcount: '907'
+ht-degree: 45%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 41%
 
 Questa versione include le nuove funzionalità elencate di seguito.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Schede di contenuto per app per dispositivi mobili e siti web</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le schede di contenuto sono una nuova funzione di messaggistica digitale di Adobe Journey Optimizer che offre contenuti personalizzati e coinvolgenti direttamente all’interno di app mobili e siti web. A differenza delle notifiche push tradizionali, le schede di contenuto si integrano perfettamente nell’interfaccia utente, offrendo aggiornamenti persistenti e non intrusivi che migliorano l’interazione e l’esperienza utente.</p>
-<p>Questa funzione consente a marketer di presentare contenuti rich media rilevanti agli utenti, aumentando il coinvolgimento e garantendo la visualizzazione di messaggi importanti senza interromperne il percorso.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Esperienze basate su codice in percorsi</strong><br/></th>
+<th><strong>Criteri di uscita globali nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basato su codice è ora disponibile nell’area di lavoro del percorso.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../code-based/get-started-code-based.md">documentazione dettagliata</a>.</p>
+<p>Ora puoi definire e combinare regole dei criteri di uscita per i tuoi percorsi.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico**
 
 * L’utilizzo dei tipi di pubblico provenienti da caricamento personalizzato (file CSV) è ora disponibile con il componente aggiuntivo Privacy and Security Shield.
-* Quando esegui il targeting di un pubblico di caricamento personalizzato (file CSV), ora puoi utilizzare gli attributi del file nelle campagne e nei percorsi. Questi attributi sono disponibili nell’editor di personalizzazione, per personalizzare i messaggi, e nell’editor di espressioni avanzate del percorso.
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (Data di disponibilità: 17 settembre) **Utilizzo licenze** - La dashboard Utilizzo licenze mostra ora i profili Engageable, anziché i tipi di pubblico Engageable. [Ulteriori informazioni](../audience/license-usage.md)
 
 **Governance dei dati**
 
 * Ora puoi applicare i criteri di governance dei dati ai canali Journey Optimizer, oltre alle azioni personalizzate all’interno dei percorsi. Questo miglioramento consente di impedire l’utilizzo di campi sensibili nelle comunicazioni applicando azioni di marketing direttamente all’interno delle configurazioni del canale.
 
+<!--
+**Frequency and priority management**
 
-**Gestione della frequenza e della priorità**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **Limitazione della frequenza per campagna o percorso** - È ora possibile creare regole di frequenza da applicare ai percorsi, che consentono di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **Punteggio di priorità** - È ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o percorsi utilizzano la stessa superficie, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente. Il punteggio di priorità è disponibile per tutti i canali in entrata nelle campagne e per il canale in-app in percorsi.
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **Conflitti di visualizzazione** - Un nuovo pulsante **Conflitti di visualizzazione** in percorsi e campagne consente ora di verificare ogni volta che è possibile una sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.
 
 **Percorsi**
-
-* **Criteri di uscita globali** - È ora possibile definire e combinare le regole dei criteri di uscita per i percorsi.
 
 * **Numero massimo di percorsi live** - Journey Optimizer ora dispone di un guardrail di 500 percorsi live sulle sandbox di produzione, anziché di 100. Il numero di percorsi live è visibile nell’area di lavoro del percorso.
 
