@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare una configurazione di canale
+title: Creare una configurazione del canale
 description: Scopri come creare una configurazione di canale
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
+source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Creare una configurazione di canale {#set-mobile-ios}
+# Creare una configurazione del canale {#set-mobile-ios}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
@@ -104,4 +105,3 @@ Dopo aver creato la configurazione, è possibile rivisitarla in qualsiasi moment
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
 1. Ora puoi aggiornare la configurazione in base alle esigenze.
-
