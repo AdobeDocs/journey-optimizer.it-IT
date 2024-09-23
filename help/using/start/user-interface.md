@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ Per cambiare lingua:
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Priorità"
->abstract="Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Il valore di priorità qui inserito viene ereditato da tutte le azioni in entrata (come In-App) contenute in questo percorso. Nelle situazioni in cui la stessa superficie in entrata viene utilizzata in altre campagne o percorsi, l’azione in entrata con il punteggio di priorità più alto viene mostrata al destinatario. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Priorità"
->abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Nelle situazioni in cui la stessa superficie in entrata (ad esempio in-app) viene utilizzata in altre campagne o percorsi, l’azione in entrata con il punteggio di priorità più alto viene mostrata al destinatario. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Visualizzatore di conflitti nelle campagne"
->abstract="Questo strumento consente di determinare la sovrapposizione con altri percorsi, campagne o superfici. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Visualizzatore di conflitti nei percorsi"
->abstract="Questo strumento consente di determinare la sovrapposizione con altri percorsi, campagne o superfici. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
