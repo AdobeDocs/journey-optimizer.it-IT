@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
+source-git-commit: 6229f295b961b0535139b64928216e40c3759947
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1789'
 ht-degree: 80%
 
 ---
@@ -361,10 +361,3 @@ Per cambiare lingua:
 >id="ajo_email_enable_experience_decisioning"
 >title="Abilita Experience Decisioning"
 >abstract="Abilita Experience Decisioning"
-
-<!-- next-gen proofing-->
-
->[!CONTEXTUALHELP]
->id="ajo_simulate_sample_profiles"
->title="Simulare utilizzando i profili di esempio"
->abstract="Simulare utilizzando i profili di esempio"
