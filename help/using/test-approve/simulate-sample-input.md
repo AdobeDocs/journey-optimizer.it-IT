@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verifica il contenuto utilizzando dati di input di esempio
-description: Scopri come visualizzare in anteprima il contenuto delle e-mail e inviare bozze utilizzando un input di esempio.
+description: Scopri come visualizzare in anteprima il contenuto delle e-mail e inviare bozze utilizzando dati di input di esempio.
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 * Nell’esperienza corrente non sono disponibili le seguenti funzioni: rendering della casella in entrata, rapporti di posta indesiderata, contenuto multilingue ed esperimento sui contenuti. Per utilizzare queste funzionalità, seleziona dal contenuto il pulsante **[!UICONTROL Simula contenuto]** per accedere all&#39;interfaccia utente precedente.
 * Al momento sono supportati solo gli attributi del profilo. Se nel contenuto vengono utilizzati attributi contestuali per la personalizzazione, non potrai testare il contenuto utilizzando questi attributi.
 * Per l’immissione di dati per le varianti sono supportati solo i seguenti tipi di dati: numero (intero e decimale), stringa, booleano e tipo data. Qualsiasi altro tipo di dati mostrerà un errore.
-
-
-non da acrite
 
 ## Aggiungi varianti {#profiles}
 
