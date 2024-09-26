@@ -25,7 +25,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Criteri di uscita percorso"
+>title="Criteri di uscita dal percorso"
 >abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
 
 

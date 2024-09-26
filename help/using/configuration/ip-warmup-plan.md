@@ -12,7 +12,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1669'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -271,8 +271,8 @@ Ogni dominio ora viene visualizzato in una colonna diversa sulla stessa riga.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Seleziona una configurazione di marketing"
->abstract="Devi selezionare la stessa configurazione di quella selezionata nella campagna da associare al piano di riscaldamento IP."
+>title="Selezionare una configurazione di marketing"
+>abstract="Devi selezionare la stessa configurazione di quella selezionata nella campagna da associare al piano di preparazione IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Impostare le configurazioni dei canali"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di preparazione IP"
 

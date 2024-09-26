@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="Configurazione dei canali"
->abstract="Una configurazione di canale è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
+>abstract="Una configurazione dei canali è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Azione di marketing"
->abstract="Scegli le azioni di marketing per collegare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso connessi all’azione di marketing verranno utilizzati per rispettare le preferenze dei clienti."
+>abstract="Scegli le azioni di marketing per collegare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso connessi all’azione di marketing verranno utilizzati per rispettare le preferenze della clientela."
 
 Con [!DNL Journey Optimizer] è possibile impostare configurazioni di canale (ossia predefiniti per messaggi) che definiscano tutti i parametri tecnici richiesti per i messaggi: tipo di e-mail, e-mail e nome del mittente, app mobili, configurazione di SMS e altro ancora.
 
@@ -44,17 +44,17 @@ Puoi anche utilizzare la configurazione guidata del canale per automatizzare e c
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Creare una configurazione di canale {#create-channel-surface}
+## Creare una configurazione dei canali {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Impostazioni configurazione canale"
->abstract="Durante la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione SMS e altro ancora."
+>title="Impostazioni della configurazione dei canali"
+>abstract="Quando imposti una configurazione dei canali, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Impostazioni configurazione canale"
->abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una configurazione del canale che definisca tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare configurazioni di canale, è necessario disporre dell’autorizzazione Gestione predefiniti messaggi."
+>title="Impostazioni della configurazione dei canali"
+>abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una configurazione dei canali in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare le configurazioni dei canali, devi disporre dell’autorizzazione Gestisci predefiniti messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"

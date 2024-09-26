@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
 >title="Definire una configurazione web"
->abstract="Una configurazione web può corrispondere a un URL di una o più pagine, consentendoti di fornire modifiche al contenuto in una o più pagine web."
+>abstract="Una superficie web può corrispondere all’URL di una sola pagina o più pagine, consentendoti di apportare modifiche al contenuto in una o più pagine web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

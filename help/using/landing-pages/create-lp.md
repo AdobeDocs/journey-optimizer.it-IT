@@ -209,7 +209,7 @@ Per definire le impostazioni delle pagine secondarie, effettuare le seguenti ope
 
 ![](assets/lp_subpage-settings.png)
 
-## Verifica della pagina di destinazione {#test-landing-page}
+## Verificare la pagina di destinazione {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

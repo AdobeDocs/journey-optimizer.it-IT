@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confermare l’URL per la modifica"
->abstract="Conferma l’URL della pagina web specifica da utilizzare per la modifica del contenuto che verrà applicato alla configurazione web definita in precedenza. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
+>abstract="Conferma l’URL della pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sulla configurazione web definita sopra. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ In questa sezione vengono descritti i diversi modi in cui è possibile spostarsi
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Utilizzare la modalità Sfoglia"
->abstract="Da questa modalità, puoi passare alla pagina esatta dalla configurazione selezionata che desideri personalizzare."
+>abstract="Da questa modalità puoi passare alla pagina esatta dalla configurazione selezionata che desideri personalizzare."
 
 È possibile passare dalla modalità predefinita **[!UICONTROL Progettazione]** alla modalità **[!UICONTROL Sfoglia]** utilizzando il pulsante dedicato.
 

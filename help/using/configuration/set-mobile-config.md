@@ -12,7 +12,7 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nome configurazione per dispositivi mobilie e web"
->abstract="Immetti il nome della configurazione mobile o web. Questo nome verrà utilizzato per ogni risorsa creata automaticamente con la Configurazione guidata canale."
+>abstract="Immetti il nome della configurazione mobile o web. Questo nome verrà utilizzato per ogni risorsa creata automaticamente con la Configurazione guidata del canale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Convalidare con Assurance"
 >abstract="Adobe Experience Platform Assurance è incorporato in questo flusso di lavoro per aiutarti a controllare l’implementazione dell’SDK e a simulare e convalidare gli eventi dell’applicazione."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Panoramica di Adobe Experience Platform Assurance"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/assurance/home" text="Panoramica di Adobe Experience Platform Assurance"
 
 Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Raccolta dati. Questo consente al team marketing di iniziare con la creazione di campagne e percorsi.
 

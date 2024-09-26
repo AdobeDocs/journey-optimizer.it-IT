@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -30,12 +30,12 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalizzazione non disponibile"
->abstract="Questa configurazione è stata creata senza attributi di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
+>abstract="Questa configurazione è stata creata senza alcun attributo di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Abilita i sottodomini dinamici"
->abstract="Durante la creazione di una configurazione e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
+>abstract="Quando crei una configurazione e-mail, puoi impostare sottodomini dinamici in base alle condizioni da te definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"

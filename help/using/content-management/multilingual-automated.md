@@ -13,7 +13,7 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
 source-wordcount: '1617'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
->title="Aggiungi provider"
->abstract="Aggiungi provider di traduzione e lingue in base alle esigenze. Questo consente di gestire quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare i tipi di pubblico in base ai requisiti correnti e all’ambito del progetto."
+>title="Aggiungere provider"
+>abstract="Aggiungi provider di traduzione e lingue in base alle esigenze. Questo consente di gestire quali provider e lingue sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare i tipi di pubblico in base ai requisiti correnti e all’ambito del progetto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
->title="Modifica provider"
->abstract="Modifica i provider di traduzione esistenti e aggiungi le lingue in base alle esigenze. Questa funzionalità consente di controllare quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e rivolgersi a tipi di pubblico specifici in base alle esigenze correnti e agli obiettivi del progetto."
+>title="Modificare provider"
+>abstract="Modifica i provider di traduzione esistenti e aggiungi le lingue in base alle esigenze. Questa funzionalità consente di controllare quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare tipi di pubblico specifici in base alle esigenze correnti e agli obiettivi del progetto."
 
 >[!AVAILABILITY]
 >
@@ -47,11 +47,11 @@ Per creare contenuti multilingue mediante la traduzione automatica, segui la pro
 
 1. [Rivedi l&#39;attività di traduzione (facoltativo)](#review-translation-project).
 
-## Crea lingua {#create-locale}
+## Creare lingua {#create-locale}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"
->title="Aggiungi lingua"
+>title="Aggiungere lingua"
 >abstract="Quando configuri le preferenze della lingua, puoi creare altre lingue se quella desiderata non è disponibile per il contenuto multilingue."
 
 Durante la configurazione delle impostazioni della lingua, come descritto nella sezione [Creare le impostazioni della lingua](#language-settings), se non è disponibile una lingua specifica per il contenuto multilingue, è possibile creare il numero di nuove lingue necessario utilizzando il menu **[!UICONTROL Traduzione]**.
@@ -68,17 +68,17 @@ Durante la configurazione delle impostazioni della lingua, come descritto nella 
 
    ![](assets/locale_2.png)
 
-## Crea progetto di traduzione {#translation-project}
+## Creare progetto di traduzione {#translation-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
->title="Crea progetto"
+>title="Creare progetto"
 >abstract="Per iniziare a creare contenuti multilingue, inizia il progetto di traduzione identificando la lingua di destinazione, selezionando la lingua o il dialetto regionale appropriato per il pubblico. Dopodiché, scegli un provider di traduzione che sia in linea con le esigenze del progetto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
->title="Modifica Progetto"
->abstract="Aggiorna il progetto di traduzione per incorporare altre impostazioni internazionali, che consentono di espandere il contenuto per raggiungere un pubblico più ampio."
+>title="Modificare progetti"
+>abstract="Aggiorna il progetto di traduzione per incorporare altre lingue, che consentono di espandere il contenuto per raggiungere un pubblico più ampio."
 
 Avvia il progetto di traduzione specificando la lingua di Target, che indica la lingua o l’area geografica specifica per il contenuto. Puoi quindi scegliere il provider di traduzione.
 
@@ -228,12 +228,12 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
 
 Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l’impatto del percorso multilingue o della campagna all’interno dei rapporti.
 
-## Gestisci progetto di traduzione internalizzazione {#manage-ht-project}
+## Gestire insourcing progetto di traduzione {#manage-ht-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="Insourcing del progetto di traduzione"
->abstract="L’internalizzazione del progetto di traduzione consente di gestire ed eseguire le traduzioni direttamente all’interno del progetto di traduzione, semplificando il processo e mantenendo un maggiore controllo sulla qualità e la coerenza della traduzione."
+>title="Insourcing progetto di traduzione"
+>abstract="L’insourcing del progetto di traduzione consente di gestire ed eseguire le traduzioni direttamente all’interno del progetto di traduzione, semplificando il processo e mantenendo un maggiore controllo sulla qualità e la coerenza della traduzione."
 
 Se hai selezionato Insourcing durante la configurazione delle impostazioni della lingua, puoi tradurre il contenuto direttamente nel progetto di traduzione.
 
@@ -251,11 +251,11 @@ Se hai selezionato Insourcing durante la configurazione delle impostazioni della
 
 1. Se si è pronti a pubblicare il testo tradotto, fare clic su **[!UICONTROL Finalizza]**.
 
-## Rivedi il progetto di traduzione {#review-translation-project}
+## Rivedere il progetto di traduzione {#review-translation-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
->title="Rivedi il progetto di traduzione"
+>title="Rivedere il progetto di traduzione"
 >abstract="Una volta che il provider di traduzione scelto ha completato la traduzione, puoi rivedere i risultati direttamente in Journey Optimizer. Questo consente di valutare l’accuratezza e la qualità della traduzione, garantendo che sia allineata alle aspettative e ai requisiti del progetto prima di finalizzarla."
 
 >[!CONTEXTUALHELP]

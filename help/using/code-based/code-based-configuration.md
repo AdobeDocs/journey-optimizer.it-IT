@@ -9,16 +9,16 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 33%
+ht-degree: 50%
 
 ---
 
-# Configurare l’esperienza basata su codice {#code-based-configuration}
+# Configurare l’esperienza basata su codice in anteprima {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="ID app"
->abstract="Fornisci l’App ID per un’identificazione e una configurazione accurate all’interno dell’ambiente operativo dell’app, garantendo un’integrazione e funzionalità senza soluzione di continuità."
+>abstract="Fornisci l’ID app per un’identificazione e una configurazione accurate all’interno dell’ambiente operativo dell’app, garantendo un’integrazione e funzionalità ottimizzate."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
@@ -45,7 +45,7 @@ ht-degree: 33%
 >title="URL di anteprima"
 >abstract="Questo campo è essenziale per abilitare la simulazione e l’anteprima del contenuto direttamente sul dispositivo all’interno dell’applicazione."
 
-## Creare una configurazione di canale {#reatte-code-based-configuration}
+## Creare una configurazione dei canali {#reatte-code-based-configuration}
 
 Per creare una configurazione di canale, effettua le seguenti operazioni:
 
@@ -129,7 +129,7 @@ Ora puoi selezionare la configurazione durante la creazione dell’esperienza ba
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Definire una configurazione dell’esperienza basata su codice"
+>title="Definire una configurazione di esperienza basata su codice"
 >abstract="Una configurazione basata su codice definisce il percorso e la posizione all’interno dell’applicazione, identificati in modo univoco da un URI nell’implementazione dell’applicazione, in cui il contenuto verrà consegnato e utilizzato."
 
 Una **superficie esperienza basata su codice** è qualsiasi entità progettata per l&#39;interazione dell&#39;utente o del sistema, identificata in modo univoco da un URI. La superficie è specificata nell’implementazione dell’applicazione e deve corrispondere a quella composta nella configurazione del canale esperienza basato su codice.

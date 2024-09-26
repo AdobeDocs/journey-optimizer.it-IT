@@ -9,7 +9,7 @@ exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="Regola di corrispondenza delle pagine"
->abstract="Per gestire e indirizzare in modo efficiente un gruppo di URL che condividono gli stessi criteri, crea una regola di corrispondenza Pagine. Questa regola ti consente di consolidare più URL in un’unica linea guida, semplificando l’applicazione di impostazioni e azioni coerenti in queste pagine."
+>abstract="Per gestire e indirizzare in modo efficiente un gruppo di URL che condividono gli stessi criteri, crea una regola di corrispondenza delle pagine. Questa regola consente di consolidare più URL in un’unica linea guida, semplificando l’applicazione di impostazioni e azioni coerenti in queste pagine."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"

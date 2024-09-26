@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ I criteri di decisione contengono tutta la logica di selezione affinché il moto
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Definire il numero di elementi da restituire"
->abstract="Seleziona il numero di elementi decisionali che desideri restituire. Ad esempio, se selezioni 2, verranno presentate le migliori 2 offerte idonee per la configurazione corrente."
+>abstract="Seleziona il numero di elementi decisionali che desideri restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
