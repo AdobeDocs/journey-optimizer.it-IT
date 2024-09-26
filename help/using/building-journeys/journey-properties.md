@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 12%
@@ -66,7 +66,7 @@ Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibi
 ### Periodo di attesa per rientro  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
+>id="ajo_journey_properties_re-entrance_wait"
 >title="Periodo di attesa per rientro"
 >abstract="Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente in un percorso unitario. In questo modo gli utenti non potranno più accedere al percorso per una determinata durata. Durata massima: 90 giorni."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
