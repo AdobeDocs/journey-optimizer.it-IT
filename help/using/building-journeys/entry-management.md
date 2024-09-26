@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
@@ -73,7 +73,7 @@ Per ulteriori informazioni, consulta questa [sezione](../event/about-creating-bu
 
 * Per percorsi non ricorrenti/&quot;one-shot&quot;: il profilo entra una sola volta nel percorso.
 
-* Per i percorsi ricorrenti: per impostazione predefinita, tutti i profili appartenenti al pubblico entrano nel percorso per ogni ricorrenza. Devono terminare il percorso prima di poter inserire di nuovo in un’altra occorrenza.
+* Per i percorsi ricorrenti: per impostazione predefinita, tutti i profili appartenenti al pubblico entrano nel percorso per ogni ricorrenza. Devono terminare il percorso prima di poter rientrare in un&#39;altra occorrenza.
 
 Per i percorsi di pubblico Leggi ricorrenti sono disponibili due opzioni:
 

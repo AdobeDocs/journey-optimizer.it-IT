@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 2%
@@ -429,7 +429,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-La query restituisce, per il periodo definito, il numero di profili che sono entrati nel percorso ogni giorno. Se un profilo immesso tramite più identità, verrà conteggiato due volte. Se è abilitato il rientro, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è rientrato nel percorso in un giorno diverso.
+La query restituisce, per il periodo definito, il numero di profili che sono entrati nel percorso ogni giorno. Se un profilo immesso tramite più identità, verrà conteggiato due volte. Se è abilitata la rientrata, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è rientrato nel percorso in un giorno diverso.
 
 ## Query relative al pubblico di lettura {#read-segment-queries}
 
