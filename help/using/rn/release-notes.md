@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 1e4bff3e69cd70fd1f6e13cb582de4700bddd6d1
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 68%
@@ -223,7 +223,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * **Intestazione del messaggio nell&#39;e-mail inviata e nella copia in Ccn** - È stata aggiunta una nuova intestazione a tutti i messaggi e-mail. Il valore di questa intestazione è univoco per ogni e-mail inviata e per la corrispondente copia e-mail in Ccn. Questa intestazione viene inoltre memorizzata nei set di dati del messaggio e del feedback Ccn, consentendo di riconciliare la copia Ccn e le informazioni e-mail corrispondenti inviate. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-header)
 
-* **Punteggio posta indesiderata** (GA): ora puoi controllare il punteggio posta indesiderata in un report dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di caselle postali lo considereranno come contenuto indesiderato o meno. [Ulteriori informazioni](../content-management/spam-report.md)
+* **Punteggio posta indesiderata** (GA)- È ora possibile controllare il punteggio posta indesiderata in un **report posta indesiderata** dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di caselle postali lo considereranno come contenuto indesiderato o meno. [Ulteriori informazioni](../content-management/spam-report.md)
 
 **Canale SMS**
 
