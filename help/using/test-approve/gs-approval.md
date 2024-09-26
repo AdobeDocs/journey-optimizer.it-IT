@@ -1,0 +1,89 @@
+---
+title: Guida introduttiva all’approvazione di percorsi e campagne
+description: Scopri come impostare un processo di approvazione per percorsi e campagne.
+role: User
+level: Beginner
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 18%
+
+---
+
+
+# Guida introduttiva all’approvazione di percorsi e campagne {#send-proofs}
+
+>[!AVAILABILITY]
+>
+> I criteri di approvazione sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+## Introduzione ai criteri di approvazione {#gs}
+
+Journey Optimizer consente di impostare una procedura di approvazione che consente ai team di marketing di garantire che le campagne e i percorsi vengano esaminati e approvati dalle parti interessate prima della pubblicazione.
+
+Le policy di approvazione introducono un flusso di lavoro strutturato direttamente all’interno dell’interfaccia utente, eliminando la necessità di supporti esterni come e-mail o strumenti di gestione delle attività e garantendo che tutte le approvazioni siano gestite e tracciate a livello centrale.
+
+Inoltre, questa funzione offre un controllo migliorato sulla pubblicazione dei percorsi e delle campagne: con il processo di approvazione incorporato in Journey Optimizer, le campagne e i percorsi rimangono in uno stato &quot;bloccato&quot; durante la revisione, garantendo che non si verifichino modifiche o attivazioni involontarie prima che tutte le approvazioni necessarie siano state implementate.
+
+## Prerequisiti {#prerequisites}
+
+Prima di iniziare, assicurati che le autorizzazioni seguenti siano state configurate.
+
+Per accedere ai percorsi e alle campagne di approvazione e pubblicazione, è necessario concedere agli utenti le autorizzazioni **Approva e pubblica campagne** e **Approva e pubblica Percorsi**. [Ulteriori informazioni](../administration/permissions.md)
+
++++  Scopri come assegnare le autorizzazioni correlate all’approvazione
+
+1. Nel prodotto **Autorizzazioni**, passa alla scheda **Ruoli** e seleziona il **Ruolo** desiderato.
+
+1. Fai clic su **Modifica** per modificare le autorizzazioni.
+
+1. Aggiungi la risorsa **Campagne**, quindi seleziona **Approva e pubblica campagne** dal menu a discesa.
+
+   ![](assets/permissions_approval.png){zoomable="yes"}
+
+1. Aggiungi la risorsa **Percorsi**, quindi seleziona **Approva e pubblica Percorsi** dal menu a discesa.
+
+   ![](assets/permissions_approval_2.png){zoomable="yes"}
+
+1. Fai clic su **Salva** per applicare le modifiche.
+
+Le autorizzazioni degli utenti già assegnati a questo ruolo verranno aggiornate automaticamente.
+
+1. Per assegnare questo ruolo a nuovi utenti, passa alla scheda **Utenti** nella dashboard **Ruoli** e fai clic su **Aggiungi utente**.
+
+1. Immetti il nome o l’indirizzo e-mail dell’utente o sceglilo dall’elenco e fai clic su **Salva**.
+
+1. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
+
+L’utente riceverà un’e-mail con istruzioni per accedere all’istanza.
+
++++
+
+## Panoramica del processo di approvazione {#process}
+
+Il processo di approvazione globale è il seguente:
+
+![](assets/approval-process.png){zoomable="yes"}
+
+1. **Configurazione dei criteri di approvazione**
+
+   Un utente amministratore crea un criterio di approvazione, definendo le condizioni in cui il criterio deve essere applicato a percorsi o campagne. Ad esempio, puoi creare un criterio di approvazione che richieda l’approvazione prima dell’attivazione di tutte le campagne pianificate create da un determinato utente. [Scopri come creare i criteri di approvazione](approval-policies.md)
+
+1. **Invio campagna/percorso per approvazione**
+
+   I creatori di campagne/percorsi creano un percorso o una campagna e lo inviano per l’approvazione. La campagna/il percorso immette uno stato &quot;In revisione&quot;, durante il quale non è possibile apportare modifiche a meno che la richiesta non venga annullata. [Scopri come richiedere l&#39;approvazione](request-approval.md)
+
+   >[!NOTE]
+   >
+   >Le campagne e i percorsi devono essere inviati per l’approvazione solo se è in vigore un criterio di approvazione. In caso contrario, il creatore può pubblicare direttamente la campagna o il percorso senza richiedere l’approvazione.
+
+1. **Revisione e approvazione**
+
+   Gli approvatori definiti nei criteri di approvazione applicabili al percorso o alla campagna ricevono una notifica. Possono rivedere il contenuto del percorso o della campagna, il pubblico e le impostazioni. Se sono necessarie modifiche, l’approvatore le richiede e restituisce la campagna a &quot;Bozza&quot; per le revisioni. Se sono pronti, possono attivare e avviare il percorso o la campagna. [Scopri come rivedere e approvare una richiesta](review-approve-request.md)
+
+## Monitorare le richieste di approvazione {#monitor}
+
+Puoi monitorare tutte le richieste di approvazione e modifica inviate per un determinato percorso o campagna. A questo scopo, fai clic sul pulsante **[!UICONTROL Mostra prova di verifica]** nella sezione superiore destra dell&#39;area di lavoro del percorso o nella schermata di revisione della campagna.
+
+![](assets/monitor-requests.png)

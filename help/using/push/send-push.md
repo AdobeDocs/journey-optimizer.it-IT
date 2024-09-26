@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 12%
+source-wordcount: '400'
+ht-degree: 11%
 
 ---
 
@@ -49,6 +49,10 @@ Informazioni dettagliate su come selezionare profili di test e visualizzare in a
 > Per una migliore consegna dei messaggi, è consigliabile utilizzare sempre i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
 
 ## Inviare una notifica push{#push-send}
+
+>[!IMPORTANT]
+>
+>A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Quando il messaggio push è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
 

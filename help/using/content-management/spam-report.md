@@ -4,12 +4,11 @@ description: Scopri come utilizzare il rapporto sullo spam delle e-mail.
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 24%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 >abstract="Il rapporto spam consente di controllare il relativo punteggio del contenuto delle e-mail. Questo punteggio indica se gli ISP o i provider di posta elettronica considereranno il messaggio come spam oppure no. Minore è il punteggio, meglio è. Se il punteggio del contenuto dell’e-mail è superiore a 2, è consigliabile risolvere i problemi che impediscono il corretto funzionamento dei test."
 
 Puoi controllare il punteggio di posta indesiderata in un report spam dedicato. Utilizzando [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer può testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di cassette postali lo considereranno come spam o meno.
-
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti di Adobe.
 
 Quando modifichi o visualizzi in anteprima il contenuto delle e-mail, il pulsante **[!UICONTROL Rapporto spam]** fornisce un punteggio e consigli per migliorare i punteggi di ogni singolo elemento elencato.
 
@@ -49,6 +44,11 @@ Per accedere al **[!UICONTROL rapporto spam]**, segui la procedura riportata di 
 1. Controlla i punteggi e le descrizioni di ogni elemento.
 
    Minore è il punteggio, meglio è. Se il punteggio è superiore a 5, viene visualizzato un avviso: indica che alcuni messaggi potrebbero essere bloccati o contrassegnati come spam al momento della ricezione. Si consiglia di avere un punteggio inferiore a 2.
+
+   >[!NOTE]
+   >
+   >Il punteggio spam è derivato tramite [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} e le regole non sono di proprietà di Adobe. Per ulteriori dettagli su queste regole, consulta la documentazione di SpamAssassin.
+   >
 
 1. In base a tale punteggio, se si ritiene che alcuni elementi possano essere migliorati, modificare il contenuto in [E-mail Designer](../email/content-from-scratch.md) e apportare gli aggiornamenti necessari.
 

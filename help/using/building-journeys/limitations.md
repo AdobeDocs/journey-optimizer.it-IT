@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -32,7 +32,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 * Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un evento **Qualificazione del pubblico**.
 * Un percorso che inizia con un&#39;attività **Qualificazione del pubblico** nella versione v1 deve sempre iniziare con una **Qualificazione del pubblico** nelle altre versioni.
 * Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non possono essere modificati nelle nuove versioni.
-* La regola di reingresso deve essere la stessa in tutte le versioni del percorso.
+* La regola di rientro deve essere la stessa in tutte le versioni di percorso.
 * Un percorso che inizia con un’attività di **Leggi pubblico** non può iniziare con un altro evento nelle versioni successive.
 
 ## Limitazioni delle azioni personalizzate {#custom-actions-limitations}

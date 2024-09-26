@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '4252'
+source-wordcount: '4623'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,7 @@ La pagina **Report campagna** verrà visualizzata con le seguenti schede, a seco
 * [Notifica push](#push-notification)
 * [Direct mail](#direct-mail)
 * [Web](#web)
+* [Scheda contenuto](#content-card)
 
 Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, fare riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -784,5 +785,73 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 
 * **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+## Scheda contenuto {#content-card}
+
+### Tendenza di visualizzazione e clic {#display-click}
+
+![](assets/content-card-report-1.png)
+
+I grafici **[!UICONTROL Tendenza visualizzazione e clic]** consentono di comprendere sia la portata complessiva del messaggio che il numero di profili univoci coinvolti.
+
++++ Ulteriori informazioni sulle metriche di visualizzazione e clic
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nella scheda Contenuto.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+
+* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### Dati di tracciamento {#tracking-data}
+
+![](assets/content-card-report-2.png)
+
+La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagliata dell&#39;attività di profilo associata alle schede Contenuto, fornendo informazioni essenziali sull&#39;efficacia di questa scheda.
+
++++ Ulteriori informazioni sul tracciamento delle metriche dei dati
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per le schede Contenuto.
+
+* **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che hanno interagito con la scheda Contenuto.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nella scheda Contenuto.
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nella scheda Contenuto.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+
+* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### Etichette tracciate {#tracked-labels}
+
+La tabella **[!UICONTROL Etichette tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno delle schede Contenuto, evidenziando quelle che generano il traffico visitatore più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
+
++++ Ulteriori informazioni sulle metriche delle etichette tracciate
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+
+* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### URL collegamenti tracciati {#tracked-link-url}
+
+La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramica completa degli URL all&#39;interno delle schede dei contenuti che attraggono il traffico più elevato dei visitatori. Questo consente di identificare e assegnare la priorità ai collegamenti più popolari, migliorando la comprensione del coinvolgimento del profilo con contenuti specifici nelle schede di contenuto.
+
++++ Ulteriori informazioni sulle metriche degli URL di collegamento tracciati
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle schede Contenuto.
 
 +++

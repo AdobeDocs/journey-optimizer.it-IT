@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 19%
+source-wordcount: '406'
+ht-degree: 17%
 
 ---
 
@@ -45,6 +45,10 @@ A questo scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi aggiungi u
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
 ## Rivedere e attivare la notifica in-app{#in-app-review}
+
+>[!IMPORTANT]
+>
+>A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo.
 

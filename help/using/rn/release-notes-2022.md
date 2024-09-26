@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -212,7 +212,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 **Percorsi**
 
 * Il **Set di dati di entità** è ora disponibile come set di dati predefinito in Adobe Journey Optimizer. Questo set di dati di ricerca include metadati per arricchire le informazioni di tracciamento e feedback sui set di dati. Questo ti aiuterà a migliorare i rapporti e le query con dati più comprensibili. [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
-* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione del pubblico) per evitare che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
+* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione del pubblico) per evitare che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il rientro nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
 
 **Amministrazione**
 

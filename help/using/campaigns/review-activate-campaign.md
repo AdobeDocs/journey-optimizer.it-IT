@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 7%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
 # Rivedere e attivare una campagna {#review-activate}
+
+>[!IMPORTANT]
+>
+>A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Una volta configurata la campagna, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 

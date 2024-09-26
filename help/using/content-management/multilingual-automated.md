@@ -10,10 +10,10 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 22%
+source-wordcount: '1661'
+ht-degree: 21%
 
 ---
 
@@ -225,6 +225,10 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
    ![](assets/multilingual-campaign-automated-7.png)
 
 1. Verifica che la tua campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
+
+   >[!IMPORTANT]
+   >
+   >A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l’impatto del percorso multilingue o della campagna all’interno dei rapporti.
 

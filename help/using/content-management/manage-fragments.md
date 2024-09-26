@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 27%
+source-wordcount: '980'
+ht-degree: 25%
 
 ---
 
@@ -128,3 +128,9 @@ A tale scopo, fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al fra
 Per annullare l&#39;archiviazione di un frammento, filtrare gli elementi **[!UICONTROL Archiviati]** e selezionare **[!UICONTROL Annulla archiviazione]** dal menu **[!UICONTROL Altre azioni]**. Ora è nuovamente accessibile dall’elenco dei frammenti e può essere utilizzato in qualsiasi e-mail o modello.
 
 ![](assets/fragment-list-unarchive.png)
+
+## Esportare i frammenti in un’altra sandbox {#export}
+
+Journey Optimizer consente di copiare un frammento da una sandbox all’altra. Ad esempio, puoi copiare un frammento dall’ambiente sandbox di Stage alla sandbox di produzione.
+
+Il processo di copia viene eseguito tramite un **pacchetto di esportazione e importazione** tra le sandbox di origine e di destinazione. Informazioni dettagliate su come esportare oggetti e importarli in una sandbox di destinazione sono disponibili in questa sezione: [Copia oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md)

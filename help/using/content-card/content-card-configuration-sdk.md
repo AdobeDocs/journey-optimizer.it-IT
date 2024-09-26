@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Disponibilità limitata" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 3%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
 # Configurare il supporto per le schede di contenuto in Web SDK {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->Le schede dei contenuti sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 In questo esempio viene illustrato come recuperare le schede di contenuto da Adobe Journey Optimizer (AJO) tramite Adobe Experience Platform. Sfruttando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), il contenuto di personalizzazione viene recuperato e renderizzato interamente sul lato client.
 

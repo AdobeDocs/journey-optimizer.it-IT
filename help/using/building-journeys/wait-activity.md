@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 18%
@@ -43,7 +43,7 @@ Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [t
 
 Una persona può accedere a un&#39;attività **Wait** solo se nel percorso è rimasto abbastanza tempo per completare la durata dell&#39;attesa prima del timeout di 91 percorsi.
 
-### Attendere e rientrare {#wait-re-entrance}
+### Attendere e rientrare {#wait-reentrance}
 
 È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-properties.md#entrance).
 

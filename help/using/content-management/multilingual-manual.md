@@ -10,9 +10,9 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '661'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Per creare contenuti multilingue mediante la traduzione manuale, segui la proced
 
 1. [Crea un contenuto multilingue](#create-a-multilingual-campaign).
 
-## Crea lingua {#create-locale}
+## Creare lingua {#create-locale}
 
 Durante la configurazione delle impostazioni della lingua, come descritto nella sezione [Creare le impostazioni della lingua](#language-settings), se non è disponibile una lingua specifica per il contenuto multilingue, è possibile creare il numero di nuove lingue necessario utilizzando il menu **[!UICONTROL Traduzione]**.
 
@@ -139,6 +139,10 @@ Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il per
    ![](assets/multilingual-campaign-8.png)
 
 Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l’impatto del percorso multilingue o della campagna all’interno dei rapporti.
+
+>[!IMPORTANT]
+>
+>A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

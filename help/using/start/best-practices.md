@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 3%
@@ -50,9 +50,14 @@ Questa sezione ti guiderà su come effettuare la scalabilità con le seguenti du
 
 * Quando si pubblicano i percorsi, Journey Optimizer viene automaticamente ridimensionato e regolato per garantire la massima velocità effettiva e stabilità. Quando ti avvicini alla milestone di 100 percorsi live in una sola volta in una sandbox, vedrai una sovrapposizione arancione e un segno di avviso nell’interfaccia su questo risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno dei guardrail e a utilizzare il sistema in modo efficiente.
 
-* Se ti avvicini al limite di percorsi attivi, il primo passaggio è passare alla scheda **Panoramica** in **Percorsi** per vedere quanti percorsi erano attivi nelle ultime 24 ore (percorsi con profili attivi). Puoi controllare il numero di profili che entrano ed escono dal percorso in questa sezione per determinarlo.
+* Se ti avvicini al limite di percorsi attivi, il primo passaggio è passare alla scheda **Panoramica** in **Percorsi** per vedere quanti percorsi erano attivi nelle ultime 24 ore percorsi con profili attivi. Puoi controllare il numero di profili che entrano ed escono dal percorso in questa sezione per determinarlo.
 
   ![](assets/journey-guardrails2.png)
 
