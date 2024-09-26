@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b89bb9791d8b8e34a598b1044c495a439f6107b4
+source-git-commit: 8cadb10c635e59fcdc55ad31d7881bad90e95ee7
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 68%
@@ -376,3 +376,4 @@ Questa versione include i miglioramenti elencati di seguito.
    * Utilizzo dello strumento di analisi esplorativa per creare facilmente tabelle e visualizzazioni da **[!UICONTROL Dimensioni]** e **[!UICONTROL Metriche]** selezionate.
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../reports/report-cja-manage.md).
+
