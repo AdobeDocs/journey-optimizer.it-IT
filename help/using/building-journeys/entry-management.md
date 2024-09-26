@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
@@ -34,7 +34,7 @@ In tutti i tipi di percorso, un profilo non può essere presente più volte nell
 
 In **Evento unitario** e **Qualificazione del pubblico** percorsi, puoi abilitare o disabilitare il rientro:
 
-* Se è abilitato il rientro, un profilo può entrare in un percorso diverse volte, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso.
+* Se la rientrata è abilitata, un profilo può entrare in un percorso diverse volte, ma non può farlo fino a quando non è completamente uscito dall&#39;istanza precedente del percorso.
 
 * Se il rientro è disattivato, un profilo non può entrare più volte nello stesso percorso, entro il periodo di timeout del percorso globale. Consulta questa [sezione](../building-journeys/journey-properties.md#global_timeout).
 
@@ -49,12 +49,12 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 Dopo il periodo di rientro, i profili possono rientrare nel percorso. Per evitare questo problema e disabilitare completamente il rientro per tali profili, puoi aggiungere una condizione per verificare se il profilo è già stato inserito o meno, utilizzando i dati del profilo o del pubblico.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
+Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## Percorsi lavorativi {#entry-business}
 
 <!--
-Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+Business events follow reentrance rules in the same way as for unitary events. If a journey allows reentrance, the next business event will be processed.
 -->
 
 In **percorsi lavorativi**, per consentire più esecuzioni di eventi aziendali, attiva l&#39;opzione corrispondente nella sezione **[!UICONTROL Esecuzione]** delle proprietà del percorso.
@@ -83,7 +83,7 @@ Per i percorsi di pubblico Leggi ricorrenti sono disponibili due opzioni:
   >
   >Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#segments-in-journey-optimizer), i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
 
-* **Forza il rientro in caso di ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all&#39;esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza (ad esempio, se utilizzi le attività Attendi), non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
+* **Forza il rientro in caso di ricorrenza**: questa opzione consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all&#39;esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza (ad esempio, se utilizzi le attività Attendi), non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
 
 ![](assets/read-audience-options.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 17%
+source-wordcount: '1983'
+ht-degree: 13%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 17%
 >id="ajo_journey_properties"
 >title="Proprietà del percorso"
 >abstract="Questa sezione mostra le proprietà del percorso. Per impostazione predefinita, i parametri di sola lettura sono nascosti. Le impostazioni disponibili dipendono dallo stato del percorso, dalle autorizzazioni e dalla configurazione del prodotto."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Criteri di uscita dal percorso"
->abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
-
 
 ## Accedere alle proprietà di un percorso {#access-properties}
 
@@ -59,21 +53,21 @@ La modalità di immissione profilo è definita a livello di percorso, nel riquad
 
 La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell&#39;entrata e del rientro del profilo, in [questa pagina](entry-management.md).
 
-### Consentire il reingresso  {#allow-re-entrance}
+### Consenti rientro  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Consentire il reingresso"
->abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Puoi deselezionare l’opzione **Consenti reingresso** se desideri, ad esempio, offrire un omaggio una tantum quando una persona entra in un negozio."
+>title="Consenti rientro"
+>abstract="Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione **Consenti rientro**, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
-Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l&#39;opzione **Consenti rientro** per i percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio.
+Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione **Consenti rientro** per i percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio.
 
-### Periodo di attesa per reingresso  {#re-entrance-wait}
+### periodo di attesa per rientro  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_re-entrance_wait"
->title="Periodo di attesa per reingresso"
+>id="ajo_journey_properties_reentrance_wait"
+>title="periodo di attesa per rientro"
 >abstract=" Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente in un percorso unitario. Questo impedisce il re-ingresso degli utenti nel percorso per una durata selezionata. Durata massima: 90 giorni."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
@@ -258,3 +252,55 @@ Il percorso utilizza i criteri di unione per recuperare i dati del profilo da Ad
 Il percorso rispetterà il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio, nelle funzioni &quot;inAudience&quot;), creando incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
 Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+
+
+## Criteri di uscita {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Criteri di uscita dal percorso"
+>abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
+
+### Descrizione
+
+Spesso gli esperti di marketing desiderano rimuovere profili da un percorso quando non soddisfano più lo scopo del percorso. Ciò verrà ottenuto mediante **criteri di uscita globali**, strettamente associati alla gestione degli obiettivi.
+
+**Caso d&#39;uso di esempio:**
+
+Un addetto al marketing dispone di un percorso promozionale con una serie di comunicazioni. Ciascuna di queste comunicazioni ha lo scopo di spingere il cliente ad effettuare un acquisto. Appena effettuato l&#39;acquisto, il cliente non dovrebbe ricevere il resto dei messaggi della serie. Definendo un criterio di uscita, tutti i profili che hanno effettuato un acquisto verranno rimossi dal percorso.
+
+### Configurazione e utilizzo
+
+I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se sono impostati più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica OR. Pertanto, se si dispone di Exit Criteria n°1 e Exit Criteria n°2, verrà valutato come n°1 **o** n°2. I criteri vengono valutati in ogni fase del percorso.
+
+Per **creare** un criterio di uscita:
+
+* Fare clic sull&#39;icona seguente ![](assets/exitcriteria_icon.png){width="40%" align="left"} nella barra a destra.
+* Fai clic sul pulsante **Aggiungi criteri di uscita**.
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* È possibile aggiungere più criteri di uscita.
+* Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un evento o un pubblico.
+
+### Criteri di uscita basati su un evento
+
+Scegli solo un evento unitario.
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### Criteri di uscita basati su un pubblico
+
+Scegli un pubblico.
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere operativo.
+
+### Vincoli e limitazioni
+
+* I criteri di uscita sono definiti nello stato Bozza
+* Coerenza dello spazio dei nomi del percorso tra eventi e criteri di uscita basati su eventi
+
+
+
