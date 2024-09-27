@@ -11,10 +11,10 @@ keywords: criteri, governance, piattaforma, healthcare shield, consenso
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 79%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -128,21 +128,6 @@ Per alcuni tipi di comunicazioni importanti, ad esempio un messaggio transaziona
 Gli altri passaggi per la configurazione di un’azione personalizzata sono descritti in [questa sezione](../action/about-custom-action-configuration.md#consent-management).
 
 ### Sfruttare i criteri di consenso quando si aggiunge un’azione personalizzata in un percorso {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="Azione di marketing richiesta"
->abstract="Durante la creazione di un’azione di marketing personalizzata viene definita un’azione di marketing richiesta. Impossibile rimuovere o modificare l’azione di marketing richiesta."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="Azioni di marketing aggiuntive"
->abstract="Aggiungi un’altra azione di marketing oltre a quella richiesta. Verranno applicati i criteri di consenso relativi a entrambe le azioni di marketing."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="Visualizza i criteri di consenso applicabili in fase di runtime"
->abstract="Le azioni di marketing introducono criteri di consenso che combinano parametri di azione e valori di consenso dei singoli profili per filtrare gli utenti. Per ottenere la definizione più recente di questi criteri, fai clic sul pulsante per aggiornarli."
 
 Quando si aggiunge l’azione personalizzata in un percorso, diverse opzioni consentono di gestire il consenso. Fai clic sul pulsante **Mostra campi di sola lettura** per visualizzare tutti i parametri.
 
