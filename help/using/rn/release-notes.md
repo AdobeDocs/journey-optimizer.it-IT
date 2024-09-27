@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: c4101f03862a8bd7fd531c80e6ecc62932aa94c6
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 52%
@@ -246,4 +246,4 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Configurazione**
 
-* Piani di riscaldamento IP: questa funzionalità è ora disponibile per tutti i clienti, incluse le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**. [Ulteriori informazioni](../configuration/ip-warmup-gs.md)
+* **Piani di riscaldamento IP** - Questa funzionalità è ora disponibile per tutti i clienti, incluse le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**. [Ulteriori informazioni](../configuration/ip-warmup-gs.md)
