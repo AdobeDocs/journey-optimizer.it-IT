@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, recapitabilità
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '246'
+ht-degree: 73%
 
 ---
 
@@ -22,15 +22,11 @@ Con [!DNL Journey Optimizer] è possibile eseguire facilmente flussi di lavoro d
 
 Per evitare che i messaggi di una tua nuova campagna vengano contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione Piano di preparazione IP. Questa nuova opzione disponibile nel menu **[!UICONTROL Amministrazione]** agevola questo compito in modo consolidato, senza dover creare complessi percorsi giornalieri.
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️ [Scopri come creare ed eseguire un piano di riscaldamento IP in questo video](#video)
 
 >[!AVAILABILITY]
 >
 >Questa funzionalità può essere abilitata solo su sandbox di tipo produzione.
->
->Non è disponibile per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**.
-
-
 
 <!--
 Benefits
