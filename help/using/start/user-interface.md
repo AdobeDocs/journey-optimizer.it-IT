@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 90%
+source-wordcount: '1504'
+ht-degree: 93%
 
 ---
 
@@ -273,13 +273,6 @@ Per cambiare lingua:
 >id="ajo_email_locking_read_only"
 >title="Sola lettura"
 >abstract="Questo contenuto è in sola lettura e non può essere modificato."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="Violazione dei criteri di governance dei dati"
->abstract="Se viene identificato un campo con restrizioni in un percorso o in una campagna oppure un&#39;azione personalizzata, viene visualizzato un errore che impedisce la pubblicazione del campo. Utilizza il diagramma di derivazione dati in questa finestra di dialogo per capire quali altre modifiche alla configurazione devono essere apportate prima di poter attivare il percorso o la campagna."
 
 <!--APPROVAL POLICIES-->
 
