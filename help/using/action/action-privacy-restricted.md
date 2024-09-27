@@ -11,10 +11,10 @@ keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criteri
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +90,7 @@ Prima di attivare il percorso o la campagna, il sistema verifica se l’azione d
 
 Se viene identificato un campo con restrizioni, viene visualizzato un errore che impedisce la pubblicazione del percorso o della campagna. [Scopri come rilevare la violazione dei criteri di governance](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *Passaggi di analisi delle violazioni dei criteri per percorsi e campagne*
 
@@ -126,7 +126,7 @@ Prendiamo ad esempio il campo del gruppo sanguigno che devi limitare l’esporta
 
 Se uno dei campi etichettati _ePHI1_ (il campo del tipo di sangue nel nostro esempio) viene rilevato nei parametri delle azioni, viene visualizzato un errore che impedisce la pubblicazione del percorso. [Scopri come rilevare la violazione dei criteri di governance](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *Passaggi dell&#39;analisi delle violazioni dei criteri per le azioni personalizzate dei percorsi*
 
