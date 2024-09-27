@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 68cf533bb459f33d2ebf951624b9a05910003fbb
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 90%
+source-wordcount: '392'
+ht-degree: 83%
 
 ---
 
@@ -20,13 +20,19 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB Acceleratore contenuto Assistente IA]
+>[!TAB Versione di settembre]
+
+È ora disponibile la versione di settembre, che include schede di contenuto per app e siti web per dispositivi mobili, criteri di approvazione in percorsi e campagne (LA), criteri di uscita globali in percorsi e altro ancora.
+
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Assistente IA]
 
 ✨ Immergiti in un&#39;esperienza pratica con l&#39;anteprima della funzionalità live di [AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Reporting con Customer Journey Analytics (Beta)]
+>[!TAB Generazione di rapporti con il Customer Journey Analytics]
 
 La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati.
 

@@ -8,16 +8,144 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 95%
+source-wordcount: '3850'
+ht-degree: 96%
 
 ---
 
 # Note sulla versione 2024 {#release-notes-2024}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2024.
+
+
+## Note sulla versione di agosto 2024 {#8-2024}
+
+**Data di rilascio**: 20-21 agosto 2024
+
+### Nuove funzionalità {#8-features}
+
+Questa versione include le nuove funzionalità elencate di seguito.
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Configurazioni dei canali migliorate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora è possibile definire, gestire e riutilizzare queste configurazioni per qualsiasi canale, incluso il Web, la messaggistica in-app o l’esperienza basata su codice.</p>
+<p><ul>
+<li>Le superfici di canale ora sono state rinominate in <strong>Configurazioni di canale</strong></li>
+<li>È possibile allegare una o più azioni di marketing per applicare il consenso e i criteri di governance dei dati</li>
+<li>Il controllo dell’accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
+<li>Per alcuni canali, è possibile creare configurazioni di canale in grado di eseguire il targeting per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione di canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
+</ul></p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/channel-surfaces.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Azione personalizzata Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi integrare Adobe Journey Optimizer con Adobe Marketo Engage per creare i tuoi casi d’uso B2B. Una nuova azione personalizzata da un percorso consente di acquisire dati in Marketo.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../action/marketo-engage.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variabili nei frammenti di contenuto</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le variabili globali dei frammenti aumentano la funzionalità dei frammenti esistenti per migliorare l’efficienza in termini di riutilizzo dei contenuti e casi d’uso di scripting. I frammenti possono ora utilizzare variabili di input e creare variabili di output utilizzabili nel contenuto delle campagne e dei percorsi. I frammenti ora possono utilizzare variabili di input, sia nei <a href="../personalization/use-expression-fragments.md">frammenti di espressione</a> che nei <a href="../email/use-visual-fragments.md">frammenti visivi</a>. Puoi utilizzare queste variabili per personalizzare il contenuto e i parametri dei messaggi nelle campagne e nei percorsi.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../personalization/use-expression-fragments.md">documentazione dettagliata</a>.</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Flusso di lavoro di preparazione IP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Data di disponibilità: 13 agosto</p>
+<p>Se invii un’e-mail con un nuovo indirizzo IP, ora puoi eseguire facilmente i flussi di lavoro di preparazione IP direttamente dall’interfaccia utente. Adobe Journey Optimizer offre un modo standardizzato ed efficiente di preparare gli indirizzi IP seguendo le best practice per una recapitabilità ottimale.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/ip-warmup-gs.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#8-improvements}
+
+Questa versione include i miglioramenti elencati di seguito.
+
+**Percorsi**
+
+* Nell’attività **Condizione**, per impostazione predefinita, adesso la **[!UICONTROL condizione Tempo]** è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
+* Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale dello zoom è ora visibile ed è possibile reimpostare più facilmente il valore dello zoom.
+
+**Canale push**
+
+* Ora è possibile aggiungere le credenziali push dell’app mobile nelle impostazioni della configurazione dei canali di Adobe Journey Optimizer. Non è più necessario creare una superficie app nella raccolta dati di Adobe Experience Platform.
+
+### Altre modifiche {#changes}
+
+**Reporting**
+
+* Sono stati aggiunti nuovi casi d’uso alla nuova esperienza di reporting:
+
+   * Creazione di metriche calcolate personalizzate direttamente nei rapporti.
+   * Creazione di un pubblico dai dati di reporting.
+   * Utilizzo dello strumento di analisi esplorativa per creare facilmente tabelle e visualizzazioni da **[!UICONTROL Dimensioni]** e **[!UICONTROL Metriche]** selezionate.
+
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../reports/report-cja-manage.md).
+
 
 
 ## Note sulla versione di luglio 2024 {#24-7-2024}
