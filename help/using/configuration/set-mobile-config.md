@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="Nome configurazione per dispositivi mobilie e web"
+>title="Nome configurazione per dispositivi mobili e web"
 >abstract="Immetti il nome della configurazione mobile o web. Questo nome verrà utilizzato per ogni risorsa creata automaticamente con la Configurazione guidata del canale."
 
 >[!CONTEXTUALHELP]

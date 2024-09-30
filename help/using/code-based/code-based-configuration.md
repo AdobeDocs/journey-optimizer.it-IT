@@ -18,12 +18,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="ID app"
->abstract="Fornisci l’ID app per un’identificazione e una configurazione accurate all’interno dell’ambiente operativo dell’app, garantendo un’integrazione e funzionalità ottimizzate."
+>abstract="Fornisci l’ID dell’app per la sua corretta identificazione e configurazione nell’ambiente operativo dell’app, in modo da garantire integrazione e funzionalità dirette."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="Posizione sulla pagina"
->abstract="La posizione o il percorso all’interno del campo dell’app specifica la destinazione esatta all’interno dell’app a cui desideri che gli utenti accedano. Potrebbe trattarsi di una sezione o di una pagina specifica nella struttura di navigazione dell’app."
+>abstract="Il campo Posizione o percorso nell’app specifica la destinazione esatta all’interno dell’app a cui gli utenti dovranno accedere. Potrebbe trattarsi di una sezione o di una pagina specifica nella struttura di navigazione dell’app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
