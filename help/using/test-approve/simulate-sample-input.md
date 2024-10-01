@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verifica il contenuto utilizzando dati di input di esempio
+title: Testare il contenuto utilizzando dati di input di esempio
 description: Scopri come visualizzare in anteprima il contenuto delle e-mail e inviare bozze utilizzando dati di input di esempio.
 feature: Overview, Get Started
 topic: Content Management
@@ -13,16 +13,16 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Verifica il contenuto utilizzando dati di input di esempio {#custom-profiles}
+# Testare il contenuto utilizzando dati di input di esempio {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
->title="Simula tramite input di esempio"
+>title="Simulazione tramite input di esempio"
 >abstract="In questa schermata, puoi testare diverse varianti del contenuto delle e-mail fornendo valori per i campi di personalizzazione tramite un modello CSV (scarica CSV) o immettendo manualmente i valori."
 
 >[!AVAILABILITY]

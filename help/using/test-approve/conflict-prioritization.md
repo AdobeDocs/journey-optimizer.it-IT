@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 5%
+ht-degree: 26%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 5%
 
 In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Nelle due sezioni seguenti vengono introdotti strumenti chiave per mantenere l’equilibrio e assegnare un’effettiva priorità alle comunicazioni.
 
-## Visualizza potenziali conflitti in percorsi e campagne {#conflict}
+## Visualizzare potenziali conflitti in percorsi e campagne {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Visualizzatore di conflitti nelle campagne"
->abstract="Questo strumento può aiutarti a determinare la sovrapposizione con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui."
+>abstract="Questo strumento può aiutarti a determinare la sovrapposizione con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione dei canali, canale o set di regole, puoi visualizzare i potenziali conflitti qui."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Visualizzatore di conflitti nei percorsi"
->abstract="Questo strumento può aiutarti a determinare la sovrapposizione con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui."
+>abstract="Questo strumento può aiutarti a determinare la sovrapposizione con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione dei canali, canale o set di regole, puoi visualizzare i potenziali conflitti qui."
 
 Con l’aumento del volume di campagne e Percorsi in Journey Optimizer, per un addetto marketing diventa sempre più difficile sapere se i propri clienti sono bombardati da troppe interazioni di marketing. è quindi essenziale identificare facilmente quando vi sono campagne e percorsi sovrapposti per garantire che raggiungano il giusto equilibrio nelle comunicazioni di marketing, mitigando al contempo i rischi di affaticamento dei clienti.
 
@@ -80,12 +80,12 @@ Sfruttando queste funzionalità, potrai allineare le tue attività di marketing 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorità"
->abstract="Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Il valore di priorità qui inserito viene ereditato da tutte le azioni in entrata (come In-App) contenute in questo percorso. Nelle situazioni in cui la stessa configurazione del canale in entrata viene utilizzata in altre campagne o percorsi, l’azione in entrata con il punteggio di priorità più alto viene mostrata al destinatario. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
+>abstract="Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Il valore di priorità qui inserito viene ereditato da tutte le azioni in entrata (come in-app) contenute in questo percorso. Nelle situazioni in cui la stessa configurazione del canale in entrata viene utilizzata in altre campagne o percorsi, al destinatario viene mostrata l’azione in entrata con il punteggio di priorità più alto. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorità"
->abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Nelle situazioni in cui la stessa configurazione del canale in entrata (ad esempio in-app) viene utilizzata in altre campagne o percorsi, l’azione in entrata con il punteggio di priorità più alto viene mostrata al destinatario. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
+>abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Nelle situazioni in cui la stessa configurazione del canale in entrata (come in-app) viene utilizzata in altre campagne o percorsi, al destinatario viene mostrata l’azione in entrata con il punteggio di priorità più alto. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente."
 
 Journey Optimizer ti consente di assegnare un punteggio di priorità a un percorso o a una campagna. La priorità è essenziale per assegnare la priorità a un percorso, una campagna o un’azione in presenza di un vincolo imposto (ad esempio un limite di frequenza). In situazioni in cui un cliente si qualifica per molti percorsi, campagne o comunicazioni e desideri essere selettivo in merito al quale deve entrare e ricevere, utilizza questo campo.
 

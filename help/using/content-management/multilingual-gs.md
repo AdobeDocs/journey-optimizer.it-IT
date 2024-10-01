@@ -13,7 +13,7 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 11%
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Traduzioni"
->abstract="La funzione multilingue consente di creare facilmente contenuti in più lingue all’interno di una singola campagna o percorso. Tramite la pagina Traduzioni è possibile configurare progetti, selezionare provider di traduzione o gestire dizionari specifici per le impostazioni internazionali"
+>abstract="La funzione di multilingue consente di creare facilmente contenuti in più lingue all’interno di una campagna o di un percorso. Tramite la pagina Traduzioni è possibile configurare progetti, selezionare provider di traduzione o gestire dizionari specifici per lingua."
 
 >[!AVAILABILITY]
 >

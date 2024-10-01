@@ -14,7 +14,7 @@ badgePrivateBeta: label="Private Beta" type="Informative"
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Violazione dei criteri di governance dei dati"
->abstract="Se viene identificato un campo con restrizioni in un percorso o in una campagna oppure un&#39;azione personalizzata, viene visualizzato un errore che impedisce la pubblicazione del campo. Utilizza il diagramma di derivazione dati in questa finestra di dialogo per capire quali altre modifiche alla configurazione devono essere apportate prima di poter attivare il percorso o la campagna."
+>abstract="Se viene identificato un campo con restrizioni in un percorso o in una campagna oppure un’azione personalizzata, viene visualizzato un errore che impedisce la pubblicazione del campo. Utilizza il diagramma di derivazione dati in questa finestra di dialogo per capire quali altre modifiche alla configurazione devono essere apportate prima di poter attivare il percorso o la campagna."
 
 >[!AVAILABILITY]
 >
