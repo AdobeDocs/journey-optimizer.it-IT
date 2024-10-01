@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 26%
 
 ---
@@ -53,7 +53,7 @@ Journey Optimizer ti consente di verificare ogni volta che esiste la possibilit�
 
    >[!NOTE]
    >
-   >Il pulsante **[!UICONTROL Visualizza potenziali conflitti]** diventa disponibile per la selezione non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione canale]** e **[!UICONTROL Set di regole]**.
+   >Il pulsante **[!UICONTROL Visualizza potenziali conflitti]** diventa disponibile per la selezione non appena viene assegnata una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione canale]** e **[!UICONTROL Set di regole]**. Accertati di selezionare **[!UICONTROL Salva]** dopo aver assegnato queste impostazioni, in quanto il pulsante non sarà selezionabile fino al salvataggio delle modifiche.
 
 1. Viene visualizzata la finestra **[!UICONTROL Potenziali conflitti]**, che consente di visualizzare tutti gli elementi che si sovrappongono al percorso o alla campagna corrente.
 
@@ -91,7 +91,7 @@ Journey Optimizer ti consente di assegnare un punteggio di priorità a un percor
 
 >[!NOTE]
 >
->Il punteggio di priorità è disponibile per i canali in entrata: canali web, in-app e basati su codice. In percorso, il punteggio di priorità è disponibile solo per il canale **in-app**.
+>Il punteggio di priorità è disponibile per i canali in entrata: canali web, in-app e basati su codice. In percorso, il punteggio di priorità è disponibile solo per i canali **in-app** e **basati su codice**.
 
 L’assegnazione di un punteggio di priorità è fondamentale per le comunicazioni in entrata, ad esempio web, mobile e in-app. Se disponi di più campagne che utilizzano la stessa configurazione di canale (ad esempio, un banner nella parte superiore della pagina web), ciò potrebbe rappresentare un problema in quanto è possibile visualizzare facilmente solo il contenuto di una campagna. Il punteggio di priorità è il punto in cui inserirai la tua preferenza per la campagna da mostrare quando il destinatario può qualificarsi per più di una campagna.
 
@@ -99,4 +99,4 @@ Per assegnare un punteggio di priorità a un percorso o a una campagna, immetter
 
 ![](assets/priority-score.png)
 
-Per le situazioni in cui due campagne hanno lo stesso punteggio di priorità, viene visualizzata la campagna attivata più di recente.
+Per le situazioni in cui due campagne hanno lo stesso punteggio di priorità, viene visualizzata la campagna attivata meno di recente.
