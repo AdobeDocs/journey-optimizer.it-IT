@@ -6,24 +6,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 12%
 
 ---
 
 # Creare esperienze web {#create-web}
 
-[!DNL Journey Optimizer] ti consente di personalizzare l&#39;esperienza web che fornisci ai tuoi clienti tramite campagne web in entrata.
+[!DNL Journey Optimizer] ti consente di personalizzare l&#39;esperienza web che fornisci ai tuoi clienti tramite percorsi o campagne in entrata.
 
->[!CAUTION]
->
->Attualmente in [!DNL Journey Optimizer] puoi creare esperienze web solo utilizzando le **campagne**.
-
-[Scopri come creare una campagna web in questo video](#video)
-
-## Creare una campagna web {#create-web-campaign}
+## Aggiungere un’esperienza web tramite un percorso o una campagna {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -35,32 +29,75 @@ ht-degree: 19%
 >title="Creare una regola di corrispondenza delle pagine"
 >abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola. Può servire, ad esempio, per applicare a un intero sito web le modifiche apportate a un banner principale oppure per aggiungere un’immagine nella parte superiore da visualizzare su tutte le pagine dei prodotti di un sito web."
 
-Per iniziare a creare la tua esperienza web attraverso una campagna, segui i passaggi indicati di seguito.
+Per iniziare a creare la tua esperienza web attraverso una campagna o un percorso, segui i passaggi seguenti.
 
 >[!NOTE]
 >
 >Se è la prima volta che crei un’esperienza web, assicurati di seguire i prerequisiti descritti in [questa sezione](web-prerequisites.md).
 
-1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.[Ulteriori informazioni](../campaigns/create-campaign.md)
+>[!BEGINTABS]
 
+>[!TAB Aggiungi un&#39;esperienza Web a un percorso]
+
+Per aggiungere un&#39;attività **Web** a un percorso, eseguire la procedura seguente:
+
+1. [Crea un percorso](../building-journeys/journey-gs.md).
+
+1. Avvia il percorso con un&#39;attività [Event](../building-journeys/general-events.md) o [Read Audience](../building-journeys/read-audience.md).
+
+1. Trascina e rilascia un&#39;attività **[!UICONTROL Web]** dalla sezione **[!UICONTROL Azioni]** della palette.
+
+   ![](assets/web-activity-journey.png)
+
+   >[!NOTE]
+   >
+   >Poiché **Web** è un&#39;attività messaggio in entrata, include un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
+
+1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
+
+1. Selezionare o creare la [configurazione Web](web-configuration.md) da utilizzare.
+
+   ![](assets/web-activity-configuration.png)
+
+1. Seleziona il pulsante **[!UICONTROL Modifica contenuto]** e modifica il contenuto come desiderato utilizzando la finestra di progettazione Web. [Ulteriori informazioni](edit-web-content.md)
+
+1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+
+1. Quando la tua esperienza web è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+
+Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
+
+>[!TAB Creare una campagna web]
+
+Per iniziare a creare la tua esperienza web attraverso una campagna, segui i passaggi indicati di seguito.
+
+1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
 1. Seleziona il tipo di campagna da eseguire
 
    * **Pianificato - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi di marketing. Vengono configurati ed eseguiti dall’interfaccia utente di.
 
-   * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc.
+   * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](../campaigns/api-triggered-campaigns.md)
 
 1. Completa i passaggi per creare una campagna web, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule).
 
 1. Selezionare l&#39;azione **[!UICONTROL Web]**.
 
-1. Seleziona o crea una nuova configurazione. [Ulteriori informazioni sulla configurazione Web](web-configuration.md)
+1. Seleziona o crea la configurazione web. [Ulteriori informazioni sulla configurazione Web](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
+1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per modificare il contenuto come desiderato utilizzando la finestra di progettazione Web. [Ulteriori informazioni](edit-web-content.md)
+
+   <!--![](assets/web-campaign-edit-content.png)-->
+
 Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
-## Verificare la campagna web {#test-web-campaign}
+➡️ [Scopri come creare una campagna web in questo video](#video)
+
+>[!ENDTABS]
+
+## Testare l’esperienza web {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
@@ -69,7 +106,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
 Dopo aver [creato la tua esperienza Web](edit-web-content.md) utilizzando il designer Web, puoi utilizzare i profili di test per visualizzare in anteprima le pagine Web modificate. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati, utilizzando i dati del profilo di test.
 
-A tale scopo, fare clic su **[!UICONTROL Simula contenuto]** nella schermata Modifica contenuto della campagna Web o nella finestra di progettazione Web, quindi aggiungere un profilo di test per controllare la pagina Web utilizzando i dati del profilo di test.
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** nella schermata Modifica contenuto del percorso o della campagna, quindi aggiungi un profilo di test per controllare la pagina Web utilizzando i dati del profilo di test.
 
 ![](assets/web-designer-preview.png)
 
@@ -81,18 +118,45 @@ Puoi anche aprirlo nel browser predefinito, oppure copiare l’URL di prova per 
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
-## Attivare la campagna web {#activate-web-campaign}
+## Rendi live la tua esperienza web {#web-experience-live}
 
 >[!IMPORTANT]
 >
 >A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
-Dopo aver definito le [impostazioni della campagna Web](#configure-web-campaign) e aver modificato il contenuto come desiderato utilizzando il [Web Designer](edit-web-content.md#work-with-web-designer), puoi rivedere e attivare la campagna Web. Segui i passaggi seguenti.
+Dopo aver definito l&#39;esperienza Web e aver modificato il contenuto come desiderato utilizzando [web designer](edit-web-content.md#work-with-web-designer), puoi attivare il percorso o la campagna per rendere le modifiche visibili al pubblico.
 
-<!--
+Puoi anche visualizzare in anteprima il contenuto della tua esperienza web prima di pubblicarlo in diretta. [Ulteriori informazioni](#test-web-experience)
+
 >[!NOTE]
 >
->You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
+>Se attivi un percorso web o una campagna che interessa le stesse pagine di un altro percorso o campagna già live, tutte le modifiche verranno applicate alle pagine web.
+>
+>Se più percorsi o campagne aggiornano gli stessi elementi del sito web, il percorso/campagna con priorità più elevata ha la precedenza.
+
+### Publish un percorso web {#activate-web-journey}
+
+Per rendere la tua esperienza web live da un percorso, segui i passaggi indicati di seguito.
+
+1. Verifica che il percorso sia valido e che non ci siano errori. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+
+1. Dal percorso, seleziona l&#39;opzione **[!UICONTROL Publish]**, che si trova nel menu a discesa in alto a destra.
+
+   ![](assets/web-journey-publish.png)
+
+   >[!NOTE]
+   >
+   >Ulteriori informazioni sulla pubblicazione di percorsi in [questa sezione](../building-journeys/publishing-the-journey.md).
+
+Il percorso Web assume lo stato **[!UICONTROL Live]** ed è ora di sola lettura. Ogni destinatario del percorso può visualizzare le modifiche aggiunte al sito web.
+
+>[!NOTE]
+>
+>Dopo aver fatto clic su **[!UICONTROL Publish]**, potrebbero essere necessari fino a 15 minuti perché le modifiche siano disponibili in tempo reale sul sito Web.
+
+### Attivare una campagna web {#activate-web-campaign}
+
+Dopo aver definito le impostazioni della campagna Web e aver modificato il contenuto come desiderato utilizzando il [Web Designer](edit-web-content.md#work-with-web-designer), puoi rivedere e attivare la campagna Web. Segui i passaggi seguenti.
 
 1. Dalla tua campagna Web, seleziona **[!UICONTROL Verifica per attivare]**.
 
@@ -104,33 +168,37 @@ Dopo aver definito le [impostazioni della campagna Web](#configure-web-campaign)
 
    >[!NOTE]
    >
-   >Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti perché le modifiche alle campagne Web siano disponibili in tempo reale sul sito Web.
+   >Ulteriori informazioni sull&#39;attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
 
-La tua campagna Web assume lo stato **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al sito Web utilizzando il Web Designer [!DNL Journey Optimizer].
+La tua campagna Web assume lo stato **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al sito web.
 
 >[!NOTE]
 >
->Se hai definito una pianificazione per la tua campagna Web, questa avrà lo stato **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell&#39;ora di inizio.
+>Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti perché le modifiche alle campagne Web siano disponibili in tempo reale sul sito Web.
 >
->Se attivi una campagna web che influisce sulle stesse pagine di un’altra campagna già live, tutte le modifiche verranno applicate alle pagine web.
+>Se hai definito una pianificazione per la tua campagna Web, questa avrà lo stato **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell&#39;ora di inizio.
 
-Ulteriori informazioni sull&#39;attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
+## Interrompere un percorso web o una campagna {#stop-web-experience}
 
-## Interrompere una campagna web {#stop-web-campaign}
+Quando un percorso web o una campagna sono in diretta, puoi interromperlo per impedire al pubblico di visualizzare le modifiche. Segui i passaggi seguenti.
 
-Quando una campagna web è in diretta, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Segui i passaggi seguenti.
+1. Seleziona un percorso o una campagna live dal rispettivo elenco.
 
-1. Seleziona una campagna live dall’elenco.
+1. Esegui l’azione pertinente in base al caso:
 
-1. Dal menu principale, seleziona **[!UICONTROL Interrompi campagna]**.
+   * Dal menu principale della campagna, seleziona **[!UICONTROL Interrompi campagna]**.
 
-   ![](assets/web-campaign-stop.png)
+     ![](assets/web-campaign-stop.png)
+
+   * Dal menu principale del percorso, fare clic sul pulsante **[!UICONTROL Altro]** e selezionare **[!UICONTROL Interrompi]**.
+
+     ![](assets/web-journey-stop.png)
 
 1. Le modifiche aggiunte non saranno più visibili al pubblico definito.
 
 >[!NOTE]
 >
->Una volta interrotta una campagna web, non puoi più modificarla o attivarla. Puoi solo duplicarlo e attivare la campagna duplicata.
+>Una volta interrotto un percorso web o una campagna, non puoi più modificarlo o attivarlo. Puoi solo duplicarlo e attivare il percorso o la campagna duplicati.
 
 ## Video introduttivo{#video}
 

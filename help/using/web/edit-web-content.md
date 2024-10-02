@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
 # Modificare il contenuto web {#edit-web-content}
 
-Dopo aver [aggiunto un&#39;azione Web](create-web.md#create-web-campaign) alla campagna, puoi modificare il contenuto del sito utilizzando il designer Web.
+Dopo aver [aggiunto un&#39;esperienza Web](create-web.md#create-web-experience) a un percorso o a una campagna, puoi modificare il contenuto del sito utilizzando il designer Web.
 
 [Scopri come creare una campagna web in questo video](#video)
 
@@ -29,7 +29,7 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 
 * [Gestire le modifiche](manage-web-modifications.md)
 
-* [Monitorare le campagne web](monitor-web-campaigns.md)
+* [Monitorare le campagne web](monitor-web-experiences.md)
 
 ## Utilizzare web designer {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 >abstract="Immetti l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato a tutte le pagine che corrispondono alla regola. La pagina web deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
-Per iniziare a creare la tua campagna web, segui i passaggi indicati di seguito.
+Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguito.
 
-1. Dalla scheda **[!UICONTROL Azione]** della [campagna](create-web.md#create-web-campaign), seleziona **[!UICONTROL Modifica contenuto]**.<!--change screen with rule-->
+1. Dalla scheda **[!UICONTROL Azione]** della campagna o dell&#39;attività esperienza Web nel percorso, seleziona **[!UICONTROL Modifica contenuto]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

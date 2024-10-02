@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 43%
@@ -29,17 +29,17 @@ Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizza
 
 [!DNL Journey Optimizer] viene fornito con funzionalità per messaggi incorporate.
 
-Se disponi di Adobe Campaign v7 o v8, su richiesta è disponibile un’integrazione. Consulta [questa pagina](../action/acc-action.md).
-
-Se utilizzi un sistema di terze parti per l&#39;invio di messaggi come Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase e così via, devi aggiungere e configurare un&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
-
 Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
+
+* Se disponi di Adobe Campaign v7 o v8, su richiesta è disponibile un’integrazione. Consulta [questa pagina](../action/acc-action.md).
+
+* Se utilizzi un sistema di terze parti per l&#39;invio di messaggi come Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase e così via, devi aggiungere e configurare un&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
 >[!CAUTION]
 >
 >La configurazione delle azioni personalizzate deve essere eseguita da un **utente tecnico**.
 
-Le azioni sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le azioni personalizzate sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
 Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selezionare **[!UICONTROL Configurazioni]** nella sezione del menu AMMINISTRAZIONE. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../start/user-interface.md).
 
