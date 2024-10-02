@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 52%
+ht-degree: 81%
 
 ---
 
@@ -68,7 +68,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Con i criteri di approvazione, ora puoi impostare una procedura di approvazione in Journey Optimizer che consenta ai team di marketing di garantire che le campagne e i percorsi vengano esaminati e approvati dalle parti interessate prima della pubblicazione.</p>
+<p>Con i criteri di approvazione, ora puoi impostare un processo di approvazione in Journey Optimizer che consenta ai team di marketing di garantire che le campagne e i percorsi vengano rivisti e autorizzati dagli stakeholder prima della pubblicazione.</p>
 <p>I criteri di approvazione sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/gs-approval.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -103,7 +103,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire i criteri di uscita a livello di percorso. Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso non appena si verifica un evento (ad esempio, un acquisto) oppure siano idonei per un pubblico. Questo impedirà all’utente di ricevere ulteriori comunicazioni dal percorso.</p>
+<p>Ora puoi definire i criteri di uscita a livello di percorso. Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso non appena si verifica un evento (ad esempio, un acquisto) oppure se sono idonei per un pubblico. Questo impedirà all’utente di ricevere ulteriori comunicazioni dal percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-properties.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -143,7 +143,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Acceleratore di contenuti Assistente IA </strong><br/></th>
+<th><strong>Accelerazione dei contenuti dell’Assistente IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -192,7 +192,7 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (Data di disponibilità: 17 settembre) **Utilizzo licenze** - La dashboard Utilizzo licenze mostra ora i profili Engageable, anziché i tipi di pubblico Engageable. [Ulteriori informazioni](../audience/license-usage.md)
+* (Data di disponibilità: 17 settembre) **Utilizzo licenze**: la dashboard Utilizzo licenze mostra ora i profili anziché i tipi di pubblico che potrebbero essere coinvolti. [Ulteriori informazioni](../audience/license-usage.md)
 
 **Gestione dei contenuti**
 
@@ -214,11 +214,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Miglioramenti al reporting in tempo reale** - Il reporting in tempo reale fornisce informazioni approfondite sulle prestazioni dei tuoi percorsi nelle ultime 24 ore. È stata migliorata con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati per errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del Percorso. [Ulteriori informazioni](../building-journeys/report-journey.md)
+* **Miglioramenti al reporting in tempo reale**: il reporting in tempo reale fornisce informazioni approfondite sulle prestazioni dei percorsi nelle ultime 24 ore. È stata migliorata con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati per errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del Percorso. [Ulteriori informazioni](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* (Data di disponibilità: 10 settembre) **Nuovi tentativi automatici in Read Audience** - I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Read Audience** o **Business Event**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato. [Ulteriori informazioni](../building-journeys/read-audience.md#retries)
+* (Data di disponibilità: 10 settembre) **Nuovi tentativi automatici per Leggi pubblico**: i nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato. [Ulteriori informazioni](../building-journeys/read-audience.md#retries)
 
 **Canale e-mail**
 
@@ -228,16 +228,16 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale SMS**
 
-* **Modifica credenziali API** - È ora possibile modificare le impostazioni nelle credenziali API SMS, inclusi gli aggiornamenti alle parole chiave e alle risposte di consenso/rinuncia.
+* **Modifica credenziali API**: è ora possibile modificare le impostazioni nelle credenziali API SMS, inclusi gli aggiornamenti alle parole chiave e alle risposte di consenso/rinuncia.
 
 **API**
 
-* **API di simulazione campagna** - Utilizza questa API per attivare il processo di verifica di una campagna. L’invio della bozza di Campaign è un processo asincrono, l’API restituirà un proofJobId che può essere utilizzato per controllare lo stato della bozza. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **API di simulazione della campagna**: utilizza questa API per attivare il processo di bozza di una campagna. L’invio della bozza di una campagna è un processo asincrono, l’API restituirà un proofJobId che può essere utilizzato per controllare lo stato della bozza. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * (Data di disponibilità: 10 settembre) La [documentazione API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} è ora interattiva. Esplora gli endpoint API direttamente dalle pagine della documentazione per ottenere un feedback immediato e velocizzare l’implementazione tecnica.
 
 
-  Tutte le pagine di riferimento API ora dispongono di una funzionalità **Prova** che è possibile utilizzare per testare le chiamate API direttamente nella pagina del sito Web della documentazione. [Ottieni le credenziali di autenticazione richieste](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} e inizia a utilizzare la funzionalità per esplorare gli endpoint API.
+  Tutte le pagine di riferimento API ora dispongono di una funzionalità **Provala** che puoi utilizzare per testare le chiamate API direttamente nella pagina del sito web della documentazione. [Ottieni le credenziali di autenticazione richieste](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} e inizia a utilizzare la funzionalità per esplorare gli endpoint API.
 
   Utilizza questa nuova funzionalità per esplorare le richieste e le risposte dagli endpoint API, per ottenere feedback immediati e velocizzare l’implementazione tecnica.
 

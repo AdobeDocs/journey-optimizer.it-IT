@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -176,9 +176,9 @@ ht-degree: 95%
    + [Gestire le campagne](using/campaigns/modify-stop-campaign.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
 + Test e approvazione di {#test}
-   + [Gestione dei conflitti e definizione delle priorità](using/test-approve/conflict-prioritization.md)
+   + [Gestione dei conflitti e assegnazione delle priorità](using/test-approve/conflict-prioritization.md)
    + Anteprima e test del contenuto {#preview-test}
-      + [Verifica il contenuto utilizzando dati di input di esempio](using/test-approve/simulate-sample-input.md)
+      + [Testare il contenuto utilizzando dati di input di esempio](using/test-approve/simulate-sample-input.md)
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
       + [Selezionare i profili di test](using/content-management/test-profiles.md)
       + [Anteprima del contenuto](using/content-management/preview.md)
@@ -271,13 +271,13 @@ ht-degree: 95%
    + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
    + [Creare esperienze basate su codice](using/code-based/create-code-based.md)
 + Schede di contenuto{#content-card}
-   + [Introduzione alle schede di contenuto](using/content-card/get-started-content-card.md)
-   + Configura canale scheda contenuto {#configure}
-      + [Prerequisiti per le schede di contenuto](using/content-card/content-card-configuration-prereq.md)
-      + [Configurare il canale delle schede di contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
+   + [Introduzione alle schede contenuto](using/content-card/get-started-content-card.md)
+   + Configurare il canale della scheda contenuto {#configure}
+      + [Prerequisiti per le schede contenuto](using/content-card/content-card-configuration-prereq.md)
+      + [Configurare il canale delle schede contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
       + [Configurare il supporto per le schede di contenuto in Web SDK](using/content-card/content-card-configuration-sdk.md)
-   + [Creare schede di contenuto](using/content-card/create-content-card.md)
-   + [Progettare schede di contenuto](using/content-card/design-content-card.md)
+   + [Creare schede contenuto](using/content-card/create-content-card.md)
+   + [Progettare schede contenuto](using/content-card/design-content-card.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
    + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
@@ -293,12 +293,12 @@ ht-degree: 95%
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
    + Utilizzare l’Assistente IA{#ai-assistant}
-      + [Introduzione all’acceleratore dei contenuti dell’Assistente IA](using/content-management/gs-generative.md)
-      + [Generazione di e-mail con IA](using/content-management/generative-email.md)
-      + [Generazione push con IA](using/content-management/generative-push.md)
-      + [Generazione di SMS con IA](using/content-management/generative-sms.md)
-      + [Generazione web con IA](using/content-management/generative-web.md)
-      + [Esperimento sui contenuti con IA](using/content-management/generative-experimentation.md)
+      + [Introduzione all’accelerazione di contenuti dell’Assistente IA](using/content-management/gs-generative.md)
+      + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
+      + [Generazione di push con l’IA](using/content-management/generative-push.md)
+      + [Generazione di SMS con l’IA](using/content-management/generative-sms.md)
+      + [Generazione web con l’IA](using/content-management/generative-web.md)
+      + [Esperimento sui contenuti con l’IA](using/content-management/generative-experimentation.md)
       + [Casi d’uso dell’Assistente IA](using/content-management/generative-uc.md)
    + Utilizzare il contenuto multilingue{#content-multilingual}
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)

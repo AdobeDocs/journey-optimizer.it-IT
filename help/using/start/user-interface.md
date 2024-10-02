@@ -206,7 +206,7 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Applicare un set di regole ai percorsi"
->abstract="Applica un set di regole per escludere questo percorso a una parte del pubblico in base alle regole della quota limite."
+>abstract="Applica un set di regole per escludere questo percorso ad una parte del pubblico in base alle regole di quota limite."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorità in vista"
->abstract=" Se viene programmato un percorso con priorità più alta entro il periodo di tempo specificato qui, verrà impedito di accedere a questo percorso. Per le situazioni in cui desideri che i percorsi vengano inseriti in base all’ordine di arrivo, consigliamo di scegliere il periodo di programmazione giornaliero e di assicurarsi che il punteggio di priorità di qualsiasi altro percorso in quella giornata sia inferiore al punteggio di priorità di tale percorso. Fornendo un punteggio di priorità pari a 100 a un percorso verrebbe garantito anche che il punteggio venga assegnato."
+>abstract=" Se viene programmato un percorso con priorità più alta entro il periodo di tempo specificato qui, al cliente verrà impedito di accedere a questo percorso. Per le situazioni in cui desideri che i percorsi vengano inseriti secondo il criterio in base all’ordine di avvio, consigliamo di scegliere il periodo di visualizzazione giornaliero e di assicurarsi che il punteggio di priorità di qualsiasi altro percorso in tale giornata sia inferiore al punteggio di priorità per il percorso. Assegnare un punteggio di priorità pari a 100 a un percorso garantirebbe, inoltre, che questo venga selezionato."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
