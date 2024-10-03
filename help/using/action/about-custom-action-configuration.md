@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
+source-git-commit: 9059e3192170681293816a78703e39a60127a112
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 20%
@@ -153,7 +153,7 @@ Puoi definire il parametro payload come descritto di seguito:
 
    Abilita l&#39;opzione **[!UICONTROL Consenti valori NULL]** per mantenere valori Null nella chiamata esterna. Si noti che l’invio di array di int, stringa, ecc. con valori Null all’interno di non è del tutto supportato. Ad esempio, la seguente matrice di numeri interi `[1, null, 2, 3]` viene inviata come `[1, 2, 3]` anche se questa opzione è selezionata. Inoltre, se tale array è null, viene inviato come array vuoto.
 
-   ![](assets/null-values.png)
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito dalla chiamata. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
 
