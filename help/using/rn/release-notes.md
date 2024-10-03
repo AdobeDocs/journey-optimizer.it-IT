@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ Questo aggiornamento offre le nuove funzionalità descritte di seguito.
 <p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basato su codice è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/create-code-based.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Data disponibilità: 1 ottobre</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ Questo aggiornamento offre le nuove funzionalità descritte di seguito.
 <p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci ai clienti tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../web/create-web.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Data disponibilità: 1 ottobre</p>
 </tr>
 </tbody>
 </table>
+
+
+**Miglioramenti al Percorso**
+
+* (Data di disponibilità: 3 ottobre) **I parametri nelle azioni personalizzate** - Parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## Note sulla versione di settembre 2024 {#24-9-rn}
 
@@ -256,7 +265,6 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * **Miglioramenti al reporting in tempo reale**: il reporting in tempo reale fornisce informazioni approfondite sulle prestazioni dei percorsi nelle ultime 24 ore. È stata migliorata con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati per errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del Percorso. [Ulteriori informazioni](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (Data di disponibilità: 10 settembre) **Nuovi tentativi automatici per Leggi pubblico**: i nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato. [Ulteriori informazioni](../building-journeys/read-audience.md#retries)
 

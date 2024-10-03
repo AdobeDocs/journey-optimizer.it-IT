@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 21%
+source-wordcount: '1671'
+ht-degree: 20%
 
 ---
 
@@ -149,7 +149,9 @@ L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzat
 
 Puoi definire il parametro payload come descritto di seguito:
 
-1. Nella sezione **[!UICONTROL Request]** (Richiesta), incolla un esempio del payload JSON da inviare al servizio esterno. Questo campo è facoltativo e disponibile solo per i metodi di chiamata POST e PUT. <!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
+1. Nella sezione **[!UICONTROL Request]** (Richiesta), incolla un esempio del payload JSON da inviare al servizio esterno. Questo campo è facoltativo e disponibile solo per i metodi di chiamata POST e PUT.
+
+   Abilita l&#39;opzione **[!UICONTROL Consenti valori NULL]** per mantenere valori Null nella chiamata esterna. Si noti che l’invio di array di int, stringa, ecc. con valori Null all’interno di non è del tutto supportato. Ad esempio, la seguente matrice di numeri interi `[1, null, 2, 3]` viene inviata come `[1, 2, 3]` anche se questa opzione è selezionata. Inoltre, se tale array è null, viene inviato come array vuoto.
 
 1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito dalla chiamata. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
 
@@ -170,9 +172,9 @@ Nella configurazione del campo, devi:
 
    * **Costante** significa che il valore del parametro è definito nel riquadro di configurazione dell&#39;azione da un utente tecnico. Il valore sarà sempre lo stesso tra i percorsi. Non varia e l’addetto marketing non può visualizzarlo quando utilizza l’azione personalizzata nel percorso. Potrebbe essere ad esempio un ID previsto dal sistema di terze parti. In tal caso, il valore costante viene impostato sul campo a destra della costante/variabile di attivazione.
 
-   * **Variabile** indica che il valore del parametro varia. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso sono liberi di trasmettere il valore desiderato o di specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
+   * **Variabile** indica che il valore del parametro può variare. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso sono liberi di trasmettere il valore desiderato o di specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
 
-<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+  Per i parametri facoltativi, abilitare l&#39;opzione **[!UICONTROL È facoltativo]** alla fine della riga. Selezionando questa opzione, contrassegni il parametro come non obbligatorio e consenti ai professionisti del percorso di scegliere se compilarlo o meno durante la creazione dell’azione personalizzata in un percorso.
 
 >[!NOTE]
 >
