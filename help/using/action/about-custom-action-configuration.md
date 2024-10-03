@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
+source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1670'
 ht-degree: 20%
 
 ---
@@ -153,13 +153,13 @@ Puoi definire il parametro payload come descritto di seguito:
 
    Abilita l&#39;opzione **[!UICONTROL Consenti valori NULL]** per mantenere valori Null nella chiamata esterna. Si noti che l’invio di array di int, stringa, ecc. con valori Null all’interno di non è del tutto supportato. Ad esempio, la seguente matrice di numeri interi `[1, null, 2, 3]` viene inviata come `[1, 2, 3]` anche se questa opzione è selezionata. Inoltre, se tale array è null, viene inviato come array vuoto.
 
-1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito dalla chiamata. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
+   ![](assets/null-values.png)
 
-![](assets/action-response2bis.png){width="70%" align="left"}
+1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito dalla chiamata. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
 
 >[!NOTE]
 >
->I nomi dei campi nel payload non possono contenere un &quot;.&quot; carattere. Non possono iniziare con il carattere &quot;$&quot;.
+>I nomi dei campi nel payload non possono contenere un punto `.` né iniziare con un carattere `$`.
 >
 
 ![](assets/customactionpayloadmessage2.png)
