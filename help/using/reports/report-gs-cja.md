@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: '389'
+ht-degree: 15%
 
 ---
 
 # Introduzione alla nuova interfaccia di reporting {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Per ripristinare i report tradizionali di Journey Optimizer, è sufficiente attivare/disattivare l&#39;opzione **[!UICONTROL Usa nuova esperienza]**.
+>La generazione di rapporti in Adobe Journey Optimizer è attualmente standardizzata in UTC. La possibilità di personalizzare il fuso orario per la generazione di rapporti verrà introdotta in una versione futura.
 
 La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.
 
@@ -39,6 +39,10 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 * Se desideri eseguire il targeting delle metriche per tutte le campagne e i percorsi all&#39;interno dell&#39;ambiente, accedi al report **Panoramica** dal menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Gestione dei Percorsi]**. [Ulteriori informazioni sul rapporto Panoramica](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Per ripristinare i report tradizionali di Journey Optimizer, è sufficiente attivare/disattivare l&#39;opzione **[!UICONTROL Usa nuova esperienza]**.
 
 ## Prerequisiti {#prerequisites}
 
