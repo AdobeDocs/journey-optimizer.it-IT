@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4540'
 ht-degree: 2%
 
 ---
@@ -844,14 +844,3 @@ La tabella **[!UICONTROL Etichette tracciate]** offre una panoramica completa de
 
 +++
 
-### URL collegamenti tracciati {#tracked-link-url}
-
-La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramica completa degli URL all&#39;interno delle schede dei contenuti che attraggono il traffico più elevato dei visitatori. Questo consente di identificare e assegnare la priorità ai collegamenti più popolari, migliorando la comprensione del coinvolgimento del profilo con contenuti specifici nelle schede di contenuto.
-
-+++ Ulteriori informazioni sulle metriche degli URL di collegamento tracciati
-
-* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle schede Contenuto.
-
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle schede Contenuto.
-
-+++

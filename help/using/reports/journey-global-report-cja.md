@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
+source-wordcount: '4802'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,8 @@ La pagina del report **[!UICONTROL Percorso]** verrà visualizzata con le seguen
 * [In-app](#in-app-global)
 * [Web](#web-cja)
 * [Direct mail](#direct-mail-cja)
+* [Basato su codice](#code-based)
+* [Scheda contenuto](#content-card)
 
 Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, fare riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -641,16 +643,15 @@ Il grafico **[!UICONTROL Clic]** visualizza le metriche di clic delle pagine Web
 
 ![](assets/cja-web-displays.png)
 
-Il grafico **[!UICONTROL Displays]** ti aiuta a comprendere sia la portata complessiva del messaggio che il numero di profili univoci coinvolti con esso.
+Il grafico **[!UICONTROL Visualizzazioni]** ti aiuta a comprendere sia la portata complessiva dell&#39;esperienza basata su codice che il numero di profili univoci coinvolti.
 
 +++ Ulteriori informazioni sulle metriche di visualizzazione
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui è stata aperta l&#39;esperienza basata su codice.
 
-* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
+* **[!UICONTROL Visualizzazioni univoche]**: numero di volte in cui è stata aperta l&#39;esperienza basata su codice, non vengono prese in considerazione più interazioni di un profilo.
 
 +++
-
 
 ### Dati di tracciamento {#track-data-web}
 
@@ -761,3 +762,119 @@ La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori
 La tabella **[!UICONTROL Escludi motivi]** mostra visivamente i diversi fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing.
 
 Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclusion-list.md).
+
+## Esperienza basata su codice
+
+### Visualizza e fai clic {#impressions-code}
+
+![](assets/code-based-display.png)
+
+I grafici **[!UICONTROL Visualizza e fai clic]** presentano un&#39;analisi dettagliata del coinvolgimento dei tuoi profili con le esperienze basate sul codice, fornendo informazioni preziose su come i profili interagiscono con i tuoi contenuti.
+
++++ Ulteriori informazioni sulle metriche Impression e Clic
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle esperienze.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle esperienze.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui è stata aperta l&#39;esperienza.
+
+* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui l&#39;esperienza è stata aperta; non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### Dati di tracciamento {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagliata dell&#39;attività di profilo associata alle esperienze basate su codice, fornendo informazioni essenziali sull&#39;efficacia di coinvolgimento ed esperienze.
+
++++ Ulteriori informazioni sul tracciamento delle metriche dei dati
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per le esperienze.
+
+* **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che hanno interagito con le esperienze.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle esperienze.
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle esperienze.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui l&#39;esperienza è stata aperta.
+
+* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui l&#39;esperienza è stata aperta, non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### Etichette collegamenti tracciati {#track-link-code}
+
+La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno delle esperienze basate sul codice, evidenziando quelle che generano il traffico più elevato di visitatori. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
+
++++ Ulteriori informazioni sulle metriche delle etichette dei collegamenti tracciati
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle esperienze basate su codice.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle esperienze basate su codice.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui è stata aperta l&#39;esperienza.
+
+* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui l&#39;esperienza è stata aperta; non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+## Scheda contenuto {#content-card}
+
+### Visualizza e fai clic {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+I grafici **[!UICONTROL Visualizzazione e clic]** presentano un&#39;analisi dettagliata del coinvolgimento dei profili con le schede dei contenuti, fornendo informazioni utili su come i profili interagiscono con i contenuti.
+
++++ Ulteriori informazioni sulle metriche Visualizzazioni e Clic
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui la scheda Contenuto è stata aperta.
+
+* **[!UICONTROL Visualizzazioni univoche]**: numero di volte in cui la scheda Contenuto è stata aperta, non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### Dati di tracciamento {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagliata dell&#39;attività di profilo associata alle schede Contenuto, fornendo informazioni essenziali sull&#39;efficacia del coinvolgimento e delle esperienze.
+
++++ Ulteriori informazioni sul tracciamento delle metriche dei dati
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per le schede Contenuto.
+
+* **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che hanno interagito con le schede Contenuto.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui la scheda Contenuto è stata aperta.
+
+* **[!UICONTROL Visualizzazioni univoche]**: numero di volte in cui la scheda Contenuto è stata aperta, non vengono prese in considerazione più interazioni di un profilo.
+
++++
+
+### Etichette collegamenti tracciati {#track-link-content}
+
+La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno delle schede Contenuto, evidenziando quelle che generano il traffico di visitatori più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
+
++++ Ulteriori informazioni sulle metriche delle etichette dei collegamenti tracciati
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle schede Contenuto.
+
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui la scheda Contenuto è stata aperta.
+
+* **[!UICONTROL Visualizzazioni univoche]**: numero di volte in cui la scheda Contenuto è stata aperta, non vengono prese in considerazione più interazioni di un profilo.
+
++++
