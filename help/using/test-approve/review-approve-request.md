@@ -3,8 +3,9 @@ title: Rivedere e approvare una richiesta
 description: Scopri come rivedere e approvare una richiesta di pubblicazione di percorsi e campagne.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 2%
