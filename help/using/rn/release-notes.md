@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 72%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 72%
 
 ## Aggiornamenti di ottobre 2024 {#24-10-rn}
 
-Le funzionalità più recenti disponibili in Adobe Journey Optimizer sono elencate di seguito.
+### Nuove funzionalità {#24-10-features}
+
+Di seguito sono elencate le funzionalità più recenti disponibili in Adobe Journey Optimizer.
 
 <table>
 <thead>
@@ -39,6 +41,7 @@ Le funzionalità più recenti disponibili in Adobe Journey Optimizer sono elenca
 <tbody>
 <tr>
 <td>
+<p>Data disponibilità: 1 ottobre</p>
 <p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basato su codice è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/create-code-based.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ Le funzionalità più recenti disponibili in Adobe Journey Optimizer sono elenca
 <tbody>
 <tr>
 <td>
+<p>Data disponibilità: 1 ottobre</p>
 <p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci ai clienti tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../web/create-web.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ Le funzionalità più recenti disponibili in Adobe Journey Optimizer sono elenca
 </tbody>
 </table>
 
+### Miglioramenti {#24-10-improvements}
 
-**Miglioramenti al Percorso**
+**Percorsi**
 
 * (Data di disponibilità: 3 ottobre) **I parametri nelle azioni personalizzate** - Parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
