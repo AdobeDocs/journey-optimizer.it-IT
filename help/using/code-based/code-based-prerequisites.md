@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ Per consegnare correttamente le esperienze basate su codice, è necessario defin
 
   [Ulteriori informazioni sulla visualizzazione Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery)
 
-## Prerequisiti per l’esperimento sui contenuti {#experiment-prerequisites}
+## Prerequisiti per la generazione di rapporti {#experiment-prerequisites}
 
-Per abilitare gli esperimenti di contenuto per il canale basato su codice, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso anche nella configurazione di reporting.
+Per abilitare il reporting per il canale basato su codice, è necessario assicurarsi che anche il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso nella configurazione del reporting.
 
-In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti sull’esperimento del contenuto.
+In altre parole, quando configuri il reporting, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti.
 
-Scopri come aggiungere set di dati per i rapporti sull’esperimento dei contenuti in [questa sezione](../content-management/reporting-configuration.md#add-datasets).
+Scopri come aggiungere set di dati per il reporting in [questa sezione](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

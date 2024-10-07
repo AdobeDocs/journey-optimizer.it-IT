@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ Il widget Statistiche ]**della**[!UICONTROL  campagna descrive le informazioni p
 
 La scheda **[!UICONTROL Obiettivi]** ti consente di ottimizzare i rapporti delle consegne eseguendo il targeting di una metrica specifica.
 
-Gli **[!UICONTROL obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. È disponibile un elenco di **[!UICONTROL Obiettivi]** incorporati, ma puoi aggiungerne di nuovi aggiungendo un **[!UICONTROL Set di dati]**. Per la procedura dettagliata, consulta questa [sezione](../content-management/reporting-configuration.md).
+Gli **[!UICONTROL obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. È disponibile un elenco di **[!UICONTROL Obiettivi]** incorporati, ma puoi aggiungerne di nuovi aggiungendo un **[!UICONTROL Set di dati]**. Per la procedura dettagliata, consulta questa [sezione](../reports/reporting-configuration.md).
 
 Dopo aver selezionato gli obiettivi per i quali desideri eseguire il targeting, i due widget **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Obiettivo campagna]** forniranno un riepilogo dettagliato delle prestazioni della consegna.
 

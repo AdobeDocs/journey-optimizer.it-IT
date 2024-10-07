@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '867'
 ht-degree: 9%
 
 ---
@@ -109,19 +109,21 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
 Ora puoi selezionare la tua configurazione durante la creazione del messaggio in-app.
 
-## Prerequisiti per l’esperimento sui contenuti {#experiment-prerequisites}
-
-Per abilitare gli esperimenti di contenuto per il canale in-app, devi assicurarti che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione in-app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso anche nella configurazione di reporting.
-
-In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati web, i dati web non vengono visualizzati nei rapporti sull’esperimento del contenuto.
-
-Scopri come aggiungere set di dati per i rapporti sull’esperimento dei contenuti in [questa sezione](../content-management/reporting-configuration.md#add-datasets).
+## Prerequisiti per la generazione di rapporti {#experiment-prerequisites}
 
 >[!NOTE]
 >
 >Il set di dati viene utilizzato in sola lettura dal sistema di reporting [!DNL Journey Optimizer] e non influisce sulla raccolta o sull&#39;acquisizione dei dati.
 
+Per abilitare il reporting per il canale in-app, devi assicurarti che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione in-app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso anche nella configurazione di reporting.
+
+In altre parole, quando configuri il reporting, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti.
+
+Scopri come aggiungere set di dati per il reporting in [questa sezione](../reports/reporting-configuration.md#add-datasets).
+
 Se **non** utilizza i seguenti [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"} predefiniti per lo schema del set di dati: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (come definiti in [questa pagina](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), assicurati di aggiungere i seguenti gruppi di campi: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Questi sono necessari per il reporting dell&#39;esperimento di contenuto [!DNL Journey Optimizer], in quanto tengono traccia degli esperimenti e dei trattamenti a cui partecipa ogni profilo.
+
+[Ulteriori informazioni sulla configurazione del reporting](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

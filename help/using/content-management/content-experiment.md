@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Prima di iniziare con Content Experiment, assicurati che la configurazione del reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
+>Prima di iniziare con Content Experiment, assicurati che la configurazione del reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](../reports/reporting-configuration.md).
 
 L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
 

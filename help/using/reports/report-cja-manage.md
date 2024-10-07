@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Ogni organizzazione è limitata a pubblicare 25 tipi di pubblico. Inoltre, gli utenti possono pubblicare un massimo di 5 tipi di pubblico all&#39;ora e 20 al giorno
+>Ogni organizzazione è limitata a pubblicare 25 tipi di pubblico. Inoltre, gli utenti possono pubblicare fino a 5 tipi di pubblico all’ora e 20 al giorno.
+> I tipi di pubblico una tantum hanno una durata di 48 ore. Pertanto, se entro tale arco temporale vengono pubblicati 25 tipi di pubblico, è possibile pubblicare tali tipi di pubblico solo una volta trascorso il periodo di 48 ore.
 
 Ora puoi selezionare dati specifici all’interno della tabella e creare direttamente un pubblico da queste selezioni, semplificando e semplificando il processo di creazione del pubblico.
 

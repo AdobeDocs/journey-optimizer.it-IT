@@ -5,14 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Prerequisiti per le schede di contenuto {#content-card-configuration-prereq}
+# Prerequisiti per le schede contenuto {#content-card-configuration-prereq}
 
 Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenuto, devi configurare le seguenti impostazioni Adobe Experience Platform:
 
@@ -45,4 +45,4 @@ Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set 
 
   Assicurati che il set di dati utilizzato nello [stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) dell&#39;app sia incluso anche nella configurazione di reporting dell&#39;esperimento sui contenuti. I dati dell’app non vengono visualizzati nei rapporti se i set di dati non corrispondono.
 
-  Scopri come aggiungere set di dati per i rapporti sull’esperimento dei contenuti in [questa sezione](../content-management/reporting-configuration.md).
+  Scopri come aggiungere set di dati per i rapporti sull’esperimento dei contenuti in [questa sezione](../reports/reporting-configuration.md).

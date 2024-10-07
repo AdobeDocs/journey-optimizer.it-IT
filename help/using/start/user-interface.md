@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 100%
+source-wordcount: '1507'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ Controlla la gestione della privacy e le richieste da questa sezione.
 
 * **[!UICONTROL Configurazioni]**: utilizza questo menu per configurare [eventi](../event/about-events.md), [origini dati](../datasource/about-data-sources.md) e [azioni](../action/action.md) da utilizzare nei percorsi.
 
-  È inoltre possibile accedere alla sezione **Generazione rapporti** per configurare la generazione di rapporti per la sperimentazione delle campagne. [Ulteriori informazioni](../content-management/reporting-configuration.md)
+  Puoi anche accedere alla sezione **Generazione rapporti** per configurare la generazione rapporti per la sperimentazione della campagna e web/mobile. [Ulteriori informazioni](../reports/reporting-configuration.md)
 
 * **[!UICONTROL Regole aziendali]**: utilizza questa sezione per creare regole di frequenza cross-channel e controllare la frequenza con cui gli utenti ricevono un messaggio o entrano in un percorso. [Ulteriori informazioni](../configuration/frequency-rules.md)
 

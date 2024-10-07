@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 97%
 
 ---
@@ -307,7 +307,6 @@ ht-degree: 97%
    + Utilizzare l’esperimento sui contenuti {#content-experiment}
       + [Introduzione all’esperimento sui contenuti](using/content-management/get-started-experiment.md)
       + [Creare un esperimento sui contenuti](using/content-management/content-experiment.md)
-      + [Configurare i rapporti sulla sperimentazione](using/content-management/reporting-configuration.md)
       + Note tecniche {#technotes}
          + [Comprendere i calcoli statistici](using/content-management/experiment-calculations.md)
          + [Comprendere i calcoli statistici nel rapporto sulla sperimentazione](using/content-management/experiment-report-calculations.md)
@@ -411,6 +410,7 @@ ht-degree: 97%
    + [Motivi di esclusione](using/reports/exclusion-list.md)
 + Nuova interfaccia di reporting (LA){#channel-report}
    + [Introduzione alla nuova interfaccia di reporting](using/reports/report-gs-cja.md)
+   + [Prerequisiti per la generazione di rapporti e la sperimentazione](using/reports/reporting-configuration.md)
    + [Gestire i rapporti](using/reports/report-cja-manage.md)
    + [Rapporto percorso](using/reports/journey-global-report-cja.md)
    + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
