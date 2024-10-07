@@ -1,13 +1,13 @@
 ---
-title: Progettare schede di contenuto
+title: Progettare schede contenuto
 description: Scopri come progettare i contenuti delle schede di contenuto
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -39,17 +39,19 @@ Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e 
 
 ![](assets/content-card-design-2.png)
 
-+++Altre opzioni con formattazione avanzata
-
-Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi scegliere per **[!UICONTROL Intestazione]** e **[!UICONTROL Corpo]**:
-
-* **[!UICONTROL Carattere]**
-* la **[!UICONTROL Dimensione punto]**
-* **[!UICONTROL Colore carattere]**
-* **[!UICONTROL Allineamento]**
-+++
-
 Se desideri personalizzare ulteriormente il messaggio, utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere elementi personalizzati. Per istruzioni dettagliate su come utilizzare le funzionalità di personalizzazione, consulta [questa sezione](../personalization/personalize.md).
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### Media {#add-media}
 
@@ -59,11 +61,13 @@ Il campo **[!UICONTROL Media]** consente di migliorare le schede di contenuto ag
 
 Per includere i file multimediali, digita l&#39;URL del file multimediale che desideri utilizzare o fai clic sull&#39;icona **[!UICONTROL Seleziona Assets]** per scegliere tra le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets.md).
 
-+++Altre opzioni con formattazione avanzata
+<!--
++++More options with advanced formatting
 
-Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi aggiungere un **[!UICONTROL testo alternativo]** per le applicazioni di lettura dello schermo e un&#39;altra risorsa nel campo **[!UICONTROL URL contenuto multimediale in modalità scura]**.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### Pulsanti {#add-buttons}
 
@@ -79,16 +83,18 @@ Aggiungi i pulsanti per consentire agli utenti di interagire con le tue schede d
 
 1. Nel campo **[!UICONTROL Target]**, immetti l&#39;URL web o il collegamento diretto al quale gli utenti verranno indirizzati dopo aver interagito con il pulsante.
 
-+++Altre opzioni con formattazione avanzata
+<!--
++++More options with advanced formatting
 
-Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi scegliere i **[!UICONTROL pulsanti]**:
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* **[!UICONTROL Carattere]**
-* la **[!UICONTROL Dimensione punto]**
-* **[!UICONTROL Colore carattere]**
-* **[!UICONTROL Allineamento]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### Comportamento al clic
 
