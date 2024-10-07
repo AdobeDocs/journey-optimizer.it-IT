@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+source-git-commit: bbc64b4274cee083e6c35147314b230391b35317
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Normative come HIPAA richiedono che [!DNL Journey Optimizer] fornisca un modo pe
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] non è il proprietario del supporto per i requisiti di archiviazione SMS. Per il supporto di archiviazione dedicato, collabora con il fornitore di SMS (Synch, Infobip o Twilio).
+>[!DNL Journey Optimizer] non è il proprietario del supporto per i requisiti di archiviazione SMS. Per il supporto di archiviazione dedicato, collabora con il fornitore del servizio SMS (Sinch, Infobip o Twilio).
 
 ## Come utilizzare Ccn per le e-mail {#bcc-email}
 
