@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 14%
 
 ---
@@ -277,19 +277,16 @@ I criteri di uscita sono impostati a livello di percorso. Un percorso può avere
 
 Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
-1. Apri nel tuo percorso.
+1. Apri il percorso.
+
 1. Fai clic sull&#39;icona **[!UICONTROL Mostra criteri di uscita]** nella sezione superiore destra dell&#39;area di lavoro del percorso.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi criteri di uscita]**.
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un evento o un pubblico.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un **Evento** o un **Pubblico**.
 
 * Per i criteri di uscita basati su un evento, scegli solo un evento unitario.
-* Per i criteri di uscita basati su un pubblico, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere operativo.
+* Per i criteri di uscita basati su un pubblico, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
 
 È possibile aggiungere più criteri di uscita.
 
