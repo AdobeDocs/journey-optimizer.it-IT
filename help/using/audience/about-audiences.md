@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
 source-wordcount: '2272'
 ht-degree: 17%
@@ -93,7 +93,7 @@ Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi d
 >
 1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
 1. Selezionare &quot;Experience Platform&quot; e creare o modificare un gruppo di campi.
-2. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema sarà nel seguente formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
+1. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema sarà nel seguente formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
 1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
 1. Salva le modifiche.
 1. Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfruttarli in Journey Optimizer nelle posizioni elencate in precedenza.
