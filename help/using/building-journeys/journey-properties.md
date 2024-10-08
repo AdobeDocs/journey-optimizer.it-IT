@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 12%
+source-wordcount: '2049'
+ht-degree: 14%
 
 ---
 
@@ -261,45 +261,45 @@ Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di
 >title="Criteri di uscita dal percorso"
 >abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
 
-### Descrizione
+### Descrizione {#exit-criteria-desc}
 
-Spesso gli esperti di marketing desiderano rimuovere profili da un percorso quando non soddisfano più lo scopo del percorso. Ciò verrà ottenuto mediante **criteri di uscita globali**, strettamente associati alla gestione degli obiettivi.
+Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso non appena si verifica un evento (ad esempio, un acquisto) oppure se sono idonei per un pubblico. Questo impedirà all’utente di ricevere ulteriori comunicazioni dal percorso.
 
-**Caso d&#39;uso di esempio:**
+Puoi rimuovere i profili da un percorso quando non soddisfano più lo scopo del percorso. Ciò può essere ottenuto mediante **criteri di uscita globali**, strettamente associati alla gestione degli obiettivi.
 
-Un addetto al marketing dispone di un percorso promozionale con una serie di comunicazioni. Ciascuna di queste comunicazioni ha lo scopo di spingere il cliente ad effettuare un acquisto. Appena effettuato l&#39;acquisto, il cliente non dovrebbe ricevere il resto dei messaggi della serie. Definendo un criterio di uscita, tutti i profili che hanno effettuato un acquisto verranno rimossi dal percorso.
+**Caso d&#39;uso di esempio**
 
-### Configurazione e utilizzo
+Un addetto al marketing dispone di un percorso promozionale con una serie di comunicazioni. Ciascuna di queste comunicazioni ha lo scopo di spingere il cliente ad effettuare un acquisto. Appena effettuato l&#39;acquisto, il cliente non deve ricevere il resto dei messaggi della serie. Definendo un criterio di uscita, tutti i profili che hanno effettuato un acquisto vengono rimossi dal percorso.
 
-I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se sono impostati più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica OR. Pertanto, se si dispone di Exit Criteria n°1 e Exit Criteria n°2, verrà valutato come n°1 **o** n°2. I criteri vengono valutati in ogni fase del percorso.
+### Configurazione e utilizzo {#exit-criteria-config}
 
-Per **creare** un criterio di uscita:
+I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se sono impostati più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica `OR`. Pertanto, se si dispone del criterio di uscita A e del criterio di uscita B, verrà valutato come A **OR** B. I criteri vengono valutati in ogni fase del percorso.
 
-* Fare clic sull&#39;icona seguente ![](assets/exitcriteria_icon.png){width="40%" align="left"} nella barra a destra.
-* Fai clic sul pulsante **Aggiungi criteri di uscita**.
+Per **creare** un criterio di uscita, eseguire la procedura seguente:
+
+1. Apri nel tuo percorso.
+1. Fai clic sull&#39;icona **[!UICONTROL Mostra criteri di uscita]** nella sezione superiore destra dell&#39;area di lavoro del percorso.
+
+![](assets/exitcriteria_icon.png){width="40%" align="left"}
+
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi criteri di uscita]**.
 
 ![](assets/exitcriteria.png){width="40%" align="left"}
 
-* È possibile aggiungere più criteri di uscita.
-* Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un evento o un pubblico.
+1. Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un evento o un pubblico.
 
-### Criteri di uscita basati su un evento
+* Per i criteri di uscita basati su un evento, scegli solo un evento unitario.
+* Per i criteri di uscita basati su un pubblico, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere operativo.
 
-Scegli solo un evento unitario.
+È possibile aggiungere più criteri di uscita.
 
-![](assets/exitcriteria_event.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Criteri di uscita basati su un pubblico
+### Guardrail e limitazioni {#exit-criteria-guardrails}
 
-Scegli un pubblico.
+I seguenti guardrail e limitazioni si applicano alla capacità dei criteri di uscita del percorso:
 
-![](assets/exitcriteria_audience.png){width="40%" align="left"}
-
-Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere operativo.
-
-### Vincoli e limitazioni
-
-* I criteri di uscita sono definiti nello stato Bozza
+* I criteri di uscita sono definiti solo nello stato di bozza
 * Coerenza dello spazio dei nomi del percorso tra eventi e criteri di uscita basati su eventi
 
 
