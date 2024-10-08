@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>A partire dal 1° novembre 2024, un guardrail time-to-live (TTL) verrà applicato ai set di dati generati dal sistema di Journey Optimizer come segue:
+>
+>* 90 giorni per i dati nell’archivio dei profili
+>* 13 mesi per i dati nel data lake
+>
+>Inoltre, in quel momento, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback.
+
+
+
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività set di dati e vedi i dettagli del set di dati selezionato. La scheda attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 
 I set di dati di sistema per Adobe Journey Optimizer sono elencati di seguito.
 
-
 >[!CAUTION]
 >
 > I set di dati di sistema **non devono essere modificati**. Qualsiasi modifica viene ripristinata automaticamente ad ogni aggiornamento del prodotto.
->
 
 **Generazione rapporti**
 
