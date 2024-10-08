@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 99%
 
 ---
 
@@ -172,3 +172,9 @@ The following data is taken into account for consent:
 -->
 
 Gli altri passaggi per configurare un’azione personalizzata in un percorso sono descritti in [questa sezione](../building-journeys/using-custom-actions.md).
+
+## Video introduttivo {#video}
+
+Scopri come viene applicata l’etichettatura di utilizzo dei dati nei canali Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)
