@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 21%
+source-wordcount: '2272'
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 * **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
 * **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. Scopri come importare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} di Adobe Experience Platform.
 * **Composizione del pubblico**: crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un&#39;area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico. [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. Leggi la guida su [Federated Audience Composition](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
+* **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. Leggi la guida su [Federated Audience Composition](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home).
 
   >[!AVAILABILITY]
   >
@@ -67,25 +67,15 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 ## Utilizzare gli attributi di arricchimento del pubblico {#enrichment}
 
-Quando esegui il targeting di un pubblico generato utilizzando i flussi di lavoro di composizione, puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
+Quando esegui il targeting di un pubblico generato utilizzando flussi di lavoro di composizione o un pubblico personalizzato (file CSV), puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
 
-Per utilizzare gli attributi di arricchimento in un Percorso, accertati che vengano aggiunti a un gruppo di campi all’interno del Data Source di &quot;Experience Platform&quot;.
+>[!NOTE]
+>
+>I tipi di pubblico creati tramite il caricamento personalizzato di file CSV prima del 1° ottobre 2024 non sono idonei alla personalizzazione. Per utilizzare gli attributi di questi tipi di pubblico e sfruttare appieno questa funzione, ricreare e caricare nuovamente eventuali tipi di pubblico CSV esterno importati prima di questa data.
+>
+>I criteri di consenso non supportano gli attributi di arricchimento. Pertanto, eventuali regole dei criteri di consenso devono essere basate solo sugli attributi presenti nel profilo.
 
-+++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi
-
-1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
-1. Selezionare &quot;Experience Platform&quot; e creare o modificare un gruppo di campi.
-1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
-1. Salva le modifiche.
-
-Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezioni:
-
-* [Utilizzare l’origine dati Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
-* [Configurare un’origine dati](../datasource/configure-data-sources.md)
-
-+++
-
-Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfruttarli in posizioni diverse in Journey Optimizer:
+Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi di arricchimento dei tipi di pubblico:
 
 * **Crea più percorsi in un percorso** in base a regole che sfruttano gli attributi di arricchimento del pubblico di destinazione. A questo scopo, esegui il targeting del pubblico utilizzando un&#39;attività [Read audience](../building-journeys/read-audience.md), quindi crea regole in un&#39;attività [Condition](../building-journeys/condition-activity.md) in base agli attributi di arricchimento del pubblico.
 
@@ -95,9 +85,41 @@ Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfr
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Gli attributi di arricchimento del caricamento personalizzati non sono ancora disponibili per l’utilizzo in Journey Optimizer.
+>Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con flussi di lavoro di composizione, accertati che vengano aggiunti a un gruppo di campi nel Data Source di &quot;Experience Platform&quot;.
+>
++++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi>
+>
+1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
+1. Selezionare &quot;Experience Platform&quot; e creare o modificare un gruppo di campi.
+2. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema sarà nel seguente formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
+1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
+1. Salva le modifiche.
+1. Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfruttarli in Journey Optimizer nelle posizioni elencate in precedenza.
+>
+Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezioni:
+>
+* [Utilizzare l&#39;origine dati di Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurare un&#39;origine dati](../datasource/configure-data-sources.md)
+>
++++
+
+## Tipi di pubblico per caricamento personalizzato (file CSV) {#csv}
+
+Questa sezione fornisce informazioni chiave da tenere a mente quando si lavora con tipi di pubblico di caricamento personalizzati (file CSV):
+
+* **Supporto di anteprima e bozza per i tipi di pubblico CSV:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati con il caricamento CSV. Tieni presente questo aspetto durante la pianificazione delle campagne.
+
+* **Ritardi nell&#39;attivazione rapida e nell&#39;unione delle identità:** l&#39;architettura di Adobe Experience Platform ritarda l&#39;unione delle identità per rendere immediatamente disponibili i tipi di pubblico per il caricamento personalizzati per l&#39;attivazione in Journey Optimizer, con i seguenti effetti:
+
+   * I tipi di pubblico sono pronti per essere utilizzati in Journey Optimizer al termine dell’acquisizione. Sebbene questo avvenga in genere entro un’ora, è soggetto ad alcune variabilità.
+   * Il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
+   * Ogni record nel file CSV verrà attivato, compresi eventuali duplicati. Durante la prossima esportazione del profilo UPS, questi record passeranno attraverso l’unione delle identità.
+
+* **Esecuzione del targeting di nuovi profili da caricamenti CSV:** Quando non viene trovata una corrispondenza tra un record CSV e un profilo UPS, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
+
+  Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l’attributo scelto come identità durante il caricamento del CSV sarà quello utilizzato per il targeting in Journey Optimizer.
 
 ## Metodi di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ La segmentazione in streaming è un processo continuo di selezione di dati che a
 
 >[!NOTE]
 >
->Assicurati di utilizzare gli eventi giusti come criteri di segmentazione in streaming. [Ulteriori informazioni](#streaming-segmentation-events-guardrails)
+Assicurati di utilizzare gli eventi giusti come criteri di segmentazione in streaming. [Ulteriori informazioni](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -161,7 +183,7 @@ Di conseguenza, per prestazioni ottimali di segmentazione in streaming, evita di
 
 >[!NOTE]
 >
->Puoi utilizzare gli eventi **Messaggio aperto** e **Messaggio inviato** nella segmentazione batch senza problemi di prestazioni.
+Puoi utilizzare gli eventi **Messaggio aperto** e **Messaggio inviato** nella segmentazione batch senza problemi di prestazioni.
 
 
 ## Domande frequenti sulla composizione del pubblico e il caricamento personalizzato {#faq}
@@ -178,7 +200,7 @@ I tipi di pubblico da composizione e caricamento personalizzati del pubblico pos
 
   >[!NOTE]
   >
-  >Per i tipi di pubblico di caricamento personalizzati, se &quot;Lettura incrementale&quot; è abilitato in un percorso ricorrente, i profili vengono recuperati solo alla prima ricorrenza, in quanto questi tipi di pubblico sono fissi.
+  Per i tipi di pubblico di caricamento personalizzati, se &quot;Lettura incrementale&quot; è abilitato in un percorso ricorrente, i profili vengono recuperati solo alla prima ricorrenza, in quanto questi tipi di pubblico sono fissi.
 
 Inoltre, questi tipi di pubblico sono disponibili per l’utilizzo nell’editor di personalizzazione per personalizzare i messaggi in percorsi e campagne. [Scopri come utilizzare l&#39;editor di personalizzazione](../personalization/personalization-build-expressions.md)
 
@@ -200,15 +222,11 @@ Gli attributi di arricchimento dalla composizione del pubblico possono essere ut
 * Attributi azione personalizzati (Percorsi)
 * Personalizzazione dei messaggi (Percorsi e campagne)
 
->[!AVAILABILITY]
->
->Gli attributi di arricchimento del caricamento personalizzati non sono ancora disponibili per l’utilizzo in Journey Optimizer.
-
 +++
 
 +++ Come si abilitano gli attributi di arricchimento nei Percorsi?
 
-Per utilizzare gli attributi di arricchimento in un Percorso, accertati che vengano aggiunti a un gruppo di campi all’interno del Data Source di &quot;Experience Platform&quot;. Le informazioni su come aggiungere attributi di arricchimento a un gruppo di campi sono disponibili in [questa sezione](#enrichment)
+Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con flussi di lavoro di composizione, assicurati che vengano aggiunti a un gruppo di campi nel Data Source di &quot;Experience Platform&quot;. Le informazioni su come aggiungere attributi di arricchimento a un gruppo di campi sono disponibili in [questa sezione](#enrichment)
 
 +++
 
