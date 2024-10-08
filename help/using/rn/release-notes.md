@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 70%
+source-wordcount: '1329'
+ht-degree: 69%
 
 ---
 
@@ -77,6 +77,8 @@ Di seguito sono elencate le funzionalità più recenti disponibili in Adobe Jour
 **Tipi di pubblico**
 
 * Quando esegui il targeting di un pubblico di file CSV, ora puoi utilizzare gli attributi del file nell’editor di personalizzazione e nel generatore di regole per percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md)
+
+* L’utilizzo di tipi di pubblico e attributi dal caricamento personalizzato (file CSV) è ora disponibile con Healthcare Shield o Privacy and Security Shield.
 
 ## Note sulla versione di settembre 2024 {#24-9-rn}
 

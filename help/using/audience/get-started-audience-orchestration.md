@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 60%
 
 ---
 
@@ -36,7 +36,7 @@ Al termine, viene salvato il backup in Adobe Experience Platform di **tipi di pu
 
 >[!IMPORTANT]
 >
->L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e da tipi di pubblico di caricamento personalizzati non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
+>L’utilizzo dei tipi di pubblico e degli attributi della composizione del pubblico non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield.
 >
 >Gli attributi di arricchimento non sono ancora integrati con il servizio di applicazione dei criteri. Pertanto, eventuali etichette di utilizzo dei dati applicate agli attributi di arricchimento non verranno applicate nelle campagne o nei percorsi Journey Optimizer.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '2272'
-ht-degree: 17%
+source-wordcount: '2266'
+ht-degree: 18%
 
 ---
 
@@ -49,7 +49,7 @@ Nelle campagne e nei percorsi puoi selezionare qualsiasi pubblico generato utili
 
 >[!AVAILABILITY]
 >
->L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e da tipi di pubblico con caricamento personalizzato (file CSV) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
+>L’utilizzo dei tipi di pubblico e degli attributi della composizione del pubblico non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi diversi:
 
