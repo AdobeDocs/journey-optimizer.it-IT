@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 2%
 
 ---
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 Un percorso può essere chiuso per i motivi seguenti:
 
 * Il percorso viene chiuso manualmente tramite il pulsante **[!UICONTROL Chiudi ai nuovi ingressi]**.
-* Percorso basato su un segmento one-shot completato.
+* Un percorso basato su un segmento che ha completato l’esecuzione e ha raggiunto il timeout globale di 91 giorni.
 * Dopo l’ultima occorrenza di un percorso ricorrente basato su pubblico.
 
-La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
+La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. Dopo il timeout globale predefinito di 91 giorni, il percorso passa allo stato Finito. Consulta [questa sezione](journey-properties.md#timeout).
 
 Dopo il [timeout globale](journey-properties.md#timeout) di 91 giorni, un percorso Read audience passa allo stato **Finished**. Questo comportamento è impostato solo per 91 percorsi (ovvero [valore di timeout globale del percorso](journey-properties.md#global_timeout)) poiché tutte le informazioni sui profili che sono entrati nel gruppo vengono rimosse 91 giorni dopo l&#39;immissione. Le persone ancora nel percorso sono automaticamente interessate. Uscono dal percorso dopo il timeout di 91 giorni.
 
