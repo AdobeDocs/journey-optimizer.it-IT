@@ -1,5 +1,5 @@
 ---
-title: Gestione dei conflitti e definizione delle priorità
+title: Gestione dei conflitti e assegnazione delle priorità
 description: Scopri come visualizzare in anteprima e testare i contenuti.
 feature: Preview, Proofs
 role: User
@@ -7,23 +7,23 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
+source-git-commit: ff529c9319a6eb5fe6762f30b739f2c39c3d5685
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 26%
+source-wordcount: '1186'
+ht-degree: 21%
 
 ---
 
 
-# Gestione dei conflitti e definizione delle priorità {#conflict-prioritization}
+# Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
 
 >[!AVAILABILITY]
 >
 >Gli strumenti per la gestione dei conflitti e la definizione delle priorità sono attualmente disponibili come versione beta solo per determinati utenti.
 
-In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Nelle due sezioni seguenti vengono introdotti strumenti chiave per mantenere l’equilibrio e assegnare un’effettiva priorità alle comunicazioni.
+In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Nelle due sezioni seguenti vengono introdotti strumenti chiave per mantenere l’equilibrio e assegnare un’effettiva priorità alle comunicazioni
 
-## Visualizzare potenziali conflitti in percorsi e campagne {#conflict}
+## Identificare potenziali conflitti in percorsi e campagne {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
@@ -43,9 +43,21 @@ I settori chiave da monitorare per eventuali sovrapposizioni sono i seguenti:
 * **Pubblico**: quale percentuale del pubblico del mio percorso fa parte anche di altri percorsi?
 * **Canale**: sono pianificate altre comunicazioni per lo stesso intervallo di tempo e, in caso affermativo, quante?
 * **Set di regole di limitazione**: quali tipi di percorsi sono soggetti a limitazione e vi sono sovrapposizioni all&#39;interno di essi?
-* **Configurazione canale**: esistono altri percorsi o campagne che utilizzano questa configurazione di canale che potrebbero impedire la visualizzazione della campagna all&#39;utente?
+* **Configurazione canale**: ci sono altri percorsi o campagne che utilizzano una configurazione di canale utilizzata nello stesso percorso o campagna che potrebbe impedire la visualizzazione del percorso o della campagna all&#39;utente finale?
 
-Journey Optimizer ti consente di verificare ogni volta che esiste la possibilità di sovrapposizione con altri percorsi o campagne. Per farlo, segui questi passaggi:
+### Come Journey Optimizer rileva i conflitti {#detection}
+
+Di seguito è riportato un riepilogo di come Journey Optimizer identifica potenziali conflitti per percorsi e campagne:
+
+* **Ambito di identificazione dei conflitti**: i conflitti vengono visualizzati solo per campagne e percorsi live o pianificati.
+* **percorsi unitari**: se il percorso selezionato è unitario, vengono visualizzati gli altri percorsi che iniziano con lo stesso evento, in quanto questo evento attiverà tutti i percorsi di questo tipo.
+* **Qualificazione del pubblico ed evento Read Audience/Business** percorsi: se il percorso selezionato è un percorso di qualificazione del pubblico o Read Audience/Business Event, vengono visualizzati tutti gli altri percorsi dello stesso tipo con un pubblico valido, in quanto possono esserci sovrapposizioni tra i tipi di pubblico.
+* **Campagne**: poiché tutte le campagne sono indirizzate a tipi di pubblico e non esiste un concetto di eventi, tutte le campagne potrebbero entrare in conflitto con percorsi attivati da segmenti (a partire da un&#39;attività Read audience).
+* **Campagne live/pianificate**: le campagne live e pianificate possono entrare in conflitto tra loro a causa di una potenziale sovrapposizione di pubblico. Per una determinata campagna, tutte le campagne live o pianificate sono elencate nel visualizzatore di conflitti.
+
+### Visualizzare i conflitti identificati per un determinato percorso o campagna {#view}
+
+Durante la creazione di un percorso o di una campagna, Journey Optimizer consente di verificare ogni volta che esiste la possibilità di sovrapposizione con altri percorsi o campagne. Per farlo, segui questi passaggi:
 
 1. Al momento della creazione di un percorso o di una campagna, fai clic sul pulsante **[!UICONTROL Visualizza conflitti potenziali]** nelle proprietà del percorso o della campagna.
 
@@ -61,11 +73,15 @@ Journey Optimizer ti consente di verificare ogni volta che esiste la possibilit�
 
    ![](assets/potential-conflicts.png)
 
->[!NOTE]
->
->Per perfezionare ulteriormente la ricerca di potenziali sovrapposizioni, puoi filtrare l’elenco di campagne e percorsi in base ai campi pertinenti. A questo scopo, seleziona l’icona del filtro nella vista inventario. [Scopri come utilizzare i filtri](../start/search-filter-categorize.md#filter-lists)
+   >[!NOTE]
+   >
+   >Le nuove campagne pubblicate potrebbero richiedere fino a 5 minuti per essere visualizzate nel visualizzatore dei conflitti, a causa del caching implementato
 
-Una volta identificate potenziali sovrapposizioni, Journey Optimizer offre diversi modi per risolverle.
+Per perfezionare ulteriormente la ricerca di potenziali sovrapposizioni, puoi filtrare l’elenco di campagne e percorsi in base ai campi pertinenti. A questo scopo, seleziona l’icona del filtro nella vista inventario. [Scopri come utilizzare i filtri](../start/search-filter-categorize.md#filter-lists)
+
+### Risolvi conflitti {#resolve}
+
+Di seguito sono riportati alcuni suggerimenti per ridurre i potenziali conflitti una volta identificati:
 
 * Modifica le **date di inizio/fine** per evitare la sovrapposizione di campagne o percorsi.
 * Affina **targeting pubblico** per ridurre al minimo la sovrapposizione tra percorsi.
@@ -99,4 +115,4 @@ Per assegnare un punteggio di priorità a un percorso o a una campagna, immetter
 
 ![](assets/priority-score.png)
 
-Per le situazioni in cui due campagne hanno lo stesso punteggio di priorità, viene visualizzata la campagna attivata meno di recente.
+Per le situazioni in cui due campagne hanno lo stesso punteggio di priorità, verrà visualizzata la campagna attivata per prima.
