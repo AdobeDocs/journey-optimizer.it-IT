@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 96%
+source-wordcount: '3842'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2024.
 
 
-## Note sulla versione di agosto 2024 {#8-2024}
+## Versione di agosto 2024 {#8-2024}
 
 **Data di rilascio**: 20-21 agosto 2024
 
@@ -148,7 +148,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 
 
-## Note sulla versione di luglio 2024 {#24-7-2024}
+## Versione del 24 luglio {#24-7-2024}
 
 **Data di rilascio**: 30-31 luglio 2024
 
@@ -199,7 +199,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 
 
-## Note sulla versione di giugno 2024 {#24-6-2024}
+## Versione di giugno 2024 {#24-6-2024}
 
 **Data di rilascio**: 18-19 giugno 2024
 
@@ -344,7 +344,6 @@ Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenu
 * I **Criteri di unione** ora sono disponibili: i criteri di unione utilizzati da un percorso sono quindi visibili e coerenti in tutto il percorso. [Ulteriori informazioni](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### Campagne
 
 * Durante la creazione di una campagna in Adobe Journey Optimizer, ora è possibile scegliere il tipo di campagna (pianificata o attivata) in una nuova finestra modale. [Ulteriori informazioni](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenu
 
 
 
-## Note sulla versione di maggio 2024 {#may-2024}
+## Versione di maggio 2024 {#may-2024}
 
 **Data di rilascio**: 21-22 maggio 2024
 
@@ -525,9 +524,7 @@ Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i 
 Come parte del nostro impegno continuo per offrire un’esperienza utente unificata, armonizziamo la terminologia utilizzata nei prodotti e nelle app di Adobe Experience Cloud. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
-
-
-## Note sulla versione di aprile 2024 {#apr-2024}
+## Versione di aprile 2024 {#apr-2024}
 
 **Data di rilascio**: 2 maggio 2024
 
@@ -636,7 +633,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 
 
-## Note sulla versione di marzo 2024 {#mar-2024}
+## Versione di marzo 2024 {#mar-2024}
 
 **Data di rilascio**: 19-20 marzo 2024
 
@@ -686,7 +683,7 @@ Sono stati aggiunti nuovi stati intermedi al ciclo di vita di authoring del perc
 
 Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteriori informazioni](../building-journeys/journey-gs.md#filter)
 
-## Note sulla versione di febbraio 2024 {#feb-2024}
+## Versione di febbraio 2024 {#feb-2024}
 
 **Data di rilascio**: 21-22 febbraio 2024
 
@@ -772,7 +769,7 @@ Precedentemente disponibili in versione beta, i seguenti miglioramenti sono ora 
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## Note sulla versione di gennaio 2024 {#jan-2024}
+## Versione di gennaio 2024 {#jan-2024}
 
 **Data di rilascio**: 30-31 gennaio 2024
 
