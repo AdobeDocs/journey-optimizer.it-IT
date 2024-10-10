@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5454'
-ht-degree: 99%
+source-wordcount: '5555'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,18 @@ ht-degree: 99%
 
 Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+## Settembre 2024 {#sept-2024}
+
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di [!DNL Journey Optimizer] settembre 2024 sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* È stata aggiunta una sezione sulla gestione dei nuovi tentativi del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md#read-audience-retry)
+* Le domande frequenti sulla regola di limitazione/limitazione per le azioni personalizzate sono state aggiornate per indicare la regola di limitazione predefinita. [Ulteriori informazioni](../configuration/external-systems.md#faq)
+* La sezione Accesso al controllo è stata aggiornata con le autorizzazioni relative al generatore di contenuti dell’Assistente di intelligenza artificiale. [Ulteriori informazioni](../administration/high-low-permissions.md#ai-permission)
+* È stato aggiunto un video sulla generazione di e-mail tramite AIS Assistant Content Generator. [Ulteriori informazioni](../content-management/generative-email.md#video)
+
+
 ## Agosto 2024 {#aug-2024}
 
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di agosto 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * I guardrail delle prestazioni per la gestione delle decisioni sono stati aggiornati per citare le velocità effettive di consegna delle API Decisioning con/senza segmentazione di Edge. [Ulteriori informazioni](../start/guardrails.md#decision-management)
 * I guardrail dei percorsi sono stati aggiornati. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
