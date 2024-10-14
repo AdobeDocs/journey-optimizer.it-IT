@@ -12,16 +12,16 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
-# Utilizzare azioni di canale integrate {#add-a-message-in-a-journey}
+# Utilizzare le azioni canale integrate {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="Azione canale incorporata"
->abstract="Journey Optimizer viene fornito con funzionalità integrate di azione del canale. Puoi semplicemente aggiungere al tuo percorso un’attività in uscita (e-mail, messaggio di testo (SMS/MMS), push) o in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
+>title="Azione canale integrate"
+>abstract="Journey Optimizer viene fornito con funzionalità di azione canale integrate. Puoi semplicemente aggiungere al tuo percorso un’attività in uscita (e-mail, messaggio di testo (SMS/MMS), push) o in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
 
 [!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale integrate. Puoi semplicemente aggiungere al tuo percorso un’attività in uscita (e-mail, messaggio di testo (SMS/MMS), push) o in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso.
 

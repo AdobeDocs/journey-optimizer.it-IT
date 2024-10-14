@@ -12,11 +12,11 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
-# Prerequisiti per la generazione di rapporti e la sperimentazione {#reporting-configuration}
+# Prerequisiti per il reporting e la sperimentazione {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
