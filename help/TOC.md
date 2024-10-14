@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2073'
 ht-degree: 96%
 
 ---
@@ -415,7 +415,7 @@ ht-degree: 96%
    + [Motivi di esclusione](using/reports/exclusion-list.md)
 + Nuova interfaccia di reporting (LA){#channel-report}
    + [Introduzione alla nuova interfaccia di reporting](using/reports/report-gs-cja.md)
-   + [Prerequisiti per la generazione di rapporti e la sperimentazione](using/reports/reporting-configuration.md)
+   + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)
    + [Gestire i rapporti](using/reports/report-cja-manage.md)
    + [Rapporto percorso](using/reports/journey-global-report-cja.md)
    + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
@@ -428,6 +428,7 @@ ht-degree: 96%
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
          + [Interfaccia utente](using/offers/get-started/user-interface.md)
          + [Passaggi chiave per creare e gestire le offerte](using/offers/offer-library/key-steps.md)
+         + [Sfruttare i tipi di pubblico di caricamento personalizzati per il processo decisionale](using/offers/custom-upload-decisioning.md)
          + [Caso di utilizzo: inserire offerte in un messaggio e-mail](using/offers/offers-e2e.md)
       + Creare componenti {#create-components}
          + [Creare posizionamenti](using/offers/offer-library/creating-placements.md)

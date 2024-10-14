@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
 source-wordcount: '2266'
 ht-degree: 18%
@@ -35,7 +35,7 @@ Un pubblico è un insieme di persone che condividono comportamenti e/o caratteri
 I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 * **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
-* **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. Scopri come importare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} di Adobe Experience Platform.
+* **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. Scopri come importare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} di Adobe Experience Platform.
 * **Composizione del pubblico**: crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un&#39;area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico. [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
 * **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. Leggi la guida su [Federated Audience Composition](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home).
 
