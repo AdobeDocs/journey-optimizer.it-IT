@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 61%
+source-wordcount: '1496'
+ht-degree: 60%
 
 ---
 
@@ -20,17 +20,15 @@ ht-degree: 61%
 >title="Novità"
 >abstract="**Adobe Journey Optimizer** offre continuamente nuove funzioni, miglioramenti a quelle esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
 
-[!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese.
-
-[!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
-
-![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
+[!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Tutte le modifiche sono consolidate nell’ultima settimana di ogni mese nelle presenti note sulla versione. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Aggiornamenti di ottobre 2024 {#24-10-rn}
 
-### Nuove funzionalità {#24-10-features}
+Prossima **data di rilascio**: 28-30 ottobre 2024
 
-Le nuove funzionalità disponibili in Adobe Journey Optimizer sono elencate di seguito.
+Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elencati di seguito sono stati rilasciati questo mese.
+
+### Nuove funzionalità {#24-10-features}
 
 <table>
 <thead>
@@ -279,3 +277,6 @@ Questa versione include i miglioramenti elencati di seguito.
 **Configurazione**
 
 * **Piani di riscaldamento IP** - Questa funzionalità è ora disponibile per tutti i clienti, incluse le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**. [Ulteriori informazioni](../configuration/ip-warmup-gs.md)
+
+
+![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
