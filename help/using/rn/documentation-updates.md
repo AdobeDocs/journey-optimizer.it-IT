@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5610'
-ht-degree: 97%
+source-wordcount: '5626'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,10 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Ottobre 2024 {#oct-2024}
 
-* La pagina Configurare l’esperienza basata su codice è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega cos’è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
+* La pagina **Configurare l&#39;esperienza basata su codice** è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega cos&#39;è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
+* La pagina **Crea configurazione canale Web** è stata aggiornata per chiarire i passaggi durante la creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell&#39;esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
+* È stata aggiunta una nota sul prossimo guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)
 
-* La pagina Crea configurazione canale web è stata aggiornata per chiarire i passaggi durante la creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell’esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
 
 ## Settembre 2024 {#sept-2024}
 
@@ -31,7 +32,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiunta una sezione sulla gestione dei nuovi tentativi del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md#read-audience-retry)
 * Le domande frequenti sulla regola di limitazione/limitazione per le azioni personalizzate sono state aggiornate per indicare la regola di limitazione predefinita. [Ulteriori informazioni](../configuration/external-systems.md#faq)
 * La sezione Accesso al controllo è stata aggiornata con le autorizzazioni relative al generatore di contenuti dell’Assistente di intelligenza artificiale. [Ulteriori informazioni](../administration/high-low-permissions.md#ai-permission)
-* È stato aggiunto un video sulla generazione di e-mail tramite AIS Assistant Content Generator. [Ulteriori informazioni](../content-management/generative-email.md#video)
+* È stato aggiunto un video sul Generatore di contenuti dell’Assistente di intelligenza artificiale per la generazione di e-mail. [Ulteriori informazioni](../content-management/generative-email.md#video)
 
 
 ## Agosto 2024 {#aug-2024}
