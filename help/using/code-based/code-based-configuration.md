@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1531'
 ht-degree: 30%
 
 ---
@@ -160,7 +160,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 1. Seleziona **[!UICONTROL Altro]** come piattaforma se la tua implementazione non è per Web, iOS o Android oppure se devi eseguire il targeting di URI specifici.
 
-1. Immettere l&#39;**[!UICONTROL URI superficie]**. [Ulteriori informazioni](#surface-definition)
+1. Immettere l&#39;**[!UICONTROL URI superficie]**. Un URI di superficie è un identificatore univoco corrispondente all’entità in cui desideri fornire l’esperienza. [Ulteriori informazioni](#surface-definition)
 
    ![](assets/code_config_5.png)
 
@@ -174,7 +174,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
    >
    >Quando si aggiungono più URI, il contenuto viene distribuito a tutti i componenti elencati.
 
-## Che cos&#39;è un URI di superficie? {#surface-definition}
+## Che cos’è una superficie? {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
