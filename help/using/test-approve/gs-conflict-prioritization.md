@@ -1,15 +1,15 @@
 ---
 title: Gestione dei conflitti e assegnazione delle priorità
-description: Scopri come xxxx.
+description: Scopri come sfruttare gli strumenti di gestione dei conflitti e definizione delle priorità di Journey Optimizer.
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 3438a5edceacab13c7241e18454d84228579ebc4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 6%
+source-wordcount: '351'
+ht-degree: 5%
 
 ---
 
