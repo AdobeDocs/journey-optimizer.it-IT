@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,6 @@ Per poter utilizzare in [!DNL Journey Optimizer] le azioni di esperienza basate 
 * Per aggiungere modifiche alle applicazioni, è necessario disporre di un’implementazione specifica. [Ulteriori informazioni](#implementation-prerequisites)
 
 * Affinché le esperienze basate sul codice vengano consegnate correttamente, assicurati di definire le impostazioni Adobe Experience Platform dettagliate [qui](#delivery-prerequisites).
-
->[!CAUTION]
->
->Puoi creare esperienze basate sul codice solo in **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure).
 
 ## Prerequisiti per l’implementazione {#implementation-prerequisites}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1215'
 ht-degree: 10%
 
 ---
@@ -124,7 +124,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
 Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
 
-## Testare l’esperienza basata su codice {#test-code-based-experience}
+## Testare l’esperienza basata sul codice {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
@@ -167,6 +167,8 @@ Puoi anche visualizzare in anteprima il contenuto dell’esperienza basata su co
 >Se attivi un percorso o una campagna basati su codice che influisce sulle stesse pagine di un altro percorso o campagna già live, tutte le modifiche verranno applicate al contenuto.
 >
 >Se più percorsi o campagne basati su codice aggiornano gli stessi elementi del contenuto, il percorso o la campagna con priorità più elevata ha la precedenza.
+
+Una volta che il percorso o la campagna basati su codice è attiva, il team di implementazione dell&#39;app responsabile di effettuare chiamate API o SDK esplicite per recuperare il contenuto per le superfici definite nella [configurazione esperienza basata su codice](code-based-configuration.md) selezionata. Ulteriori informazioni sulle diverse implementazioni del cliente in [questa sezione](code-based-implementation-samples.md).
 
 ### Publish un percorso basato su codice {#publish-code-based-journey}
 

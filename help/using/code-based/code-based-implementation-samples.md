@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} è incluso nella pagina.
 
-1. È necessario utilizzare il comando `sendEvent` e specificare l&#39;URI di superficie per recuperare il contenuto di personalizzazione.
+1. È necessario utilizzare il comando `sendEvent` e specificare l&#39;[URI di superficie](code-based-configuration.md#surface-definition)<!--( or location/path)--> per recuperare il contenuto di personalizzazione.
 
    ```javascript
    alloy("sendEvent", {
@@ -120,8 +120,8 @@ I cookie vengono utilizzati per rendere persistenti l’identità dell’utente 
 
 | Cookie | Scopo | Archiviato da | Inviato da |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
-| kndctr_AdobeOrg_identity | Contiene i dettagli dell’identità utente | SDK per web | SDK per web |
-| kndctr_AdobeOrg_cluster | Indica quale cluster di Experience Edge deve essere utilizzato per soddisfare le richieste | SDK per web | SDK per web |
+| kndctr_AdobeOrg_identity | Contiene i dettagli dell’identità utente | Web SDK | Web SDK |
+| kndctr_AdobeOrg_cluster | Indica quale cluster di Experience Edge deve essere utilizzato per soddisfare le richieste | Web SDK | Web SDK |
 
 **Posizionamento richiesta**
 

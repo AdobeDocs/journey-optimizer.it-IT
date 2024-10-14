@@ -6,26 +6,20 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 11%
+source-wordcount: '935'
+ht-degree: 10%
 
 ---
 
-# Creare la configurazione del canale Web {#web-configuration}
+# Configurare le esperienze web {#web-configuration}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="Regola di corrispondenza delle pagine"
->abstract="Per gestire e indirizzare in modo efficiente un gruppo di URL che condividono gli stessi criteri, crea una regola di corrispondenza delle pagine. Questa regola consente di consolidare più URL in un’unica linea guida, semplificando l’applicazione di impostazioni e azioni coerenti in queste pagine."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="URL predefinito per authoring e anteprima"
->abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
+## Creare una configurazione del canale web {#create-web-configuration}
 
 Una configurazione web è una proprietà web identificata da un URL in cui il contenuto verrà recapitato. Può corrispondere a un singolo URL di pagina o a più pagine, consentendoti di apportare modifiche in una o più pagine web.
+
+Per creare una configurazione del canale web, segui la procedura riportata di seguito.
 
 1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
 
@@ -37,7 +31,7 @@ Una configurazione web è una proprietà web identificata da un URL in cui il co
    >
    > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
 
 1. Seleziona il canale **Web**.
 
@@ -45,29 +39,57 @@ Una configurazione web è una proprietà web identificata da un URL in cui il co
 
 1. Seleziona **[!UICONTROL Azione di marketing]** per associare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso associati all’azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
 
-1. È possibile immettere un **[!UICONTROL URL pagina]** se si desidera applicare le modifiche solo a una singola pagina.
+1. Nella sezione **[!UICONTROL Impostazioni Web]** selezionare una delle opzioni seguenti:
 
-1. Oppure puoi creare una **[!UICONTROL regola di corrispondenza pagine]** per eseguire il targeting di più URL che corrispondono alla stessa regola, ad esempio, se desideri applicare le modifiche a un banner principale in un intero sito Web o aggiungere un&#39;immagine superiore che viene visualizzata in tutte le pagine di prodotto di un sito Web.
+   * **[!UICONTROL Pagina singola]** - Se desideri applicare le modifiche solo a una pagina singola, immetti un **[!UICONTROL URL pagina]**.
 
-   A tale scopo, selezionare **[!UICONTROL Pagine corrispondenti alla regola]**.
+   * **[!UICONTROL Regola di corrispondenza pagine]** - Per eseguire il targeting di più URL che corrispondono alla stessa regola, crea una regola di corrispondenza pagine e immetti un **[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]**. [Ulteriori informazioni](#web-page-matching-rule)
 
-1. Definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
+1. Fai clic su **[!UICONTROL Invia]** per salvare le modifiche.
+
+Ora puoi selezionare questa configurazione quando utilizzi il canale web nelle campagne o nei percorsi.
+
+## Creare una regola di corrispondenza delle pagine {#web-page-matching-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Creare una regola di corrispondenza delle pagine"
+>abstract="Per gestire e indirizzare in modo efficiente un gruppo di URL che condividono gli stessi criteri, crea una regola di corrispondenza delle pagine. Questa regola consente di consolidare più URL in un’unica linea guida, semplificando l’applicazione di impostazioni e azioni coerenti in queste pagine."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="Definire un URL per l’authoring e l’anteprima dei contenuti"
+>abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
+
+Durante la creazione di una configurazione di [esperienza basata su codice](../code-based/get-started-code-based.md), puoi creare una **[!UICONTROL regola di corrispondenza pagine]** per eseguire il targeting di più URL che corrispondono alla stessa regola. Puoi quindi applicare le stesse modifiche al contenuto in più pagine contemporaneamente.
+
+Ad esempio, puoi applicare le modifiche a un banner principale in un intero sito web, oppure aggiungere un’immagine superiore che viene visualizzata in tutte le pagine di prodotto di un sito web.
+
+1. Durante la configurazione di [web](#web-configuration) o [esperienza basata su codice](../code-based/code-based-configuration.md), seleziona **[!UICONTROL Regola di corrispondenza pagine]**.
+
+1. Definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**. Controlla gli operatori disponibili in [questa sezione](#available-operators).
 
    Ad esempio, se desideri modificare gli elementi visualizzati in tutte le pagine del sito Web Luma relative alle donne, seleziona **[!UICONTROL Dominio]** > **[!UICONTROL Inizia con]** > `luma` e **[!UICONTROL Pagina]** > **[!UICONTROL Contiene]** > `women`.
 
    ![](assets/web_config_3.png)
 
-1. Se hai creato una **[!UICONTROL regola di corrispondenza delle pagine]**, devi immettere l&#39;URL **Predefinito** per l&#39;authoring e l&#39;anteprima. Questo passaggio assicura che le pagine generate o associate dalla regola abbiano un URL designato sia per la creazione di contenuti che per l’anteprima. Ulteriori informazioni sulla regola di corrispondenza delle pagine nella [sezione seguente](#web-page-matching-rule).
+1. Se il caso d’uso non può essere modellato utilizzando una regola, puoi aggiungere più regole. Fai clic su **[!UICONTROL Aggiungi un&#39;altra regola di pagina]** e ripeti il passaggio precedente.
 
-1. Salva le modifiche.
+   >[!NOTE]
+   >
+   >Puoi aggiungere fino a 10 regole.
 
-Ora puoi selezionare la tua configurazione quando utilizzi il canale web in campagne o percorsi.
+1. È possibile utilizzare gli operatori **[!UICONTROL Or]** o **[!UICONTROL Exclude]** tra le diverse regole.
 
-## Regola di corrispondenza pagina {#web-page-matching-rule}
+   **[!UICONTROL Escludi]** è utile quando una delle pagine che corrispondono alla regola definita non deve essere sottoposta a targeting. Ad esempio, è possibile eseguire il targeting di tutte le `luma.com` pagine che contengono `product`, esclusa la seguente pagina: `https://luma.com/blogs/productinfo`.
 
-Quando crei una regola che corrisponde a più pagine in modo da poter applicare le stesse modifiche al contenuto in più pagine contemporaneamente, puoi utilizzare operatori diversi nel **Dominio** e nelle sezioni **Percorso** per generare la regola desiderata. Controlla gli operatori disponibili di seguito.
+   ![](assets/web_config_4.png)
 
-Operatori disponibili per la creazione di regole di corrispondenza delle pagine:
+1. Immetti l&#39;**[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]**. Questo passaggio assicura che le pagine generate o associate dalla regola abbiano un URL designato sia per la creazione di contenuti che per l’anteprima.
+
+### Operatori disponibili per la creazione di regole di corrispondenza delle pagine {#available-operators}
+
+Durante la creazione di una [regola che corrisponde a più pagine](#web-page-matching-rule), è possibile utilizzare operatori diversi nel **[!UICONTROL Dominio]** e nelle sezioni **[!UICONTROL Percorso]** per generare la regola desiderata. Gli operatori disponibili sono elencati di seguito.
 
 * **Dominio**
 
@@ -123,5 +145,3 @@ Operatori disponibili per la creazione di regole di corrispondenza delle pagine:
     </tr>
     </tbody>
 </table>
-
-Se il caso d’uso non può essere modellato utilizzando una regola, puoi aggiungere più regole di pagina e utilizzare gli operatori &quot;Or&quot; o &quot;Exclude&quot; tra di esse. &#39;Escludi&#39; è utile quando una delle pagine che corrispondono alla regola definita non deve essere mirata: ad esempio, tutte le pagine &quot;example.com&quot; che contengono &quot;product&quot;, esclusa la pagina seguente: `https://example.com/blogs/productinfo`.
