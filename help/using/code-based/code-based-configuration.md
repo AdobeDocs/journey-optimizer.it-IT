@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 30%
 
 ---
@@ -104,7 +104,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 1. Per l’URL di anteprima vale quanto segue:
 
    * Se viene immesso un URL di una singola pagina, questo verrà utilizzato per l’anteprima e non è necessario immettere un altro URL.
-   * Se è selezionata una [regola corrispondente alle pagine](../web/web-configuration.md#web-page-matching-rule), devi immettere un **[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]** che verrà utilizzato per visualizzare l&#39;anteprima dell&#39;esperienza nel browser.
+   * Se è selezionata una [regola corrispondente alle pagine](../web/web-configuration.md#web-page-matching-rule), devi immettere un **[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]** che verrà utilizzato per visualizzare l&#39;anteprima dell&#39;esperienza nel browser. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,9 +132,9 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    ![](assets/code_config_3.png){width="500"}
 
-1. Compila il campo **[!UICONTROL URL anteprima]** per abilitare le anteprime su dispositivo. Questo URL informa il servizio di anteprima dell&#39;URL specifico da utilizzare quando si attiva un&#39;anteprima<!--on device. Learn more-->.
+1. Compila il campo **[!UICONTROL URL anteprima]** per abilitare le anteprime su dispositivo. Questo URL informa il servizio di anteprima dell’URL specifico da utilizzare quando si attiva l’anteprima sul dispositivo. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
 
-   L’URL di anteprima è un collegamento profondo configurato dallo sviluppatore dell’app all’interno dell’app. In questo modo, gli URL che corrispondono allo schema di collegamento profondo si apriranno all’interno dell’app anziché in un browser web per dispositivi mobili. Contatta il tuo sviluppatore di app per ottenere lo schema di collegamento profondo configurato per la tua app.
+   L&#39;URL di anteprima è un collegamento profondo configurato dallo sviluppatore dell&#39;app all&#39;interno dell&#39;app. In questo modo, gli URL che corrispondono allo schema di collegamento profondo si apriranno all’interno dell’app anziché in un browser web per dispositivi mobili. Contatta il tuo sviluppatore di app per ottenere lo schema di collegamento profondo configurato per la tua app.
 
 +++  Le seguenti risorse possono essere utili per configurare collegamenti profondi per l’implementazione dell’app
 

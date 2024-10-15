@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
+source-wordcount: '5667'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La pagina **Crea configurazione canale Web** è stata aggiornata per chiarire i passaggi durante la creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell&#39;esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
 * È stata aggiunta una nota sul prossimo guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)
 
+
+* È stata aggiunta una nuova sezione che descrive come visualizzare in anteprima le esperienze personalizzate basate su codice direttamente sul browser o sui dispositivi mobili, utilizzando l’opzione Anteprima sul dispositivo durante la simulazione di contenuti in un percorso o in una campagna. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
 
 ## Settembre 2024 {#sept-2024}
 

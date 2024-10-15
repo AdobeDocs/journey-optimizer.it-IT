@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '196'
+ht-degree: 5%
 
 ---
 
-# Anteprima del contenuto {#preview}
+# Verifica il contenuto {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 Una volta selezionati i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto. Segui i passaggi seguenti:
 
@@ -37,3 +39,8 @@ Una volta selezionati i [profili di test](test-profiles.md), puoi visualizzare l
    ![](../email/assets/preview-test-profile.png)
 
 1. Seleziona altri profili di test per visualizzare in anteprima il messaggio e-mail per ogni variante del messaggio.
+
+>[!NOTE]
+>
+>Quando crei esperienze basate su codice, puoi visualizzare in anteprima i contenuti personalizzati direttamente sul browser o sui dispositivi mobili, per una simulazione reale. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
+

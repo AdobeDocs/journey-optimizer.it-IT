@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 10%
+source-wordcount: '1729'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    Puoi anche salvare parte del contenuto del codice come frammento. [Scopri come](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Con esperienze basate su codice, puoi utilizzare la funzione experience decisioning. Seleziona l&#39;icona **[!UICONTROL Criterio decisione]** dalla barra a sinistra e fai clic su **[!UICONTROL Aggiungi criterio decisione]**. [Ulteriori informazioni](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. Con esperienze basate su codice, puoi utilizzare la funzione experience decisioning. Seleziona l&#39;icona **[!UICONTROL Criterio decisione]** dalla barra a sinistra e fai clic su **[!UICONTROL Aggiungi criterio decisione]**. [Ulteriori informazioni](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 >title="Visualizzare l’esperienza basata su codice in anteprima"
 >abstract="Ottieni una simulazione dell’aspetto che avrà l’esperienza basata su codice."
 
-Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella [Anteprima e verifica della pagina del contenuto](../content-management/preview-test.md).
+Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito.
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 
 1. Viene visualizzata un’anteprima dell’esperienza basata su codice modificata.
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili in [questa sezione](../content-management/preview.md).
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### Anteprima sul dispositivo {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="Visualizzare in anteprima l’esperienza basata su codice su un dispositivo reale"
+>abstract="Visualizza un’anteprima delle tue esperienze personalizzate direttamente sul browser o sui dispositivi mobili, per visualizzarne l’aspetto su dispositivi reali."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="Anteprima dell’esperienza web basata su codice sul dispositivo"
+>abstract="Esegui la scansione del codice QR o copia il collegamento per visualizzarne l’anteprima sul dispositivo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="Anteprima dell’esperienza mobile basata su codice sul dispositivo"
+>abstract="Esegui la scansione del codice QR o copia il collegamento per visualizzarne l’anteprima sul dispositivo. Una volta collegato, inserire il pin sul dispositivo. Per visualizzare le modifiche apportate a ogni aggiornamento dei collegamenti di anteprima, potrebbe essere necessario riavviare l&#39;app."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="Aggiorna il collegamento di anteprima per riflettere la visualizzazione corrente"
+>abstract="L’anteprima sul dispositivo mostrerà il contenuto al momento della creazione o dell’aggiornamento del collegamento di anteprima. Se hai modificato il contenuto o selezionato un profilo di test o un trattamento diverso, aggiorna l’anteprima in modo che rifletta la vista corrente."
+
+Quando crei esperienze basate su codice per pagine web o app mobili, puoi visualizzare in anteprima le tue esperienze personalizzate direttamente sul browser o sui dispositivi mobili, per vedere come si presentano su dispositivi reali.
+
+>[!WARNING]
+>
+>Anteprima sul dispositivo non disponibile quando si utilizzano [criteri di decisione](../experience-decisioning/create-decision.md) o [personalizzazione](../personalization/personalization-build-expressions.md) attributi contestuali.
+
+1. Dalla schermata **[!UICONTROL Simula]**, fai clic sul pulsante **[!UICONTROL Apri opzioni di anteprima]**. Le opzioni di anteprima dipendono dalla piattaforma selezionata nella [configurazione basata su codice](code-based-configuration.md#create-code-based-configuration).
+
+1. Se si utilizza una [piattaforma Web](code-based-configuration.md#web) nella configurazione basata su codice, il campo di sola lettura **[!UICONTROL URL anteprima dispositivo]** contiene l&#39;URL immesso per la configurazione del canale corrente.
+
+   ![](assets/preview-on-device-web.png)
+
+   Puoi effettuare le seguenti operazioni:
+
+   * Seleziona il pulsante **[!UICONTROL Copia collegamento]** e incolla il collegamento in una scheda del browser. Puoi anche condividere il collegamento con il tuo team e le parti interessate, che possono visualizzare in anteprima la nuova esperienza in qualsiasi browser prima che le modifiche vengano pubblicate.
+
+   * Fai clic su **[!UICONTROL Apri in una nuova scheda]** per aprire il collegamento nel browser corrente.
+
+   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima su un browser mobile.
+
+1. Se utilizzi [Piattaforme mobili](code-based-configuration.md#mobile) (iOS / Android) nella configurazione basata su codice, il campo **[!UICONTROL Deeplink]** di sola lettura è precompilato con il valore **[!UICONTROL URL anteprima]** immesso nella configurazione del canale per la piattaforma selezionata.
+
+   Passa dalle schede **[!UICONTROL iOS]** alle schede **[!DNL Android]** per visualizzare in anteprima la tua esperienza per la piattaforma che preferisci.
+
+   ![](assets/preview-on-device-mobile.png)
+
+   Puoi effettuare le seguenti operazioni:
+
+   * Seleziona il pulsante **[!UICONTROL Copia collegamento]** e condividi il collegamento con il tuo team e le parti interessate, che possono visualizzare in anteprima la nuova esperienza in qualsiasi browser mobile prima che le modifiche vengano pubblicate.
+
+   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima direttamente nell’app mobile. Per stabilire la sessione [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} è necessario immettere il PIN sul dispositivo.
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance** è un prodotto di Adobe Experience Cloud che consente di verificare, verificare, simulare e convalidare le modalità di raccolta dei dati o di gestione delle esperienze nell&#39;app mobile. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/home){target="_blank"}
+
+1. Vengono generati collegamenti di anteprima per il profilo di test selezionato e, se utilizzi [Esperimento contenuti](../content-management/content-experiment.md) nel tuo percorso o campagna, per il trattamento selezionato.
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   Quando selezioni un profilo di test o un trattamento diverso, il collegamento di anteprima cambia e puoi avere un collegamento per ciascun profilo di test e/o trattamento e confrontare le esperienze.
 
 ## Rendi attiva l’esperienza basata su codice {#code-based-experience-live}
 
@@ -168,7 +231,7 @@ Puoi anche visualizzare in anteprima il contenuto dell’esperienza basata su co
 >
 >Se più percorsi o campagne basati su codice aggiornano gli stessi elementi del contenuto, il percorso o la campagna con priorità più elevata ha la precedenza.
 
-Una volta che il percorso o la campagna basati su codice è attiva, il team di implementazione dell&#39;app responsabile di effettuare chiamate API o SDK esplicite per recuperare il contenuto per le superfici definite nella [configurazione esperienza basata su codice](code-based-configuration.md) selezionata. Ulteriori informazioni sulle diverse implementazioni del cliente in [questa sezione](code-based-implementation-samples.md).
+Una volta che il percorso o la campagna basati su codice è attiva, il team di implementazione dell&#39;app è responsabile di effettuare chiamate API o SDK esplicite per recuperare il contenuto per le superfici definite nella [configurazione esperienza basata su codice](code-based-configuration.md) selezionata. Ulteriori informazioni sulle diverse implementazioni del cliente in [questa sezione](code-based-implementation-samples.md).
 
 ### Publish un percorso basato su codice {#publish-code-based-journey}
 
