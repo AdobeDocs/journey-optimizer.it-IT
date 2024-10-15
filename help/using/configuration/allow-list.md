@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -140,7 +140,7 @@ Per farlo, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo **[!UICONTROL Reason]**. L&#39;elenco completo è disponibile su [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} di esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo **[!UICONTROL Reason]**. L&#39;elenco completo è disponibile su [questa pagina](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"} di esempio.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
