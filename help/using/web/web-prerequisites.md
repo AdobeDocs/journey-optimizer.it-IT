@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 6%
@@ -19,7 +19,7 @@ Per poter accedere e creare pagine Web nell&#39;interfaccia utente [!DNL Journey
 
 * Per aggiungere modifiche al sito web, devi disporre di un’implementazione specifica. [Ulteriori informazioni](#implementation-prerequisites)
 
-* Per accedere al Web Designer [!DNL Journey Optimizer], è necessario che sia installata un&#39;estensione del browser Google Chrome specifica. [Ulteriori informazioni](#visual-authoring-prerequesites)
+* Per accedere al Web Designer [!DNL Journey Optimizer], è necessario che sia installata un&#39;estensione del browser Google Chrome specifica. [Ulteriori informazioni](#visual-authoring-prerequisites)
 
 * Affinché l&#39;esperienza Web venga distribuita correttamente, assicurati di definire le impostazioni Adobe Experience Platform dettagliate [qui](#delivery-prerequisites).
 
