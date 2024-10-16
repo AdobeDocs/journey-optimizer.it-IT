@@ -2,16 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Reporting di una nuova interfaccia
-description: Introduzione alla nuova interfaccia di reporting
+description: Introduzione al rapporto CJA
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '357'
 ht-degree: 15%
 
 ---
@@ -30,7 +29,7 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
   ![](assets/gs-cja-report-3.png)
 
-* Se desideri eseguire il targeting di una campagna, dal menu **[!UICONTROL Campagne]**, accedi alla campagna e fai clic sul pulsante **[!UICONTROL Rapporti]**.
+* Se desideri eseguire il targeting di una campagna, dal menu **[!UICONTROL Campagne]**, accedi alla tua campagna e fai clic sul pulsante **[!UICONTROL Rapporti]**, quindi **[!UICONTROL Visualizza il report completo]**.
 
   Dall&#39;elenco delle campagne esistenti, puoi anche selezionare **[!UICONTROL Report]** dal menu avanzato della campagna selezionata. [Ulteriori informazioni sul report della campagna](campaign-global-report-cja.md)
 
@@ -39,10 +38,6 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 * Se desideri eseguire il targeting delle metriche per tutte le campagne e i percorsi all&#39;interno dell&#39;ambiente, accedi al report **Panoramica** dal menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Gestione dei Percorsi]**. [Ulteriori informazioni sul rapporto Panoramica](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
-
->[!NOTE]
->
-> Per ripristinare i report tradizionali di Journey Optimizer, è sufficiente attivare/disattivare l&#39;opzione **[!UICONTROL Usa nuova esperienza]**.
 
 ## Prerequisiti {#prerequisites}
 
@@ -57,10 +52,6 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
    * **[!UICONTROL Gestione dei profili]** - Autorizzazione per Adobe Journey Optimizer. [Ulteriori informazioni](../administration/permissions.md)
 
 * Le visualizzazioni dati di Customer Journey Analytics devono essere configurate con l&#39;impostazione seguente: **Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer**. [Ulteriori informazioni sulle visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* Per accedere al dashboard di Customer Journey Analytics in Journey Optimizer, abilita l&#39;interruttore **[!UICONTROL Usa nuova esperienza]** nel report.
-
-  ![](assets/cja-option.png)
 
 ## Video introduttivo{#video}
 

@@ -8,33 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
 
 # Introduzione ai rapporti live {#live-report}
 
->[!AVAILABILITY]
->
->L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
-
 Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata.
 I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**.
 
-* Se desideri eseguire il targeting di un percorso nel contesto di un percorso, dal menu **[!UICONTROL Percorsi]**, accedi al percorso e fai clic sul pulsante **[!UICONTROL Visualizza rapporto]**.
+* Se desideri eseguire il targeting di un percorso nel contesto di un percorso, dal menu **[!UICONTROL Percorsi]**, accedi al menu **[!UICONTROL Altre azioni]** del tuo percorso e fai clic sul pulsante **[!UICONTROL Visualizza report delle ultime 24 ore]**.
 
   ![](assets/report_journey.png)
 
-* Se desideri eseguire il targeting di una campagna, dal menu **[!UICONTROL Campagne]**, accedi alla campagna e fai clic sul pulsante **[!UICONTROL Rapporti]**.
+* Se desideri eseguire il targeting di una campagna, dal menu **[!UICONTROL Campagne]**, accedi alla campagna e fai clic sul pulsante **[!UICONTROL Rapporti]**, quindi **[!UICONTROL Visualizza il report delle ultime 24 ore]**.
 
   ![](assets/report_campaign.png)
-
-* Se desideri passare dal **[!UICONTROL Global report]** al **[!UICONTROL Live report]** per la consegna, fai clic su **[!UICONTROL Ultime 24 ore]** nel cambio scheda.
-
-  ![](assets/report_3.png)
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](#list-of-components-live).
 
@@ -96,7 +88,7 @@ Il report è ora disponibile per la visualizzazione o la condivisione in un file
 
    ![](assets/export_4.png)
 
-1. Puoi anche scegliere di esportare i dati da un widget specifico. Fai clic su **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
+1. Puoi anche scegliere di esportare i dati da un widget specifico. Fai clic su **[!UICONTROL Scarica file CSV]** accanto al widget selezionato.
 
    ![](assets/export_5.png)
 
