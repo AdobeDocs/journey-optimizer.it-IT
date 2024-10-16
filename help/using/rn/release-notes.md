@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
+source-git-commit: ac2e0eb18e21c79ba44a76eb6bd1258eccaaa10c
 workflow-type: tm+mt
 source-wordcount: '1496'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -63,6 +63,12 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 </tr>
 </tbody>
 </table>
+
+>[!IMPORTANT]
+>
+>L’esperienza di reporting corrente verrà ritirata a gennaio 2025. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione semplice.
+>
+> [Scopri come iniziare a utilizzare la nuova interfaccia di reporting di Journey Optimizer](../reports/report-gs-cja.md)
 
 ### Miglioramenti {#24-10-improvements}
 
@@ -207,12 +213,6 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione semplice.
->
-> [Scopri come iniziare a utilizzare la nuova interfaccia di reporting di Journey Optimizer](../reports/report-gs-cja.md)
 
 
 ### Miglioramenti {#24-9-improvements}
