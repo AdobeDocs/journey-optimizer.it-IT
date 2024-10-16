@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 14%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 12%
 >title="Rapporto live delle pagine di destinazione"
 >abstract="Il rapporto globale delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
->[!AVAILABILITY]
->
->L’esperienza di reporting corrente verrà ritirata a partire dalla versione di ottobre. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
-
-I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
+I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti di Customer Journey Analytics si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
 Per accedere ai tuoi report, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
 

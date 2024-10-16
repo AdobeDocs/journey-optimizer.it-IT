@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 99%
@@ -306,9 +306,9 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Generazione rapporti**
 
-* La tabella e il grafico dei criteri di consenso sono ora disponibili nei rapporti globali del Percorso. Questi widget consentono di tenere traccia dei profili esclusi dai criteri nelle azioni personalizzate. [Ulteriori informazioni](../reports/journey-global-report.md#journey-global)
+* La tabella e il grafico dei criteri di consenso sono ora disponibili nei rapporti globali del Percorso. Questi widget consentono di tenere traccia dei profili esclusi dai criteri nelle azioni personalizzate. [Ulteriori informazioni](../reports/journey-global-report-cja.md#journey-global)
 
-  Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/global-report.md).
+  Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/report-gs-cja.md).
 
 **Amministrazione**
 

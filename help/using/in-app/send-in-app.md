@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 17%
@@ -64,11 +64,11 @@ Per farlo, segui la procedura indicata di seguito:
 
 La campagna è ora attivata. La notifica in-app configurata nella campagna viene inviata immediatamente o alla data specificata.
 
-Una volta inviati, puoi misurare l’impatto dei messaggi in-app nei rapporti della campagna o del Percorso. Per ulteriori informazioni sul reporting, consulta [questa sezione](../reports/campaign-global-report.md#inapp-report).
+Una volta inviati, puoi misurare l’impatto dei messaggi in-app nei rapporti della campagna o del Percorso. Per ulteriori informazioni sul reporting, consulta [questa sezione](../reports/campaign-global-report-cja-inapp.md).
 
 **Argomenti correlati:**
 
 * [Creare un messaggio in-app](create-in-app.md)
 * [Progettare un messaggio in-app](design-in-app.md)
-* [Rapporto in-app](../reports/campaign-global-report.md#inapp-report)
+* [Rapporto in-app](../reports/campaign-global-report-cja-inapp.md)
 * [Configurazione in-app](inapp-configuration.md)

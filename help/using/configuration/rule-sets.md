@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 29%
+source-wordcount: '1595'
+ht-degree: 27%
 
 ---
 
@@ -230,7 +230,7 @@ Per applicare una regola aziendale a un messaggio, segui i passaggi riportati qu
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto globale](../reports/global-report.md) e in [Rapporto live](../reports/live-report.md), in cui le regole di frequenza saranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
+1. Puoi visualizzare il numero di profili esclusi dalla consegna nel [rapporto Customer Journey Analytics](../reports/report-gs-cja.md) e nel [rapporto live](../reports/live-report.md), dove le regole di frequenza verranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
 
 >[!NOTE]
 >

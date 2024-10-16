@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1715'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ Nell&#39;elenco **[!UICONTROL Pagine di destinazione]** vengono visualizzati tut
 
 ![](assets/lp_access-list-filter.png)
 
-Da questo elenco, puoi accedere al [rapporto live pagina di destinazione](../reports/lp-report-live.md) o al [rapporto globale pagina di destinazione](../reports/lp-report-global.md) per gli elementi pubblicati.
+Da questo elenco, puoi accedere al [report Live](../reports/lp-report-live.md) o [report Pagina di destinazione](../reports/lp-report-global-cja.md) per gli elementi pubblicati.
 
 Puoi anche eliminare, duplicare e annullare la pubblicazione di una pagina di destinazione.
 

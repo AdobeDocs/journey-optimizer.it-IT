@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '288'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ## Controlla i report web {#check-web-reports}
 
-Una volta che la tua esperienza Web è attiva, puoi controllare la scheda **[!UICONTROL Web]** del [rapporto Percorso](../reports/journey-global-report-cja.md#web-cja) e del [rapporto campagna](../reports/campaign-global-report-cja.md#web) per confrontare elementi quali il numero di impression, il tasso di clic e il numero di impegni con la pagina Web.
+Una volta che la tua esperienza Web è attiva, puoi controllare la scheda **[!UICONTROL Web]** del [rapporto Percorso](../reports/journey-global-report-cja-web.md) e del [rapporto campagna](../reports/campaign-global-report-cja-web.md) per confrontare elementi quali il numero di impression, il tasso di clic e il numero di impegni con la pagina Web.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report.md#web-tab).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Per migliorare ulteriormente il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Questo consente di visualizzare il numero di clic su tale elemento nei rapporti web. [Scopri come](#use-click-tracing)
 
@@ -27,7 +27,7 @@ Per migliorare ulteriormente il monitoraggio dell’esperienza web, puoi anche t
 
 Il web designer consente di selezionare qualsiasi elemento del sito web e di tenere traccia dei clic su di esso.
 
-Queste informazioni possono essere utili per migliorare l’esperienza degli utenti del sito web. Ad esempio, se i [report Web](../reports/campaign-global-report.md#web-tab) mostrano che molti utenti fanno clic su un elemento che non è effettivamente cliccabile, è possibile aggiungere un collegamento a tale elemento.
+Queste informazioni possono essere utili per migliorare l’esperienza degli utenti del sito web. Ad esempio, se i [report Web](../reports/campaign-global-report-cja-web.md) mostrano che molti utenti fanno clic su un elemento che non è effettivamente cliccabile, è possibile aggiungere un collegamento a tale elemento.
 
 1. Seleziona un elemento nella pagina e scegli **[!UICONTROL Seleziona l&#39;elemento di tracciamento]** dal menu contestuale.
 
@@ -49,4 +49,4 @@ Queste informazioni possono essere utili per migliorare l’esperienza degli ute
 
 1. Per rimuovere il tracciamento dei clic su un elemento, seleziona l’icona di eliminazione corrispondente.
 
-Una volta che la campagna è attiva, puoi controllare il numero di clic per ogni elemento nel web della campagna [rapporto live](../reports/campaign-live-report.md#web-tab) e nel [rapporto globale](../reports/campaign-global-report.md#web-tab).
+Una volta che la campagna è attiva, puoi controllare il numero di clic per ogni elemento nel [report live](../reports/campaign-live-report.md#web-tab) e nel [report Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) sul Web della campagna.

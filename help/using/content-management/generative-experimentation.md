@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 8%
@@ -52,4 +52,4 @@ Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assiste
 
 1. Prima di avviare la campagna, verifica che tutte le configurazioni siano corrette, quindi fai clic su **[!UICONTROL Attiva]**.
 
-Dopo aver configurato e personalizzato correttamente la campagna, puoi tracciare la campagna nel rapporto della campagna. [Ulteriori informazioni](../reports/campaign-global-report.md)
+Dopo aver configurato e personalizzato correttamente la campagna, puoi tracciare la campagna nel rapporto della campagna. [Ulteriori informazioni](../reports/campaign-global-report-cja.md)

@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 <td>
 <p>Sono disponibili nuove metriche nel reporting: le opzioni Destinati ed Esclusi per e-mail e messaggi push sono visibili sia nei rapporti live che globali. </br> Per poter accedere alle metriche più recenti, è necessario reimpostare le diverse dashboard di generazione rapporti per ogni canale e tipo di reporting. Per ulteriori informazioni sulla personalizzazione della dashboard, consulta la <a href="../reports/live-report.md">documentazione dettagliata.</a></p>
 <p>Una nuova colonna nell’elenco di esecuzione dei messaggi mostra il numero di profili target per ogni esecuzione di messaggio. </p>
-<p>Per ulteriori informazioni, consulta la <a href="../reports/global-report.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../reports/report-gs-cja.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

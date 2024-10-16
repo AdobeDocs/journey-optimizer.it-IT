@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 1. I payload push personalizzati vengono inoltrati a un servizio di consegna di messaggi push interno
 1. Questo servizio interno convalida quindi le credenziali dell’app associata al messaggio, e
 1. Invia il messaggio ai servizi di messaggistica di Apple e Google per la consegna finale
-1. I feedback dai servizi di messaggistica vengono annotati, gli errori e i successi vengono registrati per la generazione di rapporti nel Percorso Live &amp; Global
+1. I feedback dai servizi di messaggistica vengono annotati, gli errori e i successi vengono registrati per la generazione di rapporti nel rapporto Percorsi Live &amp; Customer Journey Analytics
 1. Le notifiche push vengono inviate ai dispositivi dell’utente finale
 1. Le interazioni delle notifiche push per l’utente finale vengono inviate come eventi esperienza dal client dell’utente finale tramite l’integrazione SDK
 
@@ -75,7 +75,7 @@ La figura seguente mostra i vari passaggi, end-to-end, coinvolti nella configura
 **Argomenti correlati**
 
 * [Configurare il canale push](push-configuration.md)
-* [Rapporto notifiche push](../reports/journey-global-report.md#push-global)
+* [Rapporto notifiche push](../reports/journey-global-report-cja-push.md)
 * [Creare una notifica push](create-push.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
 * [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)

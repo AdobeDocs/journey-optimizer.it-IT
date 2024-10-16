@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1055'
 ht-degree: 37%
 
 ---
@@ -160,7 +160,7 @@ Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo questo ri
    * **[!UICONTROL Pagina mirror]**: considera questo URL come un URL della pagina mirror.
    * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL.
 
-Il reporting sulle aperture e sui clic è disponibile nel [Live report](../reports/live-report.md) e nel [Global report](../reports/global-report.md).
+Il reporting sulle aperture e sui clic è disponibile nel [rapporto live](../reports/live-report.md) e nel [rapporto Customer Journey Analytics](../reports/report-gs-cja.md).
 
 ## Personalizzare il tracciamento URL {#url-tracking}
 

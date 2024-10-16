@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 13%
+source-wordcount: '734'
+ht-degree: 12%
 
 ---
 
@@ -45,10 +45,6 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 ## Creare i contenuti {#campaign-experiment}
 
 1. Inizia creando e configurando la tua notifica e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
-
-   >[!AVAILABILITY]
-   >
-   >La sperimentazione in Percorso è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 1. Dalla finestra **[!UICONTROL Modifica contenuto]**, inizia a personalizzare il trattamento A.
 
@@ -128,4 +124,4 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
 1. Una volta definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering della consegna e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
-Dopo aver configurato la sperimentazione, puoi seguire il successo della consegna con il tuo rapporto. [Ulteriori informazioni](../reports/campaign-global-report.md#experimentation-report)
+Dopo aver configurato la sperimentazione, puoi seguire il successo della consegna con il tuo rapporto. [Ulteriori informazioni](../reports/campaign-global-report-cja-experimentation.md)

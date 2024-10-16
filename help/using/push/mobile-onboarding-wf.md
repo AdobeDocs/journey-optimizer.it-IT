@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -75,5 +75,5 @@ La configurazione automatica è completata. Ora puoi visitare la proprietà mobi
 * [Introduzione alle notifiche push](get-started-push.md)
 * [Flusso di dati e componenti delle notifiche push](push-gs.md)
 * [Configurare il canale push](push-configuration.md)
-* [Rapporto notifiche push](../reports/journey-global-report.md#push-global)
+* [Rapporto notifiche push](../reports/journey-global-report-cja-push.md#push-global)
 * [Creare una notifica push](create-push.md)

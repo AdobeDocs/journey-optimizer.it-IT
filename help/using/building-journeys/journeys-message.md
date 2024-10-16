@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 19%
@@ -190,7 +190,7 @@ Puoi visualizzare il punteggio complessivo nell&#39;interfaccia **Profili**. Per
 
 +++Quali rapporti sono disponibili?
 
-Accedi al tuo percorso, fai clic sul pulsante **Visualizza rapporto** in alto a destra e seleziona la scheda **Percorso** a sinistra. [Ulteriori informazioni](../reports/journey-global-report.md)
+Accedi al tuo percorso, fai clic sul pulsante **Visualizza rapporto** in alto a destra e seleziona la scheda **Percorso** a sinistra. [Ulteriori informazioni](../reports/journey-global-report-cja.md)
 
 +++
 

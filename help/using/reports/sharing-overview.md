@@ -8,16 +8,16 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
 
 # Creare rapporti sul percorso {#design-jo-reports}
 
-Oltre ai [rapporti in tempo reale](live-report.md) e alle [funzionalità di reporting globale](global-report.md) integrate, [!DNL Journey Optimizer] può inviare automaticamente i dati sulle prestazioni del percorso a Adobe Experience Platform in modo che possano essere combinati con altri dati a scopo di analisi.
+Oltre ai [rapporti in tempo reale](live-report.md) e alle [funzionalità di reporting](report-gs-cja.md) integrate, [!DNL Journey Optimizer] può inviare automaticamente i dati sulle prestazioni del percorso a Adobe Experience Platform in modo che possano essere combinati con altri dati a scopo di analisi.
 
 >[!NOTE]
 >
