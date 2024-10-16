@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [Rapporto live della campagna](using/reports/campaign-live-report.md)
       + [Rapporto live delle pagine di destinazione](using/reports/lp-report-live.md)
       + [Rapporto live dell’elenco iscrizioni](using/reports/subscription-report-live.md)
-   + Rapporto globale {#global-report}
-      + [Introduzione ai rapporti globali](using/reports/global-report.md)
-      + [Elenco dei componenti](using/reports/global-report-components.md)
-      + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
-      + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
-      + [Rapporto delle finalità](using/reports/objective-report.md)
-      + [Rapporto globale delle pagine di destinazione](using/reports/lp-report-global.md)
-      + [Rapporto globale dell’elenco iscrizioni](using/reports/subscription-report-global.md)
-   + Rapporti sul canale {#channel-report}
-      + [Introduzione ai rapporti sul canale](using/reports/channel-report-gs.md)
-      + [Rapporti sul canale](using/reports/channel-report.md)
+   + Report Customer Journey Analytics{#channel-report}
+      + [Introduzione ai rapporti sui Customer Journey Analytics](using/reports/report-gs-cja.md)
+      + [Configura manualmente il Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [Gestire i rapporti](using/reports/report-cja-manage.md)
+      + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)
+      + Rapporti campagna{#reporting}
+         + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
+         + [Report campagna basata su codice](using/reports/campaign-global-report-cja-code.md)
+         + [Report campagna scheda contenuti](using/reports/campaign-global-report-cja-content.md)
+         + [Rapporto sulle campagne Direct mail](using/reports/campaign-global-report-cja-direct.md)
+         + [Rapporto sulla campagna e-mail](using/reports/campaign-global-report-cja-email.md)
+         + [Rapporto sulla campagna di sperimentazione](using/reports/campaign-global-report-cja-experimentation.md)
+         + [Rapporto campagna in-app](using/reports/campaign-global-report-cja-inapp.md)
+         + [Rapporto campagna notifiche push](using/reports/campaign-global-report-cja-push.md)
+         + [Rapporto sulla campagna SMS](using/reports/campaign-global-report-cja-sms.md)
+         + [Rapporto campagna web](using/reports/campaign-global-report-cja-web.md)
+      + Report percorso{#reporting}
+         + [Rapporto percorso](using/reports/journey-global-report-cja.md)
+         + [Report percorso basato su codice](using/reports/journey-global-report-cja-code.md)
+         + [Report percorso schede di contenuto](using/reports/journey-global-report-cja-content.md)
+         + [Report percorso direct mail](using/reports/journey-global-report-cja-direct.md)
+         + [Rapporto percorso e-mail](using/reports/journey-global-report-cja-email.md)
+         + [Rapporto percorso in-app](using/reports/journey-global-report-cja-inapp.md)
+         + [Rapporto percorso push](using/reports/journey-global-report-cja-push.md)
+         + [Rapporto percorso SMS](using/reports/journey-global-report-cja-sms.md)
+         + [Rapporto percorso web](using/reports/journey-global-report-cja-web.md)
+      + [Rapporto panoramica](using/reports/channel-report-cja.md)
+      + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
+      + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
+   + Dashboard di generazione rapporti precedente {#reports}
+      + Rapporto globale {#global-report}
+         + [Introduzione ai rapporti globali](using/reports/global-report.md)
+         + [Elenco dei componenti](using/reports/global-report-components.md)
+         + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
+         + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
+         + [Rapporto delle finalità](using/reports/objective-report.md)
+         + [Rapporto globale delle pagine di destinazione](using/reports/lp-report-global.md)
+         + [Rapporto globale dell’elenco iscrizioni](using/reports/subscription-report-global.md)
+      + Rapporti sul canale {#channel-report}
+         + [Introduzione ai rapporti sul canale](using/reports/channel-report-gs.md)
+         + [Rapporti sul canale](using/reports/channel-report.md)
    + Rapporti sul percorso {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
       + [Nuovo requisito DMARC](using/configuration/dmarc-record-update.md)
    + [Avvisi](using/reports/alerts.md)
-   + [Utilizzare Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivi di esclusione](using/reports/exclusion-list.md)
-+ Nuova interfaccia di reporting (LA){#channel-report}
-   + [Introduzione alla nuova interfaccia di reporting](using/reports/report-gs-cja.md)
-   + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)
-   + [Gestire i rapporti](using/reports/report-cja-manage.md)
-   + [Rapporto percorso](using/reports/journey-global-report-cja.md)
-   + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
-   + [Rapporto panoramica](using/reports/channel-report-cja.md)
-   + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
-   + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
 + Decisioning {#decisioning}
    + Gestione delle decisioni {#offer-decisioning}
       + Introduzione alla gestione delle decisioni {#get-started-decision}
