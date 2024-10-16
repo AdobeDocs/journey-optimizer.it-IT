@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,13 +81,19 @@ Se recentemente sei passato a un altro provider di servizi e-mail, indirizzo IP 
 
 ## Implementazione DMARC {#dmarc}
 
-Per ridurre il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e per evitare problemi di recapito, [!DNL Journey Optimizer] consente di impostare un record DMARC per tutti i sottodomini a cui si delega l&#39;Adobe.
+Per ridurre il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e per evitare problemi di recapito messaggi, [!DNL Journey Optimizer] consente di impostare il record DMARC per tutti i sottodomini a cui deleghi Adobe.
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio dall&#39;uso non autorizzato da parte di utenti malintenzionati.
 
 [Ulteriori informazioni sul record DMARC](../configuration/dmarc-record.md)
 
 ## Scopri i cicli di feedback {#feedback-loops}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_subdomain_list"
+>title="Alcuni sottodomini potrebbero non essere disponibili"
+>abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completato, puoi scegliere tra tutti i sottodomini disponibili."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
 
 Un feedback loop (FBL) è un servizio offerto da alcuni ISP che consente al mittente dell’e-mail di ricevere automaticamente una notifica quando l’utente che riceve un’e-mail sceglie di contrassegnarla come spam (noto anche come &quot;reclamo&quot;).
 

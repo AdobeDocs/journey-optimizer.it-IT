@@ -10,10 +10,10 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 badge: label="Disponibilità limitata"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,12 +36,6 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail
 >id="ajo_surface_dynamic_subdomain"
 >title="Abilita i sottodomini dinamici"
 >abstract="Quando crei una configurazione e-mail, puoi impostare sottodomini dinamici in base alle condizioni da te definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="Alcuni sottodomini potrebbero non essere disponibili"
->abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completato, puoi scegliere tra tutti i sottodomini disponibili."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
 
 Durante la creazione di una configurazione e-mail, puoi impostare sottodomini dinamici in base a condizioni specifiche.
 

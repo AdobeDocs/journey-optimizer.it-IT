@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1145'
 ht-degree: 16%
 
 ---
@@ -201,7 +201,7 @@ Quando l&#39;elenco Consentiti è [attivo](#enable-allow-list), si applica la lo
 >
 >I profili con stato **[!UICONTROL Non consentito]** sono esclusi durante il processo di invio dei messaggi. Pertanto, mentre nei **report Percorso** questi profili vengono visualizzati come spostati nel percorso ([Attività Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journeys-message.md)), i **report e-mail** non li includono nelle metriche **[!UICONTROL Inviati]** in quanto vengono filtrati prima dell&#39;invio di e-mail.
 >
->Ulteriori informazioni su [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).
+>Ulteriori informazioni sul [report live](../reports/live-report.md) e sul [report Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte le e-mail che invii dalla sandbox corrente vengono inviate a tutti i destinatari (purché non siano inclusi nell&#39;elenco di soppressione), inclusi gli indirizzi dei clienti reali.
 
