@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5667'
+source-wordcount: '5672'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,8 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La pagina **Configurare l&#39;esperienza basata su codice** è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega cos&#39;è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
 * La pagina **Crea configurazione canale Web** è stata aggiornata per chiarire i passaggi durante la creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell&#39;esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
 * È stata aggiunta una nota sul prossimo guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)
-
-
 * È stata aggiunta una nuova sezione che descrive come visualizzare in anteprima le esperienze personalizzate basate su codice direttamente sul browser o sui dispositivi mobili, utilizzando l’opzione Anteprima sul dispositivo durante la simulazione di contenuti in un percorso o in una campagna. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
+* È stata aggiunta una nuova pagina su come sfruttare i tipi di pubblico di caricamento personalizzati per prendere decisioni. [Ulteriori informazioni](../offers/custom-upload-decisioning.md)
 
 ## Settembre 2024 {#sept-2024}
 
@@ -131,7 +130,6 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * Aggiornamento del parametro della **durata** nella funzione `toString`. [Ulteriori informazioni](../building-journeys/functions/functiontostring.md)
 * Per alcuni casi d’uso di origini dati esterne, si consiglia di utilizzare azioni personalizzate.
 * La sintassi del campo evento è stata aggiornata. La sintassi seguente `@(my_event.myfield}` è obsoleta e sostituita da `@event{my_event.myfield}`. [Ulteriori informazioni](../building-journeys/expression/field-references.md)
-* Le guide Rapporto globale e Rapporto live sono state riorganizzate. [Ulteriori informazioni](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +177,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La nota sulla **gestione della cache di autenticazione** nel percorso è stata aggiornata per specificare che il token non è condiviso tra percorsi diversi. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode)
 * La pagina sulla **gestione degli ingressi** del percorso è stata aggiornata al fine di definire il comportamento. [Ulteriori informazioni](../building-journeys/entry-management.md)
 * I **set di dati di esportazione** di offer decisioning sono ora attivati per impostazione predefinita. La nota relativa al comportamento precedente è stata rimossa.  [Ulteriori informazioni](../offers/export-catalog/get-started-export.md)
-* Sono state rinominate varie **metriche di rapporto della campagna**, sia nei rapporti live che in quelli globali. [Ulteriori informazioni](../reports/campaign-global-report.md)
+* Sono state rinominate varie **metriche di rapporto della campagna**, sia nei rapporti live che in quelli globali. [Ulteriori informazioni](../reports/campaign-live-report.md)
 * È stata aggiunta una nuova sezione sui prerequisiti dei contenuti dell’esperimento per il canale web. [Ulteriori informazioni](../web/web-prerequisites.md#experiment-prerequisites)
 * È stata aggiunta un’avvertenza sulla pagina **Utilizzare i modelli di contenuto** per indicare che attualmente il tracciamento non è supportato durante il test dei modelli di contenuto e-mail. Per testare il tracciamento, è necessario utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../content-management/content-templates.md#test-template)
 * Sono state aggiunte diverse avvertenze nella sezione **Creare e pubblicare pagine di destinazione** per specificare che non è possibile accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito durante la creazione della pagina, anche se pubblicato. È invece possibile testarla utilizzando la funzione di anteprima. [Ulteriori informazioni](../landing-pages/create-lp.md)
@@ -297,9 +295,9 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * Sono state aggiornate le pagine relative alle funzioni [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Sono stati aggiunti dettagli ai parametri della condizione temporale. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
 * Sono state aggiunte informazioni ai set di dati incorporati. [Ulteriori informazioni](../data/get-started-datasets.md#access-datasets)
-* Le sezioni Global report e Live report sono state migliorate e riorganizzate. [Ulteriori informazioni](../reports/global-report.md)
+* Le sezioni Global report e Live report sono state migliorate e riorganizzate. [Ulteriori informazioni](../reports/report-gs-cja.md)
 * È stato aggiunto un elenco di tutte le metriche di reporting disponibili in Adobe Journey Optimizer.
-  [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
+  [Ulteriori informazioni](../reports/report-gs-cja.md#email-and-sms-metrics)
 * La sezione E-mail Ccn è stata spostata nella nuova pagina Supporto per l’archiviazione. [Ulteriori informazioni](../configuration/archiving-support.md)
 
 ## Agosto 2022 {#august-2022}
@@ -444,7 +442,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiornata la procedura di configurazione per le azioni personalizzate con percorsi URL dinamici e intestazioni dinamiche. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 * È stata aggiunta una sezione sulle funzioni e sui collegamenti di accesso facilitato. [Ulteriori informazioni](../start/user-interface.md#accessibility)
 * È stata aggiunta una sezione sui metodi di valutazione del pubblico. [Ulteriori informazioni](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/global-report.md)
+* Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/report-gs-cja.md)
 * È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#reporting)
 * È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/channel-surfaces.md#monitor-channel-surfaces)
