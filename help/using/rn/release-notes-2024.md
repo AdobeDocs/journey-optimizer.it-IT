@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Note sulla versione 2024
+title: Note sulle versioni 2024
 description: Note sulle versioni 2024 di Journey Optimizer
 feature: Release Notes
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Note sulla versione 2024 {#release-notes-2024}
+# Note sulle versioni 2024 {#release-notes-2024}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2024.
 
@@ -148,7 +148,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 
 
-## Versione del 24 luglio {#24-7-2024}
+## Versione di luglio 2024 {#24-7-2024}
 
 **Data di rilascio**: 30-31 luglio 2024
 
@@ -393,7 +393,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.</p>
-<p>Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di configurazioni in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer. I criteri decisionali relativi alla funzione Decisioni per le esperienze sono disponibili per l’utilizzo solo in campagne di esperienza basate su codice.</p>
+<p>Gli elementi decisionali sono integrati direttamente in un’ampia gamma di configurazioni in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer. I criteri decisionali relativi alla funzione Decisioni per le esperienze sono disponibili per l’utilizzo solo in campagne di esperienza basate su codice.</p>
 <p>La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/gs-experience-decisioning.md">documentazione dettagliata</a>.</p>
@@ -411,8 +411,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione delle configurazioni del canale e-mail, per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail.</p>
-<p>La personalizzazione della configurazione e-mail è attualmente disponibile solo per un set di organizzazioni (Disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Ora puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione di configurazioni per il canale e-mail, per maggiore flessibilità e controllo sulle impostazioni e-mail.</p>
+<p>La personalizzazione della configurazione e-mail è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/surface-personalization.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -619,9 +619,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Configurazione**
 
-* Ora puoi selezionare un’azione di marketing a livello di configurazione del canale. Quando vengono utilizzati in una configurazione, tutti i criteri di consenso associati a tale azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
-* L&#39;utilizzo del controllo dell&#39;accesso a livello di oggetto è ora disponibile per le configurazioni di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
-* Durante l’abilitazione dell’annullamento dell’iscrizione all’elenco in una configurazione di canale, ora puoi definire il livello di consenso in base a come gestisci il consenso da tutte le altre sorgenti. [Ulteriori informazioni](../email/email-settings.md#list-unsubscribe)
+* Ora puoi selezionare un’azione di marketing al livello della configurazione dei canali. Se utilizzati in una configurazione, tutti i criteri di consenso associati a tale azione di marketing vengono usati per rispettare le preferenze della clientela. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
+* Per le configurazioni di canale è ora possibile utilizzare il controllo degli accessi a livello di oggetto. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
+* Durante l’abilitazione dell’elenco di annullamenti dell’abbonamento in una configurazione di canale, ora puoi definire il livello di consenso per allinearlo a come gestisci il consenso da tutte le altre origini. [Ulteriori informazioni](../email/email-settings.md#list-unsubscribe)
 
 **Gestione dei contenuti**
 

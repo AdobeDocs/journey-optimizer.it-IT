@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 57%
+ht-degree: 92%
 
 ---
 
@@ -43,7 +43,7 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 <p>Con la disponibilità generale, vengono introdotte quattro nuove funzioni: la possibilità di creare metriche semplici, creare e pubblicare tipi di pubblico, porre domande ad hoc tramite Insight Builder e pianificare l’invio automatico via e-mail dei rapporti ai destinatari chiave.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Data di disponibilità: 1 ottobre 2024</p>
+<p>Data di rilascio: 1 ottobre 2024</p>
 </tr>
 </tbody>
 </table>
@@ -51,16 +51,16 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 <table>
 <thead>
 <tr>
-<th><strong>Esperienze basate su codice in percorsi</strong><br/></th>
+<th><strong>Esperienze basate su codice nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basato su codice è ora disponibile nell’area di lavoro del percorso.</p>
+<p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, facilitando la consegna diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi per TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basata su codice è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/create-code-based.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Data di disponibilità: 1 ottobre 2024</p>
+<p>Data di rilascio: 1 ottobre 2024</p>
 </tr>
 </tbody>
 </table>
@@ -68,16 +68,16 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 <table>
 <thead>
 <tr>
-<th><strong>Esperienze web in percorsi</strong><br/></th>
+<th><strong>Esperienze web nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci ai clienti tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
+<p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../web/create-web.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Data di disponibilità: 1 ottobre 2024</p>
+<p>Data di rilascio: 1 ottobre 2024</p>
 </tr>
 </tbody>
 </table>
@@ -92,13 +92,13 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 
 **Percorsi** - Data di disponibilità: 3 ottobre 2024
 
-* **Parametri nelle azioni personalizzate** - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parametri nelle azioni personalizzate**: i parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Governance dei dati e criteri di consenso** - Data di disponibilità: 7 ottobre 2024
 
-* L&#39;applicazione dei **criteri di governance dei dati** ora avviene su tutti i canali in Journey Optimizer. Per i clienti che hanno creato criteri in Adobe Experience Platform, questi vengono applicati alle azioni di marketing come parte della configurazione delle configurazioni dei canali. Quando crei contenuti utilizzando una configurazione, il sistema controlla tutti i campi di personalizzazione per individuare eventuali violazioni della governance dei dati. Se viene rilevata una violazione, non sarà possibile pubblicare un percorso o una campagna. [Ulteriori informazioni](../action/action-privacy.md)
+* L’applicazione dei **criteri di governance dei dati** ora avviene su tutti i canali in Journey Optimizer. Per coloro che hanno creato criteri in Adobe Experience Platform, questi vengono applicati alle azioni di marketing come parte dell’impostazione delle configurazioni dei canali. Durante la creazione dei contenuti tramite una configurazione, il sistema verifica tutti i campi di personalizzazione per individuare eventuali violazioni della governance dei dati. Se viene rilevata una violazione, non sarà possibile pubblicare un percorso o una campagna. [Ulteriori informazioni](../action/action-privacy.md)
 
-* **I criteri di consenso personalizzati** ora si applicano a tutti i canali Journey Optimizer. Al momento dell’imposizione prima dell’invio di un messaggio o della consegna di un’esperienza in entrata, il sistema controlla che l’utente abbia acconsentito all’utilizzo dei campi di personalizzazione nel contenuto che riceverà. Se non viene fornito alcun consenso, l’esperienza non viene visualizzata. [Ulteriori informazioni](../action/consent.md)
+* I **criteri di consenso personalizzati** ora si applicano a tutti i canali Journey Optimizer. Al momento dell’applicazione prima dell’invio di un messaggio o della consegna di un’esperienza in entrata, il sistema controlla che l’utente abbia dato il consenso all’utilizzo dei campi di personalizzazione nel contenuto che riceverà. Se non viene fornito alcun consenso, l’esperienza non sarà visualizzata. [Ulteriori informazioni](../action/consent.md)
 
   >[!NOTE]
   >
@@ -106,9 +106,9 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 
 **Tipi di pubblico** - Data di disponibilità: 8 ottobre 2024
 
-* Quando esegui il targeting di un pubblico di file CSV, ora puoi utilizzare gli attributi del file nell’editor di personalizzazione e nel generatore di regole per percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md)
+* Quando esegui il targeting di un pubblico di un file CSV, ora puoi utilizzare gli attributi del file nell’editor di personalizzazione e nel generatore di regole per percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md)
 
-* L’utilizzo di tipi di pubblico e attributi dal caricamento personalizzato (file CSV) è ora disponibile con Healthcare Shield o Privacy and Security Shield.
+* L’utilizzo di tipi di pubblico e attributi da aggiornamenti personalizzati (file CSV) non è al momento disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
 
 ## Versione di settembre 2024 {#24-9-rn}
 
@@ -153,7 +153,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Con i criteri di approvazione, ora puoi impostare un processo di approvazione in Journey Optimizer che consenta ai team di marketing di garantire che le campagne e i percorsi vengano rivisti e autorizzati dagli stakeholder prima della pubblicazione.</p>
-<p>I criteri di approvazione sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>I criteri di approvazione sono attualmente disponibili solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/gs-approval.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -240,11 +240,11 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico** - Data di disponibilità: 17 settembre 2024
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* **Utilizzo licenze** - La dashboard Utilizzo licenze ora mostra i profili Engageable, anziché i tipi di pubblico Engageable. [Ulteriori informazioni](../audience/license-usage.md)
+* **Utilizzo licenze**: la dashboard Utilizzo licenze mostra ora i profili anziché i tipi di pubblico che potrebbero essere coinvolti. [Ulteriori informazioni](../audience/license-usage.md)
 
 **Gestione dei contenuti**
 
-* Ora puoi esportare modelli di contenuto e frammenti tra sandbox diverse. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+* Ora puoi esportare modelli di contenuto e frammenti tra sandbox. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
 <!--**Data Governance**
 
@@ -262,16 +262,16 @@ Questa versione include i miglioramenti elencati di seguito.
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Miglioramenti al reporting in tempo reale**: il reporting in tempo reale fornisce informazioni approfondite sulle prestazioni dei percorsi nelle ultime 24 ore. È stata migliorata con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati per errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del Percorso. [Ulteriori informazioni](../building-journeys/report-journey.md)
+* **Miglioramenti al reporting in tempo reale**: il reporting in tempo reale fornisce informazioni approfondite sulle prestazioni dei percorsi nelle ultime 24 ore. È stato migliorato con l’aggiunta di nuove metriche (profili in entrata, in uscita e scartati e profili in errore) che consentono di comprendere più a fondo il comportamento e le prestazioni degli utenti direttamente dall’area di lavoro del percorso. [Ulteriori informazioni](../building-journeys/report-journey.md)
 
 
 * (Data di disponibilità: 10 settembre) **Nuovi tentativi automatici per Leggi pubblico**: i nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato. [Ulteriori informazioni](../building-journeys/read-audience.md#retries)
 
 **Canale e-mail**
 
-* **Intestazione del messaggio nell&#39;e-mail inviata e nella copia in Ccn** - È stata aggiunta una nuova intestazione a tutti i messaggi e-mail. Il valore di questa intestazione è univoco per ogni e-mail inviata e per la corrispondente copia e-mail in Ccn. Questa intestazione viene inoltre memorizzata nei set di dati del messaggio e del feedback Ccn, consentendo di riconciliare la copia Ccn e le informazioni e-mail corrispondenti inviate. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-header)
+* **Intestazione del messaggio nell’e-mail inviata e nella copia in Ccn**: è stata aggiunta una nuova intestazione a tutti i messaggi e-mail. Il valore di questa intestazione è univoco per ogni e-mail inviata e per la relativa copia in Ccn. Questa intestazione viene inoltre memorizzata nei set di dati del messaggio e del feedback Ccn, per consentire di riconciliare la copia Ccn e le informazioni dell’e-mail inviata corrispondente. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-header)
 
-* **Punteggio posta indesiderata** (GA)- È ora possibile controllare il punteggio posta indesiderata in un **report posta indesiderata** dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di caselle postali lo considereranno come contenuto indesiderato o meno. [Ulteriori informazioni](../content-management/spam-report.md)
+* **Punteggio contenuti spam** (GA): ora puoi controllare il punteggio di contenuti spam nel **Rapporto spam** dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di caselle postali lo considereranno come contenuto indesiderato o meno. [Ulteriori informazioni](../content-management/spam-report.md)
 
 **Canale SMS**
 
@@ -294,7 +294,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Configurazione**
 
-* **Piani di riscaldamento IP** - Questa funzionalità è ora disponibile per tutti i clienti, incluse le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**. [Ulteriori informazioni](../configuration/ip-warmup-gs.md)
+* **Piani di preparazione IP**: questa funzionalità è ora disponibile per tutti i clienti, incluse le organizzazioni che hanno acquistato i componenti aggiuntivi Adobe **Healthcare Shield** o **Privacy and Security Shield**. [Ulteriori informazioni](../configuration/ip-warmup-gs.md)
 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.

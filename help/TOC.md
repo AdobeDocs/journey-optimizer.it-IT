@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 93%
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Simulare il percorso](using/building-journeys/journey-simulation.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
-      + [Rapporto live nel tuo percorso](using/building-journeys/report-journey.md)
+      + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
    + Gestire i percorsi{#manage-journey}
       + [Gestione dell’ingresso del profilo](using/building-journeys/entry-management.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
@@ -66,7 +66,7 @@ ht-degree: 93%
       + [Condizione](using/building-journeys/condition-activity.md)
       + [Attendere](using/building-journeys/wait-activity.md)
       + [Leggi pubblico](using/building-journeys/read-audience.md)
-      + [Azioni canale incorporate](using/building-journeys/journeys-message.md)
+      + [Azioni del canale incorporate](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [Rivedere e attivare una campagna](using/campaigns/review-activate-campaign.md)
    + [Gestire le campagne](using/campaigns/modify-stop-campaign.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
-+ Test e approvazione di {#test}
++ Testare e approvare {#test}
    + [Gestione dei conflitti e assegnazione delle priorità](using/test-approve/conflict-prioritization.md)
    + Gestione dei conflitti e definizione delle priorità {#conflict-prioritization}
       + [Guida introduttiva alla gestione dei conflitti e alla definizione delle priorità](using/test-approve/gs-conflict-prioritization.md)
@@ -190,10 +190,10 @@ ht-degree: 93%
       + [Inviare bozze e-mail](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
-   + Approva percorsi e campagne {#approve}
+   + Approvare percorsi e campagne {#approve}
       + [Introduzione alle approvazioni](using/test-approve/gs-approval.md)
-      + [Creare e gestire i criteri di approvazione](using/test-approve/approval-policies.md)
-      + [Richiedi approvazione](using/test-approve/request-approval.md)
+      + [Creare e gestire criteri di approvazione](using/test-approve/approval-policies.md)
+      + [Richiedere un’approvazione](using/test-approve/request-approval.md)
       + [Approvare una richiesta](using/test-approve/review-approve-request.md)
 + Canale e-mail {#email}
    + [Introduzione alle e-mail](using/email/get-started-email.md)
@@ -276,7 +276,7 @@ ht-degree: 93%
    + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
    + [Creare esperienze basate su codice](using/code-based/create-code-based.md)
 + Schede di contenuto{#content-card}
-   + [Introduzione alle schede contenuto](using/content-card/get-started-content-card.md)
+   + [Introduzione alla scheda di contenuto](using/content-card/get-started-content-card.md)
    + Configurare il canale della scheda contenuto {#configure}
       + [Prerequisiti per le schede contenuto](using/content-card/content-card-configuration-prereq.md)
       + [Configurare il canale delle schede contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
@@ -628,8 +628,8 @@ ht-degree: 93%
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
    + [Impostare le configurazioni dei canali](using/configuration/channel-surfaces.md)
    + Configurazione guidata del canale {#guided-setup}
-      + [Guida introduttiva alla configurazione guidata del canale](using/configuration/set-mobile-config.md)
-      + [Creare una configurazione del canale](using/configuration/create-channel-set-up.md)
+      + [Introduzione alla configurazione guidata del canale](using/configuration/set-mobile-config.md)
+      + [Creare una configurazione di canale](using/configuration/create-channel-set-up.md)
    + Delegare i sottodomini e-mail {#delegate-subdomains}
       + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
       + [Delegare un sottodominio](using/configuration/delegate-subdomain.md)
@@ -679,7 +679,7 @@ ht-degree: 93%
          + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
          + [Integrare con Marketo Engage](using/action/marketo-engage.md)
    + [Origini](using/start/get-started-sources.md)
-   + [Esporta oggetti in un&#39;altra sandbox](using/configuration/copy-objects-to-sandbox.md)
+   + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Controllo degli accessi {#access-control}
    + Panoramica sul controllo degli accessi {#privacy}
       + [Introduzione alla gestione degli utenti](using/administration/permissions-overview.md)
