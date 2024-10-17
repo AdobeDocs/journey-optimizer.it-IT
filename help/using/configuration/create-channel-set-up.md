@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare una configurazione del canale
+title: Creare una configurazione di canale
 description: Scopri come creare una configurazione di canale
 feature: Surface, Channel Configuration
 topic: Administration
@@ -10,13 +10,13 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-# Creare una configurazione del canale {#set-mobile-ios}
+# Creare una configurazione di canale {#set-mobile-ios}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
@@ -30,7 +30,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Avviare l’applicazione da Xcode."
+>title="Avviare l’applicazione da Xcode"
 >abstract="Per ottenere il token push, avvia innanzitutto l’applicazione utilizzando Xcode. Dopo l’avvio dell’applicazione, riavviarla per assicurarsi che il processo di convalida sia stato completato. Adobe fornirà quindi il token push come parte dei risultati della convalida. Questo token è essenziale per abilitare le notifiche push e verrà visualizzato una volta convalidata correttamente la configurazione."
 
 >[!CONTEXTUALHELP]
@@ -54,49 +54,49 @@ ht-degree: 47%
 >abstract="L’ID team, un valore stringa utilizzato per identificare il team, si trova nella scheda **Appartenenza** nell’account sviluppatore."
 
 
-Questa configurazione semplifica la configurazione rapida dei canali di marketing, rendendo immediatamente disponibili tutte le risorse essenziali nelle app Experience Platform, Journey Optimizer e Data Collection. Questo consente al team marketing di iniziare rapidamente a creare campagne e percorsi.
+Questa configurazione semplifica la configurazione rapida dei canali di marketing, rendendo immediatamente disponibili tutte le risorse essenziali nelle app Experience Platform, Journey Optimizer e Data Collection. Questo consente al team di marketing di iniziare rapidamente a creare campagne e percorsi.
 
-1. Dalla home page di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** dalla scheda **[!UICONTROL Configura canali Web e mobili]**.
+1. Nella pagina Home di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** nella scheda **[!UICONTROL Configura i canali per web e dispositivi mobili]**.
 
    ![](assets/guided-setup-config-1.png)
 
-1. Crea una configurazione **[!UICONTROL New]**.
+1. Crea una **[!UICONTROL Nuova]** configurazione.
 
    Se disponi già di configurazioni esistenti, puoi sceglierne una o crearne una nuova.
 
    ![](assets/guided-setup-config-2.png)
 
-1. Immetti un **[!UICONTROL Nome]** per la nuova configurazione e seleziona o crea il **[!UICONTROL Stream di dati]**. **[!UICONTROL Name]** verrà utilizzato per ogni risorsa creata automaticamente.
+1. Immetti un **[!UICONTROL Nome]** per la nuova configurazione e seleziona o crea lo **[!UICONTROL Stream di dati]**. Questo **[!UICONTROL Nome]** sarà utilizzato per ogni risorsa creata automaticamente.
 
-1. Se la tua organizzazione dispone di più flussi di dati, selezionane uno dalle opzioni esistenti. Se non disponi di uno stream di dati, ne verrà creato uno automaticamente.
+1. Se la tua organizzazione dispone di più stream di dati, selezionane uno dalle opzioni esistenti. Se non disponi di uno stream di dati, ne verrà creato uno automaticamente.
 
-1. Seleziona la piattaforma e fai clic su **[!UICONTROL Crea automaticamente risorse]**.
+1. Seleziona la piattaforma e fai clic su **[!UICONTROL Crea automaticamente le risorse]**.
 
-1. Per semplificare il processo di configurazione, vengono create automaticamente le risorse necessarie per iniziare. Ciò include la creazione di una nuova **[!UICONTROL proprietà tag mobile]** e l&#39;installazione di estensioni.
+1. Per semplificare il processo di configurazione, vengono create automaticamente le risorse necessarie per aiutarti a iniziare. Ciò include la creazione di una nuova **[!UICONTROL proprietà tag Mobile]** e l’installazione di estensioni.
 
 [Ulteriori informazioni sulle risorse generate automaticamente](set-mobile-config.md#auto-create-resources)
 
 1. Al termine della generazione delle risorse, segui le istruzioni nell’interfaccia utente per configurare e convalidare gli SDK e i canali.
 
-1. Al termine della configurazione, condividi la **[!UICONTROL Configurazione canale]** generata automaticamente con i membri del team responsabili della creazione di Percorsi e campagne.
+1. Al termine della configurazione, condividi la **[!UICONTROL Configurazione del canale]** generata automaticamente con i membri del team responsabile della creazione di percorsi e campagne.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. È ora possibile fare riferimento alla **[!UICONTROL Configurazione canale]** nell&#39;interfaccia Campagne o Percorsi, consentendo una connessione perfetta tra la configurazione e l&#39;esecuzione di percorsi e campagne mirati per il pubblico.
+1. Ora è possibile fare riferimento alla **[!UICONTROL Configurazione del canale]** nell’interfaccia Campagne o Percorsi, per una connessione diretta tra la configurazione e l’esecuzione di campagne e percorsi mirati per il tuo pubblico.
 
-## Modificare una configurazione esistente mobile {#reconnect}
+## Modificare una configurazione esistente per dispositivi mobili {#reconnect}
 
-Dopo aver creato la configurazione, è possibile rivisitarla in qualsiasi momento per aggiungere altri canali o apportare ulteriori modifiche in base alle proprie esigenze
+Dopo aver creato la configurazione, puoi rivederla in qualsiasi momento per aggiungere altri canali o apportare ulteriori modifiche in base alle tue esigenze
 
-1. Dalla home page di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** dalla scheda **[!UICONTROL Configura canali Web e mobili]**.
+1. Nella pagina Home di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** nella scheda **[!UICONTROL Configura i canali per web e dispositivi mobili]**.
 
    ![](assets/guided-setup-config-1.png)
 
-1. Seleziona **[!UICONTROL Esistente]** e scegli la tua **[!UICONTROL proprietà tag]** esistente dal menu a discesa.
+1. Seleziona **[!UICONTROL Esistente]** e scegli la **[!UICONTROL Proprietà tag]** esistente dal menu a discesa.
 
    ![](assets/guided-setup-config-ios-9.png)
 
-1. Quando accedi alla configurazione esistente, devi riconnetterti con Adobe Assurance. Dal menu di configurazione dell&#39;SDK, fare clic su **[!UICONTROL Riconnetti]**.
+1. Quando accedi alla configurazione esistente, devi riconnetterti ad Adobe Assurance. Nel menu di configurazione dell’SDK, fai clic su **[!UICONTROL Riconnetti]**.
 
    ![](assets/guided-setup-config-ios-10.png)
 
@@ -104,4 +104,4 @@ Dopo aver creato la configurazione, è possibile rivisitarla in qualsiasi moment
 
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
-1. Ora puoi aggiornare la configurazione in base alle esigenze.
+1. Ora puoi aggiornare la configurazione in base alle tue esigenze.

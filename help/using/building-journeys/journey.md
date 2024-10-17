@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni 
 
 >[!NOTE]
 >
->In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se la rientrata è abilitata, un profilo può rientrare in un percorso, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
+>In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il reingresso, un profilo può entrare di nuovo in un percorso, ma solo dopo che sarà completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
 
 Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso.
 
@@ -96,7 +96,7 @@ Se devi apportare delle modifiche a un percorso live, crea una nuova versione de
 
 1. Apporta le modifiche necessarie, quindi fai clic su **[!UICONTROL Pubblica]** e conferma.
 
-Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a confluire nell’ultima versione del percorso. Le persone che erano già entrate in una versione precedente vi rimangono fino alla fine del percorso. Se in un secondo momento vengono reinseriti nello stesso percorso, verranno inseriti nella versione più recente.
+Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a confluire nell’ultima versione del percorso. Le persone che erano già entrate in una versione precedente vi rimangono fino alla fine del percorso. Se in un secondo momento entrano di nuovo nello stesso percorso, passeranno alla versione più recente.
 
 È possibile interrompere le versioni di percorso singolarmente. Tutte le versioni di un percorso hanno lo stesso nome.
 

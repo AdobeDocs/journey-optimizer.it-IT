@@ -1,17 +1,17 @@
 ---
-title: Introduzione alla scheda contenuto
-description: Scopri la scheda dei contenuti in Journey Optimizer
+title: Introduzione alla scheda di contenuto
+description: Informazioni sulla scheda di contenuto in Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Introduzione alle schede di contenuto {#get-started-content-card}
+# Introduzione alla scheda di contenuto {#get-started-content-card}
 
 Le schede di contenuto sono una nuova funzione di messaggistica digitale di Adobe Journey Optimizer che offre contenuti personalizzati e coinvolgenti direttamente all’interno di app mobili e siti web. A differenza delle notifiche push tradizionali, le schede di contenuto si integrano perfettamente nell’interfaccia utente, offrendo aggiornamenti persistenti e non intrusivi che migliorano l’interazione e l’esperienza utente.
 
@@ -22,7 +22,7 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 <a href="content-card-configuration.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
 </a>
-<div><a href="content-card-configuration.md"><strong>Configura canale schede contenuto</strong>
+<div><a href="content-card-configuration.md"><strong>Configurare il canale delle schede di contenuto</strong>
 </div>
 <p>
 </td>
@@ -39,7 +39,7 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 <img alt="Convalida" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="design-content-card.md"><strong>Progettare una scheda di contenuti</strong></a>
+<a href="design-content-card.md"><strong>Progettare una scheda di contenuto</strong></a>
 </div>
 <p>
 </td>

@@ -9,34 +9,34 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Utilizzare i criteri di consenso {#consent-management}
 
-Questi dati possono essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati all’interno di Journey Optimizer siano conformi ai [criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. Questi criteri sono regole di Adobe Experience Platform che definiscono quali azioni di marketing è consentito eseguire sui dati.
+Questi dati possono essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati all’interno di Journey Optimizer siano conformi ai [criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. Questi criteri sono le regole di Adobe Experience Platform che definiscono quali azioni di marketing possono essere eseguite sui dati.
 
-Per impostazione predefinita, se un profilo ha rinunciato a ricevere comunicazioni da te, il profilo corrispondente viene escluso dalle consegne successive. Puoi creare un **criterio di consenso** che ignora questa logica predefinita. Ad Experience Platform, puoi creare i criteri di consenso per escludere i clienti che non hanno acconsentito a ricevere comunicazioni per un dato canale. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
+Per impostazione predefinita, se un profilo ha rinunciato a ricevere comunicazioni da te, il profilo corrispondente viene escluso dalle consegne successive. Puoi creare un **criterio di consenso** che ignora questa logica predefinita. Ad esempio, puoi creare i criteri di consenso in Experience Platform per escludere i clienti che non hanno acconsentito a ricevere comunicazioni da un certo canale. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
 
 >[!IMPORTANT]
 >
->I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato le offerte aggiuntive **Healthcare Shield** e **Privacy and Security Shield**.
+>I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe **Healthcare Shield** e **Privacy and Security Shield**.
 
 I passaggi principali per applicare i criteri di consenso sono i seguenti:
 
 1. Crea un criterio di consenso in Adobe Experience Platform con un’azione di marketing associata. [Scopri come creare un criterio di consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy){target="_blank"}
 
-2. Applica i criteri di consenso in Adobe Journey Optimizer utilizzando configurazioni di canale o azioni personalizzate di percorsi.
+2. Applica i criteri di consenso in Adobe Journey Optimizer utilizzando configurazioni dei canali o azioni personalizzate dei percorsi.
 
-   * Crea una configurazione di canale con un’azione di marketing associata. Quando crei una comunicazione utilizzando la configurazione del canale, erediterà l’azione di marketing associata e applicherà i criteri di consenso corrispondenti definiti in Adobe Experience Platform. [Scopri come sfruttare i criteri di consenso tramite le configurazioni dei canali](#surface-marketing-actions)
+   * Crea una configurazione di canale con un’azione di marketing associata. Quando crei una comunicazione utilizzando questa configurazione di canale, la comunicazione erediterà l’azione di marketing associata e verranno applicati i criteri di consenso corrispondenti definiti in Adobe Experience Platform. [Scopri come usare i criteri di consenso tramite le configurazioni dei canali](#surface-marketing-actions)
 
    * A livello di percorso, è possibile:
 
-      * Associa un canale e un’azione di marketing a un’azione personalizzata durante la configurazione. [Scopri come sfruttare i criteri di consenso durante la configurazione di un&#39;azione personalizzata](#consent-custom-action)
-      * Definisci un’azione di marketing aggiuntiva quando aggiungi un’azione personalizzata in un percorso. [Scopri come sfruttare i criteri di consenso quando aggiungi un&#39;azione personalizzata in un percorso](#consent-journey)
+      * Associare un canale e un’azione di marketing a un’azione personalizzata durante la configurazione. [Scopri come usare i criteri di consenso nella configurazione di un’azione personalizzata](#consent-custom-action)
+      * Definire un’azione di marketing aggiuntiva quando aggiungi un’azione personalizzata in un percorso. [Scopri come usare i criteri di consenso quando aggiungi un’azione personalizzata in un percorso](#consent-journey)
 
 ## Sfruttare i criteri di consenso tramite le configurazioni dei canali {#surface-marketing-actions}
 
@@ -104,11 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### Sfruttare i criteri di consenso durante la configurazione di un’azione personalizzata{#consent-custom-action}
+### Usare i criteri di consenso nella configurazione di un’azione personalizzata{#consent-custom-action}
 
 Durante la configurazione di un’azione personalizzata, è possibile utilizzare due campi per la gestione del consenso.
 
-Il campo **Canale** consente di selezionare il canale correlato a questa azione personalizzata. Il campo **Azione di marketing richiesta** verrà precompilato con l’azione di marketing predefinita per il canale selezionato. Selezionando **Altro**, non verrà definita alcuna azione di marketing per impostazione predefinita.
+Il campo **Canale** consente di selezionare il canale correlato all’azione personalizzata. Il campo **Azione di marketing richiesta** verrà precompilato con l’azione di marketing predefinita per il canale selezionato. Selezionando **Altro**, non verrà definita alcuna azione di marketing per impostazione predefinita.
 
 ![](assets/consent1.png)
 
@@ -120,7 +120,7 @@ Per alcuni tipi di comunicazioni importanti, ad esempio un messaggio transaziona
 
 Gli altri passaggi per la configurazione di un’azione personalizzata sono descritti in [questa sezione](../action/about-custom-action-configuration.md#consent-management).
 
-### Sfruttare i criteri di consenso quando si aggiunge un’azione personalizzata in un percorso {#consent-journey}
+### Usare i criteri di consenso quando si aggiunge un’azione personalizzata in un percorso {#consent-journey}
 
 Quando si aggiunge l’azione personalizzata in un percorso, diverse opzioni consentono di gestire il consenso. Fai clic sul pulsante **Mostra campi di sola lettura** per visualizzare tutti i parametri.
 
