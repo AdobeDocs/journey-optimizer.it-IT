@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 47%
+source-wordcount: '1672'
+ht-degree: 46%
 
 ---
 
@@ -100,26 +100,6 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Integrazione di Inchiostro mobile e Adobe Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile integrare Ink mobile Da Vinci e Adobe Journey Optimizer. Con questa nuova integrazione è possibile: </p>
-<p><ul><li>Sfrutta le potenti funzionalità del prodotto Da Vinci di Mobile Ink per assemblare e personalizzare le varianti e-mail per le campagne batch</li>
-<li>Accelerare i flussi di lavoro dei professionisti per i clienti di Journey Optimizer che utilizzano Da Vinci per l’authoring e AJO per l’ottimizzazione e la distribuzione</li>
-<li>Ottimizza i modelli Da Vinci con dati Adobi.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Esperienza di reporting aggiornata (disponibilità generale)</strong><br/>Disponibile dal 16 ottobre 2024<br/></th>
+<th><strong>Integrazione di Inchiostro mobile e Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>È ora possibile integrare Ink mobile Da Vinci e Adobe Journey Optimizer. Con questa nuova integrazione è possibile: </p>
+<p><ul><li>Sfrutta le potenti funzionalità del prodotto Da Vinci di Mobile Ink per assemblare e personalizzare le varianti e-mail per le campagne batch</li>
+<li>Accelerare i flussi di lavoro dei professionisti per i clienti di Journey Optimizer che utilizzano Da Vinci per l’authoring e AJO per l’ottimizzazione e la distribuzione</li>
+<li>Ottimizza i modelli Da Vinci con dati Adobi.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Esperienza di reporting aggiornata (disponibilità generale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Disponibile dal 16 ottobre 2024</p>
 <p>Il reporting di Journey Optimizer è ora generalmente disponibile (GA) e viene fornito con una migliore interoperabilità con funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.</p>
 <p>Con la disponibilità generale, vengono introdotte quattro nuove funzioni: la possibilità di creare metriche semplici, creare e pubblicare tipi di pubblico, porre domande ad hoc tramite Insight Builder e pianificare l’invio automatico via e-mail dei rapporti ai destinatari chiave.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>Importante: l’esperienza di reporting corrente verrà ritirata a gennaio 2025. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. <a href="../reports/report-gs-cja.md">Scopri come iniziare a utilizzare la nuova interfaccia di reporting di Journey Optimizer</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tbody>
 <tr>
 <td>
+<p>Disponibile dal 1 ottobre 2024</p>
 <p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, facilitando la consegna diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi per TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basata su codice è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/create-code-based.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Data di rilascio: 1 ottobre 2024</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tbody>
 <tr>
 <td>
+<p>Disponibile dal 1 ottobre 2024</p>
 <p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../web/create-web.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Data di rilascio: 1 ottobre 2024</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->L’esperienza di reporting corrente verrà ritirata a gennaio 2025. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione semplice.
->
-> [Scopri come iniziare a utilizzare la nuova interfaccia di reporting di Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Miglioramenti {#e-improvements}
 
@@ -270,11 +262,11 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
    * 90 giorni per i dati nell’archivio dei profili
    * 13 mesi per i dati nel data lake
 
-Inoltre, in quel momento, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e feedback dai set di dati di tracciamento e feedback. Abbiamo consigliato di non utilizzare questi eventi per la segmentazione in streaming per un po’ di tempo e ora li disabiliteremo completamente.
+  Inoltre, in quel momento, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e feedback dai set di dati di tracciamento e feedback. Abbiamo consigliato di non utilizzare questi eventi per la segmentazione in streaming per un po’ di tempo e ora li disabiliteremo completamente.
 
-* Questa modifica limita solo l’utilizzo di eventi di invio/apertura nella segmentazione in streaming; gli eventi di clic possono ancora essere utilizzati in un segmento in streaming. Inoltre, è ancora possibile utilizzare gli eventi di invio/apertura in un segmento batch.
-* I dati di tracciamento verranno comunque raccolti. Questa modifica non influisce sul tracciamento. Puoi comunque tenere traccia di chi ha ricevuto un’e-mail e di chi ha fatto clic su un’e-mail.
-* Gli eventi di reazione nei Percorsi non sono influenzati da questo cambiamento.
+   * Questa modifica limita solo l’utilizzo di eventi di invio/apertura nella segmentazione in streaming; gli eventi di clic possono ancora essere utilizzati in un segmento in streaming. Inoltre, è ancora possibile utilizzare gli eventi di invio/apertura in un segmento batch.
+   * I dati di tracciamento verranno comunque raccolti. Questa modifica non influisce sul tracciamento. Puoi comunque tenere traccia di chi ha ricevuto un’e-mail e di chi ha fatto clic su un’e-mail.
+   * Gli eventi di reazione nei Percorsi non sono influenzati da questo cambiamento.
 
 * **Parametri nelle azioni personalizzate** (data di disponibilità: 3 ottobre 2024) - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
