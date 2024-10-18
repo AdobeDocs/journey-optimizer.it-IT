@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ L’esperienza basata su codice supporta qualsiasi tipo di implementazione del c
 
 Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK client AEP: AEP Web SDK o AEP Mobile SDK.
 
-* I passaggi [riportati di seguito](#client-side-how) descrivono il processo di recupero del contenuto pubblicato sul server Edge dalle campagne di esperienza basate su codice in un esempio di implementazione **Web SDK** e visualizzazione del contenuto personalizzato.
+* I passaggi [riportati di seguito](#client-side-how) descrivono il processo di recupero del contenuto pubblicato sul server Edge dai percorsi di esperienza e dalle campagne basate su codice in un&#39;implementazione **Web SDK** di esempio e la visualizzazione del contenuto personalizzato.
 
 * I passaggi per implementare un canale basato su codice utilizzando **Mobile SDK** sono descritti in [questa esercitazione](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
@@ -54,7 +54,7 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
 
 1. Gli elementi esperienza basati su codice devono essere applicati manualmente dal codice di implementazione (utilizzando il metodo [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) per aggiornare il DOM in base alla decisione.
 
-1. Per le campagne basate su codice, gli eventi di visualizzazione devono essere inviati manualmente per indicare quando è stato visualizzato il contenuto. Questa operazione viene eseguita tramite il comando `sendEvent`.
+1. Per percorsi di esperienza e campagne basati su codice, gli eventi di visualizzazione devono essere inviati manualmente per indicare quando è stato visualizzato il contenuto. Questa operazione viene eseguita tramite il comando `sendEvent`.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
    }
    ```
 
-1. Per le campagne di esperienza basate su codice, gli eventi di interazione devono essere inviati manualmente per indicare quando un utente ha interagito con il contenuto. Questa operazione viene eseguita tramite il comando `sendEvent`.
+1. Per percorsi di esperienza e campagne basati su codice, gli eventi di interazione devono essere inviati manualmente per indicare quando un utente ha interagito con il contenuto. Questa operazione viene eseguita tramite il comando `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 
 Se disponi di un’implementazione lato server, puoi utilizzare una delle API Edge Network di AEP.
 
-I passaggi seguenti descrivono il processo di recupero dei contenuti pubblicati sul server Edge dalle campagne di esperienza basate su codice in un Edge Network di implementazione API per una pagina web e di visualizzazione dei contenuti personalizzati.
+I passaggi seguenti descrivono il processo di recupero dei contenuti pubblicati sul server Edge dai percorsi di esperienza e dalle campagne basate su codice, in un Edge Network di implementazione API per una pagina web, e di visualizzazione dei contenuti personalizzati.
 
 ### Come funziona
 
@@ -226,8 +226,9 @@ I passaggi seguenti descrivono il processo di recupero dei contenuti pubblicati 
    ).then((res) => res.json());
    ```
 
-1. L’esperienza JSON della campagna di esperienza basata su codice viene letta dalla risposta e utilizzata durante la produzione della risposta del HTML.
-1. Per le campagne di esperienza basate su codice, gli eventi di visualizzazione devono essere inviati manualmente nell’implementazione per indicare quando è stato visualizzato il contenuto della campagna. In questo esempio la notifica viene inviata lato server durante il ciclo di vita della richiesta.
+1. L’esperienza JSON dai percorsi di esperienza e dalla campagna basati sul codice viene letta dalla risposta e utilizzata durante la produzione della risposta del HTML.
+
+1. Per percorsi di esperienza e campagne basati su codice, gli eventi di visualizzazione devono essere inviati manualmente nell’implementazione per indicare quando è stato visualizzato il contenuto del percorso o della campagna. In questo esempio, la notifica viene inviata lato server durante il ciclo di vita della richiesta.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

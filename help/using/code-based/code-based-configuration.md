@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 30%
+source-wordcount: '1558'
+ht-degree: 28%
 
 ---
 
@@ -28,8 +28,8 @@ Una configurazione di esperienza basata su codice deve fare riferimento alla sup
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Immetti la posizione specifica"
->abstract="Questo campo specifica la destinazione esatta sulla pagina o all’interno dell’app a cui desideri che gli utenti accedano. Potrebbe trattarsi di una sezione o di una pagina specifica all’interno della struttura di navigazione."
+>title="Indica la posizione specifica all’interno della pagina o dell’app"
+>abstract="Questo campo specifica la destinazione esatta all’interno di una pagina o dell’app a cui desideri che gli utenti accedano. Può trattarsi di una sezione particolare all’interno di una pagina web o di una pagina all’interno della struttura di navigazione dell’app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. Il campo **[!UICONTROL Posizione a pagina]** specifica la destinazione esatta all&#39;interno del sito Web a cui si desidera che gli utenti accedano. Potrebbe trattarsi di una sezione o di una pagina specifica nella struttura di navigazione del sito.
+1. Il campo **[!UICONTROL Posizione nella pagina]** specifica la destinazione esatta all&#39;interno della pagina a cui si desidera che gli utenti accedano. Può essere una sezione particolare di una pagina all’interno della struttura di navigazione del sito, ad esempio &quot;hero-banner&quot; o &quot;product-rail&quot;.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 1. Immetti **[!UICONTROL ID app]**. Questo consente un’identificazione e una configurazione accurate all’interno dell’ambiente operativo dell’app e garantisce l’integrazione e la funzionalità senza interruzioni.
 
-1. Specifica il percorso o la posizione **[!UICONTROL nell&#39;app]**. Questo campo specifica la destinazione esatta all’interno dell’app a cui desideri che gli utenti accedano. Potrebbe trattarsi di una sezione o di una pagina specifica nella struttura di navigazione dell’app.
+1. Specifica il percorso o la posizione **[!UICONTROL nell&#39;app]**. Questo campo specifica la destinazione esatta all’interno dell’app a cui desideri che gli utenti accedano. Può trattarsi di una sezione o di una pagina particolare all’interno della struttura di navigazione dell’app, ad esempio &quot;hero-banner&quot; o &quot;product-rail&quot;.
 
    ![](assets/code_config_3.png){width="500"}
 
