@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1602'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 <table>
 <thead>
 <tr>
-<th><strong>Rapporti Customer Journey Analytics (disponibilità generale)</strong><br/></th>
+<th><strong>Esperienza di reporting aggiornata (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -43,7 +43,7 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 <p>Con la disponibilità generale, vengono introdotte quattro nuove funzioni: la possibilità di creare metriche semplici, creare e pubblicare tipi di pubblico, porre domande ad hoc tramite Insight Builder e pianificare l’invio automatico via e-mail dei rapporti ai destinatari chiave.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Data di rilascio: 1 ottobre 2024</p>
+<p>Data di disponibilità: 16 ottobre 2024</p>
 </tr>
 </tbody>
 </table>
