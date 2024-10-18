@@ -1,23 +1,23 @@
 ---
-title: Aggiornare le strategie di selezione
+title: Aggiornare strategie di selezione
 description: Le strategie di selezione sono costituite da raccolte associate a vincoli e metodi di classificazione per determinare le offerte.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
-
 
 # Aggiornare una strategia di selezione {#update-selection-strategy}
 
 Per modificare o aggiornare una strategia di selezione, effettua una richiesta PATCH all’API Libreria di offerte.
 
-Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](http://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 **Formato API**
 

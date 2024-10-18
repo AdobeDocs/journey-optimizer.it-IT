@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 28%
@@ -130,7 +130,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 1. Specifica il percorso o la posizione **[!UICONTROL nell&#39;app]**. Questo campo specifica la destinazione esatta all’interno dell’app a cui desideri che gli utenti accedano. Può trattarsi di una sezione o di una pagina particolare all’interno della struttura di navigazione dell’app, ad esempio &quot;hero-banner&quot; o &quot;product-rail&quot;.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. Compila il campo **[!UICONTROL URL anteprima]** per abilitare le anteprime su dispositivo. Questo URL informa il servizio di anteprima dell’URL specifico da utilizzare quando si attiva l’anteprima sul dispositivo. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
 
