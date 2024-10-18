@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 47%
@@ -176,7 +176,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <table>
 <thead>
 <tr>
-<th><strong>Esperienza di reporting aggiornata (disponibilità generale)</strong><br/></th>
+<th><strong>Esperienza di reporting aggiornata (disponibilità generale)</strong><br/>Disponibile dal 16 ottobre 2024<br/></th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,6 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <p>Con la disponibilità generale, vengono introdotte quattro nuove funzioni: la possibilità di creare metriche semplici, creare e pubblicare tipi di pubblico, porre domande ad hoc tramite Insight Builder e pianificare l’invio automatico via e-mail dei rapporti ai destinatari chiave.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Data di disponibilità: 16 ottobre 2024</p>
 </tr>
 </tbody>
 </table>

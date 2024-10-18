@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '2135'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -226,8 +226,8 @@ ht-degree: 95%
 + Canale in-app{#in-app}
    + [Introduzione al canale in-app](using/in-app/get-started-in-app.md)
    + [Prerequisiti per il canale in-app](using/in-app/inapp-configuration.md)
-   + [Creare un messaggio in-app per dispositivi mobili](using/in-app/create-in-app.md)
-   + [Creare un messaggio in-app per il web](using/in-app/create-in-app-web.md)
+   + [Creare un messaggio in-app mobile](using/in-app/create-in-app.md)
+   + [Creare un messaggio Web in-app](using/in-app/create-in-app-web.md)
    + [Creare contenuto in-app](using/in-app/design-in-app.md)
    + [Verifica e invio della notifica in-app](using/in-app/send-in-app.md)
 + Canale di notifica push{#push}
