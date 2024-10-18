@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
+source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1674'
 ht-degree: 46%
 
 ---
@@ -238,7 +238,7 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 * **Limitazione della frequenza per campagna o percorso** - È ora possibile creare regole di frequenza da applicare ai percorsi, che consentono di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.
 
-* **Punteggio di priorità** - È ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o percorsi utilizzano la stessa superficie, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente. Il punteggio di priorità è disponibile per tutti i canali in entrata nelle campagne e per il canale in-app in percorsi.
+* **Punteggio di priorità** - È ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o percorsi utilizzano la stessa configurazione di canale, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente. Il punteggio di priorità è disponibile per tutti i canali in entrata nelle campagne e per il canale in-app in percorsi.
 
 * **Conflitti di visualizzazione** - Un nuovo pulsante **Conflitti di visualizzazione** in percorsi e campagne consente ora di verificare ogni volta che è possibile una sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.
 
@@ -249,7 +249,7 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 **Configurazione**
 
-* **Personalizzazione superficiale** - Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, ora puoi visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite.
+* **Personalizzazione della configurazione del canale** - Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, ora puoi visualizzare in anteprima il contenuto dell&#39;e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite.
 
 **Percorsi**
 
