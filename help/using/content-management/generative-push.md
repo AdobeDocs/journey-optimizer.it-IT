@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione push con l’Assistente IA in Journey Optimizer per l’accelerazione dei contenuti
-description: Inizia a generare contenuti push con l’Assistente IA in Journey Optimizer per l’accelerazione dei contenuti
+title: Generazione push con AI Assistant Content Accelerator in Journey Optimizer
+description: Inizia a generare contenuti push con l’Assistente AI Content Accelerator in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1487'
 ht-degree: 6%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 6%
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Journey Optimizer per l&#39;accelerazione dei contenuti. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario accettare un [contratto per l&#39;utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale in Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Dopo aver creato e personalizzato i messaggi, porta il contenuto delle notifiche push a un livello successivo con l’Assistente AI in Journey Optimizer per l’accelerazione dei contenuti.
+Dopo aver creato e personalizzato i messaggi, porta il contenuto delle notifiche push a un livello successivo con l’Assistente AI Content Accelerator in Journey Optimizer.
 
-Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer per l’accelerazione dei contenuti.
+Esplora le schede riportate di seguito per scoprire come utilizzare l’Acceleratore dei contenuti dell’Assistente di intelligenza artificiale in Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB Generazione push completa]
 
-In questo esempio particolare, scopri come inviare una notifica push coinvolgente utilizzando l’Assistente AI in Journey Optimizer for Content Acceleration.
+In questo esempio particolare, scopri come inviare una notifica push coinvolgente utilizzando IA Assistant Content Accelerator in Journey Optimizer.
 
 Segui questi passaggi:
 
@@ -48,7 +48,7 @@ Segui questi passaggi:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente IA per l&#39;accelerazione del contenuto per personalizzare la nuova opzione di contenuto in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale per personalizzare la nuova opzione di contenuto in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -105,7 +105,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 
 >[!TAB Generazione solo testo]
 
-In questo esempio particolare, scopri come utilizzare l’Assistente IA in Journey Optimizer per l’accelerazione dei contenuti per contenuti specifici. Segui questi passaggi:
+In questo esempio, scopri come utilizzare AI Assistant Content Accelerator in Journey Optimizer per contenuti specifici. Segui questi passaggi:
 
 1. Dopo aver creato e configurato la campagna di notifica push, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -119,7 +119,7 @@ In questo esempio particolare, scopri come utilizzare l’Assistente IA in Journ
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto di riferimento]** per l&#39;Assistente IA per l&#39;accelerazione dei contenuti per personalizzare i nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto di riferimento]** per l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale per personalizzare il nuovo contenuto in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -179,7 +179,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** per l&#39;Assistente IA per l&#39;accelerazione dei contenuti per personalizzare nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
+1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** per l&#39;Acceleratore contenuto dell&#39;Assistente IA per personalizzare il nuovo contenuto in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 

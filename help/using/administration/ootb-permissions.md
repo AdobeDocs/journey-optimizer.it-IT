@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 
 | Funzionalità | Autorizzazioni |
 |-|-|
-| Assistente IA | **[!DNL Generate content]**: accesso all&#39;assistente AI in Journey Optimizer per l&#39;accelerazione dei contenuti. |
+| Assistente IA | **[!DNL Generate content]**: accesso a IA Assistant Content Accelerator in Journey Optimizer. |
 | Campagne | **[!DNL Manage campaigns]**: leggere, creare, modificare ed eliminare campagne. </br>**[!DNL Publish campaigns]**: diritto di pubblicare campagne.</br>**[!DNL View campaigns]**: accesso in sola lettura alle campagne. </br>**[!DNL View campaigns report]**: legge e modifica i report delle campagne. |
 | Configurazioni canale | **[!DNL Export suppression list]**: accesso per esportare l&#39;elenco di soppressione come file CSV.</br>**[!DNL Manage alerts]**: abilita/disabilita avvisi per campagne, messaggi e adesioni.</br> **[!DNL Manage file routing]**: lettura, creazione, modifica ed eliminazione delle configurazioni di indirizzamento dei file. </br> **[!DNL Manage IP pools]**: lettura, creazione, modifica ed eliminazione del pool ip. </br>**[!DNL Manage landing page settings]**: lettura, creazione, modifica ed eliminazione delle impostazioni della pagina di destinazione.</br> **[!DNL Manage messages general settings]**: lettura, creazione, modifica ed eliminazione delle impostazioni generali del messaggio.</br>**[!DNL Manage messages presets]**: lettura, creazione, modifica ed eliminazione del branding dei contenuti.</br>**[!DNL Manage PTR records]**: lettura e modifica dei record PTR. </br>**[!DNL Manage SMS settings]**: lettura, creazione, modifica ed eliminazione delle impostazioni SMS.</br>**[!DNL Manage SMS subdomains]**: lettura, creazione, modifica ed eliminazione dei sottodomini SMS.</br> **[!DNL Manage Seedlist]**: lettura, creazione, modifica ed eliminazione dell&#39;elenco dei seed. </br> **[!DNL Manage subdomains delegation]**: delega del sottodominio di lettura, creazione, modifica ed eliminazione. </br>**[!DNL Manage suppression rules]**: accesso alle regole di soppressione lettura, creazione, modifica ed eliminazione.</br> **[!DNL View channel surfaces]**: accesso in sola lettura alle superfici di canale.</br>**[!DNL View file routing]**: accesso in sola lettura alle configurazioni di indirizzamento dei file.</br>**[!DNL View messages general settings]**: accesso in sola lettura alle impostazioni generali del messaggio.</br> **[!DNL View messages presets]**: accesso in sola lettura ai predefiniti per messaggi. </br> **[!DNL View PTR records]**: accesso in sola lettura ai record PTR.</br>**[!DNL View suppression list]**: lettura ed esportazione dell&#39;elenco di soppressione locale. |
 | Dashboard | **[!DNL View license usage dashboards]**: accesso in sola lettura al [dashboard utilizzo licenze](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: consente di creare un nuovo dashboard o di modificarne uno esistente.</br>**[!DNL Manage standard dashboards]**: consente di creare widget personalizzati e di modificare lo schema del widget tramite la libreria Widget.</br>**[!DNL View custom dashboards]**: accesso in sola lettura ai dashboard definiti dall&#39;utente.</br>**[!DNL View standard dashboards]**: accesso in sola lettura ai dashboard Profili, Destinazioni e Tipi di pubblico. |

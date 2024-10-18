@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Assistente IA in Journey Optimizer per l’accelerazione di contenuti"
->abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA in Journey Optimizer per l’accelerazione di contenuti per migliorare il contenuto. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+>title="Assistente AI Content Accelerator in Journey Optimizer"
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Acceleratore dei contenuti dell’Assistente di intelligenza artificiale in Journey Optimizer per migliorarne i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Carica risorsa del brand"
->abstract="Con il menu Carica risorsa del brand puoi aggiungere una risorsa del brand il cui contenuto può fornire ulteriore contesto per l’Assistente IA in Journey Optimizer per l’accelerazione di contenuti, o selezionare una risorsa già caricata in precedenza. Grazie a questa opzione, Assistente IA può accedere a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
+>abstract="Il menu Carica risorse del brand consente di aggiungere qualsiasi risorsa del brand contenente contenuti che possano fornire ulteriore contesto per l’AI Assistant Content Accelerator in Journey Optimizer o di selezionare una risorsa caricata in precedenza. Grazie a questa opzione, Assistente IA può accedere a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -38,20 +38,20 @@ ht-degree: 100%
 >Immergiti in un’esperienza pratica con [la nostra anteprima della funzione live](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, progettata per permetterti di esplorarla in prima persona e comprenderne appieno le funzionalità.
 
 
-L’Assistente IA in Adobe Journey Optimizer per l’accelerazione dei contenuti, basato su tecnologia Azure OpenAI e visione di Adobe Firefly di Microsoft, offre suggerimenti proattivi per la variazione dei contenuti per testo e immagini. È disponibile per i canali e-mail, push e SMS. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt. La generazione di immagini è gestita con Adobe Firefly.
+L&#39;Assistente AI Content Accelerator in Adobe Journey Optimizer, basato su Microsoft Azure OpenAI e Adobe Firefly, offre suggerimenti proattivi per la variazione dei contenuti per testo e immagini. È disponibile per i canali e-mail, push e SMS. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt. La generazione di immagini è gestita con Adobe Firefly.
 
-Utilizza l’Assistente IA di Adobe Journey Optimizer per l’accelerazione dei contenuti per ottimizzare l’impatto del messaggio sperimentando con diversi titoli principali e immagini. Genera più varianti e crea un esperimento per confrontarle. Sfruttando l’esperimento con contenuti di Journey Optimizer, puoi definire più trattamenti per i messaggi al fine di misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio nei termini della metrica specificata. Per ulteriori informazioni sull’esperimento contenuti, consulta [questa sezione](../content-management/content-experiment.md).
+Utilizza AI Assistant Content Accelerator in Adobe Journey Optimizer per ottimizzare l’impatto del messaggio sperimentando diversi titoli e immagini principali. Genera più varianti e crea un esperimento per confrontarle. Sfruttando l’esperimento con contenuti di Journey Optimizer, puoi definire più trattamenti per i messaggi al fine di misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio nei termini della metrica specificata. Per ulteriori informazioni sull’esperimento contenuti, consulta [questa sezione](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
 >* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](#generative-guardrails).
 >
 >
->* Devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare l’Assistente IA di Adobe Journey Optimizer per l’accelerazione dei contenuti. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>* È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare l&#39;Acceleratore contenuto dell&#39;Assistente IA in Adobe Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ## Accedi all’Assistente IA per l’accelerazione di contenuti. {#generative-access}
 
-Per accedere all’Assistente IA di Adobe Journey Optimizer per la funzione di accelerazione dei contenuti, è necessario concedere agli utenti l’autorizzazione **Genera contenuto**. [Ulteriori informazioni](../administration/permissions.md)
+Per accedere alla funzionalità Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, è necessario concedere agli utenti l&#39;autorizzazione **Genera contenuto**. [Ulteriori informazioni](../administration/permissions.md)
 
 +++  Scopri come assegnare le autorizzazioni relative alla generazione di contenuti
 
@@ -59,7 +59,7 @@ Per accedere all’Assistente IA di Adobe Journey Optimizer per la funzione di a
 
 1. Fai clic su **Modifica** per modificare le autorizzazioni.
 
-1. Aggiungi la risorsa **Assistente IA**, quindi seleziona **Genera contenuto** dal menu a discesa.
+1. Aggiungi la risorsa **Assistente AI**, quindi seleziona **Genera contenuto** dal menu a discesa.
 
    ![](assets/gen-ai-role.png){zoomable="yes"}
 
@@ -79,17 +79,17 @@ L’utente riceverà un’e-mail con istruzioni per accedere all’istanza.
 
 ## Guardrail e limitazioni {#generative-guardrails}
 
-Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assistente IA di Adobe Journey Optimizer per l’accelerazione dei contenuti per la generazione di e-mail:
+Di seguito sono elencate le linee guida generali per l’utilizzo di AI Assistant Content Accelerator in Adobe Journey Optimizer per la generazione di e-mail:
 
 * La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizza un prompt ben definito per interpretare con precisione il modello GenAI. 
 * Carica la risorsa del brand in modo che sia accurata per il relativo contenuto. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: file PDF, JPEG, PNG o ZIP (con formati di file supportati).
 * La dimensione massima per risorsa del marchio caricata è 50 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
-* Utilizza un modello personalizzato o specifico di un brand per creare il contenuto dell’e-mail utilizzando l’Assistente IA di Adobe per l’accelerazione dei contenuti in Journey Optimizer. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
+* Utilizza un modello personalizzato o specifico per il brand per creare il contenuto delle e-mail utilizzando AI Assistant Content Accelerator in Adobe Journey Optimizer. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 * Assicurati di segnalare eventuali output problematici utilizzando le icone con il pollice su, il pollice giù o un flag durante la selezione delle varianti.
-* L’utilizzo dell’assistente IA è soggetto alle linee guida per l’utente sull’intelligenza artificiale generativa di Adobe Experience Cloud. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* L’utilizzo di AI Assistant è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Nell’ambito dell’impegno di Adobe per la promozione della trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativa durante la creazione di contenuti multimediali, Adobe applicherà Content Credential ogni volta che verranno scaricati o esportati contenuti o progetti in cui è inclusa una risorsa generata dal Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html)
 
-All’Assistente IA per l’accelerazione dei contenuti di Adobe Journey Optimizer si applicano le seguenti limitazioni:
+Le seguenti limitazioni si applicano ad AI Assistant Content Accelerator in Adobe Journey Optimizer:
 
 * È supportata solo la lingua inglese. Gli input non inglesi possono produrre risultati incoerenti o errati. Al momento, le questioni derivanti da risposte non in lingua inglese non saranno affrontate o migliorate.
 * Disponibile solo per i canali e-mail, push, web e SMS.
