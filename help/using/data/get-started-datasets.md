@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 95%
 
 ---
 
@@ -37,12 +37,7 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 >[!NOTE]
 >
->A partire dal 1° novembre 2024, un guardrail time-to-live (TTL) verrà applicato ai set di dati di Journey Optimizer generati dal sistema, come segue:
->
->* 90 giorni per i dati nell’archivio dei profili
->* 13 mesi per i dati nel data lake
->
->Inoltre, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback.
+>A partire dal 1° novembre 2024, sui set di dati generati dal sistema Journey Optimizer verrà applicato un guardrail time-to-live (TTL). Inoltre, in quel momento, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback. [Ulteriori informazioni](datasets-ttl.md)
 
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività set di dati e vedi i dettagli del set di dati selezionato. La scheda attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 
