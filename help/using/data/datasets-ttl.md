@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sul nuovo guardrail Time-to-live (TTL)
-description: Nuovo guardrailin Time-to-live (TTL) di Adobe Journey Optimizer
+title: Informazioni sul Time-to-live (TTL) e sulle modifiche della segmentazione in streaming
+description: Modifiche al time-to-live e alla segmentazione in streaming in Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 5%
 
 ---
 
 
-# Time-to-live (TTL) e aggiornamenti della segmentazione in streaming {#ttl-guardrail}
+# Modifiche al time-to-live e alla segmentazione in streaming {#ttl-guardrail}
 
 ## Guardrail Time-to-live (TTL) {#ttl}
 
@@ -49,7 +49,7 @@ I dati in CJA sono sincronizzati con quelli di Experience Platform. Pertanto, an
 
 ## Aggiornamenti della segmentazione in streaming {#segmentation-update}
 
-Inoltre, il 1° novembre, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e feedback dai set di dati di tracciamento e feedback. Le informazioni sui motivi per cui questa pratica è stata scoraggiata in passato sono disponibili [qui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+Inoltre, il 1° novembre, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e feedback dai set di dati di tracciamento e feedback.  Le informazioni sui motivi per cui questa pratica è stata scoraggiata in passato sono disponibili [qui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 
 **Domande frequenti**
