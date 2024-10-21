@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Disponibilità limitata"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -102,7 +102,7 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
 1. Attiva l’intero set di regole facendo clic sul pulsante con i puntini di sospensione accanto al pulsante Aggiungi regola nell’angolo superiore destro dello schermo.
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Applicare le regole di limitazione ai percorsi {#apply-capping}
 
