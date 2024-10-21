@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilità limitata"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: ea947514012c342fd28155e6610b2eb13547b465
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,10 @@ Cosa troverai in questa documentazione:
 
 La limitazione dei percorsi consente di limitare il numero di percorsi in cui un profilo può essere iscritto, evitando il sovraccarico di comunicazione. In Journey Optimizer, puoi impostare due tipi di regole per i limiti:
 
-* **Limitazione di ingressi** limita il numero di ingressi in un percorso in un determinato periodo per un profilo.
-* **Il limite di concorrenza** limita il numero di percorsi in cui un profilo può essere iscritto contemporaneamente. Questo tipo di limite sfrutta i punteggi di priorità del percorso per arbitrare le voci se i profili sono idonei per più percorsi contemporaneamente in un determinato periodo.
+* **Limite di voci** limita il numero di voci di percorso in un determinato periodo per un profilo.
+* **Il limite di concorrenza** limita il numero di percorsi in cui un profilo può essere iscritto contemporaneamente.
+
+Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbitrare le voci.
 
 ## Creazione di una regola di limite di percorso {#create-rule}
 
@@ -67,21 +69,28 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
      +++Configurare una regola di limitazione delle voci di percorso
 
-      1. Nel campo **[!UICONTROL Limitazione]**, imposta il numero massimo di volte che un profilo può entrare nel percorso.
-      1. Nel campo **[!UICONTROL Durata]**, definisci il periodo di tempo da considerare.
+      1. Nel campo **[!UICONTROL Limitazione]**, imposta il numero massimo di percorsi che un profilo può immettere.
+      1. Nel campo **[!UICONTROL Durata]**, definisci il periodo di tempo da considerare. La durata si basa sul fuso orario UTC. Ad esempio, il limite giornaliero verrà reimpostato alla mezzanotte UTC.
 
-     In questo esempio, vogliamo impedire ai profili di entrare in questo percorso più di &quot;5&quot; volte in un mese.
+     In questo esempio, vogliamo impedire ai profili di immettere più di &quot;5&quot; percorsi in un mese.
 
      ![](assets/journey-capping-entry-example.png)
+
+     >[!NOTE]
+     >
+     >Il sistema prenderà in considerazione la priorità dei prossimi percorsi pianificati a cui verrà applicata la stessa regola.
+     >
+     >In questo esempio, se l’addetto marketing ha già inserito 4 percorsi ed è previsto un altro percorso pianificato questo mese con priorità maggiore, ai clienti verrà impedito di accedere al percorso con priorità inferiore.
 
 +++
 
      +++Configurare una regola di limitazione della concorrenza di percorso
 
       1. Nel campo **[!UICONTROL Limitazione]**, imposta il numero massimo di percorsi in cui un profilo può essere iscritto contemporaneamente.
+
       1. Utilizza il campo **[!UICONTROL Prioritization look ahead]** per determinare le voci di percorso in base ai punteggi di priorità in un periodo scelto (ad esempio, 1 giorno, 7 giorni, 30 giorni). Questo consente di dare priorità all’ingresso in percorsi di valore superiore se un profilo è idoneo a più percorsi.
 
-     In questo esempio, vogliamo impedire ai profili di entrare nel percorso se sono già iscritti a un altro percorso. Se un altro percorso entro i prossimi 7 giorni ha un punteggio di priorità più alto, il profilo entrerà in questo percorso.
+     In questo esempio, vogliamo impedire ai profili di entrare nel percorso se sono già iscritti a un altro percorso contenente lo stesso set di regole. Se un altro percorso entro i prossimi 7 giorni ha un punteggio di priorità più alto, il profilo non entrerà in questo percorso.
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
@@ -98,6 +107,11 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 ## Applicare le regole di limitazione ai percorsi {#apply-capping}
 
 Per applicare una regola di limite a un percorso, accedere al percorso e aprirne le proprietà. Nel menu a discesa **[!UICONTROL Regole di limitazione]**, seleziona il set di regole pertinente.
+
 Dopo l’attivazione del percorso, diventano effettive le regole di limitazione definite nel set di regole.
 
 ![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 15 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 15 minuti per evitare che ciò si verifichi.
