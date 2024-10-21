@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
-ht-degree: 18%
+source-wordcount: '2279'
+ht-degree: 17%
 
 ---
 
@@ -45,11 +45,12 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 ## Pubblico di destinazione in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Nelle campagne e nei percorsi puoi selezionare qualsiasi pubblico generato utilizzando le definizioni dei segmenti, i flussi di lavoro di caricamento personalizzato o di composizione.
+Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utilizzando le definizioni dei segmenti, il caricamento personalizzato, i flussi di lavoro di composizione o la Composizione federata del pubblico.
 
 >[!AVAILABILITY]
 >
->L’utilizzo dei tipi di pubblico e degli attributi della composizione del pubblico non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
+>
+L’utilizzo dei tipi di pubblico e degli attributi della composizione del pubblico non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi diversi:
 
@@ -63,11 +64,11 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
   >[!NOTE]
   >
-  >A causa della natura batch dei tipi di pubblico creati utilizzando flussi di lavoro di composizione e caricamento personalizzato, non puoi indirizzarli a un’attività &quot;Qualificazione del pubblico&quot;. Solo i tipi di pubblico creati utilizzando le definizioni dei segmenti possono essere utilizzati in questa attività.
+  >A causa della natura batch dei tipi di pubblico creati utilizzando flussi di lavoro di composizione, caricamento personalizzato o composizione di pubblico federato, non puoi indirizzare questi tipi di pubblico in un’attività &quot;Qualificazione del pubblico&quot;. Solo i tipi di pubblico creati utilizzando le definizioni dei segmenti possono essere utilizzati in questa attività.
 
 ## Utilizzare gli attributi di arricchimento del pubblico {#enrichment}
 
-Quando esegui il targeting di un pubblico generato utilizzando flussi di lavoro di composizione o un pubblico personalizzato (file CSV), puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
+Quando esegui il targeting di un pubblico generato utilizzando flussi di lavoro di composizione, un pubblico personalizzato (file CSV) o una composizione di pubblico federato, puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezio
 >
 +++
 
-## Tipi di pubblico per caricamento personalizzato (file CSV) {#csv}
+## Caricamento personalizzato e pubblico con Federated Audience Composition {#csv}
 
-Questa sezione fornisce informazioni chiave da tenere a mente quando si lavora con tipi di pubblico di caricamento personalizzati (file CSV):
+Questa sezione fornisce informazioni chiave da tenere presenti quando si lavora con i tipi di pubblico Caricamento personalizzato (file CSV) e Composizione federata del pubblico:
 
-* **Supporto di anteprima e bozza per i tipi di pubblico CSV:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati con il caricamento CSV. Tieni presente questo aspetto durante la pianificazione delle campagne.
+* **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
 
-* **Ritardi nell&#39;attivazione rapida e nell&#39;unione delle identità:** l&#39;architettura di Adobe Experience Platform ritarda l&#39;unione delle identità per rendere immediatamente disponibili i tipi di pubblico per il caricamento personalizzati per l&#39;attivazione in Journey Optimizer, con i seguenti effetti:
+* **Ritardi nell&#39;attivazione rapida e nell&#39;unione delle identità:** l&#39;architettura di Adobe Experience Platform ritarda l&#39;unione delle identità per rendere immediatamente disponibili per l&#39;attivazione in Journey Optimizer i tipi di pubblico Caricamento personalizzato e Composizione del pubblico federato, con i seguenti effetti:
 
    * I tipi di pubblico sono pronti per essere utilizzati in Journey Optimizer al termine dell’acquisizione. Sebbene questo avvenga in genere entro un’ora, è soggetto ad alcune variabilità.
    * Il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
-   * Ogni record nel file CSV verrà attivato, compresi eventuali duplicati. Durante la prossima esportazione del profilo UPS, questi record passeranno attraverso l’unione delle identità.
+   * Verrà attivato ogni record del pubblico, compresi eventuali duplicati. Durante la prossima esportazione del profilo UPS, questi record passeranno attraverso l’unione delle identità.
 
-* **Esecuzione del targeting di nuovi profili da caricamenti CSV:** Quando non viene trovata una corrispondenza tra un record CSV e un profilo UPS, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
+* **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo UPS, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
 
-  Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l’attributo scelto come identità durante il caricamento del CSV sarà quello utilizzato per il targeting in Journey Optimizer.
+  Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l’attributo scelto come identità nella creazione del pubblico sarà quello utilizzato per il targeting in Journey Optimizer.
 
 ## Metodi di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
 
