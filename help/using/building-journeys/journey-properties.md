@@ -58,7 +58,7 @@ La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori i
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Consentire il reingresso"
->abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Puoi deselezionare l’opzione **Consenti reingresso** se desideri, ad esempio, offrire un omaggio una tantum quando una persona entra in un negozio."
+>abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l’opzione **Consenti reingresso**, ad esempio se si desidera offrire un omaggio una tantum quando una persona entra in un negozio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
 Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l&#39;opzione **Consenti rientro** per i percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio.

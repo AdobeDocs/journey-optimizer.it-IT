@@ -1,5 +1,5 @@
 ---
-title: Mostrare l’anteprima e verificare il contenuto
+title: Mostra anteprima e verifica il contenuto
 description: Scopri come visualizzare in anteprima e testare i contenuti.
 feature: Preview, Proofs
 role: User
