@@ -4,20 +4,15 @@ description: Scopri come impostare un processo di approvazione per percorsi e ca
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: ht
-source-wordcount: '583'
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
 # Introduzione all’approvazione di percorsi e campagne {#send-proofs}
-
->[!AVAILABILITY]
->
-> I criteri di approvazione sono attualmente disponibili solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 ## Introduzione ai criteri di approvazione {#gs}
 

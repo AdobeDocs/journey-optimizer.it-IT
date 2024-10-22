@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1714'
 ht-degree: 7%
 
 ---
@@ -219,7 +219,7 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
 
 >[!IMPORTANT]
 >
->A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
+> Se la campagna è soggetta a un criterio di approvazione, dovrai richiedere l’approvazione per poter attivare le esperienze basate su codice. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Dopo aver definito l&#39;esperienza basata su codice e aver modificato il contenuto come desiderato utilizzando l&#39;[editor basato su codice](#edit-code), puoi attivare il percorso o la campagna per rendere le modifiche visibili al pubblico.
 

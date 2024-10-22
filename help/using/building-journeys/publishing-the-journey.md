@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '269'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,13 @@ Se è necessario apportare modifiche a un percorso pubblicato, è necessario cre
 Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le persone che entrano nel percorso saranno fermate in modo permanente e il percorso non permetterà più nuovi ingressi. Se devi utilizzare nuovamente il percorso, devi duplicarlo e pubblicarlo.
 
 1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Si consiglia inoltre di verificare il percorso prima della pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
+
 1. Per pubblicare il percorso, fai clic sull&#39;opzione **[!UICONTROL Publish]**, che si trova nel menu a discesa in alto a destra.
+
+   >[!NOTE]
+   >
+   > Se il tuo percorso è soggetto a una policy di approvazione, dovrai richiedere l’approvazione per poter pubblicare il percorso. [Ulteriori informazioni](../test-approve/gs-approval.md)
+
 
    ![](assets/journeyuc1_18.png)
 

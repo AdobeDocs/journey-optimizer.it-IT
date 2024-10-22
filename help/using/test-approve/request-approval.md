@@ -1,23 +1,18 @@
 ---
-title: Richiedi approvazione
+title: Richiedere un’approvazione
 description: Scopri come richiedere l’approvazione prima di pubblicare percorsi e campagne.
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
-# Richiedi approvazione {#request-approval}
-
->[!AVAILABILITY]
->
-> I criteri di approvazione sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+# Richiedere un’approvazione {#request-approval}
 
 Se la funzionalità del flusso di lavoro di approvazione è stata abilitata per la tua organizzazione, noterai che i pulsanti **[!UICONTROL Attiva]** e **[!UICONTROL Publish]** non sono più disponibili, rispettivamente, nei flussi di lavoro Crea campagna e Crea Percorso. Questi pulsanti sono stati sostituiti dal pulsante **[!UICONTROL Approvazione richiesta]**.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1150'
 ht-degree: 14%
 
 ---
@@ -122,7 +122,7 @@ Informazioni dettagliate su come selezionare profili di test e visualizzare in a
 
 >[!IMPORTANT]
 >
->A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
+> Se la campagna è soggetta a un criterio di approvazione, sarà necessario richiedere l’approvazione per poter attivare le esperienze web. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Dopo aver definito l&#39;esperienza Web e aver modificato il contenuto come desiderato utilizzando [web designer](edit-web-content.md#work-with-web-designer), puoi attivare il percorso o la campagna per rendere le modifiche visibili al pubblico.
 

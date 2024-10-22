@@ -10,9 +10,9 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '646'
 ht-degree: 6%
 
 ---
@@ -142,7 +142,7 @@ Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l�
 
 >[!IMPORTANT]
 >
->A partire dalla versione di settembre, una nuova esperienza di attivazione di una campagna e di un percorso consente di gestire l’intero processo di approvazione, garantendo che le campagne e i percorsi vengano rivisti e approvati accuratamente dalle parti interessate prima della pubblicazione. Questa funzione è disponibile in Disponibilità limitata. [Ulteriori informazioni](../test-approve/gs-approval.md)
+> Se la campagna è soggetta a un criterio di approvazione, per poter inviare la campagna o il percorso multilingue dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

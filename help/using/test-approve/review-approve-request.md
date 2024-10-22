@@ -4,20 +4,15 @@ description: Scopri come rivedere e approvare una richiesta di pubblicazione di 
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # Rivedere e approvare una richiesta {#approve-requests}
-
->[!AVAILABILITY]
->
-> I criteri di approvazione sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Se a un percorso o a una campagna si applica un criterio di approvazione, è necessario inviarlo per l’approvazione per poter essere pubblicato. A questo scopo, il creatore del percorso/campagna invia una richiesta agli approvatori definiti nei criteri di approvazione e il percorso/campagna ottiene lo stato **[!UICONTROL In revisione]**.
 
@@ -51,3 +46,7 @@ A tale scopo, fare clic sul pulsante **[!UICONTROL Richiedi modifiche]**. Nei ri
 ![](assets/request-changes.png)
 
 Dopo aver inviato la richiesta, il creatore del percorso/campagna riceve una notifica tramite e-mail e un avviso Journey Optimizer. La campagna ritorna allo stato &quot;Bozza&quot;. Una volta integrate le modifiche, il creatore di percorso/campagna può inviarle nuovamente per l’approvazione.
+
+>[!NOTE]
+>
+> Se non ricevi una notifica di approvazione tramite e-mail, devi aggiornare le preferenze degli abbonamenti nei profili di Experience Cloud. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences)
