@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 3ab4e6a7ff6c7e0ec97ee2021eb8b38e321b138c
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1657'
 ht-degree: 89%
 
 ---
@@ -42,6 +42,7 @@ Le [funzionalità](#24-10-features) e [miglioramenti](#24-10-improvements) elenc
 <p>Con i criteri di approvazione, ora puoi impostare un processo di approvazione in Journey Optimizer che consenta ai team di marketing di garantire che le campagne e i percorsi vengano rivisti e autorizzati dagli stakeholder prima della pubblicazione.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/gs-approval.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
+<p>Data di disponibilità: 21 ottobre 2024</p>
 </td>
 </tr>
 </tbody>
