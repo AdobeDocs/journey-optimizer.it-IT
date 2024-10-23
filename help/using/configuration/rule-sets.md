@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 21%
@@ -306,7 +306,7 @@ Durante il test delle regole di frequenza, si consiglia di utilizzare un [profil
 
 Per applicare una regola di limite a un percorso, accedere al percorso e aprirne le proprietà. Nel menu a discesa **[!UICONTROL Regole di limitazione]**, seleziona il set di regole pertinente.
 
-![](assets/journey-capping-apply.png)
+![](../test-approve/assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
