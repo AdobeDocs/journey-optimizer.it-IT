@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1885'
 ht-degree: 40%
 
 ---
@@ -309,5 +309,6 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 * L’utilizzo di tipi di pubblico e attributi da aggiornamenti personalizzati (file CSV) non è al momento disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
 
+**Canale basato su codice**
 
-
+Durante la modifica di una campagna di esperienza basata su codice, i modelli disponibili per la scelta ora hanno l’ambito HTML o JSON in base alla configurazione del canale scelta in precedenza.
