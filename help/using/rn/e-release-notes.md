@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 43%
+source-wordcount: '1854'
+ht-degree: 40%
 
 ---
 
@@ -111,6 +111,26 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <td>
 <p>Già disponibile nelle campagne, Adobe Journey Optimizer ora supporta gli esperimenti nei percorsi. Gli esperimenti sono test randomizzati: nel contesto dei test online significa che esponi alcuni utenti selezionati in modo casuale a una determinata variante di un messaggio e un altro gruppo di utenti selezionato in modo casuale a un’altra variante o trattamento. Dopo l’esposizione, puoi quindi misurare le metriche del risultato che ti interessano, ad esempio apertura di e-mail, iscrizioni o acquisti.</p>
 <p>Precedentemente disponibile per un set di organizzazioni (LA), gli esperimenti nei percorsi sono ora disponibili per tutti gli utenti (GA).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Decisioning (disponibilità generale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning, precedentemente disponibile per un set di organizzazioni (LA) e noto come Experience Decisioning, è ora disponibile per tutti gli utenti (GA). Semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come "elementi decisionali" e un sofisticato motore decisionale. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni individuo gli elementi decisionali più rilevanti. Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di superfici in entrata tramite il canale di esperienza basato su codice.</p>
+
+<p>Per il momento, Decisioning non è disponibile per i clienti che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield e Privacy and Security Shield.</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 >[!AVAILABILITY]
 >
 >Le funzionalità di gestione dei conflitti e delle priorità sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per questa funzione, contatta il team del tuo account.
-
-**Gestione delle decisioni**
-
-* **Verifiche** - La scheda **Registro modifiche** consente di visualizzare tutte le modifiche apportate a un&#39;offerta o a una decisione è stata rimossa. Le modifiche relative alle offerte e alle decisioni ora sono visibili nel menu **Audit**.
-
 
 **Configurazione**
 
