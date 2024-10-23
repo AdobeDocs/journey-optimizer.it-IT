@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1793'
 ht-degree: 43%
 
 ---
@@ -273,6 +273,10 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
    * Gli eventi di reazione nei Percorsi non sono influenzati da questo cambiamento.
 
 * **Parametri nelle azioni personalizzate** (data di disponibilità: 3 ottobre 2024) - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Generazione rapporti**
+
+* È ora disponibile il reporting di **Experience Decisioning**, che offre informazioni essenziali su come i visitatori interagiscono con le esperienze.
 
 **Governance dei dati e criteri di consenso** - Data di disponibilità: 7 ottobre 2024
 
