@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilità limitata"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 18%
+source-wordcount: '1794'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,12 @@ I criteri di decisione contengono tutta la logica di selezione affinché il moto
 >[!NOTE]
 >
 >Nell&#39;interfaccia utente [!DNL Journey Optimizer], i criteri di decisione sono etichettati come decisioni<!--but they are decision policies. TBC if this note is needed-->.
+
+I passaggi principali per sfruttare i criteri decisionali nelle campagne basate su codice sono i seguenti:
+
+1. [Creare un criterio di decisione in una campagna basata su codice](#add-decision)
+1. [Utilizzare il criterio di decisione nella campagna basata su codice](#use-decision-policy)
+1. [Creazione di dashboard di reporting per Customer Journey Analytics personalizzati](#cja)
 
 ## Aggiungere un criterio di decisione a una campagna basata sul codice {#add-decision}
 
@@ -51,6 +57,8 @@ I criteri di decisione contengono tutta la logica di selezione affinché il moto
 
 Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna basata su codice. A questo scopo, segui i passaggi riportati qui sotto.
 
+### Creare il criterio di decisione {#add}
+
 1. Crea una campagna e seleziona l&#39;azione **[!UICONTROL Esperienza basata su codice]**. [Ulteriori informazioni](../code-based/create-code-based.md)
 
 1. Dall&#39;[editor di codice](../code-based/create-code-based.md#edit-code), seleziona l&#39;icona **[!UICONTROL Criteri di decisione]** e fai clic su **[!UICONTROL Aggiungi criterio di decisione]**.
@@ -63,50 +71,45 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
    >
    >Attualmente è disponibile solo il catalogo predefinito **[!UICONTROL Offerte]**.
 
+1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le migliori 2 offerte idonee per la configurazione corrente. Fai clic su **[!UICONTROL Avanti]**.
+
    ![](assets/decision-code-based-details.png)
 
-1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le migliori 2 offerte idonee per la configurazione corrente. Fai clic su **[!UICONTROL Avanti]**
+### Selezione di elementi e strategie di selezione {#select}
 
-1. Utilizza il pulsante **[!UICONTROL Aggiungi strategia]** per definire le strategie di selezione per i criteri di decisione. Ogni strategia è costituita da una raccolta di offerte associata a un vincolo di idoneità e da un metodo di classificazione per determinare le offerte da visualizzare. [Ulteriori informazioni](selection-strategies.md)
+La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elementi decisionali e le strategie di selezione da presentare con il criterio decisionale.
 
-   ![](assets/decision-code-based-strategies.png)
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi]**, quindi scegli il tipo di oggetto da includere nel criterio:
 
-   >[!NOTE]
-   >
-   >È necessaria almeno una strategia. Impossibile aggiungere più di 10 strategie.
+   * **[!UICONTROL Strategia di selezione]**: aggiungere una o più strategie di selezione. Le strategie decisionali sfruttano le raccolte associate ai vincoli di idoneità e ai metodi di classificazione per determinare gli elementi da mostrare. Puoi selezionare una strategia di selezione esistente o crearne una nuova utilizzando il pulsante **[!UICONTROL Crea strategia di selezione]**.[Scopri come creare strategie di selezione](selection-strategies.md)
 
-1. Dalla schermata **[!UICONTROL Aggiungi strategia]**, puoi anche creare una strategia. Il pulsante **[!UICONTROL Crea strategia di selezione]** ti reindirizza al menu **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configurazione strategia]**. [Ulteriori informazioni](selection-strategies.md)
+   * **[!UICONTROL Elemento decisione]**: aggiungere singoli elementi decisione da presentare senza dover eseguire una strategia di selezione. È possibile selezionare un solo elemento di decisione alla volta. Eventuali vincoli di idoneità impostati per l’articolo verranno applicati.
 
-   ![](assets/decision-code-based-add-strategy.png)
-
-1. Quando si aggiungono più strategie, queste verranno valutate in un ordine specifico. La prima strategia aggiunta alla sequenza verrà valutata per prima e così via. [Ulteriori informazioni](#evaluation-order)
-
-   Per modificare la sequenza predefinita, puoi trascinare e rilasciare le strategie e/o i gruppi per riordinarli come desiderato.
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. Aggiungi un fallback. Se nessuna delle strategie di selezione di cui sopra è qualificata, viene visualizzato un elemento di fallback.
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   È possibile selezionare qualsiasi elemento dall’elenco, in cui vengono visualizzati tutti gli elementi decisionali creati nella sandbox corrente. Se non viene definita alcuna strategia di selezione, il fallback viene visualizzato all&#39;utente indipendentemente dalle date e dal vincolo di idoneità applicato all&#39;elemento selezionato<!--nor frequency capping when available - TO CLARIFY-->.
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >Un fallback è facoltativo. Se non è selezionato alcun fallback e nessuna strategia è qualificata, [!DNL Journey Optimizer] non visualizzerà nulla.
+   >È necessario almeno un elemento di decisione o una strategia. Impossibile aggiungere più di 10 strategie.
 
-1. Salva la selezione e fai clic su **[!UICONTROL Crea]**. Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
+1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via.     Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni sull&#39;ordine di valutazione dei criteri di decisione](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### Gestire l’ordine di valutazione in un criterio decisionale {#evaluation-order}
 
-## Ordine di valutazione {#evaluation-order}
+Dopo aver aggiunto al criterio elementi decisionali e strategie di selezione, è possibile disporne l&#39;ordine per determinarne l&#39;ordine di valutazione e combinare le strategie di selezione per valutarli insieme.
 
-Come descritto in precedenza, una strategia è costituita da una raccolta, un metodo di classificazione e vincoli di idoneità.
+L&#39;**ordine sequenziale** in cui verranno valutati gli elementi e le strategie è indicato con numeri alla sinistra di ogni oggetto o gruppo di oggetti. Per spostare la posizione di una strategia di selezione (o di un gruppo di strategie) all&#39;interno della sequenza, trascinarla e rilasciarla in un&#39;altra posizione.
 
-Puoi eseguire le seguenti operazioni:
+>[!NOTE]
+>
+>Solo le strategie di selezione possono essere trascinate e rilasciate all&#39;interno di una sequenza. Per modificare la posizione di un elemento di decisione, è necessario rimuoverlo e aggiungerlo nuovamente utilizzando il pulsante **[!UICONTROL Aggiungi]** dopo aver aggiunto gli altri elementi che si desidera valutare in precedenza.
 
-* Impostare l&#39;ordine sequenziale desiderato per la valutazione delle strategie,
-* Combinare più strategie in modo che vengano valutate insieme e non separatamente.
+![](assets/decision-code-based-strategy-groups.png)
+
+È inoltre possibile **combinare** più strategie di selezione in gruppi in modo che vengano valutate insieme e non separatamente. A tale scopo, fare clic sul pulsante **`+`** in una strategia di selezione per combinarla con un&#39;altra. Puoi anche trascinare e rilasciare una strategia di selezione su un’altra per raggruppare le due strategie in un gruppo.
+
+>[!NOTE]
+>
+>Gli elementi decisionali non possono essere raggruppati con altri elementi o strategie di selezione.
 
 Le strategie multiple e il loro raggruppamento determinano la priorità delle strategie e la classificazione delle offerte idonee. La prima strategia ha la massima priorità e le strategie combinate all&#39;interno dello stesso gruppo hanno la stessa priorità.
 
@@ -159,6 +162,22 @@ Vengono valutate le offerte della Strategia 3 (Offerta 5, Offerta 6). Supponiamo
 Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
 
 +++
+
+### Aggiungere offerte di fallback {#fallback}
+
+Dopo aver selezionato elementi decisionali e/o strategie di selezione, puoi aggiungere offerte di fallback che verranno visualizzate dagli utenti se nessuno degli elementi o strategie di selezione di cui sopra è qualificato.
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+È possibile selezionare qualsiasi elemento dall’elenco, in cui vengono visualizzati tutti gli elementi decisionali creati nella sandbox corrente. Se non viene definita alcuna strategia di selezione, il fallback viene visualizzato all&#39;utente indipendentemente dalle date e dal vincolo di idoneità applicato all&#39;elemento selezionato<!--nor frequency capping when available - TO CLARIFY-->.
+
+>[!NOTE]
+>
+>Un fallback è facoltativo. Se non è selezionato alcun fallback e nessuna strategia è qualificata, [!DNL Journey Optimizer] non visualizzerà nulla. Puoi aggiungere fino al numero di elementi richiesti dal criterio di decisione. In questo modo viene garantito un determinato numero di elementi da restituire, se desiderato per il caso d’uso.
+
+Quando il criterio di decisione è pronto, salvarlo e fare clic su **[!UICONTROL Crea]**. Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## Utilizzare il criterio di decisione nell’editor di codice {#use-decision-policy}
 
