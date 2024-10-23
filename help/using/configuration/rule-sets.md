@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 27%
+source-wordcount: '1960'
+ht-degree: 21%
 
 ---
 
@@ -30,13 +30,15 @@ ht-degree: 27%
 >
 >I set di regole sono attualmente disponibili come versione beta solo per gli utenti selezionati. Contatta il rappresentante del tuo Adobe per essere incluso in Beta.
 
-## Cosa sono i set di regole? {#what}
+## Introduzione ai set di regole {#gs}
+
+### Cosa sono i set di regole? {#what}
 
 Oltre alle regole aziendali globali che limitano il numero di volte in cui gli utenti ricevono messaggi su uno o più canali, i set di regole ti consentono di **raggruppare più regole in set di regole** e applicarle alle campagne di tua scelta. Ciò offre una maggiore granularità per controllare la frequenza con cui gli utenti riceveranno un messaggio, a seconda del tipo di comunicazione.
 
 Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviate ai clienti e un altro set di regole per limitare il numero di **newsletter** inviate. A seconda del tipo di campagna che si sta creando, è possibile scegliere di applicare la comunicazione promozionale o il set di regole newsletter.
 
-## Set di regole globali e personalizzati {#global-custom}
+### Set di regole globali e personalizzati {#global-custom}
 
 Quando si accede ai set di regole per la prima volta dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali (Beta)]**, viene creato e attivato un set di regole predefinito: **Set di regole predefinito globale**.
 
@@ -50,9 +52,18 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole pe
 >
 >Per il momento, i set di regole personalizzati possono essere applicati solo alle **campagne**. Solo le regole definite nel set di regole &quot;Set di regole predefinito globale&quot; sono applicabili sia alle comunicazioni di percorsi che a quelle di campagne.
 
+### Regole di limitazione di canale e percorsi {#domain}
+
+Durante la creazione di un set di regole, è necessario specificare se le regole all’interno del set di regole applicheranno regole di limitazione specifiche per i canali di comunicazione o per i percorsi.
+
+Questa operazione viene eseguita selezionando un dominio di canale o di Percorso per il set di regole durante la sua creazione. [Scopri come creare un set di regole]
+
+* Dominio **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
+* Dominio **Percorso**: applica le regole di limitazione della concorrenza e delle voci a un percorso. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
+
 ## Creare il primo set di regole personalizzato {#create-rule-set}
 
-### Creare il set di regole {#create}
+### Crea il set di regole e selezionane il dominio {#create}
 
 Per creare un set di regole, segui la procedura riportata di seguito.
 
@@ -64,13 +75,16 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
    ![](assets/rule-sets-create-button.png)
 
-1. Definisci il nome del set di regole, aggiungi una descrizione se necessario e fai clic su **[!UICONTROL Salva]**.
+1. Definisci un nome univoco per il set di regole e aggiungi una descrizione.
+
+1. Seleziona il dominio del set di regole. Il dominio consente di specificare se il set di regole conterrà regole di limitazione di utilizzo specifiche per i canali di comunicazione o i percorsi:
+
+   * **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
+   * **Percorso**: applica a un percorso le regole di limite di concorrenza e di immissione. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
 
    ![](assets/rule-sets-create.png)
 
-   >[!NOTE]
-   >
-   >Il nome del set di regole deve essere univoco.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 1. Ora puoi [definire le regole](#create-new-rule) da aggiungere a questo set di regole.
 
@@ -96,13 +110,15 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 >title="Selezionare la categoria della regola del messaggio"
 >abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
 
-Per aggiungere una regola a un set di regole, effettua le seguenti operazioni.
+Per aggiungere una regola a un set di regole, accedere al set di regole e fare clic su **[!UICONTROL Aggiungi regola]**.
 
-1. Dal set di regole appena creato, fai clic su **[!UICONTROL Aggiungi regola]**.
+I parametri disponibili per la regola dipendono dal dominio del set di regole selezionato al momento della creazione.
 
-   ![](assets/rule-sets-create-rule-button.png)
++++Configurare le regole di limitazione dei canali (dominio **Canale**)
 
-1. Definisci un **nome regola** univoco.
+![](assets/rule-set-channels.png)
+
+1. Definisci un nome univoco per la regola.
 
 1. Il campo **Categoria** specifica la categoria del messaggio a cui si applica la regola. Per il momento, questo campo è di sola lettura perché è disponibile solo la categoria **[!UICONTROL Marketing]**.
 
@@ -130,8 +146,6 @@ Per aggiungere una regola a un set di regole, effettua le seguenti operazioni.
 
 1. Seleziona il canale da utilizzare per questa regola: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push]** o **[!UICONTROL Direct mail]**.
 
-   ![](assets/rule-set-channels.png)
-
    >[!NOTE]
    >
    >Per poter creare il messaggio, devi selezionare almeno un canale.
@@ -139,6 +153,23 @@ Per aggiungere una regola a un set di regole, effettua le seguenti operazioni.
 1. Se desideri applicare il limite come conteggio totale su tutti i canali selezionati, seleziona diversi canali.
 
    Ad esempio, imposta il limite su 5 e seleziona sia il canale e-mail che quello sms. Se un profilo ha già ricevuto 3 e-mail di marketing e 2 sms di marketing per il periodo selezionato, verrà escluso dalla consegna successiva di eventuali e-mail di marketing o sms.
+
++++
+
++++Configura regole limite percorso (**dominio Percorso**)
+
+![](assets/rule-set-journey.png)
+
+1. Specifica un nome univoco per la regola.
+
+1. Nell&#39;elenco a discesa **[!UICONTROL Tipo di regola]**, specificare il tipo di limite per la regola.
+
+   * **[!UICONTROL Limite Percorso di ingresso]**: limita il numero di ingressi nel percorso in un determinato periodo per un profilo.
+   * **[!UICONTROL Limite di concorrenza Percorso]**: limita il numero di percorsi in cui è possibile iscrivere contemporaneamente un profilo.
+
+1. Informazioni dettagliate su come configurare le regole di limitazione di percorso sono disponibili nella sezione [Limitazione di Percorso e arbitrato](../test-approve/journey-capping.md).
+
++++
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare la creazione della regola. Il messaggio viene aggiunto al set di regole con lo stato **[!UICONTROL Bozza]**.
 
@@ -206,9 +237,11 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Applicare un set di regole a un messaggio {#apply-frequency-rule}
+## Applicare i set di regole a un messaggio o a un percorso {#apply-frequency-rule}
 
-Per applicare una regola aziendale a un messaggio, segui i passaggi riportati qui sotto.
+Puoi applicare un set di regole a un messaggio o a un percorso, a seconda del dominio selezionato durante la creazione del set di regole. Per ulteriori informazioni, espandi le sezioni seguenti.
+
++++ Applicare un set di regole a un messaggio
 
 1. Durante la creazione di una [campagna](../campaigns/create-campaign.md), seleziona uno dei canali definiti per il set di regole e modifica il contenuto del messaggio.
 
@@ -266,3 +299,17 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 Durante il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, perché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al periodo successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+
++++
+
++++ Applicare un set di regole a un percorso
+
+Per applicare una regola di limite a un percorso, accedere al percorso e aprirne le proprietà. Nel menu a discesa **[!UICONTROL Regole di limitazione]**, seleziona il set di regole pertinente.
+
+![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 15 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 15 minuti per evitare che ciò si verifichi.
+
++++
