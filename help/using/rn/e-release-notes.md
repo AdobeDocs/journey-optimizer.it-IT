@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
+source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 46%
+source-wordcount: '1775'
+ht-degree: 43%
 
 ---
 
@@ -120,14 +120,14 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <table>
 <thead>
 <tr>
-<th><strong>Regole aziendali (disponibilità generale)</strong><br/></th>
+<th><strong>Set di regole (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare regole granulari di quota limite e applicarle a diversi tipi di comunicazioni di marketing tramite set di regole. Questa nuova funzionalità consente di controllare la frequenza con cui i tipi di pubblico ricevono un messaggio impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p>
-<p>Precedentemente disponibile per un set di organizzazioni (LA), i set di regole sono ora disponibili per tutti gli utenti (GA).</p>
+<p>Ora puoi creare regole granulari per il limite di frequenza e applicarle ai messaggi o ai percorsi tramite set di regole. Questa nuova funzionalità consente di controllare la frequenza con cui i tipi di pubblico ricevono un messaggio impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p><p>Consente inoltre di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione.</p>
+<p> I set di regole sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per questa funzione, contatta il team del tuo account.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -234,13 +234,17 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 * Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
 * Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
 
-**Gestione della frequenza e della priorità**
+**Gestione dei conflitti e delle priorità**
 
-* **Limitazione della frequenza per campagna o percorso** - È ora possibile creare regole di frequenza da applicare ai percorsi, che consentono di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.
+* **Limitazione della frequenza per percorso** - È ora possibile creare set di regole da applicare ai percorsi, consentendo di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.
 
 * **Punteggio di priorità** - È ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o percorsi utilizzano la stessa configurazione di canale, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente. Il punteggio di priorità è disponibile per tutti i canali in entrata nelle campagne e per il canale in-app in percorsi.
 
 * **Conflitti di visualizzazione** - Un nuovo pulsante **Conflitti di visualizzazione** in percorsi e campagne consente ora di verificare ogni volta che è possibile una sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.
+
+>[!AVAILABILITY]
+>
+>Le funzionalità di gestione dei conflitti e delle priorità sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per questa funzione, contatta il team del tuo account.
 
 **Gestione delle decisioni**
 
