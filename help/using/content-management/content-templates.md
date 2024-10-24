@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '214'
 ht-degree: 7%
 
 ---
@@ -26,15 +26,19 @@ Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su 
 
 Ad esempio, un utente all’interno dell’azienda è solo responsabile dei contenuti e quindi non ha accesso a campagne o percorsi. Tuttavia, questo utente può creare un modello e-mail che gli esperti marketing della tua organizzazione potranno selezionare per l’utilizzo in tutte le e-mail come punto di partenza.
 
-Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+Puoi creare modelli di contenuto per i canali E-mail, Push, In-app, SMS e Direct Mail.
+
+>[!AVAILABILITY]
+>
+>Al momento i modelli di contenuto non sono disponibili per il canale web.
+
+Per creare, modificare ed eliminare modelli di contenuto, è necessario disporre dell&#39;autorizzazione **[!DNL Manage library items]** inclusa nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [Scopri come creare e utilizzare i modelli in questo video](#video-templates)
 
->[!CAUTION]
+>[!NOTE]
 >
->Al momento i modelli di contenuto non sono disponibili per il canale web.
->
->Per creare, modificare ed eliminare modelli di contenuto, è necessario disporre dell&#39;autorizzazione **[!DNL Manage library items]** inclusa nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+>Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Video introduttivo {#video-templates}
 
