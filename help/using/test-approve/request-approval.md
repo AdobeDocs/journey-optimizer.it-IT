@@ -4,9 +4,9 @@ description: Scopri come richiedere l’approvazione prima di pubblicare percors
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ L’accesso al flusso di lavoro di approvazione è determinato dal caso d’uso 
 
 * **Criteri di approvazione attivi esistenti**
 
-   * **Campagne**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Campaign in una sandbox, tutte le campagne in tale sandbox visualizzeranno il pulsante **[!UICONTROL Richiedi approvazione]**. Ciò significa che le campagne non possono essere attivate direttamente senza approvazione.
+   * **Campagne**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Campaign in una sandbox, tutte le campagne in tale sandbox visualizzeranno il pulsante **[!UICONTROL Richiedi approvazione]**.
+Se all&#39;oggetto selezionato non viene applicato alcun criterio di approvazione quando si fa clic sul pulsante **[!UICONTROL Richiedi approvazione]**, verrà attivato il flusso di lavoro di approvazione automatica.
 
-   * **Percorsi**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Percorso in una sandbox, in tutti i percorsi verrà visualizzato il pulsante **[!UICONTROL Richiedi approvazione]**. Analogamente alle campagne, i percorsi non possono essere pubblicati direttamente se è attivo un criterio di approvazione.
+   * **Percorsi**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Percorso in una sandbox, in tutti i percorsi verrà visualizzato il pulsante **[!UICONTROL Richiedi approvazione]**.
+Se all&#39;oggetto selezionato non viene applicato alcun criterio di approvazione quando si fa clic sul pulsante **[!UICONTROL Richiedi approvazione]**, verrà attivato il flusso di lavoro di approvazione automatica.
 
 ## Invia richiesta di approvazione
 
