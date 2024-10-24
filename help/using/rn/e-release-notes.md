@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
+source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 40%
+source-wordcount: '1853'
+ht-degree: 41%
 
 ---
 
@@ -83,6 +83,29 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestione dei conflitti e delle priorità (disponibilità limitata)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità.</p><p><ul><li><b>Limitazione frequenza Percorsi</b>: ora puoi creare set di regole da applicare ai tuoi percorsi, consentendo di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.</li>
+<li><b>Punteggio di priorità</b>: è ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o azioni di percorso utilizzano la stessa configurazione di canale, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata meno di recente.</li>
+<li><b>Visualizza potenziali conflitti</b>: un nuovo pulsante "Visualizza potenziali conflitti" nei percorsi e nelle campagne ora consente di identificare la sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.</li>
+<li><b>Arbitrato di Percorso</b>: questa nuova funzionalità consente di assegnare la priorità ai percorsi più importanti per i clienti. Puoi creare una regola per eliminare l’ingresso in un percorso con priorità inferiore quando un cliente si qualifica per un prossimo percorso con priorità maggiore.</li></ul></p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
+<p>Le funzionalità di gestione dei conflitti e delle priorità sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per queste funzioni, contatta il team del tuo account.</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -147,7 +170,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tr>
 <td>
 <p>Ora puoi creare regole granulari per il limite di frequenza e applicarle ai messaggi o ai percorsi tramite set di regole. Questa nuova funzionalità consente di controllare la frequenza con cui i tipi di pubblico ricevono un messaggio impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p><p>Consente inoltre di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione.</p>
-<p> I set di regole sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per questa funzione, contatta il team del tuo account.</p>
+<p>I set di regole sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per questa funzione, contatta il team del tuo account.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -254,18 +277,6 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 * Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
 * Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
 
-**Gestione dei conflitti e delle priorità**
-
-* **Limitazione della frequenza per percorso** - È ora possibile creare set di regole da applicare ai percorsi, consentendo di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.
-
-* **Punteggio di priorità** - È ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o percorsi utilizzano la stessa configurazione di canale, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente. Il punteggio di priorità è disponibile per tutti i canali in entrata nelle campagne e per il canale in-app in percorsi.
-
-* **Conflitti di visualizzazione** - Un nuovo pulsante **Conflitti di visualizzazione** in percorsi e campagne consente ora di verificare ogni volta che è possibile una sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.
-
->[!AVAILABILITY]
->
->Le funzionalità di gestione dei conflitti e delle priorità sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per questa funzione, contatta il team del tuo account.
-
 **Configurazione**
 
 * **Personalizzazione della configurazione del canale** - Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, ora puoi visualizzare in anteprima il contenuto dell&#39;e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite.
@@ -276,16 +287,14 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 * **Numero massimo di percorsi live**: Journey Optimizer ora dispone di un guardrail di 500 percorsi live sulle sandbox di produzione, anziché di 100. Il numero di percorsi live è visibile nell’area di lavoro del percorso. <!-- DOCAC-10977-->
 
-* **Guarddrail time-to-live** - A partire dal 1° novembre 2024, un guardrail time-to-live (TTL) verrà applicato ai set di dati generati dal sistema di Journey Optimizer come segue:
+* **Gudrail time-to-live** - A partire dal 1° novembre 2024, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
 
    * 90 giorni per i dati nell’archivio dei profili
    * 13 mesi per i dati nel data lake
 
-  Inoltre, in quel momento, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e feedback dai set di dati di tracciamento e feedback. Abbiamo consigliato di non utilizzare questi eventi per la segmentazione in streaming per un po’ di tempo e ora li disabiliteremo completamente.
+  Questa modifica verrà implementata nelle sandbox dei clienti esistenti in una seconda fase.
 
-   * Questa modifica limita solo l’utilizzo di eventi di invio/apertura nella segmentazione in streaming; gli eventi di clic possono ancora essere utilizzati in un segmento in streaming. Inoltre, è ancora possibile utilizzare gli eventi di invio/apertura in un segmento batch.
-   * I dati di tracciamento verranno comunque raccolti. Questa modifica non influisce sul tracciamento. Puoi comunque tenere traccia di chi ha ricevuto un’e-mail e di chi ha fatto clic su un’e-mail.
-   * Gli eventi di reazione nei Percorsi non sono influenzati da questo cambiamento.
+  Inoltre, a partire dal 1° novembre, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback. Questa modifica verrà applicata a tutte le sandbox e organizzazioni dei clienti in quel momento. [Ulteriori informazioni](../data/datasets-ttl.md)
 
 * **Parametri nelle azioni personalizzate** (data di disponibilità: 3 ottobre 2024) - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -308,7 +317,3 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 * Quando esegui il targeting di un pubblico di un file CSV, ora puoi utilizzare gli attributi del file nell’editor di personalizzazione e nel generatore di regole per percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md)
 
 * L’utilizzo di tipi di pubblico e attributi da aggiornamenti personalizzati (file CSV) non è al momento disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
-
-**Canale basato su codice**
-
-Durante la modifica di una campagna di esperienza basata su codice, i modelli disponibili per la scelta ora hanno l’ambito HTML o JSON in base alla configurazione del canale scelta in precedenza.
