@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 21%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 21%
 Oltre alle regole aziendali globali che limitano il numero di volte in cui gli utenti ricevono messaggi su uno o più canali, i set di regole ti consentono di **raggruppare più regole in set di regole** e applicarle alle campagne di tua scelta. Ciò offre una maggiore granularità per controllare la frequenza con cui gli utenti riceveranno un messaggio, a seconda del tipo di comunicazione.
 
 Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviate ai clienti e un altro set di regole per limitare il numero di **newsletter** inviate. A seconda del tipo di campagna che si sta creando, è possibile scegliere di applicare la comunicazione promozionale o il set di regole newsletter.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ### Set di regole globali e personalizzati {#global-custom}
 
@@ -313,3 +315,7 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 >Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 15 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 15 minuti per evitare che ciò si verifichi.
 
 +++
+
+## Video introduttivo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

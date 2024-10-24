@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilità limitata"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -40,6 +40,8 @@ I settori chiave da monitorare per eventuali sovrapposizioni sono i seguenti:
 * **Canale**: sono pianificate altre comunicazioni per lo stesso intervallo di tempo e, in caso affermativo, quante?
 * **Set di regole di limitazione**: quali tipi di percorsi sono soggetti a limitazione e vi sono sovrapposizioni all&#39;interno di essi?
 * **Configurazione canale**: ci sono altri percorsi o campagne che utilizzano una configurazione di canale utilizzata nello stesso percorso o campagna che potrebbe impedire la visualizzazione del percorso o della campagna all&#39;utente finale?
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Come Journey Optimizer rileva i conflitti {#detection}
 
@@ -86,3 +88,7 @@ Di seguito sono riportati alcuni suggerimenti per ridurre i potenziali conflitti
 * Imposta **priorità** sulle azioni in entrata per garantire che venga visualizzata ai clienti l&#39;azione più importante.
 
 Sfruttando queste funzionalità, potrai allineare le tue attività di marketing e mantenere il giusto equilibrio nella strategia di comunicazione.
+
+## Video introduttivo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilità limitata"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ La limitazione dei percorsi consente di limitare il numero di percorsi in cui un
 * **Il limite di concorrenza** limita il numero di percorsi in cui un profilo può essere iscritto contemporaneamente.
 
 Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbitrare le voci.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Creazione di una regola di limite di percorso {#create-rule}
 
@@ -115,3 +117,7 @@ Dopo l’attivazione del percorso, diventano effettive le regole di limitazione 
 >[!IMPORTANT]
 >
 >Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 15 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 15 minuti per evitare che ciò si verifichi.
+
+## Video introduttivo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
