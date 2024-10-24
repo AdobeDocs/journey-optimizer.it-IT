@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -82,6 +82,12 @@ Migliora la personalizzazione dell’area di lavoro con le seguenti opzioni:
 * Regola il **[!UICONTROL valore percentuale]** per determinare la distribuzione del flusso tra percorsi di percorso diversi.
 * Personalizza le **[!UICONTROL impostazioni freccia]** per includere etichette, condizioni o scegli una visualizzazione pulita.
 * Abilita l&#39;opzione **[!UICONTROL Mostra abbandono]** per visualizzare i profili che sono usciti dal percorso direttamente nell&#39;area di lavoro.
+
+Quando si utilizza il filtro **[!UICONTROL Tipo di nodo]** si applicano le seguenti regole:
+
+* Durante la creazione di un segmento su un nodo, esso includerà comunque i nodi delle fasi precedenti del percorso, anche se tali nodi sono stati esclusi tramite il filtro **[!UICONTROL Node type]**.
+
+* Non è possibile creare segmenti formati da una freccia se i nodi nelle fasi precedenti del percorso sono stati esclusi tramite il filtro **[!UICONTROL Tipo di nodo]**. In questo caso, la funzionalità di clic con il pulsante destro del mouse verrà disattivata su tali frecce.
 
 ## Prestazione dell’azione {#action-performance}
 
