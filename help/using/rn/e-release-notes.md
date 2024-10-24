@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 39%
+source-wordcount: '1937'
+ht-degree: 38%
 
 ---
 
@@ -111,7 +111,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità.</p><p><ul><li><b>Limitazione frequenza Percorsi</b>: ora puoi creare set di regole da applicare ai tuoi percorsi, consentendo di limitare il numero di percorsi al giorno, alla settimana o al mese e di controllare il numero di percorsi simultanei in esecuzione simultaneamente.</li>
+<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità.</p><p><ul><li><b>Limitazione frequenza Percorsi</b>: ora puoi creare set di regole da applicare ai tuoi percorsi, consentendo di limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché di controllare il numero di percorsi simultanei in esecuzione simultaneamente.</li>
 <li><b>Punteggio di priorità</b>: è ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o azioni di percorso utilizzano la stessa configurazione di canale, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata meno di recente.</li>
 <li><b>Visualizza potenziali conflitti</b>: un nuovo pulsante "Visualizza potenziali conflitti" nei percorsi e nelle campagne ora consente di identificare la sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.</li>
 <li><b>Arbitrato di Percorso</b>: questa nuova funzionalità consente di assegnare la priorità ai percorsi più importanti per i clienti. Puoi creare una regola per eliminare l’ingresso in un percorso con priorità inferiore quando un cliente si qualifica per un prossimo percorso con priorità maggiore.</li></ul></p>
@@ -144,7 +144,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <table>
 <thead>
 <tr>
-<th><strong>Sperimentazione nei percorsi (disponibilità generale)</strong><br/></th>
+<th><strong>Sperimentazione dei contenuti nei percorsi (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 * Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
 * Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
 
-**Percorsi**
+<!--**Journeys**-->
 
-* **Esperimento sui percorsi nei percorsi** - Con l&#39;esperimento sui percorsi dei percorsi, ora puoi definire e tenere traccia delle metriche chiave per i percorsi dei percorsi, consentendoti di misurare l&#39;impatto delle attività e di fornire informazioni più chiare sulle prestazioni.
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **Numero massimo di percorsi live**: Journey Optimizer ora dispone di un guardrail di 500 percorsi live sulle sandbox di produzione, anziché di 100. Il numero di percorsi live è visibile nell’area di lavoro del percorso. <!-- DOCAC-10977-->
+&lt;!—* **Numero massimo di percorsi live** - Journey Optimizer ora dispone di un guardrail di 500 percorsi live sulle sandbox di produzione, anziché di 100. Il numero di percorsi live è visibile nell’area di lavoro del percorso. <!-- DOCAC-10977-->
+
+**Set di dati**
 
 * **Gudrail time-to-live** - A partire dal 1° novembre 2024, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
 
