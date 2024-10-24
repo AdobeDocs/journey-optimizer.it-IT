@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 40%
+source-wordcount: '1971'
+ht-degree: 39%
 
 ---
 
@@ -78,6 +78,24 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <p>Ora puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione di configurazioni per il canale e-mail, per maggiore flessibilità e controllo sulle impostazioni e-mail.</p><p>L’utilizzo di una configurazione personalizzata in una campagna o in un percorso consente di visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite.</p>
 <p>Precedentemente disponibile per un set di organizzazioni (LA), la personalizzazione della configurazione e-mail è ora disponibile per tutti gli utenti (GA).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/surface-personalization.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Verifica il contenuto utilizzando dati di input di esempio (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Percorsi optimizer ora consente di testare diverse varianti del contenuto delle e-mail visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.</p>
+<p>Questa funzionalità è attualmente disponibile come versione beta.</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
