@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 28%
@@ -180,7 +180,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 >id="ajo_admin_surface_uri"
 >title="Aggiungere l’URI della superficie per il componente"
 >abstract="Se l’implementazione non è per il Web, iOS o Android, oppure se devi eseguire il targeting di URI specifici, immetti un URI di superficie, che è un identificatore univoco che si dirige all’entità in cui desideri distribuire l’esperienza. Assicurati di immettere un URI di superficie che corrisponda a quello utilizzato nella tua implementazione."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Creare una configurazione di esperienza basata su codice per altre piattaforme"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="Creare una configurazione di esperienza basata su codice per altre piattaforme"
 
 Un&#39;esperienza basata su codice **surface** è qualsiasi entità progettata per l&#39;interazione utente o di sistema, identificata in modo univoco da un **URI**. La superficie è specificata nell&#39;implementazione dell&#39;applicazione e deve corrispondere alla superficie a cui si fa riferimento nella configurazione del canale esperienza basato su codice.
 

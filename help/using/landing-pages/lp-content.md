@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 >id="ac_lp_components"
 >title="Utilizzare i componenti per contenuti"
 >abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=it#add-content-components" text="Aggiungere componenti per contenuti"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/content-components#add-content-components" text="Aggiungere componenti per contenuti"
 
 Per progettare il contenuto di una pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
