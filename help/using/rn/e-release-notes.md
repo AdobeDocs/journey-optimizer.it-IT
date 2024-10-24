@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 38%
 
 ---
@@ -206,7 +206,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tr>
 <td>
 <p>Ora è possibile creare contenuti multilingue all’interno di un’unica campagna o di un unico percorso in modo semplice. Con questa funzione, è possibile cambiare lingua durante la modifica della campagna o del percorso, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.</p>
-<p>Precedentemente disponibili per un set di organizzazioni (LA), i messaggi multilingue sono ora disponibili per tutti gli utenti (GA).</p>
+<p>Grazie alla disponibilità generale, i contenuti multilingue sono ora accessibili su tutti i canali. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ Questa versione include i miglioramenti elencati di seguito.
 Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messaggistica:
 
 * Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
+
 * Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
+
+* Ora puoi modificare o eliminare una configurazione del canale API SMS.
 
 <!--**Journeys**-->
 
