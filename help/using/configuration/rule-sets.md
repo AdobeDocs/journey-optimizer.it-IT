@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 21%
@@ -56,9 +56,7 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole pe
 
 ### Regole di limitazione di canale e percorsi {#domain}
 
-Durante la creazione di un set di regole, è necessario specificare se le regole all’interno del set di regole applicheranno regole di limitazione specifiche per i canali di comunicazione o per i percorsi.
-
-Questa operazione viene eseguita selezionando un dominio di canale o di Percorso per il set di regole durante la sua creazione. [Scopri come creare un set di regole]
+Durante la creazione di un set di regole, è necessario specificare se le regole all’interno del set di regole applicheranno regole di limitazione specifiche per i canali di comunicazione o per i percorsi.  Questa operazione viene eseguita selezionando un dominio di canale o di Percorso per il set di regole durante la sua creazione. [Scopri come creare un set di regole](#create)
 
 * Dominio **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 * Dominio **Percorso**: applica le regole di limitazione della concorrenza e delle voci a un percorso. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
