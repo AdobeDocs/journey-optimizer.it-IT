@@ -10,20 +10,16 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 badge: label="Disponibilità limitata"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 8%
 
 ---
 
 # Personalizzare le impostazioni di configurazione e-mail {#surface-personalization}
 
 Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini e intestazioni<!--and URL tracking parameters--> durante la creazione di configurazioni e-mail.
-
->[!AVAILABILITY]
->
->La personalizzazione della configurazione e-mail è attualmente disponibile solo per un set di organizzazioni (Disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 ## Aggiungi i sottodomini dinamici {#dynamic-subdomains}
 
@@ -112,11 +108,17 @@ Per utilizzare variabili personalizzate per i parametri di intestazione della co
 
 1. Verrà aperto l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md). Definisci la condizione come desiderato e salva le modifiche.
 
-   Ad esempio, imposta una condizione per cui ogni destinatario riceve un’e-mail dal proprio rappresentante del marchio.
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >È possibile selezionare solo **[!UICONTROL Attributi profilo]** e **[!UICONTROL Funzioni helper]**.
+
+   Supponiamo che tu voglia gestire dinamicamente le e-mail inviate per conto di un assistente alle vendite, in cui l’assistente alle vendite viene recuperato da un evento o da parametri contestuali della campagna. Ad esempio:
+
+   * In un [percorso](../building-journeys/journey-gs.md), quando un evento di acquisto è collegato all&#39;assistente alle vendite di un negozio specifico, l&#39;intestazione dell&#39;e-mail (nome mittente, e-mail mittente, indirizzo di risposta) può essere personalizzata con i parametri dell&#39;assistente alle vendite, ricavati dagli attributi dell&#39;evento.
+
+   * In una [campagna attivata da API](../campaigns/api-triggered-campaigns.md), avviata esternamente da un assistente alle vendite, l&#39;e-mail attivata può essere inviata per conto dell&#39;assistente alle vendite e i valori di personalizzazione dell&#39;intestazione sono ricavati dai parametri contestuali della campagna.
 
 1. Ripeti i passaggi precedenti per ogni parametro a cui desideri aggiungere la personalizzazione.
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Visualizza dettagli configurazione {#view-surface-details}
 
-Quando utilizzi una configurazione con impostazioni personalizzate in una campagna o in una configurazione, puoi visualizzare i dettagli della configurazione direttamente all’interno della campagna o della configurazione. Segui i passaggi seguenti.
+Quando utilizzi una configurazione con impostazioni personalizzate in una campagna o in un percorso, puoi visualizzare i dettagli della configurazione direttamente all’interno della campagna o del percorso. Segui i passaggi seguenti.
 
 1. Crea una [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journey-gs.md) per e-mail.
 
@@ -157,3 +159,33 @@ Quando utilizzi una configurazione con impostazioni personalizzate in una campag
 1. Seleziona **[!UICONTROL Espandi]** per visualizzare i dettagli dei sottodomini dinamici.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## Verifica la configurazione {#check-configuration}
+
+Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, puoi visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. Segui i passaggi seguenti.
+
+1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**. [Ulteriori informazioni](../content-management/preview.md)
+
+1. Seleziona un [profilo di test](../content-management/test-profiles.md).
+
+1. Se viene visualizzato un errore, fare clic sul pulsante **[!UICONTROL Visualizza dettagli configurazione]**.
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. Controllare la schermata **[!UICONTROL Impostazioni consegna]** per i dettagli dell&#39;errore.
+
+   ![](assets/campaign-simulate-config-details.png)
+
+I possibili errori sono i seguenti:
+
+* Il **sottodominio** non è stato risolto per il profilo di test selezionato. Ad esempio, la configurazione utilizza diversi sottodomini di invio corrispondenti a paesi diversi, ma per il profilo selezionato non è definito alcun valore per l&#39;attributo `Country` oppure l&#39;attributo è impostato su `France` ma questo valore non è associato ad alcun sottodominio in quella configurazione.
+
+* Al profilo selezionato non sono associati valori per uno o più **parametri di intestazione**.
+
+Se si verifica uno di questi errori, l’e-mail non viene inviata al profilo di test selezionato.
+
+Per evitare questo tipo di errore, assicurati che i parametri di intestazione definiti utilizzino attributi personalizzati con valori per la maggior parte dei profili. I valori mancanti possono influire sul recapito messaggi e-mail.
+
+>[!NOTE]
+>
+>Ulteriori informazioni sul recapito messaggi in [questa sezione](../reports/deliverability.md)
