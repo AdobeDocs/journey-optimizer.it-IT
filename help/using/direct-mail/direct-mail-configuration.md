@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 21%
@@ -36,7 +36,7 @@ Prima di poter generare questo file, devi creare:
 >id="ajo_dm_file_routing_details"
 >title="Configurare l’indirizzamento dei file"
 >abstract="Dopo aver creato un messaggio di direct mail, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. Devi specificare i dettagli del server in modo che il provider di direct mail possa accedere e utilizzare tale file per la consegna della direct mail."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/create-direct-mail" text="Creare un messaggio direct mail"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Creare un messaggio direct mail"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni per direct mail"
 >abstract="Una configurazione di direct mailing contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurare l’indirizzamento dei file"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
 >[!CONTEXTUALHELP]
