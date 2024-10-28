@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 56%
+source-wordcount: '3101'
+ht-degree: 55%
 
 ---
 
@@ -309,14 +309,14 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 **Set di dati**
 
-* **Gudrail time-to-live** - A partire dal 1° novembre 2024, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
+* **Invio e apertura di eventi** - A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l&#39;utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback di Journey Optimizer. Questa modifica verrà applicata a tutte le sandbox e organizzazioni dei clienti. [Ulteriori informazioni](../data/datasets-ttl.md#segmentation-update)
+
+* **Durata (TTL) del set di dati** - A partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
 
    * 90 giorni per i dati nell’archivio dei profili
    * 13 mesi per i dati nel data lake
 
-  Questa modifica verrà implementata nelle sandbox dei clienti esistenti in una seconda fase.
-
-  Inoltre, a partire dal 1° novembre, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback. Questa modifica verrà applicata a tutte le sandbox e organizzazioni dei clienti in quel momento. [Ulteriori informazioni](../data/datasets-ttl.md)
+  In una fase successiva, questa modifica verrà implementata nelle sandbox dei clienti esistenti. [Ulteriori informazioni](../data/datasets-ttl.md#ttl)
 
 * **Parametri nelle azioni personalizzate** (data di disponibilità: 3 ottobre 2024) - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 

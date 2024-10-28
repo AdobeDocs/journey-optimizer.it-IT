@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
-source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 5%
 
 ---
@@ -17,39 +17,9 @@ ht-degree: 5%
 
 # Modifiche al time-to-live e alla segmentazione in streaming {#ttl-guardrail}
 
-## Guardrail Time-to-live (TTL) {#ttl}
-
-A partire dal 1° novembre 2024, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni**, come segue:
-
-* 90 giorni per i dati nell’archivio dei profili
-* 13 mesi per i dati nel data lake
-
-Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva.
-
-**Domande frequenti**
-
-+++ Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
-
-Questa modifica verrà applicata a tutti i tipi di sandbox.
-
-+++
-
-
-+++ Per il TTL di 90 giorni nell’archivio dei profili, sono interessati anche i profili?
-
-I dati del set di dati generati dal sistema nel profilo vengono eliminati dopo 90 giorni, non i profili stessi.
-
-+++
-
-+++ Se i dati di un set di dati generato dal sistema vengono inviati al Customer Journey Analytics (CJA), anche i dati in CJA saranno interessati dal TTL?
-
-I dati in CJA sono sincronizzati con quelli di Experience Platform. Pertanto, anche la rimozione dei dati a causa di un TTL sui dati del set di dati generato dal sistema influirà sui dati in CJA.
-
-+++
-
 ## Aggiornamenti della segmentazione in streaming {#segmentation-update}
 
-Inoltre, il 1° novembre, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e feedback dai set di dati di tracciamento e feedback.  Le informazioni sui motivi per cui questa pratica è stata scoraggiata in passato sono disponibili [qui](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Questa modifica verrà applicata a tutte le sandbox e organizzazioni dei clienti in quel momento.
+A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback di Journey Optimizer. Questa modifica verrà applicata a tutte le sandbox e organizzazioni dei clienti. Le informazioni sui motivi per cui questa pratica è stata scoraggiata in passato sono disponibili [qui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 **Domande frequenti**
 
@@ -82,5 +52,40 @@ Gli eventi di reazione nei Percorsi non sono influenzati da questo cambiamento.
 +++ Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
 
 Questa modifica verrà applicata a tutti i tipi di sandbox.
+
++++
+
++++ La modifica interessa anche gli eventi di feedback derivanti dall’evento di invio?
+
+Questa modifica si applica anche agli eventi di esclusione e agli eventi di mancato recapito/ritardo risultanti dall’invio.
+
++++
+
+## Aggiornamento del time-to-live (TTL) per fasi {#ttl}
+
+A partire da febbraio 2025, un guardrail time-to-live (TTL) verrà introdotto nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni** come segue:
+
+* 90 giorni per i dati nell’archivio dei profili
+* 13 mesi per i dati nel data lake
+
+Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva.
+
+**Domande frequenti**
+
++++ Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
+
+Questa modifica verrà applicata a tutti i tipi di sandbox.
+
++++
+
++++ Per il TTL di 90 giorni nell’archivio dei profili, sono interessati anche i profili?
+
+I dati del set di dati generati dal sistema nel profilo vengono eliminati dopo 90 giorni, non i profili stessi.
+
++++
+
++++ Se i dati di un set di dati generato dal sistema vengono inviati al Customer Journey Analytics (CJA), anche i dati in CJA saranno interessati dal TTL?
+
+I dati in CJA sono sincronizzati con quelli di Experience Platform. Pertanto, anche la rimozione dei dati a causa di un TTL sui dati del set di dati generato dal sistema influirà sui dati in CJA.
 
 +++
