@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
+source-git-commit: bfd0c7c976146c0cccdb51a720c27653b3e5a7b4
 workflow-type: tm+mt
 source-wordcount: '3104'
 ht-degree: 55%
@@ -343,7 +343,8 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 **Configurazione** - Data di disponibilità: 23 ottobre 2024
 
 * Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, ora puoi visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. [Ulteriori informazioni](../email/surface-personalization.md#check-configuration)
-  **Canale basato su codice**
+
+**Canale basato su codice**
 
 * Sono ora disponibili modelli di contenuto. Puoi accelerare la creazione delle esperienze basate sul codice partendo da un modello di contenuto creato dagli sviluppatori. L’utilizzo di un modello di contenuto consente all’addetto marketing di modificare solo alcuni valori o campi, invece di comporre l’intero payload di contenuto HTML o JSON.
 
