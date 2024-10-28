@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Gli eventi visualizzati si sono verificati nelle ultime 24 ore, con un intervall
 
 Per il tuo percorso live, puoi accedere a:
 
-* **[!UICONTROL Profili immessi]**: numero totale di singoli utenti che sono entrati in questa attività.
+* **[!UICONTROL Profili immessi]**: numero totale di persone che sono uscite dal percorso (compresi gli errori).
 * **[!UICONTROL Chiuso con profilo]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
 * **[!UICONTROL Profili in errore]**: numero totale di persone che hanno riscontrato un errore durante il percorso.
 * **[!UICONTROL Profili scartati]**: numero totale di singoli utenti scartati dal percorso per uno dei motivi seguenti:
@@ -41,6 +41,6 @@ Per il tuo percorso live, puoi accedere a:
 
 Per ogni attività all’interno di ogni percorso live, puoi accedere a:
 
-* **[!UICONTROL Profili immessi]**: numero totale di singoli utenti che sono entrati in questa attività.
-* **[!UICONTROL Profilo di uscita]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
+* **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività.
+* **[!UICONTROL Uscita (ha soddisfatto i criteri di uscita)]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
 * **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
