@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+source-git-commit: c1bbd1c8dae6de4b1fac416fd4b7c0b7be7a07ca
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 86%
 
 ---
 
@@ -20,9 +20,9 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB Versione di settembre 2024]
+>[!TAB Ottobre &#39;24 versione]
 
-È ora disponibile la versione di settembre, che include schede di contenuto per app per dispositivi mobili e siti web, criteri di approvazione in percorsi e campagne (disponibilità limitata), criteri di uscita globali nei percorsi e altro ancora.
+È ora disponibile la versione di ottobre, che include il blocco dei contenuti e-mail, la gestione dei conflitti e delle priorità (LA) e l’integrazione con l’inchiostro mobile. Precedentemente, in Disponibilità limitata (LA), ora sono disponibili per tutti le seguenti funzionalità: personalizzazione della configurazione e-mail, criteri di approvazione, sperimentazione dei contenuti in percorsi, esperienza di reporting migliorata.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,11 +38,11 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Frammenti di contenuto]
+>[!TAB Esperienze Web in percorsi]
 
-È ora possibile modificare i frammenti e propagare le modifiche in tutti i percorsi live e le campagne in cui vengono utilizzati.
+Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.
 
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -120,5 +120,5 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 </td>
 </tr></table>
 
-<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Segui le novità e migliora la tua esperienza con Adobe Journey Optimizer.</b><br/>Iscriviti alla newsletter trimestrale. Accedi in esclusiva agli ultimi aggiornamenti dei prodotti, storie accattivanti, casi d’uso reali, suggerimenti preziosi e altro ancora: il tutto consegnato direttamente alla tua casella di posta in entrata ogni trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Registrati oggi stesso!</a></td></tr></table>
+<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
