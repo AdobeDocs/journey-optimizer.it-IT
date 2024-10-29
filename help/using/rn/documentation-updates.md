@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
-source-wordcount: '5672'
+source-wordcount: '5707'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,8 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Ottobre 2024 {#oct-2024}
 
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di ottobre 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutti i canali di comunicazione disponibili in [!DNL Journey Optimizer] sono ora raggruppati in una sezione dedicata della documentazione. [Ulteriori informazioni](../channels/gs-channels.md)
 * La pagina **Configurare l&#39;esperienza basata su codice** è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega cos&#39;è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
 * La pagina **Crea configurazione canale Web** è stata aggiornata per chiarire i passaggi durante la creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell&#39;esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
 * È stata aggiunta una nota sul prossimo guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)

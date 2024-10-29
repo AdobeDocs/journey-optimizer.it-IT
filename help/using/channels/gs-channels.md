@@ -5,7 +5,7 @@ title: Introduzione ai canali di comunicazione in [!DNL Adobe Journey Optimizer]
 description: Scopri come utilizzare  [!DNL Adobe Journey Optimizer]  canali di comunicazione.
 role: User
 level: Beginner
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 2%
@@ -22,27 +22,30 @@ Nell’attuale scenario di marketing dinamico, raggiungere in modo efficace il p
 ## Canali in entrata e in uscita {#inbound-outbound}
 
 Comprendere la differenza tra canali in entrata e in uscita è fondamentale per ottimizzare la strategia di comunicazione:
+
 * Canali in entrata: questi canali consentono ai clienti di avviare interazioni. Alcuni esempi includono la messaggistica in-app e le interazioni basate sul web, in cui gli utenti possono interagire con i contenuti alle proprie condizioni.
+
 * Canali in uscita: questi implicano l’invio di messaggi ai clienti senza precedente interazione. Alcuni esempi includono campagne e-mail e notifiche push, in cui puoi raggiungere proattivamente il pubblico.
+
 Sfruttando entrambi i tipi di canali in modo efficace è possibile migliorare le esperienze dei clienti e stimolare il coinvolgimento.
 
 ## Canali disponibili {#channels}
 
-Adobe Journey Optimizer offre una varietà di canali di comunicazione per interagire con il pubblico in modo efficace. Elenco dei canali che puoi sfruttare:
+Adobe Journey Optimizer offre una varietà di canali di comunicazione per interagire con il pubblico in modo efficace. Di seguito è riportato un elenco dei canali che puoi sfruttare:
 
-Canali in uscita:
+* Canali in uscita
 
-* **E-mail**: consegna messaggi personalizzati direttamente nelle caselle in entrata dei clienti.
-* **SMS/MMS**: invia messaggi di testo agli utenti sui loro dispositivi mobili.
-* **Notifica push**: coinvolgi gli utenti con notifiche istantanee sui loro dispositivi, determinando un&#39;azione immediata.
-* **Direct mail**: utilizza la posta fisica per creare una connessione tangibile con il pubblico.
+   * **E-mail**: consegna messaggi personalizzati direttamente nelle caselle in entrata dei clienti.
+   * **SMS/MMS**: invia messaggi di testo agli utenti sui loro dispositivi mobili.
+   * **Notifica push**: coinvolgi gli utenti con notifiche istantanee sui loro dispositivi, determinando un&#39;azione immediata.
+   * **Direct mail**: utilizza la posta fisica per creare una connessione tangibile con il pubblico.
 
-Canali in entrata:
+* Canali in entrata
 
-* **In-app**: comunica con gli utenti all&#39;interno delle tue applicazioni mobili o web per migliorarne l&#39;esperienza.
-* **Web**: utilizza la messaggistica basata sul Web per interagire con gli utenti che esplorano il tuo sito.
-* **Esperienza basata su codice**: implementa esperienze personalizzate tramite la codifica per opportunità di coinvolgimento univoche.
-* **Schede di contenuto**: condividi contenuto dinamico direttamente nelle applicazioni o nei siti Web per informare e coinvolgere gli utenti.
+   * **In-app**: comunica con gli utenti all&#39;interno delle tue applicazioni mobili o web per migliorarne l&#39;esperienza.
+   * **Web**: utilizza la messaggistica basata sul Web per interagire con gli utenti che esplorano il tuo sito.
+   * **Esperienza basata su codice**: implementa esperienze personalizzate tramite la codifica per opportunità di coinvolgimento univoche.
+   * **Schede di contenuto**: condividi contenuto dinamico direttamente nelle applicazioni o nei siti Web per informare e coinvolgere gli utenti.
 
 ## Utilizzo dei canali in percorsi e campagne {#leverage}
 
