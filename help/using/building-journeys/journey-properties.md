@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 16%
+source-wordcount: '2233'
+ht-degree: 18%
 
 ---
 
@@ -35,6 +35,7 @@ Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione
 * definire una [durata timeout](#timeout) nelle attività di percorso (solo per gli utenti amministratori),
 * seleziona il percorso e il profilo [fusi orari](#timezone)
 * assegna i tag unificati Adobe Experience Platform al tuo percorso, per classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
+* monitorare i conflitti e assegnare priorità ai percorsi utilizzando [strumenti di gestione dei conflitti](#conflict).
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione
 **Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Sono state copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Ulteriori informazioni sui campi tecnici relativi a un percorso per un determinato profilo e su come utilizzarli [in questa pagina](expression/journey-properties.md).
-
 
 ## Ingresso e rientro {#entrance}
 
@@ -299,3 +299,14 @@ I seguenti guardrail e limitazioni si applicano alla capacità dei criteri di us
 * I criteri di uscita sono definiti solo nello stato di bozza
 * Coerenza dello spazio dei nomi del percorso tra eventi e criteri di uscita basati su eventi
 
+## Gestione dei conflitti {#conflict}
+
+La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso ti consente di monitorare i conflitti e assegnare un ordine di priorità ai percorsi. Puoi eseguire le seguenti operazioni:
+
+* Applica un **set di regole** per escludere questo percorso da parte del pubblico in base alle regole di limitazione. [Scopri come utilizzare i set di regole](../configuration/rule-sets.md)
+
+* Assegna al percorso un **punteggio di priorità** compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Il valore di priorità qui inserito viene ereditato da tutte le azioni in entrata (come in-app) contenute in questo percorso. [scopri come utilizzare i punteggi di priorità](../conflict-prioritization/priority-scores.md)
+
+  Nelle situazioni in cui la stessa configurazione del canale in entrata viene utilizzata in altre campagne o percorsi, al destinatario viene mostrata l’azione in entrata con il punteggio di priorità più alto. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente.
+
+* **Visualizza i conflitti** con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. [Scopri come identificare potenziali conflitti nel percorso](../conflict-prioritization/conflicts.md)

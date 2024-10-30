@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i set di regole
+title: Utilizzare i set di regole (LA)
 description: Scopri come creare e applicare i set di regole
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: '1988'
 ht-degree: 21%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 21%
 
 >[!AVAILABILITY]
 >
->I set di regole sono attualmente disponibili come versione beta solo per gli utenti selezionati. Contatta il rappresentante del tuo Adobe per essere incluso in Beta.
+>I set di regole sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che questa funzione verrà implementata gradualmente in futuro per più utenti. Contatta il team del tuo account per essere aggiunto alla lista d’attesa.
 
 ## Introduzione ai set di regole {#gs}
 
@@ -167,7 +167,7 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
    * **[!UICONTROL Limite Percorso di ingresso]**: limita il numero di ingressi nel percorso in un determinato periodo per un profilo.
    * **[!UICONTROL Limite di concorrenza Percorso]**: limita il numero di percorsi in cui è possibile iscrivere contemporaneamente un profilo.
 
-1. Informazioni dettagliate su come configurare le regole di limitazione di percorso sono disponibili nella sezione [Limitazione di Percorso e arbitrato](../test-approve/journey-capping.md).
+1. Informazioni dettagliate su come configurare le regole di limitazione di percorso sono disponibili nella sezione [Limitazione di Percorso e arbitrato](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -306,7 +306,7 @@ Durante il test delle regole di frequenza, si consiglia di utilizzare un [profil
 
 Per applicare una regola di limite a un percorso, accedere al percorso e aprirne le proprietà. Nel menu a discesa **[!UICONTROL Regole di limitazione]**, seleziona il set di regole pertinente.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
