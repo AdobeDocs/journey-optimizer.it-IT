@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 21%
+source-wordcount: '2041'
+ht-degree: 15%
 
 ---
 
@@ -29,44 +28,25 @@ ht-degree: 21%
 >title="Modificare provider"
 >abstract="Modifica i provider di traduzione esistenti e aggiungi le lingue in base alle esigenze. Questa funzionalità consente di controllare quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare tipi di pubblico specifici in base alle esigenze correnti e agli obiettivi del progetto."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Il contenuto multilingue è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>Per il flusso automatizzato, gli utenti devono disporre delle autorizzazioni relative alla funzionalità **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 
 Utilizzando il flusso automatizzato, è sufficiente selezionare la lingua di destinazione e il provider della lingua. Il contenuto viene quindi inviato direttamente alla traduzione, pronto per una revisione finale al completamento.
 
 Per creare contenuti multilingue mediante la traduzione automatica, segui la procedura riportata di seguito:
 
-1. [Crea le tue impostazioni locali](#create-locale).
+1. [Aggiungere il provider](multilingual-provider.md)
 
-1. [Crea un progetto lingua](#create-translation-project).
+1. [Aggiungi impostazioni internazionali (facoltativo)](multilingual-locale.md)
 
-1. [Crea impostazioni lingua](#create-language-settings).
+1. [Creare un progetto lingua](#create-translation-project)
 
-1. [Crea un contenuto multilingue](#create-a-multilingual-campaign).
+1. [Creare le impostazioni della lingua](#create-language-settings)
 
-1. [Rivedi l&#39;attività di traduzione (facoltativo)](#review-translation-project).
+1. [Creare un contenuto multilingue](#create-a-multilingual-campaign)
 
-## Creare lingua {#create-locale}
-
->[!CONTEXTUALHELP]
->id="ajo_multi_add_locale"
->title="Aggiungere lingua"
->abstract="Quando configuri le preferenze della lingua, puoi creare altre lingue se quella desiderata non è disponibile per il contenuto multilingue."
-
-Durante la configurazione delle impostazioni della lingua, come descritto nella sezione [Creare le impostazioni della lingua](#language-settings), se non è disponibile una lingua specifica per il contenuto multilingue, è possibile creare il numero di nuove lingue necessario utilizzando il menu **[!UICONTROL Traduzione]**.
-
-1. Dal menu **[!UICONTROL Gestione contenuto]**, accedi a **[!UICONTROL Traduzione]**.
-
-1. Dalla scheda **[!UICONTROL Dizionario impostazioni internazionali]**, fare clic su **[!UICONTROL Aggiungi impostazioni locali]**.
-
-   ![](assets/locale_1.png)
-
-1. Seleziona il codice della lingua dall&#39;elenco **[!UICONTROL Lingua]** e dall&#39;area **[!UICONTROL Regione]** associata.
-
-1. Fai clic su **[!UICONTROL Salva]** per creare le impostazioni internazionali.
-
-   ![](assets/locale_2.png)
+1. [Rivedere l’attività di traduzione (facoltativo)](#review-translation-project)
 
 ## Creare progetto di traduzione {#translation-project}
 
@@ -125,7 +105,17 @@ Il progetto di traduzione viene ora creato e può essere utilizzato in una campa
 
 ## Creare le impostazioni della lingua {#language-settings}
 
-In questa sezione puoi impostare la lingua principale e le lingue associate per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo.
+>[!CONTEXTUALHELP]
+>id="ajo_multi_custom_conditional"
+>title="Impostazioni condizionali personalizzate"
+>abstract="Le impostazioni condizionali personalizzate sono set di regole che determinano le impostazioni internazionali in cui verrà visualizzato il contenuto, in base a criteri specifici. Queste impostazioni consentono di controllare la visualizzazione del contenuto in base a fattori quali la posizione dell’utente, le preferenze della lingua o altri elementi contestuali."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_fallback"
+>title="Preferenze di fallback"
+>abstract="La scelta di una preferenza di fallback è fondamentale per migliorare l’esperienza utente. Se non viene selezionato alcun fallback e un profilo non soddisfa i requisiti necessari, il contenuto non verrà consegnato. Selezionando un fallback appropriato, puoi garantire una distribuzione coerente dei contenuti, anche quando i profili non corrispondono ai criteri iniziali."
+
+In questa sezione puoi impostare diverse lingue per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo.
 
 1. Dal menu **[!UICONTROL Amministrazione]**, accedere a **[!UICONTROL Canale]** > **[!UICONTROL Impostazioni generali]**.
 
@@ -133,27 +123,86 @@ In questa sezione puoi impostare la lingua principale e le lingue associate per 
 
    ![](assets/language_settings_1.png)
 
-1. Digitare il nome delle **[!UICONTROL impostazioni lingua]**.
-
-1. Scegli l&#39;opzione **[!UICONTROL Progetto di traduzione]**.
+1. Digitare il nome delle **[!UICONTROL impostazioni lingua]** e scegliere **[!UICONTROL Progetto di traduzione]**.
 
 1. Dal campo **[!UICONTROL Progetto di traduzione]**, fai clic su **[!UICONTROL Modifica]** e scegli il **[!UICONTROL Progetto di traduzione]** creato in precedenza.
 
-   Le impostazioni internazionali configurate in precedenza vengono importate automaticamente.
+   Le **[!UICONTROL impostazioni internazionali]** configurate in precedenza vengono importate automaticamente.
+
+1. Seleziona **[!UICONTROL Preferenze di fallback]** per definire un&#39;opzione di backup per i profili che non soddisfano i criteri necessari per la distribuzione dei contenuti.
+
+   Se non è selezionata alcuna opzione di fallback, la campagna o il percorso non verrà inviato.
 
    ![](assets/language_settings_2.png)
 
-1. Dal menu **[!UICONTROL Preferenza di invio]**, selezionare l&#39;attributo che si desidera cercare per trovare informazioni sulle lingue del profilo.
+1. Scegli la preferenza di invio tra le seguenti opzioni:
 
-1. Fai clic su **[!UICONTROL Modifica]** accanto alla tua **[!UICONTROL Impostazioni locali]** per personalizzarla ulteriormente e aggiungere **[!UICONTROL Preferenze profilo]**.
+   * **[!UICONTROL Selezionare gli attributi delle preferenze della lingua del profilo]**
+   * **[!UICONTROL Creare regole condizionali personalizzate]**
+
+1. Se si seleziona **[!UICONTROL Seleziona attributi di preferenza lingua profilo]**, scegliere l&#39;attributo appropriato dal menu **[!UICONTROL Attributi di preferenza lingua profilo]** per cercare le informazioni sulla lingua profilo.
+
+   ![](assets/multilingual-settings-3.png)
+
+1. Se si seleziona **[!UICONTROL Crea regole condizionali personalizzate]**, selezionare le impostazioni locali per le quali si desidera creare le condizioni. Quindi, crea regole in base a fattori come la posizione dell’utente, le preferenze della lingua o altri elementi contestuali.
 
    ![](assets/language_settings_3.png)
 
-1. Se il **[!UICONTROL progetto di traduzione]** è aggiornato, fai clic su **[!UICONTROL Aggiorna]** per riflettere le modifiche nelle **[!UICONTROL impostazioni lingua]**.
+1. Inizia a creare le condizioni aggiungendo un attributo, un evento o un pubblico per definire il gruppo target.
 
-   ![](assets/language_settings_4.png)
+   >[!IMPORTANT]
+   >
+   >I dati contestuali sono disponibili esclusivamente per i canali Web, In-App, basati su codice per le schede di esperienza e di contenuto. Se utilizzata per i canali E-mail, SMS, Notifica push o Direct mail, senza attributi aggiuntivi, la campagna o il percorso verrà inviato nella lingua della prima opzione dell’elenco.
+
+   ![](assets/multilingual-settings-6.png)
+
+   +++Prerequisiti per utilizzare gli eventi contestuali nelle tue condizioni
+
+   Quando gli utenti visualizzano il contenuto, viene inviata una richiesta di personalizzazione insieme all’evento esperienza. Per sfruttare i dati contestuali nelle tue condizioni, devi allegare dati aggiuntivi al payload della richiesta di personalizzazione. A questo scopo, devi creare una regola in Raccolta dati di Adobe Experience Platform per specificare: SE viene inviata una richiesta di personalizzazione, ALLORA allega dati aggiuntivi alla richiesta, definendo l’attributo da abbinare al campo della lingua nello schema.
+
+   >[!NOTE]
+   >
+   >Questi prerequisiti sono necessari solo per i canali delle schede in-app e di contenuto.
+
+   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+
+   2. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * Scegli l&#39;**[!UICONTROL estensione]** con cui stai lavorando.
+      * Nel campo **[!UICONTROL Tipo evento]**, selezionare &quot;Evento richiesta AEP&quot;.
+      * Nel riquadro a destra, seleziona &quot;XDM Event Type equals personalization.request&quot;
+      * Fai clic sul pulsante **[!UICONTROL Mantieni modifiche]** per confermare.
+
+   3. Nella sezione **[!UICONTROL THEN]** della regola, aggiungi un&#39;azione configurata come segue:
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * Scegli l&#39;**[!UICONTROL estensione]** con cui stai lavorando.
+      * Nel campo **[!UICONTROL Tipo azione]**, selezionare &quot;Allega dati&quot;.
+      * Nella sezione del payload JSON, accertati che l’attributo utilizzato per recuperare il linguaggio da utilizzare (nell’esempio seguente &quot;lingua&quot;) corrisponda al nome dell’attributo specificato nello schema in cui il flusso di dati della raccolta dati si propaga.
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+      * Fai clic sul pulsante **[!UICONTROL Mantieni modifiche]** per confermare e salvare la regola.
+
++++
+
+1. Trascina e rilascia le impostazioni locali per riordinarle e gestirne la priorità nell’elenco.
 
 1. Fai clic su **[!UICONTROL Invia]** per creare le **[!UICONTROL impostazioni lingua]**.
+
+Dopo aver impostato le preferenze della lingua, non sarà più possibile modificarle.
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -165,6 +214,10 @@ In questa sezione puoi impostare la lingua principale e le lingue associate per 
 -->
 
 ## Creare un contenuto multilingue {#create-multilingual-campaign}
+
+>[!AVAILABILITY]
+>
+> Al momento non è disponibile un’anteprima per il contenuto di esperienze basate su codice e schede di contenuto con il flusso automatizzato.
 
 Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, puoi creare la campagna o il percorso e personalizzare il contenuto per le diverse lingue.
 
