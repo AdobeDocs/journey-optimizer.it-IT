@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
+source-git-commit: d51e28261908018824bcf65180534ced836b3765
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Per creare le tue esperienze web con l’editor non visivo, segui i passaggi ind
 
    Fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto alla modifica e seleziona **[!UICONTROL Informazioni]** per visualizzarne i dettagli. Se necessario, puoi anche **[!UICONTROL Eliminare la modifica]**.
 
-   ![](assets/web-non-visual-editor-ex-more.png)
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Per creare le tue esperienze web con l’editor non visivo, segui i passaggi ind
 
 1. Inoltre, puoi selezionare qualsiasi elemento del sito web e tenere traccia dei clic su di esso. Per abilitare il tracciamento dei clic e definire le azioni da tracciare, fai clic sulla seconda icona nella barra a sinistra, come illustrato di seguito:
 
-   ![](assets/web-campaign-click.png)
+   ![](assets/web-campaign-click.png){width="50%" align="left"}
 
    Utilizza il pulsante **Aggiungi componente** per selezionare una nuova azione da tracciare. Ulteriori informazioni sull&#39;utilizzo del tracciamento dei clic in [questa sezione](monitor-web-experiences.md#use-click-tracking).
 
