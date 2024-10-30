@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '730'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,15 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
 
    * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero in entrata univoco o il tuo codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve.
 
+   * **[!UICONTROL Parole chiave in entrata personalizzate]**: definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata.
+
+   * **[!UICONTROL Messaggio di risposta in entrata predefinito]**: immettere la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite.
+
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
+
+1. Nel menu **[!UICONTROL Credenziali API]**, fai clic sull&#39;icona bin per eliminare le credenziali API.
+
+1. Per modificare le credenziali esistenti, individuare le credenziali API desiderate e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi SMS. [Ulteriori informazioni](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ Per configurare Sinch MMS per l’invio di MMS con Journey Optimizer, effettua l
    * **[!UICONTROL ID piano di servizio]** e **[!UICONTROL Token API SMS]**: il **[!UICONTROL ID piano di servizio]** e il **[!UICONTROL Token API SMS]** si trovano nella scheda SMS della pagina API.
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
+
+1. Nel menu **[!UICONTROL Credenziali API]**, fai clic sull&#39;icona bin per eliminare le credenziali API.
+
+1. Per modificare le credenziali esistenti, individuare le credenziali API desiderate e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi MMS. [Ulteriori informazioni](sms-configuration-surface.md)

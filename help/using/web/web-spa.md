@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 18%
 
 ---
@@ -33,7 +33,7 @@ Una visualizzazione può essere definita come un intero sito o un gruppo di elem
 
 ## Definire le viste nell’implementazione dell’SDK web {#define-views}
 
-Le visualizzazioni XDM possono essere utilizzate nell&#39;Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione web sull&#39;SPA tramite l&#39;editor visivo web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+Le visualizzazioni XDM possono essere utilizzate in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione Web sull&#39;SPA tramite l&#39;editor visivo Web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 
 Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
@@ -41,13 +41,13 @@ Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente [!DNL Jo
 
 Una volta completata la configurazione dell’SPA nell’implementazione di Adobe Experience Platform Web SDK, è necessario navigare tra tutte le visualizzazioni del sito web a cui desideri applicare le modifiche. Segui i passaggi seguenti.
 
-1. [Crea una campagna Web](create-web.md) e accedi al [Web Designer](edit-web-content.md).
+1. [Crea un percorso Web o una campagna](create-web.md) e accedi al [Web Designer](web-visual-editor.md).
 
    La vista in cui sei attualmente è visualizzata in alto a sinistra.
 
    ![](assets/web-designer-view-home.png)
 
-1. Passare alla modalità **[!UICONTROL Sfoglia]**. [Ulteriori informazioni](../web/edit-web-content.md#browse-mode)
+1. Passare alla modalità **[!UICONTROL Sfoglia]**. [Ulteriori informazioni](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

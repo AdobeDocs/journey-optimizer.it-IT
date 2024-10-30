@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
+source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2000'
 ht-degree: 37%
 
 ---
@@ -225,7 +225,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <p>È ora possibile integrare Ink mobile Da Vinci e Adobe Journey Optimizer. Con questa nuova integrazione è possibile: </p>
 <p><ul><li>Sfrutta le potenti funzionalità del prodotto Da Vinci di Mobile Ink per assemblare e personalizzare le varianti e-mail per le campagne batch</li>
 <li>Accelerare i flussi di lavoro dei professionisti per i clienti di Journey Optimizer che utilizzano Da Vinci per l’authoring e AJO per l’ottimizzazione e la distribuzione</li>
-<li>Ottimizza i modelli Da Vinci con dati Adobi.</li></ul></p>
+<li>Ottimizza i modelli Da Vinci con i dati di Adobe.</li></ul></p>
 <!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -289,6 +289,10 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 Questa versione include i miglioramenti elencati di seguito.
 
 **Canale SMS**
+
+>[!AVAILABILITY]
+>
+>I seguenti miglioramenti sono disponibili solo con i provider Sinch e Infobip.
 
 Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messaggistica:
 

@@ -6,10 +6,11 @@ description: Scopri come configurare l’ambiente per l’invio di messaggi di t
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->I provider personalizzati sono attualmente disponibili come versione beta solo per gli utenti selezionati. Contatta il rappresentante del tuo Adobe per essere incluso in Beta.
+>I provider personalizzati sono attualmente disponibili come versione beta solo per gli utenti selezionati. Contatta il tuo rappresentante Adobe per essere incluso in Beta.
 >
 >Tieni presente che questo Beta non supporta i messaggi in entrata per la gestione del consenso e la generazione di rapporti sulla consegna di consenso o rinuncia.
 
-Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato non disponibile per Adobe (ad esempio, Sinch, Infobip, Twilio), procedi come segue:
+Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato non disponibile come Adobe (ad esempio, Sinch, Infobip, Twilio), effettua le seguenti operazioni:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**.
 
@@ -50,6 +51,10 @@ Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato
      Assicurarsi che il payload includa `{{toNumber}}`, `{{fromNumber}}`, `{{message}}`.
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
+
+1. Nel menu **[!UICONTROL Credenziali API]**, fai clic sull&#39;icona bin per eliminare le credenziali API.
+
+1. Per modificare le credenziali esistenti, individuare le credenziali API desiderate e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale per i messaggi SMS. [Ulteriori informazioni](sms-configuration-surface.md)
 

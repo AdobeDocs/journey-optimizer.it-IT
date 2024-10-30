@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,91 @@ La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panora
 * **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui l&#39;esperienza è stata aperta; non vengono prese in considerazione più interazioni di un profilo.
 
 +++
+
+## Decisioning dei KPI {#decisioning-kpis}
+
+![](assets/cja-decisioning-kpis.png)
+
+I **KPI decisionali** forniscono informazioni chiave sul coinvolgimento dei visitatori con le esperienze, incluse metriche quali:
+
+* **[!UICONTROL Totale elementi]**: numero totale di singoli elementi che facevano parte di un&#39;esperienza o di un processo decisionale personalizzato entro un periodo specificato.
+
+* **[!UICONTROL Totale visualizzazioni]**:
+
+* **[!UICONTROL Clic totali]**: numero totale di volte in cui gli utenti hanno fatto clic su elementi, collegamenti, prodotti o altri elementi interattivi durante un periodo di tempo specificato.
+
+* **[!UICONTROL Percentuale di fallback]**: percentuale di istanze in cui nessuna strategia di selezione è stata qualificata, con conseguente visualizzazione di un&#39;opzione generica o meno specifica.
+
+## Funnel di coinvolgimento {#engagement-funnel}
+
+![](assets/cja-engagement-funnel.png)
+
+La tabella **[!UICONTROL Funnel di coinvolgimento]** monitora le prestazioni delle esperienze personalizzate valutando l&#39;efficacia di ogni fase del funnel nelle interazioni dell&#39;utente.
+
+* **[!UICONTROL Visualizzazioni]**: numero totale di volte in cui le esperienze personalizzate sono state mostrate o presentate agli utenti attraverso vari punti di contatto.
+
+* **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
+
+## Elementi decisionali principali per percentuale di clickthrough {#top-decision}
+
+![](assets/cja-top-decisions-ctr.png)
+
+La tabella **[!UICONTROL Elementi decisionali principali per CTR]** evidenzia le prestazioni dei singoli elementi in base al relativo tasso di click-through. Questa metrica aiuta a valutare quali elementi sono più efficaci nel coinvolgere gli utenti e guidare le interazioni.
+
+* **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che fanno clic su un collegamento, un annuncio pubblicitario o un consiglio rispetto al numero di volte in cui è stato visualizzato.
+
+## Funnel di coinvolgimento per strategia di selezione {#engagement-funnel-selection}
+
+![](assets/cja-engagement-funnel-selection.png)
+
+La tabella **[!UICONTROL Funnel di coinvolgimento per strategia di selezione]** consente di monitorare e analizzare l&#39;efficacia con cui le diverse strategie di selezione coinvolgono gli utenti con esperienze personalizzate.
+
+* **[!UICONTROL Visualizzazioni]**: numero totale di volte in cui le esperienze personalizzate sono state mostrate o presentate agli utenti attraverso vari punti di contatto.
+
+* **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
+
+## Prestazioni degli elementi decisionali {#decision-items-performance}
+
+![](assets/cja-decisioning-item-performance.png)
+
+La tabella **[!UICONTROL Prestazioni degli elementi decisionali]** valuta le prestazioni di ogni elemento nel coinvolgere gli utenti e nell&#39;eseguire le azioni desiderate, ad esempio acquisti, clic o altre risposte.
+
+* **[!UICONTROL Visualizzazioni]**: numero totale di volte in cui le esperienze personalizzate sono state mostrate o presentate agli utenti attraverso vari punti di contatto.
+
+* **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
+
+## Strategia di classificazione {#ranking-strategy}
+
+>[!NOTE]
+>
+>La tabella **[!UICONTROL Strategia di classificazione]** diventa disponibile solo quando un modello di IA è incorporato nella campagna. [Ulteriori informazioni](../experience-decisioning/ranking.md)
+
+![](assets/cja-decision-ranking-strategy.png)
+
+La tabella **[!UICONTROL Strategia di classificazione]** fornisce informazioni approfondite sulle prestazioni dei modelli di classificazione basati sull&#39;intelligenza artificiale all&#39;interno di esperienze personalizzate confrontando due tipi di traffico:
+
+* **Basato su modello**: gli utenti ricevono contenuti classificati in base al modello di intelligenza artificiale, ottimizzati per rilevanza e coinvolgimento.
+
+* **Blocco**: gli utenti visualizzano una versione generica del contenuto che funge da gruppo di controllo per misurare l&#39;efficacia del modello di intelligenza artificiale.
+
+Le metriche chiave visualizzate includono:
+
+* **[!UICONTROL Visualizzazioni]**: numero totale di volte in cui le esperienze personalizzate sono state mostrate o presentate agli utenti attraverso vari punti di contatto.
+
+* **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
+
+* **[!UICONTROL Tasso di conversione]**: percentuale di visualizzazioni che hanno generato azioni dell&#39;utente (ad esempio clic), a indicare il successo del modello nel coinvolgere gli utenti.
+
+## Tasso di conversione per il traffico di attesa e basato su modello {#conversion-rate}
+
+>[!NOTE]
+>
+>Il grafico **[!UICONTROL Tasso di conversione per il traffico di attesa e basato su modello]** diventa disponibile solo quando un modello di intelligenza artificiale è incorporato nella campagna. [Ulteriori informazioni](../experience-decisioning/ranking.md)
+
+![](assets/cja-decisioning-conversion.png)
+
+Il grafico **[!UICONTROL Tasso di conversione per il traffico di attesa e basato su modello]** mostra il tasso di conversione nel tempo per due tipi di traffico:
+
+* **Basato su modello**: gli utenti ricevono contenuti classificati in base al modello di intelligenza artificiale, ottimizzati per rilevanza e coinvolgimento.
+
+* **Blocco**: gli utenti visualizzano una versione generica del contenuto che funge da gruppo di controllo per misurare l&#39;efficacia del modello di intelligenza artificiale.

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 81%
 
 ---
 
@@ -21,10 +21,9 @@ Tramite un’interfaccia visiva intuitiva, questa funzionalità ti consente di m
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-
 Se utilizzi già canali in uscita come e-mail, SMS o notifiche push, ora puoi sfruttare il canale Web in entrata per offrire un’esperienza veramente personalizzata che si estende in tutti i canali.
 
-In una campagna: dopo aver creato una campagna, seleziona **web** come azione e definisci le impostazioni di base. Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
+Dopo aver creato un percorso o una campagna, seleziona **Web** come azione e definisci le impostazioni di base. Per ulteriori informazioni su come configurare il percorso o la campagna, consulta questa [pagina](create-web.md#create-web-experience).
 
 >[!NOTE]
 >
@@ -50,11 +49,11 @@ Scopri i passaggi dettagliati per la creazione di una campagna web in [questo vi
 </div>
 <p></td>
 <td>
-<a href="edit-web-content.md">
+<a href="web-visual-editor.md">
 <img alt="Convalida" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="edit-web-content.md"><strong>Creare pagine web</strong></a>
+<a href="web-visual-editor.md"><strong>Creare pagine web</strong></a>
 </div>
 <p>
 </td>

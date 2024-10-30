@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ Quando utilizzare il canale Basato su codice anziché gli altri canali di [!DNL 
 
 * È possibile utilizzare le esperienze basate su codice in qualsiasi momento quando non si accede alla proprietà digitale tramite un browser web o un’app mobile; in questi ultimi casi, infatti, è spesso preferibile utilizzare il [canale Web](../web/get-started-web.md){target="_blank"} di [!DNL Journey Optimizer] o la [messaggistica in-app](../in-app/get-started-in-app.md){target="_blank"} di [!DNL Journey Optimizer].
 
-* È possibile utilizzare il canale basato su codice in alternativa al canale Web di [!DNL Journey Optimizer] se il sito web non può essere caricato nell’editor visivo del [Designer web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} o nel caso in cui non sia possibile utilizzare l’[estensione del browser](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale Web.
+* È possibile utilizzare il canale basato su codice in alternativa al canale Web di [!DNL Journey Optimizer] se il sito web non può essere caricato nell’editor visivo del [Designer web](../web/web-visual-editor.md){target="_blank"} o nel caso in cui non sia possibile utilizzare l’[estensione del browser](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale Web.
 
 * Inoltre, il canale Basato su codice può essere usato in alternativa ai canali Web o In-app di [!DNL Journey Optimizer] in caso di implementazioni basate su API, headless o lato server.
 
@@ -85,9 +85,9 @@ Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata 
 
 **Web**
 
-* Modifica il contenuto utilizzando l’editor visivo [Designer web](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
+* Modifica il contenuto utilizzando l’editor visivo [Designer web](../web/web-visual-editor.md){target="_blank"}.
 * Hai bisogno dell’implementazione di [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} e dell’estensione [Helper per editing video di Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} installata nel browser web. [Ulteriori informazioni](../web/web-prerequisites.md){target="_blank"}
-* Il canale Web consente di modificare tutto ciò che si trova sulla pagina e dispone di un elenco preimpostato di azioni che puoi utilizzare per apportare modifiche. [Ulteriori informazioni](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* Il canale Web consente di modificare tutto ciò che si trova sulla pagina e dispone di un elenco preimpostato di azioni che puoi utilizzare per apportare modifiche. [Ulteriori informazioni](../web/web-visual-editor.md){target="_blank"}
 * È facile e veloce da configurare.
 * È incentrato sul ruolo di marketer.
 

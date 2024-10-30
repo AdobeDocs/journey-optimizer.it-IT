@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '1505'
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
+workflow-type: tm+mt
+source-wordcount: '1446'
 ht-degree: 100%
 
 ---
@@ -232,45 +232,7 @@ Per cambiare lingua:
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="Governance"
->abstract="Governance"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="Modalità"
->abstract="Modalità"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="Abilitare l’aggiunta di contenuti"
->abstract="Abilitare l’aggiunta di contenuti"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="Blocco dei contenuti nella struttura"
->abstract="Blocco dei contenuti nella struttura"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="Utilizzare un blocco specifico nel componente"
->abstract="Utilizzare un blocco specifico nel componente"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="Evidenziare le aree modificabili"
->abstract="Evidenziare le aree modificabili"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="Governance abilitata"
->abstract="Il blocco del contenuto è attivato e può impedire di apportare modifiche."
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="Sola lettura"
->abstract="Questo contenuto è in sola lettura e non può essere modificato."
 
 <!--APPROVAL POLICIES-->
 

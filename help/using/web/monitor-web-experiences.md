@@ -1,19 +1,19 @@
 ---
-title: Monitorare le campagne web
-description: Scopri come monitorare le campagne web in Journey Optimizer
+title: Monitorare le esperienze web
+description: Scopri come monitorare le esperienze web in Journey Optimizer
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
 
 ---
 
-# Monitorare le campagne web {#monitor-web-experiences}
+# Monitorare le esperienze web {#monitor-web-experiences}
 
 ## Controlla i report web {#check-web-reports}
 
@@ -23,7 +23,7 @@ Una volta che la tua esperienza Web è attiva, puoi controllare la scheda **[!UI
 
 Per migliorare ulteriormente il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Questo consente di visualizzare il numero di clic su tale elemento nei rapporti web. [Scopri come](#use-click-tracing)
 
-## Utilizzare il tracciamento dei clic {#use-click-tracing}
+## Utilizzare il tracciamento dei clic {#use-click-tracking}
 
 Il web designer consente di selezionare qualsiasi elemento del sito web e di tenere traccia dei clic su di esso.
 

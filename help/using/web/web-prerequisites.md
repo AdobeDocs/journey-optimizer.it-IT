@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -80,7 +80,7 @@ Per scaricare e installare l’estensione del browser Helper per editing video, 
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-Helper per editing video di Adobe Experience Cloud ora viene attivato automaticamente quando si apre un sito Web in [!DNL Journey Optimizer] [Web Designer](edit-web-content.md#work-with-web-designer) per l&#39;authoring potente.
+Helper per editing video di Adobe Experience Cloud ora viene attivato automaticamente quando si apre un sito Web in [!DNL Journey Optimizer] [Web Designer](web-visual-editor.md) per l&#39;authoring potente.
 
 L’estensione non dispone di impostazioni condizionali e gestisce automaticamente tutte le impostazioni, incluse le impostazioni dei cookie SameSite.
 
@@ -94,7 +94,7 @@ L’estensione non dispone di impostazioni condizionali e gestisce automaticamen
 
 ### Risoluzione dei problemi di mancato caricamento del sito Web {#troubleshooting}
 
-Quando si utilizza il Web designer Adobe [!DNL Journey Optimizer], se si tenta di caricare un sito Web che non riesce, viene visualizzato un messaggio per suggerirti di installare l&#39;estensione del browser [Helper per editing video](#install-visual-editing-helper).
+Se si tenta di caricare un sito Web che non riesce utilizzando il Web Designer di Adobe [!DNL Journey Optimizer], viene visualizzato un messaggio per suggerirti di installare l&#39;[estensione del browser Helper per editing video](#install-visual-editing-helper).
 
 1. Assicurati che l’estensione del browser Helper per editing video sia installata correttamente.
 
@@ -104,7 +104,7 @@ Per le pagine in autenticazione, se la pagina di accesso non viene caricata o se
 
 1. Provare ad accedere in una nuova scheda del browser e passare alla pagina desiderata, quindi copiare l&#39;URL e provare ad aprirlo nel Web Designer [!DNL Journey Optimizer].
 
-2. Se non riesci ancora a caricare il sito Web nella finestra di progettazione Web di [!DNL Journey Optimizer], contatta l&#39;Assistenza clienti Adobe per segnalare il problema, assicurandoti di specificare l&#39;URL errato.
+2. Se non riesci ancora a caricare il sito Web nella finestra di progettazione Web di [!DNL Journey Optimizer], contatta l&#39;Assistenza clienti di Adobe per segnalare il problema, assicurandoti di specificare l&#39;URL errato.
 
 ## Prerequisiti per la consegna {#delivery-prerequisites}
 
@@ -122,7 +122,7 @@ Affinché l’esperienza web possa essere consegnata correttamente, è necessari
 
   ![](assets/web-aep-merge-policy.png)
 
-* Per risolvere i problemi relativi alla distribuzione delle esperienze Web di Journey Optimizer, puoi utilizzare la visualizzazione **Edge Delivery** in **Adobe Experience Platform Assurance**. Questo plug-in consente di esaminare in dettaglio le chiamate di richiesta, verificare se si verificano le chiamate edge previste come previsto ed esaminare i dati del profilo, tra cui le mappe di identità, le appartenenze ai segmenti e le impostazioni di consenso. Inoltre, puoi rivedere le attività per le quali la richiesta si è qualificata e identificare quelle per le quali non si è qualificata.
+* Per risolvere i problemi relativi alla distribuzione delle esperienze Web Journey Optimizer, puoi utilizzare la visualizzazione **Edge Delivery** in **Adobe Experience Platform Assurance**. Questo plug-in consente di esaminare in dettaglio le chiamate di richiesta, verificare se si verificano le chiamate edge previste come previsto ed esaminare i dati del profilo, tra cui le mappe di identità, le appartenenze ai segmenti e le impostazioni di consenso. Inoltre, puoi rivedere le attività per le quali la richiesta si è qualificata e identificare quelle per le quali non si è qualificata.
 
   L&#39;utilizzo del plug-in **Edge Delivery** consente di ottenere le informazioni necessarie per comprendere e risolvere in modo efficace le implementazioni in entrata.
 

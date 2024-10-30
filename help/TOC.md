@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2157'
 ht-degree: 94%
 
 ---
@@ -267,7 +267,8 @@ ht-degree: 94%
          + [Creare la configurazione del canale Web](using/web/web-configuration.md)
       + [Creare esperienze web](using/web/create-web.md)
       + Authoring di pagine web {#author-web-pages}
-         + [Modificare il contenuto di una pagina web](using/web/edit-web-content.md)
+         + [Utilizzare web designer](using/web/web-visual-editor.md)
+         + [Utilizza l’editor non visivo](using/web/web-non-visual-editor.md)
          + [Gestire le modifiche](using/web/manage-web-modifications.md)
          + [Monitorare le esperienze web](using/web/monitor-web-experiences.md)
          + [Creare applicazioni a pagina singola](using/web/web-spa.md)
