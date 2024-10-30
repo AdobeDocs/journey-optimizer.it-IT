@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -66,8 +66,8 @@ Per creare le tue esperienze web con l’editor non visivo, segui i passaggi ind
    Se necessario, puoi anche passare al web designer. Tutte le modifiche verranno mantenute.
 
 
-1. Puoi abilitare il tracciamento dei clic e definire le azioni da tracciare dalla seconda icona nella barra a sinistra, come illustrato di seguito:
+1. Puoi selezionare qualsiasi elemento del sito web e tenere traccia dei clic su di esso. Per abilitare il tracciamento dei clic e definire le azioni da tracciare, fai clic sulla seconda icona nella barra a sinistra, come illustrato di seguito:
 
    ![](assets/web-campaign-click.png)
 
-   Fai clic sul pulsante **Aggiungi componente** per selezionare una nuova azione da tracciare.
+   Utilizza il pulsante **Aggiungi componente** per selezionare una nuova azione da tracciare. Ulteriori informazioni sull&#39;utilizzo del tracciamento dei clic in [questa sezione](monitor-web-experiences.md#use-click-tracking).
