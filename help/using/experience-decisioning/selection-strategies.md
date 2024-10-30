@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 20%
+source-wordcount: '721'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Una strategia di selezione è riutilizzabile ed è costituita da una raccolta as
 
 ## Accesso e gestione delle strategie di selezione
 
-1. Vai a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configurazione strategia]** > **[!UICONTROL Strategie di selezione]**.
+1. Vai a **[!UICONTROL Decisioning]** > **[!UICONTROL Configurazione strategia]** > **[!UICONTROL Strategie di selezione]**.
 
 1. Vengono elencate tutte le strategie di selezione create finora. Sono disponibili filtri per aiutarti a recuperare le strategie in base al metodo di classificazione.
 

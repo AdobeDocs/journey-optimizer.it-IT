@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1745'
 ht-degree: 15%
 
 ---
@@ -26,7 +26,7 @@ Journey Optimizer consente di creare offerte di marketing, note come elementi de
 
 Prima di creare un elemento di decisione, assicurati di aver creato una **regola di decisione** se desideri impostare le condizioni per determinare a chi può essere visualizzato l&#39;elemento di decisione. [Scopri come creare regole di decisione](rules.md).
 
-Per creare un elemento di decisione, passa a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL cataloghi]**, quindi fai clic su **[!UICONTROL Crea elemento]** e segui i passaggi descritti nelle sezioni seguenti.
+Per creare un elemento di decisione, passa a **[!UICONTROL Decisioning]** > **[!UICONTROL cataloghi]**, quindi fai clic su **[!UICONTROL Crea elemento]** e segui i passaggi descritti nelle sezioni seguenti.
 
 ## Definire gli attributi dell’elemento decisionale {#attributes}
 
@@ -47,14 +47,14 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 
 1. Immetti un nome e una descrizione.
 1. Specifica le date di inizio e fine. L’elemento verrà preso in considerazione solo dal motore decisionale entro queste date.
-1. Imposta **[!UICONTROL Priorità]** dell&#39;elemento di decisione rispetto ad altri, se un profilo è idoneo per più elementi. Una priorità più alta concede la precedenza di un elemento rispetto agli altri.
-1. Il campo **Tag** consente di assegnare tag unificati Adobe Experience Platform agli elementi decisionali. Questo consente di classificarli facilmente e di migliorare la ricerca. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
+1. **** Una priorità più alta concede la precedenza di un elemento rispetto agli altri.
+1. **** This allows you to easily classify them and improve search. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
    >[!NOTE]
    >
-   >La priorità è un tipo di dati intero. Tutti gli attributi che sono tipi di dati integer devono contenere valori interi (senza decimali).
+   >The priority is an integer data type. All attributes that are integer data types should contain integer values (no decimals).
 
-1. Specificare gli attributi personalizzati (facoltativo). Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
+1. Specify custom attributes (optional). Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
 
 1. Una volta definiti gli attributi dell&#39;elemento decisionale, fare clic su **[!UICONTROL Avanti]**.
 
@@ -69,7 +69,7 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 
 Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisione, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici, entrambe le soluzioni corrispondenti a utilizzi diversi. Per ulteriori informazioni, espandi la sezione seguente:
 
-+++Utilizzo dei tipi di pubblico e regole di decisione
++++Using audiences vs decisiong rules
 
 In sostanza, l’output di un pubblico è un elenco di profili, mentre una regola di decisione è una funzione eseguita su richiesta su un singolo profilo durante il processo decisionale.
 
@@ -79,7 +79,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 
 +++
 
-* Per limitare la presentazione dell&#39;elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona l&#39;opzione **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]**, quindi aggiungi uno o più tipi di pubblico dal riquadro di sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md).
+* ************ [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md).
 
 * Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md).
 
@@ -102,20 +102,20 @@ Il limite viene utilizzato come vincolo per definire il numero massimo di volte 
 >
 >L&#39;aggiornamento del valore del contatore di limite può richiedere fino a 3 secondi. Ad esempio, supponiamo che tu stia visualizzando un banner web che mostra un’offerta sul tuo sito web. Se un determinato utente passa alla pagina successiva del sito Web in meno di 3 secondi, il valore del contatore non verrà incrementato per tale utente.
 
-Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic sul pulsante **[!UICONTROL Crea limitazione]** e quindi eseguire la procedura seguente:
+****
 
-1. Definisci quale **[!UICONTROL evento di limitazione]** verrà preso in considerazione per aumentare il contatore.
+1. ****
 
    * **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un&#39;offerta.
    * **[!UICONTROL Impression]** (solo canali in entrata): numero massimo di volte che l&#39;offerta può essere visualizzata a un utente.
    * **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull&#39;elemento decisionale.
-   * **[!UICONTROL Evento personalizzato]**: è possibile definire un evento personalizzato che verrà utilizzato per limitare il numero di volte in cui l&#39;elemento viene inviato. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono lo stesso 10000, o fino a quando un determinato profilo non viene rimborsato 1 volta. A tale scopo, utilizzare [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per generare una regola evento personalizzata.
+   * **[!UICONTROL Evento personalizzato]**: è possibile definire un evento personalizzato che verrà utilizzato per limitare il numero di volte in cui l&#39;elemento viene inviato. For example, you can cap on the number of redemptions until they equal 10000, or until a given profile has redeemed 1 time. [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}
 
    >[!NOTE]
    >
-   >Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente e il contatore di limitazione potrebbe non essere incrementato correttamente. Per garantire che ogni evento di limitazione venga tracciato e contabilizzato nel contatore delle limitazioni, accertati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. Informazioni dettagliate sulla raccolta dei dati sono disponibili nella documentazione relativa alla gestione delle decisioni di Journey Optimizer:
-   >* [Raccolta dati gestione decisioni](../offers/data-collection/data-collection.md)
-   >* [Configura raccolta dati](../offers/data-collection/schema-requirement.md)
+   >For all capping events except decision event, the decision management feedback may not be automatically collected, which could result in the capping counter not being correctly incremented. To make sure each capping event is tracked and accounted for in the capping counter, ensure that the schema used to collect experience events includes the correct field group for that event. Detailed information on data collection is available in Journey Optimizer Decision management documentation:
+   >* [](../offers/data-collection/data-collection.md)
+   >* [](../offers/data-collection/schema-requirement.md)
 
 1. Scegliere il tipo di limite:
 
@@ -133,7 +133,7 @@ Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic
    >
    >La reimpostazione del contatore dei limiti di frequenza si verifica alle **12:00 UTC**, nel giorno definito o nel primo giorno della settimana/mese, se applicabile. Il giorno di inizio della settimana è **domenica**. La durata scelta non può superare **2 anni** (ovvero il numero corrispondente di mesi, settimane o giorni).
    >
-   >Dopo aver pubblicato l’elemento decisionale, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza. Puoi comunque modificare il limite di frequenza se l&#39;elemento ha lo stato **[!UICONTROL Bozza]** e non è mai stato pubblicato prima con il limite di frequenza abilitato.
+   >After publishing your decision item, you will not be able to change the time period (monthly, weekly or daily) you selected for the frequency. ****
 
 1. Fai clic su **[!UICONTROL Crea]** per confermare la creazione della regola di limitazione di utilizzo. Puoi creare fino a 10 regole per un singolo elemento decisionale. A tale scopo, fare clic sul pulsante **[!UICONTROL Crea limite]** e ripetere i passaggi precedenti.
 
@@ -141,7 +141,7 @@ Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic
 
 1. Una volta definite l&#39;idoneità dell&#39;elemento decisionale e le regole di limite, fare clic su **[!UICONTROL Avanti]** per rivedere e salvare l&#39;elemento.
 
-1. L&#39;elemento di decisione viene ora visualizzato nell&#39;elenco, con lo stato **[!UICONTROL Bozza]**. Quando è pronto per essere presentato ai profili, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Approva]**.
+1. L&#39;elemento di decisione viene ora visualizzato nell&#39;elenco, con lo stato **[!UICONTROL Bozza]**. ****
 
    ![](assets/item-approve.png)
 
@@ -150,13 +150,13 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 ## Gestire gli elementi decisionali {#manage}
 
-Dall&#39;elenco degli elementi di decisione è possibile modificare un elemento di decisione, modificarne lo stato (**Bozza**, **Approvato**, **Archiviato**), duplicarlo o eliminarlo.
+************
 
-Per modificare un elemento di decisione, aprilo, apporta le modifiche e salvalo.
+To modify a decision item, open it, make your modifications and save it.
 
-Selezionando un elemento di decisione o facendo clic sul pulsante con i puntini di sospensione si abilitano le azioni descritte di seguito.
+Selecting a decision item or clicking the ellipsis button enables the actions described below.
 
-* **[!UICONTROL Approva]**: imposta lo stato dell&#39;elemento di decisione su Approvato.
+* ****
 * **[!UICONTROL Annulla approvazione]**: ripristina lo stato dell&#39;elemento di decisione su **[!UICONTROL Bozza]**.
 * **[!UICONTROL Duplicato]**: crea un elemento di decisione con attributi e vincoli identici. Per impostazione predefinita, il nuovo elemento ha lo stato **[!UICONTROL Bozza]**.
 * **[!UICONTROL Elimina]**: rimuove l&#39;elemento di decisione dall&#39;elenco.
@@ -165,4 +165,4 @@ Selezionando un elemento di decisione o facendo clic sul pulsante con i puntini 
   >
   >Una volta eliminata, l’elemento decisionale e il relativo contenuto non sono più accessibili. Questa azione non può essere annullata. Se l’elemento di decisione viene utilizzato in una raccolta o in una decisione, non può essere eliminato. È necessario rimuovere prima l’elemento di decisione da qualsiasi oggetto.
 
-* **[!UICONTROL Archivio]**: imposta lo stato dell&#39;elemento di decisione su **[!UICONTROL Archiviato]**. L&#39;elemento di decisione è ancora disponibile nell&#39;elenco, ma non è possibile impostarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
+* **[!UICONTROL Archivio]**: imposta lo stato dell&#39;elemento di decisione su **[!UICONTROL Archiviato]**. ******** Puoi solo duplicarlo o eliminarlo.

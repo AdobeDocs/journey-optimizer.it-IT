@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 37%
 
 ---
@@ -57,7 +57,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Con i criteri di approvazione, ora puoi impostare un processo di approvazione in Journey Optimizer che consenta ai team di marketing di garantire che le campagne e i percorsi vengano rivisti e autorizzati dagli stakeholder prima della pubblicazione.</p>
-<p>Precedentemente disponibile per un set di organizzazioni (LA), i criteri di approvazione sono ora disponibili per tutti gli utenti (GA).</p>
+<p>Previously available for a set of organizations (LA), approval policies are now available to all users (GA).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/gs-approval.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -69,7 +69,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Personalizzazione della configurazione e-mail (disponibilità generale)</strong><br/></th>
+<th><strong>Email configuration personalization (General availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -93,8 +93,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Percorsi optimizer ora consente di testare diverse varianti del contenuto delle e-mail visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.</p>
-<p>Questa funzionalità è attualmente disponibile come versione beta.</p>
+<p>Percorsi optimizer ora consente di testare diverse varianti del contenuto delle e-mail visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o aggiunti manualmente. All the profiles attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
+<p>This capability is currently available as a beta.</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
@@ -105,7 +105,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Gestione dei conflitti e delle priorità (disponibilità limitata)</strong><br/></th>
+<th><strong>Conflict and priority management (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -133,8 +133,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>In alternativa al web designer di Journey Optimizer, ora puoi aggiungere modifiche al sito web utilizzando un editor non visivo. Consente di inserire le modifiche manualmente senza aprire le pagine nell’editor visivo.
-Questa modalità di modifica non visiva è utile se non è possibile installare estensioni del browser come Adobe Experience Cloud Visual Helper, necessaria per caricare le pagine nel web designer.</p>
+<p>As an alternative to the Journey Optimizer web designer, you can now add modifications to your website using a non-visual editor. It allows you to enter your changes manually without opening the pages in the visual editor.
+This non-visual editing mode is useful if you cannot install browser extensions such as the Adobe Experience Cloud Visual Helper, which is required to load your pages in the web designer.</p>
 <!--p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -144,7 +144,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <table>
 <thead>
 <tr>
-<th><strong>Sperimentazione dei contenuti nei percorsi (disponibilità generale)</strong><br/></th>
+<th><strong>Content experimentation in journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -167,9 +167,9 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tbody>
 <tr>
 <td>
-<p>Decisioning, precedentemente disponibile per un set di organizzazioni (LA) e noto come Experience Decisioning, è ora disponibile per tutti gli utenti (GA). Semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come "elementi decisionali" e un sofisticato motore decisionale. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni individuo gli elementi decisionali più rilevanti. Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di superfici in entrata tramite il canale di esperienza basato su codice.</p>
+<p>Decisioning, previously available for a set of organizations (LA) and known as Experience Decisioning, is now available to all users (GA). Semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come "elementi decisionali" e un sofisticato motore decisionale. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual. These decision items are seamlessly integrated into a wide range of inbound surfaces through the code-based experience channel.</p>
 
-<p>Per il momento, Decisioning non è disponibile per i clienti che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield e Privacy and Security Shield.</p>
+<p>For now, Decisioning is unavailable for customers who have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.</p>
 
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
@@ -181,7 +181,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <table>
 <thead>
 <tr>
-<th><strong>Set di regole (disponibilità limitata)</strong><br/></th>
+<th><strong>Rule sets (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +206,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tr>
 <td>
 <p>Ora è possibile creare contenuti multilingue all’interno di un’unica campagna o di un unico percorso in modo semplice. Con questa funzione, è possibile cambiare lingua durante la modifica della campagna o del percorso, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.</p>
-<p>Grazie alla disponibilità generale, i contenuti multilingue sono ora accessibili su tutti i canali. </p>
+<p>With general availability, multilingual content is now accessible across all channels. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -216,13 +216,13 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione di Inchiostro mobile e Adobe Journey Optimizer</strong><br/></th>
+<th><strong>Movable Ink and Adobe Journey Optimizer integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile integrare Ink mobile Da Vinci e Adobe Journey Optimizer. Con questa nuova integrazione è possibile: </p>
+<p>You can now integrate Movable Ink Da Vinci and Adobe Journey Optimizer. With this new integration you can: </p>
 <p><ul><li>Sfrutta le potenti funzionalità del prodotto Da Vinci di Mobile Ink per assemblare e personalizzare le varianti e-mail per le campagne batch</li>
 <li>Accelerare i flussi di lavoro dei professionisti per i clienti di Journey Optimizer che utilizzano Da Vinci per l’authoring e AJO per l’ottimizzazione e la distribuzione</li>
 <li>Ottimizza i modelli Da Vinci con i dati di Adobe.</li></ul></p>
@@ -241,7 +241,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tr>
 <td>
 <p>Disponibile dal 16 ottobre 2024</p>
-<p>Il reporting di Journey Optimizer è ora generalmente disponibile (GA) e viene fornito con una migliore interoperabilità con funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.</p>
+<p>Journey Optimizer reporting is now generally available (GA) and comes with an improved interoperability with Customer Journey Analytics capabilities, standardizing reporting across both platforms and improving data consistency and reliability. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.</p>
 <p>Con la disponibilità generale, vengono introdotte quattro nuove funzioni: la possibilità di creare metriche semplici, creare e pubblicare tipi di pubblico, porre domande ad hoc tramite Insight Builder e pianificare l’invio automatico via e-mail dei rapporti ai destinatari chiave.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
@@ -276,7 +276,7 @@ Questa modalità di modifica non visiva è utile se non è possibile installare 
 <tbody>
 <tr>
 <td>
-<p>Disponibile dal 1 ottobre 2024</p>
+<p>Available since Oct 1, 2024</p>
 <p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../web/create-web.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -296,11 +296,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messaggistica:
 
-* Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
+* You can define and manage unique keywords for your SMS campaigns and journeys, enabling more personalized and efficient communication.
 
-* Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
+* You can create and deliver a default SMS message when a keyword is not recognized.
 
-* Ora puoi modificare o eliminare una configurazione del canale API SMS.
+* You can now edit or delete an SMS API Channel Configuration.
 
 <!--**Journeys**-->
 
@@ -323,7 +323,7 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 **Generazione rapporti**
 
-* È ora disponibile il reporting di **Experience Decisioning**, che offre informazioni essenziali su come i visitatori interagiscono con le esperienze.
+* È ora disponibile il reporting di **Decisioning**, che offre informazioni essenziali su come i visitatori interagiscono con le esperienze.
 
 **Governance dei dati e criteri di consenso** - Data di disponibilità: 7 ottobre 2024
 
@@ -347,4 +347,4 @@ Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messa
 
 **Decisioning**
 
-[Gli utenti di Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) possono ora scegliere modelli personalizzati su cui ottimizzare la configurazione di un modello di intelligenza artificiale in Decisioning (precedentemente noto come Experience Decisioning). Questo consente, ad esempio, di ottimizzare su una tabella &quot;acquisti&quot; personalizzata anziché vincoli definiti come il tasso di clickthrough.&quot;
+[](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) This allows you, for example, to optimize on a custom &quot;purchases&quot; table rather than defined constraints such as clickthrough rate.&quot;

@@ -1,39 +1,39 @@
 ---
-title: Introduzione alle decisioni per le esperienze
-description: Ulteriori informazioni su Experience Decisioning
+title: Introduzione a Decisioning
+description: Ulteriori informazioni su Decisioning
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 19%
 
 ---
 
-# Introduzione alle decisioni per le esperienze {#get-started-experience-decisioning}
+# Introduzione a Decisioning {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>Decisioning è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 >
->Per il momento, la funzionalità non è disponibile per i clienti che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** e **Privacy and Security Shield**.
+>Adobe Per il momento, la funzionalità non è disponibile per i clienti che hanno acquistato il componente aggiuntivo **Healthcare Shield** e **Privacy and Security Shield**.
 
-## Cos’è Experience Decisioning {#about}
+## Che cos’è Decisioning {#about}
 
-La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
+Decisioning semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come &quot;elementi decisionali&quot; e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer. I criteri decisionali relativi alla funzione Decisioni per le esperienze sono disponibili per l’utilizzo solo in campagne di esperienza basate su codice.
+Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer. I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
 
 
-## Passaggi chiave di Experience Decisioning {#steps}
+## Decisioning dei passaggi chiave {#steps}
 
-I passaggi principali per lavorare con Experience Decisioning sono i seguenti:
+I passaggi principali per lavorare con Decisioning sono i seguenti:
 
-1. **Assegna le autorizzazioni appropriate**. Experience Decisioning è disponibile solo per gli utenti con accesso a un **[!UICONTROL ruolo]** correlato a Experience Decisioning, ad esempio i responsabili delle decisioni. Se non riesci ad accedere ad Experience Decisioning, devi estendere le autorizzazioni.
+1. **Assegna le autorizzazioni appropriate**. Decisioning è disponibile solo per gli utenti con accesso a un **[!UICONTROL ruolo]** correlato a Decisioning, ad esempio i responsabili delle decisioni. Se non riesci ad accedere a Decisioning, devi estendere le autorizzazioni.
 
    +++Scopri come assegnare il ruolo Responsabili delle decisioni
 

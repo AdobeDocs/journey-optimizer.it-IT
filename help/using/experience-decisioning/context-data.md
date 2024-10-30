@@ -1,51 +1,51 @@
 ---
-title: Sfruttare i dati contestuali in Experience Decisioning
-description: Scopri come sfruttare i dati contestuali in Experience Decisioning
+title: Leverage context data in Decisioning
+description: Learn how to leverage context data in Decisioning
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# Sfruttare i dati contestuali in Experience Decisioning {#context}
+# Leverage context data in Decisioning {#context}
 
-Con Experience Decisioning puoi sfruttare qualsiasi informazione disponibile in Adobe Experience Platform per eseguire varie azioni, ad esempio la creazione di [regole di decisione](rules.md) o di [formule di classificazione](ranking.md). Ad esempio, puoi progettare una regola di decisione che richiede che il tempo corrente sia di ≥80 gradi al momento della richiesta di decisione.
+[](rules.md)[](ranking.md) For example, you can design a decision rule that requires the current weather to be ≥80 degrees at the time the decision request is made.
 
 >[!NOTE]
 >
->I dati contestuali sono definiti in Adobe Experience Platform e vengono inviati al momento di una richiesta di decisione. Non include dati storici.
+>Context data is defined in Adobe Experience Platform and is sent in at the time of a decision request. It does not include historical data.
 
-Per utilizzare i dati contestuali, devi innanzitutto definire i dati che desideri rendere disponibili in Experience Decisioning. Al termine, questi dati si integrano perfettamente in Experience Decisioning nella scheda **[!UICONTROL Dati contestuali]** disponibile durante la creazione di una regola di decisione. Puoi anche sfruttare i dati quando modifichi una formula di classificazione.
+To use context data, you first need to define the data you want to make available in Decisioning. **** You can also leverage the data when editing a ranking formula.
 
 ![](assets/decision-rules-context.png)
 
-I passaggi per alimentare Experience Decisioning con i dati di Adobe Experience Platform sono i seguenti:
+The steps to feed Decisioning with Adobe Experience Platform data are as follows:
 
-1. Crea uno **schema evento esperienza** in Adobe Experience Platform e il relativo **set di dati** associato. [Scopri come creare schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. ********[](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
-1. Crea un nuovo flusso di dati Adobe Experience Platform:
+1. Create a new Adobe Experience Platform datastream:
 
-   1. Passa al menu **[!UICONTROL Datastreams]** e seleziona **[!UICONTROL New Datastream]**.
+   1. ********
 
-   1. Nell&#39;elenco a discesa **[!UICONTROL Schema evento]**, seleziona lo schema evento esperienza creato in precedenza e fai clic su **[!UICONTROL Salva]**.
+   1. ********
 
       ![](assets/decision-rule-context-datastream.png)
 
-   1. Fare clic su **[!UICONTROL Aggiungi servizio]** e selezionare &quot;Adobe Experience Platform&quot; come servizio. Nell&#39;elenco a discesa **[!UICONTROL Set di dati evento]** selezionare il set di dati evento creato in precedenza e abilitare l&#39;opzione **[!UICONTROL Adobe Journey Optimizer]**.
+   1. **** ********
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Una volta salvato lo stream di dati, le informazioni del set di dati selezionato vengono recuperate automaticamente e integrate in Experience Decisioning, diventando in genere disponibili entro circa 24 ore.
+Once the datastream is saved, the selected dataset&#39;s information is automatically fetched and integrated into Decisioning, typically becoming available within approximately 24 hours.
 
-Per ulteriori informazioni su come lavorare con Adobe Experience Platform, consulta le risorse seguenti:
+For further guidance on how to work with Adobe Experience Platform, explore the following resources:
 
-* [Schemi Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Flussi di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
