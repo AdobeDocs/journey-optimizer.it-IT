@@ -1,6 +1,6 @@
 ---
 title: Creare esperienze basate su codice
-description: Learn how to create code-based experiences in Journey Optimizer
+description: Scopri come creare esperienze basate su codice in Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
@@ -19,13 +19,13 @@ In [!DNL Journey Optimizer] è possibile creare esperienze basate su codice in u
 
 I dettagli su guardrail e consigli specifici per esperienze basate su codice sono disponibili in [questa pagina](code-based-prerequisites.md).
 
-## Add a code-based experience through a journey or a campaign {#create-code-based-experience}
+## Aggiungere un’esperienza basata su codice tramite un percorso o una campagna {#create-code-based-experience}
 
-To start building your code-based experience through a journey or a campaign, follow the steps below.
+Per iniziare a creare l’esperienza basata su codice tramite un percorso o una campagna, segui i passaggi seguenti.
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Aggiungi un&#39;esperienza basata su codice a un percorso]
 
 Per aggiungere un&#39;attività **esperienza basata su codice** a un percorso, eseguire la procedura seguente:
 
@@ -41,9 +41,9 @@ Per aggiungere un&#39;attività **esperienza basata su codice** a un percorso, e
    >
    >Poiché **l&#39;esperienza basata su codice** è un&#39;attività messaggio in entrata, viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. ********
+1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
 
-1. [](code-based-configuration.md)
+1. Seleziona o crea la [configurazione esperienza basata su codice](code-based-configuration.md) da utilizzare.
 
    ![](assets/code-based-activity-config.png)
 
@@ -51,9 +51,9 @@ Per aggiungere un&#39;attività **esperienza basata su codice** a un percorso, e
 
    È inoltre possibile utilizzare un modello di contenuto esistente come base per il contenuto del codice. I modelli disponibili per la scelta hanno l’ambito HTML o JSON in base alla configurazione del canale scelta in precedenza. [Scopri come utilizzare i modelli di contenuto](../content-management/use-content-templates.md)
 
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
-1. Once your code-base experience is ready, finalize the configuration and publish your journey to activate it. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+1. Quando l’esperienza basata su codice è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
 
 Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
@@ -61,13 +61,13 @@ Per ulteriori informazioni su come configurare un percorso, consultare [questa p
 
 Per iniziare a creare la tua **esperienza basata su codice** tramite una campagna, segui la procedura riportata di seguito.
 
-1. Create a campaign. [Ulteriori informazioni](../campaigns/create-campaign.md)
+1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
-1. Select the type of campaign that you want to execute
+1. Seleziona il tipo di campagna da eseguire
 
-   * **** **** They are configured and executed from the user interface.
+   * **[!UICONTROL Pianificato - Marketing]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **messaggi di marketing**. Vengono configurati ed eseguiti dall’interfaccia utente di.
 
-   * **** Le campagne attivate da API hanno lo scopo di inviare **messaggi di marketing** o **messaggi transazionali**, ovvero messaggi inviati in seguito a un&#39;azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL Attivato da API - Marketing/Transazionale]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **messaggi di marketing** o **messaggi transazionali**, ovvero messaggi inviati in seguito a un&#39;azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](../campaigns/api-triggered-campaigns.md)
 
 1. Completa i passaggi per creare una campagna, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule). Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
@@ -95,11 +95,11 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 >abstract="Inserisci e modifica il codice che desideri consegnare come parte di questa azione di esperienza basata su codice."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=it" text="Introduzione all’editor di personalizzazione"
 
-1. ****
+1. Dall&#39;attività di percorso o dalla schermata dell&#39;edizione della campagna, selezionare **[!UICONTROL Modifica codice]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. [](../personalization/personalization-build-expressions.md) Si tratta di un’interfaccia non visiva per la creazione di esperienze che consente di creare il codice.
+1. Verrà aperto l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md). Si tratta di un’interfaccia non visiva per la creazione di esperienze che consente di creare il codice.
 
 1. Puoi passare dalla modalità di authoring di HTML a JSON e viceversa.
 
@@ -124,9 +124,9 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
    >Decisioning è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 
-1. ****
+1. Fai clic su **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
 
-Now as soon as your developer makes an API or SDK call to fetch content for the surface defined in your channel configuration, the changes will be applied to your web page or app.
+Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
 
 ## Testare l’esperienza basata sul codice {#test-code-based-experience}
 
@@ -141,13 +141,13 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 >
 >Devi disporre di profili di test per simulare quali offerte verranno consegnate. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
-1. ****
+1. Nel percorso o nella campagna, dall&#39;editor di personalizzazione o dalla schermata Modifica contenuto, seleziona **[!UICONTROL Simula contenuto]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
-1. ****
+1. Fare clic su **[!UICONTROL Gestisci profili di test]** per selezionare uno o più profili di test.
 
-1. A preview of your modified code-based experience is displayed.
+1. Viene visualizzata un’anteprima dell’esperienza basata su codice modificata.
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili in [questa sezione](../content-management/preview.md).
 
@@ -165,19 +165,19 @@ Informazioni dettagliate su come selezionare profili di test e visualizzare in a
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="Preview your code-based mobile experience on device"
->abstract="Scan the QR code or copy the link to preview on device. Una volta collegato, inserire il pin sul dispositivo. Per visualizzare le modifiche apportate a ogni aggiornamento dei collegamenti di anteprima, potrebbe essere necessario riavviare l&#39;app."
+>title="Anteprima dell’esperienza mobile basata su codice sul dispositivo"
+>abstract="Esegui la scansione del codice QR o copia il collegamento per visualizzarne l’anteprima sul dispositivo. Una volta collegato, inserire il pin sul dispositivo. Per visualizzare le modifiche apportate a ogni aggiornamento dei collegamenti di anteprima, potrebbe essere necessario riavviare l&#39;app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
 >title="Aggiorna il collegamento di anteprima per riflettere la visualizzazione corrente"
 >abstract="L’anteprima sul dispositivo mostrerà il contenuto al momento della creazione o dell’aggiornamento del collegamento di anteprima. Se hai modificato il contenuto o selezionato un profilo di test o un trattamento diverso, aggiorna l’anteprima in modo che rifletta la vista corrente."
 
-When building code-based experiences for web pages or mobile apps, you can preview your personalized experiences right on your browser or on your mobile devices, in order to see how these experiences look on real devices.
+Quando crei esperienze basate su codice per pagine web o app mobili, puoi visualizzare in anteprima le tue esperienze personalizzate direttamente sul browser o sui dispositivi mobili, per vedere come si presentano su dispositivi reali.
 
 >[!WARNING]
 >
->[](../experience-decisioning/create-decision.md)[](../personalization/personalization-build-expressions.md)
+>Anteprima sul dispositivo non disponibile quando si utilizzano [criteri di decisione](../experience-decisioning/create-decision.md) o [personalizzazione](../personalization/personalization-build-expressions.md) attributi contestuali.
 
 1. Dalla schermata **[!UICONTROL Simula]**, fai clic sul pulsante **[!UICONTROL Apri opzioni di anteprima]**. Le opzioni di anteprima dipendono dalla piattaforma selezionata nella [configurazione basata su codice](code-based-configuration.md#create-code-based-configuration).
 
@@ -187,15 +187,15 @@ When building code-based experiences for web pages or mobile apps, you can previ
 
    Puoi effettuare le seguenti operazioni:
 
-   * **** You can also share the link with your team and stakeholders, who can preview the new experience in any browser before the changes go live.
+   * Seleziona il pulsante **[!UICONTROL Copia collegamento]** e incolla il collegamento in una scheda del browser. Puoi anche condividere il collegamento con il tuo team e le parti interessate, che possono visualizzare in anteprima la nuova esperienza in qualsiasi browser prima che le modifiche vengano pubblicate.
 
-   * ****
+   * Fai clic su **[!UICONTROL Apri in una nuova scheda]** per aprire il collegamento nel browser corrente.
 
-   * Scan the QR code with your mobile device to open the preview link on a mobile browser.
+   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima su un browser mobile.
 
-1. [](code-based-configuration.md#mobile)********
+1. Se utilizzi [Piattaforme mobili](code-based-configuration.md#mobile) (iOS / Android) nella configurazione basata su codice, il campo **[!UICONTROL Deeplink]** di sola lettura è precompilato con il valore **[!UICONTROL URL anteprima]** immesso nella configurazione del canale per la piattaforma selezionata.
 
-   ******[!DNL Android]**
+   Passa dalle schede **[!UICONTROL iOS]** alle schede **[!DNL Android]** per visualizzare in anteprima la tua esperienza per la piattaforma che preferisci.
 
    ![](assets/preview-on-device-mobile.png)
 
@@ -217,25 +217,25 @@ When building code-based experiences for web pages or mobile apps, you can previ
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   When updating the content, or selecting a different test profile or treatment, the preview link is automatically refreshed. You can copy the link into different browser tabs, and compare the experiences.
+   Quando aggiorni il contenuto o selezioni un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. Puoi copiare il collegamento in diverse schede del browser e confrontare le esperienze.
 
-## Make your code-based experience live {#code-based-experience-live}
+## Rendi attiva l’esperienza basata su codice {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
-> If your campaign is subject to an approval policy, you will need to request approval in order to be able to activate your code-based experiences. [Ulteriori informazioni](../test-approve/gs-approval.md)
+> Se la campagna è soggetta a un criterio di approvazione, dovrai richiedere l’approvazione per poter attivare le esperienze basate su codice. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Dopo aver definito l&#39;esperienza basata su codice e aver modificato il contenuto come desiderato utilizzando l&#39;[editor basato su codice](#edit-code), puoi attivare il percorso o la campagna per rendere le modifiche visibili al pubblico.
 
-You can also preview your code-based experience content before making it live. [Ulteriori informazioni](#test-code-based-experience)
+Puoi anche visualizzare in anteprima il contenuto dell’esperienza basata su codice prima di renderlo live. [Ulteriori informazioni](#test-code-based-experience)
 
 >[!NOTE]
 >
->If you activate a code-based journey/campaign impacting the same pages as another journey or campaign which is already live, all the changes will be applied to your content.
+>Se attivi un percorso o una campagna basati su codice che influisce sulle stesse pagine di un altro percorso o campagna già live, tutte le modifiche verranno applicate al contenuto.
 >
->If multiple code-based journeys or campaigns update the same element(s) of your content, the highest priority journey/campaign takes precedence.
+>Se più percorsi o campagne basati su codice aggiornano gli stessi elementi del contenuto, il percorso o la campagna con priorità più elevata ha la precedenza.
 
-[](code-based-configuration.md) [](code-based-implementation-samples.md)
+Una volta che il percorso o la campagna basati su codice è attiva, il team di implementazione dell&#39;app è responsabile di effettuare chiamate API o SDK esplicite per recuperare il contenuto per le superfici definite nella [configurazione esperienza basata su codice](code-based-configuration.md) selezionata. Ulteriori informazioni sulle diverse implementazioni del cliente in [questa sezione](code-based-implementation-samples.md).
 
 ### Publish un percorso basato su codice {#publish-code-based-journey}
 
@@ -265,31 +265,31 @@ Il percorso basato su codice accetta lo stato **[!UICONTROL Live]** ed è ora vi
 
 1. Se necessario, seleziona e modifica il contenuto, le proprietà, la configurazione, il pubblico e la pianificazione.
 
-1. ****
+1. Seleziona **[!UICONTROL Attiva]**.
 
    ![](assets/code-based-campaign-activate.png)
 
    >[!NOTE]
    >
-   >[](../campaigns/review-activate-campaign.md)
+   >Ulteriori informazioni sull&#39;attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
 
-**** Each recipient of your campaign can see the modifications you added to your content.
+La campagna basata su codice assume lo stato **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al contenuto.
 
 >[!NOTE]
 >
->****
+>Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti perché le modifiche siano disponibili in tempo reale.
 >
->****
+>Se hai definito una pianificazione per una campagna basata su codice, questa avrà lo stato **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell&#39;ora di inizio.
 
 ## Interrompere un percorso o una campagna basata su codice {#stop-code-based-experience}
 
-When a code-based experience is live, you can stop it to prevent your audience from seeing your modifications. Segui i passaggi seguenti.
+Quando un’esperienza basata su codice è attiva, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Segui i passaggi seguenti.
 
-1. Select a live journey or campaign from the respective list.
+1. Seleziona un percorso o una campagna live dal rispettivo elenco.
 
-1. Perform the relevant action according to your case:
+1. Esegui l’azione pertinente in base al caso:
 
-   * ****
+   * Dal menu principale della campagna, seleziona **[!UICONTROL Interrompi campagna]**.
 
      ![](assets/code-based-campaign-stop.png)
 

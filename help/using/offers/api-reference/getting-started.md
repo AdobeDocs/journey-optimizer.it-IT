@@ -35,7 +35,7 @@ Questa guida richiede una buona conoscenza dei seguenti componenti di Adobe Expe
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}: framework standardizzato per l’organizzazione dei dati sull’esperienza del cliente in [!DNL Experience Platform].
    * [Nozioni di base sulla composizione degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: scopri gli elementi di base degli schemi XDM.
-* [](../../../using/offers/get-started/starting-offer-decisioning.md) Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
+* [Gestione delle decisioni](../../../using/offers/get-started/starting-offer-decisioning.md): illustra i concetti e i componenti utilizzati per Decisioning in generale e per la gestione delle decisioni in particolare. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=it){target="_blank"}: PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole di decisione.
 
 ## Lettura delle chiamate API di esempio {#reading-sample-api-calls}

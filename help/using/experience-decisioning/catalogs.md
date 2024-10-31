@@ -1,6 +1,6 @@
 ---
-title: Item catalog
-description: Learn how to work with the item catalog
+title: Catalogo articoli
+description: Scopri come utilizzare il catalogo degli elementi
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -14,37 +14,37 @@ ht-degree: 0%
 
 ---
 
-# Item catalog {#catalog}
+# Catalogo articoli {#catalog}
 
-In Decisioning, catalogs serve as central containers for organizing decision items. Each catalog is linked to an Adobe Experience Platform schema, encompassing all the attributes assignable to a decision item.
+In Decisioning, i cataloghi fungono da contenitori centrali per l’organizzazione degli elementi decisionali. Ogni catalogo è collegato a uno schema Adobe Experience Platform, che include tutti gli attributi assegnabili a un elemento decisionale.
 
-****
+Per il momento, tutti gli elementi decisionali creati sono consolidati in un unico catalogo &quot;Offerte&quot;, accessibile tramite il menu **[!UICONTROL Cataloghi]**.
 
 ![](assets/catalogs-list.png)
 
-To access the catalog&#39;s schema where decision items&#39; attributes are stored, follow these steps:
+Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degli elementi decisionali, effettua le seguenti operazioni:
 
-1. ********
+1. Nell&#39;elenco degli elementi fare clic sul pulsante **[!UICONTROL Modifica schema]** accanto al pulsante **[!UICONTROL Crea elemento]**.
 
-1. The catalog&#39;s schema opens in a new tab, following the structure below:
+1. Lo schema del catalogo viene aperto in una nuova scheda, seguendo la struttura riportata di seguito:
 
-   * **`_experience`**
-   * **`_<imsOrg>`** By default, no custom attributes are configured, but you can add as many as needed to suit your requirements. Once done, custom attributes appear in the decision item creation screen alongside the standard attributes.
+   * Il nodo **`_experience`** include attributi di elementi decisionali standard quali nome, data di inizio e di fine e descrizione.
+   * Il nodo **`_<imsOrg>`** ospita gli attributi degli elementi decisionali personalizzati. Per impostazione predefinita, non sono configurati attributi personalizzati, ma puoi aggiungerne quanti ne servono in base alle tue esigenze. Al termine, gli attributi personalizzati vengono visualizzati nella schermata di creazione dell’elemento decisionale insieme agli attributi standard.
 
    ![](assets/catalogs-schema.png)
 
-1. **`_<imsOrg>`**
+1. Per aggiungere un attributo personalizzato allo schema, espandere il nodo **`_<imsOrg>`** e fare clic sul pulsante &quot;+&quot; nella posizione desiderata nella struttura.
 
    ![](assets/catalogs-add.png)
 
-1. ****
+1. Compila i campi necessari per l&#39;attributo aggiunto e fai clic su **[!UICONTROL Applica]**.
 
    >[!CAUTION]
    >
-   >For now, Decisioning exclusively supports the following data types: String, Integer, Boolean, Date, DateTime and Decisioning Asset. Any field falling outside these data types will not be available for use when authoring a decision item or a catalog.
+   >Per il momento, Decisioning supporta esclusivamente i seguenti tipi di dati: String, Integer, Boolean, Date, DateTime e Decisioning Assets. Eventuali campi che non rientrano in questi tipi di dati non saranno disponibili per l’utilizzo durante la creazione di un elemento decisionale o di un catalogo.
 
-   The value that is input on an attribute with decisioning asset attribute is a public url. Most of the time this would point to an image.
+   Il valore immesso in un attributo con l’attributo di risorsa decisioning è un URL pubblico. Nella maggior parte dei casi, questo richiama un’immagine.
 
-   [](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it)
+   Informazioni dettagliate su come utilizzare gli schemi di Adobe Experience Platform sono disponibili nella [documentazione del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
 
-1. Once your desired custom attributes are added, save the schema. ****
+1. Una volta aggiunti gli attributi personalizzati desiderati, salva lo schema. Il nuovo campo è ora disponibile nella schermata di creazione delle decisioni sugli elementi, nella sezione **[!UICONTROL Attributi personalizzati]**.
