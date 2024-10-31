@@ -10,10 +10,10 @@ level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 badge: label="Disponibilità limitata"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 21%
+source-wordcount: '1924'
+ht-degree: 22%
 
 ---
 
@@ -44,13 +44,9 @@ Quando si accede ai set di regole per la prima volta dal menu **[!UICONTROL Ammi
 
 Questo set di regole contiene regole globali che è possibile applicare per controllare la frequenza con cui gli utenti ricevono messaggi in uno o più canali, in modo analogo al funzionamento delle regole business correnti. Tutte le regole definite in questo set di regole si applicano a tutti i canali selezionati, indipendentemente dal fatto che le comunicazioni vengano inviate da un percorso o da una campagna. [Scopri come utilizzare le regole business](frequency-rules.md)
 
-Oltre a questo set di regole predefinito globale, puoi creare **set di regole personalizzati** che puoi applicare a qualsiasi campagna per limitare il numero di messaggi inviati all&#39;interno della campagna. [Scopri come creare set di regole personalizzati](#create)
+Oltre a questo set di regole predefinito globale, puoi creare **set di regole personalizzati** da applicare a qualsiasi campagna per limitare il numero di messaggi inviati all&#39;interno della campagna. [Scopri come creare set di regole personalizzati](#create)
 
 ![](assets/rule-sets-default.png)
-
->[!IMPORTANT]
->
->Per il momento, i set di regole personalizzati possono essere applicati solo alle **campagne**. Solo le regole definite nel set di regole &quot;Set di regole predefinito globale&quot; sono applicabili sia alle comunicazioni di percorsi che a quelle di campagne.
 
 ### Regole di limitazione di canale e percorsi {#domain}
 
@@ -75,10 +71,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 1. Definisci un nome univoco per il set di regole e aggiungi una descrizione.
 
-1. Seleziona il dominio del set di regole. Il dominio consente di specificare se il set di regole conterrà regole di limitazione di utilizzo specifiche per i canali di comunicazione o i percorsi:
-
-   * **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
-   * **Percorso**: applica a un percorso le regole di limite di concorrenza e di immissione. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
+1. Seleziona il dominio del set di regole. Il dominio consente di specificare se il set di regole conterrà regole di limitazione di utilizzo specifiche per i canali di comunicazione o i percorsi. [Ulteriori informazioni sulle regole di limitazione dei canali e dei percorsi](#domain)
 
    ![](assets/rule-sets-create.png)
 
