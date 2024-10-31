@@ -6,9 +6,9 @@ description: Scopri come bloccare il contenuto nei modelli e-mail.
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 Journey Optimizer consente di bloccare il contenuto nei modelli e-mail, bloccando l’intero modello o strutture e componenti specifici. Questo consente di evitare modifiche o eliminazioni non intenzionali, garantendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Gli utenti autorizzati a creare modelli di contenuto possono abilitare il blocco del contenuto.
+>Il blocco dei contenuti è una funzione a livello di editor per gli autori e non garantisce che il contenuto non verrà modificato quando viene importato o creato tramite API.
 
 Il blocco del contenuto può essere applicato al livello **struttura** o al livello **componente**. Di seguito sono elencati i principali principi applicabili a livello di struttura e componente quando si blocca il contenuto nel modello.
 
@@ -59,6 +59,10 @@ Il blocco del contenuto può essere applicato al livello **struttura** o al live
 
    * I singoli componenti di contenuto possono essere bloccati all’interno di tale struttura.
    * Per impostazione predefinita, non è possibile eliminare un componente se è bloccato o se è selezionato &quot;Solo blocco di contenuto modificabile&quot;. È possibile ignorare questa restrizione abilitando l’opzione &quot;Consenti eliminazione&quot;.
+
+>[!AVAILABILITY]
+>
+>Gli utenti autorizzati a creare modelli di contenuto possono abilitare il blocco del contenuto.
 
 ## Bloccare un modello e-mail {#define}
 
