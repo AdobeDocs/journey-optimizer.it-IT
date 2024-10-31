@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
+source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 39%
@@ -98,7 +98,10 @@ Questa versione include le nuove funzionalità descritte di seguito:
 <li><b>Arbitrato di Percorso</b>: questa nuova funzionalità consente di assegnare la priorità ai percorsi più importanti per i clienti. Puoi creare una regola per eliminare l’ingresso in un percorso con priorità inferiore quando un cliente si qualifica per un prossimo percorso con priorità maggiore.</li>
 <li><b>Limitazione della frequenza per tipo di comunicazione: </b>Con i set di regole è ora possibile impostare regole granulari per tipo di comunicazione (ad esempio Vendite, Promozionali) per evitare di sovraccaricare i clienti con messaggi simili. Puoi controllare la frequenza su più canali, escludendo automaticamente i profili sollecitati eccessivamente per garantire una migliore esperienza del cliente.</li></ul>
 
+<img src="assets/do-not-localize/gif-conflict.gif">
+
 <p>Le funzionalità di gestione dei conflitti e delle priorità sono disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per queste funzioni, contatta il team del tuo account.</p>
+
 </td>
 </tr>
 </tbody>
