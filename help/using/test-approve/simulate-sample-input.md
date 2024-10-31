@@ -1,73 +1,95 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testare il contenuto utilizzando dati di input di esempio
-description: Scopri come visualizzare in anteprima il contenuto delle e-mail e inviare bozze utilizzando dati di input di esempio.
+title: Verifica il contenuto utilizzando dati di input di esempio (Beta)
+description: Scopri come visualizzare in anteprima il contenuto e inviare bozze e-mail utilizzando dati di input di esempio.
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-hide: true
-hidefromtoc: true
-source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 1%
 
 ---
 
 
-# Testare il contenuto utilizzando dati di input di esempio {#custom-profiles}
+# Verifica il contenuto utilizzando dati di input di esempio (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulazione tramite input di esempio"
->abstract="In questa schermata, puoi testare diverse varianti del contenuto delle e-mail fornendo valori per i campi di personalizzazione tramite un modello CSV (scarica CSV) o immettendo manualmente i valori."
+>abstract="In questa schermata, puoi testare diverse varianti del contenuto fornendo valori per i campi di personalizzazione tramite un modello CSV o JSON oppure immettendo manualmente i valori."
 
 >[!AVAILABILITY]
 >
->Questa funzione è attualmente disponibile come versione beta solo per alcuni utenti.
+>Questa funzione è attualmente disponibile per tutti i clienti come versione beta pubblica.
 
-Percorsi Optimizer consente di testare diverse varianti del contenuto delle e-mail visualizzandone l’anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.
+Percorsi optimizer consente di testare diverse varianti di contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.
 
-Per accedere a questa esperienza, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e scegli **[!UICONTROL Simula con CSV(Beta)]**.
+>[!NOTE]
+>
+>Per il momento, la simulazione delle varianti di contenuto è disponibile solo per i canali di notifica e-mail, SMS e push.
+
+Per accedere a questa esperienza, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e scegli **[!UICONTROL Simula varianti di contenuto (Beta)]**.
 
 ![](assets/simulate-sample.png)
 
 I passaggi principali per testare il contenuto sono i seguenti:
 
-1. Aggiungi fino a 30 varianti con dati di input di esempio caricando un file CSV o aggiungendo dati manualmente. [Scopri come aggiungere varianti](#profiles)
+1. Aggiungi fino a 30 varianti con dati di input di esempio caricando un file o aggiungendo dati manualmente. [Scopri come aggiungere varianti](#profiles)
 1. Controlla l’anteprima del contenuto utilizzando le diverse varianti. [Scopri come visualizzare in anteprima il tuo contenuto](#preview)
-1. Invia fino a 10 bozze agli indirizzi e-mail utilizzando le diverse varianti. [Scopri come inviare bozze](#proofs)
+1. Per il contenuto delle e-mail, invia fino a 10 bozze agli indirizzi e-mail utilizzando le diverse varianti. [Scopri come inviare bozze](#proofs)
 
 
 ## Guardrail e limitazioni {#limitations}
 
 Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, considera i seguenti guardrail e prerequisiti.
 
-* Al momento, il test tramite dati di input di esempio è disponibile solo per il canale e-mail. Non è possibile accedere all’esperienza dal pulsante &quot;Simula contenuto&quot; all’interno di E-mail Designer.
+* Al momento, il test eseguito utilizzando dati di input di esempio è disponibile solo per i canali di notifica e-mail, SMS e push. Non è possibile accedere all’esperienza dal pulsante &quot;Simula contenuto&quot; all’interno di E-mail Designer.
 * Nell’esperienza corrente non sono disponibili le seguenti funzioni: rendering della casella in entrata, rapporti di posta indesiderata, contenuto multilingue ed esperimento sui contenuti. Per utilizzare queste funzionalità, seleziona dal contenuto il pulsante **[!UICONTROL Simula contenuto]** per accedere all&#39;interfaccia utente precedente.
 * Al momento sono supportati solo gli attributi del profilo. Se nel contenuto vengono utilizzati attributi contestuali per la personalizzazione, non potrai testare il contenuto utilizzando questi attributi.
 * Per l’immissione di dati per le varianti sono supportati solo i seguenti tipi di dati: numero (intero e decimale), stringa, booleano e tipo data. Qualsiasi altro tipo di dati mostrerà un errore.
 
 ## Aggiungi varianti {#profiles}
 
-Puoi aggiungere fino a 30 varianti per testare il contenuto, utilizzando un file CSV o manualmente:
-
-* Per caricare dati di input di esempio da un file CSV, fai clic sul collegamento **[!UICONTROL scarica CSV]** per recuperare un modello di file CSV. Questi modelli includono una colonna per ogni attributo di profilo utilizzato nel contenuto per la personalizzazione.
-
-  Compila il file CSV, quindi fai clic su **[!UICONTROL Carica dati di input]** per caricarlo e verificare il contenuto.
-
-* Per aggiungere manualmente una variante, fare clic sul pulsante **[!UICONTROL Crea input di esempio]** e inserire i dati di input di esempio per la variante. Viene visualizzato un campo per ogni attributo di profilo utilizzato nel contenuto per la personalizzazione.
-
-  ![](assets/simulate-custom-add.png)
-
-Una volta selezionati i profili, viene visualizzata una casella per ogni variante sul lato sinistro della schermata. Puoi utilizzare questi profili per visualizzare in anteprima il contenuto e inviare bozze.
+Puoi aggiungere fino a 30 varianti per testare il contenuto, utilizzando un file o manualmente.
 
 >[!NOTE]
 >
->Le varianti aggiunte servono solo come scopo di test per il contenuto corrente. Gli elementi non vengono memorizzati in Adobe Experience Platform, ma nella sessione del browser utente, il che significa che non verranno visualizzati alla disconnessione o se si lavora da un altro dispositivo.
+>Le varianti aggiunte servono solo come scopo di test per il contenuto corrente. Gli elementi non vengono memorizzati in Adobe Experience Platform, ma nella sessione del browser utente, il che significa che non verranno visualizzati alla disconnessione o quando si lavora da un altro dispositivo.
+
+### Aggiungi variante utilizzando un file {#file}
+
+Per aggiungere una variante da un file, effettua le seguenti operazioni:
+
+1. Fai clic sul collegamento **[!UICONTROL scarica esempio]** per recuperare un modello di file, quindi scegli il formato di file che desideri utilizzare (CSV, JSON o JSONLINES).
+
+1. Fai clic su **[!UICONTROL Scarica]**, quindi archivia il modello nel percorso desiderato.
+
+1. Apri il file e compila il modello in base alle tue esigenze. Il modello include una colonna per ogni attributo di profilo utilizzato nel contenuto per la personalizzazione.
+
+1. Quando il file è pronto, fai clic su **[!UICONTROL Carica dati di input]** per caricarlo e verificare il contenuto.
+
+1. Una volta caricato il file, nel riquadro a sinistra viene aggiunta una casella per ogni riga del file. Ogni casella contiene tutti gli attributi di profilo utilizzati nel contenuto per la personalizzazione. Ora è possibile utilizzare le varianti per visualizzare in anteprima il contenuto nel riquadro a destra e inviare le bozze.
+
+   ![](assets/simulate-custom-variants.png)
+
+### Aggiungere varianti manualmente {#manual}
+
+Per aggiungere manualmente una variante, effettua le seguenti operazioni:
+
+1. Fai clic sul pulsante **[!UICONTROL Crea input di esempio]**.
+
+   Nel riquadro a sinistra viene aggiunta una casella con tutti gli attributi del profilo utilizzati nel contenuto per la personalizzazione.
+
+1. Inserisci i dati di input di esempio per la variante e fai clic su **[!UICONTROL Salva]**.
+
+   ![](assets/simulate-custom-add.png)
+
+1. Una volta aggiunte le varianti, puoi utilizzarle per visualizzare in anteprima il contenuto nel riquadro a destra e inviare le bozze.
 
 ## Visualizzare in anteprima le varianti di contenuto {#preview}
 
