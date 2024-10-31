@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
+source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 39%
@@ -280,7 +280,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale SMS**
 
-* Ora puoi modificare o eliminare una configurazione del canale API SMS.
+* Ora puoi modificare o eliminare una configurazione del canale API SMS. [Ulteriori informazioni](../sms/sms-configuration.md)
 
 * I seguenti miglioramenti sono stati introdotti per migliorare le funzionalità di messaggistica SMS con Infobip e Sinch:
 
@@ -317,7 +317,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Generazione rapporti**
 
-* È ora disponibile il reporting di **Experience Decisioning**, che offre informazioni essenziali su come i visitatori interagiscono con le esperienze. [Ulteriori informazioni](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* È ora disponibile il reporting di **Decisioning**, che offre informazioni essenziali su come i visitatori interagiscono con le esperienze. [Ulteriori informazioni](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **Governance dei dati e criteri di consenso** - Data di disponibilità: 7 ottobre 2024
 
@@ -347,4 +347,4 @@ Questa versione include i miglioramenti elencati di seguito.
 
 <!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
 
-* Quando aggiungi un criterio di decisione a una campagna basata su codice con Experience Decisioning, ora puoi selezionare manualmente singoli elementi decisionali, oltre a strategie di selezione. Inoltre, ora puoi selezionare più di un’offerta di fallback. Ciò garantisce che venga restituito un certo numero di elementi decisionali. [Ulteriori informazioni](../experience-decisioning/create-decision.md)
+* Quando aggiungi un criterio di decisione a una campagna basata su codice con Decisioning, ora puoi selezionare manualmente singoli elementi decisionali, oltre a strategie di selezione. Inoltre, ora puoi selezionare più di un’offerta di fallback. Ciò garantisce che venga restituito un certo numero di elementi decisionali. [Ulteriori informazioni](../experience-decisioning/create-decision.md)
