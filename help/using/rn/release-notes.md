@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 41%
+source-wordcount: '1904'
+ht-degree: 39%
 
 ---
 
@@ -92,7 +92,7 @@ Questa versione include le nuove funzionalità descritte di seguito:
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. <p>Per ulteriori informazioni, consulta la <a href="../email/surface-personalization.md">documentazione dettagliata</a>.</p></p><p><ul><li><b>Limitazione frequenza Percorsi</b>: ora puoi creare set di regole da applicare ai tuoi percorsi, consentendo di limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché di controllare il numero di percorsi simultanei in esecuzione simultaneamente.</li>
+<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p></p><p><ul><li><b>Limitazione frequenza Percorsi</b>: ora puoi creare set di regole da applicare ai tuoi percorsi, consentendo di limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché di controllare il numero di percorsi simultanei in esecuzione simultaneamente.</li>
 <li><b>Punteggio di priorità</b>: è ora possibile assegnare un punteggio di priorità a una campagna o a un percorso, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne o azioni di percorso utilizzano la stessa configurazione di canale, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata meno di recente.</li>
 <li><b>Visualizza potenziali conflitti</b>: un nuovo pulsante "Visualizza potenziali conflitti" nei percorsi e nelle campagne ora consente di identificare la sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione del canale selezionato.</li>
 <li><b>Arbitrato di Percorso</b>: questa nuova funzionalità consente di assegnare la priorità ai percorsi più importanti per i clienti. Puoi creare una regola per eliminare l’ingresso in un percorso con priorità inferiore quando un cliente si qualifica per un prossimo percorso con priorità maggiore.</li>
@@ -233,25 +233,24 @@ Precedentemente disponibili per un set di organizzazioni (LA), le seguenti funzi
 </tbody>
 </table>
 
-
-<!--The following capabilities are available to all customers in public beta:
-
 <table>
 <thead>
 <tr>
-<th><strong>Test your content using sample input data (Beta)</strong><br/></th>
+<th><strong>Verifica il contenuto utilizzando dati di input di esempio (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey optimizer now allows you to test different variants of your email content by previewing it and sending proofs using sample input data uploaded from a file or added manually. All the profiles attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
+<p>Percorsi optimizer ora consente di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.</p>
+<p>Questa funzionalità è attualmente disponibile per tutti i clienti come versione beta pubblica, per i canali di notifica e-mail, SMS e push.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+
+<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
