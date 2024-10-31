@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1910'
 ht-degree: 39%
 
 ---
@@ -275,15 +275,16 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale SMS**
 
-Sono stati introdotti miglioramenti SMS per migliorare le funzionalità di messaggistica:
-
-* Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
-
-* Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
-
 * Ora puoi modificare o eliminare una configurazione del canale API SMS.
 
-Ulteriori informazioni su questi miglioramenti sono disponibili nella documentazione sulla configurazione SMS per [Infobip](../sms/sms-configuration-infobip.md) e [Sinch](../sms/sms-configuration-sinch.md).
+* I seguenti miglioramenti sono stati introdotti per migliorare le funzionalità di messaggistica SMS con Infobip e Sinch:
+
+   * Puoi definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
+
+   * Puoi creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
+
+  Ulteriori informazioni su questi miglioramenti sono disponibili nella documentazione sulla configurazione SMS per [Infobip](../sms/sms-configuration-infobip.md) e [Sinch](../sms/sms-configuration-sinch.md).
+
 
 <!--**Journeys**-->
 
@@ -307,7 +308,7 @@ Ulteriori informazioni su questi miglioramenti sono disponibili nella documentaz
 
   In una fase successiva, questa modifica verrà implementata nelle sandbox dei clienti esistenti. [Ulteriori informazioni](../data/datasets-ttl.md#ttl)
 
-* **Parametri nelle azioni personalizzate** (data di disponibilità: 3 ottobre 2024) - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parametri nelle azioni personalizzate** - Data di disponibilità: 3 ottobre 2024 - I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **Generazione rapporti**
 
