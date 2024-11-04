@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 27%
+source-wordcount: '558'
+ht-degree: 15%
 
 ---
 
@@ -46,6 +46,31 @@ Per creare un metodo di classificazione, effettua le seguenti operazioni:
    * [Formule di classificazione](../offers/ranking/create-ranking-formulas.md)
    * [Modelli di intelligenza artificiale](../offers/ranking/ai-models.md)
 
++++ Ottimizzazione dei modelli sulle metriche [!DNL Customer Journey Analytics] personalizzate
+
+>[!NOTE]
+>
+>Questa funzionalità è disponibile solo per [!DNL Customer Journey Analytics] clienti con diritti di amministratore.
+>
+>Prima di iniziare, assicurati di aver integrato Journey Optimizer con Customer Journey Analytics per esportare i set di dati di Journey Optimizer nelle visualizzazioni dati predefinite. [Scopri come sfruttare [!DNL Journey Optmizer] i dati in [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+
+I modelli di ottimizzazione personalizzati sono un tipo di modello di intelligenza artificiale che consente di definire gli obiettivi aziendali e utilizza i dati dei clienti per addestrare modelli orientati al business per distribuire offerte personalizzate e massimizzare i KPI. Informazioni dettagliate su come creare un modello di IA personalizzato sono disponibili nella [documentazione di gestione delle decisioni](../offers/ranking/personalized-optimization-model.md).
+
+Per impostazione predefinita, i modelli di ottimizzazione personalizzati utilizzano **clic sull&#39;offerta** come metrica di ottimizzazione. Se lavori con [!DNL Customer Journey Analytics], [!DNL Decisioning] ti consente di sfruttare le tue metriche personalizzate per ottimizzare il tuo modello su.
+
+A questo scopo, accedi alla schermata di creazione del modello di intelligenza artificiale personalizzato ed espandi il menu a discesa **[!UICONTROL Evento di conversione]**. Tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello, quindi completa normalmente la creazione del modello di intelligenza artificiale.
+
+![](assets/ai-ranking-custom-metrics.png)
+
+>[!NOTE]
+>
+>Per impostazione predefinita, le metriche in [!DNL Customer Journey Analytics] utilizzano un modello di attribuzione &quot;Last Touch&quot; (Ultimo contatto), che assegna il 100% del credito al punto di contatto che si verifica più di recente prima della conversione.
+>
+>Anche se è possibile modificare il modello di attribuzione, non tutti i modelli di attribuzione sono ideali per l’ottimizzazione del modello di IA. È consigliabile selezionare con attenzione un modello di attribuzione in linea con gli obiettivi di ottimizzazione per garantire l’accuratezza e le prestazioni del modello.
+>
+>Per ulteriori dettagli sui modelli di attribuzione disponibili e indicazioni sul loro utilizzo, consulta la [[!DNL Customer Journey Analytics] documentazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+
++++
 
 ## Sfruttare gli attributi degli elementi decisionali nelle formule {#items}
 

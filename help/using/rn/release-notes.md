@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 79%
+source-wordcount: '1960'
+ht-degree: 78%
 
 ---
 
@@ -345,6 +345,6 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Funzione decisioni**
 
-<!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
+* Gli utenti di [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) possono ora scegliere modelli personalizzati per l’ottimizzazione durante la configurazione di un modello di intelligenza artificiale nella funzione Decisioni (precedentemente nota come Decisioni per le esperienze). Questo consente, ad esempio, di ottimizzare su una tabella &quot;acquisti&quot; personalizzata anziché vincoli definiti come il tasso di clickthrough. [Ulteriori informazioni](../experience-decisioning/ranking.md)
 
 * Quando aggiungi un criterio di decisione a una campagna basata su codice con Decisioning, ora puoi selezionare manualmente singoli elementi decisionali, oltre a strategie di selezione. Inoltre, ora è possibile selezionare più di un’offerta di fallback. Ciò garantisce che venga restituito un certo numero di elementi decisionali. [Ulteriori informazioni](../experience-decisioning/create-decision.md)
