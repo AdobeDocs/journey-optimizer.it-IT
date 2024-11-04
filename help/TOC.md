@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -175,11 +175,11 @@ ht-degree: 93%
    + [Rivedere e attivare una campagna](using/campaigns/review-activate-campaign.md)
    + [Gestire le campagne](using/campaigns/modify-stop-campaign.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
-+ Gestione dei conflitti e definizione delle priorità {#conflict-prioritization}
-   + [Guida introduttiva alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
-   + [Identificare potenziali conflitti](using/conflict-prioritization/conflicts.md)
++ Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
+   + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
    + [Assegnare punteggi di priorità](using/conflict-prioritization/priority-scores.md)
-   + [Limitazione percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
+   + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
 + Testare e approvare {#test}
    + Anteprima e test del contenuto {#preview-test}
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
@@ -227,8 +227,8 @@ ht-degree: 93%
    + Canale in-app{#in-app}
       + [Introduzione al canale in-app](using/in-app/get-started-in-app.md)
       + [Prerequisiti per il canale in-app](using/in-app/inapp-configuration.md)
-      + [Creare un messaggio in-app mobile](using/in-app/create-in-app.md)
-      + [Creare un messaggio Web in-app](using/in-app/create-in-app-web.md)
+      + [Creare un messaggio in-app per dispositivi mobili](using/in-app/create-in-app.md)
+      + [Creare un messaggio in-app per il web](using/in-app/create-in-app-web.md)
       + [Creare contenuto in-app](using/in-app/design-in-app.md)
       + [Verifica e invio della notifica in-app](using/in-app/send-in-app.md)
    + Canale di notifica push{#push}
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
-   + Utilizzare l&#39;Assistente AI{#ai-assistant}
+   + Utilizzare l’Assistente IA{#ai-assistant}
       + [Introduzione all’accelerazione di contenuti dell’Assistente IA](using/content-management/gs-generative.md)
       + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
       + [Generazione di push con l’IA](using/content-management/generative-push.md)
@@ -391,30 +391,30 @@ ht-degree: 93%
       + [Rapporto live dell’elenco iscrizioni](using/reports/subscription-report-live.md)
    + Esperienza di reporting aggiornata{#channel-report}
       + [Introduzione all’esperienza di reporting aggiornata](using/reports/report-gs-cja.md)
-      + [Configura manualmente il Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [Configurare manualmente Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gestire i rapporti](using/reports/report-cja-manage.md)
       + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)
-      + Rapporti campagna{#reporting}
+      + Rapporti sulla campagna{#reporting}
          + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
-         + [Report campagna basata su codice](using/reports/campaign-global-report-cja-code.md)
-         + [Report campagna scheda contenuti](using/reports/campaign-global-report-cja-content.md)
+         + [Rapporto sulla campagna basata su codice](using/reports/campaign-global-report-cja-code.md)
+         + [Rapporto sulle schede contenuto della campagna](using/reports/campaign-global-report-cja-content.md)
          + [Rapporto sulle campagne Direct mail](using/reports/campaign-global-report-cja-direct.md)
          + [Rapporto sulla campagna e-mail](using/reports/campaign-global-report-cja-email.md)
-         + [Rapporto sulla campagna di sperimentazione](using/reports/campaign-global-report-cja-experimentation.md)
-         + [Rapporto campagna in-app](using/reports/campaign-global-report-cja-inapp.md)
-         + [Rapporto campagna notifiche push](using/reports/campaign-global-report-cja-push.md)
+         + [Rapporto sulla sperimentazione della campagna](using/reports/campaign-global-report-cja-experimentation.md)
+         + [Rapporto sulla campagna in-app](using/reports/campaign-global-report-cja-inapp.md)
+         + [Rapporto sulle notifiche push della campagna](using/reports/campaign-global-report-cja-push.md)
          + [Rapporto sulla campagna SMS](using/reports/campaign-global-report-cja-sms.md)
-         + [Rapporto campagna web](using/reports/campaign-global-report-cja-web.md)
-      + Report percorso{#reporting}
+         + [Rapporto sulla campagna web](using/reports/campaign-global-report-cja-web.md)
+      + Rapporti sul percorso{#reporting}
          + [Rapporto percorso](using/reports/journey-global-report-cja.md)
-         + [Report percorso basato su codice](using/reports/journey-global-report-cja-code.md)
-         + [Report percorso schede di contenuto](using/reports/journey-global-report-cja-content.md)
-         + [Report percorso direct mail](using/reports/journey-global-report-cja-direct.md)
-         + [Rapporto percorso e-mail](using/reports/journey-global-report-cja-email.md)
-         + [Rapporto percorso in-app](using/reports/journey-global-report-cja-inapp.md)
-         + [Rapporto percorso push](using/reports/journey-global-report-cja-push.md)
-         + [Rapporto percorso SMS](using/reports/journey-global-report-cja-sms.md)
-         + [Rapporto percorso web](using/reports/journey-global-report-cja-web.md)
+         + [Rapporto sul percorso basato su codice](using/reports/journey-global-report-cja-code.md)
+         + [Rapporto sulle schede contenuto del percorso](using/reports/journey-global-report-cja-content.md)
+         + [Rapporto sul percorso direct mail](using/reports/journey-global-report-cja-direct.md)
+         + [Rapporto sul percorso e-mail](using/reports/journey-global-report-cja-email.md)
+         + [Rapporto sul percorso in-app](using/reports/journey-global-report-cja-inapp.md)
+         + [Rapporto sul percorso push](using/reports/journey-global-report-cja-push.md)
+         + [Rapporto sul percorso SMS](using/reports/journey-global-report-cja-sms.md)
+         + [Rapporto sul percorso web](using/reports/journey-global-report-cja-web.md)
       + [Rapporto panoramica](using/reports/channel-report-cja.md)
       + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
       + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
@@ -453,7 +453,7 @@ ht-degree: 93%
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
          + [Interfaccia utente](using/offers/get-started/user-interface.md)
          + [Passaggi chiave per creare e gestire le offerte](using/offers/offer-library/key-steps.md)
-         + [Sfruttare i tipi di pubblico di caricamento personalizzati per il processo decisionale](using/offers/custom-upload-decisioning.md)
+         + [Sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni](using/offers/custom-upload-decisioning.md)
          + [Caso di utilizzo: inserire offerte in un messaggio e-mail](using/offers/offers-e2e.md)
       + Creare componenti {#create-components}
          + [Creare posizionamenti](using/offers/offer-library/creating-placements.md)
@@ -625,7 +625,7 @@ ht-degree: 93%
    + [Utilizzare gli schemi](using/data/get-started-schemas.md)
    + Set di dati di Journey Optimizer {#datasets}
       + [Introduzione ai set di dati](using/data/get-started-datasets.md)
-      + [Aggiornamenti della segmentazione in streaming e time-to-live](using/data/datasets-ttl.md)
+      + [Aggiornamenti alla segmentazione in streaming e time-to-live](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
       + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)

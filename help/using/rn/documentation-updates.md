@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '5707'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,11 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di ottobre 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * Tutti i canali di comunicazione disponibili in [!DNL Journey Optimizer] sono ora raggruppati in una sezione dedicata della documentazione. [Ulteriori informazioni](../channels/gs-channels.md)
-* La pagina **Configurare l&#39;esperienza basata su codice** è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega cos&#39;è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
-* La pagina **Crea configurazione canale Web** è stata aggiornata per chiarire i passaggi durante la creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell&#39;esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
-* È stata aggiunta una nota sul prossimo guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)
+* La pagina **Configura l’esperienza basata su codice** è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega che cos’è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
+* La pagina **Crea configurazione canale web** è stata aggiornata per chiarire i passaggi della creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell’esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
+* È stata aggiunta una nota sull’imminente guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)
 * È stata aggiunta una nuova sezione che descrive come visualizzare in anteprima le esperienze personalizzate basate su codice direttamente sul browser o sui dispositivi mobili, utilizzando l’opzione Anteprima sul dispositivo durante la simulazione di contenuti in un percorso o in una campagna. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
-* È stata aggiunta una nuova pagina su come sfruttare i tipi di pubblico di caricamento personalizzati per prendere decisioni. [Ulteriori informazioni](../offers/custom-upload-decisioning.md)
+* È stata aggiunta una nuova pagina su come sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni. [Ulteriori informazioni](../offers/custom-upload-decisioning.md)
 
 ## Settembre 2024 {#sept-2024}
 
@@ -35,7 +35,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiunta una sezione sulla gestione dei nuovi tentativi per i percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md#read-audience-retry)
 * Le domande frequenti sulle regole di limitazione per le azioni personalizzate sono state aggiornate per menzionare la regola di limitazione predefinita. [Ulteriori informazioni](../configuration/external-systems.md#faq)
 * La sezione Controllo degli accessi è stata aggiornata con le autorizzazioni relative alla generazione di contenuti dell’Assistente IA. [Ulteriori informazioni](../administration/high-low-permissions.md#ai-permission)
-* È stato aggiunto un video sul Generatore di contenuti dell’Assistente di intelligenza artificiale per la generazione di e-mail. [Ulteriori informazioni](../content-management/generative-email.md#video)
+* È stato aggiunto un video relativo alla generazione di contenuti dell’Assistente IA per la creazione di e-mail. [Ulteriori informazioni](../content-management/generative-email.md#video)
 
 
 ## Agosto 2024 {#aug-2024}

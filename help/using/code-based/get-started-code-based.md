@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 83%
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata 
 
 * Modifica il contenuto utilizzando l’[editor di personalizzazione](create-code-based.md#edit-code).
 * Per creare esperienze basate su codice, è necessario un precedente lavoro di sviluppo sulla propria implementazione affinché che le applicazioni possano interpretare e consegnare i contenuti pubblicati nell’ambiente Edge da [!DNL Journey Optimizer] per queste posizioni. [Ulteriori informazioni](code-based-configuration.md#surface-definition)
-* Richiede una maggiore pianificazione ed è possibile modificare solo gli elementi specificati dagli sviluppatori. Pertanto, è essenziale identificare i componenti (banner Home, immagine hero, barra dei menu, ecc.) nelle applicazioni che devono essere modificati per la personalizzazione o il testing e collaborare con il team di sviluppo per creare l’implementazione necessaria per gestire queste modifiche.
+* Richiede una maggiore pianificazione ed è possibile modificare solo gli elementi specificati dagli sviluppatori. Pertanto, è essenziale identificare i componenti (banner Home, immagine protagonista, barra dei menu, ecc.) delle applicazioni che devono essere modificate per la personalizzazione o il test e collaborare con il team di sviluppo per creare l’implementazione necessaria per gestire queste modifiche.
 * Consente di utilizzare contenuti creati con codice JSON.
 * È incentrata sugli sviluppatori.
 
@@ -103,9 +103,9 @@ Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata 
 
 >[!CAUTION]
 >
->Questa funzione è destinata agli sviluppatori e/o utenti esperti. Può essere utilizzato da esperti di marketing con competenze di scrittura del codice, purché le configurazioni dei canali e la configurazione iniziale siano gestite dal team di sviluppo.
+>Questa funzione è destinata agli sviluppatori e/o utenti esperti. Può essere utilizzata da marketer con alcune competenze nella scrittura del codice, purché le configurazioni di canale e la configurazione iniziale siano gestite dal team di sviluppo.
 
-Per modificare il contenuto utilizzando la funzionalità di esperienza basata su codice di [!DNL Journey Optimizer], le pagine o le app devono essere strumentate. A questo scopo, devi dichiarare in anticipo le singole posizioni specifiche (denominate &quot;[superfici](code-based-configuration.md#surface-definition)&quot;) in cui desideri inserire o sostituire il contenuto.
+Per modificare il contenuto utilizzando la funzionalità di esperienza basata su codice di [!DNL Journey Optimizer], le pagine o le app devono essere strumentate. Per farlo, è necessario specificare in anticipo le singole posizioni (denominate “[superfici](code-based-configuration.md#surface-definition)”) nel punto in cui desideri inserire o sostituire il contenuto.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Per modificare il contenuto utilizzando la funzionalità di esperienza basata su
 
 I passaggi chiave per implementare una campagna basata su codice sono i seguenti.
 
-1. Definisci una [superficie](code-based-configuration.md#surface-definition) nell&#39;implementazione dell&#39;applicazione, ovvero la posizione in cui desideri aggiungere l&#39;esperienza basata sul codice, e crea una configurazione del canale di esperienza basata sul codice che faccia riferimento a tale posizione. [Scopri come](code-based-configuration.md#create-code-based-configuration)
+1. Definisci una [superficie](code-based-configuration.md#surface-definition) nell’implementazione dell’applicazione, ovvero la posizione in cui desideri aggiungere l’esperienza basata su codice, quindi crea una configurazione dei canali di tale esperienza che faccia riferimento a tale posizione. [Scopri come](code-based-configuration.md#create-code-based-configuration)
 
 1. Creare un percorso o una campagna in [!DNL Journey Optimizer] utilizzando questa configurazione. [Scopri come](create-code-based.md#create-code-based-campaign)
 
