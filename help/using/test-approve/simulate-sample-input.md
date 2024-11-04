@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verifica il contenuto utilizzando dati di input di esempio (Beta)
-description: Scopri come visualizzare in anteprima il contenuto e inviare bozze e-mail utilizzando dati di input di esempio.
-feature: Overview, Get Started
+description: Scopri come visualizzare in anteprima il contenuto e inviare bozze e-mail utilizzando dati di input di esempio da un file CSV o JSON o aggiunti manualmente.
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Questa funzione è attualmente disponibile per tutti i clienti come versione beta pubblica.
 
-Percorsi optimizer consente di testare diverse varianti di contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.
+Percorsi Optimizer consente di testare diverse varianti di contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.
 
 >[!NOTE]
 >
