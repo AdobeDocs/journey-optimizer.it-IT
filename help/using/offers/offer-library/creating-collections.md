@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 8%
+source-wordcount: '463'
+ht-degree: 7%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 8%
 >id="ajo_decisioning_decision_collection"
 >title="Informazioni sulle raccolte di offerte"
 >abstract="Le raccolte consentono di organizzare le offerte raggruppandole in categorie a tua scelta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="Raccolta dinamica"
+>abstract="Utilizza i qualificatori di raccolta per qualificare dinamicamente le offerte per una raccolta."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="Raccolta statica"
+>abstract="Seleziona e raggruppa manualmente le offerte utilizzando criteri quali stato, qualificatori di raccolta, data e canale."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="Anteprima raccolta statica"
+>abstract="Le raccolte statiche vengono create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente più offerte."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="Anteprima raccolta dinamica"
+>abstract="Le raccolte dinamiche raccolgono le offerte in base ai qualificatori di raccolta. Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il qualificatore di raccolta &quot;sport&quot;, questa verrà aggiunta automaticamente alla raccolta corrispondente."
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una raccolta &quot;sport&quot; che conterrà solo offerte relative allo sport.
 

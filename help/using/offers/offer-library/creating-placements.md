@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 12%
+source-wordcount: '630'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 12%
 >id="ajo_decisioning_placement"
 >title="Posizionamento"
 >abstract="Un posizionamento è un contenitore utilizzato per mostrare le offerte, affinché il contenuto corretto venga visualizzato nella posizione desiderata all’interno del messaggio. I posizionamenti vengono creati dal menu “Componenti”."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="Impostazioni richiesta"
+>abstract="Abilita l&#39;opzione **[!UICONTROL Consenti duplicati tra posizionamenti]** per fare in modo che il sistema consideri la stessa offerta per più posizionamenti. Utilizza il campo **[!UICONTROL Richiedi offerta]** per regolare il numero di offerte restituite. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito di decisione selezionato."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="Formato di risposta"
+>abstract="Le opzioni **[!UICONTROL Includi contenuto]** e **[!UICONTROL Includi metadati]** consentono di specificare se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere solo tutti i metadati o campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su true."
 
 Il posizionamento garantisce che il contenuto dell’offerta corretta venga visualizzato nella posizione corretta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
@@ -46,7 +56,6 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
    * **[!UICONTROL Descrizione]**: descrizione del posizionamento (facoltativo).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. Le sezioni **[!UICONTROL Impostazioni richiesta]** e **[!UICONTROL Formato risposta]** forniscono parametri aggiuntivi:
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
@@ -38,6 +38,16 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 >id="ajo_decisioning_offer_attributes"
 >title="Attributi di offerta"
 >abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="Offerta personalizzata"
+>abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su regole e vincoli di idoneità."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Fallback offer (Offerta fallback)"
+>abstract="Un’offerta di fallback è l’offerta predefinita che viene visualizzata se un utente finale non è idoneo per nessuna delle offerte personalizzate."
 
 Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
