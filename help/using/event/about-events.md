@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventi del percorso"
->abstract="Un evento è collegato a una persona. e si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure, indica qualcosa che si verifica in relazione a una persona, ad esempio se ha raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, Journey Optimizer farà da listener per questi dati, in modo da orchestrare le migliori azioni da eseguire in futuro."
+>abstract="Un evento è collegato a una persona. Si riferisce al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) o a qualcosa che si verifica in relazione a una persona (ad esempio, una persona ha raggiunto 10.000 punti fedeltà). Nell’ambito dei percorsi, Journey Optimizer farà da listener per questi dati, in modo da orchestrare le migliori azioni da eseguire in futuro."
 
 La configurazione dell’evento consente di definire le informazioni che [!DNL Journey Optimizer] riceverà sotto forma di eventi. Puoi utilizzare più eventi (in passaggi diversi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
 
@@ -31,7 +31,7 @@ La configurazione dell’evento consente di definire le informazioni che [!DNL J
 
 Puoi configurare due tipi di eventi:
 
-* **Eventi unitari**: questi eventi sono collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) Oppure, indica qualcosa che si verifica in relazione a una persona, ad esempio se ha raggiunto 10.000 punti fedeltà. [!DNL Journey Optimizer] farà da listener in percorsi per orchestrare le migliori azioni successive. Gli eventi unitari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
+* **Eventi unitari**: questi eventi sono collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) o a qualcosa che si verifica in relazione a una persona (ad esempio, una persona ha raggiunto 10.000 punti fedeltà). [!DNL Journey Optimizer] farà da listener in percorsi per orchestrare le migliori azioni successive. Gli eventi unitari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
 
 * **Eventi di business**: un evento di business è un evento che, a differenza di un evento unitario, non è collegato a un profilo specifico. Ad esempio, può essere un avviso di notizie, un aggiornamento sportivo, una modifica o cancellazione di un volo, un aggiornamento di inventario, eventi meteo, ecc. Anche se questi eventi non sono specifici per un profilo, possono essere di interesse per un numero qualsiasi di profili: utenti abbonati a notizie particolari, passeggeri su un volo, acquirenti interessati a un prodotto esaurito, ecc. Gli eventi di business sono sempre basati su regole. Quando rilasci un evento di business in un percorso, aggiunge automaticamente un&#39;attività **Read audience** subito dopo. Per informazioni su come creare un evento di business, consulta questa [pagina](../event/about-creating-business.md).
 
@@ -60,7 +60,7 @@ Per gli eventi unitari, esistono due tipi di ID evento:
 
 >[!NOTE]
 >
->Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
+>Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Gli eventi acquisiti in batch o gli eventi dai set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Ciclo dei dati {#data-cycle}
 

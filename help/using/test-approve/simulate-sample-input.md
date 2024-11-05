@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verifica il contenuto utilizzando dati di input di esempio (Beta)
+title: Testare il contenuto utilizzando dati di input di esempio (Beta)
 description: Scopri come visualizzare in anteprima il contenuto e inviare bozze e-mail utilizzando dati di input di esempio da un file CSV o JSON o aggiunti manualmente.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="Beta"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Verifica il contenuto utilizzando dati di input di esempio (Beta) {#custom-profiles}
+# Testare il contenuto utilizzando dati di input di esempio (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
