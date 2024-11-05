@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1305'
 ht-degree: 99%
 
 ---
@@ -196,39 +196,7 @@ Per cambiare lingua:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Tipo di oggetto"
->abstract="Tipo di oggetto"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Applicare un set di regole ai percorsi"
->abstract="Applica un set di regole per escludere questo percorso ad una parte del pubblico in base alle regole di quota limite."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Tipo di regola"
->abstract="Tipo di regola"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Limitazione delle regole"
->abstract="Limitazione delle regole"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Periodo per prioritizzazione"
->abstract=" Se viene programmato un percorso con priorità più alta entro il periodo di tempo specificato qui, al cliente verrà impedito di accedere a questo percorso. Per le situazioni in cui desideri che i percorsi vengano inseriti secondo il criterio in base all’ordine di avvio, consigliamo di scegliere il periodo di visualizzazione giornaliero e di assicurarsi che il punteggio di priorità di qualsiasi altro percorso in tale giornata sia inferiore al punteggio di priorità per il percorso. Assegnare un punteggio di priorità pari a 100 a un percorso garantirebbe, inoltre, che questo venga selezionato."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Considerazioni per la prioritizzazione"
->abstract="Da definire"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
