@@ -4,9 +4,9 @@ description: Scopri come identificare potenziali conflitti in percorsi e campagn
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,10 @@ I settori chiave da monitorare per eventuali sovrapposizioni sono i seguenti:
 * **Canale**: sono pianificate altre comunicazioni per lo stesso intervallo di tempo e, in caso affermativo, quante?
 * **Set di regole di limitazione**: quali tipi di percorsi sono soggetti a limitazione e vi sono sovrapposizioni all&#39;interno di essi?
 * **Configurazione canale**: ci sono altri percorsi o campagne che utilizzano una configurazione di canale utilizzata nello stesso percorso o campagna che potrebbe impedire la visualizzazione del percorso o della campagna all&#39;utente finale?
+
+>[!NOTE]
+>
+>Nelle campagne, il punteggio di priorità è disponibile solo per i canali in entrata web, in-app e basati su codice.
 
 ➡️ [Scopri questa funzione nel video](#video)
 

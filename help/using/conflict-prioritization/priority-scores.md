@@ -4,10 +4,10 @@ description: Scopri come assegnare punteggi di priorità a percorsi e campagne.
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer ti consente di assegnare un punteggio di priorità a un percor
 
 >[!NOTE]
 >
->Il punteggio di priorità è disponibile per i canali in entrata: canali web, in-app e basati su codice. In percorso, il punteggio di priorità è disponibile solo per i canali **in-app** e **basati su codice**.
+>Nelle campagne, il punteggio di priorità è disponibile solo per i canali in entrata web, in-app e basati su codice.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
