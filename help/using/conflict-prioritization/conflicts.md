@@ -4,10 +4,10 @@ description: Scopri come identificare potenziali conflitti in percorsi e campagn
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 3%
+source-wordcount: '802'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Le funzionalità per conflitti e definizione delle priorità sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per queste funzioni, contatta il team del tuo account.
+>Le funzionalità per conflitti e definizione delle priorità sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tenere presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se lo desideri, puoi rivolgerti al team del tuo account per l’inserimento nella lista d’attesa per queste funzioni.
 
 Con l’aumento del volume di campagne e Percorsi in Journey Optimizer, per un addetto marketing diventa sempre più difficile sapere se i propri clienti sono bombardati da troppe interazioni di marketing. è quindi essenziale identificare facilmente quando vi sono campagne e percorsi sovrapposti per garantire che raggiungano il giusto equilibrio nelle comunicazioni di marketing, mitigando al contempo i rischi di affaticamento dei clienti.
 
@@ -41,6 +41,16 @@ Di seguito è riportato un riepilogo di come Journey Optimizer identifica potenz
 * **Campagne live/pianificate**: le campagne live e pianificate possono entrare in conflitto tra loro a causa di una potenziale sovrapposizione di pubblico. Per una determinata campagna, tutte le campagne live o pianificate sono elencate nel visualizzatore di conflitti.
 
 ## Visualizzare i conflitti identificati per un determinato percorso o campagna {#view}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Visualizza conflitti potenziali"
+>abstract="Controlla ogni volta che c’è la possibilità di sovrapposizione con altre campagne. I conflitti vengono visualizzati solo per le campagne live e pianificate. Il pulsante diventa disponibile non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione canale]** e **[!UICONTROL Set regole]**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Visualizza conflitti potenziali"
+>abstract="Controlli ogni volta che esiste la possibilità di sovrapposizione con altri percorsi. I conflitti vengono visualizzati solo per i percorsi live e pianificati. Il pulsante diventa disponibile non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione canale]** e **[!UICONTROL Set regole]**."
 
 Durante la creazione di un percorso o di una campagna, Journey Optimizer consente di verificare ogni volta che esiste la possibilità di sovrapposizione con altri percorsi o campagne. Per farlo, segui questi passaggi:
 

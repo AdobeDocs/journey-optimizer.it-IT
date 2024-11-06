@@ -4,30 +4,15 @@ description: Scopri come creare regole di limite per i percorsi e come arbitrare
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # Limitazione del percorso e arbitrato {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Applicare un set di regole ai percorsi"
->abstract="Applica un set di regole per escludere questo percorso ad una parte del pubblico in base alle regole di quota limite."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Periodo per prioritizzazione"
->abstract=" Se viene programmato un percorso con priorità più alta entro il periodo di tempo specificato qui, al cliente verrà impedito di accedere a questo percorso. Per le situazioni in cui desideri che i percorsi vengano inseriti secondo il criterio in base all’ordine di avvio, consigliamo di scegliere il periodo di visualizzazione giornaliero e di assicurarsi che il punteggio di priorità di qualsiasi altro percorso in tale giornata sia inferiore al punteggio di priorità per il percorso. Assegnare un punteggio di priorità pari a 100 a un percorso garantirebbe, inoltre, che questo venga selezionato."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Considerazioni per la prioritizzazione"
->abstract="Da definire"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbi
 ➡️ [Scopri questa funzione nel video](#video)
 
 ## Creazione di una regola di limite di percorso {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Periodo per prioritizzazione"
+>abstract=" Se viene programmato un percorso con priorità più alta entro il periodo di tempo specificato qui, al cliente verrà impedito di accedere a questo percorso. Per le situazioni in cui desideri che i percorsi vengano inseriti secondo il criterio in base all’ordine di avvio, consigliamo di scegliere il periodo di visualizzazione giornaliero e di assicurarsi che il punteggio di priorità di qualsiasi altro percorso in tale giornata sia inferiore al punteggio di priorità per il percorso. Assegnare un punteggio di priorità pari a 100 a un percorso garantirebbe, inoltre, che questo venga selezionato."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Tipo di regola"
+>abstract="Specifica il tipo di limite per la regola. **[!UICONTROL Limite Percorso di accesso]** limita il numero di ingressi nel percorso in un determinato periodo per un profilo, mentre **[!UICONTROL Limite Percorso di accesso]** limita il numero di percorsi in cui un profilo può essere iscritto contemporaneamente."
 
 Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
@@ -109,6 +104,11 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## Applicare le regole di limitazione ai percorsi {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Applicare un set di regole ai percorsi"
+>abstract="Applica un set di regole per escludere questo percorso ad una parte del pubblico in base alle regole di quota limite."
 
 Per applicare una regola di limite a un percorso, accedere al percorso e aprirne le proprietà. Nel menu a discesa **[!UICONTROL Regole di limitazione]**, seleziona il set di regole pertinente. Dopo l’attivazione del percorso, diventano effettive le regole di limitazione definite nel set di regole.
 

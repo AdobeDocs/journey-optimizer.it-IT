@@ -10,34 +10,19 @@ level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 badge: label="Disponibilità limitata"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 22%
+source-wordcount: '1950'
+ht-degree: 18%
 
 ---
 
 # Utilizzare i set di regole {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Tipo di oggetto"
->abstract="Tipo di oggetto"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Tipo di regola"
->abstract="Tipo di regola"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Limitazione delle regole"
->abstract="Limitazione delle regole"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Set di regole"
->abstract="Utilizza i set di regole per applicare la quota limite a diversi tipi di comunicazioni di marketing. Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviate alla clientela e creare un altro set di regole per limitare il numero di **newsletter** inviate."
+>abstract="Utilizza i set di regole per applicare la quota limite a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere i percorsi da una parte del pubblico in base alle regole di quota limite."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole pe
 
 ### Regole di limitazione di canale e percorsi {#domain}
 
-Durante la creazione di un set di regole, è necessario specificare se le regole all’interno del set di regole applicheranno regole di limitazione specifiche per i canali di comunicazione o per i percorsi.  Questa operazione viene eseguita selezionando un dominio di canale o di Percorso per il set di regole durante la sua creazione. [Scopri come creare un set di regole](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Dominio set di regole"
+>abstract="Durante la creazione di un set di regole, è necessario specificare se le regole all’interno del set di regole applicheranno regole di limitazione specifiche per i canali di comunicazione o per i percorsi."
+
+Durante la creazione di un set di regole, è necessario specificare se le regole all’interno del set di regole applicheranno regole di limitazione specifiche per i canali di comunicazione o per i percorsi. Questa operazione viene eseguita selezionando un dominio di canale o di Percorso per il set di regole durante la sua creazione. [Scopri come creare un set di regole](#create)
 
 * Dominio **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 * Dominio **Percorso**: applica le regole di limitazione della concorrenza e delle voci a un percorso. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
@@ -101,10 +91,11 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 >title="Selezionare la categoria della regola del messaggio"
 >abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Impostare i limiti per la regola"
->abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. La quota limite si baserà sul periodo di calendario selezionato e verrà reimpostata all’inizio dell’arco temporale corrispondente."
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 >id="ajo_rule_sets_duration"
 >title="Selezionare la categoria della regola del messaggio"
 >abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Limitazione delle regole"
+>abstract="Imposta il limite per la regola. A seconda del dominio del set di regole e della selezione nel campo Tipo di regola, questo campo può definire il numero massimo di messaggi che possono essere inviati a un profilo o il numero massimo di percorsi in cui il profilo può entrare o essere iscritto contemporaneamente."
 
 Per aggiungere una regola a un set di regole, accedere al set di regole e fare clic su **[!UICONTROL Aggiungi regola]**.
 
