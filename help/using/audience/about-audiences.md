@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2049'
+ht-degree: 20%
 
 ---
 
@@ -35,13 +35,18 @@ Un pubblico è un insieme di persone che condividono comportamenti e/o caratteri
 I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 * **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
+
 * **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. Scopri come importare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} di Adobe Experience Platform.
+
 * **Composizione del pubblico**: crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un&#39;area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico. [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
+
 * **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. Leggi la guida su [Federated Audience Composition](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home).
 
   >[!AVAILABILITY]
   >
   >La composizione di pubblico federato è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+Per ulteriori informazioni sull&#39;utilizzo dei tipi di pubblico Caricamento personalizzato e Composizione del pubblico federato in [!DNL Journey Optimizer], consulta [questa sezione](custom-upload-fac.md).
 
 ## Pubblico di destinazione in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -105,22 +110,6 @@ Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezio
 >
 +++
 
-## Caricamento personalizzato e pubblico con Federated Audience Composition {#csv}
-
-Questa sezione fornisce informazioni chiave da tenere presenti quando si lavora con i tipi di pubblico Caricamento personalizzato (file CSV) e Composizione federata del pubblico:
-
-* **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
-
-* **Ritardi nell&#39;attivazione rapida e nell&#39;unione delle identità:** l&#39;architettura di Adobe Experience Platform ritarda l&#39;unione delle identità per rendere immediatamente disponibili per l&#39;attivazione in Journey Optimizer i tipi di pubblico Caricamento personalizzato e Composizione del pubblico federato, con i seguenti effetti:
-
-   * I tipi di pubblico sono pronti per essere utilizzati in Journey Optimizer al termine dell’acquisizione. Sebbene questo avvenga in genere entro un’ora, è soggetto ad alcune variabilità.
-   * Il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
-   * Verrà attivato ogni record del pubblico, compresi eventuali duplicati. Durante la prossima esportazione del profilo UPS, questi record passeranno attraverso l’unione delle identità.
-
-* **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo UPS, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
-
-  Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l’attributo scelto come identità nella creazione del pubblico sarà quello utilizzato per il targeting in Journey Optimizer.
-
 ## Metodi di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei tre metodi di valutazione seguenti.
@@ -175,16 +164,15 @@ Di conseguenza, per prestazioni ottimali di segmentazione in streaming, evita di
 
 * **Messaggio aperto** evento tipo di interazione
 
-  Durante la creazione del pubblico, l&#39;utilizzo degli eventi di interazione **Messaggio aperto** è diventato inaffidabile perché non sono indicatori effettivi dell&#39;attività dell&#39;utente e possono influire negativamente sulle prestazioni di segmentazione. Scopri perché in questo [post di blog di Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. Pertanto, l&#39;Adobe consiglia di non utilizzare gli eventi di interazione **Messaggio aperto** con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon.
+  Durante la creazione del pubblico, l&#39;utilizzo degli eventi di interazione **Messaggio aperto** è diventato inaffidabile perché non sono indicatori effettivi dell&#39;attività dell&#39;utente e possono influire negativamente sulle prestazioni di segmentazione. Scopri perché in questo [post di blog di Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. Pertanto, Adobe consiglia di non utilizzare gli eventi di interazione **Messaggio aperto** con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon.
 
 * **Messaggio inviato** evento stato feedback
 
-  L&#39;evento di feedback **Messaggio inviato** viene spesso utilizzato per il controllo della frequenza o dell&#39;eliminazione prima dell&#39;invio di un&#39;e-mail. L&#39;Adobe consiglia di evitarlo in quanto mette pressione sulle prestazioni e può causare il degrado del sistema. Pertanto, per la logica di frequenza o soppressione, utilizza le regole business anziché **Messaggi inviati** eventi di feedback. Si noti che presto saranno disponibili limiti di frequenza giornalieri per i singoli profili, a complemento della frequenza mensile esistente per le regole aziendali.
+  L&#39;evento di feedback **Messaggio inviato** viene spesso utilizzato per il controllo della frequenza o dell&#39;eliminazione prima dell&#39;invio di un&#39;e-mail. Adobe consiglia di evitarlo in quanto mette sotto pressione le prestazioni e può causare il degrado del sistema. Pertanto, per la logica di frequenza o soppressione, utilizza le regole business anziché **Messaggi inviati** eventi di feedback. Si noti che presto saranno disponibili limiti di frequenza giornalieri per i singoli profili, a complemento della frequenza mensile esistente per le regole aziendali.
 
 >[!NOTE]
 >
 Puoi utilizzare gli eventi **Messaggio aperto** e **Messaggio inviato** nella segmentazione batch senza problemi di prestazioni.
-
 
 ## Domande frequenti sulla composizione del pubblico e il caricamento personalizzato {#faq}
 
@@ -264,3 +252,8 @@ Inoltre, gli attributi arricchiti nei tipi di pubblico di composizione del pubbl
 
 +++
 
+## Video introduttivo {#video}
+
+Scopri i profili cliente unificati e i tipi di pubblico in Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)

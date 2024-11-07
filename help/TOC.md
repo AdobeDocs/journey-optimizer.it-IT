@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 98%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 98%
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
+      + [Caricamento personalizzato (CSV) e composizione federata del pubblico](using/audience/custom-upload-fac.md)
       + [Generare definizioni di segmento](using/audience/creating-a-segment-definition.md)
       + Comporre i tipi di pubblico {#audience-orchestration}
          + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
