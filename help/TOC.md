@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2160'
 ht-degree: 98%
 
 ---
@@ -448,6 +448,38 @@ ht-degree: 98%
    + [Avvisi](using/reports/alerts.md)
    + [Motivi di esclusione](using/reports/exclusion-list.md)
 + Funzionalità di decisione {#decisioning}
+   + Decisioning {#experience-decisioning}
+      + [Introduzione a Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + Riferimento API{#api-reference}
+         + Elementi decisionali{#decision-items}
+            + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Elenco elementi decisionali](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Eliminare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Cercare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Aggiornare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Raccolte di elementi{#items-collections}
+            + [Creare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Eliminare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Elenco raccolte di elementi](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Cercare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Aggiornare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/update.md)
+         + Strategie di selezione{#selection-strategies}
+            + [Creare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Eliminare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Cercare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Elenco strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Aggiornare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/update.md)
+      + Gestire gli elementi decisionali {#decision-items}
+         + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
+         + [Creare elementi decisionali](using/experience-decisioning/items.md)
+         + [Gestire le raccolte di elementi](using/experience-decisioning/collections.md)
+      + Configurare la selezione degli elementi {#selection}
+         + [Creare regole di decisione](using/experience-decisioning/rules.md)
+         + [Creare metodi di classificazione](using/experience-decisioning/ranking.md)
+         + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
+      + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
+      + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
+      + [Generazione di rapporti in Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
    + Gestione delle decisioni {#offer-decisioning}
       + Introduzione alla gestione delle decisioni {#get-started-decision}
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -588,38 +620,6 @@ ht-degree: 98%
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Decisioning (LA) {#experience-decisioning}
-      + [Introduzione a Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-      + Riferimento API{#api-reference}
-         + Elementi decisionali{#decision-items}
-            + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [Elenco elementi decisionali](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [Eliminare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [Cercare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [Aggiornare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + Raccolte di elementi{#items-collections}
-            + [Creare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [Eliminare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [Elenco raccolte di elementi](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [Cercare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [Aggiornare raccolte di elementi](using/experience-decisioning/api-reference/items-collections/update.md)
-         + Strategie di selezione{#selection-strategies}
-            + [Creare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [Eliminare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [Cercare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [Elenco strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [Aggiornare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/update.md)
-      + Gestire gli elementi decisionali {#decision-items}
-         + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
-         + [Creare elementi decisionali](using/experience-decisioning/items.md)
-         + [Gestire le raccolte di elementi](using/experience-decisioning/collections.md)
-      + Configurare la selezione degli elementi {#selection}
-         + [Creare regole di decisione](using/experience-decisioning/rules.md)
-         + [Creare metodi di classificazione](using/experience-decisioning/ranking.md)
-         + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
-      + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
-      + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
-      + [Generazione di rapporti in Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
 + Gestione dei dati {#data-management}
    + [Introduzione alla gestione dei dati](using/data/gs-data.md)
    + [Utilizzare gli schemi](using/data/get-started-schemas.md)

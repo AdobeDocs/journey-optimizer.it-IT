@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 78%
+source-wordcount: '2065'
+ht-degree: 80%
 
 ---
 
@@ -183,21 +183,21 @@ Precedentemente disponibili per un set di organizzazioni (LA), le seguenti funzi
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Decisioning (General Availability)</strong><br/></th>
+<th><strong>Funzione decisioni (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Decisioning, previously available for a set of organizations (LA) and known as Experience Decisioning, is now available to all users (GA), including organizations that have purchased the Adobe Healthcare Shield or Privacy and Security Shield add-on offerings.</p><p>Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual. These decision items are seamlessly integrated into a wide range of inbound surfaces through the code-based experience channel.</p>
-<p>For more information, refer to the <a href="../experience-decisioning/gs-experience-decisioning.md">detailed documentation</a>.</p>
+<p>La funzione Decisioni, precedentemente disponibile per un set di organizzazioni (LA) e nota come Decisioni per le esperienze, è ora disponibile per tutti gli utenti (GA), incluse le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield o Privacy and Security Shield.</p><p>La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti. Questi elementi decisionali sono integrati direttamente in un’ampia gamma di superfici in entrata tramite il canale di esperienza basato su codice.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/gs-experience-decisioning.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <table>
 <thead>
