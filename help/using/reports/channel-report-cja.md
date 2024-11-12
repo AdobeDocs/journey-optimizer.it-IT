@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ I KPI **[!UICONTROL Elementi di rilievo]** fungono da dashboard completo e offro
 
 +++ Ulteriori informazioni sulle metriche Evidenziazioni
 
-* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di persone che hanno interagito con i messaggi inviati dal percorso.
+* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di singoli utenti univoci che hanno ricevuto messaggi inviati tramite il percorso, che rappresentano profili distinti che hanno raggiunto un punto di azione designato nel percorso.
 
 * **[!UICONTROL Entrate Percorso]**: numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
 

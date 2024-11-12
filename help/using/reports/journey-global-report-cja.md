@@ -7,9 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) di **[!UI
 
 +++ Ulteriori informazioni sulle metriche dei KPI di Percorso
 
-* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di persone che hanno interagito con i messaggi inviati dal percorso
+* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di singoli utenti univoci che hanno ricevuto messaggi inviati tramite il percorso, che rappresentano profili distinti che hanno raggiunto un punto di azione designato nel percorso.
 
 * **[!UICONTROL Il Percorso entra]**: numero totale di singoli utenti che hanno raggiunto l&#39;evento di ingresso del percorso.
 
@@ -54,7 +55,7 @@ La tabella **[!UICONTROL Statistiche Percorso]** offre un riepilogo dettagliato 
 
 +++ Ulteriori informazioni sulle metriche delle statistiche di Percorso
 
-* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di persone che hanno interagito con i messaggi inviati dal percorso.
+* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di singoli utenti univoci che hanno ricevuto messaggi inviati tramite il percorso, che rappresentano profili distinti che hanno raggiunto un punto di azione designato nel percorso.
 
 * **[!UICONTROL Il Percorso entra]**: numero totale di singoli utenti che hanno raggiunto l&#39;evento di ingresso del percorso.
 
