@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2032'
 ht-degree: 20%
 
 ---
@@ -218,10 +218,9 @@ Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con fl
 
 +++
 
-+++ Quanto tempo dopo aver pubblicato un pubblico da una composizione di pubblico o da un caricamento personalizzato, posso utilizzarlo in Journey Optimizer?
++++ Quanto tempo dopo la pubblicazione di un pubblico dalla composizione del pubblico posso utilizzarlo in Journey Optimizer?
 
-* I tipi di pubblico da **composizione del pubblico** vengono eseguiti ogni giorno, quindi potrebbe essere necessario attendere fino a 24 ore prima di utilizzarli in Journey Optimizer.
-* I tipi di pubblico da **caricamento personalizzato** diventano disponibili in Journey Optimizer circa 2 ore dopo la pubblicazione.
+I tipi di pubblico da **composizione del pubblico** vengono eseguiti ogni giorno, quindi potrebbe essere necessario attendere fino a 24 ore prima di utilizzarli in Journey Optimizer.
 
 +++
 
