@@ -1,5 +1,5 @@
 ---
-title: Mostra anteprima e verifica il contenuto
+title: Anteprima e test del contenuto
 description: Scopri come visualizzare in anteprima e testare i contenuti.
 feature: Preview, Proofs
 role: User
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 ---
 
-# Mostra anteprima e verifica il contenuto {#preview-test}
+# Anteprima e test del contenuto {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
