@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+exl-id: d2365e3f-fbef-43c2-bf2a-0a868cb93015
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 6%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -24,10 +25,6 @@ Oltre alle definizioni dei segmenti e alla composizione del pubblico, [!DNL Jour
 * **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. Scopri come importare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} di Adobe Experience Platform.
 
 * **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. Leggi la guida su [Federated Audience Composition](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >La composizione di pubblico federato è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Puoi indirizzare questi tipi di pubblico in Journey Optimizer o attivarli in qualsiasi destinazione supportata da Adobe Experience Platform
 
