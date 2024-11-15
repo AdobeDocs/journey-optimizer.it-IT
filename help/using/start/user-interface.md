@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
+source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1374'
+ht-degree: 94%
 
 ---
 
@@ -252,16 +252,16 @@ Per cambiare lingua:
 >abstract="Abilita decisioning"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
+>id="ajo_exd_decision_attribute"
 >title="Seleziona attributi di decisione dal catalogo"
 >abstract="Gli attributi delle decisioni sono memorizzati nello schema del catalogo. Seleziona un attributo da utilizzare qui dal catalogo selezionato."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_placements"
+>id="ajo_exd_decision_policy"
 >title="Criterio di decisione"
 >abstract="Un criterio di decisione ti consente di scegliere gli elementi migliori dal motore decisionale e di distribuirli a ogni pubblico."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
+>id="ajo_exd_placements"
 >title="Posizionamento"
->abstract="Posizionamento"
+>abstract="Un posizionamento determina dove vengono visualizzati in un messaggio gli elementi restituiti dal motore decisionale. Puoi tenere traccia delle loro prestazioni in diversi posizionamenti nel reporting."
