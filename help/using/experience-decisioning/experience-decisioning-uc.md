@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '342'
 ht-degree: 6%
 
 ---
 
 # Caso di utilizzo: decisioni {#experience-decisioning-uc}
 
-In questo caso d’uso, definisci due trattamenti di consegna ciascuno contenente un criterio di decisione diverso al fine di misurare quale offre le prestazioni migliori per il pubblico di destinazione.
+In questo caso d’uso, crea una campagna in cui definisci due trattamenti di consegna, ciascuno contenente un criterio di decisione diverso al fine di misurare quale funziona meglio per il pubblico di destinazione.
 
-## Creare elementi e strategie
+## Creare elementi decisionali e strategie di selezione
 
 Devi innanzitutto creare gli elementi, raggrupparli in raccolte, impostare regole e metodi di classificazione. Questi elementi ti consentiranno di creare strategie di selezione.
 
-1. Passa a **[!UICONTROL Decisioning]** > **[!UICONTROL cataloghi]** e crea diversi elementi dell&#39;offerta. Imposta i vincoli utilizzando tipi di pubblico o regole per limitare ogni elemento solo a profili specifici. [Ulteriori informazioni](items.md)
+1. Passa a **[!UICONTROL Decisioning]** > **[!UICONTROL cataloghi]** e crea diversi elementi decisionali. Imposta i vincoli utilizzando tipi di pubblico o regole per limitare ogni elemento solo a profili specifici. [Ulteriori informazioni](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ Devi innanzitutto creare gli elementi, raggrupparli in raccolte, impostare regol
 
 Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna basata su codice.
 
-Definisci due trattamenti di consegna ciascuno contenente un criterio di decisione diverso.
+<!--Define two delivery treatments each containing a different decision policy.-->
 
 1. Crea una campagna e seleziona l&#39;azione **[!UICONTROL Esperienza basata su codice]**. [Ulteriori informazioni](../code-based/create-code-based.md)
 
-1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti. [Ulteriori informazioni](../content-management/content-experiment.md)
+1. Dalla finestra **[!UICONTROL Modifica contenuto]**, inizia a personalizzare il trattamento A.
 
 1. Seleziona l&#39;icona **[!UICONTROL Decisioni]**, fai clic su **[!UICONTROL Crea una decisione]** e compila i dettagli della decisione. [Ulteriori informazioni](create-decision.md)
 
@@ -61,7 +61,9 @@ Definisci due trattamenti di consegna ciascuno contenente un criterio di decisio
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Genera il trattamento B e ripeti i passaggi precedenti per creare un’altra decisione.
+1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti. [Ulteriori informazioni](../content-management/content-experiment.md)
+
+1. Dalla finestra **[!UICONTROL Modifica contenuto]**, seleziona il trattamento B per modificare il contenuto e ripeti i passaggi precedenti per creare un&#39;altra decisione.
 
 1. Salva il contenuto.
 
