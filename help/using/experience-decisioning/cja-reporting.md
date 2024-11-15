@@ -1,20 +1,31 @@
 ---
-title: Generazione di rapporti in Customer Journey Analytics
-description: Scopri come eseguire la generazione di rapporti in Customer Journey Analytics
+title: Rapporto sul processo decisionale
+description: Scopri come creare rapporti su Decisioning.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Disponibilità limitata"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# Generazione di rapporti in Customer Journey Analytics {#cja}
+
+# Rapporto sul processo decisionale {#decisioning-report}
+
+## Generazione di rapporti per campagne basate su codice {#campaigns}
+
+Una volta che l’esperienza basata su codice è attiva, puoi accedere a rapporti dedicati per monitorare gli indicatori prestazioni chiave (KPI, Key Performance Indicators) come dashboard completo, che fornisce un’analisi delle metriche essenziali associate alla campagna.
+
+Questo include dettagli relativi alle prestazioni degli elementi decisionali e al modo in cui gli utenti hanno interagito con loro. [Scopri come utilizzare i report esperienza basati su codice](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Generazione di rapporti in Customer Journey Analytics {#cja}
 
 Se utilizzi Customer Journey Analytics, puoi creare dashboard di reporting personalizzati per le campagne basate su codice utilizzando Decisioning.
 
