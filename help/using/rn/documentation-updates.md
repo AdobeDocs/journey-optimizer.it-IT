@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '5724'
+source-wordcount: '5736'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiunta una nuova sezione che descrive come visualizzare in anteprima le esperienze personalizzate basate su codice direttamente sul browser o sui dispositivi mobili, utilizzando l’opzione Anteprima sul dispositivo durante la simulazione di contenuti in un percorso o in una campagna. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
 * È stata aggiunta una nuova pagina su come sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni. [Ulteriori informazioni](../offers/custom-upload-decisioning.md)
 * È stata aggiunta una nuova pagina per introdurre le funzionalità decisionali disponibili in Journey Optimizer. [Ulteriori informazioni](../experience-decisioning/gs-decision.md)
+* Sono state aggiunte protezioni e limitazioni alla documentazione di Decisioning. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## Settembre 2024 {#sept-2024}
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 24%
+source-wordcount: '548'
+ht-degree: 17%
 
 ---
 
@@ -20,6 +20,26 @@ ht-degree: 24%
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
 Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer. I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
+
+## Guardrail e limitazioni {#guardrails}
+
+Per garantire un utilizzo ottimale di Decisioning, tieni presenti le seguenti protezioni e limitazioni:
+
+### Guardrail generali {#general}
+
+* **Elementi offerta**: ogni raccolta di elementi può contenere fino a 500 elementi offerta.
+* **Attributi personalizzati**: un elemento decisione può includere un massimo di 100 attributi personalizzati.
+* **Strategie di selezione ed elementi manuali per criterio**: un criterio decisionale supporta fino a 10 strategie di selezione e elementi manuali combinati.
+
+### Eligibility rules (Regole di idoneità) {#eligibility}
+
+* **Livelli di nidificazione**: la profondità di nidificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL.
+* **Dimensione stringa regola**: una stringa di regola può avere una dimensione massima di 15 KB per i caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno).
+
+### Formule di classificazione {#ranking}
+
+* **Livelli di nidificazione**: la profondità di nidificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL.
+* **Dimensione stringa di formula**: una stringa di regola può avere una dimensione massima di 8 KB per i caratteri con codifica UTF-8. Contiene 8.000 caratteri ASCII (1 byte ciascuno) o 2.000-4.000 caratteri non ASCII (2-4 byte ciascuno).
 
 ## Decisioning dei passaggi chiave {#steps}
 
