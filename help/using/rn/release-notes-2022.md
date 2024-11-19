@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3598'
+ht-degree: 100%
 
 ---
 
@@ -449,7 +449,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Il plug-in per l’integrazione di Adobe Stock e E-mail designer di Adobe Journey Optimizer offre ai clienti un modo semplice di cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle. </br> La nuova opzione <b>Trova foto Stock simili</b> consente inoltre di individuare foto Stock simili alle tue immagini per contenuto, colore e composizione. </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/stock.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Ora è possibile utilizzare la funzionalità E-mail Ccn (copia carbone nascosta) per memorizzare le e-mail inviate da Adobe Journey Optimizer. Se abiliti questa opzione nei tuoi predefiniti e-mail, ogni e-mail verrà inviata anche come copiata nascosta all’indirizzo in Ccn.</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/archiving-support.md#bcc-email">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Ora puoi impostare regole di business cross-channel che escluderanno automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/frequency-rules.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Nella gestione delle decisioni, ora è possibile utilizzare sistemi formati su modelli. Questa nuova funzionalità classifica le offerte da visualizzare per un determinato profilo.</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Ora è possibile monitorare le azioni eseguite dagli utenti sulle risorse di Adobe Journey Optimizer.</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>Per ulteriori informazioni, consulta la <a href="../privacy/audit-logs.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
