@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 1%
@@ -308,7 +308,7 @@ La selezione è la seguente:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="Aggiungere un’offerta di fackback"
+>title="Aggiungere un’offerta di fallback"
 >abstract="Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non corrispondono alle regole e ai vincoli di idoneità delle offerte."
 
 Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non corrispondono alle regole e ai vincoli di idoneità delle offerte.
