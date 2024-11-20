@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2628'
 ht-degree: 11%
 
 ---
@@ -74,7 +74,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
-      Ad esempio, dopo aver eseguito il riscaldamento dell’IP per alcuni giorni, ti rendi conto che la reputazione dell’ISP con un dominio (ad Adobe) non è buona e desideri risolverla senza interrompere il piano di riscaldamento dell’IP. In questo caso, puoi escludere il gruppo di dominio Adobe.
+      Ad esempio, dopo aver eseguito il riscaldamento dell’IP per alcuni giorni, ti rendi conto che la reputazione dell’ISP con un dominio (ad esempio, Adobe) non è buona e desideri risolverla senza interrompere il piano di riscaldamento dell’IP. In tal caso, puoi escludere il gruppo di dominio Adobe.
 
       >[!NOTE]
       >
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Questa sezione non è modificabile.
 
-1. Se necessario, puoi sostituire la campagna utilizzando il pulsante **[!UICONTROL Sostituisci]**. Puoi anche **[!UICONTROL Cancellare]** la campagna selezionata utilizzando il pulsante **[!UICONTROL Cancella]**. Questa azione cancella non solo la campagna, ma anche altre proprietà a livello di fase come Esclusione di gruppi di dominio, Campagna, Esclusione di Percorsi e altre. Dopo aver cancellato, puoi scegliere una nuova campagna immediatamente o in un secondo momento.
+1. Se necessario, puoi sostituire la campagna utilizzando il pulsante **[!UICONTROL Sostituisci]**. Puoi anche **[!UICONTROL Cancellare]** la campagna selezionata utilizzando il pulsante **[!UICONTROL Cancella]**. Questa azione cancella non solo la campagna ma anche le altre proprietà a livello di fase (gruppi di dominio esclusi, Campagna, Esclusione di Percorso e altri). Dopo aver cancellato, puoi scegliere una nuova campagna immediatamente o in un secondo momento.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Seleziona l&#39;opzione **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** per annullare un&#39;esecuzione se i profili qualificati sono inferiori ai profili target una volta che il pubblico è stato valutato per tale esecuzione. In tal caso, l&#39;esecuzione assume lo stato **[!UICONTROL Non riuscito]**.
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   Nel caso in cui il numero di profili qualificati non corrisponda al numero di profili target (ad esempio, 1500 indirizzi Gmail sono target nell’esecuzione, ma solo 700 profili Gmail sono qualificati):
+
+   * Se l’opzione è abilitata, l’esecuzione non riesce. Puoi quindi scegliere di eseguire il targeting di un numero minore di profili nell&#39;esecuzione successiva oppure di [dividere l&#39;esecuzione](#split-phase) in una nuova fase e selezionare una nuova campagna per la nuova fase in modo da eseguire nuovamente il targeting degli stessi profili.
+
+   * Se l’opzione non è abilitata, l’esecuzione viene eseguita, ma viene eseguito il targeting solo del numero disponibile di profili.
 
 1. **[!UICONTROL Attiva]** l&#39;esecuzione. [Ulteriori informazioni](#activate-run)
 

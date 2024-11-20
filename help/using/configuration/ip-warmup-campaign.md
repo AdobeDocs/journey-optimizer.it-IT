@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, recapito messaggi
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!NOTE]
    >
-   >Scopri come selezionare il dominio e gli IP da utilizzare in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Scopri come selezionare il dominio e gli IP da utilizzare in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Rivolgiti al tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare per il piano di riscaldamento IP.<!--TBC-->
 
@@ -55,13 +55,17 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
 1. Completa i passaggi per creare una campagna e-mail, ad esempio definendo le proprietà della campagna, [pubblico](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> e [contenuto](../email/get-started-email-design.md#key-steps).
 
-   Tieni presente che devi selezionare un pubblico basato su regole per la tua campagna di riscaldamento IP. [Ulteriori informazioni](../audience/creating-a-segment-definition.md)
+   >[!IMPORTANT]
+   >
+   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
 1. [Attiva](../campaigns/review-activate-campaign.md) la campagna. Lo stato cambia in **[!UICONTROL Live]**.
 
-   Le regole business non devono essere utilizzate in un piano di riscaldamento IP. L’applicazione di queste regole potrebbe ostacolare il raggiungimento del numero desiderato di profili mirati per le campagne.
+   >[!NOTE]
+   >
+   >[Le regole business](rule-sets.md#apply-frequency-rule) non devono essere utilizzate nei piani di riscaldamento dell&#39;IP. L’applicazione di queste regole potrebbe ostacolare il raggiungimento del numero desiderato di profili mirati per le campagne.
 
    Per una campagna live con il piano di riscaldamento IP attivato, il pulsante **[!UICONTROL Elimina]** è disponibile finché non viene associato a un piano di riscaldamento IP. Una volta utilizzata in un piano, la campagna non può più essere eliminata.
 
