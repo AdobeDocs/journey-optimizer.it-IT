@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 15%
+source-wordcount: '639'
+ht-degree: 13%
 
 ---
 
@@ -44,6 +44,12 @@ Per creare un metodo di classificazione, effettua le seguenti operazioni:
 
    * [Formule di classificazione](../offers/ranking/create-ranking-formulas.md)
    * [Modelli di intelligenza artificiale](../offers/ranking/ai-models.md)
+
+   >[!NOTE]
+   >
+   >La profondità di nidificazione in una formula di classificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL. Una stringa di regola può avere dimensioni fino a 8 KB per caratteri con codifica UTF-8. Equivale a 8.000 caratteri ASCII (1 byte ciascuno) o 2.000-4.000 caratteri non ASCII (2-4 byte ciascuno). [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)
+
+Una politica decisionale supporta fino a 10 strategie di selezione e elementi decisionali combinati. [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)
 
 +++ Ottimizzazione dei modelli sulle metriche [!DNL Customer Journey Analytics] personalizzate
 

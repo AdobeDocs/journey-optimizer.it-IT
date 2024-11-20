@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 24%
+source-wordcount: '448'
+ht-degree: 20%
 
 ---
 
@@ -58,3 +58,6 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 1. Quando la regola di decisione è pronta, fai clic su **[!UICONTROL Salva]**. La regola creata viene visualizzata nell’elenco ed è disponibile per l’utilizzo in elementi di decisione e strategie di selezione per gestire la presentazione di elementi di decisione ai profili.
 
+   >[!NOTE]
+   >
+   >La profondità di nidificazione in una regola di idoneità è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL. Una stringa di regola può avere dimensioni fino a 15 KB per caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno). [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '549'
 ht-degree: 17%
 
 ---
@@ -29,17 +29,17 @@ Per garantire un utilizzo ottimale di Decisioning, tieni presenti le seguenti pr
 
 * **Elementi offerta**: ogni raccolta di elementi può contenere fino a 500 elementi offerta.
 * **Attributi personalizzati**: un elemento decisione può includere un massimo di 100 attributi personalizzati.
-* **Strategie di selezione ed elementi manuali per criterio**: un criterio decisionale supporta fino a 10 strategie di selezione e elementi manuali combinati.
+* **Strategie di selezione ed elementi decisionali per criterio**: un criterio di decisione supporta fino a 10 strategie di selezione e elementi decisionali combinati.
 
 ### Eligibility rules (Regole di idoneità) {#eligibility}
 
 * **Livelli di nidificazione**: la profondità di nidificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL.
-* **Dimensione stringa regola**: una stringa di regola può avere una dimensione massima di 15 KB per i caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno).
+* **Dimensione stringa regola**: una stringa regola può avere una dimensione massima di 15 KB per i caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno).
 
 ### Formule di classificazione {#ranking}
 
 * **Livelli di nidificazione**: la profondità di nidificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL.
-* **Dimensione stringa di formula**: una stringa di regola può avere una dimensione massima di 8 KB per i caratteri con codifica UTF-8. Contiene 8.000 caratteri ASCII (1 byte ciascuno) o 2.000-4.000 caratteri non ASCII (2-4 byte ciascuno).
+* **Dimensione stringa di formula**: una stringa di regola può avere una dimensione massima di 8 KB per i caratteri con codifica UTF-8. Equivale a 8.000 caratteri ASCII (1 byte ciascuno) o 2.000-4.000 caratteri non ASCII (2-4 byte ciascuno).
 
 ## Decisioning dei passaggi chiave {#steps}
 

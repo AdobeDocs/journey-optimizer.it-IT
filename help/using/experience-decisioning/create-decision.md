@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1791'
 ht-degree: 14%
 
 ---
@@ -88,9 +88,9 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
 
    >[!NOTE]
    >
-   >È necessario almeno un elemento di decisione o una strategia. Impossibile aggiungere più di 10 strategie.
+   >Una politica decisionale supporta fino a 10 strategie di selezione e elementi decisionali combinati. [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)
 
-1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via.     Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni sull&#39;ordine di valutazione dei criteri di decisione](#evaluation-order)
+1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via. Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni sull&#39;ordine di valutazione dei criteri di decisione](#evaluation-order)
 
 ### Gestire l’ordine di valutazione in un criterio decisionale {#evaluation-order}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,8 @@ Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degl
 
    Informazioni dettagliate su come utilizzare gli schemi di Adobe Experience Platform sono disponibili nella [documentazione del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
 
-1. Una volta aggiunti gli attributi personalizzati desiderati, salva lo schema. Il nuovo campo è ora disponibile nella schermata di creazione delle decisioni sugli elementi, nella sezione **[!UICONTROL Attributi personalizzati]**.
+1. Una volta aggiunti gli attributi personalizzati desiderati, salva lo schema. Il nuovo campo è ora disponibile nella schermata di creazione dell&#39;elemento di decisione, nella sezione **[!UICONTROL Attributi personalizzati]**.
+
+>[!NOTE]
+>
+>Un elemento decisionale può includere un massimo di 100 attributi personalizzati. [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)

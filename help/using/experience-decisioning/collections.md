@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 48%
 
 ---
 
@@ -50,3 +50,7 @@ Per creare una raccolta, effettua le seguenti operazioni:
    ![](assets/collection-create.png)
 
 1. Una volta definite le regole di raccolta, fare clic su **[!UICONTROL Crea]**. La raccolta viene ora visualizzata nell’elenco.
+
+>[!NOTE]
+>
+>Ogni raccolta di elementi può contenere fino a 500 elementi di offerta. [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)
