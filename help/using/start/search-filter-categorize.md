@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 >title="Tag"
 >abstract="Questo campo consente di assegnare i tag unificati Adobe Experience Platform alla campagna. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne."
 
-Con i [Tag Unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it) di Adobe Experience Platform, è possibile classificare facilmente i percorsi e le campagne in Journey Optimizer per migliorare la ricerca dagli elenchi.
+Con Adobe Experience Platform [Tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it), puoi classificare facilmente gli oggetti Journey Optimizer per migliorare la ricerca dagli elenchi.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+L’aggiunta di tag significativi ai tipi di pubblico in Journey Optimizer consente di filtrare ed eseguire ricerche in un secondo momento per trovare più facilmente i tipi di pubblico. I tag possono essere utilizzati anche per organizzare i tipi di pubblico in cartelle rilevanti e ricercabili, creare offerte ed esperienze personalizzate e utilizzarli nelle regole di decisione dell’esperienza.
 
-### Aggiungere tag a un oggetto
+### Aggiungere tag a un oggetto {#add-tags}
 
 Il campo **[!UICONTROL Tag]** consente di definire i tag per l’oggetto. I tag sono disponibili per i seguenti oggetti:
 
@@ -77,9 +78,9 @@ Puoi selezionare un tag esistente o crearne uno nuovo. A questo scopo, segui i p
 
    >[!NOTE]
    >
-   > I tag non tengono conto di maiuscole e minuscole.
+   > I tag non distinguono tra maiuscole e minuscole.
 
-1. Se il tag che stai cercando non è disponibile, fai clic su **[!UICONTROL Crea &quot;&quot;]** per definirne uno nuovo: verrà aggiunto automaticamente all’oggetto corrente e sarà disponibile per tutti gli altri oggetti.
+1. Se il tag che si sta cercando non è disponibile, fare clic su **[!UICONTROL Crea &quot;]** per definirne uno nuovo. Verrà aggiunto automaticamente all&#39;oggetto corrente e sarà disponibile per tutti gli altri oggetti.
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ Puoi selezionare un tag esistente o crearne uno nuovo. A questo scopo, segui i p
 > 
 > Se duplichi o crei una nuova versione di un oggetto, i tag vengono mantenuti.
 
-### Filtrare i tag
+### Filtrare i tag {#filter-on-tags}
 
 In ogni elenco di oggetti è presente una colonna dedicata che consente di visualizzare facilmente i tag.
 
@@ -101,7 +102,7 @@ Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso o campagna (live, 
 
 ![](assets/tags3.png)
 
-### Gestire i tag
+### Gestire i tag {#manage-tags}
 
 Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **[!UICONTROL Tag]**, sotto **[!UICONTROL AMMINISTRAZIONE]**. Trovi ulteriori informazioni sulla gestione dei tag nella [Documentazione sui tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=it).
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 12%
+source-wordcount: '1638'
+ht-degree: 10%
 
 ---
 
@@ -73,9 +73,9 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
    >
    >Se modifichi lo schema con nuovi valori di enumerazione dopo aver creato l’evento, segui questi passaggi per applicare le modifiche all’evento esistente: deseleziona il campo di enumerazione dai campi dell’evento, conferma la selezione, quindi seleziona nuovamente il campo di enumerazione. Viene ora visualizzato il nuovo valore di enumerazione.
 
-1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa sezione](../event/about-creating.md#select-the-namespace).
+1. Aggiungi un tipo di identità. Questo passaggio è facoltativo ma consigliato, in quanto l’aggiunta di un tipo di identità ti consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale. definendo il tipo di chiave di cui dispone l’evento. Ulteriori informazioni in [questa sezione](../event/about-creating.md#select-the-namespace).
 
-1. Definire l’identificatore del profilo: scegli un campo dai campi del payload o definisci una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, i percorsi selezionano la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, verrà selezionata la chiave e-mail. Consulta [questa sezione](../event/about-creating.md#define-the-event-key).
+1. Definire l’identificatore del profilo: scegli un campo dai campi del payload o definisci una formula per identificare la persona associata all’evento. Se selezioni un tipo di identità, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, i percorsi selezionano la chiave che deve corrispondere al tipo di identità (ad esempio, se selezioni un tipo di identità e-mail, verrà selezionata la chiave e-mail). Ulteriori informazioni in [questa sezione](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -111,40 +111,40 @@ La definizione del payload consente di scegliere le informazioni che il sistema 
 
    ![](assets/journey12.png)
 
-## Selezionare lo spazio dei nomi {#select-the-namespace}
+## Seleziona il tipo di identità {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="Spazio dei nomi identità"
+>title="Tipo di identità"
 >abstract="Seleziona la chiave per identificare il profilo cliente associato all’evento."
 
-Lo spazio dei nomi consente di definire il tipo di chiave utilizzato per identificare la persona associata all’evento. La sua configurazione è facoltativa. È necessario se desideri recuperare nei tuoi percorsi informazioni aggiuntive provenienti dal [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. La definizione dello spazio dei nomi non è necessaria se utilizzi solo dati provenienti da un sistema di terze parti tramite un’origine dati personalizzata.
+Il tipo di identità (precedentemente noto come &quot;namespace&quot;) ti consente di definire il tipo di chiave utilizzato per identificare la persona associata all’evento. La sua configurazione è facoltativa. È necessario se desideri recuperare nei tuoi percorsi informazioni aggiuntive provenienti dal [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. La definizione del tipo di identità non è necessaria se si utilizzano solo dati provenienti da un sistema di terze parti tramite un’origine dati personalizzata.
 
-Puoi utilizzare uno dei predefiniti o crearne uno nuovo utilizzando il servizio Identity Namespace. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
+Puoi creare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
 
-Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Identificatore profiler]** e **[!UICONTROL Spazio dei nomi]** sono precompilati. Se non è stata definita alcuna identità, verrà selezionata _identityMap > id_ come chiave primaria. Quindi devi selezionare uno spazio dei nomi e la chiave verrà precompilata (sotto il campo **[!UICONTROL Spazio dei nomi]**) utilizzando _identityMap > id_.
+Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Identificatore profiler]** e **[!UICONTROL Tipo identità]** sono precompilati. Se non è stata definita alcuna identità, verrà selezionata _identityMap > id_ come chiave primaria. Quindi devi selezionare un tipo di identità e la chiave verrà precompilata (sotto il campo **[!UICONTROL Tipo di identità]**) utilizzando _identityMap > id_.
 
 Quando selezioni i campi, vengono taggati i campi di identità primari.
 
 ![](assets/primary-identity.png)
 
-Seleziona uno spazio dei nomi dall’elenco a discesa.
+Seleziona un tipo di identità dall’elenco a discesa.
 
 ![](assets/journey17.png)
 
-È consentito un solo spazio dei nomi per percorso. Se utilizzi più eventi nello stesso percorso, è necessario che utilizzino lo stesso namespace. Consulta [questa pagina](../building-journeys/journey.md).
+È consentito un solo tipo di identità per percorso. Se utilizzi più eventi nello stesso percorso, devono utilizzare lo stesso tipo di identità. Consulta [questa pagina](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->È possibile selezionare solo uno spazio dei nomi delle identità basato su persone. Se è stato definito uno spazio dei nomi per una tabella di ricerca (ad esempio, Spazio dei nomi ProductID per una ricerca di prodotti), questo non sarà disponibile nell&#39;elenco a discesa **Spazio dei nomi**.
+>Puoi selezionare solo un tipo di identità basato su persone. Se è stato definito un tipo di identità per una tabella di ricerca (ad esempio, il tipo di identità ProductID per una ricerca di prodotti), non sarà disponibile nell&#39;elenco a discesa **Tipo di identità**.
 
 ## Definire l’identificatore del profilo {#define-the-event-key}
 
 La chiave è il campo, o la combinazione di campi, che fa parte dei dati di payload dell’evento e che consente al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’ID Experience Cloud, un ID del sistema di gestione delle relazioni con i clienti o un indirizzo e-mail.
 
-Per utilizzare i dati memorizzati nel database Adobe Real-time Customer Profile, la chiave evento deve essere costituita dalle informazioni definite come identità di un profilo nel [Real-time Customer Profile Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
+Per utilizzare i dati archiviati nel database del profilo cliente in tempo reale di Adobe, la chiave evento deve essere costituita dalle informazioni definite come identità di un profilo nel [Servizio profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
-L’identificatore di profilo consente al sistema di eseguire la riconciliazione tra l’evento e il profilo dell’individuo. Se selezioni uno schema con un&#39;identità primaria, i campi **[!UICONTROL Identificatore profilo]** e **[!UICONTROL Spazio dei nomi]** sono precompilati. Se non è stata definita alcuna identità, _identityMap > id_ è la chiave primaria. Quindi devi selezionare uno spazio dei nomi e la chiave viene automaticamente precompilata utilizzando _identityMap > id_.
+L’identificatore di profilo consente al sistema di eseguire la riconciliazione tra l’evento e il profilo dell’individuo. Se si seleziona uno schema con un&#39;identità primaria, i campi **[!UICONTROL Identificatore profilo]** e **[!UICONTROL Tipo identità]** sono precompilati. Se non è stata definita alcuna identità, _identityMap > id_ è la chiave primaria. Quindi devi selezionare un tipo di identità e la chiave viene automaticamente precompilata utilizzando _identityMap > id_.
 
 Quando selezioni i campi, vengono taggati i campi di identità primari.
 
@@ -158,7 +158,7 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 
 1. Seleziona il campo scelto come chiave nell’elenco dei campi del payload.
 
-Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a uno spazio dei nomi (vedi [questa sezione](../event/about-creating.md#select-the-namespace)), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
 La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
 ## Editor di espressioni avanzate {#adv-exp-editor}
