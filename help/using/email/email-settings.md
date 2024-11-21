@@ -42,7 +42,7 @@ La configurazione e-mail viene selezionata per l’invio di comunicazioni seguen
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definire il contenuto dell’e-mail"
+>title="Definire il tipo di e-mail"
 >abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa configurazione: marketing per e-mail promozionali, che richiedono il consenso dell’utente, oppure transazionale per e-mail non commerciali, che possono essere inviate anche a profili non iscritti in contesti specifici."
 
 Nella sezione **Tipo di e-mail**, seleziona il tipo di messaggio per la configurazione: **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**.
@@ -170,7 +170,7 @@ Se ricevi un errore durante l’invio della configurazione e-mail, significa che
 
 ### Inoltra e-mail {#forward-email}
 
-Per inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l&#39;assistenza clienti Adobe.
+Per inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l&#39;Assistenza clienti di Adobe.
 
 >[!NOTE]
 >
