@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 48%
@@ -34,11 +34,11 @@ Le raccolte consentono di categorizzare e raggruppare gli elementi decisionali i
 
 Ad esempio, supponiamo che tu abbia aggiunto un attributo personalizzato &quot;Categoria&quot; allo schema del catalogo degli elementi decisionali. Questo consente di creare una raccolta che include tutti gli elementi decisionali con il valore &quot;Yoga&quot; nell’attributo &quot;Category&quot;.
 
-L&#39;elenco delle raccolte è accessibile dal menu **[!UICONTROL cataloghi]**.
+L&#39;elenco delle raccolte è accessibile dal menu **[!UICONTROL Cataloghi]**.
 
 Per creare una raccolta, effettua le seguenti operazioni:
 
-1. Passa a **[!UICONTROL cataloghi]** > **[!UICONTROL raccolte]** e fai clic su **[!UICONTROL Crea raccolta]**.
+1. Passa a **[!UICONTROL Cataloghi]** > **[!UICONTROL Raccolte]** e fai clic su **[!UICONTROL Crea raccolta]**.
 1. Fornisci un nome e una descrizione per la raccolta.
 1. Aggiungi una o più regole per determinare gli elementi da includere nella raccolta. Per eseguire questa operazione:
 

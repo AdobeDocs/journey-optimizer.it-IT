@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 17%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -69,14 +69,28 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
 1. **Configurare gli attributi personalizzati**: personalizzare il catalogo degli elementi in base alle proprie esigenze impostando gli attributi personalizzati nello schema del catalogo.
 
+   ➡️ [Scopri come configurare il catalogo elementi](catalogs.md)
+
 1. **Crea elementi decisionali** da mostrare al pubblico di destinazione.
+
+   ➡️ [Scopri come creare elementi decisionali](items.md) ([documentazione API](api-reference/decisions-items/create.md))
 
 1. **Organizza con le raccolte**: utilizza le raccolte per categorizzare gli elementi decisionali in base a regole basate su attributi. Incorpora le raccolte nelle strategie di selezione per determinare quale raccolta di elementi decisionali deve essere considerata.
 
+   ➡️ [Scopri come gestire le raccolte di elementi](collections.md) ([documentazione API](api-reference/items-collections/create.md))
+
 1. **Crea regole di decisione**: le regole di decisione vengono utilizzate negli elementi di decisione e/o nelle strategie di selezione per determinare a chi può essere visualizzato un elemento di decisione.
+
+   ➡️ [Scopri come creare regole di decisione](rules.md)
 
 1. **Implementare metodi di classificazione**: creare metodi di classificazione e applicarli nelle strategie di decisione per determinare l&#39;ordine di priorità per la selezione degli elementi di decisione.
 
+   ➡️ [Scopri come creare metodi di classificazione](ranking.md)
+
 1. **Creare strategie di selezione**: creare strategie di selezione che sfruttano raccolte, regole di decisione e metodi di classificazione per identificare gli elementi di decisione adatti alla visualizzazione nei profili.
 
-1. **Incorpora un criterio di decisione nella campagna basata su codice**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
+   ➡️ [Scopri come creare strategie di selezione](selection-strategies.md) ([documentazione API](api-reference/selection-strategies/create.md))
+
+1. **Crea un criterio di decisione e incorporalo nella campagna basata su codice**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
+
+   ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
