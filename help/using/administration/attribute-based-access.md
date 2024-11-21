@@ -9,16 +9,16 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attributo, autorizzazioni, dati, accesso, dati sensibili, risorse
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # Controllo degli accessi basato su attributi {#attribute-based-access}
 
-Il controllo degli accessi basato su attributi (Attribute-Based Access Control - ABAC) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici. Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
+La funzionalità di controllo degli accessi basato su attributi (Attribute-based access control, ABAC) consente di definire autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici. Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 
 In Adobe Journey Optimizer, ABAC consente di proteggere i dati e concedere un accesso specifico a elementi di campo specifici, inclusi schemi Experience Data Model (XDM), attributi di profilo e tipi di pubblico.
 
@@ -40,7 +40,7 @@ Tieni presente che è possibile accedere a **[!UICONTROL Ruoli]**, **[!UICONTROL
 >
 >Prima di gestire le autorizzazioni per un ruolo, è necessario creare un criterio. Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=it).
 
-**[!UICONTROL I ruoli]** sono un insieme di utenti che condividono le stesse autorizzazioni, etichette e sandbox all&#39;interno dell&#39;organizzazione. Ogni utente appartenente a un **[!UICONTROL Ruolo]** ha diritto alle app e ai servizi di Adobe contenuti nel prodotto.
+**[!UICONTROL I ruoli]** sono un insieme di utenti che condividono le stesse autorizzazioni, etichette e sandbox all&#39;interno dell&#39;organizzazione. Ogni utente appartenente a un **[!UICONTROL Ruolo]** ha diritto alle app e ai servizi Adobe contenuti nel prodotto.
 Puoi anche creare **[!UICONTROL Ruoli]** personalizzati se desideri ottimizzare l&#39;accesso degli utenti a determinate funzionalità o oggetti nell&#39;interfaccia.
 
 Si desidera ora concedere agli utenti selezionati l&#39;accesso al campo **Nazionalità**, etichettato C2. Per farlo, è necessario creare un nuovo **[!UICONTROL Ruolo]** con un gruppo specifico di utenti e concedere loro l&#39;etichetta C2 che consente di utilizzare i dettagli **Nazionalità** in un **[!UICONTROL Percorso]**.

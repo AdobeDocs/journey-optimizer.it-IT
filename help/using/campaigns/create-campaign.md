@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '1204'
+ht-degree: 18%
 
 ---
 
@@ -34,29 +34,40 @@ Per creare una nuova campagna, accedi al menu **[!UICONTROL Campagne]**, quindi 
 >title="Tipo di campagna"
 >abstract="Le **Campagne pianificate** vengono eseguite immediatamente o in una data specificata e hanno lo scopo di inviare messaggi di tipo marketing. Le campagne **attivate da API** vengono eseguite utilizzando una chiamata API. Hanno lo scopo di inviare messaggi di marketing (messaggi promozionali che richiedono il consenso dell’utente) o messaggi transazionali (messaggi non commerciali, che possono essere inviati anche a profili non abbonati in contesti specifici)."
 
-1. Seleziona il tipo di campagna da eseguire
+Quando crei una nuova campagna, devi innanzitutto selezionare il tipo di campagna. Sono disponibili tre tipi di campagne:
 
-   * **[!UICONTROL Pianificato - Marketing]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **messaggi di marketing**. Vengono configurati ed eseguiti dall’interfaccia utente di.
+1. **[!UICONTROL Pianificato - Marketing]** - Queste campagne vengono eseguite immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **messaggi di marketing** o creare azioni in entrata. Vengono configurati ed eseguiti dall’interfaccia utente di.
 
-   * **[!UICONTROL Attivato da API - Marketing/Transazionale]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **messaggi di marketing** o **messaggi transazionali**, ovvero messaggi inviati in seguito a un&#39;azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
+1. **[!UICONTROL Attivato da API - Marketing]** - Queste campagne vengono eseguite utilizzando una chiamata API. Seleziona questo tipo di campagna per inviare comunicazioni di marketing personalizzate a tipi di pubblico mirati.  [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
+
+1. **[!UICONTROL Attivato da API - Transazionale]** - Come per le campagne di marketing attivate da API, queste campagne vengono eseguite utilizzando una chiamata API. Le campagne transazionali attivate da API hanno lo scopo di inviare **messaggi transazionali**, ovvero messaggi inviati in seguito a un&#39;azione eseguita da un individuo: richiesta di reimpostazione della password, acquisto del carrello, ecc.  [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. Fai clic su **[!UICONTROL Crea]** per creare la campagna.
-
 ## Definire le proprietà della campagna {#create}
+
+Una volta creata la campagna, devi definirne le proprietà. Segui i passaggi seguenti:
 
 1. Nella sezione **[!UICONTROL Proprietà]**, immetti il nome e una descrizione per la campagna.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. Utilizza il campo **Tag** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
+1. (facoltativo) Utilizza il campo **Tag** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
 
-1. Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere una limitazione di accesso, passa al pulsante **[!UICONTROL Gestisci accesso]** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
+1. (facoltativo) Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere una limitazione di accesso, passa al pulsante **[!UICONTROL Gestisci accesso]** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
 ## Definire il pubblico della campagna {#audience}
 
-Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Per definire la popolazione target della campagna, segui questi passaggi:
+Ora puoi selezionare il pubblico della campagna. Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili.
+
+>[!IMPORTANT]
+>
+>* L&#39;utilizzo dei tipi di pubblico e degli attributi di [composizione del pubblico](../audience/get-started-audience-orchestration.md) non è attualmente disponibile per l&#39;utilizzo con Healthcare Shield o Privacy and Security Shield.
+>
+>* Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API.
+
+
+Per definire la popolazione target di una campagna di marketing pianificata, effettua le seguenti operazioni:
 
 1. Nella sezione **Pubblico**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. Ulteriori informazioni sui tipi di pubblico in [questa sezione](../audience/about-audiences.md).
 
@@ -70,18 +81,15 @@ Un pubblico è un insieme di persone che condividono comportamenti e/o caratteri
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
->[!IMPORTANT]
->
->* L&#39;utilizzo dei tipi di pubblico e degli attributi di [composizione del pubblico](../audience/get-started-audience-orchestration.md) non è attualmente disponibile per l&#39;utilizzo con Healthcare Shield o Privacy and Security Shield.
->
->* Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API.
 
 
 ## Creare il messaggio e configurare il tracciamento {#content}
 
-1. Nella sezione **[!UICONTROL Azioni]**, seleziona il canale.
+Ora puoi definire il contenuto del messaggio. Segui i passaggi seguenti:
 
-   L’elenco dei canali disponibili dipende dal modello di licenza in uso. Per le campagne transazionali attivate da API, sono disponibili solo i canali e-mail, SMS e di notifica push.
+1. Nella sezione **[!UICONTROL Azioni]**, seleziona il canale di comunicazione.
+
+   L&#39;elenco dei canali disponibili dipende dal modello di licenza e dai componenti aggiuntivi. Per le campagne attivate da API, sono disponibili solo i canali e-mail, SMS e di notifica push.
 
 1. Seleziona la configurazione del canale.
 
@@ -132,11 +140,11 @@ Un pubblico è un insieme di persone che condividono comportamenti e/o caratteri
 
    ![](assets/create-campaign-design.png)
 
-1. Nella sezione **[!UICONTROL Esperimento sui contenuti]** puoi utilizzare il pulsante **[!UICONTROL Crea esperimento]** per verificare quale contenuto funziona meglio. Le funzionalità di sperimentazione dei contenuti sono descritte in [questa sezione](../content-management/content-experiment.md).
+1. (facoltativo) Nella sezione **[!UICONTROL Esperimento sui contenuti]**, puoi utilizzare il pulsante **[!UICONTROL Crea esperimento]** per verificare quale contenuto funziona meglio. Le funzionalità di sperimentazione dei contenuti sono descritte in [questa sezione](../content-management/content-experiment.md).
 
 1. Nella sezione **[!UICONTROL Tracciamento azioni]**, specifica se desideri tenere traccia della reazione dei destinatari alla consegna: puoi tenere traccia dei clic e/o delle aperture.
 
-   I risultati del tracciamento saranno accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
+   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
 
 ## Pianificare la campagna {#schedule}
 
@@ -160,12 +168,23 @@ Un pubblico è un insieme di persone che condividono comportamenti e/o caratteri
 >title="Trigger delle azioni della campagna"
 >abstract="Definisci la frequenza con cui deve essere inviato il messaggio della campagna."
 
-Per impostazione predefinita, le campagne iniziano una volta attivate manualmente e terminano non appena il messaggio viene inviato.
+Per impostazione predefinita, le campagne pianificate iniziano una volta attivate manualmente e terminano non appena il messaggio viene inviato.
 
-Puoi definire una frequenza con cui inviare il messaggio della campagna. A questo scopo, utilizza le opzioni **[!UICONTROL Action triggers]** nella schermata di creazione della campagna per specificare se la campagna deve essere eseguita ogni giorno, ogni settimana o ogni mese.
-
-Se non desideri eseguire la campagna subito dopo l&#39;attivazione, puoi specificare la data e l&#39;ora dell&#39;invio del messaggio utilizzando l&#39;opzione **[!UICONTROL Inizio campagna]**. L&#39;opzione **[!UICONTROL Fine campagna]** consente di specificare quando deve cessare l&#39;esecuzione di una campagna ricorrente.
+Se non desideri eseguire la campagna subito dopo l&#39;attivazione, puoi specificare la data e l&#39;ora dell&#39;invio del messaggio utilizzando l&#39;opzione **[!UICONTROL Inizio campagna]**. L&#39;opzione **[!UICONTROL Fine campagna]** consente di specificare quando interrompere l&#39;esecuzione di una campagna.
 
 ![](assets/create-campaign-schedule.png)
 
-Una volta che la campagna è pronta, puoi rivederla e attivarla. [Ulteriori informazioni](review-activate-campaign.md)
+Per le campagne di notifica e-mail, SMS e push, puoi definire una frequenza con cui inviare il messaggio della campagna. A questo scopo, utilizza le opzioni **[!UICONTROL Action triggers]** nella schermata di creazione della campagna per specificare se la campagna deve essere eseguita ogni giorno, ogni settimana o ogni mese.
+
+## Altre impostazioni {#settings}
+
+Alcune impostazioni sono specifiche per il canale di comunicazione selezionato per la campagna o utilizzato per casi d’uso specifici. Sono descritte di seguito.
+
+* Per le e-mail, puoi creare campagne di attivazione del piano di riscaldamento IP specifiche. Ulteriori informazioni in [questa sezione](../configuration/ip-warmup-campaign.md).
+* Per il canale web, in-app e basato su codice, puoi assegnare un punteggio di priorità alla campagna. Ulteriori informazioni in [questa sezione](../conflict-prioritization/priority-scores.md).
+* Per le campagne basate su schede di contenuto, puoi abilitare regole di consegna aggiuntive per scegliere gli eventi e i criteri di attivazione del messaggio. Ulteriori informazioni in [questa sezione](../content-card/create-content-card.md).
+* Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attivano il messaggio. Ulteriori informazioni in [questa sezione](../in-app/create-in-app.md).
+
+## Passaggi successivi {#next}
+
+Una volta che la configurazione e il contenuto della campagna sono pronti, puoi rivederli e attivarli. [Ulteriori informazioni](review-activate-campaign.md)

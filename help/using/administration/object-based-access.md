@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: oggetto, livello, accesso, controllo, etichette, olac, autorizzazione
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '460'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 >title="Etichette gestione dell’accesso"
 >abstract="Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere una limitazione di accesso, passa al pulsante **Gestisci accesso** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione."
 
-Il controllo dell&#39;accesso a livello di oggetto (OLAC) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati a una selezione di oggetti:
+La funzionalità OLAC (Object Level Access Control) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati a una selezione di oggetti:
 
 * Percorso
 * Campaign
@@ -36,15 +36,13 @@ Il controllo dell&#39;accesso a livello di oggetto (OLAC) consente di definire l
 * Configurazione dei canali
 * Piano di riscaldamento IP
 
-Le etichette standardizzate consentono di categorizzare i tipi di pubblico in base alla governance e ai criteri di controllo degli accessi. Ad esempio, un’etichetta di pubblico potrebbe essere utilizzata per impedire a un brand di eseguire il targeting dei membri di un pubblico specifico con pubblicità nel sito.
-
 Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 
 ## Prerequisiti {#prereq-labels}
 
 Per poter [creare etichette](#create-labels), devi far parte di un ruolo con l&#39;autorizzazione **[!UICONTROL Gestisci etichette di utilizzo]**.
 
-Per poter [assegnare etichette](#assign-labels), devi far parte di un ruolo con autorizzazione **Gestisci**, ovvero [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Senza questa autorizzazione, il pulsante **[!UICONTROL Gestisci accesso]** non sarà disponibile.
+Per poter [assegnare etichette](#assign-labels), devi far parte di un ruolo con autorizzazione **Gestisci**, ovvero [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Senza questa autorizzazione, il pulsante **[!UICONTROL Gestisci accesso]** è disattivato.
 
 Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../administration/permissions.md).
 
