@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -259,7 +259,7 @@ La modalità di modifica non visiva è utile se non è possibile installare este
 <tbody>
 <tr>
 <td>
-<p>Disponibile dal 1 ottobre 2024</p>
+<p>Disponibile dal 1° ottobre 2024</p>
 <p>Con il canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, facilitando la consegna diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi per TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora. Il canale di esperienza basata su codice è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/create-code-based.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -276,7 +276,7 @@ La modalità di modifica non visiva è utile se non è possibile installare este
 <tbody>
 <tr>
 <td>
-<p>Disponibile dal 1 ottobre 2024</p>
+<p>Disponibile dal 1° ottobre 2024</p>
 <p>Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../web/create-web.md">documentazione dettagliata</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -323,7 +323,7 @@ Sono stati introdotti miglioramenti agli SMS per ottimizzare le funzionalità di
 
 **Generazione rapporti**
 
-* È ora disponibile il reporting di **Decisioning**, che offre informazioni essenziali su come i visitatori interagiscono con le esperienze.
+* È ora disponibile **il reporting della funzione decisioni** che offre informazioni essenziali su come i visitatori interagiscono con le esperienze.
 
 **Governance dei dati e criteri di consenso** - Data di disponibilità: 7 ottobre 2024
 

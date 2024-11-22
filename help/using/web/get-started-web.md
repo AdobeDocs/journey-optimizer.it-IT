@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Tramite un’interfaccia visiva intuitiva, questa funzionalità ti consente di m
 
 Se utilizzi già canali in uscita come e-mail, SMS o notifiche push, ora puoi sfruttare il canale Web in entrata per offrire un’esperienza veramente personalizzata che si estende in tutti i canali.
 
-Dopo aver creato un percorso o una campagna, seleziona **Web** come azione e definisci le impostazioni di base. Per ulteriori informazioni su come configurare il percorso o la campagna, consulta questa [pagina](create-web.md#create-web-experience).
+Una volta creato un percorso o una campagna, seleziona **Web** come azione e definisci le impostazioni di base. Per ulteriori informazioni sulla modalità di configurazione di una campagna o di un percorso, consulta questa [pagina](create-web.md#create-web-experience).
 
 >[!NOTE]
 >

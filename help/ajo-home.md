@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB Ottobre &#39;24 versione]
+>[!TAB Versione di ottobre 2024]
 
-La versione di ottobre è ora live e include il blocco dei contenuti e-mail, l’integrazione con l’inchiostro mobile, esperienze basate su codice e web in percorsi. Precedentemente, in Disponibilità limitata (LA), ora sono disponibili per tutti le seguenti funzionalità: personalizzazione della configurazione e-mail, criteri di approvazione, sperimentazione dei contenuti, migliore esperienza di reporting, contenuto multilingue e altro ancora.
+La versione di ottobre è ora disponibile e include il blocco dei contenuti e-mail, l’integrazione di Movable Ink e le esperienze basate su codice e web nei percorsi. Precedentemente in disponibilità limitata (LA), le seguenti funzionalità ora sono disponibili per tutti: personalizzazione della configurazione e-mail, criteri di approvazione, sperimentazione dei contenuti, migliore esperienza di reporting, contenuto multilingue e altro ancora.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,7 +38,7 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Esperienze Web in percorsi]
+>[!TAB Esperienze web nei percorsi]
 
 Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.
 
