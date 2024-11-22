@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 28%
+source-wordcount: '438'
+ht-degree: 24%
 
 ---
 
@@ -46,7 +46,7 @@ Puoi visualizzare in anteprima e verificare il contenuto utilizzando:
 
 * **Profili di test**
 
-  Utilizza i profili di test per visualizzare in anteprima il contenuto, inviare bozze e-mail e controllare il rendering delle e-mail. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati dei profili di test.
+  Utilizza i profili di test per visualizzare in anteprima il contenuto, inviare bozze e-mail e controllare il rendering delle e-mail. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati del profilo di test. Per ulteriori informazioni, consulta le sezioni seguenti:
 
   ➡️ [Seleziona profili di test](test-profiles.md)
 
@@ -56,7 +56,7 @@ Puoi visualizzare in anteprima e verificare il contenuto utilizzando:
 
   ➡️ [Verifica rendering e-mail](rendering.md)
 
-  ➡️ [Scopri come visualizzare in anteprima e verificare le tue e-mail in questo video](#video-preview)
+  ➡️ [Anteprima e verifica dell&#39;e-mail (video)](#video-preview)
 
 * **Dati di input di esempio**
 
