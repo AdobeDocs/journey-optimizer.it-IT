@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-# Verifica il contenuto {#preview}
+# Visualizzare l’anteprima del contenuto utilizzando i profili di test {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-Una volta definiti i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto. Segui i passaggi seguenti:
+Una volta definiti i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto.
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+
+Per visualizzare in anteprima i contenuti utilizzando i profili di test, effettua le seguenti operazioni:
 
 1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 

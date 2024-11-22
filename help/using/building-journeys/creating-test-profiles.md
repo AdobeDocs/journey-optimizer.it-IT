@@ -9,9 +9,9 @@ role: User, Data Engineer
 level: Intermediate
 keywords: profili di test, test, test, percorso
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
 # Creare profili di test {#create-test-profiles}
 
 I profili di test sono necessari quando si utilizza la [modalità di test](../building-journeys/testing-the-journey.md) in un percorso e per [visualizzare in anteprima e verificare il contenuto](../content-management/preview-test.md).
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
 
 Esistono diversi modi per creare profili di test. Puoi trovare in questa pagina i dettagli per:
 
@@ -36,7 +40,7 @@ La creazione di un profilo di test è simile alla creazione di profili normali i
 
 ## Prerequisiti {#test-profile-prerequisites}
 
-Per poter creare profili, è innanzitutto necessario creare uno schema e un set di dati nell&#39;Adobe [!DNL Journey Optimizer].
+Per poter creare profili, è innanzitutto necessario creare uno schema e un set di dati in Adobe [!DNL Journey Optimizer].
 
 Per **creare uno schema**, eseguire la procedura seguente:
 
@@ -181,7 +185,7 @@ Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il
 
 ## Creare profili di test tramite chiamate API{#create-test-profiles-api}
 
-Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
+Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 Devi utilizzare uno schema di profilo che contiene il gruppo di campi &quot;Dettagli test profilo&quot;. Il flag testProfile fa parte di questo gruppo di campi.
 Quando crei un profilo, accertati di trasmettere il valore: testProfile = true.

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 8%
+source-wordcount: '1112'
+ht-degree: 7%
 
 ---
 
@@ -161,7 +161,13 @@ Quando utilizzi una configurazione con impostazioni personalizzate in una campag
 
 ## Verifica la configurazione {#check-configuration}
 
-Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, puoi visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. Segui i passaggi seguenti.
+Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, puoi visualizzare in anteprima il contenuto delle e-mail utilizzando i profili di test per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. Segui i passaggi seguenti.
+
+>[!NOTE]
+>
+>Oltre ai profili di test, [!DNL Journey optimizer] consente anche di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+
+Per visualizzare in anteprima i contenuti utilizzando i profili di test, effettua le seguenti operazioni:
 
 1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**. [Ulteriori informazioni](../content-management/preview.md)
 
