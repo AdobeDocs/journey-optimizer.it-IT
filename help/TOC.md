@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [Anteprima del contenuto](using/content-management/preview.md)
       + [Inviare bozze e-mail](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
-      + [Test del contenuto tramite dati di input di esempio (Beta)](using/test-approve/simulate-sample-input.md)
+      + [Testare il contenuto utilizzando dati di input di esempio (Beta)](using/test-approve/simulate-sample-input.md)
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
    + Approvare percorsi e campagne {#approve}
       + [Introduzione alle approvazioni](using/test-approve/gs-approval.md)
@@ -266,8 +266,8 @@ ht-degree: 97%
          + [Creare la configurazione del canale Web](using/web/web-configuration.md)
       + [Creare esperienze web](using/web/create-web.md)
       + Authoring di pagine web {#author-web-pages}
-         + [Utilizzare web designer](using/web/web-visual-editor.md)
-         + [Utilizza l’editor non visivo](using/web/web-non-visual-editor.md)
+         + [Utilizzare il Designer web](using/web/web-visual-editor.md)
+         + [Utilizzare l’editor non visivo](using/web/web-non-visual-editor.md)
          + [Gestire le modifiche](using/web/manage-web-modifications.md)
          + [Monitorare le esperienze web](using/web/monitor-web-experiences.md)
          + [Creare applicazioni a pagina singola](using/web/web-spa.md)
@@ -310,7 +310,7 @@ ht-degree: 97%
    + Utilizzare il contenuto multilingue{#content-multilingual}
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
       + [Creare una lingua](using/content-management/multilingual-locale.md)
-      + [Creare un provider di lingue](using/content-management/multilingual-provider.md)
+      + [Creare un provider di lingua](using/content-management/multilingual-provider.md)
       + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
       + [Creare contenuto multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
    + Utilizzare l’esperimento sui contenuti {#content-experiment}
@@ -368,7 +368,7 @@ ht-degree: 97%
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
-      + [Caricamento personalizzato (CSV) e composizione federata del pubblico](using/audience/custom-upload-fac.md)
+      + [Caricamento personalizzato (CSV) e composizione di pubblico federato](using/audience/custom-upload-fac.md)
       + [Generare definizioni di segmento](using/audience/creating-a-segment-definition.md)
       + Comporre i tipi di pubblico {#audience-orchestration}
          + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + Funzionalità di decisione {#decisioning}
    + [Introduzione alle funzionalità decisionali](using/experience-decisioning/gs-decision.md)
    + Decisioning {#experience-decisioning}
-      + [Introduzione a Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
       + Riferimento API{#api-reference}
          + Elementi decisionali{#decision-items}
             + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
