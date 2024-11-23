@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '5736'
 ht-degree: 99%
@@ -26,7 +26,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La pagina **Configura l’esperienza basata su codice** è stata migliorata per rendere più chiaro il processo, inclusa la sezione che spiega che cos’è un URI di superficie. [Ulteriori informazioni](../code-based/code-based-configuration.md)
 * La pagina **Crea configurazione canale web** è stata aggiornata per chiarire i passaggi della creazione di una regola di corrispondenza delle pagine, che si applicano anche alla configurazione dell’esperienza basata su codice. [Ulteriori informazioni](../web/web-configuration.md#web-page-matching-rule)
 * È stata aggiunta una nota sull’imminente guardrail time-to-live (TTL) per i set di dati generati dal sistema. [Ulteriori informazioni](../data/get-started-datasets.md)
-* È stata aggiunta una nuova sezione che descrive come visualizzare in anteprima le esperienze personalizzate basate su codice direttamente sul browser o sui dispositivi mobili, utilizzando l’opzione Anteprima sul dispositivo durante la simulazione di contenuti in un percorso o in una campagna. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
+* È stata aggiunta una nuova sezione che descrive come visualizzare in anteprima le esperienze personalizzate basate su codice direttamente sul browser o sui dispositivi mobili, utilizzando l’opzione Anteprima sul dispositivo durante la simulazione di contenuti in un percorso o in una campagna. [Ulteriori informazioni](../code-based/test-code-based.md#preview-on-device)
 * È stata aggiunta una nuova pagina su come sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni. [Ulteriori informazioni](../offers/custom-upload-decisioning.md)
 * È stata aggiunta una nuova pagina per introdurre le funzionalità decisionali disponibili in Journey Optimizer. [Ulteriori informazioni](../experience-decisioning/gs-decision.md)
 * Sono state aggiunte protezioni e limitazioni alla documentazione di Decisioning. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md#guardrails)

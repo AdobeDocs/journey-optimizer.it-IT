@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 66%
 
 ---
 
@@ -47,6 +47,15 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 <p>
 </td>
 <td>
+<a href="code-based-configuration.md">
+<img alt="Convalida" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="code-based-implementation-samples.md"><strong>Configurazione del canale basata su codice</strong></a>
+</div>
+<p>
+</td>
+<td>
 <a href="create-code-based.md#create-code-based-campaign">
 <img alt="Non frequente" src="../assets/do-not-localize/web-create.jpg">
 </a>
@@ -54,15 +63,6 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 <a href="create-code-based.md#create-code-based-campaign"><strong>Creare un’esperienza web</strong></a>
 </div>
 <p></td>
-<td>
-<a href="code-based-implementation-samples.md">
-<img alt="Convalida" src="../assets/do-not-localize/web-design.jpg">
-</a>
-<div>
-<a href="code-based-implementation-samples.md"><strong>Esempi di implementazione</strong></a>
-</div>
-<p>
-</td>
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
@@ -75,18 +75,21 @@ Quando utilizzare il canale Basato su codice anziché gli altri canali di [!DNL 
 
 * È possibile utilizzare le esperienze basate su codice in qualsiasi momento quando non si accede alla proprietà digitale tramite un browser web o un’app mobile; in questi ultimi casi, infatti, è spesso preferibile utilizzare il [canale Web](../web/get-started-web.md){target="_blank"} di [!DNL Journey Optimizer] o la [messaggistica in-app](../in-app/get-started-in-app.md){target="_blank"} di [!DNL Journey Optimizer].
 
-* È possibile utilizzare il canale basato su codice in alternativa al canale Web di [!DNL Journey Optimizer] se il sito web non può essere caricato nell’editor visivo del [Designer web](../web/web-visual-editor.md){target="_blank"} o nel caso in cui non sia possibile utilizzare l’[estensione del browser](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale Web.
+<!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* Inoltre, il canale Basato su codice può essere usato in alternativa ai canali Web o In-app di [!DNL Journey Optimizer] in caso di implementazioni basate su API, headless o lato server.
+* È possibile utilizzare il canale basato su codice in alternativa ai canali Web o in-app [!DNL Journey Optimizer] nel caso di un&#39;implementazione basata su API, headless o lato server.
+
+* Puoi anche sfruttare il canale basato su codice nelle applicazioni mobile native come alternativa al canale in-app, se desideri modificare il contenuto all’interno dell’app nativa invece di visualizzare modali, popup o sovrapposizioni.
 
 ### Canale Basato su codice e canale Web {#code-based-vs-web}
 
-Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata su codice, ma a seconda del contesto, uno può essere più appropriato dell’altro. Le principali differenze elencate di seguito ti aiuteranno a decidere quale canale scegliere in base alle tue esigenze.
+Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata su codice, ma a seconda del contesto, uno può essere più appropriato dell’altro. Le principali differenze sono elencate di seguito in modo da poter prendere una decisione informata su cosa utilizzare e quando.
 
 **Web**
 
-* Modifica il contenuto utilizzando l’editor visivo [Designer web](../web/web-visual-editor.md){target="_blank"}.
-* Hai bisogno dell’implementazione di [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} e dell’estensione [Helper per editing video di Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} installata nel browser web. [Ulteriori informazioni](../web/web-prerequisites.md){target="_blank"}
+* Modifica il contenuto utilizzando l&#39;[editor visivo di Web Designer](../web/web-visual-editor.md){target="_blank"} o l&#39;[editor non visivo](../web/web-non-visual-editor.md) Web.
+* È necessario [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} - un&#39;implementazione lato client.
+  <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Il canale Web consente di modificare tutto ciò che si trova sulla pagina e dispone di un elenco preimpostato di azioni che puoi utilizzare per apportare modifiche. [Ulteriori informazioni](../web/web-visual-editor.md){target="_blank"}
 * È facile e veloce da configurare.
 * È incentrato sul ruolo di marketer.
@@ -94,7 +97,8 @@ Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata 
 **Esperienza basata su codice**
 
 * Modifica il contenuto utilizzando l’[editor di personalizzazione](create-code-based.md#edit-code).
-* Per creare esperienze basate su codice, è necessario un precedente lavoro di sviluppo sulla propria implementazione affinché che le applicazioni possano interpretare e consegnare i contenuti pubblicati nell’ambiente Edge da [!DNL Journey Optimizer] per queste posizioni. [Ulteriori informazioni](code-based-configuration.md#surface-definition)
+* È necessario [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} - implementazione lato client o [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} - implementazione lato server.
+* Per creare esperienze basate su codice, è necessario un precedente lavoro di sviluppo sulla propria implementazione affinché che le applicazioni possano interpretare e consegnare i contenuti pubblicati nell’ambiente Edge da [!DNL Journey Optimizer] per queste posizioni. [Ulteriori informazioni](code-based-surface.md)
 * Richiede una maggiore pianificazione ed è possibile modificare solo gli elementi specificati dagli sviluppatori. Pertanto, è essenziale identificare i componenti (banner Home, immagine hero, barra dei menu, ecc.) delle applicazioni che devono essere modificate per personalizzazione o test e collaborare con il team di sviluppo per creare l’implementazione necessaria per gestire queste modifiche.
 * Consente di utilizzare contenuti creati con codice JSON.
 * È incentrata sugli sviluppatori.
@@ -105,18 +109,33 @@ Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata 
 >
 >Questa funzione è destinata agli sviluppatori e/o utenti esperti. Può essere utilizzata da marketer con alcune competenze nella scrittura del codice, purché le configurazioni di canale e la configurazione iniziale siano gestite dal team di sviluppo.
 
-Per modificare il contenuto utilizzando la funzionalità di esperienza basata su codice di [!DNL Journey Optimizer], le pagine o le app devono essere strumentate. Per farlo, è necessario specificare in anticipo le singole posizioni (denominate “[superfici](code-based-configuration.md#surface-definition)”) nel punto in cui desideri inserire o sostituire il contenuto.
+Per modificare il contenuto utilizzando la funzionalità di esperienza basata su codice di [!DNL Journey Optimizer], le pagine o le app devono essere strumentate. Per farlo, è necessario specificare in anticipo le singole posizioni (denominate “[superfici](code-based-surface.md)”) nel punto in cui desideri inserire o sostituire il contenuto.
 
 >[!NOTE]
 >
 >Attualmente il contenuto associato a una configurazione può essere solo HTML o JSON.
 
-I passaggi chiave per implementare una campagna basata su codice sono i seguenti.
+I passaggi chiave per creare e distribuire un’esperienza basata su codice sono i seguenti.
 
-1. Definisci una [superficie](code-based-configuration.md#surface-definition) nell’implementazione dell’applicazione, ovvero la posizione in cui desideri aggiungere l’esperienza basata su codice, quindi crea una configurazione dei canali di tale esperienza che faccia riferimento a tale posizione. [Scopri come](code-based-configuration.md#create-code-based-configuration)
+1. Accertati di seguire i prerequisiti specifici per il canale. [Ulteriori informazioni](code-based-prerequisites.md)
+
+1. Definisci una [superficie](code-based-surface.md#surface-definition) nell&#39;implementazione dell&#39;applicazione, che è fondamentalmente la posizione in cui desideri aggiungere la tua esperienza.
+
+1. Crea una configurazione di canale basata su codice che fa riferimento a tale posizione. [Scopri come](code-based-configuration.md#create-code-based-configuration)
 
 1. Creare un percorso o una campagna in [!DNL Journey Optimizer] utilizzando questa configurazione. [Scopri come](create-code-based.md#create-code-based-campaign)
 
 1. Componi un’esperienza specificando il contenuto per la configurazione selezionata utilizzando l’editor di personalizzazione di [!DNL Journey Optimizer]. [Scopri come](create-code-based.md#edit-code)
 
-1. Il team di implementazione dell’app effettua chiamate API o SDK esplicite per recuperare il contenuto delle superfici denominate, ad esempio “Testo banner” o “Area 1 Consigli”, o punti decisionali non correlati all’interfaccia utente in un’applicazione, ad esempio “Parametri dell’algoritmo di ricerca”. In questo caso, il team di implementazione è responsabile del rendering o dell’interpretazione e dell’azione sul contenuto restituito. [Ulteriori informazioni](code-based-implementation-samples.md)
+1. Verifica l’esperienza basata su codice. [Scopri come](test-code-based.md)
+
+1. Publish. [Scopri come](publish-code-based.md)
+
+1. Una volta che il percorso di esperienze o la campagna basati sul codice è attivo, l’app o la pagina che richiede il contenuto per la visualizzazione deve essere attiva per poter recuperare e visualizzare il contenuto.
+
+   >[!INFO]
+   >
+   >Per questo motivo, il team di implementazione dell’app effettua esplicite chiamate API o SDK per recuperare il contenuto per la superficie definita nella configurazione basata su codice, ad esempio &quot;Testo banner&quot; o &quot;Cassetto 1 Recommendations&quot;, o punti decisionali non correlati all’interfaccia utente in un’applicazione, ad esempio &quot;Parametri dell’algoritmo di ricerca&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Ulteriori informazioni](code-based-implementation-samples.md)
+
+
+

@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} è incluso nella pagina.
 
-1. È necessario utilizzare il comando `sendEvent` e specificare l&#39;[URI di superficie](code-based-configuration.md#surface-definition)<!--( or location/path)--> per recuperare il contenuto di personalizzazione.
+1. È necessario utilizzare il comando `sendEvent` e specificare l&#39;[URI di superficie](code-based-surface.md)<!--( or location/path)--> per recuperare il contenuto di personalizzazione.
 
    ```javascript
    alloy("sendEvent", {
@@ -305,5 +305,5 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 
 Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di seguito.
 
-* Blog di tecnologia Adobe: [Personalization ibrido nell&#39;SDK Web di Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* Blog di Adobe Tech: [Personalization ibrido nell&#39;SDK Web per Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentazione SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

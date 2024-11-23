@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 28%
+source-wordcount: '1073'
+ht-degree: 13%
 
 ---
 
@@ -104,11 +104,15 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 1. Per l’URL di anteprima vale quanto segue:
 
    * Se viene immesso un URL di una singola pagina, questo verrà utilizzato per l’anteprima e non è necessario immettere un altro URL.
-   * Se è selezionata una [regola corrispondente alle pagine](../web/web-configuration.md#web-page-matching-rule), devi immettere un **[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]** che verrà utilizzato per visualizzare l&#39;anteprima dell&#39;esperienza nel browser. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
+   * Se è selezionata una [regola corrispondente alle pagine](../web/web-configuration.md#web-page-matching-rule), è necessario immettere un **[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]** che verrà utilizzato per visualizzare l&#39;anteprima dell&#39;esperienza in un browser. [Ulteriori informazioni](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. Il campo **[!UICONTROL Posizione nella pagina]** specifica la destinazione esatta all&#39;interno della pagina a cui si desidera che gli utenti accedano. Può essere una sezione particolare di una pagina all’interno della struttura di navigazione del sito, ad esempio &quot;hero-banner&quot; o &quot;product-rail&quot;.
+
+   >[!CAUTION]
+   >
+   >La stringa o il percorso immesso in questo campo deve corrispondere a quello dichiarato nell’implementazione dell’app o della pagina. In questo modo il contenuto viene consegnato nella posizione desiderata all’interno dell’app o della pagina specificata. [Ulteriori informazioni](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    ![](assets/code_config_3.png)
 
-1. Compila il campo **[!UICONTROL URL anteprima]** per abilitare le anteprime su dispositivo. Questo URL informa il servizio di anteprima dell’URL specifico da utilizzare quando si attiva l’anteprima sul dispositivo. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
+1. Compila il campo **[!UICONTROL URL anteprima]** per abilitare le anteprime su dispositivo. Questo URL informa il servizio di anteprima dell’URL specifico da utilizzare quando si attiva l’anteprima sul dispositivo. [Ulteriori informazioni](test-code-based.md#preview-on-device)
 
    L&#39;URL di anteprima è un collegamento profondo configurato dallo sviluppatore dell&#39;app all&#39;interno dell&#39;app. In questo modo, gli URL che corrispondono allo schema di collegamento profondo si apriranno all’interno dell’app anziché in un browser web per dispositivi mobili. Contatta il tuo sviluppatore di app per ottenere lo schema di collegamento profondo configurato per la tua app.
 
@@ -160,73 +164,16 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 1. Seleziona **[!UICONTROL Altro]** come piattaforma se la tua implementazione non è per Web, iOS o Android oppure se devi eseguire il targeting di URI specifici.
 
-1. Immettere l&#39;**[!UICONTROL URI superficie]**. Un URI di superficie è un identificatore univoco corrispondente all’entità in cui desideri fornire l’esperienza. [Ulteriori informazioni](#surface-definition)
+1. Immettere l&#39;**[!UICONTROL URI superficie]**. Un URI di superficie è un identificatore univoco corrispondente all’entità in cui desideri fornire l’esperienza. [Ulteriori informazioni](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >Assicurati di immettere un URI di superficie che corrisponda a quello utilizzato nella tua implementazione. In caso contrario, non sarà possibile consegnare le modifiche.
+   >Assicurati di immettere un URI di superficie che corrisponda a quello utilizzato nella tua implementazione. In caso contrario, non sarà possibile consegnare le modifiche. [Ulteriori informazioni](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL Se necessario, aggiungere un altro URI di superficie]**. Puoi aggiungere fino a 10 URI.
 
    >[!NOTE]
    >
    >Quando si aggiungono più URI, il contenuto viene distribuito a tutti i componenti elencati.
-
-## Che cos’è una superficie? {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="Aggiungere l’URI della superficie per il componente"
->abstract="Se l’implementazione non è per il Web, iOS o Android, oppure se devi eseguire il targeting di URI specifici, immetti un URI di superficie, che è un identificatore univoco che si dirige all’entità in cui desideri distribuire l’esperienza. Assicurati di immettere un URI di superficie che corrisponda a quello utilizzato nella tua implementazione."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Creare una configurazione di esperienza basata su codice per altre piattaforme"
-
-Un&#39;esperienza basata su codice **surface** è qualsiasi entità progettata per l&#39;interazione utente o di sistema, identificata in modo univoco da un **URI**. La superficie è specificata nell&#39;implementazione dell&#39;applicazione e deve corrispondere alla superficie a cui si fa riferimento nella configurazione del canale esperienza basato su codice.
-
-Una superficie può essere vista come un contenitore a qualsiasi livello gerarchico con un’entità (punto di contatto) esistente.
-
-* Può essere una pagina web, un’app mobile, un’app desktop o una posizione di contenuto specifica all’interno di un’entità più grande (ad esempio un `div`) o un pattern di visualizzazione non standard (ad esempio, un chiosco o un banner per app desktop).<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* Può anche estendersi a contenitori di contenuto specifici per scopi non di visualizzazione o visualizzazione astratta (ad esempio, BLOB JSON consegnati ai servizi).
-
-* Può anche essere una superficie con caratteri jolly che corrisponde a una varietà di definizioni di superficie client (ad esempio, la posizione di un’immagine principale su ogni pagina del sito web potrebbe tradursi in un URI di superficie come: web://mydomain.com/*#hero_image).
-
-Quando crei una configurazione del canale esperienza basata su codice, puoi specificare la superficie in due modi in base alla piattaforma selezionata:
-
-* Per le piattaforme **[!UICONTROL Web]**, **[!UICONTROL iOS]** e **[!UICONTROL Android]**, è necessario immettere una **posizione o un percorso** per comporre la superficie.
-
-* Se la piattaforma è **[!UICONTROL Altro]**, è necessario immettere l&#39;**URI di superficie** completo, come negli esempi seguenti.
-
-Un URI di superficie funge da identificatore preciso che si dirige verso elementi o componenti distinti dell’interfaccia utente all’interno di un’applicazione. Fondamentalmente, un URI di superficie è composto da più sezioni:
-
-1. **Tipo**: web, app mobile, sportello bancomat, chiosco, tvcd, servizio ecc.
-1. **Proprietà**: URL pagina o pacchetto di app
-1. **Contenitore**: posizione nell’attività pagina/app
-
-La tabella seguente elenca alcuni esempi di definizione di URI di superficie per vari dispositivi.
-
-**Web e dispositivi mobili**
-
-| Tipo | URI | Descrizione |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico, dove un elemento può essere un’etichetta come negli esempi seguenti: hero_banner, top_nav, menu, piè di pagina, ecc. |
-| App iOS | `mobileapp://com.vendor.bundle/activity#element` | Rappresenta un elemento specifico all’interno dell’attività di un’app nativa, ad esempio un pulsante o un altro elemento della vista. |
-| App Android | `mobileapp://com.vendor.bundle/#element` | Rappresenta un elemento specifico di un’app nativa. |
-
-**Altri tipi di dispositivi**
-
-| Tipo | URI | Descrizione |
-| --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
-| App TV | `tvcd://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un bundle di app per dispositivi collegati a smart TV o TV. |
-| Servizio | `service://servicename/#element` | Rappresenta un processo lato server o altra entità manuale. |
-| Chiosco | `kiosk://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
-| ATM | `atm://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
-
-**Superfici jolly**
-
-| Tipo | URI | Descrizione |
-| --------- | ----------- | ------- | 
-| Web jolly | `wildcard:web://domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
-| Web jolly | `wildcard:web://*domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina di tutti i domini che finiscono con “domain.com”. |

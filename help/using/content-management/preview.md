@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -50,5 +50,5 @@ Per visualizzare in anteprima i contenuti utilizzando i profili di test, effettu
 >
 >Se viene rilevato un errore nei dettagli della configurazione, fare clic sul pulsante **[!UICONTROL Visualizza dettagli configurazione]**. [Ulteriori informazioni](../email/surface-personalization.md#check-configuration)
 
-Quando crei esperienze basate su codice, puoi visualizzare in anteprima i contenuti personalizzati direttamente sul browser o sui dispositivi mobili, per una simulazione reale. [Ulteriori informazioni](../code-based/create-code-based.md#preview-on-device)
+Quando crei esperienze basate su codice, puoi visualizzare in anteprima i contenuti personalizzati direttamente sul browser o sui dispositivi mobili, per una simulazione reale. [Ulteriori informazioni](../code-based/test-code-based.md#preview-on-device)
 

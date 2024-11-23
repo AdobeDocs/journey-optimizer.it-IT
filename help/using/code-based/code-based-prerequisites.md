@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '640'
 ht-degree: 2%
 
 ---
 
-# Guardrail e prerequisiti {#web-prerequisites}
+# Guardrail e prerequisiti {#code-based-prerequisites}
 
 Per poter utilizzare in [!DNL Journey Optimizer] le azioni di esperienza basate su codice e distribuire il payload del contenuto di codice che può essere utilizzato dalle applicazioni, attenersi ai prerequisiti seguenti:
 
 * Per aggiungere modifiche alle applicazioni, è necessario disporre di un’implementazione specifica. [Ulteriori informazioni](#implementation-prerequisites)
 
 * Affinché le esperienze basate sul codice vengano consegnate correttamente, assicurati di definire le impostazioni Adobe Experience Platform dettagliate [qui](#delivery-prerequisites).
+
+* Per abilitare la visualizzazione dei dati nei report esperienza basati su codice, assicurati di seguire questi [prerequisiti per la generazione di rapporti](#reporting-prerequisites).
+
+* Quando crei una configurazione del canale esperienza basata su [codice](code-based-configuration.md), accertati di immettere una stringa o un percorso o un URI di superficie che corrisponda a quello dichiarato nella tua implementazione. In questo modo il contenuto viene consegnato nella posizione desiderata all’interno dell’app o della pagina specificata. In caso contrario, non sarà possibile consegnare le modifiche. [Ulteriori informazioni](code-based-surface.md)
 
 ## Prerequisiti per l’implementazione {#implementation-prerequisites}
 
@@ -55,7 +59,7 @@ Per consegnare correttamente le esperienze basate su codice, è necessario defin
 
   [Ulteriori informazioni sulla visualizzazione Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery)
 
-## Prerequisiti per la generazione di rapporti {#experiment-prerequisites}
+## Prerequisiti per la generazione di rapporti {#reporting-prerequisites}
 
 Per abilitare il reporting per il canale basato su codice, è necessario assicurarsi che anche il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso nella configurazione del reporting.
 

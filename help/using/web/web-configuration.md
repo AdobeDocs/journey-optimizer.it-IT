@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 10%
@@ -67,7 +67,11 @@ Ad esempio, puoi applicare le modifiche a un banner principale in un intero sito
 
 1. Durante la configurazione di [web](#web-configuration) o [esperienza basata su codice](../code-based/code-based-configuration.md), seleziona **[!UICONTROL Regola di corrispondenza pagine]**.
 
-1. Definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**. Controlla gli operatori disponibili in [questa sezione](#available-operators).
+1. Definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
+
+   >[!NOTE]
+   >
+   >Controlla gli operatori disponibili in [questa sezione](#available-operators).
 
    Ad esempio, se desideri modificare gli elementi visualizzati in tutte le pagine del sito Web Luma relative alle donne, seleziona **[!UICONTROL Dominio]** > **[!UICONTROL Inizia con]** > `luma` e **[!UICONTROL Pagina]** > **[!UICONTROL Contiene]** > `women`.
 

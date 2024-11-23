@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 99%
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -273,10 +273,15 @@ ht-degree: 99%
          + [Creare applicazioni a pagina singola](using/web/web-spa.md)
    + Esperienza basata su codice {#code-based-experience}
       + [Introduzione al canale basato su codice](using/code-based/get-started-code-based.md)
-      + [Guardrail e prerequisiti](using/code-based/code-based-prerequisites.md)
-      + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
-      + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
-      + [Creare esperienze basate su codice](using/code-based/create-code-based.md)
+      + Configura canale basato su codice {#configure-code-based-channel}
+         + [Guardrail e prerequisiti](using/code-based/code-based-prerequisites.md)
+         + [Superfici di esperienza basate su codice](using/code-based/code-based-surface.md)
+         + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
+         + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
+      + Crea esperienze basate su codice {#create-code-based-experiences}
+         + [Creare e comporre esperienze basate su codice](using/code-based/create-code-based.md)
+         + [Testare esperienze basate su codice](using/code-based/test-code-based.md)
+         + [Gestire esperienze basate su codice](using/code-based/publish-code-based.md)
    + Schede di contenuto{#content-card}
       + [Introduzione alla scheda di contenuto](using/content-card/get-started-content-card.md)
       + Configurare il canale della scheda contenuto {#configure}
