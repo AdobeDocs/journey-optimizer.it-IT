@@ -5,7 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+hide: true
+hidefromtoc: true
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 6%
@@ -20,7 +22,7 @@ In questo caso d’uso, crea una campagna in cui definisci due trattamenti di co
 
 Devi innanzitutto creare gli elementi, raggrupparli in raccolte, impostare regole e metodi di classificazione. Questi elementi ti consentiranno di creare strategie di selezione.
 
-1. Passa a **[!UICONTROL Decisioning]** > **[!UICONTROL cataloghi]** e crea diversi elementi decisionali. Imposta i vincoli utilizzando tipi di pubblico o regole per limitare ogni elemento solo a profili specifici. [Ulteriori informazioni](items.md)
+1. Passa a **[!UICONTROL Decisioning]** > **[!UICONTROL Cataloghi]** e crea diversi elementi decisionali. Imposta i vincoli utilizzando tipi di pubblico o regole per limitare ogni elemento solo a profili specifici. [Ulteriori informazioni](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
