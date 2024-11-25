@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -30,29 +30,33 @@ Per indirizzare i clienti a una pagina Web definita che si desidera visualizzare
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
-Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione Percorsi]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
+Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
 
 ![](assets/lp_access-list.png)
 
-Nell&#39;elenco **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli in base al loro stato o alla data di modifica.
+Nell&#39;elenco **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli in base al loro stato, alla data di modifica o ai tag.
 
 ![](assets/lp_access-list-filter.png)
 
-Da questo elenco, puoi accedere al [report Live](../reports/lp-report-live.md) o [report Pagina di destinazione](../reports/lp-report-global-cja.md) per gli elementi pubblicati.
-
-Puoi anche eliminare, duplicare e annullare la pubblicazione di una pagina di destinazione.
-
->[!CAUTION]
->
->Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione verrà interrotto e verrà visualizzata una pagina di errore.
-
-Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata.
+Da questo elenco è possibile accedere a una serie di azioni. Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata:
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->Impossibile eliminare una pagina di destinazione [pubblicata](#publish-landing-page). Per eliminarlo, devi prima annullarne la pubblicazione.
+* Per gli elementi pubblicati, puoi accedere al [rapporto sulla pagina di destinazione](../reports/lp-report-global-cja.md) o al [ultimo rapporto live di 24 ore](../reports/lp-report-live.md).
+
+* Puoi eliminare o duplicare una pagina di destinazione.
+
+  >[!NOTE]
+  >
+  >Impossibile eliminare una pagina di destinazione [pubblicata](#publish-landing-page). Per eliminarlo, devi prima annullarne la pubblicazione.
+
+* Puoi annullare la pubblicazione di una pagina di destinazione pubblicata.
+
+  >[!CAUTION]
+  >
+  >Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione verrà interrotto e verrà visualizzata una pagina di errore.
+
+* Puoi anche modificare i [tag](../start/search-filter-categorize.md#tags) associati a una pagina di destinazione.
 
 ## Creare una pagina di destinazione {#create-landing-page}
 
@@ -279,11 +283,6 @@ Possono verificarsi due tipi di avvisi:
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Pubblicare la pagina di destinazione {#publish-landing-page}

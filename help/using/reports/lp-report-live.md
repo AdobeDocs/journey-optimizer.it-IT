@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 14%
+source-wordcount: '458'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti di Customer Journey Analytics si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
-Per accedere ai tuoi report, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
+Per accedere ai tuoi report, seleziona **[!UICONTROL Visualizza report delle ultime 24 ore]** dal menu avanzato della pagina di destinazione selezionata.
 
 ![](assets/landing_page_report.png)
 
