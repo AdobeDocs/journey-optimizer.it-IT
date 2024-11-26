@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 11%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Se non si desidera applicare alcun periodo di coinvolgimento a un&#39;esecuzione, immettere 0 nel campo **[!UICONTROL Ultimo impegno]**.
 
-1. Seleziona l&#39;opzione **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** per annullare un&#39;esecuzione se i profili qualificati sono inferiori ai profili target una volta che il pubblico è stato valutato per tale esecuzione. In tal caso, l&#39;esecuzione assume lo stato **[!UICONTROL Non riuscito]**.
+1. Seleziona l&#39;opzione **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** per annullare un&#39;esecuzione se i profili qualificati sono inferiori ai profili target una volta che il pubblico è stato valutato per tale esecuzione.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Nel caso in cui il numero di profili qualificati non corrisponda al numero di profili target (ad esempio, 1500 indirizzi Gmail sono target nell’esecuzione, ma solo 700 profili Gmail sono qualificati):
+   Nel caso in cui il numero di profili idonei non corrisponda al numero di profili target (ad esempio, 1500 indirizzi Gmail sono target nell’esecuzione, ma ci sono solo 700 profili qualificati Gmail):
 
-   * Se l’opzione è abilitata, l’esecuzione non riesce. Puoi quindi scegliere di eseguire il targeting di un numero minore di profili nell&#39;esecuzione successiva oppure di [dividere l&#39;esecuzione](#split-phase) in una nuova fase e selezionare una nuova campagna per la nuova fase in modo da eseguire nuovamente il targeting degli stessi profili.
+   * Se l&#39;opzione è abilitata, l&#39;esecuzione non riesce e assume lo stato **[!UICONTROL Non riuscito]**. <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * Se l’opzione non è abilitata, l’esecuzione viene eseguita, ma viene eseguito il targeting solo del numero disponibile di profili.
 
