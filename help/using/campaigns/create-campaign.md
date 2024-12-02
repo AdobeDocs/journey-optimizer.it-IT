@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 17%
@@ -60,7 +60,6 @@ Ora puoi selezionare il pubblico della campagna. Un pubblico è un insieme di pe
 >* L&#39;utilizzo dei tipi di pubblico e degli attributi di [composizione del pubblico](../audience/get-started-audience-orchestration.md) non è attualmente disponibile per l&#39;utilizzo con Healthcare Shield o Privacy and Security Shield.
 >
 >* Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API.
-
 
 Per definire la popolazione target di una campagna di marketing pianificata, effettua le seguenti operazioni:
 

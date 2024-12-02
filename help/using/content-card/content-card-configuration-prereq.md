@@ -1,11 +1,12 @@
 ---
 title: Configurazione delle schede di contenuto
 description: Prerequisiti per il canale delle schede di contenuto
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+exl-id: df92e319-1e42-486f-b688-595964a762c9
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -39,7 +40,7 @@ Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set 
 
 * **Risoluzione dei problemi**
 
-  Utilizza la visualizzazione **Edge Delivery** in **Adobe Experience Platform Assurance** per risolvere i problemi relativi alle esperienze mobili. Può esaminare le richieste, verificare le chiamate edge ed esaminare i dati del profilo. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery)
+  Utilizza la visualizzazione **Edge Delivery** in **Adobe Experience Platform Assurance** per risolvere i problemi delle esperienze mobili. Può esaminare le richieste, verificare le chiamate edge ed esaminare i dati del profilo. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery)
 
 * **Esperimenti contenuto**
 

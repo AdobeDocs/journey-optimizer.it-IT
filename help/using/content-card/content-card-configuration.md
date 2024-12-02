@@ -1,11 +1,12 @@
 ---
 title: Configurazione delle schede di contenuto
 description: Configurazione del canale schede di contenuto
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 47%
@@ -96,4 +97,3 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 1. Invia le modifiche.
 
 Ora puoi selezionare la tua configurazione durante la creazione dell’esperienza con la scheda Contenuto.
-
