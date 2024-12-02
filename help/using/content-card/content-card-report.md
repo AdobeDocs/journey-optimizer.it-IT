@@ -1,30 +1,30 @@
 ---
 title: Report scheda contenuto
 description: Scopri come utilizzare i dati dal report Scheda contenuto
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Rapporto schede di contenuto {#content-card-report}
+# Rapporto delle schede contenuto {#content-card-report}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
-* [Introduzione alle schede di contenuto](get-started-content-card.md)
-* [Prerequisiti per le schede di contenuto](content-card-configuration-prereq.md)
-* [Configurare il canale delle schede di contenuto in Journey Optimizer](content-card-configuration.md)
-* [Creare schede di contenuto](create-content-card.md)
-* [Progettare schede di contenuto](design-content-card.md)
+* [Introduzione alla scheda di contenuto](get-started-content-card.md)
+* [Prerequisiti per le schede contenuto](content-card-configuration-prereq.md)
+* [Configurare il canale delle schede contenuto in Journey Optimizer](content-card-configuration.md)
+* [Creare schede contenuto](create-content-card.md)
+* [Progettare schede contenuto](design-content-card.md)
 * **Report schede contenuto**
 
 >[!ENDSHADEBOX]
