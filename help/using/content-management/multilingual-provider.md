@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +34,10 @@ Prima di aggiungere il provider di traduzione scelto, assicurati di aver creato 
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Provider]**, scegliere il provider desiderato.
 
+   >[!NOTE]
+   >
+   >Per aggiungere un provider all&#39;elenco, puoi chiedere al provider di seguire le istruzioni descritte in [questo documento](https://developer.adobe.com/gcs/partner/) per completare il processo di onboarding.
+
    ![](assets/provider_2.png)
 
 1. Se utilizzi Microsoft Translator come provider, inserisci la **[!UICONTROL chiave di abbonamento]** e l&#39;**[!UICONTROL URL endpoint]**.
@@ -44,4 +49,3 @@ Prima di aggiungere il provider di traduzione scelto, assicurati di aver creato 
    ![](assets/provider_4.png)
 
 1. Dopo aver completato la configurazione, fai clic su **[!UICONTROL Salva]** per finalizzare l&#39;installazione.
-
