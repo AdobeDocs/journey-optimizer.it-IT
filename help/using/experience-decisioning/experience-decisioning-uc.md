@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 6%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
 # Caso di utilizzo: decisioni {#experience-decisioning-uc}
 
+Non sei sicuro se una formula di classificazione specifica funzionerà meglio delle priorità di offerta preassegnate.
+
 In questo caso d’uso, crea una campagna in cui definisci due trattamenti di consegna, ciascuno contenente un criterio di decisione diverso al fine di misurare quale funziona meglio per il pubblico di destinazione.
+
+Imposta l’esperimento in modo che:
+
+* Il primo trattamento contiene una strategia di selezione con priorità come metodo di classificazione.
+* Il secondo trattamento contiene una diversa strategia di selezione per la quale una formula è il metodo di classificazione.
+
 
 ## Creare elementi decisionali e strategie di selezione
 
@@ -68,5 +77,3 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 1. Dalla finestra **[!UICONTROL Modifica contenuto]**, seleziona il trattamento B per modificare il contenuto e ripeti i passaggi precedenti per creare un&#39;altra decisione.
 
 1. Salva il contenuto.
-
-
