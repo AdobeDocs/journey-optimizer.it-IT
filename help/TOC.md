@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,15 +273,15 @@ ht-degree: 98%
          + [Creare applicazioni a pagina singola](using/web/web-spa.md)
    + Esperienza basata su codice {#code-based-experience}
       + [Introduzione al canale basato su codice](using/code-based/get-started-code-based.md)
-      + Configura canale basato su codice {#configure-code-based-channel}
+      + Configurare il canale basato su codice {#configure-code-based-channel}
          + [Guardrail e prerequisiti](using/code-based/code-based-prerequisites.md)
          + [Superfici di esperienza basate su codice](using/code-based/code-based-surface.md)
          + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
          + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
-      + Crea esperienze basate su codice {#create-code-based-experiences}
+      + Creare esperienze basate su codice {#create-code-based-experiences}
          + [Creare e comporre esperienze basate su codice](using/code-based/create-code-based.md)
-         + [Testare esperienze basate su codice](using/code-based/test-code-based.md)
-         + [Gestire esperienze basate su codice](using/code-based/publish-code-based.md)
+         + [Testare le esperienze basate su codice](using/code-based/test-code-based.md)
+         + [Gestire le esperienze basate su codice](using/code-based/publish-code-based.md)
    + Schede di contenuto{#content-card}
       + [Introduzione alla scheda di contenuto](using/content-card/get-started-content-card.md)
       + Configurare il canale della scheda contenuto {#configure}
@@ -454,7 +454,7 @@ ht-degree: 98%
    + [Avvisi](using/reports/alerts.md)
    + [Motivi di esclusione](using/reports/exclusion-list.md)
 + Funzionalità di decisione {#decisioning}
-   + [Introduzione alle funzionalità decisionali](using/experience-decisioning/gs-decision.md)
+   + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
    + Decisioning {#experience-decisioning}
       + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
       + Riferimento API{#api-reference}
@@ -486,8 +486,8 @@ ht-degree: 98%
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
       + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
       + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
-      + [Rapporto sul processo decisionale](using/experience-decisioning/cja-reporting.md)
-      + [Caso di utilizzo: decisioni](using/experience-decisioning/experience-decisioning-uc.md)
+      + [Rapporto sulla funzione Decisioni](using/experience-decisioning/cja-reporting.md)
+      + [Caso d’uso della funzione Decisioni](using/experience-decisioning/experience-decisioning-uc.md)
    + Gestione delle decisioni {#offer-decisioning}
       + Introduzione alla gestione delle decisioni {#get-started-decision}
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)

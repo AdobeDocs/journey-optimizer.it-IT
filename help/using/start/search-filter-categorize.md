@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 >title="Tag"
 >abstract="Questo campo consente di assegnare i tag unificati Adobe Experience Platform alla campagna. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne."
 
-Con Adobe Experience Platform [Tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it), puoi classificare facilmente gli oggetti Journey Optimizer per migliorare la ricerca dagli elenchi.
+Con i [Tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it) di Adobe Experience Platform, è possibile classificare facilmente gli oggetti Journey Optimizer per migliorare la ricerca dagli elenchi.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
@@ -78,9 +78,9 @@ Puoi selezionare un tag esistente o crearne uno nuovo. A questo scopo, segui i p
 
    >[!NOTE]
    >
-   > I tag non distinguono tra maiuscole e minuscole.
+   > I tag non fanno distinzione tra maiuscole e minuscole.
 
-1. Se il tag che si sta cercando non è disponibile, fare clic su **[!UICONTROL Crea &quot;]** per definirne uno nuovo. Verrà aggiunto automaticamente all&#39;oggetto corrente e sarà disponibile per tutti gli altri oggetti.
+1. Se il tag che stai cercando non è disponibile, fai clic su **[!UICONTROL Crea “”]** per definirne uno nuovo: verrà aggiunto automaticamente all’oggetto corrente e sarà disponibile per tutti gli altri oggetti.
 
    ![](assets/tags4.png)
 
