@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+source-git-commit: 424ebfb3670396d91c4b15b670eda26dc999699b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Prima di aggiungere il provider di traduzione scelto, assicurati di aver creato 
 
    >[!NOTE]
    >
-   >Per aggiungere un provider all&#39;elenco, puoi chiedere al provider di seguire le istruzioni descritte in [questo documento](https://developer.adobe.com/gcs/partner/) per completare il processo di onboarding.
+   >Per aggiungere un nuovo **Provider** all&#39;elenco, puoi chiedere al tuo **Provider** di seguire le istruzioni descritte in [questo documento](https://developer.adobe.com/gcs/partner/) per completare il processo di onboarding.
 
    ![](assets/provider_2.png)
 
