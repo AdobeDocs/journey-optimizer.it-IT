@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: ht
+source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Tieni presente che per ogni piattaforma da configurare è necessario creare una 
 
 +++
 
-* Se utilizzi l’opzione di configurazione esistente, assicurati di utilizzare le seguenti versioni dell’estensione Adobe Experience Platform Mobile SDK. Per ulteriori dettagli sulla configurazione dell’SDK, incluse le dipendenze richieste e il codice di inizializzazione, consulta la [seguente documentazione](https://experienceleague.adobe.com/it/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=it).
+* Se utilizzi l’opzione di configurazione esistente, assicurati di utilizzare le seguenti versioni dell’estensione Adobe Experience Platform Mobile SDK. Per ulteriori dettagli sulla configurazione dell’SDK, incluse le dipendenze richieste e il codice di inizializzazione, consulta la [seguente documentazione](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Per Android
 
@@ -295,7 +295,7 @@ Per la **Configurazione iniziale**, di seguito è riportato un elenco completo d
   </tbody>
   </table>
 
-Per la **Configurazione del canale**, di seguito è riportato un elenco completo di tutte le risorse create nella schermata **Aggiungi canali**.
+Per la **Configurazione canale**, di seguito è riportato un elenco completo di tutte le risorse create nella schermata **Aggiungi canali**.
 
 <table>
   <thead>
