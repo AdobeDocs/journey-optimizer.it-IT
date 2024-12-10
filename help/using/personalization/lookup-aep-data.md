@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Per utilizzare questa funzionalità, devi prima accettare i termini beta per la tua organizzazione che vengono visualizzati quando aggiungi le nuove funzioni helper &quot;datasetLookup&quot; nell’editor di personalizzazione.
 
-Journey Optimizer ti consente di sfruttare i dati provenienti da Adobe Experience Platform nell&#39;editor di personalizzazione per [personalizzare il contenuto](../personalization/personalize.md). A questo scopo, i set di dati necessari per la personalizzazione della ricerca devono prima essere abilitati tramite una chiamata API come descritto di seguito. Al termine, puoi utilizzare i loro dati per personalizzare il contenuto in [!DNL Journey Optimizer].
+Journey Optimizer ti consente di sfruttare i dati provenienti da Adobe Experience Platform nell&#39;editor di personalizzazione per [personalizzare il contenuto](../personalization/personalize.md). A questo scopo, i set di dati necessari per la personalizzazione della ricerca devono prima essere abilitati tramite una chiamata API come descritto di seguito. Al termine, è possibile utilizzare i relativi dati per personalizzare il contenuto in [!DNL Journey Optimizer].
 
 ## Restrizioni e linee guida di Beta {#guidelines}
 
@@ -40,7 +40,7 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 
 ### Personalization con dati [!DNL Adobe Experience Platform] {#perso}
 
-* **Canali supportati**: per il momento questa funzionalità è disponibile solo per l&#39;utilizzo nei canali e-mail, SMS, push e direct mail.
+* **Canali supportati**: per il momento questa funzionalità è disponibile solo per l&#39;utilizzo nei canali e-mail, SMS e direct mail.
 * **L&#39;etichettatura e l&#39;applicazione dell&#39;utilizzo dati** non sono attualmente applicate per i set di dati abilitati per la ricerca.
 * **Frammenti di espressione**: al momento non è possibile inserire la personalizzazione della ricerca del set di dati all&#39;interno dei frammenti di espressione.
 
@@ -73,6 +73,17 @@ Dove:
 * È possibile recuperare **la chiave API** dalla console per sviluppatori.
 * **ID organizzazione IMS** è la tua organizzazione Adobe IMS.
 * **Nome sandbox** è il nome della sandbox in cui si trova il set di dati (ad esempio, prod, dev, ecc.).
+
+>[!NOTE]
+>
+>Se riscontri l’errore seguente quando tenti una chiamata API per abilitare i set di dati, prova a rimuovere le API Adobe Journey Optimizer dal progetto della console per sviluppatori e quindi a aggiungerle nuovamente.
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## Sfruttare un set di dati per la personalizzazione {#leverage}
 
