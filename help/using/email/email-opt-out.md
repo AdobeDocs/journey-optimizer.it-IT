@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 28%
+source-wordcount: '1312'
+ht-degree: 26%
 
 ---
 
@@ -103,10 +103,9 @@ Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inse
 
    * **[!UICONTROL Canale]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia viene applicata a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
    * **[!UICONTROL Identità]**: la rinuncia viene applicata ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
-   * **[!UICONTROL Iscrizione]**: la rinuncia viene applicata ai messaggi futuri associati a un elenco iscrizioni specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
+     <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
 1. Salva le modifiche.
-
 
 
 ## Rinuncia in due fasi {#opt-out-external-lp}
