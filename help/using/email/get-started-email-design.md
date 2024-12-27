@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Quando si inviano le e-mail, è importante tenere presente che i destinatari pos
 
 Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
 
-Fai riferimento alla tabella seguente per le best practice per la progettazione delle e-mail:
+Per le best practice per la progettazione di e-mail, fai riferimento alla tabella seguente:
 
-| Consigliato | Usare con cautela | Non consigliato |
+| Consigliato | Da usare con cautela | Non consigliato |
 |-|-|-|
-| <ul><li><b>Layout statici basati su tabella</b> per la struttura</li> <li><b>Tabelle HTML e tabelle nidificate</b> per coerenza layout</li> <li><b>Larghezze modello</b> tra 600 px e 800 px </li> <li><b>CSS semplice e in linea</b> per lo stile </li> <li><b>Caratteri Web-safe</b> per compatibilità universale</li> | <ul><li><b>Le immagini di sfondo</b> potrebbero non essere visualizzate su alcune piattaforme e-mail.</li><li><b>I tipi di carattere Web personalizzati</b> non sono supportati da tutti.</li><li><b>I layout larghi</b> possono apparire poco sugli schermi più piccoli.</li><li><b>Le mappe immagine</b> offrono funzionalità limitate.</li><li><b>I file CSS incorporati</b> vengono talvolta rimossi durante la consegna delle e-mail.</li> | <ul><li><b>JavaScript</b> non è generalmente supportato negli ambienti di posta elettronica.</li> <li> <b>`<iframe>`</b> tag sono bloccati nella maggior parte delle piattaforme. </li> <li><b>Il Flash</b> è obsoleto e non è più supportato.</li> <li><b>L&#39;audio incorporato</b> spesso non viene riprodotto correttamente.</li> <li><b>Il video incorporato</b> non è compatibile con molte piattaforme di posta elettronica.</li> <li> <b>Forms</b> non funziona nelle e-mail.</li> <li> Il livello `<div>` può causare problemi di rendering.</li> |
+| <ul><li><b>Layout statici basati su tabella</b> per la struttura</li> <li><b>Tabelle HTML e tabelle nidificate</b> per layout coerenti</li> <li><b>Larghezze del modello</b> tra 600 px e 800 px </li> <li><b>CSS semplice e in linea</b> per gli stili </li> <li><b>Font sicuri per il web</b> per compatibilità universale</li> | <ul><li>Le <b>immagini di sfondo</b> potrebbero non essere visualizzate in alcune piattaforme e-mail.</li><li>I <b>font web personalizzati</b> non sono universalmente supportati.</li><li>I <b>layout larghi</b> possono essere difficili da visualizzare sugli schermi più piccoli.</li><li>Le <b>mappe immagine</b> offrono funzionalità limitate.</li><li>Gli stili <b>CSS incorporati</b> vengono talvolta rimossi durante la consegna delle e-mail.</li> | <ul><li><b>JavaScript</b> non è solitamente supportato negli ambienti e-mail.</li> <li> I tag <b>`<iframe>`</b> vengono bloccati nella maggior parte delle piattaforme. </li> <li><b>Flash</b> è obsoleto e non è più supportato.</li> <li>L’<b>audio incorporato</b> spesso non viene riprodotto correttamente.</li> <li>I <b>video incorporati</b> non sono compatibili con molte piattaforme e-mail.</li> <li> I <b>moduli</b> non funzionano nelle e-mail.</li> <li> L’utilizzo di più livelli `<div>` può causare problemi di rendering.</li> |
 
 ## Passaggi chiave per la creazione di contenuti e-mail {#key-steps}
 
