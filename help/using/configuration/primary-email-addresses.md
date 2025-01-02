@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,15 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Sostituisci un valore nei parametri del percorso {#journey-parameters}
+## Sostituisci il valore predefinito {#override-default-execution-address}
+
+### Nella configurazione e-mail
+
+Quando definisci una configurazione del canale e-mail, puoi modificare il campo di esecuzione predefinito impostato a livello di sandbox. [Ulteriori informazioni](../email/email-settings.md#execution-address)
+
+Quando l’indirizzo di esecuzione viene definito a livello di configurazione, viene utilizzato come indirizzo principale e sostituisce l’impostazione generale a livello di sandbox.
+
+### Nei parametri del percorso {#journey-parameters}
 
 Solo per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato a livello globale e definire un valore diverso a livello di percorso, in particolare per il canale e-mail.
 
@@ -84,3 +92,4 @@ L’override di questo valore può essere utile, ad esempio, per:
 
 * Test di un’e-mail. Puoi aggiungere il tuo indirizzo e-mail: dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
 * Invia un messaggio e-mail agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
+

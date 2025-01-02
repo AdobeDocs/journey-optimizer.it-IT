@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, recapito messaggi
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '437'
 ht-degree: 12%
 
 ---
@@ -27,13 +27,13 @@ Prima di creare il piano di riscaldamento IP in [!DNL Journey Optimizer], è nec
 
 Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguito.
 
-1. Crea una [e-mail](../email/email-settings.md) canale [configurazione](channel-surfaces.md) per il dominio e gli IP che hai identificato per il tuo piano di riscaldamento.
+1. Crea un canale e-mail [configurazione](channel-surfaces.md) per il dominio e gli IP che hai identificato per il tuo piano di riscaldamento.
+
+   Collabora con il tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare. Scopri come selezionarli in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >* Scopri come selezionare il dominio e gli IP da utilizzare in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
-   >
-   >* Rivolgiti al tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare per il piano di riscaldamento IP.<!--TBC-->
+   >Anche se modifichi l&#39;[indirizzo di esecuzione](../email/email-settings.md#execution-address) nella configurazione e-mail, viene ancora utilizzato il campo predefinito impostato a livello di sandbox. [Ulteriori informazioni](primary-email-addresses.md)
 
 1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email-journey-campaign).
 
