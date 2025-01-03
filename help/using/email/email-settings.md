@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2724'
 ht-degree: 10%
 
 ---
@@ -63,9 +63,7 @@ Seleziona il sottodominio da utilizzare per inviare le e-mail.
 
 Per preservare la reputazione del dominio, velocizza il processo di riscaldamento dell’IP e migliora il recapito messaggi, delega i sottodomini di invio ad Adobe. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
 
-
 ## Dettagli del pool IP {#ip-pools}
-
 
 Selezionare il pool IP da associare alla configurazione. [Ulteriori informazioni](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 >
 >Se non è configurato alcun record PTR, contatta il rappresentante del tuo Adobe.
 
-## Intestazione Annulla iscrizione elenco{#list-unsubscribe}
+## Annullamento iscrizione elenco{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 Quando [selezioni un sottodominio](#subdomains-and-ip-pools) dall&#39;elenco, viene visualizzata l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]**.
 
@@ -94,20 +91,23 @@ Questa opzione è abilitata per impostazione predefinita per includere un URL co
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Se disattivi questa opzione, nell’intestazione dell’e-mail non viene visualizzato alcun URL con un solo clic per annullare l’iscrizione.
+>[!NOTE]
+>
+>Se disattivi questa opzione, nell’intestazione dell’e-mail non viene visualizzato alcun URL con un solo clic per annullare l’iscrizione.
 
 Puoi selezionare il livello di consenso dall&#39;elenco a discesa **[!UICONTROL Livello di consenso]**. Può essere specifico per il canale o per l’identità del profilo. In base a questa impostazione, quando un utente annulla l’iscrizione utilizzando l’URL per l’annullamento dell’iscrizione all’elenco nell’intestazione di un’e-mail, il consenso viene aggiornato in Adobe Journey Optimizer a livello di canale o di ID.
 
-L’intestazione Annulla iscrizione elenco offre due funzioni (Mailto e URL di annullamento iscrizione con un solo clic, come spiegato di seguito) che sono abilitate per impostazione predefinita, a meno che tu non deselezioni una o entrambe le funzioni:
+L’intestazione Annulla iscrizione elenco offre due funzioni che sono abilitate per impostazione predefinita, a meno che non si deselezioni una o entrambe le funzioni:
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * Un indirizzo **Invia a (annulla iscrizione)**, che è l&#39;indirizzo di destinazione a cui vengono indirizzate le richieste di annullamento iscrizione per l&#39;elaborazione automatica.
 
   In Journey Optimizer, l&#39;indirizzo e-mail per l&#39;annullamento dell&#39;iscrizione è l&#39;indirizzo predefinito **Invia a (annulla iscrizione)** visualizzato nella configurazione del canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* L&#39;**URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**, che per impostazione predefinita è l&#39;intestazione per l&#39;annullamento dell&#39;iscrizione generata dall&#39;URL con un solo clic, in base al sottodominio impostato e configurato nelle impostazioni di configurazione del canale.
+* L&#39;**URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**, che per impostazione predefinita è l&#39;intestazione per l&#39;annullamento dell&#39;iscrizione dell&#39;elenco generato con un solo clic, in base al sottodominio impostato e configurato nelle impostazioni di configurazione del canale.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ L’intestazione Annulla iscrizione elenco offre due funzioni (Mailto e URL di a
     >
 -->
 
-La funzionalità **[!UICONTROL Invia a (annulla sottoscrizione)]** e la funzionalità **[!UICONTROL URL annullamento sottoscrizione con un solo clic]** sono facoltative. Se non desideri utilizzare l’URL predefinito generato con un solo clic per annullare l’abbonamento, puoi deselezionare la funzione. Nel caso in cui l&#39;opzione **[!UICONTROL Configurazione rinuncia]** sia attivata e la funzionalità **[!UICONTROL URL annullamento iscrizione]** con un solo clic non sia selezionata, se si aggiunge un [collegamento di rinuncia con un solo clic](../privacy/opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa configurazione, l&#39;intestazione di annullamento iscrizione dell&#39;elenco sceglierà il collegamento di rinuncia con un solo clic inserito nel corpo dell&#39;e-mail e lo utilizzerà come valore URL di annullamento iscrizione con un solo clic.
+La funzionalità **[!UICONTROL Invia a (annulla iscrizione)]** e la funzionalità **[!UICONTROL URL per annullamento iscrizione con un solo clic]** sono facoltative.
+
+Se non desideri utilizzare l’URL predefinito generato con un solo clic per annullare l’abbonamento, puoi deselezionare la funzione. Nel caso in cui l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a mailing list]** sia attivata e la funzionalità **[!UICONTROL URL annullamento sottoscrizione con un solo clic]** sia deselezionata, se si aggiunge un [collegamento di rinuncia con un solo clic](../privacy/opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa configurazione, l&#39;intestazione Annullamento iscrizione mailing list seleziona il collegamento di rinuncia con un solo clic inserito nel corpo dell&#39;e-mail e lo utilizza come valore URL di annullamento iscrizione con un solo clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’URL predefinito per l’annullamento dell’iscrizione con un solo clic non è selezionato nelle Impostazioni di configurazione del canale, nessun URL verrà trasmesso nell’intestazione e-mail come parte dell’intestazione per l’annullamento dell’iscrizione all’elenco.
+>Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’URL predefinito di annullamento dell’iscrizione con un solo clic non è selezionato nelle impostazioni di configurazione del canale, nell’intestazione di annullamento dell’iscrizione all’elenco non viene trasmesso alcun URL.
 
 Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell&#39;iscrizione nei messaggi sono disponibili in [questa sezione](../email/email-opt-out.md#unsubscribe-header).
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## Parametri intestazione {#email-header}
 
@@ -146,7 +150,7 @@ Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i nomi del mitten
 >
 >Gli indirizzi di posta elettronica **[!UICONTROL Sender]** e **[!UICONTROL Error]** devono utilizzare il [sottodominio delegato](../configuration/about-subdomain-delegation.md) corrente selezionato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ Un elenco di seed in [!DNL Journey Optimizer] consente di includere automaticame
 
 Nella sezione **[!UICONTROL Elenco seed]** selezionare l&#39;elenco desiderato. Scopri come creare un elenco di seed in [questa sezione](../configuration/seed-lists.md#create-seed-list).
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ I parametri definiti in questa sezione verranno aggiunti alla fine degli URL inc
 
 Puoi aggiungere fino a 10 parametri di tracciamento utilizzando il pulsante **[!UICONTROL Aggiungi nuovo parametro]**.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nei campi **[!UICONTROL Nome]** e **[!UICONTROL Valore]**.
 

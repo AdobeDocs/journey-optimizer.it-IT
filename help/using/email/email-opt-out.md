@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 26%
+source-wordcount: '1317'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clie
 
 Per inserire un collegamento di annullamento all’abbonamento nel contenuto dell’e-mail, puoi:
 
-* Aggiungi un URL con un solo clic per annullare l’iscrizione nell’intestazione dell’e-mail. L&#39;abilitazione dell&#39;opzione **[!UICONTROL Intestazione annullamento iscrizione]** a livello di configurazione del canale aggiunge un collegamento di rinuncia nell&#39;intestazione dell&#39;e-mail. [Ulteriori informazioni sulla rinuncia nell&#39;intestazione dell&#39;e-mail](#unsubscribe-header)
+* Aggiungi un URL con un solo clic per annullare l’iscrizione nell’intestazione dell’e-mail. L&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]** a livello di configurazione del canale aggiunge un collegamento di rinuncia all&#39;intestazione dell&#39;e-mail. [Ulteriori informazioni sulla rinuncia nell&#39;intestazione dell&#39;e-mail](#unsubscribe-header)
 
 * Abilita **collegamento rinuncia con un solo clic** per l&#39;e-mail.  [Scopri come aggiungere un collegamento di rinuncia con un solo clic](#one-click-opt-out)
 
@@ -41,9 +41,9 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Aggiungere l’URL per annullare l’iscrizione nell’intestazione dell’e-mail"
->abstract="L’opzione Abilita annullamento iscrizione a mailing list consente di aggiungere un URL di annullamento iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#one-click-opt-out" text="Rinuncia con un clic"
+>title="Aggiungi un URL per l’annullamento dell’iscrizione all’intestazione dell’e-mail"
+>abstract="Abilita Annulla iscrizione mailing list per aggiungere un URL di annullamento iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione in un messaggio, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Rinuncia con un clic dal contenuto dell’e-mail"
 
 L’URL per l’annullamento dell’iscrizione a un elenco con un solo clic è un collegamento o un pulsante che consente di annullare l’iscrizione visualizzato accanto alle informazioni sul mittente dell’e-mail e che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. In Adobe Journey Optimizer, quando l&#39;opzione **Abilita annullamento sottoscrizione a mailing list** è attivata, l&#39;intestazione dell&#39;e-mail include sia un mailto che un URL per impostazione predefinita che i destinatari possono utilizzare per annullare l&#39;iscrizione alla mailing list.
 
