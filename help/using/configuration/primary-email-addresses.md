@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 16%
 
 ---
@@ -66,17 +66,17 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Sostituisci il valore predefinito {#override-default-execution-address}
+## Sostituisci il campo di esecuzione predefinito {#override-default-execution-address}
+
+Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di configurazione e-mail o di percorso.
 
 ### Nella configurazione e-mail
 
-Quando definisci una configurazione del canale e-mail, puoi modificare il campo di esecuzione predefinito impostato a livello di sandbox. [Ulteriori informazioni](../email/email-settings.md#execution-address)
+Puoi modificare il campo di esecuzione predefinito impostato nelle [impostazioni generali](#admin-settings) durante la definizione di una configurazione del canale e-mail. [Ulteriori informazioni](../email/email-settings.md#execution-address)
 
-Quando l’indirizzo di esecuzione viene definito a livello di configurazione, viene utilizzato come indirizzo principale e sostituisce l’impostazione generale a livello di sandbox.
+Quando un indirizzo di esecuzione viene definito nella configurazione e-mail, viene utilizzato come indirizzo principale e sostituisce l’impostazione generale a livello di sandbox.
 
 ### Nei parametri del percorso {#journey-parameters}
-
-Solo per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato a livello globale e definire un valore diverso a livello di percorso, in particolare per il canale e-mail.
 
 Quando si aggiunge un&#39;azione **[!UICONTROL Email]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale viene visualizzato nei parametri avanzati del percorso.
 

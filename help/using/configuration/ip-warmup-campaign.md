@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, recapito messaggi
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!NOTE]
    >
-   >Anche se modifichi l&#39;[indirizzo di esecuzione](../email/email-settings.md#execution-address) nella configurazione e-mail, viene ancora utilizzato il campo predefinito impostato a livello di sandbox. [Ulteriori informazioni](primary-email-addresses.md)
+   >Per le campagne di riscaldamento IP, anche se modifichi l&#39;[indirizzo di esecuzione](../email/email-settings.md#execution-address) nella configurazione e-mail, viene ancora utilizzato il campo predefinito impostato a livello di sandbox. [Ulteriori informazioni](primary-email-addresses.md)
 
 1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email-journey-campaign).
 
