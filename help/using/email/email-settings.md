@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 11%
+source-wordcount: '2737'
+ht-degree: 10%
 
 ---
 
@@ -351,8 +351,8 @@ Puoi visualizzare in anteprima dinamica l’URL di tracciamento risultante. Ogni
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Definire l’indirizzo da utilizzare"
->abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere a quale assegnare la priorità per l’invio."
+>title="Sostituisci l’indirizzo di esecuzione predefinito da utilizzare"
+>abstract="Quando nel database sono disponibili diversi indirizzi e-mail (personali, professionali, ecc.), puoi scegliere quale dare priorità all’invio. L’indirizzo principale è definito a livello di sandbox, ma in questo caso puoi sovrascrivere l’impostazione predefinita per questa configurazione e-mail specifica."
 
 Quando esegui il targeting di un profilo, nel database potrebbero essere disponibili diversi indirizzi e-mail (indirizzo e-mail professionale, indirizzo e-mail personale, ecc.).
 
