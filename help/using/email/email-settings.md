@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2716'
 ht-degree: 11%
 
 ---
@@ -57,9 +57,11 @@ Quando crei un messaggio, devi scegliere una configurazione di canale valida che
 
 Seleziona il sottodominio da utilizzare per inviare le e-mail.
 
-Per preservare la reputazione del dominio, velocizza il processo di riscaldamento dell’IP e migliora il recapito messaggi, delega i sottodomini di invio ad Adobe. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>Per un maggiore controllo sulle impostazioni e-mail, puoi definire i sottodomini dinamici. [Ulteriori informazioni](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+Per preservare la reputazione del dominio, velocizza il processo di riscaldamento dell’IP e migliora il recapito messaggi, delega i sottodomini di invio ad Adobe. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
 
 
 ## Dettagli del pool IP {#ip-pools}
@@ -127,6 +129,10 @@ Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell&#
 ## Parametri intestazione {#email-header}
 
 Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale configurazione.
+
+>[!NOTE]
+>
+>Per un maggiore controllo sulle impostazioni e-mail, puoi personalizzare i parametri dell’intestazione. [Ulteriori informazioni](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Nome mittente]**: il nome del mittente, ad esempio il nome del tuo marchio.
 * **[!UICONTROL E-mail mittente]**: l&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni.
