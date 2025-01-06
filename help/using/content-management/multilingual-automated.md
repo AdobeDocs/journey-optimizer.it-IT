@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2045'
 ht-degree: 15%
 
 ---
@@ -164,7 +164,9 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
    >
    >Questi prerequisiti sono necessari solo per i canali delle schede in-app e di contenuto.
 
-   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. In Raccolta dati di Adobe Experience Platform, accedi alle proprietà del tag.
+
+   1. Accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 
