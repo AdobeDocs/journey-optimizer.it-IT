@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 10%
 
 ---
@@ -366,7 +366,7 @@ In tal caso, [!DNL Journey Optimizer] utilizza l&#39;indirizzo specificato nei *
 >
 >Per verificare i campi attualmente utilizzati per impostazione predefinita, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
 
-Tuttavia, puoi modificare questo campo di esecuzione predefinito a livello di configurazione del canale e-mail.
+Tuttavia, puoi modificare questo campo di esecuzione predefinito a livello di configurazione del canale e-mail. Puoi quindi applicare questa impostazione a campagne o percorsi specifici.
 
 A questo scopo, modifica il campo **[!UICONTROL Indirizzo di consegna]** e seleziona un elemento dall&#39;elenco dei campi XDM di tipo e-mail disponibili.
 
