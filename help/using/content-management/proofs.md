@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 17%
+source-wordcount: '309'
+ht-degree: 16%
 
 ---
 
 # Inviare bozze e-mail {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>Per inviare le bozze, gli utenti devono disporre delle autorizzazioni **Approva e pubblica** per la risorsa, la campagna o il percorso specifico associato all&#39;e-mail. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md)
+
 Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
->[!NOTE]
->
->[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
 
 Per inviare bozze delle e-mail dopo la selezione di [profili di test](test-profiles.md), eseguire la procedura seguente:
 
