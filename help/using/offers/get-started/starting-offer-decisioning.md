@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
-workflow-type: ht
-source-wordcount: '933'
+source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
+workflow-type: tm+mt
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
@@ -34,11 +34,9 @@ I vantaggi includono:
 
 ➡️ [Ulteriori informazioni su Gestione delle decisioni in questi video](#video)
 
-## Da leggere {#must-read}
-
-* Al momento, la funzione Gestione delle decisioni non supporta le seguenti funzioni: controllo degli accessi a livello di oggetto, controllo degli accessi a livello di campo e servizio di applicazione dei criteri di consenso. Se desideri utilizzarne uno, puoi utilizzare la funzionalità [Decisioning](../../experience-decisioning/gs-experience-decisioning.md) di Journey Optimizer.
-
-* Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} che utilizzano l’applicazione **Offer Decisioning**.
+>[!NOTE]
+>
+>Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} che utilizzano l’applicazione **Offer Decisioning**.
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
