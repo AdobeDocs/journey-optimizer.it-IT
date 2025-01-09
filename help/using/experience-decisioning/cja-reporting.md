@@ -1,5 +1,5 @@
 ---
-title: Rapporto sul processo decisionale
+title: Rapporto sulla funzione Decisioni
 description: Scopri come creare rapporti su Decisioning.
 feature: Decisioning
 topic: Integrations
@@ -7,15 +7,15 @@ role: User
 level: Experienced
 badge: label="Disponibilità limitata"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Rapporto sul processo decisionale {#decisioning-report}
+# Rapporto sulla funzione Decisioni {#decisioning-report}
 
 ## Generazione di rapporti per campagne basate su codice {#campaigns}
 
@@ -35,4 +35,4 @@ I passaggi principali sono elencati di seguito. Informazioni dettagliate su come
 
 1. Crea una **visualizzazione dati** e associala alla connessione creata in precedenza. Nella scheda **[!UICONTROL Componenti]**, scegli i campi dello schema che desideri visualizzare nel reporting. Per Decisioning, assicurati di includere i campi **propositioninteract** e **propositiondisplay**. [Scopri come creare e configurare le visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Combina componenti dati, tabelle e visualizzazioni in **progetti Workspace** per creare e condividere report per la campagna basata su codice.[Scopri come creare progetti Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Combina componenti dati, tabelle e visualizzazioni in **progetti Workspace** per creare e condividere report per la campagna basata su codice. [Scopri come creare progetti Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
