@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 14%
+source-wordcount: '1647'
+ht-degree: 15%
 
 ---
 
@@ -60,9 +60,15 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 
 1. Crea una campagna e seleziona l&#39;azione **[!UICONTROL Esperienza basata su codice]**. [Ulteriori informazioni](../code-based/create-code-based.md)
 
-1. Dall&#39;[editor di codice](../code-based/create-code-based.md#edit-code), seleziona l&#39;icona **[!UICONTROL Criteri di decisione]** e fai clic su **[!UICONTROL Aggiungi criterio di decisione]**.
+1. Dall&#39;[editor di codice](../code-based/create-code-based.md#edit-code), selezionare **[!UICONTROL Criterio decisione]** e fare clic su **[!UICONTROL Aggiungi criterio decisione]**.
 
    ![](assets/decision-code-based-create.png)
+
+1. Per impostazione predefinita, crea un nuovo criterio.
+
+   >[!NOTE]
+   >
+   >Puoi anche scegliere di selezionare un criterio esistente.
 
 1. Inserisci i dettagli del criterio di decisione: aggiungi un nome e seleziona un catalogo.
 
@@ -78,9 +84,11 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 
 La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elementi decisionali e le strategie di selezione da presentare con il criterio decisionale.
 
-1. Fai clic sul pulsante **[!UICONTROL Aggiungi]**, quindi scegli il tipo di oggetto da includere nel criterio:
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi]**.
 
-   * **[!UICONTROL Strategia di selezione]**: aggiungere una o più strategie di selezione. Le strategie decisionali sfruttano le raccolte associate ai vincoli di idoneità e ai metodi di classificazione per determinare gli elementi da mostrare. Puoi selezionare una strategia di selezione esistente o crearne una nuova utilizzando il pulsante **[!UICONTROL Crea strategia di selezione]**.[Scopri come creare strategie di selezione](selection-strategies.md)
+1. Scegliere il tipo di oggetto da includere nel criterio:
+
+   * **[!UICONTROL Strategia di selezione]**: aggiungere una o più strategie di selezione. Le strategie decisionali sfruttano le raccolte associate ai vincoli di idoneità e ai metodi di classificazione per determinare gli elementi da mostrare. Puoi selezionare una strategia di selezione esistente o crearne una nuova utilizzando il pulsante **[!UICONTROL Crea strategia di selezione]**. [Scopri come creare strategie di selezione](selection-strategies.md)
 
    * **[!UICONTROL Elemento decisione]**: aggiungere singoli elementi decisione da presentare senza dover eseguire una strategia di selezione. È possibile selezionare un solo elemento di decisione alla volta. Eventuali vincoli di idoneità impostati per l’articolo verranno applicati.
 
@@ -90,7 +98,9 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
    >
    >Una politica decisionale supporta fino a 10 strategie di selezione e elementi decisionali combinati. [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)
 
-1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via. Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni sull&#39;ordine di valutazione dei criteri di decisione](#evaluation-order)
+1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via.
+
+   Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni](#evaluation-order)
 
 ### Gestire l’ordine di valutazione in un criterio decisionale {#evaluation-order}
 
@@ -174,7 +184,7 @@ Dopo aver selezionato elementi decisionali e/o strategie di selezione, puoi aggi
 >
 >Un fallback è facoltativo. Se non è selezionato alcun fallback e nessuna strategia è qualificata, [!DNL Journey Optimizer] non visualizzerà nulla. Puoi aggiungere fino al numero di elementi richiesti dal criterio di decisione. In questo modo viene garantito un determinato numero di elementi da restituire, se desiderato per il caso d’uso.
 
-Quando il criterio di decisione è pronto, salvarlo e fare clic su **[!UICONTROL Crea]**. Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
+Quando il criterio decisionale è pronto, salvarlo e fare clic su **[!UICONTROL Crea]**. Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 
@@ -211,14 +221,3 @@ Una volta creato, il criterio di decisione può essere utilizzato nell&#39;[edit
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Generazione di rapporti in Customer Journey Analytics {#cja}
-
-Se utilizzi Customer Journey Analytics, puoi creare dashboard di reporting personalizzati per le campagne basate su codice utilizzando Decisioning.
-
-I passaggi principali sono elencati di seguito. Informazioni dettagliate su come lavorare con il Customer Journey Analytics sono disponibili nella [documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
-
-1. Crea e configura una **connessione** nel Customer Journey Analytics. Questo ti consente di connettersi al set di dati per il quale desideri creare rapporti. [Scopri come creare una connessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
-
-1. Crea una **visualizzazione dati** e associala alla connessione creata in precedenza. Nella scheda **[!UICONTROL Componenti]**, scegli i campi dello schema che desideri visualizzare nel reporting. Per Decisioning, assicurati di includere i campi **propositioninteract** e **propositiondisplay**. [Scopri come creare e configurare le visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
-
-1. Combina componenti dati, tabelle e visualizzazioni in **progetti Workspace** per creare e condividere report per la campagna basata su codice.[Scopri come creare progetti Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
