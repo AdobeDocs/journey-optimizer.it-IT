@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
+source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 5%
@@ -40,7 +40,7 @@ Per creare la prima strategia di selezione con priorità come metodo di classifi
 
 1. Imposta la **[!UICONTROL Priorità]** dell&#39;elemento di decisione rispetto ad altri. Se un profilo è idoneo per più elementi, una priorità più alta concede la precedenza degli elementi rispetto agli altri.
 
-   ![](assets/exd-uc-item-priority.png){width="80%"}
+   ![](assets/exd-uc-item-priority.png){width="90%"}
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Per creare la prima strategia di selezione con priorità come metodo di classifi
 
 1. [Scegli il metodo di classificazione](#select-ranking-method) da utilizzare per selezionare l&#39;offerta migliore per ciascun profilo. In questo caso, seleziona **[!UICONTROL Priorità offerta]**: se più offerte sono idonee per questa strategia, il motore di gestione delle decisioni utilizza il valore impostato come **[!UICONTROL Priorità]** nelle offerte. [Ulteriori informazioni](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### Creare un’altra strategia utilizzando una formula
 
@@ -84,7 +84,7 @@ Per creare la seconda strategia di selezione con la selezione di una formula com
 
 1. [Scegliere il metodo di classificazione](#select-ranking-method) da utilizzare per selezionare l&#39;offerta migliore per ogni profilo. In questo caso, selezionare **[!UICONTROL Formula]** per utilizzare un punteggio calcolato specifico per determinare quale offerta idonea distribuire. [Ulteriori informazioni](selection-strategies.md#ranking-formula)
 
-   ![](assets/exd-uc-strategy-formula.png)
+   ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
 ## Creare una campagna di esperienza basata su codice
 
@@ -98,19 +98,19 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
 1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti. [Ulteriori informazioni](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png){width="80%"}
+   ![](assets/exd-uc-create-experiment.png){width="90%"}
 
 1. Dalla pagina di riepilogo della campagna, seleziona una configurazione basata su codice e fai clic su **[!UICONTROL Modifica contenuto]**.
 
-   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
+   ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
 1. Dalla finestra dell&#39;edizione del contenuto, per iniziare a personalizzare **il trattamento A**, fai clic su **[!UICONTROL Modifica codice]**.
 
-   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
 1. Dall&#39;[editor di codice](../code-based/create-code-based.md#edit-code), seleziona **[!UICONTROL Criterio decisione]**, fai clic su **[!UICONTROL Aggiungi criterio decisione]** e compila i dettagli della decisione. [Ulteriori informazioni](create-decision.md#add)
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-code-based-create.png){width="90%"}
 
 1. Nella sezione **[!UICONTROL Sequenza strategica]**, fare clic sul pulsante **[!UICONTROL Aggiungi]** e scegliere **[!UICONTROL Strategia di selezione]**. [Ulteriori informazioni](create-decision.md#select)
 
@@ -122,19 +122,19 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
 1. Selezionare la prima strategia creata.
 
-   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
 1. Salva le modifiche e fai clic su **[!UICONTROL Crea]**. La nuova decisione viene aggiunta in **[!UICONTROL Criteri di decisione]**.
 
 1. Fare clic sul pulsante **[!UICONTROL Inserisci criterio]**. Viene aggiunto il codice corrispondente al criterio di decisione. Quindi aggiungi al codice tutti gli attributi che desideri, inclusi quelli del profilo. [Ulteriori informazioni](create-decision.md#use-decision-policy)
 
-   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
+   ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. Salva le modifiche.
 
 1. Torna alla finestra dell&#39;edizione del contenuto, seleziona il pulsante + per aggiungere **Trattamento B**, selezionalo e fai clic su **[!UICONTROL Modifica codice]**.
 
-   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
 1. Ripeti i passaggi precedenti per creare un altro criterio di decisione e seleziona la seconda strategia di selezione creata. <!--Do you need to create exactly the same content to compare only the ranking method?-->
 
