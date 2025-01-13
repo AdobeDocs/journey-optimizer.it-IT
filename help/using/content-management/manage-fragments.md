@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 25%
 
 ---
@@ -89,7 +89,7 @@ Per modificare un frammento, effettua le seguenti operazioni.
 
    >[!NOTE]
    >
-   >Quando modifichi un frammento di espressione, puoi rimuovere qualsiasi campo di personalizzazione ma non aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere campi di personalizzazione, duplica il frammento per crearne uno nuovo.
+   >Quando modifichi un frammento, puoi rimuovere qualsiasi campo di personalizzazione ma non aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere campi di personalizzazione, duplica il frammento per crearne uno nuovo.
 
    È inoltre possibile controllare l&#39;elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato selezionando l&#39;opzione **Riferimenti a Explorer**. [Ulteriori informazioni](#explore-references)
 
