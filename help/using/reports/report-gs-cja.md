@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Esperienza di reporting aggiornata
-description: Introduzione all’esperienza di reporting aggiornata
+description: Introduzione al report di tutti i tempi
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
+source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 15%
 
 ---
 
-# Introduzione all’esperienza di reporting aggiornata {#channel-report-gs-cja}
+# Introduzione al report di tutti i tempi {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
 >La generazione di rapporti in Adobe Journey Optimizer è attualmente standardizzata in UTC. La possibilità di personalizzare il fuso orario per la generazione di rapporti verrà introdotta in una versione futura.
 
-La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.
+La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione ottimizzata tra Journey Optimizer e Customer Journey Analytics consente una visione più chiara delle metriche delle prestazioni, in modo che gli utenti possano prendere decisioni più informate.
 
 * Se desideri eseguire il targeting di uno o più percorsi nel contesto di un percorso, dal menu **[!UICONTROL Percorsi]**, accedi al percorso e fai clic sul pulsante **[!UICONTROL Visualizza rapporto]**.
 
