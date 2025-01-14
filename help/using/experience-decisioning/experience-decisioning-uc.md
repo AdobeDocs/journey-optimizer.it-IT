@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '789'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
 1. Crea una campagna e seleziona l&#39;azione **[!UICONTROL Esperienza basata su codice]**. [Ulteriori informazioni](../code-based/create-code-based.md)
 
-1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti. [Ulteriori informazioni](../content-management/content-experiment.md)
+1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per configurare l&#39;esperimento sui contenuti. [Scopri come](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
 1. Salva le modifiche e [pubblica la tua campagna basata su codice](../code-based/publish-code-based.md).
 
-Puoi tenere traccia delle prestazioni della campagna con il [rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md) e il [rapporto sul decisioning](cja-reporting.md). <!--TBC how to check which treatment performs best-->
+Dopo aver eseguito l&#39;esperienza, tieni traccia delle prestazioni dei trattamenti della campagna con il [rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> È quindi possibile interpretare i risultati dell&#39;esperimento. [Scopri come](../content-management/get-started-experiment.md#interpret-results)
+
+Se il risultato dell’esperimento è conclusivo, puoi indirizzare il trattamento con la classificazione delle prestazioni migliori a tutti i clienti. Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.

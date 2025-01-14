@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 12%
@@ -76,7 +76,7 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
    ![](assets/content_experiment_11.png)
 
-1. Quando si configura un esperimento utilizzando il canale in-app o Web e si sceglie **[!UICONTROL Clic in entrata]**, **[!UICONTROL Clic in entrata univoci]**, **[!UICONTROL Visualizzazioni pagina]** o **[!UICONTROL Metriche visualizzazioni pagina univoche]** , il menu a discesa **[!UICONTROL Azione clic]** consente di monitorare e tenere traccia con precisione di clic e visualizzazioni su pagine specifiche.
+1. Quando si configura un esperimento utilizzando il canale in-app o Web e si sceglie **[!UICONTROL Clic in entrata]**, **[!UICONTROL Clic in entrata univoci]**, **[!UICONTROL Visualizzazioni pagina]** o **[!UICONTROL Metriche di Visualizzazioni pagina univoche]** , il menu a discesa **[!UICONTROL Azione clic]** consente di monitorare e tenere traccia con precisione di clic e visualizzazioni su pagine specifiche.
 
    ![](assets/content_experiment_20.png)
 
