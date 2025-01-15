@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Puoi anche utilizzare la configurazione guidata del canale per automatizzare e c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Impostazioni della configurazione dei canali"
->abstract="Quando imposti una configurazione dei canali, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
+>abstract="Quando imposti la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
@@ -108,7 +108,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
    > * Per **sandbox non di produzione** o se il sottodominio selezionato è **già utilizzato** in un&#39;altra configurazione di canale approvata, il processo richiede solo fino a **3 ore**.
 
 
-   Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobi:
+   Questi controlli includono la configurazione e i test tecnici eseguiti dal team Adobe:
 
    * Convalida SPF
    * Convalida DKIM
@@ -147,7 +147,7 @@ Se si verifica uno di questi errori, contatta l&#39;[Assistenza clienti Adobe](h
 
 * **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare IP autorizzati in grado di inviare e-mail da un determinato sottodominio. In caso di errore di convalida SPF, gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider delle cassette postali.
 
-* **Convalida DKIM non riuscita**: DKIM (DomainKeys Identified Mail) consente al server di destinazione di verificare che il messaggio ricevuto sia stato inviato dal mittente autentico del dominio associato e che il contenuto del messaggio originale non sia stato modificato durante la consegna. In caso di errore di convalida DKIM, i server di posta riceventi non sono in grado di verificare l&#39;autenticità del contenuto del messaggio e la sua associazione al dominio di invio.
+* **Convalida di DKIM non riuscita**: DKIM (DomainKeys Identified Mail) consente al server destinatario di verificare che il messaggio ricevuto sia stato inviato dal mittente autentico del dominio associato e che il contenuto del messaggio originale non sia stato modificato durante la consegna. In caso di errore di convalida di DKIM, i server di posta riceventi non sono in grado di verificare l&#39;autenticità del contenuto del messaggio e la sua associazione al dominio di invio.
 
 * **Convalida record MX non riuscita**: errore di convalida del record MX (Mail eXchange) indica che i server di posta responsabili dell&#39;accettazione delle e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
 
@@ -274,6 +274,6 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 ## Video introduttivo{#video-presets}
 
-Scopri cosa sono le configurazioni di canale e come vengono utilizzate in Adobe Journey Optimizer.
+Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
