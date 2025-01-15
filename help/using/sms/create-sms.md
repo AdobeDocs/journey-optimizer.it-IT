@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1042'
 ht-degree: 9%
 
 ---
@@ -111,7 +111,7 @@ Per configurare il contenuto SMS, segui i passaggi indicati di seguito. Le impos
 
    Per utilizzare la funzione di abbreviazione URL, devi prima configurare un sottodominio che verrà quindi collegato alla configurazione. [Ulteriori informazioni](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > Per accedere e modificare i sottodomini SMS, devi disporre dell&#39;autorizzazione **[!UICONTROL Gestione sottodomini SMS]** nella sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../administration/high-low-permissions.md).
 
@@ -123,6 +123,10 @@ Per configurare il contenuto SMS, segui i passaggi indicati di seguito. Le impos
 
 1. Nel campo `originalUrl`, incolla l&#39;URL da ridurre e fai clic su **[!UICONTROL Salva]**.
 
+   >[!CAUTION]
+   >
+   > La durata degli URL brevi è impostata su 15 giorni. Dopo questo periodo, questi URL brevi non saranno più accessibili e visualizzeranno il messaggio: `404 short-code not found`.
+
 1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell&#39;anteprima. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](#sms-mms-test).
 
 ## Definire il contenuto MMS{#mms-content}
@@ -131,7 +135,7 @@ Per configurare il contenuto SMS, segui i passaggi indicati di seguito. Le impos
 
 >[!NOTE]
 >
->* Il canale MMS presenta alcune limitazioni elencate in [questa pagina](../start/guardrails.md#sms-guardrails).
+> Il canale MMS presenta alcune limitazioni elencate in [questa pagina](../start/guardrails.md#sms-guardrails).
 
 Per creare contenuti MMS, effettua le seguenti operazioni:
 
