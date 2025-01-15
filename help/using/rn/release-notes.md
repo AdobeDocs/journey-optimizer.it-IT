@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: ht
-source-wordcount: '2103'
-ht-degree: 100%
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+workflow-type: tm+mt
+source-wordcount: '2172'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,25 @@ ht-degree: 100%
 >abstract="**Adobe Journey Optimizer** offre continuamente nuove funzioni, miglioramenti a quelle esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Aggiornamenti di gennaio 2025 {#25-01-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Modelli di Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi migliorare i rapporti Journey Optimizer sfruttando i modelli di Customer Journey Analytics. Questa nuova funzione consente di semplificare il processo di reporting con modelli preprogettati personalizzati per le tue esigenze di analisi.
+</p>
+<p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md#cja-template">documentazione dettagliata</a>.</p>
+<p> La funzionalità <b>Modello</b> viene implementata progressivamente in più fasi, con la disponibilità generale completa pianificata per la fine di gennaio</p>
+</tr>
+</tbody>
+</table>
 
 ## Versione di ottobre 2024 {#24-10-rn}
 
