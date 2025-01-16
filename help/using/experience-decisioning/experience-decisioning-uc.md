@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 5%
 
 ---
@@ -140,6 +140,6 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
 1. Salva le modifiche e [pubblica la tua campagna basata su codice](../code-based/publish-code-based.md).
 
-Dopo aver eseguito l&#39;esperienza, tieni traccia delle prestazioni dei trattamenti della campagna con il [rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> È quindi possibile interpretare i risultati dell&#39;esperimento. [Scopri come](../content-management/get-started-experiment.md#interpret-results)
+Dopo aver eseguito l&#39;esperimento, tieni traccia delle prestazioni dei trattamenti della campagna con il [rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> È quindi possibile interpretare i risultati dell&#39;esperimento. [Scopri come](../content-management/get-started-experiment.md#interpret-results)
 
-Se il risultato dell’esperimento è conclusivo, puoi indirizzare il trattamento con la classificazione delle prestazioni migliori a tutti i clienti. Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.
+Se il risultato è conclusivo, puoi inviare il trattamento con la classificazione delle prestazioni migliori a tutti i tuoi clienti. Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.
