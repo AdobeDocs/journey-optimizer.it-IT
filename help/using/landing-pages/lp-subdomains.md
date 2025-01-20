@@ -20,7 +20,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="Delegare un sottodominio della pagina di destinazione"
->abstract="Devi configurare il sottodominio da utilizzare per la pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
+>abstract="Devi configurare il sottodominio da utilizzare per una pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
@@ -119,7 +119,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
    >
    >Nei sottodomini non sono consentite lettere maiuscole.
 
-   La delega di un sottodominio non valido a Adobe non è consentita. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   La delega di un sottodominio non valido ad Adobe non è consentita. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
    >[!NOTE]
    >
