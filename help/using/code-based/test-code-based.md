@@ -1,18 +1,19 @@
 ---
-title: Testare esperienze basate su codice
+title: Testare le esperienze basate su codice
 description: Scopri come testare le esperienze basate su codice in Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 3%
+source-wordcount: '707'
+ht-degree: 4%
 
 ---
 
-# Testare esperienze basate su codice {#test-code-based}
+# Testare le esperienze basate su codice {#test-code-based}
 
 ## Visualizzare l’esperienza basata su codice in anteprima {#preview-code-based}
 
@@ -95,6 +96,14 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
      >
      >**Adobe Experience Platform Assurance** è un prodotto di Adobe Experience Cloud che consente di verificare, verificare, simulare e convalidare le modalità di raccolta dei dati o di gestione delle esperienze nell&#39;app mobile. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/home){target="_blank"}
 
+1. Se utilizzi una [altra piattaforma](code-based-configuration.md#other) nella configurazione basata su codice, scegli l&#39;[URI di superficie](code-based-surface.md#surface-uri) che desideri visualizzare in anteprima dall&#39;elenco a discesa.
+
+   ![](assets/preview-on-device-other.png)
+
+   * Seleziona il pulsante **[!UICONTROL Copia collegamento]** per incollare il collegamento in una scheda del browser o condividerlo con il team e le parti interessate.
+
+   * Se hai aggiunto diversi URI alla configurazione (fino a 10), puoi selezionarne uno qualsiasi per l’anteprima.
+
 1. Vengono generati collegamenti di anteprima per il profilo di test selezionato e, se utilizzi [Esperimento contenuti](../content-management/content-experiment.md) nel tuo percorso o campagna, per il trattamento selezionato.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
@@ -103,7 +112,4 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   >[!TIP]
-   >
-   >Quando aggiorni il contenuto o selezioni un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. Puoi copiare il collegamento in diverse schede del browser e confrontare le esperienze.
-
+   Quando aggiorni il contenuto o selezioni un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. Puoi copiare il collegamento in diverse schede del browser e confrontare le esperienze.
