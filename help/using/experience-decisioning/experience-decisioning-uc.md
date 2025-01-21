@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '817'
 ht-degree: 5%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 Questo caso d&#39;uso presenta tutti i passaggi necessari per utilizzare Decisioning con il canale basato su codice [!DNL Journey Optimizer].
 
-In questo esempio, non sei sicuro se una formula di classificazione specifica funzionerà meglio delle priorità di offerta preassegnate. Per misurare quale sia il migliore per il pubblico di destinazione, crea una campagna utilizzando [Esperimento contenuti](../content-management/content-experiment.md) in cui definisci due trattamenti di consegna:
+In questo esempio, non sei sicuro se una formula di classificazione specifica funzionerà meglio delle priorità di offerta preassegnate. Per misurare quale funziona meglio per il tuo pubblico di destinazione, crea una campagna utilizzando [Esperimento sui contenuti](../content-management/content-experiment.md) in cui definisci due trattamenti di consegna:
 
-* Il primo trattamento utilizza la priorità come metodo di classificazione.
-* Il secondo trattamento utilizza una formula come metodo di classificazione.
+* Il primo trattamento utilizza **priority** come metodo di classificazione.
+* Il secondo trattamento utilizza **una formula** come metodo di classificazione.
 
 ## Creare strategie di selezione
 
@@ -120,7 +120,7 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
    >
    >Puoi anche selezionare **[!UICONTROL Elemento decisione]** per aggiungere singoli elementi senza dover eseguire una strategia di selezione. Verrà applicata la priorità impostata per ogni elemento.
 
-1. Selezionare la prima strategia creata.
+1. Seleziona la prima strategia creata, quella con priorità come metodo di classificazione.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. Ripeti i passaggi precedenti per creare un altro criterio di decisione e seleziona la seconda strategia di selezione creata. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. Ripeti i passaggi 5 e 6 per creare un altro criterio di decisione e seleziona la seconda strategia di selezione creata, quella con la formula come metodo di classificazione. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. Modifica il criterio decisionale come desiderato (vedi i passaggi 8 e 9 sopra).
 
 1. Salva le modifiche e [pubblica la tua campagna basata su codice](../code-based/publish-code-based.md).
 
 Dopo aver eseguito l&#39;esperimento, tieni traccia delle prestazioni dei trattamenti della campagna con il [rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> È quindi possibile interpretare i risultati dell&#39;esperimento. [Scopri come](../content-management/get-started-experiment.md#interpret-results)
 
-Se il risultato è conclusivo, puoi inviare il trattamento con la classificazione delle prestazioni migliori a tutti i tuoi clienti. Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.
+Se il risultato è conclusivo:
+
+* Puoi inviare il trattamento con la classificazione delle prestazioni migliori a tutti i tuoi clienti.
+* Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.
