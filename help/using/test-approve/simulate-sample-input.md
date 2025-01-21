@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 5%
+source-wordcount: '933'
+ht-degree: 2%
 
 ---
-
 
 # Testare il contenuto utilizzando dati di input di esempio (Beta) {#custom-profiles}
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 >
 >Questa funzione è attualmente disponibile per tutti i clienti come versione beta pubblica.
 
-Percorsi Optimizer consente di testare diverse varianti di contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.
+Percorsi Optimizer consente di testare diverse varianti di contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti. Una variante si riferisce a una versione del contenuto con valori diversi per i relativi attributi.
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ Puoi aggiungere fino a 30 varianti per testare il contenuto, utilizzando un file
 Per aggiungere una variante da un file, effettua le seguenti operazioni:
 
 1. Fai clic sul collegamento **[!UICONTROL scarica esempio]** per recuperare un modello di file, quindi scegli il formato di file che desideri utilizzare (CSV, JSON o JSONLINES).
-
 1. Fai clic su **[!UICONTROL Scarica]**, quindi archivia il modello nel percorso desiderato.
-
 1. Apri il file e compila il modello in base alle tue esigenze. Il modello include una colonna per ogni attributo di profilo utilizzato nel contenuto per la personalizzazione.
 
-1. Quando il file è pronto, fai clic su **[!UICONTROL Carica dati di input]** per caricarlo e verificare il contenuto.
+   +++Esempio di file
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. Quando il file è pronto, fai clic su **[!UICONTROL Carica dati di input]** per caricarlo e verificare il contenuto.
 1. Una volta caricato il file, nel riquadro a sinistra viene aggiunta una casella per ogni riga del file. Ogni casella contiene tutti gli attributi di profilo utilizzati nel contenuto per la personalizzazione. Ora è possibile utilizzare le varianti per visualizzare in anteprima il contenuto nel riquadro a destra e inviare le bozze.
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Per aggiungere manualmente una variante, effettua le seguenti operazioni:
 
 Per visualizzare l’anteprima del contenuto utilizzando una delle varianti, seleziona la casella pertinente per aggiornare l’anteprima del contenuto nella sezione a destra con le informazioni immesse per questa variante.
 
-Puoi rimuovere una variante in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;angolo superiore destro e selezionando **[!UICONTROL Rimuovi]**. Per modificare le informazioni per una variante, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Modifica]**.
+Nell’esempio seguente, sono state aggiunte due varianti per la riga dell’oggetto dell’e-mail:
 
-![](assets/simulate-custom-boxes.png)
+| Selezione variante 1 | Selezione variante 2 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+Puoi rimuovere una variante in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;angolo superiore destro e selezionando **[!UICONTROL Rimuovi]**. Per modificare le informazioni per una variante, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Modifica]**.
 
 ## Inviare bozze {#proofs}
 
