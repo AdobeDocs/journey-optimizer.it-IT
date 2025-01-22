@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 16%
+source-wordcount: '747'
+ht-degree: 18%
 
 ---
 
@@ -49,7 +49,7 @@ Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
    >[!IMPORTANT]
    >
-   >Per il momento, la selezione del pubblico è limitata a 3 milioni di profili. Questa limitazione può essere revocata su richiesta del rappresentante del tuo Adobe.
+   >Per il momento, la selezione del pubblico è limitata a 3 milioni di profili. Questa limitazione può essere revocata su richiesta del rappresentante dell’Adobe.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi identità]**, seleziona lo spazio dei nomi appropriato per identificare i singoli utenti all&#39;interno del pubblico scelto. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
@@ -75,23 +75,17 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 >title="Formattazione del file di estrazione"
 >abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’editor di personalizzazione. <br/><br/> L’opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
 
-1. Configura le colonne e le informazioni da visualizzare nel file di estrazione:
-
-   1. Fai clic sul pulsante **[!UICONTROL Aggiungi]** per creare una nuova colonna.
-
-   1. Il riquadro **[!UICONTROL Formattazione]** viene visualizzato sul lato destro e consente di impostare la colonna selezionata. Specificare un **[!UICONTROL etichetta]** per la colonna.
-
-   1. Nel campo **[!UICONTROL Dati]**, seleziona gli attributi del profilo da visualizzare utilizzando l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
-
-   1. Per ordinare il file di estrazione utilizzando una colonna, selezionare la colonna e attivare l&#39;opzione **[!UICONTROL Ordina per]**. Accanto all&#39;etichetta della colonna nella sezione **[!UICONTROL Campi dati]** viene visualizzata l&#39;icona **[!UICONTROL Ordina per]**.
-
 Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 
 1. Dalla schermata di configurazione della campagna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
 
 1. Regola le proprietà del file di estrazione:
 
-   1. Specifica il **[!UICONTROL Nome file]** desiderato per il file di estrazione.
+   1. Nel campo **[!UICONTROL Nome file]**, specifica un nome per il file di estrazione.
+
+      >[!NOTE]
+      >
+      >Per impostazione predefinita, il file viene scritto nella directory principale. Il campo **[!UICONTROL Nome file]** accetta il formato &quot;/your/path/here/Filename.csv&quot;, dove il percorso specificato è la directory di destinazione sul server selezionato. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Se si desidera aggiungere una marca temporale automatica al nome file specificato, attivare l&#39;opzione **[!UICONTROL Aggiungi marca temporale per esportare il nome file]**.
 
@@ -116,3 +110,4 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
       Per modificare la posizione di una colonna, trascinarla nella posizione desiderata nella sezione **[!UICONTROL Campo dati]**. Per eliminare una colonna, selezionarla e fare clic sul pulsante **[!UICONTROL Rimuovi]** nel riquadro **[!UICONTROL Formattazione]**.
 
 Ora puoi testare il messaggio direct mailing e inviarlo al pubblico. [Scopri come testare e inviare messaggi di direct mailing](test-send-direct-mail.md)
+
