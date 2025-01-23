@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 10%
+source-wordcount: '2804'
+ht-degree: 9%
 
 ---
 
@@ -84,6 +84,11 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 ## Annullamento iscrizione elenco{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="Aggiungi un URL per l’annullamento dell’iscrizione all’intestazione dell’e-mail"
+>abstract="Se gestisci il consenso all&#39;esterno di Adobe, seleziona l&#39;opzione **Gestione clienti** per immettere un indirizzo e-mail personalizzato per l&#39;annullamento dell&#39;iscrizione e il tuo URL personalizzato con un solo clic. In questo caso, tieni presente che Adobe non memorizza alcuna informazione relativa all’annullamento dell’abbonamento. Il proprietario delle informazioni sul consenso dei clienti è responsabile della gestione dei loro dati sul consenso e del loro invio a Journey Optimizer."
 
 Quando [selezioni un sottodominio](#subdomains-and-ip-pools) dall&#39;elenco, viene visualizzata l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]**.
 
