@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 99%
       + [Rapporto live della campagna](using/reports/campaign-live-report.md)
       + [Rapporto live delle pagine di destinazione](using/reports/lp-report-live.md)
       + [Rapporto live dell’elenco iscrizioni](using/reports/subscription-report-live.md)
-   + Report di tutti i tempi{#channel-report}
-      + [Introduzione al report di tutti i tempi](using/reports/report-gs-cja.md)
+   + Rapporto tutte le ore{#channel-report}
+      + [Introduzione al rapporto tutte le ore](using/reports/report-gs-cja.md)
       + [Configurare manualmente Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gestire i rapporti](using/reports/report-cja-manage.md)
       + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)

@@ -7,9 +7,9 @@ topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2172'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>Ora puoi migliorare i rapporti Journey Optimizer sfruttando i modelli di Customer Journey Analytics. Questa nuova funzione consente di semplificare il processo di reporting con modelli preprogettati personalizzati per le tue esigenze di analisi.
+<p>Ora puoi migliorare i rapporti di Journey Optimizer sfruttando i modelli di Customer Journey Analytics. Questa nuova funzione consente di semplificare il processo di reporting con modelli pre-progettati personalizzati per le tue esigenze di analisi.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md#cja-template">documentazione dettagliata</a>.</p>
-<p> La funzionalità <b>Modello</b> viene implementata progressivamente in più fasi, con la disponibilità generale completa pianificata per la fine di gennaio</p>
+<p> La funzionalità <b>Modello</b> sarà introdotta progressivamente in più fasi, con la disponibilità generale completa pianificata per la fine di gennaio</p>
 </tr>
 </tbody>
 </table>
