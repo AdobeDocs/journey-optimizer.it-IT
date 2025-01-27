@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
 workflow-type: tm+mt
-source-wordcount: '2801'
+source-wordcount: '2854'
 ht-degree: 9%
 
 ---
@@ -143,17 +143,20 @@ Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i nomi del mitten
 >
 >Per un maggiore controllo sulle impostazioni e-mail, puoi personalizzare i parametri dell’intestazione. [Ulteriori informazioni](../email/surface-personalization.md#personalize-header)
 
-* **[!UICONTROL Nome mittente]**: il nome del mittente, ad esempio il nome del tuo marchio.
-* **[!UICONTROL E-mail mittente]**: l&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni.
-* **[!UICONTROL Rispondi a (nome)]**: nome che verrà utilizzato quando il destinatario farà clic sul pulsante **Rispondi** nel software client di posta elettronica.
-* **[!UICONTROL Rispondi a (e-mail)]**: l&#39;indirizzo e-mail che verrà utilizzato quando il destinatario farà clic sul pulsante **Rispondi** nel software client e-mail. [Ulteriori informazioni](#reply-to-email)
-* **[!UICONTROL E-mail di errore]**: tutti gli errori generati dagli ISP dopo alcuni giorni di recapito della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo. Su questo indirizzo vengono inoltre ricevute le notifiche fuori sede e le risposte alle richieste di verifica.
+* **[!UICONTROL Dal nome]**: il nome del mittente, ad esempio il nome del brand.
+* **[!UICONTROL Dal prefisso e-mail]**: l&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni.
+* **[!UICONTROL Rispondi al nome]**: il nome che verrà utilizzato quando il destinatario farà clic sul pulsante **Rispondi** nel software del client di posta elettronica.
+* **[!UICONTROL Risposta all&#39;e-mail]**: l&#39;indirizzo e-mail che verrà utilizzato quando il destinatario farà clic sul pulsante **Rispondi** nel software del client e-mail. [Ulteriori informazioni](#reply-to-email)
+* **[!UICONTROL Prefisso e-mail errore]**: tutti gli errori generati dagli ISP dopo alcuni giorni di recapito della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo. Su questo indirizzo vengono inoltre ricevute le notifiche fuori sede e le risposte alle richieste di verifica.
 
   Se desideri ricevere le notifiche di fuori sede e le risposte di richiesta di verifica su un indirizzo e-mail specifico non delegato ad Adobe, devi impostare una [procedura di inoltro](#forward-email). In tal caso, assicurati di disporre di una soluzione manuale o automatizzata per elaborare le e-mail che verranno inviate a questa casella in entrata.
 
->[!CAUTION]
+>[!NOTE]
 >
->Gli indirizzi di posta elettronica **[!UICONTROL Sender]** e **[!UICONTROL Error]** devono utilizzare il [sottodominio delegato](../configuration/about-subdomain-delegation.md) corrente selezionato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com* e *error@marketing.luma.com*.
+>Gli indirizzi **[!UICONTROL From email prefix]** e **[!UICONTROL Error email prefix]** utilizzano il [sottodominio delegato](../configuration/about-subdomain-delegation.md) attualmente selezionato per inviare l&#39;e-mail. Ad esempio, se il sottodominio delegato è *marketing.luma.com*:
+>* Immetti *contatto* come **[!UICONTROL Da prefisso e-mail]** - l&#39;e-mail del mittente è *contact@marketing.luma.com*.
+>* Immetti *error* come **[!UICONTROL Error email prefix]**. Indirizzo di errore: *error@marketing.luma.com*.
+
 
 ![](assets/preset-header.png){width="80%"}
 
@@ -163,9 +166,9 @@ Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i nomi del mitten
 
 ### Rispondi a e-mail {#reply-to-email}
 
-Durante la definizione dell&#39;indirizzo **[!UICONTROL Reply to (email)]**, è possibile specificare qualsiasi indirizzo e-mail a condizione che sia valido, nel formato corretto e senza errori di battitura.
+Quando definisci l&#39;indirizzo di tipo **[!UICONTROL Risposta all&#39;e-mail]**, puoi specificare qualsiasi indirizzo e-mail a condizione che sia valido, nel formato corretto e senza errori di battitura.
 
-La casella in entrata utilizzata per le risposte riceverà tutte le e-mail di risposta, ad eccezione delle notifiche fuori sede e delle risposte di richiesta di verifica, ricevute all&#39;indirizzo **[!UICONTROL E-mail di errore]**.
+La casella in entrata utilizzata per le risposte riceverà tutte le e-mail di risposta, ad eccezione delle notifiche fuori sede e delle risposte di richiesta di verifica, ricevute all&#39;indirizzo **E-mail di errore**.
 
 Per garantire una corretta gestione delle risposte, segui le raccomandazioni seguenti:
 
@@ -175,7 +178,7 @@ Per garantire una corretta gestione delle risposte, segui le raccomandazioni seg
 
 * Non contrassegnare i messaggi come spam nella casella in entrata delle risposte, in quanto ciò influirà su tutte le altre risposte inviate a questo indirizzo.
 
-Inoltre, quando definisci l&#39;indirizzo **[!UICONTROL Reply to (email)]**, assicurati di utilizzare un sottodominio con una configurazione di record MX valida, altrimenti l&#39;elaborazione della configurazione e-mail non riuscirà.
+Inoltre, quando definisci l&#39;indirizzo **[!UICONTROL Reply to email]**, assicurati di utilizzare un sottodominio con una configurazione di record MX valida, altrimenti l&#39;elaborazione della configurazione e-mail non riuscirà.
 
 Se ricevi un errore durante l’invio della configurazione e-mail, significa che il record MX non è configurato per il sottodominio dell’indirizzo inserito. Contatta l’amministratore per configurare il record MX corrispondente o utilizza un altro indirizzo con una configurazione di record MX valida.
 
@@ -189,7 +192,7 @@ Per inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL 
 
 >[!NOTE]
 >
->Se il sottodominio utilizzato per l&#39;indirizzo **[!UICONTROL Reply to (email)]** non è delegato ad Adobe, l&#39;inoltro non può funzionare per questo indirizzo.
+>Se il sottodominio utilizzato per l&#39;indirizzo **[!UICONTROL Reply to email]** non è delegato ad Adobe, l&#39;inoltro non può funzionare per questo indirizzo.
 
 Devi fornire:
 
@@ -204,7 +207,11 @@ Devi fornire:
 
 L’indirizzo e-mail di inoltro è configurato da Adobe. Questa operazione può richiedere da 3 a 4 giorni.
 
-Al termine, tutti i messaggi ricevuti il **[!UICONTROL Indirizzo di risposta a (e-mail)]** e il **[!UICONTROL Indirizzo di posta elettronica di errore]** vengono inoltrati all&#39;indirizzo di posta elettronica specificato.
+Al termine, tutti i messaggi ricevuti in **[!UICONTROL Risposta all&#39;e-mail]** e **Indirizzo e-mail di errore**, nonché tutti gli indirizzi e-mail inviati all&#39;**Indirizzo e-mail Da**, vengono inoltrati all&#39;indirizzo e-mail specifico fornito.
+
+>[!NOTE]
+>
+>Per impostazione predefinita, se l&#39;inoltro non è abilitato, le e-mail inviate direttamente all&#39;indirizzo **Da e-mail** vengono ignorate.
 
 ## E-mail Ccn {#bcc-email}
 
