@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 14%
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 I frammenti possono essere creati da zero dal menu a sinistra **[!UICONTROL Frammenti]**. Inoltre, è possibile anche salvare una parte del contenuto esistente come frammento durante la progettazione. [Scopri come](#save-as-fragment)
 
-Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, una campagna o un modello. Puoi utilizzare questo frammento quando crei qualsiasi contenuto all’interno di percorsi e campagne. Vedi [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare frammenti di espressione](../personalization/use-expression-fragments.md)
+Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, una campagna o un modello. Puoi utilizzare questo frammento quando crei qualsiasi contenuto all’interno di percorsi e campagne. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare frammenti di espressione](../personalization/use-expression-fragments.md).
 
 Per creare un frammento, segui la procedura riportata di seguito.
 
@@ -49,7 +49,7 @@ Per creare un frammento, segui la procedura riportata di seguito.
 
    >[!NOTE]
    >
-   >Per il momento, i frammenti visivi sono disponibili solo per il canale **E-mail**.
+   >Attualmente, i frammenti visivi sono disponibili solo per il canale **E-mail**.
 
 1. Se stai creando un frammento di espressione, seleziona il tipo di codice che desideri utilizzare: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Testo]**.
 
@@ -71,7 +71,7 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
   ![](assets/fragment-expression-editor.png)
 
-Quando il contenuto è pronto, fai clic sul pulsante **Salva**. Il frammento viene creato e aggiunto all&#39;elenco di frammenti con lo stato **Bozza**. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
+Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**. Il frammento viene creato e aggiunto all&#39;elenco di frammenti con lo stato **[!UICONTROL Bozza]**. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
 
 ## Anteprima e pubblicazione del frammento {#publish}
 
@@ -79,23 +79,23 @@ Quando il contenuto è pronto, fai clic sul pulsante **Salva**. Il frammento vie
 >
 >Per pubblicare un frammento, è necessario disporre dell&#39;autorizzazione utente [Frammento di Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
-Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile nei tuoi percorsi e campagne. Per farlo, segui questi passaggi:
+Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile nei tuoi percorsi e campagne. A questo scopo, segui i passaggi riportati qui sotto.
 
 1. Torna alla schermata di creazione del frammento dopo averne progettato il contenuto oppure aprilo dall’elenco dei frammenti.
 
-1. Nel campo **Tag** è disponibile un&#39;anteprima del frammento che consente di verificarne il rendering. Se devi apportare delle modifiche, fai clic sul pulsante **Modifica** nella sezione superiore della schermata per aprire E-mail Designer o l&#39;editor di personalizzazione a seconda del tipo di frammento.
+1. Nel campo **[!UICONTROL Tag]** è disponibile un&#39;anteprima del frammento che consente di verificarne il rendering. Se devi apportare delle modifiche, fai clic sul pulsante **[!UICONTROL Modifica]** nella sezione superiore della schermata per aprire E-mail Designer o l&#39;editor di personalizzazione a seconda del tipo di frammento.
 
    ![](assets/fragment-preview.png)
 
-1. Fai clic sul pulsante **Publish** nell&#39;angolo superiore destro per pubblicare il frammento.
+1. Fai clic sul pulsante **[!UICONTROL Publish]** nell&#39;angolo superiore destro per pubblicare il frammento.
 
-   Se il frammento viene utilizzato in un percorso o in una campagna live, si apre un messaggio per informarti. Fai clic sul collegamento **Ulteriori informazioni** per accedere all&#39;elenco dei percorsi e/o delle campagne a cui si fa riferimento. [Scopri come esplorare i riferimenti di un frammento](../content-management/manage-fragments.md#explore-references)
-
-   Fai clic su **Conferma** per pubblicare il frammento e aggiornarlo nei percorsi/campagne live che lo utilizzano.
+1. Se il frammento viene utilizzato in un percorso o in una campagna live, viene visualizzato un messaggio per informarti. Fai clic sul collegamento **[!UICONTROL Ulteriori informazioni]** per accedere all&#39;elenco dei percorsi e/o delle campagne a cui si fa riferimento. [Scopri come esplorare i riferimenti di un frammento](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Il frammento è ora **Live** e diventa disponibile quando crei qualsiasi contenuto nel Designer e-mail o nell&#39;editor di personalizzazione di [!DNL Journey Optimizer]:
+   Fai clic su **[!UICONTROL Conferma]** per pubblicare il frammento e aggiornarlo nei percorsi/campagne live che lo utilizzano.
+
+Il frammento è ora **[!UICONTROL Live]** e diventa disponibile quando crei qualsiasi contenuto nel Designer e-mail o nell&#39;editor di personalizzazione di [!DNL Journey Optimizer].
 
 * [Scopri come utilizzare i frammenti visivi](../email/use-visual-fragments.md)
 * [Scopri come utilizzare i frammenti di espressione](../personalization/use-expression-fragments.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 25%
+source-wordcount: '1062'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,12 @@ Puoi anche scegliere di visualizzare tutti i frammenti o solo gli elementi creat
 
 Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 
-* Duplica un frammento.
+<!--* Add to package
+* Open draft version-->
+* Duplica il frammento.
 * Utilizza l&#39;opzione **[!UICONTROL Esplora riferimenti]** per visualizzare i percorsi, le campagne o i modelli in cui viene utilizzato. [Ulteriori informazioni](#explore-references)
-* Archivia un frammento. [Ulteriori informazioni](#archive-fragments)
-* Modificare i tag di un frammento [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags).
+* Archivia il frammento. [Ulteriori informazioni](#archive-fragments)
+* Modifica i tag del frammento. [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuovi stati dei frammenti"
->abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato “Bozza”, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. <br/>La pubblicazione richiede l’autorizzazione utente <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Pubblica frammento</a>."
+>abstract="Poiché gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli **Live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. <br/>La pubblicazione richiede l’autorizzazione utente <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Pubblica frammento</a>."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Ulteriori informazioni sulle autorizzazioni per i frammenti di contenuto"
 
 I frammenti possono avere più stati:
@@ -63,7 +65,7 @@ I frammenti possono avere più stati:
 
 >[!CAUTION]
 >
->Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato “Bozza”, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l&#39;autorizzazione utente [Frammento di Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Poiché gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli **Live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l&#39;autorizzazione utente [Frammento di Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Modificare i frammenti {#edit-fragments}
 
@@ -83,21 +85,47 @@ Per modificare un frammento, effettua le seguenti operazioni.
 
 1. Le proprietà del frammento vengono aperte con un’anteprima del relativo contenuto.
 
-1. Se il frammento in fase di modifica è in stato **Live**, fare clic sul pulsante **Modifica** per creare una versione bozza del frammento. La versione corrente del frammento continuerà a essere attiva, fino a quando non pubblicherai la versione bozza.
-
-1. Apporta al frammento le modifiche desiderate. Per modificarne il contenuto, fai clic sul pulsante **Modifica**, quindi modifica il contenuto come faresti quando crei un frammento da zero. [Scopri come creare un frammento](#create-from-scratch)
+1. Se il frammento in fase di modifica è in stato **[!UICONTROL Live]**, fare clic sul pulsante **[!UICONTROL Modifica]** per creare una versione bozza del frammento.
 
    >[!NOTE]
    >
-   >Quando modifichi un frammento, puoi rimuovere qualsiasi campo di personalizzazione ma non aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere campi di personalizzazione, duplica il frammento per crearne uno nuovo.
+   >La versione corrente del frammento continuerà a essere attiva, fino a quando non pubblicherai la versione bozza.
 
-   È inoltre possibile controllare l&#39;elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato selezionando l&#39;opzione **Riferimenti a Explorer**. [Ulteriori informazioni](#explore-references)
+1. Apporta al frammento le modifiche desiderate. Per modificarne il contenuto, fai clic sul pulsante **[!UICONTROL Modifica]** e aggiorna il contenuto come faresti quando crei un frammento da zero. [Scopri come creare un frammento](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >Quando modifichi un frammento pubblicato, puoi rimuovere qualsiasi campo di personalizzazione, ma non puoi aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere attributi personalizzati, devi duplicare il frammento. [Ulteriori informazioni](#adding-new-attributes)
+
+1. È inoltre possibile controllare l&#39;elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato selezionando l&#39;opzione **Riferimenti a Explorer**. [Ulteriori informazioni](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. Quando le modifiche sono pronte, fai clic sul pulsante **Publish** per rendere attive le modifiche.
 
-Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi i percorsi live e le campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale. Scopri come interrompere l’ereditarietà nelle sezioni [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md#break-inheritance) e [Sfrutta i frammenti di espressione](../personalization/use-expression-fragments.md#break-inheritance).
+Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi percorsi live e campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale.
+
+>[!NOTE]
+>
+>Scopri come interrompere l’ereditarietà nelle sezioni [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md#break-inheritance) e [Sfrutta i frammenti di espressione](../personalization/use-expression-fragments.md#break-inheritance).
+
+## Aggiunta di nuovi attributi a un frammento live {#adding-new-attributes}
+
+>[!WARNING]
+>
+>L’aggiunta di nuovi attributi a un frammento live non è supportata.
+
+Dopo la pubblicazione di un frammento, il set di attributi personalizzati o contestuali viene bloccato per tutte le campagne e i percorsi che vi fanno riferimento.
+
+Per incorporare attributi aggiuntivi in un frammento live, segui i passaggi indicati di seguito.
+
+1. Duplica il frammento esistente.
+
+1. Aggiungi gli attributi richiesti alla versione bozza duplicata.
+
+1. Publish la nuova versione.
+
+1. Aggiorna eventuali campagne o percorsi per fare riferimento al frammento aggiornato in cui sono stati aggiunti i nuovi attributi.
 
 ## Esplora riferimenti {#explore-references}
 
