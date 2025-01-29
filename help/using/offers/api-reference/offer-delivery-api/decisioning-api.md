@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,6 @@ Con la funzione di gestione delle decisioni, puoi creare e fornire esperienze di
 È possibile creare e distribuire offerte effettuando una richiesta POST all&#39;API [!DNL Decisioning].
 
 Questo tutorial richiede una buona conoscenza delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md). Questo tutorial richiede anche di avere a disposizione un ID posizionamento e un valore ID decisione univoci. Se non hai acquisito questi valori, consulta i tutorial per [creare un posizionamento](../offers-api/placements/create.md) e [creare una decisione](../activities-api/activities/create.md).
-
-➡️ [Scopri questa funzione nel video](#video)
 
 ## Intestazioni richieste {#required-headers}
 
