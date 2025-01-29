@@ -6,10 +6,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +25,10 @@ L’esportazione crea un set di dati per ogni oggetto della Libreria di offerte 
 * Decisioni
 
 Ogni volta che uno di questi oggetti viene modificato nella Libreria di offerte, viene eseguito automaticamente un nuovo processo di esportazione per aggiornare i set di dati.
+
+>[!NOTE]
+>
+>Questa funzione è attivata per impostazione predefinita. Puoi iniziare a utilizzarlo senza ulteriori passaggi di attivazione. Una volta abilitati, i processi di esportazione saranno automatizzati e non richiederanno alcuna azione da parte tua.
 
 <!--
 >[!NOTE]
