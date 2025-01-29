@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 11%
+source-wordcount: '1075'
+ht-degree: 12%
 
 ---
 
@@ -81,27 +81,31 @@ I frammenti possono avere più stati:
 
 Per modificare un frammento, effettua le seguenti operazioni.
 
-1. Fare clic sul frammento desiderato dall&#39;elenco **[!UICONTROL Frammenti]**.
+1. Fare clic sul frammento desiderato dall&#39;elenco **[!UICONTROL Frammenti]**. Viene visualizzata la schermata delle proprietà del frammento con un’anteprima del relativo contenuto.
 
-1. Le proprietà del frammento vengono aperte con un’anteprima del relativo contenuto.
+1. Per controllare l&#39;elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato, seleziona l&#39;opzione **[!UICONTROL Esplora riferimenti]**. [Ulteriori informazioni](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. Se il frammento in fase di modifica è in stato **[!UICONTROL Live]**, fare clic sul pulsante **[!UICONTROL Modifica]** per creare una versione bozza del frammento.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >La versione corrente del frammento continuerà a essere attiva, fino a quando non pubblicherai la versione bozza.
+   >La versione corrente del frammento continuerà a essere attiva fino a quando non pubblicherai la nuova versione aggiornata.
 
-1. Apporta al frammento le modifiche desiderate. Per modificarne il contenuto, fai clic sul pulsante **[!UICONTROL Modifica]** e aggiorna il contenuto come faresti quando crei un frammento da zero. [Scopri come creare un frammento](#create-from-scratch)
+1. Apporta al frammento le modifiche desiderate.
+
+1. Per modificare il contenuto, fai clic sul pulsante **[!UICONTROL Modifica]** e aggiorna il contenuto come faresti quando crei un frammento da zero. [Scopri come creare un frammento](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >Quando modifichi un frammento pubblicato, puoi rimuovere qualsiasi campo di personalizzazione, ma non puoi aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere attributi personalizzati, devi duplicare il frammento. [Ulteriori informazioni](#adding-new-attributes)
 
-1. È inoltre possibile controllare l&#39;elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato selezionando l&#39;opzione **Riferimenti a Explorer**. [Ulteriori informazioni](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. Quando le modifiche sono pronte, fai clic sul pulsante **Publish** per rendere attive le modifiche.
+1. Quando le modifiche sono pronte, salvale e fai clic sul pulsante **Publish** per rendere attive le modifiche.
 
 Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi percorsi live e campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale.
 
@@ -113,17 +117,19 @@ Quando modifichi un frammento, le modifiche vengono propagate automaticamente a 
 
 >[!WARNING]
 >
->L’aggiunta di nuovi attributi a un frammento live non è supportata.
+>L&#39;aggiunta di nuovi [attributi personalizzati](../personalization/personalization-build-expressions.md) a un frammento live non è supportata.
 
 Dopo la pubblicazione di un frammento, il set di attributi personalizzati o contestuali viene bloccato per tutte le campagne e i percorsi che vi fanno riferimento.
 
 Per incorporare attributi aggiuntivi in un frammento live, segui i passaggi indicati di seguito.
 
-1. Duplica il frammento esistente.
+1. Duplica il frammento esistente utilizzando il pulsante **[!UICONTROL Altre azioni]**.
 
-1. Aggiungi gli attributi richiesti alla versione bozza duplicata.
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish la nuova versione.
+1. [Aggiungere i nuovi attributi desiderati](../personalization/personalization-build-expressions.md#add) alla versione della bozza duplicata.
+
+1. Publish la nuova versione. [Scopri come](create-fragments.md#publish)
 
 1. Aggiorna eventuali campagne o percorsi per fare riferimento al frammento aggiornato in cui sono stati aggiunti i nuovi attributi.
 
