@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 2f5195f209c5e0e5665722b7c1e12e164acc587e
+source-git-commit: 5d3fc7c818e984da414e1f0e52ccc5d4f3a20ab3
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 13%
+source-wordcount: '313'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 13%
 >id="ajo_create_fragment"
 >title="Definisci il tuo frammento"
 >abstract="Crea e gestisci frammenti autonomi per rendere il contenuto riutilizzabile in più percorsi e campagne."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creare i frammenti"
+
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Create fragments"-->
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità ti consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
 
