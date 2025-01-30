@@ -5,8 +5,8 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: ht
+source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
+workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 100%
 
@@ -304,7 +304,6 @@ ht-degree: 100%
       + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
-   + [Frammenti di contenuto di Adobe Experience Manager](using/content-management/aem-fragments.md)
    + Utilizzare l’Assistente IA{#ai-assistant}
       + [Introduzione all’accelerazione di contenuti dell’Assistente IA](using/content-management/gs-generative.md)
       + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
@@ -371,6 +370,7 @@ ht-degree: 100%
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)
       + [Creare contenuti dinamici](using/personalization/dynamic-content.md)
+   + [Frammenti di contenuto di Adobe Experience Manager](using/content-management/aem-fragments.md)
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
