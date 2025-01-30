@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 12%
+source-wordcount: '1144'
+ht-degree: 11%
 
 ---
 
@@ -21,8 +21,6 @@ Per gestire i frammenti, accedi all&#39;elenco di frammenti dal menu a sinistra 
 
 Vengono visualizzati tutti i frammenti creati nella sandbox corrente, ovvero [dal menu **[!UICONTROL Frammenti]**](#create-fragments), utilizzando l&#39;opzione [Salva come frammento](#save-as-fragment).
 
-![](assets/fragment-list-filters.png)
-
 Puoi filtrare i frammenti in base ai seguenti elementi:
 
 * Stato (bozza o in tempo reale)
@@ -31,18 +29,20 @@ Puoi filtrare i frammenti in base ai seguenti elementi:
 * Stato (archiviato o meno)
 * Tag
 
+![](assets/fragment-list-filters.png){width="90%" align="left"}
+
 Puoi anche scegliere di visualizzare tutti i frammenti o solo gli elementi creati o modificati dall’utente corrente.
 
 Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 
-<!--* Add to package
-* Open draft version-->
+* Aggiungilo a un pacchetto per l’esportazione. [Ulteriori informazioni](#export)
+* Se il frammento è attivo, apri una bozza della versione per modificarlo. [Ulteriori informazioni](#edit-fragments)
 * Duplica il frammento.
 * Utilizza l&#39;opzione **[!UICONTROL Esplora riferimenti]** per visualizzare i percorsi, le campagne o i modelli in cui viene utilizzato. [Ulteriori informazioni](#explore-references)
 * Archivia il frammento. [Ulteriori informazioni](#archive-fragments)
 * Modifica i tag del frammento. [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags)
 
-![](assets/fragment-list-more-actions.png)
+![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
 ## Stati dei frammenti
 
@@ -67,7 +67,7 @@ I frammenti possono avere più stati:
 >
 >Poiché gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli **Live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l&#39;autorizzazione utente [Frammento di Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
-## Modificare i frammenti {#edit-fragments}
+## Modificare un frammento {#edit-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
@@ -83,29 +83,27 @@ Per modificare un frammento, effettua le seguenti operazioni.
 
 1. Fare clic sul frammento desiderato dall&#39;elenco **[!UICONTROL Frammenti]**. Viene visualizzata la schermata delle proprietà del frammento con un’anteprima del relativo contenuto.
 
-1. Per controllare l&#39;elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato, seleziona l&#39;opzione **[!UICONTROL Esplora riferimenti]**. [Ulteriori informazioni](#explore-references)
+1. Puoi controllare l’elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato. A tale scopo, selezionare l&#39;opzione **[!UICONTROL Esplora riferimenti]** dal pulsante Altro. [Ulteriori informazioni](#explore-references)
 
-   ![](assets/fragment-edit-references.png)
+1. Se il frammento in fase di modifica è in stato **[!UICONTROL Live]**, fare clic sul pulsante **[!UICONTROL Modifica]** per creare una versione bozza del frammento. Fai clic su **[!UICONTROL Conferma]**.
 
-1. Se il frammento in fase di modifica è in stato **[!UICONTROL Live]**, fare clic sul pulsante **[!UICONTROL Modifica]** per creare una versione bozza del frammento.
-
-   <!--![](assets/fragment-live-modify.png)-->
+   ![](assets/fragment-live-modify.png){width="70%" align="left"}
 
    >[!NOTE]
    >
    >La versione corrente del frammento continuerà a essere attiva fino a quando non pubblicherai la nuova versione aggiornata.
 
-1. Apporta al frammento le modifiche desiderate.
+1. Se necessario, apporta le modifiche desiderate ai dettagli del frammento.
 
-1. Per modificare il contenuto, fai clic sul pulsante **[!UICONTROL Modifica]** e aggiorna il contenuto come faresti quando crei un frammento da zero. [Scopri come creare un frammento](#create-from-scratch)
+1. Per modificare il contenuto del frammento, fai clic sul pulsante **[!UICONTROL Modifica]** e aggiorna il contenuto come faresti quando crei un frammento da zero. [Scopri come creare un frammento](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png)
+   ![](assets/fragment-edit.png){width="70%" align="left"}
 
    >[!NOTE]
    >
    >Quando modifichi un frammento pubblicato, puoi rimuovere qualsiasi campo di personalizzazione, ma non puoi aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere attributi personalizzati, devi duplicare il frammento. [Ulteriori informazioni](#adding-new-attributes)
 
-1. Quando le modifiche sono pronte, salvale e fai clic sul pulsante **Publish** per rendere attive le modifiche.
+1. Quando le modifiche sono pronte, salvale e fai clic sul pulsante **[!UICONTROL Publish]** per rendere attive le modifiche. [Ulteriori informazioni](create-fragments.md#publish)
 
 Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi percorsi live e campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale.
 
@@ -125,23 +123,30 @@ Per incorporare attributi aggiuntivi in un frammento live, segui i passaggi indi
 
 1. Duplica il frammento esistente utilizzando il pulsante **[!UICONTROL Altre azioni]**.
 
-   ![](assets/fragment-list-more-actions.png)
+   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
-1. [Aggiungere i nuovi attributi desiderati](../personalization/personalization-build-expressions.md#add) alla versione della bozza duplicata.
+1. Seleziona il frammento duplicato per aprirlo e fai clic sul pulsante **[!UICONTROL Modifica]**.
 
-1. Publish la nuova versione. [Scopri come](create-fragments.md#publish)
+1. [Aggiungi i nuovi attributi desiderati](../personalization/personalization-build-expressions.md#add) al frammento duplicato, ad esempio i campi di personalizzazione.
+
+   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+
+1. Salva le modifiche e pubblica il nuovo frammento. [Scopri come](create-fragments.md#publish)
 
 1. Aggiorna eventuali campagne o percorsi per fare riferimento al frammento aggiornato in cui sono stati aggiunti i nuovi attributi.
 
+   * [Scopri come utilizzare i frammenti visivi](../email/use-visual-fragments.md)
+   * [Scopri come utilizzare i frammenti di espressione](../personalization/use-expression-fragments.md)
+
 ## Esplora riferimenti {#explore-references}
 
-Puoi visualizzare l’elenco dei percorsi, delle campagne e dei modelli di contenuto che attualmente utilizzano un frammento. A tale scopo, selezionare **[!UICONTROL Esplora riferimenti]** dal menu **[!UICONTROL Altre azioni]** nell&#39;elenco dei frammenti o dalla schermata delle proprietà dei frammenti.
+Puoi visualizzare l’elenco dei percorsi, delle campagne e dei modelli di contenuto che attualmente utilizzano un frammento. A tale scopo, selezionare **[!UICONTROL Esplora riferimenti]** dal menu **[!UICONTROL Altre azioni]** nell&#39;elenco dei frammenti o nella schermata delle proprietà dei frammenti.
 
-![](assets/fragment-explore-references.png)
+![](assets/fragment-explore-references.png){width="70%" align="left"}
 
 Seleziona una scheda per scegliere tra percorsi, campagne, modelli e frammenti. Puoi visualizzarne lo stato e fare clic su un nome da reindirizzare all’elemento corrispondente in cui si fa riferimento al frammento.
 
-![](assets/fragment-usage-screen.png)
+![](assets/fragment-usage-screen.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -153,7 +158,7 @@ Puoi eliminare dall’elenco i frammenti gli elementi che non sono più rilevant
 
 A tale scopo, fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al frammento desiderato e seleziona **[!UICONTROL Archivia]**. Scomparirà dall’elenco dei frammenti, impedendo agli utenti di utilizzarlo in e-mail o modelli futuri.
 
-![](assets/fragment-list-archive.png)
+![](assets/fragment-list-archive.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -161,10 +166,10 @@ A tale scopo, fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al fra
 
 Per annullare l&#39;archiviazione di un frammento, filtrare gli elementi **[!UICONTROL Archiviati]** e selezionare **[!UICONTROL Annulla archiviazione]** dal menu **[!UICONTROL Altre azioni]**. Ora è nuovamente accessibile dall’elenco dei frammenti e può essere utilizzato in qualsiasi e-mail o modello.
 
-![](assets/fragment-list-unarchive.png)
+![](assets/fragment-list-unarchive.png){width="70%" align="left"}
 
 ## Esportare i frammenti in un’altra sandbox {#export}
 
 Journey Optimizer consente di copiare un frammento da una sandbox all’altra. Ad esempio, puoi copiare un frammento dall’ambiente sandbox di Stage alla sandbox di produzione.
 
-Il processo di copia viene eseguito tramite un **pacchetto di esportazione e importazione** tra le sandbox di origine e di destinazione. Informazioni dettagliate su come esportare oggetti e importarli in una sandbox di destinazione sono disponibili in questa sezione: [Copia oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md)
+Il processo di copia viene eseguito tramite un **pacchetto di esportazione e importazione** tra le sandbox di origine e di destinazione. Informazioni dettagliate su come esportare oggetti e importarli in una sandbox di destinazione sono disponibili in questa sezione: [Copia oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md).
