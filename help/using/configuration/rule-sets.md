@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Set di regole"
->abstract="Utilizza i set di regole per applicare la quota limite a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere i percorsi da una parte del pubblico in base alle regole di quota limite."
+>abstract="Utilizza i set di regole per applicare la quota limite a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere percorsi a una parte del pubblico in base alle regole della quota limite."
 
 >[!AVAILABILITY]
 >
@@ -48,7 +48,7 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole pe
 
 ![](assets/rule-sets-default.png)
 
-### Regole di limitazione di canale e percorsi {#domain}
+### Regole di limitazione per canale e percorsi {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -110,7 +110,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Limitazione delle regole"
->abstract="Imposta il limite per la regola. A seconda del dominio del set di regole e della selezione nel campo Tipo di regola, questo campo può definire il numero massimo di messaggi che possono essere inviati a un profilo o il numero massimo di percorsi in cui il profilo può entrare o essere iscritto contemporaneamente."
+>abstract="Imposta la limitazione della regola. A seconda del dominio del set di regole e della selezione nel campo Tipo di regola, questo campo può definire il numero massimo di messaggi che possono essere inviati a un profilo o il numero massimo di percorsi in cui il profilo può entrare o essere iscritto contemporaneamente."
 
 Per aggiungere una regola a un set di regole, accedere al set di regole e fare clic su **[!UICONTROL Aggiungi regola]**.
 

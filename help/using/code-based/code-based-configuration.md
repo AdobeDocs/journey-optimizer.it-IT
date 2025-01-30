@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 13%
+ht-degree: 23%
 
 ---
 
@@ -28,12 +28,12 @@ Una configurazione di esperienza basata su codice deve fare riferimento alla sup
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Indica la posizione specifica all’interno della pagina o dell’app"
+>title="Indicare la posizione specifica all’interno della pagina o dell’app"
 >abstract="Questo campo specifica la destinazione esatta all’interno di una pagina o dell’app a cui desideri che gli utenti accedano. Può trattarsi di una sezione particolare all’interno di una pagina web o di una pagina all’interno della struttura di navigazione dell’app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="Definisci un URL per la creazione e l’anteprima dei contenuti"
+>title="Definire un URL per la creazione e l’anteprima dei contenuti"
 >abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
 
 Per creare una configurazione del canale esperienza basata su codice, effettua le seguenti operazioni:
@@ -76,7 +76,7 @@ Ora puoi selezionare questa configurazione durante [la creazione di un&#39;esper
 
 >[!NOTE]
 >
->Il team di implementazione dell’app è responsabile dell’esecuzione di chiamate API o SDK esplicite per recuperare il contenuto per le superfici definite nella configurazione dell’esperienza basata su codice selezionata. Ulteriori informazioni sulle diverse implementazioni del cliente in [questa sezione](code-based-implementation-samples.md).
+>Il team di implementazione dell’app è responsabile dell’esecuzione di chiamate API o SDK esplicite per recuperare il contenuto per le superfici definite nella configurazione di esperienza basata su codice selezionata. Ulteriori informazioni sulle diverse implementazioni del cliente in [questa sezione](code-based-implementation-samples.md).
 
 ### Piattaforme web {#web}
 
@@ -120,12 +120,12 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="Immetti l&#39;ID dell&#39;app"
->abstract="Immetti l’ID dell’app per un’identificazione e una configurazione precise all’interno dell’ambiente operativo dell’applicazione, garantendo un’integrazione e funzionalità senza soluzione di continuità."
+>title="Fornire l’ID dell’app"
+>abstract="Inserisci l’ID dell’app per una corretta identificazione e configurazione nell’ambiente operativo dell’app, in modo da garantire integrazione e funzionalità dirette."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="Immetti l&#39;URL per l&#39;anteprima del contenuto"
+>title="Immettere l’URL per l’anteprima del contenuto"
 >abstract="Questo campo è essenziale per abilitare la simulazione e l’anteprima del contenuto direttamente sul dispositivo all’interno dell’applicazione."
 
 Per definire le impostazioni di configurazione dell’esperienza basata su codice per le piattaforme mobili, segui i passaggi indicati di seguito.

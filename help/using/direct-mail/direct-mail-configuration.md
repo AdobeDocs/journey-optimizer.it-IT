@@ -36,7 +36,7 @@ Prima di poter generare questo file, devi creare:
 >id="ajo_dm_file_routing_details"
 >title="Configurare l’indirizzamento dei file"
 >abstract="Dopo aver creato un messaggio di direct mail, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. Devi specificare i dettagli del server in modo che il provider di direct mail possa accedere e utilizzare tale file per la consegna della direct mail."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Creare un messaggio direct mail"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Creare un messaggio direct mail"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -172,7 +172,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni per direct mail"
 >abstract="Una configurazione di direct mailing contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurare l’indirizzamento dei file"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
 >[!CONTEXTUALHELP]

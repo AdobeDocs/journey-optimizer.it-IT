@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Etichette gestione dell’accesso"
->abstract="Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere una limitazione di accesso, passa al pulsante **Gestisci accesso** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione."
+>title="Etichette per la gestione degli accessi"
+>abstract="Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere un limite di accesso, seleziona il pulsante **Gestisci accesso** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione."
 
 La funzionalità OLAC (Object Level Access Control) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati a una selezione di oggetti:
 

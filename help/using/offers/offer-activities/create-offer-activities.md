@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -34,8 +34,8 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Dettagli della decisione offerta"
->abstract="Specifica il nome della decisione e, se necessario, definisci una data e un’ora di inizio e di fine. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla decisione, selezionare **[!UICONTROL Gestisci accesso]**."
+>title="Dettagli della decisione di offerta"
+>abstract="Specifica il nome della decisione e, se necessario, definisci una data e un’ora di inizio e di fine. Per assegnare etichette di utilizzo dei dati personalizzati o principali alla decisione, seleziona **[!UICONTROL Gestisci accesso]**."
 
 1. Accedi all&#39;elenco di decisioni, quindi fai clic su **[!UICONTROL Crea decisione]**.
 
@@ -52,7 +52,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="Ambiti decisionali"
->abstract="Configura uno o più ambiti per la decisione di offerta per determinare le offerte da visualizzare. Questa operazione viene eseguita selezionando un posizionamento e i relativi criteri di valutazione."
+>abstract="Configura uno o più ambiti per la decisione di offerta per determinare le offerte da visualizzare. Questa operazione viene eseguita selezionando un posizionamento e i relativi criteri di valutazione per tale posizionamento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
@@ -62,7 +62,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Criteri di valutazione"
->abstract="I criteri di valutazione consistono in una raccolta di offerte associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare nel posizionamento. La sequenza dei criteri di valutazione determina quale raccolta verrà valutata per prima. È necessario almeno un criterio di valutazione."
+>abstract="I criteri di valutazione consistono in una raccolta di offerte associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare nel posizionamento. La sequenza dei criteri di valutazione determina quale raccolta verrà valutata per prima. È necessario fornire almeno un criterio di valutazione."
 
 1. Selezionate un posizionamento dall&#39;elenco a discesa. Verrà aggiunto al primo ambito di decisione della tua decisione.
 
@@ -309,9 +309,9 @@ La selezione è la seguente:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Aggiungere un’offerta di fallback"
->abstract="Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non corrispondono alle regole e ai vincoli di idoneità delle offerte."
+>abstract="Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa alla clientela che non corrisponde alle regole e ai vincoli di idoneità delle offerte."
 
-Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non corrispondono alle regole e ai vincoli di idoneità delle offerte.
+Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa alla clientela che non corrisponde alle regole e ai vincoli di idoneità delle offerte.
 
 Per farlo, selezionalo dall&#39;elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione, quindi fai clic su **[!UICONTROL Successivo]**.
 

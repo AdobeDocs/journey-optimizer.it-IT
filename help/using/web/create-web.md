@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 18%
 >title="Creare una regola di corrispondenza delle pagine"
 >abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola. Può servire, ad esempio, per applicare a un intero sito web le modifiche apportate a un banner principale oppure per aggiungere un’immagine nella parte superiore da visualizzare su tutte le pagine dei prodotti di un sito web."
 
-Per iniziare a costruire la tua esperienza web attraverso una campagna o un percorso, seguire i passaggi riportati di seguito.
+Per iniziare a creare la tua esperienza web attraverso una campagna o un percorso, segui i passaggi seguenti.
 
 >[!NOTE]
 >
@@ -61,9 +61,9 @@ Per aggiungere un&#39;attività **Web** a un percorso, eseguire la procedura seg
 
 1. Seleziona il pulsante **[!UICONTROL Modifica contenuto]** e modifica il contenuto come desiderato. [Ulteriori informazioni](#edit-web-content)
 
-1. Se necessario, completa il flusso del percorso trascinando e rilasciando ulteriori azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
-1. Una volta pronta l&#39;esperienza web, finalizza la configurazione e pubblicare il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+1. Quando la tua esperienza web è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
 
 Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
@@ -71,11 +71,11 @@ Per ulteriori informazioni su come configurare un percorso, consultare [questa p
 
 Per iniziare a creare la tua esperienza web attraverso una campagna, segui i passaggi indicati di seguito.
 
-1. Crea una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
+1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
-1. Seleziona il tipo di campagna che desideri eseguire
+1. Seleziona il tipo di campagna da eseguire
 
-   * **Scheduled - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi marketing. Vengono configurati ed eseguiti dall&#39;interfaccia utente.
+   * **Pianificato - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi di marketing. Vengono configurati ed eseguiti dall’interfaccia utente di.
 
    * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](../campaigns/api-triggered-campaigns.md)
 
@@ -97,7 +97,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
 >[!ENDTABS]
 
-## Modificare il contenuto web {#edit-web-content}
+## Modificare i contenuti web {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -145,19 +145,19 @@ A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** nella schermata Mo
 
 ![](assets/web-designer-preview.png)
 
-Puoi anche aprirlo nel browser predefinito o copiare il URL di prova per incollarlo in qualsiasi browser. Ciò consente di condividere il collegare con i team e le parti interessate, che saranno in grado di visualizzare in anteprima la nuova esperienza Web in qualsiasi browser prima che la campagna venga pubblicata.
+Puoi anche aprirlo nel browser predefinito, oppure copiare l’URL di prova per incollarlo in qualsiasi browser. Questo ti consente di condividere il collegamento con il team e le parti interessate, che potranno visualizzare in anteprima la nuova esperienza web in qualsiasi browser prima che la campagna venga pubblicata.
 
 >[!NOTE]
 >
->Quando si copia il URL di test, il contenuto visualizzato è quello personalizzato per il profilo di test utilizzato quando è stata generata la simulazione contenuto in [!DNL Journey Optimizer].
+>Durante la copia dell&#39;URL di test, il contenuto visualizzato è quello personalizzato per il profilo di test utilizzato quando la simulazione del contenuto è stata generata in [!DNL Journey Optimizer].
 
-Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione Gestione](../content-management/preview-test.md) contenuti[.
+Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
-## Vivi la tua esperienza web {#web-experience-live}
+## Rendi live la tua esperienza web {#web-experience-live}
 
 >[!IMPORTANT]
 >
-> Se la campagna è soggetta a un regola di approvazione, sarà necessario richiesta approvazione per poter attivare le esperienze Web. [Ulteriori informazioni](../test-approve/gs-approval.md)
+> Se la campagna è soggetta a un criterio di approvazione, sarà necessario richiedere l’approvazione per poter attivare le esperienze web. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Dopo aver definito l’esperienza web e aver modificato il contenuto come desiderato, puoi attivare il percorso o la campagna per rendere le modifiche visibili al pubblico.
 
@@ -183,11 +183,11 @@ Per rendere la tua esperienza web live da un percorso, segui i passaggi indicati
    >
    >Ulteriori informazioni sulla pubblicazione di percorsi in [questa sezione](../building-journeys/publishing-the-journey.md).
 
-Il tuo percorso web occupa lo **[!UICONTROL stato Live]** ed è ora di sola lettura. Ogni destinatario del tuo viaggio può vedere le modifiche che hai aggiunto al tuo sito web.
+Il percorso Web assume lo stato **[!UICONTROL Live]** ed è ora di sola lettura. Ogni destinatario del percorso può visualizzare le modifiche aggiunte al sito web.
 
 >[!NOTE]
 >
->Dopo aver fatto clic su **[!UICONTROL Publish]**, potrebbero essere necessari fino a 15 minuti prima che le modifiche siano disponibili dal vivo sul sito Web.
+>Dopo aver fatto clic su **[!UICONTROL Publish]**, potrebbero essere necessari fino a 15 minuti perché le modifiche siano disponibili in tempo reale sul sito Web.
 
 ### Attivare una campagna web {#activate-web-campaign}
 
@@ -195,7 +195,7 @@ Una volta definite le impostazioni della campagna web e modificato il contenuto 
 
 1. Dalla tua campagna Web, seleziona **[!UICONTROL Verifica per attivare]**.
 
-1. Controlla e modifica se necessario il contenuto, le proprietà, la configurazione, il pubblico e il programmare.
+1. Se necessario, seleziona e modifica il contenuto, le proprietà, la configurazione, il pubblico e la pianificazione.
 
 1. Seleziona **[!UICONTROL Attiva]**.
 
@@ -203,13 +203,13 @@ Una volta definite le impostazioni della campagna web e modificato il contenuto 
 
    >[!NOTE]
    >
-   >Scopri maggiori informazioni sull&#39;attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
+   >Ulteriori informazioni sull&#39;attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
 
-La campagna web assume lo **[!UICONTROL stato Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può vedere le modifiche che hai aggiunto al tuo sito web.
+La tua campagna Web assume lo stato **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al sito web.
 
 >[!NOTE]
 >
->Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti prima che le modifiche alle campagne web siano disponibili live sul sito web.
+>Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti perché le modifiche alle campagne Web siano disponibili in tempo reale sul sito Web.
 >
 >Se hai definito una pianificazione per la tua campagna Web, questa avrà lo stato **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell&#39;ora di inizio.
 
@@ -239,6 +239,6 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 
 ## Video introduttivo{#video}
 
-Il video qui sotto mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicare di essa.
+Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

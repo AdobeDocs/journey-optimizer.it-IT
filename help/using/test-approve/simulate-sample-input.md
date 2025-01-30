@@ -12,7 +12,7 @@ exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulazione tramite input di esempio"
->abstract="In questa schermata, puoi testare diverse varianti del contenuto fornendo valori per i campi di personalizzazione tramite un modello CSV o JSON oppure immettendo manualmente i valori."
+>abstract="In questa schermata, puoi testare diverse varianti del contenuto fornendo valori per i campi di personalizzazione tramite un modello CSV o JSON, oppure immettendo manualmente i valori."
 
 >[!AVAILABILITY]
 >

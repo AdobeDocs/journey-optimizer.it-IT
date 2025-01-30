@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 7%
+ht-degree: 31%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static"
 >title="Raccolta statica"
->abstract="Seleziona e raggruppa manualmente le offerte utilizzando criteri quali stato, qualificatori di raccolta, data e canale."
+>abstract="Seleziona e raggruppa manualmente le offerte utilizzando criteri quali lo stato, i qualificatori di raccolta, la data e il canale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
 >title="Anteprima raccolta statica"
->abstract="Le raccolte statiche vengono create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente più offerte."
+>abstract="Le raccolte statiche vengono create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente altre offerte."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"
 >title="Anteprima raccolta dinamica"
->abstract="Le raccolte dinamiche raccolgono le offerte in base ai qualificatori di raccolta. Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il qualificatore di raccolta &quot;sport&quot;, questa verrà aggiunta automaticamente alla raccolta corrispondente."
+>abstract="Le raccolte dinamiche raccolgono le offerte in base ai qualificatori di raccolta. Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il qualificatore di raccolta “sport”, questa verrà aggiunta automaticamente alla raccolta corrispondente."
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una raccolta &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
@@ -52,7 +52,7 @@ Puoi creare due tipi di raccolte:
 
 * **Le raccolte dinamiche** sono raccolte di offerte basate su qualificatori di raccolta (noti in precedenza come &quot;tag&quot;). Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il qualificatore di raccolta selezionato, questa verrà aggiunta automaticamente alla raccolta.
 
-* **Le raccolte statiche** sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente più offerte.
+* **Le raccolte statiche** sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente altre offerte.
 
 Per creare una raccolta, effettua le seguenti operazioni:
 

@@ -4,13 +4,13 @@ description: Scopri come identificare potenziali conflitti in percorsi e campagn
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
-
 
 # Rilevare potenziali conflitti in percorsi e campagne {#conflict}
 
@@ -48,13 +48,13 @@ Di seguito è riportato un riepilogo di come Journey Optimizer identifica potenz
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
->title="Visualizza conflitti potenziali"
->abstract="Controlla ogni volta che c’è la possibilità di sovrapposizione con altre campagne. I conflitti vengono visualizzati solo per le campagne live e pianificate. Il pulsante diventa disponibile non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione canale]** e **[!UICONTROL Set regole]**."
+>title="Visualizzare i conflitti potenziali"
+>abstract="Controlla se esiste la possibilità di sovrapposizione con altre campagne. I conflitti vengono visualizzati solo per le campagne live e pianificate. Il pulsante diventa disponibile non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione dei canali]** e **[!UICONTROL Set di regole]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Visualizza conflitti potenziali"
->abstract="Controlli ogni volta che esiste la possibilità di sovrapposizione con altri percorsi. I conflitti vengono visualizzati solo per i percorsi live e pianificati. Il pulsante diventa disponibile non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione canale]** e **[!UICONTROL Set regole]**."
+>title="Visualizzare i conflitti potenziali"
+>abstract="Controlla se esiste la possibilità di sovrapposizione con altri percorsi. I conflitti vengono visualizzati solo per i percorsi live e pianificati. Il pulsante diventa disponibile non appena hai assegnato una delle seguenti impostazioni: **[!UICONTROL Data di inizio/fine]**, **[!UICONTROL Pubblico]**, **[!UICONTROL Canale]**, **[!UICONTROL Configurazione dei canali]** e **[!UICONTROL Set di regole]**."
 
 Durante la creazione di un percorso o di una campagna, Journey Optimizer consente di verificare ogni volta che esiste la possibilità di sovrapposizione con altri percorsi o campagne. Per farlo, segui questi passaggi:
 

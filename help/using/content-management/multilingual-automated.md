@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -38,7 +38,7 @@ Per creare contenuti multilingue mediante la traduzione automatica, segui la pro
 
 1. [Aggiungere il provider](multilingual-provider.md)
 
-1. [Aggiungere impostazioni locali (facoltativo)](multilingual-locale.md)
+1. [Aggiungi impostazioni internazionali (facoltativo)](multilingual-locale.md)
 
 1. [Creare un progetto lingua](#create-translation-project)
 
@@ -75,15 +75,15 @@ Avvia il progetto di traduzione specificando la lingua di Target, che indica la 
 1. Scegli se desideri abilitare le seguenti opzioni:
 
    * **[!UICONTROL Pubblica automaticamente le traduzioni approvate]**: una volta approvate, le traduzioni vengono automaticamente integrate nella campagna senza la necessità di un intervento manuale.
-   * **[!UICONTROL Abilita workflow]** revisione: applicabile solo alle lingue tradotte dall&#39;utente. Questo consente a un revisore interno di valutare e approvare o rifiutare in modo efficiente i contenuti tradotti. [Ulteriori informazioni](#review-translation-project)
+   * **[!UICONTROL Abilita flusso di lavoro di revisione]**: applicabile solo alle lingue tradotte dall&#39;utente. Questo consente a un revisore interno di valutare e approvare o rifiutare in modo efficiente i contenuti tradotti. [Ulteriori informazioni](#review-translation-project)
 
-1. Fate clic su **[!UICONTROL Aggiungi impostazioni internazionali]** per accesso al menu e definite le lingue per il progetto di traduzione.
+1. Fai clic su **[!UICONTROL Aggiungi impostazioni locali]** per accedere al menu e definire le lingue per il progetto di traduzione.
 
-   Se manca un&#39;impostazione **[!UICONTROL **[!UICONTROL  locale ]**, è possibile crearla manualmente in anticipo dal menu Traduzione]** o tramite API. Fare riferimento a Crea [una nuova lingua](#create-locale).
+   Se manca una **[!UICONTROL Lingua]**, puoi crearla manualmente in anticipo dal menu **[!UICONTROL Traduzione]** o tramite API. Consulta [Crea una nuova lingua](#create-locale).
 
    ![](assets/translation_project_3.png)
 
-1. Selezionare dall&#39;elenco le impostazioni **[!UICONTROL locali]** Target e scegliere il provider ]**di**[!UICONTROL  traduzione che si desidera utilizzare per ciascuna lingua.
+1. Seleziona dall&#39;elenco le tue **[!UICONTROL impostazioni locali di destinazione]** e scegli quale **[!UICONTROL provider di traduzione]** desideri utilizzare per ciascuna impostazione locale.
 
    È possibile accedere alle impostazioni del **[!UICONTROL provider di traduzione]** dal menu **[!UICONTROL Traduzione]** nella sezione del menu **[!UICONTROL Amministrazione]**.
 
@@ -108,16 +108,16 @@ Il progetto di traduzione viene ora creato e può essere utilizzato in una campa
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Impostazioni condizionali personalizzate"
->abstract="Le impostazioni condizionali personalizzate sono set di regole che determinano le impostazioni internazionali in cui verrà visualizzato il contenuto, in base a criteri specifici. Queste impostazioni consentono di controllare la visualizzazione del contenuto in base a fattori quali la posizione dell’utente, le preferenze della lingua o altri elementi contestuali."
+>abstract="Le impostazioni condizionali personalizzate sono set di regole che determinano in quale lingua verrà visualizzato il contenuto, in base a criteri specifici. Queste impostazioni consentono di controllare la visualizzazione del contenuto in base a fattori quali la posizione dell’utente, le preferenze della lingua o altri elementi contestuali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Preferenze di fallback"
->abstract="La scelta di una preferenza di fallback è fondamentale per migliorare esperienza di utilizzo. Se non viene selezionato alcun fallback e un profilo non soddisfa i requisiti necessari, contenuto non verrà consegnato. Selezionando un fallback appropriato, si garantisce una distribuzione contenuto coerente, lineare quando i profili non corrispondono ai criteri iniziali."
+>abstract="La scelta di una preferenza di fallback è fondamentale per migliorare l’esperienza dell’utente. Se non viene selezionato alcun fallback e un profilo non soddisfa i requisiti necessari, il contenuto non verrà consegnato. Selezionando un fallback appropriato, puoi garantire una distribuzione coerente dei contenuti, anche quando i profili non corrispondono ai criteri iniziali."
 
-In questa sezione è possibile impostare le diverse impostazioni internazionali per la gestione dei contenuto multilingue. È inoltre possibile scegliere l&#39;attributo che si desidera utilizzare per cercare informazioni correlate alla lingua del profilo.
+In questa sezione puoi impostare diverse lingue per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo.
 
-1. **[!UICONTROL Dal menu Amministrazione]**, accesso **[!UICONTROL Canale]** > **[!UICONTROL Impostazioni]** generali.
+1. Dal menu **[!UICONTROL Amministrazione]**, accedere a **[!UICONTROL Canale]** > **[!UICONTROL Impostazioni generali]**.
 
 1. Nel menu **[!UICONTROL Impostazioni lingua]**, fare clic su **[!UICONTROL Crea impostazioni lingua]**.
 
@@ -144,15 +144,15 @@ In questa sezione è possibile impostare le diverse impostazioni internazionali 
 
    ![](assets/multilingual-settings-3.png)
 
-1. Se si seleziona **[!UICONTROL Crea regole condizionali personalizzate]**, selezionare le impostazioni locali per le quali si desidera creare le condizioni. Quindi, versione le regole in base a fattori like utente la posizione, le preferenze linguistiche o altri elementi contestuali.
+1. Se si seleziona **[!UICONTROL Crea regole condizionali personalizzate]**, selezionare le impostazioni locali per le quali si desidera creare le condizioni. Quindi, crea regole in base a fattori come la posizione dell’utente, le preferenze della lingua o altri elementi contestuali.
 
    ![](assets/language_settings_3.png)
 
-1. Inizia creare condizioni aggiungendo un attributo, un evento o un pubblico per definire il gruppo di destinazione.
+1. Inizia a creare le condizioni aggiungendo un attributo, un evento o un pubblico per definire il gruppo target.
 
    >[!IMPORTANT]
    >
-   >I dati contestuali sono disponibili esclusivamente per i canali Web, In-app, Code-based Experience e Content. Se utilizzato per i canali Email, SMS, Push notifica o Direct mailing, senza attributi aggiuntivi, la campagna o il viaggio verrà inviato nella lingua della prima opzione dell&#39;elenco.
+   >I dati contestuali sono disponibili esclusivamente per i canali Web, In-App, basati su codice per le schede di esperienza e di contenuto. Se utilizzata per i canali E-mail, SMS, Notifica push o Direct mail, senza attributi aggiuntivi, la campagna o il percorso verrà inviato nella lingua della prima opzione dell’elenco.
 
    ![](assets/multilingual-settings-6.png)
 
@@ -168,7 +168,7 @@ In questa sezione è possibile impostare le diverse impostazioni internazionali 
 
    1. Accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
-   1. Nella sezione SE ]**del**[!UICONTROL  regola, aggiungi un evento configurato come segue:
+   1. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -232,15 +232,15 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
 
    ![](assets/multilingual-campaign-automated-1.png)
 
-1. Seleziona le impostazioni ]**Lingua create**[!UICONTROL  in precedenza.
+1. Seleziona le **[!UICONTROL Impostazioni lingua]** create in precedenza.
 
    ![](assets/multilingual-campaign-automated-2.png)
 
-1. Ora che le impostazioni locali sono state importate, fare clic su **[!UICONTROL Invia per tradurre]** per inoltrare il contenuto al provider di traduzione selezionato in precedenza.
+1. Dopo aver importato le impostazioni internazionali, fai clic su **[!UICONTROL Invia per tradurre]** per inoltrare il contenuto al provider di traduzione selezionato in precedenza.
 
    ![](assets/multilingual-campaign-automated-3.png)
 
-1. Una volta inviato per la traduzione, il contenuto non sarà più modificabile. Per apportare modifiche al contenuto originale, fai clic sull&#39;icona di blocco.
+1. Una volta inviato per la traduzione, il contenuto non è più modificabile. Per apportare modifiche al contenuto originale, fai clic sull’icona del lucchetto.
 
    Tieni presente che se desideri apportare modifiche a questo contenuto, dovrai creare un nuovo progetto di traduzione e inviarlo di nuovo per la traduzione.
 
@@ -272,19 +272,19 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
 
    ![](assets/translation_review_9.png)
 
-1. Fate clic su **[!UICONTROL Rivedi per attivare]** e visualizzare un riepilogo della campagna.
+1. Fai clic su **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo della campagna.
 
-   Il riepilogo consente di modificare la campagna, se necessario, e di verificare se un parametro è errato o mancante.
+   Il riepilogo ti consente di modificare la campagna, se necessario, e di verificare se un parametro è errato o mancante.
 
-1. Sfoglia il tuo contenuto multilingue per visualizzare il rendering in ogni lingua.
+1. Sfoglia i contenuti multilingue per visualizzare il rendering in ogni lingua.
 
    ![](assets/multilingual-campaign-automated-7.png)
 
-1. Verifica che la campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
+1. Verifica che la tua campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
 
    >[!IMPORTANT]
    >
-   > Se la tua campagna è soggetta a un regola di approvazione, dovrai richiesta approvazione per poter inviare la campagna multilingue. [Ulteriori informazioni](../test-approve/gs-approval.md)
+   > Se la campagna è soggetta a un criterio di approvazione, per poter inviare la campagna multilingue dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l’impatto del percorso multilingue o della campagna all’interno dei rapporti.
 
@@ -329,11 +329,11 @@ Se questa opzione è disabilitata, al termine della traduzione da parte del prov
 
 1. Una volta completata la traduzione dal provider di servizi, puoi accedere alla traduzione per la revisione dal **[!UICONTROL progetto di traduzione]** o direttamente dalla **[!UICONTROL Campaign]**.
 
-   **[!UICONTROL Dal menu Altre azioni]**, fate clic su **[!UICONTROL Rivedi]**.
+   Dal menu **[!UICONTROL Altre azioni]**, fai clic su **[!UICONTROL Rivedi]**.
 
    ![](assets/translation_review_1.png)
 
-1. Dalla finestra Revisione, sfogliate i contenuto tradotti e accettate o rifiutate ciascuna stringa di traduzione.
+1. Dalla finestra Revisione, sfoglia il contenuto tradotto e accetta o rifiuta ogni stringa di traduzione.
 
    ![](assets/translation_review_3.png)
 

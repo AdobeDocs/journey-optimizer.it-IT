@@ -4,13 +4,13 @@ description: Scopri come creare regole di limite per i percorsi e come arbitrare
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
-
 
 # Limitazione del percorso e arbitrato {#journey-capping}
 
@@ -27,7 +27,7 @@ Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbi
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-## Creazione di una regola di limite di percorso {#create-rule}
+## Creare una regola di limitazione del percorso {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -37,7 +37,7 @@ Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbi
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="Tipo di regola"
->abstract="Specifica il tipo di limite per la regola. **[!UICONTROL Limite Percorso di accesso]** limita il numero di ingressi nel percorso in un determinato periodo per un profilo, mentre **[!UICONTROL Limite Percorso di accesso]** limita il numero di percorsi in cui un profilo può essere iscritto contemporaneamente."
+>abstract="Specifica il tipo di limitazione per la regola. Il **[!UICONTROL Limite di ingresso al percorso]** limita il numero di ingressi nel percorso per un profilo in un determinato periodo, mentre il **[!UICONTROL Limite di simultaneità del percorso]** limita il numero di percorsi in cui un profilo può essere iscritto contemporaneamente."
 
 Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 

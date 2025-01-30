@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="Fallback offer (Offerta fallback)"
->abstract="Un’offerta di fallback è l’offerta predefinita che viene visualizzata se un utente finale non è idoneo per nessuna delle offerte personalizzate."
+>abstract="Un’offerta di fallback è l’offerta predefinita che viene visualizzata quando un utente finale non è idoneo per alcuna delle offerte personalizzate."
 
 Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 

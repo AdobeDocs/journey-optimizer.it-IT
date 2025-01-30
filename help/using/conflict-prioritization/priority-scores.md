@@ -4,25 +4,25 @@ description: Scopri come assegnare punteggi di priorità a percorsi e campagne.
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 13%
+ht-degree: 47%
 
 ---
-
 
 # Assegnare punteggi di priorità a percorsi e campagne {#priority}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità alla campagna. La priorità è essenziale per assegnare la priorità a una campagna in presenza di un vincolo imposto, ad esempio un limite di frequenza.Immettere un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. Per le situazioni in cui due campagne hanno lo stesso punteggio di priorità, verrà visualizzata la campagna attivata per prima."
+>abstract="Assegna un punteggio di priorità alla campagna. La priorità è essenziale per dare precedenza a una campagna in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due campagne hanno lo stesso punteggio di priorità, la campagna attivata verrà visualizzata per prima."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per assegnare la priorità a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza.Immettere un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. Per le situazioni in cui due percorsi hanno lo stesso punteggio di priorità, verrà mostrato il percorso attivato per primo."
+>abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per dare precedenza a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due percorsi hanno lo stesso punteggio di priorità, il percorso attivato verrà visualizzato per primo."
 
 >[!AVAILABILITY]
 >
@@ -42,7 +42,7 @@ Per assegnare un punteggio di priorità a un percorso o a una campagna, immetter
 
 ![](assets/priority-score.png)
 
-Per le situazioni in cui due campagne hanno lo stesso punteggio di priorità, verrà visualizzata la campagna attivata per prima.
+In situazioni dove due campagne hanno lo stesso punteggio di priorità, la campagna attivata verrà visualizzata per prima.
 
 ## Video introduttivo {#video}
 

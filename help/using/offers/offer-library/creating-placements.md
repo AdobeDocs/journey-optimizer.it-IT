@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 11%
+ht-degree: 31%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
->title="Impostazioni richiesta"
->abstract="Abilita l&#39;opzione **[!UICONTROL Consenti duplicati tra posizionamenti]** per fare in modo che il sistema consideri la stessa offerta per più posizionamenti. Utilizza il campo **[!UICONTROL Richiedi offerta]** per regolare il numero di offerte restituite. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito di decisione selezionato."
+>title="Impostazioni della richiesta"
+>abstract="Abilita l’opzione **[!UICONTROL Consenti duplicati tra posizionamenti]** per fare in modo che il sistema consideri la stessa offerta per più posizionamenti. Utilizza il campo **[!UICONTROL Richiedi offerta]** per regolare il numero di offerte restituite. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito decisionale selezionato."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"
 >title="Formato di risposta"
->abstract="Le opzioni **[!UICONTROL Includi contenuto]** e **[!UICONTROL Includi metadati]** consentono di specificare se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere solo tutti i metadati o campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su true."
+>abstract="Le opzioni **[!UICONTROL Includi contenuto]** e **[!UICONTROL Includi metadati]** consentono di specificare se il contenuto e i metadati dell’offerta devono essere restituiti nella risposta API. Puoi includere tutti i metadati o solo i campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su vero."
 
 Il posizionamento garantisce che il contenuto dell’offerta corretta venga visualizzato nella posizione corretta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
@@ -63,9 +63,9 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
      Se questa opzione è impostata su false per qualsiasi posizionamento in una richiesta di decisione, tutti i posizionamenti nella richiesta ereditano l’impostazione &quot;false&quot;.
 
-   * **[!UICONTROL Richiesta offerta]**: per impostazione predefinita, viene restituita un&#39;offerta dell&#39;ambito di decisione per ogni profilo. Puoi regolare il numero di offerte restituite utilizzando questa opzione. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito di decisione selezionato.
+   * **[!UICONTROL Richiesta offerta]**: per impostazione predefinita, viene restituita un&#39;offerta dell&#39;ambito di decisione per ogni profilo. Puoi regolare il numero di offerte restituite utilizzando questa opzione. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito decisionale selezionato.
 
-   * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere solo tutti i metadati o campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su true.
+   * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere tutti i metadati o solo i campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su vero.
 
    Questi parametri possono anche essere impostati direttamente nella richiesta API se si utilizza l&#39;[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
 

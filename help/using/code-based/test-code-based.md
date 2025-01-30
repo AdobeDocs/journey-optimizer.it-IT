@@ -9,7 +9,7 @@ exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -38,27 +38,27 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili in [questa sezione](../content-management/preview.md).
 
-## Anteprima sul dispositivo {#preview-on-device}
+## Anteprima su dispositivo {#preview-on-device}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
 >title="Visualizzare in anteprima l’esperienza basata su codice su un dispositivo reale"
->abstract="Visualizza un’anteprima delle tue esperienze personalizzate direttamente sul browser o sui dispositivi mobili, per visualizzarne l’aspetto su dispositivi reali."
+>abstract="Visualizza un’anteprima delle tue esperienze personalizzate direttamente sul browser o sui dispositivi mobili e scopri come si presentano su dispositivi reali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="Anteprima dell’esperienza web basata su codice sul dispositivo"
->abstract="Esegui la scansione del codice QR o copia il collegamento per visualizzarne l’anteprima sul dispositivo."
+>title="Visualizzare l’esperienza web basata su codice in anteprima su un dispositivo"
+>abstract="Scansiona il codice QR o copia il collegamento per visualizzare l’anteprima sul dispositivo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="Anteprima dell’esperienza mobile basata su codice sul dispositivo"
->abstract="Esegui la scansione del codice QR o copia il collegamento per visualizzarne l’anteprima sul dispositivo. Una volta collegato, inserire il pin sul dispositivo. Per visualizzare le modifiche apportate a ogni aggiornamento dei collegamenti di anteprima, potrebbe essere necessario riavviare l&#39;app."
+>title="Visualizzare l’esperienza mobile basata su codice in anteprima su un dispositivo"
+>abstract="Scansiona il codice QR o copia il collegamento per visualizzare l’anteprima sul dispositivo. Una volta collegato, inserisci il PIN sul dispositivo. Per visualizzare le modifiche ogni volta che aggiorni i collegamenti di anteprima, potrebbe essere necessario riavviare l’app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
->title="Aggiorna il collegamento di anteprima per riflettere la visualizzazione corrente"
->abstract="L’anteprima sul dispositivo mostrerà il contenuto al momento della creazione o dell’aggiornamento del collegamento di anteprima. Se hai modificato il contenuto o selezionato un profilo di test o un trattamento diverso, aggiorna l’anteprima in modo che rifletta la vista corrente."
+>title="Aggiornare il collegamento di anteprima per riportare la vista corrente"
+>abstract="L’anteprima sul dispositivo mostrerà il contenuto al momento della creazione o dell’aggiornamento del collegamento di anteprima. Se hai modificato il contenuto o selezionato un diverso trattamento o profilo di test, aggiorna l’anteprima in modo che riporti la vista corrente."
 
 Quando crei esperienze basate su codice per pagine web o app mobili, puoi visualizzare in anteprima le tue esperienze personalizzate direttamente sul browser o sui dispositivi mobili, per vedere come si presentano su dispositivi reali.
 
