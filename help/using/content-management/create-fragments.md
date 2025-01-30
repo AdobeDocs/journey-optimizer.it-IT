@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 
 ---
 
@@ -21,13 +21,15 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="Seleziona il tipo visivo"
 >abstract="Crea un frammento visivo autonomo per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Aggiungi frammenti visivi alle e-mail"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments&quot; text=&quot;Aggiungi frammenti visivi alle e-mail&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Seleziona il tipo di espressione"
 >abstract="Crea da zero un frammento di espressione autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne. Quando utilizzi l’editor di personalizzazione, puoi sfruttare tutti i frammenti di espressione che sono stati creati nella sandbox corrente."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Sfruttare i frammenti di espressione"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments&quot; text=&quot;Sfrutta i frammenti di espressione&quot;—>
 
 I frammenti possono essere creati da zero dal menu a sinistra **[!UICONTROL Frammenti]**. Inoltre, è possibile anche salvare una parte del contenuto esistente come frammento durante la progettazione. [Scopri come](#save-as-fragment)
 
