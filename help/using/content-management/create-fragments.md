@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
@@ -83,7 +83,7 @@ Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima
 
 1. Torna alla schermata di creazione del frammento dopo averne progettato il contenuto oppure aprilo dall’elenco dei frammenti.
 
-1. Nel campo **[!UICONTROL Tag]** è disponibile un&#39;anteprima del frammento che consente di verificarne il rendering. Se devi apportare delle modifiche, fai clic sul pulsante **[!UICONTROL Modifica]** nella sezione superiore della schermata per aprire E-mail Designer o l&#39;editor di personalizzazione a seconda del tipo di frammento.
+1. Nel campo **[!UICONTROL Tag]** è disponibile un&#39;anteprima del frammento che consente di verificarne il rendering. Se devi apportare delle modifiche, fai clic sul pulsante **[!UICONTROL Modifica]** nella sezione superiore della schermata per aprire E-mail Designer o l&#39;editor di personalizzazione, a seconda del tipo di frammento. [Ulteriori informazioni](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 

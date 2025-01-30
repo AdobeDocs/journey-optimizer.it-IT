@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 11%
 
 ---
@@ -38,7 +38,7 @@ Puoi anche scegliere di visualizzare tutti i frammenti o solo gli elementi creat
 Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 
 * Aggiungilo a un pacchetto per l’esportazione. [Ulteriori informazioni](#export)
-* Se il frammento è attivo, apri una bozza della versione per modificarlo. [Ulteriori informazioni](#edit-fragments)
+* Se è in corso la modifica di un frammento attivo, apri la versione bozza del frammento. [Ulteriori informazioni](#edit-fragments)
 * Duplica il frammento.
 * Utilizza l&#39;opzione **[!UICONTROL Esplora riferimenti]** per visualizzare i percorsi, le campagne o i modelli in cui viene utilizzato. [Ulteriori informazioni](#explore-references)
 * Archivia il frammento. [Ulteriori informazioni](#archive-fragments)
