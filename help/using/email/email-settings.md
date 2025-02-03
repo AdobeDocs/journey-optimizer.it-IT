@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2834'
 ht-degree: 11%
 
 ---
@@ -85,8 +85,8 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Inserisci punti finali personalizzati per annullamento iscrizione a mailing list"
->abstract="Se gestisci il consenso all&#39;esterno di Adobe, seleziona l&#39;opzione **Gestione clienti** per immettere un indirizzo e-mail personalizzato per l&#39;annullamento dell&#39;iscrizione e il tuo URL personalizzato con un solo clic. In questo caso, tieni presente che Adobe non memorizza alcuna informazione relativa all’annullamento dell’abbonamento. Il proprietario delle informazioni sul consenso dei clienti è responsabile della gestione dei loro dati sul consenso e del loro invio a Journey Optimizer."
+>title="Definire la modalità di gestione dei dati di annullamento dell’abbonamento"
+>abstract="**Adobe gestito**: i dati di consenso sono gestiti dall&#39;utente all&#39;interno dell&#39;Adobe.<br>**Gestione clienti**: i dati di consenso vengono gestiti dall&#39;utente in un sistema esterno e la sincronizzazione dei dati di consenso non viene aggiornata nell&#39;Adobe a meno che non sia stata avviata dall&#39;utente."
 
 <!--Do not modify - Legal Review Done -->
 
