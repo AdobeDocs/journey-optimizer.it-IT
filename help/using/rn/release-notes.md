@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
-source-wordcount: '2172'
-ht-degree: 100%
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 99%
 
 ---
 
@@ -40,6 +40,14 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+### Miglioramenti {#25-01-improvements}
+
+Questa versione include i miglioramenti elencati di seguito.
+
+**Funzione decisioni**
+
+* Decisioning ora supporta i tipi di dati Oggetto quando si modifica lo schema del catalogo elementi. [Ulteriori informazioni](../experience-decisioning/catalogs.md)
 
 ## Versione di ottobre 2024 {#24-10-rn}
 
