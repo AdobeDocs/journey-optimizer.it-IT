@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 22%
+source-wordcount: '2390'
+ht-degree: 27%
 
 ---
 
@@ -102,37 +102,116 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
 
 <table>
     <tr>
-        <td><a href="dates.md#age">Età</a></td><td>Questa funzione recupera l’età da una data specificata</td>
+        <td><a href="dates.md#add-days">Aggiungi giorni</a></td><td>Questa funzione regola una data specificata di un numero specificato di giorni, utilizzando valori positivi per incrementare e valori negativi per diminuire.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Ora corrente in millisecondi</a></td><td>Questa funzione recupera l’ora corrente in millisecondi epoca</td>
+        <td><a href="dates.md#add-hours">Aggiungi ore</a></td><td>Questa funzione regola una data specificata di un numero specificato di ore, utilizzando valori positivi per incrementare e valori negativi per diminuire.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-minutes">Aggiungi minuti</a></td><td>Questa funzione regola una data specificata di un numero specificato di minuti, utilizzando valori positivi per incrementare e valori negativi per diminuire.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-months">Aggiungi mesi</a></td><td>Questa funzione regola una data specificata di un numero specificato di mesi, utilizzando valori positivi per incrementare e valori negativi per diminuire.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-seconds">Aggiungi secondi</a></td><td>Questa funzione regola una data specificata di un numero specificato di secondi, utilizzando valori positivi per incrementare e valori negativi per diminuire.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-years">Aggiungi anni</a></td><td>Questa funzione adegua una data specificata di un numero specificato di anni, utilizzando valori positivi per incrementare e valori negativi per diminuire.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age">Età</a></td><td>Questa funzione recupera l’età da una data specificata.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-days">Età in giorni</a></td><td>Questa funzione calcola l’età di una data specificata in giorni, ovvero il numero di giorni trascorsi tra la data specificata e la data corrente, negativo per le date future e positivo per le date passate.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-months">Età in mesi</a></td><td>Questa funzione calcola l’età di una data specificata in mesi, ovvero il numero di mesi trascorsi tra la data specificata e la data corrente, negativo per le date future e positivo per le date passate.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#compare-dates">Confronta date</a></td><td>Questa funzione confronta la prima data di input con l’altra. Restituisce 0 se date1 è uguale a date2, -1 se date1 è precedente a date2 e 1 se date1 è successiva a date2.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#convert-zoned-date-time">Converti ZonedDateTime</a></td><td>Questa funzione converte una data/ora in un determinato fuso orario.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Ora corrente in millisecondi</a></td><td>Questa funzione recupera l’ora corrente in millisecondi epoca.</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Differenza data</a></td><td>Questa funzione recupera la differenza tra due date in numero di giorni.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">Giorno della settimana</a></td><td>Questa funzione recupera il giorno della settimana</td>
+        <td><a href="dates.md#day-month">Giorno del mese</a></td><td>Questa funzione restituisce il numero che rappresenta il giorno del mese.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Giorno dell’anno</a></td><td>Questa funzione recupera il giorno dell’anno</td>
+        <td><a href="dates.md#day-week">Giorno della settimana</a></td><td>Questa funzione recupera il giorno della settimana.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Formato data</a></td><td>Questa funzione formatta un valore di data e ora</td>
+        <td><a href="dates.md#day-year">Giorno dell’anno</a></td><td>Questa funzione recupera il giorno dell’anno.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-seconds">Differenza in secondi</a></td><td>Questa funzione restituisce la differenza tra due date in termini di secondi.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-hours">Estrai ore</a></td><td>Questa funzione estrae il componente ora da una marca temporale determinata.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-minutes">Estrai minuti</a></td><td>Questa funzione estrae il componente minuto da una determinata marca temporale.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-months">Estrai mesi</a></td><td>Questa funzione estrae il componente mese da una data marca temporale.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-seconds">Estrai secondi</a></td><td>Questa funzione estrae il secondo componente da una marca temporale determinata.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Formato data</a></td><td>Questa funzione formatta un valore di data e ora.</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">Formattare la data con il supporto delle impostazioni internazionali</a></td><td>Questa funzione formatta un valore di data e ora nella corrispondente rappresentazione sensibile alla lingua, ovvero nelle impostazioni internazionali desiderate.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Imposta giorni</a></td><td>Questa funzione imposta il giorno del mese per la data/ora specificata</td>
+        <td><a href="dates.md#get-current-zoned-date-time">Ottieni CurrentZonedDateTime</a></td><td>Questa funzione restituisce la data e l’ora correnti con le informazioni sul fuso orario.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Imposta ore</a></td><td>Questa funzione imposta l’ora della data/ora</td>
+        <td><a href="dates.md#hours-difference">Differenza ore</a></td><td>Questa funzione restituisce la differenza tra due date in termini di ore.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-minutes">Differenza minuti</a></td><td>Questa funzione restituisce la differenza tra due date in termini di minuti.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#months-difference">Differenza mesi</a></td><td>Questa funzione restituisce la differenza tra due date in termini di mesi.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Imposta giorni</a></td><td>Questa funzione imposta il giorno del mese per la data/ora specificata.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Imposta ore</a></td><td>Questa funzione imposta l’ora della data/ora.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-date-time">A data/ora</a></td><td>Questa funzione converte la stringa in data. In caso di input non valido, restituisce la data epoca come output.</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">A UTC</a></td><td>Questa funzione converte un datetime in UTC.</td>
     </tr>
     <tr>
+        <td><a href="dates.md#truncate-day">Tronca a Inizio del giorno</a></td><td>Questa funzione modifica una data-ora impostandola sull’inizio del giorno con l’ora impostata su 00:00.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>Questa funzione tronca una data/ora al primo giorno del trimestre (ad esempio 1 gennaio, 1 aprile, 1 luglio, 1 ottobre) alle 00:00.
+</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>Questa funzione modifica una data-ora determinata impostandola sull’inizio della settimana (lunedì alle 00:00).</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>Questa funzione modifica una data-ora determinata troncandola al primo giorno dell’anno (1° gennaio) alle 00:00.</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#week-of-year">Settimana dell’anno</a></td><td>Questa funzione restituisce la settimana dell’anno.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-years">Differenza anni</a></td><td>Questa funzione restituisce la differenza tra due date in termini di anni.</td>
     </tr>
 </table>
 </table>
@@ -301,7 +380,7 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
         <td><a href="string.md#rightTrim">Taglia a destra</a></td><td>Questa funzione rimuove gli spazi bianchi dalla fine di una stringa. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Divisione</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
+        <td><a href="string.md#split">Dividi</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Inizia con</a></td><td>Questa funzione viene utilizzata per determinare se una stringa inizia con una sottostringa specificata</td>
