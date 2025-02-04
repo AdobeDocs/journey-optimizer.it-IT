@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 49%
+source-wordcount: '1593'
+ht-degree: 41%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 49%
 >title="Origini dati esterne"
 >abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne."
 
+## Utilizzare origini dati esterne {#gs-ext-data-sources}
+
 Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
 >[!NOTE]
 >
->I guardrail quando si lavora con sistemi esterni sono elencati in [questa pagina](../configuration/external-systems.md).
-
->[!NOTE]
+>* I guardrail quando si lavora con sistemi esterni sono elencati in [questa pagina](../configuration/external-systems.md).
 >
->Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
+>* Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
@@ -44,7 +44,10 @@ Di seguito sono riportati due esempi della chiamata API:
 
 La chiamata è composta da un URL principale, _https://api.adobeweather.org/weather_, due set di parametri (&quot;city&quot; per la città e &quot;lat/long&quot; per la latitudine e la longitudine) e la chiave API (appid).
 
-Di seguito sono riportati i passaggi principali per la creazione e la configurazione di una nuova origine dati esterna:
+
+## Creare e configurare un’origine dati esterna {#create-ext-data-sources}
+
+Di seguito sono riportati i passaggi principali per creare e configurare una nuova origine dati esterna:
 
 1. Nell&#39;elenco delle origini dati fare clic su **[!UICONTROL Crea Source dati]** per creare una nuova origine dati esterna.
 
@@ -75,9 +78,12 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    >[!NOTE]
    >
-   >Quando viene eseguita la chiamata di autenticazione, la stringa `<username>:<password>`, codificata in base64, viene aggiunta nell&#39;intestazione Autenticazione.
+   >* Quando viene eseguita la chiamata di autenticazione, la stringa `<username>:<password>`, codificata in base64, viene aggiunta nell&#39;intestazione Autenticazione.
+   >
+   >* Adobe Journey Optimizer crittografa automaticamente i segreti definiti nelle azioni personalizzate. Le chiavi di crittografia di ogni organizzazione vengono gestite in modo sicuro in un archivio dedicato associato alla rispettiva organizzazione. Quando le credenziali vengono visualizzate nell’interfaccia, vengono nascoste per impostazione predefinita per evitare esposizioni accidentali.
 
-   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API:
+
+   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API, come segue:
 
    * **[!UICONTROL Tipo]**: &quot;Chiave API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (nome del parametro della chiave API)
@@ -108,28 +114,28 @@ In caso di una chiamata di GET che richieda i parametri, inseriscili nel campo *
 
 ![](assets/journey29.png)
 
-Fai clic su **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 L’origine dati è ora configurata ed è pronta per essere utilizzata nei percorsi, ad esempio nelle tue condizioni o per personalizzare un’e-mail. Se la temperatura è superiore a 30°C, puoi decidere di inviare una comunicazione specifica.
 
-## Modalità di autenticazione personalizzata{#custom-authentication-mode}
+## Modalità di autenticazione personalizzata {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Informazioni sull’autenticazione personalizzata"
 >abstract="La modalità di autenticazione personalizzata viene utilizzata per l’autenticazione complessa destinata al richiamo dei protocolli di wrapping di API come OAuth2. L’esecuzione dell’azione è un processo suddiviso in due fasi. Innanzitutto, viene eseguita una chiamata all’endpoint per la generazione del token di accesso. Quindi, il token di accesso viene inserito nella richiesta HTTP dell’azione."
 
-Questa modalità di autenticazione viene utilizzata per la tipologia complessa, spesso impiegata per la chiamata dei protocolli di wrapping API come OAuth2 e per il recupero di un token di accesso da inserire nella richiesta HTTP effettiva per l’azione.
+La modalità di autenticazione personalizzata viene utilizzata per l’autenticazione complessa, spesso utilizzata per chiamare protocolli di wrapping API come OAuth2 e per recuperare un token di accesso da inserire nella richiesta HTTP effettiva per l’azione.
 
-Quando configuri l’autenticazione personalizzata, puoi fare clic sul pulsante seguente per verificare la corretta configurazione del payload di autenticazione personalizzata.
+Quando configuri l&#39;autenticazione personalizzata, utilizza il pulsante **[!UICONTROL Fai clic per controllare l&#39;autenticazione]** per controllare se il payload di autenticazione personalizzata è configurato correttamente.
 
 ![](assets/journey29-bis.png)
 
-Se il test ha esito positivo, il pulsante diventa verde.
+Quando il test ha esito positivo, il pulsante diventa verde.
 
 ![](assets/journey29-ter.png)
 
-Con questa autenticazione, l’esecuzione dell’azione è un processo suddiviso in due fasi:
+Con questa modalità di autenticazione, l’esecuzione dell’azione è un processo in due fasi:
 
 1. Chiama l’endpoint per generare il token di accesso.
 1. Chiama l’API REST inserendo il token di accesso nel modo appropriato.
