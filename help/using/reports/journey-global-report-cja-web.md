@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '576'
 ht-degree: 2%
 
 ---
 
-# Rapporto percorso web {#journey-global-report}
+# Rapporto sul percorso web {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Il report del percorso può mostrare informazioni provenienti da più percorsi contemporaneamente, in quanto gli utenti possono essere coinvolti in più percorsi alla volta. Di conseguenza, le comunicazioni in entrata (in-app, web e basate su codice) possono essere visualizzate in più percorsi se sono state attivate per un utente che partecipa a percorsi attivi simultanei, il che può causare la sovrapposizione dei dati.
+
+>[!ENDSHADEBOX]
 
 ## Tendenza impression e clic {#impressions-web}
 
@@ -115,4 +122,3 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 * **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
 
 +++
-

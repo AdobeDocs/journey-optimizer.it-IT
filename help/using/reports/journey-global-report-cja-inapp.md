@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '563'
 ht-degree: 2%
 
 ---
 
-# Rapporto percorso in-app {#journey-global-report}
+# Rapporto sul percorso in-app {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Il report del percorso può mostrare informazioni provenienti da più percorsi contemporaneamente, in quanto gli utenti possono essere coinvolti in più percorsi alla volta. Di conseguenza, le comunicazioni in entrata (in-app, web e basate su codice) possono essere visualizzate in più percorsi se sono state attivate per un utente che partecipa a percorsi attivi simultanei, il che può causare la sovrapposizione dei dati.
+
+>[!ENDSHADEBOX]
 
 ## Tendenza impression e clic {#impression-click-trend}
 
