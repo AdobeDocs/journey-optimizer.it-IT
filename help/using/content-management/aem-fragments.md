@@ -8,14 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
-# Frammenti di contenuto Adobe Experience Manager {#aem-fragments}
+# Frammenti di contenuto di Adobe Experience Manager {#aem-fragments}
 
 Integrando Adobe Experience Manager con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nel contenuto dell’e-mail Journey Optimizer. Questa connessione semplificata semplifica l’accesso ai contenuti dell’AEM e la loro utilizzazione, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
@@ -66,16 +67,9 @@ Dopo aver creato e personalizzato i [Frammenti di contenuto AEM](https://experie
 
 1. Seleziona un **[!UICONTROL frammento di contenuto]** dall&#39;elenco disponibile per l&#39;importazione nel contenuto di Journey Optimizer.
 
-   >[!IMPORTANT]
-   >
-   >È possibile utilizzare solo i **[!UICONTROL frammenti di contenuto]** pubblicati.
-
 1. Fai clic su **[!UICONTROL Mostra filtri]** per ottimizzare l&#39;elenco dei frammenti di contenuto.
 
-   Il selettore Frammento di contenuto include filtri preconfigurati:
-
-   * **[!UICONTROL Stato]**: pubblicato, modificato
-   * **[!UICONTROL Tag]**: definito automaticamente in base all&#39;ambiente Journey Optimizer (ID organizzazione e sandbox)
+   Per impostazione predefinita, il filtro Frammento di contenuto è predefinito per visualizzare solo il contenuto approvato.
 
    ![](assets/aem_campaign_4.png)
 
@@ -83,11 +77,12 @@ Dopo aver creato e personalizzato i [Frammenti di contenuto AEM](https://experie
 
    ![](assets/aem_campaign_5.png)
 
-1. Scegli i campi desiderati dal **[!UICONTROL frammento di contenuto]** da aggiungere al contenuto.
+1. Scegli i campi desiderati dal **[!UICONTROL frammento di contenuto]** da aggiungere al contenuto. Puoi aggiungere il contenuto o copiarne il valore.
+
+   Se scegli di copiare il valore, eventuali aggiornamenti futuri al **[!UICONTROL frammento di contenuto]** non verranno inclusi nella campagna o nel percorso.
 
    ![](assets/aem_campaign_6.png)
 
 1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell&#39;anteprima. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](preview.md).
 
 Dopo aver eseguito i test e convalidato il contenuto, puoi inviare la tua e-mail al pubblico con la tua [campagna](../campaigns/review-activate-campaign.md) o [Percorso](../building-journeys/publishing-the-journey.md).
-
