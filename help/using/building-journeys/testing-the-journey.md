@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 10%
+source-wordcount: '1644'
+ht-degree: 9%
 
 ---
 
@@ -61,8 +61,8 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 ## Note importanti {#important_notes}
 
-* In modalità di test, puoi attivare gli eventi utilizzando l’interfaccia. Gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API.
-* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Consulta questa [sezione](../audience/creating-test-profiles.md).
+* In modalità di test, è possibile attivare eventi solo utilizzando l’interfaccia. Gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API.
+* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale possono accedere al percorso testato. Consulta questa [sezione](../audience/creating-test-profiles.md).
 * La modalità di test è disponibile solo nei percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere Adobe Experience Platform.
 * Il numero massimo di profili di test che può entrare in un percorso durante una sessione di test è 100.
 * Quando disattivi la modalità di test, i percorsi vengono svuotati da tutte le persone che vi sono entrate in passato o che vi si trovano attualmente. Cancella anche la segnalazione.
@@ -71,6 +71,8 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi.
 * Per ottimizzare le prestazioni ed evitare l&#39;utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato **Bozza**.
 * Gli eventi attivati dalla modalità di test vengono memorizzati in set di dati dedicati. Questi set di dati sono etichettati come segue: `JOtestmode - <schema of your event>`
+* Quando esegui il test di percorsi che includono più eventi, devi attivare ogni evento in sequenza. L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) elimina l’evento e invia il profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
+
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -87,9 +89,13 @@ Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento
 
 >[!NOTE]
 >
->Quando si attiva un evento in modalità di test, viene generato un evento reale, che si verifica quindi anche in un altro percorso che ascolta l’evento.
+>* Quando si attiva un evento in modalità di test, viene generato un evento reale, che si verifica quindi anche in un altro percorso che ascolta l’evento.
+>
+>*Assicurarsi che ogni evento nel modo di test sia attivato nell&#39;ordine corretto e all&#39;interno della finestra di attesa configurata. Ad esempio, in caso di attesa di 60 secondi, il secondo evento deve essere attivato solo dopo che è trascorso tale attesa di 60 secondi e prima della scadenza del limite di timeout.
+>
 
 Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
+
 
 Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e a verificare che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
 
