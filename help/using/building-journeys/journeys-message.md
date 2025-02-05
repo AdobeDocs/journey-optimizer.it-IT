@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1308'
 ht-degree: 19%
 
 ---
@@ -96,7 +96,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
       <a href="../content-card/create-content-card.md">
       <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
       </a>
-      <div><a href="../content-card/create-content-card.md"><strong>Crea schede contenuto</strong>
+      <div><a href="../content-card/create-content-card.md"><strong>Creare schede di contenuti</strong>
       </div>
       <p>
       </td>
@@ -158,7 +158,7 @@ Tieni presente che per l’attività in-app è possibile apportare qualsiasi mod
 
 ### Informazioni sull’ottimizzazione dell’ora di invio {#about-send-time}
 
-La funzione di ottimizzazione dell&#39;ora di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un **messaggio e-mail** o **messaggio push** per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
+La funzione di ottimizzazione dell&#39;ora di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un **messaggio e-mail** o **messaggio push** in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
 
 Il modello di ottimizzazione dell’ora di invio acquisisce i dati Adobe Journey Optimizer e osserva le percentuali di apertura (e-mail e push) e clic (per e-mail) a livello di utente, per determinare quando i clienti hanno più probabilità di interagire con i messaggi. L’ottimizzazione dell’ora di invio richiede almeno un mese di dati di tracciamento dei messaggi per generare consigli informati. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i punteggi seguenti:
 
@@ -183,8 +183,11 @@ Send-Time Optimization cerca di prevedere il momento migliore per interagire con
 
 +++Dove posso trovare il tempo di invio previsto per ciascun profilo?
 
-Puoi visualizzare il punteggio complessivo nell&#39;interfaccia **Profili**. Per ciascuno dei tre set di 168 punteggi, la classifica va da -83 a 84. Più alto è il rango, migliore è il momento scelto per interagire con il destinatario. Poiché è possibile definire l&#39;inizio e la durata di un percorso, la classificazione migliore (84) potrebbe non rientrare in tale intervallo di tempo. In questo caso, consigliamo di scegliere un’ora con il valore di classificazione più alto.
+I ranghi in qualsiasi &quot;ora della settimana&quot; sono compresi tra -83 e 84, ma vengono suddivisi in un singolo valore per evitare di confondere il profilo con 168 valori distinti. Per ciascuno dei tre set di 168 punteggi, la classifica va da -83 a 84.
 
+Il valore viene letto dall’algoritmo di ottimizzazione. Questo valore non è progettato per essere leggibile.
+
+Più alto è il rango, migliore è il momento scelto per interagire con il destinatario. Poiché è possibile definire l&#39;inizio e la durata di un percorso, la classificazione migliore (84) potrebbe non rientrare in tale intervallo di tempo. In questo caso, consigliamo di scegliere un’ora con il valore di classificazione più alto.
 +++
 
 
