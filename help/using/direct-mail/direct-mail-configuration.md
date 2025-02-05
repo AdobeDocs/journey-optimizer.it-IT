@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 21%
+source-wordcount: '1405'
+ht-degree: 19%
 
 ---
 
@@ -51,7 +51,7 @@ Prima di poter generare questo file, devi creare:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selezionare il tipo di server per il file"
->abstract="Scegli il tipo di server che desideri utilizzare per esportare i file di direct mail. Attualmente Journey Optimizer supporta solo Amazon S3 e SFTP."
+>abstract="Scegli il tipo di server da utilizzare per esportare i file di direct mailing: Amazon S3, SFTP o Azure."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
