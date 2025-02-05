@@ -4,21 +4,23 @@ description: Scopri come sfruttare gli strumenti di gestione dei conflitti e def
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '637'
+ht-degree: 10%
 
 ---
-
 
 # Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
 
 >[!AVAILABILITY]
 >
->Le funzionalità per conflitti e definizione delle priorità sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se sei interessato a essere aggiunto alla lista d’attesa per queste funzioni, contatta il team del tuo account.
+>Le funzionalità per conflitti e definizione delle priorità sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tenere presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se lo desideri, puoi rivolgerti al team del tuo account per l’inserimento nella lista d’attesa per queste funzioni.
 
 In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre diversi strumenti per la gestione dei conflitti e la definizione delle priorità.
+
+## Strumenti di gestione dei conflitti e definizione delle priorità {#tools}
 
 Con lo strumento di rilevamento dei conflitti ****, è possibile identificare potenziali sovrapposizioni in percorsi e campagne. Questo è fondamentale, perché troppe comunicazioni simultanee possono causare la &quot;customer fatigue&quot;. Journey Optimizer consente di monitorare elementi quali timeline, sovrapposizione del pubblico e configurazioni dei canali. Identificando i conflitti in anticipo, puoi perfezionare le campagne per evitare di bombardare i clienti con più messaggi contemporaneamente. [Scopri come rilevare potenziali conflitti in percorsi e campagne](conflicts.md)
 
@@ -29,3 +31,25 @@ Inoltre, **i punteggi di priorità** ti aiutano a controllare quali campagne o p
 Infine, puoi anche utilizzare i set di regole per impostare **il limite di frequenza per tipo di comunicazione** (ad esempio Vendite, Promozionali) per evitare di sovraccaricare i clienti con messaggi simili. Puoi controllare la frequenza su più canali, escludendo automaticamente i profili sollecitati eccessivamente per garantire una migliore esperienza del cliente. [Scopri come utilizzare i set di regole](../configuration/rule-sets.md)</li></ul>
 
 Sfruttando queste funzioni, puoi garantire attività di marketing più fluide e mirate, distribuendo il messaggio giusto al momento giusto ed evitando conflitti e sovraccarichi.
+
+## Guardrail e limitazioni
+
+**Limitazione di frequenza e tipi di pubblico in batch**
+
+Per il limite di frequenza, sia per il canale che per il percorso, se il pubblico utilizzato è un pubblico batch, il valore del contatore di profili a cui si fa riferimento al momento dell’ingresso nel percorso o il runtime del messaggio per una comunicazione di canale sarà quello dell’istantanea giornaliera acquisita.
+
+Questo può essere problematico in quanto i clienti possono superare il limite di quota limite se hanno effettuato un’operazione in un altro percorso o se hanno ricevuto un’altra comunicazione tra l’ora dello snapshot giornaliero e l’ora del percorso in fase di immissione (o del messaggio in fase di consegna).
+
+**Limitazione della frequenza e pubblico in streaming**
+
+Per i tipi di pubblico in streaming, il riconoscimento di un valore di contatore aggiornato può richiedere fino a 2 ore. Per ridurre i rischi, si consiglia di distanziare le comunicazioni e i percorsi di almeno due ore.
+
+**Percorsi di inizio**
+
+Per garantire il corretto funzionamento delle funzionalità di gestione dei conflitti e definizione delle priorità, si consiglia di impostare l&#39;ora di inizio del percorso su almeno 10 minuti, in modo da consentire al sistema di aggiornare il contatore di conseguenza.
+
+Se i clienti hanno già raggiunto il limite massimo quando entrano in un percorso, non potranno comunque entrare, ma se non hanno raggiunto il limite massimo, il contatore di ingresso non verrà incrementato.
+
+**arbitrato di Percorso**
+
+Per il momento, per l’arbitrato di percorso sono supportati solo i percorsi di pubblico di lettura. Le impostazioni di arbitrato non possono essere utilizzate per percorsi di qualificazione unitari o di pubblico.
