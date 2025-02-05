@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -110,7 +110,7 @@ La sintassi `{{context.<contextualAttribute>}}` è mappata solo a un tipo di dat
 
 >[!IMPORTANT]
 >
->Gli attributi contestuali trasmessi nella richiesta non possono superare i 50 kb e sono sempre considerati di tipo stringa.
+>Gli attributi contestuali trasmessi nella richiesta non possono superare i 200 kb e sono sempre considerati di tipo stringa.
 >
 >La sintassi `context.system` è limitata solo all&#39;utilizzo interno di Adobe e non deve essere utilizzata per trasmettere attributi contestuali.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5907'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,8 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La sezione **Parametri intestazione** è stata aggiornata per riflettere le nuove etichette e le modifiche nell&#39;interfaccia utente. [Ulteriori informazioni](../email/email-settings.md#email-header)
 
 * La sezione **Inoltra e-mail** è stata aggiornata per specificare che tutte le e-mail inviate all&#39;indirizzo **Da e-mail** vengono inoltrate all&#39;indirizzo e-mail di inoltro. Se non specifichi alcuna e-mail di inoltro, queste e-mail vengono scartate. [Ulteriori informazioni](../email/email-settings.md#forward-email)
+
+* La dimensione massima degli attributi contestuali trasmessi in una richiesta di campagna attivata da API è stata aggiornata a 200 kb. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md#contextual)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
