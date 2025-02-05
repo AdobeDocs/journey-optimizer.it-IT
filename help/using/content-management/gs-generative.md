@@ -15,12 +15,12 @@ ht-degree: 98%
 
 ---
 
-# Introduzione all’accelerazione di contenuti dell’Assistente IA {#gs-content-assistant}
+# Introduzione all’Acceleratore di contenuti di Assistente IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Accelerazione dei contenuti dell’Assistente IA in Journey Optimizer"
->abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA in Journey Optimizer per l’accelerazione di contenuti per migliorare il contenuto. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+>title="Acceleratore di contenuti di Assistente IA in Journey Optimizer"
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare la funzione Acceleratore di contenuti di Assistente IA in Journey Optimizer per ottimizzare i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"

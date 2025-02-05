@@ -20,7 +20,7 @@ ht-degree: 7%
 
 Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini e intestazioni<!--and URL tracking parameters--> durante la creazione di configurazioni e-mail.
 
-## Aggiungi i sottodomini dinamici {#dynamic-subdomains}
+## Aggiungere sottodomini dinamici {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
