@@ -305,7 +305,7 @@ ht-degree: 100%
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
    + Utilizzare l’Assistente IA{#ai-assistant}
-      + [Introduzione all’accelerazione di contenuti dell’Assistente IA](using/content-management/gs-generative.md)
+      + [Introduzione all’Acceleratore di contenuti di Assistente IA](using/content-management/gs-generative.md)
       + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
       + [Generazione di push con l’IA](using/content-management/generative-push.md)
       + [Generazione di SMS con l’IA](using/content-management/generative-sms.md)
