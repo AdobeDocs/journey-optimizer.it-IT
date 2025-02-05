@@ -7,7 +7,7 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 12449430f48153ebe3fbb30b782f51de4b11d4ef
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -32,7 +32,7 @@ Ogni attributo calcolato è un attributo di profilo che puoi sfruttare per la se
 
 Per creare attributi calcolati, passare alla scheda **[!UICONTROL Attributi calcolati]** nel menu **[!UICONTROL Profili]** situato sul lato sinistro.
 
-Da questa schermata, puoi creare attributi calcolati creando regole che combinano attributi evento, funzioni di aggregazione e un periodo di lookback specificato. Ad esempio, puoi calcolare la somma degli acquisti effettuati negli ultimi tre mesi, identificare l’articolo più recente visualizzato da un profilo che non ha effettuato un acquisto nell’ultima settimana o sommare il totale dei punti premio accumulati da ciascun profilo.
+Da questa schermata, puoi creare attributi calcolati creando regole che combinano attributi evento, funzioni di aggregazione, insieme a un periodo di lookback specificato. Ad esempio, puoi calcolare la somma degli acquisti effettuati negli ultimi tre mesi, identificare l’articolo più recente visualizzato da un profilo che non ha effettuato un acquisto nell’ultima settimana o sommare il totale dei punti premio accumulati da ciascun profilo.
 
 ![](assets/computed-attributes.png)
 
