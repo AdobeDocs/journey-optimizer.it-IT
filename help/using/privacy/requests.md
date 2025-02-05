@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ I tre servizi a monte sono:
 
 Per effettuare richieste di accesso ed eliminazione di dati per Adobe Journey Optimizer, è necessario avere:
 
-* un ID dell’organizzazione IMS
+* un ID organizzazione Adobe
 * un identificatore di identità della persona su cui desideri agire e i corrispondenti spazi dei nomi. Per ulteriori informazioni sugli spazi dei nomi di identità in Adobe Journey Optimizer e Experience Platform, consulta la [panoramica dello spazio dei nomi identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces).
 
 ### Valori campo obbligatori in Adobe Journey Optimizer per le richieste API
@@ -66,7 +66,7 @@ Per effettuare richieste di accesso ed eliminazione di dati per Adobe Journey Op
 ```json
 "companyContexts":
     "namespace": imsOrgID
-    "value": <Your IMS Org ID Value>
+    "value": <Your Adobe Organization ID Value>
 
 "users":
     "action": either access or delete

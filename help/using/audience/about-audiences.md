@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 19%
+source-wordcount: '2162'
+ht-degree: 18%
 
 ---
 
@@ -152,9 +152,26 @@ Dopo aver definito per la prima volta un pubblico, vengono aggiunti i profili qu
 
 Il recupero del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo il recupero, il pubblico viene aggionato costantemente ed è sempre pronto per il targeting.
 
+### [!BADGE Disponibilità limitata]{type=Informative} Valutazione flessibile del pubblico (disponibilità limitata) {#flexible}
+
+>[!AVAILABILITY]
+>
+La valutazione flessibile del pubblico è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+Adobe Experience Platform Audience Portal consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, garantendo di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.
+
+Con una valutazione flessibile del pubblico, puoi:
+
+1. Crea un nuovo segmento in base ai dati più recenti.
+1. Valuta il pubblico in tempo reale per assicurarne la precisione. Per farlo, scegli i tipi di pubblico da valutare e seleziona &quot;Valuta i tipi di pubblico&quot;, a condizione che soddisfino criteri specifici (ad esempio, persone basate, origine del servizio di segmentazione).
+1. Utilizzare il pubblico valutato in Adobe Journey Optimizer
+campagne o percorsi per un targeting preciso.
+
+È possibile valutare fino a 20 tipi di pubblico alla volta e quelli non idonei verranno automaticamente esclusi. Per ulteriori dettagli, consulta la [documentazione di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+
 ### Utilizzo degli eventi con segmentazione in streaming {#streaming-segmentation-events-guardrails}
 
-La segmentazione in streaming è utile per la personalizzazione in tempo reale con casi d’uso di alto valore. Tuttavia, è importante scegliere i [eventi](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} giusti da utilizzare come criteri di segmentazione.
+La segmentazione in streaming è utile per la personalizzazione in tempo reale con casi d’uso di alto valore. Tuttavia, è importante scegliere i [eventi](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) giusti{target="_blank"}
 
 Di conseguenza, per prestazioni ottimali di segmentazione in streaming, evita di utilizzare i seguenti eventi:
 

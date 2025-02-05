@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 8faeaea48e2f6e32cb3d66d0bd1fe53c33b08e65
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
 source-wordcount: '1595'
 ht-degree: 40%
@@ -80,7 +80,7 @@ Di seguito sono riportati i passaggi principali per creare e configurare una nuo
    >
    >* Quando viene eseguita la chiamata di autenticazione, la stringa `<username>:<password>`, codificata in base64, viene aggiunta nell&#39;intestazione Autenticazione.
    >
-   >* Adobe Journey Optimizer crittografa automaticamente i segreti definiti nelle azioni personalizzate. Le chiavi di crittografia di ogni organizzazione vengono gestite in modo sicuro in un archivio dedicato associato alla rispettiva organizzazione. Quando le credenziali vengono visualizzate nell’interfaccia, vengono nascoste per impostazione predefinita per evitare esposizioni accidentali.
+   >* Adobe Journey Optimizer crittografa automaticamente i segreti definiti nelle azioni personalizzate. Le chiavi di crittografia di ogni organizzazione vengono gestite in modo sicuro in un archivio dedicato associato alla propria organizzazione. Quando le credenziali vengono visualizzate nell’interfaccia, vengono nascoste per impostazione predefinita per evitare esposizioni accidentali.
 
 
    Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API, come segue:

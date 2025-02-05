@@ -8,13 +8,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, integrazione marketo engagement
-source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
+exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 4%
 
 ---
-
 
 # Integrare con Marketo Engage {#integrating-with-marketo-engage}
 
@@ -26,7 +26,7 @@ Approfitta di un percorso di integrazione perfetta dei dati con il Marketo Engag
 ## Prerequisiti {#prerequisites}
 
 * L’istanza cliente del Marketo Engage deve essere abilitata per IMS.
-* L’istanza di Marketo Engage e l’istanza AEP/AJO devono trovarsi nella stessa organizzazione IMS.
+* L&#39;istanza di Marketo Engage e l&#39;istanza Adobe Experience Platform/Journey Optimizer devono essere nella stessa organizzazione.
 * Al cliente deve essere fornito l&#39;accesso **MktoSync: servizio di acquisizione**
 
 ## Configurazione dell’azione {#configure-marketo-action}
@@ -113,4 +113,3 @@ Ora puoi utilizzare l’azione personalizzata nell’area di lavoro dedicata.
 * Nella sezione **Parametri richiesta**, fai clic su Modifica per ciascuno dei parametri con valori dinamici configurati nel payload.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
-

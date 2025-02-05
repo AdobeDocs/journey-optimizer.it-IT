@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Dove:
 * **L&#39;azione** è abilitata O disabilitata.
 * **Il token di accesso** può essere recuperato dalla console per sviluppatori.
 * È possibile recuperare **la chiave API** dalla console per sviluppatori.
-* **ID organizzazione IMS** è la tua organizzazione Adobe IMS.
+* **ID organizzazione IMS** è la tua organizzazione Adobe.
 * **Nome sandbox** è il nome della sandbox in cui si trova il set di dati (ad esempio, prod, dev, ecc.).
 
 >[!NOTE]

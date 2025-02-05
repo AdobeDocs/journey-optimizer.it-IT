@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ ht-degree: 98%
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md#cja-template">documentazione dettagliata</a>.</p>
 <p> La funzionalità <b>Modello</b> sarà introdotta progressivamente in più fasi, con la disponibilità generale completa pianificata per la fine di gennaio</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Valutazione flessibile del pubblico (disponibilità limitata)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, garantendo di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../audience/about-audiences.md#flexible">documentazione dettagliata</a>.</p>
+<p> La valutazione flessibile del pubblico è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </tr>
 </tbody>
 </table>
