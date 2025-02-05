@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 19%
+source-wordcount: '1324'
+ht-degree: 18%
 
 ---
 
@@ -150,11 +150,14 @@ Tieni presente che per l’attività in-app è possibile apportare qualsiasi mod
 >title="Ottimizzazione dell’ora di invio"
 >abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Questa funzione non è abilitata per impostazione predefinita. Puoi rivolgerti al tuo rappresentante Adobe per attivarlo.
+>* L’ottimizzazione dell’ora di invio non è abilitata per impostazione predefinita. Puoi rivolgerti al tuo rappresentante Adobe per attivarlo.
 >
->La funzione di ottimizzazione dell’ora di invio si applica solo ai canali e-mail e push.
+>* Per l’addestramento iniziale e il punteggio relativo all’ottimizzazione del tempo di invio, si consigliano almeno 1.000 profili con dati di messaggistica recenti.
+>
+>* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push**.
+
 
 ### Informazioni sull’ottimizzazione dell’ora di invio {#about-send-time}
 
