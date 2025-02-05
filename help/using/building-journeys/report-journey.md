@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publish il percorso
+title: Pubblica il percorso
 description: Scopri come creare rapporti sul tuo percorso
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +30,8 @@ Gli eventi visualizzati si sono verificati nelle ultime 24 ore, con un intervall
 
 Per il tuo percorso live, puoi accedere a:
 
-* **[!UICONTROL Profili immessi]**: numero totale di persone che sono uscite dal percorso (compresi gli errori).
-* **[!UICONTROL Chiuso con profilo]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
+* **[!UICONTROL Profili immessi]**: numero totale di persone che sono entrate nel percorso.
+* **[!UICONTROL Profili usciti]**: numero totale di persone che sono uscite dal percorso (compresi gli errori).
 * **[!UICONTROL Profili in errore]**: numero totale di persone che hanno riscontrato un errore durante il percorso.
 * **[!UICONTROL Profili scartati]**: numero totale di singoli utenti scartati dal percorso per uno dei motivi seguenti:
 
