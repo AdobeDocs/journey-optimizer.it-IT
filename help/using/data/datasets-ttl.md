@@ -7,19 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
-
 
 # Modifiche al time-to-live e alla segmentazione in streaming {#ttl-guardrail}
 
 ## Aggiornamenti della segmentazione in streaming {#segmentation-update}
 
-A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback di Journey Optimizer. Questa modifica verrà applicata a tutte le sandbox e organizzazioni dei clienti. Le informazioni sui motivi per cui questa pratica è stata scoraggiata in passato sono disponibili [qui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dal tracciamento e dai set di dati di feedback di Journey Optimizer. Questa modifica verrà applicata a tutte le sandbox e organizzazioni della clientela. Le informazioni sui motivi per cui questa pratica è stata scoraggiata in passato sono disponibili [qui](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 **Domande frequenti**
 
@@ -41,13 +41,11 @@ Questa modifica non influisce sulla raccolta dei dati di tracciamento. Gli event
 
 +++
 
-
 +++ Questo cambiamento influisce sugli eventi di reazione?
 
 Gli eventi di reazione nei Percorsi non sono influenzati da questo cambiamento.
 
 +++
-
 
 +++ Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
 

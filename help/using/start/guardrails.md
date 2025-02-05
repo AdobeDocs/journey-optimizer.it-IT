@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
-ht-degree: 95%
+source-wordcount: '2476'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,15 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Con [!DNL Journey Optimizer] non è possibile aggiungere allegati a un messaggio e-mail.
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
+## Guardrail dei set di dati {#datasets-guardrails}
+
+A partire da febbraio 2025, un guardrail time-to-live (TTL) verrà introdotto nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni** come segue:
+
+* 90 giorni per i dati nell’archivio dei profili
+* 13 mesi per i dati nel data lake
+
+Esplora la [sezione Domande frequenti](../data/datasets-ttl.md#ttl) per ulteriori dettagli su questi guardrail.
+
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 
 * Solo un componente **Modulo** può essere utilizzato in una singola pagina principale.
@@ -54,7 +63,6 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 ### Guardrail per il canale Web {#web-guardrails}
 
 Le campagne web di [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, potendo avere implicazioni di costo se fosse superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
 
 ## Guardrail di sottodomini {#subdomain-guardrails}
 
