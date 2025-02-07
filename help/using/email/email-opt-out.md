@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -39,16 +39,16 @@ Con [!DNL Adobe Journey Optimizer], puoi configurare le [impostazioni di configu
 
 Quando un destinatario fa clic sul collegamento di rinuncia con un clic, la richiesta di annullamento dell’iscrizione del destinatario viene elaborata di conseguenza.
 
-### URL per annullare l’iscrizione con un clic nell’intestazione dell’e-mail {#unsubscribe-header}
+### URL per annullamento iscrizione con un clic nell’intestazione dell’e-mail {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Aggiungi un URL per l’annullamento dell’iscrizione alle e-mail"
->abstract="Abilita Annulla iscrizione mailing list per aggiungere automaticamente un URL di annullamento iscrizione all’intestazione dell’e-mail. Puoi anche impostare un URL per l’annullamento dell’iscrizione in un messaggio inserendo un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
+>abstract="Abilita Annulla iscrizione mailing list per aggiungere un URL di annullamento iscrizione nell’intestazione dell’e-mail. Puoi anche impostare un URL per l’annullamento dell’iscrizione in un messaggio, inserendo un collegamento per la rinuncia con un clic nel contenuto dell’e-mail."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Rinuncia con un clic dal contenuto dell’e-mail"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Abilitare Annullamento iscrizione a mailing list nella configurazione e-mail"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Abilita Annullamento iscrizione a mailing list nella configurazione e-mail"
 
 L’URL per l’annullamento dell’iscrizione all’elenco con un solo clic è un collegamento o un pulsante per l’annullamento dell’iscrizione visualizzato accanto alle informazioni sul mittente dell’e-mail e che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic.
 
