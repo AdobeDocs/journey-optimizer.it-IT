@@ -7,12 +7,11 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 19%
 
 ---
 
@@ -152,7 +151,7 @@ Dopo aver definito per la prima volta un pubblico, vengono aggiunti i profili qu
 
 Il recupero del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo il recupero, il pubblico viene aggionato costantemente ed è sempre pronto per il targeting.
 
-### [!BADGE Disponibilità limitata]{type=Informative} Valutazione flessibile del pubblico (disponibilità limitata) {#flexible}
+### [!BADGE Disponibilità limitata]{type=Informative} Valutazione del pubblico flessibile {#flexible}
 
 >[!AVAILABILITY]
 >
