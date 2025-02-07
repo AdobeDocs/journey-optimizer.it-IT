@@ -7,9 +7,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Ogni volta che uno di questi oggetti viene modificato nella Libreria di offerte,
 
 >[!NOTE]
 >
->Questa funzione è attivata per impostazione predefinita. Puoi iniziare a utilizzarlo senza ulteriori passaggi di attivazione. Una volta abilitati, i processi di esportazione saranno automatizzati e non richiederanno alcuna azione da parte tua.
+>Questa funzione è abilitata per impostazione predefinita. È possibile iniziare a utilizzarla senza ulteriori passaggi di attivazione. Una volta abilitata, i processi di esportazione verranno automatizzati e non sarà necessaria alcuna azione da parte tua.
 
 <!--
 >[!NOTE]

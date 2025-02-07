@@ -9,18 +9,18 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Introduzione all’Acceleratore di contenuti di Assistente IA {#gs-content-assistant}
+# Introduzione all’accelerazione di contenuti dell’Assistente IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Acceleratore di contenuti di Assistente IA in Journey Optimizer"
->abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare la funzione Acceleratore di contenuti di Assistente IA in Journey Optimizer per ottimizzare i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+>title="Accelerazione dei contenuti dell’Assistente IA in Journey Optimizer"
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA in Journey Optimizer per l’accelerazione di contenuti per migliorare il contenuto. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
@@ -81,7 +81,7 @@ L’utente riceverà un’e-mail con istruzioni per accedere all’istanza.
 
 Di seguito sono elencate alcune linee guida generali su come utilizzare l’accelerazione dei contenuti dell’Assistente IA in Adobe Journey Optimizer per la generazione di e-mail:
 
-* La qualità del contenuto generato è fortemente influenzata dall’obiettivo di marketing o dal prompt definito. Utilizza un prompt ben definito per interpretare con precisione il modello GenAI. 
+* La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizza un prompt ben definito per interpretare con precisione il modello GenAI. 
 * Carica la risorsa del brand in modo che sia accurata per il relativo contenuto. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: file PDF, JPEG, PNG o ZIP (con formati di file supportati).
 * La dimensione massima per risorsa del marchio caricata è 50 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
 * Utilizza un modello personalizzato o specifico di un brand per creare il contenuto dell’e-mail utilizzando l’accelerazione dei contenuti dell’Assistente IA in Adobe Journey Optimizer. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
