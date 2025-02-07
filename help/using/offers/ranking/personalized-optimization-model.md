@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '806'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Sfruttando le tecnologie all’avanguardia nell’apprendimento automatico supervisionato e nell’apprendimento profondo, la personalizzazione automatica consente agli utenti aziendali (addetti al marketing) di definire gli obiettivi aziendali e utilizza i dati dei clienti per addestrare modelli orientati al business che offrano offerte personalizzate e massimizzino i KPI.
+Sfruttando le tecnologie all’avanguardia nell’apprendimento automatico supervisionato e nell’apprendimento profondo, l’ottimizzazione personalizzata consente a un utente aziendale (addetto al marketing) di definire gli obiettivi aziendali e utilizza i dati dei suoi clienti per addestrare modelli orientati al business che offrano offerte personalizzate e massimizzino i KPI.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
 ## Principali ipotesi e limitazioni del modello {#key}
 
-Per massimizzare il vantaggio dell’utilizzo della personalizzazione automatica, è necessario conoscere alcuni presupposti e limitazioni chiave.
+Per massimizzare il vantaggio dell’utilizzo dell’ottimizzazione personalizzata, è necessario conoscere alcuni presupposti e limitazioni chiave.
 
 * **Le offerte sono sufficientemente diverse, cosicché gli utenti avranno preferenze diverse tra le offerte considerate**. Se le offerte sono troppo simili, un modello risultante avrà un impatto minore in quanto le risposte sono apparentemente casuali.
 Ad esempio, se una banca dispone di due offerte di carte di credito con l’unica differenza rappresentata dal colore, potrebbe non avere importanza quale carta sia consigliata, ma se ogni carta dispone di termini diversi, ciò fornisce una motivazione per spiegare perché alcuni clienti ne sceglierebbero una e fornisce una differenza sufficiente tra le offerte per costruire un modello più incisivo.
@@ -46,9 +46,9 @@ Esistono 3 tipi di funzionalità:
 Il modello prevede due fasi:
 
 * Nella fase **apprendimento del modello offline**, un modello viene addestrato apprendendo e memorizzando le interazioni delle funzionalità nei dati storici.
-* Nella fase di **inferenza online**, le offerte candidate vengono classificate in base ai punteggi in tempo reale generati dal modello. A differenza delle tecniche di filtro collaborativo tradizionali, che è difficile includere funzioni per utenti e offerte, la personalizzazione automatica è un metodo di raccomandazione basato sull’apprendimento profondo ed è in grado di includere e imparare pattern di interazione di funzioni complessi e non lineari.
+* Nella fase di **inferenza online**, le offerte candidate vengono classificate in base ai punteggi in tempo reale generati dal modello. A differenza delle tecniche di filtro collaborativo tradizionali, che è difficile includere funzioni per utenti e offerte, l’ottimizzazione personalizzata è un metodo di raccomandazione basato sull’apprendimento profondo ed è in grado di includere e imparare pattern di interazione di funzioni complessi e non lineari.
 
-Di seguito è riportato un esempio semplificato per illustrare l’idea di base alla base della personalizzazione automatica. Supponiamo di avere un set di dati in cui sono memorizzate le interazioni storiche tra utenti e offerte, come illustrato nella Figura 1. Sono disponibili:
+Di seguito è riportato un esempio semplificato per illustrare l’idea di base dietro l’ottimizzazione personalizzata. Supponiamo di avere un set di dati in cui sono memorizzate le interazioni storiche tra utenti e offerte, come illustrato nella Figura 1. Sono disponibili:
 * Due offerte, offer_1 e offer_2,
 * Due feature, feature_1 e feature_2,
 * Una colonna di risposta.
@@ -61,7 +61,7 @@ Fondamentalmente, questa è l&#39;idea di imparare e memorizzare interazioni sto
 
 ## Problema di avviamento a freddo {#cold-start}
 
-Il problema di avvio a freddo si verifica quando non ci sono abbastanza dati per creare un consiglio. Per la personalizzazione automatica, esistono due tipi di problemi con avviamento a freddo.
+Il problema di avvio a freddo si verifica quando non ci sono abbastanza dati per creare un consiglio. Per l’ottimizzazione personalizzata, esistono due tipi di problemi con avviamento a freddo.
 
 * **Dopo aver creato un nuovo modello di IA senza dati storici**, le offerte verranno distribuite in modo casuale per un periodo di tempo per la raccolta dei dati e i dati verranno utilizzati per addestrare il primo modello.
 * **Dopo il rilascio del primo modello**, il 10% del traffico totale verrà allocato per la distribuzione casuale, mentre il 90% del traffico verrà utilizzato per le raccomandazioni sui modelli. Pertanto, se al modello di IA fossero aggiunte nuove offerte, queste verrebbero consegnate come parte del 10% del traffico. I dati raccolti su tali offerte determinano il numero di volte in cui viene selezionato tra il 90% del traffico mentre il modello continua a essere aggiornato.
