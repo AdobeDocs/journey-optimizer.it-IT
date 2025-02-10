@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dbe312f332031391c49a973f323994f860e354e3
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5981'
 ht-degree: 98%
 
 ---
@@ -35,7 +35,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * È stata aggiunta una sezione &quot;Guardrail &amp; restrictions&quot; alla documentazione relativa agli strumenti di gestione dei conflitti e definizione delle priorità. [Ulteriori informazioni](../conflict-prioritization/gs-conflict-prioritization.md)
 
-<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
+* È stato aggiunto un nuovo caso d&#39;uso end-to-end per presentare tutti i passaggi necessari per utilizzare Decisioning negli esperimenti di contenuto con il canale di esperienza basato su codice [!DNL Journey Optimizer]. [Ulteriori informazioni](../experience-decisioning/experience-decisioning-uc.md)
 
 ## Dicembre 2024 {#nov-2024}
 

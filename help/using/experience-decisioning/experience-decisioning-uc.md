@@ -1,21 +1,19 @@
 ---
 title: Caso d’uso della funzione Decisioni
-description: Scopri come creare decisioni utilizzando esperimenti con il canale basato su codice
+description: Scopri come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 5%
+source-wordcount: '828'
+ht-degree: 4%
 
 ---
 
-# Caso d’uso della funzione Decisioni {#experience-decisioning-uc}
+# Utilizzare il decisioning in un’esperienza basata su codice con un esperimento sui contenuti {#experience-decisioning-uc}
 
 Questo caso d&#39;uso presenta tutti i passaggi necessari per utilizzare Decisioning con il canale basato su codice [!DNL Journey Optimizer].
 

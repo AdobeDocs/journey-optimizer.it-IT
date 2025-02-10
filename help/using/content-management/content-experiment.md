@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '748'
 ht-degree: 12%
 
 ---
@@ -41,6 +41,8 @@ Ogni persona nel pubblico di destinazione riceverà una versione di un’e-mail,
 L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seconda dell’esperimento ricevuto. Pertanto, sceglieremo **[!UICONTROL Aperture e-mail]** come metrica di obiettivo principale in questo esperimento sui contenuti.
 
 ![](assets/content_experiment.png)
+
+➡️ Scopri come utilizzare gli esperimenti sui contenuti per confrontare le decisioni con il canale di esperienza basato sul codice in [questo caso d&#39;uso](experience-decisioning-uc.md).
 
 ## Creare i contenuti {#campaign-experiment}
 
@@ -125,3 +127,4 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 1. Una volta definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering della consegna e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
 Dopo aver configurato la sperimentazione, puoi seguire il successo della consegna con il tuo rapporto. [Ulteriori informazioni](../reports/campaign-global-report-cja-experimentation.md)
+

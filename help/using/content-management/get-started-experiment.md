@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 100%
+source-wordcount: '2004'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 Gli esperimenti contenuti consentono di ottimizzare il contenuto per le azioni nelle campagne.
 
 Gli esperimenti sono un set di test randomizzati, che nel contesto dei test online, significa che alcuni utenti selezionati in modo casuale sono esposti a una determinata variazione di un messaggio e un altro set selezionato in modo casuale di utenti a un altro trattamento. Dopo aver inviato il messaggio, puoi quindi misurare le metriche del risultato che ti interessano, ad esempio aperture di e-mail o clic.
+
+➡️ Un caso d&#39;uso end-to-end che mostra come utilizzare gli esperimenti di contenuto per confrontare le decisioni con il canale di esperienza basato sul codice è presentato in [questa sezione](experience-decisioning-uc.md).
 
 ## Perché eseguire gli esperimenti?
 
