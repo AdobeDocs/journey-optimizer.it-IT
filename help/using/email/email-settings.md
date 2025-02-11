@@ -86,7 +86,7 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definire la modalità di gestione dei dati di annullamento dell’abbonamento"
->abstract="**Adobe gestito**: i dati di consenso sono gestiti dall&#39;utente all&#39;interno dell&#39;Adobe.<br>**Gestione clienti**: i dati di consenso vengono gestiti dall&#39;utente in un sistema esterno e la sincronizzazione dei dati di consenso non viene aggiornata nell&#39;Adobe a meno che non sia stata avviata dall&#39;utente."
+>abstract="**Adobe managed**: i dati di consenso sono gestiti dall&#39;utente all&#39;interno del sistema Adobe.<br>**Gestione clienti**: i dati di consenso vengono gestiti dall&#39;utente in un sistema esterno e la sincronizzazione dei dati di consenso non viene aggiornata nel sistema Adobe a meno che non sia stata avviata dall&#39;utente."
 
 <!--Do not modify - Legal Review Done -->
 
