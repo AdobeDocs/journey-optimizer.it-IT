@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
+source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 10%
+source-wordcount: '1505'
+ht-degree: 8%
 
 ---
 
 # Ottimizzazione dei tempi di invio{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="Ottimizzazione dell’ora di invio"
->abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
