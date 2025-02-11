@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 11%
+source-wordcount: '1542'
+ht-degree: 10%
 
 ---
 
@@ -43,6 +43,11 @@ La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, ba
 
 L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione e-mail e push incorporati di Journey Optimizer e non è attualmente disponibile per i messaggi inviati tramite azioni personalizzate o per altri tipi di azione. L’ottimizzazione dell’ora di invio è disponibile solo per le azioni E-mail e push entro pochi Percorsi e non è attualmente disponibile per i messaggi inviati tramite campagne.
 
+>[!AVAILABILITY]
+>
+>* Per l’addestramento iniziale e il punteggio relativo all’ottimizzazione del tempo di invio, si consigliano almeno 1.000 profili con dati di messaggistica recenti.
+>
+>* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push**.
 
 ## Abilita ottimizzazione dell’ora di invio{#enable-send-time-optimization}
 
