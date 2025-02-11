@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
+source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2270'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 96%
 <p>Ora puoi migliorare i rapporti di Journey Optimizer sfruttando i modelli di Customer Journey Analytics. Questa nuova funzione consente di semplificare il processo di reporting con modelli pre-progettati personalizzati per le tue esigenze di analisi.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md#cja-template">documentazione dettagliata</a>.</p>
-<p> La funzionalità <b>Modello</b> sarà introdotta progressivamente in più fasi, con la disponibilità generale completa pianificata per la fine di gennaio</p>
+<p>Data di disponibilità: a partire dal 15 gennaio 2025</p>
 </tr>
 </tbody>
 </table>
@@ -54,6 +54,7 @@ ht-degree: 96%
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/about-audiences.md#flexible">documentazione dettagliata</a>.</p>
 <p> La valutazione flessibile del pubblico è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Data di disponibilità: 28 gennaio 2025</p>
 </tr>
 </tbody>
 </table>
