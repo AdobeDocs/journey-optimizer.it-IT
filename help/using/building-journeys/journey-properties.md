@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2232'
 ht-degree: 18%
 
 ---
@@ -273,7 +273,7 @@ Un addetto al marketing dispone di un percorso promozionale con una serie di com
 
 ### Configurazione e utilizzo {#exit-criteria-config}
 
-I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se sono impostati più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica `OR`. Pertanto, se si dispone del criterio di uscita A e del criterio di uscita B, verrà valutato come A **OR** B. I criteri vengono valutati in ogni fase del percorso.
+I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se hai impostato più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica `OR`. Pertanto, se si dispone del criterio di uscita A e del criterio di uscita B, verrà valutato come A **OR** B. I criteri vengono valutati in ogni fase del percorso.
 
 Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
@@ -285,8 +285,8 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un **Evento** o un **Pubblico**.
 
-* Per i criteri di uscita basati su un evento, scegli solo un evento unitario.
-* Per i criteri di uscita basati su un pubblico, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
+Per i criteri di uscita basati su un evento, scegli solo un evento unitario.
+Per i criteri di uscita basati su un pubblico, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
 
 È possibile aggiungere più criteri di uscita.
 
