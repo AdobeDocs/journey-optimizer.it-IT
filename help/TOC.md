@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -305,7 +305,7 @@ ht-degree: 100%
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
    + Utilizzare l’Assistente IA{#ai-assistant}
-      + [Introduzione all’accelerazione di contenuti dell’Assistente IA](using/content-management/gs-generative.md)
+      + [Introduzione all’Acceleratore di contenuti di Assistente IA](using/content-management/gs-generative.md)
       + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
       + [Generazione di push con l’IA](using/content-management/generative-push.md)
       + [Generazione di SMS con l’IA](using/content-management/generative-sms.md)
@@ -374,14 +374,13 @@ ht-degree: 100%
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
-      + [Caricamento personalizzato (CSV) e composizione di pubblico federato](using/audience/custom-upload-fac.md)
-      + [Generare definizioni di segmento](using/audience/creating-a-segment-definition.md)
-      + Comporre i tipi di pubblico {#audience-orchestration}
-         + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
-         + [Creare flussi di lavoro di composizione](using/audience/create-compositions.md)
-         + [Lavorare nell’area di lavoro per la composizione](using/audience/composition-canvas.md)
-         + [Accesso e gestione dei tipi di pubblico](using/audience/access-audiences.md)
-      + [Composizione di pubblico federato](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home)
+      + Creare tipi di pubblico {#create}
+         + [Definizioni dei segmenti](using/audience/creating-a-segment-definition.md)
+         + [Composizione del pubblico](using/audience/get-started-audience-orchestration.md)
+         + [Caricamento personalizzato](using/audience/custom-upload.md)
+         + [Federated Audience Composition (disponibilità limitata)](using/audience/federated-audience-composition.md)
+      + [Attivazione del pubblico in campagne e percorsi](using/audience/target-audiences.md)
+      + [Utilizzo degli attributi di arricchimento](using/audience/enrichment-attributes.md)
    + Profili{#profiles}
       + [Introduzione ai profili](using/audience/get-started-profiles.md)
       + [Creare profili di test](using/audience/creating-test-profiles.md)
