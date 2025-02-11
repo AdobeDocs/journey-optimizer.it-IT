@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 11%
@@ -43,7 +43,7 @@ Per creare un messaggio e-mail in [!DNL Journey Optimizer], aggiungi un&#39;azio
 
 >[!NOTE]
 >
->Puoi utilizzare l’opzione Ottimizzazione del tempo di invio per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/journeys-message.md#send-time-optimization)
+>Puoi utilizzare l’opzione Ottimizzazione del tempo di invio per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md)
 
 Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
@@ -94,7 +94,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Se ti trovi in una campagna, puoi anche fare clic sul pulsante **[!UICONTROL Editor di codice]** per scrivere il codice del tuo contenuto in HTML semplice utilizzando la finestra a comparsa visualizzata.
+1. Se ti trovi in una campagna, puoi anche fare clic sul pulsante **[!UICONTROL Editor di codice]** per scrivere il codice del tuo contenuto in HTML semplice utilizzando la finestra popup visualizzata.
 
    ![](assets/email_designer_edit_code_editor.png)
 
@@ -124,7 +124,7 @@ Possono verificarsi due tipi di avvisi:
      >
      >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
 
-   * **[!UICONTROL La versione di testo di HTML è vuota]**: non dimenticare di definire una versione di testo del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
+   * **[!UICONTROL La versione testuale di HTML è vuota]**: non dimenticare di definire una versione testuale del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
 
    * **[!UICONTROL Nel corpo dell&#39;e-mail è presente un collegamento vuoto]**: verifica che tutti i collegamenti presenti nell&#39;e-mail siano corretti. Scopri come gestire contenuti e collegamenti in [questa sezione](content-from-scratch.md).
 

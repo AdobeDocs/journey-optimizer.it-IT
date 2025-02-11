@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 9%
@@ -40,7 +40,7 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Se invii una notifica push da un percorso, puoi sfruttare la funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/journeys-message.md#send-time-optimization)
+   >Se invii una notifica push da un percorso, puoi sfruttare la funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md)
 
    Per ulteriori informazioni su come configurare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 31%
@@ -357,7 +357,7 @@ I widget **[!UICONTROL Statistiche offerte]** e **[!UICONTROL Statistiche offert
 
 >[!NOTE]
 >
->I widget **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** e **[!UICONTROL Ottimizzati rispetto a non ottimizzati]** sono disponibili solo se l&#39;opzione Ottimizzazione dell&#39;ora di invio è attivata per la consegna. Per ulteriori informazioni sull&#39;ottimizzazione dell&#39;ora di invio, consultare [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>I widget **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** e **[!UICONTROL Ottimizzati rispetto a non ottimizzati]** sono disponibili solo se l&#39;opzione Ottimizzazione dell&#39;ora di invio è attivata per la consegna. Per ulteriori informazioni sull&#39;ottimizzazione dell&#39;ora di invio, consultare [questa pagina](../building-journeys/send-time-optimization.md).
 
 I widget **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** e **[!UICONTROL Ottimizzati rispetto a non ottimizzati]** descrivono in dettaglio il successo delle e-mail a seconda del metodo di invio: ottimizzati o normali.
 
