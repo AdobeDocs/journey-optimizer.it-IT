@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
+source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 96%
+source-wordcount: '2505'
+ht-degree: 94%
 
 ---
 
@@ -80,6 +80,8 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
+* Journey Optimizer supporta un volume massimo di 5.000 eventi di percorso in entrata al secondo.
+* I percorsi attivati da eventi possono richiedere fino a 5 minuti per elaborare la prima azione nel percorso.
 * Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
