@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, standard, integrazione, limite, azione
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -26,11 +26,11 @@ Per poter essere utilizzato in Journey Optimizer, il messaggio transazionale di 
 
 ## Note importanti {#important-notes}
 
-* Per le azioni Adobe Campaign Standard viene automaticamente definita una regola di limite di 4000 chiamate ogni 5 minuti. Ciò corrisponde alla scala ufficiale di Adobe Campaign Standard Transactional Messaging. Ulteriori informazioni sugli SLA per la messaggistica transazionale in [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html).
+* Per le azioni Adobe Campaign Standard viene automaticamente definita una regola di limite di 4000 chiamate ogni 5 minuti. Ciò corrisponde alla scala ufficiale di Adobe Campaign Standard Transactional Messaging. Ulteriori informazioni sugli SLA per la messaggistica transazionale in [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * L’integrazione di Adobe Campaign Standard è impostata tramite un’azione incorporata dedicata nell’elenco delle azioni. Questo deve essere configurato per ogni sandbox.
 
-* Non è possibile utilizzare un’azione Campaign Standard con una qualificazione del pubblico o un’attività Read audience.
+* Non è possibile utilizzare un’azione Campaign Standard con un’attività Qualificazione del pubblico o Lettura pubblico.
 
 * Un percorso non può utilizzare sia messaggi che azioni di Campaign Standard.
 
