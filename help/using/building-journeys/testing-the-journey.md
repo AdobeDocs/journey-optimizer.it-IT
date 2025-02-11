@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
+source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 9%
@@ -91,7 +91,7 @@ Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento
 >
 >* Quando si attiva un evento in modalità di test, viene generato un evento reale, che si verifica quindi anche in un altro percorso che ascolta l’evento.
 >
->*Assicurarsi che ogni evento nel modo di test sia attivato nell&#39;ordine corretto e all&#39;interno della finestra di attesa configurata. Ad esempio, in caso di attesa di 60 secondi, il secondo evento deve essere attivato solo dopo che è trascorso tale attesa di 60 secondi e prima della scadenza del limite di timeout.
+>* Assicurati che ogni evento in modalità di test sia attivato nell’ordine corretto e all’interno della finestra di attesa configurata. Ad esempio, in caso di attesa di 60 secondi, il secondo evento deve essere attivato solo dopo che è trascorso tale attesa di 60 secondi e prima della scadenza del limite di timeout.
 >
 
 Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
@@ -166,5 +166,5 @@ Di seguito sono riportati i diversi stati del percorso di un singolo utente:
 
 Quando un evento viene attivato utilizzando la modalità di test, viene generato automaticamente un set di dati con il nome dell’origine.
 
-La modalità di test crea automaticamente un evento esperienza e lo invia a Adobe Experience Platform. Il nome dell’origine di questo evento esperienza è &quot;Eventi test di Journey Orchestration&quot;.
+La modalità di test crea automaticamente un evento esperienza e lo invia a Adobe Experience Platform. Il nome dell’origine di questo evento esperienza è &quot;Eventi di test di Journey Orchestration&quot;.
 
