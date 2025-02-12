@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
-ht-degree: 98%
+source-wordcount: '6051'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,8 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiunta una sezione &quot;Guardrail &amp; restrictions&quot; alla documentazione relativa agli strumenti di gestione dei conflitti e definizione delle priorità. [Ulteriori informazioni](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * È stato aggiunto un nuovo caso d&#39;uso end-to-end per presentare tutti i passaggi necessari per utilizzare Decisioning negli esperimenti di contenuto con il canale di esperienza basato su codice [!DNL Journey Optimizer]. [Ulteriori informazioni](../experience-decisioning/experience-decisioning-uc.md)
+
+* La pagina **Configura impostazioni e-mail** è stata suddivisa in diverse sottopagine per migliorarne la leggibilità, incluse nuove pagine autonome dedicate a [Annullamento iscrizione a elenco](../email/list-unsubscribe.md), [Parametri intestazione](../email/header-parameters.md) e [Tracciamento URL](../email/url-tracking.md).
 
 ## Dicembre 2024 {#nov-2024}
 
