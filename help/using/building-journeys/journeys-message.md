@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '444'
 ht-degree: 27%
 
 ---
@@ -72,6 +72,10 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >Per le e-mail e le notifiche push, puoi abilitare Ottimizzazione del tempo di invio. [Ulteriori informazioni](send-time-optimization.md)
+
    * Scopri i passaggi dettagliati per creare l’azione in entrata come segue:
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
      >[!NOTE]
      >
-     >Ogni attività di messaggio in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
+     >Ogni attività di messaggio in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
 
-## Consiglio {#recommendation}
 
-[!DNL Journey Optimizer] viene fornito con funzionalità per messaggi incorporate. Tuttavia, le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API.
-
-* Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../action/action.md)
-
-* Se utilizzi Campaign e Journey Optimizer, consulta le sezioni seguenti:
-
-   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
-
-## Aggiornare contenuti live{#update-live-content}
+## Aggiornare contenuti live {#update-live-content}
 
 Puoi aggiornare il contenuto di un’azione del canale incorporata in un percorso live.
 
@@ -137,8 +131,19 @@ A questo scopo, apri il percorso live, seleziona l&#39;attività del canale e fa
 
 Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o di percorso).
 
-Se sono stati modificati i dati contestuali, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_201
+Se i dati contestuali sono stati modificati, verrà visualizzato il seguente messaggio di errore: `ERR_AUTHORING_JOURNEYVERSION_201`
 
-Se sono stati modificati gli attributi del profilo, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_202
+Se sono stati modificati gli attributi del profilo, verrà visualizzato il seguente messaggio di errore: `ERR_AUTHORING_JOURNEYVERSION_202`
 
 Tieni presente che per l’attività in-app è possibile apportare qualsiasi modifica al contenuto mentre il percorso è in esecuzione, ma non è possibile modificare i trigger in-app.
+
+## Inviare con azioni personalizzate {#recommendation}
+
+Invece di utilizzare le funzionalità per messaggi incorporate, puoi utilizzare azioni personalizzate per configurare la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API.
+
+* Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../action/action.md)
+
+* Se utilizzi Adobe Campaign, consulta le sezioni seguenti:
+
+   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
