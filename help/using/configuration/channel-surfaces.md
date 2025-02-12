@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Impostare le configurazioni dei canali
 description: Scopri come configurare e monitorare le configurazioni dei canali
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
@@ -108,7 +108,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
    > * Per **sandbox non di produzione** o se il sottodominio selezionato è **già utilizzato** in un&#39;altra configurazione di canale approvata, il processo richiede solo fino a **3 ore**.
 
 
-   Questi controlli includono la configurazione e i test tecnici eseguiti dal team Adobe:
+   Questi controlli includono test tecnici e di configurazione eseguiti dal team Adobe:
 
    * Convalida SPF
    * Convalida DKIM
