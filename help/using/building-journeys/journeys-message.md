@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '491'
+ht-degree: 18%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 27%
 >title="Azione canale integrate"
 >abstract="Journey Optimizer viene fornito con funzionalità di azione canale integrate. Puoi semplicemente aggiungere al tuo percorso un’attività in uscita (e-mail, messaggio di testo (SMS/MMS), push) o in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
 
-[!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale integrate. Puoi semplicemente aggiungere al tuo percorso un’attività in uscita (e-mail, messaggio di testo (SMS/MMS), push) o in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso.
+[!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale incorporate utilizzate per inviare messaggi: quando un profilo accede a questa attività, viene inviato un messaggio.
+
+Per aggiungere al percorso un’azione di canale incorporata, trascina e rilascia un’attività di canale e definisci le relative impostazioni e il contenuto. Viene quindi eseguito e inviato nel contesto del percorso.
 
 >[!NOTE]
 >
->Puoi anche impostare azioni specifiche per l’invio dei messaggi. [Ulteriori informazioni](#recommendation)
+>Puoi anche impostare azioni personalizzate per l’invio di messaggi. [Ulteriori informazioni](#recommendation)
+
+## Aggiungere un messaggio in un percorso  {#add-msg-in-journey}
+
+Con le azioni del canale incorporate, puoi configurare i messaggi in uscita o in entrata. I canali in entrata supportati sono e-mail, messaggi di testo (SMS/MMS) e notifiche push. I canali in uscita supportati sono in-app, web, esperienza basata su codice e scheda di contenuti.
 
 Per aggiungere un’azione di canale incorporata a un percorso, segui la procedura riportata di seguito.
 
 1. Avvia il percorso con un&#39;attività [Event](general-events.md) o [Read Audience](read-audience.md).
 
-1. Dalla sezione **Azioni** della palette, trascina un&#39;attività in uscita (**e-mail**, **push**, **SMS**) o in entrata (**In-app**, **web**, **esperienza basata su codice**, **scheda contenuto**) nell&#39;area di lavoro.
+1. Dalla sezione **Azioni** della palette, trascina e rilascia un&#39;attività di canale nell&#39;area di lavoro.
 
    ![](assets/journey-web-activity.png)
 
-1. Configura l’attività.
 
-   * Scopri i passaggi dettagliati per creare il contenuto del messaggio come segue:
+1. Configura l’attività. Linee guida dettagliate sulla configurazione sono disponibili nei collegamenti riportati di seguito.
+
+   * Scopri i passaggi dettagliati per creare l’azione in uscita come segue:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -121,7 +128,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
      >Ogni attività di messaggio in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
 
 
-## Aggiornare contenuti live {#update-live-content}
+## Aggiornare un contenuto live {#update-live-content}
 
 Puoi aggiornare il contenuto di un’azione del canale incorporata in un percorso live.
 
