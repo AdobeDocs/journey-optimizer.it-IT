@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ Per impostazione predefinita, il [periodo di tempo per i nuovi tentativi](../con
 Ulteriori informazioni sui nuovi tentativi sono disponibili in [questa sezione](../configuration/retries.md).
 
 ## Tracciamento URL {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="Definire i parametri di tracciamento degli URL"
->abstract="Usa questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL presenti nel contenuto dell’e-mail. Questa funzione è facoltativa."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="Anteprima dei parametri di tracciamento degli URL"
->abstract="Verifica il modo in cui i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
 Puoi utilizzare **[!UICONTROL Parametri di tracciamento URL]** per misurare l’efficacia delle tue attività di marketing su tutti i canali. [Ulteriori informazioni](url-tracking.md)
 
