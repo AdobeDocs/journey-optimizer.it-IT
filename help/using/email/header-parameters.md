@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 >
 >Gli indirizzi devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
-### Rispondi all’e-mail {#reply-to-email}
+## Rispondi all’e-mail {#reply-to-email}
 
 Quando definisci l’indirizzo per **[!UICONTROL Rispondi all’e-mail]**, puoi specificare qualsiasi indirizzo e-mail a condizione che sia valido, nel formato corretto e senza errori di battitura.
 
@@ -66,7 +66,7 @@ Se ricevi un errore durante l’invio della configurazione e-mail, significa che
 >
 >Se il sottodominio dell’indirizzo immesso è un dominio [completamente delegato](../configuration/delegate-subdomain.md#full-subdomain-delegation) ad Adobe, contatta il responsabile dell’account Adobe.
 
-### Inoltra l’e-mail {#forward-email}
+## Inoltra l’e-mail {#forward-email}
 
 Per inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l’Assistenza clienti di Adobe.
 
