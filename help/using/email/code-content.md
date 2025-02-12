@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: codice, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -24,7 +24,7 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
 
 >[!CAUTION]
 >
-> Impossibile fare riferimento alle immagini da [Adobe Experience Manager Assets](../content-management/assets.md) quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
+> Impossibile fare riferimento alle immagini da [Adobe Experience Manager Assets](../integrations/assets.md) quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
 
 1. Dalla home page di E-mail Designer, seleziona **[!UICONTROL Crea un codice personalizzato]**.
 

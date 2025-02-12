@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -34,13 +34,13 @@ Per poter accedere e creare pagine Web nell&#39;interfaccia utente [!DNL Journey
 
 Sono supportati due tipi di implementazioni per abilitare l’authoring e la distribuzione di campagne canale web sulle proprietà web:
 
-* Solo lato client: per aggiungere modifiche al sito Web, devi implementare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} nel sito Web.
+* Solo lato client: per aggiungere modifiche al sito Web, è necessario implementare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} nel sito Web.
 
   >[!NOTE]
   >
-  >Verifica che la versione di [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} sia 2.16 o successiva.
+  >Verificare che la versione di [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} sia 2.16 o successiva.
 
-* Modalità ibrida: è possibile utilizzare l&#39;API [AEP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} per richiedere la personalizzazione lato server; la risposta viene fornita a Adobe Experience Platform Web SDK per eseguire il rendering delle modifiche lato client. Ulteriori informazioni sono disponibili nella [documentazione Adobe Experience Platform Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. Per ulteriori informazioni sulla modalità ibrida, consulta alcuni esempi di implementazione in [questo post di blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Modalità ibrida: è possibile utilizzare l&#39;API server [AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it){target="_blank"} per richiedere la personalizzazione lato server; la risposta viene fornita a Adobe Experience Platform Web SDK per eseguire il rendering delle modifiche lato client. Per ulteriori informazioni, consulta la [documentazione sulle API server di Adobe Experience Platform Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. Per ulteriori informazioni sulla modalità ibrida, consulta alcuni esempi di implementazione in [questo post di blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ L’estensione non dispone di impostazioni condizionali e gestisce automaticamen
 
 ### Risoluzione dei problemi di mancato caricamento del sito Web {#troubleshooting}
 
-Se si tenta di caricare un sito Web che non riesce utilizzando il Web Designer di Adobe [!DNL Journey Optimizer], viene visualizzato un messaggio per suggerirti di installare l&#39;[estensione del browser Helper per editing video](#install-visual-editing-helper).
+Quando si utilizza il Web designer Adobe [!DNL Journey Optimizer], se si tenta di caricare un sito Web che non riesce, viene visualizzato un messaggio per suggerirti di installare l&#39;[estensione del browser Helper per editing video](#install-visual-editing-helper).
 
 1. Assicurati che l’estensione del browser Helper per editing video sia installata correttamente.
 
@@ -104,7 +104,7 @@ Per le pagine in autenticazione, se la pagina di accesso non viene caricata o se
 
 1. Provare ad accedere in una nuova scheda del browser e passare alla pagina desiderata, quindi copiare l&#39;URL e provare ad aprirlo nel Web Designer [!DNL Journey Optimizer].
 
-2. Se non riesci ancora a caricare il sito Web nella finestra di progettazione Web di [!DNL Journey Optimizer], contatta l&#39;Assistenza clienti di Adobe per segnalare il problema, assicurandoti di specificare l&#39;URL errato.
+2. Se non riesci ancora a caricare il sito Web nella finestra di progettazione Web di [!DNL Journey Optimizer], contatta l&#39;Assistenza clienti Adobe per segnalare il problema, assicurandoti di specificare l&#39;URL errato.
 
 ## Prerequisiti per la consegna {#delivery-prerequisites}
 
@@ -116,7 +116,7 @@ Affinché l’esperienza web possa essere consegnata correttamente, è necessari
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di avere abilitato un criterio di unione con l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]**. A questo scopo, seleziona un criterio nel menu di Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di avere abilitato un criterio di unione con l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]**. A questo scopo, seleziona un criterio dal menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Questo criterio di unione viene utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul server Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it){target="_blank"}
 
@@ -150,4 +150,4 @@ Se **non** utilizza i seguenti [gruppi di campi](https://experienceleague.adobe.
 
 ## Domini con marchio per le risorse {#branded-domains-for-assets}
 
-Durante l&#39;authoring delle esperienze Web, se si aggiungono contenuti provenienti dalla libreria [Adobe Experience Manager Assets](../content-management/assets.md), è necessario impostare il sottodominio che verrà utilizzato per pubblicare tali contenuti. [Ulteriori informazioni](web-delegated-subdomains.md)
+Durante l&#39;authoring delle esperienze Web, se si aggiungono contenuti provenienti dalla libreria [Adobe Experience Manager Assets](../integrations/assets.md), è necessario impostare il sottodominio che verrà utilizzato per pubblicare tali contenuti. [Ulteriori informazioni](web-delegated-subdomains.md)

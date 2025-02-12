@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -102,7 +102,7 @@ Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsant
 
 ## Testo {#text}
 
-Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e regolarne lo stile (bordo, dimensione, spaziatura, ecc.) utilizzando la scheda **[!UICONTROL Stili]**.
+Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell&#39;e-mail e modificare lo stile (bordo, dimensione, spaziatura interna, ecc.) utilizzando la scheda **[!UICONTROL Stili]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
    * **Dimensione font**: seleziona la dimensione del font in pixel.
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Inserisci collegamento]**: aggiungi qualsiasi tipo di collegamento al contenuto.
-   * **[!UICONTROL Modifica immagine]**: aggiungi un&#39;immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets.md)
+   * **[!UICONTROL Modifica immagine]**: aggiungi un&#39;immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md)
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
    * **[!UICONTROL Mostra il codice sorgente]**: visualizza il codice sorgente del testo. Non può essere modificato.
@@ -151,7 +151,7 @@ Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse 
 
    ![](assets/email_designer_html_component.png)
 
-1. Copiare e incollare il codice HTML da aggiungere all&#39;e-mail e fare clic su **[!UICONTROL Salva]**.
+1. Copia e incolla il codice HTML che desideri aggiungere alla tua e-mail e fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/email_designer_html_content.png)
 
@@ -184,7 +184,7 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire un file immagine d
 
    ![](assets/email_designer_10.png)
 
-1. Puoi anche scegliere di **[!UICONTROL Trovare foto Stock simili]**. [Ulteriori informazioni](../content-management/stock.md)
+1. Puoi anche scegliere di **[!UICONTROL Trovare foto Stock simili]**. [Ulteriori informazioni](../integrations/stock.md)
 
 1. Dalla scheda **[!UICONTROL Stili]**, regola gli altri attributi di stile come margine, bordo e così via. oppure aggiungendo un collegamento per reindirizzare il pubblico a un altro contenuto, dal riquadro **[!UICONTROL Impostazioni componenti]**.
 

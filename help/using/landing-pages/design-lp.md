@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, progettazione, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 13%
@@ -24,9 +24,9 @@ Per iniziare a creare contenuti per la [pagina principale](create-lp.md#configur
 
 Da qui è possibile:
 
-* **Progetta la pagina di destinazione da zero** tramite l&#39;interfaccia di progettazione contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../content-management/assets.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
+* **Progetta la pagina di destinazione da zero** tramite l&#39;interfaccia di progettazione contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../integrations/assets.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
-* **Codice o incolla HTML raw** direttamente nella finestra di progettazione del contenuto. Scopri come programmare il tuo contenuto [in questa sezione](../email/code-content.md).
+* **Codice o incolla HTML** non elaborato direttamente nella finestra di progettazione del contenuto. Scopri come programmare il tuo contenuto [in questa sezione](../email/code-content.md).
 
 * **Importa contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
 
