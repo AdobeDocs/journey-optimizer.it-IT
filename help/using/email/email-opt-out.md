@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 27%
+source-wordcount: '1313'
+ht-degree: 26%
 
 ---
 
@@ -37,7 +37,7 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 Con [!DNL Adobe Journey Optimizer], puoi configurare le [impostazioni di configurazione e-mail](email-settings.md#list-unsubscribe) con un URL di annullamento dell&#39;iscrizione con un solo clic e un indirizzo e-mail generato automaticamente nell&#39;intestazione e-mail, oppure puoi includere un URL di rinuncia con un solo clic nel corpo dell&#39;e-mail.
 
-Quando un destinatario fa clic sul collegamento di rinuncia con un clic, la richiesta di annullamento dell’iscrizione del destinatario viene elaborata di conseguenza.
+Quando un destinatario fa clic sul collegamento di rinuncia con un clic, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
 ### URL per annullamento iscrizione con un clic nell’intestazione dell’e-mail {#unsubscribe-header}
 
@@ -145,7 +145,7 @@ Parametri query:
 * **parametri**: contiene il payload crittografato
 * **pid**: ID profilo crittografato
 
-Questi tre parametri verranno inclusi nell’URL della pagina di destinazione di terze parti inviato al destinatario:
+Questi due parametri verranno inclusi nell’URL della pagina di destinazione di terze parti inviato al destinatario:
 
 ![](assets/opt-out-parameters.png)
 

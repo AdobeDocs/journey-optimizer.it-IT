@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-## Aggiornamenti di gennaio 2025 {#25-01-rn}
+## Ultimi aggiornamenti del &#39;25 {#25-01-rn}
+
+### Miglioramento di febbraio {#25-02-improvements}
+
+Il miglioramento riportato di seguito è incluso nell&#39;aggiornamento di febbraio.
+
+**Configurazione e-mail** - Data di disponibilità: 10 febbraio 2025
+
+* Se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l’annullamento dell’abbonamento e un URL personalizzato per l’annullamento dell’abbonamento con un solo clic, come parte delle impostazioni di configurazione del canale e-mail. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
+
+### Nuove funzionalità {#25-01-features}
+
+Le nuove funzionalità rilasciate a gennaio sono descritte di seguito.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### Miglioramenti {#25-01-improvements}
+### Miglioramenti di gennaio {#25-01-improvements}
 
-Questa versione include i miglioramenti elencati di seguito.
+I miglioramenti rilasciati a gennaio sono elencati di seguito.
 
 **Funzione decisioni**
 

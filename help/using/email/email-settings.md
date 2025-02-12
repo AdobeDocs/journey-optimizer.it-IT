@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2834'
+source-wordcount: '2484'
 ht-degree: 98%
 
 ---
@@ -81,59 +81,11 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 >
 >Se non è stato configurato alcun record PTR, contatta il tuo rappresentante Adobe.
 
-## Annullamento iscrizione a mailing list{#list-unsubscribe}
+## Annullamento iscrizione elenco {#list-unsubscribe}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_unsubscribe_custom"
->title="Definire la modalità di gestione dei dati di annullamento dell’abbonamento"
->abstract="**Adobe managed**: i dati di consenso sono gestiti dall&#39;utente all&#39;interno del sistema Adobe.<br>**Gestione clienti**: i dati di consenso vengono gestiti dall&#39;utente in un sistema esterno e la sincronizzazione dei dati di consenso non viene aggiornata nel sistema Adobe a meno che non sia stata avviata dall&#39;utente."
+Quando si seleziona un sottodominio dall&#39;elenco, viene visualizzata l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]**. È attivata per impostazione predefinita.
 
-<!--Do not modify - Legal Review Done -->
-
-Quando [selezioni un sottodominio](#subdomains-and-ip-pools) dall’elenco, viene visualizzata l’opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]**.
-
-Questa opzione è abilitata per impostazione predefinita per includere un URL di annullamento iscrizione con un solo clic nell’intestazione dell’e-mail, ad esempio:
-
-![](assets/preset-list-unsubscribe-header.png)
-
->[!NOTE]
->
->Se disabiliti questa opzione, nell’intestazione dell’e-mail non viene visualizzato alcun URL di annullamento iscrizione con un solo clic.
-
-Puoi selezionare il livello di consenso dall’elenco a discesa **[!UICONTROL Livello di consenso]**. Può essere specifico per il canale o per l’identità del profilo. In base a questa impostazione, quando un utente annulla l’iscrizione utilizzando l’URL di annullamento iscrizione alla mailing list nell’intestazione di un’e-mail, il consenso viene aggiornato in Adobe Journey Optimizer a livello di canale o di ID.
-
-L’intestazione Annulla iscrizione alla mailing list offre due funzioni che sono abilitate per impostazione predefinita, a meno che non venga deselezionata una o entrambe le funzioni:
-
-![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
-
-* Un indirizzo **Invia a (annulla iscrizione)**, che è l’indirizzo di destinazione a cui vengono indirizzate le richieste di annullamento iscrizione per l’elaborazione automatica.
-
-  In Journey Optimizer, l’indirizzo e-mail per l’annullamento dell’iscrizione è l’indirizzo predefinito **Invia a (annulla iscrizione)** visualizzato nella configurazione dei canali, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
-
-* L’**URL per l’annullamento dell’iscrizione con un clic**, che per impostazione predefinita è l’intestazione per l’annullamento dell’iscrizione generato con URL di rinuncia con un solo clic, in base al sottodominio impostato e configurato nelle impostazioni di configurazione dei canali.
-
-<!--
-    >[!AVAILABILITY]
-    >
-    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
-    >
--->
-
-Le funzioni **[!UICONTROL Invia a (annulla iscrizione)]** e **[!UICONTROL URL di annullamento iscrizione con un solo clic]** sono facoltative.
-
-Se non desideri utilizzare l’URL predefinito di annullamento iscrizione con un solo clic generato, puoi deselezionare la funzione. Nello scenario in cui l’opzione **[!UICONTROL Abilita annullamento di iscrizione a mailing list]** sia attivata e la funzione **[!UICONTROL URL di annullamento iscrizione con un solo clic]** sia deselezionata, se viene aggiunto un [collegamento di rinuncia con un solo clic](../email/email-opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa configurazione, l’intestazione Annullamento iscrizione alla mailing list rileva tale collegamento, inserito nel corpo dell’e-mail, e lo utilizza come valore dell’URL di annullamento iscrizione con un solo clic.
-
-![](assets/preset-list-unsubscribe-opt-out-url.png)
-
->[!NOTE]
->
->Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** predefinito è deselezionato nelle impostazioni di configurazione dei canali, nessun URL verrà trasferito nell’intestazione dell’e-mail come parte dell’intestazione per l’annullamento dell’iscrizione alla mailing list.
-
-Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell’iscrizione nei messaggi sono disponibili in [questa sezione](../email/email-opt-out.md#unsubscribe-header).
-
-<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
+Consente di includere un URL per l’annullamento dell’iscrizione con un solo clic nell’intestazione dell’e-mail. [Ulteriori informazioni](list-unsubscribe.md)
 
 ## Parametri per intestazione {#email-header}
 
