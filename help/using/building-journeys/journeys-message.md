@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 18%
 
 ---
@@ -79,10 +79,6 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Per le e-mail e le notifiche push, puoi abilitare Ottimizzazione del tempo di invio. [Ulteriori informazioni](send-time-optimization.md)
-
    * Scopri i passaggi dettagliati per creare l’azione in entrata come segue:
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Ogni attività di messaggio in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* Ogni attività di messaggio in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
+>
+>* Per le e-mail e le notifiche push, puoi abilitare Ottimizzazione del tempo di invio. [Ulteriori informazioni](send-time-optimization.md)
+
 
 
 ## Aggiornare un contenuto live {#update-live-content}
