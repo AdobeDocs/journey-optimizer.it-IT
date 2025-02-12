@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
+source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1485'
 ht-degree: 8%
 
 ---
@@ -33,30 +33,24 @@ ht-degree: 8%
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. Puoi anche restringere gli orari di invio utilizzati dal sistema immettendo un valore per l’opzione Invia entro."
 
-
 La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
 
 L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione e-mail e push incorporati di Journey Optimizer e non è attualmente disponibile per i messaggi inviati tramite azioni personalizzate o per altri tipi di azione. L’ottimizzazione dell’ora di invio è disponibile solo per le azioni E-mail e push entro pochi Percorsi e non è attualmente disponibile per i messaggi inviati tramite campagne.
 
 >[!AVAILABILITY]
 >
->* Per l’addestramento iniziale e il punteggio relativo all’ottimizzazione del tempo di invio, si consigliano almeno 1.000 profili con dati di messaggistica recenti.
+>* La funzione di ottimizzazione dell’ora di invio è abilitata per i clienti Adobe Journey Optimizer su richiesta. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.
 >
 >* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push**.
-
-## Abilita ottimizzazione dell’ora di invio{#enable-send-time-optimization}
-
-La funzione di ottimizzazione dell’ora di invio è abilitata per i clienti Adobe Journey Optimizer su richiesta. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.
+>
 
 ## Utilizzare l’ottimizzazione dell’ora di invio{#use-send-time-optimization}
 
 Utilizza Ottimizzazione del tempo di invio su un’azione e-mail o push attivando lo switch Ottimizzazione del tempo di invio dai parametri dell’azione.
 
-![](assets/sto-use.png)
+![](assets/jo-message5.png)
 
->[!TIP]
->
->L’ottimizzazione dell’ora di invio non deve essere utilizzata per messaggi operativi urgenti e sensibili al tempo, come ad esempio una conferma di un ordine, una notifica di reimpostazione della password o una notifica di modifica del gate di volo. L’ottimizzazione dell’ora di invio è ideale per comunicazioni di marketing meno urgenti, ad esempio annunci settimanali, informazioni promozionali su un nuovo prodotto o informazioni su una vendita della durata di un mese.
+L’ottimizzazione dell’ora di invio non deve essere utilizzata per messaggi operativi urgenti e sensibili al tempo, come ad esempio una conferma di un ordine, una notifica di reimpostazione della password o una notifica di modifica del gate di volo. L’ottimizzazione dell’ora di invio è ideale per comunicazioni di marketing meno urgenti, ad esempio annunci settimanali, informazioni promozionali su un nuovo prodotto o informazioni su una vendita della durata di un mese.
 
 Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. I messaggi push sono sempre ottimizzati per le aperture.
 
