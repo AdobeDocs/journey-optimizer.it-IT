@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 32%
@@ -76,7 +76,7 @@ Se gestisci il consenso all&#39;esterno di Adobe, seleziona l&#39;opzione **[!UI
 >
 >Se utilizzi l&#39;opzione **[!UICONTROL Gestione clienti]**, Adobe non archivia i dati relativi agli annullamenti dell&#39;abbonamento o al consenso. Con l&#39;opzione **[!UICONTROL Gestione clienti]**, le organizzazioni scelgono di utilizzare un sistema esterno e saranno responsabili della gestione dei propri dati di consenso in tale sistema esterno. Non esiste alcuna sincronizzazione automatica dei dati sul consenso tra il sistema esterno e [!DNL Journey Optimizer]. Qualsiasi sincronizzazione dei dati sul consenso, originata dal sistema esterno per aggiornare i dati sul consenso dell&#39;utente in [!DNL Journey Optimizer], deve essere avviata dall&#39;organizzazione come trasferimento di dati per inviare nuovamente i dati sul consenso in [!DNL Journey Optimizer].
 
-## Configurare l’API di decrittografia {#configure-decrypt-api}
+### Configurare l’API di decrittografia {#configure-decrypt-api}
 
 Con l&#39;opzione **[!UICONTROL Gestione clienti]** selezionata, se immetti endpoint personalizzati e li utilizzi in una campagna o in un percorso, [!DNL Journey Optimizer] aggiunge alcuni parametri predefiniti specifici del profilo all&#39;evento di aggiornamento del consenso <!--sent to the custom endpoint --> quando i destinatari fanno clic sul collegamento Annulla iscrizione.
 
