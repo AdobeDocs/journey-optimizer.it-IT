@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ Per aggiungere al percorso un’azione di canale incorporata, trascina e rilasci
 
 >[!NOTE]
 >
->Puoi anche impostare azioni personalizzate per l’invio di messaggi. [Ulteriori informazioni](#recommendation)
+>Puoi anche impostare azioni personalizzate per inviare i messaggi in [!DNL Journey Optimizer]. [Ulteriori informazioni](#recommendation)
 
 ## Aggiungere un messaggio in un percorso  {#add-msg-in-journey}
 
