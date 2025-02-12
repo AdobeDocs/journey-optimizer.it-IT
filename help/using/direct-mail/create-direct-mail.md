@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
    >[!IMPORTANT]
    >
-   >Per il momento, la selezione del pubblico è limitata a 3 milioni di profili. Questa limitazione può essere revocata su richiesta del rappresentante dell’Adobe.
+   >Per il momento, la selezione del pubblico è limitata a 3 milioni di profili. Questa limitazione può essere revocata su richiesta del rappresentante Adobe.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi identità]**, seleziona lo spazio dei nomi appropriato per identificare i singoli utenti all&#39;interno del pubblico scelto. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
@@ -85,7 +85,7 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
 
       >[!NOTE]
       >
-      >Per impostazione predefinita, il file viene scritto nella directory principale. Il campo **[!UICONTROL Nome file]** accetta il formato &quot;/your/path/here/Filename.csv&quot;, dove il percorso specificato è la directory di destinazione sul server selezionato. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >Per impostazione predefinita, il file viene scritto nella directory principale sul server. Il campo **[!UICONTROL Nome file]** accetta anche il formato &quot;/your/path/here/Filename.csv&quot;, dove il percorso specificato è la directory di destinazione sul server selezionato. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Se si desidera aggiungere una marca temporale automatica al nome file specificato, attivare l&#39;opzione **[!UICONTROL Aggiungi marca temporale per esportare il nome file]**.
 
