@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
 workflow-type: tm+mt
-source-wordcount: '6014'
+source-wordcount: '6024'
 ht-degree: 98%
 
 ---
@@ -22,8 +22,9 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Febbraio 2025 {#feb-2025}
 
-* La documentazione relativa all&#39;**[!UICONTROL ottimizzazione dell&#39;ora di invio]** e le relative domande frequenti sono state aggiornate e migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
+* La documentazione relativa all&#39;**[!UICONTROL ottimizzazione dell&#39;ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
 * Sono state aggiunte nuove protezioni per gli eventi di percorso. [Ulteriori informazioni](../start/guardrails.md#events-g)
+* La pagina delle azioni del canale incorporata è stata riorganizzata. [Ulteriori informazioni](../building-journeys/journeys-message.md)
 
 ## Gennaio 2025 {#jan-2025}
 
