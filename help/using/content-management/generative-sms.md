@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Generazione di SMS con l’assistente IA
-description: Iniziare a generare contenuti SMS con l’Assistente AI Content Accelerator in Journey Optimizer
+description: Iniziare a generare contenuti SMS con l’Assistente IA in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '892'
 ht-degree: 11%
 
 ---
 
-# Generazione di SMS con l’Assistente IA in Journey Optimizer Content Accelerator  {#generative-sms}
+# Generazione di SMS con l’Assistente IA in Journey Optimizer {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->È necessario accettare un [contratto per l&#39;utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale in Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Dopo aver creato e personalizzato i messaggi SMS in base alle preferenze del pubblico, migliora la comunicazione con l’Assistente AI Content Accelerator in Journey Optimizer.
+Dopo aver creato e personalizzato i messaggi SMS in base alle preferenze del pubblico, eleva la comunicazione con l’Assistente AI in Journey Optimizer.
 
 Questa risorsa offre consigli dettagliati per ottimizzare i contenuti, aiutando la riproduzione dei messaggi e massimizzando il coinvolgimento.
 
-Esplora le schede riportate di seguito per scoprire come utilizzare l’Acceleratore dei contenuti dell’Assistente di intelligenza artificiale in Journey Optimizer.
+Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer.
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto di riferimento]** per l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale per personalizzare il nuovo contenuto in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto di riferimento]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 

@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorizzazione, alto livello, basso livello, profilo, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## Risorsa di assistenza IA {#ai-permissions}
 
-* L&#39;autorizzazione di alto livello **[!DNL Generate content]** consente agli utenti di accedere all&#39;Assistente per l&#39;intelligenza artificiale Content Accelerator in Journey Optimizer.
+* L&#39;autorizzazione di alto livello **[!DNL Generate content]** consente agli utenti di accedere all&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
