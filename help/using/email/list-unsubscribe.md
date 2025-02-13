@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare le impostazioni e-mail
-description: Scopri come configurare l’annullamento dell’iscrizione a un elenco a livello di configurazione del canale
+title: Configurare l’annullamento dell’iscrizione all’elenco
+description: Scopri come includere un URL per l’annullamento dell’iscrizione con un solo clic nell’intestazione delle e-mail quando imposti la configurazione del canale
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
-source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
+exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 32%
+source-wordcount: '779'
+ht-degree: 31%
 
 ---
 
