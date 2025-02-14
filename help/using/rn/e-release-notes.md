@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
+source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 25%
+source-wordcount: '637'
+ht-degree: 26%
 
 ---
 
@@ -113,13 +113,14 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 
   In una fase successiva, questa modifica verrà implementata nelle sandbox dei clienti esistenti.
 
-* **Playbook** - È ora possibile creare e pubblicare i propri playbook di casi d&#39;uso in Journey Optimizer.
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **Direct mail** - DLZ (DAta Landing Zone) è ora supportato come tipo di server per il routing dei file nella configurazione Direct mail.
 
 **Personalizzazione**
 
-* L’editor di personalizzazione è stato migliorato con nuove funzionalità come il completamento automatico, la ricerca e le opzioni di filtro. Puoi anche mostrare o nascondere gli attributi obsoleti.
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 * Data di disponibilità: 29 gennaio 2025 - Nell’editor di personalizzazione sono disponibili nuove funzioni di assistenza per data e ora. [Ulteriori informazioni](../personalization/functions/dates.md)
 
