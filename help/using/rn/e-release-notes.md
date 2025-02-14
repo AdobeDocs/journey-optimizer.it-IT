@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
+source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -117,7 +117,7 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Direct mail** - DLZ (DAta Landing Zone) è ora supportato come tipo di server per il routing dei file nella configurazione Direct mail.
+* **Direct mail** - Un nuovo tipo di server, Data Landing Zone, è ora supportato per il routing dei file nella configurazione del canale di direct mailing.
 
 **Personalizzazione**
 
