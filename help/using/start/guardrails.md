@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 94%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 ## Guardrail dei set di dati {#datasets-guardrails}
 
-A partire da febbraio 2025, un guardrail time-to-live (TTL) verrà introdotto nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni** come segue:
+A partire da febbraio 2025, un guardrail time-to-live (TTL) viene introdotto nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni** come segue:
 
-* 90 giorni per i dati nell’archivio dei profili
-* 13 mesi per i dati nel data lake
+* 90 giorni per i dati nell’archivio dei profili,
+* 13 mesi per i dati nel data lake.
 
-Esplora la [sezione Domande frequenti](../data/datasets-ttl.md#ttl) per ulteriori dettagli su questi guardrail.
+Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Leave (TTL) dei set di dati](../data/datasets-ttl.md)
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 

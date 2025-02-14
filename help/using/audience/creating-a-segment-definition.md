@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 23%
+source-wordcount: '981'
+ht-degree: 20%
 
 ---
 
@@ -78,9 +78,14 @@ L’elenco dei profili per il pubblico viene tenuto aggiornato in tempo reale ma
 
 La segmentazione in streaming è un processo continuo di selezione di dati che aggiorna i tipi di pubblico in risposta all’attività dell’utente. Una volta generata la definizione di un segmento e salvato il pubblico risultante, la definizione del segmento viene applicata ai dati in entrata in Journey Optimizer. Ciò significa che gli individui vengono aggiunti o rimossi dal pubblico con la modifica dei dati del loro profilo, garantendo che il pubblico di destinazione sia sempre rilevante. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Assicurati di utilizzare gli eventi giusti come criteri di segmentazione in streaming. [Ulteriori informazioni](#streaming-segmentation-events-guardrails)
+>A partire dal 1° novembre 2024, la segmentazione in streaming non supporta più l&#39;utilizzo di **send** e **open** eventi dai set di dati di tracciamento e feedback di Journey Optimizer.
+>* Questa modifica si applica a tutte le sandbox e organizzazioni del cliente.
+>* Sono interessati solo gli eventi di invio e apertura: i clic e altri eventi di tracciamento rimangono disponibili per la segmentazione in streaming.
+>* Questa modifica si applica solo alla segmentazione in streaming. Gli eventi di invio e apertura possono comunque essere utilizzati in segmenti batch, ma se inclusi in un segmento di streaming, verranno valutati in modo batch. Inoltre, questa modifica interessa anche gli eventi di esclusione e gli eventi di mancato recapito/ritardo risultanti da eventi di invio.
+>* La raccolta dei dati di tracciamento non subisce modifiche. Gli eventi di invio e apertura continueranno a essere raccolti come di consueto.
+>* Gli eventi di reazione nei percorsi non sono influenzati da questo cambiamento.
 
 +++
 
