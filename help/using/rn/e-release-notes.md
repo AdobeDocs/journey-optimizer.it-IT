@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
+source-git-commit: c226e8458aecdd32ed14c3529d19d845cf9d946b
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 21%
 
 ---
@@ -49,22 +49,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Supporto multi-regionale per SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi gestire la consegna di messaggi SMS da endpoint multiregionali sovrascrivendo gli URL di consegna, feedback, in entrata e callback. Per supportare questa funzione, è stato aggiunto un nuovo URL di sostituzione campo alla configurazione delle credenziali API. Questa modifica è disponibile solo con il provider Sinch.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Generare pagine di destinazione con l’Assistente AI</strong><br/></th>
 </tr>
 </thead>
@@ -72,8 +56,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi creare contenuti coinvolgenti per le pagine di destinazione, tra cui progettazioni di pagine intere, testo personalizzato e visualizzazioni personalizzate, con l’aiuto dell’assistente AI.</p>
-<!--img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -90,7 +74,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi impostare le tue linee guida per il marchio per definire l’identità visiva e verbale del tuo marchio. La funzione Marchi viene rilasciata come versione beta privata e sarà progressivamente disponibile per tutti i clienti nelle versioni future.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -158,6 +142,8 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 
 * **Direct mail** - Un nuovo tipo di server, Data Landing Zone, è ora supportato per il routing dei file nella configurazione del canale di direct mailing.
 
+**SMS** - È ora possibile gestire la consegna di messaggi SMS da endpoint multiregionali sovrascrivendo gli URL di consegna, feedback, in entrata e callback. Per supportare questa funzione, è stato aggiunto un nuovo URL di sostituzione campo alla configurazione delle credenziali API. Questa modifica è disponibile solo con il provider Sinch. [Maggiori informazioni](../sms/sms-configuration-sinch.md)
+
 **Personalizzazione**
 
 <!--
@@ -174,3 +160,4 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 **Decisioning** - Data di disponibilità: 28 gennaio 2025
 
 * Decisioning ora supporta i tipi di dati Oggetto quando si modifica lo schema del catalogo elementi. [Ulteriori informazioni](../experience-decisioning/catalogs.md)
+
