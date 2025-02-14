@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Regole aziendali</strong><br/></th>
+<th><strong>Creare e gestire regole business</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Modelli di Customer Journey Analytics</strong><br/></th>
+<th><strong>Generare pagine di destinazione con l’Assistente AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi migliorare i rapporti di Journey Optimizer sfruttando i modelli di Customer Journey Analytics. Questa nuova funzione consente di semplificare il processo di reporting con modelli pre-progettati personalizzati per le tue esigenze di analisi.
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md#cja-template">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: a partire dal 15 gennaio 2025</p>
+<p>L’Assistente AI è ora disponibile con le consegne delle pagine di destinazione, consentendoti di generare testo, immagini o layout di pagina completi.</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Linee guida per il brand (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi impostare le tue linee guida per il marchio per definire l’identità visiva e verbale del tuo marchio. La funzione Marchi viene rilasciata come versione beta privata e sarà progressivamente disponibile per tutti i clienti nelle versioni future.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Modelli di Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi migliorare i rapporti di Journey Optimizer sfruttando i modelli di Customer Journey Analytics. Questa nuova funzione consente di semplificare il processo di reporting con modelli pre-progettati personalizzati per le tue esigenze di analisi.
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../reports/report-cja-manage.md#cja-template">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: a partire dal 15 gennaio 2025</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### Miglioramenti {#25-02-improvements}
 
 I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febbraio.
 
-* **Percorsi** - È ora possibile testare le azioni personalizzate del percorso inviando chiamate API dall&#39;interfaccia utente di amministrazione. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate.
+* **Percorsi** - Ora puoi testare le azioni personalizzate inviando chiamate API dalla sezione amministrazione. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima di dopo averle utilizzate in un percorso.
 
 * **Durata (TTL) del set di dati** - A partire da questo mese, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
 
