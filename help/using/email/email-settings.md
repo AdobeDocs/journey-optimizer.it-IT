@@ -81,7 +81,7 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 >
 >Se non è stato configurato alcun record PTR, contatta il tuo rappresentante Adobe.
 
-## Annullamento iscrizione elenco {#list-unsubscribe}
+## Annullamento iscrizione a mailing list {#list-unsubscribe}
 
 Quando si seleziona un sottodominio dall&#39;elenco, viene visualizzata l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]**. È attivata per impostazione predefinita.
 
