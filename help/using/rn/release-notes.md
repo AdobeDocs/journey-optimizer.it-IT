@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
+source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 78%
+source-wordcount: '2760'
+ht-degree: 79%
 
 ---
 
@@ -127,7 +127,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febbraio.
 
-* **Percorsi** - Ora puoi testare le azioni personalizzate inviando chiamate API dalla sezione amministrazione. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima di dopo averle utilizzate in un percorso.
+* **Percorsi** - Ora puoi testare le azioni personalizzate inviando chiamate API dalla sezione amministrazione. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo il loro utilizzo in un percorso.
 
 * **Durata (TTL) del set di dati** - A partire da questo mese, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
 
@@ -142,33 +142,20 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 
 * **Direct mail** - Un nuovo tipo di server, Data Landing Zone, è ora supportato per il routing dei file nella configurazione del canale di direct mailing.
 
-**SMS** - È ora possibile gestire la consegna di messaggi SMS da endpoint multiregionali sovrascrivendo gli URL di consegna, feedback, in entrata e callback. Per supportare questa funzione, è stato aggiunto un nuovo URL di sostituzione campo alla configurazione delle credenziali API. Questa modifica è disponibile solo con il provider Sinch. [Maggiori informazioni](../sms/sms-configuration-sinch.md)
+* **SMS** - È ora possibile gestire la consegna di messaggi SMS da endpoint multiregionali sovrascrivendo gli URL di consegna, feedback, in entrata e callback. Per supportare questa funzione, è stato aggiunto un nuovo URL di sostituzione campo alla configurazione delle credenziali API. Questa modifica è disponibile solo con il provider Sinch. [Ulteriori informazioni](../sms/sms-configuration-sinch.md)
 
-**Personalizzazione**
+* **Personalization** (Data di disponibilità: 29 gennaio 2025) - Nuove funzioni helper data/ora disponibili per l&#39;utilizzo nell&#39;editor di personalizzazione. [Ulteriori informazioni](../personalization/functions/dates.md)
+
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
-* Data di disponibilità: 29 gennaio 2025 - Nell’editor di personalizzazione sono disponibili nuove funzioni di assistenza per data e ora. [Ulteriori informazioni](../personalization/functions/dates.md)
 
-
-**Configurazione e-mail** - Data di disponibilità: 12 febbraio 2025
-
-* Se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l’annullamento dell’abbonamento e un URL personalizzato per l’annullamento dell’abbonamento con un solo clic, come parte delle impostazioni di configurazione del canale e-mail. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
+* **Configurazione e-mail** (data di disponibilità: 12 febbraio 2025) - Se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l’annullamento dell’iscrizione e un URL personalizzato per l’annullamento dell’iscrizione con un solo clic come parte delle impostazioni di configurazione del canale e-mail. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-  >[!AVAILABILITY]
-  >
-  >Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
-
-* Se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l’annullamento dell’abbonamento e un URL personalizzato per l’annullamento dell’abbonamento con un solo clic, come parte delle impostazioni di configurazione del canale e-mail. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
-
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-**Decisioning** - Data di disponibilità: 28 gennaio 2025
-
-* Decisioning ora supporta i tipi di dati Oggetto quando si modifica lo schema del catalogo elementi. [Ulteriori informazioni](../experience-decisioning/catalogs.md)
+* **Decisioning** (data di disponibilità: 28 gennaio 2025) - Decisioning ora supporta i tipi di dati Object durante la modifica dello schema del catalogo elementi. [Ulteriori informazioni](../experience-decisioning/catalogs.md)
 
 
 ## Versione di ottobre 2024 {#24-10-rn}
