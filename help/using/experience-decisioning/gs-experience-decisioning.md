@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Che cos&#39;è il processo decisionale?"
->abstract="Decisioning è un nuovo strumento oltre alla gestione delle decisioni per scegliere gli elementi migliori dal motore decisionale e consegnarli a ogni individuo. È necessaria una configurazione aggiuntiva per utilizzarlo."
+>title="Cos’è la funzione Decisioni?"
+>abstract="La funzione Decisioni è un nuovo strumento che, insieme alla gestione delle decisioni, consente di scegliere gli elementi migliori dal motore decisionale e di consegnarli a ogni persona. Per utilizzarla, è necessaria una configurazione aggiuntiva."
 
 ## Che cos’è Decisioning {#about}
 

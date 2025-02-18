@@ -26,7 +26,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
+>abstract="I componenti dei contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
