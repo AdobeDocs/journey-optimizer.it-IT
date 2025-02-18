@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i set di regole (LA)
+title: Utilizzare i set di regole
 description: Scopri come creare e applicare i set di regole
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
-badge: label="Disponibilità limitata"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1933'
 ht-degree: 23%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 23%
 >id="ajo_business_rules_rule_sets"
 >title="Set di regole"
 >abstract="Utilizza i set di regole per applicare la quota limite a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere percorsi a una parte del pubblico in base alle regole della quota limite."
-
->[!AVAILABILITY]
->
->I set di regole sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tieni presente che questa funzione verrà implementata gradualmente in futuro per più utenti. Contatta il team del tuo account per essere aggiunto alla lista d’attesa.
 
 ## Introduzione ai set di regole {#gs}
 
@@ -68,7 +63,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
 >
->Puoi creare fino a 3 set di regole personalizzati.
+>È possibile creare fino a 3 set di regole locali di dominio di canale e fino a 5 set di regole locali di dominio di percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -127,6 +122,10 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
 1. Dall&#39;elenco a discesa **[!UICONTROL Durata]**, selezionare se si desidera applicare il limite ogni mese, ogni settimana o ogni giorno. La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >La durata &quot;Giornaliera&quot; è disponibile solo su richiesta. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
@@ -193,7 +192,7 @@ Devi anche attivare il set di regole per potervi accedere in campagne/percorsi e
 
 >[!NOTE]
 >
->La completa attivazione di una regola o di un set di regole può richiedere fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
+>La completa attivazione di una regola o di un set di regole può richiedere fino a 20 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 

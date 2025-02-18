@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 21%
+source-wordcount: '1529'
+ht-degree: 19%
 
 ---
 
@@ -142,7 +142,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Imposta un nome per la configurazione.
 
-1. Selezionare il tipo di server **[!UICONTROL Azure]** da utilizzare per esportare i file di direct mailing.
+1. Selezionare Azure come **[!UICONTROL Tipo di server]** da utilizzare per esportare i file di direct mailing.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
 
    Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
+
+>[!TAB Zona di destinazione dati]
+
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Imposta un nome per la configurazione.
+
+1. Selezionare Area di destinazione dati come **[!UICONTROL Tipo di server]** da utilizzare per esportare i file di direct mailing.
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**. <!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
+
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
+
+Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

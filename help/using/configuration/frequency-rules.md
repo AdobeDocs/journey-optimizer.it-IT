@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Regole aziendali
-description: Scopri come definire le regole di frequenza
+title: Configurare le regole aziendali
+description: Scopri come definire le regole di frequenza aziendale
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 97%
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
-# Regole aziendali {#frequency-rules}
+# Configurare regole aziendali {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -176,7 +176,7 @@ Per applicare una regola aziendale a un messaggio, segui i passaggi riportati qu
    >
    >I messaggi in cui è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
 
-1. Puoi visualizzare il numero di profili esclusi dalla consegna nel [rapporto Customer Journey Analytics](../reports/report-gs-cja.md) e nel [rapporto live](../reports/live-report.md), dove le regole business saranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
+1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto Customer Journey Analytics](../reports/report-gs-cja.md) e in [Rapporto live](../reports/live-report.md), in cui le regole aziendali saranno elencate come possibile motivo per l’esclusione di utenti dalla consegna.
 
 >[!NOTE]
 >

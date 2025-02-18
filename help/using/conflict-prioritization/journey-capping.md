@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Disponibilità limitata"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '920'
 ht-degree: 23%
 
 ---
@@ -70,6 +70,10 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
       1. Nel campo **[!UICONTROL Limitazione]**, imposta il numero massimo di percorsi che un profilo può immettere.
       1. Nel campo **[!UICONTROL Durata]**, definisci il periodo di tempo da considerare. La durata si basa sul fuso orario UTC. Ad esempio, il limite giornaliero verrà reimpostato alla mezzanotte UTC.
+
+     >[!AVAILABILITY]
+     >
+     >La durata &quot;Giornaliera&quot; è disponibile solo su richiesta. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
      In questo esempio, vogliamo impedire ai profili di immettere più di &quot;5&quot; percorsi in un mese.
 

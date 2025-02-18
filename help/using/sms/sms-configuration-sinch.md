@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
+source-git-commit: 4f077e8223f9afe74288874542f8ef0052640dab
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '750'
 ht-degree: 3%
 
 ---
@@ -30,33 +30,27 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
 
 1. Configura le credenziali API SMS, come descritto di seguito:
 
-   * **[!UICONTROL Fornitore SMS]**: Sinch.
++++ Elenco delle credenziali SMS per la configurazione
 
-   * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
+   | Campi di configurazione | Descrizione |
+   |---|---|    
+   | Fornitore SMS | Sinch |
+   | Nome | Scegli un nome per le credenziali API. |
+   | ID servizio e token API | Accedi alla pagina API e individua le tue credenziali nella scheda SMS. Ulteriori informazioni nella [documentazione di Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
+   | Parole chiave di Opt-in | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio di consenso. Per più parole chiave, utilizza valori separati da virgola. |
+   | Messaggio di Opt-in | Immetti la risposta personalizzata inviata automaticamente come messaggio di consenso. |
+   | Parole chiave di rinuncia | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio di rinuncia. Per più parole chiave, utilizza valori separati da virgola. |
+   | Messaggio di rinuncia | Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
+   | Parole chiave della Guida | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
+   | Messaggio di aiuto | Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
+   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul consenso SMS Double](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Doppio messaggio di consenso | Immetti la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
+   | Numero in entrata | Aggiungi un numero in entrata univoco o un codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve. |
+   | Parole chiave in entrata personalizzate | Definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
+   | Messaggio di risposta in entrata predefinito | Immetti la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite. |
+   | Sovrascrivi URL | Immetti l’URL personalizzato per sostituire gli endpoint predefiniti per rapporti di consegna SMS, dati di feedback, messaggi in entrata o notifiche di eventi. Sinch invierà tutti gli aggiornamenti rilevanti a questo URL invece di quelli predefiniti. |
 
-   * **[!UICONTROL ID servizio]** e **[!UICONTROL Token API]**: accedi alla pagina API e trova le credenziali nella scheda SMS. Ulteriori informazioni nella [documentazione di Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
-
-   * **[!UICONTROL Parole chiave di consenso]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di consenso]**. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Messaggio di consenso]**: immetti la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di consenso]**.
-
-   * **[!UICONTROL Parole chiave di rinuncia]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di rinuncia]**. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Messaggio di rinuncia]**: immetti la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di rinuncia]**.
-
-   * **[!UICONTROL Parole chiave della Guida]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio della Guida**. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Messaggio di aiuto]**: immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**.
-
-   * **[!UICONTROL Parole chiave per doppio consenso]**: inserisci le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul consenso SMS Double](https://video.tv.adobe.com/v/3427129/?learn=on).
-
-   * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso.
-
-   * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero in entrata univoco o il tuo codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve.
-
-   * **[!UICONTROL Parole chiave in entrata personalizzate]**: definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata.
-
-   * **[!UICONTROL Messaggio di risposta in entrata predefinito]**: immettere la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite.
++++
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 

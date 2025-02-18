@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
+source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2261'
 ht-degree: 18%
 
 ---
@@ -285,8 +285,8 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un **Evento** o un **Pubblico**.
 
-Per i criteri di uscita basati su un evento, scegli solo un evento unitario.
-Per i criteri di uscita basati su un pubblico, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
+* Per i criteri di uscita basati su un evento, come ad esempio il download di un’app o l’aggiunta di un prodotto a un carrello, scegli solo un evento unitario.
+* Per i criteri di uscita basati su un pubblico, ad esempio un pubblico che controlla se un cliente ha acquistato nelle ultime 24 ore, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
 
 È possibile aggiungere più criteri di uscita.
 

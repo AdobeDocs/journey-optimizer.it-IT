@@ -3,20 +3,21 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta)
 description: Scopri come utilizzare i dati di Adobe Experience Platform per la personalizzazione.
+badge: label="Beta" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
 
 ---
 
-# Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta) {#aep-data}
+# Utilizzare i dati di Adobe Experience Platform per la personalizzazione{#aep-data}
 
 >[!AVAILABILITY]
 >

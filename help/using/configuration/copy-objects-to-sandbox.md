@@ -8,19 +8,19 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, percorso, copia, ambiente
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 4%
 
 ---
 
+# Esportare oggetti in un’altra sandbox {#copy-to-sandbox}
 
-# Copiare oggetti Journey Optimizer in un&#39;altra sandbox {#copy-to-sandbox}
+È possibile copiare oggetti come percorsi, modelli di contenuto o frammenti in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
 
-Gli strumenti sandbox consentono di copiare oggetti quali percorsi, modelli di contenuto o frammenti in più sandbox sfruttando le funzioni di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
-
-Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [documentazione dell&#39;Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -88,13 +88,13 @@ Per copiare gli oggetti in un’altra sandbox, devi innanzitutto aggiungerli com
 >
 >Per l&#39;esportazione dei percorsi, oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, schemi, eventi e azioni. Per ulteriori dettagli sull&#39;esportazione di percorsi, consultare [questa sezione](../building-journeys/copy-to-sandbox.md).
 
-## Publish il pacchetto da esportare {#publish}
+## Pubblica il pacchetto da esportare {#publish}
 
 Una volta che il pacchetto è pronto per l’esportazione, segui questi passaggi per pubblicarlo:
 
 1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Sandbox]** e seleziona la scheda **Pacchetti**.
 
-1. Aprire il pacchetto che si desidera esportare, selezionare gli oggetti da esportare e fare clic su **Publish**.
+1. Aprire il pacchetto che si desidera esportare, selezionare gli oggetti da esportare e fare clic su **Pubblica**.
 
    In questo esempio, desideri esportare un percorso, un modello di contenuto e un frammento.
 

@@ -4,17 +4,18 @@ product: journey optimizer
 title: Configurare il provider personalizzato
 description: Scopri come configurare l’ambiente per l’invio di messaggi di testo con Journey Optimizer con un provider personalizzato
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# Configurare un provider personalizzato (Beta) {#sms-configuration-custom}
+# Configurare un provider personalizzato {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +23,7 @@ ht-degree: 3%
 >
 >Tieni presente che questo Beta non supporta i messaggi in entrata per la gestione del consenso e la generazione di rapporti sulla consegna di consenso o rinuncia.
 
-Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato non disponibile come Adobe (ad esempio, Sinch, Infobip, Twilio), effettua le seguenti operazioni:
+Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato non disponibile come predefinito da Adobe (ad esempio Sinch, Infobip, Twilio), procedi come segue:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**.
 

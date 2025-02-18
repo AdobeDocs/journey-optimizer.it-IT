@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai dati in Journey Optimizer
+title: Introduzione alla gestione dei dati in Journey Optimizer
 description: Scopri come utilizzare i dati in Journey Optimizer
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Introduzione alla gestione dei dati in [!DNL Journey Optimizer] {#about-data}
+# Introduzione alla gestione dei dati {#about-data}
 
 Dalla ricchezza e la copertura dei dati dei clienti finali dipende la potenza e il successo di qualsiasi soluzione di customer experience; e questi dati sono sacri e di grande valore per ogni cliente! La scelta della tecnologia è ora integrata con una valutazione rigorosa delle funzionalità di gestione dei dati.
 

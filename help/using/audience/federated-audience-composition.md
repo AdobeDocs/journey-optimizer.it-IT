@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 8%
@@ -21,14 +21,14 @@ Anche se puoi utilizzare le funzionalità di composizione del pubblico per crear
 
 La funzionalità Federated Audience Composition disponibile in Adobe [!DNL Journey Optimizer] può eseguire query in un data warehouse per dati o profili
 attributi da utilizzare nella composizione dei tipi di pubblico, lasciando i dati sensibili nel data warehouse ed evitando la duplicazione dei dati. Questo può includere sia dati basati su profilo che dati non di profilo. Ad esempio, un gruppo di ristoranti con servizio rapido potrebbe arricchire i profili dei clienti
-che di recente ha effettuato ordini online presso la sede preferita di ciascun cliente, consentendo al gruppo di ristoranti di inviare ai clienti offerte che possono essere utilizzate nelle sedi preferite.
+che di recente ha effettuato ordini online presso la sede preferita di ogni cliente, consentendo al gruppo di ristoranti di inviare ai clienti offerte che possono essere utilizzate in tali sedi preferite.
 
 * **Integrazione dei dati**: aumenta la flessibilità e l&#39;efficienza con la possibilità di eseguire query su tipi di pubblico e set di dati predefiniti pertinenti dal data warehouse aziendale e dai partner in un unico ambiente per ottimizzare i casi d&#39;uso di Adobe Experience Platform.
 * **Processi di marketing migliorati**: sblocca il supporto aggiuntivo per segmentazione, targeting e casi di utilizzo di attivazione con flussi di lavoro semplificati e adattabili.
 * **Gestione efficiente dei dati** - Riduci al minimo la copia dei dati, controlla i dati sensibili
 utilizzo dei dati e ottimizzazione degli investimenti IT per integrare i casi d’uso cross-channel in tempo reale su Adobe
 
-Per ulteriori informazioni, consulta la guida su [Federated Audience Composition](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home).
+Per ulteriori informazioni, consulta la guida su [Composizione pubblico federato](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home){target="_blank"}.
 
 Ulteriori informazioni su Federated Audience Composition sono disponibili nel video:
 

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, recapito messaggi
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 12%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -31,9 +31,9 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    Collabora con il tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare. Scopri come selezionarli in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Per le campagne di riscaldamento IP, anche se modifichi l&#39;[indirizzo di esecuzione](../email/email-settings.md#execution-address) nella configurazione e-mail, viene ancora utilizzato il campo predefinito impostato a livello di sandbox. [Ulteriori informazioni](primary-email-addresses.md)
+   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1}.](ip-warmup-execution.md)
 
 1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email-journey-campaign).
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 11%
+source-wordcount: '1000'
+ht-degree: 10%
 
 ---
 
@@ -46,6 +46,10 @@ Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Jou
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
+
+   La funzione Marchi viene rilasciata come versione beta privata e sarà progressivamente disponibile per tutti i clienti nelle versioni future.
+
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
@@ -55,7 +59,7 @@ Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Jou
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: selezionare l&#39;approccio di comunicazione desiderato per il testo generato.
-   * **[!UICONTROL Lingua]**: scegli la lingua per il contenuto della variante.
+   * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
    * **[!UICONTROL Tono]**: verifica che il testo sia appropriato per il pubblico e lo scopo.
    * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore di intervallo.
 
@@ -107,6 +111,10 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 
 1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto di riferimento]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
+1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
+
+   La funzione Marchi viene rilasciata come versione beta privata e sarà progressivamente disponibile per tutti i clienti nelle versioni future.
+
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
@@ -116,7 +124,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: selezionare l&#39;approccio di comunicazione desiderato per il testo generato.
-   * **[!UICONTROL Lingua]**: scegli la lingua per il contenuto della variante.
+   * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
    * **[!UICONTROL Tono]**: verifica che il testo sia appropriato per il pubblico e lo scopo.
    * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore di intervallo.
 

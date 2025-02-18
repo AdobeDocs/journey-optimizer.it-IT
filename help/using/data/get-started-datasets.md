@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai set di dati
-description: Scopri come utilizzare i set di dati Adobe Experience Platform in Adobe Journey Optimizer
+description: Scopri come utilizzare i set di dati di Adobe Experience Platform in Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 >[!NOTE]
 >
->A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback di Journey Optimizer. Inoltre, a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema di Journey Optimizer. [Ulteriori informazioni](datasets-ttl.md)
+>A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dal tracciamento e dai set di dati di feedback di Journey Optimizer. Inoltre, a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
 
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività set di dati e vedi i dettagli del set di dati selezionato. La scheda attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 

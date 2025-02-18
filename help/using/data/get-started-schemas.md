@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ Gli schemi sono il metodo standard per descrivere i dati in Experience Platform 
 
 Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).
 
-Scopri come creare gli schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}
+Scopri come creare gli schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}.
 
 L’area di lavoro **Schemi** nell’interfaccia utente [!DNL Adobe Journey Optimizer] consente di gestire le risorse Experience Data Model (XDM), tra cui schemi, classi, gruppi di campi dello schema e tipi di dati. Puoi visualizzare ed esplorare le risorse di base fornite da Adobe e creare risorse e schemi personalizzati per la tua organizzazione.
 
@@ -31,9 +31,9 @@ L’area di lavoro **Schemi** nell’interfaccia utente [!DNL Adobe Journey Opti
 
 Scopri come utilizzare l’interfaccia utente Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it){target="_blank"}
 
-La documentazione dettagliata per creare uno schema utilizzando l’Editor schema è disponibile in [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}
+La documentazione dettagliata per la creazione di uno schema tramite l&#39;Editor di schema è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
 
-Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
+Consulta il [dizionario schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"} per visualizzare l&#39;elenco completo dei campi e degli attributi per ogni schema.
 
 
 ## Video introduttivo{#video-schema}

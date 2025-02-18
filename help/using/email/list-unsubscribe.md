@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell�
 >id="ajo_email_config_unsubscribe_custom"
 >title="Definire la modalità di gestione dei dati di annullamento iscrizione"
 >abstract="**Gestito da Adobe**: i dati sul consenso vengono gestiti da te all’interno del sistema Adobe.<br>**Gestito da cliente**: i dati sul consenso vengono gestiti da te in un sistema esterno e la sincronizzazione dei dati sul consenso non viene aggiornata nel sistema Adobe, a meno che questa non venga avviata da te."
-
->[!AVAILABILITY]
->
->Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
 
 Se gestisci il consenso al di fuori di Adobe, seleziona l’opzione **[!UICONTROL Gestito da cliente]** per immettere un indirizzo e-mail personalizzato per l’annullamento dell’iscrizione e l’URL personalizzato per l’annullamento con un clic.
 

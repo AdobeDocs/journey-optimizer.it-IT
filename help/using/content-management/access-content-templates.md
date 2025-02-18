@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 5%
 
 ---
@@ -48,19 +48,19 @@ Puoi anche scegliere di visualizzare solo gli elementi creati o modificati perso
 >
 >Quando si modifica o si elimina un modello, le campagne o i percorsi che includono il contenuto creato utilizzando questo modello non sono interessati.
 
-## Visualizza modelli come miniature {#template-thumbnails}
+## [!BADGE Disponibilità limitata]{type=Informative} Visualizza i modelli come miniature {#template-thumbnails}
 
 Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizzare ogni modello come miniatura.
 
 >[!AVAILABILITY]
 >
->Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
+Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Al momento le miniature corrette possono essere generate solo per modelli di contenuto e-mail di tipo HTML.
+Al momento è possibile generare le miniature appropriate solo per il tipo HTML email modelli di contenuto.
 
 Quando aggiorni un contenuto, potresti dover attendere alcuni secondi prima che le modifiche vengano riportate nella miniatura.
 

@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# Casi di utilizzo dei set di dati {#tracking-datasets}
+# Esempi di query {#query-examples}
 
 In questa pagina è disponibile l’elenco dei set di dati di Adobe Journey Optimizer e dei casi d’uso correlati:
 
-[Set Di Dati Evento Di Tracciamento E-Mail](#email-tracking-experience-event-dataset)
-[Set Di Dati Evento Feedback Messaggio](#message-feedback-event-dataset)
-[Set Di Dati Evento Esperienza Tracciamento Push](#push-tracking-experience-event-dataset)
-[Evento passaggio Percorso](#journey-step-event)
-[Set di dati evento decisioning](#ode-decisionevents)
-[Set di dati evento feedback Ccn](#bcc-feedback-event-dataset)
-[Set Di Dati Di Entità](#entity-dataset)
+* [Set di dati dell’evento di tracciamento e-mail](#email-tracking-experience-event-dataset)
+* [Set di dati evento feedback messaggio](#message-feedback-event-dataset)
+* [Set di dati evento di tracciamento push](#push-tracking-experience-event-dataset)
+* [Evento passaggio percorso](#journey-step-event)
+* [Set di dati dell’evento Decisioning](#ode-decisionevents)
+* [Set di dati evento feedback Ccn](#bcc-feedback-event-dataset)
+* [Set di dati di entità](#entity-dataset)
 
 Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
 
@@ -192,7 +192,7 @@ _Nome interno: eventi passaggio Percorso (set di dati di sistema)_
 
 Set di dati per l’acquisizione degli eventi dei passaggi nel percorso.
 
-Lo schema correlato è lo schema evento passaggio Percorso per il Journey Orchestration.
+Lo schema correlato è lo schema evento passaggio di Percorso per Journey Orchestration.
 
 Questa query mostra la suddivisione dei conteggi di successo delle azioni per etichetta azione per un determinato percorso:
 
