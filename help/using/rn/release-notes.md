@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 22%
 
 ---
@@ -142,7 +142,7 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Direct mail** - Un nuovo tipo di server, Data Landing Zone, è ora supportato per il routing dei file nella configurazione del canale di direct mailing.
+* **Direct mail** - Un nuovo tipo di server, Data Landing Zone, è ora supportato per il routing dei file nella configurazione del canale di direct mailing. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 * **SMS** - È ora possibile gestire la consegna di messaggi SMS da endpoint multiregionali sovrascrivendo gli URL di consegna, feedback, in entrata e callback. Per supportare questa funzione, è stato aggiunto un nuovo URL di sostituzione campo alla configurazione delle credenziali API. Questa modifica è disponibile solo con il provider Sinch. [Ulteriori informazioni](../sms/sms-configuration-sinch.md)
 
