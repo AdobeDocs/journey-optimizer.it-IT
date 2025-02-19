@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: profili di test, test, test, percorso
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 7df2d6a68ce20dbd9d07be3d6cfba9eba5ec0242
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -40,7 +40,7 @@ La creazione di un profilo di test è simile alla creazione di profili normali i
 
 ## Prerequisiti {#test-profile-prerequisites}
 
-Per poter creare profili, è innanzitutto necessario creare uno schema e un set di dati in Adobe [!DNL Journey Optimizer].
+Per poter creare profili, devi innanzitutto creare uno schema e un set di dati in Adobe [!DNL Journey Optimizer].
 
 Per **creare uno schema**, eseguire la procedura seguente:
 
@@ -145,7 +145,7 @@ Il percorso sarà composto da un pubblico di **[!UICONTROL lettura]** e da un&#3
 1. Aggiungi un&#39;attività di azione **[!UICONTROL Aggiorna profilo]**.
 1. Seleziona lo schema, il campo **testProfiles**, il set di dati e imposta il valore su **True**. Per eseguire questa operazione, nel campo **[!UICONTROL VALUE]**, fai clic sull&#39;icona **Pen** a destra, seleziona **[!UICONTROL Modalità avanzata]** e immetti **true**.
    ![](assets/test-profiles-26.png)
-1. Fare clic su **[!UICONTROL Publish]**.
+1. Fai clic su **[!UICONTROL Pubblica]**.
 1. Nella sezione **[!UICONTROL Tipi di pubblico]**, verifica che i profili siano stati aggiornati correttamente.
    ![](assets/test-profiles-28.png)
 
@@ -179,6 +179,7 @@ In Adobe Experience Platform, puoi creare profili caricando un file csv contenen
    ![](assets/test-profiles-21.png)
 
 Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il test di un percorso. Fai riferimento a [questa sezione](../building-journeys/testing-the-journey.md).
+
 >[!NOTE]
 >
 > Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
