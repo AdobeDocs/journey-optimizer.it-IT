@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Utilizza questa funzionalità per semplificare il processo di test e convalida, 
 
 ## Prerequisiti {#troubleshoot-custom-action-prereq}
 
-Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;**azione personalizzata** con un URL, intestazioni e impostazioni di autenticazione.
+Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **** con un URL, intestazioni e impostazioni di autenticazione.
 
 Affinché gli amministratori possano utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
 
@@ -48,11 +48,9 @@ Ulteriori informazioni sulle autorizzazioni di percorso in [questa sezione](../a
 
 Per testare un’azione personalizzata, effettua le seguenti operazioni:
 
-1. Passare alla schermata di configurazione **Azioni personalizzate** e selezionare un&#39;azione personalizzata.
+1. Passa alla schermata di configurazione **Azioni** e seleziona un&#39;azione personalizzata.
 1. Fai clic sul pulsante **[!UICONTROL Invia richiesta test]** nella parte inferiore della schermata di configurazione dell&#39;azione.
-
-![Pulsante Invia richiesta di test nel pannello di configurazione Azione](assets/test-request.png){width="70%" align="left"}
-
+   ![Pulsante Invia richiesta di test nel pannello di configurazione Azione](assets/test-request.png){width="70%" align="left"}
 1. Nella finestra pop-up, che consente di specificare i parametri della richiesta:
 
    * Se il metodo di azione personalizzato **è GET**, non è richiesto alcun payload.
