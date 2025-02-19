@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testare un’azione personalizzata
+title: Risolvere i problemi relativi alle azioni personalizzate
 description: Scopri come risolvere i problemi di un’azione personalizzata
 badge: label="Disponibilità limitata"
 feature: Journeys, Actions, Custom Actions
@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '561'
 ht-degree: 2%
 
 ---
@@ -24,60 +24,73 @@ ht-degree: 2%
 >Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 >
 
-## Panoramica
+Puoi verificare le azioni personalizzate inviando chiamate API dalla sezione amministrazione dell’interfaccia utente di Journey Optimizer. Questa funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo il loro utilizzo in un percorso.
 
-La funzionalità **Invia richiesta di test** consente agli amministratori di convalidare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente da Adobe Journey Optimizer (AJO). Questa funzione assicura che la struttura della richiesta, le intestazioni, l’autenticazione e il payload siano formattati correttamente prima di essere utilizzati in un percorso.
+In qualità di amministratore, utilizza la funzionalità **[!UICONTROL Invia richiesta di test]** per convalidare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente da Adobe Journey Optimizer. Questa funzione assicura che la struttura della richiesta, le intestazioni, l’autenticazione e il payload siano formattati correttamente prima di essere utilizzati in un percorso.
 
 ![](assets/send-test-request.png){width="70%" align="left"}
 
-## Prerequisiti
+Utilizza questa funzionalità per semplificare il processo di test e convalida, garantendo il corretto funzionamento delle azioni personalizzate nei percorsi live.
 
-- **Accesso amministratore richiesto:**
-   - Gli utenti devono disporre dell&#39;autorizzazione **&quot;Gestisci eventi percorsi, origini dati e azioni&quot;**.
-   - Questa autorizzazione è inclusa nel ruolo *Amministratori di Percorso*.
-   - L&#39;autorizzazione **&quot;Visualizza eventi di percorsi...&quot;** da sola non è sufficiente.
-- Una **Azione personalizzata** deve essere preconfigurata con un URL, intestazioni e impostazioni di autenticazione.
+## Prerequisiti {#troubleshoot-custom-action-prereq}
 
-## Come utilizzare la funzione Invia richiesta di test
+Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;**azione personalizzata** con un URL, intestazioni e impostazioni di autenticazione.
+
+Affinché l’amministratore possa utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
+
+* Gli utenti devono disporre dell&#39;autorizzazione **[!DNL Manage journeys events, data sources and actions]**.
+* Questa autorizzazione è inclusa nel ruolo *Amministratori di Percorso*.
+* La sola autorizzazione **[!DNL View journeys events]** non è sufficiente.
+
+Ulteriori informazioni sulle autorizzazioni di percorso in [questa sezione](../administration/high-low-permissions.md#journey-capability).
+
+## Come utilizzare la funzione Send Test Request {#troubleshoot-custom-action-use}
+
+Per testare un’azione personalizzata, effettua le seguenti operazioni:
 
 1. Passa alla schermata di configurazione **Azioni personalizzate**.
-1. Fare clic sul pulsante **&quot;Invia richiesta test&quot;**.
-1. Viene visualizzata una finestra popup che consente di specificare i parametri della richiesta:
-   - Se il metodo di azione personalizzato **è GET**, non è richiesto alcun payload.
-   - Se il metodo di azione personalizzato **è POST**, è necessario fornire un payload JSON.
+1. Fare clic sul pulsante **[!UICONTROL Invia richiesta test]**.
+1. Nella finestra pop-up, che consente di specificare i parametri della richiesta:
+
+   * Se il metodo di azione personalizzato **è GET**, non è richiesto alcun payload.
+   * Se il metodo di azione personalizzato **è POST**, è necessario fornire un payload JSON.
 
      >[!NOTE]
      >
-     >AJO genererà un errore se la struttura di questo JSON non è corretta, ma non lo farà in caso di mancata corrispondenza con un tipo di dati. Ad esempio, non si verifica alcun errore se si utilizza un parametro intero per quella che deve essere una stringa.
+     >Adobe Journey Optimizer genererà un errore se la struttura di questo JSON non è corretta, ma non lo farà in caso di mancata corrispondenza con un tipo di dati. Ad esempio, non si verifica alcun errore se si utilizza un parametro intero per quella che deve essere una stringa.
 
-   - Se è definita l&#39;autenticazione, verrà richiesto di immettere i dettagli di autenticazione.
+   * Se è definita l&#39;autenticazione, verrà richiesto di immettere i dettagli di autenticazione.
 
 1. Fai clic su **Invia** per eseguire la richiesta.
 1. La risposta dall’API, incluse le intestazioni e i codici di stato, verrà visualizzata nell’interfaccia.
 
-## Gestione dell’autenticazione
+## Gestione dell’autenticazione {#troubleshoot-custom-action-auth}
 
-Quando un’azione personalizzata include l’autenticazione, AJO richiede all’utente di inserire i dettagli di autenticazione per ogni richiesta di test:
+Quando un’azione personalizzata include l’autenticazione, Adobe Journey Optimizer richiede all’utente di immettere i dettagli di autenticazione per ogni richiesta di test:
 
-- **Autenticazione di base:** L&#39;utente deve fornire la *password*.
-- **Autenticazione chiave API:** L&#39;utente deve immettere la chiave API *value*.
-- **Autenticazione personalizzata:** L&#39;utente deve fornire i parametri di autenticazione nella richiesta *bodyParam*. In questo caso vengono aggiunte due sezioni da completare: **Richiesta di autenticazione** e **Risposta di autenticazione**.
+* **Autenticazione di base:** L&#39;utente deve fornire la *password*.
+* **Autenticazione chiave API:** L&#39;utente deve immettere la chiave API *value*.
+* **Autenticazione personalizzata:** L&#39;utente deve fornire i parametri di autenticazione nella richiesta *bodyParam*. In questo caso vengono aggiunte due sezioni da completare: **Richiesta di autenticazione** e **Risposta di autenticazione**.
 
-## Differenze chiave dagli strumenti di test esterni (ad esempio, Postman)
+## Vantaggi chiave {#troubleshoot-custom-action-benefits}
 
-- La richiesta di test viene eseguita da **AJO Percorsi**, ovvero:
-   - Viene utilizzata la struttura esatta della richiesta (comprese le intestazioni specifiche per AJO).
-   - L’IP sorgente e le intestazioni corrispondono a quelle utilizzate nei percorsi live.
-- Può essere utilizzato per la risoluzione dei problemi di **percorsi live** in cui l&#39;azione personalizzata è già distribuita.
-- Elimina la necessità di copiare manualmente i dettagli di configurazione tra gli strumenti, riducendo il rischio di errori.
+In qualità di amministratore di Journey Optimizer, puoi anche utilizzare strumenti esterni (ad esempio, Postman) per testare le azioni personalizzate. Di seguito sono elencati i principali vantaggi della funzionalità di risoluzione dei problemi interna al prodotto rispetto a un test esterno:
 
-## Risoluzione dei problemi
+* La richiesta di test viene eseguita da **AJO Percorsi**, ovvero:
 
-- Se la richiesta non riesce, verifica:
-   - Credenziali di autenticazione immesse nel test.
-   - Il metodo di richiesta (GET vs. POST) e il payload corrispondente.
-   - L’endpoint API e le intestazioni definiti nell’azione personalizzata.
-- Utilizza i dati di risposta per identificare potenziali configurazioni errate.
+   * Viene utilizzata la struttura esatta della richiesta (comprese le intestazioni specifiche di Adobe Journey Optimizer).
+   * L’IP sorgente e le intestazioni corrispondono a quelle utilizzate nei percorsi live.
 
-Questa funzione semplifica il processo di test e convalida, garantendo il corretto funzionamento delle azioni personalizzate nei percorsi live di AJO.
+* La funzionalità **[!UICONTROL Invia richiesta di test]** può essere utilizzata per la risoluzione dei problemi di **percorsi live**, in quanto l&#39;azione personalizzata è già distribuita.
+
+* Questa funzionalità di test interna al prodotto elimina la necessità di copiare manualmente i dettagli di configurazione tra gli strumenti, riducendo il rischio di errori.
+
+## Risoluzione dei problemi {#troubleshoot-custom-action-check}
+
+Se la richiesta non riesce, puoi controllare:
+
+* Credenziali di autenticazione immesse nel test.
+* Il metodo di richiesta (GET vs. POST) e il payload corrispondente.
+* L’endpoint API e le intestazioni definiti nell’azione personalizzata.
+* Utilizza i dati di risposta per identificare potenziali configurazioni errate.
 

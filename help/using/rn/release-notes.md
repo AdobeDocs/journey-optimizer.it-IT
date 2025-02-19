@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 22%
 
 ---
@@ -129,7 +129,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febbraio.
 
-* **Percorsi** - Ora puoi testare le azioni personalizzate inviando chiamate API dalla sezione amministrazione. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo il loro utilizzo in un percorso.
+* **Percorsi** - Ora puoi testare le azioni personalizzate inviando chiamate API dalla sezione amministrazione. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo il loro utilizzo in un percorso. [Ulteriori informazioni](../action/troubleshoot-custom-action.md)
 
 * **Durata (TTL) del set di dati** - A partire da questo mese, verrà introdotto un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer in nuove sandbox e nuove organizzazioni come segue:
 
