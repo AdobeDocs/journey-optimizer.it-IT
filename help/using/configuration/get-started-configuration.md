@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alla configurazione  [!DNL Journey Optimizer]
-description: Ulteriori informazioni sulla configurazione  [!DNL Journey Optimizer]
+title: 'Introduzione alla configurazione  [!DNL Journey Optimizer] '
+description: 'Ulteriori informazioni sulla configurazione  [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configurazione, configurare, messaggi, canale, sandbox, optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 93%
@@ -41,7 +41,7 @@ Per creare i tuoi percorsi e inviare messaggi, devi seguire i passaggi di config
 
    * Abilitare l’**opzione e-mail Ccn** per conservare una copia dei messaggi inviati ai singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
 
-   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](frequency-rules.md)
+   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../configuration/rule-sets.md)
 
    * Determinare l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
 

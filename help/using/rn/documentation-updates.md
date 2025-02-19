@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
    * E: scelta rapida utilizzata per attivare un evento in un percorso basato su eventi.
    * P: scelta rapida per attivare un evento in un percorso basato sul pubblico per il quale è attivata l’opzione Singolo profilo alla volta.
    * L: scelta rapida designata per visualizzare i registri di test.
-* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sulla quota limite giornaliera, disponibile su richiesta oltre al limite settimanale o mensile. [Ulteriori informazioni](../configuration/frequency-rules.md#daily-frequency-cap)
+* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sul limite di frequenza giornaliero, disponibile su richiesta oltre al limite settimanale o mensile.
 * La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experience Platform. [Ulteriori informazioni](../action/consent.md)
 * È stata aggiunta una nuova sezione per riflettere il fatto che è possibile visualizzare i modelli di contenuto e-mail HTML come miniature con la modalità Vista a griglia (disponibilità limitata). [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
 * È stata aggiunta una nuova sezione alla pagina della Recapitabilità per spiegare cosa sono i cicli di feedback e come sfruttarli. [Ulteriori informazioni](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * L’elenco delle funzioni disponibili nell’editor di espressioni avanzate è stato aggiornato. [Ulteriori informazioni](../building-journeys/expression/functions.md)
 * La pagina sulla funzione di suddivisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
 * Sono state aggiunte informazioni sull’impatto del consenso o del rifiuto delle notifiche push sui messaggi in-app. [Ulteriori informazioni](../in-app/create-in-app.md)
-* La pagina delle regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni di durata disponibili nell’interfaccia utente (settimanale o mensile). [Ulteriori informazioni](../configuration/frequency-rules.md)
+* La pagina Regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni Durata disponibili nell’interfaccia utente (settimanale o mensile).
 * La sezione Modificare un record PTR è stata aggiornata per chiarire il fatto che i record PTR non possono essere creati manualmente e che è necessario modificarli per assegnare loro nuovi sottodomini. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Gennaio 2024 {#jan-2024}
@@ -338,7 +338,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Agosto 2022 {#august-2022}
 
 * Tutte le nuove funzionalità e i miglioramenti apportati nella versione di agosto 2022 di [!DNL Journey Optimizer] sono elencati in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
-* La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
+* La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea.
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
 * È stata aggiunta una limitazione per i percorsi che utilizzano attività di Leggi pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
 * È stata migliorata la pagina degli operatori dell’Editor espressioni. [Ulteriori informazioni](../building-journeys/expression/operators.md)
