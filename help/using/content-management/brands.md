@@ -7,10 +7,10 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4919c8c749f9216be526bab2437a815da0136df5
+source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 19%
+source-wordcount: '427'
+ht-degree: 22%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 19%
 >[!AVAILABILITY]
 >
 >Questa funzionalità viene rilasciata come versione beta privata. Sarà disponibile progressivamente per tutti i clienti nelle prossime versioni.
->
 
 Le linee guida per il marchio sono un set dettagliato di regole e standard che stabiliscono l’identità visiva e verbale di un marchio. Essi fungono da riferimento per mantenere una rappresentazione coerente del marchio su tutte le piattaforme di marketing e comunicazione.
 
-In Journey Optimizer, ora puoi inserire e organizzare manualmente i dettagli del brand o caricare documenti di linee guida per l’estrazione automatica delle informazioni.
+In [!DNL Journey Optimizer], ora puoi inserire e organizzare manualmente i dettagli del tuo marchio o caricare documenti di linee guida per l&#39;estrazione automatica delle informazioni.
 
 ## Marchi di accesso {#generative-access}
 
-Per accedere al menu Marchio in Adobe Journey Optimizer, è necessario concedere agli utenti le autorizzazioni **Managed brand kit** o **[!UICONTROL Enable AI Assistant]**. [Ulteriori informazioni](../administration/permissions.md)
+Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], è necessario concedere agli utenti le autorizzazioni **[!UICONTROL Managed Brand Kit]** o **[!UICONTROL Enable AI Assistant]**. [Ulteriori informazioni](../administration/permissions.md)
 
 +++  Scopri come assegnare le autorizzazioni relative al marchio
 
@@ -51,34 +50,41 @@ Per accedere al menu Marchio in Adobe Journey Optimizer, è necessario concedere
 
 1. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-
 +++
 
 ## Crea il tuo marchio {#create-brand-kit}
 
 Per creare e gestire le linee guida per i marchi, puoi immettere autonomamente i dettagli oppure caricare il documento sulle linee guida per i marchi in modo che le informazioni vengano estratte automaticamente:
 
-1. Nel menu **[!UICONTROL Marchi]**, fai clic su **[!UICONTROL Aggiungi marchio]**.
+1. Nel menu **[!UICONTROL Marchi]**, fai clic su **[!UICONTROL Crea marchio]**.
 
    ![](assets/brands-1.png)
 
-1. Immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]** per la linea guida del brand.
+1. Immetti un **[!UICONTROL Nome]** per il tuo marchio<!--and a **[!UICONTROL Description]** to your brand guideline-->.
 
-1. Trascina e rilascia o seleziona il file per caricare le linee guida per il brand ed estrarre automaticamente le informazioni rilevanti per il brand. Fai clic su **[!UICONTROL Aggiungi marchio]**.
+   ![](assets/brands-2-temp.png)
 
-   Il processo di estrazione delle informazioni ora inizia. Il completamento potrebbe richiedere alcuni minuti.
+<!--
 
-   ![](assets/brands-2.png)
+[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
 
-1. I contenuti e gli standard di creazione visiva vengono ora compilati automaticamente. Sfoglia le diverse schede per adattare le informazioni in base alle esigenze.
+1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
-1. Dagli **[!UICONTROL standard per la creazione di contenuti]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere un&#39;altra linea guida, esempio o esclusione.
+    The information extraction process now begins. Note that it may take several minutes to complete.
+
+    ![](assets/brands-2.png)
+
+1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+
+-->
+
+1. Dalla scheda **[!UICONTROL Stile scrittura]**, fare clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida o un&#39;esclusione. Puoi anche aggiungere esempi.
 
    ![](assets/brands-3.png)
 
-1. Dai **[!UICONTROL Standard per la creazione visiva]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere un&#39;altra linea guida, esempio o esclusione.
+1. Dalla scheda **[!UICONTROL Contenuto visivo]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere un&#39;altra linea guida o esclusione.
 
-1. Per aggiungere un esempio di immagine, fare clic su **[!UICONTROL Seleziona immagine]**. Puoi anche aggiungere eventuali informazioni errate identificate.
+1. Per aggiungere un esempio di immagine, fare clic su **[!UICONTROL Seleziona immagine]**. È inoltre possibile aggiungere un’immagine che mostra un utilizzo errato come esempio di esclusione.
 
    ![](assets/brands-4.png)
 
