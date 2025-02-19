@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
    + Decisioning {#experience-decisioning}
       + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Guardrail e limitazioni per le decisioni](using/experience-decisioning/decisioning-guardrails.md)
       + Riferimento API{#api-reference}
          + Elementi decisionali{#decision-items}
             + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 97%
    + Gestione delle decisioni {#offer-decisioning}
       + Introduzione alla gestione delle decisioni {#get-started-decision}
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
+         + [Guardrail e limitazioni di gestione delle decisioni](using/offers/decision-management-guardrails.md)
          + [Interfaccia utente](using/offers/get-started/user-interface.md)
          + [Passaggi chiave per creare e gestire le offerte](using/offers/offer-library/key-steps.md)
          + [Sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni](using/offers/custom-upload-decisioning.md)

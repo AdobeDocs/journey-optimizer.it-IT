@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 20%
+source-wordcount: '484'
+ht-degree: 26%
 
 ---
 
@@ -31,26 +31,6 @@ Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma
 >I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
 
 ➡️ Un caso d&#39;uso end-to-end che mostra come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice è presentato in [questa sezione](experience-decisioning-uc.md).
-
-## Guardrail e limitazioni {#guardrails}
-
-Per garantire un utilizzo ottimale di Decisioning, tieni presenti le seguenti protezioni e limitazioni:
-
-### Guardrail generali {#general}
-
-* **Elementi offerta**: ogni raccolta di elementi può contenere fino a 500 elementi offerta.
-* **Attributi personalizzati**: un elemento decisione può includere un massimo di 100 attributi personalizzati.
-* **Strategie di selezione ed elementi decisionali per criterio**: un criterio di decisione supporta fino a 10 strategie di selezione e elementi decisionali combinati.
-
-### Eligibility rules (Regole di idoneità) {#eligibility}
-
-* **Livelli di nidificazione**: la profondità di nidificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL.
-* **Dimensione stringa regola**: una stringa regola può avere una dimensione massima di 15 KB per i caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno).
-
-### Formule di classificazione {#ranking}
-
-* **Livelli di nidificazione**: la profondità di nidificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL.
-* **Dimensione stringa di formula**: una stringa di regola può avere una dimensione massima di 8 KB per i caratteri con codifica UTF-8. Equivale a 8.000 caratteri ASCII (1 byte ciascuno) o 2.000-4.000 caratteri non ASCII (2-4 byte ciascuno).
 
 ## Decisioning dei passaggi chiave {#steps}
 

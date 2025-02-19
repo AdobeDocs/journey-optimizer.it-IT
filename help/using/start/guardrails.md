@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 93%
+source-wordcount: '2305'
+ht-degree: 91%
 
 ---
 
@@ -75,6 +75,17 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
 
+## Guardrail dei tipi di pubblico {#audience}
+
+Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
+
+## Guardrail di gestione delle decisioni e delle decisioni {#decisioning}
+
+I guardrail e le limitazioni da tenere presenti quando si lavora con Decisioning o Gestione delle decisioni sono descritti in queste sezioni relative alla gestione delle decisioni e delle decisioni:
+
+* [Guardrail e limitazioni per le decisioni](../experience-decisioning/decisioning-guardrails.md)
+* [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
+
 ## Guardrail di percorso {#journeys-guardrails}
 
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 * Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono archiviati in quell’istanza percorso e influiscono sulle sue dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### Azioni generali {#general-actions-g}
 
@@ -127,7 +137,6 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 * I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 * Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, devi creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato, perché potrebbe causare problemi a valle in base alle azioni utilizzate.
 
-
 ### Origini dati {#data-sources-g}
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso del cliente per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
@@ -153,7 +162,6 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail specifici. Sono elencati in [questa pagina](../building-journeys/update-profiles.md).
 
-
 ### Leggi pubblico {#read-segment-g}
 
 All’attività **[!UICONTROL Leggi pubblico]**, vengono applicati i seguenti guardrail specifici:
@@ -166,18 +174,15 @@ All’attività **[!UICONTROL Leggi pubblico]**, vengono applicati i seguenti gu
 * Consulta anche i consigli su come utilizzare l’attività **Leggi pubblico** in [questa pagina](../building-journeys/read-audience.md).
 * I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 
-
 ### Qualificazione del pubblico {#audience-qualif-g}
 
 All’attività **[!UICONTROL Qualificazione del pubblico]** viene applicato il guardrail seguente:
 
 * L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
 
-
 ### Editor espressioni {#expression-editor}
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. Devi creare un nuovo pubblico e utilizzare una condizione inaudience nel percorso.
-
 
 ### Attività in-app {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ All’attività **[!UICONTROL Qualificazione del pubblico]** viene applicato il 
 
 * La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
 
-
-
 ### Attività Salta {#jump-g}
 
 All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono elencati in [questa pagina](../building-journeys/jump.md#jump-limitations).
@@ -209,37 +212,3 @@ I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
 * Queste attività non possono essere utilizzate con le attività in-app.
-
-## Guardrail dei tipi di pubblico {#audience}
-
-Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
-
-## Guardrail di gestione delle decisioni {#decision-management}
-
-### Guardrail prestazioni {#performance-guardrails}
-
-La velocità effettiva di consegna corrisponde al numero di risposte alle decisioni che possono essere fornite dal servizio app di gestione delle decisioni in un determinato periodo di tempo. Il numero di decisioni al secondo è indicato nella tabella seguente.
-
-| API | Decisioni al secondo |
-|---------|----------|
-| Richieste API Decisioning | 500 al secondo |
-| Richieste API Edge Decisioning con segmentazione di Edge | 1.500 al secondo |
-| Richieste API Edge Decisioning senza segmentazione di Edge | 5.000 al secondo |
-
-### Limitazioni {#offers-limitations}
-
-Le limitazioni di Gestione delle decisioni sono elencate di seguito.
-
-* **Offerte personalizzate approvate + Offerte di fallback**: fino a 10.000 offerte personalizzate approvate combinate e offerte di fallback approvate.
-* **Decisioni**: fino a 10.000 decisioni.
-* **Decisioni live**: il servizio app Offer Decisioning supporta fino a 1.000 decisioni live.
-* **Offerte restituite per risposta**: Offer Decisioning supporta fino a 100 offerte restituite per richiesta in tutti gli ambiti decisionali della richiesta.
-* **Raccolte**: fino a 10.000 raccolte.
-* **Raccolte per decisione**: fino a 30 raccolte per decisione.
-* **Regole di decisione + funzioni di classificazione**: fino a 10.000 regole di decisione e funzioni di classificazione combinate.
-* **Posizionamenti**: fino a 1.000 posizionamenti.
-* **Posizionamenti per decisione**: fino a 30 posizionamenti per decisione.
-* **Metodo di classificazione per decisione**: il servizio app Offer Decisioning supporta fino a 30 funzioni di classificazione per decisione.
-* **Modello di classificazione IA**: il servizio app Offer Decisioning supporta fino a 5 modelli di classificazione IA.
-* **Qualificatore raccolta per offerta o raccolta**: il servizio app Offer decisioning supporta fino a 20 qualificatori di raccolta in una singola offerta personalizzata o raccolta singola.
-* **Qualificatori raccolta totali**: il servizio app Offer Decisioning supporta fino a 1.000 qualificatori di raccolta.
