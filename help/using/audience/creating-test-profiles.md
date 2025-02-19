@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
+source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 3%
@@ -178,7 +178,8 @@ Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
+>Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
+>
 
 
 ## Creare profili di test tramite chiamate API{#create-test-profiles-api}
