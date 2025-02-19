@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,10 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La documentazione relativa all&#39;**[!UICONTROL ottimizzazione dell&#39;ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
 * Sono state aggiunte nuove protezioni per gli eventi di percorso. [Ulteriori informazioni](../start/guardrails.md#events-g)
 * La pagina delle azioni del canale incorporata è stata riorganizzata. [Ulteriori informazioni](../building-journeys/journeys-message.md)
-* Sono state aggiunte protezioni e limitazioni nella sezione Gestione delle decisioni e delle decisioni.
+* Sono state aggiunte protezioni e limitazioni nelle sezioni Decisioning e Gestione delle decisioni.
    * [Guardrail e limitazioni per le decisioni](../experience-decisioning/decisioning-guardrails.md)
    * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
+* Nella documentazione relativa alla gestione delle decisioni è stata aggiunta una nuova sezione sui dati contestuali. Fornisce informazioni su come sfruttare i dati contestuali nel motore decisionale, ad esempio per progettare una regola di decisione che richiede che il tempo corrente sia di ≥80 gradi al momento della richiesta di decisione. [Ulteriori informazioni](../offers/context-data.md)
 
 ## Gennaio 2025 {#jan-2025}
 

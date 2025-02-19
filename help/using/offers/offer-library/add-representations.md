@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="Rappresentazioni"
 >abstract="Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi."
 
-Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML e così via. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi.
+Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come un blocco HTML e così via. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi.
 
 ## Configurare le rappresentazioni dell’offerta {#representations}
 
@@ -72,7 +72,7 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 >[!NOTE]
 >
-> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei **Utenti consumer di Assets Essentials** e/o dei **Utenti Assets Essentials** profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei **Utenti consumer di Assets Essentials** o/e **Utenti Assets Essentials** profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Scegliere l&#39;opzione **[!UICONTROL Libreria risorse]**.
 
@@ -90,7 +90,7 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 Se il posizionamento selezionato è di tipo HTML, puoi anche aggiungere contenuto HTML o JSON proveniente dalla [libreria di risorse Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Ad esempio, hai creato un modello di e-mail HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e desideri utilizzare tale file per il contenuto dell&#39;offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nella **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell&#39;offerta.
+Ad esempio, hai creato un modello di e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e desideri utilizzare tale file per il contenuto dell&#39;offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nella **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell&#39;offerta.
 
 Per riutilizzare il contenuto in una rappresentazione, sfoglia la **Libreria risorse** come descritto in [questa sezione](#images) e seleziona il file HTML o JSON desiderato.
 
@@ -140,7 +140,7 @@ Se si specifica un **[!UICONTROL collegamento di destinazione]**, è possibile p
 
 Quando i dati contestuali vengono passati nella chiamata [Edge decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md), puoi sfruttare questi dati per personalizzare dinamicamente le rappresentazioni. Ad esempio, puoi personalizzare la rappresentazione di un’offerta in base a fattori in tempo reale, come le condizioni meteo correnti al momento in cui viene presa la decisione.
 
-A questo scopo, incorpora la variabile di dati di contesto direttamente nel contenuto della rappresentazione utilizzando lo spazio dei nomi `profile.timeSeriesEvents.`.
+Per utilizzare i dati contestuali nelle rappresentazioni delle offerte, incorporare la variabile di dati contestuali direttamente nel contenuto della rappresentazione utilizzando lo spazio dei nomi `profile.timeSeriesEvents.`.
 
 Di seguito è riportato un esempio di sintassi utilizzato per personalizzare la rappresentazione di un’offerta in base ai sistemi operativi degli utenti:
 
