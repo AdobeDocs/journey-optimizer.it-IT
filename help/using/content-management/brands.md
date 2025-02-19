@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
+source-git-commit: 6c99d733b973efd790f8727bf867fbf0a952f6d9
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 24%
@@ -26,7 +26,7 @@ Le linee guida per il marchio sono un set dettagliato di regole e standard che s
 
 In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
-## Marchi di accesso {#generative-access}
+## Accedere ai brand {#generative-access}
 
 Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], è necessario concedere agli utenti le autorizzazioni **[!UICONTROL Managed Brand Kit]** o **[!UICONTROL Enable AI Assistant]**. [Ulteriori informazioni](../administration/permissions.md)
 
