@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Utilizza questa funzionalità per semplificare il processo di test e convalida, 
 
 Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;**azione personalizzata** con un URL, intestazioni e impostazioni di autenticazione.
 
-Affinché l’amministratore possa utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
+Affinché gli amministratori possano utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
 
 * Gli utenti devono disporre dell&#39;autorizzazione **[!DNL Manage journeys events, data sources and actions]**.
 * Questa autorizzazione è inclusa nel ruolo *Amministratori di Percorso*.
@@ -44,12 +44,15 @@ Affinché l’amministratore possa utilizzare questa funzionalità, sono necessa
 
 Ulteriori informazioni sulle autorizzazioni di percorso in [questa sezione](../administration/high-low-permissions.md#journey-capability).
 
-## Come utilizzare la funzione Send Test Request {#troubleshoot-custom-action-use}
+## Come utilizzare la funzione Send test request {#troubleshoot-custom-action-use}
 
 Per testare un’azione personalizzata, effettua le seguenti operazioni:
 
-1. Passa alla schermata di configurazione **Azioni personalizzate**.
-1. Fare clic sul pulsante **[!UICONTROL Invia richiesta test]**.
+1. Passare alla schermata di configurazione **Azioni personalizzate** e selezionare un&#39;azione personalizzata.
+1. Fai clic sul pulsante **[!UICONTROL Invia richiesta test]** nella parte inferiore della schermata di configurazione dell&#39;azione.
+
+![Pulsante Invia richiesta di test nel pannello di configurazione Azione](assets/test-request.png){width="70%" align="left"}
+
 1. Nella finestra pop-up, che consente di specificare i parametri della richiesta:
 
    * Se il metodo di azione personalizzato **è GET**, non è richiesto alcun payload.
