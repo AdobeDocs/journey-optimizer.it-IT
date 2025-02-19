@@ -7,10 +7,10 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,15 @@ ht-degree: 22%
 
 Le linee guida per il marchio sono un set dettagliato di regole e standard che stabiliscono l’identità visiva e verbale di un marchio. Essi fungono da riferimento per mantenere una rappresentazione coerente del marchio su tutte le piattaforme di marketing e comunicazione.
 
-In [!DNL Journey Optimizer], ora puoi inserire e organizzare manualmente i dettagli del tuo marchio o caricare documenti di linee guida per l&#39;estrazione automatica delle informazioni.
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## Marchi di accesso {#generative-access}
 
 Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], è necessario concedere agli utenti le autorizzazioni **[!UICONTROL Managed Brand Kit]** o **[!UICONTROL Enable AI Assistant]**. [Ulteriori informazioni](../administration/permissions.md)
 
-+++  Scopri come assegnare le autorizzazioni relative al marchio
++++  Scopri come assegnare le autorizzazioni relative al brand
 
 1. Nel prodotto **Autorizzazioni**, passa alla scheda **Ruoli** e seleziona il **Ruolo** desiderato.
 
@@ -36,7 +38,7 @@ Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], 
 
 1. Aggiungi la risorsa **Assistente AI**, quindi seleziona **Kit marchio gestito** o **[!UICONTROL Abilita assistente AI]** dal menu a discesa.
 
-   Si noti che l&#39;autorizzazione **[!UICONTROL Abilita Assistente Ia]** fornisce accesso in sola lettura al menu Marchi.
+   Si noti che l&#39;autorizzazione **[!UICONTROL Abilita Assistente Ia]** fornisce accesso in sola lettura al menu **[!UICONTROL Marchi]**.
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], 
 
 ## Crea il tuo marchio {#create-brand-kit}
 
-Per creare e gestire le linee guida per i marchi, puoi immettere autonomamente i dettagli oppure caricare il documento sulle linee guida per i marchi in modo che le informazioni vengano estratte automaticamente:
+Per creare e gestire le linee guida per il tuo marchio, segui i passaggi indicati di seguito.
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. Nel menu **[!UICONTROL Marchi]**, fai clic su **[!UICONTROL Crea marchio]**.
 
@@ -64,9 +70,7 @@ Per creare e gestire le linee guida per i marchi, puoi immettere autonomamente i
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ Per creare e gestire le linee guida per i marchi, puoi immettere autonomamente i
 
 -->
 
-1. Dalla scheda **[!UICONTROL Stile scrittura]**, fare clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida o un&#39;esclusione. Puoi anche aggiungere esempi.
+1. Dalla scheda **[!UICONTROL Stile scrittura]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida o un&#39;esclusione, inclusi esempi.
 
    ![](assets/brands-3.png)
 
 1. Dalla scheda **[!UICONTROL Contenuto visivo]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere un&#39;altra linea guida o esclusione.
 
-1. Per aggiungere un esempio di immagine, fare clic su **[!UICONTROL Seleziona immagine]**. È inoltre possibile aggiungere un’immagine che mostra un utilizzo errato come esempio di esclusione.
+1. Per aggiungere un&#39;immagine che mostra l&#39;utilizzo corretto, selezionare **[!UICONTROL Esempio]** e fare clic su **[!UICONTROL Seleziona immagine]**. È inoltre possibile aggiungere un’immagine che mostra un utilizzo errato come esempio di esclusione.
 
    ![](assets/brands-4.png)
 
-1. Una volta configurata, fai clic su **[!UICONTROL Salva]** e quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida dei brand nell&#39;assistente AI.
+1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida del brand nell&#39;assistente AI.
 
-1. Per apportare modifiche al tuo marchio pubblicato, fai clic su **[!UICONTROL Modifica marchio]**. In questo modo viene creata una copia temporanea in modalità di modifica, che sostituisce la versione live pubblicata.
+1. Per apportare modifiche al tuo marchio pubblicato, fai clic su **[!UICONTROL Modifica marchio]**.
+
+   >[!NOTE]
+   >
+   >In questo modo viene creata una copia temporanea in modalità di modifica, che sostituisce la versione live pubblicata.
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ Per creare e gestire le linee guida per i marchi, puoi immettere autonomamente i
 
    ![](assets/brands-6.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa Brands nel menu dell’assistente AI, consentendo di generare contenuti e risorse in linea con le specifiche. [Ulteriori informazioni sull&#39;assistente di IA](gs-generative.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;assistente AI, consentendo di generare contenuti e risorse in linea con le specifiche dell&#39;utente. [Ulteriori informazioni sull&#39;assistente di IA](gs-generative.md)
 
 ![](assets/brands-7.png)
