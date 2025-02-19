@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
+source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 21%
+source-wordcount: '1356'
+ht-degree: 20%
 
 ---
 
@@ -22,13 +22,13 @@ Quando [crei un messaggio di direct mailing](../direct-mail/create-direct-mail.m
 
 Prima di poter generare questo file, devi creare:
 
-1. [configurazione di indirizzamento file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografare il file, se necessario.
+1. [Configurazione di indirizzamento file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografare il file, se necessario.
 
    >[!CAUTION]
    >
-   >Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
+   >Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. [configurazione direct mailing](#direct-mail-configuration) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing.
+1. [Configurazione di direct mailing](#direct-mail-configuration) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing.
 
 ## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
@@ -68,97 +68,99 @@ Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed e
 
 Per configurare l’indirizzamento dei file, segui la procedura riportata di seguito.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento file]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Imposta un nome per la configurazione.
 
-1. Seleziona il tipo di server da utilizzare per esportare i file di direct mailing: Amazon S3, SFTP, Azure o Data Landing Zone. I campi specifici per ogni tipo di server sono descritti nelle schede seguenti.
+1. Seleziona il tipo di server da utilizzare per esportare i file di direct mailing: Amazon S3, SFTP, Azure o Data Landing Zone.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
+1. Compila i campi specifici per ogni tipo di server, come descritto nelle schede seguenti.
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
+   >[!BEGINTABS]
 
->[!BEGINTABS]
+   >[!TAB Amazon S3]
 
->[!TAB Amazon S3]
+   Se hai selezionato **[!UICONTROL Amazon S3]** come **[!UICONTROL tipo di server]**:
 
-1. Selezionare **[!UICONTROL Amazon S3]** come **[!UICONTROL tipo di server]**.
+   1. Inserisci i dettagli e le credenziali del server
 
-1. Inserisci i dettagli e le credenziali del server
+      * **Nome bucket AWS**:Per sapere dove trovare il nome del bucket AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Nome bucket AWS**:Per sapere dove trovare il nome del bucket AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+      * **Chiave di accesso AWS**: per sapere dove trovare l&#39;ID della chiave di accesso AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **Chiave di accesso AWS**: per sapere dove trovare l&#39;ID della chiave di accesso AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+      * **Chiave segreta AWS**: per sapere dove trovare la chiave segreta AWS, consulta [questa pagina](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **Chiave segreta AWS**: per sapere dove trovare la chiave segreta AWS, consulta [questa pagina](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+      * **Area geografica AWS**: scegliere l&#39;**[!UICONTROL Area geografica AWS]** in cui si troverà l&#39;infrastruttura server. Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
 
-   * **Area geografica AWS**: scegliere l&#39;**[!UICONTROL Area geografica AWS]** in cui si troverà l&#39;infrastruttura server. Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
+      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
+   >[!TAB SFTP]
 
->[!TAB SFTP]
+   Se hai selezionato **[!UICONTROL SFTP]** come **[!UICONTROL tipo di server]**:
 
-1. Seleziona **[!UICONTROL SFTP]** come **[!UICONTROL tipo di server]**.
+   1. Compila i dettagli e le credenziali per il server:
 
-1. Compila i dettagli e le credenziali per il server:
+      * **Account**: nome account utilizzato per connettersi al server SFTP.
 
-   * **Account**: nome account utilizzato per connettersi al server SFTP.
+      * **Indirizzo server**: &#x200B;URL del server SFTP.
 
-   * **Indirizzo server**: &#x200B;URL del server SFTP.
+      * **Porta**: numero porta di connessione FTP.
 
-   * **Porta**: numero porta di connessione FTP.
+      * **Password**:&#x200B; password utilizzata per la connessione al server SFTP.
 
-   * **Password**:&#x200B; password utilizzata per la connessione al server SFTP.
+      ![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
+      >[!NOTE]
+      >
+      >Per specificare un percorso sul server per il salvataggio del file, aggiorna il campo **[!UICONTROL Nome file]** della campagna di direct mailing per includere il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
 
-   >[!NOTE]
-   >
-   >Per specificare un percorso sul server per il salvataggio del file, aggiorna il campo **[!UICONTROL Nome file]** della campagna di direct mailing per includere il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
+   1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
+   >[!TAB Azure]
 
->[!TAB Azure]
+   Se hai selezionato **[!UICONTROL Azure]** come **[!UICONTROL tipo di server]**:
 
-1. Selezionare **[!UICONTROL Azure]** come **[!UICONTROL tipo di server]**.
+   1. Compila i dettagli e le credenziali per il server:
 
-1. Compila i dettagli e le credenziali per il server:
+      * **Stringa di connessione Azure**: per trovare la **stringa di connessione Azure**, fare riferimento a [questa pagina](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-   * **Stringa di connessione Azure**: per trovare la **stringa di connessione Azure**, fare riferimento a [questa pagina](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+        La **stringa di connessione Azure** deve seguire il formato seguente:
 
-     La **stringa di connessione Azure** deve seguire il formato seguente:
+        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+      * **Nome contenitore**: per trovare il **Nome contenitore**, consultare [questa pagina](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-   * **Nome contenitore**: per trovare il **Nome contenitore**, consultare [questa pagina](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+        Il **nome contenitore** deve contenere solo il nome del contenitore senza barre.
 
-     Il **nome contenitore** deve contenere solo il nome del contenitore senza barre.
+        >[!NOTE]
+        >
+        >Per specificare un percorso all&#39;interno del contenitore per il salvataggio del file, aggiorna il campo **[!UICONTROL Nome file]** della campagna di direct mailing per includere il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >Per specificare un percorso all&#39;interno del contenitore per il salvataggio del file, aggiorna il campo **[!UICONTROL Nome file]** della campagna di direct mailing per includere il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
+        ![](assets/file-routing-config-azure-detail.png)
 
-     ![](assets/file-routing-config-azure-detail.png)
+   1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
+   >[!TAB Area di destinazione dati]
 
->[!TAB Area di destinazione dati]
+   Se hai selezionato **[!UICONTROL Area di destinazione dati]** come **[!UICONTROL Tipo server]**, non sono richiesti dettagli specifici.
 
-1. Seleziona **[!UICONTROL Data Landing Zone]** come **[!UICONTROL tipo di server]**.
-
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
+   Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
    ![](assets/file-routing-config-dlz-detail.png)
 
-Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+   Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
->[!ENDTABS]
+   >[!ENDTABS]
+
+1. Dopo aver inserito i dettagli per il tipo di server, seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
+
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una configurazione finché non sarà **[!UICONTROL Attiva]**.
 
 ## Creare una configurazione direct mailing {#direct-mail-surface}
 
