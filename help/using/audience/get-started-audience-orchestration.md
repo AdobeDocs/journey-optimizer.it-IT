@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 53%
+source-wordcount: '1030'
+ht-degree: 52%
 
 ---
 
@@ -97,13 +97,6 @@ ht-degree: 53%
 >title="Altri profili"
 >abstract="Attiva questa opzione per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi."
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Pubblicare il pubblico"
->abstract="Pubblica la composizione per salvare i segmenti di pubblico risultanti in Adobe Experience Platform."
->
-[!BEGINSHADEBOX]
-
 Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se sei cliente solo con Profilo cliente in tempo reale e non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=it){target="_blank"}.
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 >I tipi di pubblico da **composizione del pubblico** vengono eseguiti ogni giorno, quindi potrebbe essere necessario attendere fino a 24 ore prima di utilizzarli in Journey Optimizer. Gli attributi arricchiti nei tipi di pubblico di composizione del pubblico sono aggiornati quanto l’ultima esecuzione della composizione, che può durare fino a 24 ore nel passato.
 
 ## Accedere alle composizioni {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Pubblicare il pubblico"
->abstract="Pubblica la composizione per salvare i segmenti di pubblico risultanti in Adobe Experience Platform."
 
 Tutte le composizioni create sono accessibili dalla scheda **[!UICONTROL Composizioni]**. Potete duplicare o eliminare una composizione esistente in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;elenco.
 
