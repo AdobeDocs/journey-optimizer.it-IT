@@ -10,9 +10,9 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 
 ## Annullamento iscrizione a mailing list {#list-unsubscribe}
 
-Quando si seleziona un sottodominio dall&#39;elenco, viene visualizzata l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]**. È attivata per impostazione predefinita.
+Quando selezioni un sottodominio dall’elenco, viene visualizzata l’opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]**. Per impostazione predefinita, questa opzione è abilitata.
 
 Consente di includere un URL per l’annullamento dell’iscrizione con un solo clic nell’intestazione dell’e-mail. [Ulteriori informazioni](list-unsubscribe.md)
 
 ## Parametri per intestazione {#email-header}
 
-Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale configurazione. [Ulteriori informazioni](header-parameters.md)
+Nella sezione **[!UICONTROL Parametri intestazione]**, immetti il nome del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate con tale configurazione. [Ulteriori informazioni](header-parameters.md)
 
 ## E-mail Ccn {#bcc-email}
 
