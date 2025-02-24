@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '2191'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 96%
    + Gestire i percorsi{#manage-journey}
       + [Gestione dell’ingresso del profilo](using/building-journeys/entry-management.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
-      + [Ottimizzazione dell’ora di invio](using/building-journeys/send-time-optimization.md)
+      + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
       + [Terminare il percorso](using/building-journeys/end-journey.md)
       + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Risolvere i problemi di un percorso](using/building-journeys/troubleshooting.md)
@@ -221,8 +221,8 @@ ht-degree: 96%
       + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
       + Configurare il canale e-mail {#configure-email}
          + [ Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
-         + [Definire le impostazioni di configurazione e-mail](using/email/email-settings.md)
-         + [Abilita annullamento iscrizione a mailing list](using/email/list-unsubscribe.md)
+         + [Definire le impostazioni della configurazione e-mail](using/email/email-settings.md)
+         + [Abilitare l’annullamento di iscrizione a mailing list](using/email/list-unsubscribe.md)
          + [Parametri per intestazione](using/email/header-parameters.md)
          + [Tracciamento URL](using/email/url-tracking.md)
          + [Personalizzare la configurazione e-mail](using/email/surface-personalization.md)
@@ -375,12 +375,12 @@ ht-degree: 96%
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
       + Creare tipi di pubblico {#create}
-         + [Definizioni dei segmenti](using/audience/creating-a-segment-definition.md)
+         + [Definizioni del segmento](using/audience/creating-a-segment-definition.md)
          + [Composizione del pubblico](using/audience/get-started-audience-orchestration.md)
          + [Caricamento personalizzato](using/audience/custom-upload.md)
          + [Composizione di pubblico federato](using/audience/federated-audience-composition.md)
       + [Attivazione del pubblico in campagne e percorsi](using/audience/target-audiences.md)
-      + [Utilizzo degli attributi di arricchimento](using/audience/enrichment-attributes.md)
+      + [Sfruttare gli attributi di arricchimento](using/audience/enrichment-attributes.md)
    + Profili{#profiles}
       + [Introduzione ai profili](using/audience/get-started-profiles.md)
       + [Creare profili di test](using/audience/creating-test-profiles.md)
@@ -392,7 +392,7 @@ ht-degree: 96%
    + [Utilizzare Experience Manager Assets](using/integrations/assets.md)
    + [Utilizzare Adobe Stock](using/integrations/stock.md)
    + [Utilizzare i modelli di Experience Manager](using/integrations/aem-templates.md)
-   + [Utilizzo dei frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
+   + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
    + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
 + Tracciare e monitorare {#reporting}
    + Rapporti live {#live-report}

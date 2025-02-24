@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare l’annullamento dell’iscrizione all’elenco
+title: Configurare l’annullamento di iscrizione a mailing list
 description: Scopri come includere un URL per l’annullamento dell’iscrizione con un solo clic nell’intestazione delle e-mail quando imposti la configurazione del canale
 feature: Email, Surface
 topic: Administration
@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 97%
 
 <!--Do not modify - Legal Review Done -->
 
-Durante una nuova configurazione dei canali e-mail, [selezionando un sottodominio](email-settings.md#subdomains-and-ip-pools) dall’elenco, viene visualizzata l’opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]**.
+Durante una nuova configurazione del canale e-mail, quando si [seleziona un sottodominio](email-settings.md#subdomains-and-ip-pools) dall’elenco, viene visualizzata l’opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]**.
 
 ![](assets/preset-list-unsubscribe.png)
 
-## Abilita annullamento iscrizione a mailing list {#enable-list-unsubscribe}
+## Abilitare l’annullamento di iscrizione a mailing list {#enable-list-unsubscribe}
 
 Questa opzione è abilitata per impostazione predefinita per includere un URL di annullamento iscrizione con un solo clic nell’intestazione dell’e-mail, ad esempio:
 
@@ -34,15 +34,15 @@ Questa opzione è abilitata per impostazione predefinita per includere un URL di
 >
 >Se disabiliti questa opzione, nell’intestazione dell’e-mail non viene visualizzato alcun URL di annullamento iscrizione con un solo clic.
 
-L’intestazione Annullamento iscrizione a mailing list offre due opzioni che sono abilitate per impostazione predefinita, a meno che non ne venga deselezionata una o entrambe:
+L’intestazione per l’annullamento dell’iscrizione a mailing list offre due opzioni che sono abilitate per impostazione predefinita, a meno che non vengano deselezionate:
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
 * Un indirizzo **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**, che è l’indirizzo di destinazione a cui vengono indirizzate le richieste di annullamento iscrizione per l’elaborazione automatica.
 
-  In [!DNL Journey Optimizer], l’indirizzo e-mail per l’annullamento dell’iscrizione è l’indirizzo predefinito **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]** visualizzato nella configurazione dei canali, in base al [sottodominio selezionato](#subdomains-and-ip-pools). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+  In [!DNL Journey Optimizer], l’indirizzo e-mail per l’annullamento dell’iscrizione è l’**[!UICONTROL Indirizzo Mailto (annulla iscrizione)]** predefinito visualizzato nella configurazione del canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* L’**[!UICONTROL URL per l’annullamento dell’iscrizione con un clic]**, che per impostazione predefinita è l’intestazione per l’annullamento dell’iscrizione alla mailing list generato con URL di rinuncia con un solo clic, in base al sottodominio impostato e configurato nelle impostazioni di configurazione dei canali. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* L’**[!UICONTROL URL per annullamento iscrizione con un solo clic]**, che per impostazione predefinita è l’intestazione per l’annullamento dell’iscrizione alla mailing list generato con URL di rinuncia con un solo clic, in base al sottodominio impostato e configurato nelle impostazioni di configurazione del canale. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 Puoi selezionare il **[!UICONTROL Livello di consenso]** dall’elenco a discesa corrispondente. Può essere specifico per il canale o per l’identità del profilo. In base a questa impostazione, quando un utente annulla l’iscrizione utilizzando l’URL di annullamento iscrizione alla mailing list nell’intestazione di un’e-mail, il consenso viene aggiornato in [!DNL Adobe Journey Optimizer] a livello di canale o di ID.
 
@@ -79,13 +79,13 @@ Con l’opzione **[!UICONTROL Gestito da cliente]** selezionata, se immetti endp
 
 Questi parametri vengono inviati all’endpoint in modo crittografato. Pertanto, il sistema di consenso esterno deve implementare un’API specifica tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} per decrittografare i parametri inviati da Adobe.
 
-La chiamata di GET per recuperare questi parametri dipende dall’opzione Annullamento iscrizione a mailing list in uso: **[!UICONTROL URL di annullamento iscrizione con un solo clic]** o **[!UICONTROL Invia a (Annulla iscrizione)]**.
+La chiamata GET per recuperare questi parametri dipende dall’opzione Annullamento iscrizione a mailing list in uso: **[!UICONTROL URL per annullamento iscrizione con un solo clic]** o **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**.
 
 <!--To configure the API to send back the information to [!DNL Adobe Journey Optimizer] when a recipient has unsubscribed using the List unsubscribe option with custom endpoints, follow the steps below.-->
 
 +++ URL di annullamento iscrizione con un solo clic
 
-Con l’opzione **[!UICONTROL URL di annullamento iscrizione con un solo clic]**, facendo clic sul collegamento Annulla iscrizione l’utente viene subito rimosso.
+Con l’opzione **[!UICONTROL URL per annullamento iscrizione con un solo clic]**, facendo clic sul collegamento Annulla iscrizione l’utente viene subito rimosso.
 
 La chiamata GET è la seguente:
 
@@ -108,15 +108,15 @@ Requisiti dell’intestazione:
 
 +++ Indirizzo Mailto (annulla iscrizione)
 
-Con l’opzione **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**, facendo clic sul collegamento Annulla iscrizione, viene inviata un’e-mail precompilata all’indirizzo di annullamento dell’iscrizione specificato.
+Con l’opzione **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**, quando si fa clic sul collegamento Annulla iscrizione viene inviata un’e-mail precompilata all’indirizzo di annullamento dell’iscrizione specificato.
 
-La chiamata GET è la seguente.
+La chiamata GET è la seguente:
 
 Endpoint: https://platform.adobe.io/journey/imp/consent/decrypt
 
 Parametri query:
 
-* **emailParams**: stringa contenente parametri **params** (payload crittografato) e **pid** (ID profilo crittografato).
+* **emailParams**: stringa contenente i parametri **params** (payload crittografato) e **pid** (ID profilo crittografato).
 
 I parametri **params** e **pid** verranno inclusi nell’evento di aggiornamento del consenso inviato agli endpoint personalizzati.
 

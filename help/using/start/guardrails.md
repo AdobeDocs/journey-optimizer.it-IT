@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Prima di iniziare, è inoltre necessario essere a conoscenza dei [Guardrail per 
 
 >[!NOTE]
 >
->In rare circostanze, interruzioni temporanee in una regione specifica possono comportare l’esclusione di profili validi dai percorsi o l’invio di e-mail erroneamente contrassegnate come mancati recapiti. Una volta ripristinati i servizi, ricontrolla i registri del percorso, verifica i campi del profilo di consenso e, se necessario, ripubblica il percorso. In caso di interruzione del servizio, scopri come rimuovere i profili dall&#39;elenco di soppressione in [questa sezione](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>In rare circostanze, interruzioni temporanee in una area geografica specifica possono comportare l’esclusione dai percorsi di profili validi oppure e-mail erroneamente contrassegnate come mancati recapiti. Una volta ripristinati i servizi, ricontrolla i registri del percorso, verifica i campi del profilo di consenso e, se necessario, ripubblica il percorso. In caso di interruzione di un ISP, scopri come rimuovere i profili dall’elenco di soppressione in [questa sezione](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 >
 
 ## Browser supportati {#browsers}

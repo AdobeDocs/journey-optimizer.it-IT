@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,9 +22,9 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Febbraio 2025 {#feb-2025}
 
-* La documentazione relativa all&#39;**[!UICONTROL ottimizzazione dell&#39;ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
-* Sono state aggiunte nuove protezioni per gli eventi di percorso. [Ulteriori informazioni](../start/guardrails.md#events-g)
-* La pagina delle azioni del canale incorporata è stata riorganizzata. [Ulteriori informazioni](../building-journeys/journeys-message.md)
+* La documentazione relativa all’**[!UICONTROL ottimizzazione dell’ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
+* Sono stati aggiunti nuovi guardrail per gli eventi di percorso. [Ulteriori informazioni](../start/guardrails.md#events-g)
+* La pagina delle azioni del canale incorporate è stata riorganizzata. [Ulteriori informazioni](../building-journeys/journeys-message.md)
 * Sono state aggiunte protezioni e limitazioni nelle sezioni Decisioning e Gestione delle decisioni.
    * [Guardrail e limitazioni per le decisioni](../experience-decisioning/decisioning-guardrails.md)
    * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
@@ -42,13 +42,13 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * La dimensione massima degli attributi contestuali trasmessi in una richiesta di campagna attivata da API è stata aggiornata a 200 kb. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md#contextual)
 
-* È stata aggiunta una nuova sezione alla pagina **Gestisci frammenti** per descrivere come aggiungere nuovi attributi a un frammento attivo. Anche l’intera pagina è stata migliorata. [Ulteriori informazioni](../content-management/manage-fragments.md#adding-new-attributes)
+* È stata aggiunta una nuova sezione alla pagina **Gestire i frammenti** per descrivere come aggiungere nuovi attributi a un frammento attivo. Inoltre, l’intera pagina è stata migliorata. [Ulteriori informazioni](../content-management/manage-fragments.md#adding-new-attributes)
 
-* È stata aggiunta una sezione &quot;Guardrail &amp; restrictions&quot; alla documentazione relativa agli strumenti di gestione dei conflitti e definizione delle priorità. [Ulteriori informazioni](../conflict-prioritization/gs-conflict-prioritization.md)
+* È stata aggiunta una sezione “Guardrail e limitazioni” alla documentazione relativa agli strumenti di gestione dei conflitti e delle priorità. [Ulteriori informazioni](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* È stato aggiunto un nuovo caso d&#39;uso end-to-end per presentare tutti i passaggi necessari per utilizzare Decisioning negli esperimenti di contenuto con il canale di esperienza basato su codice [!DNL Journey Optimizer]. [Ulteriori informazioni](../experience-decisioning/experience-decisioning-uc.md)
+* È stato aggiunto un nuovo caso d&#39;uso end-to-end per presentare tutti i passaggi necessari all’utilizzo della funzione Decisioni negli esperimenti di contenuto con il canale di esperienza di [!DNL Journey Optimizer] basato su codice. [Ulteriori informazioni](../experience-decisioning/experience-decisioning-uc.md)
 
-* La pagina **Configura impostazioni e-mail** è stata suddivisa in diverse sottopagine per migliorarne la leggibilità, incluse nuove pagine autonome dedicate a [Annullamento iscrizione a elenco](../email/list-unsubscribe.md), [Parametri intestazione](../email/header-parameters.md) e [Tracciamento URL](../email/url-tracking.md).
+* La pagina **Configurare le impostazioni e-mail** è stata suddivisa in diverse sottopagine per migliorarne la leggibilità, comprese le nuove pagine specifiche dedicate a [Annullamento iscrizione a mailing list](../email/list-unsubscribe.md), [Parametri intestazione](../email/header-parameters.md) e [Tracciamento URL](../email/url-tracking.md).
 
 ## Dicembre 2024 {#nov-2024}
 

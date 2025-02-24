@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -114,7 +114,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, garantendo di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
+<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, per disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/creating-a-segment-definition.md#flexible">documentazione dettagliata</a>.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
@@ -153,7 +153,7 @@ I miglioramenti riportati di seguito sono inclusi nell&#39;aggiornamento di febb
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **Configurazione e-mail** - Se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l&#39;annullamento dell&#39;iscrizione e un URL personalizzato per l&#39;annullamento dell&#39;iscrizione con un solo clic come parte delle impostazioni di configurazione del canale e-mail. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
+* **Configurazione e-mail** - Se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l&#39;annullamento dell&#39;iscrizione e un URL personalizzato per l&#39;annullamento dell&#39;iscrizione con un solo clic come parte delle impostazioni di configurazione del canale e-mail.[Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
