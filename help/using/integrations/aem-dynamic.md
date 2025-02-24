@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -55,7 +55,7 @@ Migliora e ottimizza i contenuti per qualsiasi schermata o browser inserendo ele
 
 Il contenuto ora include gli elementi multimediali dinamici. Tutti gli aggiornamenti apportati in Experience Manager verranno visualizzati automaticamente in Journey Optimizer.
 
-## Personalization con sovrapposizione testo
+## Personalizzare la sovrapposizione testo
 
 Personalizza facilmente qualsiasi elemento multimediale dinamico sostituendo la sovrapposizione di testo esistente con un nuovo testo a tua scelta, per consentire aggiornamenti e personalizzazione senza interruzioni.
 
