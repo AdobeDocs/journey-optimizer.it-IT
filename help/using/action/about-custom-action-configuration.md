@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Azioni personalizzate"
->abstract="Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per configurare la connessione al percorso."
+>abstract="Se utilizzi un sistema di terze parti per l’invio di messaggi o desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza le azioni personalizzate per configurarne la connessione al tuo percorso."
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi o desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per configurarne la connessione al tuo percorso. È ad esempio possibile connettersi ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, ecc.
 

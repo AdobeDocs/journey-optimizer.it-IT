@@ -21,7 +21,7 @@ ht-degree: 15%
 >id="ajo_create_visual_fragment"
 >title="Seleziona il tipo visivo"
 >abstract="Crea un frammento visivo autonomo per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Aggiungi frammenti visivi alle e-mail"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Aggiungere frammenti visivi alle e-mail"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -51,7 +51,7 @@ Per creare un frammento, segui la procedura riportata di seguito.
    >
    >Attualmente, i frammenti visivi sono disponibili solo per il canale **E-mail**.
 
-1. Se stai creando un frammento di espressione, seleziona il tipo di codice che desideri utilizzare: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Testo]**.
+1. Se stai creando un frammento di espressione, seleziona il tipo di codice che desideri utilizzare: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Text]**.
 
    ![](assets/fragment-expression-type.png)
 
@@ -77,7 +77,7 @@ Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**. Il 
 
 >[!NOTE]
 >
->Per pubblicare un frammento, è necessario disporre dell&#39;autorizzazione utente [Frammento di Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Per pubblicare un frammento, è necessario disporre dell&#39;autorizzazione utente [Pubblica frammento](../administration/ootb-product-profiles.md#content-library-manager).
 
 Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile nei tuoi percorsi e campagne. A questo scopo, segui i passaggi riportati qui sotto.
 
@@ -87,7 +87,7 @@ Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima
 
    ![](assets/fragment-preview.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Publish]** nell&#39;angolo superiore destro per pubblicare il frammento.
+1. Fai clic sul pulsante **[!UICONTROL Pubblica]** nell&#39;angolo superiore destro per pubblicare il frammento.
 
 1. Se il frammento viene utilizzato in un percorso o in una campagna live, viene visualizzato un messaggio per informarti. Fai clic sul collegamento **[!UICONTROL Ulteriori informazioni]** per accedere all&#39;elenco dei percorsi e/o delle campagne a cui si fa riferimento. [Scopri come esplorare i riferimenti di un frammento](../content-management/manage-fragments.md#explore-references)
 
