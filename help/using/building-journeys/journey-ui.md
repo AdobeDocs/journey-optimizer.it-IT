@@ -8,22 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
+source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 32%
 
 ---
 
 # Sfoglia e filtra i percorsi {#browse-journeys}
 
-## Percorsi di accesso {#journey-access}
-
-### Dashboard percorso {#dashboard-jo}
+## Dashboard percorso {#dashboard-jo}
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede: **[!UICONTROL Panoramica]** e **[!UICONTROL Sfoglia]**.
 
-* Nella scheda **[!UICONTROL Panoramica]** è visualizzato un dashboard con le metriche chiave correlate ai percorsi:
+
+* Nella scheda **[!UICONTROL Panoramica]** è visualizzata una dashboard con le metriche chiave correlate ai percorsi.
+
+  ![Dashboard di percorso che evidenzia la scheda Panoramica](assets/journeys-dashboard.png)
 
    * **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
    * **percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi attivi includono **percorsi unitari** (basati su eventi) e **percorsi batch** (pubblico di lettura).
@@ -34,36 +36,18 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
   >
   >Questa dashboard tiene conto dei percorsi con traffico nelle ultime 24 ore. Vengono visualizzati solo i percorsi a cui hai accesso. Le metriche vengono aggiornate ogni 30 minuti e solo quando sono disponibili nuovi dati.
 
-  ![](assets/journeys-dashboard.png)
 
 * La scheda **[!UICONTROL Sfoglia]** mostra l&#39;elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
 
-  ![](assets/journeys-browse.png)
+  ![Dashboard di percorso che evidenzia la scheda Sfoglia](assets/journeys-browse.png)
 
-### Filtrare i percorsi {#filter}
+## Filtrare i percorsi {#journey-filter}
 
-Nell’elenco dei percorsi, puoi sfruttare diversi filtri per perfezionare l’elenco dei percorsi in modo da migliorarne la leggibilità.
+Nell’elenco dei percorsi, utilizza vari filtri per perfezionare l’elenco dei percorsi.
 
 ![](assets/filter-journeys.png)
 
-Di seguito sono elencate le varie operazioni di filtro che è possibile eseguire:
-
-Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dai **[!UICONTROL filtri di stato e versione]**.
-
-Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]** o **[!UICONTROL Evento di business]**.
-
-Lo stato può essere:
-
-* **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
-* **Bozza**: il percorso è nella prima fase. Non è ancora stato pubblicato.
-* **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**.
-* **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
-* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**.
-* **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso.
-
->[!NOTE]
->
->Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+Puoi filtrare i percorsi in base al loro [stato](#journey-statuses), [tipo](#journey-types), [versione](#journey-versions) e assegnare [tag](../start/search-filter-categorize.md#tags) dai **[!UICONTROL filtri di stato e versione]**.
 
 Utilizza **[!UICONTROL Creation filters]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
 
@@ -77,6 +61,25 @@ Inoltre, nei riquadri di configurazione dell&#39;evento, dell&#39;origine dati e
 
 ![](assets/journey3bis.png)
 
+
+## Tipi di percorso {#journey-types}
+
+Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]** o **[!UICONTROL Evento di business]**.
+
+## Stati percorso {#journey-statuses}
+
+Lo stato del percorso può essere:
+
+* **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
+* **Bozza**: il percorso è nella prima fase. Non è ancora stato pubblicato.
+* **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**.
+* **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
+* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**.
+* **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso.
+
+>[!NOTE]
+>
+>Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
 
 ## Versioni del percorso {#journey-versions}
 
@@ -124,4 +127,3 @@ Per farlo, segui la procedura indicata di seguito:
    ![](assets/duplicate-jo2.png)
 
 1. Il nuovo percorso viene creato e disponibile nell&#39;elenco percorso.
-
