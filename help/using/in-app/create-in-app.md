@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -64,8 +64,8 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
       | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
-      | Places | Inserisci POI | Attivato dall’SDK Places quando il cliente accede al punto di interesse (POI) configurato. |
-      | Places | Esci da POI | Attivato dall’SDK Places quando il cliente esce dal punto di interesse (POI) configurato. |
+      | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
+      | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
 +++
 
@@ -95,9 +95,9 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
       | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
-      | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
-      | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
-      | Places | Ultimo punto di interesse chiuso | Attivato dall’SDK di Places a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
+      | Places | POI corrente | Attivato da Places SDK quando il cliente accede al punto di interesse specificato (POI). |
+      | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
+      | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
 
 +++
 
@@ -111,7 +111,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
       * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
       * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
-      * **[!UICONTROL Mostra fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attiva app mobile]** si verificano fino a quando l&#39;SDK non invia un evento di interazione con l&#39;azione &quot;cliccato&quot;.
+      * **[!UICONTROL Mostra fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attiva app mobile]** si verificano fino a quando un evento di interazione non viene inviato dal SDK con l&#39;azione &quot;cliccato&quot;.
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
@@ -166,8 +166,8 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
       | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
-      | Places | Inserisci POI | Attivato dall’SDK Places quando il cliente accede al punto di interesse (POI) configurato. |
-      | Places | Esci da POI | Attivato dall’SDK Places quando il cliente esce dal punto di interesse (POI) configurato. |
+      | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
+      | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
 +++
 
@@ -197,9 +197,9 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
       | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
-      | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
-      | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
-      | Places | Ultimo punto di interesse chiuso | Attivato dall’SDK di Places a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
+      | Places | POI corrente | Attivato da Places SDK quando il cliente accede al punto di interesse specificato (POI). |
+      | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
+      | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
 
 +++
 
@@ -211,7 +211,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    * **[!UICONTROL Ogni volta]**: mostra sempre il messaggio quando si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
    * **[!UICONTROL Una volta]**: mostra questo messaggio solo la prima volta che si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
-   * **[!UICONTROL Fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]** si verificano fino a quando l&#39;SDK non invia un evento di interazione con l&#39;azione &quot;cliccato&quot;.
+   * **[!UICONTROL Fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]** si verificano fino a quando un evento di interazione non viene inviato dal SDK con l&#39;azione &quot;cliccato&quot;.
    * **[!UICONTROL X volte]**: visualizza questo messaggio X volte.
 
 1. Se necessario, scegli il **[!UICONTROL giorno della settimana]** o **[!UICONTROL ora del giorno]** in cui verrà visualizzato il messaggio in-app.
@@ -240,7 +240,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
 +++
 
@@ -248,7 +248,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
 +++
 
