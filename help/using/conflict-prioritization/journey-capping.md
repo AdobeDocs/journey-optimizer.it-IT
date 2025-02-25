@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Disponibilità limitata"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 23%
@@ -120,7 +120,7 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 
 >[!IMPORTANT]
 >
->Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 15 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 15 minuti per evitare che ciò si verifichi.
+>Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 20 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 20 minuti nel futuro per evitare questa eventualità.
 
 Una volta che il percorso è attivo, puoi controllare nel report percorso se il set di regole ha portato a un&#39;esclusione dal percorso, nella tabella **[!UICONTROL Esclusioni Percorso]**. [Scopri come utilizzare i report di percorso](../reports/journey-global-report-cja.md)
 

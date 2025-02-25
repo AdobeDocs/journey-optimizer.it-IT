@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 23%
@@ -311,7 +311,7 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 
 >[!IMPORTANT]
 >
->Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 15 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 15 minuti per evitare che ciò si verifichi.
+>Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 20 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 20 minuti nel futuro per evitare questa eventualità.
 
 +++
 
