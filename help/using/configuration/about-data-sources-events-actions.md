@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: configurazione, percorso, dashboard, origini dati, eventi, azioni
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 65%
+source-wordcount: '408'
+ht-degree: 62%
 
 ---
 
-# Configurare i percorsi {#configure-journeys}
+# Configurare origini dati, eventi e azioni {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -45,7 +45,7 @@ Le funzionalità per i messaggi di Journey Optimizer sono integrate: devi solo a
 
 Quando si definisce il [payload dell’evento](../event/about-creating.md#define-the-payload-fields) e il [payload del gruppo di campi](../datasource/configure-data-sources.md#define-field-groups) e si selezionano i campi nell’[editor delle espressioni](../building-journeys/expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con “eVar” e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 

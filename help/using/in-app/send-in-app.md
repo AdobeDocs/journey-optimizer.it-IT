@@ -7,16 +7,16 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 18%
+source-wordcount: '388'
+ht-degree: 16%
 
 ---
 
-# Verifica e invio della notifica in-app {#create-in-app}
+# Verifica e invia la notifica in-app {#create-in-app}
 
-## Anteprima sul dispositivo {#preview-device}
+## Anteprima su dispositivo {#preview-device}
 
 Se desideri visualizzare un’anteprima della notifica in-app prima che venga pubblicata per tutti gli utenti, puoi visualizzarla su un dispositivo specifico. Questa funzionalità ti consente di garantire che la notifica si presenti e funzioni come previsto sul dispositivo scelto, fornendo un’esperienza utente migliore per il pubblico.
 

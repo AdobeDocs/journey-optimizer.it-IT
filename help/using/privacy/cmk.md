@@ -7,14 +7,14 @@ feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 99%
+source-wordcount: '223'
+ht-degree: 96%
 
 ---
 
-# Configurazione e gestione di chiavi gestite dal cliente per Adobe Journey Optimizer {#cmk}
+# Configurazione e gestione delle chiavi gestite dal cliente {#cmk}
 
 >[!AVAILABILITY]
 >

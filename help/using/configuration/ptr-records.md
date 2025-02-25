@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '842'
 ht-degree: 9%
 
 ---
 
-# Record PTR {#ptr-records}
+# Creare e modificare record PTR {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
@@ -36,7 +36,7 @@ Con i record PTR, i server di posta di ricezione possono verificare l&#39;autent
 
 ## Accedere ai record PTR dei sottodomini {#access-ptr-records}
 
-Dopo aver [delegato](delegate-subdomain.md) il primo sottodominio all&#39;Adobe in [!DNL Journey Optimizer], i record PTR vengono creati automaticamente per gli IP. Puoi accedervi dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Record PTR]**.
+Una volta [delegato](delegate-subdomain.md) il tuo primo sottodominio ad Adobe in [!DNL Journey Optimizer], i record PTR vengono creati automaticamente per i tuoi IP. Puoi accedervi dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Record PTR]**.
 
 ![](assets/ptr-records.png)
 
@@ -50,7 +50,7 @@ Puoi aprire un record PTR dall’elenco per visualizzare il nome del sottodomini
 
 ## Modificare un record PTR {#edit-ptr-record}
 
-In [!DNL Journey Optimizer] non è possibile creare manualmente record PTR. Al contrario, una volta [delegato](delegate-subdomain.md) ad Adobe il tuo primo sottodominio, i record PTR vengono creati automaticamente per gli IP.
+In [!DNL Journey Optimizer] non è possibile creare manualmente record PTR. Al contrario, una volta [delegato](delegate-subdomain.md) il tuo primo sottodominio ad Adobe, i record PTR vengono creati automaticamente per i tuoi IP.
 
 Ogni IP riceve un singolo record PTR. Tutti i record PTR hanno il formato seguente: &#39;rxx.subdomain&#39;, dove &#39;subdomain&#39; è il primo sottodominio delegato in [!DNL Journey Optimizer].
 
@@ -64,13 +64,13 @@ Quando crei altri sottodomini, devi modificare uno o più record PTR e assegnare
 
 ### Sottodomini completamente delegati {#fully-delegated-subdomains}
 
-Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) all&#39;Adobe, attieniti alla procedura seguente.
+Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, effettua le seguenti operazioni.
 
 1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Seleziona un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) all&#39;Adobe dall&#39;elenco.
+1. Seleziona dall&#39;elenco un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe.
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -82,13 +82,13 @@ Per modificare un record PTR con un sottodominio [completamente delegato](delega
 
 ### Sottodomini delegati tramite il metodo CNAME {#edit-ptr-subdomains-cname}
 
-Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation), attieniti alla procedura seguente.
+Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation), effettua le seguenti operazioni.
 
 1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Selezionare un sottodominio delegato all&#39;Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
+1. Selezionare un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
 
    ![](assets/ptr-record-subdomain-cname.png)
 

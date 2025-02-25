@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profiles, sandbox
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '739'
+ht-degree: 6%
 
 ---
 
-# Gestire utenti e ruoli {#manage-permissions}
+# Gestione di utenti e ruoli {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 Con il prodotto [!DNL Journey Optimizer], puoi scegliere tra una serie di **[!UICONTROL Ruoli]** preesistenti, ciascuno con diversi livelli di autorizzazioni, da assegnare agli utenti. Per ulteriori informazioni sui **[!UICONTROL Ruoli]** disponibili, consulta questa [pagina](ootb-product-profiles.md).
 
-Quando un utente appartiene a un **[!UICONTROL Ruolo]**, gli viene concesso l&#39;accesso alle app e ai servizi di Adobe contenuti nel prodotto.
+Quando un utente appartiene a un **[!UICONTROL Ruolo]**, gli viene concesso l&#39;accesso alle app e ai servizi Adobe contenuti nel prodotto.
 
 Se i ruoli preesistenti non soddisfano le esigenze specifiche della tua organizzazione, puoi anche creare **[!UICONTROL Ruoli]** personalizzati per ottimizzare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia. In questo modo, puoi garantire che ogni utente abbia accesso solo alle risorse e agli strumenti necessari per eseguire le proprie attività in modo efficiente.
 
@@ -75,9 +75,9 @@ Se modifichi un **[!UICONTROL Ruolo]** predefinito o personalizzato, questo avr�
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. Nel menu **[!UICONTROL Risorse]** viene visualizzato l&#39;elenco delle risorse applicabili al prodotto **[!UICONTROL Experience Cloud - Applicazioni basate su piattaforma]**. Trascina e rilascia le risorse per assegnare le autorizzazioni.
+1. Il menu **[!UICONTROL Risorse]** visualizza l&#39;elenco delle risorse applicabili al prodotto **[!UICONTROL Experience Cloud - Applicazioni basate su piattaforma]**. Trascina e rilascia le risorse per assegnare le autorizzazioni.
 
-   Dal menu a discesa delle risorse **[!UICONTROL Percorsi]**, scegliamo qui il percorso Publish **[!UICONTROL Autorizzazione]**.
+   Dal menu a discesa delle risorse **[!UICONTROL Percorsi]**, scegliamo qui l&#39;autorizzazione **[!UICONTROL percorso di pubblicazione]**.
 
    ![](assets/do-not-localize/access_control_14.png)
 
