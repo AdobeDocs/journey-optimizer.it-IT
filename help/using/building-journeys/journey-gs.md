@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 33%
+source-wordcount: '765'
+ht-degree: 26%
 
 ---
 
@@ -28,18 +28,15 @@ ht-degree: 33%
 >title="Percorsi"
 >abstract="Progetta i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
+Crea percorsi di clienti in più fasi che avviano in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti.
 
-Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente consente di trascinare facilmente le attività dalla palette all’area di lavoro, per generare il tuo percorso.
+![esempio di area di lavoro percorso](assets/journey38.png)
 
-![](assets/journey38.png)
+Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. L&#39;interfaccia utente del percorso è descritta in [questa pagina](journey-ui.md).
 
-I passaggi principali per creare un percorso sono i seguenti:
+I passaggi principali per la creazione di un percorso sono descritti in questa pagina. Sono semplificate come segue:
 
-![](assets/journey-creation-process.png)
-
-➡️ [Scopri questa funzione nel video](#video)
-
-L&#39;interfaccia utente del percorso è descritta in [questa pagina](journey-ui.md).
+![Passaggi per la creazione del percorso: creazione, progettazione, test e pubblicazione](assets/journey-creation-process.png)
 
 
 ## Prerequisiti {#start-prerequisites}
