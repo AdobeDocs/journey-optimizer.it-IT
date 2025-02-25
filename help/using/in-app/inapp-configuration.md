@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '921'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
   ![](assets/inapp_config_6.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di aver abilitato l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]** per i criteri di unione predefiniti. A questo scopo, seleziona un criterio nel menu di Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di aver abilitato l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]** per i criteri di unione predefiniti. A questo scopo, seleziona un criterio dal menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Questo criterio di unione viene utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul server Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it){target="_blank"}
 
@@ -54,6 +54,7 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
 ## Creare una configurazione in-app {#channel-prerequisites}
 
+
 1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
 
    ![](assets/inapp_config_1.png)
@@ -62,7 +63,7 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
@@ -72,7 +73,11 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
    ![](assets/inapp_config_9.png)
 
-1. Seleziona la piattaforma per la quale verrà applicato il messaggio in-app.
+1. Selezionare la piattaforma per la quale si desidera definire le impostazioni. Questo consente di specificare l’app di destinazione per ogni piattaforma e garantisce la distribuzione coerente dei contenuti su più piattaforme.
+
+   >[!NOTE]
+   >
+   >Per le piattaforme iOS e Android, la consegna si basa esclusivamente sull’ID app. Se entrambe le app condividono lo stesso ID app, il contenuto verrà distribuito a entrambi, indipendentemente dalla piattaforma selezionata nella **[!UICONTROL configurazione canale]**.
 
    ![](assets/inapp_config_10.png)
 
