@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 10%
@@ -50,7 +50,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 
-### Configurare l’attività{#cnfigure-segment-qualification}
+### Configurare l’attività {#configure-segment-qualification}
 
 Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, eseguire la procedura seguente:
 
@@ -130,7 +130,7 @@ Non utilizzare, in un&#39;attività **[!UICONTROL Qualificazione del pubblico]**
 
 ![](assets/segment-error.png)
 
-Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, devi utilizzare un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, devi utilizzare un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 Prima di utilizzare il pubblico in un percorso di produzione, valuta sempre per primo il volume di persone qualificate per questo pubblico ogni giorno. A tale scopo, puoi controllare il menu **[!UICONTROL Pubblico]**, aprire il pubblico e quindi esaminare il grafico **[!UICONTROL Profili nel tempo]**.
 
