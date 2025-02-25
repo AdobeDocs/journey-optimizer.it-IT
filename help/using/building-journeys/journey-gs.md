@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 26%
@@ -28,11 +28,11 @@ ht-degree: 26%
 >title="Percorsi"
 >abstract="Progetta i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
-Crea percorsi di clienti in più fasi che avviano in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti.
+Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. L&#39;interfaccia utente del percorso è descritta in [questa pagina](journey-ui.md).
 
 ![esempio di area di lavoro percorso](assets/journey38.png)
 
-Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. L&#39;interfaccia utente del percorso è descritta in [questa pagina](journey-ui.md).
+Crea percorsi di clienti in più fasi che avviano in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti.
 
 I passaggi principali per la creazione di un percorso sono descritti in questa pagina. Sono semplificate come segue:
 
