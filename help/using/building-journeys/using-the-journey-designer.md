@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -59,13 +59,15 @@ Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visuali
 
 ![](assets/journey59bis.png)
 
-A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell&#39;angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplica]**, **[!UICONTROL Elimina]**, **[!UICONTROL Modalità test]**, **[!UICONTROL Gestisci accesso]**, **[!UICONTROL Avvisi]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante di registro della modalità di test viene visualizzato quando la modalità di test è attivata.
+A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell&#39;angolo in alto a destra: **[!UICONTROL Pubblica]**, **[!UICONTROL Duplica]**, **[!UICONTROL Elimina]**, **[!UICONTROL Modalità test]**, **[!UICONTROL Gestisci accesso]**, **[!UICONTROL Avvisi]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante di registro della modalità di test viene visualizzato quando la modalità di test è attivata.
 
 ![](assets/journey41.png)
 
 ## Avvia il percorso {#start-your-journey}
 
-Quando si progetta il percorso, la prima domanda da porsi è come i profili entreranno nel percorso. Esistono due possibilità:
+Quando si progetta il percorso, la prima domanda da porsi è come i profili entreranno nel percorso.
+
+Esistono due possibilità:
 
 1. **Inizia con un evento**: quando un percorso è impostato per l&#39;ascolto degli eventi, i singoli utenti immettono il percorso **in modo unitario** in tempo reale. I messaggi inclusi nel percorso vengono inviati alla persona che sta entrando nel percorso. [Ulteriori informazioni sugli eventi](../event/about-events.md)
 
@@ -97,7 +99,7 @@ Le altre attività ti consentono di aggiungere condizioni al percorso per defini
 
 ### Azioni{#jo-actions}
 
-Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta. Potrebbe trattarsi di un messaggio e-mail, SMS o push oppure di un’azione di terze parti, ad esempio un messaggio di Slack.
+Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta. Potrebbe trattarsi di un messaggio e-mail, SMS o push oppure di un’azione di terze parti, ad esempio un messaggio Slack.
 
 Le attività di azione del canale consentono di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività dell&#39;azione del canale](journeys-message.md)
 

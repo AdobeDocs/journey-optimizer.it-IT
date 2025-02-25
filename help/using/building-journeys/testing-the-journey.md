@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 9%
+source-wordcount: '1671'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="Test del percorso"
 >abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 
-Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questa modalità ti consente di eseguire un test del percorso e identificare i problemi utilizzando i profili di test.
+Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. Journey Optimizer offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell’attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
 
 Solo i profili di test possono entrare in un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
 

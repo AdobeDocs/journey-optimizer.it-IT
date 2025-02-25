@@ -1,0 +1,127 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Sfogliare e filtrare i percorsi
+description: Sfogliare e filtrare i percorsi in Adobe Journey Optimizer
+feature: Journeys, Get Started
+topic: Content Management
+role: User
+level: Intermediate
+keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 32%
+
+---
+
+# Sfogliare e filtrare i percorsi {#browse-journeys}
+
+## Percorsi di accesso {#journey-access}
+
+### Dashboard percorso {#dashboard-jo}
+
+Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede: **[!UICONTROL Panoramica]** e **[!UICONTROL Sfoglia]**.
+
+* Nella scheda **[!UICONTROL Panoramica]** è visualizzato un dashboard con le metriche chiave correlate ai percorsi:
+
+   * **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
+   * **percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi attivi includono **percorsi unitari** (basati su eventi) e **percorsi batch** (pubblico di lettura).
+   * **Frequenza errori**: rapporto tra tutti i profili con errore e il numero totale di profili immessi nelle ultime 24 ore.
+   * **Percentuale di eliminazione**: rapporto tra tutti i profili eliminati e il numero totale di profili immessi nelle ultime 24 ore. Un profilo scartato rappresenta un utente non idoneo per l’accesso al percorso, ad esempio a causa di uno spazio dei nomi errato o di regole di rientro.
+
+  >[!NOTE]
+  >
+  >Questa dashboard tiene conto dei percorsi con traffico nelle ultime 24 ore. Vengono visualizzati solo i percorsi a cui hai accesso. Le metriche vengono aggiornate ogni 30 minuti e solo quando sono disponibili nuovi dati.
+
+  ![](assets/journeys-dashboard.png)
+
+* La scheda **[!UICONTROL Sfoglia]** mostra l&#39;elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
+
+  ![](assets/journeys-browse.png)
+
+### Filtrare i percorsi {#filter}
+
+Nell’elenco dei percorsi, puoi sfruttare diversi filtri per perfezionare l’elenco dei percorsi in modo da migliorarne la leggibilità.
+
+![](assets/filter-journeys.png)
+
+Di seguito sono elencate le varie operazioni di filtro che è possibile eseguire:
+
+Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dai **[!UICONTROL filtri di stato e versione]**.
+
+Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]** o **[!UICONTROL Evento di business]**.
+
+Lo stato può essere:
+
+* **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
+* **Bozza**: il percorso è nella prima fase. Non è ancora stato pubblicato.
+* **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**.
+* **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
+* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**.
+* **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso.
+
+>[!NOTE]
+>
+>Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+
+Utilizza **[!UICONTROL Creation filters]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
+
+Visualizza percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifica dei **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**.
+
+Utilizza **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
+
+Per filtrare i percorsi in base a un intervallo di date specifico, seleziona **[!UICONTROL Personalizzato]** dall&#39;elenco a discesa **[!UICONTROL Pubblicato]**.
+
+Inoltre, nei riquadri di configurazione dell&#39;evento, dell&#39;origine dati e dell&#39;azione, il campo **[!UICONTROL Usato in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
+
+![](assets/journey3bis.png)
+
+
+## Versioni del percorso {#journey-versions}
+
+Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia di modifica del percorso, sopra l’area di lavoro.
+
+![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il reingresso, un profilo può entrare di nuovo in un percorso, ma solo dopo che sarà completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
+
+Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso.
+
+1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Crea una nuova versione]** e conferma.
+
+   ![](assets/journeyversions2.png)
+
+   >[!NOTE]
+   >
+   >È possibile creare una nuova versione solo a partire dalla versione più recente di un percorso.
+
+1. Apporta le modifiche necessarie, quindi fai clic su **[!UICONTROL Pubblica]** e conferma.
+
+Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a confluire nell’ultima versione del percorso. Le persone che erano già entrate in una versione precedente vi rimangono fino alla fine del percorso. Se in un secondo momento entrano di nuovo nello stesso percorso, passeranno alla versione più recente.
+
+È possibile interrompere le versioni di percorso singolarmente. Tutte le versioni di un percorso hanno lo stesso nome.
+
+Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e il suo stato diventa **Chiuso**. Un percorso chiuso non accetta alcun ingresso. Anche se si interrompe la versione più recente, la versione precedente rimane chiusa.
+
+
+
+## Duplicare un percorso {#duplicate-a-journey}
+
+Puoi duplicare un percorso esistente dalla scheda **Sfoglia**. Tutti gli oggetti e le impostazioni vengono duplicati nella copia di percorso.
+
+Per farlo, segui la procedura indicata di seguito:
+
+1. Passa al percorso da copiare, fai clic sull&#39;icona **Altre azioni** (i tre punti accanto al nome del percorso).
+1. Seleziona **Duplica**.
+
+   ![Duplica un percorso](assets/duplicate-jo.png)
+
+1. Inserisci il nome del percorso e conferma. È inoltre possibile modificare il nome nella schermata delle proprietà del percorso. Per impostazione predefinita, il nome è impostato come segue: `[JOURNEY-NAME]_copy`
+
+   ![](assets/duplicate-jo2.png)
+
+1. Il nuovo percorso viene creato e disponibile nell&#39;elenco percorso.
+

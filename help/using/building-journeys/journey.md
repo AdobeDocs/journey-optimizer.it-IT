@@ -8,19 +8,23 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
 
 # Introduzione ai percorsi{#jo-general-principle}
 
-Utilizza [!DNL Journey Optimizer] per generare l’orchestrazione in tempo reale per diversi casi d’uso, sfruttando i dati contestuali provenienti da eventi o da origini dati.
+Il designer di percorsi Journey Optimizer fornisce tutto ciò di cui gli esperti di marketing e i professionisti del percorso hanno bisogno per orchestrare percorsi con più passaggi 1:1 tra i canali. Ciò include un’area di lavoro intuitiva con trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali visualizzati dai membri del pubblico target in base a comportamento, dati contestuali ed eventi di business.
 
-Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
+Iniziamo definendo l’azione o l’evento che dà il via al percorso del cliente, e poi i punti di contatto in cui le azioni del cliente, gli eventi,
+o i dati contestuali li guideranno facilmente al loro passaggio migliore successivo. Questo processo inizia con la definizione dell’azione o dell’evento che avvia
+percorso, seguito dalla definizione di punti di contatto in cui le azioni dei clienti, gli eventi o i dati contestuali li guidano direttamente al passaggio migliore successivo.
+
+Utilizzare [!DNL Journey Optimizer] per creare casi di utilizzo di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati. Puoi progettare scenari avanzati a più passaggi con le seguenti funzionalità:
 
 * Invia in tempo reale una **consegna unitaria** attivata quando viene ricevuto un evento o **in batch** utilizzando i tipi di pubblico di Adobe Experience Platform.
 
@@ -34,73 +38,21 @@ Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzional
 >
 >Per i guardrail e le limitazioni applicabili ai percorsi, visita [questa pagina](../start/guardrails.md).
 
-## Passaggi per creare un percorso{#steps-journey}
-
-Utilizza Adobe Journey Optimizer per progettare e orchestrare percorsi personalizzati da un’unica area di lavoro. I passaggi principali per creare un percorso sono i seguenti:
-
-![](assets/journey-creation-process.png)
-
-➡️ [Scopri questa funzione nel video](#video)
-
-Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente consente di trascinare facilmente le attività dalla palette all’area di lavoro, per generare il tuo percorso.
-
-![](assets/interface-journeys.png)
-
-Per capire come iniziare e come creare il primo percorso, visita [questa pagina](journey-gs.md).
-
-Il designer di percorsi omni-channel, con la sua un’interfaccia intuitiva basata su selezione e trascinamento, ti aiuta a creare percorsi con più passaggi per tipi di pubblico target, aggiornamenti basati su interazioni del cliente o aziendali in tempo reale e messaggi omni-channel.
-
-![](assets/journey38.png)
-
-Per ulteriori informazioni, consulta [questa sezione](using-the-journey-designer.md).
-
-Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati, Eventi e Azioni, sono descritti in [questa sezione](../configuration/about-data-sources-events-actions.md).
-
+Scopri come creare e progettare il tuo primo percorso in [questa pagina](journey-gs.md).
 
 ## Casi d’uso{#uc-journey}
 
-Scopri come creare percorsi nei seguenti casi d’uso end-to-end.
+Dall’interno della finestra di progettazione del percorso, gli esperti di marketing possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando un cliente si abbona a un servizio, può [attivare un&#39;e-mail di benvenuto](message-to-subscribers-uc.md), invitandolo ad accedere all&#39;app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per promuovere i nuovi clienti attraverso i loro percorsi.
 
-Casi d’uso aziendali:
+[Progettazione percorsi](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journeys-message.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/MMS, nonché i canali in entrata, inclusi le app mobili, i siti Web e le esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi, tramite e-mail, testo o altri canali. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l&#39;integrazione di questi sistemi nei percorsi direttamente dal progettista del percorso.
+
+Scopri come creare percorsi nei seguenti casi d’uso end-to-end:
 
 * [Inviare messaggi multicanale](journeys-uc.md)
 * [Inviare un messaggio con Campaign v7/v8](ajo-ac.md)
 * [Inviare un messaggio agli abbonati](message-to-subscribers-uc.md)
-
-Casi d’uso tecnici:
-
 * [Passaggio dinamico delle raccolte tramite azioni personalizzate](collections.md)
 * [Limite di trasmissione con origini dati esterne e azioni personalizzate](limit-throughput.md)
-
-## Versioni del percorso{#journey-versions}
-
-Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
-
-Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia di modifica del percorso, sopra l’area di lavoro.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il reingresso, un profilo può entrare di nuovo in un percorso, ma solo dopo che sarà completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
-
-Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso.
-
-1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Crea una nuova versione]** e conferma.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >È possibile creare una nuova versione solo a partire dalla versione più recente di un percorso.
-
-1. Apporta le modifiche necessarie, quindi fai clic su **[!UICONTROL Pubblica]** e conferma.
-
-Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a confluire nell’ultima versione del percorso. Le persone che erano già entrate in una versione precedente vi rimangono fino alla fine del percorso. Se in un secondo momento entrano di nuovo nello stesso percorso, passeranno alla versione più recente.
-
-È possibile interrompere le versioni di percorso singolarmente. Tutte le versioni di un percorso hanno lo stesso nome.
-
-Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e il suo stato diventa **Chiuso**. Un percorso chiuso non accetta alcun ingresso. Anche se si interrompe la versione più recente, la versione precedente rimane chiusa.
 
 ## Video introduttivo {#video}
 
