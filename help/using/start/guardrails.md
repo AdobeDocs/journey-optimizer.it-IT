@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 27c448948b4bcee97f8bbba1a7144bfef796905f
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 93%
@@ -66,7 +66,7 @@ Le campagne web di [!DNL Journey Optimizer] eseguono il targeting di nuovi profi
 
 Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-### Guardrail del canale basati su codice {#code-based-guardrails}
+## Guardrail del canale basati su codice {#code-based-guardrails}
 
 Per utilizzare le azioni di esperienza basate su codice in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, seguire i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
