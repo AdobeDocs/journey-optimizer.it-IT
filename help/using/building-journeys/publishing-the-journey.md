@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
 
 # Pubblicare il percorso {#publishing-the-journey}
 
-Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Impossibile pubblicare un percorso con errori. Scopri come verificare il percorso in [questa pagina](testing-the-journey.md).
+Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Impossibile pubblicare un percorso con errori.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
 I passaggi per pubblicare un percorso sono descritti di seguito:
 
-1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori. Scopri come risolvere i problemi del percorso in [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori.
+
+   * Scopri come verificare il percorso in [questa pagina](testing-the-journey.md).
+   * Scopri come risolvere gli errori di percorso in [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Per pubblicare il percorso, fai clic sull&#39;opzione **[!UICONTROL Pubblica]**, che si trova nel menu a discesa in alto a destra.
 
