@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 22%
+source-wordcount: '604'
+ht-degree: 32%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 22%
 >id="ajo_multi_translation_homepage"
 >title="Traduzioni"
 >abstract="La funzione di multilingue consente di creare facilmente contenuti in più lingue all’interno di una campagna o di un percorso. Tramite la pagina Traduzioni è possibile configurare progetti, selezionare provider di traduzione o gestire dizionari specifici per lingua"
-
->[!IMPORTANT]
->
->Per iniziare a creare contenuti multilingue, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**.
->Per il flusso automatizzato, gli utenti avranno bisogno anche di autorizzazioni relative alle funzionalità del **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 
 La funzione multilingue consente di creare facilmente contenuti in più lingue all’interno di una singola campagna o percorso. Grazie a questa funzione, è possibile cambiare lingua durante la modifica della campagna, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.
 
@@ -55,23 +50,49 @@ L’utilizzo dei servizi di traduzione di un fornitore di traduzione è soggetto
 
 Per eventuali problemi o richieste di assistenza relativi alle traduzioni, contatta il fornitore di traduzione competente.
 
-Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
-Se non riesci ad accedere alla pagina di traduzione, devi abilitare la funzione di traduzione e ricevere **[!UICONTROL le autorizzazioni relative al servizio di traduzione]**. [Ulteriori informazioni](../administration/ootb-permissions.md)
+* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+* Per iniziare a creare contenuti multilingue, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**. Per il flusso automatizzato, gli utenti avranno bisogno anche di autorizzazioni relative alle funzionalità di **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
+
++++ Scopri come assegnare autorizzazioni correlate multilingue
+
+   1. Nel prodotto **Autorizzazioni**, passa alla scheda **Ruoli** e seleziona il **Ruolo** desiderato.
+
+   1. Fai clic su **Modifica** per modificare le autorizzazioni.
+
+   1. Aggiungi la risorsa **Servizio di traduzione**, quindi seleziona le autorizzazioni multilingue appropriate dal menu a discesa.
+
+      ![](assets/multilingual-permission.png){zoomable="yes"}
+
+   1. Fai clic su **Salva** per applicare le modifiche.
+
+      Le autorizzazioni degli utenti già assegnati a questo ruolo verranno aggiornate automaticamente.
+
+   1. Per assegnare questo ruolo a nuovi utenti, passa alla scheda **Utenti** nella dashboard **Ruoli** e fai clic su **Aggiungi utente**.
+
+   1. Immetti il nome o l’indirizzo e-mail dell’utente o sceglilo dall’elenco e fai clic su **Salva**.
+
+   1. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
+
++++
+
+* Se non riesci ad accedere alla pagina di traduzione, devi abilitare la funzione di traduzione e ricevere **[!UICONTROL le autorizzazioni relative al servizio di traduzione]**. [Ulteriori informazioni](../administration/ootb-permissions.md)
 
 +++ Scopri come abilitare la funzione di traduzione
 
-1. Se viene visualizzata la pagina di errore seguente, significa che la funzionalità **[!UICONTROL Traduzione]** non è ancora stata abilitata. Contatta l’amministratore dell’organizzazione e della sandbox. per richiedere l&#39;accesso.
+   1. Se viene visualizzata la pagina di errore seguente, significa che la funzionalità **[!UICONTROL Traduzione]** non è ancora stata abilitata. Per richiedere l’accesso, contatta l’amministratore della tua organizzazione e della sandbox.
 
-   ![](assets/multi-troubleshoot.png)
+  ![](assets/multi-troubleshoot.png)
 
-1. L&#39;amministratore dovrà passare al menu **[!UICONTROL Traduzione]** nella barra laterale a sinistra.
+   1. L&#39;amministratore dovrà passare al menu **[!UICONTROL Traduzione]** nella barra laterale a sinistra.
 
-   Il sistema attiverà automaticamente la funzione di traduzione.
+      Il sistema attiverà automaticamente la funzione di traduzione.
 
-1. Una volta abilitata la funzionalità, potrai accedere alla pagina **[!UICONTROL Traduzione]** insieme alle schede **[!UICONTROL Progetti]**, **[!UICONTROL Provider]** e **[!UICONTROL Impostazioni internazionali]**.
+   1. Una volta abilitata la funzionalità, potrai accedere alla pagina **[!UICONTROL Traduzione]** insieme alle schede **[!UICONTROL Progetti]**, **[!UICONTROL Provider]** e **[!UICONTROL Impostazioni internazionali]**.
 
-1. Se questa procedura non è riuscita, verrà comunque visualizzata la stessa pagina di errore. In tal caso, contatta il rappresentante del tuo Adobe per ulteriore assistenza.
+   1. Se questa procedura non è riuscita, verrà comunque visualizzata la stessa pagina di errore. In tal caso, contatta il rappresentante Adobe per ulteriore assistenza.
 
 +++
 
