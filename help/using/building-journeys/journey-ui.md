@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 32%
+source-wordcount: '986'
+ht-degree: 29%
 
 ---
 
@@ -79,7 +79,10 @@ Lo stato del percorso può essere:
 
 >[!NOTE]
 >
->Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+>* Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+>
+>* Se devi modificare un percorso **live**, [crea una nuova versione](#journey-versions) del percorso.
+
 
 ## Versioni del percorso {#journey-versions}
 
@@ -91,7 +94,9 @@ Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e
 >
 >In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il reingresso, un profilo può entrare di nuovo in un percorso, ma solo dopo che sarà completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
 
-Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso.
+### Creazione di una nuova versione di un percorso {#journey-create-new-version}
+
+Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso. Per creare una nuova versione di un percorso esistente, effettuare le seguenti operazioni:
 
 1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Crea una nuova versione]** e conferma.
 

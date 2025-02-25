@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publish il percorso
+title: Pubblica il percorso
 description: Scopri come pubblicare un percorso
 feature: Journeys
 topic: Content Management
@@ -9,35 +9,36 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '304'
 ht-degree: 5%
 
 ---
 
-# Pubblicare il percorso{#publishing-the-journey}
+# Pubblicare il percorso {#publishing-the-journey}
 
-Puoi pubblicare un percorso dopo averne verificato la validità.
+Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Impossibile pubblicare un percorso con errori. Scopri come verificare il percorso in [questa pagina](testing-the-journey.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-Se è necessario apportare modifiche a un percorso pubblicato, è necessario creare una nuova versione del percorso. Vedi [questa pagina](../building-journeys/journey.md). Quando un percorso è di sola lettura, è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso.
+I passaggi per pubblicare un percorso sono descritti di seguito:
 
-Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le persone che entrano nel percorso saranno fermate in modo permanente e il percorso non permetterà più nuovi ingressi. Se devi utilizzare nuovamente il percorso, devi duplicarlo e pubblicarlo.
+1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori. Scopri come risolvere i problemi del percorso in [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Si consiglia inoltre di verificare il percorso prima della pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
-
-1. Per pubblicare il percorso, fai clic sull&#39;opzione **[!UICONTROL Publish]**, che si trova nel menu a discesa in alto a destra.
+1. Per pubblicare il percorso, fai clic sull&#39;opzione **[!UICONTROL Pubblica]**, che si trova nel menu a discesa in alto a destra.
 
    >[!NOTE]
    >
-   > Se il tuo percorso è soggetto a una policy di approvazione, dovrai richiedere l’approvazione per poter pubblicare il percorso. [Ulteriori informazioni](../test-approve/gs-approval.md)
+   > Se il percorso è soggetto a una policy di approvazione, è necessario richiedere l’approvazione per poter pubblicare il percorso. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
 
-Quando il percorso viene pubblicato, è in modalità di sola lettura.
+Il percorso pubblicato è in modalità **sola lettura**. Quando un percorso è di sola lettura, è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso. Se hai bisogno di apportare ulteriori modifiche a un percorso pubblicato, crea [una nuova versione](journey-ui.md#journey-versions) del percorso.
+
+Quando si arresta un percorso, questo viene arrestato in modo permanente: tutte le persone che scorrono nel percorso vengono fermate in modo permanente e il percorso smette di consentire nuovi ingressi. Per eseguire nuovamente il percorso, è necessario duplicarlo e pubblicare il nuovo percorso.
+
 
 >[!IMPORTANT]
 >
@@ -45,6 +46,6 @@ Quando il percorso viene pubblicato, è in modalità di sola lettura.
 
 ## Video introduttivo {#video}
 
-Scopri come pubblicare un percorso.
+Scopri come pubblicare un percorso in questo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '761'
 ht-degree: 26%
 
 ---
@@ -112,4 +112,6 @@ Dopo la pubblicazione, puoi monitorare il percorso utilizzando gli strumenti di 
 
 Ulteriori informazioni sui report di percorso sono disponibili in questa [sezione](../reports/live-report.md).
 
-È possibile duplicare un percorsi percorso esistente o crearne una nuova versione. Scopri come in [questa pagina](journey-ui.md)
+>[!NOTE]
+>
+>Se devi modificare un percorso **live**, [crea una nuova versione](journey-ui.md#journey-versions) del percorso.
