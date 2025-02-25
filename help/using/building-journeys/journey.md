@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 33%
 # Introduzione ai percorsi{#jo-general-principle}
 
 Il designer di percorsi Journey Optimizer fornisce tutto ciò di cui gli esperti di marketing e i professionisti del percorso hanno bisogno per orchestrare percorsi con più passaggi 1:1 tra i canali. Ciò include un’area di lavoro intuitiva con trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali visualizzati dai membri del pubblico target in base a comportamento, dati contestuali ed eventi di business.
-
-Iniziamo definendo l’azione o l’evento che dà il via al percorso del cliente, e poi i punti di contatto in cui le azioni del cliente, gli eventi,
-o i dati contestuali li guideranno facilmente al loro passaggio migliore successivo. Questo processo inizia con la definizione dell’azione o dell’evento che avvia
-percorso, seguito dalla definizione di punti di contatto in cui le azioni dei clienti, gli eventi o i dati contestuali li guidano direttamente al passaggio migliore successivo.
 
 Utilizzare [!DNL Journey Optimizer] per creare casi di utilizzo di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati. Puoi progettare scenari avanzati a più passaggi con le seguenti funzionalità:
 
@@ -33,10 +29,6 @@ Utilizzare [!DNL Journey Optimizer] per creare casi di utilizzo di orchestrazion
 * Utilizza le **azioni incorporate** per inviare messaggi progettati in [!DNL Journey Optimizer] o crea **azioni personalizzate** se utilizzi un sistema di terzi per l’invio dei messaggi.
 
 * Con **journey designer**, genera casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
-
->[!NOTE]
->
->Per i guardrail e le limitazioni applicabili ai percorsi, visita [questa pagina](../start/guardrails.md).
 
 Scopri come creare e progettare il tuo primo percorso in [questa pagina](journey-gs.md).
 
@@ -53,6 +45,10 @@ Scopri come creare percorsi nei seguenti casi d’uso end-to-end:
 * [Inviare un messaggio agli abbonati](message-to-subscribers-uc.md)
 * [Passaggio dinamico delle raccolte tramite azioni personalizzate](collections.md)
 * [Limite di trasmissione con origini dati esterne e azioni personalizzate](limit-throughput.md)
+
+>[!NOTE]
+>
+>Per i guardrail e le limitazioni applicabili ai percorsi, visita [questa pagina](../start/guardrails.md).
 
 ## Video introduttivo {#video}
 
