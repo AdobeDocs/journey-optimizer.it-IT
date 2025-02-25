@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 23%
@@ -258,7 +258,7 @@ Puoi applicare un set di regole a un messaggio o a un percorso, a seconda del do
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Prima di attivare la campagna, assicurati di pianificarne l’esecuzione per almeno 10 minuti nel futuro.
+1. Prima di attivare la campagna, assicurati di pianificarne l’esecuzione per almeno 20 minuti nel futuro.
 
    In questo modo sarà possibile popolare i valori dei contatori nel profilo per la regola business selezionata. Se attivi immediatamente la campagna, i valori dei contatori del set di regole non verranno inseriti nei profili dei destinatari e il messaggio non verrà conteggiato per le regole del limite di frequenza per i set di regole personalizzati.
 
