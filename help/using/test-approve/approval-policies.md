@@ -4,15 +4,27 @@ description: Scopri come creare e gestire i criteri di approvazione.
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
-
 # Creare e gestire i criteri di approvazione {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Richiedere un’approvazione"
+>abstract="Richiedere un’approvazione"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Richiedi modifica"
+>abstract="Richiedi modifica"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 3%
 I criteri di approvazione consentono agli amministratori di stabilire un processo di convalida per percorsi e campagne. Questo sistema delinea condizioni specifiche che determinano se un percorso o una campagna richiede l’approvazione. La complessità di tali criteri può variare, dal semplice fatto che tutte le campagne devono essere riviste da un utente o team specifico alla definizione di criteri in base a chi ha creato la campagna.
 
 ## Creare criteri di approvazione {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Nuovo criterio di approvazione"
+>abstract="In questa schermata, immetti il nome e seleziona il contesto per il criterio di approvazione, quindi genera le condizioni per determinare chi può avviare la richiesta di approvazione e chi può convalidarla."
+
+Per creare un criterio di approvazione, eseguire la procedura seguente:
 
 1. Dal menu **[!UICONTROL Amministrazione]** in Journey Optimizer, accedi a **[!UICONTROL Autorizzazioni]** e quindi a **[!UICONTROL Criteri]**.
 
@@ -34,9 +53,11 @@ I criteri di approvazione consentono agli amministratori di stabilire un process
 
    ![](assets/policy_create_2.png)
 
-È ora possibile perfezionare le condizioni per specificare chi avvierà la richiesta di approvazione e chi la convaliderà.
+È ora possibile perfezionare le condizioni per specificare chi può avviare la richiesta di approvazione e chi può convalidarla.
 
 ## Imposta condizioni per i criteri di approvazione {#conditions}
+
+Per definire le condizioni associate a un criterio di approvazione, effettuare le operazioni riportate di seguito.
 
 1. Accedi al **[!UICONTROL criterio di approvazione]**.
 
@@ -133,4 +154,3 @@ Ora puoi attivare il criterio di approvazione per applicarlo.
 1. Dal menu **[!UICONTROL Criterio]**, apri le opzioni avanzate per **[!UICONTROL Modifica]**, **[!UICONTROL Disattiva]** o **[!UICONTROL Duplica]** il criterio in base alle esigenze.
 
    ![](assets/policy_activate_2.png)
-
