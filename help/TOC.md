@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2175'
 ht-degree: 92%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 92%
          + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
          + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limitare la velocità effettiva con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
-         + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Utilizzare azioni personalizzate per scrivere eventi di percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagne{#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -683,17 +683,17 @@ ht-degree: 92%
          + [Configurare un evento di business](using/event/about-creating-business.md)
          + [Passaggi aggiuntivi per l’invio di eventi](using/event/additional-steps-to-send-events-to-journey.md)
       + Configurazione origine dati{#data-source-journeys}
-         + [Informazioni sulle origini dati](using/datasource/about-data-sources.md)
+         + [Introduzione alle origini dati](using/datasource/about-data-sources.md)
          + [Configurare un’origine dati](using/datasource/configure-data-sources.md)
          + [Origine dati Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
          + [Origini dati esterne](using/datasource/external-data-sources.md)
       + Configurazione delle azioni {#action-journeys}
-         + [Informazioni sulle azioni](using/action/action.md)
-         + [Configurare un’azione](using/action/about-custom-action-configuration.md)
-         + [Risolvere i problemi relativi all&#39;azione personalizzata](using/action/troubleshoot-custom-action.md)
+         + [Introduzione alle azioni personalizzate](using/action/action.md)
+         + [Configurare un’azione personalizzata](using/action/about-custom-action-configuration.md)
+         + [Risolvere i problemi relativi a un’azione personalizzata](using/action/troubleshoot-custom-action.md)
+         + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
          + [Integrare con Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrare con Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
          + [Integrare con Marketo Engage](using/action/marketo-engage.md)
    + [Origini](using/start/get-started-sources.md)
    + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)

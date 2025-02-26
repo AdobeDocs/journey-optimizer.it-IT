@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sulle origini dati
-description: Informazioni su come configurare un’origine dati
+title: Introduzione alle origini dati
+description: Scopri come iniziare a utilizzare le origini dati
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 57%
+source-wordcount: '344'
+ht-degree: 52%
 
 ---
 
-# Informazioni sulle origini dati {#about-data-sources}
+# Introduzione alle origini dati {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

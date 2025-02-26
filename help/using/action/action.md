@@ -1,45 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sulle azioni
-description: Informazioni su come configurare un’azione
+title: Introduzione alle azioni
+description: Scopri come utilizzare le azioni
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 43%
+source-wordcount: '273'
+ht-degree: 25%
 
 ---
 
-# Informazioni sulle azioni {#about_actions}
+# Introduzione alle azioni personalizzate {#about_actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
->title="Informazioni sulle azioni"
->abstract="In questa sezione è possibile definire la connessione al sistema che invierà i messaggi. Le azioni qui configurate saranno quindi disponibili nella palette a sinistra del percorso, nella categoria Azione."
+>title="Azioni personalizzate"
+>abstract="Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro mezzo di coinvolgimento digitale utilizzato nella tua azienda."
 
 Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro mezzo di coinvolgimento digitale utilizzato nella tua azienda.
 
+
 ➡️ [Scopri questa funzione nel video](#video)
 
-[!DNL Journey Optimizer] viene fornito con funzionalità per messaggi incorporate.
+[!DNL Journey Optimizer] viene fornito con funzionalità per messaggi incorporate. Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
-Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
+* Se utilizzi Adobe Campaign v7 o v8, su richiesta è disponibile un’integrazione. Consulta [questa pagina](../action/acc-action.md).
 
-* Se disponi di Adobe Campaign v7 o v8, su richiesta è disponibile un’integrazione. Consulta [questa pagina](../action/acc-action.md).
-
-* Se utilizzi un sistema di terze parti per l&#39;invio di messaggi come Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase e così via, devi aggiungere e configurare un&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
+* Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, Adobe Developer, Firebase e così via, devi creare e configurare un’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
 >[!CAUTION]
 >
 >La configurazione delle azioni personalizzate deve essere eseguita da un **utente tecnico**.
 
-Le azioni personalizzate sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le azioni personalizzate sono azioni aggiuntive definite da utenti tecnici e rese disponibili agli esperti di marketing: una volta configurate, vengono visualizzate nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
 Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selezionare **[!UICONTROL Configurazioni]** nella sezione del menu AMMINISTRAZIONE. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../start/user-interface.md).
 
