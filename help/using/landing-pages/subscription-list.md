@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, elenco, abbonamento, servizio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: a5bcd26ff735fc9656814c0df28fb58db5b3ae37
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '673'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti a clienti che hanno acconsentito a ricevere comunicazioni su un argomento/evento/interesse specifico/ecc. su base continuativa. In [!DNL Journey Optimizer], i clienti che hanno prestato il consenso sono raccolti in un elenco di abbonamenti.
 
-Un servizio di abbonamento può essere:
+Un servizio di abbonamento può essere utilizzato per:
 
 * una newsletter, ad esempio: &quot;Serie in esecuzione&quot;
 * un evento, ad esempio: &quot;Summit 2021&quot;
@@ -64,6 +64,27 @@ Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
+## Utilizzare un elenco di iscrizioni {#use-subscription-lists}
+
+Una volta creato l’elenco degli abbonamenti, puoi:
+
+* Aggiungere profili all’elenco degli abbonamenti
+
+  È possibile invitare persone a **partecipare all&#39;elenco**, sottoscrivendo una newsletter o registrandosi a un evento. Puoi anche **inviare messaggi personalizzati** ai sottoscrittori.
+
+  Ad esempio, per invitare un pubblico a registrarsi a un evento o a iscriversi a una newsletter, puoi inviare loro un messaggio con un collegamento a una pagina di destinazione in modo che possano partecipare all’evento o iscriversi. I profili che effettuano il consenso tramite il modulo della pagina di destinazione vengono aggiunti all’elenco di iscrizioni creato a questo scopo.
+
+* Inviare messaggi agli abbonati
+
+  Puoi anche utilizzare gli elenchi di abbonamenti come tipi di pubblico durante la creazione di percorsi e l’aggiunta di personalizzazione.
+
+  Ad esempio, quando un cliente si abbona a un servizio di streaming, può attivare l’invio immediato di una serie e-mail di benvenuto, incoraggiandolo ad accedere all’app per la prima volta e a impostare le proprie preferenze di visualizzazione.
+
+Scopri come utilizzare il tuo elenco di iscrizioni in [questo caso d&#39;uso](lp-use-cases.md#subscription-to-a-service).
+
+
+## Sfogliare gli elenchi delle iscrizioni {#browse-subscription-lists}
+
 Nell&#39;elenco vengono visualizzati tutti gli elenchi di iscrizioni creati. Puoi filtrarli in base alla data di creazione o di modifica e al loro stato.
 
 ![](assets/lp_subscription-filters.png)
@@ -74,10 +95,15 @@ I possibili stati sono i seguenti:
 * **[!UICONTROL Live]**: il giorno corrente è compreso tra la data di inizio e la data di fine dell&#39;elenco di iscrizioni, oppure non sono state definite date di fine/inizio, il che significa che l&#39;elenco di iscrizioni è sempre live.
 * **[!UICONTROL Scaduto]**: la data di fine è passata, pertanto l&#39;elenco iscrizioni non è più valido. I profili abbonati non riceveranno più comunicazioni relative a questo elenco di abbonamenti.
 
-Una volta creato l’elenco di iscrizioni, puoi utilizzarlo in una pagina di destinazione. I profili che danno il consenso tramite il modulo della pagina di destinazione verranno aggiunti all’elenco. [Ulteriori informazioni](design-lp.md)
 
-Puoi anche utilizzare gli elenchi di abbonamenti come tipi di pubblico durante la [creazione di percorsi](../building-journeys/journey-gs.md#jo-build) e l&#39;aggiunta di personalizzazioni.
+## Monitorare gli elenchi di iscrizioni {#monitor-subscription-lists}
 
->[!NOTE]
->
->Puoi monitorare l’impatto dell’elenco degli abbonamenti tramite rapporti specifici. [Ulteriori informazioni](../reports/subscription-report-live.md)
+Puoi monitorare l’impatto dell’elenco degli abbonamenti tramite rapporti dedicati. Puoi accedere a due tipi di rapporti:
+
+* Rapporto live dell’elenco iscrizioni
+
+  I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. [Ulteriori informazioni](../reports/subscription-report-live.md)
+
+* Elenco iscrizioni Tutti i rapporti temporali, con Customer Journey Analytics
+
+  Questi rapporti si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato. Il **report abbonamenti** offre informazioni essenziali sugli abbonamenti e sugli annullamenti di abbonamenti dei profili associati a elenchi specifici, consentendoti di comprendere l&#39;efficacia delle diverse campagne e iniziative di abbonamento nel promuovere il coinvolgimento e le conversioni. [Ulteriori informazioni](../reports/subscription-report-global-cja.md)
