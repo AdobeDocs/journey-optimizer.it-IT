@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 12%
+source-wordcount: '746'
+ht-degree: 9%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Esperimento sui contenuti"
->abstract="Puoi scegliere di variare il contenuto, l’oggetto o il mittente del messaggio al fine di definire più trattamenti e determinare la combinazione migliore per i tipi dl pubblico."
+>abstract="Puoi scegliere di variare il contenuto del messaggio o l’oggetto al fine di definire più trattamenti e determinare la combinazione migliore per il pubblico."
 
 >[!NOTE]
 >
 >Prima di iniziare con Content Experiment, assicurati che la configurazione del reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](../reports/reporting-configuration.md).
 
-L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
+L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione. Puoi scegliere di variare il contenuto o l’oggetto della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
