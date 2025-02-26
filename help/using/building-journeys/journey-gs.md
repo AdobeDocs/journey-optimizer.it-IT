@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 26%
+source-wordcount: '711'
+ht-degree: 25%
 
 ---
 
@@ -32,33 +32,29 @@ Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-chann
 
 ![esempio di area di lavoro percorso](assets/journey38.png)
 
-Crea percorsi di clienti in più fasi che avviano in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti.
 
 I passaggi principali per la creazione di un percorso sono descritti in questa pagina. Sono semplificate come segue:
 
 ![Passaggi per la creazione del percorso: creazione, progettazione, test e pubblicazione](assets/journey-creation-process.png)
 
 
-## Prerequisiti {#start-prerequisites}
+La creazione di percorsi di clienti in più fasi avvia una sequenza di interazioni, offerte e messaggi tra i canali in tempo reale. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target possono essere definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal tuo caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che stai creando. Prima di iniziare la progettazione del percorso, verificare che siano stati completati i passaggi di configurazione pertinenti:
 
-Per inviare messaggi con i percorsi, sono necessari i seguenti prerequisiti:
+* Se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi **configurare un evento**. È possibile definire le informazioni previste e le modalità di elaborazione. [Ulteriori informazioni](../event/about-events.md).
 
-1. **Configura un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. È possibile definire le informazioni previste e le modalità di elaborazione. Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
+  ![](assets/jo-event7bis.png)
 
-   ![](assets/jo-event7bis.png)
+* Il percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. Per questo, devi **creare tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
 
-1. **Creazione di un pubblico**: il tuo percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. A questo scopo, devi creare dei tipi di pubblico. [Ulteriori informazioni](../audience/about-audiences.md).
+  ![](assets/segment2.png)
 
-   ![](assets/segment2.png)
+* È possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md)
 
-1. **Configurare l&#39;origine dati**: è possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
+  ![](assets/jo-datasource.png)
 
-   ![](assets/jo-datasource.png)
+* Journey Optimizer viene fornito con le funzionalità di [messaggio integrato](../building-journeys/journeys-message.md). Se si utilizza un sistema di terze parti per l&#39;invio dei messaggi, è possibile **creare un&#39;azione personalizzata**. Ulteriori informazioni in questa [sezione](../action/action.md).
 
-1. **Configura un&#39;azione**: se utilizzi un sistema di terze parti per l&#39;invio dei messaggi, puoi creare un&#39;azione personalizzata. Ulteriori informazioni in questa [sezione](../action/action.md). Questo passaggio viene eseguito da un **utente tecnico**. Se utilizzi le funzionalità per messaggi integrate di Journey Optimizer, devi solo aggiungere un’azione di canale al percorso e progettare il contenuto.
-
-   ![](assets/custom2.png)
-
+  ![](assets/custom2.png)
 
 
 Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati, Eventi e Azioni, sono descritti in [questa sezione](../configuration/about-data-sources-events-actions.md).
@@ -68,7 +64,7 @@ Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati
 >
 >Per i guardrail e le limitazioni applicabili ai percorsi, visita [questa pagina](../start/guardrails.md).
 
-## Creazione di un percorso con più passaggi {#jo-build}
+## Creare un percorso {#jo-build}
 
 Per creare un percorso con più passaggi, effettuare le seguenti operazioni:
 

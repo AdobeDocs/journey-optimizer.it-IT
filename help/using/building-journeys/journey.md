@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 38%
@@ -17,8 +17,6 @@ ht-degree: 38%
 
 
 # Introduzione ai percorsi{#jo-general-principle}
-
-Il designer di percorsi Journey Optimizer fornisce tutto ciò di cui gli esperti di marketing e i professionisti del percorso hanno bisogno per orchestrare percorsi con più passaggi 1:1 tra i canali. Ciò include un’area di lavoro intuitiva con trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali visualizzati dai membri del pubblico target in base a comportamento, dati contestuali ed eventi di business.
 
 Utilizzare [!DNL Journey Optimizer] per creare casi di utilizzo di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati. Puoi progettare scenari avanzati a più passaggi con le seguenti funzionalità:
 
@@ -29,6 +27,8 @@ Utilizzare [!DNL Journey Optimizer] per creare casi di utilizzo di orchestrazion
 * Utilizza le **azioni incorporate** per inviare messaggi progettati in [!DNL Journey Optimizer] o crea **azioni personalizzate** se utilizzi un sistema di terzi per l’invio dei messaggi.
 
 * Con **journey designer**, genera casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
+
+Il designer di percorsi Journey Optimizer fornisce tutto ciò di cui gli esperti di marketing e i professionisti del percorso hanno bisogno per orchestrare percorsi con più passaggi 1:1 tra i canali. Ciò include un’area di lavoro intuitiva con trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali visualizzati dai membri del pubblico target in base a comportamento, dati contestuali ed eventi di business.
 
 Scopri come creare e progettare il tuo primo percorso in [questa pagina](journey-gs.md).
 
