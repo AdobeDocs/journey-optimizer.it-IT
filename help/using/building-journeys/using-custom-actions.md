@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: azione, personalizzato, API, percorso, configurazione, servizio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 26%
+source-wordcount: '412'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 26%
 >title="Azioni personalizzate"
 >abstract="Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON."
 
-Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
+Utilizza le azioni personalizzate per abilitare la connessione a un sistema di terze parti per l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
+
+Ulteriori informazioni sulle azioni personalizzate in [questa sezione](../action/action.md).
+
+Scopri come creare e configurare un&#39;azione personalizzata in [questa pagina](../action/about-custom-action-configuration.md).
 
 ## Consenso e governance dei dati {#privacy}
 
@@ -67,6 +71,3 @@ Per specificare il valore dei campi con intestazione dinamica e parametri di que
 
 Nella sezione **[!UICONTROL Parametri azione]** verranno visualizzati i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. Fai riferimento a questa [pagina](expression/expressionadvanced.md).
 
-**Argomenti correlati**
-
-[Configurare un’azione](../action/about-custom-action-configuration.md)
