@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 20%
+source-wordcount: '1723'
+ht-degree: 21%
 
 ---
 
 # Creare e pubblicare pagine di destinazione {#create-lp}
 
->[!CAUTION]
->
->Per poter testare e pubblicare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Messaggi Publish]**.
-
 Per indirizzare i clienti a una pagina Web definita che si desidera visualizzare quando fanno clic su un collegamento specifico, creare una pagina di destinazione in [!DNL Journey Optimizer], configurare la pagina principale e le eventuali pagine secondarie, testarla e pubblicarla.
 
->[!CAUTION]
->
->Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l&#39;URL definito durante la [creazione della pagina](#create-landing-page), anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima descritta in [questa sezione](#test-landing-page).
+I passaggi principali per creare pagine di destinazione sono i seguenti:
+
+![](assets/lp-creation-process.png)
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -34,29 +30,28 @@ Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTRO
 
 ![](assets/lp_access-list.png)
 
-Nell&#39;elenco **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli in base al loro stato, alla data di modifica o ai tag.
+Nell&#39;elenco **[!UICONTROL Pagine di destinazione]** sono visualizzate tutte le pagine di destinazione esistenti. Puoi filtrarli in base al loro stato, alla data di modifica o ai tag.
 
 ![](assets/lp_access-list-filter.png)
 
-Da questo elenco è possibile accedere a una serie di azioni. Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata:
+Da questo elenco, puoi anche accedere a duplicare, eliminare, annullare la pubblicazione di una pagina di destinazione o accedere ai rapporti della pagina di destinazione. A questo scopo, fai clic sui tre punti accanto a una pagina di destinazione e seleziona l’azione desiderata:
 
 ![](assets/lp_access-list-actions.png)
 
-* Per gli elementi pubblicati, puoi accedere al [rapporto sulla pagina di destinazione](../reports/lp-report-global-cja.md) o al [ultimo rapporto live di 24 ore](../reports/lp-report-live.md).
 
-* Puoi eliminare o duplicare una pagina di destinazione.
+Puoi eseguire le seguenti operazioni:
 
-  >[!NOTE]
-  >
-  >Impossibile eliminare una pagina di destinazione [pubblicata](#publish-landing-page). Per eliminarlo, devi prima annullarne la pubblicazione.
+* Accedi ai **report** seguenti per le pagine di destinazione pubblicate: [report pagina di destinazione](../reports/lp-report-global-cja.md) e [ultimo report live di 24 ore](../reports/lp-report-live.md).
 
-* Puoi annullare la pubblicazione di una pagina di destinazione pubblicata.
+* **Eliminare** o **duplicare** una pagina di destinazione. Impossibile eliminare una pagina di destinazione [pubblicata](#publish-landing-page). Per eliminarlo, devi prima **annullarne la pubblicazione**.
+
+* **Annulla pubblicazione** della pagina di destinazione.
 
   >[!CAUTION]
   >
-  >Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione verrà interrotto e verrà visualizzata una pagina di errore.
+  >Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione verrà interrotto e gli utenti riceveranno una pagina di errore se tentano di accedervi.
 
-* Puoi anche modificare i [tag](../start/search-filter-categorize.md#tags) associati a una pagina di destinazione.
+* Modifica i [tag](../start/search-filter-categorize.md#tags) associati a una pagina di destinazione.
 
 ## Creare una pagina di destinazione {#create-landing-page}
 
@@ -71,9 +66,11 @@ Da questo elenco è possibile accedere a una serie di azioni. Fai clic sui tre p
 >abstract="Per proteggere le risorse digitali sensibili, puoi definire autorizzazioni con cui gestire l’accesso ai dati per a pagina di destinazione utilizzando specifiche etichette."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=it" text="Controllo dell’accesso a livello di oggetto"
 
-I passaggi principali per creare pagine di destinazione sono i seguenti:
 
-![](assets/lp-creation-process.png)
+Per creare una pagina di destinazione, devi selezionare un predefinito, configurare la pagina principale e le pagine secondarie e infine testare la pagina prima di pubblicarla. Di seguito sono descritti i passaggi da eseguire:
+
+
+1. Passa a **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
 
 1. Nell&#39;elenco delle pagine di destinazione fare clic su **[!UICONTROL Crea pagina di destinazione]**.
 
@@ -223,7 +220,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!CAUTION]
 >
->Per poter testare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Messaggi Publish]**.
+>Per poter testare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Pubblica messaggi]**.
 >
 >Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
@@ -289,7 +286,8 @@ Possono verificarsi due tipi di avvisi:
 
 >[!CAUTION]
 >
->Per poter pubblicare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Messaggi Publish]**.
+>Per pubblicare le pagine di destinazione, gli utenti devono disporre dell&#39;autorizzazione **[!UICONTROL Pubblica messaggi]**.
+
 
 Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
 
