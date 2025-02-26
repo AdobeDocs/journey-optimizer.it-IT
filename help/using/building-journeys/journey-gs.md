@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -38,7 +38,9 @@ I passaggi principali per la creazione di un percorso sono descritti in questa p
 ![Passaggi per la creazione del percorso: creazione, progettazione, test e pubblicazione](assets/journey-creation-process.png)
 
 
-La creazione di percorsi di clienti in più fasi avvia una sequenza di interazioni, offerte e messaggi tra i canali in tempo reale. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target possono essere definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal tuo caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che stai creando. Prima di iniziare la progettazione del percorso, verificare che siano stati completati i passaggi di configurazione pertinenti:
+La creazione di percorsi di clienti in più fasi avvia una sequenza di interazioni, offerte e messaggi tra i canali in tempo reale. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target possono essere definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal tuo caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che stai creando.
+
+Prima di iniziare a creare il percorso, controllare che siano stati completati i passaggi di configurazione pertinenti:
 
 * Se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi **configurare un evento**. È possibile definire le informazioni previste e le modalità di elaborazione. [Ulteriori informazioni](../event/about-events.md).
 
