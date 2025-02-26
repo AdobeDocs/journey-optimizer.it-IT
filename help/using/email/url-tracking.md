@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 84%
+source-wordcount: '402'
+ht-degree: 83%
 
 ---
-
 
 # Tracciamento URL {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 84%
 >title="Anteprima dei parametri di tracciamento degli URL"
 >abstract="Verifica il modo in cui i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
-Durante la configurazione di una nuova [configurazione del canale e-mail](email-settings.md), puoi definire **[!UICONTROL parametri di tracciamento URL]** per misurare l&#39;efficacia delle tue attività di marketing su tutti i canali.
-
->[!NOTE]
->
->Questa funzione è facoltativa.
+Durante la configurazione di una nuova [configurazione del canale e-mail](email-settings.md), puoi definire **[!UICONTROL parametri di tracciamento URL]** per misurare l&#39;efficacia delle tue attività di marketing su tutti i canali. L’attivazione di questa funzione è facoltativa.
 
 I parametri definiti nella sezione corrispondente verranno aggiunti alla fine degli URL inclusi nel contenuto del messaggio e-mail. Puoi quindi acquisire questi parametri negli strumenti di analisi web come Adobe Analytics o Google Analytics e creare vari rapporti sulle prestazioni.
 
