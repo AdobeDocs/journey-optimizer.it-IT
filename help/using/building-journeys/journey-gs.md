@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -42,19 +42,19 @@ La creazione di percorsi di clienti in più fasi avvia una sequenza di interazio
 
 * Se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi **configurare un evento**. È possibile definire le informazioni previste e le modalità di elaborazione. [Ulteriori informazioni](../event/about-events.md).
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * Il percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. Per questo, devi **creare tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * È possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer viene fornito con le funzionalità di [messaggio integrato](../building-journeys/journeys-message.md). Se si utilizza un sistema di terze parti per l&#39;invio dei messaggi, è possibile **creare un&#39;azione personalizzata**. Ulteriori informazioni in questa [sezione](../action/action.md).
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati, Eventi e Azioni, sono descritti in [questa sezione](../configuration/about-data-sources-events-actions.md).
