@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
@@ -220,7 +220,7 @@ Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, 
 
 **Se la duplicazione è disattivata**
 
-Quando aggiungi più ambiti decisionali a una decisione e non è consentita la duplicazione tra posizionamenti diversi, le offerte idonee vengono selezionate in sequenza in base all’ordine degli ambiti decisionali nella richiesta.
+Quando aggiungi diversi ambiti decisionali a una decisione e non è consentita la duplicazione tra posizionamenti diversi, le offerte idonee vengono selezionate in sequenza in base all’ordine degli ambiti decisionali nella richiesta.
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ La selezione è la seguente:
 
 **Se la duplicazione è attiva**
 
-Quando la duplicazione è consentita in tutti i posizionamenti, la stessa offerta può essere proposta più volte in diversi posizionamenti. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. [Ulteriori informazioni sul parametro di duplicazione](../offer-library/creating-placements.md)
+Quando la duplicazione è consentita in tutti i posizionamenti, la stessa offerta può essere proposta più volte in posizionamenti diversi. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. [Ulteriori informazioni sul parametro di duplicazione](../offer-library/creating-placements.md)
 
 Prendiamo lo stesso esempio di cui sopra in cui hai aggiunto due ambiti decisionali, come:
 

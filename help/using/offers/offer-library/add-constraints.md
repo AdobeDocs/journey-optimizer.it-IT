@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2636'
 ht-degree: 16%
@@ -269,7 +269,7 @@ Ogni area hub è associata a una o più aree edge. Le regole di quota limite ven
 
 Ad esempio, consideriamo l&#39;area hub della tua organizzazione come *NLD2* e stai inviando una richiesta decisionale dall&#39;Europa (*IRL1* area Edge). In questo scenario, la richiesta di decisioni incrementerà il contatore del profilo, in quanto le regole sono disponibili nell&#39;area *IRL1* (Irlanda). Tuttavia, se la richiesta di decisioning proviene da un&#39;area come il Giappone (*JPN3*), che non è un&#39;area Edge associata all&#39;area hub *NLD2* dei Paesi Bassi, non verrà creato alcun contatore e le regole di quota limite non verranno applicate.
 
-Per ulteriori informazioni sulle aree edge e hub associate all’organizzazione, contatta il rappresentante del tuo Adobe.
+Per ulteriori informazioni su quali aree hub e edge sono associate alla tua organizzazione, contatta il tuo rappresentante Adobe.
 
 +++
 

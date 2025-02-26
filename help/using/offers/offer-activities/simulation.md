@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -132,13 +132,13 @@ Per modificare le impostazioni predefinite per le simulazioni, segui la procedur
 
    ![](../assets/offers_simulation-settings.png)
 
-1. Nella sezione **[!UICONTROL Deduplicazione]** puoi scegliere di consentire le offerte duplicate tra più decisioni e/o posizionamenti. Ciò significa che a più decisioni/posizionamenti può essere assegnata la stessa offerta.
+1. Nella sezione **[!UICONTROL Deduplicazione]** puoi scegliere di consentire offerte duplicate in più decisioni e/o posizionamenti. Ciò significa che a più decisioni/posizionamenti può essere assegnata la stessa offerta.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, tutti i flag di deduplicazione sono abilitati per la simulazione, il che significa che il motore decisionale consente i duplicati e può quindi fare la stessa proposta per più decisioni/posizionamenti. Ulteriori informazioni sulle proprietà della richiesta API [!DNL Decisioning] in [questa sezione](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Per impostazione predefinita, tutti i flag di deduplicazione sono abilitati per la simulazione, il che significa che il motore decisionale consente i duplicati e quindi può effettuare la stessa proposta in più decisioni/posizionamenti. Ulteriori informazioni sulle proprietà della richiesta API [!DNL Decisioning] in [questa sezione](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. Nella sezione **[!UICONTROL Formato risposta]** è possibile scegliere di includere metadati nella visualizzazione codice. Seleziona l’opzione corrispondente e seleziona i metadati desiderati. Saranno visualizzati nei payload di richieste e risposte quando si seleziona **[!UICONTROL Visualizza codice]**. Ulteriori informazioni nella sezione [Visualizza risultati simulazione](#simulation-results).
 
