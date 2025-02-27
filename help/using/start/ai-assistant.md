@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
+source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 14%
@@ -32,7 +32,7 @@ In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
 * **Conoscenza del prodotto** (disponibilità generale)
 
-  Le domande sulla conoscenza del prodotto riguardano concetti di Adobe relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sulla conoscenza del prodotto includono:
+  Le domande sulla conoscenza del prodotto riguardano i concetti di Adobe relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sulla conoscenza del prodotto includono:
 
    * Quante attività live posso avere in una sandbox di Adobe Journey Optimizer?
    * Come si imposta una campagna in Adobe Journey Optimizer?
@@ -54,11 +54,11 @@ In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
 Per porre una domanda, immetterla nel campo nella parte inferiore dello schermo e premere Invio.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
 Controlla la risposta e utilizza il pulsante **Mostra origini** per ottenere collegamenti diretti alla documentazione del prodotto e ulteriori informazioni.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
 Utilizza il pollice verso l’alto o il pollice verso il basso per valutare la risposta.
 
