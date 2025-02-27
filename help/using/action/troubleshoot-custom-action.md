@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
-
 
 # Risolvere i problemi relativi alle azioni personalizzate {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ Quando un’azione personalizzata include l’autenticazione, Adobe Journey Opti
 
 * **Autenticazione di base:** L&#39;utente deve fornire la *password*.
 * **Autenticazione chiave API:** L&#39;utente deve immettere la chiave API *value*.
-* **Autenticazione personalizzata:** L&#39;utente deve fornire i parametri di autenticazione nella richiesta *bodyParam*. In questo caso vengono aggiunte due sezioni da completare: **Richiesta di autenticazione** e **Risposta di autenticazione**.
+* **Autenticazione personalizzata:** L&#39;utente deve fornire i parametri di autenticazione nella richiesta *bodyParam*. In questo caso vengono aggiunte due sezioni: **Richiesta di autenticazione** e **Risposta di autenticazione**.
 
 ## Vantaggi chiave {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Se la richiesta non riesce, puoi controllare:
 * Il metodo di richiesta (GET vs. POST) e il payload corrispondente.
 * L’endpoint API e le intestazioni definiti nell’azione personalizzata.
 * Utilizza i dati di risposta per identificare potenziali configurazioni errate.
-
