@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 
 * **Canali supportati**: per il momento questa funzionalità è disponibile solo per l&#39;utilizzo nei canali e-mail, SMS e direct mail.
 * **L&#39;etichettatura e l&#39;applicazione dell&#39;utilizzo dati** non sono attualmente applicate per i set di dati abilitati per la ricerca.
-* **Frammenti di espressione**: al momento non è possibile inserire la personalizzazione della ricerca del set di dati all&#39;interno dei frammenti di espressione.
+* **Frammenti**: al momento non è possibile inserire la personalizzazione di ricerca del set di dati all&#39;interno di frammenti di espressione o visivi.
 
 ## Abilitare un set di dati per la ricerca di dati {#enable}
 
