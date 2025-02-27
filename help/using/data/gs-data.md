@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Puoi utilizzare la flessibilità dei dati offerta da [!DNL Journey Optimizer] pe
 
 * **Rimozione e meccanismi di archiviazione**: la rimozione dei dati e l’archiviazione possono essere definite e automatizzate liberamente in [!DNL Adobe Journey Optimizer] in modo da automatizzare i criteri di conservazione dei dati. È possibile definire diverse strategie di durata per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.
 
-  L’area di lavoro Igiene dei dati consente di creare e monitorare varie attività di igiene dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
+  L’area di lavoro del ciclo di vita dei dati consente di creare e monitorare varie attività del ciclo di vita dei dati, inclusa l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
