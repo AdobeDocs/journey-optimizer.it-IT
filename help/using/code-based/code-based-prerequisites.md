@@ -1,19 +1,19 @@
 ---
-title: Guardrail e prerequisiti per l’esperienza basati su codice
+title: Prerequisiti per l’esperienza basata su codice
 description: Per poter modificare app e pagine web utilizzando la funzione basata su codice di Journey Optimizer, segui i prerequisiti riportati in questa pagina
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
-# Guardrail e prerequisiti {#code-based-prerequisites}
+# Prerequisiti per l’esperienza basata su codice {#code-based-prerequisites}
 
 Per poter utilizzare in [!DNL Journey Optimizer] le azioni di esperienza basate su codice e distribuire il payload del contenuto di codice che può essere utilizzato dalle applicazioni, attenersi ai prerequisiti seguenti:
 

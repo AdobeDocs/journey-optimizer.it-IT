@@ -6,18 +6,16 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 10%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
 # Creare esperienze basate su codice {#create-code-based}
 
 In [!DNL Journey Optimizer] è possibile creare esperienze basate su codice in un percorso o in una campagna.
-
-I dettagli su guardrail e consigli specifici per esperienze basate su codice sono disponibili in [questa pagina](code-based-prerequisites.md).
 
 ## Aggiungere un’esperienza basata su codice tramite un percorso o una campagna {#create-code-based-experience}
 
