@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 24e6d2baf3470df402550a031d26ba33887f4fb9
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 26%
+source-wordcount: '621'
+ht-degree: 25%
 
 ---
 
@@ -153,6 +153,10 @@ Caso d&#39;uso n. 4: **Eliminare una configurazione di limitazione distribuita.*
 1. eliminare, con il parametro forceDelete
 
 Caso d&#39;uso n. 5: **Aggiornamento di una configurazione di limite già distribuita**
+
+>[!NOTE]
+>
+>Se aggiorni una configurazione già distribuita, devi ridistribuirla.
 
 1. list
 1. get
