@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ A partire da febbraio 2025, un guardrail time-to-live (TTL) viene introdotto nei
 * 90 giorni per i dati nell’archivio dei profili,
 * 13 mesi per i dati nel data lake.
 
-Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Leave (TTL) dei set di dati](../data/datasets-ttl.md)
+Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva. [Ulteriori informazioni sui guardrail TTL (Time-To-Live) dei set di dati](../data/datasets-ttl.md)
 
 ## Guardrail canali {#channel-guardrails}
 
@@ -220,4 +220,4 @@ All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono el
 I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
-* Queste attività non possono essere utilizzate con le attività in-app.
+* Le attività della campagna non possono essere utilizzate con le attività degli altri canali: carta, esperienza basata su codice, e-mail, push, SMS, messaggi in-app, web.
