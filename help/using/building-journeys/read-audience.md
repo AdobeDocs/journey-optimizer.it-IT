@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 5%
+source-wordcount: '1633'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,7 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 ## Guardrail e best practice {#must-read}
 
-* Per i percorsi che utilizzano un&#39;attività **Read Audience**, esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
+* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
 
 * I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un&#39;attività **Read audience**, **[Audience qualification](audience-qualification-events.md)** o un&#39;attività di evento business.
 
@@ -73,7 +73,7 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
 
    >[!NOTE]
    >
-   >Nel percorso entreranno solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** e **Esistente**. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -162,7 +162,7 @@ Dopo l’accesso al percorso, puoi creare casi di utilizzo di orchestrazione del
 
 **Segmentazione**
 
-È possibile utilizzare le condizioni per eseguire la segmentazione utilizzando l&#39;attività **Condition**. Ad esempio, è possibile fare in modo che le persone affette da VIP seguano un percorso particolare e che il flusso non-VIP segua un altro percorso.
+È possibile utilizzare le condizioni per eseguire la segmentazione utilizzando l&#39;attività **Condition**. Ad esempio, puoi fare in modo che le persone VIP seguano un particolare percorso e un flusso non VIP in un altro percorso.
 
 La segmentazione può essere basata su:
 
@@ -176,7 +176,7 @@ La segmentazione può essere basata su:
 
 **Exclusion**
 
-La stessa attività **Condition** utilizzata per la segmentazione (vedi sopra) ti consente anche di escludere parte della popolazione. Ad esempio, puoi escludere le persone VIP facendole fluire in una filiale con una fase finale subito dopo.
+La stessa attività **Condition** utilizzata per la segmentazione (vedi sopra) ti consente anche di escludere parte della popolazione. Ad esempio, puoi escludere le persone VIP facendole fluire in un ramo con un passaggio finale subito dopo.
 
 Questa esclusione può verificarsi subito dopo il recupero del pubblico, per scopi di conteggio della popolazione o lungo un percorso a più passaggi.
 
@@ -197,7 +197,7 @@ Dopo un’unione, puoi dividere nuovamente il pubblico eseguendo una segmentazio
 
 ## Nuovi tentativi {#read-audience-retry}
 
-I nuovi tentativi vengono applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Read Audience** o **Business Event**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. In seguito, lo considereremo un fallimento. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
+I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 
 I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **Alerts**. L&#39;avviso **Read Audience** ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto. Se l’errore è causato da problemi tecnici, tieni presente che possono comunque verificarsi nuovi tentativi, a seconda del tipo di problema (ad esempio, se la creazione del processo di esportazione non è riuscita, verrà eseguito un nuovo tentativo ogni 10mn per un massimo di 1h). [Ulteriori informazioni](../reports/alerts.md#alert-read-audiences)
 

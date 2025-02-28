@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, function, expression, percorsi
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '183'
 ht-degree: 6%
 
 ---
@@ -26,13 +26,12 @@ Il nome del pubblico deve essere una costante stringa. Non può essere un riferi
 
 I tipi di pubblico sono definiti in [Adobe Experience Platform](https://platform.adobe.com/audience/overview). L’editor espressioni fornisce un elenco di tipi di pubblico compilato automaticamente.
 
-I tipi di pubblico possono avere tre stati:
+I tipi di pubblico possono avere due stati:
 
-* esistente: l’entità continua a essere nel pubblico.
-* realizzato: l’entità sta entrando nel pubblico.
-* uscita: l’entità sta uscendo dal pubblico.
+* realizzati: l’entità è idonea per la definizione del segmento.
+* uscita: l’entità sta uscendo dalla definizione del segmento.
 
-Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** e **Esistente** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 

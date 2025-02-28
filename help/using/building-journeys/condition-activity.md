@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1491'
 ht-degree: 17%
 
 ---
@@ -48,7 +48,7 @@ Fare clic su **[!UICONTROL Aggiungi un percorso]** se si desidera definire più 
 
 Si noti che la progettazione dei percorsi ha un impatto funzionale. Quando più percorsi vengono definiti dopo una condizione, verrà eseguito solo il primo percorso idoneo. Ciò significa che puoi variare la priorità dei percorsi posizionandoli uno sopra l’altro o al di sotto di esso.
 
-Ad esempio, prendiamo l’esempio di una condizione del primo percorso &quot;La persona è un VIP&quot; e di una condizione del secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso sarà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
+Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un VIP&quot; e la condizione di un secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso verrà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
 
 ![](assets/journey48.png)
 
@@ -167,4 +167,4 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** e **Esistente** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
