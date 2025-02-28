@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a35b8005592aa84dc9a3ac674129064d012e3a56
+source-git-commit: c5873b9ec8cf8302e3af0598245facf571513925
 workflow-type: tm+mt
-source-wordcount: '6153'
+source-wordcount: '6164'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Febbraio 2025 {#feb-2025}
 
+* Sono state aggiornate le protezioni di percorso quando si utilizzano le attività di Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
 * Sono stati descritti i passaggi necessari per creare i primi percorsi e sono stati aggiunti i collegamenti alla sezione documentazione. [Ulteriori informazioni](../building-journeys/journey-gs.md)
 * È ora disponibile una nuova pagina che descrive nel dettaglio la dashboard del percorso e l’interfaccia utente dei filtri. [Ulteriori informazioni](../building-journeys/journey-ui.md)
 * La documentazione relativa all’**[!UICONTROL ottimizzazione dell’ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
