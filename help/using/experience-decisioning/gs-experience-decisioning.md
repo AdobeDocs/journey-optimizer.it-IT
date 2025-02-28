@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 26%
+source-wordcount: '501'
+ht-degree: 25%
 
 ---
 
@@ -85,3 +85,4 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 1. **Crea un criterio di decisione e incorporalo nella campagna basata su codice**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
+➡️ Per consegnare correttamente l&#39;offerta tramite il canale basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md)
