@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ Prima di poter generare questo file, devi creare:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selezionare il tipo di server per il file"
->abstract="Scegli il tipo di server da utilizzare per esportare i file di direct mailing: Amazon S3, SFTP, Azure o Data Landing Zone."
+>abstract="Scegli il tipo di server da utilizzare per esportare i file di direct mail: Amazon S3, SFTP, Azure o Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"

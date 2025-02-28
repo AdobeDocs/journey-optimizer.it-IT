@@ -74,7 +74,7 @@ ht-degree: 52%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
->title="Aggiungere un limite di profili"
+>title="Aggiungere un limite al profilo"
 >abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione."
 
 <!-- [!CONTEXTUALHELP]
