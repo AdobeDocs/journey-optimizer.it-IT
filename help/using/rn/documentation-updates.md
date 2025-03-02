@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5873b9ec8cf8302e3af0598245facf571513925
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '6164'
-ht-degree: 97%
+source-wordcount: '6180'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,9 @@ ht-degree: 97%
 
 Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+## Marzo 2025 {#mar-2025}
+
+* La pagina relativa agli eventi di qualificazione del pubblico è stata aggiornata con nuovi consigli. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md)
 
 ## Febbraio 2025 {#feb-2025}
 

@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Eventi di qualificazione del pubblico
-description: Scopri gli eventi di qualificazione del pubblico
+description: Scopri come utilizzare e configurare gli eventi di qualificazione del pubblico
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 10%
+source-wordcount: '1212'
+ht-degree: 5%
 
 ---
 
@@ -33,22 +33,29 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-### Note importanti{#important-notes-segment-qualification}
+### Note importanti {#important-notes-segment-qualification}
+
+* I percorsi di qualificazione del pubblico sono progettati principalmente per funzionare con i tipi di pubblico in streaming: questa combinazione garantirà una migliore esperienza in tempo reale. È consigliabile utilizzare solo **pubblico in streaming** nell&#39;attività di qualificazione del pubblico.
+
+  Tuttavia, se desideri utilizzare attributi basati sull&#39;acquisizione in batch nel pubblico in streaming o un pubblico in batch per un percorso di qualificazione del pubblico, considera l&#39;intervallo di tempo per la valutazione/attivazione del pubblico. Un pubblico in batch o un pubblico in streaming che utilizza attributi acquisiti in batch dovrebbe essere pronto per l&#39;utilizzo nell&#39;attività **Qualificazione del pubblico** circa **2 ore** dopo il completamento del processo di segmentazione (questo processo viene eseguito una volta al giorno all&#39;ora definita dall&#39;amministratore dell&#39;organizzazione Adobe).
 
 * Tieni presente che i tipi di pubblico di Adobe Experience Platform vengono calcolati una volta al giorno (**batch** tipi di pubblico) o in tempo reale (per **flussi di pubblico**, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
 
    * Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale.
    * Se il pubblico è batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso quando il calcolo del pubblico viene eseguito su Adobe Experience Platform.
 
-  Come best practice, consigliamo quindi di utilizzare solo tipi di pubblico in streaming in un&#39;attività di **qualificazione del pubblico**. Per i casi di utilizzo in batch, utilizza un&#39;attività **[Read audience](read-audience.md)**.
+  Come best practice, consigliamo quindi di utilizzare solo tipi di pubblico in streaming in un&#39;attività di **Qualificazione del pubblico**. Per i casi di utilizzo in batch, utilizza un&#39;attività **[Read audience](read-audience.md)**.
 
   >[!NOTE]
   >
   >A causa della natura batch dei tipi di pubblico creati utilizzando flussi di lavoro di composizione e caricamento personalizzato, non puoi indirizzarli a un’attività &quot;Qualificazione del pubblico&quot;. Solo i tipi di pubblico creati utilizzando le definizioni dei segmenti possono essere utilizzati in questa attività.
 
-* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
+* I gruppi di campi evento esperienza non possono essere utilizzati nei percorsi che iniziano con un&#39;attività **Read Audience**, **Audience Qualification** o **Business Event**.
 
-* Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
+* Quando si utilizza un&#39;attività **Qualificazione del pubblico** in un percorso, l&#39;attività può richiedere fino a 10 minuti per essere attiva e ascoltare i profili che entrano o escono dal pubblico.
+
+
+Consulta anche [Best practice per la qualificazione del pubblico](#best-practices-segments) di seguito.
 
 ### Configurare l’attività {#configure-segment-qualification}
 
@@ -100,7 +107,7 @@ Vedi [Attività condizione](../building-journeys/condition-activity.md#about_con
 
 ![](assets/segment8.png)
 
-Un nuovo percorso che include un evento di qualificazione del pubblico è operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all&#39;intervallo di aggiornamento della cache del servizio dedicato. Pertanto, è necessario attendere dieci minuti prima di utilizzare questo percorso.
+Un nuovo percorso che include un evento **Qualificazione del pubblico** è operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all&#39;intervallo di aggiornamento della cache del servizio dedicato. Pertanto, è necessario attendere dieci minuti prima di utilizzare questo percorso.
 
 ## Best practice {#best-practices-segments}
 
@@ -108,21 +115,21 @@ L&#39;attività **[!UICONTROL Audience Qualification]** consente l&#39;ingresso 
 
 La velocità di ricezione di queste informazioni è elevata. Le misurazioni effettuate mostrano una velocità di 10.000 eventi ricevuti al secondo. Di conseguenza, è necessario assicurarsi di capire come possono verificarsi picchi di ingresso, come evitarli e come rendere il percorso pronto per loro.
 
-### Pubblico in batch{#batch-speed-segment-qualification}
+### Pubblico in batch {#batch-speed-segment-qualification}
 
 Quando utilizzi la qualificazione del pubblico per un pubblico batch, tieni presente che un picco di ingresso si verificherà al momento del calcolo giornaliero. La dimensione del picco dipenderà dal numero di individui che entrano (o escono) dal pubblico ogni giorno.
 
 Inoltre, se il pubblico batch è stato appena creato e immediatamente utilizzato in un percorso, il primo batch di calcolo potrebbe fare entrare nel percorso un numero molto elevato di individui.
 
-### Tipi di pubblico in streaming{#streamed-speed-segment-qualification}
+### Tipi di pubblico in streaming {#streamed-speed-segment-qualification}
 
-Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in streaming, vi è meno rischio di ottenere picchi di entrate/uscite a causa della valutazione continua del pubblico. Tuttavia, se la definizione del pubblico porta a rendere un grande volume di clienti idonei allo stesso tempo, potrebbe esserci anche un picco.
+Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in streaming, vi è meno rischio di ottenere picchi elevati di entrate/uscite a causa della valutazione continua del pubblico. Tuttavia, se la definizione del pubblico porta a rendere un grande volume di clienti idonei allo stesso tempo, potrebbe esserci anche un picco.
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole di business anziché inviare eventi. [Ulteriori informazioni](../audience/about-audiences.md#open-and-send-event-guardrails)
 
 Per ulteriori informazioni sulla segmentazione in streaming, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
-### Come evitare gli overload{#overloads-speed-segment-qualification}
+### Come evitare gli overload {#overloads-speed-segment-qualification}
 
 Di seguito sono riportate alcune best practice che aiuteranno a evitare il sovraccarico dei sistemi utilizzati nei percorsi (origini dati, azioni personalizzate, attività di azione del canale).
 
@@ -138,6 +145,6 @@ Prima di utilizzare il pubblico in un percorso di produzione, valuta sempre per 
 
 ## Video introduttivo {#video}
 
-Comprendi i casi d’uso applicabili ai percorsi di qualificazione di un pubblico. Scopri come creare un percorso con qualificazione di un pubblico e quali best practice applicare.
+Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
