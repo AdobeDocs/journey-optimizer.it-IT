@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 24%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
 # Creare e gestire i brand {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="Brand"
+>abstract="Crea e personalizza i tuoi marchi per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo marchio."
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], 
 +++
 
 ## Crea il tuo marchio {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="Crea il tuo marchio"
+>abstract="Inserisci il nome del brand e carica il file delle linee guida per il brand. Lo strumento estrae automaticamente i dettagli chiave, semplificando il mantenimento dell’identità del brand."
 
 Per creare e gestire le linee guida per il tuo marchio, segui i passaggi indicati di seguito.
 
