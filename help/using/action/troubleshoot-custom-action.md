@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Risolvere i problemi relativi alle azioni personalizzate
 description: Scopri come risolvere i problemi di un’azione personalizzata
-badge: label="Disponibilità limitata"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
 # Risolvere i problemi relativi alle azioni personalizzate {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
->
 
 Puoi verificare le azioni personalizzate inviando chiamate API dalla sezione amministrazione dell’interfaccia utente di Journey Optimizer. Questa funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo il loro utilizzo in un percorso.
 
