@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -32,7 +32,7 @@ Quando esegui il targeting di un profilo, nel database potrebbero essere disponi
 
 In tal caso, [!DNL Journey Optimizer] utilizza **[!UICONTROL Campi di esecuzione]** per determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio del profilo come priorità.
 
-Per verificare i campi attualmente utilizzati per impostazione predefinita, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
+Per verificare i campi attualmente utilizzati per impostazione predefinita, accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -70,6 +70,11 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di configurazione e-mail o di percorso.
 
+L’override di questo valore può essere utile, ad esempio, per:
+
+* Test di un’e-mail. Puoi aggiungere il tuo indirizzo e-mail: dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
+* Invia un messaggio e-mail agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
+
 ### Nella configurazione e-mail
 
 Puoi modificare il campo di esecuzione predefinito impostato nelle [impostazioni generali](#admin-settings) durante la definizione di una configurazione del canale e-mail. [Ulteriori informazioni](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ In alcuni contesti specifici, è possibile sostituire questo valore utilizzando 
 >
 >La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l&#39;indirizzo e-mail perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** è quello che deve essere utilizzato.
 
-L’override di questo valore può essere utile, ad esempio, per:
-
-* Test di un’e-mail. Puoi aggiungere il tuo indirizzo e-mail: dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
-* Invia un messaggio e-mail agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
 
