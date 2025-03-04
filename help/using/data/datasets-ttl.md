@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 14%
+source-wordcount: '655'
+ht-degree: 12%
 
 ---
 
@@ -46,13 +46,6 @@ La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-
 | Archivio oggetti decisione - Posizionamenti | 13 mesi | n/d |
 | Archivio oggetti decisione - Attività | 13 mesi | n/d |
 | ODE DecisionEvents - Prod Decisioning | 13 mesi | n/d |
-| Set di dati del servizio di consenso di AJO | n/d | 90 giorni |
-| Set di dati profilo messaggistica interattiva AJO | n/d | 90 giorni |
-| Estensione dei contatori di profilo di AJO | n/d | 90 giorni |
-| Set di dati profilo push AJO | n/d | 90 giorni |
-| Set di dati profilo AJO Engageable | n/d | 90 giorni |
-
-
 
 ## Domande frequenti {#faq}
 
