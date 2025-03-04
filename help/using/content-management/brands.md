@@ -8,19 +8,30 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
+source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 21%
+source-wordcount: '497'
+ht-degree: 19%
 
 ---
 
 # Creare e gestire i brand {#brands}
 
 >[!CONTEXTUALHELP]
->id="ajo_brands_overview"
->title="Brand"
->abstract="Crea e personalizza i tuoi marchi per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo marchio."
+>id="ajo_brand_overview"
+>title="Introduzione ai brand"
+>abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo marchio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_ai_menu"
+>title="Seleziona il tuo marchio"
+>abstract="Scegli il tuo marchio per assicurarti che tutti i contenuti generati dall’intelligenza artificiale siano personalizzati in base alle specifiche e alle linee guida del tuo marchio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_score"
+>title="Punteggio di allineamento del brand"
+>abstract="Il punteggio di allineamento del brand misura il livello di aderenza dei contenuti generati dall’intelligenza artificiale alle linee guida del brand, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
+
 
 >[!AVAILABILITY]
 >
