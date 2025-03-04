@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -129,8 +129,7 @@ Con una valutazione flessibile del pubblico, puoi:
 
 1. Crea un nuovo segmento in base ai dati più recenti.
 1. Valuta il pubblico in tempo reale per assicurarne la precisione. Per farlo, scegli i tipi di pubblico da valutare e seleziona &quot;Valuta i tipi di pubblico&quot;, a condizione che soddisfino criteri specifici (ad esempio, persone basate, origine del servizio di segmentazione).
-1. Utilizzare il pubblico valutato in Adobe Journey Optimizer
-campagne o percorsi per un targeting preciso.
+1. Utilizza il pubblico valutato nelle campagne o nei percorsi Adobe Journey Optimizer per un targeting preciso.
 
 È possibile valutare fino a 20 tipi di pubblico alla volta e quelli non idonei verranno automaticamente esclusi. Per ulteriori dettagli, consulta la [documentazione di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
