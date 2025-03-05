@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 12a3520ec05737cbf5cdc813aa22ce16a9270d18
+source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 34%
+source-wordcount: '434'
+ht-degree: 33%
 
 ---
 
@@ -24,13 +24,19 @@ Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per av
 
 **Profilo cliente in tempo reale &#x200B;**: integra gli attributi e gli eventi del cliente da origini online, offline e pseudonime in un unico profilo unificato. &#x200B;Utilizza il profilo per coinvolgere i clienti con esperienze personalizzate in tempo reale su più punti di contatto. &#x200B;
 
-**Acquisizione dei dati** - Connettiti a varie origini dati per acquisire dati comportamentali, transazionali, finanziari e operativi. Acquisisci i dati in tempo reale o tramite caricamenti batch per mantenere i profili costantemente aggiornati. &#x200B;
+**Acquisizione dei dati** - Connettiti a varie origini dati per acquisire dati comportamentali, transazionali, finanziari e operativi. Acquisisci i dati in tempo reale o tramite caricamenti batch per mantenere i profili costantemente aggiornati.
 
 **Grafico identità** - Combina dati provenienti da origini diverse utilizzando le identità del cliente, ad esempio gli ID fedeltà o gli ID sistema CRM. &#x200B;Crea una visione completa del cliente mappando le relazioni tra identità diverse all’interno dei set di dati di un brand. &#x200B;
 
 **Coinvolgimento del cliente**: utilizza il profilo cliente in tempo reale per fornire esperienze contestuali e personalizzate, ad esempio offerte e messaggi mirati. &#x200B;Coinvolgi i clienti su vari canali, tra cui campagne di marketing, supporto clienti e aggiornamenti transazionali. &#x200B;
 
 **Condivisione dati** - Condividi i profili cliente con i principali provider di archiviazione cloud come Amazon Web Services, Microsoft Azure e Google Cloud. Utilizzo di profili condivisi per la generazione di rapporti, l&#39;archiviazione dei dati o analisi più approfondite con gli strumenti di business intelligence.
+
+>[!MORELIKETHIS]
+>
+>* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
+>* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
+>* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Dashboard dei profili
 
@@ -43,12 +49,6 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 Puoi unire frammenti di dati provenienti da più sorgenti e combinarli per ottenere una visualizzazione completa di ciascuno dei tuoi clienti. Quando si riuniscono questi dati, i criteri di unione sono le regole utilizzate per determinare come i dati avranno priorità e quali saranno combinati per creare la vista unificata. Ulteriori informazioni sui **criteri di unione** in questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it){target="_blank"}.
 
 ![](assets/profiles-home.png)
-
->[!MORELIKETHIS]
->
->* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
->* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Video introduttivo sul Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}
 
 ## Video introduttivo {#video}
 
