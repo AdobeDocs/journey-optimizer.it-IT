@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,13 @@ Per ulteriori informazioni su come lavorare con i tipi di pubblico nel Portale p
 
 I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
-* **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
+* **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. I tipi di pubblico vengono generati dalle definizioni dei segmenti e aggiornati in momenti diversi a seconda del tipo di valutazione.
+
+   * Segmentazione in streaming: i tipi di pubblico vengono aggiornati in tempo reale man mano che nuovi dati fluiscono in, garantendo una rilevanza continua in base all’attività dell’utente.
+   * Segmentazione in batch: i tipi di pubblico vengono aggiornati ogni 24 ore, acquisendo un’istantanea dei profili a un intervallo fisso.
+   * Segmentazione di Edge: i tipi di pubblico vengono valutati istantaneamente al limite, consentendo una personalizzazione in tempo reale.
+
+[Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
 
 * **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. [Scopri come creare tipi di pubblico per il caricamento personalizzati](custom-upload.md)
 
