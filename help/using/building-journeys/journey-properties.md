@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
+source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2259'
 ht-degree: 18%
 
 ---
@@ -279,14 +279,14 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
 1. Apri il percorso.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Mostra criteri di uscita]** nella sezione superiore destra dell&#39;area di lavoro del percorso.
-   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. Fai clic sul pulsante **[!UICONTROL Aggiungi criteri di uscita]**.
-   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostra criteri di uscita]** nella sezione superiore destra dell&#39;area di lavoro del percorso.
+
+1. Selezionare **[!UICONTROL Aggiungi criteri di uscita]**.
+
 1. Immetti un **Etichetta** e seleziona se i criteri di uscita sono basati su un **Evento** o un **Pubblico**.
 
-* Per i criteri di uscita basati su un evento, come ad esempio il download di un’app o l’aggiunta di un prodotto a un carrello, scegli solo un evento unitario.
-* Per i criteri di uscita basati su un pubblico, ad esempio un pubblico che controlla se un cliente ha acquistato nelle ultime 24 ore, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
+   * Per i criteri di uscita basati su un evento, come ad esempio il download di un’app o l’aggiunta di un prodotto a un carrello, scegli solo un evento unitario.
+   * Per i criteri di uscita basati su un pubblico, ad esempio un pubblico che controlla se un cliente ha acquistato nelle ultime 24 ore, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
 
 È possibile aggiungere più criteri di uscita.
 
