@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
+source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 24%
+source-wordcount: '746'
+ht-degree: 27%
 
 ---
 
@@ -22,20 +22,6 @@ ht-degree: 24%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-## Aggiornamenti di marzo 2025 {#25-03-rn}
-
-**Miglioramenti dell&#39;editor di Personalization**
-
-L’editor di personalizzazione di Journey Optimizer è stato aggiornato con nuove funzionalità:
-* **Progettazione dell&#39;editor di codice aggiornata** - Un&#39;interfaccia più pulita e moderna per migliorare l&#39;usabilità e lo stato attivo.
-* **Cerca e sostituisci** - È stata aggiunta la funzionalità per trovare e sostituire rapidamente i contenuti all&#39;interno dell&#39;editor.
-* **Supporto Annulla e Ripristina** - Consente di ripristinare o riapplicare facilmente le modifiche.
-* **Dimensione carattere personalizzabile** - Consente di regolare la dimensione del carattere dell&#39;editor per migliorarne la leggibilità.
-* **Convalida JSON in linea** - Fornisce la convalida lato client in tempo reale per il contenuto JSON per accelerare il rilevamento degli errori.
-* **Completamento automatico per attributi di profilo e di contesto** - Offre suggerimenti avanzati per semplificare la creazione di contenuti.
-* **Evidenziazione della sintassi migliorata** - Migliora la leggibilità rendendo la struttura del codice più visivamente distinta.
-
-Per ulteriori informazioni, consulta la [documentazione dettagliata](../personalization/personalization-build-expressions.md).
 
 ## Note sulla versione di febbraio 2025 {#25-02-rn}
 
