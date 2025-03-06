@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 9fa5330d766aa6fb1998e668a08d769d3fd1b2cc
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -16,8 +16,6 @@ ht-degree: 27%
 # Introduzione alle funzioni helper{#functions}
 
 Utilizza il linguaggio di modelli [!DNL Journey Optimizer] per eseguire operazioni sui dati, ad esempio calcoli, formattazione o conversioni di dati, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
-
-
 
 ➡️ [Scopri come utilizzare le funzioni di assistenza in questo video](#video)
 

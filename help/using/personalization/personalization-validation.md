@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, convalida, errori, personalizzazione
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -24,13 +24,11 @@ Nella schermata dell&#39;**editor di personalizzazione**, utilizza il pulsante *
 
 >[!NOTE]
 > La convalida viene eseguita automaticamente quando si fa clic sul pulsante **Aggiungi** per chiudere la finestra dell&#39;editor.
->
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Se la sintassi di personalizzazione non è valida, non puoi chiudere la finestra dell’editor di personalizzazione.
->
 
 ## Errori comuni {#common-errors}
 
