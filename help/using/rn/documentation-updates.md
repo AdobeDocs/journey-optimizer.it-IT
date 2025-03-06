@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Febbraio 2025 {#feb-2025}
 
+* I guardrail dell’attività &quot;Read audience&quot; sono stati aggiornati per specificare che solo un’attività può essere utilizzata in un percorso e che può essere indirizzata a un solo pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
 * Sono state aggiornate le protezioni di percorso quando si utilizzano le attività di Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
 * Sono stati descritti i passaggi necessari per creare i primi percorsi e sono stati aggiunti i collegamenti alla sezione documentazione. [Ulteriori informazioni](../building-journeys/journey-gs.md)
 * È ora disponibile una nuova pagina che descrive nel dettaglio la dashboard del percorso e l’interfaccia utente dei filtri. [Ulteriori informazioni](../building-journeys/journey-ui.md)
