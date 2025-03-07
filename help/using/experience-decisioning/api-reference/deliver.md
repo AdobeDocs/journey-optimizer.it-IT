@@ -5,13 +5,13 @@ feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
+exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
+source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
 
 ---
-
 
 # Distribuisci le offerte tramite il canale di esperienza basato su codice {#deliver}
 
@@ -26,3 +26,4 @@ L’esperienza basata su codice supporta qualsiasi tipo di implementazione del c
 Informazioni dettagliate sui diversi metodi di implementazione sono disponibili nella guida del canale basato su codice. In questa guida troverai dettagli su ciascun metodo di implementazione e esempi di implementazioni per diversi casi di utilizzo di personalizzazione e sperimentazione.
 
 ➡️ [Ulteriori informazioni sui metodi di implementazione basati su codice](../../code-based/code-based-implementation-samples.md)
+
