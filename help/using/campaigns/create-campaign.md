@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 17%
+source-wordcount: '1277'
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ Una volta creata la campagna, devi definirne le proprietà. Segui i passaggi seg
 
 1. (facoltativo) Utilizza il campo **Tag** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
 
-1. (facoltativo) Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere una limitazione di accesso, passa al pulsante **[!UICONTROL Gestisci accesso]** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
+1. (facoltativo) Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere un limite di accesso, seleziona il pulsante **[!UICONTROL Gestisci accesso]** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
 ## Definire il pubblico della campagna {#audience}
 
@@ -166,6 +166,10 @@ Se non desideri eseguire la campagna subito dopo l&#39;attivazione, puoi specifi
 ![](assets/create-campaign-schedule.png)
 
 Per le campagne di notifica e-mail, SMS e push, puoi definire una frequenza con cui inviare il messaggio della campagna. A questo scopo, utilizza le opzioni **[!UICONTROL Action triggers]** nella schermata di creazione della campagna per specificare se la campagna deve essere eseguita ogni giorno, ogni settimana o ogni mese.
+
+>[!NOTE]
+>
+>Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la data/ora di inizio sia allineata alla prima consegna desiderata. Per le campagne ricorrenti, se l’ora pianificata iniziale è già passata, le campagne passeranno alla successiva fascia oraria disponibile in base alle relative regole di ricorrenza.
 
 ## Altre impostazioni {#settings}
 
