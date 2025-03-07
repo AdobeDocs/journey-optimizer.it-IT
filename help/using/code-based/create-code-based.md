@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
+source-git-commit: 5d51554d9d18f517e1ca3a3d02592a45f341110c
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 9%
+source-wordcount: '624'
+ht-degree: 10%
 
 ---
 
@@ -61,11 +61,7 @@ Per iniziare a creare la tua **esperienza basata su codice** tramite una campagn
 
 1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
-1. Seleziona il tipo di campagna da eseguire
-
-   * **[!UICONTROL Pianificato - Marketing]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **messaggi di marketing**. Vengono configurati ed eseguiti dall’interfaccia utente di.
-
-   * **[!UICONTROL Attivato da API - Marketing/Transazionale]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **messaggi di marketing** o **messaggi transazionali**, ovvero messaggi inviati in seguito a un&#39;azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](../campaigns/api-triggered-campaigns.md)
+1. Seleziona il tipo di campagna **Pianificato - Marketing**.
 
 1. Completa i passaggi per creare una campagna, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule). Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
