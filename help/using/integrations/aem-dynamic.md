@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
+source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 1%
 
 ---
 
@@ -95,6 +95,72 @@ Ad esempio, utilizzando la funzionalità di sperimentazione, puoi aggiornare la 
 Il contenuto ora include la sovrimpressione del testo aggiornata.
 
 ![](assets/dynamic-media-layout-3.png)
+
+## Aggiungere e gestire il modello Dynamic Media
+
+Aggiungi facilmente il modello Dynamic Media in Journey Optimizer e aggiorna i contenuti multimediali quando necessario. Ora puoi incorporare campi di personalizzazione nei tuoi contenuti multimediali, consentendoti di creare contenuti più personalizzati e coinvolgenti all’interno di Journey Optimizer.
+
+Ulteriori informazioni su [Modello Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+
+### Con componente immagine
+
+Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il componente Immagine:
+
+1. Apri la campagna o il percorso e accedi al contenuto.
+
+1. Trascina e rilascia un **componente immagine** nel layout.
+
+   Per ulteriori informazioni sul componente Immagine, consulta [questa pagina](../email/content-components.md).
+
+   ![](assets/dynamic-media-template-1.png)
+
+1. Sfoglia le risorse AEM e seleziona il modello Dynamic Media da aggiungere al contenuto.
+
+   ![](assets/dynamic-media-template-2.png)
+
+1. Nelle **Impostazioni immagine**, accedi ai parametri del modello di elemento multimediale dinamico.
+
+   I campi disponibili dipendono dai parametri aggiunti durante la [creazione del modello](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager.
+
+   ![](assets/dynamic-media-template-3.png)
+
+1. Compila i diversi campi e utilizza l’editor di personalizzazione per aggiungere contenuti personalizzati. Per creare un’esperienza più personalizzata, puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo, la città o altri dettagli rilevanti.
+
+   Ulteriori informazioni sulla personalizzazione in [questa pagina](../personalization/personalize.md).
+
+   ![](assets/do-not-localize/dynamic_media_template.gif)
+
+1. Il contenuto condizionale può essere applicato al componente Dynamic Media per generare diverse varianti di contenuto. [Ulteriori informazioni](../personalization/dynamic-content.md)
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio al pubblico.
+
+### Con componente HTML
+
+Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il componente HTML:
+
+1. Apri la campagna o il percorso e accedi al contenuto.
+
+1. Trascina e rilascia un **componente HTML** nel layout.
+
+   ![](assets/dynamic-media-template-4.png)
+
+1. Selezionare **[!UICONTROL Mostra il codice sorgente]**.
+
+   ![](assets/dynamic-media-template-5.png)
+
+1. Dal menu **[!UICONTROL Modifica HTML]**, accedi a **[!UICONTROL Assets]** e quindi a **[!UICONTROL Apri selettore risorse]**.
+
+   Puoi anche semplicemente copiare e incollare l’URL delle risorse.
+
+1. Regola i parametri di testo dell’immagine in base alle esigenze per soddisfare i requisiti della risorsa.
+
+   ![](assets/do-not-localize/dynamic_media_template_html.gif)
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio al pubblico.
 
 <!--
 ## Personalization with Text Overlay
