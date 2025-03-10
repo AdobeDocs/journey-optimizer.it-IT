@@ -9,9 +9,9 @@ level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ L’area di lavoro **Schemi** nell’interfaccia utente [!DNL Adobe Journey Opti
 
 Scopri come utilizzare l’interfaccia utente Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it){target="_blank"}
 
-La documentazione dettagliata per la creazione di uno schema tramite l&#39;Editor di schema è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
+La documentazione dettagliata per creare uno schema utilizzando l’editor di schemi è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
 
-Consulta il [dizionario schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"} per visualizzare l&#39;elenco completo dei campi e degli attributi per ogni schema.
+Consulta il [dizionario degli schemi Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"} per visualizzare l’elenco completo dei campi e degli attributi per ogni schema.
 
 
 ## Video introduttivo{#video-schema}

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai set di dati
-description: Scopri come utilizzare i set di dati di Adobe Experience Platform in Adobe Journey Optimizer
+description: Scopri come utilizzare i set di dati Adobe Experience Platform in Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

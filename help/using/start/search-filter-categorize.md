@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 ## Ricerca {#unified-search}
 
-Dall’interfaccia di Adobe Journey Optimizer, utilizza la funzionalità di ricerca unificata di Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
+Dall’interfaccia di Adobe Journey Optimizer, utilizza la funzione di ricerca unificata di Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
 
 Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
 
@@ -33,7 +33,7 @@ Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto aziendal
 
 Nella maggior parte degli elenchi, utilizza la barra di ricerca per trovare elementi specifici e definire criteri di filtro.
 
-Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi: puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati oppure quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
+Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu del filtro consente di filtrare gli elementi visualizzati in base a diversi criteri: puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati da te o quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
 
 È inoltre possibile utilizzare i tag unificati per filtrare un elenco in base ai tag assegnati a un oggetto. Per il momento, i tag sono disponibili per percorsi e campagne. [Scopri come utilizzare i tag](#tags)
 

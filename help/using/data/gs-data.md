@@ -10,9 +10,9 @@ level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenu
 
 Puoi utilizzare la flessibilità dei dati offerta da [!DNL Journey Optimizer] per soddisfare i tuoi requisiti specifici relativi alla conservazione, all’archiviazione o all’eliminazione dei dati:
 
-* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati di origine in qualsiasi momento tramite l’API di accesso ai dati senza penali né ritardi. L’[API di accesso ai dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-access/api){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati di origine in qualsiasi momento tramite l’API di accesso ai dati senza penali né ritardi. L’[API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   I contenuti utilizzato nei percorsi o nelle campagne non possono essere estratti tramite i metodi API o di destinazione menzionati in precedenza.
 
@@ -77,7 +77,7 @@ Puoi utilizzare la flessibilità dei dati offerta da [!DNL Journey Optimizer] pe
 
 * **Rimozione e meccanismi di archiviazione**: la rimozione dei dati e l’archiviazione possono essere definite e automatizzate liberamente in [!DNL Adobe Journey Optimizer] in modo da automatizzare i criteri di conservazione dei dati. È possibile definire diverse strategie di durata per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.
 
-  L’area di lavoro del ciclo di vita dei dati consente di creare e monitorare varie attività del ciclo di vita dei dati, inclusa l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
+  L’area di lavoro Ciclo di vita dei dati consente di creare e monitorare varie attività relative al ciclo di vita dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

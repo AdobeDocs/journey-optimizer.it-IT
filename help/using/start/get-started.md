@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Le funzionalità principali includono:
 
 * **Orchestrazione moderna omni-channel ed esecuzione**: un’unica area di lavoro su cui armonizzare e ottimizzare il percorso del cliente per coinvolgimento e attività di marketing 1:1, per consentire ai brand di offrire più valore nel ciclo di vita del cliente. I percorsi del cliente progettati in [!DNL Adobe Journey Optimizer] possono essere dinamici e basati su eventi per aiutare i brand a reagire ai segnali in tempo reale e a collegare tali interazioni con campagne pianificate, in modo da poter prendere le decisioni giuste in merito a quali comunicazioni inviare ai clienti, quando inviarle e attraverso quali canali.
 
-* **Decisioning intelligente e personalizzazione**: i brand possono applicare decisioni centralizzate e incorporare l’intelligenza artificiale e il machine learning per acquisire approfondimenti predittivi in tutta l’esperienza del cliente, semplificando l’automazione delle decisioni e ottimizzando l’esperienza su larga scala. Decisioning potenzia le offerte centralizzate su tutti i canali e su larga scala attraverso [!DNL Adobe Journey Optimizer].
+* **Decisioning intelligente e personalizzazione**: i brand possono applicare decisioni centralizzate e incorporare l’intelligenza artificiale e il machine learning per acquisire approfondimenti predittivi in tutta l’esperienza del cliente, semplificando l’automazione delle decisioni e ottimizzando l’esperienza su larga scala. La funzione Decisioni potenzia le offerte centralizzate su tutti i canali e su larga scala attraverso [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]
 >
-> I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Customer Success Manager Adobe o il tuo rappresentante Adobe.
+> I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 
 
 ## Architettura {#architecture}

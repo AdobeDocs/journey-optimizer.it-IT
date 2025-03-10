@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -391,7 +391,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Con i criteri di approvazione, ora puoi impostare un processo di approvazione in Journey Optimizer che consenta ai team di marketing di garantire che le campagne e i percorsi vengano rivisti e autorizzati dagli stakeholder prima della pubblicazione.</p>
-<p>I criteri di approvazione sono attualmente disponibili solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>I criteri di approvazione sono attualmente disponibili solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/gs-approval.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -441,7 +441,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, porta il contenuto al livello successivo con l’Assistente AI in Journey Optimizer. Ora puoi utilizzare l’Assistente IA per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
+<p>Dopo aver creato e personalizzato il messaggio, perfeziona ulteriormente il contenuto con l’Assistente IA in Journey Optimizer. Ora puoi utilizzare l’Assistente IA per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima della funzione live</a>, progettata per permetterti di esplorarla in prima persona e comprenderne appieno le funzionalità.</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/gs-generative.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -772,7 +772,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora è possibile creare contenuti multilingue all’interno di un’unica campagna o di un unico percorso in modo semplice. Con questa funzione, è possibile cambiare lingua durante la modifica della campagna o del percorso, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.</p>
-<p>Il contenuto multilingue è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Il contenuto multilingue è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -789,7 +789,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Già disponibile nelle campagne, Adobe Journey Optimizer ora supporta gli esperimenti nei percorsi. Gli esperimenti sono test randomizzati: nel contesto dei test online significa che esponi alcuni utenti selezionati in modo casuale a una determinata variante di un messaggio e un altro gruppo di utenti selezionato in modo casuale a un’altra variante o trattamento. Dopo l’esposizione, puoi quindi misurare le metriche del risultato che ti interessano, ad esempio apertura di e-mail, iscrizioni o acquisti.</p>
-<p>La sperimentazione nei percorsi è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>La sperimentazione nei percorsi è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -898,7 +898,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.</p>
 <p>Gli elementi decisionali sono integrati direttamente in un’ampia gamma di configurazioni in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer. I criteri decisionali relativi alla funzione Decisioni per le esperienze sono disponibili per l’utilizzo solo in campagne di esperienza basate su codice.</p>
-<p>La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/gs-experience-decisioning.md">documentazione dettagliata</a>.</p>
 </td>
@@ -916,7 +916,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione di configurazioni per il canale e-mail, per maggiore flessibilità e controllo sulle impostazioni e-mail.</p>
-<p>La personalizzazione della configurazione e-mail è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>La personalizzazione della configurazione e-mail è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/surface-personalization.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>

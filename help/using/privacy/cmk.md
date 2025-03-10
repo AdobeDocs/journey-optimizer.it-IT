@@ -8,9 +8,9 @@ role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Con Adobe Journey Optimizer, i clienti di [Healthcare Shield](https://www.adobe.
 
 Il processo di configurazione di Journey Optimizer prevede due parti che sfruttano la tecnologia di Adobe Experience Platform e Customer Journey Analytics (CJA):
 
-* Segui i passaggi descritti nella documentazione [Chiavi gestite dal cliente in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html).
+* Segui i passaggi descritti nella documentazione [Chiavi gestite dal cliente in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=it).
 * Segui i passaggi descritti nella documentazione [Chiavi gestite dal cliente in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=it).
 
   È necessario completare questa procedura di configurazione anche se Customer Journey Analytics (CJA) non è stato acquistato, in quanto alcuni componenti di CJA vengono utilizzati in background.

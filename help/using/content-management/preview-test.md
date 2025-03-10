@@ -6,13 +6,13 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Anteprima e verifica dei contenuti {#preview-test}
+# Anteprima e test del contenuto {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
@@ -56,7 +56,7 @@ Puoi visualizzare in anteprima e testare il contenuto utilizzando:
 
   ➡️ [Verificare il rendering delle e-mail](rendering.md)
 
-  ➡️ [Anteprima e verifica dell&#39;e-mail (video)](#video-preview)
+  ➡️ [Anteprima e bozza dell’e-mail (video)](#video-preview)
 
 * **Dati di input di esempio**
 
