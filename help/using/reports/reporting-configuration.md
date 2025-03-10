@@ -16,7 +16,7 @@ ht-degree: 29%
 
 ---
 
-# Prerequisiti per reporting e sperimentazione {#reporting-configuration}
+# Prerequisiti per il reporting e la sperimentazione {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
