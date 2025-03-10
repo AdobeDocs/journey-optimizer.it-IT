@@ -5,56 +5,40 @@ title: Introduzione alle campagne con più passaggi
 description: Scopri come iniziare con campagne con più passaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 32%
+source-wordcount: '434'
+ht-degree: 26%
 
 ---
 
 
 # Introduzione alle campagne con più passaggi {#ms-camp}
 
+Le campagne in più passaggi migliorano Adobe Journey Optimizer introducendo solide funzionalità per campagne in batch avviate dal brand, consentendoti di pianificare e orchestrare campagne cross-channel con strategie di segmentazione avanzate.
 
 >[!BEGINSHADEBOX]
 
-**In questa sezione**
+**Sommario**
 
-* Creare ed eseguire la prima campagna in più passaggi
-   * [Principi fondamentali](gs-campaign-creation.md)
-   * [Guardrail e limitazioni](guardrails.md)
-   * [Crea la campagna](create-ms-campaign.md)
-   * [Orchestrare le attività](orchestrate-activities.md)
-   * [Configurare le impostazioni della campagna](ms-campaign-settings.md)
-   * [Avviare e monitorare le campagne](start-monitor-campaigns.md)
-   * [Variabili di evento nelle campagne con più passaggi](event-variables.md)
+* Introduzione alle campagne con più passaggi
+* [Principi fondamentali](gs-campaign-creation.md)
+* [Guardrail e limitazioni](guardrails.md)
+* [Crea la campagna](create-ms-campaign.md)
+* [Orchestrare le attività](orchestrate-activities.md)
+* [Configurare le impostazioni della campagna](ms-campaign-settings.md)
+* [Avviare e monitorare le campagne](start-monitor-campaigns.md)
+* [Variabili di evento nelle campagne con più passaggi](event-variables.md)
 * Utilizzare le attività delle campagne in più passaggi
-   * [Informazioni sulle attività di campagna in più passaggi](activities/about-activities.md)
-   * [AND-join](activities/and-join.md)
-   * [Crea pubblico](activities/build-audience.md)
-   * [Cambiare dimensione](activities/change-dimension.md)
-   * [Combina](activities/combine.md)
-   * [Deduplica](activities/deduplication.md)
-   * [Azioni del canale](activities/channels.md)
-   * [Arricchimento](activities/enrichment.md)
-   * [Fork](activities/fork.md)
-   * [Caricare file](activities/load-file.md)
-   * [Riconciliazione](activities/reconciliation.md)
-   * [Salva pubblico](activities/save-audience.md)
-   * [Modulo di pianificazione](activities/scheduler.md)
-   * [Dividi](activities/split.md)
-   * [Test](activities/test.md)
-   * [Aggiornare i dati](activities/update-data.md)
-   * [Attendi](activities/wait.md)
+   * [Introduzione alle attività](activities/about-activities.md)
+   * Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
 
 ## Cos’è una campagna in più passaggi?
 
-Il marketing cross-channel è essenziale per qualsiasi azienda che desideri raggiungere i propri clienti in modo efficace. Adobe Journey Optimizer offre un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità.
-
-Con le campagne in più passaggi, puoi orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
+Il marketing cross-channel è essenziale per qualsiasi azienda che desideri raggiungere i propri clienti in modo efficace. Adobe Journey Optimizer offre un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità. Con le campagne in più passaggi, puoi orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
 Uno dei vantaggi più significativi delle campagne in più passaggi è che semplifica la distribuzione di contenuti personalizzati ai clienti su tutti i canali. Indipendentemente dal fatto che i tuoi clienti preferiscano ricevere messaggi via e-mail o dispositivi mobili, Adobe Journey Optimizer ti consente di offrire un’esperienza coerente e contestuale su qualsiasi canale, trasformando il percorso di ogni cliente in un’esperienza unica.
 
