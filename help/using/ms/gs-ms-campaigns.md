@@ -5,10 +5,10 @@ title: Introduzione alle campagne con più passaggi
 description: Scopri come iniziare con campagne con più passaggi
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 26%
+source-wordcount: '419'
+ht-degree: 25%
 
 ---
 
@@ -21,17 +21,12 @@ Le campagne in più passaggi migliorano Adobe Journey Optimizer introducendo sol
 
 **Sommario**
 
-* Introduzione alle campagne con più passaggi
-* [Principi fondamentali](gs-campaign-creation.md)
-* [Guardrail e limitazioni](guardrails.md)
-* [Crea la campagna](create-ms-campaign.md)
-* [Orchestrare le attività](orchestrate-activities.md)
-* [Configurare le impostazioni della campagna](ms-campaign-settings.md)
+* [Principi chiave](gs-campaign-creation.md) - [Guardrail e limitazioni](guardrails.md)
+* [Creare una campagna](create-ms-campaign.md) - [Configurare le impostazioni della campagna](ms-campaign-settings.md)
 * [Avviare e monitorare le campagne](start-monitor-campaigns.md)
-* [Variabili di evento nelle campagne con più passaggi](event-variables.md)
-* Utilizzare le attività delle campagne in più passaggi
-   * [Introduzione alle attività](activities/about-activities.md)
-   * Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
+* [Variabili evento](event-variables.md)
+* [Introduzione alle attività](activities/about-activities.md) - [Organizzazione delle attività](orchestrate-activities.md)
+* Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
