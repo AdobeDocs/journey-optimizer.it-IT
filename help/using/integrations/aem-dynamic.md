@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Il selettore delle risorse ora supporta Dynamic Media, consentendo di selezionar
 
 Per ulteriori informazioni su Dynamic Media in Adobe Experience Manager as a Cloud Service, consulta la [documentazione di Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
 
-## Aggiungere e gestire Dynamic Media
+## Aggiungere e gestire Dynamic Media {#dynamic-media}
 
 Migliora e ottimizza i contenuti per qualsiasi schermata o browser inserendo elementi multimediali dinamici da Adobe Experience Manager as a Cloud Service direttamente nel contenuto Journey Optimizer.  Puoi quindi ridimensionare, ritagliare, migliorare e apportare altre modifiche in base alle esigenze.
 
@@ -55,7 +55,7 @@ Migliora e ottimizza i contenuti per qualsiasi schermata o browser inserendo ele
 
 Il contenuto ora include gli elementi multimediali dinamici. Tutti gli aggiornamenti apportati in Experience Manager verranno visualizzati automaticamente in Journey Optimizer.
 
-## Personalizzare la sovrapposizione testo
+## Personalizzare la sovrapposizione testo {#text-overlay}
 
 Personalizza facilmente qualsiasi elemento multimediale dinamico sostituendo la sovrapposizione di testo esistente con un nuovo testo a tua scelta, per consentire aggiornamenti e personalizzazione senza interruzioni.
 
@@ -96,13 +96,13 @@ Il contenuto ora include la sovrimpressione del testo aggiornata.
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Aggiungere e gestire il modello Dynamic Media
+## Aggiungere e gestire il modello Dynamic Media {#dynamic-media-template}
 
 Aggiungi facilmente il modello Dynamic Media in Journey Optimizer e aggiorna i contenuti multimediali quando necessario. Ora puoi incorporare campi di personalizzazione nei tuoi contenuti multimediali, consentendoti di creare contenuti più personalizzati e coinvolgenti all’interno di Journey Optimizer.
 
 Ulteriori informazioni su [Modello Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
-### Con componente immagine
+### Con componente immagine {#image-component}
 
 Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il componente Immagine:
 
@@ -136,7 +136,7 @@ Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il comp
 
 Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio al pubblico.
 
-### Con componente HTML
+### Con componente HTML {#html-component}
 
 Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il componente HTML:
 
