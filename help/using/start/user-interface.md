@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di
 
 >[!NOTE]
 >
->* I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Customer Success Manager Adobe o il tuo rappresentante Adobe.
+>* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 >
 >* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 >
@@ -122,7 +122,7 @@ Controlla la gestione della privacy e le richieste da questa sezione.
 
 * **[!UICONTROL Audit]**: passa a questa sezione per verificare i registri delle attività. [Ulteriori informazioni](../privacy/audit-logs.md)
 
-* **[!UICONTROL Ciclo di vita dei dati]** - Questa sezione consente di configurare e pianificare le operazioni del ciclo di vita dei dati, garantendo la corretta manutenzione dei record. [Ulteriori informazioni](../privacy/data-hygiene.md)
+* **[!UICONTROL Ciclo di vita dei dati]**: questa sezione ti consente di configurare e pianificare le operazioni relative al ciclo di vita dei dati, per una corretta manutenzione dei record. [Ulteriori informazioni](../privacy/data-hygiene.md)
 
 ### [!UICONTROL AMMINISTRAZIONE] {#left-nav-admin}
 

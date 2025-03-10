@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 89%
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
    + Gestire i percorsi{#manage-journey}
-      + [Sfoglia e filtra i percorsi](using/building-journeys/journey-ui.md)
+      + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
       + [Gestione dell’ingresso del profilo](using/building-journeys/entry-management.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
       + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
@@ -168,8 +168,8 @@ ht-degree: 89%
       + Casi d’uso tecnico {#technical-use-cases}
          + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
          + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitare la velocità effettiva con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
-         + [Utilizzare azioni personalizzate per scrivere eventi di percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
+         + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagne con più passaggi {#ms-campaigns}
    + [Introduzione alle campagne con più passaggi](using/ms/gs-ms-campaigns.md)
    + Crea la tua prima campagna in più passaggi {#create-ms-campaign}
@@ -210,8 +210,8 @@ ht-degree: 89%
    + [Assegnare punteggi di priorità](using/conflict-prioritization/priority-scores.md)
    + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
 + Testare e approvare {#test}
-   + Anteprima e verifica del contenuto {#preview-test}
-      + [Introduzione a anteprima e test](using/content-management/preview-test.md)
+   + Anteprima e test del contenuto {#preview-test}
+      + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
       + [Selezionare i profili di test](using/content-management/test-profiles.md)
       + [Anteprima del contenuto](using/content-management/preview.md)
       + [Inviare bozze e-mail](using/content-management/proofs.md)
@@ -220,7 +220,7 @@ ht-degree: 89%
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
    + Approvare percorsi e campagne {#approve}
       + [Introduzione alle approvazioni](using/test-approve/gs-approval.md)
-      + [Creare e gestire i criteri di approvazione](using/test-approve/approval-policies.md)
+      + [Creare e gestire criteri di approvazione](using/test-approve/approval-policies.md)
       + [Richiedere un’approvazione](using/test-approve/request-approval.md)
       + [Approvare una richiesta](using/test-approve/review-approve-request.md)
 + Canali di comunicazione {#channels}
@@ -245,7 +245,7 @@ ht-degree: 89%
          + Modificare lo stile {#edit-style}
             + [Introduzione allo stile delle e-mail](using/email/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](using/email/backgrounds.md)
-            + [Regola allineamento verticale e spaziatura](using/email/alignment-and-padding.md)
+            + [Regolare l’allineamento verticale e la spaziatura](using/email/alignment-and-padding.md)
             + [Aggiungere attributi di stile in linea](using/email/inline-styling.md)
       + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
       + Configurare il canale e-mail {#configure-email}
@@ -260,13 +260,13 @@ ht-degree: 89%
       + [Prerequisiti per il canale in-app](using/in-app/inapp-configuration.md)
       + [Creare un messaggio in-app per dispositivi mobili](using/in-app/create-in-app.md)
       + [Creare un messaggio in-app per il web](using/in-app/create-in-app-web.md)
-      + [Creare contenuto in-app](using/in-app/design-in-app.md)
-      + [Verifica e invia la notifica in-app](using/in-app/send-in-app.md)
+      + [Creare contenuti in-app](using/in-app/design-in-app.md)
+      + [Verificare e inviare una notifica in-app](using/in-app/send-in-app.md)
    + Canale di notifica push{#push}
       + [Introduzione alle notifiche push](using/push/get-started-push.md)
       + [Creare una notifica push](using/push/create-push.md)
       + [Progettare una notifica push](using/push/design-push.md)
-      + [Verifica e invia la notifica push](using/push/send-push.md)
+      + [Verificare e inviare una notifica push](using/push/send-push.md)
       + Configurare le notifiche push{#push-config}
          + [Flusso di notifica push](using/push/push-gs.md)
          + [Configurare il canale di notifica push](using/push/push-configuration.md)
@@ -274,7 +274,7 @@ ht-degree: 89%
    + Canale SMS/MMS{#sms}
       + [Introduzione ai messaggi di testo](using/sms/get-started-sms.md)
       + [Creare un messaggio di testo (SMS/MMS)](using/sms/create-sms.md)
-      + [Verifica e invia i messaggi di testo](using/sms/send-sms.md)
+      + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
       + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
       + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
       + Configurare canale SMS/MMS{#configure-sms}
@@ -287,7 +287,7 @@ ht-degree: 89%
    + Direct mail {#direct-mail}
       + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
-      + [Verifica e invia un messaggio di direct mailing](using/direct-mail/test-send-direct-mail.md)
+      + [Testare e inviare un messaggio di direct mail](using/direct-mail/test-send-direct-mail.md)
       + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
    + Canale Web {#web}
       + [Introduzione al canale Web](using/web/get-started-web.md)
@@ -344,7 +344,7 @@ ht-degree: 89%
       + [Esperimento sui contenuti con l’IA](using/content-management/generative-experimentation.md)
       + [Pagina di destinazione con IA](using/content-management/generative-lp.md)
       + [Casi d’uso dell’Assistente IA](using/content-management/generative-uc.md)
-      + [Creazione e gestione dei marchi (Beta)](using/content-management/brands.md)
+      + [Creare e gestire i brand (Beta)](using/content-management/brands.md)
    + Utilizzare il contenuto multilingue{#content-multilingual}
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
       + [Creare una lingua](using/content-management/multilingual-locale.md)
@@ -423,7 +423,7 @@ ht-degree: 89%
    + [Utilizzare i modelli di Experience Manager](using/integrations/aem-templates.md)
    + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
    + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
-+ Traccia e monitora {#reporting}
++ Tracciamento e monitoraggio {#reporting}
    + Rapporti live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
       + [Elenco dei componenti](using/reports/live-report-components.md)
@@ -435,7 +435,7 @@ ht-degree: 89%
       + [Introduzione al rapporto tutte le ore](using/reports/report-gs-cja.md)
       + [Configurare manualmente Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gestire i rapporti](using/reports/report-cja-manage.md)
-      + [Prerequisiti per reporting e sperimentazione](using/reports/reporting-configuration.md)
+      + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)
       + Rapporti sulla campagna{#reporting}
          + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
          + [Rapporto sulla campagna basata su codice](using/reports/campaign-global-report-cja-code.md)
@@ -481,7 +481,7 @@ ht-degree: 89%
    + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
    + Decisioning {#experience-decisioning}
       + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
-      + [Guardrail e limitazioni per le decisioni](using/experience-decisioning/decisioning-guardrails.md)
+      + [Guardrail e limitazioni per la funzione Decisioni](using/experience-decisioning/decisioning-guardrails.md)
       + Riferimento API{#api-reference}
          + Crea e gestisci elementi di offerta {#create-manage}
             + Elementi decisionali{#decision-items}
@@ -518,7 +518,7 @@ ht-degree: 89%
    + Gestione delle decisioni {#offer-decisioning}
       + Introduzione alla gestione delle decisioni {#get-started-decision}
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
-         + [Guardrail e limitazioni di gestione delle decisioni](using/offers/decision-management-guardrails.md)
+         + [Guardrail e limitazioni per la gestione delle decisioni](using/offers/decision-management-guardrails.md)
          + [Interfaccia utente](using/offers/get-started/user-interface.md)
          + [Passaggi chiave per creare e gestire le offerte](using/offers/offer-library/key-steps.md)
          + [Sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni](using/offers/custom-upload-decisioning.md)
@@ -536,14 +536,14 @@ ht-degree: 89%
             + [Modello di ottimizzazione automatica](using/offers/ranking/auto-optimization-model.md)
             + [Modello di ottimizzazione personalizzata](using/offers/ranking/personalized-optimization-model.md)
             + [Creare modelli AI](using/offers/ranking/create-ranking-strategies.md)
-      + Crea e gestisci offerte {#managing-offers-in-the-offer-library}
+      + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
          + Configurare le offerte {#configure-offers}
             + [Creare le offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
             + [Aggiungere rappresentazioni](using/offers/offer-library/add-representations.md)
             + [Aggiungere vincoli](using/offers/offer-library/add-constraints.md)
          + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
          + [Creare raccolte](using/offers/offer-library/creating-collections.md)
-      + Crea e gestisci decisioni {#create-manage-activities}
+      + Creare e gestire decisioni {#create-manage-activities}
          + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
          + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
          + [Creare simulazioni](using/offers/offer-activities/simulation.md)
@@ -555,7 +555,7 @@ ht-degree: 89%
       + Sfruttare i dati contestuali {#context-data}
          + [Introduzione ai dati contestuali](using/offers/context-data.md)
          + [Dati contestuali e richieste Edge Decisioning](using/offers/context-data-edge.md)
-         + [Richiesta dati contestuali e decisioni](using/offers/context-data-decisioning.md)
+         + [Richiesta dati contestuali e funzione Decisioni](using/offers/context-data-decisioning.md)
       + Creare rapporti di gestione delle decisioni {#create-reports}
          + [Utilizzare gli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
          + [Accedere ai campi XDM degli eventi](using/offers/reports/xdm-fields.md)
@@ -568,7 +568,7 @@ ht-degree: 89%
          + [Set di dati sui fallback](using/offers/export-catalog/export-fallback.md)
       + Documentazione di riferimento API {#api-reference}
          + [Introduzione](using/offers/api-reference/getting-started.md)
-         + Crea e gestisci le offerte tramite API {#offers-api}
+         + Creare e gestire offerte tramite API {#offers-api}
             + Posizionamenti {#placements}
                + [Elencare posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Ricercare un posizionamento](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -696,7 +696,7 @@ ht-degree: 89%
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
-   + [Configurare regole aziendali](using/configuration/frequency-rules.md)
+   + [Configurare regole di business](using/configuration/frequency-rules.md)
    + [Utilizzare i set di regole](using/configuration/rule-sets.md)
    + Configurare i percorsi {#configure-journeys}
       + [Configurare origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
@@ -720,7 +720,7 @@ ht-degree: 89%
       + Configurazione delle azioni {#action-journeys}
          + [Introduzione alle azioni personalizzate](using/action/action.md)
          + [Configurare un’azione personalizzata](using/action/about-custom-action-configuration.md)
-         + [Risolvere i problemi relativi a un’azione personalizzata](using/action/troubleshoot-custom-action.md)
+         + [Risolvere i problemi di un’azione personalizzata](using/action/troubleshoot-custom-action.md)
          + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
          + [Integrare con Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrare con Adobe Campaign v7/v8](using/action/acc-action.md)
@@ -733,7 +733,7 @@ ht-degree: 89%
       + [Ruoli incorporati](using/administration/ootb-product-profiles.md)
       + [Autorizzazioni incorporate](using/administration/ootb-permissions.md)
       + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
-   + [Gestione di utenti e ruoli](using/administration/permissions.md)
+   + [Gestire utenti e ruoli](using/administration/permissions.md)
    + [Controllo degli accessi basato su attributi](using/administration/attribute-based-access.md)
    + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
    + [Gestione delle sandbox](using/administration/sandboxes.md)
@@ -741,7 +741,7 @@ ht-degree: 89%
    + [Introduzione alla privacy](using/privacy/get-started-privacy.md)
    + [Richieste di accesso a dati personali](using/privacy/requests.md)
    + [Azioni di audit sulle risorse](using/privacy/audit-logs.md)
-   + [Eseguire operazioni del ciclo di vita dei dati](using/privacy/data-hygiene.md)
+   + [Eseguire operazioni relative al ciclo di vita dei dati](using/privacy/data-hygiene.md)
    + Gestire il consenso {#consent}
       + [Gestire la rinuncia](using/privacy/opt-out.md)
       + [Utilizzare i criteri di consenso](using/action/consent.md)

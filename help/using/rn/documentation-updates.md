@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,16 +27,16 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Febbraio 2025 {#feb-2025}
 
 * I guardrail dell’attività &quot;Read audience&quot; sono stati aggiornati per specificare che solo un’attività può essere utilizzata in un percorso e che può essere indirizzata a un solo pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
-* Sono state aggiornate le protezioni di percorso quando si utilizzano le attività di Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
-* Sono stati descritti i passaggi necessari per creare i primi percorsi e sono stati aggiunti i collegamenti alla sezione documentazione. [Ulteriori informazioni](../building-journeys/journey-gs.md)
-* È ora disponibile una nuova pagina che descrive nel dettaglio la dashboard del percorso e l’interfaccia utente dei filtri. [Ulteriori informazioni](../building-journeys/journey-ui.md)
+* Sono stati aggiornati i guardrail per i percorsi relativi all’utilizzo delle attività di Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
+* Sono stati descritti i passaggi per creare i primi percorsi e sono stati aggiunti i collegamenti alla relativa sezione della documentazione. [Ulteriori informazioni](../building-journeys/journey-gs.md)
+* Una nuova pagina descrive nel dettaglio la dashboard del percorso e l’interfaccia utente per il filtraggio. [Ulteriori informazioni](../building-journeys/journey-ui.md)
 * La documentazione relativa all’**[!UICONTROL ottimizzazione dell’ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
 * Sono stati aggiunti nuovi guardrail per gli eventi di percorso. [Ulteriori informazioni](../start/guardrails.md#events-g)
 * La pagina delle azioni del canale incorporate è stata riorganizzata. [Ulteriori informazioni](../building-journeys/journeys-message.md)
-* Sono state aggiunte protezioni e limitazioni nelle sezioni Decisioning e Gestione delle decisioni.
-   * [Guardrail e limitazioni per le decisioni](../experience-decisioning/decisioning-guardrails.md)
+* Sono stati aggiunti guardrail e limitazioni nelle sezioni Funzione Decisioni e Gestione delle decisioni.
+   * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
    * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
-* Nella documentazione relativa alla gestione delle decisioni è stata aggiunta una nuova sezione sui dati contestuali. Fornisce informazioni su come sfruttare i dati contestuali nel motore decisionale, ad esempio per progettare una regola di decisione che richiede che il tempo corrente sia di ≥80 gradi al momento della richiesta di decisione. [Ulteriori informazioni](../offers/context-data.md)
+* Nella documentazione relativa alla gestione delle decisioni è stata aggiunta una nuova sezione sui dati contestuali. Fornisce informazioni su come sfruttare i dati contestuali nel motore decisionale, ad esempio per progettare una regola di decisione che richiede che la temperatura corrente sia di ≥26 °C al momento della richiesta di decisione. [Ulteriori informazioni](../offers/context-data.md)
 
 ## Gennaio 2025 {#jan-2025}
 
@@ -135,7 +135,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
    * E: scelta rapida utilizzata per attivare un evento in un percorso basato su eventi.
    * P: scelta rapida per attivare un evento in un percorso basato sul pubblico per il quale è attivata l’opzione Singolo profilo alla volta.
    * L: scelta rapida designata per visualizzare i registri di test.
-* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sul limite di frequenza giornaliero, disponibile su richiesta oltre al limite settimanale o mensile.
+* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sulla quota limite giornaliera, disponibile su richiesta oltre al limite settimanale o mensile.
 * La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experience Platform. [Ulteriori informazioni](../action/consent.md)
 * È stata aggiunta una nuova sezione per riflettere il fatto che è possibile visualizzare i modelli di contenuto e-mail HTML come miniature con la modalità Vista a griglia (disponibilità limitata). [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
 * È stata aggiunta una nuova sezione alla pagina della Recapitabilità per spiegare cosa sono i cicli di feedback e come sfruttarli. [Ulteriori informazioni](../reports/deliverability.md#feedback-loops)
@@ -152,7 +152,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * L’elenco delle funzioni disponibili nell’editor di espressioni avanzate è stato aggiornato. [Ulteriori informazioni](../building-journeys/expression/functions.md)
 * La pagina sulla funzione di suddivisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
 * Sono state aggiunte informazioni sull’impatto del consenso o del rifiuto delle notifiche push sui messaggi in-app. [Ulteriori informazioni](../in-app/create-in-app.md)
-* La pagina Regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni Durata disponibili nell’interfaccia utente (settimanale o mensile).
+* La pagina delle regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni di durata disponibili nell’interfaccia utente (settimanale o mensile).
 * La sezione Modificare un record PTR è stata aggiornata per chiarire il fatto che i record PTR non possono essere creati manualmente e che è necessario modificarli per assegnare loro nuovi sottodomini. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Gennaio 2024 {#jan-2024}

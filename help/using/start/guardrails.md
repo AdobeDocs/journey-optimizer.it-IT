@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -33,23 +33,23 @@ Prima di iniziare, è inoltre necessario essere a conoscenza dei [Guardrail per 
 
 L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare in modo ottimale nell’ultima versione di Google Chrome. L’utilizzo di versioni precedenti o di altri browser potrebbe comportare problemi durante l’utilizzo di alcune funzioni.
 
-## Guardrail dei set di dati {#datasets-guardrails}
+## Guardrail per set di dati {#datasets-guardrails}
 
-A partire da febbraio 2025, un guardrail time-to-live (TTL) viene introdotto nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni** come segue:
+A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema in **nuove sandbox e nuove organizzazioni** come segue:
 
-* 90 giorni per i dati nell’archivio dei profili,
-* 13 mesi per i dati nel data lake.
+* 90 giorni per i dati nell’archivio dei profili
+* 13 mesi per i dati nel data lake
 
-Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva. [Ulteriori informazioni sui guardrail TTL (Time-To-Live) dei set di dati](../data/datasets-ttl.md)
+Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail TTL (Time-To-Live) dei set di dati](../data/datasets-ttl.md)
 
-## Guardrail canali {#channel-guardrails}
+## Guardrail per canali {#channel-guardrails}
 
-### Guardrail e-mail {#message-guardrails}
+### Guardrail per e-mail {#message-guardrails}
 
 * Con [!DNL Journey Optimizer] non è possibile aggiungere allegati a un messaggio e-mail.
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
-### Guardrail di SMS {#sms-guardrails}
+### Guardrail per SMS {#sms-guardrails}
 
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
@@ -57,13 +57,13 @@ Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase
 
 ### Guardrail per il canale Web {#web-guardrails}
 
-Le campagne web di [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. Questo aumenterà il conteggio totale dei profili coinvolgibili, il che potrebbe avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati.
+Le campagne web di [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo ove fosse superato il numero contrattuale di profili coinvolgibili acquistati.
 
 Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-### Guardrail del canale basati su codice {#code-based-guardrails}
+### Guardrail per canali basati su codice {#code-based-guardrails}
 
-Per utilizzare le azioni di esperienza basate su codice in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, seguire i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+Per utilizzare le azioni di esperienza basate su codice in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 
@@ -87,11 +87,11 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 
 Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
-## Guardrail di gestione delle decisioni e delle decisioni {#decisioning-guardrails}
+## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 
-I guardrail e le limitazioni da tenere presenti quando si lavora con Decisioning o Gestione delle decisioni sono descritti in queste sezioni relative alla gestione delle decisioni e delle decisioni:
+I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione Decisioni o la gestione delle decisioni sono descritti nelle seguenti sezioni:
 
-* [Guardrail e limitazioni per le decisioni](../experience-decisioning/decisioning-guardrails.md)
+* [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
 * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
 
 
@@ -220,4 +220,4 @@ All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono el
 I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
-* Le attività della campagna non possono essere utilizzate con le attività degli altri canali: carta, esperienza basata su codice, e-mail, push, SMS, messaggi in-app, web.
+* Le attività di Campaign non possono essere utilizzate con le attività degli altri canali: schede, esperienze basate su codice, e-mail, push, SMS, messaggi in-app, web.
