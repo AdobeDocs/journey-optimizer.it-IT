@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 31%
 
 ---
@@ -120,7 +120,7 @@ Per definire la destinazione di un collegamento, effettua le seguenti operazioni
 
 1. In un componente **[!UICONTROL Testo]** in cui è stato inserito un collegamento, seleziona il collegamento.
 
-1. Dalla scheda **[!UICONTROL Impostazioni]**, seleziona la posizione in cui si apre il collegamento nel menu a discesa **[!UICONTROL Target]**:
+1. Dalla scheda **[!UICONTROL Impostazioni]**, seleziona la posizione in cui si apre il collegamento nel menu a discesa **[!UICONTROL Target]**. I valori possibili sono elencati di seguito:
 
    * **[!UICONTROL Nessuno]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic (impostazione predefinita).
    * **[!UICONTROL Vuoto]**: il collegamento viene aperto in una nuova finestra o scheda.
