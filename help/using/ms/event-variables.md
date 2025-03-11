@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Variabili evento campagna con più passaggi
+title: Utilizzare le variabili evento nelle campagne con più passaggi
 description: Scopri come sfruttare le variabili evento nelle campagne con più passaggi
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# Variabili evento campagna con più passaggi {#event-variables}
+# Utilizzare le variabili evento {#event-variables}
 
 Alcune attività di campagna in più passaggi consentono di modificare gli script nell’editor di espressioni per eseguire azioni specifiche, ad esempio recuperare dati provenienti da attività precedenti, creare condizioni o calcolare nomi di file in base a variabili evento.
 

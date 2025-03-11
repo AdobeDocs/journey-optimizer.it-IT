@@ -6,30 +6,28 @@ description: Scopri come iniziare con campagne con più passaggi
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 25%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # Introduzione alle campagne con più passaggi {#ms-camp}
 
-Le campagne in più passaggi migliorano Adobe Journey Optimizer introducendo solide funzionalità per campagne in batch avviate dal brand, consentendoti di pianificare e orchestrare campagne cross-channel con strategie di segmentazione avanzate.
-
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
+* Introduzione alle campagne con più passaggi
 * [Principi chiave](gs-campaign-creation.md) - [Guardrail e limitazioni](guardrails.md)
-* [Creare una campagna](create-ms-campaign.md) - [Configurare le impostazioni della campagna](ms-campaign-settings.md)
-* [Avviare e monitorare le campagne](start-monitor-campaigns.md)
-* [Variabili evento](event-variables.md)
-* [Introduzione alle attività](activities/about-activities.md) - [Organizzazione delle attività](orchestrate-activities.md)
+* Configurazione: [Utilizzare gli schemi](ms-schemas.md) - [Utilizzare le variabili evento](event-variables.md)
+* Introduzione: [Creare una campagna orchestrata](create-ms-campaign.md) - [Configurare le impostazioni della campagna](ms-campaign-settings.md) - [Avviare e monitorare le campagne](start-monitor-campaigns.md) - [Introduzione alle attività](activities/about-activities.md) - [Orchestrare le attività](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
+Le campagne in più passaggi migliorano Adobe Journey Optimizer introducendo solide funzionalità per campagne in batch avviate dal brand, consentendoti di pianificare e orchestrare campagne cross-channel con strategie di segmentazione avanzate.
 
 ## Cos’è una campagna in più passaggi?
 
@@ -41,12 +39,10 @@ Le campagne con più passaggi sono incredibilmente versatili e possono essere ut
 
 Grazie a un ambiente grafico completo, puoi progettare processi quali segmentazione, esecuzione di campagne ed elaborazione di file. Le campagne con più passaggi possono coinvolgere anche gli utenti assegnando loro attività o facendogli approvare le attività eseguite, semplificando la gestione del lavoro del team e garantendo che tutto venga eseguito correttamente.
 
-Di seguito sono riportati alcuni esempi di come utilizzare campagne con più passaggi in Adobe Journey Optimizer:
 
-* Avviare una campagna di follow-up per i clienti inattivi,
-* Inviare un’e-mail di benvenuto a tutti i nuovi iscritti a un servizio,
-* Personalizzare le consegne cross-channel in base allo stato del programma fedeltà dei clienti o ai punti di interesse.
+## Orchestrazione del percorso e orchestrazione delle campagne
 
+Percorsi e campagne: spiega le differenze, i casi di utilizzo e le best practice
 
 ## Approfondiamo
 

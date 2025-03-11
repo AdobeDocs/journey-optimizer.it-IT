@@ -1,25 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare una campagna in più passaggi con Journey Optimizer
+title: Creare campagne con più passaggi con Journey Optimizer
 description: Scopri come creare una campagna in più passaggi con Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 12%
+source-wordcount: '706'
+ht-degree: 13%
 
 ---
 
-
-# Creare la campagna in più passaggi {#create-first-campaign}
+# Creare una campagna orchestrata {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Elenco delle campagne con più passaggi"
 >abstract="La scheda **passaggi multipli** elenca tutte le campagne con più passaggi. Fai clic sul nome di una campagna con più passaggi per modificarla. Utilizza il pulsante **Crea campagna con più passaggi** per aggiungere una nuova campagna con più passaggi."
 
+## Prerequisiti
+
+### Autorizzazioni
+
+### Impostazioni
+
+Panoramica dei nuovi schemi, campi di esecuzione e criteri di unione per amministratori. [Ulteriori informazioni](ms-schemas.md)
+
+
+## Passaggi di creazione
 
 Per creare una campagna in più passaggi, effettua le seguenti operazioni:
 

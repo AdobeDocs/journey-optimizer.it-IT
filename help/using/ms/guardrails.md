@@ -5,10 +5,11 @@ title: Creare campagne con più passaggi con Journey Optimizer
 description: Scopri come creare campagne con più passaggi con Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 14%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 14%
 >title="Campagna in più passaggi"
 >abstract="In questa schermata, puoi accedere all’elenco completo delle campagne con più passaggi, controllarne lo stato corrente, le date dell’ultima/successiva esecuzione e creare una nuova campagna con più passaggi."
 
-Nel menu **[!UICONTROL Campagne]**, vai alla scheda Più passaggi per accedere all&#39;elenco completo delle campagne con più passaggi.
+Nel menu **[!UICONTROL Campagne]**, passa alla scheda Più passaggi per accedere all&#39;elenco completo delle campagne con più passaggi.
 
 
 Ogni campagna in più passaggi nell&#39;elenco visualizza informazioni sul suo [stato](#status) corrente, sull&#39;ultima volta che è stata eseguita o modificata e sulla data e ora di esecuzione pianificate successive.
@@ -33,16 +34,6 @@ Per duplicare o eliminare una campagna con più passaggi, fai clic sul pulsante 
 >[!NOTE]
 >
 >Puoi duplicare una campagna in più passaggi in corso, ma non puoi eliminarla.
-
-## Stati dei flussi di lavoro {#status}
-
-I flussi di lavoro possono avere più stati:
-
-* **[!UICONTROL Bozza]**: la campagna con più passaggi è stata creata e salvata.
-* **[!UICONTROL In corso]**: la campagna con più passaggi è attualmente in esecuzione.
-* **[!UICONTROL Completata]**: esecuzione della campagna in più passaggi completata.
-* **[!UICONTROL Sospeso]**: la campagna con più passaggi è stata sospesa.
-* **[!UICONTROL Errore]**: la campagna con più passaggi ha rilevato un errore. Apri la campagna in più passaggi e accedi ai registri e alle attività per identificare l’errore e risolverlo.
 
 
 ## Modelli di campagna in più passaggi {#templates}
