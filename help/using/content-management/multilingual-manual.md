@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >Per il flusso manuale, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**.
 
-Utilizzando il flusso manuale, puoi tradurre facilmente i contenuti direttamente nelle campagne e nei percorsi, offrendoti opzioni precise di controllo e personalizzazione per i messaggi multilingue. Inoltre, puoi importare facilmente contenuti multilingue preesistenti con l’opzione Importa HTML.
+Utilizzando il flusso manuale, puoi tradurre facilmente i contenuti direttamente nelle campagne e nei percorsi, offrendoti opzioni precise di controllo e personalizzazione per i messaggi multilingue. Inoltre, è possibile importare facilmente contenuti multilingue preesistenti con l’opzione Importa HTML.
 
 Per creare contenuti multilingue mediante la traduzione manuale, segui la procedura riportata di seguito:
 
@@ -30,9 +30,9 @@ Per creare contenuti multilingue mediante la traduzione manuale, segui la proced
 
 1. [Aggiungi impostazioni internazionali (facoltativo)](multilingual-locale.md)
 
-1. [Creare le impostazioni della lingua](#create-language-settings)
+1. [Creare le impostazioni della lingua](#language-settings)
 
-1. [Creare un contenuto multilingue](#create-a-multilingual-campaign)
+1. [Creare un contenuto multilingue](#create-multilingual-campaign)
 
 ## Creare le impostazioni della lingua {#language-settings}
 
@@ -48,7 +48,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
 1. Seleziona le **[!UICONTROL impostazioni internazionali]** associate a queste impostazioni. Puoi aggiungere un massimo di 50 impostazioni internazionali.
 
-   Se manca una **[!UICONTROL Lingua]**, puoi crearla manualmente in anticipo dal menu **[!UICONTROL Traduzione]** o tramite API. Consulta [Crea una nuova lingua](#create-locale).
+   Se manca una **[!UICONTROL Lingua]**, puoi crearla manualmente in anticipo dal menu **[!UICONTROL Traduzione]** o tramite API. Consulta [Crea una nuova lingua](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -92,7 +92,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Scegli l&#39;**[!UICONTROL estensione]** con cui stai lavorando.
-      * Nel campo **[!UICONTROL Tipo evento]**, selezionare &quot;Evento richiesta AEP&quot;.
+      * Nel campo **[!UICONTROL Tipo evento]**, seleziona &quot;Evento richiesta AEP&quot;.
       * Nel riquadro a destra, seleziona &quot;XDM Event Type equals personalization.request&quot;
       * Fai clic sul pulsante **[!UICONTROL Mantieni modifiche]** per confermare.
 
@@ -155,7 +155,7 @@ Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il per
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL Impostazioni lingua]** create in precedenza. [Ulteriori informazioni](#create-language-settings)
+1. Fai clic su **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL Impostazioni lingua]** create in precedenza. [Ulteriori informazioni](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
