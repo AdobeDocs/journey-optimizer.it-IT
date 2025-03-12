@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 15%
+source-wordcount: '640'
+ht-degree: 16%
 
 ---
 
@@ -37,10 +37,34 @@ ht-degree: 15%
 >title="Punteggio di allineamento del brand"
 >abstract="Il punteggio di allineamento del brand misura il rispetto dei contenuti rispetto alle linee guida del brand, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Punteggio colori"
+>abstract="Punteggio colori"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Punteggio font"
+>abstract="Punteggio font"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Punteggio logo"
+>abstract="Punteggio logo"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Punteggio immagine"
+>abstract="Punteggio immagine"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Scrittura punteggio stile"
+>abstract="Scrittura punteggio stile"
 
 >[!AVAILABILITY]
 >
->Questa funzionalità viene rilasciata come versione beta privata. Sarà disponibile progressivamente per tutti i clienti nelle prossime versioni.
+>Questa funzionalità viene rilasciata come versione beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
 
 Le linee guida per il marchio sono un set dettagliato di regole e standard che stabiliscono l’identità visiva e verbale di un marchio. Essi fungono da riferimento per mantenere una rappresentazione coerente del marchio su tutte le piattaforme di marketing e comunicazione.
 
