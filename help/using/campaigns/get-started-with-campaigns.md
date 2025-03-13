@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
@@ -22,7 +22,6 @@ ht-degree: 100%
 >id="ajo_homepage_card3"
 >title="Creare le campagne"
 >abstract="Utilizza **Adobe Journey Optimizer** per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica."
-
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"

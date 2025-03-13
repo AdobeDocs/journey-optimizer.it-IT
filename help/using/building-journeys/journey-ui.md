@@ -9,19 +9,23 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1134'
 ht-degree: 26%
 
 ---
 
-# Sfoglia e filtra i percorsi {#browse-journeys}
+# Sfogliare e filtrare i percorsi {#browse-journeys}
 
 ## Dashboard percorso {#dashboard-jo}
 
-Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede: **[!UICONTROL Panoramica]** e **[!UICONTROL Sfoglia]**.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="Visualizzazioni tabella percorsi e timeline"
+>abstract="Visualizzazioni tabella percorsi e timeline"
 
+Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede: **[!UICONTROL Panoramica]** e **[!UICONTROL Sfoglia]**.
 
 * Nella scheda **[!UICONTROL Panoramica]** è visualizzata una dashboard con le metriche chiave correlate ai percorsi.
 
@@ -35,7 +39,6 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
   >[!NOTE]
   >
   >Questa dashboard tiene conto dei percorsi con traffico nelle ultime 24 ore. Vengono visualizzati solo i percorsi a cui hai accesso. Le metriche vengono aggiornate ogni 30 minuti e solo quando sono disponibili nuovi dati.
-
 
 * La scheda **[!UICONTROL Sfoglia]** mostra l&#39;elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
 
