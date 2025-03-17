@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1682'
 ht-degree: 21%
 
 ---
@@ -157,9 +157,9 @@ Per definire le impostazioni della pagina principale, effettua le seguenti opera
 
    ![](assets/lp_expiry-date.png)
 
-1. Nella sezione **[!UICONTROL Dati aggiuntivi]**, definisci una o più chiavi e i corrispondenti valori dei parametri. Potrai sfruttare queste chiavi nel contenuto della pagina principale e delle pagine secondarie utilizzando l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md). Ulteriori informazioni in [questa sezione](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. Se hai selezionato uno o più elenchi di iscrizioni durante la [progettazione della pagina principale](design-lp.md), questi verranno visualizzati nella sezione **[!UICONTROL Elenco di iscrizioni]**.
 
