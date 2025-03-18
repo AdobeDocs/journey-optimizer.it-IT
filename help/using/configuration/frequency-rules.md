@@ -14,7 +14,7 @@ googlebot: noindex
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
->title="Regole aziendali"
+>title="Regole di business"
 >abstract="Le regole di frequenza dei messaggi sono un tipo di regola aziendale che limita il numero di volte in cui gli utenti ricevono messaggi o entrano in percorsi su uno o più canali. Queste regole cross-channel escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni."
 
 [!DNL Journey Optimizer] consente di controllare la frequenza con cui gli utenti riceveranno un messaggio o entreranno in un percorso attraverso uno o più canali. Regole di frequenza dei messaggi che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
@@ -35,19 +35,19 @@ Ad esempio, per un brand, una regola potrebbe essere di non inviare più di 4 me
 
 >[!NOTE]
 >
->Le regole aziendali sono diverse dalla gestione delle rinunce, che consente di annullare l’iscrizione alla ricezione di comunicazioni da un brand. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
+>Le regole di business sono diverse dalla gestione delle rinunce, che consente di annullare l’iscrizione alla ricezione di comunicazioni da un brand. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-## Accedere alle regole aziendali {#access-rules}
+## Accedere alle regole di business {#access-rules}
 
-Le regole aziendali sono disponibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali]**. Vengono elencate tutte le regole, ordinate per data di modifica. Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche eseguire ricerche sull’etichetta del messaggio.
+Le regole di business sono disponibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole di business]**. Vengono elencate tutte le regole, ordinate per data di modifica. Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche eseguire ricerche sull’etichetta del messaggio.
 
 ![](assets/message-rules-filter.png)
 
 ### Autorizzazioni{#permissions-frequency-rules}
 
-Per accedere, creare, modificare o eliminare le regole aziendali, è necessario disporre dell’autorizzazione per **[!UICONTROL Gestire le regole di frequenza]**.
+Per accedere, creare, modificare o eliminare le regole di business, è necessario disporre dell’autorizzazione per **[!UICONTROL Gestire le regole di frequenza]**.
 
 Chi possiede l’autorizzazione per **[!UICONTROL Visualizzare le regole di frequenza]**, può visualizzare le regole, ma non modificarle o eliminarle.
 
@@ -60,7 +60,7 @@ Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione]
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Selezionare la categoria della regola del messaggio"
->abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole aziendali che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di business che corrispondono alla categoria selezionata verranno applicate automaticamente a tale messaggio. Attualmente è disponibile solo la categoria Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
@@ -74,7 +74,7 @@ Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione]
 
 Per creare una nuova regola aziendale, segui i passaggi seguenti:
 
-1. Accedi all’elenco delle **[!UICONTROL Regole aziendali]**, quindi fai clic su **[!UICONTROL Crea regola]**.
+1. Accedi all’elenco delle **[!UICONTROL Regole di business]**, quindi fai clic su **[!UICONTROL Crea regola]**.
 
    ![](assets/message-rules-create.png)
 
@@ -170,7 +170,7 @@ Per applicare una regola aziendale a un messaggio, segui i passaggi riportati qu
 
    >[!NOTE]
    >
-   >Attualmente, per le regole aziendali è disponibile solo la categoria **[!UICONTROL Marketing]**.
+   >Attualmente, per le regole di business è disponibile solo la categoria **[!UICONTROL Marketing]**.
 
 1. Puoi fare clic sul collegamento **[!UICONTROL Regola di frequenza]** per visualizzare la schermata delle regole di frequenza in una nuova scheda. [Ulteriori informazioni](#access-rules)
 
@@ -180,7 +180,7 @@ Per applicare una regola aziendale a un messaggio, segui i passaggi riportati qu
    >
    >I messaggi in cui è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
 
-1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto Customer Journey Analytics](../reports/report-gs-cja.md) e in [Rapporto live](../reports/live-report.md), in cui le regole aziendali saranno elencate come possibile motivo per l’esclusione di utenti dalla consegna.
+1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto Customer Journey Analytics](../reports/report-gs-cja.md) e in [Rapporto live](../reports/live-report.md), in cui le regole di business saranno elencate come possibile motivo per l’esclusione di utenti dalla consegna.
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Per applicare una regola aziendale a un messaggio, segui i passaggi riportati qu
 
 ## Esempio: combinare più regole {#frequency-rule-example}
 
-Puoi combinare diverse regole aziendali, come descritto nell’esempio seguente.
+Puoi combinare diverse regole di business, come descritto nell’esempio seguente.
 
 1. [Crea una regola aziendale](#create-new-rule) denominata *Limiti di marketing complessivi*:
 
@@ -233,10 +233,10 @@ In questo scenario, un singolo profilo:
 
 >[!NOTE]
 >
->Quando si esegue il test delle regole aziendali, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunto il limite di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+>Quando si esegue il test delle regole di business, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunto il limite di un profilo, il contatore verrà reimpostato solo il mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
 
 ## Video introduttivo {#video}
 
-Scopri come creare, attivare, testare e creare rapporti sulle regole aziendali.
+Scopri come creare, attivare, testare e creare rapporti sulle regole di business.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
