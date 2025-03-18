@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -172,18 +172,18 @@ ht-degree: 94%
          + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagne con più passaggi {#ms-campaigns}
    + [Introduzione alle campagne con più passaggi](using/ms/gs-ms-campaigns.md)
-   + [Principi fondamentali](using/ms/gs-campaign-creation.md)
+   + [Principi chiave](using/ms/gs-campaign-creation.md)
    + Configurazione {#ms-config}
       + [Schemi](using/ms/ms-schemas.md)
-      + [Utilizzare le variabili evento](using/ms/event-variables.md)
-   + Crea la tua prima campagna in più passaggi {#create-ms-campaign}
+      + [Utilizzare le variabili di evento](using/ms/event-variables.md)
+   + Creare la prima campagna con più passaggi {#create-ms-campaign}
       + [Creare una campagna orchestrata](using/ms/create-ms-campaign.md)
       + [Orchestrare le attività](using/ms/orchestrate-activities.md)
       + [Configurare le impostazioni della campagna](using/ms/ms-campaign-settings.md)
       + [Avviare e monitorare le campagne](using/ms/start-monitor-campaigns.md)
-      + [Gestisci personalizzazione](using/ms/ms-personalization.md)
-   + Attività di campagna in più passaggi {#design-campaigns}
-      + [Informazioni sulle attività di campagna in più passaggi](using/ms/activities/about-activities.md)
+      + [Gestire la personalizzazione](using/ms/ms-personalization.md)
+   + Attività della campagna con più passaggi {#design-campaigns}
+      + [Informazioni sulle attività della campagna con più passaggi](using/ms/activities/about-activities.md)
       + [AND-join](using/ms/activities/and-join.md)
       + [Crea pubblico](using/ms/activities/build-audience.md)
       + [Cambiare dimensione](using/ms/activities/change-dimension.md)
@@ -199,7 +199,7 @@ ht-degree: 94%
       + [Dividi](using/ms/activities/split.md)
       + [Test](using/ms/activities/test.md)
       + [Aggiornare i dati](using/ms/activities/update-data.md)
-      + [Attendi](using/ms/activities/wait.md)
+      + [Attendere](using/ms/activities/wait.md)
 + Campagne {#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -338,7 +338,7 @@ ht-degree: 94%
       + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
-   + Assistente AI per la generazione di contenuti{#ai-assistant}
+   + Assistente IA per la generazione di contenuti{#ai-assistant}
       + [Introduzione all’assistente IA](using/content-management/gs-generative.md)
       + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
       + [Generazione di push con l’IA](using/content-management/generative-push.md)
@@ -364,8 +364,8 @@ ht-degree: 94%
       + [Introduzione alla personalizzazione](using/personalization/personalize.md)
       + [Aggiungere la personalizzazione](using/personalization/personalization-build-expressions.md)
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
-      + [Riutilizza frammenti di espressione](using/personalization/use-expression-fragments.md)
-      + [Usa dati Adobe Experience Platform per la personalizzazione (Beta)](using/personalization/lookup-aep-data.md)
+      + [Riutilizzare frammenti di espressione](using/personalization/use-expression-fragments.md)
+      + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta)](using/personalization/lookup-aep-data.md)
       + Elenco funzioni helper {#functions}
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
          + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
@@ -501,19 +501,19 @@ ht-degree: 94%
                + [Cercare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [Elenco strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [Aggiornare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Classificazione delle formule{#ranking-formulas}
+            + Formule di classificazione{#ranking-formulas}
                + [Creare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [Eliminare le formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Ricercare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Formule di classificazione selezione](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [Aggiornare le formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+               + [Eliminare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+               + [Cercare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [Formule di classificazione della selezione](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [Aggiornare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + Regole di idoneità{#eligibility-rules}
-               + [Creare le regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Elimina regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Ricercare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [Elenco delle regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Aggiorna regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [Distribuisci le offerte tramite il canale di esperienza basato su codice](using/experience-decisioning/api-reference/deliver.md)
+               + [Creare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+               + [Eliminare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [Cercare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [Elenco regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+               + [Aggiornare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + [Distribuire le offerte tramite il canale di esperienza basato su codice](using/experience-decisioning/api-reference/deliver.md)
       + Gestire gli elementi decisionali {#decision-items}
          + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
          + [Creare elementi decisionali](using/experience-decisioning/items.md)

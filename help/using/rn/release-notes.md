@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 81%
 
 ## Aggiornamenti di marzo 2025 {#25-03-rn}
 
-**Miglioramenti dell&#39;editor di Personalization**
+**Miglioramenti dell’editor di personalizzazione**
 
 L’editor di personalizzazione di Journey Optimizer è stato aggiornato con nuove funzionalità:
-* **Progettazione dell&#39;editor di codice aggiornata** - Un&#39;interfaccia più pulita e moderna per migliorare l&#39;usabilità e lo stato attivo.
-* **Cerca e sostituisci** - È stata aggiunta la funzionalità per trovare e sostituire rapidamente i contenuti all&#39;interno dell&#39;editor.
-* **Supporto Annulla e Ripristina** - Consente di ripristinare o riapplicare facilmente le modifiche.
-* **Dimensione carattere personalizzabile** - Consente di regolare la dimensione del carattere dell&#39;editor per migliorarne la leggibilità.
-* **Convalida JSON in linea** - Fornisce la convalida lato client in tempo reale per il contenuto JSON per accelerare il rilevamento degli errori.
-* **Completamento automatico per attributi di profilo e di contesto** - Offre suggerimenti avanzati per semplificare la creazione di contenuti.
-* **Evidenziazione della sintassi migliorata** - Migliora la leggibilità rendendo la struttura del codice più visivamente distinta.
+* **Progettazione dell’editor di codice aggiornata**: un’interfaccia più pulita e moderna per migliorare l’usabilità e la concentrazione.
+* **Cerca e sostituisci**: una funzionalità aggiunta per trovare e sostituire rapidamente i contenuti all’interno dell’editor.
+* **Supporto Annulla e Ripristina**: consente di ripristinare o riapplicare facilmente le modifiche.
+* **Dimensione del font personalizzabile** : consente di regolare la dimensione del font dell’editor per una migliore leggibilità.
+* **Convalida JSON in linea**: fornisce la convalida lato client in tempo reale per il contenuto JSON per accelerare il rilevamento degli errori.
+* **Completamento automatico per attributi di profilo e di contesto**: offre suggerimenti avanzati per semplificare la creazione di contenuti.
+* **Evidenziazione della sintassi migliorata**: migliora la leggibilità rendendo la struttura del codice visivamente più distinta.
 
 ![Video che mostra la nuova funzionalità nell&#39;editor di Personalization](assets/do-not-localize/personalization-editor.gif)
 
