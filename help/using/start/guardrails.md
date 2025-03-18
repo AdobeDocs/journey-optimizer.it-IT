@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di d
 * 90 giorni per i dati nell’archivio dei profili
 * 13 mesi per i dati nel data lake
 
-Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail TTL (Time-To-Live) dei set di dati](../data/datasets-ttl.md)
+Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
 
 ## Guardrail per canali {#channel-guardrails}
 

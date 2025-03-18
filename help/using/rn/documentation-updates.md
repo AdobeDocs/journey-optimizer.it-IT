@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Marzo 2025 {#mar-2025}
 
 * La pagina relativa agli eventi di qualificazione del pubblico è stata aggiornata con nuovi consigli. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md)
-* La funzionalità di risoluzione dei problemi delle azioni personalizzate è ora disponibile per tutti i clienti (GA). [Ulteriori informazioni](../action/troubleshoot-custom-action.md)
+* La funzionalità di risoluzione dei problemi delle azioni personalizzate è ora disponibile per tutta la clientela (GA). [Ulteriori informazioni](../action/troubleshoot-custom-action.md)
 
 ## Febbraio 2025 {#feb-2025}
 
-* I guardrail dell’attività &quot;Read audience&quot; sono stati aggiornati per specificare che solo un’attività può essere utilizzata in un percorso e che può essere indirizzata a un solo pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* I guardrail dell’attività “Leggi pubblico” sono stati aggiornati per specificare che solo un’attività può essere utilizzata in un percorso e che può essere indirizzata a un solo pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
 * Sono stati aggiornati i guardrail per i percorsi relativi all’utilizzo delle attività di Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
 * Sono stati descritti i passaggi per creare i primi percorsi e sono stati aggiunti i collegamenti alla relativa sezione della documentazione. [Ulteriori informazioni](../building-journeys/journey-gs.md)
 * Una nuova pagina descrive nel dettaglio la dashboard del percorso e l’interfaccia utente per il filtraggio. [Ulteriori informazioni](../building-journeys/journey-ui.md)
