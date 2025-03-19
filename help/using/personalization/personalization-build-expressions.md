@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 5%
 
 ---
@@ -32,9 +32,9 @@ Nell’interfaccia dell’editor di personalizzazione puoi selezionare, disporre
 
 ## Dove posso aggiungere la personalizzazione
 
-Puoi aggiungere la personalizzazione in **[!DNL Journey Optimizer]** in ogni campo con l&#39;icona ![aggiungi icona personalizzazione](assets/do-not-localize/add-perso-icon.svg).
+Puoi aggiungere la personalizzazione in **[!DNL Journey Optimizer]** in ogni campo con l&#39;icona ![aggiungi icona personalizzazione](assets/do-not-localize/add-perso-icon.svg). Per ulteriori informazioni, espandi le sezioni seguenti.
 
-### Messaggi
++++Messaggi
 
 Nei messaggi, la personalizzazione può essere aggiunta in posizioni diverse nei messaggi, ad esempio il campo **[!UICONTROL Oggetto]**.
 
@@ -42,28 +42,32 @@ Nei messaggi, la personalizzazione può essere aggiunta in posizioni diverse nei
 
 Può essere aggiunto anche in altre sezioni del contenuto. Ad esempio, per [notifiche push](../push/push-gs.md), è possibile aggiungere la personalizzazione nei campi **Titolo**, **Corpo**, **Audio personalizzato**, **Badge** e **Dati personalizzati**.
 
-### E-mail Designer
++++
+
++++Invia e-mail a Designer
 
 Quando modifichi il contenuto delle e-mail in [E-mail Designer](../email/get-started-email-design.md), puoi aggiungere la personalizzazione in blocchi di testo e in URL utilizzando l&#39;icona nella barra degli strumenti contestuale.
 
 ![](assets/perso_insert.png)
 
-### Offerte
++++
+
++++Offerte
 
 Puoi aggiungere la personalizzazione quando utilizzi contenuto di tipo testo nelle rappresentazioni delle **offerte**. [Scopri come creare le offerte personalizzate](../offers/offer-library/creating-personalized-offers.md)
 
-### URL
++++
+
++++URL
 
 Journey Optimizer ti consente inoltre di personalizzare **URL** nel messaggio.  Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un sito web o verso un microsito personalizzato, a seconda degli attributi del profilo. La personalizzazione URL è disponibile per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento per l&#39;annullamento dell&#39;abbonamento** e **Rinuncia**.
 
-+++Vedi URL personalizzati di esempio
+URL personalizzati di esempio:
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Journey Optimizer ti consente inoltre di personalizzare **URL** nel messaggio.  
 >
 >Gli spazi non sono supportati nei token di personalizzazione utilizzati negli URL.
 
++++
+
 ## Origini Personalization {#sources}
 
-Nella parte sinistra della schermata viene visualizzato un selettore di dominio che consente di selezionare l’origine per la personalizzazione. Le origini disponibili sono:
+Il riquadro di navigazione consente di selezionare l’origine per la personalizzazione. Le origini disponibili sono:
 
 * **[!UICONTROL Attributi profilo]** : elenca tutti i riferimenti associati allo schema profilo descritto nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 * **[!UICONTROL Tipi di pubblico]**: elenca tutti i tipi di pubblico creati nel servizio di segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione sono disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
@@ -93,9 +99,9 @@ Nella parte sinistra della schermata viene visualizzato un selettore di dominio 
 >title="Completamento automatico"
 >abstract="L&#39;attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi Profilo e Contesto. Se è disattivato tramite l’interruttore, l’editor fornisce il completamento automatico del codice nativo di HTML."
 
-Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro di spostamento a sinistra e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
+Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro di spostamento e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
 
-Il menu con i puntini di sospensione accanto all&#39;icona `+` consente di ottenere ulteriori dettagli per ciascun attributo e di aggiungere gli attributi utilizzati più di frequente ai preferiti. Gli attributi aggiunti ai preferiti sono accessibili dal menu **[!UICONTROL Preferiti]** nel riquadro di navigazione a sinistra.
+Il menu con i puntini di sospensione accanto all&#39;icona `+` consente di ottenere ulteriori dettagli per ciascun attributo e di aggiungere gli attributi utilizzati più di frequente ai preferiti. Gli attributi aggiunti ai preferiti sono accessibili dal menu **[!UICONTROL Preferiti]** nel riquadro di spostamento.
 
 Inoltre, puoi definire il testo di fallback predefinito che verrà visualizzato se un attributo di profilo di tipo stringa è vuoto. A tale scopo, fare clic sul pulsante con i puntini di sospensione accanto all&#39;attributo e selezionare **[!UICONTROL Inserisci con testo di fallback]**. Scrivere il testo da visualizzare per impostazione predefinita se il valore dell&#39;attributo è vuoto per un profilo, quindi fare clic su **[!UICONTROL Aggiungi]**.
 
