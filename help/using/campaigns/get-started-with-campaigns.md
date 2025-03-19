@@ -10,7 +10,7 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 
    +++Scopri come assegnare il relativo ruolo alla campagna
 
-   1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** relativi alle campagne integrate: amministratore di campagna, approvatore di campagna, manager di campagna o visualizzatore di campagna.
+   1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** incorporati relativi alle campagne: amministratore di campagna, approvatore di campagna, manager di campagna o visualizzatore di campagna.
 
    1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
