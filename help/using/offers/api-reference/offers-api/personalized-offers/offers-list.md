@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '283'
+ht-degree: 7%
 
 ---
 
@@ -123,6 +123,76 @@ In caso di esito positivo, la risposta restituisce un elenco di offerte personal
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+Esegui l’impaginazione se nella risposta mancano più offerte personalizzate.
+
+**Risposta**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| Metrica | Descrizione |
+|---------|-------------|
+| `total` | Il numero di offerte personalizzate. |
+| `count` | Il numero di offerte restituite in questa risposta. |
+
+Recuperare l&#39;endpoint da `_links.next.href`, ad esempio `/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED`, e aggiungerlo all&#39;API.
+
+**Formato API**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+Allo stesso modo, se non ti trovi nella prima pagina e devi recuperare la pagina precedente delle offerte personalizzate, utilizza il valore `href` di `_links.prev`. Invia una richiesta all’URL per recuperare il set di risultati precedente, come mostrato nell’esempio seguente.
+
+**Risposta**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
