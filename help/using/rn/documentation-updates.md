@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * La pagina relativa agli eventi di qualificazione del pubblico è stata aggiornata con nuovi consigli. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md)
 * La funzionalità di risoluzione dei problemi delle azioni personalizzate è ora disponibile per tutta la clientela (GA). [Ulteriori informazioni](../action/troubleshoot-custom-action.md)
+* L’igiene dei dati è ora un ciclo di vita dei dati nell’interfaccia utente del prodotto. La documentazione è stata aggiornata per riflettere questa modifica. [Ulteriori informazioni](../privacy/data-hygiene.md)
+* Le autorizzazioni incorporate mancanti per la pagina di destinazione sono state aggiunte alla documentazione. [Ulteriori informazioni](../administration/ootb-permissions.md)
+* È stata aggiunta una nota sulla pianificazione di campagne ricorrenti. [Ulteriori informazioni](../campaigns/create-campaign.md)
+* La sezione sull’inserimento di collegamenti e sull’abilitazione del tracciamento in un messaggio e-mail è stata aggiornata e riorganizzata. [Ulteriori informazioni](../email/message-tracking.md)
+* La sezione sulle funzionalità di personalizzazione in Adobe Journey Optimizer è stata riorganizzata e migliorata. [Ulteriori informazioni](../personalization/personalize.md)
+* L’API di gestione delle decisioni per elencare le offerte personalizzate è stata aggiornata con un esempio per eseguire l’impaginazione nel caso in cui mancino più offerte personalizzate nella risposta. [Ulteriori informazioni](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## Febbraio 2025 {#feb-2025}
 
-* I guardrail dell’attività “Leggi pubblico” sono stati aggiornati per specificare che solo un’attività può essere utilizzata in un percorso e che può essere indirizzata a un solo pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
-* Sono stati aggiornati i guardrail per i percorsi relativi all’utilizzo delle attività di Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
+* I guardrail dell’attività Read Audience sono stati aggiornati per specificare che solo un’attività può essere utilizzata in un percorso e che può essere indirizzata a un solo pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* Sono state aggiornate le protezioni di percorso quando si utilizzano le attività di Adobe Campaign. [Ulteriori informazioni](../start/guardrails.md#ac-g)
 * Sono stati descritti i passaggi per creare i primi percorsi e sono stati aggiunti i collegamenti alla relativa sezione della documentazione. [Ulteriori informazioni](../building-journeys/journey-gs.md)
 * Una nuova pagina descrive nel dettaglio la dashboard del percorso e l’interfaccia utente per il filtraggio. [Ulteriori informazioni](../building-journeys/journey-ui.md)
 * La documentazione relativa all’**[!UICONTROL ottimizzazione dell’ora di invio]** e le relative domande frequenti sono state aggiornate, migliorate e spostate in una nuova pagina dedicata. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
