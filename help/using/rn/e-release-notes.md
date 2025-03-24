@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 38%
+source-wordcount: '738'
+ht-degree: 37%
 
 ---
 
@@ -171,3 +171,7 @@ Ora puoi delegare i sottodomini con DMARC gestito dal lato padre.
 **Regole aziendali**
 
 Ora puoi utilizzare il limite di frequenza giornaliero in percorsi e campagne con segmentazione batch. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+
+**Gestione dei contenuti**
+
+Per gestire facilmente i frammenti e i modelli di contenuto, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata.
