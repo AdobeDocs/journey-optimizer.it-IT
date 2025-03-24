@@ -5,24 +5,25 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
+source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 16%
+source-wordcount: '325'
+ht-degree: 15%
 
 ---
 
 # Inviare bozze e-mail {#send-proofs}
 
->[!PREREQUISITES]
->
->Per inviare le bozze, gli utenti devono disporre delle autorizzazioni **Approva e pubblica** per la risorsa, la campagna o il percorso specifico associato all&#39;e-mail. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md)
-
 Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
 [!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
 
-Per inviare bozze delle e-mail dopo la selezione di [profili di test](test-profiles.md), eseguire la procedura seguente:
+>[!PREREQUISITES]
+>
+>Per inviare le bozze, devi disporre delle autorizzazioni **Approva e pubblica** per la risorsa specifica (campagna o percorso) associata all&#39;e-mail. Inoltre, per inviare bozze in un percorso, è necessaria anche l&#39;autorizzazione **Pubblica percorso**. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md).
+
+
+Per inviare le bozze delle e-mail, devi prima selezionare [profili di test](test-profiles.md). Quindi, segui questi passaggi:
 
 1. Nella schermata **[!UICONTROL Simula]**, fai clic sul pulsante **[!UICONTROL Invia bozza]**.
 
