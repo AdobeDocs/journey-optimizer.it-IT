@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '969'
 ht-degree: 11%
 
 ---
@@ -89,6 +89,12 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
    ![](assets/email_designer_edit_content_header.png)
 
 1. Aggiungi un oggetto per il messaggio. Per configurare e personalizzare l&#39;oggetto con l&#39;editor di personalizzazione, fare clic sull&#39;icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* L’oggetto è obbligatorio.
+   >
+   >* L&#39;oggetto non deve includere interruzioni di riga.
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica corpo dell&#39;e-mail]** per accedere al Designer e-mail e iniziare a creare il contenuto. [Ulteriori informazioni](get-started-email-design.md)
 
