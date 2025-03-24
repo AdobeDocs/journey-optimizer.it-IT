@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,9 @@ Puoi anche inviare le consegne di test dei messaggi e-mail a destinatari o abbon
 
 >[!CAUTION]
 >
->Quando visualizzi l’anteprima di un messaggio o invii delle bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata su dati contestuali, come le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come testare la personalizzazione in [questo caso d’uso](../personalization/personalization-use-case.md).
+>* Quando visualizzi l’anteprima di un messaggio o invii delle bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata su dati contestuali, come le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come testare la personalizzazione in [questo caso d’uso](../personalization/personalization-use-case.md).
+>
+>* Durante la simulazione o il rendering delle bozze per e-mail contenenti più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione. In caso di timeout o messaggi di errore, puoi ridurre il numero totale di varianti o semplificare le regole condizionali. Ulteriori informazioni sul contenuto condizionale in [questa pagina](../personalization/dynamic-content.md).
 
 Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata di modifica del contenuto del messaggio oppure dai designer e-mail e web per i rispettivi canali.
 
