@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <ul>
 <li>Gestione centralizzata delle risorse con aggiornamenti in tempo reale</li>
 <li>Modifica istantaneamente le impostazioni delle risorse, ad esempio larghezza e altezza</li>
-<li>Personalizzare il contenuto utilizzando immagini con sovrapposizioni di testo</li>
 <li>Personalizza i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 **Editor Personalization** (data di disponibilità: 12 marzo)
 
 L’editor di personalizzazione di Journey Optimizer è stato aggiornato con nuove funzionalità:
+
 * **Progettazione dell’editor di codice aggiornata**: un’interfaccia più pulita e moderna per migliorare l’usabilità e la concentrazione.
 * **Cerca e sostituisci**: una funzionalità aggiunta per trovare e sostituire rapidamente i contenuti all’interno dell’editor.
 * **Supporto Annulla e Ripristina**: consente di ripristinare o riapplicare facilmente le modifiche.
@@ -174,7 +174,7 @@ Ora puoi utilizzare il limite di frequenza giornaliero in percorsi e campagne co
 
 **Gestione dei contenuti**
 
-Per gestire facilmente i frammenti e i modelli di contenuto, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata.
+Per gestire facilmente i frammenti e i modelli di contenuto, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 
 ## Note sulla versione di febbraio 2025 {#25-02-rn}
