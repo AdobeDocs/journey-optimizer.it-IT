@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
+source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
 workflow-type: tm+mt
 source-wordcount: '2030'
 ht-degree: 23%
@@ -148,7 +148,7 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
 
    * **[!UICONTROL Mensile]**: la quota limite è valida fino all’ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
 
-   * **[!UICONTROL Settimanale]**: la quota limite è valida fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
+   * **[!UICONTROL Settimanale]**: la quota limite è valida fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La data di scadenza si applica indipendentemente da quando è stata creata la regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
 
    * **[!UICONTROL Giornaliero]**: il limite di frequenza giornaliero è valido per il giorno fino alle 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
 
