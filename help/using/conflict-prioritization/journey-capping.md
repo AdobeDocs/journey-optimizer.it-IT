@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="Disponibilità limitata"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '941'
 ht-degree: 23%
 
 ---
@@ -25,6 +25,10 @@ La limitazione dei percorsi consente di limitare il numero di percorsi in cui un
 
 Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbitrare le voci.
 
+>[!AVAILABILITY]
+>
+>I set di regole di dominio **Percorso** sono disponibili solo per un gruppo limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+
 ➡️ [Scopri questa funzione nel video](#video)
 
 ## Creare una regola di limitazione del percorso {#create-rule}
@@ -41,7 +45,7 @@ Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbi
 
 Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
-1. Passa al menu **[!UICONTROL Regole aziendali (Beta)]** per accedere all&#39;inventario dei set di regole.
+1. Passa al menu **[!UICONTROL Regole aziendali]** per accedere all&#39;inventario dei set di regole.
 
 1. Selezionare il set di regole in cui si desidera aggiungere la regola di limite o creare un nuovo set di regole:
 

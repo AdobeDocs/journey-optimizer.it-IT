@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2013'
 ht-degree: 23%
 
 ---
@@ -35,7 +35,7 @@ Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazio
 
 ### Set di regole globali e personalizzati {#global-custom}
 
-Quando si accede ai set di regole per la prima volta dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali (Beta)]**, viene creato e attivato un set di regole predefinito: **Set di regole predefinito globale**.
+Quando si accede ai set di regole per la prima volta dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali]**, viene creato e attivato un set di regole predefinito: **Set di regole predefinito globale**.
 
 Questo set di regole contiene regole globali che è possibile applicare per controllare la frequenza con cui gli utenti ricevono messaggi in uno o più canali, in modo analogo al funzionamento delle regole business correnti. Tutte le regole definite in questo set di regole si applicano a tutti i canali selezionati, indipendentemente dal fatto che le comunicazioni vengano inviate da un percorso o da una campagna. [Scopri come utilizzare le regole business](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ Durante la creazione di un set di regole, è necessario specificare se le regole
 * Dominio **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 * Dominio **Percorso**: applica le regole di limitazione della concorrenza e delle voci a un percorso. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
 
+>[!AVAILABILITY]
+>
+>Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+
 ## Creare il primo set di regole personalizzato {#create-rule-set}
 
 ### Crea il set di regole e selezionane il dominio {#create}
@@ -62,6 +66,8 @@ Durante la creazione di un set di regole, è necessario specificare se le regole
 Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
+>
+>Per creare un set di regole, è necessario disporre dell&#39;autorizzazione `Manage Messages Presets`. [Ulteriori informazioni sulla gestione degli utenti](../administration/permissions-overview.md)
 >
 >È possibile creare fino a 3 set di regole locali di dominio di canale e fino a 5 set di regole locali di dominio di percorso.
 
@@ -74,6 +80,10 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 1. Seleziona il dominio del set di regole. Il dominio consente di specificare se il set di regole conterrà regole di limitazione di utilizzo specifiche per i canali di comunicazione o i percorsi. [Ulteriori informazioni sulle regole di limitazione dei canali e dei percorsi](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -208,7 +218,7 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Accedere e gestire i set di regole {#access-rule-sets}
 
-Tutti i set di regole creati vengono visualizzati nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali (Beta)]**. Vengono ordinati in base alla data dell’ultima modifica.
+Tutti i set di regole creati vengono visualizzati nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali]**. Vengono ordinati in base alla data dell’ultima modifica.
 
 ![](assets/rule-sets-list.png)
 
