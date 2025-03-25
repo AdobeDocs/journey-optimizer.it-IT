@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2036'
 ht-degree: 23%
 
 ---
@@ -142,7 +142,7 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
 
    >[!AVAILABILITY]
    >
-   >La durata &quot;Giornaliera&quot; è disponibile solo su richiesta. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+   >La durata &quot;Giornaliera&quot; è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
