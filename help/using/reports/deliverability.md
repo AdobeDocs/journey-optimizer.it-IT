@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1138'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ Il **tasso di recapito messaggi** è il numero di messaggi che raggiungono le ca
 
 Per ottimizzare il recapito messaggi delle esperienze [!DNL Journey Optimizer], si consiglia di utilizzare le best practice elencate in questa sezione. I problemi di recapito dei messaggi sono generalmente legati alla protezione contro la posta indesiderata implementata dai provider di servizi Internet (ISP) e dagli amministratori dei server di posta.
 
-Adobe Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori informazioni sui termini, i concetti e gli approcci chiave per il recapito dei messaggi, consulta la [Guida alle best practice per il recapito dei messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}.
+Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori informazioni su termini, concetti e approcci chiave, consulta la [Guida alle best practice per la consegna dei messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}.
 
 ## Riduci la percentuale di reclami {#reduce-complaint-rate}
 
@@ -106,13 +106,13 @@ DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un me
 
 Un feedback loop (FBL) è un servizio offerto da alcuni ISP che consente al mittente dell’e-mail di ricevere automaticamente una notifica quando l’utente che riceve un’e-mail sceglie di contrassegnarla come spam (noto anche come &quot;reclamo&quot;).
 
-Dopo che un utente finale genera un reclamo che viene rimandato ad Adobe dall&#39;ISP, l&#39;indirizzo e-mail viene aggiunto automaticamente all&#39;[elenco di soppressione](../reports/suppression-list.md) ed escluso dalle consegne future. In effetti, l’invio di e-mail agli utenti che le hanno contrassegnate come spam influisce negativamente sulla reputazione del mittente e può causare problemi di recapito messaggi. [Ulteriori informazioni sui reclami spam](../reports/suppression-list.md#spam-complaints)
+Dopo che un utente finale genera un reclamo che viene inviato nuovamente ad Adobe dall&#39;ISP, l&#39;indirizzo e-mail viene aggiunto automaticamente all&#39;[elenco di soppressione](../reports/suppression-list.md) ed escluso dalle consegne future. In effetti, l’invio di e-mail agli utenti che le hanno contrassegnate come spam influisce negativamente sulla reputazione del mittente e può causare problemi di recapito messaggi. [Ulteriori informazioni sui reclami spam](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
 >Non tutti gli ISP forniscono un FBL tradizionale, come ad esempio Gmail. Gmail non offre feedback a livello individuale e non può essere utilizzato per tenere traccia dei reclami spam per singoli destinatari, concentrandosi invece sul reporting a livello aggregato all’interno dei loro strumenti Google Postmaster. [Ulteriori informazioni](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
 
-Tutti i clienti Adobe vengono iscritti automaticamente ai FBL tradizionali dei seguenti ISP:
+Tutti i clienti Adobe vengono automaticamente iscritti ai FBL tradizionali dei seguenti ISP:
 
 * 1&amp;1
 
@@ -170,4 +170,14 @@ Tutti i clienti Adobe vengono iscritti automaticamente ai FBL tradizionali dei s
 
 * Ziggo
 
-L’Adobe controlla regolarmente questi FBL per garantire che vengano aggiunti i più recenti FBL disponibili.
+Adobe controlla regolarmente questi FBL per assicurarti di aggiungere gli ultimi FBL disponibili.
+
+## Usa inoltro SMTP {#smtp-relay}
+
+[!DNL Journey Optimizer] utilizza gli agenti di trasferimento della posta (MTA, Mail Transfer Agent) e gli IP di Adobe per inviare le e-mail ai provider di servizi Internet (ISP, Internet Service Provider). Tuttavia, in alcuni casi potrebbe essere utile instradare le consegne e-mail finali tramite i propri MTA e IP o eseguire le convalide finali sulle e-mail prima di inviarle ai destinatari.
+
+In questo caso, puoi scegliere di inoltrare le e-mail ai server SMTP ospitati dalla tua organizzazione, invece di inviarle direttamente da Journey Optimizer agli ISP.
+
+>[!AVAILABILITY]
+>
+>La capacità di inoltro SMTP è disponibile on-demand: contatta il tuo rappresentante Adobe.

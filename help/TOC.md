@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + Creare un percorso{#create-journey}
       + [Creare il primo percorso](using/building-journeys/journey-gs.md)
       + [Impostare le proprietà del percorso](using/building-journeys/journey-properties.md)
+      + [Configurare e tenere traccia della metrica di percorso](using/building-journeys/success-metrics.md)
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Simulare il percorso](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [Configurare il supporto per le schede di contenuto in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Creare schede contenuto](using/content-card/create-content-card.md)
       + [Progettare schede contenuto](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [Introduzione ai messaggi WhatsApp](using/whatsapp/get-started-whatsapp.md)
+      + [Configurare il canale WhatsApp in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Creare un messaggio WhatsApp](using/whatsapp/create-whatsapp.md)
+      + [Controllare e inviare i messaggi WhatsApp](using/whatsapp/send-whatsapp.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
    + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [Integrazioni con altre soluzioni](using/integrations/ajo-integrations.md)
    + [Utilizzare Experience Manager Assets](using/integrations/assets.md)
    + [Utilizzare Adobe Stock](using/integrations/stock.md)
+   + [Utilizzare Adobe Express](using/integrations/express.md)
    + [Utilizzare i modelli di Experience Manager](using/integrations/aem-templates.md)
    + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
    + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Utilizzare GenStudio](using/integrations/genstudio.md)
 + Tracciamento e monitoraggio {#reporting}
    + Rapporti live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)

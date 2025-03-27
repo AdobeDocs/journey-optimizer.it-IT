@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 13%
+source-wordcount: '1800'
+ht-degree: 12%
 
 ---
 
@@ -187,7 +187,7 @@ Una volta inviate le modifiche, la configurazione del canale verrà sottoposta a
 >
 >Se modifichi solo i campi **[!UICONTROL Descrizione]**, **[!UICONTROL Tipo e-mail]** e/o **[!UICONTROL Parametri nuovi tentativi e-mail]**, l&#39;aggiornamento è istantaneo.
 
-### Dettagli aggiornamento {#update-details}
+### Aggiorna i dettagli {#update-details}
 
 Per le configurazioni di canale con stato **[!UICONTROL Attivo]**, puoi controllare i dettagli dell&#39;aggiornamento. Per eseguire questa operazione:
 
@@ -271,6 +271,19 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 ![](assets/preset-activate.png)
 
+## Aggiungere tag a una configurazione di canale {#channel-config-tags}
+
+1. Accedi all’elenco delle configurazioni del canale.
+
+1. Per la configurazione attiva scelta, fai clic sul pulsante **[!UICONTROL Altre azioni]**.
+
+1. Fare clic su **[!UICONTROL Modifica tag]**.
+
+1. Seleziona i tag Adobe Experience Platform dall’elenco per categorizzare la configurazione del canale in modo da migliorare la ricerca. [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. Una volta assegnati i tag alle configurazioni dei canali, puoi [filtrarli](../start/search-filter-categorize.md#filter-on-tags) sui tag.
 
 ## Video introduttivo{#video-presets}
 

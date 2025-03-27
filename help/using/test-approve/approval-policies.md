@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '525'
 ht-degree: 6%
 
 ---
@@ -109,6 +109,14 @@ Per definire le condizioni associate a un criterio di approvazione, effettuare l
     </tr>
     <tr>
     <td>Scheda contenuto</td>
+    </tr>
+    <tr>
+    <td>Tag</td>
+    <td>Nome del tag utilizzato per organizzare il pubblico. </td>
+    </tr>
+    <tr>
+    <td>Nome oggetto</td>
+    <td>Nome dell'oggetto.</td>
     </tr>
     <tr>
     <td>Nome utente richiedente</td>

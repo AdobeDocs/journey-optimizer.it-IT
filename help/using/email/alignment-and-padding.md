@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: allineamento verticale, editor e-mail, spaziatura
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
-# Regola allineamento verticale e spaziatura {#alignment-and-padding}
+# Regolare l’allineamento verticale e la spaziatura {#alignment-and-padding}
 
 In questo esempio regoleremo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 
@@ -41,3 +41,7 @@ In questo esempio regoleremo la spaziatura e l’allineamento verticale all’in
 1. Procedi in modo simile per regolare l’allineamento e la spaziatura delle altre colonne.
 
 1. Salva le modifiche.
+
+>[!TIP]
+>
+>Durante la progettazione di contenuti e-mail per Gmail su dispositivi Android, accertati che le immagini e i divisori utilizzino la spaziatura interna delle colonne anziché margini fissi di grandi dimensioni. In Android, spesso Gmail esegue il rendering di immagini e margini di dimensioni eccessive in modo errato, causando un overflow del layout o una riduzione delle linee di divisione. Utilizza una larghezza immagine inferiore o utilizza la spaziatura interna basata su colonne per una visualizzazione coerente.
