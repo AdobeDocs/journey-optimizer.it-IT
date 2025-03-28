@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 16%
+source-wordcount: '2719'
+ht-degree: 15%
 
 ---
 
@@ -223,7 +223,7 @@ Puoi specificare se desideri applicare il limite a tutti gli utenti o a un profi
 
 * Seleziona **[!UICONTROL In totale]** per definire quante volte un&#39;offerta può essere proposta al pubblico target combinato, ovvero a tutti gli utenti.
 
-  Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
+  Ad esempio, se sei un retailer di elettronica con un&#39;offerta &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
 
 * Seleziona **[!UICONTROL Per profilo]** per definire quante volte un&#39;offerta può essere proposta allo stesso utente.
 
@@ -258,9 +258,9 @@ Il campo **[!UICONTROL Ripristina frequenza limite]** consente di definire la fr
 >
 >Dopo la pubblicazione dell’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza. Puoi comunque modificare il limite di frequenza se l&#39;offerta ha lo stato **[!UICONTROL Bozza]** e non è mai stata pubblicata in precedenza con il limite di frequenza abilitato.
 
-+++ **Da leggere: quota limite e API Edge Decisioning**
++++ **Da leggere: limiti di frequenza e API di gestione delle decisioni**
 
-Il contatore dei limiti di frequenza viene aggiornato e disponibile in una decisione API di Edge Decisioning in meno di 3 secondi.
+Il contatore dei limiti di frequenza è stato aggiornato e disponibile in una decisione API [Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) in meno di 3 secondi.
 
 Ogni area hub è associata a una o più aree edge. Le regole di quota limite vengono generate ed esportate da ogni area hub alle aree edge associate. Ogni volta che viene presa una decisione utilizzando l’API Edge Decisioning, il sistema applica le regole disponibili nella stessa area Edge:
 
@@ -269,7 +269,17 @@ Ogni area hub è associata a una o più aree edge. Le regole di quota limite ven
 
 Ad esempio, consideriamo l&#39;area hub della tua organizzazione come *NLD2* e stai inviando una richiesta decisionale dall&#39;Europa (*IRL1* area Edge). In questo scenario, la richiesta di decisioni incrementerà il contatore del profilo, in quanto le regole sono disponibili nell&#39;area *IRL1* (Irlanda). Tuttavia, se la richiesta di decisioning proviene da un&#39;area come il Giappone (*JPN3*), che non è un&#39;area Edge associata all&#39;area hub *NLD2* dei Paesi Bassi, non verrà creato alcun contatore e le regole di quota limite non verranno applicate.
 
+>[!NOTE]
+>
+>Quando i contatori vengono propagati da un bordo all&#39;altro o da un hub all&#39;altro, è possibile che si verifichi un ritardo di alcuni minuti.
+
 Per ulteriori informazioni su quali aree hub e edge sono associate alla tua organizzazione, contatta il tuo rappresentante Adobe.
+
+Con le altre API, il contatore del limite di frequenza viene aggiornato come segue:
+
+* In una decisione API [Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning), il contatore dei limiti di frequenza può essere aggiornato con alcuni minuti di ritardo, a seconda del traffico.
+
+* In una decisione API [Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), vengono utilizzati snapshot in cui il contatore dei limiti di frequenza rimane fisso. Se viene utilizzata la stessa istantanea, il contatore rimane invariato.
 
 +++
 

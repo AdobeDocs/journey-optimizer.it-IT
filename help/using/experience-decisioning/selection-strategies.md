@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -68,7 +68,7 @@ Per creare una strategia di selezione, segui i passaggi indicati di seguito.
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Per limitare la selezione delle offerte ai membri di un pubblico Experience Platform, selezionare **[!UICONTROL Tipi di pubblico]** e scegliere un pubblico dall&#39;elenco. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md)
+   * Per limitare la selezione delle offerte ai membri di un pubblico Experience Platform, seleziona **[!UICONTROL Tipi di pubblico]** e scegli un pubblico dall&#39;elenco. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md)
 
    * Se desideri aggiungere un vincolo di selezione con una regola di decisione, utilizza l&#39;opzione **[!UICONTROL Regola di decisione]** e seleziona la regola desiderata. [Scopri come creare una regola](rules.md)
 
@@ -114,6 +114,11 @@ Una volta creata, è possibile utilizzare questa formula in una strategia di sel
 
 ### Classificazione basata su IA {#ai-ranking}
 
-Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando un modello di intelligenza artificiale. Scopri come creare un modello di IA in [questa sezione](ranking.md).
+Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando un modello di intelligenza artificiale. Scopri come creare un modello di IA in [questa sezione](../offers/ranking/ai-models.md).
 
 Una volta creato un modello di IA, puoi utilizzarlo in una strategia di selezione. Se sono ammesse più offerte, il sistema di modelli addestrato determinerà quale offerta deve essere presentata per prima per questa strategia di selezione.
+
+>[!NOTE]
+>
+>Attualmente il rapporto [Lift Measurement](../offers/ranking/auto-optimization-model.md#lift) è disponibile solo per il modello di intelligenza artificiale [Personalized optimization](../offers/ranking/personalized-optimization-model.md).
+

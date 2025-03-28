@@ -6,13 +6,13 @@ description: Scopri come trasmettere i dati contestuali nelle richieste di Edge 
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Dati contestuali e richieste Edge Decisioning {#edge}
 
@@ -21,7 +21,7 @@ Questa sezione ti guida attraverso il passaggio di dati contestuali nelle richie
 Questo caso d’uso prevede diversi passaggi chiave:
 
 1. [Configura prerequisiti](#prerequisites): assicurati che siano stati completati tutti i passaggi necessari per trasmettere i dati contestuali nelle richieste.
-1. [Utilizza dati contestuali nelle regole di idoneità](#rule): crea regole che determinano quali offerte mostrare in base al tipo di dispositivo dell&#39;utente.
+1. [Utilizza i dati contestuali nelle regole di idoneità](#rules): crea regole che determinano quali offerte mostrare in base al tipo di dispositivo dell&#39;utente.
 1. [Progettare offerte specifiche per il dispositivo](#offers): crea offerte personalizzate per ogni tipo di dispositivo e collegale alle regole corrispondenti.
 1. [Crea una raccolta di offerte](#collection): raggruppa tutte le offerte in una raccolta statica.
 1. [Configura una decisione](#decision): crea una nuova decisione che sfrutta il motore delle decisioni per le offerte per scegliere l&#39;offerta migliore da presentare agli utenti in base al tipo di dispositivo.
@@ -149,33 +149,33 @@ Di seguito è riportato un esempio di richiesta che trasmette dati contestuali.
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 
