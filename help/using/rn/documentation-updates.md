@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b7e3edff9191d1dab15376c70839f6e2b5a318aa
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 83%
+source-wordcount: '947'
+ht-degree: 80%
 
 ---
 
@@ -30,6 +30,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La sezione sulle funzionalità di personalizzazione in Adobe Journey Optimizer è stata riorganizzata e migliorata. [Ulteriori informazioni](../personalization/personalize.md)
 * L’API di gestione delle decisioni per elencare le offerte personalizzate è stata aggiornata con un esempio per eseguire l’impaginazione nel caso in cui mancino più offerte personalizzate nella risposta. [Ulteriori informazioni](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * Per maggiore chiarezza, è stata creata una nuova pagina che raccoglie tutte le informazioni relative alla funzione di annullamento dell’iscrizione all’elenco. [Ulteriori informazioni](../email/list-unsubscribe.md)
+* La sezione Limitazioni di frequenza è stata aggiornata con informazioni su come viene aggiornato il contatore dei limiti di frequenza per le API Decisioning e Batch Decisioning, oltre all’API Edge Decisioning.
 
 
 ## Febbraio 2025 {#feb-2025}
