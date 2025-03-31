@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 29%
+source-wordcount: '991'
+ht-degree: 24%
 
 ---
 
@@ -32,12 +32,19 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 * Inserisci un **collegamento a una pagina di destinazione**. [Scopri come aggiungere una pagina di destinazione di rinuncia](#opt-out-external-lp)
 
+Quando un destinatario fa clic sul collegamento di rinuncia, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
+
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**. Ulteriori informazioni sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>A volte, gli eventi che causano l’annullamento dell’abbonamento potrebbero richiedere più tempo per essere riflessi a livello di profilo a causa dell’elaborazione dei dati a valle. Attendere qualche minuto per l&#39;aggiornamento del sistema.
 
 ## Rinuncia in un unico passaggio {#opt-out-one-step}
 
 Con [!DNL Adobe Journey Optimizer], puoi configurare le [impostazioni di configurazione e-mail](email-settings.md#list-unsubscribe) con un URL di annullamento dell&#39;iscrizione con un solo clic e un indirizzo e-mail generato automaticamente nell&#39;intestazione e-mail, oppure puoi includere un URL di rinuncia con un solo clic nel corpo dell&#39;e-mail.
-
-Quando un destinatario fa clic sul collegamento di rinuncia con un clic, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
 ### URL per annullamento iscrizione con un clic nell’intestazione dell’e-mail {#unsubscribe-header}
 
@@ -170,10 +177,4 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
    ![](assets/opt-out-confirmation-example.png)
 
    L’utente non riceverà più comunicazioni dal tuo marchio, a meno che non acconsenta nuovamente.
-
-1. Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Ulteriori informazioni sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
-
-   ![](assets/opt-out-profile-choice.png)
-
-   Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è diventato **[!UICONTROL no]**.
 
