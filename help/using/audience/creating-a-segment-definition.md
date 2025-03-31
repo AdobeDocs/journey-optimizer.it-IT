@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 19%
@@ -81,6 +81,7 @@ La segmentazione in streaming è un processo continuo di selezione di dati che a
 >[!IMPORTANT]
 >
 >A partire dal 1° novembre 2024, la segmentazione in streaming non supporta più l&#39;utilizzo di **send** e **open** eventi dai set di dati di tracciamento e feedback di Journey Optimizer.
+>
 >* Questa modifica si applica a tutte le sandbox e organizzazioni del cliente.
 >* Sono interessati solo gli eventi di invio e apertura: i clic e altri eventi di tracciamento rimangono disponibili per la segmentazione in streaming.
 >* Questa modifica si applica solo alla segmentazione in streaming. Gli eventi di invio e apertura possono comunque essere utilizzati in segmenti batch, ma se inclusi in un segmento di streaming, verranno valutati in modo batch. Inoltre, questa modifica interessa anche gli eventi di esclusione e gli eventi di mancato recapito/ritardo risultanti da eventi di invio.

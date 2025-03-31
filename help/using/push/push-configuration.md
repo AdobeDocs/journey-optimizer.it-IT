@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 4%
+source-wordcount: '1839'
+ht-degree: 5%
 
 ---
 
@@ -20,22 +20,10 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->È ora disponibile il nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di **dispositivi mobili**. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
+>È ora disponibile il nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di **dispositivi mobili**. Utilizza questa nuova funzione del prodotto per configurare rapidamente Mobile SDK per iniziare a raccogliere e convalidare i dati degli eventi mobili e per inviare notifiche push mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
 >
 
-
-## Prima di iniziare {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## Prima di iniziare {#start-push}
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
@@ -71,9 +59,9 @@ Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti o
    * **[!UICONTROL Sviluppa]**
    * **[!UICONTROL Gestisci ambienti]**
    * **[!UICONTROL Gestione estensioni]**
-   * **[!UICONTROL Publish]**
+   * **[!UICONTROL Pubblica]**
 
-   Queste autorizzazioni sono necessarie per installare e pubblicare l&#39;estensione Adobe Journey Optimizer e pubblicare la proprietà dell&#39;app nell&#39;SDK di Adobe Experience Platform Mobile.
+   Queste autorizzazioni sono necessarie per installare e pubblicare l&#39;estensione Adobe Journey Optimizer e pubblicare la proprietà dell&#39;app in Adobe Experience Platform Mobile SDK.
 
 1. Quindi, seleziona **[!UICONTROL Diritti azienda]** nel menu a sinistra.
 
@@ -110,6 +98,25 @@ Per assegnare questo **[!UICONTROL profilo di prodotto]** agli utenti, effettua 
 
    ![](assets/push_product_7.png)
 
+
+### Verifica i set di dati {#push-datasets}
+
+Con il canale di notifica push sono disponibili i seguenti schemi e set di dati:
+
+| Schema <br>Set di dati | Gruppo di campi | Operazione |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Schema profilo push CJM <br>Set di dati profilo push CJM | Dettagli notifica push<br>Adobe CJM ExperienceEvent - Dettagli profilo messaggio<br>Adobe CJM ExperienceEvent - Dettagli esecuzione messaggio<br>Dettagli applicazione<br>Dettagli ambiente | Registra token di push |
+| Schema evento di tracciamento push CJM<br>Set di dati evento di tracciamento push CJM | Tracciamento notifiche push | Tracciare le interazioni e fornire i dati per l’interfaccia utente di reporting |
+
+
+>[!NOTE]
+>
+>Quando gli eventi di tracciamento push vengono acquisiti nel set di dati dell’evento di tracciamento push CJM, possono verificarsi alcuni errori, anche se i dati vengono parzialmente acquisiti con successo. Ciò può verificarsi se alcuni campi nella mappatura non esistono negli eventi in arrivo: il sistema registra gli avvisi ma non impedisce l’acquisizione di parti valide dei dati. Questi avvisi vengono visualizzati nello stato batch come &quot;non riuscito&quot; ma riflettono un parziale successo dell’acquisizione.
+>
+>Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
+
+
+
 ### Configurare l’app {#configure-app}
 
 La configurazione tecnica prevede una stretta collaborazione tra lo sviluppatore dell’app e l’amministratore aziendale. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], devi creare le credenziali push, una configurazione del canale push in Adobe Journey Optimizer e integrare la tua app mobile con gli SDK di Adobe Experience Platform Mobile.
@@ -119,18 +126,18 @@ Segui i passaggi di implementazione descritti nei collegamenti seguenti:
 * Per **Apple iOS**: scopri come registrare la tua app con APN nella [documentazione di Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
 * Per **Google Android**: scopri come configurare un&#39;app client Firebase Cloud Messaging su Android nella [documentazione di Google](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
-### Integrare la tua app mobile con l’SDK di Adobe Experience Platform {#integrate-mobile-app}
+### Integrare la tua app mobile con Adobe Experience Platform SDK {#integrate-mobile-app}
 
-L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. Segui la [documentazione dell&#39;SDK di Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per completare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
+Adobe Experience Platform Mobile SDK fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. Segui la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per completare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
 
-Al termine di questa fase, dovresti anche aver creato e configurato una proprietà mobile in [!DNL Adobe Experience Platform Data Collection]. In genere si crea una proprietà mobile per ogni applicazione mobile che si desidera gestire. Scopri come creare e configurare una proprietà mobile nella [documentazione dell&#39;SDK di Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Al termine di questa fase, dovresti anche aver creato e configurato una proprietà mobile in [!DNL Adobe Experience Platform Data Collection]. In genere si crea una proprietà mobile per ogni applicazione mobile che si desidera gestire. Scopri come creare e configurare una proprietà mobile nella [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 
 ## Passaggio 1: aggiungere le credenziali push dell’app in Journey Optimizer {#push-credentials-launch}
 
 Dopo aver concesso le autorizzazioni utente corrette, ora devi aggiungere le credenziali push dell’app mobile in Journey Optimizer.
 
-La registrazione delle credenziali push dell’app mobile è necessaria per autorizzare l’Adobe a inviare notifiche push per tuo conto. Consulta i passaggi descritti di seguito:
+La registrazione delle credenziali push dell’app mobile è necessaria per autorizzare Adobe a inviare notifiche push per tuo conto. Consulta i passaggi descritti di seguito:
 
 1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni push]** > **[!UICONTROL Credenziali push]**.
 
@@ -199,7 +206,7 @@ Dopo aver creato le credenziali push, devi creare una configurazione per poter i
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
@@ -222,7 +229,7 @@ Ora puoi selezionare la configurazione durante la creazione delle notifiche push
 
 L&#39;estensione **Adobe Journey Optimizer** per gli SDK Adobe Experience Platform Mobile potenzia le notifiche push per le app mobili e ti aiuta a raccogliere i token push degli utenti e a gestire la misurazione delle interazioni con i servizi Adobe Experience Platform.
 
-Scopri come configurare l&#39;estensione Journey Optimizer nella [documentazione Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+Scopri come configurare l&#39;estensione Journey Optimizer nella [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
 
 
 <!-- 
