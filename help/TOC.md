@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + Configurare il canale della scheda contenuto {#configure}
          + [Prerequisiti per le schede contenuto](using/content-card/content-card-configuration-prereq.md)
          + [Configurare il canale delle schede contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
-         + [Configurare il supporto per le schede di contenuto in Mobile SDK](using/content-card/content-card-lp.md)
+         + [Configurare il supporto delle schede di contenuto nell’SDK per dispositivi mobili](using/content-card/content-card-lp.md)
          + [Configurare il supporto per le schede di contenuto in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Creare schede contenuto](using/content-card/create-content-card.md)
       + [Progettare schede contenuto](using/content-card/design-content-card.md)
@@ -492,7 +492,7 @@ ht-degree: 97%
       + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
       + [Guardrail e limitazioni per la funzione Decisioni](using/experience-decisioning/decisioning-guardrails.md)
       + Riferimento API{#api-reference}
-         + Crea e gestisci elementi di offerta {#create-manage}
+         + Creare e gestire elementi di offerta {#create-manage}
             + Elementi decisionali{#decision-items}
                + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [Elenco elementi decisionali](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
