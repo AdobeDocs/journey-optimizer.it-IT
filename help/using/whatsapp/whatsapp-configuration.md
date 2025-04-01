@@ -9,9 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '461'
 ht-degree: 4%
 
 ---
@@ -42,7 +43,7 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 
 1. Configura le credenziali API come descritto di seguito:
 
-   * **Token API**: https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **Token API**: immetti il token API. Ulteriori informazioni nella [documentazione Meta](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
    * **ID account aziendale**: immetti il numero univoco relativo al tuo portfolio aziendale. Ulteriori informazioni nella [documentazione Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare una 
 
 1. Seleziona **[!UICONTROL Azioni di marketing]** per associare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso associati all’azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. Ulteriori informazioni
 
-1. Seleziona la **[!UICONTROL configurazione WhatsApp]** creata in precedenza.
+1. Seleziona la **[!UICONTROL configurazione API WhatsApp]** creata in precedenza.
 
    ![](assets/whatsapp-config-3.png)
 
