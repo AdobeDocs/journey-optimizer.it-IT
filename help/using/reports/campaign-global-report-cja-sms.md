@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 3%
@@ -17,6 +18,8 @@ ht-degree: 3%
 # Rapporto sulla campagna SMS {#campaign-global-report-cja-sms}
 
 ## Tendenza consegne e clic {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 Il grafico **[!UICONTROL Tendenza consegna vs clic]** presenta un&#39;analisi dettagliata del coinvolgimento dei tuoi profili con le e-mail, fornendo informazioni utili sul modo in cui i profili interagiscono con il contenuto.
 
@@ -29,6 +32,8 @@ Il grafico **[!UICONTROL Tendenza consegna vs clic]** presenta un&#39;analisi de
 +++
 
 ## Stato consegna {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 La tabella **[!UICONTROL Stato consegna]** offre un account dettagliato dell&#39;attività del profilo correlata alle campagne SMS. Ciò include metriche su consegnati, clic e altri indicatori di coinvolgimento rilevanti, che offrono una panoramica completa del modo in cui i profili interagiscono con il contenuto SMS.
 

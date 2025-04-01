@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 0%
+source-wordcount: '887'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Il report **Percorso** funziona come un dashboard completo che fornisce un&#39;a
 
 ![](assets/gs-cja-report-3.png)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, fare riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Panoramica del percorso {#journey-global}
 
@@ -43,8 +43,6 @@ Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) di **[!UI
 
 * **[!UICONTROL Uscite dal Percorso]**: numero totale di singoli utenti che sono usciti dal percorso.
 
-* **[!UICONTROL Errori di Percorso]**: numero totale di singoli percorsi non eseguiti correttamente.
-
 +++
 
 ### Statistiche percorso {#journey-stats}
@@ -54,6 +52,8 @@ Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) di **[!UI
 La tabella **[!UICONTROL Statistiche Percorso]** offre un riepilogo dettagliato dei dati fondamentali sui percorsi. Include metriche chiave come il numero di errori e di voci di successo, fornendo informazioni utili sulle prestazioni e sulla portata delle e-mail e dei percorsi.
 
 +++ Ulteriori informazioni sulle metriche delle statistiche di Percorso
+
+* **[!UICONTROL Esclusione Percorso]**: numero totale di individui esclusi dal percorso a causa di criteri predefiniti o regole di soppressione.
 
 * **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di singoli utenti univoci che hanno ricevuto messaggi inviati tramite il percorso, che rappresentano profili distinti che hanno raggiunto un punto di azione designato nel percorso.
 
@@ -71,11 +71,21 @@ La tabella **[!UICONTROL Statistiche Percorso]** offre un riepilogo dettagliato 
 
 +++
 
+## Esclusione percorso {#journey-exclusion}
+
+La tabella **[!UICONTROL Esclusione di Percorso]** presenta una panoramica completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente.
+
+## Errore azione {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+Il widget **[!UICONTROL Errori azione]** descrive i diversi errori che si sono verificati per le azioni del percorso.
+
 ## Area di lavoro percorso {#journey-canvas}
 
 ![](assets/cja-journey-canvas.png)
 
-Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Migliora la personalizzazione dell’area di lavoro con le seguenti opzioni:
 
@@ -106,9 +116,11 @@ La tabella **[!UICONTROL Panoramica azioni]** funge da dashboard completo e offr
 
 +++ Ulteriori informazioni sulle metriche della panoramica delle azioni
 
-* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per le azioni.
+* **[!UICONTROL Il nodo entra]**: numero totale di singoli utenti che hanno immesso un nodo specifico all&#39;interno del percorso.
 
-* **[!UICONTROL Percentuale minima di clic]**: percentuale di utenti che hanno interagito con l&#39;azione.
+* **[!UICONTROL Errore di Percorso]**: numero totale di singoli percorsi non eseguiti correttamente.
+
+* **[!UICONTROL Percentuale di click-through]**: percentuale di utenti che hanno interagito con l&#39;azione.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle azioni.
 

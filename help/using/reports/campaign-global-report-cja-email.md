@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -65,13 +65,13 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce un riepilogo completo 
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
-* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
-
 * **[!UICONTROL Destinato]**: numero totale di e-mail elaborate durante il processo di invio.
 
 * **[!UICONTROL Invii]**: numero totale di invii per e-mail.
 
 * **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente, in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Consegne univoche]**: numero di profili che hanno ricevuto almeno un&#39;e-mail.
 
 * **[!UICONTROL Mancati recapiti per i canali in uscita]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione automatica dei resi in relazione al numero totale di messaggi inviati.
 
@@ -99,12 +99,13 @@ La tabella **[!UICONTROL E-mail - Statistiche di tracciamento]** offre un accoun
 
 * **[!UICONTROL Aperture e-mail]**: il numero di volte in cui le e-mail sono state aperte in una campagna.
 
-* **[!UICONTROL Aperture e-mail univoche]**: percentuale di messaggi e-mail aperti.
+* **[!UICONTROL Aperture e-mail univoche]**: numero di profili che hanno aperto le e-mail.
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
 * **[!UICONTROL Annullamenti iscrizione]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 
+* **[!UICONTROL Annullamenti iscrizione e-mail univoci]**: numero di profili che hanno annullato l&#39;iscrizione alle e-mail.
 +++
 
 ## Domini e-mail {#email-domains}
@@ -119,13 +120,12 @@ La tabella **[!UICONTROL Domini e-mail]** offre una suddivisione approfondita de
 
 * **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente rispetto al numero totale di e-mail inviate.
 
-* **[!UICONTROL Aperture e-mail]**: il numero di volte in cui le e-mail sono state aperte in una campagna.
-
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
-
 * **[!UICONTROL Mancati recapiti per i canali in uscita]**: numero totale di errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica in relazione al numero totale di e-mail inviate.
 
 * **[!UICONTROL Errori in uscita]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
+
+* **[!UICONTROL Esclusioni in uscita]**: numero di profili esclusi da Adobe Journey Optimizer.
+
 +++
 
 ## Etichette collegamenti tracciati {#track-link-label}
@@ -154,10 +154,6 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui l&#39;e-mail è stata aperta.
-
-* **[!UICONTROL Visualizzazioni univoche]**: numero di volte in cui l&#39;e-mail è stata aperta, non vengono prese in considerazione più interazioni di un profilo.
-
 +++
 
 ## Oggetti e-mail {#email-subjects}
@@ -168,8 +164,9 @@ La tabella **[!UICONTROL Oggetti e-mail]** presenta una panoramica completa degl
 
 +++ Ulteriori informazioni sulle metriche degli oggetti e-mail
 
-* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per le e-mail.
+* **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente rispetto al numero totale di e-mail inviate.
 
+* **[!UICONTROL Consegne univoche]**: numero di profili distinti che hanno ricevuto correttamente almeno un&#39;e-mail, assicurando che i duplicati non vengano conteggiati.
 +++
 
 ## Motivi di esclusione {#excluded-reasons}

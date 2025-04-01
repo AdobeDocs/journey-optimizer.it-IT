@@ -7,14 +7,15 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '495'
 ht-degree: 3%
 
 ---
 
-# Rapporto campagna notifiche push {#campaign-global-report-cja-push}
+# Rapporto sulle notifiche push della campagna {#campaign-global-report-cja-push}
 
 ## Statistiche di invio {#sending-statistics-push}
 
@@ -24,15 +25,13 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce un riepilogo completo 
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
-* **[!UICONTROL Persone]**: numero di profili utente idonei come profili di destinazione per le notifiche push.
-
 * **[!UICONTROL Target]**: numero totale di notifiche push elaborate durante l&#39;analisi.
 
 * **[!UICONTROL Invii]**: numero totale di invii per la notifica push.
 
 * **[!UICONTROL Recapitato]**: numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
 
-* **[!UICONTROL Mancati recapiti per i canali in uscita]**: totale degli errori accumulati durante il processo di invio ed elaborazione automatica dei resi in relazione al numero totale di notifiche push.
+* **[!UICONTROL Consegna univoca]**: numero di profili che hanno ricevuto almeno una notifica push.
 
 * **[!UICONTROL Errori in uscita]**: numero totale di errori che ne impediscono l&#39;invio ai profili.
 
@@ -50,18 +49,15 @@ La tabella **[!UICONTROL Statistiche di tracciamento]** offre un&#39;istantanea 
 
 * **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che hanno interagito con le notifiche push.
 
-* **[!UICONTROL Percentuale di apertura click-through (CTOR)]**: numero di volte in cui sono state aperte le notifiche push.
-
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle notifiche push.
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nelle notifiche push.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Azioni personalizzate push]**: numero di azioni personalizzate eseguite dai profili in risposta alle notifiche push.
+
 +++
 
-## Etichette collegamenti tracciati {#track-link-label-push}
+## Etichette tracciate {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 

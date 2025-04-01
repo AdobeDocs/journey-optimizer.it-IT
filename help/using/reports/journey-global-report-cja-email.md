@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1059'
 ht-degree: 2%
 
 ---
@@ -65,15 +65,15 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce una visualizzazione ch
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
-* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
-
 * **[!UICONTROL Destinato]**: numero totale di e-mail elaborate durante il processo di invio.
 
 * **[!UICONTROL Invii]**: numero totale di invii per e-mail.
 
 * **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente, in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione automatica dei resi in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegne univoche]**: numero di profili che hanno ricevuto almeno un&#39;e-mail.
+
+* **[!UICONTROL Mancati recapiti per i canali in uscita]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione automatica dei resi in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errori in uscita]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
@@ -91,25 +91,26 @@ La tabella **[!UICONTROL E-mail - Statistiche di tracciamento]** offre un accoun
 
 * **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che hanno interagito con l&#39;e-mail.
 
-* **[!UICONTROL Percentuale di apertura click-through (CTOR)]**: numero di volte in cui l&#39;e-mail è stata aperta.
+* **[!UICONTROL Percentuale di apertura dei clic]**: numero di volte in cui l&#39;e-mail è stata aperta.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.
 
-* **[!UICONTROL Aperture e-mail]**: il numero di volte in cui le e-mail sono state aperte in un percorso.
+* **[!UICONTROL Aperture e-mail]**: il numero di volte in cui le e-mail sono state aperte in una campagna.
 
-* **[!UICONTROL Aperture e-mail univoche]**: percentuale di messaggi e-mail aperti.
+* **[!UICONTROL Aperture e-mail univoche]**: numero di profili che hanno aperto le e-mail.
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
 * **[!UICONTROL Annullamenti iscrizione]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 
+* **[!UICONTROL Annullamenti iscrizione e-mail univoci]**: numero di profili che hanno annullato l&#39;iscrizione alle e-mail.
 +++
 
 ## Domini e-mail {#email-domains}
 
-![](assets/cja-journey-email-domain.png)
+![](assets/cja-email-email-domains.png)
 
 La tabella **[!UICONTROL Domini e-mail]** offre una suddivisione approfondita delle e-mail suddivise per dominio, fornendo informazioni approfondite sulle metriche delle prestazioni dei percorsi e-mail. Questa analisi completa ti consente di comprendere il comportamento di diversi domini in risposta al contenuto delle e-mail.
 
@@ -126,6 +127,9 @@ La tabella **[!UICONTROL Domini e-mail]** offre una suddivisione approfondita de
 * **[!UICONTROL Mancati recapiti per i canali in uscita]**: numero totale di errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica in relazione al numero totale di e-mail inviate.
 
 * **[!UICONTROL Errori in uscita]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
+
+* **[!UICONTROL Esclusioni in uscita]**: numero di profili esclusi da Adobe Journey Optimizer.
+
 +++
 
 ## Etichette collegamenti tracciati {#track-link-label}
@@ -154,31 +158,33 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
-
-* **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
-
 +++
+
 
 ## Oggetti e-mail {#email-subject}
 
-![](assets/cja-journey-email-subjects.png)
+![](assets/cja-email-subject.png)
 
 La tabella **[!UICONTROL Oggetti e-mail]** presenta una panoramica completa degli oggetti e-mail che hanno attirato il traffico visitatore più elevato. Questa risorsa offre informazioni preziose sulle dinamiche di coinvolgimento del pubblico.
 
 +++ Ulteriori informazioni sulle metriche degli oggetti e-mail
 
-* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per le e-mail.
+* **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente rispetto al numero totale di e-mail inviate.
 
+* **[!UICONTROL Consegne univoche]**: numero di profili distinti che hanno ricevuto correttamente almeno un&#39;e-mail, assicurando che i duplicati non vengano conteggiati.
 +++
 
 ## Motivi di mancato recapito {#email-bounce-reasons}
+
+![](assets/cja-journey-email-bounce.png)
 
 La tabella **[!UICONTROL Motivi di mancato recapito]** compila i dati disponibili relativi ai messaggi non recapitati, fornendo informazioni dettagliate sui motivi specifici alla base dei mancati recapiti e-mail.
 
 Per ulteriori informazioni sui mancati recapiti, consulta la pagina [Elenco di soppressione](../reports/suppression-list.md).
 
 ## Motivi di esclusione {#email-excluded}
+
+![](assets/cja-journey-email-excluded.png)
 
 La tabella **[!UICONTROL Motivi di esclusione]** presenta una visualizzazione completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente dal pubblico di destinazione, causando la mancata ricezione del messaggio.
 

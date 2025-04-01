@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '540'
 ht-degree: 2%
 
 ---
 
-# Rapporto campagna in-app {#campaign-global-report-cja-inapp}
+# Rapporto sulla campagna in-app {#campaign-global-report-cja-inapp}
 
-## Tendenza impression e clic {#impression-click-trend}
+## Tendenza di visualizzazione e clic {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ Il grafico **[!UICONTROL Tendenza impression e clic]** presenta un&#39;analisi d
 
 ## Clic {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 Il grafico **[!UICONTROL Clic]** visualizza le metriche di clic in-app, illustrando sia il numero totale di clic sul contenuto che il numero di profili univoci che hanno fatto clic sul contenuto.
 
 +++ Ulteriori informazioni sulle metriche Clic
@@ -46,6 +48,8 @@ Il grafico **[!UICONTROL Clic]** visualizza le metriche di clic in-app, illustra
 
 ## Visualizzazione {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 Il grafico **[!UICONTROL Displays]** ti aiuta a comprendere sia la portata complessiva del messaggio che il numero di profili univoci coinvolti con esso.
 
 +++ Ulteriori informazioni sulle metriche di visualizzazione
@@ -57,6 +61,8 @@ Il grafico **[!UICONTROL Displays]** ti aiuta a comprendere sia la portata compl
 +++
 
 ## Dati di tracciamento {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagliata dell&#39;attività del profilo associata ai messaggi in-app, fornendo informazioni essenziali sull&#39;efficacia del coinvolgimento e dei messaggi in-app.
 
@@ -78,11 +84,11 @@ La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagl
 
 * **[!UICONTROL Invii]**: numero totale di invii per i messaggi in-app.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL Attivazione in entrata]**: numero di volte in cui un messaggio in-app è stato attivato da un&#39;interazione dell&#39;utente o da un evento predefinito.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL Messaggi in entrata ignorati]**: numero di volte in cui gli utenti hanno ignorato il messaggio in-app senza interagire con esso.
+
+
 +++
 
 ## Etichette collegamenti tracciati {#track-link-label-inapp}
