@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '880'
+ht-degree: 62%
 
 ---
 
@@ -29,7 +29,9 @@ Questa sezione fornisce informazioni globali su come lavorare con l’API. Una d
 >
 >Al raggiungimento del limite impostato nell’API, gli altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
 
-## Descrizione dell’API di limitazione {#description}
+## Descrizione API di limitazione e raccolta Postman {#description}
+
+Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Metodo | Percorso | Descrizione |
 |---|---|---|
@@ -41,6 +43,15 @@ Questa sezione fornisce informazioni globali su come lavorare con l’API. Una d
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Aggiornare una configurazione di limitazione |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperare una configurazione di limitazione |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Eliminare una configurazione di limitazione |
+
+Inoltre, una raccolta Postman è disponibile [qui](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) per aiutarti nella configurazione di test.
+
+Questa raccolta è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori di integrazione selezionati.
+
+Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
+* `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway.
+* `{BASE_PATH}`: punto di ingresso per l&#39;API.
+* `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
 ## Configurazione di limitazione {#configuration}
 
@@ -134,57 +145,6 @@ Quando si tenta di creare un’altra configurazione:
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## Casi d’uso {#uc}
-
-Per facilitare i test e la configurazione, [qui](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) è disponibile una raccolta Postman.
-
-Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console di Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori delle integrazioni selezionate.
-
-Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway
-* `{BASE_PATH}`: punto di ingresso per l&#39;API.
-* `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
-
-Nella sezione seguente, è disponibile un elenco ordinato delle chiamate API REST per eseguire il caso d’uso.
-
-Caso d’uso n°1: **Creazione e distribuzione di una nuova configurazione di limitazione**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-Caso d’uso n° 2: **Aggiornare e distribuire una configurazione di limitazione non ancora distribuita**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-Caso d’uso n° 3: **Annullare la distribuzione ed eliminare una configurazione di limitazione distribuita**
-
-1. list
-1. undeploy
-1. delete
-
-Caso d’uso n° 4: **Eliminare una configurazione di limitazione distribuita**
-
-È possibile annullare la distribuzione ed eliminare la configurazione in una sola chiamata API utilizzando il parametro forceDelete.
-
-1. list
-1. eliminare, con il parametro forceDelete
-
-Caso d’uso n° 5: **Aggiornare una configurazione di limitazione già distribuita**
-
->[!NOTE]
->
->Non è richiesto annullare la distribuzione della configurazione prima dell’aggiornamento
-
-1. list
-1. get
-1. update
 
 ## Ciclo di vita della configurazione a livello di runtime {#config}
 
@@ -338,3 +298,67 @@ Durante l’aggiornamento di una configurazione già distribuita, i nuovi valori
     }
 }
 ```
+
+## Casi d’uso {#uc}
+
+In questa sezione sono elencati i casi d&#39;uso chiave per la gestione delle configurazioni di limitazione in [!DNL Journey Optimizer] e i comandi API associati necessari per implementare il caso d&#39;uso.
+
+I dettagli su ciascun comando API sono disponibili nella [descrizione API e raccolta Postman](#description).
+
++++Creazione e distribuzione di una nuova configurazione di limitazione
+
+Chiamate API per l’utilizzo di:
+
+1. **`list`** - Recupera le configurazioni esistenti.
+1. **`create`** - Crea una nuova configurazione.
+1. **`candeploy`** - Controlla se la configurazione può essere distribuita.
+1. **`deploy`** - Distribuisce la configurazione.
+
++++
+
++++Aggiornare e distribuire una configurazione di limitazione (non ancora distribuita)
+
+Chiamate API per l’utilizzo di:
+
+1. **`list`** - Recupera le configurazioni esistenti.
+1. **`get`** - Recupera i dettagli di una configurazione specifica.
+1. **`update`** - Modifica la configurazione.
+1. **`candeploy`** - Verifica l&#39;idoneità alla distribuzione.
+1. **`deploy`** - Distribuisce la configurazione.
+
++++
+
++++Annullare la distribuzione ed eliminare una configurazione di limitazione implementata
+
+Chiamate API per l’utilizzo di:
+
+1. **`list`** - Recupera le configurazioni esistenti.
+1. **`undeploy`** - Annulla la distribuzione della configurazione.
+1. **`delete`** - Rimuove la configurazione.
+
++++
+
++++Eliminare una configurazione di limitazione distribuita
+
+In una sola chiamata API è possibile annullare la distribuzione ed eliminare la configurazione utilizzando il parametro `forceDelete`.
+
+Chiamate API per l’utilizzo di:
+
+1. **`list`** - Recupera le configurazioni esistenti.
+1. **`delete`(con il parametro `forceDelete`)** - Forza l&#39;eliminazione di una configurazione distribuita in un singolo passaggio.
+
++++
+
++++Aggiornare una configurazione di limitazione già distribuita
+
+>[!NOTE]
+>
+>Non è richiesto annullare la distribuzione della configurazione prima dell’aggiornamento
+
+Chiamate API per l’utilizzo di:
+
+1. **`list`** - Recupera le configurazioni esistenti.
+1. **`get`** - Recupera i dettagli di una configurazione specifica.
+1. **`update`** - Modifica la configurazione.
+
++++
