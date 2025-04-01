@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 36%
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
 
-## Note preliminari sulla versione del 25 marzo {#25-3-rn}
+## Note preliminari sulla versione di marzo 2025 {#25-3-rn}
 
 
-**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati alla data di rilascio.
+**Le note preliminari sulla versione riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata sono pubblicati alla data di rilascio.
 
 **Data di rilascio**: 26-27 marzo 2025
 
@@ -44,7 +44,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>L’integrazione di Adobe Express in Adobe Journey Optimizer consente di utilizzare gli strumenti di modifica di Adobe Express direttamente durante la creazione dei contenuti, per ridimensionare, rimuovere gli sfondi, ritagliare e convertire le risorse in JPEG o PNG.<p>
+<p>L’integrazione di Adobe Express in Adobe Journey Optimizer consente di utilizzare gli strumenti di modifica di Adobe Express direttamente durante la creazione del contenuto, consentendoti di ridimensionare, rimuovere gli sfondi, ritagliare e convertire le risorse in JPEG o PNG.<p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -76,8 +76,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora è disponibile una vista calendario che consente di visualizzare tutte le attivazioni dei percorsi. Questa funzionalità viene rilasciata come Disponibilità limitata a un gruppo selezionato di clienti.<p>
-<p>Questa modifica è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Una vista calendario ora consente di visualizzare tutte le attivazioni dei percorsi. Questa funzionalità viene rilasciata con disponibilità limitata a un gruppo selezionato di clientela.<p>
+<p>Questo cambiamento è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -95,13 +95,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione consente di:
 <ul>
-<li>Gestione centralizzata delle risorse con aggiornamenti in tempo reale</li>
-<li>Modifica istantaneamente le impostazioni delle risorse, ad esempio larghezza e altezza</li>
+<li>Gestire in maniera centralizzata le risorse con aggiornamenti in tempo reale</li>
+<li>Modificare istantaneamente le impostazioni delle risorse, ad esempio larghezza e altezza</li>
 <li>Personalizzare il contenuto utilizzando immagini con sovrapposizioni di testo</li>
-<li>Personalizza i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione</li>
+<li>Personalizzare i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione</li>
 </ul>
 <p>
-<p>Questa integrazione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa integrazione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -119,8 +119,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Per migliorare l’efficienza del marketing e mantenere la coerenza del marchio, ora puoi integrare perfettamente le esperienze GenStudio for Performance Marketing con Journey Optimizer. Questo consente di sfruttare la creazione di contenuti basati sull’intelligenza artificiale di GenStudio insieme alle funzionalità avanzate di orchestrazione di Journey Optimizer.<p>
-<p>L'utilizzo dell'integrazione GenStudio in Journey Optimizer non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield (Disponibilità limitata).</p>
+<p>Per migliorare l’efficienza del marketing e mantenere la coerenza del brand, ora puoi integrare facilmente le esperienze GenStudio for Performance Marketing con Journey Optimizer. Questo consente di sfruttare la creazione del contenuto basata sull’intelligenza artificiale di GenStudio insieme alle funzionalità avanzate di orchestrazione di Journey Optimizer.<p>
+<p>L’utilizzo dell’integrazione GenStudio in Journey Optimizer non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield (disponibilità limitata).</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -136,8 +136,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ha ampliato le sue funzionalità cross-channel per includere il supporto per il canale LINE. Questo miglioramento consente di creare, modificare e visualizzare in anteprima le esperienze LINE, consentendo interazioni più personalizzate e coinvolgenti. Con LINE, puoi connetterti con più clienti, inviare contenuti rilevanti e migliorare il tuo coinvolgimento.<p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Adobe Journey Optimizer ha ampliato le sue funzionalità cross-channel per includere il supporto per il canale LINE. Questo miglioramento consente di creare, modificare e visualizzare in anteprima le esperienze LINE, permettendo interazioni più personalizzate e coinvolgenti. Con LINE, puoi connetterti con più clientela, inviare contenuti rilevanti e migliorare il coinvolgimento.<p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -146,7 +146,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 ### Miglioramenti {#25-03-improv}
 
-**Editor Personalization** (data di disponibilità: 12 marzo)
+**Editor di personalizzazione** (data di disponibilità: 12 marzo)
 
 L’editor di personalizzazione di Journey Optimizer è stato aggiornato con nuove funzionalità:
 
@@ -158,36 +158,36 @@ L’editor di personalizzazione di Journey Optimizer è stato aggiornato con nuo
 * **Completamento automatico per attributi di profilo e di contesto**: offre suggerimenti avanzati per semplificare la creazione di contenuti.
 * **Evidenziazione della sintassi migliorata**: migliora la leggibilità rendendo la struttura del codice visivamente più distinta.
 
-![Video che mostra la nuova funzionalità nell&#39;editor di Personalization](assets/do-not-localize/personalization-editor.gif)
+![Video che mostra la nuova funzione nell’editor di personalizzazione](assets/do-not-localize/personalization-editor.gif)
 
 Per ulteriori informazioni, consulta la [documentazione dettagliata](../personalization/personalization-build-expressions.md).
 
 
 **Campagne**
 
-* Nell’elenco delle campagne, quando si seleziona una campagna ora viene aperto un riquadro con i relativi dettagli.
+* Nell’elenco campagne, selezionando una campagna ora viene aperto un riquadro che ne visualizza i dettagli.
 * Ora puoi copiare le campagne da una sandbox a un’altra.
 
 **Personalizzazione**
 
-Un nuovo pulsante &quot;Pills&quot; è stato aggiunto all’editor di personalizzazione. Quando sono abilitati, gli attributi di profilo e contestuali vengono visualizzati come pillole, migliorando la leggibilità del codice.
+All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando è abilitato, gli attributi contestuali e di profilo vengono visualizzati come pillole, migliorando la leggibilità del codice.
 
 **Approvazioni**
 
-Quando si definiscono le condizioni per un criterio di approvazione, è ora possibile filtrare in base a Tag e/o Categoria oggetto.
+Quando si definiscono le condizioni per un criterio di approvazione, ora è possibile filtrare in base a Tag e/o Categoria oggetto.
 
-**Configurazione canale**
+**Configurazione del canale**
 
-Ora puoi assegnare Tag unificati Adobe Experience Platform alle configurazioni dei canali. Questo ne agevola la classificazione e migliora la ricerca e la navigazione in tutti gli elenchi.
+Ora è possibile assegnare tag unificati Adobe Experience Platform alle configurazioni del canale. Questo ti consente di classificarli facilmente e migliora la ricerca e la navigazione in tutti gli elenchi.
 
-**Deliverability**
+**Recapitabilità**
 
-Ora puoi delegare i sottodomini con DMARC gestito dal lato padre.
+Ora puoi delegare i sottodomini con DMARC, essendo gestito dalla parte principale.
 
-**Regole aziendali**
+**Regole di business**
 
-Ora puoi utilizzare il limite di frequenza giornaliero in percorsi e campagne con segmentazione **batch**. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ora puoi utilizzare una quota limite di frequenza giornaliera in percorsi e campagne con segmentazione in **batch**. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida di Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 **Gestione dei contenuti**
 
-Per gestire facilmente i frammenti e i modelli di contenuto, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata.
+Per gestire facilmente i frammenti e i modelli di contenuto, ora puoi utilizzare le cartelle per organizzarli in modo più efficace in una gerarchia strutturata.
