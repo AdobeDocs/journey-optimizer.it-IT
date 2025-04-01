@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 41%
+source-wordcount: '564'
+ht-degree: 45%
 
 ---
 
@@ -30,24 +30,24 @@ ht-degree: 41%
 
 Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Integrazione con Adobe Express (disponibilità limitata)</strong><br/></th>
+<th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’integrazione di Adobe Express in Adobe Journey Optimizer consente di utilizzare gli strumenti di modifica di Adobe Express direttamente durante la creazione dei contenuti, per ridimensionare, rimuovere gli sfondi, ritagliare e convertire le risorse in JPEG o PNG.<p>
-<p>L’integrazione di Adobe Express in Adobe Journey Optimizer è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Non può essere utilizzato con Healthcare Shield o Privacy and Security Shield.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../integrations/express.md">documentazione dettagliata</a>.</p>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+<p>Adobe Express integration in Adobe Journey Optimizer is currently only available for a set of organizations (Limited Availability). It cannot be deployed for use with Healthcare Shield or Privacy and Security Shield.</p>
+<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>
 </br>
 <img src="assets/do-not-localize/express_resize.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
