@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 22%
+source-wordcount: '1469'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 22%
 Per gestire i frammenti, accedi all&#39;elenco di frammenti dal menu a sinistra **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**.
 
 Vengono visualizzati tutti i frammenti creati nella sandbox corrente, ovvero [dal menu **[!UICONTROL Frammenti]**](#create-fragments), utilizzando l&#39;opzione [Salva come frammento](#save-as-fragment).
+
+Il riquadro a sinistra consente di organizzare i frammenti in cartelle. Per impostazione predefinita, vengono visualizzati tutti i frammenti. Quando selezioni una cartella, vengono visualizzati solo i frammenti e le cartelle inclusi nella cartella selezionata. [Ulteriori informazioni](#folders)
+
+>[!NOTE]
+>
+>Le cartelle dei frammenti sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
+
+![](assets/fragment-list-folders.png)
+
+Per trovare un elemento specifico, inizia a digitare un nome nel campo di ricerca. Quando è selezionata una [cartella](#folders), la ricerca viene applicata a tutti i frammenti o cartelle nel primo livello della gerarchia della cartella<!--(not nested items)-->.
 
 Puoi filtrare i frammenti in base ai seguenti elementi:
 
@@ -43,10 +53,54 @@ Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 * Utilizza l&#39;opzione **[!UICONTROL Esplora riferimenti]** per visualizzare i percorsi, le campagne o i modelli in cui viene utilizzato. [Ulteriori informazioni](#explore-references)
 * Archivia il frammento. [Ulteriori informazioni](#archive-fragments)
 * Modifica i tag del frammento. [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags)
+* Sposta il frammento in una cartella. [Ulteriori informazioni](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## Stati dei frammenti
+## Utilizzare le cartelle per gestire i frammenti {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="Organizzare i frammenti in cartelle"
+>abstract="Utilizza le cartelle per categorizzare e gestire i frammenti in base alle esigenze della tua organizzazione."
+
+>[!AVAILABILITY]
+>
+>Le cartelle dei frammenti sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
+
+Per navigare facilmente nei frammenti, puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.
+
+![](assets/fragment-folders.png)
+
+1. Fare clic sul pulsante **[!UICONTROL Tutti i frammenti]** per visualizzare tutti gli elementi creati in precedenza senza il raggruppamento di cartelle.
+
+1. Fare clic sulla cartella **[!UICONTROL Root]** per visualizzare tutte le cartelle create.
+
+   >[!NOTE]
+   >
+   >Se non hai ancora creato le cartelle, vengono visualizzati tutti i frammenti.
+
+1. Fare clic su una cartella all&#39;interno della cartella **[!UICONTROL Root]** per visualizzarne il contenuto.
+
+1. Facendo clic sulla cartella **[!UICONTROL Root]** o su qualsiasi altra cartella, viene visualizzato il pulsante **[!DNL Create folder]**. Selezionala.
+
+   ![](assets/fragment-create-folder.png)
+
+1. Digitare un nome per la nuova cartella e fare clic su **[!UICONTROL Salva]**. La nuova cartella viene visualizzata all&#39;inizio dell&#39;elenco di frammenti all&#39;interno della cartella **[!UICONTROL Root]** o della cartella attualmente selezionata.
+
+1. Puoi fare clic sul pulsante **[!UICONTROL Altre azioni]** per rinominare o eliminare la cartella.
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. Utilizzando il pulsante **[!UICONTROL Altre azioni]**, puoi anche spostare il frammento in un&#39;altra cartella esistente.
+
+   ![](assets/fragment-folder-moved.png)
+
+1. Ora puoi passare alla cartella appena creata. Ogni nuovo frammento [create](create-fragments.md) da qui viene salvato nella cartella corrente.
+
+   ![](assets/fragment-folder-create.png)
+
+## Stati dei frammenti {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
@@ -67,7 +121,7 @@ I frammenti possono avere più stati:
 
 >[!CAUTION]
 >
->Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l&#39;autorizzazione utente [Frammento di Publish](../administration/ootb-product-profiles.md#content-library-manager).
+>Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l&#39;autorizzazione utente [Pubblica frammento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Modificare un frammento {#edit-fragments}
 
@@ -105,7 +159,7 @@ Per modificare un frammento, effettua le seguenti operazioni.
    >
    >Quando modifichi un frammento pubblicato, puoi rimuovere qualsiasi campo di personalizzazione, ma non puoi aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere attributi personalizzati, devi duplicare il frammento. [Ulteriori informazioni](#adding-new-attributes)
 
-1. Quando le modifiche sono pronte, salvale e fai clic sul pulsante **[!UICONTROL Publish]** per rendere attive le modifiche. [Ulteriori informazioni](create-fragments.md#publish)
+1. Quando le modifiche sono pronte, salvale e fai clic sul pulsante **[!UICONTROL Pubblica]** per rendere attive le modifiche. [Ulteriori informazioni](create-fragments.md#publish)
 
 Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi percorsi live e campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale.
 

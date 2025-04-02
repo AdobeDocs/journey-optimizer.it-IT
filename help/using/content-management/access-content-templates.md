@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: '626'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,16 @@ Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL 
 
 Vengono visualizzati tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna tramite l&#39;opzione **[!UICONTROL Salva come modello]**, nel menu **[!UICONTROL Modelli di contenuto]**. [Scopri come creare i modelli](#create-content-templates)
 
+Il riquadro a sinistra consente di organizzare i modelli di contenuto in cartelle. Per impostazione predefinita, vengono visualizzati tutti i modelli. Quando si seleziona una cartella, vengono visualizzati solo i modelli e le cartelle inclusi nella cartella selezionata. [Ulteriori informazioni](#folders)
+
+>[!NOTE]
+>
+>Le cartelle dei modelli di contenuto sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
+
+![](assets/content-template-list-folders.png)
+
+Per trovare un elemento specifico, inizia a digitare un nome nel campo di ricerca. Quando è selezionata una [cartella](#folders), la ricerca viene applicata a tutti i modelli di contenuto o a tutte le cartelle nel primo livello della gerarchia della cartella<!--(not nested items)-->.
+
 Puoi ordinare i modelli di contenuto in base a:
 * Tipo
 * Channel
@@ -33,6 +43,44 @@ Puoi ordinare i modelli di contenuto in base a:
 Puoi anche scegliere di visualizzare solo gli elementi creati o modificati personalmente.
 
 ![](assets/content-template-list-filters.png)
+
+## Utilizzare le cartelle per gestire i modelli di contenuto {#folders}
+
+>[!AVAILABILITY]
+>
+>Le cartelle dei modelli di contenuto sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
+
+Per navigare facilmente nei modelli di contenuto, puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.
+
+![](assets/content-template-folders.png)
+
+1. Fare clic sul pulsante **[!UICONTROL Tutti i modelli di contenuto]** per visualizzare tutti gli elementi creati in precedenza senza il raggruppamento di cartelle.
+
+1. Fare clic sulla cartella **[!UICONTROL Root]** per visualizzare tutte le cartelle create.
+
+   >[!NOTE]
+   >
+   >Se non hai ancora creato le cartelle, vengono visualizzati tutti i modelli di contenuto.
+
+1. Fare clic su una cartella all&#39;interno della cartella **[!UICONTROL Root]** per visualizzarne il contenuto.
+
+1. Facendo clic sulla cartella **[!UICONTROL Root]** o su qualsiasi altra cartella, viene visualizzato il pulsante **[!DNL Create folder]**. Selezionala.
+
+   ![](assets/content-template-create-folder.png)
+
+1. Digitare un nome per la nuova cartella e fare clic su **[!UICONTROL Salva]**. La nuova cartella viene visualizzata all&#39;inizio dell&#39;elenco dei modelli di contenuto all&#39;interno della cartella **[!UICONTROL Root]** o della cartella attualmente selezionata.
+
+1. Puoi fare clic sul pulsante **[!UICONTROL Altre azioni]** per rinominare o eliminare la cartella.
+
+   ![](assets/content-template-folder-more-actions.png)
+
+1. Utilizzando il pulsante **[!UICONTROL Altre azioni]**, puoi anche spostare il modello di contenuto in un&#39;altra cartella esistente.
+
+   ![](assets/content-template-folder-moved.png)
+
+1. Ora puoi passare alla cartella appena creata. Ogni nuovo modello di contenuto [creato](create-content-templates.md) da qui viene salvato nella cartella corrente.
+
+   ![](assets/content-template-folder-create.png)
 
 ## Modificare ed eliminare i modelli di contenuto {#edit}
 
@@ -54,7 +102,7 @@ Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizza
 
 >[!AVAILABILITY]
 >
-Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
+Questa funzionalità viene rilasciata in versione a Disponibilità limitata (LA) per un set limitato di clienti.
 
 ![](assets/content-template-grid-view.png)
 

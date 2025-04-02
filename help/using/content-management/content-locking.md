@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1285'
 ht-degree: 32%
 
 ---
@@ -45,7 +45,7 @@ Journey Optimizer consente di bloccare il contenuto nei modelli e-mail, bloccand
 
 >[!IMPORTANT]
 >
->Il blocco dei contenuti è una funzione a livello di editor per gli autori e non garantisce che il contenuto non verrà modificato quando viene importato o creato tramite API.
+>Il blocco dei contenuti è una funzione a livello di editor per gli autori e non garantisce che il contenuto non venga modificato quando viene importato o creato tramite API.
 
 Il blocco del contenuto può essere applicato al livello **struttura** o al livello **componente**. Di seguito sono elencati i principali principi applicabili a livello di struttura e componente quando si blocca il contenuto nel modello.
 
@@ -64,6 +64,8 @@ Il blocco del contenuto può essere applicato al livello **struttura** o al live
 >[!AVAILABILITY]
 >
 >Gli utenti autorizzati a creare modelli di contenuto possono abilitare il blocco del contenuto.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Bloccare un modello e-mail {#define}
 
@@ -190,3 +192,9 @@ Di seguito sono riportati alcuni esempi di modifica delle e-mail e della configu
 | Struttura bloccata che non può essere eliminata | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | Componente con stili bloccati che non può essere eliminato. Gli utenti possono solo modificare il contenuto. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Componente modificabile in una struttura bloccata. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## Video introduttivo {#video}
+
+Scopri come bloccare il contenuto nei modelli e-mail.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
