@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 24%
 
 ---
@@ -37,6 +37,11 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 1. Viene visualizzata un’anteprima dell’esperienza basata su codice modificata.
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili in [questa sezione](../content-management/preview.md).
+
+>[!NOTE]
+>
+>Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso di esperienze basato su codice utilizzando [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Una soluzione alternativa è disponibile in [questa sezione](../experience-decisioning/create-decision.md).
+
 
 ## Anteprima su dispositivo {#preview-on-device}
 

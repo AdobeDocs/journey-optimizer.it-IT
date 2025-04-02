@@ -7,7 +7,7 @@ role: User
 level: Experienced
 badge: label="Disponibilità limitata"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## Generazione di rapporti per campagne basate su codice {#campaigns}
 
-Una volta che l’esperienza basata su codice è attiva, puoi accedere a rapporti dedicati per monitorare gli indicatori prestazioni chiave (KPI, Key Performance Indicators) come dashboard completo, che fornisce un’analisi delle metriche essenziali associate alla campagna.
+Una volta che le esperienze basate su codice sono live, puoi accedere a rapporti dedicati per monitorare gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) come dashboard completo, che fornisce un’analisi delle metriche essenziali associate alla campagna.
 
 Questo include dettagli relativi alle prestazioni degli elementi decisionali e al modo in cui gli utenti hanno interagito con loro. [Scopri come utilizzare i report esperienza basati su codice](../reports/campaign-global-report-cja-code.md)
 
@@ -29,9 +29,9 @@ Questo include dettagli relativi alle prestazioni degli elementi decisionali e a
 
 Se utilizzi Customer Journey Analytics, puoi creare dashboard di reporting personalizzati per le campagne basate su codice utilizzando Decisioning.
 
-I passaggi principali sono elencati di seguito. Informazioni dettagliate su come lavorare con il Customer Journey Analytics sono disponibili nella [documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+I passaggi principali sono elencati di seguito. Informazioni dettagliate su come lavorare con Customer Journey Analytics sono disponibili nella [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
 
-1. Crea e configura una **connessione** nel Customer Journey Analytics. Questo ti consente di connettersi al set di dati per il quale desideri creare rapporti. [Scopri come creare una connessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. Crea e configura una **connessione** in Customer Journey Analytics. Questo ti consente di connettersi al set di dati per il quale desideri creare rapporti. [Scopri come creare una connessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
 1. Crea una **visualizzazione dati** e associala alla connessione creata in precedenza. Nella scheda **[!UICONTROL Componenti]**, scegli i campi dello schema che desideri visualizzare nel reporting. Per Decisioning, assicurati di includere i campi **propositioninteract** e **propositiondisplay**. [Scopri come creare e configurare le visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 

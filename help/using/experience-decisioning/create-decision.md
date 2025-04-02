@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 15%
+source-wordcount: '1761'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
 
-I criteri di decisione contengono tutta la logica di selezione affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici della campagna. Il loro obiettivo è selezionare le migliori offerte per ciascun profilo mentre la creazione della campagna consente di indicare come devono essere presentati gli elementi decisionali selezionati, inclusi gli attributi degli elementi da includere nel messaggio.
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Il loro obiettivo è quello di selezionare le offerte migliori per ciascun profilo, mentre l’authoring della campagna/del percorso ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ I criteri di decisione contengono tutta la logica di selezione affinché il moto
 
 I passaggi principali per sfruttare i criteri decisionali nelle campagne basate su codice sono i seguenti:
 
-1. [Creare un criterio di decisione in una campagna basata su codice](#add-decision)
-1. [Utilizzare il criterio di decisione nella campagna basata su codice](#use-decision-policy)
-1. [Creazione di dashboard di reporting per Customer Journey Analytics personalizzati](#cja)
+1. [Aggiungere un criterio di decisione a un’esperienza basata su codice](#add-decision)
+1. [Utilizzare il criterio di decisione](#use-decision-policy)
+1. [Creare dashboard di reporting personalizzati per Customer Journey Analytics](cja-reporting.md)
 
-## Aggiungere un criterio di decisione a una campagna basata sul codice {#add-decision}
+## Aggiungere un criterio di decisione a un’esperienza basata su codice {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ I passaggi principali per sfruttare i criteri decisionali nelle campagne basate 
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creare strategie"
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Ordine di valutazione"
 
-Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna basata su codice. A questo scopo, segui i passaggi riportati qui sotto.
+Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna o a un percorso basato su codice. A questo scopo, segui i passaggi riportati qui sotto.
 
 ### Creare il criterio di decisione {#add}
 
@@ -221,3 +221,33 @@ Una volta creato, il criterio di decisione può essere utilizzato nell&#39;[edit
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. Fai clic su **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
+
+## Testare e pubblicare l’esperienza basata su codice {#test-and-publish}
+
+Segui i passaggi seguenti per finalizzare l’esperienza basata su codice e apportare le modifiche in tempo reale.
+
+1. Prima di pubblicare, visualizza un’anteprima dell’esperienza basata su codice per testarla.
+
+   >[!CAUTION]
+   >
+   >Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](../code-based/create-code-based.md) utilizzando le decisioni.
+
+   Per testare le decisioni, puoi aggiungere il flag `dryRun` nel blocco dell&#39;evento XDM `data` nell&#39;implementazione client:
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. Rivedi e pubblica la campagna o il percorso di esperienze basato su codice. [Scopri come](../code-based/publish-code-based.md)
+
+   Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
+
+1. Per visualizzare le prestazioni delle decisioni, è ora possibile creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.
