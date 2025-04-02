@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Per accedere ai tuoi report, seleziona **[!UICONTROL Report]** dal menu avanzato
 
 ![](assets/cja-lp.png)
 
-Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, fare riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tasso di conversione pagina di destinazione {#lp-conversion}
 
@@ -65,7 +65,7 @@ Il grafico **[!UICONTROL Prestazioni della pagina di destinazione nel tempo]** m
 
 * **[!UICONTROL Visualizzazioni pagina di destinazione]**: numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, incluse più visite di un profilo.
 
-* **[!UICONTROL Tasso di conversione pagina di destinazione]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l&#39;abbonamento a un modulo, in relazione al numero totale di visite.
+* **[!UICONTROL Conversione pagina di destinazione]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l&#39;abbonamento a un modulo, in relazione al numero totale di visite.
 
 ## Prestazioni della pagina di destinazione {#lp-performance}
 
@@ -79,7 +79,7 @@ La tabella delle prestazioni della **[!UICONTROL pagina di destinazione]** funge
 
 * **[!UICONTROL Visualizzazioni pagina di destinazione univoche]**: non vengono prese in considerazione le persone che hanno visitato la pagina di destinazione, le visite multiple di un profilo.
 
-* **[!UICONTROL Tasso di conversione pagina di destinazione univoca]**: il numero di persone che hanno interagito con la pagina di destinazione e le interazioni multiple di un profilo non vengono prese in considerazione.
+* **[!UICONTROL Conversione pagina di destinazione univoca]**: il numero di persone che hanno interagito con la pagina di destinazione e le interazioni multiple di un profilo non vengono prese in considerazione.
 
 * **[!UICONTROL Visualizzazioni pagina di destinazione]**: numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, incluse più visite di un profilo.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 3de7826ae4a7efc2837288779fb444fa15688d3f
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
@@ -444,53 +444,214 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   <tr> 
    <th> Metrica<br/> </th> 
    <th> Definizione<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
  <tr> 
-  <td>Mancati recapiti<br/> </td> 
-   <td>Numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l'azione di abbonamento.<br/> </td> 
+   <td>Percentuale non recapitate<br/> </td> 
+   <td>Percentuale di persone che hanno visualizzato la pagina di destinazione ma non hanno interagito o effettuato l'abbonamento, rispetto al numero totale di visite.<br/> </td> 
 </tr>
  <tr> 
-   <td>Percentuale non recapitate<br/> </td> 
-   <td>Numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l'azione di iscrizione, in relazione al numero totale di visite.<br/> </td> 
-</tr>
- <tr>
-  <tr> 
    <td>Clic<br/> </td> 
    <td>Numero di volte in cui è stato fatto clic su un contenuto nella pagina di destinazione.<br/> </td> 
 </tr>
+
+<tr> 
+   <td>Conversione pagina di destinazione<br/> </td> 
+   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio, hanno effettuato l'abbonamento a un modulo.<br/> </td> 
+</tr>
+<tr> 
+   <td>Tasso di conversione pagina di destinazione<br/> </td> 
+   <td>Percentuale di persone che hanno interagito con la pagina di destinazione, ad esempio, hanno effettuato l'abbonamento a un modulo, rispetto al numero totale di visite.<br/> </td> 
+</tr>
  <tr> 
-   <td>Percentuale di clic<br/> </td> 
-   <td>Percentuale di clic nella pagina di destinazione.<br/> </td>
+   <td>Visualizzazioni della pagina di destinazione<br/> </td> 
+   <td>Numero totale di visite alla pagina di destinazione da percorsi e origini esterne, incluse più visite dallo stesso profilo.<br/> </td> 
 </tr>
-<tr>
-<td>Conversione<br/> </td> 
-   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l'abbonamento a un modulo.<br/> </td> 
+<tr> 
+   <td>Conversioni pagina di destinazione univoche<br/> </td> 
+   <td>Numero di persone univoche che hanno interagito con la pagina di destinazione, escludendo più interazioni dallo stesso profilo.<br/> </td> 
 </tr>
-<tr>
+ <tr> 
+   <td>Visualizzazioni pagina di destinazione univoche<br/> </td> 
+   <td>Numero di persone univoche che hanno visitato la pagina di destinazione, escludendo più visite dallo stesso profilo.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Direct mail {#direct-mail}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrica<br/> </th> 
+   <th> Definizione<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Consegnato<br/> </td> 
+   <td>Numero di messaggi di direct mailing recapitati correttamente ai destinatari.<br/> </td> 
+</tr>
+<tr> 
+   <td>Errori in uscita<br/> </td> 
+   <td>Numero di messaggi di direct mailing che hanno rilevato errori durante l'elaborazione o l'invio, impedendo il corretto recapito.<br/> </td> 
+</tr>
+<tr> 
+   <td>Esclusioni in uscita<br/> </td> 
+   <td>Numero di profili esclusi dalla ricezione della direct mailing a causa di criteri predefiniti o filtro da parte di Adobe Journey Optimizer.<br/> </td> 
+</tr>
+<tr> 
+   <td>Profili<br/> </td> 
+   <td>Numero di profili utente identificati come pubblico target per la campagna di direct mailing.<br/> </td> 
+</tr>
+<tr> 
+   <td>Inviato<br/> </td> 
+   <td>Numero totale di messaggi di direct mailing inviati correttamente come parte della campagna.<br/> </td> 
+</tr>
+<tr> 
+   <td>Destinato<br/> </td> 
+   <td>Numero totale di messaggi di direct mailing preparati ed elaborati per l'invio.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+
+## Metriche delle schede di contenuto {#content-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrica<br/> </th> 
+   <th> Definizione<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Percentuale di click-through (CTR)<br/> </td> 
+   <td>Percentuale di utenti che hanno interagito con la scheda Contenuto.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clic<br/> </td> 
+   <td>Numero di volte in cui è stato fatto clic su un contenuto nella scheda Contenuto.<br/> </td> 
+</tr>
+<tr> 
+   <td>Visualizza<br/> </td> 
+   <td>Numero di volte in cui il messaggio è stato aperto.<br/> </td> 
+</tr>
+<tr> 
+   <td>Persone<br/> </td> 
+   <td>Numero di profili utente qualificati come profili target per le schede di contenuto.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clic univoci<br/> </td> 
+   <td>Numero di profili che hanno fatto clic su un contenuto nella scheda Contenuto.<br/> </td> 
+</tr>
+<tr> 
+   <td>Visualizzazioni univoche<br/> </td> 
+   <td>Numero di volte in cui il messaggio è stato aperto. Non vengono prese in considerazione più interazioni di un profilo.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Metriche delle pagine web {#web}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrica<br/> </th> 
+   <th> Definizione<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Clic<br/> </td> 
+   <td>Numero di volte in cui è stato fatto clic su un contenuto nelle pagine Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Percentuale di click-through (CTR)<br/> </td> 
+   <td>Percentuale di utenti che hanno interagito con le pagine Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Visualizza<br/> </td> 
+   <td>Numero di volte in cui la pagina Web è stata aperta.<br/> </td> 
+</tr>
+<tr> 
+   <td>Persone<br/> </td> 
+   <td>Numero di profili idonei come profili target per le pagine Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clic univoci<br/> </td> 
+   <td>Numero di profili che hanno fatto clic su un contenuto nelle pagine Web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Visualizzazioni univoche<br/> </td> 
+   <td>Numero di volte in cui la pagina Web è stata aperta, non vengono prese in considerazione più interazioni di un profilo.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Metriche delle esperienze basate su codice {#code-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrica<br/> </th> 
+   <th> Definizione<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Clic<br/> </td> 
+   <td>Numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate che sono state visualizzate.<br/> </td> 
+</tr>
+<tr> 
+   <td>Tasso di click-through (CTR)<br/> </td> 
+   <td>Percentuale di utenti che fanno clic su un collegamento, un annuncio pubblicitario o un consiglio rispetto al numero di volte in cui è stato visualizzato.<br/> </td> 
+</tr>
+<tr> 
    <td>Tasso di conversione<br/> </td> 
-   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l'abbonamento a un modulo, in relazione al numero totale di visite.<br/> </td> 
+   <td>Percentuale di visualizzazioni che hanno generato azioni dell'utente (ad esempio, clic), a indicare il successo del modello nel coinvolgere gli utenti.<br/> </td> 
 </tr>
- <tr> 
-   <td>Percorso/i<br/> </td> 
-   <td>Numero di visite alla pagina di destinazione provenienti da un percorso.<br/> </td> 
+<tr> 
+   <td>Prestazioni Elementi Decisione<br/> </td> 
+   <td>Valuta le prestazioni di ogni elemento nel coinvolgimento degli utenti e nell'esecuzione delle azioni desiderate, ad esempio acquisti, clic o altre risposte.<br/> </td> 
 </tr>
- <tr> 
-   <td>Altre origini<br/> </td> 
-   <td>Numero di visite alla pagina di destinazione provenienti da un'origine esterna anziché da un percorso.<br/> </td> 
+<tr> 
+   <td>Decisioning degli indicatori KPI<br/> </td> 
+   <td>Informazioni chiave sul coinvolgimento dei visitatori con le esperienze, inclusi elementi totali, clic totali, visualizzazioni totali e tasso di fallback.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visite totali<br/> </td> 
-   <td> Numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, incluse più visite di un profilo.<br/> </td> 
+<tr> 
+   <td>Visualizza<br/> </td> 
+   <td>Numero totale di volte in cui sono state mostrate o presentate agli utenti esperienze personalizzate attraverso vari punti di contatto.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visitatori univoci<br/> </td> 
-   <td>Numero di persone che hanno visitato la tua pagina di destinazione, visite multiple di un profilo non sono prese in considerazione.<br/> </td> 
+<tr> 
+   <td>Funnel di coinvolgimento<br/> </td> 
+   <td>Monitora le prestazioni delle esperienze personalizzate valutando l'efficacia di ogni fase del funnel nel determinare le interazioni dell'utente.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visite<br/> </td> 
-   <td>Numero di visite alla pagina di destinazione, incluse visite multiple di un profilo.<br/> </td> 
+<tr> 
+   <td>Funnel di coinvolgimento per strategia di selezione<br/> </td> 
+   <td>Esegue il monitoraggio e l'analisi dell'efficacia con cui le diverse strategie di selezione coinvolgono gli utenti con esperienze personalizzate.<br/> </td> 
+</tr>
+<tr> 
+   <td>Persone<br/> </td> 
+   <td>Numero di profili utente qualificati come profili target per le esperienze basate su codice.<br/> </td> 
+</tr>
+<tr> 
+   <td>Strategia di classificazione<br/> </td> 
+   <td>Informazioni sulle prestazioni dei modelli di classificazione basati sull'intelligenza artificiale confrontando due tipi di traffico: Basato su modello e Holdout.<br/> </td> 
+</tr>
+<tr> 
+   <td>Elementi decisionali principali per CTR<br/> </td> 
+   <td>Evidenzia le prestazioni dei singoli elementi in base al relativo CTR (Click-through Rate), consentendo di valutare quali elementi sono più efficaci per coinvolgere gli utenti.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clic univoci<br/> </td> 
+   <td>Numero di profili che hanno fatto clic su un contenuto nelle esperienze basate su codice.<br/> </td> 
+</tr>
+<tr> 
+   <td>Visualizzazioni univoche<br/> </td> 
+   <td>Numero di volte in cui l'esperienza è stata aperta, non vengono prese in considerazione più interazioni di un profilo.<br/> </td> 
 </tr>
  </tbody> 
 </table>
