@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 2%
+source-wordcount: '345'
+ht-degree: 3%
 
 ---
 
-# Report percorso schede di contenuto {#journey-global-report}
+# Rapporto sulle schede contenuto del percorso {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Puoi accedere al report percorso schede di contenuto facendo clic sul pulsante **[!UICONTROL Visualizza report]** all&#39;interno del percorso. [Ulteriori informazioni](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Visualizza e fai clic {#displays-content-card}
 

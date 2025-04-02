@@ -9,14 +9,22 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 2%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
 # Rapporto sulla campagna in-app {#campaign-global-report-cja-inapp}
+
+>[!BEGINSHADEBOX]
+
+Per accedere al report della campagna in-app, fai clic sul pulsante **[!UICONTROL Reports]** nella campagna e seleziona **[!UICONTROL Visualizza report tutto il tempo]**. [Ulteriori informazioni](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Tendenza di visualizzazione e clic {#impression-click-trend}
 

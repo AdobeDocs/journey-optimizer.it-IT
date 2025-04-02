@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3492'
 ht-degree: 27%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 27%
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti di Customer Journey Analytics si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
-Puoi accedere al report live della campagna direttamente dalla campagna con il pulsante **[!UICONTROL Live View]**.
+Puoi accedere al rapporto live della campagna direttamente dalla campagna facendo clic sul pulsante **[!UICONTROL Rapporti]** e selezionando **[!UICONTROL Visualizza ultimo rapporto di 24 ore]**.
 
 La pagina del **[!UICONTROL report live]** della campagna verrà visualizzata con le seguenti schede:
 

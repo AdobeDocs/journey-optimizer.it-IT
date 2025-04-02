@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
 # Rapporto sul percorso in-app {#journey-global-report}
 
+>[!INFO]
+>
+>Il report del percorso può mostrare informazioni provenienti da più percorsi contemporaneamente, in quanto gli utenti possono essere coinvolti in più percorsi alla volta. Di conseguenza, le comunicazioni in entrata (in-app, web e basate su codice) possono essere visualizzate in più percorsi se sono state attivate per un utente che partecipa a percorsi attivi simultanei, il che può causare la sovrapposizione dei dati.
+
 >[!BEGINSHADEBOX]
 
-Il report del percorso può mostrare informazioni provenienti da più percorsi contemporaneamente, in quanto gli utenti possono essere coinvolti in più percorsi alla volta. Di conseguenza, le comunicazioni in entrata (in-app, web e basate su codice) possono essere visualizzate in più percorsi se sono state attivate per un utente che partecipa a percorsi attivi simultanei, il che può causare la sovrapposizione dei dati.
+Puoi accedere al report del percorso in-app facendo clic sul pulsante **[!UICONTROL Reports]** all&#39;interno del percorso. [Ulteriori informazioni](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Tendenza impression e clic {#impression-click-trend}
+## Tendenza di visualizzazione e clic {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-Il grafico **[!UICONTROL Tendenza impression e clic]** presenta un&#39;analisi dettagliata del coinvolgimento dei tuoi profili con i messaggi in-app, fornendo informazioni preziose su come i profili interagiscono con i contenuti.
+Il grafico **[!UICONTROL Tendenza visualizzazione e clic]** presenta un&#39;analisi dettagliata del coinvolgimento dei tuoi profili con i messaggi in-app, fornendo informazioni utili su come i profili interagiscono con i contenuti.
 
-+++ Ulteriori informazioni sulle metriche della tendenza Impression &amp; Click
++++ Ulteriori informazioni sulle metriche della tendenza di visualizzazione e clic
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
 

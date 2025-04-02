@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '542'
 ht-degree: 3%
 
 ---
 
 # Rapporto percorso notifiche push {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Puoi accedere al report del percorso di notifiche push facendo clic sul pulsante **[!UICONTROL Visualizza report]** all&#39;interno del percorso. [Ulteriori informazioni](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Statistiche di invio {#sending-statistics-push}
 
@@ -56,9 +65,7 @@ La tabella **[!UICONTROL Statistiche di tracciamento]** offre un&#39;istantanea 
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nella notifica push.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Azioni personalizzate push]**: numero di azioni personalizzate eseguite dai profili in risposta alle notifiche push.
 +++
 
 ## Etichette collegamenti tracciati {#track-link-label-push}

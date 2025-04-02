@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Campagne](#campaign)
 * [Canali](#channel)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, fare riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 
@@ -87,7 +87,11 @@ Facendo clic sul nome di una delle campagne elencate in questa tabella, puoi esp
 
 * **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
 
+* **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di clic nei messaggi.
+
 * **[!UICONTROL Invii]**: numero totale di invii per ogni campagna.
+
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente.
 
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 
@@ -107,9 +111,9 @@ La tabella **[!UICONTROL Canali]** fornisce una suddivisione dettagliata del coi
 
 * **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
 
-* **[!UICONTROL Percentuale di clic]**: percentuale di clic nei messaggi.
+* **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di clic nei messaggi.
 
-* **[!UICONTROL Invii]**: numero totale di invii per ogni campagna.
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente.
 
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 

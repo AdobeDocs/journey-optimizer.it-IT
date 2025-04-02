@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '660'
 ht-degree: 3%
 
 ---
 
-# Rapporto percorso SMS{#sms}
+# Rapporto sul percorso SMS{#sms}
+
+>[!BEGINSHADEBOX]
+
+Per accedere al report sul percorso SMS, fai clic sul pulsante **[!UICONTROL Visualizza report]** all&#39;interno del percorso. [Ulteriori informazioni](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Tendenza consegne e clic {#delivered-click-sms}
 

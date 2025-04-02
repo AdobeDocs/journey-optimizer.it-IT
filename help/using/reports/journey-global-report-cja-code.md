@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '385'
+ht-degree: 3%
 
 ---
 
 # Rapporto sul percorso basato su codice {#journey-global-report}
 
+>[!INFO]
+>
+> Il report del percorso può mostrare informazioni provenienti da più percorsi contemporaneamente, in quanto gli utenti possono essere coinvolti in più percorsi alla volta. Di conseguenza, le comunicazioni in entrata (in-app, web e basate su codice) possono essere visualizzate in più percorsi se sono state attivate per un utente che partecipa a percorsi attivi simultanei, il che può causare la sovrapposizione dei dati.
+
 >[!BEGINSHADEBOX]
 
-Il report del percorso può mostrare informazioni provenienti da più percorsi contemporaneamente, in quanto gli utenti possono essere coinvolti in più percorsi alla volta. Di conseguenza, le comunicazioni in entrata (in-app, web e basate su codice) possono essere visualizzate in più percorsi se sono state attivate per un utente che partecipa a percorsi attivi simultanei, il che può causare la sovrapposizione dei dati.
+Puoi accedere al report del percorso basato su codice facendo clic sul pulsante **[!UICONTROL Visualizza report]** all&#39;interno del percorso. [Ulteriori informazioni](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 
