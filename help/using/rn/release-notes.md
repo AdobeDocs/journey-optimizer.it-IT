@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 79%
+source-wordcount: '647'
+ht-degree: 75%
 
 ---
 
@@ -22,10 +22,13 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-
 ## Aggiornamenti di aprile 2025
 
 ### Miglioramenti {#25-04-improv}
+
+**Personalizzazione**
+
+Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizzare il pulsante Impostazioni per disattivare l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 **Gestione dei contenuti**
 
