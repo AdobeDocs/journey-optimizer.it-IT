@@ -5,16 +5,25 @@ title: Avviare e monitorare campagne con più passaggi con Adobe Journey Optimiz
 description: Scopri come avviare e monitorare campagne con più passaggi con Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 49%
+source-wordcount: '579'
+ht-degree: 43%
 
 ---
 
-# Avviare e monitorare le campagne in più passaggi {#start-monitor}
+# Avviare e monitorare le campagne orchestrate {#start-monitor}
 
-Dopo aver creato il flusso di lavoro e progettato le attività da eseguire nell’area di lavoro, puoi avviarne l’esecuzione e monitorarne la modalità di esecuzione.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Il browser non supporta l&#39;elemento audio.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Pubblica campagna orchestrata"
+>abstract="Per avviare la campagna, devi pubblicarla. Assicurati che tutti gli avvisi siano cancellati prima della pubblicazione."
+
+
+Dopo aver creato le attività orchestrate e progettate da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne l’esecuzione.
 
 ## Avviare una campagna in più passaggi {#start}
 
