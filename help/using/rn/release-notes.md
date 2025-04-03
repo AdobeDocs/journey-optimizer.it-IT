@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 75%
+source-wordcount: '699'
+ht-degree: 70%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 75%
 ## Aggiornamenti di aprile 2025
 
 ### Miglioramenti {#25-04-improv}
+
+**Strumenti sandbox**
+
+Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Maggiori informazioni](../configuration/copy-objects-to-sandbox.md)
 
 **Personalizzazione**
 

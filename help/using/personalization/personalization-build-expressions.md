@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 5%
@@ -107,7 +107,7 @@ Il menu con i puntini di sospensione accanto all&#39;icona `+` consente di otten
 
 >[!NOTE]
 >
->Per impostazione predefinita, nel riquadro degli attributi vengono visualizzati solo gli attributi compilati. Per visualizzare tutti gli attributi, seleziona il pulsante ![](assets/do-not-localize/settings-icon.svg) situato sopra il campo di ricerca e attiva l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**.
+>Per impostazione predefinita, nel riquadro degli attributi vengono visualizzati solo gli attributi compilati. Per visualizzare tutti gli attributi, selezionare il pulsante ![](assets/do-not-localize/settings-icon.svg) situato sopra il campo di ricerca e disattivare l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**.
 
 Inoltre, puoi definire il testo di fallback predefinito che verrà visualizzato se un attributo di profilo di tipo stringa è vuoto. A tale scopo, fare clic sul pulsante con i puntini di sospensione accanto all&#39;attributo e selezionare **[!UICONTROL Inserisci con testo di fallback]**. Scrivere il testo da visualizzare per impostazione predefinita se il valore dell&#39;attributo è vuoto per un profilo, quindi fare clic su **[!UICONTROL Aggiungi]**.
 

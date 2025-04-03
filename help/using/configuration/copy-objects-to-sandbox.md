@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,21 @@ Journey Optimizer consente di esportare percorsi, modelli di contenuto e frammen
 * Gli oggetti copiati nella sandbox di destinazione sono univoci e non esiste alcun rischio di sovrascrittura degli elementi esistenti. Sia il percorso che i messaggi all&#39;interno del percorso vengono trasferiti in modalità bozza. Ciò ti consente di eseguire una convalida completa prima della pubblicazione sulla sandbox di destinazione.
 
 * Il processo di copia viene copiato solo sui metadati relativi al percorso e agli oggetti di tale Percorso. Non vengono copiati dati di profilo o set di dati come parte di questo processo.
+
+### Campagne (#campaigns)
+
+Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti.
+
+Tuttavia, i seguenti elementi sono **non** copiati:
+
+* Varianti multilingue e impostazioni della lingua
+* Varianti esperimento
+* Criteri di decisione e elementi di decisione
+* Regole di business
+* Tag
+* Etichette di utilizzo dati e applicazione (DULE)
+
+Dopo aver copiato le campagne, le configurazioni del canale devono essere selezionate manualmente.
 
 ### Modelli di contenuto {#content-templates}
 
