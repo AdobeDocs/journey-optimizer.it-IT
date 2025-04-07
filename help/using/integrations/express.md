@@ -11,7 +11,7 @@ keywords: risorse, integrazione
 hide: true
 hidefromtoc: true
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
-Per ulteriori informazioni su Adobe Express, consulta [questa documentazione](https://helpx.adobe.com/express/user-guide.html).
+Per ulteriori informazioni su Adobe Express, consulta [questa documentazione](https://helpx.adobe.com/it/express/user-guide.html).
 
 Per accedere al menu **[!DNL Adobe Express]**, accedi alle **impostazioni immagine** da E-mail Designer e fai clic su **[!UICONTROL Modifica in Adobe Express]**.
 
