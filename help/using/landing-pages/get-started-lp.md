@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, inizio, inizia
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 
 [!DNL Journey Optimizer] consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni, o iscriversi a un servizio specifico, ad esempio una newsletter.
 
-➡️ [Questo video offre ulteriori informazioni sulla configurazione degli abbonamenti e sulla creazione di pagine di destinazione](#video)
+➡️ [Ulteriori informazioni sulla configurazione delle sottoscrizioni e sulla creazione di pagine di destinazione in questo video](#video)
 
 * Sfruttamento [!DNL Journey Optimizer] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
 * Configura **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.

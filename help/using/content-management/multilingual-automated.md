@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -173,7 +173,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Scegli l&#39;**[!UICONTROL estensione]** con cui stai lavorando.
-      * Nel campo **[!UICONTROL Tipo evento]**, selezionare &quot;Evento richiesta AEP&quot;.
+      * Nel campo **[!UICONTROL Tipo evento]**, seleziona &quot;Evento richiesta AEP&quot;.
       * Nel riquadro a destra, seleziona &quot;XDM Event Type equals personalization.request&quot;
       * Fai clic sul pulsante **[!UICONTROL Mantieni modifiche]** per confermare.
 
@@ -325,7 +325,7 @@ Se hai selezionato Insourcing durante la configurazione delle impostazioni della
 
 Se hai selezionato **[!UICONTROL Abilita flusso di lavoro di revisione]** nel **[!UICONTROL progetto di traduzione]**, puoi rivedere la traduzione direttamente in Journey Optimizer dopo il completamento da parte del provider di traduzione selezionato.
 
-Se questa opzione è disabilitata, al termine della traduzione da parte del provider, lo stato dell&#39;attività di traduzione viene impostato automaticamente su **[!UICONTROL Rivisto]**, consentendo di procedere rapidamente facendo clic su **[!UICONTROL Publish]**.
+Se questa opzione è disabilitata, al termine della traduzione da parte del provider, lo stato dell&#39;attività di traduzione viene impostato automaticamente su **[!UICONTROL Rivisto]**, consentendo di procedere rapidamente facendo clic su **[!UICONTROL Pubblica]**.
 
 1. Una volta completata la traduzione dal provider di servizi, puoi accedere alla traduzione per la revisione dal **[!UICONTROL progetto di traduzione]** o direttamente dalla **[!UICONTROL Campaign]**.
 
@@ -361,7 +361,7 @@ Se questa opzione è disabilitata, al termine della traduzione da parte del prov
 
 1. Una volta impostato lo stato di **[!UICONTROL Progetto di traduzione]** su Rivisto, puoi inviarlo alla tua campagna.
 
-   Dal menu **[!UICONTROL Altre azioni]**, fare clic su **[!UICONTROL Publish]**.
+   Dal menu **[!UICONTROL Altre azioni]**, fai clic su **[!UICONTROL Pubblica]**.
 
    ![](assets/translation_review_7.png)
 

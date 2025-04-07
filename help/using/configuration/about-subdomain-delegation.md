@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 30%
@@ -44,7 +44,7 @@ In questo modo potrai preservare la reputazione del tuo dominio e di altri sotto
 
 Quando si implementa una soluzione, vi sono requisiti per i componenti rivolti verso l’esterno: ad esempio, è necessario configurare collegamenti e pagine web da tracciare, visualizzare pagine mirror e così via.
 
-Questi requisiti vengono gestiti tramite componenti in hosting sia dall’Adobe che dal cliente, ma includono URL che possono essere visualizzati dai destinatari delle e-mail. Per evitare di avere URL che indicano la soluzione tecnica o il provider di hosting sottostante, è possibile configurare i sottodomini per rendere trasparente l’operazione ai destinatari delle e-mail.
+Questi requisiti vengono gestiti tramite componenti in hosting sia da Adobe che dal cliente, ma includono anche URL che possono essere visualizzati dai destinatari delle e-mail. Per evitare di avere URL che indicano la soluzione tecnica o il provider di hosting sottostante, è possibile configurare i sottodomini per rendere trasparente l’operazione ai destinatari delle e-mail.
 
 **Ulteriori informazioni**
 
@@ -56,7 +56,7 @@ Questi requisiti vengono gestiti tramite componenti in hosting sia dall’Adobe 
 
 La configurazione del sottodominio ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) per l’utilizzo con Adobe Campaign. I metodi di configurazione disponibili sono:
 
-* **Delega completa del sottodominio all&#39;Adobe** (consigliato): il sottodominio è completamente delegato all&#39;Adobe. Adobe è in grado di controllare e gestire tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi. [Ulteriori informazioni sulla delega completa del sottodominio](delegate-subdomain.md#full-subdomain-delegation)
+* **Delega completa del sottodominio ad Adobe** (consigliato): il sottodominio è completamente delegato ad Adobe. Adobe è in grado di controllare e gestire tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi. [Ulteriori informazioni sulla delega completa del sottodominio](delegate-subdomain.md#full-subdomain-delegation)
 
 * **Utilizzo di CNAME**: crea un sottodominio e utilizza i CNAME per puntare a record specifici di Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. [Ulteriori informazioni sulla delega del sottodominio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -75,7 +75,7 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 Per ulteriori informazioni sulla configurazione del dominio, consulta [questa documentazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=it).
 
-Se hai domande sui metodi di configurazione dei sottodomini, contatta un Adobe o contatta l’Assistenza clienti per richiedere consulenza sul recapito dei messaggi.
+Se hai domande sui metodi di configurazione dei sottodomini, contatta Adobe o contatta l’Assistenza clienti per richiedere consulenza sul recapito dei messaggi.
 
 ## Accedere ai sottodomini delegati {#access-delegated-subdomains}
 

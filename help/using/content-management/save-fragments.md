@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,7 @@ Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti
 
    >[!CAUTION]
    >
-   >Potete selezionare solo le sezioni adiacenti. Non puoi selezionare una struttura vuota o un altro frammento.
+   >Puoi selezionare solo le sezioni adiacenti l’una all’altra. Non puoi selezionare una struttura vuota o un altro frammento.
 
 1. Fai clic su **[!UICONTROL Crea]** e compila il nome e la descrizione del frammento (se necessario).
 

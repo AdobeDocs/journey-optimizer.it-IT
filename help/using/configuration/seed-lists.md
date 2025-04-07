@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -57,7 +57,7 @@ Per accedere agli elenchi di seed già creati, passa a **[!UICONTROL Amministraz
 <!--
 >[!CAUTION]
 >
->Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
 >[!CAUTION]
 >
@@ -138,7 +138,7 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 
    >[!NOTE]
    >
-   >È possibile selezionare un solo elenco di seed alla volta.
+   >È possibile selezionare un solo elenco seed alla volta.
 
    ![](assets/seed-list-surface.png)
 

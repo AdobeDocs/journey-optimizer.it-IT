@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Puoi accedere al report del percorso in-app facendo clic sul pulsante **[!UICONT
 
 Il grafico **[!UICONTROL Tendenza visualizzazione e clic]** presenta un&#39;analisi dettagliata del coinvolgimento dei tuoi profili con i messaggi in-app, fornendo informazioni utili su come i profili interagiscono con i contenuti.
 
-+++ Ulteriori informazioni sulle metriche della tendenza di visualizzazione e clic
++++ Ulteriori informazioni sulle metriche di tendenza per visualizzazioni e clic
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
 

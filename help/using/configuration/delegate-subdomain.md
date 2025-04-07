@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1818'
 ht-degree: 23%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 23%
 >title="Delega dei sottodomini"
 >abstract="Per iniziare a inviare e-mail, devi delegare ad Adobe il tuo sottodominio. I record DNS, le caselle in entrata, il mittente, gli indirizzi per la risposta e per il mancato recapitato verranno quindi configurati per te."
 
-La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. Fondamentalmente, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe. Ulteriori informazioni sulla delega del [sottodominio](about-subdomain-delegation.md)
+La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe. Ulteriori informazioni sulla delega del [sottodominio](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
-Puoi delegare completamente un sottodominio o crearne uno utilizzando i CNAME per puntare a record specifici di un Adobe.
+Puoi delegare completamente un sottodominio o crearne uno utilizzando i CNAME per puntare a record specifici di Adobe.
 
 >[!CAUTION]
 >
@@ -51,7 +51,7 @@ Puoi delegare completamente un sottodominio o crearne uno utilizzando i CNAME pe
 >abstract="Per delegare completamente un nuovo sottodominio ad Adobe, devi copiare e incollare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer nella soluzione di hosting del dominio per generare i record DNS corrispondenti. Per delegare un sottodominio utilizzando i CNAME, devi anche copiare e incollare il record di convalida dell’URL CDN SSL. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per consegnare i messaggi."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="Delega dei sottodomini CNAME"
 
-[!DNL Journey Optimizer] ti consente di delegare completamente i sottodomini ad Adobe direttamente dall&#39;interfaccia del prodotto. In questo modo Adobe sarà in grado di fornire messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la distribuzione, il rendering e il tracciamento delle campagne e-mail.
+[!DNL Journey Optimizer] consente di delegare completamente i sottodomini ad Adobe direttamente dall&#39;interfaccia del prodotto. In questo modo, Adobe sarà in grado di fornire messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la distribuzione, il rendering e il tracciamento delle campagne e-mail.
 
 Puoi affidarti ad Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito messaggi standard di settore per i domini di invio del marketing e-mail, continuando al contempo a mantenere e controllare il DNS per i domini e-mail interni.
 
@@ -71,7 +71,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
 
    >[!CAUTION]
    >
-   >La delega di un sottodominio non valido a Adobe non è consentita. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   >Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -81,7 +81,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
 
    ![](assets/subdomain-submit.png)
 
-1. Impostare il record DMARC. Se il sottodominio ha un record DMARC esistente e viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
+1. Imposta il record DMARC. Se il sottodominio ha un record DMARC esistente e viene recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -107,7 +107,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
    >
    >Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
 
-Una volta delegato un sottodominio all&#39;Adobe in [!DNL Journey Optimizer], viene automaticamente creato un record PTR associato a questo sottodominio. [Ulteriori informazioni](ptr-records.md)
+Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene automaticamente creato un record PTR associato a questo sottodominio. [Ulteriori informazioni](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -127,13 +127,13 @@ Una volta delegato un sottodominio all&#39;Adobe in [!DNL Journey Optimizer], vi
 
 Se si dispone di criteri di restrizione specifici per il dominio e si desidera che Adobe abbia solo un controllo parziale sul DNS, è possibile scegliere di eseguire tutte le attività correlate al DNS dal proprio lato.
 
-La configurazione del sottodominio CNAME consente di creare un sottodominio e utilizzare i CNAME per puntare a record specifici di un Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.
+La configurazione del sottodominio CNAME consente di creare un sottodominio e utilizzare i CNAME per puntare a record specifici di Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.
 
 >[!CAUTION]
 >
 >Il metodo CNAME è consigliato se i criteri dell’organizzazione limitano il metodo di delega del sottodominio completo. Questo approccio richiede di gestire e mantenere i record DNS autonomamente. Adobe non sarà in grado di fornire assistenza per la modifica, la manutenzione o la gestione del DNS per un sottodominio configurato tramite il metodo CNAME.
 
-➡️ [Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici dell&#39;Adobe in questo video](#video)
+➡️ [Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe in questo video](#video)
 
 Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
@@ -147,7 +147,7 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
    >[!CAUTION]
    >
-   >La delega di un sottodominio non valido a Adobe non è consentita. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   >Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -157,7 +157,7 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. Imposta il record DMARC. Se il sottodominio ha un record DMARC esistente e viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
+1. Configura il record DMARC. Se il sottodominio ha un record DMARC esistente e viene recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -173,7 +173,7 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
    >
    >Eventuali record mancanti, ovvero i record non ancora creati nella soluzione di hosting, verranno elencati.
 
-1. L’Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma di hosting. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
+1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma di hosting. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    <!--![](assets/subdomain-cdn-url-validation.png)-->
 
@@ -203,7 +203,7 @@ I controlli e le azioni seguenti verranno eseguiti fino alla verifica del sottod
 >
 >Questi passaggi vengono eseguiti da Adobe e possono richiedere fino a 3 ore.
 
-1. **Pre-convalida**: Adobe controlla se il sottodominio è stato delegato al DNS Adobe (record NS, record SOA, configurazione zona, record di proprietà). Se il passaggio di preconvalida non riesce, viene restituito un errore insieme al motivo corrispondente, altrimenti Adobe passa al passaggio successivo.
+1. **Pre-convalida**: Adobe controlla se il sottodominio è stato delegato ad Adobe DNS (record NS, record SOA, configurazione zona, record di proprietà). Se il passaggio di pre-convalida non riesce, viene restituito un errore insieme al motivo corrispondente, altrimenti Adobe procede al passaggio successivo.
 
 1. **Configura DNS per il dominio**:
 
@@ -219,11 +219,11 @@ I controlli e le azioni seguenti verranno eseguiti fino alla verifica del sottod
 
 1. **Crea dominio CDN**: se il dominio è email.example.com, il dominio CDN sarà cdn.email.example.com.
 
-1. **Crea e allega certificato SSL CDN**: l&#39;Adobe crea il certificato CDN per il dominio CDN e lo allega al dominio CDN.
+1. **Crea e allega certificato SSL CDN**: Adobe crea il certificato CDN per il dominio CDN e lo allega al dominio CDN.
 
-1. **Crea DNS di inoltro**: se si tratta del primo sottodominio che si sta delegando, Adobe creerà il DNS di inoltro necessario per la creazione di record PTR, ovvero uno per ogni IP.
+1. **Crea DNS di inoltro**: se si tratta del primo sottodominio che si sta delegando, Adobe creerà il DNS di inoltro necessario per creare i record PTR, ovvero uno per ogni IP.
 
-1. **Crea record PTR**: il record PTR, noto anche come record DNS inverso, è richiesto dagli ISP in modo che non contrassegni le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. In questo Adobe vengono creati record PTR solo quando si delega un sottodominio per la prima volta, uno per ogni IP, tutti gli IP che puntano a tale sottodominio. Ad esempio, se l&#39;IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1 PTR r1.email.example.com*. Puoi aggiornare il record PTR in seguito per puntare al nuovo dominio delegato. [Ulteriori informazioni sui record PTR](ptr-records.md)
+1. **Crea record PTR**: il record PTR, noto anche come record DNS inverso, è richiesto dagli ISP in modo che non contrassegni le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. Adobe crea record PTR solo quando deleghi un sottodominio per la prima volta, uno per ogni IP, tutti gli IP che puntano a quel sottodominio. Ad esempio, se l&#39;IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1PTR r1.email.example.com*. Puoi aggiornare il record PTR in seguito per puntare al nuovo dominio delegato. [Ulteriori informazioni sui record PTR](ptr-records.md)
 
 ## Video introduttivo{#video}
 

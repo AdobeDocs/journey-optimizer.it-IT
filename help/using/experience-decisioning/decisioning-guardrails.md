@@ -1,18 +1,18 @@
 ---
-title: Guardrail e limitazioni per le decisioni
-description: Ulteriori informazioni sui guardrail e le limitazioni di Decisioning.
+title: Guardrail e limitazioni per la funzione Decisioni
+description: Ulteriori informazioni su Guardrail e limitazioni di Decisioning.
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
-
-# Guardrail e limitazioni per le decisioni {#decisioning-guardrails}
+# Guardrail e limitazioni per la funzione Decisioni {#decisioning-guardrails}
 
 Per garantire un utilizzo ottimale delle decisioni, tieni presenti le seguenti protezioni e limitazioni.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Si supponga, ad esempio, di organizzare un evento il mese prossimo e di voler av
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publish](create-lp.md#publish) la pagina di destinazione.
+1. [Pubblica](create-lp.md#publish) la pagina di destinazione.
 
 1. In un [percorso](../building-journeys/journey.md), aggiungi un&#39;attività **E-mail** per indirizzare il traffico alla pagina di destinazione della registrazione.
 
@@ -141,7 +141,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
    >
    >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
-1. Publish ed eseguire il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
+1. Pubblica ed esegui il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
 1. Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento per annullare l’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
 

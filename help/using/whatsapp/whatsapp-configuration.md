@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -63,7 +63,7 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
       * Giallo: qualità Medium
       * Rosso: bassa qualità
 
-     Ulteriori informazioni sulla [valutazione della qualità](https://www.facebook.com/business/help/766346674749731#)
+     Ulteriori informazioni sulla [valutazione qualità](https://www.facebook.com/business/help/766346674749731#)
 
    * **Velocità effettiva**: indica la velocità con cui il numero di telefono può inviare messaggi.
 

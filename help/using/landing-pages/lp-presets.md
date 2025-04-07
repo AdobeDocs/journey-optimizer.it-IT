@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, configurazione, ambiente, sottodominio, predefiniti
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -56,7 +56,7 @@ Per creare un predefinito per pagina di destinazione, effettua le seguenti opera
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
 1. Seleziona un sottodominio della pagina di destinazione dall’elenco a discesa.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 27%
@@ -352,7 +352,7 @@ La tabella **[!UICONTROL Notifica push - Statistiche]** fornisce un riepilogo co
 
 Il grafico **[!UICONTROL Notifica push - Statistiche]** offre una rappresentazione dinamica, con un&#39;analisi dell&#39;attività delle notifiche push nelle ultime 24 ore. Questa rappresentazione grafica fornisce un raggruppamento completo delle notifiche push inviate.
 
-+++ Ulteriori informazioni sulla notifica push - Invio di metriche di riepilogo
++++ Ulteriori informazioni sulle notifiche push - Invio di metriche di riepilogo
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
@@ -428,7 +428,7 @@ Dal **[!UICONTROL report live]** della campagna, la scheda **[!UICONTROL SMS]** 
 
 La tabella **[!UICONTROL SMS - Statistiche]** fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi SMS nelle ultime 24 ore, includendo metriche chiave quali il numero di messaggi di destinazione e il numero di messaggi consegnati correttamente.
 
-+++ Ulteriori informazioni sugli SMS - Metriche delle statistiche
++++ Ulteriori informazioni su SMS - Metriche delle statistiche
 
 * **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del messaggio SMS ricorrente. Per eseguire il targeting solo di uno o più messaggi SMS ricorrenti, selezionali dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
@@ -457,7 +457,7 @@ La tabella **[!UICONTROL SMS - Statistiche]** fornisce un riepilogo conciso dei 
 
 Il widget Prestazioni **[!UICONTROL SMS per data]** offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni approfondite sulle tendenze delle prestazioni nelle ultime 24 ore.
 
-+++ Ulteriori informazioni sugli SMS - Metriche delle prestazioni per data
++++ Ulteriori informazioni sulla funzione SMS - Metriche delle prestazioni per data
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 

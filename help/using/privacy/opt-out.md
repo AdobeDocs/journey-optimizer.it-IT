@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Tuttavia, l’utilizzo di etichette di controllo dell’accesso basate sui dirit
 
 >[!NOTE]
 >
->Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC) in [questa sezione](../administration/object-based-access.md).
+>Ulteriori informazioni sul controllo degli accessi a livello di oggetto sono disponibili in [questa sezione](../administration/object-based-access.md).
 
 Nelle campagne [!DNL Journey Optimizer], i criteri di consenso vengono applicati come segue:
 

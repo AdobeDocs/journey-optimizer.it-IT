@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Normative come HIPAA richiedono che [!DNL Journey Optimizer] fornisca un modo pe
 
 ### Abilita e-mail Ccn {#enable-bcc}
 
-Per abilitare l&#39;opzione **[!UICONTROL E-mail Ccn]**, immettere l&#39;indirizzo di posta elettronica desiderato nel campo dedicato della [configurazione canale](channel-surfaces.md) (ossia il predefinito per messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Se ad Adobe hai delegato il sottodominio *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* non sarà consentito.
+Per abilitare l&#39;opzione **[!UICONTROL E-mail Ccn]**, immettere l&#39;indirizzo di posta elettronica desiderato nel campo dedicato della [configurazione canale](channel-surfaces.md) (ossia il predefinito per messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato il sottodominio *marketing.luma.com* ad Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
 
 >[!CAUTION]
 >
@@ -67,7 +67,7 @@ L’impostazione dell’indirizzo e-mail Ccn viene immediatamente salvata ed ela
 
 Tuttavia, l&#39;indirizzo Ccn viene selezionato per l&#39;invio di comunicazioni in base alla logica descritta [qui](../email/email-settings.md).
 
-### Recommendations e limitazioni {#bcc-recommendations-limitations}
+### Raccomandazioni e limitazioni {#bcc-recommendations-limitations}
 
 * Per garantire la conformità alla privacy, le e-mail in Ccn devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII, personally identifiable information) in modo sicuro.
 
@@ -113,7 +113,7 @@ Per farlo, segui la procedura indicata di seguito.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
+>Ulteriori informazioni sulla gestione della privacy e sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
 ### Dati di reporting Ccn {#bcc-reporting}
 

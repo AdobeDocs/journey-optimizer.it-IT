@@ -1,19 +1,19 @@
 ---
-title: Modificare il contenuto web
+title: Modificare i contenuti web
 description: Scopri come creare una pagina web e modificarne il contenuto in Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
-# Modificare il contenuto web {#edit-web-content}
+# Modificare i contenuti web {#edit-web-content}
 
 Dopo aver [aggiunto un&#39;esperienza Web](create-web.md#create-web-experience) a un percorso o a una campagna, puoi modificare il contenuto del sito utilizzando il designer Web.
 
@@ -31,7 +31,7 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 
 * [Monitorare le campagne web](monitor-web-experiences.md)
 
-## Utilizzare web designer {#work-with-web-designer}
+## Utilizzare il Designer web {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -89,7 +89,7 @@ Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguit
 
 >[!NOTE]
 >
->Il designer del contenuto web è per lo più simile al designer e-mail. Ulteriori informazioni su [progettazione del contenuto con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Il designer del contenuto web è per lo più simile al designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Utilizzare i componenti {#content-components}
 

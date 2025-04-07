@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 11%
@@ -25,7 +25,7 @@ Raccoglie indirizzi e-mail e domini che vengono soppressi in tutte le comunicazi
 
 >[!NOTE]
 >
->Adobe mantiene un elenco aggiornato di indirizzi non validi noti che hanno dimostrato di essere dannosi per il coinvolgimento e la reputazione di mailing e garantisce che le e-mail non vengano consegnate a loro. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
+>Adobe mantiene un elenco aggiornato degli indirizzi non validi noti che si sono dimostrati dannosi per il coinvolgimento e la reputazione della posta e garantisce che le e-mail non vengano inviate a tali utenti. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
 Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
@@ -33,7 +33,7 @@ Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per
 
 Per controllare i messaggi e-mail ricevuti dai proprietari della casella in entrata e assicurarsi di ricevere solo quelli desiderati, i provider di servizi Internet (ISP) e i filtri spam commerciali dispongono di algoritmi proprietari per tenere traccia della reputazione complessiva dei mittenti e-mail in base agli indirizzi IP e ai domini di invio utilizzati.
 
-Se non ricevi i loro feedback (ad esempio, reclami e mancate consegne) In considerazione di ciò, la tua reputazione verrà valutata in base a un punteggio inferiore. L’elenco di soppressione ti aiuta a rispettare il feedback degli ISP.
+Se non prendi in considerazione il loro feedback (come reclami di spam, mancati recapiti, ecc.), la tua reputazione verrà valutata in modo negativo. L’elenco di soppressione ti aiuta a rispettare il feedback degli ISP.
 
 I destinatari i cui indirizzi e-mail vengono soppressi vengono automaticamente esclusi dalla consegna dei messaggi. In questo modo le consegne sono più rapide, poiché il tasso di errore ha un effetto significativo sulla velocità di consegna.
 
@@ -41,7 +41,7 @@ I destinatari i cui indirizzi e-mail vengono soppressi vengono automaticamente e
 
 Gli indirizzi vengono aggiunti all’elenco di soppressione come segue:
 
-* Tutti i **hard bounce** e i **reclami spam** inviano automaticamente gli indirizzi corrispondenti all&#39;elenco di soppressione dopo una singola occorrenza. Ulteriori informazioni sui reclami spam sono disponibili in [questa sezione](#spam-complaints).
+* Tutti i **hard bounce** e i **reclami spam** inviano automaticamente gli indirizzi corrispondenti all&#39;elenco di soppressione dopo una singola occorrenza. Ulteriori informazioni sui reclami di posta indesiderata sono disponibili in [questa sezione](#spam-complaints).
 
 * **Mancati recapiti non permanenti** non inviano immediatamente un indirizzo all&#39;elenco di soppressione, ma incrementano un contatore di errori. Vengono quindi eseguiti diversi [nuovi tentativi](../configuration/retries.md) e quando il contatore di errori raggiunge la soglia, l&#39;indirizzo viene aggiunto all&#39;elenco di soppressione.
 
@@ -53,7 +53,7 @@ Ulteriori informazioni sui mancati recapiti permanenti e sui mancati recapiti no
 >
 >Gli indirizzi degli utenti non iscritti non possono essere inviati all&#39;elenco di soppressione poiché non ricevono e-mail da [!DNL Journey Optimizer]. La loro scelta viene gestita a livello di Experience Platform. Ulteriori informazioni sulla [rinuncia](../privacy/opt-out.md).
 
-Per ogni indirizzo, il motivo di base dell’eliminazione e la categoria di eliminazione (morbida, rigida, ecc.) vengono visualizzati nell’elenco di soppressione. Ulteriori informazioni sull&#39;accesso e la gestione dell&#39;elenco di soppressione in [questa sezione](../configuration/manage-suppression-list.md).
+Per ogni indirizzo, il motivo di base per l’eliminazione e la categoria di soppressione (soft, hard ecc.) vengono visualizzati nell’elenco di soppressione. Ulteriori informazioni sull&#39;accesso e la gestione dell&#39;elenco di soppressione in [questa sezione](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >

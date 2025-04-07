@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2634'
 ht-degree: 11%
@@ -300,7 +300,7 @@ Un’esecuzione può avere i seguenti stati:
 
 ### Utilizzare i rapporti {#reports}
 
-Più in generale, per misurare l&#39;impatto del piano, puoi controllare le prestazioni delle campagne di riscaldamento IP utilizzando i report delle campagne [!DNL Journey Optimizer]. A tale scopo, per ogni esecuzione completata, è possibile fare clic sul pulsante **[!UICONTROL Visualizza report]**. Ulteriori informazioni sono disponibili nel messaggio e-mail della campagna [rapporto live](../reports/campaign-live-report.md#email-live) e nel [rapporto Customer Journey Analytics](../reports/campaign-global-report-cja-email.md).
+Più in generale, per misurare l&#39;impatto del piano, puoi controllare le prestazioni delle campagne di riscaldamento IP utilizzando i report delle campagne [!DNL Journey Optimizer]. A tale scopo, per ogni esecuzione completata, è possibile fare clic sul pulsante **[!UICONTROL Visualizza report]**. Ulteriori informazioni sull&#39;e-mail della campagna [rapporto live](../reports/campaign-live-report.md#email-live) e [rapporto Customer Journey Analytics](../reports/campaign-global-report-cja-email.md).
 
 ![](assets/ip-warmup-plan-reports.png)
 

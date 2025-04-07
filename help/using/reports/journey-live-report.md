@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 31%
@@ -185,7 +185,7 @@ Dal tuo percorso **[!UICONTROL Live Report]**, la scheda **[!UICONTROL E-mail]**
 
 Il grafico **[!UICONTROL E-mail - Prestazioni invio]** fornisce una visualizzazione completa dei dati relativi alle e-mail inviate nel percorso, offrendo informazioni approfondite sulle metriche chiave, quali recapiti e mancati recapiti, che si sono verificati nelle ultime 24 ore. Ciò consente un’analisi dettagliata del processo di invio delle e-mail, fornendo informazioni preziose sull’efficienza e le prestazioni dei percorsi.
 
-+++ Ulteriori informazioni sull’e-mail - Invio delle metriche delle prestazioni
++++ Ulteriori informazioni su E-mail - Invio delle metriche delle prestazioni
 
 * **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente.
 
@@ -208,7 +208,7 @@ Il grafico **[!UICONTROL E-mail - Prestazioni invio]** fornisce una visualizzazi
 
 La tabella **[!UICONTROL E-mail - Statistiche]** fornisce un riepilogo completo dei dati essenziali relativi alle e-mail nei tuoi percorsi nelle ultime 24 ore. Descrive le metriche chiave, come la dimensione del pubblico target e il numero di e-mail inviate con successo, fornendo informazioni utili sull’efficacia e la portata delle e-mail e dei percorsi.
 
-+++ Ulteriori informazioni sulle metriche delle statistiche di invio di e-mail
++++ Ulteriori informazioni sulle metriche delle statistiche di invio e-mail
 
 * **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante il processo di invio.
 
@@ -361,7 +361,7 @@ I widget **[!UICONTROL Statistiche offerte]** e **[!UICONTROL Statistiche offert
 
 I widget **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** e **[!UICONTROL Ottimizzati rispetto a non ottimizzati]** descrivono in dettaglio il successo delle e-mail a seconda del metodo di invio: ottimizzati o normali.
 
-+++ Ulteriori informazioni sull’ottimizzazione dell’ora di invio e sulle metriche ottimizzate e non ottimizzate
++++ Scopri come ottimizzare l’ora di invio e le metriche ottimizzate e non ottimizzate
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione automatica dei resi in relazione al numero totale di messaggi inviati.
@@ -449,7 +449,7 @@ Il grafico e la tabella **[!UICONTROL Notifica push - Raggruppamento per piattaf
 
 Il grafico **[!UICONTROL Riepilogo notifiche push]** offre una rappresentazione dinamica, con un&#39;analisi dell&#39;attività delle notifiche push nelle ultime 24 ore. Questa rappresentazione grafica fornisce un raggruppamento completo delle notifiche push inviate.
 
-+++ Ulteriori informazioni sulla notifica push - Invio di metriche di riepilogo
++++ Ulteriori informazioni sulle notifiche push - Invio di metriche di riepilogo
 
 * **[!UICONTROL Inviato]**: numero totale di notifiche push inviate.
 
@@ -502,7 +502,7 @@ Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclus
 
 La tabella **[!UICONTROL SMS - Statistiche]** fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi SMS, includendo metriche chiave quali il numero di messaggi di destinazione e il numero di messaggi consegnati correttamente nelle ultime 24 ore.
 
-+++ Ulteriori informazioni sugli SMS - Metriche delle statistiche
++++ Ulteriori informazioni su SMS - Metriche delle statistiche
 
 * **[!UICONTROL Destinati]**: numero di profili utente qualificati come profili target.
 
@@ -529,7 +529,7 @@ La tabella **[!UICONTROL SMS - Statistiche]** fornisce un riepilogo conciso dei 
 
 Il widget **[!UICONTROL SMS - Prestazioni per data]** offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni approfondite sulle tendenze delle prestazioni nelle ultime 24 ore.
 
-+++ Ulteriori informazioni sugli SMS - Metriche delle prestazioni per data
++++ Ulteriori informazioni sulla funzione SMS - Metriche delle prestazioni per data
 
 * **[!UICONTROL Inviato]**: numero totale di messaggi SMS inviati.
 

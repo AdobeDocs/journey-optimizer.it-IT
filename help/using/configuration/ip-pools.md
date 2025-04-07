@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 10%
@@ -68,7 +68,7 @@ Quando selezioni gli IP, puoi visualizzare dall’elenco i record PTR associati 
 
 >[!NOTE]
 >
->Se per un IP non è configurato alcun record PTR, non è possibile selezionare tale IP. Rivolgiti al rappresentante del tuo Adobe per configurare il record PTR di tale IP.
+>Se per un IP non è configurato alcun record PTR, non è possibile selezionare tale IP. Rivolgiti al tuo rappresentante Adobe per configurare il record PTR di tale IP.
 
 Dopo la creazione di un pool IP, le informazioni PTR sono visibili quando si passa il mouse sugli indirizzi IP visualizzati sotto l&#39;elenco a discesa del pool IP.
 

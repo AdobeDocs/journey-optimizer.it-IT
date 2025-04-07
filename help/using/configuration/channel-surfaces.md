@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 12%
@@ -253,7 +253,7 @@ Per rendere non disponibile una configurazione del canale **[!UICONTROL Active]*
 
 >[!NOTE]
 >
->Non è possibile disattivare una configurazione di canale durante l’elaborazione di un aggiornamento. È necessario attendere che l’aggiornamento abbia esito positivo o negativo. Ulteriori informazioni su [modifica configurazioni canale](#edit-channel-surface) e sugli [stati aggiornamento](#update-statuses).
+>Non è possibile disattivare una configurazione di canale durante l’elaborazione di un aggiornamento. È necessario attendere che l’aggiornamento abbia esito positivo o negativo. Ulteriori informazioni sulla [modifica delle configurazioni del canale](#edit-channel-surface) e sugli [stati di aggiornamento](#update-statuses).
 
 1. Accedi all’elenco delle configurazioni del canale.
 

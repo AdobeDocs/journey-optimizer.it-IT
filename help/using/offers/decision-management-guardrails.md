@@ -4,13 +4,13 @@ description: Ulteriori informazioni sui guardrail e le limitazioni della gestion
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
-
 
 # Guardrail e limitazioni per la gestione delle decisioni {#decision-management-guardrails}
 

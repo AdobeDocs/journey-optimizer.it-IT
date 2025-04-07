@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
 ht-degree: 15%
@@ -123,7 +123,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 
   Da un lato, i tipi di pubblico sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica basata sugli attributi del profilo e sugli eventi di esperienza. Tuttavia, Gestione delle offerte non ricalcola il pubblico, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
 
-  Ulteriori informazioni sui tipi di pubblico in [questa sezione](../../audience/about-audiences.md).
+  Per ulteriori informazioni sui tipi di pubblico, consulta [questa sezione](../../audience/about-audiences.md).
 
 * **Regole di decisione**
 

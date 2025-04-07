@@ -1,19 +1,19 @@
 ---
-title: Modifica contenuto utilizzando il web designer
-description: Scopri come creare una pagina Web e modificarne il contenuto utilizzando l'editor Web di Journey Optimizer
+title: Modificare il contenuto mediante il Web Designer
+description: Scopri come creare una pagina web e modificarne il contenuto utilizzando l’editor web di Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
 
 ---
 
-
-# Utilizzare web designer {#work-with-web-designer}
+# Utilizzare il Designer web {#work-with-web-designer}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -29,19 +29,19 @@ ht-degree: 8%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
-In [!DNL Journey Optimizer], l&#39;authoring Web visivo è basato sull&#39;estensione **browser Effetto cromatura Visual Helper** Adobe Experience Cloud. [Ulteriori informazioni](web-prerequisites.md#visual-authoring-prerequisites)
+In [!DNL Journey Optimizer], l&#39;authoring Web visivo è basato sull&#39;estensione del browser Chrome **Adobe Experience Cloud Visual Helper**. [Ulteriori informazioni](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
->Per poter accesso e creare pagine Web nell&#39;interfaccia [!DNL Journey Optimizer] utente, assicurarsi di seguire i prerequisiti elencati in [questa sezione](web-prerequisites.md).
+>Per poter accedere alle pagine Web e crearle nell&#39;interfaccia utente [!DNL Journey Optimizer], assicurarsi di seguire i prerequisiti elencati in [questa sezione](web-prerequisites.md).
 
-## Inizia l&#39;authoring dell&#39;esperienza web
+## Inizia a creare la tua esperienza web
 
-Per iniziare a creare la tua esperienza web utilizzando il web designer visivo, seguire i passaggi seguenti.
+Per iniziare a creare la tua esperienza web utilizzando il designer Web visivo, segui i passaggi indicati di seguito.
 
 >[!CAUTION]
 >
->L&#39;SDK [](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} Web Adobe Experience Platform deve essere incluso nella pagina Web. [Ulteriori informazioni](web-prerequisites.md#implementation-prerequisites)
+>Il [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} deve essere incluso nella pagina Web. [Ulteriori informazioni](web-prerequisites.md#implementation-prerequisites)
 
 1. Dalla schermata **[!UICONTROL Modifica contenuto]**, fare clic su **[!UICONTROL Modifica pagina Web]** per aprire la finestra di progettazione Web.
 
@@ -73,9 +73,9 @@ Per iniziare a creare la tua esperienza web utilizzando il web designer visivo, 
 
 >[!NOTE]
 >
->Il designer del contenuto web è per lo più simile al designer e-mail. Scopri di più su come [progettare contenuto con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Il designer del contenuto web è per lo più simile al designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
-Dopo aver modificato il contenuto Web, puoi gestire le modifiche. [Ulteriori informazioni](manage-web-modifications.md)
+Dopo aver modificato il contenuto web, puoi gestire le modifiche. [Ulteriori informazioni](manage-web-modifications.md)
 
 ## Utilizzare i componenti {#content-components}
 
@@ -84,12 +84,12 @@ Dopo aver modificato il contenuto Web, puoi gestire le modifiche. [Ulteriori inf
 >title="Aggiungere componenti alla pagina web"
 >abstract="Puoi aggiungere diversi componenti alla pagina web e modificarli in base alle tue esigenze."
 
-1. **[!UICONTROL Dal riquadro Componenti]** a sinistra, selezionare un elemento. È possibile aggiungere i seguenti componenti alla pagina Web e modificarli in base alle esigenze:
+1. Selezionare un elemento dal riquadro **[!UICONTROL Componenti]** a sinistra. Puoi aggiungere i seguenti componenti alla pagina web e modificarli in base alle tue esigenze:
 
    * [Divisore](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Immagine](../email/content-components.md#image)
-   * Intestazione - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del **[!UICONTROL componente Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
+   * Intestazione - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
    * Paragrafo - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
    * Collegamento
 
@@ -119,13 +119,13 @@ Per aggiungere la personalizzazione, seleziona un contenitore e fai clic sull’
 
 ## Navigazione all&#39;interno del Web Designer {#navigate-web-designer}
 
-Questa sezione descrive in dettaglio i diversi modi in cui è possibile navigare attraverso il web designer. Per visualizzare e gestire le modifiche aggiunte alla tua esperienza web, consulta [questa sezione](manage-web-modifications.md).
+In questa sezione vengono descritti i diversi modi in cui è possibile spostarsi all&#39;interno del designer Web. Per visualizzare e gestire le modifiche aggiunte alla tua esperienza Web, consulta [questa sezione](manage-web-modifications.md).
 
-### Utilizzare il breadcrumb {#breadcrumbs}
+### Utilizzare le breadcrumb {#breadcrumbs}
 
-1. Seleziona un elemento qualsiasi dal quadro.
+1. Seleziona un elemento dall’area di lavoro.
 
-1. Fai clic sull&#39;pulsante **[!UICONTROL Espandi/Comprimi breadcrumb]** nella parte inferiore sinistra dello schermo per visualizzare rapidamente le informazioni sull&#39;elemento selezionato.
+1. Fai clic sul pulsante **[!UICONTROL Espandi/comprimi breadcrumb]** in basso a sinistra dello schermo per visualizzare rapidamente le informazioni sull&#39;elemento selezionato.
 
    ![](assets/web-designer-breadcrumbs.png)
 
@@ -154,20 +154,20 @@ L&#39;utilizzo della modalità **[!UICONTROL Sfoglia]** consente inoltre di spos
 
 È possibile modificare le dimensioni del dispositivo della visualizzazione del Web designer impostando una dimensione predefinita, ad esempio **[!UICONTROL Tablet]** o **[!UICONTROL Orizzontale mobile]**, oppure definire una dimensione personalizzata immettendo il numero di pixel desiderato.
 
-È inoltre possibile modificare il concentrarsi di zoom, dal 25% al 400%.
+È anche possibile cambiare la messa a fuoco dello zoom: da 25% a 400%.
 
 ![](assets/web-designer-device.png)
 
-La possibilità di modificare le dimensioni del dispositivo è progettata per siti dinamico che eseguono correttamente il rendering su vari dispositivi, finestre e dimensioni dello schermo. I siti reattivi si adattano automaticamente e si adattano a qualsiasi dimensione dello schermo, inclusi desktop, laptop, tablet o telefoni cellulari.
+La possibilità di modificare le dimensioni del dispositivo è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, inclusi desktop, laptop, tablet o telefoni cellulari.
 
 >[!CAUTION]
 >
->Puoi modificare un&#39;esperienza web con una specifica dimensione dispositivo. Tuttavia, finché i selettori sono gli stessi, queste modifiche si applicano a tutte le dimensioni e dispositivi, non solo alle dimensioni dispositivo in cui si sta lavorando. Analogamente, la modifica di un&#39;esperienza nella normale visualizzazione desktop applica le modifiche a tutte le dimensioni dello schermo, non solo alla visualizzazione desktop.
+>Puoi modificare un’esperienza web con una dimensione dispositivo specifica. Tuttavia, se i selettori sono gli stessi, queste modifiche si applicano a tutte le dimensioni e ai dispositivi, non solo alle dimensioni del dispositivo in cui stai lavorando. Analogamente, la modifica di un’esperienza nella normale visualizzazione desktop applica le modifiche a tutte le dimensioni di schermo, non solo alla visualizzazione desktop.
 >
->Attualmente, [!DNL Journey Optimizer] non supporta le modifiche di pagina specifiche per le dimensioni del dispositivo. Ciò significa che, ad esempio, se si dispone di un sito Web mobile separato con una struttura del sito separata, è necessario apportare le modifiche specifiche per il proprio sito mobile in una campagna diversa.
+>Attualmente, [!DNL Journey Optimizer] non supporta le modifiche di pagina specifiche per le dimensioni del dispositivo. Ciò significa che, ad esempio, se disponi di un sito web mobile separato con una struttura del sito separata, dovrai apportare le modifiche specifiche al sito mobile in un’altra campagna.
 
 ## Video introduttivo{#video}
 
-Il video qui sotto mostra come creare un&#39;esperienza web utilizzando il web designer nelle [!DNL Journey Optimizer] campagne.
+Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 11%
@@ -35,7 +36,7 @@ Si noti che la definizione dell&#39;esecutore migliore potrebbe richiedere un po
 
 I **[!UICONTROL Indicatori prestazioni chiave (KPI, Key Performance Indicators) della sperimentazione]** funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate alla sperimentazione.
 
-+++ Ulteriori informazioni sulle metriche dei KPI nella sperimentazione
++++ Ulteriori informazioni sulle metriche dei KPI per la sperimentazione
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto al basale.
 

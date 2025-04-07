@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -66,7 +66,7 @@ Durante la creazione di un set di regole, è necessario specificare se le regole
 
 >[!AVAILABILITY]
 >
->Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 ## Creare il primo set di regole personalizzato {#create-rule-set}
 
@@ -90,7 +90,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
    >[!AVAILABILITY]
    >
-   >Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+   >Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -142,7 +142,7 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
 
    >[!AVAILABILITY]
    >
-   >La durata &quot;Giornaliera&quot; è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+   >La durata &quot;Giornaliera&quot; è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
@@ -154,7 +154,7 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
 
      >[!CAUTION]
      > 
-     >Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Il valore del contatore dei profili viene aggiornato una volta consegnata la comunicazione. Tieni presente questo aspetto quando invii grandi volumi di comunicazioni, in quanto la velocità effettiva potrebbe far sì che il destinatario riceva l’e-mail pochi minuti o anche alcune ore dopo l’inizio della comunicazione (nel caso in cui invii milioni di comunicazioni simultaneamente).
 

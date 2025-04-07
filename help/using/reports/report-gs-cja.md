@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Esperienza di reporting aggiornata
-description: Introduzione al report di tutti i tempi
+description: Introduzione al rapporto tutte le ore
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# Introduzione al report di tutti i tempi {#channel-report-gs-cja}
+# Introduzione al rapporto tutte le ore {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -41,13 +41,13 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 ## Prerequisiti {#prerequisites}
 
-* Se **non** possiedi il Customer Journey Analytics o se ne sei il proprietario ma **non** hai accesso ad alcun profilo di prodotto del Customer Journey Analytics, le autorizzazioni vengono gestite in Journey Optimizer. In questo caso, avrà bisogno di:
+* Se **non** possiedi Customer Journey Analytics o se ne sei il proprietario ma **non** hai accesso ad alcun profilo di prodotto Customer Journey Analytics, le autorizzazioni vengono gestite in Journey Optimizer. In questo caso, avrà bisogno di:
 
    * **[!UICONTROL Visualizza report canale]** autorizzazione o ruoli correlati. [Ulteriori informazioni](../administration/permissions.md)
 
-* Se **possiedi** Customer Journey Analytics e hai accesso a un profilo di prodotto di Customer Journey Analytics, avrai bisogno di:
+* Se **possiedi** Customer Journey Analytics e hai accesso a un profilo di prodotto Customer Journey Analytics, avrai bisogno di:
 
-   * **[!UICONTROL Autorizzazioni di creazione pubblico]** e **[!UICONTROL Visualizzazione pubblico]** per il Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+   * **[!UICONTROL Autorizzazioni per la creazione di tipi di pubblico]** e **[!UICONTROL Autorizzazioni per la visualizzazione del pubblico]** per Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 
    * **[!UICONTROL Gestione dei profili]** - Autorizzazione per Adobe Journey Optimizer. [Ulteriori informazioni](../administration/permissions.md)
 
@@ -55,6 +55,6 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 ## Video introduttivo{#video}
 
-Il video seguente mostra come utilizzare le funzioni avanzate di generazione rapporti di Journey Optimizer con Customer Journey Analytics.
+Il video seguente mostra come utilizzare la funzionalità avanzata di reporting di Journey Optimizer con Customer Journey Analytics.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

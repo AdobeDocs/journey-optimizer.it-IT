@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 19%
@@ -169,13 +169,13 @@ Puoi anche visualizzare in anteprima il contenuto della tua esperienza web prima
 >
 >Se più percorsi o campagne aggiornano gli stessi elementi del sito web, il percorso/campagna con priorità più elevata ha la precedenza.
 
-### Publish un percorso web {#activate-web-journey}
+### Pubblicare un percorso web {#activate-web-journey}
 
 Per rendere la tua esperienza web live da un percorso, segui i passaggi indicati di seguito.
 
 1. Verifica che il percorso sia valido e che non ci siano errori. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. Dal percorso, seleziona l&#39;opzione **[!UICONTROL Publish]**, che si trova nel menu a discesa in alto a destra.
+1. Dal percorso, seleziona l&#39;opzione **[!UICONTROL Pubblica]**, che si trova nel menu a discesa in alto a destra.
 
    ![](assets/web-journey-publish.png)
 
@@ -187,7 +187,7 @@ Il percorso Web assume lo stato **[!UICONTROL Live]** ed è ora di sola lettura.
 
 >[!NOTE]
 >
->Dopo aver fatto clic su **[!UICONTROL Publish]**, potrebbero essere necessari fino a 15 minuti perché le modifiche siano disponibili in tempo reale sul sito Web.
+>Dopo aver fatto clic su **[!UICONTROL Pubblica]**, potrebbero essere necessari fino a 15 minuti perché le modifiche siano disponibili in tempo reale sul sito Web.
 
 ### Attivare una campagna web {#activate-web-campaign}
 
