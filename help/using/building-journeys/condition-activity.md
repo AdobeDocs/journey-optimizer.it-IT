@@ -9,19 +9,25 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1541'
+ht-degree: 14%
 
 ---
 
-# Attività Condizione{#condition-activity}
+# Attività Condizione {#condition-activity}
+
+## Aggiungere un’attività condizione {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Attività Condizione"
->abstract="Questa attività consente di definire il flusso del singolo utente nel percorso. Verranno creati diversi percorsi in base a vari criteri. Puoi anche creare un percorso alternativo in caso di timeout o errore."
+>abstract="L&#39;attività **Condition** ti consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida."
+
+L&#39;attività **Condition** ti consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida.
+
+![](assets/journey49.png)
 
 Sono disponibili i seguenti tipi di condizioni:
 
@@ -31,9 +37,9 @@ Sono disponibili i seguenti tipi di condizioni:
 * [Condizione data](#date_condition)
 * [Limite del profilo](#profile_cap)
 
-![](assets/journey49.png)
+È inoltre possibile utilizzare un pubblico in una condizione di percorso. [Ulteriori informazioni](#using-a-segment)
 
-## Informazioni sull’attività Condizione {#about_condition}
+## Aggiungere e gestire i percorsi delle condizioni {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ Fare clic su **[!UICONTROL Aggiungi un percorso]** se si desidera definire più 
 
 Si noti che la progettazione dei percorsi ha un impatto funzionale. Quando più percorsi vengono definiti dopo una condizione, verrà eseguito solo il primo percorso idoneo. Ciò significa che puoi variare la priorità dei percorsi posizionandoli uno sopra l’altro o al di sotto di esso.
 
-Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un VIP&quot; e la condizione di un secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso verrà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
+Prendiamo l’esempio di una condizione del primo percorso &quot;La persona è un VIP&quot; e di una condizione del secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso verrà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ Sono disponibili tre opzioni di filtro dell’ora:
 
 ## Suddivisione percentuale {#percentage_split}
 
-Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
