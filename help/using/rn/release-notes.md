@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 70%
 
 ---
@@ -34,11 +34,9 @@ Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esport
 
 Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizzare il pulsante Impostazioni per disattivare l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
-**Gestione dei contenuti**
+**Gestione dei contenuti** - Data di disponibilità: 2 aprile 2025
 
-Per gestire facilmente i modelli di contenuto e i frammenti, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata.
-
-Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
+Per gestire facilmente i modelli di contenuto e i frammenti, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
 
 >[!AVAILABILITY]
 >
