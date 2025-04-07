@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 18%
 
 ---
@@ -107,7 +107,7 @@ Utilizza la sezione **[!UICONTROL Dati personalizzati]** per aggiungere coppie c
 >title="Configura i dati personalizzati per la notifica push."
 >abstract="Aggiungi variabili personalizzate al payload, a seconda della configurazione dell’app mobile."
 
-Nella sezione **[!UICONTROL Dati personalizzati]** puoi aggiungere variabili personalizzate al payload, a seconda della configurazione dell&#39;app mobile. Per ulteriori informazioni su come impostare le notifiche push in Adobe Experience Platform e Adobe Launch, consulta [questa sezione](push-gs.md)
+Nella sezione **[!UICONTROL Dati personalizzati]** puoi aggiungere variabili personalizzate al payload, a seconda della configurazione dell&#39;app mobile. Per ulteriori informazioni su come impostare le notifiche push in Adobe Experience Platform, consulta [questa sezione](push-gs.md)
 
 ## Opzioni avanzate {#advanced-options-push}
 
