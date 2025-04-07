@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 19%
@@ -26,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selezionare il pubblico della campagna"
->abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico a cui destinare la campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)"
+>abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico a cui destinare la campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)"
 
 Il pubblico è una raccolta di persone che condividono comportamenti e/o caratteristiche simili. Sono configurate e gestite centralmente su Adobe Experience Platform utilizzando il servizio di segmentazione di Adobe Experience Platform e sono facilmente accessibili all’interno di Journey Optimizer per essere attivate nei percorsi e nelle campagne.
 
