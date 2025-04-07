@@ -8,19 +8,19 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 12%
+source-wordcount: '672'
+ht-degree: 18%
 
 ---
 
 # Guardrail TTL (Time-to-live) dei set di dati {#ttl-guardrail}
 
-A partire da febbraio 2025, un guardrail time-to-live (TTL) viene introdotto nei set di dati generati dal sistema Journey Optimizer in **nuove sandbox e nuove organizzazioni** come segue:
+A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema in **nuove sandbox e nuove organizzazioni** come segue:
 
-* 90 giorni per i dati nell’archivio dei profili,
-* 13 mesi per i dati nel data lake.
+* 90 giorni per i dati nell’archivio dei profili
+* 13 mesi per i dati nel data lake
 
 Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva.
 
@@ -81,7 +81,7 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake?
 
-Le estensioni TTL non sono attualmente supportate. I clienti che dispongono di una licenza Real-Time CDP possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
 
 +++
 
@@ -96,7 +96,7 @@ Le estensioni TTL non sono attualmente supportate. I clienti che dispongono di u
 
   >[!NOTE]
   >
-  >Nella connessione [!DNL Customer Journey Analytics] (CJA) è già implementato un TTL, che riduce a 13 mesi il periodo di look-back massimo effettivo dei dati del set di dati interessati.
+  >Un TTL è già implementato nella connessione [!DNL Customer Journey Analytics] (CJA), che riduce a 13 mesi il periodo di look-back massimo effettivo dei dati del set di dati interessati.
 
 * **Origine dati Experience Platform**: sì - Il recupero degli eventi di esperienza è soggetto al TTL di 90 giorni.
 * **Attributi calcolati**: sì - Il calcolo della retrocompilazione iniziale sarà limitato agli ultimi 90 giorni di dati; l&#39;attributo calcolato verrà aggiornato in base agli eventi incrementali per gli aggiornamenti successivi. Non appena gli aggiornamenti successivi raggiungono il periodo di look-back (massimo 6 mesi), il TTL essenzialmente non influisce più sull’attributo calcolato. Scopri di più.
