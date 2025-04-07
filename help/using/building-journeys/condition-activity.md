@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 14%
@@ -94,7 +94,7 @@ Utilizza una **[!UICONTROL Condizione temporale]** per eseguire azioni diverse i
 
 >[!NOTE]
 >
->* Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/timezone-management.md).
+>* Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Ulteriori informazioni su [questa pagina](../building-journeys/timezone-management.md).
 >
 >* Per impostazione predefinita, la **[!UICONTROL condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00.
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 19%
+ht-degree: 25%
 
 ---
 
@@ -92,7 +92,7 @@ I passaggi per creare varianti di un componente di contenuto nel Designer e-mail
    >
    >* Il contenuto condizionale verrà valutato in base alle regole associate nell’ordine in cui vengono visualizzate le varianti. La variante predefinita viene sempre visualizzata se non sono soddisfatte altre condizioni.
    >
-   >* Durante la simulazione o il rendering delle bozze per e-mail contenenti più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione. In caso di timeout o messaggi di errore, puoi ridurre il numero totale di varianti o semplificare le regole condizionali. Ulteriori informazioni sulla verifica del contenuto in [questa pagina](../content-management/preview-test.md).
+   >* Durante la simulazione o il rendering delle bozze per e-mail contenenti più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione. In caso di timeout o messaggi di errore, considera di ridurre il numero totale di varianti o di semplificare le regole condizionali. Ulteriori informazioni sulla verifica del contenuto in [questa pagina](../content-management/preview-test.md).
 
 
 1. Per eliminare una variante, fai clic sull&#39;icona Altre azioni accanto alla variante desiderata e seleziona **[!UICONTROL Elimina]**.

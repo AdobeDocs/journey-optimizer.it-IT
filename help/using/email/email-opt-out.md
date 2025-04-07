@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -67,7 +67,7 @@ Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inse
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md).
+   Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati in [questa sezione](../personalization/personalization-syntax.md).
 
 1. Seleziona la modalità di applicazione della rinuncia: a livello di canale o di identità.
 
@@ -91,7 +91,7 @@ Per implementare questa modalità di annullamento dell’abbonamento, devi crear
 
 Per impostare un meccanismo di rinuncia in due fasi, devi creare pagine di destinazione di annullamento dell’abbonamento personalizzate. La prima pagina di destinazione sarà collegata al messaggio e deve contenere un pulsante di invito all’azione. Quando l’utente fa clic sul pulsante, dovrebbe essere visualizzato un messaggio di conferma.
 
-Scopri come creare una pagina di destinazione in Adobe Journey Optimizer per gestire gli annullamenti degli abbonamenti in [questa pagina](../landing-pages/lp-use-cases.md#opt-out).
+Scopri come creare una pagina di destinazione in Adobe Journey Optimizer per gestire gli annullamenti di abbonamenti in [questa pagina](../landing-pages/lp-use-cases.md#opt-out).
 
 Puoi anche utilizzare una pagina di destinazione esterna. In tal caso, configura l’API per inviare le informazioni a Adobe Journey Optimizer quando un destinatario ha annullato l’abbonamento.
 

@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. Le **Sandbox** vengono create in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Sandbox](../../administration/sandboxes.md).
 
    >[!NOTE]
-   >In qualità di **Amministratore di sistema**, se non riesci a visualizzare il menu **[!UICONTROL Sandbox]** in [!DNL Journey Optimizer], è necessario aggiornare le autorizzazioni. Scopri come aggiornare il ruolo in [questa pagina](../../administration/permissions.md#edit-product-profile).
+   >In qualità di **Amministratore di sistema**, se non riesci a visualizzare il menu **[!UICONTROL Sandbox]** in [!DNL Journey Optimizer], è necessario aggiornare le autorizzazioni. Scopri come aggiornare il tuo ruolo in [questa pagina](../../administration/permissions.md#edit-product-profile).
 
 1. **Informazioni sui ruoli**. I ruoli sono un set di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. Ulteriori informazioni, sono disponibili nella sezione [ruoli preconfigurati](../../administration/ootb-product-profiles.md).
 
@@ -74,4 +74,4 @@ Segui i passaggi seguenti:
 
    * L’[elenco Consentiti](../../configuration/allow-list.md) consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica. In questo modo puoi evitare di inviare accidentalmente e-mail a indirizzi reali dei clienti da un ambiente di test. Scopri come [abilitare l’elenco Consentiti](../../configuration/allow-list.md).
 
-   Per ulteriori informazioni sulla gestione del recapito messaggi in[!DNL Adobe Journey Optimizer], consulta [questa pagina](../../reports/deliverability.md).
+   Ulteriori informazioni sulla gestione del recapito messaggi in [!DNL Adobe Journey Optimizer] [in questa pagina](../../reports/deliverability.md).

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 9%
@@ -69,7 +69,7 @@ Puoi iniziare a progettare il contenuto del messaggio SMS dal pulsante **[!UICON
 
 1. Nella sezione **[!UICONTROL Azioni]**, scegli **[!UICONTROL SMS]** e seleziona o crea una nuova configurazione.
 
-   Ulteriori informazioni sulla configurazione di SMS in [questa pagina](sms-configuration.md).
+   Ulteriori informazioni sulla configurazione SMS in [questa pagina](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 

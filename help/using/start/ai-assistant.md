@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’Assistente IA
-description: Scopri come sfruttare l’Assistente AI
+description: Scopri come sfruttare l’Assistente IA
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 14%
+ht-degree: 45%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 14%
 
 Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
-Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L’Assistente AI viene visualizzato nella sezione destra dello schermo.
+Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra dello schermo.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->Prima di poter utilizzare l’Assistente all’intelligenza artificiale, devi accettare le linee guida per l’utente di Adobe Experience Cloud Generative AI. Ulteriori informazioni sul contratto in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Prima di poter utilizzare l’Assistente IA, devi accettare le linee guida per l’utente dell’intelligenza artificiale generativa di Adobe Experience Cloud. Ulteriori informazioni sul contratto in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
@@ -41,7 +41,7 @@ In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
 * **Informazioni operative** in percorsi (Beta)
 
-  Le domande operative riguardano gli oggetti del percorso nella sandbox dell’organizzazione. Alcuni esempi di domande o prompt di approfondimento operativo includono:
+  Le domande operative su insight riguardano gli oggetti del percorso nella sandbox della tua organizzazione. Alcuni esempi di domande o prompt operativi su insight includono:
 
    * Quanti percorsi live ho in Adobe Journey Optimizer?
    * Dammi un elenco di tutti i percorsi pianificati
@@ -60,6 +60,6 @@ Controlla la risposta e utilizza il pulsante **Mostra origini** per ottenere col
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
-Utilizza il pollice verso l’alto o il pollice verso il basso per valutare la risposta.
+Utilizza il pollice verso l’alto o verso il basso per valutare la risposta.
 
-Per informazioni su come utilizzare l&#39;Assistente AI, vedi gli obiettivi di esempio che puoi raggiungere con l&#39;Assistente AI e come funziona l&#39;Assistente AI, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Per scoprire come utilizzare l’Assistente IA, vedi gli obiettivi di esempio che puoi raggiungere con l’Assistente IA, e per scoprire come funziona, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.

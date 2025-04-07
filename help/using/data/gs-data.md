@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Introduzione alla gestione dei dati {#about-data}
 
-Dalla ricchezza e la copertura dei dati dei clienti finali dipende la potenza e il successo di qualsiasi soluzione di customer experience; e questi dati sono sacri e di grande valore per ogni cliente! La scelta della tecnologia è ora integrata con una valutazione rigorosa delle funzionalità di gestione dei dati.
+Dalla ricchezza e la copertura dei dati dei clienti finali dipende la potenza e il successo di qualsiasi soluzione di customer experience; e questi dati sono sacri e di grande valore per ogni cliente! La scelta della tecnologia è ora incorporata con una valutazione rigorosa delle funzionalità per la gestione dei dati.
 
 Con [!DNL Adobe Journey Optimizer] puoi gestire, conservare ed esportare facilmente questi dati in piattaforme o sistemi che fanno parte del tuo stack tecnologico.
 
@@ -77,7 +77,7 @@ Puoi utilizzare la flessibilità dei dati offerta da [!DNL Journey Optimizer] pe
 
 * **Rimozione e meccanismi di archiviazione**: la rimozione dei dati e l’archiviazione possono essere definite e automatizzate liberamente in [!DNL Adobe Journey Optimizer] in modo da automatizzare i criteri di conservazione dei dati. È possibile definire diverse strategie di durata per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.
 
-  L’area di lavoro Ciclo di vita dei dati consente di creare e monitorare varie attività relative al ciclo di vita dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
+  L’area di lavoro Ciclo di vita dei dati consente di creare e monitorare varie attività relative al ciclo di vita dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Ulteriori informazioni su [questa pagina](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

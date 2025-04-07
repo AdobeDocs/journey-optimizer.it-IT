@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per verificare e risolvere gli errori prima di eseguirli o pubblicarli. Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md). Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md).
 
-È inoltre possibile abbonarsi agli avvisi di sistema di Adobe Journey Optimizer come descritto in questa pagina.
+È inoltre possibile iscriversi agli avvisi di sistema di Adobe Journey Optimizer come descritto in questa pagina.
 
 ## Accedere e sottoscrivere gli avvisi {#alerting-capabilities}
 

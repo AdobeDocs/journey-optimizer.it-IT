@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: passaggi, configurazione, percorso, eventi, flusso, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 Per configurare gli eventi da inviare alle **[!UICONTROL API Streaming Ingestion]** e da utilizzare in [!DNL Journey Optimizer], è necessario eseguire la procedura seguente:
 
 1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni sono disponibili in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target="_blank"}.
-1. Copia il payload dall&#39;anteprima del payload nel menu **[!UICONTROL Evento]**. Per ulteriori informazioni, consulta [questa pagina](../event/about-creating.md#define-the-payload-fields).
+1. Copia il payload dall&#39;anteprima del payload nel menu **[!UICONTROL Evento]**. Ulteriori informazioni su [questa pagina](../event/about-creating.md#define-the-payload-fields).
 
 Quindi devi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
 

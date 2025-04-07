@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->L’esperienza di reporting corrente verrà ritirata a gennaio 2025. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione senza problemi. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
+>L’esperienza di reporting corrente verrà ritirata a gennaio 2025. Dopo questa data, la nuova esperienza di reporting diventerà lo standard. Consigliamo di acquisire familiarità con le nuove funzioni e funzionalità per garantire una transizione semplice. [Introduzione alla nuova interfaccia di Journey Optimizer per la generazione di rapporti.](report-gs-cja.md)
 
 I rapporti per canale fungono da potente strumento che fornisce una panoramica completa delle metriche di traffico e coinvolgimento in un rapporto unificato per ciascun canale, includendo tutte le azioni di tutte le campagne e i Percorsi. È divisa in diversi widget, ciascuno dei quali fornisce una visualizzazione specifica delle prestazioni della campagna o del percorso.
 
 I rapporti Canale sono completamente personalizzabili, per cui puoi ridimensionare o rimuovere widget per creare una dashboard che soddisfi le tue esigenze specifiche. Puoi anche esportare i dati del rapporto in un file PDF o CSV per ulteriori analisi.
 
-Ulteriori informazioni sulle diverse metriche e widget disponibili per i rapporti Canale in questa [pagina](channel-report.md).
+Ulteriori informazioni sulle diverse metriche e widget disponibili per i rapporti Canale in [questa pagina](channel-report.md).
 
 ## Prima di iniziare {#manage-reports-prereq}
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -106,7 +106,7 @@ Di seguito sono riportati i primi passaggi per configurare un evento di business
 
    ![](assets/journey7-business.png)
 
-   L’evento è ora configurato e pronto per essere rilasciato in un percorso. Per poter ricevere gli eventi sono necessari ulteriori passaggi di configurazione. Per ulteriori informazioni, consulta [questa pagina](../event/additional-steps-to-send-events-to-journey.md).
+   L’evento è ora configurato e pronto per essere rilasciato in un percorso. Per poter ricevere gli eventi sono necessari ulteriori passaggi di configurazione. Ulteriori informazioni su [questa pagina](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definire i campi payload {#define-the-payload-fields}
 

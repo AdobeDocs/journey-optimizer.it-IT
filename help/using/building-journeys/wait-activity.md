@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -39,17 +39,17 @@ Puoi utilizzare un&#39;attività **[!UICONTROL Wait]** per definire una durata p
 
 ### Attività di attesa multiple {#multiple-wait-activities}
 
-Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) per i percorsi è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso 91 giorni dopo l&#39;immissione. Per ulteriori informazioni, consulta [questa pagina](journey-properties.md#global_timeout).
+Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) per i percorsi è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso 91 giorni dopo l&#39;immissione. Ulteriori informazioni su [questa pagina](journey-properties.md#global_timeout).
 
 Una persona può accedere a un&#39;attività **Wait** solo se nel percorso è rimasto abbastanza tempo per completare la durata dell&#39;attesa prima del timeout di 91 percorsi.
 
 ### Attendere e rientrare {#wait-reentrance}
 
-È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-properties.md#entrance).
+È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Ulteriori informazioni su [questa pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Modalità di attesa e test {#wait-test-modd}
 
-In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test) consente di definire la durata di ogni attività **Wait**. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test) consente di definire la durata di ogni attività **Wait**. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Ulteriori informazioni su [questa pagina](../building-journeys/testing-the-journey.md).
 
 ## Configurazione {#wait-configuration}
 

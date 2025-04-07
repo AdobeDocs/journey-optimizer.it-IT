@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -33,7 +33,7 @@ Per modificare il contenuto del messaggio in-app, fai clic sul pulsante **[!UICO
 
 L&#39;opzione **[!UICONTROL Formattazione avanzata]** attiva altre opzioni per personalizzare l&#39;esperienza.
 
-Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Per ulteriori informazioni, consulta [questa pagina](send-in-app.md).
+Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Ulteriori informazioni su [questa pagina](send-in-app.md).
 
 ## Layout messaggio {#message-layout}
 
@@ -53,13 +53,13 @@ Dalla sezione **[!UICONTROL Layout messaggio]**, seleziona una delle quattro opz
 
   Puoi aggiungere al messaggio solo un **[!UICONTROL Intestazione]** e un **[!UICONTROL Corpo]**.
 
-* **[!UICONTROL Personalizzato]**: la modalità messaggio personalizzato ti consente di importare e modificare direttamente uno dei messaggi HTML preconfigurati.
+* **[!UICONTROL Personalizzato]**: la modalità messaggio personalizzato ti consente di importare e modificare direttamente uno dei messaggi di HTML preconfigurati.
 
    * Seleziona **[!UICONTROL Componi]** per immettere o incollare il codice HTML non elaborato.
 
      Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione di Journey Optimizer. Per ulteriori informazioni al riguardo, consulta [questa sezione](../personalization/personalize.md).
 
-   * Seleziona **[!UICONTROL Importa]** per importare il file HTML o .zip contenente il contenuto HTML.
+   * Seleziona **[!UICONTROL Importa]** per importare il file HTML o .zip contenente il contenuto di HTML.
 
 ## Scheda Contenuto {#content-tab}
 

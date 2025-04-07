@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 In questa sezione, scopri come risolvere i problemi dei percorsi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Ulteriori informazioni sulla modalità di test in [questa pagina](../building-journeys/testing-the-journey.md).
 
-In qualità di amministratore, puoi anche testare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente dall’interfaccia utente. Per ulteriori informazioni, consulta [questa pagina](../action/troubleshoot-custom-action.md).
+In qualità di amministratore, puoi anche testare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente dall’interfaccia utente. Ulteriori informazioni su [questa pagina](../action/troubleshoot-custom-action.md).
 
 ## Verifica la presenza di errori prima del test {#checking-for-errors-before-testing}
 

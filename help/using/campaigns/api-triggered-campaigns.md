@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -85,7 +85,7 @@ Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio gen
 1. Utilizza questa richiesta cURL nelle API per generare il payload e attivare la campagna. Per ulteriori informazioni, consulta la [documentazione dell&#39;API di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 
-   Esempi di chiamate API sono disponibili anche in [questa pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   Gli esempi di chiamate API sono disponibili anche in [questa pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ La sintassi `{{context.<contextualAttribute>}}` è mappata solo a un tipo di dat
 >
 >Gli attributi contestuali trasmessi nella richiesta non possono superare i 200 kb e sono sempre considerati di tipo stringa.
 >
->La sintassi `context.system` è limitata solo all&#39;utilizzo interno di Adobe e non deve essere utilizzata per trasmettere attributi contestuali.
+>La sintassi `context.system` è limitata all&#39;uso interno di Adobe e non deve essere utilizzata per trasmettere attributi contestuali.
 
 Per il momento non è disponibile alcun attributo contestuale da utilizzare nel menu della barra a sinistra. Gli attributi devono essere digitati direttamente nell&#39;espressione di personalizzazione, senza alcun controllo eseguito da [!DNL Journey Optimizer].
 

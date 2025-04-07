@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 18%
@@ -51,7 +51,7 @@ Ulteriori informazioni sui campi tecnici relativi a un percorso per un determina
 
 La modalità di immissione profilo è definita a livello di percorso, nel riquadro di configurazione di destra. Le impostazioni sono descritte di seguito.
 
-La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell&#39;entrata e del rientro del profilo, in [questa pagina](entry-management.md).
+La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell&#39;ingresso e del rientro del profilo, in [questa pagina](entry-management.md).
 
 ### Consentire il reingresso  {#allow-reentrance}
 

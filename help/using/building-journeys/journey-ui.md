@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -128,7 +128,7 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 >[!NOTE]
 >
->Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Per ulteriori informazioni, consulta [questa pagina](../start/guardrails.md#journey-versions-journey-versions-g).
+>Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni su [questa pagina](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicare un percorso {#duplicate-a-journey}
 

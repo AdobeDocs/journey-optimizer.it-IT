@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 4%
@@ -108,7 +108,7 @@ Tali componenti sono disponibili nel **[!UICONTROL menu Gestione delle decisioni
 
    >[!NOTE]
    >
-   >In questo esempio utilizzeremo solo i punteggi di priorità. Ulteriori informazioni su [regole e vincoli di idoneità](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >In questo esempio utilizzeremo solo i punteggi di priorità. Ulteriori informazioni su [regole di idoneità e vincoli](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## Configurare le offerte {#configure-offers}
 

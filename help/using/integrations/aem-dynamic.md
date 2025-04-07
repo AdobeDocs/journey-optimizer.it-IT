@@ -8,10 +8,10 @@ role: User
 level: Beginner
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Questa integrazione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa integrazione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 Il selettore delle risorse ora supporta Dynamic Media, consentendo di selezionare e utilizzare in modo semplice le rappresentazioni di elementi multimediali dinamici approvate in Journey Optimizer. Le modifiche apportate alle risorse in Adobe Experience Manager si riflettono immediatamente nel contenuto di Journey Optimizer, garantendo che le versioni più aggiornate siano sempre in uso senza richiedere aggiornamenti manuali.
 
@@ -209,7 +209,7 @@ Enable conditional content in your dynamic media to better target your audience 
 
 1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
 
-    [Learn more on conditions](../personalization/create-conditions.md)
+    [Learn more about conditions](../personalization/create-conditions.md)
 
 1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
 

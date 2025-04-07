@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -64,7 +64,7 @@ Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati
 
 >[!NOTE]
 >
->Per i guardrail e le limitazioni applicabili ai percorsi, visita [questa pagina](../start/guardrails.md).
+>I guardrail e le limitazioni del percorso sono descritti in dettaglio in [questa pagina](../start/guardrails.md)
 
 ## Creare un percorso {#jo-build}
 

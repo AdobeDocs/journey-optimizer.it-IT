@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sintassi, editor, percorso
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugl
 
 Di seguito sono riportate le diverse regole per la distinzione tra maiuscole e minuscole:
 
-* Tutti gli operatori (e, o, ecc.) devono essere scritte in minuscolo. Ad esempio, _`<expression1>`e`<expression2>`_ sono espressioni valide, mentre l&#39;espressione _`<expression1>`AND`<expression2>`_ non lo è.
+* Tutti gli operatori (e, o, ecc.) devono essere scritti in minuscolo. Ad esempio, _`<expression1>`e`<expression2>`_ sono espressioni valide, mentre l&#39;espressione _`<expression1>`AND`<expression2>`_ non lo è.
 * Tutti i nomi di funzione fanno distinzione tra maiuscole e minuscole. Ad esempio, _inAudience()_ è valido, mentre la funzione _INAUDIENCE()_ non lo è.
 * I riferimenti ai campi e i valori costanti fanno distinzione tra maiuscole e minuscole: non sono elementi incorporati del linguaggio (al contrario di operatori e funzioni), ma vengono creati dall’utente finale.
 

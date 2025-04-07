@@ -1,5 +1,5 @@
 ---
-title: Creare contenuto in-app
+title: Creare contenuti in-app
 description: Scopri come progettare contenuti in-app in Journey Optimizer
 feature: In App
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
-# Creare contenuto in-app {#design-content}
+# Creare contenuti in-app {#design-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -33,7 +33,7 @@ Puoi modificare il contenuto in-app per configurare le opzioni dell’esperienza
 
 L&#39;opzione **[!UICONTROL Formattazione avanzata]** attiva altre opzioni per personalizzare l&#39;esperienza.
 
-Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Per ulteriori informazioni, consulta [questa pagina](send-in-app.md).
+Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Ulteriori informazioni su [questa pagina](send-in-app.md).
 
 ## Layout messaggio {#message-layout}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Configurare l’azione personalizzata {#custom-action-config}
 
-La configurazione dell&#39;azione personalizzata è descritta in [questa pagina](../action/about-custom-action-configuration.md).
+La configurazione dell&#39;azione personalizzata è dettagliata in [questa pagina](../action/about-custom-action-configuration.md).
 
 Per questo esempio, segui questi passaggi:
 

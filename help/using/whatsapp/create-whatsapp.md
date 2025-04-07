@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '809'
 ht-degree: 3%
 
 ---
@@ -32,6 +32,35 @@ ht-degree: 3%
 >[!ENDSHADEBOX]
 
 Con Adobe Journey Optimizer, puoi progettare e inviare messaggi coinvolgenti su WhatsApp. È sufficiente aggiungere un’azione WhatsApp al percorso o alla campagna e creare il contenuto del messaggio come descritto di seguito. Adobe Journey Optimizer consente inoltre di testare i messaggi WhatsApp prima di inviarli, garantendo un rendering perfetto, una personalizzazione accurata e una configurazione corretta di tutte le impostazioni.
+
+In Journey Optimizer sono supportati solo gli elementi dei messaggi in uscita.
+
++++ Ulteriori informazioni sugli elementi del messaggio supportati e sulle chiamate alle azioni
+
+I seguenti tipi di messaggi sono supportati in WhatsApp:
+
+| Funzione Messaggio | Descrizione |
+|-|-|
+| Intestazioni | Testo opzionale visualizzato sopra il corpo del messaggio. |
+| Testo | Supporta il contenuto dinamico tramite parametri. |
+| Immagini (JPEG, PNG) | Deve essere in formato RGB o RGBA a 8 bit e di dimensioni inferiori a 5 MB. |
+| Video | Deve essere 3GPP o MP4, di dimensioni inferiori a 16 MB e ospitato tramite URL. |
+| Audio | Disponibile solo per i messaggi di risposta. Deve essere in formato AAC, AMR, MP3, MP4 audio o OGG, ospitato su un URL e inferiore a 16 MB. |
+| Documenti | Deve essere inferiore a 100 MB, ospitato su un URL e in uno dei seguenti formati: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx o .pdf. |
+| Corpo del testo | Supporta il contenuto dinamico tramite parametri. |
+| Testo piè di pagina | Supporta il contenuto dinamico tramite parametri. |
+
+Per i messaggi WhatsApp sono disponibili le seguenti opzioni di invito all’azione:
+
+| Inviti all&#39;azione | Descrizione |
+|-|-|
+| Numero di telefono della chiamata | Disponibile solo nei modelli di messaggio. Limitato a un pulsante. |
+| Pulsanti di risposta rapida personalizzati | Supporta fino a tre pulsanti. |
+| Pulsante di rinuncia marketing | Non aggiorna automaticamente lo stato della sottoscrizione. |
+| Modelli per messaggi di codice coupon | Disponibile solo nei modelli di messaggio. |
+| Messaggi di risposta di CTA | Consente di includere un pulsante di invito all’azione in un messaggio di risposta. |
+
++++
 
 ## Aggiungi un messaggio WhatsApp {#create-whatsapp-journey-campaign}
 
@@ -67,7 +96,7 @@ Puoi iniziare a progettare il contenuto del messaggio WhatsApp dal pulsante **[!
 
 1. Nella sezione **[!UICONTROL Azioni]**, scegli **[!UICONTROL WhatsApp]** e seleziona o crea una nuova configurazione.
 
-   Ulteriori informazioni sulla configurazione di WhatsApp in [questa pagina](whatsapp-configuration.md).
+   Ulteriori informazioni sulla configurazione WhatsApp in [questa pagina](whatsapp-configuration.md).
 
 1. Fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l&#39;opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
@@ -90,7 +119,7 @@ Puoi iniziare a progettare il contenuto del messaggio WhatsApp dal pulsante **[!
 
 >[!BEGINSHADEBOX]
 
-Prima di progettare il messaggio WhatsApp in Journey Optimizer, devi innanzitutto creare e progettare il modello in Meta. In Journey Optimizer sono supportati solo gli elementi dei messaggi in uscita. [Ulteriori informazioni](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Prima di progettare il messaggio WhatsApp in Journey Optimizer, devi innanzitutto creare e progettare il modello in Meta. [Ulteriori informazioni](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 Nota che il modello WhatsApp deve prima essere approvato da Meta prima di essere utilizzato in Journey Optimizer. Questo processo richiede in genere alcune ore, ma può richiedere fino a 24 ore. [Ulteriori informazioni](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
@@ -144,7 +173,7 @@ Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio 
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!TAB Response message]
 
@@ -158,7 +187,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!ENDTABS]
 -->

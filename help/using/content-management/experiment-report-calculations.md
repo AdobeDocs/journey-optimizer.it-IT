@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -42,7 +42,7 @@ L&#39;incremento tra una variante ** e la variante di controllo *<sub>0</sub>* �
 
 Nel pannello Sperimentazione di Percorso vengono visualizzati intervalli di affidabilità (sequenze di affidabilità) &quot;sempre validi&quot; per i singoli trattamenti di un esperimento.
 
-La sequenza di affidabilità per una singola variante `ν` è centrale per la metodologia statistica utilizzata da Adobe. Puoi trovarne la definizione in [questa pagina](https://doi.org/10.48550/arXiv.2103.06476) (riprodotta da [Waudby-Smith et al.]).
+La sequenza di affidabilità per una singola variante `ν` è fondamentale per la metodologia statistica utilizzata da Adobe. Puoi trovarne la definizione in [questa pagina](https://doi.org/10.48550/arXiv.2103.06476) (riprodotta da [Waudby-Smith et al.]).
 
 Se si è interessati a stimare un parametro di destinazione `ψ`, ad esempio il tasso di conversione di una variante in un esperimento, la dicotomia tra una sequenza di intervalli di affidabilità (CI) a tempo fisso e una sequenza di affidabilità (CS) uniforme nel tempo può essere riassunta come segue:
 
@@ -56,7 +56,7 @@ Questo ha alcune implicazioni profonde che sono molto importanti per i test onli
 * Gli esperimenti possono essere monitorati in modo continuo, interrotti in modo adattivo o continuati.
 * L’errore di tipo I viene controllato in tutti i momenti di arresto, compresi quelli dipendenti dai dati.
 
-L&#39;Adobe utilizza le sequenze di affidabilità asintotiche, che per una singola variante con stima media `μ` hanno il formato:
+Adobe utilizza le sequenze di affidabilità asintotiche, che per una singola variante con stima media `μ` hanno il formato:
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
@@ -65,7 +65,7 @@ Dove:
 * `N` è il numero di unità per quella variante.
 * `σ` è una stima campione della deviazione standard (definita sopra).
 * `α` è il livello desiderato di errore di tipo I (o la probabilità di mancata copertura). Questo valore è sempre impostato su 0,05.
-* L&#39;elemento che caratterizza il CS è la costante che consente di regolare le dimensioni del campione in base alle quali il CS è più stretto. <sup></sup> L&#39;Adobe ha scelto un valore universale di<sup>2</sup> = 10<sup>-2.8</sup>, che è appropriato per i tipi di tassi di conversione visualizzati negli esperimenti online.
+* L&#39;elemento che caratterizza il CS è la costante che consente di regolare le dimensioni del campione in base alle quali il CS è più stretto. <sup></sup> Adobe ha scelto un valore universale di<sup>2</sup> = 10<sup>-2.8</sup>, appropriato per i tipi di tassi di conversione visualizzati negli esperimenti online.
 
 ## Affidabilità {#confidence}
 

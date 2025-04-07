@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 25%
@@ -38,7 +38,7 @@ Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizza
 >
 >La configurazione delle azioni personalizzate deve essere eseguita da un **utente tecnico**.
 
-Le azioni personalizzate sono azioni aggiuntive definite da utenti tecnici e rese disponibili agli esperti di marketing: una volta configurate, vengono visualizzate nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le azioni personalizzate sono azioni aggiuntive definite da utenti tecnici e rese disponibili agli esperti di marketing: una volta configurate, vengono visualizzate nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Ulteriori informazioni su [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
 Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selezionare **[!UICONTROL Configurazioni]** nella sezione del menu AMMINISTRAZIONE. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../start/user-interface.md).
 

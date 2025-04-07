@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di d
 * 90 giorni per i dati nell’archivio dei profili
 * 13 mesi per i dati nel data lake
 
-Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
+Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail TTL (Time-To-Live) dei set di dati](../data/datasets-ttl.md)
 
 ## Guardrail per canali {#channel-guardrails}
 
@@ -66,7 +66,7 @@ Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descriz
 
 ### Guardrail per canali basati su codice {#code-based-guardrails}
 
-Per utilizzare le azioni di esperienza basate su codice in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+Per utilizzare le azioni di esperienza basate sul codice in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, seguire i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 
@@ -122,7 +122,7 @@ I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione
 Le seguenti protezioni si applicano alle [Azioni](../building-journeys/about-journey-activities.md) nei tuoi percorsi:
 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. Vengono eseguiti nuovi tentativi per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
-* L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
+* L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Ulteriori informazioni su [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
 * Un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
@@ -201,7 +201,7 @@ Le seguenti protezioni si applicano all&#39;attività del percorso [Read Audienc
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
 * L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
 * Un percorso può disporre di una sola attività **Leggi pubblico**.
-* Consulta anche i consigli su come utilizzare l’attività **Leggi pubblico** in [questa pagina](../building-journeys/read-audience.md).
+* Consulta anche i consigli su come utilizzare l&#39;attività **Read Audience** in [questa pagina](../building-journeys/read-audience.md).
 * I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 
 ### Qualificazione del pubblico {#audience-qualif-g}
