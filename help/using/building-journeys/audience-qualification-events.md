@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 5%
@@ -18,12 +18,12 @@ ht-degree: 5%
 
 # Eventi di qualificazione del pubblico {#segment-qualification}
 
-## Informazioni sugli eventi di qualificazione del pubblico{#about-segment-qualification}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Eventi di qualificazione del pubblico"
 >abstract="Questa attività consente al percorso di monitorare gli ingressi e le uscite dei profili nei tipi di pubblico di Adobe Experience Platform, per consentire a singoli utenti di entrare o proseguire in un percorso."
+
+## Informazioni sugli eventi di qualificazione del pubblico{#about-segment-qualification}
 
 Questa attività consente al percorso di ascoltare le entrate e le uscite dei profili nei tipi di pubblico di Adobe Experience Platform per consentire a singoli utenti di entrare o proseguire in un percorso. Per ulteriori informazioni sulla creazione di tipi di pubblico, consulta questa [sezione](../audience/about-audiences.md).
 
