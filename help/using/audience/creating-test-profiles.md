@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -137,7 +137,7 @@ Il percorso sarà composto da un pubblico di **[!UICONTROL lettura]** e da un&#3
 
    >[!NOTE]
    >
-   > Il calcolo del pubblico può richiedere del tempo. Ulteriori informazioni sui tipi di pubblico in [questa sezione](../audience/about-audiences.md).
+   > Il calcolo del pubblico può richiedere del tempo. Per ulteriori informazioni sui tipi di pubblico, consulta [questa sezione](../audience/about-audiences.md).
 
 1. Ora crea un nuovo percorso e inizia con un&#39;attività di orchestrazione **[!UICONTROL Read Audience]**.
 1. Scegli il pubblico creato in precedenza e lo spazio dei nomi utilizzato dai profili.

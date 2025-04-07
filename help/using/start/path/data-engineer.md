@@ -7,10 +7,10 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Come **ingegnere dati di Adobe Journey Optimizer**, devi preparare e gestire i dati del profilo cliente per potenziare le esperienze orchestrate da [!DNL Journey Optimizer], modellare i dati di clienti e aziende negli schemi e configurare i connettori origine per l’acquisizione dei dati. Una volta che l’[amministratore di sistema](administrator.md) ti avrà concesso l’accesso e avrà preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
 
-Scopri come **identificare dati e creare schemi e set di dati** per inserire i dati in Adobe Experience Platform in questa pagina.
+Scopri come **identificare i dati e creare schemi e set di dati** per inserire i dati in Adobe Experience Platform in questa pagina.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Scopri come **identificare dati e creare schemi e set di dati** per inserire i d
 
 I passaggi per creare uno spazio dei nomi delle identità, un set di dati abilitati per i profili e i profili di test sono descritti nelle sezioni seguenti:
 
-1. **Creare uno spazio dei nomi delle identità**. In Adobe [!DNL Journey Optimizer], le **Identità** collegano i consumatori tra dispositivi e canali creando un grafico delle identità. Il grafico delle identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Per ulteriori informazioni su identità e spazio dei nomi delle identità, consulta [questa pagina](../../audience/get-started-identity.md).
+1. **Creare uno spazio dei nomi delle identità**. In Adobe [!DNL Journey Optimizer], le **Identità** collegano i consumatori tra dispositivi e canali creando un grafico delle identità. Il grafico delle identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Ulteriori informazioni sulle identità e sugli spazi dei nomi di identità [in questa pagina](../../audience/get-started-identity.md).
 
-1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Per ulteriori informazioni sugli schemi, consulta [questa pagina](../../data/get-started-schemas.md).
+1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Ulteriori informazioni sugli schemi [in questa pagina](../../data/get-started-schemas.md).
 
-1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Per ulteriori informazioni sui set di dati, consulta [questa pagina](../../data/get-started-datasets.md).
+1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Ulteriori informazioni sui set di dati [in questa pagina](../../data/get-started-datasets.md).
 
-1. **Configurare i connettori di origine**. Adobe Journey Optimizer consente di acquisire dati da origini esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e molte altre. Per ulteriori informazioni sui connettori di origine, consulta [questa pagina](../get-started-sources.md).
+1. **Configurare i connettori di origine**. Adobe Journey Optimizer consente di acquisire dati da origini esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e molte altre. Ulteriori informazioni sui connettori Source [in questa pagina](../get-started-sources.md).
 
 1. **Creare profili di test**. I profili di test sono necessari quando si utilizza la [modalità di test](../../building-journeys/testing-the-journey.md) in un percorso e per [visualizzare in anteprima e verificare i messaggi](../../content-management/preview-test.md) prima di inviarli. I passaggi per creare i profili di test sono descritti in dettaglio [in questa pagina](../../audience/creating-test-profiles.md).
 
