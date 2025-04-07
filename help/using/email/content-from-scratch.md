@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 60%
+source-wordcount: '674'
+ht-degree: 59%
 
 ---
 
-# Creare contenuti da zero {#content-from-scratch}
+# Progettare contenuti da zero con E-mail Designer {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
+source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 69%
+source-wordcount: '758'
+ht-degree: 65%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 69%
 ## Aggiornamenti di aprile 2025
 
 ### Miglioramenti {#25-04-improv}
+
+**E-mail Designer**
+
+Per migliorare l&#39;accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `<title>` e all&#39;attributo `lang` nell&#39;elemento `<html>` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo **[!UICONTROL Preheader]** nella sezione **[!UICONTROL Body]** dell&#39;e-mail. [Ulteriori informazioni](../email/email-metadata.md)
 
 **Strumenti sandbox** - Data di disponibilità: 3 aprile 2025
 
