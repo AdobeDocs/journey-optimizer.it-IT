@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 63%
+source-wordcount: '761'
+ht-degree: 61%
 
 ---
 
@@ -20,31 +20,33 @@ ht-degree: 63%
 >title="Novità"
 >abstract="**Adobe Journey Optimizer** offre continuamente nuove funzioni, miglioramenti a quelle esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
 
-[!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+[!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Aggiornamenti di aprile 2025
 
 ### Miglioramenti {#25-04-improv}
 
-**E-mail Designer**
 
-Per migliorare l&#39;accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `<title>` e all&#39;attributo `lang` nell&#39;elemento `<html>` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo **[!UICONTROL Preheader]** nella sezione **[!UICONTROL Body]** dell&#39;e-mail. [Ulteriori informazioni](../email/email-metadata.md)
+* **Strumenti sandbox** - Data di disponibilità: 3 aprile 2025
 
-**Strumenti sandbox** - Data di disponibilità: 3 aprile 2025
+  Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
-Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** - Data di disponibilità: 2 aprile 2025
 
-**Personalization** - Data di disponibilità: 2 aprile 2025
+  Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizzare il pulsante Impostazioni per disattivare l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
-Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizzare il pulsante Impostazioni per disattivare l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+* **Gestione dei contenuti** - Data di disponibilità: 2 aprile 2025
 
-**Gestione dei contenuti** - Data di disponibilità: 2 aprile 2025
+  Per gestire facilmente i modelli di contenuto e i frammenti, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
 
-Per gestire facilmente i modelli di contenuto e i frammenti, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
+  >[!AVAILABILITY]
+  >
+  >Questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
 
->[!AVAILABILITY]
->
->Questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
+* **Email Designer** - Availability date: April 1, 2025
+
+  Per migliorare l&#39;accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `<title>` e all&#39;attributo `lang` nell&#39;elemento `<html>` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo **[!UICONTROL Preheader]** nella sezione **[!UICONTROL Body]** dell&#39;e-mail. [Ulteriori informazioni](../email/email-metadata.md)
+
 
 ## Note sulla versione di marzo 2025 {#25-3-rn}
 
@@ -200,7 +202,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../test-app
 
 **Regole di business**
 
-Ora è possibile utilizzare una quota limite giornaliera in percorsi e campagne con segmentazione in batch. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ora è possibile utilizzare una quota limite giornaliera in percorsi e campagne con segmentazione in batch. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Learn more about namespace priority in the [Platform Identity Service guide](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Come promemoria, il limite di frequenza giornaliero nei set di regole è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
