@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 11%
+source-wordcount: '1786'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,41 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
 >abstract="L’attività Leggi pubblico consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico di Adobe Experience Platform entrino in un percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Data/ora di inizio"
+>abstract="Definisci la data e l’ora in cui desideri attivare questo percorso."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Ripeti fino a"
+>abstract="Definisci la data di fine della ricorrenza."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Ripeti ogni"
+>abstract="Definisci una frequenza per il modulo di pianificazione ricorrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Lettura incrementale"
+>abstract="Consenti solo ai nuovi profili dall&#39;ultima lettura di accedere al percorso."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forza rientro"
+>abstract="Rilascia tutti i partecipanti al percorso prima che ogni pubblico legga."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Sincronizzare l’esecuzione del percorso con l’esportazione del pubblico"
+>abstract="Attiva questa opzione per attivare il percorso quando è disponibile una nuova esportazione del pubblico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Sincronizzare l’esecuzione del percorso con l’esportazione del pubblico"
+>abstract="Specifica la durata di attesa del percorso per garantire la disponibilità di una nuova esportazione del pubblico."
 
 Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
