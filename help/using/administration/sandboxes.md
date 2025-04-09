@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandbox, virtuale, ambienti, organizzazione, piattaforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 54%
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 54%
 Le sandbox vengono assegnate tramite i ruoli in Autorizzazioni. [Scopri come assegnare le sandbox](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] presenta le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
 
 Puoi trovare il controllo del commutatore sandbox in alto a destra dello schermo accanto al nome della tua organizzazione. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
 
@@ -66,7 +66,7 @@ Per configurare l’accessibilità dei contenuti, è necessario assegnare una ca
 
 Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox. Ad esempio, se la sandbox è denominata “sviluppo”, la cartella condivisa deve avere lo stesso nome.
 
-[Scopri come gestire le cartelle condivise](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[Scopri come gestire le cartelle condivise](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
 
 ## Video introduttivo{#video}
 
