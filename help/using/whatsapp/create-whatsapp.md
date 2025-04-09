@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '768'
 ht-degree: 3%
 
 ---
@@ -50,15 +50,12 @@ I seguenti tipi di messaggi sono supportati in WhatsApp:
 | Corpo del testo | Supporta il contenuto dinamico tramite parametri. |
 | Testo piè di pagina | Supporta il contenuto dinamico tramite parametri. |
 
-Per i messaggi WhatsApp sono disponibili le seguenti opzioni di invito all’azione:
+The following call-to-action option is available for your WhatsApp messages:
 
 | Inviti all&#39;azione | Descrizione |
 |-|-|
-| Numero di telefono della chiamata | Disponibile solo nei modelli di messaggio. Limitato a un pulsante. |
-| Pulsanti di risposta rapida personalizzati | Supporta fino a tre pulsanti. |
-| Pulsante di rinuncia marketing | Non aggiorna automaticamente lo stato della sottoscrizione. |
-| Modelli per messaggi di codice coupon | Disponibile solo nei modelli di messaggio. |
-| Messaggi di risposta di CTA | Consente di includere un pulsante di invito all’azione in un messaggio di risposta. |
+| Visita il sito web | È consentito un solo pulsante, con parametri variabili inclusi. |
+
 
 +++
 
@@ -97,6 +94,8 @@ Puoi iniziare a progettare il contenuto del messaggio WhatsApp dal pulsante **[!
 1. Nella sezione **[!UICONTROL Azioni]**, scegli **[!UICONTROL WhatsApp]** e seleziona o crea una nuova configurazione.
 
    Ulteriori informazioni sulla configurazione WhatsApp in [questa pagina](whatsapp-configuration.md).
+
+   ![](assets/whatsapp-campaign-1.png)
 
 1. Fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l&#39;opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
@@ -139,13 +138,19 @@ Nota che il modello WhatsApp deve prima essere approvato da Meta prima di essere
 
    [Ulteriori informazioni sulle categorie dei modelli](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
+   ![](assets/whatsapp-design-1.png)
+
 1. Dall&#39;elenco a discesa **Modello WhatsApp**, seleziona il modello creato in precedenza e progettato in Meta.
 
    [Ulteriori informazioni su come creare i modelli Whatsapp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
+   ![](assets/whatsapp-design-2.png)
+
 1. Utilizza l’editor di personalizzazione per aggiungere la personalizzazione al modello. Puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo o la città.
 
    Sfoglia la pagina seguente per ulteriori informazioni sulla [personalizzazione](../personalization/personalize.md).
+
+   ![](assets/whatsapp-design-3.png)
 
 1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il contenuto del messaggio WhatsApp, gli URL abbreviati e il contenuto personalizzato. [Ulteriori informazioni](send-whatsapp.md)
 
