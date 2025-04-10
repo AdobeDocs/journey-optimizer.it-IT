@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 19%
+source-wordcount: '1017'
+ht-degree: 17%
 
 ---
 
@@ -120,11 +120,7 @@ Se si conosce il metodo di valutazione da utilizzare, selezionarlo utilizzando l
 
 Dopo aver definito per la prima volta un pubblico, i profili vengono aggiunti al pubblico quando sono idonei. Il recupero del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo il recupero, il pubblico viene aggionato costantemente ed è sempre pronto per il targeting.
 
-## [!BADGE Disponibilità limitata]{type=Informative} Valutazione del pubblico flessibile {#flexible}
-
->[!AVAILABILITY]
->
-La valutazione flessibile del pubblico è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+## Valutazione flessibile del pubblico {#flexible}
 
 Adobe Experience Platform Audience Portal consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, garantendo di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.
 
