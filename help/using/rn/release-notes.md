@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 61%
 
   >[!AVAILABILITY]
   >
-  >Questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
+  >Questo miglioramento è disponibile solo per alcune organizzazioni (disponibilità limitata).
 
-* **Email Designer** - Availability date: April 1, 2025
+* **E-mail Designer** - Data di disponibilità: 1 aprile 2025
 
   Per migliorare l&#39;accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `<title>` e all&#39;attributo `lang` nell&#39;elemento `<html>` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo **[!UICONTROL Preheader]** nella sezione **[!UICONTROL Body]** dell&#39;e-mail. [Ulteriori informazioni](../email/email-metadata.md)
 
@@ -196,17 +196,17 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../test-app
 
 **Configurazione**
 
-* Ora è possibile assegnare tag unificati Adobe Experience Platform alle configurazioni del canale. Ciò ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. [Ulteriori informazioni](../configuration/channel-surfaces.md#channel-config-tags)
+* Ora è possibile assegnare tag unificati Adobe Experience Platform alle configurazioni del canale. Questo ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. [Ulteriori informazioni](../configuration/channel-surfaces.md#channel-config-tags)
 
 * Quando imposti o modifichi un sottodominio e-mail in Journey Optimizer, ora puoi scegliere di gestire autonomamente il record DMARC associato, se disponibile sul dominio principale. [Ulteriori informazioni](../configuration/dmarc-record.md#set-up-dmarc)
 
 **Regole di business**
 
-Ora è possibile utilizzare una quota limite giornaliera in percorsi e campagne con segmentazione in batch. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Learn more about namespace priority in the [Platform Identity Service guide](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ora è possibile utilizzare una quota limite giornaliera in percorsi e campagne con segmentazione in batch. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-Come promemoria, il limite di frequenza giornaliero nei set di regole è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
+Come promemoria, la quota limite giornaliera nei set di regole è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
-Per ulteriori informazioni sulle regole business, consulta la [documentazione dettagliata](../configuration/rule-sets.md).
+Per ulteriori informazioni sulle regole di business, consulta la [documentazione dettagliata](../configuration/rule-sets.md).
 
 <!--**Deliverability**
 

@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di [!DNL Adobe Journey Optimizer].
 
-I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto di Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Prima di iniziare, è inoltre necessario essere a conoscenza dei [Guardrail per i dati del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
+Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per Real-time Customer Profile data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
 
 ## Browser supportati {#browsers}
 
@@ -45,14 +45,14 @@ Questa modifica verrà implementata nelle **sandbox della clientela esistente** 
 
 ### Guardrail per e-mail {#message-guardrails}
 
-I seguenti guardrail si applicano al [canale e-mail](../email/get-started-email.md):
+Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti guardrail:
 
 * Con [!DNL Journey Optimizer] non è possibile aggiungere allegati a un messaggio e-mail.
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
 ### Guardrail per SMS {#sms-guardrails}
 
-Le seguenti protezioni si applicano al [canale SMS](../sms/get-started-sms.md):
+Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrail:
 
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
@@ -60,7 +60,7 @@ Le seguenti protezioni si applicano al [canale SMS](../sms/get-started-sms.md):
 
 ### Guardrail per il canale Web {#web-guardrails}
 
-[!DNL Journey Optimizer] [campagne web](../web/get-started-web.md) eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo ove fosse superato il numero contrattuale di profili coinvolgibili acquistati.
+Le [campagne web](../web/get-started-web.md) [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo ove fosse superato il numero contrattuale di profili coinvolgibili acquistati.
 
 Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -70,7 +70,7 @@ Per utilizzare le azioni di esperienza basate sul codice in [!DNL Journey Optimi
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 
-Le seguenti protezioni si applicano alle [pagine di destinazione](../landing-pages/get-started-lp.md):
+Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applicati i seguenti guardrail:
 
 * Solo un componente **Modulo** può essere utilizzato in una singola pagina principale.
 * Il componente **Modulo** non può essere utilizzato nelle pagine secondarie.
@@ -85,9 +85,9 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 
 Ulteriori informazioni sulla delega del dominio in [questa pagina](../configuration/delegate-subdomain.md).
 
-## Guardrail dei frammenti {#fragments-guardrails}
+## Guardrail per i frammenti {#fragments-guardrails}
 
-I seguenti guardrail si applicano ai [frammenti](../content-management/fragments.md):
+Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti guardrail:
 
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
@@ -119,7 +119,7 @@ I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione
 
 ### Azioni generali {#general-actions-g}
 
-Le seguenti protezioni si applicano alle [Azioni](../building-journeys/about-journey-activities.md) nei tuoi percorsi:
+Alle [azioni](../building-journeys/about-journey-activities.md) nei tuoi percorsi, vengono applicati i seguenti guardrail:
 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. Vengono eseguiti nuovi tentativi per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
 * L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Ulteriori informazioni su [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
@@ -128,7 +128,7 @@ Le seguenti protezioni si applicano alle [Azioni](../building-journeys/about-jou
 
 ### Versioni del percorso {#journey-versions-g}
 
-Le seguenti protezioni si applicano alle [versioni di Percorso](../start/user-interface.md):
+Alle [versioni del percorso](../start/user-interface.md) vengono applicati i seguenti guardrail:
 
 * Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del pubblico**.
 * Un percorso che inizia con un’attività di **Qualificazione del pubblico** nella versione v1 deve sempre iniziare con una **Qualificazione del pubblico** nelle altre versioni.
@@ -139,7 +139,7 @@ Le seguenti protezioni si applicano alle [versioni di Percorso](../start/user-in
 
 ### Azioni personalizzate {#custom-actions-g}
 
-I seguenti guardrail si applicano alle [azioni personalizzate](../action/action.md) nei tuoi percorsi:
+Alle [azioni personalizzate](../action/action.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
 * Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e per sandbox. Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5.000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
@@ -156,7 +156,7 @@ I seguenti guardrail si applicano alle [azioni personalizzate](../action/action.
 
 ### Eventi {#events-g}
 
-I seguenti guardrail si applicano agli [Eventi](../event/about-events.md) nei tuoi percorsi:
+Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
 * Journey Optimizer supporta un volume massimo di 5.000 eventi di percorso in entrata al secondo.
 * I percorsi attivati da eventi possono richiedere fino a 5 minuti per elaborare la prima azione nel percorso.
@@ -167,7 +167,7 @@ I seguenti guardrail si applicano agli [Eventi](../event/about-events.md) nei tu
 
 ### Origini dati {#data-sources-g}
 
-Le seguenti protezioni si applicano alle [Origini dati](../datasource/about-data-sources.md) nei tuoi percorsi:
+Alle [origini dati](../datasource/about-data-sources.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso del cliente per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 * Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
@@ -194,7 +194,7 @@ All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail sp
 
 ### Leggi pubblico {#read-segment-g}
 
-Le seguenti protezioni si applicano all&#39;attività del percorso [Read Audience](../building-journeys/read-audience.md):
+All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
 * Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con **Leggi pubblico**, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
@@ -206,19 +206,19 @@ Le seguenti protezioni si applicano all&#39;attività del percorso [Read Audienc
 
 ### Qualificazione del pubblico {#audience-qualif-g}
 
-Il seguente guardrail si applica all&#39;attività del percorso [Qualificazione del pubblico](../building-journeys/audience-qualification-events.md):
+All’attività del percorso [qualificazione del pubblico](../building-journeys/audience-qualification-events.md) viene applicato il seguente guardrail:
 
 * L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
 
 ### Editor espressioni {#expression-editor}
 
-Il guardrail seguente si applica all&#39;editor di espressioni [percorso](../building-journeys/expression/expressionadvanced.md):
+All’[editor di espressioni del percorso](../building-journeys/expression/expressionadvanced.md) viene applicato il seguente guardrail:
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. Devi creare un nuovo pubblico e utilizzare una condizione inaudience nel percorso.
 
 ### Attività in-app {#in-app-activity-limitations}
 
-I seguenti guardrail si applicano all&#39;azione **[!UICONTROL Messaggio in-app]**. Ulteriori informazioni sui messaggi in-app in [questa pagina](../in-app/create-in-app.md).
+All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti guardrail: Ulteriori informazioni sui messaggi in-app in [questa pagina](../in-app/create-in-app.md).
 
 * Questa funzione non è attualmente disponibile per la clientela del settore dell’assistenza sanitaria.
 
