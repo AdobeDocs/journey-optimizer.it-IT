@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 63%
+source-wordcount: '692'
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ Utilizza l’editor di espressioni avanzate di Percorso per creare espressioni a
 ![](../assets/journey65.png)
 
 
-L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che ti consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi di esperienza.
+L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi di esperienza.
 
 >[!NOTE]
 >
@@ -47,9 +47,9 @@ Se possibile, puoi passare tra le due modalità utilizzando il pulsante **[!UICO
 
 >[!NOTE]
 >
->Le condizioni possono essere definite nell’editor di espressioni semplice o avanzato. Restituiscono sempre un tipo booleano.
+>* Le condizioni possono essere definite nell’editor di espressioni semplice o avanzato. Restituiscono sempre un tipo booleano.
 >
->I parametri delle azioni possono essere definiti selezionando i campi o tramite l’editor di espressioni avanzate. I parametri restituiscono un tipo di dati specifico in base alla relativa espressione.
+>* I parametri delle azioni possono essere definiti selezionando i campi o tramite l’editor di espressioni avanzate. I parametri restituiscono un tipo di dati specifico in base alla relativa espressione.
 
 Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
@@ -84,9 +84,15 @@ Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice
 
 ![](../assets/journey69.png)
 
+
+>[!TIP]
+>
+>Quando crei condizioni nell’editor di espressioni avanzate, assicurati che le espressioni non contengano caratteri nascosti o non stampabili. Utilizza inoltre espressioni a riga singola per evitare errori di analisi.
+
+
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
-Se selezioni un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro (vedi [questa pagina](../../datasource/external-data-sources.md)), a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Il valore del parametro può provenire dagli eventi posizionati nel percorso o dall&#39;origine dati dell&#39;Experience Platform (e non da altre origini dati esterne). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
+Se selezioni un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro (vedi [questa pagina](../../datasource/external-data-sources.md)), a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Il valore del parametro può provenire dagli eventi posizionati nel percorso o nell’origine dati di Experience Platform (e non da altre origini dati esterne). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
 ![](../assets/journeyuc2_19.png)
 
