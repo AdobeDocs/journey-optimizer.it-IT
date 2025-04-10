@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 10%
 
 ---
@@ -44,7 +44,7 @@ Prima di attivare la campagna di direct mailing, assicurati che la campagna e il
 
 Quando la campagna di direct mailing è pronta, fai clic sul pulsante **[!UICONTROL Attiva]**. All&#39;avvio della campagna, il file di estrazione verrà generato ed esportato automaticamente nel server specificato nella [configurazione di indirizzamento file](../direct-mail/direct-mail-configuration.md).
 
-Una volta inviato, puoi misurare l’impatto della campagna di direct mailing all’interno dei rapporti della campagna. Per ulteriori informazioni sul reporting, consulta questa sezione.
+Una volta inviato, puoi misurare l’impatto della campagna di direct mailing all’interno dei rapporti della campagna. Per ulteriori informazioni sul reporting di direct mailing, consulta [questa sezione](../reports/campaign-global-report-cja-direct.md).
 
 ## Gestire il consenso per la direct mailing {#dm-consent-management}
 

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 23%
+source-wordcount: '1344'
+ht-degree: 22%
 
 ---
 
@@ -24,11 +24,14 @@ Prima di poter generare questo file, devi creare:
 
 1. [Configurazione di indirizzamento file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografare il file, se necessario.
 
-   >[!CAUTION]
-   >
-   >Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [Configurazione di direct mailing](#direct-mail-configuration) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing.
+
+
+>[!CAUTION]
+>
+>* Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* I file di direct mailing vengono generati solo al momento dell’esportazione; il sistema non memorizza a tempo indefinito le esportazioni meno recenti. Per un backup più lungo o permanente, configura un’opzione di indirizzamento dei file (SFTP o archiviazione cloud).
 
 ## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
