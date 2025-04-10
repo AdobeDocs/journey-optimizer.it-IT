@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1741'
 ht-degree: 8%
 
 ---
@@ -87,6 +87,17 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento che farà entrare una persona nel percorso.
 
+
+### Prerequisiti {#trigger-events-prerequisites}
+
+Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso.
+
+L&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
+
+Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
+
+Lo spazio dei nomi dell’identità viene utilizzato per identificare in modo univoco i profili di test. Ad esempio, se per identificare i profili di test si utilizza l&#39;e-mail, deve essere selezionato lo spazio dei nomi dell&#39;identità **E-mail**. Se l&#39;identificatore univoco è il numero di telefono, deve essere selezionato lo spazio dei nomi dell&#39;identità **Telefono**.
+
 >[!NOTE]
 >
 >* Quando si attiva un evento in modalità di test, viene generato un evento reale, che si verifica quindi anche in un altro percorso che ascolta l’evento.
@@ -94,8 +105,7 @@ Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento
 >* Assicurati che ogni evento in modalità di test sia attivato nell’ordine corretto e all’interno della finestra di attesa configurata. Ad esempio, in caso di attesa di 60 secondi, il secondo evento deve essere attivato solo dopo che è trascorso tale attesa di 60 secondi e prima della scadenza del limite di timeout.
 >
 
-Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso e l’evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
-
+### Configurazione evento {#trigger-events-configuration}
 
 Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e a verificare che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
 
