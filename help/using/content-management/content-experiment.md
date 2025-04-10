@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Esperimento sui contenuti"
->abstract="Puoi scegliere di variare il contenuto del messaggio o l’oggetto al fine di definire più trattamenti e determinare la combinazione migliore per il pubblico."
+>abstract="Puoi scegliere di variare il contenuto o l’oggetto del messaggio al fine di definire più trattamenti e determinare la combinazione migliore per il tuo pubblico."
 
 >[!NOTE]
 >

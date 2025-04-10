@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ---
 
-# Creare e modificare record PTR {#ptr-records}
+# Creare e modificare i record PTR {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
@@ -148,7 +148,7 @@ Durante il processo di convalida, il vecchio sottodominio è ancora associato al
 
 Una volta completato correttamente il processo di convalida, il nuovo sottodominio viene associato automaticamente all’indirizzo IP.
 
-### Non riuscito {#failes}
+### Operazione non riuscita {#failes}
 
 Se il processo di convalida non riesce, viene visualizzato il record PTR precedente. Il sottodominio valido precedentemente associato all’indirizzo IP rimane invariato.
 

@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventi del percorso"
->abstract="Un evento è collegato a una persona. Riguarda il comportamento di una persona (ad esempio una persona che ha acquistato un prodotto, visitato un negozio, che è uscita da un sito web, ecc.) o qualcosa che accade in relazione a una persona (ad esempio, una persona che ha raggiunto 10.000 punti fedeltà). Journey Optimizer ascolta gli eventi unitari in percorsi per orchestrare le migliori azioni successive."
+>abstract="Un evento è collegato a una persona. Riguarda il comportamento di una persona (ad esempio una persona che ha acquistato un prodotto, visitato un negozio, che è uscita da un sito web, ecc.) o qualcosa che accade in relazione a una persona (ad esempio, una persona che ha raggiunto 10.000 punti fedeltà). Journey Optimizer ascolta gli eventi unitari nei percorsi per orchestrare le migliori azioni successive."
 
 Gli eventi consentono di attivare i singoli percorsi, distribuendo messaggi in tempo reale a ogni utente che entra nel percorso.
 
@@ -70,7 +70,7 @@ Per gli eventi **unitari**, esistono due tipi di ID evento:
 
 Gli eventi sono chiamate API POST. Gli eventi vengono inviati a Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite API di messaggistica transazionale è denominata &quot;entrata&quot;. Il payload degli eventi segue la formattazione XDM.
 
-Nell&#39;intestazione del payload sono contenute le informazioni richieste per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie per il funzionamento di [!DNL Journey Optimizer] e alle informazioni da utilizzare nei percorsi, ad esempio nel corpo la quantità di un carrello abbandonato. Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, consulta [questo collegamento](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
+Nell&#39;intestazione del payload sono contenute le informazioni richieste per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie per il funzionamento di [!DNL Journey Optimizer] e alle informazioni da utilizzare nei percorsi, ad esempio nel corpo la quantità di un carrello abbandonato. Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
 
 Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano a Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
 

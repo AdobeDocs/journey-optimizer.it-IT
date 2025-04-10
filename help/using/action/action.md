@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 25%
+ht-degree: 46%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Azioni personalizzate"
->abstract="Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro mezzo di coinvolgimento digitale utilizzato nella tua azienda."
+>abstract="Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda."
 
-Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro mezzo di coinvolgimento digitale utilizzato nella tua azienda.
+Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda.
 
 
 ➡️ [Scopri questa funzione nel video](#video)

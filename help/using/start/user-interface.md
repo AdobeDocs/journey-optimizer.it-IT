@@ -19,12 +19,12 @@ ht-degree: 95%
 
 Per accedere a [!DNL Adobe Journey Optimizer], connettiti ad [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID e seleziona [!DNL Journey Optimizer].
 
-I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide).
+I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target="_blank"}.
 
 
 >[!NOTE]
 >
->* I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html). Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
+>* I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 >
 >* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 >
@@ -90,7 +90,7 @@ Gestisci i dati da questa sezione.
 
 * **[!UICONTROL Query]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoraggio]**: usa questo menu per monitorare l’acquisizione dei dati nell’interfaccia utente di Adobe Experience Platform. Ulteriori informazioni nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it)
+* **[!UICONTROL Monitoraggio]**: usa questo menu per monitorare l’acquisizione dei dati nell’interfaccia utente di Adobe Experience Platform. Ulteriori informazioni nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target="_blank"}
 
 ### [!UICONTROL CONNESSIONI] {#left-nav-connections}
 
