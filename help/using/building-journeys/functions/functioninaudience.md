@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, funzione, espressione, percorso
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 6%
+source-wordcount: '231'
+ht-degree: 5%
 
 ---
 
@@ -64,3 +64,8 @@ Restituisce un valore booleano.
 Spiegazione:
 
 La funzione restituirà **[!UICONTROL true]** se l&#39;individuo all&#39;interno dell&#39;istanza del percorso fa parte del pubblico Adobe Experience Platform denominato &quot;uomini sopra i 50 anni&quot;, **[!UICONTROL false]** in caso contrario.
+
+
+>[!CAUTION]
+>
+>La modifica del nome di un pubblico esistente non aggiorna automaticamente alcun riferimento a tale pubblico nelle espressioni di percorso. Se il nodo della condizione utilizza inAudience(&#39;oldAudienceName&#39;), è necessario modificare manualmente l’espressione per utilizzare il nuovo nome. In caso contrario, la condizione del percorso si interromperà.
