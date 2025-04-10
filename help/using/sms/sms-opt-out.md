@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 18%
+source-wordcount: '568'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,12 @@ Quando utilizzi Infobip, accertati che l’azione Inoltro sia impostata su Confi
 Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS funzionino in Adobe Journey Optimizer, in quanto le risposte alle parole chiave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE vengono riconosciute automaticamente. Gli stati di rinuncia dei profili vengono aggiornati in tempo reale in Adobe Journey Optimizer.
 
 Se un cliente risponde STOP a un messaggio di testo, il provider blocca tutti gli SMS successivi provenienti dall’ID mittente specifico (codice breve o numero lungo), inclusi i messaggi transazionali. Per garantire la consegna ininterrotta degli SMS transazionali, utilizza un ID mittente separato che non era stato precedentemente escluso.
+
+
+>[!NOTE]
+>
+>Se prevedi di utilizzare SMS a due vie (rispondi con STOP, QUIT, ecc.), accertati di aver inviato almeno un SMS unidirezionale per stabilire il numero di telefono per la mappatura del profilo. Le credenziali del provider scadute o non configurate correttamente impediscono l&#39;aggiornamento del profilo utente da parte delle parole chiave in entrata, causando record di rinuncia mancanti o ritardati.
+
 
 ## Inserisce nell&#39;elenco Bloccati {#sms-blocklists}
 
