@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, funzione, espressione, percorso
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
@@ -36,6 +36,11 @@ Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** 
 `inAudience('audienceName') == true` significa che hai un segmentMembership con lo stato immesso.
 
 `inAudience('audienceName') == false` significa che hai un segmentMembership con stato di uscita.
+
+
+>[!IMPORTANT]
+>
+>La modifica del nome di un pubblico esistente non aggiorna automaticamente alcun riferimento a tale pubblico nelle espressioni di percorso. Se il nodo della condizione utilizza `inAudience('oldAudienceName')`, è necessario modificare manualmente l&#39;espressione per utilizzare il nuovo nome. In caso contrario, la condizione del percorso si interromperà.
 
 ## Categoria
 
@@ -65,7 +70,3 @@ Spiegazione:
 
 La funzione restituirà **[!UICONTROL true]** se l&#39;individuo all&#39;interno dell&#39;istanza del percorso fa parte del pubblico Adobe Experience Platform denominato &quot;uomini sopra i 50 anni&quot;, **[!UICONTROL false]** in caso contrario.
 
-
->[!CAUTION]
->
->La modifica del nome di un pubblico esistente non aggiorna automaticamente alcun riferimento a tale pubblico nelle espressioni di percorso. Se il nodo della condizione utilizza inAudience(&#39;oldAudienceName&#39;), è necessario modificare manualmente l’espressione per utilizzare il nuovo nome. In caso contrario, la condizione del percorso si interromperà.
