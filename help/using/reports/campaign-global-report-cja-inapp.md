@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # Rapporto sulla campagna in-app {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>Prima di creare rapporti sulle campagne e i percorsi in-app, assicurati di seguire i prerequisiti per la generazione di rapporti forniti in [questa pagina](../in-app/inapp-configuration.md#experiment-prerequisites).
 
 >[!BEGINSHADEBOX]
 
