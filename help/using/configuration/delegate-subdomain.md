@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 23%
+source-wordcount: '2039'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ Puoi delegare completamente un sottodominio o crearne uno utilizzando i CNAME pe
 >
 >La configurazione del sottodominio è comune a tutti gli ambienti. Pertanto, qualsiasi modifica a un sottodominio influirà anche sulle sandbox di produzione.
 
-## Delega completa di sottodominio {#full-subdomain-delegation}
+## Delegare completamente un sottodominio ad Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene a
 >
 >L&#39;esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha lo stato **[!UICONTROL Elaborazione]**, riceverai un messaggio di errore.
 
-## Configurazione del sottodominio CNAME {#cname-subdomain-delegation}
+## Configurare un sottodominio con CNAME {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ I controlli e le azioni seguenti verranno eseguiti fino alla verifica del sottod
 1. **Crea DNS di inoltro**: se si tratta del primo sottodominio che si sta delegando, Adobe creerà il DNS di inoltro necessario per creare i record PTR, ovvero uno per ogni IP.
 
 1. **Crea record PTR**: il record PTR, noto anche come record DNS inverso, è richiesto dagli ISP in modo che non contrassegni le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. Adobe crea record PTR solo quando deleghi un sottodominio per la prima volta, uno per ogni IP, tutti gli IP che puntano a quel sottodominio. Ad esempio, se l&#39;IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1PTR r1.email.example.com*. Puoi aggiornare il record PTR in seguito per puntare al nuovo dominio delegato. [Ulteriori informazioni sui record PTR](ptr-records.md)
+
+## Annullare la delega di un sottodominio {#undelegate-subdomain}
+
+Se desideri annullare la delega di un sottodominio, contatta il rappresentante Adobe.
+
+Tuttavia, prima di contattare Adobe, devi eseguire diversi passaggi nell’interfaccia utente.
+
+>[!NOTE]
+>
+>È possibile annullare la delega solo dei sottodomini con lo stato **[!UICONTROL Operazione riuscita]**. I sottodomini con stato **[!UICONTROL Bozza]** e **[!UICONTROL Non riuscito]** possono essere semplicemente eliminati dall&#39;interfaccia utente.
+
+Eseguire innanzitutto i passaggi seguenti in [!DNL Journey Optimizer]:
+
+1. Disattiva tutte le configurazioni di canale associate al sottodominio. [Scopri come](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. Annulla la delega dei sottodomini della pagina di destinazione, dei sottodomini SMS e dei sottodomini web associati a questo sottodominio.
+
+   >[!NOTE]
+   >
+   >Devi inoltrare una richiesta dedicata per ogni [pagina di destinazione](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) o [sottodominio Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+
+1. Arresta le campagne attive associate ai sottodomini. [Scopri come](../campaigns/modify-stop-campaign.md#stop)
+
+1. Arresta i percorsi attivi associati ai sottodomini. [Scopri come](../building-journeys/end-journey.md#stop-journey)
+
+1. Puntare i [record PTR](ptr-records.md#edit-ptr-record) collegati al sottodominio a un altro sottodominio.
+
+   >[!NOTE]
+   >
+   >Se questo è l’unico sottodominio delegato, puoi saltare questo passaggio.
+
+Al termine, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
+
+Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+
+>[!CAUTION]
+>
+>Dopo l’annullamento della delega di un sottodominio:
+>
+>   * Non è possibile riattivare le configurazioni del canale che utilizzavano quel sottodominio.
+>   * Non puoi delegare nuovamente il sottodominio esatto tramite l’interfaccia utente. Se lo desideri, contatta il tuo rappresentante Adobe.
 
 ## Video introduttivo{#video}
 

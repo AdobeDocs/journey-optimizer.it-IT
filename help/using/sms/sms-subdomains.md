@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sottodomini, configurazione
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 24%
+source-wordcount: '925'
+ht-degree: 20%
 
 ---
 
@@ -139,3 +139,37 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 Prima di utilizzare un sottodominio per l’invio di messaggi SMS, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).--> Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare configurazioni del canale SMS.
 
 Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
+
+## Annullare la delega di un sottodominio {#undelegate-subdomain}
+
+Se desideri annullare la delega di un sottodominio SMS, contatta il tuo rappresentante Adobe.
+
+Tuttavia, prima di contattare Adobe, devi eseguire diversi passaggi nell’interfaccia utente.
+
+>[!NOTE]
+>
+>È possibile annullare la delega solo dei sottodomini con lo stato **[!UICONTROL Operazione riuscita]**. I sottodomini con stato **[!UICONTROL Bozza]** e **[!UICONTROL Non riuscito]** possono essere semplicemente eliminati dall&#39;interfaccia utente.
+
+Eseguire innanzitutto i passaggi seguenti in [!DNL Journey Optimizer]:
+
+1. Disattiva tutte le configurazioni di canale associate al sottodominio. [Scopri come](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. Arresta le campagne attive associate ai sottodomini. [Scopri come](../campaigns/modify-stop-campaign.md#stop)
+
+1. Arresta i percorsi attivi associati ai sottodomini. [Scopri come](../building-journeys/end-journey.md#stop-journey)
+
+1. Se il sottodominio SMS era un [nuovo sottodominio delegato](#sms-configure-new-subdomain), rimuovere le voci DNS associate a tale sottodominio.
+
+Al termine, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
+
+Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+
+>[!CAUTION]
+>
+>Dopo l’annullamento della delega di un sottodominio:
+>
+>   * Non è possibile riattivare le configurazioni del canale che utilizzavano quel sottodominio.
+>   * Non puoi delegare nuovamente il sottodominio esatto tramite l’interfaccia utente. Se lo desideri, contatta il tuo rappresentante Adobe.

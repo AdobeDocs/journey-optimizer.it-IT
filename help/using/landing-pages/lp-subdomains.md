@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 23%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -144,3 +144,38 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare predefiniti per pagine di destinazione.
 
    Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
+
+## Annullare la delega di un sottodominio {#undelegate-subdomain}
+
+Se desideri annullare la delega di un sottodominio di una pagina di destinazione, contatta il tuo rappresentante Adobe.
+
+Tuttavia, prima di contattare Adobe, devi eseguire diversi passaggi nell’interfaccia utente.
+
+>[!NOTE]
+>
+>È possibile annullare la delega solo dei sottodomini con lo stato **[!UICONTROL Operazione riuscita]**. I sottodomini con stato **[!UICONTROL Bozza]** e **[!UICONTROL Non riuscito]** possono essere semplicemente eliminati dall&#39;interfaccia utente.
+
+Eseguire innanzitutto i passaggi seguenti in [!DNL Journey Optimizer]:
+
+1. Annulla la pubblicazione di tutte le pagine di destinazione associate al sottodominio. [Scopri come](create-lp.md#access-landing-pages)
+
+1. Disattiva tutte le configurazioni di canale associate al sottodominio. [Scopri come](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
+
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
+
+Al termine, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
+
+Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+
+>[!CAUTION]
+>
+>Dopo l’annullamento della delega di un sottodominio:
+>
+>   * Non è possibile riattivare le configurazioni del canale che utilizzavano quel sottodominio.
+>   * Non puoi delegare nuovamente il sottodominio esatto tramite l’interfaccia utente. Se lo desideri, contatta il tuo rappresentante Adobe.

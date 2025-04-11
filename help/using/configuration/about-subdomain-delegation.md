@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 30%
@@ -104,3 +104,4 @@ Puoi eseguire le seguenti operazioni:
 >[!CAUTION]
 >
 >La configurazione del sottodominio è comune a tutti gli ambienti. Pertanto, qualsiasi modifica a un sottodominio influirà anche sulle sandbox di produzione.
+
