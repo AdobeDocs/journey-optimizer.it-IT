@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 62%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,14 @@ L’API di limitazione ti consente di creare, configurare e monitorare le config
 
 Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
->[!IMPORTANT]
->
->Attualmente è consentita una sola configurazione per organizzazione. Una configurazione deve essere definita su una sandbox di produzione (specificata tramite x-sandbox-name nelle intestazioni).
->
->Viene applicata una configurazione per livello di organizzazione.
->
->Al raggiungimento del limite impostato nell’API, gli altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
+## Da leggere
+
+* **Una configurazione per organizzazione:** Al momento è consentita una sola configurazione per organizzazione. È necessario definire una configurazione in una sandbox di produzione (fornita tramite `x-sandbox-name` nelle intestazioni).
+* **Applicazione a livello di organizzazione:** Una configurazione viene applicata a livello di organizzazione.
+* **Gestione dei limiti API:** Al raggiungimento del limite impostato nell&#39;API, altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
+* **`maxHttpConnections`parametro:** Il parametro &#39;maxHttpConnections&#39; è un parametro facoltativo disponibile nell&#39;API di limitazione della velocità che consente di limitare il numero di connessioni aperte da Journey Optimizer al sistema esterno. [Scopri come utilizzare l&#39;API di limitazione di utilizzo](../configuration/capping.md)
+
+  Se desideri limitare il numero di connessioni ma anche limitare tali chiamate esterne, puoi configurare due configurazioni, una limitazione e una limitazione, sullo stesso endpoint. Entrambe le configurazioni possono coesistere per un endpoint. Per impostare &#39;maxHttpConnections&#39; per un endpoint con limitazione, utilizzare l&#39;API Throttling per impostare la soglia di limitazione e l&#39;API Capping per impostare &#39;maxHttpConnections&#39;. Quando richiami l’API di limitazione di utilizzo, puoi impostare la soglia di limitazione su un valore superiore alla soglia stessa, in modo che la regola di limitazione di utilizzo non entri in gioco.
 
 ## Descrizione API di limitazione e raccolta Postman {#description}
 

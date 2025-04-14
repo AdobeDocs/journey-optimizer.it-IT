@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiunta una raccomandazione sull’utilizzo di parole chiave native durante l’utilizzo degli SMS bidirezionali. [Ulteriori informazioni](../sms/sms-opt-out.md)
 * È stata aggiornata la pagina del test di percorso con una nota sulla necessità di includere uno spazio dei nomi di identità nell’evento utilizzato. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * Al momento non è possibile annullare la delega dei sottodomini tramite l&#39;interfaccia utente di [!UICONTROL Journey Optimizer]. Rivolgersi al proprio rappresentante Adobe. Le sezioni e-mail, pagina di destinazione, SMS e sottodominio web sono state aggiornate con queste informazioni e con i passaggi da eseguire prima di contattare Adobe. [Ulteriori informazioni](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* Sono stati aggiunti chiarimenti sul parametro opzionale `maxHttpConnections` nell&#39;API di limitazione dei percorsi, incluse indicazioni su come utilizzarlo insieme alle configurazioni di limitazione per lo stesso endpoint. [Ulteriori informazioni](../configuration/throttling.md)
 
 ## Marzo 2025 {#mar-2025}
 
