@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ee11912b2c6dbd58acae04a5bf1d24403a1c4ea
+source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -738,9 +738,9 @@ ht-degree: 90%
       + [Configurare un’azione personalizzata](using/action/about-custom-action-configuration.md)
       + [Risolvere i problemi di un’azione personalizzata](using/action/troubleshoot-custom-action.md)
       + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
-+ Collegare i sistemi {#connect-systems}
-   + [Utilizzare le API di Journey Optimizer](using/configuration/ajo-apis.md)
-   + Integrare con sistemi esterni {#external-systems}
++ Connetti i sistemi {#connect-systems}&quot;
+   + [API di Adobe Journey Optimizer](using/configuration/ajo-apis.md)
+   + Utilizzare le API di percorso {#external-systems}
       + [Integrazione dei percorsi con sistemi esterni](using/configuration/external-systems.md)
       + [API di limitazione di utilizzo](using/configuration/capping.md)
       + [API di limitazione](using/configuration/throttling.md)
