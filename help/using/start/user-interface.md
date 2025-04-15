@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 95%
+source-wordcount: '1423'
+ht-degree: 94%
 
 ---
 
@@ -255,3 +255,12 @@ Per cambiare lingua:
 >id="ajo_journey_dry_run"
 >title="Esegui a secco il percorso"
 >abstract="Dopo aver progettato il percorso, eseguire un&#39;esecuzione a secco per verificare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire il test del fumo in un percorso, senza inviare comunicazioni ad alcun profilo."
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Definire un criterio di decisione"
+>abstract="Un criterio di decisione consente di scegliere gli elementi migliori dal motore decisionale e distribuirli al pubblico giusto."
