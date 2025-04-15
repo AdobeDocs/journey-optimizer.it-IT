@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 16%
+source-wordcount: '1179'
+ht-degree: 15%
 
 ---
 
@@ -66,7 +66,7 @@ Per attivare l’elenco Consentiti, segui la procedura riportata di seguito.
 
    >[!NOTE]
    >
-   >Dopo aver attivato l’elenco Consentiti, nei percorsi e nelle campagne viene applicata una latenza di 5 minuti.
+   >Dopo l’attivazione dell’elenco Consentiti, trascorrono 10 minuti prima che diventi effettivo nei percorsi e nelle campagne. Analogamente, la visualizzazione degli aggiornamenti sia dell’elenco di elenco Consentiti che di eliminazione può richiedere fino a 10 minuti.
 
 La logica di elenco Consentiti si applica quando la funzione è attiva. Ulteriori informazioni in [questa sezione](#logic).
 
@@ -90,7 +90,7 @@ Per disattivare l’elenco Consentiti, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Dopo aver disattivato l’elenco Consentiti, i percorsi e le campagne avranno una latenza di 5 minuti.
+   >Dopo aver disattivato l’elenco Consentiti, trascorrono 10 minuti prima che diventi effettivo nei percorsi e nelle campagne. Analogamente, la visualizzazione degli aggiornamenti sia dell’elenco di elenco Consentiti che di eliminazione può richiedere fino a 10 minuti.
 
 La logica di elenco Consentiti non si applica quando la funzione viene disattivata. Ulteriori informazioni in [questa sezione](#logic).
 
@@ -140,7 +140,7 @@ Per farlo, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo **[!UICONTROL Reason]**. L&#39;elenco completo è disponibile su [questa pagina](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"} di esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo **[!UICONTROL Reason]**. L&#39;elenco completo si trova ad esempio in [questa pagina](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
@@ -207,7 +207,7 @@ Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte l
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le chiamate API seguenti.
+Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le seguenti chiamate API.
 
 Per ottenere il **numero di e-mail** non inviate perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 
