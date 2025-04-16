@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sottodomini, configurazione
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '928'
 ht-degree: 20%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 20%
 >abstract="Per creare una configurazione SMS, accertati di aver configurato in precedenza almeno un sottodominio SMS da selezionare dall’elenco dei nomi del sottodominio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creare una configurazione SMS"
 
+## Introduzione ai sottodomini SMS {#gs-sms-mms-subdomains}
+
 Per ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio che selezionerai quando [creerai una configurazione SMS](sms-configuration.md#message-preset-sms).
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe sono disponibili in [questa sezione](../configuration/delegate-subdomain.md).
@@ -41,7 +43,6 @@ Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un alt
 La configurazione del sottodominio SMS è **condivisa tra tutti gli ambienti**. Pertanto, qualsiasi modifica a un sottodominio SMS influisce anche su altre sandbox di produzione.
 
 Per accedere e modificare i sottodomini SMS, devi disporre dell&#39;autorizzazione **[!UICONTROL Gestione sottodomini SMS]** nella sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../administration/high-low-permissions.md).
-
 
 ## Usa un sottodominio esistente {#sms-use-existing-subdomain}
 
@@ -79,9 +80,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 1. Dopo l&#39;invio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare configurazioni del canale SMS.
 
