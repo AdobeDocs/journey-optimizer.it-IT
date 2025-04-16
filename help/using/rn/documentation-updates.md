@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Aprile 2025 {#apr-2025}
 
+* Il capitolo Configurazione è ora suddiviso in tre capitoli: [Configurazione canale](../configuration/get-started-configuration.md), [Configurazione Percorso](../configuration/about-data-sources-events-actions.md) e [Connessione dei sistemi](../configuration/ajo-apis.md).
+* È stata aggiunta una nota di avviso sull’utilizzo degli eventi di esperienza nelle espressioni e nelle condizioni di percorso. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* La procedura per annullare la delega di un sottodominio è ora dettagliata per [e-mail](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [esperienze Web](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) e [pagine di destinazione](../landing-pages/lp-subdomains.md#undelegate-subdomain).
 * È stata aggiunta una nota sulla pagina di configurazione della direct mailing relativa all’archiviazione temporanea del file di output. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
 * Nella sezione dell’editor di espressioni avanzate di percorso è stato aggiunto un suggerimento sulle linee guida per il formato della condizione. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md)
 * È stata aggiunta una nota di avviso nella sezione della funzione `inAudience` relativa agli impatti e alle best practice per la ridenominazione di un pubblico. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)

@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, raccolte, funzioni, payload, percorso
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Funzioni di gestione delle raccolte {#collection-management-functions}
 
-Il linguaggio delle espressioni introduce anche un set di funzioni per le raccolte di query.
+Il linguaggio delle espressioni introduce inoltre un insieme di funzioni per interrogare le raccolte.
 
 Queste funzioni sono descritte di seguito. Nell’esempio seguente, utilizziamo il payload dell’evento contenente una raccolta:
 
@@ -71,18 +71,18 @@ La funzione **[!UICONTROL all]** abilita la definizione di un filtro per una det
 
 Ad esempio, tra tutti gli utenti dell’app, puoi ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app utilizzata == IOS 13&quot;). Il risultato di questa funzione è l’elenco filtrato contenente gli elementi che corrispondono all’espressione booleana (ad esempio: utente app 1, utente app 34, utente app 432).
 
-In un&#39;attività Condizione Data Source è possibile verificare se il risultato della funzione **[!UICONTROL all]** è nullo o meno. È inoltre possibile combinare questa funzione **[!UICONTROL all]** con altre funzioni quali **[!UICONTROL count]**. Per ulteriori informazioni, vedere [Attività condizione Data Source](../condition-activity.md#data_source_condition).
+In un&#39;attività **[!UICONTROL Data Origine Condition è possibile verificare se il risultato della funzione all]** è nullo o meno. È inoltre possibile combinare tutte ]**queste**[!UICONTROL  funzioni con altre funzioni come **[!UICONTROL count]**. Per ulteriori informazioni, vedi [Attività](../condition-activity.md#data_source_condition) Condizione Origine dati.
 
 
 ## Esempi
 
 >[!CAUTION]
 >
->L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso è supportato, ma non consigliato. Se il caso d&#39;uso richiede l&#39;utilizzo di eventi esperienza, prendere in considerazione metodi alternativi come [attributi calcolati](../../audience/computed-attributes.md) o creare un segmento utilizzando gli eventi e incorporando tale segmento in [`inAudience` espressioni](../../building-journeys/functions/functioninaudience.md).
+>L&#39;utilizzo degli eventi esperienza nelle espressioni/condizioni del percorso è supportato, ma non consigliato. Se il tuo caso d&#39;uso richiede l&#39;utilizzo di eventi esperienza, prendi in considerazione metodi alternativi come [gli](../../audience/computed-attributes.md) attributi calcolati o la creazione di un segmento utilizzando gli eventi e incorporando tale segmento nelle [`inAudience` espressioni](../../building-journeys/functions/functioninaudience.md).
 
 **Esempio 1:**
 
-Vogliamo verificare se un utente ha installato una versione specifica di un’applicazione. Per questo otteniamo tutti i token di notifica push associati alle applicazioni mobili per le quali la versione è 1.0. Quindi eseguiamo una condizione con la funzione **[!UICONTROL count]** per verificare che l&#39;elenco di token restituito contenga almeno un elemento.
+Vogliamo verificare se un utente ha installato una versione specifica di un applicazione. Per questo otteniamo tutti i token di push notifica associati alle applicazioni mobili per le quali la versione è 1.0. Quindi, eseguiamo una condizione con la **[!UICONTROL funzione count]** per verificare che l&#39;elenco restituito di token contenga almeno un elemento.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -92,7 +92,7 @@ Il risultato è vero.
 
 **Esempio 2:**
 
-In questo caso, usiamo la funzione **[!UICONTROL count]** per verificare se la raccolta contiene token di notifica push.
+Qui usiamo la **[!UICONTROL funzione di conteggio]** per verificare se ci sono token push notifica nella raccolta.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -136,7 +136,7 @@ Il risultato dell&#39;espressione è **3**.
 
 **Esempio 3:**
 
-Qui controlliamo se un individuo non ha ricevuto alcuna comunicazione nelle ultime 24 ore. La raccolta di eventi di esperienza recuperata dall’origine dati di Experience Platform viene filtrata utilizzando due espressioni basate su due elementi della raccolta. In particolare, la marca temporale dell&#39;evento viene confrontata con la data/ora restituita dalla funzione **[!UICONTROL nowWithDelta]**.
+Qui controlliamo se un individuo non ha ricevuto alcuna comunicazione nelle ultime 24 ore. La raccolta di eventi di esperienza recuperata dall’origine dati di Experience Platform viene filtrata utilizzando due espressioni basate su due elementi della raccolta. In particolare, il timestamp dell&#39;evento viene confrontato con il dateTime restituito dalla **[!UICONTROL funzione nowWithDelta]** .
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -180,9 +180,9 @@ The result will be:
 >
 >Durante l&#39;elaborazione delle raccolte con **[!UICONTROL all]**, **[!UICONTROL first]** e **[!UICONTROL last]**, viene eseguito un ciclo su ogni elemento della raccolta uno alla volta. **[!UICONTROL currentEventField]**, **currentDataPackField** e **[!UICONTROL currentActionField]** corrispondono all&#39;elemento di cui viene eseguito il ciclo.
 
-**Funzioni &quot;first(`<condition>`)&quot; e &quot;last(`<condition>`)&quot;**
+**Le funzioni &quot;first(`<condition>`)&quot; e &quot;last(`<condition>`)&quot;**
 
-Le funzioni **[!UICONTROL first]** e **[!UICONTROL last]** abilitano inoltre la definizione di un filtro nella raccolta restituendo il primo/ultimo elemento dell&#39;elenco che soddisfa il filtro.
+La **[!UICONTROL prima]** e **[!UICONTROL l&#39;ultima]** funzione consentono inoltre la definizione di un filtro sul raccolta restituendo il primo/ultimo elemento dell&#39;elenco che soddisfa il filtro.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -200,7 +200,7 @@ Il risultato è &quot;token_1&quot;.
 
 **Esempio 2:**
 
-Questa espressione restituisce l’ultimo token di notifica push associato alle applicazioni mobili la cui versione è 1.0.
+Questa espressione restituisce l&#39;ultimo token di notifica push associato alle applicazioni mobili per le quali la versione è 1.0.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
@@ -212,8 +212,8 @@ Il risultato è &quot;token_2&quot;.
 >
 >Gli eventi esperienza vengono recuperati da Adobe Experience Platform come raccolta in ordine cronologico inverso, quindi:
 >
->* La funzione **[!UICONTROL first]** restituirà l&#39;evento più recente
->* La funzione **[!UICONTROL last]** restituirà quella meno recente.
+>* **[!UICONTROL La prima]** funzione restituirà l&#39;evento più recente
+>* **[!UICONTROL L&#39;ultima]** funzione restituirà quella meno recente.
 
 **Esempio 3:**
 
@@ -233,7 +233,7 @@ _`<listExpression>`.at(`<index>`)_
 
 **Esempio:**
 
-Questa espressione restituisce il secondo token di notifica push dell’elenco.
+Questa espressione restituisce il secondo token di notifica push dell&#39;elenco.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
@@ -250,7 +250,7 @@ Questa espressione restituisce i nomi dei prodotti in base al valore SKU. L’el
 _aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
 
-Questa espressione recupera il nome dell’ultimo prodotto nell’elenco dei prodotti di un evento commerciale in cui il tipo di evento è &quot;productListAdds&quot; e il prezzo totale è maggiore o uguale a 150.
+Questa espressione recupera il nome dell&#39;ultimo prodotto nell&#39;elenco prodotti di un evento commerciale in cui il tipo di evento è &#39;productListAdds&#39; e il prezzo totale è maggiore o uguale a 150.
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(

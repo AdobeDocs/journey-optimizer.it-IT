@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Per gli ultimi aggiornamenti sulle modifiche più recenti apportate alla documentazione visita la [pagina degli aggiornamenti della documentazione](using/rn/documentation-updates.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visit the [documentation updates page](using/rn/documentation-updates.md) to stay up-to-date with the latest changes in the product documentation.
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ La versione di marzo è ora disponibile. Consulta le note sulla versione per sco
 
 ✨ Immergiti in un’esperienza pratica con l’anteprima della funzionalità live dell’[Assistente IA](../help/using/content-management/gs-generative.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
-[![Ulteriori informazioni](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Reporting con CJA]
 
