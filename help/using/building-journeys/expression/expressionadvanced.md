@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 60%
+source-wordcount: '734'
+ht-degree: 57%
 
 ---
 
@@ -69,6 +69,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
 * **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall&#39;evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso è supportato, ma non consigliato. Se il caso d&#39;uso richiede l&#39;utilizzo di eventi esperienza, prendere in considerazione metodi alternativi come [attributi calcolati](../../audience/computed-attributes.md) o creare un segmento utilizzando gli eventi e incorporando tale segmento in [`inAudience` espressioni](../../building-journeys/functions/functioninaudience.md).
+
 * **[!UICONTROL Tipi di pubblico]**: se hai rimosso un evento **[!UICONTROL Qualificazione del pubblico]**, scegli il pubblico che desideri utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Origini dati]**: scegli dall&#39;elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
 * **[!UICONTROL proprietà Percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
