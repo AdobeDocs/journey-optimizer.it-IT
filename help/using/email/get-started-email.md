@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -68,6 +68,43 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurare il canale e-mail</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../content-management/generative-email.md">
+<img alt="Assistente IA" src="../assets/do-not-localize/email-generate.jpg">
+</a>
+<div><a href="../content-management/generative-email.md"><strong>Assistente AI per la generazione di contenuti</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="../content-management/fragments.md">
+<img alt="Frammenti di contenuto" src="../assets/do-not-localize/patterns.jpg">
+</a>
+<div>
+<a href="../content-management/fragments.md"><strong>Utilizza frammenti di contenuto e-mail</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalize.md">
+<img alt="Personalizzare i contenuti" src="../assets/do-not-localize/personalize.jpg">
+</a>
+<div>
+<a href="../personalization/personalize.md"><strong>Personalizzare il contenuto delle e-mail</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../integrations/assets.md">
+<img alt="Combinare le soluzioni" src="../assets/do-not-localize/colors.jpeg">
+</a>
+<div>
+<a href="../integrations/assets.md"><strong>Combinare app e soluzioni Adobe</strong></a>
 </div>
 <p>
 </td>
