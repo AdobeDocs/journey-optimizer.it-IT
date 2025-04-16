@@ -5,7 +5,8 @@ title: Utilizzare l’attività Enrichment
 description: Scopri come utilizzare l’attività Enrichment
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 30%
@@ -24,7 +25,7 @@ L’attività **Arricchimento** è un’attività di **targeting**. Consente di 
 
 I dati di arricchimento possono provenire:
 
-* **Dalla stessa tabella di lavoro** di quella di destinazione della tua campagna con più passaggi:
+* **Dalla stessa tabella di lavoro** di quella di destinazione della tua campagna orchestrata:
 
   *Eseguire il targeting di un gruppo di clienti e aggiungere il campo Data di nascita alla tabella di lavoro corrente*.
 
@@ -32,9 +33,9 @@ I dati di arricchimento possono provenire:
 
   *Esegui il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
 
-Una volta aggiunti i dati di arricchimento alla campagna in più passaggi, è possibile utilizzarli nelle attività aggiunte dopo l&#39;attività **Arricchimento** per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
+Una volta aggiunti i dati di arricchimento alla campagna orchestrata, è possibile utilizzarli nelle attività aggiunte dopo l&#39;attività **Arricchimento** per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
 
-Ad esempio, puoi aggiungere alla tabella di lavoro della campagna in più passaggi informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro ultimo acquisto o l’importo speso per tali acquisti.
+Ad esempio, puoi aggiungere alla tabella di lavoro della campagna orchestrata informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro ultimo acquisto o l’importo speso per tali acquisti.
 
 ## Aggiungere un’attività Enrichment {#enrichment-configuration}
 
@@ -42,19 +43,19 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 1. Aggiungi attività come **Crea pubblico** e **Combina**.
 1. Aggiungi un’attività **Arricchimento**.
-1. Se nella campagna con più passaggi sono state configurate più transizioni, puoi utilizzare il campo **[!UICONTROL Set principale]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
+1. Se nella campagna orchestrata sono state configurate più transizioni, è possibile utilizzare il campo **[!UICONTROL Set principale]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
 
 ## Aggiungi dati di arricchimento {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Dati di arricchimento"
->abstract="Seleziona i dati da utilizzare per arricchire la campagna in più passaggi. Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dalla dimensione target oppure un collegamento raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
+>abstract="Seleziona i dati da utilizzare per arricchire la campagna orchestrata. Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dalla dimensione target oppure un collegamento raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Attività di arricchimento"
->abstract="Una volta aggiunti i dati di arricchimento alla campagna in più passaggi, questi possono essere utilizzati nelle attività aggiunte dopo l’attività Enrichment per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione."
+>abstract="Una volta aggiunti i dati di arricchimento alla campagna orchestrata, è possibile utilizzarli nelle attività aggiunte dopo l’attività Enrichment per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione."
 
 1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati.
 
@@ -120,7 +121,7 @@ Segui i passaggi per configurare un&#39;attività **Enrichment** con un collegam
 1. Identifica i dati con cui desideri creare un collegamento di riconciliazione.
 
    * Per creare un collegamento di riconciliazione con i dati del database Campaign, selezionare **Schema del database** e scegliere lo schema in cui è memorizzata la destinazione.
-   * Per creare un collegamento di riconciliazione con i dati provenienti dalla transizione di input, selezionare **Schema temporaneo** e scegliere la transizione della campagna in più passaggi in cui vengono memorizzati i dati di destinazione.
+   * Per creare un collegamento di riconciliazione con i dati provenienti dalla transizione di input, selezionare **Schema temporaneo** e scegliere la transizione della campagna orchestrata in cui sono archiviati i dati di destinazione.
 
 1. I campi **Etichetta** e **Nome** vengono compilati automaticamente in base allo schema di destinazione selezionato. Se necessario, è possibile modificarne i valori.
 
@@ -134,7 +135,7 @@ Segui i passaggi per configurare un&#39;attività **Enrichment** con un collegam
 
    * **Unione avanzata**: utilizza il modellatore di query per configurare i criteri di riconciliazione. A questo scopo, fai clic sul pulsante **Crea condizione**, quindi definisci i criteri di riconciliazione creando la tua regola utilizzando le operazioni AND e OR.
 
-L&#39;esempio seguente mostra una campagna in più passaggi configurata per creare un collegamento tra la tabella dei profili di Journey Optimizer e una tabella temporanea generata da un&#39;attività **Load file**. In questo esempio, l&#39;attività **Enrichment** esegue la riconciliazione di entrambe le tabelle utilizzando l&#39;indirizzo e-mail come criterio di riconciliazione.
+L&#39;esempio seguente mostra una campagna orchestrata configurata per creare un collegamento tra la tabella dei profili di Journey Optimizer e una tabella temporanea generata da un&#39;attività **Load file**. In questo esempio, l&#39;attività **Enrichment** esegue la riconciliazione di entrambe le tabelle utilizzando l&#39;indirizzo e-mail come criterio di riconciliazione.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -169,7 +170,7 @@ Ora puoi utilizzare l’offerta nell’attività di consegna.
 
 ### Utilizzo delle offerte dall’attività Enrichment
 
-All’interno di una campagna in più passaggi, se desideri utilizzare le offerte che ottieni da un’attività di arricchimento nella consegna, segui i passaggi seguenti:
+All’interno di una campagna orchestrata, se desideri utilizzare le offerte che ottieni da un’attività di arricchimento nella consegna, segui i passaggi seguenti:
 
 1. Apri l’attività di consegna e vai nell’edizione dei contenuti. Fai clic sul pulsante **[!UICONTROL Impostazioni offerte]** e seleziona nell&#39;elenco a discesa lo spazio **[!UICONTROL Offerte]** corrispondente alla tua offerta.
 Se si desidera visualizzare solo le offerte dell&#39;attività di arricchimento, impostare il numero di **[!UICONTROL proposte]** su 0 e salvare le modifiche.
@@ -257,7 +258,7 @@ Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più
 
 ### Arricchimento con dati collegati {#link-example}
 
-L’esempio seguente mostra una campagna in più passaggi configurata per creare un collegamento tra due transizioni. Le prime transizioni eseguono il targeting dei dati del profilo utilizzando un&#39;attività **Query**, mentre la seconda transizione include i dati di acquisto memorizzati in un file caricato tramite un&#39;attività Load file.
+L’esempio seguente mostra una campagna orchestrata configurata per creare un collegamento tra due transizioni. Le prime transizioni eseguono il targeting dei dati del profilo utilizzando un&#39;attività **Query**, mentre la seconda transizione include i dati di acquisto memorizzati in un file caricato tramite un&#39;attività Load file.
 
 ![](../assets/enrichment-uc-link.png)
 
@@ -265,7 +266,6 @@ L’esempio seguente mostra una campagna in più passaggi configurata per creare
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* È stata aggiunta una seconda attività **Enrichment** per arricchire i dati della tabella delle campagne in più passaggi con i dati di acquisto provenienti dall&#39;attività **Load file**. Questo ci consente di utilizzare tali dati in ulteriori attività, ad esempio per personalizzare i messaggi inviati ai clienti con le informazioni sul loro acquisto.
+* È stata aggiunta una seconda attività **Enrichment** per arricchire i dati della tabella della campagna orchestrata con i dati di acquisto provenienti dall&#39;attività **Load file**. Questo ci consente di utilizzare tali dati in ulteriori attività, ad esempio per personalizzare i messaggi inviati ai clienti con le informazioni sul loro acquisto.
 
   ![](../assets/enrichment-uc-link-data.png)
-

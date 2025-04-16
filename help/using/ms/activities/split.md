@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività di suddivisione
-description: Scopri come utilizzare l’attività Split in una campagna in più passaggi
+description: Scopri come utilizzare l’attività Split in una campagna orchestrata
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 76%
@@ -26,7 +27,7 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmenti per attività Dividi"
->abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando viene eseguita l’attività **Dividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare la campagna in più passaggi, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
+>abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando viene eseguita l’attività **Dividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare la campagna orchestrata, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -65,7 +66,7 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
-1. Aggiungi un&#39;attività **Dividi** alla campagna in più passaggi.
+1. Aggiungi un&#39;attività **Dividi** alla campagna orchestrata.
 
 1. Il riquadro di configurazione dell’attività si apre con un sottoinsieme predefinito. Fai clic sul pulsante **Aggiungi segmento** per aggiungere tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.
 
@@ -75,9 +76,9 @@ Per configurare l’attività **Dividi** segui questi passaggi:
    >
    >Quando l&#39;attività **Split** viene eseguita, il gruppo viene segmentato tra i diversi sottoinsiemi nell&#39;ordine in cui vengono aggiunti all&#39;attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
    >
-   >Prima di avviare la campagna in più passaggi, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze. A tale scopo, utilizzare i pulsanti freccia per modificare la posizione di un sottoinsieme.
+   >Prima di avviare la campagna orchestrata, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze. A tale scopo, utilizzare i pulsanti freccia per modificare la posizione di un sottoinsieme.
 
-1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. È consigliabile modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro della campagna in più passaggi.
+1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Consigliamo vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro orchestrata della campagna.
 
 1. Configura in che modo ogni sottoinsieme deve filtrare la popolazione in ingresso. Per farlo, segui questi passaggi:
 
@@ -87,7 +88,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    1. Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere.
 
-   1. Per disabilitare una transizione se il gruppo in ingresso è vuoto, attiva l&#39;opzione **[!UICONTROL Ignora transizione vuota]**. Se nessun profilo corrisponde al sottoinsieme, la campagna con più passaggi non passerà all’attività successiva.
+   1. Per disabilitare una transizione se il gruppo in ingresso è vuoto, attiva l&#39;opzione **[!UICONTROL Ignora transizione vuota]**. Se nessun profilo corrisponde al sottoinsieme, la campagna orchestrata non passerà all’attività successiva.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -104,7 +105,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
    * Quando questa opzione non è selezionata, l’attività Dividi si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
    * Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Si consiglia di utilizzare criteri esclusivi.
 
-L’attività adesso è configurata. All’esecuzione di una campagna in più passaggi, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
+L’attività adesso è configurata. Al momento dell’esecuzione della campagna orchestrata, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
 
 ## Esempio{#split-example}
 

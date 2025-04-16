@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Genera pubblico
-description: Scopri come utilizzare l’attività Genera pubblico in una campagna in più passaggi
+description: Scopri come utilizzare l’attività Genera pubblico in una campagna orchestrata
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 45%
@@ -17,9 +18,9 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Attività Crea pubblico"
->abstract="L&#39;attività **Genera pubblico** ti consente di definire il pubblico che entrerà nella campagna in più passaggi. Quando si inviano messaggi nel contesto di una campagna in più passaggi, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**."
+>abstract="L&#39;attività **Genera pubblico** ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**."
 
-L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività ti consente di definire il pubblico che entrerà nella campagna in più passaggi. Quando si inviano messaggi nel contesto di una campagna in più passaggi, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**.
+L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**.
 
 Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
@@ -73,6 +74,6 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
 ## Esempi{#build-audience-examples}
 
-Ecco un esempio di campagna con più passaggi con due attività **Genera pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
+Ecco un esempio di campagna orchestrata con due attività **Genera pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
 
 ![](../assets/workflow-audience-example.png)
