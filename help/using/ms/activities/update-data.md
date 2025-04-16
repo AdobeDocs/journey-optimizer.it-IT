@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’attività Update data (Aggiorna dati) nelle campagne in più passaggi
+title: Utilizzare l’attività Update data nelle campagne orchestrate
 description: Scopri come utilizzare l’attività Update data
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 13%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configurare l’attività Update data{#update-data-configuration}
 
-Per configurare l&#39;attività **Aggiorna dati**, inizia aggiungendo l&#39;attività alla campagna in più passaggi e definisci un&#39;etichetta.
+Per configurare l&#39;attività **Aggiorna dati**, inizia aggiungendo l&#39;attività alla campagna orchestrata e definisci un&#39;etichetta.
 
 ![](../assets/workflow-update-data.png)
 
@@ -77,6 +78,6 @@ Le **opzioni avanzate** ti consentono di specificare opzioni aggiuntive per l&#3
 
 Le ultime due opzioni consentono di eseguire azioni specifiche:
 
-* **Genera una transizione in uscita**: crea una transizione in uscita che verrà attivata alla fine dell&#39;esecuzione. L’aggiornamento in genere segnala la fine di una campagna di targeting con più passaggi e l’opzione non viene quindi attivata per impostazione predefinita.
+* **Genera una transizione in uscita**: crea una transizione in uscita che verrà attivata alla fine dell&#39;esecuzione. L’aggiornamento in genere segnala la fine di una campagna orchestrata di targeting e l’opzione non viene quindi attivata per impostazione predefinita.
 
-* **Genera una transizione in uscita per i rifiuti**: crea una transizione in uscita contenente record che non sono stati elaborati correttamente dopo l&#39;aggiornamento (ad esempio se è presente un duplicato). L’aggiornamento in genere segna la fine di una campagna di targeting con più passaggi e pertanto l’opzione non è attivata per impostazione predefinita.
+* **Genera una transizione in uscita per i rifiuti**: crea una transizione in uscita contenente record che non sono stati elaborati correttamente dopo l&#39;aggiornamento (ad esempio se è presente un duplicato). L’aggiornamento in genere segna la fine di una campagna orchestrata di targeting e pertanto l’opzione non è attivata per impostazione predefinita.

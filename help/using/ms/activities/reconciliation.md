@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Reconciliation
-description: Scopri come utilizzare l’attività Reconciliation in una campagna in più passaggi
+description: Scopri come utilizzare l’attività Reconciliation in una campagna orchestrata
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 36%
@@ -38,7 +39,7 @@ L&#39;attività **Reconciliation** è un&#39;attività **Targeting** che consent
 
 ## Best practice {#reconciliation-best-practices}
 
-Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi da elaborare nella tua campagna in più passaggi (puoi utilizzare un&#39;attività **Enrichment** per combinare dati provenienti da più set o per creare collegamenti a una risorsa temporanea), l&#39;attività **Reconciliation** ti consente di collegare dati non identificati a risorse esistenti.
+Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi da elaborare nella campagna orchestrata (puoi utilizzare un&#39;attività **Enrichment** per combinare dati provenienti da più set o per creare collegamenti a una risorsa temporanea), l&#39;attività **Reconciliation** ti consente di collegare dati non identificati a risorse esistenti.
 
 >[!NOTE]
 >L&#39;operazione Reconciliation implica che i dati delle dimensioni collegate siano già presenti nel database.  Ad esempio, se importi un file di acquisti che mostra quale prodotto è stato acquistato in un determinato momento da uno specifico cliente, ecc., il prodotto e il cliente devono già esistere nel database.
@@ -74,7 +75,7 @@ Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi 
 
 Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguente:
 
-1. Aggiungi un&#39;attività **Reconciliation** nella campagna in più passaggi.
+1. Aggiungi un&#39;attività **Reconciliation** nella campagna orchestrata.
 
 1. Seleziona la nuova dimensione targeting. Una dimensione ti consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc.
 
@@ -94,9 +95,9 @@ Per impostazione predefinita, i dati non riconciliati vengono conservati nella t
 
 ## Esempio {#reconciliation-example}
 
-L’esempio seguente illustra una campagna in più passaggi che crea un pubblico di profili direttamente da un file importato contenente nuovi clienti. È costituito dalle seguenti attività:
+L’esempio seguente illustra una campagna orchestrata che crea un pubblico di profili direttamente da un file importato contenente nuovi client. È costituito dalle seguenti attività:
 
-La campagna in più fasi è progettata come segue:
+La campagna orchestrata è progettata come segue:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -120,5 +121,4 @@ Viene generato con le seguenti attività:
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* Un&#39;attività [Save audience](save-audience.md) per creare un nuovo pubblico in base a questi aggiornamenti. È inoltre possibile sostituire l&#39;attività **Salva pubblico** con un&#39;attività **Fine** se non è necessario creare o aggiornare un pubblico specifico. I profili dei destinatari vengono aggiornati in ogni caso quando esegui la campagna in più passaggi.
-
+* Un&#39;attività [Save audience](save-audience.md) per creare un nuovo pubblico in base a questi aggiornamenti. È inoltre possibile sostituire l&#39;attività **Salva pubblico** con un&#39;attività **Fine** se non è necessario creare o aggiornare un pubblico specifico. I profili dei destinatari vengono aggiornati in ogni caso quando esegui la campagna orchestrata.

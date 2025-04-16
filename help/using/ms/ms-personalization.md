@@ -1,17 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aggiungere e gestire la personalizzazione in campagne con più passaggi con Journey Optimizer
-description: Scopri come aggiungere la personalizzazione a una campagna in più passaggi con Adobe Journey Optimizer
+title: Aggiungere e gestire la personalizzazione nelle campagne orchestrate con Journey Optimizer
+description: Scopri come aggiungere la personalizzazione a una campagna orchestrata con Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+exl-id: f148440d-1c45-408f-8c00-080c1700fc91
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
-# Aggiungere e gestire la personalizzazione in campagne con più passaggi {#ms-perso}
-
-
+# Aggiungere e gestire la personalizzazione nelle campagne orchestrate {#ms-perso}

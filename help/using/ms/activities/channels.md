@@ -6,7 +6,7 @@ description: Scopri come aggiungere un’attività di canale in una campagna a p
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 19%
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # Attività di canale {#channel}
 
-Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su canali in entrata e in uscita. Puoi combinare le attività del canale nell’area di lavoro della campagna in più passaggi per creare campagne multicanale che possono attivare azioni in base al comportamento dei clienti e ai dati. I canali supportati sono elencati in [questa pagina](../../channels/gs-channels.md).
+Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su canali in entrata e in uscita. Puoi combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne orchestrate cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati. I canali supportati sono elencati in [questa pagina](../../channels/gs-channels.md).
 
 Ad esempio, puoi creare una campagna e-mail di benvenuto che includa una serie di messaggi su diversi canali, come e-mail, SMS, push e direct mail. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
 
@@ -23,11 +23,11 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 ## Prerequisiti {#channel-activity-prereq}
 
-Inizia a creare la tua campagna in più passaggi con le attività pertinenti:
+Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 
 * Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi.
 
-* Per inviare una consegna ricorrente, avvia la tua campagna in più passaggi con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
+* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
 
 ## Configurare un’attività del canale {#create-a-delivery-in-a-workflow}
 
@@ -56,14 +56,14 @@ Inizia a creare la tua campagna in più passaggi con le attività pertinenti:
 >title="Attività direct mail"
 >abstract="L’attività Direct mail facilita l’invio di direct mailing all’interno della campagna a più passaggi, sia per messaggi una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. Puoi combinare le attività del canale nell’area di lavoro della campagna a più passaggi per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
 
-Per impostare una consegna nel contesto di una campagna in più passaggi, segui i passaggi seguenti:
+Per impostare una consegna nel contesto di una campagna orchestrata, segui i passaggi seguenti:
 
 1. Aggiungi un&#39;attività del canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
 
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
    * Una **consegna singola** è una consegna one-shot, inviata una sola volta, ad esempio un&#39;e-mail del Black Friday.
-   * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione definita in una [attività di pianificazione](scheduler.md). Ogni volta che viene eseguita la campagna in più passaggi, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
+   * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione definita in una [attività di pianificazione](scheduler.md). Ogni volta che viene eseguita la campagna orchestrata, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
 
 1. Seleziona un **Modello** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita.
 
@@ -75,9 +75,9 @@ Per impostare una consegna nel contesto di una campagna in più passaggi, segui 
 
 1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva l&#39;opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l&#39;attività del canale.
 
-1. Fai clic su **Inizio** per avviare la tua campagna in più passaggi.
+1. Fai clic su **Avvia** per avviare la tua campagna orchestrata.
 
-   Per impostazione predefinita, l’avvio di una campagna in più passaggi attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
+   Per impostazione predefinita, l’avvio di una campagna orchestrata attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
 
 1. Apri l&#39;attività del canale per confermare l&#39;invio dal pulsante **Rivedi e invia**.
 
@@ -85,7 +85,7 @@ Per impostare una consegna nel contesto di una campagna in più passaggi, segui 
 
 ## Esempi {#cross-channel-workflow-sample}
 
-Esempio di campagna multi-passaggio cross-channel con segmentazione e due consegne. La campagna in più fasi è indirizzata a tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
+Di seguito è riportato un esempio di campagna orchestrata cross-channel con una segmentazione e due consegne. La campagna orchestrata prende di mira tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -99,7 +99,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Puoi anche creare una campagna ricorrente in più passaggi per inviare un SMS personalizzato ogni primo giorno del mese alle 20 a tutti i clienti che vivono a Parigi.
+Puoi anche creare una campagna orchestrata ricorrente per inviare un SMS personalizzato ogni primo giorno del mese alle 20 a tutti i clienti che vivono a Parigi.
 
 ![](../assets/workflow-channel-example2.png)
 

@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Load file
-description: Scopri come utilizzare l’attività Load file in una campagna in più passaggi
+description: Scopri come utilizzare l’attività Load file in una campagna orchestrata
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 38%
@@ -62,7 +63,7 @@ La configurazione dell&#39;attività **Load file** prevede due passaggi. Innanzi
 
 Segui questi passaggi per configurare il file di esempio utilizzato per definire la struttura di file prevista:
 
-1. Aggiungi un&#39;attività **Carica file** nella campagna in più passaggi.
+1. Aggiungi un&#39;attività **Load file** nella campagna orchestrata.
 
 1. Seleziona il file di esempio da utilizzare per definire la struttura di file prevista. A tale scopo, fare clic sul pulsante **Seleziona file** nella sezione **[!UICONTROL File di esempio]** e selezionare il file locale da utilizzare.
 
@@ -114,7 +115,7 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
 
 >[!CAUTION]
 >
->Prima di caricare il file di destinazione, accertati che sia conforme alla formattazione del file di esempio. Eventuali discrepanze nel formato di file, nella struttura delle colonne o nel numero di colonne possono causare errori durante l’esecuzione di una campagna in più passaggi.
+>Prima di caricare il file di destinazione, accertati che sia conforme alla formattazione del file di esempio. Eventuali discrepanze nel formato del file, nella struttura delle colonne o nel numero di colonne possono causare errori durante l’esecuzione di una campagna orchestrata.
 
 Per definire il file di destinazione da caricare, effettua le seguenti operazioni:
 
@@ -149,13 +150,13 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 
 1. Nella sezione **Rifiuta gestione**, specifica il comportamento dell&#39;attività in caso di errori:
 
-   * Nel campo **[!UICONTROL Numero di errori consentiti]**, specifica il numero massimo di errori autorizzati durante l&#39;elaborazione del file da caricare. Ad esempio, se il valore è impostato su &quot;20&quot;, l’esecuzione della campagna in più passaggi non riuscirà se si verificano più di 20 errori durante il caricamento del file.
+   * Nel campo **[!UICONTROL Numero di errori consentiti]**, specifica il numero massimo di errori autorizzati durante l&#39;elaborazione del file da caricare. Ad esempio, se il valore è impostato su &quot;20&quot;, l’esecuzione della campagna orchestrata avrà esito negativo se si verificano più di 20 errori durante il caricamento del file.
 
    * Per mantenere gli errori che si sono verificati durante il caricamento del file, attivare l&#39;opzione **[!UICONTROL Mantieni rifiuti in un file]** e specificare il nome desiderato per il file nel campo **[!UICONTROL File di rifiuto]**.
 
      Dopo aver attivato questa opzione, dopo l’attività viene aggiunta una transizione di output aggiuntiva denominata &quot;Complemento&quot;. Qualsiasi errore che si verificherà durante l&#39;importazione verrà memorizzato nel file specificato sul server.
 
-1. Per eliminare il file caricato dal server dopo l&#39;esecuzione della campagna in più passaggi, attiva l&#39;opzione **[!UICONTROL Elimina file dopo l&#39;importazione]**.
+1. Per eliminare il file caricato dal server dopo l&#39;esecuzione della campagna orchestrata, attiva l&#39;opzione **[!UICONTROL Elimina file dopo l&#39;importazione]**.
 
    ![](../assets/workflow-load-file-options.png)
 
