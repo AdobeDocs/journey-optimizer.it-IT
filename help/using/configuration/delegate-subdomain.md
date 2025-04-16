@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2003'
 ht-degree: 20%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 20%
 
 La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe. Ulteriori informazioni sulla delega del [sottodominio](about-subdomain-delegation.md)
 
->[!NOTE]
->
->Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
+Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini**. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
 Puoi delegare completamente un sottodominio o crearne uno utilizzando i CNAME per puntare a record specifici di Adobe.
 
+La delega completa del sottodominio è il metodo consigliato. Ulteriori informazioni sulle differenze tra i metodi di configurazione dei [sottodomini](about-subdomain-delegation.md#subdomain-delegation-methods).
+
+La configurazione del sottodominio è **comune a tutti gli ambienti**. Pertanto, qualsiasi modifica a un sottodominio influisce anche sulle sandbox di produzione.
+
 >[!CAUTION]
 >
->La delega completa del sottodominio è il metodo consigliato. Ulteriori informazioni sulle differenze tra i metodi di configurazione dei [sottodomini](about-subdomain-delegation.md#subdomain-delegation-methods).
->
->La configurazione del sottodominio è comune a tutti gli ambienti. Pertanto, qualsiasi modifica a un sottodominio influirà anche sulle sandbox di produzione.
+>L&#39;invio parallelo di sottodomini non è supportato in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha lo stato **[!UICONTROL Elaborazione]**, viene visualizzato un messaggio di errore.
 
 ## Delegare completamente un sottodominio ad Adobe {#full-subdomain-delegation}
 
@@ -87,9 +87,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
-   >[!NOTE]
-   >
-   >Puoi creare i record e inviare la configurazione del sottodominio in seguito utilizzando il pulsante **[!UICONTROL Salva come bozza]**. Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+   Puoi creare i record e inviare la configurazione del sottodominio in seguito utilizzando il pulsante **[!UICONTROL Salva come bozza]**. Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
 1. Il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
 
@@ -103,15 +101,10 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
 
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per inviare messaggi.
 
-   >[!NOTE]
-   >
-   >Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
+   Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
 
 Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene automaticamente creato un record PTR associato a questo sottodominio. [Ulteriori informazioni](ptr-records.md)
 
->[!CAUTION]
->
->L&#39;esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha lo stato **[!UICONTROL Elaborazione]**, riceverai un messaggio di errore.
 
 ## Configurare un sottodominio con CNAME {#cname-subdomain-delegation}
 
@@ -147,7 +140,7 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
    >[!CAUTION]
    >
-   >Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   >Non devi delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà **della tua organizzazione**, ad esempio marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -163,9 +156,7 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Fai clic su **[!UICONTROL Continua]**.
 
-   >[!NOTE]
-   >
-   >In seguito potrai creare i record utilizzando il pulsante **[!UICONTROL Salva come bozza]**. A questo punto, potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+   In seguito potrai creare i record utilizzando il pulsante **[!UICONTROL Salva come bozza]**. A questo punto, potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
 1. Attendi che Adobe verifichi che i record vengano generati senza errori nella soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
 
@@ -185,23 +176,16 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Una volta completati i controlli<!--i.e Adobe validates the record you created and installs it-->, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per inviare messaggi.
 
-   >[!NOTE]
-   >
-   >Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
+   Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
 
 Al momento della convalida del record e dell’installazione del certificato, Adobe crea automaticamente il record PTR per il sottodominio CNAME. [Ulteriori informazioni](ptr-records.md)
 
->[!CAUTION]
->
->L&#39;esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha lo stato **[!UICONTROL Elaborazione]**, riceverai un messaggio di errore.
 
 ## Convalida del sottodominio {#subdomain-validation}
 
-I controlli e le azioni seguenti verranno eseguiti fino alla verifica del sottodominio e possono essere utilizzati per inviare messaggi.
+I controlli e le azioni di seguito vengono eseguiti fino alla verifica del sottodominio e possono essere utilizzati per inviare messaggi.
 
->[!NOTE]
->
->Questi passaggi vengono eseguiti da Adobe e possono richiedere fino a 3 ore.
+Questi passaggi vengono eseguiti da Adobe e possono richiedere **fino a 3 ore**.
 
 1. **Pre-convalida**: Adobe controlla se il sottodominio è stato delegato ad Adobe DNS (record NS, record SOA, configurazione zona, record di proprietà). Se il passaggio di pre-convalida non riesce, viene restituito un errore insieme al motivo corrispondente, altrimenti Adobe procede al passaggio successivo.
 
@@ -241,9 +225,7 @@ Eseguire innanzitutto i passaggi seguenti in [!DNL Journey Optimizer]:
 
 1. Annulla la delega dei sottodomini della pagina di destinazione, dei sottodomini SMS e dei sottodomini web associati a questo sottodominio.
 
-   >[!NOTE]
-   >
-   >Devi inoltrare una richiesta dedicata per ogni [pagina di destinazione](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) o [sottodominio Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Devi inoltrare una richiesta dedicata per ogni [pagina di destinazione](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) o [sottodominio Web](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Arresta le campagne attive associate ai sottodomini. [Scopri come](../campaigns/modify-stop-campaign.md#stop)
 
@@ -251,9 +233,7 @@ Eseguire innanzitutto i passaggi seguenti in [!DNL Journey Optimizer]:
 
 1. Puntare i [record PTR](ptr-records.md#edit-ptr-record) collegati al sottodominio a un altro sottodominio.
 
-   >[!NOTE]
-   >
-   >Se questo è l’unico sottodominio delegato, puoi saltare questo passaggio.
+   Se questo è l’unico sottodominio delegato, puoi saltare questo passaggio.
 
 Al termine, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
 

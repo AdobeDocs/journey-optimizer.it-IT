@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sottodomini, configurazione
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 20%
 
 ---
@@ -38,12 +38,10 @@ Per ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe sono disponibili in [questa sezione](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->* La configurazione del sottodominio SMS è condivisa tra tutti gli ambienti. Pertanto, qualsiasi modifica a un sottodominio SMS influisce anche su altre sandbox di produzione.
->
->* Per accedere e modificare i sottodomini SMS, devi disporre dell&#39;autorizzazione **[!UICONTROL Gestione sottodomini SMS]** nella sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../administration/high-low-permissions.md).
->
+La configurazione del sottodominio SMS è **condivisa tra tutti gli ambienti**. Pertanto, qualsiasi modifica a un sottodominio SMS influisce anche su altre sandbox di produzione.
+
+Per accedere e modificare i sottodomini SMS, devi disporre dell&#39;autorizzazione **[!UICONTROL Gestione sottodomini SMS]** nella sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../administration/high-low-permissions.md).
+
 
 ## Usa un sottodominio esistente {#sms-use-existing-subdomain}
 
@@ -61,15 +59,11 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 1. Immetti il prefisso che verrà visualizzato nell’URL dell’SMS.
 
-   >[!NOTE]
-   >
-   >Sono consentiti solo caratteri alfanumerici e trattini.
+   Sono consentiti solo caratteri alfanumerici e trattini.
 
 1. Seleziona un sottodominio delegato dall’elenco.
 
-   >[!NOTE]
-   >
-   >Non puoi selezionare un sottodominio già utilizzato come sottodominio SMS.
+   Non puoi selezionare un sottodominio già utilizzato come sottodominio SMS.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -120,9 +114,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
    Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
-   >[!NOTE]
-   >
-   >Sono supportati i sottodomini a più livelli (dello stesso dominio padre). Ad esempio, puoi utilizzare &quot;sms.marketing.yourcompany.com&quot;.
+   Sono supportati i sottodomini a più livelli (dello stesso dominio padre). Ad esempio, puoi utilizzare &quot;sms.marketing.yourcompany.com&quot;.
 
 1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare il record DNS corrispondente.
 
@@ -130,9 +122,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Quando configuri un nuovo sottodominio SMS, punterà sempre a un record CNAME.
+   Quando configuri un nuovo sottodominio SMS, questo punta sempre a un record CNAME.
 
 1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
