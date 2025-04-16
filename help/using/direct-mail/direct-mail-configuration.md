@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1343'
 ht-degree: 22%
 
 ---
@@ -20,16 +20,16 @@ ht-degree: 22%
 
 Quando [crei un messaggio di direct mailing](../direct-mail/create-direct-mail.md), definisci i dati del pubblico di destinazione, incluse le informazioni di contatto scelte (ad esempio l&#39;indirizzo postale). Un file contenente questi dati verrà quindi generato ed esportato automaticamente in un server, dove il provider di direct mailing sarà in grado di recuperarli e occuparsi dell’invio effettivo.
 
-Prima di poter generare questo file, devi creare:
+Prima di poter generare questo file, è necessario creare:
 
-1. [Configurazione di indirizzamento file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografare il file, se necessario.
+1. [Una configurazione](#file-routing-configuration) di routing dei file per specificare il server in cui il file verrà esportato e crittografare il file, se necessario.
 
-1. [Configurazione di direct mailing](#direct-mail-configuration) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing.
+1. [Una configurazione](#direct-mail-configuration) direct mail che fa riferimento alla configurazione di routing dei file. Se non è stata configurata alcuna opzione di routing dei file, non sarà possibile creare una configurazione direct mail.
 
 
 >[!CAUTION]
 >
->* Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+>* Per creare una configurazione di routing dei file, è necessario disporre del **[!DNL Manage file routing]** autorizzazione incorporato. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 >
 >* I file di direct mailing vengono generati solo al momento dell’esportazione; il sistema non memorizza a tempo indefinito le esportazioni meno recenti. Per un backup più lungo o permanente, configura un’opzione di indirizzamento dei file (SFTP o archiviazione cloud).
 
@@ -63,19 +63,19 @@ Prima di poter generare questo file, devi creare:
 
 >[!NOTE]
 >
->Al momento Amazon S3, SFTP, Azure e Data Landing Zone sono supportati in [!DNL Journey Optimizer].
+>Attualmente Amazon S3, SFTP, Azure e Data Landing Zone sono supportati in [!DNL Journey Optimizer].
 
-Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed esporta in un server il file contenente i dati del pubblico di destinazione.
+Per recapitare un messaggio direct mail, [!DNL Journey Optimizer] genera ed esporta il file contenente i dati del pubblico di destinazione in un server.
 
-È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere al file e utilizzarlo per la consegna della posta.
+È necessario specificare i dettagli del server in modo che il provider di direct mail possa accesso e utilizzare tale file per il recapito della posta.
 
-Per configurare l’indirizzamento dei file, segui la procedura riportata di seguito.
+Per configurare il routing dei file, seguire i passaggi seguenti.
 
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento file]**.
+1. Accedere alle **[!UICONTROL impostazioni di Amministrazione]** > **[!UICONTROL canali]** > **[!UICONTROL Direct]** mail > **[!UICONTROL menu File routing]** , quindi fare clic su **[!UICONTROL Crea configurazione]** di routing dei file.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
-1. Imposta un nome per la configurazione.
+1. Assegnate un nome alla configurazione.
 
 1. Seleziona il tipo di server da utilizzare per esportare i file di direct mailing: Amazon S3, SFTP, Azure o Data Landing Zone.
 
@@ -105,17 +105,17 @@ Se hai selezionato **[!UICONTROL SFTP]** come **[!UICONTROL tipo di server]**, c
 
 * **Account**: nome account utilizzato per connettersi al server SFTP.
 
-* **Indirizzo server**: &#x200B;URL del server SFTP.
+* **Indirizzo** server: URL del server SFTP.
 
-* **Porta**: numero porta di connessione FTP.
+* **Porta**: numero di porta della connessione FTP.
 
-* **Password**:&#x200B; password utilizzata per la connessione al server SFTP.
+* **Password**: Password utilizzato per connettersi al server SFTP.
 
 ![](assets/file-routing-config-sftp-detail.png)
 
 >[!NOTE]
 >
->Per specificare un percorso sul server per il salvataggio del file, aggiorna il campo **[!UICONTROL Nome file]** della campagna di direct mailing per includere il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
+>Per specificare un percorso sul server per il salvataggio del file, aggiorna il campo Nome file ]**della**[!UICONTROL  campagna direct mail in modo che includa il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
 
 >[!TAB Azure]
 
@@ -143,7 +143,7 @@ Se hai selezionato **[!UICONTROL Area di destinazione dati]** come **[!UICONTROL
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Learn more about Data Landing Zone in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -206,19 +206,19 @@ Una configurazione di direct mailing deve includere anche la configurazione di i
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. Selezionare la **[!UICONTROL configurazione di indirizzamento file]** tra quelle create. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
+1. Selezionare la **[!UICONTROL configurazione]** di routing File tra quelle create. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
 
    >[!CAUTION]
    >
-   >Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
+   >Se non è stata configurata alcuna opzione di routing dei file, non sarà possibile creare una configurazione direct mail. [Ulteriori informazioni](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Invia la configurazione di direct mailing.
+1. Invia la configurazione direct mail.
 
-Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md) all&#39;interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene esportato automaticamente nel server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna di direct mailing.
+Ora puoi [creare un messaggio](../direct-mail/create-direct-mail.md) direct mail all&#39;interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione verrà automaticamente esportato nel server definito. Il provider direct mail sarà quindi in grado di recuperare quel file e procedere con la consegna direct mail.
 
 >[!NOTE]
 >

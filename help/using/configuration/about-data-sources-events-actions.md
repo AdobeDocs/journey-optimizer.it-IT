@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurazione, percorso, dashboard, origini dati, eventi, azioni
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 63%
+source-wordcount: '457'
+ht-degree: 58%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 63%
 >title="Informazioni sulla configurazione del percorso"
 >abstract="Per inviare messaggi tramite percorsi, devi configurare origini dati, eventi e azioni. Le origini dati consentono di definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle condizioni. Gli eventi consentono di attivare i percorsi quando viene ricevuto un evento. Le azioni personalizzate consentono di connettersi a un sistema di terze parti per l’invio dei messaggi. Se utilizzi funzionalità di messaggistica incorporate di Journey Optimizer, non è necessario configurare un’azione."
 
-Per inviare messaggi con percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**.
+Per inviare messaggi con percorsi è necessario configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**.
 
 ![](assets/admin-menu.png)
+
+Puoi anche configurare le connessioni a sistemi esterni tramite origini dati e azioni personalizzate. Ciò ti consente, ad esempio, di arricchire i tuoi percorsi con dati provenienti da un sistema di prenotazione esterno o di inviare messaggi utilizzando un sistema di terze parti come Epsilon o Facebook. Scopri come [integrare Journey Optimizer con sistemi esterni](external-systems.md).
 
 ## Origini dati {#data-sources}
 
@@ -45,7 +47,7 @@ Le funzionalità per i messaggi di Journey Optimizer sono integrate: devi solo a
 
 Quando si definisce il [payload dell’evento](../event/about-creating.md#define-the-payload-fields) e il [payload del gruppo di campi](../datasource/configure-data-sources.md#define-field-groups) e si selezionano i campi nell’[editor delle espressioni](../building-journeys/expression/expressionadvanced.md), oltre al nome del campo viene mostrato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema di Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 
