@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1752'
 ht-degree: 15%
 
 ---
@@ -109,7 +109,7 @@ Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic
    * **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un&#39;offerta.
    * **[!UICONTROL Impression]** (solo canali in entrata): numero massimo di volte che l&#39;offerta può essere visualizzata a un utente.
    * **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull&#39;elemento decisionale.
-   * **[!UICONTROL Evento personalizzato]**: è possibile definire un evento personalizzato che verrà utilizzato per limitare il numero di volte in cui l&#39;elemento viene inviato. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono lo stesso 10000, o fino a quando un determinato profilo non viene rimborsato 1 volta. A tale scopo, utilizzare [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per generare una regola evento personalizzata.
+   * **[!UICONTROL Evento personalizzato]**: è possibile definire un evento personalizzato che verrà utilizzato per limitare il numero di volte in cui l&#39;elemento viene inviato. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono lo stesso 10000, o fino a quando un determinato profilo non viene rimborsato 1 volta. Per farlo, utilizza [schemi XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} di Adobe Experience Platform per generare una regola evento personalizzata.
 
    >[!NOTE]
    >
@@ -163,6 +163,10 @@ Selezionando un elemento di decisione o facendo clic sul pulsante con i puntini 
 
   >[!IMPORTANT]
   >
-  >Una volta eliminata, l’elemento decisionale e il relativo contenuto non sono più accessibili. Questa azione non può essere annullata. Se l’elemento di decisione viene utilizzato in una raccolta o in una decisione, non può essere eliminato. È necessario rimuovere prima l’elemento di decisione da qualsiasi oggetto.
+  >Una volta eliminata, l’elemento decisionale e il relativo contenuto non sono più accessibili. Questa azione non può essere annullata.
+
+  Gli elementi di offerta approvati non possono essere eliminati se sono utilizzati in una raccolta o in una decisione. Per eliminarli, cambiarne lo stato in &quot;Bozza&quot;. A tale scopo, fare clic sul pulsante con i puntini di sospensione e selezionare **[!UICONTROL Annulla approvazione]**.
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL Archivio]**: imposta lo stato dell&#39;elemento di decisione su **[!UICONTROL Archiviato]**. L&#39;elemento di decisione è ancora disponibile nell&#39;elenco, ma non è possibile impostarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
