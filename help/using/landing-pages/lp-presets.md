@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, configurazione, ambiente, sottodominio, predefiniti
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 19%
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
 
@@ -22,11 +22,15 @@ ht-degree: 19%
 >title="Creare un predefinito per la pagina di destinazione"
 >abstract="Per creare una pagina di destinazione e utilizzarla tramite Journey Optimizer, devi creare un predefinito per pagine di destinazione che includa il sottodominio da utilizzare."
 
-Quando [crei una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per poterla creare e sfruttarlo tramite **[!DNL Journey Optimizer]**.
+## Introduzione ai predefiniti per pagine di destinazione {#gs-lp-presets}
+
+Quando [crei una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per poterla creare e sfruttarlo tramite **[!DNL Journey Optimizer]**. Il predefinito include il sottodominio da utilizzare per le pagine di destinazione basate su questo predefinito.
+
+Prima di creare un predefinito, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come creare un sottodominio della pagina di destinazione](lp-subdomains.md).
 
 ## Accedere ai predefiniti della pagina di destinazione {#access-lp-presets}
 
-Per accedere ai predefiniti per pagine di destinazione, effettua le seguenti operazioni.
+Per accedere ai predefiniti per pagine di destinazione, effettua le seguenti operazioni:
 
 1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**.
 
@@ -40,13 +44,9 @@ Per accedere ai predefiniti per pagine di destinazione, effettua le seguenti ope
 
 ## Creare un predefinito per la pagina di destinazione {#lp-create-preset}
 
-Per creare un predefinito per pagina di destinazione, effettua le seguenti operazioni.
+Per creare un predefinito per pagina di destinazione, effettua le seguenti operazioni:
 
->[!NOTE]
->
->Per poter creare un predefinito, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](lp-subdomains.md)
-
-1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni pagina di destinazione]** > **[!UICONTROL Predefiniti pagina di destinazione]**.
+1. Sfoglia il menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni pagina di destinazione]** > **[!UICONTROL Predefiniti pagina di destinazione]**.
 
 1. Seleziona **[!UICONTROL Crea predefinito per pagina di destinazione]**.
 
@@ -54,21 +54,17 @@ Per creare un predefinito per pagina di destinazione, effettua le seguenti opera
 
 1. Immettete un nome e una descrizione per il predefinito.
 
-   >[!NOTE]
-   >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
+   I nomi devono iniziare con una lettera (A-Z) e contenere solo caratteri alfanumerici, il carattere di sottolineatura `_`, il punto`.` e il trattino `-`.
 
 1. Seleziona un sottodominio della pagina di destinazione dall’elenco a discesa.
 
    ![](assets/lp_preset-subdomain.png)
 
-   >[!NOTE]
-   >
-   >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
+   Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
 
    Vengono visualizzate le impostazioni corrispondenti al sottodominio selezionato.
 
-1. Se desideri selezionare il sottodominio della pagina di destinazione per l&#39;URL di tracciamento, seleziona l&#39;opzione **[!UICONTROL Come sottodominio della pagina di destinazione]**. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
+1. Puoi selezionare il sottodominio della pagina di destinazione per l&#39;URL di tracciamento selezionando l&#39;opzione **[!UICONTROL Come sottodominio della pagina di destinazione]**. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

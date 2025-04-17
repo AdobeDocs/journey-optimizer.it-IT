@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2009'
 ht-degree: 20%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 20%
 >title="Delega dei sottodomini"
 >abstract="Per iniziare a inviare e-mail, devi delegare ad Adobe il tuo sottodominio. I record DNS, le caselle in entrata, il mittente, gli indirizzi per la risposta e per il mancato recapitato verranno quindi configurati per te."
 
+## Introduzione ai sottodomini e-mail {#gs-delegate-subdomain}
+
 La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe. Ulteriori informazioni sulla delega del [sottodominio](about-subdomain-delegation.md)
 
 Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini**. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
@@ -41,7 +43,7 @@ La configurazione del sottodominio è **comune a tutti gli ambienti**. Pertanto,
 
 >[!CAUTION]
 >
->L&#39;invio parallelo di sottodomini non è supportato in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha lo stato **[!UICONTROL Elaborazione]**, viene visualizzato un messaggio di errore.
+>L&#39;invio parallelo di sottodomini non è supportato in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro è nello stato **[!UICONTROL Elaborazione]**, viene visualizzato un messaggio di errore.
 
 ## Delegare completamente un sottodominio ad Adobe {#full-subdomain-delegation}
 

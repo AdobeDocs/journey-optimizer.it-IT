@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '972'
 ht-degree: 19%
 
 ---
@@ -34,13 +34,15 @@ ht-degree: 19%
 >abstract="Per creare un predefinito per la pagina di destinazione, accertati di aver configurato in precedenza almeno un sottodominio per la pagina di destinazione da selezionare dall’elenco dei nomi di sottodominio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare i predefiniti per pagine di destinazione"
 
-Per poter [creare predefiniti per pagine di destinazione](lp-presets.md), devi impostare i sottodomini da utilizzare per le pagine di destinazione.
+## Introduzione ai sottodomini delle pagine di destinazione {#gs-lp-subdomains}
 
-Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe sono disponibili in [questa sezione](../configuration/delegate-subdomain.md).
+Per poter creare dei predefiniti](lp-presets.md) per [le pagine di destinazione, devi impostare i sottodomini che utilizzerai per le pagine di destinazione.
+
+È possibile utilizzare un sottodominio già delegato a Adobe Systems oppure configurare un altro sottodominio. Scopri ulteriori informazioni sulla delega di sottodomini a Adobe Systems in [questa sezione](../configuration/delegate-subdomain.md).
 
 La configurazione del sottodominio della pagina di destinazione è **comune a tutti gli ambienti**. Pertanto:
 
-* Per accedere e modificare i sottodomini della pagina di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Gestisci sottodomini pagina di destinazione]** nella sandbox di produzione.
+* Per accesso e modificare i sottodomini della pagina di ]**destinazione, devi disporre della**[!UICONTROL  autorizzazione Gestisci Pagina sottodomini di destinazione nella sandbox di produzione.
 
 * Qualsiasi modifica apportata a un sottodominio della pagina di destinazione influisce anche sulle sandbox di produzione.
 
@@ -50,11 +52,11 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni pagina di destinazione]** > **[!UICONTROL Sottodomini pagina di destinazione]**.
 
-1. Fare clic su **[!UICONTROL Configura sottodominio]**.
+1. Fai clic su **[!UICONTROL Imposta sottodominio]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. Selezionare **[!UICONTROL Usa dominio delegato]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
+1. Selezionare **[!UICONTROL Usa dominio]** delegato dalla **[!UICONTROL sezione Tipo di]** configurazione.
 
    ![](assets/lp_use-delegated-subdomain.png)
 
@@ -70,11 +72,11 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Non è possibile utilizzare più sottodomini delegati dello stesso dominio principale. Ad esempio, se &quot;marketing1.yourcompany.com&quot; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &quot;marketing2.yourcompany.com&quot;. Tuttavia, poiché i sottodomini a più livelli sono supportati per le pagine di destinazione, puoi procedere utilizzando un sottodominio &quot;marketing1.yourcompany.com&quot; (ad esempio &quot;email.marketing1.yourcompany.com&quot;) o un dominio padre diverso.
+   Non è possibile utilizzare più sottodomini delegati dello stesso dominio principale. Ad esempio, se &quot;marketing1.yourcompany.com&quot; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &quot;marketing2.yourcompany.com&quot;. Tuttavia, essendo supportati i sottodomini multilivello per le pagine di destinazione, puoi procedere utilizzando un sottodominio di &quot;marketing1.yourcompany.com&quot; (come &quot;email.marketing1.yourcompany.com&quot;) o un dominio padre diverso.
 
    >[!CAUTION]
    >
-   >Se si seleziona un dominio delegato ad Adobe utilizzando il metodo [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), è necessario creare il record DNS nella piattaforma di hosting. Per generare il record DNS, il processo è lo stesso di quando configuri un nuovo sottodominio della pagina di destinazione. Scopri come in [questa sezione](#lp-configure-new-subdomain).
+   >Se si seleziona un dominio delegato ad Adobe utilizzando il metodo [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), è necessario creare il record DNS nella piattaforma di hosting. Per generare il record DNS, la procedura è la stessa di quando configuri un nuovo sottodominio pagina di destinazione. Scopri come in [questa sezione](#lp-configure-new-subdomain).
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
@@ -82,9 +84,9 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    ![](assets/lp_subdomain-processing.png)
 
-   Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe Systems esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare predefiniti per pagine di destinazione.
+1. Una volta che i controlli hanno esito positivo, il sottodominio ottiene lo **[!UICONTROL stato Operazione riuscita]** . È pronto per essere utilizzato per creare dei predefiniti per le pagine di destinazione.
 
 ## Configurare un nuovo sottodominio {#lp-configure-new-subdomain}
 
@@ -97,9 +99,9 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni pagina di destinazione]** > **[!UICONTROL Sottodomini pagina di destinazione]**.
 
-1. Fare clic su **[!UICONTROL Configura sottodominio]**.
+1. Fai clic su **[!UICONTROL Imposta sottodominio]**.
 
-1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
+1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione Tipo di ]****[!UICONTROL  configurazione.
 
    ![](assets/lp_add-your-own-subdomain.png)
 
@@ -115,17 +117,17 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
    Per le pagine di destinazione, sono supportati i sottodomini a più livelli. Ad esempio, puoi utilizzare &quot;email.marketing.yourcompany.com&quot;.
 
-1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare il record DNS corrispondente.
+1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scaricare un file CSV, quindi passa alla soluzione di hosting del dominio per generare il record DNS corrispondente.
 
-1. Assicurati che il record DNS sia stato generato nella soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
+1. Assicurati che il record DNS sia stato generato nella soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confirmo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   Quando configuri un nuovo sottodominio della pagina di destinazione, questo punta sempre a un record CNAME.
+   Quando configuri un nuovo sottodominio pagina di destinazione, punta sempre a un record CNAME.
 
-1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato di **[!UICONTROL elaborazione]** . Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Prima di poter utilizzare il sottodominio per le pagine di destinazione, devi attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](#subdomain-validation).-->
+   Prima di poter utilizzare quel sottodominio per le tue pagine di destinazione, devi attendere che Adobe Systems esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare predefiniti per pagine di destinazione.
 
@@ -135,7 +137,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 Se desideri annullare la delega di un sottodominio di una pagina di destinazione, contatta il tuo rappresentante Adobe.
 
-Tuttavia, prima di contattare Adobe, devi eseguire diversi passaggi nell’interfaccia utente.
+Tuttavia, è necessario eseguire diversi passaggi nell&#39;interfaccia di utente prima di contattare Adobe Systems.
 
 >[!NOTE]
 >
@@ -155,9 +157,9 @@ Eseguire innanzitutto i passaggi seguenti in [!DNL Journey Optimizer]:
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
 -->
 
-Al termine, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
+Una volta fatto, contatta il tuo rappresentante Adobe Systems con il sottodominio che desideri annullare.
 
-Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+Una volta gestito il richiesta da Adobe Systems, il dominio non delegato non viene più visualizzato nella pagina di inventario dei sottodomini.
 
 >[!CAUTION]
 >
