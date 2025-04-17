@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * È stata aggiornata la pagina del test di percorso con una nota sulla necessità di includere uno spazio dei nomi di identità nell’evento utilizzato. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * Al momento non è possibile annullare la delega dei sottodomini tramite l&#39;interfaccia utente di [!UICONTROL Journey Optimizer]. Rivolgersi al proprio rappresentante Adobe. Le sezioni e-mail, pagina di destinazione, SMS e sottodominio web sono state aggiornate con queste informazioni e con i passaggi da eseguire prima di contattare Adobe. [Ulteriori informazioni](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Sono stati aggiunti chiarimenti sul parametro opzionale `maxHttpConnections` nell&#39;API di limitazione dei percorsi, incluse indicazioni su come utilizzarlo insieme alle configurazioni di limitazione per lo stesso endpoint. [Ulteriori informazioni](../configuration/throttling.md)
+* Nella sezione Experience Decisioning sono state aggiunte indicazioni che spiegano che gli elementi di offerta approvati non possono essere eliminati se vengono utilizzati in una raccolta o in una decisione. Sono stati inclusi i passaggi per cambiare il loro stato in &quot;Bozza&quot; utilizzando l&#39;opzione **[!UICONTROL Annulla approvazione]**. [Ulteriori informazioni](../experience-decisioning/items.md#manage)
 
 ## Marzo 2025 {#mar-2025}
 
