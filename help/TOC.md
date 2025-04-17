@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 89%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 89%
       + [Configurare un’azione personalizzata](using/action/about-custom-action-configuration.md)
       + [Risolvere i problemi di un’azione personalizzata](using/action/troubleshoot-custom-action.md)
       + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
-+ Connetti i sistemi {#connect-systems}&quot;
++ Collegare sistemi e ambienti {#connect-systems}
    + [Utilizzare le API di Journey Optimizer](using/configuration/ajo-apis.md)
    + Integrare i percorsi con sistemi esterni {#external-systems}
       + [Integrazione del percorso con sistemi esterni](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 89%
       + [Integrazione del percorso con Campaign Standard](using/action/acs-action.md)
       + [Integrazione di percorso con Campaign v7/v8](using/action/acc-action.md)
       + [Integrazione del percorso con Marketo Engage](using/action/marketo-engage.md)
+   + Gestione delle sandbox {#sandbox}
+      + [Utilizzare e assegnare sandbox](using/administration/sandboxes.md)
+      + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurare il connettore Sources](using/start/get-started-sources.md)
-   + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Controllo degli accessi {#access-control}
    + Panoramica sul controllo degli accessi {#privacy}
       + [Introduzione alla gestione degli utenti](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 89%
    + [Gestire utenti e ruoli](using/administration/permissions.md)
    + [Controllo degli accessi basato su attributi](using/administration/attribute-based-access.md)
    + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
-   + [Gestione delle sandbox](using/administration/sandboxes.md)
 + Privacy {#privacy}
    + [Introduzione alla privacy](using/privacy/get-started-privacy.md)
    + [Richieste di accesso a dati personali](using/privacy/requests.md)
