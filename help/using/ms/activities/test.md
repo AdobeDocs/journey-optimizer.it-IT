@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 16%
 
 ---
@@ -36,7 +36,7 @@ Per configurare l&#39;attività **Test**, eseguire la procedura seguente:
 
 1. Per impostazione predefinita, l&#39;attività **[!UICONTROL Test]** presenta un semplice test booleano. Se la condizione definita nella transizione &quot;True&quot; è soddisfatta, questa transizione verrà attivata. In caso contrario, verrà attivata una transizione predefinita &quot;False&quot;.
 
-1. Per configurare la condizione associata a una transizione, fai clic sull&#39;icona **[!UICONTROL Apri finestra di personalizzazione]**. Utilizza l’editor di espressioni per definire le regole necessarie per attivare questa transizione. Puoi anche sfruttare le variabili evento, le condizioni e le funzioni data/ora. [Scopri come utilizzare le variabili evento e l&#39;editor di espressioni](../event-variables.md)
+1. Per configurare la condizione associata a una transizione, fai clic sull&#39;icona **[!UICONTROL Apri finestra di personalizzazione]**. Utilizza l’editor di espressioni per definire le regole necessarie per attivare questa transizione. Puoi anche sfruttare le variabili evento, le condizioni e le funzioni data/ora.
 
    Inoltre, puoi modificare il campo **[!UICONTROL Etichetta]** per personalizzare il nome della transizione nell&#39;area di lavoro della campagna orchestrata.
 
