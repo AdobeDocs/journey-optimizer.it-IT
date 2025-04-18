@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione alle campagne orchestrate
-description: Scopri come iniziare con campagne orchestrate
+description: Scopri come iniziare con le campagne orchestrate
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -19,30 +19,33 @@ ht-degree: 18%
 
 **Sommario**
 
-* Introduzione alle campagne orchestrate - [Key principes](gs-campaign-creation.md)
-* Configurazione: [Utilizzare gli](ms-schemas.md) schemi - [Utilizzare le variabili di evento](event-variables.md)
-* Per iniziare: [Crea una campagna](create-ms-campaign.md) orchestrata - [Configura le impostazioni](ms-campaign-settings.md) della campagna - [Inizia e monitora le tue campagne](start-monitor-campaigns.md) - [Inizia con le attività](activities/about-activities.md) - [Orchestra le attività](orchestrate-activities.md) - [Personalizzazione](ms-personalization.md)
-* Elenco delle attività: [And-join](activities/and-join.md) - [Creare audience](activities/build-audience.md) - [Cambiare dimensione](activities/change-dimension.md) - [Combinare](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni](activities/channels.md) canale - [Arricchimento](activities/enrichment.md) - [Forcella](activities/fork.md) - [Caricare file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva audience](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Split](activities/split.md) - [Test](activities/test.md) - [Aggiornare i dati](activities/update-data.md) - [Wait](activities/wait.md)
+* Introduzione alle campagne orchestrate - [Principes chiave](gs-campaign-creation.md)
+* Configurazione: [Configurare le campagne orchestrate](gs-campaign-config.md) - [Utilizzare gli schemi](ms-schemas.md) - [Utilizzare le variabili evento](event-variables.md)
+* Introduzione: [Creare una campagna orchestrata](create-ms-campaign.md) - [Configurare le impostazioni della campagna](ms-campaign-settings.md) - [Pianificare e avviare le campagne](start-monitor-campaigns.md) - [Introduzione alle attività](activities/about-activities.md) - [Orchestrare le attività](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
-Le campagne orchestrate migliorano Adobe Systems Journey Optimizer introducendo solide funzionalità di campagne batch avviate marchio che consentono di pianificare e orchestrare campagne cross-channel con strategie di Segmentazione avanzate.
+Le campagne orchestrate migliorano Adobe Journey Optimizer introducendo solide funzionalità per campagne batch avviate dal brand, consentendo di pianificare e orchestrare campagne cross-channel con strategie di segmentazione avanzate.
 
-## Cos&#39;è una campagna orchestrata?
+## Cos’è una campagna orchestrata?
 
-Il marketing cross-channel è essenziale per qualsiasi azienda che desideri raggiungere i propri clienti in modo efficace. Adobe Systems Journey Optimizer offre un ambiente grafico completo che consente di progettare processi complessi che possono aiutarti a gestire le tue campagne marketing con facilità. Con le campagne orchestrate, puoi orchestrare l&#39;intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle tue campagne marketing, dalla creazione di segmenti alla preparazione dei messaggi fino alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
+Il marketing cross-channel è essenziale per qualsiasi azienda che desideri raggiungere i propri clienti in modo efficace. Adobe Journey Optimizer offre un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità. Con le campagne orchestrate, puoi orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
-Uno dei vantaggi più significativi delle campagne orchestrate è che semplifica la distribuzione di contenuto personalizzati ai clienti su tutti i canali. Sia che i tuoi clienti preferiscano ricevere messaggi via e-mail o dispositivi mobili, Adobe Systems Journey Optimizer ti consente di offrire un&#39;esperienza coerente e contestuale su qualsiasi canale, trasformando il percorso di ogni cliente in un&#39;esperienza unica.
+Uno dei vantaggi più significativi delle campagne orchestrate è che semplifica la distribuzione di contenuti personalizzati ai clienti su tutti i canali. Indipendentemente dal fatto che i tuoi clienti preferiscano ricevere messaggi via e-mail o dispositivi mobili, Adobe Journey Optimizer ti consente di offrire un’esperienza coerente e contestuale su qualsiasi canale, trasformando il percorso di ogni cliente in un’esperienza unica.
 
-Le campagne orchestrate sono incredibilmente versatili e possono essere utilizzate in vari contesti, tra cui targeting per gestire il pubblico o inviare messaggi, la gestione dei dati (ETL) per manipolare i dati e l&#39;importazione dei dati.
+Le campagne orchestrate sono incredibilmente versatili e possono essere utilizzate in vari contesti, tra cui il targeting per gestire i tipi di pubblico o inviare messaggi, la gestione dei dati (ETL) per manipolare i dati e l’importazione di dati.
 
-Con un ambiente grafico completo, è possibile progettare processi come Segmentazione, esecuzione di campagne, elaborazione di file. Le campagne orchestrate possono anche coinvolgere gli utenti assegnando loro compiti o facendo loro approvare le attività eseguite, rendendo più facile gestire il lavoro del tuo team e garantire che tutto venga eseguito correttamente.
+Grazie a un ambiente grafico completo, puoi progettare processi quali segmentazione, esecuzione di campagne ed elaborazione di file. Le campagne orchestrate possono coinvolgere anche gli utenti assegnando loro attività o facendogli approvare le attività eseguite, semplificando la gestione del lavoro del team e garantendo che tutto venga eseguito correttamente.
 
 
-## Orchestrazione del percorso e orchestrazione della campagna
+## Orchestrazione del percorso e orchestrazione delle campagne
 
-Percorsi e campagne - Spiegazione delle differenze, dei casi d&#39;uso e delle best practice
+Campaign Orchestration è il modulo leader per la progettazione, l’invio e il tracciamento delle comunicazioni del brand su larga scala. Consente la distribuzione automatizzata dei messaggi di marketing a tipi di pubblico mirati, sfruttando i segmenti di dati esistenti per una personalizzazione efficace, combinando entità di profilo e non di profilo. Ideale per attività di sensibilizzazione basate su campagne, Campaign Orchestration assicura una distribuzione dei messaggi coerente ed efficiente, spesso pianificata in anticipo, per stimolare il coinvolgimento dei clienti e supportare i principali obiettivi di marketing.
 
+Campaign Orchestration ridefinisce la segmentazione del pubblico abilitando più entità in Adobe Journey Optimizer e semplifica la messaggistica mirata basata, ad esempio, su stati, eventi, contratti o prenotazioni specifici. Poiché puoi inviare comunicazioni a entità diverse dai profili o creare query su qualsiasi entità, puoi avere una visione olistica e acquisire un ampio spettro di informazioni per creare i tipi di pubblico.
+
+Per consentire decisioni basate sui dati, Campaign Orchestration sfrutta più origini per un set di dati arricchito e dinamico.
 
 
 ## Approfondiamo
@@ -55,7 +58,7 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 <img alt="Accedere e gestire i flussi di lavoro" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>Principi chiave</strong></a>
+<a href="gs-campaign-creation.md"><strong>Passaggi di configurazione</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 <a href="create-ms-campaign.md">
 <img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>Crea una campagna in più fasi</strong>
+<div><a href="create-ms-campaign.md"><strong>Crea una campagna orchestrata</strong>
 </div>
 <p>
 </td>
@@ -72,7 +75,7 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 <img alt="Non frequente" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
-<a href="activities/about-activities.md"><strong>Lavorare con le attività</strong></a>
+<a href="activities/about-activities.md"><strong>Utilizzare le attività</strong></a>
 </div>
 <p></td>
 </tr></table>
