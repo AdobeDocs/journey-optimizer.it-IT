@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Modifica dimensione
 description: Scopri come utilizzare l’attività Modifica dimensione
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 50%
+source-wordcount: '288'
+ht-degree: 55%
 
 ---
 
@@ -27,11 +28,12 @@ ht-degree: 50%
 
 L’attività **Cambia dimensione** è un’attività di **targeting**. Questa attività ti consente di modificare la dimensione di targeting durante la creazione della campagna orchestrata. Sposta l’asse in base al modello di dati e alla dimensione di input.
 
-Ad esempio, puoi cambiare la dimensione di targeting di una campagna orchestrata da &quot;Destinatari&quot; a &quot;Applicazione abbonati&quot; per inviare notifiche push ai destinatari target.
+Ad esempio, puoi cambiare la dimensione di targeting di una campagna orchestrata da &quot;Profilo&quot; a &quot;Contratti&quot; per inviare messaggi al proprietario del contratto di destinazione.
 
+<!--
 >[!IMPORTANT]
 >
->Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## Configurare l’attività Cambia dimensione {#configure}
 
@@ -39,9 +41,9 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
 1. Aggiungi un&#39;attività **Modifica dimensione** alla campagna orchestrata.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. Definisci la **Nuova dimensione target**. Durante la modifica della dimensione, tutti i record vengono mantenuti. Altre opzioni non sono ancora disponibili.
+1. Definisci la **Nuova dimensione target**. Durante la modifica della dimensione vengono conservati tutti i record.
 
 1. Esegui la campagna orchestrata per visualizzare il risultato. Confronta i dati nelle tabelle prima e dopo l’attività di modifica della dimensione e confronta la struttura delle tabelle delle campagne orchestrate.
 
@@ -51,4 +53,4 @@ In questo esempio, si desidera inviare una consegna SMS a tutti i profili che ha
 
 Quindi utilizziamo un&#39;attività **[!UICONTROL Change dimension]** per cambiare la dimensione di targeting della campagna orchestrata in &quot;Recipients&quot;. Questo consente di eseguire il targeting dei destinatari che corrispondono alla query.
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
