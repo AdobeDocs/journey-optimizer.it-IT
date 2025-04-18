@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2056'
 ht-degree: 12%
 
 ---
@@ -118,6 +118,10 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 1. Una volta che il messaggio in-app è pronto, finalizza la configurazione e pubblica il percorso per attivarlo.
 
 Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
+
+>[!NOTE]
+>
+>Se desideri visualizzare un messaggio in-app poco dopo aver inviato una notifica push, utilizza un&#39;attività **Attendi** per consentire la propagazione del tempo di payload del messaggio in-app. In genere si consiglia un’attesa di 5-15 minuti, ma i tempi esatti possono variare a seconda della complessità del payload e delle esigenze di personalizzazione.
 
 >[!TAB Aggiungere un messaggio in-app a una campagna]
 

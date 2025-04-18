@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,13 @@ Una persona può accedere a un&#39;attività **Wait** solo se nel percorso è ri
 
 È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Ulteriori informazioni su [questa pagina](../building-journeys/journey-properties.md#entrance).
 
-### Modalità di attesa e test {#wait-test-modd}
+### Modalità di attesa e test {#wait-test-mode}
 
 In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test) consente di definire la durata di ogni attività **Wait**. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Ulteriori informazioni su [questa pagina](../building-journeys/testing-the-journey.md).
+
+### Canali attendi e mobili {#wait-mobile-channels}
+
+Se desideri visualizzare un [messaggio in-app](../in-app/create-in-app.md) poco dopo aver inviato una [notifica push](../push/get-started-push.md), utilizza un&#39;attività **Attendi** per consentire la propagazione del tempo di payload del messaggio in-app. In genere si consiglia un’attesa di 5-15 minuti, ma i tempi esatti possono variare a seconda della complessità del payload e delle esigenze di personalizzazione.
 
 ## Configurazione {#wait-configuration}
 
