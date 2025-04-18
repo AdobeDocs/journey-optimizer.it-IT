@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+workflow-type: tm+mt
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 >[!NOTE]
 >
->A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dal tracciamento e dai set di dati di feedback di Journey Optimizer. Inoltre, a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
+>A partire dal 1° novembre 2024, la segmentazione in streaming non supporta più l’utilizzo di eventi di invio e apertura dai set di dati di tracciamento e feedback di Journey Optimizer. Inoltre, a partire da febbraio 2025, è in corso l’introduzione di un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer. [Ulteriori informazioni](datasets-ttl.md)
 
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività set di dati e vedi i dettagli del set di dati selezionato. La scheda attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 
@@ -64,7 +64,7 @@ I set di dati di sistema per Adobe Journey Optimizer sono elencati di seguito.
 
 * _Punteggi di ottimizzazione dei tempi di invio/Punteggi di coinvolgimento_: punteggi di output dell’IA per la gestione dei percorsi cliente.
 
-Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [Dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
+Per visualizzare l&#39;elenco completo dei campi e degli attributi per ogni schema, consultare il [dizionario schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
 
 ## Anteprima dei set di dati{#preview-datasets}
 
@@ -93,19 +93,19 @@ Una delle funzionalità principali di [!DNL Adobe Experience Platform] è quella
 
 [!DNL Adobe Experience Platform Data Governance] consente di gestire i dati dei clienti e di garantire la conformità a normative, restrizioni e criteri applicabili all’utilizzo dei dati. Svolge un ruolo chiave all’interno di Experience Platform a vari livelli, tra cui catalogazione, derivazione dei dati, etichettatura dell’utilizzo dei dati, criteri di utilizzo dei dati e controllo dell’utilizzo dei dati per le azioni di marketing.
 
-Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utilizzo dei dati si trovano in [Documentazione sulla governance dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=it){target="_blank"}
+Ulteriori informazioni sulla governance dei dati e sulle etichette di utilizzo dei dati nella [documentazione sulla governance dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=it){target="_blank"}
 
 ## Esempi e casi d’uso{#uc-datasets}
 
 Scopri come creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Adobe Journey Optimizer con [questo campione end-to-end](../audience/creating-test-profiles.md)
 
-Ulteriori informazioni sulla creazione di set di dati in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
+Ulteriori informazioni sulla creazione di set di dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
 
-Scopri come utilizzare l’interfaccia utente dei set di dati in [Documentazione sulla panoramica dell’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
+Scopri come utilizzare l’interfaccia utente dei set di dati nella [documentazione Panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 
 È disponibile un elenco di casi d’uso con esempi di query [qui](../data/datasets-query-examples.md).
 
 >[!MORELIKETHIS]
 >
->* [Panoramica sull’acquisizione in streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target="_blank"}
->* [Acquisire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=it){target="_blank"}
+>* [Panoramica sull&#39;acquisizione in streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target="_blank"}
+>* [Inserire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=it){target="_blank"}
