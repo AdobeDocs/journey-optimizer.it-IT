@@ -6,9 +6,9 @@ description: Scopri come pianificare e avviare campagne orchestrate con Adobe Jo
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 34%
 
 ---
@@ -127,9 +127,15 @@ Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di at
 
 ## Monitorare i registri e le attività {#logs-tasks}
 
-Il monitoraggio dei registri e delle attività dei flussi di lavoro è un passaggio chiave per analizzare le campagne orchestrate e assicurarti che siano eseguite correttamente. Sono accessibili dall’icona **[!UICONTROL Registri]** disponibile nella barra degli strumenti delle azioni e nel riquadro delle proprietà di ogni attività.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="Registri e attività"
+>abstract="La schermata **Registri e attività** fornisce una cronologia dell&#39;esecuzione della campagna orchestrata, registrando tutte le azioni dell&#39;utente e gli errori riscontrati."
+
+Monitorare registri e attività è un passaggio chiave per analizzare le campagne orchestrate e assicurarti che vengano eseguite correttamente. Sono accessibili dall’icona **[!UICONTROL Registri]** disponibile nella barra degli strumenti delle azioni e nel riquadro delle proprietà di ogni attività.
 
 Il menu **[!UICONTROL Registri e attività]** fornisce una cronologia dell&#39;esecuzione della campagna orchestrata, registrando tutte le azioni utente e gli errori riscontrati.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Sono disponibili due tipi di informazioni:
