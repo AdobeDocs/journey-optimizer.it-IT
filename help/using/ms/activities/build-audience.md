@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 46%
+ht-degree: 34%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 46%
 >title="Attività Crea pubblico"
 >abstract="L&#39;attività **Genera pubblico** ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**."
 
-L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**.
+In qualità di addetto al marketing, puoi creare facilmente query complesse utilizzando un’interfaccia intuitiva, per segmentare il pubblico in base a un’ampia gamma di criteri e comportamenti e adattare le campagne in modo più efficace.
+
+Per eseguire questa operazione, utilizza l&#39;attività di targeting **Genera pubblico**. Questa attività ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**.
 
 Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
-* Seleziona un pubblico di Adobe Experience Platform.
+* Seleziona un pubblico esistente.
+* Seleziona un filtro predefinito.
 * Crea un nuovo pubblico con Query Modeler definendo e combinando criteri di filtro.
 
 >[!NOTE]
 >
 >I tipi di pubblico caricati da un file non possono essere targetizzati utilizzando un’attività Genera pubblico. A tale scopo, è necessario utilizzare un&#39;attività **Load file** seguita da un&#39;attività **Reconciliation**.
 
-<!--
-The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
--->
 
 ## Configurare l’attività Crea pubblico {#build-audience-configuration}
 
@@ -45,33 +45,20 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
-![](../assets/workflow-audience.png)
+![](../assets/build-audience.png)
 
 1. Aggiungi un’attività **Crea pubblico**.
 1. Definisci un’etichetta.
 1. Definisci il tipo di pubblico: **Crea una query personalizzata** o **Leggi pubblico**.
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 
->[!BEGINTABS]
-
->[!TAB Crea il tuo (query)]
 
 Per creare una query personalizzata, effettua le seguenti operazioni:
 
 1. Seleziona **Crea una query personalizzata**.
 1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.
 1. Fai clic su **Continua**.
-1. Utilizza il modellatore di query per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail.
-
->[!TAB Read audience]
-
-Per selezionare un pubblico esistente, segui questi passaggi:
-
-1. Seleziona **Leggi pubblico**.
-1. Fai clic su **Continua**.
-1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova consegna.
-
->[!ENDTABS]
+1. Utilizza il modellatore di query per definire la query. [Ulteriori informazioni su Query Modeler in questa sezione](../ms-query-modeler.md)
 
 ## Esempi{#build-audience-examples}
 

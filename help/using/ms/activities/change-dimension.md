@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 55%
+source-wordcount: '332'
+ht-degree: 45%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 55%
 >title="Attività Cambia dimensione"
 >abstract="Questa attività ti consente di modificare la dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione “contratti” alla dimensione “clienti”."
 
-L’attività **Cambia dimensione** è un’attività di **targeting**. Questa attività ti consente di modificare la dimensione di targeting durante la creazione della campagna orchestrata. Sposta l’asse in base al modello di dati e alla dimensione di input.
+In qualità di addetto al marketing, puoi cambiare la dimensione di targeting da un’entità a un’altra entità collegata all’interno di una campagna orchestrata e perfezionare il targeting del pubblico in base a set di dati diversi, ad esempio passando dal profiling degli utenti al targeting di azioni o prenotazioni specifiche.
+
+Per eseguire questa operazione, utilizzare l&#39;attività di targeting **Modifica dimensione**. Questa attività ti consente di modificare la dimensione di targeting durante la creazione della campagna orchestrata. Sposta l’asse in base al modello di dati e alla dimensione di input.
 
 Ad esempio, puoi cambiare la dimensione di targeting di una campagna orchestrata da &quot;Profilo&quot; a &quot;Contratti&quot; per inviare messaggi al proprietario del contratto di destinazione.
 
@@ -41,7 +43,7 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
 1. Aggiungi un&#39;attività **Modifica dimensione** alla campagna orchestrata.
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. Definisci la **Nuova dimensione target**. Durante la modifica della dimensione vengono conservati tutti i record.
 
@@ -53,4 +55,4 @@ In questo esempio, si desidera inviare una consegna SMS a tutti i profili che ha
 
 Quindi utilizziamo un&#39;attività **[!UICONTROL Change dimension]** per cambiare la dimensione di targeting della campagna orchestrata in &quot;Recipients&quot;. Questo consente di eseguire il targeting dei destinatari che corrispondono alla query.
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)
