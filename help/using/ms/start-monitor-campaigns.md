@@ -6,17 +6,16 @@ description: Scopri come pianificare e avviare campagne orchestrate con Adobe Jo
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 43%
+source-wordcount: '1102'
+ht-degree: 34%
 
 ---
 
 # Pianificare e avviare le campagne orchestrate {#start-monitor}
 
-<!--
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -25,9 +24,80 @@ ht-degree: 43%
 
 Dopo aver creato le attività orchestrate e progettate da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne l’esecuzione.
 
+## Opzioni di pianificazione
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="Attività del Modulo di pianificazione"
+>abstract="La campagna **Scheduler** ti consente di pianificare l&#39;avvio della campagna orchestrata. Questa attività dovrebbe essere considerata come un avvio pianificato. Può essere utilizzata solo come prima attività della campagna orchestrata."
+
+In qualità di manager della campagna, puoi pianificare il lancio automatico delle campagne in momenti specifici, consentendo un calendario preciso e dati di targeting precisi per le comunicazioni di marketing.
+
+### Best practice {#scheduler-best-practices}
+
+* Non pianificare l’esecuzione di una campagna orchestrata per più di 15 minuti, in quanto potrebbe impedire le prestazioni complessive del sistema e creare blocchi nel database.
+* Se desideri inviare un messaggio unico nella campagna orchestrata, puoi impostarlo per l&#39;esecuzione **Una volta**.
+* Se desideri inviare un messaggio ricorrente nella campagna orchestrata, devi utilizzare le opzioni **Pianificazione** e impostare la frequenza di esecuzione. L’attività di consegna ricorrente non ti consente di definire una pianificazione.
+
+### Configurare la pianificazione della campagna {#scheduler-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="Validità del modulo di pianificazione"
+>abstract="È possibile definire un periodo di validità per il modulo di pianificazione. Può essere permanente (impostazione predefinita) o valido fino a una data specifica."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="Opzioni del modulo di pianificazione"
+>abstract="Definisci la frequenza del modulo di pianificazione. Può essere eseguito in un determinato momento, una o più volte al giorno, alla settimana o al mese."
+
+![Schermata Scheduler con opzioni mensili](assets/scheduler-screen.png)
+
+Segui questi passaggi per configurare la **pianificazione orchestrata della campagna**:
+
+1. Seleziona il pulsante **Appena possibile** nella parte superiore dell&#39;area di lavoro della campagna orchestrata.
+
+1. Configura la **Frequenza di esecuzione**:
+
+   * **Una volta**: la campagna orchestrata viene eseguita una sola volta.
+
+   * **Giornaliero**: la campagna orchestrata viene eseguita a un&#39;ora specifica, una volta al giorno.
+
+   * **Più volte al giorno:** la campagna orchestrata viene eseguita regolarmente più volte al giorno. Puoi impostare esecuzioni in orari specifici o periodicamente.
+
+   * **Settimanale**: la campagna orchestrata viene eseguita in un determinato momento, una o più volte alla settimana.
+
+   * **Mensile**: la campagna orchestrata viene eseguita in un determinato momento, una o più volte al mese. Puoi selezionare i mesi, quando è necessario eseguire la campagna orchestrata. Puoi anche impostare le esecuzioni in un giorno feriale specifico del mese, ad esempio il secondo martedì del mese.
+
+     ![Schermata del modulo di pianificazione con esempio di esecuzione giornaliera](assets/scheduler-daily-sample.png){width="50%" align="left"}
+
+1. Definisci i dettagli di esecuzione in base alla frequenza selezionata. I campi dettagliati variano a seconda della frequenza utilizzata (tempo, frequenza di ripetizione, giorni specificati, ecc.).
+
+1. Fai clic su **Anteprima orari di lancio** per verificare la pianificazione delle prossime dieci esecuzioni della campagna orchestrata.
+
+1. Definisci il periodo di validità del modulo di pianificazione:
+
+   * **Permanente (non scade mai)**: la campagna orchestrata viene eseguita, in base alla frequenza specificata, senza alcun limite all&#39;intervallo di tempo o al numero di iterazioni.
+
+   * **Periodo di validità**: la campagna orchestrata viene eseguita in base alla frequenza specificata, fino a una data specifica. È necessario specificare le date di inizio e di fine.
+
+1. Seleziona **Conferma** per salvare le impostazioni. La frequenza di esecuzione viene visualizzata sopra l’area di lavoro della campagna orchestrata.
+
+>[!TIP]
+>
+>Se desideri avviare subito la campagna orchestrata, mantieni il valore predefinito **Appena possibile**.
+
+## Esempio {#scheduler-example}
+
+Nell’esempio seguente, l’attività è configurata in modo che la campagna orchestrata venga eseguita due volte al giorno alle 9 e alle 12, ogni giorno della settimana dal 1° ottobre 2025 al 1° gennaio 2026.
+
+![Modulo di pianificazione configurato per eseguire la campagna due volte al giorno alle 9 e alle 12](assets/scheduler-sample.png){width="50%" align="left"}
+
+
 ## Avviare una campagna orchestrata {#start}
 
-Per avviare una campagna orchestrata, passa alla scheda **[!UICONTROL Passaggi multipli]** del menu **[!UICONTROL Campagna]** e seleziona la campagna da avviare, quindi fai clic sul pulsante **[!UICONTROL Inizia]** nell&#39;angolo superiore destro dell&#39;area di lavoro.
+Per avviare una campagna orchestrata, passa alla scheda **[!UICONTROL Orchestrazione]** del menu **[!UICONTROL Campagne]** e seleziona la campagna da avviare, quindi fai clic sul pulsante **[!UICONTROL Riproduci]** nell&#39;angolo superiore destro dell&#39;area di lavoro.
 
 Una volta eseguita la campagna orchestrata, ogni attività nell’area di lavoro viene eseguita in ordine sequenziale, fino al raggiungimento della fine della campagna orchestrata.
 
