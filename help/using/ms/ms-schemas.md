@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare gli schemi nelle campagne orchestrate
-description: Scopri come creare e gestire gli schemi nelle campagne orchestrate
+title: Creare schemi relazionali per campagne orchestrate
+description: Scopri come creare e gestire schemi relazionali per le campagne orchestrate
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: c26cf974525ac6f7de0b93a5e50e85a111b2a475
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 5%
+source-wordcount: '72'
+ht-degree: 61%
 
 ---
 
-# Utilizzare gli schemi {#ms-schemas}
+# Creare schemi relazionali {#ms-schemas}
 
-Spiegare i principi fondamentali dell’archivio relazionale di TIPO II, dalla modellazione dello schema dei dati all’acquisizione dei dati, evidenziando l’interazione tra UPS e modello relazionale
+Uno schema rappresenta e convalida la struttura e il formato dei dati. Fornisce una definizione astratta di un oggetto reale (come una persona) e delinea quali dati dovrebbero essere inclusi in ogni istanza di tale oggetto (come nome, data di nascita e così via).
 
-Mostra percorso per creare schemi relazionali
-
-Mostra percorso per acquisire dati negli schemi relazionali
+![Pulsante Crea schema con opzione relazionale selezionata](assets/create-relational-schema.png)
