@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1374'
 ht-degree: 28%
 
 ---
@@ -29,7 +29,11 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, i guardrail tec
 
 1. Vengono applicate le regole di limitazione o limitazione: se viene raggiunta la velocità massima, le chiamate rimanenti vengono scartate o messe in coda.
 
-2. Timeout e nuovo tentativo: se la regola di limitazione o limite viene soddisfatta, Journey Optimizer tenta di eseguire la chiamata fino al raggiungimento della fine della durata del timeout.
+1. Timeout e nuovo tentativo: se la regola di limitazione o limite viene soddisfatta, Journey Optimizer tenta di eseguire la chiamata fino al raggiungimento della fine della durata del timeout.
+
+>[!TIP]
+>
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Limitazione e limitazione delle API {#capping}
 
