@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 23%
+source-wordcount: '445'
+ht-degree: 24%
 
 ---
 
@@ -62,6 +62,5 @@ Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di
 * [And-join](and-join.md): sincronizza più rami di esecuzione di una campagna orchestrata.
 * **Fine**: contrassegna graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa
 * [Fork](fork.md): crea transizioni in uscita per avviare più attività contemporaneamente.
-* [Scheduler](scheduler.md): pianifica l&#39;avvio della campagna orchestrata.
 * [Test](test.md): abilita le transizioni in base alle condizioni specificate.
 * [Attendi](wait.md): sospende temporaneamente l&#39;esecuzione di una parte di una campagna orchestrata.

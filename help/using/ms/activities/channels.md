@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '892'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 
 * Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi.
 
-* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
+* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna.
 
 ## Configurare un’attività del canale {#create-a-delivery-in-a-workflow}
 
@@ -64,7 +64,7 @@ Per impostare una consegna nel contesto di una campagna orchestrata, segui i pas
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
    * Una **consegna singola** è una consegna one-shot, inviata una sola volta, ad esempio un&#39;e-mail del Black Friday.
-   * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione definita in una [attività di pianificazione](scheduler.md). Ogni volta che viene eseguita la campagna orchestrata, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
+   * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione. Ogni volta che viene eseguita la campagna orchestrata, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
 
 1. Seleziona un **Modello** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita.
 
