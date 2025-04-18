@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione alle campagne orchestrate
 description: Scopri come iniziare con le campagne orchestrate
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 17%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **Sommario**
 
-* Introduzione alle campagne orchestrate - [Principes chiave](gs-campaign-creation.md)
-* Configurazione: [Configurare le campagne orchestrate](gs-campaign-config.md) - [Utilizzare gli schemi](ms-schemas.md) - [Utilizzare le variabili evento](event-variables.md)
-* Introduzione: [Creare una campagna orchestrata](create-ms-campaign.md) - [Configurare le impostazioni della campagna](ms-campaign-settings.md) - [Introduzione alle attività](activities/about-activities.md) - [Organizzazione delle attività](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Scheduler](activities/scheduler.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
+* Introduzione alle campagne orchestrate
+* Configurazione
+   * [Configura le campagne orchestrate](gs-campaign-config.md)
+   * [Creare schemi relazionali](ms-schemas.md)
+* Creare la prima campagna orchestrata
+   * [Principi chiave](gs-campaign-creation.md)
+   * [Creare una campagna orchestrata](create-ms-campaign.md)
+   * [Configurare le impostazioni della campagna](ms-campaign-settings.md)
+   * [Introduzione alle attività](activities/about-activities.md)
+   * [Orchestrare le attività](orchestrate-activities.md)
+* [Personalizzazione](ms-personalization.md)
+* [Test e convalida dei messaggi](ms-proofs.md)
 * [Pianificare e avviare le campagne](start-monitor-campaigns.md)
-* [Monitoraggio e reporting](reporting-campaigns.md)
+* Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Carica file](activities/load-file.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Aggiorna dati](activities/update-data.md) - [Attendi](activities/wait.md)
+* [Generazione rapporti](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Monitorare le campagne orchestrate con Adobe Journey Optimizer
-description: Scopri come monitorare e accedere ai rapporti sulle campagne orchestrate con Adobe Journey Optimizer
+title: Generazione di rapporti per campagne orchestrate con Adobe Journey Optimizer
+description: Scopri come accedere ai rapporti sulle campagne orchestrate con Adobe Journey Optimizer
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 0%
+source-wordcount: '24'
+ht-degree: 4%
 
 ---
 
-# Reporting e monitoraggio delle campagne orchestrate {#report-ms}
+# Generazione di rapporti per campagne orchestrate {#report-ms}

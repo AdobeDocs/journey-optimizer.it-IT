@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Reconciliation
 description: Scopri come utilizzare l’attività Reconciliation in una campagna orchestrata
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '693'
 ht-degree: 36%
 
 ---
