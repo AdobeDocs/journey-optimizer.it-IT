@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Per ottimizzare le prestazioni ed evitare l&#39;utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato **Bozza**.
 * Gli eventi attivati dalla modalità di test vengono memorizzati in set di dati dedicati. Questi set di dati sono etichettati come segue: `JOtestmode - <schema of your event>`
 * Quando esegui il test di percorsi che includono più eventi, devi attivare ogni evento in sequenza. L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) elimina l’evento e invia il profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
-
+* Assicurarsi che la finestra di dialogo Scegli [data/ora di inizio e di fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati.
 
 <!--
 * Fields from related entities are hidden from the test mode.
