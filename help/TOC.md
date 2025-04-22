@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2342'
 ht-degree: 88%
 
 ---
@@ -202,7 +202,6 @@ ht-degree: 88%
       + [Salva pubblico](using/ms/activities/save-audience.md)
       + [Dividi](using/ms/activities/split.md)
       + [Test](using/ms/activities/test.md)
-      + [Aggiornare i dati](using/ms/activities/update-data.md)
       + [Attendere](using/ms/activities/wait.md)
 + Campagne {#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)

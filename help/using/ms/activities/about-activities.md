@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 24%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,6 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 Queste attività sono specifiche per la manipolazione e l’arricchimento dei dati sulla popolazione.
 
 * [Carica file](load-file.md): utilizzare profili e dati archiviati in un file esterno.
-* [Aggiorna dati](update-data.md): esegui aggiornamenti di massa sui campi del database. Diverse opzioni consentono di personalizzare l’aggiornamento dei dati.
 
 ## Attività di canale {#channel}
 
