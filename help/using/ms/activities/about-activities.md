@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 26%
 
 ---
 
@@ -38,12 +38,6 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 * [Riconciliazione](reconciliation.md): definire il collegamento tra i dati nei dati di Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 * [Salva pubblico](save-audience.md): aggiorna un pubblico esistente o creane uno nuovo dalla popolazione calcolata a monte in una campagna orchestrata.
 * [Dividi](split.md): segmenta la popolazione in ingresso in diversi sottoinsiemi.
-
-## Attività di gestione dati {#data}
-
-Queste attività sono specifiche per la manipolazione e l’arricchimento dei dati sulla popolazione.
-
-* [Carica file](load-file.md): utilizzare profili e dati archiviati in un file esterno.
 
 ## Attività di canale {#channel}
 

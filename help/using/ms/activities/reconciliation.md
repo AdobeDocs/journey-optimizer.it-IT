@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 36%
+source-wordcount: '560'
+ht-degree: 40%
 
 ---
 
@@ -93,33 +93,3 @@ Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguen
 1. Puoi filtrare i dati da riconciliare utilizzando il pulsante **Crea filtro**. Questo consente di creare una condizione personalizzata utilizzando il modellatore di query.
 
 Per impostazione predefinita, i dati non riconciliati vengono conservati nella transizione in uscita e sono disponibili nella tabella di lavoro per utilizzi futuri. Per rimuovere i dati non riconciliati, disattiva l’opzione **Mantieni i dati non riconciliati**.
-
-## Esempio {#reconciliation-example}
-
-L’esempio seguente illustra una campagna orchestrata che crea un pubblico di profili direttamente da un file importato contenente nuovi client. È costituito dalle seguenti attività:
-
-La campagna orchestrata è progettata come segue:
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-Viene generato con le seguenti attività:
-
-* L’attività [Load file](load-file.md) carica un file contenente i dati di profili estratti da uno strumento esterno.
-
-  Ad esempio:
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* Un&#39;attività **Reconciliation** che identifica i dati in arrivo come profili, utilizzando i campi **email** e **Date di nascita** come criteri di riconciliazione.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* Un&#39;attività [Save audience](save-audience.md) per creare un nuovo pubblico in base a questi aggiornamenti. È inoltre possibile sostituire l&#39;attività **Salva pubblico** con un&#39;attività **Fine** se non è necessario creare o aggiornare un pubblico specifico. I profili dei destinatari vengono aggiornati in ogni caso quando esegui la campagna orchestrata.

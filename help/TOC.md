@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2338'
 ht-degree: 88%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 88%
       + [Azioni del canale](using/ms/activities/channels.md)
       + [Arricchimento](using/ms/activities/enrichment.md)
       + [Fork](using/ms/activities/fork.md)
-      + [Caricare file](using/ms/activities/load-file.md)
       + [Riconciliazione](using/ms/activities/reconciliation.md)
       + [Salva pubblico](using/ms/activities/save-audience.md)
       + [Dividi](using/ms/activities/split.md)
