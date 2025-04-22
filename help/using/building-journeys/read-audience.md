@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1783'
 ht-degree: 10%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Sincronizzare l’esecuzione del percorso con l’esportazione del pubblico"
->abstract="Attiva questa opzione per attivare il percorso quando è disponibile una nuova esportazione del pubblico."
+>title="Attiva dopo la valutazione batch del pubblico"
+>abstract="Attiva questa opzione per attivare l’esecuzione del percorso dopo una nuova valutazione del pubblico batch."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Sincronizzare l’esecuzione del percorso con l’esportazione del pubblico"
->abstract="Specifica la durata di attesa del percorso per garantire la disponibilità di una nuova esportazione del pubblico."
+>title="Tempo di attesa per una nuova valutazione del pubblico"
+>abstract="Specifica la durata di attesa del percorso per la valutazione del pubblico batch."
 
 Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
