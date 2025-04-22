@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione di e-mail con l’Assistente IA in Journey Optimizer
+title: Generazione di e-mail con l’assistente di intelligenza artificiale in Journey Optimizer
 description: Inizia a generare contenuti e risorse e-mail con l’Assistente all’intelligenza artificiale in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1701'
 ht-degree: 8%
 
 ---
 
-# Generazione di e-mail con l’assistente IA  {#generative-email}
+# Generazione di e-mail con l’Assistente AI  {#generative-email}
 
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Dopo aver creato e personalizzato le e-mail, sfrutta la potenza dell’Assistente per l’intelligenza artificiale in Journey Optimizer, basata sull’intelligenza artificiale generativa, per migliorare i contenuti.
+Dopo aver creato e personalizzato le e-mail, sfrutta la potenza di AI Assistant in Journey Optimizer, basato su un’intelligenza artificiale generativa, per migliorare i contenuti.
 
-Utilizza l’Assistente AI in Journey Optimizer per migliorare l’efficacia delle campagne creando e-mail complete, frammenti di testo personalizzati e immagini personalizzate che parlano direttamente al pubblico, aumentando il coinvolgimento e l’interazione.
+Utilizza AI Assistant in Journey Optimizer per migliorare l’efficacia delle campagne creando e-mail complete, frammenti di testo personalizzati e immagini personalizzate che parlano direttamente al pubblico, aumentando il coinvolgimento e l’interazione.
 
 Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer.
 
@@ -44,7 +44,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -62,7 +62,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
 
    ![](assets/full-email-4.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
    ![](assets/full-email-6.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -106,7 +106,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 >[!TAB Generazione solo testo]
 
-Nell’esempio seguente, sfrutteremo l’Assistente per l’intelligenza artificiale per migliorare il contenuto dell’e-mail.
+Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto dell’e-mail.
 
 1. Dopo aver creato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -116,7 +116,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente per l’intelligenza artific
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -132,12 +132,12 @@ Nell’esempio seguente, sfrutteremo l’Assistente per l’intelligenza artific
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 
    ![](assets/text-genai-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -153,7 +153,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente per l’intelligenza artific
 
    * **[!UICONTROL Elaborare]**: l&#39;Assistente AI può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
 
-   * **[!UICONTROL Riepiloga]**: informazioni lunghe possono sovraccaricare i destinatari delle e-mail. Utilizza l’Assistente per l’intelligenza artificiale per condensare i punti chiave in riepiloghi chiari e concisi che catturino l’attenzione e li incoraggino a leggere ulteriormente.
+   * **[!UICONTROL Riepiloga]**: informazioni lunghe possono sovraccaricare i destinatari delle e-mail. Utilizza l’Assistente AI per condensare i punti chiave in riepiloghi chiari e concisi che catturano l’attenzione e li incoraggiano a leggere ulteriormente.
 
    * **[!UICONTROL Riformula]**: l&#39;Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
@@ -208,7 +208,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    ![](assets/image-genai-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 

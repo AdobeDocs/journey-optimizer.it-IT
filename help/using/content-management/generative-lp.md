@@ -2,28 +2,29 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Generazione di pagine di destinazione con l’assistente AI in Journey Optimizer
-description: Inizia a generare il contenuto e la risorsa della pagina di destinazione con l’Assistente all’intelligenza artificiale in Journey Optimizer
+description: Inizia a generare contenuti e risorse della pagina di destinazione con l’Assistente IA in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
+exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1524'
 ht-degree: 7%
 
 ---
 
-# Generazione di pagine di destinazione con l’Assistente AI {#generative-lp}
+# Generazione di pagine di destinazione con AI Assistant {#generative-lp}
 
 >[!IMPORTANT]
 >
 >* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 >
 >
->* Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, è necessario accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>* Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer è necessario accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Trasforma le pagine di destinazione con l’Assistente AI in Journey Optimizer, basato sull’intelligenza artificiale generativa.
+Trasforma le pagine di destinazione con AI Assistant in Journey Optimizer, basato sull’intelligenza artificiale generativa.
 
 Crea contenuti di grande impatto, incluse pagine complete, frammenti di testo personalizzati e effetti visivi personalizzati che suonano bene con il tuo pubblico, aumentando il coinvolgimento e l’interazione.
 
@@ -33,7 +34,7 @@ Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Jou
 
 >[!TAB Generazione pagina di destinazione completa]
 
-Nell’esempio seguente, sfrutteremo l’Assistente AI per perfezionare un modello di pagina di destinazione esistente.
+Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di pagina di destinazione esistente.
 
 1. Dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -43,7 +44,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente AI per perfezionare un model
 
    ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -55,7 +56,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente AI per perfezionare un model
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
@@ -69,7 +70,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente AI per perfezionare un model
 
    ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -97,7 +98,7 @@ Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla
 
 >[!TAB Generazione solo testo]
 
-Nell’esempio seguente, sfrutteremo l’Assistente AI per migliorare il contenuto della pagina di destinazione.
+Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto della nostra pagina di destinazione.
 
 1. Dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -107,7 +108,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente AI per migliorare il contenu
 
    ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -119,12 +120,12 @@ Nell’esempio seguente, sfrutteremo l’Assistente AI per migliorare il contenu
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 
    ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -140,7 +141,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente AI per migliorare il contenu
 
    * **[!UICONTROL Elaborare]**: l&#39;Assistente AI può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
 
-   * **[!UICONTROL Riepiloga]**: informazioni lunghe possono sovraccaricare i destinatari della pagina di destinazione. Utilizza l’Assistente per l’intelligenza artificiale per condensare i punti chiave in riepiloghi chiari e concisi che catturino l’attenzione e li incoraggino a leggere ulteriormente.
+   * **[!UICONTROL Riepiloga]**: informazioni lunghe possono sovraccaricare i destinatari della pagina di destinazione. Utilizza l’Assistente AI per condensare i punti chiave in riepiloghi chiari e concisi che catturano l’attenzione e li incoraggiano a leggere ulteriormente.
 
    * **[!UICONTROL Riformula]**: l&#39;Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
@@ -189,7 +190,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 

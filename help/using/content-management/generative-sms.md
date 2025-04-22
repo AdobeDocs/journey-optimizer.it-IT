@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione di SMS con l’assistente IA
-description: Iniziare a generare contenuti SMS con l’Assistente IA in Journey Optimizer
+title: Generazione di SMS con l’Assistente AI
+description: Inizia a generare contenuti SMS con l’Assistente IA in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 10%
+source-wordcount: '989'
+ht-degree: 9%
 
 ---
 
-# Generazione di SMS con l’Assistente IA in Journey Optimizer {#generative-sms}
+# Generazione di SMS con IA Assistant in Journey Optimizer {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Dopo aver creato e personalizzato i messaggi SMS in base alle preferenze del pubblico, eleva la comunicazione con l’Assistente AI in Journey Optimizer.
 
@@ -65,7 +65,7 @@ Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Jou
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -130,7 +130,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 

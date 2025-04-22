@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '523'
 ht-degree: 7%
 
 ---
@@ -57,9 +57,9 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
    * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante selezionata fungerà da riferimento per generare altro contenuto.
 
-   * **[!UICONTROL Elaborare]**: consente all&#39;Assistente IA di espandere alcuni punti, offrendo maggiore profondità e dettagli per un coinvolgimento migliore.
+   * **[!UICONTROL Elaborazione]**: consenti all&#39;Assistente di intelligenza artificiale di espandere alcuni punti, offrendo maggiore profondità e dettagli per un coinvolgimento migliore.
 
-   * **[!UICONTROL Riepiloga]**: per informazioni lunghe, utilizza l&#39;Assistente IA per creare riepiloghi concisi più facili da digerire per i destinatari delle e-mail.
+   * **[!UICONTROL Riepiloga]**: per informazioni lunghe, utilizza l&#39;Assistente AI per creare riepiloghi concisi più facili da digerire per i destinatari delle e-mail.
 
    * **[!UICONTROL Riformulazione]**: l&#39;Assistente AI può presentare il messaggio in diversi modi, contribuendo a mantenere aggiornato il contenuto per diversi tipi di pubblico.
 

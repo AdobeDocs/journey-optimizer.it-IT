@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1066'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 6%
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Dopo aver creato e personalizzato le pagine web, utilizza l’Assistente AI in Journey Optimizer basato sull’intelligenza artificiale generativa per portare i contenuti al livello successivo.
 
@@ -40,7 +40,7 @@ L’Assistente AI in Journey Optimizer può aiutarti a ottimizzare l’impatto d
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -56,12 +56,12 @@ L’Assistente AI in Journey Optimizer può aiutarti a ottimizzare l’impatto d
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono della pagina Web dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono della pagina Web dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 
    ![](assets/web-gen-full-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -75,7 +75,7 @@ L’Assistente AI in Journey Optimizer può aiutarti a ottimizzare l’impatto d
 
    * **[!UICONTROL Elaborare]**: l&#39;Assistente AI può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
 
-   * **[!UICONTROL Riepiloga]**: le informazioni lunghe possono sovraccaricare i destinatari. Utilizza l’Assistente per l’intelligenza artificiale per condensare i punti chiave in riepiloghi chiari e concisi che catturino l’attenzione e li incoraggino a leggere ulteriormente.
+   * **[!UICONTROL Riepiloga]**: le informazioni lunghe possono sovraccaricare i destinatari. Utilizza l’Assistente AI per condensare i punti chiave in riepiloghi chiari e concisi che catturano l’attenzione e li incoraggiano a leggere ulteriormente.
 
    * **[!UICONTROL Riformula]**: l&#39;Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
@@ -128,7 +128,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente IA in Journey Opti
 
    ![](assets/web-gen-img-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 

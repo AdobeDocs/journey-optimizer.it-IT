@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '637'
 ht-degree: 16%
 
 ---
@@ -131,7 +131,7 @@ Per creare e gestire la linea guida del brand, puoi inserire i dettagli personal
 
    ![](assets/brands-4.png)
 
-1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida del brand nell&#39;assistente AI.
+1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida per il brand in AI Assistant.
 
 1. Per apportare modifiche al tuo marchio pubblicato, fai clic su **[!UICONTROL Modifica marchio]**.
 
@@ -146,12 +146,12 @@ Per creare e gestire la linea guida del brand, puoi inserire i dettagli personal
    * Visualizza brand
    * Modifica
    * Duplica
-   * Pubblica
+   * Pubblicazione
    * Annulla pubblicazione
    * Elimina
 
    ![](assets/brands-6.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;assistente AI, consentendo di generare contenuti e risorse in linea con le specifiche dell&#39;utente. [Ulteriori informazioni sull&#39;Assistente IA](gs-generative.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;Assistente di intelligenza artificiale, consentendogli di generare contenuti e risorse in linea con le tue specifiche. [Ulteriori informazioni sull&#39;Assistente IA](gs-generative.md)
 
 ![](assets/brands-7.png)

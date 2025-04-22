@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2340'
 ht-degree: 88%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 88%
    + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
    + [Accessibilità](using/start/accessibility.md)
    + [Usare i playbook sui casi d’uso](using/start/playbooks.md)
-   + [Utilizzare l’Assistente IA](using/start/ai-assistant.md)
+   + [Utilizzare l’Assistente AI](using/start/ai-assistant.md)
    + [Guardrail](using/start/guardrails.md)
    + [Best practice](using/start/best-practices.md)
 + Percorsi {#orchestrate-journeys}
@@ -347,7 +347,7 @@ ht-degree: 88%
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
    + Assistente IA per la generazione di contenuti{#ai-assistant}
-      + [Introduzione all’assistente IA](using/content-management/gs-generative.md)
+      + [Introduzione all’Assistente AI](using/content-management/gs-generative.md)
       + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
       + [Generazione di push con l’IA](using/content-management/generative-push.md)
       + [Generazione di SMS con l’IA](using/content-management/generative-sms.md)

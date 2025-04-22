@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '6785'
+source-wordcount: '6783'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, perfeziona ulteriormente il contenuto con l’Assistente IA in Journey Optimizer. Ora puoi utilizzare l’Assistente IA per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
+<p>Dopo aver creato e personalizzato il messaggio, porta il contenuto al livello successivo con l’Assistente IA in Journey Optimizer. Ora puoi utilizzare l’Assistente AI per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima della funzione live</a>, progettata per permetterti di esplorarla in prima persona e comprenderne appieno le funzionalità.</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/gs-generative.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -870,7 +870,7 @@ Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenu
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Ora è possibile utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata. [Ulteriori informazioni sulla visualizzazione di Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Ora è possibile utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata. [Ulteriori informazioni sulla visualizzazione Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Canale direct mail
@@ -1081,7 +1081,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI Assistant. You can now use the AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>Once you have created and personalized your message, take your content to the next level with AI Assistant. You can now use AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 </td>
 </tr>
 </tbody>

@@ -1,30 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione push con l’Assistente IA in Journey Optimizer
-description: Iniziare a generare contenuti push con l’Assistente IA in Journey Optimizer
+title: Generazione push con IA Assistant in Journey Optimizer
+description: Inizia a generare contenuti push con l’Assistente IA in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 6%
+source-wordcount: '1608'
+ht-degree: 5%
 
 ---
 
-# Generazione di push con l’assistente IA {#generative-push}
+# Generazione push con Assistente IA {#generative-push}
 
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Dopo aver creato e personalizzato i messaggi, porta il contenuto delle notifiche push al livello successivo con l’Assistente AI in Journey Optimizer.
+Dopo aver creato e personalizzato i messaggi, porta il contenuto delle notifiche push a un livello successivo con l’Assistente AI in Journey Optimizer.
 
 Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer.
 
@@ -48,7 +48,7 @@ Segui questi passaggi:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi il nuovo contenuto in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare il nuovo contenuto in base al contenuto selezionato.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -66,7 +66,7 @@ Segui questi passaggi:
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono delle notifiche push dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono delle notifiche push dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
 
@@ -80,7 +80,7 @@ Segui questi passaggi:
 
    ![](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -140,12 +140,12 @@ In questo esempio particolare, scopri come utilizzare l’Assistente IA in Journ
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
-   * **[!UICONTROL Tono]**: il tono della notifica push dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: il tono della notifica push dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore di intervallo.
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -157,7 +157,7 @@ In questo esempio particolare, scopri come utilizzare l’Assistente IA in Journ
 
    * **[!UICONTROL Elaborare]**: l&#39;Assistente AI può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
 
-   * **[!UICONTROL Riepiloga]**: le informazioni lunghe possono sovraccaricare i destinatari. Utilizza l’Assistente per l’intelligenza artificiale per condensare i punti chiave in riepiloghi chiari e concisi che catturino l’attenzione e li incoraggino a leggere ulteriormente.
+   * **[!UICONTROL Riepiloga]**: le informazioni lunghe possono sovraccaricare i destinatari. Utilizza l’Assistente AI per condensare i punti chiave in riepiloghi chiari e concisi che catturano l’attenzione e li incoraggiano a leggere ulteriormente.
 
    * **[!UICONTROL Riformula]**: l&#39;Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
@@ -209,7 +209,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 

@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 11%
+source-wordcount: '249'
+ht-degree: 9%
 
 ---
 
-# Esperimento contenuti con l’assistente IA{#generative-experimentation}
+# Esperimento sui contenuti con l’Assistente AI{#generative-experimentation}
 
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assistente IA in Adobe Journey Optimizer, che include la funzione Esperimento contenuti. Questo strumento consente di definire più trattamenti di consegna, con contenuti diversi, per misurare le prestazioni per il pubblico di destinazione.
 

@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->L&#39;integrazione di GenStudio in [!DNL Adobe Journey Optimizer] non è attualmente disponibile per l&#39;utilizzo con le offerte aggiuntive **Healthcare Shield** o **Privacy and Security Shield**.
+>L’integrazione di GenStudio in [!DNL Adobe Journey Optimizer] attualmente non può essere utilizzata con le offerte che includono il componente aggiuntivo **Healthcare Shield** o **Privacy and Security Shield**.
 >
 >Questa funzione è disponibile solo per il canale e-mail.
 
@@ -50,7 +50,7 @@ Per migliorare l&#39;efficienza del marketing e mantenere la coerenza del brand,
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for the AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
@@ -76,7 +76,7 @@ Con questa integrazione, entrambi possono collaborare per integrare facilmente i
 
    >[!NOTE]
    >
-   >Scopri come caricare un modello di HTML in [!DNL GenStudio] nella sezione dedicata [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
+   >Scopri come caricare un modello di HTML in [!DNL GenStudio] nella sezione dedicata della [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. In GenStudio, utilizza questo modello per creare diverse varianti di e-mail con prompt di IA e salvarle.
 
