@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 26%
+source-wordcount: '394'
+ht-degree: 27%
 
 ---
 
@@ -20,15 +20,17 @@ Le attività delle campagne orchestrate sono raggruppate in tre categorie. A sec
 
 Tutte le attività sono descritte nelle sezioni seguenti:
 
-* [Attività di targeting e gestione dei dati](#targeting)
+* [Attività di targeting](#targeting)
 * [Attività di canale](#channel)
 * [Attività di controllo del flusso](#flow-control)
 
-![](../assets/workflow-activities.png)
+![Elenco delle attività disponibili nell&#39;area di lavoro](../assets/workflow-activities.png){width="70%" align="left"}
 
 ## Attività di targeting {#targeting}
 
 Queste attività sono specifiche per il targeting. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
+
+![Elenco delle attività di targeting](../assets/targeting-activities.png){width="50%" align="left"}
 
 * [Genera pubblico](build-audience.md): definisci la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
 * [Modifica dimensione](change-dimension.md): modifica la dimensione di targeting durante la creazione della campagna orchestrata.
@@ -36,12 +38,11 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 * [Deduplicazione](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
 * [Arricchimento](enrichment.md): definisci i dati aggiuntivi da elaborare nella campagna orchestrata. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
 * [Riconciliazione](reconciliation.md): definire il collegamento tra i dati nei dati di Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
-* [Salva pubblico](save-audience.md): aggiorna un pubblico esistente o creane uno nuovo dalla popolazione calcolata a monte in una campagna orchestrata.
 * [Dividi](split.md): segmenta la popolazione in ingresso in diversi sottoinsiemi.
 
 ## Attività di canale {#channel}
 
-Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività dei canali nell’area di lavoro per creare una campagna orchestrata cross-channel che può attivare azioni in base al comportamento del cliente. Sono disponibili le seguenti attività di **Canale**: e-mail, SMS, Android e notifiche push di iOS. [Scopri come impostare una consegna nel contesto di una campagna orchestrata](channels.md).
+Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività dei canali nell’area di lavoro per creare una campagna orchestrata cross-channel che può attivare azioni in base al comportamento del cliente. Sono disponibili le seguenti attività di **Canale**: e-mail, SMS, Android e notifiche push di iOS. [Scopri come creare un&#39;azione del canale nel contesto di una campagna orchestrata](channels.md).
 
 ## Attività di controllo del flusso {#flow-control}
 
@@ -49,6 +50,9 @@ Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di market
 >id="ajo_orchestration_end"
 >title="Attività Fine"
 >abstract="L&#39;attività **End** consente di contrassegnare graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
+
+![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="50%" align="left"}
+
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il loro compito principale è quello di coordinare le altre attività:
 

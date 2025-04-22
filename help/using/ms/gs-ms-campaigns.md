@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 408e2264056c52c1d73bcd412e7a73f25812c224
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 17%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
 * [Creare query](ms-query-modeler.md)
 * [Test e convalida dei messaggi](ms-proofs.md)
 * [Pianificare e avviare le campagne](start-monitor-campaigns.md)
-* Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Attendi](activities/wait.md)
+* Elenco attività: [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - [Test](activities/test.md) - [Attendi](activities/wait.md)
 * [Generazione rapporti](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
