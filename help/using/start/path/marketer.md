@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Come **addetto al marketing** o **professionista dei percorsi**, sei responsabil
 
 Per configurare il primo percorso, aggiungere offerte e risorse e inviare i messaggi, consulta le sezioni seguenti:
 
-1. **Creare tipi di pubblico**. In Journey Optimizer puoi creare tipi di pubblico tramite le definizioni di segmenti direttamente dal menu **Tipi di pubblico** e riutilizzarli quindi nei percorsi.  Ulteriori informazioni sui tipi di pubblico [in questa pagina](../../audience/about-audiences.md). Scopri come generare definizioni di segmenti [in questo esempio](../../audience/creating-a-segment-definition.md).
+1. **Creare tipi di pubblico**. In Journey Optimizer puoi creare tipi di pubblico tramite le definizioni di segmenti direttamente dal menu **Tipi di pubblico** e riutilizzarli quindi nei percorsi.  Ulteriori informazioni sui tipi di pubblico sono disponibili [in questa pagina](../../audience/about-audiences.md). Scopri come generare definizioni di segmenti [in questo esempio](../../audience/creating-a-segment-definition.md).
 
 1. **Aggiungere personalizzazione e contenuti dinamici**. Sfrutta le funzionalità di personalizzazione e per contenuti dinamici di Journey Optimizer per adattare il messaggio al tuo pubblico. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md) e [contenuti dinamici](../../personalization/get-started-dynamic-content.md).
 

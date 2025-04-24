@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,8 +61,8 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 
 +++
 
-1. **Hai bisogno di un pubblico**. I tipi di pubblico devono essere disponibili prima di creare la campagna. Ulteriori informazioni sui tipi di pubblico [in questa pagina](../audience/about-audiences.md).
-1. **È necessaria una configurazione dei canali**. Per poter selezionare un canale, è necessario che la configurazione dei canali corrispondente (ovvero, preimpostata) sia creata e disponibile. Ulteriori informazioni sulle configurazioni dei canali [in questa pagina](../configuration/channel-surfaces.md).
+1. **Hai bisogno di un pubblico**. I tipi di pubblico devono essere disponibili prima di creare la campagna. Ulteriori informazioni sui tipi di pubblico sono disponibili [in questa pagina](../audience/about-audiences.md).
+1. **È necessaria una configurazione dei canali**. Per poter selezionare un canale, è necessario che la configurazione dei canali corrispondente (ovvero, preimpostata) sia creata e disponibile. Ulteriori informazioni sulle configurazioni dei canali sono disponibili [in questa pagina](../configuration/channel-surfaces.md).
 
 ## Video introduttivo {#video}
 

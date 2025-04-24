@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Richieste di privacy
-description: Ulteriori informazioni sulle richieste di accesso a dati personali e su Privacy Service.
+description: Informazioni sulle richieste privacy e Privacy Service.
 feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Richieste di accesso a dati personali {#track-changes}
+# Richieste di privacy {#track-changes}
 
 Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service puoi inviare richieste di accesso e cancellazione dei dati personali dei clienti dalle applicazioni Adobe Experience Cloud, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
 

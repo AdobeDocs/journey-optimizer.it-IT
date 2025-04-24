@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 Questa guida per sviluppatori descrive i passaggi per iniziare a utilizzare l’API di [!DNL Offer Library]. La guida fornisce quindi esempi di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.
 
-➡️ [Ulteriori informazioni sui componenti di Gestione delle decisioni in questo video](#video)
+➡️ [Per ulteriori informazioni sui componenti di Gestione delle decisioni, guarda questo video](#video)
 
 ## Prerequisiti {#prerequisites}
 

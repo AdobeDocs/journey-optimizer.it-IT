@@ -10,9 +10,9 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ Per impostazione predefinita, il [periodo di tempo per i nuovi tentativi](../con
 * Per le e-mail transazionali, il periodo minimo di nuovi tentativi è di 10 minuti.
 * Per entrambi i tipi di e-mail, il periodo massimo di nuovi tentativi è di 84 ore (o 5040 minuti).
 
-Ulteriori informazioni sui nuovi tentativi in [questa sezione](../configuration/retries.md).
+Ulteriori informazioni sui nuovi tentativi sono disponibili in [questa sezione](../configuration/retries.md).
 
 ## Tracciamento URL {#url-tracking}
 

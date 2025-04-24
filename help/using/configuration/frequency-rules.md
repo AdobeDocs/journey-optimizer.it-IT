@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ La quota limite giornaliera è valido per il giorno corrente fino alle 23:59:59 
 
 >[!NOTE]
 >
->Per garantire l’accuratezza delle regole relative ai limiti di frequenza giornalieri, è consigliato l’uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Per garantire l’accuratezza delle regole relative ai limiti di frequenza giornalieri, è consigliato l’uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Attivare una regola aziendale {#activate-rule}
 

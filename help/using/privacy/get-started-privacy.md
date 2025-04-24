@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione alla privacy
-description: Ulteriori informazioni sulla privacy in Adobe Journey Optimizer e Adobe Experience Platform.
+description: Informazioni sulla privacy in Adobe Journey Optimizer e Adobe Experience Platform.
 feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

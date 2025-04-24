@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Utilizza [!DNL Journey Optimizer] per generare casi d’uso di orchestrazione in
 
 Il designer del percorso di Journey Optimizer fornisce tutto ciò che serve a marketer e professionisti del percorso cliente per orchestrare percorsi 1:1 con più passaggi per i vari canali. Ciò include un’area di lavoro intuitiva con modalità drag-and-drop per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali che i membri del pubblico target visualizzeranno in base al comportamento, ai dati contestuali e agli eventi di business.
 
-Scopri come creare e progettare il tuo primo percorso in [questa pagina](journey-gs.md).
+Ulteriori informazioni su creare e progettare il primo percorso sono disponibili in [questa pagina](journey-gs.md).
 
 ➡️ [Scopri Journey Optimizer con questo video](#video)
 
@@ -50,7 +50,7 @@ Scopri come creare percorsi nei seguenti casi d’uso end-to-end:
 
 >[!NOTE]
 >
->I guardrail e le limitazioni del percorso sono descritti in dettaglio in [questa pagina](../start/guardrails.md)
+>I guardrail e le limitazioni applicabili ai percorsi sono descritti in [questa pagina](../start/guardrails.md).
 
 ## Video introduttivo {#video}
 

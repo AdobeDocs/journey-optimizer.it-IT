@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ Ora puoi delegare i sottodomini con DMARC, essendo gestito dalla parte principal
 
 **Regole di business**
 
-Ora puoi utilizzare una quota limite di frequenza giornaliera in percorsi e campagne con segmentazione in **batch**. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi nella [guida del servizio Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Ora puoi utilizzare una quota limite di frequenza giornaliera in percorsi e campagne con segmentazione in **batch**. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi sono disponibili nella [guida di Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 **Gestione dei contenuti**
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ I vantaggi includono:
 * Flussi di lavoro migliorati: anziché creare più consegne o campagne, i team di marketing possono ottimizzare i flussi di lavoro creando un’unica consegna e variare le offerte in parti differenti del modello.
 * Potrai controllare il numero di volte in cui un’offerta viene visualizzata nelle varie campagne e dai diversi clienti.
 
-➡️ [Ulteriori informazioni sulla gestione delle decisioni in questi video](#video)
+➡️ [Ulteriori informazioni sulla Gestione delle decisioni sono disponibili in questi video](#video)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 Le autorizzazioni per accedere e utilizzare le funzionalità di decisioning vengono gestite mediante [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target="_blank"}.
 
-Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Profilo di prodotto]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Ulteriori informazioni sulla gestione di [!DNL Journey Optimizer] utenti e autorizzazioni in [questa sezione](../../administration/permissions.md).
+Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Profilo di prodotto]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Ulteriori informazioni sulla gestione di utenti e autorizzazioni [!DNL Journey Optimizer] sono disponibili in [questa sezione](../../administration/permissions.md).
 
 Le autorizzazioni specificheper la gestione delle decisioni sono elencate in [questa sezione](../../administration/high-low-permissions.md#decisions-permissions).
 

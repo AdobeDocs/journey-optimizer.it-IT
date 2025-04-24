@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1065'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 Come requisito legale, è necessario fornire ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio e garantire il rispetto di questa scelta. Il mancato rispetto di queste normative implica rischi legali per il marchio. Ti aiuta a evitare l’invio di comunicazioni non richieste ai destinatari, in modo che queste non vengano contrassegnate come spam danneggiando la tua reputazione.
 
-Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations).
+Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target="_blank"}.
 
 ## Gestire gli annullamenti delle iscrizioni in percorsi e campagne {#opt-out-ajo}
 
@@ -29,7 +29,7 @@ Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clie
 
 >[!NOTE]
 >
->Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/)
+>Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 
 Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer in queste sezioni:
@@ -55,7 +55,7 @@ Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer i
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it) di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l&#39;onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values) oppure utilizzare [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
+>In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it) di Experience Platform{target="_blank"}. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} oppure utilizzare i [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
 
 ## Implementare il consenso alla personalizzazione {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ Quando utilizzi le offerte, le preferenze di personalizzazione non vengono imple
 >
 >Gli ambiti decisionali utilizzati in canali creati in [!DNL Journey Optimizer] soddisfano questo requisito dal percorso o dalla campagna a cui appartengono.
 
-1. Crea un pubblico di [Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it) e utilizza un attributo di profilo come **[!UICONTROL Personalizza contenuto = Sì (consenso)]** per eseguire il targeting degli utenti che hanno acconsentito alla personalizzazione.
+1. Crea un [Pubblico Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"} e utilizza un attributo di profilo come **[!UICONTROL Personalizza contenuto = Sì (consenso)]** per eseguire il targeting degli utenti che hanno acconsentito alla personalizzazione.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -103,7 +103,7 @@ Tuttavia, l’utilizzo di etichette di controllo dell’accesso basate sui dirit
 
 >[!NOTE]
 >
->Ulteriori informazioni sul controllo degli accessi a livello di oggetto sono disponibili in [questa sezione](../administration/object-based-access.md).
+>Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC) sono disponibili in [questa sezione](../administration/object-based-access.md).
 
 Nelle campagne [!DNL Journey Optimizer], i criteri di consenso vengono applicati come segue:
 
@@ -121,7 +121,7 @@ Per applicare manualmente il consenso alla personalizzazione nelle campagne, seg
 
 Puoi utilizzare il generatore di regole di segmento per creare un pubblico contenente profili di rinuncia.
 
-1. Crea un pubblico [Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
+1. Crea un [Pubblico Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -159,7 +159,7 @@ Puoi anche aggiungere un controllo del consenso alla personalizzazione di un pub
 
 1. **[!UICONTROL Percorso 1]** sarà il pubblico non personalizzato. Scegli un’etichetta rilevante.
 
-1. Scegli il valore appropriato da questo [elenco](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values).
+1. Scegli il valore appropriato da questo [elenco](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"}.
 
    In questo caso utilizzeremo `n` per indicare che gli utenti non acconsentono all’utilizzo dei loro dati a fini di personalizzazione.
 

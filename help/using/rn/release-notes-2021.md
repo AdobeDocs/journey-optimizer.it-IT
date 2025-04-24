@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 <td>
 <p>Adobe Journey Optimizer ora supporta i CNAME. Un record CNAME, o Canonical Name, è un record che punta a un altro indirizzo di dominio anziché a un indirizzo IP. La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utilizzare i CNAME per puntare a record specifici per Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.</p>
 <p>Questo metodo è consigliato se i criteri dell'organizzazione limitano il metodo di delega del sottodominio completo.</p>
-<p>Ulteriori informazioni sulla delega del sottodominio CNAME nella <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentazione dettagliata</a>.</p>
+<p>Ulteriori informazioni sulla delega del sottodominio CNAME sono disponibili nella <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -114,7 +114,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 * È stato risolto un problema che impediva la visualizzazione dell’elenco dei percorsi, dell’elenco dei messaggi e dell’E-mail designer quando la lingua del browser non era inglese.
 * È stato corretto un errore di sintassi che si verificava quando si aggiungeva la personalizzazione utilizzando un’espressione nell’E-mail designer: i caratteri venivano preceduti erroneamente.
 * È stato risolto un problema che causava un errore 404 durante la navigazione nel menu **Amministrazione**.
-* È stato risolto un problema che attivava altri percorsi in tempo reale durante il test di un percorso utilizzando un evento aziendale.
+* È stato risolto un problema che attivava altri percorsi live durante il test di un percorso utilizzando un evento di business.
 
 
 ## Versione di settembre 2021 {#september-2021-release}
@@ -164,7 +164,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 * Gli schemi e i set di dati generati dal sistema che sono stati creati durante il provisioning per gli eventi delle fasi ora sono in modalità di sola lettura, in modo da evitare eventuali modifiche involontarie agli schemi critici. [Ulteriori informazioni](../reports/sharing-overview.md)
 * Etichetta in modo chiaro l’attività **Attesa** con un’etichetta che verrà visualizzata nell’area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](../building-journeys/about-journey-activities.md#best-practices)
 * Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nelle categorie **Eventi** e **Azione** utilizzando la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
-* Quando definisci una condizione ID evento in un evento aziendale o basato su regole, l’operatore “contiene” è ora disponibile per i tipi di campi stringa. [Ulteriori informazioni](../event/about-creating.md)
+* Quando definisci una condizione per un ID evento in un evento di business o basato su regole, l’operatore “contiene” è ora disponibile per i tipi di campi stringa. [Ulteriori informazioni](../event/about-creating.md)
 
 **Configurazione e-mail**
 
@@ -196,13 +196,13 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 <thead>
 <tr>
 
-<th><strong>Sfruttamento delle relazioni di schema negli eventi aziendali: gestione delle tabelle di ricerca</strong><br/></th>
+<th><strong>Sfruttamento delle relazioni di schema negli eventi di business: gestione delle tabelle di ricerca</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile riutilizzare le relazioni tra schemi durante la configurazione di un evento aziendale. Questo si aggiunge alla possibilità di sfruttare i campi delle tabelle collegate durante la configurazione di un evento unitario, durante l’utilizzo delle condizioni in un percorso, nella personalizzazione dei messaggi e nella personalizzazione delle azioni personalizzate.</p>
+<p>È ora possibile riutilizzare le relazioni tra schemi durante la configurazione di un evento di business. Questo si aggiunge alla possibilità di sfruttare i campi delle tabelle collegate durante la configurazione di un evento unitario, durante l’utilizzo delle condizioni in un percorso, nella personalizzazione dei messaggi e nella personalizzazione delle azioni personalizzate.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -270,8 +270,8 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 **Interfaccia utente**
 
-* **Ricerca** - In ogni pagina, ora puoi e cercare oggetti aziendali e gli articoli direttamente dal campo di ricerca Unified Experience Cloud. [Ulteriori informazioni](../start/user-interface.md#unified-search)
-* **Recenti** - La visualizzazione degli elementi recenti della home page di Adobe Journey Optimizer è ora estesa ad altri oggetti aziendali. Con questo aggiornamento, le scelte rapide per l’accesso recente includono Messaggi, Percorsi, Tipi di pubblico, Schemi, Set di dati, Origini dati, Eventi, Azioni, Origini e Destinazioni. [Ulteriori informazioni](../action/about-custom-action-configuration.md#passing-collection)
+* **Ricerca** - In ogni pagina, ora puoi eseguire ricerche negli oggetti di business e negli articoli della documentazione direttamente dal campo di ricerca unificata di Experience Cloud. [Ulteriori informazioni](../start/user-interface.md#unified-search)
+* **Recenti** - La visualizzazione degli elementi recenti della pagina home di Adobe Journey Optimizer è ora estesa ad altri oggetti di business. Con questo aggiornamento, le scelte rapide per l’accesso recente includono Messaggi, Percorsi, Tipi di pubblico, Schemi, Set di dati, Origini dati, Eventi, Azioni, Origini e Destinazioni. [Ulteriori informazioni](../action/about-custom-action-configuration.md#passing-collection)
 
 **Progettazione dei contenuti**
 

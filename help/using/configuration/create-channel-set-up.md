@@ -10,9 +10,9 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Questa configurazione semplifica la configurazione rapida dei canali di marketin
 
 1. Per semplificare il processo di configurazione, vengono create automaticamente le risorse necessarie per aiutarti a iniziare. Ciò include la creazione di una nuova **[!UICONTROL proprietà tag Mobile]** e l’installazione di estensioni.
 
-[Ulteriori informazioni sulle risorse generate automaticamente](set-mobile-config.md#auto-create-resources)
+[Informazioni sulle risorse generate automaticamente](set-mobile-config.md#auto-create-resources)
 
 1. Al termine della generazione delle risorse, segui le istruzioni nell’interfaccia utente per configurare e convalidare gli SDK e i canali.
 

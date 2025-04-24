@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risul
 
 ![](assets/unified-search.png)
 
-Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto aziendale.
+Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto di business.
 
 ![](assets/search-and-filter.png)
 
@@ -105,8 +105,8 @@ Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso o campagna (live, 
 
 ### Gestire i tag {#manage-tags}
 
-Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **[!UICONTROL Tag]**, sotto **[!UICONTROL AMMINISTRAZIONE]**. Ulteriori informazioni sulla gestione dei tag nella [documentazione Unified Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=it).
+Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **[!UICONTROL Tag]**, sotto **[!UICONTROL AMMINISTRAZIONE]**. Ulteriori informazioni sulla gestione dei tag sono disponibili nella [Documentazione sui tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=it).
 
 >[!NOTE]
 >
-> I tag creati direttamente dal campo **[!UICONTROL Tag]** in Journey Optimizer vengono aggiunti automaticamente alla categoria “Non categorizzato” incorporata.
+> I tag creati direttamente dal campo **[!UICONTROL Tag]** in Journey Optimizer vengono aggiunti automaticamente alla categoria incorporata “Non categorizzato”.
