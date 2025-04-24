@@ -244,7 +244,7 @@ ht-degree: 88%
             + [Aggiungere collegamenti e tracciare i messaggi](using/email/message-tracking.md)
             + [Inserire offerte personalizzate](using/email/add-offers-email.md)
             + [Generare la versione del testo](using/email/text-version-email.md)
-            + [Aggiungi metadati](using/email/email-metadata.md)
+            + [Aggiungere metadati](using/email/email-metadata.md)
          + Modifica stile {#edit-style}
             + [Introduzione allo stile delle e-mail](using/email/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](using/email/backgrounds.md)
@@ -762,7 +762,7 @@ ht-degree: 88%
    + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
 + Privacy {#privacy}
    + [Introduzione alla privacy](using/privacy/get-started-privacy.md)
-   + [Richieste di accesso a dati personali](using/privacy/requests.md)
+   + [Richieste di privacy](using/privacy/requests.md)
    + [Azioni di audit sulle risorse](using/privacy/audit-logs.md)
    + [Eseguire operazioni relative al ciclo di vita dei dati](using/privacy/data-hygiene.md)
    + Gestire il consenso {#consent}

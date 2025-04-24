@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -253,8 +253,8 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Esegui a secco il percorso"
->abstract="Dopo aver progettato il percorso, eseguire un&#39;esecuzione a secco per verificare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire il test del fumo in un percorso, senza inviare comunicazioni ad alcun profilo."
+>title="Esecuzione in prova del percorso"
+>abstract="Dopo aver progettato il percorso, esegui un’esecuzione in prova per assicurare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
 
 
 

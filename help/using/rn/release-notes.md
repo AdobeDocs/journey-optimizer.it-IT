@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 66%
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>Sono ora disponibili le metriche di percorso, che consentono di misurare l’impatto delle attività sulle metriche chiave dell’azienda e fornire informazioni più chiare sulle prestazioni.</p>
+<p>Le metriche di percorso sono ora disponibili e consentono di misurare l’impatto delle attività sulle metriche più importanti per l’azienda e di fornire informazioni più chiare sulle prestazioni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/success-metrics.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 9 aprile 2025</p>
 </br>
@@ -51,21 +51,21 @@ ht-degree: 66%
 
   Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - Data di disponibilità: 2 aprile 2025
+* **Personalizzazione** - Data di disponibilità: 2 aprile 2025
 
-  Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizzare il pulsante Impostazioni per disattivare l&#39;opzione **[!UICONTROL Mostra solo attributi popolati]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+  Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizza il pulsante Impostazioni per disattivare l’opzione **[!UICONTROL Mostra solo attributi compilati]**. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 * **Gestione dei contenuti** - Data di disponibilità: 2 aprile 2025
 
-  Per gestire facilmente i modelli di contenuto e i frammenti, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
+  Per gestire facilmente i frammenti e i modelli di contenuto, ora puoi utilizzare le cartelle per organizzarli in modo più efficace in una gerarchia strutturata. Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
 
   >[!AVAILABILITY]
   >
   >Questo miglioramento è disponibile solo per alcune organizzazioni (disponibilità limitata).
 
-* **E-mail Designer** - Data di disponibilità: 1 aprile 2025
+* **E-mail designer** - Data di disponibilità: 1 aprile 2025
 
-  Per migliorare l&#39;accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `<title>` e all&#39;attributo `lang` nell&#39;elemento `<html>` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo **[!UICONTROL Preheader]** nella sezione **[!UICONTROL Body]** dell&#39;e-mail. [Ulteriori informazioni](../email/email-metadata.md)
+  Per migliorare l’accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nell’E-mail designer: corrispondono all’elemento `<title>` e all’attributo `lang` nell’elemento `<html>` del contenuto dell’e-mail. Puoi definire queste impostazioni oltre che nel campo **[!UICONTROL Preintestazione]**, nella sezione **[!UICONTROL Corpo]** dell’e-mail. [Ulteriori informazioni](../email/email-metadata.md)
 
 
 ## Note sulla versione di marzo 2025 {#25-3-rn}
@@ -175,13 +175,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Valutazione flessibile del pubblico (GA)</strong><br/></th>
+<th><strong>Valutazione flessibile del pubblico (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Precedentemente disponibile per un set di organizzazioni (LA), la Valutazione flessibile del pubblico è ora disponibile per tutti gli utenti (GA). Questa funzione ti consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, assicurandoti di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
+<p>Precedentemente disponibile per alcune organizzazioni (disponibilità limitata, LA), la valutazione flessibile del pubblico è ora disponibile per tutti gli utenti (disponibilità generale, GA). Questa funzione consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, per disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/creating-a-segment-definition.md#flexible">documentazione dettagliata</a>.</p>
 </tr>
