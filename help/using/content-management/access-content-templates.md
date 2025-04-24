@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ Puoi ordinare i modelli di contenuto in base a:
 Puoi anche scegliere di visualizzare solo gli elementi creati o modificati personalmente.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>A partire da marzo 2025, i modelli di contenuto di tipo HTML ora sono obsoleti. È comunque possibile accedere ai modelli di contenuto HTML esistenti creati in precedenza in [!DNL Journey Optimizer].
 
 ## Utilizzare le cartelle per gestire i modelli di contenuto {#folders}
 
@@ -102,13 +106,13 @@ Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizza
 
 >[!AVAILABILITY]
 >
-Questa funzionalità viene rilasciata in versione a Disponibilità limitata (LA) per un set limitato di clienti.
+>Questa funzionalità viene rilasciata in versione a Disponibilità limitata (LA) per un set limitato di clienti.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Al momento è possibile generare le miniature appropriate solo per il tipo HTML email modelli di contenuto.
+>Al momento le miniature corrette possono essere generate solo per modelli di contenuto e-mail di tipo HTML.
 
 Quando aggiorni un contenuto, potresti dover attendere alcuni secondi prima che le modifiche vengano riportate nella miniatura.
 
