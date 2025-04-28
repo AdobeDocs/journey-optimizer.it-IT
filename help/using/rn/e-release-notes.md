@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Vista calendario per inventario campagne e Percorsi (disponibilità limitata)</strong><br/></th>
+<th><strong>Vista calendario per l'inventario delle campagne e dei percorsi (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Personalization Playground in Experience League</strong><br/></th>
+<th><strong>Ambiente playground di Personalization in Experience League</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Fornire il proprio provider SMS (disponibilità generale)</strong><br/></th>
+<th><strong>Fornisci il tuo provider SMS (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 **Tipi di pubblico**
 
-- **Rimuovi limitazione per attributi di arricchimento**
+- **Rimuovi limitazione per gli attributi di arricchimento della composizione del pubblico**
 
   È ora possibile utilizzare i tipi di pubblico e gli attributi della composizione del pubblico con Healthcare Shield o Privacy and Security Shield.
 
@@ -233,7 +233,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 **Strumenti Sandbox**
 
-- **Copia Sandbox Decisioning**
+- **Copia sandbox decisioning**
 
   È ora possibile copiare gli oggetti decisionali tra sandbox, semplificando i flussi di lavoro di test e distribuzione.
 
@@ -247,11 +247,11 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 **Personalizzazione**
 
-- **Editor Personalization - Attivazione pillole**
+- **Attivazione pillole**
 
   All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando è abilitato, gli attributi contestuali e di profilo vengono visualizzati come pillole, migliorando la leggibilità del codice.
 
-- **Personalization - Schema osservabile**
+- **Attributi compilati nel riquadro degli attributi**
 
   Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizza il pulsante delle impostazioni per disattivare l’opzione Mostra solo attributi popolati.
 
