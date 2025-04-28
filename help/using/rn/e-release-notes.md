@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 12%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione di Adobe Express (LA)</strong><br/></th>
+<th><strong>Integrazione di Adobe Express (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora si integra con Adobe Express, consentendo agli utenti di collegare facilmente le loro risorse creative con l’orchestrazione del percorso. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. Questa funzione è attualmente disponibile in modo limitato.</p>
+<p>Adobe Journey Optimizer ora si integra con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione del percorso. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. Questa funzione è attualmente disponibile in modo limitato.</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Vista calendario per inventario campagne e Percorsi (LA)</strong><br/></th>
+<th><strong>Vista calendario per inventario campagne e Percorsi (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile una nuova vista calendario per le campagne e le attivazioni di percorso. Questa funzione fornisce una rappresentazione visiva delle attività pianificate, consentendo agli utenti di visualizzare e gestire le campagne e i percorsi in modo più efficace. Selezionando un elemento del calendario si apre una barra a destra con informazioni dettagliate. Questa funzione è attualmente disponibile in modo limitato.</p>
+<p>È ora disponibile una nuova vista calendario per le campagne e le attivazioni di percorso. Questa funzione fornisce una rappresentazione visiva delle attività pianificate, consentendoti di visualizzare e gestire le campagne e i percorsi in modo più efficace. Selezionando un elemento del calendario si apre una barra a destra con informazioni dettagliate. Questa funzione è attualmente disponibile in modo limitato.</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Experience League offre ora un ambiente Personalization Playground interattivo. Questa funzione consente agli utenti di esplorare e mettere in pratica le funzionalità di personalizzazione all’interno di Adobe Journey Optimizer. Gli utenti possono scrivere codice di personalizzazione, testare con payload di esempio e simulare scenari reali per migliorare la propria esperienza di apprendimento.</p>
+<p>Experience League offre ora un ambiente Personalization Playground interattivo. Questa funzione ti consente di esplorare e mettere in pratica le funzionalità di personalizzazione all’interno di Adobe Journey Optimizer. Puoi scrivere codice di personalizzazione, testare con payload di esempio e simulare scenari reali per migliorare la tua esperienza di apprendimento.</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Esecuzione del Percorso di attivazione dopo la valutazione del pubblico in batch (LA)</strong><br/></th>
+<th><strong>Attiva percorso giornaliero eseguito dopo il completamento della segmentazione batch (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Gli utenti possono ora specificare una finestra temporale per attendere una nuova valutazione dei tipi di pubblico in batch nel nodo Read Audience. Se la valutazione viene completata all’interno della finestra, il percorso viene attivato; in caso contrario, viene saltato. Questa funzione risolve i ritardi nei processi di segmentazione batch ed è attualmente a disponibilità limitata.</p>
+<p>Per i percorsi pianificati quotidianamente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attiva dopo la valutazione del pubblico in batch è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Strumenti di correzione di nuova generazione (GA)</strong><br/></th>
+<th><strong>Simula varianti di contenuto (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La funzione di verifica di nuova generazione è ora generalmente disponibile. Questo miglioramento supporta attributi contestuali, contenuti multilingue, sperimentazione e modelli di contenuto, fornendo un’esperienza di verifica più solida e flessibile.</p>
+<p>Precedentemente disponibile in versione beta, la simulazione delle varianti di contenuto è ora generalmente disponibile (GA). Consente di visualizzare in anteprima diverse varianti di contenuto utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test al fine di creare più varianti.</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Fornisci il tuo provider SMS (GA)</strong><br/></th>
+<th><strong>Fornire il proprio provider SMS (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora supporta provider SMS personalizzati, consentendo agli utenti di integrare i servizi SMS preferiti per una maggiore flessibilità di comunicazione.</p>
+<p>Adobe Journey Optimizer ora supporta provider SMS personalizzati, che consentono di integrare i servizi SMS preferiti per una maggiore flessibilità di comunicazione.</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 - **Rimuovi limitazione per attributi di arricchimento**
 
-  I clienti con Healthcare e Privacy Shields possono ora utilizzare gli attributi di arricchimento della composizione del pubblico nei canali Adobe Journey Optimizer, migliorando le funzionalità di utilizzo dei dati.
+  È ora possibile utilizzare i tipi di pubblico e gli attributi della composizione del pubblico con Healthcare Shield o Privacy and Security Shield.
 
 **Canale e-mail**
 
@@ -234,13 +234,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 - **[Miglioramenti dell&#39;editor di e-mail di Beta] con temi**
 
-  Una nuova funzione beta introduce i temi nell’editor e-mail, consentendo agli esperti di marketing di definire stili riutilizzabili e di creare e-mail più rapidamente utilizzando moduli preconfigurati.
+  Una nuova funzione beta introduce i temi nell’editor e-mail, consentendoti di definire stili riutilizzabili e creare e-mail più rapidamente utilizzando moduli preconfigurati.
 
 **Strumenti Sandbox**
 
 - **Copia Sandbox Decisioning**
 
-  È ora possibile copiare gli oggetti decisionali tra sandbox, semplificando i flussi di lavoro di test e distribuzione. Alla documentazione verrà aggiunta una sottosezione dedicata agli oggetti Decisioning.
+  È ora possibile copiare gli oggetti decisionali tra sandbox, semplificando i flussi di lavoro di test e distribuzione.
 
 - **Strumenti sandbox per azioni personalizzate**
 
@@ -254,11 +254,11 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 - **Editor Personalization - Attivazione pillole**
 
-  Un nuovo pulsante nell’editor di personalizzazione consente agli utenti di attivare o disattivare le pillole. Questa funzione annulla l’editor e consente di modificare più facilmente i parametri e gli attributi del profilo dell’immagine di elementi multimediali dinamici.
+  All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando è abilitato, gli attributi contestuali e di profilo vengono visualizzati come pillole, migliorando la leggibilità del codice.
 
 - **Personalization - Schema osservabile**
 
-  All’editor di personalizzazione è stato aggiunto il supporto per schemi osservabili, che consente di aggiornare dinamicamente gli attributi basati su schema.
+  Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizza il pulsante delle impostazioni per disattivare l’opzione Mostra solo attributi popolati.
 
 - **Nuova variabile di contesto di sistema**
 
@@ -270,7 +270,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 - **Modello IA - Classificazione unificata - Nuovo generatore di formule**
 
-  Gli addetti al marketing possono ora regolare i punteggi in tempo reale dei modelli di IA di Adobe Decisioning utilizzando un nuovo generatore di formule. Questa funzione centralizza le regolazioni di classificazione per le priorità e i punteggi dei modelli.
+  Ora puoi regolare i punteggi in tempo reale dei modelli di IA di Adobe Decisioning utilizzando un nuovo generatore di formule. Questa funzione centralizza le regolazioni di classificazione per le priorità e i punteggi dei modelli.
 
 **Navigazione**
 
@@ -296,6 +296,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 **Playbook**
 
-- **[Beta] Crea I Tuoi Playbook**
+- **Crea i tuoi playbook (Beta)**
 
-  Gli utenti possono ora creare i propri playbook in Adobe Journey Optimizer, consentendo una maggiore personalizzazione e flessibilità nella pianificazione del percorso.
+  Ora è possibile creare i propri playbook in Adobe Journey Optimizer, consentendo una maggiore personalizzazione e flessibilità nella pianificazione del percorso.
