@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
+source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 17%
+source-wordcount: '954'
+ht-degree: 16%
 
 ---
 
@@ -223,18 +223,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 **Canale e-mail**
 
-- **Campi aggiuntivi per supportare l&#39;accessibilità**
+- **Tracciamento URL personalizzato**
 
-  Sono stati aggiunti due nuovi campi all&#39;editor e-mail per supportare l&#39;accessibilità: l&#39;elemento `<title>` per i titoli dei documenti e l&#39;attributo `lang` per la specifica della lingua nel tag `<html>`.
+  Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, ora puoi personalizzare tutti i parametri di tracciamento URL contemporaneamente a livello di configurazione del canale e-mail, invece di farlo nella finestra di progettazione e-mail per ogni collegamento nel contenuto.
 
-- **Miglioramenti a Email Surface Personalization - Tracciamento URL**
+- **Temi di E-mail designer** (Beta) - Data di disponibilità: 5 maggio 2025
 
-  È stato migliorato il tracciamento URL nella personalizzazione e-mail, consentendo un tracciamento e un reporting più granulare. Gli aggiornamenti includono opzioni di configurazione migliorate per le impostazioni e-mail personalizzate.
-
-
-- **[Miglioramenti dell&#39;editor di e-mail di Beta] con temi**
-
-  Una nuova funzione beta introduce i temi nell’editor e-mail, consentendoti di definire stili riutilizzabili e creare e-mail più rapidamente utilizzando moduli preconfigurati.
+  Ora puoi applicare rapidamente temi di stile preapprovati ai contenuti delle e-mail per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e produrre e-mail di alta qualità in modo indipendente, riducendo al contempo la dipendenza dai team di progettazione.
 
 **Strumenti Sandbox**
 
@@ -260,39 +255,29 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
   Il riquadro degli attributi nell’editor di personalizzazione ora mostra solo gli attributi compilati per impostazione predefinita. Per visualizzare tutti gli attributi, utilizza il pulsante delle impostazioni per disattivare l’opzione Mostra solo attributi popolati.
 
-- **Nuova variabile di contesto di sistema**
+- **Nuovo attributo contestuale**
 
-  È stata introdotta una nuova variabile di contesto di sistema per identificare in modo univoco ogni messaggio inviato a un profilo di destinazione. Questa variabile può essere utilizzata a scopo di tracciamento e personalizzazione.
-
-
+  È ora disponibile un nuovo attributo contestuale, **ID profilo messaggio**, da selezionare dall&#39;editor di personalizzazione. Si tratta di un attributo orientato ai messaggi che identifica in modo univoco ogni messaggio inviato a ciascun profilo target in una consegna. Questo identificatore univoco può essere utilizzato, ad esempio, come parametro di tracciamento URL per distinguere ogni collegamento aperto o cliccato dai destinatari.
 
 **Funzione Decisioni**
 
-- **Modello IA - Classificazione unificata - Nuovo generatore di formule**
+- **Classificazione delle formule**
 
-  Ora puoi regolare i punteggi in tempo reale dei modelli di IA di Adobe Decisioning utilizzando un nuovo generatore di formule. Questa funzione centralizza le regolazioni di classificazione per le priorità e i punteggi dei modelli.
+  Ora puoi creare formule di classificazione Decisioning specifiche definendo e combinando criteri da una nuova interfaccia migliorata. Le formule di classificazione ti consentono di definire regole che determinano quali elementi decisionali devono essere presentati per primi, anziché tenere conto dei punteggi di priorità.
 
 **Navigazione**
 
-- **Cartelle - Pagine Di Destinazione**
+- **Cartelle per modelli di contenuto e frammenti** - Data di disponibilità: 5 maggio 2025
 
-  È stata migliorata la gestione delle cartelle per le pagine di destinazione in Adobe Journey Optimizer, inclusi le modifiche dell’interfaccia utente, i flussi e gli aggiornamenti API.
+  Precedentemente disponibili per un set di organizzazioni (LA), le cartelle sono ora disponibili per tutti gli utenti (GA) per gestire i modelli di contenuto e i frammenti. Le cartelle consentono di organizzare i modelli di contenuto e i frammenti in modo più semplice ed efficace in una gerarchia strutturata.
 
-- **Cartelle - Modelli e frammenti**
+- **Cartelle per le pagine di destinazione** - Data di disponibilità: 5 maggio 2025
 
-  La menzione Disponibilità limitata è stata rimossa per le cartelle in modelli e frammenti, a indicare che questa funzione è ora generalmente disponibile.
+  Per gestire facilmente le pagine di destinazione, ora puoi anche utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia semplificata.
 
 - **Barra a destra nell&#39;elenco delle campagne**
 
   All’elenco delle campagne è stata aggiunta una barra a destra che fornisce informazioni dettagliate quando viene selezionata una campagna.
-
-
-
-**Recapitabilità**
-
-- **Flusso di lavoro migliorato per gli IP di integrazione e rimozione dei sottodomini delegati**
-
-  È stato migliorato il flusso di lavoro per la gestione degli IP di integrazione e dei sottodomini delegati, semplificando così il processo per gli utenti.
 
 **Playbook**
 
