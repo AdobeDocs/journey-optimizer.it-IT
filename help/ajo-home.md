@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -16,21 +16,27 @@ ht-degree: 94%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visit the [documentation updates page](using/rn/documentation-updates.md) to stay up-to-date with the latest changes in the product documentation.
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visita la [pagina aggiornamenti documentazione](using/rn/documentation-updates.md) per rimanere aggiornato sulle ultime modifiche apportate alla documentazione del prodotto.
 
 >[!BEGINTABS]
 
->[!TAB Versione di marzo 2025]
+>[!TAB Versione di aprile &#39;25]
 
-La versione di marzo è ora disponibile. Consulta le note sulla versione per scoprire nuove funzionalità, modifiche e miglioramenti.
+La versione di aprile è ora live. Consulta le note sulla versione per scoprire nuove funzionalità, modifiche e miglioramenti.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Integrazione Adobe Express]
+
+dobe Journey Optimizer ora si integra con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione del percorso.
+
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB Assistente IA]
 
 ✨ Immergiti in un’esperienza pratica con l’anteprima della funzionalità live dell’[Assistente IA](../help/using/content-management/gs-generative.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ulteriori informazioni](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Reporting con CJA]
 
@@ -38,11 +44,6 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Esperienze web nei percorsi]
-
-Con il canale web, Adobe Journey Optimizer ti consente di personalizzare l’esperienza web che fornisci alla clientela tramite percorsi web in entrata. Il canale web è ora disponibile nell’area di lavoro del percorso.
-
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 

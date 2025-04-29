@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 13%
+source-wordcount: '2195'
+ht-degree: 11%
 
 ---
 
 # Utilizzare un pubblico in un percorso {#segment-trigger-activity}
 
-## Aggiungere un’attività Leggi pubblico {#about-segment-trigger-actvitiy}
+## Informazioni sull’attività Read Audience {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -38,7 +38,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Ripeti ogni"
->abstract="Definisci la frequenza per il modulo di pianificazione ricorrente."
+>abstract="Definisci una frequenza per il modulo di pianificazione ricorrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -58,7 +58,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tempo di attesa per una nuova valutazione del pubblico"
->abstract="Specifica la durata di attesa del percorso per la valutazione del pubblico batch."
+>abstract="Specifica la durata di attesa del percorso per la valutazione del pubblico batch. Il periodo di attesa è limitato a valori interi, può essere specificato in minuti o ore e deve essere compreso tra 1 e 6 ore."
 
 Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
@@ -80,13 +80,13 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 * I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 
-
 I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
-
 
 ## Configurare l’attività {#configuring-segment-trigger-activity}
 
-I passaggi per configurare l’attività Read Audience sono i seguenti:
+Di seguito sono riportati i passaggi per configurare l’attività Read Audience.
+
+### Aggiungere un’attività Read audience e selezionare il pubblico
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Read Audience]** nell&#39;area di lavoro.
 
@@ -120,33 +120,78 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
    >
    >Le persone appartenenti a un pubblico che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non possono entrare nel percorso. È possibile selezionare solo uno spazio dei nomi delle identità basato su persone. Se è stato definito uno spazio dei nomi per una tabella di ricerca (ad esempio, Spazio dei nomi ProductID per una ricerca di prodotti), questo non sarà disponibile nell&#39;elenco a discesa **Spazio dei nomi**.
 
-1. Imposta la **[!UICONTROL velocità di lettura]**. Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questa [pagina](../configuration/throttling.md).
+### Gestire la voce dei profili nel percorso
 
-   Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 profili al secondo. Puoi modificare questo valore da 500 a 20.000 profili al secondo.
+Imposta la **[!UICONTROL velocità di lettura]**. Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questa [pagina](../configuration/throttling.md).
 
-   >[!NOTE]
-   >
-   >La velocità di lettura complessiva per sandbox è impostata su 20.000 profili al secondo. Pertanto, la velocità di lettura di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox non supera i 20.000 profili al secondo. Non puoi modificare questo limite.
+Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 profili al secondo. Puoi modificare questo valore da 500 a 20.000 profili al secondo.
 
-1. L&#39;attività **[!UICONTROL Read Audience]** consente di specificare l&#39;ora in cui il pubblico entrerà nel percorso. A questo scopo, fai clic sul collegamento **[!UICONTROL Modifica pianificazione percorso]** per accedere alle proprietà del percorso, quindi configura il campo **[!UICONTROL Tipo di modulo di pianificazione]**.
+>[!NOTE]
+>
+>La velocità di lettura complessiva per sandbox è impostata su 20.000 profili al secondo. Pertanto, la velocità di lettura di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox non supera i 20.000 profili al secondo. Non puoi modificare questo limite.
+
+### Pianificare il percorso {#schedule}
+
+Per impostazione predefinita, il percorso è configurato per essere eseguito una sola volta. Per definire una data, un&#39;ora e una frequenza specifiche per l&#39;esecuzione del percorso, effettuare le seguenti operazioni.
+
+>[!NOTE]
+>
+>I percorsi Read audience univoci passano allo stato **Finished** 91 percorsi ([timeout globale del percorso](journey-properties.md#global_timeout)) dopo l&#39;esecuzione. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 91 giorni dall’esecuzione dell’ultima occorrenza.
+
+1. Nelle proprietà dell&#39;attività **[!UICONTROL Read audience]**, pa,e seleziona **[!UICONTROL Modifica pianificazione percorso]**.
 
    ![](assets/read-segment-schedule.png)
 
-   Per impostazione predefinita, i tipi di pubblico immettono il percorso **[!UICONTROL Non appena possibile]**. Se desideri che il pubblico entri nel percorso in una data/ora specifica o su base ricorrente, seleziona il valore desiderato dall’elenco.
-
-   >[!NOTE]
-   >
-   >La sezione **[!UICONTROL Pianifica]** è disponibile solo quando un&#39;attività **[!UICONTROL Read Audience]** è stata eliminata nell&#39;area di lavoro.
+1. Vengono visualizzate le proprietà del percorso. Nell&#39;elenco a discesa **[!UICONTROL Tipo modulo di pianificazione]** selezionare la frequenza di esecuzione del percorso.
 
    ![](assets/read-segment-schedule-list.png)
 
-   Opzione **Lettura incrementale**: quando viene eseguito per la prima volta un percorso con un pubblico ricorrente di tipo **Lettura**, tutti i profili del pubblico entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
+Per i percorsi ricorrenti, sono disponibili opzioni specifiche per aiutarti a gestire l’immissione di profili nel percorso. Per ulteriori informazioni su ciascuna opzione, espandi le sezioni seguenti.
 
-       >[!NOTA]
-       >
-       >Se esegui il targeting di un [pubblico di caricamento personalizzato](../audience/about-audiences.md#segmenti-in-percorsi-optimizer) nel tuo percorso, i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
-   
-   **Forza il rientro in caso di ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all&#39;esecuzione successiva. Ad esempio, se attendi 2 percorsi in un giorno ricorrente giornaliero, attivando questa opzione i profili verranno sempre spostati all’esecuzione del percorso successivo (quindi il giorno successivo), indipendentemente dal fatto che si trovino o meno nel pubblico dell’esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza, non attivare questa opzione per assicurarsi che i profili possano terminare il percorso.
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL Lettura incrementale]**
+
+Quando viene eseguito per la prima volta un percorso con un pubblico ricorrente di tipo **Lettura**, tutti i profili del pubblico entrano nel percorso.
+
+Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
+
+>[!NOTE]
+>
+>Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#segments-in-journey-optimizer), i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
+
++++
+
++++**[!UICONTROL Forza il rientro in caso di ricorrenza]**
+
+Questa opzione ti consente di far sì che tutti i profili ancora presenti nel percorso lo abbandonino automaticamente all’esecuzione successiva.
+
+Ad esempio, se attendi 2 percorsi in un giorno ricorrente giornaliero, attivando questa opzione i profili verranno sempre spostati all’esecuzione del percorso successivo (quindi il giorno successivo), indipendentemente dal fatto che si trovino o meno nel pubblico dell’esecuzione successiva.
+
+Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza, non attivare questa opzione per assicurarsi che i profili possano terminare il percorso.
+
++++
+
++++**[!UICONTROL Attiva dopo la valutazione del pubblico in batch]** (disponibilità limitata)
+
+>[!AVAILABILITY]
+>
+>L&#39;opzione **[!UICONTROL Trigger dopo valutazione del pubblico in batch]** è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
+
+Per i percorsi pianificati giornalmente e per il targeting dei tipi di pubblico in blocco, puoi definire un intervallo di tempo fino a 6 ore affinché il percorso attenda nuovi dati sul pubblico dai processi di segmentazione in blocco. Se il processo di segmentazione viene completato entro l’intervallo di tempo, il percorso si attiva. In caso contrario, ignora il percorso fino alla successiva occorrenza. Questa opzione assicura che i percorsi vengano eseguiti con dati accurati e aggiornati sul pubblico.
+
+Se, ad esempio, un percorso è pianificato per le 18.00, è possibile specificare un numero di minuti o di ore di attesa prima dell&#39;esecuzione del percorso. Quando il percorso si sveglia alle 18, verifica la presenza di un nuovo pubblico, ovvero un pubblico più recente di quello utilizzato nell’esecuzione del percorso precedente. Durante l’intervallo di tempo specificato, il percorso viene eseguito immediatamente dopo aver rilevato il nuovo pubblico. Tuttavia, se non viene rilevato alcun nuovo pubblico, l’esecuzione del percorso viene ignorata.
+
+**Periodo di look-back per percorsi di lettura incrementali**
+
+Quando **[!UICONTROL Trigger dopo la valutazione del pubblico in batch]** è selezionato, [!DNL Journey Optimizer] cerca una nuova valutazione del pubblico. Per il punto iniziale del periodo di look-back, viene utilizzata l’ora dell’ultima esecuzione riuscita del percorso, anche se si è verificata più di 24 ore fa. Ciò è significativo per i percorsi di lettura incrementali che in genere hanno un periodo di look-back di 24 ore.
+
+Esempi di percorsi di lettura incrementali giornalieri:
+
+* Con &quot;Trigger dopo valutazione del pubblico in batch&quot; attivo: se sono trascorsi tre giorni dall’ingresso dei profili incrementali nel percorso, il periodo di look-back si estenderebbe di tre giorni alla ricerca dei profili incrementali.
+* Con &quot;Trigger dopo valutazione del pubblico in batch&quot; non attivo: se sono trascorsi tre giorni da quando i profili incrementali sono entrati nel percorso, il periodo di look-back torna indietro solo di 24 ore quando si cercano profili incrementali.
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->I percorsi Read audience univoci passano allo stato **Finished** 91 percorsi ([timeout globale del percorso](journey-properties.md#global_timeout)) dopo l&#39;esecuzione. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 91 giorni dall’esecuzione dell’ultima occorrenza.
 
 ## Test e pubblicazione del percorso {#testing-publishing}
 
@@ -213,6 +254,12 @@ La segmentazione può essere basata su:
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>Quando utilizzi il tipo di pianificazione &quot;Giornaliero&quot; con un&#39;attività **[!UICONTROL Read Audience]**, puoi definire un intervallo di tempo per il percorso in modo che attenda nuovi dati sul pubblico. In questo modo è possibile garantire un targeting accurato e prevenire i problemi causati da ritardi nei processi di segmentazione batch. [Scopri come pianificare un percorso](#schedule)
+>
+>L&#39;opzione **[!UICONTROL Trigger dopo valutazione del pubblico in batch]** è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
+
 **Exclusion**
 
 La stessa attività **Condition** utilizzata per la segmentazione (vedi sopra) ti consente anche di escludere parte della popolazione. Ad esempio, puoi escludere le persone VIP facendole fluire in un ramo con un passaggio finale subito dopo.
@@ -223,16 +270,11 @@ Questa esclusione può verificarsi subito dopo il recupero del pubblico, per sco
 
 **Union**
 
-I percorsi consentono di creare N rami e unirli dopo una segmentazione.
+I percorsi consentono di creare N rami e unirli dopo una segmentazione. Di conseguenza, puoi fare in modo che due tipi di pubblico tornino a un’esperienza comune.
 
-Di conseguenza, puoi fare in modo che due tipi di pubblico tornino a un’esperienza comune.
-
-Ad esempio, dopo aver seguito un’esperienza diversa per dieci giorni di un percorso, i clienti VIP e non VIP possono tornare allo stesso percorso.
-
-Dopo un’unione, puoi dividere nuovamente il pubblico eseguendo una segmentazione o un’esclusione.
+Ad esempio, dopo aver seguito un’esperienza diversa per dieci giorni di un percorso, i clienti VIP e non VIP possono tornare allo stesso percorso. Dopo un’unione, puoi dividere nuovamente il pubblico eseguendo una segmentazione o un’esclusione.
 
 ![](assets/read-segment-audience3.png)
-
 
 ## Nuovi tentativi {#read-audience-retry}
 

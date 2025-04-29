@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: preintestazione, editor, riepilogo, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Aggiungere una preintestazione"
+>title="Definire una preintestazione"
 >abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
 
 Durante la progettazione delle e-mail, per una migliore leggibilità e una migliore accessibilità, puoi definire metadati aggiuntivi per il contenuto. Il [!DNL Journey Optimizer] [Messaggio di posta elettronica di Designer](get-started-email-design.md) consente di specificare i seguenti elementi:

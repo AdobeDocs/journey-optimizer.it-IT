@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -79,19 +79,7 @@ Per ulteriori informazioni, consulta questa [sezione](../event/about-creating-bu
 
 * Per i percorsi ricorrenti: per impostazione predefinita, tutti i profili appartenenti al pubblico entrano nel percorso per ogni ricorrenza. Devono terminare il percorso prima di poter rientrare in un&#39;altra occorrenza.
 
-Per i percorsi di pubblico Leggi ricorrenti sono disponibili due opzioni:
-
-* Opzione **Lettura incrementale**: quando viene eseguito per la prima volta un percorso con un pubblico ricorrente di tipo **Lettura**, tutti i profili del pubblico entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
-
-  >[!NOTE]
-  >
-  >Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#segments-in-journey-optimizer), i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
-
-* **Forza il rientro in caso di ricorrenza**: questa opzione consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all&#39;esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza (ad esempio, se utilizzi le attività Attendi), non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
-
-![](assets/read-audience-options.png)
-
-Per ulteriori informazioni, consulta questa [sezione](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+Sono disponibili diverse opzioni per percorsi di pubblico Read ricorrenti. Per ulteriori informazioni, consulta la sezione [Utilizzare un pubblico in un percorso](../building-journeys/read-audience.md).
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

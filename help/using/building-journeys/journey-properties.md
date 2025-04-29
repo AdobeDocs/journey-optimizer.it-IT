@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 18%
+source-wordcount: '2344'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,6 @@ Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È poss
 
 Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il campo **Periodo di attesa rientro**. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
 
-
 ## Gestisci accesso {#manage-access}
 
 Per assegnare etichette di utilizzo dei dati personalizzate o di base al percorso, fare clic sul pulsante **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ Questo timeout globale interrompe l&#39;avanzamento dei singoli utenti nel perco
 A causa del timeout di 91 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 91 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 91 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 91 giorni fa.
 
 Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 91 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
-
 
 #### Time-to-Live (TTL) e domande frequenti sulla conservazione dei dati {#timeout-faq}
 
@@ -301,6 +299,10 @@ I seguenti guardrail e limitazioni si applicano alla capacità dei criteri di us
 
 * I criteri di uscita sono definiti solo nello stato di bozza
 * Coerenza dello spazio dei nomi del percorso tra eventi e criteri di uscita basati su eventi
+
+## Pianificazione percorso {#schedule}
+
+La sezione **[!UICONTROL Pianifica]** è disponibile solo quando un&#39;attività **[!UICONTROL Read Audience]** è stata eliminata nell&#39;area di lavoro. Consente di definire una data/ora e una frequenza specifiche per l&#39;esecuzione del percorso. [Scopri come pianificare un percorso Read-audience](../building-journeys/read-audience.md)
 
 ## Gestione dei conflitti {#conflict}
 
