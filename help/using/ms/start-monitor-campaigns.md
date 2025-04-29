@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 34%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="Pubblica campagna orchestrata"
->abstract="Per avviare la campagna, devi pubblicarla. Assicurati che tutti gli avvisi siano cancellati prima della pubblicazione."
+>title="Pubblicare una campagna orchestrata"
+>abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli avvisi siano cancellati prima della pubblicazione."
 
 Dopo aver creato le attività orchestrate e progettate da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne l’esecuzione.
 
@@ -29,7 +29,7 @@ Dopo aver creato le attività orchestrate e progettate da eseguire nell’area d
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Attività del Modulo di pianificazione"
->abstract="La campagna **Scheduler** ti consente di pianificare l&#39;avvio della campagna orchestrata. Questa attività dovrebbe essere considerata come un avvio pianificato. Può essere utilizzata solo come prima attività della campagna orchestrata."
+>abstract="La campagna **Scheduler** ti consente di pianificare l&#39;avvio della campagna orchestrata. Questa attività deve essere considerata come un avvio pianificato. Può essere utilizzata solo come prima attività della campagna orchestrata."
 
 In qualità di manager della campagna, puoi pianificare il lancio automatico delle campagne in momenti specifici, consentendo un calendario preciso e dati di targeting precisi per le comunicazioni di marketing.
 

@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1436'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -97,7 +97,7 @@ Il riquadro di navigazione consente di selezionare l’origine per la personaliz
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Completamento automatico"
->abstract="L&#39;attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi Profilo e Contesto. Se è disattivato tramite l’interruttore, l’editor fornisce il completamento automatico del codice nativo di HTML."
+>abstract="L’attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito interruttore, il completamento automatico del codice HTML nativo verrà esegiuto dall’editor."
 
 Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro degli attributi e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
 
@@ -127,7 +127,7 @@ Le opzioni disponibili sono:
 
 1. **[!UICONTROL Trova]** / **[!UICONTROL Trova e sostituisci]**: cerca nell&#39;espressione e sostituisci automaticamente parti di codice.
 1. **[!UICONTROL Annulla]** / **[!UICONTROL Ripristina]**: annulla/ripristina l&#39;ultima operazione.
-1. **[!UICONTROL Completamento automatico]**: suggerisce e completa automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi Profilo e Contesto. Se è disattivato tramite l’interruttore, l’editor fornisce il completamento automatico del codice nativo di HTML.
+1. **[!UICONTROL Completamento automatico]**: suggerisce e completa automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito interruttore, il completamento automatico del codice HTML nativo verrà esegiuto dall’editor.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 

@@ -11,16 +11,16 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
-# Introduzione all’integrazione con GenStudio {#gs-genstudio}
+# Introduzione all’integrazione GenStudio {#gs-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
->title="Utilizza un modello creato con GenStudio"
->abstract="Grazie all’integrazione perfetta con Adobe GenStudio for Performance Marketing, puoi importare facilmente un modello GenStudio ottimizzato con la tecnologia AI di Adobe."
+>title="Utilizzare un modello creato con GenStudio"
+>abstract="Grazie all’integrazione diretta con Adobe GenStudio for Performance Marketing, puoi importare facilmente un modello GenStudio ottimizzato con la tecnologia dell’intelligenza artificiale di Adobe."
 
 >[!AVAILABILITY]
 >

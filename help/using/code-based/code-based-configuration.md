@@ -13,7 +13,7 @@ ht-degree: 23%
 
 ---
 
-# Configurare l’esperienza basata su codice in anteprima {#code-based-configuration}
+# Configurare l’esperienza basata su codice {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"

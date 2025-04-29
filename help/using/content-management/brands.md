@@ -11,31 +11,31 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 16%
+ht-degree: 42%
 
 ---
 
-# Creare e gestire i brand {#brands}
+# Creare e gestire i brand personali {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
 >title="Introduzione ai brand"
->abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo marchio."
+>abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
->title="Seleziona il tuo marchio"
->abstract="Scegli il tuo marchio per assicurarti che tutti i contenuti generati dall’intelligenza artificiale siano personalizzati in base alle specifiche e alle linee guida del tuo marchio."
+>title="Selezionare il brand"
+>abstract="Scegli il tuo brand per assicurarti che tutti i contenuti generati dall’intelligenza artificiale siano personalizzati in base alle specifiche e alle linee guida del tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="Selezione del brand"
->abstract="Seleziona il tuo marchio per assicurarti che i contenuti siano realizzati in conformità con le linee guida, gli standard e l’identità specifici, mantenendo la coerenza e l’integrità del marchio."
+>abstract="Seleziona il tuo brand per assicurarti che i contenuti siano realizzati in conformità con le linee guida, gli standard e l’identità specifici, mantenendo la coerenza e l’integrità del brand."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Punteggio di allineamento del brand"
->abstract="Il punteggio di allineamento del brand misura il rispetto dei contenuti rispetto alle linee guida del brand, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
+>abstract="Il punteggio di allineamento del brand misura quanto i contenuti rispettano le rispettive linee guida, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -59,8 +59,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Scrittura punteggio stile"
->abstract="Scrittura punteggio stile"
+>title="Punteggio stile scrittura"
+>abstract="Punteggio stile scrittura"
 
 >[!AVAILABILITY]
 >
@@ -98,12 +98,12 @@ Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], 
 
 +++
 
-## Crea il tuo marchio {#create-brand-kit}
+## Creare il brand {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
->title="Crea il tuo marchio"
->abstract="Inserisci il nome del brand e carica il file delle linee guida per il brand. Lo strumento estrae automaticamente i dettagli chiave, semplificando il mantenimento dell’identità del brand."
+>title="Creare il brand"
+>abstract="Inserisci il nome e carica il file delle linee guida del brand. Lo strumento estrarrà automaticamente i dettagli chiave, semplificando il mantenimento dell’identità del brand."
 
 Per creare e gestire la linea guida del brand, puoi inserire i dettagli personalmente o caricare il documento di linee guida del brand per estrarre automaticamente le informazioni:
 

@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -38,17 +38,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Ripeti ogni"
->abstract="Definisci una frequenza per il modulo di pianificazione ricorrente."
+>abstract="Definisci la frequenza per il modulo di pianificazione ricorrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="Lettura incrementale"
->abstract="Consenti solo ai nuovi profili dall&#39;ultima lettura di accedere al percorso."
+>abstract="Consenti l’ingresso nel percorso solo ai nuovi profili rispetto all’ultima lettura."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Forza rientro"
->abstract="Rilascia tutti i partecipanti al percorso prima che ogni pubblico legga."
+>title="Forza reingresso"
+>abstract="Rilascia tutti i partecipanti al percorso prima della lettura di ciascun pubblico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"

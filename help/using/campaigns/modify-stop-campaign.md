@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -26,8 +26,8 @@ Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzio
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Campagne basate su tabelle e viste Timeline"
->abstract="Visualizzazioni di tabella e timeline delle campagne"
+>title="Viste Tabella e Timeline delle campagne"
+>abstract="Viste Tabella e Timeline delle campagne"
 
 Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**.
 

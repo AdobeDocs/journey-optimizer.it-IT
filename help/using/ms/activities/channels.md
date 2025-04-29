@@ -10,7 +10,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 19%
+ht-degree: 49%
 
 ---
 
@@ -30,32 +30,32 @@ Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 
 * Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna.
 
-## Configurare un’attività del canale {#create-a-delivery-in-a-workflow}
+## Configurare un’attività di canale {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Attività e-mail"
->abstract="L’attività E-mail ti consente di inviare e-mail all’interno della campagna a più passaggi, sia per messaggi una tantum che ricorrenti. Consente di automatizzare il processo di invio di e-mail a una destinazione calcolata all’interno della stessa campagna a più passaggi. Puoi combinare le attività del canale in un’area di lavoro per campagne con più passaggi per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività E-mail ti consente di inviare e-mail all’interno della campagna multifase, sia per i messaggi singoli che ricorrenti. Consente di automatizzare il processo di invio di e-mail a una destinazione calcolata all’interno della stessa campagna multifase. È possibile combinare le attività del canale nell’area di lavoro di una campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Attività SMS"
->abstract="L’attività SMS ti consente di inviare SMS all’interno della campagna a più passaggi, sia per messaggi occasionali che ricorrenti. Serve per automatizzare il processo di invio di SMS a una destinazione calcolata all’interno della stessa campagna a più passaggi. Puoi combinare le attività del canale nell’area di lavoro della campagna a più passaggi per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività SMS consente l’invio di SMS all’interno della campagna multifase, sia per i messaggi singoli che ricorrenti. Consente di automatizzare il processo di invio di SMS a una destinazione calcolata all’interno della stessa campagna multifase. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Attività push iOS"
->abstract="L’attività Push di iOS ti consente di inviare notifiche push di iOS come parte della campagna a più passaggi. Consente la consegna di campagne a più passaggi sia una tantum che ricorrenti, automatizzando l’invio di notifiche push iOS a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento e ai dati della clientela."
+>abstract="L’attività push iOS ti consente di inviare notifiche push di iOS come parte della campagna multifase. Consente la consegna di campagne multifase, sia singole che ricorrenti, automatizzando l’invio di notifiche push iOS a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento e ai dati della clientela."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Attività push Android"
->abstract="L’attività Push di Android ti consente di inviare notifiche push di Android come parte della campagna a più passaggi. Consente la consegna di messaggi sia occasionali che ricorrenti, automatizzando l’invio di notifiche push Android a un target predefinito all’interno della stessa campagna a più passaggi. Puoi combinare le attività del canale nell’area di lavoro della campagna a più passaggi per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività push Android ti consente di inviare notifiche push di Android come parte della campagna multifase. Consente la consegna di messaggi sia singoli che ricorrenti, automatizzando l’invio di notifiche push Android a una destinazione predefinita all’interno della stessa campagna multifase. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Attività direct mail"
->abstract="L’attività Direct mail facilita l’invio di direct mailing all’interno della campagna a più passaggi, sia per messaggi una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. Puoi combinare le attività del canale nell’area di lavoro della campagna a più passaggi per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività direct mail facilita l’invio con direct mail all’interno della campagna multifase, sia per messaggi singoli che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 Per impostare una consegna nel contesto di una campagna orchestrata, segui i passaggi seguenti:
 

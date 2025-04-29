@@ -19,7 +19,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
 >title="Proprietà campagna orchestrata"
->abstract="In questa schermata, scegli il modello da utilizzare per creare la campagna orchestrata e specifica un’etichetta. Espandi la sezione **Opzioni aggiuntive** per configurare altre impostazioni, ad esempio il nome interno della campagna orchestrata, la cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+>abstract="In questa schermata, scegli il modello da utilizzare per creare la campagna orchestrata e specifica un’etichetta. Espandi la sezione **Opzioni aggiuntive** per configurare altre impostazioni, ad esempio il nome interno della campagna orchestrata, la cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori siano avvisati in caso di errore."
 
 Durante la creazione di una campagna orchestrata o l’orchestrazione di attività di campagna orchestrate nell’area di lavoro, puoi accedere alle impostazioni avanzate relative alla campagna orchestrata. Ad esempio, puoi impostare un fuso orario specifico per la campagna orchestrata, gestire il comportamento della campagna orchestrata in caso di errore o gestire il ritardo dopo il quale la cronologia della campagna orchestrata deve essere eliminata.
 

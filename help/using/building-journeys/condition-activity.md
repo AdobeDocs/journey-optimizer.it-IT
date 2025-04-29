@@ -12,20 +12,20 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
 # Attività Condizione {#condition-activity}
 
-## Aggiungere un’attività condizione {#add-condition-activity}
+## Aggiungi un’attività Condizione. {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Attività Condizione"
->abstract="L&#39;attività **Condition** ti consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida."
+>abstract="L’attività **Condizione** ti consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida."
 
-L&#39;attività **Condition** ti consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida.
+L’attività **Condizione** ti consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida.
 
 ![](assets/journey49.png)
 
@@ -39,7 +39,7 @@ Sono disponibili i seguenti tipi di condizioni:
 
 È inoltre possibile utilizzare un pubblico in una condizione di percorso. [Ulteriori informazioni](#using-a-segment)
 
-## Aggiungere e gestire i percorsi delle condizioni {#about_condition}
+## Aggiungere e gestire i percorsi Condizione {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -94,7 +94,7 @@ Utilizza una **[!UICONTROL Condizione temporale]** per eseguire azioni diverse i
 
 >[!NOTE]
 >
->* Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Ulteriori informazioni su [questa pagina](../building-journeys/timezone-management.md).
+>* Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/timezone-management.md).
 >
 >* Per impostazione predefinita, la **[!UICONTROL condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00.
 

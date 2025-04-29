@@ -12,18 +12,18 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # Sfogliare e filtrare i percorsi {#browse-journeys}
 
-## Dashboard percorso {#dashboard-jo}
+## Dashboard del percorso {#dashboard-jo}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Visualizzazioni tabella percorsi e timeline"
->abstract="Visualizzazioni tabella percorsi e timeline"
+>title="Viste Tabella e Timeline dei percorsi"
+>abstract="Viste Tabella e Timeline dei percorsi"
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede: **[!UICONTROL Panoramica]** e **[!UICONTROL Sfoglia]**.
 
@@ -128,7 +128,7 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 >[!NOTE]
 >
->Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni su [questa pagina](../start/guardrails.md#journey-versions-journey-versions-g).
+>Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni sono disponibili in [questa pagina](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplicare un percorso {#duplicate-a-journey}
 

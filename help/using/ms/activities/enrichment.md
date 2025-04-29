@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '2050'
-ht-degree: 30%
+ht-degree: 34%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
->title="Attività di arricchimento"
+>title="Attività Arricchimento"
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione."
 
 
@@ -51,11 +51,11 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Dati di arricchimento"
->abstract="Seleziona i dati da utilizzare per arricchire la campagna orchestrata. Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dalla dimensione target oppure un collegamento raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
+>abstract="Seleziona i dati da utilizzare per arricchire la campagna orchestrata. Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dalla dimensione di destinazione oppure un collegamento di raccolta, ossia un collegamento con cardinalità 1-N tra più tabelle."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
->title="Attività di arricchimento"
+>title="Attività Arricchimento"
 >abstract="Una volta aggiunti i dati di arricchimento alla campagna orchestrata, è possibile utilizzarli nelle attività aggiunte dopo l’attività Enrichment per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione."
 
 1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati.
@@ -110,9 +110,9 @@ Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="Riconciliazione"
->abstract="L&#39;attività **Enrichment** può essere utilizzata per riconciliare i dati dello schema di Journey Optimizer con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un&#39;attività Load file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Journey Optimizer crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco."
+>abstract="L’attività **Arricchimento** può essere utilizzata per riconciliare i dati dallo schema di Journey Optimizer con i dati di un altro schema o con quelli provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Carica file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Journey Optimizer crea un collegamento a una tabella di destinazione aggiungendo ad essa una chiave esterna per la memorizzazione di un riferimento al record univoco."
 
-L’attività di **arricchimento** del flusso di lavoro può ora essere utilizzata per riconciliare i dati dallo schema del database di Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Carica file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Journey Optimizer crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco.
+L’attività di **arricchimento** del flusso di lavoro può ora essere utilizzata per riconciliare i dati dallo schema del database di Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Carica file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Journey Optimizer crea un collegamento a una tabella di destinazione aggiungendo ad essa una chiave esterna per la memorizzazione di un riferimento al record univoco.
 
 Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign.
 

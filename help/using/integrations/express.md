@@ -14,16 +14,16 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Modifica risorse con [!DNL Adobe Express]{#express}
+# Modificare le risorse con [!DNL Adobe Express]{#express}
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
 >title="Integrazione Adobe Express"
->abstract="Inizia a personalizzare le risorse con l’integrazione Adobe Express. Questa funzione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG."
+>abstract="Inizia a personalizzare le risorse con l’integrazione di Adobe Express. Questa funzione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG."
 
 >[!AVAILABILITY]
 >
