@@ -1,12 +1,11 @@
 ---
 title: Allineamento al brand
 description: Scopri come creare, convalidare e gestire i contenuti nel brand utilizzando il punteggio di brand.
-feature: Content Management
 badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 5a30f898dda1297b7d754af431d9d1803c0b48b8
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 11%
