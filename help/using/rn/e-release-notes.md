@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Precedentemente disponibile in versione beta, la simulazione delle varianti di contenuto è ora generalmente disponibile (GA). Consente di visualizzare in anteprima diverse varianti di contenuto utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test al fine di creare più varianti.</p>
+<p>Con il rilascio Disponibilità generale, la funzione ora include il supporto per contenuti ed esperimenti di contenuti multilingue, consentendo di testare le varianti tra diversi linguaggi e trattamenti. Inoltre, ora supporta gli attributi contestuali (oltre agli attributi di profilo), consentendo test di contenuto ancora più dinamici e situazionali.</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 ### Miglioramenti {#25-04-improv}
 
-**Tipi di pubblico**
+<!--**Audiences**
 
-- **Rimuovi limitazione per gli attributi di arricchimento della composizione del pubblico**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  È ora possibile utilizzare i tipi di pubblico e gli attributi della composizione del pubblico con Healthcare Shield o Privacy and Security Shield.
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **Canale e-mail**
 
