@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
+source-git-commit: da76f1ba5717083791e894a545428b5ac71e7715
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 16%
@@ -89,6 +89,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Experience League offre ora un ambiente Personalization Playground interattivo. Questa funzione ti consente di esplorare e mettere in pratica le funzionalità di personalizzazione all’interno di Adobe Journey Optimizer. Puoi scrivere codice di personalizzazione, testare con payload di esempio e simulare scenari reali per migliorare la tua esperienza di apprendimento.</p>
+<img src="assets/do-not-localize/templating-playground.gif">
 </td>
 </tr>
 </tbody>
