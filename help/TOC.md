@@ -18,7 +18,7 @@ ht-degree: 87%
 + Novità {#whats-new}
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
    + [Note sulla versione più recente](using/rn/release-notes.md)
-   + Note sulle versioni precedenti {#previous-rn-new}
+   + Note sulla versione precedente {#previous-rn-new}
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
       + [2023](using/rn/release-notes-2023.md)
