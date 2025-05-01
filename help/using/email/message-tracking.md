@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1200'
 ht-degree: 31%
 
 ---
@@ -171,9 +171,9 @@ Il reporting sulle aperture e sui clic è disponibile nel [rapporto live](../rep
 
 ## Personalizzare il tracciamento URL {#url-tracking}
 
-In genere il [tracciamento URL](email-settings.md#url-tracking) viene gestito a livello di configurazione, ma gli attributi di profilo non sono supportati. Attualmente l&#39;unico modo per eseguire questa operazione è [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) nella finestra di progettazione e-mail.
+[Il tracciamento URL](email-settings.md#url-tracking) è gestito a livello di configurazione e si applica a tutti gli URL inclusi nel contenuto del messaggio.
 
-Per aggiungere parametri di tracciamento URL personalizzati ai collegamenti, segui i passaggi indicati di seguito.
+Puoi anche [personalizzare singoli URL](../personalization/personalization-syntax.md#perso-urls) nella finestra di progettazione e-mail. Per aggiungere parametri di tracciamento URL personalizzati a un singolo collegamento nel contenuto, segui i passaggi seguenti.
 
 1. Selezionare un collegamento e fare clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1170'
 ht-degree: 7%
 
 ---
@@ -98,7 +98,6 @@ Per utilizzare variabili personalizzate per i parametri di intestazione della co
 >
 >Puoi personalizzare tutti i campi **[!UICONTROL Parametri intestazione]**, ad eccezione del campo **[!UICONTROL Prefisso e-mail errore]**.
 
-
 1. Definisci i parametri di intestazione come faresti normalmente. [Scopri come](email-settings.md#email-header)
 
 1. Per ogni campo, seleziona l’icona Modifica.
@@ -125,17 +124,19 @@ Per utilizzare variabili personalizzate per i parametri di intestazione della co
 >
 >Se hai aggiunto uno o più sottodomini dinamici alla configurazione, i suffissi **Da e-mail** e **E-mail di errore** verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains) risolto.
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## Utilizzare il tracciamento URL personalizzato {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+Per utilizzare parametri di tracciamento URL personalizzati, segui i passaggi indicati di seguito.
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. Vai alla sezione **[!UICONTROL URL tracking parameters]** della configurazione del canale e-mail.
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. Fai clic sull’icona Modifica accanto a ciascun campo. Oltre agli attributi contestuali, puoi selezionare gli attributi del profilo.
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. Seleziona l&#39;attributo di profilo desiderato dall&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
+
+1. Ripeti i passaggi precedenti per ogni parametro di tracciamento che desideri personalizzare.
+
+Ora, quando l’e-mail viene inviata, il parametro personalizzato viene aggiunto automaticamente alla fine dell’URL. Puoi quindi acquisire questo parametro negli strumenti di analisi web o nei rapporti sulle prestazioni.
 
 ## Visualizza dettagli configurazione {#view-surface-details}
 

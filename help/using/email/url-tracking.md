@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 83%
+source-wordcount: '380'
+ht-degree: 78%
 
 ---
 
@@ -74,4 +74,4 @@ Puoi visualizzare in anteprima in modo dinamico l’URL di tracciamento risultan
 
 >[!NOTE]
 >
->Puoi anche aggiungere parametri di tracciamento dinamici personalizzati ai collegamenti presenti nel contenuto dell’e-mail, ma ciò non è possibile a livello di configurazione. È necessario eseguire questa operazione quando crei il messaggio utilizzando l’E-mail designer. [Ulteriori informazioni](message-tracking.md#url-tracking)
+>Puoi anche aggiungere parametri di tracciamento dinamici e personalizzati ai collegamenti presenti nel contenuto dell’e-mail. [Ulteriori informazioni](surface-personalization.md#personalize-url-tracking)
