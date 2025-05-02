@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: a425ecf446ba7a7a56a3cd1fd8ee2d396d8b6db7
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 47%
@@ -196,8 +196,10 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p> You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
+<p>You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
+<p>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
 <p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
+<p>Availability date: May 5, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -229,7 +231,8 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Ranking formulas allow you to define rules that will determine which decision items should be presented first, rather than taking into account the priority scores.  </p>
+<p>You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Ranking formulas allow you to define rules that will determine which decision items should be presented first, rather than taking into account the priority scores.</p>
+<p>Availability date: May 5, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -269,7 +272,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 
 **Canale e-mail**
 
-* **Tracciamento URL personalizzato** Data di disponibilità: 30 aprile 2025
+* **Tracciamento URL personalizzato** - Data di disponibilità: 30 aprile 2025
 
   Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, ora puoi personalizzare tutti i parametri di tracciamento URL contemporaneamente a livello di configurazione del canale e-mail, invece di farlo nella finestra di progettazione e-mail per ogni collegamento nel contenuto. [Ulteriori informazioni](../email/surface-personalization.md#personalize-url-tracking)
 
