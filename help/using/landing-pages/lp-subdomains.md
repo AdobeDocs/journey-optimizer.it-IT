@@ -36,13 +36,13 @@ ht-degree: 19%
 
 ## Introduzione ai sottodomini delle pagine di destinazione {#gs-lp-subdomains}
 
-Per poter creare dei predefiniti](lp-presets.md) per [le pagine di destinazione, devi impostare i sottodomini che utilizzerai per le pagine di destinazione.
+Per poter creare dei predefiniti[&#128279;](lp-presets.md) per le pagine di destinazione, devi impostare i sottodomini che utilizzerai per le pagine di destinazione.
 
 È possibile utilizzare un sottodominio già delegato a Adobe Systems oppure configurare un altro sottodominio. Scopri ulteriori informazioni sulla delega di sottodomini a Adobe Systems in [questa sezione](../configuration/delegate-subdomain.md).
 
 La configurazione del sottodominio della pagina di destinazione è **comune a tutti gli ambienti**. Pertanto:
 
-* Per accesso e modificare i sottodomini della pagina di ]**destinazione, devi disporre della**[!UICONTROL  autorizzazione Gestisci Pagina sottodomini di destinazione nella sandbox di produzione.
+* Per accesso e modificare i sottodomini della pagina di **destinazione, devi disporre della** autorizzazione Gestisci Pagina sottodomini di destinazione nella sandbox di produzione.
 
 * Qualsiasi modifica apportata a un sottodominio della pagina di destinazione influisce anche sulle sandbox di produzione.
 
@@ -101,7 +101,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 1. Fai clic su **[!UICONTROL Imposta sottodominio]**.
 
-1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione Tipo di ]****[!UICONTROL  configurazione.
+1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione Tipo di **&#x200B;**&#x200B;configurazione.
 
    ![](assets/lp_add-your-own-subdomain.png)
 

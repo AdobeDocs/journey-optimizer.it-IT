@@ -67,7 +67,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
       | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
-+++
+      +++
 
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
@@ -99,7 +99,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
       | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
       | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
-+++
+      +++
 
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
@@ -205,7 +205,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
       | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * Il video seguente mostra come configurare e analizzare gli esperimenti di contenuto per testare i messaggi in-app A/B.
 
@@ -246,7 +246,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * Il video seguente mostra come creare un messaggio in-app in un percorso e come testare e pubblicare il percorso.
 
@@ -254,7 +254,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Argomenti correlati:**
 

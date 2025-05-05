@@ -115,7 +115,7 @@ Se hai selezionato **[!UICONTROL SFTP]** come **[!UICONTROL tipo di server]**, c
 
 >[!NOTE]
 >
->Per specificare un percorso sul server per il salvataggio del file, aggiorna il campo Nome file ]**della**[!UICONTROL  campagna direct mail in modo che includa il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
+>Per specificare un percorso sul server per il salvataggio del file, aggiorna il campo Nome file **della** campagna direct mail in modo che includa il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
 
 >[!TAB Azure]
 

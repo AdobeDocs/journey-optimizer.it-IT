@@ -88,7 +88,7 @@ Per utilizzare un sottodominio già delegato a Adobe Systems, seguire i passaggi
 
    Verrà utilizzato solo il **sottodominio predefinito** .
 
-1. Fai clic su &quot;Submit&quot; (Invia ****). Il sottodominio ottiene lo **[!UICONTROL stato Operazione riuscita]** . È pronto per essere utilizzato nelle esperienze web.
+1. Fai clic su &quot;Submit&quot; (Invia **&#x200B;**). Il sottodominio ottiene lo **[!UICONTROL stato Operazione riuscita]** . È pronto per essere utilizzato nelle esperienze web.
 
    In casi molto rari, l’impostazione di un sottodominio potrebbe non riuscire. In questo caso, puoi eliminare il sottodominio **[!UICONTROL Non riuscito]** per pulire l&#39;elenco utilizzando il pulsante **[!UICONTROL Elimina]** dall&#39;icona **[!UICONTROL Altre azioni]**.
 
@@ -107,7 +107,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
-1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione Tipo di ]****[!UICONTROL  configurazione.
+1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione Tipo di **&#x200B;**&#x200B;configurazione.
 
 1. Specifica il sottodominio da delegare.
 

@@ -122,6 +122,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
+
      **Campo:** lingua
      **Titolo:** Lingua
      **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.

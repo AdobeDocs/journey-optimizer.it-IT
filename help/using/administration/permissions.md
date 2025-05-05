@@ -93,7 +93,7 @@ Se necessario, puoi anche creare un nuovo ruolo con autorizzazioni specifiche. P
 
 Per ulteriori informazioni su come creare e gestire le sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
 
-In questo esempio verrà creato un ruolo denominato **Percorsi di sola lettura** in cui verranno concessi diritti di sola lettura per la funzionalità di Percorso. Gli utenti potranno solo accedere ai percorsi e visualizzarli e non potranno accedere ad altre funzionalità come **[!DNL  Decision management]** in [!DNL Journey Optimizer].
+In questo esempio verrà creato un ruolo denominato **Percorsi di sola lettura** in cui verranno concessi diritti di sola lettura per la funzionalità di Percorso. Gli utenti potranno solo accedere ai percorsi e visualizzarli e non potranno accedere ad altre funzionalità come **[!DNL &#x200B; Decision management]** in [!DNL Journey Optimizer].
 
 Per creare i **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 

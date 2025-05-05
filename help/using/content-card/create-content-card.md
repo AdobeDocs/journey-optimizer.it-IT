@@ -53,7 +53,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
       | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
 
-+++
+      +++
 
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
 
@@ -78,7 +78,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
       | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
 
-+++
+      +++
 
    1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 

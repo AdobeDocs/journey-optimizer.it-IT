@@ -30,6 +30,7 @@ Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, c
 * Questa funzionalità è supportata solo in **Gestione delle decisioni**, non in Decisioning (precedentemente noto come &quot;Experience Decisioning&quot;).
 * È disponibile esclusivamente tramite le richieste **Decisioning API (Hub)** e non è supportato da **Edge Decisioning API** o **batch decisioning**.
  
+
 ## Utilizzare un pubblico di caricamento personalizzato come criterio di idoneità {#eligibilty}
 
 Puoi utilizzare un pubblico di caricamento personalizzato come criterio di idoneità a livello di offerta o decisione. Una volta aggiunti, questi criteri possono escludere offerte o raccolte di offerte dall’idoneità. Di seguito sono elencate le varie posizioni in cui puoi sfruttare i tipi di pubblico di caricamento personalizzati per perfezionare le offerte e l’idoneità alle decisioni:

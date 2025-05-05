@@ -65,7 +65,7 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
       | Piattaforma | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall&#39;estensione AEP Edge. |
       | Manuale | Attivazione manuale | Due elementi dati associati: una chiave, che è una costante che definisce il set di dati (ad esempio, genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad esempio, maschio/femmina, verde, 100). |
 
-+++
+      +++
 
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
@@ -82,7 +82,7 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
       | Piattaforma | Tipo di evento XDM | Attivazione quando viene soddisfatto il tipo di evento specificato. |
       | Piattaforma | Valore XDM | Attivazione quando viene soddisfatto il valore XDM specificato. |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

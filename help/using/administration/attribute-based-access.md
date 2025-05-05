@@ -28,7 +28,7 @@ In questo esempio, si desidera aggiungere un&#39;etichetta al campo schema **Naz
 
 1. Crea un nuovo **[!UICONTROL Ruolo]** e assegnalo con la **[!UICONTROL Etichetta]** corrispondente affinché gli utenti possano accedere e utilizzare il campo schema.
 
-1. Assegna un&#39;etichetta **[!UICONTROL 1} al campo schema** Nazionalità&#x200B;**in Adobe Experience Platform.]**
+1. Assegna un&#39;etichetta **[!UICONTROL 1&rbrace; al campo schema** Nazionalità&#x200B;**in Adobe Experience Platform.]**
 
 1. Utilizza il campo **[!UICONTROL Schema]** in Adobe Journey Optimizer.
 

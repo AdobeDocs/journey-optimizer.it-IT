@@ -118,7 +118,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
       * Fai clic sul pulsante **[!UICONTROL Mantieni modifiche]** per confermare e salvare la regola.
 
-+++
+   +++
 
 1. Trascina e rilascia le impostazioni locali per riordinarle e gestirne la priorità nell’elenco.
 

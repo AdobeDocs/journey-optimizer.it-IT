@@ -39,21 +39,21 @@ Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi d
 >
 >Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con flussi di lavoro di composizione, accertati che vengano aggiunti a un gruppo di campi nel Data Source di &quot;Experience Platform&quot;.
 >
-+++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi>
+>+++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi>
 >
-1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
-1. Selezionare &quot;Experience Platform&quot; e creare o modificare un gruppo di campi.
-1. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema sarà nel seguente formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
-1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
-1. Salva le modifiche.
-1. Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfruttarli in Journey Optimizer nelle posizioni elencate in precedenza.
+>1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
+>1. Selezionare &quot;Experience Platform&quot; e creare o modificare un gruppo di campi.
+>1. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema sarà nel seguente formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
+>1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
+>1. Salva le modifiche.
+>1. Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfruttarli in Journey Optimizer nelle posizioni elencate in precedenza.
 >
-Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezioni:
+>Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezioni:
 >
-* [Utilizzare l&#39;origine dati di Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
-* [Configurare un&#39;origine dati](../datasource/configure-data-sources.md)
+>* [Utilizzare l&#39;origine dati di Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+>* [Configurare un&#39;origine dati](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 

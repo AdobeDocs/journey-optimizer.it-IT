@@ -45,7 +45,7 @@ Per farlo, segui la procedura indicata di seguito:
 
    ![](assets/ajo-aa_1.png)
 
-1. Dall&#39;elenco delle suite di rapporti Adobe Analytics disponibili, seleziona la suite ]**di**[!UICONTROL  rapporti da abilitare. Quindi fare clic su **[!UICONTROL Successivo]**.
+1. Dall&#39;elenco delle suite di rapporti Adobe Analytics disponibili, seleziona la suite **di** rapporti da abilitare. Quindi fare clic su **[!UICONTROL Successivo]**.
 
    ![](assets/ajo-aa_2.png)
 
@@ -97,11 +97,11 @@ Nell&#39;esempio riportato di seguito, scopri come destinazione utenti che hanno
 
 1. Fai clic su **[!UICONTROL Crea]** evento. Il riquadro di configurazione dell’evento si apre sul lato destro dello schermo.
 
-1. Compila i parametri dell&#39;evento ****:
+1. Compila i parametri dell&#39;evento **&#x200B;**:
 
    * **[!UICONTROL Nome]**: personalizza il nome del tuo **[!UICONTROL evento]**.
    * **[!UICONTROL Tipo]**: scegliere il **[!UICONTROL tipo unitario]** . [Ulteriori informazioni](../event/about-events.md)
-   * **[!UICONTROL Tipo di]** ID evento: scegli il tipo di ID evento basato su **** regola. [Ulteriori informazioni](../event/about-events.md#event-id-type)
+   * **[!UICONTROL Tipo di]** ID evento: scegli il tipo di ID evento basato su **&#x200B;**&#x200B;regola. [Ulteriori informazioni](../event/about-events.md#event-id-type)
    * **[!UICONTROL Schema]**: seleziona lo schema [Analytics o WebSDK creato in precedenza](#leverage-analytics-data).
    * **[!UICONTROL Campi]**: selezionare i campi payload. [Ulteriori informazioni](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Condizione]** ID evento: definisci la condizione per identificare gli eventi che attiveranno il tuo viaggio.

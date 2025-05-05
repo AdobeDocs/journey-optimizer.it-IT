@@ -69,7 +69,7 @@ dove:
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **Destinatari**
 
@@ -112,7 +112,7 @@ dove:
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## Helper{#helpers-all}
 

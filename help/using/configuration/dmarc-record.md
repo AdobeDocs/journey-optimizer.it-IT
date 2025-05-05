@@ -27,7 +27,7 @@ ht-degree: 11%
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica e di servizi Internet (ISP), aiuta a evitare che gli attori malintenzionati inviino e-mail che affermano di appartenere al tuo dominio. L’implementazione di DMARC riduce il rischio che le e-mail legittime vengano contrassegnate come spam o vengano rifiutate, inoltre migliora il recapito dei messaggi e-mail.
 
-DMARC offre anche rapporti sui messaggi che non superano l&#39;autenticazione, insieme al controllo sulla gestione delle e-mail che non superano DMARC convalida. A seconda del regola](#dmarc-policies) DMARC implementato[, queste e-mail possono essere monitorate, messe in quarantena o rifiutate. Queste funzionalità consentono di intraprendere azioni per mitigare e risolvere potenziali errori.
+DMARC offre anche rapporti sui messaggi che non superano l&#39;autenticazione, insieme al controllo sulla gestione delle e-mail che non superano DMARC convalida. A seconda del regola[&#128279;](#dmarc-policies) DMARC implementato, queste e-mail possono essere monitorate, messe in quarantena o rifiutate. Queste funzionalità consentono di intraprendere azioni per mitigare e risolvere potenziali errori.
 
 Per aiutarti a prevenire problemi di recapito mentre ottieni il controllo sulla posta che non riesce l&#39;autenticazione, [!DNL Journey Optimizer] ora supporta la tecnologia DMARC direttamente nella sua interfaccia di amministrazione. [Ulteriori informazioni](#implement-dmarc)
 
@@ -82,7 +82,7 @@ L&#39;interfaccia di amministrazione di [!DNL Journey Optimizer] consente di imp
 
 Per assicurarti di avere un record DMARC impostato per tutti i sottodomini che hai delegato in [!DNL Journey Optimizer], seguire la procedura seguente.
 
-1. Accedi alle **[!UICONTROL impostazioni]** di Amministrazione ]**>**[!UICONTROL  canali ]**>**[!UICONTROL  e-mail > **[!UICONTROL menu Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
+1. Accedi alle **[!UICONTROL impostazioni]** di Amministrazione **>**&#x200B;[!UICONTROL &#x200B; canali &#x200B;]&#x200B;**>** e-mail > **[!UICONTROL menu Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
 
 1. Per ogni sottodominio delegato, controllare la **[!UICONTROL colonna Record]** DMARC. Se non è stato trovato alcun record per un determinato sottodominio, viene riprodotto un avviso.
 

@@ -71,7 +71,7 @@ La funzione **[!UICONTROL all]** abilita la definizione di un filtro per una det
 
 Ad esempio, tra tutti gli utenti dell’app, puoi ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app utilizzata == IOS 13&quot;). Il risultato di questa funzione è l’elenco filtrato contenente gli elementi che corrispondono all’espressione booleana (ad esempio: utente app 1, utente app 34, utente app 432).
 
-In un&#39;attività **[!UICONTROL Data Origine Condition è possibile verificare se il risultato della funzione all]** è nullo o meno. È inoltre possibile combinare tutte ]**queste**[!UICONTROL  funzioni con altre funzioni come **[!UICONTROL count]**. Per ulteriori informazioni, vedi [Attività](../condition-activity.md#data_source_condition) Condizione Origine dati.
+In un&#39;attività **[!UICONTROL Data Origine Condition è possibile verificare se il risultato della funzione all]** è nullo o meno. È inoltre possibile combinare tutte **queste** funzioni con altre funzioni come **[!UICONTROL count]**. Per ulteriori informazioni, vedi [Attività](../condition-activity.md#data_source_condition) Condizione Origine dati.
 
 
 ## Esempi

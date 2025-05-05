@@ -121,7 +121,7 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca tramite u
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Adatta la sintassi in base alle tue esigenze. In questo esempio, vogliamo recuperare i dati relativi ai voli dei passeggeri. La sintassi è la seguente:
 
@@ -152,7 +152,7 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca tramite u
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    In questo esempio, vogliamo utilizzare le informazioni relative all&#39;orario di imbarco e al gate dei passeggeri. Pertanto, aggiungiamo queste due righe:
 

@@ -86,7 +86,7 @@ Per aggiungere una variante da un file, effettua le seguenti operazioni:
    }
    ```
 
-+++
+   +++
 
 1. Quando il file è pronto, fai clic su **[!UICONTROL Carica dati di input]** per caricarlo e verificare il contenuto.
 1. Una volta caricato il file, nel riquadro a sinistra viene aggiunta una casella per ogni riga del file. Ogni casella contiene tutti gli attributi di profilo utilizzati nel contenuto per la personalizzazione. Ora è possibile utilizzare le varianti per visualizzare in anteprima il contenuto nel riquadro a destra e inviare le bozze.
