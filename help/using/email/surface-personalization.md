@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1173'
 ht-degree: 7%
 
 ---
 
 # Personalizzare le impostazioni di configurazione e-mail {#surface-personalization}
 
-Per una maggiore flessibilità e un maggiore controllo sulle impostazioni delle e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini, intestazioni e parametri di tracciamento URL durante la creazione di configurazioni e-mail.
+Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini, intestazioni e parametri di tracciamento URL durante la creazione di configurazioni e-mail.
 
 ## Aggiungere sottodomini dinamici {#dynamic-subdomains}
 
