@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
 ht-degree: 11%
@@ -24,41 +24,6 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
 >abstract="L’attività Leggi pubblico consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico di Adobe Experience Platform entrino in un percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="Data/ora di inizio"
->abstract="Definisci la data e l’ora in cui desideri attivare questo percorso."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Ripeti fino a"
->abstract="Definisci la data di fine della ricorrenza."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Ripeti ogni"
->abstract="Definisci una frequenza per il modulo di pianificazione ricorrente."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="Lettura incrementale"
->abstract="Consenti l’ingresso nel percorso solo ai nuovi profili rispetto all’ultima lettura."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Forza reingresso"
->abstract="Rilascia tutti i partecipanti al percorso prima della lettura di ciascun pubblico."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Attiva dopo la valutazione batch del pubblico"
->abstract="Attiva questa opzione per attivare l’esecuzione del percorso dopo una nuova valutazione del pubblico batch."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Tempo di attesa per una nuova valutazione del pubblico"
->abstract="Specifica la durata di attesa del percorso per la valutazione del pubblico batch. Il periodo di attesa è limitato a valori interi, può essere specificato in minuti o ore e deve essere compreso tra 1 e 6 ore."
 
 Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
@@ -131,6 +96,41 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >La velocità di lettura complessiva per sandbox è impostata su 20.000 profili al secondo. Pertanto, la velocità di lettura di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox non supera i 20.000 profili al secondo. Non puoi modificare questo limite.
 
 ### Pianificare il percorso {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Data/ora di inizio"
+>abstract="Definisci la data e l’ora in cui desideri attivare questo percorso."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Ripeti fino a"
+>abstract="Definisci la data di fine della ricorrenza."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Ripeti ogni"
+>abstract="Definisci una frequenza per il modulo di pianificazione ricorrente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Lettura incrementale"
+>abstract="Consenti l’ingresso nel percorso solo ai nuovi profili rispetto all’ultima lettura."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forza reingresso"
+>abstract="Rilascia tutti i partecipanti al percorso prima della lettura di ciascun pubblico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Attiva dopo la valutazione batch del pubblico"
+>abstract="Attiva questa opzione per attivare l’esecuzione del percorso dopo una nuova valutazione del pubblico batch."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Tempo di attesa per una nuova valutazione del pubblico"
+>abstract="Specifica la durata di attesa del percorso per la valutazione del pubblico batch. Il periodo di attesa è limitato a valori interi, può essere specificato in minuti o ore e deve essere compreso tra 1 e 6 ore."
 
 Per impostazione predefinita, il percorso è configurato per essere eseguito una sola volta. Per definire una data, un&#39;ora e una frequenza specifiche per l&#39;esecuzione del percorso, effettuare le seguenti operazioni.
 
