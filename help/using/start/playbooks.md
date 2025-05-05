@@ -61,4 +61,4 @@ Oltre a utilizzare i playbook predefiniti, puoi creare e condividere i tuoi play
 
 Puoi definire i metadati utilizzando l’assistenza IA o l’input manuale, associare risorse tecniche come schemi, segmenti e condividere i playbook tra diverse organizzazioni IMS.
 
-Per ulteriori informazioni su come creare e condividere playbook, consulta la documentazione di Use Case Playbooks: [Crea e condividi i tuoi playbook utilizzando l&#39;Assistente AI](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
+Per ulteriori informazioni su come creare e condividere playbook, consulta la documentazione di Use Case Playbooks: [Crea e condividi i tuoi playbook utilizzando l&#39;Assistente AI](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=it#sharing-playbooks-sandboxes){target="_blank"}.

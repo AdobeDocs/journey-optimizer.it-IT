@@ -27,7 +27,7 @@ Durante il processo di caricamento personalizzato, specifica l’attributo CSV d
 
 ![](assets/import-audience.png)
 
-Informazioni dettagliate su come importare tipi di pubblico sono disponibili nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} di Adobe Experience Platform.
+Informazioni dettagliate su come importare tipi di pubblico sono disponibili nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} di Adobe Experience Platform.
 
 Scopri come caricare i tipi di pubblico in formato CSV nel video:
 

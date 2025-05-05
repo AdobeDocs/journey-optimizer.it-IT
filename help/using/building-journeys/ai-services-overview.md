@@ -19,11 +19,11 @@ ht-degree: 12%
 
 L&#39;integrazione con **[!DNL Adobe Intelligent Services]** consente di sfruttare la potenza dell&#39;intelligenza artificiale e dell&#39;apprendimento automatico nei casi di utilizzo dell&#39;esperienza del cliente. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un’azienda utilizzando configurazioni a livello aziendale senza la necessità di competenze in materia di data science.
 
-[!DNL Intelligent Services], basato su Adobe Experience Platform, offre agli esperti di marketing responsabili dell&#39;esperienza del cliente l&#39;accesso ad AI-as-a-service, semplificando la previsione del comportamento del cliente, la misurazione dell&#39;impatto di una campagna o la garanzia di un migliore ritorno su ogni investimento. Per ulteriori informazioni su [!DNL Adobe Intelligent Services], consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
+[!DNL Intelligent Services], basato su Adobe Experience Platform, offre agli esperti di marketing responsabili dell&#39;esperienza del cliente l&#39;accesso ad AI-as-a-service, semplificando la previsione del comportamento del cliente, la misurazione dell&#39;impatto di una campagna o la garanzia di un migliore ritorno su ogni investimento. Per ulteriori informazioni su [!DNL Adobe Intelligent Services], consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=it){target="_blank"}.
 
 L&#39;integrazione tra [!DNL Journey Optimizer] e [!DNL Intelligent Services] consente di sfruttare le previsioni dei clienti.
 
-Customer AI fa parte di [!DNL Adobe Intelligent Services]. Consente di prevedere le probabili azioni di un cliente. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
+Customer AI fa parte di [!DNL Adobe Intelligent Services]. Consente di prevedere le probabili azioni di un cliente. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=it){target="_blank"}.
 
 IA per l’analisi dei clienti consente ai brand di creare punteggi basati sull’apprendimento automatico di abbandono o conversione che saranno disponibili come attributi di profilo nei profili di Adobe Experience Platform (Real-time Customer Profile).
 

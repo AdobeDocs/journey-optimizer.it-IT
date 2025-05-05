@@ -35,7 +35,7 @@ Una visualizzazione può essere definita come un intero sito o un gruppo di elem
 
 Le visualizzazioni XDM possono essere utilizzate in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione Web sull&#39;SPA tramite l&#39;editor visivo Web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 
-Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it#implement-xdm-views){target="_blank"}.
 
 ## Scopri le visualizzazioni nel web designer {#discover-views}
 

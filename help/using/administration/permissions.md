@@ -48,7 +48,7 @@ Per assegnare un **[!UICONTROL ruolo]**:
 
 1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
-   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
+   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=it).
 
    ![](assets/do-not-localize/access_control_4.png)
 

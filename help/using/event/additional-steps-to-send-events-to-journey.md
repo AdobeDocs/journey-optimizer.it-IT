@@ -90,4 +90,4 @@ Ecco un esempio di evento Streaming Ingestion APIs:
 
 Per facilitare l&#39;identificazione del punto in cui incollare la parte &quot;data&quot;, è possibile utilizzare uno strumento di visualizzazione JSON come [JSON formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
+Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"}.

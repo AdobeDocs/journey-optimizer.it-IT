@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Elencare strategie di selezione {#list-selection-strategies}
 
-Una strategia di selezione è costituita da una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un [criterio di decisione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
+Una strategia di selezione è costituita da una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un [criterio di decisione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
 
 Per visualizzare un elenco di tutte le strategie di selezione, esegui una singola richiesta di GET all’API Libreria di offerte.
 

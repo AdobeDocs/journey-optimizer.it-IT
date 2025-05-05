@@ -61,7 +61,7 @@ In questo modo viene abilitato il connettore di origine Analytics per quella sui
 
 ![](assets/ajo-aa_4.png)
 
-Scopri ulteriori informazioni su Adobe Analytics connettore di origine in Adobe Experience Platform  [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
+Scopri ulteriori informazioni su Adobe Analytics connettore di origine in Adobe Experience Platform  [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it){target="_blank"} e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it){target="_blank"}.
 
 ## Attiva questa configurazione {#activate-analytics-data}
 

@@ -52,7 +52,7 @@ Per eventuali problemi o richieste di assistenza relativi alle traduzioni, conta
 
 Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
-* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Per iniziare a creare contenuti multilingue, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**. Per il flusso automatizzato, gli utenti avranno bisogno anche di autorizzazioni relative alle funzionalità di **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 

@@ -25,12 +25,12 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 >[!NOTE]
 >
->Per poter visualizzare il dashboard, devi disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+>Per poter visualizzare il dashboard, devi disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=it#available-permissions){target="_blank"}.
 
 Per [!DNL Adobe Journey Optimizer], è possibile controllare il numero di **Profili coinvolgibili** in questo dashboard. Un profilo coinvolgibile è un record di informazioni che rappresenta un individuo ed è rappresentato nel Servizio profili. Questi record sono profili che hai tentato di utilizzare con le funzionalità di authoring, decisione, distribuzione, sperimentazione o orchestrazione di Journey Optimizer negli ultimi 12 mesi.
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
+* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}

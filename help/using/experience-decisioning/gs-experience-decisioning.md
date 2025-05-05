@@ -24,7 +24,7 @@ ht-degree: 25%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer.
+Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer.
 
 >[!IMPORTANT]
 >
