@@ -147,4 +147,4 @@ Prima di utilizzare il pubblico in un percorso di produzione, valuta sempre per 
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446212?quality=12&captions=ita)

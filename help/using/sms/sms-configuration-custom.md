@@ -83,4 +83,4 @@ Una volta configurata, puoi sfruttare tutte le funzionalità di canale predefini
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443614?captions=ita)

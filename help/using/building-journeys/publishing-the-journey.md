@@ -51,4 +51,4 @@ Quando si arresta un percorso, questo viene arrestato in modo permanente: tutte 
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427935?quality=12&captions=ita)

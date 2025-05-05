@@ -57,4 +57,4 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 Il video seguente mostra come utilizzare la funzionalità avanzata di reporting di Journey Optimizer con Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443159?captions=ita)

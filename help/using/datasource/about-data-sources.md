@@ -55,5 +55,5 @@ Per ulteriori informazioni su come configurare un Adobe Experience Platform Data
 
 Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416635?quality=12&captions=ita)
 

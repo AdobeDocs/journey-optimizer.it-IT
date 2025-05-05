@@ -236,7 +236,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451890?quality=12&learn=on&captions=ita)
 
   +++
 
@@ -244,7 +244,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?learn=on&autoplay=true&captions=ita)
 
   +++
 

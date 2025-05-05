@@ -44,4 +44,4 @@ Per creare un qualificatore di raccolta, effettua le seguenti operazioni:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341370?quality=12&captions=ita)

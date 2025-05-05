@@ -46,4 +46,4 @@ In situazioni dove due campagne hanno lo stesso punteggio di priorità, la campa
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)

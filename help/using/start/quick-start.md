@@ -41,4 +41,4 @@ Per scoprire e apprendere la potenza di Adobe Journey Optimizer con istruzioni d
 
 Comprendere le funzionalità chiave e gli utenti tipo di Journey Optimizer. Scopri come accedere all’interfaccia utente in base al tuo ruolo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430321?quality=12&captions=ita)

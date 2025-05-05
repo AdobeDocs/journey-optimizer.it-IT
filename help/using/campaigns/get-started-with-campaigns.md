@@ -68,4 +68,4 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 
 Scopri come creare la tua prima campagna.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
