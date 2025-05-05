@@ -2,28 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Pubblica il percorso
-description: Scopri come creare rapporti sulla metrica di percorso scelta
+description: Scopri come creare rapporti sulle metriche del percorso
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 7%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
-# Configurare e tenere traccia della metrica di percorso {#success-metrics}
+# Configurare e tenere traccia delle metriche di percorso {#success-metrics}
 
-Con le metriche di percorso, puoi misurare efficacemente l’impatto delle attività tracciando le loro prestazioni rispetto a metriche predefinite.
-Monitorando queste metriche, puoi vedere le prestazioni del percorso, identificare le aree da migliorare e prendere decisioni informate per migliorare il coinvolgimento dei clienti.
+Ottieni una chiara visibilità dell’efficacia dei percorsi dei clienti con le metriche di percorso. Questa funzione consente di monitorare le prestazioni rispetto a KPI definiti, scoprire informazioni approfondite sul funzionamento e identificare le aree da ottimizzare. Misurando l’impatto in tempo reale, puoi promuovere il miglioramento continuo e prendere decisioni basate sui dati che aumentano il coinvolgimento dei clienti.
 
 ## Prerequisiti {#prerequisites}
 
-Prima di utilizzare la metrica di percorso, è necessario aggiungere un set di dati che includa `Commerce Details`, `Web`e `Mobile` [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}.
+Prima di utilizzare le metriche di percorso, è necessario aggiungere un set di dati che includa `Commerce Details`, `Web` e `Mobile` [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}.
 
 ## Metriche disponibili {#metrics}
 
@@ -70,9 +69,9 @@ Ogni metrica viene fornita con una determinata attribuzione che determina quali 
 
   Ulteriori informazioni su [Modelli di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Assegnare la metrica di Percorso {#assign}
+## Assegnare le metriche del percorso {#assign}
 
-Per iniziare a tracciare la metrica di percorso, segui i passaggi descritti di seguito:
+Per iniziare a tracciare le metriche del percorso, segui i passaggi descritti di seguito:
 
 1. Dal menu **[!UICONTROL Percorsi]**, fai clic su **[!UICONTROL Crea Percorso]**.
 
@@ -90,8 +89,8 @@ Per iniziare a tracciare la metrica di percorso, segui i passaggi descritti di s
 
 1. Verifica e pubblica il percorso.
 
-1. Apri il rapporto sul percorso per tenere traccia delle prestazioni della metrica di successo assegnata.
+1. Apri il rapporto sul percorso per tenere traccia delle prestazioni delle metriche di successo assegnate.
 
-   La metrica scelta viene visualizzata nella tabella KPI e statistiche Percorso del report.
+   Le metriche scelte vengono visualizzate nella tabella KPI e statistiche Percorso del rapporto.
 
    ![](assets/success_metric_2.png)

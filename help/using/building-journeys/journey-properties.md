@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 17%
+source-wordcount: '2395'
+ht-degree: 13%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 17%
 
 Le proprietà di un percorso sono centralizzate nella barra a destra. Questa sezione viene visualizzata per impostazione predefinita durante la creazione di un nuovo percorso. Per i percorsi esistenti, fai clic sull’icona della matita accanto al nome del percorso per aprirlo.
 
-Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione e:
+Da questa sezione, definisci il nome del percorso, aggiungi una descrizione e imposta le proprietà globali del percorso.
 
-* gestisci [ingresso e rientro](#entrance),
-* scegli [date](#dates) di inizio e fine,
-* gestire l&#39;[accesso ai dati](#manage-access),
-* definire una [durata timeout](#timeout) nelle attività di percorso (solo per gli utenti amministratori),
-* seleziona il percorso e il profilo [fusi orari](#timezone)
-* assegna i tag unificati Adobe Experience Platform al tuo percorso, per classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
-* monitorare i conflitti e assegnare priorità ai percorsi utilizzando [strumenti di gestione dei conflitti](#conflict).
+Puoi eseguire le seguenti operazioni:
 
-![](assets/journey32.png)
+* Assegna tag unificati Adobe Experience Platform al tuo percorso, per classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
+* Seleziona le metriche di percorso. [Scopri come configurare e tenere traccia delle metriche di percorso](success-metrics.md)
+* Gestisci [ingresso e rientro](#entrance). La gestione dell’entrata del profilo dipende dal tipo di percorsi. I dettagli sono disponibili su [questa pagina](entry-management.md)
+* Gestisci [accesso ai dati](#manage-access)
+* Seleziona il percorso e il profilo [fusi orari](#timezone)
+* Scegli [date di inizio e fine](#dates) personalizzate
+* Definisci una [durata timeout](#timeout) nelle attività di percorso (solo per utenti amministratori)
+* Monitora i conflitti e assegna priorità ai percorsi utilizzando [strumenti di gestione dei conflitti](#conflict)
+
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il cam
 
 ## Gestisci accesso {#manage-access}
 
-Per assegnare etichette di utilizzo dei dati personalizzate o di base al percorso, fare clic sul pulsante **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
+Puoi limitare l’accesso a un percorso in base alle etichette di accesso.
 
-![](assets/journeys-manage-access.png)
+Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic sull&#39;icona **[!UICONTROL Gestisci etichette di accesso]** e selezionare una o più etichette.
+
+[Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md)
 
 ## Fusi orari di percorso e profilo {#timezone}
 
 Fuso orario definito a livello di percorso. Puoi immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del percorso. Se nel profilo Adobe Experience Platform è definito un fuso orario, questo può essere recuperato nel percorso.
 
-Per ulteriori informazioni sulla gestione del fuso orario, vedere [questa pagina](../building-journeys/timezone-management.md).
+[Ulteriori informazioni sulla gestione del fuso orario](../building-journeys/timezone-management.md)
 
 ## Date di inizio e fine {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Start date (Data di inizio)"
->abstract="Scegli la data di inizio per l’ingresso nel percorso. Se non viene specificata alcuna data di inizio, questa viene impostata automaticamente in modo da coincidere con il momento della pubblicazione."
-
+>abstract="Seleziona la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="End date (Data di fine)"
->abstract="Scegli la data di fine del percorso. Una volta raggiunta tale data, i profili in tale percorso escono automaticamente e nessun nuovo profilo potrà più accedervi."
+>abstract="Imposta la data di fine del percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentite nuove voci."
 
-Puoi definire una **data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
+Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
-Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (in genere 91 giorni). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
+Se necessario, puoi definire **Data inizio** e **Data fine** personalizzate. Questo consente ai profili di entrare nel percorso in una data specifica e di uscire automaticamente una volta raggiunta la data di fine.
 
 ## Timeout {#timeout}
 
-### Timeout o errore nelle attività del percorso {#timeout_and_error}
+### Timeout nelle attività del percorso {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Timeout"
->abstract="Definisci per quanto tempo il percorso tenterà di eseguire un’azione o di verificare una condizione prima che si verifichi una situazione di timeout."
-
+>title="Timeout o errore"
+>abstract="Specifica per quanto tempo il percorso deve tentare di eseguire un&#39;azione o valutare una condizione prima di trattarla come scaduta. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività di interrogazione di un sistema di terze parti supera la durata di timeout definita nel campo **[!UICONTROL Timeout o errore]** delle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
-I valori autorizzati sono compresi tra 1 e 30 secondi.
+I valori consigliati sono compresi tra 1 e 30 secondi.
 
 È consigliabile definire un valore di **[!UICONTROL Timeout o errore]** molto breve se il percorso è sensibile all&#39;ora (ad esempio, per reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l&#39;azione per più di alcuni secondi. Se il percorso è meno sensibile al tempo, è possibile utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
 

@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: oggetto, livello, accesso, controllo, etichette, olac, autorizzazione
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 15%
+source-wordcount: '472'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Etichette per la gestione degli accessi"
->abstract="Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere un limite di accesso, seleziona il pulsante **Gestisci accesso** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione."
+>abstract="È possibile limitare l&#39;accesso a un oggetto in base alle etichette di accesso. Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali. **Assicurarsi di selezionare solo le etichette per le quali si dispone dell&#39;autorizzazione.**"
+
+È possibile limitare l&#39;accesso a un oggetto in base alle etichette di accesso. Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 
 La funzionalità OLAC (Object Level Access Control) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati a una selezione di oggetti:
 
@@ -36,7 +38,6 @@ La funzionalità OLAC (Object Level Access Control) consente di definire le auto
 * Configurazione dei canali
 * Piano di riscaldamento IP
 
-Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 
 ## Prerequisiti {#prereq-labels}
 
@@ -85,7 +86,7 @@ Per assegnare etichette di utilizzo dei dati personalizzate o di base agli ogget
 
 1. Dalla finestra **[!UICONTROL Gestisci accesso]**, seleziona le etichette di utilizzo dei dati personalizzate o di base per gestire l&#39;accesso a questo oggetto.
 
-   Per ulteriori informazioni sulle etichette di utilizzo dei dati di base, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}.
+   Per ulteriori informazioni sulle etichette di utilizzo dei dati di base, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it){target="_blank"}.
 
    ![](assets/olac_4.png)
 
