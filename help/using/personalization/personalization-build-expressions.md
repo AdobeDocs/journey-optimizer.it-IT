@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1510'
 ht-degree: 10%
 
 ---
@@ -105,7 +105,7 @@ Il riquadro di navigazione consente di selezionare l’origine per la personaliz
 >title="Completamento automatico"
 >abstract="L’attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito interruttore, il completamento automatico del codice HTML nativo verrà esegiuto dall’editor."
 
-Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro degli attributi e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
+Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro di spostamento a sinistra e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ Nell’esempio seguente, l’editor di personalizzazione ti consente di selezion
 
 ![](assets/perso_ee2.png)
 
-## Strumenti per la modifica delle espressioni
+## Opzioni per la modifica delle espressioni {#options}
 
 L’area di lavoro centrale fornisce vari strumenti per aiutarti a scrivere la tua espressione di personalizzazione.
 
@@ -146,6 +146,13 @@ Le opzioni disponibili sono:
    * **Il** - Dispone le righe alla larghezza dell&#39;editor.
    * **Colonna a capo automatico** - Dispone le righe quando i caratteri di una riga raggiungono gli 80 caratteri.
    * **Limitato** - Dispone le righe alla larghezza dell&#39;editor o a 80 caratteri, a seconda di quale dei due valori è più basso.
+1. **[!UICONTROL Pillole]**: visualizza gli attributi come &quot;pillole&quot; compatte per migliorare la leggibilità nascondendo i percorsi degli attributi lunghi. Fare clic su un attributo per visualizzarne il percorso completo.
+
+   >[!NOTE]
+   >
+   >La visualizzazione delle pillole verrà gradualmente distribuito in tutti gli ambienti nei prossimi 30 giorni.
+   >
+   >Questa opzione è disponibile solo per gli attributi di profilo, gli attributi contestuali e gli elementi multimediali dinamici.
 
 Nel riquadro di navigazione sono disponibili funzioni aggiuntive per aiutarti a creare la tua espressione di personalizzazione.
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b7ec8d97a9b8156c615adf19774dab70d2b7451
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 47%
+source-wordcount: '958'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 47%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
+## Aggiornamenti di maggio 2025 {#25-5-rn}
+
+* **Attivazione pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
+
+  All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando sono abilitati, gli attributi di profilo e contestuali vengono visualizzati come pillole, migliorando la leggibilità del codice. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#options)
+
+  >[!AVAILABILITY]
+  >
+  >Questa funzionalità verrà gradualmente implementata in tutti gli ambienti nei prossimi 30 giorni.
 
 ## Note sulla versione di aprile 2025 {#25-4-rn}
 
@@ -260,10 +269,6 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
   Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **Personalizzazione**
-
-<!--- **Pills activation**  
-
-  A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
 * **Nuovo attributo contestuale**
 
