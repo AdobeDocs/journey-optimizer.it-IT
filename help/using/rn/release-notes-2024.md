@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Questa versione include le nuove funzionalità elencate di seguito:
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare i clienti con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p></p><p><ul><li><b>Quota limite percorsi</b>: ora è possibile creare set di regole da applicare ai tuoi percorsi, in modo da limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché controllare il numero di percorsi simultanei in esecuzione contemporaneamente.</li>
+<p>In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p></p><p><ul><li><b>Quota limite percorsi</b>: ora è possibile creare set di regole da applicare ai tuoi percorsi, in modo da limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché controllare il numero di percorsi simultanei in esecuzione contemporaneamente.</li>
 <li><b>Punteggio di priorità</b>: ora è possibile assegnare un punteggio di priorità, compreso tra 0 e 100, a una campagna o a un percorso. Un numero più alto indica una priorità più alta. Quando due campagne o azioni del percorso utilizzano la stessa configurazione dei canali, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata meno di recente.</li>
 <li><b>Visualizza conflitti potenziali</b>: un nuovo pulsante “Visualizza conflitti potenziali” nei percorsi e nelle campagne ora consente di identificare la sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione dei canali selezionata.</li>
 <li><b>Journey Arbitration</b> (Arbitrato del percorso): questa nuova funzionalità consente di assegnare la priorità ai percorsi più importanti per i clienti. È possibile creare una regola per eliminare l’ingresso in un percorso con priorità inferiore quando un cliente si qualifica per un imminente percorso con priorità maggiore.</li>
@@ -441,7 +441,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, porta il contenuto al livello successivo con l’Assistente IA in Journey Optimizer. Ora puoi utilizzare l’Assistente AI per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
+<p>Dopo aver creato e personalizzato il messaggio, perfeziona ulteriormente il contenuto con l’Assistente IA in Journey Optimizer. Ora puoi utilizzare l’Assistente IA per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima della funzione live</a>, progettata per permetterti di esplorarla in prima persona e comprenderne appieno le funzionalità.</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/gs-generative.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -870,7 +870,7 @@ Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenu
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Ora è possibile utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata. [Ulteriori informazioni sulla visualizzazione Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Ora è possibile utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata. [Ulteriori informazioni sulla vista Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 
 #### Canale direct mail

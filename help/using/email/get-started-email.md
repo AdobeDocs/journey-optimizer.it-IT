@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <a href="../content-management/generative-email.md">
 <img alt="Assistente IA" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>Assistente AI per la generazione di contenuti</strong>
+<div><a href="../content-management/generative-email.md"><strong>Assistente IA per la generazione di contenuti</strong>
 </div>
 <p>
 </td>
@@ -87,15 +87,15 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <img alt="Frammenti di contenuto" src="../assets/do-not-localize/patterns.jpg">
 </a>
 <div>
-<a href="../content-management/fragments.md"><strong>Utilizza frammenti di contenuto e-mail</strong></a>
+<a href="../content-management/fragments.md"><strong>Utilizzare i frammenti di contenuto e-mail</strong></a>
 </div>
 <p></td>
 <td>
 <a href="../personalization/personalize.md">
-<img alt="Personalizzare i contenuti" src="../assets/do-not-localize/personalize.jpg">
+<img alt="Personalizzare il contenuto" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>Personalizzare il contenuto delle e-mail</strong></a>
+<a href="../personalization/personalize.md"><strong>Personalizzare il contenuto e-mail</strong></a>
 </div>
 <p>
 </td>
