@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 85%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visita la [pagina aggiornamenti documentazione](using/rn/documentation-updates.md) per rimanere aggiornato sulle ultime modifiche apportate alla documentazione del prodotto.
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visita la [pagina degli aggiornamenti alla documentazione](using/rn/documentation-updates.md) per non perdere le ultime modifiche apportate alla documentazione del prodotto.
 
 >[!BEGINTABS]
 
->[!TAB Versione di aprile &#39;25]
+>[!TAB Versione di aprile 2025]
 
-La versione di aprile è ora live. Consulta le note sulla versione per scoprire nuove funzionalità, modifiche e miglioramenti.
+La versione di aprile è ora disponibile. Consulta le note sulla versione per scoprire nuove funzionalità, modifiche e miglioramenti.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Integrazione Adobe Express]
+>[!TAB Integrazione di Adobe Express]
 
-dobe Journey Optimizer ora si integra con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione del percorso.
+Adobe Journey Optimizer ora è integrato con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione dei percorsi.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
