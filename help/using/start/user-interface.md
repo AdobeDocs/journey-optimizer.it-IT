@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -263,4 +263,4 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Definire un criterio di decisione"
->abstract="Un criterio di decisione consente di scegliere gli elementi migliori dal motore decisionale e distribuirli al pubblico giusto."
+>abstract="Un criterio di decisione consente di scegliere gli elementi migliori dal motore decisionale e di consegnarli al pubblico giusto."

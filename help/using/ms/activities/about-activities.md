@@ -10,7 +10,7 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di market
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Attività Fine"
->abstract="L&#39;attività **End** consente di contrassegnare graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
+>abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
 
 ![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="30%" align="left"}
 

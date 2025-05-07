@@ -10,7 +10,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Elenco delle campagne orchestrate"
->abstract="La scheda **passaggi multipli** elenca tutte le campagne orchestrate. Fai clic sul nome di una campagna orchestrata per modificarla. Utilizza il pulsante **Crea campagna orchestrata** per aggiungere una nuova campagna orchestrata."
+>abstract="Nella scheda **multifase** sono elencate tutte le campagne orchestrate. Fai clic sul nome di una campagna orchestrata per modificarla. Fai clic sul pulsante **Crea campagna orchestrata** per aggiungerne una nuova."
 
 ## Prerequisiti
 
@@ -48,19 +48,19 @@ Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
 La campagna orchestrata è ora creata ed è disponibile nell’elenco dei flussi di lavoro. Ora puoi accedere alla relativa area di lavoro visiva e iniziare ad aggiungere, configurare e orchestrare le attività che eseguirà. [Scopri come orchestrare le attività delle campagne orchestrate](orchestrate-activities.md).
 
-## Utilizzare i modelli di campagna orchestrati {#campaign-templates}
+## Utilizzare i modelli per campagna orchestrata {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Modelli di campagna orchestrati"
->abstract="I modelli di campagna orchestrati contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare una nuova campagna orchestrata."
+>title="Modelli per campagna orchestrata"
+>abstract="I modelli per campagna orchestrata contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuove campagne orchestrate."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Proprietà campagna orchestrata"
->abstract="I modelli di campagna orchestrati contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuove campagne orchestrate. In questa schermata, immetti l’etichetta del modello di campagna orchestrato e configurane le impostazioni, ad esempio il nome interno, la cartella e le cartelle di esecuzione, il fuso orario e il gruppo di supervisori."
+>title="Proprietà della campagna orchestrata"
+>abstract="I modelli per campagna orchestrata contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuove campagne orchestrate. In questa schermata, immetti l’etichetta del modello per campagna orchestrata e configurane le impostazioni, ad esempio il nome interno, la cartella e le cartelle di esecuzione, il fuso orario e il gruppo di supervisori."
 
-I modelli di campagna orchestrati contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuove campagne orchestrate. Durante la creazione di una campagna orchestrata, puoi selezionare il modello della campagna orchestrata dalle relative proprietà. Per impostazione predefinita, viene fornito un modello vuoto.
+I modelli per campagna orchestrata contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuove campagne orchestrate. Durante la creazione di una campagna orchestrata, puoi selezionare il modello della campagna orchestrata dalle relative proprietà. Per impostazione predefinita, viene fornito un modello vuoto.
 
 Puoi creare un modello da una campagna orchestrata esistente o crearne uno nuovo da zero. Entrambi i metodi sono descritti di seguito.
 

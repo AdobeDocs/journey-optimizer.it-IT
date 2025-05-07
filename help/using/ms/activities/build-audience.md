@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 34%
+ht-degree: 52%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Attività Crea pubblico"
->abstract="L&#39;attività **Genera pubblico** ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**."
+>abstract="L’attività **Crea pubblico** ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea del pubblico**."
 
 In qualità di addetto al marketing, puoi creare facilmente query complesse utilizzando un’interfaccia intuitiva, per segmentare il pubblico in base a un’ampia gamma di criteri e comportamenti e adattare le campagne in modo più efficace.
 
-Per eseguire questa operazione, utilizza l&#39;attività di targeting **Genera pubblico**. Questa attività ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma nell&#39;attività **Genera pubblico**.
+Per eseguire questa operazione, utilizza l&#39;attività di targeting **Genera pubblico**. Questa attività ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea del pubblico**.
 
 Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 

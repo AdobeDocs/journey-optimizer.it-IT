@@ -19,7 +19,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"
 >title="Generare un complemento"
->abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**"
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_change_dimension"

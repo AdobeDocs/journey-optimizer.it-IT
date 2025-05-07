@@ -10,7 +10,7 @@ exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 14%
+ht-degree: 34%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="Proprietà campagna orchestrata"
->abstract="In questa schermata, scegli il modello da utilizzare per creare la campagna orchestrata e specifica un’etichetta. Espandi la sezione **Opzioni aggiuntive** per configurare altre impostazioni, ad esempio il nome interno della campagna orchestrata, la cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori siano avvisati in caso di errore."
+>title="Proprietà della campagna orchestrata"
+>abstract="In questa schermata, scegli il modello da utilizzare per creare la campagna orchestrata e specifica un’etichetta. Espandi la sezione **Opzioni aggiuntive** per configurare altre impostazioni quali il nome interno della campagna orchestrata, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori siano avvisati in caso di errore."
 
 Durante la creazione di una campagna orchestrata o l’orchestrazione di attività di campagna orchestrate nell’area di lavoro, puoi accedere alle impostazioni avanzate relative alla campagna orchestrata. Ad esempio, puoi impostare un fuso orario specifico per la campagna orchestrata, gestire il comportamento della campagna orchestrata in caso di errore o gestire il ritardo dopo il quale la cronologia della campagna orchestrata deve essere eliminata.
 
@@ -27,12 +27,12 @@ Queste impostazioni sono preconfigurate nel modello selezionato durante la creaz
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Proprietà campagna orchestrata {#properties}
+## Proprietà della campagna orchestrata {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="Proprietà campagna orchestrata"
->abstract="Questa sezione fornisce proprietà generiche orchestrate per le campagne, accessibili anche durante la creazione della campagna orchestrata. Puoi scegliere il modello da utilizzare per creare la campagna orchestrata e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione della campagna orchestrata o il fuso orario."
+>title="Proprietà della campagna orchestrata"
+>abstract="In questa sezione sono illustrate le proprietà generiche di una campagna orchestrata che sono accessibili anche durante la relativa creazione. Puoi scegliere il modello da utilizzare per creare una campagna orchestrata e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione della campagna orchestrata o il fuso orario."
 
 La sezione **[!UICONTROL Proprietà]** fornisce impostazioni generiche che possono essere configurate durante la creazione di una campagna orchestrata. Per accedere alle proprietà di una campagna orchestrata esistente, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l&#39;area di lavoro della campagna orchestrata.
 
@@ -72,7 +72,7 @@ I valori possibili sono:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Impostazioni di esecuzione"
->abstract="In questa sezione puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia orchestrata delle campagne."
+>abstract="In questa sezione, puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia della campagna orchestrata."
 
 * **[!UICONTROL Cronologia in giorni]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi relativi alla campagna orchestrata: registri, attività, eventi (oggetti tecnici collegati all’operazione della campagna orchestrata). Il valore predefinito è 30 giorni per i modelli di campagna orchestrati predefiniti. La rimozione della cronologia viene eseguita dalla campagna orchestrata di pulizia tecnica del database, che viene eseguita ogni giorno per impostazione predefinita
 
@@ -94,7 +94,7 @@ I valori possibili sono:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Errore di impostazioni di gestione"
->abstract="In questa sezione puoi definire il modo in cui la campagna orchestrata deve gestire gli errori durante la sua esecuzione. Puoi scegliere di sospendere il processo, ignorare un certo numero di errori o interrompere l’esecuzione della campagna orchestrata."
+>abstract="In questa sezione puoi definire il modo in cui la campagna orchestrata deve gestire gli errori durante l’esecuzione. Puoi scegliere di sospendere il processo, ignorare un certo numero di errori o interrompere l’esecuzione della campagna orchestrata."
 
 * **[!UICONTROL Gestione degli errori]**: questo campo consente di definire le azioni da eseguire in caso di errori in un&#39;attività della campagna orchestrata. Sono disponibili tre opzioni:
 

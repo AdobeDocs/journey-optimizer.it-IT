@@ -10,7 +10,7 @@ exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 16%
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Condizioni"
->abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione di una campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, la campagna orchestrata continua lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna orchestrata si interrompe a questo punto."
+>abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, la campagna orchestrata prosegue lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna orchestrata si interrompe in questo punto."
 
 L’attività **Test** è un’attività di **Controllo del flusso**. Consente di abilitare le transizioni in base a condizioni specificate.
 
@@ -44,7 +44,7 @@ Per configurare l&#39;attività **Test**, eseguire la procedura seguente:
 
 1. È possibile aggiungere più transizioni di output a un&#39;attività **[!UICONTROL Test]**. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi condizione]** e configurare l&#39;etichetta e la condizione associata per ogni transizione.
 v
-1. Durante l’esecuzione di una campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, le campagne orchestrate continuano lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione di impostazione predefinita, i flussi di lavoro si interrompono in questo punto.
+1. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, le campagne orchestrate continuano lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione di impostazione predefinita, i flussi di lavoro si interrompono in questo punto.
 
 ## Esempio {#example}
 

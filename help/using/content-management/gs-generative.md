@@ -11,21 +11,21 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 76%
+ht-degree: 85%
 
 ---
 
-# Introduzione all’Assistente AI {#gs-content-assistant}
+# Introduzione all’Assistente IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Assistente IA in Journey Optimizer"
->abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente per l’intelligenza artificiale in Journey Optimizer per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA in Journey Optimizer per ottimizzare il contenuto. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Carica risorsa del brand"
->abstract="Il menu Carica risorse marchio consente di aggiungere qualsiasi risorsa marchio contenente contenuti che possano fornire ulteriore contesto per l’Assistente IA in Journey Optimizer o di selezionare una risorsa caricata in precedenza. Questa opzione garantisce che l’Assistente AI abbia accesso a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
+>abstract="Il menu Carica risorsa del brand ti consente di aggiungere qualunque risorsa del brand il cui contenuto può fornire ulteriore contesto per l’Assistente IA in Journey Optimizer oppure di selezionare una risorsa caricata in precedenza. Grazie a questa opzione, l’Assistente IA può accedere a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

@@ -70,7 +70,7 @@ Nell’attività **Combina**, puoi configurare un’**Unione**. Per l’attivit�
 * **Solo chiavi**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
 * **Una seleziona di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
 
-## Intersezione  {#combine-intersection}
+## Intersezione {#combine-intersection}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_intersection_reconciliation_options"
