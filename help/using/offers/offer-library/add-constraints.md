@@ -74,7 +74,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >id="od_offer_eligibility"
 >title="Informazioni sull’idoneità alle offerte"
 >abstract="In questa sezione puoi utilizzare le regole di decisione per determinare quali utenti sono idonei all’offerta."
->additional-url="https://video.tv.adobe.com/v/329373?captions=ita" text="Guarda il video dimostrativo"
+>additional-url="https://video.tv.adobe.com/v/341371?captions=ita" text="Guarda il video dimostrativo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
