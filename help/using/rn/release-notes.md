@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 46%
+source-wordcount: '985'
+ht-degree: 74%
 
 ---
 
@@ -23,6 +23,15 @@ ht-degree: 46%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Aggiornamenti di maggio 2025 {#25-5-rn}
+
+* **Decisioning - Nuovo generatore di formule di IA** - Data di disponibilità: 7 maggio 2025
+
+  Ora puoi creare formule di classificazione decisionali specifiche definendo e combinando criteri da una nuova interfaccia migliorata. Le formule di classificazione consentono di definire le regole che determineranno quali elementi decisionali devono essere presentati per primi, anziché tenere conto dei punteggi di priorità.
+
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 
 * **Attivazione pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
 
@@ -43,15 +52,15 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Editor Personalization - Come imparare facendo</strong><br/></th>
+<th><strong>Editor di personalizzazione - Impara con la pratica</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile un ambiente playground di personalizzazione, in cui puoi sperimentare espressioni di personalizzazione. Consente di esplorare modelli e payload di esempio per iniziare e provare le espressioni di personalizzazione.</p>
+<p>È ora disponibile un playground di personalizzazione, in cui puoi sperimentare le espressioni di personalizzazione. Consente di esplorare modelli e payload di esempio per aiutarti a iniziare e provare le espressioni di personalizzazione.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/personalize.md#playground">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: venerdì 24 aprile 2025</p>
+<p>Data di disponibilità: 24 aprile 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -170,7 +179,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora si integra con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione del percorso. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. </p>
+<p>Adobe Journey Optimizer ora è integrato con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione del percorso. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. </p>
 <p>Questa integrazione non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/express.md">documentazione dettagliata</a>.</p>
@@ -182,13 +191,13 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Attiva percorso giornaliero eseguito dopo il completamento della segmentazione batch (disponibilità limitata)</strong><br/></th>
+<th><strong>L’attivazione giornaliera del percorso viene eseguita dopo il completamento della segmentazione batch (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Per i percorsi pianificati quotidianamente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attiva dopo la valutazione del pubblico in batch è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Per i percorsi pianificati quotidianamente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attiva dopo la valutazione del pubblico batch è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-audience.md#schedule">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Punteggio di allineamento del brand (Beta)</strong><br/></th>
+<th><strong>Punteggio di allineamento al brand (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -258,7 +267,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 
 Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funzionalità di invio di bozze esistenti. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
-**Strumenti Sandbox**
+**Strumenti sandbox**
 
 <!--- **Decisioning sandbox copy**
 
@@ -268,7 +277,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
   Le azioni personalizzate sono ora incluse nell’elenco degli oggetti Adobe Journey Optimizer che possono essere copiati utilizzando la funzione strumenti sandbox, semplificando il test e la distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
-* **Strumenti sandbox per campagne** - Data di disponibilità: 3 aprile 2025
+* **Strumenti sandbox per le campagne** - Data di disponibilità: 3 aprile 2025
 
   Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -276,7 +285,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 * **Nuovo attributo contestuale**
 
-  È ora disponibile un nuovo attributo contestuale, **ID profilo messaggio**, da selezionare dall&#39;editor di personalizzazione. Si tratta di un attributo orientato ai messaggi che identifica in modo univoco ogni messaggio inviato a ciascun profilo target in una consegna. Questo identificatore univoco può essere utilizzato, ad esempio, come parametro di tracciamento URL per distinguere ogni collegamento aperto o cliccato dai destinatari.
+  È ora disponibile un nuovo attributo contestuale, **ID profilo messaggio** per la selezione dall’editor di personalizzazione. Si tratta di un attributo orientato ai messaggi che identifica in modo univoco ogni messaggio inviato a ciascun profilo target in una consegna. Questo identificatore univoco può essere utilizzato, ad esempio, come parametro di tracciamento URL per distinguere ogni collegamento aperto o cliccato dai destinatari.
 
 * **Attributi compilati nel riquadro degli attributi** - Data di disponibilità: 2 aprile 2025
 

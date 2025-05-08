@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 25%
+source-wordcount: '546'
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 25%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer.
+Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer.
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-   +++
++++
 
 1. **Configurare gli attributi personalizzati**: personalizzare il catalogo degli elementi in base alle proprie esigenze impostando gli attributi personalizzati nello schema del catalogo.
 
@@ -64,25 +64,27 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
 1. **Crea elementi decisionali** da mostrare al pubblico di destinazione.
 
-   ➡️ [Scopri come creare elementi decisionali](items.md) ([documentazione API](api-reference/decisions-items/create.md))
+   ➡️ [Scopri come creare elementi decisionali](items.md) nell&#39;interfaccia utente (e nella [documentazione API](api-reference/decisions-items/create.md))
 
 1. **Organizza con le raccolte**: utilizza le raccolte per categorizzare gli elementi decisionali in base a regole basate su attributi. Incorpora le raccolte nelle strategie di selezione per determinare quale raccolta di elementi decisionali deve essere considerata.
 
-   ➡️ [Scopri come gestire le raccolte di elementi](collections.md) ([documentazione API](api-reference/items-collections/create.md))
+   ➡️ [Scopri come gestire le raccolte di elementi](collections.md) nell&#39;interfaccia utente (e nella [documentazione API](api-reference/items-collections/create.md))
 
 1. **Crea regole di decisione**: le regole di decisione vengono utilizzate negli elementi di decisione e/o nelle strategie di selezione per determinare a chi può essere visualizzato un elemento di decisione.
 
    ➡️ [Scopri come creare regole di decisione](rules.md)
 
-1. **Implementare metodi di classificazione**: creare metodi di classificazione e applicarli nelle strategie di decisione per determinare l&#39;ordine di priorità per la selezione degli elementi di decisione.
+1. **Implementare i metodi di classificazione**: creare metodi di classificazione e applicarli nelle strategie di selezione per determinare l&#39;ordine di priorità per la selezione degli elementi decisionali.
 
    ➡️ [Scopri come creare metodi di classificazione](ranking.md)
 
 1. **Creare strategie di selezione**: creare strategie di selezione che sfruttano raccolte, regole di decisione e metodi di classificazione per identificare gli elementi di decisione adatti alla visualizzazione nei profili.
 
-   ➡️ [Scopri come creare strategie di selezione](selection-strategies.md) ([documentazione API](api-reference/selection-strategies/create.md))
+   ➡️ [Scopri come creare strategie di selezione nell&#39;interfaccia utente](selection-strategies.md) nell&#39;interfaccia utente (e nella [documentazione API](api-reference/selection-strategies/create.md))
 
 1. **Crea un criterio di decisione e incorporalo nella campagna basata su codice**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
-➡️ Per consegnare correttamente l&#39;offerta tramite il canale basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md)
+➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
+
+Un caso d&#39;uso completo end-to-end che mostra come utilizzare le decisioni in un&#39;esperienza basata su codice è presentato in [questa sezione](experience-decisioning-uc.md).

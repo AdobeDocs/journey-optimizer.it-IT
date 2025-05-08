@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,9 @@ La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panora
 
 +++
 
-## Decisioning dei KPI {#decisioning-kpis}
+## Reporting sulle decisioni {#decisioning-reporting}
+
+### Decisioning dei KPI {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ I **KPI decisionali** forniscono informazioni chiave sul coinvolgimento dei visi
 
 * **[!UICONTROL Percentuale di fallback]**: percentuale di istanze in cui nessuna strategia di selezione è stata qualificata, con conseguente visualizzazione di un&#39;opzione generica o meno specifica.
 
-## Funnel di coinvolgimento {#engagement-funnel}
+### Funnel di coinvolgimento {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,7 +107,7 @@ La tabella **[!UICONTROL Funnel di coinvolgimento]** monitora le prestazioni del
 
 * **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
 
-## Elementi decisionali principali per percentuale di clickthrough {#top-decision}
+### Elementi decisionali principali per percentuale di clickthrough {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
@@ -113,7 +115,7 @@ La tabella **[!UICONTROL Elementi decisionali principali per CTR]** evidenzia le
 
 * **[!UICONTROL Tasso di click-through (CTR)]**: percentuale di utenti che fanno clic su un collegamento, un annuncio pubblicitario o un consiglio rispetto al numero di volte in cui è stato visualizzato.
 
-## Funnel di coinvolgimento per strategia di selezione {#engagement-funnel-selection}
+### Funnel di coinvolgimento per strategia di selezione {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ La tabella **[!UICONTROL Funnel di coinvolgimento per strategia di selezione]** 
 
 * **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
 
-## Prestazioni degli elementi decisionali {#decision-items-performance}
+### Prestazioni degli elementi decisionali {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ La tabella **[!UICONTROL Prestazioni degli elementi decisionali]** valuta le pre
 
 * **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
 
-## Strategia di classificazione {#ranking-strategy}
+### Strategia di classificazione {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ Le metriche chiave visualizzate includono:
 
 * **[!UICONTROL Tasso di conversione]**: percentuale di visualizzazioni che hanno generato azioni dell&#39;utente (ad esempio clic), a indicare il successo del modello nel coinvolgere gli utenti.
 
-## Tasso di conversione per il traffico di attesa e basato su modello {#conversion-rate}
+### Tasso di conversione per il traffico di attesa e basato su modello {#conversion-rate}
 
 >[!NOTE]
 >
@@ -167,4 +169,8 @@ Il grafico **[!UICONTROL Tasso di conversione per il traffico di attesa e basato
 
 * **Basato su modello**: gli utenti ricevono contenuti classificati in base al modello di intelligenza artificiale, ottimizzati per rilevanza e coinvolgimento.
 
-* **Holdout**: users receive content served randomly during the model&#39;s exploration phase.
+* **Sospensione**: gli utenti ricevono contenuti distribuiti in modo casuale durante la fase di esplorazione del modello.
+
+>[!CAUTION]
+>
+>Quando si utilizza un modello di IA incorporato in una [formula di classificazione](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), i dati non vengono rispecchiati nel report del tasso di conversione.
