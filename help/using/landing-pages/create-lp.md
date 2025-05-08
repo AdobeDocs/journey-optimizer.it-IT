@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 21%
+source-wordcount: '1524'
+ht-degree: 23%
 
 ---
 
@@ -23,35 +23,6 @@ Per indirizzare i clienti a una pagina Web definita che si desidera visualizzare
 I passaggi principali per creare pagine di destinazione sono i seguenti:
 
 ![](assets/lp-creation-process.png)
-
-## Accedere alle pagine di destinazione {#access-landing-pages}
-
-Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
-
-![](assets/lp_access-list.png)
-
-Nell&#39;elenco **[!UICONTROL Pagine di destinazione]** sono visualizzate tutte le pagine di destinazione esistenti. Puoi filtrarli in base al loro stato, alla data di modifica o ai tag.
-
-![](assets/lp_access-list-filter.png)
-
-Da questo elenco, puoi anche accedere a duplicare, eliminare, annullare la pubblicazione di una pagina di destinazione o accedere ai rapporti della pagina di destinazione. A questo scopo, fai clic sui tre punti accanto a una pagina di destinazione e seleziona l’azione desiderata:
-
-![](assets/lp_access-list-actions.png)
-
-
-Puoi eseguire le seguenti operazioni:
-
-* Accedi ai **report** seguenti per le pagine di destinazione pubblicate: [report pagina di destinazione](../reports/lp-report-global-cja.md) e [ultimo report live di 24 ore](../reports/lp-report-live.md).
-
-* **Eliminare** o **duplicare** una pagina di destinazione. Impossibile eliminare una pagina di destinazione [pubblicata](#publish-landing-page). Per eliminarlo, devi prima **annullarne la pubblicazione**.
-
-* **Annulla pubblicazione** della pagina di destinazione.
-
-  >[!CAUTION]
-  >
-  >Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione verrà interrotto e gli utenti riceveranno una pagina di errore se tentano di accedervi.
-
-* Modifica i [tag](../start/search-filter-categorize.md#tags) associati a una pagina di destinazione.
 
 ## Creare una pagina di destinazione {#create-landing-page}
 

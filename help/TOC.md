@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 99%
    + Pagine di destinazione {#landing-pages}
       + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
       + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
+      + [Gestire le pagine di destinazione](using/landing-pages/manage-lp.md)
       + Progettare contenuti {#landing-pages-design}
          + [Informazioni sulla creazione di pagine di destinazione](using/landing-pages/design-lp.md)
          + [Creare il contenuto della pagina di destinazione](using/landing-pages/lp-content.md)
@@ -347,8 +348,8 @@ ht-degree: 99%
       + [Creare un elenco di iscrizione](using/landing-pages/subscription-list.md)
       + [Esempi di casi d’uso](using/landing-pages/lp-use-cases.md)
       + Configura le pagine di destinazione {#lp-configuration}
-      + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
-      + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
+         + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
+         + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
    + Personalizzazione {#personalization}
       + [Introduzione alla personalizzazione](using/personalization/personalize.md)
       + [Aggiungere la personalizzazione](using/personalization/personalization-build-expressions.md)
