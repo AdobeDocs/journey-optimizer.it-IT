@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -95,12 +95,12 @@ Fuso orario definito a livello di percorso. Puoi immettere un fuso orario fisso 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Start date (Data di inizio)"
->abstract="Seleziona la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
+>abstract="Seleziona la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, viene utilizzata la data di pubblicazione del percorso per impostazione predefinita."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="End date (Data di fine)"
->abstract="Imposta la data di fine del percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentite nuove voci."
+>abstract="Imposta la data di fine del percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentiti nuovi ingressi."
 
 Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
@@ -113,7 +113,7 @@ Se necessario, puoi definire **Data inizio** e **Data fine** personalizzate. Que
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="Timeout o errore"
->abstract="Specifica per quanto tempo il percorso deve tentare di eseguire un&#39;azione o valutare una condizione prima di trattarla come scaduta. I valori consigliati sono compresi tra 1 e 30 secondi."
+>abstract="Specifica per quanto tempo il percorso deve tentare di eseguire un’azione o valutare una condizione prima di considerarla scaduta. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività di interrogazione di un sistema di terze parti supera la durata di timeout definita nel campo **[!UICONTROL Timeout o errore]** delle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utilizza i criteri di unione per recuperare i dati del p
 
 Adobe Journey Optimizer applica il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio utilizzando le funzioni di [`inAudience`](functions/functioninaudience.md)), si creano incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
-Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

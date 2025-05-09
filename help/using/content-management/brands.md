@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità viene rilasciata come versione beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
+>Questa funzionalità è rilasciata come versione Beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
 >Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Le linee guida per il marchio sono un set dettagliato di regole e standard che stabiliscono l’identità visiva e verbale di un marchio. Essi fungono da riferimento per mantenere una rappresentazione coerente del marchio su tutte le piattaforme di marketing e comunicazione.
@@ -69,7 +69,7 @@ Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], 
 
 +++
 
-## Creare e gestire il brand {#create-brand-kit}
+## Creazione e gestione del brand {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
@@ -183,8 +183,8 @@ Ora puoi personalizzare ulteriormente il tuo marchio o [pubblicare il tuo marchi
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Scrittura del punteggio di allineamento dello stile"
->abstract="La sezione Stile scrittura definisce gli standard per lingua, formattazione e struttura al fine di garantire contenuti chiari e coerenti. Il punteggio di allineamento, da alto a basso, mostra quanto il contenuto segua queste linee guida ed evidenzia le aree da migliorare."
+>title="Punteggio di allineamento dello stile di scrittura"
+>abstract="La sezione Stile di scrittura definisce gli standard per lingua, formattazione e struttura al fine di garantire contenuti chiari e coerenti. Il punteggio di allineamento, valutato da alto a basso, mostra con quanta efficacia il contenuto segue queste linee guida ed evidenzia le aree da migliorare."
 
 La sezione **[!UICONTROL Stile di scrittura]** descrive gli standard per la scrittura dei contenuti e descrive in dettaglio come utilizzare linguaggio, formattazione e struttura per mantenere chiarezza, coerenza e coerenza in tutti i materiali.
 
@@ -285,12 +285,12 @@ Per personalizzare lo **[!UICONTROL stile di scrittura]**:
 
 Ora puoi personalizzare ulteriormente il tuo marchio o [pubblicare il tuo marchio](#create-brand-kit).
 
-### Contenuti visivi {#visual-content}
+### Contenuto visivo {#visual-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
 >title="Punteggio di allineamento del contenuto visivo"
->abstract="Il punteggio di allineamento dei contenuti visivi indica quanto il contenuto corrisponde alle linee guida del brand configurate. Punteggio da alto a basso, consente di valutare l’allineamento a colpo d’occhio. Esplora le diverse categorie per identificare le aree da migliorare e individuare gli elementi che potrebbero essere off-brand."
+>abstract="Il punteggio di allineamento del contenuto visivo, indica con quanta efficacia il contenuto corrisponde alle linee guida del brand configurate. Con una valutazione da alto a basso, consente di stimare l’allineamento all’instante. Esplora le diverse categorie per identificare le aree da migliorare e individuare gli elementi che potrebbero non rispecchiare il brand."
 
 La sezione **[!UICONTROL Contenuto visivo]** definisce gli standard per le immagini e la progettazione, specificando le specifiche necessarie per mantenere un aspetto del marchio unificato e coerente.
 

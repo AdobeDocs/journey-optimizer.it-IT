@@ -9,16 +9,16 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 11%
+ht-degree: 24%
 
 ---
 
-# Allineamento marchio (Beta){#brands-score}
+# Allineamento del brand (Beta){#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="Punteggio di Allineamento marchio"
->abstract="Il punteggio di Allineamento del marchio misura se il contenuto è conforme alle linee guida del marchio, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
+>title="Punteggio di allineamento del brand"
+>abstract="Il punteggio di allineamento del brand misura quanto i contenuti rispettano le rispettive linee guida, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità viene rilasciata come versione beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
+>Questa funzionalità è rilasciata come versione Beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
 >Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 La funzione di Allineamento dei marchi è stata creata per aiutarti a creare, rivedere e gestire contenuti che rimangono conformi alle linee guida del tuo marchio. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
