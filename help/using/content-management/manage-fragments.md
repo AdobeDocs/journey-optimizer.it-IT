@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -94,7 +94,7 @@ Per navigare facilmente nei frammenti, puoi utilizzare le cartelle per organizza
 
 1. Utilizzando il pulsante **[!UICONTROL Altre azioni]**, puoi anche spostare il frammento in un&#39;altra cartella esistente.
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. Ora puoi passare alla cartella appena creata. Ogni nuovo frammento [create](create-fragments.md) da qui viene salvato nella cartella corrente.
 
