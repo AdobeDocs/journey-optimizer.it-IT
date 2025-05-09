@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 10%
+source-wordcount: '1777'
+ht-degree: 11%
 
 ---
 
@@ -246,6 +246,10 @@ Segui i passaggi seguenti per finalizzare l’esperienza basata su codice e appo
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >L&#39;aggiunta del flag `dryRun` alla richiesta impedirà l&#39;acquisizione dei feedback per i rapporti e l&#39;aggiunta dei contatori di frequenza a.
 
 1. Per visualizzare le prestazioni delle decisioni, è ora possibile creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.
 
