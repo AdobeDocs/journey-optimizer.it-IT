@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 73%
+source-wordcount: '1022'
+ht-degree: 70%
 
 ---
 
@@ -24,18 +24,17 @@ ht-degree: 73%
 
 ## Aggiornamenti di maggio 2025 {#25-5-rn}
 
+* **Cartelle per le pagine di destinazione** - Data di disponibilità: sabato 9 maggio 2025
+
+  Per gestire facilmente le pagine di destinazione, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia semplificata.  [Ulteriori informazioni](../landing-pages/manage-lp.md)
+
 * **Decisioning - Nuovo generatore di formule di IA** - Data di disponibilità: 7 maggio 2025
 
-  Ora puoi creare formule di classificazione decisionali specifiche definendo e combinando criteri da una nuova interfaccia migliorata. Le formule di classificazione consentono di definire le regole che determineranno quali elementi decisionali devono essere presentati per primi, anziché tenere conto dei punteggi di priorità.
+  Ora puoi creare formule di classificazione decisionali specifiche definendo e combinando criteri da una nuova interfaccia migliorata. Invece di affidarti solo a una priorità di offerta statica, puoi definire formule di classificazione personalizzate che combinano punteggi di modelli AI, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali tramite un’interfaccia guidata.
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **Cartelle per le pagine di destinazione** - Data di disponibilità: giovedì 7 maggio 2025
-
-  Per gestire facilmente le pagine di destinazione, ora puoi anche utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia semplificata.  [Ulteriori informazioni](../landing-pages/manage-lp.md)
 
 * **Attivazione pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
 
