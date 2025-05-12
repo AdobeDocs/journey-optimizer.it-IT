@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 11%
+source-wordcount: '1718'
+ht-degree: 12%
 
 ---
 
@@ -223,34 +223,14 @@ Una volta creato, il criterio di decisione può essere utilizzato nell&#39;[edit
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
 
-## Testare e pubblicare l’esperienza basata su codice {#test-and-publish}
-
-Segui i passaggi seguenti per finalizzare l’esperienza basata su codice e apportare le modifiche in tempo reale.
-
 1. Rivedi e pubblica la campagna o il percorso di esperienze basato su codice. [Scopri come](../code-based/publish-code-based.md)
 
    Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
 
-1. Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](../code-based/create-code-based.md) utilizzando le decisioni.
-
-   Come soluzione alternativa, puoi testare il processo decisionale dopo aver pubblicato la campagna aggiungendo il flag `dryRun` nel blocco dell’evento XDM `data` nell’implementazione client:
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >L&#39;aggiunta del flag `dryRun` alla richiesta impedirà l&#39;acquisizione dei feedback per i rapporti e l&#39;aggiunta dei contatori di frequenza a.
+   >Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](../code-based/create-code-based.md) utilizzando le decisioni. Una soluzione alternativa è disponibile in [questa sezione](../code-based/code-based-decisioning-implementations.md).
 
-1. Per visualizzare le prestazioni delle decisioni, è ora possibile creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.
+1. Per visualizzare le prestazioni delle decisioni, puoi creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.
 
 
