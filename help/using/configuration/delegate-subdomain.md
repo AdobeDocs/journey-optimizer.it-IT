@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -248,8 +248,8 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 >   * Non è possibile riattivare le configurazioni del canale che utilizzavano quel sottodominio.
 >   * Non puoi delegare nuovamente il sottodominio esatto tramite l’interfaccia utente. Se lo desideri, contatta il tuo rappresentante Adobe.
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
