@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 Quando utilizzi Decisioning nelle esperienze basate su codice, prendi in considerazione l’aggiunta dei seguenti flag all’implementazione client nei casi descritti di seguito.
 
-## Verifica di esperienze basate su codice tramite decisioni
+## Verifica di esperienze basate su codice tramite decisioni {#code-based-test-decisions}
 
 Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](create-code-based.md) utilizzando le decisioni.
 
 Come soluzione alternativa, puoi testare il processo decisionale dopo aver pubblicato la campagna aggiungendo il flag `dryRun` nel blocco dell’evento XDM `data` nell’implementazione client:
 
     &quot;
-    &lbrace;
-    &quot;dati&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dati&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 >[!CAUTION]
