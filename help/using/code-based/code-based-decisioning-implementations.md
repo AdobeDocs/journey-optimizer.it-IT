@@ -26,15 +26,15 @@ Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in u
 Come soluzione alternativa, puoi testare il processo decisionale dopo aver pubblicato la campagna aggiungendo il flag `dryRun` nel blocco dell’evento XDM `data` nell’implementazione client:
 
     &quot;
-    {
-    &quot;dati&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;dati&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     &quot;
 
 >[!CAUTION]
