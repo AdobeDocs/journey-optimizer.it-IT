@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 26%
+source-wordcount: '506'
+ht-degree: 25%
 
 ---
 
@@ -51,7 +51,7 @@ Questo ambiente playground fornisce un ambiente simulato per scrivere e testare 
 
 ![area di gioco personalizzazione](assets/playground.png)
 
-➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/it/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Approfondiamo
 
@@ -97,9 +97,12 @@ Ora che conosci la personalizzazione in **[!DNL Journey Optimizer]**, è il mome
 
 Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da un percorso per personalizzare un messaggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448145?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Scopri come personalizzare un profilo di base con un messaggio e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416271?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
+Scopri come sfruttare l’area di gioco dell’editor di personalizzazione per scrivere e testare il codice di personalizzazione utilizzando dati di esempio.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
