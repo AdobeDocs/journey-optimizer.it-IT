@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 70%
+source-wordcount: '955'
+ht-degree: 73%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 70%
 * **Cartelle per le pagine di destinazione** - Data di disponibilità: sabato 9 maggio 2025
 
   Per gestire facilmente le pagine di destinazione, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia semplificata.  [Ulteriori informazioni](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
 
-* **Decisioning - Nuovo generatore di formule di IA** - Data di disponibilità: 7 maggio 2025
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
 
-  Ora puoi creare formule di classificazione decisionali specifiche definendo e combinando criteri da una nuova interfaccia migliorata. Invece di affidarti solo a una priorità di offerta statica, puoi definire formule di classificazione personalizzate che combinano punteggi di modelli AI, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali tramite un’interfaccia guidata.
-
-  Per ulteriori informazioni, consulta la [documentazione dettagliata](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **Attivazione pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
 
