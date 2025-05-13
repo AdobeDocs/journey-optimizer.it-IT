@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: c59dc9e8ef33f861106276e91513a078404713fa
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 19%
+source-wordcount: '394'
+ht-degree: 18%
 
 ---
 
 # Introduzione al rapporto tutte le ore {#channel-report-gs-cja}
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_enable_cja"
+>title="Abilita Customer Journey Analytics"
+>abstract="Per analizzare questo rapporto in Customer Journey Analytics, contatta l’amministratore per assicurarti che la tua organizzazione abbia acquistato Customer Journey Analytics e che l’integrazione sia configurata correttamente."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
 
 >[!IMPORTANT]
 >
@@ -47,14 +53,14 @@ La funzione di reporting di Journey Optimizer include una migliorata interoperab
 
 * Se **possiedi** Customer Journey Analytics e hai accesso a un profilo di prodotto Customer Journey Analytics, avrai bisogno di:
 
-   * **[!UICONTROL Autorizzazioni per la creazione di tipi di pubblico]** e **[!UICONTROL Autorizzazioni per la visualizzazione del pubblico]** per Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control)
+   * **[!UICONTROL Autorizzazioni per la creazione di tipi di pubblico]** e **[!UICONTROL Autorizzazioni per la visualizzazione del pubblico]** per Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 
    * **[!UICONTROL Gestione dei profili]** - Autorizzazione per Adobe Journey Optimizer. [Ulteriori informazioni](../administration/permissions.md)
 
-* Le visualizzazioni dati di Customer Journey Analytics devono essere configurate con l&#39;impostazione seguente: **Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer**. [Ulteriori informazioni sulle visualizzazioni dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Le visualizzazioni dati di Customer Journey Analytics devono essere configurate con l&#39;impostazione seguente: **Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer**. [Ulteriori informazioni sulle visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Il video seguente mostra come utilizzare la funzionalità avanzata di reporting di Journey Optimizer con Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443159?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
