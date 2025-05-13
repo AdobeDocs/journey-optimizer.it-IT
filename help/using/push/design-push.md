@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 18%
+source-wordcount: '1361'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Personalizza la notifica push."
->abstract="Per comporre il messaggio, immetti il contenuto nei campi Titolo e Corpo. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
+>abstract="Per comporre il messaggio, immetti il contenuto nei campi **Titolo** e **Corpo**. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
 
 Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di personalizzazione per definire i contenuti, personalizzare i dati e aggiungere contenuti dinamici. Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.md) e sul [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell&#39;editor di personalizzazione.
 
@@ -71,7 +71,7 @@ Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del co
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Aggiungi i pulsanti per consentire agli utenti di interagire con la notifica push."
->abstract="Questa sezione consente di aggiungere pulsanti di invito all’azione al messaggio. Per iOS, specifica un identificatore di categoria di notifica. Per Android, per ogni pulsante puoi specificare testo personalizzato e destinazione."
+>abstract="Da questa sezione, aggiungi i pulsanti call-to-action al messaggio. Per Apple iOS, specifica un identificatore di categoria di notifica. Per Google Android, puoi includere testo personalizzato e destinazioni per ogni pulsante."
 
 Crea una notifica actionable aggiungendo pulsanti al contenuto push.
 

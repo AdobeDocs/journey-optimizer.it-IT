@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 25%
+source-wordcount: '437'
+ht-degree: 32%
 
 ---
 
@@ -21,29 +21,7 @@ ht-degree: 25%
 >title="Campagna orchestrata"
 >abstract="In questa schermata, puoi accedere all’elenco completo delle campagne orchestrate, controllarne lo stato corrente, le date dell’ultima/successiva esecuzione e creare una nuova campagna orchestrata."
 
-Con Adobe Journey Optimizer, puoi creare campagne orchestrate in un’area di lavoro visiva per progettare processi cross-channel come segmentazione, esecuzione di campagne, elaborazione di file.
-
-## Cosa c&#39;è all&#39;interno di una campagna orchestrata? {#gs-ms-campaign-inside}
-
-L&#39;area di lavoro orchestrata per la campagna è una rappresentazione di ciò che dovrebbe accadere. Descrive le varie attività da eseguire e il modo in cui vengono collegate tra loro.
-
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
-
-Ogni campagna orchestrata contiene:
-
-* **Attività**: un’attività è un’attività da eseguire. Le varie attività disponibili sono rappresentate nel diagramma tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
-
-  In un diagramma di una campagna orchestrata, una determinata attività può produrre più attività, in particolare quando vi è un ciclo continuo o azioni ricorrenti.
-
-* **Transizioni**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza.
-
-* **Tabelle di lavoro**: la tabella di lavoro contiene tutte le informazioni riportate dalla transizione. Ogni campagna orchestrata utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della campagna orchestrata.
-
-## Passaggi chiave per creare una campagna orchestrata {#gs-ms-campaign-steps}
-
-I passaggi chiave per creare una campagna orchestrata sono i seguenti:
-
-![](assets/workflow-creation-process.png){zoomable="yes"}
+Puoi creare campagne orchestrate in un’area di lavoro visiva per progettare processi cross-channel come segmentazione, esecuzione di campagne, elaborazione di file.
 
 ## Accedere alle campagne orchestrate
 
@@ -61,6 +39,24 @@ Per duplicare o eliminare una campagna orchestrata, fai clic sul pulsante con i 
 >
 >Quando è in corso una campagna orchestrata, puoi duplicarla, ma non eliminarla.
 
+
+## Cosa c&#39;è all&#39;interno di una campagna orchestrata? {#gs-ms-campaign-inside}
+
+L&#39;area di lavoro orchestrata per la campagna è una rappresentazione di ciò che dovrebbe accadere. Descrive le varie attività da eseguire e il modo in cui vengono collegate tra loro.
+
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+
+Ogni campagna orchestrata contiene:
+
+* **Attività**: un’attività è un’attività da eseguire. Le varie attività disponibili sono rappresentate nel diagramma tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
+
+  In un diagramma di una campagna orchestrata, una determinata attività può produrre più attività, in particolare quando vi è un ciclo continuo o azioni ricorrenti.
+
+* **Transizioni**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza.
+
+* **Tabelle di lavoro**: la tabella di lavoro contiene tutte le informazioni riportate dalla transizione. Ogni campagna orchestrata utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della campagna orchestrata.
+
+
 ## Stati e ciclo di vita {#status}
 
 Le campagne possono avere più stati:
@@ -70,8 +66,3 @@ Le campagne possono avere più stati:
 * **[!UICONTROL Completata]**: esecuzione della campagna orchestrata completata.
 * **[!UICONTROL Sospeso]**: la campagna orchestrata è stata sospesa.
 * **[!UICONTROL Errore]**: la campagna orchestrata ha rilevato un errore. Apri la campagna orchestrata e accedi ai registri e alle attività per identificare l’errore e risolverlo.
-
-
-## Creare una query
-
-## Linee guida di Personalization

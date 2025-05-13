@@ -7,38 +7,59 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 21%
 
 ---
 
 # Introduzione alle campagne orchestrate {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**Sommario**
++++Sommario
 
-* Configurazione: [Configura le campagne orchestrate](gs-campaign-config.md)
-* Configurazione: [Creare schemi relazionali](ms-schemas.md)
-* Crea la tua prima campagna orchestrata: [Principes chiave](gs-campaign-creation.md)
+Ti diamo il benvenuto
+
+* Introduzione alle campagne orchestrate
+* [Principi chiave](gs-campaign-creation.md)
+* [Passaggi per creare campagne orchestrate](gs-campaign-steps.md)
+
+
+Passaggi di configurazione
+
+* [Creare schemi relazionali](ms-schemas.md)
+
+Passaggi di creazione
+
 * [Creare una campagna orchestrata](create-ms-campaign.md)
 * [Configurare le impostazioni della campagna](ms-campaign-settings.md)
-* [Personalizzare i messaggi](ms-personalization.md)
-* [Creare query](ms-query-modeler.md)
-* [Test e convalida dei messaggi](ms-proofs.md)
 * [Pianificare e avviare le campagne](start-monitor-campaigns.md)
-* Attività: [Introduzione alle attività](activities/about-activities.md)
+* [Creare query](ms-query-modeler.md)
+
+Attività
+
+* [Introduzione alle attività](activities/about-activities.md)
 * [Orchestrare le attività](orchestrate-activities.md)
-* [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Azioni canale](activities/channels.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - &lt;!—[Test](activities/test.md) —> [Attendi](activities/wait.md)
-* Monitoraggio: [Generazione rapporti](reporting-campaigns.md)
+* [And-join](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - <!--[Test](activities/test.md) --> [Attendi](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-Le campagne orchestrate migliorano Adobe Journey Optimizer introducendo solide funzionalità per campagne batch avviate dal brand, consentendo di pianificare e orchestrare campagne cross-channel con strategie di segmentazione avanzate.
+Messaggi
+
+* [Azioni del canale](activities/channels.md)
+* [Personalizzare i messaggi](ms-personalization.md)
+* [Test e convalida dei messaggi](ms-proofs.md)
+
+Reporting e monitoraggio
+
+* [Generazione rapporti](reporting-campaigns.md)
+
++++
+
 
 ## Cos’è una campagna orchestrata?
+
+Le campagne orchestrate migliorano Adobe Journey Optimizer introducendo solide funzionalità per campagne batch avviate dal brand, consentendo di pianificare e orchestrare campagne cross-channel con strategie di segmentazione avanzate.
 
 Il marketing cross-channel è essenziale per qualsiasi azienda che desideri raggiungere i propri clienti in modo efficace. Adobe Journey Optimizer offre un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità. Con le campagne orchestrate, puoi orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
