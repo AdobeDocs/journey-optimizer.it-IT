@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1679'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="Eventi unitari"
 >abstract="La configurazione dell’evento consente di definire le informazioni che Journey Optimizer riceverà sotto forma di eventi. All’interno dei vari passaggi di un percorso puoi utilizzare più eventi, e uno stesso evento può essere utilizzato in più percorsi. Gli eventi unitari sono collegati a un profilo specifico. Possono essere basati su regole o generati dal sistema."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="Usa identificatore supplementare"
+>abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. Per definirlo, seleziona il campo da utilizzare come identificatore supplementare e scegli uno spazio dei nomi da associare."
 
 Gli eventi unitari sono collegati a un profilo specifico. Possono essere basate su regole o generate dal sistema.  Ulteriori informazioni sull&#39;evento unitario [questa sezione](../event/about-events.md).
 
@@ -140,7 +145,7 @@ Seleziona un tipo di identità dall’elenco a discesa.
 
 ## Definire l’identificatore del profilo {#define-the-event-key}
 
-La chiave è il campo, o la combinazione di campi, che fa parte dei dati di payload dell’evento e che consente al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’ID Experience Cloud, un ID del sistema di gestione delle relazioni con i clienti o un indirizzo e-mail.
+La chiave è il campo, o la combinazione di campi, che fa parte dei dati di payload dell’evento e che consente al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l’Experience Cloud ID, un ID del sistema di gestione delle relazioni con i clienti o un indirizzo e-mail.
 
 Per utilizzare i dati archiviati nel database del profilo cliente in tempo reale di Adobe, la chiave evento deve essere costituita dalle informazioni definite come identità di un profilo nel [Servizio profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
@@ -158,7 +163,7 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 
 1. Seleziona il campo scelto come chiave nell’elenco dei campi del payload.
 
-Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [&#128279;](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
 La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
 ## Editor di espressioni avanzate {#adv-exp-editor}
