@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -57,7 +58,7 @@ Da questo elenco, puoi fare clic sui tre punti accanto a una pagina di destinazi
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="Organizzazione delle pagine di destinazione in cartelle"
+>title="Organizzare le pagine di destinazione in cartelle"
 >abstract="Utilizza le cartelle per categorizzare e gestire le pagine di destinazione in base alle esigenze della tua organizzazione."
 
 Per navigare facilmente nelle pagine di destinazione, puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.

@@ -11,7 +11,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Una volta creata una formula di classificazione, puoi assegnarla a una [strategi
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Creare formule di classificazione"
->abstract="Le formule ti consentono di definire regole che determinano quale elemento decisionale deve essere presentato per primo, anziché tenere conto dei punteggi di priorità degli elementi. Una volta creata una formula di classificazione, puoi assegnarla a una strategia di selezione."
+>abstract="Le formule consentono di definire regole che determinano quale elemento decisionale deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creata una formula di classificazione, puoi assegnarla a una strategia di selezione."
 
 Per creare una formula di classificazione, segui i passaggi seguenti.
 
