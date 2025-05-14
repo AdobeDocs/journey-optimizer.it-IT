@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -170,7 +170,7 @@ Il grafico **[!UICONTROL Tasso di conversione per il traffico di attesa e basato
 * **Basato su modello**: gli utenti ricevono contenuti classificati in base al modello di intelligenza artificiale, ottimizzati per rilevanza e coinvolgimento.
 
 * **Sospensione**: gli utenti ricevono contenuti distribuiti in modo casuale durante la fase di esplorazione del modello.
-<!--
+
 >[!CAUTION]
 >
->When using an AI model incorporated into a [ranking formula](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), data are not reflected in the Conversion rate report.-->
+>Quando si utilizza un modello di IA incorporato in una [formula di classificazione](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), i dati non vengono rispecchiati nel report del tasso di conversione.

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -108,7 +108,7 @@ I punteggi di priorità delle offerte vengono assegnati durante la creazione di 
 
 Oltre alla priorità dell&#39;offerta, Journey Optimizer consente di creare **formule di classificazione**. Si tratta di formule che determinano quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte.
 
-Ad esempio, puoi aumentare la priorità di tutte le offerte la cui data di fine è inferiore a 24 ore da ora, oppure puoi aumentare le offerte dalla categoria &quot;in esecuzione&quot; se il punto di interesse del profilo è &quot;in esecuzione&quot;. <!--Learn how to create a ranking formula in [this section](exd-ranking-formulas.md).-->
+Ad esempio, puoi aumentare la priorità di tutte le offerte la cui data di fine è inferiore a 24 ore da ora, oppure puoi aumentare le offerte dalla categoria &quot;in esecuzione&quot; se il punto di interesse del profilo è &quot;in esecuzione&quot;. Scopri come creare una formula di classificazione in [questa sezione](exd-ranking-formulas.md).
 
 Una volta creata, è possibile utilizzare questa formula in una strategia di selezione. Se più offerte sono idonee per essere presentate quando si utilizza questa strategia di selezione, la decisione utilizzerà la formula selezionata per calcolare quale offerta consegnare per prima.
 

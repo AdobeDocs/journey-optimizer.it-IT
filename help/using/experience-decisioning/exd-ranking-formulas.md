@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 4%
@@ -18,8 +16,6 @@ ht-degree: 4%
 # Utilizzare il generatore di formule di IA {#create-ranking-formulas}
 
 **Le formule di classificazione** ti consentono di definire regole che determineranno quale offerta deve essere presentata per prima, anziché tenere conto dei punteggi di priorità.
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 Per creare queste regole, il generatore di formule di IA in **[!UICONTROL Adobe Journey Optimizer]** offre maggiore flessibilità e controllo nella classificazione delle offerte. Invece di affidarti solo a una priorità di offerta statica, ora puoi definire formule di classificazione personalizzate che combinano punteggi di modelli AI, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali tramite un’interfaccia guidata.
 
@@ -84,8 +80,6 @@ Per definire i criteri direttamente dall’interfaccia, segui i passaggi indicat
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. Facoltativamente, puoi specificare elementi aggiuntivi per perfezionare le condizioni di corrispondenza affinché i criteri siano veri.
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -118,7 +112,7 @@ Per definire i criteri direttamente dall’interfaccia, segui i passaggi indicat
 
 ### Esempio di formula di classificazione
 
-Considera l&#39;esempio seguente:<!--To be checked by PM-->
+Prendi in considerazione l’esempio seguente:
 
 ![](assets/ranking-formula-example.png){width="80%"}
 
