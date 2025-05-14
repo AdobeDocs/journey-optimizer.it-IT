@@ -30,7 +30,7 @@ A tal fine, l’organizzazione:
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
