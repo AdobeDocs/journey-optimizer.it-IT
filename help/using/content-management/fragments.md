@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 13%
 
 ---
@@ -31,12 +31,12 @@ Un frammento è un componente riutilizzabile a cui è possibile fare riferimento
 
 Per utilizzare al meglio i frammenti:
 
-* **Crea frammenti personalizzati**: crea frammenti visivi o di espressione, da zero o salvando il contenuto come frammento. [Scopri come creare un frammento](#create-fragments). Inoltre, puoi sfruttare l&#39;API REST del contenuto **Journey Optimizer** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Crea frammenti personalizzati**: crea frammenti visivi o di espressione, da zero o salvando il contenuto come frammento. [Scopri come creare un frammento](create-fragments.md). Inoltre, puoi sfruttare l&#39;API REST del contenuto **Journey Optimizer** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 * **Riutilizza i frammenti:** Utilizzali il numero di volte necessario nel contenuto. Vedi [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare frammenti di espressione](../personalization/use-expression-fragments.md)
 
 ## Prima di iniziare {#fragment-prerequisites}
 
-Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Frammento di Publish]** incluse nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 In questa versione si applicano le seguenti limitazioni:
 
@@ -54,7 +54,7 @@ Tutti i frammenti creati sono accessibili dal menu a sinistra **[!UICONTROL Gest
 
 ![](assets/fragment-list.png)
 
-## Video introduttivo {#video-fragments}
+## Video dimostrativo {#video-fragments}
 
 Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey Optimizer].
 
@@ -62,4 +62,4 @@ Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey O
 
 Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438925/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

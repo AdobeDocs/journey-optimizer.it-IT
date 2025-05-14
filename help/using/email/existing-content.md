@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: e-mail, importazione, contenuto, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 # Importa il contenuto delle e-mail {#existing-content}
 
-[!DNL Journey Optimizer] ti consente di importare contenuto HTML esistente per progettare le e-mail. Tali contenuti possono essere:
+[!DNL Journey Optimizer] consente di importare contenuto HTML esistente per progettare le e-mail. Tali contenuti possono essere:
 
-* Un file **HTML** con un foglio di stile incorporato;
+* Un **file HTML** con un foglio di stile incorporato;
 * Una cartella **.zip** che include un file HTML, il foglio di stile (.css) e le immagini.
 
   >[!NOTE]
@@ -49,10 +49,10 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
    >
    > L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-1. Ora puoi personalizzare il file importato in base alle esigenze con le funzionalità di E-mail designer [Ulteriori informazioni](content-from-scratch.md).
+1. Ora puoi personalizzare il file importato in base alle esigenze con le funzionalità di E-mail Designer. [Ulteriori informazioni](content-from-scratch.md)
 
 ## Video introduttivo {#video}
 
 Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare i contenuti tramite codice di programmazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421911?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

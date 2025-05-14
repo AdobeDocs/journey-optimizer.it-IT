@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 16%
+source-wordcount: '700'
+ht-degree: 14%
 
 ---
 
@@ -66,6 +66,14 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 * Per i frammenti visivi, modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna. [Ulteriori informazioni](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  Per applicare rapidamente uno stile specifico adatto al tuo marchio e design, puoi applicare al frammento un [tema](../email/apply-email-themes.md).
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >I frammenti non sono compatibili tra il tema e la modalità classica. Per poter utilizzare un frammento in un contenuto in cui desideri applicare un tema, è necessario creare il frammento in modalità Tema. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
 
 * Per i frammenti di espressione, utilizza l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le funzionalità di personalizzazione e authoring per creare il contenuto del frammento. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
