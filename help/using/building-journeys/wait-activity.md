@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -35,21 +35,21 @@ Puoi utilizzare un&#39;attività **[!UICONTROL Wait]** per definire una durata p
 * [Fixed date](#fixed_date) 
 -->
 
-## Raccomandazioni {#wait-recommendations}
+## Consigli {#wait-recommendations}
 
 ### Attività di attesa multiple {#multiple-wait-activities}
 
-Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) per i percorsi è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso 91 giorni dopo l&#39;immissione. Ulteriori informazioni su [questa pagina](journey-properties.md#global_timeout).
+Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) per i percorsi è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso 91 giorni dopo l&#39;immissione. Ulteriori informazioni sono disponibili in [questa pagina](journey-properties.md#global_timeout).
 
 Una persona può accedere a un&#39;attività **Wait** solo se nel percorso è rimasto abbastanza tempo per completare la durata dell&#39;attesa prima del timeout di 91 percorsi.
 
 ### Attendere e rientrare {#wait-reentrance}
 
-È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Ulteriori informazioni su [questa pagina](../building-journeys/journey-properties.md#entrance).
+È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Modalità di attesa e test {#wait-test-mode}
 
-In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test) consente di definire la durata di ogni attività **Wait**. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Ulteriori informazioni su [questa pagina](../building-journeys/testing-the-journey.md).
+In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test) consente di definire la durata di ogni attività **Wait**. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/testing-the-journey.md).
 
 ### Canali attendi e mobili {#wait-mobile-channels}
 
@@ -100,4 +100,4 @@ Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare
 >title="Informazioni sul nodo di attesa automatico"
 >abstract="Un’attività **Attesa** viene aggiunta automaticamente dopo questa attività. È impostato per 3 giorni. Puoi rimuoverlo o configurarlo in base alle esigenze."
 
-Ogni attività messaggio in entrata (messaggio in-app, esperienza basata su codice o scheda) viene fornita con un&#39;attività **Wait** di 3 giorni. Poiché i messaggi in entrata terminano automaticamente quando un profilo raggiunge la fine del percorso, si presume che gli utenti debbano visualizzarlo almeno per 3 giorni. Puoi rimuovere questa attività **Attendi** o modificarne la configurazione, se necessario.
+Ogni attività esperienza in entrata (messaggio in-app, esperienza basata su codice o scheda) viene fornita con un&#39;attività **Wait** di 3 giorni. Poiché i messaggi in entrata terminano automaticamente quando un profilo raggiunge la fine del percorso, si presume che gli utenti debbano visualizzarlo almeno per 3 giorni. Puoi rimuovere questa attività **Attendi** o modificarne la configurazione, se necessario.

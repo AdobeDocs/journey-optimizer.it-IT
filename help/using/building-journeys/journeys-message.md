@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 18%
+source-wordcount: '496'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Azione canale incorporate"
->abstract="Journey Optimizer viene fornito con funzionalità di azione canale incorporate. Puoi semplicemente aggiungere al tuo percorso un’attività in uscita (e-mail, messaggio di testo (SMS/MMS), push) o in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
+>abstract="Journey Optimizer viene fornito con funzionalità di azione canale incorporate. Puoi semplicemente aggiungere al percorso un’attività di messaggio (e-mail, messaggio di testo (SMS/MMS), push) o un’attività di esperienza in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
 
 [!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale incorporate utilizzate per inviare messaggi: quando un profilo accede a questa attività, viene inviato un messaggio.
 
@@ -121,7 +121,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
 >[!NOTE]
 >
->* Ogni attività di messaggio in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
+>* Ogni attività esperienza in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
 >
 >* Per le e-mail e le notifiche push, puoi abilitare Ottimizzazione del tempo di invio. [Ulteriori informazioni](send-time-optimization.md)
 

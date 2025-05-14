@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 91%
+source-wordcount: '766'
+ht-degree: 87%
 
 ---
 
@@ -20,14 +20,14 @@ Con Adobe Journey Optimizer puoi gestire, conservare ed esportare facilmente que
 
 >[!NOTE]
 >
-> Basato su Adobe Experience Platform, Adobe Systems Journey Optimizer è connesso in modo nativo a [Adobe Systems profilo](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} cliente in tempo reale. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che è entrato in un percorso è un cliente oppure no). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
+> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che è entrato in un percorso è un cliente oppure no). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}
 
 Puoi utilizzare Customer Journey Analytics per eseguire analisi avanzate sui dati generati da Journey Optimizer.
 
-Journey Optimizer archivia i dati in Adobe Experience Platform e con Customer Journey Analytics fornisce una vista olistica di tutti i tuoi percorsi, campagne e offerte con distribuzione dei rapporti automatizzata e visualizzazioni personalizzate dei dati.
+Journey Optimizer archivia i dati in Adobe Experience Platform e con Customer Journey Analytics fornisce una visualizzazione olistica di tutti i tuoi percorsi, campagne e offerte con distribuzione automatizzata dei rapporti e visualizzazioni personalizzate dei dati.
 
 Dopo aver creato il percorso in Journey Optimizer, Customer Journey Analytics può acquisire dati dalla piattaforma per avviare rapporti e comprendere l’impatto di ogni interazione di un cliente con i tuoi percorsi.
 
@@ -82,15 +82,15 @@ Ulteriori informazioni su [Journey Optimizer + Campaign Standard](../building-jo
 
 Utilizza i moduli di Adobe Journey Optimizer in Adobe Workfront per creare, leggere, aggiornare o eliminare record oppure eseguire una chiamata API personalizzata all’API di Adobe Journey Optimizer.
 
-Una panoramica del passaggio chiave di questa integrazione è disponibile [in questo articolo di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+Una panoramica del passaggio chiave di questa integrazione è disponibile [in questo post di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Scopri ulteriori informazioni su Journey Optimizer + Adobe Systems Workfront [nella documentazione](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"} di Adobe Systems Workfront.
+Ulteriori informazioni su Journey Optimizer + Adobe Workfront [ nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"}.
 
 ## Canali personalizzati {#integration-custom}
 
-Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per connettersi al tuo percorso. Ad esempio, puoi connetterti ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, [Adobe Systems Developer](https://developer.adobe.com){target="_blank"}, Firebase, ecc.
+Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per connettersi al tuo percorso. È ad esempio possibile connettersi ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, ecc.
 
-Le azioni personalizzate sono azioni aggiuntive definite dagli utenti tecnici e rese disponibili agli esperti di marketing. Una volta configurate, vengono visualizzate nella palette a sinistra del percorso nella categoria **[!UICONTROL Azione]**. Scopri maggiori informazioni su [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le azioni personalizzate sono azioni aggiuntive definite dagli utenti tecnici e rese disponibili agli esperti di marketing. Una volta configurate, vengono visualizzate nella palette a sinistra del percorso nella categoria **[!UICONTROL Azione]**. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
 Ulteriori informazioni sulle [azioni personalizzate](../action/about-custom-action-configuration.md).
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '639'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ Ulteriori informazioni sulle diverse metriche e widget disponibili per i rapport
 
 Prima di iniziare, verifica di avere accesso al menu **[!UICONTROL Rapporti]**.
 
-Se non riesci a visualizzare il menu **[!UICONTROL Rapporti]**, devi estendere i tuoi diritti di accesso per includere l&#39;autorizzazione **[!UICONTROL Visualizza rapporti canale]**. Puoi estendere le tue autorizzazioni se hai accesso alle [Autorizzazioni](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"} di Adobe Experience Platform per la tua organizzazione. In caso contrario, contattare l&#39;amministratore di Adobe Journey Optimizer.
+Se non riesci a visualizzare il menu **[!UICONTROL Rapporti]**, devi estendere i tuoi diritti di accesso per includere l&#39;autorizzazione **[!UICONTROL Visualizza rapporti canale]**. Puoi estendere le tue autorizzazioni se hai accesso a [Autorizzazioni](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"} per Adobe Experience Platform per la tua organizzazione. In caso contrario, contattare l&#39;amministratore di Adobe Journey Optimizer.
 
 +++Scopri come assegnare le autorizzazioni per i rapporti
 

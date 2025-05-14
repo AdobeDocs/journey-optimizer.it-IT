@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 19%
 
 ---
@@ -51,7 +51,7 @@ Per aggiungere un&#39;attività **Web** a un percorso, eseguire la procedura seg
 
    >[!NOTE]
    >
-   >Poiché **Web** è un&#39;attività messaggio in entrata, include un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
+   >Poiché **Web** è un&#39;attività esperienza in entrata, include un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
 
@@ -237,8 +237,8 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 >
 >Una volta interrotto un percorso web o una campagna, non puoi più modificarlo o attivarlo. Puoi solo duplicarlo e attivare il percorso o la campagna duplicati.
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449989/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
