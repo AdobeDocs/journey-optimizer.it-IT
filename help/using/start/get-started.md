@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -67,15 +67,13 @@ Le funzionalità principali includono:
 
 Scopri l’architettura di base di [!DNL Adobe Journey Optimizer], i punti di integrazione e la relazione tra [!DNL Journey Optimizer] ed [!DNL Experience Platform], nel diagramma seguente.
 
-Adobe Experience Platform è una base di dati potente, flessibile, aperta e centralizzata che raccoglie, standardizza, gestisce, applica informazioni di intelligenza artificiale e unifica i dati per offrire ai clienti digitali pertinenti e ponderati
-esperienze.
+Adobe Experience Platform è una base di dati potente, flessibile, aperta e centralizzata che raccoglie, standardizza, governa, applica informazioni di intelligenza artificiale e unifica i dati per offrire esperienze cliente digitali ponderate e rilevanti.
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Quattro applicazioni sono create in modalità nativa su Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics e Adobe Mix Modeler.
 
-Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire dai componenti fondamentali di Adobe Experience Platform, che include Real-Time Customer Profile. Journey Optimizer funziona perfettamente ed è interoperabile con Real-Time CDP e Customer Journey Analytics, ma
-funziona anche in modo indipendente come applicazione indipendente.
+Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire dai componenti fondamentali di Adobe Experience Platform, che include Real-Time Customer Profile. Journey Optimizer funziona perfettamente ed è interoperabile con Real-Time CDP e Customer Journey Analytics, ma può anche funzionare in modo indipendente come applicazione indipendente.
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
