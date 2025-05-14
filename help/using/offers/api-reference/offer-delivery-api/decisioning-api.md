@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ La tabella seguente mostra i valori validi che comprendono i campi *Content-Type
 | x-sandbox-name | `{SANDBOX_NAME}` |
 | x-api-key | `{API_KEY}` |
 
-* Tutte le richieste che contengono un payload (POST,PUT,PATCH) richiedono l’intestazione content-type
+* Tutte le richieste che contengono un payload (POST,PUT,PATCH) richiedono l’intestazione del tipo di contenuto
 
 ## richiesta API {#request}
 
@@ -112,6 +112,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | Questo oggetto rappresenta la struttura di controllo delle regole di deduplicazione. È costituito da una serie di flag che indicano se la stessa opzione può essere proposta in una determinata dimensione. Un flag impostato su true significa che i duplicati sono consentiti e non devono essere rimossi in tutta la categoria indicata dal flag. Un flag impostato su false significa che il motore decisionale non deve fare la stessa proposta in tutta la dimensione e scegliere invece l’opzione migliore successiva per una delle sottodecisioni. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se è impostato su true, a più decisioni può essere assegnata la stessa opzione. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Se è impostato su true, a più posizionamenti può essere assegnata la stessa opzione. | `"xdm:acrossPlacements": true` |
+| `xdm:enrichedAudience` | Aggiungi questo parametro e impostalo su &quot;true&quot; se stai eseguendo il targeting di un pubblico CSV | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | Identifica il criterio di unione in base al quale gestire i dati restituiti dal servizio di accesso al profilo. Se non ne viene specificato uno nella richiesta, la gestione delle decisioni non trasmette alcun servizio di accesso al profilo, altrimenti trasmette l’ID fornito dal chiamante. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Un set di flag che formatta il contenuto della risposta. |
 | `xdm:responseFormat.xdm:includeContent` | Valore booleano che, se impostato su `true`, include contenuto nella risposta. | `"xdm:includeContent": true` |
@@ -213,7 +214,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830/?quality=12&captions=ita) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Passaggi successivi {#next-steps}
 

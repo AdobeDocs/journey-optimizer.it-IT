@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 4%
 
 ---
@@ -24,13 +24,13 @@ A tal fine, l’organizzazione:
 
 * Eseguire l&#39;API [!DNL Batch Decisioning], che contiene due richieste:
 
-   1. **Richiesta Batch POST** per avviare un carico di lavoro per l&#39;elaborazione batch delle selezioni delle offerte.
+   1. **Richiesta POST batch** per avviare un carico di lavoro per elaborare in batch le selezioni delle offerte.
 
-   2. **Richiesta di GET batch** per ottenere lo stato del carico di lavoro batch.
+   2. **Richiesta batch di GET** per ottenere lo stato del carico di lavoro batch.
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Tutte le [!DNL Batch Decisioning] richieste richiedono le intestazioni seguenti 
 
 ## Avviare un processo batch {#start-a-batch-process}
 
-Per avviare un carico di lavoro per le decisioni di elaborazione in batch, effettuare una richiesta POST all&#39;endpoint `/workloads/decisions`.
+Per avviare un carico di lavoro per elaborare in batch le decisioni, effettuare una richiesta POST all&#39;endpoint `/workloads/decisions`.
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | L’identificatore univoco della decisione. |
 | `xdm:dataSetId` | Il set di dati di output in cui è possibile scrivere gli eventi di decisione. | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | Aggiungi questo parametro e impostalo su &quot;true&quot; se stai eseguendo il targeting di un pubblico CSV | `true` |
 | `xdm:includeContent` | Questo è un campo facoltativo ed è `false` per impostazione predefinita. Se `true`, il contenuto dell&#39;offerta viene incluso negli eventi di decisione del set di dati. | `false` |
 | `xdm:itemCount` | Questo è un campo facoltativo che mostra il numero di elementi, ad esempio le opzioni richieste per l’ambito decisionale. Per impostazione predefinita, l’API restituisce un’opzione per ambito, ma è possibile richiedere esplicitamente più opzioni specificando questo campo. È possibile richiedere un minimo di 1 e un massimo di 30 opzioni per ambito. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | L’identificatore di posizionamento univoco. | `xcore:offer-placement:1410c4117306488a` |
@@ -133,7 +132,7 @@ Per una panoramica dei concetti e delle proprietà principali, consulta la [docu
 
 ## Recuperare informazioni su una decisione batch {#retrieve-information-on-a-batch-decision}
 
-Per recuperare informazioni su una decisione specifica, effettua una richiesta di GET all&#39;endpoint `/workloads/decisions` fornendo il valore ID del carico di lavoro corrispondente per la decisione.
+Per recuperare informazioni su una decisione specifica, effettua una richiesta GET all&#39;endpoint `/workloads/decisions` fornendo il valore ID del carico di lavoro corrispondente per la decisione.
 
 **Formato API**
 
