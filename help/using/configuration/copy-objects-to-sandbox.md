@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 È possibile copiare oggetti quali percorsi, azioni personalizzate, modelli di contenuto o frammenti in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
 
-Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=it).
+Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer consente di esportare percorsi, azioni personalizzate, modelli
 
 ### Percorsi {#journeys}
 
-* Durante l’esportazione di un percorso, oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, azioni personalizzate, schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questa [sezione](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=it#abobe-journey-optimizer-objects).
+* Durante l’esportazione di un percorso, oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, azioni personalizzate, schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questa [sezione](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 * Non è garantito che tutti gli elementi collegati vengano copiati nella sandbox di destinazione. Si consiglia vivamente di eseguire un controllo approfondito, ad esempio prima di pubblicare un percorso. Questo consente di identificare eventuali oggetti mancanti.
 
@@ -61,18 +61,18 @@ Journey Optimizer consente di esportare percorsi, azioni personalizzate, modelli
 
 ### Campagne {#campaigns}
 
-Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti.
+Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Tuttavia, i seguenti elementi sono **non** copiati:
 
-Tuttavia, i seguenti elementi sono **non** copiati:
+* varianti multilingue e impostazioni di lingua,
+* Regole di business,
+* Tag,
+* Etichette DULE (Data Usage Labeling and Enforcement, etichettatura e applicazione dell’uso dei dati).
 
-* Varianti multilingue e impostazioni della lingua
-* Varianti esperimento
-* Criteri di decisione e elementi di decisione
-* Regole di business
-* Tag
-* Etichette di utilizzo dati e applicazione (DULE)
+Durante la copia delle campagne, accertati che l’oggetto elencato di seguito sia convalidato nella sandbox di destinazione per evitare errori di configurazione:
 
-Dopo aver copiato le campagne, le configurazioni del canale devono essere selezionate manualmente.
+* **Configurazioni canale**: le configurazioni canale vengono copiate insieme alle campagne. Dopo aver copiato le campagne, le configurazioni del canale devono essere selezionate manualmente nella sandbox di destinazione.
+* **Varianti e impostazioni della sperimentazione**: le varianti e le impostazioni dell&#39;esperimento sono incluse nel processo di copia della campagna. Convalida queste impostazioni nella sandbox di destinazione dopo l’importazione.
+* **Unified decisioning**: i criteri di decisione e gli elementi di decisione sono supportati per l&#39;esportazione e l&#39;importazione. Assicurati che le dipendenze relative alle decisioni siano mappate correttamente nella sandbox di destinazione.
 
 ### Modelli di contenuto {#content-templates}
 
