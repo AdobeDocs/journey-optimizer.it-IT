@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ Per implementare il caso d’uso, puoi passare a ciascun oggetto per adattarlo a
 
 Inoltre, puoi importare le risorse dei playbook in altre sandbox. Questo ti consente di allineare le risorse generate alle risorse esistenti e di garantirne la compatibilità con i tuoi dati, nel caso in cui tu abbia già impostato schemi, campi e gruppi di campi personalizzati. Questi passaggi sono descritti nella documentazione di Use Case Playbooks: [Pubblicare risorse generate dal playbook in altre sandbox](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=it){target="_blank"}.
 
-## Creazione di playbook personalizzati (Beta) {#create}
+## Crea i tuoi playbook (versione beta privata) {#create}
 
 >[!AVAILABILITY]
 >
->La creazione di playbook basati su casi d’uso è attualmente disponibile per tutti i clienti come versione beta pubblica.
+>La creazione di playbook basati su casi d’uso è attualmente disponibile solo per un set di organizzazioni come versione beta privata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 Oltre a utilizzare i playbook predefiniti, puoi creare e condividere i tuoi playbook in Adobe Experience Platform.
 
 Puoi definire i metadati utilizzando l’assistenza IA o l’input manuale, associare risorse tecniche come schemi, segmenti e condividere i playbook tra diverse organizzazioni IMS.
 
-Per ulteriori informazioni su come creare e condividere playbook, consulta la documentazione di Use Case Playbooks: [Crea e condividi i tuoi playbook utilizzando l&#39;Assistente AI](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=it#sharing-playbooks-sandboxes){target="_blank"}.
+Per ulteriori informazioni su come creare e condividere playbook, consulta la documentazione di Use Case Playbooks: [Crea e condividi i tuoi playbook utilizzando l&#39;Assistente AI](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
