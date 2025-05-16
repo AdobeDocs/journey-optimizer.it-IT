@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 23%
+source-wordcount: '1485'
+ht-degree: 24%
 
 ---
 
@@ -216,22 +216,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Decisioni sui contenuti nei percorsi</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi aggiungere offerte ai percorsi tramite un’azione decisionale dedicata nell’area di lavoro del percorso e utilizzarle nelle azioni personalizzate.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>ID supplementare per percorsi attivati da eventi</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ Quando si copiano campagne in più sandbox utilizzando le funzionalità di espor
   Ora puoi sfruttare gli attributi degli elementi di decisione per creare regole di decisione.
 
 
-* **Sottodomini - Metodo &#39;Nessuna delega&#39;**\
-  Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo No delegation, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.
+* **Sottodomini - Metodo &#39;di delega personalizzata&#39;**\
+  Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.
 
 * **Direct mailing - Supporto SSH**\
   Oltre all’SFTP esistente con tipo di autenticazione tramite password, ora puoi esportare il file di direct mailing in un server SFTP con autenticazione tramite chiave SSH.
