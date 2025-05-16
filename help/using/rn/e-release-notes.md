@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1513'
 ht-degree: 23%
 
 ---
@@ -292,9 +292,6 @@ Quando si copiano campagne in più sandbox utilizzando le funzionalità di espor
 
 * **Sottodomini - Metodo &#39;Nessuna delega&#39;**\
   Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo No delegation, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.
-
-* **Supporto per origini dati personalizzate in Personalization**\
-  Ora puoi creare una query e acquisire dati da un’origine esterna (ovvero non memorizzata in Adobe Experience Platform) da utilizzare nelle superfici in entrata e in uscita di Journey Optimizer per la personalizzazione e l’orchestrazione del percorso.
 
 * **Direct mailing - Supporto SSH**\
   Oltre all’SFTP esistente con tipo di autenticazione tramite password, ora puoi esportare il file di direct mailing in un server SFTP con autenticazione tramite chiave SSH.
