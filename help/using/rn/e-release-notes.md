@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 25%
+source-wordcount: '1554'
+ht-degree: 23%
 
 ---
 
@@ -229,6 +229,24 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>ID supplementare per percorsi attivati da eventi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, consentendo che lo stesso profilo sia nello stesso percorso più volte alla volta. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio percorso attraverso il percorso.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### Miglioramenti {#25-05-improv}
 
 I miglioramenti apportati a questa versione sono elencati di seguito.
@@ -250,12 +268,11 @@ Per gestire facilmente le pagine di destinazione, ora puoi utilizzare le cartell
 * **Decisioning - Utilizzo dei set di dati di Adobe Experience Platform**\
   Journey Optimizer ora consente di sfruttare i set di dati di Adobe Experience Platform nei seguenti oggetti Decisioning: regole di idoneità, formule di classificazione e regole di limitazione di utilizzo.
 
-* **Cartelle in modelli e frammenti (disponibilità generale)**\
-  Precedentemente disponibili per alcune organizzazioni (disponibilità limitata), le cartelle sono ora disponibili per tutti gli utenti (disponibilità generale) per gestire i modelli di contenuto e i frammenti. Le cartelle consentono di organizzare i modelli e i frammenti di contenuto in modo più semplice ed efficace in una gerarchia strutturata.
+* **Cartelle in modelli e frammenti**\
+  Le cartelle consentono di organizzare i modelli di contenuto e i frammenti in modo più semplice ed efficace in una gerarchia strutturata. Precedentemente disponibili per un set di organizzazioni (LA), le cartelle sono ora disponibili per tutti gli utenti (GA) per gestire i modelli di contenuto e i frammenti.
 
 * **Supporto nuovi oggetti campagna per la copia sandbox** <!-- - Availability date: -->
-
-  Quando si copiano campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri di decisione ed elementi. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+Quando si copiano campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri di decisione ed elementi. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
 * Supporto di **&#39;Reindirizza all&#39;URL&#39; nel canale Web**\
   Il canale web Journey Optimizer ora consente di reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nell’editor visivo. Questa funzionalità può essere utilizzata per eseguire esperimenti confrontando due pagine completamente diverse, anziché modificare solo alcuni elementi all’interno di una pagina.
@@ -272,11 +289,12 @@ Per gestire facilmente le pagine di destinazione, ora puoi utilizzare le cartell
 * **Supporto dell&#39;attributo dell&#39;elemento decisione per le regole di decisione**\
   Ora puoi sfruttare gli attributi degli elementi di decisione per creare regole di decisione.
 
-* **Rientro Di Più Percorsi**\
-  Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, consentendo che lo stesso profilo sia nello stesso percorso più volte alla volta. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio percorso attraverso il percorso.
 
 * **Sottodomini - Metodo &#39;Nessuna delega&#39;**\
   Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo No delegation, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.
 
 * **Supporto per origini dati personalizzate in Personalization**\
   Ora puoi creare una query e acquisire dati da un’origine esterna (ovvero non memorizzata in Adobe Experience Platform) da utilizzare nelle superfici in entrata e in uscita di Journey Optimizer per la personalizzazione e l’orchestrazione del percorso.
+
+* **Direct mailing - Supporto SSH**\
+  Oltre all’SFTP esistente con tipo di autenticazione tramite password, ora puoi esportare il file di direct mailing in un server SFTP con autenticazione tramite chiave SSH.
