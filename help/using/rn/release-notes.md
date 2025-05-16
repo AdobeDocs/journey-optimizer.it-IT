@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 65%
+source-wordcount: '1157'
+ht-degree: 68%
 
 ---
 
@@ -52,9 +52,15 @@ ht-degree: 65%
   >
   >Questa funzionalità verrà gradualmente implementata in tutti gli ambienti nei prossimi 30 giorni.
 
-* **Supporto di nuovi oggetti Campaign per la copia sandbox** - Data di disponibilità: 15 maggio 2025
+* **Supporto di nuovi oggetti per la copia sandbox**
 
-  Quando si copiano campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri di decisione ed elementi. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+   * **Campagne** - Data di disponibilità: 15 maggio 2025
+
+     Quando si copiano campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri di decisione ed elementi. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+
+   * **Decisioning** - Data di disponibilità: 16 maggio 2025
+
+     È ora possibile copiare gli oggetti decisionali tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## Note sulla versione di aprile 2025 {#25-4-rn}
 
@@ -248,7 +254,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nella finestra di e-mail designer, consentendoti di vedere se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in Beta.</p>
+<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nell’E-mail designer, consentendoti di visualizzare se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/brands-score.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -283,10 +289,6 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funzionalità di invio di bozze esistenti. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Strumenti sandbox**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **Strumenti sandbox per azioni personalizzate**
 
