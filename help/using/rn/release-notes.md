@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 68%
+source-wordcount: '1184'
+ht-degree: 66%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 68%
    * **Decisioning** - Data di disponibilità: 16 maggio 2025
 
      È ora possibile copiare gli oggetti decisionali tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **Direct mailing: supporto della chiave SSH per le connessioni SFTP** - Data di disponibilità: 5 maggio 2025
+
+  L’autenticazione tramite chiave SSH è ora supportata per le connessioni al server SFTP nella configurazione di indirizzamento dei file di Direct Mail.
+
 
 ## Note sulla versione di aprile 2025 {#25-4-rn}
 
