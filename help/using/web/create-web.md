@@ -27,7 +27,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Creare una regola di corrispondenza delle pagine"
->abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola. Può servire, ad esempio, per applicare a un intero sito web le modifiche apportate a un banner principale oppure per aggiungere un’immagine nella parte superiore da visualizzare su tutte le pagine dei prodotti di un sito web."
+>abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola. Può servire, ad esempio, per applicare a un intero sito web le modifiche apportate a un banner hero oppure per aggiungere un’immagine nella parte superiore da visualizzare su tutte le pagine dei prodotti di un sito web."
 
 Per iniziare a creare la tua esperienza web attraverso una campagna o un percorso, segui i passaggi seguenti.
 
@@ -241,4 +241,4 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449989/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
