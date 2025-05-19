@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Come termina un percorso live
 
-Il percorso viene chiuso quando viene raggiunto il timeout del percorso globale o dopo l’ultima occorrenza di un percorso ricorrente basato su pubblico. [Informazioni sulla chiusura dei percorsi](#close-journey).
+I percorsi vengono chiusi al raggiungimento del timeout del percorso globale o dopo l’ultima occorrenza di un percorso ricorrente basato su pubblico. [Informazioni sulla chiusura dei percorsi](#close-journey).
 
 Se devi terminare un percorso live, ti consigliamo di [chiuderlo](#close-to-new-entrances) manualmente. L&#39;arrivo di nuovi clienti nel percorso viene quindi bloccato. I profili che sono già entrati nel percorso possono provarlo fino alla fine.
 
