@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de314a3d2c8e242e12b18d39fb1dc594ea825f5
+source-git-commit: ef06334d0977af4b325b994bb480162b45ceaecf
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 26%
+source-wordcount: '1385'
+ht-degree: 27%
 
 ---
 
@@ -218,21 +218,23 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>ID supplementare per percorsi attivati da eventi</strong><br/></th>
+<th><strong>Supplemental ID for event-triggered journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, consentendo che lo stesso profilo sia nello stesso percorso più volte alla volta. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio percorso attraverso il percorso.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 
 
