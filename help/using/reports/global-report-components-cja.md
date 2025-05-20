@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   <tr> 
    <td> Mancati recapiti<br/> </td> 
    <td> Totale degli errori accumulati durante il processo di invio e l'elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Percentuale non recapitate<br/> </td> 
+   <td> Percentuale di messaggi e-mail che hanno generato un mancato recapito rispetto al numero totale di messaggi e-mail inviati.<br/> </td> 
   </tr> 
   <tr> 
    <td> Percentuale di apertura dei clic (CTOR)<br/> </td> 
@@ -99,6 +103,10 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Nome della causa originale specifica dell’errore. <a href="exclusion-list.md">Ulteriori informazioni sui motivi dell'errore</a>.<br/> </td> 
   </tr>
   <tr> 
+   <td>Aperture e-mail stimate<br/> </td> 
+   <td>Stima del totale di aperture e-mail che tiene conto sia delle aperture dirette da parte dei profili sia delle aperture automatizzate attivate dai server di posta. Questa metrica viene regolata per le aperture attivate dai server di posta per l'analisi della privacy o della sicurezza applicando una percentuale di apertura calcolata dai destinatari che hanno aperto manualmente l'e-mail a quelli le cui e-mail sono state aperte solo dai server di posta.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Percentuale di clic offerta<br/> </td> 
    <td> Percentuale di utenti che hanno interagito con l'offerta.<br/> </td> 
   </tr>
@@ -119,11 +127,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di volte in cui il messaggio è stato aperto.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Errori in uscita<br/> </td> 
+   <td> Errori di invio<br/> </td> 
    <td> Numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l'invio ai profili.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Esclusioni in uscita<br/> </td> 
+   <td> Invia esclusioni<br/> </td> 
    <td> Numero di profili esclusi da Adobe Journey Optimizer.<br/> </td> 
   </tr>
   <tr> 
@@ -137,18 +145,59 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   <tr> 
    <td> Destinato<br/> </td> 
    <td> Numero totale di messaggi elaborati durante l'analisi della consegna.<br/> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td>Mancati recapiti univoci<br/> </td> 
+   <td> Numero di profili univoci per i quali almeno un’e-mail ha generato un mancato recapito.</td> 
+  </tr>
+  <tr> 
+   <td>Percentuale non recapitate univoche<br/> </td> 
+   <td>Percentuale di profili univoci le cui e-mail non venivano recapitate almeno una volta, in base al numero totale di invii univoci.</td> 
+  </tr>
   <tr> 
    <td> Clic univoci<br/> </td> 
    <td> Numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.<br> Tieni presente che nel calcolo dei clic univoci vengono considerati gli ultimi 10 giorni. Se un profilo registra più clic entro il periodo di 10 giorni, verranno conteggiati come clic univoci. Tuttavia, se un profilo ha 2 clic a distanza di oltre 10 giorni, non verrà considerato come clic univoci.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Percentuale di apertura click-through univoca<br/> </td> 
+   <td> Percentuale di profili univoci che hanno fatto clic su un collegamento dopo l’apertura dell’e-mail, in base alle aperture univoche. </td> 
+  </tr>
+  <tr> 
+   <td> Percentuale di click-through univoca<br/> </td> 
+   <td> Percentuale di profili univoci che hanno fatto clic su almeno un collegamento nell’e-mail, rispetto al numero di e-mail consegnate univoche. </td> 
+  </tr>
+  <tr> 
+   <td> Consegne univoche<br/> </td> 
+   <td> Numero di profili univoci che hanno ricevuto almeno un’e-mail.</td> 
   </tr>
   <tr> 
    <td> Annullamenti iscrizione e-mail univoci<br/> </td> 
    <td> Numero di profili che hanno annullato l'abbonamento alle e-mail.<br/> </td> 
   </tr>
   <tr> 
+   <td> Aperture e-mail stimate univoche<br/> </td> 
+   <td> Stima del numero di destinatari e-mail univoci che probabilmente hanno aperto l’e-mail. Questa metrica ha lo scopo di fornire un conteggio più accurato del coinvolgimento individuale attivato dai server di posta elettronica per l'analisi della privacy o della sicurezza applicando un tasso di apertura univoco calcolato da profili univoci che hanno aperto manualmente l'e-mail a coloro i cui messaggi di posta elettronica sono stati aperti solo dai server di posta.<br/> </td> 
+  </tr>
+  <tr> 
    <td> Aperture univoche<br/> </td> 
    <td> Numero di profili che hanno aperto la consegna. <br> Tieni presente che nel calcolo delle aperture univoche vengono considerati gli ultimi 10 giorni. Se un profilo registra più aperture entro il periodo di 10 giorni, queste verranno conteggiate come aperture univoche. Tuttavia, se un profilo ha 2 aperture a più di 10 giorni di distanza, non verranno considerate come aperture univoche.<br/> </td> 
+  </tr> 
+  <tr>
+  <tr> 
+   <td> Invii univoci<br/> </td> 
+   <td>Numero di profili univoci per i quali è stato tentato l'invio di almeno un messaggio e-mail.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Errori di invio univoci<br/> </td> 
+   <td>Numero di profili univoci che hanno rilevato almeno un errore di invio durante il processo in uscita.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Esclusioni di invio univoche<br/> </td> 
+   <td>Numero di profili univoci esclusi dalla ricezione dei messaggi a causa di regole di idoneità, segmentazione del pubblico o stato del profilo.<br/> </td> 
+  </tr>
+  <tr> 
+   <td>Destinazione univoca<br/> </td> 
+   <td>Numero di profili univoci target durante il processo di invio.<br/> </td> 
   </tr> 
   <tr> 
    <td> Annulla iscrizione<br/> </td> 
