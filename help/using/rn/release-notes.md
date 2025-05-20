@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
+source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 25%
+source-wordcount: '1268'
+ht-degree: 26%
 
 ---
 
@@ -189,20 +189,20 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Scalabilità del vincitore della sperimentazione</strong><br/></th>
+<th><strong>Scale your Experimentation winner</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il vincitore con la funzione Scala consente di distribuire automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta identificato un esecutore di alto livello, sia possibile massimizzarne la portata e l'efficacia senza una costante supervisione manuale.</p>
+<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -246,7 +246,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 I miglioramenti apportati a questa versione sono elencati di seguito.
 
 
-* **Supporto di nuovi oggetti per la copia sandbox**
+* **Nuovi oggetti supportati per la copia sandbox**
 
    * **Campagne** - Data di disponibilità: 15 maggio 2025
 
