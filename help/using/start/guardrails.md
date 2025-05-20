@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 95%
 
 ---
 
@@ -212,9 +212,11 @@ All’attività del percorso [qualificazione del pubblico](../building-journeys/
 
 ### Editor espressioni {#expression-editor}
 
-All’[editor di espressioni del percorso](../building-journeys/expression/expressionadvanced.md) viene applicato il seguente guardrail:
+Le seguenti protezioni si applicano all&#39;editor di espressioni [percorso](../building-journeys/expression/expressionadvanced.md):
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. Devi creare un nuovo pubblico e utilizzare una condizione inaudience nel percorso.
+* Impossibile utilizzare gli attributi `timeSeriesEvents` nell&#39;editor espressioni. Per accedere agli eventi esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
+
 
 ### Attività in-app {#in-app-activity-limitations}
 

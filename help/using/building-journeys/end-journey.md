@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Puoi anche [interrompere un percorso](#stop-journey), solo in caso di emergenza 
 
 >[!IMPORTANT]
 >
->* Impossibile riavviare o eliminare un percorso [chiuso](#close-journey) o [interrotto](#stop-journey). Puoi crearne una nuova versione o duplicarla.
+>* Impossibile riavviare o eliminare un percorso [chiuso](#close-journey) o [interrotto](#stop-journey). Puoi [creare una nuova versione](publishing-the-journey.md#journey-versions-journey-versions) di essa o [duplicarla](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
 >
 >* È possibile eliminare solo i percorsi finiti.
 
