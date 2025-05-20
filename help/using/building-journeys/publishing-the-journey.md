@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 5%
+source-wordcount: '614'
+ht-degree: 41%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Impossibile pubblicare un percorso con errori.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda il video su questa funzione](#video)
 
 I passaggi per pubblicare un percorso sono descritti di seguito:
 
@@ -47,8 +47,45 @@ Quando si arresta un percorso, questo viene arrestato in modo permanente: tutte 
 >
 >Se vengono apportate modifiche a una decisione di offerta utilizzata in un messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo.  In questo modo le modifiche verranno incorporate nel messaggio del percorso e il messaggio sarà coerente con gli ultimi aggiornamenti.
 
-## Video introduttivo {#video}
+
+## Versioni del percorso {#journey-versions}
+
+Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia di modifica del percorso, sopra l’area di lavoro.
+
+![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>In genere, un profilo non può essere presente più volte nello stesso percorso e contemporaneamente per tutte le versioni attive del percorso. Se è stato abilitato il reingresso, un profilo può entrare di nuovo in un percorso, ma solo dopo che sarà completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](entry-management.md).
+
+### Creazione di una nuova versione di un percorso {#journey-create-new-version}
+
+Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso. Per creare una nuova versione di un percorso esistente, effettuare le seguenti operazioni:
+
+1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Crea una nuova versione]** e conferma.
+
+   ![](assets/journeyversions2.png)
+
+   >[!NOTE]
+   >
+   >È possibile creare una nuova versione solo a partire dalla versione più recente di un percorso.
+
+1. Apporta le modifiche necessarie, quindi fai clic su **[!UICONTROL Pubblica]** e conferma.
+
+Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a confluire nell’ultima versione del percorso. Le persone che erano già entrate in una versione precedente vi rimangono fino al completamento del percorso. Se in un secondo momento entrano di nuovo nello stesso percorso, passeranno alla versione più recente.
+
+È possibile interrompere le versioni di percorso singolarmente. Tutte le versioni di un percorso hanno lo stesso nome.
+
+Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e il suo stato diventa **Chiuso**. Un percorso chiuso non accetta alcun ingresso. Anche se si interrompe la versione più recente, la versione precedente rimane chiusa.
+
+
+>[!NOTE]
+>
+>Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni sono disponibili in [questa pagina](../start/guardrails.md#journey-versions-journey-versions-g).
+
+
+## Video dimostrativo {#video}
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

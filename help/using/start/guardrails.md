@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '2471'
-ht-degree: 100%
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+workflow-type: tm+mt
+source-wordcount: '2478'
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di [!DNL Adobe Journey Optimizer].
 
-I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto di Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Prima di iniziare, è inoltre necessario essere a conoscenza dei [Guardrail per i dati del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
+Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per Real-time Customer Profile data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
 
 ## Browser supportati {#browsers}
 
@@ -74,7 +74,7 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 
 * Solo un componente **Modulo** può essere utilizzato in una singola pagina principale.
 * Il componente **Modulo** non può essere utilizzato nelle pagine secondarie.
-* Non puoi aggiungere un preheader a una pagina di destinazione.
+* Non puoi aggiungere una preintestazione a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
 ## Guardrail di sottodomini {#subdomain-guardrails}
@@ -124,7 +124,7 @@ Alle [azioni](../building-journeys/about-journey-activities.md) nei tuoi percors
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. Vengono eseguiti nuovi tentativi per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
 * L’evento **Reazione** incorporato consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
-* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
+* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente per tutte le [versioni attive del percorso](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
 ### Versioni del percorso {#journey-versions-g}
 
