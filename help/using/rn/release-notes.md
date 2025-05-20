@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
+source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 27%
+source-wordcount: '1314'
+ht-degree: 25%
 
 ---
 
@@ -110,23 +110,23 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Vista calendario per l’inventario di campagne e Percorsi</strong><br/></th>
+<th><strong>Calendar View for Campaign and Journey inventory</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Negli elenchi percorsi e campagne è ora disponibile una vista calendario. Ti consente di visualizzare tutti i percorsi e le attivazioni delle campagne nei rispettivi elenchi.</p>
-<p>Questo cambiamento è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
+<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -288,9 +288,9 @@ I miglioramenti apportati a questa versione sono elencati di seguito.
 
   Il canale web Journey Optimizer ora consente di reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nell’editor visivo. Questa funzionalità può essere utilizzata per eseguire esperimenti confrontando due pagine completamente diverse, anziché modificare solo alcuni elementi all’interno di una pagina.
 
-* **Barra a destra nell’elenco delle campagne**
+<!--* **Right rail in campaigns list**
 
-  Nell’elenco campagne, selezionando una campagna ora viene aperto un riquadro che ne visualizza i dettagli.
+  In the campaign list, selecting a campaign now opens a pane displaying its details.-->
 
 * **Campi modulo nel contenuto esperienza basato su codice**
 
