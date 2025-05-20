@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '613'
 ht-degree: 41%
 
 ---
 
 # Pubblicare il percorso {#publishing-the-journey}
 
-Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Impossibile pubblicare un percorso con errori.
+Per attivare un percorso e consentirne l’accesso da parte di nuovi profili, è necessario pubblicarlo. La pubblicazione rende il percorso attivo e funzionale. Prima di pubblicare, è necessario assicurarsi che il percorso sia completo e valido e correggere eventuali errori, in quanto un percorso non può essere pubblicato se contiene errori.
 
 ➡️ [Guarda il video su questa funzione](#video)
 
+## Processo di pubblicazione {#journey-publication}
+
 I passaggi per pubblicare un percorso sono descritti di seguito:
 
-1. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Non potrai pubblicare un percorso con errori.
+1. Prima di pubblicare il percorso, assicurati che sia valido e privo di errori. I percorsi non possono essere pubblicati se contengono errori.
 
    * Scopri come verificare il percorso in [questa pagina](testing-the-journey.md).
    * Scopri come risolvere gli errori di percorso in [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -33,7 +35,7 @@ I passaggi per pubblicare un percorso sono descritti di seguito:
 
    >[!NOTE]
    >
-   > Se il percorso è soggetto a una policy di approvazione, è necessario richiedere l’approvazione per poter pubblicare il percorso. [Ulteriori informazioni](../test-approve/gs-approval.md)
+   > Se il percorso è soggetto a una policy di approvazione, è necessario richiedere l’approvazione prima di poterla pubblicare. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
