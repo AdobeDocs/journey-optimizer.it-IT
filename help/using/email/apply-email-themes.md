@@ -11,8 +11,8 @@ keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazion
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '821'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"
 >title="Applicare un tema all’e-mail"
->abstract="Seleziona un tema per l’e-mail per applicare rapidamente uno stile specifico che si adatta al tuo marchio e design."
+>abstract="Seleziona un tema per l’e-mail per applicare rapidamente uno stile specifico che sia adatto al brand e alla progettazione."
 
 <!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
 
