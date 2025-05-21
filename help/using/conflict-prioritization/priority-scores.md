@@ -43,4 +43,4 @@ Per assegnare un punteggio di priorità a un percorso o a una campagna, immetter
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
