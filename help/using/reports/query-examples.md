@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1499'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ In questa sezione sono elencati diversi esempi comunemente utilizzati per esegui
 
 Assicurati che i campi utilizzati nelle query abbiano valori associati nello schema corrispondente.
 
-**Differenza tra id, instanceid e profileid**
++++Qual è la differenza tra id, instanceid e profileid
 
 * id: univoco per tutte le voci evento del passaggio. Due eventi di passaggio diversi non possono avere lo stesso ID.
 * instanceId: instanceID è lo stesso per tutti gli eventi di passaggio associati a un profilo all’interno di un’esecuzione di percorso. Se un profilo torna nel percorso, verrà utilizzato un instanceId diverso. Questo nuovo instanceId sarà lo stesso per tutti gli eventi di passaggio dell’istanza reinserita (dall’inizio alla fine).
@@ -33,7 +33,7 @@ Assicurati che i campi utilizzati nelle query abbiano valori associati nello sch
 
 ## Casi d’uso di base/query comuni {#common-queries}
 
-**Quanti profili sono entrati in un percorso in un determinato intervallo di tempo**
++++Quanti profili sono entrati in un percorso in un determinato intervallo di tempo
 
 Questa query fornisce il numero di profili distinti che sono entrati nel percorso specificato nell’intervallo di tempo specificato.
 
@@ -47,7 +47,32 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Quanti errori si sono verificati in ogni nodo di un percorso specifico per un certo periodo di tempo**
++++
+
++++Quale regola ha impedito l’ingresso di un profilo in un determinato percorso
+
+_Esempio_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
++++
+
++++Quanti errori si sono verificati in ciascun nodo di un percorso specifico per un determinato periodo di tempo
 
 _Query Data Lake_
 
@@ -69,7 +94,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Quanti eventi sono stati eliminati da un percorso specifico in un determinato intervallo di tempo**
++++
+
++++Quanti eventi sono stati eliminati da un percorso specifico in un determinato intervallo di tempo
 
 _Query Data Lake_
 
@@ -81,7 +108,9 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Cosa succede a un profilo specifico in un percorso specifico in un intervallo di tempo specifico**
++++
+
++++Cosa succede a un profilo specifico in un percorso specifico in un intervallo di tempo specifico
 
 _Query Data Lake_
 
@@ -108,7 +137,9 @@ AND
 ORDER BY timestamp;
 ```
 
-**Tempo trascorso tra due nodi**
++++
+
++++Tempo trascorso tra due nodi
 
 Queste query possono essere utilizzate, ad esempio, per stimare il tempo trascorso in un’attività Attendi. Questo ti consente di verificare che l’attività Attendi sia configurata correttamente.
 
@@ -235,7 +266,9 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**Controllare i dettagli di un serviceEvent**
++++
+
++++Controllare i dettagli di un serviceEvent
 
 Il set di dati Eventi passaggio di Percorso contiene tutti gli eventi stepEvents e serviceEvents. stepGli eventi vengono utilizzati nel reporting in quanto si riferiscono ad attività (evento, azioni, ecc.) di profili in un percorso. serviceEvents sono memorizzati nello stesso set di dati e indicano informazioni aggiuntive a scopo di debug, ad esempio il motivo dell’eliminazione di un evento esperienza.
 
@@ -257,7 +290,7 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## Errori messaggio/azione {#message-action-errors}
 
-**Elenco di ogni errore riscontrato nei percorsi**
++++Elenco di ogni errore riscontrato nei percorsi
 
 Questa query ti consente di elencare ogni errore riscontrato nei percorsi durante l’esecuzione di un messaggio/azione.
 
@@ -283,9 +316,11 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Questa query restituisce tutti i diversi errori che si sono verificati durante l’esecuzione di un’azione in un percorso, insieme al conteggio del numero di volte in cui si sono verificati.
 
++++
+
 ## Query basate su profili {#profile-based-queries}
 
-**Trovare se un profilo è entrato in un Percorso specifico**
++++Trovare se un profilo è stato immesso in un Percorso specifico
 
 _Query Data Lake_
 
@@ -307,7 +342,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Il risultato deve essere maggiore di 0. Questa query restituisce il numero esatto di volte in cui un profilo è entrato in un percorso.
 
-**Trovare se un profilo ha ricevuto un messaggio specifico**
++++
+
++++Trovare se un profilo ha ricevuto un messaggio specifico
 
 Metodo 1: se il nome del messaggio non è univoco nel percorso (viene utilizzato in più posizioni).
 
@@ -357,7 +394,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 La query restituisce l’elenco di tutti i messaggi con il relativo conteggio richiamato per il profilo selezionato.
 
-**Trova tutti i messaggi ricevuti da un profilo negli ultimi 30 giorni**
++++
+
++++Trova tutti i messaggi ricevuti da un profilo negli ultimi 30 giorni
 
 _Query Data Lake_
 
@@ -383,7 +422,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La query restituisce l’elenco di tutti i messaggi con il relativo conteggio richiamato per il profilo selezionato.
 
-**Trova tutti i percorsi in cui un profilo è entrato negli ultimi 30 giorni**
++++
+
++++Trova tutti i percorsi inseriti da un profilo negli ultimi 30 giorni
 
 _Query Data Lake_
 
@@ -407,7 +448,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La query restituisce l&#39;elenco di tutti i nomi di percorso insieme al numero di volte in cui il profilo sottoposto a query è entrato nel percorso.
 
-**Numero di profili idonei per un percorso giornaliero**
++++
+
++++Numero di profili idonei per un percorso giornaliero
 
 _Query Data Lake_
 
@@ -431,9 +474,11 @@ ORDER BY DATE(timestamp) desc
 
 La query restituisce, per il periodo definito, il numero di profili che sono entrati nel percorso ogni giorno. Se un profilo immesso tramite più identità, verrà conteggiato due volte. Se è abilitata la rientrata, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è rientrato nel percorso in un giorno diverso.
 
++++
+
 ## Query relative al pubblico di lettura {#read-segment-queries}
 
-**Tempo impiegato per completare un processo di esportazione pubblico**
++++Tempo necessario per completare un processo di esportazione pubblico
 
 _Query Data Lake_
 
@@ -465,7 +510,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 La query restituisce la differenza di tempo, espressa in minuti, tra il momento in cui il processo di esportazione del pubblico è stato messo in coda e il momento in cui è stato finalmente terminato.
 
-**Numero di profili eliminati dal percorso perché duplicati**
++++
+
++++Numero di profili scartati dal percorso perché duplicati
 
 _Query Data Lake_
 
@@ -487,7 +534,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo che sono stati scartati dal percorso perché erano duplicati.
 
-**Numero di profili eliminati dal percorso a causa di uno spazio dei nomi non valido**
++++
+
++++Numero di profili eliminati dal percorso a causa di uno spazio dei nomi non valido
 
 _Query Data Lake_
 
@@ -509,7 +558,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo scartati dal percorso perché presentavano uno spazio dei nomi non valido o nessuna identità per tale spazio dei nomi.
 
-**Numero di profili scartati dal percorso a causa di nessuna mappa di identità**
++++
+
++++Numero di profili scartati dal percorso perché nessuna mappa di identità
 
 _Query Data Lake_
 
@@ -531,7 +582,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo scartati dal percorso perché manca la mappa di identità.
 
-**Numero di profili scartati dal percorso perché il percorso si trovava nel nodo di test e il profilo non era un profilo di test**
++++
+
++++Numero di profili scartati dal percorso perché il percorso si trovava nel nodo di test e il profilo non era un profilo di test
 
 _Query Data Lake_
 
@@ -553,7 +606,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo che sono stati scartati dal percorso perché il processo di esportazione è stato eseguito in modalità di test ma l’attributo testProfile del profilo non è stato impostato su true.
 
-**Numero di profili eliminati dal percorso a causa di un errore interno**
++++
+
++++Numero di profili eliminati dal percorso a causa di un errore interno
 
 _Query Data Lake_
 
@@ -575,7 +630,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo scartati dal percorso a causa di un errore interno.
 
-**Panoramica del pubblico di lettura per una determinata versione del percorso**
++++
+
++++Panoramica del pubblico di lettura per una determinata versione del percorso
 
 _Query Data Lake_
 
@@ -613,7 +670,10 @@ IMPORTANTE: se questa query non restituisce alcun evento, la causa potrebbe esse
 * la versione del percorso non ha raggiunto la pianificazione
 * se la versione del percorso deve aver attivato il processo di esportazione chiamando l’orchestratore, si è verificato un errore nel flusso a monte: problema di implementazione del percorso, evento di business o problema con il modulo di pianificazione.
 
-**Errori di lettura pubblico per una determinata versione del percorso**
++++
+
+
++++Errori di lettura del pubblico per una determinata versione del percorso
 
 _Query Data Lake_
 
@@ -639,7 +699,9 @@ WHERE
     )
 ```
 
-**Ottieni stato elaborazione processo di esportazione**
++++
+
++++Ottieni stato elaborazione processo di esportazione
 
 _Query Data Lake_
 
@@ -668,7 +730,9 @@ Se non viene restituito alcun record, significa che:
 * si è verificato un errore durante la creazione dell’argomento o del processo di esportazione
 * il processo di esportazione è ancora in esecuzione
 
-**Ottieni le metriche sui profili esportati, inclusi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione**
++++
+
++++Ottieni metriche sui profili esportati, inclusi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione
 
 _Query Data Lake_
 
@@ -728,7 +792,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Ottieni metriche aggregate (processi di esportazione pubblico ed elementi eliminati) su tutti i processi di esportazione**
++++
+
++++Ottieni metriche aggregate (processi di esportazione pubblico e scarti) su tutti i processi di esportazione
 
 _Query Data Lake_
 
@@ -791,9 +857,11 @@ Questa query è diversa dalla precedente.
 
 Restituisce le metriche complessive per una determinata versione del percorso, indipendentemente dai processi che possono essere stati eseguiti per essa (in caso di percorsi ricorrenti, eventi di business attivati da quelli che sfruttano il riutilizzo degli argomenti).
 
++++
+
 ## Query relative alla qualifica del pubblico {#segment-qualification-queries}
 
-**Profilo scartato a causa di un pubblico diverso rispetto a quello configurato**
++++Profilo eliminato a causa di una realizzazione del pubblico diversa da quella configurata
 
 _Query Data Lake_
 
@@ -817,7 +885,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 Questa query restituisce tutti gli ID profilo scartati dalla versione del percorso a causa di una realizzazione errata del pubblico.
 
-**Eventi di qualificazione del pubblico eliminati per qualsiasi altro motivo per un profilo specifico**
++++
+
++++Eventi di qualificazione del pubblico eliminati per qualsiasi altro motivo per un profilo specifico
 
 _Query Data Lake_
 
@@ -843,9 +913,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 Questa query restituisce tutti gli eventi (eventi esterni/eventi di qualificazione del pubblico) che sono stati eliminati a causa di qualsiasi altro motivo per un profilo.
 
++++
+
 ## Query basate su eventi {#event-based-queries}
 
-**Verifica se è stato ricevuto un evento di business per un percorso**
++++Verifica se è stato ricevuto un evento di business per un percorso
 
 _Query Data Lake_
 
@@ -871,7 +943,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Verifica se un evento esterno di un profilo è stato eliminato perché non è stato trovato alcun percorso correlato**
++++
+
++++Controlla se un evento esterno di un profilo è stato eliminato perché non è stato trovato alcun percorso correlato
 
 _Query Data Lake_
 
@@ -895,7 +969,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Verifica se un evento esterno di un profilo è stato eliminato per altri motivi**
++++
+
++++Controlla se un evento esterno di un profilo è stato scartato per qualsiasi altro motivo
 
 _Query Data Lake_
 
@@ -921,7 +997,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**Controllare il conteggio di tutti gli eventi eliminati da stateMachine tramite errorCode**
++++
+
++++Controllare il conteggio di tutti gli eventi eliminati da stateMachine tramite errorCode
 
 _Query Data Lake_
 
@@ -939,7 +1017,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Controlla tutti gli eventi eliminati perché il rientro non è consentito**
++++
+
++++Controlla tutti gli eventi scartati perché il rientro non era consentito
 
 _Query Data Lake_
 
@@ -962,10 +1042,12 @@ FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
+
++++
 
 ## Query comuni basate su percorso {#journey-based-queries}
 
-**Numero di percorsi attivi giornalieri**
++++Numero di percorsi attivi giornalieri
 
 _Query Data Lake_
 
@@ -987,9 +1069,11 @@ ORDER BY DATE(timestamp) desc
 
 La query restituisce, per il periodo definito, il numero di percorsi univoci attivati ogni giorno. Un singolo percorso che si attiva su più giorni verrà conteggiato una volta al giorno.
 
++++
+
 ## Query su istanze di percorso {#journey-instances-queries}
 
-**Numero di profili con uno stato specifico per un&#39;ora specifica**
++++Numero di profili in uno stato specifico per un tempo specifico
 
 _Query Data Lake_
 
@@ -1137,7 +1221,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Quanti profili sono usciti dal percorso nello specifico periodo di tempo**
++++
+
++++Quanti profili sono usciti dal percorso nello specifico periodo di tempo
 
 _Query Data Lake_
 
@@ -1175,7 +1261,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Quanti profili sono usciti dal percorso nello specifico periodo di tempo con nodo/stato**
++++
+
++++Quanti profili sono usciti dal percorso nello specifico periodo di tempo con nodo/stato
 
 _Query Data Lake_
 
@@ -1216,3 +1304,5 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
+
++++

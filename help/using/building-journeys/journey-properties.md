@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 18%
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utilizza i criteri di unione per recuperare i dati del p
 
 Adobe Journey Optimizer applica il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio utilizzando le funzioni di [`inAudience`](functions/functioninaudience.md)), si creano incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
-Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ La sezione **[!UICONTROL Pianifica]** è disponibile solo quando un&#39;attivit�
 
 La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso ti consente di monitorare i conflitti e assegnare un ordine di priorità ai percorsi. Puoi eseguire le seguenti operazioni:
 
-* Applica un **set di regole** per escludere questo percorso da parte del pubblico in base alle regole di limitazione. [Scopri come utilizzare i set di regole](../configuration/rule-sets.md)
+* Applica un **set di regole** per escludere questo percorso da parte del pubblico in base alle regole di limitazione. [Scopri come utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
 
 * Assegna al percorso un **punteggio di priorità** compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Il valore di priorità qui inserito viene ereditato da tutte le azioni in entrata (come in-app) contenute in questo percorso. [scopri come utilizzare i punteggi di priorità](../conflict-prioritization/priority-scores.md)
 

@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ Quando utilizzi Decisioning nelle esperienze basate su codice, prendi in conside
 
 ## Verifica di esperienze basate su codice tramite decisioni {#code-based-test-decisions}
 
-Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](create-code-based.md) utilizzando le decisioni.
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Come soluzione alternativa, puoi testare il processo decisionale dopo aver pubblicato la campagna aggiungendo il flag `dryRun` nel blocco dell’evento XDM `data` nell’implementazione client:
+Durante il test di [esperienza basata su codice](create-code-based.md) con decisioning, è possibile utilizzare il flag `dryRun` per eliminare gli eventi di feedback sia per i contatori di reporting che per i contatori di limitazione.
+
+Dopo aver pubblicato la campagna, aggiungi il flag `dryRun` nel blocco evento XDM `data` nell&#39;implementazione client:
 
     &quot;
-    &lbrace;
-    &quot;dati&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dati&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
+<!--
 >[!CAUTION]
 >
->L&#39;aggiunta del flag `dryRun` alla richiesta impedirà l&#39;acquisizione dei feedback per i rapporti e l&#39;aggiunta dei contatori di frequenza a.
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## Deduplicazione degli elementi decisionali nelle implementazioni basate su codice {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ Per qualsiasi richiesta di decisioni, puoi disporre di uno o più criteri/posizi
 
 ### Applicare la deduplicazione in una richiesta {#deduplication-in-request}
 
-Per impostazione predefinita, il flag di deduplicazione è impostato su `true` (non viene passato).
+Per impostazione predefinita, il flag di deduplicazione è impostato su `true`.
 
 In una richiesta Konductor, puoi trasmettere il flag di deduplicazione se desideri elementi univoci nella risposta. In tal caso, impostarlo su `false`.
 

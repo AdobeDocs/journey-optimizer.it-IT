@@ -3,12 +3,11 @@ title: Assegnare punteggi di priorità a percorsi e campagne
 description: Scopri come assegnare punteggi di priorità a percorsi e campagne.
 role: User
 level: Beginner
-badge: label="Disponibilità limitata"
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 47%
+source-wordcount: '375'
+ht-degree: 32%
 
 ---
 
@@ -22,11 +21,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per dare precedenza a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due percorsi hanno lo stesso punteggio di priorità, il percorso attivato verrà visualizzato per primo."
-
->[!AVAILABILITY]
->
->Le funzionalità per conflitti e definizione delle priorità sono attualmente disponibili in Disponibilità limitata per un gruppo selezionato di clienti. Tenere presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se lo desideri, puoi rivolgerti al team del tuo account per l’inserimento nella lista d’attesa per queste funzioni.
+>abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per dare precedenza a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità."
 
 Journey Optimizer ti consente di assegnare un punteggio di priorità a un percorso o a una campagna. La priorità è essenziale per assegnare la priorità a un percorso, una campagna o un’azione in presenza di un vincolo imposto (ad esempio un limite di frequenza). In situazioni in cui un cliente si qualifica per molti percorsi, campagne o comunicazioni e desideri essere selettivo in merito al quale deve entrare e ricevere, utilizza questo campo.
 
@@ -34,7 +29,7 @@ Journey Optimizer ti consente di assegnare un punteggio di priorità a un percor
 >
 >Nelle campagne, il punteggio di priorità è disponibile solo per i canali in entrata web, in-app e basati su codice.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda il video su questa funzione](#video)
 
 L’assegnazione di un punteggio di priorità è fondamentale per le comunicazioni in entrata, ad esempio web, mobile e in-app. Se disponi di più campagne che utilizzano la stessa configurazione di canale (ad esempio, un banner nella parte superiore della pagina web), ciò potrebbe rappresentare un problema in quanto è possibile visualizzare facilmente solo il contenuto di una campagna. Il punteggio di priorità è il punto in cui inserirai la tua preferenza per la campagna da mostrare quando il destinatario può qualificarsi per più di una campagna.
 
@@ -42,8 +37,10 @@ Per assegnare un punteggio di priorità a un percorso o a una campagna, immetter
 
 ![](assets/priority-score.png)
 
-In situazioni dove due campagne hanno lo stesso punteggio di priorità, la campagna attivata verrà visualizzata per prima.
+>[!IMPORTANT]
+>
+>Se due percorsi o campagne hanno lo stesso punteggio di priorità, il sistema non ha un meccanismo di interruzione dei tempi. Assicurati che i punteggi di priorità siano univoci per evitare conflitti.
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

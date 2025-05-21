@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configurazione, configurare, messaggi, canale, sandbox, optimizer
-source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -29,7 +29,7 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email-config.md"><img alt="e-mail" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/get-started-email-config.md"><strong>E-mail</strong></a></div></td>
-<td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/push-configuration.md"><strong>Notifica push</strong></a></div></td>
@@ -44,8 +44,8 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
 <td><a href="../code-based/code-based-configuration.md"><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/code-based-configuration.md"><strong>Esperienza basata su codice</strong></a></div></td>
-<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="schede di contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Schede di contenuto</strong></a></div></td>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Schede contenuto</strong></a></div></td>
 </tr></table>
 
 >[!NOTE]
@@ -60,6 +60,6 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 
    * Abilitare l’**opzione e-mail Ccn** per conservare una copia dei messaggi inviati ai singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
 
-   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../configuration/rule-sets.md)
+   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md)
 
    * Determinare l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)

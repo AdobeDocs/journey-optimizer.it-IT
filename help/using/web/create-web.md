@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 19%
+source-wordcount: '1543'
+ht-degree: 17%
 
 ---
 
@@ -153,6 +153,31 @@ Puoi anche aprirlo nel browser predefinito, oppure copiare l’URL di prova per 
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
+## Reindirizza a URL {#web-redirect-to-url}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_redirect"
+>title="Reindirizza a un altro URL"
+>abstract="Inserisci un URL esistente in cui reindirizzare i visitatori della pagina."
+
+Durante la creazione di un’esperienza web, è possibile reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nel web designer.
+
+Utilizzando questa capacità, puoi eseguire un [esperimento sui contenuti](../content-management/content-experiment.md) confrontando due esperienze diverse invece di modificare solo alcuni elementi all&#39;interno di una pagina.
+
+Ad esempio, crea una campagna web con due trattamenti:
+
+* In **Trattamento A**, creare un&#39;esperienza Web utilizzando il Web Designer per metà della popolazione di destinazione.
+
+* In **Trattamento B**, selezionare l&#39;opzione **[!UICONTROL Reindirizza all&#39;URL]** per l&#39;altra metà della popolazione di destinazione. Immettere l&#39;URL di una pagina con una struttura alternativa creata all&#39;esterno di [!DNL Journey Optimizer].
+
+  ![](assets/web-campaign-redirect-to-url.png)
+
+  >[!NOTE]
+  >
+  >L&#39;anteprima del sito Web non viene più visualizzata e l&#39;interruttore **[!UICONTROL Editor visivo]** è disabilitato.
+
+Una volta che la campagna Web è attiva, puoi tenere traccia delle prestazioni dell&#39;esperienza Web creata in [!DNL Journey Optimizer] per i visitatori della pagina rispetto a quelli che sono stati reindirizzati alla pagina di destinazione esterna. Scopri come utilizzare il rapporto della [campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md)
+
 ## Rendi live la tua esperienza web {#web-experience-live}
 
 >[!IMPORTANT]
@@ -241,4 +266,4 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449989/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

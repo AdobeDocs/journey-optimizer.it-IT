@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # Configurare il provider Infobip {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+Se non vengono fornite parole chiave di consenso o rinuncia, vengono utilizzati messaggi di consenso standard per rispettare la privacy dell’utente. L&#39;aggiunta di parole chiave personalizzate sostituisce automaticamente le impostazioni predefinite.
+
+**Parole chiave predefinite:**
+
+* **Consenso**: SOTTOSCRIVI, SÌ, RIPRENDI, AVVIA, CONTINUA, RIPRENDI, INIZIA
+* **Rinuncia**: INTERROMPI, ESCI, ANNULLA, TERMINA, ANNULLA ISCRIZIONE, NO
+* **Guida**: GUIDA
+
+>[!ENDSHADEBOX]
 
 Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
 
@@ -26,7 +38,7 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
 
    * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
 
-   * **[!UICONTROL URL di base API]** e **[!UICONTROL chiave API]**: accedi alla home page dell&#39;interfaccia Web o alla pagina di gestione della chiave API per trovare le tue credenziali. Ulteriori informazioni sono disponibili nella [documentazione Infobip](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL URL di base API]** e **[!UICONTROL chiave API]**: accedi alla home page dell&#39;interfaccia Web o alla pagina di gestione della chiave API per trovare le tue credenziali. Ulteriori informazioni nella [documentazione Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
    * **[!UICONTROL Parole chiave di consenso]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di consenso]**. Per più parole chiave, utilizza valori separati da virgola.
 

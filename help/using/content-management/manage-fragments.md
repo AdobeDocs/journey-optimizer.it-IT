@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 19%
 
 ---
@@ -24,10 +24,6 @@ Per gestire i frammenti, accedi all&#39;elenco di frammenti dal menu a sinistra 
 Vengono visualizzati tutti i frammenti creati nella sandbox corrente, ovvero [dal menu **[!UICONTROL Frammenti]**](#create-fragments), utilizzando l&#39;opzione [Salva come frammento](#save-as-fragment).
 
 Il riquadro a sinistra consente di organizzare i frammenti in cartelle. Per impostazione predefinita, vengono visualizzati tutti i frammenti. Quando selezioni una cartella, vengono visualizzati solo i frammenti e le cartelle inclusi nella cartella selezionata. [Ulteriori informazioni](#folders)
-
->[!NOTE]
->
->Le cartelle dei frammenti sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 >id="ajo_fragments_folders"
 >title="Organizzare i frammenti in cartelle"
 >abstract="Utilizza le cartelle per categorizzare e gestire i frammenti in base alle esigenze della tua organizzazione."
-
->[!AVAILABILITY]
->
->Le cartelle dei frammenti sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
 
 Per navigare facilmente nei frammenti, puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.
 

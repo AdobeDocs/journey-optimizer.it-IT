@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL 
 Vengono visualizzati tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna tramite l&#39;opzione **[!UICONTROL Salva come modello]**, nel menu **[!UICONTROL Modelli di contenuto]**. [Scopri come creare i modelli](#create-content-templates)
 
 Il riquadro a sinistra consente di organizzare i modelli di contenuto in cartelle. Per impostazione predefinita, vengono visualizzati tutti i modelli. Quando si seleziona una cartella, vengono visualizzati solo i modelli e le cartelle inclusi nella cartella selezionata. [Ulteriori informazioni](#folders)
-
->[!NOTE]
->
->Le cartelle dei modelli di contenuto sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ Puoi anche scegliere di visualizzare solo gli elementi creati o modificati perso
 >A partire da marzo 2025, i modelli di contenuto di tipo HTML ora sono obsoleti. È comunque possibile accedere ai modelli di contenuto HTML esistenti creati in precedenza in [!DNL Journey Optimizer].
 
 ## Utilizzare le cartelle per gestire i modelli di contenuto {#folders}
-
->[!AVAILABILITY]
->
->Le cartelle dei modelli di contenuto sono disponibili solo per un set di organizzazioni (disponibilità limitata) e verranno gradualmente implementate per più utenti.
 
 Per navigare facilmente nei modelli di contenuto, puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.
 
