@@ -3,17 +3,20 @@ title: Gestione dei conflitti e assegnazione delle priorità
 description: Scopri come sfruttare gli strumenti per i conflitti e l’assegnazione delle priorità di Journey Optimizer.
 role: User
 level: Beginner
+badge: label="Disponibilità limitata"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 21%
+source-wordcount: '677'
+ht-degree: 94%
 
 ---
 
 # Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
 
-## Strumenti di gestione dei conflitti e assegnazione delle priorità {#tools}
+>[!AVAILABILITY]
+>
+>Le funzionalità relative ai conflitti e all’assegnazione delle priorità sono attualmente in disponibilità limitata per un gruppo selezionato della clientela. Tenere presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se lo desideri, puoi rivolgerti al team del tuo account per l’inserimento nella lista d’attesa per queste funzioni.
 
 In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità.
 
@@ -21,50 +24,36 @@ Questi strumenti sono disponibili per campagne e percorsi di pubblico unitari, d
 
 Sfruttando questi strumenti, puoi garantire attività di marketing più fluide e mirate, distribuendo il messaggio giusto al momento giusto ed evitando conflitti e sovraccarichi.
 
-### Strumento di rilevamento dei conflitti
+## Strumenti di gestione dei conflitti e assegnazione delle priorità {#tools}
 
-Con lo **strumento di rilevamento dei conflitti**, è possibile identificare potenziali sovrapposizioni in percorsi e campagne. Questo è fondamentale, in quanto troppe comunicazioni simultanee possono causare un affaticamento della clientela. Journey Optimizer consente di monitorare elementi quali timeline, sovrapposizione del pubblico e configurazioni del canale. Identificando i conflitti in anticipo, puoi perfezionare le campagne per evitare di bombardare i clienti con più messaggi contemporaneamente.
+Con lo **strumento di rilevamento dei conflitti**, è possibile identificare potenziali sovrapposizioni in percorsi e campagne. Questo è fondamentale, in quanto troppe comunicazioni simultanee possono causare un affaticamento della clientela. Journey Optimizer consente di monitorare elementi quali timeline, sovrapposizione del pubblico e configurazioni del canale. Identificando i conflitti in anticipo, puoi perfezionare le campagne per evitare di bersagliare la clientela con più messaggi contemporaneamente. [Scopri come rilevare potenziali conflitti in percorsi e campagne](conflicts.md)
 
-➡️ [Scopri come rilevare potenziali conflitti in percorsi e campagne](conflicts.md)
+Inoltre, **i punteggi di priorità** ti aiutano a controllare quali campagne o percorsi hanno la precedenza quando la clientela è idonea a più comunicazioni. Questa funzione è particolarmente utile per i canali in entrata, come web e mobile, dove è possibile visualizzare una sola campagna in un dato momento. Assegnando un punteggio di priorità a ogni percorso o campagna, puoi garantire che venga consegnato per primo il messaggio più importante. [Scopri come assegnare punteggi di priorità a percorsi e campagne](priority-scores.md)
 
-### Punteggi di priorità
+**Arbitrato e limitazione dei percorsi** consente di limitare la frequenza e il numero di percorsi a cui può accedere la clientela entro un determinato intervallo di tempo. Puoi configurare delle regole per limitare il numero di ingressi a un percorso per un profilo oppure limitare il numero di percorsi in cui la clientela può essere ammessa contemporaneamente. Inoltre, è possibile utilizzare le impostazioni di arbitrato per decidere a quale percorso debba effettuare l’ingresso la clientela nel caso sia qualificata per più percorsi, utilizzando punteggi di priorità per determinare la soluzione migliore. [Scopri come utilizzare la limitazione e l’arbitrato dei percorsi](journey-capping.md)
 
-**I punteggi di priorità** consentono di controllare quali campagne o percorsi hanno la precedenza quando un cliente è idoneo a più comunicazioni. Questa funzione è particolarmente utile per i canali in entrata, come web e mobile, dove è possibile visualizzare una sola campagna in un dato momento. Assegnando un punteggio di priorità a ogni percorso o campagna, puoi garantire che venga consegnato per primo il messaggio più importante.
+Infine, puoi anche utilizzare i set di regole per impostare una **quota limite per tipo di comunicazione** (ad esempio Vendite, Promozioni) per evitare di sovraccaricare la clientela con messaggi simili. Puoi controllare la frequenza su più canali, escludendo automaticamente i profili sollecitati eccessivamente per garantire una migliore esperienza cliente. [Scopri come utilizzare i set di regole](../configuration/rule-sets.md)</li></ul>
 
-➡️ [Scopri come assegnare punteggi di priorità a percorsi e campagne](priority-scores.md)
-
-### Set di regole
-
-I set di regole ti consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne di tua scelta. Questo fornisce una maggiore granularità per limitare la frequenza e il numero di percorsi che un cliente può inserire entro un determinato intervallo di tempo o controllare la frequenza con cui gli utenti riceveranno un messaggio a seconda del tipo di comunicazione.
-
-* **Limitazione Percorsi e arbitrato**
-
-  I set di regole consentono di limitare la frequenza e il numero di percorsi che un cliente può inserire in un determinato intervallo di tempo. Puoi anche impostare regole per limitare il numero di voci di percorso per un profilo o limitare il numero di percorsi in cui un cliente può essere iscritto contemporaneamente.
-
-  Inoltre, è possibile utilizzare le impostazioni di arbitrato per decidere quale percorso deve essere immesso da un cliente se si qualifica per più percorsi, utilizzando i punteggi di priorità per determinare il miglior adattamento.
-
-  ➡️ [Scopri come utilizzare la limitazione dei percorsi e l&#39;arbitrato](journey-capping.md)
-
-* **Limitazione della frequenza per canale e tipo di comunicazione**
-
-  Puoi anche utilizzare i set di regole per impostare il limite di frequenza per tipo di comunicazione (ad esempio, Vendite, Promozionali) per evitare di sovraccaricare i clienti con messaggi simili. Puoi controllare la frequenza su più canali, escludendo automaticamente i profili sollecitati eccessivamente per garantire una migliore esperienza cliente.
-
-  ➡️ [Scopri come impostare il limite di frequenza per canale e tipo di comunicazione](../conflict-prioritization/channel-capping.md)
+Sfruttando queste funzioni, puoi garantire attività di marketing più fluide e mirate, consegnando il messaggio giusto al momento giusto ed evitando conflitti e sovraccarichi.
 
 ## Guardrail e limitazioni
 
-* **Campagne e punteggi di priorità** - Nelle campagne, il punteggio di priorità è disponibile solo per i canali in entrata **web**, **in-app** e **basati su codice**.
+**Quota limite e tipi di pubblico in batch**
 
-* **Latenza aggiornamento contatore profili**
+Per la quota limite, sia per il canale che per il percorso, se il pubblico utilizzato è un pubblico batch, il valore del contatore di profili a cui si fa riferimento al momento dell’ingresso nel percorso o il runtime del messaggio per una comunicazione di canale sarà quello dell’istantanea giornaliera acquisita.
 
-  Possono essere necessari fino a 20 minuti dopo che un cliente ha inserito un percorso per aggiornare il valore del contatore dei profili.
+Questo può essere problematico in quanto la clientela può superare la quota limite di frequenza se ha effettuato l’ingresso in un altro percorso o se ha ricevuto un’altra comunicazione tra il momento dell’istantanea giornaliera e quello di ingresso al percorso (o del messaggio che viene consegnato).
 
-  Se un profilo entra in due percorsi in una breve finestra, il secondo percorso potrebbe non riconoscere correttamente che il limite di frequenza è già stato raggiunto, consentendo potenzialmente al profilo di entrare in entrambi i percorsi.
+**Quota limite e tipi di pubblico in streaming**
 
-* **Priorità dello spazio dei nomi per il limite delle voci di percorso**
+Per i tipi di pubblico in streaming, il riconoscimento di un valore di contatore aggiornato da parte del sistema può richiedere fino a 2 ore. Pertanto, per ridurre questo rischio si consiglia di distanziare le comunicazioni e i percorsi di almeno due ore, se possibile.
 
-  Il limite di ingresso è supportato solo se lo spazio dei nomi selezionato nel percorso corrisponde allo spazio dei nomi con priorità più elevata definito nella sandbox. Se la priorità dello spazio dei nomi non è stata configurata in modo esplicito, la priorità massima predefinita è e-mail.
+**Ora di inizio dei percorsi**
 
-* **Attivazioni simultanee nei percorsi di qualificazione del pubblico**
+Per garantire il corretto funzionamento delle funzioni di gestione dei conflitti e assegnazione delle priorità, è consigliato impostare l’ora di inizio del percorso almeno a 10 minuti, in modo da consentire al sistema di aggiornare il contatore di conseguenza.
 
-  Quando più percorsi di qualificazione del pubblico vengono attivati dallo stesso evento di qualificazione del pubblico, i conteggi per il limite di ingresso non saranno precisi. Se i conteggi sono al di sotto del limite massimo, il percorso continuerà ad arbitrare, ma non sarà in grado di ottenere i conteggi più aggiornati con attivazioni simultanee.
+Se la clientela ha già raggiunto il limite massimo di entrata in un percorso, non potrà comunque accedervi, ma se non lo ha raggiunto, il contatore di ingresso non verrà incrementato.
+
+**Arbitrato dei percorsi**
+
+Per il momento, solo i percorsi Leggi pubblico sono supportati per l’arbitrato dei percorsi. Le impostazioni di arbitrato non possono essere sfruttate per percorsi unitari o di qualificazione del pubblico.
