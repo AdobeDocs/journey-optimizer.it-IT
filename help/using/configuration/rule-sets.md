@@ -324,4 +324,4 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
