@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '636'
 ht-degree: 22%
 
 ---
@@ -28,10 +28,6 @@ Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utili
 I tipi di pubblico sono pronti per essere utilizzati in Journey Optimizer al termine dell’acquisizione. Sebbene questo avvenga in genere entro un’ora, è soggetto ad alcune variabilità. I tipi di pubblico risultanti dalle composizioni devono essere disponibili 24 ore dopo la pubblicazione.
 
 Per i tipi di pubblico risultanti da processi di segmentazione in batch, l’attivazione può essere ritardata a causa della variabilità dell’acquisizione in batch. Per i percorsi Read-audience pianificati quotidianamente, puoi definire una finestra temporale nelle proprietà del percorso per garantire che siano disponibili nuovi dati sul pubblico prima dell’esecuzione del percorso. Se il processo di segmentazione non viene completato entro l’intervallo di tempo definito, il percorso verrà ignorato fino alla sua occorrenza successiva. [Scopri come pianificare un percorso Read-audience](../building-journeys/read-audience.md)
-
->[!AVAILABILITY]
->
->L&#39;opzione **[!UICONTROL Trigger dopo valutazione del pubblico in batch]** è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 ## Caricamento personalizzato e composizione federata del pubblico
 
