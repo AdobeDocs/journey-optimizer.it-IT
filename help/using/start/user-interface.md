@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
@@ -130,7 +130,7 @@ Controlla la gestione della privacy e le richieste da questa sezione.
 
   È inoltre possibile accedere alla sezione **Reporting** per configurare i rapporti per la sperimentazione delle campagne e per web o dispositivi mobili. [Ulteriori informazioni](../reports/reporting-configuration.md)
 
-* **[!UICONTROL Regole di business]**: utilizza questa sezione per creare regole di frequenza cross-channel e controllare la frequenza con cui gli utenti ricevono un messaggio o entrano in un percorso. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md)
+* **[!UICONTROL Regole di business]**: utilizza questa sezione per creare regole di frequenza cross-channel e controllare la frequenza con cui gli utenti ricevono un messaggio o entrano in un percorso. [Ulteriori informazioni](../configuration/rule-sets.md)
 
 * **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](../reports/alerts.md)
 

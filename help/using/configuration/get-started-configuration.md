@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configurazione, configurare, messaggi, canale, sandbox, optimizer
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 54%
@@ -60,6 +60,6 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 
    * Abilitare l’**opzione e-mail Ccn** per conservare una copia dei messaggi inviati ai singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
 
-   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md)
+   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../configuration/rule-sets.md)
 
    * Determinare l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)

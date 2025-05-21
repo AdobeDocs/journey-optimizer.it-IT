@@ -3,15 +3,20 @@ title: Identificare potenziali conflitti in percorsi e campagne
 description: Scopri come identificare potenziali conflitti in percorsi e campagne.
 role: User
 level: Beginner
+badge: label="Disponibilità limitata"
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 16%
+source-wordcount: '816'
+ht-degree: 21%
 
 ---
 
 # Rilevare potenziali conflitti in percorsi e campagne {#conflict}
+
+>[!AVAILABILITY]
+>
+>Le funzionalità relative ai conflitti e all’assegnazione delle priorità sono attualmente in disponibilità limitata per un gruppo selezionato della clientela. Tenere presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se lo desideri, puoi rivolgerti al team del tuo account per l’inserimento nella lista d’attesa per queste funzioni.
 
 Con l’aumento del volume di campagne e Percorsi in Journey Optimizer, per un addetto marketing diventa sempre più difficile sapere se i propri clienti sono bombardati da troppe interazioni di marketing. è quindi essenziale identificare facilmente quando vi sono campagne e percorsi sovrapposti per garantire che raggiungano il giusto equilibrio nelle comunicazioni di marketing, mitigando al contempo i rischi di affaticamento dei clienti.
 
@@ -22,6 +27,10 @@ I settori chiave da monitorare per eventuali sovrapposizioni sono i seguenti:
 * **Canale**: sono pianificate altre comunicazioni per lo stesso intervallo di tempo e, in caso affermativo, quante?
 * **Set di regole di limitazione**: quali tipi di percorsi sono soggetti a limitazione e vi sono sovrapposizioni all&#39;interno di essi?
 * **Configurazione canale**: ci sono altri percorsi o campagne che utilizzano una configurazione di canale utilizzata nello stesso percorso o campagna che potrebbe impedire la visualizzazione del percorso o della campagna all&#39;utente finale?
+
+>[!NOTE]
+>
+>Nelle campagne, il punteggio di priorità è disponibile solo per i canali in entrata web, in-app e basati su codice.
 
 ➡️ [Guarda il video su questa funzione](#video)
 
@@ -65,7 +74,7 @@ Durante la creazione di un percorso o di una campagna, Journey Optimizer consent
 
    >[!NOTE]
    >
-   >I nuovi percorsi e le nuove campagne pubblicati potrebbero richiedere fino a 3-7 minuti per essere visualizzati nel visualizzatore dei conflitti, a causa del caching implementato.
+   >Le nuove campagne pubblicate potrebbero richiedere fino a 5 minuti per essere visualizzate nel visualizzatore dei conflitti, a causa del caching implementato
 
 Per perfezionare ulteriormente la ricerca di potenziali sovrapposizioni, puoi filtrare l’elenco di campagne e percorsi in base ai campi pertinenti. A questo scopo, seleziona l’icona del filtro nella vista inventario. [Scopri come utilizzare i filtri](../start/search-filter-categorize.md#filter-lists)
 

@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2378'
 ht-degree: 97%
 
 ---
@@ -212,11 +212,8 @@ ht-degree: 97%
 + Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
    + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
-   + [Assegna punteggi di priorità](using/conflict-prioritization/priority-scores.md)
-Imposta le regole di limitazione messaggi e percorso {#capping-rules}
-      + [Utilizzare i set di regole](using/conflict-prioritization/rule-sets.md)
-      + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
-      + [Limitazione della frequenza per canale e tipo di comunicazione](using/conflict-prioritization/channel-capping.md)
+   + [Assegnare punteggi di priorità](using/conflict-prioritization/priority-scores.md)
+   + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
 + Testare e approvare {#test}
    + Anteprima e test del contenuto {#preview-test}
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
@@ -733,6 +730,7 @@ Imposta le regole di limitazione messaggi e percorso {#capping-rules}
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Configurare regole di business](using/configuration/frequency-rules.md)
+   + [Utilizzare i set di regole](using/configuration/rule-sets.md)
 + Configurazione dei percorsi {#configure-journeys}
    + [Configurare origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
    + Configurazione evento {#events-journeys}
