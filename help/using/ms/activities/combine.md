@@ -36,7 +36,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_intersection_merging_options"
 >title="Opzioni di unione per Intersezione"
->abstract="L’attività Intersezione consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività. Nella sezione Set da unire, seleziona tutte le attività precedenti che desideri unire."
+>abstract="L’attività Intersezione ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività. Nella sezione Set da unire, seleziona tutte le attività precedenti che desideri unire."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_exclusion_merging_options"
