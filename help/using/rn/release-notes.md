@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
+source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1061'
 ht-degree: 37%
 
 ---
@@ -45,11 +45,10 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
 <li>Definisci i segnaposto e mappa i valori di personalizzazione all’interno della firma del frammento utilizzando la modalità Editor.</li>
 </ul>
-
-<p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-fragments.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 23 maggio 2025</p>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-fragments.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: sabato 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -70,11 +69,11 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>Modifica immediatamente le impostazioni delle risorse, ad esempio larghezza e altezza.</li>
 <li>Personalizza i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione.</li>
 </ul>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 <p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-dynamic.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: sabato 23 maggio 2025</p>
-</br>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
@@ -90,8 +89,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi applicare rapidamente i temi approvati in precedenza per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e produrre in modo indipendente e-mail di alta qualità, riducendo al contempo la dipendenza dai team di progettazione.</p>
-<img src="assets/do-not-localize/themes.gif">
 <p>Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 14 maggio 2025</p>
 </td>
@@ -188,6 +187,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione a disponibilità generale, la funzione ora include il supporto per contenuti ed esperimenti di contenuti multilingue, consentendo di testare le varianti tra diversi linguaggi e trattamenti. Inoltre, ora supporta gli attributi contestuali (oltre agli attributi di profilo), consentendo test di contenuto ancora più dinamici e situazionali.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: sabato 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
