@@ -6,12 +6,11 @@ description: Utilizzare Dynamic Media con Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 4%
+source-wordcount: '877'
+ht-degree: 1%
 
 ---
 
@@ -19,17 +18,19 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Questa integrazione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
+> Per i clienti del settore sanitario, l&#39;integrazione è abilitata solo dopo aver concesso in licenza le offerte aggiuntive Journey Optimizer Healthcare Shield e Adobe Experience Manager Enhanced Security.
 
 Il selettore delle risorse ora supporta Dynamic Media, consentendo di selezionare e utilizzare in modo semplice le rappresentazioni di elementi multimediali dinamici approvate in Journey Optimizer. Le modifiche apportate alle risorse in Adobe Experience Manager si riflettono immediatamente nel contenuto di Journey Optimizer, garantendo che le versioni più aggiornate siano sempre in uso senza richiedere aggiornamenti manuali.
 
 Questa integrazione è disponibile solo per i clienti che utilizzano Dynamic Media Manager as a Cloud Service.
 
-Per ulteriori informazioni su Dynamic Media in Adobe Experience Manager as a Cloud Service, consulta la [documentazione di Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
+Per ulteriori informazioni su Dynamic Media in Adobe Experience Manager as a Cloud Service, consulta la [documentazione di Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
 ## Aggiungere e gestire Dynamic Media {#dynamic-media}
 
 Migliora e ottimizza i contenuti per qualsiasi schermata o browser inserendo elementi multimediali dinamici da Adobe Experience Manager as a Cloud Service direttamente nel contenuto Journey Optimizer.  Puoi quindi ridimensionare, ritagliare, migliorare e apportare altre modifiche in base alle esigenze.
+
+Dynamic Media è disponibile sia per la modalità [Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) che per la modalità [con OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview).
 
 1. Trascina e rilascia un **[!UICONTROL componente HTML]** nel contenuto.
 
@@ -47,7 +48,7 @@ Migliora e ottimizza i contenuti per qualsiasi schermata o browser inserendo ele
 
 1. Regola i parametri dell’immagine (ad es. altezza, larghezza, rotazione, capovolgimento, luminosità, tonalità, ecc.) in base alle tue esigenze.
 
-   Per un elenco completo dei parametri immagine che possono essere aggiunti all&#39;URL, consulta la [documentazione di Experience Manager](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+   Per un elenco completo dei parametri immagine che possono essere aggiunti all&#39;URL, consulta la [documentazione di Experience Manager](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
 
    ![](assets/dynamic-media-3.png)
 
@@ -62,6 +63,8 @@ Personalizza facilmente qualsiasi elemento multimediale dinamico sostituendo la 
 Ad esempio, utilizzando la funzionalità di sperimentazione, puoi aggiornare la sovrapposizione di testo esistente sostituendola con un testo diverso per ogni trattamento, garantendo che sia personalizzata per ogni profilo quando aprono i messaggi.
 
 ![](assets/dynamic-media-layout-1.png)
+
+**La personalizzazione della sovrapposizione di testo** è disponibile esclusivamente in modalità Dynamic Media [Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Poiché la modalità Scene7 non è accessibile ai clienti del settore sanitario, il contenuto viene riprodotto utilizzando una copia binaria dell’immagine Journey Optimizer. Per eventuali eccezioni, contatta il supporto Experience Manager.
 
 1. Trascina e rilascia un **[!UICONTROL componente HTML]** nel contenuto.
 
@@ -100,7 +103,9 @@ Il contenuto ora include la sovrimpressione del testo aggiornata.
 
 Aggiungi facilmente il modello Dynamic Media in Journey Optimizer e aggiorna i contenuti multimediali quando necessario. Ora puoi incorporare campi di personalizzazione nei tuoi contenuti multimediali, consentendoti di creare contenuti più personalizzati e coinvolgenti all’interno di Journey Optimizer.
 
-Ulteriori informazioni su [Modello Dynamic Media](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+Il **modello Dynamic Media** è disponibile esclusivamente in modalità Dynamic Media [Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Poiché la modalità Scene7 non è accessibile ai clienti del settore sanitario, il contenuto non verrà renderizzato. Per eventuali eccezioni, contatta il supporto Experience Manager.
+
+Ulteriori informazioni su [Modello Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
 ### Con componente immagine {#image-component}
 
@@ -120,7 +125,7 @@ Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il comp
 
 1. Nelle **Impostazioni immagine**, accedi ai parametri del modello di elemento multimediale dinamico.
 
-   I campi disponibili dipendono dai parametri aggiunti durante la [creazione del modello](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager.
+   I campi disponibili dipendono dai parametri aggiunti durante la [creazione del modello](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager.
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -216,3 +221,9 @@ Enable conditional content in your dynamic media to better target your audience 
 1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
 
 -->
+
+## Video dimostrativo {#video}
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+
