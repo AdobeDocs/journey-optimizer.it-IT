@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,13 +31,13 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Editor di personalizzazione - Impara con la pratica</strong><br/></th>
+<th><strong>Editor di personalizzazione: imparare con la pratica</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile un playground di personalizzazione, in cui puoi sperimentare le espressioni di personalizzazione. Consente di esplorare modelli e payload di esempio per aiutarti a iniziare e provare le espressioni di personalizzazione.</p>
+<p>È ora disponibile un playground di personalizzazione, in cui puoi sperimentare espressioni di personalizzazione. Consente di esplorare modelli e payload di esempio per iniziare e provare le tue espressioni di personalizzazione.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/personalize.md#playground">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 24 aprile 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -89,7 +89,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ha ampliato le sue funzionalità cross-channel per includere il supporto per il canale LINE. Questo miglioramento consente di creare, modificare e visualizzare in anteprima le esperienze LINE, permettendo interazioni più personalizzate e coinvolgenti. Con LINE, puoi connetterti con più clientela, inviare contenuti rilevanti e migliorare il coinvolgimento.</p>
-<p>Il canale LINE è abilitato per i clienti Adobe Journey Optimizer su richiesta. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.</p>
+<p>Su richiesta, è abilitato il canale LINE per la clientela di Adobe Journey Optimizer. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../line/get-started-line.md">documentazione dettagliata</a>.</p></td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora è integrato con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione del percorso. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. </p>
+<p>Adobe Journey Optimizer ora si integra con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione dei percorsi. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. </p>
 <p>Questa integrazione non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/express.md">documentazione dettagliata</a>.</p>
@@ -170,13 +170,13 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>L’attivazione giornaliera del percorso viene eseguita dopo il completamento della segmentazione batch (disponibilità limitata)</strong><br/></th>
+<th><strong>Attivazione del percorso giornaliero eseguito dopo il completamento della segmentazione in batch (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Per i percorsi pianificati quotidianamente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attiva dopo la valutazione del pubblico batch è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Per i percorsi pianificati giornalmente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione in batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attivazione dopo la valutazione del pubblico in batch è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-audience.md#schedule">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -212,7 +212,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nell’E-mail designer, consentendoti di visualizzare se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
+<p>La funzione di Punteggio di allineamento al brand offre un feedback chiaro direttamente nella finestra dell’E-mail designer, consentendoti di capire se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/brands-score.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -242,7 +242,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 
 ### Miglioramenti {#25-04-improv}
 
-**API anteprima campagne**
+**API per l’anteprima delle campagne**
 
 Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funzionalità di invio di bozze esistenti. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
@@ -250,9 +250,9 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 * **Strumenti sandbox per azioni personalizzate**
 
-  Le azioni personalizzate sono ora incluse nell’elenco degli oggetti Adobe Journey Optimizer che possono essere copiati utilizzando la funzione strumenti sandbox, semplificando il test e la distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+  Le azioni personalizzate sono ora incluse nell’elenco degli oggetti di Adobe Journey Optimizer che possono essere copiati utilizzando la funzione strumenti sandbox, semplificando il test e la distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
-* **Strumenti sandbox per le campagne** - Data di disponibilità: 3 aprile 2025
+* **Strumenti sandbox per la campagna** - Data di disponibilità: 3 aprile 2025
 
   Ora puoi copiare campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Le campagne vengono copiate insieme a tutti gli elementi relativi al profilo, al pubblico, allo schema, ai messaggi in linea e agli oggetti dipendenti. Alcuni elementi non vengono copiati, ad esempio elementi decisionali, etichette di utilizzo dei dati e impostazioni della lingua. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -260,7 +260,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 * **Nuovo attributo contestuale**
 
-  È ora disponibile un nuovo attributo contestuale, **ID profilo messaggio** per la selezione dall’editor di personalizzazione. Si tratta di un attributo orientato ai messaggi che identifica in modo univoco ogni messaggio inviato a ciascun profilo target in una consegna. Questo identificatore univoco può essere utilizzato, ad esempio, come parametro di tracciamento URL per distinguere ogni collegamento aperto o cliccato dai destinatari.
+  È ora disponibile un nuovo attributo contestuale, **ID profilo messaggio**, da selezionare dall’editor di personalizzazione. Si tratta di un attributo orientato al messaggio che identifica in modo univoco ogni messaggio inviato a ciascun profilo target in una consegna. Questo identificatore univoco può essere utilizzato, ad esempio, come parametro di tracciamento URL per distinguere ogni collegamento aperto o cliccato dai destinatari.
 
 * **Attributi compilati nel riquadro degli attributi** - Data di disponibilità: 2 aprile 2025
 
@@ -270,13 +270,13 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 * **Tracciamento URL personalizzato** - Data di disponibilità: 30 aprile 2025
 
-  Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, ora puoi personalizzare tutti i parametri di tracciamento URL contemporaneamente a livello di configurazione del canale e-mail, invece di farlo nella finestra di progettazione e-mail per ogni collegamento nel contenuto. [Ulteriori informazioni](../email/surface-personalization.md#personalize-url-tracking)
+  Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, ora puoi personalizzare tutti i parametri di tracciamento URL contemporaneamente a livello di configurazione dei canali e-mail, invece di farlo nell’E-mail designer per ogni collegamento nel contenuto. [Ulteriori informazioni](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E-mail designer** - Data di disponibilità: 1 aprile 2025
 
   Per migliorare l’accessibilità in Journey Optimizer, sono ora disponibili due nuovi campi nell’E-mail designer: corrispondono all’elemento `<title>` e all’attributo `lang` nell’elemento `<html>` del contenuto dell’e-mail. Puoi definire queste impostazioni oltre che nel campo **[!UICONTROL Preintestazione]**, nella sezione **[!UICONTROL Corpo]** dell’e-mail. [Ulteriori informazioni](../email/email-metadata.md)
 
-**Playbook casi d&#39;uso**
+**Usare i playbook sui casi d’uso**
 
 * **Creazione e condivisione di playbook (versione beta privata)** - È ora possibile creare, gestire e condividere playbook personalizzati per casi d&#39;uso. Questa funzionalità è attualmente disponibile solo per un set di organizzazioni come versione beta privata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/playbooks.md)
 
@@ -532,7 +532,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile creare contenuti coinvolgenti per le pagine di destinazione, compresi progettazioni di pagine intere, testo e immagini personalizzati, con l’aiuto dell’Assistente IA.</p>
+<p>Ora puoi usare l’Assistente IA per creare contenuti coinvolgenti per le pagine di destinazione, tra cui progettazioni di pagine intere, testo personalizzato e immagini personalizzate.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/generative-lp.md">documentazione dettagliata</a>.</p>
 </td>

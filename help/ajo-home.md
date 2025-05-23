@@ -7,8 +7,8 @@ product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visita la [pagina degli aggiornamenti alla documentazione](using/rn/documentation-updates.md) per non perdere le ultime modifiche apportate alla documentazione del prodotto.
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Visita la [pagina degli aggiornamenti alla documentazione](using/rn/documentation-updates.md) per non perderti le ultime modifiche apportate alla documentazione del prodotto.
 
 >[!BEGINTABS]
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer ora si integra con Adobe Express, consentendo di collega
 
 ✨ Immergiti in un&#39;esperienza pratica con l&#39;anteprima delle funzionalità live di [AI Assistant](../help/using/content-management/gs-generative.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
-[![ulteriori informazioni](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![Ulteriori informazioni](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Reporting con CJA]
 

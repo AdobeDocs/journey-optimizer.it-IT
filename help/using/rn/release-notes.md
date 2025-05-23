@@ -8,8 +8,8 @@ description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -261,11 +261,11 @@ I miglioramenti apportati a questa versione sono elencati di seguito.
 
 * **Attivazione pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
 
-  Un nuovo pulsante &quot;Pills&quot; è stato aggiunto all’editor di personalizzazione. Quando sono abilitati, gli attributi di profilo e contestuali vengono visualizzati come pillole, migliorando la leggibilità del codice. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#options)
+  All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando è abilitato, gli attributi contestuali e di profilo vengono visualizzati come pillole, migliorando la leggibilità del codice. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
-  >Questa funzionalità verrà gradualmente implementata in tutti gli ambienti nei prossimi 30 giorni.
+  >Questa funzionalità verrà implementata gradualmente in tutti gli ambienti nei prossimi 30 giorni.
 
 * Supporto di **&#39;Reindirizza all&#39;URL&#39; nel canale Web**
 
