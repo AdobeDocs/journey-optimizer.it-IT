@@ -10,14 +10,15 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 9%
 
 ---
 
-# Controllare e inviare i messaggi WhatsApp {#send-whatsapp}
+# Verificare e inviare i messaggi WhatsApp {#send-whatsapp}
 
 >[!BEGINSHADEBOX]
 
@@ -32,7 +33,7 @@ ht-degree: 2%
 
 ## Anteprima del messaggio WhatsApp {#preview-whatsapp}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. Se hai inserito dei contenuti personalizzati, puoi controllare come questi contenuti vengono visualizzati nel messaggio. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. Se hai inserito dei contenuti personalizzati, puoi controllare come questi contenuti vengono visualizzati nel messaggio.
 
 A tale scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi controlla il messaggio utilizzando i dati del profilo di test.
 

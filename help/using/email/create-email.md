@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '965'
 ht-degree: 11%
 
 ---
@@ -156,7 +156,7 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 >[!NOTE]
 >
->Oltre ai profili di test, [!DNL Journey optimizer] consente anche di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+>Oltre ai profili di test, [!DNL Journey optimizer] consente anche di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
 A questo scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi aggiungi un profilo di test per verificare il messaggio utilizzando i dati del profilo di test.
 

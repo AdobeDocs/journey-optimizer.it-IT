@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
+source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 32%
+source-wordcount: '1058'
+ht-degree: 37%
 
 ---
 
@@ -175,23 +175,23 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </tbody>
 </table>-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Simulate content variations</strong><br/></th>
+<th><strong>Simulare varianti di contenuto</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
+<p>Precedentemente disponibile in versione Beta, la simulazione delle varianti di contenuto è ora disponibile per tutti gli utenti (disponibilità generale, GA). Consente di visualizzare l’anteprima di diverse varianti del contenuto utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione a disponibilità generale, la funzione ora include il supporto per contenuti ed esperimenti di contenuti multilingue, consentendo di testare le varianti tra diversi linguaggi e trattamenti. Inoltre, ora supporta gli attributi contestuali (oltre agli attributi di profilo), consentendo test di contenuto ancora più dinamici e situazionali.</p>
 <img src="assets/do-not-localize/variants.gif">
-<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--table>
 <thead>

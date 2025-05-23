@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
+source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1169'
 ht-degree: 7%
 
 ---
@@ -166,7 +166,7 @@ Quando utilizzi una configurazione personalizzata in una campagna o in un percor
 
 >[!NOTE]
 >
->Oltre ai profili di test, [!DNL Journey optimizer] consente anche di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+>Oltre ai profili di test, [!DNL Journey optimizer] consente anche di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
 Per visualizzare in anteprima i contenuti utilizzando i profili di test, effettua le seguenti operazioni:
 

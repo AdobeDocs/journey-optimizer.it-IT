@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1357'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ I profili di test sono necessari quando si utilizza la [modalità di test](../bu
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
 Esistono diversi modi per creare profili di test. Puoi trovare in questa pagina i dettagli per:
 
@@ -32,7 +32,7 @@ Esistono diversi modi per creare profili di test. Puoi trovare in questa pagina 
 
   Oltre a questi due metodi, Adobe Journey Optimizer viene fornito con un caso d&#39;uso specifico [nel prodotto](#use-case-1) per facilitare la creazione del profilo di test.
 
-Puoi anche caricare un file json in un set di dati esistente. Per ulteriori informazioni, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=it#add-data-to-dataset){target="_blank"}.
+Puoi anche caricare un file json in un set di dati esistente. Per ulteriori informazioni, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 La creazione di un profilo di test è simile alla creazione di profili normali in Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
@@ -69,7 +69,7 @@ Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l&#39;elenco 
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla creazione dello schema, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it#prerequisites){target="_blank"}.
+>Per ulteriori informazioni sulla creazione dello schema, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 Quindi devi **creare il set di dati** in cui verranno importati i profili. Segui questi passaggi:
 
@@ -86,7 +86,7 @@ Quindi devi **creare il set di dati** in cui verranno importati i profili. Segui
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione di set di dati, consulta la [documentazione di Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#getting-started){target="_blank"}.
+> Per ulteriori informazioni sulla creazione di set di dati, consulta la [documentazione di Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso di utilizzo interno al prodotto{#use-case-1}
 
@@ -183,7 +183,7 @@ Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=it#tutorials){target="_blank"}.
+>Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 >
 
 
@@ -240,8 +240,8 @@ curl -X POST \
 }'
 ```
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
 Scopri come creare profili di test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416332?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
