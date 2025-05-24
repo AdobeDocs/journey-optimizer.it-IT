@@ -2,9 +2,9 @@
 title: Identificatore supplementare nei percorsi attivati da eventi
 description: Scopri come utilizzare l’identificatore supplementare nei percorsi attivati da eventi.
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ Per utilizzare un identificatore supplementare in un percorso, effettua le segue
 
 +++ Vedi esempi
 
-   In un array di oggetti con l’ID supplementare &quot;bookingNum&quot; e un attributo allo stesso livello denominato &quot;bookingCountry&quot;, il percorso scorre l’oggetto array in base al bookingNum e crea un’istanza di percorso per ciascun oggetto.
+   In un array di oggetti con ID supplementare come `bookingNum` e un attributo allo stesso livello denominato `bookingCountry`, il percorso eseguirà un&#39;iterazione nell&#39;oggetto array in base al bookingNum e creerà un&#39;istanza di percorso per ogni oggetto.
 
    * L&#39;espressione seguente nell&#39;attività condizione eseguirà un&#39;iterazione nella matrice di oggetti e verificherà se il valore di `bookingCountry` è uguale a &quot;FR&quot;:
 
@@ -112,7 +112,7 @@ Per utilizzare un identificatore supplementare in un percorso, effettua le segue
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * La seguente espressione nell’editor di personalizzazione e-mail eseguirà un’iterazione attraverso l’array di oggetti, estrae &quot;bookingCountry&quot; applicabile all’istanza di percorso corrente e la visualizza nel contenuto:
+   * L&#39;espressione seguente nell&#39;editor di personalizzazione e-mail eseguirà un&#39;iterazione nell&#39;array di oggetti, estrae `bookingCountry` applicabile all&#39;istanza di percorso corrente e lo visualizza nel contenuto:
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
