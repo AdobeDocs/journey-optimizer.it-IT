@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 36%
+source-wordcount: '1154'
+ht-degree: 37%
 
 ---
 
@@ -236,7 +236,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, consentendo che lo stesso profilo sia nello stesso percorso più volte alla volta. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio percorso attraverso il percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/supplemental-identifier.md">documentazione dettagliata</a>.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Data di disponibilità: sabato 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
