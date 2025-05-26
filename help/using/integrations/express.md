@@ -5,14 +5,15 @@ title: Modificare le risorse con Adobe Express in Journey Optimizer
 description: Introduzione ad Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
+badge: label="Disponibilità limitata" type="Informative"
 role: User
 level: Beginner
 keywords: risorse, integrazione
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 10%
+source-wordcount: '540'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +24,14 @@ ht-degree: 10%
 >title="Integrazione Adobe Express"
 >abstract="Inizia a personalizzare le risorse con l’integrazione di Adobe Express. Questa funzione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG."
 
+L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
+
+<img src="../rn/assets/do-not-localize/express_resize.gif">
+
+
 >[!AVAILABILITY]
 >
 >L’integrazione di Adobe Express in Adobe Journey Optimizer non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
-
-L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
 Per ulteriori informazioni su Adobe Express, consulta [questa documentazione](https://helpx.adobe.com/it/express/user-guide.html).
 
@@ -47,10 +51,10 @@ Con una licenza Enterprise, gli utenti possono accedere completamente all’edit
 
 +++Casi d’uso disponibili per gli utenti e una licenza Enterprise per Adobe Express
 
-* [Rimuovi sfondo](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/remove-background.html)
-* [Rimuovi oggetti](https://helpx.adobe.com/it/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Cancella](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/eraser.html)
-* [Inserisci oggetto](https://helpx.adobe.com/it/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Rimuovi sfondo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Rimuovi oggetti](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Cancella](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Inserisci oggetto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [Ritaglio](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [Effetti](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
@@ -145,7 +149,7 @@ L&#39;immagine è ora pronta per essere utilizzata nel contenuto.
 
 Scopri come modificare le risorse in Adobe Journey Optimizer utilizzando gli strumenti di Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455531/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
