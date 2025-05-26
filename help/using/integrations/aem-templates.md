@@ -11,23 +11,26 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 2%
 
 ---
 
 # Utilizzare i modelli di Adobe Experience Manager {#aem-templates}
 
->[!AVAILABILITY]
->
->L’integrazione con Adobe Experience Manager è attualmente disponibile come versione beta solo per alcuni utenti.
-> In qualità di utente beta, utilizza [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere feedback.
+## Introduzione ai modelli di Adobe Experience Manager {#gs-aem-templates}
 
 Con Adobe Journey Optimizer, puoi creare messaggi personalizzati tramite i siti Adobe Experience Manager. Inizia progettando i modelli utilizzando le origini di contenuto di Adobe Experience Manager, quindi inviali a Adobe Journey Optimizer. Una volta condivisi, questi modelli sono accessibili in E-mail designer di Adobe Journey Optimizer, semplificando il processo di creazione e invio di messaggi al pubblico desiderato.
 
-## Prerequisiti {#prerequisites}
+>[!AVAILABILITY]
+>
+>L’integrazione con Adobe Experience Manager è attualmente disponibile come versione beta solo per alcuni utenti.
+>In qualità di utente beta, utilizza [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere feedback.
+
+
+### Prerequisiti {#prerequisites}
 
 Prima di iniziare a utilizzare questa funzionalità, assicurati di essere in linea con i seguenti requisiti:
 
@@ -41,7 +44,7 @@ Prima di iniziare a utilizzare questa funzionalità, assicurati di essere in lin
 
   Per creare, modificare ed eliminare modelli di contenuto in Adobe Journey Optimizer, è necessario disporre dell&#39;autorizzazione **[!DNL Manage Library Items]** inclusa nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
-## Guardrail e limitazioni{#aem-templates-limitations}
+### Guardrail e limitazioni{#aem-templates-limitations}
 
 Per ottimizzare ulteriormente l’utilizzo di Adobe Experience Manager con Adobe Journey Optimizer, è importante essere consapevoli delle seguenti protezioni e limitazioni aggiuntive:
 
@@ -59,7 +62,7 @@ Per esportare un modello di Adobe Experience Manager in Adobe Journey Optimizer,
 
    ![](assets/aem-outbound-menu.png)
 
-1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=it#creating-a-new-page)
+1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Incorporando la sintassi di personalizzazione di Journey Optimizer nel modello, puoi migliorarne le funzionalità di personalizzazione. [Ulteriori informazioni](../personalization/personalization-syntax.md)
 
