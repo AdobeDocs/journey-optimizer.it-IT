@@ -3,14 +3,14 @@ title: Identificatore supplementare nei percorsi attivati da eventi
 description: Scopri come utilizzare l’identificatore supplementare nei percorsi attivati da eventi.
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
+source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 7%
 
 ---
 
-# Identificatore supplementare nei percorsi attivati da eventi
+# Identificatore supplementare nei percorsi attivati da eventi {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
