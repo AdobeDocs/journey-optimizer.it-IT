@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7ce241ca8ae6d2be6152a1c393a8301ce2f397a3
+source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1715'
 ht-degree: 11%
 
 ---
@@ -19,8 +19,7 @@ ht-degree: 11%
 >id="ajo_code_based_decision"
 >title="Che cos’è una decisione?"
 >abstract="I criteri di decisione contengono tutta la logica di selezione affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici della campagna. Il loro obiettivo è selezionare le migliori offerte per ciascun profilo mentre la creazione della campagna consente di indicare come devono essere presentati gli elementi decisionali selezionati, inclusi gli attributi degli elementi da includere nel messaggio."
-
-<!--additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="About Decisioning"-->
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informazioni sulla funzione Decisioni"
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
 
@@ -52,9 +51,7 @@ I passaggi principali per sfruttare i criteri decisionali nelle campagne basate 
 >id="ajo_code_based_strategy"
 >title="Che cos’è una strategia?"
 >abstract="La sequenza della strategia di selezione determina quale strategia verrà valutata per prima. È necessaria almeno una strategia. Gli elementi decisionali nelle strategie combinate saranno valutati insieme."
-
-<!--additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Create strategies"
-additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Evaluation order"-->
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creare strategie"
 
 Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna o a un percorso basato su codice. A questo scopo, segui i passaggi riportati qui sotto.
 
