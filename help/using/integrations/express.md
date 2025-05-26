@@ -47,10 +47,10 @@ Con una licenza Enterprise, gli utenti possono accedere completamente all’edit
 
 +++Casi d’uso disponibili per gli utenti e una licenza Enterprise per Adobe Express
 
-* [Rimuovi sfondo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [Rimuovi oggetti](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Cancella](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [Inserisci oggetto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Rimuovi sfondo](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/remove-background.html)
+* [Rimuovi oggetti](https://helpx.adobe.com/it/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Cancella](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/eraser.html)
+* [Inserisci oggetto](https://helpx.adobe.com/it/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [Ritaglio](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [Effetti](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
