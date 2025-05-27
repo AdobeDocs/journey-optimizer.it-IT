@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurazione, sperimentazione, reporting, ottimizzatore
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 29%
+source-wordcount: '585'
+ht-degree: 28%
 
 ---
 
@@ -40,7 +40,7 @@ Tieni presente che per i canali web, basati su codice e in-app, devi assicurarti
 
 ## Prerequisiti
 
-Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#create){target="_blank"}.
+Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Puoi aggiungere solo set di dati di tipo evento.
 
@@ -104,7 +104,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   Ulteriori informazioni sui set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
+   Ulteriori informazioni sui set di dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
 
 1. Dall&#39;elenco a discesa **[!UICONTROL ID profilo]**, seleziona l&#39;attributo del campo del set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
 
