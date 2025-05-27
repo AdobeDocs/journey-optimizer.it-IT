@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integrazione
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 13%
 
 ---
 
@@ -36,16 +36,13 @@ Quando richiesto, la connessione tra gli ambienti Journey Optimizer e Adobe Camp
 >[!TAB Per Adobe Journey Optimizer]
 
 * ID organizzazione (Adobe OrgID)
-
 * Nome sandbox
 
 >[!TAB Per Adobe Campaign]
 
 * URL del server Campaign
-
 * URL server in tempo reale
-
-* Versione di Campaign
+* Versione di Adobe Campaign
 
 >[!ENDTABS]
 
@@ -64,7 +61,7 @@ Quando richiesto, la connessione tra gli ambienti Journey Optimizer e Adobe Camp
 
 ## Prerequisiti {#prerequisites}
 
-In Adobe Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione di Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern indicato di seguito. Incolla quindi questo payload durante la configurazione dell’azione in Journey Optimizer (vedi di seguito).
 
