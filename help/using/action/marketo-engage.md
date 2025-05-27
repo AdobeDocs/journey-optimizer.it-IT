@@ -9,24 +9,26 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, integrazione marketo engagement
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 # Integrare con Marketo Engage {#integrating-with-marketo-engage}
 
-Approfitta di un percorso di integrazione perfetta dei dati con il Marketo Engage. Questa azione personalizzata specifica in Journey Optimizer supporta l’acquisizione di due tipi di dati chiave:
+Nei percorsi è disponibile un’azione personalizzata specifica per integrare Adobe Journey Optimizer e Marketo Engage.
+
+Approfitta di un percorso di integrazione perfetta dei dati con Marketo Engage. Questa azione personalizzata specifica in Journey Optimizer supporta l’acquisizione di due tipi di dati chiave:
 
 * Persone (profili): Marketo trasforma i profili in informazioni fruibili.
 * Oggetti personalizzati: personalizza i tuoi dati con oggetti personalizzati, come prodotti, per un approccio di marketing personalizzato.
 
 ## Prerequisiti {#prerequisites}
 
-* L’istanza cliente del Marketo Engage deve essere abilitata per IMS.
-* L&#39;istanza di Marketo Engage e l&#39;istanza Adobe Experience Platform/Journey Optimizer devono essere nella stessa organizzazione.
+* L’istanza cliente di Marketo Engage deve essere abilitata per IMS.
+* L’istanza di Marketo Engage e l’istanza di Adobe Experience Platform/Journey Optimizer devono appartenere alla stessa organizzazione.
 * Al cliente deve essere fornito l&#39;accesso **MktoSync: servizio di acquisizione**
 
 ## Configurazione dell’azione {#configure-marketo-action}
@@ -42,7 +44,7 @@ Approfitta di un percorso di integrazione perfetta dei dati con il Marketo Engag
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspect e configurare i valori del payload
+* Verifica e configura i valori del payload
 Nota: per passare i valori in modo dinamico, per ogni campo cambia **Costante** in **Variabile**.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
