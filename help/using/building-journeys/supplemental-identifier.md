@@ -3,9 +3,9 @@ title: Identificatore supplementare nei percorsi attivati da eventi
 description: Scopri come utilizzare l’identificatore supplementare nei percorsi attivati da eventi.
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ Per utilizzare un identificatore supplementare in un percorso, effettua le segue
 
 ### **Gestione abbonamenti**
 
-* **Scenario**: un servizio di abbonamento invia messaggi personalizzati per ogni abbonamento associato a un profilo cliente.
+* **Scenario**: un servizio di sottoscrizione invia messaggi personalizzati per ogni sottoscrizione quando viene attivato un evento per tale sottoscrizione.
 * **Esecuzione**:
    * Voce principale: Jane.
-   * ID supplementari: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * Il percorso viene eseguito separatamente per ogni abbonamento, con offerte di rinnovo personalizzate.
+   * ID supplementari: `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * Ogni evento include un ID abbonamento e i dettagli relativi a tale abbonamento. Il percorso viene eseguito separatamente per ogni evento/abbonamento, consentendo offerte di rinnovo personalizzate per abbonamento.
 
 ### **Consigli di prodotto**
 
