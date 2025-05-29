@@ -8,7 +8,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 39%
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per assegnare la priorità a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità."
+>abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per dare precedenza a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità."
 
 >[!AVAILABILITY]
 >
@@ -48,4 +48,4 @@ Per assegnare un punteggio di priorità a un percorso o a una campagna, immetter
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

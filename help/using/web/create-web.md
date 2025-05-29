@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -153,12 +153,12 @@ Puoi anche aprirlo nel browser predefinito, oppure copiare l’URL di prova per 
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
-## Reindirizza a URL {#web-redirect-to-url}
+## Reindirizzare a un URL {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="Reindirizza a un altro URL"
->abstract="Inserisci un URL esistente in cui reindirizzare i visitatori della pagina."
+>title="Reindirizzare a un altro URL"
+>abstract="Inserisci un URL esistente verso il quale reindirizzare i visitatori della pagina."
 
 Durante la creazione di un’esperienza web, è possibile reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nel web designer.
 
@@ -266,4 +266,4 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449989/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

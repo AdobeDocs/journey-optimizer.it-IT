@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Utilizza i profili di test per verificare il contenuto"
->abstract="Utilizza i profili di test per visualizzare in anteprima e verificare il contenuto. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati del profilo di test."
+>abstract="Utilizza i profili di test per visualizzare in anteprima e verificare il contenuto. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati dei profili di test."
 
 I profili di test sono destinatari aggiuntivi che non corrispondono ai criteri di targeting definiti. [Scopri come creare profili di test](../audience/creating-test-profiles.md)
 
