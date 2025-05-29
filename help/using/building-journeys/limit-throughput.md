@@ -8,7 +8,7 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Questa operazione può essere eseguita con:
 >
 >Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
 
-Se lavori con origini dati esterne o azioni personalizzate, potresti voler proteggere i tuoi sistemi esterni limitando la velocità effettiva del percorso: fino a 5.000 istanze/secondo per percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dal pubblico.
+Se lavori con origini dati esterne o azioni personalizzate, potresti voler proteggere i tuoi sistemi esterni limitando la velocità effettiva del percorso: fino a 5.000 istanze/secondo per i percorsi unitari e fino a 20.000 istanze/secondo per quelli attivati dal pubblico.
 
 Per le azioni personalizzate, sono disponibili funzionalità di limitazione a livello di prodotto. Fai riferimento a questa [pagina](../configuration/external-systems.md#capping).
 

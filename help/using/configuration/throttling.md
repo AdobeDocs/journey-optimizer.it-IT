@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -101,7 +101,7 @@ Durante la creazione o l’aggiornamento di una configurazione, il processo conv
 Durante la creazione, l’eliminazione o la distribuzione della configurazione di limitazione, possono verificarsi i seguenti errori:
 
 * **ERR_THROTTLING_CONFIG_100**: configurazione di limitazione: `<mandatory attribute>` obbligatoria
-* **ERR_THROTTLING_CONFIG_101**: configurazione di limitazione: maxThroughput è obbligatorio e deve essere maggiore o uguale a 200 e minore o uguale a 5000
+* **ERR_THROTTLING_CONFIG_101**: configurazione di limitazione: maxThroughput è obbligatorio e deve essere maggiore o uguale a 200 e minore o uguale a 5.000
 * **ERR_THROTTLING_CONFIG_104**: configurazione di limitazione: formato del pattern URL non valido
 * **ERR_THROTTLING_CONFIG_105**: configurazione di limitazione: caratteri jolly non consentiti nella parte dell’host del pattern URL
 * **ERR_THROTTLING_CONFIG_106**: configurazione di limitazione: payload non valido

@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 15%
@@ -25,8 +25,8 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Guardrail | Limite |
 | ------- | ------- |
 | Decisioning delle richieste API al secondo | 500 |
-| Richieste API di Edge Decisioning al secondo con segmentazione di Edge | 1500 |
-| Richieste API di Edge Decisioning al secondo senza segmentazione di Edge | 5000 |
+| Richieste API di Edge Decisioning al secondo con segmentazione di Edge | 1.500 |
+| Richieste API di Edge Decisioning al secondo senza segmentazione di Edge | 5.000 |
 | Offerte restituite per risposta | Fino a 30 per ambito di decisione o 100 in totale |
 | Numero massimo di regole di offerta interessate per richiesta | 100 |
 
@@ -51,7 +51,7 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Guardrail | Limite |
 | ------- | ------- |
 | Qualificatore raccolta per offerta o raccolta | 20 |
-| Totale qualificatori raccolta | 1000 |
+| Totale qualificatori raccolta | 1.000 |
 
 ## Offerte
 
@@ -62,7 +62,7 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Dimensione massima delle offerte, inclusi gli attributi (1 KB), fino a 30 attributi | 1 KB |
 | Dimensione massima della rappresentazione dell’offerta (totale per tutti i posizionamenti) | 1 KB |
 
-## Eligibility rules (Regole di idoneità)
+## Regole di idoneità
 
 | Guardrail | Limite |
 | ------- | ------- |

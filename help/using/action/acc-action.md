@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integrazione
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 13%
+source-wordcount: '546'
+ht-degree: 12%
 
 ---
 
@@ -61,11 +61,11 @@ Quando richiesto, la connessione tra gli ambienti Journey Optimizer e Adobe Camp
 
 ## Prerequisiti {#prerequisites}
 
-In Adobe Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+In Adobe Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione di Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern indicato di seguito. Incolla quindi questo payload durante la configurazione dell’azione in Journey Optimizer (vedi di seguito).
 
-Ecco un esempio:
++++ Esempio
 
 ```json
 {
@@ -82,15 +82,19 @@ Ecco un esempio:
 * **eventType**: nome interno dell&#39;evento Campaign
 * **ctx**: variabile basata sulla personalizzazione disponibile nel messaggio
 
++++
+
 ## Configurare l’azione {#configure-action}
 
-In Journey Optimizer, devi configurare un’azione per messaggio transazionale. Segui questi passaggi:
+In Journey Optimizer, devi configurare un’azione per messaggio transazionale.
 
-1. Crea una nuova azione. [Ulteriori informazioni sulle azioni personalizzate](../action/action.md).
+Per creare un’azione Campaign, effettua le seguenti operazioni:
+
+1. Crea una nuova azione. [Scopri come creare azioni personalizzate](../action/action.md).
 1. Immettere un nome e una descrizione.
 1. Nel campo **Tipo azione**, selezionare **Adobe Campaign Classic**.
+   ![](assets/accintegration1.png)
 1. Fai clic nel campo **Payload** e incolla un esempio del payload JSON corrispondente al messaggio di Campaign. Contatta Adobe per ottenere questo payload.
-1. Imposta i diversi campi in modo che siano statici o variabili a seconda che desideri mapparli sull’area di lavoro del Percorso. Alcuni campi, come i parametri del canale per l’indirizzo e-mail e i campi di personalizzazione (ctx), probabilmente dovranno essere definiti come variabili da mappare nel contesto del percorso.
+1. Impostare ogni campo come statico o variabile a seconda che si desideri mapparlo nell&#39;area di lavoro del Percorso. Ad esempio, campi come i parametri del canale e-mail e i campi di personalizzazione (`ctx`) devono in genere essere impostati come variabili in modo che possano adattarsi dinamicamente all&#39;interno del percorso.
 1. Fai clic su **Salva**.
 
-![](assets/accintegration1.png)
