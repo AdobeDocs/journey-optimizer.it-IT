@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 12%
+source-wordcount: '1218'
+ht-degree: 7%
 
 ---
 
@@ -102,6 +102,8 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
    ![](assets/content_experiment_13.png)
 
+1. Abilita l’esperimento di scalabilità automatica per distribuire automaticamente la variante vincente dell’esperimento. [Ulteriori informazioni sulla scalabilità del vincitore](#scale-winner)
+
 1. Fai clic su **[!UICONTROL Crea]** quando la configurazione è impostata.
 
 ## Progettare i trattamenti {#treatment-experiment}
@@ -127,4 +129,80 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 1. Una volta definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering della consegna e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
 Dopo aver configurato la sperimentazione, puoi seguire il successo della consegna con il tuo rapporto. [Ulteriori informazioni](../reports/campaign-global-report-cja-experimentation.md)
+
+## Ridimensiona il vincitore {#scale-winner}
+
+>[!AVAILABILITY]
+>
+>La funzione Scala vincitori è attualmente supportata per i seguenti canali:
+>
+>* Canali in entrata (ad esempio, web, messaggi in-app, esperienza basata su codice) in qualsiasi percorso o campagna.
+>* Canali in uscita (ad esempio e-mail, notifica push, SMS) in campagne transazionali attivate da API.
+
+Il vincitore con la funzione Scala consente di distribuire automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta determinato il vincitore, sia possibile amplificarne la portata e l&#39;efficacia senza monitorare costantemente l&#39;esperimento.
+
+Puoi scegliere tra due modalità:
+
+* **Ridimensionamento automatico**: configura le impostazioni di ridimensionamento automatico durante la creazione dell&#39;esperimento scegliendo il momento e le condizioni per il ridimensionamento del trattamento vincente o un&#39;opzione di fallback se non emerge alcun vincitore.
+
+* **Ridimensionamento manuale**: rivedi manualmente i risultati dell&#39;esperimento e avvia il rollout del trattamento vincente, mantenendo il controllo completo sui tempi e sulle decisioni.
+
+
+### Ridimensionamento automatico {#autoscaling}
+
+Il ridimensionamento automatico consente di impostare regole predefinite per il momento in cui eseguire il rollout del trattamento vincente o di un fallback, in base ai risultati dell’esperimento.
+
+Si noti che, una volta eseguito il ridimensionamento automatico, il ridimensionamento manuale non è più disponibile.
+
+Per abilitare la scalabilità automatica negli esperimenti:
+
+1. Imposta la campagna o il percorso e configura l’esperimento in base alle esigenze. [Ulteriori informazioni](#configure-experiment)
+
+1. Abilita l’opzione di scalabilità automatica durante la configurazione dell’esperimento.
+
+   ![](assets/scale-winner-1.png)
+
+1. Seleziona quando ridimensionare il vincitore:
+
+   * Non appena viene trovato il vincitore.
+   * Dopo l’esperimento è attivo per il tempo selezionato.
+
+     Il tempo di ridimensionamento automatico deve essere pianificato prima della data di fine dell’esperimento. Se è impostato per un periodo di tempo successivo alla data di fine, verrà visualizzato un avviso di convalida e la campagna o il percorso non verrà pubblicato.
+
+   ![](assets/scale-winner-2.png)
+
+1. Scegli il comportamento di fallback se non viene trovato alcun vincitore in base al tempo di scala:
+
+   * Continua l’esperimento fino alla fine come pianificato.
+   * Ridimensionare il trattamento alternativo dopo un tempo specificato.
+
+Una volta soddisfatti tutti i parametri, il trattamento vincente o alternativo viene inviato al pubblico.
+
+### Ridimensionamento manuale {#manual-scaling}
+
+La scalabilità manuale consente di esaminare i risultati dell’esperimento e di decidere quando distribuire il trattamento vincente secondo la propria pianificazione.
+
+Se si ridimensiona manualmente il vincitore prima del tempo di scalabilità automatica programmato, la scalabilità automatica viene annullata.
+
+Per ridimensionare manualmente il vincitore degli esperimenti:
+
+1. Imposta la campagna o il percorso e configura l’esperimento in base alle esigenze. [Ulteriori informazioni](#configure-experiment)
+
+1. Consenti l’esecuzione dell’esperimento fino a quando non viene identificato un vincitore o non viene raggiunta la significatività statistica.
+
+1. Apri il dashboard della campagna o seleziona l’attività del canale nel percorso.
+
+   Rivedi i risultati nel menu **[!UICONTROL Esperimento contenuti]** per identificare il trattamento dalle prestazioni migliori.
+
+   ![](assets/scale-winner-jo.png)
+
+1. Fai clic su **[!UICONTROL Scala trattamento]** per inviare il trattamento vincente al resto del pubblico.
+
+   ![](assets/scale-winner-campaign.png)
+
+1. Selezionare il trattamento da scalare dal menu a discesa e fare clic su **[!UICONTROL Scala]**.
+
+   ![](assets/scale-winner-3.png)
+
+Si noti che la modifica in scala del trattamento può richiedere fino a un’ora. Riceverai una notifica al termine del processo di ridimensionamento manuale.
 
