@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 23%
+source-wordcount: '1118'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 23%
 Prima di [creare la tua esperienza](create-code-based.md), devi creare una configurazione di esperienza basata su codice in cui definisci dove verranno consegnati e utilizzati i contenuti all&#39;interno dell&#39;applicazione.
 
 Una configurazione di esperienza basata su codice deve fare riferimento alla superficie, che è fondamentalmente la posizione in cui desideri eseguire il rendering delle modifiche. A seconda della piattaforma selezionata, è necessario immettere una posizione o un percorso oppure l&#39;URI della superficie completa. [Ulteriori informazioni](code-based-surface.md)
+
+>[!NOTE]
+>
+>Se più azioni di esperienza basate su codice utilizzano la stessa configurazione di canale (e quindi vengono eseguite sulla stessa superficie), il **[!UICONTROL Punteggio di priorità]** della campagna o del percorso determina ciò che viene consegnato all&#39;utente finale se è idoneo per più di un&#39;azione. [Ulteriori informazioni sui punteggi di priorità](../conflict-prioritization/priority-scores.md)
 
 ## Creare una configurazione di esperienza basata su codice {#create-code-based-configuration}
 
@@ -156,7 +160,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    >[!NOTE]
    >
-   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Altre piattaforme {#other}
 

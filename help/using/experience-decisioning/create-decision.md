@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 11%
 
 ---
@@ -215,6 +215,10 @@ Una volta creato, il criterio di decisione può essere utilizzato nell&#39;[edit
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. Assicurarsi di racchiudere il loop `#each` in una coppia di parentesi quadre `[ ]` e aggiungere una virgola immediatamente prima del `/each` di chiusura.
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di personalizzazione, ad esempio gli attributi del profilo.
 

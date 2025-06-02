@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 10%
+source-wordcount: '698'
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,13 @@ Per aggiungere un&#39;attività **esperienza basata su codice** a un percorso, e
 
 1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
 
-1. Seleziona o crea la [configurazione esperienza basata su codice](code-based-configuration.md) da utilizzare.
+1. Seleziona o crea la configurazione di esperienza basata su codice da utilizzare. [Ulteriori informazioni](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >Se più azioni di esperienza basate su codice utilizzano la stessa configurazione di canale, il **[!UICONTROL Punteggio di priorità]** del percorso determina ciò che viene consegnato all&#39;utente finale se sono idonee per più di un&#39;azione. [Ulteriori informazioni sui punteggi di priorità](../conflict-prioritization/priority-scores.md)
 
 1. Seleziona il pulsante **[!UICONTROL Modifica contenuto]** e modifica il contenuto come desiderato utilizzando l&#39;editor di personalizzazione. [Ulteriori informazioni](#edit-code)
 
@@ -67,9 +71,13 @@ Per iniziare a creare la tua **esperienza basata su codice** tramite una campagn
 
 1. Seleziona l&#39;azione **[!UICONTROL Esperienza basata su codice]**.
 
-1. Seleziona o crea la configurazione dell&#39;esperienza basata su codice. [Ulteriori informazioni](code-based-configuration.md)
+1. Seleziona o crea la configurazione di esperienza basata su codice da utilizzare. [Ulteriori informazioni](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >Se hai più azioni di esperienza basate su codice che utilizzano la stessa configurazione di canale, il **[!UICONTROL Punteggio di priorità]** della campagna determina cosa viene consegnato all&#39;utente finale se questi è idoneo per più di un&#39;azione. [Ulteriori informazioni sui punteggi di priorità](../conflict-prioritization/priority-scores.md)
 
 1. Modifica i contenuti come desideri utilizzando l’editor di personalizzazione. [Ulteriori informazioni](#edit-code)
 
@@ -123,4 +131,4 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 
 Il video seguente mostra come creare una campagna di esperienza basata su codice, configurarne le proprietà, testarla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449461/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 53%
+source-wordcount: '766'
+ht-degree: 50%
 
 ---
 
@@ -31,7 +31,11 @@ Una superficie può essere vista come un contenitore a qualsiasi livello gerarch
 
 * Può anche estendersi a contenitori di contenuto specifici per scopi non di visualizzazione o visualizzazione astratta (ad esempio, BLOB JSON consegnati ai servizi).
 
-* Può anche essere una superficie con caratteri jolly che corrisponde a una varietà di definizioni di superficie client (ad esempio, la posizione di un’immagine principale su ogni pagina del sito web potrebbe tradursi in un URI di superficie come: web://mydomain.com/*#hero_image).
+* Può anche essere una superficie con caratteri jolly che corrisponde a una varietà di definizioni di superficie client (ad esempio, la posizione di un’immagine hero su ogni pagina del sito web potrebbe tradursi in un URI di superficie come: web://mydomain.com/*#hero_image).
+
+>[!NOTE]
+>
+>Quando più azioni di esperienza basate su codice vengono eseguite sulla stessa superficie, il **[!UICONTROL Punteggio di priorità]** della campagna o del percorso determina cosa viene consegnato all&#39;utente finale se sono idonee per più di un&#39;azione. [Ulteriori informazioni sui punteggi di priorità](../conflict-prioritization/priority-scores.md)
 
 ## Identificatore di superficie {#surface-uri}
 
@@ -55,7 +59,7 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
+| Desktop | `desktop://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner hero e così via. |
 | App TV | `tvcd://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un bundle di app per dispositivi collegati a smart TV o TV. |
 | Servizio | `service://servicename/#element` | Rappresenta un processo lato server o altra entità manuale. |
 | Chiosco | `kiosk://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
@@ -72,7 +76,7 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 
 In [!DNL Journey Optimizer], il canale di esperienza basato su codice supporta due tipi di implementazioni del cliente:
 
-* In base a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} per i tuoi siti Web o al [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} per le tue app mobili;
+* In base a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} per i tuoi siti Web o a [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} per le tue app mobili;
 * Lato server o ibrido tramite [API server AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it){target="_blank"}.
 
 >[!NOTE]
