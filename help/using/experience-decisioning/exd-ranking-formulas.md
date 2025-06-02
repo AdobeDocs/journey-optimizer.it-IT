@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 4%
 
 ---
@@ -42,11 +42,17 @@ Per creare una formula di classificazione, segui i passaggi seguenti.
 
    ![](assets/create-formula.png){width="80%"}
 
-1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione. Ogni volta che si fa riferimento a un punteggio di modello durante la definizione della formula seguente, verrà utilizzato il modello di IA selezionato.
+1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Quando si utilizza un modello di IA incorporato in una formula di classificazione, i dati non vengono rispecchiati nel rapporto [Tasso di conversione per il traffico basato su modello e il blocco](../reports/campaign-global-report-cja-code.md#conversion-rate).
+   >[I modelli di ottimizzazione personalizzati](../offers/ranking/personalized-optimization-model.md) che utilizzano metriche continue non sono supportati con il generatore di formule di IA.
+
+Ogni volta che si fa riferimento a un punteggio di modello durante la definizione della formula seguente, verrà utilizzato il modello di IA selezionato.
+
+    >[!CAUTION]
+    >
+    >Quando si utilizza un modello di IA incorporato in una formula di classificazione, i dati non vengono riflessi nel report [Tasso di conversione per il traffico basato su modelli e blocchi](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
 1. Definisci le condizioni che determineranno il punteggio di classificazione per gli elementi decisionali corrispondenti. È possibile:
 
