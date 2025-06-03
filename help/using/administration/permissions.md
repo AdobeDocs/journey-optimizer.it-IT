@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profiles, sandbox
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 6%
+source-wordcount: '726'
+ht-degree: 5%
 
 ---
 
-# Gestione di utenti e ruoli {#manage-permissions}
+# Gestire utenti e ruoli {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -26,13 +26,13 @@ ht-degree: 6%
 
 Con il prodotto [!DNL Journey Optimizer], puoi scegliere tra una serie di **[!UICONTROL Ruoli]** preesistenti, ciascuno con diversi livelli di autorizzazioni, da assegnare agli utenti. Per ulteriori informazioni sui **[!UICONTROL Ruoli]** disponibili, consulta questa [pagina](ootb-product-profiles.md).
 
-Quando un utente appartiene a un **[!UICONTROL Ruolo]**, gli viene concesso l&#39;accesso alle app e ai servizi Adobe contenuti nel prodotto.
+Quando un utente appartiene a un **[!UICONTROL Ruolo]**, ha accesso alle app e ai servizi Adobe contenuti nel prodotto.
 
-Se i ruoli preesistenti non soddisfano le esigenze specifiche della tua organizzazione, puoi anche creare **[!UICONTROL Ruoli]** personalizzati per ottimizzare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia. In questo modo, puoi garantire che ogni utente abbia accesso solo alle risorse e agli strumenti necessari per eseguire le proprie attività in modo efficiente.
+Se i ruoli preesistenti non soddisfano le esigenze specifiche della tua organizzazione, puoi anche creare **[!UICONTROL Ruoli]** personalizzati per ottimizzare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia. In questo modo, ogni utente avrà accesso solo alle risorse e agli strumenti necessari per eseguire le proprie attività in modo efficiente.
 
 ## Assegna un ruolo {#assigning-role}
 
-Puoi scegliere di assegnare agli utenti un **[!UICONTROL Ruolo]** predefinito o personalizzato.
+Puoi assegnare agli utenti un **[!UICONTROL Ruolo]** predefinito o personalizzato.
 
 L&#39;elenco di tutti i ruoli predefiniti con autorizzazioni assegnate è disponibile nella sezione [Ruoli incorporati](ootb-product-profiles.md).
 
@@ -46,17 +46,17 @@ Per assegnare un **[!UICONTROL ruolo]**:
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+1. Digita il nome o l&#39;indirizzo e-mail dell&#39;utente o selezionalo dall&#39;elenco, quindi fai clic su **[!UICONTROL Salva]**.
 
-   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=it).
+   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
-L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
+L’utente riceve un messaggio e-mail di reindirizzamento all’istanza.
 
-Per ulteriori informazioni sulla gestione degli utenti, consulta la [documentazione sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
+Per ulteriori informazioni sulla gestione degli utenti, consulta la [documentazione sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"}.
 
-Quando accedi all&#39;istanza, l&#39;utente visualizzerà una visualizzazione specifica a seconda delle autorizzazioni assegnate nel **[!UICONTROL Ruolo]**. Se l’utente non dispone del diritto di accesso a una funzione, viene visualizzato il seguente messaggio:
+Quando accedi all&#39;istanza, l&#39;utente visualizza una visualizzazione specifica in base alle autorizzazioni assegnate nel **[!UICONTROL Ruolo]**. Se l’utente non dispone del diritto di accesso a una funzione, viene visualizzato il seguente messaggio:
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
@@ -75,13 +75,13 @@ Se modifichi un **[!UICONTROL Ruolo]** predefinito o personalizzato, questo avr�
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. Il menu **[!UICONTROL Risorse]** visualizza l&#39;elenco delle risorse applicabili al prodotto **[!UICONTROL Experience Cloud - Applicazioni basate su piattaforma]**. Trascina e rilascia le risorse per assegnare le autorizzazioni.
+1. Il menu **[!UICONTROL Risorse]** visualizza l&#39;elenco delle risorse applicabili al prodotto **[!UICONTROL Experience Cloud - Applicazioni basate su piattaforma]**. Trascina le risorse per assegnare le autorizzazioni.
 
    Dal menu a discesa delle risorse **[!UICONTROL Percorsi]**, scegliamo qui l&#39;autorizzazione **[!UICONTROL percorso di pubblicazione]**.
 
    ![](assets/do-not-localize/access_control_14.png)
 
-1. Se necessario, in **[!UICONTROL Elementi di autorizzazione inclusi]**, fai clic sull&#39;icona X accanto a rimuovere le autorizzazioni o le risorse per il tuo ruolo.
+1. Se necessario, in **[!UICONTROL Elementi di autorizzazione inclusi]**, fare clic sull&#39;icona X per rimuovere le autorizzazioni o le risorse dal ruolo.
 
 1. Al termine, fare clic su **[!UICONTROL Salva]**.
 
@@ -91,9 +91,9 @@ Se necessario, puoi anche creare un nuovo ruolo con autorizzazioni specifiche. P
 
 [!DNL Journey Optimizer] ti consente di creare **[!UICONTROL Ruoli]** e di assegnare agli utenti un set di autorizzazioni e sandbox. Con **[!UICONTROL Ruoli]**, puoi autorizzare o negare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia.
 
-Per ulteriori informazioni su come creare e gestire le sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
 
-In questo esempio verrà creato un ruolo denominato **Percorsi di sola lettura** in cui verranno concessi diritti di sola lettura per la funzionalità di Percorso. Gli utenti potranno solo accedere ai percorsi e visualizzarli e non potranno accedere ad altre funzionalità come **[!DNL &#x200B; Decision management]** in [!DNL Journey Optimizer].
+In questo esempio viene creato un ruolo denominato **Percorsi di sola lettura**, in cui vengono concessi diritti di sola lettura per la funzionalità di Percorso. Gli utenti potranno solo accedere ai percorsi e visualizzarli e non potranno accedere ad altre funzionalità come **[!DNL Decision management]** in [!DNL Journey Optimizer].
 
 Per creare i **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 
@@ -125,4 +125,4 @@ Per creare i **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 
 Il tuo **[!UICONTROL Ruolo]** è stato creato e configurato. Ora devi assegnarla agli utenti.
 
-Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta la [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=it).
+Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta la [documentazione di Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=it){target="_blank"}.

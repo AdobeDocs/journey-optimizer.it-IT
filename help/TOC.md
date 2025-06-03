@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -768,12 +768,11 @@ ht-degree: 99%
       + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurare il connettore di origine](using/start/get-started-sources.md)
 + Controllo degli accessi {#access-control}
-   + Panoramica sul controllo degli accessi {#privacy}
-      + [Introduzione alla gestione degli utenti](using/administration/permissions-overview.md)
-      + [Ruoli incorporati](using/administration/ootb-product-profiles.md)
-      + [Autorizzazioni incorporate](using/administration/ootb-permissions.md)
-      + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
+   + [Introduzione al controllo degli accessi](using/administration/permissions-overview.md)
    + [Gestire utenti e ruoli](using/administration/permissions.md)
+   + [Ruoli incorporati](using/administration/ootb-product-profiles.md)
+   + [Autorizzazioni incorporate](using/administration/ootb-permissions.md)
+   + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
    + [Controllo degli accessi basato su attributi](using/administration/attribute-based-access.md)
    + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
 + Privacy {#privacy}
