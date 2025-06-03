@@ -8,17 +8,17 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '470'
+ht-degree: 100%
 
 ---
 
 # Accessibilità in Journey Optimizer{#accessibility}
 
-Per accessibilità si intende una serie di funzioni che rendono un prodotto software utilizzabile, con il minor sforzo possibile, per gli utenti con disabilità visive, uditive, cognitive, motorie o di altro tipo. Adobe è leader del settore nell’accessibilità e supporta la creazione di esperienze web eccellenti incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Ulteriori informazioni sull&#39;impegno di Adobe per l&#39;accessibilità sono disponibili nella [pagina sull&#39;accessibilità di Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+Per accessibilità si intende una serie di funzioni che rendono un prodotto software utilizzabile, con il minor sforzo possibile, per gli utenti con disabilità visive, uditive, cognitive, motorie o di altro tipo. Adobe è leader del settore nell’accessibilità e supporta la creazione di esperienze web eccellenti incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Per ulteriori informazioni sull’impegno di Adobe per l’accessibilità, visita la [pagina sull‘Accessibilità di Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Per raggiungere l’obiettivo di conformità all’accessibilità, [!DNL Journey Optimizer] segue le best practice riconosciute a livello internazionale nelle linee guida per l’accessibilità dei contenuti web (WCAG) 2.1 Livello A e livello AA. Ulteriori informazioni sono disponibili nell&#39;ultimo [rapporto sulla conformità per l&#39;accessibilità di Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
+Per raggiungere l’obiettivo di conformità all’accessibilità, [!DNL Journey Optimizer] segue le best practice riconosciute a livello internazionale nelle linee guida per l’accessibilità dei contenuti web (WCAG) 2.1 Livello A e livello AA. Per ulteriori informazioni, consulta l’ultimo [Rapporto sulla conformità all’accessibilità di Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
 
 Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate da Adobe Experience Platform:

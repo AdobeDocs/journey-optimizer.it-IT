@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per Real-time Customer Profile data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
+Prima di iniziare, è inoltre necessario essere a conoscenza dei [Guardrail per i dati del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
 
 ## Browser supportati {#browsers}
 
@@ -60,7 +60,7 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 
 ### Guardrail per il canale Web {#web-guardrails}
 
-Le [campagne web](../web/get-started-web.md) [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo ove fosse superato il numero contrattuale di profili coinvolgibili acquistati.
+Le [campagne web](../web/get-started-web.md) [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo qualora si superi il numero contrattuale di profili coinvolgibili acquistati.
 
 Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -74,7 +74,7 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 
 * Solo un componente **Modulo** può essere utilizzato in una singola pagina principale.
 * Il componente **Modulo** non può essere utilizzato nelle pagine secondarie.
-* Non puoi aggiungere una preintestazione a una pagina di destinazione.
+* Non puoi aggiungere una preintestazioni  a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
 ## Guardrail di sottodomini {#subdomain-guardrails}
@@ -212,10 +212,10 @@ All’attività del percorso [qualificazione del pubblico](../building-journeys/
 
 ### Editor espressioni {#expression-editor}
 
-Le seguenti protezioni si applicano all&#39;editor di espressioni [percorso](../building-journeys/expression/expressionadvanced.md):
+All’[editor di espressioni del percorso](../building-journeys/expression/expressionadvanced.md) si applicano i seguenti guardrail:
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. Devi creare un nuovo pubblico e utilizzare una condizione inaudience nel percorso.
-* Impossibile utilizzare gli attributi `timeSeriesEvents` nell&#39;editor espressioni. Per accedere agli eventi esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
+* Non è possibile utilizzare gli attributi `timeSeriesEvents` nell’editor di espressioni. Per accedere agli eventi di esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
 
 
 ### Attività in-app {#in-app-activity-limitations}

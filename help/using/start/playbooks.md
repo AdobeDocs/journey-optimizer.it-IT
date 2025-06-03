@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '499'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Per implementare il caso d’uso, puoi passare a ciascun oggetto per adattarlo a
 
 Inoltre, puoi importare le risorse dei playbook in altre sandbox. Questo ti consente di allineare le risorse generate alle risorse esistenti e di garantirne la compatibilità con i tuoi dati, nel caso in cui tu abbia già impostato schemi, campi e gruppi di campi personalizzati. Questi passaggi sono descritti nella documentazione dei playbook sui casi d’uso: [Pubblicare risorse generate dal playbook in altre sandbox](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=it){target="_blank"}.
 
-## Crea i tuoi playbook (versione beta privata) {#create}
+## Creare playbook personalizzati (Private Beta) {#create}
 
 >[!AVAILABILITY]
 >
->La creazione di playbook basati su casi d’uso è attualmente disponibile solo per un set di organizzazioni come versione beta privata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>La creazione di playbook sui casi d’uso è attualmente disponibile in versione Private Beta solo per un set di organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Oltre a sfruttare i playbook predefiniti, puoi creare e condividere i playbook personalizzati in Adobe Experience Platform.
 

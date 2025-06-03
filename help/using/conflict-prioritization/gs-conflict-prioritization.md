@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilità limitata"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 >
 >Le funzionalità relative ai conflitti e all’assegnazione delle priorità sono attualmente in disponibilità limitata per un gruppo selezionato della clientela. Tenere presente che queste funzioni verranno gradualmente implementate per più utenti in futuro. Se lo desideri, puoi rivolgerti al team del tuo account per l’inserimento nella lista d’attesa per queste funzioni.
 
-In Journey Optimizer, gestire il volume e la tempistica delle campagne e dei percorsi è essenziale per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità.
+In Journey Optimizer, è essenziale gestire il volume e la tempistica delle campagne e dei percorsi per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità.
 
-Questi strumenti sono disponibili per campagne e percorsi di pubblico unitari, di qualificazione del pubblico e di lettura.
+Questi strumenti sono disponibili per le campagne e per i percorsi unitari, di qualificazione del pubblico e di tipo “Leggi pubblico”.
 
-Sfruttando questi strumenti, puoi garantire attività di marketing più fluide e mirate, distribuendo il messaggio giusto al momento giusto ed evitando conflitti e sovraccarichi.
+Sfruttando questi strumenti, puoi garantire attività di marketing più fluide e mirate, consegnando il messaggio giusto al momento giusto ed evitando conflitti e sovraccarichi.
 
 ## Strumenti di gestione dei conflitti e assegnazione delle priorità {#tools}
 

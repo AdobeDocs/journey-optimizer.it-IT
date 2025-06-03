@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ora si integra con Adobe Express, consentendo di collegare facilmente le risorse creative con l’orchestrazione dei percorsi. Questa integrazione semplifica il processo di progettazione e distribuzione di contenuti personalizzati nelle campagne. </p>
-<p>Questa integrazione non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.</p>
+<p>Questa integrazione attualmente non può essere utilizzata con Healthcare Shield o Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/express.md">documentazione dettagliata</a>.</p>
 </td>
@@ -176,7 +176,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Per i percorsi pianificati giornalmente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione in batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attivazione dopo la valutazione del pubblico in batch è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Per i percorsi pianificati giornalmente, una nuova opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione in batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o vengano ignorati se non sono pronti. L’opzione Attivazione dopo la valutazione del pubblico in batch è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-audience.md#schedule">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -278,7 +278,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 **Usare i playbook sui casi d’uso**
 
-* **Creazione e condivisione di playbook (versione beta privata)** - È ora possibile creare, gestire e condividere playbook personalizzati per casi d&#39;uso. Questa funzionalità è attualmente disponibile solo per un set di organizzazioni come versione beta privata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/playbooks.md)
+* **Creazione e condivisione di playbook (Private Beta)**: ora puoi creare, gestire e condividere i playbook personalizzati per i casi d’uso. Questa funzionalità è attualmente disponibile in versione Private Beta solo per alcune organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/playbooks.md)
 
 **Navigazione**
 
@@ -384,7 +384,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>Personalizzare i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione</li>
 </ul>
 <p>
-<p>Questa integrazione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa integrazione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-dynamic.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -479,7 +479,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../test-app
 
 Ora è possibile utilizzare una quota limite giornaliera in percorsi e campagne con segmentazione in batch. Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi sono disponibili nella [guida di Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-Come promemoria, la quota limite giornaliera nei set di regole è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+Come promemoria, la quota limite giornaliera nei set di regole è disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Per ulteriori informazioni sulle regole di business, consulta la [documentazione dettagliata](../configuration/rule-sets.md).
 
@@ -587,7 +587,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, per disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/creating-a-segment-definition.md#flexible">documentazione dettagliata</a>.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Data di disponibilità: 28 gennaio 2025</p>
 </tr>
 </tbody>
