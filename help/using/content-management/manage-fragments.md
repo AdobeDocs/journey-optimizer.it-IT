@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: cb19145ad7b6e1ab99e05a5f3c6ab06f75713290
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1412'
 ht-degree: 19%
 
 ---
@@ -97,8 +97,11 @@ Per navigare facilmente nei frammenti, puoi utilizzare le cartelle per organizza
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuovi stati dei frammenti"
->abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. <br/>La pubblicazione richiede l’autorizzazione utente <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Pubblica frammento</a>."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Ulteriori informazioni sulle autorizzazioni per i frammenti di contenuto"
+>abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di campagna/percorso e pubblicarla."
+
+<!--
+>abstract="Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. If you make any change to these fragments, you need to publish them to make them **Live** and propagate the changes to the associated campaigns and journeys. You also need to create a new journey/campaign version and publish it. <br/>Publishing requires the <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish Fragment</a> user permission."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Learn more about content fragments permissions"-->
 
 I frammenti possono avere più stati:
 
