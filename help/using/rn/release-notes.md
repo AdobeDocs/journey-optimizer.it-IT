@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 31%
+ht-degree: 88%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 31%
 <table>
 <thead>
 <tr>
-<th><strong>Scalabilità del vincitore della sperimentazione</strong><br/></th>
+<th><strong>Scalare il vincitore della sperimentazione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Scalabilità del vincitore della sperimentazione consente di distribuire automaticamente o manualmente la variante vincente di un esperimento al pubblico completo. Questa funzione assicura che, una volta identificato un esecutore di alto livello, sia possibile massimizzarne la portata e l'efficacia senza una costante supervisione manuale.</p>
+<p>Scalabilità del vincitore della sperimentazione consente di distribuire automaticamente o manualmente la variante vincente di un esperimento al pubblico completo. Questa funzione assicura che, una volta identificata la variante dalle prestazioni migliori, sia possibile massimizzarne la portata e l’efficacia senza una costante supervisione manuale.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/content-experiment.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 2 giugno 2025</p></td>
 </tr>
@@ -53,13 +53,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Vista calendario per l’inventario di campagne e Percorsi</strong><br/></th>
+<th><strong>Vista calendario per l’inventario delle campagne e dei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Negli elenchi percorsi e campagne è ora disponibile una vista calendario. Ti consente di visualizzare tutti i percorsi e le attivazioni delle campagne nei rispettivi elenchi.</p>
+<p>Negli elenchi dei percorsi e delle campagne è ora disponibile una vista calendario. Consente di visualizzare tutte le attivazioni dei percorsi e delle campagne nei rispettivi elenchi.</p>
 <p>Questa modifica è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per richiedere l'accesso, usa <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">questo modulo</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
 <p>Per ulteriori informazioni, consulta le seguenti sezioni: <a href="../building-journeys/journey-ui.md">Sfoglia e filtra i tuoi percorsi</a>, <a href="../campaigns/modify-stop-campaign.md">Accedi alle campagne</a>.</p>
@@ -72,13 +72,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione del frammento di contenuto di Adobe Experience Manager</strong><br/></th>
+<th><strong>Integrazione dei frammenti di contenuto di Adobe Experience Manager</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con l’integrazione di Adobe Experience Manager e Adobe Journey Optimizer, ora puoi utilizzare senza problemi i Frammenti di contenuto Adobe Experience Manager all’interno dei contenuti Journey Optimizer. Questa connessione diretta semplifica l’accesso e l’utilizzo dei contenuti AEM direttamente in Journey Optimizer.</p>
+<p>Con l’integrazione di Adobe Experience Manager e Adobe Journey Optimizer, ora puoi utilizzare i frammenti di contenuto di Adobe Experience Manager all’interno dei contenuti Journey Optimizer. Questa connessione semplifica l’accesso e l’utilizzo dei contenuti AEM direttamente in Journey Optimizer.</p>
 <p>Precedentemente disponibile per un set limitato di organizzazioni (LA), questa funzionalità è ora disponibile in versione GA con i seguenti miglioramenti: ora puoi definire segnaposto e mappare valori di personalizzazione all’interno della firma del frammento utilizzando la modalità Editor.</p>
 <ul>
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li>
@@ -87,7 +87,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-fragments.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 23 maggio 2025</p>
+<p>Data di disponibilità: 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione con Dynamic Media Adobe Experience Manager</strong><br/></th>
+<th><strong>Integrazione di Adobe Experience Manager Dynamic Media</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -104,15 +104,15 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione consente di:</p>
 <ul>
-<li>Gestione centralizzata delle risorse con aggiornamenti in tempo reale.</li>
-<li>Modifica immediatamente le impostazioni delle risorse, ad esempio larghezza e altezza.</li>
-<li>Personalizza i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione.</li>
+<li>Gestire in maniera centralizzata le risorse con aggiornamenti in tempo reale</li>
+<li>Modificare all’istante le impostazioni delle risorse, ad esempio larghezza e altezza</li>
+<li>Personalizzare i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
+<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-dynamic.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 23 maggio 2025</p>
+<p>Data di disponibilità: 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -127,10 +127,10 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, consentendo che lo stesso profilo sia nello stesso percorso più volte alla volta. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio percorso attraverso il percorso.</p>
+<p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, affinché un profilo possa nello stesso percorso più volte allo stesso tempo. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio iter lungo il percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/supplemental-identifier.md">documentazione dettagliata</a>.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
-<p>Data di disponibilità: sabato 23 maggio 2025</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Data di disponibilità: 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -146,10 +146,10 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <!--p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p-->
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione a disponibilità generale, la funzione ora include il supporto per contenuti ed esperimenti di contenuti multilingue, consentendo di testare le varianti tra diversi linguaggi e trattamenti. Inoltre, ora supporta gli attributi contestuali (oltre agli attributi di profilo), consentendo test di contenuto ancora più dinamici e situazionali.</p>
+<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con la versione in disponibilità generale, la funzione ora include il supporto per contenuti multilingue ed esperimenti sui contenuti, consentendo di testare le varianti per diverse lingue e trattamenti. Inoltre, ora supporta gli attributi contestuali (oltre agli attributi di profilo), consentendo test di contenuto ancora più dinamici e situazionali.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 23 maggio 2025</p>
+<p>Data di disponibilità: 23 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -158,14 +158,14 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Sincronizzare la pianificazione del pubblico di lettura con il processo di segmentazione batch</strong><br/></th>
+<th><strong>Sincronizzare la pianificazione Leggi pubblico con il processo di segmentazione in batch</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare l’esecuzione di percorsi giornalieri dopo il completamento della segmentazione batch. Questa opzione è ora disponibile nei percorsi pianificati ogni giorno per tutti i clienti. Consente di definire per un intervallo di tempo massimo di 6 ore l’attesa dei dati del pubblico dai processi di segmentazione batch, garantendo che i percorsi vengano eseguiti con i dati più aggiornati oppure vengano saltati se non sono pronti.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
+<p>Ora puoi attivare esecuzioni giornaliere di un percorso dopo il completamento della segmentazione in batch. Questa opzione è ora disponibile nei percorsi con pianificazione giornaliera per tutta la clientela. L’opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione in batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o che vengano ignorati se non sono pronti.</p>
+<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-audience.md#schedule">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 20 maggio 2025</p>
@@ -183,9 +183,9 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora consente di configurare altri provider SMS oltre alle opzioni predefinite: Sinch, Infobip e Twilio. Con la configurazione del provider SMS personalizzato, puoi integrare direttamente provider di terze parti, sfruttare la personalizzazione avanzata del payload per la messaggistica dinamica e gestire le preferenze di consenso (opt-in/opt-out) per garantire la conformità.</p>
+<p>Journey Optimizer ora consente di configurare altri provider SMS oltre alle opzioni predefinite: Sinch, Infobip e Twilio. Con la configurazione del provider SMS personalizzato, puoi integrare direttamente provider di terze parti, sfruttare la personalizzazione avanzata del payload per la messaggistica dinamica e gestire le preferenze di consenso (consenso/rinuncia) per garantire la conformità.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../sms/sms-configuration-custom.md">documentazione dettagliata</a>.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
+<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Data di disponibilità: mercoledì 20 maggio 2025</p>
 </td>
 </td>
@@ -196,17 +196,17 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Temi nel Designer e-mail</strong><br/></th>
+<th><strong>Temi in E-mail designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi applicare rapidamente i temi approvati in precedenza per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e produrre in modo indipendente e-mail di alta qualità, riducendo al contempo la dipendenza dai team di progettazione.</p>
-<p>Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
+<p>Ora puoi applicare rapidamente temi preapprovati per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e creare e-mail di alta qualità in modo indipendente, riducendo al contempo la dipendenza dai team di design.</p>
+<p>Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 14 maggio 2025</p>
+<p>Data di disponibilità: 14 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -215,16 +215,16 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Decisioning - Nuovo generatore di formule di IA</strong><br/></th>
+<th><strong>Decisioning: nuovo generatore di formule basato sull’IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare formule di classificazione decisionali specifiche definendo e combinando criteri da una nuova interfaccia migliorata. Invece di affidarti solo a una priorità di offerta statica, puoi definire formule di classificazione personalizzate che combinano punteggi di modelli AI, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali tramite un’interfaccia guidata.</p>
+<p>Ora puoi creare formule di classificazione di decisioning specifiche definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di classificazione personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/exd-ranking-formulas.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 14 maggio 2025</p>
+<p>Data di disponibilità: 14 maggio 2025</p>
 </td>
 </tr>
 </tbody>
@@ -256,26 +256,26 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 ### Miglioramenti {#25-05-improv}
 
-I miglioramenti apportati a questa versione sono elencati di seguito.
+Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 
 * **Supporto di nuovi oggetti Campaign per la copia sandbox** - Data di disponibilità: 15 maggio 2025
 
-  Quando si copiano campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri di decisione ed elementi. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
+  Quando si copiano le campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri ed elementi decisionali. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
 
   <!--* **Decisioning** - Availability date: May 16, 2025
 
     Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
-* **Cartelle per le pagine di destinazione** - Data di disponibilità: 9 maggio 2025
+* **Cartelle per pagine di destinazione** - Data di disponibilità: 9 maggio 2025
 
   Per gestire facilmente le pagine di destinazione, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. [Ulteriori informazioni](../landing-pages/manage-lp.md)
 
-* **Direct mailing: supporto della chiave SSH per le connessioni SFTP** - Data di disponibilità: 5 maggio 2025
+* **Direct mail: supporto per chiave SSH per connessioni SFTP** - Data di disponibilità: 5 maggio 2025
 
-  Nella configurazione di indirizzamento dei file Direct Mail, oltre a SFTP esistente con tipo di autenticazione tramite password, ora puoi esportare il file di direct mailing in un server SFTP con autenticazione tramite chiave SSH. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
+  Nella configurazione di indirizzamento dei file Direct Mail, oltre all’opzione SFTP esistente con tipo di autenticazione tramite password, ora puoi esportare il file direct mail in un server SFTP con autenticazione tramite chiave SSH. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
 
-* **Attivazione pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
+* **Attivazione della modalità Pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
 
   All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando è abilitato, gli attributi contestuali e di profilo vengono visualizzati come pillole, migliorando la leggibilità del codice. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#options)
 
@@ -285,15 +285,15 @@ I miglioramenti apportati a questa versione sono elencati di seguito.
 
 * Supporto di &quot;Reindirizzamento all&#39;URL&quot; di **nel canale Web** - Data di disponibilità: 20 maggio 2025
 
-  Il canale web Journey Optimizer ora consente di reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nell’editor visivo. Questa funzionalità può essere utilizzata per eseguire esperimenti confrontando due pagine completamente diverse, anziché modificare solo alcuni elementi all’interno di una pagina. [Ulteriori informazioni](../web/create-web.md#web-redirect-to-url)
+  Il canale web in Journey Optimizer ora consente di reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nell’editor visivo. Questa funzionalità può essere utilizzata per eseguire esperimenti confrontando due pagine completamente diverse, anziché modificare solo alcuni elementi all’interno di una pagina. [Ulteriori informazioni](../web/create-web.md#web-redirect-to-url)
 
 * **Cartelle per modelli e frammenti** - Data di disponibilità: 20 maggio 2025
 
-  Le cartelle consentono di organizzare gli oggetti in modo più semplice ed efficace in una gerarchia strutturata. Precedentemente disponibili per alcune organizzazioni (disponibilità limitata), le cartelle sono ora disponibili per tutti gli utenti (disponibilità generale) per gestire i modelli di contenuto e i frammenti. Ulteriori informazioni sono disponibili nelle sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
+  Le cartelle consentono di organizzare gli oggetti in modo più semplice ed efficace in una gerarchia strutturata. Precedentemente disponibili per alcune organizzazioni (disponibilità limitata), le cartelle sono ora disponibili per tutti gli utenti (disponibilità generale) per gestire i modelli di contenuto e i frammenti. Per ulteriori informazioni, consulta le sezioni [Modelli di contenuto](../content-management/access-content-templates.md#folders) e [Frammenti](../content-management/manage-fragments.md#folders).
 
 * **Tracciamento dei clic nei modelli e-mail** - Data di disponibilità: 20 maggio 2025
 
-  Il monitoraggio dei clic sugli elementi `<area>` nelle mappe immagine nel contenuto dell&#39;e-mail è ora supportato in modo nativo in [!DNL Journey Optimizer]. In questo modo, le aree della mappa immagine riceveranno gli stessi parametri di wrapping, tracciamento e aggiunta dei collegamenti ipertestuali standard. [Ulteriori informazioni sul tracciamento dei messaggi](../email/message-tracking.md#manage-tracking)
+  Il tracciamento dei clic sugli elementi `<area>` nelle mappe immagine nel contenuto dell’e-mail è ora supportato in modo nativo in [!DNL Journey Optimizer]. In questo modo, le aree della mappa immagine riceveranno gli stessi wrapper di tracciamento, dati di tracciamento e parametri aggiunti, al pari dei collegamenti ipertestuali standard. [Ulteriori informazioni sul tracciamento dei messaggi](../email/message-tracking.md#manage-tracking)
 
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
@@ -302,7 +302,7 @@ I miglioramenti apportati a questa versione sono elencati di seguito.
 
 * **Barra a destra nell&#39;elenco delle campagne** - Data di disponibilità: 20 maggio 2025
 
-  Nell’elenco campagne, selezionando una campagna ora viene aperto un riquadro che ne visualizza i dettagli.
+  Nell’elenco delle campagne, quando si seleziona una campagna ora viene aperto un riquadro che ne visualizza i dettagli.
 
 <!--* **Form fields in code-based experience content**
 

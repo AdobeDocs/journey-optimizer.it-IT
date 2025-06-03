@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 95%
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
    + Gestire i percorsi{#manage-journey}
       + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
-      + [Ingresso profilo in percorsi](using/building-journeys/entry-management.md)
+      + [Ingresso dei profili nei percorsi](using/building-journeys/entry-management.md)
       + [Identificatore supplementare nei percorsi attivati da eventi](using/building-journeys/supplemental-identifier.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
       + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
@@ -201,10 +201,10 @@ ht-degree: 95%
       + [Attendi](using/ms/activities/wait.md)
    + Messaggi {#messages}
       + [Azioni del canale](using/ms/activities/channels.md)
-      + [Personalizza il contenuto](using/ms/ms-personalization.md)
+      + [Personalizzare il contenuto](using/ms/ms-personalization.md)
       + [Testare e convalidare i messaggi](using/ms/ms-proofs.md)
    + Reporting e monitoraggio {#report}
-      + [Generazione rapporti](using/ms/reporting-campaigns.md)
+      + [Generazione dei rapporti](using/ms/reporting-campaigns.md)
 + Campagne {#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -220,7 +220,7 @@ ht-degree: 95%
    + Anteprima e test del contenuto {#preview-test}
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
       + [Selezionare i profili di test](using/content-management/test-profiles.md)
-      + [Anteprima tramite profili di test](using/content-management/preview.md)
+      + [Visualizzare l’anteprima utilizzando i profili di test](using/content-management/preview.md)
       + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
       + [Simulare varianti di contenuto](using/test-approve/simulate-sample-input.md)
@@ -242,7 +242,7 @@ ht-degree: 95%
             + [Importare i contenuti](using/email/existing-content.md)
             + [Creare il codice del contenuto](using/email/code-content.md)
             + [Utilizzare modelli di e-mail](using/email/use-email-templates.md)
-            + [Sfruttare i temi e-mail](using/email/apply-email-themes.md)
+            + [Sfruttare i temi per e-mail](using/email/apply-email-themes.md)
          + Progettare i contenuti {#add-content}
             + [Utilizzare i componenti di contenuto](using/email/content-components.md)
             + [Sfruttare i frammenti visivi](using/email/use-visual-fragments.md)
@@ -316,7 +316,7 @@ ht-degree: 95%
          + [Guardrail e prerequisiti](using/code-based/code-based-prerequisites.md)
          + [Superfici di esperienza basate su codice](using/code-based/code-based-surface.md)
          + [Esempi di metodi di implementazione](using/code-based/code-based-implementation-samples.md)
-         + [Decisioning nelle implementazioni di esperienze basate su codice](using/code-based/code-based-decisioning-implementations.md)
+         + [Decisioni nelle implementazioni di esperienze basate su codice](using/code-based/code-based-decisioning-implementations.md)
          + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
       + Creare esperienze basate su codice {#create-code-based-experiences}
          + [Creare e comporre esperienze basate su codice](using/code-based/create-code-based.md)
@@ -396,7 +396,7 @@ ht-degree: 95%
       + [Creare regole condizionali](using/personalization/create-conditions.md)
       + [Creare contenuti dinamici](using/personalization/dynamic-content.md)
    + Casi d’uso per più soluzioni {#combine}
-      + [Combinare soluzioni per gestire i contenuti](using/integrations/content-integrations.md)
+      + [Combinare più soluzioni per gestire i contenuti](using/integrations/content-integrations.md)
       + [Utilizzare Experience Manager Assets](using/integrations/assets.md)
       + [Utilizzare Adobe Stock](using/integrations/stock.md)
       + [Utilizzare Adobe Express](using/integrations/express.md)
@@ -544,7 +544,7 @@ ht-degree: 95%
       + Configurare la selezione di elementi {#selection}
          + [Creare regole di decisione](using/experience-decisioning/rules.md)
          + [Creare metodi di classificazione](using/experience-decisioning/ranking.md)
-         + [Utilizzare il generatore di formule di IA](using/experience-decisioning/exd-ranking-formulas.md)
+         + [Utilizzare il generatore di formule basato sull’IA](using/experience-decisioning/exd-ranking-formulas.md)
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
       + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
       + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
