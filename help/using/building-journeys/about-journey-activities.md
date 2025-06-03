@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -22,43 +22,43 @@ Combina le diverse attività relative a eventi, orchestrazioni e azioni per crea
 
 ## Attività eventi {#event-activities}
 
-I percorsi personalizzati vengono attivati da eventi, ad esempio un acquisto online. Una volta che un profilo entra in un percorso, si sposta come un individuo, e non ci sono due individui che si muovono lungo la stessa velocità o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso viene attivato alla ricezione dell’evento. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
+I percorsi personalizzati vengono attivati da eventi, ad esempio un acquisto online. Una volta che un profilo entra in un percorso, si sposta come un individuo, e non ci sono due individui che si muovono lungo la stessa velocità o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso si attiva quando l’evento viene ricevuto. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
 
-Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di eventi:
+Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di evento:
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
 * [Qualificazione del pubblico](../building-journeys/audience-qualification-events.md)
 
-![](assets/journey43.png)
+![Tavolozza delle attività degli eventi nella finestra di progettazione del percorso](assets/journey43.png)
 
 Per avviare il percorso, trascina e rilascia un’attività evento. Puoi anche fare doppio clic su di esso.
 
-![](assets/journey44.png)
+![Trascina l&#39;attività evento nella finestra di progettazione del percorso](assets/journey44.png)
 
 ## Attività di orchestrazione {#orchestration-activities}
 
-Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso. Può essere se la persona ha un caso di supporto aperto o no, le previsioni del tempo nella loro posizione attuale, se hanno completato un acquisto o no, o hanno raggiunto 10 000 punti fedeltà.
+Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso. Queste condizioni possono includere se la persona ha un caso di supporto aperto, le previsioni del tempo nella posizione corrente, se ha completato un acquisto o se ha raggiunto 10.000 punti fedeltà.
 
 Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti attività di orchestrazione:
 
 * [Condizione](../building-journeys/condition-activity.md)
-* [Attendere](../building-journeys/wait-activity.md)
+* [Attendi](../building-journeys/wait-activity.md)
 * [Read Audience](../building-journeys/read-audience.md)
 
-![](assets/journey49.png)
+![Tavolozza delle attività di orchestrazione nella finestra di progettazione del percorso](assets/journey49.png)
 
 ## Attività azione {#action-activities}
 
-Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta.
+Le azioni sono ciò che si desidera che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo del percorso che il cliente sperimenta.
 
 Dalla palette, sul lato sinistro della schermata, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la categoria **[!UICONTROL Azioni]**. Sono disponibili le seguenti attività di azione:
 
-* [Azioni canale incorporate](../building-journeys/journeys-message.md)
+* [Azioni del canale incorporate](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
 * [Salta](../building-journeys/jump.md)
 
-![](assets/journey58.png)
+![Tavolozza delle attività di azione nella finestra di progettazione del percorso](assets/journey58.png)
 
 Queste attività rappresentano i diversi canali di comunicazione disponibili. Puoi combinarle per creare uno scenario cross-channel.
 
@@ -66,7 +66,7 @@ Queste attività rappresentano i diversi canali di comunicazione disponibili. Pu
 
 Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
-* Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata specifica. [Ulteriori informazioni](../action/action.md)
+* Se per l’invio di messaggi utilizzi un sistema di terze parti, puoi creare un’azione personalizzata specifica. [Ulteriori informazioni](../action/action.md)
 
 * Se utilizzi Campaign e Journey Optimizer, consulta le sezioni seguenti:
 
@@ -77,7 +77,7 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 ### Aggiungi un’etichetta
 
-La maggior parte delle attività ti consentono di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e semplifica la lettura dei rapporti. È inoltre possibile aggiungere una **[!UICONTROL Descrizione]** facoltativa.
+La maggior parte delle attività ti consentono di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e facilita la lettura dei rapporti. È inoltre possibile aggiungere una **[!UICONTROL Descrizione]** facoltativa.
 
 ![](assets/journey-action-label.png)
 
@@ -91,7 +91,7 @@ La maggior parte delle attività visualizza una serie di parametri avanzati e/o 
 
 ![](assets/journey-advanced-parameters.png)
 
-Per una migliore leggibilità, è possibile nascondere questi parametri utilizzando il pulsante **[!UICONTROL Nascondi campi di sola lettura]**.
+Per una migliore leggibilità, nascondi questi parametri utilizzando il pulsante **[!UICONTROL Nascondi campi di sola lettura]**.
 
 ![](assets/journey-hide-read-only-fields.png)
 
