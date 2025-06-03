@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 54%
 
 ---
 
@@ -29,23 +29,23 @@ L’area di lavoro **Schemi** nell’interfaccia utente [!DNL Adobe Journey Opti
 
 ![](assets/schemas-home.png)
 
-Scopri come utilizzare l’interfaccia utente Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it){target="_blank"}
+Scopri come utilizzare l&#39;interfaccia utente Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it){target="_blank"}
 
-La documentazione dettagliata per creare uno schema utilizzando l’editor di schemi è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
+La documentazione dettagliata per la creazione di uno schema tramite l&#39;Editor di schema è disponibile in [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
 
-Consulta il [dizionario degli schemi Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"} per visualizzare l’elenco completo dei campi e degli attributi per ogni schema.
+Consulta il [dizionario schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"} per visualizzare l&#39;elenco completo dei campi e degli attributi per ogni schema.
 
 
 ## Video introduttivo{#video-schema}
 
 Scopri come creare uno schema, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
 >* [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}
->* [Procedure consigliate per la modellazione dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=it){target="_blank"}
->* [Creare uno schema tramite l’API del registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=it){target="_blank"}
->* [Definire una relazione tra due schemi utilizzando l’Editor schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=it){target="_blank"}
+>* [Best practice per la modellazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=it){target="_blank"}
+>* [Creare uno schema utilizzando l&#39;API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=it){target="_blank"}
+>* [Definire una relazione tra due schemi utilizzando l&#39;Editor schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=it){target="_blank"}
