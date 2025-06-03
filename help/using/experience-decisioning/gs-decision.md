@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 20%
 
 ---
 
-# Introduzione alle funzionalità decisionali di [!DNL Journey Optimizer] {#gs-decision}
+# Introduzione alle funzionalità decisionali in [!DNL Journey Optimizer] {#gs-decision}
 
 Le funzionalità decisionali di [!DNL Journey Optimizer] ti consentono di offrire ai tuoi clienti le migliori offerte ed esperienze personalizzate in tutti i punti di contatto, proprio nel momento giusto. Queste funzionalità semplificano la personalizzazione attraverso un catalogo centralizzato di offerte di marketing e un motore decisionale avanzato, che utilizza regole e criteri di classificazione per fornire i contenuti più rilevanti per ogni individuo.
 
