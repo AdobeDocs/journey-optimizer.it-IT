@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: azioni in entrata, risoluzione dei problemi, percorso, debug, supporto autonomo, controllo, errori
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
-source-git-commit: 339b9381d4949b4bb7446308490ed6e972130fb6
+source-git-commit: 3376b4336fa8bd2691b788995be94f153e9a44bb
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,19 @@ Questa guida fornisce una procedura dettagliata per eseguire il debug dei proble
 
 * A profile enters the inbound step, but the user does not receive the expected inbound content.
 * A user continues to receive inbound content even after the profile exits the journey.
-
-## Benefits {#benefits}
-
-- Faster issue resolution through self-help.
-- Reduced dependency on support teams.
-- Improved understanding of inbound action functionality.
-- Enhanced customer experience and confidence in using AJO.-->
+-->
 
 ## Prerequisiti {#prerequisites}
 
 Prima di iniziare la risoluzione dei problemi, verificare quanto segue:
 
-1. Configura una sessione **Assurance**. Scopri come fare nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configura una sessione **Assurance**. Scopri come fare nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Passa al percorso contenente l’azione in entrata per recuperare il nome del percorso e l’ID della versione.
 
    >[!NOTE]
    >
-   >L&#39;ID versione percorso si trova nell&#39;URL dopo *percorso/* (ad esempio: *86232fb1-2932-4036-8198-55dfec606fd7*).
+   >L&#39;ID versione percorso si trova nell&#39;URL dopo &#39;percorso/&#39; (ad esempio: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
    ![](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
@@ -52,7 +46,7 @@ Prima di iniziare la risoluzione dei problemi, verificare quanto segue:
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Ottieni lo spazio dei nomi e l’ID del profilo per identificare il profilo che incontra problemi. In base alla configurazione, ad esempio, lo spazio dei nomi può essere ECID, e-mail o ID cliente. Scopri come cercare un profilo nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Ottieni lo spazio dei nomi e l’ID del profilo per identificare il profilo che incontra problemi. In base alla configurazione, ad esempio, lo spazio dei nomi può essere ECID, e-mail o ID cliente. Scopri come cercare un profilo nella [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Scenario 1: l’utente non ha ricevuto il contenuto in entrata {#scenario-1}
 
@@ -67,7 +61,7 @@ In questo scenario, un profilo ha inserito l’azione in entrata nel percorso, m
 
 2. Identità &#39;joai&#39; **definita nelle identità della piattaforma**
 
-   L&#39;azione in entrata utilizza lo spazio dei nomi **&#39;joai&#39;** nel profilo `segmentMembership` per attivare il profilo per il passaggio in entrata. Assicurati che sia stato definito in Platform Identities per la sandbox. Ulteriori informazioni su [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home){target="_blank"}
+   L&#39;azione in entrata utilizza lo spazio dei nomi **joai** nel profilo `segmentMembership` per attivare il profilo per il passaggio in entrata. Assicurati che sia stato definito in Platform Identities per la sandbox. Ulteriori informazioni su [Servizio Experience Platform Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### Passaggi del debug {#debugging-steps}
 
@@ -83,7 +77,7 @@ Per prima cosa, controlla se il dispositivo/client riceve il contenuto previsto.
 
 >[!TAB Canale in-app]
 
-1. Vai alla sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e seleziona la sezione **[!UICONTROL Messaggistica in-app]** dal pannello a sinistra.
+1. Vai alla sessione [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e seleziona la sezione **[!UICONTROL Messaggistica in-app]** dal pannello a sinistra.
 
 1. Nella scheda **[!UICONTROL Messaggi sul dispositivo]**, fare clic sull&#39;elenco a discesa **[!UICONTROL Messaggi]**.
 
@@ -91,25 +85,25 @@ Per prima cosa, controlla se il dispositivo/client riceve il contenuto previsto.
 
 1. Cerca un messaggio con il nome del percorso seguito da &quot;- Messaggio in-app&quot;. Se presente, significa che il messaggio in-app è presente sul dispositivo/client e il problema potrebbe essere correlato al trigger in-app.
 
-1. Se il messaggio non viene trovato, significa che il dispositivo o il client non ha ricevuto il messaggio in-app. Passare al [passaggio successivo](#step-2) per ulteriori operazioni di debug.
+1. Se il messaggio non viene trovato, significa che il dispositivo o il client non ha ricevuto il messaggio in-app. <!--Go to the [next step](#step-2) for further debugging.-->
 
 >[!TAB Canale web]
 
-Visita la pagina e controlla la scheda di rete oppure controlla il payload di risposta di Edge nella sezione **[!UICONTROL Edge Delivery]** della sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Visita la pagina e controlla la scheda di rete oppure controlla il payload di risposta di Edge nella sezione **[!UICONTROL Edge Delivery]** della sessione [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!TAB Canale esperienza basato su codice]
 
-Esegui una richiesta curl utilizzando [API di Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e controlla il payload di risposta di Edge nella sezione **[!UICONTROL Edge Delivery]** della sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Esegui una richiesta curl utilizzando [API di Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) e controlla il payload di risposta di Edge nella sezione **[!UICONTROL Edge Delivery]** della sessione [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
-#### Passaggio 2: verifica se Edge Network restituisce il contenuto {#step-2}
+### Passaggio 2: verifica se Edge Network restituisce il contenuto {#step-2}
 
 Questo passaggio consente di assicurarsi che Edge Network restituisca il contenuto in entrata previsto da riprodurre sul dispositivo/client.
 
 Quando un profilo entra in un&#39;azione in entrata in un percorso, viene automaticamente qualificato in un segmento di pubblico speciale (nello spazio dei nomi **joai**) corrispondente all&#39;azione del percorso in entrata.
 
-Quando un client invia una richiesta all&#39;Edge Network per un profilo e una superficie specifici, il profilo è idoneo a ricevere contenuto per le azioni del percorso in entrata che eseguono il targeting di tale superficie solo se il profilo è attualmente membro del segmento **joai** corrispondente.
+Quando un client effettua una richiesta all&#39;Edge Network per un profilo e una superficie specifici, il profilo è idoneo a ricevere il contenuto per le azioni del percorso in entrata che hanno come destinazione tale superficie, solo se il profilo è attualmente membro del segmento **joai** corrispondente.
 
 Per eseguire il debug del comportamento di Edge Network, segui i passaggi seguenti.
 
@@ -125,7 +119,7 @@ Per eseguire il debug del comportamento di Edge Network, segui i passaggi seguen
 
    >[!NOTE]
    >
-   >Per trovare l&#39;attività Edge nella sessione **Assurance**, cerca l&#39;attività in cui **[!UICONTROL audienceNamespace]** è **joai** e **[!UICONTROL audienceSegmentId]** è `<JourneyVersionID>_<JourneyAction ID>` (ad esempio: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
+   >Per trovare l&#39;attività Edge nella sessione **Assurance**, cerca l&#39;attività in cui **[!UICONTROL audienceNamespace]** è **joai** e **[!UICONTROL audienceSegmentId]** è &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> (ad esempio: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
    ![](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
@@ -133,9 +127,9 @@ Per eseguire il debug del comportamento di Edge Network, segui i passaggi seguen
 
    Puoi verificare se il segmento **joai** è presente nella vista del profilo del server di consegna Edge Network aprendo l&#39;elemento **segmentsMap** della sezione Profile e cercando la presenza dell&#39;ID del segmento **joai**.
 
-1. Se il server di consegna Edge Network non visualizza il profilo come nel segmento **joai** pertinente, passa al passaggio successivo.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Se il server di consegna Edge Network non visualizza il profilo come nel segmento **joai** pertinente, passa al passaggio successivo.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-#### Passaggio 3: verifica se l’iscrizione al pubblico Joya è stata propagata ad Edge Network {#step-3}
+### Passaggio 3: verifica se l’iscrizione al pubblico &quot;joai&quot; è stata propagata ad Edge Network {#step-3}
 
 Questo passaggio consente di verificare che il profilo Edge sia stato aggiornato correttamente quando il profilo è entrato nell&#39;azione del percorso in entrata e che sia stato qualificato nel segmento **joai** corrispondente.
 
@@ -150,27 +144,26 @@ Per verificare la presenza del segmento **joai** nell&#39;attributo `segmentMemb
 1. Passa al menu **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** nel riquadro di navigazione sinistro di [!DNL Journey Optimizer] e individua il profilo utilizzando lo spazio dei nomi e l&#39;ID. Ulteriori informazioni su [Profili cliente in tempo reale](../audience/get-started-profiles.md)
 
 1. Selezionare la scheda **[!UICONTROL Attributi]** e scegliere la visualizzazione **[!UICONTROL Edge]**.
-   <!--cannot see Hub/Edge wiews for the profile-->
 
 1. Fare clic su **[!UICONTROL Visualizza JSON]** per aprire la visualizzazione JSON per il profilo.
 
    ![](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. Vai all&#39;attributo **[!UICONTROL segmentMembership]** e controlla se l&#39;ID segmento `<JourneyVersionID>_<ActionID>` è presente nello spazio dei nomi **joai** e se è nello stato **[!UICONTROL realized]** <!--or existing?-->.
+1. Vai all&#39;attributo `segmentMembership` e controlla se l&#39;ID segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> è presente nello spazio dei nomi **joai** e se in **[!UICONTROL realized]** <!--or existing?-->status.
 
    ![](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
-   * Se è presente, significa che il segmento **joai** corrispondente all&#39;azione del percorso in entrata è stato propagato correttamente al profilo Edge.
+   * Se presente, il segmento **joai** corrispondente all&#39;azione del percorso in entrata è stato propagato correttamente al profilo Edge.
 
-   * Se non viene visualizzata nella vista del profilo del server di consegna Edge Network, potrebbe esserci un problema con il modo in cui il server di consegna carica il profilo Edge.
+   * Se non viene visualizzata nella vista del profilo del server di consegna Edge Network, potrebbe essersi verificato un problema con il modo in cui il server di consegna carica il profilo Edge.
 
-1. Se l&#39;ID segmento **joai** non è presente o se si trova nello stato **[!UICONTROL exited]**, significa che non è stato (ancora) propagato ad Edge.
+1. Se l&#39;ID segmento **joai** non è presente o è nello stato **[!UICONTROL exited]**, significa che non è stato (ancora) propagato ad Edge.
 
    Attendere 15-30 minuti per la propagazione dei valori `segmentMembership` dall&#39;hub ad Edge. Se non è ancora presente, andare al passaggio successivo.
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-#### Passaggio 4: verifica se l’iscrizione al pubblico JAI è presente nel profilo sull’hub {#step-4}
+### Passaggio 4: verifica se l’iscrizione al pubblico &quot;joai&quot; è presente nel profilo sull’hub {#step-4}
 
 Questo passaggio consente di verificare che il profilo Hub sia stato aggiornato correttamente quando il profilo è entrato nell&#39;azione del percorso in entrata e che sia stato qualificato nel segmento **joai** corrispondente.
 
@@ -182,21 +175,21 @@ Per verificare la presenza del segmento **joai** nell&#39;attributo `segmentMemb
 
 1. Passa al menu **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** nel riquadro di navigazione sinistro di [!DNL Journey Optimizer] e individua il profilo utilizzando lo spazio dei nomi e l&#39;ID. Ulteriori informazioni su [Profili cliente in tempo reale](../audience/get-started-profiles.md)
 
-1. Seleziona la scheda **[!UICONTROL Attributi]** e scegli la visualizzazione **[!UICONTROL Hub]**. <!--cannot see Hub/Edge wiews for the profile-->
+1. Seleziona la scheda **[!UICONTROL Attributi]** e scegli la visualizzazione **[!UICONTROL Hub]**.
 
 1. Fare clic su **[!UICONTROL Visualizza JSON]** per aprire la visualizzazione JSON per il profilo.
 
-1. Vai all&#39;attributo **[!UICONTROL segmentMembership]** e controlla se l&#39;ID segmento `<JourneyVersionID>_<ActionID>` è presente nello spazio dei nomi **joai** e se è nello stato **[!UICONTROL realized]** <!--or existing?-->.
+1. Vai all&#39;attributo **[!UICONTROL segmentMembership]** e controlla se l&#39;ID segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> è presente nello spazio dei nomi **joai** e se è nello stato **[!UICONTROL realized]** <!--or existing?-->.
 
-   * Se presente, significa che il segmento **joai** corrispondente all&#39;azione del percorso in entrata è stato correttamente acquisito nel profilo Hub.
+   * Se presente, il segmento **joai** corrispondente all&#39;azione del percorso in entrata è stato correttamente acquisito nel profilo Hub.
 
    * Se non viene trovato nel profilo di Edge dopo almeno 30 minuti, potrebbe essersi verificato un problema con il sistema di proiezione di Edge.
 
-1. Se l&#39;ID del segmento **joai** non è presente o se si trova nello stato **[!UICONTROL exited]**, significa che il profilo non è stato (ancora) qualificato correttamente nel segmento di pubblico **joai** speciale al momento dell&#39;immissione nell&#39;azione del percorso in entrata corrispondente.
+1. Se l&#39;ID del segmento **joai** non è presente o è nello stato **[!UICONTROL exited]**, significa che il profilo non è stato (ancora) qualificato correttamente nel segmento di pubblico **joai** speciale al momento dell&#39;immissione nell&#39;azione del percorso in entrata corrispondente.
 
    Attendere 15-30 minuti per l&#39;acquisizione dei valori `segmentMembership` nel profilo sull&#39;hub. Se non è ancora presente, andare al passaggio successivo.
 
-#### Passaggio 5: se il client/dispositivo non riceve ancora il contenuto previsto {#step-5}
+### Passaggio 5: se il client/dispositivo non riceve ancora il contenuto previsto {#step-5}
 
 Se hai eseguito tutti i passaggi precedenti e non vedi il comportamento previsto dopo 30-60 minuti di attesa che l’iscrizione al segmento si propaghi ad Edge Network, contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe.
 
@@ -210,37 +203,20 @@ Includi tutti i dettagli possibili dai passaggi di debug, ad esempio:
 * la vista JSON del profilo dell’hub;
 * ecc.
 
-## Scenario 2: l’utente riceve ancora il contenuto in entrata anche dopo che il profilo è uscito dal percorso {#scenario-2}
+## Scenario 2: l’utente sta ancora ricevendo il contenuto in entrata {#scenario-2}
 
-Questo scenario è l&#39;inverso dello [scenario 1](#scenario-1). Quando un profilo esce da un percorso, non dovrebbe più essere idoneo per i segmenti di pubblico **joai** corrispondenti alle azioni in entrata nel percorso.
+Questo scenario è inverso a [Scenario 1](#scenario-1): il profilo è uscito dal percorso, ma l&#39;utente sta ancora ricevendo il contenuto in entrata.
+
+Tuttavia, quando un profilo esce da un percorso, non dovrebbe più essere idoneo per i segmenti di pubblico **joai** corrispondenti alle azioni in entrata nel percorso.
 
 Segui gli stessi passaggi di debug dello [Scenario 1](#debugging-steps) per verificare se il profilo Hub, il profilo Edge e il server di consegna Edge Network riflettono correttamente lo stato di appartenenza al segmento del segmento **joai** pertinente e se il client non riceve più il contenuto in entrata.
 
 <!--
-## Additional Notes {#additional-notes}
-
-- **Propagation Time:** Segment membership updates can take up to 15-30 minutes to propagate from the Hub to the Edge Network.
-- **Support:** If issues persist after following the steps, open a support ticket with details such as:
-  - Journey Version ID and Journey Action ID.
-  - Assurance trace.
-  - JSON views of Edge and Hub profiles.
-  - Debugging observations.
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
-## Warnings and Notes {#warnings-and-notes}
-
-> **Warning:** Ensure the `joai` namespace is correctly configured in Platform Identities. Misconfiguration can lead to qualification issues for inbound actions.
-
-> **Note:** Segment membership updates may take up to 30 minutes to propagate. Plan debugging sessions accordingly.
-
-## Cross-References {#cross-references}
-
-- [Testing the Journey](../building-journeys/testing-the-journey.md)
-- [Using the Journey Designer](../building-journeys/using-the-journey-designer.md#paths)
-- [Troubleshooting Custom Actions](../action/troubleshoot-custom-action.md)
 -->
