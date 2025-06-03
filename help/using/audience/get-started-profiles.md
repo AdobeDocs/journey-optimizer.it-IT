@@ -54,4 +54,4 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 
 Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in tempo reale e come puoi accedere a tali profili e utilizzarli.
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36266?quality=12&captions=ita)
