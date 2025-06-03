@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -26,8 +26,8 @@ Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzio
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Visualizzazioni per elenco e calendario delle campagne"
->abstract="Oltre all&#39;elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle loro pianificazioni. È possibile passare dalla visualizzazione elenco alla visualizzazione calendario in qualsiasi momento utilizzando questi pulsanti."
+>title="Visualizzazioni calendario ed elenco campagne"
+>abstract="Oltre all’elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle relative pianificazioni. È possibile passare dalla visualizzazione elenco alla visualizzazione calendario in qualsiasi momento utilizzando questi pulsanti."
 
 Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**.
 
