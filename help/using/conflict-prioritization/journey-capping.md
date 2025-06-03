@@ -74,7 +74,7 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
    >
    >In questo esempio, se l’addetto marketing ha già inserito 4 percorsi ed è previsto un altro percorso pianificato questo mese con priorità maggiore, ai clienti verrà impedito di accedere al percorso con priorità inferiore.
 
-+++
+   +++
 
    +++Configurare una regola di limitazione della concorrenza di percorso
 
@@ -86,7 +86,7 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+   +++
 
 1. Ripeti i passaggi precedenti per aggiungere al set di regole tutte le regole necessarie.
 
