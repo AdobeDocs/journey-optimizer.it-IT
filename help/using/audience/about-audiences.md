@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '541'
 ht-degree: 19%
 
 ---
@@ -28,17 +28,17 @@ ht-degree: 19%
 >title="Selezionare il pubblico della campagna"
 >abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico a cui destinare la campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)"
 
-Il pubblico è una raccolta di persone che condividono comportamenti e/o caratteristiche simili. Sono configurate e gestite centralmente su Adobe Experience Platform utilizzando il servizio di segmentazione di Adobe Experience Platform e sono facilmente accessibili all’interno di Journey Optimizer per essere attivate nei percorsi e nelle campagne.
+I tipi di pubblico sono raccolte di persone che condividono comportamenti e/o caratteristiche simili. Sono configurate e gestite centralmente su Adobe Experience Platform utilizzando il servizio di segmentazione di Adobe Experience Platform e sono facilmente accessibili all’interno di Journey Optimizer per essere attivate nei percorsi e nelle campagne.
 
 Adobe Journey Optimizer fornisce solidi strumenti per la creazione, la gestione e l’arricchimento dei tipi di pubblico al fine di migliorare le attività di marketing. In combinazione con Adobe Real-Time Customer Data Platform, Journey Optimizer consente di creare livelli di pubblico più complessi e di condividere i tipi di pubblico in modo bidirezionale con altre soluzioni Adobe Experience Cloud.
 
-Man mano che i dati in tempo reale fluiscono o vengono caricati in batch, i set di dati vengono aggiornati e Journey Optimizer sposta dinamicamente gli individui da e verso i tipi di pubblico e i percorsi in tempo reale.
+Man mano che si verificano flussi di dati in tempo reale o caricamenti in batch, i set di dati vengono aggiornati e Journey Optimizer sposta dinamicamente gli individui da e verso i tipi di pubblico e i percorsi in tempo reale.
 
 >[!BEGINSHADEBOX]
 
 Questa documentazione fornisce informazioni su come lavorare con i tipi di pubblico in [!DNL Adobe Journey Optimizer]. Informazioni dettagliate sul portale del pubblico e sui tipi di pubblico sono disponibili nella documentazione del servizio di segmentazione di Adobe Experience Platform. Per ulteriori informazioni, consulta queste sezioni:
 
-* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servizio di segmentazione - Domande frequenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -48,7 +48,7 @@ Questa documentazione fornisce informazioni su come lavorare con i tipi di pubbl
 
 I tipi di pubblico sono disponibili dal menu **[!UICONTROL Cliente]** > **[!UICONTROL Tipi di pubblico]**.
 
-Una dashboard mostra visivamente le sovrapposizioni tra tipi di pubblico importanti e supporta l’esplorazione di tendenze di pubblico importanti, come modifiche della dimensione del pubblico in un dato periodo di tempo o picchi improvvisi di pubblico, che possono evidenziare eventi o azioni che hanno causato una contrazione del pubblico, ma anche quelli che hanno portato a una crescita del pubblico, come un’offerta di successo.
+Una dashboard mostra visivamente le sovrapposizioni tra tipi di pubblico importanti e supporta l’esplorazione di tendenze di pubblico importanti. Ad esempio, le modifiche nelle dimensioni del pubblico in un dato periodo di tempo o picchi improvvisi di pubblico possono evidenziare eventi o azioni che hanno causato una contrazione o un aumento del pubblico, come un’offerta di successo.
 
 ![](assets/audiences-overview.png)
 
@@ -74,7 +74,7 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 * **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. [Scopri come utilizzare Federated Audience Composition](federated-audience-composition.md).
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
 Scopri i profili cliente unificati e i tipi di pubblico in Journey Optimizer.
 

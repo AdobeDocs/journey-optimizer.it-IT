@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 17%
+source-wordcount: '1001'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 
 ## Creare una definizione di segmento {#create}
 
-In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che vivono ad Atlanta, San Francisco o Seattle e sono nati dopo il 1980. Tutti questi clienti avrebbero dovuto effettuare un acquisto negli ultimi 7 giorni.
+In questo esempio, puoi creare un pubblico per rivolgerti a tutti i clienti che vivono ad Atlanta, San Francisco o Seattle e sono nati dopo il 1980. Tutti questi clienti devono aver effettuato un acquisto negli ultimi 7 giorni.
 
 ➡️ [Scopri come creare tipi di pubblico in questo video](#video-segment)
 
@@ -32,7 +32,7 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
 
    ![](assets/create-segment.png)
 
-   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
 
 1. Trascina e rilascia i campi desiderati dal riquadro di sinistra all’area di lavoro centrale, quindi configurali in base alle tue esigenze.
 
-   I blocchi predefiniti di base delle definizioni dei segmenti sono **attributes** e **events**. Inoltre, gli attributi e gli eventi contenuti nei tipi di pubblico esistenti possono essere utilizzati come componenti per nuove definizioni. [Ulteriori informazioni sono disponibili nella documentazione del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   I blocchi predefiniti di base delle definizioni dei segmenti sono **attributes** e **events**. Inoltre, gli attributi e gli eventi contenuti nei tipi di pubblico esistenti possono essere utilizzati come componenti per nuove definizioni. [Ulteriori informazioni sono disponibili nella documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
 
 1. Quando il pubblico è pronto, fai clic su **[!UICONTROL Salva]**. Viene visualizzato nell’elenco del pubblico di Adobe Experience Platform. È disponibile una barra di ricerca che consente di eseguire ricerche in un pubblico specifico dell’elenco.
 
-Ora puoi utilizzare il pubblico nei tuoi percorsi. Per ulteriori informazioni al riguardo, consulta [questa sezione](../audience/about-audiences.md).
+Il pubblico è ora pronto per essere utilizzato nei tuoi percorsi. Per ulteriori informazioni, consulta [questa sezione](../audience/about-audiences.md).
 
 ## Metodi di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
 
@@ -84,7 +84,7 @@ La segmentazione in streaming è un processo continuo di selezione di dati che a
 >
 >* Questa modifica si applica a tutte le sandbox e organizzazioni del cliente.
 >* Sono interessati solo gli eventi di invio e apertura: i clic e altri eventi di tracciamento rimangono disponibili per la segmentazione in streaming.
->* Questa modifica si applica solo alla segmentazione in streaming. Gli eventi di invio e apertura possono comunque essere utilizzati in segmenti batch, ma se inclusi in un segmento di streaming, verranno valutati in modo batch. Inoltre, questa modifica interessa anche gli eventi di esclusione e gli eventi di mancato recapito/ritardo risultanti da eventi di invio.
+>* Questa modifica si applica solo alla segmentazione in streaming. Gli eventi di invio e apertura possono comunque essere utilizzati in segmenti batch, ma se inclusi in un segmento di streaming, vengono valutati in modo batch. Inoltre, questa modifica interessa anche gli eventi di esclusione e gli eventi di mancato recapito/ritardo risultanti da eventi di invio.
 >* La raccolta dei dati di tracciamento non subisce modifiche. Gli eventi di invio e apertura continueranno a essere raccolti come di consueto.
 >* Gli eventi di reazione nei percorsi non sono influenzati da questo cambiamento.
 
@@ -94,7 +94,7 @@ La segmentazione in streaming è un processo continuo di selezione di dati che a
 
 L’elenco dei profili per il pubblico viene valutato ogni 24 ore.
 
-La segmentazione in batch è un’alternativa alla segmentazione in streaming che elabora tutti i dati di profilo contemporaneamente tramite le definizioni dei segmenti. In questo modo viene creata un’istantanea del pubblico, che è possibile salvare ed esportare per l’utilizzo. Tuttavia, a differenza della segmentazione in streaming, la segmentazione in batch non aggiorna continuamente l’elenco del pubblico in tempo reale e i nuovi dati che arrivano dopo il processo batch non verranno riflessi nel pubblico fino al successivo processo batch. Un tentativo di forzare un aggiornamento immediato non sovrascriverà il ciclo giornaliero. Per aggiornamenti incrementali immediati, considera l’utilizzo delle opzioni di segmentazione in streaming o on-demand.
+La segmentazione in batch elabora tutti i dati del profilo contemporaneamente tramite le definizioni dei segmenti, creando un’istantanea del pubblico che può essere salvata ed esportata per l’utilizzo. A differenza della segmentazione in streaming, la segmentazione batch non aggiorna continuamente l’elenco del pubblico in tempo reale. I nuovi dati che vengono inseriti dopo il processo batch non vengono rispecchiati nel pubblico fino al successivo processo batch. I tentativi di forzare un aggiornamento immediato non sovrascrivono il ciclo giornaliero. Per aggiornamenti incrementali immediati, considera l’utilizzo delle opzioni di segmentazione in streaming o on-demand.
 
 Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#batch){target="_blank"}
 
@@ -102,11 +102,11 @@ Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazion
 
 +++ Segmentazione Edge
 
-La segmentazione di Edge consente di valutare i segmenti in Adobe Experience Platform [istantaneamente al limite](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"}, abilitando casi di utilizzo di personalizzazione della stessa pagina e della pagina successiva. Attualmente solo i tipi di query selezionati possono essere valutati con la segmentazione Edge. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=it#query-types){target="_blank"}
+La segmentazione di Edge consente di valutare i segmenti in Adobe Experience Platform [istantaneamente al limite](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, abilitando casi di utilizzo di personalizzazione della stessa pagina e della pagina successiva. Attualmente solo i tipi di query selezionati possono essere valutati con la segmentazione Edge. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-Se si conosce il metodo di valutazione da utilizzare, selezionarlo utilizzando l&#39;elenco a discesa. Per visualizzare un elenco dei metodi di valutazione delle definizioni dei segmenti disponibili, puoi anche fare clic sull’icona Sfoglia icona cartella con una lente di ingrandimento. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#segment-properties){target="_blank"}
+Se si conosce il metodo di valutazione da utilizzare, selezionarlo utilizzando l&#39;elenco a discesa. Per visualizzare un elenco dei metodi di valutazione delle definizioni dei segmenti disponibili, puoi anche fare clic sull’icona Sfoglia icona cartella con una lente di ingrandimento. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}.
 
 ![](assets/evaluation-methods.png)
 
@@ -122,7 +122,7 @@ Dopo aver definito per la prima volta un pubblico, i profili vengono aggiunti al
 
 ## Valutazione flessibile del pubblico {#flexible}
 
-Adobe Experience Platform Audience Portal consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, garantendo di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.
+Adobe Experience Platform Audience Portal consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, garantendo di disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting nei percorsi e nelle campagne Journey Optimizer.
 
 Con una valutazione flessibile del pubblico, puoi:
 
@@ -130,10 +130,10 @@ Con una valutazione flessibile del pubblico, puoi:
 1. Valuta il pubblico in tempo reale per assicurarne la precisione. Per farlo, scegli i tipi di pubblico da valutare e seleziona &quot;Valuta i tipi di pubblico&quot;, a condizione che soddisfino criteri specifici (ad esempio, persone basate, origine del servizio di segmentazione).
 1. Utilizza il pubblico valutato nelle campagne o nei percorsi Adobe Journey Optimizer per un targeting preciso.
 
-È possibile valutare fino a 20 tipi di pubblico alla volta e quelli non idonei verranno automaticamente esclusi. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+È possibile valutare fino a 20 tipi di pubblico alla volta e i tipi di pubblico non idonei vengono automaticamente esclusi. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Video dimostrativo{#video-segment}
 
-Scopri in che modo Journey Optimizer utilizza le regole per generare il pubblico e come utilizzare gli attributi, gli eventi e i tipi di pubblico esistenti per creare un pubblico.
+Scopri in che modo Journey Optimizer utilizza le regole per generare i tipi di pubblico e come utilizzare gli attributi, gli eventi e i tipi di pubblico esistenti per creare un pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430331?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
