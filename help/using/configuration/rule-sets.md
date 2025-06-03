@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1960'
 ht-degree: 24%
 
 ---
@@ -46,7 +46,7 @@ Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione]
 
 Quando si accede ai set di regole per la prima volta dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali]**, viene creato e attivato un set di regole predefinito: **Set di regole predefinito globale**.
 
-Questo set di regole contiene regole globali che è possibile applicare per controllare la frequenza con cui gli utenti ricevono messaggi in uno o più canali, in modo analogo al funzionamento delle regole business correnti. Tutte le regole definite in questo set di regole si applicano a tutti i canali selezionati, indipendentemente dal fatto che le comunicazioni vengano inviate da un percorso o da una campagna. [Scopri come utilizzare le regole business](../configuration/rule-sets.md)
+Questo set di regole contiene regole globali che è possibile applicare per controllare la frequenza con cui gli utenti ricevono messaggi in uno o più canali, in modo analogo al funzionamento delle regole business correnti. Tutte le regole definite in questo set di regole si applicano a tutti i canali selezionati, indipendentemente dal fatto che le comunicazioni vengano inviate da un percorso o da una campagna. [Scopri come utilizzare le regole business](../conflict-prioritization/rule-sets.md)
 
 Oltre a questo set di regole predefinito globale, puoi creare **set di regole personalizzati** da applicare a qualsiasi campagna per limitare il numero di messaggi inviati all&#39;interno della campagna. [Scopri come creare set di regole personalizzati](#create)
 
@@ -63,10 +63,6 @@ Durante la creazione di un set di regole, è necessario specificare se le regole
 
 * Dominio **Canale**: applica regole di limitazione per i canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 * Dominio **Percorso**: applica le regole di limitazione della concorrenza e delle voci a un percorso. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
-
->[!AVAILABILITY]
->
->Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 ## Creare il primo set di regole personalizzato {#create-rule-set}
 
@@ -87,10 +83,6 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 1. Seleziona il dominio del set di regole. Il dominio consente di specificare se il set di regole conterrà regole di limitazione di utilizzo specifiche per i canali di comunicazione o i percorsi. [Ulteriori informazioni sulle regole di limitazione dei canali e dei percorsi](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >Mentre i set di regole di dominio **Channel** sono disponibili per tutti gli utenti, i set di regole di dominio **Percorsi** sono disponibili solo per un set limitato di utenti (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -139,10 +131,6 @@ I parametri disponibili per la regola dipendono dal dominio del set di regole se
 1. Dall&#39;elenco a discesa **[!UICONTROL Durata]**, selezionare se si desidera applicare il limite ogni mese, ogni settimana o ogni giorno. La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
 
    ![](assets/rule-set-capping-duration.png)
-
-   >[!AVAILABILITY]
-   >
-   >La durata &quot;Giornaliera&quot; è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
@@ -324,4 +312,4 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

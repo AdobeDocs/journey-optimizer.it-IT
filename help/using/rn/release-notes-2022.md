@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
+source-wordcount: '3598'
 ht-degree: 100%
 
 ---
@@ -261,7 +261,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/3412404?captions=ita">video sulle funzioni</a>.
+<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Ora puoi impostare regole di business cross-channel che escluderanno automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/rule-sets.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/rule-sets.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

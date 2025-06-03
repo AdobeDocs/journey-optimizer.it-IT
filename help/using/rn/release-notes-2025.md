@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 100%
 
@@ -362,7 +362,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
 <p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -481,7 +481,7 @@ Ora è possibile utilizzare una quota limite giornaliera in percorsi e campagne 
 
 Come promemoria, la quota limite giornaliera nei set di regole è disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
-Per ulteriori informazioni sulle regole di business, consulta la [documentazione dettagliata](../configuration/rule-sets.md).
+Per ulteriori informazioni sulle regole di business, consulta la [documentazione dettagliata](../conflict-prioritization/rule-sets.md).
 
 **Modelli di contenuto**
 
@@ -517,7 +517,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p><ul><li>Crea set di regole di canale per limitare il numero di messaggi inviati su uno o più canali. Applicali alle campagne o alle azioni dei percorsi per applicare le regole definite nel set di regole. Il set di regole del canale consente di applicare regole di limitazione in base ai tipi di comunicazione. Ad esempio, puoi impostare un set di regole per limitare i “messaggi promozionali” e un altro per le “newsletter”. Applica il set di regole appropriato alla campagna o all’azione di un percorso in base al tipo di comunicazione da inviare.</li>
 <li> Crea set di regole per i percorsi, per controllare l’ingresso dei profili nei percorsi. Limita la frequenza con cui un profilo può effettuare l’ingresso in un percorso in un determinato periodo o il numero di percorsi in cui può essere registrato simultaneamente. Applicali a livello di percorso per garantire una corretta gestione degli ingressi.</li></ul></p>
 <p>Precedentemente disponibili per alcune organizzazioni (LA), le regole di business ora sono disponibili per tutti gli utenti (GA). Le regole di business del dominio di percorso continuano a essere disponibili solo per alcune organizzazioni limitate (LA).</p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/rule-sets.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/rule-sets.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
