@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorizzazione, alto livello, basso livello, profilo, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Export suppression list]** consente agli utenti di scaricare l&#39;elenco di soppressione come file CSV.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * suppression_list.export
@@ -184,7 +184,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Publish campaigns]** consente agli utenti di pubblicare campagne.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
 
@@ -334,7 +334,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage landing page settings]** consente agli utenti di leggere, creare e modificare i sottodomini della pagina di destinazione e le impostazioni predefinite.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
 
@@ -363,7 +363,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage messages presets]** consente agli utenti di leggere, creare, modificare ed eliminare configurazioni di canale tra canali a livello di sandbox.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * messages_preets.read
@@ -379,7 +379,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage PTR records]** consente agli utenti di leggere e modificare i record PTR configurati in base al sottodominio.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * PTR_records.read
@@ -390,7 +390,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage Seedlist]** consente agli utenti di leggere, creare, modificare ed eliminare Seedlist.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * seedlist.read
@@ -401,7 +401,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage SMS subdomains]** consente agli utenti di leggere, creare, modificare ed eliminare i sottodomini SMS.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * sms_subdomains.read
@@ -444,7 +444,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL View messages general settings]** consente agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l&#39;indirizzo di esecuzione.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * messages_general_settings.read
@@ -456,7 +456,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL View messages presets]** consente agli utenti di visualizzare i predefiniti per i messaggi.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
    * Specifico di Journey Optimizer:
       * messages_preets.read
@@ -470,7 +470,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
 * L&#39;autorizzazione di alto livello **[!DNL View PTR records]** consente agli utenti di visualizzare i record PTR configurati in base al sottodominio.
 
-+++ Include le seguenti autorizzazioni di basso livello:
++++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## Risorsa di assistenza IA {#ai-permissions}
