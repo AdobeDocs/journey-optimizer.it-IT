@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorizzazioni, diritti, restrizioni, accesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Per configurare il controllo degli accessi per Journey Optimizer, è necessario 
 
 La gestione degli utenti in [!DNL Journey Optimizer] si basa sui seguenti concetti chiave:
 
-* **[!UICONTROL Ruolo]**: i ruoli si riferiscono a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione. Un ruolo viene fornito con un set di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia.
+* **[!UICONTROL Ruoli]**: i ruoli fanno riferimento a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione. Un ruolo viene fornito con un set di diritti unitari (autorizzazioni) che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia.
 Con [!DNL Journey Optimizer] puoi scegliere tra una serie di **[!UICONTROL Ruoli]** preesistenti, ciascuno con diversi livelli di autorizzazioni, da assegnare agli utenti. Ulteriori informazioni sui **Ruoli incorporati** disponibili in [questa pagina](ootb-product-profiles.md).
 
 * **[!UICONTROL Autorizzazioni]**: le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Ruoli]**. Ogni autorizzazione viene raccolta nelle risorse, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Livelli di autorizzazione](high-low-permissions.md).

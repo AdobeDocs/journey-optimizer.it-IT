@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profiles, sandbox
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
 
 # Gestire utenti e ruoli {#manage-permissions}
-
->[!IMPORTANT]
->
-> Ciascuna delle procedure descritte di seguito può essere eseguita solo da un amministratore **[!UICONTROL Product]** o **[!UICONTROL System]**.
 
 **[!UICONTROL I ruoli]** fanno riferimento a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione.
 
@@ -29,6 +25,12 @@ Con il prodotto [!DNL Journey Optimizer], puoi scegliere tra una serie di **[!UI
 Quando un utente appartiene a un **[!UICONTROL Ruolo]**, ha accesso alle app e ai servizi Adobe contenuti nel prodotto.
 
 Se i ruoli preesistenti non soddisfano le esigenze specifiche della tua organizzazione, puoi anche creare **[!UICONTROL Ruoli]** personalizzati per ottimizzare l&#39;accesso a determinate funzionalità o oggetti nell&#39;interfaccia. In questo modo, ogni utente avrà accesso solo alle risorse e agli strumenti necessari per eseguire le proprie attività in modo efficiente.
+
+
+>[!IMPORTANT]
+>
+>I passaggi e le procedure descritti di seguito possono essere eseguiti solo da un amministratore **[!UICONTROL Product]** o **[!UICONTROL System]**.
+
 
 ## Assegna un ruolo {#assigning-role}
 
@@ -48,7 +50,7 @@ Per assegnare un **[!UICONTROL ruolo]**:
 
 1. Digita il nome o l&#39;indirizzo e-mail dell&#39;utente o selezionalo dall&#39;elenco, quindi fai clic su **[!UICONTROL Salva]**.
 
-   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=it){target="_blank"}.
+   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -64,11 +66,13 @@ Quando accedi all&#39;istanza, l&#39;utente visualizza una visualizzazione speci
 
 Per i **[!UICONTROL Ruoli]** predefiniti o personalizzati, puoi decidere in qualsiasi momento di aggiungere o eliminare le autorizzazioni.
 
-In questo esempio, vogliamo aggiungere **[!UICONTROL Autorizzazioni]** relative alla risorsa **[!UICONTROL Percorsi]** per gli utenti assegnati al visualizzatore di Percorso **[!UICONTROL Ruolo]**. Gli utenti potranno quindi pubblicare i percorsi.
+Nell&#39;esempio seguente, si desidera aggiungere **[!UICONTROL Autorizzazioni]** relative alla risorsa **[!UICONTROL Percorsi]** per gli utenti assegnati al visualizzatore di Percorso **[!UICONTROL Ruolo]**. Gli utenti potranno quindi pubblicare i percorsi.
 
-Se modifichi un **[!UICONTROL Ruolo]** predefinito o personalizzato, questo avrà un impatto su tutti gli utenti assegnati a questo **[!UICONTROL Ruolo]**.
+>[!IMPORTANT]
+>
+>Le modifiche apportate a un ruolo predefinito o personalizzato avranno effetto su tutti gli utenti assegnati a tale ruolo.
 
-1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passare alla scheda **[!UICONTROL Ruoli]** e selezionare il ruolo desiderato, in questo caso il visualizzatore di Percorsi **[!UICONTROL Ruolo]**.
+1. Per modificare un ruolo nel prodotto [!DNL Permissions], passare alla scheda **[!UICONTROL Ruoli]** e selezionare il ruolo desiderato, in questo caso il visualizzatore di Percorso **[!UICONTROL Ruolo]**.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. Dal dashboard **[!UICONTROL Ruolo]**, fai clic su **[!UICONTROL Modifica]**.
@@ -85,7 +89,7 @@ Se modifichi un **[!UICONTROL Ruolo]** predefinito o personalizzato, questo avr�
 
 1. Al termine, fare clic su **[!UICONTROL Salva]**.
 
-Se necessario, puoi anche creare un nuovo ruolo con autorizzazioni specifiche. Per ulteriori informazioni, consulta [Creare una nuova mansione](#create-product-profile).
+Se necessario, puoi anche creare un nuovo ruolo con autorizzazioni specifiche.
 
 ## Creare un nuovo ruolo {#create-product-profile}
 
