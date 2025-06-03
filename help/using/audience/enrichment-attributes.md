@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
 
 # Utilizzare gli attributi di arricchimento del pubblico {#enrichment}
 
-Quando esegui il targeting di un pubblico generato utilizzando flussi di lavoro di composizione, un pubblico personalizzato (file CSV) o una composizione di pubblico federato, puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
+Quando esegui il targeting di un pubblico generato utilizzando flussi di lavoro di composizione, un pubblico personalizzato (file CSV) o una composizione di pubblico federato, puoi utilizzare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
 
 >[!NOTE]
 >
->I tipi di pubblico creati tramite il caricamento personalizzato di file CSV prima del 1° ottobre 2024 non sono idonei alla personalizzazione. Per utilizzare gli attributi di questi tipi di pubblico e sfruttare appieno questa funzione, ricreare e caricare nuovamente eventuali tipi di pubblico CSV esterno importati prima di questa data.
+>I tipi di pubblico creati tramite il caricamento personalizzato di file CSV prima del 1° ottobre 2024 non sono idonei alla personalizzazione. Per utilizzare gli attributi di questi tipi di pubblico e utilizzare completamente questa funzione, ricrea e carica nuovamente eventuali tipi di pubblico CSV esterno importati prima di tale data.
 >
 >I criteri di consenso non supportano gli attributi di arricchimento. Pertanto, eventuali regole dei criteri di consenso devono essere basate solo sugli attributi presenti nel profilo.
 
@@ -39,21 +39,21 @@ Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi d
 >
 >Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con flussi di lavoro di composizione, accertati che vengano aggiunti a un gruppo di campi nel Data Source di &quot;Experience Platform&quot;.
 >
->+++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi>
++++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi>
 >
->1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
->1. Selezionare &quot;Experience Platform&quot; e creare o modificare un gruppo di campi.
->1. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema sarà nel seguente formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
->1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
->1. Salva le modifiche.
->1. Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfruttarli in Journey Optimizer nelle posizioni elencate in precedenza.
+1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
+1. Seleziona &quot;Experience Platform&quot; e crea o modifica un gruppo di campi.
+1. Nel selettore schema, seleziona lo schema appropriato. Il nome dello schema seguirà questo formato: &quot;Schema per audienceId:&quot; + l’ID del pubblico. Puoi trovare l’ID del pubblico nella schermata dei dettagli del pubblico nell’inventario del pubblico.
+1. Apri il selettore di campi, individua gli attributi di arricchimento che desideri aggiungere e seleziona la casella di controllo accanto a essi.
+1. Salva le modifiche.
+1. Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi utilizzarli in Journey Optimizer nelle posizioni elencate in precedenza.
 >
->Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezioni:
+Informazioni dettagliate sulle origini dei dati sono disponibili in queste sezioni:
 >
->* [Utilizzare l&#39;origine dati di Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
->* [Configurare un&#39;origine dati](../datasource/configure-data-sources.md)
+* [Utilizzare l&#39;origine dati di Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurare un&#39;origine dati](../datasource/configure-data-sources.md)
 >
->+++
++++
 
 
 
@@ -65,7 +65,7 @@ Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi d
 
 Gli attributi di arricchimento sono attributi aggiuntivi contestuali e specifici di un pubblico. Non sono associate al profilo e vengono generalmente utilizzate a scopo di personalizzazione.
 
-Gli attributi di arricchimento sono collegati a un pubblico tramite un’attività Arricchisci nella composizione del pubblico o tramite il processo di caricamento personalizzato.
+Gli attributi di arricchimento sono collegati a un pubblico tramite un’attività Arricchisci nella composizione del pubblico o il processo di caricamento personalizzato.
 
 +++
 
@@ -85,8 +85,8 @@ Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con fl
 
 +++
 
-+++ I valori degli attributi di arricchimento vengono aggiornati dopo l’inizio di un percorso?
++++ I valori degli attributi di arricchimento vengono aggiornati dopo l’avvio di un percorso?
 
-Attualmente no. Anche dopo i nodi di attesa o evento, i valori degli attributi di arricchimento rimangono invariati rispetto a quando il percorso è iniziato.
+Attualmente, no. Anche dopo i nodi di attesa o evento, i valori degli attributi di arricchimento rimangono invariati rispetto a quando il percorso è iniziato.
 
 +++
