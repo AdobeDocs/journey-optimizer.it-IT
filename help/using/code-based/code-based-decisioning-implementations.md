@@ -26,15 +26,15 @@ Durante il test di [esperienza basata su codice](create-code-based.md) con decis
 Dopo aver pubblicato la campagna, aggiungi il flag `dryRun` nel blocco evento XDM `data` nell&#39;implementazione client:
 
     &quot;
-    {
-    &quot;dati&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;dati&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     &quot;
 
 <!--
