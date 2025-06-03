@@ -40,7 +40,7 @@ Consulta il [dizionario schema Journey Optimizer](https://experienceleague.adobe
 
 Scopri come creare uno schema, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416871?quality=12&captions=ita)
 
 >[!MORELIKETHIS]
 >
