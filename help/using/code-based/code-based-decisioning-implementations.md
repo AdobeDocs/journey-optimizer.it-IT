@@ -5,17 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Decisioning nelle implementazioni di esperienze basate su codice
+# Decisioni nelle implementazioni di esperienze basate su codice
 
 Quando utilizzi Decisioning nelle esperienze basate su codice, prendi in considerazione l’aggiunta dei seguenti flag all’implementazione client nei casi descritti di seguito.
 
@@ -28,15 +26,15 @@ Durante il test di [esperienza basata su codice](create-code-based.md) con decis
 Dopo aver pubblicato la campagna, aggiungi il flag `dryRun` nel blocco evento XDM `data` nell&#39;implementazione client:
 
     &quot;
-    &lbrace;
-    &quot;dati&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dati&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 <!--
@@ -46,7 +44,7 @@ Dopo aver pubblicato la campagna, aggiungi il flag `dryRun` nel blocco evento XD
 
 ## Deduplicazione degli elementi decisionali nelle implementazioni basate su codice {#code-based-decisioning-deduplication}
 
-Quando utilizzi [i criteri decisionali](../experience-decisioning/create-decision.md) nelle esperienze basate su codice, scopri come applicare la deduplicazione alle richieste di decisioning nell’implementazione client.
+Quando utilizzi [i criteri decisionali](../experience-decisioning/create-decision.md) nelle esperienze basate su codice, puoi applicare la deduplicazione alle richieste di decisioning nell&#39;implementazione client.
 
 Le richieste di decisioning (tramite Konductor) accettano il flag di deduplicazione, che gestisce l’univocità degli elementi decisionali in un’unica richiesta composta da più criteri o posizionamenti decisionali.
 
