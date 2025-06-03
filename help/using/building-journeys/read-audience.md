@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 14%
@@ -43,7 +43,7 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 
 I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
 
@@ -68,7 +68,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
@@ -82,7 +82,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -179,7 +179,7 @@ Se la durata dei profili in questo percorso può essere più lunga della frequen
 
 +++**[!UICONTROL Attiva dopo la valutazione del pubblico in batch]**
 
-Per i percorsi pianificati giornalmente e per il targeting dei tipi di pubblico in blocco, puoi definire un intervallo di tempo fino a 6 ore affinché il percorso attenda nuovi dati sul pubblico dai processi di segmentazione in blocco. Se il processo di segmentazione viene completato entro l’intervallo di tempo, il percorso si attiva. In caso contrario, ignora il percorso fino alla successiva occorrenza. Questa opzione assicura che i percorsi vengano eseguiti con dati accurati e aggiornati sul pubblico.
+Per i percorsi pianificati giornalmente e per il targeting dei tipi di pubblico in blocco, puoi definire un intervallo di tempo fino a 6 ore affinché il percorso attenda nuovi dati sul pubblico dai processi di segmentazione in blocco. Se il processo di segmentazione viene completato entro l’intervallo di tempo, il percorso si attiva. In caso contrario, ignora il percorso fino alla sua occorrenza successiva. Questa opzione assicura che i percorsi vengano eseguiti con dati accurati e aggiornati sul pubblico.
 
 Se, ad esempio, un percorso è pianificato per le 18.00, è possibile specificare un numero di minuti o di ore di attesa prima dell&#39;esecuzione del percorso. Quando il percorso si sveglia alle 18, verifica la presenza di un nuovo pubblico, ovvero un pubblico più recente di quello utilizzato nell’esecuzione del percorso precedente. Durante l’intervallo di tempo specificato, il percorso viene eseguito immediatamente dopo aver rilevato il nuovo pubblico. Tuttavia, se non viene rilevato alcun nuovo pubblico, l’esecuzione del percorso viene ignorata.
 
@@ -287,4 +287,4 @@ I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **A
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
