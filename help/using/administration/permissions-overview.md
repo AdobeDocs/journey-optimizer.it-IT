@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorizzazioni, diritti, restrizioni, accesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 3%
 
 ---
@@ -36,13 +36,14 @@ Per configurare il controllo degli accessi per Journey Optimizer, è necessario 
 
 La gestione degli utenti in [!DNL Journey Optimizer] si basa sui seguenti concetti chiave:
 
-* **[!UICONTROL Ruolo]**: i ruoli si riferiscono a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione. Un ruolo viene fornito con un set di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. Con [!DNL Journey Optimizer] puoi scegliere tra una serie di **[!UICONTROL Ruoli]** preesistenti, ciascuno con diversi livelli di autorizzazioni, da assegnare agli utenti. Ulteriori informazioni sui **Ruoli incorporati** disponibili in [questa pagina](ootb-product-profiles.md).
+* **[!UICONTROL Ruolo]**: i ruoli si riferiscono a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione. Un ruolo viene fornito con un set di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia.
+Con [!DNL Journey Optimizer] puoi scegliere tra una serie di **[!UICONTROL Ruoli]** preesistenti, ciascuno con diversi livelli di autorizzazioni, da assegnare agli utenti. Ulteriori informazioni sui **Ruoli incorporati** disponibili in [questa pagina](ootb-product-profiles.md).
 
-* **[!UICONTROL Autorizzazioni]**: diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Ruoli]**. Ogni autorizzazione viene raccolta nelle risorse, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Livelli di autorizzazione](high-low-permissions.md).
+* **[!UICONTROL Autorizzazioni]**: le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Ruoli]**. Ogni autorizzazione viene raccolta nelle risorse, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Livelli di autorizzazione](high-low-permissions.md).
 
   ![](assets/do-not-localize/permissions_2.png)
 
-* **[!UICONTROL Sandbox]**: sandbox virtuali che suddividono le istanze in ambienti virtuali separati e isolati. Le sandbox vengono assegnate tramite i ruoli in Autorizzazioni. Ulteriori informazioni sull&#39;utilizzo di [sandbox](sandboxes.md).
+* **[!UICONTROL Sandbox]**: le sandbox virtuali suddividono le istanze in ambienti virtuali separati e isolati. Le sandbox vengono assegnate tramite i ruoli in Autorizzazioni. Ulteriori informazioni sull&#39;utilizzo di [sandbox](sandboxes.md).
 
 * **Controllo dell&#39;accesso basato su oggetti**: etichette per limitare l&#39;accesso a un oggetto. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un&#39;ulteriore protezione dei dati personali. Ulteriori informazioni sulla [Gestione degli accessi basata su oggetti](object-based-access.md).
 
@@ -52,6 +53,7 @@ La gestione degli utenti in [!DNL Journey Optimizer] si basa sui seguenti concet
 ## Approfondiamo
 
 Ora che conosci i concetti del controllo di accesso in **[!DNL Journey Optimizer]**, è ora di approfondire queste sezioni della documentazione per iniziare a configurare le autorizzazioni.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -79,9 +81,7 @@ Ora che conosci i concetti del controllo di accesso in **[!DNL Journey Optimizer
 <div>
 <a href="sandboxes.md"><strong>Gestione sandbox</strong></a>
 </div>
-<p>
-</td>
-<td>
+<p></td>
 <td>
 <a href="attribute-based-access.md">
 <img alt="Controllo degli accessi basato su attributi" src="assets/do-not-localize/data-access.jpeg">
@@ -91,5 +91,4 @@ Ora che conosci i concetti del controllo di accesso in **[!DNL Journey Optimizer
 </div>
 <p>
 </td>
-<td>
 </tr></table>
