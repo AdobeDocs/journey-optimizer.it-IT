@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1236'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,10 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
 ➡️ [Guarda il video su questa funzione](#video)
 
-### Note importanti {#important-notes-segment-qualification}
+### Guardrail e consigli {#important-notes-segment-qualification}
+
+Segui le protezioni e le raccomandazioni riportate di seguito per creare percorsi di qualificazione del pubblico. Consulta anche [Best practice per la qualificazione del pubblico](#best-practices-segments).
+
 
 * I percorsi di qualificazione del pubblico sono progettati principalmente per funzionare con i tipi di pubblico in streaming: questa combinazione garantirà una migliore esperienza in tempo reale. È consigliabile utilizzare solo **pubblico in streaming** nell&#39;attività di qualificazione del pubblico.
 
@@ -55,7 +58,11 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 * Quando si utilizza un&#39;attività **Qualificazione del pubblico** in un percorso, l&#39;attività può richiedere fino a 10 minuti per essere attiva e ascoltare i profili che entrano o escono dal pubblico.
 
 
-Consulta anche [Best practice per la qualificazione del pubblico](#best-practices-segments) di seguito.
+>[!CAUTION]
+>
+>[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} si applicano anche a Adobe Journey Optimizer.
+
+
 
 ### Configurare l’attività {#configure-segment-qualification}
 
@@ -85,7 +92,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 
    >[!NOTE]
    >
-   >Tieni presente che **[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Tieni presente che **[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
@@ -127,7 +134,7 @@ Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in stre
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole di business anziché inviare eventi. [Ulteriori informazioni](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Per ulteriori informazioni sulla segmentazione in streaming, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Per ulteriori informazioni sulla segmentazione in streaming, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Come evitare gli overload {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ Prima di utilizzare il pubblico in un percorso, valuta sempre prima il volume di
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446212?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: ht
-source-wordcount: '2504'
-ht-degree: 100%
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+workflow-type: tm+mt
+source-wordcount: '2503'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,11 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Prima di iniziare, è inoltre necessario essere a conoscenza dei [Guardrail per i dati del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
+
+>[!CAUTION]
+>
+>[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} si applicano anche a Adobe Journey Optimizer.
+
 
 ## Browser supportati {#browsers}
 
