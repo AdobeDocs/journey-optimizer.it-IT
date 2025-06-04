@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 32%
@@ -30,6 +30,8 @@ ht-degree: 32%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 Durante la creazione di una campagna orchestrata o l’orchestrazione di attività di campagna orchestrate nell’area di lavoro, puoi accedere alle impostazioni avanzate relative alla campagna orchestrata. Ad esempio, puoi impostare un fuso orario specifico per la campagna orchestrata, gestire il comportamento della campagna orchestrata in caso di errore o gestire il ritardo dopo il quale la cronologia della campagna orchestrata deve essere eliminata.
 

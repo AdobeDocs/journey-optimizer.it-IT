@@ -6,10 +6,10 @@ description: Scopri come modificare le espressioni.
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 9%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 9%
 
 +++
 
-*In corso*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 <!--rapatrier docs utiles de la doc Web UI -->

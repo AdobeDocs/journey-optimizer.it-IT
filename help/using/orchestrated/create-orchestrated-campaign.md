@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 28%
@@ -16,6 +16,11 @@ ht-degree: 28%
 
 
 # Creare una campagna orchestrata {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Elenco delle campagne orchestrate"
+>abstract="Nella scheda **multifase** sono elencate tutte le campagne orchestrate. Fai clic sul nome di una campagna orchestrata per modificarla. Fai clic sul pulsante **Crea campagna orchestrata** per aggiungerne una nuova."
 
 +++ Sommario
 
@@ -27,10 +32,7 @@ ht-degree: 28%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="Elenco delle campagne orchestrate"
->abstract="Nella scheda **multifase** sono elencate tutte le campagne orchestrate. Fai clic sul nome di una campagna orchestrata per modificarla. Fai clic sul pulsante **Crea campagna orchestrata** per aggiungerne una nuova."
+<br/><br/>
 
 ## Crea la campagna
 
