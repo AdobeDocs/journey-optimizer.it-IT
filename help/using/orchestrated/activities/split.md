@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 75%
+source-wordcount: '878'
+ht-degree: 53%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 75%
 
 <br/>
 
-L’attività **Dividi** è un’attività di **Targeting** che consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione.
+L&#39;attività **Split** è un&#39;attività **Targeting** che segmenta il gruppo in ingresso in più sottoinsiemi in base a criteri di selezione definiti, ad esempio regole di filtro o dimensioni del gruppo.
 
 ## Configurare l’attività Dividi {#split-configuration}
 
@@ -83,40 +83,39 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
 1. Il riquadro di configurazione dell’attività si apre con un sottoinsieme predefinito. Fai clic sul pulsante **Aggiungi segmento** per aggiungere tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.
 
-   ![](../assets/workflow-split.png)
+   ![](../assets/orchestrated-split-1.png)
 
    >[!IMPORTANT]
    >
-   >Quando viene eseguita l’attività **Suddividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
+   >L&#39;attività **Split** elabora i sottoinsiemi nell&#39;ordine in cui vengono aggiunti. Ad esempio, se il primo sottoinsieme acquisisce il 70% della popolazione, il successivo applica i propri criteri al restante 30%.
    >
-   >Prima di avviare la campagna orchestrata, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze. A tale scopo, utilizzare i pulsanti freccia per modificare la posizione di un sottoinsieme.
+   >Prima di eseguire la campagna orchestrata, assicurati che i sottoinsiemi siano ordinati come previsto. Utilizzare i pulsanti freccia per regolarne la posizione.
 
 1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Consigliamo vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro orchestrata della campagna.
 
-1. Configura in che modo ogni sottoinsieme deve filtrare la popolazione in ingresso. Per farlo, segui questi passaggi:
+1. Configura i filtri per ciascun sottoinsieme:
 
-   1. Apri il sottoinsieme per visualizzarne le proprietà.
+   1. Fare clic su un sottoinsieme per aprirne le impostazioni.
 
-   1. Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utiizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database.
+   1. Fare clic su **[!UICONTROL Crea filtro]** per definire le regole di filtro mediante il modellatore di query, ad esempio per selezionare profili con un indirizzo e-mail valido.
 
-   1. Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere.
+      ![](../assets/orchestrated-split-1.png)
 
-   1. Per disabilitare una transizione se il gruppo in ingresso è vuoto, attiva l&#39;opzione **[!UICONTROL Ignora transizione vuota]**. Se nessun profilo corrisponde al sottoinsieme, la campagna orchestrata non passerà all’attività successiva.
+   1. Per limitare il numero di profili selezionati, abilitare **[!UICONTROL Abilita limite]** e specificare un numero o una percentuale.
 
-      ![](../assets/workflow-split-subset.png)
+   1. Per ignorare una transizione quando il sottoinsieme è vuoto, abilitare **[!UICONTROL Ignora transizione vuota].**
 
-1. Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**.
-
-   ![](../assets/workflow-split-complement.png)
+1. Per includere profili non corrispondenti a un sottoinsieme, abilitare **[!UICONTROL Genera complemento]**. Questo crea una transizione in uscita aggiuntiva per la popolazione rimanente.
 
    >[!NOTE]
    >
-   >L&#39;opzione **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** consente di raggruppare tutti i sottoinsiemi in un&#39;unica transizione di output.
+   >Abilita **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** per raggruppare tutti i sottoinsiemi in un&#39;unica transizione.
 
-1. L&#39;opzione **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
+1. Utilizza **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** per consentire la visualizzazione dei profili in più sottoinsiemi:
 
-   * Quando questa opzione non è selezionata, l’attività Dividi si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
-   * Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Si consiglia di utilizzare criteri esclusivi.
+   * **Se non è selezionato**, ogni profilo viene assegnato a un solo sottoinsieme, il primo di cui corrisponde i criteri anche se è idoneo per altri sottoinsiemi.
+
+   * **Se selezionato**, i profili possono essere inclusi in più sottoinsiemi se soddisfano i criteri per ciascuno di essi.
 
 L’attività adesso è configurata. Al momento dell’esecuzione della campagna orchestrata, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
 
@@ -124,8 +123,10 @@ L’attività adesso è configurata. Al momento dell’esecuzione della campagna
 
 Nell’esempio seguente, l’attività **[!UICONTROL Dividi]** viene utilizzata per segmentare un pubblico in sottoinsiemi distinti in base al canale di comunicazione che si desidera utilizzare:
 
-* **Sottoinsieme 1 “push”**: questo sottoinsieme comprende tutti i profili che hanno installato l’app mobile.
-* **Sottoinsieme 2 “sms”**: utenti di telefoni cellulari. Per la popolazione rimanente che non rientrava nel sottoinsieme 1, il sottoinsieme 2 applica una regola di filtro per selezionare i profili con i telefoni cellulari nel database.
-* **Transizione del complemento**: questa transizione acquisisce tutti i profili rimanenti che non corrispondono al sottoinsieme 1 o al sottoinsieme 2. In particolare, include i profili che non hanno installato l’app mobile e non dispongono di un telefono cellulare, ad esempio gli utenti che non hanno installato l’app mobile o non dispongono di un numero di cellulare registrato.
+* **Sottoinsieme 1 &quot;email&quot;**: include i profili che hanno fornito un numero di telefono.
 
-![](../assets/workflow-split-example.png)
+* **Sottoinsieme 2 &quot;sms&quot;**: esegue il targeting dei profili con un numero di telefono cellulare archiviato nel database.
+
+* **Transizione complemento**: acquisisce tutti i profili rimanenti che non soddisfano i criteri per nessuno dei sottoinsiemi.
+
+![](../assets/orchestrated-split-3.png)

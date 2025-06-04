@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 71%
+source-wordcount: '689'
+ht-degree: 45%
 
 ---
 
@@ -54,31 +54,34 @@ L’attività **Deduplica** è un’attività di **targeting**. Questa attività
 
 Per configurare l’attività **Deduplica** segui questi passaggi:
 
-![](../assets/workflow-deduplication.png)
 
 1. Aggiungi un&#39;attività **Deduplicazione** alla campagna orchestrata.
 
 1. Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
 
-1. Nella sezione **Impostazioni deduplicazione** selezionare il numero di **duplicati univoci da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
+![](../assets/deduplication-1.png)
 
-   Ad esempio, se i record A e B sono considerati duplicati del record Y e il record C è considerato un duplicato del record Z:
+1. Nella sezione **Impostazioni deduplicazione**, scegli il numero di record univoci da continuare a utilizzare il campo Duplicati da mantenere. Il valore predefinito è 1, che mantiene un record per gruppo duplicato. Impostatelo su 0 per mantenere tutti i duplicati.
 
-   * Se il valore del campo è 1: vengono conservati solo i record Y e Z.
-   * Se il valore del campo è 0: vengono conservati tutti i record.
-   * Se il valore del campo è 2: vengono conservati i record C e Z e due record tra A, B e Y, per caso o a seconda del metodo di deduplicazione selezionato successivamente.
+   Ad esempio, se i record A e B sono duplicati di Y e il record C è un duplicato di Z:
 
-1. Seleziona il **Metodo di deduplica** da utilizzare:
+   * **Se il valore del campo è 1**: vengono conservati solo i record Y e Z.
+   * **Se il valore del campo è 0**: vengono conservati tutti i record (A, B, C, Y, Z).
+   * **Se il valore del campo è 2**: vengono mantenuti C e Z, più due valori da A, B e Y, in modo casuale o in base al metodo di deduplicazione utilizzato.
+
+1. Scegli un **metodo di deduplicazione**, che definisce il modo in cui il sistema decide quali record mantenere da ogni gruppo di duplicati:
 
    * **Selezione casuale**: seleziona casualmente il record da escludere dai duplicati.
-   * **Utilizzo di un&#39;espressione**: conservare i record in cui il valore dell&#39;espressione immessa è il minore o il maggiore.
-   * **Valori non vuoti**: conservare i record per i quali l&#39;espressione non è vuota.
-   * **Elenco di valori**: definire una priorità di valore per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic sul pulsante **Aggiungi** situato sopra l&#39;elenco dei valori.
+   * **Utilizzo di un&#39;espressione**: mantiene i record con il valore più alto o più basso in base a un&#39;espressione definita dall&#39;utente.
+   * **Valori non vuoti**: mantiene i record in cui il campo selezionato non è vuoto, ad esempio conserva solo i profili con un numero di telefono.
+   * **Seguendo un elenco di valori**: consente di assegnare priorità a valori specifici per uno o più campi. È ad esempio possibile assegnare priorità ai record con &quot;Paese&quot; impostato su Francia. Fare clic su **Attributo** per scegliere un campo o creare un&#39;espressione personalizzata. Utilizza il **pulsante Aggiungi** per immettere i valori preferiti nell&#39;ordine di priorità.
+
+   ![](../assets/deduplication-2.png)
 
 1. Se desideri sfruttare la popolazione rimanente, seleziona l’opzione **Genera complemento**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
 
 ## Esempio{#deduplication-example}
 
-Nell’esempio seguente, utilizza un’attività di deduplica per escludere i duplicati dal target prima di inviare una consegna. I profili duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Scegli l’indirizzo **E-mail** per identificare i duplicati. Mantieni una voce e seleziona il metodo di deduplica **Casuale**.
+Nell&#39;esempio seguente viene utilizzata un&#39;attività **Deduplication** per rimuovere i record duplicati dal pubblico di destinazione prima di inviare una consegna. Il pubblico viene innanzitutto filtrato in modo da includere solo i profili con un campo E-mail non vuoto. L&#39;attività **Deduplication** utilizza quindi l&#39;indirizzo e-mail per identificare ed escludere i duplicati.
 
-![](../assets/workflow-deduplication-example.png)
+![](../assets/deduplication-3.png)

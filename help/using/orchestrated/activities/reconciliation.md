@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 39%
+source-wordcount: '621'
+ht-degree: 34%
 
 ---
 
@@ -50,12 +50,9 @@ ht-degree: 39%
 
 L&#39;attività **Reconciliation** è un&#39;attività **Targeting** che consente di definire il collegamento tra i dati in Adobe Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 
-## Best practice {#reconciliation-best-practices}
+L’attività Enrichment ti consente di aggiungere dati aggiuntivi alla campagna orchestrata, ad esempio combinando dati provenienti da più origini o collegandoli a una risorsa temporanea. Al contrario, l’attività Reconciliation viene utilizzata per far corrispondere dati non identificati o esterni con le risorse esistenti nel database.
 
-Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi da elaborare nella campagna orchestrata (puoi utilizzare un&#39;attività **Enrichment** per combinare dati provenienti da più set o per creare collegamenti a una risorsa temporanea), l&#39;attività **Reconciliation** ti consente di collegare dati non identificati a risorse esistenti.
-
->[!NOTE]
->L&#39;operazione Reconciliation implica che i dati delle dimensioni collegate siano già presenti nel database.  Ad esempio, se importi un file di acquisti che mostra quale prodotto è stato acquistato in un determinato momento da uno specifico cliente, ecc., il prodotto e il cliente devono già esistere nel database.
+La riconciliazione richiede che i record correlati siano già presenti nel sistema. Ad esempio, se importi un file di acquisto con l’elenco di prodotti, marche temporali e informazioni sul cliente, sia i prodotti che i clienti devono già essere presenti nel database per stabilire il collegamento.
 
 ## Configurare l’attività di riconciliazione {#reconciliation-configuration}
 
