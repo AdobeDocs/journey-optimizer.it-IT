@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 19%
@@ -80,8 +80,6 @@ Puoi eseguire le seguenti operazioni:
 
 Diverse attività di **targeting**, come **Combina** o **Deduplicazione**, ti consentono di elaborare il gruppo rimanente e includerlo in un&#39;ulteriore transizione in uscita. Ad esempio, se utilizzi un&#39;attività **Split**, il complemento è costituito dal gruppo che non corrisponde a nessuno dei sottoinsiemi definiti in precedenza. Per utilizzare questa funzionalità, attivare l&#39;opzione **Genera complemento**.
 
-![](assets/workflow-split-complement.png)
-
 ## Spostare o copiare attività {#move-copy}
 
 ### Attività di copia e incolla {#copy}
@@ -140,7 +138,7 @@ Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire 
 
 ### Script di inizializzazione
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività.
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività.
 
 ## Esempio {#example}
 
