@@ -7,10 +7,10 @@ badge: label="Alfa"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 60%
+source-wordcount: '216'
+ht-degree: 29%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 60%
 >id="ajo_orchestration_fork"
 >title="Attività Fork"
 >abstract="L’attività **Fork** consente di creare transizioni in uscita per avviare più attività contemporaneamente."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
@@ -39,7 +38,7 @@ ht-degree: 60%
 
 <br/>
 
-L’attività **Fork** è un’attività di **Controllo del flusso**. Ti consente di creare transizioni in uscita per avviare più attività contemporaneamente.
+L&#39;attività **Fork** è un componente **Controllo flusso** che consente di creare più transizioni in uscita, consentendo l&#39;esecuzione in parallelo di più attività.
 
 ## Configurare l’attività Fork{#fork-configuration}
 
@@ -48,14 +47,11 @@ Per configurare l’attività **Fork** segui questi passaggi:
 ![](../assets/workflow-fork.png)
 
 1. Aggiungi un&#39;attività **Fork** alla campagna orchestrata.
-1. Fai clic su **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
-1. Aggiungi un’etichetta a ciascuna delle transizioni.
 
-## Esempio{#fork-example}
+1. Definisci un&#39;etichetta ****.
 
-Nell’esempio seguente vengono utilizzate due attività **Fork**:
+1. Assegna un’etichetta a ogni transizione in uscita. Per impostazione predefinita, vengono fornite due transizioni.
 
-* Una prima delle due query, per eseguirle contemporaneamente.
-* Una dopo l’intersezione, per inviare contemporaneamente un’e-mail e un SMS alla popolazione target.
+1. Per rimuovere una transizione, fare clic sull&#39;icona ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
-![](../assets/workflow-fork-example.png)
+1. Se necessario, fare clic su **Aggiungi transizione** per aggiungere un&#39;altra transizione in uscita.

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 44%
+source-wordcount: '370'
+ht-degree: 33%
 
 ---
 
@@ -33,20 +33,9 @@ ht-degree: 44%
 
 <br/>
 
-In qualità di addetto al marketing, puoi creare facilmente query complesse utilizzando un’interfaccia intuitiva, per segmentare il pubblico in base a un’ampia gamma di criteri e comportamenti e adattare le campagne in modo più efficace.
+In qualità di addetto al marketing, puoi creare segmenti di pubblico complessi tramite un’interfaccia intuitiva, che ti consente di eseguire il targeting degli utenti in base a un’ampia gamma di criteri e comportamenti per adattare le campagne in modo più efficace.
 
-Per eseguire questa operazione, utilizza l&#39;attività di targeting **Genera pubblico**. Questa attività ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea del pubblico**.
-
-Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
-
-* Seleziona un pubblico esistente.
-* Seleziona un filtro predefinito.
-* Crea un nuovo pubblico con Query Modeler definendo e combinando criteri di filtro.
-
->[!NOTE]
->
->I tipi di pubblico caricati da un file non possono essere targetizzati utilizzando un’attività Genera pubblico. A tale scopo, è necessario utilizzare un&#39;attività **Load file** seguita da un&#39;attività **Reconciliation**.
-
+A questo scopo, utilizza l&#39;attività di targeting **Genera pubblico**. Questa attività definisce il pubblico che entra nella campagna orchestrata. Quando si inviano messaggi come parte di una campagna orchestrata, il pubblico viene definito nell&#39;attività **Genera pubblico**, non all&#39;interno della campagna orchestrata.
 
 ## Configurare l’attività Crea pubblico {#build-audience-configuration}
 
@@ -57,23 +46,24 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
-![](../assets/build-audience.png)
-
 1. Aggiungi un’attività **Crea pubblico**.
+
+   ![](../assets/build-audience.png)
+
 1. Definisci un’etichetta.
-1. Definisci il tipo di pubblico: **Crea una query personalizzata** o **Leggi pubblico**.
+
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 
-
-Per creare una query personalizzata, effettua le seguenti operazioni:
-
-1. Seleziona **Crea una query personalizzata**.
 1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.
+
 1. Fai clic su **Continua**.
+
 1. Utilizza il modellatore di query per definire la query. [Ulteriori informazioni su Query Modeler in questa sezione](../orchestrated-query-modeler.md)
+
+1. Specifica se deve essere generata una transizione in uscita quando il pubblico è vuoto.
 
 ## Esempi{#build-audience-examples}
 
-Ecco un esempio di campagna orchestrata con due attività **Genera pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
+Ecco un esempio di campagna orchestrata con due attività **Genera pubblico**. Il primo esegue il targeting dei profili che hanno elementi nel carrello, seguito da una consegna e-mail. Il secondo esegue il targeting dei profili con una lista dei desideri, seguita da una consegna SMS.
 
-![](../assets/workflow-audience-example.png)
+![](../assets/build-audience-2.png)

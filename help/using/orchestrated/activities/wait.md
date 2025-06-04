@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 55%
+source-wordcount: '273'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 55%
 
 <br/>
 
-L’attività **Attendi** è un’attività di **Controllo del flusso**. Questa attività viene utilizzata per lasciare che trascorra un certo periodo di tempo tra due attività in corso. Ad esempio, per attendere diversi giorni dopo un’attività di consegna e-mail, quindi analizzare le aperture e i clic generati durante questo periodo prima di eseguire eventuali operazioni di follow-up (e-mail di promemoria, creazione di un pubblico, ecc.).
+L&#39;attività **Wait** è un componente del **controllo di flusso** utilizzato per introdurre un ritardo tra due attività in una campagna orchestrata. In questo modo le attività di follow-up saranno più tempestive e rilevanti per il coinvolgimento degli utenti.
+
+Ad esempio, puoi attendere alcuni giorni dopo una consegna e-mail per tenere traccia di aperture e clic prima di inviare un messaggio di follow-up.
 
 ## Configurazione{#wait-configuration}
 
@@ -41,12 +43,16 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 
 1. Aggiungi un&#39;attività **Wait** alla campagna orchestrata.
 
-1. Specifica la **Durata** dell’attesa tra le transizioni in entrata e in uscita.
+1. Selezionare il tipo di attesa più adatto alle proprie esigenze:
 
-1. Selezionare l&#39;unità di tempo nel campo **Periodi**: secondi, minuti, ore, giorni.
+   * **Durata**: specifica un ritardo in secondi, minuti, ore o giorni prima di procedere all&#39;attività successiva.
+
+   * **Ora fissa**: imposta una data e un&#39;ora specifiche dopo le quali inizia l&#39;attività successiva.
+
+   ![](../assets/wait_activity.png)
 
 ## Esempio{#wait-example}
 
-L’esempio seguente illustra l’attività **Attendi** in un caso d’uso tipico. Viene inviata un’e-mail di invito a un evento. 24 ore dopo l’invio, viene inviata una consegna SMS alla stessa popolazione.
+L&#39;esempio seguente illustra l&#39;attività **Wait** in un caso d&#39;uso tipico.  Un’e-mail con un codice promozionale viene inviata ai profili che festeggiano il loro compleanno. Dopo 29 giorni, un SMS viene inviato allo stesso gruppo come promemoria che il loro codice promozionale di compleanno sta per scadere.
 
-![](../assets/workflow-wait-example.png)
+![](../assets/wait-example.png)
