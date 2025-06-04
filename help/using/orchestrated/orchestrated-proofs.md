@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 4ba945e8213c9cc2e07ede8fe7f1b435cf942ff7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 6%
@@ -33,4 +33,5 @@ ht-degree: 6%
 Documentazione in corso
 
 >[!ENDSHADEBOX]
->In qualità di manager della campagna, puoi inviare **versioni bozza** dei nostri messaggi personalizzati a un elenco predefinito di revisori interni, garantendo che tutti i contenuti, le personalizzazioni e i collegamenti funzionino come previsto prima del lancio su larga scala.
+
+In qualità di manager della campagna, puoi inviare **versioni bozza** dei nostri messaggi personalizzati a un elenco predefinito di revisori interni, garantendo che tutti i contenuti, la personalizzazione e i collegamenti funzionino come previsto prima del lancio su larga scala.
