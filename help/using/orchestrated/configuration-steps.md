@@ -7,19 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 93ccb3a2a35edc0e7d6e36d3622663e87b453793
+source-git-commit: b1a584528fc6ecf035bfd308dca0da1b37cee6d8
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 # Passaggi di configurazione {#configuration-steps}
 
 +++ Sommario
-| Benvenuto in campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire una query sul database | Attività di campagne orchestrate|
-|—|—|—|—|—|
-|[Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](configuration-steps.md)<br/><br/>[Passaggi chiave per la creazione di campagne orchestrate](gs-campaign-creation.md)|[Creazione di una campagna orchestrata](create-orchestrated-campaign.md)<br/><br/>[Organizzazione delle attività](orchestrate-activities.md)<br/><br/>[Invio di messaggi con campagne orchestrate](send-messages.md)<br/><br/>[Avvio e monitoraggio della campagna](start-monitor-campaigns.md)<br/><br/>[Generazione di rapporti](reporting-campaigns.md)|[Utilizzo della query Modeler](orchestrated-query-modeler.md)<br/><br/>[Creazione della prima query](build-query.md)<br/><br/>[Modifica espressioni](edit-expressions.md)|[Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[E-join](activities/and-join.md) - [Pubblico di generazione](activities/build-audience.md) [Cambia dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md)|
+
+| Benvenuto in campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+|---|---|---|---|
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](configuration-steps.md)<br/><br/>[Passaggi chiave per la creazione di campagne orchestrate](gs-campaign-creation.md) | [Creare una campagna orchestrata](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Inviare messaggi con le campagne orchestrate](send-messages.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare Query Modeler](orchestrated-query-modeler.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa/Partecipa](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -137,7 +138,7 @@ To create links between tables of your datamodel from the Canvas view tab, follo
 
 1. Click **Save** once done.
 
-Doc AEP: https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/create-schema-ui
+Doc AEP: https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui
 
 ## Add data
 
@@ -160,7 +161,7 @@ Adobe Experience Platform allows data to be ingested from external sources while
 
 ![](assets/admin_sources_1.png)
 
-https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
 
 
 ## Create datasets
