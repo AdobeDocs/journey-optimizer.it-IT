@@ -97,8 +97,8 @@ Per navigare facilmente nei frammenti, puoi utilizzare le cartelle per organizza
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuovi stati dei frammenti"
->abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. <br/>La pubblicazione richiede l’autorizzazione utente <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Pubblica frammento</a>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Ulteriori informazioni sulle autorizzazioni per i frammenti di contenuto"
+>abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. <br/>La pubblicazione richiede l’autorizzazione utente <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Pubblica frammento</a>."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Ulteriori informazioni sulle autorizzazioni per i frammenti di contenuto"
 
 I frammenti possono avere più stati:
 
