@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 37%
@@ -36,7 +36,7 @@ ht-degree: 37%
 
 +++
 
-<br/><br/>
+<br/>
 
 In qualità di addetto al marketing, puoi cambiare la dimensione di targeting da un’entità a un’altra entità collegata all’interno di una campagna orchestrata e perfezionare il targeting del pubblico in base a set di dati diversi, ad esempio passando dal profiling degli utenti al targeting di azioni o prenotazioni specifiche.
 

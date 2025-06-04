@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 44%
@@ -31,7 +31,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 In qualità di addetto al marketing, puoi creare facilmente query complesse utilizzando un’interfaccia intuitiva, per segmentare il pubblico in base a un’ampia gamma di criteri e comportamenti e adattare le campagne in modo più efficace.
 
