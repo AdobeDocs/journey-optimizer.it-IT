@@ -48,4 +48,4 @@ Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selez
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
