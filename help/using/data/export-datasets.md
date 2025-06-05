@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esporta i set di dati nelle posizioni di archiviazione cloud
+title: Esportare i set di dati in posizioni di archiviazione cloud
 description: Scopri come esportare i set di dati utilizzando le destinazioni dell’archiviazione cloud di Adobe Experience Platform.
 feature: Datasets
 role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '889'
 ht-degree: 6%
 
 ---
 
-# Esporta i set di dati nelle posizioni di archiviazione cloud {#export-datasets}
+# Esportare i set di dati in posizioni di archiviazione cloud {#export-datasets}
 
 Journey Optimizer consente di stabilire una connessione live con le posizioni di archiviazione cloud per esportare il contenuto dei set di dati.
 
@@ -29,17 +29,17 @@ Puoi esportare i set di dati in 6 destinazioni di archiviazione cloud accessibil
 
 Informazioni dettagliate su ciascuna destinazione sono disponibili nella documentazione di Adobe Experience Platform:
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=it){target="_blank"}
-* [BLOB di Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=it){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=it){target="_blank"}
-* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=it){target="_blank"}
-* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=it){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=it){target="_blank"}.
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [BLOB di Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [Area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}.
 
 
 ## Prerequisiti {#prerequisites}
 
-Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo di accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=it){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
+Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
 | Categoria | Autorizzazione |
 |--|--|
@@ -53,9 +53,9 @@ I passaggi principali per esportare un set di dati in una posizione di archiviaz
 
 ![](assets/dataset-export-process.png)
 
-Informazioni dettagliate su ciascun passaggio sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}.
+Informazioni dettagliate su ciascun passaggio sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Imposta la destinazione dell&#39;archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. Scopri come creare una nuova connessione di destinazione nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=it#setup){target="_blank"}.
+1. **Imposta la destinazione dell&#39;archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. Scopri come creare una nuova connessione di destinazione nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Informazioni dettagliate su ciascun passaggio sono disponibili nella [documentaz
 
    <!--![](assets/dataset-export-review.png)-->
 
-Una volta completata l’esportazione, il contenuto del set di dati viene depositato nella posizione di archiviazione cloud in base alla pianificazione configurata. [Scopri come verificare l&#39;esportazione del set di dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it#verify){target="_blank"}.
+Una volta completata l’esportazione, il contenuto del set di dati viene depositato nella posizione di archiviazione cloud in base alla pianificazione configurata. [Scopri come verificare l&#39;esportazione del set di dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## Set di dati disponibili per l’esportazione {#datasets}
 
@@ -98,6 +98,7 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 | Estensione dei contatori di profilo di AJO | Contiene una mappa di oggetti contenente counter_value e expiryDate, con chiave counter_id |
 | Set di dati profilo push AJO | Memorizza i token di push di un profilo. |
 | Set di dati evento di tracciamento push di AJO | Registri di interazione per il canale push, utilizzato a scopo di reporting e creazione di tipi di pubblico.  |
+| Set di dati dell’evento AJO SMS | Registri di interazione per il canale SMS, utilizzato a scopo di reporting e creazione di pubblico.  |
 | Set di dati superfici AJO | Set di dati vuoto relativo allo schema delle superfici in entrata di Journey Optimizer |
 | AOOutputForUPSDataset | Contiene tutte le appartenenze al pubblico AO da riscrivere su UPS |
 | Set di dati profilo di orchestrazione pubblico | Generato dalla composizione del pubblico per i tipi di pubblico di composizione del pubblico. Contiene tutti i tipi di pubblico di composizione del pubblico, i loro attributi e i dati di arricchimento |
