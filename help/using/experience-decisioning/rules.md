@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 20%
 
 ---
@@ -42,13 +42,16 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 1. Viene visualizzata la schermata di creazione delle regole di decisione. Denomina la regola e fornisci una descrizione.
 
-1. Crea la regola di decisione in base alle tue esigenze utilizzando Adobe Experience Platform Segment Builder. A tal fine, puoi sfruttare diverse origini dati, come attributi di profilo, tipi di pubblico o dati contestuali provenienti da Adobe Experience Platform. [Scopri come sfruttare i dati contestuali](#context-data)
+1. Crea la regola di decisione in base alle tue esigenze utilizzando Adobe Experience Platform Segment Builder. A questo scopo, puoi sfruttare diverse origini dati, ad esempio:
+   * Attributi del profilo e degli elementi decisionali,
+   * Pubblico,
+   * Dati contestuali provenienti da Adobe Experience Platform. [Scopri come sfruttare i dati contestuali](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con il servizio di segmentazione di Adobe Experience Platform.  Tuttavia, il processo globale descritto nella documentazione è ancora valido per creare regole di decisioni. [Scopri come creare le definizioni dei segmenti](../audience/creating-a-segment-definition.md)
+   >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con il servizio di segmentazione di Adobe Experience Platform. Tuttavia, il processo globale descritto nella documentazione è ancora valido per creare regole di decisioni. [Scopri come creare le definizioni dei segmenti](../audience/creating-a-segment-definition.md)
 
 1. Durante l&#39;aggiunta e la configurazione di nuovi campi nell&#39;area di lavoro, nel riquadro **[!UICONTROL Proprietà pubblico]** vengono visualizzate informazioni sui profili stimati appartenenti al pubblico. Fai clic su **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 
