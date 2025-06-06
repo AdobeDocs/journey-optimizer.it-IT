@@ -28,7 +28,7 @@ ht-degree: 44%
 
 <br/>
 
-# Modifica espressioni {#expression}
+&#x200B;# Modifica espressioni {#expression}
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici e ordinamento.
 
