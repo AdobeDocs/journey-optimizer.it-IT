@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Durante il funzionamento a secco, il percorso viene eseguito con le seguenti spe
 * **I nodi Azione canale** con notifiche e-mail, SMS o push non vengono eseguiti.
 * **Le azioni personalizzate** sono disabilitate durante l&#39;esecuzione di prova e le relative risposte sono impostate su null.
 * **I nodi di attesa** vengono ignorati durante l&#39;esecuzione di prova.
-Puoi ignorare i timeout del blocco di attesa; quindi, se la durata dei blocchi di attesa supera la durata consentita del percorso di esecuzione in prova, il ramo non verrà eseguito completamente.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * **Le origini dati esterne** vengono eseguite per impostazione predefinita.
 
 >[!NOTE]
@@ -90,7 +90,7 @@ Per ogni attività, puoi controllare:
 
 * **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività.
 * **[!UICONTROL Uscita (ha soddisfatto i criteri di uscita)]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
-* **[!UICONTROL Uscita (uscita forzata)]**: numero totale di persone che sono uscite.
+* **[!UICONTROL Uscita (uscita forzata)]**: numero totale di persone che sono uscite quando il percorso è stato messo in pausa.
 * **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
 
 
