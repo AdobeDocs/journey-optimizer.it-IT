@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: d2d9847347a41579e5f66d331b6769efa0ef5b21
+source-git-commit: d015c386e4f2b1a15bf97ab444a368ee39ae5ea9
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 20%
@@ -50,7 +50,7 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il pulsante **Modifica espressione** consente di utilizzare l&#39;editor espressioni per definire manualmente un&#39;espressione utilizzando i campi del database e le funzioni di supporto. [Scopri come modificare le espressioni](expression-editor.md)
+   >Il pulsante **Modifica espressione** consente di utilizzare l&#39;editor espressioni per definire manualmente un&#39;espressione utilizzando i campi del database e le funzioni di supporto. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
 1. Fai clic sull&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
@@ -105,9 +105,9 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
    | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
    | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
 
-   +++
++++
 
-1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sull&#39;immagine ![ che mostra l&#39;icona dell&#39;editor di espressioni](assets/do-not-localize/rule-builder-icon-editor.svg). [Scopri come modificare le espressioni](expression-editor.md)
+1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sull&#39;immagine ![ che mostra l&#39;icona dell&#39;editor di espressioni](assets/do-not-localize/rule-builder-icon-editor.svg). [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
    Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzando l&#39;opzione **[!UICONTROL Predefiniti]**.
 
@@ -115,7 +115,7 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
 
    ![immagine che mostra l&#39;opzione predefinita](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
