@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 8%
 
 ---
@@ -90,7 +90,7 @@ Per ogni attività, puoi controllare:
 
 * **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività.
 * **[!UICONTROL Uscita (ha soddisfatto i criteri di uscita)]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
-* **[!UICONTROL Uscita (uscita forzata)]**: numero totale di persone che sono uscite quando il percorso è stato messo in pausa.
+* **[!UICONTROL Uscita (uscita forzata)]**: numero totale di persone che sono uscite quando il percorso è stato messo in pausa. Questa metrica è sempre uguale a zero per i percorsi in modalità di esecuzione a secco.
 * **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
 
 
