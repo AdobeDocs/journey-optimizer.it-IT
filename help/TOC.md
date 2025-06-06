@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 1f68ad1357ec7bb658e664ea3b06b3db476fdbf4
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2414'
 ht-degree: 96%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Simulare il percorso](using/building-journeys/journey-simulation.md)
+      + [Percorso prova](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
    + Gestire i percorsi{#manage-journey}
@@ -185,7 +186,7 @@ ht-degree: 96%
       + [Avviare e monitorare la campagna](using/orchestrated/start-monitor-campaigns.md)
       + [Reporting](using/orchestrated/reporting-campaigns.md)
    + Eseguire query sul database {#query-database}
-      + [Utilizzare Query Modeler](using/orchestrated/orchestrated-query-modeler.md)
+      + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
       + [Crea la prima query](using/orchestrated/build-query.md)
       + [Modifica espressioni](using/orchestrated/edit-expressions.md)
    + Attività di campagne orchestrate {#design-campaigns}
