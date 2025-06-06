@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -45,17 +45,7 @@ Il generatore di regole fornisce un&#39;area di lavoro centrale in cui generare 
 
 ![Immagine che mostra l&#39;interfaccia del generatore di regole](assets/rule-builder-interface.png)
 
-* L&#39;**area di lavoro centrale** è il luogo in cui aggiungere e combinare i diversi componenti per generare la regola. Una barra degli strumenti fornisce opzioni per manipolare facilmente i componenti regola:
-
-  | Icona barra degli strumenti | Descrizione |
-  |--- |--- |
-  | ![Icona Sposta su selezione](assets/do-not-localize/rule-builder-icon-up.svg) | Sposta il componente su di una riga. |
-  | ![Icona Sposta selezione verso il basso](assets/do-not-localize/rule-builder-icon-down.svg) | Sposta il componente in basso di una riga. |
-  | ![Icona selezione gruppo](assets/do-not-localize/rule-builder-icon-group.svg) | Inserire due componenti in un gruppo. |
-  | ![Icona Separa selezione](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Separare i componenti di un singolo gruppo. |
-  | ![Icona Espandi tutto](assets/do-not-localize/rule-builder-icon-expand.svg) | Espandere tutti i gruppi. |
-  | ![Icona Comprimi tutto](assets/do-not-localize/rule-builder-icon-collapse.svg) | Comprimi tutti i gruppi. |
-  | ![Icona Rimuovi tutto](assets/do-not-localize/rule-builder-icon-delete.svg) | Rimuovere tutti i gruppi e i componenti. |
+* L&#39;**area di lavoro centrale** è il luogo in cui aggiungere e combinare i diversi componenti per generare la regola. [Scopri come creare una regola](../orchestrated/build-query.md)
 
 * Il riquadro **[!UICONTROL Proprietà regola]** fornisce informazioni sulla regola. Ti consente di eseguire varie operazioni per controllare la regola e assicurarti che sia adatta alle tue esigenze.
 
