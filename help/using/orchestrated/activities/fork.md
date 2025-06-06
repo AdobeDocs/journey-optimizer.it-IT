@@ -48,7 +48,7 @@ Per configurare l’attività **Fork** segui questi passaggi:
 
 1. Aggiungi un&#39;attività **Fork** alla campagna orchestrata.
 
-1. Definisci un&#39;etichetta ****.
+1. Definisci un&#39;etichetta **&#x200B;**.
 
 1. Assegna un’etichetta a ogni transizione in uscita. Per impostazione predefinita, vengono fornite due transizioni.
 
