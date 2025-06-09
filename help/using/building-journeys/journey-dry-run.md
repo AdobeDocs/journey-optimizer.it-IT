@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 8%
@@ -113,4 +113,4 @@ A livello di percorso, puoi controllare:
 
 I percorsi di esecuzione di prova devono essere arrestati manualmente. Fai clic sul pulsante **Chiudi** per terminare il test e confermare.
 
-Dopo 14 giorni, i percorsi di esecuzione di prova passano automaticamente allo stato Bozza.
+Dopo 14 giorni, i percorsi di esecuzione di prova passano automaticamente allo stato **Bozza**.
