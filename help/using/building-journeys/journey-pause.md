@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
 
 # Sospendi un percorso {#journey-pause}
 
-Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento. Un percorso può essere sospeso per un massimo di 14 giorni. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
+Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
 1. Fai clic sul pulsante **Pausa** per confermare.
 
-Un percorso può essere sospeso per un massimo di 14 giorni.
-
 ## Come riprendere un percorso in pausa {#journey-resume-steps}
 
-I percorsi in pausa possono essere ripresi manualmente in qualsiasi momento.
+I percorsi in pausa vengono ripresi automaticamente al termine del periodo massimo di pausa di 14 giorni. Possono essere ripresi manualmente in qualsiasi momento.
 
-Per terminare la pausa del percorso e riavviare l&#39;ascolto degli eventi di percorso, effettuare le seguenti operazioni:
+Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di percorso, effettuare le seguenti operazioni:
 
 1. Aprire il percorso che si desidera riprendere.
 1. Fai clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso e seleziona **Riprendi**.
