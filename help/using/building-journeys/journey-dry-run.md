@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '821'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 >title="Esecuzione in prova del percorso"
 >abstract="Dopo aver progettato il percorso, esegui un’esecuzione in prova per assicurare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
 
-Percorsi Dry run è una speciale modalità di pubblicazione del percorso in Adobe Journey Optimizer che consente agli addetti al marketing di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo.  Questa funzione aiuta gli addetti al marketing ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta.
+Percorsi Dry run è una speciale modalità di pubblicazione del percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo.  Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta.
 
 
 >[!AVAILABILITY]
@@ -35,7 +35,7 @@ Percorsi Dry run è una speciale modalità di pubblicazione del percorso in Adob
 
 ## Vantaggi chiave {#journey-dry-run-benefits}
 
-L’esecuzione in modalità Percorsi Dry aumenta la fiducia dei professionisti e il successo del percorso consentendo test sicuri e basati sui dati dei percorsi dei clienti che utilizzano dati di produzione reali, senza il rischio di contattare i clienti o di modificare le informazioni del profilo. Questa funzione consente agli addetti al marketing di convalidare la logica di copertura del pubblico e di diramazione prima della pubblicazione, garantendo che i percorsi siano allineati agli obiettivi aziendali previsti.
+L’esecuzione in modalità Percorsi Dry aumenta la fiducia dei professionisti e il successo del percorso consentendo test sicuri e basati sui dati dei percorsi dei clienti che utilizzano dati di produzione reali, senza il rischio di contattare i clienti o di modificare le informazioni del profilo. Questa funzione consente ai professionisti del percorso di convalidare la logica di copertura del pubblico e della diramazione prima della pubblicazione, garantendo che i percorsi siano allineati agli obiettivi di business previsti.
 
 Con l&#39;esecuzione di prova del Percorso, è possibile identificare i problemi in anticipo, ottimizzare le strategie di targeting e migliorare la progettazione del percorso in base ai dati effettivi, non alle ipotesi. Integrato direttamente nell’area di lavoro del percorso, Dry run fornisce rapporti intuitivi e visibilità sugli indicatori delle prestazioni chiave, consentendo ai team di eseguire iterazioni affidabili e di semplificare i flussi di lavoro di approvazione. Ciò migliora l&#39;efficienza operativa, riduce il rischio di lancio e migliora i risultati del coinvolgimento dei clienti.
 
@@ -45,21 +45,23 @@ Percorsi Dry run porta:
 
 1. **Ambiente di test sicuro**: i profili in modalità di esecuzione a secco non vengono contattati, garantendo che non vi sia alcun rischio di inviare comunicazioni o di influire sui dati live.
 1. **Informazioni sul pubblico**: i professionisti del Percorso possono prevedere la raggiungibilità del pubblico in vari nodi del percorso, tra cui rinunce, esclusioni e altre condizioni.
-1. **Feedback in tempo reale**: le metriche vengono visualizzate direttamente nell&#39;area di lavoro del percorso, in modo simile al reporting live, consentendo agli addetti al marketing di perfezionare la progettazione del percorso.
+1. **Feedback in tempo reale**: le metriche vengono visualizzate direttamente nell&#39;area di lavoro del percorso, in modo simile al reporting live, consentendo agli utenti del percorso di perfezionare la progettazione del percorso.
 
 
 >[!CAUTION]
 >
-> Le autorizzazioni per avviare l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Le autorizzazioni per l&#39;avvio dell&#39;esecuzione di prova sono limitate agli utenti con autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
+>Le autorizzazioni per avviare l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Le autorizzazioni per interrompere l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
 
 
 ## Guardrail e limitazioni {#journey-dry-run-limitations}
 
 * La modalità di esecuzione in prova non è disponibile per i percorsi contenenti eventi di reazione.
+* I profili in modalità di esecuzione in prova vengono conteggiati per i profili coinvolgibili.
+* I percorsi di esecuzione in prova non influiscono sulle regole aziendali.
 * Durante la creazione di una nuova versione del percorsi percorso, se una versione precedente è **Live**, l&#39;attivazione dell&#39;esecuzione di prova non è consentita per la nuova versione.
 * L’esecuzione di prova del percorso genera stepEvents. Questi stepEvents hanno un flag specifico e un ID esecuzione di prova:
    * `_experience.journeyOrchestration.stepEvents.inDryRun` restituisce `true` se l&#39;esecuzione di prova è attivata e `false` in caso contrario
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`restituisce l&#39;ID di un&#39;istanza di esecuzione di prova
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` restituisce l&#39;ID di un&#39;istanza di esecuzione di prova
 * Durante il funzionamento a secco, il percorso viene eseguito con le seguenti specificità:
 
    * **I nodi dell&#39;azione del canale**, comprese le notifiche e-mail, SMS o push, non vengono eseguiti.
@@ -67,11 +69,6 @@ Percorsi Dry run porta:
    * **I nodi di attesa** vengono ignorati durante l&#39;esecuzione di prova.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * **Le origini dati**, incluse le origini dati esterne, vengono eseguite per impostazione predefinita.
-
->[!NOTE]
->
-> * I profili in modalità di esecuzione in prova vengono conteggiati per i profili coinvolgibili.
-> * I percorsi di esecuzione in prova non influiscono sulle regole aziendali.
 
 ## Avvia un&#39;esecuzione di prova {#journey-dry-run-start}
 
@@ -124,6 +121,8 @@ A livello di percorso, puoi controllare:
 
 ## Interrompere un&#39;esecuzione di prova {#journey-dry-run-stop}
 
-I percorsi di esecuzione di prova **devono** essere interrotti manualmente. Fai clic sul pulsante **Chiudi** per terminare il test e confermare.
+I percorsi di esecuzione di prova **devono** essere interrotti manualmente.
 
-Dopo 14 giorni, i percorsi di esecuzione di prova passano automaticamente allo stato **Bozza**.
+Fai clic sul pulsante **Chiudi** per terminare il test e confermare.
+
+<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
