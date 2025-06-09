@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '711'
 ht-degree: 3%
 
 ---
 
 # Sospendi un percorso {#journey-pause}
 
-Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento. Un percorso può essere sospeso per un massimo di 14 giorni. È possibile scegliere se riprendere il percorso alla fine del periodo di pausa o se arrestarlo completamente.
+Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento. Un percorso può essere sospeso per un massimo di 14 giorni. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -41,16 +41,15 @@ Questa funzionalità riduce i rischi di invio di messaggi non desiderati durante
 
 * Una versione di percorso può essere sospesa per un massimo di 14 giorni.
 * I percorsi in pausa vengono considerati in tutte le regole aziendali, come se fossero in diretta.
-* I profili vengono &quot;scartati&quot; in un percorso in pausa quando raggiungono un’attività di azione. Se rimangono in attesa durante il periodo di pausa e di uscita di un percorso che viene ripreso, continueranno il percorso e non verranno scartati.
-* Anche dopo la pausa, man mano che gli eventi continuano a essere elaborati, questi eventi verrebbero conteggiati verso una quota di 5 ktps, dopodiché la limitazione verrà visualizzata per unitaria.
+* I profili vengono &quot;scartati&quot; in un percorso in pausa quando raggiungono un’attività di azione. Se rimangono in attesa durante il periodo di pausa e di uscita di un percorso dopo che è stato ripreso, continueranno il percorso e non verranno eliminati.
+* Anche dopo la pausa, man mano che gli eventi continuano a essere elaborati, questi eventi verrebbero conteggiati nella quota relativa al numero di eventi di Percorso al secondo, dopo di che la limitazione viene visualizzata per l’impostazione unitaria.
 * I profili che sono entrati nel percorso ma sono stati scartati durante la pausa vengono comunque conteggiati come profili coinvolgibili.
 * Quando i profili rimangono in un percorso in pausa, al momento della ripresa gli attributi del profilo vengono aggiornati
 * Le condizioni vengono comunque eseguite nei percorsi in pausa, quindi se un percorso è stato sospeso a causa di problemi di qualità dei dati, qualsiasi condizione precedente a un nodo di azione può essere valutata con dati errati.
 * Per il percorso di pubblico di lettura incrementale basato sul pubblico, viene presa in considerazione la durata di pausa. Ad esempio, per un percorso giornaliero, se è stato messo in pausa il 2 e ripreso il 5 del mese, l’esecuzione il 6 prenderà tutti i profili qualificati dal 1° al 6. Questo non avviene per la qualificazione del pubblico o i percorsi basati su eventi (se una qualificazione del pubblico o un evento vengono ricevuti durante una pausa, tali eventi vengono scartati).
 * I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi.
 * Il timeout globale del percorso si applica ancora ai percorsi in pausa. Ad esempio, se un profilo è rimasto in un percorso per 90 giorni e il percorso è in pausa, questo profilo uscirà comunque dal percorso il 91° giorno.
-* Al momento della ripresa di un percorso è disponibile un nuovo stato di **Ripresa** percorso. L&#39;ascolto degli eventi di percorso viene riavviato quando si fa clic su **Riprendi**.  Si verificano alcuni ritardi nella ripresa dei profili nel percorso. Quando il percorso passa da **Ripresa** a **Live**, significa che tutti i profili sono stati ripresi. **La ripresa** può quindi richiedere del tempo.
-* Se i profili vengono mantenuti in un percorso e questo percorso riprende automaticamente dopo XX giorni, i profili continuano il percorso e non vengono eliminati. Se si desidera eliminarli, è necessario riprendere manualmente il percorso.
+* Se i profili vengono mantenuti in un percorso e questo percorso riprende automaticamente dopo alcuni giorni, i profili continuano il percorso e non vengono eliminati. Se vuoi farli cadere, devi fermare il percorso.
   <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## Come sospendere un percorso {#journey-pause-steps}
@@ -70,8 +69,8 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
    Puoi eseguire le seguenti operazioni:
 
-   * Profili blocco
-   * Ignora profili
+   * Profili blocco: i profili attendono la ripresa del percorso
+   * Ignora profili: i profili verranno esclusi dal percorso nel nodo dell’azione successivo
 
 1. Fai clic sul pulsante **Pausa** per confermare.
 
@@ -81,10 +80,12 @@ Un percorso può essere sospeso per un massimo di 14 giorni.
 
 I percorsi in pausa possono essere ripresi manualmente in qualsiasi momento.
 
-Per riprendere un percorso, effettuare le seguenti operazioni:
+Per terminare la pausa del percorso e riavviare l&#39;ascolto degli eventi di percorso, effettuare le seguenti operazioni:
 
 1. Aprire il percorso che si desidera riprendere.
 1. Fai clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso e seleziona **Riprendi**.
+
+   Il percorso passa allo stato **Ripresa**. La transizione dallo stato **Ripresa** allo stato **Live** può richiedere un po&#39; di tempo: tutti i profili devono essere ripresi affinché il percorso sia di nuovo **Live**.
 
 
 
