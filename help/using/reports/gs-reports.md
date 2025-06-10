@@ -5,10 +5,10 @@ title: Introduzione alle funzionalità di reporting e monitoraggio in [!DNL Adob
 description: Scopri come utilizzare le funzionalità di reporting e monitoraggio di  [!DNL Adobe Journey Optimizer] .
 role: User
 level: Beginner
-source-git-commit: 89141216428492ede9e540ad6a52e225e79f1abe
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 12%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
@@ -102,6 +102,7 @@ Ora che conosci i tipi di report disponibili in **[!DNL Journey Optimizer]**, è
 
 ## Tutti i rapporti temporali per canale
 
+### Canali in uscita
 
 Seleziona un canale in uscita per individuare i rapporti globali associati.
 
@@ -116,6 +117,7 @@ Seleziona un canale in uscita per individuare i rapporti globali associati.
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Direct mail</strong></a></div></td>
 </tr></table>
 
+### Esperienze in entrata
 
 Seleziona un’esperienza in entrata per scoprire i rapporti globali associati.
 
