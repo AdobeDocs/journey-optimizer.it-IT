@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: d308086a6de56f3ee2c16c7d11c8891221325c97
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 65%
+source-wordcount: '387'
+ht-degree: 66%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
->[!TAB Adobe Express x Journey Optimizer]
+>[!TAB Adobe Express e Journey Optimizer]
 
 L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
@@ -43,9 +43,9 @@ L’integrazione di Adobe Express in Adobe Journey Optimizer consente di acceder
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
->[!TAB Frammento di contenuto AEM x Journey Optimizer]
+>[!TAB Frammento di contenuto AEM e Journey Optimizer]
 
 Integrando Adobe Experience Manager as a Cloud Service con Adobe Journey Optimizer, ora puoi incorporare facilmente i Frammenti di contenuto AEM nei contenuti Journey Optimizer. Questa connessione semplificata semplifica il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
