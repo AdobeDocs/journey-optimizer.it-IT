@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -68,8 +68,8 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
    Puoi eseguire le seguenti operazioni:
 
-   * Profili blocco: i profili attendono la ripresa del percorso
-   * Ignora profili: i profili verranno esclusi dal percorso nel nodo dell’azione successivo
+   * **Blocca** profili - I profili attenderanno la ripresa del percorso
+   * **Ignora** profili - I profili verranno esclusi dal percorso nel nodo azione successivo
 
 1. Fai clic sul pulsante **Pausa** per confermare.
 
@@ -101,16 +101,21 @@ Quando un percorso viene messo in pausa, puoi applicare un filtro globale basato
 
 Ad esempio, per escludere tutti i clienti francesi dalle comunicazioni di marketing verso la Francia, procedi come segue:
 
-
 1. Individuare il percorso in pausa che si desidera modificare.
 
 1. Fai clic sull&#39;icona **Criteri di uscita e filtro globale**.
 
-1. Nelle impostazioni Filtro globale, definisci un filtro basato sugli attributi del profilo.
+   ![Aggiungere un filtro globale a un percorso in pausa](assets/add-global-filter.png){width="50%" align="left"}
+
+1. Nelle impostazioni **Criteri di uscita e filtro globale**, definisci un filtro in base agli attributi del profilo.
 
 1. Imposta l’espressione per escludere i profili in cui l’attributo paese è uguale a Francia.
 
-1. Riprendi il percorso.
+   ![Aggiungere un filtro globale a un percorso in pausa](assets/add-country-filter.png){width="50%" align="left"}
+
+1. Salva il filtro e fai clic sul pulsante **Aggiorna percorso** per applicare le modifiche.
+
+1. [Riprendi il percorso](#journey-resume-steps).
 
    Al momento della ripresa, tutti i profili con l’attributo country impostato su France verranno automaticamente esclusi dal percorso. Tutti i nuovi profili con l’attributo country impostato sulla Francia che tentano di entrare nel percorso verranno bloccati.
 
