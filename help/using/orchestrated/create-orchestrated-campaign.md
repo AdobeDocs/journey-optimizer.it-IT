@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: fcd1ac3b8b34fe4976695775590cad8974b5281f
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 14%
@@ -44,7 +44,7 @@ Documentazione in corso
 
 Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
-1. Passa al menu **[ !UICONTRO Campagne]**, seleziona la scheda **[!UICONTROL Orchestrazione]** e seleziona **[!UICONTROL Crea campagna]**.
+1. Passa al menu **[!UICONTROL Campagne]**, seleziona la scheda **[!UICONTROL Orchestrazione]** e seleziona **[!UICONTROL Crea campagna]**.
 
    ![](assets/inventory-create.png)
 
