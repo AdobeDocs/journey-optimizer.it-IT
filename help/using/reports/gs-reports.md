@@ -5,14 +5,14 @@ title: Introduzione alle funzionalità di reporting e monitoraggio in [!DNL Adob
 description: Scopri come utilizzare le funzionalità di reporting e monitoraggio di  [!DNL Adobe Journey Optimizer] .
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 89141216428492ede9e540ad6a52e225e79f1abe
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 12%
 
 ---
 
-# Introduzione alle funzionalità di reporting e monitoraggio {#get-started-report}
+# Introduzione alle funzionalità di reporting {#get-started-report}
 
 Adobe Journey Optimizer offre informazioni fruibili grazie alle sue solide funzionalità di reporting. I rapporti sono disponibili per campagne, percorsi, pagine di destinazione, elenchi di abbonamenti e altro ancora. I rapporti disponibili sono elencati di seguito.
 
