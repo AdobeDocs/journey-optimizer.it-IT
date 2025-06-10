@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1734'
 ht-degree: 29%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 29%
 
 Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
-1. Per creare una **campagna orchestrata**, passa al menu **Campagne**.
+1. Passare al menu **Campagne**.
 
 1. Fai clic sul pulsante **[!UICONTROL Crea campagna orchestrata]** nell&#39;angolo superiore destro della schermata.
 

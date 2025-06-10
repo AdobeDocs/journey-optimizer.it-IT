@@ -7,20 +7,15 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 27%
+source-wordcount: '496'
+ht-degree: 23%
 
 ---
 
 
-# Accedere e gestire i passaggi per la creazione di campagne orchestrate {#orchestrated-campaign-creation}
-
->[!CONTEXTUALHELP]
->id="ajo_targeting_workflow_list"
->title="Campagna orchestrata"
->abstract="In questa schermata, puoi accedere all’elenco completo delle campagne orchestrate, controllarne lo stato corrente, le date dell’ultima/successiva esecuzione e creare una nuova campagna orchestrata."
+# Passaggi chiave per la creazione di campagne orchestrate {#orchestrated-campaign-creation}
 
 +++ Sommario
 
