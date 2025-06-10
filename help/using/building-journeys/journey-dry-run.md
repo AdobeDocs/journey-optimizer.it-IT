@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -81,7 +81,7 @@ Per attivare l&#39;esecuzione in prova, effettuare le seguenti operazioni:
 
    ![Avvia l&#39;esecuzione di prova del percorso](assets/dry-run-button.png)
 
-1. Conferma la pubblicazione
+1. Conferma la pubblicazione.
 
    Durante la transizione viene visualizzato il messaggio di stato **Attivazione dell&#39;esecuzione di prova**.
 
