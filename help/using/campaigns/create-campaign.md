@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Per definire la popolazione target di una campagna di marketing pianificata, eff
 
 1. Nella sezione **Pubblico**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. Ulteriori informazioni sui tipi di pubblico in [questa sezione](../audience/about-audiences.md).
 
-1. Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    È consentito un solo tipo di identità per campagna. Gli individui appartenenti a un segmento che non ha il tipo di identità selezionato tra le loro diverse identità non possono essere targetizzati dalla campagna.
 
@@ -106,7 +106,7 @@ Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="e-mail" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>E-mail</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Notifica push</strong></a></div></td>
@@ -121,8 +121,8 @@ Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine
 <div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
 <td><a href="../code-based/create-code-based.md"><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/create-code-based.md"><strong>Esperienza basata su codice</strong></a></div></td>
-<td><a href="../content-card/create-content-card.md"><img alt="schede di contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/create-content-card.md"><strong>Schede di contenuto</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>Schede contenuto</strong></a></div></td>
 </tr></table>
 
 Una volta definito il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con profili di test o dati di input di esempio caricati da un file CSV/JSON, oppure aggiunti manualmente. [Ulteriori informazioni](../content-management/preview-test.md). Per tornare alla schermata di creazione della campagna, fai clic sulla freccia sinistra.
