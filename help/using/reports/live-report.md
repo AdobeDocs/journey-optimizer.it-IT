@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 # Introduzione ai rapporti live {#live-report}
 
-Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata.
-I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**.
+Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata. I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**.
 
 * Se desideri eseguire il targeting di un percorso nel contesto di un percorso, dal menu **[!UICONTROL Percorsi]**, accedi al menu **[!UICONTROL Altre azioni]** del tuo percorso e fai clic sul pulsante **[!UICONTROL Visualizza report delle ultime 24 ore]**.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ Crea campagne e percorsi da questa sezione.
 
 * **[!UICONTROL Percorsi]**: crea, configura e gestisci i percorsi dei clienti combinando gli eventi, le attività di orchestrazione e di azione per creare scenari cross-channel con più passaggi. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Pagine di destinazione]**: crea, progetta, testa e pubblica pagine di destinazione per inviare agli utenti i collegamenti ai moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a servizi specifici. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL GESTIONE DECISIONI] {#left-nav-decision}
 
@@ -79,6 +77,9 @@ Crea e gestisci i contenuti di questa sezione.
 * **[!UICONTROL Modelli di contenuto]**: per una progettazione più rapida e migliorata, crea modelli autonomi per riutilizzare facilmente i contenuti personalizzati nelle campagne e nei percorsi di Journey Optimizer. [Ulteriori informazioni](../content-management/content-templates.md)
 
 * **[!UICONTROL Frammenti]**: crea e gestisci frammenti per semplificare il processo di progettazione delle e-mail precompilando blocchi di contenuto personalizzati che possono essere utilizzati per assemblare rapidamente i contenuti delle e-mail. [Ulteriori informazioni](../content-management/fragments.md)
+
+* **[!UICONTROL Pagine di destinazione]**: crea, progetta, testa e pubblica pagine di destinazione per inviare agli utenti i collegamenti ai moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a servizi specifici. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL GESTIONE DATI] {#left-nav-data}
 

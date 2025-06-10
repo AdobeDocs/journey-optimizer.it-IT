@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 95%
 
 ---
@@ -447,7 +447,8 @@ Imposta le regole di limitazione messaggi e percorso {#capping-rules}
       + [Utilizzo di attributi con più valori](using/audience/computed-attributes.md)
    + [Identità](using/audience/get-started-identity.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
-+ Tracciamento e monitoraggio {#reporting}
++ Reporting e monitoraggio {#reporting}
+   + [Introduzione a reporting e monitoraggio](using/reports/gs-reports.md)
    + Rapporto live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
       + [Elenco delle metriche](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ Imposta le regole di limitazione messaggi e percorso {#capping-rules}
       + [Rapporto panoramica](using/reports/channel-report-cja.md)
       + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
       + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
-   + Rapporti sul percorso {#reports}
+   + Rapporti di percorso personalizzati {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
       + Campi evento del passaggio precedente {#legacy-step-event-fields}
