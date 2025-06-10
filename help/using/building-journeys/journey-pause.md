@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '1047'
+ht-degree: 2%
 
 ---
 
 # Sospendi un percorso {#journey-pause}
 
-Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
-
+Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare filtri globali](#journey-global-filters) per escludere profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ Questa funzionalità riduce i rischi di invio di messaggi non desiderati durante
 
 ## Come sospendere un percorso {#journey-pause-steps}
 
-Puoi mettere in pausa qualsiasi percorso live.
+Puoi sospendere qualsiasi **Live** percorso.
 
 Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
 1. Aprire il percorso che si desidera sospendere.
 1. Fai clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso e seleziona **Pause**.
 
-   ![Pausa pulsante percorso](assets/pause-journey-button.png)
+   ![Pausa pulsante percorso](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. Seleziona la modalità di gestione dei profili attualmente presenti nel percorso.
 
@@ -74,6 +73,11 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
 1. Fai clic sul pulsante **Pausa** per confermare.
 
+Dall&#39;elenco dei percorsi, puoi sospendere uno o più **Live** percorsi. Per mettere in pausa un gruppo di percorsi (_pausa collettiva_), selezionali nell&#39;elenco e fai clic sul pulsante **Pausa** nella barra blu nella parte inferiore della schermata. Il pulsante **Pausa** è disponibile solo quando sono selezionati **percorsi di disponibilità**.
+
+![Sospendi in blocco due percorsi live dalla barra inferiore](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## Come riprendere un percorso in pausa {#journey-resume-steps}
 
 I percorsi in pausa vengono ripresi automaticamente al termine del periodo massimo di pausa di 14 giorni. Possono essere ripresi manualmente in qualsiasi momento.
@@ -85,6 +89,35 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 
    Il percorso passa allo stato **Ripresa**. La transizione dallo stato **Ripresa** allo stato **Live** può richiedere un po&#39; di tempo: tutti i profili devono essere ripresi affinché il percorso sia di nuovo **Live**.
 
+1. Fai clic sul pulsante **Riprendi** per confermare.
 
 
+Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
 
+
+## Applicare un filtro globale ai profili in un percorso in pausa  {#journey-global-filters}
+
+Quando un percorso viene messo in pausa, puoi applicare un filtro globale basato sugli attributi del profilo. Questo filtro abilita l’esclusione dei profili che corrispondono all’espressione definita al momento della ripresa. I profili che corrispondono ai criteri attualmente presenti nel percorso lo chiuderanno e i nuovi profili che tenteranno di entrare verranno bloccati.
+
+Ad esempio, per escludere tutti i clienti francesi dalle comunicazioni di marketing verso la Francia, procedi come segue:
+
+
+1. Individuare il percorso in pausa che si desidera modificare.
+
+1. Fai clic sull&#39;icona **Criteri di uscita e filtro globale**.
+
+1. Nelle impostazioni Filtro globale, definisci un filtro basato sugli attributi del profilo.
+
+1. Imposta l’espressione per escludere i profili in cui l’attributo paese è uguale a Francia.
+
+1. Riprendi il percorso.
+
+   Al momento della ripresa, tutti i profili con l’attributo country impostato su France verranno automaticamente esclusi dal percorso. Tutti i nuovi profili con l’attributo country impostato sulla Francia che tentano di entrare nel percorso verranno bloccati.
+
+Tieni presente che le esclusioni di profilo per i profili attualmente nel percorso e per i nuovi profili si verificheranno solo quando raggiungeranno un nodo di azione.
+
+>[!CAUTION]
+>
+>* È possibile impostare solo **un** filtro globale al percorso.
+>
+>* Puoi creare, aggiornare o eliminare un filtro globale solo tra **percorsi in pausa**.
