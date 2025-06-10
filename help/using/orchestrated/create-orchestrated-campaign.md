@@ -44,7 +44,7 @@ Documentazione in corso
 
 Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
-1. Passa al menu **[!UICONTRO Campagne]**, seleziona la scheda **[!UICONTROL Orchestrazione]** e seleziona **[!UICONTROL Crea campagna]**.
+1. Passa al menu **[ !UICONTRO Campagne]**, seleziona la scheda **[!UICONTROL Orchestrazione]** e seleziona **[!UICONTROL Crea campagna]**.
 
    ![](assets/inventory-create.png)
 
