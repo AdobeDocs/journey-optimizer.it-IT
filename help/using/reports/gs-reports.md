@@ -5,7 +5,7 @@ title: Introduzione alle funzionalità di reporting e monitoraggio in [!DNL Adob
 description: Scopri come utilizzare le funzionalità di reporting e monitoraggio di  [!DNL Adobe Journey Optimizer] .
 role: User
 level: Beginner
-source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
+source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Seleziona un&#39;esperienza in entrata per individuare i **report globali all-ti
 <div align="center"><p><strong>Canale in-app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Rapporto percorso</strong></a></p></div></td>
 <td><p><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Canale web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td>&lt;<img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png">
+<td><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Esperienze basate su codice</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto campagna</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto percorso</strong></a></p></div></td>
 <td><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Schede contenuto</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapporto percorso</strong></a></p></div></td>
