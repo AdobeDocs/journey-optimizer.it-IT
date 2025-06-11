@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: nuovi tentativi, mancato recapito, morbido, ottimizzatore, errore
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
@@ -34,11 +34,11 @@ Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di error
 
 Ad esempio:
 
-* Hai inviato un’e-mail lunedì con un periodo di tempo di esecuzione dei nuovi tentativi impostato su 24 ore. Impossibile recapitare l&#39;indirizzo emma.jones@mail.com. L’e-mail viene ritentata fino a tre volte e smette di ritentare quando raggiunge il periodo di 24 ore.
+* Hai inviato un’e-mail lunedì con un periodo di tempo di esecuzione dei nuovi tentativi impostato su 24 ore. Impossibile recapitare l&#39;indirizzo `emma.jones@mail.com`. L’e-mail viene ritentata fino a tre volte e smette di ritentare quando raggiunge il periodo di 24 ore.
 
-* Mercoledì spedisci un’altra e-mail. Anche emma.jones@mail.com, che presenta già un conteggio di tre errori, è oggetto di targeting e di nuovo non viene consegnato - due volte. Vengono contabilizzati altri due errori.
+* Mercoledì spedisci un’altra e-mail. Anche `emma.jones@mail.com`, che presenta già un conteggio di tre errori, è sottoposto a targeting e di nuovo non riesce a essere recapitato - due volte. Vengono contabilizzati altri due errori.
 
-Se tra queste due e-mail non è stata tentata e non si è verificato alcun altro tentativo di consegna, l’indirizzo emma.jones@mail.com viene aggiunto all’elenco di soppressione in base all’impatto cumulativo di 3 + 2 errori.
+Se tra queste due e-mail non è stata tentata e non si è verificato alcun altro tentativo di consegna, l&#39;indirizzo `emma.jones@mail.com` viene aggiunto all&#39;elenco di soppressione in base all&#39;impatto cumulativo di 3 + 2 errori.
 
 ## Edizione soglia di ripetizione {#edit-retry-threshold}
 
@@ -72,7 +72,7 @@ Il periodo di tempo **per i tentativi** è l&#39;intervallo di tempo in cui verr
 
 Per impostazione predefinita, i nuovi tentativi verranno eseguiti per **3,5 giorni** (o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
 
-Tuttavia, per evitare che i nuovi tentativi vengano eseguiti quando non è più necessario, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di una [configurazione del canale](channel-surfaces.md) (ossia un predefinito per messaggi) che si applica al canale e-mail.
+Tuttavia, per evitare che i nuovi tentativi vengano eseguiti quando non è più necessario, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di una [configurazione del canale](channel-surfaces.md) applicabile al canale e-mail.
 
 Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un’e-mail transazionale relativa alla reimpostazione della password e contenente un collegamento valido solo per un giorno. Allo stesso modo, per una vendita di mezzanotte, puoi definire un periodo di esecuzione di un nuovo tentativo di 6 ore.
 
