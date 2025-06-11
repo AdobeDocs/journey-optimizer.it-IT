@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 25%
 
 ---
 
@@ -53,49 +53,15 @@ L’accesso a queste funzionalità di reporting dipende dal contesto e dalle are
 
 * Se **possiedi** Customer Journey Analytics e hai accesso a un profilo di prodotto Customer Journey Analytics, devi:
 
-   * **[!UICONTROL Autorizzazioni per la creazione di tipi di pubblico]** e **[!UICONTROL Autorizzazioni per la visualizzazione del pubblico]** per Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * **[!UICONTROL Autorizzazioni per la creazione di tipi di pubblico]** e **[!UICONTROL Autorizzazioni per la visualizzazione del pubblico]** per Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * **[!UICONTROL Gestione dei profili]** - Autorizzazione per Adobe Journey Optimizer. [Ulteriori informazioni](../administration/permissions.md)
 
-* Le visualizzazioni dati di Customer Journey Analytics devono essere configurate con l&#39;impostazione seguente: **Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer**. [Ulteriori informazioni sulle visualizzazioni dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* Le visualizzazioni dati di Customer Journey Analytics devono essere configurate con l&#39;impostazione seguente: **Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer**. [Ulteriori informazioni sulle visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-
-## Tutti i rapporti temporali per canale
-
-Tutti i rapporti globali temporali sono disponibili per tutti i tuoi canali. Seleziona il rapporto per il canale di cui hai bisogno per ottenere ulteriori dettagli.
-
-### Canali in uscita
-
-Seleziona un canale in uscita per individuare i **report globali all-time associati**.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="e-mail" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>Canale e-mail</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>Canale SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>Canale push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>Canale direct mail</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Rapporto percorso</strong></a></p></div></td>
-</tr></table>
-
-### Esperienze in entrata
-
-Seleziona un&#39;esperienza in entrata per individuare i **report globali all-time associati**.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>Canale in-app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><p><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>Canale web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>Esperienze basate su codice</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto campagna</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>Schede contenuto</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapporto percorso</strong></a></p></div></td>
-</tr></table>
 
 ## Video dimostrativo{#video}
 
 Il video seguente mostra come utilizzare la funzionalità avanzata di reporting di Journey Optimizer con Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443159?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
