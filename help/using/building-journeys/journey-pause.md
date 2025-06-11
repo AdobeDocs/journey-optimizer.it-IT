@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 2%
@@ -86,7 +86,7 @@ Dall&#39;elenco dei percorsi, puoi sospendere uno o più **Live** percorsi. Per 
 ## Come riprendere un percorso in pausa {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="Riprendi il percorso"
 >abstract="Riprendi un percorso in pausa per consentire ai nuovi profili di accedere nuovamente. Se i profili erano in attesa durante la pausa, continueranno il loro percorso. Ideale per il riavvio sicuro dei percorsi dopo aggiornamenti o pause."
 
