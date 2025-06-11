@@ -38,7 +38,7 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >Questa funzionalità è rilasciata come versione Beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
->>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>&#x200B;>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 La funzione di Allineamento dei marchi è stata creata per aiutarti a creare, rivedere e gestire contenuti che rimangono conformi alle linee guida del tuo marchio. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
 
