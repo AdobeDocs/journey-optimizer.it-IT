@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '2514'
-ht-degree: 99%
+source-wordcount: '2513'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni s
 >
 >* [I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"} si applicano anche a Adobe Journey Optimizer.
 >
->* Vedi anche [Guardrail per l&#39;acquisizione di dati nel Profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Vedi anche [Guardrail per l&#39;acquisizione di dati nel Profilo cliente in tempo reale](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Browser supportati {#browsers}
@@ -220,7 +220,7 @@ All’attività del percorso [qualificazione del pubblico](../building-journeys/
 
 All’[editor di espressioni del percorso](../building-journeys/expression/expressionadvanced.md) si applicano i seguenti guardrail:
 
-* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. Devi creare un nuovo pubblico e utilizzare una condizione inaudience nel percorso.
+* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. È necessario creare un nuovo pubblico e utilizzare una condizione `inaudience` nel percorso.
 * Non è possibile utilizzare gli attributi `timeSeriesEvents` nell’editor di espressioni. Per accedere agli eventi di esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
 
 
