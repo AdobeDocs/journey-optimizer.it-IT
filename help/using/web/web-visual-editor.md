@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
@@ -20,13 +20,13 @@ ht-degree: 8%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer], l&#39;authoring Web visivo è basato sull&#39;estensione del browser Chrome **Adobe Experience Cloud Visual Helper**. [Ulteriori informazioni](web-prerequisites.md#visual-authoring-prerequisites)
@@ -73,7 +73,7 @@ Per iniziare a creare la tua esperienza web utilizzando il designer Web visivo, 
 
 >[!NOTE]
 >
->Il designer del contenuto web è per lo più simile al designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Il designer di contenuti web è per lo più simile a E-mail Designer. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Dopo aver modificato il contenuto web, puoi gestire le modifiche. [Ulteriori informazioni](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ Dopo aver modificato il contenuto web, puoi gestire le modifiche. [Ulteriori inf
    * [Divisore](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Immagine](../email/content-components.md#image)
-   * Intestazione - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
-   * Paragrafo - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
+   * Intestazione - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nel Designer e-mail. [Ulteriori informazioni](../email/content-components.md#text)
+   * Paragrafo - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nel Designer e-mail. [Ulteriori informazioni](../email/content-components.md#text)
    * Collegamento
 
    ![](assets/web-designer-components.png)
@@ -166,8 +166,8 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 >
 >Attualmente, [!DNL Journey Optimizer] non supporta le modifiche di pagina specifiche per le dimensioni del dispositivo. Ciò significa che, ad esempio, se disponi di un sito web mobile separato con una struttura del sito separata, dovrai apportare le modifiche specifiche al sito mobile in un’altra campagna.
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452643/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

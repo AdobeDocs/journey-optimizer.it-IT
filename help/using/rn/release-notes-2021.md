@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 </table>
 
 
-Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=it){target="_blank"} per ulteriori modifiche.
+Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=it){target="_blank"} per ulteriori modifiche.
 
 ### Miglioramenti
 
@@ -111,8 +111,8 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 ### Correzioni
 
-* È stato risolto un problema che impediva la visualizzazione dell’elenco dei percorsi, dell’elenco dei messaggi e dell’E-mail designer quando la lingua del browser non era inglese.
-* È stato corretto un errore di sintassi che si verificava quando si aggiungeva la personalizzazione utilizzando un’espressione nell’E-mail designer: i caratteri venivano preceduti erroneamente.
+* È stato risolto un problema che impediva la visualizzazione dell’elenco dei Percorsi, dell’elenco dei messaggi e di E-mail Designer quando la lingua del browser non era inglese.
+* È stato corretto un errore di sintassi che si verificava quando si aggiungeva la personalizzazione utilizzando un’espressione nel Designer delle e-mail: i caratteri venivano preceduti erroneamente.
 * È stato risolto un problema che causava un errore 404 durante la navigazione nel menu **Amministrazione**.
 * È stato risolto un problema che attivava altri percorsi live durante il test di un percorso utilizzando un evento di business.
 
@@ -294,7 +294,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 ### Correzioni
 
 * È stato risolto un problema di accessibilità nella navigazione della scheda dei messaggi.
-* È stato risolto un problema di localizzazione nelle etichette di e-mail designer.
+* È stato risolto un problema di localizzazione nelle etichette di E-mail Designer.
 * È stato risolto un problema che si verificava quando si selezionavano più nodi in un percorso e quindi si faceva clic su “Elimina” nel riquadro delle proprietà.
 * È stato risolto un problema che impediva l’aggiunta di una nuova intestazione a un’azione utilizzata in un percorso.
 * Ora puoi scoprire il motivo per cui una creazione di un predefinito di messaggio non è riuscita tramite un avviso più esplicito nell’interfaccia utente.
@@ -313,7 +313,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 <tbody>
 <tr>
 <td>
-<p>Arricchisci le esperienze con i dati di riferimento caricati in Journey Optimizer. Ad esempio, è possibile cercare i metadati su un ID di prenotazione in un evento di esperienza o trovare le informazioni sui prodotti da uno SKU in un evento di esperienza da utilizzare nell’area di lavoro. </p>
+<p>Arricchisci le esperienze con i dati di riferimento caricati in Journey Optimizer. Ad esempio, è possibile cercare metadati su un ID di prenotazione in un evento esperienza o trovare informazioni sui prodotti da uno SKU in un evento esperienza da utilizzare nell’area di lavoro. </p>
 <p>È ora possibile sfruttare le relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro. Puoi quindi sfruttare tutti i campi delle tabelle collegate durante la configurazione di un evento unitario, quando utilizzi le condizioni in un percorso, nella personalizzazione dei messaggi e nella personalizzazione delle azioni personalizzata.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentazione dettagliata</a>.</p>
 </td>
@@ -365,4 +365,4 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 * È stato risolto un problema a causa del quale le informazioni IP mancavano nella schermata Record PTR.
 * È stata implementata la localizzazione nella barra delle offerte nell’editor di espressioni.
 * È stata corretta la spaziatura errata nei popup delle informazioni.
-* È stato risolto un problema in E-mail designer durante il caricamento di un file HTML in cui il foglio di stile interno con proprietà `background-image` non era supportato.
+* È stato risolto un problema in E-mail Designer durante il caricamento di un file HTML in cui il foglio di stile interno con la proprietà `background-image` non era supportato.

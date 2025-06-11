@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: risorse, integrazione
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 11%
@@ -51,10 +51,10 @@ Con una licenza Enterprise, gli utenti possono accedere completamente all’edit
 
 +++Casi d’uso disponibili per gli utenti e una licenza Enterprise per Adobe Express
 
-* [Rimuovi sfondo](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/remove-background.html)
-* [Rimuovi oggetti](https://helpx.adobe.com/it/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Cancella](https://helpx.adobe.com/it/express/create-and-edit-images/edit-images/eraser.html)
-* [Inserisci oggetto](https://helpx.adobe.com/it/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Rimuovi sfondo](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Rimuovi oggetti](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Cancella](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Inserisci oggetto](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [Ritaglio](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [Effetti](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
@@ -149,7 +149,7 @@ L&#39;immagine è ora pronta per essere utilizzata nel contenuto.
 
 Scopri come modificare le risorse in Adobe Journey Optimizer utilizzando gli strumenti di Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455531/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

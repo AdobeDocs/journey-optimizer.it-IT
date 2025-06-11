@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
@@ -89,7 +89,7 @@ Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguit
 
 >[!NOTE]
 >
->Il designer del contenuto web è per lo più simile al designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Il designer di contenuti web è per lo più simile a E-mail Designer. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Utilizzare i componenti {#content-components}
 
@@ -103,8 +103,8 @@ Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguit
    * [Divisore](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Immagine](../email/content-components.md#image)
-   * Intestazione - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
-   * Paragrafo - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nella finestra di progettazione e-mail. [Ulteriori informazioni](../email/content-components.md#text)
+   * Intestazione - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nel Designer e-mail. [Ulteriori informazioni](../email/content-components.md#text)
+   * Paragrafo - L&#39;utilizzo di questo componente è simile all&#39;utilizzo del componente **[!UICONTROL Testo]** nel Designer e-mail. [Ulteriori informazioni](../email/content-components.md#text)
    * Collegamento
 
    ![](assets/web-designer-components.png)
@@ -180,8 +180,8 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 >
 >Attualmente, [!DNL Journey Optimizer] non supporta le modifiche di pagina specifiche per le dimensioni del dispositivo. Ciò significa che, ad esempio, se disponi di un sito web mobile separato con una struttura del sito separata, dovrai apportare le modifiche specifiche al sito mobile in un’altra campagna.
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452643/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

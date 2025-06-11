@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 24%
@@ -38,7 +38,7 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >Questa funzionalità è rilasciata come versione Beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
->Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 La funzione di Allineamento dei marchi è stata creata per aiutarti a creare, rivedere e gestire contenuti che rimangono conformi alle linee guida del tuo marchio. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
 
@@ -48,7 +48,7 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
 1. Crea la tua [campagna e-mail](../campaigns/create-campaign.md).
 
-1. Apri il menu **[!UICONTROL Allineamento marchio]** in E-mail Designer.
+1. Apri il menu **[!UICONTROL Allineamento marchio]** nel Designer e-mail.
 
    Il contenuto verrà automaticamente valutato in base al marchio predefinito. [Scopri come assegnare un marchio predefinito](brands.md).
 

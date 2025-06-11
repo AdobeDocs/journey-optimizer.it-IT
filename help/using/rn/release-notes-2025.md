@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ Di seguito sono elencate le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La funzione di Punteggio di allineamento al brand offre un feedback chiaro direttamente nella finestra dell’E-mail designer, consentendoti di capire se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
+<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nel Designer e-mail, consentendoti di vedere se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/brands-score.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 * **Tracciamento URL personalizzato** - Data di disponibilità: 30 aprile 2025
 
-  Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, ora puoi personalizzare tutti i parametri di tracciamento URL contemporaneamente a livello di configurazione dei canali e-mail, invece di farlo nell’E-mail designer per ogni collegamento nel contenuto. [Ulteriori informazioni](../email/surface-personalization.md#personalize-url-tracking)
+  Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, ora puoi personalizzare tutti i parametri di tracciamento URL contemporaneamente a livello di configurazione del canale e-mail, invece di farlo nel Designer e-mail per ogni collegamento nel contenuto. [Ulteriori informazioni](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E-mail designer** - Data di disponibilità: 1 aprile 2025
 
