@@ -37,9 +37,9 @@ Nel menu a sinistra, nella sezione **Amministrazione**, fare clic su **Avvisi**.
 
 ![](assets/alert-subscribe.png)
 
-È inoltre possibile sottoscrivere avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
+È inoltre possibile sottoscrivere avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
 
-Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente. Per impostazione predefinita, è abilitato solo l’avviso in-app. Per abilitare gli avvisi e-mail, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente. Per impostazione predefinita, è abilitato solo l’avviso in-app. Per abilitare gli avvisi e-mail, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.
 
 Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;.
 
