@@ -4,14 +4,13 @@ product: journey optimizer
 title: Note preliminari sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 feature: Release Notes
-topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d069fb775cc8cf561c5d7b9ef87b9c8d9f5ba0e7
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+workflow-type: tm+mt
+source-wordcount: '998'
+ht-degree: 35%
 
 ---
 
@@ -22,28 +21,69 @@ ht-degree: 100%
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
 
-## Note preliminari sulla versione di maggio 2025 {#25-5-rn}
+## Note preliminari sulla versione del 25 giugno {#25-6-rn}
 
 
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata sono pubblicati alla data di rilascio.
 
-**Data di rilascio**: 20-21 maggio 2025
+**Data di rilascio**: giovedì 18 giugno 2025
 
 
-### Nuove funzionalità {#25-04-features}
+### Nuove funzionalità {#25-06-features}
 
 Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
+
+
+
 <table>
 <thead>
 <tr>
-<th><strong>Sincronizzare la pianificazione Leggi pubblico con il processo di segmentazione in batch</strong><br/></th>
+<th><strong>Messaggistica RCS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare esecuzioni giornaliere di un percorso dopo il completamento della segmentazione in batch. Questa opzione è ora disponibile nei percorsi con pianificazione giornaliera per tutta la clientela. L’opzione consente di definire un intervallo di tempo massimo di 6 ore per l’attesa dei dati del pubblico dai processi di segmentazione in batch, in modo che i percorsi vengano eseguiti con i dati più aggiornati o che vengano ignorati se non sono pronti.</p>
+<p>La messaggistica RCS (Rich Communication Services) è ora supportata in Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate soggette al supporto del gestore:</p>
+<ul>
+<li>Supporto per mittenti con marchio e verificati: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
+<li>Informazioni sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
+<li>Tracciamento dei collegamenti: incorpora e tieni traccia degli URL nei messaggi RCS per l’analisi del coinvolgimento.</li>
+<li>Fallback a SMS: fallback automatico a SMS quando il dispositivo del profilo non supporta RCS o è temporaneamente non raggiungibile tramite RCS.</li>
+<li>Composizione di base dei messaggi: invia messaggi RCS basati su testo con file multimediali facoltativi ed elementi avanzati, a seconda del supporto del provider.</li>
+</ul>
+<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>True Multi-Tenant Unitary Delivery</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>No description provided.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Campi modulo nel contenuto dell’esperienza basata su codice</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML che consentono agli utenti non tecnici di modificare facilmente il contenuto in esperienze basate su codice senza la necessità di manipolare il codice.</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
@@ -53,92 +93,101 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Decisioning: nuovo generatore di formule basato sull’IA</strong><br/></th>
+<th><strong>Metodo di delega personalizzato per sottodomini</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare formule di classificazione di decisioning specifiche definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di classificazione personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
-<img src="assets/do-not-localize/formula-builder.gif">
-<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/exd-ranking-formulas.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: 14 maggio 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Integrazione dei frammenti di contenuto di Adobe Experience Manager</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con l’integrazione di Adobe Experience Manager e Adobe Journey Optimizer, ora puoi utilizzare i frammenti di contenuto di Adobe Experience Manager all’interno dei contenuti Journey Optimizer. Questa connessione semplifica l’accesso e l’utilizzo dei contenuti AEM direttamente in Journey Optimizer.</p>
-<p>Precedentemente rilasciata in versione LA (disponibilità limitata) per un set limitato di organizzazioni, questa funzionalità è ora stata rilasciata in versione GA (disponibilità generale) con i seguenti miglioramenti:</p>
-<ul>
-<li>Creazione di offerte selezionando direttamente un frammento di contenuto AEM.</li>
-<li>È possibile definire i segnaposto e mappare i valori di personalizzazione all’interno della firma del frammento utilizzando la modalità Editor.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Vista calendario per l’inventario delle campagne e dei percorsi</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Negli elenchi dei percorsi e delle campagne è ora disponibile una vista calendario. Consente di visualizzare tutte le attivazioni dei percorsi e delle campagne nei rispettivi elenchi.</p>
-<p>Questo cambiamento è disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Integrazione di Adobe Experience Manager Dynamic Media</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione consente di:</p>
-<ul>
-<li>Gestire in maniera centralizzata le risorse con aggiornamenti in tempo reale</li>
-<li>Modificare all’istante le impostazioni delle risorse, ad esempio larghezza e altezza</li>
-<li>Personalizzare i modelli Dynamic Media aggiornando i contenuti e aggiungendo campi di personalizzazione</li>
-</ul>
+<p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Temi in E-mail designer</strong><br/></th>
+<th><strong>Attività Content Decisioning nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi applicare rapidamente temi preapprovati per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e creare e-mail di alta qualità in modo indipendente, riducendo al contempo la dipendenza dai team di design.</p>
-<img src="assets/do-not-localize/themes.gif">
-<p>Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
-<p>Data di disponibilità: 14 maggio 2025</p>
+<p>Ora puoi includere offerte personalizzate nei tuoi percorsi tramite un’attività Content Decisioning dedicata nell’area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
 </td>
+</tr>
+</tbody>
+</table>
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Experience Decisioning in email channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>No description provided.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Percorso prova</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Percorsi Dry run è una speciale modalità di pubblicazione del percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Sospendi e riprendi percorsi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile sospendere e riprendere i percorsi. Questa funzionalità offre ai professionisti del percorso maggiore controllo e flessibilità, consentendo la sospensione temporanea dei percorsi live senza interrompere la customer experience. Quando è in pausa, non vengono inviate comunicazioni e i profili rimangono in stato di sospensione fino alla ripresa del percorso.</p>
+<p>È possibile sospendere e riprendere un solo percorso oppure eseguire le operazioni di pausa collettiva e ripresa di un gruppo di percorsi.</p>
+<p>Inoltre, puoi applicare filtri globali ai percorsi in pausa per escludere i profili in base ai loro attributi.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Scalare il vincitore della sperimentazione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Scalabilità del vincitore della sperimentazione consente di distribuire automaticamente o manualmente la variante vincente di un esperimento al pubblico completo. Questa funzione assicura che, una volta identificata la variante dalle prestazioni migliori, sia possibile massimizzarne la portata e l’efficacia senza una costante supervisione manuale.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/content-experiment.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 2 giugno 2025</p></td>
 </tr>
 </tbody>
 </table>
@@ -157,125 +206,44 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <ul>
 <li>Supporto esteso: gli strumenti per la gestione dei conflitti ora supportano sia i percorsi unitari che i percorsi di qualificazione di un pubblico, oltre ai percorsi Leggi pubblico.</li>
 <li>Risoluzione dei problemi migliorata: nel servizio query sono ora disponibili due nuovi campi evento del passaggio che consentono di analizzare il motivo per cui un profilo è stato rifiutato da un percorso o da una campagna.</li>
-<li>Rapporti migliorati: i rapporti ora indicano la regola specifica che ha determinato l’esclusione di un profilo da un percorso o da una campagna, fornendo maggiore trasparenza e informazioni actionable.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulare varianti di contenuto</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Precedentemente disponibile in versione Beta, la simulazione delle varianti di contenuto è ora disponibile per tutti gli utenti (disponibilità generale, GA). Consente di visualizzare l’anteprima di diverse varianti del contenuto utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. Tutti gli attributi utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con la versione in disponibilità generale, la funzione ora include il supporto per contenuti multilingue ed esperimenti sui contenuti, consentendo di testare le varianti per diverse lingue e trattamenti. Inoltre, ora supporta gli attributi contestuali (oltre agli attributi di profilo), consentendo test di contenuto ancora più dinamici e situazionali.</p>
-<img src="assets/do-not-localize/variants.gif">
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Scalare il vincitore della sperimentazione</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Per "scalare il vincitore" si intende presentare automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta identificata la variante dalle prestazioni migliori, sia possibile massimizzarne la portata e l’efficacia senza una costante supervisione manuale.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Provider SMS personalizzato</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora consente di configurare altri provider SMS oltre alle opzioni predefinite: Sinch, Infobip e Twilio. Con la configurazione del provider SMS personalizzato, puoi integrare direttamente provider di terze parti, sfruttare la personalizzazione avanzata del payload per la messaggistica dinamica e gestire le preferenze di consenso (consenso/rinuncia) per garantire la conformità.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../sms/sms-configuration-custom.md">documentazione dettagliata</a>.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p></td>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ID supplementare per percorsi attivati da eventi</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, affinché un profilo possa nello stesso percorso più volte allo stesso tempo. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio iter lungo il percorso.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<li>Rapporti migliorati: i rapporti ora indicano la regola specifica che ha determinato l’esclusione di un profilo da un percorso o da una campagna, fornendo maggiore trasparenza e informazioni actionable.</li></ul>
+<img src="assets/do-not-localize/gif-conflict.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 3 giugno 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-
-### Miglioramenti {#25-05-improv}
+### Miglioramenti {#25-06-improv}
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-* **Attivazione della modalità Pillole per la personalizzazione** - Data di disponibilità: 5 maggio 2025
+* **Set di regole canale**
 
-  All’editor di personalizzazione è stato aggiunto un nuovo pulsante “Pillole”. Quando è abilitato, gli attributi contestuali e di profilo vengono visualizzati come pillole, migliorando la leggibilità del codice. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#options)
+   * **Intervallo di durata personalizzato** per il limite - Nella schermata di configurazione dei set di regole di canale è ora disponibile un nuovo campo **Conteggio ripetizioni** che consente di applicare le regole del limite di frequenza su più giorni, settimane o mesi, a seconda della durata specificata.
 
-  >[!AVAILABILITY]
-  >
-  >Questa funzionalità verrà implementata gradualmente in tutti gli ambienti nei prossimi 30 giorni.
+   * **Durata oraria** - È ora possibile applicare il limite su base oraria per i set di regole del canale.
 
-* **Cartelle per le pagine di destinazione** - Data di disponibilità: 9 maggio 2025
-Per gestire facilmente le pagine di destinazione, ora puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. [Ulteriori informazioni](../landing-pages/manage-lp.md)
+* **Esperienze basate su codice**
 
-* **Tracciamento dei clic nei modelli e-mail**\
-  Il tracciamento dei clic negli elementi `<area>` all’interno di mappe immagine nei modelli e-mail è ora supportato in modo nativo in Journey Optimizer. In questo modo, le aree della mappa immagine riceveranno gli stessi wrapper di tracciamento, dati di tracciamento e parametri aggiunti, al pari dei collegamenti ipertestuali standard.
+  I criteri di decisione sono ora disponibili nei modelli di contenuto di esperienza basati su codice e nella barra a destra dell’editor di codice.
 
-* **Decisioning: sfruttare i set di dati di Adobe Experience Platform**\
-  Journey Optimizer ora consente di sfruttare i set di dati di Adobe Experience Platform nei seguenti oggetti decisionali: regole di idoneità, formule di classificazione e regole di limitazione.
+* **E-mail Designer**
 
-* **Cartelle in modelli e frammenti**\
-  Le cartelle consentono di organizzare i modelli e i frammenti di contenuto in modo più facile ed efficace in una gerarchia strutturata. Precedentemente disponibili per alcune organizzazioni (disponibilità limitata), le cartelle sono ora disponibili per tutti gli utenti (disponibilità generale) per gestire i modelli di contenuto e i frammenti.
-
-* **Nuovi oggetti delle campagne supportati per la copia sandbox** <!-- - Availability date: -->
-Quando si copiano le campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri di decisione ed elementi. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md)
-
-* **Supporto di “Reindirizza a URL” nel canale web**\
-  Il canale web in Journey Optimizer ora consente di reindirizzare i visitatori a un altro URL esistente anziché creare una nuova variante nell’editor visivo. Questa funzionalità può essere utilizzata per eseguire esperimenti confrontando due pagine completamente diverse, anziché modificare solo alcuni elementi all’interno di una pagina.
-
-* **Strumenti sandbox: supporto di nuovi oggetti nelle campagne**\
-  Quando si copiano le campagne in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, ora vengono copiate anche le seguenti dipendenze: configurazioni dei canali, varianti e impostazioni di esperimenti, criteri ed elementi decisionali.
-
-* **Barra a destra nell’elenco delle campagne**\
-  Nell’elenco delle campagne, quando si seleziona una campagna ora viene aperto un riquadro che ne visualizza i dettagli.
-
-* **Campi modulo nei contenuti di esperienze basate su codice**\
-  Nei modelli di contenuto, ora puoi definire campi JSON o HTML specifici che consentono agli utenti non tecnici di modificare facilmente i contenuti delle esperienze basate su codice senza dover manipolare il codice.
-
-* **Supporto degli attributi di elementi decisionali per le regole decisionali**\
-  Ora puoi sfruttare gli attributi degli elementi decisionali per creare regole decisionali.
+   * **Supporto CSS personalizzato** - Journey Optimizer ora consente di aggiungere CSS personalizzato al contenuto delle e-mail direttamente all&#39;interno di E-mail Designer.
+   * **Supporto modalità scura** - La finestra di progettazione e-mail di Journey Optimizer offre ora la possibilità di passare alla modalità scura in cui è possibile definire impostazioni specifiche.
 
 
-* **Sottodomini: metodo “Delega personalizzata”**\
-  Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata consente di controllare e mantenere completamente tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.
+* **Decisioning** - Data di disponibilità: 3 giugno 2025
 
-* **Direct mail: supporto SSH**\
-  Oltre all’opzione SFTP esistente con tipo di autenticazione tramite password, ora puoi esportare il file di direct mail in un server SFTP con autenticazione tramite chiave SSH.
+  Ora è possibile copiare gli oggetti decisionali in sandbox diverse, semplificando i test e i flussi di lavoro di implementazione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **Supporto degli attributi degli elementi di decisione per le regole di decisione** - Data di disponibilità: 4 giugno 2025
+
+  Ora puoi sfruttare gli attributi degli elementi di decisione per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
+
+* **Aggiornamento API di esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
+
+  L’API di esecuzione interattiva dei messaggi ora consente di eliminare la pianificazione della prossima esecuzione delle campagne. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1199'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.
 
 
 ## Vantaggi chiave {#journey-dry-run-benefits}
