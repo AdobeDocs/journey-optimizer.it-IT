@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Avvisi
-description: Scopri come gestire gli avvisi
+title: Accedere e iscriversi agli avvisi di sistema
+description: Scopri come accedere e abbonarti agli avvisi di sistema
 feature: Journeys, Alerts
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Introduzione agli avvisi {#alerts}
+# Accedere e iscriversi agli avvisi di sistema {#alerts}
 
 Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per verificare e risolvere gli errori prima di eseguirli o pubblicarli. Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md). Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md).
 
@@ -37,9 +37,9 @@ Nel menu a sinistra, nella sezione **Amministrazione**, fare clic su **Avvisi**.
 
 ![](assets/alert-subscribe.png)
 
-È inoltre possibile sottoscrivere avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
+È inoltre possibile sottoscrivere avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
 
-Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente. Per impostazione predefinita, è abilitato solo l’avviso in-app. Per abilitare gli avvisi e-mail, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.
+Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente. Per impostazione predefinita, è abilitato solo l’avviso in-app. Per abilitare gli avvisi e-mail, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;.
 

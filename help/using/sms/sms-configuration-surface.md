@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 14%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 14%
 >abstract="Seleziona il tipo di messaggi di testo utilizzando questa configurazione: marketing, per messaggi promozionali che richiedono il consenso dell’utente oppure transazionale, per messaggi non commerciali, come la reimpostazione della password."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#sms-opt-out-management" text="Rinuncia nei messaggi di testo di marketing"
 
-Una volta configurato il canale SMS/MMS, è necessario creare una configurazione di canale per poter inviare messaggi SMS e MMS da **[!DNL Journey Optimizer]**.
+Una volta configurato il canale SMS/MMS, è necessario creare una configurazione di canale per poter inviare messaggi SMS e/o MMS da **[!DNL Journey Optimizer]**.
 
 Per creare una configurazione di canale, effettua le seguenti operazioni:
 
@@ -42,7 +42,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    ![](assets/sms-surface-settings.png)
 
-   Inizia selezionando il tipo di SMS **[!UICONTROL 1&rbrace; che verrà inviato con la configurazione:**&#x200B;[!UICONTROL &#x200B; Transazionale &#x200B;]&#x200B;**o**&#x200B;[!UICONTROL &#x200B; Marketing &#x200B;]&#x200B;**.]**
+   Inizia selezionando il tipo di SMS **[!UICONTROL 1} che verrà inviato con la configurazione:**[!UICONTROL  Transazionale ]**o**[!UICONTROL  Marketing ]**.]**
 
    * Scegli **Marketing** per i messaggi promozionali: questi messaggi richiedono il consenso dell&#39;utente.
    * Scegli **Transazionale** per messaggi non commerciali quali ad esempio conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna.
