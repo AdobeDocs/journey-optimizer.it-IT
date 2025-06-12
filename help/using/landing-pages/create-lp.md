@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1518'
 ht-degree: 23%
 
 ---
@@ -81,7 +81,8 @@ Dopo aver configurato e progettato la [pagina principale](#configure-primary-pag
 >id="ajo_lp_primary_page"
 >title="Definire le impostazioni della pagina principale"
 >abstract="La pagina principale viene visualizzata immediatamente dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=it" text="Progettare il contenuto della pagina di destinazione"
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
