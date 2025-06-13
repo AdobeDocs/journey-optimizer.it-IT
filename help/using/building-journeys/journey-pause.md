@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Questa funzionalità riduce i rischi di invio di messaggi non desiderati durante
 >
 >* Le autorizzazioni per la sospensione e la ripresa dei percorsi sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
 >
->* Prima di iniziare a utilizzare la funzionalità di pausa/ripresa, [leggere i guardrail e le limitazioni] (journey-pause-guardrails).
+>* Prima di iniziare a utilizzare la funzionalità di pausa/ripresa, [leggere i guardrail e le limitazioni](#journey-pause-guardrails).
 
 
 ## Come sospendere un percorso {#journey-pause-steps}
