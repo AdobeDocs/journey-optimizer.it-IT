@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
+source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 35%
+source-wordcount: '1017'
+ht-degree: 33%
 
 ---
 
@@ -83,8 +83,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML che consentono agli utenti non tecnici di modificare facilmente il contenuto in esperienze basate su codice senza la necessità di manipolare il codice.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice. Inoltre, quando definisci i modelli di contenuto dell’esperienza basati su codice ora puoi inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d’uso.</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +143,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Percorso prova</strong><br/></th>
+<th><strong>Esecuzione di prova del percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
