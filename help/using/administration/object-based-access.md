@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Etichette per la gestione degli accessi"
->abstract="Puoi limitare l’accesso a un oggetto in base alle etichette di accesso. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un&#39;ulteriore protezione dei dati personali. **Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione.**"
+>abstract="Puoi limitare l’accesso a un oggetto in base alle etichette di accesso. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un’ulteriore protezione dei dati personali. **Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione.**"
 
 Puoi limitare l’accesso a un oggetto in base alle etichette di accesso. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un&#39;ulteriore protezione dei dati personali.
 
@@ -53,7 +53,7 @@ Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione]
 
 Utilizza le etichette per fornire accesso agli utenti e applicare la governance dei dati e i criteri di consenso. Queste etichette di governance possono influire sul consumo a valle.
 
-È possibile creare etichette nel prodotto [!DNL Permissions]. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=it){target="_blank"}.
+È possibile creare etichette nel prodotto [!DNL Permissions]. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}.
 
 Puoi anche creare **[!UICONTROL etichette]** direttamente in Journey Optimizer. Per creare un’etichetta, effettua le seguenti operazioni:
 
@@ -95,4 +95,4 @@ Per assegnare etichette di utilizzo dei dati personalizzate o di base agli ogget
 
 Per accedere a questo oggetto, gli utenti devono avere l&#39;**[!UICONTROL Etichetta]** specifica inclusa nei loro **[!UICONTROL Ruoli]**. Ad esempio, un utente con l’etichetta C1 avrà accesso solo a oggetti con etichetta C1 o senza etichetta.
 
-Per ulteriori dettagli su come assegnare un&#39;etichetta **[!UICONTROL Label]** a un **[!UICONTROL Role]**, vedere [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=it#manage-labels-for-a-role){target="_blank"}.
+Per ulteriori dettagli su come assegnare un&#39;etichetta **[!UICONTROL Label]** a un **[!UICONTROL Role]**, vedere [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.

@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
+source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +22,7 @@ I set di regole **Canale** applicano regole di limitazione ai canali di comunica
 
 L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviate ai clienti e un altro set di regole per limitare il numero di **newsletter** inviate. A seconda del tipo di campagna che si sta creando, è possibile scegliere di applicare la comunicazione promozionale o il set di regole newsletter.
 
-## Creare una regola di limitazione dei canali
+## Creare una regola di limitazione del canale
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -151,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

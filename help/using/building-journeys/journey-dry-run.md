@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Percorso prova
+title: Esecuzione di prova del percorso
 description: Scopri come pubblicare un percorso in modalità di esecuzione in prova
 feature: Journeys
 role: User
@@ -14,11 +14,11 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Percorso prova {#journey-dry-run}
+# Esecuzione di prova del percorso {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
