@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2004'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
 Dall&#39;elenco dei percorsi, puoi sospendere uno o più **Live** percorsi. Per mettere in pausa un gruppo di percorsi (_pausa collettiva_), selezionali nell&#39;elenco e fai clic sul pulsante **Pausa** nella barra blu nella parte inferiore della schermata. Il pulsante **Pausa** è disponibile solo quando sono selezionati **percorsi di disponibilità**.
 
-![Sospendi in blocco due percorsi live dalla barra inferiore](assets/bulk-pause-journeys.png){width="80%" align="left"}
+![Sospendi in blocco due percorsi live dalla barra inferiore](assets/bulk-pause-journeys.png)
 
 ### Comportamento nei percorsi in pausa
 
@@ -76,21 +76,20 @@ Quando un percorso viene messo in pausa, gli ingressi nuovi vengono sempre scart
 
 La gestione dei profili quando un percorso viene messo in pausa dipende dall’attività. I comportamenti sono descritti di seguito. Per una comprensione completa, vedi anche questo [Fine del campione](#journey-pause-sample).
 
-| Attività percorso | Gestione dei profili | Note |
-|-------------------------|--------------------------------------------------|------------------------|
-| [Qualificazione del pubblico](audience-qualification-events.md) | Nel primo nodo: scartato <br> In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività di azione e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. |          |
-| [Evento di business](general-events.md) | Scartato |    |
-| [Evento unitario](general-events.md) | Nel primo nodo: scartato <br>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se l&#39;evento è successivo a un&#39;attività di azione e l&#39;utente viene messo in pausa su tale azione, l&#39;evento viene scartato. | Creare il messaggio |
-| [Read Audience](read-audience.md) | Stesso comportamento di un percorso live, con alcune specificità:<br> Se è stato premuto Pausa dopo l&#39;avvio dell&#39;attività di lettura del pubblico, i profili che sono entrati nel percorso continueranno (fino all&#39;attività di azione successiva). Poiché il percorso legge i tipi di pubblico a una certa velocità, se il pubblico completo non è ancora entrato, i profili rimanenti nella coda verranno scartati. | - Per esecuzioni singole: non viene visualizzato alcun errore all’ora di ripresa se la data pianificata era precedente alla data di ripresa. Tale pianificazione verrebbe ignorata. <br>- Per percorsi incrementali: <br> Se la pausa si verifica prima della prima occorrenza, al momento della ripresa verrà riprodotto il pubblico completo. <br>Se si verifica una pausa, ad esempio, il 4° giorno di una ricorrenza giornaliera e il percorso rimane sospeso fino al 9° giorno, tutti i profili immessi dal 4° al 9° giorno verranno inclusi nella ripresa |
+| Attività percorso | Gestione dei profili |
+|-------------------------|--------------------------------------------------|
+| [Qualificazione del pubblico](audience-qualification-events.md) | Nel primo nodo: scartato <br> In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività di azione e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. |
+| [Evento unitario](general-events.md) | Nel primo nodo: scartato <br>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se l&#39;evento è successivo a un&#39;attività di azione e l&#39;utente viene messo in pausa su tale azione, l&#39;evento viene scartato. |
+| [Read Audience](read-audience.md) | Stesso comportamento di un percorso live, con alcune specificità:<br>1.  Se <strong>Pausa</strong> è stato premuto dopo l&#39;avvio dell&#39;attività <strong>Read audience</strong>, i profili che sono entrati nel percorso continueranno (fino alla successiva attività <strong>Azione</strong>). Poiché il percorso legge i tipi di pubblico a una certa velocità, se il pubblico completo non è ancora entrato, i profili rimanenti nella coda verranno scartati.   <br>2. Per esecuzioni singole: non viene visualizzato alcun errore all’ora di ripresa se la data pianificata era precedente alla data di ripresa. Tale pianificazione verrebbe ignorata. <br>3. Per percorsi incrementali: <br>- Se la pausa si verifica prima della prima occorrenza, al momento della ripresa verrà riprodotto il pubblico completo. <br>- Se si verifica una pausa, ad esempio, il 4° giorno di una ricorrenza giornaliera e il percorso rimane in pausa fino al 9° giorno, allora al momento della ripresa tutti i profili che sono entrati dal 4° al 9° saranno inclusi |
 | [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione si verifica dopo un’attività di azione e l’utente viene messo in pausa su tale azione, l’evento viene scartato. |
-| [Attendi](wait-activity.md) | Stesso comportamento di un percorso live |           |
-| [Condizione](condition-activity.md) | Stesso comportamento di un percorso live |         |
-| Decisione contenuto | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |            |
-| [Azione canale](journeys-message.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |          |
-| [Azione personalizzata](../action/action.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |            |
-| [Aggiorna profilo](update-profiles.md) e [Salta](jump.md) |  |       |
-| [Source dati esterno](../datasource/external-data-sources.md) | Stesso comportamento di un percorso live |           |
-| [Criteri di uscita](journey-properties.md#exit-criteria) | Stesso comportamento di un percorso live |           |
+| [Attendi](wait-activity.md) | Stesso comportamento di un percorso live |
+| [Condizione](condition-activity.md) | Stesso comportamento di un percorso live |
+| Decisione contenuto | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
+| [Azione canale](journeys-message.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
+| [Azione personalizzata](../action/action.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
+| [Aggiorna profilo](update-profiles.md) e [Salta](jump.md) | Stesso comportamento di un percorso live |
+| [Source dati esterno](../datasource/external-data-sources.md) | Stesso comportamento di un percorso live |
+| [Criteri di uscita](journey-properties.md#exit-criteria) | Stesso comportamento di un percorso live |
 
 ## Come riprendere un percorso in pausa {#journey-resume-steps}
 
