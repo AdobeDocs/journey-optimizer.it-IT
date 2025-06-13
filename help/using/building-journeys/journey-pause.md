@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 
 Prendiamo ad esempio il percorso seguente:
 
-![Esempio di percorso](assets/pause-journey-sample.png){width="50%" align="left"}
+![Esempio di percorso](assets/pause-journey-sample.png)
 
 Quando si mette in pausa questo percorso, si seleziona se i profili sono **scartati** o **bloccati** e quindi la gestione dei profili è la seguente:
 
