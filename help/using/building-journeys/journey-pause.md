@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ Ad esempio, per escludere tutti i clienti francesi da un percorso in pausa, effe
 
 1. Fai clic sull&#39;icona **Criteri di uscita e filtro globale**.
 
-   ![Aggiungere un filtro globale a un percorso in pausa](assets/add-global-filter.png){width="50%" align="left"}
+   ![Aggiungere un filtro globale a un percorso in pausa](assets/add-global-filter.png)
 
 1. Nelle impostazioni **Criteri di uscita e filtro globale**, fai clic su **Aggiungi filtro globale** per definire un filtro basato sugli attributi del profilo.
 
 1. Imposta l’espressione per escludere i profili in cui l’attributo paese è uguale a Francia.
 
-   ![Aggiungere un filtro globale a un percorso in pausa](assets/add-country-filter.png){width="50%" align="left"}
+   ![Aggiungere un filtro globale a un percorso in pausa](assets/add-country-filter.png)
 
 1. Salva il filtro e fai clic sul pulsante **Aggiorna percorso** per applicare le modifiche.
 
