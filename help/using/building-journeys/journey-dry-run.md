@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 5%
 
 ---
@@ -56,25 +56,10 @@ Percorsi Dry run porta:
 
 >[!CAUTION]
 >
->Le autorizzazioni per avviare l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Le autorizzazioni per interrompere l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
+>* Le autorizzazioni per avviare l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Le autorizzazioni per interrompere l&#39;esecuzione in prova sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
+>
+>* Prima di iniziare a utilizzare la funzionalità di esecuzione di prova, [leggere i guardrail e le limitazioni](#journey-dry-run-limitations).
 
-
-## Guardrail e limitazioni {#journey-dry-run-limitations}
-
-* La modalità di esecuzione in prova non è disponibile per i percorsi contenenti eventi di reazione.
-* I profili in modalità di esecuzione in prova vengono conteggiati per i profili coinvolgibili.
-* I percorsi di esecuzione in prova non influiscono sulle regole aziendali.
-* Durante la creazione di una nuova versione del percorsi percorso, se una versione precedente è **Live**, l&#39;attivazione dell&#39;esecuzione di prova non è consentita per la nuova versione.
-* L’esecuzione di prova del percorso genera stepEvents. Questi stepEvents hanno un flag specifico e un ID esecuzione di prova:
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` restituisce `true` se l&#39;esecuzione di prova è attivata e `false` in caso contrario
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` restituisce l&#39;ID di un&#39;istanza di esecuzione di prova
-* Durante il funzionamento a secco, il percorso viene eseguito con le seguenti specificità:
-
-   * **I nodi dell&#39;azione del canale**, comprese le notifiche e-mail, SMS o push, non vengono eseguiti.
-   * **Le azioni personalizzate** sono disabilitate durante l&#39;esecuzione di prova e le relative risposte sono impostate su null.
-   * **I nodi di attesa** vengono ignorati durante l&#39;esecuzione di prova.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Le origini dati**, incluse le origini dati esterne, vengono eseguite per impostazione predefinita.
 
 ## Avvia un&#39;esecuzione di prova {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ I percorsi di esecuzione di prova **devono** essere interrotti manualmente.
 Fai clic sul pulsante **Chiudi** per terminare il test, quindi fai clic su **Torna alla bozza** per confermare.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## Guardrail e limitazioni {#journey-dry-run-limitations}
+
+* La modalità di esecuzione in prova non è disponibile per i percorsi contenenti eventi di reazione.
+* I profili in modalità di esecuzione in prova vengono conteggiati per i profili coinvolgibili.
+* I percorsi di esecuzione in prova non influiscono sulle regole aziendali.
+* Durante la creazione di una nuova versione del percorsi percorso, se una versione precedente è **Live**, l&#39;attivazione dell&#39;esecuzione di prova non è consentita per la nuova versione.
+* L’esecuzione di prova del percorso genera stepEvents. Questi stepEvents hanno un flag specifico e un ID esecuzione di prova:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` restituisce `true` se l&#39;esecuzione di prova è attivata e `false` in caso contrario
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` restituisce l&#39;ID di un&#39;istanza di esecuzione di prova
+* Durante il funzionamento a secco, il percorso viene eseguito con le seguenti specificità:
+
+   * **I nodi dell&#39;azione del canale**, comprese le notifiche e-mail, SMS o push, non vengono eseguiti.
+   * **Le azioni personalizzate** sono disabilitate durante l&#39;esecuzione di prova e le relative risposte sono impostate su null.
+   * **I nodi di attesa** vengono ignorati durante l&#39;esecuzione di prova.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Le origini dati**, incluse le origini dati esterne, vengono eseguite per impostazione predefinita.

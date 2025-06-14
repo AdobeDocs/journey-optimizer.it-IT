@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
 
 
-## Applicare un filtro globale ai profili in un percorso in pausa  {#journey-global-filters}
+## Applicare un filtro globale ai profili in un percorso in pausa {#journey-global-filters}
 
 Quando un percorso viene messo in pausa, puoi applicare un filtro globale basato sugli attributi del profilo. Questo filtro abilita l’esclusione dei profili che corrispondono all’espressione definita al momento della ripresa. Una volta impostato, il filtro globale viene applicato ai nodi di azione, anche per l’ingresso di nuovi profili. I profili corrispondenti ai criteri e i nuovi profili che tenteranno di immettere verranno esclusi dal percorso **nel nodo azione successivo** rilevato.
 

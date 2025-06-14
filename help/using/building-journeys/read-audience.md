@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2195'
 ht-degree: 14%
 
 ---
@@ -31,26 +31,9 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 ➡️ [Guarda il video su questa funzione](#video)
 
-## Guardrail e consigli {#must-read}
-
-* Solo un&#39;attività **[!UICONTROL Read Audience]** può essere utilizzata in un percorso e deve essere la prima attività nell&#39;area di lavoro.
-
-* L&#39;attività **[!UICONTROL Read audience]** può essere indirizzata a un solo pubblico. Se sono necessari più tipi di pubblico, è consigliabile unirli in un unico pubblico prima dell’uso. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md)
-
-* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
-
-* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un&#39;attività **Read audience**, **[Audience qualification](audience-qualification-events.md)** o un&#39;attività di evento business.
-
-* Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
-
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
-
-I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
-
-
 >[!CAUTION]
 >
->[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} si applicano anche a Adobe Journey Optimizer.
+>* Prima di iniziare a utilizzare l&#39;attività Read audience, [leggi i guardrail e le limitazioni](#must-read).
 
 ## Configurare l’attività {#configuring-segment-trigger-activity}
 
@@ -68,7 +51,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
@@ -82,13 +65,35 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >Le persone appartenenti a un pubblico che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non possono entrare nel percorso. È possibile selezionare solo uno spazio dei nomi delle identità basato su persone. Se è stato definito uno spazio dei nomi per una tabella di ricerca (ad esempio, Spazio dei nomi ProductID per una ricerca di prodotti), questo non sarà disponibile nell&#39;elenco a discesa **Spazio dei nomi**.
+
+### Guardrail e consigli {#must-read}
+
+* Solo un&#39;attività **[!UICONTROL Read Audience]** può essere utilizzata in un percorso e deve essere la prima attività nell&#39;area di lavoro.
+
+* L&#39;attività **[!UICONTROL Read audience]** può essere indirizzata a un solo pubblico. Se sono necessari più tipi di pubblico, è consigliabile unirli in un unico pubblico prima dell’uso. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md)
+
+* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
+
+* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un&#39;attività **Read audience**, **[Audience qualification](audience-qualification-events.md)** o un&#39;attività di evento business.
+
+* Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
+
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+
+I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
+
+
+>[!CAUTION]
+>
+>[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} si applicano anche a Adobe Journey Optimizer.
+
 
 ### Gestire la voce dei profili nel percorso
 
@@ -287,4 +292,4 @@ I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **A
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
