@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 25%
+source-wordcount: '653'
+ht-degree: 23%
 
 ---
 
@@ -45,6 +45,11 @@ I passaggi per aggiungere contenuto dinamico nelle espressioni sono i seguenti:
 1. Quando il contenuto è pronto, puoi visualizzare in anteprima le diverse varianti utilizzando il pulsante **[!UICONTROL Simula contenuto]**. [Scopri come verificare e visualizzare in anteprima i messaggi](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
+
+>[!CAUTION]
+>
+>Se il rendering di E-mail Designer non riesce dopo l’aggiunta di blocchi condizionali, verifica che la sintassi di ogni nuova condizione sia corretta e che non esistano istruzioni duplicate o in conflitto. Se i problemi persistono, è consigliabile ricostruire le sezioni problematiche in un nuovo modello e testare ogni blocco condizionale in modo incrementale.
+
 
 ## Aggiungere contenuto dinamico alle e-mail {#emails}
 
