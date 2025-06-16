@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: risorse, integrazione
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 11%
+source-wordcount: '576'
+ht-degree: 10%
 
 ---
 
@@ -52,6 +52,13 @@ Con una licenza Enterprise, gli utenti hanno accesso completo all’editor web d
 Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Utilizzo di Adobe Express senza una licenza Enterprise  {#edit}
+
+Senza una licenza Enterprise, gli utenti possono accedere ai seguenti casi d’uso disponibili con Adobe Express:
+
+* [Ridimensiona immagine](#resize)
+* [Rimuovi sfondo](#background)
+* [Ritaglia immagine](#crop-image)
+* [Converti in JPEG o PNG](#convert)
 
 ### Ridimensiona immagine {#resize}
 
@@ -141,7 +148,7 @@ L&#39;immagine è ora pronta per essere utilizzata nel contenuto.
 
 Scopri come modificare le risorse in Adobe Journey Optimizer utilizzando gli strumenti di Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455531/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
