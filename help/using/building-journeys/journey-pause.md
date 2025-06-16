@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
@@ -185,5 +185,5 @@ In base a questo comportamento, puoi vedere i numeri dei profili aumentare nel p
 
 Quando riprendi questo percorso:
 
-1. Gli ingressi dei percorsi freschi iniziano entro un minuto
+1. Gli ingressi dei percorsi freschi iniziano entro un minuto.
 1. I profili attualmente in attesa nel percorso per le attività **Azione** vengono ripresi a una velocità di 5k tps. Potranno quindi immettere l&#39;**Azione** che stavano aspettando e continuare il percorso.
