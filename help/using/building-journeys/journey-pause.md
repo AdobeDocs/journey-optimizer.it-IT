@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
+source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Questa funzionalità riduce i rischi di invio di messaggi non desiderati durante
 >
 >* Le autorizzazioni per la sospensione e la ripresa dei percorsi sono limitate agli utenti con l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
 >
->* Prima di iniziare a utilizzare la funzionalità di pausa/ripresa, [leggere i guardrail e le limitazioni](#journey-pause-guardrails).
+>* Prima di iniziare a utilizzare la funzionalità di pausa/ripresa, [leggi i guardrail e le limitazioni](#journey-pause-guardrails).
 
 
 ## Come sospendere un percorso {#journey-pause-steps}
@@ -148,39 +148,42 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
-* Una versione di percorso può essere sospesa per un massimo di 14 giorni.
-* I percorsi in pausa vengono considerati in tutte le regole aziendali, come se fossero in diretta.
-* I profili vengono &quot;scartati&quot; in un percorso in pausa quando raggiungono un’attività di azione. Se rimangono in attesa durante il periodo di pausa e di uscita di un percorso dopo che è stato ripreso, continueranno il percorso e non verranno eliminati.
-* Anche dopo la pausa, man mano che gli eventi continuano a essere elaborati, questi eventi verrebbero conteggiati nella quota relativa al numero di eventi di Percorso al secondo, dopo di che la limitazione viene visualizzata per l’impostazione unitaria.
-* I profili che sono entrati nel percorso ma sono stati scartati durante la pausa vengono comunque conteggiati come profili coinvolgibili.
+* Una versione di percorso può essere sospesa per un massimo di 14 giorni
+* I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi
+* I profili che sono entrati nel percorso ma sono stati scartati durante la pausa vengono comunque conteggiati come profili coinvolgibili
+* I percorsi in pausa vengono considerati in tutte le regole aziendali, come se fossero live
+* Il timeout globale del percorso si applica ancora ai percorsi in pausa. Ad esempio, se un profilo è rimasto in un percorso per 90 giorni e il percorso è in pausa, questo profilo uscirà comunque dal percorso il 91° giorno
+* I profili sono **scartati** in un percorso in pausa quando raggiungono un&#39;attività di azione. Se rimangono in attesa durante il periodo di pausa e di uscita di un percorso dopo che è stato ripreso, continueranno il percorso e non verranno eliminati. [Vedi l&#39;esempio end-to-end](#journey-pause-sample)
+* Anche dopo la pausa, man mano che gli eventi continuano a essere elaborati, questi eventi verrebbero conteggiati nella quota relativa al numero di eventi di Percorso al secondo, dopo di che la limitazione verrà visualizzata per l’evento unitario
 * Quando i profili rimangono in un percorso in pausa, al momento della ripresa gli attributi del profilo vengono aggiornati
-* Le condizioni vengono comunque eseguite nei percorsi in pausa, quindi se un percorso è stato sospeso a causa di problemi di qualità dei dati, qualsiasi condizione precedente a un nodo di azione può essere valutata con dati errati.
-* Per il percorso di pubblico di lettura incrementale basato sul pubblico, viene presa in considerazione la durata di pausa. Ad esempio, per un percorso giornaliero, se è stato messo in pausa il 2 e ripreso il 5 del mese, l’esecuzione il 6 prenderà tutti i profili qualificati dal 1° al 6. Questo non avviene per la qualificazione del pubblico o i percorsi basati su eventi (se una qualificazione del pubblico o un evento vengono ricevuti durante una pausa, tali eventi vengono scartati).
-* I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi.
-* Il timeout globale del percorso si applica ancora ai percorsi in pausa. Ad esempio, se un profilo è rimasto in un percorso per 90 giorni e il percorso è in pausa, questo profilo uscirà comunque dal percorso il 91° giorno.
-* Se i profili vengono mantenuti in un percorso e questo percorso riprende automaticamente dopo alcuni giorni, i profili continuano il percorso e non vengono eliminati. Se vuoi farli cadere, devi fermare il percorso.
-* Nei percorsi in pausa, gli avvisi non vengono attivati per gli avvisi sui segmenti batch.
-* Non sono presenti registri di controllo nel percorso quando dopo 14 giorni lo stato di pausa viene terminato.
-* Alcuni profili eliminati possono essere visibili nell’evento del passaggio del Percorso, ma non nel reporting. Ad esempio: Ignora gli eventi di business per Read Audience, i processi Read Audience vengono eliminati a causa della sospensione del percorso, gli eventi scartati quando l’attività dell’evento era dopo un’azione in cui il profilo era in attesa.
-  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+* Le condizioni vengono ancora eseguite nei percorsi in pausa, quindi se un percorso è stato sospeso a causa di problemi di qualità dei dati, qualsiasi condizione precedente a un nodo di azione può essere valutata con dati errati
+* Per i **percorsi di lettura del pubblico** basati su pubblico incrementale, viene presa in considerazione la durata della pausa. Ad esempio, per un percorso giornaliero, se è stato messo in pausa il 2 e ripreso il 5 del mese, l’esecuzione il 6 prenderà tutti i profili qualificati dal 1° al 6. Questo non è il caso per la qualifica del pubblico o i percorsi basati su eventi (se una qualifica del pubblico o un evento vengono ricevuti durante una pausa, tali eventi vengono scartati)
+* Se i profili vengono mantenuti in un percorso e questo percorso riprende automaticamente dopo alcuni giorni, i profili continuano il percorso e non vengono eliminati. Se vuoi rilasciarle, devi fermare il percorso
+* Nei percorsi in pausa, gli avvisi non vengono attivati per gli avvisi sui segmenti batch
+* Non sono presenti registri di controllo nel percorso quando dopo 14 giorni lo stato di pausa viene terminato
+* Alcuni profili eliminati possono essere visibili nell’evento del passaggio del Percorso, ma non nel reporting. Ad esempio:
+   * Ignora eventi business per **Read Audience**
+   * **Leggi pubblico** processi eliminati a causa di percorso in pausa
+   * Eventi ignorati quando l&#39;attività **Event** era dopo un&#39;azione in cui il profilo era in attesa
+     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
-## Campione end-to-end {#journey-pause-sample}
+## Esempio end-to-end {#journey-pause-sample}
 
 Prendiamo ad esempio il percorso seguente:
 
-![Esempio di percorso](assets/pause-journey-sample.png)
+![Esempio di percorso](assets/pause-journey-sample.png){zoomable="yes"}
 
-Quando si mette in pausa questo percorso, si seleziona se i profili sono **scartati** o **bloccati** e quindi la gestione dei profili è la seguente:
+Quando si mette in pausa questo percorso, si seleziona se i profili sono **scartati** o **bloccati**, quindi la gestione dei profili è la seguente:
 
-1. **Attività AddToCart**: tutte le nuove entrate dei profili sono bloccate. Se un profilo è già entrato nel percorso prima di una pausa, continuerà fino al nodo dell’azione successivo.
+1. **Attività AddToCart**: tutte le nuove entrate dei profili sono bloccate. Se un profilo è già entrato nel percorso prima di una pausa, continua fino al nodo dell’azione successivo.
 1. Attività **Wait**: i profili continuano ad attendere normalmente sul nodo e lo chiudono, anche se il percorso è in pausa.
 1. **Condizione**: i profili continuano a superare le condizioni e passano al ramo destro, in base all&#39;espressione definita nella condizione.
 1. **Attività push**/**E-mail**: durante un percorso in pausa, i profili iniziano ad attendere o vengono scartati (in base alla scelta effettuata dall&#39;utente al momento della pausa) sul nodo dell&#39;azione successivo. Quindi i profili inizieranno ad attendere o verranno eliminati lì.
-1. **Eventi** dopo i nodi di azione: se un profilo è in attesa su un nodo di azione ed è presente un evento dopo di esso, se tale evento viene attivato, il profilo verrà eliminato.
+1. **Eventi** dopo **Azione** nodi: se un profilo è in attesa su un nodo **Azione** e dopo di esso è presente un&#39;attività **Evento**, se l&#39;evento viene attivato, il profilo viene eliminato.
 
-In base a questo comportamento, puoi vedere i numeri dei profili aumentare sul percorso in pausa, per lo più nelle attività precedenti alle azioni. Ad esempio, in tale esempio, Wait viene ignorato, aumentando il numero di profili che passano attraverso l’attività Condition.
+In base a questo comportamento, puoi vedere i numeri dei profili aumentare nel percorso in pausa, per lo più nelle attività precedenti alle attività **Azione**. Ad esempio, in questo esempio, l&#39;attività **Wait** viene ignorata, aumentando il numero di profili che passano attraverso l&#39;attività **Condition**.
 
 Quando riprendi questo percorso:
 
 1. Gli ingressi dei percorsi freschi iniziano entro un minuto
-1. I profili attualmente in attesa nel percorso sulle attività di Azione vengono ripresi a una velocità di 5.000 punti base. Entreranno quindi nell&#39;Azione che stavano aspettando e continueranno il percorso.
+1. I profili attualmente in attesa nel percorso per le attività **Azione** vengono ripresi a una velocità di 5k tps. Potranno quindi immettere l&#39;**Azione** che stavano aspettando e continuare il percorso.
