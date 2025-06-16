@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 dove il formato delle date è: `YYYY-MM-DD HH:MM:SS`.
 
 Una volta identificati, rimuovi tali indirizzi dall’elenco di soppressione di Journey Optimizer. [Ulteriori informazioni](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+
+>[!NOTE]
+>
+>In alcuni percorsi, `messageID` potrebbe non essere univoco per ogni singola consegna. Se un percorso invia nuovamente la stessa azione allo stesso profilo, è possibile riutilizzare `messageID`. Pertanto, per tenere traccia o attribuire con precisione gli eventi al livello di invio individuale, combinare i campi `journeyVersionID`, `journeyActionID` e `batchInstanceID` (per percorsi batch) o `identityMap` per ottenere un&#39;univocità più precisa.
+
 
 ## Set di dati evento di tracciamento push {#push-tracking-experience-event-dataset}
 
