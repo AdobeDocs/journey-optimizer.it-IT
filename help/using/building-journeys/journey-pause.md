@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 1. Aprire il percorso che si desidera sospendere.
 1. Fai clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso e seleziona **Pause**.
 
-   ![Pausa pulsante percorso](assets/pause-journey-button.png){width="80%" align="left"}
+   ![Pausa pulsante percorso](assets/pause-journey-button.png)
 
 1. Seleziona la modalità di gestione dei profili attualmente presenti nel percorso.
 
@@ -78,8 +78,8 @@ La gestione dei profili quando un percorso viene messo in pausa dipende dall’a
 
 | Attività percorso | Gestione dei profili |
 |-------------------------|--------------------------------------------------|
-| [Qualificazione del pubblico](audience-qualification-events.md) | Nel primo nodo: scartato <br> In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. |
-| [Evento unitario](general-events.md) | Nel primo nodo: scartato <br>In altri nodi: comportamento identico a quello di un percorso attivo. Tuttavia, se l&#39;evento è successivo a un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa su tale azione, l&#39;evento viene scartato. |
+| [Qualificazione del pubblico](audience-qualification-events.md) | <ul> <li>Nel primo nodo: i profili vengono eliminati </li><br><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. </li></ul> |
+| [Evento unitario](general-events.md) | - Nel primo nodo: i profili vengono scartati <br>Negli altri nodi: comportamento identico a quello di un percorso attivo. Tuttavia, se l&#39;evento si verifica dopo un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa su tale azione, l&#39;evento viene scartato. |
 | [Read Audience](read-audience.md) | Stesso comportamento di un percorso live, con alcune specificità:<br>1.  Se <strong>Pausa</strong> è stato premuto dopo l&#39;avvio dell&#39;attività <strong>Read audience</strong>, i profili che sono entrati nel percorso continueranno (fino alla successiva attività <strong>Azione</strong>). Poiché il percorso legge i tipi di pubblico a una certa velocità, se il pubblico completo non è ancora entrato, i profili rimanenti nella coda verranno scartati.   <br>2. Per esecuzioni singole: non viene visualizzato alcun errore all’ora di ripresa se la data pianificata era precedente alla data di ripresa. Tale pianificazione verrebbe ignorata. <br>3. Per percorsi incrementali: <br>- Se la pausa si verifica prima della prima occorrenza, al momento della ripresa verrà riprodotto il pubblico completo. <br>- Se si verifica una pausa, ad esempio, il 4° giorno di una ricorrenza giornaliera e il percorso rimane in pausa fino al 9° giorno, allora al momento della ripresa tutti i profili che sono entrati dal 4° al 9° saranno inclusi |
 | [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione si verifica dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento verrà ignorato. |
 | [Attendi](wait-activity.md) | Stesso comportamento di un percorso live |
