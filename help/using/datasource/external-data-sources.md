@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 39%
+source-wordcount: '1674'
+ht-degree: 38%
 
 ---
 
@@ -229,9 +229,9 @@ Ecco un esempio per il tipo di autenticazione bearer:
 
 >[!NOTE]
 >
->Il token di autenticazione viene memorizzato nella cache al percorso: se due percorsi utilizzano la stessa azione personalizzata, ogni percorso ha un proprio token memorizzato nella cache. Il token non è condiviso tra questi percorsi.
+>* Il token di autenticazione viene memorizzato nella cache al percorso: se due percorsi utilizzano la stessa azione personalizzata, ogni percorso ha un proprio token memorizzato nella cache. Il token non è condiviso tra questi percorsi.
 >
->La durata della cache consente di evitare un numero eccessivo di chiamate agli endpoint di autenticazione. La conservazione dei token di autenticazione è memorizzata nella cache dei servizi, non vi è persistenza. Se un servizio viene riavviato, inizia con una cache pulita. Per impostazione predefinita, la durata della cache è di 1 ora. Nel payload di autenticazione personalizzata, può essere adattato specificando un’altra durata di conservazione.
+>* La durata della cache consente di evitare un numero eccessivo di chiamate agli endpoint di autenticazione. La conservazione dei token di autenticazione è memorizzata nella cache dei servizi, non vi è persistenza. Se un servizio viene riavviato, inizia con una cache pulita. Per impostazione predefinita, la durata della cache è di 1 ora. Nel payload di autenticazione personalizzata, può essere adattato specificando un’altra durata di conservazione.
 >
 
 Di seguito è riportato un esempio per il tipo di autenticazione dell’intestazione:
@@ -269,3 +269,7 @@ Ecco un esempio della risposta della chiamata API di accesso:
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>Durante la configurazione dell&#39;autenticazione personalizzata per un&#39;azione personalizzata, si noti che gli oggetti JSON nidificati (ad esempio, oggetti secondari in `bodyParams`) sono attualmente **non supportati**. Nel payload della richiesta finale verranno incluse solo coppie di chiave-valore piatte. Se l’endpoint di autenticazione richiede oggetti nidificati, potrebbero verificarsi campi mancanti e errori di autenticazione.
