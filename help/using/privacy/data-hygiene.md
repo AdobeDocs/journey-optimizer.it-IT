@@ -7,10 +7,10 @@ feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: ht
-source-wordcount: '123'
-ht-degree: 100%
+source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 57%
 
 ---
 
@@ -25,6 +25,15 @@ Man mano che i dati vengono continuamente acquisiti in Adobe Experience Platform
 Queste attività possono essere eseguite utilizzando il menu **[!UICONTROL Ciclo di vita dei dati]** che consente di configurare e pianificare le operazioni del ciclo di vita dei dati, per la corretta manutenzione dei record.
 
 ![](assets/data-hygiene.png)
+
+
+## Consigli {#data-hygiene-recommendations}
+
+Quando esegui operazioni di igiene dei dati (ad esempio l’eliminazione di identità o set di dati), tieni presente che gli eventi di consegna storici associati alle identità eliminate non verranno più visualizzati nei rapporti standard o nelle query di datalake. Ciò può causare discrepanze tra il numero di e-mail segnalate come **Consegnate** e il numero di e-mail **Ricevute** nelle caselle in entrata dei destinatari, in particolare per i percorsi meno recenti.
+
+Prima di eseguire eliminazioni su larga scala, convalida ed esporta tutti i dati di consegna o reporting richiesti. Se è necessaria la riconciliazione dopo l’igiene dei dati, coordina con il supporto Adobe per accedere ai registri archiviati o utilizzare le query del set di dati dell’evento Feedback messaggio per i dati recenti.
+
+## Ulteriori informazioni {#data-hygiene-learn-more}
 
 Per ulteriori informazioni su Privacy Service e su come seguire le operazioni relative al ciclo di vita dei dati, consulta la documentazione di Adobe Experience Platform:
 
