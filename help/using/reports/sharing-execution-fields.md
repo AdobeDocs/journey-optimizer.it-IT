@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -51,13 +51,11 @@ Tempo (in millisecondi) impiegato per eseguire un&#39;azione corrente.
 
 Tipo: long
 
->[!NOTE]
->
-> Il campo `actionExecutionTime` rappresenta il tempo totale (in millisecondi) impiegato per eseguire l&#39;azione, incluso il tempo di attesa della richiesta nella coda (se la limitazione è configurata e il limite di velocità è raggiunto) e il tempo di esecuzione effettivo (inclusa la latenza di rete per l&#39;endpoint esterno).
->
-> Il campo `Timestamp` indica l&#39;ora di fine dell&#39;esecuzione dell&#39;azione. Per determinare quando il profilo è entrato nel nodo dell&#39;azione personalizzata, sottrarre `actionExecutionTime` da `Timestamp`.
->
->Ad esempio, se `Timestamp` è &quot;2025-02-04 09:39:03 UTC&quot; e `actionExecutionTime` è 1.813.227 ms (~31 minuti), il profilo è entrato nel nodo approssimativamente &quot;2025-02-04 09:08:32 UTC&quot;.
+Il campo `actionExecutionTime` rappresenta il tempo totale (in millisecondi) impiegato per eseguire l&#39;azione, incluso il tempo di attesa della richiesta nella coda (se la limitazione è configurata e il limite di velocità è raggiunto) e il tempo di esecuzione effettivo (inclusa la latenza di rete per l&#39;endpoint esterno).
+
+Il campo `Timestamp` indica l&#39;ora di fine dell&#39;esecuzione dell&#39;azione. Per determinare quando il profilo è entrato nel nodo dell&#39;azione personalizzata, sottrarre `actionExecutionTime` da `Timestamp`.
+
+Ad esempio, se `Timestamp` è &quot;2025-02-04 09:39:03 UTC&quot; e `actionExecutionTime` è 1.813.227 ms (~31 minuti), il profilo è entrato nel nodo approssimativamente &quot;2025-02-04 09:08:32 UTC&quot;.
 
 
 
