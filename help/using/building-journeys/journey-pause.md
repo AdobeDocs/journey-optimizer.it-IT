@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
+source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,8 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
    Puoi eseguire le seguenti operazioni:
 
-   * **Blocca** profili - I profili attenderanno la ripresa del percorso
-   * **Ignora** profili - I profili verranno esclusi dal percorso nel nodo azione successivo
+   * **Blocca** profili - I profili attenderanno sul prossimo nodo **Azione** la ripresa del percorso
+   * **Ignora** profili - I profili verranno esclusi dal percorso nel prossimo nodo **Azione**
 
 1. Fai clic sul pulsante **Pausa** per confermare.
 
@@ -77,12 +77,12 @@ Quando un percorso viene messo in pausa, gli ingressi nuovi vengono sempre scart
 Quando un percorso viene messo in pausa, la gestione del profilo e l’esecuzione dell’attività dipendono dall’attività. I comportamenti sono descritti di seguito. Per una comprensione completa, vedi anche questo [Fine del campione](#journey-pause-sample).
 
 
-| Attività percorso | Durante la pausa del percorso |
+| Attività percorso | Quando il percorso è in pausa |
 |-------------------------|--------------------------------------------------|
-| [Qualificazione del pubblico](audience-qualification-events.md) | <ul> <li>Nel primo nodo: il pubblico viene eliminato </li><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. </li></ul> |
-| [Evento unitario](general-events.md) | <ul> <li>Nel primo nodo: l’evento viene eliminato</li><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se l&#39;evento è successivo a un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento viene ignorato. </li></ul> |
-| [Read Audience](read-audience.md) | Stesso comportamento di un percorso live, con alcune specificità: <ol> <li> Se <strong>Pausa</strong> è stato premuto dopo l&#39;avvio dell&#39;attività <strong>Read audience</strong>, i profili che sono entrati nel percorso continueranno (fino alla successiva attività <strong>Azione</strong>). Poiché il percorso legge i tipi di pubblico a una certa velocità, se il pubblico completo non è ancora entrato, i profili rimanenti nella coda verranno scartati.</li><li> Per esecuzioni singole: non viene visualizzato alcun errore all’ora di ripresa se la data pianificata era precedente alla data di ripresa. Tale pianificazione verrebbe ignorata.</li><li>Per percorsi incrementali: <ul><li>Se la pausa si verifica prima della prima occorrenza, al momento della ripresa verrà riprodotto il pubblico completo. </li><li>Se si verifica una pausa, ad esempio il 4° giorno di una ricorrenza giornaliera e il percorso rimane in pausa fino al 9° giorno, allora al momento della ripresa tutti i profili che sono entrati dal 4° al 9° saranno inclusi  </li></ul></ol> |
-| [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione si verifica dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento viene ignorato. |
+| [Qualificazione del pubblico](audience-qualification-events.md) | <ul> <li>Nel primo nodo dell’area di lavoro: qualsiasi qualifica di profilo per il pubblico viene eliminata </li><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. </li></ul> |
+| [Evento unitario](general-events.md) | <ul> <li>Nel primo nodo dell’area di lavoro: l’evento viene eliminato</li><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se l&#39;evento è successivo a un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento viene ignorato. </li></ul> |
+| [Read Audience](read-audience.md) | Stesso comportamento di un percorso live, con alcune specificità: <ol> <li> Se <strong>Pausa</strong> è stato premuto dopo l&#39;avvio dell&#39;attività <strong>Read audience</strong>, i profili che sono entrati nel percorso continueranno (fino alla successiva attività <strong>Azione</strong>). Poiché il percorso legge i tipi di pubblico a una certa velocità, se il pubblico completo non è ancora entrato, i profili rimanenti nella coda verranno scartati.</li><li> Per esecuzioni singole: non verrà visualizzato alcun errore all’ora di ripresa se la data pianificata era precedente alla data di ripresa. Tale pianificazione verrebbe ignorata.</li><li>Per percorsi incrementali: <ul><li>Se la pausa si verifica prima della prima occorrenza, al momento della ripresa verrà riprodotto il pubblico completo. </li><li>Se si verifica una pausa, ad esempio il 4° giorno di una ricorrenza giornaliera e il percorso rimane in pausa fino al 9° giorno, allora al momento della ripresa tutti i profili che sono entrati dal 4° al 9° saranno inclusi  </li></ul></ol> |
+| [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente è in pausa per tale azione, l&#39;evento di reazione viene ignorato. |
 | [Attendi](wait-activity.md) | Stesso comportamento di un percorso live |
 | [Condizione](condition-activity.md) | Stesso comportamento di un percorso live |
 | Decisione contenuto | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
@@ -106,7 +106,7 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 1. Aprire il percorso che si desidera riprendere.
 1. Fai clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso e seleziona **Riprendi**.
 
-   Il percorso passa allo stato **Ripresa**. Quando il percorso riprende, i nuovi ingressi iniziano entro un minuto. La ripresa dei profili conservati può richiedere un po’ di tempo.  Poiché è necessario riprendere tutti i profili affinché il percorso sia di nuovo **Live**, la transizione dallo stato **Ripresa** allo stato **Live** può richiedere un po&#39; di tempo.
+   Il percorso passa allo stato **Ripresa**. Quando il percorso riprende, i nuovi ingressi iniziano entro un minuto. La ripresa dei profili conservati può richiedere un po’ di tempo; i profili vengono ripresi a una velocità di 5k tps.  Poiché è necessario riprendere tutti i profili affinché il percorso sia di nuovo **Live**, la transizione dallo stato **Ripresa** allo stato **Live** può richiedere un po&#39; di tempo.
 
 1. Fai clic sul pulsante **Riprendi** per confermare.
 
@@ -116,7 +116,7 @@ Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. 
 
 ## Applicare un filtro globale ai profili in un percorso in pausa {#journey-global-filters}
 
-Quando un percorso viene messo in pausa, puoi applicare un filtro globale basato sugli attributi del profilo. Questo filtro abilita l’esclusione dei profili che corrispondono all’espressione definita al momento della ripresa. Una volta impostato, il filtro globale viene applicato ai nodi di azione, anche per l’ingresso di nuovi profili. I profili corrispondenti ai criteri e i nuovi profili che tenteranno di immettere verranno esclusi dal percorso **nel nodo azione successivo** rilevato.
+Quando un percorso viene messo in pausa, puoi applicare un filtro globale basato sugli attributi del profilo. Questo filtro abilita l’esclusione dei profili che corrispondono all’espressione definita al momento della ripresa. Una volta impostato il filtro globale, questo verrà applicato ai nodi di azione, anche per l’ingresso di nuovi profili. I profili esistenti che corrispondono ai criteri e i nuovi profili che entrano nel percorso verranno esclusi dal percorso **nel nodo azione successivo** incontrato.
 
 Ad esempio, per escludere tutti i clienti francesi da un percorso in pausa, effettua le seguenti operazioni:
 
@@ -136,7 +136,7 @@ Ad esempio, per escludere tutti i clienti francesi da un percorso in pausa, effe
 
 1. [Riprendi il percorso](#journey-resume-steps).
 
-   Al momento della ripresa, tutti i profili con l’attributo country impostato su France verranno automaticamente esclusi dal percorso nel nodo dell’azione successivo. Tutti i nuovi profili con l’attributo country impostato sulla Francia che tentano di accedere al percorso vengono bloccati nel nodo dell’azione successivo.
+   Al momento della ripresa, tutti i profili con l’attributo country impostato su France verranno automaticamente esclusi dal percorso nel nodo dell’azione successivo. Anche eventuali nuovi profili con l’attributo country impostato sulla Francia che tentano di entrare nel percorso vengono bloccati nel nodo dell’azione successivo.
 
 Tieni presente che le esclusioni di profilo per i profili attualmente nel percorso e per i nuovi profili si verificheranno solo quando raggiungeranno un nodo di azione.
 
@@ -157,9 +157,9 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 * Anche dopo la pausa, man mano che gli eventi continuano a essere elaborati, questi eventi verrebbero conteggiati nella quota relativa al numero di eventi di Percorso al secondo, dopo di che la limitazione verrà visualizzata per l’evento unitario
 * Quando i profili rimangono in un percorso in pausa, al momento della ripresa gli attributi del profilo vengono aggiornati
 * Le condizioni vengono ancora eseguite nei percorsi in pausa, quindi se un percorso è stato sospeso a causa di problemi di qualità dei dati, qualsiasi condizione precedente a un nodo di azione può essere valutata con dati errati
-* Per i **percorsi di lettura del pubblico** basati su pubblico incrementale, viene presa in considerazione la durata della pausa. Ad esempio, per un percorso giornaliero, se è stato messo in pausa il 2 e ripreso il 5 del mese, l’esecuzione il 6 prenderà tutti i profili qualificati dal 1° al 6. Questo non è il caso per la qualifica del pubblico o i percorsi basati su eventi (se una qualifica del pubblico o un evento vengono ricevuti durante una pausa, tali eventi vengono scartati)
+* Per i **percorsi di lettura del pubblico** basati su pubblico incrementale, viene presa in considerazione la durata della pausa. Questo non è il caso dei percorsi basati su eventi o di qualificazione del pubblico (se durante una pausa vengono ricevuti una qualificazione del pubblico o un evento e rappresentano la prima attività del percorso, tali eventi vengono scartati)
 * Se i profili vengono mantenuti in un percorso e questo percorso riprende automaticamente dopo alcuni giorni, i profili continuano il percorso e non vengono eliminati. Se vuoi rilasciarle, devi fermare il percorso
-* Nei percorsi in pausa, gli avvisi non vengono attivati per gli avvisi sui segmenti batch
+* Nei percorsi in pausa, gli avvisi non vengono attivati per [avvisi sui segmenti batch](../reports/alerts.md#alert-read-audiences)
 * Non sono presenti registri di controllo nel percorso quando dopo 14 giorni lo stato di pausa viene terminato
 * Alcuni profili eliminati possono essere visibili nell’evento del passaggio del Percorso, ma non nel reporting. Ad esempio:
    * Ignora eventi business per **Read Audience**
@@ -181,7 +181,7 @@ Quando si mette in pausa questo percorso, si seleziona se i profili sono **scart
 1. **Attività push**/**E-mail**: durante un percorso in pausa, i profili iniziano ad attendere o vengono scartati (in base alla scelta effettuata dall&#39;utente al momento della pausa) sul nodo dell&#39;azione successivo. Quindi i profili inizieranno ad attendere o verranno eliminati lì.
 1. **Eventi** dopo **Azione** nodi: se un profilo è in attesa su un nodo **Azione** e dopo di esso è presente un&#39;attività **Evento**, se l&#39;evento viene attivato, il profilo viene eliminato.
 
-In base a questo comportamento, puoi vedere i numeri dei profili aumentare nel percorso in pausa, per lo più nelle attività precedenti alle attività **Azione**. Ad esempio, in questo esempio, l&#39;attività **Wait** viene ignorata, aumentando il numero di profili che passano attraverso l&#39;attività **Condition**.
+In base a questo comportamento, puoi vedere i numeri dei profili aumentare nel percorso in pausa, per lo più nelle attività precedenti alle attività **Azione**. Ad esempio, in questo esempio, l&#39;attività **Wait** è ancora abilitata, aumentando il numero di profili che passano attraverso l&#39;attività **Condition**, quando vengono chiusi.
 
 Quando riprendi questo percorso:
 
