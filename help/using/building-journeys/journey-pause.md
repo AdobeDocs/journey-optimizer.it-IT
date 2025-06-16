@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
+source-git-commit: 79082cfa45680f9f53bc715800179aea8d251fc5
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -74,14 +74,14 @@ Dall&#39;elenco dei percorsi, puoi sospendere uno o più **Live** percorsi. Per 
 
 Quando un percorso viene messo in pausa, gli ingressi nuovi vengono sempre scartati, indipendentemente dalla modalità Hold / Discard.
 
-La gestione dei profili quando un percorso viene messo in pausa dipende dall’attività. I comportamenti sono descritti di seguito. Per una comprensione completa, vedi anche questo [Fine del campione](#journey-pause-sample).
+Quando un percorso viene messo in pausa, la gestione del profilo e l’esecuzione dell’attività dipendono dall’attività. I comportamenti sono descritti di seguito. Per una comprensione completa, vedi anche questo [Fine del campione](#journey-pause-sample).
 
-| Attività percorso | Gestione dei profili |
+| Attività percorso | Impatto |
 |-------------------------|--------------------------------------------------|
-| [Qualificazione del pubblico](audience-qualification-events.md) | <ul> <li>Nel primo nodo: i profili vengono eliminati </li><br><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. </li></ul> |
-| [Evento unitario](general-events.md) | - Nel primo nodo: i profili vengono scartati <br>Negli altri nodi: comportamento identico a quello di un percorso attivo. Tuttavia, se l&#39;evento si verifica dopo un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa su tale azione, l&#39;evento viene scartato. |
+| [Qualificazione del pubblico](audience-qualification-events.md) | <ul> <li>Nel primo nodo: il pubblico viene eliminato </li><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se la qualifica del pubblico è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa su tale azione, la qualifica del pubblico viene scartata. </li></ul> |
+| [Evento unitario](general-events.md) | <ul> <li>Nel primo nodo: l’evento viene eliminato</li> <br><li>In altri nodi: comportamento identico a quello di un percorso live. Tuttavia, se l&#39;evento è successivo a un&#39;attività <strong>Action</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento viene ignorato. </li></ul> |
 | [Read Audience](read-audience.md) | Stesso comportamento di un percorso live, con alcune specificità:<br>1.  Se <strong>Pausa</strong> è stato premuto dopo l&#39;avvio dell&#39;attività <strong>Read audience</strong>, i profili che sono entrati nel percorso continueranno (fino alla successiva attività <strong>Azione</strong>). Poiché il percorso legge i tipi di pubblico a una certa velocità, se il pubblico completo non è ancora entrato, i profili rimanenti nella coda verranno scartati.   <br>2. Per esecuzioni singole: non viene visualizzato alcun errore all’ora di ripresa se la data pianificata era precedente alla data di ripresa. Tale pianificazione verrebbe ignorata. <br>3. Per percorsi incrementali: <br>- Se la pausa si verifica prima della prima occorrenza, al momento della ripresa verrà riprodotto il pubblico completo. <br>- Se si verifica una pausa, ad esempio, il 4° giorno di una ricorrenza giornaliera e il percorso rimane in pausa fino al 9° giorno, allora al momento della ripresa tutti i profili che sono entrati dal 4° al 9° saranno inclusi |
-| [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione si verifica dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento verrà ignorato. |
+| [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione si verifica dopo un&#39;attività <strong>Azione</strong> e l&#39;utente viene messo in pausa per tale azione, l&#39;evento viene ignorato. |
 | [Attendi](wait-activity.md) | Stesso comportamento di un percorso live |
 | [Condizione](condition-activity.md) | Stesso comportamento di un percorso live |
 | Decisione contenuto | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
