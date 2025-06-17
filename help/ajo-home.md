@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 825e0b3112bc7e5dd7551873151c65bd1cc99f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -26,30 +26,30 @@ La versione di maggio è ora disponibile. Consulta le note sulla versione per sc
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Conflitto e definizione delle priorità]
+>[!TAB Conflitti e assegnazione delle priorità]
 
-Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. Questi strumenti sono disponibili per le tue campagne e i tuoi percorsi di qualificazione del pubblico, Read audience e unitary.
+Journey Optimizer ora offre diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità Questi strumenti sono disponibili per le campagne e per i percorsi unitari, di qualificazione del pubblico e di tipo “Leggi pubblico”.
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Adobe Express]
 
-L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
+L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere lo sfondo, ritagliare elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 <!--
 >[!TAB AI Assistant]
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
->[!TAB Frammento di contenuto di AEM]
+>[!TAB Frammento di contenuto AEM]
 
-Integrando Adobe Experience Manager as a Cloud Service con Adobe Journey Optimizer, ora puoi incorporare facilmente i Frammenti di contenuto AEM nei contenuti Journey Optimizer. Questa connessione semplificata semplifica il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
+Integrando Adobe Experience Manager as a Cloud Service con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nei contenuti Journey Optimizer. Questa connessione diretta facilita il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]

@@ -8,9 +8,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Scopri come **identificare dati e creare schemi e set di dati** per inserire i d
 
 >[!NOTE]
 >
->Ulteriori informazioni sull&#39;**acquisizione dati** sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
+>Ulteriori informazioni sull’**acquisizione dei dati** nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 
 I passaggi per creare uno spazio dei nomi delle identità, un set di dati abilitati per i profili e i profili di test sono descritti nelle sezioni seguenti:
 
 1. **Creare uno spazio dei nomi delle identità**. In Adobe [!DNL Journey Optimizer], le **Identità** collegano i consumatori tra dispositivi e canali creando un grafico delle identità. Il grafo delle identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Ulteriori informazioni su identità e spazi dei nomi di identità sono disponibili [in questa pagina](../../audience/get-started-identity.md).
 
-1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Ulteriori informazioni sugli schemi sono disponibili [in questa pagina](../../data/get-started-schemas.md).
+1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. In pratica, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano i dati da includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Ulteriori informazioni sugli schemi sono disponibili [in questa pagina](../../data/get-started-schemas.md).
 
 1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Ulteriori informazioni sui set di dati sono disponibili [in questa pagina](../../data/get-started-datasets.md).
 
