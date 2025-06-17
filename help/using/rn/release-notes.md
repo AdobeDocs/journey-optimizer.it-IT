@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2143'
 ht-degree: 71%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 71%
 
 **Data di rilascio**: 17-18 giugno 2025
 
-Consulta anche [Note sulla versione precedente di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulta anche [Note sulla versione precedente di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -69,7 +69,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice. Inoltre, quando definisci i modelli di contenuto dell’esperienza basati su codice ora puoi inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d’uso.</p>
+<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice.<br />Inoltre, quando definisci i modelli di contenuto dell'esperienza basati su codice ora puoi inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d'uso.</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Esperienze basate su codice**
 
-  I criteri di decisione sono ora disponibili nei modelli di contenuto di esperienza basati su codice e nella barra a destra dell’editor di codice.
+   * L’aggiunta di un criterio di decisione è ora disponibile nei modelli di contenuto di esperienza basati su codice.
 
-* **E-mail Designer**
+   * Dalla schermata del percorso di esperienze basato sul codice o dell’edizione di una campagna, ora puoi aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione.
 
-   * **Supporto CSS personalizzato** - Journey Optimizer ora consente di aggiungere CSS personalizzato al contenuto delle e-mail direttamente all&#39;interno di E-mail Designer.
-   * **Supporto modalità scura** - La finestra di progettazione e-mail di Journey Optimizer offre ora la possibilità di passare alla modalità scura in cui è possibile definire impostazioni specifiche.
+* **Supporto CSS personalizzato in E-mail Designer**
 
-* **Campagne** - Nuova navigazione a schede per le campagne di azione. Questo nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne.
+  Journey Optimizer ora consente di aggiungere CSS personalizzati al contenuto delle e-mail direttamente all’interno di E-mail Designer.
+
+* **Nuova navigazione a schede per le campagne**
+
+  Un nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne.
 
 * **Decisioning** - Data di disponibilità: 3 giugno 2025
 

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 33%
+source-wordcount: '1022'
+ht-degree: 40%
 
 ---
 
@@ -83,7 +83,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice. Inoltre, quando definisci i modelli di contenuto dell’esperienza basati su codice ora puoi inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d’uso.</p>
+<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice.<br />Inoltre, quando si definiscono i modelli di contenuto dell'esperienza basati su codice, è ora possibile inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d'uso.</p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
 </tbody>
@@ -143,7 +142,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Esecuzione di prova del percorso</strong><br/></th>
+<th><strong>Prova del percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -184,7 +183,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Scalabilità del vincitore della sperimentazione consente di distribuire automaticamente o manualmente la variante vincente di un esperimento al pubblico completo. Questa funzione assicura che, una volta identificata la variante dalle prestazioni migliori, sia possibile massimizzarne la portata e l’efficacia senza una costante supervisione manuale.</p>
+<p>Per “scalare il vincitore della sperimentazione” si intende presentare automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta identificata la variante dalle prestazioni migliori, sia possibile massimizzarne la portata e l’efficacia senza una costante supervisione manuale.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/content-experiment.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 2 giugno 2025</p></td>
 </tr>
@@ -227,22 +226,26 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Esperienze basate su codice**
 
-  I criteri di decisione sono ora disponibili nei modelli di contenuto di esperienza basati su codice e nella barra a destra dell’editor di codice.
+   * L’aggiunta di un criterio di decisione è ora disponibile nei modelli di contenuto di esperienza basati su codice.
 
-* **E-mail Designer**
+   * Dalla schermata del percorso di esperienze basato sul codice o dell’edizione di una campagna, ora puoi aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione.
 
-   * **Supporto CSS personalizzato** - Journey Optimizer ora consente di aggiungere CSS personalizzato al contenuto delle e-mail direttamente all&#39;interno di E-mail Designer.
-   * **Supporto modalità scura** - La finestra di progettazione e-mail di Journey Optimizer offre ora la possibilità di passare alla modalità scura in cui è possibile definire impostazioni specifiche.
+* **Supporto CSS personalizzato in E-mail Designer**
 
+  Journey Optimizer ora consente di aggiungere CSS personalizzati al contenuto delle e-mail direttamente all’interno di E-mail Designer.
+
+* **Nuova navigazione a schede per le campagne**
+
+  Un nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne.
 
 * **Decisioning** - Data di disponibilità: 3 giugno 2025
 
   Ora è possibile copiare gli oggetti decisionali in sandbox diverse, semplificando i test e i flussi di lavoro di implementazione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **Supporto degli attributi degli elementi di decisione per le regole di decisione** - Data di disponibilità: 4 giugno 2025
+* **Supporto degli attributi di elementi decisionali per le regole decisionali** - Data di disponibilità: 4 giugno 2025
 
-  Ora puoi sfruttare gli attributi degli elementi di decisione per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
+  Ora puoi sfruttare gli attributi degli elementi decisionali per creare regole decisionali. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
 
-* **Aggiornamento API di esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
+* **Aggiornamento API per l’esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
 
-  L’API di esecuzione interattiva dei messaggi ora consente di eliminare la pianificazione della prossima esecuzione delle campagne. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  L’API per l’esecuzione dei messaggi interattivi ora consente di eliminare la pianificazione per l’esecuzione delle campagne successive. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
