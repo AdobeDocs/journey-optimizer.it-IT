@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 15%
+source-wordcount: '295'
+ht-degree: 14%
 
 ---
 
@@ -24,9 +24,9 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 
 | Guardrail | Limite |
 | ------- | ------- |
-| Decisioning delle richieste API al secondo | 500 |
-| Richieste API di Edge Decisioning al secondo con segmentazione di Edge | 1.500 |
-| Richieste API di Edge Decisioning al secondo senza segmentazione di Edge | 5.000 |
+| Decisioning delle richieste API al secondo | 500 per organizzazione |
+| Richieste API di Edge Decisioning al secondo con segmentazione di Edge | 1.500 per organizzazione |
+| Richieste API di Edge Decisioning al secondo senza segmentazione di Edge | 5.000 per organizzazione |
 | Offerte restituite per risposta | Fino a 30 per ambito di decisione o 100 in totale |
 | Numero massimo di regole di offerta interessate per richiesta | 100 |
 
