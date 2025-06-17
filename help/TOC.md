@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,10 +50,10 @@ ht-degree: 95%
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Simulare il percorso](using/building-journeys/journey-simulation.md)
-      + [Percorso prova](using/building-journeys/journey-dry-run.md)
+      + [Prova del percorso](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
-      + [Sospendi un percorso](using/building-journeys/journey-pause.md)
+      + [Mettere in pausa un percorso](using/building-journeys/journey-pause.md)
    + Gestire i percorsi{#manage-journey}
       + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
       + [Ingresso dei profili nei percorsi](using/building-journeys/entry-management.md)
@@ -179,9 +179,9 @@ ht-degree: 95%
 + Campagne orchestrate {#orchestrated-campaigns}
    + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Passaggi di configurazione](using/orchestrated/configuration-steps.md)
-   + [Accedere e gestire campagne orchestrate](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + Avviare la prima campagna orchestrata{#launch}
-      + [Passaggi chiave per la creazione di campagne orchestrate](using/orchestrated/gs-campaign-creation.md)
+   + [Accedere alle campagne orchestrate e gestirle](using/orchestrated/access-manage-orchestrated-campaigns.md)
+   + Lanciare la prima campagna orchestrata{#launch}
+      + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
       + [Creare e pianificare la campagna](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrare le attività](using/orchestrated/orchestrate-activities.md)
       + [Inviare messaggi con campagne orchestrate](using/orchestrated/send-messages.md)
@@ -189,8 +189,8 @@ ht-degree: 95%
       + [Reporting](using/orchestrated/reporting-campaigns.md)
    + Eseguire query sul database {#query-database}
       + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
-      + [Genera la prima regola](using/orchestrated/build-query.md)
-      + [Modifica espressioni](using/orchestrated/edit-expressions.md)
+      + [Creare la prima regola](using/orchestrated/build-query.md)
+      + [Modificare le espressioni](using/orchestrated/edit-expressions.md)
    + Attività di campagne orchestrate {#design-campaigns}
       + [Introduzione alle attività](using/orchestrated/activities/about-activities.md)
       + [AND-join](using/orchestrated/activities/and-join.md)
@@ -214,11 +214,11 @@ ht-degree: 95%
 + Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
    + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
-   + [Assegna punteggi di priorità](using/conflict-prioritization/priority-scores.md)
-Imposta le regole di limitazione messaggi e percorso {#capping-rules}
+   + [Assegnare punteggi di priorità](using/conflict-prioritization/priority-scores.md)
+Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
       + [Utilizzare i set di regole](using/conflict-prioritization/rule-sets.md)
       + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
-      + [Limitazione della frequenza per canale e tipo di comunicazione](using/conflict-prioritization/channel-capping.md)
+      + [Quota limite per tipo di comunicazione e canale](using/conflict-prioritization/channel-capping.md)
 + Testare e approvare {#test}
    + Anteprima e test del contenuto {#preview-test}
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
@@ -493,7 +493,7 @@ Imposta le regole di limitazione messaggi e percorso {#capping-rules}
       + [Rapporto panoramica](using/reports/channel-report-cja.md)
       + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
       + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
-   + Rapporti di percorso personalizzati {#reports}
+   + Rapporti sul percorso personalizzati {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
       + Campi evento del passaggio precedente {#legacy-step-event-fields}
@@ -764,9 +764,9 @@ Imposta le regole di limitazione messaggi e percorso {#capping-rules}
       + [API di limitazione di utilizzo](using/configuration/capping.md)
       + [API di limitazione](using/configuration/throttling.md)
    + Inviare con soluzioni Adobe {#adobe-solutions}
-      + [Azione Campaign Standard in percorsi](using/action/acs-action.md)
-      + [Azione Campaign v7/v8 in percorsi](using/action/acc-action.md)
-      + [Azione Marketo Engage in percorsi](using/action/marketo-engage.md)
+      + [Azione Campaign Standard nei percorsi](using/action/acs-action.md)
+      + [Azione Campaign v7/v8 nei percorsi](using/action/acc-action.md)
+      + [Azione Marketo Engage nei percorsi](using/action/marketo-engage.md)
    + Gestione delle sandbox {#sandbox}
       + [Utilizzare e assegnare sandbox](using/administration/sandboxes.md)
       + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)
@@ -778,7 +778,7 @@ Imposta le regole di limitazione messaggi e percorso {#capping-rules}
    + [Autorizzazioni incorporate](using/administration/ootb-permissions.md)
    + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
    + [Controllo degli accessi basato su attributi](using/administration/attribute-based-access.md)
-   + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
+   + [Controllo degli accessi a livello di oggetto](using/administration/object-based-access.md)
 + Privacy {#privacy}
    + [Introduzione alla privacy](using/privacy/get-started-privacy.md)
    + [Richieste di privacy](using/privacy/requests.md)

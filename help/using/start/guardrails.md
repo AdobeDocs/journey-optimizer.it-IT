@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni s
 
 >[!CAUTION]
 >
->* [I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"} si applicano anche a Adobe Journey Optimizer.
+>* [I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"} vengono applicati anche a Adobe Journey Optimizer.
 >
->* Vedi anche [Guardrail per l&#39;acquisizione di dati nel Profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Vedi anche [Guardrail per l&#39;acquisizione di dati nel Profilo cliente in tempo reale](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Browser supportati {#browsers}

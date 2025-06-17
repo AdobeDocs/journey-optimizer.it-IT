@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Crea campagne e percorsi da questa sezione.
 
 * **[!UICONTROL Percorsi]**: crea, configura e gestisci i percorsi dei clienti combinando gli eventi, le attività di orchestrazione e di azione per creare scenari cross-channel con più passaggi. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Rapporti]** - Il reporting di Journey Optimizer è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l&#39;affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni, consentendo agli utenti di prendere decisioni più informate. [Ulteriori informazioni](../reports/report-gs-cja.md)
+* **[!UICONTROL Rapporti]**: la funzione di reporting di Journey Optimizer è ora completamente integrata con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione ottimizzata tra Journey Optimizer e Customer Journey Analytics consente una visione più chiara delle metriche delle prestazioni, a supporto di decisioni più informate. [Ulteriori informazioni](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL GESTIONE DECISIONI] {#left-nav-decision}
@@ -149,7 +149,7 @@ Dalla pagina home page di [!DNL Adobe Journey Optimizer], i casi d’uso dei pro
 
 ![](assets/use-cases-home.png)
 
-+++ **Casi d&#39;uso disponibili**
++++ **Casi d’uso disponibili**
 
 I casi di utilizzo disponibili sono:
 
@@ -182,9 +182,9 @@ In ogni pagina, utilizza i pulsanti di aiuto contestuali per ulteriori informazi
 
 Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
-Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra dello schermo.
+Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra della schermata.
 
-Scopri come accedere e utilizzare l’Assistente AI [in questa pagina](ai-assistant.md).
+Per informazioni su come accedere all’Assistente IA e utilizzarlo, visita [questa pagina](ai-assistant.md).
 
 ## Preferenze di lingua {#language-pref}
 
@@ -203,9 +203,9 @@ L’interfaccia utente è disponibile nelle seguenti lingue:
 
 La lingua predefinita dell’interfaccia è determinata dalla lingua preferita specificata nel profilo utente.
 
-+++ **Come modificare la lingua**
++++ **Come cambiare lingua**
 
-Per modificare la lingua, effettua le seguenti operazioni:
+Per cambiare la lingua, segui questi passaggi:
 
 1. Fai clic su **Preferenze** dal tuo avatar, in alto a destra.
    ![](assets/preferences.png)
@@ -217,7 +217,7 @@ Per modificare la lingua, effettua le seguenti operazioni:
 
 ## Ulteriori informazioni {#more}
 
-Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto con domande specifiche? Sei l’amministratore dell’istanza aziendale? [Segui il tuo percorso per raggiungere gli obiettivi più velocemente](quick-start.md).
+Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto con domande specifiche? Sei l’amministratore dell’istanza aziendale? [Segui il tuo percorso per raggiungere più velocemente i tuoi obiettivi](quick-start.md).
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -232,14 +232,14 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
->title="Orchestrazione campagna"
+>title="Orchestrazione delle campagne"
 >abstract="Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title="Sfruttare i dati di più entità"
+>title="Sfruttare i dati con più entità"
 >abstract="Scopri come le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione"
 
 
@@ -247,28 +247,28 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
 >title="Segmentazione ad hoc e conteggi esatti"
->abstract="Genera il segmento passo dopo passo con conteggi esatti"
+>abstract="Generare un segmento passo dopo passo con conteggi esatti"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canali disponibili"
->abstract="E-mail, SMS, notifiche push, direct mail"
+>abstract="E-mail, SMS, Notifiche push, Direct mail"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
->title="Interfaccia guidata per creare e inviare una campagna"
->abstract="Imposta una o più azioni con un canale, scegli un pubblico, imposta un contenuto, definisci una pianificazione e sei pronto per l’invio"
+>title="Interfaccia utente guidata per creare e inviare una campagna"
+>abstract="Imposta una o più azioni per un canale, scegli un pubblico, imposta i contenuti, definisci una pianificazione ed è tutto pronto per l’invio"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canali disponibili"
->abstract="E-mail, SMS, notifiche push, in-app, web, esperienze basate su codice"
+>abstract="E-mail, SMS, Notifiche push, In-app, Web, Esperienze basate su codice"
 
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
