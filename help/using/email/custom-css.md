@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css, editor, riepilogo, e-mail
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -199,6 +199,12 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
 
+Se l&#39;attributo `data-disabled` del tag di stile `global-custom` è impostato su `true`, il CSS personalizzato non verrà applicato. Ad esempio:
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### Contenuto importato
 
 Se desideri utilizzare CSS personalizzati con il contenuto importato nel Designer e-mail, considera quanto segue:
@@ -216,7 +222,7 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
 * Assicurati che il CSS sia valido e privo di errori di sintassi (ad esempio parentesi graffe mancanti, nomi di proprietà errati). [Scopri come](#use-valid-css)
 
-* Verifica che il tuo CSS sia stato aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"`. [Ulteriori informazioni](#implementation)
+* Verifica che il tuo CSS venga aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"` e che `data-disabled` non sia applicato a `global-custom`. [Ulteriori informazioni](#implementation)
 
 * Assicurati che il tuo CSS non sia sovrascritto da altre regole CSS, incluso qualsiasi [tema](apply-email-themes.md) applicato al contenuto.
 
@@ -229,16 +235,3 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
