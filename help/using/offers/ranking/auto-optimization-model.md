@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ I seguenti termini sono utili quando si parla di ottimizzazione automatica:
 
 L&#39;algoritmo alla base dell&#39;ottimizzazione automatica è **campionamento di Thompson**. In questa sezione viene descritta l’intuizione alla base del campionamento di Thompson.
 
-Il [campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o banditi bayesiani, è un approccio bayesiano al problema della slot machine.  L&#39;idea di base è quella di trattare il ?? di ricompensa medio di ogni offerta come una **variabile casuale** e utilizzare i dati raccolti finora, per aggiornare la nostra &quot;convinzione&quot; sul premio medio. Questa &quot;convinzione&quot; è rappresentata matematicamente da una **distribuzione di probabilità posteriore** - essenzialmente un intervallo di valori per la ricompensa media, insieme alla plausibilità (o probabilità) che la ricompensa abbia quel valore per ogni offerta. Quindi, per ogni decisione, **preleveremo un punto da ciascuna di queste distribuzioni di premi posteriori** e selezioneremo l&#39;offerta con la ricompensa campionata con il valore più alto.
+[Il campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o banditi bayesiani, è un approccio bayesiano al problema della slot machine.  L&#39;idea di base consiste nel trattare la ricompensa media 𝛍 di ogni offerta come una **variabile casuale** e utilizzare i dati raccolti finora per aggiornare la nostra &quot;convinzione&quot; sulla ricompensa media. Questa &quot;convinzione&quot; è rappresentata matematicamente da una **distribuzione di probabilità posteriore** - essenzialmente un intervallo di valori per la ricompensa media, insieme alla plausibilità (o probabilità) che la ricompensa abbia quel valore per ogni offerta. Quindi, per ogni decisione, **preleveremo un punto da ciascuna di queste distribuzioni di premi posteriori** e selezioneremo l&#39;offerta con la ricompensa campionata con il valore più alto.
 
 Questo processo è illustrato nella figura seguente, dove sono disponibili 3 diverse offerte. Inizialmente non abbiamo alcuna prova dai dati e supponiamo che tutte le offerte abbiano una distribuzione di ricompensa a posteriori uniforme. Prendiamo un campione dalla distribuzione di ogni offerta di premi a posteriori. Il campione selezionato dalla distribuzione di Offerta 2 ha il valore più alto. Questo è un esempio di **esplorazione**. Dopo aver mostrato l&#39;Offerta 2, raccogliamo qualsiasi potenziale ricompensa (ad esempio conversione/non conversione) e aggiorniamo la distribuzione posteriore dell&#39;Offerta 2 utilizzando il Teorema di Bayes come spiegato di seguito.  Continuiamo questo processo e aggiorniamo le distribuzioni posteriori ogni volta che viene mostrata un’offerta e viene raccolto il premio. Nella seconda figura, viene selezionata l&#39;Offerta 3 - nonostante l&#39;Offerta 1 abbia la più alta ricompensa media (la sua distribuzione di ricompensa posteriore è più a destra), il processo di campionamento da ogni distribuzione ci ha portato a scegliere un&#39;Offerta 3 apparentemente non ottimale. In questo modo, offriamo a noi stessi l&#39;opportunità di conoscere meglio la vera distribuzione delle ricompense offerta 3.
 
@@ -59,7 +59,7 @@ Alla fine, se un&#39;offerta (ad es. Offerta 1) è un chiaro vincitore, la sua d
 
 +++**Dettagli tecnici**
 
-Per calcolare/aggiornare le distribuzioni, si utilizza **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(??i | dati)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa **??i**, dati i dati raccolti finora per tale offerta.
+Per calcolare/aggiornare le distribuzioni, si utilizza **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(𝛍i | dati)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa **𝛍i**, dati i dati raccolti finora per tale offerta.
 
 Dal Teorema Di Bayes:
 
@@ -71,7 +71,7 @@ L’ottimizzazione automatica è progettata per prendere in considerazione i pre
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-La funzione Likelihood, come spiegato in precedenza, è modellata da una distribuzione binomiale, con s successi (conversioni) e f errori (nessuna conversione) e q è una [variabile casuale](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} con una [distribuzione beta](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
+La funzione Likelihood, come spiegato in precedenza, è modellata da una distribuzione binomiale, con s successi (conversioni) e f errori (nessuna conversione) e q è una [variabile casuale](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} con [distribuzione beta](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 La distribuzione a priori è modellata dalla distribuzione Beta e la distribuzione a posteriori assume la seguente forma:
 
@@ -90,7 +90,7 @@ Per un approfondimento sul campionamento di Thompson, leggi i seguenti articoli 
 
 ## Problema di avviamento a freddo {#cold-start}
 
-Il problema di &quot;avviamento a freddo&quot; si verifica quando una nuova offerta viene aggiunta a una campagna e non sono disponibili dati sul tasso di conversione della nuova offerta. Durante questo periodo, dovremo elaborare una strategia che indichi la frequenza con cui questa nuova offerta viene scelta in modo da ridurre al minimo il calo delle prestazioni, mentre raccoglieremo informazioni sul tasso di conversione di questa nuova offerta. Sono disponibili diverse soluzioni per affrontare questo problema. La chiave è trovare un equilibrio tra l&#39;esplorazione di questa nuova offerta, mentre non sacrifichiamo molto lo sfruttamento. Attualmente utilizziamo la &quot;distribuzione uniforme&quot; come stima iniziale del tasso di conversione della nuova offerta (distribuzione precedente). In sostanza, tutti i valori del tasso di conversione hanno la stessa probabilità di verificarsi.
+Il problema di &quot;avviamento a freddo&quot; si verifica quando una nuova offerta viene aggiunta a una campagna e non sono disponibili dati sul tasso di conversione della nuova offerta. Durante questo periodo, dovremo elaborare una strategia che indichi la frequenza con cui questa nuova offerta viene scelta in modo da ridurre al minimo il calo delle prestazioni, mentre raccoglieremo informazioni sul tasso di conversione di questa nuova offerta. Sono disponibili diverse soluzioni per affrontare questo problema. La chiave è trovare un equilibrio tra l&#39;esplorazione di questa nuova offerta mentre non sacrifichiamo molto lo sfruttamento. Attualmente utilizziamo la &quot;distribuzione uniforme&quot; come stima iniziale del tasso di conversione della nuova offerta (distribuzione precedente). In sostanza, tutti i valori del tasso di conversione hanno la stessa probabilità di verificarsi.
 
 
 ![](../assets/ai-ranking-cold-start-strategies.png)

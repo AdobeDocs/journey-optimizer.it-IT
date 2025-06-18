@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 
 >[!NOTE]
 >
->I campi modificabili possono essere aggiunti ai componenti **image**, **text** e **button**. Per i componenti **HTML**, i campi modificabili vengono aggiunti utilizzando l&#39;editor di personalizzazione, in modo simile ai frammenti di espressione. [Scopri come aggiungere un campo modificabile nei componenti e nei frammenti di espressione di HTML](#expression)
+>I campi modificabili possono essere aggiunti ai componenti **image**, **text** e **button**. Per i componenti di **HTML**, i campi modificabili vengono aggiunti utilizzando l&#39;editor di personalizzazione, in modo simile ai frammenti di espressione. [Scopri come aggiungere un campo modificabile nei componenti e nei frammenti di espressione di HTML](#expression)
 
 1. Apri la schermata di modifica del contenuto del frammento.
 
@@ -59,13 +59,13 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 
 ## Aggiungere campi modificabili nei componenti HTML e nei frammenti di espressione {#expression}
 
-Per rendere modificabili parti di un componente HTML o di un frammento di espressione, è necessario utilizzare una sintassi specifica nell’editor di espressioni. Ciò comporta la dichiarazione di una **variabile** con un valore predefinito che gli utenti possono ignorare dopo aver aggiunto il frammento al loro contenuto.
+Per rendere modificabili parti di un componente HTML o di un frammento di espressione, è necessario utilizzare una sintassi specifica nell’editor espressioni. Ciò comporta la dichiarazione di una **variabile** con un valore predefinito che gli utenti possono ignorare dopo aver aggiunto il frammento al loro contenuto.
 
 Ad esempio, supponi di voler creare un frammento da aggiungere alle e-mail e di consentire agli utenti di personalizzare un colore specifico utilizzato in posizioni diverse, ad esempio cornici o colori di sfondo dei pulsanti. Durante la creazione del frammento, devi dichiarare una variabile con un **ID univoco**, ad esempio &quot;color&quot;, e chiamarla nelle posizioni desiderate nel contenuto del frammento in cui desideri applicare questo colore. Quando aggiungono il frammento al contenuto, gli utenti possono personalizzare il colore utilizzato ovunque venga fatto riferimento alla variabile.
 
 Per i componenti HTML, solo elementi specifici possono diventare campi modificabili. Per ulteriori informazioni, espandi la sezione seguente.
 
-+++Elementi modificabili nei componenti HTML:
++++Elementi modificabili nei componenti di HTML:
 
 Gli elementi riportati di seguito possono diventare campi modificabili in un componente HTML:
 
@@ -81,7 +81,7 @@ Ad esempio, nel codice seguente, ogni elemento evidenziato in rosso può diventa
 
 Per dichiarare una variabile e utilizzarla nel frammento, effettua le seguenti operazioni:
 
-1. Apri il frammento di espressione, quindi modificane il contenuto nell’editor di personalizzazione. Per i componenti HTML, selezionare il componente nel frammento e fare clic sul pulsante **Mostra codice sorgente**.
+1. Apri il frammento di espressione, quindi modificane il contenuto nell’editor di personalizzazione. Per i componenti di HTML, selezionare il componente nel frammento e fare clic sul pulsante **Mostra codice sorgente**.
 
    ![](assets/fragment-html-edit.png)
 

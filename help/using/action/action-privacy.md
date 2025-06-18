@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 97%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 97%
 
 ## Introduzione ai criteri di governance dei dati {#gs}
 
-Con il framework [Data Usage Labeling and Enforcement(DULE) governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it){target="_blank"}, Adobe Experience Platform ti consente di gestire e applicare i criteri di governance dei dati nei tuoi canali **etichettando i campi** e creando **azioni di marketing** per ogni canale.
+Con il framework [Data Usage Labeling and Enforcement (DULE) governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it){target="_blank"}, Adobe Experience Platform ti consente di gestire e applicare i criteri di governance dei dati tra i tuoi canali **etichettando i campi** e creando **azioni di marketing** per ogni canale.
 
-Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#governance-policies)
+Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#policy)
 
 Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai relativi percorsi/campagne e le azioni personalizzate dei percorsi.
 [Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)

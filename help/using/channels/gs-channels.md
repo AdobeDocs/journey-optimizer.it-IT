@@ -6,10 +6,10 @@ description: 'Scopri come utilizzare i canali di comunicazione di  [!DNL Adobe J
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer offre una varietà di canali nativi per interagire con i
 I canali di consegna dei messaggi in uscita comportano l’invio di messaggi alla clientela senza una precedente interazione. Alcuni esempi includono campagne e-mail e notifiche push, in cui puoi contattare il pubblico in modo proattivo. In [!DNL Adobe Journey Optimizer] i canali in uscita supportati sono:
 
 * **E-mail**: consegna messaggi personalizzati direttamente nelle caselle in entrata della clientela.
-* **SMS/MMS**: invia messaggi di testo agli utenti sui dispositivi mobili.
+* **SMS/MMS/RCS**: invia messaggi di testo agli utenti sui loro dispositivi mobili.
 * **Notifica push**: coinvolgi gli utenti con notifiche istantanee sui loro dispositivi, stimolando un’azione immediata.
 * **Direct mail**: utilizza la posta tradizionale per creare una connessione tangibile con il pubblico.
 

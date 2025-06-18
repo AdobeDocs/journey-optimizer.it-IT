@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ dove:
 
 * Le parole **true**, **false**, **null** e **undefined** sono consentite solo nella prima parte di un&#39;espressione di percorso.
 
-* In Handlebars, i valori restituiti da {{expression}} sono **con escape HTML**. Se l&#39;espressione contiene `&`, l&#39;output con escape HTML restituito verrà generato come `&amp;`. Se non desideri che Handlebars sfugga a un valore, utilizza il &quot;triplo-stash&quot;.
+* In Handlebars, i valori restituiti da {{expression}} sono **con escape HTML**. Se l&#39;espressione contiene `&`, l&#39;output con escape HTML restituito verrà generato come `&amp;`. Se non vuoi che Handlebars sfugga a un valore, utilizza il &quot;triplo-stash&quot;.
 
 * Per quanto riguarda gli argomenti delle funzioni letterali, il parser del linguaggio del modello non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduto da una barra rovesciata (`\`). Esempio:
 
@@ -69,9 +69,9 @@ dove:
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-  +++
++++
 
-* **Destinatari**
+* **Pubblico**
 
   Per ulteriori informazioni sul servizio di segmentazione, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 
@@ -112,7 +112,7 @@ dove:
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  +++
++++
 
 ## Helper{#helpers-all}
 

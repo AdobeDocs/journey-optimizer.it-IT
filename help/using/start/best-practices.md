@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 3%
+source-wordcount: '983'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Journey Optimizer sfrutta il servizio Identity per unire profili e persona
    * Il completamento di questa operazione può richiedere da 30 minuti a 4 ore.
    * Di solito, questo evento di accesso genera un grafo di identità che collega CRMID con ECID.
 
-1. Dopo l’unione iniziale, tutti i dati inviati con una delle due identità saranno associati al profilo unito e disponibili per la personalizzazione in Journey Optimizer in tempo reale. L’aggiornamento del profilo con i dati comportamentali più recenti può richiedere fino a 1 minuto. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it).
+1. Dopo l’unione iniziale, tutti i dati inviati con una delle due identità saranno associati al profilo unito e disponibili per la personalizzazione in Journey Optimizer in tempo reale. L’aggiornamento del profilo con i dati comportamentali più recenti può richiedere fino a 1 minuto. Consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it).
 
 Durante la creazione di casi d’uso, considera quanto segue:
 
@@ -68,7 +68,7 @@ Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno 
 * Se il percorso **Read audience** dispone di una sola azione, nessuna attesa/decisione o ottimizzazione dell&#39;ora di invio, puoi spostarli in Journey Optimizer Campaigns. Le campagne sono più adatte al coinvolgimento in un singolo passaggio. Una delle differenze chiave tra Campaign e i Percorsi è se ritieni importante ascoltare attivamente il coinvolgimento degli utenti per determinare il passaggio successivo e interagire con un’altra azione.
 * Per ridurre il numero di attività all’interno di un percorso, controlla i passaggi della condizione. Ci saranno molte istanze in cui puoi spostare le condizioni nella definizione del segmento o nella composizione del pubblico.
 * Se le stesse condizioni vengono ripetute in più percorsi (controlli del consenso, eliminazioni), considera di spostarle come parte della definizione del segmento. Ad esempio, se disponi di una condizione per controllare &quot;l’indirizzo e-mail non è vuoto&quot; in più percorsi, includi tale condizione nella definizione del segmento.
-* Se il percorso presenta diverse condizioni che dividono il pubblico per visualizzare i numeri in ogni passaggio, è consigliabile utilizzare il Customer Journey Analytics o un’altra soluzione di reporting più adatta per l’analisi.
+* Se il percorso presenta diverse condizioni che dividono il pubblico per visualizzare i numeri in ogni passaggio, è consigliabile utilizzare Customer Journey Analytics o altre soluzioni di reporting più adatte per l’analisi.
 * Se ti stai avvicinando al limite di nodi nell’area di lavoro, considera il consolidamento delle azioni con parametri dinamici o contenuti per fornire il contenuto giusto invece di nodi espliciti.
 
 * Se disponi di un percorso **Read Audience** con segmento batch (A) e se utilizzi all&#39;interno del percorso nel segmento di streaming Audience (B) per escludere (ovvero esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l&#39;esclusione come parte della logica di segmentazione stessa.

@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 99%
+source-wordcount: '2448'
+ht-degree: 98%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 99%
       + [Leggi pubblico](using/building-journeys/read-audience.md)
       + [Azioni del canale incorporate](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
+      + [Decisione sul contenuto](using/building-journeys/content-decision.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Salta](using/building-journeys/jump.md)
@@ -288,19 +289,19 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
          + [Flusso di notifica push](using/push/push-gs.md)
          + [Configurare il canale di notifica push](using/push/push-configuration.md)
          + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
-   + Canale SMS/MMS{#sms}
+   + Canale SMS/MMS/RCS{#sms}
       + [Introduzione ai messaggi di testo](using/sms/get-started-sms.md)
-      + [Creare un messaggio di testo (SMS/MMS)](using/sms/create-sms.md)
+      + [Creare un messaggio SMS/MMS/RCS](using/sms/create-sms.md)
       + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
       + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
       + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
-      + Configurare il canale SMS/MMS{#configure-sms}
-         + [Introduzione alla configurazione di SMS](using/sms/sms-configuration.md)
+      + Configurare il canale SMS/MMS/RCS{#configure-sms}
+         + [Guida introduttiva alla configurazione di SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configurare il provider Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurare il provider Twilio](using/sms/sms-configuration-twilio.md)
          + [Configurare un provider personalizzato](using/sms/sms-configuration-custom.md)
-         + [Creare una configurazione SMS](using/sms/sms-configuration-surface.md)
+         + [Creare una configurazione SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
          + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
       + Creare esperienze basate su codice {#create-code-based-experiences}
          + [Creare e comporre esperienze basate su codice](using/code-based/create-code-based.md)
+         + [Utilizzare campi modificabili in esperienze basate su codice](using/code-based/code-based-form-fields.md)
          + [Testare le esperienze basate su codice](using/code-based/test-code-based.md)
          + [Gestire le esperienze basate su codice](using/code-based/publish-code-based.md)
    + Schede contenuto{#content-card}

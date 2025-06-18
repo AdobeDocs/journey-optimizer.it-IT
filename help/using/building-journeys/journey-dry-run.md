@@ -1,24 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esecuzione di prova del percorso
+title: Prova del percorso
 description: Scopri come pubblicare un percorso in modalità di esecuzione in prova
 feature: Journeys
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 5%
 
 ---
 
-# Esecuzione di prova del percorso {#journey-dry-run}
+# Prova del percorso {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

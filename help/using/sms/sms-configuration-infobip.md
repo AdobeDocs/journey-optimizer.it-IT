@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '748'
 ht-degree: 3%
 
 ---
@@ -28,47 +28,38 @@ Se non vengono fornite parole chiave di consenso o rinuncia, vengono utilizzati 
 
 >[!ENDSHADEBOX]
 
+## Configurare le credenziali API per SMS
+
 Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 
-1. Configura le credenziali API come descritto di seguito.
+1. Configura le credenziali API SMS, come descritto di seguito:
 
-   * **[!UICONTROL Fornitore SMS]**: Infobip.
++++ Elenco delle credenziali SMS per la configurazione
 
-   * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
+   | Campi di configurazione | Descrizione |
+   |---|---|    
+   | Fornitore SMS | Infobip |
+   | Nome | Scegli un nome per le credenziali API. |
+   | URL di base API e chiave API | Per trovare le credenziali, accedi alla home page dell’interfaccia web o alla pagina di gestione delle chiavi API. Ulteriori informazioni nella [documentazione Infobip](https://www.infobip.com/docs/api){target="_blank"} |
+   | Parole chiave di Opt-in | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio di consenso. Per più parole chiave, utilizza valori separati da virgola. |
+   | Messaggio di Opt-in | Immetti la risposta personalizzata inviata automaticamente come messaggio di consenso. |
+   | Parole chiave di rinuncia | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio di rinuncia. Per più parole chiave, utilizza valori separati da virgola. |
+   | Messaggio di rinuncia | Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
+   | Parole chiave della Guida | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
+   | Messaggio di aiuto | Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
+   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Doppio messaggio di consenso | Immetti la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
+   | ID entità principale | Immettere l&#39;ID entità entità principale DLT assegnato. |
+   | ID modello contenuto | Immetti l&#39;ID del modello di contenuto DLT registrato. |
+   | Periodo di validità | Immetti il periodo di validità del messaggio in ore. Nel caso in cui i messaggi non possano essere consegnati entro questo intervallo di tempo, il sistema effettuerà ulteriori tentativi per inviarli nuovamente. Il periodo di validità predefinito è impostato su 48 ore. |
+   | Dati callback | Immetti i dati client aggiuntivi che verranno inviati sull’URL di notifica. |
+   | Numero in entrata | Aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata. |
+   | Parole chiave in entrata personalizzate | Definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
+   | Messaggio di risposta in entrata predefinito | Immetti la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite. |
 
-   * **[!UICONTROL URL di base API]** e **[!UICONTROL chiave API]**: accedi alla home page dell&#39;interfaccia Web o alla pagina di gestione della chiave API per trovare le tue credenziali. Ulteriori informazioni nella [documentazione Infobip](https://www.infobip.com/docs/api){target="_blank"}.
-
-   * **[!UICONTROL Parole chiave di consenso]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di consenso]**. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Messaggio di consenso]**: immetti la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di consenso]**.
-
-   * **[!UICONTROL Parole chiave di rinuncia]**: immetti le parole chiave predefinite o che attiveranno automaticamente il **[!UICONTROL Messaggio di rinuncia]**. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Messaggio di rinuncia]**: immetti la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di rinuncia]**.
-
-   * **[!UICONTROL Parole chiave della Guida]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio della Guida**. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Messaggio di aiuto]**: immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**.
-
-   * **[!UICONTROL Parole chiave per doppio consenso]**: inserisci le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola.
-
-   * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso.
-
-   * **[!UICONTROL ID entità principale]**: immettere l&#39;ID entità principale DLT assegnato.
-
-   * **[!UICONTROL ID modello di contenuto]**: immetti l&#39;ID del modello di contenuto DLT registrato.
-
-   * **[!UICONTROL Periodo di validità]**: inserisci il periodo di validità del messaggio in ore. Nel caso in cui i messaggi non possano essere consegnati entro questo intervallo di tempo, il sistema effettuerà ulteriori tentativi per inviarli nuovamente. Il periodo di validità predefinito è impostato su 48 ore.
-
-   * **[!UICONTROL Dati callback]**: immettere i dati client aggiuntivi che verranno inviati nell&#39;URL di notifica.
-
-   * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata.
-
-   * **[!UICONTROL Parole chiave in entrata personalizzate]**: definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata.
-
-   * **[!UICONTROL Messaggio di risposta in entrata predefinito]**: immettere la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite.
++++
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
@@ -77,3 +68,23 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
 1. Per modificare le credenziali esistenti, individuare le credenziali API desiderate e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi SMS e MMS. [Ulteriori informazioni](sms-configuration-surface.md)
+
+## Configurare le credenziali API per RCS
+
+La messaggistica RCS è supportata in Adobe Journey Optimizer tramite Infobip utilizzando la funzionalità [Provider SMS personalizzato](sms-configuration-custom.md). Ciò consente la distribuzione di messaggi avanzati e interattivi tramite profili aziendali verificati, incorporando elementi quali caroselli, pulsanti e contenuti multimediali.
+
+Per abilitare la messaggistica RCS con Infobip, è necessario configurare le nuove credenziali API tramite un provider SMS personalizzato. Le credenziali SMS di Infobip esistenti non sono compatibili, in quanto RCS richiede un formato di payload distinto.
+
+1. **Registra la tua attività per RCS tramite Infobip**
+
+   Inizia completando il processo di onboarding e registrazione RCS all’interno della piattaforma Infobip. Ciò comporta la configurazione del profilo del mittente RCS e la verifica che l’account sia abilitato per RCS. Ulteriori informazioni sono disponibili nella [documentazione di Infobip](https://www.infobip.com/docs/rcs/get-started)
+
+1. **Creare un webhook SMS**
+
+   [Configura un webhook SMS personalizzato](sms-configuration-custom.md#webhook) in Journey Optimizer. Questo webhook sarà responsabile della gestione delle conferme di recapito, dei messaggi RCS in entrata e degli aggiornamenti dello stato dalla piattaforma Infobip.
+
+1. **Crea credenziali API utilizzando Personalizzato come fornitore SMS**
+
+   [Creare una nuova credenziale API](sms-configuration-custom.md#api-credential) in Journey Optimizer, selezionando &quot;Personalizzato&quot; come provider SMS. Utilizza il metodo di autenticazione dell’endpoint RCS appropriato, l’URL di base e le intestazioni.
+
+Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi RCS. [Ulteriori informazioni](sms-configuration-surface.md)

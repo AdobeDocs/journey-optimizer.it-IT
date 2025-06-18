@@ -1,23 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sospendi un percorso
+title: Mettere in pausa un percorso
 description: Scopri come mettere in pausa e riprendere un percorso live
 feature: Journeys
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
 
 ---
 
-# Sospendi un percorso {#journey-pause}
+# Mettere in pausa un percorso {#journey-pause}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"

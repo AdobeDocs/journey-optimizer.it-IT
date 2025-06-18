@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 38%
+source-wordcount: '1677'
+ht-degree: 33%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Origini dati esterne"
->abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne."
+>abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se la persona ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne."
 
 ## Utilizzare origini dati esterne {#gs-ext-data-sources}
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se la persona ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massi
 
    >[!CAUTION]
    >
-   >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Inoltre, non consentiamo l’uso di indirizzi Adobe che non siano disponibili al pubblico, né di indirizzi IP.
+   >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Inoltre, non consentiamo l’uso di indirizzi Adobe che non sono disponibili al pubblico, né di indirizzi IP.
 
    ![](assets/journey27.png)
 

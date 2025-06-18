@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1796'
 ht-degree: 11%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 11%
 >id="ajo_code_based_decision"
 >title="Che cos’è una decisione?"
 >abstract="I criteri di decisione contengono tutta la logica di selezione affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici della campagna. Il loro obiettivo è selezionare le migliori offerte per ciascun profilo mentre la creazione della campagna consente di indicare come devono essere presentati gli elementi decisionali selezionati, inclusi gli attributi degli elementi da includere nel messaggio."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informazioni sulla funzione Decisioni"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Definire un criterio di decisione"
+>abstract="Un criterio di decisione ti consente di scegliere gli elementi migliori dal motore delle decisioni e di distribuirli al pubblico giusto."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informazioni sulla funzione Decisioni"
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
@@ -62,6 +68,10 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 1. Dall&#39;[editor di codice](../code-based/create-code-based.md#edit-code), selezionare **[!UICONTROL Criterio decisione]** e fare clic su **[!UICONTROL Aggiungi criterio decisione]**.
 
    ![](assets/decision-code-based-create.png)
+
+   Dalla schermata di edizione del percorso o della campagna, puoi anche aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione. Utilizza l&#39;icona dedicata nella barra a destra per visualizzare la sezione **[!UICONTROL Decisioning]**.
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. Per impostazione predefinita, crea un nuovo criterio.
 

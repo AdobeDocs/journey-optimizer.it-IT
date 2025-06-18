@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '464'
 ht-degree: 31%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 31%
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una raccolta &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda il video su questa funzione](#video)
 
 L&#39;elenco delle raccolte di offerte è accessibile nel menu **[!UICONTROL Offerte]**.
 
@@ -86,8 +86,8 @@ Per creare una raccolta, effettua le seguenti operazioni:
 
    ![](../assets/collection_created.png)
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346688?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

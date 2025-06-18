@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Per garantire prestazioni e coerenza ottimali, Decisioning applica i seguenti gu
 
   È supportato un massimo di quattro livelli di nidificazione. Le immagini non sono supportate all&#39;ultimo livello.
 
-## Accedere e modificare lo schema del catalogo
+## Accedere e modificare lo schema del catalogo {#access-catalog-schema}
 
 Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degli elementi decisionali, effettua le seguenti operazioni:
 

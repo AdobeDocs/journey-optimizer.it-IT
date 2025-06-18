@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '600'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 
 ![Tavolozza delle attività di orchestrazione nella finestra di progettazione del percorso](assets/journey49.png)
 
-## Attività azione {#action-activities}
+## Attività di azione {#action-activities}
 
 Le azioni sono ciò che si desidera che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo del percorso che il cliente sperimenta.
 
@@ -72,6 +72,7 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
    * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] e Marketo Engage](../action/marketo-engage.md)
 
 ## Best practice {#best-practices}
 

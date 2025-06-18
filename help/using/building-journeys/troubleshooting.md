@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 48%
+source-wordcount: '1059'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 In questa sezione, scopri come risolvere i problemi dei percorsi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Ulteriori informazioni sulla modalità di test in [questa pagina](../building-journeys/testing-the-journey.md).
 
-In qualità di amministratore, puoi anche testare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente dall’interfaccia utente. Ulteriori informazioni su [questa pagina](../action/troubleshoot-custom-action.md).
+In qualità di amministratore, puoi anche testare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente dall’interfaccia utente. Ulteriori informazioni sono disponibili in [questa pagina](../action/troubleshoot-custom-action.md).
 
 ## Verifica la presenza di errori prima del test {#checking-for-errors-before-testing}
 
@@ -64,7 +64,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -74,7 +74,7 @@ Lo spazio dei nomi dell’identità viene utilizzato per identificare in modo un
 
 Il reporting percorso misura le entrate delle persone in un percorso in tempo reale.
 
-Se l’invio dell’evento è stato completato con successo ma non viene visualizzato alcuna entrata nel percorso, significa che si sono verificati errori tra l’invio dell’evento e la ricezione dell’evento nel percorso.
+Se l’invio dell’evento è stato completato con successo ma non viene visualizzata alcuna entrata nel percorso, significa che si sono verificati errori tra l’invio dell’evento e la ricezione dell’evento nel percorso.
 
 Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
 
@@ -82,7 +82,7 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
 * Hai salvato l’evento prima di copiare il payload dall’anteprima del payload?
 * Il payload dell’evento contiene un ID evento?
 * Hai raggiunto l’URL giusto?
-* Hai seguito la struttura del payload delle API di Streaming Ingestion utilizzando l’anteprima della struttura del payload nel riquadro di configurazione dell’evento? Consulta [questa pagina](../event/about-creating.md#preview-the-payload).
+* Hai seguito la struttura del payload delle API per l’acquisizione in streaming utilizzando l’anteprima della struttura del payload nel riquadro di configurazione dell’evento? Consulta [questa pagina](../event/about-creating.md#preview-the-payload).
 * Hai utilizzato le coppie chiave-valore corrette nell’intestazione dell’evento?
 
   ```
@@ -96,12 +96,12 @@ Il reporting di percorso misura il progresso delle persone all&#39;interno di un
 
 Di seguito sono riportati alcuni elementi da verificare:
 
-* È dovuto a una condizione che esclude la persona? Ad esempio, la condizione è “gender = male” e la persona in oggetto è una donna. Questo controllo può essere eseguito da un utente aziendale, se la condizione non è troppo complessa.
+* È dovuto a una condizione che esclude la persona? Ad esempio, la condizione è “genere = uomo” e la persona in oggetto è una donna. Questo controllo può essere eseguito da un utente aziendale, se la condizione non è troppo complessa.
 * È dovuto a una chiamata a un’origine dati che non risponde? Quando il percorso è in modalità di test, queste informazioni possono essere visualizzate nei registri in modalità di test. Quando il percorso è live, un amministratore può testare le chiamate dirette all’origine dati e verificare la risposta ricevuta. Un amministratore può anche duplicare il percorso e testarlo.
 
 ## Verifica che i messaggi siano inviati correttamente {#checking-that-messages-are-sent-successfully}
 
-Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono i messaggi che dovrebbero ricevere, puoi verificare se:
+Se gli individui si spostano nel modo giusto all’interno del percorso ma non ricevono i messaggi che dovrebbero ricevere, puoi verificare se:
 
 * [!DNL Journey Optimizer] ha preso correttamente in considerazione la richiesta di invio del messaggio. Gli utenti aziendali possono accedere al messaggio che doveva essere stato inviato e verificare se l’ora dell’esecuzione più recente corrisponde all’orario di esecuzione del percorso. Può anche controllare le ultime chiamate/eventi API ricevuti.
 * [!DNL Journey Optimizer] ha inviato correttamente il messaggio. Controlla la segnalazione del percorso per assicurarti che non ci siano errori.

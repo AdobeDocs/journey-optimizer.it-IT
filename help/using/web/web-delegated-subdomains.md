@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sottodomini, configurazione
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 20%
+source-wordcount: '987'
+ht-degree: 22%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 20%
 
 ## Introduzione ai sottodomini web {#gs-web-subdomains}
 
-Quando crei esperienze web, se aggiungi contenuto provenienti dall&#39;libreria [Assets](../integrations/assets.md) Adobe Experience Manager, devi impostare il sottodominio che verrà utilizzato per pubblicare questo contenuto.
+Durante l&#39;authoring delle esperienze Web, se si aggiungono contenuti provenienti dalla libreria [Adobe Experience Manager Assets](../integrations/assets.md), è necessario impostare il sottodominio che verrà utilizzato per pubblicare tali contenuti.
 
-È possibile utilizzare un sottodominio già delegato a Adobe Systems oppure configurare un altro sottodominio. Scopri ulteriori informazioni sulla delega di sottodomini a Adobe Systems in [questa sezione](../configuration/delegate-subdomain.md).
+Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe sono disponibili in [questa sezione](../configuration/delegate-subdomain.md).
 
 La configurazione del sottodominio Web è **comune a tutti gli ambienti**. Pertanto:
 
@@ -46,15 +46,15 @@ La configurazione del sottodominio Web è **comune a tutti gli ambienti**. Perta
 
 Puoi creare diversi sottodomini web, ma verrà utilizzato solo il sottodominio **default**. Puoi modificare il sottodominio web predefinito, ma è possibile utilizzarne solo uno alla volta.
 
-## Accesso e gestire sottodomini web {#access-web-subdomains}
+## Accesso e gestione dei sottodomini web {#access-web-subdomains}
 
-Per accesso i sottodomini per le esperienze Web, seguire questi passaggi:
+Per accedere ai sottodomini per le esperienze web, segui questi passaggi:
 
-1. Sfoglia al **[!UICONTROL menu Amministrazione]** > **[!UICONTROL canali]** , quindi seleziona **[!UICONTROL Impostazioni]** web > **[!UICONTROL Sottodomini]** web. Vengono visualizzati tutti i sottodomini configurati con la sandbox corrente.
+1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni Web]** > **[!UICONTROL Sottodomini Web]**. Vengono visualizzati tutti i sottodomini configurati con la sandbox corrente.
 
    ![](assets/web-access-subdomains.png)
 
-1. È possibile filtrare i utente che hanno delegato ogni sottodominio o uno stato di delega (**[!UICONTROL Bozza]**, **[!UICONTROL Elaborazione]**, **[!UICONTROL Operazione riuscita]** o **[!UICONTROL Non riuscita]**).
+1. Puoi filtrare in base all&#39;utente che ha delegato ogni sottodominio o uno dei due stati di delega (**[!UICONTROL Bozza]**, **[!UICONTROL Elaborazione]**, **[!UICONTROL Operazione completata]** o **[!UICONTROL Non riuscita]**).
 
    ![](assets/web-filter-subdomains.png)
 
@@ -64,31 +64,31 @@ Per accesso i sottodomini per le esperienze Web, seguire questi passaggi:
 
    Puoi modificare il sottodominio web predefinito, ma è possibile utilizzarne solo uno alla volta.
 
-## Utilizza un sottodominio esistente {#web-use-existing-subdomain}
+## Usa un sottodominio esistente {#web-use-existing-subdomain}
 
-Per utilizzare un sottodominio già delegato a Adobe Systems, seguire i passaggi seguenti:
+Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti:
 
-1. Accedi al **[!UICONTROL menu Amministrazione]** > **[!UICONTROL canali]** , quindi seleziona **[!UICONTROL Impostazioni]** web > **[!UICONTROL sottodomini]** web.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**, quindi seleziona **[!UICONTROL Impostazioni Web]** > **[!UICONTROL Sottodomini Web]**.
 
-1. Fai clic su **[!UICONTROL Imposta sottodominio]**.
+1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
-1. Selezionare l&#39;opzione **[!UICONTROL Usa sottodominio]** delegato dalla **[!UICONTROL sezione Tipo di]** configurazione e scegliere un sottodominio delegato dall&#39;elenco.
+1. Seleziona l&#39;opzione **[!UICONTROL Usa sottodominio delegato]** dalla sezione **[!UICONTROL Tipo di configurazione]** e scegli un sottodominio delegato dall&#39;elenco.
 
    ![](assets/web-subdomain-details.png)
 
    >[!NOTE]
    >
-   >Non è possibile selezionare un sottodominio già utilizzato come sottodominio Web.
+   >Non puoi selezionare un sottodominio già utilizzato come sottodominio web.
 
-1. Il prefisso che verrà visualizzato nel URL Web viene aggiunto automaticamente. Non è possibile modificarlo.
+1. Il prefisso che verrà visualizzato nell’URL web viene aggiunto automaticamente. Non puoi cambiarlo.
 
-1. Per impostare questo sottodominio come predefinito, selezionare l&#39;opzione corrispondente.
+1. Per impostare questo sottodominio come predefinito, seleziona l’opzione corrispondente.
 
    ![](assets/web-subdomain-details-default.png)
 
-   Verrà utilizzato solo il **sottodominio predefinito** .
+   Verrà utilizzato solo il sottodominio **default**.
 
-1. Fai clic su &quot;Submit&quot; (Invia **&#x200B;**). Il sottodominio ottiene lo **[!UICONTROL stato Operazione riuscita]** . È pronto per essere utilizzato nelle esperienze web.
+1. Fai clic su **[!UICONTROL Invia]**. Il sottodominio ottiene lo stato **[!UICONTROL Operazione riuscita]**. È pronto per essere utilizzato nelle esperienze web.
 
    In casi molto rari, l’impostazione di un sottodominio potrebbe non riuscire. In questo caso, puoi eliminare il sottodominio **[!UICONTROL Non riuscito]** per pulire l&#39;elenco utilizzando il pulsante **[!UICONTROL Elimina]** dall&#39;icona **[!UICONTROL Altre azioni]**.
 
@@ -99,7 +99,7 @@ Per utilizzare un sottodominio già delegato a Adobe Systems, seguire i passaggi
 >title="Generare il record DNS corrispondente"
 >abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Adobe Experience Manager Assets."
 
-Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare **fino a 10 sottodomini** in totale (che coprono sia i canali e-mail che quelli web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
+Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini** in totale (sia per i canali e-mail che per quelli web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
 Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 
@@ -107,7 +107,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 
 1. Fare clic su **[!UICONTROL Configura sottodominio]**.
 
-1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione Tipo di **&#x200B;**&#x200B;configurazione.
+1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
 
 1. Specifica il sottodominio da delegare.
 
@@ -115,11 +115,11 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
    >
    >* Non puoi utilizzare un sottodominio web esistente.
    >
-   >* Le lettere maiuscole non sono consentite nei sottodomini.
+   >* Nei sottodomini non sono consentite lettere maiuscole.
 
    ![](assets/web-add-your-own-domain.png)
 
-   Non è consentito delegare un sottodominio non valido a Adobe Systems. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
    Sono supportati i sottodomini a più livelli (dello stesso dominio padre). Ad esempio, puoi utilizzare &quot;web.marketing.yourcompany.com&quot;.
 
@@ -131,19 +131,19 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 
 1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare il record DNS corrispondente.
 
-1. Assicurati che il record DNS sia stato generato nella soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confirmo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
+1. Assicurati che il record DNS sia stato generato nella soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/web-add-your-own-domain-confirm.png)
 
-   Quando configuri un nuovo sottodominio web, punta sempre a un record CNAME.
+   Quando configuri un nuovo sottodominio web, questo punta sempre a un record CNAME.
 
-1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato di **[!UICONTROL elaborazione]** . Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Prima di poter utilizzare quel sottodominio per inviare messaggi Web, è necessario attendere che Adobe Systems esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.
+   Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi Web, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.
 
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare configurazioni del canale web.
 
-   Tieni presente che il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]** se non riesci a creare il record convalida sulla tua soluzione di hosting.
+   Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
@@ -152,35 +152,15 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## Annullare la delega di un sottodominio {#undelegate-subdomain}
 
-Se desideri annullare la delega di un sottodominio web, contatta il tuo rappresentante Adobe Systems.
-
-Tuttavia, è necessario eseguire diversi passaggi nell&#39;interfaccia di utente prima di contattare Adobe Systems.
-
->[!NOTE]
->
->È possibile annullare la **[!UICONTROL delega solo i sottodomini con stato Operazione riuscita]** . I sottodomini con gli **[!UICONTROL stati Bozza]** e **[!UICONTROL Non riuscito]** possono essere semplicemente eliminati dall&#39;interfaccia utente.
-
-Innanzitutto, esegui i seguenti passaggi in [!DNL Journey Optimizer]:
-
-1. Disattiva tutte le configurazioni di canale associate al sottodominio. [Scopri come](../configuration/channel-surfaces.md#deactivate-a-surface)
+Se desideri annullare la delega di un sottodominio web, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
 
 <!--
-1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
 
-1. Interruzione le campagne attive associate ai sottodomini. [Scopri come](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
 
-1. Interruzione i percorsi attivi associati ai sottodomini. [Scopri come](../building-journeys/end-journey.md#stop-journey)
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-1. Se il sottodominio Web è un [nuovo sottodominio delegato](#web-configure-new-subdomain), rimuovere le voci DNS associate a tale sottodominio.
-
-Al termine, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
+Se il sottodominio web era un [nuovo sottodominio delegato](#web-configure-new-subdomain), puoi eliminare il record DNS CNAME creato per il sottodominio web dalla soluzione di hosting (ma non eliminare l&#39;eventuale sottodominio e-mail originale).
 
 Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
-
->[!CAUTION]
->
->Dopo la rimozione della delega di un sottodominio:
->
->   * Non è possibile riattivare le configurazioni di canale che utilizzavano quel sottodominio.
->
->   * Non è possibile delegare nuovamente il sottodominio esatto tramite l&#39;interfaccia utente. Se vuoi farlo, contatta il tuo rappresentante Adobe Systems.

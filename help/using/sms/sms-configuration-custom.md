@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1032'
 ht-degree: 9%
 
 ---
 
-# Configurare un provider SMS personalizzato {#sms-configuration-custom}
+# Configurare un provider personalizzato {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >title="Payload del provider"
 >abstract="Fornisci il payload richiesto per garantire che vengano inviati i dati corretti per l’elaborazione e la generazione di risposte."
 
-Questa funzione ti consente di integrare e configurare i tuoi provider SMS, offrendo flessibilità oltre i provider predefiniti (Sinch, Twilio e Infobip). Questo consente di gestire in modo semplice l’authoring, la distribuzione, il reporting e il consenso degli SMS.
+Questa funzione consente di integrare e configurare i provider di messaggistica, offrendo flessibilità oltre le opzioni predefinite (Sinch, Twilio e Infobip). Questo consente di gestire in modo semplice l’authoring, la consegna, il reporting e il consenso sia per i messaggi SMS che per quelli RCS.
 
-Con la configurazione del provider personalizzato per SMS, puoi configurare provider SMS personalizzati direttamente in Journey Optimizer, utilizzare la personalizzazione avanzata del payload per la messaggistica dinamica e gestire le preferenze di consenso (consenso/rinuncia) per garantire la conformità.
+Con la configurazione del provider personalizzato, puoi collegare servizi di messaggistica di terze parti direttamente in Journey Optimizer, personalizzare i payload dei messaggi per il contenuto dinamico e gestire le preferenze di consenso/rinuncia per garantire la conformità sia sui canali SMS che RCS.
 
-Per configurare il provider SMS personalizzato, effettua le seguenti operazioni:
+Per configurare il provider personalizzato, effettua le seguenti operazioni:
 
 1. [Crea credenziali API](#api-credential)
 1. [Crea webhook](#webhook)
@@ -44,7 +44,7 @@ Per configurare il provider SMS personalizzato, effettua le seguenti operazioni:
 
 ## Creare le credenziali API {#api-credential}
 
-Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato non disponibile come predefinito da Adobe (ad esempio Sinch, Infobip, Twilio), procedi come segue:
+Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider personalizzato non disponibile da Adobe (ad esempio Sinch, Infobip, Twilio), procedi come segue:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]**, seleziona il menu **[!UICONTROL Credenziali API]** in **[!UICONTROL Impostazioni SMS]** e fai clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 
@@ -73,6 +73,8 @@ Per inviare messaggi in Journey Optimizer utilizzando un provider personalizzato
    ![](assets/sms_byo_2.png)
 
 1. Aggiungi il **[!UICONTROL Payload provider]** per convalidare e personalizzare i payload della richiesta.
+
+   Per i messaggi RCS, questo payload viene utilizzato successivamente durante la [progettazione del contenuto](create-sms.md#sms-content).
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 

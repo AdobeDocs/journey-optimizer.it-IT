@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1500'
 ht-degree: 2%
 
 ---
@@ -662,7 +662,7 @@ Verranno restituiti tutti gli eventi di servizio relativi alla versione di perco
 Possiamo anche rilevare problemi come:
 
 * errori nella creazione di processi di esportazione o argomento (inclusi timeout nelle chiamate API di esportazione del pubblico)
-* processi di esportazione che possono essere bloccati (nel caso in cui per una determinata versione del percorso, non si verifichino eventi relativi alla chiusura del processo di esportazione)
+* processi di esportazione che possono essere bloccati (nel caso in cui per una determinata versione del percorso, non vi siano eventi relativi alla chiusura del processo di esportazione)
 * problemi del lavoratore, se abbiamo ricevuto l&#39;evento di cessazione del processo di esportazione ma nessun lavoratore ne elabora l&#39;elaborazione uno
 
 IMPORTANTE: se questa query non restituisce alcun evento, la causa potrebbe essere uno dei seguenti:
