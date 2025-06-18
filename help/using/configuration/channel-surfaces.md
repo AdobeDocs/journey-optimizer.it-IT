@@ -49,7 +49,7 @@ Puoi anche utilizzare la configurazione guidata del canale per automatizzare e c
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Impostazioni della configurazione dei canali"
->abstract="Quando imposti la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
+>abstract="Quando imposti la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione SMS e altro ancora."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
@@ -285,7 +285,7 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 1. Una volta assegnati i tag alle configurazioni dei canali, puoi [filtrarli](../start/search-filter-categorize.md#filter-on-tags) sui tag.
 
-## Video introduttivo{#video-presets}
+## Video dimostrativo{#video-presets}
 
 Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ Prima di creare un’offerta, assicurati di aver creato:
 * Se desideri aggiungere una condizione di idoneità: una **regola di decisione** che definirà la condizione in cui verrà presentata l&#39;offerta. Consulta [Creare regole di decisione](../offer-library/creating-decision-rules.md).
 * Uno o più **qualificatori di raccolta** (noti in precedenza come &quot;tag&quot;) da associare all&#39;offerta. Vedi [Creare qualificatori di raccolta](../offer-library/creating-tags.md).
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda il video su questa funzione](#video)
 
 L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL Offerte]**.
 
@@ -47,7 +47,7 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Offerta personalizzata"
->abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su regole e vincoli di idoneità."
+>abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su vincoli e regole di idoneità."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -171,4 +171,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

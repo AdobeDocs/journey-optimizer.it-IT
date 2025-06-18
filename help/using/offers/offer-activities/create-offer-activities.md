@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -309,9 +309,9 @@ La selezione è la seguente:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Aggiungere un’offerta di fallback"
->abstract="Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa alla clientela che non corrisponde alle regole e ai vincoli di idoneità delle offerte."
+>abstract="Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata in ultima istanza a chi non corrisponde ai vincoli e alle regole di idoneità delle offerte."
 
-Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa alla clientela che non corrisponde alle regole e ai vincoli di idoneità delle offerte.
+Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata in ultima istanza a chi non corrisponde ai vincoli e alle regole di idoneità delle offerte.
 
 Per farlo, selezionalo dall&#39;elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione, quindi fai clic su **[!UICONTROL Successivo]**.
 
@@ -396,10 +396,10 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 ![](../assets/decision_information.png)
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
