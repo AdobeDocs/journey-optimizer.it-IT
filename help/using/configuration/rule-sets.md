@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1956'
 ht-degree: 24%
 
 ---
@@ -72,7 +72,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
 >
->È possibile creare fino a 3 set di regole locali di dominio di canale e fino a 5 set di regole locali di dominio di percorso.
+>Puoi creare fino a 10 set di regole locali attivi per il dominio del canale e per il dominio del percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -312,4 +312,4 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

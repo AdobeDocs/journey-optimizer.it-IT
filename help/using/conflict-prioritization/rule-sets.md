@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 20%
+source-wordcount: '944'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 20%
 
 ### Cosa sono i set di regole? {#what}
 
-I set di regole ti consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne di tua scelta. Questo fornisce una maggiore granularità per limitare la frequenza e il numero di percorsi che un cliente può inserire entro un determinato intervallo di tempo o controllare la frequenza con cui gli utenti riceveranno un messaggio a seconda del tipo di comunicazione.
+I set di regole consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne desiderate. Questo fornisce una maggiore granularità ed è utile per limitare la frequenza e il numero di percorsi a cui una persona può accedere entro un determinato arco temporale o per controllare la frequenza con cui gli utenti ricevono un messaggio a seconda del tipo di comunicazione.
 
 Puoi creare due tipi di set di regole:
 
@@ -87,7 +87,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
 >
->È possibile creare fino a 3 set di regole locali di dominio di canale e fino a 5 set di regole locali di dominio di percorso.
+>Puoi creare fino a 10 set di regole locali attivi per il dominio del canale e per il dominio del percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -109,7 +109,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
    Informazioni dettagliate su come configurare le regole di limitazione dei percorsi e dei canali sono disponibili nelle sezioni seguenti:
 
    * [Limitazione Percorsi](../conflict-prioritization/journey-capping.md)
-   * [Limitazione della frequenza per canale e tipo di comunicazione](../conflict-prioritization/channel-capping.md)
+   * [Quota limite per tipo di comunicazione e canale](../conflict-prioritization/channel-capping.md)
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare la creazione della regola. Il messaggio viene aggiunto al set di regole con lo stato **[!UICONTROL Bozza]**.
 
@@ -164,4 +164,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

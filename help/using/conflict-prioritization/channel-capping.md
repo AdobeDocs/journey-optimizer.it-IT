@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1043'
 ht-degree: 22%
 
 ---
 
-# Limitazione della frequenza per canale e tipo di comunicazione {#rule-sets}
+# Quota limite per tipo di comunicazione e canale {#rule-sets}
 
 I set di regole **Canale** applicano regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 
@@ -33,7 +33,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
 >[!NOTE]
 >
->È possibile creare fino a 3 set di regole locali di dominio di canale e fino a 5 set di regole locali di dominio di percorso.
+>Puoi creare fino a 10 set di regole locali attivi per il dominio del canale e per il dominio del percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -152,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
