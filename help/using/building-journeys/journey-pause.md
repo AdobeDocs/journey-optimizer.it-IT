@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Quando un percorso viene messo in pausa, la gestione del profilo e l’esecuzion
 | [Reazione](reaction-events.md) | Stesso comportamento di un percorso live. Tuttavia, se la reazione è dopo un&#39;attività <strong>Azione</strong> e l&#39;utente è in pausa per tale azione, l&#39;evento di reazione viene ignorato. |
 | [Attendi](wait-activity.md) | Stesso comportamento di un percorso live |
 | [Condizione](condition-activity.md) | Stesso comportamento di un percorso live |
-| Decisione contenuto | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
+| [Decisione contenuto](content-decision.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
 | [Azione canale](journeys-message.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
 | [Azione personalizzata](../action/action.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
 | [Aggiorna profilo](update-profiles.md) e [Salta](jump.md) | Stesso comportamento di un percorso live |
