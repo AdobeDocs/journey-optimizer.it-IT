@@ -3,10 +3,10 @@ title: Identificatore supplementare nei percorsi attivati da eventi
 description: Scopri come utilizzare l’identificatore supplementare nei percorsi attivati da eventi.
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 7%
+source-wordcount: '928'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Per impostazione predefinita, i percorsi attivati da eventi vengono eseguiti nel contesto di un **ID profilo**. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un **identificatore supplementare** negli eventi, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all&#39;ID profilo.
 In questo esempio, è stato aggiunto un ID prenotazione come identificatore supplementare.
@@ -30,7 +30,7 @@ In questo modo, i percorsi attivati dall’evento vengono eseguiti nel contesto 
 
 Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identificatore supplementare (ad esempio, numero di prenotazione, data di rinnovo della prescrizione, tipo di prodotto) per la personalizzazione dei messaggi, garantendo comunicazioni altamente pertinenti. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## Guardrail e limitazioni
+## Guardrail e limitazioni {#guardrails}
 
 * **Limiti di istanze simultanee**: i profili non possono avere più di 10 istanze di percorso simultanee.
 
@@ -61,7 +61,14 @@ Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identifica
 
 * **Tipo di dati e struttura dello schema**: l&#39;identificatore supplementare deve essere di tipo `string`. Può essere un attributo di stringa indipendente oppure un attributo di stringa all&#39;interno di una matrice di oggetti. L&#39;attributo di stringa indipendente darà luogo a una singola istanza di percorso, mentre l&#39;attributo di stringa all&#39;interno di una matrice di oggetti darà luogo a un&#39;istanza di percorso univoca per iterazione della matrice di oggetti. Gli array di stringhe e le mappe non sono supportati.
 
-## Aggiungere un identificatore supplementare e sfruttarlo in un percorso
+* **Rientro Percorso**
+
+  Il comportamento di rientro percorso con identificatori supplementari segue la politica di rientro esistente:
+
+   * Se il percorso non è un rientro, la stessa combinazione di ID profilo + ID supplementare non può rientrare nel percorso.
+   * Se il percorso è rientro con una finestra temporale, la stessa combinazione di ID profilo + ID supplementare può essere reinserita dopo la finestra temporale definita.
+
+## Aggiungere un identificatore supplementare e sfruttarlo in un percorso {#add}
 
 Per utilizzare un identificatore supplementare in un percorso, effettua le seguenti operazioni:
 
@@ -88,6 +95,10 @@ Per utilizzare un identificatore supplementare in un percorso, effettua le segue
       ![](assets/supplemental-ID-event.png)
 
    1. Utilizza l’editor espressioni per selezionare l’attributo contrassegnato come ID supplementare.
+
+      >[!NOTE]
+      >
+      >Assicurarsi di utilizzare l&#39;editor espressioni in **[!UICONTROL modalità avanzata]** per selezionare l&#39;attributo.
 
    1. Dopo aver selezionato l’ID supplementare, lo spazio dei nomi associato viene visualizzato nella schermata di configurazione dell’evento come di sola lettura.
 

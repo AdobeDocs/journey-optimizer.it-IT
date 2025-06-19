@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 43%
 
 **Data di rilascio**: giovedì 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -202,6 +202,8 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
    * **Frequenza limite di reimpostazione oraria** - È ora possibile applicare il limite su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
 
    * **Durata giornaliera** - Precedentemente disponibile in Disponibilità limitata, il limite di frequenza &quot;Giornaliero&quot; nei set di regole del canale è ora disponibile per tutti i clienti.
+
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../conflict-prioritization/channel-capping.md).
 
 * **Esperienze basate su codice**
 
