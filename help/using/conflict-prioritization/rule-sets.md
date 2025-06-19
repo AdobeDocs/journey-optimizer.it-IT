@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '945'
 ht-degree: 32%
 
 ---
@@ -87,7 +87,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
 >
->Puoi creare fino a 10 set di regole locali attivi per il dominio del canale e per il dominio del percorso.
+>Puoi creare fino a 10 set di regole locali attivi per ciascun dominio di canale e per il dominio di percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -127,7 +127,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
    >[!NOTE]
    >
-   >La completa attivazione di una regola o di un set di regole può richiedere fino a 20 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
+   >La completa attivazione di una regola o di un set di regole può richiedere fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -164,4 +164,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

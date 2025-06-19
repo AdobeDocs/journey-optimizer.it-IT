@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 46%
+source-wordcount: '1070'
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 46%
 
 **Data di rilascio**: giovedì 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -195,11 +195,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-<!--* **Channel rule sets**
+* **Set di regole canale**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * **Intervallo di durata personalizzato** per la limitazione - Nella schermata di configurazione dei set di regole di canale è ora disponibile un nuovo campo **Ogni**, che consente di applicare le regole della limitazione della frequenza su più giorni, settimane o mesi, a seconda della durata specificata.
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **Frequenza limite di reimpostazione oraria** - È ora possibile applicare il limite su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
+
+   * **Durata giornaliera** - Precedentemente disponibile in Disponibilità limitata, il limite di frequenza &quot;Giornaliero&quot; nei set di regole del canale è ora disponibile per tutti i clienti.
 
 * **Esperienze basate su codice**
 

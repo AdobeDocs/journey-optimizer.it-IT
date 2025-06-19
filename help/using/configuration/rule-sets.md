@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 24%
 
 ---
@@ -72,7 +72,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
 >
->Puoi creare fino a 10 set di regole locali attivi per il dominio del canale e per il dominio del percorso.
+>Puoi creare fino a 10 set di regole locali attivi per ciascun dominio di canale e per il dominio di percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -197,7 +197,7 @@ Devi anche attivare il set di regole per potervi accedere in campagne/percorsi e
 
 >[!NOTE]
 >
->La completa attivazione di una regola o di un set di regole può richiedere fino a 20 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
+>La completa attivazione di una regola o di un set di regole può richiedere fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ Puoi applicare un set di regole a un messaggio o a un percorso, a seconda del do
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Prima di attivare la campagna, assicurati di pianificarne l’esecuzione per almeno 20 minuti nel futuro.
+1. Prima di attivare la campagna, assicurati di pianificarne l’esecuzione per almeno 10 minuti nel futuro.
 
    In questo modo sarà possibile popolare i valori dei contatori nel profilo per la regola business selezionata. Se attivi immediatamente la campagna, i valori dei contatori del set di regole non verranno inseriti nei profili dei destinatari e il messaggio non verrà conteggiato per le regole del limite di frequenza per i set di regole personalizzati.
 
@@ -306,10 +306,10 @@ Per applicare una regola di limite a un percorso, accedere al percorso e aprirne
 
 >[!IMPORTANT]
 >
->Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 20 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 20 minuti nel futuro per evitare questa eventualità.
+>Se un percorso viene attivato immediatamente, potrebbero essere necessari fino a 10 minuti per iniziare a eliminare i clienti. È possibile pianificare l&#39;inizio del percorso per almeno 10 minuti nel futuro per evitare questa eventualità.
 
 +++
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

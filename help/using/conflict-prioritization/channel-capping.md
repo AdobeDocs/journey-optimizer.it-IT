@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 22%
+source-wordcount: '1251'
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 22%
 I set di regole **Canale** applicano regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 
 L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviate ai clienti e un altro set di regole per limitare il numero di **newsletter** inviate. A seconda del tipo di campagna che si sta creando, è possibile scegliere di applicare la comunicazione promozionale o il set di regole newsletter.
+
+>[!IMPORTANT]
+>
+>Per garantire il corretto funzionamento della limitazione a livello di canale, assicurati di scegliere lo spazio dei nomi con priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi sono disponibili nella [guida di Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 ## Creare una regola di limitazione del canale
 
@@ -33,7 +37,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
 >[!NOTE]
 >
->Puoi creare fino a 10 set di regole locali attivi per il dominio del canale e per il dominio del percorso.
+>Puoi creare fino a 10 set di regole locali attivi per ciascun dominio di canale e per il dominio di percorso.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -41,7 +45,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
 1. Selezionare il set di regole in cui si desidera aggiungere la regola di limite o creare un nuovo set di regole:
 
-   * Per utilizzare un set di regole esistente, selezionarlo dall&#39;elenco. Le regole di limitazione di modifica possono essere aggiunte solo ai set di regole con il dominio &quot;channel&quot;. Puoi controllare queste informazioni negli elenchi dei set di regole, nella colonna **[!UICONTROL Dominio]**.
+   * Per utilizzare un set di regole esistente, selezionarlo dall&#39;elenco. Le regole di limitazione dei canali possono essere aggiunte solo ai set di regole con il dominio &quot;channel&quot;. Puoi controllare queste informazioni negli elenchi dei set di regole, nella colonna **[!UICONTROL Dominio]**.
 
      ![](assets/journey-capping-list.png)
 
@@ -55,25 +59,33 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
    ![](assets/rule-set-channels.png)
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Durata]**, selezionare se si desidera applicare il limite ogni mese, ogni settimana o ogni giorno. La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
+1. Nel campo **[!UICONTROL Conteggio limite]**, imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese, settimana, giorno o ora, in base alla selezione effettuata nei campi seguenti.
+
+1. Dall&#39;elenco a discesa **[!UICONTROL Reimposta frequenza limite]**, selezionare se si desidera applicare il limite su base oraria, giornaliera, settimanale o mensile. La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
-   * **[!UICONTROL Mensile]**: la quota limite è valida fino all’ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
+   * **[!UICONTROL Ora]** - Il limite di frequenza è valido per il numero di ore selezionato (minimo 3 ore). Il contatore viene reimpostato automaticamente all&#39;inizio di ogni finestra temporale. Per un limite di frequenza di 3 ore, viene ripristinato ogni 3 ore, in coincidenza con la fine di un’ora UTC.
 
-   * **[!UICONTROL Settimanale]**: la quota limite è valida fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La data di scadenza si applica indipendentemente da quando è stata creata la regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
+     >[!AVAILABILITY]
+     >
+     >Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
 
-   * **[!UICONTROL Giornaliero]**: il limite di frequenza giornaliero è valido per il giorno fino alle 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
+   * **[!UICONTROL Giornaliero]** - Il limite di frequenza giornaliero è valido per il giorno fino alle 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
+   * **[!UICONTROL Settimanale]** - Il limite di frequenza è valido fino a sabato 23:59:59 UTC della settimana in cui inizia la settimana solare di domenica. La data di scadenza si applica indipendentemente da quando è stata creata la regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
+   * **[!UICONTROL Mensile]** - Il limite di frequenza è valido fino all&#39;ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
 
-     >[!CAUTION]
-     > 
-     >Per garantire la precisione delle regole di quota limite giornaliera, assicurati di scegliere lo spazio dei nomi con la priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi sono disponibili nella [guida di Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+   >[!IMPORTANT]
+   >
+   >* Per garantire precisione, assicurati di scegliere lo spazio dei nomi con priorità più elevata durante la creazione di una campagna o di un percorso. Ulteriori informazioni sulla priorità dello spazio dei nomi sono disponibili nella [guida di Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>
+   >
+   >* Il valore del contatore dei profili viene aggiornato una volta consegnata la comunicazione. Tieni presente questo aspetto quando invii grandi volumi di comunicazioni, in quanto la velocità effettiva potrebbe far sì che il destinatario riceva l’e-mail pochi minuti o anche alcune ore dopo l’inizio della comunicazione (nel caso in cui invii milioni di comunicazioni simultaneamente). Ciò è importante nel caso in cui un destinatario riceva due comunicazioni in stretta collaborazione. Si consiglia di distanziare le comunicazioni di almeno due ore, se possibile, per dare al destinatario il tempo sufficiente per ricevere la comunicazione e aggiornare di conseguenza il valore del contatore.
 
-   Il valore del contatore dei profili viene aggiornato una volta consegnata la comunicazione. Tieni presente questo aspetto quando invii grandi volumi di comunicazioni, in quanto la velocità effettiva potrebbe far sì che il destinatario riceva l’e-mail pochi minuti o anche alcune ore dopo l’inizio della comunicazione (nel caso in cui invii milioni di comunicazioni simultaneamente).
+1. Il campo **[!UICONTROL Ogni]** consente di ripetere le regole di limitazione della frequenza in più ore, giorni, settimane o mesi, a seconda della durata specificata. Esempio: applica la regola del limite di frequenza per 2 settimane.
 
-   Ciò è importante nel caso in cui un destinatario riceva due comunicazioni in stretta collaborazione. Si consiglia di distanziare le comunicazioni di almeno due ore, se possibile, per dare al destinatario il tempo sufficiente per ricevere la comunicazione e aggiornare di conseguenza il valore del contatore.
+   Assicurati di immettere un valore che corrisponda al tipo di durata selezionato: 3-23 per Orario, 1-30 per Giornaliero, 1-4 per Settimanale e 1-3 per Mensile.
 
-1. Imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese, settimana o giorno, in base alla selezione precedente.
+   Il contatore viene reimpostato automaticamente su 0 quando inizia una nuova finestra temporale. Per un limite di frequenza di 2 giorni, questo si reimposta ogni due giorni alla mezzanotte UTC.
 
 1. Seleziona il canale da utilizzare per questa regola: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push]** o **[!UICONTROL Direct mail]**.
 
@@ -107,9 +119,9 @@ Per applicare un set di regole a un messaggio, effettua le seguenti operazioni:
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Prima di attivare il percorso o la campagna, assicurati di pianificarne l’esecuzione per almeno 20 minuti nel futuro.
+1. Prima di attivare il percorso o la campagna, assicurati di pianificarne l’esecuzione per almeno 10 minuti nel futuro.
 
-   In questo modo sarà possibile popolare i valori dei contatori nel profilo per la regola business selezionata. Se attivi immediatamente la campagna, i valori dei contatori del set di regole non verranno inseriti nei profili dei destinatari e il messaggio non verrà conteggiato per le regole del limite di frequenza per i set di regole personalizzati.
+   In questo modo sarà possibile popolare i valori dei contatori nel profilo per la regola business selezionata. Se attivi immediatamente la campagna, i valori dei contatori del set di regole non verranno inseriti nei profili dei destinatari e il messaggio non verrà conteggiato per le regole del limite di frequenza per i set di regole personalizzati. Inoltre, il limite potrebbe non funzionare correttamente per percorsi e campagne attivati immediatamente e per campagne attivate tramite API.
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -120,6 +132,8 @@ Per applicare un set di regole a un messaggio, effettua le seguenti operazioni:
 >Puoi applicare diverse regole allo stesso canale, ma una volta raggiunto il limite inferiore, il profilo verrà escluso dalle consegne successive.
 
 Durante il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, perché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al periodo successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+
+<!--add a new section for default priority namespace.-->
 
 <!--
 ## Example: combine several rules {#frequency-rule-example}
@@ -152,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

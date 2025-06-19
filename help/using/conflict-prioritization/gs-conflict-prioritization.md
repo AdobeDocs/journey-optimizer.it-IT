@@ -4,7 +4,7 @@ description: Scopri come sfruttare gli strumenti per i conflitti e l’assegnazi
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ I set di regole consentono di **raggruppare più regole in set di regole** e di 
 
 * **Latenza nell’aggiornamento del contatore profili**
 
-  Dopo l’ingresso di una persona in un percorso, l’aggiornamento del valore del contatore di profili può richiedere fino a 20 minuti .
+  Dopo l’ingresso di una persona in un percorso, l’aggiornamento del valore del contatore di profili può richiedere fino a 10 minuti .
 
   Se un profilo effettua l’ingresso in due percorsi in un breve intervallo di tempo, il secondo percorso potrebbe non riconoscere correttamente che il limite di frequenza è già stato raggiunto, ed è quindi possibile che il profilo entri in entrambi i percorsi.
 
