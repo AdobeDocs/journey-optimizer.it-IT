@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai messaggi di testo (SMS/MMS)
+title: Introduzione ai messaggi di testo (SMS/MMS/RCS)
 description: Scopri come creare e inviare messaggi di testo in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 76%
+source-wordcount: '243'
+ht-degree: 47%
 
 ---
 
 # Introduzione ai messaggi di testo {#get-started-sms}
 
-Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo (SMS/MMS) ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS/MMS.
+Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo (SMS/MMS/RCS) ai tuoi clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS/MMS/RCS.
 
-I messaggi di testo possono essere creati e inviati in un percorso o in una campagna. Per MMS e SMS, utilizza l’azione SMS.
+I messaggi di testo possono essere creati e inviati in un percorso o in una campagna. Per SMS, MMS e RCS, utilizza l’azione SMS.
 
-* In un **percorso**. Crea un percorso, aggiungi un&#39;attività SMS e definisci le impostazioni di base, quindi passa al riquadro a destra **[!UICONTROL Azioni: SMS]** per creare il contenuto per il messaggio SMS/MMS/RCS. Ulteriori informazioni su come creare un percorso sono disponibili in [questa pagina](../building-journeys/journey-gs.md).
+* In un **percorso**. Crea un percorso, aggiungi un’attività SMS e definisci le impostazioni di base. Quindi, passa al riquadro a destra Azioni: SMS per creare il contenuto per il messaggio SMS, MMS o RCS. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-* In una **campagna**. Crea una campagna, seleziona SMS come azione e definisci le impostazioni di base, quindi modifica il contenuto del messaggio per definire il messaggio SMS/MMS/RCS da inviare. Ulteriori informazioni su come creare una campagna sono disponibili in [questa pagina](../campaigns/create-campaign.md#configure).
+* In una **campagna**. Crea una campagna, seleziona SMS come azione e definisci le impostazioni di base. Quindi, modifica il contenuto del messaggio per definire il messaggio SMS, MMS o RCS da inviare. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
 
-Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS (o fornitori di gateway SMS). Prima di creare un messaggio SMS/MMS, configura il fornitore di servizi per i messaggi di testo con Journey Optimizer. [Ulteriori informazioni](sms-configuration.md).
+Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS (o fornitori di gateway SMS). Prima di creare un messaggio SMS/MMS/RCS, configura il provider di servizi per la messaggistica SMS e RCS con Journey Optimizer. [Ulteriori informazioni](sms-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -58,27 +58,27 @@ Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS
 <img alt="Convalida" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>Configurare il canale SMS</strong></a>
+<a href="sms-configuration.md"><strong>Configura SMS/MMS/RCS</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
 
-## Video introduttivo
+## Video dimostrativo
 
 * Il video seguente mostra come configurare, creare e includere la messaggistica SMS nei percorsi del cliente.
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422695?learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * Il video seguente consente di comprendere meglio quali funzionalità mobili Adobe Journey Optimizer offre ai marketer.
 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430373?quality=12&learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
