@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 23%
+source-wordcount: '1471'
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è rilasciata come versione Beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
+>Questa funzionalità è disponibile come versione beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
+>
 >Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Le linee guida per il marchio sono un set dettagliato di regole e standard che stabiliscono l’identità visiva e verbale di un marchio. Essi fungono da riferimento per mantenere una rappresentazione coerente del marchio su tutte le piattaforme di marketing e comunicazione.
@@ -46,6 +47,8 @@ In [!DNL Journey Optimizer], ora puoi inserire e organizzare manualmente i detta
 Per accedere al menu **[!UICONTROL Brands]** in [!DNL Adobe Journey Optimizer], gli utenti devono disporre delle autorizzazioni **[!UICONTROL Manage brand kit]** o **[!UICONTROL Enable AI Assistant]**. [Ulteriori informazioni](../administration/permissions.md)
 
 +++  Scopri come assegnare le autorizzazioni relative al brand
+
+Per assegnare le autorizzazioni per i brand, effettua le seguenti operazioni:
 
 1. Nel prodotto **Autorizzazioni**, passa alla scheda **Ruoli** e seleziona il **Ruolo** desiderato.
 
@@ -316,7 +319,7 @@ La sezione **[!UICONTROL Contenuto visivo]** definisce gli standard per le immag
       <td>Evita di essere troppo complessi.</td>
     </tr>
     <tr>
-      <td>Standard delle icone</td>
+      <td>Standard per icone</td>
       <td>Utilizza un sistema di griglia a 24 px coerente.</td>
       <td>Non combinare le dimensioni delle icone, non utilizzare pesi di traccia incoerenti o non discostarsi dalle regole della griglia.</td>
     </tr>
