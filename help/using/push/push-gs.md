@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Questa pagina consente di configurare e comprendere i servizi e i flussi di lavo
 
 >[!AVAILABILITY]
 >
->È ora disponibile il nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di **dispositivi mobili**. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
+>È ora disponibile il nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di **Mobile**. Utilizza questa nuova funzione del prodotto per configurare rapidamente Mobile SDK per iniziare a raccogliere e convalidare i dati degli eventi mobili e per inviare notifiche push mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
 >
 
 Scopri come creare notifiche push in [questa pagina](create-push.md).
@@ -42,9 +42,9 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 1. I payload push personalizzati vengono inoltrati a un servizio di consegna di messaggi push interno
 1. Questo servizio interno convalida quindi le credenziali dell’app associata al messaggio, e
 1. Invia il messaggio ai servizi di messaggistica di Apple e Google per la consegna finale
-1. I feedback dai servizi di messaggistica vengono annotati, gli errori e i successi vengono registrati per la generazione di rapporti nel rapporto Percorsi Live &amp; Customer Journey Analytics
+1. I feedback dei servizi di messaggistica vengono annotati, gli errori e i successi vengono registrati per la generazione di rapporti nel rapporto Percorsi Live &amp; Customer Journey Analytics
 1. Le notifiche push vengono inviate ai dispositivi dell’utente finale
-1. Le interazioni delle notifiche push per l’utente finale vengono inviate come eventi esperienza dal client dell’utente finale tramite l’integrazione SDK
+1. Le interazioni delle notifiche push per l’utente finale vengono inviate come eventi esperienza dal client dell’utente finale tramite l’integrazione con SDK
 
 ## Ruoli dei servizi chiave nelle notifiche push {#roles-of-key-services}
 
@@ -54,12 +54,12 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - per inviare notifiche all&#39;app mobile di Android
    * [Servizio notifiche push di Apple (APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - per inviare notifiche all&#39;app mobile di iOS
 
-* **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. L&#39;SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento esperienza personalizzato a Adobe Experience Platform. L’SDK fornisce anche una serie di altre estensioni che consentono altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
+* **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. SDK fornisce inoltre una serie di altre estensioni che consentono di utilizzare altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
 
-  L&#39;integrazione SDK richiede inoltre l&#39;installazione dei servizi [Data Collection](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"} di Adobe Experience Platform, ad esempio:
+  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"} di Adobe Experience Platform [come:
 
    * Creazione di un flusso di dati per configurare il profilo e i set di dati evento di esperienza rispetto ai quali i dati fluiscono in Adobe Experience Platform
-   * Creazione di proprietà mobili lato client e aggiunta di estensioni. L’SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
+   * Creazione di proprietà mobili lato client e aggiunta di estensioni. SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
    * Registrazione dell’identificatore del bundle per app mobili e delle credenziali dell’app
 
 * **Il profilo cliente in tempo reale di Adobe Experience Platform** mantiene una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi web, dispositivi mobili, CRM e di terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente. Il token push per un determinato utente dell’app viene memorizzato sul profilo dell’utente come dati record, mentre le interazioni che l’utente effettua con le notifiche push vengono tracciate come dati di eventi di serie temporale. [Ulteriori informazioni su Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
