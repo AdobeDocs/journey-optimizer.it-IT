@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 44%
@@ -30,7 +30,7 @@ ht-degree: 44%
 
 **Data di rilascio**: giovedì 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -103,7 +103,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi includere offerte personalizzate nei tuoi percorsi tramite un’attività Content Decisioning dedicata nell’area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
+<p>Ora puoi includere offerte personalizzate nei tuoi percorsi tramite un’attività Content Decision dedicata nell’area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/content-decision.md">documentazione dettagliata</a>.</p>
