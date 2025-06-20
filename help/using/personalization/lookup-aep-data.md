@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
+source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -44,6 +44,21 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 * **Canali supportati**: per il momento questa funzionalità è disponibile solo per l&#39;utilizzo nei canali e-mail, SMS e direct mail.
 * **L&#39;etichettatura e l&#39;applicazione dell&#39;utilizzo dati** non sono attualmente applicate per i set di dati abilitati per la ricerca.
 * **Frammenti**: al momento non è possibile inserire la personalizzazione di ricerca del set di dati all&#39;interno di frammenti di espressione o visivi.
+
+### Funzione Decisioni {#decisioning}
+
+La possibilità di sfruttare [!DNL Adobe Experience Platform] set di dati nelle formule e nelle regole di classificazione di Experience Decisioning sarà presto disponibile.
+
+Nel frattempo, si prega di rivedere le attuali protezioni descritte di seguito:
+
+* Una politica decisionale è limitata a 3 set di dati,
+* Una regola di decisione può utilizzare 3 set di dati,
+* Una formula di classificazione può utilizzare 3 set di dati,
+* Un criterio di decisione è limitato a 1000 query di record.
+
+>[!NOTE]
+>
+>Per accedere a questa funzionalità, contatta il rappresentante del tuo account
 
 ## Abilitare un set di dati per la ricerca di dati {#enable}
 
@@ -117,11 +132,11 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca tramite u
 
    +++Dove recuperare un ID set di dati?
 
-   Gli ID dei set di dati possono essere recuperati nell’interfaccia utente di Adobe Experience Platform. Scopri come utilizzare i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Gli ID dei set di dati possono essere recuperati nell’interfaccia utente di Adobe Experience Platform. Scopri come utilizzare i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Adatta la sintassi in base alle tue esigenze. In questo esempio, vogliamo recuperare i dati relativi ai voli dei passeggeri. La sintassi è la seguente:
 
@@ -148,11 +163,11 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca tramite u
 
      +++Dove recuperare un ID campo?
 
-     Gli ID dei campi possono essere recuperati durante l’anteprima di un set di dati nell’interfaccia utente di Adobe Experience Platform. Scopri come visualizzare in anteprima i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Gli ID dei campi possono essere recuperati durante l’anteprima di un set di dati nell’interfaccia utente di Adobe Experience Platform. Scopri come visualizzare in anteprima i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    In questo esempio, vogliamo utilizzare le informazioni relative all&#39;orario di imbarco e al gate dei passeggeri. Pertanto, aggiungiamo queste due righe:
 
