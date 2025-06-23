@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 11%
+source-wordcount: '984'
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,13 @@ Percorsi Dry run porta:
 1. **Informazioni sul pubblico**: i professionisti del Percorso possono prevedere la raggiungibilità del pubblico in vari nodi del percorso, tra cui rinunce, esclusioni e altre condizioni.
 1. **Feedback in tempo reale**: le metriche vengono visualizzate direttamente nell&#39;area di lavoro del percorso, in modo simile al reporting live, consentendo agli utenti del percorso di perfezionare la progettazione del percorso.
 
+Durante il funzionamento a secco, il percorso viene eseguito con le seguenti specificità:
+
+* **I nodi dell&#39;azione del canale**, comprese le notifiche e-mail, SMS o push, non vengono eseguiti
+* **Le azioni personalizzate** sono disabilitate durante l&#39;esecuzione di prova e le relative risposte sono impostate su null
+* **I nodi di attesa** vengono ignorati durante l&#39;esecuzione di prova.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **Le origini dati**, incluse le origini dati esterne, vengono eseguite per impostazione predefinita
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ Le metriche vengono visualizzate direttamente nell’area di lavoro del percorso
 
 Per ogni attività, puoi controllare:
 
-* **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività.
+* **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività. Per le attività **Action**, poiché non vengono eseguite in modalità di esecuzione a secco, questa metrica indica i profili che passano.
 * **[!UICONTROL Uscita (ha soddisfatto i criteri di uscita)]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
 * **[!UICONTROL Uscita (uscita forzata)]**: numero totale di individui che sono usciti dal percorso mentre era in pausa a causa di una configurazione di percorso da parte di un operatore. Questa metrica è sempre uguale a zero per i percorsi in modalità di esecuzione a secco.
 * **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
@@ -127,10 +134,4 @@ Fai clic sul pulsante **Chiudi** per terminare il test, quindi fai clic su **Tor
    * `_experience.journeyOrchestration.stepEvents.inDryRun` restituisce `true` se l&#39;esecuzione di prova è attivata e `false` in caso contrario
    * `_experience.journeyOrchestration.stepEvents.dryRunID` restituisce l&#39;ID di un&#39;istanza di esecuzione di prova
 
-* Durante il funzionamento a secco, il percorso viene eseguito con le seguenti specificità:
-
-   * **I nodi dell&#39;azione del canale**, comprese le notifiche e-mail, SMS o push, non vengono eseguiti
-   * **Le azioni personalizzate** sono disabilitate durante l&#39;esecuzione di prova e le relative risposte sono impostate su null
-   * **I nodi di attesa** vengono ignorati durante l&#39;esecuzione di prova.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Le origini dati**, incluse le origini dati esterne, vengono eseguite per impostazione predefinita
+* Quando si analizzano le metriche di reporting del percorso utilizzando Adobe Experience Platform Query Service, è necessario escludere gli eventi di passaggio generati dall’esecuzione di prova. Per eseguire questa operazione, impostare il flag `inDryRun` su `false`.
