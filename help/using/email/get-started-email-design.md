@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfrutta
 
 * Migliora l’esperienza dei clienti creando messaggi personalizzati e dinamici in base ai loro attributi di profilo. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuti dinamici](../personalization/get-started-dynamic-content.md).
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Best practice per la progettazione e-mail {#best-practices}
 
@@ -52,9 +52,9 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
 1. Nella pagina home di E-mail Designer, scegli come desideri progettare l’e-mail tra le seguenti opzioni:
 
-   * **Progetta la tua e-mail da zero** tramite l&#39;interfaccia di E-mail Designer e sfrutta le immagini di [Adobe Experience Manager Assets](../integrations/assets.md). Scopri come progettare il contenuto delle e-mail in [questa sezione](content-from-scratch.md).
+   * **Progetta l’e-mail da zero** tramite l’interfaccia di E-mail designer e sfrutta le immagini da [Adobe Experience Manager Assets](../integrations/assets.md). Scopri come progettare il contenuto delle e-mail in [questa sezione](content-from-scratch.md).
 
-   * **Codice o incolla HTML non elaborato** direttamente nel Designer e-mail. Scopri come codificare il tuo contenuto in [questa sezione](code-content.md).
+   * **Codifica o incolla HTML non elaborato** direttamente in E-mail designer. Scopri come codificare il tuo contenuto in [questa sezione](code-content.md).
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

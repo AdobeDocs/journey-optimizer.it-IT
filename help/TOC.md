@@ -255,7 +255,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
             + [Inserire offerte personalizzate](using/email/add-offers-email.md)
             + [Generare la versione del testo](using/email/text-version-email.md)
             + [Aggiungere metadati](using/email/email-metadata.md)
-            + [Aggiungi CSS personalizzato](using/email/custom-css.md)
+            + [Aggiungere CSS personalizzato](using/email/custom-css.md)
          + Modificare lo stile {#edit-style}
             + [Introduzione allo stile delle e-mail](using/email/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](using/email/backgrounds.md)
@@ -269,7 +269,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
          + [Parametri per intestazione](using/email/header-parameters.md)
          + [Tracciamento URL](using/email/url-tracking.md)
          + [Personalizzare la configurazione e-mail](using/email/surface-personalization.md)
-      + Recapito messaggi e-mail {#deliverability}
+      + Recapitabilità delle e-mail {#deliverability}
          + [Introduzione alla recapitabilità](using/reports/deliverability.md)
          + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
          + [Nuovo requisito DMARC](using/configuration/dmarc-record-update.md)

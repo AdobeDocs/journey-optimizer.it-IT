@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 44%
+ht-degree: 80%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 44%
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**Data di rilascio**: giovedì 18 giugno 2025
+**Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -46,13 +46,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La messaggistica RCS (Rich Communication Services) è ora supportata in Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate soggette al supporto di provider e gestori:</p>
+<p>La messaggistica RCS (Rich Communication Services) è ora supportata in Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate, soggette al supporto di provider e operatore mobile.</p>
 <ul>
-<li>Supporto per mittenti con marchio e verificati: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
-<li>Informazioni sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
+<li>Supporto per mittente brandizzato e verificato: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
+<li>Informazioni approfondite sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
 <li>Tracciamento dei collegamenti: incorpora e tieni traccia degli URL nei messaggi RCS per l’analisi del coinvolgimento.</li>
-<li>Fallback a SMS: fallback automatico a SMS quando il dispositivo del profilo non supporta RCS o è temporaneamente non raggiungibile tramite RCS.</li>
-<li>Composizione di base dei messaggi: invia messaggi RCS basati su testo con file multimediali facoltativi ed elementi avanzati, a seconda del supporto del provider.</li>
+<li>Fallback su SMS: fallback automatico su SMS quando il dispositivo del profilo non supporta la RCS o è temporaneamente non raggiungibile tramite RCS.</li>
+<li>Composizione di base dei messaggi: invia messaggi RCS basati su testo con elementi avanzati e file multimediali facoltativi, a seconda del supporto del provider.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../sms/sms-configuration.md">documentazione dettagliata</a>.</p>
 </td>
@@ -63,13 +63,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Campi modulo nel contenuto dell’esperienza basata su codice</strong><br/></th>
+<th><strong>Campi modulo nei contenuti di esperienze basate su codice</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice.<br />Inoltre, quando definisci i modelli di contenuto dell'esperienza basati su codice ora puoi inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d'uso.</p>
+<p>Ora è possibile definire campi modificabili specifici nei modelli di contenuto JSON o HTML, consentendo agli utenti non tecnici di modificare facilmente il contenuto di una visualizzazione modulo, nell’authoring del canale dell’esperienza basato su codice, senza il bisogno di manipolare alcun codice.<br />Inoltre, durante la definizione dei modelli di contenuto dell’esperienza basati su codice, è ora possibile inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d’uso.</p>
 <img src="assets/do-not-localize/form-fields.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/code-based-form-fields.md">documentazione dettagliata</a>.</p>
 </td>
@@ -105,7 +105,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Ora puoi includere offerte personalizzate nei tuoi percorsi tramite un’attività Content Decision dedicata nell’area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
 <img src="assets/do-not-localize/content-decision.gif">
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/content-decision.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -121,9 +121,9 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Percorsi Dry run è una speciale modalità di pubblicazione del percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta.</p>
+<p>La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva.</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-dry-run.md">documentazione dettagliata</a>.</p>
 
 </td>
@@ -134,17 +134,17 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Sospendi e riprendi percorsi</strong><br/></th>
+<th><strong>Mettere in pausa e riprendere i percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile sospendere e riprendere i percorsi. Questa funzionalità offre ai professionisti del percorso maggiore controllo e flessibilità, consentendo la sospensione temporanea dei percorsi live senza interrompere la customer experience. Quando è in pausa, non vengono inviate comunicazioni e i profili rimangono in stato di sospensione fino alla ripresa del percorso.</p>
-<p>È possibile sospendere e riprendere un solo percorso oppure eseguire le operazioni di pausa collettiva e ripresa di un gruppo di percorsi.</p>
-<p>Inoltre, puoi applicare filtri globali ai percorsi in pausa per escludere i profili in base ai loro attributi.</p>
+<p>È ora possibile mettere in pausa e riprendere i percorsi. Questa funzionalità offre ai professionisti del percorso maggiore controllo e flessibilità, consentendo di sospendere temporaneamente i percorsi live senza compromettere l’esperienza cliente. Quando il percorso è in pausa, le comunicazioni non vengono inviate e i profili rimangono in stato di sospensione fino a quando il percorso non viene ripreso.</p>
+<p>È possibile mettere in pausa e riprendere un singolo percorso, oppure eseguire operazioni di pausa e di ripresa in blocco su un gruppo di percorsi.</p>
+<p>Inoltre, è possibile applicare filtri globali ai percorsi in pausa per escludere i profili in base ai rispettivi attributi.</p>
 <img src="assets/do-not-localize/PauseResume.gif">
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-pause.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -195,7 +195,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-* **Set di regole canale**
+* **Set di regole del canale**
 
    * **Intervallo di durata personalizzato** per la limitazione - Nella schermata di configurazione dei set di regole di canale è ora disponibile un nuovo campo **Ogni**, che consente di applicare le regole della limitazione della frequenza su più giorni, settimane o mesi, a seconda della durata specificata.
 
@@ -215,7 +215,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Journey Optimizer ora consente di aggiungere CSS personalizzati al contenuto delle e-mail direttamente all’interno di E-mail Designer. [Ulteriori informazioni](../email/custom-css.md)
 
-* **Nuova navigazione a schede per le campagne**
+* **Nuova navigazione con schede per le campagne**
 
   Un nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne. [Ulteriori informazioni](../campaigns/create-campaign.md)
 

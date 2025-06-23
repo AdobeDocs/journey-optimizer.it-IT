@@ -7,7 +7,7 @@ exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ I set di regole consentono di **raggruppare più regole in set di regole** e di 
 
 * **Priorità dello spazio dei nomi per la limitazione degli ingressi al percorso**
 
-  La limitazione degli ingressi è supportata solo se lo spazio dei nomi selezionato nel percorso corrisponde allo spazio dei nomi con priorità più elevata definita nella sandbox. Se la priorità dello spazio dei nomi non è stata configurata in modo esplicito, la priorità massima predefinita è e-mail.
+  La limitazione degli ingressi è supportata solo se lo spazio dei nomi selezionato nel percorso corrisponde allo spazio dei nomi con priorità più elevata definita nella sandbox. Se la priorità dello spazio dei nomi non è stata configurata in modo esplicito, la priorità più elevata predefinita è quella e-mail.
 
 * **Attivazioni simultanee nei percorsi di qualificazione del pubblico**
 
