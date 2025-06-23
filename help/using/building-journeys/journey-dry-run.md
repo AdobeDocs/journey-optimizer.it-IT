@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 10%
 
 ---
@@ -91,7 +91,7 @@ Le metriche vengono visualizzate direttamente nell’area di lavoro del percorso
 
 ![Monitorare l&#39;esecuzione di prova del percorso](assets/dry-run-metrics.png)
 
-Per ogni attività, puoi controllare:
+Per ogni attività, nella relativa casella di attività, puoi selezionare:
 
 * **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività. Per le attività **Action**, poiché non vengono eseguite in modalità di esecuzione a secco, questa metrica indica i profili che passano.
 * **[!UICONTROL Uscita (ha soddisfatto i criteri di uscita)]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
@@ -99,7 +99,7 @@ Per ogni attività, puoi controllare:
 * **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
 
 
-A livello di percorso, puoi controllare:
+A livello di percorso, nella sezione in alto a sinistra dell’area di lavoro, puoi selezionare:
 
 * Numero totale di **profili immessi**
 * Numero totale di **profili in uscita**
