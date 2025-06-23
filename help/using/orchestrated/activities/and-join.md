@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 63%
+source-wordcount: '334'
+ht-degree: 38%
 
 ---
 
@@ -48,13 +48,16 @@ Per configurare l’attività **Unione AND**, segui questi passaggi:
 
 ![](../assets/workflow-andjoin.png)
 
-1. Aggiungi più attività, come le attività del canale, per creare almeno due rami di esecuzione diversi.
-1. Aggiungi un’attività **Unione AND** a uno dei rami.
-1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti che desideri unire.
-1. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
+1. Aggiungi più attività, ad esempio attività canale, per creare almeno due rami di esecuzione distinti.
+
+1. Inserire un&#39;attività **AND-join** in uno dei rami.
+
+1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti a cui desideri partecipare.
+
+1. Dall&#39;elenco a discesa **Set primario**, scegliere il gruppo di transizione in entrata che si desidera mantenere.
 
 ## Esempio{#and-join-example}
 
-L’esempio seguente mostra due rami di campagna orchestrati con una consegna e-mail e SMS. L’Unione AND verrà attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push verranno quindi inviate solo al termine di entrambe le consegne.
+Questo esempio illustra due rami coordinati della campagna, ciascuno con una consegna e-mail, uno indirizzato ai membri gold e l’altro silver. **AND-join** si attiva quando vengono attivate entrambe le transizioni in ingresso e l&#39;SMS verrà inviato solo dopo il completamento di entrambe le consegne e-mail, dopo un ritardo di 7 giorni.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
