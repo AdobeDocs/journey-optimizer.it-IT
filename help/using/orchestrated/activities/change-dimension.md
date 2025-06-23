@@ -42,7 +42,7 @@ In qualità di addetto al marketing, puoi perfezionare il targeting del pubblico
 
 A tale scopo, utilizzare l&#39;attività **[!UICONTROL Modifica dimensione]**. Ti consente di modificare la dimensione di targeting durante la campagna orchestrata, in base alla struttura del modello di dati e alla dimensione di input.
 
-Ad esempio, puoi spostare la dimensione di targeting da ****[!UICONTROL Profilo]** a ****[!UICONTROL Contratti]** per inviare messaggi direttamente ai proprietari del contratto associati al pubblico selezionato.
+Ad esempio, puoi spostare la dimensione di targeting da **&#x200B;**&#x200B;[!UICONTROL Profilo] **&#x200B; a &#x200B;**&#x200B;**[!UICONTROL Contratti]** per inviare messaggi direttamente ai proprietari del contratto associati al pubblico selezionato.
 
 <!--
 >[!IMPORTANT]
@@ -51,13 +51,13 @@ Ad esempio, puoi spostare la dimensione di targeting da ****[!UICONTROL Profilo]
 
 ## Configurare l’attività Cambia dimensione {#configure}
 
-Segui questi passaggi per configurare l&#39;attività ****[!UICONTROL Modifica dimensione]**:
+Segui questi passaggi per configurare l&#39;attività **&#x200B;**&#x200B;[!UICONTROL Modifica dimensione]**:
 
-1. Aggiungi un&#39;attività ****[!UICONTROL Modifica dimensione]** alla campagna orchestrata.
+1. Aggiungi un&#39;attività **&#x200B;**&#x200B;[!UICONTROL Modifica dimensione]** alla campagna orchestrata.
 
    ![](../assets/change-dimension.png)
 
-1. Definisci la ****[!UICONTROL nuova dimensione di destinazione]**. Durante la modifica della dimensione vengono conservati tutti i record.
+1. Definisci la **&#x200B;**&#x200B;[!UICONTROL nuova dimensione di destinazione]**. Durante la modifica della dimensione vengono conservati tutti i record.
 
 1. Esegui la campagna orchestrata per visualizzare il risultato. Confronta i dati nelle tabelle prima e dopo l’attività di modifica della dimensione e confronta la struttura delle tabelle delle campagne orchestrate.
 
@@ -65,8 +65,8 @@ Segui questi passaggi per configurare l&#39;attività ****[!UICONTROL Modifica d
 
 Questo caso d’uso prevede l’invio di un SMS ai profili che hanno creato una lista dei desideri nel mese scorso.
 
-Inizia con un&#39;attività **[!UICONTROL Genera pubblico]** utilizzando la dimensione di targeting ****[!UICONTROL Elenco desideri]** per selezionare tutti gli elenchi desideri pertinenti.
+Inizia con un&#39;attività **[!UICONTROL Genera pubblico]** utilizzando la dimensione di targeting **&#x200B;**&#x200B;[!UICONTROL Elenco desideri]** per selezionare tutti gli elenchi desideri pertinenti.
 
-Quindi, inserisci un&#39;attività di **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting da ****[!UICONTROL Elenco desideri ]**a ****[!UICONTROL Destinatario]**. In questo modo la campagna orchestrata può inviare l’SMS ai profili associati a tali elenchi di desideri.
+Quindi, inserisci un&#39;attività di **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting da **&#x200B;**&#x200B;[!UICONTROL Elenco desideri &#x200B;]&#x200B;**a &#x200B;**&#x200B;**[!UICONTROL Destinatario]**. In questo modo la campagna orchestrata può inviare l’SMS ai profili associati a tali elenchi di desideri.
 
 ![](../assets/change-dimension-example.png)
