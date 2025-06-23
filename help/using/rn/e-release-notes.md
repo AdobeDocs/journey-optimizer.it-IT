@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 40%
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
 
-## Note preliminari sulla versione del 25 giugno {#25-6-rn}
+## Note preliminari sulla versione di giugno 2025 {#25-6-rn}
 
 
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata sono pubblicati alla data di rilascio.
 
-**Data di rilascio**: giovedì 18 giugno 2025
+**Data di rilascio**: 18 giugno 2025
 
 
 ### Nuove funzionalità {#25-06-features}
@@ -45,13 +45,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La messaggistica RCS (Rich Communication Services) è ora supportata in Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate soggette al supporto di provider e gestori:</p>
+<p>La messaggistica RCS (Rich Communication Services) è ora supportata in Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate, soggette al supporto di provider e operatore mobile.</p>
 <ul>
-<li>Supporto per mittenti con marchio e verificati: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
-<li>Informazioni sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
+<li>Supporto per mittente brandizzato e verificato: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
+<li>Informazioni approfondite sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
 <li>Tracciamento dei collegamenti: incorpora e tieni traccia degli URL nei messaggi RCS per l’analisi del coinvolgimento.</li>
-<li>Fallback a SMS: fallback automatico a SMS quando il dispositivo del profilo non supporta RCS o è temporaneamente non raggiungibile tramite RCS.</li>
-<li>Composizione di base dei messaggi: invia messaggi RCS basati su testo con file multimediali facoltativi ed elementi avanzati, a seconda del supporto del provider.</li>
+<li>Fallback su SMS: fallback automatico su SMS quando il dispositivo del profilo non supporta la RCS o è temporaneamente non raggiungibile tramite RCS.</li>
+<li>Composizione di base dei messaggi: invia messaggi RCS basati su testo con elementi avanzati e file multimediali facoltativi, a seconda del supporto del provider.</li>
 </ul>
 <!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
 </td>
@@ -77,13 +77,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Campi modulo nel contenuto dell’esperienza basata su codice</strong><br/></th>
+<th><strong>Campi modulo nei contenuti di esperienze basate su codice</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire campi modificabili specifici nei modelli di contenuto JSON o HTML, che consentono agli utenti non tecnici di modificare facilmente il contenuto in una visualizzazione modulo nell’authoring del canale di esperienza basato sul codice, senza dover manipolare alcun codice.<br />Inoltre, quando si definiscono i modelli di contenuto dell'esperienza basati su codice, è ora possibile inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d'uso.</p>
+<p>Ora è possibile definire campi modificabili specifici nei modelli di contenuto JSON o HTML, consentendo agli utenti non tecnici di modificare facilmente il contenuto di una visualizzazione modulo, nell’authoring del canale dell’esperienza basato su codice, senza il bisogno di manipolare alcun codice.<br />Inoltre, durante la definizione dei modelli di contenuto dell’esperienza basati su codice, è ora possibile inserire criteri di decisione nel modello, aumentando la riutilizzabilità e la facilità d’uso.</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata, che consente di gestire e controllare tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
+<p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata consente di controllare e gestire completamente tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
 </td>
 </tr>
 </tbody>
@@ -114,8 +114,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi includere offerte personalizzate nei tuoi percorsi tramite un’attività Content Decisioning dedicata nell’area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle attività relative tramite un’attività dedicata di Content Decisioning nell’area di lavoro del percorso, comprese condizioni e azioni personalizzate.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 </td>
 </tr>
 </tbody>
@@ -148,8 +148,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Percorsi Dry run è una speciale modalità di pubblicazione del percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+<p>La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 </td>
 </tr>
 </tbody>
@@ -159,16 +159,16 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Sospendi e riprendi percorsi</strong><br/></th>
+<th><strong>Mettere in pausa e riprendere i percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile sospendere e riprendere i percorsi. Questa funzionalità offre ai professionisti del percorso maggiore controllo e flessibilità, consentendo la sospensione temporanea dei percorsi live senza interrompere la customer experience. Quando è in pausa, non vengono inviate comunicazioni e i profili rimangono in stato di sospensione fino alla ripresa del percorso.</p>
-<p>È possibile sospendere e riprendere un solo percorso oppure eseguire le operazioni di pausa collettiva e ripresa di un gruppo di percorsi.</p>
-<p>Inoltre, puoi applicare filtri globali ai percorsi in pausa per escludere i profili in base ai loro attributi.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.</p>
+<p>È ora possibile mettere in pausa e riprendere i percorsi. Questa funzionalità offre ai professionisti del percorso maggiore controllo e flessibilità, consentendo di sospendere temporaneamente i percorsi live senza compromettere l’esperienza cliente. Quando il percorso è in pausa, le comunicazioni non vengono inviate e i profili rimangono in stato di sospensione fino a quando il percorso non viene ripreso.</p>
+<p>È possibile mettere in pausa e riprendere un singolo percorso, oppure eseguire operazioni di pausa e di ripresa in blocco su un gruppo di percorsi.</p>
+<p>Inoltre, è possibile applicare filtri globali ai percorsi in pausa per escludere i profili in base ai rispettivi attributi.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 </td>
 </tr>
 </tbody>
@@ -218,25 +218,25 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-* **Set di regole canale**
+* **Set di regole del canale**
 
-   * **Intervallo di durata personalizzato** per il limite - Nella schermata di configurazione dei set di regole di canale è ora disponibile un nuovo campo **Conteggio ripetizioni** che consente di applicare le regole del limite di frequenza su più giorni, settimane o mesi, a seconda della durata specificata.
+   * **Intervallo di durata personalizzato** per la limitazione: nella schermata di configurazione dei set di regole del canale è ora disponibile il nuovo campo **Conteggio ripetizioni**, che consente di applicare regole di quota limite su più giorni, settimane o mesi, a seconda della durata specificata.
 
-   * **Durata oraria** - È ora possibile applicare il limite su base oraria per i set di regole del canale.
+   * **Durata oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale.
 
 * **Esperienze basate su codice**
 
    * L’aggiunta di un criterio di decisione è ora disponibile nei modelli di contenuto di esperienza basati su codice.
 
-   * Dalla schermata del percorso di esperienze basato sul codice o dell’edizione di una campagna, ora puoi aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione.
+   * Dalla schermata del percorso dell’esperienza basato sul codice o dell’edizione della campagna, ora puoi aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione.
 
 * **Supporto CSS personalizzato in E-mail Designer**
 
-  Journey Optimizer ora consente di aggiungere CSS personalizzati al contenuto delle e-mail direttamente all’interno di E-mail Designer.
+  Journey Optimizer ora consente di aggiungere CSS personalizzato al contenuto delle e-mail direttamente all’interno di E-mail Designer.
 
-* **Nuova navigazione a schede per le campagne**
+* **Nuova navigazione con schede per le campagne**
 
-  Un nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne.
+  Un nuovo pattern di navigazione consente un accesso più rapido alla creazione dei contenuti e supporta un’ulteriore espansione delle impostazioni nelle campagne.
 
 * **Decisioning** - Data di disponibilità: 3 giugno 2025
 

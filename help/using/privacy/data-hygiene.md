@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Queste attività possono essere eseguite utilizzando il menu **[!UICONTROL Ciclo
 
 ## Consigli {#data-hygiene-recommendations}
 
-Quando esegui operazioni di igiene dei dati (ad esempio l’eliminazione di identità o set di dati), tieni presente che gli eventi di consegna storici associati alle identità eliminate non verranno più visualizzati nei rapporti standard o nelle query di datalake. Ciò può causare discrepanze tra il numero di e-mail segnalate come **Consegnate** e il numero di e-mail **Ricevute** nelle caselle in entrata dei destinatari, in particolare per i percorsi meno recenti.
+Quando esegui operazioni di igiene dei dati (ad esempio l’eliminazione di identità o set di dati), tieni presente che gli eventi di consegna storici associati alle identità eliminate non verranno più visualizzati nei rapporti standard o nelle query di datalake. Questo può causare discrepanze tra il numero di e-mail segnalate come **Consegnate** e il numero di e-mail **Ricevute** nelle caselle in entrata dei destinatari, in particolare per i percorsi meno recenti.
 
-Prima di eseguire eliminazioni su larga scala, convalida ed esporta tutti i dati di consegna o reporting richiesti. Se è necessaria la riconciliazione dopo l’igiene dei dati, coordina con il supporto Adobe per accedere ai registri archiviati o utilizzare le query del set di dati dell’evento Feedback messaggio per i dati recenti.
+Prima di eseguire eliminazioni su larga scala, convalida ed esporta tutti i dati di consegna o di reporting richiesti. Se è necessaria la riconciliazione dopo l’igiene dei dati, coordinati con il supporto Adobe per accedere ai registri archiviati o utilizzare le query del set di dati dell’Evento feedback dei messaggi per i dati recenti.
 
 ## Ulteriori informazioni {#data-hygiene-learn-more}
 
