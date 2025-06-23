@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
 | [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](../configuration-steps.md)<br/><br/>[Passaggi chiave per la creazione di campagne orchestrate](../gs-campaign-creation.md) | [Creare una campagna orchestrata](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Inviare messaggi con le campagne orchestrate](../send-messages.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa/Partecipa](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
@@ -40,7 +40,7 @@ Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 
 * Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi.
 
-* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna.
+* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **[!UICONTROL Scheduler]**. Puoi anche utilizzare un&#39;attività **[!UICONTROL Scheduler]** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna.
 
 ## Configurare un’attività di canale {#create-a-delivery-in-a-workflow}
 
@@ -78,23 +78,23 @@ Per impostare una consegna nel contesto di una campagna orchestrata, segui i pas
    * Una **consegna singola** è una consegna one-shot, inviata una sola volta, ad esempio un&#39;e-mail del Black Friday.
    * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione. Ogni volta che viene eseguita la campagna orchestrata, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
 
-1. Seleziona un **Modello** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita.
+1. Seleziona un **[!UICONTROL Modello]** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita.
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Puoi selezionare il modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l&#39;attività **Genera pubblico** per selezionare un pubblico con la mappatura di destinazione corretta.
+   Puoi selezionare il modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l&#39;attività **[!UICONTROL Genera pubblico]** per selezionare un pubblico con la mappatura di destinazione corretta.
 
-1. Fai clic su **Crea consegna**. Puoi quindi definire le impostazioni dei messaggi e il contenuto nello stesso modo in cui crei una consegna autonoma. Puoi anche testare e simulare il contenuto.
+1. Fai clic su **[!UICONTROL Crea consegna]**. Puoi quindi definire le impostazioni dei messaggi e il contenuto nello stesso modo in cui crei una consegna autonoma. Puoi anche testare e simulare il contenuto.
 
-1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva l&#39;opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l&#39;attività del canale.
+1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva l&#39;opzione **[!UICONTROL Genera una transizione in uscita]** per aggiungere una transizione dopo l&#39;attività del canale.
 
-1. Fai clic su **Avvia** per avviare la tua campagna orchestrata.
+1. Fai clic su **[!UICONTROL Avvia]** per avviare la tua campagna orchestrata.
 
    Per impostazione predefinita, l’avvio di una campagna orchestrata attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
 
-1. Apri l&#39;attività del canale per confermare l&#39;invio dal pulsante **Rivedi e invia**.
+1. Apri l&#39;attività del canale per confermare l&#39;invio dal pulsante **[!UICONTROL Rivedi e invia]**.
 
-1. Nella dashboard della consegna, fai clic su **Invia**.
+1. Nella dashboard della consegna, fai clic su **[!UICONTROL Invia]**.
 
 ## Esempi {#cross-channel-workflow-sample}
 

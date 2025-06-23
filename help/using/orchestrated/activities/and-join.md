@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 38%
@@ -33,7 +33,7 @@ ht-degree: 38%
 
 <br/>
 
-L’attività **Unione AND** è un’attività di **Controllo del flusso**. Consente di sincronizzare più rami di esecuzione di una campagna orchestrata.
+L’attività **[!UICONTROL Unione AND]** è un’attività di **[!UICONTROL Controllo del flusso]**. Consente di sincronizzare più rami di esecuzione di una campagna orchestrata.
 
 Questa attività attiva la relativa transizione in uscita solo dopo che tutte le transizioni in entrata sono state attivate, in altre parole, dopo che tutte le attività precedenti sono state completate. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire la campagna orchestrata.
 
@@ -44,20 +44,20 @@ Questa attività attiva la relativa transizione in uscita solo dopo che tutte le
 >title="Opzioni di unione"
 >abstract="Seleziona le attività che vuoi unire. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere."
 
-Per configurare l’attività **Unione AND**, segui questi passaggi:
+Per configurare l’attività **[!UICONTROL Unione AND]**, segui questi passaggi:
 
 ![](../assets/workflow-andjoin.png)
 
 1. Aggiungi più attività, ad esempio attività canale, per creare almeno due rami di esecuzione distinti.
 
-1. Inserire un&#39;attività **AND-join** in uno dei rami.
+1. Inserire un&#39;attività **[!UICONTROL AND-join]** in uno dei rami.
 
-1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti a cui desideri partecipare.
+1. Nella sezione **[!UICONTROL Opzioni di unione]**, seleziona tutte le attività precedenti a cui desideri partecipare.
 
-1. Dall&#39;elenco a discesa **Set primario**, scegliere il gruppo di transizione in entrata che si desidera mantenere.
+1. Dall&#39;elenco a discesa **[!UICONTROL Set primario]**, scegliere il gruppo di transizione in entrata che si desidera mantenere.
 
 ## Esempio{#and-join-example}
 
-Questo esempio illustra due rami coordinati della campagna, ciascuno con una consegna e-mail, uno indirizzato ai membri gold e l’altro silver. **AND-join** si attiva quando vengono attivate entrambe le transizioni in ingresso e l&#39;SMS verrà inviato solo dopo il completamento di entrambe le consegne e-mail, dopo un ritardo di 7 giorni.
+Questo esempio illustra due rami coordinati della campagna, ciascuno con una consegna e-mail, uno indirizzato ai membri gold e l’altro silver. **[!UICONTROL AND-join]** si attiva quando vengono attivate entrambe le transizioni in ingresso e l&#39;SMS verrà inviato solo dopo il completamento di entrambe le consegne e-mail, dopo un ritardo di 7 giorni.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 27%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
 | [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](../configuration-steps.md)<br/><br/>[Passaggi chiave per la creazione di campagne orchestrate](../gs-campaign-creation.md) | [Creare una campagna orchestrata](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Inviare messaggi con le campagne orchestrate](../send-messages.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa/Partecipa](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
@@ -38,13 +38,13 @@ ht-degree: 27%
 
 <br/>
 
-L’attività **Test** è un’attività di **Controllo del flusso**. Consente di abilitare le transizioni in base a condizioni specificate.
+L’attività **[!UICONTROL Test]** è un’attività di **[!UICONTROL Controllo del flusso]**. Consente di abilitare le transizioni in base a condizioni specificate.
 
 ## Configurare l’attività di test {#test-configuration}
 
-Per configurare l&#39;attività **Test**, eseguire la procedura seguente:
+Per configurare l&#39;attività **[!UICONTROL Test]**, eseguire la procedura seguente:
 
-1. Aggiungi un&#39;attività **Test** alla campagna orchestrata.
+1. Aggiungi un&#39;attività **[!UICONTROL Test]** alla campagna orchestrata.
 
 1. Per impostazione predefinita, l&#39;attività **[!UICONTROL Test]** presenta un semplice test booleano. Se la condizione definita nella transizione &quot;True&quot; è soddisfatta, questa transizione verrà attivata. In caso contrario, verrà attivata una transizione predefinita &quot;False&quot;.
 
