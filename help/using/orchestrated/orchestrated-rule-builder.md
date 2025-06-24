@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 7%
 
 Le campagne orchestrate dispongono di un generatore di regole che semplifica il processo di filtraggio del database in base a vari criteri. Il generatore di regole gestisce in modo efficiente query molto complesse e lunghe, offrendo maggiore flessibilità e precisione.
 
-Inoltre, supporta filtri predefiniti all’interno di condizioni, consentendo agli utenti di perfezionare le query con facilità e allo stesso tempo utilizzare espressioni avanzate e operatori per strategie complete di targeting del pubblico e segmentazione.
+Supporta anche filtri predefiniti all’interno di condizioni, consentendoti di perfezionare le query con facilità utilizzando espressioni avanzate e operatori per strategie complete di targeting del pubblico e segmentazione.
 
 ## Accedere al generatore di regole
 
-Il generatore di regole è disponibile quando si crea una query in un&#39;attività **[!UICONTROL Genera pubblico]** per eseguire il targeting di un pubblico. Consente di specificare la popolazione di destinazione e di creare facilmente nuovi tipi di pubblico personalizzati in base alle tue esigenze.
+Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
 
-![immagine che mostra un&#39;attività del pubblico di compilazione](assets/rule-builder-query.png)
+| Utilizzo | Esempio |
+|  ---  |  ---  |
+| **Genera tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nelle campagne orchestrate utilizzando un&#39;attività **[!UICONTROL Genera pubblico]** e crea facilmente nuovi tipi di pubblico su misura per le tue esigenze. [Scopri come creare tipi di pubblico](../orchestrated/activities/build-audience.md) | ![Immagine che mostra come accedere all&#39;interfaccia di creazione del pubblico](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Crea condizione nell&#39;area di lavoro della campagna**: applica le regole nell&#39;area di lavoro della campagna utilizzando un&#39;attività **[!UICONTROL Dividi]**, per allinearle ai requisiti specifici. [Scopri come utilizzare un&#39;attività Split](../orchestrated/activities/split.md) | ![Immagine che mostra come accedere alle opzioni di personalizzazione del flusso di lavoro](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **Creare filtri avanzati**: creare regole per filtrare i dati visualizzati in elenchi quali i registri del flusso di lavoro o le dimensioni di targeting. | ![Immagine che mostra come personalizzare i filtri elenco](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interfaccia del generatore di regole {#interface}
 
