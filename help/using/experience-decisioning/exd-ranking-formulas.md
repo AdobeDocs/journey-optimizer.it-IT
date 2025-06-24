@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 4%
+source-wordcount: '1246'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,10 @@ Per creare una formula di classificazione, segui i passaggi seguenti.
 
    * compila la sezione **[!UICONTROL Criteri]** dall&#39;[interfaccia utente](#ranking-select-criteria),
    * o passa all&#39;[editor di codice](#ranking-code-editor).
+
+   >[!NOTE]
+   >
+   >Puoi anche utilizzare i dati di Adobe Experience Platform per regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale. Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica. Se desideri accedervi, contatta il rappresentante del tuo account. [Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
