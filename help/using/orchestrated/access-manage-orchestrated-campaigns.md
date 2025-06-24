@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 18%
+source-wordcount: '717'
+ht-degree: 17%
 
 ---
 
@@ -48,13 +48,11 @@ Ogni campagna orchestrata nell&#39;elenco visualizza informazioni quali il [stat
 
 Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. Ad esempio, puoi filtrare le campagne orchestrate in modo da visualizzare solo quelle associate a un canale o a un tag specifico, o quelle create durante un intervallo di date specifico.
 
-
 L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni descritte di seguito.
 
 ![immagine dell&#39;inventario delle campagne](assets/inventory-actions.png)
 
-* **[!UICONTROL Visualizza report completo]** -
-* **[!UICONTROL Visualizza report ultime 24 ore]** -
+* **[!UICONTROL Visualizza report completo]** / **[!UICONTROL Visualizza report delle ultime 24 ore]** - Accedi ai report per misurare e visualizzare l&#39;impatto e le prestazioni delle campagne orchestrate. [Ulteriori informazioni sui report delle campagne orchestrate](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna.
 * **[!UICONTROL Duplicato]** - In alcuni casi, potrebbe essere necessario duplicare una campagna orchestrata, ad esempio per eseguire una campagna interrotta o per modificare la frequenza di esecuzione di una campagna pianificata.
 * **[!UICONTROL Elimina]** - Elimina la campagna. Questa azione è disponibile solo per le campagne **[!UICONTROL Bozza]**.
