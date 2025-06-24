@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 25%
@@ -41,7 +41,7 @@ Personalization si basa sui dati del profilo gestiti dallo schema **Profilo indi
 
 Puoi anche sfruttare **attributi calcolati** per personalizzare il contenuto. Gli attributi calcolati consentono di riepilogare i singoli eventi comportamentali in attributi di profilo calcolati disponibili in Adobe Experience Platform. [Scopri come utilizzare gli attributi calcolati](../audience/computed-attributes.md)
 
-Inoltre, [!DNL Journey Optimizer] ti consente di sfruttare i dati provenienti da Adobe Experience Platform nell&#39;editor di personalizzazione per personalizzare il contenuto. A questo scopo, i set di dati necessari per la personalizzazione della ricerca devono prima essere abilitati tramite una chiamata API. Al termine, puoi utilizzare i loro dati per personalizzare il contenuto in Journey Optimizer. Questa funzione è attualmente disponibile in versione beta. [Ulteriori informazioni](../personalization/lookup-aep-data.md)
+Inoltre, [!DNL Journey Optimizer] ti consente di sfruttare i dati provenienti da Adobe Experience Platform nell&#39;editor di personalizzazione per personalizzare il contenuto. A questo scopo, i set di dati necessari per la personalizzazione della ricerca devono prima essere abilitati tramite una chiamata API. Al termine, puoi utilizzare i loro dati per personalizzare il contenuto in Journey Optimizer. Questa funzione è attualmente disponibile in versione beta. [Ulteriori informazioni](../personalization/aep-data-perso.md)
 
 ## Scopri e sperimenta la personalizzazione {#playground}
 
@@ -51,7 +51,7 @@ Questo ambiente playground fornisce un ambiente simulato per scrivere e testare 
 
 ![area di gioco personalizzazione](assets/playground.png)
 
-➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/it/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Approfondiamo
 
@@ -97,11 +97,11 @@ Ora che conosci la personalizzazione in **[!DNL Journey Optimizer]**, è il mome
 
 Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da un percorso per personalizzare un messaggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448145?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Scopri come personalizzare un profilo di base con un messaggio e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416271?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Scopri come sfruttare l’area di gioco dell’editor di personalizzazione per scrivere e testare il codice di personalizzazione utilizzando dati di esempio.
 

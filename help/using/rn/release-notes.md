@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 80%
+source-wordcount: '1179'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 80%
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -191,6 +191,24 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>Set di dati di Adobe Experience Platform nel processo decisionale (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Precedentemente disponibile per la personalizzazione, ora i set di dati Adobe Experience Platform possono essere utilizzati a scopo decisionale. Questo ti consente di estendere la definizione degli attributi decisionali ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.</p>
+<p>Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica. Per accedere a questa funzionalità, contatta il rappresentante del tuo account</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/aep-data-exd.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 20 giugno 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Miglioramenti {#25-06-improv}
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
@@ -219,13 +237,11 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Un nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
-* **Decisioning** - Data di disponibilità: 3 giugno 2025
+* **Funzione Decisioni**
 
-  Ora è possibile copiare gli oggetti decisionali in sandbox diverse, semplificando i test e i flussi di lavoro di implementazione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **Copia sandbox e decisioni** (data di disponibilità: 3 giugno 2025) - È ora possibile copiare gli oggetti decisioning tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **Supporto degli attributi di elementi decisionali per le regole decisionali** - Data di disponibilità: 4 giugno 2025
-
-  Ora puoi sfruttare gli attributi degli elementi decisionali per creare regole decisionali. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
+   * **Supporto degli attributi degli elementi di decisione per le regole di decisione** (data di disponibilità: 4 giugno 2025) - È ora possibile sfruttare gli attributi degli elementi di decisione per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
 
 * **Aggiornamento API per l’esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
 
