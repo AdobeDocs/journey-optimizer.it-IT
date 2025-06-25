@@ -6,10 +6,10 @@ description: Scopri come pianificare e avviare campagne orchestrate con Adobe Jo
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 38%
+source-wordcount: '1197'
+ht-degree: 36%
 
 ---
 
@@ -38,8 +38,8 @@ Dopo aver creato le attività orchestrate e progettate da eseguire nell’area d
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="Attività del modulo di pianificazione"
->abstract="Il **modulo di pianificazione** della campagna consente di pianificare l’avvio della campagna orchestrata. Questa attività deve essere considerata come un avvio pianificato. Può essere utilizzata solo come prima attività della campagna orchestrata."
+>title="Modulo di pianificazione"
+>abstract="In qualità di manager della campagna, puoi pianificare il lancio automatico delle campagne in momenti specifici, consentendo un calendario preciso e dati di targeting precisi per le comunicazioni di marketing."
 
 In qualità di manager della campagna, puoi pianificare il lancio automatico delle campagne in momenti specifici, consentendo un calendario preciso e dati di targeting precisi per le comunicazioni di marketing.
 
