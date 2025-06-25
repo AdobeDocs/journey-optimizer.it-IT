@@ -8,10 +8,11 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+exl-id: a2892f0a-5407-497c-97af-927de81055ac
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 0%
+source-wordcount: '2109'
+ht-degree: 2%
 
 ---
 
@@ -26,12 +27,12 @@ Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.
+>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.
 
 
 ## Vantaggi chiave {#journey-pause-benefits}
 
-I percorsi di pausa e ripresa offrono ai professionisti del percorso maggiore controllo e flessibilità, consentendo la sospensione temporanea dei percorsi live senza interrompere l’esperienza del cliente. Quando è in pausa, non vengono inviate comunicazioni e i profili rimangono in stato di sospensione fino alla ripresa del percorso.
+I percorsi di pausa e ripresa offrono ai professionisti del percorso maggiore controllo e flessibilità, consentendo la sospensione temporanea dei percorsi live senza interrompere l’esperienza del cliente. Quando il percorso è in pausa, le comunicazioni non vengono inviate e i profili rimangono in stato di sospensione fino a quando il percorso non viene ripreso.
 
 Questa funzionalità riduce i rischi di invio di messaggi non desiderati durante errori o aggiornamenti (ad esempio, modifiche al contenuto dei messaggi), supporta una gestione più sicura del percorso e aumenta la fiducia degli utenti. La visibilità nei percorsi in pausa e il loro stato direttamente nell’interfaccia utente migliorano ulteriormente la trasparenza e l’agilità operativa.
 
@@ -146,7 +147,11 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
-* Una versione di percorso può essere sospesa per un massimo di 14 giorni
+* Una versione di percorso può essere sospesa per un massimo di **14 giorni**, con un massimo di **10 milioni di profili** consentiti nei percorsi in pausa in tutta l&#39;organizzazione.
+Questo limite viene controllato ogni 30 minuti. Ciò significa che potresti temporaneamente superare la soglia di 10 milioni, ma una volta rilevata dal sistema, eventuali profili aggiuntivi verranno automaticamente eliminati.
+
+  Se riprendi i percorsi per riportare il numero di profili bloccati al di sotto del limite, il percorso riprende immediatamente, ma l’aggiornamento del conteggio dei profili può richiedere fino a 30 minuti. Durante tale periodo, il sistema può ancora considerare tali profili come in pausa.
+
 * I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi
 * I profili che sono entrati nel percorso ma sono stati scartati durante la pausa vengono comunque conteggiati come profili coinvolgibili
 * I percorsi in pausa vengono considerati in tutte le regole aziendali, come se fossero live
