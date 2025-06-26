@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 15%
@@ -81,7 +81,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 
 * Per limitare la presentazione dell&#39;elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona l&#39;opzione **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]**, quindi aggiungi uno o più tipi di pubblico dal riquadro di sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
 
-* Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md).
+* Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic
    >[!NOTE]
    >
    >Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente e il contatore di limitazione potrebbe non essere incrementato correttamente. Per garantire che ogni evento di limitazione venga tracciato e contabilizzato nel contatore delle limitazioni, accertati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. Informazioni dettagliate sulla raccolta dei dati sono disponibili nella documentazione relativa alla gestione delle decisioni di Journey Optimizer:
-   >* [Raccolta dati gestione decisioni](../offers/data-collection/data-collection.md)
-   >* [Configura raccolta dati](../offers/data-collection/schema-requirement.md)
+   >* [Raccolta dati gestione decisioni](data-collection/data-collection.md)
+   >* [Configura raccolta dati](data-collection/schema-requirement.md)
 
 1. Scegliere il tipo di limite:
 
