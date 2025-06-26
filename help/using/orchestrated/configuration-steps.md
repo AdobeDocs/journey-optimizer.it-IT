@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -179,7 +179,7 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
    * Con un nuovo account
 
-   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
    La selezione di una cartella assicura che tutti i file correnti e futuri con la stessa struttura vengano elaborati automaticamente, mentre la selezione di un file richiede aggiornamenti manuali per ogni nuovo incremento di dati.
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. Scegliere il formato dati e fare clic su Avanti.
+
+
 
 <!--manual
 ## Create a relational schema manual
