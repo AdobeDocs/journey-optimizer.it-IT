@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 23%
+source-wordcount: '768'
+ht-degree: 25%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Percorsi"
->abstract="Progetta i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
+>abstract="Progetta i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
 Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. L&#39;interfaccia utente del percorso è descritta in [questa pagina](journey-ui.md).
 
@@ -38,19 +38,19 @@ I passaggi principali per la creazione di un percorso sono descritti in questa p
 ![Passaggi per la creazione del percorso: creazione, progettazione, test e pubblicazione](assets/journey-creation-process.png)
 
 
-La creazione di percorsi di clienti in più fasi avvia una sequenza di interazioni, offerte e messaggi tra i canali in tempo reale. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target possono essere definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal tuo caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che stai creando.
+Crea percorsi di clienti in più passaggi per avviare in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target sono definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che si sta creando.
 
-Prima di iniziare a creare il percorso, controllare che siano stati completati i passaggi di configurazione pertinenti:
+Prima di iniziare a creare il percorso, assicurarsi di aver completato i passaggi di configurazione pertinenti:
 
-* Se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi **configurare un evento**. È possibile definire le informazioni previste e le modalità di elaborazione. [Ulteriori informazioni](../event/about-events.md).
+* Se si desidera attivare singolarmente i percorsi quando viene ricevuto un evento, **configurare un evento**. Definisci le informazioni previste e come elaborarle. [Ulteriori informazioni](../event/about-events.md).
 
 <!--   ![](assets/jo-event7bis.png)  -->
 
-* Il percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. Per questo, devi **creare tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
+* Il percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. Per questo, **crea tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
 
 <!--   ![](assets/segment2.png)  -->
 
-* È possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1&rbrace;.** [Ulteriori informazioni](../datasource/about-data-sources.md)
+* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -64,7 +64,7 @@ Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati
 
 >[!NOTE]
 >
->I guardrail e le limitazioni del percorso sono descritti in dettaglio in [questa pagina](../start/guardrails.md)
+>I guardrail e le limitazioni applicabili ai percorsi sono descritti in [questa pagina](../start/guardrails.md).
 
 ## Creare un percorso {#jo-build}
 
@@ -82,7 +82,7 @@ A questo punto è possibile iniziare a progettare il percorso.
 
 ## Progettare il percorso {#jo-design}
 
-Il designer di percorsi omni-channel, con la sua un’interfaccia intuitiva basata su selezione e trascinamento, ti aiuta a creare percorsi con più passaggi per tipi di pubblico target, aggiornamenti basati su interazioni del cliente o aziendali in tempo reale e messaggi omni-channel.
+Il designer di percorsi omni-channel, con la sua interfaccia intuitiva basata su selezione e trascinamento, ti aiuta a creare percorsi con più passaggi per tipi di pubblico target, aggiornamenti basati su interazioni del cliente o aziendali in tempo reale e messaggi omni-channel.
 
 ![](assets/journey38.png)
 
@@ -90,17 +90,17 @@ Il designer di percorsi omni-channel, con la sua un’interfaccia intuitiva basa
 
    ![](assets/read-segment.png)
 
-1. Trascina e rilascia i passaggi successivi che il singolo utente seguirà. Ad esempio, puoi aggiungere una condizione seguita da un’azione di canale. Per ulteriori informazioni sulle attività, consulta [questa sezione](about-journey-activities.md).
+1. Per iniziare, trascina un evento o un&#39;attività **Read Audience** dalla palette nell&#39;area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, consulta [questa sezione](using-the-journey-designer.md).
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. Journey Optimizer offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell’attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
-Ulteriori informazioni in questa [sezione](testing-the-journey.md)
+Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 
 ## Pubblica il percorso {#jo-pub}
 
-Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificane la validità e l’assenza di errori. Impossibile pubblicare un percorso con errori. Ulteriori informazioni sulla pubblicazione di percorso in questa [sezione](publishing-the-journey.md).
+Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori. Ulteriori informazioni sulla pubblicazione di percorso in questa [sezione](publishing-the-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 

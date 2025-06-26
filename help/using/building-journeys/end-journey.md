@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **
 
 È inoltre possibile:
 
-1. Nell&#39;elenco **[!UICONTROL Percorsi]** fare clic sul percorso che si desidera chiudere.
+1. Nell&#39;elenco **[!UICONTROL Percorsi]** selezionare il percorso che si desidera chiudere.
 1. In alto a destra, fare clic sulla freccia giù.
 
    ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
@@ -94,7 +94,7 @@ Puoi interrompere un percorso, ad esempio, se un addetto marketing si rende cont
 È inoltre possibile:
 
 1. Nell&#39;elenco **[!UICONTROL Percorsi]** fare clic sul percorso che si desidera interrompere.
-1. In alto a destra, fai clic sulla freccia giù.
+1. In alto a destra, fare clic sulla freccia giù.
 
    ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 

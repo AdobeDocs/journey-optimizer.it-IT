@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Potete modificare questo valore da 500 a 20.000 istanze al secondo. Se devi anda
 
 ![](assets/limit-throughput-2.png)
 
-Prendiamo ad esempio **percorsi attivati dal pubblico** che lavorano con una popolazione di **10.000 profili** e inviano dati a un sistema esterno che supporta **100 richieste/secondo**.
+Prendiamo ad esempio un **percorso attivato dal pubblico** che lavora con una popolazione di **10.000 profili** e invia dati a un sistema esterno che supporta **100 richieste/secondo**.
 
 1. Puoi definire il pubblico di lettura per leggere i profili con una velocità effettiva di 500 profili/secondo, il che significa che occorreranno 20 secondi per leggere tutti i profili. Al secondo 1, ne leggerete 500, al secondo 2 500, ecc.
 

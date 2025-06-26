@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: percorso, caso d’uso, messaggio, abbonati, elenco, lettura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 17%
@@ -46,8 +46,8 @@ Per configurare il percorso, eseguire la procedura seguente:
 
       | Funzione | Descrizione | Esempio |
       | --- | --- | --- |
-      | `entry` | Fai riferimento a un elemento mappa in base allo spazio dei nomi selezionato | Fai riferimento a un elenco di iscrizioni specifico |
-      | `firstEntryKey` | Recuperare la prima chiave di ingresso di una mappa | Recupera il primo indirizzo e-mail degli abbonati |
+      | `entry` | Fa riferimento a un elemento mappa in base allo spazio dei nomi selezionato | Fai riferimento a un elenco di iscrizioni specifico |
+      | `firstEntryKey` | Recupera la prima chiave di ingresso di una mappa | Recupera il primo indirizzo e-mail degli abbonati |
 
       In questo esempio, l&#39;elenco iscrizioni è denominato `daily-email`. Gli indirizzi di posta elettronica sono definiti come chiavi nella mappa `subscribers`, collegata alla mappa dell&#39;elenco iscrizioni.
 

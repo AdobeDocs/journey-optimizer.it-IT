@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Utilizzare l&#39;attività di azione **[!UICONTROL Aggiorna profilo]** per aggio
 * Proprio come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi inserire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Adobe Experience Platform è immediata/entro un secondo. Ci vorrà normalmente qualche secondo, ma a volte di più senza alcuna garanzia. Di conseguenza, ad esempio, se un&#39;azione utilizza il &quot;campo 1&quot; aggiornato da un&#39;azione **Aggiorna profilo** posizionata in precedenza, non è previsto che &quot;campo 1&quot; venga aggiornato nell&#39;azione.
 * L&#39;attività **Aggiorna profilo** non supporta campi XDM definiti come enumerazioni o valori suggeriti.
-* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}, non il Data Lake.
+* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
 
 ## Selezione set di dati {#dataset-selection}
 
@@ -67,7 +67,7 @@ Inoltre, la configurazione dell&#39;attività **Aggiorna profilo** non richiede 
 
      ![](assets/profileupdate4.png)
 
-   * Per definire un valore specifico o sfruttare funzioni avanzate, fare clic su **Modalità avanzata**.
+   * Se si desidera definire un valore specifico o sfruttare funzioni avanzate, selezionare **Modalità avanzata**.
 
      ![](assets/profileupdate3.png)
 

@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2106'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ I percorsi in pausa vengono ripresi automaticamente al termine del periodo massi
 Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di percorso, effettuare le seguenti operazioni:
 
 1. Aprire il percorso che si desidera riprendere.
-1. Fai clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso e seleziona **Riprendi**.
+1. Selezionare il pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso, quindi **Riprendi**.
 
    Il percorso passa allo stato **Ripresa**. Quando il percorso riprende, i nuovi ingressi iniziano entro un minuto. La ripresa dei profili conservati può richiedere un po’ di tempo; i profili vengono ripresi a una velocità di 5k tps.  Poiché è necessario riprendere tutti i profili affinché il percorso sia di nuovo **Live**, la transizione dallo stato **Ripresa** allo stato **Live** può richiedere un po&#39; di tempo.
 
@@ -121,7 +121,7 @@ Ad esempio, per escludere tutti i clienti francesi da un percorso in pausa, effe
 
 1. Individuare il percorso in pausa che si desidera modificare.
 
-1. Fai clic sull&#39;icona **Criteri di uscita e filtro globale**.
+1. Seleziona l&#39;icona **Criteri di uscita e filtro globale**.
 
    ![Aggiungere un filtro globale a un percorso in pausa](assets/add-global-filter.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 12%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -31,12 +31,12 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 Nella scheda **[!UICONTROL Panoramica]** è visualizzata una dashboard con le metriche chiave correlate ai percorsi.
 
-![Dashboard di percorso che evidenzia la scheda Panoramica](assets/journeys-dashboard.png)
+![Dashboard di Percorso che evidenzia la scheda Panoramica](assets/journeys-dashboard.png)
 
 * **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
 * **percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi attivi includono **percorsi unitari** (basati su eventi) e **percorsi batch** (pubblico di lettura).
 * **Frequenza errori**: rapporto tra tutti i profili con errore e il numero totale di profili immessi nelle ultime 24 ore.
-* **Percentuale di eliminazione**: rapporto tra tutti i profili eliminati e il numero totale di profili immessi nelle ultime 24 ore. Un profilo scartato rappresenta un utente non idoneo per l’accesso al percorso, ad esempio a causa di uno spazio dei nomi errato o di regole di rientro.
+* **Percentuale di eliminazione**: rapporto tra tutti i profili eliminati e il numero totale di profili immessi nelle ultime 24 ore. Un profilo scartato rappresenta un utente non idoneo per l’accesso al percorso, ad esempio a causa di uno spazio dei nomi o di regole di rientro non corrette.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Oltre all&#39;elenco percorsi, [!DNL Journey Optimizer] fornisce una visualizzaz
 
 >[!AVAILABILITY]
 >
->La vista Calendario è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per richiedere l&#39;accesso, usa [questo modulo](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>La vista Calendario è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per richiedere l’accesso, utilizza [questo modulo](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
 >
 >Questa funzione è in fase di sviluppo attivo. L&#39;input e le richieste vengono accolti con favore utilizzando il pulsante **[!UICONTROL Feedback Beta]** nel menu principale.
 

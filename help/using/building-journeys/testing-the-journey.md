@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1767'
 ht-degree: 8%
 
 ---
@@ -111,7 +111,7 @@ Se il percorso contiene più eventi, utilizza l’elenco a discesa per seleziona
 
 ![](assets/journeytest4.png)
 
-L’interfaccia ti consente di trasmettere parametri evento semplici. Se desideri passare raccolte o altri oggetti avanzati nell&#39;evento, puoi fare clic su **[!UICONTROL Vista Codice]** per visualizzare l&#39;intero codice del payload e modificarlo. Ad esempio, puoi copiare e incollare le informazioni sull’evento preparate da un utente tecnico.
+L’interfaccia ti consente di trasmettere parametri evento semplici. Se si desidera passare raccolte o altri oggetti avanzati nell&#39;evento, è possibile selezionare **[!UICONTROL Vista Codice]** per visualizzare l&#39;intero codice del payload e modificarlo. Ad esempio, puoi copiare e incollare le informazioni sull’evento preparate da un utente tecnico.
 
 ![](assets/journeytest5.png)
 

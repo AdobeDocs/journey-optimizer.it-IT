@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ Se uno dei campi con etichetta _ePHI1_ (campo del tipo di sangue nel nostro esem
 
 Se il sistema individua un campo con restrizioni in un percorso o una campagna oppure in un’azione personalizzata, viene visualizzato un errore che ne impedisce la pubblicazione.
 
-Gli errori sono visibili dal pulsante **[!UICONTROL Avvisi]**. Fai clic sull’errore per visualizzare informazioni dettagliate sulla violazione dei criteri di governance dei dati che si è verificata.
+Gli errori sono visibili dal pulsante **[!UICONTROL Avvisi]**. Seleziona l’errore per visualizzare informazioni dettagliate sulla violazione dei criteri di governance dei dati che si è verificata.
 
 ![](assets/action-privacy8.png)
 

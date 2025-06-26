@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '995'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Potete utilizzare la funzionalità di esecuzione di prova in qualsiasi percorso 
 Per attivare l&#39;esecuzione in prova, effettuare le seguenti operazioni:
 
 1. Aprire il percorso che si desidera verificare.
-1. Fare clic sul pulsante **Esegui**.
+1. Selezionare il pulsante **Esegui**.
 
    ![Avvia l&#39;esecuzione di prova del percorso](assets/dry-run-button.png)
 
