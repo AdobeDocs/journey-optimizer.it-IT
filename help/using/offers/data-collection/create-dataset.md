@@ -6,8 +6,7 @@ description: Scopri come creare un set di dati per raccogliere gli eventi
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -51,7 +50,7 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
 >[!NOTE]
 >
->Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#understanding-schemas){target="_blank"}.
+>Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 

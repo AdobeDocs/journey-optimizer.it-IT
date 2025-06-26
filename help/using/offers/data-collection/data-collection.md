@@ -5,8 +5,7 @@ feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
-exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 ## Informazioni sulla raccolta dati
 
-In Adobe Experience Platform puoi raccogliere feedback di offer decisioning, ad esempio quali offerte vengono visualizzate e come gli utenti interagiscono con esse. Questi dati possono essere utilizzati per:
+Puoi raccogliere in Adobe Experience Platform i feedback su Offer Decisioning, tra cui le offerte visualizzate e il modo in cui gli utenti interagiscono con esse. Questi dati possono essere utilizzati per:
 * Composizione di [report di gestione delle decisioni](../reports/get-started-events.md);
 * Utilizzo di [regole di quota limite](../offer-library/add-constraints.md#capping);
 * Creazione di [modelli AI](../ranking/create-ranking-strategies.md) che possono essere utilizzati come metodo di classificazione.
@@ -44,9 +43,9 @@ Il feedback sulle impression e sui clic viene acquisito a seconda del canale [!D
 
 Tuttavia, **la maggior parte dei canali** richiede l&#39;invio di impression e dati di clic in Adobe Experience Platform come **evento esperienza**. Ciò include:
 
-* Pagine Web che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} per eseguire il rendering delle offerte
+* Pagine Web che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} per eseguire il rendering delle offerte
 
-* App mobili che utilizzano [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=it){target="_blank"} per eseguire il rendering delle offerte - [Ulteriori informazioni](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* App mobili che utilizzano [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} per eseguire il rendering delle offerte - [Ulteriori informazioni](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Chioschi
 * Messaggi inviati tramite applicazioni di terze parti
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
