@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 18%
+source-wordcount: '2392'
+ht-degree: 15%
 
 ---
 
@@ -33,7 +33,7 @@ Puoi eseguire le seguenti operazioni:
 
 * Assegna tag unificati Adobe Experience Platform al tuo percorso, per classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 * Seleziona le metriche di percorso. [Scopri come configurare e tenere traccia delle metriche di percorso](success-metrics.md)
-* Gestisci [ingresso e rientro](#entrance). La gestione dell’entrata del profilo dipende dal tipo di percorsi. I dettagli sono disponibili su [questa pagina](entry-management.md)
+* Gestisci [ingresso e rientro](#entrance). La gestione dell’entrata del profilo dipende dal tipo di percorso. I dettagli sono disponibili su [questa pagina](entry-management.md)
 * Gestisci [accesso ai dati](#manage-access)
 * Seleziona il percorso e il profilo [fusi orari](#timezone)
 * Scegli [date di inizio e fine](#dates) personalizzate
@@ -46,7 +46,7 @@ Puoi eseguire le seguenti operazioni:
 >
 >Per i percorsi live, questa schermata mostra solo la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 
-**Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Sono state copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+L&#39;opzione **Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Sono state copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Ulteriori informazioni sui campi tecnici relativi a un percorso per un determinato profilo e su come utilizzarli [in questa pagina](expression/journey-properties.md).
 
@@ -54,7 +54,7 @@ Ulteriori informazioni sui campi tecnici relativi a un percorso per un determina
 
 La modalità di immissione profilo è definita a livello di percorso, nel riquadro di configurazione di destra. Le impostazioni sono descritte di seguito.
 
-La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell&#39;ingresso e del rientro del profilo, in [questa pagina](entry-management.md).
+La gestione dell’entrata del profilo dipende dal tipo di percorso. Ulteriori informazioni sulla gestione dell&#39;ingresso e del rientro del profilo, in [questa pagina](entry-management.md).
 
 ### Consentire il reingresso  {#allow-reentrance}
 
@@ -71,7 +71,7 @@ Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È poss
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Periodo di attesa per reingresso"
->abstract="Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente in un percorso unitario. Questo impedisce il reingresso degli utenti nel percorso per una durata selezionata. Durata massima: 90 giorni."
+>abstract="Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente nel percorso in percorsi unitari. Questo impedisce il reingresso degli utenti nel percorso per una durata selezionata. Durata massima: 90 giorni."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
 Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il campo **Periodo di attesa rientro**. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
@@ -86,7 +86,7 @@ Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic s
 
 ## Fusi orari di percorso e profilo {#timezone}
 
-Fuso orario definito a livello di percorso. Puoi immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del percorso. Se nel profilo Adobe Experience Platform è definito un fuso orario, questo può essere recuperato nel percorso.
+Il fuso orario è definito a livello di percorso. Puoi immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del percorso. Se nel profilo Adobe Experience Platform è definito un fuso orario, questo può essere recuperato nel percorso.
 
 [Ulteriori informazioni sulla gestione del fuso orario](../building-journeys/timezone-management.md)
 
@@ -95,12 +95,12 @@ Fuso orario definito a livello di percorso. Puoi immettere un fuso orario fisso 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Start date (Data di inizio)"
->abstract="Seleziona la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, viene utilizzata la data di pubblicazione del percorso per impostazione predefinita."
+>abstract="Seleziona la data in cui i profili possono iniziare a entrare nel percorso. Se non viene impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="End date (Data di fine)"
->abstract="Imposta la data di fine del percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentiti nuovi ingressi."
+>abstract="Imposta la data di fine del percorso. In questa data, i profili attivi escono automaticamente dal percorso e non è consentita alcuna nuova voce."
 
 Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer utilizza i criteri di unione per recuperare i dati del p
 
 Adobe Journey Optimizer applica il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio utilizzando le funzioni di [`inAudience`](functions/functioninaudience.md)), si creano incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
-Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
