@@ -69,4 +69,4 @@ ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la pr
 
 >[!NOTE]
 >
->È ora possibile selezionare questo set di dati per raccogliere i dati dell&#39;evento durante la [creazione di un modello di IA]().
+>È ora possibile selezionare questo set di dati per raccogliere i dati dell&#39;evento durante la [creazione di un modello di IA] ().
