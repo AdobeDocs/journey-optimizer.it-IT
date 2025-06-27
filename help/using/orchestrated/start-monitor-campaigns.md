@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 44%
+source-wordcount: '780'
+ht-degree: 35%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 44%
 
 | Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](configuration-steps.md)<br/>&lt;br/[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md) | [Passaggi chiave per la creazione di campagne orchestrate](gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Inviare messaggi con campagne orchestrate](send-messages.md)<br/><br/><b>[Avviare e monitorare la campagna](start-monitor-campaigns.md)</b><br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa/Partecipa](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](configuration-steps.md)<br/><br/>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md) | [Passaggi chiave per la creazione di campagne orchestrate](gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Inviare messaggi con campagne orchestrate](send-messages.md)<br/><br/><b>[Avviare e monitorare la campagna](start-monitor-campaigns.md)</b><br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa/Partecipa](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -34,17 +34,27 @@ ht-degree: 44%
 
 Dopo aver creato le attività orchestrate e progettate da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne l’esecuzione.
 
-## Avviare una campagna orchestrata {#start}
+Puoi anche eseguire la campagna in modalità di test per verificarne l’esecuzione e il risultato delle diverse attività.
 
-Per avviare una campagna orchestrata, passa alla scheda **[!UICONTROL Orchestrazione]** del menu **[!UICONTROL Campagne]** e seleziona la campagna da avviare, quindi fai clic sul pulsante **[!UICONTROL Riproduci]** nell&#39;angolo superiore destro dell&#39;area di lavoro.
+## Test e pubblicazione della campagna orchestrata {#test}
+
+Journey Optimizer consente di testare le campagne orchestrate prima di pubblicarle. Ciò ti consente di controllare l&#39;esecuzione e il risultato delle varie attività che compongono la campagna e non ha alcun impatto funzionale: vengono eseguite tutte le attività nell&#39;area di lavoro, ad eccezione di quelle che hanno un impatto come **[!UICONTROL Save audience]** e attività del canale.
+
+Per avviare una campagna orchestrata in modalità di test, apri la campagna orchestrata e fai clic sul pulsante **[!UICONTROL Avvia]**.
+
+![](assets/campaign-start.png){zoomable="yes"}
 
 Una volta eseguita la campagna orchestrata, ogni attività nell’area di lavoro viene eseguita in ordine sequenziale, fino al raggiungimento della fine della campagna orchestrata.
 
-Puoi monitorare l’avanzamento dei profili target in tempo reale utilizzando un flusso visivo. Questo consente di identificare rapidamente lo stato di ciascuna attività e il numero di profili che passano da un’attività all’altra.
+Quando la campagna è pronta per essere pubblicata, fai clic sul pulsante **[!UICONTROL Pubblica]**. Il flusso visivo nell’area di lavoro viene riavviato e consente di visualizzare l’avanzamento dei profili nel diagramma.
+
+## Flusso visivo delle campagne orchestrate
+
+Quando una campagna orchestrata è in esecuzione, in modalità di test o in produzione, è possibile monitorare l’avanzamento dei profili target attraverso le diverse attività in tempo reale utilizzando un flusso visivo. Questo consente di identificare rapidamente lo stato di ciascuna attività e il numero di profili che passano da un’attività all’altra.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-Nelle campagne orchestrate, i dati trasportati da un’attività all’altra tramite transizioni vengono memorizzati in una tabella di lavoro temporanea. Questi dati possono essere visualizzati per ogni transizione. A questo scopo, seleziona una transizione per aprirne le proprietà sul lato destro dello schermo.
+I dati trasportati da un’attività all’altra tramite transizioni vengono memorizzati in una tabella di lavoro temporanea. Questi dati possono essere visualizzati per ogni transizione. A questo scopo, seleziona una transizione per aprirne le proprietà sul lato destro dello schermo.
 
 * Fai clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
 * Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata.
@@ -55,7 +65,7 @@ Nelle campagne orchestrate, i dati trasportati da un’attività all’altra tra
 
 ### Monitorare l’esecuzione dell’attività {#activities}
 
-Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di attività ti consentono di controllarne l’esecuzione:
+Gli indicatori visivi in ciascuna casella di attività consentono di controllarne l’esecuzione:
 
 | Indicatore visivo | Descrizione |
 |-----|------------|
