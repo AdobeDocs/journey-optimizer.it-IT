@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
-# Caso d’uso: utilizzare azioni personalizzate per scrivere eventi di Percorso in Experience Platform {#custom-action-aep}
+# Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform {#custom-action-aep}
 
 Questo caso d’uso spiega come scrivere eventi personalizzati in Adobe Experience Platform da Percorsi utilizzando Azioni personalizzate e chiamate autenticate.
 
-## Configurare un progetto I/O {#custom-action-aep-IO}
+## Configurare un progetto per sviluppatori {#custom-action-aep-IO}
 
 1. Da Adobe Developer Console, fai clic su **Progetto** e apri il progetto di I/O.
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Dopo aver creato il progetto su Adobe Developer Console, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Dopo aver creato il progetto su Adobe Developer Console, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configurare Source utilizzando l’ingresso API HTTP
+## Configurare l’origine utilizzando l’ingresso API HTTP
 
 1. Crea un endpoint in Adobe Experience Platform per scrivere i dati dai percorsi.
 
@@ -110,7 +110,7 @@ Per questo esempio, segui questi passaggi:
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Impostare l’autenticazione {#custom-action-aep-authentication}
+### Configurare l’autenticazione {#custom-action-aep-authentication}
 
 1. Seleziona **Tipo** come **Personalizzato** con il seguente payload.
 

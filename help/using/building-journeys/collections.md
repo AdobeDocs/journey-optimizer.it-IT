@@ -8,15 +8,15 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 6%
+source-wordcount: '428'
+ht-degree: 7%
 
 ---
 
 
-# Caso d’uso: passaggio dinamico delle raccolte tramite azioni personalizzate{#passing-collection}
+# Passaggio dinamico delle raccolte tramite azioni personalizzate{#passing-collection}
 
 Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte:
 
