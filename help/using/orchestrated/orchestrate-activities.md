@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
+source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 13%
 
 ---
@@ -82,9 +82,7 @@ Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili p
 
 Diverse attività di **targeting**, come **Combina** o **Deduplicazione**, ti consentono di elaborare il gruppo rimanente e includerlo in un&#39;ulteriore transizione in uscita. Ad esempio, se utilizzi un&#39;attività **Split**, il complemento è costituito dal gruppo che non corrisponde a nessuno dei sottoinsiemi definiti in precedenza. Per utilizzare questa funzionalità, attivare l&#39;opzione **[!UICONTROL Genera complemento]**.
 
-## Spostare o copiare attività {#move-copy}
-
-### Attività di copia e incolla {#copy}
+## Attività di copia e incolla {#copy}
 
 Puoi copiare le attività e incollarle in qualsiasi area di lavoro della campagna orchestrata. La campagna di destinazione può trovarsi in una scheda del browser diversa.
 
