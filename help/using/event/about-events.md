@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 45%
+source-wordcount: '1079'
+ht-degree: 43%
 
 ---
 
@@ -61,7 +61,7 @@ Per gli eventi **unitari**, esistono due tipi di ID evento:
 
 >[!NOTE]
 >
->Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
+>Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Ciclo dei dati {#data-cycle}
 
@@ -83,8 +83,8 @@ Qualsiasi evento utilizzato nei percorsi live, in bozza o chiusi non può essere
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

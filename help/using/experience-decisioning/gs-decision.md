@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 20%
 
 ---
@@ -31,12 +31,12 @@ Attualmente, [!DNL Journey Optimizer] fornisce le due soluzioni di base descritt
 
 Il nostro framework decisionale di nuova generazione, progettato per unificare i flussi di lavoro Journey Optimizer esistenti e gettare le basi per la gestione di cataloghi di contenuti aggiuntivi. Decisioning delle offerte:
 
-* Gestione del catalogo di elementi basata su schema: aumenta la flessibilità associando metadati personalizzati a ogni offerta.
-* Regole di raccolta flessibili: consente di raggruppare facilmente le offerte per le valutazioni future basate su vari criteri.
-* Criterio di decisione e configurazione della strategia di selezione aggiornati: consenti la riutilizzabilità dei componenti di decisione.
-* Funzionalità di sperimentazione: verifica della logica decisionale rispetto ad altri componenti di contenuto per misurare le prestazioni.
+* Gestione del catalogo di elementi basata su schema: maggiore flessibilità associando metadati personalizzati a ogni offerta
+* Regole di raccolta flessibili: è possibile raggruppare facilmente le offerte per le valutazioni future basate su vari criteri
+* Configurazione criterio di decisione e strategia di selezione aggiornate: consenti la riutilizzabilità dei componenti di decisione
+* Funzionalità di sperimentazione: verifica della logica decisionale rispetto ad altri componenti di contenuto per misurare le prestazioni
 
-Per il momento, Experience Decisioning è supportato nel canale di esperienza basato su codice.
+Experience Decisioning è supportato nel canale di esperienza basato su codice.
 
 ➡️ [Introduzione a Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 

@@ -6,25 +6,36 @@ description: Scopri come creare espressioni avanzate
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: espressione, condizione, casi d’uso, eventi
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
+
 # Esempi di espressioni avanzate{#advanced-expression-examples}
 
-L’editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti nei percorsi. Queste condizioni ti consentono di eseguire il targeting degli utenti in base a ora, data, posizione, durata o azioni quali l’acquisto o l’abbandono dei carrelli, in modo che possano essere indirizzati nuovamente al percorso.
+L’editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti nei percorsi. Queste condizioni ti consentono di eseguire il targeting degli utenti in base a ora, data, posizione, durata, in modo che possano essere indirizzati nuovamente nel percorso.
 
 >[!CAUTION]
 >
->L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso è supportato, ma non consigliato. Se il caso d&#39;uso richiede l&#39;utilizzo di eventi esperienza, prendere in considerazione metodi alternativi come [attributi calcolati](../../audience/computed-attributes.md) o creare un segmento utilizzando gli eventi e incorporando tale segmento in [`inAudience` espressioni](../../building-journeys/functions/functioninaudience.md).
+>L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso non è supportato. Se il caso d’uso richiede l’utilizzo di eventi esperienza, considera metodi alternativi. [Ulteriori informazioni](../exp-event-lookup.md)
 
 
 ## Creazione delle condizioni per gli eventi esperienza
+
+
+>[!CAUTION]
+>
+>L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso non è supportato. Se il caso d’uso richiede l’utilizzo di eventi esperienza, considera metodi alternativi. [Ulteriori informazioni](../exp-event-lookup.md)
+>
+
+
 
 L’editor di espressioni avanzate è obbligatorio per eseguire query su serie temporali come un elenco di acquisti o clic sui messaggi passati. Tali query non possono essere eseguite utilizzando l’editor semplice.
 
@@ -43,9 +54,9 @@ Ad esempio, supponiamo che tu voglia indirizzare i clienti con un abbandono del 
 
 Innanzitutto, rivolgiti ai clienti che hanno navigato nel negozio online ma non hanno finalizzato l’ordine negli ultimi 7 giorni.
 
-<!--**This expression looks for a specified value in a string value:**
+**L&#39;espressione cerca un valore specificato in un valore stringa:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **L&#39;espressione cerca tutti gli eventi per l&#39;utente specificato negli ultimi 7 giorni:**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che racchiudono l&#39;ID CRM passato con un evento di avvio dell&#39;app mobile.
+
 
 Per ulteriori informazioni su come utilizzare l&#39;editor di espressioni avanzate, guarda [questo video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=it).

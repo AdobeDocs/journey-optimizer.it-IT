@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: integrato, sorgente, dati, piattaforma, integrazione
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 31%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,19 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Origine dati Adobe Experience Platform"
->abstract="L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. È progettata per recuperare e utilizzare i dati dal servizio Real-Time Customer Profile (ad esempio, controlla se la persona che è entrata in un percorso è una donna). Consente di utilizzare i dati del profilo e i dati di eventi esperienza."
+>abstract="L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. È progettata per recuperare e utilizzare i dati dal servizio Real-Time Customer Profile (ad esempio, controlla se la persona che è entrata in un percorso è una donna). Ti consente di utilizzare i dati del profilo."
 
-L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. Questa origine dati è progettata per recuperare e utilizzare i dati del servizio Profilo cliente in tempo reale (ad esempio, verificare se la persona che ha inserito un percorso è una donna). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. Per ulteriori informazioni su Adobe Real-time Customer Profile, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
+L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. Questa origine dati è progettata per recuperare e utilizzare i dati del servizio Profilo cliente in tempo reale (ad esempio, verificare se la persona che ha inserito un percorso è una donna). Ti consente di utilizzare i dati del profilo. Per ulteriori informazioni su Adobe Real-time Customer Profile, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 Per consentire la connessione al servizio Profilo cliente in tempo reale, è necessario utilizzare una chiave per identificare una persona e uno spazio dei nomi che la contestualizza. Di conseguenza, puoi utilizzare questa origine dati solo se i tuoi percorsi iniziano con un evento contenente una chiave e uno spazio dei nomi. [Ulteriori informazioni](../building-journeys/journey.md).
 
 Puoi modificare il gruppo di campi preconfigurato denominato &quot;ProfileFieldGroup&quot;, aggiungerne di nuovi e rimuovere quelli che non sono utilizzati in alcun percorso in bozza o live. [Ulteriori informazioni](../datasource/configure-data-sources.md#define-field-groups).
 
->[!NOTE]
+
+>[!CAUTION]
 >
->Puoi recuperare i 1000 eventi di esperienza più recenti creati meno di un anno fa.
+>L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso non è supportato. Se il caso d’uso richiede l’utilizzo di eventi esperienza, considera metodi alternativi. [Ulteriori informazioni](../building-journeys/exp-event-lookup.md)
+
 
 I passaggi principali per aggiungere gruppi di campi all’origine dati incorporata sono descritti di seguito:
 
@@ -45,7 +47,7 @@ I passaggi principali per aggiungere gruppi di campi all’origine dati incorpor
 
    ![](assets/journey24.png)
 
-1. Selezionare uno schema dal menu a discesa **[!UICONTROL Schema]**. In questo campo sono elencati gli schemi **Profilo** e **Eventi esperienza** disponibili in Adobe Experience Platform. La creazione dello schema viene eseguita in Adobe Experience Platform, non in Adobe Journey Optimizer.
+1. Selezionare uno schema dal menu a discesa **[!UICONTROL Schema]**. La creazione dello schema viene eseguita in Adobe Experience Platform, non in Adobe Journey Optimizer.
 1. Seleziona i campi da utilizzare e salva le modifiche.
 
 

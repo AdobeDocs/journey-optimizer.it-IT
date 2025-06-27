@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 23%
+source-wordcount: '516'
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 23%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/code-based-experience/get-started-code-based), ora accessibile nelle campagne Journey Optimizer.
+Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](../code-based/get-started-code-based.md), accessibile nelle campagne Journey Optimizer.
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-   +++
++++
 
 1. **Configurare gli attributi personalizzati**: personalizzare il catalogo degli elementi in base alle proprie esigenze impostando gli attributi personalizzati nello schema del catalogo.
 
@@ -87,4 +87,3 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
 
-Un caso d&#39;uso completo end-to-end che mostra come utilizzare le decisioni in un&#39;esperienza basata su codice è presentato in [questa sezione](experience-decisioning-uc.md).

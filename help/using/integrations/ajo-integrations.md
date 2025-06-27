@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 62%
+source-wordcount: '956'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Con Adobe Journey Optimizer puoi gestire, conservare ed esportare facilmente que
 
 >[!NOTE]
 >
-> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che è entrato in un percorso è un cliente oppure no). Consente di utilizzare i dati del profilo e i dati di eventi esperienza. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
+> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che è entrato in un percorso è un cliente oppure no). Ti consente di utilizzare i dati del profilo. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -50,7 +50,7 @@ In qualità di utente di Adobe Experience Manager, puoi combinare i tuoi flussi 
 
 Riunisci flussi di lavoro creativi e di marketing utilizzando **[!DNL Adobe Experience Manager Assets]**. Integrazione nativa con **[!DNL Adobe Journey Optimizer]**, accesso a **[!DNL Assets Essentials]** o **[!DNL Assets as a Cloud Service]** per archiviare, gestire, individuare e distribuire risorse digitali. Fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi.
 
-[![ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
+[![Ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
 <!--
 >[!TAB AEM Templates]
@@ -63,15 +63,15 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 >[!TAB Frammenti AEM]
 
-Integrando Adobe Experience Manager con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nel contenuto dell’e-mail Journey Optimizer. Questa connessione semplificata semplifica il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
+Integrando Adobe Experience Manager con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nel contenuto dell’e-mail Journey Optimizer. Questa connessione diretta facilita il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
-[![ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
+[![Ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
 >[!TAB Contenuti multimediali dinamici]
 
 Utilizza il selettore delle risorse di Journey Optimizer per selezionare e utilizzare le rappresentazioni di elementi multimediali dinamici approvate in Journey Optimizer. Le modifiche apportate alle risorse in Adobe Experience Manager si riflettono immediatamente nel contenuto di Journey Optimizer, garantendo che le versioni più aggiornate siano sempre in uso senza richiedere aggiornamenti manuali.
 
-[![ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
+[![Ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
 
 
 >[!ENDTABS]
@@ -86,7 +86,7 @@ Ulteriori informazioni su [Journey Optimizer + Stock](../integrations/stock.md).
 
 ## Adobe Express {#express}
 
-L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
+L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere lo sfondo, ritagliare elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
 Ulteriori informazioni su [Journey Optimizer + Adobe Express](../integrations/express.md).
 

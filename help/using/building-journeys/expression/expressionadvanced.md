@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 57%
+source-wordcount: '711'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ Utilizza l’editor di espressioni avanzate di Percorso per creare espressioni a
 ![](../assets/journey65.png)
 
 
-L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi di esperienza.
+L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni dispo
 
   >[!CAUTION]
   >
-  >L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso è supportato, ma non consigliato. Se il caso d&#39;uso richiede l&#39;utilizzo di eventi esperienza, prendere in considerazione metodi alternativi come [attributi calcolati](../../audience/computed-attributes.md) o creare un segmento utilizzando gli eventi e incorporando tale segmento in [`inAudience` espressioni](../../building-journeys/functions/functioninaudience.md).
+  >La creazione di espressioni utilizzando eventi di esperienza non è supportata. Si fa riferimento ad approcci alternativi e best practice per la creazione di espressioni/logiche con eventi di esperienza [qui](../../building-journeys/exp-event-lookup.md)
 
 * **[!UICONTROL Tipi di pubblico]**: se hai rimosso un evento **[!UICONTROL Qualificazione del pubblico]**, scegli il pubblico che desideri utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Origini dati]**: scegli dall&#39;elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)

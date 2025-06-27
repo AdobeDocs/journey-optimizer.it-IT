@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sintassi, editor, percorso
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 5%
 
 ---
 
 # Sintassi dell’editor espressioni avanzato {#syntax}
 
-Le informazioni di base sulla sintassi quando si utilizza l&#39;[Editor di espressioni avanzate](expressionadvanced.md) sono elencate di seguito. Esempi di utilizzo dell&#39;editor di espressioni avanzate sono disponibili in [questa pagina](advanced-editor-use-cases.md).
+Le informazioni di base sulla sintassi quando si utilizza l&#39;[Editor di espressioni avanzate](expressionadvanced.md) sono elencate di seguito. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Priorità tra parentesi ed espressione {#parentheses-and-expression-priority}
 
