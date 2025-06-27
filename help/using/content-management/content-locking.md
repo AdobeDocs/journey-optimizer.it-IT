@@ -196,4 +196,4 @@ Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazion
 
 Scopri come bloccare il contenuto nei modelli e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451615?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
