@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="best practice per la ricerca di eventi esperienza" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="best practice per la ricerca di eventi esperienza" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Scopri i pattern comuni e gli approcci scalabili per trarre il massimo da Experience Events in Adobe Journey Optimizer. Questi casi d’uso sono progettati per aiutarti a risolvere problemi frequenti come la gestione delle rinunce, il controllo della frequenza dei messaggi, la personalizzazione dei contenuti in base al comportamento degli utenti e la reazione ai segnali in tempo reale.
     </div>
       <div>
@@ -92,7 +92,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Passaggio dinamico delle raccolte tramite azioni personalizzate" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="Passaggio dinamico delle raccolte tramite azioni personalizzate" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>Passaggio dinamico delle raccolte con azioni personalizzate</strong></a>
