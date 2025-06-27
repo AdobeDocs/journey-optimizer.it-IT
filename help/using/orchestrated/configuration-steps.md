@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1142'
 ht-degree: 3%
 
 ---
@@ -103,7 +103,7 @@ Per definire connessioni logiche tra tabelle all’interno dello schema, segui l
 
 1. Compila il modulo specificato per definire il collegamento e fai clic su **Applica** una volta configurato.
 
-   ![](assets/toolbar.png)
+   ![](assets/admin_schema_3.png)
 
    **Cardinalità**:
 
@@ -179,21 +179,43 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
    * Con un nuovo account
 
-   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
+1. Scegli la cartella **[!UICONTROL Formato dati]**, **[!UICONTROL Delimitatore]** e **[!UICONTROL Tipo di compressione]**.
+
 1. Naviga nell&#39;origine S3 connessa fino a individuare le due cartelle create in precedenza, ovvero **premi fedeltà** e **transazioni fedeltà**.
 
-1. Fai clic sulla cartella.
+1. Selezionare la cartella contenente i dati.
 
-   La selezione di una cartella assicura che tutti i file correnti e futuri con la stessa struttura vengano elaborati automaticamente, mentre la selezione di un file richiede aggiornamenti manuali per ogni nuovo incremento di dati.
+   La selezione di una cartella garantisce che tutti i file correnti e futuri con la stessa struttura vengano elaborati automaticamente. La selezione di un singolo file, tuttavia, richiede il caricamento manuale di ogni nuovo incremento di dati.
+
+   ![](assets/S3_config_2.png)
+
+1. Scegli la cartella **[!UICONTROL Formato dati]**, **[!UICONTROL Delimitatore]** e **[!UICONTROL Tipo di compressione]**. Verifica la precisione dei dati di esempio, quindi fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/S3_config_1.png)
 
-1. Scegliere il formato dati e fare clic su Avanti.
+1. Selezionare **[!UICONTROL Abilita Change data capture]** per effettuare una selezione da set di dati mappati a schemi relazionali e per i quali sono definiti sia una chiave primaria che un descrittore di versione.
 
+1. Seleziona il [set di dati creato in precedenza](#entities) e fai clic su **[!UICONTROL Avanti]**.
 
+   ![](assets/S3_config_3.png)
+
+1. Nella finestra **[!UICONTROL Mapping]**, verifica che ogni attributo del file di origine sia mappato correttamente con i campi corrispondenti nello schema di destinazione.
+
+   Al termine, fai clic su **[!UICONTROL Avanti]**.
+
+   ![](assets/S3_config_4.png)
+
+1. Configura il flusso di dati **[!UICONTROL Pianificazione]** in base alla frequenza desiderata.
+
+1. Fare clic su **[!UICONTROL Fine]** per creare il flusso di dati. Viene eseguito automaticamente in base alla pianificazione definita.
+
+1. Dal menu **[!UICONTROL Connessioni]**, seleziona **[!UICONTROL Origini]** e accedi alla scheda **[!UICONTROL Flussi di dati]** per monitorare l&#39;esecuzione del flusso, esaminare i record acquisiti e risolvere eventuali errori.
+
+   ![](assets/S3_config_5.png)
 
 <!--manual
 ## Create a relational schema manual
