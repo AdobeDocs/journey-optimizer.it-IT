@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Accesso e gestione di una campagna orchestrata
+title: Accedere e gestire le campagne orchestrate
 description: Scopri i principi chiave della creazione di campagne orchestrate con Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
@@ -10,11 +10,11 @@ exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
 source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
-# Accesso e gestione di una campagna orchestrata {#orchestrated-campaign-creation}
+# Accedere e gestire le campagne orchestrate {#orchestrated-campaign-creation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

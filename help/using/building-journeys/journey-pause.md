@@ -12,7 +12,7 @@ exl-id: a2892f0a-5407-497c-97af-927de81055ac
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '2106'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
->title="Metti in pausa il percorso"
->abstract="Sospendi un percorso live per impedire l’accesso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli in posizione. Se vengono mantenuti, riprenderanno l’esecuzione all’attività di azione successiva una volta riavviato il percorso. Ideale per aggiornamenti o arresti di emergenza senza perdere l’avanzamento."
+>title="Mettere in pausa il proprio percorso"
+>abstract="Metti in pausa un percorso live per impedire l’ingresso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli nella posizione. Se mantenuti, una volta riavviato il percorso i profili riprenderanno l’esecuzione nell’attività di azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
 Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare filtri globali](#journey-global-filters) per escludere profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
@@ -95,10 +95,10 @@ Quando un percorso viene messo in pausa, la gestione del profilo e l’esecuzion
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
->title="Riprendi il percorso"
->abstract="Riprendi un percorso in pausa per consentire ai nuovi profili di accedere nuovamente. Se i profili erano in attesa durante la pausa, continueranno il loro percorso. Ideale per il riavvio sicuro dei percorsi dopo aggiornamenti o pause."
+>title="Riprendere il percorso"
+>abstract="Riprendi un percorso in pausa per consentire ai nuovi profili di effettuare nuovamente l’ingresso. Se alcuni profili erano in attesa durante la pausa, questi continueranno il proprio percorso. Ideale per un riavvio sicuro dei percorsi dopo aggiornamenti o pause."
 
-I percorsi in pausa vengono ripresi automaticamente al termine del periodo massimo di pausa di 14 giorni. Possono essere ripresi manualmente in qualsiasi momento. La ripresa di un percorso in pausa consente ai nuovi profili di accedere nuovamente. Se i profili erano in attesa durante la pausa, continueranno il loro percorso. Ideale per il riavvio sicuro dei percorsi dopo aggiornamenti o pause.
+I percorsi in pausa vengono ripresi automaticamente al termine del periodo massimo di pausa di 14 giorni. Possono essere ripresi manualmente in qualsiasi momento. La ripresa di un percorso in pausa consente ai nuovi profili di accedere nuovamente. Se alcuni profili erano in attesa durante la pausa, questi continueranno il proprio percorso. Ideale per un riavvio sicuro dei percorsi dopo aggiornamenti o pause.
 
 Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di percorso, effettuare le seguenti operazioni:
 
