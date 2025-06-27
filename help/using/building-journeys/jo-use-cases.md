@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
+source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="best practice per la ricerca di eventi esperienza" src="../assets/do-not-localize/icon-content.svg" /></a> 
+    <img alt="best practice per la ricerca di eventi esperienza" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
     <br>Scopri i pattern comuni e gli approcci scalabili per trarre il massimo da Experience Events in Adobe Journey Optimizer. Questi casi d’uso sono progettati per aiutarti a risolvere problemi frequenti come la gestione delle rinunce, il controllo della frequenza dei messaggi, la personalizzazione dei contenuti in base al comportamento degli utenti e la reazione ai segnali in tempo reale.
     </div>
       <div>
