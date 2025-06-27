@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="esempi di query" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="esempi di query" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br>Per creare i tuoi casi d'uso, devi eseguire una query sui set di dati di Adobe Journey Optimizer, ad esempio i set di dati di sistema per l'acquisizione degli eventi di esperienza di tracciamento, il set di dati per l'acquisizione degli eventi di passaggio in un percorso, il set di dati per l'acquisizione delle proposte di offerta agli utenti e altro ancora.
     </div>
       <div>
