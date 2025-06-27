@@ -7,9 +7,10 @@ feature: Journeys, Use Cases
 role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
-source-git-commit: 85b036ad8e06b10fc8c46b3ec03b7792491bd9b9
+exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
+source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 15%
 
 ---
@@ -72,7 +73,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
 <a href="ajo-ac.md">
 <img alt="Inviare un messaggio tramite Campaign" src="../assets/do-not-localize/start-interface.jpeg">
 </a>
-<div><a href="ajo-ac.md"><strong>Invia un messaggio tramite Campaign v7/v8</strong>
+<div><a href="ajo-ac.md"><strong>Invia con Campaign v7/v8</strong>
 </div>
 <p>
 </td>
@@ -81,7 +82,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
 <img alt="Inviare un messaggio agli abbonati" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
-<a href="message-to-subscribers-uc.md"><strong>Invia un messaggio ai sottoscrittori</strong></a>
+<a href="message-to-subscribers-uc.md"><strong>Invia ai tuoi abbonati</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -107,6 +108,3 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
 <p>
 </td>
 </tr></table>
-
-
-
