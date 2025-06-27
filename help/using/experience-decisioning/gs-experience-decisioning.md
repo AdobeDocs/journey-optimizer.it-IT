@@ -56,7 +56,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-+++
+   +++
 
 1. **Configurare gli attributi personalizzati**: personalizzare il catalogo degli elementi in base alle proprie esigenze impostando gli attributi personalizzati nello schema del catalogo.
 
