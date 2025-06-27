@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,6 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 * **Il numero di record** è limitato a 5 milioni nei set di dati di produzione e a 1 milione nei set di dati sandbox di sviluppo.
 * **L&#39;etichettatura e l&#39;applicazione dell&#39;utilizzo dati** non sono attualmente applicate per i set di dati abilitati per la ricerca.
 * **I set di dati abilitati per la ricerca e utilizzati nella personalizzazione non sono protetti dall&#39;eliminazione**. Spetta a te tenere traccia dei set di dati utilizzati per la personalizzazione per assicurarti che non vengano eliminati o rimossi.
-* **L&#39;etichettatura e l&#39;applicazione dell&#39;utilizzo dati** non sono attualmente applicate per i set di dati abilitati per la ricerca.
 
 ## Abilitare un set di dati per la ricerca di dati {#enable}
 
