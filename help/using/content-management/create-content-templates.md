@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 16%
+source-wordcount: '626'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ Esistono due modi per creare modelli di contenuto:
 
 * Quando progetti il contenuto all’interno di una campagna o di un percorso, salvalo come modello. [Scopri come](#save-as-template)
 
-Una volta salvato, il modello di contenuto è disponibile per l’utilizzo in una campagna o in un percorso. Indipendentemente dal fatto che sia stato creato da zero o da un contenuto precedente, è ora possibile utilizzare questo modello per creare qualsiasi contenuto in [!DNL Journey Optimizer]. [Scopri come](#use-content-templates)
+Una volta salvato, il modello di contenuto è disponibile per l’utilizzo in una campagna o in un percorso. Indipendentemente dal fatto che sia stato creato da zero o da contenuto precedente, è possibile utilizzare questo modello per creare qualsiasi contenuto in [!DNL Journey Optimizer]. [Scopri come](#use-content-templates)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Una volta salvato, il modello di contenuto è disponibile per l’utilizzo in un
 
 >[!NOTE]
 >
->A partire da marzo 2025, i modelli di contenuto di tipo HTML ora sono obsoleti. È comunque possibile utilizzare i modelli di contenuto HTML esistenti creati in precedenza in [!DNL Journey Optimizer].
+>A partire da marzo 2025, i modelli di contenuto di tipo HTML sono diventati obsoleti. È comunque possibile utilizzare i modelli di contenuto HTML esistenti creati in precedenza in [!DNL Journey Optimizer].
 
 Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
@@ -58,9 +58,9 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
 1. Seleziona o crea tag Adobe Experience Platform dal campo **[!UICONTROL Tag]** per categorizzare il modello ai fini di una ricerca migliorata. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
-1. Fai clic su **[!UICONTROL Crea]** e progetta il contenuto in base alle esigenze, come faresti per qualsiasi contenuto all&#39;interno di un percorso o di una campagna, in base al canale selezionato.
+1. Fai clic su **[!UICONTROL Crea]** e progetta il contenuto in base alle esigenze, nello stesso modo in cui crei qualsiasi contenuto all&#39;interno di un percorso o di una campagna, in base al canale selezionato.
 
    ![](assets/content-template-edition.png)
 
@@ -89,14 +89,9 @@ Questo modello è ora pronto per essere utilizzato quando si crea qualsiasi cont
 
 >[!NOTE]
 >
->Durante la creazione di un modello di contenuto e-mail, per applicare rapidamente uno stile specifico che si adatta al tuo marchio e design, puoi applicare un tema al contenuto. [Ulteriori informazioni](../email/apply-email-themes.md)
+>Quando crei un modello di contenuto e-mail, puoi applicare rapidamente uno stile specifico che si adatta al tuo marchio e design applicando un tema al contenuto. [Ulteriori informazioni](../email/apply-email-themes.md)
 
 ## Salvare il contenuto come modello di contenuto {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Scopri come effettuare la migrazione dei messaggi"
->abstract="Il 25 luglio 2022 il menu Messaggi è stato rimosso e i messaggi vengono ora creati direttamente da un percorso. Per riutilizzare i messaggi precedenti nei percorsi, devi salvarli come modelli."
 
 Durante la progettazione di qualsiasi contenuto in una campagna o in un percorso, puoi salvarlo per un riutilizzo futuro. Per farlo, segui la procedura indicata di seguito.
 
@@ -106,7 +101,7 @@ Durante la progettazione di qualsiasi contenuto in una campagna o in un percorso
 
    ![](assets/content-template-button-save.png)
 
-   Se ti trovi in [E-mail Designer](../email/get-started-email-design.md), puoi anche selezionare questa opzione dall&#39;elenco a discesa **[!UICONTROL Altro]** in alto a destra dello schermo.
+   Se ti trovi in [E-mail Designer](../email/get-started-email-design.md), puoi anche selezionare questa opzione dall&#39;elenco a discesa **[!UICONTROL Altro]** nell&#39;angolo in alto a destra dello schermo.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -120,7 +115,7 @@ Durante la progettazione di qualsiasi contenuto in una campagna o in un percorso
 
 1. Seleziona o crea un tag Adobe Experience Platform dal campo **Tag** per categorizzare il modello. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni](../administration/object-based-access.md).
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -130,4 +125,5 @@ Durante la progettazione di qualsiasi contenuto in una campagna o in un percorso
 
 >[!NOTE]
 >
->Qualsiasi modifica apportata a tale nuovo modello non viene propagata al contenuto da cui proviene. Analogamente, quando il contenuto originale viene modificato all’interno di tale contenuto, il nuovo modello non viene modificato.
+>Qualsiasi modifica apportata al nuovo modello non viene propagata al contenuto da cui proviene. Analogamente, quando si modifica il contenuto originale, il nuovo modello non viene modificato.
+

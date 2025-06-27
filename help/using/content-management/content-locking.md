@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 32%
+source-wordcount: '1276'
+ht-degree: 29%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Governance abilitata"
->abstract="Il blocco del contenuto è attivato e può impedire di apportare modifiche."
+>abstract="Il blocco dei contenuti è attivato e impedisce le modifiche."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Sola lettura"
->abstract="Questo contenuto è in sola lettura e non può essere modificato."
+>abstract="Questo contenuto è in modalità di sola lettura e non può essere modificato."
 
-Journey Optimizer consente di bloccare il contenuto nei modelli e-mail, bloccando l’intero modello o strutture e componenti specifici. Questo consente di evitare modifiche o eliminazioni non intenzionali, garantendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.
+Journey Optimizer consente di bloccare il contenuto nei modelli e-mail, bloccando l’intero modello o strutture e componenti specifici. In questo modo è possibile evitare modifiche o eliminazioni non intenzionali, offrendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.
 
 >[!IMPORTANT]
 >
->Il blocco dei contenuti è una funzione a livello di editor per gli autori e non garantisce che il contenuto non venga modificato quando viene importato o creato tramite API.
+>Il blocco dei contenuti è una funzione a livello di editor per gli autori e non garantisce che il contenuto rimanga invariato quando viene importato o creato tramite API.
 
-Il blocco del contenuto può essere applicato al livello **struttura** o al livello **componente**. Di seguito sono elencati i principali principi applicabili a livello di struttura e componente quando si blocca il contenuto nel modello.
+Il blocco del contenuto può essere applicato al livello **struttura** o al livello **componente**. Di seguito sono riportati i principi principali che si applicano a livello di struttura e componente quando si blocca il contenuto nel modello:
 
 * Quando una struttura è bloccata:
 
@@ -95,9 +95,9 @@ Puoi abilitare il blocco del contenuto per un modello e-mail direttamente in E-m
    * [Scopri come bloccare le strutture](#lock-structures)
    * [Scopri come bloccare i componenti](#lock-components)
 
-   Se hai scelto la modalità **[!UICONTROL Sola lettura]**, puoi procedere con la finalizzazione e il salvataggio del modello come di consueto.
+   Se hai scelto la modalità **[!UICONTROL Sola lettura]**, procedi come di consueto alla finalizzazione e al salvataggio del modello.
 
-Puoi modificare le impostazioni di **[!UICONTROL Governance]** in qualsiasi momento durante la progettazione del modello selezionando il corpo del modello. A questo scopo, fai clic sul collegamento **[!UICONTROL Corpo]** nella barra di navigazione in alto nel riquadro a destra.
+Puoi modificare le impostazioni di **[!UICONTROL Governance]** in qualsiasi momento durante la progettazione del modello selezionando il corpo del modello. A questo scopo, fai clic sul collegamento **[!UICONTROL Corpo]** nella barra di navigazione nella parte superiore del riquadro a destra.
 
 ![](assets/template-lock-body.png)
 
@@ -173,17 +173,16 @@ Quando si utilizza un modello con contenuto bloccato, nel riquadro di destra vie
 
 A seconda del tipo di blocco applicato al modello, è possibile eseguire azioni diverse sulle strutture e sui componenti del modello. Per identificare rapidamente tutte le aree modificabili nel modello, attiva l’opzione **[!UICONTROL Evidenzia aree modificabili]**.
 
-Ad esempio, nel modello seguente, tutte le aree sono modificabili, ad eccezione dell’immagine superiore che è stata bloccata, il che significa che non è possibile modificarla o rimuoverla.
+Ad esempio, nel modello seguente, tutte le aree sono modificabili ad eccezione dell’immagine superiore che è stata bloccata, il che significa che non è possibile modificarla o rimuoverla.
 
 ![](assets/template-lock-highlight.png)
 
-Per informazioni dettagliate sui diversi tipi di blocco che è possibile applicare, vedere le sezioni seguenti:
+Informazioni dettagliate sui diversi tipi di blocco che è possibile applicare sono disponibili nelle sezioni seguenti:
 
 * [Bloccare le strutture](#lock-structures)
 * [Bloccare i componenti](#lock-components)
 
-Di seguito sono riportati alcuni esempi di modifica delle e-mail e della configurazione associata di blocco del contenuto che è stata configurata:
-
+Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazioni di blocco del contenuto associate che sono state configurate:
 
 | Tipo di blocco del contenuto | Configurazione del modello | Edizione e-mail |
 | ------- | ------- | ------- |
@@ -193,8 +192,8 @@ Di seguito sono riportati alcuni esempi di modifica delle e-mail e della configu
 | Componente con stili bloccati che non può essere eliminato. Gli utenti possono solo modificare il contenuto. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Componente modificabile in una struttura bloccata. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
 Scopri come bloccare il contenuto nei modelli e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451615?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

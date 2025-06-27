@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL 
 
 ![](assets/content-template-list.png)
 
-Vengono visualizzati tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna tramite l&#39;opzione **[!UICONTROL Salva come modello]**, nel menu **[!UICONTROL Modelli di contenuto]**. [Scopri come creare i modelli](#create-content-templates)
+Vengono visualizzati tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna tramite l&#39;opzione **[!UICONTROL Salva come modello]** oppure dal menu **[!UICONTROL Modelli di contenuto]**. [Scopri come creare i modelli](#create-content-templates)
 
 Il riquadro a sinistra consente di organizzare i modelli di contenuto in cartelle. Per impostazione predefinita, vengono visualizzati tutti i modelli. Quando si seleziona una cartella, vengono visualizzati solo i modelli e le cartelle inclusi nella cartella selezionata. [Ulteriori informazioni](#folders)
 
@@ -31,22 +31,23 @@ Il riquadro a sinistra consente di organizzare i modelli di contenuto in cartell
 Per trovare un elemento specifico, inizia a digitare un nome nel campo di ricerca. Quando è selezionata una [cartella](#folders), la ricerca viene applicata a tutti i modelli di contenuto o a tutte le cartelle nel primo livello della gerarchia della cartella<!--(not nested items)-->.
 
 Puoi ordinare i modelli di contenuto in base a:
+
 * Tipo
 * Channel
 * Data di creazione o modifica
 * Tag - [Ulteriori informazioni sui tag](../start/search-filter-categorize.md#tags)
 
-Puoi anche scegliere di visualizzare solo gli elementi creati o modificati personalmente.
+È inoltre possibile scegliere di visualizzare solo gli elementi creati o modificati dall&#39;utente.
 
 ![](assets/content-template-list-filters.png)
 
 >[!NOTE]
 >
->A partire da marzo 2025, i modelli di contenuto di tipo HTML ora sono obsoleti. È comunque possibile accedere ai modelli di contenuto HTML esistenti creati in precedenza in [!DNL Journey Optimizer].
+>A partire da marzo 2025, i modelli di contenuto di tipo HTML sono diventati obsoleti. È comunque possibile accedere ai modelli di contenuto HTML esistenti creati in precedenza in [!DNL Journey Optimizer].
 
 ## Utilizzare le cartelle per gestire i modelli di contenuto {#folders}
 
-Per navigare facilmente nei modelli di contenuto, puoi utilizzare le cartelle per organizzarle in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.
+Per navigare facilmente nei modelli di contenuto, utilizza le cartelle per organizzarli in modo più efficace in una gerarchia strutturata. Questo consente di categorizzare e gestire gli articoli in base alle esigenze dell&#39;organizzazione.
 
 ![](assets/content-template-folders.png)
 
@@ -74,7 +75,7 @@ Per navigare facilmente nei modelli di contenuto, puoi utilizzare le cartelle pe
 
    ![](assets/content-template-folder-moved.png)
 
-1. Ora puoi passare alla cartella appena creata. Ogni nuovo modello di contenuto [creato](create-content-templates.md) da qui viene salvato nella cartella corrente.
+1. Passa alla cartella appena creata. Ogni nuovo modello di contenuto [creato](create-content-templates.md) da qui viene salvato nella cartella corrente.
 
    ![](assets/content-template-folder-create.png)
 
@@ -104,12 +105,13 @@ Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizza
 
 >[!NOTE]
 >
->Al momento le miniature corrette possono essere generate solo per modelli di contenuto e-mail di tipo HTML.
+>Le miniature corrette possono essere generate solo per modelli di contenuto e-mail di tipo HTML.
 
-Quando aggiorni un contenuto, potresti dover attendere alcuni secondi prima che le modifiche vengano riportate nella miniatura.
+Quando aggiorni il contenuto, attendi alcuni secondi prima che le modifiche vengano riportate nella miniatura.
 
 ## Esportare modelli di contenuto in un’altra sandbox {#export}
 
 Journey Optimizer consente di copiare un modello di contenuto da una sandbox a un’altra. Ad esempio, puoi copiare un modello dall’ambiente sandbox di Stage alla sandbox di produzione.
 
 Il processo di copia viene eseguito tramite un **pacchetto di esportazione e importazione** tra le sandbox di origine e di destinazione. Informazioni dettagliate su come esportare oggetti e importarli in una sandbox di destinazione sono disponibili in questa sezione: [Copia oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md)
+

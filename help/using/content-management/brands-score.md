@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 25%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >Questa funzionalità è rilasciata come versione Beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
->&#x200B;>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-La funzione di Allineamento dei marchi è stata creata per aiutarti a creare, rivedere e gestire contenuti che rimangono conformi alle linee guida del tuo marchio. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
+La funzione di Allineamento dei marchi consente di creare, rivedere e gestire contenuti conformi alle linee guida del brand. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
 
 ## Convalidare i contenuti con l’allineamento del brand {#validate-content}
 
@@ -50,7 +50,7 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
 1. Apri il menu **[!UICONTROL Allineamento marchio]** nel Designer e-mail.
 
-   Il contenuto verrà automaticamente valutato in base al marchio predefinito. [Scopri come assegnare un marchio predefinito](brands.md).
+   Il contenuto viene valutato automaticamente in base al marchio predefinito. [Scopri come assegnare un marchio predefinito](brands.md).
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
 1. Sfoglia il **Punteggio di allineamento del marchio** (Alto, Medium, Basso) e rivedi il feedback dettagliato.
 
-1. Fai clic sull&#39;icona ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_FullScreen_18_N.svg "Schermo intero") per visualizzare ulteriori informazioni sul punteggio.
+1. Fai clic sull&#39;icona ![Schermo intero per approfondimenti dettagliati](assets/do-not-localize/Smock_FullScreen_18_N.svg "Schermo intero") per visualizzare ulteriori informazioni sul punteggio.
 
    ![](assets/brand-score-3.png)
 
