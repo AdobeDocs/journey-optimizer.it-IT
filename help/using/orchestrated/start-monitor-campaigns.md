@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 17%
+source-wordcount: '670'
+ht-degree: 18%
 
 ---
 
@@ -74,13 +74,6 @@ Il flusso visivo si riavvia e i profili reali iniziano a scorrere nel percorso i
 Durante l’esecuzione (in modalità di test o live), il flusso visivo mostra come i profili si spostano nel percorso in tempo reale. Viene visualizzato il numero di profili che passano da un’attività all’altra.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. Seleziona una transizione.
-1. Nel pannello di destra:
-&#x200B;- Fare clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
-&#x200B;- Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati.
-
-![](assets/transition.png){zoomable="yes"}
 
 I dati trasportati da un’attività all’altra tramite transizioni vengono memorizzati in una tabella di lavoro temporanea. Questi dati possono essere visualizzati per ogni transizione. Per verificare i dati passati tra le attività:
 
