@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Il nostro framework decisionale di nuova generazione, progettato per unificare i
 * Configurazione criterio di decisione e strategia di selezione aggiornate: consenti la riutilizzabilità dei componenti di decisione
 * Funzionalità di sperimentazione: verifica della logica decisionale rispetto ad altri componenti di contenuto per misurare le prestazioni
 
-Experience Decisioning è supportato nel canale di esperienza basato su codice.
+Decisioning è attualmente supportato nel canale di esperienza basato su codice.
 
 ➡️ [Introduzione a Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 

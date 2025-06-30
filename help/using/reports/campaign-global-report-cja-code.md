@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 2%
+source-wordcount: '869'
+ht-degree: 1%
 
 ---
 
@@ -139,7 +139,7 @@ La tabella **[!UICONTROL Prestazioni degli elementi decisionali]** valuta le pre
 
 >[!NOTE]
 >
->La tabella **[!UICONTROL Strategia di classificazione]** diventa disponibile solo quando un modello di IA è incorporato nella campagna. [Ulteriori informazioni](../experience-decisioning/ranking.md)
+>La tabella **[!UICONTROL Strategia di classificazione]** diventa disponibile solo quando un [modello AI](../experience-decisioning/ranking/ai-models.md) è incorporato nella campagna. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ Le metriche chiave visualizzate includono:
 
 >[!NOTE]
 >
->Il grafico **[!UICONTROL Tasso di conversione per il traffico di attesa e basato su modello]** diventa disponibile solo quando un modello di intelligenza artificiale è incorporato nella campagna. [Ulteriori informazioni](../experience-decisioning/ranking.md)
+>Il grafico **[!UICONTROL Tasso di conversione per blocco e traffico basato su modello]** diventa disponibile solo quando un [modello di IA](../experience-decisioning/ranking/ai-models.md) è incorporato nella campagna. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -173,4 +173,4 @@ Il grafico **[!UICONTROL Tasso di conversione per il traffico di attesa e basato
 
 >[!CAUTION]
 >
->Quando si utilizza un modello di IA incorporato in una [formula di classificazione](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), i dati non vengono rispecchiati nel report del tasso di conversione.
+>Quando si utilizza un modello di IA incorporato in una [formula di classificazione](../experience-decisioning/ranking/ranking-formulas.md), i dati non vengono rispecchiati nel report del tasso di conversione.

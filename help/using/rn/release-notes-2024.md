@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Funzione decisioni**
 
-* Gli utenti di [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) possono ora scegliere modelli personalizzati per l’ottimizzazione durante la configurazione di un modello di intelligenza artificiale nella funzione Decisioni (precedentemente nota come Decisioni per le esperienze). Questo consente, ad esempio, di ottimizzare una tabella “acquisti” personalizzata, anziché i vincoli definiti come il tasso di click-through. [Ulteriori informazioni](../experience-decisioning/ranking.md)
+* Gli utenti di [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it) possono ora scegliere modelli personalizzati per l’ottimizzazione durante la configurazione di un modello di intelligenza artificiale nella funzione Decisioni (precedentemente nota come Decisioni per le esperienze). Questo consente, ad esempio, di ottimizzare una tabella “acquisti” personalizzata, anziché i vincoli definiti come il tasso di click-through. [Ulteriori informazioni](../experience-decisioning/ranking/ranking.md)
 
 * Quando viene aggiunto un criterio di decisione a una campagna basata su codice con la funzione Decisioni, ora è possibile selezionare manualmente singoli elementi di decisione, oltre a strategie di selezione. Inoltre, ora è possibile selezionare più di un’offerta di fallback. Ciò garantisce che venga restituito un certo numero di elementi decisionali. [Ulteriori informazioni](../experience-decisioning/create-decision.md)
 

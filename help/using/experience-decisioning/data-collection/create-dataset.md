@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -52,9 +53,9 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
 >[!NOTE]
 >
->Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#understanding-schemas){target="_blank"}.
+>Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
-ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
+Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 
 1. Dal menu **[!UICONTROL Gestione dati]**, seleziona **[!UICONTROL Set di dati]** e passa alla scheda **[!UICONTROL Sfoglia]**.
 
@@ -70,4 +71,4 @@ ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la pr
 
 >[!NOTE]
 >
->È ora possibile selezionare questo set di dati per raccogliere i dati evento durante la creazione di un modello di IA<!--add link to Creat AI models section-->.
+>È ora possibile selezionare questo set di dati per raccogliere i dati evento durante la creazione di un [modello di IA](../ranking/create-ai-models.md).

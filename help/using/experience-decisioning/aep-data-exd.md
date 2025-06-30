@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# Utilizzare i dati di Adobe Experience Platform per prendere decisioni {#aep-data}
+# Utilizzare i dati di Adobe Experience Platform per il processo decisionale {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -33,7 +33,7 @@ ht-degree: 2%
 >
 >Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica. Se desideri accedervi, contatta il rappresentante del tuo account.
 
-[!DNL Journey Optimizer] ti consente di sfruttare i dati di [!DNL Adobe Experience Platform] per prendere decisioni. Questo ti consente di estendere la definizione degli attributi decisionali ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.
+[!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] per Decisioning. Questo ti consente di estendere la definizione degli attributi decisionali ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.
 
 ## Restrizioni e linee guida di Beta {#guidelines}
 
@@ -48,13 +48,13 @@ Prima di iniziare, prendi nota delle seguenti restrizioni e linee guida:
 
 Per utilizzare i dati di un set di dati [!DNL Adobe Experience Platform] per le decisioni, è necessario innanzitutto abilitarli per la ricerca tramite una chiamata API. Per istruzioni dettagliate, consulta questa sezione: [Sfruttare i set di dati di Adobe Experience Platform in Journey Optimizer](../data/lookup-aep-data.md).
 
-## Utilizzare i dati di Adobe Experience Platform per prendere decisioni
+## Sfruttare i dati Adobe Experience Platform {#leverage-aep-data}
 
 Una volta abilitato un set di dati per la ricerca, puoi utilizzarne gli attributi per arricchire la logica decisionale con dati esterni. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale.
 
 Gli attributi dei set di dati di Adobe Experience Platform possono essere utilizzati in due parti della logica decisionale:
 
-* **Regole di decisione**: definisci se un elemento di decisione è idoneo per la visualizzazione.
+* **Regole di decisione**: definire se un elemento di decisione è idoneo per la visualizzazione.
 * **Classificazione delle formule**: assegnazione di priorità agli elementi decisionali in base a dati esterni.
 
 Nelle sezioni successive viene illustrato come utilizzare i dati di Adobe Experience Platform in entrambi i contesti.
@@ -86,7 +86,7 @@ Per utilizzare i dati di Adobe Experience Platform nelle regole di decisione, ef
 
    ![](assets/exd-lookup-menu.png)
 
-### Formule di classificazione
+### Formule di classificazione {#ranking-formulas}
 
 Le formule di classificazione definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale.
 
@@ -107,6 +107,6 @@ Per utilizzare i dati di Adobe Experience Platform nelle formule di classificazi
    >
    >Puoi creare fino a 3 mappature per formula di classificazione.
 
-1. Utilizza i campi del set di dati per creare la formula di classificazione come di consueto. [Scopri come creare una formula di classificazione](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. Utilizza i campi del set di dati per creare la formula di classificazione come di consueto. [Scopri come creare una formula di classificazione](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
