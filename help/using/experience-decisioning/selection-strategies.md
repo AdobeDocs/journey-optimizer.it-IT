@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b44eba66fd88f56b999937e7638bd6c5526fec43
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 20%
@@ -26,7 +26,7 @@ ht-degree: 20%
 >title="Limitare i profili idonei"
 >abstract="Puoi limitare la selezione delle offerte per questa strategia di selezione. Per impostazione predefinita, tutti i profili sono idonei, ma puoi utilizzare tipi di pubblico o regole per limitare la selezione dell’offerta solo a profili specifici."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Utilizzare i tipi di pubblico"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Utilizzare le regole di decisione"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Utilizzare le regole di decisione"
 
 Una strategia di selezione è riutilizzabile ed è costituita da una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un [criterio di decisione](create-decision.md).
 
