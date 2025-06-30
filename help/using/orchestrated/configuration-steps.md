@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 3%
@@ -37,6 +37,8 @@ Documentazione in corso
 Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per campagne orchestrate, acquisire dati tramite un’origine S3 ed eseguire query sui dati acquisiti nella piattaforma AP.
 
 In questo esempio, la configurazione include l&#39;integrazione di due entità chiave, **Transazioni fedeltà** e **Premi fedeltà**, e collegarle alle entità di base esistenti **Destinatari** e **Marchi**.
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [Carica file DDL](#upload-ddl)
 
@@ -179,7 +181,7 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
    * Con un nuovo account
 
-   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
