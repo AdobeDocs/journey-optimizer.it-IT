@@ -337,7 +337,7 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
 >title="Posizionamento"
->abstract="Un posizionamento determina dove vengono visualizzati in un messaggio gli elementi restituiti dal motore decisionale. Puoi tenere traccia delle relativa prestazioni in diversi posizionamenti nel reporting."
+>abstract="Un posizionamento determina dove vengono visualizzati in un messaggio gli elementi restituiti dal motore decisionale. Puoi tenere traccia delle relative prestazioni in diversi posizionamenti nel reporting."
 
 
 >[!CONTEXTUALHELP]
