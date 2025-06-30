@@ -21,7 +21,7 @@ Prima di creare un’offerta, assicurati di aver creato:
 * Se desideri aggiungere una condizione di idoneità: una **regola di decisione** che definirà la condizione in cui verrà presentata l&#39;offerta. Consulta [Creare regole di decisione](../offer-library/creating-decision-rules.md).
 * Uno o più **qualificatori di raccolta** (noti in precedenza come &quot;tag&quot;) da associare all&#39;offerta. Vedi [Creare qualificatori di raccolta](../offer-library/creating-tags.md).
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL Offerte]**.
 
@@ -32,7 +32,7 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Dettagli dell’offerta"
->abstract="Inserisci il nome dell’offerta e le date di inizio e fine. Al di fuori di questo intervallo di date, l’offerta non verrà selezionata dal motore della funzione Decisioni."
+>abstract="Inserisci il nome dell’offerta e le date di inizio e di fine. Al di fuori di questo intervallo di date, l’offerta non verrà selezionata dal motore della funzione Decisioni."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -171,4 +171,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
