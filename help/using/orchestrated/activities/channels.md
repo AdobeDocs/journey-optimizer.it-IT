@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
+source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 22%
 
 ---
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 Per impostare una consegna nel contesto di una campagna orchestrata, segui i passaggi seguenti:
 
-1. Aggiungi un&#39;attività del canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
+1. Aggiungi un’attività di canale. I canali supportati sono **[!UICONTROL Email]**, **[!UICONTROL SMS]** o **[!UICONTROL Notifica push]**
 
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
