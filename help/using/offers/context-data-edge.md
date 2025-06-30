@@ -146,7 +146,7 @@ Di seguito è riportato un esempio di richiesta che trasmette dati contestuali.
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {
