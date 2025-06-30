@@ -1,19 +1,24 @@
 ---
 title: Introduzione alla gestione delle decisioni
 description: Scopri in che modo Adobe Journey Optimizer può aiutarti a inviare ai tuoi clienti l’offerta giusta al momento giusto
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '911'
+ht-degree: 93%
 
 ---
 
 # Introduzione alla gestione delle decisioni {#about-decision-management}
+
+>[!TIP]
+>
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite il canale di esperienza basato su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate.
 
@@ -32,11 +37,11 @@ I vantaggi includono:
 * Flussi di lavoro migliorati: anziché creare più consegne o campagne, i team di marketing possono ottimizzare i flussi di lavoro creando un’unica consegna e variare le offerte in parti differenti del modello.
 * Potrai controllare il numero di volte in cui un’offerta viene visualizzata nelle varie campagne e dai diversi clienti.
 
-➡️ [Ulteriori informazioni sulla Gestione delle decisioni sono disponibili in questi video](#video)
+➡️ [Ulteriori informazioni sulla gestione delle decisioni in questi video](#video)
 
 >[!NOTE]
 >
->Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} che utilizzano l’applicazione **Offer Decisioning**.
+>Se sei un utente di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} che sfrutta l&#39;applicazione **Offer Decisioning**, tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche a te.
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
@@ -68,7 +73,7 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 ## Concedere l’accesso alla gestione delle decisioni {#granting-acess-to-decision-management}
 
-Le autorizzazioni per accedere e utilizzare le funzionalità di decisioning vengono gestite mediante [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target="_blank"}.
+Le autorizzazioni per accedere e utilizzare le funzionalità di decisioning vengono gestite utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target="_blank"}.
 
 Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Profilo di prodotto]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Ulteriori informazioni sulla gestione di utenti e autorizzazioni [!DNL Journey Optimizer] sono disponibili in [questa sezione](../../administration/permissions.md).
 
@@ -97,7 +102,7 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 * **Libreria di offerte**: la libreria di offerte è una libreria centrale utilizzata per gestire offerte personalizzate e di fallback, regole di decisione e decisioni.
 
-* **Offerte personalizzate**: un’offerta personalizzata è un messaggio personalizzabile basato su regole e vincoli di idoneità.
+* **Offerte personalizzate**: un’offerta personalizzata è un messaggio personalizzabile basato su vincoli e regole di idoneità.
 
 * **Posizionamenti**: per posizionamento si intende la posizione e/o il contesto in cui un’offerta viene visualizzata da un utente finale.
 
@@ -111,12 +116,12 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 Il video seguente fornisce un’introduzione alle funzionalità chiave di gestione delle decisioni, alla sua architettura e ai casi d’uso:
 
->[!VIDEO](https://video.tv.adobe.com/v/340415?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definire e gestire le offerte {#use-offer-decisioning}
 
 Il video seguente mostra come utilizzare la funzione di gestione delle decisioni per definire e gestire le offerte e sfruttare i dati sui clienti in tempo reale.
 
->[!VIDEO](https://video.tv.adobe.com/v/340352?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

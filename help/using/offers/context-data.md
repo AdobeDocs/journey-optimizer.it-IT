@@ -3,16 +3,17 @@ product: experience platform
 solution: Experience Platform
 title: Introduzione ai dati contestuali
 description: Scopri come sfruttare i dati contestuali nella gestione delle decisioni.
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 4%
 
 ---
-
 
 # Introduzione ai dati contestuali {#context-data}
 
@@ -29,4 +30,3 @@ Informazioni dettagliate su come utilizzare i dati contestuali in ogni API, cons
 
 * [Utilizzare i dati contestuali nelle richieste di Edge Decisioning](context-data-edge.md)
 * [Utilizzare i dati contestuali nelle richieste Decisioning](context-data-decisioning.md)
-

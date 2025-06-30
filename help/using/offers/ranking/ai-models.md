@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: Introduzione ai modelli AI
 description: Scopri i modelli di intelligenza artificiale che consentono di classificare le offerte
+badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 9d84c3d85440fba42918ab98d836f9124b397dad
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '372'
 ht-degree: 14%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 14%
 
 Questa funzione ti consente di creare **modelli di IA** diversi in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrato ti aiuterà a capire in che modo i diversi modelli di intelligenza artificiale influiscono sui tuoi obiettivi.
 
-Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutterà più punti dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di una formula di classificazione [&#128279;](create-ranking-formulas.md).
+Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutterà più punti dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di una formula di classificazione [](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >

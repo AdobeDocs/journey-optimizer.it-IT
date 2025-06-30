@@ -1,18 +1,19 @@
 ---
-title: Sfruttare i tipi di pubblico di caricamento personalizzati per il processo decisionale
+title: Sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni
 description: Scopri come sfruttare i tipi di pubblico di caricamento personalizzati per prendere decisioni.
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 2%
 
 ---
 
-
-# Sfruttare i tipi di pubblico di caricamento personalizzati per il processo decisionale {#custom-upload-decisioning}
+# Sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni {#custom-upload-decisioning}
 
 Con Journey Optimizer puoi sfruttare i dati dei tipi di pubblico creati utilizzando il caricamento personalizzato (file CSV) in Adobe Experience Platform per supportare i flussi di lavoro di gestione delle decisioni. Ciò è particolarmente utile quando i dati non sono necessari sul profilo, ma sono ancora essenziali a fini decisionali.
 
@@ -23,14 +24,13 @@ I dati dei tipi di pubblico di caricamento personalizzati possono essere utilizz
 
 Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, consulta le sezioni:
 * [Guida introduttiva a Audiences e Journey Optimizer](../audience/about-audiences.md)
-* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Da leggere {#must-read}
 
 * Questa funzionalità è supportata solo in **Gestione delle decisioni**, non in Decisioning (precedentemente noto come &quot;Experience Decisioning&quot;).
 * È disponibile esclusivamente tramite le richieste **Decisioning API (Hub)** e non è supportato da **Edge Decisioning API** o **batch decisioning**.
  
-
 ## Utilizzare un pubblico di caricamento personalizzato come criterio di idoneità {#eligibilty}
 
 Puoi utilizzare un pubblico di caricamento personalizzato come criterio di idoneità a livello di offerta o decisione. Una volta aggiunti, questi criteri possono escludere offerte o raccolte di offerte dall’idoneità. Di seguito sono elencate le varie posizioni in cui puoi sfruttare i tipi di pubblico di caricamento personalizzati per perfezionare le offerte e l’idoneità alle decisioni:

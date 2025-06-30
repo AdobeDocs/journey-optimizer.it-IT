@@ -1,14 +1,15 @@
 ---
 title: Creare le offerte personalizzate
 description: Scopri come creare, configurare e gestire le offerte
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '830'
 ht-degree: 18%
 
 ---
@@ -171,4 +172,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

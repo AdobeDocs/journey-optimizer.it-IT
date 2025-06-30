@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: Dati contestuali e richieste Edge Decisioning
 description: Scopri come trasmettere i dati contestuali nelle richieste di Edge Decisioning.
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -50,11 +51,11 @@ Invece di passare il contesto in un formato piuttosto libero utilizzando l’API
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Scopri come utilizzare gli schemi nella guida di Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}
+   Scopri come utilizzare gli schemi nella guida di Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crea un set di dati (qui &quot;Contesto dell’offerta&quot;) e assicurati che sia abilitato per il profilo.
 
-1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [guida sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"} di Adobe Experience Platform
+1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [guida sugli stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} di Adobe Experience Platform
 
    In questo caso, abbiamo creato un flusso di dati &quot;Contesto offerta&quot;, con lo schema evento &quot;Contenuto offerta&quot; selezionato.
 
@@ -145,7 +146,7 @@ Di seguito è riportato un esempio di richiesta che trasmette dati contestuali.
 
   ![](assets/context-edge-copy-scope.png)
 
-  +++
++++
 
 ```
 {

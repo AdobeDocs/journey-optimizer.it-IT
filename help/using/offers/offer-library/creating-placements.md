@@ -1,12 +1,13 @@
 ---
 title: Creare i posizionamenti
 description: Scopri come creare posizionamenti per le offerte
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 31%
@@ -32,9 +33,9 @@ ht-degree: 31%
 
 Il posizionamento garantisce che il contenuto dell’offerta corretta venga visualizzato nella posizione corretta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
-➡️ [Scopri come creare i posizionamenti in questo video](#video)
+➡️ [Scopri come creare posizionamenti in questo video](#video)
 
-Nell’esempio seguente, sono presenti tre posizioni, corrispondenti a diversi tipi di contenuto (immagine, testo, HTML).
+Nell’esempio seguente, sono presenti tre posizionamenti, corrispondenti a diversi tipi di contenuto (immagine, testo, HTML).
 
 ![](../assets/offers_placement_schema.png)
 
@@ -52,7 +53,7 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
    * **[!UICONTROL Nome]**: nome del posizionamento. Assicurati di definire un nome significativo per recuperarlo più facilmente.
    * **[!UICONTROL Tipo di canale]**: il canale per il quale verrà utilizzato il posizionamento.
-   * **[!UICONTROL Tipo di contenuto]**: tipo di contenuto che il posizionamento potrà visualizzare: Testo, HTML, Collegamento immagine o JSON.
+   * **[!UICONTROL Tipo di contenuto]**: il tipo di contenuto che il posizionamento potrà visualizzare: Testo, HTML, Collegamento immagine o JSON.
    * **[!UICONTROL Descrizione]**: descrizione del posizionamento (facoltativo).
 
    ![](../assets/offers_placement_creation_properties.png)
@@ -67,11 +68,11 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
    * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere tutti i metadati o solo i campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su vero.
 
-   Questi parametri possono anche essere impostati direttamente nella richiesta API se si utilizza l&#39;[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=it). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
+   Questi parametri possono anche essere impostati direttamente nella richiesta API se si utilizza l&#39;[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
 
    >[!NOTE]
    >
-   >Se si utilizza l&#39;[API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=it&), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata.
+   >Se si utilizza l&#39;[API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata.
    >
    >Se si utilizza l&#39;[API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), è possibile impostare questi parametri in questa schermata o nella richiesta API. In caso di mancata corrispondenza dei valori dei parametri tra la schermata e la richiesta APi, verranno utilizzati i valori della richiesta.
 
@@ -81,9 +82,9 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
    ![](../assets/placement_created.png)
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Scopri come creare posizionamenti nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/341386?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

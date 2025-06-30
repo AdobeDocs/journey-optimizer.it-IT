@@ -3,16 +3,17 @@ product: experience platform
 solution: Experience Platform
 title: Richieste di dati contestuali e decisioning
 description: Scopri come trasmettere i dati contestuali nelle richieste Decisioning.
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # Richieste di dati contestuali e decisioning {#context-data-decisioning}
 

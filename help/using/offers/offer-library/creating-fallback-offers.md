@@ -1,12 +1,13 @@
 ---
 title: Creare le offerte di fallback
 description: Scopri come creare offerte di fallback da visualizzare per i clienti che non sono idonei per nessuna offerta
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -55,7 +56,7 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
    ![](../assets/fallback_created.png)
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341355?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

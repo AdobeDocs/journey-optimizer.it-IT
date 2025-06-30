@@ -1,14 +1,15 @@
 ---
 title: Set di dati di offerte personalizzate
 description: Questa sezione elenca tutti i campi utilizzati nel set di dati esportato per le offerte
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -122,7 +123,6 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
-
      **Campo:** lingua
      **Titolo:** Lingua
      **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.

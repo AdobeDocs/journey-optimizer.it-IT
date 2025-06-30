@@ -1,15 +1,16 @@
 ---
 title: Creare regole di decisione
 description: Scopri come creare regole di decisione per definire a chi visualizzare le offerte
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -69,8 +70,8 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341371?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

@@ -1,14 +1,15 @@
 ---
 title: Aggiungere vincoli a un’offerta
 description: Scopri come definire le condizioni per la visualizzazione di un’offerta
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 15%
 
 ---
@@ -75,7 +76,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >title="Informazioni sull’idoneità alle offerte"
 >abstract="In questa sezione puoi utilizzare le regole di decisione per determinare quali utenti sono idonei all’offerta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341371?captions=ita" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +105,7 @@ La sezione **[!UICONTROL Idoneità all&#39;offerta]** ti consente di limitare l&
 
   >[!CAUTION]
   >
-  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 

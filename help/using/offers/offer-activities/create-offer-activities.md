@@ -1,14 +1,15 @@
 ---
 title: Creare decisioni
 description: Scopri come creare decisioni
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2511'
 ht-degree: 8%
 
 ---
@@ -400,6 +401,6 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

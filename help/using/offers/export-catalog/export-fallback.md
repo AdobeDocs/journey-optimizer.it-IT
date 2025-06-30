@@ -1,14 +1,15 @@
 ---
 title: Set di dati delle offerte di fallback
 description: Questa sezione elenca tutti i campi utilizzati nel set di dati esportato per le offerte di fallback
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -94,7 +95,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
      **Campo:** formato
      **Titolo:** Formato
-     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet](https://www.iana.org/) che definiscono i formati dei supporti per computer).
+     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet]&#x200B;(https://www.iana.org/) che definiscono i formati dei supporti per computer).
      **Tipo:** stringa
      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 

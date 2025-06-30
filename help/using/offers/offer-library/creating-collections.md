@@ -1,14 +1,15 @@
 ---
 title: Creare le raccolte
 description: Scopri come organizzare le offerte utilizzando le raccolte
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Collections
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 31%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 31%
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una raccolta &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 L&#39;elenco delle raccolte di offerte è accessibile nel menu **[!UICONTROL Offerte]**.
 
@@ -88,6 +89,6 @@ Per creare una raccolta, effettua le seguenti operazioni:
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346688?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

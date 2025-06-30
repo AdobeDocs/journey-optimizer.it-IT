@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Modello di ottimizzazione personalizzata
 description: Ulteriori informazioni sui modelli di ottimizzazione personalizzati
+badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Sfruttando le tecnologie all’avanguardia nell’apprendimento automatico supervisionato e nell’apprendimento profondo, l’ottimizzazione personalizzata consente a un utente aziendale (addetto al marketing) di definire gli obiettivi aziendali e utilizza i dati dei suoi clienti per addestrare modelli orientati al business che offrano offerte personalizzate e massimizzino i KPI.
+Sfruttando le tecnologie all’avanguardia di machine learning supervisionato e di deep learning, l’ottimizzazione personalizzata consente a un utente aziendale (marketer) di definire gli obiettivi aziendali e utilizza i dati della clientela per addestrare modelli orientati al business per offerte personalizzate e ottimizzazione dei KPI.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
