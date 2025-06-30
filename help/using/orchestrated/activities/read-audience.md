@@ -6,10 +6,10 @@ description: Scopri come utilizzare l’attività Read audience in una campagna 
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 11%
+source-wordcount: '164'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_read_audience"
 >title="Attività Crea pubblico"
->abstract="L&#39;attività **Read audience** ti consente di selezionare un pubblico esistente che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma in un&#39;attività **Read audience** o **Build audience**."
+>abstract="L&#39;attività **Read audience** ti consente di selezionare il pubblico che entrerà nella campagna orchestrata. Questo pubblico può essere un pubblico di Adobe Experience Platform esistente o un pubblico estratto da un file CSV. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma in un&#39;attività **Read audience** o **Build audience**."
 
 
 +++ Sommario
