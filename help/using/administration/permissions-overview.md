@@ -12,7 +12,7 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -45,7 +45,7 @@ Con [!DNL Journey Optimizer] puoi scegliere tra una serie di **[!UICONTROL Ruoli
 
 * **[!UICONTROL Sandbox]**: le sandbox virtuali suddividono le istanze in ambienti virtuali separati e isolati. Le sandbox vengono assegnate tramite i ruoli in Autorizzazioni. Ulteriori informazioni sull&#39;utilizzo di [sandbox](sandboxes.md).
 
-* **Controllo dell&#39;accesso basato su oggetti**: etichette per limitare l&#39;accesso a un oggetto. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un&#39;ulteriore protezione dei dati personali. Ulteriori informazioni sulla [Gestione degli accessi basata su oggetti](object-based-access.md).
+* **Controllo dell&#39;accesso basato su oggetti**: etichette per limitare l&#39;accesso a un oggetto. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un’ulteriore protezione dei dati personali. Ulteriori informazioni sulla [Gestione degli accessi basata su oggetti](object-based-access.md).
 
 * **Controllo dell&#39;accesso basato su attributi**: autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici. Il controllo dell&#39;accesso basato su attributi consente agli amministratori di controllare l&#39;accesso a oggetti e/o funzionalità specifiche in base agli attributi. Gli attributi possono essere metadati aggiunti a un oggetto, ad esempio un’etichetta aggiunta a un campo o a un segmento dello schema. Un amministratore definisce i criteri di accesso che includono attributi per gestire le autorizzazioni di accesso degli utenti. Ulteriori informazioni sulla [Gestione degli accessi basata su attributi](attribute-based-access.md).
 
