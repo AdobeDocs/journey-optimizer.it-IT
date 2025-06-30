@@ -77,8 +77,8 @@ Durante l’esecuzione (in modalità di test o live), il flusso visivo mostra co
 
 1. Seleziona una transizione.
 1. Nel pannello di destra:
-- Fare clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
-- Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati.
+&#x200B;- Fare clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
+&#x200B;- Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati.
 
 ![](assets/transition.png){zoomable="yes"}
 
