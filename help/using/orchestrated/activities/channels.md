@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 47%
+source-wordcount: '899'
+ht-degree: 22%
 
 ---
 
@@ -47,27 +47,39 @@ Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Attività e-mail"
->abstract="L’attività E-mail ti consente di inviare e-mail all’interno della campagna multifase, sia per i messaggi singoli che ricorrenti. Consente di automatizzare il processo di invio di e-mail a una destinazione calcolata all’interno della stessa campagna multifase. È possibile combinare le attività del canale nell’area di lavoro di una campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
+>abstract="L’attività E-mail ti consente di inviare e-mail all’interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Serve ad automatizzare il processo di invio di e-mail a una destinazione calcolata all’interno della stessa campagna orchestrata. È possibile combinare le attività del canale nell’area di lavoro di una campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Attività SMS"
->abstract="L’attività SMS consente l’invio di SMS all’interno della campagna multifase, sia per i messaggi singoli che ricorrenti. Consente di automatizzare il processo di invio di SMS a una destinazione calcolata all’interno della stessa campagna multifase. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
+>abstract="L’attività SMS ti consente di inviare SMS all’interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Serve per automatizzare il processo di invio di SMS a una destinazione calcolata all’interno della stessa campagna orchestrata. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="Attività push"
+>abstract="L’attività push ti consente di inviare notifiche push come parte della campagna orchestrata. Consente la consegna di campagne orchestrate sia una tantum che ricorrenti, automatizzando l’invio di notifiche push a un target predefinito all’interno della stessa campagna orchestrata. Puoi combinare le attività dei canali nell’area di lavoro della campagna per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="Attività push iOS"
->abstract="L’attività push iOS ti consente di inviare notifiche push di iOS come parte della campagna multifase. Consente la consegna di campagne multifase, sia singole che ricorrenti, automatizzando l’invio di notifiche push iOS a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento e ai dati della clientela."
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="Attività push Android"
->abstract="L’attività push Android ti consente di inviare notifiche push di Android come parte della campagna multifase. Consente la consegna di messaggi sia singoli che ricorrenti, automatizzando l’invio di notifiche push Android a una destinazione predefinita all’interno della stessa campagna multifase. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Attività direct mail"
->abstract="L’attività direct mail facilita l’invio con direct mail all’interno della campagna multifase, sia per messaggi singoli che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
+>abstract="L’attività Direct mail facilita l’invio di direct mailing all’interno della campagna orchestrata, sia per messaggi una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. Puoi combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
 
 Per impostare una consegna nel contesto di una campagna orchestrata, segui i passaggi seguenti:
 
@@ -86,7 +98,7 @@ Per impostare una consegna nel contesto di una campagna orchestrata, segui i pas
 
 1. Fai clic su **[!UICONTROL Crea consegna]**. Puoi quindi definire le impostazioni dei messaggi e il contenuto nello stesso modo in cui crei una consegna autonoma. Puoi anche testare e simulare il contenuto.
 
-1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva l&#39;opzione **[!UICONTROL Genera una transizione in uscita]** per aggiungere una transizione dopo l&#39;attività del canale.
+1. Torna alla campagna orchestrata. Se desideri continuare la tua campagna orchestrata, attiva l&#39;opzione **[!UICONTROL Genera una transizione in uscita]** per aggiungere una transizione dopo l&#39;attività del canale.
 
 1. Fai clic su **[!UICONTROL Avvia]** per avviare la tua campagna orchestrata.
 
