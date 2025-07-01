@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
 
-# Aggiungi frammenti visivi alle e-mail {#use-visual-fragments}
+# Aggiungere frammenti visivi alle e-mail {#use-visual-fragments}
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail tra campagne Journey Optimizer, percorsi o modelli di contenuto. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato. [Scopri come creare e gestire i frammenti](../content-management/fragments.md).
 
@@ -85,11 +85,13 @@ Se alcune parti del frammento selezionato sono state rese modificabili, è possi
 
 Per personalizzare i campi modificabili in un frammento, effettua le seguenti operazioni:
 
-1. Aggiungi il frammento al contenuto e selezionalo per aprire il riquadro delle proprietà sul lato destro.
+1. Aggiungi il frammento al contenuto.
 
-1. Tutti i campi modificabili nel frammento vengono visualizzati nella scheda **Impostazioni**, nella sezione **Frammento**.
+1. Selezionala per aprire il riquadro delle proprietà sul lato destro.
 
-   I campi modificabili sono evidenziati in verde nel riquadro di anteprima quando sono selezionati nel riquadro di destra, semplificando l’identificazione della loro posizione nel contenuto.
+   Tutti i campi modificabili nel frammento vengono visualizzati nella scheda **Impostazioni**, nella sezione **Frammento**.
+
+1. Quando selezioni un campo modificabile nel riquadro di destra, questo viene evidenziato in verde nel riquadro di anteprima centrale, facilitando l’identificazione della sua posizione nel contenuto.
 
    Nell&#39;esempio seguente è possibile modificare l&#39;immagine **source** e **alt text**, nonché il pulsante &quot;Fai clic qui&quot; **URL**.
 

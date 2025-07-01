@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 0%
+source-wordcount: '1478'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ I frammenti visivi e di espressione possono essere contrassegnati come personali
 
 ![](../content-management/assets/do-not-localize/gif-fragments.gif)
 
-## Aggiungere campi modificabili nei frammenti visivi {#visual}
+## Aggiungere campi modificabili ai frammenti visivi {#visual}
 
 Per rendere modificabili parti di un frammento visivo, effettua le seguenti operazioni:
 
@@ -57,7 +57,7 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 
 1. Dopo aver aggiunto il frammento in un messaggio e-mail, gli utenti potranno personalizzare tutti i campi modificabili configurati nel frammento. [Scopri come personalizzare i campi modificabili in un frammento visivo](../email/use-visual-fragments.md#customize-fields)
 
-## Aggiungere campi modificabili nei componenti HTML e nei frammenti di espressione {#expression}
+## Aggiungere campi modificabili ai componenti HTML e ai frammenti di espressione {#expression}
 
 Per rendere modificabili parti di un componente HTML o di un frammento di espressione, è necessario utilizzare una sintassi specifica nell’editor espressioni. Ciò comporta la dichiarazione di una **variabile** con un valore predefinito che gli utenti possono ignorare dopo aver aggiunto il frammento al loro contenuto.
 
@@ -70,7 +70,7 @@ Per i componenti HTML, solo elementi specifici possono diventare campi modificab
 Gli elementi riportati di seguito possono diventare campi modificabili in un componente HTML:
 
 * Parte di testo
-* Un URL completo per un collegamento o un’immagine (non funziona con una parte di URL)
+* Un URL completo per collegamento o immagine (non funziona con parte di un URL)
 * Intera proprietà CSS (non funziona con la proprietà parziale)
 
 Ad esempio, nel codice seguente, ogni elemento evidenziato in rosso può diventare una proprietà:
@@ -81,9 +81,11 @@ Ad esempio, nel codice seguente, ogni elemento evidenziato in rosso può diventa
 
 Per dichiarare una variabile e utilizzarla nel frammento, effettua le seguenti operazioni:
 
-1. Apri il frammento di espressione, quindi modificane il contenuto nell’editor di personalizzazione. Per i componenti di HTML, selezionare il componente nel frammento e fare clic sul pulsante **Mostra codice sorgente**.
+1. Apri il frammento di espressione, quindi modificane il contenuto nell’editor di personalizzazione.
 
    ![](assets/fragment-html-edit.png)
+
+   Per i componenti di HTML, selezionare il componente nel frammento e fare clic sul pulsante **Mostra codice sorgente**.
 
 1. Dichiara la variabile che desideri che gli utenti modifichino. Passa al menu **Funzioni helper** nel riquadro di navigazione a sinistra e aggiungi la funzione helper **inline**. La sintassi per dichiarare e chiamare la variabile viene aggiunta automaticamente nel contenuto.
 
@@ -135,3 +137,84 @@ Per eseguire questa operazione:
 1. Quando si aggiunge il frammento di espressione al contenuto, gli utenti possono modificare il valore della variabile a loro scelta direttamente dall’editor di espressioni. [Scopri come personalizzare i campi modificabili in un frammento di espressione](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)
+
+## Aggiungere testo RTF a un frammento personalizzabile {#rich-text}
+
+È possibile aggiungere testo formattato come interruzioni di riga, grassetto, corsivo e così via a un frammento modificabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
+
+➡️ [Scopri come aggiungere e utilizzare testo RTF a un componente di HTML all&#39;interno di un frammento modificabile in questo video](#video)
+
+### Creare un frammento con testo RTF {#add-rich-text}
+
+1. Crea un frammento visivo e inizia ad aggiungere componenti.
+
+1. Aggiungi un [componente HTML](../email/content-components.md#HTML) e apri l&#39;editor HTML.
+
+1. Passa al menu **[!UICONTROL Funzioni helper]** nel riquadro di navigazione a sinistra e aggiungi la funzione helper **inline**.
+
+1. Sostituire `"name"` con l&#39;ID che si desidera utilizzare per il contenuto modificabile, ad esempio &quot;EditableContent&quot;.
+
+1. Sostituisci `render_content` con il codice HTML corrispondente al contenuto predefinito desiderato.
+
+   ![](assets/fragment-rich-editable-content.png)
+<!--
+    +++For example:
+
+    ```html
+
+    <h1>Main title</h1>
+
+    <h2>Subtitle One</h2>
+    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
+
+    <p class="bold">This text is bold.</p>
+    <p class="italic">This text is italic.</p>
+    <p class="bold-italic">This text is bold and italic.</p>
+
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point with more text</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <hr>
+
+    <h2>Subtitle Two</h2>
+    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
+
+    ```
+
+    +++
+-->
+
+1. All&#39;interno dello stesso componente HTML, aggiungi un&#39;altra funzione helper **inline** per gli elementi di stile.
+
+1. Sostituisci `"name"` e `render_content` con l&#39;ID e il codice HTML corrispondenti allo stile predefinito desiderato.
+
+   ![](assets/fragment-rich-editable-styling.png)
+
+1. Salva il contenuto. I campi modificabili selezionati vengono visualizzati a destra.
+
+   ![](assets/fragment-rich-editable-fields.png)
+
+1. Pubblica il frammento.
+
+### Usa frammenti modificabili in formato Rich Text {#use-rich-text}
+
+Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti possono modificare il contenuto e lo stile del testo RTF creati. Per utilizzare frammenti modificabili in formato Rich Text per un addetto marketing, effettua le seguenti operazioni.
+
+1. Crea un messaggio e-mail in una campagna o in un percorso, quindi aggiungi il frammento creato.
+
+   Puoi visualizzare i due campi modificabili creati nel riquadro a destra.
+
+   ![](assets/fragment-use-rich-editable-fields.png)
+
+1. Puoi fare clic su **[!UICONTROL Simula contenuto]** per visualizzare il rendering del contenuto modificabile e dello stile.
+
+1. Seleziona l&#39;icona **[!UICONTROL Aggiungi personalizzazione]** accanto a uno dei campi modificabili e modifica lo stile CSS e/o il contenuto come desiderato.
+
+## Video dimostrativo {#video}
+
+Questo video mostra come rendere modificabili i componenti HTML all’interno di un frammento, consentendo aggiornamenti dinamici sia al contenuto che allo stile.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
