@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
 
 # Frammenti personalizzabili {#customizable-fragments}
 
-I frammenti utilizzati in una campagna o in un’azione di percorso vengono bloccati per impostazione predefinita a causa dell’ereditarietà. Ciò significa che qualsiasi modifica apportata a un frammento viene propagata automaticamente a tutte le campagne e a tutti i percorsi in cui viene utilizzato il frammento. Con i frammenti personalizzabili, campi specifici all’interno di un frammento possono essere definiti come modificabili quando il frammento viene aggiunto a un’azione di una campagna o di un percorso. Supponiamo ad esempio di avere un frammento con un banner, del testo e un pulsante. È possibile designare come modificabili alcuni campi, ad esempio l’URL di destinazione dell’immagine o del pulsante. Questo consente agli utenti di modificare questi elementi quando incorporano il frammento nella campagna o nel percorso, offrendo un’esperienza personalizzata senza influire sul frammento originale.
+I frammenti utilizzati in una campagna o in un’azione di percorso vengono bloccati per impostazione predefinita a causa dell’ereditarietà. Ciò significa che qualsiasi modifica apportata a un frammento viene propagata automaticamente a tutte le campagne e a tutti i percorsi in cui viene utilizzato il frammento.
+
+Con **frammenti personalizzabili**, campi specifici all&#39;interno di un frammento possono essere definiti come modificabili quando il frammento viene aggiunto a un&#39;azione di una campagna o di un percorso. Supponiamo ad esempio di avere un frammento con un banner, del testo e un pulsante. È possibile designare come modificabili alcuni campi, ad esempio l’URL di destinazione dell’immagine o del pulsante. Questo consente agli utenti di modificare questi elementi quando incorporano il frammento nella campagna o nel percorso, offrendo un’esperienza personalizzata senza influire sul frammento originale.
 
 I frammenti personalizzabili eliminano la necessità di interrompere l’ereditarietà dei frammenti, che in precedenza impediva la propagazione delle modifiche centralizzate a livello di frammento alle campagne e ai percorsi. Questo approccio consente di regolare le parti di contenuto al momento dell’utilizzo, offrendo la flessibilità di ignorare i valori predefiniti con dettagli specifici del contesto.
 
@@ -110,7 +112,7 @@ Per dichiarare una variabile e utilizzarla nel frammento, effettua le seguenti o
 
    ![](assets/fragment-call-variable.png)
 
-1. Salva il frammento.
+1. Salva e pubblica il frammento.
 
 Quando aggiungono il frammento al contenuto dell’e-mail, gli utenti possono ora ignorare i valori predefiniti delle variabili con i valori scelti:
 
@@ -118,7 +120,7 @@ Quando aggiungono il frammento al contenuto dell’e-mail, gli utenti possono or
 
 * Per i componenti HTML, la variabile viene visualizzata nell’elenco dei campi modificabili nel Designer e-mail. [Scopri come personalizzare i campi modificabili in un frammento visivo](../email/use-visual-fragments.md#customize-fields)
 
-## Esempio di frammento di espressione modificabile {#example}
+### Esempio di frammento di espressione modificabile {#example}
 
 Nell’esempio seguente, viene creato un frammento di espressione che presenta nuove raccolte sportive. Per impostazione predefinita, nel frammento viene visualizzato il seguente contenuto: *Ulteriori informazioni? Non perderti la nostra ultima collezione di sport!*
 
@@ -142,11 +144,11 @@ Per eseguire questa operazione:
 
 È possibile aggiungere testo formattato come interruzioni di riga, grassetto, corsivo e così via a un frammento modificabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 
-➡️ [Scopri come aggiungere e utilizzare testo RTF a un componente di HTML all&#39;interno di un frammento modificabile in questo video](#video)
+➡️ [Scopri come aggiungere e utilizzare testo RTF a un frammento modificabile in questo video](#video)
 
 ### Creare un frammento con testo RTF {#add-rich-text}
 
-1. Crea un frammento visivo e inizia ad aggiungere componenti.
+1. Crea un [frammento](create-fragments.md) visivo e inizia ad aggiungere componenti.
 
 1. Aggiungi un [componente HTML](../email/content-components.md#HTML) e apri l&#39;editor HTML.
 
@@ -154,7 +156,7 @@ Per eseguire questa operazione:
 
 1. Sostituire `"name"` con l&#39;ID che si desidera utilizzare per il contenuto modificabile, ad esempio &quot;EditableContent&quot;.
 
-1. Sostituisci `render_content` con il codice HTML corrispondente al contenuto predefinito desiderato.
+1. Sostituisci `render_content` con il codice HTML corrispondente al contenuto RTF predefinito desiderato. È possibile aggiungere grassetto, corsivo, interruzioni di riga, elenchi puntati, ecc.
 
    ![](assets/fragment-rich-editable-content.png)
 <!--
@@ -193,28 +195,32 @@ Per eseguire questa operazione:
 
    ![](assets/fragment-rich-editable-styling.png)
 
-1. Salva il contenuto. I campi modificabili selezionati vengono visualizzati a destra.
+1. Salva il contenuto. I campi modificabili selezionati vengono visualizzati sul lato destro.
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. Pubblica il frammento.
+1. Salva e [pubblica](create-fragments.md#publish) il frammento.
 
 ### Usa frammenti modificabili in formato Rich Text {#use-rich-text}
 
-Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti possono modificare il contenuto e lo stile del testo RTF creati. Per utilizzare frammenti modificabili in formato Rich Text per un addetto marketing, effettua le seguenti operazioni.
+Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti possono modificare il contenuto e lo stile del testo RTF creati. Per utilizzare frammenti modificabili in formato Rich Text come addetto marketing, effettua le seguenti operazioni.
 
-1. Crea un messaggio e-mail in una campagna o in un percorso, quindi aggiungi il frammento creato.
+1. [Crea un&#39;e-mail](../email/create-email.md) in una campagna o in un percorso, quindi aggiungi il frammento con testo RTF [creato](#add-rich-text).
 
-   Puoi visualizzare i due campi modificabili creati nel riquadro a destra.
+   Puoi vedere i due campi modificabili che sono stati creati sul lato destro.
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Puoi fare clic su **[!UICONTROL Simula contenuto]** per visualizzare il rendering del contenuto modificabile e dello stile.
+1. Puoi fare clic su **[!UICONTROL Simula contenuto]** per visualizzare il rendering del contenuto modificabile e dello stile. [Ulteriori informazioni sull&#39;anteprima del contenuto](preview-test.md)
 
-1. Seleziona l&#39;icona **[!UICONTROL Aggiungi personalizzazione]** accanto a uno dei campi modificabili e modifica lo stile CSS e/o il contenuto come desiderato.
+1. Seleziona l&#39;icona **[!UICONTROL Aggiungi personalizzazione]** accanto a uno dei campi modificabili.
+
+1. Nell&#39;editor di personalizzazione aperto, aggiornare lo stile e/o il contenuto di <!--CSS--> come desiderato aggiungendo o rimuovendo elementi del campo modificabile.
+
+   ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## Video dimostrativo {#video}
 
 Questo video mostra come rendere modificabili i componenti HTML all’interno di un frammento, consentendo aggiornamenti dinamici sia al contenuto che allo stile.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
