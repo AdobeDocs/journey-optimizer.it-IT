@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 1%
@@ -159,35 +159,6 @@ Per eseguire questa operazione:
 1. Sostituisci `render_content` con il codice HTML corrispondente al contenuto RTF predefinito desiderato. È possibile aggiungere grassetto, corsivo, interruzioni di riga, elenchi puntati, ecc.
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. All&#39;interno dello stesso componente HTML, aggiungi un&#39;altra funzione helper **inline** per gli elementi di stile.
 
@@ -223,4 +194,4 @@ Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti posso
 
 Questo video mostra come rendere modificabili i componenti HTML all’interno di un frammento, consentendo aggiornamenti dinamici sia al contenuto che allo stile.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
