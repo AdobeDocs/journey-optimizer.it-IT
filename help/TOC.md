@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 97%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 97%
       + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
       + [Creare e pianificare la campagna](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrare le attività](using/orchestrated/orchestrate-activities.md)
-      + [Inviare messaggi con campagne orchestrate](using/orchestrated/send-messages.md)
       + [Avviare e monitorare la campagna](using/orchestrated/start-monitor-campaigns.md)
       + [Reporting](using/orchestrated/reporting-campaigns.md)
    + Eseguire query sul database {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 97%
       + [AND-join](using/orchestrated/activities/and-join.md)
       + [Crea pubblico](using/orchestrated/activities/build-audience.md)
       + [Cambiare dimensione](using/orchestrated/activities/change-dimension.md)
+      + [Attività di canale](using/orchestrated/activities/channels.md)
       + [Combina](using/orchestrated/activities/combine.md)
       + [Deduplica](using/orchestrated/activities/deduplication.md)
       + [Arricchimento](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 97%
       + [Dividi](using/orchestrated/activities/split.md)
       + [Test](using/orchestrated/activities/test.md)
       + [Attendi](using/orchestrated/activities/wait.md)
-      + [Attività di canale](using/orchestrated/activities/channels.md)
 + Campagne {#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
