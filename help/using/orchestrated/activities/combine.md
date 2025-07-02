@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
+source-git-commit: 01c9b947ce9459944c5c16ef177b55e889eb3634
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 76%
+source-wordcount: '1096'
+ht-degree: 52%
 
 ---
 
@@ -62,7 +62,7 @@ Sono disponibili le seguenti opzioni di segmentazione:
 
 Per iniziare a configurare l’attività **[!UICONTROL Combina]**, segui questi passaggi comuni:
 
-![](../assets/orchestrated-combine.png)
+![](../assets/orchestrated-union.png)
 
 1. Aggiungi più attività, come le attività **[!UICONTROL Crea pubblico]**, per formare almeno due rami di esecuzione diversi.
 1. Aggiungi un’attività **[!UICONTROL Combina]** ad uno dei rami precedenti.
@@ -77,12 +77,13 @@ Per iniziare a configurare l’attività **[!UICONTROL Combina]**, segui questi 
 >title="Opzioni di riconciliazione"
 >abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Per impostazione predefinita, l’opzione **Chiavi** è attivata, il che significa che l’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l’opzione **Una seleziona di colonne** per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
-Nell’attività **[!UICONTROL Combina]**, puoi configurare un’**[!UICONTROL Unione]**. Per l’attività Unione, è necessario selezionare il **[!UICONTROL Tipo di riconciliazione]** per definire la modalità di gestione dei duplicati:
+All&#39;interno dell&#39;attività **[!UICONTROL Combine]**, è possibile configurare un **[!UICONTROL Union]** selezionando un **[!UICONTROL Tipo di riconciliazione]** per determinare la modalità di gestione dei record duplicati:
 
-* **[!UICONTROL Solo chiavi]**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
-* **[!UICONTROL Una seleziona di colonne]**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
+* **[!UICONTROL Solo chiavi]** (impostazione predefinita): mantiene un singolo record quando più transizioni in entrata condividono la stessa chiave. Questa opzione è applicabile solo quando le popolazioni in entrata sono omogenee.
 
-Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Combine]** e viene aggiunta una **[!UICONTROL Union]** per recuperare tutti i profili delle due query: membri fedeltà e acquirenti per formare un pubblico più ampio.
+* **[!UICONTROL Selezione di colonne]**: consente di specificare quali colonne vengono utilizzate per la riconciliazione dei dati. Selezionare **[!UICONTROL Aggiungi attributo]**.
+
+Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Combine]** con un **[!UICONTROL Union]** per unire i risultati di due query, **Membri fedeltà** e **Acquirenti**, in un unico pubblico più grande che include tutti i profili di entrambi i segmenti.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -95,10 +96,15 @@ Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Combin
 
 Nell’attività **[!UICONTROL Combina]**, puoi configurare un’**[!UICONTROL Intersezione]**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
-1. Seleziona il **[!UICONTROL Tipo di riconciliazione]** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
-1. Puoi selezionare l’opzione **[!UICONTROL Genera complemento]** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
+1. Selezionare il tipo di **[!UICONTROL riconciliazione]** per definire la modalità di gestione dei duplicati:
 
-L&#39;esempio seguente mostra l&#39;**[!UICONTROL intersezione]** tra due attività di query. Viene utilizzato qui per recuperare profili con un’iscrizione fedeltà il cui ultimo acquisto è stato effettuato meno di un mese fa.
+   * **[!UICONTROL Solo chiavi]** (impostazione predefinita): mantiene un singolo record quando più transizioni in entrata condividono la stessa chiave. Questa opzione è applicabile solo quando le popolazioni in entrata sono omogenee.
+
+   * **[!UICONTROL Selezione di colonne]**: consente di specificare quali colonne vengono utilizzate per la riconciliazione dei dati. Selezionare **[!UICONTROL Aggiungi attributo]**.
+
+1. Abilitare **[!UICONTROL Genera completamento]** se si desidera elaborare il gruppo rimanente. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività viene aggiunta un’ulteriore transizione in uscita.
+
+L&#39;esempio seguente illustra l&#39;utilizzo dell&#39;**[!UICONTROL intersezione]** tra due attività di query. Viene utilizzato per identificare i profili che sono **membri fedeltà** e che hanno effettuato un acquisto nell&#39;ultimo mese.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -127,13 +133,13 @@ L&#39;esempio seguente mostra l&#39;**[!UICONTROL intersezione]** tra due attivi
 
 Nell’attività **[!UICONTROL Combina]**, puoi configurare un’**[!UICONTROL Esclusione]**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
-1. Nella sezione **[!UICONTROL Set da unire]**, dalle transizioni in entrata, seleziona **[!UICONTROL Set primario]**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
-1. Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **[!UICONTROL Regole di esclusione]**, fai clic su **[!UICONTROL Aggiungi una regola]** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione.
-1. Puoi selezionare l’opzione **[!UICONTROL Genera complemento]** se desideri elaborare la popolazione rimanente. Consulta la sezione [Intersezione](#intersection).
+1. Nella sezione **[!UICONTROL Set da unire]**, scegliere il **[!UICONTROL Set primario]**, che rappresenta il gruppo principale. I record trovati negli altri set sono esclusi da questo set principale.
+
+1. Se necessario, puoi regolare le tabelle in entrata per allineare i target da dimensioni diverse. Per escludere un target da un’altra dimensione, è necessario innanzitutto inserirlo nella stessa dimensione di targeting della popolazione principale. A tale scopo, fare clic su **[!UICONTROL Aggiungi una regola]** e definire le condizioni per la modifica della dimensione. La riconciliazione viene quindi eseguita utilizzando un attributo o un join.
+
+1. Abilitare **[!UICONTROL Genera completamento]** se si desidera elaborare il gruppo rimanente. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività viene aggiunta un’ulteriore transizione in uscita.
 
 L&#39;esempio di **[!UICONTROL esclusione]** seguente mostra due query configurate per filtrare i profili che hanno acquistato un prodotto. I profili che non hanno un’iscrizione fedeltà vengono quindi esclusi dal primo set.
-
-Perché: stai conducendo una campagna di fidelizzazione, quindi i non membri sono irrilevanti.
 
 ![](../assets/orchestrated-exclusion-example.png)
 
