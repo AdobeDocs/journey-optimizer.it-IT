@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
+source-git-commit: 85d322e5855c6e658a3a93dc0f3d644ef79437b5
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 16%
+source-wordcount: '985'
+ht-degree: 17%
 
 ---
 
@@ -99,29 +99,13 @@ Per impostare una consegna nel contesto di una campagna orchestrata, segui i pas
 
    Configurazione definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni dei canali](../../configuration/channel-surfaces.md).
 
-1. A seconda del canale, sono disponibili diverse opzioni. Sfoglia le schede seguenti per ulteriori informazioni:
-
-   >[!BEGINTABS]
-
-   >[!TAB E-mail]
-
-   Utilizza le opzioni **[!UICONTROL Traccia messaggi e-mail aperti]** e **[!UICONTROL Traccia clic su collegamenti e pulsanti nelle e-mail]** per monitorare come i destinatari reagiscono alla consegna.
+1. Per e-mail e SMS, utilizza le opzioni di tracciamento per monitorare come i destinatari reagiscono alle consegne e-mail o SMS.
 
    I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
 
-   >[!TAB SMS]
+1. Per le notifiche push, utilizza l&#39;opzione **[!UICONTROL Modalità di consegna rapida]** per eseguire l&#39;invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 Mln.
 
-   Utilizza l&#39;opzione **[!UICONTROL Traccia i clic sui collegamenti negli SMS]** per tenere traccia dei clic sui collegamenti nell&#39;SMS.
-
-   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
-
-   >[!TAB Invia]
-
-   La modalità Consegna rapida è un componente aggiuntivo **[!DNL Journey Optimizer]** che consente l&#39;invio molto rapido di messaggi push in volumi di grandi dimensioni.
-
-   Abilita l&#39;opzione **[!UICONTROL Modalità Consegna rapida]** per eseguire l&#39;invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 M. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
-
-   >[!ENDTABS]
+   La modalità Consegna rapida è un componente aggiuntivo **[!DNL Journey Optimizer]** che consente l&#39;invio molto rapido di messaggi push in volumi di grandi dimensioni. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
 
 1. La sezione **[!UICONTROL Esperimento sui contenuti]** ti consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione.
 
