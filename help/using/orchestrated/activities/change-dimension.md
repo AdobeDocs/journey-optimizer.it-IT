@@ -65,6 +65,6 @@ Questo caso d’uso prevede l’invio di un SMS ai profili che hanno creato una 
 
 Inizia con un&#39;attività **[!UICONTROL Genera pubblico]** utilizzando la dimensione di targeting **[!UICONTROL Elenco desideri]** per selezionare tutti gli elenchi desideri pertinenti.
 
-Quindi, inserisci un&#39;attività di **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting da **[!UICONTROL Elenco desideri]** a ****[!UICONTROL Destinatario]**. In questo modo la campagna orchestrata può inviare l’SMS ai profili associati a tali elenchi di desideri.
+Quindi, inserisci un&#39;attività di **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting da **[!UICONTROL Elenco desideri]** a **&#x200B;**&#x200B;[!UICONTROL Destinatario]**. In questo modo la campagna orchestrata può inviare l’SMS ai profili associati a tali elenchi di desideri.
 
 ![](../assets/change-dimension-example.png)
