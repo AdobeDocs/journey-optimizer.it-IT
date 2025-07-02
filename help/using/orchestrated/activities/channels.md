@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -101,7 +101,7 @@ Per impostare una consegna nel contesto di una campagna orchestrata, segui i pas
 
 1. Per e-mail e SMS, utilizza le opzioni di tracciamento per monitorare come i destinatari reagiscono alle consegne e-mail o SMS.
 
-   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
+   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../../reports/campaign-global-report-cja.md)
 
 1. Per le notifiche push, utilizza l&#39;opzione **[!UICONTROL Modalità di consegna rapida]** per eseguire l&#39;invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 Mln.
 
