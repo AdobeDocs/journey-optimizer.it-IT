@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 La campagna orchestrata offre informazioni fruibili grazie alle sue solide funzionalità di reporting. Queste informazioni consentono di comprendere meglio il comportamento del pubblico, misurare le prestazioni di ogni passaggio nel percorso del cliente e prendere decisioni basate sui dati per ottimizzare le campagne future. Con metriche e visualizzazioni dettagliate, puoi monitorare il coinvolgimento e perfezionare le strategie di targeting per il massimo impatto.
 
+![](assets/report-orchestrated.png)
 
 ## Tipi di rapporti {#reporting-types}
 
@@ -45,7 +46,7 @@ La campagna orchestrata offre informazioni fruibili grazie alle sue solide funzi
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Rapporto tutte le ore" src="assets/all-time-report.png"></a></td>
       <td>
-        Il reporting orchestrato delle campagne è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Ulteriori informazioni su <a href="../reports/report-gs-cja.md">tutti i report</a>.
+        <b>Tutti i rapporti temporali</b> sono completamente integrati con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l'affidabilità dei dati. Ulteriori informazioni sui report di tutti i tempi <a href="../reports/report-gs-cja.md">in questa sezione</a>.
       </td>
     </tr>
   </tbody>
