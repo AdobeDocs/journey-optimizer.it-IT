@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
+source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 22%
 
 | Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](../configuration-steps.md)<br/><br/>[Passaggi chiave per la creazione di campagne orchestrate](../gs-campaign-creation.md) | [Creare una campagna orchestrata](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Inviare messaggi con le campagne orchestrate](../send-messages.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa/Partecipa](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>[Passaggi di configurazione](../configuration-steps.md)<br/><br/>[Passaggi chiave per la creazione di campagne orchestrate](../gs-campaign-creation.md) | [Creare una campagna orchestrata](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare Query Modeler](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - **[Attività canale](channels.md)** - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -28,19 +28,19 @@ ht-degree: 22%
 
 <br/>
 
-Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su canali in entrata e in uscita. Puoi combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne orchestrate cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati. I canali supportati sono elencati in [questa pagina](../../channels/gs-channels.md).
+[!DNL Adobe Journey Optimizer] consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne orchestrate cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati.
 
-Ad esempio, puoi creare una campagna e-mail di benvenuto che includa una serie di messaggi su diversi canali, come e-mail, SMS, push e direct mail. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
+Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi su diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
 
-Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono la clientela su più punti di contatto e danno impulso alle conversioni.
+Utilizzando le attività di canale, puoi creare campagne complete e personalizzate che coinvolgono i clienti in più punti di contatto e favoriscono le conversioni. I canali supportati sono e-mail, SMS e push.
 
 ## Prerequisiti {#channel-activity-prereq}
 
 Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 
-* Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi.
+* Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. [Scopri come utilizzare l&#39;attività Genera pubblico](build-audience.md)
 
-* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **[!UICONTROL Scheduler]**. Puoi anche utilizzare un&#39;attività **[!UICONTROL Scheduler]** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna.
+* Per inviare una consegna ricorrente, avvia la campagna orchestrata con un&#39;attività **[!UICONTROL Scheduler]**. Puoi anche utilizzare un&#39;attività **[!UICONTROL Scheduler]** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. [Scopri come pianificare una campagna orchestrata](../create-orchestrated-campaign.md#schedule)
 
 ## Configurare un’attività di canale {#create-a-delivery-in-a-workflow}
 
@@ -54,12 +54,10 @@ Inizia a creare la tua campagna orchestrata con le attività pertinenti:
 >title="Attività SMS"
 >abstract="L’attività SMS ti consente di inviare SMS all’interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Serve per automatizzare il processo di invio di SMS a una destinazione calcolata all’interno della stessa campagna orchestrata. È possibile combinare le attività del canale nell’area di lavoro della campagna multifase per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Attività push"
 >abstract="L’attività push ti consente di inviare notifiche push come parte della campagna orchestrata. Consente la consegna di campagne orchestrate sia una tantum che ricorrenti, automatizzando l’invio di notifiche push a un target predefinito all’interno della stessa campagna orchestrata. Puoi combinare le attività dei canali nell’area di lavoro della campagna per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
-
 
 <!--
 UNUSED IDs in BJ
@@ -81,36 +79,87 @@ UNUSED IDs in BJ
 >title="Attività direct mail"
 >abstract="L’attività Direct mail facilita l’invio di direct mailing all’interno della campagna orchestrata, sia per messaggi una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. Puoi combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati."
 
-Per impostare una consegna nel contesto di una campagna orchestrata, segui i passaggi seguenti:
+Per impostare una consegna nel contesto di una campagna orchestrata, segui i passaggi seguenti.
 
-1. Aggiungi un’attività di canale. I canali supportati sono **[!UICONTROL Email]**, **[!UICONTROL SMS]** o **[!UICONTROL Notifica push]**
+### Aggiungere un’attività di canale e definirne le proprietà {#add}
 
-1. Seleziona il **Tipo di consegna**: singola o ricorrente.
+1. Aggiungi un’attività di canale nell’area di lavoro. Le attività del canale disponibili sono **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** e **[!UICONTROL Push]**.
 
-   * Una **consegna singola** è una consegna one-shot, inviata una sola volta, ad esempio un&#39;e-mail del Black Friday.
-   * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione. Ogni volta che viene eseguita la campagna orchestrata, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
+   ![immagine che mostra l&#39;area di lavoro con le attività disponibili](../assets/channel-add.png)
 
-1. Seleziona un **[!UICONTROL Modello]** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita.
+1. Seleziona l&#39;attività aggiunta e fai clic sul pulsante **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]** o **[!UICONTROL Modifica push]** a seconda del canale scelto.
 
-   ![](../assets/delivery-activity-in-wf.png)
+   ![immagine che mostra l&#39;area di lavoro con un&#39;attività e-mail](../assets/channel-edit.png)
 
-   Puoi selezionare il modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l&#39;attività **[!UICONTROL Genera pubblico]** per selezionare un pubblico con la mappatura di destinazione corretta.
+1. Nella scheda **[!UICONTROL Proprietà]**, immetti una descrizione per la campagna.
 
-1. Fai clic su **[!UICONTROL Crea consegna]**. Puoi quindi definire le impostazioni dei messaggi e il contenuto nello stesso modo in cui crei una consegna autonoma. Puoi anche testare e simulare il contenuto.
+### Configurazione e impostazioni del canale {#configuration}
 
-1. Torna alla campagna orchestrata. Se desideri continuare la tua campagna orchestrata, attiva l&#39;opzione **[!UICONTROL Genera una transizione in uscita]** per aggiungere una transizione dopo l&#39;attività del canale.
+1. Seleziona la scheda **[!UICONTROL Azioni]** e scegli la configurazione del canale da utilizzare per il messaggio.
 
-1. Fai clic su **[!UICONTROL Avvia]** per avviare la tua campagna orchestrata.
+   Configurazione definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni dei canali](../../configuration/channel-surfaces.md).
 
-   Per impostazione predefinita, l’avvio di una campagna orchestrata attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
+1. A seconda del canale, sono disponibili diverse opzioni. Sfoglia le schede seguenti per ulteriori informazioni:
 
-1. Apri l&#39;attività del canale per confermare l&#39;invio dal pulsante **[!UICONTROL Rivedi e invia]**.
+   >[!BEGINTABS]
 
-1. Nella dashboard della consegna, fai clic su **[!UICONTROL Invia]**.
+   >[!TAB E-mail]
 
-## Esempi {#cross-channel-workflow-sample}
+   Utilizza le opzioni **[!UICONTROL Traccia messaggi e-mail aperti]** e **[!UICONTROL Traccia clic su collegamenti e pulsanti nelle e-mail]** per monitorare come i destinatari reagiscono alla consegna.
 
-Di seguito è riportato un esempio di campagna orchestrata cross-channel con una segmentazione e due consegne. La campagna orchestrata prende di mira tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
+   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
+
+   >[!TAB SMS]
+
+   Utilizza l&#39;opzione **[!UICONTROL Traccia i clic sui collegamenti negli SMS]** per tenere traccia dei clic sui collegamenti nell&#39;SMS.
+
+   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report-cja.md)
+
+   >[!TAB Invia]
+
+   La modalità Consegna rapida è un componente aggiuntivo **[!DNL Journey Optimizer]** che consente l&#39;invio molto rapido di messaggi push in volumi di grandi dimensioni.
+
+   Abilita l&#39;opzione **[!UICONTROL Modalità Consegna rapida]** per eseguire l&#39;invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 M. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
+
+   >[!ENDTABS]
+
+1. La sezione **[!UICONTROL Esperimento sui contenuti]** ti consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione.
+
+   A tale scopo, fai clic sul pulsante **[!UICONTROL Crea esperimento]**, quindi segui i passaggi descritti in questa sezione: [Crea le funzionalità di sperimentazione di un esperimento sui contenuti](../../content-management/content-experiment.md).
+
+1. La sezione **[!UICONTROL Lingue]** consente di creare contenuti in più lingue all&#39;interno della campagna.
+
+   A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi lingue]** e selezionare le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in questa sezione: [Introduzione ai contenuti multilingue](../../content-management/multilingual-gs.md)
+
+### Definire il contenuto {#content}
+
+Selezionare la scheda **[!UICONTROL Contenuto]** per definire il contenuto del messaggio. Il processo di creazione dei contenuti dipende dal canale selezionato.
+
+Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../../email/create-email.md"><img alt="e-mail" src="../../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../../email/create-email.md"><strong>E-mail</strong></a></div></td>
+<td><a href="../sms/../create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../../push/create-push.md"><strong>Notifica push</strong></a></div></td>
+</tr></table>
+
+Una volta definito il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con profili di test o dati di input di esempio caricati da un file CSV/JSON, oppure aggiunti manualmente. [Ulteriori informazioni](../content-management/preview-test.md).
+
+## Passaggi successivi {#next}
+
+Torna alla campagna orchestrata utilizzando la freccia **[!UICONTROL Indietro]**.
+
+![immagine che mostra il pulsante Indietro](../assets/channel-back.png)
+
+Ora puoi completare l’orchestrazione delle attività nell’area di lavoro e pubblicare la campagna per avviare l’invio dei messaggi. [Scopri come avviare e monitorare le campagne orchestrate](../start-monitor-campaigns.md)
+
+<!--
+## Examples {#cross-channel-workflow-sample}
+
+Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -124,9 +173,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Puoi anche creare una campagna orchestrata ricorrente per inviare un SMS personalizzato ogni primo giorno del mese alle 20 a tutti i clienti che vivono a Parigi.
+<!--You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
-![](../assets/workflow-channel-example2.png)
+![](../assets/workflow-channel-example2.png)-->
 
 <!-- Scheduled emails available?
 
