@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 29%
@@ -65,6 +65,6 @@ Questo caso d’uso prevede l’invio di un SMS ai profili che hanno creato una 
 
 Inizia con un&#39;attività **[!UICONTROL Genera pubblico]** utilizzando la dimensione di targeting **[!UICONTROL Elenco desideri]** per selezionare tutti gli elenchi desideri pertinenti.
 
-Quindi, inserisci un&#39;attività di **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting da **[!UICONTROL Elenco desideri]** a **&#x200B;**&#x200B;[!UICONTROL Destinatario]**. In questo modo la campagna orchestrata può inviare l’SMS ai profili associati a tali elenchi di desideri.
+Quindi, inserisci un&#39;attività di **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting da **[!UICONTROL Elenco desideri]** a **[!UICONTROL Destinatario]**. In questo modo la campagna orchestrata può inviare l’SMS ai profili associati a tali elenchi di desideri.
 
-![](../assets/change-dimension-example.png)
+![](../assets/orchestrated-change-dimension-example.png)
