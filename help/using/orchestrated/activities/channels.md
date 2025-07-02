@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
+source-git-commit: 6a2b49d952408d6c9b0e147505f5112ada3f4967
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1016'
 ht-degree: 17%
 
 ---
@@ -95,39 +95,32 @@ Per impostare una consegna nel contesto di una campagna orchestrata, segui i pas
 
 ### Configurazione e impostazioni del canale {#configuration}
 
-1. Seleziona la scheda **[!UICONTROL Azioni]** e scegli la configurazione del canale da utilizzare per il messaggio.
+Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione di canale per il messaggio e configurare impostazioni aggiuntive, ad esempio tracciamento, esperimento sui contenuti o contenuto multilingue.
+
+1. Scegli la configurazione del canale da utilizzare per il messaggio.
 
    Configurazione definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni dei canali](../../configuration/channel-surfaces.md).
 
-1. Per e-mail e SMS, utilizza le opzioni di tracciamento per monitorare come i destinatari reagiscono alle consegne e-mail o SMS.
+   ![immagine che mostra la sezione Azioni](../assets/channel-actions.png)
 
-   I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../../reports/campaign-global-report-cja.md)
+1. Per e-mail e SMS, utilizza le opzioni nella sezione **[!UICONTROL Tracciamento azioni]** per monitorare come i destinatari reagiscono alle consegne e-mail o SMS. I risultati del tracciamento sono accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../../reports/campaign-global-report-cja.md)
 
-1. Per le notifiche push, utilizza l&#39;opzione **[!UICONTROL Modalità di consegna rapida]** per eseguire l&#39;invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 Mln.
+1. Per le notifiche push, utilizza l&#39;opzione **[!UICONTROL Modalità di consegna rapida]** per eseguire l&#39;invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 Mln. La modalità Consegna rapida è un componente aggiuntivo **[!DNL Journey Optimizer]** che consente l&#39;invio molto rapido di messaggi push in volumi di grandi dimensioni. [Ulteriori informazioni](../../push/create-push.md#rapid-delivery)
 
-   La modalità Consegna rapida è un componente aggiuntivo **[!DNL Journey Optimizer]** che consente l&#39;invio molto rapido di messaggi push in volumi di grandi dimensioni. [Ulteriori informazioni](../../push/create-push.md#rapid-delivery)
+1. Utilizza la sezione **[!UICONTROL Esperimento sui contenuti]** per definire più trattamenti di consegna e misurare quale offre le migliori prestazioni per il tuo pubblico di destinazione. Fai clic sul pulsante **[!UICONTROL Crea esperimento]**, quindi segui i passaggi descritti in questa sezione: [Crea le funzionalità di sperimentazione di un esperimento sui contenuti](../../content-management/content-experiment.md).
 
-1. La sezione **[!UICONTROL Esperimento sui contenuti]** ti consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione.
+   ![immagine che mostra la sezione dell&#39;esperimento sui contenuti](../assets/channel-experiment.png)
 
-   A tale scopo, fai clic sul pulsante **[!UICONTROL Crea esperimento]**, quindi segui i passaggi descritti in questa sezione: [Crea le funzionalità di sperimentazione di un esperimento sui contenuti](../../content-management/content-experiment.md).
-
-1. La sezione **[!UICONTROL Lingue]** consente di creare contenuti in più lingue all&#39;interno della campagna.
-
-   A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi lingue]** e selezionare le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in questa sezione: [Introduzione ai contenuti multilingue](../../content-management/multilingual-gs.md)
+1. Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all&#39;interno della campagna. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi lingue]** e selezionare le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in questa sezione: [Introduzione ai contenuti multilingue](../../content-management/multilingual-gs.md)
 
 ### Definire il contenuto {#content}
 
-Selezionare la scheda **[!UICONTROL Contenuto]** per definire il contenuto del messaggio. Il processo di creazione dei contenuti dipende dal canale selezionato.
+Utilizza la scheda **[!UICONTROL Contenuto]** per definire il contenuto del messaggio. Il processo di creazione dei contenuti dipende dal canale selezionato. Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
 
-Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../../email/create-email.md"><img alt="e-mail" src="../../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../../email/create-email.md"><strong>E-mail</strong></a></div></td>
-<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../../sms/create-sms.md"><strong>SMS</strong></a></div></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../../push/create-push.md"><strong>Notifica push</strong></a></div></td>
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
+<td><a href="../../email/create-email.md"><img alt="e-mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>E-mail</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Notifica push</strong></a></td>
 </tr></table>
 
 Una volta definito il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con profili di test o dati di input di esempio caricati da un file CSV/JSON, oppure aggiunti manualmente. [Ulteriori informazioni](../../content-management/preview-test.md)
@@ -136,9 +129,9 @@ Una volta definito il contenuto, utilizza il pulsante **[!UICONTROL Simula conte
 
 Torna alla campagna orchestrata utilizzando la freccia **[!UICONTROL Indietro]**.
 
-![immagine che mostra il pulsante Indietro](../assets/channel-back.png)
-
 Ora puoi completare l’orchestrazione delle attività nell’area di lavoro e pubblicare la campagna per avviare l’invio dei messaggi. [Scopri come avviare e monitorare le campagne orchestrate](../start-monitor-campaigns.md)
+
+![immagine che mostra il pulsante Indietro](../assets/channel-back.png)
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
