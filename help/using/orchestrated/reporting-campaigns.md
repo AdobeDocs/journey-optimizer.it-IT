@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
+source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 14%
+source-wordcount: '256'
+ht-degree: 10%
 
 ---
 
@@ -28,8 +28,25 @@ ht-degree: 14%
 
 <br/>
 
->[!BEGINSHADEBOX]
+La campagna orchestrata offre informazioni fruibili grazie alle sue solide funzionalità di reporting. Queste informazioni consentono di comprendere meglio il comportamento del pubblico, misurare le prestazioni di ogni passaggio nel percorso del cliente e prendere decisioni basate sui dati per ottimizzare le campagne future. Con metriche e visualizzazioni dettagliate, puoi monitorare il coinvolgimento e perfezionare le strategie di targeting per il massimo impatto.
 
-Documentazione in corso
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="e-mail" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>Canale e-mail</strong></a></p></div></td>
+<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><a href="../reports/campaign-global-report-cja-sms.md"><strong>Canale SMS</strong></a></p></div></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>Canale push</strong></p></a></div></td>
+</table>
 
->[!ENDSHADEBOX]
+
+## Tipi di rapporti {#reporting-types}
+
+
+| Tipo di rapporto | Descrizione |
+|-----|------------|
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni delle campagne orchestrate in una dashboard incorporata. I dati sono disponibili nel **[!UICONTROL Rapporto live]** non appena la tua campagna orchestrata viene eseguita dal menu **[!UICONTROL Visualizza ultimo rapporto di 24 ore]**. Ulteriori informazioni sui report live [in questa sezione](live-report.md). |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | Il reporting orchestrato delle campagne è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati.  Ulteriori informazioni sui report di tutti i tempi [in questa sezione](report-gs-cja.md). |
+
+
+
