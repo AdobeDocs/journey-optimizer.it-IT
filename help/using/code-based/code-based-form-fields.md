@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -34,8 +35,8 @@ Quando si applica il modello di contenuto al proprio contenuto, gli utenti potra
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
->title="Controlla il rendering dei campi modulo"
->abstract="Nei modelli di contenuto JSON o HTML, puoi definire campi modificabili specifici che consentiranno agli utenti non tecnici di modificare facilmente il contenuto in esperienze basate su codice senza la necessità di manipolare il codice. Crea questi campi utilizzando la sintassi dedicata e visualizzali in anteprima utilizzando questo pulsante."
+>title="Controllare il rendering dei campi modulo"
+>abstract="Nei modelli di contenuto JSON o HTML, puoi definire campi specifici modificabili che consentiranno agli utenti non tecnici di modificare facilmente i contenuti delle esperienze basate su codice, senza intervenire sul codice stesso. Crea questi campi utilizzando la sintassi dedicata e visualizzali in anteprima utilizzando questo pulsante."
 
 Per rendere modificabile parte del codice JSON o HTML, inizia creando un [modello di contenuto](../content-management/content-templates.md) esperienza basato su codice in cui puoi definire campi modulo specifici.
 
@@ -201,7 +202,7 @@ Di seguito sono riportati alcuni esempi di modelli JSON e HTML, alcuni dei quali
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
 >title="Che cosa sono i campi modulo?"
->abstract="Questa esperienza basata su codice contiene campi modulo che puoi modificare facilmente senza la necessità di manipolare il codice nell’editor di personalizzazione."
+>abstract="Questa esperienza basata su codice contiene campi modulo che puoi modificare facilmente senza intervenire sul codice stesso nell’editor di personalizzazione."
 
 Dopo aver creato il modello di contenuto contenente campi modulo modificabili predefiniti, è possibile creare un’esperienza basata su codice utilizzando questo modello di contenuto.
 
@@ -245,5 +246,4 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463999/?learn=on&#x26;enablevpops&captions=ita)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

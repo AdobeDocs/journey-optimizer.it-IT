@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
->title="Ricerca set di dati"
->abstract="L’utilizzo dei dati di Adobe Experience Platform nelle regole di decisione consente di definire criteri di idoneità in base ad attributi esterni dinamici, garantendo che gli elementi decisionali vengano visualizzati solo se pertinenti. Creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]. Seleziona il set di dati con gli attributi necessari e scegli una chiave di unione presente sia negli attributi dell’elemento decisionale che nel set di dati."
+>title="Ricerca nei set di dati"
+>abstract="L’utilizzo dei dati di Adobe Experience Platform nelle regole di decisione consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti. Crea una mappatura per definire come unire il set di dati di Adobe Experience Platform ai dati in [!DNL Journey Optimizer]. Seleziona il set di dati con gli attributi necessari e scegli una chiave di unione presente sia negli attributi dell’elemento decisionale che nel set di dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
->title="Ricerca set di dati"
->abstract="Le formule di classificazione definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale. Creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]. Seleziona il set di dati con gli attributi necessari e scegli una chiave di unione presente sia negli attributi dell’elemento decisionale che nel set di dati"
+>title="Ricerca nei set di dati"
+>abstract="Le formule di classificazione definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni reali. Crea una mappatura per definire il modo in cui unire il set di dati di Adobe Experience Platform ai dati in [!DNL Journey Optimizer]. Seleziona il set di dati con gli attributi necessari e scegli una chiave di unione presente sia negli attributi dell’elemento decisionale che nel set di dati"
 
 >[!AVAILABILITY]
 >
