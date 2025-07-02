@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 1a76d5349de807fe106535424940a8eca3922797
+source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 10%
+source-wordcount: '262'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 10%
 
 La campagna orchestrata offre informazioni fruibili grazie alle sue solide funzionalità di reporting. Queste informazioni consentono di comprendere meglio il comportamento del pubblico, misurare le prestazioni di ogni passaggio nel percorso del cliente e prendere decisioni basate sui dati per ottimizzare le campagne future. Con metriche e visualizzazioni dettagliate, puoi monitorare il coinvolgimento e perfezionare le strategie di targeting per il massimo impatto.
 
+
+## Tipi di rapporti {#reporting-types}
+
+<table style="table-layout:auto; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="text-align: left">
+      <th>Tipo di rapporto</th>
+      <th>Descrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border: 0;">
+      <td><a href="../reports/live-report.md"><img alt="Rapporto live" src="assets/last-24hours.png"></a></td>
+      <td>
+        Utilizza il <b>rapporto live</b> per misurare e visualizzare in tempo reale l'impatto e le prestazioni delle campagne orchestrate in una dashboard incorporata. I dati sono disponibili nel <b>Rapporto live</b> non appena la tua campagna orchestrata viene eseguita dal menu <b>Visualizza ultimo rapporto di 24 ore</b>. Ulteriori informazioni sui report live <a href="../reports/live-report.md">in questa sezione</a>.
+      </td>
+    </tr>
+    <tr style="border: 0; background-color: #FFFFFF;">
+      <td><a href="../reports/report-gs-cja.md"><img alt="Rapporto tutte le ore" src="assets/all-time-report.png"></a></td>
+      <td>
+        Il reporting orchestrato delle campagne è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Ulteriori informazioni su <a href="../reports/report-gs-cja.md">tutti i report</a>.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Immergiti nei rapporti sul canale
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="e-mail" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>Canale e-mail</strong></a></p></div></td>
@@ -38,12 +66,3 @@ La campagna orchestrata offre informazioni fruibili grazie alle sue solide funzi
 <td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>Canale push</strong></p></a></div></td>
 </table>
-
-
-## Tipi di rapporti {#reporting-types}
-
-
-| Tipo di rapporto | Descrizione |
-|-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="50%"} | Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni delle campagne orchestrate in una dashboard incorporata. I dati sono disponibili nel **[!UICONTROL Rapporto live]** non appena la tua campagna orchestrata viene eseguita dal menu **[!UICONTROL Visualizza ultimo rapporto di 24 ore]**. Ulteriori informazioni sui report live [in questa sezione](../reports/live-report.md). |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="50%"} | Il reporting orchestrato delle campagne è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati.  Ulteriori informazioni sui report di tutti i tempi [in questa sezione](../reports/report-gs-cja.md). |
