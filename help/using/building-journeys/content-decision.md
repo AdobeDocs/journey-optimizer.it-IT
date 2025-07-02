@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="Disponibilità limitata" type="Informative"
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.
+>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.
 
 [!DNL Journey Optimizer] consente di includere le offerte nei percorsi tramite l&#39;attività **content decision** dedicata nell&#39;area di lavoro del percorso. Puoi quindi aggiungere altre attività (come [azioni personalizzate](../action/about-custom-action-configuration.md)) ai tuoi percorsi per indirizzare i tuoi tipi di pubblico con queste offerte personalizzate.
 
@@ -133,7 +135,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -155,7 +157,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publishing-the-journey.md):
+Una volta attivato il percorso [](publishing-the-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
