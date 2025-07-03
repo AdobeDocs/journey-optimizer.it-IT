@@ -50,7 +50,7 @@ Per configurare l’attività **[!UICONTROL Crea pubblico]**, segui questi passa
 
    ![](../assets/build-audience.png)
 
-1. Definisci un&#39;etichetta ****.
+1. Definisci un&#39;etichetta **&#x200B;**.
 
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 
