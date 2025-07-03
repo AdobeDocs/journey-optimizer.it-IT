@@ -1,21 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Passaggi chiave per creare una campagna orchestrata
-description: Scopri i principi chiave della creazione di campagne orchestrate con Adobe Journey Optimizer
-badge: label="Alpha"
+title: Avviare e monitorare campagne orchestrate con Adobe Journey Optimizer
+description: Scopri come avviare e monitorare le campagne orchestrate con Adobe Journey Optimizer.
 hide: true
 hidefromtoc: true
-exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 22%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-
-# Passaggi chiave per creare una campagna orchestrata {#orchestrated-campaign-creation}
+# Retargeting {#retarget}
 
 +++ Sommario
 
@@ -26,8 +23,6 @@ ht-degree: 22%
 {style="table-layout:fixed"}
 
 +++
-
-<br/>
 
 >[!BEGINSHADEBOX]
 

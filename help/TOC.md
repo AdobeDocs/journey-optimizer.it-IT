@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
+source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 97%
+source-wordcount: '2488'
+ht-degree: 98%
 
 ---
 
@@ -189,7 +189,8 @@ ht-degree: 97%
    + Eseguire query sul database {#query-database}
       + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
       + [Creare la prima regola](using/orchestrated/build-query.md)
-      + [Modificare le espressioni](using/orchestrated/edit-expressions.md)
+      + [Modifica espressioni](using/orchestrated/edit-expressions.md)
+      + [Retargeting](using/orchestrated/retarget)
    + Attività di campagne orchestrate {#design-campaigns}
       + [Introduzione alle attività](using/orchestrated/activities/about-activities.md)
       + [AND-join](using/orchestrated/activities/and-join.md)
@@ -202,6 +203,7 @@ ht-degree: 97%
       + [Fork](using/orchestrated/activities/fork.md)
       + [Leggi pubblico](using/orchestrated/activities/read-audience.md)
       + [Riconciliazione](using/orchestrated/activities/reconciliation.md)
+      + [Salva pubblico](using/orchestrated/activities/save-audience.md)
       + [Dividi](using/orchestrated/activities/split.md)
       + [Test](using/orchestrated/activities/test.md)
       + [Attendi](using/orchestrated/activities/wait.md)
@@ -295,7 +297,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
       + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
       + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
       + Configurare il canale SMS/MMS/RCS{#configure-sms}
-         + [Guida introduttiva alla configurazione di SMS/MMS/RCS](using/sms/sms-configuration.md)
+         + [Introduzione alla configurazione di SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configurare il provider Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurare il provider Twilio](using/sms/sms-configuration-twilio.md)
