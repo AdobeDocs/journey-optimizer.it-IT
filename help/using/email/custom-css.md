@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, editor, riepilogo, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -41,13 +41,15 @@ Per aggiungere CSS personalizzati al contenuto delle e-mail, segui i passaggi in
 
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi CSS personalizzato]**.
 
+   >[!NOTE]
+   >
+   >Il pulsante **[!UICONTROL Aggiungi CSS personalizzato]** è disponibile solo quando è selezionato **[!UICONTROL Corpo]**. Tuttavia, puoi applicare stili CSS personalizzati a tutti i componenti all’interno del contenuto.
+
 1. Inserisci il codice CSS nell’area di testo dedicata visualizzata. Assicurati che il CSS personalizzato sia valido e che segua la sintassi corretta. [Ulteriori informazioni](#use-valid-css)
 
    ![Inserisci CSS personalizzato nell&#39;area di testo dedicata](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
-   >
-   >Il pulsante **[!UICONTROL Aggiungi CSS personalizzato]** è disponibile solo quando è selezionato **[!UICONTROL Corpo]**. Tuttavia, puoi applicare stili CSS personalizzati a tutti i componenti all’interno del contenuto.
    >
    >Quando si utilizza un [modello con contenuto bloccato](../content-management/content-locking.md#use), non è possibile aggiungere CSS personalizzato al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
@@ -202,12 +204,6 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
 
-Se l&#39;attributo `data-disabled` del tag di stile `global-custom` è impostato su `true`, il CSS personalizzato non verrà applicato. Ad esempio:
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### Contenuto importato
 
 Se desideri utilizzare CSS personalizzati con il contenuto importato nel Designer e-mail, considera quanto segue:
@@ -225,7 +221,13 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
 * Assicurati che il CSS sia valido e privo di errori di sintassi (ad esempio parentesi graffe mancanti, nomi di proprietà errati). [Scopri come](#use-valid-css)
 
-* Verifica che il tuo CSS venga aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"` e che `data-disabled` non sia applicato a `global-custom`. [Ulteriori informazioni](#implementation)
+* Verifica che il tuo CSS sia stato aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"`.
+
+* Verificare se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato. Ad esempio:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * Assicurati che il tuo CSS non sia sovrascritto da altre regole CSS, incluso qualsiasi [tema](apply-email-themes.md) applicato al contenuto.
 
