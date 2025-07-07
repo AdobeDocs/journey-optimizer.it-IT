@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: e08bf74d2f6c5dcb338a5a1b9aa4b29d63e9e8db
+source-git-commit: 676bda4d11ea2bf775c78542b392a1a35ca2c891
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 11%
+source-wordcount: '394'
+ht-degree: 10%
 
 ---
 
@@ -122,7 +122,6 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 <div>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">Caso d’uso: come inviare e-mail solo nei giorni feriali in Adobe Journey Optimizer</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Caso d’uso: strategie di approvazione avanzate</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Caso d’uso: Audience Activation esterna veloce con caricamento personalizzato</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Caso d’uso: limite di frequenza giornaliero</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Best practice: leggi i Percorsi di pubblico</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Caso d’uso: testare i Percorsi</a></p>
@@ -131,4 +130,18 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 </div>
 <p>
 </td>
+<td>
+<img alt="Eventi dei passaggi nei Percorsi" src="../assets/do-not-localize/step-event.jpeg">
+<div>
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Master degli eventi dei passaggi in Adobe Journey Optimizer: nozioni di base, schemi e query essenziali per le campagne basate su dati
+</a>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Caso d’uso: Audience Activation esterna veloce con caricamento personalizzato</a></p>
+</div>
+<p></td>
+<td>
+<img alt="Azioni personalizzate" src="../assets/do-not-localize/extend.jpeg">
+<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Come estendere Adobe Journey Optimizer con azioni personalizzate: casi di utilizzo dell'integrazione
+</a>
+</div>
+<p></td>
 </tr></table>
