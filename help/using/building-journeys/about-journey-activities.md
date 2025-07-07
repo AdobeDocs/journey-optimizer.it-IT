@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 13%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 
 Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
 
-## Attività eventi {#event-activities}
+## Attività di eventi {#event-activities}
 
 I percorsi personalizzati vengono attivati da eventi, ad esempio un acquisto online. Una volta che un profilo entra in un percorso, si sposta come un individuo, e non ci sono due individui che si muovono lungo la stessa velocità o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso si attiva quando l’evento viene ricevuto. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
 
@@ -62,8 +62,6 @@ Dalla palette, sul lato sinistro della schermata, sotto **[!UICONTROL Eventi]** 
 
 Queste attività rappresentano i diversi canali di comunicazione disponibili. Puoi combinarle per creare uno scenario cross-channel.
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 * Se per l’invio di messaggi utilizzi un sistema di terze parti, puoi creare un’azione personalizzata specifica. [Ulteriori informazioni](../action/action.md)
@@ -80,7 +78,7 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 La maggior parte delle attività ti consentono di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e facilita la lettura dei rapporti. È inoltre possibile aggiungere una **[!UICONTROL Descrizione]** facoltativa.
 
-![](assets/journey-action-label.png)
+![Campi Etichetta e Descrizione nelle proprietà delle attività del percorso](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ La maggior parte delle attività ti consentono di definire un **[!UICONTROL Etic
 
 La maggior parte delle attività visualizza una serie di parametri avanzati e/o tecnici che non è possibile modificare.
 
-![](assets/journey-advanced-parameters.png)
+![Campi dei parametri avanzati nelle proprietà dell&#39;attività di percorso](assets/journey-advanced-parameters.png)
 
 Per una migliore leggibilità, nascondi questi parametri utilizzando il pulsante **[!UICONTROL Nascondi campi di sola lettura]**.
 
-![](assets/journey-hide-read-only-fields.png)
+![Nascondi l&#39;icona dei campi di sola lettura nelle proprietà dell&#39;attività del percorso](assets/journey-hide-read-only-fields.png)
 
 In alcuni contesti particolari, è possibile ignorare i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![Abilita l&#39;opzione di sostituzione del parametro nelle proprietà dell&#39;attività E-mail](assets/journey-enable-parameter-override.png)
 
 ### Aggiungi un percorso alternativo
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-![](assets/journey42.png)
+![Aggiungi un&#39;opzione di percorso alternativa nelle proprietà dell&#39;attività Condizione](assets/journey42.png)
+
+## Risoluzione dei problemi {#troubleshooting}
+
+Prima di testare e pubblicare il percorso, controlla che tutte le attività siano state configurate correttamente. Non è possibile eseguire test o pubblicazioni se il sistema rileva ancora degli errori.
+
+Scopri come risolvere gli errori nelle attività e nel percorso [in questa pagina](troubleshooting.md).
