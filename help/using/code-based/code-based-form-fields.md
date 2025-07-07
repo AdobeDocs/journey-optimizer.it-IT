@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -149,8 +149,8 @@ Di seguito sono riportati alcuni esempi di modelli JSON e HTML, alcuni dei quali
 >
 >Quando si fa riferimento ai campi in linea nel payload JSON:
 >
->   * I campi di tipo stringa devono essere racchiusi tra virgolette.
->   * I numeri interi o i numeri booleani NON devono essere racchiusi tra virgolette doppie. (Vedi il campo `number_of_items` nell&#39;esempio precedente.)
+>* I campi di tipo stringa devono essere racchiusi tra virgolette.
+>* I numeri interi o i numeri booleani NON devono essere racchiusi tra virgolette doppie. (Vedi il campo `number_of_items` nell&#39;esempio precedente.)
 
 **Modello JSON con decisioning:**
 
@@ -246,4 +246,4 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463999/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
