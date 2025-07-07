@@ -139,6 +139,7 @@ Di seguito sono riportati alcuni esempi di CSS validi.
   }
 }
 ```
+
 +++
 
 +++ Esempi di CSS non valido
@@ -165,6 +166,7 @@ Sintassi non valida, ad esempio parentesi graffe mancanti, non accettata:
 body {
   background: red;
 ```
+
 +++
 
 ## Implementazione tecnica {#implementation}
@@ -205,6 +207,7 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
   </body>
 </html>
 ```
+
 +++
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
