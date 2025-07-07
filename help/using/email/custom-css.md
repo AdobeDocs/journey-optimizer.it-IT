@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, editor, riepilogo, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -71,7 +71,7 @@ Per aggiungere CSS personalizzati al contenuto delle e-mail, segui i passaggi in
 >
 >Evita l’utilizzo di CSS che potrebbero interrompere involontariamente il layout o la funzionalità del contenuto.
 
-### CSS valido
++++ Esempi di CSS
 
 Di seguito sono riportati alcuni esempi di CSS validi.
 
@@ -139,8 +139,9 @@ Di seguito sono riportati alcuni esempi di CSS validi.
   }
 }
 ```
++++
 
-### CSS non valido
++++ Esempi di CSS non valido
 
 Se viene immesso un CSS non valido, viene visualizzato un messaggio di errore che indica che il CSS non può essere salvato. Di seguito sono riportati alcuni esempi di file CSS non validi.
 
@@ -164,10 +165,13 @@ Sintassi non valida, ad esempio parentesi graffe mancanti, non accettata:
 body {
   background: red;
 ```
++++
 
 ## Implementazione tecnica {#implementation}
 
 Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come parte di un tag `<style>` con l&#39;attributo `data-name="global-custom"`, come nell&#39;esempio seguente. In questo modo gli stili personalizzati vengono applicati globalmente al contenuto.
+
++++ Vedi esempio
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
   </body>
 </html>
 ```
++++
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
 
-### Contenuto importato
+### Guardrail - Contenuto importato
 
 Se desideri utilizzare CSS personalizzati con il contenuto importato nel Designer e-mail, considera quanto segue:
 
@@ -223,20 +228,28 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
 * Verifica che il tuo CSS sia stato aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"`.
 
-* Verificare se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato. Ad esempio:
+* Verificare se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato.
+
++++ Ad esempio:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * Assicurati che il tuo CSS non sia sovrascritto da altre regole CSS, incluso qualsiasi [tema](apply-email-themes.md) applicato al contenuto.
 
    * Utilizza gli strumenti di sviluppo del browser per esaminare il contenuto e verificare che i CSS stiano eseguendo il targeting dei selettori corretti.
 
-   * Prendi in considerazione l&#39;aggiunta di `!important` alle tue dichiarazioni per assicurarti che abbiano la precedenza. Ad esempio:
+   * Prendi in considerazione l&#39;aggiunta di `!important` alle tue dichiarazioni per assicurarti che abbiano la precedenza.
+
++++ Ad esempio:
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
