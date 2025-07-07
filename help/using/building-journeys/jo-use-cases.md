@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 676bda4d11ea2bf775c78542b392a1a35ca2c891
+source-git-commit: 85b02f7c0c6cfbaffb458aea79afa6e7d080d10e
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 10%
@@ -139,7 +139,7 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 </div>
 <p></td>
 <td>
-<img alt="Azioni personalizzate" src="../assets/do-not-localize/extend.jpeg">
+<img alt="Azioni personalizzate" src="../assets/do-not-localize/list.jpeg">
 <div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Come estendere Adobe Journey Optimizer con azioni personalizzate: casi di utilizzo dell'integrazione
 </a>
 </div>
