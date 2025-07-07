@@ -6,10 +6,11 @@ description: Scopri come utilizzare l’attività Save audience in una campagna 
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
+source-git-commit: ab3cfbdc5c48b5fea47817d39fb8429e096439ff
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 16%
+source-wordcount: '345'
+ht-degree: 8%
 
 ---
 
@@ -32,26 +33,28 @@ Questa attività è particolarmente utile per mantenere i segmenti di pubblico c
 
 ## Configurare l’attività Salva pubblico {#save-audience-configuration}
 
-Per configurare l’attività **Salva pubblico**, segui questi passaggi:
+Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi passaggi:
 
-1. Aggiungi un&#39;attività **Save audience** alla campagna orchestrata.
+1. Aggiungi un&#39;attività **[!UICONTROL Save audience]** alla campagna orchestrata.
 
-1. Nel menu a discesa **Modalità**, selezionare l&#39;azione che si desidera eseguire:
+1. Immetti una **[!UICONTROL etichetta di pubblico]** che identificherà il pubblico salvato.
 
-   * **Crea o aggiorna un pubblico esistente**: definisci una **etichetta pubblico**. Se il pubblico esiste già, viene aggiornato; in caso contrario, viene creato un nuovo pubblico.
+1. Fai clic su **[!UICONTROL Aggiungi attributo pubblico]** per definire la struttura e la memorizzazione dei dati sul pubblico da riutilizzare in futuro.
 
-   * **Aggiorna un pubblico esistente**: scegli il **pubblico** da aggiornare dall&#39;elenco dei tipi di pubblico esistenti.
+   ![](../assets/save-audience-1.png)
 
-1. Seleziona la **modalità di aggiornamento** applicabile ai tipi di pubblico esistenti:
+1. Quindi, seleziona il **[!UICONTROL campo di identità primaria]** &#x200B;e il **[!UICONTROL spazio dei nomi di identità]** appropriati per garantire una risoluzione accurata del profilo.
 
-   * **Sostituisci il contenuto del pubblico con nuovi dati**: tutto il contenuto del pubblico viene sostituito e i vecchi dati andranno persi. Vengono conservati solo i dati della transizione in entrata dell&#39;attività **Save audience**. Questa opzione elimina il tipo di pubblico e la dimensione di targeting del pubblico aggiornato.
+   ![](../assets/save-audience-2.png)
 
-   * **Pubblico completo con nuovi dati**: il contenuto del pubblico precedente viene mantenuto e i dati della transizione in entrata dell&#39;attività **Salva pubblico** vengono aggiunti a esso.
+1. Completa la configurazione salvando e pubblicando la campagna orchestrata. Questo genererà e memorizzerà il tuo pubblico.
 
-1. Seleziona l&#39;opzione **Genera una transizione in uscita** se desideri aggiungere una transizione dopo l&#39;attività **Salva pubblico**.
+Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
-Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **Tipi di pubblico**. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell&#39;attività **Save audience** della campagna orchestrata.
+![](../assets/save-audience-3.png)
 
 ## Esempio {#save-audience-example}
 
-L’esempio seguente illustra un semplice aggiornamento del pubblico dal targeting. Una pianificazione esegue la campagna orchestrata una volta al mese. Una query recupera tutti i profili abbonati alle diverse applicazioni disponibili. L&#39;attività **Save audience** aggiorna il pubblico rimuovendo i profili che hanno annullato l&#39;abbonamento al servizio dall&#39;ultima esecuzione della campagna orchestrata e aggiungendo i profili appena abbonati.
+L’esempio seguente illustra come creare un pubblico semplice utilizzando il targeting. Una query identifica tutti i profili che hanno effettuato un acquisto negli ultimi 30 giorni. L&#39;attività **[!UICONTROL Save audience]** acquisisce quindi questi profili per creare un pubblico riutilizzabile di acquirenti recenti.
+
+![](../assets/save-audience-4.png)
