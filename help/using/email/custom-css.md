@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, editor, riepilogo, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -142,6 +142,7 @@ Di seguito sono riportati alcuni esempi di CSS validi.
 
 +++
 
+
 +++ Esempi di CSS non valido
 
 Se viene immesso un CSS non valido, viene visualizzato un messaggio di errore che indica che il CSS non può essere salvato. Di seguito sono riportati alcuni esempi di file CSS non validi.
@@ -209,6 +210,7 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
 ```
 
 +++
+
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
 
