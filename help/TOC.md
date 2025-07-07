@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 97%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 97%
       + [Terminare il percorso](using/building-journeys/end-journey.md)
       + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Integrare con Intelligent Services](using/building-journeys/ai-services-overview.md)
-   + Risoluzione dei problemi {#troubleshoot-journey}
-      + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
-      + [Risolvere i problemi relativi all&#39;esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
-      + [Risoluzione dei problemi delle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
    + Attività {#about-journey-building}
       + [Introduzione alle attività dei percorsi](using/building-journeys/about-journey-activities.md)
       + [Eventi generali](using/building-journeys/general-events.md)
@@ -178,6 +174,10 @@ ht-degree: 97%
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
       + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
+   + Risoluzione dei problemi {#troubleshoot-journey}
+      + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
+      + [Risolvere i problemi relativi all&#39;esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
+      + [Risoluzione dei problemi delle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
 + Campagne orchestrate {#orchestrated-campaigns}
    + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Passaggi di configurazione](using/orchestrated/configuration-steps.md)
