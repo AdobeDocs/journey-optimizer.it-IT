@@ -50,4 +50,4 @@ Scopri come creare percorsi [ in questi casi d&#39;uso end-to-end](jo-use-cases.
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430348?quality=12&captions=ita)
