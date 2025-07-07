@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Cion il designer del percorso, i marketer possono inviare messaggi 1:1 in tempo 
 
 Il [designer del percorso](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journeys-message.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/MMS, nonché i canali in entrata, inclusi siti web, app per dispositivi mobili ed esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi, tramite e-mail, testo o altri canali. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l’integrazione di tali sistemi nei percorsi direttamente dal designer del percorso.
 
-Scopri come creare percorsi nei seguenti casi d’uso end-to-end:
-
-* [Inviare messaggi multicanale](journeys-uc.md)
-* [Inviare un messaggio con Campaign v7/v8](ajo-ac.md)
-* [Inviare un messaggio agli abbonati](message-to-subscribers-uc.md)
-* [Passaggio dinamico delle raccolte tramite azioni personalizzate](collections.md)
-* [Limite di trasmissione con origini dati esterne e azioni personalizzate](limit-throughput.md)
+Scopri come creare percorsi [ in questi casi d&#39;uso end-to-end](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Scopri come creare percorsi nei seguenti casi d’uso end-to-end:
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
