@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '916'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,9 @@ In questa pagina è disponibile l’elenco dei set di dati di Adobe Journey Opti
 * [Set di dati di entità](#entity-dataset)
 
 Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
+
+Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso](../reports/query-examples.md).
+
 
 ## Set di dati dell’evento di tracciamento e-mail{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso](../reports/query-examples.md).
+
+
 
 ## Set di dati dell’evento Decisioning{#ode-decisionevents}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 2%
@@ -25,11 +25,11 @@ Assicurati che i campi utilizzati nelle query abbiano valori associati nello sch
 
 * id: univoco per tutte le voci evento del passaggio. Due eventi di passaggio diversi non possono avere lo stesso ID.
 * instanceId: instanceID è lo stesso per tutti gli eventi di passaggio associati a un profilo all’interno di un’esecuzione di percorso. Se un profilo torna nel percorso, verrà utilizzato un instanceId diverso. Questo nuovo instanceId sarà lo stesso per tutti gli eventi di passaggio dell’istanza reinserita (dall’inizio alla fine).
-* profileID: l’identità del profilo che corrisponde allo spazio dei nomi del percorso.
+* profileID: l’identità del profilo corrispondente allo spazio dei nomi del percorso.
 
 >[!NOTE]
 >
->Per la risoluzione dei problemi, si consiglia di utilizzare journeyVersionID invece di journeyVersionName durante la query sui percorsi. Ulteriori informazioni sugli attributi delle proprietà del percorso [in questa sezione](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Per la risoluzione dei problemi, si consiglia di utilizzare journeyVersionID invece di journeyVersionName durante la query sui percorsi. Ulteriori informazioni sugli attributi delle proprietà del percorso [in questa sezione](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 ## Casi d’uso di base/query comuni {#common-queries}
 
