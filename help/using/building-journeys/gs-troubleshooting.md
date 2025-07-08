@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
-source-git-commit: b9db2b39629750ead953a229a46e3a75467fd203
+exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
+source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 2%
+source-wordcount: '212'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +40,7 @@ Esplora le pagine seguenti per approfondire argomenti specifici sulla risoluzion
     </td>
     <td>
     <a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/lp-list.jpg"></a>
-    <div><strong>Risoluzione dei problemi relativi alle azioni personalizzate</strong><br/>Scopri come verificare le azioni personalizzate inviando chiamate API dalla sezione amministrazione dell'interfaccia utente di Journey Optimizer. Questa funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo il loro utilizzo in un percorso.</div>
+    <div><strong>Risoluzione dei problemi relativi alle azioni personalizzate</strong><br/>Scopri come verificare le azioni personalizzate inviando chiamate API dalla sezione amministrazione dell'interfaccia utente di Journey Optimizer.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -50,42 +51,6 @@ Esplora le pagine seguenti per approfondire argomenti specifici sulla risoluzion
     </tr>
 </table>
 
-<!--
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><img alt="Troubleshoot journey errors" src="../assets/do-not-localize/troubleshooting.jpeg" /> 
-    <br><ul><li><a href="../building-journeys/troubleshooting.md">Troubleshoot journey errors</a> - Learn how to identify and resolve activity or journey errors before test or publication, and how to define a fallback action in case of an error in journey activities.</li>
-    <li><a href="../building-journeys/troubleshooting-execution.md">Troubleshoot journey execution</a> - Understand how to troubleshoot journey events, check if profiles entered your journey, how they navigate through it, and if messsages are sent.</li>
-     <li><a href="../building-journeys/troubleshooting-inbound.md">Troubleshoot inbound actions</a> - Learn how to debug issues related to inbound actions in a journey, in order to help you identify and resolve them on your own.</li>
-     <li><a href="../action/troubleshoot-custom-action.md">Troubleshoot a custom action</a> - Learn how to test your custom actions by sending API calls from the administration section of Journey Optimizer user interface. This capability helps you troubleshoot your custom actions before or after using them in a journey.</li>
-    <ul>
-    <div>
-     <a href="../integrations/ajo-integrations.md">Learn more</a></div>
-    </div>
-    <br>
-  </td>
-</tr>
-</table>
--->
-
-<!--
-* **[Troubleshoot journey errors](../building-journeys/troubleshooting.md)**
-  Learn how to identify and resolve activity or journey errors before test or publication, and how to define a fallback action in case of an error in journey activities.
-
-* **[Troubleshoot journey execution](../building-journeys/troubleshooting-execution.md)**
-  Understand how to troubleshoot journey events, check if profiles entered your journey, how they navigate through it, and if messsages are sent.
-
-* **[Troubleshoot inbound actions](../building-journeys/troubleshooting-inbound.md)**
-  Learn how to debug issues related to inbound actions in a journey, in order to help you identify and resolve them on your own.
-
-* **[Troubleshoot a custom action](../action/troubleshoot-custom-action.md)**
-  Learn how to test your custom actions by sending API calls from the administration section of Journey Optimizer user interface. This capability helps you troubleshoot your custom actions before or after using them in a journey.
-
--->
-
-
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -93,13 +58,8 @@ Esplora le pagine seguenti per approfondire argomenti specifici sulla risoluzion
     <div>
     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Comprendere i codici di errore comuni" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Consulta anche questo post di blog della community Adobe che descrive <strong>codici di errore comuni</strong> e spiega come risolverli in modo efficace.
-    </div>
-      <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">Ulteriori informazioni</a></div>
+    <br>Consulta inoltre <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">questo post di blog della community Adobe</a> in cui vengono descritti <strong>codici di errore comuni</strong> e come risolverli in modo efficace.
     </div>
   </td>
 </tr>
 </table>
-
-
