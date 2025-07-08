@@ -5,19 +5,14 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 hide: true
 hidefromtoc: true
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: d9fb9462c52eb8a79fd2c9bd6bdb5381d318453f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
 # Guardrail e limitazioni {#guardrails}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_publication"
->title="Pubblicare una campagna orchestrata"
->abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli avvisi siano cancellati prima della pubblicazione."
 
 +++ Sommario
 
