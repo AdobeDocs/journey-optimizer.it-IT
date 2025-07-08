@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
-source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
+source-git-commit: b9db2b39629750ead953a229a46e3a75467fd203
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Esplora le pagine seguenti per approfondire argomenti specifici sulla risoluzion
     <div><strong>Risolvere i problemi relativi all'esecuzione del percorso</strong><br/> Comprendere come risolvere i problemi relativi agli eventi di percorso, verificare se i profili sono entrati nel percorso, come si spostano e se i messaggi vengono inviati.</div>
     </td>
     <td>
-    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="../building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong>Risolvere i problemi relativi alle azioni in entrata</strong><br/>Scopri come eseguire il debug dei problemi relativi alle azioni in entrata in un percorso, per identificarli e risolverli autonomamente.</div>
     </td>
     <td>
