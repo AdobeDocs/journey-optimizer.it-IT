@@ -10,10 +10,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: direct mail, messaggio, campagna
-source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
+source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 28%
+source-wordcount: '760'
+ht-degree: 22%
 
 ---
 
@@ -29,9 +29,7 @@ Direct mail è un canale offline che consente di personalizzare e generare l’e
 
 Durante la creazione di un messaggio di direct mailing, [!DNL Journey Optimizer] genera automaticamente un file contenente tutti i profili target e i dati selezionati, ad esempio gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mail di terze parti scelto, che gestirà il processo di invio e-mail effettivo per te.
 
-Sarà necessario collaborare con il provider di direct maili di terze parti scelto per ottenere, se applicabile, il consenso necessario dai clienti alla ricezione di posta da parte tua.
-
-L’utilizzo dei servizi di posta è soggetto a termini e condizioni aggiuntivi da parte del provider di direct mailing di terze parti applicabile. Adobe non controlla i prodotti di terze parti né è responsabile per l’utilizzo di tali prodotti. Per eventuali problemi o richieste di assistenza relativi all’invio del messaggio di direct mailing, contatta il provider di direct mailing di terze parti scelto.
+Devi collaborare con il provider di direct mailing di terze parti scelto per ottenere il consenso necessario dai tuoi clienti, se applicabile, in modo che i tuoi clienti possano ricevere e-mail da te. L’utilizzo dei servizi di posta è soggetto a termini e condizioni aggiuntivi da parte del provider di direct mailing di terze parti applicabile. Adobe non controlla i prodotti di terze parti né è responsabile per l’utilizzo di tali prodotti. Per eventuali problemi o richieste di assistenza relativi all’invio del messaggio di direct mailing, contatta il provider di direct mailing di terze parti scelto.
 
 >[!NOTE]
 >
@@ -58,11 +56,9 @@ Prima di creare un messaggio di direct mailing, accertati di aver configurato un
 
 ## Creare una configurazione direct mailing {#direct-mail-surface}
 
-Una configurazione di direct mailing contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file.
+Una configurazione di direct mailing contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento dei file. Informazioni dettagliate su come creare una configurazione di direct mail sono disponibili nella sezione [Configurazione di direct mail](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-Informazioni dettagliate su come creare una configurazione di direct mail sono disponibili nella sezione [Configurazione di direct mail](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
-
-Quando la configurazione della direct mailing è pronta, puoi creare un’azione di aggiunta direct mailing al percorso.
+Quando la configurazione della direct mailing è pronta, puoi aggiungere un’azione di direct mailing nel percorso.
 
 ## Aggiungere un&#39;azione Direct mailing al percorso
 
@@ -70,24 +66,20 @@ Per aggiungere un’azione direct mailing in un percorso, effettua le seguenti o
 
 1. Apri il percorso, quindi trascina un&#39;attività di **[!UICONTROL Direct mail]** dalla sezione **Actions** della palette.
 
-1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli la configurazione del messaggio da utilizzare. Il campo **[!UICONTROL configuration]** è precompilato, per impostazione predefinita, con l&#39;ultima configurazione utilizzata per quel canale dall&#39;utente.
+1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli la configurazione del messaggio da utilizzare. Il campo **[!UICONTROL configuration]** è precompilato, per impostazione predefinita, con l&#39;ultima configurazione utilizzata per quel canale dall&#39;utente. Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
-   Per ulteriori informazioni su come configurare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md)
-
-1. Ora puoi configurare il file di estrazione da inviare al provider di direct mailing. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica contenuto]**.
+1. Configura il file di estrazione da inviare al provider di direct mailing. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Regola le proprietà del file di estrazione, ad esempio il nome del file o le colonne da visualizzare. Per ulteriori informazioni su come configurare le proprietà del file di estrazione, consulta questa sezione. [Creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md#extraction-file)
+1. Regola le proprietà del file di estrazione, ad esempio il nome del file o le colonne da visualizzare. Per ulteriori informazioni su come configurare le proprietà del file di estrazione, fare riferimento a questa sezione: [Creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
 1. Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-   A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**, quindi aggiungere un profilo di test per verificare il rendering del file di estrazione utilizzando i dati del profilo di test.
+   A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**, quindi aggiungere un profilo di test per verificare il rendering del file di estrazione utilizzando i dati del profilo di test. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
-
-   Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
 Quando il file di estrazione è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) per inviarlo.
