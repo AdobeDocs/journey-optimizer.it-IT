@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -43,24 +43,30 @@ Questa pagina illustra i passaggi essenziali per creare e avviare una campagna o
 
 ## Passaggio 1: creare e pianificare la campagna {#create}
 
-Prima di tutto, devi creare la tua campagna orchestrata e definire *quando* deve essere eseguita. Che si tratti di un percorso push una tantum o ricorrente, avrai il pieno controllo su tempistica e frequenza.
+Prima di tutto, devi creare la tua campagna orchestrata e definire *quando* deve essere eseguita. Che si tratti di una campagna push una tantum o di una campagna multicanale ricorrente, avrai il pieno controllo su tempistica e frequenza.
 
-👉 [Scopri come creare e pianificare una campagna](../orchestrated/create-orchestrated-campaign.md)
+➡️ [Scopri come creare e pianificare una campagna](../orchestrated/create-orchestrated-campaign.md)
 
 ## Passaggio 2: orchestrare le attività della campagna {#orchestrate}
 
 Una volta creata la campagna, è ora di progettare la logica che sta alla base. Utilizzando un’area di lavoro visiva, puoi combinare attività di targeting, consegna e controllo del flusso per modellare l’esperienza del cliente.
 
-👉 [Scopri come coordinare le attività](../orchestrated/orchestrate-activities.md)
+➡️ [Scopri come coordinare le attività](../orchestrated/orchestrate-activities.md)
 
 ## Passaggio 3: avviare e monitorare la campagna {#start}
 
 Ci sei quasi! Esegui prima la campagna in modalità di test per individuare eventuali problemi. Quindi pubblicalo e monitora l’esecuzione live in tempo reale: tieni traccia dell’avanzamento, verifica la presenza di errori e osserva come scorrono i profili in ogni passaggio.
 
-👉 [Scopri come avviare e monitorare una campagna](../orchestrated/start-monitor-campaigns.md)
+➡️ [Scopri come avviare e monitorare una campagna](../orchestrated/start-monitor-campaigns.md)
 
 ## Passaggio 4: analisi e rapporto sui risultati {#report}
 
 Dopo il lancio, utilizza i rapporti incorporati per capire cosa ha funzionato e cosa potrebbe essere migliorato. Le dashboard in tempo reale e le analisi approfondite consentono di ottimizzare le campagne future e di perfezionare la strategia.
 
-👉 [Ulteriori informazioni sui report](../orchestrated/reporting-campaigns.md)
+➡️ [Ulteriori informazioni sui report](../orchestrated/reporting-campaigns.md)
+
+## Per andare oltre: eseguire il retargeting in base al coinvolgimento {#retarget}
+
+Una volta eseguita la campagna, puoi fare un ulteriore passo avanti eseguendo il retargeting dei profili in base al modo in cui hanno interagito con il messaggio, che lo abbiano aperto o fatto clic su un collegamento. Questo consente di seguire messaggi personalizzati, coinvolgere nuovamente gli utenti inattivi o raddoppiare gli interessi.
+
+➡️ [Scopri come eseguire il retargeting in base agli eventi di feedback](../orchestrated/retarget.md)
