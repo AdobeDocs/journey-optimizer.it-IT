@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 18%
 
 ---
@@ -55,7 +55,7 @@ Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
 1. Nella sezione **[!UICONTROL Azioni]** scegliere **[!UICONTROL Direct mail]**.
 
-1. Selezionare o creare una nuova configurazione **[!UICONTROL Configurazione direct mailing]** da utilizzare. [Scopri come creare una configurazione di direct mailing](direct-mail-configuration.md#direct-mail-surface).
+1. Selezionare o creare una **[!UICONTROL configurazione direct mailing]** da utilizzare. [Scopri come creare una configurazione di direct mailing](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
