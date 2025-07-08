@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
       + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
    + Risoluzione dei problemi {#troubleshoot-journey}
+      + [Risolvere i problemi dei percorsi](using/building-journeys/gs-troubleshooting.md)
       + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
       + [Risoluzione dei problemi di esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
       + [Risoluzione dei problemi delle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
+      + [Risolvere i problemi di un’azione personalizzata](using/action/troubleshoot-custom-action.md)
 + Campagne orchestrate {#orchestrated-campaigns}
    + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Passaggi di configurazione](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
    + Configurazione delle azioni {#action-journeys}
       + [Introduzione alle azioni personalizzate](using/action/action.md)
       + [Configurare un’azione personalizzata](using/action/about-custom-action-configuration.md)
-      + [Risolvere i problemi di un’azione personalizzata](using/action/troubleshoot-custom-action.md)
       + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
 + Collegare i sistemi e gli ambienti {#connect-systems}
    + [Integrazione con altre soluzioni](using/integrations/ajo-integrations.md)

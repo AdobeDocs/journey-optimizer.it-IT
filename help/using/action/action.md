@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '285'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 48%
 Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail, SMS o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda.
 
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 [!DNL Journey Optimizer] viene fornito con funzionalità per messaggi incorporate. Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
@@ -44,8 +44,10 @@ Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selez
 
 ![](assets/custom1.png)
 
+Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in questa pagina dedicata](../action/troubleshoot-custom-action.md).
+
 ## Video dimostrativo {#video}
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
