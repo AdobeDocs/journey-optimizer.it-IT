@@ -10,7 +10,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 9%
+ht-degree: 47%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="Attività Crea pubblico"
->abstract="L&#39;attività **Read audience** ti consente di selezionare il pubblico che entrerà nella campagna orchestrata. Questo pubblico può essere un pubblico di Adobe Experience Platform esistente o un pubblico estratto da un file CSV. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma in un&#39;attività **Read audience** o **Build audience**."
+>abstract="L’attività **Leggi pubblico** ti consente di selezionare il pubblico che entrerà nella campagna orchestrata. Questo pubblico può essere un pubblico esistente di Adobe Experience Platform o uno estratto da un file CSV. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Leggi pubblico** o **Crea pubblico**."
 
 
 +++ Sommario

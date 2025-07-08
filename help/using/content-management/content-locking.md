@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Sola lettura"
->abstract="Questo contenuto è in modalità di sola lettura e non può essere modificato."
+>abstract="Questo contenuto è in sola lettura e non può essere modificato."
 
 Journey Optimizer consente di bloccare il contenuto nei modelli e-mail, bloccando l’intero modello o strutture e componenti specifici. In questo modo è possibile evitare modifiche o eliminazioni non intenzionali, offrendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.
 
@@ -196,4 +196,4 @@ Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazion
 
 Scopri come bloccare il contenuto nei modelli e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451615?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Attività Crea pubblico"
->abstract="L’attività **Crea pubblico** ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma in un&#39;attività **Genera pubblico**."
+>abstract="L’attività **Crea pubblico** ti consente di definire il pubblico che entrerà nella campagna orchestrata. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**."
 
 +++ Sommario
 
@@ -51,7 +51,7 @@ Per configurare l’attività **[!UICONTROL Crea pubblico]**, segui questi passa
 
    ![](../assets/build-audience.png)
 
-1. Definisci un&#39;etichetta **&#x200B;**.
+1. Definisci un&#39;etichetta ****.
 
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 

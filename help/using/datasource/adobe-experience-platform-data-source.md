@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 21%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Origine dati Adobe Experience Platform"
->abstract="L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. È progettato per recuperare e utilizzare i dati del Real-time Customer Profile Service (ad esempio, per verificare se la persona che ha inserito un percorso è una donna)."
+>abstract="L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. È progettata per recuperare e utilizzare i dati dal servizio Profilo cliente in tempo reale (ad esempio, controlla se la persona che ha effettuato l’accesso in un percorso è una donna)."
 
 L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. Questa origine dati è progettata per recuperare e utilizzare i dati del servizio Profilo cliente in tempo reale (ad esempio, verificare se la persona che ha inserito un percorso è una donna). Per ulteriori informazioni su Adobe Real-time Customer Profile, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
