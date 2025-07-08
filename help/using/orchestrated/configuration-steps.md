@@ -185,7 +185,7 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
    * Con un nuovo account
 
-   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
