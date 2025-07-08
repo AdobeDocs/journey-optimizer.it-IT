@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
-workflow-type: ht
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+workflow-type: tm+mt
 source-wordcount: '3117'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Ora puoi creare formule di classificazione di decisioning specifiche definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di classificazione personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/exd-ranking-formulas.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/ranking/ranking-formulas.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 14 maggio 2025</p>
 </td>
 </tr>
