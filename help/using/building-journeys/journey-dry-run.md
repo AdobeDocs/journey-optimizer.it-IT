@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '864'
+ht-degree: 24%
 
 ---
 
@@ -87,24 +87,10 @@ Per attivare l&#39;esecuzione in prova, effettuare le seguenti operazioni:
 
 Una volta avviata la pubblicazione in modalità Asciutto, puoi visualizzare l’esecuzione del percorso e il modo in cui i profili progrediscono attraverso rami e nodi del percorso.
 
-Le metriche vengono visualizzate direttamente nell’area di lavoro del percorso.
+Le metriche vengono visualizzate direttamente nell’area di lavoro del percorso. Ulteriori informazioni sui report e le metriche live di percorso sono disponibili in [Report live nell&#39;area di lavoro di percorso](report-journey.md).
 
 ![Monitorare l&#39;esecuzione di prova del percorso](assets/dry-run-metrics.png)
 
-Per ogni attività, nella relativa casella di attività, puoi selezionare:
-
-* **[!UICONTROL Immesso]**: numero totale di singoli utenti che hanno iniziato questa attività. Per le attività **Action**, poiché non vengono eseguite in modalità di esecuzione a secco, questa metrica indica i profili che passano.
-* **[!UICONTROL Uscita (ha soddisfatto i criteri di uscita)]**: numero totale di persone che sono uscite dal percorso da tale attività, a causa di un criterio di uscita.
-* **[!UICONTROL Uscita (uscita forzata)]**: numero totale di individui che sono usciti dal percorso mentre era in pausa a causa di una configurazione di percorso da parte di un operatore. Questa metrica è sempre uguale a zero per i percorsi in modalità di esecuzione a secco.
-* **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
-
-
-A livello di percorso, nella sezione in alto a sinistra dell’area di lavoro, puoi selezionare:
-
-* Numero totale di **profili immessi**
-* Numero totale di **profili in uscita**
-* Numero totale di **profili in errore**
-* Numero totale di **profili scartati** nel percorso
 
 È inoltre possibile accedere ai **report delle ultime 24 ore** e ai **report delle ultime 24 ore** per l&#39;esecuzione di prova. Per accedere a questi report, fare clic sul pulsante **Visualizza report** nell&#39;angolo superiore destro dell&#39;area di lavoro del percorso.
 
