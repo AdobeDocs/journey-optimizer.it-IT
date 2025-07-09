@@ -262,7 +262,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/3412404?captions=ita">video sulle funzioni</a>.
+<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
 </td>
 </tr>
 </tbody>
