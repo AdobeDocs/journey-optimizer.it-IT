@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: e316c3dbbec028f7501990486506779656990c20
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 21%
+source-wordcount: '738'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,9 @@ Puoi anche eseguire la campagna in modalità di test per verificarne l’esecuzi
 
 ## Test della campagna prima della pubblicazione {#test}
 
-Journey Optimizer consente di testare le campagne orchestrate prima di andare &quot;live&quot;. In modalità di test, tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.
+[!DNL Journey Optimizer] consente di testare le campagne orchestrate prima della pubblicazione. Quando viene creata una campagna, per impostazione predefinita questa entra nello stato **Bozza**. In questo stato, puoi eseguire la campagna manualmente per testare il flusso.
+
+Tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e delle attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.
 
 Per testare una campagna:
 
@@ -47,7 +49,9 @@ Per testare una campagna:
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine del diagramma. Durante l’esecuzione del test, puoi gestire la campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui è possibile:
+Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine del diagramma.
+
+Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui è possibile:
 
 * **Interrompi** l&#39;esecuzione in qualsiasi momento.
 * **Avvia** di nuovo l&#39;esecuzione.
@@ -59,6 +63,8 @@ Se si verifica un errore o un avviso durante l&#39;esecuzione, viene inviata una
 
 Puoi anche identificare rapidamente le attività non riuscite utilizzando gli [indicatori di stato visivi](#activities) visualizzati direttamente su ogni attività. Per una risoluzione dettagliata dei problemi, apri i [registri della campagna](#logs-tasks), che forniscono informazioni approfondite sull&#39;errore e sul relativo contesto.
 
+Una volta convalidata, la campagna può essere pubblicata.
+
 ## Pubblica la campagna {#publish}
 
 Una volta testata e pronta la campagna, fai clic su **[!UICONTROL Pubblica]** per renderla disponibile.
@@ -66,6 +72,8 @@ Una volta testata e pronta la campagna, fai clic su **[!UICONTROL Pubblica]** pe
 ![](assets/campaign-publish.png){zoomable="yes"}
 
 Il flusso visivo si riavvia e i profili reali iniziano a scorrere nel percorso in tempo reale.
+
+Se l’azione di pubblicazione non riesce (ad esempio, a causa di contenuto del messaggio mancante), viene visualizzato un avviso e devi risolvere il problema prima di riprovare. Dopo la pubblicazione, la campagna passa dallo stato **Bozza** allo stato **Live** e inizia l&#39;esecuzione (immediatamente o secondo pianificazione).
 
 ## Monitorare l’esecuzione della campagna {#monitor}
 
