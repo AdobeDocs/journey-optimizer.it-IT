@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 >[!NOTE]
 >
->A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di Journey Optimizer. Inoltre, a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
+>A partire dal 1° novembre 2024, la segmentazione in streaming non supporta più eventi di invio e apertura dai set di dati di tracciamento e feedback [!DNL Journey Optimizer]. Per implementare la limitazione della frequenza o la gestione dell’affaticamento, utilizza le regole business. Puoi trovare ulteriori dettagli in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d&#39;uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>
+>Inoltre, a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
 
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività set di dati e vedi i dettagli del set di dati selezionato. La scheda attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 
@@ -52,7 +54,7 @@ I set di dati di sistema per Adobe Journey Optimizer sono elencati di seguito.
 * _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati.
 * _Generazione rapporti - Set di dati evento esperienza di tracciamento e-mail_: registri di interazione per il canale e-mail utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc.).
 * _Generazione rapporti - Set di dati evento esperienza di tracciamento push_: registri di interazione per il canale push, utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale sulle notifiche push.
-* _Generazione rapporti - Evento passaggio percorso_: acquisisce tutti gli eventi di esperienza passaggio percorso generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati percorso.
+* _Generazione rapporti - Evento passaggio percorso_: acquisisce tutti gli eventi esperienza per i passaggi dei percorsi generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati percorso.
 * _Generazione rapporti - Percorsi_: set di dati di metadati che raccoglie informazioni di ogni passaggio in un percorso.
 * _Generazione rapporti - Ccn_: set di dati evento di feedback che memorizza i log di consegna per le e-mail Ccn. Da utilizzare a scopo di generazione rapporti.
 
@@ -83,7 +85,7 @@ Puoi eseguire le seguenti operazioni:
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 
