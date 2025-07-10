@@ -10,9 +10,9 @@ level: Experienced
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Introduzione ai criteri di governance dei dati {#gs}
 
-Con il framework [Data Usage Labeling and Enforcement (DULE) governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it){target="_blank"}, Adobe Experience Platform ti consente di gestire e applicare i criteri di governance dei dati tra i tuoi canali **etichettando i campi** e creando **azioni di marketing** per ogni canale.
+Grazie al relativo framework di [governance per l’etichettatura e l’applicazione dell’utilizzo dati (DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it){target="_blank"}, Adobe Experience Platform consente di gestire e applicare i criteri di governance dei dati ai canali, **etichettando i campi** e creando **azioni di marketing** per ogni canale.
 
 Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#policy)
 

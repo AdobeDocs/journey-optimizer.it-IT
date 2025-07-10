@@ -7,9 +7,9 @@ topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 66%
 
 ## Ultimi aggiornamenti {#latest-updates}
 
-### Modifica delle condizioni del percorso {#ee-change@}
+### Modifica nelle condizioni di percorso {#ee-change@}
 
-A partire dall’8 luglio, nelle nuove organizzazioni dei clienti, la creazione di espressioni utilizzando gli eventi di esperienza non sarà più supportata nell’editor di espressioni utilizzato nelle condizioni di percorso. Di conseguenza, gli eventi esperienza nell&#39;[origine dati Experience Platform](../datasource/adobe-experience-platform-data-source.md) non possono essere utilizzati per la creazione di espressioni. Si fa riferimento ad approcci alternativi e best practice per la creazione di espressioni/logiche con eventi di esperienza [qui](../building-journeys/exp-event-lookup.md).
+A partire dall’8 luglio, nelle nuove organizzazioni della clientela, la creazione di espressioni utilizzando gli eventi esperienza non sarà più supportata nell’editor di espressioni utilizzato nelle condizioni del percorso. Di conseguenza, gli eventi esperienza nell’[origine dati di Experience Platform](../datasource/adobe-experience-platform-data-source.md) non possono essere utilizzati per la creazione di espressioni. Si fa riferimento ad approcci alternativi e best practice per la creazione di espressioni/logiche con eventi esperienza [qui](../building-journeys/exp-event-lookup.md).
 
-Non cambia il modo in cui i dati dell’evento di contesto del percorso sono accessibili nei percorsi unitari. Negli editor di espressioni e personalizzazione, gli utenti possono continuare ad accedere ai dati trasmessi con l’evento di percorso iniziale.
+Il modo in cui viene effettuato l’accesso ai dati dell’evento di contesto del percorso nei percorsi unitari rimane invariato. Negli editor di espressioni e di personalizzazione, gli utenti possono continuare ad accedere ai dati trasmessi con l’evento del percorso iniziale.
 
-Ulteriori informazioni [in queste domande frequenti](../building-journeys/exp-event-lookup.md#faq-ee).
+Per ulteriori informazioni, consulta [queste Domande frequenti](../building-journeys/exp-event-lookup.md#faq-ee).
 
 
 ## Note sulla versione di giugno 2025 {#25-6-rn}
@@ -41,7 +41,7 @@ Ulteriori informazioni [in queste domande frequenti](../building-journeys/exp-ev
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
@@ -50,13 +50,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Set di dati di Adobe Experience Platform nel processo decisionale (beta)</strong><br/></th>
+<th><strong>Set di dati di Adobe Experience Platform nella funzione Decisioni (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Precedentemente disponibili per la personalizzazione, i set di dati Adobe Experience Platform ora possono essere utilizzati a scopo decisionale. Questo ti consente di estendere la definizione degli attributi decisionali ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.</p>
+<p>Precedentemente disponibili per la personalizzazione, i set di dati di Adobe Experience Platform ora possono essere sfruttati per la funzione decisioni. Questo consente di estendere la definizione degli attributi di decisione ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.</p>
 <p>Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica. Se desideri accedervi, contatta il rappresentante del tuo account.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/aep-data-exd.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 20 giugno 2025</p>
@@ -125,13 +125,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Attività Content Decision nei percorsi</strong><br/></th>
+<th><strong>Attività di decisione sul contenuto nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi includere offerte personalizzate nei tuoi percorsi tramite un’attività Content Decision dedicata nell’area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
+<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle attività relative tramite un’attività dedicata di decisione sul contenuto nell’area di lavoro del percorso, comprese condizioni e azioni personalizzate.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/content-decision.md">documentazione dettagliata</a>.</p>
@@ -224,33 +224,33 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Set di regole del canale**
 
-   * **Intervallo di durata personalizzato** per la limitazione - Nella schermata di configurazione dei set di regole di canale è ora disponibile un nuovo campo **Ogni**, che consente di applicare le regole della limitazione della frequenza su più giorni, settimane o mesi, a seconda della durata specificata.
+   * **Intervallo di durata personalizzato** per la limitazione: nella schermata di configurazione dei set di regole del canale è ora disponibile il nuovo campo **Ogni**, che consente di applicare regole di quota limite su più giorni, settimane o mesi, a seconda della durata specificata.
 
-   * **Frequenza limite di reimpostazione oraria** - È ora possibile applicare il limite su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
+   * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
 
-   * **Durata giornaliera** - Precedentemente disponibile in Disponibilità limitata, il limite di frequenza &quot;Giornaliero&quot; nei set di regole del canale è ora disponibile per tutti i clienti.
+   * **Durata giornaliera**: precedentemente disponibile in Disponibilità limitata, la quota limite “Giornaliera” nei set di regole del canale è ora disponibile per tutta la clientela.
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../conflict-prioritization/channel-capping.md).
 
 * **Esperienze basate su codice**
 
-   * L’aggiunta di un criterio decisionale è ora disponibile nei modelli di contenuto di esperienza basati su codice, dove può essere utilizzato per sfruttare le offerte nei campi di modulo modificabili. [Ulteriori informazioni](../code-based/code-based-form-fields.md)
+   * L’aggiunta di un criterio di decisione è ora disponibile nei modelli di contenuto di esperienza basata su codice, dove può essere utilizzato per sfruttare le offerte nei campi di modulo modificabili. [Ulteriori informazioni](../code-based/code-based-form-fields.md)
 
-   * Dalla schermata del percorso di esperienze basato sul codice o dell’edizione di una campagna, ora puoi aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione. [Ulteriori informazioni](../code-based/create-code-based.md#edit-code)
+   * Dal percorso dell’esperienza basata su codice o dalla schermata di modifica della campagna, ora è possibile aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione. [Ulteriori informazioni](../code-based/create-code-based.md#edit-code)
 
 * **Supporto CSS personalizzato in E-mail Designer**
 
-  Journey Optimizer ora consente di aggiungere CSS personalizzati al contenuto delle e-mail direttamente all’interno di E-mail Designer. [Ulteriori informazioni](../email/custom-css.md)
+  Journey Optimizer ora consente di aggiungere CSS personalizzato al contenuto delle e-mail direttamente all’interno di E-mail designer. [Ulteriori informazioni](../email/custom-css.md)
 
 * **Nuova navigazione con schede per le campagne**
 
-  Un nuovo modello di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni tra le campagne. [Ulteriori informazioni](../campaigns/create-campaign.md)
+  Un nuovo pattern di navigazione consente un accesso più rapido all’authoring dei contenuti e supporta un’ulteriore espansione delle impostazioni nelle campagne. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
 * **Funzione Decisioni**
 
-   * **Copia sandbox e decisioni** (data di disponibilità: 3 giugno 2025) - È ora possibile copiare gli oggetti decisioning tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **Copia sandbox e funzione Decisioni** (data di disponibilità: 3 giugno 2025): è ora possibile copiare gli oggetti della funzione Decisioni tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Supporto degli attributi degli elementi di decisione per le regole di decisione** (data di disponibilità: 4 giugno 2025) - È ora possibile sfruttare gli attributi degli elementi di decisione per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
+   * **Supporto dell’attributo degli elementi decisionali per le regole di decisione** (data di disponibilità: 4 giugno 2025): è ora possibile sfruttare gli attributi degli elementi decisionali per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
 
 * **Aggiornamento API per l’esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 79%
 
 Nell’attuale scenario di marketing dinamico, raggiungere in modo efficace il pubblico su varie piattaforme è essenziale per creare relazioni durature e stimolare il coinvolgimento. Questa sezione fornisce una panoramica completa dei canali di comunicazione disponibili in [!DNL Adobe Journey Optimizer], per consentirti di comprendere come utilizzare efficacemente ciascun canale nelle strategie di marketing.
 
-Adobe Journey Optimizer offre una varietà di canali nativi per interagire con il pubblico in modo efficace. Puoi combinare la consegna dei messaggi in uscita e le esperienze in entrata.
+Adobe Journey Optimizer offre una varietà di canali nativi per interagire con il pubblico in modo efficace. È possibile combinare la consegna dei messaggi in uscita e le esperienze in entrata.
 
 ## Canali in uscita per la consegna dei messaggi {#outbound-channels}
 
 I canali di consegna dei messaggi in uscita comportano l’invio di messaggi alla clientela senza una precedente interazione. Alcuni esempi includono campagne e-mail e notifiche push, in cui puoi contattare il pubblico in modo proattivo. In [!DNL Adobe Journey Optimizer] i canali in uscita supportati sono:
 
 * **E-mail**: consegna messaggi personalizzati direttamente nelle caselle in entrata della clientela.
-* **SMS/MMS/RCS**: invia messaggi di testo agli utenti sui loro dispositivi mobili.
+* **SMS/MMS/RCS**: invia messaggi di testo per raggiungere gli utenti sui propri dispositivi mobili.
 * **Notifica push**: coinvolgi gli utenti con notifiche istantanee sui loro dispositivi, stimolando un’azione immediata.
 * **Direct mail**: utilizza la posta tradizionale per creare una connessione tangibile con il pubblico.
 
@@ -43,14 +43,14 @@ Seleziona un canale per approfondire e scoprire come sfruttarli in modo efficace
 
 ## App mobile ed esperienze web {#inbound-channels}
 
-Con le esperienze in entrata per app mobili e web, i clienti avviano le interazioni. Alcuni esempi includono la messaggistica in-app e le esperienze basate sul web, in cui gli utenti interagiscono con i contenuti secondo i propri termini. In [!DNL Adobe Journey Optimizer] i canali in entrata supportati sono:
+Con le esperienze in entrata per app mobili e web, la clientela avvia le interazioni. Alcuni esempi includono la messaggistica in-app e le esperienze basate sul web, dove gli utenti interagiscono con i contenuti secondo le proprie condizioni. In [!DNL Adobe Journey Optimizer] i canali in entrata supportati sono:
 
 * **In-app**: comunica con gli utenti all’interno delle tue applicazioni mobili o web per migliorarne l’esperienza.
 * **Web**: utilizza la messaggistica basata sul web per interagire con gli utenti che esplorano il tuo sito.
 * **Esperienza basata su codice**: implementa esperienze personalizzate tramite la codifica per opportunità di coinvolgimento uniche.
 * **Schede di contenuto**: condividi contenuto dinamico direttamente nelle applicazioni o nei siti web per informare e coinvolgere gli utenti.
 
-Seleziona un canale per approfondire e scoprire come sfruttare efficacemente questi canali nella tua strategia di marketing.
+Seleziona un canale per approfondire e scoprire come sfruttarli in modo efficace nella tua strategia di marketing.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="in-app" src="assets/do-not-localize/inapp.jpg"></a>

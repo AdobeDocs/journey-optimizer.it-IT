@@ -9,23 +9,23 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-# Introduzione ai messaggi di testo {#get-started-sms}
+# Introduzione agli SMS {#get-started-sms}
 
-Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo (SMS/MMS/RCS) ai tuoi clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS/MMS/RCS.
+Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo (SMS/MMS/RCS) alla clientela sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS/MMS/RCS.
 
-I messaggi di testo possono essere creati e inviati in un percorso o in una campagna. Per SMS, MMS e RCS, utilizza l’azione SMS.
+I messaggi di testo possono essere creati e inviati in un percorso o in una campagna. Per SMS, MMS e RCS utilizza l’azione SMS.
 
-* In un **percorso**. Crea un percorso, aggiungi un’attività SMS e definisci le impostazioni di base. Quindi, passa al riquadro a destra Azioni: SMS per creare il contenuto per il messaggio SMS, MMS o RCS. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
+* In un **percorso**. Crea un percorso, aggiungi un’attività SMS e definisci le impostazioni di base. Quindi, sfoglia le Azioni: riquadro a destra SMS per creare il contenuto per il messaggio SMS, MMS o RCS. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
 * In una **campagna**. Crea una campagna, seleziona SMS come azione e definisci le impostazioni di base. Quindi, modifica il contenuto del messaggio per definire il messaggio SMS, MMS o RCS da inviare. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
 
-Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS (o fornitori di gateway SMS). Prima di creare un messaggio SMS/MMS/RCS, configura il provider di servizi per la messaggistica SMS e RCS con Journey Optimizer. [Ulteriori informazioni](sms-configuration.md)
+Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS (o fornitori di gateway SMS). Prima di creare un messaggio SMS/MMS/RCS, configura il fornitore di servizi per la messaggistica RCS e di testo con Journey Optimizer. [Ulteriori informazioni](sms-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -58,7 +58,7 @@ Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS
 <img alt="Convalida" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>Configura SMS/MMS/RCS</strong></a>
+<a href="sms-configuration.md"><strong>Configurare SMS/MMS/RCS</strong></a>
 </div>
 <p>
 </td>
@@ -70,15 +70,15 @@ Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422695?learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * Il video seguente consente di comprendere meglio quali funzionalità mobili Adobe Journey Optimizer offre ai marketer.
 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430373?quality=12&learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
