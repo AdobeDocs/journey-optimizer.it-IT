@@ -10,7 +10,7 @@ level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Avviare l’applicazione da Xcode"
->abstract="Per ottenere il token push, avvia innanzitutto l’applicazione utilizzando Xcode. Dopo l’avvio dell’applicazione, riavviarla per assicurarsi che il processo di convalida sia stato completato. Adobe fornirà quindi il token push come parte dei risultati della convalida. Questo token è essenziale per abilitare le notifiche push e verrà visualizzato una volta convalidata correttamente la configurazione."
+>abstract="Per ottenere il token push, avvia innanzitutto l’applicazione utilizzando Xcode. Dopo l’avvio dell’applicazione, riavviala per assicurarti che il processo di convalida sia stato completato. Adobe fornirà quindi il token push come parte dei risultati della convalida. Questo token è essenziale per abilitare le notifiche push e verrà visualizzato una volta convalidata correttamente la configurazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"

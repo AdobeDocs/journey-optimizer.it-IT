@@ -70,9 +70,9 @@ L&#39;attività **[!UICONTROL Enrichment]** ti consente di aggiungere dati aggiu
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
->title="Selezionare una dimensione di targeting"
+>title="Selezionare una dimensione targeting"
 >abstract="Seleziona la dimensione targeting per i dati in entrata per cui eseguire la riconciliazione."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=it#targeting-dimensions" text="Dimensioni di targeting"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=it#targeting-dimensions" text="Dimensioni targeting"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
