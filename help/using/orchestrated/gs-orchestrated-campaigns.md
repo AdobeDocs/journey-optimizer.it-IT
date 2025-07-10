@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 17%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -50,13 +50,11 @@ Per consentire decisioni basate sui dati, Campaign Orchestration sfrutta più or
 
 ## Prerequisiti
 
->[!BEGINSHADEBOX]
+Prima di lavorare con le campagne orchestrate, è essenziale assicurarsi di disporre delle autorizzazioni appropriate. L&#39;accesso alle campagne orchestrate è limitato agli utenti assegnati a un **[!UICONTROL profilo di prodotto]** rilevante, ad esempio Amministratore campagna orchestrata, Approvatore campagna orchestrata, Gestore campagna orchestrata o Visualizzatore campagna orchestrata.
 
-Documentazione in corso
+Se non riesci ad accedere alle funzionalità della campagna orchestrata, contatta l’amministratore per richiedere le autorizzazioni necessarie.
 
->[!ENDSHADEBOX]
-
-<!--prerequisites & permissions-->
+➡️[Ulteriori informazioni sui profili di prodotto relativi alle campagne orchestrate](../administration/ootb-product-profiles.md)
 
 ## Approfondiamo
 
