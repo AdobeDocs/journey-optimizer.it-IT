@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 19%
+source-wordcount: '774'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Pubblicare una campagna orchestrata"
->abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli avvisi siano cancellati prima della pubblicazione."
+>abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli errori vengano cancellati prima della pubblicazione."
 
 +++ Sommario
 
@@ -71,9 +71,13 @@ Una volta testata e pronta la campagna, fai clic su **[!UICONTROL Pubblica]** pe
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>Se il pulsante **[!UICONTROL Pubblica]** è disabilitato (disattivato), accedere ai registri dalla barra delle azioni e controllare i messaggi di errore. Tutti gli errori devono essere corretti prima di poter pubblicare una campagna.
+
 Il flusso visivo si riavvia e i profili reali iniziano a scorrere nel percorso in tempo reale.
 
-Se l’azione di pubblicazione non riesce (ad esempio, a causa di contenuto del messaggio mancante), viene visualizzato un avviso e devi risolvere il problema prima di riprovare. Dopo la pubblicazione, la campagna passa dallo stato **Bozza** allo stato **Live** e inizia l&#39;esecuzione (immediatamente o secondo pianificazione).
+Se l’azione di pubblicazione non riesce (ad esempio, a causa di contenuto del messaggio mancante), viene visualizzato un avviso e devi risolvere il problema prima di riprovare. Una volta completata la pubblicazione, la campagna inizia l&#39;esecuzione (immediatamente o secondo pianificazione), passa dallo stato **Bozza** allo stato **Live** e diventa &quot;Sola lettura&quot;.
 
 ## Monitorare l’esecuzione della campagna {#monitor}
 

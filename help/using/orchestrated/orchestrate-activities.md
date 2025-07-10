@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 12%
+source-wordcount: '968'
+ht-degree: 11%
 
 ---
 
@@ -75,6 +75,8 @@ Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili p
 ![Icona Disabilita](assets/do-not-localize/activity-disable.svg) ![Icona Abilita](assets/do-not-localize/activity-enable.svg) Disabilita/Abilita l&#39;attività. Quando viene eseguita la campagna orchestrata, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e la campagna orchestrata viene interrotta.
 
 ![Icona Pausa](assets/do-not-localize/activity-pause.svg) ![Icona Riprendi](assets/do-not-localize/activity-resume.svg) Sospendi/Riprendi l&#39;attività. Quando la campagna orchestrata viene eseguita, si interrompe all’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
+
+    È possibile utilizzare qualsiasi attività nell&#39;area di lavoro come punto di interruzione per sospendere l&#39;esecuzione della campagna. Ciò significa che la campagna verrà eseguita solo fino a questa attività, quindi sospendi l’esecuzione. Durante la sospensione dell’esecuzione, il motore di segmentazione mantiene disponibili i dati temporanei per l’anteprima. Per visualizzare i dati trasportati, puoi selezionare la transizione in entrata immediatamente prima dell’attività in pausa. Ulteriori informazioni su questa sezione: [Monitoraggio del flusso visivo](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Icona Copia](assets/do-not-localize/activity-copy.svg) Copia l&#39;attività. [Scopri come copiare e incollare le attività](#copy)
 
