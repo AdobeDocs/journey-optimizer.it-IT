@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia c
 
 Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento della selezione, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla distribuzione dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza.
 
-Questo modulo porta **l&#39;orchestrazione della campagna batch** a [!DNL Journey Optimizer], consentendo di:
-
-* Crea ed esegui **campagne con più passaggi** (ad esempio, promozioni stagionali, nuovi lanci di prodotti),
-* Distribuisci **messaggi personalizzati e coerenti** su qualsiasi canale
-* Coordinare **segmentazione, elaborazione di file e gestione di attività** in un&#39;unica posizione,
-* Consentire la collaborazione tramite approvazioni e assegnazioni di attività
-
 ## Funzionalità di base
 
 L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
+<td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.</td></tr>
+<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
+<td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Flussi di lavoro per campagne in più passaggi" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Flussi di lavoro per campagne con più passaggi</b><br/>Progetta campagne con più passaggi, dai messaggi giornalieri alle campagne complesse come le promozioni stagionali o i principali lanci di prodotti.</td></tr>
+<td><img alt="Flussi di lavoro per campagne in più passaggi" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Flussi di lavoro per campagne con più passaggi</b><br/>Progetta campagne con più passaggi, dai messaggi giornalieri alle campagne complesse come le promozioni stagionali o i principali lanci di prodotti.</td></tr>
 </table>
 
 ## Campagne e percorsi orchestrati
