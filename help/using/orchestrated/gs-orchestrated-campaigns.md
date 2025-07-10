@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -43,21 +43,16 @@ Questo modulo porta **l&#39;orchestrazione della campagna batch** a [!DNL Journe
 
 L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
-1. **Tipi di pubblico su richiesta**
-
-   Esegui query istantanee tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.
-
-1. **Segmentazione e invio di più entità**
-
-   Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, ubicazioni di store o dati di servizio per eseguire il targeting con precisione.
-
-1. **Visibilità pre-invio e precisione**
-
-   Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.
-
-1. **Flussi di lavoro per campagne con più passaggi**
-
-   Progetta campagne in più fasi, dai messaggi giornalieri a campagne complesse come le promozioni stagionali o i principali lanci di prodotti.
+<table>
+<tr style="border: 0;">
+<td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Flussi di lavoro per campagne in più passaggi" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Flussi di lavoro per campagne con più passaggi</b><br/>Progetta campagne con più passaggi, dai messaggi giornalieri alle campagne complesse come le promozioni stagionali o i principali lanci di prodotti.</td></tr>
+</table>
 
 ## Campagne e percorsi orchestrati
 
