@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casi d’uso {#journey-use-cases}
-      + [Esempi di casi d’uso](using/building-journeys/jo-use-cases.md)
+      + [Apprendere attraverso i casi d’uso](using/building-journeys/jo-use-cases.md)
       + [Ricerca eventi esperienza](using/building-journeys/exp-event-lookup.md)
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -178,7 +178,7 @@ ht-degree: 96%
       + [Risolvere i problemi dei percorsi](using/building-journeys/gs-troubleshooting.md)
       + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
       + [Risoluzione dei problemi di esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
-      + [Risoluzione dei problemi delle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
+      + [Risolvere i problemi delle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
       + [Risoluzione dei problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
 + Campagne orchestrate {#orchestrated-campaigns}
    + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -296,7 +296,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
          + [Configurare il canale di notifica push](using/push/push-configuration.md)
          + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
    + Canale SMS/MMS/RCS{#sms}
-      + [Introduzione ai messaggi di testo](using/sms/get-started-sms.md)
+      + [Introduzione agli SMS](using/sms/get-started-sms.md)
       + [Creare un messaggio SMS/MMS/RCS](using/sms/create-sms.md)
       + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
       + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
@@ -337,7 +337,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
          + [Creare una configurazione dell’esperienza basata su codice](using/code-based/code-based-configuration.md)
       + Creare esperienze basate su codice {#create-code-based-experiences}
          + [Creare e comporre esperienze basate su codice](using/code-based/create-code-based.md)
-         + [Utilizzare campi modificabili in esperienze basate su codice](using/code-based/code-based-form-fields.md)
+         + [Utilizzare campi modificabili nelle esperienze basate su codice](using/code-based/code-based-form-fields.md)
          + [Testare le esperienze basate su codice](using/code-based/test-code-based.md)
          + [Gestire le esperienze basate su codice](using/code-based/publish-code-based.md)
    + Schede contenuto{#content-card}
@@ -392,7 +392,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
          + [Creare modelli](using/landing-pages/lp-templates.md)
          + [Aggiungere JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
       + [Creare un elenco di iscrizione](using/landing-pages/subscription-list.md)
-      + [Esempi di casi d’uso](using/landing-pages/lp-use-cases.md)
+      + [Apprendere attraverso i casi d’uso](using/landing-pages/lp-use-cases.md)
       + Configurare le pagine di destinazione {#lp-configuration}
          + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
          + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
@@ -566,7 +566,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
             + [Creare modelli AI](using/experience-decisioning/ranking/create-ai-models.md)
       + Utilizzare i dati di Adobe Experience Platform {#aep-data}
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
-         + [Utilizzare Adobe Experience Platform per prendere decisioni](using/experience-decisioning/aep-data-exd.md)
+         + [Utilizzare Adobe Experience Platform per la funzione Decisioni](using/experience-decisioning/aep-data-exd.md)
       + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
       + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
       + [Rapporto sulla funzione Decisioni](using/experience-decisioning/cja-reporting.md)
