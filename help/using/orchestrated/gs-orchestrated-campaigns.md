@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: e6944928e40b471a86085c126ff678002357e66c
+source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -36,7 +36,7 @@ Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo re
 
 L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
-<table style="table-layout:fixed">
+<table>
 <tr style="border: 0;">
 <td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
