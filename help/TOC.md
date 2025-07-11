@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 99%
+source-wordcount: '2507'
+ht-degree: 98%
 
 ---
 
@@ -739,6 +739,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
    + Delegare i sottodomini e-mail {#delegate-subdomains}
       + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
       + [Delegare un sottodominio](using/configuration/delegate-subdomain.md)
+      + [Configurare un sottodominio personalizzato](using/configuration/delegate-custom-subdomain.md)
       + [Impostare il record DMARC](using/configuration/dmarc-record.md)
       + [Aggiungere un record TXT di Google](using/configuration/google-txt.md)
       + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
