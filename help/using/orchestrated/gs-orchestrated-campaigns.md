@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
+source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo re
 
 L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
-<table>
+<table style="table-layout:auto">
 <tr style="border: 0;">
 <td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ Se non riesci ad accedere alle funzionalità della campagna orchestrata, contatt
 
 Ora che hai capito cosa sono le campagne organizzate, è ora di approfondire queste sezioni della documentazione per iniziare a lavorare con questa funzione.
 
-&lt;tabella&quot;><tr style="border: 0; text-align: center;">
+<table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Accedere e gestire i flussi di lavoro" src="assets/do-not-localize/workflow-access.jpeg">
