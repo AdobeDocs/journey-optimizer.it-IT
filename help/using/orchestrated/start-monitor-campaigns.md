@@ -6,9 +6,9 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 17%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 17%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 Dopo aver creato le attività orchestrate e progettate da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne l’esecuzione.
 

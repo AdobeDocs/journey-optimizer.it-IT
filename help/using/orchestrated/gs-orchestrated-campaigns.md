@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '456'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 7%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fedeltà dei clienti su larga scala.
 

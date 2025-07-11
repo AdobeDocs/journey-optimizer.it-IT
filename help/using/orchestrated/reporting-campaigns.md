@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '269'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 9%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 La campagna orchestrata offre informazioni fruibili grazie alle sue solide funzionalità di reporting. Queste informazioni consentono di comprendere meglio il comportamento del pubblico, misurare le prestazioni di ogni passaggio nel percorso del cliente e prendere decisioni basate sui dati per ottimizzare le campagne future. Con metriche e visualizzazioni dettagliate, puoi monitorare il coinvolgimento e perfezionare le strategie di targeting per il massimo impatto.
 

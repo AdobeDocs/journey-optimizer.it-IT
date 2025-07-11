@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 51%
 
 ---
@@ -31,8 +31,13 @@ ht-degree: 51%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 L&#39;attività **[!UICONTROL Combine]** è un tipo di attività **[!UICONTROL Targeting]** che consente di segmentare in modo efficace il gruppo in entrata. Consente di unire più popolazioni, escludere segmenti specifici o mantenere solo i dati condivisi tra più destinazioni.
 

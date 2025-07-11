@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '969'
 ht-degree: 33%
 
 ---
@@ -62,8 +62,13 @@ UNUSED IDs in BJ
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] ti consente di automatizzare ed eseguire campagne di marketing su più canali: e-mail, SMS e notifiche push. Puoi combinare queste attività di canale nell’area di lavoro della campagna per creare campagne orchestrate cross-channel che possono attivare azioni in base al comportamento dei clienti e ai dati.
 

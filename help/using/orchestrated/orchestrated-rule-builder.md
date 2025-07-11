@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '392'
 ht-degree: 10%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 10%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 Le campagne orchestrate dispongono di un generatore di regole che semplifica il processo di filtraggio del database in base a vari criteri. Il generatore di regole gestisce in modo efficiente query molto complesse e lunghe, offrendo maggiore flessibilità e precisione.
 

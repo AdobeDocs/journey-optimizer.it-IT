@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '159'
 ht-degree: 37%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 37%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 Uno schema rappresenta e convalida la struttura e il formato dei dati. Fornisce una definizione astratta di un oggetto reale (come una persona) e delinea quali dati dovrebbero essere inclusi in ogni istanza di tale oggetto (come nome, data di nascita e così via).
 

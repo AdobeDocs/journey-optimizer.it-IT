@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 31%
+source-wordcount: '347'
+ht-degree: 30%
 
 ---
 
@@ -36,8 +36,13 @@ ht-degree: 31%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 In qualità di addetto al marketing, puoi migliorare il targeting del pubblico passando da un’entità dati a una correlata all’interno di una campagna orchestrata. Questo consente di andare oltre i profili utente e concentrarsi su comportamenti specifici, come acquisti, prenotazioni o altre interazioni.
 

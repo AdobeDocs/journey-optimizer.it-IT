@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '349'
 ht-degree: 8%
 
 ---
@@ -26,6 +26,13 @@ ht-degree: 8%
 
 +++
 
+<br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 L&#39;attività **[!UICONTROL Save audience]** è un&#39;attività **[!UICONTROL Targeting]** che consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione generata in precedenza nella campagna orchestrata. Una volta creati, questi tipi di pubblico vengono aggiunti all&#39;elenco dei tipi di pubblico dell&#39;applicazione e sono accessibili dal menu **[!UICONTROL Tipi di pubblico]**.
 

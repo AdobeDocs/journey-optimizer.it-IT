@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 33%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 33%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
+
 In qualità di addetto al marketing, puoi creare segmenti di pubblico complessi tramite un’interfaccia intuitiva, che ti consente di eseguire il targeting degli utenti in base a un’ampia gamma di criteri e comportamenti per adattare le campagne in modo più efficace.
 
 A questo scopo, utilizza l&#39;attività di targeting **[!UICONTROL Genera pubblico]**. Questa attività definisce il pubblico che entra nella campagna orchestrata. Quando si inviano messaggi come parte di una campagna orchestrata, il pubblico viene definito nell&#39;attività **[!UICONTROL Genera pubblico]**, non all&#39;interno della campagna orchestrata.
@@ -51,7 +57,7 @@ Per configurare l’attività **[!UICONTROL Crea pubblico]**, segui questi passa
 
    ![](../assets/build-audience.png)
 
-1. Definisci un&#39;etichetta **&#x200B;**.
+1. Definisci un&#39;etichetta ****.
 
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 

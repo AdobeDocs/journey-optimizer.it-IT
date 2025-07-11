@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 37%
+source-wordcount: '344'
+ht-degree: 36%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 37%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 L’attività **[!UICONTROL Unione AND]** è un’attività di **[!UICONTROL Controllo del flusso]**. Consente di sincronizzare più rami di esecuzione di una campagna orchestrata.
 

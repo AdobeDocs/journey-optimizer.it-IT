@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1805'
 ht-degree: 20%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 20%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 I passaggi principali per creare regole per le campagne orchestrate sono i seguenti:
 
@@ -105,7 +111,7 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
    | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
    | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
 
-   +++
++++
 
 1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sull&#39;immagine ![ che mostra l&#39;icona dell&#39;editor di espressioni](assets/do-not-localize/rule-builder-icon-editor.svg). [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
@@ -115,7 +121,7 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
 
    ![immagine che mostra l&#39;opzione predefinita](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -222,7 +228,7 @@ Dopo aver creato la query nell&#39;area di lavoro, puoi controllarla utilizzando
 
 <br/>
 
-    >[ !IMPORTANTE]
+    >[!IMPORTANTE]
     >
     >Selezionare un filtro predefinito dal riquadro delle proprietà delle regole sostituisce la regola creata nell&#39;area di lavoro con il filtro selezionato.
 

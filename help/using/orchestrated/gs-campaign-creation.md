@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 3%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentazione in corso
+
+>[!ENDSHADEBOX]
 
 Questa pagina illustra i passaggi essenziali per creare e avviare una campagna orchestrata, dalla configurazione e progettazione al monitoraggio e reporting.
 
@@ -49,7 +55,7 @@ Prima di tutto, devi creare la tua campagna orchestrata e definire *quando* deve
 
 ## Passaggio 2: orchestrare le attività della campagna {#orchestrate}
 
-Una volta creata la campagna, è ora di progettare la logica che sta alla base. Utilizzando un’area di lavoro visiva, puoi combinare attività di targeting, consegna e controllo del flusso per modellare l’esperienza del cliente.
+Una volta creata la campagna, è il momento di progettare la logica che sta alla base. Utilizzando un’area di lavoro visiva, puoi combinare attività di targeting, consegna e controllo del flusso per modellare l’esperienza del cliente.
 
 ➡️ [Scopri come coordinare le attività](../orchestrated/orchestrate-activities.md)
 
