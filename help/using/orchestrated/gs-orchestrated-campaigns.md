@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fedeltà dei clienti su larga scala.
 
 Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento della selezione, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla distribuzione dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza.
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## Funzionalità di base
 
@@ -61,13 +63,13 @@ Prima di lavorare con le campagne orchestrate, è essenziale assicurarsi di disp
 
 Se non riesci ad accedere alle funzionalità della campagna orchestrata, contatta l’amministratore per richiedere le autorizzazioni necessarie.
 
-➡️[Ulteriori informazioni sui profili di prodotto relativi alle campagne orchestrate](../administration/ootb-product-profiles.md)
+➡️ [Ulteriori informazioni sui profili di prodotto relativi alle campagne orchestrate](../administration/ootb-product-profiles.md)
 
 ## Approfondiamo
 
 Ora che hai capito cosa sono le campagne organizzate, è ora di approfondire queste sezioni della documentazione per iniziare a lavorare con questa funzione.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;tabella&quot;><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Accedere e gestire i flussi di lavoro" src="assets/do-not-localize/workflow-access.jpeg">
