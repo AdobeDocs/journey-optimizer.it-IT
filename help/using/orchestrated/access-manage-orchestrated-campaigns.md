@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: b65078c34b114ff118d24f3c93b23b35bad7227e
+source-git-commit: d464668582fbb4bea6f8d4ef57e17f80b5d83378
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '691'
 ht-degree: 21%
 
 ---
@@ -85,4 +85,4 @@ Le campagne orchestrate possono avere più stati:
 * **[!UICONTROL Completato]**: esecuzione della campagna orchestrata completata. Lo stato Completed (Completato) viene assegnato automaticamente fino a 3 giorni dopo il completamento di una campagna e l’invio dei messaggi senza errori.
 * **[!UICONTROL Chiuso]**: questo stato viene visualizzato quando una campagna ricorrente è stata chiusa. La campagna continua la sua esecuzione fino al completamento di tutte le sue attività, ma nessun altro profilo può entrare nella campagna.
 * **[!UICONTROL Archiviata]**: la campagna orchestrata è stata archiviata. Tutte le campagne archiviate vengono eliminate con una ripianificazione continua 30 giorni dopo la data dell’ultima modifica. Se necessario, puoi duplicare una campagna archiviata per continuare a lavorarci.
-* **[!UICONTROL Arrestato]**: l&#39;esecuzione della campagna orchestrata è stata interrotta. Per riavviare la campagna, devi duplicarla. si erreur ,restera avec triangolo
+* **[!UICONTROL Arrestato]**: l&#39;esecuzione della campagna orchestrata è stata interrotta. Per riavviare la campagna, devi duplicarla.
