@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
    | Messaggio di rinuncia | Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
    | Parole chiave della Guida | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
    | Messaggio di aiuto | Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?learn=on&captions=ita). |
+   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Doppio messaggio di consenso | Immetti la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | ID entità principale | Immettere l&#39;ID entità entità principale DLT assegnato. |
    | ID modello contenuto | Immetti l&#39;ID del modello di contenuto DLT registrato. |
@@ -73,7 +73,11 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare una 
 
 La messaggistica RCS è supportata in Adobe Journey Optimizer tramite Infobip utilizzando la funzionalità [Provider SMS personalizzato](sms-configuration-custom.md). Ciò consente la distribuzione di messaggi avanzati e interattivi tramite profili aziendali verificati, incorporando elementi quali caroselli, pulsanti e contenuti multimediali.
 
+➡️ [Scopri come Infobip supporta RCS nella documentazione di Infobip](https://www.infobip.com/docs/api/channels/rcs)
+
 Per abilitare la messaggistica RCS con Infobip, è necessario configurare le nuove credenziali API tramite un provider SMS personalizzato. Le credenziali SMS di Infobip esistenti non sono compatibili, in quanto RCS richiede un formato di payload distinto.
+
+Per configurare RCS con Infobip:
 
 1. **Registra la tua attività per RCS tramite Infobip**
 
