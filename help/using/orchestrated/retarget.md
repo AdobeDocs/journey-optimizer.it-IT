@@ -6,7 +6,7 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -39,6 +39,8 @@ Il retargeting ti consente di monitorare i destinatari in base al modo in cui ha
 
 * **[!UICONTROL Feedback messaggio]**: acquisisce eventi relativi alla consegna, ad esempio messaggi inviati, aperti, non recapitati e così via.
 * **[!UICONTROL Tracciamento e-mail]**: acquisisce le azioni dell&#39;utente, ad esempio clic e aperture.
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## Creare una regola di retargeting basata sul feedback {#feedback-retarget}
 
@@ -102,7 +104,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
       Per trovare i nomi delle azioni, fai clic sull&#39;icona ![Informazioni](assets/do-not-localize/info-icon.svg) accanto a un&#39;attività nell&#39;area di lavoro.
 
-   ++
++++
 
 1. In alternativa, puoi anche filtrare in base al **[!UICONTROL ID campagna]** (UUID), che si trova nelle proprietà della campagna.
 
