@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Pubblicare una campagna orchestrata"
->abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli errori vengano cancellati prima della pubblicazione."
+>abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli errori siano cancellati prima della pubblicazione."
 
 +++ Sommario
 

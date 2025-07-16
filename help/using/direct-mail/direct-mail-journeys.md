@@ -1,5 +1,5 @@
 ---
-title: Inviare messaggi di direct mailing con percorsi
+title: Inviare messaggi direct mail con percorsi
 description: Scopri come creare e inviare messaggi di direct mailing con i percorsi.
 feature: Direct Mail
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 22%
+ht-degree: 31%
 
 ---
 
-# Inviare messaggi di direct mailing con percorsi {#direct-mail-journeys}
+# Inviare messaggi direct mail con percorsi {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
@@ -44,8 +44,8 @@ Devi collaborare con il provider di direct mailing di terze parti scelto per ott
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
->title="Scegli l’area geografica di AWS"
->abstract="Se la configurazione di indirizzamento dei file verrà inviata utilizzando percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server."
+>title="Scegliere l’area geografica di AWS"
+>abstract="Se la configurazione di indirizzamento dei file verrà inviata utilizzando i percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server."
 
 Prima di creare un messaggio di direct mailing, accertati di aver configurato una configurazione di indirizzamento dei file che specifica il server in cui il file di estrazione deve essere caricato e memorizzato. Per farlo, segui questi passaggi:
 
@@ -53,7 +53,7 @@ Prima di creare un messaggio di direct mailing, accertati di aver configurato un
 
 1. Definisci le proprietà di configurazione dell’indirizzamento dei file, come il nome e il tipo di server da utilizzare. Informazioni dettagliate su come impostare una configurazione di indirizzamento dei file sono disponibili nella sezione [Configurazione direct mailing](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-   Se la configurazione di indirizzamento dei file verrà inviata utilizzando percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server.
+   Se la configurazione di indirizzamento dei file verrà inviata utilizzando i percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server.
 
    ![](assets/file-routing-journey.png)
 
