@@ -6,9 +6,9 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
+source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,9 @@ Documentazione in corso
 
 >[!ENDSHADEBOX]
 
-Il retargeting ti consente di monitorare i destinatari in base al modo in cui hanno risposto a una campagna orchestrata precedente. Ad esempio, puoi inviare una seconda e-mail ai profili che hanno ricevuto ma non hanno fatto clic sul primo.
+Il retargeting ti consente di monitorare i destinatari in base al modo in cui hanno risposto a una campagna orchestrata precedente. Ad esempio, puoi inviare una seconda e-mail ai destinatari che hanno ricevuto ma non hanno fatto clic sul primo.
 
-**[!UICONTROL Campagna orchestrata]** fornisce due origini dati principali per questo:
+**[!UICONTROL La campagna orchestrata]** fornisce due attributi principali:
 
 * **[!UICONTROL Feedback messaggio]**: acquisisce eventi relativi alla consegna, ad esempio messaggi inviati, aperti, non recapitati e così via.
 * **[!UICONTROL Tracciamento e-mail]**: acquisisce le azioni dell&#39;utente, ad esempio clic e aperture.
@@ -44,7 +44,7 @@ Il retargeting ti consente di monitorare i destinatari in base al modo in cui ha
 
 ## Creare una regola di retargeting basata sul feedback {#feedback-retarget}
 
-La regola di retargeting basata sul feedback consente di eseguire il retargeting dei destinatari in base agli eventi di consegna dei messaggi acquisiti nel set di dati **Feedback messaggio**. Questi eventi includono risultati quali messaggi inviati, aperti, non recapitati o contrassegnati come spam.
+La regola di retargeting basata sul feedback consente di eseguire il retargeting dei destinatari in base agli eventi di consegna dei messaggi acquisiti nell&#39;attributo **[!UICONTROL Feedback messaggio]**. Questi eventi includono risultati quali messaggi inviati, aperti, non recapitati o contrassegnati come spam.
 
 Utilizzando questi dati, puoi definire regole per identificare i destinatari che hanno ricevuto un messaggio precedente, abilitando la comunicazione di follow-up in base a stati di consegna specifici.
 
@@ -102,15 +102,20 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Nel menu **[!UICONTROL Condizione personalizzata]**, specifica il nome dell&#39;azione della campagna nel campo **[!UICONTROL Valore]**.
 
-      Per trovare i nomi delle azioni, fai clic sull&#39;icona ![Informazioni](assets/do-not-localize/info-icon.svg) accanto a un&#39;attività nell&#39;area di lavoro.
+      Per trovare i nomi delle azioni, fai clic sull&#39;![icona Informazioni](assets/do-not-localize/info-icon.svg) accanto al campo Etichetta dell&#39;attività.
 
 +++
 
 1. In alternativa, puoi anche filtrare in base al **[!UICONTROL ID campagna]** (UUID), che si trova nelle proprietà della campagna.
 
-## Creare una regola di retargeting basata sul tracciamento
+Ora hai configurato una regola di retargeting basata sul feedback per identificare i destinatari in base allo stato di consegna di un messaggio precedente, ad esempio inviato, aperto, non recapitato o contrassegnato come spam. Una volta definito questo pubblico, puoi aggiungere un&#39;e-mail di follow-up o perfezionare ulteriormente il targeting [configurando una regola di retargeting basata sul tracciamento](#tracking-based), che utilizza i dati di interazione dell&#39;utente.
 
-La regola di retargeting basata sul tracciamento esegue il targeting dei destinatari in base alle loro interazioni con un messaggio, utilizzando i dati del set di dati **[!UICONTROL Tracciamento e-mail]**. Acquisisce le azioni dell’utente, ad esempio le aperture delle e-mail e i clic sui collegamenti.
+![](assets/retarget_9.png)
+
+
+## Creare una regola di retargeting basata sul tracciamento {#tracking-based}
+
+La regola di retargeting basata sul tracciamento è destinata ai destinatari in base alle loro interazioni con un messaggio, utilizzando i dati dell&#39;attributo **[!UICONTROL Tracciamento e-mail]**. Acquisisce le azioni dell’utente, ad esempio le aperture delle e-mail e i clic sui collegamenti.
 
 Per eseguire il retargeting dei destinatari in base alle interazioni con i messaggi (ad esempio, apri o fai clic su di essi), utilizza l&#39;entità **[!UICONTROL Tracciamento e-mail]** come segue:
 
@@ -124,7 +129,7 @@ Per eseguire il retargeting dei destinatari in base alle interazioni con i messa
 
    ![](assets/retarget_2.png)
 
-1. Per eseguire il targeting delle interazioni dei profili con un messaggio, aggiungi un&#39;altra condizione collegata all&#39;attributo **[!UICONTROL Tracciamento e-mail]** e cerca l&#39;attributo **[!UICONTROL Tipo di interazione]**.
+1. Per eseguire il targeting delle interazioni dei destinatari con un messaggio, aggiungi un&#39;altra condizione collegata all&#39;attributo **[!UICONTROL Tracciamento e-mail]** e cerca l&#39;attributo **[!UICONTROL Tipo di interazione]**.
 
    ![](assets/retarget_7.png)
 
@@ -132,4 +137,7 @@ Per eseguire il retargeting dei destinatari in base alle interazioni con i messa
 
    ![](assets/retarget_8.png)
 
-1. Per associare i dati di tracciamento a una campagna specifica, aggiungi una nuova condizione **[!UICONTROL Feedback messaggio]** e segui i passaggi descritti [in questa sezione](#feedback-retarget).
+Hai configurato una regola di retargeting basata sul tracciamento per eseguire il targeting dei destinatari in base alle loro interazioni con un messaggio precedente, ad esempio aperture di e-mail o clic sui collegamenti, utilizzando i dati dell&#39;attributo **[!UICONTROL Tracciamento e-mail]**. Una volta definito questo pubblico, puoi aggiungere un&#39;azione di follow-up o perfezionare ulteriormente il targeting combinandolo con una [regola di retargeting basata sul feedback](#feedback-retarget) per includere i risultati dei messaggi, ad esempio inviati, non recapitati o contrassegnati come spam.
+
+
+![](assets/retarget_10.png)
