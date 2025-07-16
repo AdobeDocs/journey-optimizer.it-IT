@@ -6,7 +6,7 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
+source-git-commit: 5c23b4e41dcf426ca458f75057b3653175b2ade8
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -40,7 +40,8 @@ Il retargeting ti consente di monitorare i destinatari in base al modo in cui ha
 * **[!UICONTROL Feedback messaggio]**: acquisisce eventi relativi alla consegna, ad esempio messaggi inviati, aperti, non recapitati e così via.
 * **[!UICONTROL Tracciamento e-mail]**: acquisisce le azioni dell&#39;utente, ad esempio clic e aperture.
 
-![](assets/do-not-localize/retarget-schema.png)
+![](assets/do-not-localize/retarget-schema.png){zoomable="yes"}
+
 
 ## Creare una regola di retargeting basata sul feedback {#feedback-retarget}
 
@@ -54,7 +55,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
 1. Nel **[!UICONTROL Generatore regole]**, fai clic su **[!UICONTROL Aggiungi condizione]** e seleziona **[!UICONTROL Feedback messaggio]** dal **[!UICONTROL Selettore attributi]**. Fai clic su **[!UICONTROL Conferma]** per creare **Il feedback del messaggio esiste, ad esempio** condizione.
 
-   ![](assets/retarget_1.png)
+   ![](assets/retarget_1.png){zoomable="yes"}
 
 1. Scegli l&#39;attributo **[!UICONTROL Stato feedback]** per eseguire il targeting degli eventi di consegna dei messaggi.
 
@@ -64,11 +65,11 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Cerca l&#39;attributo **[!UICONTROL Stato feedback]** e fai clic su **[!UICONTROL Conferma]**.
 
-      ![](assets/retarget_3.png)
+      ![](assets/retarget_3.png){zoomable="yes"}
 
    1. Nel menu **[!UICONTROL Condizione personalizzata]**, scegli lo stato di consegna da tracciare nel menu a discesa **[!UICONTROL Valore]**.
 
-      ![](assets/retarget_4.png)
+      ![](assets/retarget_4.png){zoomable="yes"}
 
 +++
 
@@ -82,7 +83,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Seleziona **[!UICONTROL Nome campagna orchestrata]**.
 
-      ![](assets/retarget_5.png)
+      ![](assets/retarget_5.png){zoomable="yes"}
 
    1. Nel menu **[!UICONTROL Condizione personalizzata]**, specifica il nome della campagna nel campo **[!UICONTROL Valore]**.
 
@@ -98,7 +99,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Selezionare **[!UICONTROL Nome azione campagna orchestrata]**.
 
-      ![](assets/retarget_6.png)
+      ![](assets/retarget_6.png){zoomable="yes"}
 
    1. Nel menu **[!UICONTROL Condizione personalizzata]**, specifica il nome dell&#39;azione della campagna nel campo **[!UICONTROL Valore]**.
 
@@ -110,7 +111,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
 Ora hai configurato una regola di retargeting basata sul feedback per identificare i destinatari in base allo stato di consegna di un messaggio precedente, ad esempio inviato, aperto, non recapitato o contrassegnato come spam. Una volta definito questo pubblico, puoi aggiungere un&#39;e-mail di follow-up o perfezionare ulteriormente il targeting [configurando una regola di retargeting basata sul tracciamento](#tracking-based), che utilizza i dati di interazione dell&#39;utente.
 
-![](assets/retarget_9.png)
+![](assets/retarget_9.png){zoomable="yes"}
 
 
 ## Creare una regola di retargeting basata sul tracciamento {#tracking-based}
@@ -127,17 +128,17 @@ Per eseguire il retargeting dei destinatari in base alle interazioni con i messa
 
    Fai clic su **[!UICONTROL Conferma]** per creare **Verifica e-mail esistente come** condizione.
 
-   ![](assets/retarget_2.png)
+   ![](assets/retarget_2.png){zoomable="yes"}
 
 1. Per eseguire il targeting delle interazioni dei destinatari con un messaggio, aggiungi un&#39;altra condizione collegata all&#39;attributo **[!UICONTROL Tracciamento e-mail]** e cerca l&#39;attributo **[!UICONTROL Tipo di interazione]**.
 
-   ![](assets/retarget_7.png)
+   ![](assets/retarget_7.png){zoomable="yes"}
 
 1. Dalle opzioni di condizione personalizzate, utilizza **[!UICONTROL Incluso in]** come operatore e seleziona uno o più valori a seconda del caso d&#39;uso, ad esempio **[!UICONTROL Messaggio aperto]** o **[!UICONTROL Messaggio link fatto clic]**.
 
-   ![](assets/retarget_8.png)
+   ![](assets/retarget_8.png){zoomable="yes"}
 
 Hai configurato una regola di retargeting basata sul tracciamento per eseguire il targeting dei destinatari in base alle loro interazioni con un messaggio precedente, ad esempio aperture di e-mail o clic sui collegamenti, utilizzando i dati dell&#39;attributo **[!UICONTROL Tracciamento e-mail]**. Una volta definito questo pubblico, puoi aggiungere un&#39;azione di follow-up o perfezionare ulteriormente il targeting combinandolo con una [regola di retargeting basata sul feedback](#feedback-retarget) per includere i risultati dei messaggi, ad esempio inviati, non recapitati o contrassegnati come spam.
 
 
-![](assets/retarget_10.png)
+![](assets/retarget_10.png){zoomable="yes"}
