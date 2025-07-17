@@ -6,10 +6,10 @@ description: Scopri come creare uno schema relazionale in Adobe Experience Platf
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 8%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 5%
 
 </br>
 
-Il contenuto
-
 Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
 
 >[!ENDSHADEBOX]
 
 Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per campagne orchestrate, acquisire dati tramite un’origine S3 ed eseguire query sui dati acquisiti nella piattaforma AP.
 
-In questo esempio, la configurazione include l&#39;integrazione di due entità chiave, **Transazioni fedeltà** e **Premi fedeltà**, e collegarle alle entità di base esistenti **Destinatari** e **Marchi**.
+<!--
+In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [Creare uno schema relazionale e il set di dati associato](#schema)
+1. [Create relational Schema and associated Dataset](#schema)
+    
+    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
 
-   Definisci il modello dati relazionale per le campagne orchestrate, incluse le entità **Iscrizioni fedeltà**, **Transazioni fedeltà** e **Premi fedeltà**, insieme alle chiavi e agli attributi di controllo delle versioni richiesti.
+1. [Link schema](#link-schema)
 
-1. [Schema collegamento](#link-schema)
+    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
 
-   Collega l&#39;entità **Transazioni fedeltà** a **Destinatari** e **Premi fedeltà** a **Marchi**, per creare un modello di dati connesso che supporta percorsi di clienti personalizzati.
+1. [Ingest Data](#ingest)
 
-1. [Acquisire dati](#ingest)
+    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
 
-   Importa dati in Adobe Experience Platform da origini supportate come SFTP, archiviazione cloud o database.
-
+-->
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
