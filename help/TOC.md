@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [Risoluzione dei problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
 + Campagne orchestrate {#orchestrated-campaigns}
    + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [Passaggi di configurazione](using/orchestrated/configuration-steps.md)
+   + Gestire schemi e set di dati relazionali {#schemas-datasets}
+      + [Introduzione a schemi e set di dati](using/orchestrated/gs-schemas.md)
+      + [Schema manuale](using/orchestrated/manual-schema.md)
+      + [Schema di caricamento file](using/orchestrated/file-upload-schema.md)
+      + [Acquisire dati](using/orchestrated/ingest-data.md)
    + [Accedere alle campagne orchestrate e gestirle](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [Guardrail e limitazioni](using/orchestrated/guardrails.md)
    + Lanciare la prima campagna orchestrata{#launch}
@@ -313,7 +317,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
       + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
       + [Testare e inviare un messaggio di direct mail](using/direct-mail/test-send-direct-mail.md)
       + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
-      + [Inviare messaggi di direct mailing con percorsi](using/direct-mail/direct-mail-journeys.md)
+      + [Inviare messaggi direct mail con percorsi](using/direct-mail/direct-mail-journeys.md)
    + Canale web {#web}
       + [Introduzione al canale web](using/web/get-started-web.md)
       + Configurare il canale web {#configure-web-channel}
