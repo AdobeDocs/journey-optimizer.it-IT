@@ -111,7 +111,7 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
    | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
    | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
 
-+++
+   +++
 
 1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sull&#39;immagine ![ che mostra l&#39;icona dell&#39;editor di espressioni](assets/do-not-localize/rule-builder-icon-editor.svg). [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
@@ -121,7 +121,7 @@ Per aggiungere condizioni nella query, effettua le seguenti operazioni:
 
    ![immagine che mostra l&#39;opzione predefinita](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -228,7 +228,7 @@ Dopo aver creato la query nell&#39;area di lavoro, puoi controllarla utilizzando
 
 <br/>
 
-    >[!IMPORTANTE]
+    >[ !IMPORTANTE]
     >
     >Selezionare un filtro predefinito dal riquadro delle proprietà delle regole sostituisce la regola creata nell&#39;area di lavoro con il filtro selezionato.
 

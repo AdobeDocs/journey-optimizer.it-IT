@@ -53,8 +53,8 @@ L’esempio seguente definisce manualmente lo schema Iscrizioni fedeltà per ill
 
 1. Fornisci un **Nome schema** (ad esempio, `test_demo_ck001`).
 1. Scegli **Tipo schema**:
-   - **Tipo di record** (obbligatorio per le campagne AGO)
-   - **Serie temporali** (non applicabile in questo caso)
+   &#x200B;- **Tipo di record** (obbligatorio per le campagne AGO)
+   &#x200B;- **Serie temporali** (non applicabile in questo caso)
 1. Fare clic su **Fine** per passare all&#39;area di progettazione dello schema.
 
 ## Seleziona entità e campi da importare
@@ -62,8 +62,8 @@ L’esempio seguente definisce manualmente lo schema Iscrizioni fedeltà per ill
 1. Nell’area di lavoro, aggiungi gli attributi (campi) allo schema.
 1. Aggiungi una **chiave primaria** (obbligatoria).
 1. Aggiungi un attributo **Descrittore versione** (per il supporto CDC):
-   - Deve essere di tipo **DateTime** o **Numerico** (numero intero, lungo, breve, byte).
-   - Esempio comune: `last_modified`
+   &#x200B;- Deve essere di tipo **DateTime** o **Numerico** (numero intero, lungo, breve, byte).
+   &#x200B;- Esempio comune: `last_modified`
 
 > **Perché?** La **chiave primaria** identifica in modo univoco ogni record e il **descrittore di versione** tiene traccia delle modifiche, supportando CDC (Change Data Capture) e il mirroring dei dati.
 
