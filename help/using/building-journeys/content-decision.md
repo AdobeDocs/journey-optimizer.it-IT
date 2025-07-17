@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1027'
 ht-degree: 4%
 
 ---
@@ -63,9 +63,9 @@ Per configurare l&#39;attività **[!UICONTROL Decisione contenuto]**, eseguire l
 
 1. Disporre l&#39;ordine di valutazione in base alle esigenze.
 
-   Quando si aggiungono più elementi decisionali e/o strategie, queste vengono valutate in ordine sequenziale, indicato da numeri a sinistra di ciascun oggetto o gruppo di oggetti. Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni](../experience-decisioning/create-decision.md#evaluation-order)
+   Quando si aggiungono più elementi decisionali e/o strategie, questi vengono valutati in ordine sequenziale, indicato da numeri a sinistra di ciascun oggetto o gruppo di oggetti. Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. Facoltativamente, aggiungi un’offerta di fallback. [Ulteriori informazioni](../experience-decisioning/create-decision.md#fallback)
+1. (facoltativo) aggiungi un’offerta di fallback. [Ulteriori informazioni](../experience-decisioning/create-decision.md#fallback)
 
 1. Rivedi e salva il criterio decisionale.
 
@@ -85,7 +85,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
 1. Dalla categoria **[!UICONTROL Orchestrazione]**, rilascia un&#39;attività **[!UICONTROL Condizione]** nell&#39;area di lavoro. [Ulteriori informazioni](condition-activity.md#add-condition-activity)
 
-1. In alternativa, rinominare **[!UICONTROL Percorso1]**, che corrisponde alla prima espressione che si definirà, in un&#39;etichetta più rilevante.
+1. (facoltativo) Rinomina **[!UICONTROL Percorso1]**, che corrisponde alla prima espressione definita, in un&#39;etichetta più rilevante.
 
 1. Per questo primo percorso, fare clic all&#39;interno del campo **[!UICONTROL Espressione]** oppure utilizzare l&#39;icona Modifica per aggiungere un&#39;espressione.
 
@@ -103,7 +103,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    >[!NOTE]
    >
-   >Qualsiasi etichetta con restrizioni definita su un attributo, sia in un evento esperienza di percorso utilizzato in una regola di decisione (come dati contestuali) che nello schema [offerte](../experience-decisioning/catalogs.md#access-catalog-schema), non comporterà una violazione dei criteri per DULE o consenso. Ulteriori informazioni sui criteri di governance dei dati in [questa sezione](../action/action-privacy.md)
+   >Qualsiasi etichetta limitata definita su un attributo, in un evento esperienza di percorso utilizzato in una regola di decisione (come dati contestuali) o nello schema [offerte](../experience-decisioning/catalogs.md#access-catalog-schema), genera una violazione dei criteri per DULE o consenso. Ulteriori informazioni sui criteri di governance dei dati in [questa sezione](../action/action-privacy.md)
 
 1. Per verificare se è stata restituita un&#39;offerta per i profili che entrano nel percorso, utilizzare la funzione [listSize](functions/functionlistsize.md) con la seguente sintassi: `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -135,7 +135,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -157,7 +157,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publishing-the-journey.md):
+Una volta attivato il percorso [](publishing-the-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
