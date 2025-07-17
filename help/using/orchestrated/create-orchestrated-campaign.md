@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 25120dd71159d0233783ac4c189f528ff2c93ae3
+source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1158'
 ht-degree: 12%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 | Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | <b>[Crea e pianifica la campagna](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrazione attività](orchestrate-activities.md)<br/><br/>[Avvia e monitora la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | <b>[Crea e pianifica la campagna](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrazione attività](orchestrate-activities.md)<br/><br/>[Avvia e monitora la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -29,6 +29,8 @@ ht-degree: 12%
 <br/>
 
 >[!BEGINSHADEBOX]
+
+</br>
 
 Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
 
@@ -97,7 +99,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Data]**: seleziona la data di esecuzione della campagna.
    * **[!UICONTROL Ora]**: seleziona l&#39;ora specifica di esecuzione della campagna.
 
-   +++
++++
 
    +++Giornaliero
 
@@ -111,7 +113,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: definisci l&#39;ora in cui la campagna deve essere eseguita ogni giorno.
 
-   +++
++++
 
    +++Più volte al giorno
 
@@ -120,7 +122,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ore selezionate]**: seleziona le ore specifiche in cui la campagna deve essere eseguita e configurane la ricorrenza giornaliera (eseguita ogni giorno della settimana o in alcuni giorni).
    * **[!UICONTROL Periodico]**: scegli di eseguire la campagna ogni n minuti o ore. Puoi anche definire l’intervallo di tempo all’interno del giorno in cui sono consentite le esecuzioni.
 
-   +++
++++
 
    +++Settimanale
 
@@ -131,7 +133,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ricorrenza giornaliera]**: scegli giorni specifici della settimana per l&#39;esecuzione (ad esempio, ogni lunedì e giovedì).
    * **[!UICONTROL Ora di inizio]**: imposta l&#39;ora in cui la campagna deve essere eseguita nei giorni selezionati.
 
-   +++
++++
 
    +++Mensile
 
@@ -147,7 +149,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: imposta l&#39;ora di esecuzione della campagna.
 
-   +++
++++
 
 1. Utilizza l&#39;impostazione **[!UICONTROL Periodo di validità]** per definire una data di inizio e una data di fine specifiche, limitando l&#39;esecuzione della campagna a un intervallo di tempo limitato.
 
