@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,8 +53,8 @@ L’esempio seguente definisce manualmente lo schema Iscrizioni fedeltà per ill
 
 1. Fornisci un **Nome schema** (ad esempio, `test_demo_ck001`).
 1. Scegli **Tipo schema**:
-   &#x200B;- **Tipo di record** (obbligatorio per le campagne AGO)
-   &#x200B;- **Serie temporali** (non applicabile in questo caso)
+   - **Tipo di record** (obbligatorio per le campagne AGO)
+   - **Serie temporali** (non applicabile in questo caso)
 1. Fare clic su **Fine** per passare all&#39;area di progettazione dello schema.
 
 ## Seleziona entità e campi da importare
@@ -62,8 +62,8 @@ L’esempio seguente definisce manualmente lo schema Iscrizioni fedeltà per ill
 1. Nell’area di lavoro, aggiungi gli attributi (campi) allo schema.
 1. Aggiungi una **chiave primaria** (obbligatoria).
 1. Aggiungi un attributo **Descrittore versione** (per il supporto CDC):
-   &#x200B;- Deve essere di tipo **DateTime** o **Numerico** (numero intero, lungo, breve, byte).
-   &#x200B;- Esempio comune: `last_modified`
+Deve essere di tipo **DateTime** o **Numerico** (numero intero, lungo, breve, byte).
+Esempio comune: `last_modified`
 
 > **Perché?** La **chiave primaria** identifica in modo univoco ogni record e il **descrittore di versione** tiene traccia delle modifiche, supportando CDC (Change Data Capture) e il mirroring dei dati.
 
