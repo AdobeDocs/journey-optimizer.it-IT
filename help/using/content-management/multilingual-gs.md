@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Traduzioni"
->abstract="La funzione di multilingue consente di creare facilmente contenuti in più lingue all’interno di una campagna o di un percorso. Tramite la pagina Traduzioni è possibile configurare progetti, selezionare provider di traduzione o gestire dizionari specifici per lingua"
+>abstract="La funzione di multilingue consente di creare facilmente contenuti in più lingue all’interno di una campagna o di un percorso. Tramite la pagina Traduzioni è possibile configurare progetti, selezionare provider di traduzione o gestire dizionari specifici per ogni lingua."
 
 La funzione multilingue consente di creare facilmente contenuti in più lingue all’interno di una singola campagna o percorso. Grazie a questa funzione, è possibile cambiare lingua durante la modifica della campagna, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.
 
@@ -52,7 +52,7 @@ Per eventuali problemi o richieste di assistenza relativi alle traduzioni, conta
 
 Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
-* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Per iniziare a creare contenuti multilingue, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**. Per il flusso automatizzato, gli utenti avranno bisogno anche di autorizzazioni relative alle funzionalità di **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 
@@ -96,8 +96,8 @@ Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
 +++
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
 Scopri come creare contenuti in più lingue all’interno di una singola campagna o percorso.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452121?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)
