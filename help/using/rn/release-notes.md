@@ -41,7 +41,7 @@ Per ulteriori informazioni, consulta [queste Domande frequenti](../building-jour
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
