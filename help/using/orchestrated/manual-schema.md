@@ -53,8 +53,8 @@ L’esempio seguente definisce manualmente lo schema Iscrizioni fedeltà per ill
 
 1. Fornisci un **Nome schema** (ad esempio, `test_demo_ck001`).
 1. Scegli **Tipo schema**:
-   - **Tipo di record** (obbligatorio per le campagne AGO)
-   - **Serie temporali** (non applicabile in questo caso)
+   &#x200B;- **Tipo di record** (obbligatorio per le campagne AGO)
+   &#x200B;- **Serie temporali** (non applicabile in questo caso)
 1. Fare clic su **Fine** per passare all&#39;area di progettazione dello schema.
 
 ## Seleziona entità e campi da importare
