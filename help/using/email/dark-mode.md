@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, editor
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# Definire il contenuto in modalità scura {#dark-mode}
+# Gestire i contenuti in modalità scura {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Per definire le impostazioni personalizzate della modalità scura, effettua le s
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. Dopo aver apportato tutte le modifiche per la modalità scura, fare clic su **[!UICONTROL Simula contenuto]**.
+1. In qualsiasi momento puoi **[!UICONTROL Passare alla visualizzazione live]** per verificare come il contenuto potrebbe essere riprodotto su dispositivi di varie dimensioni. Da questa vista, seleziona l’opzione Modalità scura nella parte superiore dello schermo per visualizzare in anteprima la versione in modalità scura del contenuto tra i diversi dispositivi.
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >La visualizzazione live è un’anteprima generica progettata per confrontare l’aspetto del rendering tra le varie dimensioni dei dispositivi. Il rendering finale può variare a seconda del client e-mail del destinatario.
+
+1. Dopo aver apportato le modifiche desiderate per la modalità scura, fare clic su **[!UICONTROL Simula contenuto]**.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Seleziona **[!UICONTROL Rendering e-mail]** e collegati al tuo account Litmus. Puoi vedere il rendering finale in modalità scura per vari client e-mail.
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. Seleziona **[!UICONTROL Rendering e-mail]** e collegati al tuo account Litmus. Puoi vedere il rendering finale in modalità scura per vari client e-mail. Ulteriori informazioni sul [rendering di e-mail](../content-management/rendering.md).
 
    >[!WARNING]
    >
