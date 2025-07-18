@@ -6,10 +6,11 @@ description: Scopri come inserire in Adobe Experience Platform dati provenienti 
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 17%
+source-wordcount: '480'
+ht-degree: 6%
 
 ---
 
@@ -37,68 +38,65 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 Adobe Experience Platform consente di acquisire dati da origini esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Experience Platform. È possibile acquisire dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e molte altre.
 
-<!--
-## With Cloud storage {#ingest}
+## Con archiviazione cloud {#ingest}
 
 
 >[!IMPORTANT]
 >
->Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+>Ogni set di dati in Adobe Experience Platform supporta un solo flusso di dati attivo alla volta. Per istruzioni dettagliate su come cambiare origine dati, consulta questa [sezione](#cdc-ingestion).
 
 
-You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+Puoi configurare un flusso di dati per acquisire i dati da un’origine Amazon S3 a Adobe Experience Platform. Una volta configurato, il flusso di dati consente l’acquisizione automatica e pianificata di dati strutturati e supporta gli aggiornamenti in tempo reale.
 
-1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+1. Dal menu **[!UICONTROL Connessioni]**, accedere al menu **[!UICONTROL Origini]**.
 
-1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+1. Seleziona la categoria **[!UICONTROL Archiviazione cloud]**, quindi Amazon S3 e fai clic su **[!UICONTROL Aggiungi dati]**.
 
-    ![](assets/admin_sources_1.png)
+   ![](assets/admin_sources_1.png)
 
-1. Connect your S3 Account:
+1. Connetti il tuo account S3:
 
-    * With an existing account
+   * Con un account esistente
 
-    * With a new account
+   * Con un nuovo account
 
-    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
-    ![](assets/admin_sources_2.png)
+   ![](assets/admin_sources_2.png)
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+1. Scegli la cartella **[!UICONTROL Formato dati]**, **[!UICONTROL Delimitatore]** e **[!UICONTROL Tipo di compressione]**.
 
-1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+1. Naviga nell&#39;origine S3 connessa fino a individuare le cartelle desiderate, ad esempio **premi fedeltà** e **transazioni fedeltà**.
 
-1. Select the folder that contains your data.
-    
-    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+1. Selezionare la cartella contenente i dati.
 
-    ![](assets/S3_config_2.png)
+   La selezione di una cartella garantisce che tutti i file correnti e futuri con la stessa struttura vengano elaborati automaticamente. La selezione di un singolo file, tuttavia, richiede il caricamento manuale di ogni nuovo incremento di dati.
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+   ![](assets/S3_config_2.png)
 
-    ![](assets/S3_config_1.png)
+1. Scegli la cartella **[!UICONTROL Formato dati]**, **[!UICONTROL Delimitatore]** e **[!UICONTROL Tipo di compressione]**. Verifica la precisione dei dati di esempio, quindi fai clic su **[!UICONTROL Avanti]**.
 
-1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+   ![](assets/S3_config_1.png)
 
-1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+1. Selezionare **[!UICONTROL Abilita Change data capture]** per effettuare una selezione da set di dati mappati a schemi relazionali e per i quali sono definiti sia una chiave primaria che un descrittore di versione.
 
-    ![](assets/S3_config_3.png)
+1. Seleziona il [set di dati creato in precedenza](#entities) e fai clic su **[!UICONTROL Avanti]**.
 
-1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+   ![](assets/S3_config_3.png)
 
-    Click **[!UICONTROL Next]** once done.
+1. Nella finestra **[!UICONTROL Mapping]**, verifica che ogni attributo del file di origine sia mappato correttamente con i campi corrispondenti nello schema di destinazione.
 
-    ![](assets/S3_config_4.png)
+   Al termine, fai clic su **[!UICONTROL Avanti]**.
 
-1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+   ![](assets/S3_config_4.png)
 
-1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+1. Configura il flusso di dati **[!UICONTROL Pianificazione]** in base alla frequenza desiderata.
 
-1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+1. Fare clic su **[!UICONTROL Fine]** per creare il flusso di dati. Viene eseguito automaticamente in base alla pianificazione definita.
 
-    ![](assets/S3_config_5.png)
+1. Dal menu **[!UICONTROL Connessioni]**, seleziona **[!UICONTROL Origini]** e accedi alla scheda **[!UICONTROL Flussi di dati]** per monitorare l&#39;esecuzione del flusso, esaminare i record acquisiti e risolvere eventuali errori.
 
--->
+   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 

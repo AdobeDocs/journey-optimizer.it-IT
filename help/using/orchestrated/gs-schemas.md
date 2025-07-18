@@ -6,10 +6,11 @@ description: Scopri come creare uno schema relazionale in Adobe Experience Platf
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 8%
+source-wordcount: '243'
+ht-degree: 5%
 
 ---
 
@@ -35,47 +36,19 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per campagne orchestrate, acquisire dati tramite un’origine S3 ed eseguire query sui dati acquisiti nella piattaforma AP.
-
-<!--
-In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
+Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per campagne orchestrate e acquisire dati.
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [Create relational Schema and associated Dataset](#schema)
-    
-    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
+1. Crea [schema relazionale manualmente](manual-schema.md) o [utilizzando un file DDL](file-upload-schema.md)
 
-1. [Link schema](#link-schema)
+   Definisci la struttura del modello dati, incluse tabelle, attributi e relazioni. Scegli se creare lo schema manualmente nell&#39;interfaccia utente o caricare un file DDL per velocizzare l&#39;installazione.
 
-    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
+1. [Schema collegamento](#link-schema)
 
-1. [Ingest Data](#ingest)
+   stabilisci relazioni tra gli schemi per garantire la coerenza dei dati e abilitare query tra più entità. Ad esempio, puoi collegare le transazioni di fidelizzazione a destinatari o premi a marchi.
 
-    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
+1. [Acquisire dati](#ingest)
 
--->
+   Importa dati in Adobe Experience Platform da origini supportate come SFTP, archiviazione cloud o database.
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->

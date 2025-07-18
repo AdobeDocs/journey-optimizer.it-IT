@@ -7,14 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
-# Schema manuale {#manual-schema}
+# Impostare uno schema relazionale manuale {#manual-schema}
 
 +++ Sommario
 
@@ -38,146 +38,123 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 Gli schemi relazionali possono essere creati direttamente tramite l’interfaccia utente, consentendo la configurazione dettagliata di attributi, chiavi primarie, campi per il controllo delle versioni e relazioni.
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** per illustrare la struttura richiesta per le campagne orchestrate.
 
-1. Log in to Adobe Experience Platform.
+1. [Creare manualmente uno schema relazionale](#schema) tramite l&#39;interfaccia di Adobe Experience Platform.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Aggiungi attributi](#schema-attributes) quali ID cliente, livello di iscrizione e campi di stato.
 
-1. Click on **Create Schema**.
+1. [Collega lo schema](#link-schema) a schemi incorporati, ad esempio Destinatari per il targeting della campagna.
 
-1. You will be prompted to select between two schema types:
+1. [Crea un set di dati](#dataset) in base allo schema e abilitalo per l&#39;utilizzo in campagne orchestrate.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [Acquisisci dati](ingest-data.md) nel set di dati da origini supportate.
 
-    ![](assets/admin_schema_1.png)
+## Creare lo schema {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+Inizia creando manualmente un nuovo schema relazionale in Adobe Experience Platform. Questo processo ti consente di definire la struttura dello schema da zero, incluso il nome e il comportamento.
 
-## Select entities and fields to import
+1. Accedi a Adobe Experience Platform.
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. Passa al menu **[!UICONTROL Gestione dati]** > **[!UICONTROL Schema]**.
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. Fare clic su **[!UICONTROL Crea schema]**.
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. Seleziona **[!UICONTROL Relazionale]** come **tipo di schema**.
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. Scegli **[!UICONTROL Crea manualmente]** per creare lo schema aggiungendo manualmente i campi.
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. Immetti il nome visualizzato dello **[!UICONTROL schema]**.
 
-> **Note:** Only one dataset can be created per relational schema.
+1. Scegli **[!UICONTROL Record]** come **[!UICONTROL comportamento schema]**.
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. Fai clic su **Fine** per procedere con la creazione dello schema.
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+Ora puoi iniziare ad aggiungere attributi allo schema per definirne la struttura.
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## Aggiungere attributi allo schema {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+Quindi, aggiungi gli attributi per definire la struttura dello schema. Questi campi rappresentano i punti di dati chiave utilizzati nelle campagne orchestrate, ad esempio gli identificatori dei clienti, i dettagli di iscrizione e le date delle attività. Definendoli accuratamente si garantiscono personalizzazione, segmentazione e tracciamento affidabili.
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. Nell&#39;area di lavoro, fai clic su ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) accanto al **nome schema** per iniziare ad aggiungere attributi.
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. Immetti l&#39;attributo **[!UICONTROL Nome campo]**, **[!UICONTROL Nome visualizzato]** e **[!UICONTROL Tipo]**.
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   In questo esempio, sono stati aggiunti allo schema **Appartenenze fedeltà** gli attributi descritti nella tabella seguente.
 
-1. Save the file as `.csv`.
++++ Attributi, esempi
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | Nome attributo | Tipo di dati | Attributi aggiuntivi |
+   |-|-|-|
+   | cliente | STRINGA | Chiave primaria |
+   | livello_di_iscrizione | STRINGA | Obbligatorio |
+   | points_balance | NUMERO INTERO | Obbligatorio |
+   | enrollment_date | DATA | Obbligatorio |
+   | last_status_change | DATA | Obbligatorio |
+   | data_scadenza | DATA | - |
+   | is_active | BOOLEANO | Obbligatorio |
+   | ultima modifica | DATETIME | Obbligatorio |
 
++++
 
-## 9. Ingesting Data from S3
+1. Assegna i campi appropriati come **[!UICONTROL Chiave primaria]** e **[!UICONTROL Descrittore versione]**.
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   La **[!UICONTROL chiave primaria]** garantisce che ogni record sia identificato in modo univoco, mentre il **[!UICONTROL descrittore di versione]** acquisisce gli aggiornamenti nel tempo, abilitando Change Data Capture e supportando il mirroring dei dati.
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. Fai clic su **[!UICONTROL Salva]**.
 
-### Field Mapping
+Una volta creati gli attributi, devi collegare lo schema appena creato con uno schema integrato.
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## Collegare gli schemi {#link-schema}
 
-### Scheduling
+Creare una relazione tra due schemi consente di arricchire le campagne orchestrate con dati memorizzati al di fuori dello schema del profilo principale.
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. Dallo schema appena creato, seleziona l&#39;attributo che desideri utilizzare come collegamento e fai clic su **[!UICONTROL Aggiungi relazione]**.
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. Scegli lo **[!UICONTROL schema di riferimento]** e il **[!UICONTROL campo di riferimento]** con cui stabilire la relazione.
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   In questo esempio, l&#39;attributo `customer` è collegato allo schema `recipients`.
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. Immetti un nome di relazione dallo schema corrente e dallo schema di riferimento.
 
-- Every **15 minutes**, or
+1. Una volta configurata, fai clic su **[!UICONTROL Applica]**.
 
-- If **Data Lake size exceeds 5MB**
+Una volta stabilita la relazione, devi creare un set di dati basato sullo schema.
 
-This is a background replication process.
+## Creare un set di dati per lo schema {#dataset}
 
+Dopo aver definito lo schema, il passaggio successivo consiste nel creare un set di dati basato su di esso. Questo set di dati archivia i dati acquisiti e deve essere abilitato per le campagne orchestrate affinché sia accessibile in Adobe Journey Optimizer. L’abilitazione di questa opzione assicura che il set di dati sia riconosciuto per l’utilizzo in flussi di lavoro di orchestrazione e personalizzazione in tempo reale.
 
-## 12. Querying the Dataset
+1. Passa al menu **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** e fai clic su **[!UICONTROL Crea set di dati]**.
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. Seleziona **[!UICONTROL Crea set di dati dallo schema]**.
 
-1. Run the query.
+1. Scegli lo schema creato in precedenza, qui **Appartenenze fedeltà**, quindi fai clic su **[!UICONTROL Successivo]**.
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. Immetti un **[!UICONTROL Nome]** per il **[!UICONTROL Set di dati]** e fai clic su **[!UICONTROL Fine]**.
+
+1. Abilita l&#39;opzione **Campagne orchestrate** per rendere il set di dati disponibile per l&#39;utilizzo nelle campagne AJO.
+
+   L’attivazione potrebbe richiedere alcuni minuti. L’acquisizione dei dati è possibile solo dopo che l’opzione è stata completamente attivata.
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+Ora puoi iniziare ad acquisire i dati nello schema utilizzando l’origine che preferisci.
+
+➡️ [Scopri come acquisire i dati](ingest-data.md)

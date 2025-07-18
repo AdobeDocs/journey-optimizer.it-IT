@@ -6,14 +6,15 @@ description: Scopri come creare uno schema relazionale in Adobe Experience Platf
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 7%
+source-wordcount: '872'
+ht-degree: 1%
 
 ---
 
-# Caricamento di file {#file-upload-schema}
+# Creare schemi relazionali utilizzando un file DDL {#file-upload-schema}
 
 +++ Sommario
 
@@ -35,123 +36,127 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-Definisci il modello di dati relazionali necessario per le campagne orchestrate creando schemi come **Iscrizioni fedeltà**, **Transazioni fedeltà** e **Premi fedeltà**. Ogni schema deve includere una chiave primaria, un attributo di controllo delle versioni e relazioni appropriate con entità di riferimento come **Destinatari** o **Marchi**.
+Definisci il modello di dati relazionali necessario per le campagne orchestrate creando schemi come **Iscrizioni fedeltà**, **Transazioni fedeltà** e **Premi fedeltà**. Ogni schema deve includere una chiave primaria, un attributo di controllo delle versioni e relazioni appropriate con entità di riferimento quali **Destinatari** o **Marchi**.
 
-<!--
-Schemas can be created manually through the interface or imported in bulk using a DDL file.
+Gli schemi possono essere creati manualmente tramite l’interfaccia o importati in blocco utilizzando un file DDL.
 
-This section provides step-by-step guidance on how to create a relational schema within Adobe Experience Platform by uploading a DDL (Data Definition Language) file. Using a DDL file allows you to define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
+Questa sezione fornisce istruzioni dettagliate su come creare uno schema relazionale all’interno di Adobe Experience Platform caricando un file DDL (Data Definition Language). L&#39;utilizzo di un file DDL consente di definire in anticipo la struttura del modello dati, incluse tabelle, attributi, chiavi e relazioni.
 
-## Upload a DDL file{#ddl-upload}
+1. [Carica un file DDL](#ddl-upload) per creare schemi relazionali e definirne la struttura.
 
-By uploading a DDL file, you can define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
+1. [Definisci le relazioni](#relationships) tra le tabelle nel modello dati.
 
-1. Log in to Adobe Experience Platform.
+1. [Collega schemi](#link-schema) per collegare i dati relazionali con entità profilo esistenti, ad esempio Destinatari o Marchi.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Acquisisci dati](ingest-data.md) nel set di dati da origini supportate.
 
-1. Click on **Create Schema**.
+## Carica un file DDL{#ddl-upload}
 
-1. You will be prompted to select between two schema types:
+Caricando un file DDL, puoi definire in anticipo la struttura del modello dati, incluse tabelle, attributi, chiavi e relazioni.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. Accedi a Adobe Experience Platform.
 
-    ![](assets/admin_schema_1.png)
+1. Passa al menu **Gestione dati** > **Schema**.
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. Fare clic su **Crea schema**.
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. Seleziona **[!UICONTROL Relazionale]** come **tipo di schema**.
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]**.
+1. Selezionare **[!UICONTROL Carica file DDL]** per definire un diagramma delle relazioni tra entità e creare schemi.
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   La struttura della tabella deve contenere:
+   * Almeno una chiave primaria
+   * Identificatore di versione, ad esempio un campo `lastmodified` di tipo `datetime` o `number`.
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+1. Trascina il file DDL e fai clic su **[!UICONTROL Avanti]**.
 
-    ![](assets/admin_schema_2.png)
+1. Digita il tuo **[!UICONTROL nome schema]**.
 
-1. Click **[!UICONTROL Done]** once done.
+1. Imposta ogni schema e le relative colonne, assicurandoti che sia specificata una chiave primaria.
 
-You can now verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+   Un attributo, ad esempio `lastmodified`, deve essere designato come descrittore di versione. Questo attributo, in genere di tipo `datetime`, `long` o `int`, è essenziale per i processi di acquisizione affinché il set di dati venga aggiornato con la versione più recente.
 
-## Define relationships {#relationships}
+   ![](assets/admin_schema_2.png)
 
-To define logical connections between tables within your schema, follow the steps below.
+1. Al termine, fai clic su **[!UICONTROL Fine]**.
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+Ora puoi verificare le definizioni della tabella e dei campi all’interno dell’area di lavoro. [Ulteriori informazioni nella sezione seguente](#entities)
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+## Definire le relazioni {#relationships}
 
-    ![](assets/admin_schema_5.png)
+Per definire connessioni logiche tra tabelle all’interno dello schema, segui la procedura riportata di seguito.
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. Accedi alla vista area di lavoro del modello dati e scegli le due tabelle da collegare
 
-    ![](assets/admin_schema_3.png)
+1. Fai clic sul pulsante ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) accanto a Source Join, quindi trascina e guida la freccia verso Target Join per stabilire la connessione.
 
-    **Cardinality**:
+   ![](assets/admin_schema_5.png)
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+1. Compila il modulo specificato per definire il collegamento e fai clic su **Applica** una volta configurato.
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+   ![](assets/admin_schema_3.png)
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+   **Cardinalità**:
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   * **1-N**: una occorrenza della tabella di origine può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo una occorrenza corrispondente della tabella di origine.
 
-    ![](assets/admin_schema_6.png)
+   * **N-1**: una occorrenza della tabella di destinazione può avere diverse occorrenze corrispondenti della tabella di origine, ma una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
 
-1. Use the toolbar to customize and adjust your canvas.
+   * **1-1**: una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
 
-    ![](assets/toolbar.png)
+1. Tutti i collegamenti definiti nel modello dati sono rappresentati da frecce nella vista area di lavoro. Fai clic su una freccia tra due tabelle per visualizzare i dettagli, apportare modifiche o rimuovere il collegamento in base alle esigenze.
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   ![](assets/admin_schema_6.png)
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+1. Utilizza la barra degli strumenti per personalizzare e regolare l’area di lavoro.
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   ![](assets/toolbar.png)
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **Zoom in**: ingrandisci l&#39;area di lavoro per visualizzare più chiaramente i dettagli del modello dati.
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+   * **Zoom indietro**: riduci le dimensioni dell&#39;area di lavoro per una visualizzazione più ampia del modello dati.
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   * **Adatta visualizzazione**: regola lo zoom per adattarlo a tutti gli schemi all&#39;interno dell&#39;area visibile.
 
-1. Click **Save** once done. This action creates the schemas and associated data sets and enables the data set for use in Orchestrated Campaigns.
+   * **Filtro**: scegliere lo schema da visualizzare nell&#39;area di lavoro.
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   * **Forza layout automatico**: disponi automaticamente gli schemi per una migliore organizzazione.
 
-    ![](assets/admin_schema_4.png)
+   * **Visualizza mappa**: consente di attivare o disattivare la sovrapposizione minima per spostarsi più facilmente nei layout di schema complessi o di grandi dimensioni.
 
-## Link schema {#link-schema}
+1. Al termine, fai clic su **Salva**. Questa azione crea gli schemi e i set di dati associati e abilita il set di dati da utilizzare nelle campagne orchestrate.
 
-Establish a relationship between the **loyalty transactions** schema and the **Recipients** schema to associate each transaction with the correct customer record.
+1. Fai clic su **[!UICONTROL Processi aperti]** per monitorare l&#39;avanzamento del processo di creazione. Questo processo può richiedere alcuni minuti, a seconda del numero di tabelle definite nel file DDL.
 
-1. Navigate to **[!UICONTROL Schemas]** and open your previously create **loyalty transactions**.
+   ![](assets/admin_schema_4.png)
 
-1. Click **[!UICONTROL Add Relationship]** from the Customer **[!UICONTROL Field properties]**.
+## Collegare gli schemi {#link-schema}
 
-    ![](assets/schema_1.png)
+Stabilisci una relazione tra lo schema **transazioni fedeltà** e lo schema **Destinatari** per associare ogni transazione al record cliente corretto.
 
-1. Select **[!UICONTROL Many-to-One]** as the relationship **[!UICONTROL Type]**.
+1. Passa a **[!UICONTROL Schemi]** e apri le **transazioni fedeltà** create in precedenza.
 
-1. Link to the existing **Recipients** schema.
+1. Fare clic su **[!UICONTROL Aggiungi relazione]** dalle proprietà del campo **[!UICONTROL Cliente]**.
 
-    ![](assets/schema_2.png)
+   ![](assets/schema_1.png)
 
-1. Enter a **[!UICONTROL Relationship name from current schema]** and **[!UICONTROL Relationship name from reference schema]**.
+1. Selezionare **[!UICONTROL Many-to-One]** come relazione **[!UICONTROL Type]**.
 
-1. Click **[!UICONTROL Apply]** to save your changes.
+1. Collegamento allo schema **Destinatari** esistente.
 
-Continue by creating a relationship between the **loyalty rewards** schema and the **Brands** schema to associate each reward entry with the appropriate brand.
+   ![](assets/schema_2.png)
+
+1. Immetti un nome di relazione **[!UICONTROL dallo schema corrente]** e un nome di relazione **[!UICONTROL dallo schema di riferimento]**.
+
+1. Fai clic su **[!UICONTROL Applica]** per salvare le modifiche.
+
+Continua creando una relazione tra lo schema **premi fedeltà** e lo schema **Marchi** per associare ogni premio al marchio appropriato.
 
 ![](assets/schema_3.png)
 
--->
+
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
 If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
