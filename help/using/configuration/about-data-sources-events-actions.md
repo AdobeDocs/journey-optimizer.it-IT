@@ -11,8 +11,8 @@ keywords: configurazione, percorso, dashboard, origini dati, eventi, azioni
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 63%
+source-wordcount: '522'
+ht-degree: 59%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="Informazioni sulla configurazione dei percorsi"
->abstract="Per inviare messaggi con i percorsi, è necessario configurare origini dati, eventi e azioni. Le origini dati consentono di stabilire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle condizioni. Gli eventi consentono di attivare i percorsi quando viene ricevuto un evento. Le azioni personalizzate facilitano la connessione a un sistema di terze parti per l’invio dei messaggi. Se utilizzi le funzionalità di messaggistica integrate di Journey Optimizer, non è necessario configurare un’azione."
+>abstract="Per inviare messaggi con i percorsi, è necessario configurare origini dati, eventi e azioni. Le origini dati consentono di stabilire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle condizioni. Gli eventi consentono di attivare i percorsi quando viene ricevuto un evento. Le azioni personalizzate facilitano la connessione a un sistema di terze parti per l’invio dei messaggi. Se utilizzi le funzionalità di messaggistica incorporate di Journey Optimizer, non è necessario configurare un’azione."
 
-Per inviare messaggi con percorsi, è necessario configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. Le origini dati consentono di stabilire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle condizioni. Gli eventi consentono di attivare i percorsi quando viene ricevuto un evento. Le azioni personalizzate facilitano la connessione a un sistema di terze parti per l’invio dei messaggi. Se utilizzi le funzionalità di messaggistica integrate di Journey Optimizer, non è necessario configurare un’azione.
+Per inviare messaggi con percorsi, è necessario configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. Le origini dati consentono di stabilire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle condizioni. Gli eventi consentono di attivare i percorsi quando viene ricevuto un evento. Le azioni personalizzate facilitano la connessione a un sistema di terze parti per l’invio dei messaggi. Se utilizzi le funzionalità di messaggistica incorporate di Journey Optimizer, non è necessario configurare un’azione.
 
 
 ![](assets/admin-menu.png)
