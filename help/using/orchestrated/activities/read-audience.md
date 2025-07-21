@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
+L&#39;attività **[!UICONTROL Read audience]** ti consente di recuperare un pubblico esistente, salvato o importato in precedenza, e di riutilizzarlo all&#39;interno di una campagna orchestrata. Questa attività è particolarmente utile per il targeting di un set predefinito di profili senza la necessità di eseguire un nuovo processo di segmentazione.
+
+Una volta caricato il pubblico, puoi facoltativamente perfezionarlo selezionando un campo di identità univoco e arricchendo il pubblico con attributi di profilo aggiuntivi a scopo di targeting, personalizzazione o reporting.
+
+## Configurare l’attività Read audience {#read-audience-configuration}
+
+Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Read audience]**:
+
+1. Aggiungi un&#39;attività **[!UICONTROL Read audience]** alla campagna orchestrata.
+
+   ![](../assets/read-audience-1.png)
+
+1. Immetti un&#39;etichetta **[!UICONTROL Label]** per l&#39;attività.
+
+1. Fai clic su ![icona di ricerca cartella](../assets/do-not-localize/folder-search.svg) per selezionare il pubblico a cui desideri rivolgerti per la tua campagna orchestrata.
+
+   ![](../assets/read-audience-2.png)
+
+1. Seleziona l&#39;**[!UICONTROL entità]** utilizzata per identificare in modo univoco i profili nel pubblico.
+
+   ![](../assets/read-audience-3.png)
+
+1. Seleziona **[!UICONTROL Aggiungi attributo profilo]** per arricchire il pubblico selezionato con dati aggiuntivi. Il pubblico risultante conterrà un elenco di destinatari, ciascuno arricchito con gli attributi di profilo selezionati.
+
+1. Scegli gli **[!UICONTROL Attributi]** da aggiungere al pubblico.
+
+   ![](../assets/read-audience-4.png)
+
+## Esempio
+
+Nell&#39;esempio seguente, l&#39;attività **[!UICONTROL Read audience]** viene utilizzata per recuperare un pubblico creato e salvato in precedenza dai profili abbonati alla newsletter. Il pubblico viene quindi arricchito con l&#39;attributo **Iscrizione fedeltà** per abilitare il targeting degli utenti che sono membri registrati del programma fedeltà.
+
+![](../assets/read-audience-5.png)
