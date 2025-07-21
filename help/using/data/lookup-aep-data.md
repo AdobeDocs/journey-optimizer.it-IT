@@ -10,14 +10,19 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
+source-git-commit: bd1274a5547f4ea835fc258f280c1efc667b6780
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
 # Utilizzare i dati di Adobe Experience Platform {#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="lookup-aep-data"
+>title="Abilita per ricerca"
+>abstract="Abilita per ricerca"
 
 >[!AVAILABILITY]
 >
@@ -81,4 +86,4 @@ Dove:
 Dopo aver abilitato un set di dati per la ricerca tramite una chiamata API, puoi utilizzarne i dati con le funzionalità di personalizzazione e decisioning di [!DNL Journey Optimizer].
 
 * [Utilizzare i dati di Adobe Experience Platform per la personalizzazione](../personalization/aep-data-perso.md)
-* [Utilizzare i dati di Adobe Experience Platform per prendere decisioni](../experience-decisioning/aep-data-exd.md)
+* [Utilizzare i dati di Adobe Experience Platform per la funzione Decisioni](../experience-decisioning/aep-data-exd.md)
