@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 8%
+source-wordcount: '2169'
+ht-degree: 7%
 
 ---
 
@@ -152,6 +152,7 @@ Questo limite viene controllato ogni 30 minuti. Ciò significa che potresti temp
 
   Se riprendi i percorsi per riportare il numero di profili bloccati al di sotto del limite, il percorso riprende immediatamente, ma l’aggiornamento del conteggio dei profili può richiedere fino a 30 minuti. Durante tale periodo, il sistema può ancora considerare tali profili come in pausa.
 
+* Per i percorsi che includono [attività in entrata](../channels/gs-channels.md#mobile-app-and-web-experiences) (ad esempio in-app, web, ecc.), la sospensione del percorso non interrompe le comunicazioni già attivate. Se un profilo è qualificato per un’attività in entrata prima della pausa, il messaggio corrispondente verrà comunque consegnato. Per interrompere completamente tutte le comunicazioni in entrata, è necessario arrestare il percorso.
 * I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi
 * I profili che sono entrati nel percorso ma sono stati scartati durante la pausa vengono comunque conteggiati come profili coinvolgibili
 * I percorsi in pausa vengono considerati in tutte le regole aziendali, come se fossero live
