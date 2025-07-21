@@ -1,29 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rivedere e attivare una campagna di azioni
-description: Scopri come rivedere e attivare campagne d'azione in [!DNL Journey Optimizer].
-feature: Campaigns
+title: Rivedi e attiva la campagna attivata dall’API
+description: Scopri come rivedere e attivare le campagne attivate dall’API.
+feature: Campaigns, API
 topic: Content Management
-role: User
-level: Intermediate
-keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+role: Developer
+level: Experienced
+keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 3%
+source-wordcount: '286'
+ht-degree: 4%
 
 ---
 
 
-# Rivedi e attiva la campagna di azione {#action-campaign-review}
+# Rivedi e attiva la campagna attivata dall’API {#api-review}
 
 Una volta configurata la campagna di azione, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 
 >[!IMPORTANT]
 >
-> Se la campagna è soggetta a un criterio di approvazione, è necessario richiedere l’approvazione per poter inviare la campagna. [Ulteriori informazioni](../test-approve/gs-approval.md)
+> Se la campagna è soggetta a un criterio di approvazione, per poter inviare la campagna dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 1. Nella schermata di configurazione della campagna, fai clic su **[!UICONTROL Verifica per attivare]** per visualizzare un riepilogo della campagna.
 
@@ -37,14 +36,19 @@ Una volta configurata la campagna di azione, devi esaminarne il parametro e il c
 
 1. Verifica che la tua campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
 
-1. La campagna è attivata. Il suo stato è **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** se hai immesso una data di inizio. Il messaggio configurato nella campagna viene inviato immediatamente o alla data specificata.
+1. La campagna è attivata. Il suo stato è **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** se hai immesso una data di inizio.
 
    Lo stato **[!UICONTROL Completato]** viene assegnato automaticamente alla campagna 3 giorni dopo la sua attivazione o alla data di fine se ha un&#39;esecuzione ricorrente. [Ulteriori informazioni sugli stati delle campagne](get-started-with-campaigns.md#statuses).
 
    Se non è stata specificata alcuna data di fine, la campagna mantiene lo stato **[!UICONTROL Live]**. Per modificarlo, devi interrompere la campagna manualmente. [Scopri come interrompere una campagna](modify-stop-campaign.md)
+
 
 1. Dopo l’attivazione di una campagna, puoi controllarne le informazioni in qualsiasi momento aprendola. Il riepilogo consente di ottenere statistiche sul numero di profili target e di azioni consegnate e non riuscite.
 
    Puoi anche ottenere ulteriori statistiche nei report dedicati facendo clic sul pulsante **[!UICONTROL Report]**. [Ulteriori informazioni](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
+
+## Passaggi successivi {#next}
+
+Una volta che la campagna attivata dall’API è pronta, puoi attivarne l’esecuzione utilizzando le API. [Ulteriori informazioni](trigger-campaigns.md)

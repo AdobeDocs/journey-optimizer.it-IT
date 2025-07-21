@@ -1,0 +1,62 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Modificare il contenuto della campagna di azione
+description: Scopri come modificare il contenuto della campagna di azione.
+feature: Campaigns
+topic: Content Management
+role: User
+level: Beginner
+mini-toc-levels: 1
+keywords: crea, ottimizzatore, campagna, superficie, messaggi
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 16%
+
+---
+
+
+# Modificare il contenuto della campagna di azione {#action-campaign-content}
+
+Per configurare il contenuto del messaggio, passa alla scheda **[!UICONTROL Contenuto]** o fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
+
+![](assets/campaign-content.png)
+
+## Progettare il contenuto
+
+Il processo di creazione dei contenuti dipende dal canale selezionato. Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="e-mail" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>E-mail</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong>Notifica push</strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>Direct mail</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong>In-app</strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>Esperienza basata su codice</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>Schede contenuto</strong></a></div></td>
+</tr></table>
+
+## Verifica e verifica il contenuto
+
+Una volta definito il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con profili di test o dati di input di esempio caricati da un file CSV/JSON, oppure aggiunti manualmente. [Scopri come visualizzare in anteprima e testare il contenuto](../content-management/preview-test.md)
+
+Per tornare alla schermata di creazione della campagna, fai clic sulla freccia sinistra.
+
+![](assets/create-campaign-design.png)
+
+## Passaggi successivi {#next}
+
+Una volta che il contenuto della campagna di azione è pronto, puoi definirne il pubblico. [Ulteriori informazioni](campaign-audience.md)
