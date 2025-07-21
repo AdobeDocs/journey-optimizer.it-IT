@@ -65,7 +65,7 @@ Per definire la popolazione target di una campagna di marketing pianificata, eff
 
 1. Nella sezione **Pubblico**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. Ulteriori informazioni sui tipi di pubblico in [questa sezione](../audience/about-audiences.md).
 
-1. Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    È consentito un solo tipo di identità per campagna. Gli individui appartenenti a un segmento che non ha il tipo di identità selezionato tra le loro diverse identità non possono essere targetizzati dalla campagna.
 
@@ -161,8 +161,8 @@ Oltre al contenuto del messaggio stesso, puoi configurare le seguenti impostazio
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Controllo della velocità di limitazione"
->abstract="Controllo della velocità di limitazione"
+>title="Controllo della frequenza di limitazione"
+>abstract="Controllo della frequenza di limitazione"
 
 Per impostazione predefinita, le campagne pianificate iniziano una volta attivate manualmente e terminano non appena il messaggio viene inviato.
 
