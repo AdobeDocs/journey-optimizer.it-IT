@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 12%
 
 ---
@@ -47,17 +47,23 @@ Creare una campagna orchestrata in [!DNL Adobe Journey Optimizer] e configurarne
 
 Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
-1. Vai al menu **[!UICONTROL Campagne]**, seleziona la scheda **[!UICONTROL Orchestrazione]** e fai clic su **[!UICONTROL Crea campagna]**.
+1. Passa al menu **[!UICONTROL Campagne]** e seleziona la scheda **[!UICONTROL Orchestrazione]**.
+
+1. Fai clic sul pulsante **[!UICONTROL Crea campagna]** e seleziona il tipo di campagna **[!UICONTROL Orchestrazione - Marketing]**.
+
+   ![](assets/create-modal.png)
+
+1. Definisci le proprietà della campagna. A tale scopo, fare clic sul pulsante ![Impostazioni campagna](assets/do-not-localize/campaign-settings.svg) accanto al nome della campagna.
 
    ![](assets/inventory-create.png)
 
 1. Immetti un nome e una descrizione per la campagna.
 
-1. *(facoltativo)* Utilizza il campo **[!UICONTROL Tag]** per assegnare alla campagna i tag unificati Adobe Experience Platform. Ciò ti consente di classificarli facilmente e di migliorare la ricerca dall’elenco delle campagne orchestrate. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
+<!--1. Merge policy-->
 
-1. Fai clic su **[!UICONTROL Crea]**.
+1. Utilizza il campo **[!UICONTROL Tag]** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Ciò ti consente di classificarli facilmente e di migliorare la ricerca dall’elenco delle campagne orchestrate. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
 
-La campagna orchestrata viene ora creata e visualizzata nell’elenco delle campagne orchestrate. Puoi aggiornare queste proprietà in qualsiasi momento facendo clic sull&#39;icona ![Impostazioni campagna](assets/do-not-localize/campaign-settings.svg) nell&#39;area di lavoro della campagna.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Pianificare la campagna {#schedule}
 
@@ -99,7 +105,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Data]**: seleziona la data di esecuzione della campagna.
    * **[!UICONTROL Ora]**: seleziona l&#39;ora specifica di esecuzione della campagna.
 
-   +++
++++
 
    +++Giornaliero
 
@@ -113,7 +119,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: definisci l&#39;ora in cui la campagna deve essere eseguita ogni giorno.
 
-   +++
++++
 
    +++Più volte al giorno
 
@@ -122,7 +128,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ore selezionate]**: seleziona le ore specifiche in cui la campagna deve essere eseguita e configurane la ricorrenza giornaliera (eseguita ogni giorno della settimana o in alcuni giorni).
    * **[!UICONTROL Periodico]**: scegli di eseguire la campagna ogni n minuti o ore. Puoi anche definire l’intervallo di tempo all’interno del giorno in cui sono consentite le esecuzioni.
 
-   +++
++++
 
    +++Settimanale
 
@@ -133,7 +139,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ricorrenza giornaliera]**: scegli giorni specifici della settimana per l&#39;esecuzione (ad esempio, ogni lunedì e giovedì).
    * **[!UICONTROL Ora di inizio]**: imposta l&#39;ora in cui la campagna deve essere eseguita nei giorni selezionati.
 
-   +++
++++
 
    +++Mensile
 
@@ -149,7 +155,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: imposta l&#39;ora di esecuzione della campagna.
 
-   +++
++++
 
 1. Utilizza l&#39;impostazione **[!UICONTROL Periodo di validità]** per definire una data di inizio e una data di fine specifiche, limitando l&#39;esecuzione della campagna a un intervallo di tempo limitato.
 
