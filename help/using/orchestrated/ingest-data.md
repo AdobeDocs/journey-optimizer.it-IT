@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,9 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
 >[!IMPORTANT]
 >
->Ogni set di dati in Adobe Experience Platform supporta un solo flusso di dati attivo alla volta. Per istruzioni dettagliate su come cambiare origine dati, consulta questa [sezione](#cdc-ingestion).
+>Per modificare l’origine dati per un set di dati, devi prima eliminare il flusso di dati esistente prima di crearne uno nuovo che faccia riferimento allo stesso set di dati e alla nuova origine.
+>
+>Adobe Experience Platform applica una stretta relazione uno-a-uno tra flussi di dati e set di dati. Questo consente di mantenere la sincronizzazione tra l’origine e il set di dati per un’acquisizione incrementale accurata.
 
 
 Puoi configurare un flusso di dati per acquisire i dati da un’origine Amazon S3 a Adobe Experience Platform. Una volta configurato, il flusso di dati consente l’acquisizione automatica e pianificata di dati strutturati e supporta gli aggiornamenti in tempo reale.
@@ -60,7 +62,7 @@ Puoi configurare un flusso di dati per acquisire i dati da un’origine Amazon S
 
    * Con un nuovo account
 
-   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -78,9 +80,11 @@ Puoi configurare un flusso di dati per acquisire i dati da un’origine Amazon S
 
    ![](assets/S3_config_1.png)
 
-1. Selezionare **[!UICONTROL Abilita Change data capture]** per effettuare una selezione da set di dati mappati a schemi relazionali e per i quali sono definiti sia una chiave primaria che un descrittore di versione.
+1. Selezionare **[!UICONTROL Abilita Change data capture]** per visualizzare solo i set di dati mappati a schemi relazionali e che includono sia una chiave primaria che un descrittore di versione.
 
-1. Seleziona il [set di dati creato in precedenza](file-upload-schema.md) e fai clic su **[!UICONTROL Avanti]**.
+   ![](assets/S3_config_6.png)
+
+1. Seleziona il set di dati creato in precedenza e fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Puoi configurare un flusso di dati per acquisire i dati da un’origine Amazon S
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
