@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
+source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '427'
 ht-degree: 6%
 
 ---
@@ -42,9 +42,9 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-L&#39;attività **[!UICONTROL Save audience]** è un&#39;attività **[!UICONTROL Targeting]** che consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione generata in precedenza nella campagna orchestrata. Una volta creati, questi tipi di pubblico vengono aggiunti all&#39;elenco dei tipi di pubblico dell&#39;applicazione e sono accessibili dal menu **[!UICONTROL Tipi di pubblico]**.
+L&#39;attività **[!UICONTROL Save audience]** è un&#39;attività **[!UICONTROL Targeting]** utilizzata per creare un nuovo pubblico o aggiornarne uno esistente in base alla popolazione generata in precedenza nella campagna orchestrata. Una volta salvato, il pubblico viene aggiunto all&#39;elenco dei tipi di pubblico dell&#39;applicazione e diventa accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
-Questa attività è particolarmente utile per mantenere i segmenti di pubblico calcolati all’interno della stessa campagna orchestrata, rendendoli disponibili per il riutilizzo in campagne future. In genere è connesso ad altre attività di targeting, come **[!UICONTROL Genera pubblico]** o **[!UICONTROL Combina]**, per acquisire e salvare la popolazione risultante.
+Viene comunemente utilizzato per acquisire segmenti di pubblico generati nello stesso flusso di lavoro della campagna, rendendoli disponibili per il riutilizzo in campagne future. In genere, è connesso ad altre attività di targeting, come **[!UICONTROL Genera pubblico]** o **[!UICONTROL Combina]**, per salvare la popolazione di destinazione finale.
 
 ## Configurare l’attività Salva pubblico {#save-audience-configuration}
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -44,11 +44,11 @@ Questa guida illustra i passaggi necessari per creare uno schema relazionale, co
 
    Definisci la struttura del modello dati, incluse tabelle, attributi e relazioni. Scegli se creare lo schema manualmente nell&#39;interfaccia utente o caricare un file DDL per velocizzare l&#39;installazione.
 
-1. [Schema collegamento](#link-schema)
+1. [Schema collegamento](file-upload-md)
 
    stabilisci relazioni tra gli schemi per garantire la coerenza dei dati e abilitare query tra più entità. Ad esempio, puoi collegare le transazioni di fidelizzazione a destinatari o premi a marchi.
 
-1. [Acquisire dati](#ingest)
+1. [Acquisire dati](ingest-data.md)
 
    Importa dati in Adobe Experience Platform da origini supportate come SFTP, archiviazione cloud o database.
 
