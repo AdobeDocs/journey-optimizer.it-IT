@@ -44,7 +44,7 @@ Questa guida illustra i passaggi necessari per creare uno schema relazionale, co
 
    Definisci la struttura del modello dati, incluse tabelle, attributi e relazioni. Scegli se creare lo schema manualmente nell&#39;interfaccia utente o caricare un file DDL per velocizzare l&#39;installazione.
 
-1. [Schema collegamento](file-upload-md)
+1. [Schema collegamento] (file-upload-md)
 
    stabilisci relazioni tra gli schemi per garantire la coerenza dei dati e abilitare query tra più entità. Ad esempio, puoi collegare le transazioni di fidelizzazione a destinatari o premi a marchi.
 
