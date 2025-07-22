@@ -197,10 +197,10 @@ Per qualsiasi valore di intestazione variabile, parametri di query/percorso o va
 
 Nomi parametri:
 
-Parametri intestazione: header.<parameter-name>
-Parametri query: query.<parameter-name>
-Parametri di payload: payload.<parameter-name>
-Path Parameters (Parametri percorso): dynamic_path.<parameter-name>
+Parametri intestazione: header.&lt;parameter-name>
+Parametri query: query.&lt;parameter-name>
+Parametri di payload: payload.&lt;parameter-name>
+Path Parameters (Parametri percorso): dynamic_path.&lt;parameter-name>
 Ad esempio:
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}
