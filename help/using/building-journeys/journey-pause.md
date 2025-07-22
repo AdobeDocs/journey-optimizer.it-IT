@@ -20,8 +20,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
->title="Mettere in pausa il proprio percorso"
->abstract="Metti in pausa un percorso live per impedire l’ingresso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli nella posizione. Se mantenuti, una volta riavviato il percorso i profili riprenderanno l’esecuzione nell’attività di azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
+>title="Mettere in pausa il percorso"
+>abstract="Metti in pausa un percorso live per impedire l’ingresso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli dove sono. Se vengono mantenuti, una volta riavviato il percorso la sua esecuzione riprenderà dall’attività dell’azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
 Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare filtri globali](#journey-global-filters) per escludere profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
