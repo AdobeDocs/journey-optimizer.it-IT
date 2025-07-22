@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 1%
 
 ---
@@ -95,10 +95,10 @@ Per qualsiasi valore di intestazione variabile, parametri di query/percorso o va
 
 Nomi parametri:
 
-* Parametri intestazione: header.&lt;parameter-name>
-* Parametri query: query.&lt;parameter-name>
-* Parametri di payload: payload.&lt;parameter-name>
-* Path Parameters (Parametri percorso): dynamic_path.&lt;parameter-name>
+* Parametri di intestazione: &quot;header.<parameter-name>
+* Parametri query: `query.<parameter-name>`
+* Parametri payload: `payload.<parameter-name>`
+* Parametri percorso: `dynamic_path.<parameter-name>`
 
 Ad esempio:
 
