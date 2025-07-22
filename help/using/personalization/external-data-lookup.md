@@ -95,7 +95,7 @@ Per qualsiasi valore di intestazione variabile, parametri di query/percorso o va
 
 Nomi parametri:
 
-* Parametri di intestazione: &quot;header.<parameter-name>
+* Parametri di intestazione: &quot;header.&lt;parameter-name>
 * Parametri query: `query.<parameter-name>`
 * Parametri payload: `payload.<parameter-name>`
 * Parametri percorso: `dynamic_path.<parameter-name>`
