@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1999'
 ht-degree: 21%
 
 ---
@@ -99,7 +99,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
 
    >[!NOTE]
    >
-   >Eventuali record mancanti, ovvero i record non ancora creati nella soluzione di hosting, verranno elencati.
+   >Prima di procedere, assicurati che tutti i record siano stati creati correttamente.
 
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per inviare messaggi.
 
@@ -164,7 +164,7 @@ Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Eventuali record mancanti, ovvero i record non ancora creati nella soluzione di hosting, verranno elencati.
+   >Prima di procedere, assicurati che tutti i record siano stati creati correttamente.
 
 1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma di hosting. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
@@ -252,4 +252,4 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 26d53d9423b28a97b860b21f6f00e6e14d062d9b
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '96'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-## Passaggi chiave per la creazione di campagne attivate da API {#steps}
+## Passaggi chiave per la creazione di campagne d’azione {#steps}
 
 1. [Definire le proprietà della campagna di azione](campaign-properties.md)
 1. [Configurare l’azione della campagna](campaign-action.md)
@@ -39,4 +39,4 @@ Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
