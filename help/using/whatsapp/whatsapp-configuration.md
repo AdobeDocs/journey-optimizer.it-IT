@@ -8,12 +8,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 4%
+source-wordcount: '636'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 4%
 * [Introduzione ai messaggi WhatsApp](get-started-whatsapp.md)
 * **[Introduzione alla configurazione di WhatsApp](whatsapp-configuration.md)**
 * [Creare un messaggio WhatsApp](create-whatsapp.md)
-* [Controllare e inviare i messaggi WhatsApp](send-whatsapp.md)
+* [Verificare e inviare i messaggi WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -34,6 +33,8 @@ Prima di inviare il messaggio WhatsApp, devi configurare l’ambiente Adobe Jour
 
 1. [Creare le credenziali API WhatsApp](#WhatsApp-credentials)
 1. [Creare la configurazione WhatsApp](#WhatsApp-configuration)
+1. [Creare i webhook WhatsApp](#WhatsApp-webhook)
+
 
 Questi passaggi devono essere eseguiti da un [amministratore di sistema](../start/path/administrator.md) di Adobe Journey Optimizer.
 
@@ -54,7 +55,7 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 
    ![](assets/whatsapp-api-2.png)
 
-1. Seleziona il **numero di telefono** utilizzato per inviare i messaggi Whatsapp.
+1. Seleziona il **Nome mittente** utilizzato per inviare i messaggi Whatsapp.
 
 1. Le impostazioni del numero di telefono vengono compilate automaticamente:
 
@@ -104,5 +105,47 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare una 
    >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi di errore in [questa sezione](../configuration/channel-surfaces.md).
 
 1. Una volta completati i controlli, la configurazione del canale ottiene lo stato **[!UICONTROL Attivo]**. È pronto per essere utilizzato per inviare messaggi.
+
+## Crea webhook {#WhatsApp-webhook}
+
+>[!NOTE]
+>
+>Senza le parole chiave di consenso o rinuncia specificate, i messaggi di consenso standard non sono abilitati.
+
+Una volta create correttamente le credenziali API WhatsApp, il passaggio successivo consiste nel creare un webhook e configurare le impostazioni in entrata.
+
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]**, seleziona il menu **[!UICONTROL Webhook WhatsApp]** in **[!UICONTROL Impostazioni WhatsApp]** e fai clic sul pulsante **[!UICONTROL Crea webhook]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Immetti un [!UICONTROL Nome] per il tuo webhook.
+
+1. Dall&#39;elenco a discesa, seleziona la [configurazione](#whatsapp-configuration) creata in precedenza.
+
+1. Fai clic su ![aggiungi](assets/do-not-localize/Smock_AddCircle_18_N.svg) per iniziare a configurare una **[!UICONTROL categoria di parole chiave in entrata]**, ad esempio:
+
+   * **[!UICONTROL Parole chiave di consenso]**
+   * **[!UICONTROL Parole chiave per la rinuncia]**
+   * **[!UICONTROL Parole chiave della Guida]**
+
+1. Immetti la **[!UICONTROL parola chiave]**.
+
+   Per aggiungere più parole chiave, fare clic su ![aggiungi](assets/do-not-localize/Smock_AddCircle_18_N.svg).
+
+1. Specifica il **[!UICONTROL Messaggio di risposta]** da inviare quando viene ricevuta una parola chiave configurata.
+
+<!--
+1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
+    
+    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
+-->
+
+1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione del webhook WhatsApp.
+
+1. Nel menu **[!UICONTROL Webhook]**, fai clic sull&#39;icona ![raccoglitore](assets/do-not-localize/Smock_Delete_18_N.svg) per eliminare il tuo webhook WhatsApp.
+
+1. Per modificare la configurazione esistente, individuare il webhook desiderato e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
+
+Una volta configurata, puoi sfruttare tutte le funzionalità di canale predefinite, come l’authoring dei messaggi, la personalizzazione, il tracciamento dei collegamenti e il reporting.
 
 Ora puoi inviare messaggi WhatsApp con Journey Optimizer.

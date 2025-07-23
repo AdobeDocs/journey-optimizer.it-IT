@@ -9,14 +9,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 3%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
+
 
 # Creare un messaggio WhatsApp {#create-whatsapp}
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 * [Introduzione ai messaggi WhatsApp](get-started-whatsapp.md)
 * [Introduzione alla configurazione di WhatsApp](whatsapp-configuration.md)
 * **[Crea un messaggio WhatsApp](create-whatsapp.md)**
-* [Controllare e inviare i messaggi WhatsApp](send-whatsapp.md)
+* [Verificare e inviare i messaggi WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ I seguenti tipi di messaggi sono supportati in WhatsApp:
 | Corpo del testo | Supporta il contenuto dinamico tramite parametri. |
 | Testo piè di pagina | Supporta il contenuto dinamico tramite parametri. |
 
-The following call-to-action option is available for your WhatsApp messages:
+La seguente opzione call-to-action è disponibile per i messaggi WhatsApp:
 
 | Inviti all&#39;azione | Descrizione |
 |-|-|
@@ -154,8 +154,7 @@ Nota che il modello WhatsApp deve prima essere approvato da Meta prima di essere
 
 1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il contenuto del messaggio WhatsApp, gli URL abbreviati e il contenuto personalizzato. [Ulteriori informazioni](send-whatsapp.md)
 
-Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio WhatsApp al pubblico. Questi passaggi sono descritti in [questa pagina](send-whatsapp.md)
-
+Dopo aver eseguito i test e convalidato il contenuto, puoi [inviare il messaggio WhatsApp](send-whatsapp.md) al pubblico e monitorarne le prestazioni tramite [reporting](../reports/campaign-global-report-cja.md).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
