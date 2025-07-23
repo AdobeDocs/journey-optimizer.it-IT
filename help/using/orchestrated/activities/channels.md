@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 30e22bc1a2ab95dbbef1fb35a01cd2f5d5b02423
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 32%
+source-wordcount: '1166'
+ht-degree: 28%
 
 ---
 
@@ -136,6 +136,28 @@ Passa alla scheda **[!UICONTROL Contenuto]** per creare il messaggio. Il process
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Creare un SMS</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td>
 </tr></table>
+
+## Aggiungere personalizzazione
+
+Personalization nelle campagne orchestrate funziona in modo simile ad altre campagne o percorsi **[!UICONTROL Journey Optimizer]**, ma con alcune differenze chiave specifiche all&#39;area di lavoro orchestrata.
+
+Quando accedi all’editor di personalizzazione da una campagna orchestrata, due cartelle principali contengono gli attributi disponibili per la personalizzazione, descritti di seguito.
+
+* **[!UICONTROL Attributi del profilo]**
+
+  Questa cartella include tutti i dati relativi al profilo di [!DNL Adobe Experience Platform]. Si tratta di attributi standard come nome, indirizzo e-mail, posizione o qualsiasi altra caratteristica acquisita nel profilo utente.
+
+* **[!UICONTROL Attributi di destinazione]** (specifici delle campagne orchestrate)
+
+  Questa cartella è univoca per le campagne orchestrate. Contiene attributi calcolati direttamente nell’area di lavoro della campagna. Contiene due sottocartelle:
+
+   * **`<Targeting dimension>`** (ad esempio, &quot;Destinatari&quot;, &quot;Acquisti&quot;): contiene tutti gli attributi relativi alla dimensione di destinazione della campagna.
+
+   * **`Enrichment`**: include i dati aggiunti tramite **[!UICONTROL attività di arricchimento]** nell&#39;area di lavoro. Questo consente di personalizzare i messaggi in base a set di dati esterni o a logica aggiuntiva incorporata durante l’orchestrazione. [Scopri come utilizzare un&#39;attività di arricchimento](../activities/enrichment.md)
+
+Per una panoramica dettagliata su come utilizzare l&#39;editor di personalizzazione, consulta [Introduzione alla personalizzazione](../../personalization/personalize.md)
+
+## Verifica e verifica il contenuto
 
 Una volta creato il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con profili di test o dati di input di esempio caricati da un file CSV/JSON, oppure aggiunti manualmente. [Ulteriori informazioni](../../content-management/preview-test.md)
 
