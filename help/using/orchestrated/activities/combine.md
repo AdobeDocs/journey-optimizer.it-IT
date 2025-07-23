@@ -10,7 +10,7 @@ exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 50%
+ht-degree: 96%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 50%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - <b>[Combina](combine.md)</b> - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - <b>[Combina](combine.md)</b> - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -41,15 +41,15 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-L&#39;attività **[!UICONTROL Combine]** è un tipo di attività **[!UICONTROL Targeting]** che consente di segmentare in modo efficace il gruppo in entrata. Consente di unire più popolazioni, escludere segmenti specifici o mantenere solo i dati condivisi tra più destinazioni.
+L’attività **[!UICONTROL Combina]** è un tipo di attività di **[!UICONTROL targeting]** che permette di segmentare in modo efficace la popolazione in entrata. Consente di unire più popolazioni, escludere segmenti specifici o mantenere solo i dati condivisi tra più target.
 
 Sono disponibili le seguenti opzioni di segmentazione:
 
-* **[!UICONTROL Unione]**: unisce i risultati di più attività in un&#39;unica destinazione unificata.
+* **[!UICONTROL Unione]**: raggruppa i risultati di più attività in un’unico target unificato.
 
 * **[!UICONTROL Intersezione]**: conserva solo gli elementi comuni a tutte le popolazioni in entrata.
 
-* **[!UICONTROL Esclusione]**: rimuove elementi da un gruppo in base a criteri specificati.
+* **[!UICONTROL Esclusione]**: rimuove elementi da una popolazione in base a criteri specificati.
 
 ## Configurare l’attività Combina {#combine-configuration}
 
@@ -85,13 +85,13 @@ Per iniziare a configurare l’attività **[!UICONTROL Combina]**, segui questi 
 >title="Opzioni di riconciliazione"
 >abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Per impostazione predefinita, l’opzione **Chiavi** è attivata, il che significa che l’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l’opzione **Una seleziona di colonne** per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
-All&#39;interno dell&#39;attività **[!UICONTROL Combine]**, è possibile configurare un **[!UICONTROL Union]** selezionando un **[!UICONTROL Tipo di riconciliazione]** per determinare la modalità di gestione dei record duplicati:
+All’interno dell’attività **[!UICONTROL Combina]**, è possibile configurare un’**[!UICONTROL unione]** selezionando un **[!UICONTROL tipo di riconciliazione]** per determinare la modalità di gestione dei record duplicati:
 
-* **[!UICONTROL Solo chiavi]** (impostazione predefinita): mantiene un singolo record quando più transizioni in entrata condividono la stessa chiave. Questa opzione è applicabile solo quando le popolazioni in entrata sono omogenee.
+* **[!UICONTROL Solo chiavi]** (impostazione predefinita): mantiene un singolo record quando più transizioni in entrata condividono la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
 
-* **[!UICONTROL Selezione di colonne]**: consente di specificare quali colonne vengono utilizzate per la riconciliazione dei dati. Selezionare **[!UICONTROL Aggiungi attributo]**.
+* **[!UICONTROL Una selezione di colonne]**: consente di specificare quali colonne vengono utilizzate per la riconciliazione dei dati. Seleziona **[!UICONTROL Aggiungi attributo]**.
 
-Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Combine]** con un **[!UICONTROL Union]** per unire i risultati di due query, **Membri fedeltà** e **Acquirenti**, in un unico pubblico più grande che include tutti i profili di entrambi i segmenti.
+Nell’esempio seguente viene utilizzata un’attività **[!UICONTROL Combina]** con un’**[!UICONTROL unione]** per unire i risultati di due query, **Membri fedeltà** e **Acquirenti**, in un unico pubblico più grande che include tutti i profili di entrambi i segmenti.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -104,15 +104,15 @@ Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Combin
 
 Nell’attività **[!UICONTROL Combina]**, puoi configurare un’**[!UICONTROL Intersezione]**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
-1. Selezionare il tipo di **[!UICONTROL riconciliazione]** per definire la modalità di gestione dei duplicati:
+1. Seleziona il **[!UICONTROL Tipo di riconciliazione]** per definire la modalità di gestione dei duplicati.
 
-   * **[!UICONTROL Solo chiavi]** (impostazione predefinita): mantiene un singolo record quando più transizioni in entrata condividono la stessa chiave. Questa opzione è applicabile solo quando le popolazioni in entrata sono omogenee.
+   * **[!UICONTROL Solo chiavi]** (impostazione predefinita): mantiene un singolo record quando più transizioni in entrata condividono la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
 
-   * **[!UICONTROL Selezione di colonne]**: consente di specificare quali colonne vengono utilizzate per la riconciliazione dei dati. Selezionare **[!UICONTROL Aggiungi attributo]**.
+   * **[!UICONTROL Una selezione di colonne]**: consente di specificare quali colonne vengono utilizzate per la riconciliazione dei dati. Seleziona **[!UICONTROL Aggiungi attributo]**.
 
-1. Abilitare **[!UICONTROL Genera completamento]** se si desidera elaborare il gruppo rimanente. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività viene aggiunta un’ulteriore transizione in uscita.
+1. Se desideri sfruttare la popolazione rimanente, abilita l’opzione **[!UICONTROL Genera complemento]**. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività verrà quindi aggiunta un’ulteriore transizione in uscita.
 
-L&#39;esempio seguente illustra l&#39;utilizzo dell&#39;**[!UICONTROL intersezione]** tra due attività di query. Viene utilizzato per identificare i profili che sono **membri fedeltà** e che hanno effettuato un acquisto nell&#39;ultimo mese.
+L’esempio seguente mostra l’uso dell’**[!UICONTROL intersezione]** tra due attività di query. Viene utilizzata per identificare i profili che sono **membri fedeltà** e che hanno effettuato un acquisto nell’ultimo mese.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -141,13 +141,13 @@ L&#39;esempio seguente illustra l&#39;utilizzo dell&#39;**[!UICONTROL intersezio
 
 Nell’attività **[!UICONTROL Combina]**, puoi configurare un’**[!UICONTROL Esclusione]**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
-1. Nella sezione **[!UICONTROL Set da unire]**, scegliere il **[!UICONTROL Set primario]**, che rappresenta il gruppo principale. I record trovati negli altri set sono esclusi da questo set principale.
+1. Nella sezione **[!UICONTROL Set da unire]**, scegli il **[!UICONTROL Set primario]** che rappresenta la popolazione principale. I record trovati negli altri set sono esclusi da questo set primario.
 
-1. Se necessario, puoi regolare le tabelle in entrata per allineare i target da dimensioni diverse. Per escludere un target da un’altra dimensione, è necessario innanzitutto inserirlo nella stessa dimensione di targeting della popolazione principale. A tale scopo, fare clic su **[!UICONTROL Aggiungi una regola]** e definire le condizioni per la modifica della dimensione. La riconciliazione viene quindi eseguita utilizzando un attributo o un join.
+1. Se necessario, puoi regolare le tabelle in entrata per allineare i target da dimensioni diverse. Per escludere un target da un’altra dimensione, tale target deve essere portato nella stessa dimensione targeting della popolazione principale. A tale scopo, fai clic su **[!UICONTROL Aggiungi una regola]** e definisci le condizioni per la modifica della dimensione. La riconciliazione viene quindi eseguita utilizzando un attributo o un’unione.
 
-1. Abilitare **[!UICONTROL Genera completamento]** se si desidera elaborare il gruppo rimanente. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività viene aggiunta un’ulteriore transizione in uscita.
+1. Se desideri elaborare la popolazione rimanente, abilita l’opzione **[!UICONTROL Genera complemento]**. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività verrà quindi aggiunta un’ulteriore transizione in uscita.
 
-L&#39;esempio di **[!UICONTROL esclusione]** seguente mostra due query configurate per filtrare i profili che hanno acquistato un prodotto. I profili che non hanno un’iscrizione fedeltà vengono quindi esclusi dal primo set.
+L’esempio seguente di **[!UICONTROL esclusione]** mostra due query configurate per filtrare i profili che hanno acquistato un prodotto. I profili che non dispongono di una tessera fedeltà vengono quindi esclusi dal primo set.
 
 ![](../assets/orchestrated-exclusion-example.png)
 

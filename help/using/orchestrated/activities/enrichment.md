@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’attività Enrichment
-description: Scopri come utilizzare l’attività Enrichment
+title: Utilizzare l’attività Arricchimento
+description: Scopri come utilizzare l’attività Arricchimento
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 92%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 31%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - <b>[Arricchimento](enrichment.md)</b> - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - <b>[Arricchimento](enrichment.md)</b> - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-L&#39;attività **[!UICONTROL Enrichment]** è un&#39;attività **[!UICONTROL Targeting]** che consente di migliorare i dati del pubblico con attributi aggiuntivi.
+L’attività **[!UICONTROL Arricchimento]** è un’attività **[!UICONTROL targeting]** che consente di migliorare i dati del pubblico con attributi aggiuntivi.
 
-Puoi sfruttare queste informazioni per segmentare il pubblico in modo più preciso, in base a comportamenti, preferenze o esigenze, e per creare messaggi personalizzati che si connettano meglio con ciascun profilo.
+Puoi sfruttare queste informazioni per segmentare il pubblico in modo più preciso, in base a comportamenti, preferenze o esigenze, e per creare messaggi personalizzati che si colleghino meglio con ciascun profilo.
 
 ## Aggiungere un’attività Arricchimento {#enrichment-configuration}
 
@@ -62,9 +62,9 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 1. Aggiungi un’attività **Arricchimento**.
 
-1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati.
+1. Fai clic su **Aggiungi dati di arricchimento** e seleziona l’attributo da utilizzare per arricchire i dati.
 
-   Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ciascuno di questi tipi è descritto negli esempi seguenti:
+   Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dalla dimensione target, oppure un collegamento di raccolta. Ciascuno di questi tipi è descritto negli esempi seguenti:
 
    * [Attributo di arricchimento singolo](#single-attribute)
    * [Collegamento di raccolta](#collection-link)
@@ -75,13 +75,13 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 ### Attributo di arricchimento singolo {#single-attribute}
 
-In questo esempio, arricchisci il pubblico con un singolo attributo, ad esempio la data di nascita, dalla dimensione di targeting corrente.
+In questo esempio, arricchisci il pubblico con un singolo attributo, ad esempio la data di nascita, dalla dimensione targeting corrente.
 
 Per eseguire questa operazione:
 
 1. Fai clic su **[!UICONTROL Aggiungi dati di arricchimento]**.
 
-1. Selezionare un campo semplice, ad esempio **[!UICONTROL Data di nascita]**, dalla dimensione corrente.
+1. Seleziona un campo semplice, ad esempio **[!UICONTROL Data di nascita]**, dalla dimensione corrente.
 
    ![](../assets/enrichment-2.png)
 
@@ -91,13 +91,13 @@ Per eseguire questa operazione:
 
 Questo caso d’uso arricchisce il pubblico con i dati di una tabella collegata. Ad esempio, desideri recuperare i tre acquisti più recenti di valore inferiore a 100 $.
 
-Per ottenere questo risultato, configura l’arricchimento come segue:
+A tal fine, configura l’arricchimento come segue:
 
 * **Attributo di arricchimento**: **[!UICONTROL Prezzo]**
 
 * **Numero di record da recuperare**: 3
 
-* **Filtro**: includere solo gli acquisti il cui **[!UICONTROL prezzo]** è inferiore a $100
+* **Filtro**: includi solo gli acquisti in cui il **[!UICONTROL prezzo]** è inferiore a 100 $
 
 #### Aggiungere l’attributo {#add-attribute}
 
@@ -105,25 +105,25 @@ Innanzitutto, seleziona il collegamento della raccolta che contiene i dati che d
 
 1. Fai clic su **[!UICONTROL Aggiungi dati di arricchimento]**.
 
-1. Dalla tabella **[!UICONTROL Acquisti]**, selezionare il campo **[!UICONTROL Prezzo]**.
+1. Dalla tabella **[!UICONTROL Acquisti]**, seleziona il campo **[!UICONTROL Prezzo]**.
 
    ![](../assets/enrichment-2.png)
 
 #### Definire le impostazioni di raccolta{#collection-settings}
 
-Quindi, configura come devono essere raccolti i dati e quante voci includere.
+Quindi, configura la raccolta dei dati e quante voci includere.
 
 1. Nel menu a discesa **[!UICONTROL Seleziona la modalità di raccolta dei dati]**, scegli **[!UICONTROL Raccolta dati]**.
 
    ![](../assets/enrichment-4.png)
 
-1. Nel campo **[!UICONTROL Righe da recuperare (Colonne da creare)]**, immettere `3`.
+1. Nel campo **[!UICONTROL Righe da recuperare (Colonne da creare)]**, immetti `3`.
 
-1. Per eseguire un&#39;aggregazione (ad esempio, importo medio di acquisto), selezionare **[!UICONTROL Dati aggregati]**, quindi scegliere **[!UICONTROL Media]** dal menu a discesa **[!UICONTROL Funzione di aggregazione]**.
+1. Per eseguire un’aggregazione (ad esempio, importo medio di acquisto), seleziona **[!UICONTROL Dati aggregati]**, quindi scegli **[!UICONTROL Media]** dal menu a discesa **[!UICONTROL Funzione di aggregazione]**.
 
    ![](../assets/enrichment-5.png)
 
-1. Utilizza i campi **[!UICONTROL Etichetta]** e **[!UICONTROL Alias]** per facilitare l&#39;identificazione degli attributi arricchiti nelle attività successive.
+1. Utilizza i campi **[!UICONTROL Etichetta]** e **[!UICONTROL Alias]** per facilitare l’identificazione degli attributi arricchiti nelle attività successive.
 
 #### Definire i filtri{#collection-filters}
 
@@ -133,9 +133,9 @@ Infine, applica i filtri per garantire che siano inclusi solo i record rilevanti
 
 1. Aggiungi queste due condizioni:
 
-   * **[!UICONTROL Il prezzo]** esiste (per escludere i valori NULL)
+   * Il **[!UICONTROL prezzo]** esiste (per escludere i valori NULL)
 
-   * **[!UICONTROL Il prezzo]** è inferiore a 100
+   * Il **[!UICONTROL prezzo]** è inferiore a 100
 
    ![](../assets/enrichment-6.png)
 

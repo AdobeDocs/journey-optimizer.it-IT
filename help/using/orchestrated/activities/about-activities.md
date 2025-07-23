@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare le attività delle campagne orchestrate
+title: Utilizzare le attività della campagna orchestrata
 description: Scopri come orchestrare le attività della campagna
 badge: label="Alpha"
 hide: true
@@ -10,7 +10,7 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 27%
+ht-degree: 91%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 27%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | <b>[Inizia a usare le attività](about-activities.md)</b><br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | <b>[Introduzione alle attività](about-activities.md)</b><br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -37,7 +37,7 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-Le attività delle campagne orchestrate sono raggruppate in tre categorie. A seconda del contesto, le attività disponibili possono variare.
+Le attività della campagna orchestrata sono raggruppate in tre categorie. A seconda del contesto, le attività disponibili possono variare.
 
 Tutte le attività sono descritte nelle sezioni seguenti:
 
@@ -45,7 +45,7 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 * [Attività di canale](#channel)
 * [Attività di controllo del flusso](#flow-control)
 
-![Elenco delle attività disponibili nell&#39;area di lavoro](../assets/orchestrated-activities.png){width="80%" align="left"}
+![Elenco delle attività disponibili nell’area di lavoro](../assets/orchestrated-activities.png){width="80%" align="left"}
 
 ## Attività di targeting {#targeting}
 
@@ -53,17 +53,17 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 
 ![Elenco delle attività di targeting](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [Genera pubblico](build-audience.md): definisci la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
-* [Modifica dimensione](change-dimension.md): modifica la dimensione di targeting durante la creazione della campagna orchestrata.
-* [Combina](combine.md): esegui la segmentazione del gruppo in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
-* [Deduplicazione](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
+* [Crea pubblico](build-audience.md): definisci la popolazione target Puoi selezionare un pubblico esistente o utilizzare il query modeler per definire una query personalizzata.
+* [Cambia dimensione](change-dimension.md): cambia la dimensione targeting durante la creazione della campagna orchestrata.
+* [Combina](combine.md): esegui la segmentazione della popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
+* [Deduplica](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
 * [Arricchimento](enrichment.md): definisci i dati aggiuntivi da elaborare nella campagna orchestrata. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
-* [Riconciliazione](reconciliation.md): definire il collegamento tra i dati nei dati di Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
+* [Riconciliazione](reconciliation.md): definisci il collegamento tra i dati nei dati di Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 * [Dividi](split.md): segmenta la popolazione in ingresso in diversi sottoinsiemi.
 
 ## Attività di canale {#channel}
 
-Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività dei canali nell’area di lavoro per creare una campagna orchestrata cross-channel che può attivare azioni in base al comportamento del cliente. Sono disponibili le seguenti attività di **Canale**: e-mail e SMS. [Scopri come creare un&#39;azione del canale nel contesto di una campagna orchestrata](channels.md).
+Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività di canale nell’area di lavoro per creare campagne orchestrate cross-channel che possono attivare azioni in base al comportamento della clientela. Sono disponibili le seguenti attività di **Canale**: e-mail e SMS. [Scopri come creare un’azione di canale nel contesto di una campagna orchestrata](channels.md).
 
 ## Attività di controllo del flusso {#flow-control}
 
@@ -74,12 +74,12 @@ Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di market
 
 ![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="30%" align="left"}
 
-Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il loro compito principale è quello di coordinare le altre attività:
+Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione delle campagne orchestrate. Il compito principale è quello di coordinare le altre attività:
 
-* [And-join](and-join.md): sincronizza più rami di esecuzione di una campagna orchestrata.
+* [AND-join](and-join.md): sincronizza più rami di esecuzione di una campagna orchestrata.
 * [Fork](fork.md): crea transizioni in uscita per avviare più attività contemporaneamente.
-* [Attendi](wait.md): sospende temporaneamente l&#39;esecuzione di una parte di una campagna orchestrata.
+* [Attendi](wait.md): sospende temporaneamente l’esecuzione di una parte di una campagna orchestrata.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
 >[!NOTE]
->L&#39;attività **End** contrassegna graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa
+>L’attività **Fine** consente di contrassegnare graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.

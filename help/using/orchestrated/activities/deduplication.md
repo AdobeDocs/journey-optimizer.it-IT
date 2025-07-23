@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’attività Deduplication
-description: Scopri come utilizzare l’attività Deduplication
+title: Utilizzare l’attività Deduplica
+description: Scopri come utilizzare l’attività Deduplica
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 44%
+ht-degree: 93%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 44%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - <b>[Deduplicazione](deduplication.md)</b> - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - <b>[Deduplica](deduplication.md)</b> - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -64,26 +64,26 @@ L’attività **[!UICONTROL Deduplica]** è un’attività di **[!UICONTROL targ
 Per configurare l’attività **[!UICONTROL Deduplica]** segui questi passaggi:
 
 
-1. Aggiungi un&#39;attività **[!UICONTROL Deduplicazione]** alla campagna orchestrata.
+1. Aggiungi un’attività **[!UICONTROL Deduplica]** alla campagna orchestrata.
 
 1. Nella sezione **[!UICONTROL Campi per identificare i duplicati]** , fai clic sul pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
 
    ![](../assets/deduplication-1.png)
 
-1. Nella sezione **[!UICONTROL Impostazioni deduplicazione]**, scegli il numero di record univoci da continuare a utilizzare il campo Duplicati da mantenere. Il valore predefinito è 1, che mantiene un record per gruppo duplicato. Impostatelo su 0 per mantenere tutti i duplicati.
+1. Nella sezione **[!UICONTROL Impostazioni deduplica]**, scegli il numero di record univoci per continuare a utilizzare il campo Duplicati da mantenere. Il valore predefinito è 1, che mantiene un record per gruppo duplicato. Impostalo su 0 per mantenere tutti i duplicati.
 
-   Ad esempio, se i record A e B sono duplicati di Y e il record C è un duplicato di Z:
+   Ad esempio, se i record A e B sono considerati duplicati del record Y e il record C è considerato un duplicato del record Z:
 
    * **Se il valore del campo è 1**: vengono conservati solo i record Y e Z.
    * **Se il valore del campo è 0**: vengono conservati tutti i record (A, B, C, Y, Z).
-   * **Se il valore del campo è 2**: vengono mantenuti C e Z, più due valori da A, B e Y, in modo casuale o in base al metodo di deduplicazione utilizzato.
+   * **Se il valore del campo è 2**: vengono mantenuti C e Z, più due valori da A, B e Y, in modo casuale o in base al metodo di deduplica utilizzato.
 
-1. Scegli un **[!UICONTROL metodo di deduplicazione]**, che definisce il modo in cui il sistema decide quali record mantenere da ogni gruppo di duplicati:
+1. Scegli un **[!UICONTROL metodo di deduplica]**, che definisce il modo in cui il sistema decide quali record mantenere da ogni gruppo di duplicati:
 
-   * **[!UICONTROL Selezione casuale]**: seleziona casualmente il record da escludere dai duplicati.
-   * **[!UICONTROL Utilizzo di un&#39;espressione]**: mantiene i record con il valore più alto o più basso in base a un&#39;espressione definita dall&#39;utente.
-   * **[!UICONTROL Valori non vuoti]**: mantiene i record in cui il campo selezionato non è vuoto, ad esempio conserva solo i profili con un numero di telefono.
-   * **[!UICONTROL Seguendo un elenco di valori]**: consente di assegnare priorità a valori specifici per uno o più campi. È ad esempio possibile assegnare priorità ai record con &quot;Paese&quot; impostato su Francia. Fare clic su **[!UICONTROL Attributo]** per scegliere un campo o creare un&#39;espressione personalizzata. Utilizza il **[!UICONTROL pulsante Aggiungi]** per immettere i valori preferiti nell&#39;ordine di priorità.
+   * **[!UICONTROL Selezione casuale]**: seleziona in modo casuale il record da escludere dai duplicati.
+   * **[!UICONTROL Utilizzo di un’espressione]**: mantiene i record con il valore più alto o più basso in base a un’espressione definita dall’utente.
+   * **[!UICONTROL Valori non vuoti]**: mantiene i record in cui il campo selezionato non è vuoto, ad esempio mantiene solo i profili con un numero di telefono.
+   * **[!UICONTROL In base a un elenco di valori]**: consente di assegnare priorità a valori specifici per uno o più campi. Ad esempio è possibile assegnare priorità ai record con “Paese” impostato su Francia. Fai clic su **[!UICONTROL Attributo]** per scegliere un campo o creare un’espressione personalizzata. Utilizza il **[!UICONTROL pulsante Aggiungi]** per immettere i valori preferiti in ordine di priorità.
 
    ![](../assets/deduplication-2.png)
 
@@ -91,6 +91,6 @@ Per configurare l’attività **[!UICONTROL Deduplica]** segui questi passaggi:
 
 ## Esempio{#deduplication-example}
 
-Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Deduplication]** per rimuovere i record duplicati dal pubblico di destinazione prima di inviare una consegna. Il pubblico viene innanzitutto filtrato in modo da includere solo i profili con un campo E-mail non vuoto. L&#39;attività **[!UICONTROL Deduplication]** utilizza quindi l&#39;indirizzo e-mail per identificare ed escludere i duplicati.
+Nell’esempio seguente viene utilizzata un’attività **[!UICONTROL Deduplica]** per rimuovere i record duplicati dal pubblico target prima di inviare una consegna. Il pubblico viene innanzitutto filtrato in modo da includere solo i profili con un campo E-mail non vuoto. L’attività **[!UICONTROL Deduplica]** utilizza quindi l’indirizzo e-mail per identificare ed escludere i duplicati.
 
 ![](../assets/deduplication-3.png)

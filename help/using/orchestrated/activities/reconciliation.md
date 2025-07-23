@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’attività Reconciliation
-description: Scopri come utilizzare l’attività Reconciliation in una campagna orchestrata
+title: Utilizzare l’attività di riconciliazione
+description: Scopri come utilizzare l’attività di riconciliazione in una campagna orchestrata
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 30%
+ht-degree: 93%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 30%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - <b>[Riconciliazione](reconciliation.md)</b> - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - <b>[Riconciliazione](reconciliation.md)</b> - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -57,11 +57,11 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-L&#39;attività **[!UICONTROL Reconciliation]** è un&#39;attività **[!UICONTROL Targeting]** che consente di definire il collegamento tra i dati in Adobe Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
+L’attività di **[!UICONTROL riconciliazione]** è un’attività di **[!UICONTROL targeting]** che consente di definire il collegamento tra i dati nel database di Adobe Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 
-L&#39;attività **[!UICONTROL Enrichment]** ti consente di aggiungere dati aggiuntivi alla campagna orchestrata, ad esempio combinando dati provenienti da più origini o collegandoti a una risorsa temporanea. L&#39;attività **[!UICONTROL Reconciliation]** viene invece utilizzata per abbinare dati non identificati o esterni con risorse esistenti nel database.
+L’attività di **[!UICONTROL arricchimento]** consente di aggiungere ulteriori dati alla campagna orchestrata, ad esempio combinando dati provenienti da più origini o collegati una risorsa temporanea. L’attività **[!UICONTROL riconciliazione]** viene invece utilizzata per combinare dati non identificati o esterni con risorse esistenti nel database.
 
-**[!UICONTROL Reconciliation]** richiede che i record correlati esistano già nel sistema. Ad esempio, se importi un file di acquisto con l’elenco di prodotti, marche temporali e informazioni sul cliente, sia i prodotti che i clienti devono già essere presenti nel database per stabilire il collegamento.
+La **[!UICONTROL riconciliazione]** richiede che i record correlati esistano già nel sistema. Ad esempio, se importi un file di acquisto con l’elenco di prodotti, marche temporali e informazioni sulla clientela, sia i prodotti che la clientela stessa devono già essere presenti nel database per stabilire il collegamento.
 
 ## Configurare l’attività di riconciliazione {#reconciliation-configuration}
 
@@ -92,36 +92,36 @@ L&#39;attività **[!UICONTROL Enrichment]** ti consente di aggiungere dati aggiu
 >title="Attributo di riconciliazione"
 >abstract="Seleziona l’attributo da utilizzare per riconciliare i dati e fai clic su Conferma."
 
-Per configurare l&#39;attività **[!UICONTROL Reconciliation]**, eseguire la procedura seguente:
+Per configurare l’attività **[!UICONTROL riconciliazione]** segui questi passaggi:
 
-1. Aggiungi un&#39;attività **[!UICONTROL Reconciliation]** al flusso di lavoro.
+1. Aggiungi un’attività di **[!UICONTROL riconciliazione]** al flusso di lavoro.
 
-1. Scegli una nuova dimensione di targeting per definire chi stai eseguendo il targeting, ad esempio destinatari o abbonati.
+1. Scegli una nuova dimensione targeting per definire su chi stai eseguendo il targeting, ad esempio destinatari o abbonati.
 
 1. Imposta i campi da utilizzare per la corrispondenza dei dati in arrivo con i profili esistenti.
 
-1. Per associare i dati utilizzando i campi di base, selezionare **[!UICONTROL Attributi semplici]**.
+1. Per associare i dati utilizzando i campi di base, seleziona **[!UICONTROL Attributi semplici]**.
 
 1. Imposta i campi corrispondenti:
 
-   * **[!UICONTROL Source]**: elenca i campi dati in arrivo.
+   * **[!UICONTROL Origine]**: elenca i campi dati in arrivo.
 
-   * **[!UICONTROL Destinazione]**: fa riferimento ai campi nella dimensione di targeting selezionata.
+   * **[!UICONTROL Destinazione]**: fa riferimento ai campi nella dimensione targeting selezionata.
 
-   Una corrispondenza si verifica quando entrambi i valori sono uguali, ad esempio, corrispondenza da **[!UICONTROL E-mail]** per identificare i profili.
+   Una corrispondenza si verifica quando entrambi i valori sono uguali, ad esempio, corrispondenza per **[!UICONTROL e-mail]** per identificare i profili.
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. Per aggiungere altre regole corrispondenti, fare clic su **[!UICONTROL Aggiungi regola]**. Affinché si verifichi una corrispondenza, è necessario che tutte le condizioni siano soddisfatte.
+1. Per aggiungere altre regole corrispondenti, fai clic su **[!UICONTROL Aggiungi regola]**. Affinché si verifichi una corrispondenza, è necessario che tutte le condizioni siano soddisfatte.
 
-1. Per condizioni più complesse, scegli **[!UICONTROL Condizioni di riconciliazione avanzate]**. Utilizza [modellatore query](../orchestrated-rule-builder.md) per definire la logica personalizzata.
+1. Per condizioni più complesse, scegli **[!UICONTROL Condizioni di riconciliazione avanzate]**. Utilizza il [query modeler](../orchestrated-rule-builder.md) per definire la logica personalizzata.
 
-1. Per filtrare i dati da riconciliare, fare clic su **[!UICONTROL Crea filtro]** e definire la condizione in Query Modeler.
+1. Per filtrare i dati da riconciliare, fai clic su **[!UICONTROL Crea filtro]** e definisci la condizione nel query modeler.
 
-1. Per impostazione predefinita, i record senza corrispondenza vengono conservati nella transizione in uscita e memorizzati nella tabella di lavoro. Per rimuovere questi elementi, abilitare l&#39;opzione **[!UICONTROL Mantieni dati non riconciliati]**.
+1. Per impostazione predefinita, i record senza corrispondenza vengono conservati nella transizione in uscita e archiviati nella tabella di lavoro. Per rimuoverli, abilita l’opzione **[!UICONTROL Mantieni dati non riconciliati]**.
 
 ## Esempio {#example-reconciliation}
 
-In questo esempio viene utilizzata l&#39;attività **[!UICONTROL Reconciliation]** in Adobe Journey Optimizer per garantire che le e-mail vengano inviate solo ai clienti riconosciuti. I dati arrivano attraverso un&#39;attività **[!UICONTROL Read Audience]** che esegue il targeting degli utenti con ordini precedenti. L&#39;attività **[!UICONTROL Reconciliation]** associa quindi questi dati in arrivo ai profili esistenti nel database utilizzando il campo e-mail.
+Questo esempio utilizza l’attività di **[!UICONTROL riconciliazione]** in Adobe Journey Optimizer per garantire che le e-mail vengano inviate solo alla clientela riconosciuta. I dati fluiscono attraverso un’attività **[!UICONTROL Leggi pubblico]** che esegue il targeting degli utenti con gli ordini precedenti. L’attività di **[!UICONTROL riconciliazione]** associa quindi questi dati in arrivo ai profili esistenti nel database utilizzando il campo e-mail.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)

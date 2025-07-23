@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’attività di suddivisione
-description: Scopri come utilizzare l’attività Split in una campagna orchestrata
-badge: label="Alfa"
+title: Utilizzare l’attività Dividi
+description: Scopri come utilizzare l’attività Dividi in una campagna orchestrata
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 52%
+ht-degree: 95%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 52%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Inizia a usare le attività](about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](and-join.md) - [Genera pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplicazione](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - <b>[Dividi](split.md)</b> - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - [Salva pubblico](save-audience.md) - <b>[Dividi](split.md)</b> - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,7 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-L&#39;attività **[!UICONTROL Split]** è un&#39;attività **[!UICONTROL Targeting]** che segmenta il gruppo in ingresso in più sottoinsiemi in base a criteri di selezione definiti, ad esempio regole di filtro o dimensioni del gruppo.
+L’attività **[!UICONTROL Dividi]** è un’attività di **[!UICONTROL targeting]** che consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione.
 
 ## Configurare l’attività Dividi {#split-configuration}
 
@@ -89,7 +89,7 @@ L&#39;attività **[!UICONTROL Split]** è un&#39;attività **[!UICONTROL Targeti
 
 Per configurare l’attività **[!UICONTROL Dividi]** segui questi passaggi:
 
-1. Aggiungi un&#39;attività **[!UICONTROL Dividi]** alla campagna orchestrata.
+1. Aggiungi un’attività **[!UICONTROL Dividi]** alla campagna orchestrata.
 
 1. Il riquadro di configurazione dell’attività si apre con un sottoinsieme predefinito. Fai clic sul pulsante **[!UICONTROL Aggiungi segmento]** per aggiungere tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.
 
@@ -97,45 +97,45 @@ Per configurare l’attività **[!UICONTROL Dividi]** segui questi passaggi:
 
    >[!IMPORTANT]
    >
-   >L&#39;attività **Split** elabora i sottoinsiemi nell&#39;ordine in cui vengono aggiunti. Ad esempio, se il primo sottoinsieme acquisisce il 70% della popolazione, il successivo applica i propri criteri al restante 30%.
+   >L’attività **Dividi** elabora i sottoinsiemi nell’ordine in cui vengono aggiunti. Ad esempio, se il primo sottoinsieme acquisisce il 70% della popolazione, il successivo applica i relativi criteri al restante 30%.
    >
-   >Prima di eseguire la campagna orchestrata, assicurati che i sottoinsiemi siano ordinati come previsto. Utilizzare i pulsanti freccia per regolarne la posizione.
+   >Prima di eseguire la campagna orchestrata, assicurati che i sottoinsiemi siano ordinati come previsto. Utilizza i pulsanti freccia per regolarne la posizione.
 
-1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Consigliamo vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro orchestrata della campagna.
+1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Si consiglia vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro della campagna orchestrata.
 
 1. Configura i filtri per ciascun sottoinsieme:
 
-   1. Fare clic su un sottoinsieme per aprirne le impostazioni.
+   1. Fai clic su un sottoinsieme per aprirne le impostazioni.
 
-   1. Fare clic su **[!UICONTROL Crea filtro]** per definire le regole di filtro mediante il modellatore di query, ad esempio per selezionare profili con un indirizzo e-mail valido.
+   1. Fai clic su **[!UICONTROL Crea filtro]** per definire le regole di filtro mediante il quey modeler, ad esempio per selezionare profili con un indirizzo e-mail valido.
 
       ![](../assets/orchestrated-split-1.png)
 
-   1. Per limitare il numero di profili selezionati, abilitare **[!UICONTROL Abilita limite]** e specificare un numero o una percentuale.
+   1. Per limitare il numero di profili selezionati, attiva **[!UICONTROL Abilita limite]** e specifica un numero o una percentuale.
 
-   1. Per ignorare una transizione quando il sottoinsieme è vuoto, abilitare **[!UICONTROL Ignora transizione vuota].**
+   1. Per ignorare una transizione quando il sottoinsieme è vuoto, abilita **[!UICONTROL Ignora transizione vuota].**
 
-1. Per includere profili non corrispondenti a un sottoinsieme, abilitare **[!UICONTROL Genera complemento]**. Questo crea una transizione in uscita aggiuntiva per la popolazione rimanente.
+1. Per includere profili non corrispondenti a un sottoinsieme, abilita **[!UICONTROL Genera complemento]**. Questo crea una transizione in uscita aggiuntiva per la popolazione rimanente.
 
    >[!NOTE]
    >
-   >Abilita **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** per raggruppare tutti i sottoinsiemi in un&#39;unica transizione.
+   >Abilita **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** per raggruppare tutti i sottoinsiemi in un’unica transizione.
 
 1. Utilizza **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** per consentire la visualizzazione dei profili in più sottoinsiemi:
 
-   * **Se non è selezionato**, ogni profilo viene assegnato a un solo sottoinsieme, il primo di cui corrisponde i criteri anche se è idoneo per altri sottoinsiemi.
+   * **Se non è selezionato**, ogni profilo viene assegnato a un solo sottoinsieme, il primo con il quale corrispondono i criteri anche se è idoneo per altri sottoinsiemi.
 
    * **Se selezionato**, i profili possono essere inclusi in più sottoinsiemi se soddisfano i criteri per ciascuno di essi.
 
-L’attività adesso è configurata. Al momento dell’esecuzione della campagna orchestrata, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
+L’attività adesso è configurata. All’esecuzione della campagna orchestrata, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
 
 ## Esempio{#split-example}
 
 Nell’esempio seguente, l’attività **[!UICONTROL Dividi]** viene utilizzata per segmentare un pubblico in sottoinsiemi distinti in base al canale di comunicazione che si desidera utilizzare:
 
-* **Sottoinsieme 1 &quot;email&quot;**: include i profili che hanno fornito un numero di telefono.
+* **Sottoinsieme 1 “e-mail”**: include i profili che hanno fornito un numero di telefono.
 
-* **Sottoinsieme 2 &quot;sms&quot;**: esegue il targeting dei profili con un numero di telefono cellulare archiviato nel database.
+* **Sottoinsieme 2 “sms”**: esegue il targeting dei profili con un numero di telefono cellulare archiviato nel database.
 
 * **Transizione complemento**: acquisisce tutti i profili rimanenti che non soddisfano i criteri per nessuno dei sottoinsiemi.
 

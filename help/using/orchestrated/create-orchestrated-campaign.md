@@ -10,7 +10,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 12%
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 12%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | <b>[Crea e pianifica la campagna](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrazione attività](orchestrate-activities.md)<br/><br/>[Avvia e monitora la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | <b>[Creare e pianificare la campagna](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,7 +36,7 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 >[!ENDSHADEBOX]
 
-Creare una campagna orchestrata in [!DNL Adobe Journey Optimizer] e configurarne la pianificazione di esecuzione per controllare quando viene avviata e con quale frequenza viene eseguita. Scegli di avviare la campagna immediatamente, a una data e un’ora specifiche o su base ricorrente utilizzando opzioni di pianificazione flessibili, ad esempio frequenze giornaliere, settimanali o mensili.
+Crea una campagna orchestrata in [!DNL Adobe Journey Optimizer] e configurane la pianificazione di esecuzione per controllare quando viene avviata e con quale frequenza viene eseguita. Scegli di avviare la campagna immediatamente, a una data e un’ora specifiche o su base ricorrente utilizzando opzioni di pianificazione flessibili, ad esempio frequenze giornaliere, settimanali o mensili.
 
 ## Creare la campagna {#create}
 
@@ -45,7 +45,7 @@ Creare una campagna orchestrata in [!DNL Adobe Journey Optimizer] e configurarne
 >title="Elenco delle campagne orchestrate"
 >abstract="Nella scheda **Orchestrazione** sono elencate tutte le campagne orchestrate. Fai clic sul nome di una campagna orchestrata per modificarla. Fai clic sul pulsante **Crea campagna orchestrata** per aggiungerne una nuova."
 
-Per creare una campagna orchestrata, effettua le seguenti operazioni:
+Per creare una nuova campagna, segui questi passaggi:
 
 1. Passa al menu **[!UICONTROL Campagne]** e seleziona la scheda **[!UICONTROL Orchestrazione]**.
 
@@ -61,7 +61,7 @@ Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
       <!--1. Merge policy-->
 
-   1. Utilizza il campo **[!UICONTROL Tag]** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Ciò ti consente di classificarli facilmente e di migliorare la ricerca dall’elenco delle campagne orchestrate. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
+   1. Utilizza il campo **[!UICONTROL Tag]** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificare facilmente le campagne e migliorare la ricerca dall’elenco delle campagne orchestrate. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
    1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -86,13 +86,13 @@ Per impostazione predefinita, le campagne orchestrate iniziano quando vengono at
 
 Quando pianifichi campagne orchestrate per garantire prestazioni e comportamenti ottimali, considera le seguenti best practice:
 
-* Non pianificare l’esecuzione di una campagna orchestrata per più di 15 minuti, in quanto potrebbe impedire le prestazioni complessive del sistema e creare blocchi nel database.
-* Se desideri inviare un messaggio unico nella campagna orchestrata, puoi impostarlo per l&#39;esecuzione **Una volta**.
-* Se desideri inviare un messaggio ricorrente nella campagna orchestrata, devi utilizzare le opzioni **Pianificazione** e impostare la frequenza di esecuzione. L’attività di consegna ricorrente non ti consente di definire una pianificazione.
+* Non pianificare l’esecuzione di una campagna orchestrata con una frequenza superiore a 15 minuti, in quanto questo potrebbe ostacolare le prestazioni complessive del sistema e creare blocchi nel database.
+* Se desideri inviare un messaggio unico nella campagna orchestrata, puoi impostarlo per l’esecuzione **Una volta**.
+* Se desideri inviare un messaggio ricorrente nella campagna orchestrata, devi utilizzare le opzioni di **Pianificazione** e impostare la frequenza di esecuzione. L’attività di consegna ricorrente non ti consente di definire una pianificazione.
 
 Per configurare la pianificazione della campagna, effettua le seguenti operazioni:
 
-1. Apri la campagna e fai clic sul pulsante **[!UICONTROL Appena possibile]**.
+1. Apri la campagna e fai clic sul pulsante **[!UICONTROL Non appena possibile]**.
 
    ![](assets/create-schedule.png)
 
@@ -103,9 +103,9 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    Esegui la campagna una sola volta a una data e un’ora specificate.
 
    * **[!UICONTROL Data]**: seleziona la data di esecuzione della campagna.
-   * **[!UICONTROL Ora]**: seleziona l&#39;ora specifica di esecuzione della campagna.
+   * **[!UICONTROL Ora]**: seleziona l’ora specifica in cui la campagna deve essere eseguita.
 
-   +++
++++
 
    +++Giornaliero
 
@@ -114,12 +114,12 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ricorrenza giornaliera]**: scegli la frequenza di esecuzione della campagna:
       * **[!UICONTROL Ogni giorno]**: esegue la campagna ogni giorno della settimana, inclusi i fine settimana.
       * **[!UICONTROL Nei giorni feriali]**: esegue la campagna solo dal lunedì al venerdì.
-      * **[!UICONTROL Fino a un periodo specifico]**: esegue la campagna ogni giorno entro un intervallo di date definito (ad esempio, dal 1° luglio al 15 luglio). La campagna non verrà eseguita al di fuori di questo intervallo.
-      * **[!UICONTROL Nei giorni selezionati della settimana]**: esegue la campagna solo nei giorni specificati della settimana (ad esempio, lunedì, mercoledì, venerdì).
+      * **[!UICONTROL In un periodo specifico]**: esegue la campagna ogni giorno entro un intervallo di date definito (ad esempio, dal 1° luglio al 15 luglio). La campagna non verrà eseguita al di fuori di questo intervallo.
+      * **[!UICONTROL Nei giorni della settimana selezionati]**: esegue la campagna solo nei giorni della settimana specificati (ad esempio, lunedì, mercoledì, venerdì).
 
-   * **[!UICONTROL Ora di inizio]**: definisci l&#39;ora in cui la campagna deve essere eseguita ogni giorno.
+   * **[!UICONTROL Ora di inizio]**: definisci l’ora in cui la campagna deve essere eseguita ogni giorno.
 
-   +++
++++
 
    +++Più volte al giorno
 
@@ -128,18 +128,18 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ore selezionate]**: seleziona le ore specifiche in cui la campagna deve essere eseguita e configurane la ricorrenza giornaliera (eseguita ogni giorno della settimana o in alcuni giorni).
    * **[!UICONTROL Periodico]**: scegli di eseguire la campagna ogni n minuti o ore. Puoi anche definire l’intervallo di tempo all’interno del giorno in cui sono consentite le esecuzioni.
 
-   +++
++++
 
    +++Settimanale
 
    Esegui la campagna su base settimanale, con opzioni per giorni specifici.
 
    * **[!UICONTROL Frequenza]**: scegli la frequenza di esecuzione della campagna (ad esempio, ogni settimana, ogni 2 settimane).
-   * **[!UICONTROL A partire dalla data]**: selezionare la data di inizio della ricorrenza.
-   * **[!UICONTROL Ricorrenza giornaliera]**: scegli giorni specifici della settimana per l&#39;esecuzione (ad esempio, ogni lunedì e giovedì).
-   * **[!UICONTROL Ora di inizio]**: imposta l&#39;ora in cui la campagna deve essere eseguita nei giorni selezionati.
+   * **[!UICONTROL A partire dalla data]**: seleziona la data di inizio della ricorrenza.
+   * **[!UICONTROL Ricorrenza giornaliera]**: scegli giorni della settimana specifici per l’esecuzione (ad esempio, ogni lunedì e giovedì).
+   * **[!UICONTROL Ora di inizio]**: imposta l’ora in cui la campagna deve essere eseguita nei giorni selezionati.
 
-   +++
++++
 
    +++Mensile
 
@@ -148,27 +148,27 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ricorrenza mensile]**: seleziona se la campagna viene eseguita ogni mese o solo durante mesi specifici.
    * **[!UICONTROL Ricorrenza giornaliera]**:
       * **[!UICONTROL Ogni giorno]**: esegue la campagna in ogni giorno del mese, inclusi i fine settimana.
-      * **[!UICONTROL Ultimo giorno del mese]**: esegue la campagna solo nell&#39;ultimo giorno di calendario di ogni mese (ad esempio, 31 gennaio, 28/29 febbraio).
-      * **[!UICONTROL Giorno specifico del mese (ad esempio, 15)]**: esegue la campagna in un giorno specificato (ad esempio, il 15 di ogni mese).
-      * **[!UICONTROL Primo/Ultimo giorno della settimana]** (ad esempio, primo lunedì):      Esegue la campagna in un giorno feriale specificato (ad esempio, il 15 di ogni settimana).
-      * **[!UICONTROL Giorni selezionati della settimana]**: esegue la campagna in un giorno specificato.
+      * **[!UICONTROL Ultimo giorno del mese]**: esegue la campagna solo nell’ultimo giorno di calendario di ogni mese (ad esempio, 31 gennaio, 28/29 febbraio).
+      * **[!UICONTROL Giorno del mese specifico (ad esempio, 15)]**: esegue la campagna in un giorno specificato (ad esempio, il 15 di ogni mese).
+      * **[!UICONTROL Primo/Ultimo o n-esimo giorno della settimana]** (ad esempio, primo lunedì): esegue la campagna in un giorno feriale specificato (ad esempio, il 15° di ogni settimana).
+      * **[!UICONTROL Giorni della settimana selezionati]**: esegue la campagna in un giorno specificato.
 
-   * **[!UICONTROL Ora di inizio]**: imposta l&#39;ora di esecuzione della campagna.
+   * **[!UICONTROL Ora di inizio]**: imposta l’ora di esecuzione della campagna.
 
-   +++
++++
 
-1. Utilizza l&#39;impostazione **[!UICONTROL Periodo di validità]** per definire una data di inizio e una data di fine specifiche, limitando l&#39;esecuzione della campagna a un intervallo di tempo limitato.
+1. Utilizza l’impostazione **[!UICONTROL Periodo di validità]** per definire una data di inizio e una data di fine specifiche, limitando l’esecuzione della campagna a un intervallo di tempo limitato.
 
-1. Per le pianificazioni ricorrenti, fai clic sul pulsante **[!UICONTROL Anteprima ore avvio]** per visualizzare in anteprima le date e le ore di esecuzione imminenti esatte in base alla configurazione corrente. Questo aiuta a convalidare la pianificazione prima dell’attivazione e garantisce che la campagna venga eseguita come previsto.
+1. Per le pianificazioni ricorrenti, fai clic sul pulsante **[!UICONTROL Anteprima data/ora di avvio]** per visualizzare in anteprima le date e le ore di esecuzione imminenti esatte in base alla configurazione corrente. Questo permette di convalidare la pianificazione prima dell’attivazione e garantisce che la campagna venga eseguita come previsto.
 
 >[!NOTE]
 >
->Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la data/ora di inizio sia allineata alla prima consegna desiderata. Per le campagne ricorrenti, se l’ora pianificata iniziale è già passata, le campagne passeranno alla successiva fascia oraria disponibile in base alle relative regole di ricorrenza.
+>Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la data/ora di inizio sia allineata alla prima consegna desiderata. Per le campagne ricorrenti, se l’ora pianificata iniziale è già passata, le campagne passeranno al successivo intervallo di tempo disponibile in base alle relative regole di ricorrenza.
 
-Nell’esempio seguente, l’attività è configurata in modo che la campagna orchestrata venga eseguita due volte al giorno alle 9 e alle 12, ogni giorno della settimana dal 1° ottobre 2025 al 1° gennaio 2026.
+Nell’esempio seguente, l’attività è configurata in modo che la campagna orchestrata venga eseguita diverse volte al giorno alle 9 e alle 12, ogni giorno della settimana dal 1° ottobre 2025 al 1° gennaio 2026.
 
 ![Modulo di pianificazione configurato per eseguire la campagna due volte al giorno alle 9 e alle 12](assets/scheduler-sample.png){width="50%" align="left"}
 
 ## Passaggi successivi {#next}
 
-Una volta configurate le impostazioni e la pianificazione della campagna, sei pronto per iniziare a orchestrare le diverse attività che eseguirà. [Scopri come orchestrare le attività della campagna](../orchestrated/orchestrate-activities.md)
+Una volta configurate le impostazioni e la pianificazione della campagna, è tutto pronto per iniziare a orchestrare le diverse attività che eseguirà. [Scopri come orchestrare le attività della campagna](../orchestrated/orchestrate-activities.md)

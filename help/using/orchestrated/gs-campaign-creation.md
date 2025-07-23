@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 3%
+ht-degree: 78%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 3%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/><b>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md)</b> | [Crea e pianifica la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrazione attività](orchestrate-activities.md)<br/><br/>[Avvia e monitora la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/><b>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md)</b> | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -51,30 +51,30 @@ Questa pagina illustra i passaggi essenziali per creare e avviare una campagna o
 
 ## Passaggio 1: creare e pianificare la campagna {#create}
 
-Prima di tutto, devi creare la tua campagna orchestrata e definire *quando* deve essere eseguita. Che si tratti di una campagna push una tantum o di una campagna multicanale ricorrente, avrai il pieno controllo su tempistica e frequenza.
+Prima di tutto, è necessario creare la campagna orchestrata e definire *quando* deve essere eseguita. Che si tratti di una campagna push una tantum o di una campagna multicanale ricorrente, avrai il pieno controllo su tempistica e frequenza.
 
-➡️ [Scopri come creare e pianificare una campagna](../orchestrated/create-orchestrated-campaign.md)
+➡️ [Scopri come creare e pianificare una campagna](../orchestrated/create-orchestrated-campaign.md).
 
 ## Passaggio 2: orchestrare le attività della campagna {#orchestrate}
 
-Una volta creata la campagna, è il momento di progettare la logica che sta alla base. Utilizzando un’area di lavoro visiva, puoi combinare attività di targeting, consegna e controllo del flusso per modellare l’esperienza del cliente.
+Una volta creata la campagna, è il momento di progettare la logica che sta alla base. Utilizzando un’area di lavoro visiva, puoi combinare attività di targeting, consegna e controllo del flusso per modellare l’esperienza cliente.
 
-➡️ [Scopri come coordinare le attività](../orchestrated/orchestrate-activities.md)
+➡️ [Scopri come orchestrare le attività](../orchestrated/orchestrate-activities.md)
 
 ## Passaggio 3: avviare e monitorare la campagna {#start}
 
-Ci sei quasi! Esegui prima la campagna in modalità di test per individuare eventuali problemi. Quindi pubblicalo e monitora l’esecuzione live in tempo reale: tieni traccia dell’avanzamento, verifica la presenza di errori e osserva come scorrono i profili in ogni passaggio.
+Ci sei quasi! Esegui prima la campagna in modalità di test per individuare eventuali problemi. Quindi pubblicala e monitora l’esecuzione live in tempo reale: tieni traccia dell’avanzamento, verifica la presenza di errori e osserva come fluiscono i profili in ogni passaggio.
 
-➡️ [Scopri come avviare e monitorare una campagna](../orchestrated/start-monitor-campaigns.md)
+➡️ [Scopri come avviare e monitorare una campagna](../orchestrated/start-monitor-campaigns.md).
 
 ## Passaggio 4: analisi e rapporto sui risultati {#report}
 
-Dopo il lancio, utilizza i rapporti incorporati per capire cosa ha funzionato e cosa potrebbe essere migliorato. Le dashboard in tempo reale e le analisi approfondite consentono di ottimizzare le campagne future e di perfezionare la strategia.
+Dopo l’avvio, utilizza i rapporti incorporati per capire cosa ha funzionato e cosa potrebbe essere migliorato. Le dashboard in tempo reale e le analisi approfondite consentono di ottimizzare le campagne future e di perfezionare la strategia.
 
-➡️ [Ulteriori informazioni sui report](../orchestrated/reporting-campaigns.md)
+➡️ [Ulteriori informazioni sul reporting](../orchestrated/reporting-campaigns.md)
 
 ## Per andare oltre: eseguire il retargeting in base al coinvolgimento {#retarget}
 
-Una volta eseguita la campagna, puoi fare un ulteriore passo avanti eseguendo il retargeting dei profili in base al modo in cui hanno interagito con il messaggio, che lo abbiano aperto o fatto clic su un collegamento. Questo consente di seguire messaggi personalizzati, coinvolgere nuovamente gli utenti inattivi o raddoppiare gli interessi.
+Una volta eseguita la campagna, puoi fare un ulteriore passo avanti eseguendo il retargeting dei profili in base al modo in cui hanno interagito con il messaggio, sia che lo abbiano aperto o fatto clic su un collegamento. Questo consente di rispondere con messaggi personalizzati, coinvolgere nuovamente gli utenti inattivi o raddoppiare l’interesse.
 
 ➡️ [Scopri come eseguire il retargeting in base agli eventi di feedback](../orchestrated/retarget.md)

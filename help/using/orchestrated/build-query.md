@@ -10,7 +10,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 20%
+ht-degree: 97%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 20%
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Crea e pianifica la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrazione attività](orchestrate-activities.md)<br/><br/>[Avvia e monitora la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/><b>[Creare la prima query](build-query.md)</b><br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/><b>[Creare la prima query](build-query.md)</b><br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -38,124 +38,124 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 I passaggi principali per creare regole per le campagne orchestrate sono i seguenti:
 
-1. **Aggiungi condizioni** - Crea condizioni personalizzate per filtrare la query creando la tua condizione con gli attributi del database e le espressioni avanzate.
-1. **Combina condizioni** - Dispone le condizioni nell&#39;area di lavoro utilizzando gruppi e operatori logici.
-1. **Verifica e convalida la regola**. Prima di salvarla, controlla i dati risultanti dalla regola.
+1. **Aggiungi condizioni**: crea condizioni personalizzate per filtrare la query creando la tua condizione personalizzata con gli attributi dal database e le espressioni avanzate.
+1. **Combina condizioni**: dispone le condizioni nell’area di lavoro utilizzando gruppi e operatori logici.
+1. **Verifica e convalida la regola**: prima di salvarla, controlla i dati risultanti dalla regola.
 
-## Aggiungi una condizione {#conditions}
+## Aggiungere una condizione {#conditions}
 
-Per aggiungere condizioni nella query, effettua le seguenti operazioni:
+Per aggiungere condizioni nella query, segui questi passaggi:
 
-1. Accedi al generatore di regole da un&#39;attività **[!UICONTROL Genera pubblico]**.
+1. Accedi al generatore di regole da un’attività **[!UICONTROL Crea pubblico]**.
 
 1. Fai clic sul pulsante **Aggiungi condizione** per creare una prima condizione per la query.
 
-   È inoltre possibile avviare la query utilizzando un filtro predefinito. A tale scopo, fare clic sul pulsante **[!UICONTROL Seleziona o salva filtro]** e scegliere **[!UICONTROL Seleziona filtro predefinito]**.
+   Puoi inoltre avviare la query utilizzando un filtro predefinito. A tale scopo, fai clic sul pulsante **[!UICONTROL Seleziona o salva filtro]** e scegli **[!UICONTROL Seleziona filtro predefinito]**.
 
    ![immagine che mostra il generatore di regole](assets/rule-builder-add.png)
 
-1. Identifica l’attributo dal database da utilizzare come criterio per la condizione. L&#39;icona &quot;i&quot; accanto a un attributo fornisce informazioni sulla tabella in cui è memorizzato e sul relativo tipo di dati.
+1. Identifica l’attributo dal database da utilizzare come criterio per la condizione. L’icona “i” accanto a un attributo fornisce informazioni sulla tabella in cui è memorizzato e sul relativo tipo di dati.
 
    ![immagine che mostra la selezione di un attributo](assets/rule-builder-select-attribute.png)
 
    >[!NOTE]
    >
-   >Il pulsante **Modifica espressione** consente di utilizzare l&#39;editor espressioni per definire manualmente un&#39;espressione utilizzando i campi del database e le funzioni di supporto. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
+   >Il pulsante **Modifica espressione** consente di sfruttare l’editor di espressioni per definire manualmente un’espressione utilizzando i campi dal database e le funzioni helper. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
-1. Fai clic sull&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
+1. Fai clic sul pulsante ![ immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
 +++ Distribuzione dei valori
 
-   Analizzare la distribuzione dei valori per un determinato attributo all&#39;interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
+   Analizza la distribuzione dei valori per un determinato attributo all’interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
 
    Per gli attributi con un numero elevato di valori, lo strumento mostra solo i primi venti. In questi casi, viene visualizzata la notifica **[!UICONTROL Caricamento parziale]** per indicare questa limitazione. Puoi applicare filtri avanzati per perfezionare i risultati visualizzati e concentrarti su valori o sottoinsiemi di dati specifici.
 
-   ![immagine che mostra l&#39;interfaccia Distribuzione dei valori](assets/rule-builder-distribution-values.png)
+   ![immagine che mostra l’interfaccia Distribuzione dei valori](assets/rule-builder-distribution-values.png)
 
 +++
 
-+++ Aggiungi ai preferiti
++++ Aggiungere ai preferiti
 
-   L’aggiunta di attributi al menu dei preferiti consente di accedere rapidamente agli attributi utilizzati con maggiore frequenza. Puoi aggiungere fino a 20 attributi ai preferiti. Gli attributi preferiti e recenti sono associati a ogni utente all’interno di un’organizzazione, garantendo l’accessibilità tra computer diversi e fornendo un’esperienza fluida tra i dispositivi.
+   L’aggiunta di attributi al menu dei preferiti consente di accedere rapidamente agli attributi utilizzati con maggiore frequenza. Puoi aggiungere fino a 20 attributi preferiti. Gli attributi preferiti e recenti sono associati a ogni utente all’interno di un’organizzazione, garantendo l’accessibilità tra computer diversi e fornendo un’esperienza fluida tra i dispositivi.
 
-   Per accedere agli attributi preferiti, utilizzare il menu **[!UICONTROL Preferiti e recenti]**. Gli attributi preferiti vengono visualizzati per primi, seguiti da quelli utilizzati di recente, semplificando l&#39;individuazione degli attributi richiesti. Per rimuovere un attributo dai preferiti, selezionare di nuovo l’icona a forma di stella.
+   Per accedere agli attributi preferiti, utilizza il menu **[!UICONTROL Preferiti e recenti]**. Per trovare più facilmente gli attributi necessari, sono elencati per primi gli attributi preferiti, seguiti da quelli utilizzati di recente. Per rimuovere un attributo dai preferiti, seleziona di nuovo l’icona a forma di stella.
 
-   ![immagine che mostra l&#39;interfaccia preferita](assets/rule-builder-favorites.png)
+   ![immagine che mostra l’interfaccia dei preferiti](assets/rule-builder-favorites.png)
 
 +++
 
-1. Fai clic su **[!UICONTROL Conferma]** per aggiungere l&#39;attributo selezionato alla condizione.
+1. Fai clic su **[!UICONTROL Conferma]** per aggiungere l’attributo selezionato alla condizione.
 
 1. Viene visualizzato un riquadro delle proprietà in cui è possibile configurare il valore desiderato per l’attributo.
 
    ![immagine che mostra il generatore di regole con una condizione aggiunta](assets/rule-builder-condition.png)
 
-1. Selezionare l&#39;**[!UICONTROL operatore]** da applicare dall&#39;elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
+1. Seleziona l’**[!UICONTROL operatore]** da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
    +++Elenco degli operatori disponibili
 
    | Operatore | Scopo | Esempio |
    |---|---|---|
-   | Uguale a | Restituisce un risultato identico ai dati immessi nella seconda colonna Valore. | Il cognome (@lastName) uguale a &quot;Jones&quot; restituirà solo i destinatari il cui cognome è Jones. |
-   | Non uguale a | Restituisce tutti i valori non identici al valore inserito. | Lingua (@language) non uguale a &#39;Inglese&#39;. |
-   | Maggiore di | Restituisce un valore maggiore del valore immesso. | L&#39;età (@age) maggiore di 50 restituirà tutti i valori maggiori di &#39;50&#39;, ad esempio &#39;51&#39;, &#39;52&#39;. |
-   | Minore di | Restituisce un valore minore del valore immesso. | La data di creazione (@created) prima di &#39;DaysAgo(100)&#39; restituirà tutti i destinatari creati meno di 100 giorni fa. |
-   | Maggiore o uguale a | Restituisce tutti i valori uguali o maggiori del valore immesso. | L’età (@age) maggiore o uguale a &quot;30&quot; restituirà tutti i destinatari di età pari o superiore a 30 anni. |
-   | Minore o uguale a | Restituisce tutti i valori uguali o inferiori al valore immesso. | L’età (@age) inferiore o uguale a &quot;60&quot; restituirà tutti i destinatari di età pari o inferiore a 60 anni. |
-   | Incluso in | Restituisce i risultati inclusi nei valori indicati. Questi valori devono essere separati da una virgola. | La data di nascita (@birthDate) è inclusa in &quot;12/10/1979,12/10/1984&quot; per restituire i destinatari nati tra queste date. |
-   | Non in | Funziona come l’operatore Incluso in. In questo caso, i destinatari vengono esclusi in base ai valori immessi. | La data di nascita (@birthDate) non è inclusa in “10/12/1979,10/12/1984”. I destinatari nati in queste date non verranno restituiti. |
+   | Uguale a | Restituisce un risultato identico ai dati immessi nella seconda colonna Valore. | Cognome (@lastName) uguale a “Jones”, restituirà solo i destinatari il cui cognome è Jones. |
+   | Non uguale a | Restituisce tutti i valori non identici al valore inserito. | Lingua (@language) non uguale a “Inglese” |
+   | Maggiore di | Restituisce un valore maggiore del valore immesso. | Età (@age) maggiore di 50 anni, restituirà tutti i valori maggiori di “50”, ovvero “51”, “52”, ecc. |
+   | Minore di | Restituisce un valore minore del valore immesso. | Data di creazione (@created) prima di “DaysAgo(100)”, restituirà tutti i destinatari creati meno di 100 giorni fa. |
+   | Maggiore o uguale a | Restituisce tutti i valori uguali o maggiori del valore immesso. | Età (@age) maggiore o uguale a “30”, restituirà tutti i destinatari con un’età pari o superiore ai 30 anni. |
+   | Minore o uguale a | Restituisce tutti i valori uguali o inferiori al valore immesso. | Età (@age) minore o uguale a “60”, restituirà tutti i destinatari di età uguale o inferiore ai 60 anni. |
+   | Incluso in | Restituisce i risultati inclusi nei valori indicati. Questi valori devono essere separati da una virgola. | La data di nascita (@birthDate) inclusa in “10/12/1979,10/12/1984” restituirà i destinatari nati nell’intervallo tra queste date. |
+   | Non in | Funziona come l’operatore Incluso in. Qui, i destinatari vengono esclusi in base ai valori immessi. | La data di nascita (@birthDate) non è inclusa in “10/12/1979,10/12/1984”. I destinatari nati in queste date non verranno restituiti. |
    | È vuoto | Restituisce risultati che corrispondono a un valore vuoto nella seconda colonna Valore. | Cellulare (@mobilePhone) è vuoto restituisce tutti i destinatari che non hanno un numero di cellulare. |
    | Non è vuoto | Funziona in modo inverso rispetto all’operatore È vuoto. Non è necessario immettere dati nella seconda colonna Valore. | Il campo E-mail (@email) non è vuoto. |
-   | Inizia con | Restituisce i risultati che iniziano con il valore inserito. | Account # (@account) inizia con “32010”. |
-   | Non inizia con | Restituisce i risultati che non iniziano con il valore inserito. | Il numero account (@account) non inizia con &quot;20&quot;. |
-   | Contains | Restituisce risultati contenenti almeno il valore inserito. | Il dominio e-mail (@domain) contiene &#39;mail&#39; restituirà tutti i nomi di dominio che contengono &#39;mail&#39;, ad esempio &#39;gmail.com&#39;. |
-   | Non contiene | Restituisce risultati che non contengono il valore immesso. | Il dominio e-mail (@domain) non contiene &#39;vo&#39;. I nomi di dominio contenenti &#39;vo&#39;, ad esempio &#39;voilà.fr&#39;, non verranno visualizzati nei risultati. |
-   | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
-   | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
+   | Inizia con | Restituisce i risultati a partire dal valore immesso. | Account # (@account) inizia con “32010”. |
+   | Non inizia con | Restituisce i risultati che non iniziano con il valore immesso | Account # (@account) non inizia con “20”. |
+   | Contiene | Restituisce i risultati che contengono almeno il valore immesso. | Il dominio e-mail (@domain) che contiene “mail”, restituirà tutti i nomi di dominio che contengono “mail”, come “gmail.com”. |
+   | Non contiene | Restituisce risultati che non contengono il valore immesso. | Il dominio e-mail (@domain) non contiene “vo”. I nomi di dominio contenenti “vo”, ad esempio “voilà.fr”, non verranno visualizzati nei risultati. |
+   | Simile a | Simile all’operatore Contiene, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da “jolly” per trovare nomi come “Jones”. |
+   | Diverso da | Simile all’operatore Contiene, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari con il cognome “Smith” non verranno restituiti. |
 
-   +++
++++
 
-1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sull&#39;immagine ![ che mostra l&#39;icona dell&#39;editor di espressioni](assets/do-not-localize/rule-builder-icon-editor.svg). [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
+1. Nel campo **Valore**, definisci il valore previsto. Puoi anche sfruttare l’editor di espressioni per definire manualmente un’espressione utilizzando i campi dal database e le funzioni helper. A tale scopo, fai clic sull’![immagine che mostra l’icona dell’editor di espressioni](assets/do-not-localize/rule-builder-icon-editor.svg). [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
-   Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzando l&#39;opzione **[!UICONTROL Predefiniti]**.
+   Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzando l’opzione **[!UICONTROL Predefiniti]**.
 
    +++Vedi esempio
 
-   ![immagine che mostra l&#39;opzione predefinita](assets/rule-builder-attribute-preset.png)
+   ![immagine che mostra l’opzione predefinita](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
-### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
+### Condizioni personalizzate per tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
 Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
 
-Per un collegamento **1-1**, passare alla tabella collegata, selezionare l&#39;attributo desiderato e definire il valore previsto.
+Per un collegamento **1-1**, passa alla tabella collegata, seleziona l’attributo desiderato e definisci il valore previsto.
 
 Puoi anche selezionare direttamente un collegamento alla tabella nel selettore **Valore** e confermare. In tal caso, i valori disponibili per la tabella selezionata devono essere selezionati utilizzando un selettore dedicato, come illustrato nell’esempio seguente.
 
 +++Esempio di query
 
-In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot;in esecuzione&quot;.
+Qui, la query esegue il targeting dei brand la cui etichetta è “in esecuzione”.
 
-1. Naviga nella tabella **Brand** e seleziona l&#39;attributo **Label**.
+1. Naviga nella tabella **Brand** e seleziona l’attributo **Etichetta**.
 
-   ![Schermata della tabella dei marchi](assets/rule-builder-1-1-attribute.png)
+   ![Schermata della tabella dei brand](assets/rule-builder-1-1-attribute.png)
 
 1. Definisci il valore previsto per l’attributo.
 
-   ![Schermata della tabella dei marchi](assets/rule-builder-1-1-attribute-value.png)
+   ![Schermata della tabella dei brand](assets/rule-builder-1-1-attribute-value.png)
 
 Di seguito è riportato un esempio di query in cui è stato selezionato direttamente un collegamento di tabella. I valori disponibili per questa tabella devono essere selezionati da un selettore dedicato.
 
-![Schermata della tabella dei marchi](assets/rule-builder-1-1-attribute-table.png)
+![Schermata della tabella Brand](assets/rule-builder-1-1-attribute-table.png)
 
 +++
 
-Per un collegamento **1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell&#39;esempio seguente.
+Per un **collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell’esempio seguente.
 
 +++Esempio di query
 
-In questo caso, la query è destinata a destinatari che hanno effettuato acquisti relativi al prodotto Brewmsaster per più di 100$.
+In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
 
 1. Seleziona la tabella **Acquisti** e conferma.
 
@@ -171,67 +171,67 @@ In questo caso, la query è destinata a destinatari che hanno effettuato acquist
 
 ### Condizioni personalizzate con dati aggregati {#aggregate}
 
-Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, devi selezionare direttamente un attributo da una tabella di raccolta:
+Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, è necessario selezionare direttamente un attributo da una tabella di raccolta:
 
-1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
+1. Spostati all’interno della tabella di raccolta desiderata e seleziona l’attributo sul quale desideri eseguire un’operazione di aggregazione.
 
-1. Nel riquadro delle proprietà, attivare l&#39;opzione **Aggregate data** e selezionare la funzione di aggregazione desiderata.
+1. Nel riquadro delle proprietà, attiva l’opzione **Aggrega dati** e seleziona la funzione di aggregazione desiderata.
 
-   ![Schermata dell&#39;opzione Aggregate data](assets/rule-builder-aggregate.png)
+   ![Schermata dell’opzione Aggrega dati](assets/rule-builder-aggregate.png)
 
 ## Combinare le condizioni utilizzando gli operatori {#operators}
 
-Ogni volta che si aggiunge una nuova condizione nella regola, questa viene automaticamente collegata alla condizione esistente da un operatore **AND**. Ciò significa che i risultati delle due condizioni sono combinati.
+Ogni volta che aggiungi una nuova condizione alla regola, questa viene collegata automaticamente alla condizione esistente da un operatore **AND**. Ciò significa che i risultati delle due condizioni sono combinati.
 
 Per cambiare l’operatore tra le condizioni, fai clic su di esso e seleziona l’operatore desiderato.
 
-![Esempio di query](assets/rule-builder-change-operator.png)
+![Esempio di una query](assets/rule-builder-change-operator.png)
 
 Gli operatori disponibili sono:
 
 * **AND (intersezione)**: combina i risultati che corrispondono a tutti i componenti di filtraggio nelle transizioni in uscita.
 * **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
-* **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtro nella transizione in uscita.
+* **EXCEPT (Esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtro nella transizione in uscita.
 
-## Manipolare le condizioni {#manipulate}
+## Gestire le condizioni {#manipulate}
 
-La barra degli strumenti dell’area di lavoro del generatore di regole fornisce opzioni per manipolare facilmente le condizioni all’interno della regola:
+La barra degli strumenti dell’area di lavoro del generatore di regole fornisce opzioni per gestire facilmente le condizioni all’interno della regola:
 
 | Icona barra degli strumenti | Descrizione |
 |--- |--- |
-| ![Icona Sposta su selezione](assets/do-not-localize/rule-builder-icon-up.svg) | Sposta il componente su di una riga. |
-| ![Icona Sposta selezione verso il basso](assets/do-not-localize/rule-builder-icon-down.svg) | Sposta il componente in basso di una riga. |
-| ![Icona selezione gruppo](assets/do-not-localize/rule-builder-icon-group.svg) | Inserire due componenti in un gruppo. |
-| ![Icona Separa selezione](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Separare i componenti di un singolo gruppo. |
-| ![Icona Espandi tutto](assets/do-not-localize/rule-builder-icon-expand.svg) | Espandere tutti i gruppi. |
-| ![Icona Comprimi tutto](assets/do-not-localize/rule-builder-icon-collapse.svg) | Comprimi tutti i gruppi. |
-| ![Icona Rimuovi tutto](assets/do-not-localize/rule-builder-icon-delete.svg) | Rimuovere tutti i gruppi e i componenti. |
+| ![Icona Sposta in alto la selezione](assets/do-not-localize/rule-builder-icon-up.svg) | Sposta il componente in alto di una riga. |
+| ![Icona Sposta in basso la selezione](assets/do-not-localize/rule-builder-icon-down.svg) | Sposta il componente in basso di una riga. |
+| ![Icona Raggruppa la selezione](assets/do-not-localize/rule-builder-icon-group.svg) | Inserisce due componenti in un gruppo. |
+| ![Icona Separa la selezione](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Separa i componenti di un singolo gruppo. |
+| ![Icona Espandi tutto](assets/do-not-localize/rule-builder-icon-expand.svg) | Espande tutti i gruppi. |
+| ![Icona Comprimi tutto](assets/do-not-localize/rule-builder-icon-collapse.svg) | Comprime tutti i gruppi. |
+| ![Icona Rimuovi tutto](assets/do-not-localize/rule-builder-icon-delete.svg) | Rimuove tutti i gruppi e i componenti. |
 
 A seconda delle esigenze, potrebbe essere necessario creare gruppi intermedi di componenti raggruppando i componenti in uno stesso gruppo e collegandoli tra loro.
 
-* Per raggruppare due condizioni esistenti, selezionare una delle due condizioni e fare clic sul pulsante ![Icona Sposta su selezione](assets/do-not-localize/rule-builder-icon-up.svg) o ![Icona Sposta giù selezione](assets/do-not-localize/rule-builder-icon-down.svg) per raggrupparla con la condizione precedente o successiva.
+* Per raggruppare due condizioni esistenti, seleziona una delle due condizioni e fai clic sul pulsante ![Icona Sposta in alto la selezione](assets/do-not-localize/rule-builder-icon-up.svg) o ![Icona Sposta in basso la selezione](assets/do-not-localize/rule-builder-icon-down.svg) per raggrupparla con la condizione precedente o successiva.
 
-* Per raggruppare una condizione esistente con una nuova, selezionala, fai clic sull&#39;immagine ![che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) e seleziona **[!UICONTROL Aggiungi gruppo]**. Seleziona il nuovo attributo da aggiungere al gruppo, quindi conferma.
+* Per raggruppare una condizione esistente con una nuova, selezionala, fai clic su ![immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) e seleziona **[!UICONTROL Aggiungi gruppo]**. Seleziona il nuovo attributo da aggiungere al gruppo, quindi conferma.
 
   ![](assets/rule-builder-edit-groups.png)
 
-Nell’esempio seguente, abbiamo creato un gruppo intermedio per il targeting dei clienti che hanno acquistato il prodotto BrewMaster o VanillaVelvet.
+Nell’esempio seguente, è stato creato un gruppo intermedio per il targeting di clienti che hanno acquistato il prodotto BrewMaster o VanillaVelvet.
 
 ![](assets/rule-builder-groups.png)
 
 ## Controllare e convalidare la query
 
-Dopo aver creato la query nell&#39;area di lavoro, puoi controllarla utilizzando il riquadro **Proprietà regola**. Le operazioni disponibili sono:
+Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **Proprietà della regola**. Le operazioni disponibili sono:
 
 * **Visualizza risultati:** visualizza i dati risultanti dalla query.
 * **Vista codice**: visualizza una versione della query basata su codice in SQL.
 * **Calcola**: aggiorna e visualizza il numero di record interessati dalla regola.
-* **Seleziona o salva il filtro**: scegli un filtro predefinito esistente da utilizzare nell&#39;area di lavoro oppure salva la query come filtro predefinito da riutilizzare in futuro.
+* **Seleziona o salva il filtro**: scegli un filtro preimpostato esistente da utilizzare nell’area di lavoro oppure salva la query come filtro preimpostato per riutilizzarla in futuro.
 
 <br/>
 
-    >[ !IMPORTANTE]
+    >[!IMPORTANT]
     >
-    >Selezionare un filtro predefinito dal riquadro delle proprietà delle regole sostituisce la regola creata nell&#39;area di lavoro con il filtro selezionato.
+    >Selezionando un filtro preimpostato dal riquadro Proprietà della regola, sostituisce la query creata nell’area di lavoro con il filtro selezionato.
 
-Quando la regola è pronta, fai clic sul pulsante **[!UICONTROL Conferma]** in per salvarla.
+Quando la regola è pronta, fai clic sul pulsante **[!UICONTROL Conferma]** per salvarla.

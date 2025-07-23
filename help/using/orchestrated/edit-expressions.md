@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modifica espressioni
+title: Modificare le espressioni
 description: Scopri come modificare le espressioni.
 badge: label="Alpha"
 hide: true
@@ -10,18 +10,18 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 44%
+ht-degree: 97%
 
 ---
 
 
-# Modifica espressioni {#edit-expressions}
+# Modificare le espressioni {#edit-expressions}
 
 +++ Sommario
 
-| Benvenuto in campagne orchestrate | Lanciare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Crea e pianifica la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrazione attività](orchestrate-activities.md)<br/><br/>[Avvia e monitora la campagna](start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/><b>[Modificare le espressioni](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Inizia a usare le attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Partecipa e unisci](activities/and-join.md) - [Genera pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplicazione](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/><b>[Modificare le espressioni](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -40,31 +40,31 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 ## Utilizzare l’editor di espressioni {#edit}
 
-La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici e ordinamento.
+La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti permette di utilizzare funzioni avanzate, che ti consentono di gestire i valori utilizzati per eseguire query specifiche, come la gestione di date, stringhe, campi numerici e ordinamento.
 
-L&#39;editor espressioni è disponibile dal pulsante **[!UICONTROL Modifica espressione]** del generatore di regole, disponibile per i campi **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
+L’editor di espressioni è disponibile dal pulsante **[!UICONTROL Modifica espressione]** del generatore di regole, disponibile per i campi **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
 
-| Accesso dal campo **Attributo** | Accedi dal campo **Valore** |
+| Accedere dal campo **Attributo** | Accedere dal campo **Valore** |
 | --- | --- |
-| ![Editor espressioni per il campo attributo](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Editor espressioni per il campo Valore](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![Editor di espressioni per il campo Attributo](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![Editor di espressioni per il campo Valore](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 L’editor di espressioni mostra:
 
-* Un campo di input **(1)** in cui è definita l&#39;espressione.
-* Elenco di **campi (2)** disponibili che possono essere utilizzati nell&#39;espressione e che corrispondono alla dimensione di targeting della query.
+* Un **campo di input (1)** in cui è definita l’espressione.
+* Un elenco dei **campi (2)** disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione targeting della query.
 * **Funzioni helper (3)**, ordinate per categoria.
 
-Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
+Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione helper, posiziona il cursore nell’espressione nel punto in cui desideri aggiungerla e fai clic sul pulsante +.
 
-![Interfaccia editor espressioni](assets/rule-builder-expression-editor.png){zoomable="yes"}
+![Interfaccia dell’editor di espressioni](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
 ## Funzioni Helper
 
-Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi in base ai risultati desiderati e ai tipi di dati manipolati. Sono disponibili le seguenti funzioni:
+Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati gestiti. Sono disponibili le seguenti funzioni:
 
 ### Aggregato
 
-Le funzioni di aggregazione eseguono calcoli su un insieme di valori.
+Le funzioni di aggregazione eseguono calcoli su un set di valori.
 
 <table>
 <tbody>
@@ -79,8 +79,8 @@ Le funzioni di aggregazione eseguono calcoli su un insieme di valori.
 <td>Avg(&lt;valore&gt;)</td>
 </tr>
 <tr>
-<td><strong>Conteggio</strong></td>
-<td>Conta i valori non nulli di una colonna</td>
+<td><strong>Count</strong></td>
+<td>Conta i valori non nulli in una colonna</td>
 <td>Count(&lt;valore&gt;)</td>
 </tr>
 <tr>
@@ -90,40 +90,40 @@ Le funzioni di aggregazione eseguono calcoli su un insieme di valori.
 </tr>
 <tr>
 <td><strong>Countdistinct</strong></td>
-<td>Conta i valori distinti non nulli di una colonna</td>
+<td>Conta i valori distinti non nulli in una colonna</td>
 <td>Countdistinct(&lt;valore&gt;)</td>
 </tr>
 <tr>
 <td><strong>Max</strong></td>
-<td>Restituisce il valore massimo di una colonna di tipo numero, stringa o data</td>
+<td>Restituisce il valore massimo in una colonna di tipo numerico, stringa o data</td>
 <td>Max(&lt;valore&gt;)</td>
 </tr>
 <tr>
 <td><strong>Min</strong></td>
-<td>Restituisce il valore minimo di una colonna di tipo numero, stringa o data</td>
+<td>Restituisce il valore minimo in una colonna di tipo numerico, stringa o data</td>
 <td>Min(&lt;valore&gt;)</td>
 </tr>
 <tr>
-<td><strong>DevStandard</strong></td>
-<td>Restituisce la deviazione standard di una colonna numerica, stringa o data</td>
+<td><strong>StdDev</strong></td>
+<td>Restituisce la deviazione standard in una colonna numerica, stringa o data</td>
 <td>StdDev(&lt;valore&gt;)</td>
 </tr>
 <tr>
-<td><strong>StringaAgg</strong></td>
+<td><strong>StringAgg</strong></td>
 <td>Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento</td>
 <td>StringAgg(&lt;Valore&gt;, &lt;Stringa&gt;)</td>
 </tr>
 <tr>
-<td><strong>Somma</strong></td>
-<td>Restituisce la somma dei valori di una colonna di tipo numero, stringa o data</td>
+<td><strong>Sum</strong></td>
+<td>Restituisce la somma dei valori in una colonna di tipo numerico, stringa o data</td>
 <td>Sum(&lt;valore&gt;)</td>
 </tr>
 </tbody>
 </table>
 
-### Data
+### Date
 
-Le funzioni data manipolano i valori di data o ora.
+Le funzioni data gestiscono i valori di data o ora.
 
 <table>
 <tbody>
@@ -164,13 +164,13 @@ Le funzioni data manipolano i valori di data o ora.
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
-<td>Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando TZ sessione definita</td>
-<td>ConvertNTZ(&lt;data+ora&gt;)</td>
+<td>Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando la sessione definita TZ</td>
+<td>ConvertNTZ (&lt;data+ora&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
 <td>Confronta due date</td>
-<td>DateCmp(&lt;data&gt;, &lt;data&gt;)</td>
+<td>DateCmp(&lt;data, data&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
@@ -178,7 +178,7 @@ Le funzioni data manipolano i valori di data o ora.
 <td>DateOnly(&lt;data&gt;)</td>
 </tr>
 <tr>
-<td><strong>Giorno</strong></td>
+<td><strong>Day</strong></td>
 <td>Restituisce il numero che rappresenta il giorno della data</td>
 <td>Day(&lt;data&gt;)</td>
 </tr>
@@ -194,7 +194,7 @@ Le funzioni data manipolano i valori di data o ora.
 </tr>
 <tr>
 <td><strong>DaysAgoInt</strong></td>
-<td>Restituisce la data (numero intero aaaammgg) corrispondente alla data corrente meno n giorni</td>
+<td>Restituisce la data corrispondente (numero intero aaaammgg) alla data corrente meno n giorni</td>
 <td>DaysAgoInt(&lt;numero&gt;)</td>
 </tr>
 <tr>
@@ -213,7 +213,7 @@ Le funzioni data manipolano i valori di data o ora.
 <td>GetDate()</td>
 </tr>
 <tr>
-<td><strong>Ora</strong></td>
+<td><strong>Hour</strong></td>
 <td>Restituisce l’ora della data</td>
 <td>Hour(&lt;data&gt;)</td>
 </tr>
@@ -233,7 +233,7 @@ Le funzioni data manipolano i valori di data o ora.
 <td>MinutesDiff(&lt;data di fine&gt;, &lt;data di inizio&gt;)</td>
 </tr>
 <tr>
-<td><strong>Mese</strong></td>
+<td><strong>Month</strong></td>
 <td>Restituisce il numero che rappresenta il mese della data</td>
 <td>Month(&lt;data&gt;)</td>
 </tr>
@@ -253,12 +253,12 @@ Le funzioni data manipolano i valori di data o ora.
 <td>MonthsOld(&lt;data&gt;)</td>
 </tr>
 <tr>
-<td><strong>Più vecchio</strong></td>
+<td><strong>Oldest</strong></td>
 <td>Restituisce la data meno recente in un intervallo</td>
 <td>Oldest(&lt;data, data&gt;)</td>
 </tr>
 <tr>
-<td><strong>Secondo</strong></td>
+<td><strong>Second</strong></td>
 <td>Restituisce i secondi della data</td>
 <td>Second(&lt;data&gt;)</td>
 </tr>
@@ -315,7 +315,7 @@ Le funzioni data manipolano i valori di data o ora.
 <tr>
 <td><strong>ToTimeZone</strong></td>
 <td>Converte data + ora in fuso orario</td>
-<td>ToTimeZone(&lt;data&gt;, &lt;fuso orario&gt;)</td>
+<td>ToTimeZone(&lt;data&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
@@ -325,7 +325,7 @@ Le funzioni data manipolano i valori di data o ora.
 <tr>
 <td><strong>TruncDateTZ</strong></td>
 <td>Arrotonda una data + ora a una determinata precisione, espressa in secondi</td>
-<td>TruncDateTZ(&lt;data&gt;, &lt;numero di secondi&gt;, &lt;fuso orario&gt;)</td>
+<td>TruncDateTZ(&lt;data&gt;, &lt;numero di secondi&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
@@ -353,7 +353,7 @@ Le funzioni data manipolano i valori di data o ora.
 <td>WeekDay(&lt;data&gt;)</td>
 </tr>
 <tr>
-<td><strong>Anno</strong></td>
+<td><strong>Year</strong></td>
 <td>Restituisce il numero che rappresenta l’anno della data</td>
 <td>Year(&lt;data&gt;)</td>
 </tr>
@@ -382,7 +382,7 @@ Le funzioni data manipolano i valori di data o ora.
 
 >[!NOTE]
 >
->La funzione **DateOnly** prende in considerazione il fuso orario del server e non quello dell&#39;operatore.
+>Tieni presente che la funzione **DateOnly** tiene conto del fuso orario del server, non di quello dell’operatore.
 
 
 ### Geomarketing
@@ -488,7 +488,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
  </tbody> 
 </table>
 
-### Altri
+### Altre
 
 Questa tabella contiene le altre funzioni disponibili.
 
@@ -501,7 +501,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Stringa di crittografia fornita nell'argomento<br /> </td> 
+   <td> Stringa di crittografia fornita nell’argomento<br /> </td> 
    <td> AESEncrypt(&lt;valore&gt;)<br /> </td> 
   </tr>
   <tr> 
@@ -556,7 +556,7 @@ Questa tabella contiene le altre funzioni disponibili.
    <td> IsEmptyString(&lt;valore 1&gt;, &lt;valore 2&gt;, &lt;valore 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NuovoUUID</strong><br /> </td> 
+   <td> <strong>NewUUID</strong><br /> </td> 
    <td> Restituisce un ID univoco<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
@@ -665,9 +665,9 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> Length(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Riga</strong><br /> </td> 
-   <td> Estrai riga n dalla stringa<br /> </td> 
-   <td> Line(&lt;stringa&gt;,&lt;numero&gt;)<br /></td> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Estrae la riga n dalla stringa<br /> </td> 
+   <td> Line(&lt;stringa&gt;, &lt;numero&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -677,7 +677,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Restituisce la stringa completata a sinistra<br /> </td> 
-   <td> LPad (&lt;Stringa&gt;, &lt;Numero&gt;, &lt;Carattere&gt;)<br /></td> 
+   <td> LPad(&lt;stringa&gt;, &lt;numero&gt;, &lt;carattere&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -695,9 +695,9 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> MemoContains(&lt;promemoria&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>ValoreNodo</strong><br /> </td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
    <td> Estrae il valore di un campo XML dal relativo XPath e dai dati del campo<br /> </td> 
-   <td> NodeValue (&lt;Stringa&gt;, &lt;Stringa&gt;)<br /></td> 
+   <td> NodeValue (&lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
@@ -722,12 +722,12 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA256 di una stringa.<br /> </td> 
-   <td> Sha256Digest (&lt;Stringa&gt;)<br /> </td> 
+   <td> Sha256Digest(&lt;Stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA512 di una stringa.<br /> </td> 
-   <td> Sha512Digest (&lt;Stringa&gt;)<br /> </td> 
+   <td> Sha512Digest(&lt;Stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -773,7 +773,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Esegui la chiamata alla funzione SQL immessa come primo parametro, su Partition o Order By nei campi immessi come secondo parametro<br /> </td> 
+   <td> Esegue la chiamata alla funzione SQL immessa come primo parametro, su Partizione o Ordina per i campi immessi come secondo parametro<br /> </td> 
    <td> _Over_ (&lt;Valore&gt;, &lt;Valore&gt;)<br /> </td>  
   </tr> 
   <tr> 
