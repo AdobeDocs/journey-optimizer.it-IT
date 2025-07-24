@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4f881bfc32a5f168a93b51c9a69398881790050c
+source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 18%
@@ -19,9 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaign_overview_orchestrated"
->abstract="<b>Orchestrazione campagna</b><br/>Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/>"
-
-<b>Sfruttare dati con più entità</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea il segmento passo dopo passo con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail&quot;
+>abstract="<b>Orchestrazione campagna</b><br/>Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con più entità</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea il segmento passo dopo passo con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail"
 
 +++ Sommario
 
