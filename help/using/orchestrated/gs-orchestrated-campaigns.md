@@ -7,14 +7,21 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bd5239b177954d6e5d83f4b08e7d79819c102485
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 20%
+source-wordcount: '540'
+ht-degree: 19%
 
 ---
 
 # Introduzione alle campagne orchestrate {#orchestrated-camp}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_orchestrated"
+>title="Campagne orchestrate"
+>abstract="**Orchestrazione campagna**<br/> Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/>
+
+**Sfruttare dati con più entità**<br/> Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione <br/><br/>**Segmentazione ad hoc e conteggi esatti**<br/> Crea il segmento passo dopo passo con conteggi esatti <br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push, direct mail&quot;
 
 +++ Sommario
 
