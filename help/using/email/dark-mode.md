@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Passa alla modalità scura
+title: Passare alla modalità scura
 description: Scopri come utilizzare la modalità scura in E-mail Designer
 feature: Email Design
 topic: Content Management
@@ -14,7 +14,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
 source-wordcount: '1701'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
->title="Passa alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima come eseguire il rendering e definire impostazioni personalizzate specifiche. <br>Attenzione: il rendering finale dipende dal client di posta elettronica del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>title="Passare alla modalità scura"
+>abstract="Passa realla modalità scura dove è possibile visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Attenzione: il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
->title="Usa un&#39;immagine specifica per la modalità scura"
->abstract="È possibile selezionare un&#39;altra immagine da visualizzare quando è attiva la modalità scura. <br>Attenzione: l&#39;aggiunta di un&#39;immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client di posta elettronica. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>title="Utilizzare un’immagine specifica per la modalità scura"
+>abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>Attenzione: l’aggiunta di un’immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client e-mail. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
->title="Passa alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima come verrà riprodotto sui client e-mail che supportano. <br>Attenzione: il rendering finale dipende dal client di posta elettronica del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>title="Passare alla modalità scura"
+>abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Attenzione: il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 Durante la progettazione delle e-mail, [!DNL Journey Optimizer] [Invia e-mail a Designer](get-started-email-design.md) ti consente di passare alla **[!UICONTROL modalità scura]** in cui puoi definire impostazioni personalizzate specifiche. Quando la modalità scura è attiva, i client e-mail di supporto visualizzano le impostazioni definite per questa modalità.
 
