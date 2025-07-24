@@ -11,10 +11,10 @@ keywords: modalità scura, e-mail, colore, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## Client e-mail che supportano la modalità scura {#supporting-email-clients}
 
-Di seguito è riportato un elenco dei principali client e-mail che supportano la modalità scura. Tuttavia, alcune versioni dei client e-mail elencati non supportano la modalità scura, pertanto sono anche presentate in questa tabella per motivi di chiarezza e precisione.
+Di seguito è riportato un elenco dei principali client e-mail che supportano la modalità scura.
 
->[!WARNING]
+>[!NOTE]
 >
->Il rendering finale in modalità scura dipende da ciascun client e-mail, pertanto i risultati possono variare da un client all’altro. Per visualizzare una simulazione che si avvicina il più possibile al risultato finale per ogni client e-mail, utilizza l&#39;opzione [Rendering e-mail](../content-management/rendering.md).
+>Alcune versioni di questi client e-mail non supportano la modalità scura, quindi vengono anche presentate in questa tabella per maggiore chiarezza.
 
-| Client e-mail che supportano la modalità scura | Versioni compatibili | Versioni non supportate |
+| Client e-mail che supportano la modalità scura | Versioni compatibili | *Versioni non supportate* |
 |---------|----------|---------|
 | Apple Mail macOS | 12,4, 16,0 | *10,3* |
 | Apple Mail iOS | 13,0, 16,1 | *12,2* |
@@ -237,13 +237,17 @@ Di seguito è riportato un elenco dei principali client e-mail che supportano la
 | WEB.DE (iOs e Android) | 06/2022 | N/D |
 | Free.fr | 12/2022 | N/D |
 
+>[!WARNING]
+>
+>Il rendering finale in modalità scura dipende da ciascun client e-mail, pertanto i risultati possono variare da un client all’altro.
+
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-## I client e-mail NON supportano la modalità scura {#non-supporting-email-clients}
+## Client e-mail che non supportano la modalità scura {#non-supporting-email-clients}
 
 Alcuni client e-mail consentono agli utenti di passare dalla propria interfaccia alla modalità scura, ma questa impostazione non influisce sulla visualizzazione delle e-mail di HTML. Indipendentemente dal fatto che l’interfaccia sia in modalità chiara o scura, l’e-mail riprodurrà lo stesso risultato. Di seguito è riportato un elenco dei client:
 
