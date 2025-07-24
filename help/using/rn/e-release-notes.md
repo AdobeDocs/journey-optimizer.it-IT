@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Note precedenti alla versione per Journey Optimizer
-description: Note sulla versione di Journey Optimizer
+description: Note sulla versione di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 19%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
-# Note precedenti alla versione {#e-release-notes}
+# Note pre-release {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
 **Le note sulla versione precedenti sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
 
-## Note preliminari sulla versione del 25 luglio {#25-7-rn}
+## Note sulla versione pre-25 luglio {#25-7-rn}
 
 
 **Le note sulla versione precedenti sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata sono pubblicati alla data di rilascio.
@@ -118,6 +118,12 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Journey Optimizer ora ti offre gli strumenti necessari per fornire contenuti personalizzati e ottimizzati al pubblico delle campagne, consentendoti di eseguire esperimenti sui contenuti, creare targeting basato su regole e utilizzare combinazioni avanzate di entrambe per massimizzare l’efficacia delle campagne.</p>
+<p>Con l'ottimizzazione è possibile:</p>
+<ul>
+<li>Eseguire esperimenti di contenuto</li>
+<li>Sfruttare le regole di targeting</li>
+<li>Utilizzare combinazioni avanzate di sperimentazione e targeting all’interno di una singola campagna</li></ul>
+<P>Una volta che la campagna è attiva, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dalla campagna.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>Possibilità di visualizzare le bozze delle campagne se hai impostato una data di inizio e una data di fine</li>
 <li>Nuova impostazione per nascondere e visualizzare gli elementi del calendario in esecuzione per molto tempo</li>
 </ul>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
