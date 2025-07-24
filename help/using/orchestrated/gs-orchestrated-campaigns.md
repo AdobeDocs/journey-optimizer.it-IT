@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="Campagne orchestrate"
->abstract="**Orchestrazione campagna**<br/> Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/>
+>abstract="**Orchestrazione campagna**<br/> Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/>"
 
 **Sfruttare dati con più entità**<br/> Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione <br/><br/>**Segmentazione ad hoc e conteggi esatti**<br/> Crea il segmento passo dopo passo con conteggi esatti <br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push, direct mail&quot;
 
