@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47665bc3cbe1221ba872bcd2b1dac94fea5ec63a
+source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 22%
+source-wordcount: '897'
+ht-degree: 19%
 
 ---
 
@@ -82,7 +82,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne e-mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni. Attualmente non è disponibile per l’uso con Healthcare Shield e con Privacy and Security Shield (Disponibilità limitata).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -177,7 +176,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Precedentemente rilasciato a disponibilità limitata, l’uso di ID supplementari nei percorsi è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale, la funzione ora include il supporto per percorsi Read audience.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
