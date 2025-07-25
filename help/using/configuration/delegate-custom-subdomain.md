@@ -11,7 +11,7 @@ keywords: sottodominio, delega, dominio, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 20%
@@ -124,10 +124,9 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
    >
    >Prima di procedere, assicurati che tutti i record siano stati creati correttamente.
 
-   Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma di hosting. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Confermo...&quot;.
+1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma di hosting. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Confermo...&quot;.
 
-1. Fai clic su **[!UICONTROL Invia]** per fare in modo che Adobe esegua i controlli richiesti. [Ulteriori informazioni](#submit-subdomain)
-
+1. Fai clic su **[!UICONTROL Invia]** per fare in modo che Adobe esegua i controlli richiesti. [Ulteriori informazioni](delegate-subdomain.md#submit-subdomain)
 
 ## Elenco di controllo per la risoluzione dei problemi {#check-list}
 
@@ -138,4 +137,3 @@ Se si verificano errori durante il tentativo di inviare il sottodominio personal
 * Verifica che il certificato soddisfi tutti i requisiti tecnici prima di caricarlo.
 
 * Assicurati che il certificato sia caricato nel formato corretto.
-
