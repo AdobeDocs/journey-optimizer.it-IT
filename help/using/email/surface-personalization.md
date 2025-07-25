@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1171'
 ht-degree: 7%
 
 ---
@@ -128,7 +128,7 @@ Per utilizzare variabili personalizzate per i parametri di intestazione della co
 
 Per utilizzare parametri di tracciamento URL personalizzati, segui i passaggi indicati di seguito.
 
-1. Vai alla sezione **[!UICONTROL URL tracking parameters]** della configurazione del canale e-mail.
+1. Vai alla sezione **[!UICONTROL URL tracking parameters]** della configurazione del canale e-mail. [Ulteriori informazioni](url-tracking.md)
 
 1. Fai clic sull’icona Modifica accanto a ciascun campo. Oltre agli attributi contestuali, puoi selezionare gli attributi del profilo.
 

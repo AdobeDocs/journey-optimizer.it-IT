@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 31%
+source-wordcount: '1214'
+ht-degree: 30%
 
 ---
 
@@ -48,6 +48,10 @@ Quando sono abilitate, queste opzioni tengono traccia del comportamento dei dest
 ## Inserire i collegamenti {#insert-links}
 
 Quando è abilitato il [tracciamento](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
+
+>[!NOTE]
+>
+>Vengono tracciati anche i collegamenti dai frammenti utilizzati in un messaggio e-mail. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
 
 Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguente:
 

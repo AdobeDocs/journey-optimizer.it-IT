@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '710'
 ht-degree: 14%
 
 ---
@@ -79,7 +79,13 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
   ![](assets/fragment-expression-editor.png)
 
-Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**. Il frammento viene creato e aggiunto all&#39;elenco di frammenti con lo stato **[!UICONTROL Bozza]**. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
+Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**.
+
+>[!NOTE]
+>
+>I frammenti visivi non possono superare i 100 KB. I frammenti di espressione non possono superare i 200 KB.
+
+Il frammento viene creato e aggiunto all&#39;elenco di frammenti con lo stato **[!UICONTROL Bozza]**. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
 
 ## Anteprima e pubblicazione del frammento {#publish}
 
