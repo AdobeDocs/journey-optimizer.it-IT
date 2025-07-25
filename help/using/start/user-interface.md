@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1716'
+source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+workflow-type: tm+mt
+source-wordcount: '1671'
 ht-degree: 100%
 
 ---
@@ -328,17 +328,6 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >id="ajo_exd_decision_attribute"
 >title="Selezionare gli attributi di decisione dal catalogo"
 >abstract="Gli attributi di decisione sono memorizzati nello schema del catalogo. Seleziona un attributo da utilizzare qui dal catalogo selezionato."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
->title="Criterio di decisione"
->abstract="Un criterio di decisione consente di scegliere gli elementi migliori dal motore decisionale e di consegnarli a ciascun pubblico."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_placements"
->title="Posizionamento"
->abstract="Un posizionamento determina dove vengono visualizzati in un messaggio gli elementi restituiti dal motore decisionale. Puoi tenere traccia delle relative prestazioni in diversi posizionamenti nel reporting."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
