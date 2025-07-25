@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi pass
 
 1. Immetti un’**[!UICONTROL etichetta del pubblico]** che identificherà il pubblico salvato.
 
-1. Scegli un campo di mappatura profilo **[!UICONTROL &#x200B;]** dalla dimensione di targeting della campagna.
+1. Scegli un **[!UICONTROL campo di mappatura profilo&#x200B;]** dalla dimensione di targeting della campagna.
 
    ➡️ [Segui i passaggi descritti in questa pagina per creare la tua dimensione di targeting delle campagne](../target-dimension.md)
 
@@ -66,7 +66,10 @@ Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi pass
 
 1. Completa la configurazione salvando e pubblicando la campagna orchestrata. Questo genererà e archivierà il tuo pubblico.
 
-Il contenuto del pubblico salvato è quindi disponibile nella relativa vista dettagliata, accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
+Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **[!UICONTROL Tipi di pubblico]** oppure può essere selezionato quando si esegue il targeting di un pubblico, ad esempio con un&#39;attività **[!UICONTROL Read audience]**.
+
+![](../assets/save-audience-4.png)
+
 
 ## Esempio {#save-audience-example}
 

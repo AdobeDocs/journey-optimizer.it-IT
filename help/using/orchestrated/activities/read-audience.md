@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Read audienc
 
    ![](../assets/read-audience-2.png)
 
-1. Seleziona l&#39;**[!UICONTROL entità]** utilizzata per identificare in modo univoco i profili nel pubblico.
+1. Scegli un&#39;entità **[!UICONTROL &#x200B;]** dalla dimensione di targeting della campagna.
+
+   ➡️ [Segui i passaggi descritti in questa pagina per creare la tua dimensione di targeting delle campagne](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. Seleziona **[!UICONTROL Aggiungi attributo profilo]** per arricchire il pubblico selezionato con dati aggiuntivi. Il pubblico risultante conterrà un elenco di destinatari, ciascuno arricchito con gli attributi di profilo selezionati.
+1. Seleziona **[!UICONTROL Aggiungi attributo]** per arricchire il pubblico selezionato con dati aggiuntivi. Il pubblico risultante conterrà un elenco di destinatari, ciascuno arricchito con gli attributi di profilo selezionati.
 
 1. Scegli gli **[!UICONTROL Attributi]** da aggiungere al pubblico.
 
