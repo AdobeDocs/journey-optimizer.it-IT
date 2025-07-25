@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 15%
+source-wordcount: '1865'
+ht-degree: 16%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 15%
 >id="ajo_exd_placements"
 >title="Posizionamento"
 >abstract="Un posizionamento determina dove vengono visualizzati in un messaggio gli elementi restituiti dal motore decisionale. Puoi tenere traccia delle relative prestazioni in diversi posizionamenti nel reporting."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="Selezionare gli attributi di decisione dal catalogo"
+>abstract="Gli attributi di decisione sono memorizzati nello schema del catalogo. Seleziona un attributo da utilizzare qui dal catalogo selezionato."
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
 
