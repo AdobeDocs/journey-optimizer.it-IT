@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
+source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 90%
+source-wordcount: '1232'
+ht-degree: 84%
 
 ---
 
@@ -57,9 +57,11 @@ Per creare una nuova campagna, segui questi passaggi:
 
    ![](assets/inventory-create.png)
 
-   1. Immetti un nome e una descrizione per la campagna.
+   1. Immetti **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** per la campagna.
 
-      <!--1. Merge policy-->
+   1. Seleziona un **[!UICONTROL criterio di unione]** per la campagna.
+
+      In [!DNL Adobe Experience Platform], ogni pubblico è associato a un criterio di unione specifico, che definisce il modo in cui le informazioni del profilo vengono combinate per formare un profilo unito. Quando selezioni un criterio di unione nell’attività Read audience, sono disponibili solo i tipi di pubblico basati sullo stesso criterio di unione. Per impostazione predefinita, il sistema utilizza il criterio di unione predefinito, ma è possibile modificarlo se necessario. Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
    1. Utilizza il campo **[!UICONTROL Tag]** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificare facilmente le campagne e migliorare la ricerca dall’elenco delle campagne orchestrate. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
@@ -105,7 +107,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Data]**: seleziona la data di esecuzione della campagna.
    * **[!UICONTROL Ora]**: seleziona l’ora specifica in cui la campagna deve essere eseguita.
 
-   +++
++++
 
    +++Giornaliero
 
@@ -119,7 +121,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: definisci l’ora in cui la campagna deve essere eseguita ogni giorno.
 
-   +++
++++
 
    +++Più volte al giorno
 
@@ -128,7 +130,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ore selezionate]**: seleziona le ore specifiche in cui la campagna deve essere eseguita e configurane la ricorrenza giornaliera (eseguita ogni giorno della settimana o in alcuni giorni).
    * **[!UICONTROL Periodico]**: scegli di eseguire la campagna ogni n minuti o ore. Puoi anche definire l’intervallo di tempo all’interno del giorno in cui sono consentite le esecuzioni.
 
-   +++
++++
 
    +++Settimanale
 
@@ -139,7 +141,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ricorrenza giornaliera]**: scegli giorni della settimana specifici per l’esecuzione (ad esempio, ogni lunedì e giovedì).
    * **[!UICONTROL Ora di inizio]**: imposta l’ora in cui la campagna deve essere eseguita nei giorni selezionati.
 
-   +++
++++
 
    +++Mensile
 
@@ -155,7 +157,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: imposta l’ora di esecuzione della campagna.
 
-   +++
++++
 
 1. Utilizza l’impostazione **[!UICONTROL Periodo di validità]** per definire una data di inizio e una data di fine specifiche, limitando l’esecuzione della campagna a un intervallo di tempo limitato.
 

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 2201cc8b9c0c7813c13156937e1cf319660c1039
+source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 82%
+source-wordcount: '1213'
+ht-degree: 77%
 
 ---
 
@@ -101,25 +101,29 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione dei canali per il messaggio e configurare impostazioni aggiuntive, ad esempio il tracciamento, l’esperimento sul contenuto o il contenuto multilingue.
 
-1. Selezionare una configurazione dei canali
+1. **Seleziona una configurazione di canale**
 
    Una configurazione viene definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare la configurazione di canale](../../configuration/channel-surfaces.md).
 
    ![immagine che mostra la sezione Azioni](../assets/channel-actions.png)
 
-1. Traccia il coinvolgimento (per e-mail e SMS).
+1. **Applica regole limite**
+
+   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. [Scopri come utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
+
+1. **Rileva coinvolgimento** (e-mail e SMS)
 
    Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere traccia di come i destinatari reagiscono alle consegne e-mail o SMS. I risultati del tracciamento sono accessibili dal rapporto della campagna una volta che è stata eseguita. [Ulteriori informazioni sui rapporti della campagna](../../reports/campaign-global-report-cja.md).
 
-1. Abilitare la modalità Consegna rapida (per messaggio push).
+1. **Abilita modalità Consegna rapida** (push)
 
    La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html).
 
-1. Creare un esperimento sui contenuti
+1. **Crea un esperimento sui contenuti**
 
    Utilizza la sezione **[!UICONTROL Esperimento contenuti]** per definire più trattamenti di consegna al fine di capire quale funzioni meglio per il tuo pubblico target. Fai clic sul pulsante **[!UICONTROL Crea esperimento]**, quindi segui i passaggi descritti in questa sezione: [Creare un esperimento sui contenuti](../../content-management/content-experiment.md).
 
-1. Aggiungere contenuto multilingue.
+1. **Aggiungi contenuto multilingue**
 
    Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all’interno della campagna. A tale scopo, fai clic sul pulsante **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in questa sezione: [Introduzione ai contenuti multilingue](../../content-management/multilingual-gs.md)
 
