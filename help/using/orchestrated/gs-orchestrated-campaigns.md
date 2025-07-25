@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
+source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 18%
+source-wordcount: '628'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,8 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 <tr style="border: 0;">
 <td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.</td></tr>
+<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.<br/><br/>
+È supportato l’invio multilivello, in cui viene inviato un messaggio per profilo e per entità secondaria associata. Tali entità secondarie possono includere indirizzi di contatto, prenotazioni, abbonamenti, contratti o altri dati collegati. Ad esempio, questo consente di inviare le campagne a tutti gli indirizzi noti di un profilo o a ogni prenotazione associata a quel profilo.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
 <tr style="border: 0;">
@@ -69,6 +70,8 @@ Anche se la visualizzazione delle campagne orchestrate ha somiglianze con i perc
 * **Percorsi** - da 1 a 1 area di lavoro in cui ogni profilo viaggia attraverso i diversi passaggi al proprio ritmo. Lo stato di ciascun cliente viene mantenuto nel suo contesto per attivare azioni in tempo reale.
 
 * **Campagne orchestrate** - A differenza dei percorsi, le campagne orchestrate funzionano utilizzando un&#39;area di lavoro batch che calcola i segmenti. Tutti i profili vengono elaborati contemporaneamente.
+
+Entrambe le aree di lavoro sono ottimizzate per i rispettivi casi d’uso: l’area di lavoro Percorso pubblica percorsi che tendono a durare per un periodo di tempo più lungo, mentre l’area di lavoro Campaign è progettata per esecuzioni iterative e incrementali di una campagna batch.
 
 ## Prerequisiti
 
