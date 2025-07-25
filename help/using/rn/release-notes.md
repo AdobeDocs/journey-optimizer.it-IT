@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
+source-git-commit: e74b600a12413883ee6796a9df2583c1adbdf94c
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 62%
@@ -110,7 +110,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>Meccanismi di fallback per mantenere il coinvolgimento degli utenti.</li>
 </ul>
 <P>Una volta che la campagna è attiva, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dalla campagna.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/>&gt;</p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -251,7 +251,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
