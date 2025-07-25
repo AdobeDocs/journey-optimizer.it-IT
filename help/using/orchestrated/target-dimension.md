@@ -6,7 +6,7 @@ description: Scopri come mappare uno schema relazionale al profilo cliente
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Per iniziare, imposta l’orchestrazione delle campagne mappando uno schema rela
 
    In questo esempio, il profilo cliente è collegato a più sottoscrizioni, ognuna rappresentata da un `crmID` univoco nello schema `Recipient`. Impostando lo schema **[!UICONTROL e la relativa identità]** per `Recipient`Dimension`crmID` di destinazione, è possibile inviare messaggi a livello di sottoscrizione anziché al profilo cliente principale, garantendo che ogni contratto o linea riceva il proprio messaggio personalizzato.
 
-   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity)
+   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -108,4 +108,4 @@ Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, devi config
 
 1. Una volta configurata, fai clic su **[!UICONTROL Invia]**.
 
-Il tuo canale è ora pronto per l’utilizzo con le campagne orchestrate e i messaggi verranno consegnati in base alla dimensione di destinazione selezionata.
+Il tuo canale è ora pronto per essere utilizzato con **Campagne orchestrate** e i messaggi verranno recapitati in base alla dimensione di destinazione selezionata.

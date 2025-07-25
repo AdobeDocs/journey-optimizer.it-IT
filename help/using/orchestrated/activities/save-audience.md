@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi pass
 
 1. Immetti un’**[!UICONTROL etichetta del pubblico]** che identificherà il pubblico salvato.
 
-1. Fai clic su **[!UICONTROL Aggiungi attributo pubblico]** per definire la struttura e l’archiviazione dei dati sul pubblico da riutilizzare in futuro.
+1. Scegli un campo di mappatura profilo **[!UICONTROL &#x200B;]** dalla dimensione di targeting della campagna.
+
+   ➡️ [Segui i passaggi descritti in questa pagina per creare la tua dimensione di targeting delle campagne](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Quindi, seleziona il **[!UICONTROL campo di identità primaria]** e lo **[!UICONTROL spazio dei nomi di identità]** appropriati per garantire una risoluzione accurata del profilo.
+1. Fai clic su **[!UICONTROL Aggiungi mappature pubblico]** per associare il pubblico salvato ad altri campi di identità.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi pass
 
 Il contenuto del pubblico salvato è quindi disponibile nella relativa vista dettagliata, accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
-![](../assets/save-audience-3.png)
-
 ## Esempio {#save-audience-example}
 
-L’esempio seguente illustra come creare un pubblico semplice utilizzando il targeting. Una query identifica tutti i profili che hanno effettuato un acquisto negli ultimi 30 giorni. L’attività **[!UICONTROL Salva pubblico]** acquisisce quindi questi profili per creare un pubblico riutilizzabile di acquirenti recenti.
+L’esempio seguente illustra come creare un pubblico semplice utilizzando il targeting. Una query identifica tutti i destinatari che hanno prenotato un viaggio negli ultimi 30 giorni filtrando questa popolazione nella campagna orchestrata. Scegliendo **Destinatari - CRMID** come **dimensione di targeting**, il pubblico esegue il targeting di ogni singolo evento di prenotazione anziché del solo destinatario nel suo insieme. L’attività **[!UICONTROL Salva pubblico]** acquisisce quindi questi profili per creare un pubblico riutilizzabile di acquirenti recenti.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)
