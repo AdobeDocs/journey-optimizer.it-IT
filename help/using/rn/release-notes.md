@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 66%
+source-wordcount: '2316'
+ht-degree: 63%
 
 ---
 
@@ -94,25 +94,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <table>
 <thead>
 <tr>
-<th><strong>Attività di decisione sul contenuto nei percorsi</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle attività relative tramite un’attività dedicata di decisione sul contenuto nell’area di lavoro del percorso, comprese condizioni e azioni personalizzate.</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Ottimizzazione nelle campagne</strong><br/></th>
 </tr>
 </thead>
@@ -126,6 +107,29 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>Sfruttare le regole di targeting</li>
 <li>Utilizzare combinazioni avanzate di sperimentazione e targeting all’interno di una singola campagna</li></ul>
 <P>Una volta che la campagna è attiva, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dalla campagna.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Modalità scura in E-mail Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer E-mail Designer ora offre la possibilità di passare alla visualizzazione in modalità scura, in cui è possibile definire anche impostazioni personalizzate specifiche da mostrare solo per i destinatari che leggono le e-mail in modalità scura.</p>
+<p>Tieni presente quanto segue:</p>
+<ul>
+<li>Il rendering finale in modalità scura può variare e dipende dal client e-mail del destinatario.</li>
+<li>Non tutti i client e-mail supportano la modalità scura personalizzata. Inoltre, alcuni client e-mail applicano la propria modalità scura predefinita solo per tutte le e-mail ricevute. In entrambi i casi, non è possibile eseguire il rendering delle impostazioni personalizzate definite nel Designer e-mail.</li>
+</ul>
+<P>Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -205,10 +209,6 @@ Per ulteriori informazioni, consulta [queste Domande frequenti](../building-jour
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-- **E-mail Designer**
-   - Journey Optimizer E-mail Designer ora offre la possibilità di passare alla visualizzazione in modalità scura, in cui è possibile definire anche impostazioni personalizzate specifiche. Il rendering finale dipende dal client e-mail del destinatario. Inoltre, non tutti i client e-mail supportano la modalità scura.
-  <!-- [Read more](../FILE.md) -->
-
 - **Campagne**
    - **Squalifica campagna basata su regole** - Nelle schede dei contenuti, quando si modificano regole di consegna aggiuntive, l&#39;opzione Regole di consegna precedente è stata sostituita con tre tipi di regole distinti per controllare meglio la tempistica e la visibilità dei messaggi:
       - Mostra messaggio se: Condizioni che determinano quando viene visualizzata la scheda di contenuto.
@@ -237,6 +237,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
    - **Coppie chiave/valore in-app** - Con i messaggi in-app, puoi definire coppie chiave-valore per includere variabili personalizzate nel payload del messaggio. Queste coppie chiave-valore ti consentono di trasmettere dati aggiuntivi in base alla configurazione e al caso d’uso specifici.
   <!-- [Read more](../FILE.md) -->
 
+- **Funzione Decisioni**
+   - **API per strumenti di migrazione** - Il team Journey Optimizer sta attualmente lavorando sulle API per strumenti di migrazione per migrare le entità di gestione delle decisioni in Decisioning. Questo strumento consente una migrazione senza soluzione di continuità tra sandbox con risoluzione delle dipendenze e funzionalità di rollback. Se ti interessa, contatta il tuo rappresentante Adobe.
+
 
 ## Note sulla versione di giugno 2025 {#25-6-rn}
 
@@ -245,7 +248,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 

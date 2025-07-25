@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Passare alla modalità scura
 description: Scopri come utilizzare la modalità scura in E-mail Designer
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: modalità scura, e-mail, colore, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="Passare alla modalità scura"
 >abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Attenzione: il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.
 
 Durante la progettazione delle e-mail, [!DNL Journey Optimizer] [Invia e-mail a Designer](get-started-email-design.md) ti consente di passare alla **[!UICONTROL modalità scura]** in cui puoi definire impostazioni personalizzate specifiche. Quando la modalità scura è attiva, i client e-mail di supporto visualizzano le impostazioni definite per questa modalità.
 
@@ -91,9 +96,10 @@ Per accedere alla modalità scura in E-mail Designer e visualizzare un’antepri
 
 1. Dalla home page di E-mail Designer, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**. [Ulteriori informazioni](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >Al momento potresti non essere in grado di passare alla modalità scura se selezioni un [modello di e-mail](use-email-templates.md) o se applichi un [tema](apply-email-themes.md).
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. Aggiungi [strutture](content-from-scratch.md) e [componenti contenuto](content-components.md) al contenuto.
 
@@ -104,12 +110,8 @@ Per accedere alla modalità scura in E-mail Designer e visualizzare un’antepri
 1. Viene visualizzata l&#39;anteprima predefinita in modalità scura.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-Per impostazione predefinita, l’anteprima in modalità scura di E-mail Designer applica la combinazione di colori &quot;inversione completa dei colori&quot; a tutti gli elementi eccetto immagini e icone. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+Per impostazione predefinita, l’anteprima in modalità scura di E-mail Designer applica la combinazione di colori &quot;inversione completa dei colori&quot; a tutti gli elementi eccetto immagini e icone.
 
 Significa che rileva aree con elementi chiari e scuri e le inverte, in modo che gli sfondi chiari diventino testo scuro e chiaro, mentre gli sfondi scuri diventino chiari e il testo chiaro diventi scuro.
 
@@ -135,7 +137,7 @@ Per sfruttare lo stile personalizzato della modalità scura di E-mail Designer, 
 
 Per definire le impostazioni personalizzate della modalità scura, effettua le seguenti operazioni.
 
-1. Verificare che la modalità **[!UICONTROL Scuro]** sia abilitata in E-mail Designer. [Scopri come](#preview-dark-mode)
+1. Accertati di passare all&#39;anteprima della **[!UICONTROL modalità scura]** nel Designer e-mail. [Scopri come](#preview-dark-mode)
 
 1. Modifica gli attributi dei colori di stile come testo, sfondi, pulsante e così via.
 
