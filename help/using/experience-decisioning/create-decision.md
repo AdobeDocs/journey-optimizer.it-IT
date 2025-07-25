@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 12%
+source-wordcount: '1841'
+ht-degree: 15%
 
 ---
 
@@ -26,6 +26,16 @@ ht-degree: 12%
 >title="Definire un criterio di decisione"
 >abstract="Un criterio di decisione consente di scegliere gli elementi migliori dal motore decisionale e di consegnarli al pubblico giusto."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informazioni sulla funzione Decisioni"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Criterio di decisione"
+>abstract="Un criterio di decisione consente di scegliere gli elementi migliori dal motore decisionale e di consegnarli a ciascun pubblico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Posizionamento"
+>abstract="Un posizionamento determina dove vengono visualizzati in un messaggio gli elementi restituiti dal motore decisionale. Puoi tenere traccia delle relative prestazioni in diversi posizionamenti nel reporting."
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
 
