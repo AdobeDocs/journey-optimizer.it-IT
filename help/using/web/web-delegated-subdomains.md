@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sottodomini, configurazione
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 22%
@@ -137,7 +137,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 
    Quando configuri un nuovo sottodominio web, questo punta sempre a un record CNAME.
 
-1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi Web, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.
 

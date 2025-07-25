@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 <td>
 <p>Adobe Journey Optimizer ora supporta i CNAME. Un record CNAME, o Canonical Name, è un record che punta a un altro indirizzo di dominio anziché a un indirizzo IP. La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utilizzare i CNAME per puntare a record specifici per Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.</p>
 <p>Questo metodo è consigliato se i criteri dell'organizzazione limitano il metodo di delega del sottodominio completo.</p>
-<p>Ulteriori informazioni sulla delega del sottodominio CNAME sono disponibili nella <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentazione dettagliata</a>.</p>
+<p>Ulteriori informazioni sulla delega del sottodominio CNAME sono disponibili nella <a href="../configuration/delegate-subdomain.md#cname-subdomain-setup">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

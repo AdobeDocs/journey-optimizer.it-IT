@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 9%
@@ -82,13 +82,13 @@ Per modificare un record PTR con un sottodominio [completamente delegato](delega
 
 ### Sottodomini delegati tramite il metodo CNAME {#edit-ptr-subdomains-cname}
 
-Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation), effettua le seguenti operazioni.
+Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-setup), effettua le seguenti operazioni.
 
 1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Selezionare un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
+1. Selezionare un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-setup) dall&#39;elenco.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
@@ -148,7 +148,7 @@ Durante il processo di convalida, il vecchio sottodominio è ancora associato al
 
 Una volta completato correttamente il processo di convalida, il nuovo sottodominio viene associato automaticamente all’indirizzo IP.
 
-### Operazione non riuscita {#failes}
+### Non riuscito {#failes}
 
 Se il processo di convalida non riesce, viene visualizzato il record PTR precedente. Il sottodominio valido precedentemente associato all’indirizzo IP rimane invariato.
 

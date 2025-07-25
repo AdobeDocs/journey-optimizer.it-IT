@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 96%
@@ -39,7 +39,7 @@ Di conseguenza, Adobe consiglia vivamente di assicurarsi di aver impostato il re
 oppure
    * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**, senza alcun intervento aggiuntivo sulla soluzione di hosting. [Scopri come](dmarc-record.md#implement-dmarc)
 
-* Se hai impostato i sottodomini di invio con [CNAME](delegate-subdomain.md#cname-subdomain-delegation), esegui una delle opzioni seguenti:
+* Se hai impostato i sottodomini di invio con [CNAME](delegate-subdomain.md#cname-subdomain-setup), esegui una delle opzioni seguenti:
 
    * Configura DMARC nei sottodomini o nel dominio principale dei sottodomini **nella soluzione di hosting**.
 oppure

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, google, txt, record, gmail, recapito messaggi
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 30%
@@ -29,7 +29,7 @@ Per garantire il recapito ottimale delle e-mail e la corretta consegna delle e-m
 
 >[!CAUTION]
 >
-> Questa operazione può essere eseguita solo dopo che un sottodominio ha lo stato **[!UICONTROL Operazione riuscita]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
+> Questa operazione può essere eseguita solo dopo che un sottodominio ha lo stato **[!UICONTROL Operazione riuscita]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](delegate-subdomain.md#access-delegated-subdomains).
 
 Per aggiungere un record TXT di Google al sottodominio, effettua le seguenti operazioni:
 

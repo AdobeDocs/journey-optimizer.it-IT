@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -80,11 +80,11 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    >[!CAUTION]
    >
-   >Se si seleziona un dominio delegato ad Adobe utilizzando il metodo [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), è necessario creare il record DNS nella piattaforma di hosting. Per generare il record DNS, il processo è lo stesso di quando configuri un nuovo sottodominio della pagina di destinazione. Scopri come in [questa sezione](#lp-configure-new-subdomain).
+   >Se si seleziona un dominio delegato ad Adobe utilizzando il metodo [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup), è necessario creare il record DNS nella piattaforma di hosting. Per generare il record DNS, il processo è lo stesso di quando configuri un nuovo sottodominio della pagina di destinazione. Scopri come in [questa sezione](#lp-configure-new-subdomain).
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
-1. Dopo l&#39;invio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Dopo l&#39;invio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -129,7 +129,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
    Quando configuri un nuovo sottodominio della pagina di destinazione, questo punta sempre a un record CNAME.
 
-1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Prima di poter utilizzare il sottodominio per le pagine di destinazione, devi attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](#subdomain-validation).-->
 
@@ -147,7 +147,7 @@ Se desideri annullare la delega di un sottodominio di una pagina di destinazione
 
    >[!NOTE]
    >
-   >Un sottodominio della pagina di destinazione può puntare a un record CNAME perché si tratta di un [sottodominio esistente](#lp-use-existing-subdomain) delegato ad Adobe utilizzando il [metodo CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) o di un [nuovo sottodominio della pagina di destinazione](#lp-configure-new-subdomain) configurato.
+   >Un sottodominio della pagina di destinazione può puntare a un record CNAME perché si tratta di un [sottodominio esistente](#lp-use-existing-subdomain) delegato ad Adobe utilizzando il [metodo CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup) o di un [nuovo sottodominio della pagina di destinazione](#lp-configure-new-subdomain) configurato.
 
 1. Rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
 
