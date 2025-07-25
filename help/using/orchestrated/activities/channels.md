@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 77%
@@ -109,7 +109,7 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
 1. **Applica regole limite**
 
-   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. [Scopri come utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
+   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. [Scopri come utilizzare i set di regole](../../conflict-prioritization/rule-sets.md)
 
 1. **Rileva coinvolgimento** (e-mail e SMS)
 
