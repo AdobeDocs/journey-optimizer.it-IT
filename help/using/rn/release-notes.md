@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
+source-git-commit: 6efd3dc193f48421483909d6cd054723f7fa1753
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 66%
@@ -193,7 +193,6 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 </tbody>
 </table>
 
-
 ### Modifica nelle condizioni di percorso {#ee-change@}
 
 A partire dall’8 luglio, nelle nuove organizzazioni dei clienti, la creazione di espressioni utilizzando gli eventi di esperienza non è più supportata nell’editor di espressioni utilizzato nelle condizioni di percorso. Di conseguenza, gli eventi esperienza nell’[origine dati di Experience Platform](../datasource/adobe-experience-platform-data-source.md) non possono essere utilizzati per la creazione di espressioni. Si fa riferimento ad approcci alternativi e best practice per la creazione di espressioni/logiche con eventi esperienza [qui](../building-journeys/exp-event-lookup.md).
@@ -246,7 +245,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
