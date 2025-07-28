@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 21%
 
 ---
@@ -71,7 +71,7 @@ I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatario non valido]** | Il destinatario non è valido o non esiste. | Permanente |
+| **[!UICONTROL Destinatario non valido]** | L&#39;indirizzo del destinatario non è valido o non esiste. | Permanente |
 | **[!UICONTROL Mancato recapito non permanente]** | Messaggio non recapitato per un motivo diverso dagli errori non permanenti elencati in questa tabella, ad esempio durante l’invio della frequenza consentita consigliata da un ISP. | Non permanente |
 | **[!UICONTROL Errore DNS]** | Messaggio non recapitato a causa di un errore DNS. | Non permanente |
 | **[!UICONTROL Cassetta postale piena]** | Messaggio non recapitato perché la cassetta postale del destinatario è piena e non è in grado di accettare altri messaggi. | Non permanente |
