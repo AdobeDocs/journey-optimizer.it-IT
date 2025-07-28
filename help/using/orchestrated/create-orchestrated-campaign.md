@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
+source-git-commit: 8738499dc20f8617d7b4f6d9cf456f1c9e31bd0f
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 84%
+ht-degree: 82%
 
 ---
 
@@ -84,7 +84,7 @@ Per creare una nuova campagna, segui questi passaggi:
 >title="Opzioni del modulo di pianificazione"
 >abstract="Definisci la frequenza del modulo di pianificazione. Può essere eseguito in un determinato momento, una o più volte al giorno, alla settimana o al mese."
 
-Per impostazione predefinita, le campagne orchestrate iniziano quando vengono attivate manualmente e terminano una volta eseguite le attività associate. Se preferisci ritardare l’esecuzione o eseguire una campagna di questo tipo su base ricorrente, puoi definire una pianificazione per la campagna.
+Per impostazione predefinita, le campagne orchestrate iniziano quando vengono attivate manualmente e terminano una volta eseguite le attività associate. Se preferisci ritardare l’esecuzione o eseguire la campagna su base ricorrente, puoi definire una pianificazione per la campagna.
 
 Quando pianifichi campagne orchestrate per garantire prestazioni e comportamenti ottimali, considera le seguenti best practice:
 
@@ -107,7 +107,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Data]**: seleziona la data di esecuzione della campagna.
    * **[!UICONTROL Ora]**: seleziona l’ora specifica in cui la campagna deve essere eseguita.
 
-   +++
++++
 
    +++Giornaliero
 
@@ -121,7 +121,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: definisci l’ora in cui la campagna deve essere eseguita ogni giorno.
 
-   +++
++++
 
    +++Più volte al giorno
 
@@ -130,7 +130,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ore selezionate]**: seleziona le ore specifiche in cui la campagna deve essere eseguita e configurane la ricorrenza giornaliera (eseguita ogni giorno della settimana o in alcuni giorni).
    * **[!UICONTROL Periodico]**: scegli di eseguire la campagna ogni n minuti o ore. Puoi anche definire l’intervallo di tempo all’interno del giorno in cui sono consentite le esecuzioni.
 
-   +++
++++
 
    +++Settimanale
 
@@ -141,7 +141,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    * **[!UICONTROL Ricorrenza giornaliera]**: scegli giorni della settimana specifici per l’esecuzione (ad esempio, ogni lunedì e giovedì).
    * **[!UICONTROL Ora di inizio]**: imposta l’ora in cui la campagna deve essere eseguita nei giorni selezionati.
 
-   +++
++++
 
    +++Mensile
 
@@ -157,7 +157,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ora di inizio]**: imposta l’ora di esecuzione della campagna.
 
-   +++
++++
 
 1. Utilizza l’impostazione **[!UICONTROL Periodo di validità]** per definire una data di inizio e una data di fine specifiche, limitando l’esecuzione della campagna a un intervallo di tempo limitato.
 
