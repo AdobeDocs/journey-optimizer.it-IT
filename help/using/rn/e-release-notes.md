@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 16%
+source-wordcount: '941'
+ht-degree: 17%
 
 ---
 
@@ -216,9 +216,8 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 - **Percorsi**
    - **Miglioramenti degli strumenti sandbox per Percorsi** - Quando si copiano percorsi in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti, sono ora disponibili anche le seguenti funzionalità:
-      - Selezione di un evento esistente nella destinazione
       - Copiare su un evento indipendentemente da un percorso
-      - Rilevamento delle relazioni tra gruppi di campi e origini dati, collegamento alla destinazione, se esistenti, creazione delle relazioni in caso contrario.
+      - Rilevamento di eventi, gruppi di campi e origini dati e loro collegamento nella destinazione, se esistono, creazione in caso contrario.
   <!-- [Read more](../FILE.md) -->
 
 - **Canale - InApp**
