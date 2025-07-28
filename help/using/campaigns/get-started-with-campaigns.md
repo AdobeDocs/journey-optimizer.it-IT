@@ -96,7 +96,7 @@ Prima di iniziare a creare la prima campagna in [!DNL Journey Optimizer], verifi
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-+++
+   +++
 
 1. **Hai bisogno di un pubblico**. I tipi di pubblico devono essere disponibili prima di creare la campagna. [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
 
