@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1906'
 ht-degree: 16%
 
 ---
@@ -29,9 +29,11 @@ ht-degree: 16%
 >title="Delega dei sottodomini"
 >abstract="Per iniziare a inviare e-mail, devi delegare ad Adobe il tuo sottodominio. I record DNS, le caselle in entrata, il mittente, gli indirizzi per la risposta e per il mancato recapitato verranno quindi configurati per te."
 
-La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe. Ulteriori informazioni sulla delega del [sottodominio](about-subdomain-delegation.md)
+La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe.
 
-Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini**. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
+>[!NOTE]
+>
+>Ulteriori informazioni sulla delega dei sottodomini e sui diversi metodi disponibili con [!DNL Journey Optimizer] in [questa sezione](about-subdomain-delegation.md).
 
 Puoi effettuare le seguenti operazioni:
 
@@ -40,9 +42,19 @@ Puoi effettuare le seguenti operazioni:
 
 Il metodo consigliato è la **delega completa del sottodominio**. Ulteriori informazioni sulle differenze tra i diversi metodi di configurazione dei sottodomini in [questa sezione](about-subdomain-delegation.md#subdomain-delegation-methods).
 
->[!CAUTION]
->
->L&#39;invio parallelo di sottodomini non è supportato in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro è nello stato **[!UICONTROL Elaborazione]**, viene visualizzato un messaggio di errore.
+## Guardrail {#guardrails}
+
+Durante la configurazione dei sottodomini in [!DNL Journey Optimizer], segui i guardrail e le raccomandazioni descritti di seguito.
+
+* Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **un massimo di 10 sottodomini**. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
+
+* L&#39;invio parallelo di sottodomini non è supportato in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro è nello stato **[!UICONTROL Elaborazione]**, viene visualizzato un messaggio di errore.
+
+* Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+
+* Impossibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, ad esempio [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
+
+* La delega di un dominio principale e di un sottodominio non è supportata. Ad esempio, se hai delegato subdomain.domain.com, non puoi delegare email.subdomain.domain.com. Allo stesso modo, se hai delegato email.subdomain.domain.com, non puoi delegare subdomain.domain.com.
 
 ## Accedere ai sottodomini delegati {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ Puoi eseguire le seguenti operazioni:
 
 >[!CAUTION]
 >
->La configurazione del sottodominio è comune a tutti gli ambienti. Pertanto, qualsiasi modifica a un sottodominio influirà anche sulle sandbox di produzione.
+>La configurazione del sottodominio è **comune a tutti gli ambienti**. Pertanto, qualsiasi modifica a un sottodominio influirà anche sulle sandbox di produzione.
 
 ## Configurare un sottodominio in Journey Optimizer {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ Puoi eseguire le seguenti operazioni:
 >abstract="Per delegare completamente un nuovo sottodominio ad Adobe, devi copiare e incollare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer nella soluzione di hosting del dominio per generare i record DNS corrispondenti. Per delegare un sottodominio utilizzando i CNAME, devi anche copiare e incollare il record di convalida dell’URL CDN SSL. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per consegnare i messaggi."
 
 Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la procedura seguente.
-
+<!--
 >[!NOTE]
 >
->Questa sezione descrive come impostare un sottodominio utilizzando i metodi di delega completa o CNAME. Il metodo di delega personalizzata è descritto in [questa sezione](#setup-custom-subdomain).
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >La configurazione del sottodominio è **comune a tutti gli ambienti**. Pertanto, qualsiasi modifica a un sottodominio influisce anche sulle sandbox di produzione.
 
 1. Dalla sezione **[!UICONTROL Configura metodo]**, selezionare:
 
@@ -105,14 +112,14 @@ Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la pro
 1. Specifica il nome del sottodominio da delegare.
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >Non è consentito delegare un sottodominio non valido ad Adobe. Assicurati di immettere un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
-   >
-   >Impossibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, ad esempio [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. Configura **[!UICONTROL record DMARC]** nella sezione dedicata. Se il sottodominio ha un [record DMARC](dmarc-record.md) esistente e viene recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Scopri come gestire il record DMARC](dmarc-record.md#set-up-dmarc)
 
@@ -266,4 +273,4 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

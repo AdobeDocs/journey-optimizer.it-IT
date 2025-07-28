@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
-workflow-type: ht
-source-wordcount: '2541'
-ht-degree: 100%
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+workflow-type: tm+mt
+source-wordcount: '2497'
+ht-degree: 97%
 
 ---
 
@@ -85,11 +85,7 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 
 ## Guardrail di sottodomini {#subdomain-guardrails}
 
-Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini in totale (che coprono sia i canali e-mail che i canali web).
-
-Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
-
-Ulteriori informazioni sulla delega del dominio sono disponibili in [questa pagina](../configuration/delegate-subdomain.md).
+I guardrail e le limitazioni applicabili alla delega del sottodominio in Journey Optimizer sono descritti in dettaglio in [questa pagina](../configuration/delegate-subdomain.md#guardrails).
 
 ## Guardrail per i frammenti {#fragments-guardrails}
 
@@ -168,7 +164,7 @@ Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i se
 * I percorsi attivati da eventi possono richiedere fino a 5 minuti per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
-* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
+* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso a 12:01 per un profilo specifico e un altro arriva a 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non verrà riavviato per questo profilo.
 * Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, devi creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato, perché potrebbe causare problemi a valle in base alle azioni utilizzate.
 
 ### Origini dati {#data-sources-g}
