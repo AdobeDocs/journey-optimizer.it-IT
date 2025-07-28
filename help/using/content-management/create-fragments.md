@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -81,7 +81,7 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
 >[!NOTE]
 >
->Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un’e-mail, vengono tracciati tali collegamenti, come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
+>Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
 
 Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**.
 
