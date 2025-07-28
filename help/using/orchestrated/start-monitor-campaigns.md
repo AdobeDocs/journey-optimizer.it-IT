@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ Puoi anche eseguire la campagna in modalità di test per verificarne l’esecuzi
 
 [!DNL Journey Optimizer] consente di testare le campagne orchestrate prima della pubblicazione. Quando viene creata una campagna, per impostazione predefinita questa entra nello stato **Bozza**. In questo stato, puoi eseguire la campagna manualmente per testare il flusso.
 
-Tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e delle attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.
+>[!IMPORTANT]
+>
+>Tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e delle attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.**
 
 Per testare una campagna:
 
@@ -63,13 +65,19 @@ Durante il test, puoi controllare l’esecuzione della campagna utilizzando la b
 
 * **Interrompere** l’esecuzione in qualsiasi momento.
 * **Avviare** di nuovo l’esecuzione.
-* **Riprendere** l’esecuzione se è stata precedentemente sospesa a causa di un problema.
+* **Riprendi** l&#39;esecuzione se è stata precedentemente sospesa.
 
-Se si verifica un errore o ricevi un avviso durante l’esecuzione, viene inviata una notifica tramite l’icona **[!UICONTROL Avvisi]** / **[!UICONTROL Avvertenza]** nella barra degli strumenti dell’area di lavoro.
+L&#39;icona **[!UICONTROL Avvisi]** / **[!UICONTROL Avviso]** nella barra degli strumenti dell&#39;area di lavoro notifica i problemi, inclusi gli avvisi che possono apparire in modo proattivo prima dell&#39;esecuzione e gli errori che si verificano durante o dopo l&#39;esecuzione.
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 Puoi anche identificare rapidamente le attività non riuscite utilizzando gli [indicatori di stato visivi](#activities) visualizzati direttamente su ogni attività. Per una risoluzione dettagliata dei problemi, apri i [registri della campagna](#logs-tasks), che forniscono informazioni approfondite sull’errore e sul relativo contesto.
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 Una volta convalidata, la campagna può essere pubblicata.
 

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 87%
+source-wordcount: '998'
+ht-degree: 86%
 
 ---
 
@@ -52,7 +52,7 @@ Una volta aggiunta un’attività al diagramma, viene visualizzato un riquadro a
 
 Ripeti questa procedura aggiungendo tutte le attività desiderate in base alle attività che desideri siano eseguite dalla campagna orchestrata. Puoi anche inserire una nuova attività tra due attività. A questo scopo, fai clic sul pulsante **+** sulla transizione tra le attività, seleziona l’attività desiderata e configurala nel riquadro a destra.
 
-Hai la possibilità di personalizzare il nome delle transizioni tra ciascuna attività. A questo scopo, seleziona la transizione e modifica la relativa etichetta nel riquadro a destra.
+Puoi personalizzare il nome delle transizioni tra ciascuna attività. A questo scopo, seleziona la transizione e modifica la relativa etichetta nel riquadro a destra.
 
 ![](assets/canvas-transition.png)
 
@@ -84,7 +84,7 @@ Quando si aggiungono delle attività, nel riquadro delle proprietà sono disponi
 
 ![Icona Pausa](assets/do-not-localize/activity-pause.svg) ![Icona Riprendi](assets/do-not-localize/activity-resume.svg) Sospendi/Riprendi l’attività. Quando la campagna orchestrata viene eseguita, viene messa in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
 
-    È possibile utilizzare qualsiasi attività nell&#39;area di lavoro come punto di interruzione per sospendere l&#39;esecuzione della campagna. Ciò significa che la campagna verrà eseguita solo fino a questa attività, quindi sospendi l’esecuzione. Durante la sospensione dell’esecuzione, il motore di segmentazione mantiene disponibili i dati temporanei per l’anteprima. Per visualizzare i dati trasportati, puoi selezionare la transizione in entrata immediatamente prima dell’attività in pausa. Ulteriori informazioni su questa sezione: [Monitoraggio del flusso visivo](../orchestrated/start-monitor-campaigns.md#flow).
+Puoi utilizzare qualsiasi attività nell’area di lavoro come punto di interruzione per mettere in pausa l’esecuzione della campagna. Ciò significa che la campagna verrà eseguita solo fino a questa attività, quindi sospendi l’esecuzione. Durante la sospensione dell’esecuzione, il motore di segmentazione mantiene disponibili i dati temporanei per l’anteprima. Per visualizzare i dati trasportati, puoi selezionare la transizione in entrata immediatamente prima dell’attività in pausa. Ulteriori informazioni su questa sezione: [Monitoraggio del flusso visivo](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Icona Copia](assets/do-not-localize/activity-copy.svg) Copia l’attività. [Scopri come copiare e incollare le attività](#copy)
 
