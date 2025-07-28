@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2589'
 ht-degree: 95%
@@ -207,7 +207,7 @@ ht-degree: 95%
          + [Schema manuale](using/orchestrated/manual-schema.md)
          + [Schema di caricamento file](using/orchestrated/file-upload-schema.md)
          + [Acquisire i dati](using/orchestrated/ingest-data.md)
-      + [Accedere alle campagne orchestrate e gestirle](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [Accedere e gestire le campagne orchestrate](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Creare una dimensione di targeting](using/orchestrated/target-dimension.md)
       + [Guardrail e limitazioni](using/orchestrated/guardrails.md)
       + Avviare la prima campagna orchestrata{#launch}

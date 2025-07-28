@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività di riconciliazione
-description: Scopri come utilizzare l’attività di riconciliazione in una campagna orchestrata
+description: Scopri come utilizzare l’attività Reconciliation in una campagna orchestrata
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 93%
 
 +++ Sommario
 
-| Ti diamo il benvenuto nelle campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
+| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - <b>[Riconciliazione](reconciliation.md)</b> - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
+| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - <b>[Riconciliazione](reconciliation.md)</b> - [Salva pubblico](save-audience.md) - [Dividi](split.md) - [Attendi](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -59,7 +59,7 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 L’attività di **[!UICONTROL riconciliazione]** è un’attività di **[!UICONTROL targeting]** che consente di definire il collegamento tra i dati nel database di Adobe Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 
-L’attività di **[!UICONTROL arricchimento]** consente di aggiungere ulteriori dati alla campagna orchestrata, ad esempio combinando dati provenienti da più origini o collegati una risorsa temporanea. L’attività **[!UICONTROL riconciliazione]** viene invece utilizzata per combinare dati non identificati o esterni con risorse esistenti nel database.
+L&#39;attività **[!UICONTROL Enrichment]** ti consente di aggiungere dati aggiuntivi alla campagna orchestrata, ad esempio combinando dati provenienti da più origini o collegandoli a una risorsa temporanea. L’attività **[!UICONTROL riconciliazione]** viene invece utilizzata per combinare dati non identificati o esterni con risorse esistenti nel database.
 
 La **[!UICONTROL riconciliazione]** richiede che i record correlati esistano già nel sistema. Ad esempio, se importi un file di acquisto con l’elenco di prodotti, marche temporali e informazioni sulla clientela, sia i prodotti che la clientela stessa devono già essere presenti nel database per stabilire il collegamento.
 

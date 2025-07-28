@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -76,7 +76,7 @@ Puoi creare diversi tipi di campagne in Journey Optimizer:
 
     Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
 
-    While cross-channel marketing is essential, orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
 
 ## Prima di iniziare {#campaign-prerequisites}
 
@@ -96,11 +96,11 @@ Prima di iniziare a creare la prima campagna in [!DNL Journey Optimizer], verifi
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-   +++
++++
 
 1. **Hai bisogno di un pubblico**. I tipi di pubblico devono essere disponibili prima di creare la campagna. [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
 
-1. **È necessaria una configurazione dei canali**. Per poter selezionare un canale, è necessario che la configurazione dei canali corrispondente (ovvero, preimpostata) sia creata e disponibile. [Scopri come impostare le configurazioni dei canali](../configuration/channel-surfaces.md).
+1. **È necessaria una configurazione dei canali**. Per poter selezionare un canale, è necessario che la configurazione dei canali corrispondente (ovvero, preimpostata) sia creata e disponibile. [Scopri come impostare la configurazione di canale](../configuration/channel-surfaces.md).
 
 ## Approfondiamo
 
