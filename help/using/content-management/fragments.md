@@ -64,4 +64,4 @@ Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey O
 
 Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438925/?quality=12&captions=ita)
