@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1859'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,7 @@ La funzione seguente combina il profilo città e paese in una singola stringa.
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## Contiene {#contains}
 
 La funzione `contains` viene utilizzata per determinare se una stringa contiene una sottostringa specificata.
 
@@ -209,7 +209,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se l’i
 ```
 
 
-## Uguale a{#equals}
+## È uguale a{#equals}
 
 La funzione `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
 
@@ -665,7 +665,7 @@ La funzione `replaceAll` viene utilizzata per sostituire tutte le sottostringhe 
 
 ## Taglia a destra {#rightTrim}
 
-La funzione `rightTrim` viene utilizzata per rimuovere gli spazi dalla fine di una stringa.
+La funzione `rightTrim` rimuove gli spazi dalla fine di una stringa.
 
 **Sintassi**
 
@@ -673,7 +673,28 @@ La funzione `rightTrim` viene utilizzata per rimuovere gli spazi dalla fine di u
 {%= rightTrim(string) %}
 ```
 
-## Divisione {#split}
+## SHA256 {#sha256}
+
+La funzione `SHA256` calcola e restituisce l&#39;hash sha256 di una stringa.
+
+**Sintassi**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**Esempio**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+restituisce: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
+
+## Dividi {#split}
 
 La funzione `split` viene utilizzata per dividere una stringa per un determinato carattere.
 

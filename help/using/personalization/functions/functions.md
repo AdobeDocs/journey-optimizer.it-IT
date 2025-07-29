@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 27%
 
 ---
@@ -44,7 +44,7 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
         <td><a href="aggregation.md#average">Medio</a></td><td>Questa funzione restituisce la media aritmetica di tutti i valori selezionati all’interno dell’array.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Conteggio</a></td><td>Questa funzione restituisce il numero di elementi all’interno dell’array specificato</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>Questa funzione restituisce il numero di elementi all’interno dell’array specificato</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Conteggio solo valori Null</a></td><td>Questa funzione conta il numero di valori Null nell’elenco.</td>
@@ -89,7 +89,7 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
         <td><a href="arrays-list.md#subset">Sottoinsieme di</a></td><td>Questa funzione determina se un array specifico (array A) è un sottoinsieme di un altro array (array B), ovvero se tutti gli elementi nell’array A sono elementi dell’array B</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">Somma</a></td><td>Questa funzione restituisce la somma di tutti i valori selezionati all’interno dell’array.</td>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>Questa funzione restituisce la somma di tutti i valori selezionati all’interno dell’array.</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Superset di</a></td><td>Questa funzione determina se un array specifico (array A) è un superset di un altro array (array B), ovvero se l’array A contiene tutti gli elementi dell’array B</td>
@@ -287,7 +287,7 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
         <td><a href="string.md#concat">Concatena</a></td><td>Questa funzione viene utilizzata per combinare due stringhe in una</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>Questa funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata</td>
+        <td><a href="string.md#contains">Contiene</a></td><td>Questa funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">Non contiene</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non contiene una sottostringa specificata</td>
@@ -306,7 +306,7 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, con distinzione tra maiuscole e minuscole</td>
+        <td><a href="string.md#equals">È uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, con distinzione tra maiuscole e minuscole</td>
     </tr>
     <tr>
         <td><a href="string.md#equalsIgnoreCase">Uguale a ignora distinzione tra maiuscole e minuscole</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, senza distinzione tra maiuscole e minuscole</td>
@@ -376,6 +376,9 @@ Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e 
     </tr>
     <tr>
         <td><a href="string.md#rightTrim">Taglia a destra</a></td><td>Questa funzione rimuove gli spazi bianchi dalla fine di una stringa. </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>Questa funzione calcola e restituisce l’hash sha256 di una stringa.</td>
     </tr>
     <tr>
         <td><a href="string.md#split">Dividi</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
@@ -493,7 +496,7 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">Uguale a</a></td><td>Questa operazione controlla se i valori sono uguali</td>
+        <td><a href="operators.md#equals">È uguale a</a></td><td>Questa operazione controlla se i valori sono uguali</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Maggiore di</a></td><td>Questo operatore controlla se il primo valore è maggiore del secondo valore</td>
@@ -509,8 +512,8 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
     </tr>
 </table>
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
