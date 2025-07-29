@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazione e-mail, CSS personalizzato, ottimizzazione mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * Quando crei un’e-mail da zero, puoi scegliere di iniziare a creare i contenuti utilizzando un tema per applicare rapidamente uno stile specifico che si adatta al tuo marchio e design.
 
-  Se scegli la modalità classica, non potrai applicare alcun tema a meno che non reimposti l’e-mail.
+  Se scegli la modalità Stile manuale, non potrai applicare alcun tema a meno che non reimposti l’e-mail.
 
-* [I frammenti](../content-management/fragments.md) non sono compatibili tra la modalità Tema e la modalità Classica.
+* [I frammenti](../content-management/fragments.md) non sono compatibili tra le modalità Usa temi e Stile manuale.
 
-  Per poter utilizzare un frammento in un contenuto in cui viene applicato un tema, è necessario creare il frammento in modalità Tema.
+  Per poter utilizzare un frammento in un contenuto in cui è applicato un tema, è necessario creare il frammento in modalità Usa temi.
 
 * Se utilizzi un contenuto creato in HTML, sarai in [modalità di compatibilità](existing-content.md) e non puoi applicare temi a questo contenuto.
 
-  Per sfruttare appieno tutte le funzionalità di E-mail Designer, inclusi i temi, è necessario creare un nuovo contenuto in modalità Tema o convertire il contenuto HTML importato. [Ulteriori informazioni](existing-content.md)
+  Per sfruttare appieno tutte le funzionalità di E-mail Designer, inclusi i temi, è necessario creare un nuovo contenuto in modalità Usa temi o convertire il contenuto HTML importato. [Ulteriori informazioni](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## Creare un tema {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ Per applicare temi di stile predefiniti o personalizzati a un’e-mail, segui la
 
    * Seleziona un [modello e-mail](use-email-templates.md) predefinito per aprire E-mail Designer. A ogni modello viene automaticamente applicato un tema predefinito.
 
-   * Progetta un [nuovo contenuto da zero](content-from-scratch.md) e seleziona **[!UICONTROL Tema]** per iniziare con un tema di stile predefinito.
+   * Progetta un [nuovo contenuto da zero](content-from-scratch.md) e seleziona **[!UICONTROL Usa tema]s** per iniziare con un tema di stile predefinito.
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >Se scegli la modalità classica, non potrai applicare alcun tema a meno che non reimposti l’e-mail.
+     >Se scegli la modalità Stile manuale, non potrai applicare alcun tema a meno che non reimposti l’e-mail.
      >
-     >Per utilizzare un [frammento](../content-management/fragments.md) in modalità Tema, è necessario che il frammento sia stato creato utilizzando la modalità Tema.
+     >Per utilizzare un [frammento](../content-management/fragments.md) in modalità Usa temi, è necessario che il frammento sia stato creato utilizzando la modalità Usa temi.
 
 1. Una volta nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Temi]** nella barra a destra. Viene visualizzato il tema predefinito o il tema del modello. Per questo tema è possibile alternare tra le due varianti di colore.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 97%
+source-wordcount: '2639'
+ht-degree: 92%
 
 ---
 
@@ -91,8 +91,14 @@ I guardrail e le limitazioni applicabili alla delega del sottodominio in Journey
 
 Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti guardrail:
 
+* Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
+* I frammenti visivi non possono superare i 100 KB. I frammenti di espressione non possono superare i 200 KB.
+* Per utilizzare un frammento in un percorso o in una campagna, deve essere nello stato **Live**.
+* [Gli attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
+* I frammenti visivi non sono compatibili tra le modalità Usa temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Usa temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
+* Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
 
 ## Guardrail dei tipi di pubblico {#audience}
 

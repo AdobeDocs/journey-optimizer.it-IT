@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '765'
 ht-degree: 13%
 
 ---
@@ -63,6 +63,12 @@ Per creare un frammento, segui la procedura riportata di seguito.
 
 Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-mail o di personalizzazione e il Designer, a seconda del tipo di frammento che si sta creando.
 
+>[!NOTE]
+>
+>[Gli attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
+>
+>Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
+
 * Per i frammenti visivi, modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna. [Ulteriori informazioni](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
@@ -73,15 +79,11 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
   >[!CAUTION]
   >
-  >I frammenti non sono compatibili tra il tema e la modalità classica. Per poter utilizzare un frammento in un contenuto in cui desideri applicare un tema, è necessario creare il frammento in modalità Tema. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
+  >I frammenti non sono compatibili tra le modalità Usa temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Usa temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
 
 * Per i frammenti di espressione, utilizza l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le funzionalità di personalizzazione e authoring per creare il contenuto del frammento. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
-
->[!NOTE]
->
->Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
 
 Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**.
 

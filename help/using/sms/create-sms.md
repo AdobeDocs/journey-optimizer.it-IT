@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
@@ -84,7 +84,7 @@ Puoi iniziare a progettare il contenuto del messaggio SMS dal pulsante **[!UICON
    * Una volta
    * Giornaliera
    * Settimanale
-   * Mese
+   * Month
 
 Puoi iniziare a progettare il contenuto del messaggio di testo dal pulsante **[!UICONTROL Modifica contenuto]**, come descritto di seguito.
 
@@ -103,7 +103,7 @@ Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito
 
 1. Fai clic sul campo **[!UICONTROL Messaggio]** per aprire l&#39;editor di personalizzazione.
 
-   Per la messaggistica RCS con Infobip, Twilio o altri provider di terze parti, incolla il payload JSON richiesto nella tua[configurazione SMS personalizzata](sms-configuration-custom.md#api-credential).
+   Per la messaggistica RCS con Infobip, Twilio o altri provider di terze parti, incolla il payload JSON richiesto nella [configurazione SMS personalizzata](sms-configuration-custom.md#api-credential).
 
    ![](assets/sms-content.png)
 
@@ -122,6 +122,8 @@ Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito
 1. Nel menu **[!UICONTROL Funzioni helper]**, fare clic su **[!UICONTROL Funzione URL]**, quindi selezionare **[!UICONTROL Aggiungi URL]**.
 
    ![](assets/sms_tracking_2.png)
+
+   <!--The URL shortening function cannot be used within a fragment. TBC-->
 
 1. Nel campo `originalUrl`, incolla l&#39;URL da ridurre e fai clic su **[!UICONTROL Salva]**.
 

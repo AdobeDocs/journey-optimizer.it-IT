@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '325'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,8 @@ In questa versione si applicano le seguenti limitazioni:
 * **I frammenti visivi** sono disponibili solo per il canale e-mail.
 * **I frammenti di espressione** non sono disponibili per il canale in-app.
 
+Ulteriori guardrail applicabili ai frammenti sono disponibili in [questa sezione](../start/guardrails.md#fragments-guardrails).
+
 ## Frammenti di visualizzazione ed espressione {#visual-expression}
 
 Sono disponibili due tipi di frammenti:
@@ -62,4 +64,4 @@ Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey O
 
 Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438925/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
