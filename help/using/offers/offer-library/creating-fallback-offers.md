@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '337'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,10 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
    ![](../assets/fallback_content.png)
 
+   >[!CAUTION]
+   >
+   >Le offerte di fallback devono contenere tutte le rappresentazioni utilizzate in una [decisione](../offer-activities/create-offer-activities.md). Ad esempio, se in una decisione sono presenti 5 offerte e ciascuna di esse ha una rappresentazione diversa, nell’offerta di fallback devono essere incluse 5 rappresentazioni.
+
 1. Dopo aver aggiunto le rappresentazioni dell’offerta di fallback, viene visualizzato un riepilogo. Se tutto è configurato correttamente e l&#39;offerta di fallback è pronta per essere presentata ai clienti, fai clic su **[!UICONTROL Fine]**, quindi seleziona **[!UICONTROL Salva e approva]**.
 
    Puoi anche salvare l’offerta di fallback come bozza, per poi modificarla e approvarla in un secondo momento.
@@ -58,5 +62,5 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341355?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

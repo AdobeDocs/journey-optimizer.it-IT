@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 8%
+source-wordcount: '2549'
+ht-degree: 7%
 
 ---
 
@@ -312,15 +312,19 @@ La selezione è la seguente:
 >title="Aggiungere un’offerta di fallback"
 >abstract="Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata in ultima istanza a chi non corrisponde ai vincoli e alle regole di idoneità delle offerte."
 
-Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata in ultima istanza a chi non corrisponde ai vincoli e alle regole di idoneità delle offerte.
+Dopo aver definito gli ambiti decisionali, definisci l&#39;[offerta di fallback](../offer-library/creating-fallback-offers.md) che verrà presentata come ultima risorsa ai clienti che non corrispondono alle regole e ai vincoli di idoneità delle offerte.
 
-Per farlo, selezionalo dall&#39;elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione, quindi fai clic su **[!UICONTROL Successivo]**.
+A questo scopo, selezionala dall’elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Puoi fare clic sul collegamento **[!UICONTROL Apri libreria offerte]** per visualizzare l&#39;elenco delle offerte in una nuova scheda.
+>Le offerte di fallback devono contenere tutte le rappresentazioni utilizzate all’interno di una decisione. Ad esempio, se in una decisione sono presenti 5 offerte e ciascuna di esse ha una rappresentazione diversa, nell’offerta di fallback devono essere incluse 5 rappresentazioni.
+
+Una volta selezionata, fai clic su **[!UICONTROL Avanti]**.
+
+Puoi fare clic sul collegamento **[!UICONTROL Apri libreria offerte]** per visualizzare l&#39;elenco delle offerte in una nuova scheda.
 
 ## Rivedi e salva la decisione {#review}
 
@@ -401,6 +405,6 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
