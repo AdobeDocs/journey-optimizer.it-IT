@@ -199,4 +199,4 @@ Per utilizzare un identificatore supplementare in un percorso, effettua le segue
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464800?quality=12&captions=ita)
