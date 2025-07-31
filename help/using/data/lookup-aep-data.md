@@ -21,8 +21,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
->title="Abilita per ricerca"
->abstract="Abilita per ricerca"
+>title="Abilitare per la ricerca"
+>abstract="Abilitare per la ricerca"
 
 >[!AVAILABILITY]
 >
