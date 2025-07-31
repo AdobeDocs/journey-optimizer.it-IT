@@ -11,9 +11,9 @@ keywords: sottodominio, delega, dominio, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '748'
 ht-degree: 20%
 
 ---
@@ -88,6 +88,10 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 1. Fai clic su **[!UICONTROL Scarica CSR]** e salva il modulo nel computer locale. Invialo all’autorità di certificazione per ottenere il certificato SSL.
 
 1. Una volta recuperato, fai clic su **[!UICONTROL Carica certificato SSL]** e carica il certificato in [!DNL Journey Optimizer] in formato .pem.
+
+   >[!CAUTION]
+   >
+   >I sottodomini dati e CDN devono essere inclusi nello stesso certificato.
 
 ## Completare i passaggi del ciclo di feedback {#feedback-loop-steps}
 
