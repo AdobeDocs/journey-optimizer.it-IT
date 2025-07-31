@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 382962876824058a7267143436c02d39dbc42b20
+source-git-commit: 5eac1f0ce80d979766428d661addbeeb887cfac1
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1951'
 ht-degree: 70%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data di rilascio**: mercoledì 29 luglio 2025
 
@@ -84,7 +84,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne e-mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità non è attualmente disponibile per l’utilizzo con Healthcare Shield e con Privacy and Security Shield (Disponibilità limitata).</p>
+<p>Questa funzionalità è disponibile in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a></p>
 </td>
 </tr>
@@ -265,7 +265,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 **Data di rilascio**: 18 giugno 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#25-06-features}
 
