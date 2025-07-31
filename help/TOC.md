@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
 ht-degree: 94%
@@ -56,7 +56,7 @@ ht-degree: 94%
    + Gestire i percorsi {#manage-journey}
       + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
       + [Ingresso dei profili nei percorsi](using/building-journeys/entry-management.md)
-      + [Identificatore supplementare nei percorsi attivati da eventi](using/building-journeys/supplemental-identifier.md)
+      + [Utilizzare identificatori supplementari nei percorsi](using/building-journeys/supplemental-identifier.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
       + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
       + [Terminare il percorso](using/building-journeys/end-journey.md)
