@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 30%
+source-wordcount: '1274'
+ht-degree: 29%
 
 ---
 
 # Aggiungere collegamenti e tracciare i messaggi {#tracking}
 
 Utilizza [!DNL Journey Optimizer] per aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
+
+>[!NOTE]
+>
+>I collegamenti inclusi nel contenuto scadono **25 mesi** dopo l&#39;invio del messaggio, ad eccezione dei collegamenti a una pagina mirror che scadono dopo **90 giorni**. Trascorso tale ritardo, i collegamenti non saranno più disponibili.
 
 ## Abilita tracciamento {#enable-tracking}
 
@@ -79,7 +83,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
    >
    >Per l&#39;interpretazione degli URL, [!DNL Journey Optimizer] è conforme alla sintassi URI ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), che disabilita alcuni caratteri internazionali speciali negli URL. Quando tenti di inviare la bozza o l’e-mail, se ti viene restituito un errore relativo a un URL aggiunto al contenuto, puoi codificare l’URL della stringa come soluzione alternativa.
 
-1. Puoi personalizzare i tuoi collegamenti. [Ulteriori informazioni](../personalization/personalization-syntax.md#perso-urls)
+1. Puoi personalizzare i tuoi collegamenti. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 1. Salva le modifiche.
 
@@ -91,6 +95,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 >
 >I messaggi e-mail di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [configurazione canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
 
+Una volta inviato il messaggio, il periodo di conservazione per un collegamento è di **25 mesi**. Dopo questo ritardo, il collegamento non è più disponibile.
 
 ## Collegare a una pagina mirror {#mirror-page}
 
@@ -104,7 +109,7 @@ Per aggiungere un collegamento a una pagina mirror nell&#39;e-mail, [inserisci u
 
 La pagina speculare viene creata automaticamente. Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina mirror, il contenuto dell’e-mail viene visualizzato nel browser web predefinito.
 
-Il periodo di conservazione per una pagina mirror è di **60 giorni**. Trascorso tale periodo, la pagina mirror non è più disponibile.
+Il periodo di conservazione per una pagina mirror è di **90 giorni**. Trascorso tale periodo, la pagina mirror non è più disponibile.
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ Il reporting sulle aperture e sui clic è disponibile nel [rapporto live](../rep
 
 [Il tracciamento URL](email-settings.md#url-tracking) è gestito a livello di configurazione e si applica a tutti gli URL inclusi nel contenuto del messaggio.
 
-Puoi anche [personalizzare singoli URL](../personalization/personalization-syntax.md#perso-urls) nel Designer e-mail. Per aggiungere parametri di tracciamento URL personalizzati a un singolo collegamento nel contenuto, segui i passaggi seguenti.
+Puoi anche personalizzare singoli URL in E-mail Designer. Per aggiungere parametri di tracciamento URL personalizzati a un singolo collegamento nel contenuto, segui i passaggi seguenti.
 
 1. Selezionare un collegamento e fare clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
 
@@ -185,7 +190,7 @@ Puoi anche [personalizzare singoli URL](../personalization/personalization-synta
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Aggiungi il parametro di tracciamento URL e seleziona l’attributo di profilo desiderato dall’editor di personalizzazione.
+1. Aggiungi il parametro di tracciamento URL e seleziona l&#39;attributo di profilo desiderato dall&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
    ![](assets/message-tracking-perso-parameter.png)
 
