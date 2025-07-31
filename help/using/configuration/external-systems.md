@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
+source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 28%
+source-wordcount: '1352'
+ht-degree: 26%
 
 ---
 
@@ -102,7 +102,7 @@ Prendiamo un esempio per un timeout di 5 secondi.
 
 **Come si configura una regola di limitazione o limitazione? Esiste una regola predefinita?**
 
-Per creare regole di limitazione o limitazione, consultare [questa sezione](../configuration/external-systems.md#capping). Per impostazione predefinita, non esiste una regola di limitazione ma un limite massimo di 300.000 chiamate in un minuto definito per tutte le azioni personalizzate, per host e per sandbox. Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5.000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione.
+Per creare regole di limitazione o limitazione, consultare [questa sezione](../configuration/external-systems.md#capping). Per impostazione predefinita, non esiste una regola di limitazione ma un limite massimo di 300.000 chiamate in un minuto definito per tutte le azioni personalizzate, per host e per sandbox. Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione.
 
 **Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra un nuovo tentativo e l&#39;altro?**
 

@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Ogni volta che viene modificata un’offerta, viene aggiornato il set di dati generato automaticamente per le offerte di fallback.
 
-![](../assets/dataset-fallback.png)
-
 Il batch con esito positivo più recente nel set di dati viene visualizzato a destra. La visualizzazione gerarchica dello schema per il set di dati viene visualizzata nel riquadro a sinistra.
+
+![](../assets/dataset-fallback.png)
 
 >[!NOTE]
 >
->Scopri come accedere ai set di dati esportati per ogni oggetto della Libreria di offerte in [questa sezione](../export-catalog/access-dataset.md).
+>Le offerte di fallback eliminate sono contrassegnate come archiviate nel set di dati.
 
 Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONTROL Archivio oggetti decisionali - Offerte di fallback]**.
 
@@ -74,7 +74,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++_esperienza > decisioni > contenuti > componenti
 
 **Campo:** componenti
-**Descrizione:** i componenti del contenuto che rappresentano l&#39;opzione di decisione, incluse tutte le relative varianti di lingua. Componenti specifici disponibili sono &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o una loro combinazione. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
+**Descrizione:** i componenti del contenuto che rappresentano l&#39;opzione di decisione, incluse tutte le relative varianti di lingua. Componenti specifici trovati da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una loro combinazione. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
 **Tipo:** array
 **Richiesto:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -122,7 +122,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
    * **nome**
 
      **Campo:** nome
-     **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna da \&quot;repo:id\&quot;.
+     **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
      **Tipo:** stringa
 
    * **repositoryID**

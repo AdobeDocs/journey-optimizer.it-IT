@@ -6,14 +6,18 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ee2e07353762a81aadd3d63580c528f617599623
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 10%
+source-wordcount: '1369'
+ht-degree: 13%
 
 ---
 
 # Creare schede contenuto {#create-content-card}
+
+>[!IMPORTANT]
+>
+>Per impostazione predefinita, il pulsante Chiudi nasconde la scheda. Per aggiungere ulteriori funzionalità, è possibile definire manualmente regole di revoca o squalifica.
 
 >[!BEGINTABS]
 
@@ -33,7 +37,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
 
 1. Ora puoi iniziare a progettare il contenuto con il pulsante **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](design-content-card.md)
 
-1. Abilita l&#39;opzione **[!UICONTROL Abilita regole di consegna aggiuntive]**. Quindi **[!UICONTROL Modifica regole]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni.
+1. Abilita l&#39;opzione **[!UICONTROL Abilita regole di consegna aggiuntive]**, quindi seleziona **[!UICONTROL Modifica regole]** per definire quando il messaggio deve essere visualizzato, chiuso o definitivamente nascosto.
 
    ![](assets/content-card-jo-3.png)
 
@@ -53,7 +57,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
       | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
 
-      +++
++++
 
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
 
@@ -78,7 +82,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
       | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
 
-      +++
++++
 
    1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 
@@ -116,11 +120,56 @@ Per iniziare a creare le schede di contenuto tramite una campagna, segui i passa
 
 1. Per verificare il contenuto del messaggio, fare clic su **[!UICONTROL Crea esperimento]**. Questo consente di testare più variabili di una consegna su popolazioni campione per determinare quale trattamento ha il maggiore impatto sul pubblico target. [Ulteriori informazioni sull&#39;esperimento sui contenuti](../content-management/content-experiment.md).
 
-1. Se sono necessari trigger aggiuntivi, utilizza l&#39;interruttore **[!UICONTROL Abilita regole di consegna aggiuntive]**. Non sono necessarie regole di consegna aggiuntive.
+1. Abilita l&#39;opzione **[!UICONTROL Abilita regole di consegna aggiuntive]**, quindi seleziona **[!UICONTROL Modifica regole]** per definire quando il messaggio deve essere visualizzato, chiuso o definitivamente nascosto.
 
-   Fai clic su **[!UICONTROL Modifica trigger]** per selezionare gli eventi e i criteri per la consegna dei messaggi. Il generatore di regole consente di specificare condizioni e valori che, se soddisfatti, attivano azioni.
+   Utilizza i generatori di regole per impostare condizioni specifiche che attivano queste azioni.
 
-   ![](assets/content-card-create-3.png)
+   1. Fai clic su **[!UICONTROL Aggiungi condizione]** per selezionare l&#39;evento.
+
+      +++Vedi Evento disponibile.
+
+      | Pacchetto | Trigger | Definizione |
+      |---|---|---|
+      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall&#39;estensione AEP Edge. |
+      | Tracciamento di base | Azione di tracciamento | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction). |
+      | Tracciamento di base | Tracciare lo stato | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate). |
+      | Tracciamento di base | Raccogli PII | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii). |
+      | Ciclo di vita dell&#39;applicazione | Avvio applicazione | Attivazione a ogni esecuzione, comprese quelle a seguito di arresti anomali e installazioni. Questa metrica viene attivata anche in seguito alla ripresa dal background oltre il tempo di timeout della sessione del ciclo di vita. |
+      | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
+      | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
+      | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
+      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
+
++++
+
+   1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
+
+   1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
+
+      +++Vedi Caratteristiche disponibili.
+
+      | Pacchetto | Caratteristiche | Definizione |
+      |---|---|---|
+      | Informazioni dispositivo | Nome gestore | Attivazione quando viene soddisfatto uno dei nomi dei gestori dell&#39;elenco. |
+      | Informazioni dispositivo | Nome dispositivo | Attivazione quando viene raggiunto uno dei nomi di dispositivo. |
+      | Informazioni dispositivo | Lingua | Attivazione quando viene soddisfatta una delle lingue dell’elenco. |
+      | Informazioni dispositivo | Versione sistema operativo | Attivazione quando viene soddisfatta una delle versioni del sistema operativo specificate. |
+      | Informazioni dispositivo | Versione precedente del sistema operativo | Attivazione quando viene soddisfatta una delle versioni del sistema operativo precedente specificate. |
+      | Informazioni dispositivo | Modalità di esecuzione | Attivazione se la modalità di esecuzione è un&#39;applicazione o un&#39;estensione. |
+      | Ciclo di vita dell&#39;applicazione | ID app | Attivazione quando viene soddisfatto l&#39;ID app specificato. |
+      | Ciclo di vita dell&#39;applicazione | Giorno della settimana | Attivazione quando viene raggiunto il giorno della settimana specificato. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dal primo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dal primo utilizzo. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
+      | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
+      | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
+
++++
+
+   1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
+
+   ![](assets/content-card-rules.png)
 
 1. Puoi pianificare la campagna a una data specifica o impostarla per la ricorrenza a intervalli regolari. [Ulteriori informazioni](../campaigns/create-campaign.md#schedule)
 

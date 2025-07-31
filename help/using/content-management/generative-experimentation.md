@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
-></br>
+>></br>
 >
 >Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
@@ -44,9 +44,7 @@ Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assiste
 
    ![](assets/experiment-genai-3.png)
 
-1. Dalla finestra Content Experiment, accedi al pulsante **[!UICONTROL Impostazioni esperimento]** per configurare l&#39;esperimento. [Ulteriori informazioni sull&#39;esperimento sui contenuti](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. Dall’esperimento sui contenuti, ora puoi iniziare a configurare la sperimentazione sui contenuti. [Ulteriori informazioni sull&#39;esperimento sui contenuti](../content-management/content-experiment.md)
 
 1. Quando l&#39;esperimento sui contenuti è pronto, dalla pagina di riepilogo della campagna puoi fare clic su **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo della campagna. Gli avvisi vengono visualizzati se un parametro è errato o mancante. [Ulteriori informazioni](../content-management/content-experiment.md#treatment-experiment)
 

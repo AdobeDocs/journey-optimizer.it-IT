@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
+source-git-commit: 4dfa87c56f088cee51fd8b95e4e75da0dac7c456
 workflow-type: tm+mt
-source-wordcount: '2195'
+source-wordcount: '2333'
 ht-degree: 14%
 
 ---
@@ -29,7 +29,7 @@ Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli 
 
 Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot; creato nel caso d’uso [Genera tipi di pubblico](../audience/about-audiences.md). Con l’attività Read Audience, puoi fare in modo che tutti gli individui appartenenti a questo pubblico entrino in un percorso e li facciano confluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 >[!CAUTION]
 >
@@ -51,7 +51,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
@@ -65,7 +65,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -85,19 +85,25 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+
+* Limite simultaneo pubblico di lettura per organizzazione: ogni organizzazione può eseguire fino a cinque istanze Read Audience simultaneamente. Sono incluse sia le esecuzioni pianificate che quelle attivate da eventi aziendali, su tutte le sandbox e i percorsi. Questo limite viene applicato per garantire un’allocazione equa ed equilibrata delle risorse in tutte le organizzazioni.
+
+* Gestione della velocità effettiva delle sandbox: il sistema gestisce in modo dinamico la velocità effettiva di elaborazione per sandbox con un limite massimo di 20.000 profili al secondo condivisi tra tutte le attività Read Audience. È possibile configurare singole attività Read Audience con una frequenza minima di 500 profili al secondo. I processi possono essere messi in coda se vengono raggiunti i limiti di velocità effettiva a livello di sandbox per garantire un’allocazione equa delle risorse.
+
+* Timeout di elaborazione del processo: i processi di lettura del pubblico che non possono essere elaborati entro 12 ore a causa dei limiti di guardrail verranno automaticamente puliti e non verranno mai eseguiti. Ciò impedisce l&#39;accumulo di posti di lavoro e garantisce la stabilità del sistema.
 
 I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
 
 
 >[!CAUTION]
 >
->[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} si applicano anche a Adobe Journey Optimizer.
+>[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} vengono applicati anche a Adobe Journey Optimizer.
 
 
 ### Gestire la voce dei profili nel percorso
 
-Imposta la **[!UICONTROL velocità di lettura]**. Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questa [pagina](../configuration/throttling.md).
+Imposta la **[!UICONTROL velocità di lettura]**. Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Consulta [questa pagina](../configuration/throttling.md).
 
 Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 profili al secondo. Puoi modificare questo valore da 500 a 20.000 profili al secondo.
 
@@ -274,7 +280,7 @@ Questa esclusione può verificarsi subito dopo il recupero del pubblico, per sco
 
 ![](assets/read-segment-audience2.png)
 
-**Union**
+**Unione**
 
 I percorsi consentono di creare N rami e unirli dopo una segmentazione. Di conseguenza, puoi fare in modo che due tipi di pubblico tornino a un’esperienza comune.
 
@@ -292,4 +298,4 @@ I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **A
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gestisci marchio
 description: Scopri come creare e gestire le linee guida per il brand
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1451'
 ht-degree: 22%
 
 ---
@@ -33,8 +32,6 @@ ht-degree: 22%
 >abstract="Seleziona il tuo brand per assicurarti che i contenuti siano realizzati in conformità con le linee guida, gli standard e l’identità specifici, mantenendo la coerenza e l’integrità del brand."
 
 >[!AVAILABILITY]
->
->Questa funzionalità è disponibile come versione beta privata. Sarà disponibile progressivamente per tutta la clientela nelle prossime versioni.
 >
 >Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
