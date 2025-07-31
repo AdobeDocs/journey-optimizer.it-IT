@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -88,7 +88,7 @@ Ora che hai capito cosa sono le campagne organizzate, è ora di approfondire que
 <table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
-<img alt="Accedere e gestire i flussi di lavoro" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Accedere e gestire le campagne" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="gs-campaign-creation.md"><strong>Passaggi di configurazione</strong></a>

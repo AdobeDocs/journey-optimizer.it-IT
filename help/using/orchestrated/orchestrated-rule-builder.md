@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ Supporta anche filtri preimpostati all’interno di condizioni, consentendoti di
 
 ## Accedere al generatore di regole
 
-Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
+Il generatore di regole è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
 
 | Utilizzo | Esempio |
 |  ---  |  ---  |
 | **Genera tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nelle campagne orchestrate utilizzando un&#39;attività **[!UICONTROL Genera pubblico]** e crea facilmente nuovi tipi di pubblico su misura per le tue esigenze. [Scopri come creare tipi di pubblico](../orchestrated/activities/build-audience.md) | ![Immagine che mostra come accedere all’interfaccia di creazione del pubblico](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Creare condizioni nell’area di lavoro della campagna**: applica le regole nell’area di lavoro della campagna utilizzando un’attività **[!UICONTROL Dividi]**, per allinearle ai requisiti specifici. [Scopri come utilizzare l’attività Dividi](../orchestrated/activities/split.md) | ![Immagine che mostra come accedere alle opzioni di personalizzazione del flusso di lavoro](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Creare filtri avanzati**: creare regole per filtrare i dati visualizzati in elenchi quali i registri del flusso di lavoro o le dimensioni di targeting. | ![Immagine che mostra come personalizzare i filtri elenco](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Creare filtri avanzati**: genera regole per filtrare i dati visualizzati in elenchi quali i registri delle campagne o le dimensioni di targeting. | ![Immagine che mostra come personalizzare i filtri elenco](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interfaccia del generatore di regole {#interface}
 

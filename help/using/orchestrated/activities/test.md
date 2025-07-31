@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ Per configurare l’attività **[!UICONTROL Test]** segui questi passaggi:
 
 1. Puoi aggiungere più transizioni di output a un’attività **[!UICONTROL Test]**. A tale scopo, fai clic sul pulsante **[!UICONTROL Aggiungi condizione]** e configura l’etichetta e la condizione associata per ogni transizione.
 v
-1. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, le campagne orchestrate continuano lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione di impostazione predefinita, i flussi di lavoro si interrompono in questo punto.
+1. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, le campagne orchestrate continuano lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna si interrompe a questo punto.
 
 ## Esempio {#example}
 

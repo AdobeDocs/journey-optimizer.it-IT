@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,8 +73,7 @@ La **[!UICONTROL riconciliazione]** richiede che i record correlati esistano gi�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Regole di riconciliazione"
->abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplica. Per utilizzare gli attributi, seleziona l’opzione **Attributi semplici** e scegli i campi di origine e di destinazione. Per creare una condizione di riconciliazione personalizzata utilizzando query modeler, seleziona l’opzione **Condizioni di riconciliazione avanzate**."
->additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utilizzo del query modeler"
+>abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplica. Per utilizzare gli attributi, seleziona l’opzione **Attributi semplici** e scegli i campi di origine e di destinazione. Per creare una condizione di riconciliazione personalizzata utilizzando il generatore di regole, selezionare l&#39;opzione **Condizioni di riconciliazione avanzate**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -94,7 +93,7 @@ La **[!UICONTROL riconciliazione]** richiede che i record correlati esistano gi�
 
 Per configurare l’attività **[!UICONTROL riconciliazione]** segui questi passaggi:
 
-1. Aggiungi un’attività di **[!UICONTROL riconciliazione]** al flusso di lavoro.
+1. Aggiungi un&#39;attività **[!UICONTROL Reconciliation]** all&#39;area di lavoro.
 
 1. Scegli una nuova dimensione targeting per definire su chi stai eseguendo il targeting, ad esempio destinatari o abbonati.
 
@@ -114,9 +113,9 @@ Per configurare l’attività **[!UICONTROL riconciliazione]** segui questi pass
 
 1. Per aggiungere altre regole corrispondenti, fai clic su **[!UICONTROL Aggiungi regola]**. Affinché si verifichi una corrispondenza, è necessario che tutte le condizioni siano soddisfatte.
 
-1. Per condizioni più complesse, scegli **[!UICONTROL Condizioni di riconciliazione avanzate]**. Utilizza il [query modeler](../orchestrated-rule-builder.md) per definire la logica personalizzata.
+1. Per condizioni più complesse, scegli **[!UICONTROL Condizioni di riconciliazione avanzate]**. Utilizza il [generatore di regole](../orchestrated-rule-builder.md) per definire la logica personalizzata.
 
-1. Per filtrare i dati da riconciliare, fai clic su **[!UICONTROL Crea filtro]** e definisci la condizione nel query modeler.
+1. Per filtrare i dati da riconciliare, fare clic su **[!UICONTROL Crea filtro]** e definire la condizione nel generatore di regole.
 
 1. Per impostazione predefinita, i record senza corrispondenza vengono conservati nella transizione in uscita e archiviati nella tabella di lavoro. Per rimuoverli, abilita l’opzione **[!UICONTROL Mantieni dati non riconciliati]**.
 
