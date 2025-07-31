@@ -4,10 +4,10 @@ description: Scopri come sfruttare gli strumenti per i conflitti e l’assegnazi
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ I **punteggi di priorità** ti aiutano a controllare quali campagne o percorsi h
 
 ### Set di regole
 
-I set di regole consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne desiderate. Questo fornisce una maggiore granularità ed è utile per limitare la frequenza e il numero di percorsi a cui una persona può accedere entro un determinato arco temporale o per controllare la frequenza con cui gli utenti ricevono un messaggio a seconda del tipo di comunicazione.
+I set di regole consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne desiderate. Questo fornisce una maggiore granularità per limitare la frequenza e il numero di percorsi che un cliente può inserire entro un determinato intervallo di tempo o controllare la frequenza con cui gli utenti riceveranno un messaggio a seconda del tipo di comunicazione. [Scopri come utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
 
 * **Limitazione del percorso e arbitrato**
 
