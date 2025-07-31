@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 25%
 
 ---
@@ -56,7 +56,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-   +++
++++
 
 1. **Configurare gli attributi personalizzati**: personalizzare il catalogo degli elementi in base alle proprie esigenze impostando gli attributi personalizzati nello schema del catalogo.
 
@@ -82,7 +82,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    ➡️ [Scopri come creare strategie di selezione nell&#39;interfaccia utente](selection-strategies.md) nell&#39;interfaccia utente (e nella [documentazione API](api-reference/selection-strategies/create.md))
 
-1. **Crea un criterio di decisione e incorporalo nella campagna basata su codice**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
+1. **Crea un criterio di decisione e incorporalo nel tuo percorso/campagna basata su codice o e-mail**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).

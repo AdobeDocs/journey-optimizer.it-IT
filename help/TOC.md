@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [Best practice](using/start/best-practices.md)
 + Percorsi {#orchestrate-journeys}
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
-   + Creare un percorso{#create-journey}
+   + Creare un percorso {#create-journey}
       + [Creare il primo percorso](using/building-journeys/journey-gs.md)
       + [Impostare le proprietà del percorso](using/building-journeys/journey-properties.md)
       + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
       + [Mettere in pausa un percorso](using/building-journeys/journey-pause.md)
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
-   + Gestire i percorsi{#manage-journey}
+   + Gestire i percorsi {#manage-journey}
       + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
       + [Ingresso dei profili nei percorsi](using/building-journeys/entry-management.md)
       + [Identificatore supplementare nei percorsi attivati da eventi](using/building-journeys/supplemental-identifier.md)
@@ -452,7 +452,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
       + [Esperimento sui contenuti con l’IA](using/content-management/generative-experimentation.md)
       + [Pagina di destinazione con IA](using/content-management/generative-lp.md)
       + [Casi d’uso dell’Assistente IA](using/content-management/generative-uc.md)
-      + Brand (Beta){#brands}
+      + Brand {#brands}
          + [Creare e gestire i brand personali](using/content-management/brands.md)
          + [Valutare il punteggio di allineamento al brand](using/content-management/brands-score.md)
    + Contenuto multilingue{#content-multilingual}
@@ -585,6 +585,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
             + [Modello di ottimizzazione automatica](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modello di ottimizzazione personalizzata](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Creare modelli AI](using/experience-decisioning/ranking/create-ai-models.md)
+      + [Utilizzare i posizionamenti](using/experience-decisioning/placements.md)
       + Utilizzare i dati di Adobe Experience Platform {#aep-data}
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
          + [Utilizzare Adobe Experience Platform per la funzione Decisioni](using/experience-decisioning/aep-data-exd.md)

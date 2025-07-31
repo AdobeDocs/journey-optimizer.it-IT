@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 16%
+source-wordcount: '2496'
+ht-degree: 11%
 
 ---
 
@@ -42,21 +42,40 @@ ht-degree: 16%
 >title="Selezionare gli attributi di decisione dal catalogo"
 >abstract="Gli attributi di decisione sono memorizzati nello schema del catalogo. Seleziona un attributo da utilizzare qui dal catalogo selezionato."
 
-I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
+I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico. Il loro obiettivo è quello di selezionare le offerte migliori per ciascun profilo, mentre l’authoring della campagna/del percorso ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio.
 
-<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Il loro obiettivo è quello di selezionare le offerte migliori per ciascun profilo, mentre l’authoring della campagna/del percorso ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio.
+## Passaggi chiave {#key}
 
->[!NOTE]
->
->Nell&#39;interfaccia utente [!DNL Journey Optimizer], i criteri di decisione sono etichettati come decisioni<!--but they are decision policies. TBC if this note is needed-->.
+I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i seguenti:
 
-I passaggi principali per sfruttare i criteri decisionali nelle campagne basate su codice sono i seguenti:
+1. [Creare un criterio di decisione in un’esperienza e-mail o basata su codice](#add-decision)
 
-1. [Aggiungere un criterio di decisione a un’esperienza basata su codice](#add-decision)
-1. [Utilizzare il criterio di decisione](#use-decision-policy)
-1. [Creare dashboard di reporting personalizzati per Customer Journey Analytics](cja-reporting.md)
+   Imposta un criterio di decisione nell’e-mail o nell’esperienza basata sul codice scegliendo il numero di elementi da restituire, configurando strategie di selezione, opzioni di fallback e ordine di valutazione.
 
-## Aggiungere un criterio di decisione a un’esperienza basata su codice {#add-decision}
+1. [Utilizzare il criterio di decisione nel contenuto](#use-decision-policy)
+
+   Personalizza il contenuto con l’output del criterio di decisione e gli attributi degli elementi di decisione che desideri visualizzare nel messaggio.
+
+1. [Creare dashboard di reporting](cja-reporting.md)
+
+   Crea dashboard di Customer Journey Analytics personalizzati per misurare le prestazioni e ottenere informazioni approfondite su come vengono distribuite e utilizzate le politiche e le offerte decisionali.
+
+## Guardrail e limitazioni
+
+* **Disponibilità limitata - Criteri di decisione nelle e-mail** - Per il momento, la creazione di criteri di decisione nelle e-mail è disponibile in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+* **Pagine mirror** - Per il momento, gli elementi decisionali non vengono riprodotti nelle pagine mirror delle e-mail.
+* **Tipo di tracciamento e collegamenti** - Per tenere traccia dei collegamenti generati dal decisioning, definiscili nello schema come &quot;Decisioning Assets&quot;. I collegamenti basati su attributi non sono tracciabili.
+* **Nidificazione dei criteri di decisione nelle e-mail** - Non è possibile nidificare più criteri di decisione all&#39;interno di un componente e-mail principale a cui è già associato un criterio di decisione.
+* **percorsi/campagne duplicati con decisioning** - Se duplichi un percorso o una campagna che include un criterio di decisione, la versione duplicata fa riferimento all&#39;e-mail o all&#39;esperienza basata su codice originale, causando errori. Riconfigura sempre il criterio di decisione dopo la duplicazione.
+* **Criteri di consenso** - Gli aggiornamenti ai criteri di consenso possono richiedere fino a 24 ore per diventare effettivi. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
+
+  Analogamente, se a un criterio di decisione vengono aggiunti nuovi attributi di profilo soggetti a un criterio di consenso, questi saranno utilizzabili, ma il criterio di consenso associato a essi non verrà applicato fino a quando il ritardo non sarà passato.
+
+  I criteri di consenso sono disponibili solo per le organizzazioni con il componente aggiuntivo Adobe Healthcare Shield o Privacy and Security Shield.
+
+* **Classifica IA** - Per il momento, la classificazione IA non è supportata per il canale e-mail nei percorsi con decisioning.
+
+## Creare un criterio di decisione in un’esperienza e-mail o basata su codice {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -74,43 +93,72 @@ I passaggi principali per sfruttare i criteri decisionali nelle campagne basate 
 >abstract="La sequenza della strategia di selezione determina quale strategia verrà valutata per prima. È necessaria almeno una strategia. Gli elementi decisionali nelle strategie combinate saranno valutati insieme."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creare strategie"
 
-Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna o a un percorso basato su codice. A questo scopo, segui i passaggi riportati qui sotto.
+Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e ai visitatori delle e-mail sul sito web o sull’app mobile, aggiungi un criterio decisionale a un’e-mail o a una campagna o a un percorso basato su codice. A questo scopo, segui i passaggi riportati qui sotto.
 
-### Creare il criterio di decisione {#add}
+### Creare un criterio di decisione {#add}
 
-1. Crea una campagna e seleziona l&#39;azione **[!UICONTROL Esperienza basata su codice]**. [Ulteriori informazioni](../code-based/create-code-based.md)
+1. In un percorso o in una campagna, aggiungi un&#39;azione **[!UICONTROL E-mail]** o **[!UICONTROL Esperienza basata su codice]**.
 
-1. Dall&#39;[editor di codice](../code-based/create-code-based.md#edit-code), selezionare **[!UICONTROL Criterio decisione]** e fare clic su **[!UICONTROL Aggiungi criterio decisione]**.
+1. Per le e-mail, attiva **[!UICONTROL Abilita decisioning]** nella schermata di configurazione.
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-policy-enable.png)
 
-   Dalla schermata di edizione del percorso o della campagna, puoi anche aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione. Utilizza l&#39;icona dedicata nella barra a destra per visualizzare la sezione **[!UICONTROL Decisioning]**.
-
-   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
-
-1. Per impostazione predefinita, crea un nuovo criterio.
-
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Puoi anche scegliere di selezionare un criterio esistente.
-
-1. Inserisci i dettagli del criterio di decisione: aggiungi un nome e seleziona un catalogo.
-
-   >[!NOTE]
+   >L’abilitazione del decisioning cancella il contenuto delle e-mail esistenti. Se hai già progettato l’e-mail, assicurati di salvare preventivamente il contenuto come modello.
    >
-   >Attualmente è disponibile solo il catalogo predefinito **[!UICONTROL Offerte]**.
+   >Eventuali criteri di decisione configurati all’interno dell’e-mail non verranno salvati nel modello. Se applichi il modello a un’altra e-mail, devi riconfigurare il criterio.
 
-1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le migliori 2 offerte idonee per la configurazione corrente. Fai clic su **[!UICONTROL Avanti]**.
+1. I criteri possono essere creati tramite e-mail ed esperienze basate su codice utilizzando l’editor di personalizzazione. Possono essere creati anche nelle e-mail da un menu dedicato nel Designer e-mail. Per ulteriori informazioni, espandi le sezioni seguenti.
+
+   +++Editor Personalization
+
+   1. Apri l&#39;editor di personalizzazione e seleziona **[!UICONTROL Criteri di decisione]**.
+   1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]** per creare un nuovo criterio.
+
+      ![](assets/decision-code-based-create.png)
+
++++
+
+   Menu +++Invia e-mail a Designer **[!UICONTROL Decisioning]**
+
+   1. Seleziona un componente, fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra degli strumenti o nel riquadro delle proprietà, quindi seleziona **[!UICONTROL Aggiungi nuovo criterio]**.
+
+   1. Selezionare **[!UICONTROL Riutilizza output decisione]** per riutilizzare un criterio di decisione già creato in questa e-mail.
+
+      ![](assets/decision-policy-email-designer.png)
+
++++
+
+1. Specifica un nome e seleziona un catalogo (attualmente limitato al catalogo predefinito **[!UICONTROL Offerte]**).
+
+1. Seleziona il numero di elementi da restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la configurazione corrente.
 
    ![](assets/decision-code-based-details.png)
+
+   Per le e-mail, è possibile restituire più elementi solo in un componente di contenuto **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
+
++++ Restituire più elementi decisionali nelle e-mail
+
+   1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;area di lavoro e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
+
+      ![](assets/decision-policy-repeat.png)
+
+   1. Fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra degli strumenti dell&#39;area di lavoro oppure apri il riquadro **[!UICONTROL Decisioning]** e seleziona **[!UICONTROL Aggiungi criterio di decisione]**.
+
+   1. Specifica il numero di elementi da restituire nel campo **[!UICONTROL Numero di elementi]**, quindi configura il criterio di decisione come documentato di seguito. Il numero massimo di elementi selezionabili è limitato dal numero di riquadri definito nel componente **[!UICONTROL Ripeti griglia]**.
+
+   ![](assets/decision-policy-repeat-number.png)
+
++++
+
+1. Fai clic su **[!UICONTROL Avanti]**.
 
 ### Selezione di elementi e strategie di selezione {#select}
 
 La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elementi decisionali e le strategie di selezione da presentare con il criterio decisionale.
 
-1. Fai clic sul pulsante **[!UICONTROL Aggiungi]**.
-
-1. Scegliere il tipo di oggetto da includere nel criterio:
+1. Fare clic su **[!UICONTROL Aggiungi]** e scegliere il tipo di oggetto da includere nel criterio:
 
    * **[!UICONTROL Strategia di selezione]**: aggiungere una o più strategie di selezione. Le strategie decisionali sfruttano le raccolte associate ai vincoli di idoneità e ai metodi di classificazione per determinare gli elementi da mostrare. Puoi selezionare una strategia di selezione esistente o crearne una nuova utilizzando il pulsante **[!UICONTROL Crea strategia di selezione]**. [Scopri come creare strategie di selezione](selection-strategies.md)
 
@@ -122,120 +170,151 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
    >
    >Una politica decisionale supporta fino a 10 strategie di selezione e elementi decisionali combinati. [Ulteriori informazioni su guardrail e limitazioni di Decisioning](gs-experience-decisioning.md#guardrails)
 
-1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via.
+1. Quando si aggiungono più elementi e/o strategie di decisione, queste vengono valutate in un ordine specifico. Il primo oggetto aggiunto alla sequenza verrà valutato per primo e così via. Per modificare la sequenza predefinita, trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. Per ulteriori informazioni, espandi la sezione seguente.
 
-   Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni](#evaluation-order)
+   +++Gestire l’ordine di valutazione in un criterio decisionale
 
-### Gestire l’ordine di valutazione in un criterio decisionale {#evaluation-order}
+   Dopo aver aggiunto al criterio elementi decisionali e strategie di selezione, è possibile disporne l&#39;ordine per determinarne l&#39;ordine di valutazione e combinare le strategie di selezione per valutarli insieme.
 
-Dopo aver aggiunto al criterio elementi decisionali e strategie di selezione, è possibile disporne l&#39;ordine per determinarne l&#39;ordine di valutazione e combinare le strategie di selezione per valutarli insieme.
+   L&#39;**ordine sequenziale** in cui verranno valutati gli elementi e le strategie è indicato con numeri alla sinistra di ogni oggetto o gruppo di oggetti. Per spostare la posizione di una strategia di selezione (o di un gruppo di strategie) all&#39;interno della sequenza, trascinarla e rilasciarla in un&#39;altra posizione.
 
-L&#39;**ordine sequenziale** in cui verranno valutati gli elementi e le strategie è indicato con numeri alla sinistra di ogni oggetto o gruppo di oggetti. Per spostare la posizione di una strategia di selezione (o di un gruppo di strategie) all&#39;interno della sequenza, trascinarla e rilasciarla in un&#39;altra posizione.
+   ![](assets/decision-code-based-strategy-groups.png)
 
->[!NOTE]
->
->Solo le strategie di selezione possono essere trascinate e rilasciate all&#39;interno di una sequenza. Per modificare la posizione di un elemento di decisione, è necessario rimuoverlo e aggiungerlo nuovamente utilizzando il pulsante **[!UICONTROL Aggiungi]** dopo aver aggiunto gli altri elementi che si desidera valutare in precedenza.
+   >[!NOTE]
+   >
+   >Solo le strategie di selezione possono essere trascinate e rilasciate all&#39;interno di una sequenza. Per modificare la posizione di un elemento di decisione, è necessario rimuoverlo e aggiungerlo nuovamente utilizzando il pulsante **[!UICONTROL Aggiungi]** dopo aver aggiunto gli altri elementi che si desidera valutare in precedenza.
 
-![](assets/decision-code-based-strategy-groups.png)
+   È inoltre possibile **combinare** più strategie di selezione in gruppi in modo che vengano valutate insieme e non separatamente. A tale scopo, fare clic sul pulsante **`+`** in una strategia di selezione per combinarla con un&#39;altra. Puoi anche trascinare e rilasciare una strategia di selezione su un’altra per raggruppare le due strategie in un gruppo.
 
-È inoltre possibile **combinare** più strategie di selezione in gruppi in modo che vengano valutate insieme e non separatamente. A tale scopo, fare clic sul pulsante **`+`** in una strategia di selezione per combinarla con un&#39;altra. Puoi anche trascinare e rilasciare una strategia di selezione su un’altra per raggruppare le due strategie in un gruppo.
+   >[!NOTE]
+   >
+   >Gli elementi decisionali non possono essere raggruppati con altri elementi o strategie di selezione.
 
->[!NOTE]
->
->Gli elementi decisionali non possono essere raggruppati con altri elementi o strategie di selezione.
+   Le strategie multiple e il loro raggruppamento determinano la priorità delle strategie e la classificazione delle offerte idonee. La prima strategia ha la massima priorità e le strategie combinate all&#39;interno dello stesso gruppo hanno la stessa priorità.
 
-Le strategie multiple e il loro raggruppamento determinano la priorità delle strategie e la classificazione delle offerte idonee. La prima strategia ha la massima priorità e le strategie combinate all&#39;interno dello stesso gruppo hanno la stessa priorità.
+   Ad esempio, sono disponibili due raccolte, una nella strategia A e una nella strategia B. La richiesta prevede il rinvio di due elementi decisionali. Supponiamo che vi siano due offerte ammissibili dalla strategia A e tre offerte ammissibili dalla strategia B.
 
-Ad esempio, sono disponibili due raccolte, una nella strategia A e una nella strategia B. La richiesta prevede il rinvio di due elementi decisionali. Supponiamo che vi siano due offerte ammissibili dalla strategia A e tre offerte ammissibili dalla strategia B.
+   * Se le due strategie sono **non combinate** o in ordine sequenziale (1 e 2), le prime due offerte idonee della prima strategia verranno restituite nella prima riga. Se non ci sono due offerte idonee per la prima strategia, il motore decisionale passerà alla strategia successiva in sequenza per trovare quante offerte sono ancora necessarie e alla fine restituirà un fallback, se necessario.
 
-* Se le due strategie sono **non combinate** o in ordine sequenziale (1 e 2), le prime due offerte idonee della prima strategia verranno restituite nella prima riga. Se non ci sono due offerte idonee per la prima strategia, il motore decisionale passerà alla strategia successiva in sequenza per trovare quante offerte sono ancora necessarie e alla fine restituirà un fallback, se necessario.
+     ![](assets/decision-code-based-consecutive-strategies.png)
 
-  ![](assets/decision-code-based-consecutive-strategies.png)
+   * Se le due raccolte sono **valutate contemporaneamente**, poiché esistono due offerte idonee dalla strategia A e tre offerte idonee dalla strategia B, le cinque offerte saranno tutte raggruppate in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
 
-* Se le due raccolte sono **valutate contemporaneamente**, poiché esistono due offerte idonee dalla strategia A e tre offerte idonee dalla strategia B, le cinque offerte saranno tutte raggruppate in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
+     ![](assets/decision-code-based-combined-strategies.png)
 
-  ![](assets/decision-code-based-combined-strategies.png)
+   **Esempio con più strategie**
 
-+++ **Esempio con più strategie**
+   Prendiamo ora in considerazione un esempio in cui si dispone di più strategie suddivise in gruppi diversi. Hai definito tre strategie. La strategia 1 e la strategia 2 sono combinate nel gruppo 1 e la strategia 3 è indipendente (gruppo 2). Le offerte ammissibili per ciascuna strategia e la loro priorità (utilizzata nella valutazione della funzione di classificazione) sono le seguenti:
 
-Prendiamo ora in considerazione un esempio in cui si dispone di più strategie suddivise in gruppi diversi.
+   * Gruppo 1:
+      * Strategia 1 - (offerta 1, offerta 2, offerta 3) - Priorità 1
+      * Strategia 2 - (offerta 3, offerta 4, offerta 5) - Priorità 1
 
-Hai definito tre strategie. La strategia 1 e la strategia 2 sono combinate nel gruppo 1 e la strategia 3 è indipendente (gruppo 2).
+   * Gruppo 2:
+      * Strategia 3 - (Offerta 5, Offerta 6) - Priorità 0
 
-Le offerte ammissibili per ciascuna strategia e la loro priorità (utilizzata nella valutazione della funzione di classificazione) sono le seguenti:
+   Le offerte di strategia con priorità più alta vengono valutate per prime e aggiunte all’elenco delle offerte classificate.
 
-* Gruppo 1:
-   * Strategia 1 - (offerta 1, offerta 2, offerta 3) - Priorità 1
-   * Strategia 2 - (offerta 3, offerta 4, offerta 5) - Priorità 1
+   * **Iterazione 1:**
 
-* Gruppo 2:
-   * Strategia 3 - (Offerta 5, Offerta 6) - Priorità 0
+     Le offerte di Strategia 1 e Strategia 2 vengono valutate insieme (Offerta 1, Offerta 2, Offerta 3, Offerta 4, Offerta 5). Supponiamo che il risultato sia:
 
-Le offerte di strategia con priorità più alta vengono valutate per prime e aggiunte all’elenco delle offerte classificate.
-
-**Iterazione 1:**
-
-Le offerte di Strategia 1 e Strategia 2 vengono valutate insieme (Offerta 1, Offerta 2, Offerta 3, Offerta 4, Offerta 5). Supponiamo che il risultato sia:
-
-Offerta 1 - 10
+     Offerta 1 - 10
 Offerta 2 - 20
 Offerta 3-30 dalla Strategia 1, 45 dalla Strategia 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
 Offerta 4 - 40
 Offerta 5 - 50
 
-Le offerte classificate sono ora le seguenti: Offerta 5, Offerta 3, Offerta 4, Offerta 2, Offerta 1.
+     Le offerte classificate sono ora le seguenti: Offerta 5, Offerta 3, Offerta 4, Offerta 2, Offerta 1.
 
-**Iterazione 2:**
+   * **Iterazione 2:**
 
-Vengono valutate le offerte della Strategia 3 (Offerta 5, Offerta 6). Supponiamo che il risultato sia:
+     Vengono valutate le offerte della Strategia 3 (Offerta 5, Offerta 6). Supponiamo che il risultato sia:
 
-* Offerta 5: non verrà valutata perché esiste già nel risultato precedente.
-* Offerta 6 - 60
+      * Offerta 5: non verrà valutata perché esiste già nel risultato precedente.
+      * Offerta 6 - 60
 
-Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
+     Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
 
 +++
 
+1. Fai clic su **[!UICONTROL Avanti]**
+
 ### Aggiungere offerte di fallback {#fallback}
 
-Dopo aver selezionato elementi decisionali e/o strategie di selezione, puoi aggiungere offerte di fallback che verranno visualizzate dagli utenti se nessuno degli elementi o strategie di selezione di cui sopra è qualificato.
-
-![](assets/decision-code-based-strategy-fallback.png)
+Dopo aver selezionato gli elementi decisionali e/o le strategie di selezione, puoi aggiungere offerte di fallback da visualizzare se nessuno degli elementi o delle strategie di selezione di cui sopra è qualificato.
 
 È possibile selezionare qualsiasi elemento dall’elenco, in cui vengono visualizzati tutti gli elementi decisionali creati nella sandbox corrente. Se non viene definita alcuna strategia di selezione, il fallback viene visualizzato all&#39;utente indipendentemente dalle date e dal vincolo di idoneità applicato all&#39;elemento selezionato<!--nor frequency capping when available - TO CLARIFY-->.
 
->[!NOTE]
->
->Un fallback è facoltativo. Se non è selezionato alcun fallback e nessuna strategia è qualificata, [!DNL Journey Optimizer] non visualizzerà nulla. Puoi aggiungere fino al numero di elementi richiesti dal criterio di decisione. In questo modo viene garantito un determinato numero di elementi da restituire, se desiderato per il caso d’uso.
-
-Quando il criterio decisionale è pronto, salvarlo e fare clic su **[!UICONTROL Crea]**. Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
-
-![](assets/decision-code-based-decision-added.png)
-
-## Utilizzare il criterio di decisione nell’editor di codice {#use-decision-policy}
-
-Una volta creato, il criterio di decisione può essere utilizzato nell&#39;[editor di personalizzazione](../code-based/create-code-based.md#edit-code). A questo scopo, segui i passaggi riportati qui sotto.
+![](assets/decision-code-based-strategy-fallback.png)
 
 >[!NOTE]
->
->L&#39;esperienza basata su codice sfrutta l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+> I fallback sono facoltativi. È possibile selezionare fino al numero di elementi richiesti. Se nessuna è idonea e non è impostato alcun fallback, non viene visualizzato nulla.
 
-1. Fare clic sul pulsante **[!UICONTROL Inserisci criterio]**. Viene aggiunto il codice corrispondente al criterio di decisione.
+### Salvare e gestire i criteri di decisione {#save}
+
+Quando il criterio decisionale è pronto, salvarlo e fare clic su **[!UICONTROL Crea]**.
+
+Per le e-mail, devi definire un posizionamento per il componente associato al criterio decisionale. A tale scopo, fare clic sul pulsante **[!UICONTROL Decisioning]** nel riquadro delle proprietà del componente e selezionare **[!UICONTROL Assegna posizionamento]**. [Scopri come utilizzare i posizionamenti](../experience-decisioning/placements.md)
+
+![](assets/decision-policy-rail.png)
+
+Puoi modificare o eliminare un criterio di decisione in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;editor di personalizzazione o nel menu **[!UICONTROL Decisioning]** all&#39;interno del riquadro delle proprietà del componente.
+
+>[!BEGINTABS]
+
+>[!TAB Modifica o elimina un criterio dall&#39;editor di personalizzazione]
+
+![](assets/decision-policy-edit.png)
+
+>[!TAB Modifica o elimina un criterio dalle proprietà del componente]
+
+![](assets/decision-policy-edit-properties.png)
+
+>[!ENDTABS]
+
+## Utilizzare un criterio di decisione nel contenuto {#use-decision-policy}
+
+Una volta creato, il criterio di decisione e gli attributi collegati agli elementi di decisione restituiti possono essere utilizzati nel contenuto per personalizzare il contenuto. Per farlo, segui la procedura riportata di seguito.
+
+### Inserire il codice del criterio decisionale {#insert-code}
+
+1. Apri l&#39;editor di personalizzazione e accedi al menu **[!UICONTROL Criteri di decisione]**.
+
+1. Per le e-mail, fai clic su **[!UICONTROL Inserisci sintassi]** per aggiungere il codice corrispondente al criterio di decisione. Per le esperienze basate su codice, fare clic su **[!UICONTROL Inserisci criterio]**.
+
+   +++Inserire il codice del criterio di decisione nelle e-mail
+
+   ![](assets/decision-policy-add.png)
+
+   Per le e-mail, se non è stato precedentemente associato alcun posizionamento al componente, selezionane uno dall&#39;elenco e fai clic su **[!UICONTROL Assegna]**.
+
+   ![](assets/decision-policy-placement.png)
+
++++
+
+   +++Inserire il codice del criterio di decisione nell’esperienza basata su codice
 
    ![](assets/decision-code-based-add-decision.png)
 
-   >[!NOTE]
-   >
-   >Questa sequenza verrà ripetuta il numero di volte che si desidera che venga restituito il criterio di decisione. Ad esempio, se si sceglie di restituire 2 elementi durante la [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
-
-1. Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di tale codice. Gli attributi disponibili sono archiviati nello schema del catalogo **[!UICONTROL Offerte]**. Gli attributi personalizzati sono archiviati nella cartella **`_<imsOrg`>** e gli attributi standard nella cartella **`_experience`**. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
-
-   ![](assets/decision-code-based-decision-attributes.png)
++++
 
    >[!NOTE]
    >
-   >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
-   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+   >Se il pulsante di inserimento del codice non viene visualizzato, è possibile che per il componente principale sia già stato configurato un criterio di decisione.
+
+1. Viene aggiunto il codice per il criterio di decisione. Questa sequenza verrà ripetuta il numero di volte che si desidera che venga restituito il criterio di decisione. Ad esempio, se si sceglie di restituire 2 elementi durante la [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
+
+### Sfruttare gli attributi degli elementi di decisione {#attributes}
+
+Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di tale codice. Gli attributi disponibili sono archiviati nello schema del catalogo **[!UICONTROL Offerte]**. Gli attributi personalizzati sono archiviati nella cartella **`_<imsOrg`>** e gli attributi standard nella cartella **`_experience`**. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
+
+![](assets/decision-code-based-decision-attributes.png)
+
+>[!NOTE]
+>
+>Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
@@ -249,16 +328,18 @@ Una volta creato, il criterio di decisione può essere utilizzato nell&#39;[edit
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Fai clic su **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
+## Passaggi finali {#final-steps}
 
-1. Rivedi e pubblica la campagna o il percorso di esperienze basato su codice. [Scopri come](../code-based/publish-code-based.md)
+Una volta che il contenuto è pronto, rivedi e pubblica la campagna o il percorso:
 
-   Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
+* [Pubblicare un percorso](../building-journeys/publishing-the-journey.md)
+* [Rivedere attivare una campagna](../campaigns/review-activate-campaign.md)
+* [Pubblicare e attivare un’esperienza basata su codice](../code-based/publish-code-based.md)
 
-   >[!NOTE]
-   >
-   >Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](../code-based/create-code-based.md) utilizzando le decisioni. Una soluzione alternativa è disponibile in [questa sezione](../code-based/code-based-decisioning-implementations.md).
+Per le esperienze basate su codice, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
 
-1. Per visualizzare le prestazioni delle decisioni, puoi creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.
+>[!NOTE]
+>
+>Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](../code-based/create-code-based.md) utilizzando le decisioni. Una soluzione alternativa è disponibile in [questa sezione](../code-based/code-based-decisioning-implementations.md).
 
-
+Per visualizzare le prestazioni delle decisioni, puoi creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.

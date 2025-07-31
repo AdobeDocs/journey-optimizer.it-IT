@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 11%
+source-wordcount: '1033'
+ht-degree: 10%
 
 ---
 
@@ -84,7 +84,17 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    ![](assets/email_campaign_edit_content.png)
 
-   Nella sezione **[!UICONTROL Intestazione]** della schermata **[!UICONTROL Modifica contenuto]**, i campi **[!UICONTROL Da nome]**, **[!UICONTROL Da e-mail]** e **[!UICONTROL Ccn]** sono configurati nella configurazione e-mail selezionata. [Ulteriori informazioni](email-settings.md) <!--check if same for journey-->
+1. Attiva **[!UICONTROL Abilita decisioning]** se desideri aggiungere criteri di decisione nel messaggio e-mail.
+
+   I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico. [Scopri come aggiungere un criterio di decisione in un messaggio e-mail](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >Per il momento, la creazione di criteri di decisione nelle e-mail non è disponibile per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield o Privacy and Security Shield.
+
+1. Nella sezione **[!UICONTROL Intestazione]**, controlla i campi **[!UICONTROL Da nome]**, **[!UICONTROL Da e-mail]** e **[!UICONTROL Ccn]**. Sono configurati nella configurazione e-mail selezionata. [Ulteriori informazioni](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    >[!NOTE]
    >
-   >* L’oggetto è obbligatorio.
-   >
-   >* L&#39;oggetto non deve includere interruzioni di riga.
+   >L’oggetto è obbligatorio. Non deve includere interruzioni di riga.
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica corpo dell&#39;e-mail]** per accedere al Designer e-mail e iniziare a creare il contenuto. [Ulteriori informazioni](get-started-email-design.md)
 
@@ -128,7 +136,7 @@ Possono verificarsi due tipi di avvisi:
 
      >[!NOTE]
      >
-     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
+     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
 
    * **[!UICONTROL La versione testuale di HTML è vuota]**: non dimenticare di definire una versione testuale del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
 
