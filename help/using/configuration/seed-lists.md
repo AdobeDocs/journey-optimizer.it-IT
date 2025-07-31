@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 17%
+source-wordcount: '985'
+ht-degree: 16%
 
 ---
 
@@ -122,7 +122,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile combinare entrambe le opzioni, ma il numero totale di indirizzi in un elenco di seed non può superare i 300.
 
-1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [&#128279;](#access-seed-lists).
+1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [](#access-seed-lists).
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 
@@ -155,5 +155,7 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 Ora, ogni volta che un messaggio e-mail viene inviato ai clienti tramite tale campagna o percorso, anche gli indirizzi e-mail nell’elenco di seed selezionato lo riceveranno nelle stesse condizioni, contemporaneamente e con lo stesso contenuto dei destinatari target.
 
 >[!NOTE]
+>
+>[Modalità di test](../building-journeys/testing-the-journey.md) percorsi non inviano e-mail all&#39;elenco seed. Per verificare il contenuto dell&#39;e-mail, utilizza la funzionalità [anteprima e verifica](../content-management/preview-test.md) prima di inviare il messaggio.
 >
 >Per i percorsi ricorrenti, la consegna e-mail viene inviata agli indirizzi seed a ogni esecuzione del percorso, purché almeno un profilo raggiunga il nodo e-mail.
