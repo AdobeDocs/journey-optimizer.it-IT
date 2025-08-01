@@ -9,9 +9,9 @@ level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 >[!NOTE]
 >
->A partire dal 1° novembre 2024, la segmentazione in streaming non supporta più eventi di invio e apertura dai set di dati di tracciamento e feedback [!DNL Journey Optimizer]. Per implementare la limitazione della frequenza o la gestione dell’affaticamento, utilizza le regole business. Puoi trovare ulteriori dettagli in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d&#39;uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 >
 >Inoltre, a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
 
@@ -85,7 +85,7 @@ Puoi eseguire le seguenti operazioni:
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 
