@@ -11,13 +11,13 @@ exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 44%
+ht-degree: 85%
 
 ---
 
 # Introduzione ai messaggi WhatsApp {#get-started-whatsapp}
 
-Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer tramite l&#39;[API Cloud](https://developers.facebook.com/docs/whatsapp/cloud-api/) di Meta. Questa funzione consente l’integrazione diretta di WhatsApp in percorsi e campagne, migliorando la comunicazione e il coinvolgimento con i destinatari.
+Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer utilizzando l’[API cloud](https://developers.facebook.com/docs/whatsapp/cloud-api/) di Meta. Questa funzione consente l’integrazione diretta di WhatsApp in percorsi e campagne, migliorando la comunicazione e il coinvolgimento con i destinatari.
 
 * In un **percorso**. Crea un percorso, aggiungi un’attività **WhatsApp** e definisci le impostazioni di base, quindi passa al riquadro a destra **[!UICONTROL Azioni: WhatsApp]** per creare il contenuto per il messaggio WhatsApp. Ulteriori informazioni su come creare un percorso sono disponibili in [questa pagina](../building-journeys/journey-gs.md).
 
@@ -31,7 +31,7 @@ L’integrazione di WhatsApp con Journey Optimizer richiede quanto segue:
 
 * Account Business Manager di Meta
 * [Account aziendale WhatsApp con nome mittente e numero di telefono verificati](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
-* [Token di autorizzazione utente con autorizzazioni appropriate](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [Token di autorizzazione utente con le autorizzazioni appropriate](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modelli di Meta approvati](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 Prima di procedere con l’integrazione, devi inoltre prendere atto di quanto segue:
@@ -42,15 +42,15 @@ Prima di procedere con l’integrazione, devi inoltre prendere atto di quanto se
 
 ## Limitazioni {#limitations}
 
-Al canale WhatsApp si applicano le seguenti limitazioni:
+Al canale WhatsApp vengono applicate le seguenti limitazioni:
 
-* Il canale WhatsApp in Adobe Journey Optimizer è compatibile con HIPAA, ma i fornitori di terze parti non sono coperti dalla BAA di Adobe. I clienti sono responsabili della conformità e della convalida dei fornitori.
+* Il canale WhatsApp in Adobe Journey Optimizer è compatibile con HIPAA, ma i fornitori di terze parti non sono coperti dal BAA di Adobe. La clientela è responsabile della propria conformità e della convalida dei fornitori.
 
 * I messaggi di risposta automatizzati o predefiniti non sono ancora supportati.
 
-* A partire da aprile 2025, la consegna di tutti i messaggi dei modelli di marketing agli utenti WhatsApp che hanno un numero di telefono degli Stati Uniti (un numero composto da un codice di chiamata +1 e un indicativo di località statunitense) è stata temporaneamente sospesa. [Ulteriori informazioni nella documentazione Meta](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+* A partire da aprile 2025, la consegna di tutti i messaggi dei modelli di marketing agli utenti di WhatsApp che hanno un numero di telefono degli Stati Uniti (un numero composto da un prefisso telefonico +1 e da un codice di zona statunitense) è stata temporaneamente sospesa. [Ulteriori informazioni nella documentazione su Meta](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
-* La funzionalità di integrazione nativa non consente l&#39;integrazione con Business Service Provider (BSP) di terze parti.
+* La funzionalità di integrazione nativa non consente l’integrazione con fornitori di servizi aziendali (BSP) di terze parti.
 
 ## Video dimostrativo {#video}
 
@@ -58,7 +58,7 @@ Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Jou
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470252?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

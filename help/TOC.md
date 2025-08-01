@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -175,37 +175,37 @@ ht-degree: 94%
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
       + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
    + Risoluzione dei problemi {#troubleshoot-journey}
-      + [Risolvere i problemi dei percorsi](using/building-journeys/gs-troubleshooting.md)
+      + [Risolvere i problemi relativi ai percorsi](using/building-journeys/gs-troubleshooting.md)
       + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
-      + [Risoluzione dei problemi di esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
-      + [Risolvere i problemi delle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
-      + [Risoluzione dei problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
+      + [Risolvere i problemi relativi all’esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
+      + [Risolvere i problemi relativi alle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
+      + [Risolvere i problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
 + Campagne {#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Accedere alle campagne e gestirle](using/campaigns/modify-stop-campaign.md)
    + Campagne di azione {#action-campaigns}
-      + [Utilizzare le campagne d’azione](using/campaigns/create-campaign.md)
+      + [Utilizzare le campagne di azione](using/campaigns/create-campaign.md)
       + [Definire le proprietà della campagna](using/campaigns/campaign-properties.md)
       + [Configurare l’azione della campagna](using/campaigns/campaign-action.md)
       + [Modificare il contenuto della campagna](using/campaigns/campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/campaign-schedule.md)
-      + [Rivedere e attivare una campagna di azioni](using/campaigns/review-activate-campaign.md)
+      + [Rivedere e attivare una campagna di azione](using/campaigns/review-activate-campaign.md)
    + Campagne attivate da API {#api-triggered-campaigns}
-      + [Utilizzare le campagne attivate dall’API](using/campaigns/api-triggered-campaigns.md)
+      + [Utilizzare le campagne attivate da API](using/campaigns/api-triggered-campaigns.md)
       + [Definire le proprietà della campagna](using/campaigns/api-triggered-campaign-properties.md)
       + [Configurare l’azione della campagna](using/campaigns/api-triggered-campaign-action.md)
       + [Modificare il contenuto della campagna](using/campaigns/api-triggered-campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/api-triggered-campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/api-triggered-campaign-schedule.md)
-      + [Rivedi e attiva la campagna](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [Rivedere e attivare una campagna](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Attivare l’esecuzione della campagna](using/campaigns/trigger-campaigns.md)
    + Campagne orchestrate {#orchestrated-campaigns}
       + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
       + Gestire schemi e set di dati relazionali {#schemas-datasets}
-         + [Introduzione a schemi e set di dati](using/orchestrated/gs-schemas.md)
+         + [Introduzione agli schemi e ai set di dati](using/orchestrated/gs-schemas.md)
          + [Schema manuale](using/orchestrated/manual-schema.md)
-         + [Schema di caricamento file](using/orchestrated/file-upload-schema.md)
+         + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
          + [Acquisire i dati](using/orchestrated/ingest-data.md)
       + [Accedere e gestire le campagne orchestrate](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Creare una dimensione di targeting](using/orchestrated/target-dimension.md)
@@ -278,7 +278,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
             + [Sfruttare i frammenti visivi](using/email/use-visual-fragments.md)
             + [Aggiungere collegamenti e tracciare i messaggi](using/email/message-tracking.md)
             + [Inserire offerte personalizzate](using/email/add-offers-email.md)
-            + [Genera versione testo](using/email/text-version-email.md)
+            + [Generare la versione del testo](using/email/text-version-email.md)
             + [Aggiungere metadati](using/email/email-metadata.md)
             + [Aggiungere CSS personalizzato](using/email/custom-css.md)
          + Modificare lo stile {#edit-style}
@@ -388,7 +388,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
       + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta)](using/personalization/aep-data-perso.md)
       + Elenco funzioni helper {#functions}
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
-         + [Helper per ricerca dati esterni](using/personalization/external-data-lookup.md)
+         + [Helper per la ricerca di dati esterni](using/personalization/external-data-lookup.md)
          + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
          + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
          + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
