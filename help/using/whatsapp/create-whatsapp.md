@@ -195,6 +195,6 @@ Il video seguente mostra come creare un percorso WhatsApp con più passaggi util
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470290/?learn=on&captions=ita")
 
 +++
