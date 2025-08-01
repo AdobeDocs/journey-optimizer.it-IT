@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 56%
+source-wordcount: '841'
+ht-degree: 54%
 
 ---
 
@@ -73,11 +73,7 @@ L&#39;icona **[!UICONTROL Avvisi]** / **[!UICONTROL Avviso]** nella barra degli 
 
 Puoi anche identificare rapidamente le attività non riuscite utilizzando gli [indicatori di stato visivi](#activities) visualizzati direttamente su ogni attività. Per una risoluzione dettagliata dei problemi, apri i [registri della campagna](#logs-tasks), che forniscono informazioni approfondite sull’errore e sul relativo contesto.
 
-<!--WAITING FOR PM's TEST TO UNHIDE
-
-If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
-
--->
+Se hai aggiunto attività di canale nell&#39;area di lavoro, puoi visualizzare in anteprima e verificare il contenuto dei messaggi utilizzando il pulsante **[!UICONTROL Simula contenuto]**. [Scopri come utilizzare le attività del canale](activities/channels.md)
 
 Una volta convalidata, la campagna può essere pubblicata.
 

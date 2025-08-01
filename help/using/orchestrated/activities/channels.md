@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 57%
+source-wordcount: '1213'
+ht-degree: 58%
 
 ---
 
@@ -161,15 +161,11 @@ Quando accedi all’editor di personalizzazione da una campagna orchestrata, due
 
 Per una panoramica dettagliata su come utilizzare l&#39;editor di personalizzazione, consulta [Introduzione alla personalizzazione](../../personalization/personalize.md)
 
-<!--WAITING FOR PM's TEST TO UNHIDE
+## Verifica e verifica il contenuto
 
-## Check and test your content
+Una volta creato il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con profili di test o dati di input di esempio caricati da un file CSV/JSON, oppure aggiunti manualmente. [Ulteriori informazioni](../../content-management/preview-test.md)
 
-Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
-
-![image showing the Simulate Content button](../assets/channel-simulate.png)
-
--->
+![immagine che mostra il pulsante Simula contenuto](../assets/channel-simulate.png)
 
 ## Passaggi successivi {#next}
 

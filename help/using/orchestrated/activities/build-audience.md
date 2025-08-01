@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ Per configurare l’attività **[!UICONTROL Crea pubblico]**, segui questi passa
 
 1. Fai clic su **[!UICONTROL Continua]**.
 
-1. Utilizza il query modeler per definire la query. [Ulteriori informazioni sul query modeler sono disponibili in questa sezione](../orchestrated-rule-builder.md).
+1. Utilizza il generatore di regole per definire la query. [Ulteriori informazioni sul generatore di regole in questa sezione](../orchestrated-rule-builder.md)
 
 1. Specifica se deve essere generata una transizione in uscita quando il pubblico è vuoto.
 

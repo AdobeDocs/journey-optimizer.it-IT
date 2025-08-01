@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 27%
+source-wordcount: '1222'
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ Puoi modificare il contenuto in-app per configurare le opzioni dell’esperienza
 
 L&#39;opzione **[!UICONTROL Formattazione avanzata]** attiva altre opzioni per personalizzare l&#39;esperienza.
 
-Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Ulteriori informazioni su [questa pagina](send-in-app.md).
+Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Ulteriori informazioni sono disponibili in [questa pagina](send-in-app.md).
 
 ## Layout messaggio {#message-layout}
 
@@ -240,14 +240,30 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, è possi
 
 +++
 
+## Scheda Dati {#data-tab}
+
+Dalla scheda **Dati**, puoi definire una **[!UICONTROL Chiave]**&#x200B; e **[!UICONTROL Valore]** per includere variabili personalizzate nel payload. Queste coppie chiave/valore ti consentono di trasmettere dati aggiuntivi, a seconda della configurazione specifica.
+
+Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+
+1. Dalla scheda **[!UICONTROL Dati]**, seleziona **[!UICONTROL Aggiungi coppia chiave/valore]**.
+
+   ![](assets/in-app-data-menu.png)
+
+1. Compila i campi **[!UICONTROL Chiave]**&#x200B; e **[!UICONTROL Valore]**.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. Fare clic su ![](assets/do-not-localize/Smock_Delete_18_N.svg) per eliminare le coppie necessarie.
+
 **Argomenti correlati:**
 
 * [Crea messaggio in-app](create-in-app.md)
 * [Rapporto in-app](../reports/campaign-global-report-cja-inapp.md)
 * [Configurazione in-app](inapp-configuration.md)
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Il video seguente mostra come creare e testare i messaggi in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422078?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

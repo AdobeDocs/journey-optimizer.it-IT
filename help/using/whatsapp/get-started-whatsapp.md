@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 55%
+source-wordcount: '320'
+ht-degree: 44%
 
 ---
 
 # Introduzione ai messaggi WhatsApp {#get-started-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-* **[Introduzione ai messaggi WhatsApp](get-started-whatsapp.md)**
-* [Introduzione alla configurazione di WhatsApp](whatsapp-configuration.md)
-* [Creare un messaggio WhatsApp](create-whatsapp.md)
-* [Verificare e inviare i messaggi WhatsApp](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer tramite l&#39;[API Cloud](https://developers.facebook.com/docs/whatsapp/cloud-api/) di Meta. Questa funzione consente l’integrazione diretta di WhatsApp in percorsi e campagne, migliorando la comunicazione e il coinvolgimento con i destinatari.
 
@@ -43,12 +30,9 @@ Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer tramit
 L’integrazione di WhatsApp con Journey Optimizer richiede quanto segue:
 
 * Account Business Manager di Meta
-* Account WhatsApp Business
-* Numero di telefono WhatsApp
+* [Account aziendale WhatsApp con nome mittente e numero di telefono verificati](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Token di autorizzazione utente con autorizzazioni appropriate](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modelli di Meta approvati](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
-* [Configurazione dei webhook Meta](https://developers.facebook.com/docs/whatsapp/webhooks/)
-
 
 Prima di procedere con l’integrazione, devi inoltre prendere atto di quanto segue:
 
@@ -62,7 +46,7 @@ Al canale WhatsApp si applicano le seguenti limitazioni:
 
 * Il canale WhatsApp in Adobe Journey Optimizer è compatibile con HIPAA, ma i fornitori di terze parti non sono coperti dalla BAA di Adobe. I clienti sono responsabili della conformità e della convalida dei fornitori.
 
-* I messaggi di risposta automatizzati o predefiniti non sono supportati.
+* I messaggi di risposta automatizzati o predefiniti non sono ancora supportati.
 
 * A partire da aprile 2025, la consegna di tutti i messaggi dei modelli di marketing agli utenti WhatsApp che hanno un numero di telefono degli Stati Uniti (un numero composto da un codice di chiamata +1 e un indicativo di località statunitense) è stata temporaneamente sospesa. [Ulteriori informazioni nella documentazione Meta](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
@@ -70,11 +54,11 @@ Al canale WhatsApp si applicano le seguenti limitazioni:
 
 ## Video dimostrativo {#video}
 
-
-Il video seguente mostra come creare un percorso con un’azione WhatsApp.
+Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Journey Optimizer per inviare messaggi sicuri, in tempo reale e personalizzati su larga scala.
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
+

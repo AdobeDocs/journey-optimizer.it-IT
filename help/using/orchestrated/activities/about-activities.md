@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 59%
@@ -53,7 +53,7 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 
 ![Elenco delle attività di targeting](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [Crea pubblico](build-audience.md): definisci la popolazione target Puoi selezionare un pubblico esistente o utilizzare il query modeler per definire una query personalizzata.
+* [Crea pubblico](build-audience.md): definisci la popolazione target Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
 * [Modifica dimensione](change-dimension.md): modifica la dimensione di targeting durante la creazione della campagna orchestrata.
 * [Combina](combine.md): esegui la segmentazione della popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
 * [Deduplica](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
