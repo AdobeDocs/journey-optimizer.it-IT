@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '521'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma
 
 >[!IMPORTANT]
 >
->I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
+>I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne e-mail e nelle esperienze basate su codice.
 
 ➡️ Un caso d&#39;uso end-to-end che mostra come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice è presentato in [questa sezione](experience-decisioning-uc.md).
 
@@ -56,7 +56,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-   +++
++++
 
 1. **Configurare gli attributi personalizzati**: personalizzare il catalogo degli elementi in base alle proprie esigenze impostando gli attributi personalizzati nello schema del catalogo.
 
