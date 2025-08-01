@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '917'
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ L’attività **[!UICONTROL Dividi]** è un’attività di **[!UICONTROL targeti
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filtro attività Dividi"
->abstract="Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utiizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
+>abstract="Per applicare una condizione di filtro al sottoinsieme, fare clic su **[!UICONTROL Crea filtro]** e configurare la regola di filtro desiderata utilizzando il generatore di regole. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ Per configurare l’attività **[!UICONTROL Dividi]** segui questi passaggi:
 
    1. Fai clic su un sottoinsieme per aprirne le impostazioni.
 
-   1. Fai clic su **[!UICONTROL Crea filtro]** per definire le regole di filtro mediante il quey modeler, ad esempio per selezionare profili con un indirizzo e-mail valido.
+   1. Fai clic su **[!UICONTROL Crea filtro]** per definire le regole di filtro utilizzando il generatore di regole, ad esempio per selezionare profili con un indirizzo e-mail valido.
 
       ![](../assets/orchestrated-split-1.png)
 
