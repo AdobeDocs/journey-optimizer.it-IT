@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i se
 * **Tipo di tracciamento e collegamenti** - Per tenere traccia dei collegamenti generati dal decisioning, definiscili nello schema come &quot;Decisioning Assets&quot;. I collegamenti basati su attributi non sono tracciabili.
 * **Nidificazione dei criteri di decisione nelle e-mail** - Non è possibile nidificare più criteri di decisione all&#39;interno di un componente e-mail principale a cui è già associato un criterio di decisione.
 * **percorsi/campagne duplicati con decisioning** - Se duplichi un percorso o una campagna che include un criterio di decisione, la versione duplicata fa riferimento all&#39;e-mail o all&#39;esperienza basata su codice originale, causando errori. Riconfigura sempre il criterio di decisione dopo la duplicazione.
-* **Criteri di consenso** - Gli aggiornamenti ai criteri di consenso possono richiedere fino a 24 ore per diventare effettivi. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
+* **Criteri di consenso** - Gli aggiornamenti ai criteri di consenso richiedono fino a 48 ore per essere effettivi. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
 
   Analogamente, se a un criterio di decisione vengono aggiunti nuovi attributi di profilo soggetti a un criterio di consenso, questi saranno utilizzabili, ma il criterio di consenso associato a essi non verrà applicato fino a quando il ritardo non sarà passato.
 
@@ -118,9 +118,9 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
-   +++Menu Invia e-mail a Designer **[!UICONTROL Decisioning]**
+   Menu +++Invia e-mail a Designer **[!UICONTROL Decisioning]**
 
    1. Seleziona un componente, fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra degli strumenti o nel riquadro delle proprietà, quindi seleziona **[!UICONTROL Aggiungi nuovo criterio]**.
 
@@ -128,7 +128,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Specifica un nome e seleziona un catalogo (attualmente limitato al catalogo predefinito **[!UICONTROL Offerte]**).
 
@@ -236,7 +236,7 @@ Offerta 5 - 50
 
      Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
 
-   +++
++++
 
 1. Fai clic su **[!UICONTROL Avanti]**
 
@@ -291,13 +291,13 @@ Una volta creato, il criterio di decisione e gli attributi collegati agli elemen
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Inserire il codice del criterio di decisione nell’esperienza basata su codice
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
