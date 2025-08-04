@@ -10,7 +10,7 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 | Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
 |---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/><b>[Modificare le espressioni](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione agli schemi e ai set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema da file carica](file-upload-schema.md)</li><li>[Acquisire i dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/><b>[Modificare le espressioni](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Unione E](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Attività dei canali](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -40,7 +40,7 @@ Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a mod
 
 ## Utilizzare l’editor di espressioni {#edit}
 
-La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti permette di utilizzare funzioni avanzate, che ti consentono di gestire i valori utilizzati per eseguire query specifiche, come la gestione di date, stringhe, campi numerici e ordinamento.
+La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità permette di utilizzare funzioni avanzate con cui gestire i valori utilizzati per eseguire query specifiche, come la gestione di date, stringhe, campi numerici e ordinamento.
 
 L’editor di espressioni è disponibile dal pulsante **[!UICONTROL Modifica espressione]** del generatore di regole, disponibile per i campi **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
 
@@ -60,9 +60,9 @@ Modifica l’espressione immettendo un’espressione direttamente nel campo di i
 
 ## Funzioni Helper
 
-Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati gestiti. Sono disponibili le seguenti funzioni:
+Lo strumento di modifica delle query consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati gestiti. Sono disponibili le seguenti funzioni:
 
-### Aggregato
+### Aggregazione
 
 Le funzioni di aggregazione eseguono calcoli su un set di valori.
 
@@ -111,7 +111,7 @@ Le funzioni di aggregazione eseguono calcoli su un set di valori.
 <tr>
 <td><strong>StringAgg</strong></td>
 <td>Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento</td>
-<td>StringAgg(&lt;Valore&gt;, &lt;Stringa&gt;)</td>
+<td>StringAgg(&lt;valore&gt;, &lt;stringa&gt;)</td>
 </tr>
 <tr>
 <td><strong>Sum</strong></td>
@@ -121,9 +121,9 @@ Le funzioni di aggregazione eseguono calcoli su un set di valori.
 </tbody>
 </table>
 
-### Date
+### Data
 
-Le funzioni data gestiscono i valori di data o ora.
+Le funzioni per date gestiscono i valori di data o ora.
 
 <table>
 <tbody>
@@ -164,13 +164,13 @@ Le funzioni data gestiscono i valori di data o ora.
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
-<td>Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando la sessione definita TZ</td>
+<td>Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando il fuso orario della sessione definita</td>
 <td>ConvertNTZ (&lt;data+ora&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
 <td>Confronta due date</td>
-<td>DateCmp(&lt;data, data&gt;)</td>
+<td>DateCmp(&lt;data&gt;, &lt;data&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
@@ -223,7 +223,7 @@ Le funzioni data gestiscono i valori di data o ora.
 <td>HoursDiff(&lt;data di fine&gt;, &lt;data di inizio&gt;)</td>
 </tr>
 <tr>
-<td><strong>Minuti</strong></td>
+<td><strong>Minute</strong></td>
 <td>Restituisce i minuti della data</td>
 <td>Minute(&lt;data&gt;)</td>
 </tr>
@@ -325,7 +325,7 @@ Le funzioni data gestiscono i valori di data o ora.
 <tr>
 <td><strong>TruncDateTZ</strong></td>
 <td>Arrotonda una data + ora a una determinata precisione, espressa in secondi</td>
-<td>TruncDateTZ(&lt;data&gt;, &lt;numero di secondi&gt;, &lt;time zone&gt;)</td>
+<td>TruncDateTZ(&lt;data&gt;, &lt;numero di secondi&gt;, &lt;fuso orario&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
@@ -399,12 +399,12 @@ Le funzioni di geomarketing vengono utilizzate per manipolare i valori geografic
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
    <td> Restituisce la distanza tra due punti definiti da longitudine e latitudine espressa in gradi.<br /> </td> 
-   <td> Distance(&lt;Longitudine A&gt;, &lt;Latitudine A&gt;, &lt;Longitudine B&gt;, &lt;Latitudine B&gt;)<br /> </td>  
+   <td> Distance(&lt;longitudine A&gt;, &lt;latitudine A&gt;, &lt;longitudine B&gt;, &lt;latitudine B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Numerico
+### Numeriche
 
 Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
 
@@ -427,7 +427,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Restituisce il numero intero maggiore o uguale a un numero<br /> </td> 
+   <td> Restituisce il numero intero più grande maggiore o uguale a un numero<br /> </td> 
    <td> Floor(&lt;numero&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -442,7 +442,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Restituisce il resto della divisione del numero intero da n1 per n2<br /> </td> 
+   <td> Restituisce il resto della divisione del numero intero n1 per n2<br /> </td> 
    <td> Mod(&lt;numero 1&gt;, &lt;numero 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -511,8 +511,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
-   <td> Elimina il contrassegno nel valore<br /> </td> 
-   <td> ClearBit(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
+   <td> Elimina il flag nel valore<br /> </td> 
+   <td> ClearBit(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Coalesce</strong><br /> </td> 
@@ -547,8 +547,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
-   <td> Indica se il contrassegno si trova nel valore<br /> </td> 
-   <td> IsBitSet(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
+   <td> Indica se il flag si trova nel valore<br /> </td> 
+   <td> IsBitSet(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
@@ -572,8 +572,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
-   <td> Forza il contrassegno nel valore<br /> </td> 
-   <td> SetBit(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
+   <td> Forza il flag nel valore<br /> </td> 
+   <td> SetBit(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
@@ -722,12 +722,12 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA256 di una stringa.<br /> </td> 
-   <td> Sha256Digest(&lt;Stringa&gt;)<br /> </td> 
+   <td> Sha256Digest(&lt;stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA512 di una stringa.<br /> </td> 
-   <td> Sha512Digest(&lt;Stringa&gt;)<br /> </td> 
+   <td> Sha512Digest(&lt;stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -774,7 +774,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Esegue la chiamata alla funzione SQL immessa come primo parametro, su Partizione o Ordina per i campi immessi come secondo parametro<br /> </td> 
-   <td> _Over_ (&lt;Valore&gt;, &lt;Valore&gt;)<br /> </td>  
+   <td> _Over_ (&lt;valore&gt;, &lt;valore&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
