@@ -118,9 +118,9 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
       ![](assets/decision-code-based-create.png)
 
-+++
+   +++
 
-   Menu +++Invia e-mail a Designer **[!UICONTROL Decisioning]**
+   +++Menu Invia e-mail a Designer **[!UICONTROL Decisioning]**
 
    1. Seleziona un componente, fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra degli strumenti o nel riquadro delle proprietà, quindi seleziona **[!UICONTROL Aggiungi nuovo criterio]**.
 
@@ -128,7 +128,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
       ![](assets/decision-policy-email-designer.png)
 
-+++
+   +++
 
 1. Specifica un nome e seleziona un catalogo (attualmente limitato al catalogo predefinito **[!UICONTROL Offerte]**).
 
@@ -236,7 +236,7 @@ Offerta 5 - 50
 
      Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
 
-+++
+   +++
 
 1. Fai clic su **[!UICONTROL Avanti]**
 
@@ -291,13 +291,13 @@ Una volta creato, il criterio di decisione e gli attributi collegati agli elemen
 
    ![](assets/decision-policy-placement.png)
 
-+++
+   +++
 
    +++Inserire il codice del criterio di decisione nell’esperienza basata su codice
 
    ![](assets/decision-code-based-add-decision.png)
 
-+++
+   +++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
