@@ -6,10 +6,11 @@ description: Scopri come configurare il tuo ambiente per inviare messaggi LINE c
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
+source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '351'
+ht-degree: 6%
 
 ---
 
@@ -51,3 +52,56 @@ ht-degree: 4%
 1. Invia le modifiche.
 
 Ora puoi selezionare la configurazione durante la creazione del messaggio LINE.
+
+## Configurare l’API delle impostazioni del canale LINE {#line-api}
+
+Questa API configura le impostazioni del canale che memorizzano i dettagli di autorizzazione e configurazione necessari per la connessione all’API di messaggistica LINE. Queste impostazioni consentono a Adobe Journey Optimizer di autenticare e inviare messaggi tramite LINE utilizzando le credenziali fornite.
+
+**Endpoint**
+
+```
+POST https://platform.adobe.io/journey/imp/config/channel-settings
+```
+
+| Nome intestazione | Descrizione |
+|-|-|
+| Authorization | Token utente dal tuo account tecnico |
+| x-api-key | ID client da Adobe Developer Console |
+| x-gw-ims-org-id | ID organizzazione IMS |
+| x-sandbox-name | Nome della sandbox, ad esempio prod |
+| Content-Type | Deve essere application/json |
+
+
+**Corpo richiesta**
+
+```json
+{
+    "name": "your_defined_name",
+    "channelRegistryId": "line",
+    "channel": "line",
+    "channelSettings": {
+        "channelId": "your_line_channel_id",
+        "channelSecret": "your_line_channel_secret"
+    }
+}
+```
+
+**Risposta impostazioni canale**
+
+```json
+{
+"id": "3603ed66-ae86-42b8-8a90-d4b4e54e7c3b",
+"name": "your_defined_name",
+"channelRegistryId": "line",
+"channel": "line",
+"channelSettings": {
+    "channelId": "your_line_channel_id",
+    "channelSecret": "your_line_channel_secret"
+    },
+    "channelPublicationId": "v1_line",
+    "createdAt": "2025-07-30T12:00:00.000Z",
+    "modifiedAt": "2025-07-30T12:00:00.000Z",
+    "isFromLatestVersion": true,
+    "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
+}
+```
