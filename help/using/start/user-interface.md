@@ -233,7 +233,7 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
 >title="Orchestrazione delle campagne"
->abstract="Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico"
+>abstract="Dividi, combina, arricchisci e manipola set di dati relazionali per definire il pubblico"
 
 
 
@@ -247,7 +247,7 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
 >title="Segmentazione ad hoc e conteggi esatti"
->abstract="Generare un segmento passo dopo passo con conteggi esatti"
+>abstract="Crea un segmento passo dopo passo con conteggi esatti"
 
 
 

@@ -13,12 +13,12 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 5%
+ht-degree: 30%
 
 ---
 
 
-# Utilizzare le campagne d’azione {#gs-action-campaigns}
+# Utilizzare le campagne di azione {#gs-action-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 ## Informazioni sulle campagne d’azione {#about}
 
-Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni in batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti delle policy.
+Le campagne di azione (o campagne pianificate) consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -44,4 +44,4 @@ Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
