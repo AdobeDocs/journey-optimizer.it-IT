@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 30%
+source-wordcount: '152'
+ht-degree: 25%
 
 ---
 
@@ -33,15 +33,19 @@ Le campagne di azione (o campagne pianificate) consentono comunicazioni batch se
 
 ## Passaggi chiave per la creazione di campagne d’azione {#steps}
 
-1. [Definire le proprietà della campagna di azione](campaign-properties.md)
+1. [Definire le proprietà della campagna Azione](campaign-properties.md)
 1. [Configurare l’azione della campagna](campaign-action.md)
-1. [Modificare il contenuto della campagna di azione](campaign-content.md)
+1. [Modificare il contenuto della campagna Azione](campaign-content.md)
 1. [Definire il pubblico della campagna di azione](campaign-audience.md)
-1. [Pianificare la campagna di azione](campaign-schedule.md)
-1. [Rivedi e attiva la campagna di azione](review-activate-campaign.md)
+1. [Pianificare la campagna Azione](campaign-schedule.md)
+1. [Rivedi e attiva la campagna Azione](review-activate-campaign.md)
+
+>[!IMPORTANT]
+>
+>Prima di creare la campagna, assicurati di aver rivisto i [prerequisiti generali per la campagna](../campaigns/get-started-with-campaigns.md#prerequisites).
 
 ## Video sulle procedure {#video}
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

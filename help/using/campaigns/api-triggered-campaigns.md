@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 45%
+source-wordcount: '246'
+ht-degree: 42%
 
 ---
 
@@ -43,6 +43,10 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 1. [Pianificare la campagna](api-triggered-campaign-schedule.md)
 1. [Rivedere e attivare una campagna](review-activate-api-triggered-campaign.md)
 1. [Attivare l’esecuzione della campagna](trigger-campaigns.md)
+
+>[!IMPORTANT]
+>
+>Prima di creare la campagna, assicurati di aver rivisto i [prerequisiti generali per la campagna](../campaigns/get-started-with-campaigns.md#prerequisites).
 
 ## Video sulle procedure {#video}
 

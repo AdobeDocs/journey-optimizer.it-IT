@@ -3,47 +3,36 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creare la dimensione di targeting
 description: Scopri come mappare uno schema relazionale al profilo cliente
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
 
+
 # Configurare una dimensione di targeting {#configuration}
 
-+++ Sommario
+Con **[!UICONTROL Campagne orchestrate]**, puoi progettare e distribuire comunicazioni mirate a livello di entità, sfruttando le funzionalità dello schema relazionale di Adobe Experience Platform.
 
-| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
-|---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md)<br/><br/>[Configurare una dimensione di destinazione](target-dimension.md) | <b>[Creare e pianificare la campagna](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+Anche se la segmentazione per **[!UICONTROL Campagne orchestrate]** opera principalmente su schemi relazionali, la consegna effettiva dei messaggi avviene sempre al livello **Profilo**.
 
-{style="table-layout:fixed"}
+Durante la configurazione del targeting, puoi definire due aspetti chiave:
 
-+++
+* **Schemi di destinazione**
 
+  Puoi specificare quali schemi relazionali sono idonei per il targeting. Per impostazione predefinita, viene utilizzato lo schema denominato `Recipient`, ma è possibile configurare alternative quali `Visitors`, `Customers` e così via.
 
-<br/>
+  >[!IMPORTANT]
+  >
+  > Lo schema di destinazione deve avere una relazione 1:1 con lo schema `Profile`. Ad esempio, non è possibile utilizzare `Purchases` come schema di destinazione, poiché in genere rappresenta una relazione uno-a-molti.
 
->[!BEGINSHADEBOX]
+* **Collegamento profilo**
 
-</br>
-
-Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
-
->[!ENDSHADEBOX]
-
-In molti casi, un singolo profilo cliente può essere collegato a più entità correlate, come abbonamenti, contratti di servizio o dispositivi, ciascuna con il proprio identificativo univoco e le proprie esigenze di comunicazione.
-
-Con **Campagne orchestrate**, ora puoi progettare e distribuire comunicazioni mirate a livello di entità, utilizzando le **funzionalità dello schema relazionale di Adobe Experience Platform**. Questo consente di segmentare, personalizzare e generare rapporti per entità invece che per destinatario.
+  Il sistema deve capire come lo schema di destinazione viene mappato a `Profile`. Ciò si ottiene tramite un campo di identità condiviso, esistente sia nello schema di destinazione che nello schema `Profile`, configurato come spazio dei nomi dell&#39;identità.
 
 ## Creare la dimensione di targeting {#targeting-dimension}
-
-Un singolo profilo cliente può essere associato a più entità correlate, ad esempio contratti, dispositivi o abbonamenti, ciascuna con un proprio identificativo univoco. Questa configurazione consente di eseguire il targeting, segmentare e generare rapporti su ogni entità singolarmente.
 
 Per iniziare, imposta l’orchestrazione delle campagne mappando uno schema relazionale al profilo cliente.
 
@@ -55,21 +44,29 @@ Per iniziare, imposta l’orchestrazione delle campagne mappando uno schema rela
 
 1. Scegli lo [schema configurato in precedenza](gs-schemas.md) &#x200B;dal menu a discesa.
 
+   Anche se tutti gli schemi relazionali sono visibili, solo gli schemi con una relazione di identità diretta con il **Profilo** possono essere selezionati.
+
 1. Selezionare il **[!UICONTROL valore identità]** che rappresenta l&#39;entità di destinazione.
 
    In questo esempio, il profilo cliente è collegato a più sottoscrizioni, ognuna rappresentata da un `crmID` univoco nello schema `Recipient`. Impostando lo schema **[!UICONTROL e la relativa identità]** per `Recipient`Dimension`crmID` di destinazione, è possibile inviare messaggi a livello di sottoscrizione anziché al profilo cliente principale, garantendo che ogni contratto o linea riceva il proprio messaggio personalizzato.
 
-   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity)
+   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
-1. Fai clic su **[!UICONTROL Salva]** per completare l&#39;installazione.
+1. Fai clic su **[!UICONTROL Salva]** per completare l&#39;installazione. Una volta creata, una **[!UICONTROL dimensione di destinazione]** non può essere rimossa o modificata.
 
 Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, procedere con la creazione e la configurazione della **[!UICONTROL Configurazione canale]** e definire i **[!UICONTROL Dettagli esecuzione]** corrispondenti.
 
 ## Configurazione del canale {#channel-configuration}
 
-Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, devi configurare la **[!UICONTROL configurazione canale]** e definire i **[!UICONTROL dettagli di esecuzione]** appropriati. In questo modo i messaggi vengono inviati utilizzando l’identità e la logica di targeting corrette.
+Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, devi configurare la **[!UICONTROL configurazione canale]** e definire i **[!UICONTROL dettagli di esecuzione]** appropriati. Questo consente di definire:
+
+* **Livello di recapito dei messaggi**: ad esempio, l&#39;invio di un messaggio per destinatario, ad esempio una singola e-mail per singolo destinatario.
+
+* **Indirizzo di esecuzione**: il campo del contatto specifico da utilizzare per l&#39;invio, ad esempio un indirizzo e-mail o un numero di telefono.
+
+Per configurare la configurazione del canale:
 
 1. Per iniziare, crea e configura la **[!UICONTROL configurazione canale]**.
 
@@ -93,15 +90,21 @@ Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, devi config
 
    ![](assets/target-dimension-4.png)
 
+1. Se hai selezionato **[!UICONTROL Target + Dimension]** secondario come metodo di consegna, scegli un **[!UICONTROL Dimension secondario]** per definire il contesto per la consegna dei messaggi.
+
 1. Nella sezione **[!UICONTROL Indirizzo di esecuzione]**, scegli quale **[!UICONTROL Source]** deve essere utilizzato per recuperare l&#39;indirizzo di consegna, ad esempio l&#39;indirizzo e-mail o il numero di telefono:
 
    * **[!UICONTROL Profilo]**: selezionare questa opzione se l&#39;indirizzo di consegna, ad esempio e-mail, è memorizzato direttamente nel profilo cliente principale.
 
      Utile quando si inviano messaggi al cliente principale, non a una specifica entità associata.
 
-   * **[!UICONTROL Dimension di destinazione]**: scegliere questa opzione se l&#39;indirizzo di consegna è archiviato nell&#39;entità correlata, ad esempio un destinatario o una sottoscrizione.
+   * **[!UICONTROL Dimension di destinazione]**: scegliere questa opzione se l&#39;indirizzo di consegna è archiviato nell&#39;entità principale, ad esempio un destinatario.
 
      Utile quando ogni destinatario ha il proprio indirizzo di consegna, ad esempio un indirizzo e-mail o un numero di telefono diverso.
+
+   * **[!UICONTROL Dimension secondario]**: quando si utilizza **[!UICONTROL Target + Dimension secondario]** come metodo di consegna, selezionare il **[!UICONTROL Dimension secondario]** pertinente configurato in precedenza.
+
+     Ad esempio, se la dimensione secondaria rappresenta una prenotazione o un abbonamento, l’indirizzo di esecuzione, ad esempio un’e-mail, può essere preso da tale livello. Ciò è utile nei casi in cui i profili utilizzano un recapito diverso al momento della prenotazione o dell’abbonamento a un servizio.
 
 1. Dal campo **[!UICONTROL Indirizzo di consegna]**, fai clic su ![icona di modifica](assets/do-not-localize/edit.svg) per scegliere il campo specifico da utilizzare per la consegna del messaggio.
 

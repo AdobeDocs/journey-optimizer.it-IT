@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '987'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,7 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 | Regole Journey Optimizer | **[!DNL Manage frequency rules]**: accedere, creare, modificare o eliminare le regole di frequenza dei messaggi.</br>**[!DNL View frequency rules]**: accesso in sola lettura alle regole. |
 | Percorsi | **[!DNL Approve & publish Journeys]**: diritto di approvare e pubblicare percorsi quando viene applicato un criterio. </br> **[!DNL Manage journeys]**: lettura, creazione, modifica ed eliminazione di percorsi. Per accedere e gestire i percorsi, combinare questa autorizzazione con **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: lettura, creazione, modifica ed eliminazione di eventi, origini o azioni.</br>**[!DNL Publish journeys]**: pubblica percorsi.</br>**[!DNL View journeys]**: accesso in sola lettura ai percorsi.</br>**[!DNL View journeys events, data sources and actions]**: accesso in sola lettura agli eventi di percorso, alle azioni personalizzate del percorso e alle origini dati del percorso.</br>**[!DNL View journeys report]**: leggere e modificare il report percorsi.</br> |
 | Messaggi | **[!DNL Manage messages]**: lettura, creazione, modifica ed eliminazione di messaggi. </br>**[!DNL Manage messages preview and test]**: diritto di approvare e pubblicare messaggi quando viene applicato un criterio.</br>**[!DNL Publish messages]**: diritto di pubblicare i messaggi.</br>**[!DNL View messages]**: accesso in sola lettura ai messaggi.</br>**[!DNL View messages report]**: legge e modifica i rapporti sui messaggi. |
+| Campagne orchestrate | **[!DNL Manage orchestrated campaigns]**: lettura, creazione, modifica ed eliminazione di campagne orchestrate.</br>**[!DNL Manage orchestrated campaigns admin]**: lettura, creazione, modifica ed eliminazione di collegamenti e riconciliazioni tra i profili di Adobe Experience Platform e le entità dell&#39;archivio relazionale.</br>**[!DNL Publish orchestrated campaigns]**: pubblica campagne orchestrate. </br>**[!DNL View orchestrated campaigns admin]**: lettura e modifica di collegamenti e riconciliazioni tra i profili di Adobe Experience Platform e le entità dell&#39;archivio relazionale.</br>**[!DNL View orchestrated campaigns]**: lettura e modifica di campagne orchestrate.</br>**[!DNL View orchestrated campaigns report]**: lettura e modifica del report Campagne orchestrate. |
 | Gestione dei profili | **[!DNL Evaluate a segment to an audience]**: genera profili per un pubblico valutando una definizione di segmento.</br>**[!DNL Export audience segments]**: esporta un segmento di pubblico valutato in un set di dati.</br>**[!DNL Manage merge policies]**: lettura, creazione, modifica ed eliminazione dei criteri di unione.</br>**[!DNL Manage profiles]**: legge, crea, modifica ed elimina i set di dati utilizzati per i profili cliente. Accesso in sola lettura ai profili disponibili.</br>**[!DNL View merge policies]**: accesso in sola lettura ai criteri di unione disponibili.</br>**[!DNL View profiles]**: accesso in sola lettura ai profili disponibili.</br>**[!DNL View segments]**: accesso in sola lettura ai pubblici disponibili. |
 | Servizio query | **[!DNL Manage queries]**: lettura, creazione, modifica ed eliminazione di query SQL strutturate per i dati di Platform.</br>**[!DNL Manage query service integration]**: crea, aggiorna ed elimina credenziali senza scadenza per l&#39;accesso a Query Service. |
 | Rapporti | **[!DNL View channel reports]**: legge e modifica i rapporti sul canale. |
@@ -49,5 +50,3 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 
 {style="table-layout:fixed"}
 
-<!--
-|Orchestrated campaigns|**[!DNL Manage orchestrated campaigns]**: read, create, edit, and delete orchestrated campaigns.</br>**[!DNL Publish orchestrated campaigns]**: publish orchestrated campaigns. </br>**[!DNL View orchestrated campaigns admin]**: XX. </br>**[!DNL Manage orchestrated campaigns admin]**: XX. </br>**[!DNL View orchestrated campaigns]**: read and edit orchestrated campaigns.</br>**[!DNL View orchestrated campaigns report]**: read and edit orchestrated campaigns report.|-->

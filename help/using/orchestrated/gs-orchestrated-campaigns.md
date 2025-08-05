@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione alle campagne orchestrate
 description: Scopri come iniziare a utilizzare le campagne orchestrate
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '579'
+ht-degree: 14%
 
 ---
+
 
 # Introduzione alle campagne orchestrate {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 10%
 >id="campaigns_overview_orchestrated"
 >title="campaign_overview_orchestrated"
 >abstract="<b>Orchestrazione campagna</b><br/>Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con più entità</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea il segmento passo dopo passo con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail"
-
-+++ Sommario
-
-| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
-|---|---|---|---|
-| <b>[Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)</b><br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
-
->[!ENDSHADEBOX]
 
 L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fedeltà dei clienti su larga scala.
 
@@ -53,14 +31,14 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
+<td><img alt="Pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Tipi di pubblico su richiesta</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.<br/><br/>
+<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.<br/><br/>
 È supportato l’invio multilivello, in cui viene inviato un messaggio per profilo e per entità secondaria associata. Tali entità secondarie possono includere indirizzi di contatto, prenotazioni, abbonamenti, contratti o altri dati collegati. Ad esempio, questo consente di inviare le campagne a tutti gli indirizzi noti di un profilo o a ogni prenotazione associata a quel profilo.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
+<td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Flussi di lavoro per campagne in più passaggi" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Flussi di lavoro per campagne con più passaggi</b><br/>Progetta campagne con più passaggi, dai messaggi giornalieri alle campagne complesse come le promozioni stagionali o i principali lanci di prodotti.</td></tr>
+<td><img alt="Flussi di lavoro per campagne in più passaggi" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Flussi di lavoro per campagne con più passaggi</b><br/>Progetta campagne con più passaggi, dai messaggi giornalieri alle campagne complesse come le promozioni stagionali o i principali lanci di prodotti.</td></tr>
 </table>
 
 ## Campagne e percorsi orchestrati
@@ -69,17 +47,25 @@ Anche se la visualizzazione delle campagne orchestrate ha somiglianze con i perc
 
 * **Percorsi** - da 1 a 1 area di lavoro in cui ogni profilo viaggia attraverso i diversi passaggi al proprio ritmo. Lo stato di ciascun cliente viene mantenuto nel suo contesto per attivare azioni in tempo reale.
 
-* **Campagne orchestrate** - A differenza dei percorsi, le campagne orchestrate funzionano utilizzando un&#39;area di lavoro batch che calcola i segmenti. Tutti i profili vengono elaborati contemporaneamente.
+* **Campagne orchestrate** - A differenza dei percorsi, le campagne orchestrate funzionano utilizzando un&#39;area di lavoro batch per il calcolo dei segmenti. Tutti i profili vengono elaborati contemporaneamente.
 
 Entrambe le aree di lavoro sono ottimizzate per i rispettivi casi d’uso: l’area di lavoro Percorso pubblica percorsi che tendono a durare per un periodo di tempo più lungo, mentre l’area di lavoro Campaign è progettata per esecuzioni iterative e incrementali di una campagna batch.
 
-## Prerequisiti
+## Cosa c&#39;è all&#39;interno di una campagna orchestrata? {#gs-ms-campaign-inside}
 
-Prima di lavorare con le campagne orchestrate, è essenziale assicurarsi di disporre delle autorizzazioni appropriate. L&#39;accesso alle campagne orchestrate è limitato agli utenti assegnati a un **[!UICONTROL profilo di prodotto]** rilevante, ad esempio Amministratore campagna orchestrata, Approvatore campagna orchestrata, Gestore campagna orchestrata o Visualizzatore campagna orchestrata.
+L&#39;area di lavoro della campagna orchestrata è una rappresentazione di ciò che dovrebbe accadere. Descrive le varie attività da eseguire e il modo in cui vengono collegate tra loro.
 
-Se non riesci ad accedere alle funzionalità della campagna orchestrata, contatta l’amministratore per richiedere le autorizzazioni necessarie.
+![immagine che mostra un&#39;area di lavoro della campagna orchestrata](assets/canvas-example.png)
 
-➡️ [Ulteriori informazioni sui profili di prodotto relativi alle campagne orchestrate](../administration/ootb-product-profiles.md)
+Ogni campagna orchestrata contiene:
+
+* **Attività**: un’attività è un’attività da eseguire. Le varie attività disponibili sono rappresentate nel diagramma tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
+
+  In un diagramma di una campagna orchestrata, una determinata attività può produrre più attività, in particolare quando vi è un ciclo continuo o azioni ricorrenti.
+
+* **Transizioni**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza.
+
+* **Tabelle di lavoro**: la tabella di lavoro contiene tutte le informazioni riportate dalla transizione. Ogni campagna orchestrata utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della campagna orchestrata.
 
 ## Approfondiamo
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
@@ -17,9 +17,9 @@ ht-degree: 3%
 ---
 
 
-# Rivedi e attiva la campagna di azione {#action-campaign-review}
+# Rivedere e attivare la campagna Azione {#action-campaign-review}
 
-Una volta configurata la campagna di azione, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
+Una volta configurata la campagna Action, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 
 >[!IMPORTANT]
 >

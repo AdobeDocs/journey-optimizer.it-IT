@@ -3,36 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Modificare le espressioni
 description: Scopri come modificare le espressioni.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 98%
+source-wordcount: '2034'
+ht-degree: 100%
 
 ---
 
 
 # Modificare le espressioni {#edit-expressions}
-
-+++ Sommario
-
-| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
-|---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione agli schemi e ai set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema da file carica](file-upload-schema.md)</li><li>[Acquisire i dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/><b>[Modificare le espressioni](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[Unione E](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Cambia dimensione](activities/change-dimension.md) - [Attività dei canali](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-<br/>
-
->[!BEGINSHADEBOX]
-
-Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >

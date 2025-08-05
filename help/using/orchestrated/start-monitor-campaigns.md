@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Avviare e monitorare le campagne orchestrate con Adobe Journey Optimizer
 description: Scopri come avviare e monitorare le campagne orchestrate con Adobe Journey Optimizer.
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 54%
+source-wordcount: '761'
+ht-degree: 51%
 
 ---
+
 
 # Avviare e monitorare le campagne orchestrate {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 54%
 >id="ajo_campaign_publication"
 >title="Pubblica campagna orchestrata"
 >abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli errori siano cancellati prima della pubblicazione."
-
-+++ Sommario
-
-| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
-|---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/><b>[Avviare e monitorare la campagna](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
-
->[!ENDSHADEBOX]
 
 Dopo aver creato e orchestrato le attività da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne la modalità di esecuzione.
 
@@ -50,18 +29,13 @@ Puoi anche eseguire la campagna in modalità di test per verificarne l’esecuzi
 
 >[!IMPORTANT]
 >
->Tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e delle attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.**
+>Tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e delle attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.
 
-Per testare una campagna:
-
-1. Apri la campagna orchestrata.
-2. Fai clic su **[!UICONTROL Inizio]**.
+Per verificare una campagna orchestrata, aprire la campagna e selezionare **[!UICONTROL Inizio]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine del diagramma.
-
-Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui, puoi:
+Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine del diagramma. Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui, puoi:
 
 * **Interrompere** l’esecuzione in qualsiasi momento.
 * **Avviare** di nuovo l’esecuzione.
@@ -104,7 +78,7 @@ I dati trasferiti da un’attività all’altra tramite transizioni vengono arch
 1. Seleziona una transizione.
 1. Nel riquadro delle proprietà fai clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro. Seleziona **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasferiti.
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### Indicatori di esecuzione delle attività {#activities}
 
@@ -124,7 +98,9 @@ Gli indicatori di stato visivi consentono di comprendere le prestazioni di ogni 
 >title="Registri e attività"
 >abstract="La schermata **Registri e attività** fornisce una cronologia dell&#39;esecuzione della campagna orchestrata, registrando tutte le azioni dell&#39;utente e gli errori riscontrati."
 
-Monitorare registri e attività è un passaggio chiave per analizzare le campagne orchestrate e assicurarti che vengano eseguite correttamente. I registri e le attività sono accessibili dal pulsante **[!UICONTROL Registri]** disponibile sia in modalità di test che in modalità live nella barra degli strumenti dell’area di lavoro o nel riquadro delle proprietà di ogni attività.
+Monitorare registri e attività è un passaggio chiave per analizzare le campagne orchestrate e assicurarti che vengano eseguite correttamente. I registri e le attività sono accessibili dal pulsante **[!UICONTROL Registri]** disponibile sia in modalità di test che in modalità live nella barra degli strumenti dell&#39;area di lavoro.
+
+![](assets/logs-button.png){zoomable="yes"}
 
 La schermata **[!UICONTROL Registri e attività]** fornisce una cronologia completa dell’esecuzione della campagna orchestrata, registrando tutte le azioni dell’utente e gli errori riscontrati.
 
@@ -136,3 +112,7 @@ Sono disponibili due tipi di informazioni:
 * La scheda **[!UICONTROL Attività]** descrive la sequenza di esecuzione dettagliata delle attività.
 
 In entrambe le schede, puoi scegliere le colonne visualizzate e il rispettivo ordine, applicare filtri e utilizzare il campo di ricerca per trovare rapidamente le informazioni desiderate.
+
+## Passaggi successivi {#next}
+
+Dopo aver avviato il diagramma Orchestrated Campaign, puoi utilizzare le funzionalità di reporting di Journey Optimizer per ottenere informazioni quali comprendere il comportamento del pubblico e misurare le prestazioni di ogni passaggio nel percorso di clienti. [Ulteriori informazioni sul reporting delle campagne orchestrate](../orchestrated/reporting-campaigns.md)

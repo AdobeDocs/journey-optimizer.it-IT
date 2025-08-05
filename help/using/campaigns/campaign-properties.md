@@ -9,15 +9,15 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 28%
+ht-degree: 34%
 
 ---
 
-
-# Definire le proprietà della campagna di azione {#action-campaign-properties}
+# Definire le proprietà della campagna Azione {#action-campaign-properties}
 
 Per creare una campagna di azioni e definirne le proprietà, effettua le seguenti operazioni:
 
@@ -31,10 +31,10 @@ Per creare una campagna di azioni e definirne le proprietà, effettua le seguent
 
    ![](assets/create-campaign-properties.png)
 
-1. Utilizza il campo **Tag** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags).
+1. Utilizza il campo **Tag** per assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
 1. Puoi limitare l’accesso a questa campagna in base alle etichette di accesso. Per aggiungere un limite di accesso, seleziona il pulsante **[!UICONTROL Gestisci accesso]** nella parte superiore della pagina. Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
 ## Passaggi successivi {#next}
 
-Una volta creata e configurata la campagna di azione, puoi configurarne l’azione. [Ulteriori informazioni](campaign-action.md)
+Una volta creata e configurata la campagna Azione, puoi configurarne l’azione. [Ulteriori informazioni](campaign-action.md)

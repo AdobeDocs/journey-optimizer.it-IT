@@ -8,17 +8,17 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
 
 ---
 
-
 # Rivedi e attiva la campagna attivata dall’API {#api-review}
 
-Una volta configurata la campagna di azione, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
+Una volta configurata la campagna Action, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 
 >[!IMPORTANT]
 >

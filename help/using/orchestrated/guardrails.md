@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 1%
 
 ---
 
+
 # Guardrail e limitazioni {#guardrails}
 
-+++ Sommario
+Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di campagne orchestrate.
 
-| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
-|---|---|---|---|
-| [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](gs-schemas.md)</li><li>[Schema manuale](manual-schema.md)</li><li>[Schema di caricamento file](file-upload-schema.md)</li><li>[Acquisire dati](ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](access-manage-orchestrated-campaigns.md)<br/><br/>[Passaggi chiave per creare una campagna orchestrata](gs-campaign-creation.md) | [Creare e pianificare la campagna](create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utilizzare il generatore di regole](orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](build-query.md)<br/><br/>[Modificare le espressioni](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Introduzione alle attività](activities/about-activities.md)<br/><br/>Attività:<br/>[AND-join](activities/and-join.md) - [Crea pubblico](activities/build-audience.md) - [Modifica dimensione](activities/change-dimension.md) - [Attività canale](activities/channels.md) - [Combina](activities/combine.md) - [Deduplica](activities/deduplication.md) - [Arricchimento](activities/enrichment.md) - [Fork](activities/fork.md) - [Riconciliazione](activities/reconciliation.md) - [Salva pubblico](activities/save-audience.md) - [Dividi](activities/split.md) - [Attendi](activities/wait.md) |
+## Limitazioni del flusso di dati
 
-{style="table-layout:fixed"}
+### Progettazione e archiviazione dei dati
 
-+++
+* L&#39;archivio dati relazionale supporta un massimo di **200 tabelle** (schemi).
 
-## Limitazioni del flusso di dati rispetto al set di dati
+* Per le campagne orchestrate, la dimensione totale di ogni singolo schema **non deve superare i 100 GB**.
 
-Ogni set di dati in Adobe Experience Platform può essere associato a un solo flusso di dati attivo alla volta. Questa cardinalità 1:1 è rigorosamente applicata dalla piattaforma.
+* Gli aggiornamenti giornalieri a uno schema devono essere **limitati a meno del 20%** del numero totale di record per mantenere prestazioni e stabilità.
 
-Se devi cambiare origine dati (ad esempio, da Amazon S3 a Salesforce):
+* I dati relazionali sono il modello principale supportato per i casi di utilizzo di acquisizione, modellazione di dati e segmentazione.
 
-Devi eliminare il flusso di dati esistente connesso al set di dati.
+* Gli schemi utilizzati per il targeting devono contenere almeno **un campo di identità di tipo`String`**, mappato a uno spazio dei nomi di identità definito.
 
-Quindi, crea un nuovo flusso di dati con la nuova origine mappata sullo stesso set di dati.
-
-Questo garantisce l’acquisizione affidabile dei dati ed è essenziale quando si utilizza Change Data Capture (CDC), che dipende da una chiave primaria definita e da un attributo di controllo delle versioni (ad esempio, lastmodified) per gli aggiornamenti incrementali.
-
-
-## Schemi relazionali/limitazioni dell’acquisizione dei dati
-
-* Nell’archivio dati relazionale sono supportati fino a 200 schemi (tabelle) relazionali.
-
-* La dimensione totale di uno schema relazionale utilizzato per l’orchestrazione delle campagne non deve superare i 100 GB.
-
-* L’acquisizione in batch per l’orchestrazione delle campagne deve avvenire non più di una volta ogni 15 minuti.
-
-* Le modifiche giornaliere a uno schema relazionale devono rimanere inferiori al 20% del conteggio totale dei record.
-
-## Modellazione dati
-
-* Il descrittore di versione è obbligatorio in tutti gli schemi, incluse le tabelle dei fatti.
-
-* Per ogni tabella è necessaria una chiave primaria.
-
-* Il nome_tabella assegnato durante la creazione del set di dati viene utilizzato nell’interfaccia utente di segmentazione e nelle funzioni di personalizzazione.
-
-  Questo nome è permanente e non può essere modificato dopo la creazione.
-
-* I gruppi di campi non sono attualmente supportati.
-
-## Acquisizione dei dati
+### Acquisizione dei dati
 
 * È necessaria l’acquisizione di dati di profilo + relazionali.
 
-* Per l’acquisizione basata su file è necessario un campo del tipo di modifica, mentre per l’acquisizione Cloud DB deve essere abilitata la registrazione delle tabelle. Questa operazione è necessaria per Change Data Capture (CDC).
+* Tutte le acquisizioni devono avvenire tramite **Cambia origine dati**:
 
-* La latenza dall’acquisizione alla disponibilità dei dati in Snowflake varia da 15 minuti a 2 ore, a seconda del volume dei dati, della concorrenza e del tipo di operazioni (gli inserimenti sono più veloci degli aggiornamenti).
+   * Per **Basato su file**: il campo `change_type` è obbligatorio.
 
-* Il monitoraggio dei dati in Snowflake è in fase di sviluppo; al momento, non esiste alcuna conferma nativa per la corretta acquisizione.
+   * Per **basato su cloud**: la registrazione della tabella deve essere abilitata.
 
-* Gli aggiornamenti diretti a Snowflake o al set di dati non sono supportati. Tutte le modifiche devono passare attraverso le origini CDC.
+* **Non sono supportati aggiornamenti diretti a Snowflake o set di dati**. Il sistema è di sola lettura. Tutte le modifiche devono essere applicate mediante Change Data Capture.
 
-  Il servizio query è di sola lettura.
+* **I processi ETL non sono supportati**. I dati devono essere completamente trasformati nel formato richiesto prima dell’acquisizione.
 
-* ETL non è supportato: i clienti devono fornire i dati nel formato richiesto.
+* **Non sono consentiti aggiornamenti parziali**, ogni riga deve essere fornita come record completo.
 
-* Non sono consentiti aggiornamenti parziali. Ogni riga deve essere fornita come record completo.
+* L&#39;acquisizione in batch per l&#39;orchestrazione delle campagne è limitata a **una volta ogni 15 minuti**.
 
-* L’acquisizione si basa su Query Service e Data Distiller.
+* La latenza di acquisizione, il tempo che intercorre tra l&#39;acquisizione e la disponibilità in Snowflake, in genere varia da **15 minuti a 2 ore**, a seconda di:
 
-## Segmentazione
+   * Volume dati
 
-* L’elenco di valori e le enumerazioni sono attualmente disponibili.
+   * Concorrenza del sistema
 
-* I tipi di pubblico salvati sono elenchi statici e il loro contenuto riflette i dati disponibili al momento dell’esecuzione della campagna.
+   * Tipo di operazione. Ad esempio, gli inserti sono più veloci degli aggiornamenti
 
-* L&#39;aggiunta a un pubblico salvato non è supportata. Gli aggiornamenti richiedono una sovrascrittura completa.
+### Modellazione dati
 
-* I tipi di pubblico devono essere costituiti solo da attributi scalari; mappe e array non sono supportati.
+* Tutti gli schemi, incluse le tabelle dei fatti, devono includere **un descrittore di versione** per garantire il controllo della versione e la tracciabilità corretti.
 
-* La segmentazione supporta principalmente i dati relazionali. Anche se è consentito combinare dati di profilo, l’inserimento di set di dati di profilo di grandi dimensioni può influire sulle prestazioni. Per evitare questo problema:
+* Ogni tabella deve avere una **chiave primaria** definita per supportare l&#39;integrità dei dati e le operazioni a valle.
 
-* Sono attivati dei guardrail, ad esempio per limitare il numero di attributi di profilo selezionati in batch o per tipi di pubblico in streaming.
+* I `table_name` assegnati durante la creazione del set di dati sono permanenti e vengono utilizzati durante tutte le funzioni di segmentazione e personalizzazione.
 
-* I tipi di pubblico di lettura non sono memorizzati in cache - ogni esecuzione di una campagna attiva una lettura completa.
+* **I gruppi di campi non sono supportati** nel framework di modellazione dati corrente.
 
-  L’ottimizzazione è necessaria per tipi di pubblico grandi o complessi.
+## Limitazioni delle attività
+
+* Nelle definizioni del pubblico sono supportati solo **attributi scalari**; **mappe e array non sono consentiti**.
+
+* **Le attività di segmentazione si basano principalmente su dati relazionali**. Anche se i dati di profilo possono essere inclusi, l’utilizzo di set di dati di profilo di grandi dimensioni può influire sulle prestazioni.
+
+* **Sono applicati limiti al numero di attributi di profilo** che possono essere utilizzati sia nel pubblico in batch che in quello in streaming per mantenere l&#39;efficienza del sistema.
+
+* **Elenco di valori** e **enumerazioni** sono completamente supportati.
+
+* **I tipi di pubblico di lettura non sono memorizzati in cache**. Ogni esecuzione della campagna attiva una valutazione completa del pubblico dai dati sottostanti.
+
+* **L&#39;ottimizzazione è fortemente consigliata** quando si lavora con definizioni di pubblico complesse o di grandi dimensioni per garantire le prestazioni.
+
+* **Le attività dei tipi di pubblico salvati sono statiche** e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
+
+* **Aggiunta a un&#39;attività Pubblico salvato non supportata**. Qualsiasi modifica richiede la completa sovrascrittura del pubblico.

@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Salva pubblico
 description: Scopri come utilizzare l’attività Save audience in una campagna orchestrata
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 27%
+source-wordcount: '520'
+ht-degree: 17%
 
 ---
+
 
 # Salva pubblico {#save-audience}
 
@@ -21,31 +19,10 @@ ht-degree: 27%
 >title="Attività Salva pubblico"
 >abstract="L&#39;attività **Save audience** è un&#39;attività **Targeting** che consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione generata in precedenza nella campagna orchestrata. Una volta creati, questi tipi di pubblico vengono aggiunti all’elenco dei tipi di pubblico dell’applicazione e sono accessibili dal menu **Tipi di pubblico**."
 
-
-+++ Sommario
-
-| Benvenuto in Campagne orchestrate | Avviare la prima campagna orchestrata | Eseguire query sul database | Attività di campagne orchestrate |
-|---|---|---|---|
-| [Introduzione alle campagne orchestrate](../gs-orchestrated-campaigns.md)<br/><br/>Creazione e gestione di schemi e set di dati relazionali:</br> <ul><li>[Introduzione a schemi e set di dati](../gs-schemas.md)</li><li>[Schema manuale](../manual-schema.md)</li><li>[Schema di caricamento file](../file-upload-schema.md)</li><li>[Acquisire dati](../ingest-data.md)</li></ul>[Accedere e gestire le campagne orchestrate](../access-manage-orchestrated-campaigns.md) | [Passaggi chiave per creare una campagna orchestrata](../gs-campaign-creation.md)<br/><br/>[Creare e pianificare la campagna](../create-orchestrated-campaign.md)<br/><br/>[Orchestrare le attività](../orchestrate-activities.md)<br/><br/>[Avviare e monitorare la campagna](../start-monitor-campaigns.md)<br/><br/>[Generazione rapporti](../reporting-campaigns.md) | [Utilizzare il generatore di regole](../orchestrated-rule-builder.md)<br/><br/>[Creare la prima query](../build-query.md)<br/><br/>[Modificare le espressioni](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Introduzione alle attività](about-activities.md)<br/><br/>Attività:<br/>[AND-join](and-join.md) - [Crea pubblico](build-audience.md) - [Modifica dimensione](change-dimension.md) - [Attività canale](channels.md) - [Combina](combine.md) - [Deduplica](deduplication.md) - [Arricchimento](enrichment.md) - [Fork](fork.md) - [Riconciliazione](reconciliation.md) - <b>[Salva pubblico](save-audience.md)</b> - [Dividi](split.md) - [Attendi](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Il contenuto di questa pagina non è definitivo e potrebbe essere soggetto a modifiche.
-
->[!ENDSHADEBOX]
-
 L&#39;attività **[!UICONTROL Save audience]** è un&#39;attività **[!UICONTROL Targeting]** utilizzata per creare un nuovo pubblico o aggiornarne uno esistente in base alla popolazione generata in precedenza nella campagna orchestrata. Una volta salvato, il pubblico viene aggiunto all&#39;elenco dei tipi di pubblico dell&#39;applicazione e diventa accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
-Viene comunemente utilizzato per acquisire segmenti di pubblico generati all’interno della stessa campagna, rendendoli disponibili per il riutilizzo in campagne future. In genere, è connesso ad altre attività di targeting, come **[!UICONTROL Genera pubblico]** o **[!UICONTROL Combina]**, per salvare la popolazione di destinazione finale.
+Viene comunemente utilizzato per acquisire segmenti di pubblico generati nello stesso flusso di lavoro della campagna, rendendoli disponibili per il riutilizzo in campagne future. In genere, è connesso ad altre attività di targeting, come **[!UICONTROL Genera pubblico]** o **[!UICONTROL Combina]**, per salvare la popolazione di destinazione finale.
+Tieni presente che con l&#39;attività **[!UICONTROL Salva pubblico]** non è possibile aggiornare un pubblico esistente. Puoi solo creare un nuovo pubblico o sovrascriverne uno esistente con una nuova definizione.
 
 ## Configurare l’attività Salva pubblico {#save-audience-configuration}
 
@@ -55,17 +32,27 @@ Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi pass
 
 1. Immetti un’**[!UICONTROL etichetta del pubblico]** che identificherà il pubblico salvato.
 
-1. Scegli un **[!UICONTROL campo di mappatura profilo&#x200B;]** dalla dimensione di targeting della campagna.
+   >[!NOTE]
+   >
+   >Il pubblico **[!UICONTROL Label]** deve essere univoco in tutte le campagne. Non puoi riutilizzare un nome di pubblico già utilizzato nell&#39;attività **[!UICONTROL Salva pubblico]** di un&#39;altra campagna.
+
+1. Scegli un **[!UICONTROL campo di mappatura profilo&#x200B;]** dalla dimensione di targeting della campagna. Questa mappatura definisce il modo in cui i profili nel **pubblico salvato** sono collegati alla dimensione di destinazione della campagna durante l&#39;esecuzione.
+
+   Nell’elenco a discesa saranno disponibili solo le mappature compatibili con la dimensione di destinazione corrente, ovvero quella della transizione in ingresso, per garantire la corretta riconciliazione tra il pubblico e il contesto della campagna.
 
    ➡️ [Segui i passaggi descritti in questa pagina per creare la tua dimensione di targeting delle campagne](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi mappature pubblico]** per associare il pubblico salvato ad altri campi di identità.
+1. Fai clic su **[!UICONTROL Aggiungi mappature pubblico]** per includere dati aggiuntivi dagli attributi della **[!UICONTROL dimensione di destinazione]** o **[!UICONTROL attributi profilo]** arricchiti.
+
+   Ciò ti consente di associare ulteriori informazioni all&#39;attività **[!UICONTROL Pubblico salvato]** oltre alla mappatura del profilo principale, migliorando le opzioni di targeting e personalizzazione.
 
    ![](../assets/save-audience-2.png)
 
 1. Completa la configurazione salvando e pubblicando la campagna orchestrata. Questo genererà e archivierà il tuo pubblico.
+
+1. Pubblica la campagna per il pubblico da creare o sostituire poiché l&#39;attività **[!UICONTROL Salva pubblico]** non viene eseguita mentre la campagna è in modalità **[!UICONTROL Bozza]**.
 
 Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **[!UICONTROL Tipi di pubblico]** oppure può essere selezionato quando si esegue il targeting di un pubblico, ad esempio con un&#39;attività **[!UICONTROL Read audience]**.
 

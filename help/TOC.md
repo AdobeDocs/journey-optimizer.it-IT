@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 98%
       + [Modificare il contenuto della campagna](using/campaigns/campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/campaign-schedule.md)
-      + [Rivedere e attivare una campagna di azione](using/campaigns/review-activate-campaign.md)
+      + [Rivedere e attivare una campagna di azioni](using/campaigns/review-activate-campaign.md)
    + Campagne attivate da API {#api-triggered-campaigns}
       + [Utilizzare le campagne attivate da API](using/campaigns/api-triggered-campaigns.md)
       + [Definire le proprietà della campagna](using/campaigns/api-triggered-campaign-properties.md)
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [Attivare l’esecuzione della campagna](using/campaigns/trigger-campaigns.md)
    + Campagne orchestrate {#orchestrated-campaigns}
       + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
-      + Gestire schemi e set di dati relazionali {#schemas-datasets}
-         + [Introduzione agli schemi e ai set di dati](using/orchestrated/gs-schemas.md)
-         + [Schema manuale](using/orchestrated/manual-schema.md)
-         + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
-         + [Acquisire i dati](using/orchestrated/ingest-data.md)
-      + [Accedere e gestire le campagne orchestrate](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [Creare una dimensione di targeting](using/orchestrated/target-dimension.md)
       + [Guardrail e limitazioni](using/orchestrated/guardrails.md)
+      + Configurazione dati {#configuration}
+         + Gestire schemi e set di dati relazionali {#schemas-datasets}
+            + [Introduzione agli schemi e ai set di dati](using/orchestrated/gs-schemas.md)
+            + [Schema manuale](using/orchestrated/manual-schema.md)
+            + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
+            + [Acquisire i dati](using/orchestrated/ingest-data.md)
+         + [Creare una dimensione di targeting](using/orchestrated/target-dimension.md)
       + Avviare la prima campagna orchestrata{#launch}
          + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
          + [Creare e pianificare la campagna](using/orchestrated/create-orchestrated-campaign.md)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Per accedere al report della campagna, fai clic sul pulsante **[!UICONTROL Repor
 
 ![](assets/cja-email-kpis.png)
 
-I **[!UICONTROL indicatori di prestazioni chiave (KPI, Key Performance Indicators) di Campaign]** funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate alla campagna. Questo include dettagli quali il numero di clic e il numero di messaggi consegnati, offrendo una visione completa dell’efficacia della campagna e del livello di coinvolgimento.
+I **[!UICONTROL indicatori di prestazioni chiave (KPI, Key Performance Indicators) di Campaign]** funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate alla campagna. Questo include dettagli quali il numero di clic e il numero di messaggi consegnati, offrendo un’insight completa sull’efficacia e il livello di coinvolgimento della tua campagna.
 
 I KPI variano in base ai canali utilizzati nella campagna.
 
@@ -44,6 +44,9 @@ I KPI variano in base ai canali utilizzati nella campagna.
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 
 +++
+
+>[!AVAILABILITY]
+>Le campagne orchestrate supportano solo i canali SMS, E-mail e push. Altri canali (in-app, web, direct mailing, ecc.) non sono disponibili nelle campagne orchestrate e non compaiono nei rapporti.
 
 ### Panoramica della campagna {#delivery-global}
 

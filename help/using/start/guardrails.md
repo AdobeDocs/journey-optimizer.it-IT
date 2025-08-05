@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 91%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -112,7 +113,6 @@ I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione
 
 * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
 * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
-
 
 ## Guardrail di percorso {#journeys-guardrails}
 
@@ -259,3 +259,7 @@ I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
 * Le attività di Campaign non possono essere utilizzate con le attività degli altri canali: schede, esperienze basate su codice, e-mail, push, SMS, messaggi in-app, web.
+
+## Guardrail di orchestrazione campagna {#orchestration-guardrails}
+
+I guardrail e le limitazioni da tenere presenti quando si lavora con Campaign Orchestration sono descritti in questa sezione: [Guardrail e limitazioni di gestione delle decisioni](../orchestrated/guardrails.md).

@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modificare il contenuto della campagna di azione
-description: Scopri come modificare il contenuto della campagna di azione.
+title: Modificare il contenuto della campagna Azione
+description: Scopri come modificare il contenuto della campagna Azione.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
 
 ---
 
-
-# Modificare il contenuto della campagna di azione {#action-campaign-content}
+# Modificare il contenuto della campagna Azione {#action-campaign-content}
 
 Per configurare il contenuto del messaggio, passa alla scheda **[!UICONTROL Contenuto]** o fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
@@ -59,4 +59,4 @@ Per tornare alla schermata di creazione della campagna, fai clic sulla freccia s
 
 ## Passaggi successivi {#next}
 
-Una volta che il contenuto della campagna di azione è pronto, puoi definirne il pubblico. [Ulteriori informazioni](campaign-audience.md)
+Quando il contenuto della campagna Azione è pronto, puoi definire il pubblico della campagna. [Ulteriori informazioni](campaign-audience.md)
