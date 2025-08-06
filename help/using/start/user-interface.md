@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 95%
 
 ---
 
@@ -178,9 +178,22 @@ In ogni pagina, utilizza i pulsanti di aiuto contestuali per ulteriori informazi
 
 ![](assets/do-not-localize/Context-help.gif)
 
+
+## Avvisi interni al prodotto
+
+È possibile sottoscrivere **avvisi e-mail e nel prodotto** per le versioni dei prodotti Journey Optimizer.
+
+Per iscriversi:
+
+1. Passa a **Preferenze Adobe Experience Cloud**
+1. In **Notifiche**, individua **Nuove versioni di Journey Optimizer**
+1. Abilitare le notifiche in-app ed e-mail
+
+![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
 ## Assistente IA {#ai-assistant}
 
-Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
+L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti di Adobe e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
 Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra della schermata.
 
