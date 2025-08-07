@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 4%
@@ -191,10 +191,10 @@ Once you have performed your tests and validated the content, you can send your 
 
 ## Video dimostrativo {#video}
 
-Il video seguente mostra come creare un percorso WhatsApp con più passaggi utilizzando Adobe Journey Optimizer.
+Il video seguente mostra come creare un percorso WhatsApp in più passaggi utilizzando Adobe Journey Optimizer.
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470290/?learn=on&captions=ita")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

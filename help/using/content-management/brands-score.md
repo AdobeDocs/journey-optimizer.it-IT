@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -69,3 +69,13 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 1. Modifica i contenuti in base ai consigli per migliorare l’allineamento del brand.
 
 1. Rivaluta manualmente il contenuto dopo aver apportato modifiche per aggiornare il punteggio di allineamento.
+
+## Video dimostrativo {#video}
+
+Il video seguente mostra come creare e personalizzare i propri marchi per definire chiaramente la propria identità visiva e verbale nelle comunicazioni.
+
++++ Guarda il video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
