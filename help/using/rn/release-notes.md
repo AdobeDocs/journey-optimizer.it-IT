@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
@@ -65,7 +65,7 @@ Una nuova interfaccia di orchestrazione visiva creata appositamente per le campa
 
 ### Schemi relazionali e set di dati {#oc-relational}
 
-Adobe Experience Platform ora supporta entità relazionali (ad esempio prodotti, negozi, prenotazioni, contratti) collegate ai profili basati sulle persone. Ciò consente la segmentazione e la personalizzazione tra strutture di dati multidimensionali, consentendo casi d’uso come:
+Adobe Journey Optimizer ora supporta entità relazionali (ad esempio prodotti, negozi, prenotazioni, contratti) collegate ai profili basati sulle persone. Ciò consente la segmentazione e la personalizzazione tra strutture di dati multidimensionali, consentendo casi d’uso come:
 
 * Un messaggio per prenotazione, abbonamento o contratto
 
@@ -86,7 +86,7 @@ Ulteriori informazioni sono disponibili nella [documentazione sull&#39;orchestra
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -138,7 +138,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e personalizzare i tuoi marchi per definire chiaramente la tua identità visiva e verbale nelle comunicazioni. Con il punteggio di Allineamento al marchio, puoi ricevere feedback in tempo reale su come il contenuto riflette il tono, lo stile e le linee guida del tuo marchio, consentendoti di rimanere costantemente nel marchio con ogni messaggio inviato.</p>
+<p>Ora è possibile creare e personalizzare i brand per definire chiaramente la propria identità visiva e verbale nelle comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere coerente in ogni messaggio inviato.</p>
 <p>Precedentemente rilasciata in Beta, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/brands.md">documentazione dettagliata</a>.</p>
