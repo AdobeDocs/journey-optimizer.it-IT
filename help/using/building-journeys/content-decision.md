@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1120'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,16 @@ Per configurare l&#39;attività **[!UICONTROL Decisione contenuto]**, eseguire l
    ![Riepilogo dei criteri di decisione](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 Ora puoi sfruttare l’output di questa attività di decisione sui contenuti nel tuo percorso.
+
+## Guardrail e limitazioni {#guardrails}
+
+**Criteri di consenso**
+
+L’entrata in vigore degli aggiornamenti ai criteri di consenso richiede fino a 48 ore. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
+
+Analogamente, se a un criterio di decisione vengono aggiunti nuovi attributi di profilo soggetti a un criterio di consenso, questi saranno utilizzabili, ma il criterio di consenso associato a essi non verrà applicato fino a quando il ritardo non sarà passato.
+
+I criteri di consenso sono disponibili solo per le organizzazioni con il componente aggiuntivo Adobe Healthcare Shield o Privacy and Security Shield.
 
 ## Utilizzare l’output dell’attività di decisione sui contenuti {#use-content-decision-output}
 
@@ -135,7 +145,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -157,7 +167,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publishing-the-journey.md):
+Una volta attivato il percorso [](publishing-the-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
