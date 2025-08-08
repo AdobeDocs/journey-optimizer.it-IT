@@ -4,9 +4,9 @@ product: journey optimizer
 title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 * Gli schemi utilizzati per il targeting devono contenere almeno **un campo di identità di tipo`String`**, mappato a uno spazio dei nomi di identità definito.
 
-### Acquisizione dei dati
+### Acquisizione dati
 
 * È necessaria l’acquisizione di dati di profilo + relazionali.
 
@@ -83,3 +83,7 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 * **Le attività dei tipi di pubblico salvati sono statiche** e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
 
 * **Aggiunta a un&#39;attività Pubblico salvato non supportata**. Qualsiasi modifica richiede la completa sovrascrittura del pubblico.
+
+## Limitazioni del canale
+
+Nelle campagne orchestrate sono supportati solo i canali SMS, push ed e-mail.
