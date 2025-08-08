@@ -52,4 +52,4 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452733?quality=12&captions=ita)
