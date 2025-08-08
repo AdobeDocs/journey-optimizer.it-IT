@@ -7,7 +7,7 @@ exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 14%
+ht-degree: 25%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
->title="campaign_overview_orchestrated"
->abstract="<b>Orchestrazione campagna</b><br/>Dividi, combina, arricchisci e gestisci i set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con più entità</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea il segmento passo dopo passo con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail"
+>title="campaigns_overview_orchestrated"
+>abstract="<b>Orchestrazione campagna</b><br/>Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con entità multiple</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea un segmento dettagliato con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail"
 
 L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fedeltà dei clienti su larga scala.
 

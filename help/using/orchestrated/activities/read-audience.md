@@ -7,7 +7,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 6%
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="Attività Crea pubblico"
->abstract="L&#39;attività **Read audience** ti consente di selezionare il pubblico che entrerà nella campagna orchestrata. Questo pubblico può essere un pubblico esistente di Adobe Experience Platform o uno estratto da un file CSV. Quando si inviano messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell&#39;attività del canale, ma in un&#39;attività **Read audience** o **Build audience**."
+>abstract="L’attività **Leggi pubblico** ti consente di selezionare il pubblico che entrerà nella campagna orchestrata. Questo pubblico può essere un pubblico esistente di Adobe Experience Platform o uno estratto da un file CSV. Durante l’invio di messaggi nel contesto di una campagna orchestrata, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Leggi pubblico** o **Crea pubblico**."
 
 L&#39;attività **[!UICONTROL Read audience]** consente di recuperare un pubblico esistente, salvato o importato in precedenza, e di riutilizzarlo all&#39;interno di una campagna orchestrata. Questa attività è particolarmente utile per il targeting di un set predefinito di profili senza la necessità di eseguire un nuovo processo di segmentazione.
 

@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -58,27 +58,27 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare il webhook per i messaggi WhatsApp. [Ulteriori informazioni](#whatsapp-webhook)
 
-## Crea webhook {#WhatsApp-webhook}
+## Creare webhook {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Categoria parole chiave in entrata"
->abstract="<b>Opt-in</b>: invia la risposta automatica definita quando un utente si abbona. <br/><b>Rinuncia</b>: invia la risposta automatica definita quando un utente annulla l&#39;iscrizione. <br/><b>Guida</b>: invia la risposta automatica definita quando un utente richiede assistenza o supporto. <br/><b>Predefinito</b>: invia la risposta automatica di fallback quando nessuna parola chiave corrisponde."
+>abstract="<b>Consenso</b>: invia la risposta automatica definita quando un utente si abbona. <br/><b>Rinuncia</b>: invia la risposta automatica definita quando un utente annulla l’abbonamento. <br/><b>Guida</b>: invia la risposta automatica definita quando un utente richiede assistenza o supporto. <br/><b>Predefinito</b>: invia la risposta automatica di fallback quando nessuna parola chiave corrisponde."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Immetti le parole chiave"
->abstract="Puoi definire parole chiave per attivare risposte automatiche specifiche in base al testo digitato dagli utenti. Le parole chiave non fanno distinzione tra maiuscole e minuscole, ad esempio, stop e STOP vengono trattate allo stesso modo."
+>title="Immettere le parole chiave"
+>abstract="Puoi definire parole chiave per attivare risposte automatiche specifiche in base al testo digitato dagli utenti. Le parole chiave non fanno distinzione tra maiuscole e minuscole, ad esempio, interruzione e INTERRUZIONE vengono trattate allo stesso modo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title="URL callback"
->abstract="La richiesta di convalida e le notifiche webhook per questo oggetto vengono inviate all&#39;URL specificato."
+>title="URL di callback"
+>abstract="La richiesta di convalida e le notifiche webhook per questo oggetto vengono inviate all’URL specificato."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="Verifica token"
->abstract="Token restituito da Meta per confermare e verificare l&#39;URL di callback durante il processo di verifica."
+>abstract="Token restituito da Meta per confermare e verificare l’URL di callback durante il processo di verifica."
 
 >[!NOTE]
 >
@@ -180,6 +180,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

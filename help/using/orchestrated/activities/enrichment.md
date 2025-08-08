@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Puoi sfruttare queste informazioni per segmentare il pubblico in modo più preci
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Attività Arricchimento"
->abstract="Una volta aggiunti i dati di arricchimento alla campagna orchestrata, questi possono essere utilizzati nelle attività aggiunte dopo l’attività Enrichment per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione."
+>abstract="Una volta aggiunti alla campagna orchestrata, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di Arricchimento per segmentare la clientela in gruppi distinti in base a comportamenti, preferenze ed esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno più probabilità di suscitare l’interesse del pubblico target."
 
 Per configurare l’attività **Arricchimento** segui questi passaggi:
 

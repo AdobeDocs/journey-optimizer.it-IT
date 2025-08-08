@@ -1,5 +1,5 @@
 ---
-title: Allineamento al brand
+title: Allineamento del brand
 description: Scopri come creare, convalidare e gestire i contenuti nel brand utilizzando il punteggio di brand.
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# Allineamento al brand {#brands-score}
+# Allineamento del brand {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -76,6 +76,6 @@ Il video seguente mostra come creare e personalizzare i propri marchi per defini
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470554/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

@@ -13,7 +13,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 25%
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
 >title="Campagne di azione"
->abstract="**Interfaccia guidata per creare e inviare una campagna**<br/> Imposta una o più azioni con un canale, scegli un pubblico, imposta un contenuto, definisci una pianificazione e sei pronto per inviare <br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push, In-app, Web, esperienze basate su codice"
+>abstract="**Interfaccia guidata per creare e inviare una campagna**<br/> Imposta una o più azioni con un canale, scegli un pubblico, imposta un contenuto, definisci una pianificazione ed è tutto pronto per l’invio <br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push, in-app, Web, esperienze basate su codice"
 
 ## Informazioni sulle campagne d’azione {#about}
 
@@ -48,4 +48,4 @@ Le campagne di azione (o campagne pianificate) consentono comunicazioni batch se
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

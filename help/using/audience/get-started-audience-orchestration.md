@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alla composizione dei tipi di pubblico
+title: Introduzione alla composizione del pubblico
 description: Ulteriori informazioni sulla composizione del pubblico
 feature: Audiences, Profiles
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 ---
 
-# Introduzione alla composizione dei tipi di pubblico {#get-start-audience-composition}
+# Introduzione alla composizione del pubblico {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -114,7 +114,7 @@ Al termine, viene salvato il backup in Adobe Experience Platform di **tipi di pu
 >
 >* Gli attributi di arricchimento non sono ancora integrati con il servizio di applicazione dei criteri. Pertanto, eventuali etichette di utilizzo dei dati applicate agli attributi di arricchimento non verranno applicate nelle campagne o nei percorsi Journey Optimizer.
 
-La composizione dei tipi di pubblico è accessibile dal menu **[!UICONTROL Tipi di pubblico]** di Adobe Journey Optimizer:
+La composizione del pubblico è accessibile dal menu **[!UICONTROL Tipi di pubblico]** di Adobe Journey Optimizer:
 
 ![](assets/audiences-browse.png)
 
@@ -146,7 +146,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    ![](assets/audiences-properties.png)
 
-1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. Per ulteriori informazioni su come creare una composizione, consulta la [documentazione sulla composizione del pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. Per ulteriori informazioni su come creare una composizione, consulta la [documentazione sulla composizione del pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ Le composizioni possono avere più stati:
 
 >[!NOTE]
 >
->La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it#delete-audience-compositions) di Adobe Experience Platform
+>La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) di Adobe Experience Platform

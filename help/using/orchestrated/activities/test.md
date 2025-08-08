@@ -7,7 +7,7 @@ exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 66%
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Condizioni"
->abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, la campagna orchestrata continua lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna orchestrata si interrompe a questo punto."
+>abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, la campagna orchestrata prosegue lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna orchestrata si interrompe in questo punto."
 
 L’attività **[!UICONTROL Test]** è un’attività di **[!UICONTROL Controllo del flusso]**. Consente di abilitare le transizioni in base a condizioni specificate.
 

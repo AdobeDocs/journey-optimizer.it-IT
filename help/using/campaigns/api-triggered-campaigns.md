@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 42%
+ht-degree: 57%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
 >title="Campagne attivate da API"
->abstract="**Campagne attivate dall&#39;API transazionale**<br/> Attivare messaggi in tempo reale tramite chiamate API <br/><br/>**Messaggi di marketing**<br/> Contenuto promozionale (richiede consenso, soggetto a regole business)<br/><br/>**Messaggi transazionali**<br/> Contenuto relativo ai servizi (conferma, avvisi, non soggetto a consenso marketing)<br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push"
+>abstract="**Campagne attivate da API transazionale**<br/> Attivare messaggi in tempo reale tramite chiamate API <br/><br/>**Messaggi di marketing**<br/> Contenuto promozionale (richiede consenso, soggetto a regole business)<br/><br/>**Messaggi transazionali**<br/> Contenuto relativo ai servizi (conferma, avvisi, non soggetto al consenso marketing)<br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push"
 
 ## Informazioni sulle campagne attivate da API {#about}
 

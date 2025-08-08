@@ -7,7 +7,7 @@ exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Attività Salva pubblico"
->abstract="L&#39;attività **Save audience** è un&#39;attività **Targeting** che consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione generata in precedenza nella campagna orchestrata. Una volta creati, questi tipi di pubblico vengono aggiunti all’elenco dei tipi di pubblico dell’applicazione e sono accessibili dal menu **Tipi di pubblico**."
+>abstract="L’attività **Salva pubblico** è un’attività di **targeting** che consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione generata in precedenza nella campagna orchestrata. Una volta creati, questi tipi di pubblico vengono aggiunti all’elenco dei tipi di pubblico dell’applicazione e sono accessibili dal menu **Tipi di pubblico**."
 
 L&#39;attività **[!UICONTROL Save audience]** è un&#39;attività **[!UICONTROL Targeting]** utilizzata per creare un nuovo pubblico o aggiornarne uno esistente in base alla popolazione generata in precedenza nella campagna orchestrata. Una volta salvato, il pubblico viene aggiunto all&#39;elenco dei tipi di pubblico dell&#39;applicazione e diventa accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 

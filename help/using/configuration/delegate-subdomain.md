@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Delega dei sottodomini"
->abstract="Journey Optimizer consente di delegare ad Adobe i sottodomini. Puoi delegare completamente un sottodominio ad Adobe, che è il metodo consigliato. </br>Puoi anche creare un sottodominio utilizzando i CNAME per puntare a record specifici di Adobe, ma questo approccio richiede di mantenere e gestire i record DNS autonomamente."
+>abstract="Journey Optimizer consente di delegare ad Adobe i sottodomini. Puoi delegare completamente un sottodominio ad Adobe, che è il metodo consigliato. </br>Puoi anche creare un sottodominio utilizzando i CNAME per puntare a record specifici di Adobe; tuttavia questo approccio richiede di mantenere e gestire i record DNS in autonomia."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Metodi di configurazione dei sottodomini"
 
 >[!CONTEXTUALHELP]
@@ -273,4 +273,4 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

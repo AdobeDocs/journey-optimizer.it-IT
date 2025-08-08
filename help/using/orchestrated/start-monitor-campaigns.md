@@ -7,7 +7,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="Pubblica campagna orchestrata"
+>title="Pubblicare una campagna orchestrata"
 >abstract="Per avviare la campagna, è necessario pubblicarla. Assicurati che tutti gli errori siano cancellati prima della pubblicazione."
 
 Dopo aver creato e orchestrato le attività da eseguire nell’area di lavoro, puoi pubblicarle e monitorarne la modalità di esecuzione.
@@ -96,7 +96,7 @@ Gli indicatori di stato visivi consentono di comprendere le prestazioni di ogni 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Registri e attività"
->abstract="La schermata **Registri e attività** fornisce una cronologia dell&#39;esecuzione della campagna orchestrata, registrando tutte le azioni dell&#39;utente e gli errori riscontrati."
+>abstract="La schermata **Registri e attività** fornisce una cronologia dell’esecuzione della campagna orchestrata, registrando tutte le azioni dell’utente e gli errori riscontrati."
 
 Monitorare registri e attività è un passaggio chiave per analizzare le campagne orchestrate e assicurarti che vengano eseguite correttamente. I registri e le attività sono accessibili dal pulsante **[!UICONTROL Registri]** disponibile sia in modalità di test che in modalità live nella barra degli strumenti dell&#39;area di lavoro.
 

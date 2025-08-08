@@ -104,7 +104,7 @@ Il riquadro di navigazione consente di selezionare l’origine per la personaliz
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Completamento automatico"
->abstract="L’attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito interruttore, il completamento automatico del codice HTML nativo verrà esegiuto dall’editor."
+>abstract="L’attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito pulsante di attivazione, il completamento automatico del codice HTML nativo verrà eseguito dall’editor."
 
 Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro di spostamento a sinistra e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
 
@@ -134,7 +134,7 @@ Le opzioni disponibili sono:
 
 1. **[!UICONTROL Trova]** / **[!UICONTROL Trova e sostituisci]**: cerca nell&#39;espressione e sostituisci automaticamente parti di codice.
 1. **[!UICONTROL Annulla]** / **[!UICONTROL Ripristina]**: annulla/ripristina l&#39;ultima operazione.
-1. **[!UICONTROL Completamento automatico]**: suggerisce e completa automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito interruttore, il completamento automatico del codice HTML nativo verrà esegiuto dall’editor.
+1. **[!UICONTROL Completamento automatico]**: suggerisce e completa automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di Profilo e Contesto. Se viene disabilitata tramite l’apposito pulsante di attivazione, il completamento automatico del codice HTML nativo verrà eseguito dall’editor.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
