@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2598'
 ht-degree: 98%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 98%
       + [Utilizzare le campagne di azione](using/campaigns/create-campaign.md)
       + [Definire le proprietà della campagna](using/campaigns/campaign-properties.md)
       + [Configurare l’azione della campagna](using/campaigns/campaign-action.md)
+      + [Sfruttare l’ottimizzazione dei messaggi in una campagna](using/campaigns/campaigns-message-optimization.md)
       + [Modificare il contenuto della campagna](using/campaigns/campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/campaign-schedule.md)
