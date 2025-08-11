@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -191,7 +191,7 @@ ht-degree: 98%
       + [Modificare il contenuto della campagna](using/campaigns/campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/campaign-schedule.md)
-      + [Rivedere e attivare una campagna di azioni](using/campaigns/review-activate-campaign.md)
+      + [Rivedere e attivare una campagna di azione](using/campaigns/review-activate-campaign.md)
    + Campagne attivate da API {#api-triggered-campaigns}
       + [Utilizzare le campagne attivate da API](using/campaigns/api-triggered-campaigns.md)
       + [Definire le proprietà della campagna](using/campaigns/api-triggered-campaign-properties.md)
@@ -205,13 +205,13 @@ ht-degree: 98%
       + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Guardrail e limitazioni](using/orchestrated/guardrails.md)
       + [Domande frequenti](using/orchestrated/orchestrated-campaigns-faq.md)
-      + Configurazione dati {#configuration}
+      + Configurazione dei dati {#configuration}
          + Gestire schemi e set di dati relazionali {#schemas-datasets}
             + [Introduzione agli schemi e ai set di dati](using/orchestrated/gs-schemas.md)
             + [Schema manuale](using/orchestrated/manual-schema.md)
             + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
             + [Acquisire i dati](using/orchestrated/ingest-data.md)
-         + [Creare una dimensione di targeting](using/orchestrated/target-dimension.md)
+         + [Creare una dimensione targeting](using/orchestrated/target-dimension.md)
       + Avviare la prima campagna orchestrata{#launch}
          + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
          + [Creare e pianificare la campagna](using/orchestrated/create-orchestrated-campaign.md)
@@ -775,7 +775,7 @@ Impostare le regole di limitazione per messaggi e percorsi {#capping-rules}
       + [Eseguire il piano di preparazione IP](using/configuration/ip-warmup-execution.md)
       + [File del piano di preparazione IP](using/configuration/ip-warmup-plan-files.md)
    + Monitorare gli indirizzi e-mail {#monitor-reputation}
-      + [Tipi di errore e-mail](using/configuration/email-error-types.md)
+      + [Tipi di errori e-mail](using/configuration/email-error-types.md)
       + [Elenco di soppressione](using/configuration/manage-suppression-list.md)
       + [Nuovi tentativi](using/configuration/retries.md)
       + [Elenco Consentiti](using/configuration/allow-list.md)
