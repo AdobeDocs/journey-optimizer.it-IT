@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -84,22 +84,22 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 * Non puoi aggiungere una preintestazioni  a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
-## Guardrail di sottodomini {#subdomain-guardrails}
+## Guardrail per i sottodomini {#subdomain-guardrails}
 
-I guardrail e le limitazioni applicabili alla delega del sottodominio in Journey Optimizer sono descritti in dettaglio in [questa pagina](../configuration/delegate-subdomain.md#guardrails).
+I guardrail e le limitazioni applicabili alla delega di un sottodominio in Journey Optimizer sono descritti in dettaglio in [questa pagina](../configuration/delegate-subdomain.md#guardrails).
 
 ## Guardrail per i frammenti {#fragments-guardrails}
 
 Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti guardrail:
 
-* Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+* Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo del prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
-* I frammenti visivi non possono superare i 100 KB. I frammenti di espressione non possono superare i 200 KB.
-* Per utilizzare un frammento in un percorso o in una campagna, deve essere nello stato **Live**.
-* [Gli attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
-* I frammenti visivi non sono compatibili tra le modalità Usa temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Usa temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
-* Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
+* I frammenti visivi non possono superare i 100 KB. I frammenti di espressioni non possono superare i 200 KB.
+* Per utilizzare un frammento in un percorso o in una campagna, ora è necessario che sia in stato **Live**.
+* Gli [attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
+* I frammenti visivi non sono compatibili tra le modalità Utilizza temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
+* Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e quest’ultimo viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e tracciamento](../email/message-tracking.md)
 
 ## Guardrail dei tipi di pubblico {#audience}
 
@@ -170,7 +170,7 @@ Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i se
 * I percorsi attivati da eventi possono richiedere fino a 5 minuti per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
-* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso a 12:01 per un profilo specifico e un altro arriva a 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non verrà riavviato per questo profilo.
+* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 * Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, devi creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato, perché potrebbe causare problemi a valle in base alle azioni utilizzate.
 
 ### Origini dati {#data-sources-g}
@@ -213,7 +213,7 @@ All’attività del percorso [Leggi pubblico](../building-journeys/read-audience
 * I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 
 
-Vedi anche [questa pagina](../building-journeys/read-audience.md#must-read).
+Consulta anche [questa pagina](../building-journeys/read-audience.md#must-read).
 
 ### Qualificazione del pubblico {#audience-qualif-g}
 
@@ -260,6 +260,6 @@ I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
 * Le attività di Campaign non possono essere utilizzate con le attività degli altri canali: schede, esperienze basate su codice, e-mail, push, SMS, messaggi in-app, web.
 
-## Guardrail di orchestrazione campagna {#orchestration-guardrails}
+## Guardrail per l’orchestrazione delle campagne {#orchestration-guardrails}
 
-I guardrail e le limitazioni da tenere presenti quando si lavora con Campaign Orchestration sono descritti in questa sezione: [Guardrail e limitazioni di gestione delle decisioni](../orchestrated/guardrails.md).
+I guardrail e le limitazioni da tenere presenti quando si lavora con l’orchestrazione di una campagna sono descritti in questa sezione: [Guardrail e limitazioni di gestione delle decisioni](../orchestrated/guardrails.md).

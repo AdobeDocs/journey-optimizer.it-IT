@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -54,11 +54,11 @@ Al canale WhatsApp vengono applicate le seguenti limitazioni:
 
 ## Video dimostrativo {#video}
 
-Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Journey Optimizer per inviare messaggi sicuri, in tempo reale e personalizzati su larga scala.
+Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Journey Optimizer per consegnare messaggi sicuri, in tempo reale e personalizzati su larga scala.
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470252?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

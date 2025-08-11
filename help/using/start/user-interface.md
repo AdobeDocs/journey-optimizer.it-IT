@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -179,13 +179,13 @@ In ogni pagina, utilizza i pulsanti di aiuto contestuali per ulteriori informazi
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## Avvisi interni al prodotto
+## Avvisi all’interno del prodotto
 
-È possibile sottoscrivere **avvisi e-mail e nel prodotto** per le versioni dei prodotti Journey Optimizer.
+Puoi iscriverti agli **avvisi all’interno del prodotto ed e-mail** per le versioni dei prodotti Journey Optimizer.
 
-Per iscriversi:
+Per iscriverti:
 
-1. Passa a **Preferenze Adobe Experience Cloud**
+1. Passa a **Preferenze di Adobe Experience Cloud**
 1. In **Notifiche**, individua **Nuove versioni di Journey Optimizer**
 1. Abilitare le notifiche in-app ed e-mail
 
@@ -193,7 +193,7 @@ Per iscriversi:
 
 ## Assistente IA {#ai-assistant}
 
-L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti di Adobe e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
+L’Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
 Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra della schermata.
 
@@ -253,7 +253,7 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="Sfruttare i dati con più entità"
->abstract="Scopri come le campagne orchestrate possono sfruttare i set di dati relazionali arricchendo i dati per la segmentazione e la personalizzazione"
+>abstract="Scopri come le campagne orchestrate possono trarre vantaggio dai set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione"
 
 
 

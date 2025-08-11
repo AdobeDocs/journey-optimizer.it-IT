@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Pianificazione della campagna"
->abstract="Per impostazione predefinita, le campagne iniziano al momento dell’attivazione manuale e terminano immediatamente dopo l’invio del messaggio. Puoi impostare una data e un’ora specifiche per l’invio del messaggio. Inoltre, puoi specificare una data di fine per le campagne Azione ricorrenti. Nei trigger di Azione, puoi anche configurare la frequenza di invio del messaggio in base alle tue preferenze."
+>abstract="Per impostazione predefinita, le campagne iniziano al momento dell’attivazione manuale e terminano immediatamente dopo l’invio del messaggio. Puoi impostare una data e un’ora specifiche per l’invio del messaggio. Inoltre, puoi specificare una data di fine per le campagne di azione ricorrenti. Nei trigger di Azione, puoi anche configurare la frequenza di invio del messaggio in base alle tue preferenze."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -74,9 +74,9 @@ Puoi creare diversi tipi di campagne in Journey Optimizer:
 
 * **Campagne orchestrate**
 
-  L’orchestrazione delle campagne in Adobe Journey Optimizer potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fedeltà dei clienti su larga scala.
+  L’orchestrazione delle campagne in Adobe Journey Optimizer potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fidelizzazione della clientela su larga scala.
 
-  Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento della selezione, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla distribuzione dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza.
+  Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla consegna dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza.
 
 ## Prerequisiti {#prerequisites}
 
@@ -90,32 +90,32 @@ Le campagne sono disponibili solo per gli utenti con le autorizzazioni appropria
 
 >[!TAB Campagne di azione]
 
-Amministratore di Campaign
+Amministratore campagna
 Approvatore campagna
-Gestione campagne
-Visualizzatore campagne
+Responsabile campagna
+Visualizzatore campagna
 
 >[!TAB Campagne attivate da API]
 
-Amministratore di Campaign
+Amministratore campagna
 Approvatore campagna
-Gestione campagne
-Visualizzatore campagne
+Responsabile campagna
+Visualizzatore campagna
 
 >[!TAB Campagne orchestrate]
 
-Amministratore della campagna orchestrata
+Amministratore campagna orchestrata
 Approvatore campagna orchestrata
-Gestore campagna orchestrata
+Responsabile campagna orchestrata
 Visualizzatore campagna orchestrata
 
 >[!ENDTABS]
 
-Se non riesci ad accedere alle funzionalità della campagna, contatta l’amministratore per richiedere le autorizzazioni necessarie.
+Se non riesci ad accedere alle funzionalità delle campagne, contatta l’amministratore per richiedere le autorizzazioni necessarie.
 
-+++Scopri come assegnare il relativo ruolo alla campagna
++++Scopri come assegnare i ruoli relativi alle campagne
 
-1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passare alla scheda **[!UICONTROL Ruoli]** e selezionare uno dei **[!UICONTROL Ruoli]** correlati alla campagna incorporata descritti in precedenza.
+1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** incorporati relativi alle campagne.
 
 1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
