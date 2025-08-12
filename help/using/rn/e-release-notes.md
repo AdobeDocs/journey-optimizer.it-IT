@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 47%
 
 ---
@@ -140,14 +140,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Moduli personalizzati per pagine di destinazione</strong><br/></th>
+<th><strong>Ottimizzazione percorso percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora consente di creare moduli personalizzati e di sfruttarli nelle pagine di destinazione per acquisire gli attributi di profilo nel set di dati definito per ciascun modulo.</p>
-<p>Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
+<p>Journey Optimizer ora ti offre gli strumenti per ottimizzare i tuoi percorsi sfruttando i framework di intelligenza artificiale e sperimentazione e garantendo al contempo l’usabilità fluida e la differenziazione tra le funzionalità di condizione e ottimizzazione.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Ottimizzazione del percorso</strong><br/></th>
+<th><strong>Attività azione in percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora ti offre gli strumenti per ottimizzare i tuoi percorsi sfruttando i framework di intelligenza artificiale e sperimentazione e garantendo al contempo l’usabilità fluida e la differenziazione tra le funzionalità di condizione e ottimizzazione.</p>
+<p>Journey Optimizer supporta una nuova attività Azione generica che consente di configurare sia azioni singole che azioni in uscita multicanale, semplificando la configurazione delle azioni nell’area di lavoro del percorso. Con questa nuova attività, puoi anche aggiungere l’ottimizzazione del targeting, esperimenti e varianti di linguaggio multilingue a qualsiasi azione di canale incorporata.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Moduli personalizzati per pagine di destinazione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora consente di creare moduli personalizzati e di sfruttarli nelle pagine di destinazione per acquisire gli attributi di profilo nel set di dati definito per ciascun modulo.</p>
+<p>Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
      Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso.
 
 - **Percorsi**
-   - **Attività azione nei percorsi** - Journey Optimizer supporta una nuova attività Azione generica che consente di configurare azioni in uscita a canale singolo e multicanale, semplificando la configurazione delle azioni nell&#39;area di lavoro del percorso. Con questa nuova attività, puoi anche aggiungere l’ottimizzazione del targeting, esperimenti e varianti di linguaggio multilingue a qualsiasi azione di canale incorporata.
    - **Operazioni di Percorso in serie** - Dall&#39;elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionata, puoi sospendere o riprendere fino a 10 percorsi alla volta.
