@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6326e1e3056f41f1550ac785bcbf83af175b37cc
+source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 55%
+source-wordcount: '1030'
+ht-degree: 47%
 
 ---
 
@@ -18,12 +18,10 @@ ht-degree: 55%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
-**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data del rilascio della versione definitiva**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
+## Note preliminari al 25 agosto {#25-8-rn}
 
-## Note pre-release di agosto 2025 {#25-7-rn}
-
-**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data del rilascio della versione definitiva**. I collegamenti, le schermate e la documentazione aggiornata sono pubblicati alla data di rilascio.
+**Le note precedenti al rilascio sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
 
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
@@ -64,9 +62,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <p>Negli elenchi dei percorsi e delle campagne è ora disponibile una vista calendario. Consente di visualizzare tutte le attivazioni dei percorsi e delle campagne nei rispettivi elenchi.</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzione è ora disponibile per tutti gli ambienti. Con questa versione in disponibilità generale, la funzione include:</p>
 <ul>
-<li>Miglioramenti della progettazione per la navigazione tra date</li>
-<li>Possibilità di visualizzare le campagne di bozza se hai impostato una data di inizio e una data di fine</li>
-<li>Nuova impostazione per nascondere e visualizzare gli elementi del calendario in esecuzione per molto tempo</li>
+<li>Miglioramenti della progettazione per la navigazione nelle date,</li>
+<li>Possibilità di visualizzare le bozze delle campagne se hai impostato una data di inizio e una data di fine</li>
+<li>Nuova impostazione per nascondere e visualizzare gli elementi del calendario in esecuzione per un periodo di tempo prolungato.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -110,7 +108,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <p>Sfrutta i dati da Adobe Experience Platform nell’editor di personalizzazione per personalizzare i contenuti. A questo scopo, i set di dati necessari per la personalizzazione della ricerca devono prima essere abilitati tramite una chiamata API. Al termine, è possibile utilizzare i relativi dati per personalizzare il contenuto in [!DNL Journey Optimizer].</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale sono stati introdotti i seguenti miglioramenti:</p>
 <ul>
-<li>Supporto dei canali in entrata</li>
+<li>Supporto dei canali in entrata,</li>
 <li>La funzione helper "datasetLookup" può ora essere utilizzata all’interno di frammenti di espressione e visivi per personalizzare il contenuto utilizzando i dati dei set di dati di Adobe Experience Platform,</li>
 <li>Un’opzione nel set di dati ora consente di abilitare i set di dati per la personalizzazione di ricerca, senza dover eseguire una chiamata API.</li>
 </ul>
@@ -179,16 +177,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
+- **Amministrazione**
+   - **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui si verifichi un errore di configurazione del canale o se manca un record DNS.
 
 - **Campagne**
    - **Controllo del tasso nelle campagne in uscita** - È ora possibile abilitare il controllo del tasso di limitazione per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti.
    - **Pianificazione delle campagne azione** - Le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per migliorarne la granularità. Ad esempio, ora puoi impostare il numero di settimane/mesi tra le pianificazioni, definire il giorno in cui eseguire e decidere di interrompersi dopo un numero specifico di occorrenze o in una data specifica.
 
-- **Amministrazione**
-   - **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui si verifichi un errore di configurazione del canale o se manca un record DNS.
-
 - **Canale - Push**
-   - **Data di scadenza notifica push** - È ora possibile specificare una data di scadenza per ogni notifica push, che impedisce l&#39;invio di messaggi sensibili al tempo (ad esempio Black Friday Sale) dopo una certa data ed evita di offrire ai clienti esperienze scadenti.
+   - **Data di scadenza notifica push** - È ora possibile specificare una data di scadenza per ogni notifica push, che impedisce l&#39;invio di messaggi sensibili al tempo (ad esempio Black Friday Sale) dopo una determinata data, evitando in tal modo di fornire ai clienti esperienze scadenti.
 
 - **Canale - E-mail**
    - **Allegati PDF alle e-mail** - È ora possibile allegare file PDF statici ai messaggi e-mail inviati con Journey Optimizer.
