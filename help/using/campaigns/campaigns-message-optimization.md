@@ -6,10 +6,11 @@ description: Sfrutta l’ottimizzazione dei messaggi per creare campagne di mark
 role: User
 level: Intermediate
 keywords: ottimizzazione delle campagne, sperimentazione, targeting, test A/B
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +24,7 @@ Con l&#39;ottimizzazione è possibile:
 * Esegui [esperimenti di contenuto](#experimentation)
 * Utilizza [combinazioni avanzate](#combination) sia di sperimentazione che di targeting all&#39;interno di una singola campagna
 
-Una volta che la campagna è attiva, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dalla campagna.
+Una volta che la campagna è attiva, i profili vengono valutati in base ai criteri definiti e, secondo i criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dalla campagna.
 
 La differenza tra esperimenti e targeting può essere descritta come segue:
 
@@ -98,7 +99,7 @@ Per impostare la sperimentazione e determinare quale messaggio determina il magg
 
 1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. Dalla scheda **[!UICONTROL Azioni]**, seleziona almeno due azioni in entrata, ad esempio [esperienza basata su codice](../code-based/get-started-code-based.md) e [In-app](../in-app/get-started-in-app.md).
+1. Dalla scheda **[!UICONTROL Azioni]**, seleziona almeno due azioni in entrata, ad esempio [esperienza basata su codice](../code-based/get-started-code-based.md) e [In-app](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Nella sezione **[!UICONTROL Ottimizzazione messaggi]**, seleziona **[!UICONTROL Sperimentazione]**.
 
@@ -161,4 +162,3 @@ Una volta che la campagna è attiva, agli utenti di ciascun gruppo target vengon
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

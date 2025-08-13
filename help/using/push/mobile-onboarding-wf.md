@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # Flusso di lavoro di avvio rapido per l’onboarding mobile {#mobile-wf}
 
-Il nuovo **flusso di lavoro di avvio rapido per l&#39;onboarding di dispositivi mobili** è una nuova funzionalità del prodotto che consente di configurare rapidamente l&#39;SDK di Adobe Experience Platform Mobile, iniziare a raccogliere e convalidare i dati di eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
+Il nuovo **flusso di lavoro di avvio rapido per l&#39;onboarding di dispositivi mobili** è una nuova funzionalità del prodotto che consente di configurare rapidamente Adobe Experience Platform Mobile SDK, iniziare a raccogliere e convalidare i dati di eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
 
 Questa funzionalità è accessibile tramite la home page di **[!DNL Adobe Experience Platform Data Collection]** a tutti i clienti come Beta pubblico.
 
@@ -34,7 +34,7 @@ Di seguito sono riportate alcune funzioni aggiuntive:
 
 * Semplice workflow in quattro fasi e interfaccia utente.
 * Fornisce una configurazione di base per iniziare a raccogliere i dati dell&#39;evento mobile tramite [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in pochi minuti.
-* Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
+* Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea e configura automaticamente tutte le risorse di Data Collection e Journey Optimizer necessarie.
 * Nelle guide del prodotto e nelle descrizioni.
 * Fornisce una transizione naturale per un&#39;implementazione più avanzata, se necessario.
@@ -63,7 +63,7 @@ Esamina e controlla l’implementazione per convalidarla. Puoi inviare una notif
 ![](assets/mobile-wf-valid.png)
 
 
-## Controlla {#review-mobile-wf}
+## Rivedi {#review-mobile-wf}
 
 La configurazione automatica è completata. Ora puoi visitare la proprietà mobile dei tag, configurare le regole o l’elemento dati e iniziare a inviare notifiche push con Adobe Journey Optimizer.
 
@@ -72,7 +72,7 @@ La configurazione automatica è completata. Ora puoi visitare la proprietà mobi
 
 **Argomenti correlati**
 
-* [Introduzione alle notifiche push](get-started-push.md)
+* [Introduzione alle notifiche push](../../rp_landing_pages/push-landing-page.md)
 * [Flusso di dati e componenti delle notifiche push](push-gs.md)
 * [Configurare il canale push](push-configuration.md)
 * [Rapporto notifiche push](../reports/journey-global-report-cja-push.md#push-global)
