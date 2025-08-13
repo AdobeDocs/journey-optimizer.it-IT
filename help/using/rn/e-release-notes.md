@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
+source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 34%
+source-wordcount: '956'
+ht-degree: 33%
 
 ---
 
@@ -219,6 +219,8 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Canale - SMS**
 
    * **Rinuncia fuzzy** - Se abilitata, l&#39;opzione **Rinuncia fuzzy** rileva i messaggi in entrata che assomigliano molto alle parole chiave di rinuncia definite (ad esempio, &#39;CANCIL&#39;) e invia automaticamente una risposta di conferma per verificare l&#39;intento dell&#39;utente di annullare l&#39;iscrizione. Se l’utente conferma tramite il prompt definito, l’abbonamento viene annullato.
+
+   * **Verifica connessione SMS** - Puoi testare e verificare facilmente le credenziali API SMS all&#39;interno di Adobe Journey Optimizer inviando un messaggio di esempio a un dispositivo designato.
 
 * **Configurazione**
 
