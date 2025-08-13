@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
+source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1778'
 ht-degree: 14%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 14%
 >id="ajo_exd_items"
 >title="Gestire gli elementi decisionali"
 >abstract="Journey Optimizer consente di creare offerte di marketing, note come elementi decisionali, da creare e organizzare in un catalogo e in raccolte centralizzati. Attualmente, tutti gli elementi decisionali creati sono consolidati all’interno di un singolo catalogo “Offerte”. Da questa schermata, puoi anche accedere allo schema del catalogo utilizzando il pulsante **Modifica schema** e creare attributi personalizzati per gli elementi decisionali."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=it" text="Configurare il catalogo degli elementi"
 
 Journey Optimizer consente di creare offerte di marketing, note come elementi decisionali, da creare e organizzare in un catalogo e in raccolte centralizzati. Sono costituiti da attributi standard e personalizzati progettati per allinearsi con precisione alle tue esigenze. Inoltre, incorporano vincoli di profilo che ti consentono di definire a chi può essere visualizzato un elemento decisionale.
 
