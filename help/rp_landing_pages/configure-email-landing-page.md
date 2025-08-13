@@ -20,7 +20,7 @@ La configurazione del canale e-mail in Adobe Journey Optimizer rappresenta il ga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla configurazione delle e-mail
 
@@ -30,7 +30,7 @@ Scopri i passaggi essenziali per configurare le funzionalità e-mail, inclusa la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Definire le impostazioni di configurazione e-mail
 
@@ -40,7 +40,7 @@ Imposta le configurazioni e-mail per il recapito messaggi, la conformità e la p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Abilitare e configurare l’annullamento dell’iscrizione all’elenco
 
@@ -50,7 +50,7 @@ Scopri come abilitare la funzione &quot;Annulla iscrizione elenco&quot; per incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i parametri dell’intestazione e-mail
 
@@ -60,7 +60,7 @@ Personalizza gli indirizzi e-mail del mittente e della risposta, gestisci gli er
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Configurare il tracciamento URL per il canale e-mail
 
@@ -70,7 +70,7 @@ Imposta i parametri di tracciamento URL per misurare l’efficacia delle campagn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Impostazioni di configurazione e-mail personalizzate
 

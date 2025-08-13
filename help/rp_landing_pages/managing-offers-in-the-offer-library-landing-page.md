@@ -20,7 +20,7 @@ La sezione &quot;Creazione e gestione di offerte&quot; in Adobe Journey Optimize
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare le offerte in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Scopri come creare offerte personalizzate, configurare le rappresentazioni e def
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Come creare offerte di fallback
 
@@ -40,7 +40,7 @@ Tutorial dettagliato sulla creazione di offerte di fallback per clienti non idon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Come creare e gestire le raccolte di offerte
 

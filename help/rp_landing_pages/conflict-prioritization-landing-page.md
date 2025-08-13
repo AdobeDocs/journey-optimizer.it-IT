@@ -20,7 +20,7 @@ La gestione dei conflitti e la definizione delle priorità in Adobe Journey Opti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla gestione dei conflitti
 
@@ -30,7 +30,7 @@ Scopri come utilizzare strumenti come il rilevamento dei conflitti, i punteggi d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Identificare potenziali conflitti
 
@@ -40,7 +40,7 @@ Scopri i metodi per rilevare e risolvere i conflitti di campagna e percorso, gar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Assegnare punteggi di priorità alle campagne
 
@@ -50,7 +50,7 @@ Scopri come assegnare punteggi di priorità numerica a percorsi e campagne per g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Imposta regole di limitazione messaggi e Percorso
 

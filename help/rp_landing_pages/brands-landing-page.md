@@ -20,7 +20,7 @@ In Adobe Journey Optimizer, la funzione &quot;Marchi&quot; ti consente di defini
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e gestire le linee guida per il marchio
 
@@ -30,7 +30,7 @@ Scopri come definire, personalizzare e mantenere le linee guida del brand per un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Valutazione del punteggio di allineamento del marchio
 

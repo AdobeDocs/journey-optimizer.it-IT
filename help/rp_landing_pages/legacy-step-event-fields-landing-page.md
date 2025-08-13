@@ -20,7 +20,7 @@ I campi degli eventi delle fasi precedenti in Adobe Journey Optimizer sono essen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Informazioni sui campi legacy
 
@@ -30,7 +30,7 @@ Scopri i campi evento dei passaggi precedenti in Adobe Journey Optimizer, inclus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Panoramica dei campi percorso
 
@@ -40,7 +40,7 @@ Scopri i campi nello schema del Percorso, i relativi tipi e come supportano la g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Campi comuni per gli eventi dei passaggi del Percorso
 
@@ -50,7 +50,7 @@ Trova campi essenziali condivisi tra journeyStepEvent e journeyStepProfileEvent 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Campi di esecuzione azione
 
@@ -60,7 +60,7 @@ Comprendere i campi relativi all’esecuzione di azioni negli eventi journeyStep
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Campi di recupero dati
 
@@ -70,7 +70,7 @@ Scopri i campi associati al recupero dei dati durante l’elaborazione dei passa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Campi identità JourneyStep
 

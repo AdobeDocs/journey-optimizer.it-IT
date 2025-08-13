@@ -20,7 +20,7 @@ La gestione dei dati in Adobe Journey Optimizer consente di assumere il controll
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alla gestione dei dati
 
@@ -30,7 +30,7 @@ Scopri come Adobe Journey Optimizer consente agli utenti di disporre di funziona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare gli schemi in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Comprendi e gestisci gli schemi di Adobe Experience Platform per creare modelli 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 Set di dati di Journey Optimizer
 
@@ -50,7 +50,7 @@ Scopri le linee guida complete sulla gestione dei set di dati, incluse le regole
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzare i dati di Adobe Experience Platform
 
@@ -60,7 +60,7 @@ Abilita e utilizza i set di dati di Adobe Experience Platform in Journey Optimiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Introduzione alle query in Journey Optimizer
 

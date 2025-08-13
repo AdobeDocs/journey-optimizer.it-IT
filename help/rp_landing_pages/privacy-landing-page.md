@@ -20,7 +20,7 @@ Gli strumenti per la privacy di Adobe Journey Optimizer ti consentono di gestire
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Panoramica sulla gestione della privacy
 
@@ -30,7 +30,7 @@ Scopri come gestire la privacy in Adobe Journey Optimizer e Adobe Experience Pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Gestione delle richieste di accesso a dati personali
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per creare e gestire le richieste di accesso a d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Registri di controllo per azioni utente
 
@@ -50,7 +50,7 @@ Monitora e monitora le azioni eseguite sulle risorse Adobe Journey Optimizer uti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Esecuzione delle operazioni del ciclo di vita dei dati
 
@@ -60,7 +60,7 @@ Scopri come gestire le attività del ciclo di vita dei dati, come l’aggiorname
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Gestione del consenso
 
@@ -70,7 +70,7 @@ Gestisci le preferenze e i criteri di consenso dei destinatari per rispettare le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Criteri di governance dei dati
 

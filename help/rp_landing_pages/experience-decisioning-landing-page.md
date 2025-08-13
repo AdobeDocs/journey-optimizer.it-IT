@@ -20,7 +20,7 @@ La funzione Decisioning di Adobe Journey Optimizer ti consente di fornire offert
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla funzione Decisioni
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base di Decisioning in Adobe Journey Optimizer, inclusa la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni decisionali
 
@@ -40,7 +40,7 @@ Scopri i vincoli e le best practice per utilizzare in modo efficace Decisioning 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Riferimento API: Distribuzione di offerte
 
@@ -50,7 +50,7 @@ Scopri come distribuire le offerte utilizzando il canale di esperienza basata su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire elementi e cataloghi di decisioni
 
@@ -60,7 +60,7 @@ Configura e gestisci elementi decisionali, cataloghi e raccolte per organizzare 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare regole di decisione
 
@@ -70,7 +70,7 @@ Definisci le regole di decisione per indirizzare con precisione il pubblico util
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare classificazioni con modelli AI
 

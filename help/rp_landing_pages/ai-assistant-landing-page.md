@@ -20,7 +20,7 @@ L’Assistente AI di Adobe Journey Optimizer rivoluziona la creazione di contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva all’Assistente AI
 
@@ -30,7 +30,7 @@ Scopri come accedere e configurare la funzione dell’Assistente AI per migliora
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Generazione di contenuti e-mail con IA
 
@@ -40,7 +40,7 @@ Scopri come utilizzare AI Assistant per creare, personalizzare e ottimizzare i c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
 
 Generazione di contenuti per notifiche push
 
@@ -50,7 +50,7 @@ Crea e personalizza i contenuti delle notifiche push con intelligenza artificial
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
 
 Generazione di contenuti SMS con IA
 
@@ -60,7 +60,7 @@ Utilizza l’Assistente AI per generare e perfezionare i contenuti SMS che risuo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
 
 Contenuto della pagina web e generazione delle risorse
 
@@ -70,7 +70,7 @@ Migliora i contenuti e gli effetti visivi delle pagine web con AI Assistant, gar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=it)
 
 Generazione di pagine di destinazione con IA
 

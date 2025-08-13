@@ -20,7 +20,7 @@ L’approvazione di percorsi e campagne in Adobe Journey Optimizer assicura che 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Configurazione e gestione dell&#39;approvazione di Percorsi e campagne
 
@@ -30,7 +30,7 @@ Scopri come impostare e gestire il processo di approvazione per percorsi e campa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare e gestire i criteri di approvazione
 
@@ -40,7 +40,7 @@ Guida dettagliata alla creazione, alla configurazione e alla gestione dei criter
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Come richiedere l’approvazione per Percorsi e campagne
 
@@ -50,7 +50,7 @@ Scopri come richiedere l’approvazione per percorsi e campagne, inclusi i fluss
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Rivedere e approvare le richieste di Percorsi e campagne
 

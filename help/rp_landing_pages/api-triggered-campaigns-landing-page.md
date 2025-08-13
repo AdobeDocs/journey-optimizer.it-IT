@@ -20,7 +20,7 @@ Le campagne attivate da API in Adobe Journey Optimizer ti consentono di inviare 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e gestire campagne attivate da API
 
@@ -30,7 +30,7 @@ Scopri come creare, configurare e gestire campagne attivate da API in Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Definire le proprietà della campagna attivata da API
 
@@ -40,7 +40,7 @@ Segui istruzioni dettagliate per definire le proprietà della campagna, ad esemp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare l’azione della campagna attivata da API
 
@@ -50,7 +50,7 @@ Scopri come configurare azioni, selezionare canali di comunicazione, ottimizzare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Modificare e personalizzare il contenuto di una campagna attivata da API
 
@@ -60,7 +60,7 @@ Personalizza e personalizza il contenuto della campagna utilizzando dati contest
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
 
 Definire il pubblico della campagna attivata da API
 
@@ -70,7 +70,7 @@ Imposta il pubblico della campagna selezionando i profili, configurando i tipi d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 Pianificare una campagna attivata da API
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer consente ai team di progettare e fornire esperienze clie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Novità di Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Resta aggiornato sulle ultime note sulla versione, sulle nuove funzioni e sulle 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione a Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Scopri le nozioni di base di Adobe Journey Optimizer, incluse le funzionalità, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Guida completa ai Percorsi
 
@@ -50,7 +50,7 @@ Puoi progettare, orchestrare, gestire e ottimizzare percorsi di clienti personal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
 
 Informazioni e gestione delle campagne
 
@@ -60,7 +60,7 @@ Linee guida dettagliate sulla creazione, la gestione e l’ottimizzazione di var
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
 
 Gestione dei conflitti e definizione delle priorità
 

@@ -30,7 +30,7 @@ Prima di creare il messaggio LINE, configura il canale LINE con Journey Optimize
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale LINE
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per configurare manualmente il canale LINE o imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e configurare messaggi LINE
 
@@ -50,7 +50,7 @@ Scopri come aggiungere messaggi LINE a percorsi e campagne, personalizzare il co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Controllare e inviare messaggi LINE
 

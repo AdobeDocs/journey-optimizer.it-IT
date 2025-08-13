@@ -20,7 +20,7 @@ I rapporti delle campagne in Adobe Journey Optimizer ti consentono di ottenere i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Panoramica dei rapporti sulle campagne
 
@@ -30,7 +30,7 @@ Scopri come analizzare le prestazioni delle campagne utilizzando metriche chiave
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Rapporto campagna basato su codice
 
@@ -40,7 +40,7 @@ Scopri come valutare esperienze personalizzate e strategie decisionali basate su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Rapporto campagna scheda contenuti
 
@@ -50,7 +50,7 @@ Analizza le campagne con schede di contenuto con metriche quali tendenze di visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Rapporto campagna direct mail
 
@@ -60,7 +60,7 @@ Valuta l’efficienza delle campagne di direct mailing analizzando lo stato di c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=it)
 
 Rapporto campagna e-mail
 
@@ -70,7 +70,7 @@ Ottieni informazioni approfondite sulle metriche delle prestazioni delle e-mail,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=it)
 
 Rapporto sulla campagna di sperimentazione
 

@@ -20,7 +20,7 @@ La raccolta dei dati dell’evento in Adobe Journey Optimizer consente di tenere
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Guida introduttiva alla raccolta dati per la gestione delle decisioni
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla raccolta dei dati per la gestione delle decision
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare un set di dati per raccogliere eventi esperienza
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per creare un set di dati e uno schema per la ra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione dell’acquisizione dei dati evento per la gestione delle decisioni
 

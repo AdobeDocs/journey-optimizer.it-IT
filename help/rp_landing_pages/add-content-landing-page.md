@@ -20,7 +20,7 @@ La progettazione dei contenuti in Adobe Journey Optimizer consiste nella creazio
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare i componenti contenuto
 
@@ -30,7 +30,7 @@ Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=it)
 
 Utilizzo dei frammenti visivi
 
@@ -40,7 +40,7 @@ Scopri come creare frammenti riutilizzabili per semplificare la progettazione de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Aggiungi collegamenti e tieni traccia dei messaggi
 
@@ -50,7 +50,7 @@ Abilita il tracciamento, inserisci collegamenti e gestisci l’aspetto dei colle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Inserisci offerte personalizzate
 
@@ -60,7 +60,7 @@ Utilizza la gestione delle decisioni per visualizzare in modo dinamico offerte p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
 
 Genera versione testo
 
@@ -70,7 +70,7 @@ Crea e personalizza la versione in testo normale dell’e-mail per i destinatari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Aggiungi metadati
 

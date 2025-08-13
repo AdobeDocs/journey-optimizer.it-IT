@@ -20,7 +20,7 @@ Le pagine di destinazione in Adobe Journey Optimizer ti consentono di creare pag
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alle pagine di destinazione
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulle pagine di destinazione, le loro funzionalità e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e pubblicare pagine di destinazione
 
@@ -40,7 +40,7 @@ Linee guida dettagliate per creare, configurare, testare e pubblicare efficaceme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestione delle pagine di destinazione
 
@@ -50,7 +50,7 @@ Accedi, organizza ed esegui azioni quali pubblicazione, duplicazione ed assegnaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare contenuti per le pagine di destinazione
 
@@ -60,7 +60,7 @@ Crea e personalizza pagine di destinazione con modelli, moduli e funzioni avanza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire gli elenchi di iscrizioni
 
@@ -70,7 +70,7 @@ Imposta gli elenchi di abbonamento per gestire i profili con consenso e semplifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Casi di utilizzo della pagina di destinazione
 

@@ -20,7 +20,7 @@ L’esportazione del catalogo delle offerte in Adobe Journey Optimizer è come a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida all’esportazione dei cataloghi di offerte
 
@@ -30,7 +30,7 @@ Scopri come esportare il catalogo delle offerte come set di dati in Adobe Experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accedere al catalogo delle offerte esportate
 
@@ -40,7 +40,7 @@ Scopri come individuare e interagire con il catalogo delle offerte esportato in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Riferimento a set di dati di offerte personalizzate
 
@@ -50,7 +50,7 @@ Esplora i campi e lo schema gerarchico del set di dati per le offerte personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Panoramica del set di dati delle decisioni
 
@@ -60,7 +60,7 @@ Comprendi la struttura gerarchica, le definizioni dei campi e i metadati del set
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Dettagli set di dati posizionamenti
 
@@ -70,7 +70,7 @@ Scopri i campi, lo schema e i metadati del set di dati Posizionamenti per la ges
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Documentazione del set di dati delle offerte di fallback
 

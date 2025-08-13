@@ -20,7 +20,7 @@ I contenuti dinamici in Adobe Journey Optimizer ti consentono di creare messaggi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva ai contenuti dinamici
 
@@ -30,7 +30,7 @@ Scopri come utilizzare le regole condizionali e l’editor di personalizzazione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire regole condizionali
 
@@ -40,7 +40,7 @@ Padroneggia la creazione, il salvataggio e la gestione delle regole condizionali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Come creare contenuti dinamici in Adobe Journey Optimizer
 

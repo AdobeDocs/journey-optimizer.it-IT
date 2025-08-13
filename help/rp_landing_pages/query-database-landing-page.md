@@ -20,7 +20,7 @@ Scopri come sfruttare al massimo il potenziale dei dati sul pubblico con i poten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Utilizzo del Generatore di regole per le campagne orchestrate
 
@@ -30,7 +30,7 @@ Scopri come creare e gestire regole di segmentazione e targeting del pubblico ut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Come creare la prima regola in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Tutorial dettagliato sulla creazione e la convalida di regole per filtrare e ind
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Modificare le espressioni in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Padroneggia l’Editor espressioni per definire manualmente le regole di query e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creazione di query di retargeting in Adobe Journey Optimizer
 

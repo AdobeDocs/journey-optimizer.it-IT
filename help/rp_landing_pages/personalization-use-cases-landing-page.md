@@ -20,7 +20,7 @@ Immagina di creare comunicazioni sempre personalizzate per il tuo pubblico. I ca
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Tutorial Personalization sulla notifica dello stato dell’ordine
 
@@ -30,7 +30,7 @@ Scopri come creare notifiche push personalizzate per gli aggiornamenti dello sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Guida di E-mail Personalization per l’abbandono del carrello
 
@@ -40,7 +40,7 @@ Scopri come personalizzare le e-mail di abbandono del carrello utilizzando le fu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Esempio di Personalization per la prescrizione del piano di integrità
 

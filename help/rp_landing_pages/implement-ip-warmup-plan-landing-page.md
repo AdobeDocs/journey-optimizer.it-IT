@@ -20,7 +20,7 @@ L’implementazione di un piano di riscaldamento IP in Adobe Journey Optimizer g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Guida introduttiva ai piani di riscaldamento IP
 
@@ -30,7 +30,7 @@ Scopri lo scopo, i vantaggi e i passaggi dei piani di riscaldamento IP per migli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare campagne di riscaldamento IP
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per progettare e attivare campagne per il tuo pi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Come creare e gestire un piano di riscaldamento IP
 
@@ -50,7 +50,7 @@ Scopri come creare, configurare e gestire il piano di riscaldamento IP, incluse 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Esecuzione e gestione del piano di riscaldamento IP
 

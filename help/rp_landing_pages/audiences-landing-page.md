@@ -20,7 +20,7 @@ I tipi di pubblico in Adobe Journey Optimizer consentono di connettersi con le p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione ai tipi di pubblico
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base su gestione dell’audience, segmentazione e attivazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire i tipi di pubblico
 
@@ -40,7 +40,7 @@ Scopri flussi di lavoro avanzati per la creazione, la composizione e l’arricch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Attivare tipi di pubblico in campagne e Percorsi
 
@@ -50,7 +50,7 @@ Scopri come attivare i tipi di pubblico e utilizzarli in modo efficace all’int
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzo degli attributi di arricchimento
 

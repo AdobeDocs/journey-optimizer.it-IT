@@ -20,7 +20,7 @@ In Adobe Journey Optimizer, la creazione di classificazioni ti consente di asseg
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e utilizzare i metodi di classificazione
 
@@ -30,7 +30,7 @@ Scopri come creare e configurare metodi di classificazione, tra cui formule e mo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare il Generatore di formule di IA
 
@@ -40,7 +40,7 @@ Scopri come utilizzare il Generatore di formule di intelligenza artificiale per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Informazioni e implementazione di modelli di intelligenza artificiale
 

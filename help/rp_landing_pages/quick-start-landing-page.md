@@ -20,7 +20,7 @@ Il successo di Adobe Journey Optimizer dipende dalla collaborazione di un team d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Panoramica su ruoli e responsabilità
 
@@ -30,7 +30,7 @@ Scopri i ruoli chiave, le responsabilità e le dipendenze necessari per implemen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Introduzione al ruolo di addetto marketing
 
@@ -40,7 +40,7 @@ Linee guida dettagliate per gli esperti di marketing sulla creazione di tipi di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Introduzione al ruolo di data engineer
 
@@ -50,7 +50,7 @@ Istruzioni dettagliate per i data engineer per preparare schemi, set di dati e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Introduzione al ruolo di amministratore di sistema
 

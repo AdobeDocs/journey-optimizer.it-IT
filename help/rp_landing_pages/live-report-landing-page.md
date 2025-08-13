@@ -20,7 +20,7 @@ La funzione Live Report in Adobe Journey Optimizer consente di monitorare e anal
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione ai rapporti live
 
@@ -30,7 +30,7 @@ Scopri come accedere, personalizzare ed esportare rapporti live per monitorare p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Elenco delle metriche
 
@@ -40,7 +40,7 @@ Scopri le definizioni e le categorie di metriche utilizzate nei rapporti live pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Rapporto live del percorso
 
@@ -50,7 +50,7 @@ Analizzare le prestazioni dei percorsi e dei canali di comunicazione associati i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Rapporto live della campagna
 
@@ -60,7 +60,7 @@ Visualizza le prestazioni della campagna su più canali come e-mail, push, SMS, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Rapporto live della pagina di destinazione
 
@@ -70,7 +70,7 @@ Valuta le prestazioni della pagina di destinazione con metriche in tempo reale q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Rapporto live abbonamento
 

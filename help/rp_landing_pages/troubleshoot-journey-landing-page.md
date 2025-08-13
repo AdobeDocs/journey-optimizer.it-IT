@@ -21,7 +21,7 @@ Quando un percorso di clienti non si comporta come previsto, identificare la cau
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Risolvere i problemi prima di testare o pubblicare il Percorso
 
@@ -31,7 +31,7 @@ Identifica e risolve gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Risoluzione dei problemi relativi all’esecuzione di Live Percorsi in Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Risolvere i problemi relativi alle azioni in entrata nei Percorsi Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Debug di problemi relativi alle azioni in entrata, ad esempio contenuto mancante
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Risoluzione dei problemi relativi alle azioni personalizzate in Adobe Journey Optimizer
 

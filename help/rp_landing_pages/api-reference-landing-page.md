@@ -20,7 +20,7 @@ La sezione Riferimento API in Adobe Journey Optimizer sblocca gli strumenti nece
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva all’API della Libreria di offerte
 
@@ -30,7 +30,7 @@ Scopri come integrare l’API della Libreria di offerte per la gestione delle de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Consegnare offerte tramite API Adobe Journey Optimizer
 
