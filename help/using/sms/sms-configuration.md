@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 34%
+source-wordcount: '411'
+ht-degree: 31%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 34%
 >id="ajo_admin_sms_configuration"
 >title="Selezionare la configurazione del fornitore di SMS"
 >abstract="Seleziona le credenziali API configurate per il fornitore di SMS."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_fuzzy_opt_out"
+>title="Rinuncia fuzzy"
+>abstract="&quot;Quando è abilitata, la funzione di rinuncia fuzzy rileva i messaggi in entrata che assomigliano molto alle parole chiave di rinuncia definite (ad esempio, &quot;CANCIL&quot;) e invia automaticamente una risposta di conferma per verificare l’intento di annullamento dell’iscrizione dell’utente. Se l’utente conferma tramite il prompt definito, l’abbonamento viene annullato."
 
 Prima di inviare SMS, MMS o RCS, devi configurare il tuo ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
 
