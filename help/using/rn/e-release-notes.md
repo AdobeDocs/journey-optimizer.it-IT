@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
+source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1010'
 ht-degree: 32%
 
 ---
@@ -147,6 +147,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Journey Optimizer ora ti offre gli strumenti per ottimizzare i tuoi percorsi sfruttando i framework di intelligenza artificiale e sperimentazione e garantendo al contempo l’usabilità fluida e la differenziazione tra le funzionalità di condizione e ottimizzazione.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -231,6 +232,10 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
    * **Supporto di attributi personalizzati con URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**. Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare un endpoint personalizzato esterno definendo un collegamento per l&#39;annullamento dell&#39;iscrizione con un solo clic nella configurazione dell&#39;e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’abbonamento, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
      Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso.
+
+* **Funzione Decisioni**
+
+   * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basate sul codice tramite i criteri decisionali.
 
 * **Percorsi**
 
