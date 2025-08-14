@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
+source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1773'
 ht-degree: 44%
 
 ---
@@ -112,12 +112,13 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Sfrutta i dati di [!DNL Adobe Experience Platform] nell'editor di personalizzazione per personalizzare il contenuto e gli attributi decisionali. In particolare, questo ti consente di estendere la definizione degli attributi ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che cambiano periodicamente senza dover aggiornare manualmente gli attributi uno alla volta.</p>
-<p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale sono stati introdotti i seguenti miglioramenti:</p>
+<p>Con questa versione sono stati introdotti i seguenti miglioramenti:</p>
 <ul>
 <li>Supporto dei canali in entrata,</li>
 <li>La funzione helper "datasetLookup" può ora essere utilizzata all’interno di frammenti di espressione e visivi per personalizzare il contenuto utilizzando i dati dei set di dati di Adobe Experience Platform,</li>
 <li>Un’opzione nel set di dati ora consente di abilitare i set di dati per la personalizzazione di ricerca, senza dover eseguire una chiamata API.</li>
 </ul>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -262,7 +263,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Amministrazione**
 
-   * **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui si verifichi un errore di configurazione del canale o se manca un record DNS.
+   * **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui manchi <!--a channel configuration failure happens or if -->un record DNS.
 
 * **Campagne**
 
