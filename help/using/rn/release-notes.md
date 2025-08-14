@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1781'
 ht-degree: 44%
 
 ---
@@ -266,7 +266,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Campagne**
 
-   * **Controllo del tasso nelle campagne in uscita** - È ora possibile abilitare il controllo del tasso di limitazione per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti.
+   * **Controllo del tasso nelle campagne in uscita** - È ora possibile abilitare il controllo del tasso per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti.
 
    * **Pianificazione delle campagne azione** - Le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
 
