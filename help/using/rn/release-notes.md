@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
    * **Operazioni di Percorso in serie** - Dall&#39;elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionata, puoi sospendere o riprendere fino a 10 percorsi alla volta.
 
    * **Supporto di reindirizzamento (302) nelle azioni personalizzate** - Le azioni personalizzate possono ora gestire i reindirizzamenti HTTP 302 in base a una richiesta. Questo consente ai percorsi di integrarsi con le API che reindirizzano le richieste a URL localizzati o specifici di una regione. I reindirizzamenti vengono seguiti automaticamente, garantendo che il contenuto corretto venga distribuito senza configurazioni aggiuntive.
+
+* **Set di dati**
+
+   * **Archivio oggetti Experience Decisioning - Elementi offerta personalizzati** - Il set di dati di esportazione incorporato ora acquisisce tutti gli attributi dell&#39;offerta e lo stato del ciclo di vita, consentendo la personalizzazione completa e la generazione di rapporti.
 
 ## Orchestrazione della campagna
 
