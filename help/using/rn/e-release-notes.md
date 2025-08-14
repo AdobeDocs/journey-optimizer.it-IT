@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1033'
 ht-degree: 32%
 
 ---
@@ -164,11 +164,12 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supporta una nuova attività Azione generica che consente di configurare sia azioni singole che azioni in uscita multicanale, semplificando la configurazione delle azioni nell’area di lavoro del percorso. In particolare, questa nuova funzione consente di:</p>
+<p>Journey Optimizer supporta una nuova attività Azione generica che consente di configurare sia azioni singole che gruppi di azioni in entrata con più azioni, semplificando la configurazione delle azioni nell’area di lavoro del percorso. In particolare, questa nuova funzione consente di:</p>
 <ul>
 <li>Configurazione semplificata dell’azione nativa nell’area di lavoro del percorso.</li>
 <li>La capacità di creare nodi in entrata con più azioni.</li>
 <li>Possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata.</li>
+<li>Possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
 </ul>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
