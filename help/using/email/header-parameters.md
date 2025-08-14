@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 93%
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
-
 
 # Parametri per intestazione {#email-header}
 
@@ -64,7 +64,7 @@ Se ricevi un errore durante l’invio della configurazione e-mail, significa che
 
 >[!NOTE]
 >
->Se il sottodominio dell’indirizzo immesso è un dominio [completamente delegato](../configuration/delegate-subdomain.md#full-subdomain-delegation) ad Adobe, contatta il responsabile dell’account Adobe.
+>Se il sottodominio dell&#39;indirizzo immesso è un dominio [completamente delegato](../configuration/delegate-subdomain.md#full-subdomain-delegation) ad Adobe, contatta il rappresentante Adobe.
 
 ## Inoltra l’e-mail {#forward-email}
 
