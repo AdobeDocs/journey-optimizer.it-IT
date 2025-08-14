@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
+source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 48%
+source-wordcount: '1715'
+ht-degree: 46%
 
 ---
 
@@ -244,7 +244,13 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Controllo del tasso nelle campagne in uscita** - È ora possibile abilitare il controllo del tasso di limitazione per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti.
 
-   * **Pianificazione delle campagne azione** - Le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per migliorarne la granularità. Ad esempio, ora puoi impostare il numero di settimane/mesi tra le pianificazioni, definire il giorno in cui eseguire e decidere di interrompersi dopo un numero specifico di occorrenze o in una data specifica.
+   * **Pianificazione delle campagne azione** - Le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
+
+      * **Ricorrenza settimanale**: ora puoi scegliere di ripetere la campagna ogni settimana o ogni due settimane e selezionare il giorno o i giorni della settimana in cui deve essere eseguita.
+
+      * **Ricorrenza mensile**: ora puoi scegliere di ripetere la campagna ogni mese o a mesi alterni e selezionare il giorno del mese in cui deve essere eseguita.
+
+      * **Pianificazioni giornaliere, settimanali o mensili**: è possibile specificare se la pianificazione ricorrente deve terminare in una data specifica o dopo un determinato numero di occorrenze.
 
    * **Campagne programmate per azioni transazionali** - Le campagne programmate per azioni transazionali sono ora disponibili per l&#39;invio di comunicazioni transazionali in blocco e basate sul pubblico tramite canali e-mail, SMS e push.
 
