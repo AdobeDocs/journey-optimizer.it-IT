@@ -7,7 +7,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ La **[!UICONTROL riconciliazione]** richiede che i record correlati esistano gi�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Regole di riconciliazione"
->abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplica. Per utilizzare gli attributi, seleziona l’opzione **Attributi semplici** e scegli i campi di origine e di destinazione. Per creare una condizione di riconciliazione personalizzata utilizzando il generatore di regole, selezionare l&#39;opzione **Condizioni di riconciliazione avanzate**."
+>abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplica. Per utilizzare gli attributi, seleziona l’opzione **Attributi semplici** e scegli i campi di origine e di destinazione. Per creare una condizione di riconciliazione utilizzando il generatore di regole, seleziona l’opzione **Condizioni di riconciliazione avanzate**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"

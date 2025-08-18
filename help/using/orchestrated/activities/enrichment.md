@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="Attività Arricchimento"
->abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzato in una campagna dopo attività di segmentazione."
+>abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una campagna dopo le attività di segmentazione."
 
 L’attività **[!UICONTROL Arricchimento]** è un’attività **[!UICONTROL targeting]** che consente di migliorare i dati del pubblico con attributi aggiuntivi.
 

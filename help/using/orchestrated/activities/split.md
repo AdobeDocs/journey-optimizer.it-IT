@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ L’attività **[!UICONTROL Dividi]** è un’attività di **[!UICONTROL targeti
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filtro attività Dividi"
->abstract="Per applicare una condizione di filtro al sottoinsieme, fare clic su **[!UICONTROL Crea filtro]** e configurare la regola di filtro desiderata utilizzando il generatore di regole. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
+>abstract="Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utilizzando il generatore di regole. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"

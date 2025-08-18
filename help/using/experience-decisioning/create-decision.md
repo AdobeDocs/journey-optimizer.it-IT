@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ I criteri di decisione sono contenitori per le offerte che sfruttano il motore d
 
 I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i seguenti:
 
-1. [Creare un criterio di decisione in un’esperienza e-mail o basata su codice](#add-decision)
+1. [Creare un criterio di decisione in un’esperienza basata su codice o in un’e-mail](#add-decision)
 
    Imposta un criterio di decisione nell’e-mail o nell’esperienza basata sul codice scegliendo il numero di elementi da restituire, configurando strategie di selezione, opzioni di fallback e ordine di valutazione.
 
@@ -75,7 +75,7 @@ I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i se
 
 * **Classifica IA** - Per il momento, la classificazione IA non è supportata per il canale e-mail nei percorsi con decisioning.
 
-## Creare un criterio di decisione in un’esperienza e-mail o basata su codice {#add-decision}
+## Creare un criterio di decisione in un’esperienza basata su codice o in un’e-mail {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -120,7 +120,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
    +++
 
-   +++Menu Invia e-mail a Designer **[!UICONTROL Decisioning]**
+   +++Invia menu **[!UICONTROL Decisioning]** a Designer tramite e-mail
 
    1. Seleziona un componente, fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra degli strumenti o nel riquadro delle proprietà, quindi seleziona **[!UICONTROL Aggiungi nuovo criterio]**.
 
@@ -138,7 +138,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
    Per le e-mail, è possibile restituire più elementi solo in un componente di contenuto **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
 
-+++ Restituire più elementi decisionali nelle e-mail
+   +++ Restituire più elementi decisionali nelle e-mail
 
    1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;area di lavoro e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
 
@@ -150,7 +150,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai destinatari e
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. Fai clic su **[!UICONTROL Avanti]**.
 
@@ -314,7 +314,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
