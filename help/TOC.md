@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -274,8 +274,8 @@ ht-degree: 98%
    + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
    + [Assegnare punteggi di priorità](using/conflict-prioritization/priority-scores.md)
-   + Imposta le regole di limitazione dei messaggi e dei percorsi {#capping-rules}
-      + [Imposta le regole di limitazione dei messaggi e dei percorsi](/help/rp_landing_pages/capping-rules-landing-page.md)
+   + Impostare le regole di limitazione dei messaggi e dei percorsi {#capping-rules}
+      + [Impostare le regole di limitazione dei messaggi e dei percorsi](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Utilizzare i set di regole](using/conflict-prioritization/rule-sets.md)
       + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
       + [Quota limite per tipo di comunicazione e canale](using/conflict-prioritization/channel-capping.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [Introduzione agli SMS](using/sms/get-started-sms.md)
       + [Creare un messaggio SMS/MMS/RCS](using/sms/create-sms.md)
       + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
-      + [Gestire la rinuncia agli SMS](using/sms/sms-opt-out.md)
+      + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
       + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
       + Configurare il canale SMS/MMS/RCS {#configure-sms}
          + [Configurare il canale SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -441,7 +441,7 @@ ht-degree: 98%
       + [Introduzione alla personalizzazione](using/personalization/personalize.md)
       + [Aggiungere personalizzazione](using/personalization/personalization-build-expressions.md)
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
-      + [Riutilizzare i frammenti di espressione](using/personalization/use-expression-fragments.md)
+      + [Riutilizzare frammenti di espressione](using/personalization/use-expression-fragments.md)
       + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta)](using/personalization/aep-data-perso.md)
       + Elenco funzioni helper {#functions}
          + [Elenco funzioni helper](/help/rp_landing_pages/functions-landing-page.md)

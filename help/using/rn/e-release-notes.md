@@ -10,7 +10,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 32%
+ht-degree: 86%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 32%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
 
-## Note preliminari al 25 agosto {#25-8-rn}
+## Note pre-release di agosto 2025 {#25-8-rn}
 
-**Le note precedenti al rilascio sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
+**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
 
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
@@ -62,9 +62,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <p>Negli elenchi dei percorsi e delle campagne è ora disponibile una vista calendario. Consente di visualizzare tutte le attivazioni dei percorsi e delle campagne nei rispettivi elenchi.</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzione è ora disponibile per tutti gli ambienti. Con questa versione in disponibilità generale, la funzione include:</p>
 <ul>
-<li>Miglioramenti della progettazione per la navigazione nelle date,</li>
-<li>Possibilità di visualizzare le bozze delle campagne se hai impostato una data di inizio e una data di fine</li>
-<li>Nuova impostazione per nascondere e visualizzare gli elementi del calendario in esecuzione per un periodo di tempo prolungato.</li>
+<li>Miglioramenti della progettazione per la navigazione tra date.</li>
+<li>Possibilità di visualizzare le campagne di bozza se hai impostato una data di inizio e una data di fine</li>
+<li>Nuova impostazione per nascondere e visualizzare gli elementi del calendario in esecuzione per molto tempo.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -108,9 +108,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <p>Sfrutta i dati da Adobe Experience Platform nell’editor di personalizzazione per personalizzare i contenuti. A questo scopo, i set di dati necessari per la personalizzazione della ricerca devono prima essere abilitati tramite una chiamata API. Al termine, è possibile utilizzare i relativi dati per personalizzare il contenuto in [!DNL Journey Optimizer].</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale sono stati introdotti i seguenti miglioramenti:</p>
 <ul>
-<li>Supporto dei canali in entrata,</li>
-<li>La funzione helper "datasetLookup" può ora essere utilizzata all’interno di frammenti di espressione e visivi per personalizzare il contenuto utilizzando i dati dei set di dati di Adobe Experience Platform,</li>
-<li>Un’opzione nel set di dati ora consente di abilitare i set di dati per la personalizzazione di ricerca, senza dover eseguire una chiamata API.</li>
+<li>Supporto dei canali in entrata.</li>
+<li>La funzione helper “datasetLookup” può ora essere utilizzata all’interno di frammenti di espressione e visivi per personalizzare il contenuto utilizzando i dati dei set di dati di Adobe Experience Platform,</li>
+<li>Un’opzione nel set di dati ora consente di abilitare i set di dati per la personalizzazione della ricerca, senza dover eseguire una chiamata API.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -140,13 +140,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Ottimizzazione percorso percorso</strong><br/></th>
+<th><strong>Ottimizzazione del percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora ti offre gli strumenti per ottimizzare i tuoi percorsi sfruttando i framework di intelligenza artificiale e sperimentazione e garantendo al contempo l’usabilità fluida e la differenziazione tra le funzionalità di condizione e ottimizzazione.</p>
+<p>Journey Optimizer ora offre gli strumenti per ottimizzare i tuoi percorsi sfruttando i framework di sperimentazione e l’intelligenza artificiale, garantendo al contempo un’usabilità fluida e la differenziazione tra le funzionalità di condizione e ottimizzazione.</p>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -158,7 +158,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Attività azione in percorsi</strong><br/></th>
+<th><strong>Attività di azione nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -182,7 +182,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Moduli personalizzati per pagine di destinazione</strong><br/></th>
+<th><strong>Moduli personalizzati della pagina di destinazione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -205,27 +205,27 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Amministrazione**
 
-   * **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui si verifichi un errore di configurazione del canale o se manca un record DNS.
+   * **Avvisi di monitoraggio della configurazione dei canali**: in caso di errore nella configurazione di un canale o di record DNS mancante, ora è possibile iscriversi per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer.
 
 * **Campagne**
 
-   * **Controllo del tasso nelle campagne in uscita** - È ora possibile abilitare il controllo del tasso di limitazione per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti.
+   * **Controllo della frequenza nelle campagne in uscita**: ora è possibile abilitare il controllo della limitazione di frequenza per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti.
 
-   * **Pianificazione delle campagne azione** - Le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per migliorarne la granularità. Ad esempio, ora puoi impostare il numero di settimane/mesi tra le pianificazioni, definire il giorno in cui eseguire e decidere di interrompersi dopo un numero specifico di occorrenze o in una data specifica.
+   * **Pianificazione delle campagne di azione**: i moduli di pianificazione giornaliera, settimanale e mensile delle campagne sono stati aggiornati per migliorarne la granularità. Ad esempio, ora puoi impostare il numero di settimane/mesi tra le pianificazioni, definire il giorno in cui eseguire le campagne e decidere di interromperle dopo un numero specifico di occorrenze o in una data specifica.
 
-   * **Campagne programmate per azioni transazionali** - Le campagne programmate per azioni transazionali sono ora disponibili per l&#39;invio di comunicazioni transazionali in blocco e basate sul pubblico tramite canali e-mail, SMS e push.
+   * **Campagne programmate per azioni transazionali**: le campagne programmate per azioni transazionali sono ora disponibili per l’invio di comunicazioni transazionali batch e basate sul pubblico tramite canali e-mail, SMS e push.
 
 * **Canale - Push**
 
-   * **Data di scadenza notifica push** - È ora possibile specificare una data di scadenza per ogni notifica push, che impedisce l&#39;invio di messaggi sensibili al tempo (ad esempio Black Friday Sale) dopo una determinata data, evitando in tal modo di fornire ai clienti esperienze scadenti.
+   * **Data di scadenza notifica push**: ora è possibile specificare una data di scadenza per ogni notifica push, impedendo l’invio di messaggi urgenti (come quelli delle offerte del Black Friday) dopo una determinata data, evitando quindi di fornire esperienze scadenti alla clientela.
 
 * **Canale - E-mail**
 
-   * **Allegati PDF alle e-mail** - È ora possibile allegare file PDF statici ai messaggi e-mail inviati con Journey Optimizer.
+   * **Allegati PDF alle e-mail**: ora è possibile allegare file PDF statici ai messaggi e-mail inviati con Journey Optimizer.
 
 * **Canale - SMS**
 
-   * **Rinuncia fuzzy** - Se abilitata, l&#39;opzione **Rinuncia fuzzy** rileva i messaggi in entrata che assomigliano molto alle parole chiave di rinuncia definite (ad esempio, &#39;CANCIL&#39;) e invia automaticamente una risposta di conferma per verificare l&#39;intento dell&#39;utente di annullare l&#39;iscrizione. Se l’utente conferma tramite il prompt definito, l’abbonamento viene annullato.
+   * **Rinuncia parziale**: se abilitata, l’opzione **Rinuncia parziale** rileva i messaggi in entrata più simili alle parole chiave di rinuncia definite (ad esempio, “CANCIL”) e invia automaticamente una risposta di conferma per verificare l’intenzione dell’utente di annullare l’iscrizione. Se l’utente conferma tramite il prompt definito, l’iscrizione viene annullata.
 
      **Rinuncia fuzzy** è disponibile solo con Sinch e Infobip.
 
@@ -233,11 +233,11 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Configurazione**
 
-   * **Supporto di domini dinamici** - Journey Optimizer ora supporta la personalizzazione negli URL di tracciamento per i domini predefiniti elencati a livello di configurazione del canale.
+   * **Supporto di domini dinamici**: Journey Optimizer ora supporta la personalizzazione negli URL di tracciamento per i domini predefiniti elencati a livello di configurazione dei canali.
 
-   * **Supporto di attributi personalizzati con URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**. Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare un endpoint personalizzato esterno definendo un collegamento per l&#39;annullamento dell&#39;iscrizione con un solo clic nella configurazione dell&#39;e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’abbonamento, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
+   * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
-     Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso.
+     Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso.
 
 * **Funzione Decisioni**
 
@@ -245,4 +245,4 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Percorsi**
 
-   * **Operazioni di Percorso in serie** - Dall&#39;elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionata, puoi sospendere o riprendere fino a 10 percorsi alla volta.
+   * **Operazioni del percorso in blocco**: dall’elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionati, puoi sospendere o riprendere fino a 10 percorsi alla volta.
