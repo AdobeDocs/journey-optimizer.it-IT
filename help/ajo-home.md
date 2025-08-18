@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-
 # Documentazione di Adobe Journey Optimizer{#section-overview}
 
-Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze dei clienti in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle sue funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un addetto marketing, un analista dati o un manager della campagna, troverai guide dettagliate, best practice e risorse su misura per aiutarti a raggiungere i tuoi obiettivi con sicurezza.
+Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un marketer, un analista di dati o un responsabile della campagna, troverai guide dettagliate, best practice e risorse su misura per aiutarti a raggiungere i tuoi obiettivi con sicurezza.
 
-## Inizia l’esplorazione
+## Inizia ad esplorare
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Novità di Adobe Journey Optimizer
 
-Resta aggiornato sulle ultime note sulla versione, sulle nuove funzioni e sulle modifiche alla documentazione di Adobe Journey Optimizer.
+Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e delle modifiche alla documentazione di Adobe Journey Optimizer.
 
 [Visualizza le novità](./rp_landing_pages/whats-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introduzione a Adobe Journey Optimizer
+Introduzione ad Adobe Journey Optimizer
 
 Scopri le nozioni di base di Adobe Journey Optimizer, incluse le funzionalità, l’architettura e l’interfaccia utente.
 
@@ -40,39 +40,39 @@ Scopri le nozioni di base di Adobe Journey Optimizer, incluse le funzionalità, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Guida completa ai Percorsi
+Guida completa ai percorsi
 
-Puoi progettare, orchestrare, gestire e ottimizzare percorsi di clienti personalizzati con questa guida dettagliata.
+Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con questa guida dettagliata.
 
-[Esplora Percorsi](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+[Esplorare i percorsi](./rp_landing_pages/orchestrate-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
-Linee guida dettagliate sulla creazione, la gestione e l’ottimizzazione di vari tipi di campagne per un targeting efficace.
+Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari tipi di campagne per un targeting efficace.
 
 [Informazioni sulle campagne](./rp_landing_pages/campaigns-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
-Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni personalizzate con i clienti.
+Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni personalizzate con la clientela.
 
-[Esplora canali](./using/channels/gs-channels.md)
+[Esplorare i canali](./using/channels/gs-channels.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
-Gestione dei conflitti e definizione delle priorità
+Gestione dei conflitti e assegnazione delle priorità
 
 Scopri come assegnare priorità e gestire in modo efficace i conflitti di comunicazione tra campagne e percorsi.
 
@@ -84,16 +84,16 @@ Scopri come assegnare priorità e gestire in modo efficace i conflitti di comuni
 
 ## Risorse aggiuntive
 
-- **[Test, convalida e approvazione](./rp_landing_pages/test-landing-page.md)**: verifica e approva contenuti, percorsi e campagne per assicurarne la qualità e l&#39;accuratezza prima della distribuzione.
-- **[Tipi di pubblico, profili e identità](./rp_landing_pages/audiences-profiles-identities-landing-page.md)** - Gestisci tipi di pubblico, profili e identità per abilitare il targeting e la personalizzazione efficaci.
-- **[Generazione rapporti completa](./rp_landing_pages/reporting-landing-page.md)** - Analizza e ottimizza percorsi, campagne e canali con funzionalità di reporting avanzate.
-- **[Funzionalità decisionali](./rp_landing_pages/decisioning-landing-page.md)** - Sfrutta gli strumenti decisionali per creare e gestire offerte personalizzate e ottimizzare i flussi di lavoro di marketing.
-- **[Gestione dati completa](./rp_landing_pages/data-management-landing-page.md)**: consente di gestire i dati in modo efficace con strumenti per la governance, l&#39;utilizzo dello schema e le funzionalità di query.
-- **[Configurazione canale](./rp_landing_pages/configuration-landing-page.md)**: configura e ottimizza i canali di comunicazione per garantire la conformità e migliorare le prestazioni della campagna.
-- **[Configurazione Percorso](./rp_landing_pages/configure-journeys-landing-page.md)** - Configura origini dati, eventi e azioni per creare percorsi di clienti senza soluzione di continuità.
-- **[Connetti sistemi e ambienti](./rp_landing_pages/connect-systems-landing-page.md)** - Integra Adobe Journey Optimizer con sistemi esterni, API e soluzioni Adobe.
-- **[Gestione del controllo dell&#39;accesso](./rp_landing_pages/access-control-landing-page.md)** - Controlla l&#39;accesso degli utenti, i ruoli e le autorizzazioni per proteggere i dati e garantire la governance.
-- **[Privacy, consenso e governance dei dati](./rp_landing_pages/privacy-landing-page.md)**: gestisci la privacy dei dati, il consenso e la governance per rispettare le normative e proteggere le informazioni riservate.
+- **[Test, convalida e approvazione](./rp_landing_pages/test-landing-page.md)**: testa e approva contenuti, percorsi e campagne per assicurarne la qualità e l’accuratezza prima della distribuzione.
+- **[Tipi di pubblico, profili e identità](./rp_landing_pages/audiences-profiles-identities-landing-page.md)**: gestisci tipi di pubblico, profili e identità per abilitare un targeting e una personalizzazione efficace.
+- **[Reporting completo](./rp_landing_pages/reporting-landing-page.md)**: analizza e ottimizza percorsi, campagne e canali con funzioni di reporting avanzate.
+- **[Funzionalità decisionali](./rp_landing_pages/decisioning-landing-page.md)**: sfrutta gli strumenti decisionali per creare e gestire offerte personalizzate e ottimizzare i flussi di lavoro di marketing.
+- **[Gestione dati completa](./rp_landing_pages/data-management-landing-page.md)**: gestisci i dati in modo efficace con strumenti per la governance, l’utilizzo dello schema e le funzionalità di query.
+- **[Configurazione dei canali](./rp_landing_pages/configuration-landing-page.md)**: configura e ottimizza i canali di comunicazione per garantire la conformità e migliorare le prestazioni della campagna.
+- **[Configurazione dei percorsi](./rp_landing_pages/configure-journeys-landing-page.md)**: configura origini dati, eventi e azioni per creare percorsi cliente semplici.
+- **[Connessione di sistemi e ambienti](./rp_landing_pages/connect-systems-landing-page.md)**: integra Adobe Journey Optimizer con sistemi esterni, API e soluzioni Adobe.
+- **[Gestione del controllo degli accessi](./rp_landing_pages/access-control-landing-page.md)**: controlla l’accesso degli utenti, i ruoli e le autorizzazioni per proteggere i dati e garantire la governance.
+- **[Privacy, consenso e governance dei dati](./rp_landing_pages/privacy-landing-page.md)**: gestisci la privacy dei dati, il consenso e la governance per rispettare le normative e proteggere le informazioni sensibili.
 
 ## Risorse aggiuntive
 
