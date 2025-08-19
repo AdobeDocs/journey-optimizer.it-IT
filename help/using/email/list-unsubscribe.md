@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 88%
 
 ---
 
@@ -119,11 +119,17 @@ L’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** deve essere
 >
 >Se utilizzi l’opzione **[!UICONTROL Gestito da cliente]**, Adobe non archivia i dati sul consenso o di annullamento dell’iscrizione. Con l’opzione **[!UICONTROL Gestito da cliente]**, le organizzazioni scelgono di utilizzare un sistema esterno e saranno responsabili della gestione dei dati sul consenso in tale sistema esterno. Non esiste alcuna sincronizzazione automatica dei dati sul consenso tra il sistema esterno e [!DNL Journey Optimizer]. Qualsiasi sincronizzazione dei dati sul consenso, originata dal sistema esterno per aggiornare i dati sul consenso dell’utente in [!DNL Journey Optimizer], deve essere avviata dall’organizzazione come trasferimento di dati per inviare nuovamente i dati sul consenso in [!DNL Journey Optimizer].
 
-### Configurare l’API di decrittografia {#configure-decrypt-api}
+### Aggiungere attributi personalizzati agli endpoint {#custom-attributes}
 
 Con l’opzione **[!UICONTROL Gestito da cliente]** selezionata, se immetti endpoint personalizzati e li utilizzi in una campagna o in un percorso, [!DNL Journey Optimizer] aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso <!--sent to the custom endpoint --> quando i destinatari fanno clic sul collegamento Annulla iscrizione.
 
-Questi parametri vengono inviati all’endpoint in modo crittografato. Pertanto, il sistema di consenso esterno deve implementare un&#39;API specifica tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} per decrittografare i parametri inviati da Adobe.
+Per personalizzare ulteriormente l&#39;**[!UICONTROL URL per annullare l&#39;iscrizione con un solo clic]**, puoi definire attributi personalizzati che verranno aggiunti anche all&#39;evento di consenso.
+
+A questo scopo, utilizza la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine dell’URL personalizzato con un clic per annullare l’iscrizione, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
+
+### Configurare l’API di decrittografia {#configure-decrypt-api}
+
+Quando i destinatari fanno clic su un collegamento di annullamento dell’abbonamento personalizzato, i parametri aggiunti all’evento di aggiornamento del consenso vengono inviati all’endpoint in modo crittografato. Pertanto, il sistema di consenso esterno deve implementare un&#39;API specifica tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} per decrittografare i parametri inviati da Adobe.
 
 La chiamata GET per recuperare questi parametri dipende dall’opzione Annullamento iscrizione a mailing list in uso: **[!UICONTROL URL per annullamento iscrizione con un solo clic]** o **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**.
 
