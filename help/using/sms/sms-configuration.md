@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 31%
+ht-degree: 34%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="Rinuncia fuzzy"
->abstract="Quando questa opzione è abilitata, Fuzzy Opt-out rileva i messaggi in entrata che assomigliano molto alle parole chiave definite per la rinuncia (ad esempio, CANCIL) e invia automaticamente una risposta di conferma per verificare l’intento dell’utente di annullare l’iscrizione. Se l’utente conferma tramite il prompt definito, l’abbonamento viene annullato."
+>abstract="Quando questa opzione è abilitata, Fuzzy Opt-out rileva i messaggi in entrata che assomigliano molto alle parole chiave definite per la rinuncia (ad esempio, CANCIL) e invia automaticamente una risposta di conferma per verificare l’intento dell’utente di annullare l’iscrizione. Se l’utente conferma tramite il prompt definito, l’iscrizione viene annullata."
 
 Prima di inviare SMS, MMS o RCS, devi configurare il tuo ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
 
