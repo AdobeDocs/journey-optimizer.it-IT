@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 17%
+source-wordcount: '689'
+ht-degree: 18%
 
 ---
 
@@ -45,13 +45,14 @@ La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-
 | Archivio oggetti decisione - Offerte di fallback | 13 mesi | n/d |
 | Archivio oggetti decisione - Posizionamenti | 13 mesi | n/d |
 | Archivio oggetti decisione - Attività | 13 mesi | n/d |
+| Archivio di oggetti Experience Decisioning - Elementi di offerta personalizzati | 13 mesi | n/d |
 | ODE DecisionEvents - Prod Decisioning | 13 mesi | n/d |
 
 ## Domande frequenti {#faq}
 
 Di seguito è riportato un elenco di risposte alle domande più frequenti sui set di dati TLL.
 
-+++Questa modifica verrà applicata solo alle sandbox di produzione o verrà applicata anche alle sandbox di sviluppo?
++++Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
 
 Questa modifica verrà applicata a tutti i tipi di sandbox.
 
@@ -69,23 +70,23 @@ I dati in [!DNL Customer Journey Analytics] sono sincronizzati con Experience Pl
 
 +++
 
-+++ I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nell&#39;archivio profili?
++++ I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nell&#39;archivio profili? 
 
 Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavori per ottimizzare il processo TTL al fine di consentire tali richieste di estensione a partire dalla seconda metà del 2025.
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target=_blank}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
-+++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake?
++++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++I TTL influiscono sulle seguenti funzionalità?
++++I TTL influiscono sulle seguenti funzionalità? 
 
 * **Archivio ricerche**: no
 * **Limitazione Percorsi**: No
@@ -105,7 +106,7 @@ Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i
 
 +++
 
-+++Quale marca temporale viene utilizzata per l’applicazione TTL (ad esempio, per i casi di utilizzo di backfill)?
++++Quale marca temporale viene utilizzata per l’applicazione del TTL (ad esempio, per i casi di utilizzo di backfill)? 
 
 Viene utilizzato il timestamp dell’evento (ovvero, non la data di acquisizione).
 

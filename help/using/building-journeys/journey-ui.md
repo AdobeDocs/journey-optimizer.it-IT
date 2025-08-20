@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1391'
+ht-degree: 11%
 
 ---
 
@@ -48,34 +48,57 @@ La scheda **[!UICONTROL Sfoglia]** mostra l&#39;elenco dei percorsi esistenti. P
 
 ![Dashboard di percorso che evidenzia la scheda Sfoglia](assets/journeys-browse.png)
 
+Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia dell’edizione del percorso, sopra l’area di lavoro. Ulteriori informazioni sulla [gestione versione percorso](publishing-the-journey.md#journey-versions-journey-versions).
+
 ### Calendario percorsi {#calendar}
 
 Oltre all&#39;elenco percorsi, [!DNL Journey Optimizer] fornisce una visualizzazione calendario dei percorsi, offrendo una chiara rappresentazione visiva delle loro pianificazioni.
 
->[!AVAILABILITY]
->
->La vista Calendario è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per richiedere l’accesso, utilizza [questo modulo](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
->
->Questa funzione è in fase di sviluppo attivo. L&#39;input e le richieste vengono accolti con favore utilizzando il pulsante **[!UICONTROL Feedback Beta]** nel menu principale.
-
-Per accedere alla vista calendario, aprire l&#39;elenco percorsi e fare clic sull&#39;icona ![icona calendario](assets/do-not-localize/timeline-icon.svg).
-
-Nel calendario vengono visualizzati tutti i percorsi programmati per la settimana corrente. Utilizza i pulsanti freccia sopra il calendario per spostarti tra le settimane.
-
-![visualizzazione calendario con percorsi attivi](assets/timeline-journeys.png)
-
 Modalità di rappresentazione dei percorsi:
 
-* Per impostazione predefinita, la griglia calendario mostra tutti i percorsi attivi e pianificati per la settimana selezionata. Altre opzioni di filtro possono mostrare attivazioni o attivazioni completate, interrotte e terminate.
+* Per impostazione predefinita, la griglia del calendario mostra tutti i percorsi attivi e pianificati per la settimana selezionata. Altre opzioni di filtro possono mostrare attivazioni o attivazioni completate, interrotte e terminate.
 * I percorsi 2D e i percorsi in modalità di test non vengono visualizzati.
 * I percorsi che si estendono su più giorni vengono visualizzati nella parte superiore della griglia del calendario.
 * Se non viene specificato alcun orario di inizio, viene utilizzato il tempo di attivazione manuale più vicino per posizionarlo nel calendario.
 * I percorsi vengono visualizzati come intervalli di 1 ora, ma questo non riflette l’ora effettiva di invio o completamento.
 
-Per ulteriori dettagli su un percorso, fai clic sul relativo blocco visivo per aprirne ed esplorarne i dettagli.
+Per spostarti nel calendario dei percorsi:
 
-Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia dell’edizione del percorso, sopra l’area di lavoro. Ulteriori informazioni sulla [gestione versione percorso](publishing-the-journey.md#journey-versions-journey-versions).
+1. Per accedere alla vista calendario, aprire l&#39;elenco percorsi e fare clic sull&#39;icona ![icona calendario](assets/do-not-localize/timeline-icon.svg).
 
+1. Utilizza i pulsanti freccia o il selettore data sopra il calendario per spostarti tra le settimane.
+
+   Nel calendario vengono visualizzati tutti i percorsi programmati per la settimana corrente.
+
+   ![visualizzazione calendario con percorsi attivi](assets/timeline-journeys.png)
+
+1. Fai clic sull&#39;icona ![ingranaggio](assets/do-not-localize/Smock_Gears_18_N.png) per attivare/disattivare la visualizzazione degli elementi per più giorni o settimane.
+
+   ![visualizzazione calendario con campagne live](assets/journey-calendar-1.png)
+
+1. Fai clic sull&#39;icona ![aggiungi calendario](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) per gestire e aggiungere fino a tre calendari esterni.
+
+   ![visualizzazione calendario con calendari esterni](assets/journey-calendar-2.png)
+
+1. Trascina e rilascia i file CSV contenenti i nomi degli eventi, le date di inizio e di fine.
+
+   Gli eventi caricati vengono visualizzati per tutti gli utenti dell’organizzazione e sono visualizzati sia sul calendario di Percorso che su quello di Campaign.
+
+   +++Il formato CSV deve essere il seguente:
+
+   | Colonna1 | Colonna2 | Colonna3 |
+   |-|-|-|
+   | Nome evento | Data di inizio in formato mm/gg/aa | Data di fine in formato mm/gg/aa |
+
+   +++
+
+1. Se necessario, è possibile nascondere, visualizzare o rimuovere i calendari esterni aggiunti.
+
+   ![visualizzazione calendario con calendari esterni](assets/journey-calendar-3.png)
+
+1. Per ulteriori dettagli su un percorso, fai clic sul relativo blocco visivo per aprirne ed esplorarne i dettagli.
+
+   ![elenco campagne con riquadro informazioni aperto](assets/journey-calendar-4.png)
 
 
 ## Filtrare i percorsi {#journey-filter}
@@ -115,7 +138,7 @@ Ulteriori informazioni sui tipi di percorso e sulla gestione delle voci associat
 Lo stato del percorso dipende dal suo ciclo di vita. Può essere:
 
 * **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
-* **Bozza**: il percorso è nella prima fase. Non è ancora stato pubblicato.
+* **Bozza**: il percorso è nella prima fase. Non è ancora stata pubblicata.
 * **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**.
 * **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
 * **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**.
@@ -144,3 +167,19 @@ Per farlo, segui la procedura indicata di seguito:
    ![](assets/duplicate-jo2.png)
 
 1. Il nuovo percorso viene creato e disponibile nell&#39;elenco percorso.
+
+
+## Operazioni in blocco {#bulk-operations}
+
+Dall&#39;elenco dei percorsi, puoi sospendere più di **Live** percorsi. Per mettere in pausa un gruppo di percorsi (_pausa collettiva_), selezionali nell&#39;elenco e fai clic sul pulsante **Pausa** nella barra blu nella parte inferiore della schermata. Il pulsante **Pausa** è disponibile solo quando sono selezionati **percorsi di disponibilità**.
+
+![Sospendi in blocco due percorsi live dalla barra inferiore](assets/bulk-pause-journeys.png)
+
+Puoi anche riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
+
+[Ulteriori informazioni sui percorsi di pausa/ripresa](journey-pause.md).
+
+>[!NOTE]
+>
+>Puoi sospendere/riprendere fino a 10 percorsi per operazione.
+

@@ -8,17 +8,19 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '226'
+ht-degree: 1%
 
 ---
-
 
 # Pianificare la campagna attivata dall’API {#api-schedule}
 
 Utilizza la scheda **[!UICONTROL Pianificazione]** per definire la pianificazione della campagna.
+
+## Impostare le date di inizio e di fine
 
 Per impostazione predefinita, le campagne attivate dall’API vengono avviate una volta e terminano non appena il messaggio viene inviato una volta. Se non desideri eseguire la campagna subito dopo averla attivata, puoi specificare la data e l&#39;ora dell&#39;invio del messaggio utilizzando l&#39;opzione **[!UICONTROL Inizio campagna]**.
 
@@ -29,6 +31,16 @@ L&#39;opzione **[!UICONTROL Fine campagna]** consente di specificare quando inte
 >[!NOTE]
 >
 >Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la data/ora di inizio sia allineata alla prima consegna desiderata.
+
+## Imposta il controllo della frequenza
+
+[!DNL Journey Optimizer] consente di abilitare il controllo della frequenza per le azioni in uscita (e-mail, SMS, notifiche push).
+
+Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. Ad esempio, puoi impostare un limite di velocità di 165 messaggi al secondo per garantire una consegna costante senza sovraccaricare i sistemi a valle.
+
+Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL Limita consegna]** nella sezione **[!UICONTROL Impostazioni di consegna]** e specifica la **[!UICONTROL Velocità di consegna]** desiderata.
+
+![](assets/throttling-rate-control.png)
 
 ## Passaggi successivi {#next}
 

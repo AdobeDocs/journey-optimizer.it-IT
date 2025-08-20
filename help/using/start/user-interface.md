@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Crea offerte e componenti da questa sezione.
 
 * **[!UICONTROL Componenti]**: crea posizionamenti, regole e tag. [Ulteriori informazioni](../offers/offer-library/key-steps.md)
 
-### [!UICONTROL GESTIONE CONTENUTI] {#left-nav-content}
+### [!UICONTROL GESTIONE DEI CONTENUTI] {#left-nav-content}
 
 Crea e gestisci i contenuti di questa sezione.
 
@@ -179,15 +179,19 @@ In ogni pagina, utilizza i pulsanti di aiuto contestuali per ulteriori informazi
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## Avvisi all’interno del prodotto
+## Notifiche interne al prodotto {#in-product-notifications}
 
-Puoi iscriverti agli **avvisi all’interno del prodotto ed e-mail** per le versioni dei prodotti Journey Optimizer.
+È possibile abilitare **avvisi interni al prodotto e via e-mail** per ricevere notifiche su diversi eventi che potrebbero essere di tuo interesse: errori rilevati dal sistema, richieste di approvazione e/o [!DNL Journey Optimizer] versioni del prodotto.
 
-Per iscriverti:
+Per abilitare queste notifiche, segui la procedura indicata di seguito.
 
-1. Passa a **Preferenze di Adobe Experience Cloud**
-1. In **Notifiche**, individua **Nuove versioni di Journey Optimizer**
-1. Abilitare le notifiche in-app ed e-mail
+1. Passa a [!DNL Adobe Experience Cloud] **[!UICONTROL Preferenze]**.
+1. In **[!UICONTROL Notifiche]**, trova **[!UICONTROL Journey Optimizer]**.
+1. Abilita le notifiche in-app e/o e-mail come desiderato:
+
+   * **[!UICONTROL Avvisi]**: quando si verifica un errore, è possibile ricevere notifiche di sistema per gli avvisi a cui si è abbonati. [Ulteriori informazioni](../reports/alerts.md)
+   * **[!UICONTROL Approvazioni]**: ricevi una notifica quando qualcuno ti chiede di approvare un oggetto o di accedervi.
+   * **[!UICONTROL Nuove versioni]**: vengono fornite informazioni su [!DNL Journey Optimizer] nuove versioni del prodotto.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

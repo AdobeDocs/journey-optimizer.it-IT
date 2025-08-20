@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
-ht-degree: 12%
+source-wordcount: '2745'
+ht-degree: 11%
 
 ---
 
@@ -277,7 +277,7 @@ Puoi modificare o eliminare un criterio di decisione in qualsiasi momento utiliz
 
 Una volta creato, il criterio di decisione e gli attributi collegati agli elementi di decisione restituiti possono essere utilizzati nel contenuto per personalizzare il contenuto. Per farlo, segui la procedura riportata di seguito.
 
-### Inserire il codice del criterio decisionale {#insert-code}
+### Inserire il codice del criterio di decisione {#insert-code}
 
 1. Apri l&#39;editor di personalizzazione e accedi al menu **[!UICONTROL Criteri di decisione]**.
 
@@ -314,7 +314,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
@@ -327,6 +327,57 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di personalizzazione, ad esempio gli attributi del profilo.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### Sfruttare i frammenti {#fragments}
+
+Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, puoi sfruttarli nel codice del criterio di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
+
+![](assets/item-fragments.png){width=70%}
+
+Al termine, puoi utilizzare uno dei seguenti metodi:
+
+>[!BEGINTABS]
+
+>[!TAB Inserisci direttamente il codice]
+
+È sufficiente copiare e incollare il blocco di codice riportato di seguito nel codice del criterio di decisione. Sostituisci `variable` con l&#39;ID frammento e `placement` con la chiave di riferimento frammento:
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB Segui i passaggi dettagliati]
+
+1. Passare alle **[!UICONTROL Funzioni helper]** e aggiungere la funzione **Let** `{% let variable = expression %} {{variable}}` al riquadro del codice, in cui è possibile dichiarare la variabile per il frammento.
+
+   ![](assets/decision-let-function.png)
+
+1. Utilizza la **Mappa** > **Ottieni** funzione `{%= get(map, string) %}` per generare la tua espressione. La mappa è il frammento a cui si fa riferimento nell&#39;elemento di decisione e la stringa può essere il modello di dispositivo immesso nell&#39;elemento di decisione come **[!UICONTROL chiave di riferimento frammento]**.
+
+   ![](assets/decision-map-function.png)
+
+1. Puoi anche utilizzare un attributo contestuale che contenga questo ID modello dispositivo.
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. Aggiungi la variabile scelta per il frammento come ID frammento.
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+L&#39;ID frammento e la chiave di riferimento verranno selezionati dalla sezione **[!UICONTROL Frammenti]** dell&#39;elemento di decisione.
+
+>[!WARNING]
+>
+>Se la chiave del frammento non è corretta o se il contenuto del frammento non è valido, il rendering non riuscirà e verrà generato un errore nella chiamata di Edge.
 
 ## Passaggi finali {#final-steps}
 

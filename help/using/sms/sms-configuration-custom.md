@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1081'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ Con la configurazione del provider personalizzato, puoi collegare servizi di mes
 Per configurare il provider personalizzato, effettua le seguenti operazioni:
 
 1. [Crea credenziali API](#api-credential)
-1. [Crea webhook](#webhook)
+1. [Creare webhook](#webhook)
 1. [Crea configurazione canale](sms-configuration-surface.md)
 1. [Creare un Percorso o una campagna con un’azione del canale SMS](create-sms.md)
 
@@ -85,6 +85,16 @@ Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider pers
 1. Per modificare le credenziali esistenti, individuare le credenziali API desiderate e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
 
    ![](assets/sms_byo_4.png)
+
+1. Fai clic su **[!UICONTROL Verifica connessione SMS]**, dalle credenziali API esistenti, per verificare le credenziali API SMS inviando un messaggio di esempio a un dispositivo designato.
+
+1. Compila i campi **Numero** e **Messaggio** e fai clic su **[!UICONTROL Verifica connessione]**.
+
+   >[!IMPORTANT]
+   >
+   >Il messaggio deve essere strutturato in modo da essere allineato al formato di payload del provider.
+
+   ![](assets/verify-connection.png)
 
 Dopo aver creato e configurato le credenziali API, devi ora impostare [le impostazioni in entrata per il webhook](#webhook) per i messaggi SMS.
 
@@ -145,7 +155,7 @@ Una volta create le credenziali API, completa i campi richiesti per l’autentic
 
 >[!ENDTABS]
 
-## Crea webhook {#webhook}
+## Creare webhook {#webhook}
 
 >[!BEGINSHADEBOX]
 

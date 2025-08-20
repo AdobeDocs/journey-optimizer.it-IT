@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1907'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,24 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
    >La priorità è un tipo di dati intero. Tutti gli attributi che sono tipi di dati integer devono contenere valori interi (senza decimali).
 
 1. Il campo **Tag** consente di assegnare tag unificati Adobe Experience Platform agli elementi decisionali. Questo consente di classificarli facilmente e di migliorare la ricerca. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
+
+1. Utilizza i frammenti per aggiungere più contenuti all’elemento decisionale, ad esempio se desideri visualizzare contenuti diversi per diversi modelli di dispositivi mobili. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >I frammenti negli elementi decisionali sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+   Nella sezione **[!UICONTROL Frammenti]**, seleziona i frammenti pubblicati che desideri utilizzare e assegna loro una chiave di riferimento. Puoi quindi sfruttare questi frammenti nei criteri decisionali. [Scopri come](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   Puoi selezionare solo frammenti pubblicati e aggiungere fino a sei frammenti in un elemento decisionale.
+
+   >[!WARNING]
+   >
+   >Attualmente sono supportati solo [frammenti di espressione](../personalization/use-expression-fragments.md).
+   >
+   >Impossibile utilizzare frammenti nidificati (frammenti che fanno riferimento ad altri frammenti). Se aggiungi un frammento di questo tipo, l&#39;[approvazione](#approve) dell&#39;elemento di decisione non riuscirà.
 
 1. Specificare gli attributi personalizzati (facoltativo). Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
 
@@ -137,14 +155,16 @@ Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## Rivedi e approva l&#39;elemento di decisione {#approve}
+
 1. Una volta definite l&#39;idoneità dell&#39;elemento decisionale e le regole di limite, fare clic su **[!UICONTROL Avanti]** per rivedere e salvare l&#39;elemento.
 
 1. L&#39;elemento di decisione viene ora visualizzato nell&#39;elenco, con lo stato **[!UICONTROL Bozza]**. Quando è pronto per essere presentato ai profili, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Approva]**.
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## Gestire gli elementi decisionali {#manage}
 

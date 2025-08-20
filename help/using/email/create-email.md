@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 10%
+source-wordcount: '1026'
+ht-degree: 11%
 
 ---
 
@@ -92,7 +92,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    >[!AVAILABILITY]
    >
-   >Per il momento, la creazione di criteri di decisione nelle e-mail non è disponibile per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield o Privacy and Security Shield.
+   >Per il momento, la creazione di criteri di decisione nelle e-mail è disponibile in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 1. Nella sezione **[!UICONTROL Intestazione]**, controlla i campi **[!UICONTROL Da nome]**, **[!UICONTROL Da e-mail]** e **[!UICONTROL Ccn]**. Sono configurati nella configurazione e-mail selezionata. [Ulteriori informazioni](email-settings.md) <!--check if same for journey-->
 

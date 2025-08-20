@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2392'
-ht-degree: 17%
+source-wordcount: '2733'
+ht-degree: 15%
 
 ---
 
@@ -262,10 +262,10 @@ Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Criteri di uscita dal percorso"
->abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
+>title="Criteri di uscita"
+>abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole e filtri per i criteri di uscita per il percorso."
 
-### Descrizione {#exit-criteria-desc}
+### Criteri di uscita dal percorso {#exit-criteria-desc}
 
 Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso non appena si verifica un evento (ad esempio, un acquisto) oppure se sono idonei per un pubblico. Questo impedirà all’utente di ricevere ulteriori comunicazioni dal percorso.
 
@@ -275,7 +275,7 @@ Puoi rimuovere i profili da un percorso quando non soddisfano più lo scopo del 
 
 Un addetto al marketing dispone di un percorso promozionale con una serie di comunicazioni. Ciascuna di queste comunicazioni ha lo scopo di spingere il cliente ad effettuare un acquisto. Appena effettuato l&#39;acquisto, il cliente non deve ricevere il resto dei messaggi della serie. Definendo un criterio di uscita, tutti i profili che hanno effettuato un acquisto vengono rimossi dal percorso.
 
-### Configurazione e utilizzo {#exit-criteria-config}
+#### Configurazione e utilizzo {#exit-criteria-config}
 
 I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se hai impostato più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica `OR`. Pertanto, se si dispone del criterio di uscita A e del criterio di uscita B, verrà valutato come A **OR** B. I criteri vengono valutati in ogni fase del percorso.
 
@@ -296,12 +296,39 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
+
+### Criteri di uscita basati su attributi di profilo {#profile-exit-criteria}
+
+I criteri di uscita basati su attributi di profilo offrono un maggiore controllo sui percorsi in pausa, consentendo di definire regole che rimuovono automaticamente profili specifici prima che il percorso riprenda. È possibile impostare le condizioni di uscita in base agli attributi del profilo, ad esempio posizione, stato o preferenze, per garantire che solo i profili rilevanti continuino a essere presenti nel percorso dopo la ripresa.
+
+Ad esempio, puoi [sospendere un percorso](journey-pause.md), aggiungere una condizione di uscita per rimuovere tutti i profili che si trovano in Francia e riprendere il percorso sapendo che tali profili saranno esclusi al passaggio successivo dell&#39;azione. Questa logica si applica sia ai profili già presenti nel percorso, sia a qualsiasi nuovo profilo idoneo dopo la ripresa del percorso.
+
+Questa funzione si affianca alla funzionalità Pausa/Riprendi, che consente di gestire i percorsi in modo più sicuro e flessibile. Riduce al minimo gli interventi manuali, riduce i rischi di invio di comunicazioni irrilevanti o non conformi e mantiene la logica di percorso allineata ai requisiti aziendali correnti.
+
+Consulta questa sezione per scoprire come [utilizzare i criteri di uscita degli attributi di profilo nei percorsi in pausa](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+
 ### Guardrail e limitazioni {#exit-criteria-guardrails}
 
-I seguenti guardrail e limitazioni si applicano alla capacità dei criteri di uscita del percorso:
+Le seguenti protezioni e limitazioni si applicano alla funzionalità [Criteri di uscita Percorsi](#exit-criteria-desc):
 
 * I criteri di uscita sono definiti solo nello stato di bozza
 * Coerenza dello spazio dei nomi del percorso tra eventi e criteri di uscita basati su eventi
+
+Le seguenti protezioni si applicano quando si utilizza la funzionalità [Criteri di uscita basati su attributi di profilo](#profile-exit-criteria):
+
+* **I criteri di uscita si applicano a livello di azione**\
+  I criteri di uscita per &quot;Attributo profilo&quot; vengono valutati solo nei passaggi dell’azione. A differenza di altri tipi di criteri di uscita, non si applicano a livello globale in tutto il percorso.\
+  Se riprendi un percorso e alcuni profili soddisfano la condizione di uscita, questi profili verranno esclusi nel nodo dell’azione successivo.\
+  Anche i nuovi profili che entrano nel percorso dopo la ripresa verranno valutati ed esclusi al loro primo nodo di azione, se soddisfano la condizione.
+
+* **Una regola di uscita basata su profilo al percorso**\
+  Puoi definire un solo criterio di uscita &quot;Attributo profilo&quot; al percorso. Questa limitazione contribuisce a mantenere la chiarezza ed evita conflitti nella logica di percorso.
+
+* **Disponibile solo nei percorsi in pausa**\
+  Puoi aggiungere o modificare i criteri di uscita &quot;Attributo profilo&quot; solo quando il percorso viene messo in pausa.
+
+   * In un **percorso 2D**, l&#39;opzione *Attributo profilo* è disabilitata (sola lettura), mentre le opzioni *Evento* e *Pubblico* rimangono attive.
+   * In un **percorso sospeso**, l&#39;opzione *Attributo profilo* diventa modificabile e le opzioni *Evento* e *Pubblico* diventano di sola lettura.
 
 ## Pianificazione percorso {#schedule}
 

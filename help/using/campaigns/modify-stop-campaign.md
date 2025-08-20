@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 16%
+source-wordcount: '1548'
+ht-degree: 18%
 
 ---
 
@@ -140,16 +140,6 @@ Quando si verifica un errore all’interno di una delle campagne, accanto allo s
 
 Oltre all&#39;elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle loro pianificazioni.
 
->[!AVAILABILITY]
->
->La vista Calendario è attualmente disponibile solo per le campagne attivate da Azioni e API per un set di organizzazioni (Disponibilità limitata). Per richiedere l’accesso, utilizza [questo modulo](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
->
->Questa funzione è in fase di sviluppo attivo. L&#39;input e le richieste vengono accolti con favore utilizzando il pulsante **[!UICONTROL Feedback Beta]** nel menu principale.
-
-Il calendario visualizza tutte le campagne pianificate per la settimana corrente. Utilizza i pulsanti freccia sopra il calendario per spostarti tra le settimane.
-
-![visualizzazione calendario con campagne live](assets/campaigns-timeline.png)
-
 Modalità di rappresentazione delle campagne:
 
 * Per impostazione predefinita, la griglia del calendario mostra tutte le campagne live e pianificate per la settimana selezionata. Altre opzioni di filtro possono mostrare attivazioni completate, interrotte e terminate o attivazioni di un certo tipo o canale.
@@ -158,11 +148,43 @@ Modalità di rappresentazione delle campagne:
 * Se non viene specificato alcun orario di inizio, viene utilizzato il tempo di attivazione manuale più vicino per posizionarlo nel calendario.
 * Le campagne vengono visualizzate come intervalli di 1 ora, ma questo non riflette l’ora effettiva di invio o completamento.
 
-Per ulteriori dettagli su una campagna, fai clic sul relativo blocco visivo per aprirne i dettagli.
+Per spostarti nel calendario delle campagne:
 
-Per visualizzare i dettagli di una campagna specifica, selezionala dall’elenco. Si aprirà un riquadro informazioni con varie informazioni sulla campagna, ad esempio il tipo, l’accesso ai rapporti o i tag assegnati.
+1. Fai clic sull&#39;icona ![calendario](assets/do-not-localize/Smock_Calendar_18_N.svg) per accedere al calendario delle campagne.
 
-![elenco campagne con riquadro informazioni aperto](assets/campaign-rail.png)
+1. Utilizza i pulsanti freccia o il selettore data sopra il calendario per spostarti tra le settimane.
+
+   Il calendario visualizza tutte le campagne pianificate per la settimana corrente.
+
+   ![visualizzazione calendario con campagne live](assets/campaigns-timeline.png)
+
+1. Fai clic sull&#39;icona ![ingranaggio](assets/do-not-localize/Smock_Gears_18_N.png) per attivare/disattivare la visualizzazione degli elementi per più giorni o settimane.
+
+   ![visualizzazione calendario con campagne live](assets/campaign-long-term.png)
+
+1. Fai clic sull&#39;icona ![aggiungi calendario](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) per gestire e aggiungere fino a tre calendari esterni.
+
+   ![visualizzazione calendario con calendari esterni](assets/campaign-external-calendar.png)
+
+1. Trascina e rilascia i file CSV contenenti i nomi degli eventi, le date di inizio e di fine.
+
+   Gli eventi caricati vengono visualizzati per tutti gli utenti dell’organizzazione e sono visualizzati sia sul calendario di Percorso che su quello di Campaign.
+
+   +++Il formato CSV deve essere il seguente:
+
+   | Colonna1 | Colonna2 | Colonna3 |
+   |-|-|-|
+   | Nome evento | Data di inizio in formato mm/gg/aa | Data di fine in formato mm/gg/aa |
+
+   +++
+
+1. Se necessario, è possibile nascondere, visualizzare o rimuovere i calendari esterni aggiunti.
+
+   ![visualizzazione calendario con calendari esterni](assets/campaign-manage-calendar.png)
+
+1. Per ulteriori dettagli su una campagna, fai clic sul relativo blocco visivo per aprirne i dettagli. Si aprirà un riquadro informazioni con varie informazioni sulla campagna, ad esempio il tipo, l’accesso ai rapporti o i tag assegnati.
+
+   ![elenco campagne con riquadro informazioni aperto](assets/campaign-rail.png)
 
 ## Modificare e interrompere le campagne di azione ricorrenti {#modify}
 
