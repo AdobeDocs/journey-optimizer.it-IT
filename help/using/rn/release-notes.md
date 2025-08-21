@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 62%
+ht-degree: 77%
 
 ---
 
@@ -192,11 +192,11 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>È ora possibile allegare un file PDF statico a un messaggio e-mail inviato con Journey Optimizer.</p>
+<p>Ora è possibile allegare un file PDF statico a un messaggio e-mail inviato con Journey Optimizer.</p>
 <ul>
-<li>Puoi inviare fino a 6 messaggi all’anno con un allegato PDF per profilo.</li>
-<li>La dimensione massima consentita per ciascun allegato è di 5 MB.</li>
-<li>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe.</li>
+<li>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno.</li>
+<li>La dimensione massima del file consentita per ciascun allegato è di 5 MB.</li>
+<li>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</li>
 </ul>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -266,13 +266,13 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Controllo del tasso nelle campagne in uscita** - È ora possibile abilitare il controllo del tasso per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. [Ulteriori informazioni](../campaigns/campaign-schedule.md#rate-control)
 
-   * **Pianificazione delle campagne azione** - Le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
+   * **Pianificazione delle campagne di azione**: le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
 
-      * **Ricorrenza settimanale**: ora puoi scegliere di ripetere la campagna ogni settimana o ogni due settimane e selezionare il giorno o i giorni della settimana in cui deve essere eseguita.
+      * **Ricorrenza settimanale**: ora è possibile scegliere di ripetere la campagna ogni settimana o ogni due settimane e selezionare il giorno o i giorni della settimana in cui deve essere eseguita.
 
-      * **Ricorrenza mensile**: ora puoi scegliere di ripetere la campagna ogni mese o a mesi alterni e selezionare il giorno del mese in cui deve essere eseguita.
+      * **Ricorrenza mensile**: ora è possibile scegliere di ripetere la campagna ogni mese o a mesi alterni e selezionare il giorno del mese in cui deve essere eseguita.
 
-      * **Pianificazioni giornaliere, settimanali o mensili**: è possibile specificare se la pianificazione ricorrente deve terminare in una data specifica o dopo un determinato numero di occorrenze.
+      * **Pianificazioni giornaliere, settimanali o mensili**: ora è possibile specificare se la pianificazione ricorrente deve terminare in una data specifica o dopo un determinato numero di occorrenze.
 
    * **Campagne programmate per azioni transazionali**: le campagne programmate per azioni transazionali sono ora disponibili per l’invio di comunicazioni transazionali batch e basate sul pubblico tramite canali e-mail, SMS e push.
 
@@ -310,7 +310,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Operazioni del percorso in blocco**: dall’elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionati, puoi sospendere o riprendere fino a 10 percorsi alla volta.
 
-   * **Supporto di reindirizzamento (302) nelle azioni personalizzate** - Le azioni personalizzate possono ora gestire i reindirizzamenti HTTP 302 in base a una richiesta. Questo consente ai percorsi di integrarsi con le API che reindirizzano le richieste a URL localizzati o specifici di una regione. I reindirizzamenti vengono seguiti automaticamente, garantendo che il contenuto corretto venga distribuito senza configurazioni aggiuntive.
+   * **Supporto di reindirizzamento (302) nelle azioni personalizzate**: le azioni personalizzate possono ora gestire i reindirizzamenti HTTP 302 in base a una richiesta. Questo consente ai percorsi di integrarsi con le API che reindirizzano le richieste a URL localizzati o specifici di un’area geografica. I reindirizzamenti vengono seguiti automaticamente, garantendo che il contenuto corretto venga distribuito senza configurazioni aggiuntive.
 
 * **Set di dati**
 
