@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -164,12 +164,12 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supporta una nuova attività Azione generica che consente di configurare sia azioni singole che gruppi di azioni in entrata con più azioni, semplificando la configurazione delle azioni nell’area di lavoro del percorso. In particolare, questa nuova funzione consente di:</p>
+<p>Journey Optimizer supporta una nuova attività Azione generica che consente di configurare sia azioni singole che gruppi di azioni multiple in uscita, semplificandone la configurazione nell’area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
 <ul>
-<li>Configurazione semplificata dell’azione nativa nell’area di lavoro del percorso.</li>
+<li>Una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso.</li>
 <li>La capacità di creare nodi in entrata con più azioni.</li>
-<li>Possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata.</li>
-<li>Possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
+<li>La possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata.</li>
+<li>La possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
 </ul>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -227,9 +227,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Rinuncia parziale**: se abilitata, l’opzione **Rinuncia parziale** rileva i messaggi in entrata più simili alle parole chiave di rinuncia definite (ad esempio, “CANCIL”) e invia automaticamente una risposta di conferma per verificare l’intenzione dell’utente di annullare l’iscrizione. Se l’utente conferma tramite il prompt definito, l’iscrizione viene annullata.
 
-     **Rinuncia fuzzy** è disponibile solo con Sinch e Infobip.
+     Tenere presente che **Rinuncia parziale** è disponibile solo con Sinch e Infobip.
 
-   * **Verifica connessione SMS** - Puoi testare e verificare facilmente le credenziali API SMS all&#39;interno di Adobe Journey Optimizer inviando un messaggio di esempio a un dispositivo designato.
+   * **Verifica connessione SMS**: ora è possibile testare e verificare facilmente le credenziali API SMS all’interno di Adobe Journey Optimizer inviando un messaggio di esempio a un dispositivo designato.
 
 * **Configurazione**
 
@@ -241,7 +241,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Funzione Decisioni**
 
-   * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basate sul codice tramite i criteri decisionali.
+   * **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione.
 
 * **Percorsi**
 
