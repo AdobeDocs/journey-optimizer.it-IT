@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 28%
+ht-degree: 34%
 
 ---
 
@@ -94,7 +94,7 @@ Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigge
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="Aggiungere più azioni in entrata"
->abstract="Puoi selezionare diverse azioni in entrata all’interno di una singola campagna. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni Web a posizioni diverse contemporaneamente, ogni azione contenente un contenuto specifico."
+>abstract="Puoi selezionare diverse azioni in entrata all’interno di una singola campagna. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in diverse posizioni contemporaneamente, ciascuna con contenuti specifici."
 
 Per semplificare l’orchestrazione delle campagne, puoi definire diverse azioni in entrata all’interno di una singola campagna, ciascuna contenente un contenuto specifico.
 

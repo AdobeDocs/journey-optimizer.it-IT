@@ -51,7 +51,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID team"
->abstract="L’ID team, un valore stringa utilizzato per identificare il team, si trova nella scheda **Appartenenza** nell’account sviluppatore."
+>abstract="L’ID team, un valore stringa utilizzato per identificare il team, si trova nella scheda **Membership** (Iscrizione) nell’account sviluppatore."
 
 
 Questa configurazione semplifica la configurazione rapida dei canali di marketing, rendendo immediatamente disponibili tutte le risorse essenziali nelle app Experience Platform, Journey Optimizer e Data Collection. Questo consente al team di marketing di iniziare rapidamente a creare campagne e percorsi.
