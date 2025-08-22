@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 77%
+source-wordcount: '1475'
+ht-degree: 76%
 
 ---
 
@@ -296,7 +296,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Configurazione**
 
-   * **Supporto di domini dinamici** - Journey Optimizer ora supporta la personalizzazione URL completa/di base per i domini predefiniti accettati da Adobe. Questa funzionalità è disponibile in Disponibilità limitata per un set di clienti. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#where)
+  &lt;!—* **Supporto di domini dinamici** - Journey Optimizer ora supporta la personalizzazione URL completa/di base per i domini predefiniti accettati da Adobe. Questa funzionalità è disponibile in Disponibilità limitata per un set di clienti. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#where)—Aggiornamento del 21 agosto: in attesa di eng. per confermare quando implementato su prod.—>
 
    * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
