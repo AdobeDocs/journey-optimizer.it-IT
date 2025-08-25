@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 13%
 
 ---
@@ -39,7 +39,7 @@ L&#39;opzione **[!UICONTROL Fine campagna]** consente di specificare quando inte
 
 Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. Ad esempio, puoi impostare un limite di velocità di 165 messaggi al secondo per garantire una consegna costante senza sovraccaricare i sistemi a valle.
 
-Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL Limita consegna]** nella sezione **[!UICONTROL Impostazioni di consegna]** e specifica la **[!UICONTROL Velocità di consegna]** desiderata.
+Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL Limita consegna]** nella sezione **[!UICONTROL Impostazioni consegna]** e specifica la **[!UICONTROL Velocità di consegna]** al secondo desiderata.
 
 ![](assets/throttling-rate-control.png)
 
