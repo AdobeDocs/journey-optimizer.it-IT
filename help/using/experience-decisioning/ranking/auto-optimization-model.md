@@ -6,9 +6,10 @@ description: Ulteriori informazioni sui modelli di ottimizzazione automatica
 feature: Ranking, Decision Management
 role: User
 level: Experienced
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -97,3 +98,7 @@ Il problema di &quot;avviamento a freddo&quot; si verifica quando una nuova offe
 Ad esempio, se siamo interessati a misurare le prestazioni di una strategia di campionamento di Thompson (TS) utilizzata nel servizio di classificazione e il KPI è il tasso di conversione (CVR), l’&quot;incremento&quot; della strategia TS rispetto alla strategia di base è definito come segue:
 
 ![](../assets/ai-ranking-lift.png)
+
+>[!NOTE]
+>
+>Attualmente il rapporto Lift Measurement è disponibile solo per il modello di intelligenza artificiale [Personalized optimization](personalized-optimization-model.md). [Ulteriori informazioni sul reporting delle decisioni](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)
