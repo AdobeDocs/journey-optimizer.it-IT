@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: e-mail, messaggio, allegato, pdf, editor
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Aggiungere un allegato PDF"
->abstract="Selezionare un file PDF da allegare all&#39;e-mail.</br>È possibile inviare fino a 6 messaggi all&#39;anno con un allegato PDF per profilo. La dimensione massima consentita per ciascun allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi è possibile acquistare un componente aggiuntivo del pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe."
+>abstract="Selezionare un file PDF da allegare all&#39;e-mail.</br>È possibile inviare fino a 6 messaggi all&#39;anno con un allegato PDF per profilo. La dimensione massima del file consentita per ciascun allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi è possibile acquistare un componente aggiuntivo del pacchetto di allegati. Per ulteriori informazioni, contatta il tuo rappresentante Adobe."
 
 >[!AVAILABILITY]
 >
@@ -30,11 +31,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->* Puoi inviare fino a 6 messaggi all’anno con un allegato PDF per profilo.
+>* Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno.
 >
->* La dimensione massima consentita per ciascun allegato è di 5 MB.
+>* La dimensione massima del file consentita per ciascun allegato è di 5 MB.
 >
->Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
@@ -48,7 +49,7 @@ Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
    >[!NOTE]
    >
-   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
+   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Utilizza il filtro **[!UICONTROL PDF]** nella sezione **[!UICONTROL Tipo MIME]** per limitare la selezione al formato di file corretto.
 
@@ -61,7 +62,7 @@ Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 1. Selezionare il file desiderato.
 
    * È possibile selezionare un solo file alla volta.
-   * La dimensione massima consentita per ciascun allegato è di 5 MB.
+   * La dimensione massima del file consentita per ciascun allegato è di 5 MB.
 
 1. Al termine, il nome e le dimensioni del file selezionato vengono visualizzati nella sezione **[!UICONTROL Allegato]**.
 
