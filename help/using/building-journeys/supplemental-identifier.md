@@ -2,10 +2,10 @@
 title: Utilizzare identificatori supplementari nei percorsi
 description: Scopri come utilizzare gli identificatori supplementari nei percorsi.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 4%
+source-wordcount: '1236'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,8 @@ Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identifica
 
    * Se il percorso non è un rientro, la stessa combinazione di ID profilo + ID supplementare non può rientrare nel percorso.
    * Se il percorso è rientro con una finestra temporale, la stessa combinazione di ID profilo + ID supplementare può essere reinserita dopo la finestra temporale definita.
+
+* **Etichettatura e applicazione uso dati (DULE)** - Nessun controllo di convalida DULE eseguito sull&#39;ID supplementare. Questo significa che questo attributo non verrà considerato quando il percorso cerca violazioni dei criteri di governance dei dati.
 
 * **Configurazione eventi downstream**
 
@@ -138,6 +140,10 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
       >Assicurarsi di non contrassegnare l&#39;attributo come **Identità primaria**.
 
    1. Seleziona lo spazio dei nomi da associare all’ID supplementare. Deve essere uno spazio dei nomi non relativo all’identificatore della persona.
+
+      >[!NOTE]
+      >
+      >Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo evento (per i percorsi attivati da eventi) o un nuovo gruppo di campi (per i percorsi Read audience) per utilizzare l’identificatore supplementare. Impossibile aggiornare le entità esistenti per riconoscere il nuovo identificatore.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
