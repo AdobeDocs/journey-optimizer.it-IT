@@ -4,7 +4,7 @@ product: journey optimizer
 title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 * Tutte le acquisizioni devono avvenire tramite **Cambia origine dati**:
 
-   * Per **Basato su file**: il campo `change_type` è obbligatorio.
+   * Per **Basato su file**: il campo `_change_request_type` è obbligatorio.
 
    * Per **basato su cloud**: la registrazione della tabella deve essere abilitata.
 

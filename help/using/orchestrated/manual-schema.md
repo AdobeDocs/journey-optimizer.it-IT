@@ -4,9 +4,9 @@ product: journey optimizer
 title: Passaggi di configurazione
 description: Scopri come creare schemi relazionali direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
 
    In questo esempio, sono stati aggiunti allo schema **Appartenenze fedeltà** gli attributi descritti nella tabella seguente.
 
-+++ Attributi, esempi
+   +++ Attributi, esempi
 
    | Nome attributo | Tipo di dati | Attributi aggiuntivi |
    |-|-|-|
@@ -92,7 +92,7 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
    | is_active | BOOLEANO | Obbligatorio |
    | ultima modifica | DATETIME | Obbligatorio |
 
-+++
+   +++ 
 
 1. Assegna i campi appropriati come **[!UICONTROL Chiave primaria]** e **[!UICONTROL Descrittore versione]**.
 
@@ -100,7 +100,7 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
 
    * Almeno una chiave primaria
    * Un identificatore di versione, ad esempio un campo `lastmodified` di tipo `datetime` o `number`.
-   * Per l&#39;acquisizione Change Data Capture (CDC), una colonna speciale denominata `_change_request_type` di tipo `String` che indica il tipo di modifica dei dati (ad esempio, inserimento, aggiornamento, eliminazione) e abilita l&#39;elaborazione incrementale.
+   * Per l&#39;acquisizione Change Data Capture (CDC), una colonna speciale denominata `_change_request_type` di tipo `String` che indica il tipo di modifica dei dati (ad esempio, inserimento, aggiornamento, eliminazione) e abilita l&#39;elaborazione incrementale. `_change_request_type` non deve far parte dello schema della tabella, deve essere aggiunto solo al file di dati durante l&#39;acquisizione.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
