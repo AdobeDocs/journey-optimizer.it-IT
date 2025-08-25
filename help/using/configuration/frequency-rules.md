@@ -239,4 +239,4 @@ In questo scenario, un singolo profilo:
 
 Scopri come creare, attivare, testare e creare rapporti sulle regole di business.
 
->[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411123?quality=12&captions=ita)
