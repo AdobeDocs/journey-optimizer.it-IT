@@ -69,7 +69,7 @@ La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori
 
 ## Motivi di esclusione {#exclude-reasons-directmail}
 
-[](assets/cja-direct-excluded.png)
+[&#128279;](assets/cja-direct-excluded.png)
 
 La tabella **[!UICONTROL Escludi motivi]** mostra visivamente i diversi fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing.
 
