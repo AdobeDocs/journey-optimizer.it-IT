@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 360e4e290bca53ef5e0416ee4aa91d7f985a269e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 94%
 
 ---
@@ -344,3 +344,9 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >title="Simulare il percorso"
 >abstract="La simulazione del percorso consente di convalidare i percorsi e di verificarne le prestazioni prima dell’attivazione. Utilizza i dati di un modello addestrato per fornire numeri in tutto il percorso per vedere come si comporterà il percorso in uno scenario reale."
 
+<!-- QUIET HOURS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="Tipo di regola"
+>abstract="Tipo di regola"
