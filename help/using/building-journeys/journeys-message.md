@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '513'
 ht-degree: 18%
 
 ---
@@ -43,6 +43,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
    ![](assets/journey-web-activity.png)
 
+1. È inoltre possibile selezionare l&#39;attività **[!UICONTROL Azione]**, che consente di selezionare più azioni in entrata. [Ulteriori informazioni](journey-action.md)
 
 1. Configura l’attività. Linee guida dettagliate sulla configurazione sono disponibili nei collegamenti riportati di seguito.
 

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 34%
+source-wordcount: '799'
+ht-degree: 35%
 
 ---
 
@@ -41,7 +41,7 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
 1. **Ottimizzazione dell&#39;utilizzo**
 
-   Utilizza la sezione **[!UICONTROL Ottimizzazione dei messaggi]** per eseguire esperimenti di contenuto, sfruttare le regole di targeting o utilizzare combinazioni avanzate di sperimentazione e targeting. Le opzioni e i passaggi seguenti sono descritti in questa sezione: [Ottimizzazione nelle campagne](campaigns-message-optimization.md).
+   Utilizza la sezione **[!UICONTROL Ottimizzazione]** per eseguire esperimenti di contenuto, sfruttare le regole di targeting o utilizzare combinazioni avanzate di sperimentazione e targeting. Queste diverse opzioni e i passaggi da seguire sono descritti in [questa sezione](campaigns-message-optimization.md).
 <!--
 1. **Create a content experiment**
 
@@ -49,7 +49,7 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
 1. **Aggiungi contenuto multilingue**
 
-   Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all’interno della campagna. A tale scopo, fai clic sul pulsante **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in questa sezione: [Introduzione ai contenuti multilingue](../content-management/multilingual-gs.md).
+   Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all’interno della campagna. A tale scopo, fai clic sul pulsante **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in [questa sezione](../content-management/multilingual-gs.md).
 
 Sono disponibili impostazioni aggiuntive a seconda del canale di comunicazione selezionato. Per ulteriori informazioni, espandi le sezioni seguenti.
 
@@ -73,7 +73,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 +++**Assegna punteggi di priorità** (Web, In-app, basati su codice)
 
-Assegnare un punteggio di priorità alla campagna ti consente di assegnare la priorità a una campagna in entrata e in uscita in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. [Scopri come assegnare punteggi di priorità a percorsi e campagne](../conflict-prioritization/priority-scores.md)
+Assegnare un punteggio di priorità alla campagna ti consente di assegnare la priorità a una campagna in entrata in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. [Scopri come assegnare punteggi di priorità a percorsi e campagne](../conflict-prioritization/priority-scores.md)
 
 +++
 

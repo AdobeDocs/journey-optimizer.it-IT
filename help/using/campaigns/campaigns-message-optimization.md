@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 keywords: ottimizzazione delle campagne, sperimentazione, targeting, test A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 4%
+source-wordcount: '1045'
+ht-degree: 6%
 
 ---
 
-# Ottimizzazione nelle campagne {#message-optimization}
+# Ottimizzazione in campagne e percorsi {#message-optimization}
 
-L&#39;ottimizzazione ti offre gli strumenti per fornire contenuti personalizzati e ottimizzati al pubblico delle tue campagne, <!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->assicurandoti il massimo coinvolgimento e il massimo successo per creare <!--customized and -->campagne efficaci.
+L&#39;ottimizzazione ti offre gli strumenti per fornire al tuo pubblico contenuti personalizzati e ottimizzati, <!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->assicurandoti il massimo coinvolgimento e successo nella creazione di <!--customized and -->percorsi e campagne efficaci.
 
 Con l&#39;ottimizzazione è possibile:
 
@@ -24,7 +24,7 @@ Con l&#39;ottimizzazione è possibile:
 * Esegui [esperimenti di contenuto](#experimentation)
 * Utilizza [combinazioni avanzate](#combination) sia di sperimentazione che di targeting all&#39;interno di una singola campagna
 
-Una volta che la campagna è attiva, i profili vengono valutati in base ai criteri definiti e, secondo i criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dalla campagna.
+Una volta che il percorso o la campagna è in esecuzione, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono consegnati con l’esperienza o il contenuto appropriato dal percorso/campagna.
 
 La differenza tra esperimenti e targeting può essere descritta come segue:
 
@@ -32,6 +32,8 @@ La differenza tra esperimenti e targeting può essere descritta come segue:
 * Il targeting utilizza tecniche deterministiche per distribuire contenuti in base al profilo utente, all’iscrizione al pubblico o a regole basate sul contesto.
 
 ![](assets/msg-optimization-experiment-vs-targeting.png){width="110%" zoomable="yes"}
+
+➡️ [Ulteriori informazioni sull&#39;ottimizzazione in una campagna in questo video](#video)
 
 ## Utilizzo del targeting {#targeting}
 
@@ -47,13 +49,17 @@ Con il targeting è possibile definire regole specifiche in base a:
 
 * **Tipi di pubblico** che possono essere utilizzati per includere o escludere profili con una particolare appartenenza al pubblico.
 
-Per impostare il targeting in una campagna, segui i passaggi indicati di seguito.
+Per impostare il targeting, segui i passaggi indicati di seguito.
 
-1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
+1. Crea un [percorso](../building-journeys/journey-gs.md#jo-build) o una [campagna](../campaigns/create-campaign.md).
+
+   >[!NOTE]
+   >
+   >Se fai parte di un percorso, aggiungi un&#39;attività **[!UICONTROL Azione]**, scegli un&#39;attività canale e seleziona **[!UICONTROL Configura azione]**. [Ulteriori informazioni](../building-journeys/journey-action.md#add-action)
 
 1. Dalla scheda **[!UICONTROL Azioni]**, seleziona almeno un&#39;azione.
 
-1. Nella sezione **[!UICONTROL Ottimizzazione messaggi]**, seleziona **[!UICONTROL Targeting]**.
+1. Nella sezione **[!UICONTROL Ottimizzazione]**, seleziona **[!UICONTROL Crea regola di targeting]**.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
@@ -61,11 +67,15 @@ Per impostare il targeting in una campagna, segui i passaggi indicati di seguito
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Selezionare **[!UICONTROL Abilita contenuto di fallback]** in base alle esigenze. Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non sono qualificate regole di targeting. Se non selezioni questa opzione, i tipi di pubblico non idonei per una regola di targeting definita sopra non riceveranno contenuto.
+1. Selezionare **[!UICONTROL Abilita contenuto di fallback]** in base alle esigenze. Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non sono qualificate regole di targeting.
+
+   >[!NOTE]
+   >
+   >Se non selezioni questa opzione, i tipi di pubblico non idonei per una regola di targeting definita sopra non riceveranno contenuto.
 
 1. Salva le impostazioni della regola di targeting.
 
-1. Nella scheda **[!UICONTROL Azioni]** della campagna, seleziona **[!UICONTROL Modifica contenuto]**.
+1. Nella scheda **[!UICONTROL Azioni]**, seleziona **[!UICONTROL Modifica contenuto]**.
 
 1. Progetta il contenuto appropriato per ogni gruppo definito dalle impostazioni delle regole di targeting.
 
@@ -73,9 +83,9 @@ Per impostare il targeting in una campagna, segui i passaggi indicati di seguito
 
    In questo esempio, progetta un contenuto specifico per i residenti negli Stati Uniti, un contenuto diverso per i residenti francesi e un altro contenuto per i residenti in India.
 
-1. [Attiva](review-activate-campaign.md) la campagna.
+1. [Attiva](review-activate-campaign.md) il percorso o la campagna.
 
-Una volta che la campagna è attiva, vengono inviati contenuti personalizzati per ogni target in modo che i residenti degli Stati Uniti ricevano un messaggio specifico, i residenti della Francia un messaggio diverso e così via.
+Una volta che il percorso/la campagna è attivo, vengono inviati contenuti personalizzati per ogni target in modo che i residenti degli Stati Uniti ricevano un messaggio specifico, i residenti della Francia un messaggio diverso e così via.
 
 <!--Default content:
 
@@ -87,7 +97,7 @@ Una volta che la campagna è attiva, vengono inviati contenuti personalizzati pe
 
 La sperimentazione consente di testare più versioni di contenuto per determinare quale offre le migliori prestazioni in base a metriche di successo predefinite.
 
-Per impostare la sperimentazione in una campagna, segui i passaggi riportati di seguito.
+Per impostare la sperimentazione, segui i passaggi riportati di seguito.
 
 Supponiamo che tu voglia testare i seguenti messaggi promozionali in una campagna:
 
@@ -97,11 +107,15 @@ Supponiamo che tu voglia testare i seguenti messaggi promozionali in una campagn
 
 Per impostare la sperimentazione e determinare quale messaggio determina il maggior numero di acquisti, segui i passaggi seguenti.
 
-1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
+1. Crea un [percorso](../building-journeys/journey-gs.md#jo-build) o una [campagna](../campaigns/create-campaign.md).
+
+   >[!NOTE]
+   >
+   >Se fai parte di un percorso, aggiungi un&#39;attività **[!UICONTROL Azione]**, scegli un&#39;attività canale e seleziona **[!UICONTROL Configura azione]**. [Ulteriori informazioni](../building-journeys/journey-action.md#add-action)
 
 1. Dalla scheda **[!UICONTROL Azioni]**, seleziona almeno due azioni in entrata, ad esempio [esperienza basata su codice](../code-based/get-started-code-based.md) e [In-app](../../rp_landing_pages/in-app-landing-page.md).
 
-1. Nella sezione **[!UICONTROL Ottimizzazione messaggi]**, seleziona **[!UICONTROL Sperimentazione]**.
+1. Nella sezione **[!UICONTROL Ottimizzazione]**, seleziona **[!UICONTROL Crea esperimento]**.
 
    ![](assets/msg-optimization-select-experiment.png){width=85%}
 
@@ -109,29 +123,29 @@ Per impostare la sperimentazione e determinare quale messaggio determina il magg
 
    ![](assets/msg-optimization-create-experiment.png){width=85%}
 
-   Una volta definito l’esperimento, questo si applica a tutte le azioni inserite in quella campagna, il che significa che gli stessi clienti visualizzano le stesse offerte su tutte le superfici.
+   Una volta definito, l&#39;esperimento viene applicato a tutte le azioni inserite in quella campagna o tramite l&#39;attività di percorso **[!UICONTROL Azione]**, il che significa che gli stessi clienti visualizzano le stesse offerte su tutte le superfici.
 
    >[!NOTE]
    >
-   >Puoi selezionare altre azioni: la sperimentazione si applica a tutte le azioni aggiunte alla campagna.
+   >Puoi selezionare altre azioni: la sperimentazione si applica a tutte le azioni aggiunte alla campagna o all’azione di percorso.
 
-1. [Attiva](review-activate-campaign.md) la campagna.
+1. [Attiva](review-activate-campaign.md) il percorso o la campagna.
 
-Una volta che la campagna è attiva, agli utenti vengono assegnate in modo casuale le diverse varianti di contenuto. [!DNL Journey Optimizer] tiene traccia della variante che determina più acquisti e fornisce informazioni fruibili.
+Una volta che il percorso/la campagna è attivo, agli utenti vengono assegnate in modo casuale le diverse varianti di contenuto. [!DNL Journey Optimizer] tiene traccia della variante che determina più acquisti e fornisce informazioni fruibili.
 
-Segui il successo della tua campagna con il [rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md).
+Segui il successo della tua campagna con i report [percorso](../reports/journey-global-report-cja.md) e [campagna](../reports/campaign-global-report-cja-experimentation.md). <!--Link to Experimentation journey reportis missing-->
 
 ## Combinare targeting e sperimentazione {#combination}
 
-Journey Optimizer consente inoltre di combinare il targeting e gli esperimenti all’interno di una singola campagna per creare strategie più sofisticate.
+Journey Optimizer consente inoltre di combinare il targeting e gli esperimenti all’interno di un singolo percorso o campagna per creare strategie più sofisticate.
 
-In effetti, puoi utilizzare il targeting per creare diverse varianti e, per ogni variante, utilizzare la sperimentazione per ottimizzare ulteriormente ogni contenuto. In questo modo gli esperimenti sono specifici per ogni regola di targeting e non si estendono su più varianti all’interno della campagna.
+In effetti, puoi utilizzare il targeting per creare diverse varianti e, per ogni variante, utilizzare la sperimentazione per ottimizzare ulteriormente ogni contenuto. In questo modo gli esperimenti sono specifici per ogni regola di targeting e non si estendono su più varianti.
 
 Ad esempio, puoi provare una promozione del 50% rispetto a una gift card da 50 dollari per i clienti negli Stati Uniti e testare in modo diverso i clienti in Europa, ad esempio la spedizione gratuita su ordini superiori a 50 euro rispetto al 20% di sconto sul prossimo acquisto.
 
-Per combinare sia il targeting che gli esperimenti in una campagna, segui i passaggi indicati di seguito.
+Per combinare sia il targeting che gli esperimenti in un percorso o in una campagna, segui i passaggi riportati di seguito.
 
-1. Crea una campagna in cui definire diverse regole di targeting. [Scopri come](#targeting)
+1. Crea un percorso o una campagna in cui puoi definire diverse regole di targeting. [Scopri come](#targeting)
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
@@ -143,22 +157,28 @@ Per combinare sia il targeting che gli esperimenti in una campagna, segui i pass
 
    Una volta definita la sperimentazione, questa si applica solo alla prima regola di targeting.
 
-1. Nella scheda **[!UICONTROL Azioni]** della campagna, seleziona **[!UICONTROL Modifica contenuto]**.
+1. Nella scheda **[!UICONTROL Azioni]**, seleziona **[!UICONTROL Modifica contenuto]**.
 
 1. Per il gruppo definito dalla prima regola di targeting, puoi definire un contenuto specifico per ogni variante dell’esperimento.
 
-   Se hai aggiunto più di un’azione in entrata alla campagna, a ogni azione si applica la stessa combinazione di targeting ed esperimento. Tuttavia, devi definire un contenuto specifico per ogni variante di ciascuna azione.
+   Se hai aggiunto più di un’azione in entrata al percorso o alla campagna, a ogni azione si applica la stessa combinazione di targeting ed esperimento. Tuttavia, devi definire un contenuto specifico per ogni variante di ciascuna azione.
 
    ![](assets/msg-optimization-targeting-experiment-design.png){width=85%}
 
 1. Procedi in modo simile per le altre regole di targeting e progetta il contenuto corrispondente per ogni variante.
 
-1. Salva le modifiche e [attiva](review-activate-campaign.md) la campagna.
+1. Salva le modifiche e [attiva](review-activate-campaign.md) il percorso o la campagna.
 
-Una volta che la campagna è attiva, agli utenti di ciascun gruppo target vengono assegnate in modo casuale le diverse varianti di contenuto definite per il gruppo a cui appartengono.
+Una volta che il percorso/la campagna è attivo, agli utenti di ciascun gruppo target vengono assegnate in modo casuale le diverse varianti di contenuto definite per il gruppo a cui appartengono.
 
 <!--
 ## Reporting on Message optimization
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
+
+## Video dimostrativo{#video}
+
+Scopri come sfruttare l’ottimizzazione dei messaggi nelle campagne attivate da azioni o da API. Scoprirai come eseguire il targeting dei tipi di pubblico secondari, creare varianti di messaggio per posizione, abilitare il contenuto di fallback ed eseguire più esperimenti all’interno di una singola campagna. Questo tutorial illustra anche come gestire le campagne multicanale mantenendo al contempo la coerenza dei messaggi.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

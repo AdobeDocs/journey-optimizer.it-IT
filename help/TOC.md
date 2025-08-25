@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [Condizione](using/building-journeys/condition-activity.md)
       + [Attendi](using/building-journeys/wait-activity.md)
       + [Leggi pubblico](using/building-journeys/read-audience.md)
+      + [Attività azione](using/building-journeys/journey-action.md)
       + [Azioni canale incorporate](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Decisione sul contenuto](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [Utilizzare le campagne di azione](using/campaigns/create-campaign.md)
       + [Definire le proprietà della campagna](using/campaigns/campaign-properties.md)
       + [Configurare l’azione della campagna](using/campaigns/campaign-action.md)
-      + [Sfruttare l’ottimizzazione dei messaggi in una campagna](using/campaigns/campaigns-message-optimization.md)
       + [Modificare il contenuto della campagna](using/campaigns/campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [Note tecniche](/help/rp_landing_pages/technotes-landing-page.md)
          + [Comprendere i calcoli statistici](using/content-management/experiment-calculations.md)
          + [Comprendere i calcoli statistici nel rapporto sulla sperimentazione](using/content-management/experiment-report-calculations.md)
+   + [Sfruttare l’ottimizzazione dei messaggi](using/campaigns/campaigns-message-optimization.md)
 + Tipi di pubblico, profili e identità {#audiences-profiles-identities}
    + [Tipi di pubblico, profili e identità](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Tipi di pubblico {#audiences}
