@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -62,7 +62,7 @@ Modalità di rappresentazione dei percorsi:
 * Se non viene specificato alcun orario di inizio, viene utilizzato il tempo di attivazione manuale più vicino per posizionarlo nel calendario.
 * I percorsi vengono visualizzati come intervalli di 1 ora, ma questo non riflette l’ora effettiva di invio o completamento.
 
-Per spostarti nel calendario dei percorsi:
+Per spostarsi nel calendario dei Percorsi:
 
 1. Per accedere alla vista calendario, aprire l&#39;elenco percorsi e fare clic sull&#39;icona ![icona calendario](assets/do-not-localize/timeline-icon.svg).
 
