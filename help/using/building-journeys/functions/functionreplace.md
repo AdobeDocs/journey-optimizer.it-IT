@@ -28,7 +28,7 @@ Stringa
 
 `replace(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|--------------|

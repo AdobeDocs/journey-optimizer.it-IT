@@ -26,7 +26,7 @@ Conversione
 
 `toDecimal(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |

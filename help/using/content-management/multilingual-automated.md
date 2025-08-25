@@ -156,7 +156,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
    ![](assets/multilingual-settings-6.png)
 
-   +++Prerequisiti per utilizzare gli eventi contestuali nelle tue condizioni
+   +++Prerequisiti per l’utilizzo di eventi contestuali nelle condizioni
 
    Quando gli utenti visualizzano il contenuto, viene inviata una richiesta di personalizzazione insieme all’evento esperienza. Per sfruttare i dati contestuali nelle tue condizioni, devi allegare dati aggiuntivi al payload della richiesta di personalizzazione. A questo scopo, devi creare una regola in Raccolta dati di Adobe Experience Platform per specificare: SE viene inviata una richiesta di personalizzazione, ALLORA allega dati aggiuntivi alla richiesta, definendo l’attributo da abbinare al campo della lingua nello schema.
 
@@ -166,7 +166,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
    1. In Raccolta dati di Adobe Experience Platform, accedi alle proprietà del tag.
 
-   1. Accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 

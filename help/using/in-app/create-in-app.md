@@ -77,7 +77,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      +++Vedi Caratteristiche disponibili.
+      +++Consulta Caratteristiche disponibili.
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -183,7 +183,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      +++Vedi Caratteristiche disponibili.
+      +++Consulta Caratteristiche disponibili.
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -236,7 +236,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451890?quality=12&learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?learn=on&autoplay=true&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

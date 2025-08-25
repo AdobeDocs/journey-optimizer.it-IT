@@ -1,5 +1,5 @@
 ---
-title: API legacy
+title: API Legacy
 description: API aggiornate per la creazione e la gestione di oggetti di gestione delle decisioni.
 feature: Decision Management, API
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: cfe8162b-d50f-4ad3-8b62-9d30b756ad1b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 

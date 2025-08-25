@@ -7,7 +7,8 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: fd8437c6-0052-4116-af60-5624569bda65
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -39,4 +40,3 @@ Informazioni dettagliate su come visualizzare in anteprima e testare il contenut
 > Se la campagna è soggetta a un criterio di approvazione, per poter inviare i messaggi di testo dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Quando il messaggio LINE è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
-

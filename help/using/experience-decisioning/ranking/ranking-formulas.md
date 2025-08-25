@@ -156,7 +156,7 @@ Ad esempio, se il tempo è caldo, vuoi aumentare la priorità di tutte le offert
 
 Per sfruttare gli attributi relativi agli elementi decisionali nelle formule, assicurati di seguire la sintassi corretta nel codice della formula di classificazione. Espandi ogni sezione per ulteriori informazioni:
 
-+++Sfruttare gli attributi standard degli elementi decisionali
++++Utilizzo degli attributi standard degli elementi decisionali
 
 ![](../assets/formula-attribute.png)
 
@@ -184,7 +184,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Incrementa le offerte con una data di fine inferiore a 24 ore
++++Incrementa le offerte la cui data di fine è inferiore a 24 ore
 
 **Formula di classificazione:**
 

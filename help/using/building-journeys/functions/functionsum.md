@@ -26,7 +26,7 @@ Aggregazione
 
 `sum(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * listInteger
 * listDecimal

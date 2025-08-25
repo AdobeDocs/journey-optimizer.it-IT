@@ -12,7 +12,7 @@ exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 18%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ### Frammenti
 
-Integrando Adobe Experience Manager con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nel contenuto dell’e-mail Journey Optimizer. Questa connessione semplificata semplifica il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
+Integrando Adobe Experience Manager con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nel contenuto dell’e-mail Journey Optimizer. Questa connessione diretta facilita il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
 Ulteriori informazioni su [Journey Optimizer + frammenti di Adobe Experience Manager](../integrations/aem-fragments.md).
 
@@ -69,7 +69,7 @@ Ulteriori informazioni su [Journey Optimizer + Stock](../integrations/stock.md).
 
 ## Adobe Express {#express}
 
-L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
+L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere lo sfondo, ritagliare elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
 Per accedere al menu **[!DNL Adobe Express]**, accedi alle **impostazioni immagine** da E-mail Designer e fai clic su **[!UICONTROL Modifica in Adobe Express]**.
 

@@ -26,7 +26,7 @@ Stringa
 
 `substr(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | tipo |
 |-------------|----------|

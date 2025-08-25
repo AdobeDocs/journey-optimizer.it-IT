@@ -12,7 +12,7 @@ exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 >title="Inserire il proprio CSS"
 >abstract="Per una maggiore flessibilità e controllo sull’aspetto del contenuto, puoi aggiungere un CSS personalizzato direttamente nell’E-mail designer per applicare uno stile avanzato e specifico."
 
-Durante la progettazione delle e-mail, puoi aggiungere CSS personalizzati direttamente all&#39;interno di [!DNL Journey Optimizer] [E-mail Designer](get-started-email-design.md). Questa funzionalità consente di applicare uno stile avanzato e specifico, per una maggiore flessibilità e un maggiore controllo sull’aspetto del contenuto.
+Durante la progettazione delle e-mail, puoi aggiungere CSS personalizzati direttamente all&#39;interno di [!DNL Journey Optimizer] [E-mail Designer](get-started-email-design.md). Questa funzionalità consente di applicare uno stile avanzato e specifico, per una maggiore flessibilità e controllo sull’aspetto del contenuto.
 
 ## Definire CSS personalizzato {#define-custom-css}
 
@@ -174,7 +174,7 @@ body {
 
 Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come parte di un tag `<style>` con l&#39;attributo `data-name="global-custom"`, come nell&#39;esempio seguente. In questo modo gli stili personalizzati vengono applicati globalmente al contenuto.
 
-+++ Vedi esempio
++++ Vedi esempio 
 
 ```html
 <!DOCTYPE html>
@@ -235,13 +235,13 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
 * Verificare se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato.
 
-+++ Ad esempio:
+  +++ Ad esempio:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Assicurati che il tuo CSS non sia sovrascritto da altre regole CSS, incluso qualsiasi [tema](apply-email-themes.md) applicato al contenuto.
 
@@ -249,7 +249,7 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
    * Prendi in considerazione l&#39;aggiunta di `!important` alle tue dichiarazioni per assicurarti che abbiano la precedenza.
 
-+++ Ad esempio:
+     +++ Ad esempio:
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
      }
      ```
 
-+++
+     +++

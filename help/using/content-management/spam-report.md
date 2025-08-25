@@ -47,7 +47,7 @@ Per accedere al **[!UICONTROL rapporto spam]**, segui la procedura riportata di 
 
    >[!NOTE]
    >
-   >Il punteggio spam è derivato tramite [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} e le regole non sono di proprietà di Adobe. Per ulteriori dettagli su queste regole, consulta la documentazione di SpamAssassin.
+   >Il punteggio spam viene derivato tramite [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} e le regole non sono di proprietà di Adobe. Per ulteriori dettagli su queste regole, consulta la documentazione di SpamAssassin.
    >
 
 1. In base a tale punteggio, se si ritiene che alcuni elementi possano essere migliorati, modificare il contenuto in [E-mail Designer](../email/content-from-scratch.md) e apportare gli aggiornamenti necessari.

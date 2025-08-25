@@ -40,7 +40,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
 1. Scegli l&#39;attributo **[!UICONTROL Stato feedback]** per eseguire il targeting degli eventi di consegna dei messaggi.
 
-+++ Dettagliato passo dopo passo
+   +++ Dettagliato passo dopo passo
 
    1. Aggiungi un&#39;altra condizione collegata all&#39;attributo **[!UICONTROL Feedback messaggio]**.
 
@@ -52,11 +52,11 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
       ![](assets/retarget_4.png){zoomable="yes"}
 
-+++
+   +++
 
 1. Scegli l&#39;attributo **[!UICONTROL Nome campagna orchestrata]** per eseguire il targeting di una campagna orchestrata specifica.
 
-+++ Dettagliato passo dopo passo
+   +++ Dettagliato passo dopo passo
 
    1. Aggiungi un&#39;altra condizione collegata all&#39;attributo **[!UICONTROL Feedback messaggio]**, cerca **[!UICONTROL entità]** e passa a:
 
@@ -68,11 +68,11 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Nel menu **[!UICONTROL Condizione personalizzata]**, specifica il nome della campagna nel campo **[!UICONTROL Valore]**.
 
-+++
+   +++
 
 1. Scegli l&#39;attributo **[!UICONTROL Nome azione campagna orchestrata]** per eseguire il targeting di un messaggio o un&#39;attività specifica all&#39;interno di una campagna orchestrata.
 
-+++ Dettagliato passo dopo passo
+   +++ Dettagliato passo dopo passo
 
    1. Aggiungi un&#39;altra condizione collegata all&#39;attributo **[!UICONTROL Feedback messaggio]**, cerca **[!UICONTROL entità]** e passa a:
 
@@ -86,7 +86,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
       Per trovare i nomi delle azioni, fai clic sull&#39;![icona Informazioni](assets/do-not-localize/info-icon.svg) accanto al campo Etichetta dell&#39;attività.
 
-+++
+   +++
 
 1. In alternativa, puoi anche filtrare in base al **[!UICONTROL ID campagna]** (UUID), che si trova nelle proprietà della campagna.
 

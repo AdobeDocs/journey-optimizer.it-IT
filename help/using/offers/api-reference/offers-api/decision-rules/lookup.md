@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Cercare una regola di decisione {#lookup-decision-rule}
 
-Per cercare una regola di decisione specifica, effettuare una richiesta di GET all&#39;API [!DNL Offer Library] che includa la regola di decisione `id` nel percorso della richiesta.
+È possibile cercare una regola di decisione specifica effettuando una richiesta GET all&#39;API [!DNL Offer Library] che include la regola di decisione `id` nel percorso della richiesta.
 
 **Formato API**
 

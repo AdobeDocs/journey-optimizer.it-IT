@@ -522,7 +522,7 @@ I KPI **[!UICONTROL Prestazioni web]** offrono informazioni complete sul coinvol
 
 * **[!UICONTROL Interazioni]**: numero totale di impegni con la pagina Web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
 
-+++
++++ 
 
 ### Riepilogo web {#web-summary}
 
@@ -541,7 +541,7 @@ Il grafico **[!UICONTROL Riepilogo Web]** mostra l&#39;evoluzione delle esperien
 
 * **[!UICONTROL Interazioni]**: numero totale di impegni con la pagina Web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
 
-+++
++++ 
 
 ### Interazioni per elemento {#web-interactions}
 

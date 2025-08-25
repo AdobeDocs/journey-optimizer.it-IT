@@ -118,7 +118,7 @@ Durante la creazione di una [regola che corrisponde a più pagine](#web-page-mat
     </thead>
     <tbody>
     <tr>
-        <td>Uguale a</td>
+        <td>È uguale a</td>
         <td>Corrispondenza esatta del percorso. </td>
         <td></td>
     </tr>
@@ -143,7 +143,7 @@ Durante la creazione di una [regola che corrisponde a più pagine](#web-page-mat
         <td>Esempio: "Corrispondenza con caratteri jolly: /products/*/detail", corrisponde a tutti i percorsi come: <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Esempio: "Corrisponde a: /prod*/detail, corrisponde a tutti i percorsi come: <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>non corrisponde a percorsi come: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
-        <td>Contains</td>
+        <td>Contiene</td>
         <td>"contains" viene tradotto in un carattere jolly come "mystring" e corrisponde a tutti i percorsi che contengono questa sequenza di caratteri.</td>
         <td>Esempio: "Contiene: product", corrisponde a tutti i percorsi che contengono la stringa product, come: <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>

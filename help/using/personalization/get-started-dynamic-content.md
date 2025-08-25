@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai contenuti dinamici
+title: Introduzione al contenuto dinamico
 description: Ulteriori informazioni sui contenuti dinamici
 feature: Personalization
 topic: Personalization
@@ -36,4 +36,4 @@ Le regole condizionali possono essere utilizzate in E-mail Designer e nell&#39;e
 
 Scopri come creare contenuti dinamici con il generatore di regole di condizione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413672?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

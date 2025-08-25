@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminare una regola di decisione {#delete-decision-rule}
 
-Occasionalmente può essere necessario rimuovere (DELETE) una regola di decisione. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando `id` della regola di decisione che si desidera eliminare.
+Talvolta può essere necessario rimuovere (DELETE) una regola di decisione. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando `id` della regola di decisione che si desidera eliminare.
 
 **Formato API**
 

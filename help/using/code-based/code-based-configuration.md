@@ -144,7 +144,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    L&#39;URL di anteprima è un collegamento profondo configurato dallo sviluppatore dell&#39;app all&#39;interno dell&#39;app. In questo modo, gli URL che corrispondono allo schema di collegamento profondo si apriranno all’interno dell’app anziché in un browser web per dispositivi mobili. Contatta il tuo sviluppatore di app per ottenere lo schema di collegamento profondo configurato per la tua app.
 
-+++  Le seguenti risorse possono essere utili per configurare collegamenti profondi per l’implementazione dell’app
+   +++  Le seguenti risorse possono essere utili per configurare collegamenti profondi per l’implementazione dell’app
 
    * Per Android:
 
@@ -156,11 +156,11 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
       * [Supporto dei collegamenti universali nell’app](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
-+++
+   +++
 
    >[!NOTE]
    >
-   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Altre piattaforme {#other}
 

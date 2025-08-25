@@ -23,7 +23,7 @@ I settori chiave da monitorare per eventuali sovrapposizioni sono i seguenti:
 * **Set di regole di limitazione**: quali tipi di percorsi sono soggetti a limitazione e vi sono sovrapposizioni all&#39;interno di essi?
 * **Configurazione canale**: ci sono altri percorsi o campagne che utilizzano una configurazione di canale utilizzata nello stesso percorso o campagna che potrebbe impedire la visualizzazione del percorso o della campagna all&#39;utente finale?
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Come Journey Optimizer rileva i conflitti {#detection}
 

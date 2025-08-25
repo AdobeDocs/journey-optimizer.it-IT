@@ -12,11 +12,11 @@ exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Risolvere i problemi dei percorsi {#troubleshooting}
+# Risolvere i problemi relativi ai percorsi {#troubleshooting}
 
 Quando un percorso di clienti non si comporta come previsto, identificare la causa principale può essere difficile. Per risolvere i problemi in modo efficiente, di seguito sono riportate le risorse per la risoluzione dei problemi in base alle aree più comuni. Sia che vengano visualizzati errori di percorso, incoerenze di esecuzione o problemi a livello di azione, ogni sezione fornisce indicazioni mirate per analizzarli e risolverli.
 

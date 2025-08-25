@@ -13,7 +13,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >title="Integrazione Adobe Express"
 >abstract="Inizia a personalizzare le risorse con l’integrazione di Adobe Express. Questa funzione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG."
 
-L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
+L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere lo sfondo, ritagliare elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
 
@@ -39,7 +39,7 @@ Per accedere al menu **[!DNL Adobe Express]**, accedi alle **impostazioni immagi
 
 ![](assets/express_1.png)
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Utilizzo di Adobe Express con una licenza Enterprise {#licence}
 
@@ -49,7 +49,7 @@ Con una licenza Enterprise, gli utenti hanno accesso completo all’editor web d
 
 ![](assets/express-licence.png)
 
-Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/it/express/web.html).
+Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Utilizzo di Adobe Express senza una licenza Enterprise  {#edit}
 
@@ -148,7 +148,7 @@ L&#39;immagine è ora pronta per essere utilizzata nel contenuto.
 
 Scopri come modificare le risorse in Adobe Journey Optimizer utilizzando gli strumenti di Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455531/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

@@ -11,7 +11,7 @@ keywords: espressione, editor, helper, caso d’uso, personalizzazione
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Creare un evento il cui schema include l&#39;array `productListItems`.
 1. Definisci tutti i campi di questo array come campi payload per questo evento.
 
-   Ulteriori informazioni sul tipo di dati dell&#39;elemento dell&#39;elenco prodotti nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"}.
+   Ulteriori informazioni sul tipo di dati dell&#39;elemento dell&#39;elenco prodotti nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crea un percorso che inizia con questo evento.
 1. Aggiungi un&#39;attività **E-mail** al percorso.
@@ -105,7 +105,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Ulteriori informazioni sul tipo di dati del nome della persona nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=it){target="_blank"}.
+      Ulteriori informazioni sul tipo di dati del nome della persona nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Fai clic su **[!UICONTROL Convalida]**, quindi su **[!UICONTROL Salva]**.
 
@@ -184,7 +184,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 1. Aggiungi i token di personalizzazione per il nome dell’articolo, la quantità e il prezzo:
 
-   1. Rimuovere il segnaposto &quot;#name&quot; dalla tabella HTML.
+   1. Rimuovi il segnaposto &quot;#name&quot; dalla tabella HTML.
    1. Dai risultati della ricerca precedente, aggiungi il token **[!UICONTROL Name]** all&#39;espressione.
 
    Ripeti questi passaggi due volte:
@@ -252,7 +252,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Aggiungi il token del nome del prodotto alla condizione:
    1. Rimuovi il segnaposto &quot;condition1&quot; dall’espressione.
    1. Nel menu a sinistra, seleziona **[!UICONTROL Attributi contestuali]**.
-   1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Eventi]** > ***[!UICONTROL nome_evento]***, quindi espandi il nodo **[!UICONTROL productListItems]**.
+   1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, quindi espandi il nodo **[!UICONTROL productListItems]**.
 
       In questo esempio, *nome_evento* rappresenta il nome dell&#39;evento.
 
@@ -340,8 +340,8 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 * [Personalization con offerta basata su decisioni](../offers/offers-e2e.md)
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Scopri come utilizzare le funzioni di assistenza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -26,7 +26,7 @@ Stringa
 
 `split(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

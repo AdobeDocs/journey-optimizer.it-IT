@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 **Generazione rapporti**
 
-* **Formato dati nella vista Globale** - Ora è possibile alternare tra numeri e percentuali nella **vista Globale** della scheda **Esecuzione**.
+* **Formato dati nella vista Globale** - Ora è possibile passare da numeri a percentuali nella **vista Globale** della scheda **Esecuzione**.
 
 
 **Amministrazione**

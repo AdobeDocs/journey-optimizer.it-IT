@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1364'
 ht-degree: 22%
 
 ---
@@ -89,7 +89,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 Se hai selezionato **[!UICONTROL Amazon S3]** come **[!UICONTROL tipo di server]**, compila i dettagli e le credenziali per il server:
 
-* **Nome bucket AWS**:Per sapere dove trovare il nome del bucket AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+* **Nome bucket AWS**:To sa dove trovare il nome del bucket AWS. Fai riferimento a [questa pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
 * **Chiave di accesso AWS**: per sapere dove trovare l&#39;ID della chiave di accesso AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
@@ -145,7 +145,7 @@ Se hai selezionato **[!UICONTROL Area di destinazione dati]** come **[!UICONTROL
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

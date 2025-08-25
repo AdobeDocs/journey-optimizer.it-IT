@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -98,7 +98,7 @@ I tempi di invio dell’esplorazione vengono selezionati in modo casuale tra i t
 
 ## Domande frequenti {#faq-send-time}
 
-+++Quanto tempo devo attendere prima di utilizzare Ottimizzazione del tempo di invio?
++++Quanto tempo devo aspettare prima di utilizzare Ottimizzazione del tempo di invio?
 
 La tua organizzazione deve utilizzare l’azione E-mail in Journey Optimizer per un minimo di 30 giorni prima di utilizzare Ottimizzazione del tempo di invio in E-mail per consentire la raccolta di alcuni eventi di invio, apertura e clic per e-mail.
 

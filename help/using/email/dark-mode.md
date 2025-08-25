@@ -15,7 +15,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -72,7 +72,7 @@ In effetti, il modo in cui la modalità scura viene applicata dai client e-mail 
 
 * Altri client di posta elettronica offrono l&#39;opzione di eseguire il rendering della modalità scura personalizzata (ad esempio con il metodo `@media (prefers-color-scheme: dark)`). In questo caso, devono essere visualizzate le impostazioni specifiche definite nel Designer e-mail. Scopri come definire le impostazioni personalizzate della modalità scura nel Designer e-mail in [questa sezione](#define-custom-dark-mode).
 
-## Modalità scura in E-mail Designer {#dark-mode-email-designer}
+## Modalità scura in E-mail designer {#dark-mode-email-designer}
 
 Quando si tratta della modalità scura in E-mail Designer, ci sono due aspetti da considerare:
 
@@ -131,7 +131,7 @@ Dopo il passaggio alla **[!UICONTROL modalità scura]**, puoi scegliere di modif
 
 >[!WARNING]
 >
->Non tutti i client e-mail supportano la modalità scura. Inoltre, alcuni client e-mail applicano la propria modalità scura predefinita solo per tutte le e-mail ricevute. In entrambi i casi, non è possibile eseguire il rendering delle impostazioni personalizzate definite nel Designer e-mail.
+>Non tutti i client e-mail supportano la modalità scura. Inoltre, alcuni client e-mail applicano soltanto la propria modalità scura predefinita per tutte le e-mail ricevute. In entrambi i casi, non è possibile eseguire il rendering delle impostazioni personalizzate definite in E-mail designer.
 
 Per sfruttare lo stile personalizzato della modalità scura di E-mail Designer, Journey Optimizer utilizza <!-- `@media (prefers-color-scheme: dark)` method--> Query CSS `@media (prefers-color-scheme: dark)` che rileva se il client e-mail dell&#39;utente è impostato sulla modalità scura e applica la struttura a tema scuro definita nell&#39;e-mail.
 

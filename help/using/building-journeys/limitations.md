@@ -32,7 +32,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 * Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un evento **Qualificazione del pubblico**.
 * Un percorso che inizia con un&#39;attività **Qualificazione del pubblico** nella versione v1 deve sempre iniziare con una **Qualificazione del pubblico** nelle altre versioni.
 * Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non possono essere modificati nelle nuove versioni.
-* La regola di rientro deve essere la stessa in tutte le versioni di percorso.
+* La regola di reingresso deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con un’attività di **Leggi pubblico** non può iniziare con un altro evento nelle versioni successive.
 
 ## Limitazioni delle azioni personalizzate {#custom-actions-limitations}

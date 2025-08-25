@@ -145,4 +145,4 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 
 Il video seguente mostra come creare una campagna di esperienza basata su codice, configurarne le proprietà, testarla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449461/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

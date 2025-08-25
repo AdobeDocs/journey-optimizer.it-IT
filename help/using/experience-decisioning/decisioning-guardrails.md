@@ -58,7 +58,7 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 | Numero massimo di attributi di dati contestuali | 30 |
 | Numero massimo di livelli di nidificazione | 30 |
 
-## Altri {#others}
+## Altre {#others}
 
 | Guardrail | Limite |
 | ------- | ------- |

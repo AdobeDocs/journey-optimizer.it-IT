@@ -54,7 +54,7 @@ La tabella seguente presenta le azioni per le quali le diverse risorse di Journe
 | Sottodominio AJO | Crea/Elimina/Aggiorna |
 | Elenco di soppressione AJO | Crea/Elimina/Scarica CSV |
 | Gruppo di campi | Crea/Elimina/Aggiorna |
-| Percorso | Crea/Elimina/Aggiorna/Arresta/Pubblica |
+| Percorso | Crea/Elimina/Aggiorna/Interrompi/Pubblica |
 | Azione personalizzata percorso | Crea/Elimina/Aggiorna |
 | Origine dati percorso | Crea/Elimina/Aggiorna |
 | Evento percorso | Crea/Elimina/Aggiorna |

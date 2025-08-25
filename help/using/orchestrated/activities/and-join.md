@@ -44,6 +44,6 @@ Per configurare l’attività **[!UICONTROL AND-join]**, segui questi passaggi:
 
 ## Esempio{#and-join-example}
 
-Questo esempio illustra due rami coordinati della campagna, ciascuno con una consegna e-mail, uno indirizzato ai membri di livello Gold e l’altro ai membri di livello Silver. **[!UICONTROL AND-join]** si attiva quando vengono attivate entrambe le transizioni in ingresso e l’SMS verrà inviato solo dopo il completamento di entrambe le consegne e-mail, dopo un ritardo di 7 giorni.
+Questo esempio illustra due rami coordinati della campagna, ciascuno con una consegna e-mail, il cui targeting sono rispettivamente i membri di livello Gold e quelli di livello Silver. **[!UICONTROL AND-join]** si attiva quando vengono attivate entrambe le transizioni in ingresso e l’SMS verrà inviato solo dopo il completamento di entrambe le consegne e-mail, dopo un ritardo di 7 giorni.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

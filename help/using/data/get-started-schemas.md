@@ -9,7 +9,7 @@ level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Consulta il [dizionario degli schemi di Journey Optimizer](https://experiencelea
 
 Scopri come creare uno schema, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

@@ -26,7 +26,7 @@ Elenco
 
 `sort(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

@@ -33,7 +33,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!CAUTION]
    >
-   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1&rbrace;.](ip-warmup-execution.md)
+   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1}.](ip-warmup-execution.md)
 
 1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email-journey-campaign).
 
@@ -57,7 +57,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!IMPORTANT]
    >
-   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 

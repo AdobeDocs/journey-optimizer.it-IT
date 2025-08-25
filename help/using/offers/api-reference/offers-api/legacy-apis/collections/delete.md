@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Eliminare una raccolta {#delete-collection}
 
-Talvolta può essere necessario rimuovere (DELETE) una raccolta. È possibile eliminare solo le raccolte create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando $id della raccolta che si desidera eliminare.
+A volte può essere necessario rimuovere (DELETE) una raccolta. È possibile eliminare solo le raccolte create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando $id della raccolta che si desidera eliminare.
 
 **Formato API**
 

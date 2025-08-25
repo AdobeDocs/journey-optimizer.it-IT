@@ -26,7 +26,7 @@ Conversione
 
 `toInteger(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |

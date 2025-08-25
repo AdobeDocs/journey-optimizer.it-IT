@@ -20,7 +20,7 @@ ht-degree: 25%
 
 Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per avere una visione completa di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e di terze parti. I **profili** ti consentono di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 **Profilo cliente in tempo reale&#x200B;** - Consente di integrare gli attributi e gli eventi del cliente da origini online, offline e pseudonime in un unico profilo unificato. &#x200B;Utilizza il profilo per coinvolgere i clienti con esperienze personalizzate in tempo reale su più punti di contatto. &#x200B;
 
@@ -36,7 +36,7 @@ Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per av
 >
 >* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
 >* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Dashboard dei profili
 
@@ -54,4 +54,4 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 
 Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in tempo reale e come puoi accedere a tali profili e utilizzarli.
 
->[!VIDEO](https://video.tv.adobe.com/v/36266?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

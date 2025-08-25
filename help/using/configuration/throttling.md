@@ -333,7 +333,7 @@ Chiamate API per l’utilizzo di:
 
 +++
 
-+++Annullare la distribuzione ed eliminare una configurazione di limitazione implementata
++++Annullare la distribuzione ed eliminare una configurazione di limitazione distribuita
 
 Chiamate API per l’utilizzo di:
 

@@ -7,12 +7,12 @@ feature: Journeys, Events, Reporting, Integrations
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
-keywords: analisi, integrazione, web sdk, piattaforma
+keywords: analytics, integrazione, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -24,28 +24,28 @@ Affinché questo funzioni con Adobe Analytics, devi:
 
 1. Attiva la suite di rapporti che desideri utilizzare. [Ulteriori informazioni](#leverage-analytics-data)
 1. Abilita Journey Optimizer per utilizzare la tua origine dati Adobe Analytics. [Ulteriori informazioni](#activate-analytics-data)
-1. Aggiungi un evento specifico al tuo percorso. [Ulteriori informazioni](#event-analytic)
+1. Aggiungi un evento specifico nel percorso. [Ulteriori informazioni](#event-analytic)
 
 >[!NOTE]
 >
->Questa sezione si applica solo agli eventi basati su regola e ai clienti che devono utilizzare dati Adobe Analytics o Web SDK.
+>Questa sezione si applica solo per gli eventi basati su regole e i clienti che devono utilizzare dati di Adobe Analytics o Web SDK.
 > 
->Se utilizzi Customer Journey Analytics Adobe Systems, consulta [questa pagina](../reports/cja-ajo.md).
+>Se utilizzi Adobe Customer Journey Analytics, fai riferimento a [questa pagina](../reports/cja-ajo.md).
 >
 
-## Configurare dati Adobe Analytics o Web SDK {#leverage-analytics-data}
+## Configurare i dati di Adobe Analytics o Web SDK {#leverage-analytics-data}
 
-I dati provenienti da Adobe Analytics o Adobe Experience Platform Web SDK devono essere abilitati per essere utilizzati nei tuoi percorsi.
+Per poter essere utilizzati nei percorsi, i dati provenienti da Adobe Analytics o Adobe Experience Platform Web SDK devono essere abilitati.
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. Sfoglia al **[!UICONTROL menu Sorgenti]** .
+1. Passare al menu **[!UICONTROL Origini]**.
 
-1. Nella sezione Adobe Analytics selezionare **[!UICONTROL Aggiungi dati]**
+1. Nella sezione Adobe Analytics, seleziona **[!UICONTROL Aggiungi dati]**
 
    ![](assets/ajo-aa_1.png)
 
-1. Dall&#39;elenco delle suite di rapporti Adobe Analytics disponibili, seleziona la suite **di** rapporti da abilitare. Quindi fare clic su **[!UICONTROL Successivo]**.
+1. Dall&#39;elenco delle suite di rapporti di Adobe Analytics disponibili, seleziona la **[!UICONTROL suite di rapporti]** da abilitare. Quindi fare clic su **[!UICONTROL Avanti]**.
 
    ![](assets/ajo-aa_2.png)
 
@@ -57,11 +57,11 @@ Per farlo, segui la procedura indicata di seguito:
 
    ![](assets/ajo-aa_3.png)
 
-In questo modo viene abilitato il connettore di origine Analytics per quella suite di rapporti. Ogni volta che i dati arrivano, vengono trasformati in un evento Esperienza e inviati in Adobe Experience Platform.
+In questo modo viene attivato il connettore di origine di Analytics per quella suite di rapporti. Ogni volta che i dati vengono inseriti, vengono trasformati in un evento Experience e inviati in Adobe Experience Platform.
 
 ![](assets/ajo-aa_4.png)
 
-Scopri ulteriori informazioni su Adobe Analytics connettore di origine in Adobe Experience Platform  [documentazione](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it){target="_blank"} e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sul connettore di origine di Adobe Analytics, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e la [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Attiva questa configurazione {#activate-analytics-data}
 
@@ -70,52 +70,52 @@ Al termine della configurazione, contatta Adobe per abilitare l’ambiente Journ
 1. Ottieni l’ID dell’origine dati. Queste informazioni sono disponibili nell&#39;interfaccia utente: passare all&#39;origine dati creata dalla scheda **Flussi dati** del menu **Origini**. Il modo più semplice per trovarlo è filtrare in base alle origini di Adobe Analytics.
 1. Contatta l’Assistenza clienti Adobe con i seguenti dettagli:
 
-   * Oggetto: Attivazione di eventi Adobe Analytics per i viaggi
+   * Oggetto: Abilitare gli eventi Adobe Analytics per i percorsi
 
-   * Contenuto: abilitate il mio ambiente per l&#39;utilizzo degli eventi AA.
+   * Contenuto: abilita il mio ambiente per utilizzare gli eventi AA.
 
       * ID organizzazione: &quot;XXX@AdobeOrg&quot;
 
-      * ID origine dati: &quot;ID: xxxxx&quot;
+      * ID sorgente dati: &quot;ID: xxxxx&quot;
 
-1. Una volta che hai una conferma che il tuo ambiente è pronto, puoi utilizzare Adobe Analytics dati nei tuoi percorsi.
+1. Una volta confermata la preparazione dell’ambiente, puoi utilizzare i dati di Adobe Analytics nei tuoi percorsi.
 
-## Crea un percorso con un evento utilizzando dati Adobe Analytics o Web SDK {#event-analytics}
+## Creazione di un percorso con un evento utilizzando i dati di Adobe Analytics o Web SDK {#event-analytics}
 
-Ora puoi creare un evento basato su dati Adobe Analytics o Adobe Experience Platform Web SDK da utilizzare in un percorso.
+Ora puoi creare un evento basato sui dati di Adobe Analytics o Adobe Experience Platform Web SDK da utilizzare in un percorso.
 
-Nell&#39;esempio riportato di seguito, scopri come destinazione utenti che hanno aggiunto un prodotto al carrello:
+Nell’esempio seguente, scopri come eseguire il targeting degli utenti che hanno aggiunto un prodotto ai loro carrelli:
 
-* Se l&#39;ordine viene completato, gli utenti ricevono un&#39;e-mail seguire-up due giorni dopo per chiedere feedback.
-* Se l&#39;ordine non viene completato, gli utenti ricevono un&#39;e-mail per ricordare loro di completare l&#39;ordine.
+* Se l’ordine è completato, due giorni dopo gli utenti ricevono un’e-mail di follow-up per richiedere un feedback.
+* Se l’ordine non è completato, gli utenti ricevono un’e-mail per ricordarsi di completarlo.
 
-1. Da Adobe Systems Journey Optimizer accesso il **[!UICONTROL menu Configurazione]** .
+1. Da Adobe Journey Optimizer, accedere al menu **[!UICONTROL Configurazione]**.
 
 1. Quindi, seleziona **[!UICONTROL Gestisci]** dalla scheda **[!UICONTROL Eventi]**.
 
    ![](assets/ajo-aa_5.png)
 
-1. Fai clic su **[!UICONTROL Crea]** evento. Il riquadro di configurazione dell’evento si apre sul lato destro dello schermo.
+1. Fai clic su **[!UICONTROL Crea evento]**. Il riquadro di configurazione dell’evento si apre sul lato destro dello schermo.
 
-1. Compila i parametri dell&#39;evento **&#x200B;**:
+1. Compila i parametri **[!UICONTROL Event]**:
 
-   * **[!UICONTROL Nome]**: personalizza il nome del tuo **[!UICONTROL evento]**.
-   * **[!UICONTROL Tipo]**: scegliere il **[!UICONTROL tipo unitario]** . [Ulteriori informazioni](../event/about-events.md)
-   * **[!UICONTROL Tipo di]** ID evento: scegli il tipo di ID evento basato su **&#x200B;**&#x200B;regola. [Ulteriori informazioni](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Schema]**: seleziona lo schema [Analytics o WebSDK creato in precedenza](#leverage-analytics-data).
-   * **[!UICONTROL Campi]**: selezionare i campi payload. [Ulteriori informazioni](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL Condizione]** ID evento: definisci la condizione per identificare gli eventi che attiveranno il tuo viaggio.
+   * **[!UICONTROL Nome]**: personalizza il nome del tuo **[!UICONTROL Evento]**.
+   * **[!UICONTROL Tipo]**: scegli il tipo **[!UICONTROL Unitario]**. [Ulteriori informazioni](../event/about-events.md)
+   * **[!UICONTROL Tipo ID evento]**: scegli il tipo di ID evento **[!UICONTROL Basato su regola]**. [Ulteriori informazioni](../event/about-events.md#event-id-type)
+   * **[!UICONTROL Schema]**: seleziona lo schema Analytics o WebSDK [creato prima](#leverage-analytics-data).
+   * **[!UICONTROL Campi]**: seleziona i campi Payload. [Ulteriori informazioni](../event/about-creating.md#define-the-payload-fields)
+   * **[!UICONTROL Condizione ID evento]**: definisci la condizione per identificare gli eventi che attiveranno il percorso.
 
-     Qui, l&#39;evento viene attivato quando i clienti aggiungono un articolo al carrello.
-   * **[!UICONTROL Identificatore]** profilo: scegli un campo dai campi payload o definisci una formula per identificare la persona associata all&#39;evento.
+     In questo caso, l’evento viene attivato quando i clienti aggiungono un articolo ai loro carrelli.
+   * **[!UICONTROL Identificatore profilo]**: scegli un campo dai campi del payload o definisci una formula per identificare la persona associata all&#39;evento.
 
    ![](assets/ajo-aa_6.png)
 
-1. Una volta configurato selezionare **[!UICONTROL Salva]**.
+1. Una volta configurata, selezionare **[!UICONTROL Salva]**.
 
-Ora che l&#39;evento è pronto, crea un percorso per utilizzarlo.
+Ora che l’evento è pronto, crea un percorso per utilizzarlo.
 
-1. **[!UICONTROL Dal menu Percorsi]**, apri o crea un percorso. Per ulteriori informazioni al riguardo, consulta [questa sezione](../building-journeys/journey-gs.md).
+1. Aprire o creare un percorso dal menu **[!UICONTROL Percorsi]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../building-journeys/journey-gs.md).
 
 1. Aggiungi al percorso l’evento Analytics configurato in precedenza.
 
@@ -127,9 +127,9 @@ Ora che l&#39;evento è pronto, crea un percorso per utilizzarlo.
 
    ![](assets/ajo-aa_9.png)
 
-1. Aggiungi un&#39;azione **[!UICONTROL E-mail]** dal percorso di timeout. Questo percorso verrà utilizzato per inviare un&#39;e-mail ai clienti che non hanno completato un ordine per ricordare loro che i loro carrelli sono ancora disponibili.
+1. Aggiungi un&#39;azione **[!UICONTROL E-mail]** dal percorso di timeout. Questo percorso verrà utilizzato per inviare un’e-mail ai clienti che non hanno completato un ordine per ricordare loro che i loro carrelli sono ancora disponibili.
 
-1. Aggiungi un&#39;attività **[!UICONTROL di attesa]** dopo il percorso principale e impostala sulla durata necessaria.
+1. Aggiungi un&#39;attività **[!UICONTROL Wait]** dopo il percorso principale e impostala sulla durata necessaria.
 
    ![](assets/ajo-aa_10.png)
 

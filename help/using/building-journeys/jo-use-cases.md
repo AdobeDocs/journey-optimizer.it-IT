@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esempi di casi d’uso
+title: Apprendere attraverso i casi d’uso
 description: Panoramica sui casi di utilizzo dei percorsi
 feature: Journeys, Use Cases
 role: User, Data Engineer
@@ -11,11 +11,11 @@ exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 source-git-commit: 27d1ada9f501cd30fdb57104377845de75eff1b0
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# Esempi di casi d’uso {#jo-uc-gs}
+# Apprendere attraverso i casi d’uso {#jo-uc-gs}
 
 Questa sezione riunisce una raccolta di casi d’uso pratici per aiutarti a ottenere il massimo da Adobe Journey Optimizer. Di seguito sono riportati collegamenti a esempi rilevanti per la ricerca di modelli tattici (ad esempio logica di soppressione, tecniche di personalizzazione o strategie di uscita dal percorso) o scenari completi che includono flussi di lavoro tecnici e di marketing.
 

@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+exl-id: 774f3773-bc39-46c4-b32c-143abbd45696
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 5%
 
 ---
 
-
 # Eliminare una strategia di selezione {#delete-selection-strategy}
 
-Occasionalmente può essere necessario rimuovere (DELETE) una strategia di selezione. A tal fine, esegui una richiesta DELETE all’API della Libreria di offerte utilizzando l’ID della strategia di selezione che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) una strategia di selezione. A tal fine, esegui una richiesta DELETE all’API della Libreria di offerte utilizzando l’ID della strategia di selezione che desideri eliminare.
 
 **Formato API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/selection-strategies/sel
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) alla strategia di selezione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la strategia di selezione è stata rimossa.
+Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) alla strategia di selezione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la strategia di selezione è stata rimossa.

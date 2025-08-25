@@ -26,7 +26,7 @@ Data
 
 `inLastYears(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

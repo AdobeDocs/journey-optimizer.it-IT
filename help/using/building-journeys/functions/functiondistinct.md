@@ -26,7 +26,7 @@ Elenco
 
 `distinct(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

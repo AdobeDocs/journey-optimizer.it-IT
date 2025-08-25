@@ -9,11 +9,11 @@ exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
 source-git-commit: 01d3d3d272f2ade11f6edcd6ed01b3308f9079b8
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Configurare il supporto per le schede di contenuto in Mobile SDK {#content-card-lp}
+# Configurare il supporto delle schede di contenuto nell’SDK per dispositivi mobili {#content-card-lp}
 
 Le schede di contenuto possono essere recuperate da Adobe Journey Optimizer e sottoposte a rendering nell’app mobile mediante gli SDK di Adobe Experience Platform Mobile, che potenziano il coinvolgimento end-to-end nelle applicazioni mobili. Il SDK di messaggistica fornisce API semplici e facili da usare per recuperare le schede di contenuto create su Adobe Journey Optimizer e crea visualizzazioni mobile native per queste schede, che possono essere facilmente utilizzate dall&#39;app o personalizzate in base al tema dell&#39;app. Inoltre, tiene traccia automaticamente di tutte le interazioni dell’utente dell’app con le schede di contenuto visualizzate, per garantire un reporting accurato per le campagne su Journey Optimizer.
 

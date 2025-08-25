@@ -69,7 +69,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
      >[!AVAILABILITY]
      >
-     >Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
+     >Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
 
    * **[!UICONTROL Giornaliero]** - Il limite di frequenza giornaliero è valido per il giorno fino alle 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
    * **[!UICONTROL Settimanale]** - Il limite di frequenza è valido fino a sabato 23:59:59 UTC della settimana in cui inizia la settimana solare di domenica. La data di scadenza si applica indipendentemente da quando è stata creata la regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -26,7 +26,7 @@ Data
 
 `inLastHours(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

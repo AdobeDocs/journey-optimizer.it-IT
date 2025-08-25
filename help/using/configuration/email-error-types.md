@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Tipi di errore e-mail
+title: Tipi di errori e-mail
 description: Accedi all’elenco di tutti i possibili errori e-mail durante l’invio di consegne con Journey Optimizer.
 feature: Deliverability, Channel Configuration
 topic: Administration
@@ -10,15 +10,15 @@ level: Experienced
 keywords: nuovi tentativi, mancato recapito, morbido, ignorato, rigido, ottimizzatore, errore
 hide: true
 hidefromtoc: true
-source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
+exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
+source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-
-# Tipi di errore e-mail {#email-error-types}
+# Tipi di errori e-mail {#email-error-types}
 
 I possibili motivi di un errore di consegna sono molteplici. La tabella seguente descrive tutti gli errori che possono verificarsi durante l&#39;invio di consegne e-mail con [!DNL Journey Optimizer], insieme alla relativa descrizione e al tipo di errore.
 

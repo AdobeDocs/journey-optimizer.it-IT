@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -139,7 +139,7 @@ Dopo aver configurato la sperimentazione, puoi seguire il successo della consegn
 >* Canali in entrata (ad esempio, web, messaggi in-app, esperienza basata su codice) in qualsiasi percorso o campagna.
 >* Canali in uscita (ad esempio e-mail, notifica push, SMS) in campagne transazionali attivate da API.
 
-Il vincitore con la funzione Scala consente di distribuire automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta determinato il vincitore, sia possibile amplificarne la portata e l&#39;efficacia senza monitorare costantemente l&#39;esperimento.
+Per &quot;scalare il vincitore&quot; si intende presentare automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta determinato il vincitore, sia possibile amplificarne la portata e l&#39;efficacia senza monitorare costantemente l&#39;esperimento.
 
 Puoi scegliere tra due modalità:
 

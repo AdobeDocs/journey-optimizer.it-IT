@@ -57,7 +57,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
    >* **Eventi di impression** (offerte visualizzate)
    >* **Eventi di conversione** (offerte che generano clic via e-mail o web).
    >
-   >Questi eventi vengono acquisiti automaticamente utilizzando il Web SDK o il SDK mobile fornito. Per ulteriori informazioni, consulta [Panoramica di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it).
+   >Questi eventi vengono acquisiti automaticamente utilizzando il Web SDK o il SDK mobile fornito. Per ulteriori informazioni, consulta [Panoramica di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
 1. Seleziona i set di dati in cui vengono raccolti gli eventi di conversione e di impression. Scopri come creare questo set di dati in [questa sezione](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -87,7 +87,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Ogni volta che si visualizza e/o si fa clic su un&#39;offerta, si desidera che l&#39;evento corrispondente venga acquisito automaticamente dal gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=it#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} o Mobile SDK.
+Ogni volta che si visualizza e/o si fa clic su un&#39;offerta, si desidera che l&#39;evento corrispondente venga acquisito automaticamente dal gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} o Mobile SDK.
 
 Per poter inviare in tipi di evento (offerta visualizzata o offerta selezionata), è necessario impostare il valore corretto per ciascun tipo di evento in un evento esperienza inviato in Adobe Experience Platform. [Scopri come](../data-collection/schema-requirement.md)
 
@@ -95,4 +95,4 @@ Per poter inviare in tipi di evento (offerta visualizzata o offerta selezionata)
 
 Scopri come creare un modello di ottimizzazione personalizzato e come applicarlo a una decisione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445959?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Rapporto percorso {#journey-global-report}
 
-Il report **Percorso** funziona come un dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso. Questo include dettagli quali il conteggio dei profili inseriti e delle istanze di singoli percorsi non riusciti, offrendo una visione completa dell’efficacia e del livello di coinvolgimento del tuo percorso.
+Il report **Percorso** funziona come un dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso. Questo include dettagli quali il conteggio dei profili inseriti e delle istanze di singoli percorsi non riusciti, offrendo un’insight completa per l’efficacia e il livello di coinvolgimento del tuo percorso.
 
 È possibile accedere al report **Percorso** direttamente dal percorso con il pulsante **[!UICONTROL Visualizza report]**.
 
 ![](assets/gs-cja-report-3.png)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Panoramica del percorso {#journey-global}
 
@@ -33,7 +33,7 @@ Il report **[!UICONTROL Percorso]** fornisce una visualizzazione chiara dei dati
 
 ![](assets/cja-journey-kpis.png)
 
-Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) di **[!UICONTROL Percorso]** funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso. Questo include dettagli quali il conteggio del profilo inserito e delle istanze di singoli percorsi non riusciti, offrendo una visione completa dell’efficacia e del livello di coinvolgimento del percorso.
+Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) di **[!UICONTROL Percorso]** funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso. Questo include dettagli quali il conteggio del profilo inserito e delle istanze di singoli percorsi non riusciti, offrendo un’insight completa per l’efficacia e il livello di coinvolgimento del tuo percorso.
 
 +++ Ulteriori informazioni sulle metriche dei KPI di Percorso
 
@@ -85,7 +85,7 @@ Il widget **[!UICONTROL Errori azione]** descrive i diversi errori che si sono v
 
 ![](assets/cja-journey-canvas.png)
 
-Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Migliora la personalizzazione dell’area di lavoro con le seguenti opzioni:
 

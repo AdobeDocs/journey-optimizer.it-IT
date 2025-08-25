@@ -26,7 +26,7 @@ Elenco
 
 `filter(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

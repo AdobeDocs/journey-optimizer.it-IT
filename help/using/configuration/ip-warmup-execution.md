@@ -92,14 +92,14 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    1. Dalla sezione **[!UICONTROL Percorsi di esclusione dei profili]**, seleziona i percorsi con i tipi di pubblico che desideri escludere dalla fase corrente.
 
-+++ Per utilizzare l’opzione Percorsi per l’esclusione dei profili, è necessario stabilire una relazione tra gli schemi AJO Message Feedback Event e AJO Entity Record.
+      +++ Per utilizzare l’opzione Percorsi per l’esclusione dei profili, è necessario stabilire una relazione tra gli schemi AJO Message Feedback Event e AJO Entity Record.
 
       1. Crea un **Spazio dei nomi** personalizzato che fungerà da tipo di identità per i passaggi seguenti.
 
       1. Accedi a Adobe Experience Platform dal menu **Schemi**, seleziona il **Schema record entità di AJO**, imposta il campo **_id** come identità primaria e seleziona lo spazio dei nomi creato in precedenza come **Spazio dei nomi identità**.
 
       1. Dal menu **Schemi**, seleziona il **Schema evento di feedback dei messaggi di AJO** e passa al campo **_messageID**. Seleziona **Aggiungi relazione** e scegli **AJO Entity Record Schema** come **Schema di riferimento** e il namespace creato in precedenza come **Spazio dei nomi di riferimento Identità**.
-+++
+      +++
 
    1. Nella sezione **[!UICONTROL Profili di destinazione nelle esecuzioni precedenti]**, puoi vedere che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
 
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nella [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra accanto al nome del piano e utilizzare l&#39;elenco a discesa **[!UICONTROL Riprova runtime]** per selezionare una durata fino a 240 minuti (4 ore).
+1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nella [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra accanto al nome del piano e utilizzare l&#39;elenco a discesa **[!UICONTROL Riprova runtime]** per selezionare una durata fino a 240 minuti (4 ore).
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Per attivare un&#39;esecuzione, selezionare il pulsante **[!UICONTROL Attiva]**.
 
 Quando si eseguono più piani di riscaldamento IP simultaneamente, tutti rivolti agli stessi domini e pool IP, è fondamentale prevedere le potenziali conseguenze. Ad esempio, se un ISP applica un limite giornaliero di 100 e-mail, l’esecuzione di diversi piani destinati agli stessi domini potrebbe superare questa soglia.
 
-Assicurati di aver pianificato abbastanza tempo per consentire l&#39;esecuzione della [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#how-segmentation-works){target="_blank"}.
+Assicurati di aver pianificato abbastanza tempo per consentire l&#39;esecuzione della [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 

@@ -78,7 +78,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > contentTypes > MIME Media Type
++++_experience > decisioning > contentTypes > MIME Media Type
 
 **Titolo:** Tipo di file multimediale MIME
 **Descrizione:** un vincolo per il tipo di supporto dei componenti previsto in tale posizionamento. Potrebbero esistere più tipi di file multimediali possibili per un componente, ad esempio un formato immagine diverso.

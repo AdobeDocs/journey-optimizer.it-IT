@@ -26,7 +26,7 @@ Data
 
 `inNextYears(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Cercare un qualificatore di raccolta {#look-up-tag}
 
-È possibile cercare qualificatori di raccolta specifici (noti in precedenza come &quot;tag&quot;) effettuando una richiesta di GET all&#39;API [!DNL Offer Library] che include il qualificatore di raccolta `id` nel percorso della richiesta.
+È possibile cercare qualificatori di raccolta specifici (noti in precedenza come &quot;tag&quot;) effettuando una richiesta GET all&#39;API [!DNL Offer Library] che include il qualificatore di raccolta `id` nel percorso della richiesta.
 
 **Formato API**
 

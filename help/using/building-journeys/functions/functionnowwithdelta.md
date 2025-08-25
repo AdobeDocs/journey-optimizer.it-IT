@@ -26,7 +26,7 @@ Data
 
 `nowWithDelta(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |

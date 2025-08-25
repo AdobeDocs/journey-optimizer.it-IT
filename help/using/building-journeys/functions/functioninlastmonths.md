@@ -26,7 +26,7 @@ Data
 
 `inLastMonths(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

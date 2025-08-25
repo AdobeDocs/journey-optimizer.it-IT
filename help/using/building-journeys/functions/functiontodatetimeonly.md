@@ -26,7 +26,7 @@ Conversione
 
 `toDateTimeOnly(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

@@ -52,11 +52,11 @@ Per eventuali problemi o richieste di assistenza relativi alle traduzioni, conta
 
 Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
-* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Per iniziare a creare contenuti multilingue, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**. Per il flusso automatizzato, gli utenti avranno bisogno anche di autorizzazioni relative alle funzionalità di **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 
-+++ Scopri come assegnare autorizzazioni correlate multilingue
+  +++ Scopri come assegnare autorizzazioni correlate multilingue
 
    1. Nel prodotto **Autorizzazioni**, passa alla scheda **Ruoli** e seleziona il **Ruolo** desiderato.
 
@@ -76,11 +76,11 @@ Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
    1. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-+++
+  +++
 
 * Se non riesci ad accedere alla pagina di traduzione, devi abilitare la funzione di traduzione e ricevere **[!UICONTROL le autorizzazioni relative al servizio di traduzione]**. [Ulteriori informazioni](../administration/ootb-permissions.md)
 
-+++ Scopri come abilitare la funzione di traduzione
+  +++ Scopri come abilitare la funzione di traduzione
 
    1. Se viene visualizzata la pagina di errore seguente, significa che la funzionalità **[!UICONTROL Traduzione]** non è ancora stata abilitata. Per richiedere l’accesso, contatta l’amministratore della tua organizzazione e della sandbox.
 
@@ -94,10 +94,10 @@ Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
    1. Se questa procedura non è riuscita, verrà comunque visualizzata la stessa pagina di errore. In tal caso, contatta il rappresentante Adobe per ulteriore assistenza.
 
-+++
+  +++
 
 ## Video dimostrativo {#video}
 
 Scopri come creare contenuti in più lingue all’interno di una singola campagna o percorso.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452121?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

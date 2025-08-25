@@ -26,7 +26,7 @@ Aggregazione
 
 `max(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 * listDuration
 * listInteger

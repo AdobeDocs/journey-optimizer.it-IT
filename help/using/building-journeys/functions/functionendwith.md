@@ -26,7 +26,7 @@ Stringa
 
 `endWith(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

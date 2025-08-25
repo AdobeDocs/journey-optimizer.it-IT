@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminare un’offerta personalizzata {#delete-personalized-offer}
 
-Occasionalmente può essere necessario rimuovere (DELETE) un’offerta personalizzata. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID dell&#39;offerta personalizzata che si desidera eliminare.
+A volte può essere necessario rimuovere (DELETE) un’offerta personalizzata. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID dell&#39;offerta personalizzata che si desidera eliminare.
 
 **Formato API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) a personalized-offer e riceverai uno stato HTTP 404 (Non trovato) perché l’offerta personalizzata è stata rimossa.
+Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) a personalized-offer. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché l’offerta personalizzata è stata rimossa.

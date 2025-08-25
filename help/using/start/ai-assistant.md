@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’Assistente AI
-description: Scopri come sfruttare l’Assistente AI
+title: Utilizzare l’Assistente IA
+description: Scopri come sfruttare l’Assistente IA
 feature: Overview
 topic: Content Management
 role: User
@@ -11,22 +11,22 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 24%
+ht-degree: 47%
 
 ---
 
-# Utilizzare l’Assistente AI {#ai-assistant}
+# Utilizzare l’Assistente IA {#ai-assistant}
 
 Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
-Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra dello schermo.
+Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra della schermata.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->Prima di poter utilizzare l’Assistente all’intelligenza artificiale, devi accettare le linee guida per l’utente di Adobe Experience Cloud Generative AI. Ulteriori informazioni sul contratto in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Prima di poter utilizzare l’Assistente IA, devi accettare le linee guida per l’utente sull’intelligenza artificiale generativa di Adobe Experience Cloud. Per ulteriori informazioni sull’accordo consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
@@ -62,4 +62,4 @@ Controlla la risposta e utilizza il pulsante **Mostra origini** per ottenere col
 
 Utilizza il pollice verso l’alto o verso il basso per valutare la risposta.
 
-Per informazioni su come utilizzare l&#39;Assistente AI, vedi gli obiettivi di esempio che puoi raggiungere con l&#39;Assistente AI e come funziona l&#39;Assistente AI, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Per scoprire come utilizzare l’Assistente IA, rivedi gli obiettivi di esempio che puoi raggiungere con l’Assistente IA e scopri come funziona, consultando la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.

@@ -27,7 +27,7 @@ Aggregazione
 
 `avg(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 Tipi supportati:
 

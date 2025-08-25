@@ -11,7 +11,7 @@ keywords: offerte, decisione, e-mail, personalizzazione, decisione
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
 Ulteriori informazioni sui passaggi dettagliati per controllare l&#39;anteprima dei messaggi in [questa sezione](#preview-your-messages).
 
-## Video introduttivo{#video-offers}
+## Video dimostrativo{#video-offers}
 
 Scopri come aggiungere un componente di gestione delle decisioni ai messaggi in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415689?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

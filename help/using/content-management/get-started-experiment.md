@@ -11,8 +11,8 @@ keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 99%
+source-wordcount: '2002'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Gli esperimenti contenuti consentono di ottimizzare il contenuto per le azioni n
 
 Gli esperimenti sono un set di test randomizzati, che nel contesto dei test online, significa che alcuni utenti selezionati in modo casuale sono esposti a una determinata variazione di un messaggio e un altro set selezionato in modo casuale di utenti a un altro trattamento. Dopo aver inviato il messaggio, puoi quindi misurare le metriche del risultato che ti interessano, ad esempio aperture di e-mail o clic.
 
-➡️ In [questa sezione](../experience-decisioning/experience-decisioning-uc.md) è presentato un caso d’uso end-to-end che mostra come utilizzare gli esperimenti di contenuto per confrontare le decisioni con il canale di esperienza basato su codice.
+➡️ In [questa sezione](../experience-decisioning/experience-decisioning-uc.md) è presentato un caso d’uso end-to-end che mostra come utilizzare gli esperimenti di contenuto per confrontare le decisioni con il canale di esperienza basata su codice.
 
 ## Perché eseguire gli esperimenti?
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer utilizza quindi metodi statistici “sempre validi” av
 
 Quando esegui gli esperimenti, è importante seguire alcune best practice. Di seguito sono riportati alcuni suggerimenti per l’esecuzione di questi esperimenti:
 
-+++Isolare le variabili che si stanno tentando di testare
++++Isolare le variabili che stai tentando di testare
 
 Formulare alcune ipotesi che si intende testare e limitare questa ipotesi al minor numero possibile di modifiche per determinare cosa ha avuto un impatto sulla consegna.
 
@@ -89,11 +89,11 @@ Determina la metrica di cui desideri eseguire il targeting e se le modifiche app
 Ad esempio, è improbabile che la modifica del contenuto del corpo del messaggio influisca sui tassi di apertura delle e-mail.
 +++
 
-+++Esegui il test sulla dimensione corretta del pubblico o per un periodo di tempo sufficiente
++++Esegui il test sulla giusta dimensione di pubblico o per un periodo di tempo sufficiente
 
 Se esegui i test per più tempo, sarai in grado di rilevare differenze minori nella metrica di obiettivo tra i trattamenti. Tuttavia, se il valore della linea di base della metrica di obiettivo è piccolo, avrai bisogno di dimensioni di campione più grandi.
-Il numero di utenti da includere nell’esperimento dipende dalle dimensioni dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica di obiettivo, nonché dalla tolleranza di errori falsi positivi e falsi negativi. Negli esperimenti classici, puoi utilizzare un [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare per quanto tempo è necessario eseguire il test.
-+++
+Il numero di utenti da includere nell’esperimento dipende dalle dimensioni dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica di obiettivo, nonché dalla tolleranza di errori falsi positivi e falsi negativi. In esperimenti classici, puoi utilizzare un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare quanto tempo devi eseguire il test.
++++ 
 
 +++Comprendere l’incertezza statistica
 
@@ -101,7 +101,7 @@ Se esegui un esperimento in cui 1000 utenti hanno visto un solo trattamento e il
 I metodi statistici ci danno un modo per formalizzare questa incertezza. Uno dei concetti più importanti da comprendere durante l’esecuzione di esperimenti online, è che i tassi di conversione osservati sono coerenti con un intervallo di tassi di conversione reali sottostanti, il che significa che devi attendere che tali stime siano abbastanza precise, prima di tentare di trarre una conclusione. Gli intervalli di affidabilità e l’affidabilità stessa ci aiutano a quantificare questa incertezza.
 +++
 
-+++Forma nuove ipotesi ed esegui test in modo continuo
++++Formulare nuove ipotesi e testare in modo continuo
 
 Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento. Al contrario, segui gli esperimenti formulando nuove ipotesi ed eseguendo nuovi test con modifiche diverse su tipi di pubblico diversi ed esaminando l’impatto sulle diverse metriche.
 +++
@@ -123,13 +123,13 @@ Si noti che una descrizione completa dei risultati dovrebbe considerare tutte le
 
 Per comprendere i calcoli statistici, fare riferimento a questa [pagina](../content-management/experiment-calculations.md).
 
-### 1. Confrontare le metriche normalizzate {#normalized-metrics}
+### &#x200B;1. Confrontare le metriche normalizzate {#normalized-metrics}
 
 Quando confronti le prestazioni di due trattamenti, confronta sempre le metriche normalizzate per tenere conto di eventuali differenze nel numero di profili esposti a ciascun trattamento.
 
 Ad esempio, se l’obiettivo dell’esperimento è impostato su **[!UICONTROL Aperture univoche]** e un dato trattamento è stato mostrato a 10.000 profili con 200 aperture univoche registrate, questo rappresenta un **[!UICONTROL tasso di conversione]** del 2%. Per le metriche non univoche, ad esempio la metrica delle aperture, la metrica normalizzata viene visualizzata come **[!UICONTROL Conteggio per profilo]**, mentre per le metriche continue come Totale prezzo, la metrica normalizzata viene visualizzata come **[!UICONTROL Totale per profilo]**.
 
-### 2. Concentrarsi sugli intervalli di affidabilità {#confidence-intervals}
+### &#x200B;2. Concentrarsi sugli intervalli di affidabilità {#confidence-intervals}
 
 Quando esegui esperimenti su campioni dei profili, il tasso di conversione osservato per un dato trattamento rappresenta una stima del tasso di conversione reale sottostante.
 
@@ -141,17 +141,17 @@ Se gli intervalli di affidabilità per due trattamenti si sovrappongono appena, 
 
 Adobe utilizza il 95% di Intervalli di affidabilità validi in ogni momento o Sequenze di affidabilità, il che significa che i risultati possono essere visualizzati in modo sicuro in qualsiasi momento durante l’esperimento.
 
-### 3. Comprendere l’incremento {#understand-lift}
+### &#x200B;3. Comprendere l’incremento {#understand-lift}
 
 Il riepilogo del rapporto Esperimento mostra l’**[!UICONTROL Incremento rispetto alla linea di base]**, che è una misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto alla linea di base. Più precisamente, rappresenta la differenza di prestazioni tra un determinato trattamento e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
-### 3. Comprendere l’affidabilità {#understand-confidence}
+### &#x200B;3. Comprendere l’affidabilità {#understand-confidence}
 
 Mentre dovresti concentrarti principalmente sull’**[!UICONTROL Intervallo di affidabilità]** per le prestazioni di ciascun trattamento, Adobe mostra anche l’affidabilità, che è una misura probabilistica di quanta evidenza vi sia che un dato trattamento sia uguale al trattamento della linea di base. Una maggiore affidabilità indica meno prove dell’ipotesi che i trattamenti della linea di base e non abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata rappresenta la probabilità (espressa in percentuale) di osservare una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non vi è alcuna differenza negli effettivi tassi di conversione sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
 
 In Adobe viene utilizzata l’affidabilità “valida in ogni momento” e i valori p “validi in ogni momento” coerenti con le sequenze di affidabilità descritte in precedenza.
 
-### 4. Rilevanza statistica
+### &#x200B;4. Rilevanza statistica
 
 Durante l’esecuzione di Esperimenti, un risultato è considerato statisticamente significativo se era molto improbabile che fosse osservato data un’ipotesi nulla che un dato trattamento e la linea di base hanno lo stesso tasso di conversione/prestazioni sottostanti.
 

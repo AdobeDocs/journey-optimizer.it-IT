@@ -17,7 +17,7 @@ ht-degree: 11%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Per creare un&#39;offerta personalizzata, devi eseguire una richiesta POST all&#39;API [!DNL Offer Library] e fornire il tuo ID contenitore.
+Per creare un&#39;offerta personalizzata, è possibile effettuare una richiesta POST all&#39;API [!DNL Offer Library] fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 

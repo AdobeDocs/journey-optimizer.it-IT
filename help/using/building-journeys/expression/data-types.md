@@ -10,8 +10,8 @@ keywords: espressione, dati, tipo di dati, percorso
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 5%
 
 ---
 
@@ -165,7 +165,7 @@ Può essere incapsulato in una funzione toDateTimeOnly.
 
 Formato di serializzazione: formato data/ora offset esteso ISO-8601.
 
-Utilizza DateTimeFormatter ISO_LOCAL_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+Utilizza DateTimeFormatter ISO_LOCAL_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
 
 **Rappresentazione letterale**
 

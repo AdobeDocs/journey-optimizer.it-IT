@@ -1,6 +1,6 @@
 ---
 title: Creare applicazioni a pagina singola
-description: Scopri come creare SPA e applicare modifiche a diverse visualizzazioni in Journey Optimizer
+description: Scopri come creare applicazioni a pagina singola e applicare modifiche a diverse visualizzazioni in Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
@@ -29,17 +29,17 @@ ht-degree: 18%
 
 Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento.
 
-È necessaria la configurazione per sviluppatori una tantum per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK. Questo consente di creare ed eseguire campagne web Adobe Journey Optimizer sull’SPA.
+Per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK è necessaria la configurazione per sviluppatori una tantum. Questo consente di creare ed eseguire campagne web Adobe Journey Optimizer sulle applicazioni a pagina singola.
 
-## Definire le viste nell’implementazione dell’SDK web {#define-views}
+## Definire le visualizzazioni nell’implementazione di Web SDK {#define-views}
 
-Le visualizzazioni XDM possono essere utilizzate in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione Web sull&#39;SPA tramite l&#39;editor visivo Web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+Le visualizzazioni XDM possono essere utilizzate in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione web sulle applicazioni a pagina singola tramite l&#39;editor visivo web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 
-Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it#implement-xdm-views){target="_blank"}.
+Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente di [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Scopri le visualizzazioni nel web designer {#discover-views}
 
-Una volta completata la configurazione dell’SPA nell’implementazione di Adobe Experience Platform Web SDK, è necessario navigare tra tutte le visualizzazioni del sito web a cui desideri applicare le modifiche. Segui i passaggi seguenti.
+Una volta effettuata la configurazione delle applicazioni a pagina singola nell’implementazione di Adobe Experience Platform Web SDK, è necessario spostarsi tra tutte le visualizzazioni del sito web a cui si desidera applicare le modifiche. Segui i passaggi seguenti.
 
 1. [Crea un percorso Web o una campagna](create-web.md) e accedi al [Web Designer](web-visual-editor.md).
 
@@ -81,7 +81,7 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 
    ![](assets/web-designer-modifications-applied-view.png)
 
-## Video introduttivo{#video}
+## Video dimostrativo{#video}
 
 Questo video spiega come:
 
@@ -90,4 +90,4 @@ Questo video spiega come:
 * Applicare le modifiche al sito web per più viste o tutte le viste individuate
 * Eseguire azioni in blocco sulle modifiche
 
->[!VIDEO](https://video.tv.adobe.com/v/3446893/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

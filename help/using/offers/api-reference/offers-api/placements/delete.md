@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminare un posizionamento {#delete-placement}
 
-Occasionalmente può essere necessario rimuovere (DELETE) un posizionamento. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID del posizionamento che si desidera eliminare.
+A volte può essere necessario rimuovere (DELETE) un posizionamento. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID del posizionamento che si desidera eliminare.
 
 **Formato API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) al posizionamento e riceverai lo stato HTTP 404 (Non trovato) perché il posizionamento è stato rimosso.
+Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) al posizionamento; in caso contrario, riceverai lo stato HTTP 404 (Non trovato) perché il posizionamento è stato rimosso.

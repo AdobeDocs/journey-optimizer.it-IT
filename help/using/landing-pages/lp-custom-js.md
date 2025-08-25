@@ -24,7 +24,7 @@ Puoi definire il contenuto della pagina di destinazione utilizzando un JavaScrip
 
 Per inserire un JavaScript personalizzato nel contenuto della pagina di destinazione, puoi effettuare le seguenti operazioni:
 
-* Importa il contenuto HTML esistente quando inizi a creare il contenuto e seleziona il file che include il codice JavaScript personalizzato. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
+* Importa il contenuto HTML esistente all’inizio della creazione del contenuto e seleziona il file che include il codice JavaScript personalizzato. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
 
 * Progetta la pagina di destinazione da zero o da un modello salvato. Trascina e rilascia il componente di contenuto **[!UICONTROL HTML]** nell&#39;area di lavoro e mostra il codice sorgente per aggiungere il JavaScript al componente. Scopri come utilizzare il componente HTML in [questa sezione](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 

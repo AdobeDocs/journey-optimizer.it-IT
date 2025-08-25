@@ -26,7 +26,7 @@ Operazioni matematiche
 
 `round(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * decimale
 * intero

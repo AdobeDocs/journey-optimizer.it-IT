@@ -26,7 +26,7 @@ Stringa
 
 `startWith(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-------------|--------|

@@ -5,19 +5,19 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+exl-id: be0f683d-1d39-47f6-b565-1cc7ee06ee71
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 4%
+source-wordcount: '207'
+ht-degree: 5%
 
 ---
-
 
 # Elencare strategie di selezione {#list-selection-strategies}
 
 Una strategia di selezione è costituita da una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un [criterio di decisione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
 
-Per visualizzare un elenco di tutte le strategie di selezione, esegui una singola richiesta di GET all’API Libreria di offerte.
+Per visualizzare un elenco di tutte le strategie di selezione, esegui una singola richiesta GET all’API Libreria di offerte.
 
 **Formato API**
 
@@ -40,7 +40,7 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `property` | Un filtro proprietà facoltativo: <ul><li>Le proprietà sono raggruppate per operazione AND.</li><li>I parametri possono essere ripetuti come segue: proprietà={PROPERTY_EXPR}[&amp;proprietà={PROPERTY_EXPR2}...] o proprietà={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Le espressioni di proprietà sono in formato `[ !]field[op]value`, con `op` in `[==,!=,<=,>=,<,>,~]`, che supportano espressioni regolari.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtro proprietà facoltativo: <ul><li>Le proprietà sono raggruppate per operazione AND.</li><li>I parametri possono essere ripetuti come segue: proprietà={PROPERTY_EXPR}[&amp;proprietà={PROPERTY_EXPR2}...] o proprietà={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Le espressioni di proprietà sono in formato `[!]field[op]value`, con `op` in `[==,!=,<=,>=,<,>,~]`, che supportano espressioni regolari.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un segno - prima del nome (orderby=-name), gli elementi verranno ordinati in base al nome in ordine decrescente (Z-A). Le espressioni di percorso sono sotto forma di percorsi separati da punti. Questo parametro può essere ripetuto come segue: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limita il numero di entità restituite. | `limit=5` |
 

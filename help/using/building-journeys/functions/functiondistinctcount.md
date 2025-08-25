@@ -26,7 +26,7 @@ Aggregazione
 
 `distinctCount(<listAny>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

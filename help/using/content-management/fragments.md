@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 13%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ Per utilizzare al meglio i frammenti:
 
 ## Prima di iniziare {#fragment-prerequisites}
 
-Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo del prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 In questa versione si applicano le seguenti limitazioni:
 
@@ -64,4 +64,4 @@ Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey O
 
 Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438925/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

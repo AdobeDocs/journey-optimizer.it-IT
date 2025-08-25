@@ -26,7 +26,7 @@ Stringa
 
 `equalIgnoreCase(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * stringa
 

@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori diversi, restituendo di conseguenza true o false.
 
-### Uguale a{#equals}
+### È uguale a{#equals}
 
 La funzione `=` (è uguale a) controlla se un valore o un&#39;espressione è uguale a un altro valore o espressione.
 

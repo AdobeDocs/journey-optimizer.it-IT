@@ -66,7 +66,7 @@ Il conteggio dei profili per un nodo viene aggiornato solo dopo che il profilo h
 
 ![](assets/journey_live_statistics.png)
 
-Le **[!UICONTROL Statistiche Percorso]** Indicatori prestazioni chiave (KPI, Key Performance Indicators) funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso nelle ultime 24 ore. Questo include dettagli quali il conteggio dei profili inseriti e delle istanze di singoli percorsi non riusciti, offrendo una visione completa dell’efficacia e del livello di coinvolgimento del tuo percorso.
+Le **[!UICONTROL Statistiche Percorso]** Indicatori prestazioni chiave (KPI, Key Performance Indicators) funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso nelle ultime 24 ore. Questo include dettagli quali il conteggio dei profili inseriti e delle istanze di singoli percorsi non riusciti, offrendo un’insight completa per l’efficacia e il livello di coinvolgimento del tuo percorso.
 
 +++ Ulteriori informazioni sulle metriche delle statistiche del Percorso
 

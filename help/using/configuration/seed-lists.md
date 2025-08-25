@@ -32,17 +32,17 @@ Gli indirizzi di seed non sono profili reali né profili di test in quanto non i
 
   Ad esempio:
 
-+++ Se sei un responsabile marketing:
+  +++ Se sei un responsabile marketing:
 
   Si desidera che tutti i membri del gruppo ricevano copie dei messaggi inviati contemporaneamente ai clienti. In questo modo il tuo team può garantire che i messaggi vengano inviati con il layout previsto, gli URL attivi, il testo e le immagini corretti, come pianificato prima dell’esecuzione.
 
-+++
+  +++
 
-+++ Se sei il proprietario di un prodotto:
+  +++ Se sei il proprietario di un prodotto:
 
   È necessario tenere traccia dei messaggi effettivi inviati ai clienti. Infatti, il tuo team e la tua leadership potrebbero essere interessati ad alcune campagne e dovranno essere aggiunti dati ad hoc per ricevere copie del messaggio al momento della consegna.
 
-+++
+  +++
 
 * Un altro motivo per utilizzare gli elenchi di seed è la protezione della mailing list. L’inserimento di indirizzi di seed nella mailing list ti consente di notare se è utilizzato da una terza parte, in quanto gli indirizzi di seed in esso contenuti riceveranno le consegne inviate alla mailing list.
 
@@ -122,7 +122,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile combinare entrambe le opzioni, ma il numero totale di indirizzi in un elenco di seed non può superare i 300.
 
-1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [&#128279;](#access-seed-lists).
+1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [](#access-seed-lists).
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 

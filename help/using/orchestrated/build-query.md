@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Per aggiungere condizioni nella query, segui questi passaggi:
 
 1. Fai clic sul pulsante ![ immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
-+++ Distribuzione dei valori
+   +++ Distribuzione dei valori
 
    Analizza la distribuzione dei valori per un determinato attributo all’interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
 
@@ -50,9 +50,9 @@ Per aggiungere condizioni nella query, segui questi passaggi:
 
    ![immagine che mostra l’interfaccia Distribuzione dei valori](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ Aggiungere ai preferiti
+   +++ Aggiungere ai preferiti
 
    L’aggiunta di attributi al menu dei preferiti consente di accedere rapidamente agli attributi utilizzati con maggiore frequenza. Puoi aggiungere fino a 20 attributi preferiti. Gli attributi preferiti e recenti sono associati a ogni utente all’interno di un’organizzazione, garantendo l’accessibilità tra computer diversi e fornendo un’esperienza fluida tra i dispositivi.
 
@@ -60,7 +60,7 @@ Per aggiungere condizioni nella query, segui questi passaggi:
 
    ![immagine che mostra l’interfaccia dei preferiti](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. Fai clic su **[!UICONTROL Conferma]** per aggiungere l’attributo selezionato alla condizione.
 
@@ -127,13 +127,13 @@ Di seguito è riportato un esempio di query in cui è stato selezionato direttam
 
 ![Schermata della tabella Brand](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 Per un **collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell’esempio seguente.
 
 +++Esempio di query
 
-In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
+In questo caso, la query ha come targeting destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
 
 1. Seleziona la tabella **Acquisti** e conferma.
 
@@ -145,7 +145,7 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
    ![Schermata della tabella Acquisti](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### Condizioni personalizzate con dati aggregati {#aggregate}
 

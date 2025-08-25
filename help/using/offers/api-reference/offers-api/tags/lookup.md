@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Cercare un qualificatore di raccolta {#look-up-tag}
 
-Per cercare qualificatori di raccolta specifici (noti in precedenza come &quot;tag&quot;), devi effettuare una richiesta di GET all’API della Libreria di offerte che includa l’ID qualificatore della raccolta nel percorso della richiesta.
+Per cercare qualificatori di raccolta specifici (noti in precedenza come &quot;tag&quot;), devi effettuare una richiesta GET all’API della Libreria di offerte che includa l’ID qualificatore della raccolta nel percorso della richiesta.
 
 **Formato API**
 

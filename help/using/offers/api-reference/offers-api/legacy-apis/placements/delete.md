@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminare un posizionamento {#delete-placement}
 
-Occasionalmente può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID istanza del posizionamento che si desidera eliminare.
+A volte può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID istanza del posizionamento che si desidera eliminare.
 
 **Formato API**
 

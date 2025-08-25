@@ -34,7 +34,7 @@ Puoi creare due tipi di set di regole:
 * I set di regole **Canale** applicano regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 * I set di regole **Percorso** applicano a un percorso le regole dei limiti di concorrenza e di immissione. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ### Autorizzazioni {#permissions-frequency-rules}
 
@@ -164,4 +164,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

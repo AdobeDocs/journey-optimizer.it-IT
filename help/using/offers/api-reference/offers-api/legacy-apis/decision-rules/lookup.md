@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 4%
 
 ---
 
 # Cercare una regola di decisione {#lookup-decision-rule}
 
-Per cercare una regola di decisione specifica, effettuare una richiesta di GET all&#39;API [!DNL Offer Library] che includa la regola di decisione `@id` o il nome della regola di decisione nel percorso della richiesta.
+Per cercare una regola di decisione specifica, eseguire una richiesta GET all&#39;API [!DNL Offer Library] che includa la regola di decisione `@id` o il nome della regola di decisione nel percorso della richiesta.
 
 **Formato API**
 

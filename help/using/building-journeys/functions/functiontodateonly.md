@@ -26,7 +26,7 @@ Conversione
 
 `toDateOnly(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

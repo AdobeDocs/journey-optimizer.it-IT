@@ -39,7 +39,7 @@ Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi d
 >
 >Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con flussi di lavoro di composizione, accertati che vengano aggiunti a un gruppo di campi nel Data Source di &quot;Experience Platform&quot;.
 >
->+++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi>
+>+++ Scopri come aggiungere attributi di arricchimento a un gruppo di campi
 >
 >1. Passa a &quot;Amministrazione&quot; > &quot;Configurazione&quot; > &quot;Origini dati&quot;.
 >1. Seleziona &quot;Experience Platform&quot; e crea o modifica un gruppo di campi.

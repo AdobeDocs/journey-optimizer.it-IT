@@ -217,7 +217,7 @@ Di seguito sono riportati alcuni esempi che illustrano come utilizzare i dati co
 
 +++
 
-+++Aumento del tempo
++++Incremento meteo
 
 >[!BEGINTABS]
 

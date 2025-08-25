@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * Installa l&#39;estensione **Adobe Experience Platform Web SDK** nelle **proprietà tag** e abilita l&#39;opzione **Personalization Storage**.
 
-  Questa configurazione è essenziale per l’archiviazione della cronologia degli eventi sul client, un prerequisito per l’implementazione delle Regole di frequenza nel Generatore di regole. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it)
+  Questa configurazione è essenziale per l’archiviazione della cronologia degli eventi sul client, un prerequisito per l’implementazione delle Regole di frequenza nel Generatore di regole. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. Salva la configurazione di **Azione** facendo clic su **Mantieni modifiche**.
 
-1. Passare al menu **Flusso di pubblicazione**. Crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=it#create-a-library)
+1. Passare al menu **Flusso di pubblicazione**. Crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
 
 1. Dalla **libreria**, seleziona **Salva e genera in sviluppo**.
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. Nella sezione **Contesto decisionale**, definisci le coppie **Chiave** e **Valore** che determinano l&#39;esperienza da consegnare.
 
-1. Accedi al menu **Flusso di pubblicazione**, crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=it#create-a-library)
+1. Accedi al menu **Flusso di pubblicazione**, crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
 
 1. Dalla **libreria**, seleziona **Salva e genera in sviluppo**.
 
@@ -134,7 +134,7 @@ ht-degree: 3%
 
    * Puoi creare una regola per eseguire il targeting di più URL che seguono lo stesso pattern.
 
-+++ Come creare una regola di corrispondenza Pagine.
+     +++ Come creare una regola di corrispondenza Pagine.
 
       1. Seleziona **[!UICONTROL Regola di corrispondenza pagine]** come configurazione app e immetti il tuo **[!UICONTROL URL pagina]**.
 
@@ -151,7 +151,7 @@ ht-degree: 3%
 
       1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
 
-+++
+     +++
 
 1. Invia la configurazione Web in-app.
 

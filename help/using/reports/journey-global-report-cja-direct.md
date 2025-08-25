@@ -29,7 +29,7 @@ Puoi accedere al report del percorso di direct mailing facendo clic sul pulsante
 
 ![](assets/cja-direct-sending-stat.png)
 
-La tabella **[!UICONTROL Statistiche di invio]** fornisce informazioni approfondite sulle prestazioni dei percorsi di direct mailing. Puoi visualizzare metriche chiave quali il numero di destinatari target e i pezzi consegnati correttamente, per misurare la portata e l’efficacia delle tue e-mail.
+La tabella **[!UICONTROL Statistiche di invio]** fornisce un insight delle prestazioni dei percorsi di direct mailing. Puoi visualizzare metriche chiave quali il numero di destinatari target e i pezzi consegnati correttamente, per misurare la portata e l’efficacia delle tue e-mail.
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
@@ -69,7 +69,7 @@ La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori
 
 ## Motivi di esclusione {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 La tabella **[!UICONTROL Escludi motivi]** mostra visivamente i diversi fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing.
 

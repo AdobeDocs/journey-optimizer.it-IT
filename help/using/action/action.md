@@ -49,4 +49,4 @@ Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in qu
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

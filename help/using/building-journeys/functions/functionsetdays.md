@@ -26,7 +26,7 @@ Data
 
 `setDays(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |--- |--- |

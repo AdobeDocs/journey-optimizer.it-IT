@@ -69,8 +69,8 @@ Gli ID mittente alfanumerico sono solo per la messaggistica unidirezionale e non
 
 * Il video seguente spiega come configurare il doppio consenso per gli SMS.
 
-+++ Guarda il video
+  +++ Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440287/?learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

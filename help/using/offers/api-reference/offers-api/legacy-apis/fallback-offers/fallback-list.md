@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '282'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte. I passaggi per creare un’offerta di fallback consistono nella creazione di una o più rappresentazioni, come quando crei un’offerta.
 
-È possibile visualizzare un elenco di tutte le offerte di fallback all&#39;interno di un contenitore eseguendo una singola richiesta di GET all&#39;API [!DNL Offer Library].
+È possibile visualizzare un elenco di tutte le offerte di fallback all&#39;interno di un contenitore eseguendo una singola richiesta GET all&#39;API [!DNL Offer Library].
 
 **Formato API**
 

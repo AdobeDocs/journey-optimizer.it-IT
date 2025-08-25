@@ -26,7 +26,7 @@ Data
 
 `inNextMonths(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

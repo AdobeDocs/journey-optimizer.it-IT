@@ -26,7 +26,7 @@ Stringa
 
 `contain(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * stringa
 

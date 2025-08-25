@@ -26,7 +26,7 @@ Conversione
 
 `toDuration(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |

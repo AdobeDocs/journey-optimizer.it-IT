@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -68,4 +68,4 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

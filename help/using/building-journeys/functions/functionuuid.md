@@ -26,7 +26,7 @@ Stringa
 
 `uuid()`
 
-## Elemento “parameters”
+## Parametri
 
 Questa funzione non richiede parametri.
 

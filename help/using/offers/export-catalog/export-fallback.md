@@ -71,7 +71,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > decisioni > contenuti > componenti
++++_experience > decisioning > contenuti > componenti
 
 **Campo:** componenti
 **Descrizione:** i componenti del contenuto che rappresentano l&#39;opzione di decisione, incluse tutte le relative varianti di lingua. Componenti specifici trovati da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una loro combinazione. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
@@ -168,7 +168,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Descrizione:** posizionamento da rispettare. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** stringa
 
-+++
++++ 
 
 +++ _experience > decisioning > Stato del ciclo di vita
 

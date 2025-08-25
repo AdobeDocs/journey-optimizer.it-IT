@@ -26,7 +26,7 @@ Stringa
 
 `isEmpty(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * stringa
 

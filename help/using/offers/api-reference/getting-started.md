@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 76%
 
 ---
 
@@ -27,24 +27,24 @@ ht-degree: 100%
 
 Questa guida per sviluppatori descrive i passaggi per iniziare a utilizzare l’API di [!DNL Offer Library]. La guida fornisce quindi esempi di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.
 
-➡️ [Per ulteriori informazioni sui componenti di Gestione delle decisioni, guarda questo video](#video)
+➡️ [Ulteriori informazioni sui componenti di Gestione delle decisioni in questo video](#video)
 
 ## Prerequisiti {#prerequisites}
 
 Questa guida richiede una buona conoscenza dei seguenti componenti di Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}: framework standardizzato per l’organizzazione dei dati sull’esperienza del cliente in [!DNL Experience Platform].
-   * [Nozioni di base sulla composizione degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: scopri gli elementi di base degli schemi XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}: framework standardizzato tramite il quale [!DNL Experience Platform] organizza i dati sull&#39;esperienza del cliente.
+   * [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: scopri i blocchi predefiniti di base degli schemi XDM.
 * [Gestione delle decisioni](../../../using/offers/get-started/starting-offer-decisioning.md): illustra i concetti e i componenti utilizzati per la funzione Decisioni in generale e per la gestione delle decisioni in particolare. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=it){target="_blank"}: PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole di decisione.
 
 ## Lettura delle chiamate API di esempio {#reading-sample-api-calls}
 
-Questa guida fornisce esempi di chiamate API per illustrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richieste formattati correttamente. Viene inoltre fornito un codice JSON di esempio restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione su [come leggere gli esempi di chiamate API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=it#how-do-i-format-an-api-request){target="_blank"} nella guida alla risoluzione dei problemi.di [!DNL Experience Platform].
+Questa guida fornisce esempi di chiamate API per illustrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richieste formattati correttamente. Viene inoltre fornito un codice JSON di esempio restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione su [come leggere chiamate API di esempio](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=it#how-do-i-format-an-api-request){target="_blank"} nella guida alla risoluzione dei problemi di [!DNL Experience Platform].
 
 ## Raccogliere i valori per le intestazioni richieste {#gather-values-for-required-headers}
 
-Per effettuare chiamate alle API di [!DNL Adobe Experience Platform], devi prima completare il [tutorial sull’autenticazione](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=it){target="_blank"}. Completando il tutorial sull’autenticazione si ottengono i valori per ciascuna delle intestazioni richieste in tutte le chiamate API di [!DNL Experience Platform], come mostrato di seguito:
+Per effettuare chiamate alle API [!DNL Adobe Experience Platform], devi prima completare l&#39;[esercitazione di autenticazione](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=it){target="_blank"}. Completando il tutorial sull’autenticazione si ottengono i valori per ciascuna delle intestazioni richieste in tutte le chiamate API di [!DNL Experience Platform], come mostrato di seguito:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -68,5 +68,5 @@ Questo documento tratta le conoscenze preliminari necessarie per effettuare chia
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830?quality=12&captions=ita) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

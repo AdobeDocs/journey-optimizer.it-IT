@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '151'
 ht-degree: 4%
 
 ---
 
 # Cercare una decisione {#look-up-decision}
 
-Per cercare decisioni specifiche, è possibile effettuare una richiesta di GET all&#39;API [!DNL Offer Library] che includa le decisioni `@id` o il nome della decisione nel percorso della richiesta.
+È possibile cercare decisioni specifiche effettuando una richiesta GET all&#39;API [!DNL Offer Library] che includa le decisioni `@id` o il nome della decisione nel percorso della richiesta.
 
 **Formato API**
 

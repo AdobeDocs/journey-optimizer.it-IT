@@ -87,7 +87,7 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    +++
 
-   +++Giornaliero
+   +++Giornaliera
 
    Esegui la campagna ogni giorno o nei giorni selezionati.
 

@@ -28,7 +28,7 @@ Aggregazione
 
 `count(<listObject>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

@@ -10,7 +10,7 @@ exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    ![](assets/sms-surface-settings.png)
 
-   Inizia selezionando il tipo di SMS **[!UICONTROL 1&rbrace; che verrà inviato con la configurazione:**&#x200B;[!UICONTROL &#x200B; Transazionale &#x200B;]&#x200B;**o**&#x200B;[!UICONTROL &#x200B; Marketing &#x200B;]&#x200B;**.]**
+   Inizia selezionando il tipo di SMS **[!UICONTROL 1} che verrà inviato con la configurazione:]** Transazionale **[!UICONTROL o]** Marketing **[!UICONTROL .]**
 
    * Scegli **Marketing** per i messaggi promozionali: questi messaggi richiedono il consenso dell&#39;utente.
    * Scegli **Transazionale** per messaggi non commerciali quali ad esempio conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna.

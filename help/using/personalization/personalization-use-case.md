@@ -11,7 +11,7 @@ keywords: espressione, editor, caso d’uso, personalizzazione
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -63,10 +63,10 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc9.png)
 
-1. Selezionare il menu **Attributi contestuali**. Gli attributi contestuali sono disponibili solo se un percorso ha trasmesso dati contestuali al messaggio. Fai clic su **Journey Orchestration**. Vengono visualizzate le seguenti informazioni contestuali:
+1. Selezionare il menu **Attributi contestuali**. Gli attributi contestuali sono disponibili solo se un percorso ha trasmesso dati contestuali al messaggio. Fare clic su **Journey Orchestration**. Vengono visualizzate le seguenti informazioni contestuali:
 
    * **Eventi**: questa categoria raggruppa tutti i campi degli eventi inseriti prima dell&#39;attività di azione del canale nel percorso.
-   * **Proprietà Percorso**: i campi tecnici relativi al percorso per un determinato profilo, ad esempio l&#39;ID percorso o errori specifici rilevati. Ulteriori informazioni sono disponibili nella [documentazione del Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Proprietà Percorso**: i campi tecnici relativi al percorso per un determinato profilo, ad esempio l&#39;ID percorso o errori specifici rilevati. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -106,8 +106,8 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
 1. Verifica che non vi sia alcun errore e pubblica il percorso.
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
 Il video seguente mostra un caso d’uso simile, sfruttando i dati contestuali provenienti da un percorso per personalizzare un’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428529?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

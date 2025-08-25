@@ -35,7 +35,7 @@ L&#39;operazione seguente restituisce il prezzo medio di tutti gli ordini.
 {%=average(orders.order.price)%}
 ```
 
-## Conteggio{#count}
+## Count{#count}
 
 La funzione `count` restituisce il numero di elementi all&#39;interno dell&#39;array specificato.
 
@@ -89,7 +89,7 @@ L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
 {%=min(orders.order.price) %}
 ```
 
-## Somma{#sum}
+## Sum{#sum}
 
 La funzione `sum` restituisce la somma di tutti i valori selezionati all&#39;interno dell&#39;array.
 

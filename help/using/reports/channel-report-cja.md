@@ -27,7 +27,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Campagne](#campaign)
 * [Canali](#channel)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 
@@ -79,7 +79,7 @@ Facendo clic sul nome di qualsiasi percorso elencato in questa tabella, puoi esp
 
 ![](assets/cja-channel-campaigns.png)
 
-La tabella **[!UICONTROL Campaign]** funziona come un dashboard completo che presenta una panoramica dettagliata delle metriche critiche per la campagna. Contiene dati essenziali come il numero di profili e di invii, che ti consentono di ottenere informazioni complete sulle prestazioni e sui livelli di coinvolgimento della campagna.
+La tabella **[!UICONTROL Campaign]** funziona come un dashboard completo che presenta una panoramica dettagliata delle metriche critiche per la campagna. Offre dati essenziali come il numero di profili e invii, consentendoti di accedere a un’insight completa sulle prestazioni e sui livelli di coinvolgimento della campagna.
 
 Facendo clic sul nome di una delle campagne elencate in questa tabella, puoi esplorare facilmente ogni singola campagna, ottenendo accesso immediato al relativo rapporto completo in una nuova scheda.
 

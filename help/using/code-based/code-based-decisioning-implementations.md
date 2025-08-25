@@ -26,15 +26,15 @@ Durante il test di [esperienza basata su codice](create-code-based.md) con decis
 Dopo aver pubblicato la campagna, aggiungi il flag `dryRun` nel blocco evento XDM `data` nell&#39;implementazione client:
 
     &quot;
-    &lbrace;
-    &quot;dati&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;dati&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 <!--
@@ -78,7 +78,7 @@ In una richiesta Konductor, puoi trasmettere il flag di deduplicazione se deside
 }
 ```
 
-+++Richiesta di esempio Decisioning
++++Richiesta di esempio per decisioning
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -137,7 +137,7 @@ Supponiamo che tu abbia lo stesso criterio di decisione con posizionamento di in
 
       * Per la seconda proposta viene passato l’elemento di decisione di fallback (anche univoco) o un elemento di decisione vuoto.
 
-+++Risposta di esempio di decisioning (`allowDuplicateDecisionItems` = `true`)
++++Decisione della risposta di esempio (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Supponiamo che tu abbia lo stesso criterio di decisione con posizionamento di in
 
 +++
 
-+++Risposta di esempio di decisioning (`allowDuplicateDecisionItems` = `false`)
++++Decisione della risposta di esempio (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

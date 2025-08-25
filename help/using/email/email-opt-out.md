@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -34,13 +34,13 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 Quando un destinatario fa clic sul collegamento di rinuncia, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#attributes-tab). Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**. Ulteriori informazioni sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->A volte, gli eventi che causano l’annullamento dell’abbonamento potrebbero richiedere più tempo per essere riflessi a livello di profilo a causa dell’elaborazione dei dati a valle. Attendere qualche minuto per l&#39;aggiornamento del sistema.
+>Talvolta, gli eventi per l’annullamento dell’iscrizione potrebbero richiedere più tempo per essere riflessi a livello di profilo, a causa dell’elaborazione dei dati a valle. È necessario attendere affinché il sistema si aggiorni.
 
 ## Rinuncia in un unico passaggio {#opt-out-one-step}
 
@@ -89,7 +89,7 @@ Per implementare questa modalità di annullamento dell’abbonamento, devi crear
 
 ### Prerequisiti {#prereq-lp}
 
-Per impostare un meccanismo di rinuncia in due fasi, devi creare pagine di destinazione di annullamento dell’abbonamento personalizzate. La prima pagina di destinazione sarà collegata al messaggio e deve contenere un pulsante di invito all’azione. Quando l’utente fa clic sul pulsante, dovrebbe essere visualizzato un messaggio di conferma.
+Per impostare un meccanismo di rinuncia in due fasi, devi creare pagine di destinazione di annullamento dell’abbonamento personalizzate. La prima pagina di destinazione sarà collegata al messaggio e deve contenere un pulsante call-to-action. Quando l’utente fa clic sul pulsante, dovrebbe essere visualizzato un messaggio di conferma.
 
 Scopri come creare una pagina di destinazione in Adobe Journey Optimizer per gestire gli annullamenti di abbonamenti in [questa pagina](../landing-pages/lp-use-cases.md#opt-out).
 

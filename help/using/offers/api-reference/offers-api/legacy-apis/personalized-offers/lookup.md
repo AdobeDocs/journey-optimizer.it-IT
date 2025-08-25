@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '177'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Per cercare offerte personalizzate specifiche, invia una richiesta di GET all&#39;API **Libreria offerte** che include l&#39;offerta personalizzata `@id` o il nome dell&#39;offerta personalizzata nel percorso della richiesta.
+Per cercare offerte personalizzate specifiche, invia una richiesta GET all&#39;API **Libreria offerte** che include l&#39;offerta personalizzata `@id` o il nome dell&#39;offerta personalizzata nel percorso della richiesta.
 
 **Formato API**
 

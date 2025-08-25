@@ -26,7 +26,7 @@ Data
 
 `inNextDays(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

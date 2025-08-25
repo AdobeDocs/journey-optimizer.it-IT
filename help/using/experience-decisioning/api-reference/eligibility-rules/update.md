@@ -1,14 +1,15 @@
 ---
-title: Aggiorna regole di idoneità
+title: Aggiornare regole di idoneità
 description: Le regole di idoneità consentono di definire i candidati idonei in base a ciò di cui desideri eseguire il targeting, ad esempio gli attributi di profilo e i tipi di pubblico.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 

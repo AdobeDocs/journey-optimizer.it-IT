@@ -26,7 +26,7 @@ Elenco
 
 `getListItem(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

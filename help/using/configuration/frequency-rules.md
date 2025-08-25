@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1267'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -114,7 +114,7 @@ Dall’elenco a discesa **[!UICONTROL Durata]**, seleziona se desideri che il li
 
 >[!NOTE]
 >
->Su richiesta, è disponibile anche l’opzione di durata giornaliera. [Ulteriori informazioni](#daily-frequency-cap)
+>Su richiesta, è disponibile anche l’opzione di quota limite giornaliera. [Ulteriori informazioni](#daily-frequency-cap)
 
 La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
 
@@ -128,13 +128,13 @@ La scadenza del contatore per ciascun periodo è la seguente:
 
 ### Quota limite giornaliera {#daily-frequency-cap}
 
-Oltre alle opzioni Mensile e Settimanale, su richiesta è anche disponibile l’opzione Giornaliera. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+Oltre alle opzioni Mensile e Settimanale, su richiesta è anche disponibile l’opzione di quota limite giornaliera. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-La quota limite giornaliera è valido per il giorno corrente fino alle 23:59:59 UTC e viene reimpostata su 0 all’inizio del giorno successivo.
+La quota limite giornaliera è valida per il giorno corrente fino alle 23:59:59 UTC e viene reimpostata su 0 all’inizio del giorno successivo.
 
 >[!NOTE]
 >
->Per garantire l’accuratezza delle regole relative ai limiti di frequenza giornalieri, è consigliato l’uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Per garantire la precisione delle regole di quota limite giornaliera, si consiglia di utilizzare [segmentazione streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Attivare una regola aziendale {#activate-rule}
 
@@ -233,10 +233,10 @@ In questo scenario, un singolo profilo:
 
 >[!NOTE]
 >
->Quando si esegue il test delle regole di business, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunto il limite di un profilo, il contatore verrà reimpostato solo il mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+>Quando si esegue il test delle regole di business, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunta la quota limite di un profilo, il contatore verrà reimpostato solo il mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
 
 ## Video introduttivo {#video}
 
 Scopri come creare, attivare, testare e creare rapporti sulle regole di business.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411123?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

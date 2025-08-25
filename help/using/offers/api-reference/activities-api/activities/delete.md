@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Eliminare una decisione {#delete-decision}
 
-Occasionalmente può essere necessario revocare (DELETE) una decisione. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando `id` della decisione che si desidera eliminare.
+Occasionalmente può essere necessario rimuovere (DELETE) una decisione. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando `id` della decisione che si desidera eliminare.
 
 **Formato API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDec
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) alla decisione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la decisione è stata rimossa.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) per la decisione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la decisione è stata rimossa.

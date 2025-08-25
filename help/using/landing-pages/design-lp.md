@@ -12,7 +12,7 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Per iniziare a creare contenuti per la [pagina principale](create-lp.md#configur
 
 ![](assets/lp_open-designer.png)
 
-Da qui è possibile:
+Da qui, puoi:
 
 * **Progetta la pagina di destinazione da zero** tramite l&#39;interfaccia di progettazione contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../integrations/assets.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 

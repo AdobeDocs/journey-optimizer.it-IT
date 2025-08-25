@@ -29,7 +29,7 @@ Conversione
 
 `toBool(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 * decimale
 * booleano

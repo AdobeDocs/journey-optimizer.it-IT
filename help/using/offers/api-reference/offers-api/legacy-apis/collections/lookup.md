@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Per cercare raccolte specifiche, eseguire una richiesta di GET all&#39;API [!DNL Offer Library] che includa la raccolta `@id` o il nome della raccolta nel percorso della richiesta.
+Per cercare raccolte specifiche, eseguire una richiesta GET all&#39;API [!DNL Offer Library] che includa la raccolta `@id` o il nome della raccolta nel percorso della richiesta.
 
 **Formato API**
 

@@ -26,7 +26,7 @@ Stringa
 
 `indexOf(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

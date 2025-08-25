@@ -10,7 +10,7 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ La configurazione e-mail viene rilevata per l’invio di comunicazioni seguendo 
 
 * Per i percorsi batch, questa non viene applicata all’esecuzione batch già avviata prima della configurazione della superficie e-mail. Le modifiche vengono rilevate alla successiva ricorrenza o alla nuova esecuzione.
 
-* Per i messaggi transazionali, la modifica viene rilevata immediatamente per la comunicazione successiva (fino a cinque minuti di ritardo).
+* Per i messaggi transazionali, la modifica viene rilevata immediatamente per la comunicazione successiva (con ritardo massimo di cinque minuti).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Non è possibile procedere con la creazione della configurazione mentre il pool 
 >
 >Per gli ambienti non di produzione, Adobe non crea sottodomini di test preconfigurati né concede l’accesso a un pool IP di invio condiviso. È necessario [delegare i tuoi sottodomini](../configuration/delegate-subdomain.md) e utilizzare gli IP del pool assegnato alla tua organizzazione.
 
-Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si passa il puntatore del mouse sugli indirizzi IP visualizzati sotto l’elenco a discesa del pool IP. [Ulteriori informazioni sui record PTR](../configuration/ptr-records.md)
+Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si passa il puntatore sugli indirizzi IP visualizzati sotto l’elenco a discesa del pool IP. [Ulteriori informazioni sui record PTR](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ In [!DNL Journey Optimizer], tutti gli indirizzi e-mail contrassegnati come manc
 
 Tuttavia, puoi decidere di continuare a inviare messaggi di tipo **transazionale** ai profili anche se i relativi indirizzi e-mail sono presenti nell’elenco di soppressione a causa di un reclamo spam da parte dell’utente.
 
-In effetti, i messaggi transazionali generalmente contengono informazioni utili e previste, come una conferma di un ordine o una notifica di reimpostazione della password. Pertanto, anche se uno dei tuoi messaggi di marketing è stato segnalato come spam, nella maggior parte dei casi desideri che la clientela riceva questo tipo di e-mail non commerciale.
+In effetti, i messaggi transazionali generalmente contengono informazioni utili e previste, come la conferma di un ordine o la notifica per reimpostare la password. Pertanto, anche se uno dei tuoi messaggi di marketing è stato segnalato come spam, nella maggior parte dei casi desideri che la clientela riceva questo tipo di e-mail non commerciale.
 
 Per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nel pubblico dei messaggi transazionali, seleziona l’opzione corrispondente dalla sezione **[!UICONTROL Invia a indirizzi e-mail soppressi]**.
 
@@ -129,9 +129,9 @@ Per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nel pubb
 >
 >Questa opzione è disabilitata per impostazione predefinita.
 
-Come best practice per la recapitabilità, questa opzione è disabilitata per impostazione predefinita, per garantire che la clientela che ha effettuato la rinuncia non venga contattata. Tuttavia, puoi modificare questa opzione predefinita, che ti consente quindi di inviare messaggi transazionali alla tua clientela.
+Come best practice per la recapitabilità, questa opzione è disabilitata per impostazione predefinita, per garantire che la clientela che ha effettuato la rinuncia non venga contattata. Tuttavia, puoi modificare questa opzione predefinita, in modo da poter inviare messaggi transazionali alla tua clientela.
 
-Una volta abilitata questa opzione, anche se un cliente ha contrassegnato l’e-mail di marketing come spam, potrà ricevere i messaggi transazionali utilizzando la configurazione attuale. Assicurati sempre di gestire le preferenze di rinuncia in conformità alle best practice per la recapitabilità.
+Una volta abilitata questa opzione, anche se un cliente ha contrassegnato l’e-mail di marketing come spam, potrà comunque ricevere i messaggi transazionali utilizzando la configurazione attuale. Assicurati sempre di gestire le preferenze di rinuncia in conformità alle best practice per la recapitabilità.
 
 ## Elenco seed {#seed-list}
 

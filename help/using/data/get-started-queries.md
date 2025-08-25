@@ -11,7 +11,7 @@ exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -23,9 +23,9 @@ Query Editor supporta lo sviluppo di query per l’analisi e l’esplorazione de
 
 ![](assets/queries-home.png)
 
-Scopri come utilizzare Query Editor in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=it){target="_blank"}.
+Scopri come utilizzare l&#39;editor delle query in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=it){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->* [Documentazione del servizio query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
->* [Video panoramica del servizio query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=it){target="_blank"}
+>* [Documentazione di Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
+>* [Video introduttivo su Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=it){target="_blank"}

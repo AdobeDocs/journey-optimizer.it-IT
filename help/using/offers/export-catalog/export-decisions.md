@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > decisioni > criteri > opzioneSelezione
++++_experience > decisioning > criteri > optionSelection
 
 **Campo:** optionSelection
 **Titolo:** Selezione Opzione
@@ -111,11 +111,11 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > decisioni > criteri > posizionamenti
++++_experience > decisioning > criteri > posizionamenti
 
 **Campo:** posizionamenti
 **Titolo:** Limitazioni di posizionamento
-**Descrizione:** Il vincolo di posizionamento indica che questo criterio è applicabile solo per i posizionamenti elencati. La selezione dell&#39;opzione è considerata solo quando il posizionamento di destinazione è incluso nell&#39;elenco `xdm:placements`. In caso contrario, vengono ignorati tutti i criteri di decisione. Quando l’elenco &quot;xdm:placements&quot; viene omesso o vuoto, il criterio viene considerato per qualsiasi posizionamento di destinazione. I posizionamenti elencati impongono criteri impliciti per la selezione dell’opzione. Un’opzione da considerare deve avere una rappresentazione per il posizionamento mirato.
+**Descrizione:** Il vincolo di posizionamento indica che questo criterio è applicabile solo per i posizionamenti elencati. La selezione dell&#39;opzione è considerata solo quando il posizionamento di destinazione è incluso nell&#39;elenco `xdm:placements`. In caso contrario, vengono ignorati tutti i criteri di decisione. Quando l&#39;elenco &#39;xdm:placements&#39; viene omesso o vuoto, il criterio viene considerato per qualsiasi posizionamento di destinazione. I posizionamenti elencati impongono criteri impliciti per la selezione dell’opzione. Un’opzione da considerare deve avere una rappresentazione per il posizionamento mirato.
 **Tipo:** array
 
 * Identificatore di posizionamento
@@ -126,7 +126,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > criteri > profileConstraints
++++_experience > decisioning > criteri > profileConstraints
 
 **Campo:** profileConstraints
 **Titolo:** Vincolo Profilo
@@ -135,7 +135,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > criteri > profileConstraints > Descrizione
++++_experience > decisioning > criteri > profileConstraints > Descrizione
 
 **Campo:** descrizione
 **Titolo:** Descrizione
@@ -206,14 +206,14 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > decisioni > criteri > classificazione
++++_experience > decisioning > criteri > classificazione
 
 **Campo:** classificazione
 **Titolo:** Dettagli Classificazione
 **Descrizione:** Grado (priorità). Definisce il modo in cui viene determinata l’\&quot;opzione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano i vincoli del profilo, la classificazione determinerà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
-+++
++++ 
 
 +++_esperienza > decisioni > criteri > classificazione > ordine
 
@@ -284,7 +284,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > Data e ora di inizio attività
++++_experience > decisioning > Data e ora di inizio attività
 
 **Campo:** startTime
 **Titolo:** Data e ora di inizio attività

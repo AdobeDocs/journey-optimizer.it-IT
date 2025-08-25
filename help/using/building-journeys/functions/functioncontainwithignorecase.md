@@ -26,7 +26,7 @@ Stringa
 
 `containIgnoreCase(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

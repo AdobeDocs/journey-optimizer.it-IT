@@ -21,7 +21,7 @@ Questo gruppo di campi verrà condiviso dai seguenti eventi: **journeyStepEvent*
 
 Questi sono i campi XDM comuni che [!DNL Journey Optimizer] invia a Adobe Experience Platform. Campi comuni vengono inviati per ogni passaggio elaborato in un percorso. Campi più specifici vengono utilizzati per azioni personalizzate e arricchimenti.
 
-Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione di azioni, recupero dati, ecc.) per limitare la dimensione degli eventi.
+Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione di azioni, recupero di dati, ecc.) per limitare la dimensione degli eventi.
 
 
 >[!NOTE]

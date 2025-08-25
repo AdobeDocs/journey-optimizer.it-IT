@@ -26,7 +26,7 @@ Conversione
 
 `toString(<parameter>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Descrizione |
 |--- |--- |

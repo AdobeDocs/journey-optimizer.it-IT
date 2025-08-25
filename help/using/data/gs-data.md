@@ -10,9 +10,9 @@ level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -65,14 +65,14 @@ Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenu
 
 Puoi utilizzare la flessibilità dei dati offerta da [!DNL Journey Optimizer] per soddisfare i tuoi requisiti specifici relativi alla conservazione, all’archiviazione o all’eliminazione dei dati:
 
-* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati di origine in qualsiasi momento tramite l’API di accesso ai dati senza penali né ritardi. L’[API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati di origine in qualsiasi momento tramite l’API di accesso ai dati senza penali né ritardi. L&#39;[API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it){target="_blank"} fornisce agli utenti un&#39;interfaccia RESTful incentrata sulla reperibilità e l&#39;accessibilità dei set di dati acquisiti all&#39;interno di [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   I contenuti utilizzato nei percorsi o nelle campagne non possono essere estratti tramite i metodi API o di destinazione menzionati in precedenza.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=it){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **Rimozione e meccanismi di archiviazione**: la rimozione dei dati e l’archiviazione possono essere definite e automatizzate liberamente in [!DNL Adobe Journey Optimizer] in modo da automatizzare i criteri di conservazione dei dati. È possibile definire diverse strategie di durata per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.

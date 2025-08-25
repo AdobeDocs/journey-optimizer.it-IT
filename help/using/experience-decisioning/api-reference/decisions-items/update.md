@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Aggiornare un elemento di decisione {#update-decision-items}
 
-Per modificare o aggiornare un elemento decisionale, devi eseguire una richiesta PATCH all’API Libreria di offerte.
+Per modificare o aggiornare un elemento decisionale, effettua una richiesta PATCH all’API Libreria di offerte.
 
 Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 

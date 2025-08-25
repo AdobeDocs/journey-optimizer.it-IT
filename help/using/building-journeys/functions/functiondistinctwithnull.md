@@ -28,7 +28,7 @@ Elenco
 
 `distinctWithNull(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

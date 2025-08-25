@@ -1,5 +1,5 @@
 ---
-title: Helper per ricerca dati esterni
+title: Helper per la ricerca di dati esterni
 description: Guida completa all’utilizzo di External Data Lookup Helper per la personalizzazione dinamica in Adobe Journey Optimizer.
 feature: Personalization
 topic: Personalization
@@ -12,11 +12,11 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Helper per ricerca dati esterni
+# Helper per la ricerca di dati esterni
 
 L&#39;helper `externalDataLookup` nell&#39;editor di personalizzazione [!DNL Journey Optimizer] può essere utilizzato per recuperare dinamicamente i dati da un endpoint esterno per la generazione di contenuti per i canali in entrata come Esperienza basata su codice, Canali Web e Messaggi in-app.
 

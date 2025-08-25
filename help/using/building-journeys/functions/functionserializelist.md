@@ -26,7 +26,7 @@ Elenco
 
 `serializeList(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

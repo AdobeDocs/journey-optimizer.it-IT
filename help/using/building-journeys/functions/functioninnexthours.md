@@ -26,7 +26,7 @@ Data
 
 `inNextHours(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

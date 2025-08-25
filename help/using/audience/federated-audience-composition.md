@@ -28,7 +28,7 @@ che di recente ha effettuato ordini online presso la sede preferita di ogni clie
 * **Gestione efficiente dei dati** - Riduci al minimo la copia dei dati, controlla i dati sensibili
 utilizzo dei dati e ottimizzazione degli investimenti IT per integrare i casi d’uso cross-channel in tempo reale su Adobe
 
-Per ulteriori informazioni, consulta la guida su [Composizione pubblico federato](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home){target="_blank"}.
+Per ulteriori informazioni, consulta la guida su [Federated Audience Composition](https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home){target="_blank"}.
 
 Ulteriori informazioni su Federated Audience Composition sono disponibili nel video:
 

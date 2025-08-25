@@ -53,7 +53,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++ _experience > decisioning > calendarConstraints
++++ _experience > decisioning > calendarConstraints 
 
 **Campo:** calendarConstraints
 **Titolo:** Dettagli Vincolo Calendario
@@ -94,7 +94,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > decisioni > contenuti > componenti
++++_experience > decisioning > contenuti > componenti
 
 **Campo:** componenti
 **Descrizione:** i componenti del contenuto che rappresentano l&#39;opzione di decisione, incluse tutte le relative varianti di lingua. Componenti specifici trovati da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una loro combinazione. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
@@ -123,7 +123,6 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
-
      **Campo:** lingua
      **Titolo:** Lingua
      **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
@@ -182,7 +181,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Tipo:** stringa
   **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-+++_esperienza > decisioning > content > Placement (Decisioning > Contenuti > Posizionamento)
++++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 
 **Campo:** posizionamento
 **Titolo:** posizionamento
@@ -219,7 +218,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > profileConstraints > Descrizione
++++_experience > decisioning > profileConstraints > Descrizione
 
 **Campo:** descrizione
 **Titolo:** Descrizione
@@ -228,7 +227,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > profileConstraints > Regola di idoneità
++++_experience > decisioning > profileConstraints > Regola di idoneità
 
 **Campo:** idoneitàRegola
 **Titolo:** Regola di idoneità
@@ -237,7 +236,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > profileConstraints > Tipo di vincolo profilo
++++_experience > decisioning > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
 **Titolo:** Tipo Di Vincolo Del Profilo
@@ -252,7 +251,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > profileConstraints > Identificatori segmento
++++_experience > decisioning > profileConstraints > Identificatori segmento
 
 **Campo:** segmentIdentities
 **Titolo:** Identificatori Segmento
@@ -299,7 +298,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > Decisioning > Classificazione > Valutazione dell’ordine
++++_experience > decisioning > ranking > Valutazione ordine
 
 **Campo:** ordine
 **Titolo:** Valutazione dell&#39;ordine
@@ -330,7 +329,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 +++
 
-+++_esperienza > decisioni > classificazione > Priorità
++++_experience > decisioning > ranking > Priorità
 
 **Campo:** priorità
 **Titolo:** Priorità
@@ -352,12 +351,12 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 <!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-+++_repository
++++_repo
 
 **Campo:** _repo
 **Tipo:** oggetto
 
-+++
++++ 
 
 +++ _repo > Opzione di decisione ETag
 

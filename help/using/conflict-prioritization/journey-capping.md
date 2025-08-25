@@ -20,7 +20,7 @@ La limitazione dei percorsi consente di limitare il numero di percorsi in cui un
 
 Entrambi i tipi di limite di percorso sfruttano i punteggi di priorità per arbitrare le voci.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Creare una regola di limitazione del percorso {#create-rule}
 
@@ -76,7 +76,7 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
    +++
 
-   +++Configurare una regola di limitazione della concorrenza di percorso
+   +++Configurare una regola di limitazione della concorrenza di percorso 
 
    1. Nel campo **[!UICONTROL Limitazione]**, imposta il numero massimo di percorsi in cui un profilo può essere iscritto contemporaneamente.
 
@@ -117,4 +117,4 @@ Una volta che un percorso è attivo, puoi controllare nel report percorso se il 
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447623?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

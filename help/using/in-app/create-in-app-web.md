@@ -20,9 +20,9 @@ ht-degree: 7%
 
 Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
 
-* Installa l’estensione tag Web SDK per supportare la messaggistica in-app web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it)
+* Installa l’estensione tag Web SDK per supportare la messaggistica in-app web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
-* Personalizza i trigger. La messaggistica Web in-app supporta due tipi di trigger: Inviati dati alla piattaforma e Manuali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=it)
+* Personalizza i trigger. La messaggistica Web in-app supporta due tipi di trigger: Inviati dati alla piattaforma e Manuali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
 * Crea la configurazione Web in-app. [Ulteriori informazioni](inapp-configuration.md)
 
@@ -75,7 +75,7 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere una **[!UICONTROL caratteristica]** personalizzata e perfezionare meglio la regola.
 
-      +++Vedi Caratteristiche disponibili.
+      +++Consulta Caratteristiche disponibili.
 
       | Pacchetto | Caratteristica | Definizione |
       |---|---|---|

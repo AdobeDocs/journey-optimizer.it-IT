@@ -63,7 +63,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      +++Vedi Caratteristiche disponibili.
+      +++Consulta Caratteristiche disponibili.
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -146,7 +146,7 @@ Per iniziare a creare le schede di contenuto tramite una campagna, segui i passa
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      +++Vedi Caratteristiche disponibili.
+      +++Consulta Caratteristiche disponibili.
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|

@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 13%
+ht-degree: 25%
 
 ---
 
@@ -65,9 +65,9 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
 >[!NOTE]
 >
->[Gli attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
+>Gli [attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
 >
->Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e questo frammento viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e monitoraggio](../email/message-tracking.md)
+>Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e quest’ultimo viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e tracciamento](../email/message-tracking.md)
 
 * Per i frammenti visivi, modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna. [Ulteriori informazioni](../email/get-started-email-design.md)
 
@@ -79,7 +79,7 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
   >[!CAUTION]
   >
-  >I frammenti non sono compatibili tra le modalità Usa temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Usa temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
+  >I frammenti non sono compatibili tra le modalità Usa temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
 
 * Per i frammenti di espressione, utilizza l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le funzionalità di personalizzazione e authoring per creare il contenuto del frammento. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
@@ -89,7 +89,7 @@ Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->I frammenti visivi non possono superare i 100 KB. I frammenti di espressione non possono superare i 200 KB.
+>I frammenti visivi non possono superare i 100 KB. I frammenti di espressioni non possono superare i 200 KB.
 
 Il frammento viene creato e aggiunto all&#39;elenco di frammenti con lo stato **[!UICONTROL Bozza]**. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
 

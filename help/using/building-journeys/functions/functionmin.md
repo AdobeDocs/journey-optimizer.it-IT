@@ -26,7 +26,7 @@ Aggregazione
 
 `min(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 * listDuration
 * listInteger

@@ -82,7 +82,7 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Numero massimo di attributi di dati contestuali | 30 |
 | Numero massimo di livelli di nidificazione | 30 |
 
-## Altri
+## Altre
 
 | Guardrail | Limite |
 | ------- | ------- |

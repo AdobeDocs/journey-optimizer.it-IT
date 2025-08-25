@@ -32,7 +32,7 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ![](assets/campaign_report_global_1.png)
 
-Il widget Statistiche **della** campagna descrive le informazioni principali relative alla campagna:
+Il widget Statistiche **[!UICONTROL della]** campagna descrive le informazioni principali relative alla campagna:
 
 * **[!UICONTROL Profili immessi]**: numero di profili che hanno avviato il percorso.
 

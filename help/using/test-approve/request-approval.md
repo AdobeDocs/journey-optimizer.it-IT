@@ -4,13 +4,13 @@ description: Scopri come richiedere l’approvazione prima di pubblicare percors
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # Richiedere un’approvazione {#request-approval}
 
@@ -20,7 +20,7 @@ L’accesso al flusso di lavoro di approvazione è determinato dal caso d’uso 
 
    * **Campagne**: se non sono attivi criteri di approvazione per l&#39;oggetto Campaign in una sandbox, nelle campagne verrà visualizzato il pulsante **[!UICONTROL Attiva]**, che consente di attivarli senza richiedere l&#39;approvazione.
 
-   * **Percorsi**: se non sono attivi criteri di approvazione per l&#39;oggetto Percorso, nei percorsi verrà visualizzato il pulsante **[!UICONTROL Publish]** che consente di eseguire la pubblicazione diretta.
+   * **Percorsi**: se non sono attivi criteri di approvazione per l&#39;oggetto Percorso, nei percorsi verrà visualizzato il pulsante **[!UICONTROL Pubblica]**, che consente di pubblicare direttamente.
 
 * **Criteri di approvazione attivi esistenti**
 
@@ -55,6 +55,3 @@ Se la richiesta degli approvatori cambia, riceverai una notifica tramite e-mail 
 ![](assets/changes-requested.png)
 
 Per esaminare la richiesta di modifica, aprila dall’e-mail o dall’avviso per accedere al percorso o alla campagna e apportare le modifiche richieste. Quando il tuo percorso/campagna è pronto per essere rivisto, invia una nuova richiesta di approvazione utilizzando il pulsante **[!UICONTROL Richiedi approvazione]**.
-
-
-

@@ -21,7 +21,7 @@ In questa sezione sono elencati diversi esempi comunemente utilizzati per esegui
 
 Assicurati che i campi utilizzati nelle query abbiano valori associati nello schema corrispondente.
 
-+++Qual è la differenza tra id, instanceid e profileid
++++Qual è la differenza tra ID, ID istanza e ID profilo
 
 * id: univoco per tutte le voci evento del passaggio. Due eventi di passaggio diversi non possono avere lo stesso ID.
 * instanceId: instanceID è lo stesso per tutti gli eventi di passaggio associati a un profilo all’interno di un’esecuzione di percorso. Se un profilo torna nel percorso, verrà utilizzato un instanceId diverso. Questo nuovo instanceId sarà lo stesso per tutti gli eventi di passaggio dell’istanza reinserita (dall’inizio alla fine).
@@ -33,7 +33,7 @@ Assicurati che i campi utilizzati nelle query abbiano valori associati nello sch
 
 ## Casi d’uso di base/query comuni {#common-queries}
 
-+++Quanti profili sono entrati in un percorso in un determinato intervallo di tempo
++++Quanti profili sono stati inseriti in un percorso in un determinato intervallo di tempo
 
 Questa query fornisce il numero di profili distinti che sono entrati nel percorso specificato nell’intervallo di tempo specificato.
 
@@ -72,7 +72,7 @@ AND
 
 +++
 
-+++Quanti errori si sono verificati in ciascun nodo di un percorso specifico per un determinato periodo di tempo
++++Quanti errori si sono verificati in ogni nodo di un percorso specifico per un determinato periodo di tempo
 
 _Query Data Lake_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++Tempo trascorso tra due nodi
++++Tempo trascorso tra due nodi 
 
 Queste query possono essere utilizzate, ad esempio, per stimare il tempo trascorso in un’attività Attendi. Questo ti consente di verificare che l’attività Attendi sia configurata correttamente.
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++Controllare i dettagli di un serviceEvent
++++Controllare i dettagli di un serviceEvent 
 
 Il set di dati Eventi passaggio di Percorso contiene tutti gli eventi stepEvents e serviceEvents. stepGli eventi vengono utilizzati nel reporting in quanto si riferiscono ad attività (evento, azioni, ecc.) di profili in un percorso. serviceEvents sono memorizzati nello stesso set di dati e indicano informazioni aggiuntive a scopo di debug, ad esempio il motivo dell’eliminazione di un evento esperienza.
 
@@ -478,7 +478,7 @@ La query restituisce, per il periodo definito, il numero di profili che sono ent
 
 ## Query relative al pubblico di lettura {#read-segment-queries}
 
-+++Tempo necessario per completare un processo di esportazione pubblico
++++Tempo impiegato per completare un processo di esportazione del pubblico
 
 _Query Data Lake_
 
@@ -732,7 +732,7 @@ Se non viene restituito alcun record, significa che:
 
 +++
 
-+++Ottieni metriche sui profili esportati, inclusi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione
++++Ottieni metriche sui profili esportati, compresi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione
 
 _Query Data Lake_
 
@@ -794,7 +794,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++Ottieni metriche aggregate (processi di esportazione pubblico e scarti) su tutti i processi di esportazione
++++Ottieni metriche aggregate (processi di esportazione e scarti del pubblico) su tutti i processi di esportazione
 
 _Query Data Lake_
 
@@ -861,7 +861,7 @@ Restituisce le metriche complessive per una determinata versione del percorso, i
 
 ## Query relative alla qualifica del pubblico {#segment-qualification-queries}
 
-+++Profilo eliminato a causa di una realizzazione del pubblico diversa da quella configurata
++++Profilo scartato a causa di una realizzazione del pubblico diversa da quella configurata
 
 _Query Data Lake_
 

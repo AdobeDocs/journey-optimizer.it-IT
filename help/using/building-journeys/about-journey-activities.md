@@ -54,7 +54,7 @@ Le azioni sono ciò che si desidera che accada come risultato di un qualche tipo
 
 Dalla palette, sul lato sinistro della schermata, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la categoria **[!UICONTROL Azioni]**. Sono disponibili le seguenti attività di azione:
 
-* [Azioni del canale incorporate](../building-journeys/journeys-message.md)
+* [Azioni canale incorporate](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
 * [Salta](../building-journeys/jump.md)
 
@@ -100,7 +100,7 @@ In alcuni contesti particolari, è possibile ignorare i valori di questi paramet
 
 ### Aggiungi un percorso alternativo
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![Aggiungi un&#39;opzione di percorso alternativa nelle proprietà dell&#39;attività Condizione](assets/journey42.png)
 

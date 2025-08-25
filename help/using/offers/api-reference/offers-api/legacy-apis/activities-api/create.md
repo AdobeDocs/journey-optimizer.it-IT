@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # Creare una decisione {#create-decision}
 
-Per creare una decisione, devi eseguire una richiesta POST all&#39;API [!DNL Offer Library] e fornire il tuo ID contenitore.
+È possibile creare una decisione effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 

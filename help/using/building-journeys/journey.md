@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 
@@ -50,4 +50,4 @@ Scopri come creare percorsi [nei seguenti casi d’uso end-to-end](jo-use-cases.
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

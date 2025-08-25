@@ -12,7 +12,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -69,5 +69,5 @@ Per specificare il valore dei campi con intestazione dinamica e parametri di que
 
 ## Parametri azione
 
-Nella sezione **[!UICONTROL Parametri azione]** verranno visualizzati i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. Fai riferimento a questa [pagina](expression/expressionadvanced.md).
+Nella sezione **[!UICONTROL Parametri azione]** verranno visualizzati i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. Consulta [questa pagina](expression/expressionadvanced.md).
 

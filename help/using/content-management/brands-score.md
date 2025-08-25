@@ -76,6 +76,6 @@ Il video seguente mostra come creare e personalizzare i propri marchi per defini
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470554/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

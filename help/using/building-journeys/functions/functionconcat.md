@@ -26,7 +26,7 @@ Stringa
 
 `concat(<parameters>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

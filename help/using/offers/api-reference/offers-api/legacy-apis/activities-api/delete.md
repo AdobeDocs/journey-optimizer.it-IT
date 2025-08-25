@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Eliminare una decisione {#delete-decision}
 
-Occasionalmente può essere necessario revocare (DELETE) una decisione. È possibile eliminare solo le decisioni create nel contenitore tenant. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando $id dell&#39;offerta di fallback che si desidera eliminare.
+Occasionalmente può essere necessario rimuovere (DELETE) una decisione. È possibile eliminare solo le decisioni create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando il $id dell&#39;offerta di fallback che si desidera eliminare.
 
 **Formato API**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) alla decisione. Dovrai includere un’intestazione Accept nella richiesta, ma dovresti ricevere lo stato HTTP 404 (Non trovato) perché la decisione è stata rimossa dal contenitore.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) per la decisione. Dovrai includere un’intestazione Accept nella richiesta, ma dovresti ricevere lo stato HTTP 404 (Non trovato) perché la decisione è stata rimossa dal contenitore.

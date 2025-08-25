@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
->title="Utilizzare i componenti per contenuti"
+>title="Utilizzare i componenti di contenuto"
 >abstract="I componenti dei contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Aggiungere componenti per contenuti"
 

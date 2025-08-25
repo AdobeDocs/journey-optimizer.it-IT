@@ -26,7 +26,7 @@ Data
 
 `inLastDays(<dateTime>,<delta>)`
 
-## Elemento “parameters”
+## Parametri
 
 | Parametro | Tipo |
 |-----------|------------------|

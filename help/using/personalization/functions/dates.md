@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 11%
+source-wordcount: '1032'
+ht-degree: 13%
 
 ---
 
@@ -436,9 +436,9 @@ Dove la prima stringa è l’attributo data, il secondo valore corrisponde al mo
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
-> È possibile utilizzare le funzioni di formattazione della data Java come riepilogato in [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Puoi utilizzare le funzioni di formattazione della data Java come riepilogato nella [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Puoi utilizzare la formattazione e le impostazioni internazionali valide come riepilogato in [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Puoi utilizzare la formattazione e le impostazioni internazionali valide come riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Esempio**
 

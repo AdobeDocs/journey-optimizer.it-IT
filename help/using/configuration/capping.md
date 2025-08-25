@@ -10,7 +10,7 @@ keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '735'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ I potenziali errori sono:
 
 * **ERR_ENDPOINTCONFIG_100**: configurazione limite: URL mancante o non valido
 * **ERR_ENDPOINTCONFIG_101**: configurazione limite: URL non valido
-* **ERR_ENDPOINTCONFIG_102**: configurazione limite: URL non valido: wildchar nell&#39;URL non consentito in host:porta
+* **ERR_ENDPOINTCONFIG_102**: configurazione limite: URL non valido: wildchar nell&#39;URL non consentito nell&#39;host:port
 * **ERR_ENDPOINTCONFIG_103**: configurazione limite: metodi HTTP mancanti
 * **ERR_ENDPOINTCONFIG_104**: configurazione limite: nessuna classificazione di chiamata definita
 * **ERR_ENDPOINTCONFIG_107**: configurazione limite: numero massimo di chiamate non valido (maxCallsCount)
@@ -131,7 +131,7 @@ In questa sezione sono elencati i casi d&#39;uso chiave per la gestione delle co
 
 I dettagli su ciascun comando API sono disponibili nella [descrizione API e raccolta Postman](#description).
 
-+++Crea e distribuisci una nuova configurazione dei limiti di spesa
++++Creare e distribuire una nuova configurazione dei limiti
 
 Chiamate API per l’utilizzo di:
 
@@ -142,7 +142,7 @@ Chiamate API per l’utilizzo di:
 
 +++
 
-+++Aggiornare e distribuire una configurazione di limite (non ancora distribuita)
++++Aggiornare e distribuire una configurazione dei limiti (non ancora distribuita)
 
 Chiamate API per l’utilizzo di:
 

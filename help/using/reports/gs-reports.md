@@ -5,10 +5,11 @@ title: Introduzione alle funzionalità di reporting in [!DNL Adobe Journey Optim
 description: Scopri come accedere e lavorare con  [!DNL Adobe Journey Optimizer]  report.
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
@@ -21,12 +22,12 @@ Inoltre, per ottimizzare il recapito messaggi delle esperienze [!DNL Journey Opt
 
 ## Tipi di rapporti {#reporting-types}
 
-* **Ultimi rapporti live di 24 ore**. Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata. I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**. Ulteriori informazioni sui report live [in questa sezione](live-report.md).
+* **Ultimi rapporti live di 24 ore**. Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata. I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**. Per ulteriori informazioni sui rapporti live, consulta [questa sezione](live-report.md).
 
   ![](assets/report_journey.png)
 
 
-* **Rapporti occasionali con Customer Journey Analytics** - Il reporting Journey Optimizer è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l&#39;affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni, consentendo agli utenti di prendere decisioni più informate. Ulteriori informazioni sui report di tutti i tempi [in questa sezione](report-gs-cja.md).
+* **Rapporti occasionali con Customer Journey Analytics** - Il reporting Journey Optimizer è completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l&#39;affidabilità dei dati. Questa integrazione ottimizzata tra Journey Optimizer e Customer Journey Analytics consente una visione più chiara delle metriche delle prestazioni, a supporto di decisioni più informate. Ulteriori informazioni sui report di tutti i tempi [in questa sezione](report-gs-cja.md).
 
   ![](assets/gs-cja-report-1.png)
 
