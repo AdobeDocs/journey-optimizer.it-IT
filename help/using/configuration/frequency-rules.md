@@ -25,7 +25,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Regole di business"
->abstract="Le regole di frequenza dei messaggi sono un tipo di regola aziendale che limita il numero di volte in cui gli utenti ricevono messaggi o entrano in percorsi su uno o più canali. Queste regole cross-channel escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni."
+>abstract="Le regole di frequenza dei messaggi sono un tipo di regola di business che limita il numero di volte in cui gli utenti ricevono messaggi o entrano in percorsi su uno o più canali. Queste regole cross-channel escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni."
 
 [!DNL Journey Optimizer] consente di controllare la frequenza con cui gli utenti riceveranno un messaggio o entreranno in un percorso attraverso uno o più canali. Regole di frequenza dei messaggi che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
 
@@ -239,4 +239,4 @@ In questo scenario, un singolo profilo:
 
 Scopri come creare, attivare, testare e creare rapporti sulle regole di business.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411123?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
