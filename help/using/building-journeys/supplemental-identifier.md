@@ -2,10 +2,10 @@
 title: Utilizzare identificatori supplementari nei percorsi
 description: Scopri come utilizzare gli identificatori supplementari nei percorsi.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -101,6 +101,8 @@ Per utilizzare un identificatore supplementare in un percorso attivato da un eve
 
    1. Seleziona lo spazio dei nomi da associare all’ID supplementare. Deve essere uno spazio dei nomi non relativo all’identificatore della persona.
 
+      Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo evento per utilizzare l’identificatore supplementare. Impossibile aggiornare le entità esistenti per riconoscere il nuovo identificatore.
+
 1. **Aggiungi l&#39;ID supplementare all&#39;evento**
 
    1. Crea o modifica l’evento desiderato. [Scopri come configurare un evento unitario](../event/about-creating.md)
@@ -141,9 +143,7 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
    1. Seleziona lo spazio dei nomi da associare all’ID supplementare. Deve essere uno spazio dei nomi non relativo all’identificatore della persona.
 
-      >[!NOTE]
-      >
-      >Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo evento (per i percorsi attivati da eventi) o un nuovo gruppo di campi (per i percorsi Read audience) per utilizzare l’identificatore supplementare. Impossibile aggiornare le entità esistenti per riconoscere il nuovo identificatore.
+      Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo gruppo di campi per utilizzare l’identificatore supplementare. Impossibile aggiornare le entità esistenti per riconoscere il nuovo identificatore.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
