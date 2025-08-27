@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 7%
+source-wordcount: '607'
+ht-degree: 6%
 
 ---
 
@@ -110,5 +110,23 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 1. Rivedi i **[!UICONTROL suggerimenti varianti]** per individuare la risorsa preferita.
 
 1. Seleziona **[!UICONTROL Anteprima]** per visualizzare la variante selezionata a schermo intero.
+
+1. Dopo aver individuato il contenuto appropriato, fare clic su **[!UICONTROL Seleziona]**.
+
+## Genera contenuti in più lingue {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
+
+1. Apri il menu **[!UICONTROL Assistente AI]**.
+
+1. Modifica il contenuto immettendo la richiesta desiderata nella casella **[!UICONTROL Prompt]** in francese, spagnolo, tedesco, italiano, giapponese, svedese, olandese o norvegese.
+
+1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]** e seleziona le **[!UICONTROL Lingue]** desiderate per il contenuto generato.
+
+1. Personalizza ulteriormente la richiesta in base alle esigenze e fai clic su **[!UICONTROL Genera]**.
+
+1. Rivedi i **[!UICONTROL suggerimenti varianti]** nella lingua selezionata.
 
 1. Dopo aver individuato il contenuto appropriato, fare clic su **[!UICONTROL Seleziona]**.

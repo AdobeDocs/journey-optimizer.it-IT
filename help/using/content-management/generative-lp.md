@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1650'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
-   * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
+   * **[!UICONTROL Lingue]**: scegli la lingua del contenuto generato.
    * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
@@ -127,7 +127,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
-   * **[!UICONTROL Lingue]**: le opzioni per le lingue spagnola, italiana, svedese e norvegese vengono rilasciate come versione beta privata e saranno progressivamente disponibili per tutti i clienti nelle versioni future.
+   * **[!UICONTROL Lingue]**: scegli la lingua del contenuto generato.
    * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 

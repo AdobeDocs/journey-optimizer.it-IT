@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,6 @@ Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assi
 
 L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazioni:
 
-* È supportata solo la lingua inglese. Gli input non inglesi possono produrre risultati incoerenti o errati. Al momento, le questioni derivanti da risposte non in lingua inglese non saranno affrontate o migliorate.
 * Disponibile solo per i canali e-mail, push, web e SMS.
 * Il contenuto GenAI potrebbe non risultare sempre accurato: condividi il tuo feedback in modo che i nostri tecnici possano perfezionare i modelli.
 * Puoi caricare più risorse del marchio, ma puoi sfruttarne una sola per una generazione specifica.
