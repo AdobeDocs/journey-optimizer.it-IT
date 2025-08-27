@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 15%
+source-wordcount: '690'
+ht-degree: 16%
 
 ---
 
@@ -42,11 +42,12 @@ Le attività di orchestrazione sono condizioni diverse che consentono di determi
 
 Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti attività di orchestrazione:
 
-* [Condizione](../building-journeys/condition-activity.md)
-* [Attendi](../building-journeys/wait-activity.md)
-* [Read Audience](../building-journeys/read-audience.md)
+* [Ottimizza](optimize.md)
+* [Read Audience](read-audience.md)
+* [Attendi](wait-activity.md)
+* [Decisione sul contenuto](content-decision.md)
 
-![Tavolozza delle attività di orchestrazione nella finestra di progettazione del percorso](assets/journey49.png)
+![Tavolozza delle attività di orchestrazione nella finestra di progettazione del percorso](assets/journey-orchestration-activities.png)
 
 ## Attività di azione {#action-activities}
 

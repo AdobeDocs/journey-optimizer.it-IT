@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2889'
 ht-degree: 99%
 
 ---
@@ -78,13 +78,15 @@ ht-degree: 99%
       + [Eventi generali](using/building-journeys/general-events.md)
       + [Reazione](using/building-journeys/reaction-events.md)
       + [Qualificazione del pubblico](using/building-journeys/audience-qualification-events.md)
-      + [Condizione](using/building-journeys/condition-activity.md)
-      + [Attendi](using/building-journeys/wait-activity.md)
+      + [Ottimizza](using/building-journeys/optimize.md)
+      + [Condizioni](using/building-journeys/conditions.md)
+      + [Attività Condizione](using/building-journeys/condition-activity.md)
       + [Leggi pubblico](using/building-journeys/read-audience.md)
+      + [Attendi](using/building-journeys/wait-activity.md)
+      + [Decisione sul contenuto](using/building-journeys/content-decision.md)
       + [Attività azione](using/building-journeys/journey-action.md)
       + [Azioni canale incorporate](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
-      + [Decisione sul contenuto](using/building-journeys/content-decision.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Salta](using/building-journeys/jump.md)

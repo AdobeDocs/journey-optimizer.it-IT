@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: ottimizzazione delle campagne, sperimentazione, targeting, test A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ Per impostare la sperimentazione e determinare quale messaggio determina il magg
    >
    >Se fai parte di un percorso, aggiungi un&#39;attività **[!UICONTROL Azione]**, scegli un&#39;attività canale e seleziona **[!UICONTROL Configura azione]**. [Ulteriori informazioni](../building-journeys/journey-action.md#add-action)
 
-1. Dalla scheda **[!UICONTROL Azioni]**, seleziona almeno due azioni in entrata, ad esempio [esperienza basata su codice](../code-based/get-started-code-based.md) e [In-app](../../rp_landing_pages/in-app-landing-page.md).
+1. Dalla scheda **[!UICONTROL Azioni]**, seleziona due azioni in entrata, ad esempio [esperienza basata su codice](../code-based/get-started-code-based.md) e [In-app](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Nella sezione **[!UICONTROL Ottimizzazione]**, seleziona **[!UICONTROL Crea esperimento]**.
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Scopri come sfruttare l’ottimizzazione dei messaggi nelle campagne attivate da azioni o da API. Scoprirai come eseguire il targeting dei tipi di pubblico secondari, creare varianti di messaggio per posizione, abilitare il contenuto di fallback ed eseguire più esperimenti all’interno di una singola campagna. Questo tutorial illustra anche come gestire le campagne multicanale mantenendo al contempo la coerenza dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470376?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
