@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
@@ -129,7 +129,7 @@ Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito
 
    >[!CAUTION]
    >
-   > La durata degli URL brevi è impostata su 15 giorni. Dopo questo periodo, questi URL brevi non saranno più accessibili e visualizzeranno il messaggio: `404 short-code not found`.
+   > La durata degli URL brevi è impostata su 30 giorni. Dopo questo periodo, questi URL brevi non saranno più accessibili e visualizzeranno il messaggio: `404 short-code not found`.
 
 1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell&#39;anteprima. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](#sms-mms-test).
 
