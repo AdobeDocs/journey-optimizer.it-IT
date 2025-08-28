@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, integrazione marketo engagement
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -48,6 +48,7 @@ In Journey Optimizer, devi configurare un’azione personalizzata per Marketo En
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 1. Verifica e configura i valori del payload
+
 Nota: per passare i valori in modo dinamico, per ogni campo cambia **Costante** in **Variabile**.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
