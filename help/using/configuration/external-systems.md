@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 26%
+source-wordcount: '1499'
+ht-degree: 24%
 
 ---
 
@@ -76,7 +76,15 @@ Per le **azioni personalizzate**, è necessario valutare la capacità dell’API
 >
 >Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
 
-## Timeout e nuovi tentativi{#timeout}
+## Endpoint con tempo di risposta lento {#response-time}
+
+Quando il tempo di risposta di un endpoint è superiore a 0,75 secondi, le relative chiamate di azione personalizzate vengono instradate attraverso un **servizio di azione personalizzata lenta dedicato** anziché il servizio predefinito.
+
+Questo servizio con azioni personalizzate lente applica un limite massimo di 150.000 chiamate ogni 30 secondi. Il limite viene applicato utilizzando una finestra scorrevole, che può iniziare a qualsiasi millisecondo entro tale periodo di 30 secondi. Una volta che la finestra è piena, le chiamate aggiuntive vengono rifiutate con errori di limite. Il sistema non attende l&#39;intervallo fisso successivo, ma inizia il limite subito dopo il raggiungimento della soglia di 30 secondi.
+
+Poiché gli endpoint lenti possono causare ritardi in tutte le azioni in coda nella pipeline, si consiglia di non configurare azioni personalizzate con endpoint che presentano tempi di risposta lenti. Il routing di tali azioni al servizio lento consente di proteggere le prestazioni complessive del sistema e impedisce l&#39;aggiunta di latenza per altre azioni personalizzate.
+
+## Timeout e nuovi tentativi {#timeout}
 
 Se la regola di limitazione o limite è soddisfatta, viene applicata la regola di timeout.
 
