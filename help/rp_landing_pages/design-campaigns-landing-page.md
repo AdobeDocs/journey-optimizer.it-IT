@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Attività di campagne orchestrate
 description: Attività di campagne orchestrate
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
-
 
 # Attività di campagne orchestrate{#section-overview}
 
@@ -20,7 +20,7 @@ Le attività orchestrate delle campagne in Adobe Journey Optimizer ti consentono
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utilizzare le attività della campagna orchestrata
 
@@ -30,7 +30,7 @@ Scopri le attività di targeting, canale e controllo del flusso per progettare e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo dell’attività AND-join
 
@@ -40,7 +40,7 @@ Sincronizzare più rami di esecuzione assicurandosi che le attività precedenti 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Crea attività pubblico
 
@@ -50,7 +50,7 @@ Definisci e configura i segmenti di pubblico per le campagne utilizzando l’att
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Cambia attività dimensione
 
@@ -60,7 +60,7 @@ Migliora il targeting spostandoti tra le entità dati all’interno della campag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Attività canale
 
@@ -70,7 +70,7 @@ Configura e-mail, SMS, notifiche push e direct mail per l’orchestrazione cross
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Combina attività
 
