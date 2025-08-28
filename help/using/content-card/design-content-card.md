@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +19,43 @@ Il costrutto di authoring per le schede fornisce un’esperienza di authoring ba
 
 Una volta definito e personalizzato il contenuto, puoi rivederlo e attivarlo. La campagna verrà inviata in base alla pianificazione impostata. [Ulteriori informazioni su questa pagina](../campaigns/review-activate-campaign.md).
 
+## Layout scheda contenuto
+
+![](assets/content-card-image.png)
+
+Dalla sezione **[!UICONTROL Layout scheda contenuto]**, scegli una delle tre opzioni di layout immagine in base ai requisiti di messaggistica.
+
+* **[!UICONTROL Immagine piccola]**: visualizza un&#39;immagine compatta accanto al testo, ideale per i messaggi in cui il contenuto ha la priorità sugli elementi visivi.
+
+* **[!UICONTROL Immagine grande]**: presenta un&#39;immagine prominente sopra o accanto al testo, rendendo gli elementi visivi l&#39;elemento attivo principale del messaggio.
+
+* **[!UICONTROL Solo immagine]**: mostra l&#39;immagine senza testo di accompagnamento, ideale per messaggi guidati da immagini o immagini autonome.
+
 ## Scheda Contenuto {#content-tab}
 
-Dalla scheda **[!UICONTROL Contenuto]**, puoi personalizzare le schede di contenuto definendone sia il contenuto che la struttura del pulsante **[!UICONTROL Chiudi]**. Inoltre, puoi migliorare i contenuti con i file multimediali e aggiungere pulsanti di azione direttamente da questa scheda.
+Dalla scheda **[!UICONTROL Contenuto]** è possibile personalizzare le schede di contenuto definendo il contenuto e aggiungendo supporti multimediali e pulsanti di azione direttamente da questa scheda.
+
+### Contenuto testo {#title-body}
+
+Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**.
+
+![](assets/content-card-design-2.png)
+
+Se desideri personalizzare ulteriormente il messaggio, utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere elementi personalizzati. Per istruzioni dettagliate su come utilizzare le funzionalità di personalizzazione, consulta [questa sezione](../personalization/personalize.md).
+
+### Media {#add-media}
+
+Il campo **[!UICONTROL Media]** consente di migliorare le schede di contenuto aggiungendo supporti, il che può rendere la presentazione più coinvolgente per gli utenti finali.
+
+![](assets/content-card-design-3.png)
+
+Per includere i file multimediali, digita l&#39;URL del file multimediale che desideri utilizzare o fai clic sull&#39;icona **[!UICONTROL Seleziona Assets]** per scegliere tra le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md).
+
++++Altre opzioni con formattazione avanzata
+
+Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi aggiungere un **[!UICONTROL testo alternativo]** per le applicazioni di lettura dello schermo e un&#39;altra risorsa nel campo **[!UICONTROL URL contenuto multimediale in modalità scura]**.
+
++++
 
 ### Chiudi pulsante {#close-button}
 
@@ -35,13 +69,7 @@ Puoi scegliere uno dei seguenti stili:
 * **[!UICONTROL Semplice]**
 * **[!UICONTROL Cerchio]**
 
-### Contenuto {#title-body}
 
-Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**.
-
-![](assets/content-card-design-2.png)
-
-Se desideri personalizzare ulteriormente il messaggio, utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere elementi personalizzati. Per istruzioni dettagliate su come utilizzare le funzionalità di personalizzazione, consulta [questa sezione](../personalization/personalize.md).
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### Media {#add-media}
 
-Il campo **[!UICONTROL Media]** consente di migliorare le schede di contenuto aggiungendo supporti, il che può rendere la presentazione più coinvolgente per gli utenti finali.
-
-![](assets/content-card-design-3.png)
-
-Per includere i file multimediali, digita l&#39;URL del file multimediale che desideri utilizzare o fai clic sull&#39;icona **[!UICONTROL Seleziona Assets]** per scegliere tra le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md).
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### Pulsanti {#add-buttons}
 
