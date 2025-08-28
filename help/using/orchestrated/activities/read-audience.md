@@ -4,16 +4,15 @@ product: journey optimizer
 title: Utilizzare l’attività Leggi pubblico
 description: Scopri come utilizzare l’attività Read audience in una campagna orchestrata
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 16%
+source-wordcount: '650'
+ht-degree: 11%
 
 ---
 
 
 # Leggi pubblico {#read-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -23,6 +22,20 @@ ht-degree: 16%
 L&#39;attività **[!UICONTROL Read audience]** consente di recuperare un pubblico esistente, salvato o importato in precedenza, e di riutilizzarlo all&#39;interno di una campagna orchestrata. Questa attività è particolarmente utile per il targeting di un set predefinito di profili senza la necessità di eseguire un nuovo processo di segmentazione.
 
 Una volta caricato il pubblico, puoi facoltativamente perfezionarlo selezionando un campo di identità univoco e arricchendo il pubblico con attributi di profilo aggiuntivi a scopo di targeting, personalizzazione o reporting.
+
+## Cache Read audience {#cache}
+
+Durante il test di una campagna orchestrata, l&#39;attività **[!UICONTROL Read Audience]** richiede in genere un po&#39; di tempo per recuperare i dati, il che può allungare l&#39;esecuzione dei test. Per velocizzare l&#39;operazione, è disponibile una cache **[!UICONTROL Read Audience]**.
+
+La cache memorizza il pubblico insieme agli attributi selezionati per **fino a due ore**. Durante questo periodo, qualsiasi esecuzione di test successiva può utilizzare i risultati memorizzati nella cache, evitando di dover recuperare nuovamente i dati. Trascorso il periodo di **due ore**, i dati devono essere recuperati nuovamente.
+
+La cache viene salvata per ogni campagna orchestrata, non per il pubblico stesso. Se lo stesso pubblico viene utilizzato in un&#39;attività **[!UICONTROL Read Audience]** all&#39;interno di un&#39;altra campagna orchestrata, il sistema dovrà comunque recuperare di nuovo i dati.
+
+La cache non viene conservata nei seguenti casi:
+
+* Quando l&#39;attività **[!UICONTROL Read Audience]** viene aggiornata con nuovi attributi, la cache viene aggiornata con i nuovi dati degli attributi. Di conseguenza, la prima esecuzione dei test dopo l’aggiornamento richiederà più tempo, in quanto i dati devono essere recuperati nuovamente.
+
+* Quando la campagna orchestrata viene pubblicata, vengono recuperati i dati più recenti durante l’esecuzione della campagna orchestrata live.
 
 ## Configurare l’attività Read audience {#read-audience-configuration}
 
@@ -48,7 +61,7 @@ Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Read audienc
 
    ![](../assets/read-audience-3.png)
 
-1. Seleziona [!UICONTROL Aggiungi attributo] per arricchire il pubblico selezionato con dati aggiuntivi. Questo passaggio ti consente di aggiungere attributi di profilo al pubblico, creando un elenco di destinatari migliorati con tali attributi.
+1. Seleziona **[!UICONTROL Aggiungi attributo]** per arricchire il pubblico selezionato con dati aggiuntivi. Questo passaggio ti consente di aggiungere attributi di profilo al pubblico, creando un elenco di destinatari migliorati con tali attributi.
 
 1. Scegli gli **[!UICONTROL Attributi]** da aggiungere al pubblico. Il selettore di attributi visualizza i campi dello **schema profilo di unione**:
 
