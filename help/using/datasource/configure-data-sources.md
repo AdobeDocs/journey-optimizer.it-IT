@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: dati, origine, configurazione, campo
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 8%
+source-wordcount: '615'
+ht-degree: 7%
 
 ---
 
@@ -60,7 +60,7 @@ Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nel c
 
 Puoi aggiungere o rimuovere campi da un gruppo di campi che non è utilizzato in alcun percorso in bozza o live.
 
-Puoi aggiungere ma non rimuovere un campo da un gruppo di campi utilizzato in uno o più percorsi in bozza o live. In questo modo si evitano percorsi.
+Se il gruppo di campi viene utilizzato in uno o più percorsi in bozza o live, puoi aggiungere in modo incrementale nuovi campi dallo schema selezionato, ma non puoi deselezionare, rimuovere o modificare campi già selezionati. Gli aggiornamenti a un gruppo di campi non sono consentiti se vengono modificati i campi dello schema esistenti già in uso dai percorsi in bozza o live, ad esempio se si modifica il tipo di dati di un campo. In questo modo si evitano percorsi
 
 Per eliminare un campo da un gruppo di campi utilizzato in uno o più percorsi, eseguire la procedura seguente. Utilizziamo un esempio di gruppo di campi denominato &quot;Gruppo di campi A&quot;.
 
