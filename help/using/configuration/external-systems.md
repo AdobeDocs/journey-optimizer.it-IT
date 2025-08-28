@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 24%
+source-wordcount: '1615'
+ht-degree: 22%
 
 ---
 
@@ -119,3 +119,14 @@ Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi 
 **Dove posso configurare il timeout? Esiste un valore massimo?**
 
 In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Consulta [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
+
+**Qual è il numero massimo di connessioni aperte da Journey Optimizer quando vengono utilizzate azioni personalizzate?**
+
+Con il proxy IP abilitato e una configurazione di limitazione definita sull’endpoint di destinazione, il numero di connessioni si basa sulla frequenza (stime, numeri non garantiti):
+
+* tra 200 e 2000 c/s: 50 collegamenti
+* tra 2000 e 3000: 75 collegamenti
+* tra 3000 e 4000: 100 collegamenti
+* tra 4000 e 5000: 125 collegamenti
+
+Se non è definita alcuna configurazione di limitazione su un endpoint, il motore di Journey Optimizer è progettato per aumentare la scalabilità e può raggiungere un numero elevato di connessioni (più di 2.000). Per ottenere un numero limitato di connessioni, i clienti devono utilizzare una configurazione di limitazione.
