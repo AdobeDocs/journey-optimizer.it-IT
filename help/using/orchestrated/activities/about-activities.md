@@ -4,10 +4,10 @@ product: journey optimizer
 title: Utilizzare le attività delle campagne orchestrate
 description: Scopri come orchestrare le attività delle campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 66%
+source-wordcount: '407'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,11 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 * [Attività di controllo del flusso](#flow-control)
 
 ![Elenco delle attività disponibili nell’area di lavoro](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>A seconda del modello di licenza, delle autorizzazioni e dell’implementazione, le attività disponibili possono variare.
 
 ## Attività di targeting {#targeting}
 
