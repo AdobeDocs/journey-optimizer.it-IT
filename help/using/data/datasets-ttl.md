@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 18%
@@ -76,13 +76,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target=_blank}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -99,7 +99,7 @@ Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i
   >
   >Un TTL è già implementato nella connessione [!DNL Customer Journey Analytics] (CJA), che riduce a 13 mesi il periodo di look-back massimo effettivo dei dati del set di dati interessati.
 
-* **Origine dati Experience Platform**: sì - Il recupero degli eventi di esperienza è soggetto al TTL di 90 giorni.
+* **Origine dati di Experience Platform**: non applicabile - Il recupero degli eventi di esperienza non è supportato tramite origini dati.
 * **Attributi calcolati**: sì - Il calcolo della retrocompilazione iniziale sarà limitato agli ultimi 90 giorni di dati; l&#39;attributo calcolato verrà aggiornato in base agli eventi incrementali per gli aggiornamenti successivi. Non appena gli aggiornamenti successivi raggiungono il periodo di look-back (massimo 6 mesi), il TTL essenzialmente non influisce più sull’attributo calcolato. Scopri di più.
 * **Segmentazione e retargeting**: sì - La segmentazione dipende dai dati nell&#39;archivio dei profili; pertanto, il lookback è limitato a 90 giorni sui dati del set di dati interessati.
 * **Tracciamento**: sì - Riduce a 90 giorni il periodo di look-back massimo effettivo dei dati del set di dati interessati. I dati dei set di dati interessati rimangono per 13 mesi nel data lake.
