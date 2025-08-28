@@ -4,10 +4,10 @@ product: journey optimizer
 title: Avviare e monitorare le campagne orchestrate con Adobe Journey Optimizer
 description: Scopri come avviare e monitorare le campagne orchestrate con Adobe Journey Optimizer.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ Per verificare una campagna orchestrata, aprire la campagna e selezionare **[!UI
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine del diagramma. Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui, puoi:
+Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine dell’area di lavoro. Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui, puoi:
 
 * **Interrompere** l’esecuzione in qualsiasi momento.
 * **Avviare** di nuovo l’esecuzione.
@@ -115,4 +115,4 @@ In entrambe le schede, puoi scegliere le colonne visualizzate e il rispettivo or
 
 ## Passaggi successivi {#next}
 
-Dopo aver avviato il diagramma Orchestrated Campaign, puoi utilizzare le funzionalità di reporting di Journey Optimizer per ottenere informazioni quali comprendere il comportamento del pubblico e misurare le prestazioni di ogni passaggio nel percorso di clienti. [Ulteriori informazioni sul reporting delle campagne orchestrate](../orchestrated/reporting-campaigns.md)
+Dopo aver avviato l’area di lavoro della campagna orchestrata, puoi utilizzare le funzionalità di reporting di Journey Optimizer per ottenere informazioni quali comprendere il comportamento del pubblico e misurare le prestazioni di ogni passaggio nel percorso di clienti. [Ulteriori informazioni sul reporting delle campagne orchestrate](../orchestrated/reporting-campaigns.md)

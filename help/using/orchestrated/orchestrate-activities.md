@@ -4,27 +4,27 @@ product: journey optimizer
 title: Creare campagne orchestrate con Adobe Journey Optimizer
 description: Scopri come creare campagne orchestrate con Adobe Journey Optimizer
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 56%
+source-wordcount: '886'
+ht-degree: 50%
 
 ---
 
 
 # Attività di campagne orchestrate {#orchestrate}
 
-Dopo aver [creato una campagna orchestrata](gs-campaign-creation.md), puoi iniziare a orchestrare le diverse attività che eseguirà. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma orchestrato per una campagna. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale.
+Dopo aver [creato una campagna orchestrata](gs-campaign-creation.md), puoi iniziare a orchestrare le diverse attività che eseguirà. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un’area di lavoro orchestrata per una campagna. All’interno di questa area di lavoro, puoi aggiungere varie attività e collegarle in ordine sequenziale.
 
 ## Aggiungere attività {#add}
 
-In questa fase della configurazione, il diagramma viene visualizzato con un’icona iniziale che rappresenta l’inizio della campagna orchestrata. Per aggiungere la prima attività, fai clic sul pulsante **+** collegato all’icona di avvio.
+In questa fase della configurazione, l’area di lavoro della campagna orchestrata viene visualizzata con un’icona iniziale che rappresenta l’inizio della campagna orchestrata. Per aggiungere la prima attività, fai clic sul pulsante **+** collegato all’icona di avvio.
 
-Viene visualizzato un elenco di attività che possono essere aggiunte al diagramma. Le attività disponibili dipendono dalla posizione all’interno del diagramma Orchestrated Campaign. Ad esempio, quando aggiungi la prima attività, puoi avviare la campagna orchestrata eseguendo il targeting di un pubblico, suddividendo il percorso della campagna orchestrata o impostando un&#39;attività **Attendi** per ritardare l&#39;esecuzione della campagna orchestrata. Al contrario, dopo un&#39;attività di **Generazione pubblico**, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo della campagna orchestrata con le attività di controllo del flusso.
+Viene visualizzato un elenco di attività che possono essere aggiunte all’area di lavoro della campagna orchestrata. Le attività disponibili dipendono dalla tua posizione all’interno dell’area di lavoro della campagna orchestrata. Ad esempio, quando aggiungi la prima attività, puoi avviare la campagna orchestrata eseguendo il targeting di un pubblico, suddividendo il percorso della campagna orchestrata o impostando un&#39;attività **Attendi** per ritardare l&#39;esecuzione della campagna orchestrata. Al contrario, dopo un&#39;attività di **Generazione pubblico**, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo della campagna orchestrata con le attività di controllo del flusso.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Una volta aggiunta un’attività al diagramma, viene visualizzato un riquadro a destra che consente di configurarla con impostazioni specifiche. Informazioni dettagliate su come configurare ogni attività sono disponibili in [questa sezione](activities/about-activities.md).
+Dopo aver aggiunto un’attività all’area di lavoro, viene visualizzato un riquadro a destra che consente di configurarla con impostazioni specifiche. Informazioni dettagliate su come configurare ogni attività sono disponibili in [questa sezione](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -85,7 +85,7 @@ Per incollare le attività, fai clic sul pulsante **+** su una transizione e sel
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-## Esempio di diagramma {#example}
+## Esempio di area di lavoro {#example}
 
 Di seguito è riportato un esempio di campagna orchestrata progettata per inviare un’e-mail a tutti i clienti che hanno effettuato un acquisto di almeno 100$, escludendo al contempo tutti i clienti che hanno meno di 50 punti fedeltà.
 
@@ -106,4 +106,4 @@ A questo scopo, sono state aggiunte le seguenti attività:
 
 ## Passaggi successivi {#next}
 
-Dopo aver progettato correttamente il diagramma della campagna orchestrata, puoi eseguire la campagna orchestrata e tenere traccia dell’avanzamento delle sue varie attività. [Scopri come avviare una campagna orchestrata e monitorarne l&#39;esecuzione](start-monitor-campaigns.md)
+Dopo aver progettato correttamente l’area di lavoro della campagna orchestrata, puoi eseguire la campagna orchestrata e tenere traccia dell’avanzamento delle sue varie attività. [Scopri come avviare una campagna orchestrata e monitorarne l&#39;esecuzione](start-monitor-campaigns.md)

@@ -5,10 +5,10 @@ title: Introduzione alle campagne orchestrate
 description: Scopri come iniziare a utilizzare le campagne orchestrate
 short-description: Scopri le funzioni chiave e i casi d’uso delle campagne orchestrate.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,9 +64,9 @@ L’area di lavoro della campagna orchestrata è una rappresentazione di ciò ch
 
 Ogni campagna orchestrata contiene:
 
-* **Attività**: un’attività è un’attività da eseguire. Le varie attività disponibili sono rappresentate nel diagramma tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
+* **Attività**: un’attività è un’attività da eseguire. Le varie attività sono rappresentate nell’area di lavoro da icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
 
-  In un diagramma della campagna orchestrata, una determinata attività può produrre più attività, in particolare in presenza di un ciclo o di azioni ricorrenti.
+  In un’area di lavoro della campagna orchestrata, una determinata attività può produrre più attività, in particolare quando vi è un ciclo continuo o azioni ricorrenti.
 
 * **Transizioni**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza.
 
