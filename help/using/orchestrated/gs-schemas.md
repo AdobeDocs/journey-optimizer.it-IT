@@ -4,10 +4,10 @@ product: journey optimizer
 title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '236'
+ht-degree: 31%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 3%
 Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per le campagne orchestrate e acquisire i dati.
 
 ![](assets/do-not-localize/schema_admin.png)
+
+Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I dati acquisiti correttamente in Experience Platform vengono memorizzati nel data lake come set di dati.
+
+Uno schema rappresenta e convalida la struttura e il formato dei dati. Fornisce una definizione astratta di un oggetto reale (come una persona) e delinea quali dati devono essere inclusi in ogni istanza di tale oggetto (come nome, data di nascita e così via).
+
 
 1. Crea [schema relazionale manualmente](manual-schema.md) o [utilizzando un file DDL](file-upload-schema.md)
 

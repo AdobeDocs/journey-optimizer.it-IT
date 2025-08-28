@@ -4,9 +4,9 @@ product: journey optimizer
 title: Creare la dimensione di targeting
 description: Scopri come mappare uno schema relazionale al profilo cliente
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurare una dimensione di targeting {#configuration}
 
-Con **[!UICONTROL Campagne orchestrate]**, puoi progettare e distribuire comunicazioni mirate a livello di entità, sfruttando le funzionalità dello schema relazionale di Adobe Experience Platform.
+Con **[!UICONTROL Campagne orchestrate]**, puoi progettare e distribuire comunicazioni mirate a livello di entità, sfruttando le funzionalità dello schema relazionale di Adobe Experience Platform. Experience Platform utilizza gli schemi per descrivere la struttura dei dati in modo coerente e riutilizzabile. Quando i dati vengono acquisiti in Experience Platform, sono strutturati in base a uno schema XDM.
 
 Anche se la segmentazione per **[!UICONTROL Campagne orchestrate]** opera principalmente su schemi relazionali, la consegna effettiva dei messaggi avviene sempre al livello **Profilo**.
 
@@ -30,7 +30,7 @@ Durante la configurazione del targeting, puoi definire due aspetti chiave:
 
 * **Collegamento profilo**
 
-  Il sistema deve capire come lo schema di destinazione viene mappato a `Profile`. Ciò si ottiene tramite un campo di identità condiviso, esistente sia nello schema di destinazione che nello schema `Profile`, configurato come spazio dei nomi dell&#39;identità.
+  Il sistema deve capire come lo schema di destinazione viene mappato allo schema `Profile`. Ciò si ottiene tramite un campo di identità condiviso, esistente sia nello schema di destinazione che nello schema `Profile`, configurato come spazio dei nomi dell&#39;identità.
 
 ## Creare la dimensione di targeting {#targeting-dimension}
 
@@ -50,7 +50,7 @@ Per iniziare, imposta l’orchestrazione delle campagne mappando uno schema rela
 
    In questo esempio, il profilo cliente è collegato a più sottoscrizioni, ognuna rappresentata da un `crmID` univoco nello schema `Recipient`. Impostando lo schema **[!UICONTROL e la relativa identità]** per `Recipient`Dimension`crmID` di destinazione, è possibile inviare messaggi a livello di sottoscrizione anziché al profilo cliente principale, garantendo che ogni contratto o linea riceva il proprio messaggio personalizzato.
 
-   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity)
+   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 

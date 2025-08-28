@@ -4,10 +4,10 @@ product: journey optimizer
 title: Utilizzare le attività delle campagne orchestrate
 description: Scopri come orchestrare le attività delle campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,8 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 
 ![Elenco delle attività di targeting](../assets/targeting-activities.png){width="40%" align="left"}
 
+Le attività di targeting disponibili sono:
+
 * [Crea pubblico](build-audience.md): definisci la popolazione target Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
 * [Modifica dimensione](change-dimension.md): modifica la dimensione di targeting durante la creazione della campagna orchestrata.
 * [Combina](combine.md): esegui la segmentazione della popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
@@ -49,9 +51,11 @@ Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di market
 >title="Attività Fine"
 >abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
 
-![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="30%" align="left"}
+Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il loro compito principale è quello di coordinare le altre attività.
 
-Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il compito principale è quello di coordinare le altre attività:
+![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="20%" align="left"}
+
+Le attività di controllo del flusso disponibili sono:
 
 * [And-join](and-join.md): sincronizza più rami di esecuzione di una campagna orchestrata.
 * [Fork](fork.md): crea transizioni in uscita per avviare più attività contemporaneamente.
