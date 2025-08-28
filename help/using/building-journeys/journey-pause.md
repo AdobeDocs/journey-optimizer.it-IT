@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="Mettere in pausa il percorso"
 >abstract="Metti in pausa un percorso live per impedire l’ingresso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli dove sono. Se vengono mantenuti, una volta riavviato il percorso la sua esecuzione riprenderà dall’attività dell’azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
-Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-global-filters) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
+Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
 
 
@@ -113,7 +113,7 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
 
 
-## Applicare un criterio di uscita in un percorso in pausa {#journey-global-filters}
+## Applicare un criterio di uscita in un percorso in pausa {#journey-exit-criteria}
 
 Quando un percorso viene messo in pausa, puoi applicare un criterio di uscita in base agli attributi del profilo. Questo filtro abilita l’esclusione dei profili che corrispondono all’espressione definita al momento della ripresa. Una volta impostati i criteri di uscita basati sull’attributo del profilo, questo verrà applicato ai nodi di azione, anche per l’ingresso di nuovi profili. I profili esistenti che corrispondono ai criteri e i nuovi profili che entrano nel percorso verranno esclusi dal percorso **nel nodo azione successivo** incontrato.
 
@@ -123,7 +123,7 @@ Ad esempio, per escludere tutti i clienti francesi da un percorso in pausa, effe
 
 1. Seleziona l&#39;icona **Criteri di uscita**.
 
-   ![Aggiungere un attributo di profilo criteri di uscita a un percorso in pausa](assets/add-global-filter.png)
+   ![Aggiungere un attributo di profilo criteri di uscita a un percorso in pausa](assets/add-exit-criteria.png)
 
 1. Nelle impostazioni **Criteri di uscita**, fare clic su **Aggiungi criteri di uscita** per definire un filtro basato sugli attributi del profilo.
 
