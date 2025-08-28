@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 13%
+source-wordcount: '437'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,14 @@ Questa funzione è particolarmente utile per prevenire il sovraccarico sui siste
 
 Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL Limita consegna]** nella sezione **[!UICONTROL Impostazioni consegna]** e specifica la **[!UICONTROL Velocità di consegna]** al secondo desiderata.
 
+* Velocità minima di consegna supportata: 1 al secondo.
+* Velocità massima di consegna supportata: 2000 al secondo quando l’opzione &quot;Limita consegna&quot; è abilitata.
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Quando si imposta una frequenza di consegna, l’intervallo di tempo massimo per il quale il pubblico della campagna può essere eseguito è di 12 ore. Se la velocità di consegna è impostata su un valore che non consente a tutto il pubblico di ricevere il messaggio nell’arco di 12 ore, i profili rimanenti vengono esclusi dalla campagna. Puoi visualizzare il conteggio di questi profili esclusi nel rapporto della campagna.
 
 ## Impostare una frequenza di esecuzione
 

@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '315'
 ht-degree: 1%
 
 ---
@@ -38,9 +38,16 @@ L&#39;opzione **[!UICONTROL Fine campagna]** consente di specificare quando inte
 
 Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. Ad esempio, puoi impostare un limite di velocità di 165 messaggi al secondo per garantire una consegna costante senza sovraccaricare i sistemi a valle.
 
-Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL Limita consegna]** nella sezione **[!UICONTROL Impostazioni di consegna]** e specifica la **[!UICONTROL Velocità di consegna]** desiderata.
+Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL Limita consegna]** nella sezione **[!UICONTROL Impostazioni consegna]** e specifica la **[!UICONTROL Velocità di consegna]** al secondo desiderata.
+
+* Velocità minima di consegna supportata: 1 al secondo.
+* Velocità massima di consegna supportata: 2000 al secondo quando l’opzione &quot;Limita consegna&quot; è abilitata.
 
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Quando si imposta una frequenza di consegna, l’intervallo di tempo massimo per il quale il pubblico della campagna può essere eseguito è di 12 ore. Se la velocità di consegna è impostata su un valore che non consente a tutto il pubblico di ricevere il messaggio nell’arco di 12 ore, i profili rimanenti vengono esclusi dalla campagna. Puoi visualizzare il conteggio di questi profili esclusi nel rapporto della campagna.
 
 ## Passaggi successivi {#next}
 
