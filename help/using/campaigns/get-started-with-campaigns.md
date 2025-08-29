@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Controllo della tariffa"
->abstract="Imposta il controllo della tariffa per la campagna specificando i limiti di tariffa desiderati. Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti."
+>title="Controllo della frequenza"
+>abstract="Imposta il controllo della frequenza per la campagna specificando i limiti della frequenza desiderati. Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"

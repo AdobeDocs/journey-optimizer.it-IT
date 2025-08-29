@@ -263,7 +263,7 @@ Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Criteri di uscita"
->abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole e filtri per i criteri di uscita per il percorso."
+>abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole e uno o più filtri per i criteri di uscita del percorso."
 
 ### Criteri di uscita dal percorso {#exit-criteria-desc}
 
