@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 47%
 
 ---
@@ -73,7 +73,11 @@ Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagan
 
 Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentano un payload contenente [!DNL Journey Optimizer] eventID (vedi il processo di creazione degli eventi illustrato di seguito) forniti da [!DNL Journey Optimizer] e contenuti nel payload degli eventi. Per gli eventi basati su regole, il sistema identifica l’evento utilizzando la condizione eventID. [!DNL Journey Optimizer] fa da listener agli eventi, il che attiva il percorso corrispondente.
 
-## Aggiornamento ed eliminazione di un evento
+## Aggiornamento ed eliminazione di un evento {#update-event}
+
+
+## Aggiornamento ed eliminazione di un evento {#update-event}
+
 
 Per evitare di interrompere i percorsi esistenti, quando modifichi un evento utilizzato in un percorso in stato Bozza, Live o Chiuso, puoi modificare solo il nome, la descrizione o aggiungere campi payload.
 
@@ -83,8 +87,8 @@ Qualsiasi evento utilizzato nei percorsi live, in bozza o chiusi non può essere
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
