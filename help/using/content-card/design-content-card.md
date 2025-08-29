@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '555'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,15 @@ Dalla sezione **[!UICONTROL Layout scheda contenuto]**, scegli una delle tre opz
 
 * **[!UICONTROL Immagine piccola]**: visualizza un&#39;immagine compatta accanto al testo, ideale per i messaggi in cui il contenuto ha la priorità sugli elementi visivi.
 
+  Per ulteriori informazioni, consulta la documentazione di Adobe Developer [per iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) e [per Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
+
 * **[!UICONTROL Immagine grande]**: presenta un&#39;immagine prominente sopra o accanto al testo, rendendo gli elementi visivi l&#39;elemento attivo principale del messaggio.
 
+  Per ulteriori informazioni, consulta la documentazione di Adobe Developer [per iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) e [per Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
+
 * **[!UICONTROL Solo immagine]**: mostra l&#39;immagine senza testo di accompagnamento, ideale per messaggi guidati da immagini o immagini autonome.
+
+  Per ulteriori informazioni, consulta la documentazione di Adobe Developer [per iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) e [per Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
 
 ## Scheda Contenuto {#content-tab}
 
@@ -37,17 +43,17 @@ Dalla scheda **[!UICONTROL Contenuto]** è possibile personalizzare le schede di
 
 ### Contenuto testo {#title-body}
 
-Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**.
-
 ![](assets/content-card-design-2.png)
+
+Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**.
 
 Se desideri personalizzare ulteriormente il messaggio, utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere elementi personalizzati. Per istruzioni dettagliate su come utilizzare le funzionalità di personalizzazione, consulta [questa sezione](../personalization/personalize.md).
 
 ### Media {#add-media}
 
-Il campo **[!UICONTROL Media]** consente di migliorare le schede di contenuto aggiungendo supporti, il che può rendere la presentazione più coinvolgente per gli utenti finali.
-
 ![](assets/content-card-design-3.png)
+
+Il campo **[!UICONTROL Media]** consente di migliorare le schede di contenuto aggiungendo supporti, il che può rendere la presentazione più coinvolgente per gli utenti finali.
 
 Per includere i file multimediali, digita l&#39;URL del file multimediale che desideri utilizzare o fai clic sull&#39;icona **[!UICONTROL Seleziona Assets]** per scegliere tra le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md).
 
@@ -57,11 +63,38 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi agg
 
 +++
 
-### Chiudi pulsante {#close-button}
+### Pulsanti {#add-buttons}
+
+![](assets/content-card-design-4.png)
+
+Aggiungi i pulsanti per consentire agli utenti di interagire con le tue schede di contenuto.
+
+1. Fai clic su **[!UICONTROL Aggiungi pulsante]** per creare un nuovo pulsante di azione.
+
+1. Modifica il campo **[!UICONTROL Titolo]** del pulsante per specificare l&#39;etichetta che verrà visualizzata sul pulsante.
+
+1. Seleziona un **[!UICONTROL evento di interazione]** per definire l&#39;azione che verrà attivata quando gli utenti fanno clic sul pulsante o interagiscono con esso.
+
+1. Nel campo **[!UICONTROL Target]**, immetti l&#39;URL web o il collegamento diretto al quale gli utenti verranno indirizzati dopo aver interagito con il pulsante.
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
+
++++
+-->
+
+### Pulsante Ignora {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-Scegli lo **[!UICONTROL stile]** per il **[!UICONTROL pulsante Chiudi]** per personalizzarne l&#39;aspetto.
+Scegli lo **[!UICONTROL stile]** per il **[!UICONTROL pulsante Ignora]** per personalizzarne l&#39;aspetto.
 
 Puoi scegliere uno dei seguenti stili:
 
@@ -84,33 +117,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 -->
 
 
-
-### Pulsanti {#add-buttons}
-
-Aggiungi i pulsanti per consentire agli utenti di interagire con le tue schede di contenuto.
-
-![](assets/content-card-design-4.png)
-
-1. Fai clic su **[!UICONTROL Aggiungi pulsante]** per creare un nuovo pulsante di azione.
-
-1. Modifica il campo **[!UICONTROL Titolo]** del pulsante per specificare l&#39;etichetta che verrà visualizzata sul pulsante.
-
-1. Seleziona un **[!UICONTROL evento di interazione]** per definire l&#39;azione che verrà attivata quando gli utenti fanno clic sul pulsante o interagiscono con esso.
-
-1. Nel campo **[!UICONTROL Target]**, immetti l&#39;URL web o il collegamento diretto al quale gli utenti verranno indirizzati dopo aver interagito con il pulsante.
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
-
-* the **[!UICONTROL Font]**
-* the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Font Color]**
-* the **[!UICONTROL Alignment]**
-
-+++
--->
 
 ### Comportamento al clic
 
