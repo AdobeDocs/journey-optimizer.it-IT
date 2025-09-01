@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: e038518296749b820c879f70a2272f936390a15f
+source-git-commit: d910b90bbc2bd4276ea197e7caf7854b7e3aa953
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 93%
+source-wordcount: '824'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 L’Assistente IA in Adobe Journey Optimizer, basato su Microsoft Azure OpenAI e Adobe Firefly, offre suggerimenti proattivi per creare varianti di contenuti di testo e immagini. Questa nuova funzionalità fornisce una **generazione di testo e immagini basata su prompt**. La generazione di immagini è gestita con Adobe Firefly.
 
-L&#39;Assistente AI supporta la generazione di **in più lingue**, consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali.
+L&#39;Assistente per l&#39;intelligenza artificiale supporta la generazione **in più lingue**, tra cui francese, spagnolo, tedesco, italiano, giapponese, svedese, olandese o norvegese, consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali.
 
 Utilizza l’Assistente IA in Adobe Journey Optimizer per ottimizzare l’impatto del messaggio sperimentando con diversi titoli e immagini. Genera più varianti e crea un esperimento per confrontarle. Sfruttando **Journey Optimizer Content Experiment**, puoi definire più trattamenti per messaggi per misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio nei termini della metrica specificata. Per ulteriori informazioni sull’esperimento contenuti, consulta [questa sezione](../content-management/content-experiment.md).
 
