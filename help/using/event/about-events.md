@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
+source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 47%
@@ -30,7 +30,6 @@ Nella configurazione dell’evento, puoi configurare gli eventi previsti nei per
 La configurazione dell&#39;evento è **obbligatoria** e deve essere eseguita da un tecnico dati.
 
 È possibile configurare due tipi di eventi: **Eventi unitari** e **Eventi aziendali**.
-
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -76,16 +75,16 @@ Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentan
 ## Aggiornamento ed eliminazione di un evento {#update-event}
 
 
-Per evitare di interrompere i percorsi esistenti, quando modifichi un evento utilizzato in un percorso in stato Bozza, Live o Chiuso, puoi modificare solo il nome, la descrizione o aggiungere campi payload.
+Per evitare di interrompere i percorsi esistenti, quando modifichi un evento utilizzato in un percorso **Bozza**, **Live** o **Chiuso**, puoi modificare solo il nome, la descrizione o aggiungere campi payload.
 
-Qualsiasi evento utilizzato nei percorsi live, in bozza o chiusi non può essere eliminato. Per eliminare un evento utilizzato, è necessario interrompere l&#39;utilizzo dei percorsi e/o rimuoverlo dai percorsi 2D in cui viene utilizzato. Puoi controllare il campo **[!UICONTROL Usato in]**. Viene visualizzato il numero di percorsi che utilizzano quel particolare evento. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
+Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non può essere eliminato. Per eliminare un evento utilizzato, è necessario interrompere l&#39;utilizzo dei percorsi e/o rimuoverlo dai percorsi 2D in cui viene utilizzato. Puoi controllare il campo **[!UICONTROL Usato in]**. Viene visualizzato il numero di percorsi che utilizzano quel particolare evento. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 
 ## Video sulle procedure {#video}
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

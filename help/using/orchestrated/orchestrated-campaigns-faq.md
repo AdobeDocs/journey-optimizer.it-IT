@@ -6,9 +6,9 @@ description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,13 @@ Di seguito sono riportate le domande frequenti sulle campagne orchestrate di Ado
 
 Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback in fondo a questa pagina per sollevare la tua domanda.
 
-## Cosa sono le campagne orchestrate?
+## Cosa sono le campagne orchestrate? {#what-are-oc}
 
 Le campagne orchestrate in Adobe Journey Optimizer aiutano i brand a eseguire campagne di marketing uno-a-molti complesse su larga scala. Sono progettati per il coinvolgimento avviato dal marchio, ad esempio promozioni, campagne stagionali o comunicazioni basate su account.
 
-## Cosa posso fare con le campagne orchestrate?
+Rispetto alle campagne a invio singolo, portano **orchestrazione e sequenza** al marketing in uscita: i tipi di pubblico passano attraverso un flusso di lavoro con più passaggi insieme, anziché ricevere un&#39;esplosione una tantum.
+
+## Cosa posso fare con le campagne orchestrate? {#what-can-i-do}
 
 Le funzionalità principali includono:
 
@@ -32,44 +34,130 @@ Le funzionalità principali includono:
 * **Visibilità pre-invio**: consulta conteggi accurati del pubblico prima dell&#39;avvio per ottimizzare il targeting.
 * **Flussi di lavoro a più passaggi**: esegui campagne in sequenza, ad esempio promozioni stagionali, avvii di prodotti o offerte fedeltà.
 
+>[!BEGINSHADEBOX]
 
-## Quali canali sono supportati?
+**Procedure consigliate**
+
+* Definisci un **obiettivo campagna di cancellazione** prima di progettare flussi di lavoro.
+* Inizia con un **pubblico pilota** per convalidare i conteggi e la logica prima del ridimensionamento.
+* Mantieni le regole di segmentazione **il più semplice possibile** per ottimizzare le prestazioni e la trasparenza.
+* Utilizza **convenzioni di denominazione coerenti** per tipi di pubblico e campagne per semplificare la gestione.
+
+>[!ENDSHADEBOX]
+
+
+## Quali canali sono supportati? {#channels}
 
 Le campagne orchestrate supportano **notifiche e-mail, SMS e push**.
 
-## Quali sono le differenze tra le campagne orchestrate e i Percorsi?
+>[!BEGINSHADEBOX]
+
+**Consigli**
+
+* Abbina il canale alla natura **del messaggio** (ad esempio, urgente = SMS, offerte personalizzate = e-mail, contestuale = push).
+* Convalida sempre le preferenze di consenso e abbonamento prima di attivare un canale.
+* Test del rendering dei messaggi su più dispositivi e client per garantire un&#39;esperienza coerente.
+
+>[!ENDSHADEBOX]
+
+## Quali sono le differenze tra le campagne orchestrate e i Percorsi? {#oc-vs-journeys}
 
 * **Campagne orchestrate**: ideale per **campagne batch, uno-a-molti**. Interi tipi di pubblico si spostano nell’area di lavoro della campagna insieme.
 * **Percorsi**: soluzione ottimale per **coinvolgimento in tempo reale uno a uno**. Ogni cliente si sposta all’interno del percorso secondo il proprio ritmo, attivato da comportamenti o eventi.
 
+>[!BEGINSHADEBOX]
 
-## Come funziona il modello dati?
+**Suggerimento** - Molte organizzazioni utilizzano **entrambi insieme**, ovvero Percorsi per esperienze attivate, reattive e campagne orchestrate per iniziative pianificate basate su calendario.
 
-Le campagne utilizzano un **database relazionale**. Questo ti consente di eseguire query su diversi set di dati (ad esempio clienti, prodotti, abbonamenti) e di collegarli in modo flessibile per una segmentazione più avanzata.
+>[!ENDSHADEBOX]
 
+## Come funziona il modello dati? {#data-model}
 
-## Posso personalizzare i messaggi con questi dati?
+Le campagne utilizzano un **database relazionale**. Questo consente di eseguire query su diversi set di dati (ad esempio clienti, prodotti, abbonamenti) e di collegarli in modo flessibile per la segmentazione avanzata.
+
+>[!BEGINSHADEBOX]
+
+**Procedure consigliate**
+
+* Organizza i set di dati in modo che **relazioni (join)** riflettano la logica di business.
+* Evitare join non necessari per mantenere le query performanti.
+* Convalidare i risultati del campione prima di eseguire estrazioni su larga scala.
+
+>[!ENDSHADEBOX]
+
+## Posso personalizzare i messaggi con questi dati? {#personalization}
 
 Sì.  Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
 
+>[!BEGINSHADEBOX]
 
-## Si integra con altre soluzioni Adobe?
+**Consigli**
+
+* Utilizza **dati transazionali e comportamentali** per rendere le offerte rilevanti.
+* Combina **attributi statici** (ad esempio, livello fedeltà) con **attributi dinamici** (ad esempio, data ultimo acquisto).
+* Personalizzazione concisa: il sovraccarico dei messaggi con i dati può danneggiare la leggibilità.
+
+>[!ENDSHADEBOX]
+
+
+## Si integra con altre soluzioni Adobe? {#integrations}
 
 * **Customer Journey Analytics**: sono disponibili i report di orchestrazione campagna.
 * **Real-Time CDP**: i tipi di pubblico generati nelle campagne possono essere letti in CDP.
 * **Federated Audience Composition (FAC)**: disponibile come componente aggiuntivo.
 
-
-## E le autorizzazioni e il consenso?
+## E le autorizzazioni e il consenso? {#permissions}
 
 Le autorizzazioni e il consenso sono gestiti centralmente in Adobe Experience Platform. Le stesse regole si applicano sia nei Percorsi che nelle campagne orchestrate per garantire la conformità e la coerenza dell’esperienza del cliente.
 
+>[!BEGINSHADEBOX]
 
-## Posso eseguire la segmentazione ad hoc?
+**Procedure consigliate**
+
+* Applica **governance centralizzata**: evita di gestire separatamente il consenso a livello di campagna.
+* Controlla periodicamente i dati del consenso per rilevare incongruenze.
+* Rispetta **rinunce specifiche per il canale**. Non presumere che il consenso globale copra tutti i canali.
+
+>[!ENDSHADEBOX]
+
+## Posso eseguire la segmentazione ad hoc? {#ad-hoc}
 
 Sì.  Con **Segmentazione in tempo reale**, puoi creare query complesse sul posto e attivarle immediatamente tra i canali in uscita.
 
-## Questo supporta le decisioni?
+>[!BEGINSHADEBOX]
+
+**Suggerimenti**
+
+* Utilizza la segmentazione ad hoc per **esigenze urgenti** (ad esempio, promozioni flash).
+* Salva e documenta le query utili in modo che possano essere riutilizzate nelle campagne future.
+* Convalida il conteggio del pubblico prima dell’attivazione per evitare invii insufficienti o eccessivi.
+
+>[!ENDSHADEBOX]
+
+## Questo supporta le decisioni? {#decisioning}
 
 Attualmente, il processo decisionale non utilizza dati relazionali provenienti da campagne orchestrate.
 
+## Come funziona l’implementazione in ambienti diversi? {#deployment}
+
+Gli oggetti creati nelle campagne orchestrate (ad esempio, tipi di pubblico e flussi di lavoro) sono legati alla sandbox in cui vengono generati. I flussi di lavoro standard per la creazione di pacchetti e l’implementazione in ambienti diversi (dev, stage, prod) non sono attualmente disponibili per le campagne orchestrate.
+
+>[!BEGINSHADEBOX]
+
+**Procedure consigliate**
+
+* Gestisci **sandbox separate** per sperimentazione, controllo qualità e produzione.
+* Configurazioni dei documenti complete per abilitare la replica manuale, se necessario.
+* Allineati ai team di governance per ridurre la deviazione della configurazione tra gli ambienti.
+
+>[!ENDSHADEBOX]
+
+## Esistono procedure consigliate per l’esecuzione di campagne su larga scala? {#scale}
+
+Sì, segui le best practice riportate di seguito:
+
+* **Pianifica le campagne relative ai calendari aziendali** (lanci di prodotti, picchi stagionali) per allineare volume e risorse.
+* Utilizza **anteprime del pubblico** prima di inviare per confermare le dimensioni previste ed evitare sorprese.
+* Se possibile, **scagliona i tempi di invio** per evitare di sovraccaricare i sistemi a valle (ad esempio call center, siti Web).
+* Stabilisci una **routine di monitoraggio**—tieni traccia dei registri di consegna, dei tassi di errore e delle rinunce dopo ogni invio.
+* Esegui **analisi post-campagna** in Customer Journey Analytics per perfezionare il targeting e l&#39;orchestrazione per il ciclo successivo.
