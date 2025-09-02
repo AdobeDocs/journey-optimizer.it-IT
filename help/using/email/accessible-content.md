@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 0%
@@ -33,7 +33,6 @@ Il [!DNL Journey Optimizer] [Messaggio e-mail Designer](content-from-scratch.md)
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
@@ -325,7 +324,9 @@ Gli assistenti vocali leggono:
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Fornire supporto per la navigazione da tastiera e lo stato attivo <!--for landing pages--> {#keyboard}
+## Supporto per la navigazione da tastiera e la messa a fuoco {#keyboard}
+
+<!--for landing pages-->
 
 Il supporto per la navigazione da tastiera e l&#39;attivazione della tastiera consente agli utenti che non possono utilizzare il mouse di accedere e interagire completamente con il contenuto. Inoltre, migliora l’usabilità complessiva offrendo a tutti gli utenti un modo chiaro e coerente di passare alle informazioni.
 
