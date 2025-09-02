@@ -72,7 +72,7 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 >id="ajo_journey_execution_address"
 >title="Definisci un valore personalizzato"
 >abstract="In alcuni casi specifici, puoi sovrascrivere l’indirizzo di esecuzione predefinito. Utilizza l&#39;icona **Abilita sostituzione parametro** a destra del campo per definire un indirizzo primario personalizzato."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informazioni sull’indirizzo di esecuzione"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informazioni sull’indirizzo di esecuzione"
 
 Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di configurazione e-mail o di percorso.
 
