@@ -8,32 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
-source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
+source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
 
 # Progettare contenuti accessibili {#accessible-content}
 
+L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
+
+Tale regolamento stabilisce che tutte le comunicazioni digitali, compresi e-mail, newsletter, PDF e contenuti scaricabili, dovrebbero essere accessibili. Durante la creazione di contenuti per i destinatari, è quindi necessario seguire linee guida specifiche, ad esempio l’utilizzo di font accessibili e formati leggibili, e fornire testo alternativo per le immagini.
+
+La [!DNL Journey Optimizer] [E-mail Designer](content-from-scratch.md), che consente agli addetti al marketing di creare contenuti sia per **e-mail** che per **pagine di destinazione**, ti consente di conformarsi facilmente a questa direttiva, in base alle linee guida per l&#39;accessibilità dei contenuti web (WCAG) 2.1, livello AA.
+
+Di seguito sono elencate le procedure consigliate per la progettazione di contenuto accessibile con [!DNL Journey Optimizer].
+
 >[!NOTE]
 >
 >Questa pagina consente di rendere il contenuto accessibile a tutti i destinatari per garantire che le persone con disabilità possano leggere, comprendere e interagire con le e-mail e le pagine di destinazione progettate con [!DNL Journey Optimizer].
 >
->L&#39;accessibilità dell&#39;interfaccia [!DNL Journey Optimizer] è descritta in [questa sezione](../start/accessibility.md).
-
-L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
-
-Durante la creazione di contenuto per le **e-mail** e le **pagine di destinazione** in [!DNL Journey Optimizer], le best practice per l&#39;accessibilità per gli esperti di marketing e-mail elencati in questa pagina possono aiutarti a rispettare questa direttiva. Si basano sulle linee guida per l’accessibilità dei contenuti web (WCAG) 2.1, livello AA.
-
-L’atto europeo sull’accessibilità stabilisce che tutte le comunicazioni digitali, compresi e-mail, newsletter, PDF e contenuti scaricabili, devono essere accessibili. È quindi necessario seguire linee guida specifiche, ad esempio l’utilizzo di font accessibili e formati leggibili, e fornire testo alternativo per le immagini.
-
-Il [!DNL Journey Optimizer] [Messaggio e-mail Designer](content-from-scratch.md), che consente agli addetti al marketing di creare contenuti sia per le e-mail che per le pagine di destinazione, ti consente di seguire facilmente queste linee guida. Di seguito sono elencate le procedure consigliate per la progettazione di contenuto accessibile con [!DNL Journey Optimizer].
-
-<!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
- 
-
+>L&#39;accessibilità dell&#39;interfaccia [!DNL Journey Optimizer] è invece descritta in [questa sezione](../start/accessibility.md).
+> 
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
@@ -83,7 +80,7 @@ In [!DNL Journey Optimizer], le dimensioni e la spaziatura dei diversi elementi 
 
 Inoltre, il Designer e-mail di [!DNL Journey Optimizer] consente di visualizzare in anteprima e ottimizzare la progettazione per diversi dispositivi e dimensioni dello schermo. In qualsiasi momento puoi **[!UICONTROL Passare alla visualizzazione live]** per verificare come il contenuto potrebbe essere riprodotto su dispositivi di varie dimensioni.
 
-![](assets/accessible-live-view.png){width="70%"}
+![](assets/accessible-live-view.png){width="80%"}
 
 >[!CAUTION]
 >
@@ -138,7 +135,7 @@ Per verificare l&#39;accessibilità del contenuto, è possibile utilizzare le fu
 
 Per eseguire il check-in in modo più coerente se il contenuto è accessibile in modo affidabile, cerca strumenti esterni specifici come:
 
-* Lo strumento di verifica del contrasto [WebAim](https://webaim.org/resources/contrastchecker/){target="_blank"} e lo strumento di valutazione dell&#39;accessibilità Web [WAVE](https://wave.webaim.org/){target="_blank"} per valutare il contrasto e la conformità.
+* Il [Verifica contrasto WebAim](https://webaim.org/resources/contrastchecker/){target="_blank"} e lo strumento di valutazione dell&#39;accessibilità Web [WAVE](https://wave.webaim.org/){target="_blank"} per valutare il contrasto e la conformità;
 
 * Tecnologie per l&#39;accessibilità, come gli assistenti vocali (ad esempio: [NVDA](https://www.nvaccess.org/download/){target="_blank"} o [VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} su iPhone), per visualizzare le e-mail dal punto di vista degli utenti ipovedenti.
 
@@ -154,11 +151,11 @@ Tra le best practice per la progettazione di contenuti in modalità scura, puoi 
 
 Le best practice dettagliate specifiche della modalità scura, incluse le linee guida per garantire l&#39;accessibilità, sono elencate in [questa sezione](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
-## Usa attributi specifici per e-mail accessibili {#attributes}
+## Utilizzare attributi specifici per l&#39;accessibilità {#attributes}
 
-### Attributi `lang` e `dir`
+### Attributi della lingua {#language}
 
-Durante la creazione di e-mail accessibili, includi gli attributi `lang` (lingua) e `dir` (direzione del testo) nel corpo dell&#39;e-mail. Questi attributi consentono alle tecnologie per l’accessibilità, come gli assistenti vocali, di interpretare e presentare il contenuto in modo appropriato.
+Durante la creazione delle progettazioni, includere gli attributi `lang` (lingua) e `dir` (direzione del testo) nel corpo del contenuto. Questi attributi consentono alle tecnologie per l’accessibilità, come gli assistenti vocali, di interpretare e presentare il contenuto in modo appropriato.
 
 * L&#39;attributo `lang` indica la lingua dell&#39;e-mail per le tecnologie per l&#39;accessibilità, garantendo che le parole vengano pronunciate correttamente.
 
@@ -202,13 +199,13 @@ Gli assistenti vocali si basano sull&#39;attributo `lang` per applicare le regol
 >
 >Se l&#39;e-mail contiene più lingue, assegnare gli attributi della lingua appropriati a sezioni specifiche (ad esempio `<table>` o `<td>` blocchi) per garantire la corretta lettura di ogni parte.
 
-### Tabelle layout e `role="presentation"`
+### Tabelle {#tables}
 
-Nelle e-mail di HTML, le tabelle vengono spesso utilizzate per il layout. Per impostazione predefinita, gli assistenti vocali trattano ogni `<table>` come una tabella dati, annunciando righe, colonne e struttura. Questo può creare confusione se la tabella viene utilizzata solo per la formattazione.
+Nei contenuti di HTML, le tabelle vengono spesso utilizzate per il layout. Per impostazione predefinita, gli assistenti vocali trattano ogni `<table>` come una tabella dati, annunciando righe, colonne e struttura. Questo può creare confusione se la tabella viene utilizzata solo per la formattazione.
 
 Aggiungi `role="presentation"` (o `role="none"`) alle tabelle layout per garantire che le tecnologie per l&#39;accessibilità saltino la struttura e si concentrino solo sul contenuto effettivo.
 
-+++Esempio - Tabella layout (con role=&quot;presentazione&quot;): 
++++Esempio: tabella layout (con `role="presentation"`)
 
 ```
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"> 
@@ -233,7 +230,7 @@ Gli assistenti vocali leggono:
 
 +++
 
-+++Esempio - Tabella dati (senza role=&quot;presentation&quot;): 
++++Esempio - Tabella dati (senza `role="presentation"`)
 
 ```
 <table border="1" cellpadding="5" cellspacing="0"> 
@@ -268,25 +265,21 @@ Gli assistenti vocali leggono:
 Gli assistenti vocali leggono:
 &quot;Tabella con 2 colonne e 3 righe.&quot;
 
-&quot;Nome, Alice.&quot;
+&quot;Nome, Alice. Punteggio, 95.&quot;
 
-&quot;Punteggio, 95&quot;.
-
-&quot;Nome, Bob.&quot;
-
-&quot;Punteggio, 88&quot;.
+&quot;Nome, Bob. Punteggio, 88.&quot;
 
 +++
 
 >[!TIP]
 >
->Utilizza `role="presentation"` esclusivamente per le tabelle layout. Per le tabelle dati, mantenere la struttura semantica`<table>` in modo che gli assistenti vocali possano annunciare correttamente le intestazioni e le relazioni.
+>Utilizza `role="presentation"` esclusivamente per le tabelle layout. Per le tabelle dati, mantenere la struttura semantica `<table>` in modo che gli assistenti vocali possano annunciare correttamente le intestazioni e le relazioni.
 
-### Testo riconoscibile e descrittivo per i collegamenti
+### Testo per i collegamenti {#links}
 
-Gli assistenti vocali leggono i collegamenti utilizzando il testo. Se un collegamento è etichettato solo come &quot;Fai clic qui&quot; o &quot;Ulteriori informazioni&quot;, gli utenti delle tecnologie per l’accessibilità non conosceranno la destinazione.
+Gli assistenti vocali leggono i collegamenti utilizzando il testo. Se un collegamento è etichettato solo come &quot;Fai clic qui&quot; o &quot;Ulteriori informazioni&quot;, gli utenti delle tecnologie per l’accessibilità non conosceranno la destinazione. Per garantire l’accessibilità, è necessario un testo descrittivo che indichi chiaramente la destinazione o l’azione.
 
-Per garantire l’accessibilità, scrivi un testo descrittivo che indichi chiaramente la destinazione o l’azione. Utilizza E-mail Designer per [aggiungere un collegamento](message-tracking.md#insert-links) al contenuto e modificare l&#39;etichetta in modo che sia distinguibile (visibile) e descrittiva (non crittografata). Evita etichette vaghe come &quot;qui&quot; o &quot;altro&quot;.
+Utilizza E-mail Designer per [aggiungere un collegamento](message-tracking.md#insert-links) al contenuto e modificare l&#39;etichetta in modo che sia distinguibile (visibile) e descrittiva (non crittografata). Evita etichette vaghe come &quot;qui&quot; o &quot;altro&quot;.
 
 ![](assets/accessible-link.png){width="70%"}
 
@@ -305,7 +298,7 @@ Gli assistenti vocali leggono:
 
 +++
 
-+++Esempio - Collegamento non valido (non descrittivo): 
++++Esempio: collegamento non valido (non descrittivo)
 
 ```
 <p>Learn more about our new features.  
@@ -316,7 +309,7 @@ Gli assistenti vocali leggono:
 ```
 
 Gli assistenti vocali leggono:
-&quot;Link, fai clic qui.&quot; *(Non fornisce contesto fuori ordine di lettura.)*
+&quot;Link, fai clic qui.&quot; *(nessun contesto fuori ordine di lettura)*
 
 +++
 
@@ -331,7 +324,7 @@ Gli assistenti vocali leggono:
 
 Il supporto per la navigazione da tastiera e l&#39;attivazione della tastiera consente agli utenti che non possono utilizzare il mouse di accedere e interagire completamente con il contenuto. Inoltre, migliora l’usabilità complessiva offrendo a tutti gli utenti un modo chiaro e coerente di passare alle informazioni.
 
-* Attivazione della messa a fuoco tramite tastiera (tasti TAB/freccia)
+* Messa a fuoco tramite tastiera
 
    * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
 
@@ -341,7 +334,7 @@ Il supporto per la navigazione da tastiera e l&#39;attivazione della tastiera co
 
    * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
 
-     +++Esempio (CSS):
+     +++Esempio (CSS)
 
      ```
      [tabindex="0"] : focus { 
