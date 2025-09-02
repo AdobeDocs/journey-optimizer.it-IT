@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
    >
    >* Per le e-mail e le notifiche push, puoi abilitare Ottimizzazione del tempo di invio. [Ulteriori informazioni](send-time-optimization.md)
 
-1. A seconda dell’attività, puoi visualizzare parametri avanzati specifici per il canale selezionato e ignorare alcuni valori predefiniti, come l’indirizzo di esecuzione. [Ulteriori informazioni](../about-journey-activities.md#advanced-parameters)
+1. A seconda dell’attività, puoi visualizzare parametri avanzati specifici per il canale selezionato e ignorare alcuni valori predefiniti, come l’indirizzo di esecuzione. [Ulteriori informazioni](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
