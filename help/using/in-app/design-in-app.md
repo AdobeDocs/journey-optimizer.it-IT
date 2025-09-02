@@ -141,7 +141,7 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi sce
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
 >title="Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in-app."
->abstract="Questa sezione consente di aggiungere pulsanti di invito all’azione al messaggio. È possibile includere testo personalizzato e destinazioni per ogni pulsante."
+>abstract="Questa sezione consente di aggiungere pulsanti di invito all’azione al messaggio. È possibile includere testo personalizzato e le destinazioni per ogni pulsante."
 
 Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in-app.
 
@@ -266,4 +266,4 @@ Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https:
 
 Il video seguente mostra come creare e testare i messaggi in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422078?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
