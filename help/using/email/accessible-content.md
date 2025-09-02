@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Progettare contenuti accessibili
 description: Scopri come progettare contenuti accessibili per le e-mail e le pagine di destinazione in Journey Optimizer
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
 # Progettare contenuti accessibili {#accessible-content}
 
+>[!NOTE]
+>
+>Questa pagina consente di rendere il contenuto accessibile a tutti i destinatari per garantire che le persone con disabilità possano leggere, comprendere e interagire con le e-mail e le pagine di destinazione progettate con [!DNL Journey Optimizer].
+>
+>L&#39;accessibilità dell&#39;interfaccia [!DNL Journey Optimizer] è descritta in [questa sezione](../start/accessibility.md).
+
 L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
 
 Durante la creazione di contenuto per le **e-mail** e le **pagine di destinazione** in [!DNL Journey Optimizer], le best practice per l&#39;accessibilità per gli esperti di marketing e-mail elencati in questa pagina possono aiutarti a rispettare questa direttiva. Si basano sulle linee guida per l’accessibilità dei contenuti web (WCAG) 2.1, livello AA.
-
->[!NOTE]
->
->Le caratteristiche di accessibilità quando si utilizza l&#39;interfaccia [!DNL Journey Optimizer] sono descritte in dettaglio in [questa sezione](../start/accessibility.md).
 
 L’atto europeo sull’accessibilità stabilisce che tutte le comunicazioni digitali, compresi e-mail, newsletter, PDF e contenuti scaricabili, devono essere accessibili. È quindi necessario seguire linee guida specifiche, ad esempio l’utilizzo di font accessibili e formati leggibili, e fornire testo alternativo per le immagini.
 
@@ -33,7 +33,6 @@ Il [!DNL Journey Optimizer] [Messaggio e-mail Designer](content-from-scratch.md)
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
