@@ -31,7 +31,7 @@ Di seguito sono elencate le procedure consigliate per la progettazione di conten
 >
 >L&#39;accessibilità dell&#39;interfaccia [!DNL Journey Optimizer] è invece descritta in [questa sezione](../start/accessibility.md).
 > 
-## Assicurare la leggibilità del testo {#text-readability}
+>## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
 
