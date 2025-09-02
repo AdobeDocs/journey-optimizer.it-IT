@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '522'
+ht-degree: 19%
 
 ---
 
@@ -68,6 +68,12 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 ## Sostituisci il campo di esecuzione predefinito {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="Definisci un valore personalizzato"
+>abstract="In alcuni casi specifici, puoi sovrascrivere l’indirizzo di esecuzione predefinito. Utilizza l&#39;icona **Abilita sostituzione parametro** a destra del campo per definire un indirizzo primario personalizzato."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informazioni sull’indirizzo di esecuzione"
+
 Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di configurazione e-mail o di percorso.
 
 L’override di questo valore può essere utile, ad esempio, per:
@@ -83,9 +89,9 @@ Quando un indirizzo di esecuzione viene definito nella configurazione e-mail, vi
 
 ### Nei parametri del percorso {#journey-parameters}
 
-Quando si aggiunge un&#39;azione **[!UICONTROL Email]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale viene visualizzato nei parametri avanzati del percorso.
+Quando si aggiunge un&#39;azione **[!UICONTROL E-mail]** o **[!UICONTROL SMS]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale viene visualizzato nei parametri avanzati del percorso.
 
-In alcuni contesti specifici, è possibile sostituire questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo **[!UICONTROL address]**.
+In alcuni contesti specifici, è possibile sostituire questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo.
 
 ![](assets/journey-enable-parameter-override.png)
 

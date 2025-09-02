@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 16%
+source-wordcount: '716'
+ht-degree: 15%
 
 ---
 
@@ -91,13 +91,19 @@ La maggior parte delle attività visualizza una serie di parametri avanzati e/o 
 
 ![Campi dei parametri avanzati nelle proprietà dell&#39;attività di percorso](assets/journey-advanced-parameters.png)
 
-Per una migliore leggibilità, nascondi questi parametri utilizzando il pulsante **[!UICONTROL Nascondi campi di sola lettura]**.
+Per una migliore leggibilità, nascondi questi parametri utilizzando il pulsante **[!UICONTROL Nascondi campi di sola lettura]** nella parte superiore del riquadro di destra.
 
 ![Nascondi l&#39;icona dei campi di sola lettura nelle proprietà dell&#39;attività del percorso](assets/journey-hide-read-only-fields.png)
 
 In alcuni contesti particolari, è possibile ignorare i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![Abilita l&#39;opzione di sostituzione del parametro nelle proprietà dell&#39;attività E-mail](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>Se i parametri avanzati sono nascosti, fare clic sul pulsante **[!UICONTROL Mostra campi di sola lettura]**
+>
+>![Mostra l&#39;icona dei campi di sola lettura nelle proprietà dell&#39;attività del percorso](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Aggiungi un percorso alternativo
 
