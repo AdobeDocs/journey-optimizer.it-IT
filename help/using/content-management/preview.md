@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Dopo aver selezionato i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto utilizzando i relativi dati. Segui questi passaggi:
 
-1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e seleziona **[!UICONTROL Riepiloga contenuto]**.
+1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e seleziona **[!UICONTROL Simula contenuto]**.
 
 1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
 
