@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 21%
+source-wordcount: '976'
+ht-degree: 9%
 
 ---
 
@@ -65,45 +65,69 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
 1. Configura l’attività in base al canale selezionato. Scopri come configurare le azioni di canale integrate in [questa sezione](journeys-message.md).
 
-1. Utilizza la sezione **[!UICONTROL Ottimizzazione]** per eseguire esperimenti di contenuto, sfruttare le regole di targeting o utilizzare combinazioni avanzate di sperimentazione e targeting. Queste diverse opzioni e i passaggi da seguire sono descritti in [questa sezione](../campaigns/campaigns-message-optimization.md).
+1. Utilizza la sezione **[!UICONTROL Ottimizzazione]** per eseguire esperimenti di contenuto, sfruttare le regole di targeting o utilizzare combinazioni avanzate di sperimentazione e targeting.
 
-1. Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all&#39;interno dell&#39;azione di percorso. A tale scopo, fai clic sul pulsante **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL impostazioni lingua]** desiderate. Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in [questa sezione](../content-management/multilingual-gs.md).
+   Queste diverse opzioni e i passaggi da seguire sono descritti in [questa sezione](../campaigns/campaigns-message-optimization.md).
+
+1. Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all&#39;interno dell&#39;azione di percorso. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi lingue]** e selezionare le **[!UICONTROL impostazioni lingua]** desiderate.
+
+   Informazioni dettagliate su come impostare e utilizzare le funzionalità multilingue sono disponibili in [questa sezione](../content-management/multilingual-gs.md).
 
 Sono disponibili impostazioni aggiuntive a seconda del canale di comunicazione selezionato. Per ulteriori informazioni, espandi le sezioni seguenti.
 
 +++**Applica regole limite** (e-mail, direct mailing, push, SMS)
 
-Nell&#39;elenco a discesa **[!UICONTROL Regole aziendali]**, selezionare un set di regole per applicare le regole di limitazione di utilizzo all&#39;azione di percorso. L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. [Scopri come utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
+Nell&#39;elenco a discesa **[!UICONTROL Regole aziendali]**, selezionare un set di regole per applicare le regole di limitazione di utilizzo all&#39;azione di percorso.
+
+L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili.
+
+[Scopri come utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**Rileva coinvolgimento** (e-mail, SMS).
 
-Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere traccia di come i destinatari reagiscono alle consegne e-mail o SMS. I risultati del tracciamento sono accessibili dal rapporto sul percorso una volta che il percorso è stato eseguito. [Ulteriori informazioni sui report di percorso](../reports/journey-global-report-cja.md)
+Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere traccia di come i destinatari reagiscono alle consegne e-mail o SMS.
+
+I risultati del tracciamento sono accessibili dal rapporto sul percorso una volta che il percorso è stato eseguito.
+
+[Ulteriori informazioni sui report di percorso](../reports/journey-global-report-cja.md)
 
 +++
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne.
+
+La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
+
+Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html).
 
 +++
 
 +++**Assegna punteggi di priorità** (Web, In-app, basati su codice)
 
-Nella sezione **[!UICONTROL Gestione dei conflitti]**, assegna un punteggio di priorità all&#39;azione di percorso, consentendo di assegnare un&#39;azione in entrata quando sono presenti più azioni di percorso o campagne che utilizzano la stessa configurazione di canale. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. Per impostazione predefinita, il punteggio di priorità per l’azione viene ereditato dal punteggio di priorità complessivo del percorso. [Scopri come assegnare punteggi di priorità a percorsi e campagne](../conflict-prioritization/priority-scores.md)
+Nella sezione **[!UICONTROL Gestione dei conflitti]**, è possibile assegnare un punteggio di priorità all&#39;azione di percorso, consentendo di assegnare un&#39;azione in entrata quando sono presenti più azioni di percorso o campagne che utilizzano la stessa configurazione di canale.
+
+Per impostazione predefinita, il punteggio di priorità per l’azione viene ereditato dal punteggio di priorità complessivo del percorso.
+
+[Scopri come assegnare punteggi di priorità alle azioni del canale](../conflict-prioritization/priority-scores.md#priority-action)
 
 +++
 
 +++**Imposta regole di consegna aggiuntive** (schede contenuto)
 
-Per i percorsi di schede di contenuto, puoi abilitare regole di consegna aggiuntive per scegliere gli eventi e i criteri che attivano il messaggio. [Scopri come creare le schede dei contenuti](../content-card/create-content-card.md)
+Per i percorsi di schede di contenuto, puoi abilitare regole di consegna aggiuntive per scegliere gli eventi e i criteri che attivano il messaggio.
+
+[Scopri come creare schede di contenuto](../content-card/create-content-card.md)
 
 +++
 
 +++**Definisci trigger** (in-app)
 
-Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attivano il messaggio. [Scopri come creare un messaggio in-app](../in-app/create-in-app.md)
+Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attivano il messaggio.
+
+[Scopri come creare un messaggio in-app](../in-app/create-in-app.md)
 
 +++
 
