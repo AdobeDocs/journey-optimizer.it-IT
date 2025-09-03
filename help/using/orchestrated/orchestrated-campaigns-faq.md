@@ -6,10 +6,10 @@ description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,18 @@ Le campagne orchestrate supportano **notifiche e-mail, SMS e push**.
 
 >[!ENDSHADEBOX]
 
+## Cos’è la segmentazione con più entità? {#multi-entity}
+
+L’orchestrazione delle campagne in Adobe Journey Optimizer utilizza un database relazionale. Questo tipo di modello dati dispone di schemi separati di dati connessi tramite relazioni 1:1 o 1:many. Questo consente agli utenti di avviare una query su qualsiasi schema, non solo a livello di destinatario, e quindi di passare a altri schemi correlati, come acquisti, prodotti, prenotazioni o dettagli dei destinatari, fornendo grande flessibilità nella creazione di segmenti e tipi di pubblico e
+raffinato.
+
+>[!BEGINSHADEBOX]
+
+**Esempio** - Eseguire il targeting di tutti i destinatari con sottoscrizioni in scadenza nei successivi 3 giorni ad h0: in Campaign Orchestration la query può iniziare con lo schema Sottoscrizioni, cercare solo la colonna data di scadenza di tale schema e restituire tutte le sottoscrizioni in scadenza, quindi aggregare i dati del destinatario correlati a tali ID di sottoscrizioni specifici restituendo i risultati in modo più rapido ed efficiente rispetto ai modelli di dati che iniziano ogni query a livello di destinatario.
+
+>[!ENDSHADEBOX]
+
+
 ## Come funziona il modello dati? {#data-model}
 
 Le campagne utilizzano un **database relazionale**. Questo consente di eseguire query su diversi set di dati (ad esempio clienti, prodotti, abbonamenti) e di collegarli in modo flessibile per la segmentazione avanzata.
@@ -108,7 +120,7 @@ Sì.  Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acqu
 
 ## E le autorizzazioni e il consenso? {#permissions}
 
-Le autorizzazioni e il consenso sono gestiti centralmente in Adobe Experience Platform. Le stesse regole si applicano sia nei Percorsi che nelle campagne orchestrate per garantire la conformità e la coerenza dell’esperienza del cliente.
+Le autorizzazioni e il consenso per le campagne e i percorsi orchestrati sono gestiti centralmente in Adobe Experience Platform. Queste impostazioni vengono applicate in entrambe le soluzioni per ciascun destinatario prima dell’invio.
 
 >[!BEGINSHADEBOX]
 
@@ -116,13 +128,13 @@ Le autorizzazioni e il consenso sono gestiti centralmente in Adobe Experience Pl
 
 * Applica **governance centralizzata**: evita di gestire separatamente il consenso a livello di campagna.
 * Controlla periodicamente i dati del consenso per rilevare incongruenze.
-* Rispetta **rinunce specifiche per il canale**. Non presumere che il consenso globale copra tutti i canali.
+* Rispetta **rinunce specifiche per il canale** — non presumere che il consenso globale copra tutti i canali.
 
 >[!ENDSHADEBOX]
 
 ## Posso eseguire la segmentazione ad hoc? {#ad-hoc}
 
-Sì.  Con **Segmentazione in tempo reale**, puoi creare query complesse sul posto e attivarle immediatamente tra i canali in uscita.
+In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quot;segmentazione live&quot;, in cui è possibile accedere in tempo reale a tutti i dati disponibili nell’archivio relazionale, creare una query complessa e ottenere il risultato per l’attivazione immediata tramite canali in uscita (ad esempio, e-mail + SMS).
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Sì.  Con **Segmentazione in tempo reale**, puoi creare query complesse sul post
 * Convalida il conteggio del pubblico prima dell’attivazione per evitare invii insufficienti o eccessivi.
 
 >[!ENDSHADEBOX]
+
+## I dati nel database relazionale possono essere utilizzati per la personalizzazione dei messaggi? {#relational-personalization}
+
+Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione.
+
 
 ## Questo supporta le decisioni? {#decisioning}
 
@@ -161,3 +178,4 @@ Sì, segui le best practice riportate di seguito:
 * Se possibile, **scagliona i tempi di invio** per evitare di sovraccaricare i sistemi a valle (ad esempio call center, siti Web).
 * Stabilisci una **routine di monitoraggio**—tieni traccia dei registri di consegna, dei tassi di errore e delle rinunce dopo ogni invio.
 * Esegui **analisi post-campagna** in Customer Journey Analytics per perfezionare il targeting e l&#39;orchestrazione per il ciclo successivo.
+
