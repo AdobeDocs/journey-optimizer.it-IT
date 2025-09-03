@@ -4,9 +4,9 @@ product: journey optimizer
 title: Passaggi di configurazione
 description: Scopri come creare schemi relazionali direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '868'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,8 @@ Ora devi abilitare il set di dati per le campagne Orchestrate.
 ## Abilitare il set di dati per le campagne orchestrate {#enable}
 
 Dopo aver creato il set di dati, devi abilitarlo esplicitamente per le campagne orchestrate. Questo passaggio garantisce che il set di dati sia disponibile per l’orchestrazione e la personalizzazione in tempo reale in Adobe Journey Optimizer.
+
+Consulta la [documentazione di Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) per convalidare o abilitare l&#39;estensione Orchestrated Campaign sul set di dati.
 
 1. Individua il set di dati nell&#39;elenco **[!UICONTROL Set di dati]**.
 
