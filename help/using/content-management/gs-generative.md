@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
+source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,12 +42,27 @@ L’Assistente IA in Adobe Journey Optimizer, basato su Microsoft Azure OpenAI e
 
 L&#39;Assistente AI supporta la generazione di **in più lingue**, consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali. L&#39;Assistente AI è disponibile nelle seguenti lingue:
 
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
   <tr>
-    <td><ul><li>Francese</li><li>Spagnolo</li><li>Tedesco</li><li>Italiano</li></ul></td>
-    <td><ul><li>Giapponese</li><li>Svedese</li><li>Olandese</li><li>Norvegese</li></ul></td>
+    <td>
+      <ul>
+        <li>Francese</li>
+        <li>Spagnolo</li>
+        <li>Tedesco</li>
+        <li>Italiano</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Giapponese</li>
+        <li>Svedese</li>
+        <li>Olandese</li>
+        <li>Norvegese</li>
+      </ul>
+    </td>
   </tr>
 </table>
+
 
 Utilizza l’Assistente IA in Adobe Journey Optimizer per ottimizzare l’impatto del messaggio sperimentando con diversi titoli e immagini. Genera più varianti e crea un esperimento per confrontarle. Sfruttando **Journey Optimizer Content Experiment**, puoi definire più trattamenti per messaggi per misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio nei termini della metrica specificata. Per ulteriori informazioni sull’esperimento contenuti, consulta [questa sezione](../content-management/content-experiment.md).
 
