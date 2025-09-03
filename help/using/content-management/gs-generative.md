@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
+source-git-commit: 39508e605479344a42bff0e5ce82b714f6bcff48
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,7 +42,7 @@ L’Assistente IA in Adobe Journey Optimizer, basato su Microsoft Azure OpenAI e
 
 L&#39;Assistente AI supporta la generazione di **in più lingue**, consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali. L&#39;Assistente AI è disponibile nelle seguenti lingue:
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+<table style="table-layout:fixed"><table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
   <tr>
     <td><ul><li>Francese</li><li>Spagnolo</li><li>Tedesco</li><li>Italiano</li></ul></td>
     <td><ul><li>Giapponese</li><li>Svedese</li><li>Olandese</li><li>Norvegese</li></ul></td>
