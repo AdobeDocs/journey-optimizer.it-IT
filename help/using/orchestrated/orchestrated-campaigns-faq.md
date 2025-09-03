@@ -6,10 +6,10 @@ description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '1091'
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,15 @@ Di seguito sono riportate le domande frequenti sulle campagne orchestrate di Ado
 
 Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback in fondo a questa pagina per sollevare la tua domanda.
 
-## Cosa sono le campagne orchestrate? {#what-are-oc}
+## Cos’è l’orchestrazione di Campaign? {#what-are-oc}
 
-Le campagne orchestrate in Adobe Journey Optimizer aiutano i brand a eseguire campagne di marketing uno-a-molti complesse su larga scala. Sono progettati per il coinvolgimento avviato dal marchio, ad esempio promozioni, campagne stagionali o comunicazioni basate su account.
+L’orchestrazione delle campagne è una funzione di Journey Optimizer che supporta flussi di lavoro in un unico passaggio o in più passaggi che sfruttano l’archivio dati relazionale per creare e segmentare i tipi di pubblico allo scopo di creare un coinvolgimento in batch.
 
-Rispetto alle campagne a invio singolo, portano **orchestrazione e sequenza** al marketing in uscita: i tipi di pubblico passano attraverso un flusso di lavoro con più passaggi insieme, anziché ricevere un&#39;esplosione una tantum.
+Porta un nuovo tipo di campagne in Journey Optimizer: **Campagne orchestrate**. Le campagne orchestrate aiutano i brand a eseguire campagne di marketing su larga scala, complesse e da uno a molti. Sono progettati per il coinvolgimento avviato dal marchio, ad esempio promozioni, campagne stagionali o comunicazioni basate su account.
 
-## Cosa posso fare con le campagne orchestrate? {#what-can-i-do}
+Rispetto alle campagne di invio/azione singole, portano **orchestrazione e sequenza** al marketing in uscita: i tipi di pubblico passano attraverso un flusso di lavoro con più passaggi insieme, anziché ricevere un&#39;esplosione una tantum.
+
+## Cosa posso fare con una campagna orchestrata? {#what-can-i-do}
 
 Le funzionalità principali includono:
 
@@ -45,10 +47,14 @@ Le funzionalità principali includono:
 
 >[!ENDSHADEBOX]
 
+## Come accedere all’orchestrazione di Campaign? {#access-oc}
+
+Per accedere all’orchestrazione della campagna, la licenza deve includere il pacchetto **Journey Optimizer - Campagne e Percorsi** o **Journey Optimizer - Campagne**. Contatta il tuo rappresentante Adobe per confermare la licenza e aggiornare, se necessario.
+
 
 ## Quali canali sono supportati? {#channels}
 
-Le campagne orchestrate supportano **notifiche e-mail, SMS e push**.
+Puoi creare campagne orchestrate per inviare **e-mail**, **SMS** e **notifiche push**.
 
 
 >[!BEGINSHADEBOX]
