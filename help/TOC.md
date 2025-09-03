@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [Creare un provider di lingua](using/content-management/multilingual-provider.md)
       + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
       + [Creare contenuto multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
+   + [Ottimizzazione dei messaggi](using/campaigns/campaigns-message-optimization.md)
    + Esperimento sui contenuti {#content-experiment}
       + [Esperimento sui contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introduzione all’esperimento sui contenuti](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [Note tecniche](/help/rp_landing_pages/technotes-landing-page.md)
          + [Comprendere i calcoli statistici](using/content-management/experiment-calculations.md)
          + [Comprendere i calcoli statistici nel rapporto sulla sperimentazione](using/content-management/experiment-report-calculations.md)
-   + [Sfruttare l’ottimizzazione dei messaggi](using/campaigns/campaigns-message-optimization.md)
 + Tipi di pubblico, profili e identità {#audiences-profiles-identities}
    + [Tipi di pubblico, profili e identità](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Tipi di pubblico {#audiences}
