@@ -6,9 +6,9 @@ description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Le campagne utilizzano un **database relazionale**. Questo consente di eseguire 
 
 ## Posso personalizzare i messaggi con questi dati? {#personalization}
 
-Sì.  Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
+Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione. Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
 
 >[!BEGINSHADEBOX]
 
@@ -114,8 +114,10 @@ Sì.  Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acqu
 
 ## Si integra con altre soluzioni Adobe? {#integrations}
 
+Sì.  L’orchestrazione delle campagne è integrata in modo nativo con:
+
 * **Customer Journey Analytics**: sono disponibili i report di orchestrazione campagna.
-* **Real-Time CDP**: i tipi di pubblico generati nelle campagne possono essere letti in CDP.
+* **Real-Time CDP**: i tipi di pubblico generati nelle campagne possono essere letti in Real-Time CDP.
 * **Federated Audience Composition (FAC)**: disponibile come componente aggiuntivo.
 
 ## E le autorizzazioni e il consenso? {#permissions}
@@ -146,10 +148,6 @@ In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quo
 
 >[!ENDSHADEBOX]
 
-## I dati nel database relazionale possono essere utilizzati per la personalizzazione dei messaggi? {#relational-personalization}
-
-Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione.
-
 
 ## Questo supporta le decisioni? {#decisioning}
 
@@ -179,3 +177,11 @@ Sì, segui le best practice riportate di seguito:
 * Stabilisci una **routine di monitoraggio**—tieni traccia dei registri di consegna, dei tassi di errore e delle rinunce dopo ogni invio.
 * Esegui **analisi post-campagna** in Customer Journey Analytics per perfezionare il targeting e l&#39;orchestrazione per il ciclo successivo.
 
+
+
+>[!MORELIKETHIS]
+>
+>* [Guardrail e limitazioni per campagne orchestrate](../orchestrated/guardrails.md)
+>* [Introduzione a schemi e set di dati nelle campagne orchestrate](../orchestrated/gs-schemas.md)
+>* [Crea la tua prima campagna orchestrata](../orchestrated/gs-campaign-creation.md)
+>* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
