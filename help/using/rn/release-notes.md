@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
+## Aggiornamenti del 25 settembre {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Utilizzare i dati di Adobe Experience Platform per la personalizzazione e il processo decisionale: disponibilità limitata</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Precedentemente rilasciata in versione beta pubblica, questa funzionalità è ora disponibile per tutti gli ambienti con disponibilità limitata. Con questa versione, sono stati introdotti i seguenti miglioramenti:</p>
+<ul><li>Supporto per la personalizzazione della ricerca di set di dati nei canali in entrata.</li>
+<li>È ora possibile utilizzare la funzione helper "datasetLookup" nei frammenti di espressione.</li>
+<li>Un’opzione nell’interfaccia di gestione dei set di dati ora consente di abilitare i set di dati basati su record per la personalizzazione della ricerca, senza dover eseguire una chiamata API.</li>
+<li>Monitoraggio migliorato per tenere traccia dello stato di acquisizione dei dati e sapere quando i set di dati sono pronti per la ricerca.</li>
+<li>Sono state aggiornate le linee guida e i guardrail di utilizzo per garantire prestazioni e affidabilità ottimali.</li></ul></p>
+<p>Per ulteriori informazioni, consulta la <a href="../data/lookup-aep-data.md">documentazione dettagliata</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Note sulla versione di agosto 2025 {#25-8-rn}
 
