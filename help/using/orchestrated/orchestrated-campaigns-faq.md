@@ -6,7 +6,7 @@ description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Le funzionalità principali includono:
 
 Le campagne orchestrate supportano **notifiche e-mail, SMS e push**.
 
+
 >[!BEGINSHADEBOX]
 
 **Consigli**
@@ -60,6 +61,7 @@ Le campagne orchestrate supportano **notifiche e-mail, SMS e push**.
 
 >[!ENDSHADEBOX]
 
+
 ## Quali sono le differenze tra le campagne orchestrate e i Percorsi? {#oc-vs-journeys}
 
 * **Campagne orchestrate**: ideale per **campagne batch, uno-a-molti**. Interi tipi di pubblico si spostano nell’area di lavoro della campagna insieme.
@@ -67,7 +69,7 @@ Le campagne orchestrate supportano **notifiche e-mail, SMS e push**.
 
 >[!BEGINSHADEBOX]
 
-**Suggerimento** - Molte organizzazioni utilizzano **entrambi insieme**, ovvero Percorsi per esperienze attivate, reattive e campagne orchestrate per iniziative pianificate basate su calendario.
+**Suggerimento** - Molte organizzazioni utilizzano **entrambi insieme**, ovvero Percorsi per campagne attivate, reattive e orchestrate per iniziative pianificate basate su calendario.
 
 >[!ENDSHADEBOX]
 
