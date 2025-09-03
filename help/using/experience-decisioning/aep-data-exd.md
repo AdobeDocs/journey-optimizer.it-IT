@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i dati di Adobe Experience Platform per prendere decisioni (Beta)
+title: Utilizzare i dati di Adobe Experience Platform per la funzione Decisioni
 description: Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni.
-badge: label="Beta" type="Informative"
+badge: label="Disponibilità limitata" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 25%
+source-wordcount: '812'
+ht-degree: 24%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica. Se desideri accedervi, contatta il rappresentante del tuo account.
+>Questa funzione è attualmente disponibile per tutti i clienti come versione a disponibilità limitata.
 
 [!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] per Decisioning. Questo consente di estendere la definizione degli attributi di decisione ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.
+
+Prima di iniziare, i set di dati necessari per la personalizzazione della ricerca devono essere abilitati per la ricerca. Informazioni dettagliate sono disponibili in questa sezione: [Usa dati di Adobe Experience Platform](../data/lookup-aep-data.md).
 
 ## Guardrail e limitazioni {#guidelines}
 
@@ -43,10 +45,6 @@ Prima di iniziare, prendi nota delle seguenti restrizioni e linee guida:
 * Una regola di decisione può utilizzare 3 set di dati.
 * Una formula di classificazione può utilizzare 3 set di dati.
 * Quando viene valutato un criterio decisionale, il sistema eseguirà fino a 1000 query di set di dati (ricerche) in totale. Ogni mappatura di set di dati utilizzata da un elemento decisionale conta come una query. Esempio: se un elemento di decisione utilizza 2 set di dati, la valutazione di tale offerta conta come 2 query per il limite di 1000 query.
-
-## Abilitare un set di dati per la ricerca di dati {#enable}
-
-Per utilizzare i dati di un set di dati [!DNL Adobe Experience Platform] per le decisioni, è necessario innanzitutto abilitarli per la ricerca tramite una chiamata API. Per istruzioni dettagliate, consulta questa sezione: [Sfruttare i set di dati di Adobe Experience Platform in Journey Optimizer](../data/lookup-aep-data.md).
 
 ## Sfruttare i dati Adobe Experience Platform {#leverage-aep-data}
 
