@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 0cc119d3e4c1ffa676f00fcedb93d8818f176689
+source-git-commit: 8fe62d872a06e09072f8cfdac80287057d640308
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -20,17 +20,15 @@ ht-degree: 1%
 
 Di seguito è riportato un elenco di articoli per la risoluzione dei problemi relativi a Adobe Journey Optimizer. Ogni sezione relativa alla risoluzione dei problemi fornisce le risposte alle domande frequenti e alle soluzioni ai problemi.
 
-Consulta anche le [Domande frequenti su Adobe Experience Platform e la documentazione sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
+Consulta anche le [Domande frequenti su Adobe Experience Platform e la documentazione sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
 
 ## Canale e-mail {#ajo-troubleshooting-email}
-
-### Progettazione e-mail {#ajo-troubleshooting-design}
 
 +++ Come evitare problemi di formattazione delle e-mail in Adobe Journey Optimizer utilizzando i temi?
 
 In Adobe Journey Optimizer (AJO), la modifica dei blocchi CSS predefiniti nell’intestazione e-mail può causare problemi di formattazione imprevisti, soprattutto dopo la rimozione dei frammenti di contenuto. Questi problemi sono più evidenti sui dispositivi mobili e possono causare spostamenti di layout o incoerenze di stile. Per evitare questo problema, utilizza la funzione Temi per applicare CSS personalizzati in modo sicuro senza modificare gli stili CSS generati dal sistema.
 
-Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}.
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}.
 
 Ulteriori informazioni sulla formattazione delle e-mail [ in questa pagina](../email/get-started-email-design.md).
 
@@ -88,8 +86,6 @@ Consulta anche le best practice per la progettazione di e-mail [in questa pagina
 +++
 
 
-### Tracciamento e reporting delle e-mail {#ajo-troubleshooting-tracking}
-
 +++ Come evitare la perdita di collegamenti di tracciamento e-mail nei rapporti?
 
 Il tracciamento dei collegamenti mancanti in Adobe Journey Optimizer si verifica quando gli URL e-mail utilizzano variabili dinamiche e non iniziano con http o quando le istruzioni logiche vengono inserite nel campo URL. Per risolvere questo problema, assicurati che tutti gli URL inizino con http, evita di utilizzare la logica nel campo URL e sposta la logica di personalizzazione complessa nel contenuto di HTML o negli attributi pre-elaborati.
@@ -100,8 +96,6 @@ Per informazioni su come risolvere il problema, consultare [questo articolo sull
 Ulteriori informazioni sul tracciamento delle e-mail [ in questa pagina](../email/message-tracking.md).
 
 +++
-
-### Invio e-mail {#ajo-troubleshooting-sending}
 
 +++ Come si risolve un errore di Mail Exchanger durante la configurazione di campagne e-mail transazionali attivate da API? 
 
@@ -149,8 +143,6 @@ Ulteriori informazioni sulla configurazione della rinuncia SMS [in questa pagina
 
 +++
 
-
-
 ## Canale in-app
 
 +++ Perché non posso creare rapporti sul canale in-app in Customer Journey Analytics?
@@ -159,13 +151,11 @@ Le difficoltà di generazione rapporti sul **canale in-app** in Adobe Customer J
 
 Per ulteriori informazioni su questo problema, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}.
 
-Ulteriori informazioni su come integrare i dati di analisi di Journey Optimizer in Customer Journey Analytics [in questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Ulteriori informazioni su come integrare i dati di analisi di Journey Optimizer in Customer Journey Analytics [in questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consulta anche la [documentazione di Journey Optimizer All-Time Reports](../reports/report-gs-cja.md)
 
 +++
-
-
 
 
 ## Gestione dati {#ajo-troubleshooting-data-management}
@@ -174,7 +164,7 @@ Consulta anche la [documentazione di Journey Optimizer All-Time Reports](../repo
 
 Le organizzazioni che eseguono il provisioning di nuove sandbox in Adobe Journey Optimizer hanno sollevato domande su come le impostazioni TTL (Time-to-Live) si applicano ai set di dati profilo e data lake. Questo articolo chiarisce che le impostazioni TTL non influiscono sulle sandbox esistenti e vengono applicate automaticamente solo a quelle con provisioning recente.
 
-Per informazioni su come gestire il TTL, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
+Per informazioni su come gestire il TTL, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
 
 Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/datasets-ttl.md).
 
@@ -187,7 +177,7 @@ Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/
 
 Il numero di voci elaborate nella funzionalità **Read Audience** di Adobe Journey Optimizer può essere inferiore al numero di tipi di pubblico previsto. Questo problema si verifica spesso a causa di configurazioni errate dello spazio dei nomi, che determinano l’esclusione dei profili dai percorsi. La risoluzione prevede il controllo e la correzione delle configurazioni dello spazio dei nomi, l’esame della documentazione pertinente e l’adeguamento delle priorità per garantire operazioni più fluide in Adobe Journey Optimizer.
 
-Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
 
 Vedi anche [questo articolo sui conteggi dei tipi di pubblico obsoleti](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
 
@@ -203,7 +193,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sull&#39;attività **Aggiorna profilo** nei percorsi [in questa pagina](../building-journeys/update-profiles.md).
 
-Consulta anche la [documentazione di Adobe Experience Platform sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Consulta anche la [documentazione di Adobe Experience Platform sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -215,7 +205,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni in [questo post della community Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} per verificare quando è pianificato il processo giornaliero.
+Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} per verificare quando è pianificato il processo giornaliero.
 
 +++
 
@@ -228,7 +218,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sull&#39;attività **Aggiorna profilo** nei percorsi [in questa pagina](../building-journeys/update-profiles.md).
 
-Consulta anche la [documentazione del profilo Adobe Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Consulta anche la [documentazione del profilo Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
@@ -240,7 +230,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Monitora l&#39;utilizzo delle licenze della tua organizzazione e i profili coinvolgibili utilizzando [Dashboard utilizzo licenze](../audience/license-usage.md)
 
-Consulta anche la [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home?lang=en){target="_blank"}.
+Consulta anche la [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}.
 
 +++
 
@@ -264,8 +254,6 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 ## Percorsi {#ajo-troubleshooting-journeys}
 
-### Versioni del percorso {#ajo-troubleshooting-journey-versions}
-
 +++ Perché le espressioni vengono perse durante la creazione di una nuova versione del percorso?  
 
 Durante la creazione di una nuova versione di un percorso, **le espressioni nei passaggi specifici** potrebbero andare perse, causando errori e richiedendo il reinserimento manuale. Per risolvere il problema, **duplica il percorso**, verifica la riproducibilità, **evita ricariche del browser** e utilizza l&#39;**area di lavoro aggiornata** per i percorsi precedenti.
@@ -275,8 +263,6 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 Scopri come duplicare un percorso [in questa pagina](../building-journeys/journey-ui.md#duplicate-a-journey).
 
 +++
-
-### Entrata e uscita {#ajo-troubleshooting-journeys-exit}
 
 +++ Perché i profili escono anticipatamente dai percorsi? 
 
@@ -299,7 +285,6 @@ Vedi anche [guardrail di Percorso](../start/guardrails.md#journey-guardrails).
 
 +++
 
-### Eventi {#ajo-troubleshooting-journey-events}
 
 +++ Perché il mio evento non attiva il percorso previsto?  
 
@@ -324,11 +309,9 @@ Scopri come duplicare un percorso [in questa pagina](../building-journeys/journe
 
 +++
 
-### Azioni personalizzate {#ajo-troubleshooting-journeys-actions}
-
 +++ Perché un’azione personalizzata che chiama un endpoint esterno di terze parti riceve un timeout?
 
-Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **&#x200B;**&#x200B;chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
+Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **** chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
 
 Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} per scoprire i passaggi per risolvere il problema.
 
@@ -389,11 +372,9 @@ Ulteriori informazioni sul contenuto multilingue [in questa pagina](../content-m
 
 ## Configurazione {#ajo-troubleshooting-config}
 
-### Sicurezza {#ajo-troubleshooting-security}
-
 +++ Come si abilita TLS v1.3 per le azioni personalizzate?  
 
-Per mantenere l&#39;integrità e la sicurezza dei dati di **1&rbrace; durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
+Per mantenere l&#39;integrità e la sicurezza dei dati di **1} durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
 
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"}.
@@ -401,8 +382,6 @@ Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei prob
 Ulteriori informazioni sul contenuto multilingue [in questa pagina](../action/about-custom-action-configuration.md).
 
 +++
-
-### Dashboard {#ajo-troubleshooting-dashboards}
 
 +++ Perché non è possibile creare un dashboard direttamente da una query in Adobe Journey Optimizer? 
 
@@ -420,7 +399,7 @@ Gli errori di accesso quando si utilizza l&#39;API **Query Service API** tramite
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}.
 
-Consulta anche la [Documentazione di gestione delle credenziali API](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
+Consulta anche la [Documentazione di gestione delle credenziali API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
 
 +++
 
