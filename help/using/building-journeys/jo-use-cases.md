@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 27d1ada9f501cd30fdb57104377845de75eff1b0
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 11%
+source-wordcount: '467'
+ht-degree: 9%
 
 ---
 
@@ -134,14 +134,29 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 <img alt="Eventi dei passaggi nei Percorsi" src="../assets/do-not-localize/list.jpeg">
 <div>
 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Master degli eventi dei passaggi in Adobe Journey Optimizer: nozioni di base, schemi e query essenziali per le campagne basate su dati
-</a>
+</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Caso d’uso: Audience Activation esterna veloce con caricamento personalizzato</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Caso d’uso: Personalization oltre il profilo
+</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Prendi il volo con Personalization: Come le linee aeree possono elevare le offerte con Adobe Journey Optimizer
+</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Mastering Real-Time Personalization: guida dell’addetto al marketing per AEM Content Fragments e Adobe Journey Optimizer
+</a></p>
 </div>
 <p></td>
 <td>
 <img alt="Azioni personalizzate" src="../assets/do-not-localize/step-event.jpeg">
-<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Come estendere Adobe Journey Optimizer con azioni personalizzate: casi di utilizzo dell'integrazione
-</a>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Estendere Adobe Journey Optimizer con azioni personalizzate: casi di utilizzo dell’integrazione
+</a></p>
 </div>
-<p></td>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">La Funzione Di Delega Personalizzata Di Adobe Journey Optimizer Risolve I Problemi Di Conformità Aziendale
+</a></p>
+</div>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">LINE in Journey Optimizer: dalla prima campagna ai casi di utilizzo avanzati di frammenti di espressione e azioni personalizzate
+</a></p>
+</div>
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Guida all’integrazione di Journey Optimizer Universal Link per iOS
+</a></p>
+</div>
+</td>
 </tr></table>

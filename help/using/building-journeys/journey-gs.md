@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
+version: Journey Orchestration
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%
@@ -50,7 +51,7 @@ Prima di iniziare a creare il percorso, assicurarsi di aver completato i passagg
 
 <!--   ![](assets/segment2.png)  -->
 
-* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1&rbrace;.** [Ulteriori informazioni](../datasource/about-data-sources.md).
+* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 

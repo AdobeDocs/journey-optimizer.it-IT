@@ -4,13 +4,14 @@ product: Journey Optimizer
 title: Creare un percorso
 description: Creare un percorso
 redpen-status: CREATED_||_2025-08-11_20-07-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+version: Journey Orchestration
+exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # Creare un percorso{#section-overview}
 
@@ -20,7 +21,7 @@ La creazione di un percorso in Adobe Journey Optimizer ti consente di creare esp
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Come creare il primo Percorso di clienti
 
@@ -30,7 +31,7 @@ Scopri come creare, progettare, testare e pubblicare il tuo primo percorso di cl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definire e gestire le proprietà del Percorso
 
@@ -40,7 +41,7 @@ Configura le regole di ingresso, le impostazioni relative al tempo, la gestione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Come progettare il Percorso
 
@@ -50,7 +51,7 @@ Utilizza l’interfaccia di trascinamento per progettare percorsi di marketing p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Come testare il Percorso
 
@@ -60,7 +61,7 @@ Verifica i percorsi con profili simulati e rileva gli errori prima di andare &qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verifica dei Percorsi in modalità di funzionamento a secco
 
@@ -70,7 +71,7 @@ Convalida i percorsi con dati di produzione reali senza contattare i clienti o a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Pubblicazione di un Percorso
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 95%
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -61,8 +61,6 @@ Le funzionalità principali includono:
 >* Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud sono applicabili anche a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
 
 
-
-
 ## Architettura {#architecture}
 
 Scopri l’architettura di base di [!DNL Adobe Journey Optimizer], i punti di integrazione e la relazione tra [!DNL Journey Optimizer] ed [!DNL Experience Platform], nel diagramma seguente.
@@ -78,6 +76,12 @@ Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire d
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
+### Blueprint Adobe Journey Optimizer
+
+I blueprint di esperienze digitali forniscono diagrammi dell’architettura del sistema e del flusso di dati per comprendere meglio come Adobe Experience Platform e le applicazioni vengono integrati e implementati. I blueprint forniscono una rappresentazione visiva dei flussi di dati e contenuti tra sistemi e componenti, della sequenza di operazioni e delle dipendenze per agevolare la progettazione dei casi d’uso e l’architettura di Adobe Experience Platform e applicazioni.
+
+Consulta [Adobe Journey Optimizer blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+
 
 >[!MORELIKETHIS]
 >
@@ -85,3 +89,4 @@ Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire d
 >* [Progettare percorsi e inviare messaggi](../building-journeys/journey-gs.md)
 >* [Rapporti live](../reports/live-report.md)
 >* [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}
