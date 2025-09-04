@@ -123,7 +123,7 @@ Sfoglia i tutorial video per scoprire i passaggi chiave per creare i casi d’us
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
     <br/>
-      <strong>Onboarding clienti</strong><br/><p>Scopri come implementare un percorso di onboarding dei clienti in Journey Optimizer.</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Guarda il video del caso d'uso</a>
+      <strong>Onboarding clienti</strong><br/><p>Scopri come implementare un percorso di onboarding dei clienti in Journey Optimizer.</p> - <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Guarda il video del caso d'uso</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
