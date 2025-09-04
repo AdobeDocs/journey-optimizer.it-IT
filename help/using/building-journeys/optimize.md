@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività Condizione
-description: Scopri l’attività condizione
+title: Ottimizza attività
+description: Scopri l’attività Ottimizza
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cc657dced3e7069cb3700d75f67b3cfb4f6da1e0
+source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1220'
 ht-degree: 3%
 
 ---
