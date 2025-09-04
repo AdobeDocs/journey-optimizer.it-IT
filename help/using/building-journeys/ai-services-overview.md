@@ -8,7 +8,8 @@ role: User
 level: Intermediate
 keywords: artificiale, AI, intelligente, percorso, servizio
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -19,11 +20,11 @@ ht-degree: 2%
 
 L&#39;integrazione con **[!DNL Adobe Intelligent Services]** consente di sfruttare l&#39;intelligenza artificiale e l&#39;apprendimento automatico per i casi di utilizzo dell&#39;esperienza del cliente. Questo consente agli analisti di marketing di impostare previsioni personalizzate in base alle esigenze di un’azienda utilizzando configurazioni a livello aziendale senza richiedere competenze in materia di data science.
 
-[!DNL Intelligent Services], basato su Adobe Experience Platform, fornisce agli addetti al marketing responsabili dell&#39;esperienza del cliente l&#39;accesso ad AI-as-a-service. Ciò consente di prevedere facilmente il comportamento dei clienti, misurare l’impatto di una campagna o garantire un ritorno migliore su ogni investimento. Per ulteriori dettagli su [!DNL Adobe Intelligent Services], consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=it){target="_blank"}.
+[!DNL Intelligent Services], basato su Adobe Experience Platform, fornisce agli addetti al marketing responsabili dell&#39;esperienza del cliente l&#39;accesso ad AI-as-a-service. Ciò consente di prevedere facilmente il comportamento dei clienti, misurare l’impatto di una campagna o garantire un ritorno migliore su ogni investimento. Per ulteriori dettagli su [!DNL Adobe Intelligent Services], consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 
 L&#39;integrazione tra [!DNL Journey Optimizer] e [!DNL Intelligent Services] consente di sfruttare le previsioni dei clienti.
 
-IA per l&#39;analisi dei clienti, un componente di [!DNL Adobe Intelligent Services], prevede azioni probabili dei clienti. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=it){target="_blank"}.
+IA per l&#39;analisi dei clienti, un componente di [!DNL Adobe Intelligent Services], prevede azioni probabili dei clienti. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
 
 IA per l’analisi dei clienti consente ai brand di creare punteggi basati sull’apprendimento automatico di abbandono o conversione. Questi punteggi sono disponibili come attributi di profilo nei profili Adobe Experience Platform (Real-time Customer Profile).
 

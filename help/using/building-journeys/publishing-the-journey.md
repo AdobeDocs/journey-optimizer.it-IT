@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -87,4 +88,4 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
