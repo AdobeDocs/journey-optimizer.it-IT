@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1226'
 ht-degree: 3%
 
 ---
@@ -33,18 +33,13 @@ ht-degree: 3%
 
 L&#39;attività **Ottimizza** consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più **percorsi** in base a criteri specifici, tra cui sperimentazione, targeting e condizioni specifiche, garantendo il massimo coinvolgimento e successo nella creazione di percorsi altamente personalizzati ed efficaci.
 
-Un percorso di **percorso** può essere costituito dai seguenti elementi:
+Un percorso **percorso** può essere costituito da uno dei seguenti elementi: sequenza di comunicazioni, tempo che intercorre tra di esse, numero di comunicazioni o una combinazione di queste tre variabili.
 
-* sequenziamento delle comunicazioni;
-* il tempo che intercorre tra di essi;
-* numero di comunicazioni;
-* o una combinazione di queste tre variabili.
-
-Ad esempio, un percorso potrebbe contenere un messaggio e-mail, un altro potrebbe contenere due messaggi SMS e un terzo potrebbe contenere un messaggio e-mail, un nodo [Wait](wait-activity.md) di due ore e quindi un messaggio SMS.
+Ad esempio, un percorso potrebbe contenere un messaggio e-mail, un altro potrebbe contenere due messaggi SMS e un terzo potrebbe contenere un messaggio e-mail, un nodo Attendi di due ore e quindi un messaggio SMS.
 
 <!--With this feature, [!DNL Journey Optimizer] empowers you with the tools to deliver personalized and optimized paths to your audience, ensuring maximum engagement and success to create highly customized and effective journeys.-->
 
-Tramite l&#39;attività **Ottimizza** è possibile:
+Tramite l&#39;attività **Ottimizza**, è possibile eseguire le azioni seguenti sui percorsi risultanti:
 
 * Esegui [esperimenti percorso](#experimentation)
 * Sfrutta le regole di [targeting](#targeting) in ogni percorso di percorso
@@ -85,20 +80,17 @@ Supponiamo che tu voglia confrontare tre percorsi:
     Consider adding an example in this step: For this example, select this metric to test xxx.
     -->
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
-<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
-
-1. Puoi scegliere di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non riceverà alcun contenuto da questo esperimento.
+1. Puoi scegliere di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non entrerà in alcun percorso da questo esperimento.
 
    >[!NOTE]
    >
    >Il passaggio alla barra di attivazione occuperà automaticamente il 10% della popolazione. Se necessario, puoi regolare questa percentuale.
 
    <!--
-    [!IMPORTANT]
-    >
-    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
+    DOES THIS APPLY TO PATH EXPERIMENT?
+    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
 1. Puoi allocare una percentuale precisa a ogni **[!UICONTROL Trattamento]** o semplicemente attivare la barra di selezione **[!UICONTROL Distribuisci uniformemente]**.
 
@@ -122,7 +114,7 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
    ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
-1. Da lì, utilizzando il riquadro a sinistra puoi spostarti tra i diversi contenuti di ogni azione nell’esperimento. Progetta tutti i contenuti come necessario.
+1. Da lì, utilizzando il riquadro a sinistra puoi spostarti tra i diversi contenuti di ogni azione nell’esperimento. Seleziona ogni contenuto e progettalo in base alle esigenze.
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
@@ -130,7 +122,7 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
 Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso più performante e fornisce informazioni fruibili.
 
-Segui il successo del tuo percorso con il report Ottimizza/Esperimento [percorso](../reports/journey-global-report-cja.md). <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Segui il successo del tuo percorso con il rapporto Percorsi Path Experiment.<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Casi di utilizzo dell’esperimento {#uc-experiment}
 
@@ -140,17 +132,17 @@ Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottim
 
 Verifica se l’invio del primo messaggio tramite e-mail rispetto agli SMS determina conversioni più elevate.
 
-* Utilizza il tasso di conversione come metrica di ottimizzazione (ad esempio: acquisti, iscrizioni).
+➡️ Utilizza il tasso di conversione come metrica di ottimizzazione (ad esempio: acquisti, iscrizioni).
 
-<!--![](assets/journey-optimize-experiment-uc.png)-->
+![](assets/journey-optimize-experiment-uc.png)
 
 +++
 
 +++Frequenza dei messaggi
 
-Esegui un esperimento per verificare se l’invio di un’e-mail rispetto a tre e-mail in una settimana comporta più acquisti.
+➡️ Esegui un esperimento per verificare se l&#39;invio di un&#39;e-mail rispetto a tre e-mail in una settimana comporta più acquisti.
 
-* Utilizza gli acquisti o il tasso di annullamento dell’iscrizione come metrica di ottimizzazione.
+Utilizza gli acquisti o il tasso di annullamento dell’iscrizione come metrica di ottimizzazione.
 
 +++
 
@@ -158,13 +150,13 @@ Esegui un esperimento per verificare se l’invio di un’e-mail rispetto a tre 
 
 Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up per determinare quale tempistica massimizza il coinvolgimento.
 
-* Utilizza il tasso di click-through o i ricavi come metrica di ottimizzazione.
+➡️ Utilizza il tasso di click-through o i ricavi come metrica di ottimizzazione.
 
 +++
 
 ## Utilizzo del targeting {#targeting}
 
-Il targeting consente di determinare regole o qualifiche specifiche che devono essere soddisfatte affinché un cliente possa accedere a uno dei percorsi di percorso, in base a segmenti di pubblico specifici<!-- depending on profile attributes or contextual attributes-->.
+Le regole di targeting consentono di determinare regole o qualifiche specifiche che devono essere soddisfatte affinché un cliente possa accedere a uno dei percorsi di percorso, in base a segmenti di pubblico specifici<!-- depending on profile attributes or contextual attributes-->.
 
 A differenza della sperimentazione, che è un’assegnazione casuale di un determinato percorso, il targeting è deterministico in termini di garantire che il pubblico o il profilo giusto entri nel percorso specificato.
 
@@ -184,7 +176,7 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Selezionare **[!UICONTROL Regola di targeting]** dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
 
-   ![](assets/journey-optimize-targeting.png){width=75%}
+   ![](assets/journey-optimize-targeting.png){width=70%}
 
 1. Fai clic su **[!UICONTROL Crea regola di targeting]**.
 
@@ -194,7 +186,7 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Selezionare **[!UICONTROL Abilita contenuto di fallback]** in base alle esigenze. Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non sono qualificate regole di targeting. Se non selezioni questa opzione, i tipi di pubblico non idonei per una regola di targeting definita sopra non immetteranno un percorso di fallback.
 
-1. Salva le impostazioni della regola di targeting.
+1. Fai clic su **[!UICONTROL Crea]** per salvare le impostazioni delle regole di targeting.
 
 1. Sempre nel percorso, rilascia azioni specifiche per personalizzare ogni percorso. Ad esempio, crea un’e-mail con offerte personalizzate per i membri Gold Loyalty e un promemoria SMS per tutti gli altri membri.
 
@@ -202,7 +194,7 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Facoltativamente, utilizzare **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** per definire un&#39;azione di fallback. [Ulteriori informazioni](using-the-journey-designer.md#paths)
 
-1. Progetta il contenuto appropriato per ogni azione corrispondente a un gruppo definito dalle impostazioni della regola di targeting. Puoi navigare facilmente tra i diversi contenuti di ogni azione.
+1. Progetta il contenuto appropriato per ogni azione corrispondente a ciascun gruppo definito dalle impostazioni della regola di targeting. Puoi navigare facilmente tra i diversi contenuti di ogni azione.
 
    ![](assets/journey-targeting-design.png)
 
@@ -212,17 +204,19 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 Una volta che il percorso è attivo, il percorso specificato per ciascun segmento viene elaborato in modo che i membri Gold entrino nel percorso con le offerte e-mail, mentre gli altri membri entrino nel percorso con il promemoria SMS.
 
-### Casi di utilizzo del targeting {#uc-targeting}
+Segui il successo del tuo percorso con il report Percorso Path Targeting.<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
-Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottimizza]** con il metodo **[!UICONTROL Targeting]** per personalizzare i percorsi per diversi tipi di pubblico secondario.
+### Casi di utilizzo delle regole di targeting {#uc-targeting}
+
+Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottimizza]** con il metodo **[!UICONTROL Regola di targeting]** per personalizzare i percorsi per diversi tipi di pubblico secondario.
 
 +++Canali specifici del segmento
 
 I membri fedeltà con stato Gold possono ricevere offerte personalizzate tramite e-mail, mentre tutti gli altri membri sono indirizzati a promemoria SMS.
 
-* Utilizza il ricavo per profilo o il tasso di conversione come metrica di ottimizzazione.
+➡️ Utilizza il ricavo per profilo o il tasso di conversione come metrica di ottimizzazione.
 
-<!--![](assets/journey-optimize-targeting-uc.png)-->
+![](assets/journey-optimize-targeting-uc.png)
 
 +++
 
@@ -230,7 +224,7 @@ I membri fedeltà con stato Gold possono ricevere offerte personalizzate tramite
 
 Ai clienti che hanno aperto un’e-mail ma non hanno fatto clic su viene inviata una notifica push, mentre a quelli che non hanno aperto viene inviato un SMS.
 
-* Utilizza il tasso di click-through o le conversioni a valle come metrica di ottimizzazione.
+➡️ Utilizza il tasso di click-through o le conversioni a valle come metrica di ottimizzazione.
 
 +++
 
@@ -238,7 +232,7 @@ Ai clienti che hanno aperto un’e-mail ma non hanno fatto clic su viene inviata
 
 I clienti che hanno acquistato di recente possono entrare in un breve percorso di &quot;Grazie + Cross-selling&quot;, mentre quelli senza cronologia di acquisto entrano in un percorso di sviluppo più lungo.
 
-* Utilizza il tasso di acquisto ripetuto o il tasso di coinvolgimento come metrica di ottimizzazione.
+➡️ Utilizza il tasso di acquisto ripetuto o il tasso di coinvolgimento come metrica di ottimizzazione.
 
 +++
 
