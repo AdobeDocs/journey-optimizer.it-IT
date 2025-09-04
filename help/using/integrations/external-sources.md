@@ -11,9 +11,9 @@ keywords: integrazione
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,18 @@ Puoi utilizzare questa funzione per accedere a dati esterni e richiamare contenu
 * **Informazioni sul prezzo** per i prodotti.
 * **Consigli di prodotto** da motori di consigli.
 * **Aggiornamenti logistici** come stato di consegna.
+
+## Limitazioni della versione Beta {#limitations}
+
+La versione beta presenta le seguenti limitazioni:
+
+* I canali in uscita sono supportati solo.
+
+* Per le risposte alle chiamate API è supportato solo il formato JSON. Le uscite di immagine HTML e raw binarie non sono disponibili.
+
+* Sono supportate solo le API di recupero che hanno come target contenuti specifici; le API di elenco non sono disponibili.
+
+* La funzione Integrazioni è disponibile sia per i Percorsi che per le campagne, ma non è supportata nei frammenti.
 
 ## Configurare l’integrazione {#configure}
 
