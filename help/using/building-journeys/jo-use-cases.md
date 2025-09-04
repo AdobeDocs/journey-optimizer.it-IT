@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: d11a34dd13301a141fbd2ca715d3ba9d904c4f08
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '755'
 ht-degree: 9%
 
 ---
@@ -112,6 +112,52 @@ Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi
 <p>
 </td>
 </tr></table>
+
+## Tutorial video
+
+Sfoglia i tutorial video per scoprire i passaggi chiave per creare i casi d’uso più comuni con Adobe Journey Optimizer.
+
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
+    <br/>
+      <strong>Onboarding clienti</strong><br/><p>Scopri come implementare un percorso di onboarding dei clienti in Journey Optimizer.</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Guarda il video del caso d'uso</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
+    <br/>
+      <strong>Carrello abbandonato</strong><br/><p>Scopri come implementare il caso d’uso relativo all’abbandono del carrello utilizzando la funzione Playbook in Adobe Journey Optimizer.</p><a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Guarda il video del caso d'uso</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-content.svg" width="35px">
+    <br/>
+      <strong>Nuovo coinvolgimento</strong><br/><p>Scopri come Adobe ha adattato il caso di utilizzo del ricoinvolgimento intelligente per funzionare con il sito demo Luma, basandosi sull’implementazione di base documentata nell’esercitazione su architetto e ingegnere dati e nell’esercitazione su Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">Guarda i video del caso d'uso</a> 
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>Personalizzazione delle offerte in tempo reale</strong><br/><p>L’utilizzo di dati relativi al meteo in Adobe Journey Optimizer per distribuire le offerte consente alle aziende di personalizzare le esperienze dei clienti in base a condizioni ambientali reali e in tempo reale.</p><a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">Segui il tutorial dettagliato</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
+    <br/>
+      <strong>Monitora e segnala le offerte consegnate tramite decisioning</strong><br/><p>Abilita la generazione di rapporti e l’analisi delle prestazioni per le offerte distribuite tramite Adobe Journey Optimizer: quando le offerte sono personalizzate e distribuite in base a segnali contestuali, è essenziale tenere traccia sia delle impression che delle interazioni degli utenti per valutarne l’efficacia.</p><a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Segui il tutorial dettagliato</a> 
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
+    <br/>
+      <strong>Personalizzare le offerte con formule di classificazione</strong><br/><p>Scopri come distribuire offerte finanziarie personalizzate sfruttando attributi utente come il codice postale e il reddito annuale in Adobe Journey Optimizer. Utilizzando formule di classificazione, le offerte ricevono un punteggio intelligente e un ordine di priorità in base a promozioni specifiche per la posizione e all’idoneità basata sul reddito.</p><a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">Segui il tutorial dettagliato</a> 
+    </td>
+  </tr>
+</table>
+
+Vedi anche il tutorial video per [Scaling orchestration to omnichannel engagement in Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: nel corso di sei lezioni, imparerai a elevare le comunicazioni aziendali da semplici messaggi in uscita a esperienze omnichannel sofisticate. Attraverso esempi pratici, ottieni informazioni sulla creazione di percorsi di clienti che combinano in modo perfetto estensione proattiva e coinvolgimento reattivo.
+
+
 
 ## Post di blog
 
