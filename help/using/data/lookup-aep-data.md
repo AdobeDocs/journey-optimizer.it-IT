@@ -11,10 +11,10 @@ level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 6%
+source-wordcount: '806'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Abilitare per la ricerca"
->abstract="Abilitare per la ricerca"
+>abstract="L’abilitazione di un set di dati per la ricerca consente di sfruttarne i dati con le funzionalità di personalizzazione e decisioning di Journey Optimizer."
 
 >[!AVAILABILITY]
 >
