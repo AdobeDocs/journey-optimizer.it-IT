@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2892'
 ht-degree: 99%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 99%
    + [Utilizzare l’Assistente IA](using/start/ai-assistant.md)
    + [Guardrail](using/start/guardrails.md)
    + [Best practice](using/start/best-practices.md)
+   + [Risoluzione dei problemi](using/start/troubleshooting.md)
    + [Playbook](using/start/playbooks.md)
 + Percorsi {#orchestrate-journeys}
    + [Percorsi](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)

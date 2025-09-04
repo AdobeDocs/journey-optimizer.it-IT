@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 15%
@@ -138,6 +138,7 @@ Un singolo utente può accedere a un’attività di attesa solo se nel percorso 
 A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout globale del percorso è stato spostato da 30 a 91 giorni. Gli impatti sono elencati nelle domande frequenti riportate di seguito:
 
 **Per Percorsi unitari**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
