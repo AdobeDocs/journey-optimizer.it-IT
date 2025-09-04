@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
+source-git-commit: cc657dced3e7069cb3700d75f67b3cfb4f6da1e0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,11 @@ Tramite l&#39;attività **Ottimizza**, è possibile eseguire le azioni seguenti 
 Una volta che il percorso è attivo, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono inviati lungo il percorso appropriato dal percorso.
 
 ## Utilizzare la sperimentazione {#experimentation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_path_experiment_success_metric"
+>title="Metrica di successo"
+>abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento."
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 
