@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
+source-git-commit: 0cc119d3e4c1ffa676f00fcedb93d8818f176689
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 2%
+source-wordcount: '2665'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Di seguito è riportato un elenco di articoli per la risoluzione dei problemi relativi a Adobe Journey Optimizer. Ogni sezione relativa alla risoluzione dei problemi fornisce le risposte alle domande frequenti e alle soluzioni ai problemi.
 
-Consulta anche le [Domande frequenti su Adobe Experience Platform e la documentazione sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
+Consulta anche le [Domande frequenti su Adobe Experience Platform e la documentazione sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
 
 ## Canale e-mail {#ajo-troubleshooting-email}
 
@@ -30,7 +30,7 @@ Consulta anche le [Domande frequenti su Adobe Experience Platform e la documenta
 
 In Adobe Journey Optimizer (AJO), la modifica dei blocchi CSS predefiniti nell’intestazione e-mail può causare problemi di formattazione imprevisti, soprattutto dopo la rimozione dei frammenti di contenuto. Questi problemi sono più evidenti sui dispositivi mobili e possono causare spostamenti di layout o incoerenze di stile. Per evitare questo problema, utilizza la funzione Temi per applicare CSS personalizzati in modo sicuro senza modificare gli stili CSS generati dal sistema.
 
-Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}.
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}.
 
 Ulteriori informazioni sulla formattazione delle e-mail [ in questa pagina](../email/get-started-email-design.md).
 
@@ -47,6 +47,16 @@ Ulteriori informazioni sui frammenti personalizzabili [in questa pagina](../cont
 
 +++
 
++++ Perché i frammenti di HTML non vengono visualizzati correttamente nelle e-mail?
+
+I frammenti di HTML potrebbero non essere visualizzati correttamente nelle e-mail, spesso visualizzati come **ID frammento** anziché come contenuto effettivo. A differenza dei frammenti visivi, i frammenti di HTML richiedono un’attenta configurazione. Per risolvere questo problema, segui le best practice per l&#39;utilizzo di **frammenti di espressione visivi e HTML** nelle campagne e-mail.
+
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-25441){target="_blank"}.
+
+Ulteriori informazioni sui frammenti di HTML [in questa pagina](../content-management/fragments.md).
+
++++
+
 +++ Perché i modelli e i contenuti delle e-mail scompaiono dai percorsi non pubblicati?
 
 Quando si modificano modelli e-mail in un percorso non pubblicato, il contenuto e i modelli di alcuni messaggi e-mail potrebbero scomparire in modo imprevisto. Questo può causare rilavorazione e ritardi. Per ridurre il rischio di questo problema, evita modifiche simultanee, limita il numero di schede aperte e salva le modifiche frequentemente.
@@ -57,15 +67,26 @@ Ulteriori informazioni sui modelli [in questa pagina](../email/use-email-templat
 
 +++
 
-+++ Un profilo può avere più token push in Adobe Journey Optimizer?
++++ Perché il campo Preheader e-mail non viene visualizzato in modalità &quot;Code your own&quot; (Crea il codice)? 
 
-Quando implementi le notifiche push in Journey Optimizer, un singolo profilo può effettivamente avere più token push associati a dispositivi diversi. Durante una campagna di notifica push, Journey Optimizer è progettato per gestire questi token e garantire che il profilo di destinazione possa essere raggiunto su tutti i dispositivi associati.
+Nella modalità **&#39;Crea codice personalizzato&#39;** nella funzionalità **Modifica corpo e-mail**, il campo di input Preheader non viene visualizzato. Per includere il testo di preintestazione, gli utenti devono **codificare manualmente il preintestazione** all&#39;interno del contenuto HTML personalizzato.
 
-Per ulteriori informazioni sulla gestione dei token push, consulta [questo articolo per la risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"}.
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26174){target="_blank"}.
 
-Ulteriori informazioni sulla configurazione push [in questa pagina](../push/push-configuration.md).
+Ulteriori informazioni sulla configurazione del preheader e-mail [in questa pagina](../email/header-parameters.md).
 
 +++
+
++++ Perché esiste una discrepanza nel comportamento dei collegamenti quando si utilizza un componente HTML nei modelli e-mail?  
+
+Quando si aggiunge un **componente HTML** a un modello di e-mail, i collegamenti possono comportarsi in modo diverso a seconda del **client e-mail**, della **modalità di visualizzazione** o del **dispositivo/browser**. Ad esempio, i collegamenti di ancoraggio possono funzionare in modo diverso in **Outlook affiancato** rispetto alla visualizzazione a schermo intero. Tieni presente queste varianti durante la progettazione di modelli e-mail e il test su più client e dispositivi.
+
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26221){target="_blank"}.
+
+Consulta anche le best practice per la progettazione di e-mail [in questa pagina](../email/get-started-email-design.md).
+
++++
+
 
 ### Tracciamento e reporting delle e-mail {#ajo-troubleshooting-tracking}
 
@@ -129,13 +150,31 @@ Ulteriori informazioni sulla configurazione della rinuncia SMS [in questa pagina
 +++
 
 
+
+## Canale in-app
+
++++ Perché non posso creare rapporti sul canale in-app in Customer Journey Analytics?
+
+Le difficoltà di generazione rapporti sul **canale in-app** in Adobe Customer Journey Analytics spesso derivano da **visualizzazioni dati**, **set di dati** o **aggiornamenti schema** non configurati correttamente. Assicurati che queste configurazioni siano applicate correttamente per risolvere il problema.
+
+Per ulteriori informazioni su questo problema, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}.
+
+Ulteriori informazioni su come integrare i dati di analisi di Journey Optimizer in Customer Journey Analytics [in questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
+
+Consulta anche la [documentazione di Journey Optimizer All-Time Reports](../reports/report-gs-cja.md)
+
++++
+
+
+
+
 ## Gestione dati {#ajo-troubleshooting-data-management}
 
 +++ Come si applicano le impostazioni Time-to-Live (TTL) ai set di dati Profilo e Data Lake quando crei una nuova sandbox?
 
 Le organizzazioni che eseguono il provisioning di nuove sandbox in Adobe Journey Optimizer hanno sollevato domande su come le impostazioni TTL (Time-to-Live) si applicano ai set di dati profilo e data lake. Questo articolo chiarisce che le impostazioni TTL non influiscono sulle sandbox esistenti e vengono applicate automaticamente solo a quelle con provisioning recente.
 
-Per informazioni su come gestire il TTL, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
+Per informazioni su come gestire il TTL, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
 
 Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/datasets-ttl.md).
 
@@ -148,7 +187,7 @@ Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/
 
 Il numero di voci elaborate nella funzionalità **Read Audience** di Adobe Journey Optimizer può essere inferiore al numero di tipi di pubblico previsto. Questo problema si verifica spesso a causa di configurazioni errate dello spazio dei nomi, che determinano l’esclusione dei profili dai percorsi. La risoluzione prevede il controllo e la correzione delle configurazioni dello spazio dei nomi, l’esame della documentazione pertinente e l’adeguamento delle priorità per garantire operazioni più fluide in Adobe Journey Optimizer.
 
-Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
+Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
 
 Vedi anche [questo articolo sui conteggi dei tipi di pubblico obsoleti](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
 
@@ -164,7 +203,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sull&#39;attività **Aggiorna profilo** nei percorsi [in questa pagina](../building-journeys/update-profiles.md).
 
-Consulta anche la [documentazione di Adobe Experience Platform sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Consulta anche la [documentazione di Adobe Experience Platform sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -176,7 +215,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni in [questo post della community Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} per verificare quando è pianificato il processo giornaliero.
+Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} per verificare quando è pianificato il processo giornaliero.
 
 +++
 
@@ -189,24 +228,78 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sull&#39;attività **Aggiorna profilo** nei percorsi [in questa pagina](../building-journeys/update-profiles.md).
 
-Consulta anche la [documentazione del profilo Adobe Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Consulta anche la [documentazione del profilo Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
-+++ Come posso risolvere i problemi di attivazione del percorso dopo le modifiche del pubblico in Adobe Journey Optimizer? 
++++ Perché il conteggio dei profili coinvolgibili è aumentato in modo significativo in un breve periodo? 
 
-Se un percorso smette di attivarsi dopo aver apportato modifiche al pubblico associato, come le modifiche al criterio di unione, si potrebbero verificare flussi di campagna interrotti. Per risolvere il problema, **duplica e ripubblica il percorso** con le impostazioni aggiornate per il pubblico, in modo che i trigger funzionino correttamente.
+La metrica **Profili coinvolgibili** riflette il numero di profili univoci coinvolti da percorsi o campagne negli ultimi 12 mesi. Un aumento improvviso può derivare dal targeting di pubblici di grandi dimensioni o da modifiche nei set di dati. Per gestire questo problema, controlla la **logica di conteggio dei profili**, indaga i percorsi che hanno come target tipi di pubblico di grandi dimensioni, **filtra i tipi di pubblico** a livello di percorso, riduci le **dimensioni del pubblico indirizzabile** e monitora **modifiche ai set di dati**.
 
-Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} per scoprire i passaggi per risolvere il problema.
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26161){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Monitora l&#39;utilizzo delle licenze della tua organizzazione e i profili coinvolgibili utilizzando [Dashboard utilizzo licenze](../audience/license-usage.md)
+
+Consulta anche la [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}.
+
++++
+
++++ Perché le e-mail vengono inviate a persone esterne al pubblico previsto in base a funzioni data?
+
+Le e-mail possono essere inviate a destinatari che **non soddisfano i criteri di pubblico specificati**. Ad esempio, i membri con date di rimborso **precedenti al 4 luglio 2025** possono ricevere e-mail destinate solo a coloro che sono successivi a tale data. Questo comportamento può essere dovuto a **segmentazione del pubblico non configurata correttamente** o a **modifiche impreviste nella logica di qualifica del profilo**.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Ulteriori informazioni sulle funzioni data [in questa pagina](../../rp_landing_pages/date-landing-page.md).
+
++++
+
++++ Come posso risolvere i problemi di selezione del pubblico e gli errori di Chrome durante il salvataggio dei percorsi?
+
+L&#39;aggiunta di tipi di pubblico alle condizioni del percorso può talvolta causare **arresti anomali dell&#39;applicazione** o la visualizzazione di un **errore Aw Snap** in Chrome, inclusi errori durante il salvataggio dei percorsi. Questi problemi sono spesso correlati ai **servizi Chromium**. Per risolverli, applica un **aggiornamento del browser** o utilizza una **soluzione alternativa** appropriata.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26145){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
++++
+
+## Percorsi {#ajo-troubleshooting-journeys}
+
+### Versioni del percorso {#ajo-troubleshooting-journey-versions}
+
++++ Perché le espressioni vengono perse durante la creazione di una nuova versione del percorso?  
+
+Durante la creazione di una nuova versione di un percorso, **le espressioni nei passaggi specifici** potrebbero andare perse, causando errori e richiedendo il reinserimento manuale. Per risolvere il problema, **duplica il percorso**, verifica la riproducibilità, **evita ricariche del browser** e utilizza l&#39;**area di lavoro aggiornata** per i percorsi precedenti.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26152){target="_blank"} per scoprire i passaggi per risolvere il problema.
 
 Scopri come duplicare un percorso [in questa pagina](../building-journeys/journey-ui.md#duplicate-a-journey).
 
 +++
 
+### Entrata e uscita {#ajo-troubleshooting-journeys-exit}
 
-## Percorsi
++++ Perché i profili escono anticipatamente dai percorsi? 
 
-### Eventi
+I profili possono uscire da un percorso in modo imprevisto senza passare da un nodo designato quando lo stato di **verifica delle condizioni** dei messaggi inviati non è configurato correttamente. Per risolvere il problema, controlla la **logica della condizione**, implementa **logica alternativa** oppure rivolgiti al tuo **team di implementazione**.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26127){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Consulta anche [Linee guida per la progettazione dei Percorsi](../building-journeys/using-the-journey-designer.md).
+
++++
+
+
++++ Perché i profili stanno uscendo dai percorsi in modo imprevisto?
+
+I profili possono uscire da un percorso in modo imprevisto quando si verifica il limite **evento**, causando l&#39;eliminazione di alcuni profili se il numero di eventi elaborati supera la capacità del sistema. Per ridurre le uscite di profilo, individua i **limiti di sistema**, monitora i **picchi di eventi** e ottimizza il **flusso di dati** per evitare il superamento delle soglie.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Vedi anche [guardrail di Percorso](../start/guardrails.md#journey-guardrails).
+
++++
+
+### Eventi {#ajo-troubleshooting-journey-events}
 
 +++ Perché il mio evento non attiva il percorso previsto?  
 
@@ -217,6 +310,43 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 Ulteriori informazioni sugli eventi [in questa pagina](../event/about-events.md).
 
 Vedi anche [Guardrail evento Percorso](../start/guardrails.md#events).
+
++++
+
+
++++ Come posso risolvere i problemi di attivazione del percorso dopo le modifiche del pubblico in Adobe Journey Optimizer? 
+
+Se un percorso smette di attivarsi dopo aver apportato modifiche al pubblico associato, ad esempio modifiche al criterio di unione, si potrebbero verificare flussi interrotti. Per risolvere il problema, **duplica e ripubblica il percorso** con le impostazioni aggiornate per il pubblico, in modo che i trigger funzionino correttamente.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Scopri come duplicare un percorso [in questa pagina](../building-journeys/journey-ui.md#duplicate-a-journey).
+
++++
+
+### Azioni personalizzate {#ajo-troubleshooting-journeys-actions}
+
++++ Perché un’azione personalizzata che chiama un endpoint esterno di terze parti riceve un timeout?
+
+Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **** chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Ulteriori informazioni sull&#39;API di limitazione del Percorso [in questa pagina](../configuration/throttling.md).
+
+Consulta anche la [documentazione sull&#39;integrazione con sistemi esterni](../configuration/external-systems.md).
+
++++
+
+## Regole {#ajo-troubleshooting-rules}
+
++++ Perché il menu a discesa Regole di limitazione non funziona?
+
+I problemi relativi al menu a discesa **Regole di limitazione** si verificano spesso quando i set di regole sono **non configurati correttamente** o **inaccessibili**. Assicurati che tutti i set di regole siano configurati e disponibili correttamente per risolvere il problema.
+
+Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26204){target="_blank"}.
+
+Scopri come applicare le regole di limitazione di utilizzo [ in questa sezione](../conflict-prioritization/rule-sets.md).
 
 +++
 
@@ -232,6 +362,17 @@ Ulteriori informazioni sulle raccolte di offerte [in questa pagina](../offers/of
 
 +++
 
++++ Perché non riesco ad accedere ad Offer Decisioning?  
+
+Durante l&#39;integrazione di Adobe Target in un&#39;applicazione tramite Adobe Journey Optimizer, l&#39;opzione **Offer Decisioning** potrebbe non essere accessibile nella configurazione dello stream di dati. Ciò si verifica in genere a causa di **impostazioni delle autorizzazioni** o **vincoli di provisioning**. Per risolvere il problema, verifica le autorizzazioni utente e assicurati che sia attivo il provisioning necessario.
+
+Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"} per scoprire i passaggi per risolvere il problema.
+
+Ulteriori informazioni sulle autorizzazioni richieste per Offer Decisioning [in questa pagina](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management).
+
++++
+
+
 
 ## Multilingue {#ajo-troubleshooting-multilingual}
 
@@ -243,7 +384,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sul contenuto multilingue [in questa pagina](../content-management/multilingual-gs.md).
 
-++
++++
 
 
 ## Configurazione {#ajo-troubleshooting-config}
@@ -252,7 +393,7 @@ Ulteriori informazioni sul contenuto multilingue [in questa pagina](../content-m
 
 +++ Come si abilita TLS v1.3 per le azioni personalizzate?  
 
-Per mantenere l&#39;integrità e la sicurezza dei dati di **1&rbrace; durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
+Per mantenere l&#39;integrità e la sicurezza dei dati di **1} durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
 
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"}.
@@ -269,4 +410,17 @@ In Adobe Journey Optimizer non è possibile creare dashboard direttamente dalle 
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26201){target="_blank"}.
 
-++
++++
+
+## API {#ajo-troubleshooting-apis}
+
++++ Come posso risolvere i problemi di accesso con l’API di Query Service?  
+
+Gli errori di accesso quando si utilizza l&#39;API **Query Service API** tramite Postman o strumenti simili sono in genere causati da **autorizzazioni insufficienti**. Per risolvere questo problema, verifica le autorizzazioni utente, controlla le credenziali API e fornisci informazioni dettagliate da supportare, se necessario.
+
+Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}.
+
+Consulta anche la [Documentazione di gestione delle credenziali API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
+
++++
+
