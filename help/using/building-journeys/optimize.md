@@ -12,9 +12,9 @@ badge: label="Disponibilità limitata" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -57,59 +57,109 @@ Una volta che il percorso è attivo, i profili vengono valutati in base ai crite
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 
-Per impostare la sperimentazione in un percorso, segui i passaggi riportati di seguito.
+Per impostare la sperimentazione dei percorsi in un percorso, segui i passaggi riportati di seguito.
 
 Supponiamo che tu voglia confrontare tre percorsi:
 
 * un percorso con un messaggio e-mail;
-* un secondo percorso con un nodo Attendi di due giorni e un messaggio e-mail;
+* un secondo percorso con un nodo **[!UICONTROL Wait]** di due giorni e un&#39;e-mail;
 * un terzo percorso con un’e-mail e quindi un messaggio SMS.
 
-1. Rilascia l&#39;attività **[!UICONTROL Ottimizza]** nell&#39;area di lavoro del percorso.
+1. Dalla sezione **[!UICONTROL Orchestrazione]**, trascina l&#39;attività **[!UICONTROL Ottimizza]** nell&#39;area di lavoro del percorso.
 
-1. Aggiungi un’etichetta opzionale per identificare l’attività nei rapporti e nei registri in modalità di test.
+1. Aggiungi un’etichetta facoltativa che può essere utile per identificare l’attività nei rapporti e nei registri della modalità di test.
 
 1. Selezionare **[!UICONTROL Esperimento]** dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
 
-   ![](assets/journey-optimize-experiment.png){width=85%}
+   ![](assets/journey-optimize-experiment.png){width=75%}
 
-1. Fare clic su **[!UICONTROL Impostazioni esperimento]**.
+1. Fai clic su **[!UICONTROL Crea esperimento]**.
 
-1. Progetta e configura l’esperimento come desiderato. [Scopri come](../content-management/content-experiment.md)
+1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento.
+
+   <!--Need to have the list of all default metrics + a description for each.
+    Explain why the metric selection is important.
+    Are there custom metrics? If so explain.
+    If possible, add best practices and examples for each metrics (could even be a dedicated section).
+    Consider adding an example in this step: For this example, select this metric to test xxx.
+    -->
+
+   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+
+<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
+
+1. Puoi scegliere di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non riceverà alcun contenuto da questo esperimento.
+
+   >[!NOTE]
+   >
+   >Il passaggio alla barra di attivazione occuperà automaticamente il 10% della popolazione. Se necessario, puoi regolare questa percentuale.
 
    <!--
-    ![](../campaigns/assets/msg-optimization-create-experiment.png){width=85%}
-    Replace with appropriate screenshot
-    The experiment applies to all the activities in the journey.TBC
-   -->
+    [!IMPORTANT]
+    >
+    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
-Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso che determina ulteriori acquisti e fornisce informazioni fruibili.
+1. Puoi allocare una percentuale precisa a ogni **[!UICONTROL Trattamento]** o semplicemente attivare la barra di selezione **[!UICONTROL Distribuisci uniformemente]**.
 
-<!--Follow the success of your journey with the [Experimentation journey report](../reports/campaign-global-report-cja-experimentation.md). Is there a report specific to experimentation in journey?-->
+   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
 
-### Casi di utilizzo con l’esperimento {#uc-experiment}
+1. Fai clic su **[!UICONTROL Crea]**.
+
+1. Definisci gli elementi desiderati per ogni ramo risultante dall’esperimento, ad esempio:
+
+   * Trascina e rilascia un&#39;attività [E-mail](../email/create-email.md) nel primo ramo (**Trattamento A**).
+
+   * Trascina e rilascia un&#39;attività [Wait](wait-activity.md) di due giorni sul primo ramo, seguita da un&#39;attività [Email](../email/create-email.md) (**Trattamento B**).
+
+   * Trascina e rilascia un&#39;attività [E-mail](../email/create-email.md) nel terzo ramo, seguito da un&#39;attività [SMS](../sms/create-sms.md) (**Trattamento C**).
+
+   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+
+1. Facoltativamente, utilizzare **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** per definire un&#39;azione di fallback. [Ulteriori informazioni](using-the-journey-designer.md#paths)
+
+1. Seleziona un&#39;azione del canale e utilizza il pulsante **[!UICONTROL Modifica contenuto]** per accedere agli strumenti di progettazione.
+
+   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+
+1. Da lì, utilizzando il riquadro a sinistra puoi spostarti tra i diversi contenuti di ogni azione nell’esperimento. Progetta tutti i contenuti come necessario.
+
+   ![](assets/journey-optimize-experiment-content.png){width=100%}
+
+1. [Pubblica](publishing-the-journey.md) il tuo percorso.
+
+Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso più performante e fornisce informazioni fruibili.
+
+Segui il successo del tuo percorso con il report Ottimizza/Esperimento [percorso](../reports/journey-global-report-cja.md). <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+
+### Casi di utilizzo dell’esperimento {#uc-experiment}
 
 Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottimizza]** con il metodo **[!UICONTROL Esperimento]** per determinare quale percorso funziona meglio nel complesso.
 
-**Efficacia del canale**
++++Efficacia del canale
 
 Verifica se l’invio del primo messaggio tramite e-mail rispetto agli SMS determina conversioni più elevate.
 
 * Utilizza il tasso di conversione come metrica di ottimizzazione (ad esempio: acquisti, iscrizioni).
 
-![](assets/journey-optimize-experiment-uc.png)
+<!--![](assets/journey-optimize-experiment-uc.png)-->
 
-**Frequenza messaggi**
++++
+
++++Frequenza dei messaggi
 
 Esegui un esperimento per verificare se l’invio di un’e-mail rispetto a tre e-mail in una settimana comporta più acquisti.
 
 * Utilizza gli acquisti o il tasso di annullamento dell’iscrizione come metrica di ottimizzazione.
 
-**Tempo di attesa tra le comunicazioni**
++++
+
++++Tempo di attesa tra le comunicazioni
 
 Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up per determinare quale tempistica massimizza il coinvolgimento.
 
 * Utilizza il tasso di click-through o i ricavi come metrica di ottimizzazione.
+
++++
 
 ## Utilizzo del targeting {#targeting}
 
@@ -117,27 +167,27 @@ Il targeting consente di determinare regole o qualifiche specifiche che devono e
 
 A differenza della sperimentazione, che è un’assegnazione casuale di un determinato percorso, il targeting è deterministico in termini di garantire che il pubblico o il profilo giusto entri nel percorso specificato.
 
-Con il targeting è possibile definire regole specifiche in base a:
+<!--With targeting, specific rules can be defined based on:
 
-* **Attributi del profilo utente** come la posizione (esempio: geotargeting), età o preferenze. Ad esempio, negli Stati Uniti gli utenti possono vedere una promozione &quot;Golden Gate&quot;, mentre in Francia gli utenti possono vedere una promozione &quot;Eiffel Tower&quot;.
+* **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
-* **Dati contestuali** come tipo di dispositivo (esempio: device-targeting), l’ora del giorno o i dettagli della sessione. Ad esempio, gli utenti desktop ricevono contenuti ottimizzati per il desktop, mentre gli utenti mobili ricevono contenuti ottimizzati per il mobile.
+* **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **Tipi di pubblico** che possono essere utilizzati per includere o escludere profili con una particolare appartenenza al pubblico.
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
 
 Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
-1. Rilascia l&#39;attività **[!UICONTROL Ottimizza]** nell&#39;area di lavoro del percorso.
+1. Dalla sezione **[!UICONTROL Orchestrazione]**, trascina l&#39;attività **[!UICONTROL Ottimizza]** nell&#39;area di lavoro del percorso.
 
-1. Aggiungi un’etichetta opzionale per identificare l’attività nei rapporti e nei registri in modalità di test.
+1. Aggiungi un’etichetta facoltativa che può essere utile per identificare l’attività nei rapporti e nei registri della modalità di test.
 
-1. Selezionare **[!UICONTROL Targeting]** dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
+1. Selezionare **[!UICONTROL Regola di targeting]** dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
 
-   ![](assets/journey-optimize-targeting.png){width=85%}
+   ![](assets/journey-optimize-targeting.png){width=75%}
 
 1. Fai clic su **[!UICONTROL Crea regola di targeting]**.
 
-1. Utilizza il generatore di regole per definire i criteri. Ad esempio, definisci una regola per i residenti negli Stati Uniti, una regola per i residenti in Francia e una regola per i residenti in India.
+1. Utilizza il generatore di regole per definire i criteri. Definire ad esempio una regola per i membri Gold del programma fedeltà (`loyalty.status.equals("Gold", false)`) e una regola per gli altri membri (`loyalty.status.notEqualTo("Gold", false)`).
 
    ![](assets/journey-targeting-rule.png)
 
@@ -145,41 +195,51 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Salva le impostazioni della regola di targeting.
 
-1. Sempre nel percorso, rilascia azioni specifiche per personalizzare ogni percorso. Ad esempio, puoi creare un’e-mail specifica per residenti negli Stati Uniti, un’altra e-mail per residenti in Francia e così via.
+1. Sempre nel percorso, rilascia azioni specifiche per personalizzare ogni percorso. Ad esempio, crea un’e-mail con offerte personalizzate per i membri Gold Loyalty e un promemoria SMS per tutti gli altri membri.
 
    ![](assets/journey-targeting-paths.png)
 
-1. Progetta il contenuto appropriato per ogni gruppo definito dalle impostazioni delle regole di targeting. Puoi navigare facilmente tra i diversi percorsi.
+1. Facoltativamente, utilizzare **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** per definire un&#39;azione di fallback. [Ulteriori informazioni](using-the-journey-designer.md#paths)
+
+1. Progetta il contenuto appropriato per ogni azione corrispondente a un gruppo definito dalle impostazioni della regola di targeting. Puoi navigare facilmente tra i diversi contenuti di ogni azione.
 
    ![](assets/journey-targeting-design.png)
 
-   In questo esempio, progetta un percorso specifico per i residenti negli Stati Uniti, un percorso diverso per i residenti francesi e un altro percorso per i residenti in India.
+   In questo esempio, progetta un’e-mail con offerte speciali per gli iscritti Gold e un promemoria SMS per gli altri membri.
 
-Una volta che il percorso è attivo, il percorso specificato per ogni segmento viene elaborato in modo che i residenti degli Stati Uniti immettano un percorso specifico, i residenti della Francia immettano un percorso diverso e così via.
+1. [Pubblica](publishing-the-journey.md) il tuo percorso.
 
-### Casi d’uso con targeting {#uc-targeting}
+Una volta che il percorso è attivo, il percorso specificato per ciascun segmento viene elaborato in modo che i membri Gold entrino nel percorso con le offerte e-mail, mentre gli altri membri entrino nel percorso con il promemoria SMS.
+
+### Casi di utilizzo del targeting {#uc-targeting}
 
 Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottimizza]** con il metodo **[!UICONTROL Targeting]** per personalizzare i percorsi per diversi tipi di pubblico secondario.
 
-**Canali specifici del segmento**
++++Canali specifici del segmento
 
 I membri fedeltà con stato Gold possono ricevere offerte personalizzate tramite e-mail, mentre tutti gli altri membri sono indirizzati a promemoria SMS.
 
 * Utilizza il ricavo per profilo o il tasso di conversione come metrica di ottimizzazione.
 
-![](assets/journey-optimize-targeting-uc.png)
+<!--![](assets/journey-optimize-targeting-uc.png)-->
 
-**Destinazione basata sul comportamento**
++++
+
++++Targeting basato sul comportamento
 
 Ai clienti che hanno aperto un’e-mail ma non hanno fatto clic su viene inviata una notifica push, mentre a quelli che non hanno aperto viene inviato un SMS.
 
 * Utilizza il tasso di click-through o le conversioni a valle come metrica di ottimizzazione.
 
-**Destinazione cronologia acquisti**
++++
+
++++Targeting cronologia acquisti
 
 I clienti che hanno acquistato di recente possono entrare in un breve percorso di &quot;Grazie + Cross-selling&quot;, mentre quelli senza cronologia di acquisto entrano in un percorso di sviluppo più lungo.
 
 * Utilizza il tasso di acquisto ripetuto o il tasso di coinvolgimento come metrica di ottimizzazione.
+
++++
 
 ## Aggiungere una condizione {#conditions}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -52,6 +52,6 @@ Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per pr
 
 ## Aggiungi un percorso alternativo {#canvas-add-path}
 
-È possibile definire un&#39;azione di fallback in caso di errore per le seguenti attività di percorso: **[!UICONTROL Condizione]** e **[!UICONTROL Azione]**.
+È possibile definire un&#39;azione di fallback in caso di errore per le seguenti attività di percorso: **[!UICONTROL Ottimizza]** e **[!UICONTROL Azione]**.
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L&#39;unico modo per farlo continuare è risolvere il problema. Per evitare di interrompere il percorso, puoi anche selezionare l&#39;opzione **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** nelle proprietà dell&#39;attività. Ulteriori informazioni in [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
