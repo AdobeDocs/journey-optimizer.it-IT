@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 68%
+source-wordcount: '2051'
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Aggiornamenti del 25 settembre {#sep-updates}
+
+### Nuove funzionalità {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 68%
 <li>È ora possibile utilizzare la funzione helper "datasetLookup" nei frammenti di espressione.</li>
 <li>Un’opzione nell’interfaccia di gestione dei set di dati ora consente di abilitare i set di dati basati su record per la personalizzazione della ricerca, senza dover eseguire una chiamata API.</li>
 <li>Monitoraggio migliorato per tenere traccia dello stato di acquisizione dei dati e sapere quando i set di dati sono pronti per la ricerca.</li>
-<li>Sono state aggiornate le linee guida e i guardrail di utilizzo per garantire prestazioni e affidabilità ottimali.</li></ul></p>
+<li>Sono state aggiornate le linee guida e i guardrail di utilizzo per garantire prestazioni e affidabilità ottimali.</li>
+<li>Ora è possibile sfruttare i set di dati di Adobe Experience Platform nelle regole di limitazione delle decisioni.</li></ul></p>
 <p>Per ulteriori informazioni, consulta la <a href="../data/lookup-aep-data.md">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 1 settembre 2025</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 68%
 </tbody>
 </table>
 
-### Miglioramenti {#Sept-25-8-improv}
+### Miglioramenti {#Sep-25-improv}
+
+* **Espressione per le regole di limitazione delle decisioni** - È ora possibile creare espressioni personalizzate per definire la soglia di una regola di limitazione per un elemento di decisione. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
 
 * **Amministrazione**
 

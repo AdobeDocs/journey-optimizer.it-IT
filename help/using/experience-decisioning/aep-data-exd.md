@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 24%
+source-wordcount: '1070'
+ht-degree: 19%
 
 ---
 
@@ -35,27 +35,45 @@ ht-degree: 24%
 
 [!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] per Decisioning. Questo consente di estendere la definizione degli attributi di decisione ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.
 
-Prima di iniziare, i set di dati necessari per la personalizzazione della ricerca devono essere abilitati per la ricerca. Informazioni dettagliate sono disponibili in questa sezione: [Usa dati di Adobe Experience Platform](../data/lookup-aep-data.md).
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer]supporta fino a 1000 ricerche per un singolo criterio di decisione.
 
-## Guardrail e limitazioni {#guidelines}
+## Prerequisiti
 
-Prima di iniziare, prendi nota delle seguenti restrizioni e linee guida:
+### Abilita set di dati per la ricerca
 
-* Una policy decisionale può fare riferimento a un massimo di 3 set di dati totali, in tutte le sue regole decisionali e formule di classificazione combinate. Ad esempio, se le regole utilizzano 2 set di dati, le formule possono utilizzare solo 1 set di dati aggiuntivo.
-* Una regola di decisione può utilizzare 3 set di dati.
-* Una formula di classificazione può utilizzare 3 set di dati.
-* Quando viene valutato un criterio decisionale, il sistema eseguirà fino a 1000 query di set di dati (ricerche) in totale. Ogni mappatura di set di dati utilizzata da un elemento decisionale conta come una query. Esempio: se un elemento di decisione utilizza 2 set di dati, la valutazione di tale offerta conta come 2 query per il limite di 1000 query.
+Prima di iniziare, i set di dati necessari per le decisioni devono essere abilitati per la ricerca. Segui i passaggi descritti in questa sezione: [Usa dati Adobe Experience Platform](../data/lookup-aep-data.md).
+
+### Creare mappature
+
+Per utilizzare gli attributi di Adobe Experience Platform per il decisioning, è necessario creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]. Per farlo, segui questi passaggi:
+
+1. Passa a **[!UICONTROL Cataloghi]** / **[!UICONTROL Ricerca set di dati]**, quindi fai clic su **[!UICONTROL Crea]**.
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. Configura la mappatura:
+
+   1. Fare clic su **[!UICONTROL Seleziona set di dati]** per visualizzare tutti i Adobe Experience Platform abilitati per la ricerca. Seleziona il set di dati con gli attributi necessari.
+
+   1. Fai clic su **[!UICONTROL Seleziona chiave]** per scegliere una chiave di unione (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell&#39;elemento decisione che nel set di dati.
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Sfruttare i dati Adobe Experience Platform {#leverage-aep-data}
 
-Una volta abilitato un set di dati per la ricerca, puoi utilizzarne gli attributi per arricchire la logica decisionale con dati esterni. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale.
+Una volta abilitato un set di dati per la ricerca e creati i mapping, puoi utilizzare i dati per arricchire la logica decisionale con dati esterni. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale.
 
 Gli attributi dei set di dati di Adobe Experience Platform possono essere utilizzati in due parti della logica decisionale:
 
 * **Regole di decisione**: definire se un elemento di decisione è idoneo per la visualizzazione.
 * **Classificazione delle formule**: assegnazione di priorità agli elementi decisionali in base a dati esterni.
+* **Regole di limitazione**: utilizzare dati esterni per calcolare la soglia per le regole di limitazione.
 
-Nelle sezioni successive viene illustrato come utilizzare i dati di Adobe Experience Platform in entrambi i contesti.
+Nelle sezioni successive viene illustrato come utilizzare i dati di Adobe Experience Platform in questi contesti.
 
 ### Regole di decisione {#rules}
 
@@ -69,16 +87,9 @@ Per utilizzare i dati di Adobe Experience Platform nelle regole di decisione, ef
 
    ![](assets/exd-lookup-rule.png)
 
-1. Fai clic su **[!UICONTROL Crea mappatura]** per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer].
+1. Fai clic su **[!UICONTROL Aggiungi set di dati]**, quindi seleziona il set di dati con gli attributi necessari.
 
-   * Seleziona il set di dati con gli attributi necessari.
-   * Scegli una chiave di unione (ad esempio, ID prodotto o ID store) presente sia negli attributi dell’elemento decisione che nel set di dati.
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >Puoi creare fino a 3 mappature per regola.
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. Fai clic su **[!UICONTROL Continua]**. È ora possibile accedere agli attributi del set di dati nel menu **[!UICONTROL Ricerca set di dati]** e utilizzarli nelle condizioni della regola. [Scopri come creare una regola di decisione](../experience-decisioning/rules.md#create)
 
@@ -92,19 +103,54 @@ Ad esempio, supponiamo che una compagnia aerea utilizzi una formula di classific
 
 Per utilizzare i dati di Adobe Experience Platform nelle formule di classificazione, effettua le seguenti operazioni:
 
-1. Crea o modifica una formula di classificazione. Nella sezione **[!UICONTROL Ricerca set di dati]** fare clic su **[!UICONTROL Crea mapping]**.
+1. Crea o modifica una formula di classificazione.
 
-1. Definisci la mappatura del set di dati:
+1. Nella sezione **[!UICONTROL Ricerca set di dati]** fare clic su **[!UICONTROL Aggiungi set di dati]**.
 
-   * Seleziona il set di dati appropriato (ad esempio, disponibilità di posti in aereo).
-   * Scegli una chiave di unione (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell’elemento decisione che nel set di dati.
+1. Seleziona il set di dati appropriato.
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >Puoi creare fino a 3 mappature per formula di classificazione.
+   >Se il set di dati che stai cercando non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca per il set di dati. Per ulteriori dettagli, consulta la sezione [Prerequisiti](#prerequisites).
 
 1. Utilizza i campi del set di dati per creare la formula di classificazione come di consueto. [Scopri come creare una formula di classificazione](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### Regole di limitazione {#capping-rules}
+
+Le regole di limite vengono utilizzate come vincoli per definire il numero massimo di volte in cui un elemento decisionale può essere presentato. L’utilizzo dei dati di Adobe Experience Platform nelle regole di limitazione consente di definire criteri di limitazione in base ad attributi dinamici esterni. A tale scopo, utilizza un’espressione nella regola di limitazione di utilizzo per calcolare la soglia di limitazione desiderata.
+
+Ad esempio, un retailer potrebbe voler limitare un’offerta in base all’inventario dei prodotti in tempo reale. Invece di impostare una soglia fissa di 500, utilizzano un&#39;espressione che fa riferimento al campo `inventory_count` da un set di dati di Adobe Experience Platform. Se il set di dati mostra che restano in magazzino 275 articoli, l’offerta verrà consegnata solo fino a quel numero.
+
+>[!NOTE]
+>
+>Le **espressioni** della regola di limitazione di utilizzo sono attualmente disponibili come funzionalità di disponibilità limitata per tutti gli utenti e sono supportate solo per il tipo di limite **[!UICONTROL In totale]**.
+
+Per utilizzare i dati di Adobe Experience Platform nelle espressioni delle regole di limitazione di utilizzo, effettua le seguenti operazioni:
+
+1. Crea o modifica un elemento di decisione.
+
+1. Quando definisci l&#39;idoneità dell&#39;elemento, fai clic su **[!UICONTROL Aggiungi set di dati]** e seleziona il set di dati appropriato.
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >Se il set di dati che stai cercando non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca per il set di dati. Per ulteriori dettagli, consulta la sezione [Prerequisiti](#prerequisites).
+
+1. Seleziona il tipo di limite **[!UICONTROL In total]**, quindi abilita l&#39;opzione **[!UICONTROL Expression]**.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >Se il set di dati che stai cercando non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca per il set di dati. Per ulteriori dettagli, consulta la sezione [Prerequisiti](#prerequisites).
+
+1. Modifica l’espressione e utilizza i campi del set di dati per generare l’espressione.
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. Completa la configurazione del limite e dell’elemento di decisione della regola come di consueto. [Scopri come impostare le regole di limitazione](../experience-decisioning/items.md#capping)

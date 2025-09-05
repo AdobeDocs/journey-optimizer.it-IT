@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 14%
+source-wordcount: '2125'
+ht-degree: 12%
 
 ---
 
@@ -109,7 +109,7 @@ Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare infor
 
 ## Impostare le regole di limitazione {#capping}
 
-Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta. Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore. Puoi creare fino a 10 maiuscole per un determinato elemento decisionale.
+Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui un articolo di offerta può essere presentato. Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore. Puoi creare fino a 10 maiuscole per un determinato elemento decisionale.
 
 ![](assets/item-capping.png)
 
@@ -118,7 +118,17 @@ Il limite viene utilizzato come vincolo per definire il numero massimo di volte 
 >
 >L&#39;aggiornamento del valore del contatore di limite può richiedere fino a 3 secondi. Ad esempio, supponiamo che tu stia visualizzando un banner web che mostra un’offerta sul tuo sito web. Se un determinato utente passa alla pagina successiva del sito Web in meno di 3 secondi, il valore del contatore non verrà incrementato per tale utente.
 
-Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic sul pulsante **[!UICONTROL Crea limitazione]** e quindi eseguire la procedura seguente:
+Durante la configurazione delle regole di limitazione di utilizzo, puoi fare riferimento agli attributi memorizzati nei set di dati di Adobe Experience Platform per definire le soglie. Per utilizzare un set di dati, selezionarlo nella sezione **[!UICONTROL Set di dati]**.
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>Questa funzionalità è attualmente disponibile come disponibilità limitata per tutti gli utenti. Informazioni dettagliate su come utilizzarlo sono disponibili in questa sezione: [Utilizzare i dati di Adobe Experience Platform per Decisioning](../experience-decisioning/aep-data-exd.md)
+
+Per impostare le regole di limitazione per l&#39;elemento di decisione, fare clic sul pulsante **[!UICONTROL Crea limitazione]**, quindi seguire i passaggi descritti di seguito.
+
+![](assets/item-capping-create.png)
 
 1. Definisci quale **[!UICONTROL evento di limitazione]** verrà preso in considerazione per aumentare il contatore.
 
@@ -139,9 +149,31 @@ Per impostare le regole di limitazione per l&#39;elemento decisionale, fare clic
 
    * Seleziona **[!UICONTROL Per profilo]** per definire quante volte l&#39;offerta può essere proposta allo stesso utente. Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
 
-1. Nel campo **[!UICONTROL Limite conteggio limite]**, specifica quante volte l&#39;offerta può essere presentata a tutti gli utenti o per profili, a seconda del tipo di limite selezionato. Il numero deve essere un numero intero maggiore di 0.
+1. Definisci la soglia di limite. A questo scopo, puoi immettere un valore statico o calcolare la soglia utilizzando un’espressione. Per ulteriori informazioni, espandi le sezioni seguenti.
+
+   +++Soglia statica
+
+   Nel campo **[!UICONTROL Limite conteggio limite]**, specifica quante volte l&#39;offerta può essere presentata a tutti gli utenti o per profili, a seconda del tipo di limite selezionato. Il numero deve essere un numero intero maggiore di 0.
 
    Ad esempio, hai definito un evento di limite personalizzato, come il numero di checkout presi in considerazione. Se immetti 10 nel campo **[!UICONTROL Limite conteggio limite]**, non verranno inviate altre offerte dopo 10 estrazioni.
+
+   +++
+
+   +++Soglia di espressione
+
+   Piuttosto che utilizzare un valore statico per la soglia di quota limite, puoi definire una tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.
+
+   Ad esempio, un addetto marketing può decidere di aggiungere un moltiplicatore per regolare l’esposizione. Ad esempio, possono moltiplicare l’inventario disponibile per due, consentendo di mostrare l’offerta a un numero di clienti doppio rispetto alle unità disponibili. Questo approccio prevede che non tutti i clienti si convertiranno, garantendo una migliore portata senza vendite eccessive.
+
+   >[!NOTE]
+   >
+   >Le **espressioni** della regola di limitazione di utilizzo sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limite **[!UICONTROL In totale]**.
+
+   Per utilizzare un&#39;espressione, abilitare l&#39;opzione **[!UICONTROL Espressione]**, quindi modificare l&#39;espressione come desiderato.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. Nell&#39;elenco a discesa **[!UICONTROL Reimposta la frequenza di limitazione]**, impostare la frequenza di reimpostazione del contatore di limitazione. A questo scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato. Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Settimanale]** dall&#39;elenco a discesa corrispondente e digita **2** nell&#39;altro campo.
 
@@ -188,3 +220,4 @@ Selezionando un elemento di decisione o facendo clic sul pulsante con i puntini 
   ![](assets/item-undo.png)
 
 * **[!UICONTROL Archivio]**: imposta lo stato dell&#39;elemento di decisione su **[!UICONTROL Archiviato]**. L&#39;elemento di decisione è ancora disponibile nell&#39;elenco, ma non è possibile impostarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
+
