@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 3dfd46b4b867b873f847741d9398b8d20a75561d
+source-git-commit: ad22ee549241d9344b296d57ceed387d17a434e3
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '608'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 1. Dopo aver individuato il contenuto appropriato, fare clic su **[!UICONTROL Seleziona]**.
 
-## Generare un contenuto tra le lingue supportate {#languageS}
+## Generare contenuti nelle lingue supportate {#languageS}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 
