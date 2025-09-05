@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 12%
@@ -124,7 +124,7 @@ Durante la configurazione delle regole di limitazione di utilizzo, puoi fare rif
 
 >[!NOTE]
 >
->Questa funzionalità è attualmente disponibile come disponibilità limitata per tutti gli utenti. Informazioni dettagliate su come utilizzarlo sono disponibili in questa sezione: [Utilizzare i dati di Adobe Experience Platform per Decisioning](../experience-decisioning/aep-data-exd.md)
+>Questa funzionalità è attualmente disponibile come Disponibilità limitata per tutti gli utenti. Informazioni dettagliate su come utilizzarlo sono disponibili in questa sezione: [Utilizzare i dati di Adobe Experience Platform per Decisioning](../experience-decisioning/aep-data-exd.md)
 
 Per impostare le regole di limitazione per l&#39;elemento di decisione, fare clic sul pulsante **[!UICONTROL Crea limitazione]**, quindi seguire i passaggi descritti di seguito.
 
