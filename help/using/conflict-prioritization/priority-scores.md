@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 17%
+ht-degree: 34%
 
 ---
 
@@ -24,12 +24,12 @@ In situazioni in cui un cliente si qualifica per molti percorsi, campagne o comu
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità alla campagna. La priorità è essenziale per assegnare la priorità a una campagna in presenza di un vincolo imposto, ad esempio un limite di frequenza.</br>Immettere un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due campagne hanno lo stesso punteggio di priorità, la campagna attivata verrà visualizzata per prima."
+>abstract="Assegna un punteggio di priorità alla campagna. La priorità è essenziale per dare precedenza a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza.</br>Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due campagne hanno lo stesso punteggio di priorità, la campagna attivata verrà visualizzata per prima."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per assegnare la priorità a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza.</br>Immettere un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due percorsi hanno lo stesso punteggio di priorità, il percorso attivato verrà visualizzato per primo."
+>abstract="Assegna un punteggio di priorità al percorso. La priorità è essenziale per dare precedenza a un percorso in presenza di un vincolo imposto, ad esempio un limite di frequenza.</br>Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. In situazioni dove due percorsi hanno lo stesso punteggio di priorità, il percorso attivato verrà visualizzato per primo."
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -54,7 +54,7 @@ Se stavi creando questa campagna e volessi essere certo che il contenuto della c
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità all’azione del percorso. La priorità è essenziale per assegnare la priorità a un’azione in entrata quando sono presenti più azioni di percorso o campagne che utilizzano la stessa configurazione di canale.</br>Immettere un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. Per impostazione predefinita, il punteggio di priorità per l’azione viene ereditato dal punteggio di priorità complessivo del percorso."
+>abstract="Assegna un punteggio di priorità all’azione del percorso. La priorità è essenziale per dare precedenza a un’azione in entrata in presenza di più azioni di percorso o campagne che utilizzano la stessa configurazione di canale.</br>Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. Per impostazione predefinita, il punteggio di priorità per l’azione viene ereditato da quello complessivo relativo al percorso."
 
 Journey Optimizer consente inoltre di assegnare un punteggio di priorità alle azioni del canale in entrata all&#39;interno dell&#39;attività **[!UICONTROL Azione]**.
 
@@ -72,4 +72,4 @@ Per assegnare un punteggio di priorità alle azioni in entrata definite nell&#39
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

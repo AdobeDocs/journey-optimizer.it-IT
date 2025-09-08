@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ottimizza attività
+title: Attività Ottimizza
 description: Scopri l’attività Ottimizza
 feature: Journeys, Activities
 topic: Content Management
@@ -14,16 +14,16 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Ottimizza attività {#journey-path-optimization}
+# Attività Ottimizza {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="Ottimizza attività"
->abstract="L&#39;attività **Ottimizza** consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici, tra cui sperimentazione, targeting e condizioni specifiche."
+>title="Attività Ottimizza"
+>abstract="L’attività **Ottimizza** consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici, inclusi sperimentazione, targeting e condizioni specifiche."
 
 >[!AVAILABILITY]
 >
@@ -241,7 +241,7 @@ I clienti che hanno acquistato di recente possono entrare in un breve percorso d
 
 ## Aggiungere una condizione {#conditions}
 
-Puoi aggiungere una condizione per definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida.
+Puoi aggiungere una condizione per definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida.
 
 ![](assets/journey-condition.png)
 

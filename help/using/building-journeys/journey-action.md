@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="Attività azione"
->abstract="L&#39;attività **Action** generica consente di configurare un&#39;unica azione del canale nativo e più attività in entrata con la possibilità di aggiungere l&#39;ottimizzazione a qualsiasi azione del canale incorporata."
+>title="Attività Azione"
+>abstract="L’attività **Azione** generica consente di configurare un’unica azione per il canale nativo e più attività in entrata con la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata."
 
 >[!AVAILABILITY]
 >
@@ -110,7 +110,7 @@ Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalit�
 
 Nella sezione **[!UICONTROL Gestione dei conflitti]**, è possibile assegnare un punteggio di priorità all&#39;azione di percorso, consentendo di assegnare un&#39;azione in entrata quando sono presenti più azioni di percorso o campagne che utilizzano la stessa configurazione di canale.
 
-Per impostazione predefinita, il punteggio di priorità per l’azione viene ereditato dal punteggio di priorità complessivo del percorso.
+Per impostazione predefinita, il punteggio di priorità per l’azione viene ereditato da quello complessivo relativo al percorso.
 
 [Scopri come assegnare punteggi di priorità alle azioni del canale](../conflict-prioritization/priority-scores.md#priority-action)
 
@@ -137,7 +137,7 @@ Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigge
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Aggiungere più azioni in entrata"
->abstract="Puoi selezionare diverse azioni in entrata all’interno di un singolo percorso. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in diverse posizioni contemporaneamente, ciascuna con contenuti specifici."
+>abstract="Puoi selezionare diverse azioni in entrata all’interno di un singolo percorso. Questa funzionalità consente di consegnare più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in diverse posizioni contemporaneamente, ciascuna con contenuti specifici."
 
 Per semplificare l’orchestrazione del percorso, puoi definire diverse azioni in entrata all’interno di una singola azione del percorso.
 
