@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 46%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 55%
 Le campagne di azione (o campagne pianificate) consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
 
 ➡️ [Scopri questa funzione nel video](#video)
+
+
+>[!NOTE]
+>
+>I canali supportati sono: [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [RIGA](../line/get-started-line.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [In-App](../in-app/get-started-in-app.md), [Web](../web/get-started-web.md), [Esperienze basate su codice](../code-based/get-started-code-based.md).
+>
+>I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
 ## Passaggi chiave per la creazione di campagne d’azione {#steps}
 
@@ -48,4 +55,4 @@ Le campagne di azione (o campagne pianificate) consentono comunicazioni batch se
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
