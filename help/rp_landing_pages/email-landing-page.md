@@ -4,23 +4,17 @@ product: Journey Optimizer
 title: Canale e-mail
 description: Canale e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
+source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 32%
+source-wordcount: '333'
+ht-degree: 27%
 
 ---
 
-
 # Canale e-mail{#section-overview}
 
-Il canale E-mail in Adobe Journey Optimizer ti consente di progettare, configurare e distribuire campagne e-mail di impatto con precisione e creatività. Che tu stia creando messaggi personalizzati con l’intuitivo Email Designer, configurando sofisticati percorsi e campagne e-mail o gestendo rinunce per motivi di conformità, questo canale riunisce ogni aspetto del marketing via e-mail sotto un unico tetto. Inizia impostando il canale e-mail per una consegna e una personalizzazione ottimali, quindi esplora gli strumenti per creare contenuti dinamici che trovino risonanza nel pubblico. Approfondisci argomenti avanzati, come la gestione della reputazione del mittente e il raggiungimento della conformità DMARC, per garantire che le e-mail arrivino dove dovrebbero. Dalla configurazione perfetta alla progettazione efficace e alla consegna strategica, il canale e-mail ti consente di trasformare il marketing via e-mail in un motore affidabile e basato sui dati per il coinvolgimento dei clienti.
-
-
->[!CONTEXTUALHELP]
->id="ajo_homepage_card4"
->title="Progettare le e-mail"
->abstract="Utilizza **Adobe Journey Optimizer** per inviare messaggi e-mail ai clienti. È possibile creare, personalizzare e visualizzare in anteprima i messaggi in E-mail Designer."
+Il canale E-mail in Adobe Journey Optimizer ti consente di progettare, configurare e distribuire campagne e-mail di impatto con precisione e creatività. Che tu stia creando messaggi personalizzati con l’intuitivo Email Designer, configurando sofisticati percorsi e campagne e-mail o gestendo rinunce per motivi di conformità, questo canale offre ogni aspetto del marketing via e-mail sotto un unico tetto. Inizia impostando il canale e-mail per una consegna e una personalizzazione ottimali, quindi esplora gli strumenti per creare contenuti dinamici che trovino risonanza nel pubblico. Approfondisci argomenti avanzati, come la gestione della reputazione del mittente e il raggiungimento della conformità DMARC, per garantire che le e-mail arrivino dove dovrebbero. Dalla configurazione perfetta alla progettazione efficace e alla consegna strategica, il canale e-mail ti consente di trasformare il marketing via e-mail in un motore affidabile e basato sui dati per il coinvolgimento dei clienti.
 
 È possibile creare le consegne e-mail:
 
@@ -38,7 +32,7 @@ Il canale E-mail in Adobe Journey Optimizer ti consente di progettare, configura
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Come creare un messaggio e-mail
 
@@ -48,7 +42,7 @@ Guida dettagliata per aggiungere, configurare e testare azioni e-mail in percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Progettare e ottimizzare il contenuto delle e-mail
 
@@ -58,7 +52,7 @@ Esplora gli strumenti e le best practice per la progettazione di contenuti e-mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire la rinuncia alle e-mail
 
@@ -68,7 +62,7 @@ Configura meccanismi di rinuncia con un solo clic o due passaggi per gestire le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale e-mail
 
@@ -78,7 +72,7 @@ Imposta e gestisci le configurazioni e-mail, ad esempio la delega dei sottodomin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Padroneggiare il recapito messaggi e-mail
 
