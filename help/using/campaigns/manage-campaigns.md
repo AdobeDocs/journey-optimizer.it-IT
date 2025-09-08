@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 16%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 
 * **Accedi alle campagne**. Puoi accedere alle campagne dal [elenco campagne](#access) o dal [calendario campagne](#calendar).
 
-* **Crea la campagna**. I passaggi di creazione dipendono dal [tipo di campagna](get-started-with-campaigns.md#get-started-with-campaigns) creato. Scopri come creare una [campagna di azione](../campaigns/create-campaign.md), una [campagna attivata da API](../campaigns/api-triggered-campaigns.md) o una [campagna orchestrata](../orchestrated/create-orchestrated-campaign.md).
+* **Crea la campagna**. I passaggi di creazione dipendono dal tipo [ di campagna](get-started-with-campaigns.md#get-started-with-campaigns). Scopri come creare una [campagna di azione](../campaigns/create-campaign.md), una [campagna attivata da API](../campaigns/api-triggered-campaigns.md) o una [campagna orchestrata](../orchestrated/create-orchestrated-campaign.md).
 
 * **Definisci le proprietà della campagna**. Scopri come impostare le proprietà per una [campagna di azioni](../campaigns/campaign-properties.md), per una [campagna attivata da API](../campaigns/api-triggered-campaign-properties.md) o per una [campagna orchestrata](../orchestrated/create-orchestrated-campaign.md).
 
@@ -53,7 +53,7 @@ Vedi tutti gli stati e gli avvisi della campagna [in questa sezione](#statuses).
 >title="Azione"
 >abstract="In questa sezione sono elencate tutte le azioni utilizzate all’interno della campagna orchestrata."
 
-Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**.
+Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le schede per sfogliare le campagne, per tipo: **Campagne Azione**, **Campagne attivate da API** e **Campagne orchestrate**. Ulteriori informazioni sul tipo [di campagna](get-started-with-campaigns.md#get-started-with-campaigns). I tipi disponibili dipendono dal contratto di licenza e dalle autorizzazioni.
 
 >[!BEGINTABS]
 
