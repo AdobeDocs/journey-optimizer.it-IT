@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 57%
+source-wordcount: '265'
+ht-degree: 53%
 
 ---
 
@@ -34,6 +34,13 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 
 ➡️ [Scopri questa funzione nel video](#video)
 
+
+>[!NOTE]
+>
+>I canali supportati sono: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
+>
+>I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
+
 ## Passaggi chiave per la creazione di campagne attivate da API {#steps}
 
 1. [Definire le proprietà della campagna](api-triggered-campaign-properties.md)
@@ -52,4 +59,4 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452733?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

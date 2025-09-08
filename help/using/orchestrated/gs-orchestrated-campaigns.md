@@ -6,10 +6,10 @@ description: Scopri come iniziare a utilizzare le campagne orchestrate
 short-description: Scopri le funzioni chiave e i casi d’uso delle campagne orchestrate.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 92%
+source-wordcount: '654'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,13 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 <tr style="border: 0;">
 <td><img alt="Flussi di lavoro della campagna con più passaggi" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Flussi di lavoro della campagna con più passaggi</b><br/>Progetta campagne con più passaggi, dai messaggi giornalieri alle campagne complesse come le promozioni stagionali o i principali lanci di prodotti.</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>I canali supportati sono: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
+>
+>I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
 ## Percorsi e campagne orchestrate
 

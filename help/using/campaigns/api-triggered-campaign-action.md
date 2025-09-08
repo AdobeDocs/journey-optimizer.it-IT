@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 51%
+source-wordcount: '417'
+ht-degree: 52%
 
 ---
 
@@ -28,9 +28,9 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
    >[!NOTE]
    >
-   >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
+   >I canali supportati sono: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
    >
-   >Per le campagne attivate da API, sono disponibili solo i canali e-mail, SMS e di notifica push.
+   >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
 1. **Seleziona una configurazione di canale**
 
