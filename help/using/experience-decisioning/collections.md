@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 48%
+source-wordcount: '518'
+ht-degree: 36%
 
 ---
 
@@ -43,7 +43,16 @@ Per creare una raccolta, effettua le seguenti operazioni:
 1. Aggiungi una o più regole per determinare gli elementi da includere nella raccolta. Per eseguire questa operazione:
 
    1. Scegli un attributo di elemento da utilizzare come criterio. L’elenco degli attributi include tutti gli attributi standard e personalizzati definiti nello schema del catalogo. [Ulteriori informazioni sul catalogo degli elementi](catalogs.md)
-   1. Seleziona l’operatore desiderato e inserisci il valore su cui filtrare.
+   1. Seleziona l’operatore desiderato e inserisci il valore su cui filtrare.filtra esplicitamente il nome di ogni offerta, oppure crea e assegna un tag &quot;luma-summer&quot; a ogni offerta.
+
+      >[!NOTE]
+      >
+      >L&#39;operatore **CONTAINS** non supporta corrispondenze parziali o con caratteri jolly. Funziona come un operatore **IN**, il che significa che devi fornire una matrice di valori esatti per l&#39;attributo.
+      >
+      >Ad esempio, supponiamo che tu abbia più offerte estive da includere in una raccolta: *&quot;luma-summer-yoga&quot;*, *&quot;luma-summer-fitness&quot;* e *&quot;luma-summer-running&quot;*. Per includere questi elementi, devi definire una regola come &quot;Nome offerta&quot; CONTIENE &quot;luma-estate-yoga&quot;, &quot;luma-estate-fitness&quot;, &quot;luma-estate-running&quot;. Questa regola restituisce solo le offerte che corrispondono esattamente a uno dei nomi nell’elenco.
+      >
+      >Se hai bisogno di una corrispondenza parziale (ad esempio, tutte le offerte contenenti *&quot;luma-summer&quot;*), questa non è attualmente supportata. È necessario specificare esplicitamente ogni nome di offerta oppure assegnare un tag *&quot;luma-summer&quot;* a ogni offerta e utilizzare tale tag nella regola.
+
    1. Ripeti questi passaggi per aggiungere tutte le regole necessarie. Quando si aggiungono più regole, è possibile scegliere tra gli operatori **And** e **Or** per combinarli. A questo scopo, fai clic sul badge dell’operatore per passare da una scelta all’altra.
    1. Fare clic sul pulsante **[!UICONTROL Anteprima raccolta]** per visualizzare gli elementi che soddisfano le regole definite.
 
