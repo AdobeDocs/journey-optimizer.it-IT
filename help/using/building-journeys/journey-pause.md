@@ -9,9 +9,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 6%
 >abstract="Metti in pausa un percorso live per impedire l’ingresso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli dove sono. Se vengono mantenuti, una volta riavviato il percorso la sua esecuzione riprenderà dall’attività dell’azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
 Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
-
-
 
 ## Vantaggi chiave {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ Quando un percorso viene messo in pausa, la gestione del profilo e l’esecuzion
 | [Aggiorna profilo](update-profiles.md) e [Salta](jump.md) | I profili vengono parcheggiati o eliminati in base alla scelta effettuata dall&#39;utente quando il percorso viene messo in pausa |
 | [Source dati esterno](../datasource/external-data-sources.md) | Stesso comportamento di un percorso live |
 | [Criteri di uscita](journey-properties.md#exit-criteria) | Stesso comportamento di un percorso live |
+
+
+Scopri come risolvere i problemi di eliminazione in [questa sezione](#discards-troubleshoot).
 
 ## Come riprendere un percorso in pausa {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ Quando riprendi questo percorso:
 
 1. Gli ingressi dei percorsi freschi iniziano entro un minuto.
 1. I profili attualmente in attesa nel percorso per le attività **Azione** vengono ripresi a una velocità di 5k tps. Potranno quindi immettere l&#39;**Azione** che stavano aspettando e continuare il percorso.
+
+## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa  {#discards-troubleshoot}
+
+È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+
+* Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  In questo elenco verranno elencati i rigetti che si sono verificati al punto di ingresso del percorso:
+
+   1. Quando un percorso di pubblico è in esecuzione e il primo nodo è ancora in elaborazione, se il percorso è in pausa, tutti i profili non elaborati vengono scartati.
+
+   1. Quando arriva un nuovo evento unitario per il nodo iniziale (per attivare un ingresso) mentre il percorso viene messo in pausa, l’evento viene scartato.
+
+* Per gli scarti che si verificano quando il profilo è già nel percorso, utilizza il seguente codice:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  Questo comando elenca gli scarti che si sono verificati quando i profili si trovano in un percorso:
+
+   1. Se il percorso viene messo in pausa con l’opzione Elimina abilitata e un profilo è già stato inserito prima della pausa, tale profilo verrà eliminato quando raggiunge il nodo dell’azione successivo.
+
+   1. Se il percorso è stato messo in pausa con l’opzione di sospensione selezionata ma i profili sono stati scartati a causa del superamento della quota di 10 milioni, tali profili verranno comunque scartati quando raggiungeranno il nodo di azione successivo.
+
+
+

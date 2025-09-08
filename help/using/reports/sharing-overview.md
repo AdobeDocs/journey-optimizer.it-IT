@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ L’elenco dei campi XDM passati è completo. Alcuni contengono codici generati 
 >
 >Non è possibile attivare i set di dati per il servizio profilo in tempo reale. Assicurarsi che l&#39;interruttore **[!UICONTROL Profilo]** sia disattivato.
 
-[!DNL Journey Optimizer] invia i dati mentre si verificano, in modo streaming. Puoi eseguire query su questi dati utilizzando Query Service. È possibile connettersi a Customer Journey Analytics o ad altri strumenti di business intelligence per visualizzare i dati relativi a questi passaggi.
+[!DNL Journey Optimizer] invia i dati mentre si verificano, in streaming. Puoi eseguire query su questi dati utilizzando Query Service. È possibile connettersi a Customer Journey Analytics o ad altri strumenti di business intelligence per visualizzare i dati relativi a questi passaggi.
 
 Vengono creati i seguenti schemi:
 
@@ -69,6 +69,6 @@ Il flusso di lavoro generale è:
 
 * [!DNL Customer Journey Analytics] acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In [!DNL Customer Journey Analytics] è quindi possibile collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell&#39;identificatore basato su persona.
-* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=it){target="_blank"}.
+* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Utilizzare Customer Journey Analytics](cja-ajo.md){target="_blank"}
