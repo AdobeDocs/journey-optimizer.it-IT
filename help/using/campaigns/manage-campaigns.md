@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -37,11 +37,6 @@ Vedi tutti gli stati e gli avvisi della campagna [in questa sezione](#statuses).
 
 
 ## Accedere alle campagne {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="Visualizzazioni calendario ed elenco campagne"
->abstract="Oltre all’elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle relative pianificazioni. È possibile passare dalla visualizzazione elenco alla visualizzazione calendario in qualsiasi momento utilizzando questi pulsanti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ Il pulsante ![immagine che mostra il pulsante Altre azioni](assets/do-not-locali
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
-* **[!UICONTROL Visualizza report completo]** / **[!UICONTROL Visualizza report delle ultime 24 ore]** - Accedi ai report per misurare e visualizzare l&#39;impatto e le prestazioni delle campagne.
-* **[!UICONTROL Modifica tag]**: modifica i tag associati alla campagna.
-* **[!UICONTROL Duplicato]** - In alcuni casi, potrebbe essere necessario duplicare una campagna, ad esempio per eseguire una campagna orchestrata che è stata interrotta.
-* **[!UICONTROL Elimina]**: elimina la campagna. Questa azione è disponibile solo per le campagne **[!UICONTROL Bozza]**.
-* **[!UICONTROL Archivia]**: archivia la campagna. Tutte le campagne archiviate vengono eliminate con una nuova pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne nello stato **[!UICONTROL Bozza]**.
+* **[!UICONTROL Visualizza report completo]** / **[!UICONTROL Visualizza report delle ultime 24 ore]** - Accedi ai report per misurare e visualizzare l&#39;impatto e le prestazioni delle campagne. Ulteriori informazioni sui [report campagne](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna. Scopri come [utilizzare i tag nelle campagne](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Duplicato]** - Utilizzare questa opzione per duplicare una campagna, ad esempio per eseguire una campagna orchestrata interrotta. [Ulteriori informazioni](#duplicate-a-campaign)
+* **[!UICONTROL Elimina]** - Utilizzare questa opzione per eliminare una campagna. [Ulteriori informazioni](#delete-a-campaign)
+* **[!UICONTROL Archivia]**: archivia la campagna. Tutte le campagne archiviate vengono eliminate con una nuova pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne **[!UICONTROL Bozza]**. Ulteriori informazioni sull&#39;[archivio campagne](#archive-a-campaign).
 
 Per le campagne attivate da Azioni e API, sono disponibili le azioni aggiuntive seguenti:
 
-* **[!UICONTROL Aggiungi al pacchetto]** - Aggiungi la campagna a un pacchetto per esportarla in un&#39;altra sandbox. [Esporta oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Aggiungi al pacchetto]** - Aggiungi la campagna a un pacchetto per esportarla in un&#39;altra sandbox. Scopri come [esportare gli oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Apri bozza versione]** - Se è stata creata una nuova versione della campagna e non è ancora stata attivata, puoi accedere alla versione bozza utilizzando questa azione.
 
 ## Ciclo di vita della campagna {#statuses}
@@ -154,6 +149,11 @@ Quando si verifica un errore all’interno di una delle campagne, accanto allo s
 ![](assets/campaign-alerts.png)
 
 ## Calendario delle campagne {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Visualizzazioni calendario ed elenco campagne"
+>abstract="Oltre all’elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle relative pianificazioni. È possibile passare dalla visualizzazione elenco alla visualizzazione calendario in qualsiasi momento utilizzando questi pulsanti."
 
 Oltre all&#39;elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle loro pianificazioni.
 
@@ -244,3 +244,23 @@ Per evitare questo problema, puoi archiviare campagne completate e interrotte ch
 ![](assets/create-campaign-archive.png)
 
 Le campagne archiviate possono quindi essere recuperate utilizzando il filtro dedicato nell’elenco.
+
+
+## Eliminare una campagna {#delete}
+
+Per eliminare una campagna, usa i puntini di sospensione ![immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) e seleziona **[!UICONTROL Elimina]**.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>Questa opzione è disponibile solo per le campagne **[!UICONTROL Bozza]**.
+
+
+## Duplicare una campagna {#duplicate}
+
+Per duplicare una campagna, ad esempio se è stata interrotta, usa i puntini di sospensione ![immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) e seleziona **[!UICONTROL Duplica]**.
+
+Inserisci il nome della campagna e conferma.
+
+La campagna viene creata e aggiunta all’elenco delle campagne.
