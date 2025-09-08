@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 85%
+source-wordcount: '809'
+ht-degree: 69%
 
 ---
 
@@ -62,21 +62,21 @@ Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un
 
 ![](assets/gs-campaigns.png)
 
-Puoi creare diversi tipi di campagne in Journey Optimizer:
+In Journey Optimizer puoi creare diversi tipi di campagne. I canali supportati e i casi d’uso variano a seconda del tipo di campagna. Questi tipi sono elencati di seguito.
 
 * **Campagne di azione**
 
-  Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni in batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti delle policy. I canali supportati sono:
+  Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni in batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti delle policy. Ulteriori informazioni sulle funzionalità delle campagne d&#39;azione, sui casi d&#39;uso e sui canali supportati [in questa pagina](create-campaign.md).
 
 * **Campagne attivate da API**
 
-  Le campagne attivate da API consentono di inviare comunicazioni di marketing a un pubblico al momento giusto oppure messaggi operativi o transazionali a singoli utenti, ad esempio per la reimpostazione della password. Possono includere la personalizzazione basata non solo sugli attributi del profilo, ma anche sui dati contestuali in tempo reale presenti nel trigger, che è un payload API REST.
+  Le campagne attivate da API consentono alle comunicazioni di marketing di raggiungere un pubblico al momento giusto oppure messaggi transazionali/operativi a un individuo come la reimpostazione della password, dove la necessità può comportare la personalizzazione non solo utilizzando l’attributo di profilo, ma anche i dati contestuali in tempo reale nel trigger, che è un payload API REST. Ulteriori informazioni sulle funzionalità delle campagne attivate da API, sui casi d&#39;uso e sui canali supportati [in questa pagina](api-triggered-campaigns.md).
 
 * **Campagne orchestrate**
 
   L’orchestrazione delle campagne in Adobe Journey Optimizer potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fidelizzazione della clientela su larga scala.
 
-  Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla consegna dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza.
+  Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla consegna dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza. Ulteriori informazioni sulle funzionalità delle campagne orchestrate, sui casi d&#39;uso e sui canali supportati [in questa pagina](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Prerequisiti {#prerequisites}
 
