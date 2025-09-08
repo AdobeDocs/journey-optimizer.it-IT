@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Gli utenti con una sola licenza di Target possono accedervi solo tramite il sele
 </tr></table>
 -->
 
-## Cos’È Il Test A/B?
+## Cos’è il test A/B?
 
 Il test A/B è il processo di confronto di due o più versioni di un elemento per determinare quali prestazioni sono migliori rispetto a un obiettivo definito.
 
@@ -119,7 +119,7 @@ Esempio: _Si ritiene che la modifica di X determinerà un aumento di Y a causa d
 
   Conserva un registro chiaro di ciò che è stato testato, perché e ciò che hai imparato. Questo costruisce la conoscenza istituzionale e previene gli errori ripetuti.
 
-## Metriche comuni e loro indicazioni
+## Metriche comuni
 
 | Metrica | Cosa Misura | Quando utilizzare |
 |-|-|-|
@@ -136,11 +136,11 @@ Esempio: _Si ritiene che la modifica di X determinerà un aumento di Y a causa d
 Un buon esperimento non produce solo una vittoria, produce un apprendimento chiaro e actionable.
 Ecco cosa cercare:
 
-&check; **Affidabilità statistica**: è improbabile che la differenza tra le varianti sia dovuta al caso.
-&check; **Allineamento con obiettivi**: la metrica principale riflette i progressi significativi verso un obiettivo aziendale.
-&check; **Impatto secondario**: nessun effetto collaterale negativo significativo sulle metriche correlate.
-&check; **Scalabilità**: il risultato può informare decisioni future o essere generalizzato in altre aree.
-&check; **Chiarezza**: la causa del risultato è ragionevolmente isolata e compresa.
+&amp;check; **Affidabilità statistica**: è improbabile che la differenza tra le varianti sia dovuta al caso.
+&amp;check; **Allineamento con obiettivi**: la metrica principale riflette i progressi significativi verso un obiettivo aziendale.
+&amp;check; **Impatto secondario**: nessun effetto collaterale negativo significativo sulle metriche correlate.
+&amp;check; **Scalabilità**: il risultato può informare decisioni future o essere generalizzato in altre aree.
+&amp;check; **Chiarezza**: la causa del risultato è ragionevolmente isolata e compresa.
 
 La sperimentazione non consiste solo nel trovare la versione &quot;migliore&quot;, ma nel costruire la conoscenza attraverso test e iterazioni. Se eseguiti correttamente, gli esperimenti rivelano informazioni che guidano decisioni più intelligenti, esperienze utente migliori e risultati migliorati.
 

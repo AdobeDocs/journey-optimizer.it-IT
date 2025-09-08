@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,8 @@ La pagina dei dettagli dell’esperimento è suddivisa nella seguente sezione:
 
 ![](assets/experiment-monitor-outcome.png)
 
+Il **[!UICONTROL Risultato esperimento]** ti offre una visualizzazione rapida della variante vincente nell&#39;esperimento.
+
 ### Configura {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -82,7 +84,7 @@ L&#39;**[!UICONTROL ipotesi]** acquisisce le modifiche pianificate da testare e 
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -112,7 +114,7 @@ Nella parte inferiore del widget, troverai un breve riepilogo della configurazio
 
 * **[!UICONTROL Pubblico]**: i segmenti utente definiti di destinazione durante l&#39;esperimento.
 
-## Opportunità {#opportunities}
+### Opportunità {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 >La funzione Approfondimenti sperimentazione è limitata agli esperimenti con modifiche basate su testo.
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL Informazioni sull&#39;esperimento]** sono informazioni generate da IA derivate da questo esperimento. Queste informazioni diventano disponibili una volta che l’esperimento raggiunge la rilevanza statistica e fornisce una comprensione contestuale di ciò che ha contribuito al suo successo. Evidenziano gli attributi chiave presenti nel trattamento vincente, distinti dal controllo, che probabilmente hanno influenzato il risultato.
 
