@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 19%
+source-wordcount: '1132'
+ht-degree: 7%
 
 ---
 
 # Utilizzare i dati di Adobe Experience Platform per la funzione Decisioni {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="Ricerca in set di dati
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="Ricerca in set di dati"
+>abstract="Seleziona il set di dati con gli attributi necessari tra tutti i set di dati Adobe Experience Platform abilitati per la ricerca, quindi seleziona una chiave di mappatura (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell’elemento decisione che nel set di dati.&quot;
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Ricerca nei set di dati"
->abstract="L’utilizzo dei dati di Adobe Experience Platform nelle regole di decisione consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti. Crea una mappatura per definire come unire il set di dati di Adobe Experience Platform ai dati in [!DNL Journey Optimizer]. Seleziona il set di dati con gli attributi necessari e scegli una chiave di unione presente sia negli attributi dell’elemento decisionale che nel set di dati."
+>abstract="Seleziona il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Ricerca nei set di dati"
->abstract="Le formule di classificazione definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni reali. Crea una mappatura per definire il modo in cui unire il set di dati di Adobe Experience Platform ai dati in [!DNL Journey Optimizer]. Seleziona il set di dati con gli attributi necessari e scegli una chiave di unione presente sia negli attributi dell’elemento decisionale che nel set di dati"
+>abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per regolare dinamicamente la logica di classificazione in modo da riflettere le condizioni del mondo reale. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="Aggiungi set di dati&quot;
+>abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per definire i criteri di limitazione in base agli attributi dinamici esterni. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati.&quot;
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ Per utilizzare gli attributi di Adobe Experience Platform per il decisioning, è
 
 1. Configura la mappatura:
 
-   1. Fare clic su **[!UICONTROL Seleziona set di dati]** per visualizzare tutti i Adobe Experience Platform abilitati per la ricerca. Seleziona il set di dati con gli attributi necessari.
+   1. Fare clic su **[!UICONTROL Seleziona set di dati]** per visualizzare tutti i set di dati Adobe Experience Platform abilitati per la ricerca. Seleziona il set di dati con gli attributi necessari.
 
    1. Fai clic su **[!UICONTROL Seleziona chiave]** per scegliere una chiave di unione (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell&#39;elemento decisione che nel set di dati.
 
