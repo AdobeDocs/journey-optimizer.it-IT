@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 58%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
@@ -39,6 +39,19 @@ Sono supportati i caricamenti di file di schema basati su Excel. Scarica il [mod
 
 * **ENUM**\
   I campi ENUM sono supportati sia nella creazione manuale dello schema basata su DDL, che consente di definire gli attributi con un set fisso di valori consentiti.
+Ecco un esempio:
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **Etichetta schema per governance dei dati**\
   L’etichettatura è supportata a livello di campo dello schema per applicare i criteri di governance dei dati, ad esempio il controllo degli accessi e le restrizioni di utilizzo. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
@@ -61,9 +74,10 @@ Sono supportati i caricamenti di file di schema basati su Excel. Scarica il [mod
 1. Seleziona **[!UICONTROL Carica un file DDL]** per definire un diagramma di relazioni tra entità e creare gli schemi
 
    La struttura della tabella deve contenere:
-   * Almeno una chiave primaria
+   * Almeno una chiave primaria.
    * Un identificatore di versione, ad esempio un campo `lastmodified` di tipo `datetime` o `number`.
-   * Per l&#39;acquisizione Change Data Capture (CDC), una colonna speciale denominata `_change_request_type` di tipo `String` che indica il tipo di modifica dei dati (ad esempio, inserimento, aggiornamento, eliminazione) e abilita l&#39;elaborazione incrementale
+   * Per l&#39;acquisizione Change Data Capture (CDC), una colonna speciale denominata `_change_request_type` di tipo `String` che indica il tipo di modifica dei dati (ad esempio, inserimento, aggiornamento, eliminazione) e abilita l&#39;elaborazione incrementale.
+   * Il file DDL non deve definire più di 200 tabelle.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Sono supportati i caricamenti di file di schema basati su Excel. Scarica il [mod
 
 1. Imposta ogni schema e le relative colonne, assicurandoti che sia specificata una chiave primaria.
 
-   Un attributo, ad esempio `lastmodified`, deve essere designato come descrittore di versione. Questo attributo, in genere di tipo `datetime`, `long` o `int`, è essenziale per i processi di acquisizione affinché il set di dati venga aggiornato con la versione più recente.
+   Un attributo, ad esempio `lastmodified`, deve essere designato come descrittore di versione (tipo `datetime`, `long` o `int`) per garantire che i set di dati vengano aggiornati con i dati più recenti. Gli utenti possono modificare il descrittore di versione, che diventa obbligatorio una volta impostato. Un attributo non può essere sia una chiave primaria (PK) che un descrittore di versione.
 
    ![](assets/admin_schema_2.png)
+
+1. Contrassegna un attributo come `identity` e mappalo su uno spazio dei nomi di identità definito.
+
+1. Rinominare, eliminare o aggiungere una descrizione a ogni tabella.
 
 1. Al termine, fai clic su **[!UICONTROL Fine]**.
 
@@ -94,6 +112,10 @@ Per definire connessioni logiche tra tabelle all’interno dello schema, segui i
 1. Accedi alla vista area di lavoro del modello dati e scegli le due tabelle da collegare
 
 1. Fai clic sul pulsante ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) accanto a Join di origine, quindi trascina e guida la freccia verso Join di destinazione per stabilire la connessione.
+
+   >[!NOTE]
+   >
+   >Le chiavi composite sono supportate se definite nel file DDL.
 
    ![](assets/admin_schema_5.png)
 

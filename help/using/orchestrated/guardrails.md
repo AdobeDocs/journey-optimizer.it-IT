@@ -5,9 +5,9 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -31,31 +31,31 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 * Gli schemi utilizzati per il targeting devono contenere almeno **un campo di identità di tipo`String`**, mappato a uno spazio dei nomi di identità definito.
 
+* Il numero medio di attributi per schema **non deve superare le 50 colonne** per mantenere la gestibilità e le prestazioni.
+
 ### Acquisizione dati
 
 * È necessaria l’acquisizione di dati di profilo + relazionali.
 
 * Tutte le acquisizioni devono avvenire tramite **Cambia origine dati**:
 
-   * Per **Basato su file**: il campo `_change_request_type` è obbligatorio.
+   * Per **Basato su file**: il campo `_change_request_type` è obbligatorio. I valori supportati sono `U` (upsert) o `D` (delete).
 
    * Per **basato su cloud**: la registrazione della tabella deve essere abilitata.
 
-* **Non sono supportati aggiornamenti diretti a Snowflake o set di dati**. Il sistema è di sola lettura. Tutte le modifiche devono essere applicate mediante Change Data Capture.
-
-* **I processi ETL non sono supportati**. I dati devono essere completamente trasformati nel formato richiesto prima dell’acquisizione.
-
-* **Non sono consentiti aggiornamenti parziali**, ogni riga deve essere fornita come record completo.
+* **Non sono consentiti aggiornamenti di record parziali**. Ogni riga deve essere fornita come record completo.
 
 * L&#39;acquisizione in batch per l&#39;orchestrazione delle campagne è limitata a **una volta ogni 15 minuti**.
 
-* La latenza di acquisizione, il tempo che intercorre tra l&#39;acquisizione e la disponibilità in Snowflake, in genere varia da **15 minuti a 2 ore**, a seconda di:
+* La latenza di acquisizione, nell&#39;archivio relazionale, varia in genere da **15 minuti a 2 ore**, a seconda di:
 
    * Volume dati
 
    * Concorrenza del sistema
 
    * Tipo di operazione. Ad esempio, gli inserti sono più veloci degli aggiornamenti
+
+* **La relazione tra flusso di dati e set di dati è 1-1**. Ciò significa che una sola origine può alimentare un set di dati alla volta. Per cambiare l’origine, è necessario eliminare il flusso di dati esistente e creare un nuovo flusso di dati con la nuova origine.
 
 ### Modellazione dati
 
@@ -75,7 +75,7 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 * **Sono applicati limiti al numero di attributi di profilo** che possono essere utilizzati sia nel pubblico in batch che in quello in streaming per mantenere l&#39;efficienza del sistema.
 
-* **Elenco di valori** e **enumerazioni** sono completamente supportati.
+* **Le enumerazioni** sono completamente supportate.
 
 * **I tipi di pubblico di lettura non sono memorizzati in cache**. Ogni esecuzione della campagna attiva una valutazione completa del pubblico dai dati sottostanti.
 
