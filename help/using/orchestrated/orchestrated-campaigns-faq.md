@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,12 @@ Puoi creare campagne orchestrate per inviare **e-mail**, **SMS** e **notifiche p
 
 ## Quali sono le differenze tra le campagne orchestrate e i Percorsi? {#oc-vs-journeys}
 
-* **Campagne orchestrate**: ideale per **campagne batch, uno-a-molti**. Interi tipi di pubblico si spostano nell’area di lavoro della campagna insieme.
+* **Campagne orchestrate**: ideale per **campagne batch, uno-a-molti**. Il pubblico avanza in blocco, secondo una pianificazione.
 * **Percorsi**: soluzione ottimale per **coinvolgimento in tempo reale uno a uno**. Ogni cliente si sposta all’interno del percorso secondo il proprio ritmo, attivato da comportamenti o eventi.
 
 >[!BEGINSHADEBOX]
 
-**Suggerimento** - Molte organizzazioni utilizzano **entrambi insieme**, ovvero Percorsi per campagne attivate, reattive e orchestrate per iniziative pianificate basate su calendario.
+**Best practice**: utilizzali insieme: Percorsi per esperienze attivate e reattive e campagne orchestrate per iniziative pianificate basate su calendario.
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quo
 
 ## Questo supporta le decisioni? {#decisioning}
 
-Attualmente, il processo decisionale non utilizza dati relazionali provenienti da campagne orchestrate.
+Sì.  Il processo decisionale può utilizzare dati relazionali provenienti da campagne orchestrate. Una volta che lo schema relazionale è stato connesso con gli schemi XDM, i dati XDM possono essere utilizzati nel processo decisionale.
 
 ## Come funziona l’implementazione in ambienti diversi? {#deployment}
 
