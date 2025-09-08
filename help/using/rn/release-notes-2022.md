@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -60,7 +60,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Campagne**
 
-* Ora puoi archiviare le campagne completate e interrotte. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#archive)
+* Ora puoi archiviare le campagne completate e interrotte. [Ulteriori informazioni](../campaigns/manage-campaigns.md#archive)
 
 
 ## Versione di settembre 2022{#sept-2022-release}
@@ -262,7 +262,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/3412404?captions=ita">video sulle funzioni</a>.
+<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
 </td>
 </tr>
 </tbody>
@@ -807,7 +807,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tbody>
 <tr>
 <td>
-<p>Alle attività <strong>Leggi pubblico</strong> ricorrenti è stata aggiunta l’opzione <strong>Lettura incrementale</strong>. Questa opzione consente di indirizzare solo i singoli utenti che sono entrati a far parte del pubblico dopo l’ultima esecuzione del percorso. La prima esecuzione indirizza sempre tutti i membri del pubblico.</p>
+<p>Alle attività <strong>Leggi pubblico</strong> ricorrenti è stata aggiunta l’opzione <strong>Lettura incrementale</strong>. Questa opzione consente di rivolgersi solo ai singoli utenti che sono entrati a far parte del pubblico dopo l’ultima esecuzione del percorso. La prima esecuzione si rivolge sempre a tutti i membri del pubblico.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentazione dettagliata</a>.
 </td>
 </tr>

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Riorganizzazione inventario della campagna**: le campagne pianificate e attivate da API sono ora suddivise in schede separate nell’inventario delle campagne per facilitarne la navigazione e la gestione.
 
-[Maggiori informazioni](../campaigns/modify-stop-campaign.md)
+[Maggiori informazioni](../campaigns/manage-campaigns.md)
 
 * **Gestione dati**
    * **Aggiornamento dei set di dati del sistema di gestione delle decisioni**: le offerte personalizzate e di fallback eliminate ora sono contrassegnate come archiviate nei set di dati “decision_object_repository_personalized_offers” e “decision_object_repository_fallback_offers”. I record esistenti nel set di dati non vengono modificati.
@@ -372,7 +372,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Intervallo di durata personalizzato** per la limitazione: nella schermata di configurazione dei set di regole del canale è ora disponibile il nuovo campo **Ogni**, che consente di applicare regole di quota limite su più giorni, settimane o mesi, a seconda della durata specificata.
 
-   * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
+   * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per richiederne l’abilitazione.
 
    * **Durata giornaliera**: precedentemente disponibile in Disponibilità limitata, la quota limite “Giornaliera” nei set di regole del canale è ora disponibile per tutta la clientela.
 
@@ -423,7 +423,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p>Negli elenchi dei percorsi e delle campagne è ora disponibile una vista calendario. Consente di visualizzare tutte le attivazioni dei percorsi e delle campagne nei rispettivi elenchi.</p>
 <p>Questa funzione è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per richiedere l’accesso, utilizza <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">questo modulo</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Per ulteriori informazioni, consulta le seguenti sezioni: <a href="../building-journeys/journey-ui.md">Sfogliare e filtrare i percorsi</a>, <a href="../campaigns/modify-stop-campaign.md">Accedere alle campagne</a>.</p>
+<p>Per ulteriori informazioni, consulta le seguenti sezioni: <a href="../building-journeys/journey-ui.md">Sfogliare e filtrare i percorsi</a>, <a href="../campaigns/manage-campaigns.md">Accedere alle campagne</a>.</p>
 <p>Data di disponibilità: 28 maggio 2025</p>
 </td>
 </tr>

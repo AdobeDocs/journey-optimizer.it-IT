@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -82,7 +82,7 @@ Questa versione include i miglioramenti elencati di seguito.
 **Campagne**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#statuses)
+* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna. [Ulteriori informazioni](../campaigns/manage-campaigns.md#statuses)
 
 **Percorsi**
 
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Campagne**
 
-* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu Azioni con i tre puntini. [Maggiori informazioni](../campaigns/modify-stop-campaign.md#duplicate)
+* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu Azioni con i tre puntini. [Maggiori informazioni](../campaigns/manage-campaigns.md#duplicate)
 * Ora puoi eliminare le modifiche apportate alle bozze in una campagna live.
-* I passaggi per attivare una campagna sono stati semplificati. [Maggiori informazioni](../campaigns/modify-stop-campaign.md)
+* I passaggi per attivare una campagna sono stati semplificati. [Maggiori informazioni](../campaigns/manage-campaigns.md)
 
 **Gestione delle decisioni**
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 27%
@@ -608,5 +608,5 @@ Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclus
 * [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 * [Creare una campagna](../campaigns/create-campaign.md)
 * [Creare campagne attivate da API](../campaigns/api-triggered-campaigns.md)
-* [Modificare o interrompere una campagna](../campaigns/modify-stop-campaign.md)
+* [Modificare o interrompere una campagna](../campaigns/manage-campaigns.md)
 * [Rapporto campagna](campaign-global-report-cja.md)
