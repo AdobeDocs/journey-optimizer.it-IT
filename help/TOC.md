@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 98%
+source-wordcount: '2903'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 98%
       + [Leggi pubblico](using/building-journeys/read-audience.md)
       + [Attendi](using/building-journeys/wait-activity.md)
       + [Decisione sul contenuto](using/building-journeys/content-decision.md)
-      + [Attività azione](using/building-journeys/journey-action.md)
+      + [Attività Azione](using/building-journeys/journey-action.md)
       + [Azioni canale incorporate](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -304,6 +304,7 @@ ht-degree: 98%
    + [Introduzione ai canali di comunicazione](using/channels/gs-channels.md)
    + Canale e-mail {#email}
       + [Canale e-mail](/help/rp_landing_pages/email-landing-page.md)
+      + [Introduzione alle e-mail](using/email/get-started-email.md)
       + [Creare un messaggio e-mail](using/email/create-email.md)
       + Progettare i contenuti e-mail {#design-email}
          + [Progettare i contenuti e-mail](/help/rp_landing_pages/design-email-landing-page.md)
