@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="Ricerca in set di dati
+>title="Ricerca in set di dati"
 >abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Ricerca in set di dati"
->abstract="Seleziona il set di dati con gli attributi necessari tra tutti i set di dati Adobe Experience Platform abilitati per la ricerca, quindi seleziona una chiave di mappatura (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell’elemento decisione che nel set di dati.&quot;
+>abstract="Seleziona il set di dati con gli attributi necessari tra tutti i set di dati Adobe Experience Platform abilitati per la ricerca, quindi seleziona una chiave di mappatura (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell’elemento decisione che nel set di dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Aggiungi set di dati&quot;
->abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per definire i criteri di limitazione in base agli attributi dinamici esterni. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati.&quot;
+>title="Aggiungi set di dati"
+>abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per definire i criteri di limitazione in base agli attributi dinamici esterni. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
 
 >[!AVAILABILITY]
 >
