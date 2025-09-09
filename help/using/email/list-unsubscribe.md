@@ -10,9 +10,9 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Le funzioni **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]** e **[!UICONTR
   >
   >Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell’iscrizione nei messaggi sono disponibili in [questa sezione](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l&#39;onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} oppure utilizzare [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
+In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} oppure utilizzare i [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
 
 Attualmente, [!DNL Journey Optimizer] non aggiunge un tag specifico agli eventi di annullamento dell’iscrizione attivati dalla funzione di annullamento iscrizione a mailing list. Se devi distinguere i clic per annullare l’iscrizione alla mailing list da altre azioni di annullamento iscrizione, devi implementare un’assegnazione tag personalizzata esternamente o sfruttare una pagina di destinazione esterna per il tracciamento.
 
@@ -123,13 +123,13 @@ L’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** deve essere
 
 Con l’opzione **[!UICONTROL Gestito da cliente]** selezionata, se immetti endpoint personalizzati e li utilizzi in una campagna o in un percorso, [!DNL Journey Optimizer] aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso <!--sent to the custom endpoint --> quando i destinatari fanno clic sul collegamento Annulla iscrizione.
 
-Per personalizzare ulteriormente l&#39;**[!UICONTROL URL per annullare l&#39;iscrizione con un solo clic]**, puoi definire attributi personalizzati che verranno aggiunti anche all&#39;evento di consenso.
+Per personalizzare ulteriormente l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]**, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso.
 
-A questo scopo, utilizza la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine dell’URL personalizzato con un clic per annullare l’iscrizione, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
+A questo scopo, utilizza la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine dell’URL personalizzato per annullare l’iscrizione con un solo clic, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
 
 ### Configurare l’API di decrittografia {#configure-decrypt-api}
 
-Quando i destinatari fanno clic su un collegamento di annullamento dell’abbonamento personalizzato, i parametri aggiunti all’evento di aggiornamento del consenso vengono inviati all’endpoint in modo crittografato. Pertanto, il sistema di consenso esterno deve implementare un&#39;API specifica tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} per decrittografare i parametri inviati da Adobe.
+Quando i destinatari fanno clic su un collegamento di annullamento dell’iscrizione personalizzato, i parametri aggiunti all’evento di aggiornamento del consenso vengono inviati all’endpoint in modo crittografato. Pertanto, il sistema di consenso esterno deve implementare un’API specifica tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} per decrittografare i parametri inviati da Adobe.
 
 La chiamata GET per recuperare questi parametri dipende dall’opzione Annullamento iscrizione a mailing list in uso: **[!UICONTROL URL per annullamento iscrizione con un solo clic]** o **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**.
 
