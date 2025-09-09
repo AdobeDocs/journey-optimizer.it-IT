@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 90%
+source-wordcount: '2082'
+ht-degree: 89%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 90%
 <td>
 <p>Precedentemente rilasciata in versione beta pubblica, questa funzionalità è ora disponibile per tutti gli ambienti con disponibilità limitata. Con questa versione, sono stati introdotti i seguenti miglioramenti:</p>
 <ul><li>Supporto per la personalizzazione della ricerca di set di dati nei canali in entrata.</li>
-<li>È ora possibile utilizzare la funzione helper "datasetLookup" nei frammenti di espressione.</li>
+<li>È ora possibile utilizzare la funzione helper "datasetLookup" nei frammenti di espressione. Per il momento, questa funzionalità è disponibile per un numero limitato di clienti. Per potervi accedere, contatta il tuo rappresentante Adobe.</li>
 <li>Un’opzione nell’interfaccia di gestione dei set di dati ora consente di abilitare i set di dati basati su record per la personalizzazione della ricerca, senza dover eseguire una chiamata API.</li>
 <li>Monitoraggio migliorato per tenere traccia dello stato di acquisizione dei dati e sapere quando i set di dati sono pronti per la ricerca.</li>
 <li>Sono state aggiornate le linee guida e i guardrail di utilizzo per garantire prestazioni e affidabilità ottimali.</li>
