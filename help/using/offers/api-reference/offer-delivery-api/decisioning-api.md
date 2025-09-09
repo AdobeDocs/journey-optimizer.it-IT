@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,11 @@ La tabella seguente mostra i valori validi che comprendono i campi *Content-Type
 | x-api-key | `{API_KEY}` |
 
 * Tutte le richieste che contengono un payload (POST,PUT,PATCH) richiedono l’intestazione del tipo di contenuto
+
+
+>[!NOTE]
+>
+>Il controllo delle autorizzazioni non viene applicato per singole sandbox. Se il chiamante ha presentato un token valido, l’API di consegna passerà attraverso.
 
 ## richiesta API {#request}
 
@@ -214,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830/?quality=12&captions=ita) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Passaggi successivi {#next-steps}
 
