@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
 source-wordcount: '2917'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ ht-degree: 98%
       + [Eventi generali](using/building-journeys/general-events.md)
       + [Reazione](using/building-journeys/reaction-events.md)
       + [Qualificazione del pubblico](using/building-journeys/audience-qualification-events.md)
-      + [Ottimizza](using/building-journeys/optimize.md)
+      + [Ottimizzare](using/building-journeys/optimize.md)
       + [Condizioni](using/building-journeys/conditions.md)
       + [Attività Condizione](using/building-journeys/condition-activity.md)
       + [Leggi pubblico](using/building-journeys/read-audience.md)
       + [Attendi](using/building-journeys/wait-activity.md)
       + [Decisione sul contenuto](using/building-journeys/content-decision.md)
-      + [Attività Azione](using/building-journeys/journey-action.md)
+      + [Attività azione](using/building-journeys/journey-action.md)
       + [Azioni canale incorporate](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -255,8 +255,8 @@ ht-degree: 98%
          + [Creare la prima regola](using/orchestrated/build-query.md)
          + [Modificare le espressioni](using/orchestrated/edit-expressions.md)
          + [Retargeting](using/orchestrated/retarget.md)
-      + Attività di campagne orchestrate {#design-campaigns}
-         + [Attività di campagne orchestrate](/help/rp_landing_pages/design-campaigns-landing-page.md)
+      + Attività campagne orchestrate {#design-campaigns}
+         + [Attività campagne orchestrate](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [Introduzione alle attività](using/orchestrated/activities/about-activities.md)
          + [AND-join](using/orchestrated/activities/and-join.md)
          + [Crea pubblico](using/orchestrated/activities/build-audience.md)
@@ -316,7 +316,7 @@ ht-degree: 98%
             + [Creare il codice del contenuto](using/email/code-content.md)
             + [Utilizzare modelli di e-mail](using/email/use-email-templates.md)
             + [Sfruttare i temi per e-mail](using/email/apply-email-themes.md)
-            + [Allega file PDF alle e-mail](using/email/pdf-attachments.md)
+            + [Allegare i file PDF alle e-mail](using/email/pdf-attachments.md)
          + Progettare i contenuti {#add-content}
             + [Progettare i contenuti](/help/rp_landing_pages/add-content-landing-page.md)
             + [Utilizzare i componenti di contenuto](using/email/content-components.md)

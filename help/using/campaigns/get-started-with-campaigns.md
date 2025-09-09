@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
 >title="Controllo della frequenza"
->abstract="Imposta il controllo della frequenza per la campagna specificando i limiti della frequenza desiderati. Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti."
+>abstract="Imposta il controllo della frequenza della tua campagna specificando i limiti di frequenza desiderati. Questa funzione è particolarmente utile per prevenire il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ Visualizzatore campagna orchestrata
 
 Se non riesci ad accedere alle funzionalità delle campagne, contatta l’amministratore per richiedere le autorizzazioni necessarie.
 
-+++Scopri come assegnare il ruolo correlato alla campagna
++++Scopri come assegnare un ruolo relativo alla campagna
 
 1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** incorporati relativi alle campagne.
 

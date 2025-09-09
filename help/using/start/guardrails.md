@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ Alle [azioni personalizzate](../action/action.md) nei tuoi percorsi vengono appl
 
 Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Journey Optimizer supporta un volume massimo di 5.000 eventi di percorso in entrata al secondo, in tutte le sandbox.
+* Journey Optimizer supporta un volume massimo di 5.000 eventi di percorso in entrata al secondo, attraverso tutte le sandbox.
 * I percorsi attivati da eventi possono richiedere fino a 5 minuti per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.

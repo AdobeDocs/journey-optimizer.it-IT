@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,17 +181,17 @@ In ogni pagina, utilizza i pulsanti di aiuto contestuali per ulteriori informazi
 
 ## Notifiche interne al prodotto {#in-product-notifications}
 
-È possibile abilitare **avvisi interni al prodotto e via e-mail** per ricevere notifiche su diversi eventi che potrebbero essere di tuo interesse: errori rilevati dal sistema, richieste di approvazione e/o [!DNL Journey Optimizer] versioni del prodotto.
+È possibile abilitare **avvisi interni al prodotto e tramite e-mail** per ricevere notifiche su diversi eventi che potrebbero essere di tuo interesse: errori rilevati dal sistema, richieste di approvazione e/o versioni del prodotto [!DNL Journey Optimizer].
 
 Per abilitare queste notifiche, segui la procedura indicata di seguito.
 
 1. Passa a [!DNL Adobe Experience Cloud] **[!UICONTROL Preferenze]**.
-1. In **[!UICONTROL Notifiche]**, trova **[!UICONTROL Journey Optimizer]**.
-1. Abilita le notifiche in-app e/o e-mail come desiderato:
+1. In **[!UICONTROL Notifiche]**, individua **[!UICONTROL Journey Optimizer]**.
+1. Abilita le notifiche in-app e/o e-mail nel modo desiderato:
 
-   * **[!UICONTROL Avvisi]**: quando si verifica un errore, è possibile ricevere notifiche di sistema per gli avvisi a cui si è abbonati. [Ulteriori informazioni](../reports/alerts.md)
+   * **[!UICONTROL Avvisi]**: quando si verifica un errore, puoi ricevere notifiche di sistema per gli avvisi di cui disponi dell’abbonamento. [Ulteriori informazioni](../reports/alerts.md)
    * **[!UICONTROL Approvazioni]**: ricevi una notifica quando qualcuno ti chiede di approvare un oggetto o di accedervi.
-   * **[!UICONTROL Nuove versioni]**: vengono fornite informazioni su [!DNL Journey Optimizer] nuove versioni del prodotto.
+   * **[!UICONTROL Nuove versioni]**: vengono fornite informazioni su nuove versioni del prodotto [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

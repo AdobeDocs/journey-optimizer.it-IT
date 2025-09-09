@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -74,9 +74,9 @@ L’area di lavoro della campagna orchestrata è una rappresentazione di ciò ch
 
 Ogni campagna orchestrata contiene:
 
-* **Attività**: un’attività è un’attività da eseguire. Le varie attività sono rappresentate nell’area di lavoro da icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
+* **Attività**: un’attività è un’attività da eseguire. Le varie attività nell’area di lavoro sono rappresentate tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
 
-  In un’area di lavoro della campagna orchestrata, una determinata attività può produrre più attività, in particolare quando vi è un ciclo continuo o azioni ricorrenti.
+  In un’area di lavoro della campagna orchestrata, una determinata attività può produrre più attività, in particolare in presenza di un ciclo o di azioni ricorrenti.
 
 * **Transizioni**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza.
 
