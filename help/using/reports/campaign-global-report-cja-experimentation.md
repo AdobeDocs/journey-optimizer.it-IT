@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
-workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
-
----
-@ -0,0 +1,71 @@
----
-soluzione: Journey Optimizer
-product: percorsi optimizer
-title: Rapporto sulla campagna
-description: Scopri come utilizzare i dati di Sperimentazione dal rapporto Campaign
-funzione: Reporting
-topic: Gestione dei contenuti
+solution: Journey Optimizer
+product: journey optimizer
+title: Rapporto campagna
+description: Scopri come utilizzare i dati della sperimentazione dal rapporto della campagna
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 9%
+
 ---
+
+
 # Rapporto sulla sperimentazione della campagna {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
