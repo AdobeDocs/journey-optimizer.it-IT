@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
 workflow-type: tm+mt
-source-wordcount: '5119'
-ht-degree: 100%
+source-wordcount: '5027'
+ht-degree: 99%
 
 ---
 
@@ -220,15 +220,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La messaggistica RCS (Rich Communication Services) è ora supportata in Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate, soggette al supporto di provider e operatore mobile.</p>
-<ul>
-<li>Supporto per mittente brandizzato e verificato: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
-<li>Informazioni approfondite sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
-<li>Tracciamento dei collegamenti: incorpora e tieni traccia degli URL nei messaggi RCS per l’analisi del coinvolgimento.</li>
-<li>Fallback su SMS: fallback automatico su SMS quando il dispositivo del profilo non supporta la RCS o è temporaneamente non raggiungibile tramite RCS.</li>
-<li>Composizione di base dei messaggi: invia messaggi RCS basati su testo con elementi avanzati e file multimediali facoltativi, a seconda del supporto del provider.</li>
-</ul>
-<p>Per ulteriori informazioni, consulta la <a href="../sms/sms-configuration.md">documentazione dettagliata</a>.</p>
+<p>Ora puoi configurare, personalizzare e distribuire messaggi RCS (Rich Communication Services) tramite un provider di terze parti tramite l’integrazione con la soluzione del provider SMS personalizzato.</p>
 </td>
 </tr>
 </tbody>
