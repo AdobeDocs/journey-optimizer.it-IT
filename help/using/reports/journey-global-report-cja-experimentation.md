@@ -1,42 +1,41 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
-workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
-
----
-@ -0,0 +1,71 @@
----
-soluzione: Journey Optimizer
-product: percorsi optimizer
-title: Rapporto sulla campagna
-description: Scopri come utilizzare i dati di Sperimentazione dal rapporto Campaign
-funzione: Reporting
-topic: Gestione dei contenuti
+solution: Journey Optimizer
+product: journey optimizer
+title: Rapporto campagna
+description: Scopri come utilizzare i dati della sperimentazione dal rapporto sul Percorso
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 2%
+
 ---
-# Rapporto sulla sperimentazione della campagna {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Metrica di successo"
->abstract="Valore totale della metrica Successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili."
+# Rapporto percorso di sperimentazione {#campaign-global-report-cja-experimentation}
 
-## Sperimentazione {#experimentation}
+Il rapporto sul Percorso offre una visualizzazione completa delle prestazioni dell’esperimento, insieme alle metriche chiave necessarie per comprenderne l’impatto.
 
-La scheda **[!UICONTROL Sperimentazione]** fornisce informazioni chiave sulle prestazioni di ogni variante e identifica quella che ha avuto maggior successo.
+In Journey Optimizer, la sperimentazione di percorso è divisa in due tipi:
 
-Si noti che la definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tempo. Se l&#39;esperimento non ha esito positivo, verrà impostato su **Non conclusivo**.
+* [Esperimenti sui contenuti](../content-management/content-experiment.md)
+* [Esperimenti di percorso](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## Esperimento percorso {#experimentation}
+
+>[!NOTE]
+>
+> Le tabelle e i KPI dettagliati per l’esperimento sui contenuti sono gli stessi di un esperimento su percorsi. Se hai impostato un esperimento sui contenuti, consulta la documentazione seguente.
 
 ### KPI della sperimentazione {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-I **[!UICONTROL Indicatori prestazioni chiave (KPI, Key Performance Indicators) della sperimentazione]** funzionano come dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate alla sperimentazione.
+Il riepilogo della **Sperimentazione** fornisce informazioni chiave sulle prestazioni dell&#39;esperimento e identifica quello più riuscito. Si noti che la definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tempo. Se l&#39;esperimento non ha esito positivo, verrà impostato su **Non conclusivo**.
+
+I **indicatori di prestazioni chiave (KPI, Key Performance Indicators)** della sperimentazione fungono da dashboard completo e forniscono un&#39;analisi delle metriche essenziali associate alla sperimentazione.
 
 +++ Ulteriori informazioni sulle metriche dei KPI per la sperimentazione
 
@@ -46,7 +45,9 @@ I **[!UICONTROL Indicatori prestazioni chiave (KPI, Key Performance Indicators) 
 
 +++
 
-### Variante per metrica di successo {#variant-inbound}
+
+
+### Variante per metriche di successo {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
@@ -74,6 +75,5 @@ Per informazioni approfondite su questi risultati e su come interpretarli, consu
 ### Tasso di conversione per metrica di successo {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 Il grafico **[!UICONTROL Intervallo di affidabilità]** mostra l&#39;intervallo di possibili miglioramenti, confrontando la linea di base con il trattamento dalle prestazioni migliori per la metrica di successo scelta. [Ulteriori informazioni](../content-management/experiment-calculations.md#confidence-intervals).

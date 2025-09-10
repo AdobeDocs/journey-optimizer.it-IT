@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -104,5 +104,23 @@ La tabella **[!UICONTROL Tracked link label]** offre informazioni essenziali sul
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto del messaggio.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio.
+
++++
+
+## Panoramica sul targeting {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Se imposti **[!UICONTROL Regole di targeting]** per il contenuto, la tabella **[!UICONTROL Panoramica targeting]** fornisce una visualizzazione dettagliata delle metriche chiave di coinvolgimento, mostrando come i profili target per ogni regola interagivano con il contenuto.
+
+➡️ [Ulteriori informazioni sulle regole di targeting](../campaigns/campaigns-message-optimization.md)
+
++++ Ulteriori informazioni sulle metriche di panoramica del targeting
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i tuoi eventi.
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.
+
+* **[!UICONTROL Percentuale clic univoci]**: percentuale di profili target che hanno fatto clic almeno una volta.
 
 +++

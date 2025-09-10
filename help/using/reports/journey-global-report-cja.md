@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '971'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Il report **Percorso** funziona come un dashboard completo che fornisce un&#39;a
 
 ![](assets/gs-cja-report-3.png)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Panoramica del percorso {#journey-global}
 
@@ -85,7 +85,7 @@ Il widget **[!UICONTROL Errori azione]** descrive i diversi errori che si sono v
 
 ![](assets/cja-journey-canvas.png)
 
-Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Migliora la personalizzazione dell’area di lavoro con le seguenti opzioni:
 
@@ -145,5 +145,23 @@ La tabella **[!UICONTROL Panoramica eventi]** mostra quanti profili soddisfano i
 +++ Ulteriori informazioni sulle metriche delle statistiche di Percorso
 
 * **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i tuoi eventi.
+
++++
+
+## Panoramica sul targeting {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Se imposti **[!UICONTROL Regole di targeting]** per il contenuto, la tabella **[!UICONTROL Panoramica targeting]** fornisce una visualizzazione dettagliata delle metriche chiave di coinvolgimento, mostrando come i profili target per ogni regola interagivano con il contenuto.
+
+➡️ [Ulteriori informazioni sulle regole di targeting](../campaigns/campaigns-message-optimization.md)
+
++++ Ulteriori informazioni sulle metriche di panoramica del targeting
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i tuoi eventi.
+
+* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.
+
+* **[!UICONTROL Percentuale clic univoci]**: percentuale di profili target che hanno fatto clic almeno una volta.
 
 +++
