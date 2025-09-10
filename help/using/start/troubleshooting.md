@@ -314,7 +314,7 @@ Scopri come duplicare un percorso [in questa pagina](../building-journeys/journe
 
 +++ Perché un’azione personalizzata che chiama un endpoint esterno di terze parti riceve un timeout?
 
-Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **** chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
+Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **&#x200B;**&#x200B;chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
 
 Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} per scoprire i passaggi per risolvere il problema.
 
@@ -377,7 +377,7 @@ Ulteriori informazioni sul contenuto multilingue [in questa pagina](../content-m
 
 +++ Come si abilita TLS v1.3 per le azioni personalizzate?  
 
-Per mantenere l&#39;integrità e la sicurezza dei dati di **1} durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
+Per mantenere l&#39;integrità e la sicurezza dei dati di **1&rbrace; durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
 
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"}.
