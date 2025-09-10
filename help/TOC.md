@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [Introduzione per Data Engineer](using/start/path/data-engineer.md)
       + [Introduzione per amministratori](using/start/path/administrator.md)
       + [Introduzione per sviluppatori](using/start/path/developer.md)
-   + [Interfaccia utente](using/start/user-interface.md)
-   + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
-   + [Accessibilità](using/start/accessibility.md)
+   + Interfaccia utente {#ui}
+      + [Introduzione all’interfaccia](using/start/user-interface.md)
+      + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
+      + [Accessibilità](using/start/accessibility.md)
    + [Utilizzare l’Assistente IA](using/start/ai-assistant.md)
-   + [Guardrail](using/start/guardrails.md)
-   + [Best practice](using/start/best-practices.md)
+   + [Playbook di casi d’uso](using/start/playbooks.md)
+   + [Guardrail e limitazioni](using/start/guardrails.md)
    + [Risoluzione dei problemi](using/start/troubleshooting.md)
-   + [Playbook](using/start/playbooks.md)
 + Percorsi {#orchestrate-journeys}
    + [Percorsi](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
