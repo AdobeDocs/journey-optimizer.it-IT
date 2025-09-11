@@ -12,9 +12,9 @@ keywords: modalità scura, e-mail, colore, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1524'
 ht-degree: 11%
 
 ---
@@ -115,7 +115,9 @@ In questo caso, devono essere visualizzate le impostazioni specifiche definite n
 >
 >Scopri come definire impostazioni personalizzate in modalità scura con E-mail Designer in [questa sezione](#define-custom-dark-mode).
 
-Tuttavia, possono essere applicate alcune restrizioni. Ad esempio, alcuni client di posta elettronica come Apple Mail 16 (macOs 13) non genereranno la modalità scura se le immagini sono presenti nel contenuto dell’e-mail.
+Tuttavia, possono essere applicate alcune restrizioni in base a ciascun client e-mail. Ad esempio, alcuni client come Apple Mail 16 (macOs 13) non genereranno la modalità scura se le immagini sono presenti nel contenuto dell’e-mail.
+
+Per risultati ottimali, verifica il contenuto con i client e-mail di destinazione. Per visualizzare una simulazione che si avvicina il più possibile al risultato finale per ogni client, utilizzare l&#39;opzione [Rendering di e-mail](../content-management/rendering.md) in E-mail Designer.
 
 ## Modalità scura in E-mail designer {#dark-mode-email-designer}
 
