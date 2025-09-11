@@ -12,10 +12,10 @@ keywords: modalità scura, e-mail, colore, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 13%
+source-wordcount: '1481'
+ht-degree: 11%
 
 ---
 
@@ -40,37 +40,82 @@ ht-degree: 13%
 >
 >Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.
 
-Durante la progettazione delle e-mail, [!DNL Journey Optimizer] [Invia e-mail a Designer](get-started-email-design.md) ti consente di passare alla **[!UICONTROL modalità scura]** in cui puoi definire impostazioni personalizzate specifiche. Quando la modalità scura è attiva, i client e-mail di supporto visualizzano le impostazioni definite per questa modalità.
+Durante la progettazione delle e-mail, [!DNL Journey Optimizer] [Invia e-mail a Designer](get-started-email-design.md) ti consente di passare alla visualizzazione **[!UICONTROL Modalità scura]**.
 
->[!WARNING]
->
->Il rendering finale della modalità scura dipende dal client e-mail del destinatario.
->
->Non tutti i client e-mail supportano la modalità scura personalizzata. <!--[See the list](#non-supporting-email-clients)-->Inoltre, alcuni client di posta elettronica applicano solo la propria modalità scura predefinita per tutte le e-mail ricevute. In questo caso, non è possibile eseguire il rendering delle impostazioni personalizzate definite nel Designer e-mail.
+In questa visualizzazione in modalità scura <!--Email Designer --> è inoltre possibile definire impostazioni personalizzate specifiche che verranno visualizzate dai client di posta elettronica di supporto quando la modalità scura è attiva.
 
-Un elenco dei client di posta elettronica che supportano la modalità scura è presentato in [questa sezione](#supporting-email-clients).
+<!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
 ## Cos’è la modalità scura? {#what-is-dark-mode}
 
-La modalità scura consente ai client e-mail e alle app supportati di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi dell’interfaccia utente. Consente di ridurre l&#39;affaticamento degli occhi, di risparmiare la durata della batteria e di migliorare la leggibilità in ambienti scarsamente illuminati, per un&#39;esperienza di visualizzazione più confortevole.
+Il modo in cui viene riprodotta la modalità scura nei vari client e-mail è complesso. Definiamo prima la modalità scura.
+
+La modalità scura consente ai client e alle app e-mail di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi dell’interfaccia utente. Consente di ridurre l&#39;affaticamento degli occhi, di risparmiare la durata della batteria e di migliorare la leggibilità in ambienti scarsamente illuminati, per un&#39;esperienza di visualizzazione più confortevole.
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-Come tendenza crescente tra i principali sistemi operativi e app (Apple Mail, Gmail, Outlook, Twitter, Slack), è diventato un elemento importante nella progettazione moderna delle e-mail per garantire che il contenuto rimanga leggibile e visivamente attraente per tutti gli utenti.
+Come tendenza crescente tra i principali sistemi operativi e app<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->, è diventata un elemento importante nella progettazione di e-mail moderne per garantire che il contenuto rimanga leggibile e visivamente accattivante per tutti gli utenti.
 
-Tuttavia, non è possibile garantire che l’aspetto dell’e-mail sia esattamente lo stesso in modalità scura su tutti i dispositivi. Alcune modifiche visive possono essere causate anche dall’app e-mail o dal dispositivo che sovrascrive la progettazione originale.
+## Guardrail {#guardrails}
 
-In effetti, il modo in cui la modalità scura viene applicata dai client e-mail può variare come segue<!--between different devices and apps-->:
+Le aspettative in termini di rendering in modalità scura devono essere considerate con cautela in quanto il modo in cui viene applicato dai diversi client e-mail può variare molto.
 
-* Non tutti i client e-mail supportano questa funzione.
+<!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-  >[!NOTE]
-  >
-  >Un elenco dei client di posta elettronica che non supportano la modalità scura è presentato in [questa sezione](#non-supporting-email-clients).
+Prima di utilizzare la modalità scura nel Designer e-mail di [!DNL Journey Optimizer], è fondamentale comprendere in che modo i client e-mail principali la gestiscono. Ci sono tre casi da distinguere:
 
-* Alcuni client e-mail regolano automaticamente colori, sfondi e immagini. In questo caso, se definisci impostazioni personalizzate in E-mail Designer, probabilmente non verrà eseguito il rendering di tali impostazioni.
+<!--
+* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
-* Altri client di posta elettronica offrono l&#39;opzione di eseguire il rendering della modalità scura personalizzata (ad esempio con il metodo `@media (prefers-color-scheme: dark)`). In questo caso, devono essere visualizzate le impostazioni specifiche definite nel Designer e-mail. Scopri come definire le impostazioni personalizzate della modalità scura nel Designer e-mail in [questa sezione](#define-custom-dark-mode).
+* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
+-->
+
+### Client che non supportano la modalità scura {#not-supporting}
+
+Alcuni client di posta elettronica non supportano affatto questa funzione, ad esempio:
+* Yahoo!Posta
+* AOL
+
+Che tu definisca o meno le impostazioni personalizzate della modalità scura nel Designer e-mail, questi client e-mail non visualizzano mai alcun rendering della modalità scura. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+
+### Client che applicano la propria modalità scura {#default-support}
+
+Alcuni client e-mail applicano sistematicamente la propria modalità scura predefinita per tutte le e-mail ricevute. Colori, sfondi, immagini, ecc. vengono regolate automaticamente con le impostazioni della modalità scura specifiche del client e-mail.
+
+Questi client sono, ad esempio:
+
+* Gmail (Posta sul desktop, iOS, Android, Posta sul web mobile)
+* Windows Outlook
+* Outlook Windows Mail
+
+In questo caso, se definisci le impostazioni della modalità scura personalizzata in E-mail Designer, queste vengono ignorate con le impostazioni del client e-mail.
+
+È importante comprendere che questi client e-mail gestiscono la modalità scura, ma che la progettazione specifica della modalità scura non verrà renderizzata.
+
+<!--In this case, the custom settings that you defined in the Email Designer cannot be rendered.-->
+
+<!--Some visual changes may also be caused by the email app or device overriding the original design.-->
+
+### Client che supportano la modalità scura personalizzata {#custom-support}
+
+Altri client di posta elettronica offrono l&#39;opzione di eseguire il rendering della modalità scura personalizzata con la query `@media (prefers-color-scheme: dark)`, che è il metodo utilizzato dal Designer di posta elettronica [!DNL Journey Optimizer].
+
+Elenco dei client principali che gestiscono questa opzione:
+
+* Apple Mail macOS
+* Apple Mail iOS
+* MacOS di Outlook
+* Outlook.com
+* IOS di Outlook
+* Android di Outlook
+
+In questo caso, devono essere visualizzate le impostazioni specifiche definite nel Designer e-mail.
+
+>[!NOTE]
+>
+>Scopri come definire impostazioni personalizzate in modalità scura con E-mail Designer in [questa sezione](#define-custom-dark-mode).
+
+Tuttavia, possono essere applicate alcune restrizioni. Ad esempio, alcuni client di posta elettronica come Apple Mail 16 (macOs 13) non genereranno la modalità scura se le immagini sono presenti nel contenuto dell’e-mail.
 
 ## Modalità scura in E-mail designer {#dark-mode-email-designer}
 
@@ -131,7 +176,12 @@ Dopo il passaggio alla **[!UICONTROL modalità scura]**, puoi scegliere di modif
 
 >[!WARNING]
 >
->Non tutti i client e-mail supportano la modalità scura. Inoltre, alcuni client e-mail applicano soltanto la propria modalità scura predefinita per tutte le e-mail ricevute. In entrambi i casi, non è possibile eseguire il rendering delle impostazioni personalizzate definite in E-mail designer.
+>Il rendering finale in modalità scura dipende da ciascun client e-mail, pertanto i risultati possono variare da un client all’altro. [Ulteriori informazioni](#guardrails)
+
+<!--
+>[!WARNING]
+>
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
 Per sfruttare lo stile personalizzato della modalità scura di E-mail Designer, Journey Optimizer utilizza <!-- `@media (prefers-color-scheme: dark)` method--> Query CSS `@media (prefers-color-scheme: dark)` che rileva se il client e-mail dell&#39;utente è impostato sulla modalità scura e applica la struttura a tema scuro definita nell&#39;e-mail.
 
@@ -173,9 +223,9 @@ La modalità scura può alterare i colori, gli sfondi e le immagini, a volte ign
 
 **Ottimizza immagini e logo**
 
-* Evitare le immagini con sfondi bianchi o chiari codificati.
-
 * Salvare logo e icone come file PNG con sfondi trasparenti per evitare la presenza di caselle bianche visibili in modalità scura.
+
+* Evitare le immagini con sfondi bianchi o chiari codificati.
 
 * Se la trasparenza non è un&#39;opzione, posizionate le immagini su uno sfondo a tinta unita nel progetto per evitare scomode inversioni di colore.
 
@@ -184,6 +234,10 @@ La modalità scura può alterare i colori, gli sfondi e le immagini, a volte ign
 * Assicurati un contrasto sufficiente tra il testo e i colori di sfondo per garantire leggibilità sia nelle modalità chiara che in quelle scure.
 
 * Evita di utilizzare solo i colori di sfondo per i contenuti critici. Alcuni client ignorano i colori di sfondo in modalità scura, quindi assicurati che le informazioni chiave siano ancora visibili.
+
+<!--**Inline critical styles**
+
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
 
 **Progettare contenuti accessibili in modalità scura**
 
@@ -209,65 +263,70 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * Utilizza l&#39;opzione [Rendering di e-mail](../content-management/rendering.md) che sfrutta Litmus per simulare le progettazioni tra i principali client e-mail (Apple Mail, Gmail, Outlook) e vedere come si comportano i colori e le immagini in modalità scura.
 
-<!--**Inline critical styles**
+<!--
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+## Email clients supporting dark mode {#supporting-email-clients}
 
-## Client e-mail che supportano la modalità scura {#supporting-email-clients}
-
-Di seguito è riportato un elenco dei principali client e-mail che supportano la modalità scura.
+Below is a list of the main email clients supporting dark mode using the with the `@media (prefers-color-scheme: dark)` query.
 
 >[!NOTE]
 >
->Alcune versioni di questi client e-mail non supportano la modalità scura, quindi vengono anche presentate in questa tabella per maggiore chiarezza.
+>Some versions of these email clients do not support dark mode, so they are also presented in this table for the sake of clarity.
 
-| Client e-mail che supportano la modalità scura | Versioni compatibili | *Versioni non supportate* |
+| Email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
 |---------|----------|---------|
-| Apple Mail macOS | 12,4, 16,0 | *10,3* |
-| Apple Mail iOS | 13,0, 16,1 | *12,2* |
-| MacOS di Outlook | 2019, 16,70, 16,80 | N/D |
-| Outlook.com | 07/2019, 12/2022 | N/D |
-| IOS di Outlook | 01/2020, 12/2022 | N/D |
-| Android di Outlook | 03/2023 | *2020-01, 2022-12* |
-| E-mail Samsung (Android) | 6,1 | *6.0* |
-| Mozilla Thunderbird (macOS) | 68,4 | *60,8, 78,5, 91,13* |
-| Fastmail (posta sul desktop) | 12/2022 | *2021-07* |
-| EHI (posta sul desktop) | 06/2020 | *2022-12* |
-| Webmail desktop arancione | 08/2019, 03/2021, 12/2022, 04/2024 | N/D |
-| IOS arancione | 12-2022, 04-2024 | *2020-01* |
-| Android arancione | 04/2024 | *2020-01, 2022-12* |
-| LaPoste.net | 08/2021, 12/2022 | N/D |
-| SFR Desktop Webmail | 08/2019, 12/2022 | N/D |
-| GMX (iOs e Android) | 06/2022 | N/D |
-| 1&amp;1 (posta sul desktop e Android) | 06/2022 | N/D |
-| WEB.DE (iOs e Android) | 06/2022 | N/D |
-| Free.fr | 12/2022 | N/D |
+| Apple Mail macOS| 12.4, 16.0 | *10.3* |
+| Apple Mail iOS | 13.0, 16.1 | *12.2* |
+| Outloook macOS | 2019, 16.70, 16.80 | NA |
+| Outlook.com | 2019-07, 2022-12 | NA |
+| Outloook iOS | 2020-01, 2022-12 | NA |
+| Outloook Android | 2023-03 | *2020-01, 2022-12* |
+
+| Other email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
+|---------|----------|---------|
+| Samsung Email (Android) | 6.1 | *6.0* |
+| Mozilla Thunderbird (macOS) | 68.4 | *60.8, 78.5, 91.13* |
+| Fastmail (Desktop Webmail)| 2022-12 | *2021-07* |
+| HEY (Desktop Webmail)| 2020-06 | *2022-12* |
+| Orange Desktop Webmail| 2019-08, 2021-03, 2022-12, 2024-04 | NA |
+| Orange iOS | 2022-12, 2024-04 | *2020-01* |
+| Orange Android | 2024-04 | *2020-01, 2022-12* |
+| LaPoste.net | 2021-08, 2022-12 | NA |
+| SFR  Desktop Webmail | 2019-08, 2022-12 | NA |
+| GMX (iOs and Android) | 2022-06 | NA |
+| 1&1 (Desktop Webmail and Android) | 2022-06 | NA |
+| WEB.DE (iOs and Android) | 2022-06 | NA |
+| Free.fr | 2022-12 | NA |
 
 >[!WARNING]
 >
->Il rendering finale in modalità scura dipende da ciascun client e-mail, pertanto i risultati possono variare da un client all’altro.
+>The dark mode final rendering depends on each email client, so results can vary from one to another.
 
-<!--
-* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
+## Email clients not supporting dark mode {#non-supporting-email-clients}
 
-* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
--->
+Some email clients allow users to switch their interface to dark mode, but this setting does not affect how HTML emails are displayed.  Here is a list of those clients:
 
-## Client e-mail che non supportano la modalità scura {#non-supporting-email-clients}
-
-Alcuni client e-mail consentono agli utenti di passare dalla propria interfaccia alla modalità scura, ma questa impostazione non influisce sulla visualizzazione delle e-mail di HTML. Indipendentemente dal fatto che l’interfaccia sia in modalità chiara o scura, l’e-mail riprodurrà lo stesso risultato. Di seguito è riportato un elenco dei client:
-
-| Client e-mail che non supportano la modalità scura |
+| Main email clients with their own dark mode| 
 |---------|
-| Gmail (Posta sul desktop, iOS, Android, Posta sul web mobile) |
-| Windows Outlook |
+| Gmail (Desktop Webmail, iOS, Android, Mobile Webmail) | 
+| Outloook Windows |
 | Outlook Windows Mail |
-| Yahoo!Posta |
-| AOL |
+
+Other email clients do not support dark mode at all:
+
+| Main email clients not supporting dark mode| 
+|---------|
+| Yahoo!Mail | 
+| AOL | 
+
+| Other mail clients not supporting dark mode| 
+|---------|
 | ProtonMail |
-| SFR IOS |
-| SFR ANDROID |
-| Webmail desktop GMX |
-| Mail.ru |
-| Web.DE Desktop Webmail |
+| SFR iOS |
+| SFR Android | 
+| GMX Desktop Webmail | 
+| Mail.ru | 
+| WEB.DE Desktop Webmail | 
 | T-online.de |
+
+-->
