@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 85ae4e99e804e50451b3f108e1fddc041f269620
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
    | Messaggio di rinuncia | Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
    | Parole chiave della Guida | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
    | Messaggio di aiuto | Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?learn=on&captions=ita). |
+   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Doppio messaggio di consenso | Immetti la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | Numero in entrata | Aggiungi un numero in entrata univoco o un codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve. |
    | Parole chiave in entrata personalizzate | Definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
@@ -117,6 +117,7 @@ Per configurare Sinch MMS per l’invio di MMS con Journey Optimizer, effettua l
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una configurazione del canale per i messaggi MMS. [Ulteriori informazioni](sms-configuration-surface.md)
 
+
 ## Configurare le credenziali API per RCS
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
@@ -125,19 +126,32 @@ La messaggistica RCS (Rich Communication Services) è supportata in Journey Opti
 
 Tieni presente che i messaggi tornano automaticamente a SMS quando il dispositivo del profilo non supporta RCS o è temporaneamente non raggiungibile tramite RCS.
 
-➡️ [Scopri come Sinch supporta RCS nella documentazione di Sinch](https://sinch.com/blog/rcs-api-guide/)
+### Messaggi RCS avanzati
 
-Per configurare RCS con Sinch:
+>[!AVAILABILITY]
+>
+> I messaggi RCS avanzati sono disponibili solo con un account diretto gestito da Sinch.
 
 1. **Configura l&#39;agente RCS con marchio**
 
-   Contatta il tuo rappresentante Adobe per configurare un agente RCS con marchio. [Ulteriori informazioni sull&#39;agente RCS con marchio](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   Crea un agente RCS con marchio nel dashboard di Sinch. [Ulteriori informazioni sull&#39;agente RCS con marchio](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **Configura le tue [credenziali API Sinch](#create-api)**
+1. **Configura le [credenziali API personalizzate](sms-configuration-custom.md)**
 
-   Una volta approvato l’agente RCS, devi impostare le credenziali API di Sinch, che includono la chiave di accesso, il segreto e l’ID del piano di servizio. Queste credenziali verranno utilizzate da Journey Optimizer per autenticare e inviare messaggi tramite la piattaforma di Sinch.
+   Una volta approvato l’agente RCS, devi impostare le credenziali API personalizzate, che includono AppId, Nome, URL e Tipo di autenticazione.
+
+1. **Configura il tuo RCS con il payload del provider.**
+
+   Nelle [credenziali API personalizzate](sms-configuration-custom.md), aggiungi il payload del provider per convalidare e personalizzare i messaggi RCS.
 
 1. **Crea una [configurazione canale](sms-configuration-surface.md) per i messaggi RCS**
 
    Configura una superficie di canale in Journey Optimizer collegando le credenziali Sinch e definendo i parametri di messaggistica. Questa configurazione consente di comporre e inviare messaggi RCS da Journey Optimizer.
+
+1. **Crea e personalizza il [messaggio SMS](../sms/create-sms.md)**
+
+   Incolla il payload direttamente nel contenuto SMS per incorporare e distribuire i messaggi RCS (Rich Communication Services).
+
+   ➡️ [Scopri come Sinch supporta RCS nella documentazione di Sinch](https://sinch.com/blog/rcs-api-guide/)
+
 
