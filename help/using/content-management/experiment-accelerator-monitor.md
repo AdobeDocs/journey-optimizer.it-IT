@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Monitor Experimentation Accelerator
 description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare informazioni
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
 
-# Scheda Esperimenti {#monitor}
+# Tracciare gli esperimenti {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Introduzione a Experimentation Accelerator](experiment-accelerator.md)
-* **[Scheda Esperimenti](experiment-accelerator-monitor.md)**
+* [Utilizzo dei dati in AI con Experimentation Accelerator](experiment-accelerator-security.md)
+* [Best practice per Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[Esperimenti di monitoraggio](experiment-accelerator-monitor.md)**
+* [Metriche della sperimentazione](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +87,7 @@ L&#39;**[!UICONTROL ipotesi]** acquisisce le modifiche pianificate da testare e 
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -170,7 +173,7 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 
 * **[!UICONTROL Tasso di conversione]**: percentuale di profili che hanno completato l&#39;azione desiderata (ad esempio, acquisto, iscrizione) dopo aver visto il trattamento.
 
-### Approfondimenti esperimento {#insights}
+### Insight esperimento {#insights}
 
 >[!AVAILABILITY]
 >
@@ -180,6 +183,6 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 
 **[!UICONTROL Informazioni sull&#39;esperimento]** sono informazioni generate da IA derivate da questo esperimento. Queste informazioni diventano disponibili una volta che l’esperimento raggiunge la rilevanza statistica e fornisce una comprensione contestuale di ciò che ha contribuito al suo successo. Evidenziano gli attributi chiave presenti nel trattamento vincente, distinti dal controllo, che probabilmente hanno influenzato il risultato.
 
-Tieni presente che per generare informazioni sull&#39;esperimento devi prima [confermare i dettagli sull&#39;ipotesi e sul trattamento](#set-up).
+Tieni presente che per generare informazioni sull&#39;esperimento devi prima [confermare i dettagli relativi a ipotesi e trattamento](#set-up) e la rilevanza statistica da raggiungere.
 
 Fai clic su **[!UICONTROL Visualizza dettagli]** per ulteriori informazioni su ogni approfondimento.
