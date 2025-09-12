@@ -10,10 +10,10 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 1%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,5 +29,38 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-La pagina Dettagli metrica fornisce un grafico visivo e un riepilogo che mostrano la tendenza della metrica nel tempo, insieme a un elenco di tutti gli esperimenti correlati che l’hanno influenzata. In questa pagina vengono mostrati anche gli insight generati dall’intelligenza artificiale, offrendo ulteriore contesto e analisi.
+Nella pagina **[!UICONTROL Metriche]** le metriche di successo degli esperimenti di Journey Optimizer e Target vengono visualizzate in un&#39;unica posizione, consentendo il monitoraggio delle prestazioni, il confronto e informazioni più approfondite.
 
+## Dashboard di {#dashboard}
+
+Quando si accede alla scheda **[!UICONTROL Metriche]**, tutte le metriche di successo disponibili in Journey Optimizer e Adobe Target sono elencate in una visualizzazione consolidata per consentire di tenere traccia delle prestazioni tra le iniziative, confrontare i risultati e identificare rapidamente le aree che richiedono attenzione.
+
+L&#39;elenco delle **[!UICONTROL metriche]** include:
+
+Accedere ai filtri facendo clic su ![](assets/do-not-localize/Smock_Filter_18_N.svg), che offre opzioni specifiche del contesto, ad esempio il filtro per **[!UICONTROL Source]** o **[!UICONTROL Utilizzato in esperimenti attivi]**.
+
+In alternativa, puoi trovare rapidamente una metrica digitandone il nome nella barra di ricerca.
+
+![](assets/experiment-monitor-metrics.png)
+
+## Dettagli metrica {#metric-details}
+
+### Incrementale nel tempo
+
+![](assets/experiment-monitor-metrics-2.png)
+
+Il grafico **[!UICONTROL Incrementale nel tempo]** fornisce un&#39;analisi visiva della tendenza della metrica selezionata in un intervallo di tempo scelto. Utilizza il menu a discesa per passare dalla visualizzazione giornaliera a quella settimanale e viceversa, in modo da regolare il livello di granularità.
+
+Per riferimento rapido sono disponibili i seguenti valori di riepilogo:
+
+* **[!UICONTROL Totale]**:
+
+* **[!UICONTROL Media]**:
+
+* **[!UICONTROL Tasso di conversione]**: percentuale di profili che hanno completato l&#39;azione desiderata (ad esempio, acquisto, iscrizione) dopo aver visto il trattamento.
+
+Ciascun valore include una variazione percentuale rispetto al periodo precedente, per verificare facilmente se le prestazioni stanno migliorando, diminuendo o rimanendo stabili.
+
+### Effetto esperimento
+
+Questa sezione mostra tutti gli esperimenti attivi entro l’intervallo di tempo selezionato (Ultimi 90 giorni, Ultimi 30 giorni o Ultimi 7 giorni) ed evidenzia il loro contributo alla metrica.

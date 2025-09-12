@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -71,11 +71,13 @@ Il **[!UICONTROL Risultato esperimento]** ti offre una visualizzazione rapida de
 
 ### Configura {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 L&#39;**[!UICONTROL ipotesi]** acquisisce le modifiche pianificate da testare e documenta l&#39;impatto previsto sulla metrica principale. Definendo una chiara **[!UICONTROL Ipotesi]** si garantisce che ogni esperimento abbia un obiettivo misurabile, facilitando la valutazione dei risultati e determinando se le modifiche portano a miglioramenti significativi.
 
+Tieni presente che per generare [approfondimenti esperimento](#insights) devi confermare i dettagli di ipotesi e trattamento e la rilevanza statistica da raggiungere.
+
 1. Fai clic su **[!UICONTROL Aggiungi]** per creare una **[!UICONTROL ipotesi]** per l&#39;esperimento.
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. Inserisci la **[!UICONTROL ipotesi]** specificando le modifiche apportate e il modo in cui influiranno sulla metrica principale.
 
@@ -83,11 +85,13 @@ L&#39;**[!UICONTROL ipotesi]** acquisisce le modifiche pianificate da testare e 
 
 1. Fai clic su **[!UICONTROL Rivedi]** per aggiungere o sostituire l&#39;immagine per ogni trattamento.
 
-1. Seleziona **[!UICONTROL Aggiungi immagine]** o **[!UICONTROL Sostituisci immagine]** per scegliere dai tuoi file locali lo screenshot migliore per i tuoi **[!UICONTROL Trattamenti]**.
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. Le immagini del trattamento vengono generate automaticamente, ma se necessario, puoi selezionare **[!UICONTROL Aggiungi immagine]** o **[!UICONTROL Sostituisci immagine]** per caricare uno screenshot preferito dai file locali per i tuoi **[!UICONTROL Trattamenti]**.
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -109,7 +113,7 @@ Puoi anche visualizzare un’istantanea in tempo reale delle prestazioni del tra
 
 * **[!UICONTROL Metrica di successo]** da Journey Optimizer o la **[!UICONTROL Metrica primaria]** da Adobe Target a seconda di ciò che è stato configurato durante la creazione dell&#39;esperimento.
 
-Nella parte inferiore del widget, troverai un breve riepilogo della configurazione dell’esperimento, che include:
+Nella parte inferiore del widget, puoi trovare un breve riepilogo della configurazione dell’esperimento, tra cui:
 
 * **[!UICONTROL Metrica di successo]** da Journey Optimizer o la **[!UICONTROL Metrica primaria]** da Adobe Target a seconda di ciò che è stato configurato durante la creazione dell&#39;esperimento.
 
@@ -123,17 +127,17 @@ Nella parte inferiore del widget, troverai un breve riepilogo della configurazio
 >
 >La funzione Opportunità è limitata agli esperimenti con modifiche basate su testo.
 
-![](assets/experiment-monitor-opportunities.png)
-
 Il pannello **[!UICONTROL Opportunità]** visualizza i consigli generati dall&#39;intelligenza artificiale progettati per migliorare le prestazioni dei test e allinearsi agli obiettivi di business e ai KPI più ampi.
 
-1. Selezionare l&#39;opportunità desiderata e fare clic su **[!UICONTROL Visualizza opportunità]**.
+Tieni presente che per generare opportunità di esperimento devi prima [confermare i dettagli di ipotesi e trattamento](#set-up).
+
+1. Sfoglia l&#39;opportunità suggerita e fai clic su **[!UICONTROL Visualizza opportunità]**.
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. Quando si seleziona un&#39;opportunità, viene aperta la finestra **Dettagli opportunità**, in cui viene descritto un trattamento o una variante specifica suggeriti da Experimentation Accelerator. Questa visualizzazione include:
 
    * **[!UICONTROL Ipotesi]**: un&#39;ipotesi generata dall&#39;intelligenza artificiale che spiega il risultato previsto del trattamento suggerito.
-
-   * **[!UICONTROL Nuovo esempio di trattamento del testo]**: parole o frasi che illustrano lo stile consigliato dall&#39;IA.
 
    * **[!UICONTROL Motivazione]**: spiegazione del motivo per cui Experimentation Accelerator ha suggerito questa opportunità.
 
@@ -142,12 +146,19 @@ Il pannello **[!UICONTROL Opportunità]** visualizza i consigli generati dall&#3
       * **[!UICONTROL Potenziale di apprendimento]**: una stima della quantità di nuovi insight che l&#39;opportunità potrebbe fornire, in base alla differenza rispetto a quanto è stato testato in precedenza.
 
       * **[!UICONTROL Potenziale di conversione]**: stima della probabilità che l&#39;opportunità superi i trattamenti correnti, in base alle somiglianze con strategie che hanno sempre funzionato bene.
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. Puoi quindi scegliere di **[!UICONTROL condividere]** la tua opportunità o attivarla direttamente selezionando **[!UICONTROL Apri esperimento]**.
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. Puoi quindi aggiungerlo direttamente all&#39;esperimento selezionando **[!UICONTROL Apri esperimento]**.
 
 1. Se l&#39;esperimento originale è stato creato e gestito in Adobe Journey Optimizer, questa azione aprirà il **[!UICONTROL Pannello Sperimentazione contenuto]** all&#39;interno della campagna.
 
    Per gli esperimenti provenienti da **[!DNL Adobe Target]**, le modifiche suggerite verranno invece caricate nel flusso di lavoro di sperimentazione di **[!DNL Adobe Target]**.
+
+   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Nella vista dell&#39;esperimento, sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Experimentation Accelerator.
 
@@ -163,9 +174,9 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 
 * **[!UICONTROL Luogo]**: posizione di classificazione del trattamento in base alle prestazioni, che indica il confronto con altri trattamenti.
 
-* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
-
 * **[!UICONTROL Metrica di successo]** da Journey Optimizer o la **[!UICONTROL Metrica primaria]** da Adobe Target a seconda di ciò che è stato configurato durante la creazione dell&#39;esperimento.
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto al basale.
 
@@ -179,10 +190,12 @@ La tabella **[!UICONTROL Risultati]** fornisce una suddivisione dettagliata dell
 >
 >La funzione Approfondimenti sperimentazione è limitata agli esperimenti con modifiche basate su testo.
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL Informazioni sull&#39;esperimento]** sono informazioni generate da IA derivate da questo esperimento. Queste informazioni diventano disponibili una volta che l’esperimento raggiunge la rilevanza statistica e fornisce una comprensione contestuale di ciò che ha contribuito al suo successo. Evidenziano gli attributi chiave presenti nel trattamento vincente, distinti dal controllo, che probabilmente hanno influenzato il risultato.
 
 Tieni presente che per generare informazioni sull&#39;esperimento devi prima [confermare i dettagli relativi a ipotesi e trattamento](#set-up) e la rilevanza statistica da raggiungere.
 
 Fai clic su **[!UICONTROL Visualizza dettagli]** per ulteriori informazioni su ogni approfondimento.
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
