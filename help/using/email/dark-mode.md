@@ -12,10 +12,10 @@ keywords: modalità scura, e-mail, colore, editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 11%
+source-wordcount: '1527'
+ht-degree: 4%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Passare alla modalità scura"
->abstract="Passa realla modalità scura dove è possibile visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Attenzione: il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="Utilizzare un’immagine specifica per la modalità scura"
->abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>Attenzione: l’aggiunta di un’immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client e-mail. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tutti i client e-mail non supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Passare alla modalità scura"
->abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Attenzione: il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tutti i client e-mail non supportano la modalità scura."
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile attualmente in versione beta e solo per la clientela beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è attualmente disponibile nella versione beta e solo per i clienti beta. <!--To join the beta program, contact your Adobe representative.-->
 
 Durante la progettazione delle e-mail, [!DNL Journey Optimizer] [Invia e-mail a Designer](get-started-email-design.md) ti consente di passare alla visualizzazione **[!UICONTROL Modalità scura]**.
 
@@ -73,6 +68,7 @@ Prima di utilizzare la modalità scura nel Designer e-mail di [!DNL Journey Opti
 ### Client che non supportano la modalità scura {#not-supporting}
 
 Alcuni client di posta elettronica non supportano affatto questa funzione, ad esempio:
+
 * Yahoo!Posta
 * AOL
 
@@ -80,7 +76,9 @@ Che tu definisca o meno le impostazioni personalizzate della modalità scura nel
 
 ### Client che applicano la propria modalità scura {#default-support}
 
-Alcuni client e-mail applicano sistematicamente la propria modalità scura predefinita per tutte le e-mail ricevute. Colori, sfondi, immagini, ecc. vengono regolate automaticamente con le impostazioni della modalità scura specifiche del client e-mail.
+Alcuni client e-mail applicano sistematicamente la propria modalità scura predefinita per tutte le e-mail ricevute. Colori, sfondi, immagini, ecc. vengono regolate automaticamente con le impostazioni della modalità scura specifiche del client e-mail, il che significa che non è possibile alcuna modifica esterna.
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 Questi client sono, ad esempio:
 
@@ -173,6 +171,11 @@ Significa che rileva aree con elementi chiari e scuri e le inverte, in modo che 
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### Definire la modalità scura personalizzata {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="Utilizzare un’immagine specifica per la modalità scura"
+>abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client di posta elettronica. Tutti i client e-mail non supportano la modalità scura personalizzata."
 
 Dopo il passaggio alla **[!UICONTROL modalità scura]**, puoi scegliere di modificare elementi di stile specifici del contenuto che verranno visualizzati solo quando la modalità scura è abilitata nel client e-mail del destinatario, purché supporti tale funzione.
 

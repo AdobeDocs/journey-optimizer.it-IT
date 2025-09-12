@@ -11,10 +11,10 @@ keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,7 @@ Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottim
 
 Verifica se l’invio del primo messaggio tramite e-mail rispetto agli SMS determina conversioni più elevate.
 
-➡️ Utilizza il tasso di conversione come metrica di ottimizzazione (ad esempio: acquisti, iscrizioni).
+➡️ Utilizza il tasso di conversione come metrica di successo (ad esempio: acquisti, iscrizioni).
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ Verifica se l’invio del primo messaggio tramite e-mail rispetto agli SMS deter
 
 Esegui un esperimento per verificare se l’invio di un’e-mail rispetto a tre e-mail in una settimana comporta più acquisti.
 
-➡️ Utilizza gli acquisti o il tasso di annullamento dell&#39;iscrizione come metrica di ottimizzazione.
+➡️ Utilizza gli acquisti o il tasso di annullamento dell&#39;iscrizione come metrica di successo.
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ Esegui un esperimento per verificare se l’invio di un’e-mail rispetto a tre 
 
 Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up per determinare quale tempistica massimizza il coinvolgimento.
 
-➡️ Utilizza il tasso di click-through o i ricavi come metrica di ottimizzazione.
+➡️ Utilizza il tasso di click-through o i ricavi come metrica di successo.
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Cos’è il percorso di fallback?"
->abstract="Il fallback crea un nuovo percorso per il pubblico che non soddisfa nessuna delle regole di targeting definite in precedenza.</br>Se non selezioni questa opzione, qualsiasi pubblico non idoneo per una regola di targeting non entrerà nel percorso di fallback."
+>abstract="I percorsi di fallback consentono al pubblico di accedere a un percorso alternativo quando non sono qualificate regole di targeting. </br>Se non selezioni questa opzione, qualsiasi pubblico non idoneo per una regola di targeting non entrerà nel percorso di fallback ed uscirà dal percorso."
 
 Le regole di targeting consentono di determinare regole o qualifiche specifiche che devono essere soddisfatte affinché un cliente possa accedere a uno dei percorsi di percorso, in base a segmenti di pubblico specifici<!-- depending on profile attributes or contextual attributes-->.
 
@@ -196,11 +196,11 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Selezionare l&#39;opzione **[!UICONTROL Abilita contenuto di fallback]** in base alle esigenze. Questa azione crea un percorso di fallback per il pubblico che non soddisfa nessuna delle regole di targeting definite in precedenza.
+1. Selezionare l&#39;opzione **[!UICONTROL Abilita percorso di fallback]** in base alle esigenze. Questa azione crea un percorso di fallback per il pubblico che non soddisfa nessuna delle regole di targeting definite in precedenza.
 
    >[!NOTE]
    >
-   >Se non selezioni questa opzione, i tipi di pubblico non idonei per una regola di targeting non entreranno nel percorso di fallback.
+   >Se non selezioni questa opzione, qualsiasi pubblico non idoneo per una regola di targeting non entra nel percorso di fallback ed esce dal percorso.
 
 1. Fai clic su **[!UICONTROL Crea]** per salvare le impostazioni delle regole di targeting.
 
@@ -234,7 +234,7 @@ Gli esempi seguenti mostrano come utilizzare l&#39;attività **[!UICONTROL Ottim
 
 I membri fedeltà con stato Gold possono ricevere offerte personalizzate tramite e-mail, mentre tutti gli altri membri sono indirizzati a promemoria SMS.
 
-➡️ Utilizza il ricavo per profilo o il tasso di conversione come metrica di ottimizzazione.
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ I membri fedeltà con stato Gold possono ricevere offerte personalizzate tramite
 
 Ai clienti che hanno aperto un’e-mail ma non hanno fatto clic su viene inviata una notifica push, mentre a quelli che non hanno aperto viene inviato un SMS.
 
-➡️ Utilizza il tasso di click-through o le conversioni a valle come metrica di ottimizzazione.
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ Ai clienti che hanno aperto un’e-mail ma non hanno fatto clic su viene inviata
 
 I clienti che hanno acquistato di recente possono entrare in un breve percorso di &quot;Grazie + Cross-selling&quot;, mentre quelli senza cronologia di acquisto entrano in un percorso di sviluppo più lungo.
 
-➡️ Utilizza il tasso di acquisto ripetuto o il tasso di coinvolgimento come metrica di ottimizzazione.
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## Aggiungere una condizione {#conditions}
+### Aggiungere una condizione {#conditions}
 
-Puoi aggiungere una condizione per definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida.
+Le condizioni sono un tipo di regole di [targeting](#targeting) che ti consentono di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici.
 
 ![](assets/journey-condition.png)
 
