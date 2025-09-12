@@ -158,7 +158,7 @@ Tieni presente che per generare opportunità di esperimento devi prima [conferma
 
    Per gli esperimenti provenienti da **[!DNL Adobe Target]**, le modifiche suggerite verranno invece caricate nel flusso di lavoro di sperimentazione di **[!DNL Adobe Target]**.
 
-   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/activities/abtest/test-ab)
 
 1. Nella vista dell&#39;esperimento, sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Experimentation Accelerator.
 
