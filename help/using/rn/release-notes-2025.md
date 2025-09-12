@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5035'
 ht-degree: 99%
 
 ---
@@ -221,6 +221,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi configurare, personalizzare e distribuire messaggi RCS (Rich Communication Services) tramite un provider di terze parti tramite l’integrazione con la soluzione del provider SMS personalizzato.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../sms/sms-configuration-custom.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
