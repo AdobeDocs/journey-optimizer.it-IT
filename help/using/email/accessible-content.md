@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Di seguito sono elencate le procedure consigliate per la progettazione di conten
 >
 >L&#39;accessibilità dell&#39;interfaccia [!DNL Journey Optimizer] è invece descritta in [questa sezione](../start/accessibility.md).
 > 
->## Assicurare la leggibilità del testo {#text-readability}
+## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
 
@@ -102,7 +102,7 @@ Per un testo alternativo efficace nei prodotti digitali, attieniti alle linee gu
 
 Utilizza la struttura rilevante di E-mail Designer e i [componenti di contenuto](content-components.md), nonché le opzioni nel riquadro **[!UICONTROL Stili]**, per organizzare il contenuto in modo chiaro, logico e conciso, accessibile a tutti.
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * Utilizza HTML semantico e strutturato con intestazioni, paragrafi, elenchi e tabelle corretti.
 * Assicurati che il contenuto segua un flusso logico da sinistra a destra e dall’alto al basso.
