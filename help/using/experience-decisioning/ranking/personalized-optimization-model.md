@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
-source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 6%
+source-wordcount: '943'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,16 @@ ht-degree: 6%
 Sfruttando le tecnologie all’avanguardia di machine learning supervisionato e di deep learning, l’ottimizzazione personalizzata consente a un utente aziendale (marketer) di definire gli obiettivi aziendali e utilizza i dati della clientela per addestrare modelli orientati al business per offerte personalizzate e ottimizzazione dei KPI.
 
 <!--![](../../rn/assets/do-not-localize/ai-ranking.gif)-->
+
+## Requisiti del set di dati
+
+Per addestrare un modello di ottimizzazione personalizzato, il set di dati deve soddisfare i seguenti requisiti minimi:
+
+* Almeno 2 offerte nel set di dati devono avere almeno 250 eventi di visualizzazione e 25 eventi di successo (ad esempio, clic o conversioni) negli ultimi 30 giorni.
+* Le offerte con meno di 250 visualizzazioni e/o 25 eventi di successo negli ultimi 30 giorni possono essere incluse nel traffico personalizzato, ma vengono considerate dal modello di personalizzazione come eseguite al livello dell’offerta con il punteggio peggiore * fino al superamento di questa soglia.
+* Le offerte con meno di 250 visualizzazioni e/o 25 eventi di successo negli ultimi 30 giorni rimarranno idonee per l’inclusione nel traffico di esplorazione.
+
+Fino alla prima volta che viene addestrato un modello di ottimizzazione personalizzato, le offerte all’interno di una strategia di selezione che utilizza un modello di ottimizzazione personalizzato verranno servite a caso.
 
 ## Principali ipotesi e limitazioni del modello {#key}
 

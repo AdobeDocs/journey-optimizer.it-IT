@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 0%
 # Modelli di ottimizzazione automatica {#auto-optimization-model}
 
 Un modello di ottimizzazione automatica mira a fornire offerte che massimizzano il rendimento (KPI) impostato dai clienti aziendali. Questi KPI potrebbero essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic dell’offerta con la conversione dell’offerta come obiettivo. L’ottimizzazione automatica non è personalizzata e viene ottimizzata in base alle prestazioni &quot;globali&quot; delle offerte.
+
+## Requisiti del set di dati
+
+Per addestrare un modello di ottimizzazione automatica, il set di dati deve soddisfare i seguenti requisiti minimi:
+
+* Almeno 2 offerte nel set di dati devono avere almeno 100 eventi di visualizzazione e 5 eventi di clic negli ultimi 14 giorni.
+* Le offerte con meno di 100 visualizzazioni e/o 5 eventi di clic negli ultimi 14 giorni verranno trattate dal modello come nuove offerte e saranno idonee solo per essere servite dal team di esplorazione.
+* Le offerte con più di 100 display e 5 eventi di clic negli ultimi 14 giorni verranno trattate dal modello come offerte esistenti e potranno essere servite da banditi sia di esplorazione che di sfruttamento.
+
+Fino alla prima volta che viene addestrato un modello di ottimizzazione automatica, le offerte all’interno di una strategia di selezione che utilizza un modello di ottimizzazione automatica verranno servite a caso.
 
 ## Limitazioni {#limitations}
 
