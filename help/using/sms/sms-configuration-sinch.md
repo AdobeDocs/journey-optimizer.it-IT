@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 85ae4e99e804e50451b3f108e1fddc041f269620
+source-git-commit: 699ad8f66688539ded31e9f361c3fa312fec1069
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
    | Messaggio di rinuncia | Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
    | Parole chiave della Guida | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
    | Messaggio di aiuto | Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?learn=on&captions=ita). |
+   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Doppio messaggio di consenso | Immetti la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | Numero in entrata | Aggiungi un numero in entrata univoco o un codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve. |
    | Parole chiave in entrata personalizzate | Definisci parole chiave univoche per azioni specifiche, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
@@ -126,7 +126,7 @@ La messaggistica RCS (Rich Communication Services) è supportata in Journey Opti
 
 Tieni presente che i messaggi tornano automaticamente a SMS quando il dispositivo del profilo non supporta RCS o è temporaneamente non raggiungibile tramite RCS.
 
-### Messaggi RCS avanzati
+### Messaggi multimediali RCS
 
 >[!AVAILABILITY]
 >
