@@ -5,10 +5,10 @@ title: Campagne orchestrate
 description: Campagne orchestrate
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 77%
 
 ---
 
@@ -80,3 +80,8 @@ Scopri le attività di targeting, canale e controllo del flusso disponibili per 
 :::
 
 ::::
+
+## Risorse aggiuntive
+
+- **[Domande frequenti](../using/orchestrated/orchestrated-campaigns-faq.md)** - Esplora le domande frequenti sulle campagne orchestrate di Adobe Journey Optimizer.
+.
