@@ -5,10 +5,10 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 4%
+source-wordcount: '1043'
+ht-degree: 5%
 
 ---
 
@@ -105,7 +105,7 @@ Le campagne utilizzano un **database relazionale**. Questo consente di eseguire 
 
 >[!ENDSHADEBOX]
 
-## Posso personalizzare i messaggi con questi dati? {#personalization}
+## Posso personalizzare i messaggi con dati relazionali? {#personalization}
 
 Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione. Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
 
@@ -120,7 +120,7 @@ Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario 
 >[!ENDSHADEBOX]
 
 
-## Si integra con altre soluzioni Adobe? {#integrations}
+## Le campagne orchestrate si integrano con altre soluzioni Adobe? {#integrations}
 
 Sì.  L’orchestrazione delle campagne è integrata in modo nativo con:
 
@@ -142,7 +142,7 @@ Le autorizzazioni e il consenso per le campagne e i percorsi orchestrati sono ge
 
 >[!ENDSHADEBOX]
 
-## Posso eseguire la segmentazione ad hoc? {#ad-hoc}
+## Posso eseguire la segmentazione ad hoc nelle campagne orchestrate? {#ad-hoc}
 
 In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quot;segmentazione live&quot;, in cui è possibile accedere in tempo reale a tutti i dati disponibili nell’archivio relazionale, creare una query complessa e ottenere il risultato per l’attivazione immediata tramite canali in uscita (ad esempio, e-mail + SMS).
 
@@ -158,7 +158,7 @@ In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quo
 
 
 
-## Questo supporta le decisioni? {#decisioning}
+## Le campagne orchestrate supportano il processo decisionale? {#decisioning}
 
 Sì.  Il processo decisionale può utilizzare dati relazionali provenienti da campagne orchestrate. Una volta che lo schema relazionale è stato connesso con gli schemi XDM, i dati XDM possono essere utilizzati nel processo decisionale.
 
@@ -176,16 +176,17 @@ Gli oggetti creati nelle campagne orchestrate (ad esempio, tipi di pubblico e fl
 
 >[!ENDSHADEBOX]
 
-## Esistono procedure consigliate per l’esecuzione di campagne su larga scala? {#scale}
+<!--
+## Are there recommended practices for running campaigns at scale? {#scale}
 
-Sì, segui le best practice riportate di seguito:
+Yes, follow the best practices below:  
 
-* **Pianifica le campagne relative ai calendari aziendali** (lanci di prodotti, picchi stagionali) per allineare volume e risorse.
-* Utilizza **anteprime del pubblico** prima di inviare per confermare le dimensioni previste ed evitare sorprese.
-* Se possibile, **scagliona i tempi di invio** per evitare di sovraccaricare i sistemi a valle (ad esempio call center, siti Web).
-* Stabilisci una **routine di monitoraggio**—tieni traccia dei registri di consegna, dei tassi di errore e delle rinunce dopo ogni invio.
-* Esegui **analisi post-campagna** in Customer Journey Analytics per perfezionare il targeting e l&#39;orchestrazione per il ciclo successivo.
-
+* **Plan campaigns around business calendars** (product launches, seasonal peaks) to align volume and resources.  
+* Use **audience pre-views** before sending to confirm the expected size and avoid surprises.  
+* Where possible, **stagger send times** to avoid overwhelming downstream systems (e.g., call centers, websites).  
+* Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
+* Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
+-->
 
 
 >[!MORELIKETHIS]
