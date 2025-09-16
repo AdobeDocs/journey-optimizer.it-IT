@@ -20,7 +20,7 @@ Le campagne orchestrate in Adobe Journey Optimizer ti consentono di progettare e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alle campagne orchestrate
 
@@ -30,7 +30,7 @@ Scopri le funzionalità di base, i componenti e le distinzioni delle campagne or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni
 
@@ -40,7 +40,7 @@ Scopri i vincoli e le limitazioni da prendere in considerazione quando utilizzi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione dei dati per le campagne orchestrate
 
@@ -50,7 +50,7 @@ Configura schemi relazionali, set di dati e canali per garantire la preparazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Avviare e gestire le campagne orchestrate
 
@@ -60,7 +60,7 @@ Guida dettagliata alla creazione, all’orchestrazione, al monitoraggio e all’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Eseguire una query sul database per le campagne orchestrate
 
@@ -70,7 +70,7 @@ Padroneggia il database che esegue query per indirizzare, segmentare ed eseguire
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Guida completa alle attività della campagna
 
