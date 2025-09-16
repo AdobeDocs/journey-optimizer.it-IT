@@ -5,9 +5,9 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
+source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -119,14 +119,14 @@ Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario 
 
 >[!ENDSHADEBOX]
 
+<!--
+## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
-## Le campagne orchestrate si integrano con altre soluzioni Adobe? {#integrations}
+Yes. Campaign orchestration is natively integrated with:
 
-Sì.  L’orchestrazione delle campagne è integrata in modo nativo con:
-
-* **Customer Journey Analytics**: sono disponibili i report di orchestrazione campagna.
-* **Real-Time CDP**: i tipi di pubblico generati nelle campagne possono essere letti in Real-Time CDP.
-* **Federated Audience Composition (FAC)**: disponibile come componente aggiuntivo.
+* **Customer Journey Analytics**: Campaign orchestration reports are available.  
+* **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
+* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
 ## E le autorizzazioni e il consenso? {#permissions}
 
