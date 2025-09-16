@@ -5,9 +5,9 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Guardrail e limitazioni {#guardrails}
 
-Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di campagne orchestrate.
+Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo delle campagne orchestrate.
 
 ## Limitazioni del flusso di dati
 

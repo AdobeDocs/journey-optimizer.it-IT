@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 69644e85d9c453f34fe8c5d40e0c1e8dce2891a5
+source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 31%
+source-wordcount: '460'
+ht-degree: 2%
 
 ---
 
@@ -17,12 +17,44 @@ ht-degree: 31%
 
 Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per le campagne orchestrate e acquisire i dati.
 
-![](assets/do-not-localize/schema_admin.png)
+![schema](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
-Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I dati acquisiti correttamente in Experience Platform vengono memorizzati nel data lake come set di dati.
+## Concetti chiave
 
-Uno schema rappresenta e convalida la struttura e il formato dei dati. Fornisce una definizione astratta di un oggetto reale (come una persona) e delinea quali dati devono essere inclusi in ogni istanza di tale oggetto (come nome, data di nascita e così via).
+Nel contesto di campagne orchestrate, un **set di dati** è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe). I dati acquisiti correttamente in Experience Platform vengono memorizzati nel data lake come set di dati.
 
+Uno **schema** rappresenta e convalida la struttura e il formato dei dati. Fornisce una definizione astratta di un oggetto reale (ad esempio una persona) e delinea quali dati includere in ogni istanza di tale oggetto (ad esempio nome, compleanno e così via).
+
+Un **modello dati** è il progetto concettuale per la normalizzazione dei dati
+
+Descrive:
+
+* Le entità (ad esempio, Cliente, Campagna, Segmento)
+* Attributi di tali entità (ad esempio, Nome cliente, Data di inizio campagna)
+* Le relazioni tra entità (ad esempio, i clienti appartengono a segmenti, le campagne a segmenti target)
+
+Un modello dati è logico e concettuale, non legato a un’implementazione fisica in Orchestrated Campaign
+
+In un **modello dati relazionale**, i dati sono organizzati in tabelle relative ad altre tabelle.
+
+* Ogni tabella contiene righe(record) e colonne(attributi)
+* Ogni tabella dispone di una chiave primaria per identificare in modo univoco le righe
+* Le relazioni tra tabelle sono espresse utilizzando chiavi esterne
+
+Uno **schema relazionale** è la definizione formale del modello dati relazionale.
+
+Specifica:
+
+* Il set di tabelle
+* Colonne in ogni tabella
+* I vincoli
+* Le relazioni tra le tabelle
+
+L’organizzazione di schemi o tabelle in un modello dati relazionale consiste nel strutturare i dati in più tabelle. Assicurati che ogni tabella memorizzi un tipo di entità/schemi
+
+## Passaggi di implementazione {#implementation}
+
+Per acquisire i dati e creare uno schema relazionale, effettua le seguenti operazioni:
 
 1. Crea [schema relazionale manualmente](manual-schema.md) o [utilizzando un file DDL](file-upload-schema.md)
 
@@ -33,6 +65,14 @@ Uno schema rappresenta e convalida la struttura e il formato dei dati. Fornisce 
 1. [Collegare lo schema](file-upload-schema.md)
 
    Stabilisci relazioni tra gli schemi per garantire la coerenza dei dati e abilitare query tra più entità. Ad esempio, puoi collegare le transazioni di fidelizzazione a destinatari o premi a marchi.
+
+1. [Crea set di dati](manual-schema.md#dataset)
+
+   Dopo aver definito lo schema, devi creare un set di dati basato su di esso. Questo set di dati funge da archiviazione per i dati acquisiti.
+
+1. [Abilita campagna orchestrata](manual-schema.md#enable)
+
+   Il set di dati memorizza i dati acquisiti e deve essere abilitato per le campagne orchestrate per garantire che sia accessibile in Adobe Journey Optimizer.
 
 1. [Acquisire i dati](ingest-data.md)
 
