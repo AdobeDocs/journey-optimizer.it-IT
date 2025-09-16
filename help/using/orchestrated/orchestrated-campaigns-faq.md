@@ -5,10 +5,10 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
+source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '1419'
+ht-degree: 3%
 
 ---
 
@@ -51,22 +51,6 @@ Le funzionalità principali includono:
 Per accedere all’orchestrazione della campagna, la licenza deve includere il pacchetto **Journey Optimizer - Campagne e Percorsi** o **Journey Optimizer - Campagne**. Contatta il tuo rappresentante Adobe per confermare la licenza e aggiornare, se necessario.
 
 Ulteriori informazioni sul modello di gestione licenze di Campaign Orchestration in [Descrizione prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
-## Quali canali sono supportati? {#channels}
-
-Puoi creare campagne orchestrate per inviare **e-mail**, **SMS** e **notifiche push**.
-
-
->[!BEGINSHADEBOX]
-
-**Consigli**
-
-* Abbina il canale alla natura **del messaggio** (ad esempio, urgente = SMS, offerte personalizzate = e-mail, contestuale = push).
-* Convalida sempre le preferenze di consenso e abbonamento prima di attivare un canale.
-* Test del rendering dei messaggi su più dispositivi e client per garantire un&#39;esperienza coerente.
-
->[!ENDSHADEBOX]
-
 
 ## Quali sono le differenze tra le campagne orchestrate e i Percorsi? {#oc-vs-journeys}
 
@@ -128,6 +112,31 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
+## Quali canali sono supportati? {#channels}
+
+Puoi creare campagne orchestrate per inviare **e-mail**, **SMS** e **notifiche push**.
+
+## È possibile avviare più comunicazioni e canali diversi all’interno della stessa campagna orchestrata?
+
+Sì, le campagne orchestrate supportano l’orchestrazione cross-channel.
+
+## Sono disponibili modelli di campagna orchestrati?
+
+No, non è possibile definire o utilizzare modelli di campagna, ma è possibile utilizzare modelli di contenuto per le comunicazioni.
+
+## La finestra di progettazione del contenuto per i messaggi è specifica per le campagne orchestrate?
+
+No, il designer di contenuti, incluso E-mail Designer, è comune a tutte le funzionalità di Journey Optimizer.
+
+## In che modo i diversi canali sono collegati nelle campagne orchestrate?
+
+Il componente canale e il runtime sono comuni a tutte le campagne Journey Optimizer, tuttavia, i canali supportati sono diversi.
+
+## Le campagne orchestrate possono connettersi con i canali in uscita (web, inApp)?
+
+No, i canali in uscita non sono supportati nelle campagne orchestrate.
+
+
 ## E le autorizzazioni e il consenso? {#permissions}
 
 Le autorizzazioni e il consenso per le campagne e i percorsi orchestrati sono gestiti centralmente in Adobe Experience Platform. Queste impostazioni vengono applicate in entrambe le soluzioni per ciascun destinatario prima dell’invio.
@@ -156,7 +165,9 @@ In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quo
 
 >[!ENDSHADEBOX]
 
+## Campaign Orchestration accede solo ai dati caricati tramite batch oppure può anche eseguire query su tabelle aggiornate in tempo reale (come i dati di Analytics)?
 
+Journey Optimizer Campaign Orchestration può innanzitutto creare query ad hoc su schemi relazionali. Per il momento, gli schemi relazionali supportano solo origini batch. Inoltre, supporta la funzione Read audience (Lettura pubblico) di qualsiasi tipo di pubblico di Adobe Experience Platform.
 
 ## Le campagne orchestrate supportano il processo decisionale? {#decisioning}
 
@@ -187,6 +198,39 @@ Yes, follow the best practices below:
 * Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
+
+## Qual è la relazione tra destinatari ed entità profilo?
+
+La segmentazione viene eseguita sui destinatari durante l’invio sul profilo Adobe Experience Platform. La dimensione di destinazione Destinatario estende il profilo unificato con dati aggiuntivi utilizzati per la segmentazione all’interno di campagne orchestrate, mentre Destinatario viene riconciliato con Profilo in fase di esecuzione per l’invio di messaggi e la verifica dei criteri di consenso e delle regole aziendali. Questa riconciliazione è utile per unificare le regole aziendali e l’applicazione del consenso a livello di profilo
+
+![](assets/recipients-and-profiles.png)
+
+
+## In quali casi si consiglia di utilizzare Entità destinatari rispetto a Entità profilo?
+
+La risposta &quot;Sì&quot; suggerisce il migliore archivio dati, ma conferma sempre con il tuo rappresentante Adobe l’approccio migliore in base al caso d’uso e ai vincoli.
+
+| Archivio relazionale | Profilo cliente in tempo reale |
+|---------|----------|
+| L’origine dei dati è già relazionale? | L’origine dello streaming di dati è? |
+| Intendi acquisire dati come tale per i casi di utilizzo di marketing? | L’aggiornamento dei dati è un requisito importante? |
+| Esiste un grande volume di dati storici (`>` 2 mesi) necessari per i casi di utilizzo di attivazione marketing? | Esistono scenari in cui l’azione o la decisione nel momento richiedono dati? |
+| Sono necessarie attività ad hoc per la creazione, la valutazione e l’attivazione di tipi di pubblico? | I dati comportamentali possono essere limitati a `<` 90 giorni utilizzando aggregati precalcolati? |
+|  | Sono necessari dati per personalizzare i messaggi in tempo reale? |
+
+
+## Qual è il numero massimo di attività per campagna orchestrata?
+
+Il numero di attività in una campagna orchestrata è limitato a 500.
+
+## È possibile eseguire arricchimenti per aggiungere dati aggiuntivi?
+
+Sì, puoi arricchire i dati dall’archivio relazionale e dai tipi di pubblico di Adobe Experience Platform.
+
+## Tutti i filtri devono essere definiti tramite tipi di pubblico oppure è possibile configurare un qualche tipo di filtro?
+
+Le campagne orchestrate supportano i filtri predefiniti: puoi definire e salvare una query come filtro e aggiungerla ai preferiti per riutilizzarla in ulteriori attività di segmentazione.
+
 
 
 >[!MORELIKETHIS]
