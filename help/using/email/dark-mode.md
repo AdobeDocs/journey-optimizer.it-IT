@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Passare alla modalità scura
 description: Scopri come utilizzare la modalità scura in E-mail Designer
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, editor
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 4%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 4%
 >id="ac_edition_darkmode_preview"
 >title="Passare alla modalità scura"
 >abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tutti i client e-mail non supportano la modalità scura."
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente disponibile nella versione beta e solo per i clienti beta. <!--To join the beta program, contact your Adobe representative.-->
 
 Durante la progettazione delle e-mail, [!DNL Journey Optimizer] [Invia e-mail a Designer](get-started-email-design.md) ti consente di passare alla visualizzazione **[!UICONTROL Modalità scura]**.
 
