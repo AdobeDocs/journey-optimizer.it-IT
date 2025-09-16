@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: Raccogliere dati evento
 description: Raccogliere dati evento
 redpen-status: CREATED_||_2025-08-11_21-02-07
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: fa55faae-1258-49c7-884f-83d1c33db969
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Raccogliere dati evento{#section-overview}
 
-La raccolta dei dati dell’evento in Adobe Journey Optimizer consente di tenere traccia delle interazioni chiave come decisioni, impression, clic ed eventi personalizzati, garantendo offerte personalizzate ed efficaci. Questi dati alimentano processi critici come la generazione di rapporti, il limite di frequenza e la creazione di modelli di intelligenza artificiale tramite l’integrazione perfetta con Adobe Experience Platform. Scoprirai in che modo diversi tipi di evento, attivati automaticamente o definiti su misura, interagiscono tra loro per fornire un feedback fruibile. Dalla creazione di set di dati alla configurazione di schemi, ogni passaggio crea una base per l’acquisizione e l’utilizzo di informazioni approfondite, consentendo di prendere decisioni informate e ottimizzare l’esperienza dei clienti con sicurezza.
+La raccolta dei dati evento in Adobe Journey Optimizer consente di tenere traccia di interazioni chiave come decisioni, impression, clic ed eventi personalizzati, per creare offerte personalizzate ed efficaci. Questi dati alimentano processi critici come il reporting, la quota limite la creazione di modelli di IA tramite l’integrazione diretta con Adobe Experience Platform. Scoprirai in che modo diversi tipi di eventi, attivati automaticamente o personalizzati, insieme contribuiscono a fornire feedback fruibili. Dalla creazione di set di dati alla configurazione di schemi, ogni passaggio funge da base per l’acquisizione e l’utilizzo di insight, per aiutarti a prendere decisioni informate e a ottimizzare l’esperienza cliente con sicurezza.
 
-## Raccogli dati evento
+## Raccogliere dati evento
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Guida introduttiva alla raccolta dati per la gestione delle decisioni
 
-Scopri le nozioni di base sulla raccolta dei dati per la gestione delle decisioni, compresi i tipi di eventi e il modo in cui i dati di feedback vengono inviati a Adobe Experience Platform.
+Scopri i concetti di base sulla raccolta dati per la gestione delle decisioni, compresi i tipi di eventi e il modo in cui i dati di feedback vengono inviati a Adobe Experience Platform.
 
-[Leggi l&#39;articolo](../using/offers/data-collection/data-collection.md)
+[Leggi l’articolo](../using/offers/data-collection/data-collection.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Creare un set di dati per raccogliere eventi esperienza
+Come creare un set di dati per raccogliere eventi di esperienze
 
-Segui le istruzioni dettagliate per creare un set di dati e uno schema per la raccolta di eventi di esperienza in Adobe Journey Optimizer.
+Segui le istruzioni dettagliate per creare un set di dati e uno schema per la raccolta di eventi di esperienze in Adobe Journey Optimizer.
 
-[Inizia l’esercitazione](../using/offers/data-collection/create-dataset.md)
+[Inizia il tutorial](../using/offers/data-collection/create-dataset.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurazione dell’acquisizione dei dati evento per la gestione delle decisioni
+Configurare l’acquisizione di dati evento per la gestione delle decisioni
 
 Scopri come configurare gli schemi per acquisire impression, clic ed eventi personalizzati per la gestione delle decisioni in Adobe Journey Optimizer.
 
-[Leggi la guida](../using/offers/data-collection/schema-requirement.md)
+[Leggere la guida](../using/offers/data-collection/schema-requirement.md)
 :::
 
 ::::

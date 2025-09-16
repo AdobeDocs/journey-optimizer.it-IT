@@ -4,43 +4,43 @@ product: Journey Optimizer
 title: Campagne orchestrate
 description: Campagne orchestrate
 redpen-status: CREATED_||_2025-08-11_20-27-33
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Campagne orchestrate{#section-overview}
 
-Le campagne orchestrate in Adobe Journey Optimizer ti consentono di progettare ed eseguire campagne di marketing sofisticate e in più passaggi che trasmettono il messaggio giusto al pubblico giusto su larga scala. A differenza dei percorsi in tempo reale, queste campagne batch elaborano insieme segmenti di pubblico e profili, rendendoli ideali per iniziative di marketing pianificate e basate su dati. Scoprirai in che modo attività come la segmentazione del pubblico, le transizioni e le tabelle di lavoro collaborano per creare flussi di lavoro fluidi. Man mano che procedi, scoprirai le differenze tra le campagne orchestrate e i percorsi, configurando i dati per la personalizzazione, creando e avviando campagne e ottimizzando le prestazioni, il tutto con un’area di lavoro visiva intuitiva. Preparati a portare la tua automazione marketing al livello successivo.
+Le campagne orchestrate in Adobe Journey Optimizer ti consentono di progettare ed eseguire campagne di marketing sofisticate e in più passaggi che trasmettono il messaggio giusto al pubblico giusto su larga scala. A differenza dei percorsi in tempo reale, queste campagne in batch elaborano insieme segmenti di pubblico e profili, rendendoli ideali per iniziative di marketing pianificate e basate su dati. Scoprirai in che modo attività come la segmentazione del pubblico, le transizioni e le tabelle di lavoro collaborano per creare flussi di lavoro fluidi. Man mano che procedi, scoprirai le differenze tra le campagne orchestrate e i percorsi, configurando i dati per la personalizzazione, creando e avviando campagne e ottimizzando le prestazioni, il tutto con un’area di lavoro visiva intuitiva. Preparati per portare la tua automazione marketing al livello successivo.
 
-## Panoramica delle campagne orchestrate
+## Panoramica sulle campagne orchestrate
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alle campagne orchestrate
 
 Scopri le funzionalità di base, i componenti e le distinzioni delle campagne orchestrate in Adobe Journey Optimizer.
 
-[Introduzione alle campagne orchestrate](../using/orchestrated/gs-orchestrated-campaigns.md)
+[Consulta le campagne orchestrate](../using/orchestrated/gs-orchestrated-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Guardrail e limitazioni
 
-Comprendi i vincoli e le limitazioni da considerare quando utilizzi le campagne orchestrate.
+Scopri i vincoli e le limitazioni da prendere in considerazione quando utilizzi le campagne orchestrate.
 
-[Visualizza guardrail e limitazioni](../using/orchestrated/guardrails.md)
+[Vista guardrail e limitazioni](../using/orchestrated/guardrails.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione dei dati per le campagne orchestrate
 
@@ -50,7 +50,7 @@ Configura schemi relazionali, set di dati e canali per garantire la preparazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Avviare e gestire le campagne orchestrate
 
@@ -60,23 +60,23 @@ Guida dettagliata alla creazione, all’orchestrazione, al monitoraggio e all’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Eseguire una query sul database per le campagne orchestrate
 
-Database master che esegue query per indirizzare, segmentare e retargeting in modo efficace i tipi di pubblico nelle campagne orchestrate.
+Padroneggia il database che esegue query per indirizzare, segmentare ed eseguire il retargeting in modo efficace dei tipi di pubblico nelle campagne orchestrate.
 
-[Informazioni sull&#39;esecuzione di query sul database](query-database-landing-page.md)
+[Scopri l’esecuzione di query sul database](query-database-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guida completa alle attività della campagna
 
 Scopri le attività di targeting, canale e controllo del flusso disponibili per la progettazione di campagne orchestrate.
 
-[Esplora le attività campagna](design-campaigns-landing-page.md)
+[Esplora le attività della campagna](design-campaigns-landing-page.md)
 :::
 
 ::::

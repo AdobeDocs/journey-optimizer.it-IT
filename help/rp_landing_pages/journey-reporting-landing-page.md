@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Rapporti sul percorso
 description: Rapporti sul percorso
 redpen-status: CREATED_||_2025-08-11_20-51-07
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Rapporti sul percorso{#section-overview}
 
-I rapporti di percorso in Adobe Journey Optimizer forniscono potenti strumenti per analizzare il modo in cui i clienti interagiscono con le campagne in vari canali come e-mail, SMS, web, notifiche push e altro ancora. Suddividendo metriche quali coinvolgimento, esclusioni, errori e tendenze di clic, questi rapporti ti aiutano a capire cosa funziona e cosa richiede un miglioramento. Strumenti visivi come i grafici delle prestazioni e l’area di lavoro del Percorso semplificano il tracciamento dei percorsi utente e consentono di perfezionare le strategie. Che tu stia esplorando i tassi di apertura delle e-mail, le statistiche di consegna di SMS o i click-through web, ogni rapporto si concentra su canali specifici per offrire informazioni personalizzate che ti forniranno l’affidabilità di ottimizzare ogni punto di contatto.
+I rapporti sul percorso in Adobe Journey Optimizer forniscono potenti strumenti per analizzare il modo in cui la clientela interagisce con le campagne su vari canali come e-mail, SMS, web, notifiche push e altro ancora. Suddividendo metriche quali coinvolgimento, esclusioni, errori e tendenze di clic, questi rapporti ti aiutano a capire che cosa funziona e che cosa richiede un miglioramento. Strumenti visivi come i grafici delle prestazioni e l’area di lavoro del percorso semplificano il tracciamento dei percorsi utente e consentono di perfezionare le strategie. Ciascun rapporto si concentra su canali specifici per offrire informazioni personalizzate che ti forniranno la sicurezza di ottimizzare ogni punto di contatto, esplorando i tassi di apertura delle email e di click-through e le statistiche di consegna SMS.
 
-## Rapporti percorso
+## Rapporti sul percorso
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Analisi dei report di Percorso
+Analisi dei rapporti sul percorso
 
 Scopri come analizzare e ottimizzare le prestazioni del percorso utilizzando metriche, strumenti visivi e informazioni chiave.
 
-[Ulteriori informazioni sui report di Percorso](../using/reports/journey-global-report-cja.md)
+[Informazioni sui rapporti sul percorso](../using/reports/journey-global-report-cja.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Rapporti di Percorso basati su codice
+Rapporti sul percorso basati su codice
 
-Comprendi e analizza le metriche per il coinvolgimento in esperienze basate su codice all’interno dei tuoi percorsi.
+Comprendi e analizza le metriche per il coinvolgimento nelle esperienze basate su codice all’interno dei tuoi percorsi.
 
-[Esplora i report di Percorso basati su codice](../using/reports/journey-global-report-cja-code.md)
+[Scopri i rapporti sul percorso basati su codice](../using/reports/journey-global-report-cja-code.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Coinvolgimento scheda contenuti
+Valutare il coinvolgimento con la scheda contenuto
 
-Scopri come misurare e valutare il coinvolgimento degli utenti con le schede di contenuto utilizzando metriche dettagliate.
+Scopri come misurare e valutare il coinvolgimento dell’utente con le schede contenuto utilizzando metriche dettagliate.
 
-[Visualizza report schede di contenuto](../using/reports/journey-global-report-cja-content.md)
+[Consulta i rapporti delle schede di contenuto](../using/reports/journey-global-report-cja-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Metriche direct mailing
+Metriche direct mail
 
-Analizza e interpreta le metriche chiave per le campagne direct mailing, inclusi lo stato di consegna e gli errori.
+Analizza e interpreta le metriche chiave per le campagne direct mail, inclusi lo stato della consegna e gli errori.
 
-[Controlla i report direct mailing](../using/reports/journey-global-report-cja-direct.md)
+[Consulta i rapporti direct mail](../using/reports/journey-global-report-cja-direct.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
-Generazione di rapporti sul Percorso e-mail
+Reporting sul percorso e-mail
 
-Ottieni informazioni approfondite su prestazioni e coinvolgimento delle e-mail e metriche di consegna per le campagne.
+Ottieni informazioni approfondite su prestazioni e coinvolgimento delle e-mail e sulle metriche di consegna per le campagne.
 
 [Analizzare i rapporti e-mail](../using/reports/journey-global-report-cja-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Informazioni sulla messaggistica in-app
 
-Comprendi il coinvolgimento degli utenti con i messaggi in-app e analizza metriche come CTR e le tendenze di esclusione.
+Scopri il coinvolgimento utente con i messaggi in-app e analizza metriche come CTR e le tendenze di esclusione.
 
-[Esplora i rapporti in-app](../using/reports/journey-global-report-cja-inapp.md)
+[Scopri i rapporti in-app](../using/reports/journey-global-report-cja-inapp.md)
 :::
 
 ::::
@@ -84,6 +84,6 @@ Comprendi il coinvolgimento degli utenti con i messaggi in-app e analizza metric
 
 ## Risorse aggiuntive
 
-- **[Analisi notifiche push](../using/reports/journey-global-report-cja-push.md)** - Valuta le prestazioni delle notifiche push con metriche relative a consegna, coinvolgimento ed errori.
-- **[Prestazioni Percorso SMS](../using/reports/journey-global-report-cja-sms.md)**: analizza le campagne SMS con metriche su consegna, mancati recapiti, coinvolgimento ed esclusioni.
-- **[Web Engagement Analysis](../using/reports/journey-global-report-cja-web.md)** - Utilizza i dati Web dei report del percorso per analizzare le interazioni degli utenti e ottimizzare le prestazioni dei contenuti Web.
+- **[Analisi delle notifiche push](../using/reports/journey-global-report-cja-push.md)**: valuta le prestazioni delle notifiche push con metriche relative a consegna, coinvolgimento ed errori.
+- **[Prestazioni del percorso SMS](../using/reports/journey-global-report-cja-sms.md)**: analizza le campagne SMS con metriche relative a consegna, mancati recapiti, coinvolgimento ed esclusioni.
+- **[Analisi del coinvolgimento web](../using/reports/journey-global-report-cja-web.md)**: utilizza i dati web dei rapporti sul percorso per analizzare le interazioni utente e ottimizzare le prestazioni dei contenuti web.

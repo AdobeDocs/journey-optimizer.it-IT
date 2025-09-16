@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -30,33 +30,33 @@ Prima di creare il messaggio LINE, configura il canale LINE con Journey Optimize
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale LINE
 
-Segui le istruzioni dettagliate per configurare manualmente il canale LINE o impostare le impostazioni del canale utilizzando l’API in Adobe Journey Optimizer.
+Segui le istruzioni dettagliate per configurare manualmente il canale LINE o configurare le impostazioni del canale utilizzando l’API in Adobe Journey Optimizer.
 
-[Scopri come configurare](../using/line/line-configuration.md)
+[Scopri la configurazione](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e configurare messaggi LINE
 
-Scopri come aggiungere messaggi LINE a percorsi e campagne, personalizzare il contenuto ed eseguire test del contenuto.
+Scopri come aggiungere messaggi LINE ai percorsi e alle campagne, personalizzare e testare il contenuto.
 
-[Inizia a creare i messaggi](../using/line/create-line.md)
+[Inizia a creare messaggi](../using/line/create-line.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Controllare e inviare messaggi LINE
+Verificare e inviare i messaggi LINE
 
 Visualizza in anteprima, convalida e invia messaggi LINE in Adobe Journey Optimizer, garantendo la corretta consegna tramite le best practice.
 
-[Suggerimenti per l’invio di messaggi](../using/line/send-line.md)
+[Ottieni suggerimenti per l’invio di messaggi](../using/line/send-line.md)
 :::
 
 ::::

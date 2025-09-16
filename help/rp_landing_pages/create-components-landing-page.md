@@ -4,47 +4,47 @@ product: Journey Optimizer
 title: Creare componenti
 description: Creare componenti
 redpen-status: CREATED_||_2025-08-11_20-58-59
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Creare componenti{#section-overview}
 
-In Adobe Journey Optimizer, la creazione di componenti come posizionamenti, regole di decisione e qualificatori di raccolta ti consente di personalizzare e semplificare le attività di marketing. I posizionamenti ti aiutano a garantire che le offerte giuste vengano visualizzate nei punti giusti, le regole di decisione ti consentono di definire quali tipi di pubblico visualizzano offerte specifiche per un coinvolgimento mirato e i qualificatori di raccolta fanno un gioco da ragazzi nell’organizzare e trovare le offerte. Insieme, questi strumenti consentono di avere pieno controllo su come le offerte vengono distribuite, gestite e personalizzate per il pubblico. Che tu stia configurando le impostazioni, definendo l’idoneità o organizzando la tua libreria di offerte, ogni argomento si basa sull’altro per aiutarti a prendere decisioni più intelligenti con facilità.
+In Adobe Journey Optimizer, la creazione di componenti come posizionamenti, regole decisionali e qualificatori di raccolta ti consente di personalizzare e ottimizzare le attività di marketing. I posizionamenti ti aiutano a fare in modo che le offerte giuste vengano visualizzate nei punti giusti, le regole decisionali ti consentono di definire quali tipi di pubblico visualizzano determinate offerte per un coinvolgimento mirato e i qualificatori di raccolta semplificano l’organizzazione e la ricerca delle offerte. Insieme, questi strumenti ti consentono di avere pieno controllo sulle modalità di distribuzione, gestione e personalizzazione delle offerte per il pubblico. Che tu debba configurare le impostazioni, definire l’idoneità oppure organizzare la libreria di offerte, tutti gli argomenti sono concatenati tra loro per aiutarti a prendere decisioni più consapevoli con facilità.
 
 ## Creare componenti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guida alla creazione di posizionamenti per le offerte
 
-Scopri come creare e gestire i posizionamenti per garantire che il contenuto dell’offerta corretto venga visualizzato nelle posizioni corrette in Adobe Journey Optimizer.
+Scopri come creare e gestire i posizionamenti affinché il giusto contenuto dell’offerta venga visualizzato nelle giuste posizioni in Adobe Journey Optimizer.
 
-[Scopri come creare i posizionamenti](../using/offers/offer-library/creating-placements.md)
+[Scopri come creare posizionamenti](../using/offers/offer-library/creating-placements.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Come creare regole di decisione in Adobe Journey Optimizer
+Creare regole decisionali in Adobe Journey Optimizer
 
-Definisci le regole di decisione per personalizzare le offerte indirizzando segmenti di pubblico specifici utilizzando i dati di Adobe Experience Platform.
+Definisci le regole decisionali per personalizzare le offerte indirizzando specifici segmenti pubblico utilizzando i dati di Adobe Experience Platform.
 
-[Scopri come creare regole di decisione](../using/offers/offer-library/creating-decision-rules.md)
+[Scopri come creare le regole decisionali](../using/offers/offer-library/creating-decision-rules.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
-Come creare e gestire i qualificatori di raccolta in Adobe Journey Optimizer
+Creare e gestire i qualificatori di raccolta in Adobe Journey Optimizer
 
-Organizza e individua le offerte in modo più efficace creando e gestendo qualificatori di raccolta, noti in precedenza come &quot;tag&quot;.
+Organizza e individua le offerte in modo più efficace creando e gestendo i qualificatori di raccolta, noti in precedenza come “tag”.
 
 [Scopri come creare e gestire i qualificatori di raccolta](../using/offers/offer-library/creating-tags.md)
 :::

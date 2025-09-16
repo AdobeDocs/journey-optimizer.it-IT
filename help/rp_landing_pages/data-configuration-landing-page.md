@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: Configurazione dei dati
 description: Configurazione dei dati
 redpen-status: CREATED_||_2025-08-11_20-24-01
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Configurazione dei dati{#section-overview}
 
-La configurazione dei dati in Adobe Journey Optimizer consiste nell’impostare le basi per percorsi di clienti efficaci organizzando e collegando i dati. Che tu stia definendo schemi relazionali per strutturare i dati, collegandoli ai profili dei clienti per la personalizzazione o configurando canali per una consegna precisa dei messaggi, questo processo garantisce che le campagne siano basate su informazioni chiare e fruibili. Scoprirai come creare schemi manualmente o con caricamenti di file, configurare set di dati e mappare profili per una comunicazione mirata. Ogni passaggio si basa sull’abilitazione di esperienze cliente orchestrate e in tempo reale, fornendo gli strumenti per trasformare i dati non elaborati in interazioni significative.
+Con la configurazione dei dati in Adobe Journey Optimizer, si impostano le basi organizzando e collegando i dati al fine di ottenere percorsi cliente efficaci. Per definire schemi relazionali con cui strutturare i dati, collegarli ai profili cliente per la personalizzazione o configurare i canali per la consegna precisa dei messaggi, questo processo garantisce che le campagne siano basate su insight chiari e actionable. Scoprirai come creare schemi manualmente o mediante file caricati, configurare set di dati e mappare i profili per comunicazioni mirate. Ogni passaggio contribuisce all’abilitazione di esperienze cliente orchestrate e in tempo reale, fornendo gli strumenti necessari per trasformare i dati non elaborati in interazioni significative.
 
-## Configurazione dati
+## Configurazione dei dati
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestire schemi e set di dati relazionali
 
 Scopri come creare e gestire schemi relazionali, configurare set di dati e acquisire dati in Adobe Experience Platform per campagne orchestrate.
 
-[Esplorare la gestione di schemi e set di dati](schemas-datasets-landing-page.md)
+[Esplora la gestione di schemi e set di dati](schemas-datasets-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Configurare una dimensione di targeting
+Come configurare una dimensione targeting
 
-Guida dettagliata per mappare gli schemi relazionali ai profili dei clienti e configurare i canali per una comunicazione mirata nelle campagne orchestrate.
+Guida dettagliata su come mappare gli schemi relazionali sui profili cliente e configurare i canali per comunicazioni mirate nelle campagne orchestrate.
 
-[Scopri come configurare le dimensioni di targeting](../using/orchestrated/target-dimension.md)
+[Scopri come configurare le dimensioni targeting](../using/orchestrated/target-dimension.md)
 :::
 
 ::::

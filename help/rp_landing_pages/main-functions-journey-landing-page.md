@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Funzioni
 description: Funzioni
 redpen-status: CREATED_||_2025-08-11_20-18-53
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Funzioni{#section-overview}
 
-Le funzioni di Adobe Journey Optimizer consentono di creare espressioni dinamiche e precise per adattare i percorsi dei clienti. Per valutare l’iscrizione al pubblico, aggregare i dati, convertire i formati, manipolare le date o elaborare gli elenchi, ogni categoria di funzioni ha uno scopo univoco nell’ottimizzazione dei flussi di lavoro. Con strumenti per calcoli matematici, personalizzazione delle stringhe e altro ancora, queste funzioni offrono infinite possibilità per la creazione di condizioni avanzate. Analizzando le sezioni che seguono, troverai esempi pratici e indicazioni dettagliate che semplificano operazioni complesse, consentendo di sfruttare appieno il potenziale dell’orchestrazione di percorso personalizzata.
+Le funzioni di Adobe Journey Optimizer consentono di creare espressioni dinamiche e precise per adattare i percorsi clienti. Ciascuna categoria di funzioni ha uno scopo univoco nell’ottimizzazione dei flussi di lavoro per la valutazione dell’appartenenza al pubblico, l’aggregazione di dati, la conversione di formati, la gestione di dati o l’elaborazione di elenchi. Queste funzioni offrono infinite possibilità per la creazione di condizioni avanzate con strumenti per calcoli matematici, personalizzazione delle stringhe e altro ancora. Analizzando le sezioni che seguono, troverai esempi pratici e istruzioni dettagliate che semplificano operazioni complesse, consentendo di sfruttare appieno il potenziale dell’orchestrazione dei percorsi personalizzata.
 
 ## Funzioni in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzioni principali in Adobe Journey Optimizer
 
-Esplora una panoramica delle funzioni principali disponibili, suddivise per tipo e scopo, per creare espressioni in percorsi.
+Esplora una panoramica delle funzioni principali disponibili, suddivise per tipo e scopo, per creare le espressioni nei percorsi.
 
-[Ulteriori informazioni sulle funzioni principali](../using/building-journeys/expression/functions.md)
+[Informazioni sulle funzioni principali](../using/building-journeys/expression/functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzo della funzione inAudience
 
-Scopri come valutare l’iscrizione al pubblico utilizzando la funzione inAudience per un targeting e un processo decisionale precisi.
+Scopri come valutare l’appartenenza al pubblico utilizzando la funzione inAudience per un targeting e un processo decisionale precisi.
 
 [Scopri la funzione inAudience](../using/building-journeys/functions/functioninaudience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Riferimento funzioni di aggregazione
+Documentazione sulle funzioni di aggregazione
 
-Funzioni di aggregazione principali per eseguire operazioni quali medie, conteggi, valori distinti e somme nelle espressioni di percorso.
+Padroneggia le funzioni di aggregazione per eseguire operazioni quali medie, conteggi, valori distinti e somme nelle espressioni dei percorsi.
 
-[Immergiti nelle funzioni di aggregazione](aggregation-landing-page.md)
+[Approfondisci le funzioni di aggregazione](aggregation-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Funzioni di conversione
 
-Trasforma i tipi di dati con funzioni di conversione per manipolare gli input in modo efficace per l’orchestrazione del percorso.
+Trasforma i tipi di dati con funzioni di conversione per manipolare gli input in modo efficace per l’orchestrazione dei percorsi.
 
-[Esplora le funzioni di conversione](conversion-landing-page.md)
+[Scopri le funzioni di conversione](conversion-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
-Funzioni data in Adobe Journey Optimizer
+Funzioni Data di Adobe Journey Optimizer
 
-Scopri come manipolare e valutare i valori di data e ora utilizzando potenti funzioni relative alle date nelle espressioni di percorso.
+Scopri come manipolare e valutare i valori di data e ora utilizzando potenti funzioni relative alle date nelle espressioni dei percorsi.
 
-[Visualizza la documentazione sulle funzioni data](date-landing-page.md)
+[Consulta la documentazione sulle funzioni di data](date-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Elencare funzioni in Adobe Journey Optimizer
+Funzioni di “Elenco” in Adobe Journey Optimizer
 
-Utilizzare le funzioni elenco per operazioni quali la deduplicazione, il filtraggio, l&#39;ordinamento e i controlli di appartenenza nelle espressioni.
+Utilizza le funzioni di elenco per operazioni quali la deduplica, il filtro, l’ordinamento e i controlli di appartenenza nelle espressioni.
 
-[Informazioni sulle funzioni elenco](list-landing-page.md)
+[Consulta le funzioni elenco](list-landing-page.md)
 :::
 
 ::::
@@ -84,5 +84,5 @@ Utilizzare le funzioni elenco per operazioni quali la deduplicazione, il filtrag
 
 ## Risorse aggiuntive
 
-- **[Funzioni matematiche](math-landing-page.md)** - Esplora funzioni matematiche quali casuale e arrotondato per i calcoli numerici nelle espressioni di percorso.
-- **[Funzioni stringa in Adobe Journey Optimizer](string-landing-page.md)** - Manipolare le stringhe utilizzando funzioni per la concatenazione, l&#39;estrazione di sottostringhe, la formattazione e altro nelle espressioni di percorso.
+- **[Funzioni matematiche](math-landing-page.md)**: scopri le funzioni matematiche come casuale e arrotondamento per i calcoli numerici nelle espressioni dei percorsi.
+- **[Funzioni stringa in Adobe Journey Optimizer](string-landing-page.md)**: manipola le stringhe utilizzando le funzioni per la concatenazione, l’estrazione di sottostringhe, la formattazione e altro ancora nelle espressioni dei percorsi.

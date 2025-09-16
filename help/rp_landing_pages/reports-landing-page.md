@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Rapporti sul percorso personalizzati
-description: Rapporti sul percorso personalizzati
+title: Rapporti sui percorsi personalizzati
+description: Rapporti sui percorsi personalizzati
 redpen-status: CREATED_||_2025-08-11_20-54-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Rapporti sui percorsi personalizzati{#section-overview}
 
-# Rapporti sul percorso personalizzati{#section-overview}
+I rapporti sui percorsi personalizzati in Adobe Journey Optimizer consentono di monitorare e analizzare le prestazioni dei percorsi della clientela con precisione, utilizzando informazioni ricche di dati provenienti da eventi e schemi dei passaggi del percorso. Che tu stia cercando di capire come gli utenti si spostano all’interno dei percorsi, risolvono problemi specifici di un passaggio o integrano dati di percorso con Adobe Experience Platform per un’analisi più approfondita, questa funzione ti fornisce gli strumenti di cui hai bisogno. Dall’acquisizione della struttura dei campi evento del passaggio all’esplorazione degli esempi di query SQL per le analisi avanzate, ogni argomento secondario offre una guida mirata per aiutarti a trasformare dati complessi in strategie utilizzabili. Approfondisci e scopri come ottimizzare ogni passaggio del percorso della clientela.
 
-I rapporti di percorso personalizzati in Adobe Journey Optimizer consentono di monitorare e analizzare le prestazioni dei percorsi di clienti con precisione, utilizzando informazioni ricche di dati provenienti da eventi e schemi delle fasi del Percorso. Questa funzione fornisce gli strumenti necessari per capire come gli utenti si spostano all’interno dei percorsi, risolvere problemi specifici o integrare dati di percorso con Adobe Experience Platform per un’analisi più approfondita. Dall&#39;acquisizione della struttura dei campi evento dei passaggi all&#39;esplorazione degli esempi di query SQL per le analisi avanzate, ogni argomento offre una guida mirata per aiutarti a trasformare dati complessi in strategie utilizzabili. Immergiti e scopri come ottimizzare ogni passaggio del percorso del cliente.
-
-## Rapporti di Percorso personalizzati
+## Rapporti sui percorsi personalizzati
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Creazione e analisi dei report di Percorso
+Creare e analizzare i rapporti sui percorsi
 
-Scopri come creare rapporti di percorso, comprendere schemi e set di dati e integrarli con Adobe Experience Platform e Customer Journey Analytics per un’analisi dettagliata delle prestazioni.
+Scopri come creare rapporti sui percorsi, comprendere schemi e set di dati e integrarli con Adobe Experience Platform e Customer Journey Analytics per un’analisi dettagliata delle prestazioni.
 
-[Scopri come creare rapporti di percorso](../using/reports/sharing-overview.md)
+[Scopri come creare rapporti sui percorsi](../using/reports/sharing-overview.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Elenco campi evento passaggio
+Elenco dei campi evento del passaggio
 
-Esplora l’elenco completo dei campi evento dei passaggi, suddivisi in categorie e descritti per supportare le attività di reporting e gestione dei dati in Adobe Journey Optimizer.
+Esplora l’elenco completo dei campi evento del passaggio, suddivisi in categorie e descritti per supportare le attività di reporting e gestione dei dati in Adobe Journey Optimizer.
 
-[Visualizza campi evento del passaggio](../using/reports/sharing-field-list.md)
+[Visualizzare campi evento del passaggio](../using/reports/sharing-field-list.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Campi evento passaggio precedente
+Campi evento del passaggio precedente
 
-Comprendi i campi dell’evento del passaggio precedente utilizzati in Adobe Journey Optimizer, suddivisi in campi di percorso, campi di esecuzione delle azioni e altro ancora, con definizioni dettagliate e casi di utilizzo.
+Informazioni sui campi evento del passaggio precedente utilizzati in Adobe Journey Optimizer, suddivisi in campi di percorso, campi di esecuzione delle azioni e altro ancora, con definizioni dettagliate e casi d’uso.
 
-[Scopri i campi dell’evento del passaggio precedente](legacy-step-event-fields-landing-page.md)
+[Informazioni campi evento del passaggio precedente](legacy-step-event-fields-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esempio di query SQL per l’analisi dei dati
 
-Accedi a query SQL di esempio per l’analisi dei dati Journey Optimizer in un Data Lake, dalla risoluzione dei problemi alla segmentazione di reporting e pubblico.
+Accedi a query SQL di esempio per l’analisi dei dati Journey Optimizer in un data lake, dalla risoluzione dei problemi al reporting e alla segmentazione del pubblico.
 
-[Visualizza esempi di query SQL](../using/reports/query-examples.md)
+[Visualizzare esempi di query SQL](../using/reports/query-examples.md)
 :::
 
 ::::

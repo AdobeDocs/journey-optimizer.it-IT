@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Progettare i contenuti
 description: Progettare i contenuti
 redpen-status: CREATED_||_2025-08-11_20-32-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Progettare i contenuti{#section-overview}
 
-La progettazione dei contenuti in Adobe Journey Optimizer consiste nella creazione di esperienze e-mail personalizzate e di impatto che si connettano al pubblico. Che tu stia aggiungendo layout dinamici, frammenti visivi riutilizzabili o collegamenti personalizzati, ogni strumento funziona insieme per darti il controllo completo sulla progettazione delle e-mail. Scoprirai anche come integrare i metadati per l’accessibilità, personalizzare le offerte per una maggiore rilevanza e persino applicare stili avanzati utilizzando CSS personalizzati. Con una guida dettagliata, queste funzioni ti consentono di creare e-mail che non solo sono visivamente sbalorditive, ma anche personalizzate per i tuoi obiettivi e le esigenze del pubblico.
+La progettazione dei contenuti in Adobe Journey Optimizer consiste nella creazione di esperienze e-mail personalizzate e di impatto che si connettono con il pubblico. Ciascun strumento collabora per darti il controllo completo sulla progettazione delle e-mail aggiungendo layout dinamici, frammenti visivi riutilizzabili e link personalizzati. Scoprirai anche come integrare i metadati per l’accessibilità, personalizzare le offerte per una maggiore rilevanza e persino applicare stili avanzati utilizzando CSS personalizzati. Grazie a una guida dettagliata, queste funzioni ti consentono di creare e-mail che non solo sono visivamente sbalorditive, ma anche personalizzate per i tuoi obiettivi e le esigenze del pubblico.
 
 ## Progettare i contenuti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Utilizzare i componenti contenuto
+Utilizzare i componenti del contenuto
 
-Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagini e altro per creare layout e-mail dinamici.
+Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagini e altro ancora per creare layout e-mail dinamici.
 
-[Iniziare a utilizzare i componenti di contenuto](../using/email/content-components.md)
+[Inizia a utilizzare i componenti del contenuto](../using/email/content-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
-Utilizzo dei frammenti visivi
+Sfruttare i frammenti visivi
 
 Scopri come creare frammenti riutilizzabili per semplificare la progettazione delle e-mail e migliorare la coerenza dei contenuti.
 
-[Informazioni sui frammenti visivi](../using/email/use-visual-fragments.md)
+[Scopri i frammenti visivi](../using/email/use-visual-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Aggiungi collegamenti e tieni traccia dei messaggi
+Aggiungere collegamenti e tracciare i messaggi
 
 Abilita il tracciamento, inserisci collegamenti e gestisci l’aspetto dei collegamenti per ottimizzare le campagne e-mail.
 
-[Esplora tracciamento e collegamenti](../using/email/message-tracking.md)
+[Scopri il tracciamento e i collegamenti](../using/email/message-tracking.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Inserisci offerte personalizzate
+Inserire offerte personalizzate
 
-Utilizza la gestione delle decisioni per visualizzare in modo dinamico offerte personalizzate personalizzate per il tuo pubblico.
+Utilizza la gestione delle decisioni per visualizzare in modo dinamico offerte personalizzate in base al tuo pubblico.
 
-[Aggiungere offerte personalizzate](../using/email/add-offers-email.md)
+[Aggiungi offerte personalizzate](../using/email/add-offers-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
-Genera versione testo
+Generare una versione di testo
 
-Crea e personalizza la versione in testo normale dell’e-mail per i destinatari che non possono visualizzare il contenuto di HTML.
+Crea e personalizza la versione in testo semplice dell’e-mail per i destinatari che non possono visualizzare il contenuto in HTML.
 
-[Creare una versione di testo](../using/email/text-version-email.md)
+[Crea una versione di testo](../using/email/text-version-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Aggiungi metadati
+Aggiungere metadati
 
-Migliora la leggibilità e l’accessibilità delle e-mail configurando metadati come intestazioni preliminari e linguaggio per documenti.
+Migliora la leggibilità e l’accessibilità delle e-mail configurando metadati come preintestazioni e lingua del documento.
 
-[Configurare i metadati e-mail](../using/email/email-metadata.md)
+[Configura i metadati dell’e-mail](../using/email/email-metadata.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Migliora la leggibilità e l’accessibilità delle e-mail configurando metadati
 
 ## Risorse aggiuntive
 
-- **[Aggiungi CSS personalizzato](../using/email/custom-css.md)** - Ottieni il controllo avanzato dello stile applicando CSS personalizzato al contenuto dell&#39;e-mail.
+- **[Aggiungi CSS personalizzato](../using/email/custom-css.md)**: ottieni il controllo avanzato dello stile applicando un CSS personalizzato al contenuto dell’e-mail.

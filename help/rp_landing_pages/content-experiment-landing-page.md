@@ -1,52 +1,52 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Esperimento sui contenuti
-description: Esperimento sui contenuti
+title: Esperimento contenuti
+description: Esperimento contenuti
 redpen-status: CREATED_||_2025-08-12_00-44-26
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Esperimento contenuti{#section-overview}
 
-# Esperimento sui contenuti{#section-overview}
+Gli esperimenti sui contenuti in Adobe Journey Optimizer consentono di testare e perfezionare le campagne di marketing confrontando le prestazioni delle diverse varianti di contenuto con il pubblico. Utilizzando test randomizzati, puoi scoprire quale messaggistica risulta più efficace, ottenendo un coinvolgimento maggiore e ottimizzando i risultati in base ai dati reali. Questa sezione illustra i concetti chiave, dalla comprensione dello scopo degli esperimenti alla rispettiva configurazione, all’analisi dei risultati e alla scalabilità delle strategie di successo. Man mano che procedi, imparerai suggerimenti pratici, esplorerai informazioni statistiche e scoprirai come prendere decisioni informate che migliorano l’efficacia del marketing. Preparati a trasformare gli insight in azioni in tutta sicurezza.
 
-Gli esperimenti sui contenuti in Adobe Journey Optimizer consentono di testare e perfezionare le campagne di marketing confrontando le prestazioni delle diverse varianti di contenuto con il pubblico. Utilizzando test randomizzati, puoi scoprire quale messaggio risuona meglio, coinvolgendo maggiormente e ottimizzando i risultati in base ai dati reali. Questa sezione illustra i concetti chiave, dalla comprensione dello scopo degli esperimenti alla loro configurazione, all’analisi dei risultati e alla scalabilità delle strategie di successo. Man mano che procedi, imparerai suggerimenti pratici, esplorerai informazioni statistiche e scoprirai come prendere decisioni informate che migliorano l’efficacia del marketing. Preparati a trasformare le informazioni in azioni in modo affidabile!
-
-## Risorse per l’esperimento sui contenuti
+## Risorse per gli esperimenti sui contenuti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva agli esperimenti sui contenuti
 
-Scopri le nozioni di base degli esperimenti sui contenuti, il loro scopo e come configurarli, eseguirli e analizzarli per ottimizzare i risultati delle campagne.
+Scopri le nozioni di base degli esperimenti sui contenuti, il rispettivo scopo e come configurarli, eseguirli e analizzarli per ottimizzare i risultati delle campagne.
 
-[Iniziare con esperimenti di contenuto](../using/content-management/get-started-experiment.md)
+[Inizia con gli esperimenti sui contenuti](../using/content-management/get-started-experiment.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Creare e scalare esperimenti sui contenuti
+Creare e scalare gli esperimenti sui contenuti
 
-Una guida dettagliata alla creazione, alla configurazione e alla scalabilità degli esperimenti per testare e ottimizzare il coinvolgimento del pubblico con diversi trattamenti dei contenuti.
+Una guida dettagliata alla creazione, alla configurazione e alla scalabilità degli esperimenti per testare e migliorare il coinvolgimento del pubblico con diversi trattamenti dei contenuti.
 
-[Scopri come creare esperimenti](../using/content-management/content-experiment.md)
+[Scorpi come creare gli esperimenti](../using/content-management/content-experiment.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Tecniche statistiche avanzate per la sperimentazione
 
-Approfondisci metodologie statistiche quali test di ipotesi, controllo degli errori e calcoli del tasso di conversione per prendere decisioni basate sui dati.
+Approfondisci metodologie statistiche quali verifica delle ipotesi, controllo degli errori e calcoli del tasso di conversione per prendere decisioni basate sui dati.
 
-[Esplora metodi statistici avanzati](technotes-landing-page.md)
+[Esplora i metodi statistici avanzati](technotes-landing-page.md)
 :::
 
 ::::

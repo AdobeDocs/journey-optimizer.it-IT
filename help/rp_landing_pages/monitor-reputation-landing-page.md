@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: Monitorare gli indirizzi e-mail
 description: Monitorare gli indirizzi e-mail
 redpen-status: CREATED_||_2025-08-11_21-08-58
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Monitorare gli indirizzi e-mail{#section-overview}
 
-La gestione dello stato delle campagne e-mail inizia con il monitoraggio degli indirizzi e-mail inviati a, garantendo che i messaggi raggiungano le caselle in entrata corrette e proteggendo al contempo la reputazione del mittente. In Adobe Journey Optimizer, imparerai a utilizzare strumenti come gli elenchi di soppressione per bloccare gli indirizzi problematici, i nuovi tentativi di gestione dei problemi temporanei e gli elenchi Consentiti per controllare chi riceve le e-mail. Ogni argomento si basa sulle ultime, mostrando come evitare errori di consegna, gestire le esclusioni e mantenere una comunicazione sicura ed efficiente con il pubblico. Che tu stia risolvendo problemi di e-mail non consegnate, perfezionando le impostazioni o testando in modo sicuro le campagne, queste funzioni ti consentono di controllare la strategia di consegna delle e-mail.
+La gestione dello stato delle campagne e-mail inizia con il monitoraggio degli indirizzi e-mail di invio, garantendo che i messaggi raggiungano le caselle in entrata corrette e proteggendo al contempo la reputazione del mittente. In Adobe Journey Optimizer, imparerai a utilizzare strumenti come gli elenchi di soppressione per bloccare gli indirizzi problematici, i nuovi tentativi di gestione dei problemi temporanei e gli elenchi consentiti per controllare chi riceve le e-mail. Ogni argomento si basa sul precedente, mostrando come evitare errori di consegna, gestire le esclusioni e mantenere una comunicazione sicura ed efficiente con il pubblico. Queste funzioni ti consentono di controllare la strategia di recapitabilità delle e-mail, risolvendo i problemi relativi ai mancati recapiti, perfezionando le impostazioni e testando in modo sicuro le campagne.
 
-## Monitorare Gli Indirizzi E-Mail
+## Monitorare gli indirizzi e-mail
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestire l’elenco di soppressione
 
-Scopri come controllare il recapito messaggi e-mail gestendo gli elenchi di soppressione, inclusa l’aggiunta, la rimozione e l’esportazione di indirizzi e domini.
+Scopri come controllare la recapitabilità delle e-mail gestendo gli elenchi di soppressione, inclusa l’aggiunta, la rimozione e l’esportazione di indirizzi e domini.
 
-[Visualizza Guida all’elenco di soppressione](../using/configuration/manage-suppression-list.md)
+[Consulta la guida all’elenco di soppressione](../using/configuration/manage-suppression-list.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione di nuovi tentativi ed elenchi di soppressione
 
-Comprendi e configura i meccanismi di esecuzione di nuovi tentativi per gli errori di mancati recapiti non permanenti al fine di ottimizzare il recapito messaggi e le regole di eliminazione.
+Comprendi e configura i meccanismi di esecuzione di nuovi tentativi per gli errori di mancato recapito non permanente al fine di ottimizzare la recapitabilità dei messaggi e le regole di soppressione.
 
-[Informazioni sui nuovi tentativi](../using/configuration/retries.md)
+[Scopri i nuovi tentativi](../using/configuration/retries.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Configurazione dell’Elenco Consentiti
+Configurare l’elenco consentiti
 
-Scopri come configurare un elenco Consentiti per garantire comunicazioni e-mail sicure e autorizzate per i test e la produzione.
+Scopri come configurare un elenco consentiti per garantire comunicazioni e-mail sicure e autorizzate per i test e la produzione.
 
-[Esplora configurazione Elenco Consentiti](../using/configuration/allow-list.md)
+[Scopri la configurazione dell’elenco consentiti](../using/configuration/allow-list.md)
 :::
 
 ::::

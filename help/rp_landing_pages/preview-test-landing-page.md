@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Anteprima e test del contenuto
 description: Anteprima e test del contenuto
 redpen-status: CREATED_||_2025-08-11_20-30-05
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Anteprima e test del contenuto{#section-overview}
 
-L’anteprima e il test dei contenuti in Adobe Journey Optimizer garantiscono che i messaggi siano precisi, personalizzati e pronti per essere consegnati. Che tu stia perfezionando il rendering di e-mail, simulando varianti di contenuto o analizzando i punteggi di spam, questi strumenti ti aiutano a individuare gli errori e a ottimizzare le prestazioni prima di raggiungere il tuo pubblico. Scoprirai come utilizzare i profili di test, i dati di input di esempio e le bozze per convalidare i contenuti e persino integrare strumenti come Litmus per i test di rendering delle e-mail. Con guide dettagliate e best practice, questa sezione ti consente di creare campagne lucide e di alto impatto personalizzate per i tuoi destinatari.
+L’anteprima e il test dei contenuti in Adobe Journey Optimizer garantiscono che i messaggi siano precisi, personalizzati e pronti per essere consegnati. Questi strumenti ti aiutano a individuare gli errori e a ottimizzare le prestazioni prima di raggiungere il tuo pubblico, perfezionando il rendering delle e-mail, simulando le varianti di contenuto e analizzando il punteggio di spam. Scoprirai come utilizzare i profili di test, i dati di input di esempio e le bozze per convalidare i contenuti e persino integrare strumenti come Litmus per i test di rendering delle e-mail. Tramite guide dettagliate e best practice, questa sezione ti consente di creare campagne curate e di alto impatto personalizzate per i destinatari.
 
-## Anteprima e prova contenuto
+## Anteprima e test del contenuto
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Come visualizzare in anteprima e testare i contenuti in Adobe Journey Optimizer
+Visualizzare in anteprima e testare i contenuti in Adobe Journey Optimizer
 
-Scopri come utilizzare i profili di test e i dati di input di esempio per visualizzare in anteprima e testare i contenuti, inviare bozze e garantire l’accuratezza della personalizzazione.
+Scopri come utilizzare i profili di test e i dati di input di esempio per visualizzare in anteprima e testare i contenuti, inviare bozze e garantire la precisione della personalizzazione.
 
-[Introduzione ad anteprima e test](../using/content-management/preview-test.md)
+[Consulta le anteprima e i test](../using/content-management/preview-test.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Come selezionare i profili di test in Adobe Journey Optimizer
+Selezionare i profili di test in Adobe Journey Optimizer
 
 Scopri come selezionare e gestire i profili di test per visualizzare in anteprima e testare in modo efficace i contenuti personalizzati.
 
@@ -40,43 +40,43 @@ Scopri come selezionare e gestire i profili di test per visualizzare in anteprim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Visualizzare L’Anteprima Del Contenuto Utilizzando I Profili Di Test
+Visualizzare l’anteprima del contenuto utilizzando i profili di test
 
-Guida dettagliata alla visualizzazione in anteprima dei contenuti personalizzati utilizzando i profili di test e simulando le varianti di contenuto.
+Guida dettagliata per la visualizzazione in anteprima dei contenuti personalizzati utilizzando i profili di test e simulando le varianti di contenuto.
 
-[Anteprima di contenuti con profili di test](../using/content-management/preview.md)
+[Visualizza l’anteprima del contenuto con profili di test](../using/content-management/preview.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Inviare bozze utilizzando i dati del profilo di test
 
-Verifica e convalida i messaggi e-mail inviando bozze utilizzando i dati del profilo di test per garantire l’accuratezza del contenuto.
+Testa e convalida i messaggi e-mail inviando bozze utilizzando i dati del profilo di test per garantire la precisione del contenuto.
 
-[Scopri come inviare bozze](../using/content-management/proofs.md)
+[Scopri come inviare le bozze](../using/content-management/proofs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
-Come testare il rendering di e-mail con Litmus in Adobe Journey Optimizer
+Testare il rendering di e-mail con Litmus in Adobe Journey Optimizer
 
-Integra Litmus per visualizzare in anteprima il rendering delle e-mail tra i client e-mail più diffusi e assicurarne la corretta visualizzazione.
+Integra Litmus per visualizzare in anteprima il rendering di e-mail tra i client e-mail più diffusi e assicurarne la corretta visualizzazione.
 
-[Test del rendering di e-mail con Litmus](../using/content-management/rendering.md)
+[Testa il rendering di e-mail con Litmus](../using/content-management/rendering.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Come simulare e testare le varianti di contenuto in Adobe Journey Optimizer
+Simulare e testare le varianti di contenuto in Adobe Journey Optimizer
 
-Simula le varianti di contenuto utilizzando dati di input di esempio per testare contenuti personalizzati e assicurarne l’accuratezza.
+Simula le varianti di contenuto utilizzando dati di input di esempio per testare contenuti personalizzati e assicurarne la precisione.
 
-[Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
+[Simula le varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Simula le varianti di contenuto utilizzando dati di input di esempio per testare
 
 ## Risorse aggiuntive
 
-- **[Come utilizzare il report di posta indesiderata in Adobe Journey Optimizer](../using/content-management/spam-report.md)** - Valutare il punteggio di posta indesiderata del contenuto delle e-mail utilizzando la funzione Report posta indesiderata per migliorare il recapito messaggi.
+- **[Utilizzare il rapporto spam sulle email in Adobe Journey Optimizer](../using/content-management/spam-report.md)**: valuta il punteggio di spam del contenuto e-mail utilizzando la funzione Rapporto spam per migliorare la recapitabilità.

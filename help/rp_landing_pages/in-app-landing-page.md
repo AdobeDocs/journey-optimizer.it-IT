@@ -4,70 +4,70 @@ product: Journey Optimizer
 title: Canale in-app
 description: Canale in-app
 redpen-status: CREATED_||_2025-08-11_20-36-05
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Canale in-app{#section-overview}
 
-Il canale in-app in Adobe Journey Optimizer ti consente di connetterti con gli utenti dell’app in tempo reale tramite notifiche personalizzate visualizzate direttamente all’interno dell’app mobile o web. Che tu voglia guidare gli utenti durante l’onboarding, promuovere una nuova funzione o condividere offerte esclusive, i messaggi in-app offrono un modo coinvolgente per fornire contenuti rilevanti proprio quando sono più importanti. Questa sezione fornisce una chiara roadmap per la masterizzazione dei messaggi in-app. Dall’impostazione delle configurazioni necessarie alla progettazione di messaggi visivamente accattivanti, fino alla creazione di campagne mirate e all’analisi del loro impatto. Ogni argomento si basa sulle ultime, consentendoti di creare esperienze significative e intuitive con sicurezza.
+Il canale in-app in Adobe Journey Optimizer consente di connetterti con gli utenti dell’app in tempo reale tramite notifiche personalizzate visualizzate direttamente all’interno dell’app per dispositivi mobili o per il web. I messaggi in-app offrono un modo coinvolgente per fornire contenuti rilevanti proprio quando sono più importanti per guidare gli utenti durante l’onboarding, promuovere una nuova funzione o condividere offerte esclusive. Questa sezione fornisce una chiara roadmap per padroneggiare la messaggistica in-app. Dall’impostazione delle configurazioni necessarie e alla progettazione di messaggi visivamente accattivanti, fino alla creazione di campagne mirate e all’analisi del relativo impatto. Ogni argomento si basa sul precedente, consentendoti di creare esperienze significative e intuitive in tutta sicurezza.
 
 ## Funzioni del canale in-app
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurazione canale in-app
+Configurazione dei canali in-app
 
-Guida dettagliata per configurare autorizzazioni, impostazioni di consegna e prerequisiti per l’invio di messaggi in-app.
+Guida dettagliata per impostare autorizzazioni, impostazioni di consegna e prerequisiti per l’invio di messaggi in-app.
 
-[Configurare l’ambiente](../using/in-app/inapp-configuration.md)
+[Configura l’ambiente](../using/in-app/inapp-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Creare messaggi in-app mobili
+Creare messaggi in-app per dispositivi mobili
 
-Scopri come creare, configurare e pubblicare messaggi in-app mobili utilizzando trigger, campagne e percorsi.
+Scopri come creare, configurare e pubblicare messaggi in-app per dispositivi mobili utilizzando trigger, campagne e percorsi.
 
-[Creare il primo messaggio](../using/in-app/create-in-app.md)
+[Crea il primo messaggio](../using/in-app/create-in-app.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Creare messaggi in-app Web
+Creare messaggi in-app web
 
 Configura e crea campagne di messaggistica in-app web con trigger, targeting del pubblico e frequenza di consegna.
 
-[Configurare i messaggi web](../using/in-app/create-in-app-web.md)
+[Imposta i messaggi web](../using/in-app/create-in-app-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 Progettare e personalizzare i contenuti in-app
 
 Esplora le opzioni di layout, personalizza i contenuti e utilizza la formattazione avanzata per migliorare i messaggi in-app.
 
-[Progettare il messaggio](../using/in-app/design-in-app.md)
+[Progetta il messaggio](../using/in-app/design-in-app.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
-Verifica e invia la notifica in-app
+Verificare e inviare le notifiche in-app
 
 Visualizza in anteprima, verifica, controlla e attiva le notifiche in-app con Adobe Journey Optimizer.
 
-[Inviare la notifica](../using/in-app/send-in-app.md)
+[Invia la notifica](../using/in-app/send-in-app.md)
 :::
 
 ::::

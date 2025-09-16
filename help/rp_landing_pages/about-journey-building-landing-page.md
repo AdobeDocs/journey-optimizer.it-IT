@@ -4,33 +4,33 @@ product: Journey Optimizer
 title: Attività
 description: Attività
 redpen-status: CREATED_||_2025-08-11_20-09-57
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Attività{#section-overview}
 
-Le attività in Adobe Journey Optimizer sono gli elementi di base che danno vita ai percorsi dei clienti consentendo di attivare eventi, prendere decisioni e intraprendere azioni significative attraverso i canali. Che si tratti di ascoltare un evento di acquisto, inviare un’e-mail personalizzata o aggiornare un profilo in tempo reale, le attività ti consentono di personalizzare ogni passaggio del percorso. Ogni tipo di attività, ad esempio Evento, Orchestrazione o Azione, svolge un ruolo unico, collaborando per creare esperienze fluide e coinvolgenti. Esplorando questi strumenti, scoprirai come utilizzare trigger, condizioni e azioni per creare percorsi dinamici come le esigenze dei tuoi clienti.
+Le attività in Adobe Journey Optimizer sono i blocchi predefiniti che danno vita ai percorsi della clientela consentendo di attivare eventi, prendere decisioni e intraprendere azioni significative sui canali. Che si tratti di ascoltare un evento di acquisto, inviare un’e-mail personalizzata o aggiornare un profilo in tempo reale, le attività ti consentono di personalizzare ogni passaggio del percorso. Ogni tipo di attività, ad esempio Evento, Orchestrazione o Azione, svolge un ruolo unico, ma utilizzandole insieme, si creano esperienze fluide e coinvolgenti. Esplorando questi strumenti, scoprirai come utilizzare trigger, condizioni e azioni per creare percorsi dinamici come le esigenze della tua clientela.
 
 ## Attività in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Introduzione alle attività di Percorso
+Introduzione alle attività di Journey
 
 Scopri le attività relative a eventi, orchestrazione e azioni in Adobe Journey Optimizer per creare scenari cross-channel con più passaggi.
 
-[Introduzione alle attività dei percorsi](../using/building-journeys/about-journey-activities.md)
+[Consulta le attività dei percorsi](../using/building-journeys/about-journey-activities.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Utilizzo di eventi generali
 
@@ -40,43 +40,43 @@ Scopri come utilizzare gli eventi generali per attivare i percorsi e gestire eff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurazione degli eventi di reazione
 
 Scopri come reagire ai dati di tracciamento come i clic sui messaggi o le aperture dei messaggi e gestire gli scenari di assenza di reazione.
 
-[Impostare gli eventi di reazione](../using/building-journeys/reaction-events.md)
+[Configura gli eventi di reazione](../using/building-journeys/reaction-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Eventi di qualificazione del pubblico
 
 Scopri come attivare azioni e condizioni in base agli stati di partecipazione del pubblico.
 
-[Utilizzare gli eventi di qualificazione del pubblico](../using/building-journeys/audience-qualification-events.md)
+[Utilizza gli eventi di qualificazione del pubblico](../using/building-journeys/audience-qualification-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Utilizzo dell’attività condizione
+Utilizzo dell’attività Condizione
 
-Definisci più percorsi in un percorso in base a criteri come tempo, origine dati o suddivisioni percentuali.
+Definisci più tratte in un percorso in base a criteri come tempo, origine dati o suddivisioni percentuali.
 
-[Configurare attività condizione](../using/building-journeys/condition-activity.md)
+[Configura le attività della condizione](../using/building-journeys/condition-activity.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Configurazione dell’attività Attendi
 
-Controlla la tempistica in percorsi con durata o attese personalizzate per sospendere l’esecuzione.
+Controlla la tempistica in percorsi con durata o attese personalizzate per mettere in pausa l’esecuzione.
 
-[Configurare l’attività Attendi](../using/building-journeys/wait-activity.md)
+[Configura l’attività Attendi](../using/building-journeys/wait-activity.md)
 :::
 
 ::::
@@ -84,11 +84,11 @@ Controlla la tempistica in percorsi con durata o attese personalizzate per sospe
 
 ## Risorse aggiuntive
 
-- **[Utilizzo di un pubblico in un Percorso](../using/building-journeys/read-audience.md)** - Consente ai singoli utenti dei tipi di pubblico di Adobe Experience Platform di accedere ai percorsi in modo dinamico.
-- **[Azioni canale incorporate](../using/building-journeys/journeys-message.md)** - Invia messaggi tramite e-mail, SMS o notifiche push utilizzando le funzionalità integrate di Journey Optimizer.
-- **[Utilizzo di azioni personalizzate](../using/building-journeys/using-custom-actions.md)** - Integrazione di sistemi di terze parti tramite API REST con percorsi dinamici, intestazioni e parametri di query.
-- **[Attività Content Decision](../using/building-journeys/content-decision.md)** - Distribuisci offerte personalizzate in percorsi utilizzando criteri decisionali e strategie di contenuto.
-- **[Azioni Adobe Campaign Standard](../using/building-journeys/using-adobe-campaign-standard.md)** - Invia e-mail transazionali, SMS e notifiche push tramite l&#39;integrazione Adobe Campaign Standard.
-- **[Azioni Adobe Campaign v7/v8](../using/building-journeys/using-adobe-campaign-v7-v8.md)** - Esplora l&#39;integrazione con Adobe Campaign v7/v8 per le funzionalità di messaggistica transazionale.
-- **[Utilizzo dell&#39;attività Salta](../using/building-journeys/jump.md)** - Semplifica la progettazione del percorso trasferendo singoli utenti da un percorso all&#39;altro tramite le attività Salta.
-- **[Utilizzo dell&#39;attività Aggiorna profilo](../using/building-journeys/update-profiles.md)** - Aggiornamento dinamico dei profili di Adobe Experience Platform utilizzando le informazioni provenienti da eventi o origini dati.
+- **[Utilizzo di un pubblico in un percorso](../using/building-journeys/read-audience.md)**: consente ai singoli utenti dei tipi di pubblico di Adobe Experience Platform di accedere ai percorsi in modo dinamico.
+- **[Azioni di canale incorporate](../using/building-journeys/journeys-message.md)**: invia messaggi tramite e-mail, SMS o notifiche push utilizzando le funzionalità integrate di Journey Optimizer.
+- **[Utilizzo di azioni personalizzate](../using/building-journeys/using-custom-actions.md)**: integra sistemi di terze parti tramite API REST con percorsi dinamici, intestazioni e parametri della query.
+- **[Attività di decisione sul contenuto](../using/building-journeys/content-decision.md)**: distribuisci offerte personalizzate nei percorsi utilizzando criteri decisionali e strategie di contenuto.
+- **[Azioni di Adobe Campaign Standard](../using/building-journeys/using-adobe-campaign-standard.md)**: invia e-mail transazionali, SMS e notifiche push tramite l’integrazione Adobe Campaign Standard.
+- **[Azioni di Adobe Campaign v7/v8](../using/building-journeys/using-adobe-campaign-v7-v8.md)**: esplora l’integrazione con Adobe Campaign v7/v8 per le funzionalità di messaggistica transazionale.
+- **[Utilizzo dell’attività Salta](../using/building-journeys/jump.md)**: semplifica la progettazione del percorso trasferendo singoli utenti da un percorso all’altro tramite le attività Salta.
+- **[Utilizzare l’attività Aggiorna profilo](../using/building-journeys/update-profiles.md)**: aggiorna i profili di Adobe Experience Platform in modo dinamico utilizzando le informazioni provenienti da eventi o da origini dati.

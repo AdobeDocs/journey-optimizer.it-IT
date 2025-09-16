@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: Matematica
 description: Matematica
 redpen-status: CREATED_||_2025-08-11_20-16-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '86'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
-
 
 # Matematica{#section-overview}
 
 La sezione matematica in Adobe Journey Optimizer consente di eseguire calcoli precisi e trasformazioni dei dati all’interno dei percorsi, consentendo di prendere decisioni più intelligenti e basate sui dati.
 
-## Funzioni matematiche in Adobe Journey Optimizer
+## Funzioni matematiche di Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Funzione random
+Funzione casuale
 
-Scopri come utilizzare la funzione &quot;random&quot; per generare numeri casuali compresi tra 0 e 1 in Adobe Journey Optimizer.
+Scopri come utilizzare la funzione “casuale” per generare numeri casuali compresi tra 0 e 1 in Adobe Journey Optimizer.
 
-[Esplora la funzione casuale](../using/building-journeys/functions/functionrandom.md)
+[Scopri la funzione casuale](../using/building-journeys/functions/functionrandom.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Funzione round
+Funzione arrotondamento
 
-Scopri la funzione &quot;round&quot;, la sua sintassi e come arrotondare i numeri al numero intero più vicino in Adobe Journey Optimizer.
+Scopri la funzione “arrotondamento”, la relativa sintassi e come arrotondare i numeri al numero intero più vicino in Adobe Journey Optimizer.
 
-[Informazioni sulla funzione round](../using/building-journeys/functions/functionround.md)
+[Scopri la funzione arrotondamento](../using/building-journeys/functions/functionround.md)
 :::
 
 ::::

@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: Modelli di IA
 description: Modelli di IA
 redpen-status: CREATED_||_2025-08-11_20-59-35
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Modelli di IA{#section-overview}
 
-I modelli di intelligenza artificiale in Adobe Journey Optimizer consentono di prendere decisioni più intelligenti e basate sui dati classificando le offerte in base agli obiettivi aziendali. Che tu miri a tassi di conversione più elevati, ricavi più elevati o esperienze cliente personalizzate, questi modelli si adattano alle tue esigenze. Esplorerai due tipi di modelli di intelligenza artificiale: ottimizzazione automatica, che si concentra sul miglioramento delle prestazioni complessive in base ai dati passati, e ottimizzazione personalizzata, che personalizza i consigli per i singoli clienti. Seguendo una guida chiara sulla creazione e l’utilizzo di questi modelli, imparerai a sfruttare il loro potenziale per ottimizzare ogni interazione, rendendo le tue strategie di marketing più efficaci e di impatto.
+I modelli di intelligenza artificiale in Adobe Journey Optimizer consentono di prendere decisioni più consapevoli e basate sui dati classificando le offerte in base agli obiettivi aziendali. Che tu voglia puntare a tassi di conversione più elevati, maggiori ricavi o esperienze cliente personalizzate, questi modelli si adattano alle tue esigenze. Esplorerai due tipi di modelli di intelligenza artificiale: ottimizzazione automatica, che si concentra sul miglioramento delle prestazioni complessive in base ai dati esistenti, e ottimizzazione personalizzata, che personalizza i consigli per i singoli clienti. Seguendo una guida chiara sulla creazione e l’utilizzo di questi modelli, imparerai a sfruttare il loro potenziale per ottimizzare ogni interazione, rendendo le tue strategie di marketing più efficaci e di impatto.
 
-## Modelli di intelligenza artificiale in Adobe Journey Optimizer
+## Modelli di IA in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introduzione ai modelli AI
+Introduzione ai modelli di IA
 
-Scopri i modelli di intelligenza artificiale in Adobe Journey Optimizer e i relativi tipi, funzionalità e passaggi per crearli e utilizzarli per classificare le offerte in base agli obiettivi aziendali.
+Scopri i modelli di intelligenza artificiale di Adobe Journey Optimizer nonché i relativi tipi, le funzionalità e i passaggi per crearli e utilizzarli per classificare le offerte in base agli obiettivi aziendali.
 
-[Esplora modelli AI](../using/offers/ranking/ai-models.md)
+[Esplorare i modelli di IA](../using/offers/ranking/ai-models.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informazioni sui modelli di ottimizzazione automatica
 
 Scopri come i modelli di ottimizzazione automatica utilizzano algoritmi come il campionamento di Thompson per massimizzare i KPI, gestire il problema dell’avvio a freddo e misurare l’incremento.
 
-[Scopri i modelli di ottimizzazione automatica](../using/offers/ranking/auto-optimization-model.md)
+[Informazioni sui modelli di ottimizzazione automatica](../using/offers/ranking/auto-optimization-model.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Informazioni sui modelli di ottimizzazione personalizzati
 
-Scopri in che modo i modelli di ottimizzazione personalizzati utilizzano i dati dei clienti e l’apprendimento automatico per fornire consigli di offerta personalizzati e ottimizzare i KPI.
+Scopri in che modo i modelli di ottimizzazione personalizzati utilizzano i dati del cliente e l’apprendimento automatico per consigliare offerte personalizzate e ottimizzare i KPI.
 
-[Scopri i modelli di ottimizzazione personalizzati](../using/offers/ranking/personalized-optimization-model.md)
+[Informazioni sui modelli di ottimizzazione personalizzati](../using/offers/ranking/personalized-optimization-model.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Creare modelli AI
+Creare i modelli di AI
 
-Segui istruzioni dettagliate per creare modelli di intelligenza artificiale per la classificazione delle offerte, utilizzando strategie di ottimizzazione automatica o personalizzate.
+Segui istruzioni dettagliate per creare modelli di IA per la classificazione delle offerte, utilizzando strategie di ottimizzazione automatica o personalizzate.
 
-[Inizia a creare modelli AI](../using/offers/ranking/create-ranking-strategies.md)
+[Inizia a creare modelli di IA](../using/offers/ranking/create-ranking-strategies.md)
 :::
 
 ::::

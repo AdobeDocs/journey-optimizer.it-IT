@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Schede contenuto
 description: Schede contenuto
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # Schede contenuto{#section-overview}
 
@@ -23,19 +23,19 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configura canale schede di contenuto
+Configurare il canale Scheda contenuto
 
-Imposta e integra il canale Schede di contenuto per piattaforme web, mobili e chioschi con personalizzazione dinamica.
+Imposta e integra il canale Scheda contenuto per piattaforme web, dispositivi mobili e chioschi con personalizzazione dinamica.
 
 [Configurare il canale](configure-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Creare e configurare schede di contenuto
+Creare e configurare le schede di contenuto
 
 Tutorial dettagliato per creare, personalizzare e implementare schede di contenuto per la messaggistica personalizzata in percorsi o campagne.
 
@@ -43,13 +43,13 @@ Tutorial dettagliato per creare, personalizzare e implementare schede di contenu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Progettare schede di contenuto
+Progettare le schede di contenuto
 
-Progetta e personalizza schede di contenuto con messaggi personalizzati, file multimediali, pulsanti di azione e dati personalizzati.
+Progetta e personalizza le schede di contenuto con messaggi personalizzati, file multimediali, pulsanti azione e dati personalizzati.
 
-[Informazioni sulla progettazione di schede di contenuto](../using/content-card/design-content-card.md)
+[Scopri come progettare schede di contenuto](../using/content-card/design-content-card.md)
 :::
 
 ::::
