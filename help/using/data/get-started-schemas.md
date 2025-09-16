@@ -8,39 +8,55 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 70f647cf4e95c1152a5c16395b88b11a6b72865c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 18%
 
 ---
 
 # Introduzione agli schemi {#schemas-gs}
 
-Gli schemi sono il metodo standard per descrivere i dati in Experience Platform; consentono di riutilizzare senza conflitti tutti i dati conformi agli schemi all’interno di un’organizzazione, o anche di condividerli tra più organizzazioni.
+[!DNL Adobe Journey Optimizer] si basa su **schemi Adobe Experience Platform** per descrivere la struttura dei dati in modo coerente e riutilizzabile. Uno schema fornisce una definizione astratta di un oggetto reale (ad esempio una persona) e delinea quali dati includere in ogni istanza di tale oggetto (ad esempio nome, compleanno e così via). Quando i dati vengono acquisiti in Experience Platform, sono sempre strutturati in base a uno schema **XDM**.
 
-➡️ [Guarda questo video su come creare e configurare uno schema](#video-schema) (video)
+## Schemi standard e relazionali
 
-Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. In pratica, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano i dati da includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).
+In Adobe Experience Platform sono disponibili due tipi di schemi:
 
-Per informazioni su come creare gli schemi, consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}.
+* **Gli schemi standard** sono schemi gerarchici che utilizzano classi e gruppi di campi per acquisire dati di record o serie temporali.
 
-L’area di lavoro **Schemi** nell’interfaccia utente [!DNL Adobe Journey Optimizer] consente di gestire le risorse Experience Data Model (XDM), tra cui schemi, classi, gruppi di campi dello schema e tipi di dati. Puoi visualizzare ed esplorare le risorse di base fornite da Adobe e creare risorse e schemi personalizzati per la tua organizzazione.
+  Uno schema standard è composto da:
 
-![](assets/schemas-home.png)
+   * Una **classe** (che definisce il comportamento dei dati: record o serie temporale).
+   * Uno o più **gruppi di campi** (che aggiungono campi specifici allo schema).
 
-Per informazioni su come utilizzare l’interfaccia utente Schemi, consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it){target="_blank"}
+  In Journey Optimizer, gli schemi standard vengono generalmente utilizzati per rappresentare **singole persone e i relativi attributi**, acquisire **interazioni di serie temporali** quali clic, acquisti o accessi e alimentare **Profilo cliente in tempo reale** per la segmentazione e la personalizzazione.
 
-Informazioni dettagliate su come creare uno schema utilizzando l’editor di schemi è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
+  ➡️ [Scopri come creare e configurare uno schema standard in questo video](#video-schema) (video)
 
-Consulta il [dizionario degli schemi di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"} per un elenco completo dei campi e degli attributi per ogni schema.
+* **Gli schemi relazionali** sono schemi piatti non gerarchici che non utilizzano classi o gruppi di campi. Vengono utilizzati per acquisire dati record per entità relazionali e vengono utilizzati principalmente in [!DNL Journey Optimizer] **campagne orchestrate**.
 
+  Esempi di entità relazionali includono:
+   * Prenotazioni, contratti o abbonamenti
+   * Prodotti o cataloghi
+   * Negozi, sedi o partner
 
-## Video introduttivo{#video-schema}
+  Con gli schemi relazionali, puoi inviare un messaggio per entità (ad esempio, per prenotazione, per abbonamento), creare segmenti basati sugli attributi di entità (ad esempio, categoria di prodotto, posizione del negozio) e migliorare l’indirizzabilità raggiungendo tutti i contatti collegati a un’entità.
 
-Scopri come creare uno schema, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
+  Funzionamento degli schemi relazionali:
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?quality=12&captions=ita)
+   1. **Creare gli schemi manualmente o importarli tramite DDL**
+   1. **Collega schemi** per definire le relazioni tra entità e persone (ad esempio, transazioni fedeltà collegate a membri, premi collegati a marchi).
+   1. **Acquisisci dati** nel set di dati da origini supportate.
+
+  ➡️ [Scopri come gestire schemi e set di dati relazionali](../orchestrated/gs-schemas.md)
+➡️ [Introduzione alle campagne orchestrate](../orchestrated/gs-schemas.md)
+
+## Video dimostrativo{#video-schema}
+
+Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
