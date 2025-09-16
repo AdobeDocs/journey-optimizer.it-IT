@@ -30,7 +30,7 @@ Scopri come creare e gestire schemi relazionali, configurare set di dati e acqui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Come configurare una dimensione targeting
 

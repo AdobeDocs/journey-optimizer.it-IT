@@ -30,7 +30,7 @@ Scopri come impostare e utilizzare la funzione per contenuti multilingue in Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare una lingua per contenuti multilingue
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per creare e gestire nuove lingue per contenuti 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Aggiungere e configurare i provider di lingue
 
@@ -50,7 +50,7 @@ Imposta i provider di traduzioni di terze parti per un’integrazione ottimizzat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare contenuto multilingue con traduzione manuale
 

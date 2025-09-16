@@ -20,7 +20,7 @@ I modelli di intelligenza artificiale in Adobe Journey Optimizer consentono di p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione ai modelli di IA
 
@@ -30,7 +30,7 @@ Scopri i modelli di intelligenza artificiale di Adobe Journey Optimizer nonché 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Informazioni sui modelli di ottimizzazione automatica
 
@@ -40,7 +40,7 @@ Scopri come i modelli di ottimizzazione automatica utilizzano algoritmi come il 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Informazioni sui modelli di ottimizzazione personalizzati
 
@@ -50,7 +50,7 @@ Scopri in che modo i modelli di ottimizzazione personalizzati utilizzano i dati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare i modelli di AI
 

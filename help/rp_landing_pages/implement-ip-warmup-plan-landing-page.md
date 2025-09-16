@@ -30,7 +30,7 @@ Scopri lo scopo, i vantaggi e i passaggi dei piani di preparazione IP per miglio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Crea campagne di preparazione IP
 

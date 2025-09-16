@@ -23,7 +23,7 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale Scheda contenuto
 
@@ -33,7 +33,7 @@ Imposta e integra il canale Scheda contenuto per piattaforme web, dispositivi mo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e configurare le schede di contenuto
 
@@ -43,7 +43,7 @@ Tutorial dettagliato per creare, personalizzare e implementare schede di contenu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare le schede di contenuto
 
