@@ -5,7 +5,7 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 3%
@@ -18,7 +18,7 @@ Di seguito sono riportate le domande frequenti sulle campagne orchestrate di Ado
 
 Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-+++ Cos’è l’orchestrazione di Campaign? {#what-are-oc}
++++ Cos’è l’orchestrazione di Campaign?
 
 L’orchestrazione delle campagne è una funzione di Journey Optimizer che supporta flussi di lavoro in un unico passaggio o in più passaggi che sfruttano l’archivio dati relazionale per creare e segmentare i tipi di pubblico allo scopo di creare un coinvolgimento in batch.
 
@@ -37,16 +37,12 @@ Le funzionalità principali includono:
 * **Visibilità pre-invio**: consulta conteggi accurati del pubblico prima dell&#39;avvio per ottimizzare il targeting.
 * **Flussi di lavoro a più passaggi**: esegui campagne in sequenza, ad esempio promozioni stagionali, avvii di prodotti o offerte fedeltà.
 
->[!BEGINSHADEBOX]
-
 **Procedure consigliate**
 
 * Definisci un **obiettivo campagna di cancellazione** prima di progettare flussi di lavoro.
 * Inizia con un **pubblico pilota** per convalidare i conteggi e la logica prima del ridimensionamento.
 * Mantieni le regole di segmentazione **il più semplice possibile** per ottimizzare le prestazioni e la trasparenza.
 * Utilizza **convenzioni di denominazione coerenti** per tipi di pubblico e campagne per semplificare la gestione.
-
->[!ENDSHADEBOX]
 
 +++
 
@@ -63,11 +59,8 @@ Ulteriori informazioni sul modello di gestione licenze di Campaign Orchestration
 * **Campagne orchestrate**: ideale per **campagne batch, uno-a-molti**. Il pubblico avanza in blocco, secondo una pianificazione.
 * **Percorsi**: soluzione ottimale per **coinvolgimento in tempo reale uno a uno**. Ogni cliente si sposta all’interno del percorso secondo il proprio ritmo, attivato da comportamenti o eventi.
 
->[!BEGINSHADEBOX]
-
 **Best practice**: utilizzali insieme: Percorsi per esperienze attivate e reattive e campagne orchestrate per iniziative pianificate basate su calendario.
 
->[!ENDSHADEBOX]
 
 +++
 
@@ -76,11 +69,8 @@ Ulteriori informazioni sul modello di gestione licenze di Campaign Orchestration
 L’orchestrazione delle campagne in Adobe Journey Optimizer utilizza un database relazionale. Questo tipo di modello dati dispone di schemi separati di dati connessi tramite relazioni 1:1 o 1:many. Questo consente agli utenti di avviare una query su qualsiasi schema, non solo a livello di destinatario, e quindi di passare a altri schemi correlati, come acquisti, prodotti, prenotazioni o dettagli dei destinatari, fornendo grande flessibilità nella creazione di segmenti e tipi di pubblico e
 raffinato.
 
->[!BEGINSHADEBOX]
 
 **Esempio** - Esegui il targeting di tutti i destinatari con abbonamenti in scadenza nei successivi 30 giorni. In Campaign Orchestration la query può iniziare con lo schema Sottoscrizioni, cercare solo la colonna data di scadenza di tale schema e restituire tutte le sottoscrizioni in scadenza, quindi aggregare i dati del destinatario correlati a tali ID di abbonamenti specifici restituendo i risultati in modo più rapido ed efficiente rispetto ai modelli di dati che iniziano ogni query a livello di destinatario.
-
->[!ENDSHADEBOX]
 
 +++
 
@@ -88,15 +78,12 @@ raffinato.
 
 Le campagne utilizzano un **database relazionale**. Questo consente di eseguire query su diversi set di dati (ad esempio clienti, prodotti, abbonamenti) e di collegarli in modo flessibile per la segmentazione avanzata.
 
->[!BEGINSHADEBOX]
-
 **Procedure consigliate**
 
 * Organizza i set di dati in modo che **relazioni (join)** riflettano la logica di business.
 * Evitare join non necessari per mantenere le query performanti.
 * Convalidare i risultati del campione prima di eseguire estrazioni su larga scala.
 
->[!ENDSHADEBOX]
 
 +++
 
@@ -104,7 +91,6 @@ Le campagne utilizzano un **database relazionale**. Questo consente di eseguire 
 
 Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione. Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
 
->[!BEGINSHADEBOX]
 
 **Consigli**
 
@@ -112,7 +98,6 @@ Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario 
 * Combina **attributi statici** (ad esempio, livello fedeltà) con **attributi dinamici** (ad esempio, data ultimo acquisto).
 * Personalizzazione concisa: il sovraccarico dei messaggi con i dati può danneggiare la leggibilità.
 
->[!ENDSHADEBOX]
 
 +++
 
@@ -166,15 +151,12 @@ No, i canali in uscita non sono supportati nelle campagne orchestrate.
 
 Le autorizzazioni e il consenso per le campagne e i percorsi orchestrati sono gestiti centralmente in Adobe Experience Platform. Queste impostazioni vengono applicate in entrambe le soluzioni per ciascun destinatario prima dell’invio.
 
->[!BEGINSHADEBOX]
 
 **Procedure consigliate**
 
 * Applica **governance centralizzata**: evita di gestire separatamente il consenso a livello di campagna.
 * Controlla periodicamente i dati del consenso per rilevare incongruenze.
 * Rispetta **rinunce specifiche per il canale** — non presumere che il consenso globale copra tutti i canali.
-
->[!ENDSHADEBOX]
 
 +++
 
@@ -183,15 +165,12 @@ Le autorizzazioni e il consenso per le campagne e i percorsi orchestrati sono ge
 
 In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quot;segmentazione live&quot;, in cui è possibile accedere in tempo reale a tutti i dati disponibili nell’archivio relazionale, creare una query complessa e ottenere il risultato per l’attivazione immediata tramite canali in uscita (ad esempio, e-mail + SMS).
 
->[!BEGINSHADEBOX]
 
 **Suggerimenti**
 
 * Utilizza la segmentazione ad hoc per **esigenze urgenti** (ad esempio, promozioni flash).
 * Salva e documenta le query utili in modo che possano essere riutilizzate nelle campagne future.
 * Convalida il conteggio del pubblico prima dell’attivazione per evitare invii insufficienti o eccessivi.
-
->[!ENDSHADEBOX]
 
 +++
 
@@ -213,15 +192,11 @@ Sì.  Il processo decisionale può utilizzare dati relazionali provenienti da ca
 
 Gli oggetti creati nelle campagne orchestrate (ad esempio, tipi di pubblico e flussi di lavoro) sono legati alla sandbox in cui vengono generati. I flussi di lavoro standard per la creazione di pacchetti e l’implementazione in ambienti diversi (dev, stage, prod) non sono attualmente disponibili per le campagne orchestrate.
 
->[!BEGINSHADEBOX]
-
 **Procedure consigliate**
 
 * Gestisci **sandbox separate** per sperimentazione, controllo qualità e produzione.
 * Configurazioni dei documenti complete per abilitare la replica manuale, se necessario.
 * Allineati ai team di governance per ridurre la deviazione della configurazione tra gli ambienti.
-
->[!ENDSHADEBOX]
 
 +++
 
@@ -276,6 +251,9 @@ Sì, puoi arricchire i dati dall’archivio relazionale e dai tipi di pubblico d
 Le campagne orchestrate supportano i filtri predefiniti: puoi definire e salvare una query come filtro e aggiungerla ai preferiti per riutilizzarla in ulteriori attività di segmentazione.
 
 +++
+
+
+
 
 >[!MORELIKETHIS]
 >
