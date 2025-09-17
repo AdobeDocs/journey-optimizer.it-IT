@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Monitor Experimentation Accelerator
+title: Monitor Journey Optimizer Experimentation Accelerator
 description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare informazioni
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-* [Introduzione a Experimentation Accelerator](experiment-accelerator.md)
-* [Utilizzo dei dati in AI con Experimentation Accelerator](experiment-accelerator-security.md)
-* [Best practice per Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* [Introduzione a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* [Utilizzo dei dati in AI con Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
+* [Best practice per Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
 * **[Esperimenti di monitoraggio](experiment-accelerator-monitor.md)**
 * [Metriche della sperimentazione](experiment-accelerator-metrics.md)
 
@@ -91,7 +91,7 @@ Tieni presente che per generare [approfondimenti esperimento](#insights) devi co
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -135,11 +135,11 @@ Tieni presente che per generare opportunità di esperimento devi prima [conferma
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. Quando si seleziona un&#39;opportunità, viene aperta la finestra **Dettagli opportunità**, in cui viene descritto un trattamento o una variante specifica suggeriti da Experimentation Accelerator. Questa visualizzazione include:
+1. Quando si seleziona un&#39;opportunità, viene aperta la finestra **Dettagli opportunità**, in cui viene descritto un trattamento o una variante specifica suggeriti da Journey Optimizer Experimentation Accelerator. Questa visualizzazione include:
 
    * **[!UICONTROL Ipotesi]**: un&#39;ipotesi generata dall&#39;intelligenza artificiale che spiega il risultato previsto del trattamento suggerito.
 
-   * **[!UICONTROL Motivazione]**: spiegazione del motivo per cui Experimentation Accelerator ha suggerito questa opportunità.
+   * **[!UICONTROL Motivazione]**: spiegazione del motivo per cui Journey Optimizer Experimentation Accelerator ha suggerito questa opportunità.
 
    * **[!UICONTROL Valutazione dell&#39;opportunità]**: una doppia valutazione del consiglio basata su:
 
@@ -158,9 +158,9 @@ Tieni presente che per generare opportunità di esperimento devi prima [conferma
 
    Per gli esperimenti provenienti da **[!DNL Adobe Target]**, le modifiche suggerite verranno invece caricate nel flusso di lavoro di sperimentazione di **[!DNL Adobe Target]**.
 
-   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
-1. Nella vista dell&#39;esperimento, sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Experimentation Accelerator.
+1. Nella vista dell&#39;esperimento sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Journey Optimizer Experimentation Accelerator.
 
    Seleziona **[!UICONTROL Visualizza]** per aprire i dettagli dell&#39;opportunità.
 

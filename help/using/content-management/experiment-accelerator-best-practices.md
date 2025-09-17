@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Best practice per Experimentation Accelerator
+title: Best practice per Journey Optimizer Experimentation Accelerator
 description: Migliora la tua capacità di condurre esperimenti in modo efficace e generare informazioni
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 2%
 
 ---
 
-# Best practice per Experimentation Accelerator {#content-experiment-best-practices}
+# Best practice per Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
 
 >[!BEGINSHADEBOX]
 
-* [Introduzione a Experimentation Accelerator](experiment-accelerator.md)
-* **[Best practice per Experimentation Accelerator](experiment-accelerator-best-practices.md)**
-* [Privacy, sicurezza e governance in Experimentation Accelerator](experiment-accelerator-security.md)
+* [Introduzione a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* **[Best practice per Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)**
+* [Privacy, sicurezza e governance in Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
 * [Monitorare gli esperimenti](experiment-accelerator-monitor.md)
 * [Metriche della sperimentazione](experiment-accelerator-metrics.md)
 
@@ -98,11 +98,11 @@ Esempio: _Si ritiene che la modifica di X determinerà un aumento di Y a causa d
 Un buon esperimento non produce solo una vittoria, produce un apprendimento chiaro e actionable.
 Ecco cosa cercare:
 
-&check; **Affidabilità statistica**: è improbabile che la differenza tra le varianti sia dovuta al caso.
-&check; **Allineamento con obiettivi**: la metrica principale riflette i progressi significativi verso un obiettivo aziendale.
-&check; **Impatto secondario**: nessun effetto collaterale negativo significativo sulle metriche correlate.
-&check; **Scalabilità**: il risultato può informare decisioni future o essere generalizzato in altre aree.
-&check; **Chiarezza**: la causa del risultato è ragionevolmente isolata e compresa.
+&amp;check; **Affidabilità statistica**: è improbabile che la differenza tra le varianti sia dovuta al caso.
+&amp;check; **Allineamento con obiettivi**: la metrica principale riflette i progressi significativi verso un obiettivo aziendale.
+&amp;check; **Impatto secondario**: nessun effetto collaterale negativo significativo sulle metriche correlate.
+&amp;check; **Scalabilità**: il risultato può informare decisioni future o essere generalizzato in altre aree.
+&amp;check; **Chiarezza**: la causa del risultato è ragionevolmente isolata e compresa.
 
 La sperimentazione non consiste solo nel trovare la versione &quot;migliore&quot;, ma nel costruire la conoscenza attraverso test e iterazioni. Se eseguiti correttamente, gli esperimenti rivelano informazioni che guidano decisioni più intelligenti, esperienze utente migliori e risultati migliorati.
 
