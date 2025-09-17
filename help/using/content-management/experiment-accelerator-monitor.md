@@ -91,7 +91,7 @@ Tieni presente che per generare [approfondimenti esperimento](#insights) devi co
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
