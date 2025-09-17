@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 7%
+ht-degree: 25%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="Ricerca in set di dati"
->abstract="Per utilizzare gli attributi di Adobe Experience Platform per il decisioning, è necessario creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]."
+>title="Ricerca nei set di dati"
+>abstract="Per utilizzare gli attributi di Adobe Experience Platform per il decisioning, devi creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
->title="Ricerca in set di dati"
->abstract="Seleziona il set di dati con gli attributi necessari tra tutti i set di dati Adobe Experience Platform abilitati per la ricerca, quindi seleziona una chiave di mappatura (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell’elemento decisione che nel set di dati."
+>title="Ricerca nei set di dati"
+>abstract="Seleziona il set di dati con gli attributi necessari tra tutti i set di dati Adobe Experience Platform abilitati per la ricerca, quindi seleziona una chiave di mappatura (ad esempio, numero di volo o ID cliente) presente sia negli attributi dell’elemento decisione sia nel set di dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -37,11 +37,11 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Ricerca nei set di dati"
->abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per regolare dinamicamente la logica di classificazione in modo da riflettere le condizioni del mondo reale. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
+>abstract="Utilizza gli attributi del set di dati [!DNL Adobe Experience Platform] per regolare dinamicamente la logica di classificazione per riflettere le condizioni reali. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Aggiungi set di dati"
+>title="Aggiungere set di dati"
 >abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per definire i criteri di limitazione in base agli attributi dinamici esterni. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
 
 >[!AVAILABILITY]

@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
 
@@ -69,8 +69,8 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="Seleziona una lunghezza di chiave"
->abstract="La lunghezza della chiave può essere solo 2048 o 4096 bit. Non può essere modificato dopo l’invio del sottodominio."
+>title="Selezionare una lunghezza della chiave"
+>abstract="La lunghezza della chiave può essere solo 2048 o 4096 bit. Non può essere modificata dopo l’invio del sottodominio."
 
 1. Nella sezione **[!UICONTROL Certificato SSL]**, fai clic su **[!UICONTROL Genera CSR]**.
 
@@ -86,7 +86,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
    >[!NOTE]
    >
-   >La lunghezza della chiave può essere solo 2048 o 4096 bit. Non può essere modificato dopo l’invio del sottodominio.
+   >La lunghezza della chiave può essere solo 2048 o 4096 bit. Non può essere modificata dopo l’invio del sottodominio.
 
 1. Fai clic su **[!UICONTROL Scarica CSR]** e salva il modulo nel computer locale.
 

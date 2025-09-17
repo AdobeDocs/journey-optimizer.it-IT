@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -112,7 +112,7 @@ Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare infor
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Espressione"
->abstract="Piuttosto che utilizzare un valore statico per la soglia di quota limite, puoi definire una tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.<br/><br/>Le **espressioni** della regola di limitazione sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limite **[!UICONTROL In totale]**."
+>abstract="Piuttosto che utilizzare un valore statico per la soglia di limitazione, puoi definire la tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.<br/><br/>Le **espressioni** della regola di limitazione sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limitazione **[!UICONTROL In totale]**."
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui un articolo di offerta può essere presentato. Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore. Puoi creare fino a 10 maiuscole per un determinato elemento decisionale.
 
@@ -166,13 +166,13 @@ Per impostare le regole di limitazione per l&#39;elemento di decisione, fare cli
 
    +++Soglia di espressione
 
-   Piuttosto che utilizzare un valore statico per la soglia di quota limite, puoi definire una tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.
+   Piuttosto che utilizzare un valore statico per la soglia di limitazione, puoi definire la tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.
 
    Ad esempio, un addetto marketing può decidere di aggiungere un moltiplicatore per regolare l’esposizione. Ad esempio, possono moltiplicare l’inventario disponibile per due, consentendo di mostrare l’offerta a un numero di clienti doppio rispetto alle unità disponibili. Questo approccio prevede che non tutti i clienti si convertiranno, garantendo una migliore portata senza vendite eccessive.
 
    >[!NOTE]
    >
-   >Le **espressioni** della regola di limitazione di utilizzo sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limite **[!UICONTROL In totale]**.
+   >Le **espressioni** della regola di limitazione di utilizzo sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limitazione **[!UICONTROL In totale]**.
 
    Per utilizzare un&#39;espressione, abilitare l&#39;opzione **[!UICONTROL Espressione]**, quindi modificare l&#39;espressione come desiderato.
 

@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ Una volta che il percorso è attivo, i profili vengono valutati in base ai crite
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
 >title="Metrica di successo"
->abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento."
+>abstract="La metrica di successo viene utilizzata per tracciare e valutare il trattamento dalle prestazioni migliori in un esperimento."
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 

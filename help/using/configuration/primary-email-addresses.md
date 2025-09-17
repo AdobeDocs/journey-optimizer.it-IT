@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 19%
+ht-degree: 27%
 
 ---
 
@@ -66,12 +66,12 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Sostituisci il campo di esecuzione predefinito {#override-default-execution-address}
+## Sostituire il campo di esecuzione predefinito {#override-default-execution-address}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
->title="Definisci un valore personalizzato"
->abstract="In alcuni casi specifici, puoi sovrascrivere l’indirizzo di esecuzione predefinito. Utilizza l&#39;icona **Abilita sostituzione parametro** a destra del campo per definire un indirizzo primario personalizzato."
+>title="Definire un valore personalizzato"
+>abstract="In alcuni casi specifici, puoi sostituire l’indirizzo di esecuzione predefinito. Utilizza l’icona **Abilita sovrasccrittura parametro** a destra del campo per definire un indirizzo primario personalizzato."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informazioni sull’indirizzo di esecuzione"
 
 Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di configurazione e-mail o di percorso.
