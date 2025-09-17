@@ -5,10 +5,10 @@ title: Utilizzare le attività delle campagne orchestrate
 description: Scopri come orchestrare le attività delle campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,10 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 >[!NOTE]
 >
->A seconda del modello di licenza, delle autorizzazioni e dell’implementazione, le attività disponibili possono variare.
+>* A seconda del modello di licenza, delle autorizzazioni e dell’implementazione, le attività disponibili possono variare.
+>
+>* Il numero di attività in una campagna orchestrata è limitato a 500.
+
 
 ## Attività di targeting {#targeting}
 
@@ -48,7 +51,9 @@ Le attività di targeting disponibili sono:
 
 ## Attività di canale {#channel}
 
-Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività del canale nell’area di lavoro per creare una campagna orchestrata cross-channel che può attivare azioni in base al comportamento del cliente. Sono disponibili le seguenti attività di **Canale**: e-mail e SMS. [Scopri come creare un&#39;azione canale nel contesto di una campagna orchestrata](channels.md).
+Adobe Journey Optimizer consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare [attività canale](channels.md) nell&#39;area di lavoro per creare una campagna orchestrata cross-channel che può attivare azioni in base al comportamento del cliente.
+
+Scopri come [creare un&#39;azione canale in una campagna orchestrata](channels.md).
 
 ## Attività di controllo del flusso {#flow-control}
 

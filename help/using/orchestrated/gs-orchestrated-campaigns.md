@@ -6,10 +6,10 @@ description: Scopri come iniziare a utilizzare le campagne orchestrate
 short-description: Scopri le funzioni chiave e i casi d’uso delle campagne orchestrate.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ L’area di lavoro della campagna orchestrata è una rappresentazione di ciò ch
 
 Ogni campagna orchestrata contiene:
 
-* **Attività**: un’attività è un’attività da eseguire. Le varie attività nell’area di lavoro sono rappresentate tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
+* **Attività**: un’attività è un’attività da eseguire. Le [varie attività](activities/about-activities.md) sono rappresentate nell&#39;area di lavoro da icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
 
   In un’area di lavoro della campagna orchestrata, una determinata attività può produrre più attività, in particolare in presenza di un ciclo o di azioni ricorrenti.
 
