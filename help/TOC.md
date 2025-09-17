@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -398,7 +398,7 @@ ht-degree: 98%
          + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
          + [Creare la configurazione del canale Web](using/web/web-configuration.md)
       + [Creare esperienze web](using/web/create-web.md)
-      + Creare pagine web {#author-web-pages}
+      + Eseguire l’authoring delle pagine web {#author-web-pages}
          + [Creare pagine web](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [Utilizzare il Designer web](using/web/web-visual-editor.md)
          + [Utilizzare l’editor non visivo](using/web/web-non-visual-editor.md)
@@ -424,7 +424,7 @@ ht-degree: 98%
    + Schede contenuto {#content-card}
       + [Schede contenuto](/help/rp_landing_pages/content-card-landing-page.md)
       + Configurare il canale della scheda contenuto {#configure}
-         + [Configurare il canale della scheda contenuto](/help/rp_landing_pages/configure-landing-page.md)
+         + [Configurare il canale Scheda contenuto](/help/rp_landing_pages/configure-landing-page.md)
          + [Prerequisiti per le schede contenuto](using/content-card/content-card-configuration-prereq.md)
          + [Configurare il canale delle schede contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configurare il supporto delle schede di contenuto nell’SDK per dispositivi mobili](using/content-card/content-card-lp.md)
@@ -453,7 +453,7 @@ ht-degree: 98%
       + [Riutilizzare frammenti di espressione](using/personalization/use-expression-fragments.md)
       + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta)](using/personalization/aep-data-perso.md)
       + Elenco funzioni helper {#functions}
-         + [Elenco funzioni helper](/help/rp_landing_pages/functions-landing-page.md)
+         + [Elenco funzioni Helper](/help/rp_landing_pages/functions-landing-page.md)
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
          + [Helper per la ricerca di dati esterni](using/personalization/external-data-lookup.md)
          + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [Creare il contenuto della pagina di destinazione](using/landing-pages/lp-content.md)
          + [Creare modelli](using/landing-pages/lp-templates.md)
          + [Aggiungere JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
+      + [Sfruttare i moduli nelle pagine di destinazione](using/landing-pages/lp-forms.md)
       + [Creare un elenco di iscrizione](using/landing-pages/subscription-list.md)
       + [Apprendere attraverso i casi d’uso](using/landing-pages/lp-use-cases.md)
       + Configurare le pagine di destinazione {#lp-configuration}
@@ -541,8 +542,8 @@ ht-degree: 98%
       + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
       + [Creare contenuto multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
    + [Ottimizzazione dei messaggi](using/campaigns/campaigns-message-optimization.md)
-   + Esperimento sui contenuti {#content-experiment}
-      + [Esperimento sui contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
+   + Esperimento contenuti {#content-experiment}
+      + [Esperimento contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introduzione all’esperimento sui contenuti](using/content-management/get-started-experiment.md)
       + [Creare un esperimento sui contenuti](using/content-management/content-experiment.md)
       + Acceleratore esperimento {#experiment}
@@ -575,8 +576,8 @@ ht-degree: 98%
       + [Utilizzo di attributi con più valori](using/audience/computed-attributes.md)
    + [Identità](using/audience/get-started-identity.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
-+ Generazione dei rapporti {#reporting}
-   + [Generazione dei rapporti](/help/rp_landing_pages/reporting-landing-page.md)
++ Reporting {#reporting}
+   + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introduzione ai rapporti](using/reports/gs-reports.md)
    + Rapporto live {#live-report}
       + [Rapporto live](/help/rp_landing_pages/live-report-landing-page.md)
@@ -621,8 +622,8 @@ ht-degree: 98%
       + [Rapporto panoramica](using/reports/channel-report-cja.md)
       + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
       + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
-   + Rapporti sul percorso personalizzati {#reports}
-      + [Rapporti sul percorso personalizzati](/help/rp_landing_pages/reports-landing-page.md)
+   + Rapporti sui percorsi personalizzati {#reports}
+      + [Rapporti sui percorsi personalizzati](/help/rp_landing_pages/reports-landing-page.md)
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
       + Campi evento del passaggio precedente {#legacy-step-event-fields}
@@ -635,14 +636,14 @@ ht-degree: 98%
          + [Campi di identità](using/reports/sharing-identity-fields.md)
       + [Esempi di query](using/reports/query-examples.md)
 + Funzionalità di decisione {#decisioning}
-   + [Funzionalità di decisione](/help/rp_landing_pages/decisioning-landing-page.md)
+   + [Funzionalità decisionali](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
    + Funzione Decisioni {#experience-decisioning}
       + [Funzione Decisioni](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
       + [Guardrail e limitazioni per la funzione Decisioni](using/experience-decisioning/decisioning-guardrails.md)
-      + Riferimento API {#experience-decisioning-api-reference}
-         + [Riferimento API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
+      + Documentazione delle API {#experience-decisioning-api-reference}
+         + [Documentazione delle API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + Creare e gestire gli elementi offerta {#create-manage}
             + Elementi decisionali {#decision-items}
                + [Creare elementi decisionali](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -706,8 +707,8 @@ ht-degree: 98%
          + [Configurare l’acquisizione di eventi](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestione delle decisioni {#offer-decisioning}
       + [Gestione delle decisioni](/help/rp_landing_pages/offer-decisioning-landing-page.md)
-      + Introduzione alla gestione delle decisioni {#get-started-decision}
-         + [Introduzione alla gestione delle decisioni](/help/rp_landing_pages/get-started-decision-landing-page.md)
+      + Consulta la gestione delle decisioni {#get-started-decision}
+         + [Consulta la gestione delle decisioni](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
          + [Guardrail e limitazioni per la gestione delle decisioni](using/offers/decision-management-guardrails.md)
          + [Interfaccia utente](using/offers/get-started/user-interface.md)
@@ -738,8 +739,8 @@ ht-degree: 98%
             + [Aggiungere vincoli](using/offers/offer-library/add-constraints.md)
          + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
          + [Creare raccolte](using/offers/offer-library/creating-collections.md)
-      + Creare e gestire decisioni {#create-manage-activities}
-         + [Creare e gestire decisioni](/help/rp_landing_pages/create-manage-activities-landing-page.md)
+      + Creare e gestire le decisioni {#create-manage-activities}
+         + [Creare e gestire le decisioni](/help/rp_landing_pages/create-manage-activities-landing-page.md)
          + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
          + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
          + [Creare simulazioni](using/offers/offer-activities/simulation.md)
@@ -766,8 +767,8 @@ ht-degree: 98%
          + [Set di dati sulle decisioni](using/offers/export-catalog/export-decisions.md)
          + [Set di dati sui posizionamenti](using/offers/export-catalog/export-placements.md)
          + [Set di dati sui fallback](using/offers/export-catalog/export-fallback.md)
-      + Riferimento API {#api-reference}
-         + [Riferimento API](/help/rp_landing_pages/api-reference-landing-page.md)
+      + Documentazione delle API {#api-reference}
+         + [Documentazione delle API](/help/rp_landing_pages/api-reference-landing-page.md)
          + [Introduzione](using/offers/api-reference/getting-started.md)
          + Creare e gestire le offerte tramite API {#offers-api}
             + Posizionamenti {#placements}
@@ -856,8 +857,8 @@ ht-degree: 98%
                   + [Creare una decisione](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Aggiornare una decisione](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Eliminare una decisione](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + Consegnare offerte tramite API {#offer-delivery-api}
-            + [Consegnare offerte tramite API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
+         + Distribuire offerte tramite API {#offer-delivery-api}
+            + [Distribuire offerte tramite API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [Introduzione alla recapitabilità delle offerte tramite API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -920,8 +921,8 @@ ht-degree: 98%
       + [Utilizzare i dati di Adobe Analytics](using/event/about-analytics.md)
       + [Configurare un evento di business](using/event/about-creating-business.md)
       + [Passaggi aggiuntivi per l’invio di eventi](using/event/additional-steps-to-send-events-to-journey.md)
-   + Configurazione delle origine dati {#data-source-journeys}
-      + [Configurazione delle origine dati](/help/rp_landing_pages/data-source-journeys-landing-page.md)
+   + Configurazione dell’origine dati {#data-source-journeys}
+      + [Configurazione dell’origine dati](/help/rp_landing_pages/data-source-journeys-landing-page.md)
       + [Introduzione alle origini dati](using/datasource/about-data-sources.md)
       + [Configurare un’origine dati](using/datasource/configure-data-sources.md)
       + [Origine dati Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
@@ -940,7 +941,7 @@ ht-degree: 98%
       + [Integrazione del percorso con sistemi esterni](using/configuration/external-systems.md)
       + [API di limitazione di utilizzo](using/configuration/capping.md)
       + [API di limitazione](using/configuration/throttling.md)
-   + Inviare con soluzioni Adobe {#adobe-solutions}
+   + Invia con soluzioni Adobe {#adobe-solutions}
       + [Inviare con soluzioni Adobe](/help/rp_landing_pages/adobe-solutions-landing-page.md)
       + [Azione Campaign Standard nei percorsi](using/action/acs-action.md)
       + [Azione Campaign v7/v8 nei percorsi](using/action/acc-action.md)
