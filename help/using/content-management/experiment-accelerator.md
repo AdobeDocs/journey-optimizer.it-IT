@@ -10,10 +10,10 @@ level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -63,7 +63,36 @@ Gli esperimenti disponibili dipendono dalla configurazione:
 
 * **Per utenti solo Adobe Target**: tutte le attività A/B nell&#39;organizzazione di Target sono incluse nella sandbox di produzione di Journey Optimizer.
 
-Per utilizzare **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, è necessario accedere alla sandbox e alle autorizzazioni correlate seguenti.
+Per utilizzare **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, è necessario accedere alla sandbox e alle seguenti autorizzazioni correlate:
+
+* **[!UICONTROL Visualizza esperimenti]**
+* **[!UICONTROL Gestisci Metada esperimento]**
+
++++ Scopri come assegnare le autorizzazioni correlate a Sperimentat
+
+1. Nel prodotto **[!DNL Permissions]**, vai alla scheda **[!UICONTROL Ruoli]** e seleziona il **[!UICONTROL Ruolo]** desiderato.
+
+1. Fai clic su **[!UICONTROL Modifica]** per modificare le autorizzazioni.
+
+1. Aggiungi la risorsa **[!UICONTROL Acceleratore esperimento]**, quindi seleziona **[!UICONTROL Visualizza esperimenti]** e/o **[!UICONTROL Gestisci esperimento Metada]** dal menu a discesa.
+
+   ![](assets/permissions-experiment.png)
+
+1. Fai clic su **[!UICONTROL Salva]** per applicare le modifiche.
+
+Le autorizzazioni degli utenti già assegnati a questo ruolo verranno aggiornate automaticamente.
+
+Per assegnare questo ruolo ai nuovi utenti:
+
+1. Passa alla scheda **[!UICONTROL Utenti]** nel dashboard Ruoli e fai clic su **[!UICONTROL Aggiungi utente]**.
+
+1. Immetti il nome o l’indirizzo e-mail dell’utente o sceglilo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+
+   Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
+
+L’utente riceverà un’e-mail con istruzioni per accedere all’istanza.
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
