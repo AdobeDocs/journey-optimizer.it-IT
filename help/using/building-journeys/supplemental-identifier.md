@@ -3,9 +3,9 @@ title: Utilizzare identificatori supplementari nei percorsi
 description: Scopri come utilizzare gli identificatori supplementari nei percorsi.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 4%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 4%
 >title="Usare un identificatore supplementare"
 >abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. Per definirlo, seleziona il campo da utilizzare come identificatore supplementare e scegli uno spazio dei nomi da associare."
 
-Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un **ID profilo**. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, [!DNL Journey Optimizer] ti consente di acquisire un **identificatore supplementare**, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all&#39;ID profilo.
-In questo esempio, è stato aggiunto un ID prenotazione come identificatore supplementare.
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-In questo modo, i percorsi vengono eseguiti nel contesto dell’ID profilo associato all’identificatore supplementare (in questo caso, l’ID prenotazione). Viene eseguita un’istanza del percorso per ogni iterazione dell’identificatore supplementare. Questo consente più ingressi dello stesso ID profilo nei percorsi se sono state effettuate prenotazioni diverse.
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identificatore supplementare (ad esempio, numero di prenotazione, data di rinnovo della prescrizione, tipo di prodotto) per la personalizzazione dei messaggi, garantendo comunicazioni altamente pertinenti. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  
+      <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
+      <p>In questo modo, i percorsi vengono eseguiti nel contesto dell’ID profilo associato all’identificatore supplementare (in questo caso, l’ID prenotazione). Viene eseguita un’istanza del percorso per ogni iterazione dell’identificatore supplementare. Questo consente più ingressi dello stesso ID profilo nei percorsi se sono state effettuate prenotazioni diverse.</p>
+      <p>Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identificatore supplementare (ad esempio, numero di prenotazione, data di rinnovo della prescrizione, tipo di prodotto) per la personalizzazione dei messaggi, garantendo comunicazioni altamente pertinenti.</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="Esempio di identificatore supplementare" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [Scopri questa funzione nel video](#video)
 
 ## Guardrail e limitazioni {#guardrails}
 
-* **percorsi supportati**: per il momento, l&#39;uso di identificatori supplementari è disponibile per **percorsi attivati da eventi** e **di pubblico lettura**. Non è disponibile per i percorsi di qualificazione del pubblico.
+* **percorsi supportati**: sono supportati identificatori supplementari per **percorsi attivati da eventi** e **di pubblico di lettura**. Sono **non supportati** per i percorsi di qualificazione del pubblico (ovvero, percorsi che iniziano con un&#39;attività di qualificazione del pubblico).
 
 * **Limiti di istanze simultanee**: i profili non possono avere più di 10 istanze di percorso simultanee.
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **Criteri di uscita**: se attivato, il criterio di uscita determinerebbe l&#39;uscita dal percorso di tutte le istanze del profilo. Non sarebbe contestuale alla combinazione di ID profilo + identificatore supplementare.
 
 * **Regole di frequenza**: ogni istanza di percorso creata da conteggi di utilizzo dell&#39;identificatore supplementare per il limite di frequenza, anche se l&#39;utilizzo di identificatori supplementari genera più istanze di percorso.
 
@@ -77,8 +69,20 @@ Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identifica
 * **Leggi percorsi di pubblico**
 
    * L’ID supplementare è disattivato se utilizzi un evento di business.
-
    * L’ID supplementare deve essere un campo del profilo (ovvero non un campo evento/contesto).
+   * Per i percorsi di pubblico di lettura che utilizzano ID supplementari, la velocità di lettura dell’attività di lettura del pubblico per ogni istanza di percorso è limitata a un massimo di 500 profili al secondo.
+
+## Comportamento dei criteri di uscita con ID supplementari {#exit-criteria}
+
+Precondizione: Percorso abilitato per l’ID supplementare (tramite attività evento unitario o attività di lettura del pubblico)
+
+La tabella seguente spiega il comportamento dei profili in un percorso supplementare abilitato per gli ID quando è configurato il criterio di uscita:
+
+| Configurazione criteri di uscita | Comportamento quando vengono soddisfatti i criteri di uscita |
+| ---------------------------- | ---------------------------------- |
+| Basato su un evento ID non supplementare | Tutte le istanze del profilo corrispondente nel percorso sono chiuse. |
+| In base a un evento ID supplementare <br/>*Nota: lo spazio dei nomi ID supplementare deve corrispondere a quello del nodo iniziale.* | Viene chiusa solo l’istanza di profilo + ID supplementare corrispondente. |
+| In base a un pubblico | Tutte le istanze del profilo corrispondente nel percorso sono chiuse. |
 
 ## Aggiungere un identificatore supplementare e sfruttarlo in un percorso {#add}
 
@@ -251,4 +255,4 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

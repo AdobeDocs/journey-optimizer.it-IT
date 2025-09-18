@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -196,29 +196,10 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 
-### Aggiorna il profilo {#update-profile-g}
 
-All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail specifici. Sono elencati in [questa pagina](../building-journeys/update-profiles.md).
+### Identificatori supplementari {#supplemental}
 
-### Leggi pubblico {#read-segment-g}
-
-All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
-
-* I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
-* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con **Leggi pubblico**, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
-* L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
-* L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
-* Un percorso può disporre di una sola attività **Leggi pubblico**.
-* Consulta anche i consigli su come utilizzare l’attività **Leggi pubblico** in [questa pagina](../building-journeys/read-audience.md).
-* I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
-
-Consulta anche [questa pagina](../building-journeys/read-audience.md#must-read).
-
-### Qualificazione del pubblico {#audience-qualif-g}
-
-All’attività del percorso [qualificazione del pubblico](../building-journeys/audience-qualification-events.md) viene applicato il seguente guardrail:
-
-* L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
+All’uso di identificatori supplementari nei percorsi si applicano protezioni specifiche. Sono elencati in [questa pagina](../building-journeys/supplemental-identifier.md#guardrails)
 
 ### Editor espressioni {#expression-editor}
 
@@ -227,8 +208,23 @@ All’[editor di espressioni del percorso](../building-journeys/expression/expre
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. È necessario creare un nuovo pubblico e utilizzare una condizione `inaudience` nel percorso.
 * Non è possibile utilizzare gli attributi `timeSeriesEvents` nell’editor di espressioni. Per accedere agli eventi di esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
 
+### Attività percorso {#activities}
 
-### Attività in-app {#in-app-activity-limitations}
+#### Attività qualificazione pubblico {#audience-qualif-g}
+
+All’attività del percorso [qualificazione del pubblico](../building-journeys/audience-qualification-events.md) viene applicato il seguente guardrail:
+
+* L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
+* Gli identificatori supplementari non sono supportati per i percorsi di qualificazione del pubblico.
+
+#### Attività di Campaign {#ac-g}
+
+I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
+
+* Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
+* Le attività di Campaign non possono essere utilizzate con le attività degli altri canali: schede, esperienze basate su codice, e-mail, push, SMS, messaggi in-app, web.
+
+#### Attività in-app {#in-app-activity-limitations}
 
 All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti guardrail: Ulteriori informazioni sui messaggi in-app sono disponibili in [questa pagina](../in-app/create-in-app.md).
 
@@ -248,16 +244,28 @@ All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti gua
 
 * La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
 
-### Attività Salta {#jump-g}
+#### Attività Salta {#jump-g}
 
 All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono elencati in [questa pagina](../building-journeys/jump.md#jump-limitations).
 
-### Attività di Campaign {#ac-g}
+#### Attività Read audience {#read-segment-g}
 
-I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
+All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
-* Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
-* Le attività di Campaign non possono essere utilizzate con le attività degli altri canali: schede, esperienze basate su codice, e-mail, push, SMS, messaggi in-app, web.
+* I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
+* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con **Leggi pubblico**, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+* L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
+* L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
+* Un percorso può disporre di una sola attività **Leggi pubblico**.
+* Consulta anche i consigli su come utilizzare l’attività **Leggi pubblico** in [questa pagina](../building-journeys/read-audience.md).
+* I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
+* Per i percorsi che utilizzano ID supplementari, la velocità di lettura dell’attività di lettura del pubblico per ogni istanza del percorso è limitata a un massimo di 500 profili al secondo.
+
+Consulta anche [questa pagina](../building-journeys/read-audience.md#must-read).
+
+#### Attività Aggiorna profilo {#update-profile-g}
+
+All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail specifici. Sono elencati in [questa pagina](../building-journeys/update-profiles.md).
 
 ## Guardrail per l’orchestrazione delle campagne {#orchestration-guardrails}
 
