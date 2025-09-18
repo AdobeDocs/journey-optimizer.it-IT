@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 16%
+source-wordcount: '1226'
+ht-degree: 15%
 
 ---
 
@@ -65,12 +65,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
-   * **[!UICONTROL Ora]** - Il limite di frequenza è valido per il numero di ore selezionato (minimo 3 ore). Il contatore viene reimpostato automaticamente all&#39;inizio di ogni finestra temporale. Per un limite di frequenza di 3 ore, viene ripristinato ogni 3 ore, in coincidenza con la fine di un’ora UTC.
-
-     >[!AVAILABILITY]
-     >
-     >Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per l’attivazione.
-
+   * **[!UICONTROL Ora]** - Il limite di frequenza è valido per il numero di ore selezionato. Il contatore viene reimpostato automaticamente all&#39;inizio di ogni finestra temporale. Per un limite di frequenza di 1 ora, viene ripristinato ogni ora, in coincidenza con la fine di un’ora UTC.
    * **[!UICONTROL Giornaliero]** - Il limite di frequenza giornaliero è valido per il giorno fino alle 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
    * **[!UICONTROL Settimanale]** - Il limite di frequenza è valido fino a sabato 23:59:59 UTC della settimana in cui inizia la settimana solare di domenica. La data di scadenza si applica indipendentemente da quando è stata creata la regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
    * **[!UICONTROL Mensile]** - Il limite di frequenza è valido fino all&#39;ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
@@ -83,7 +78,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
 1. Il campo **[!UICONTROL Ogni]** consente di ripetere le regole di limitazione della frequenza in più ore, giorni, settimane o mesi, a seconda della durata specificata. Esempio: applica la regola del limite di frequenza per 2 settimane.
 
-   Assicurati di immettere un valore che corrisponda al tipo di durata selezionato: 3-23 per Orario, 1-30 per Giornaliero, 1-4 per Settimanale e 1-3 per Mensile.
+   Assicurati di immettere un valore che corrisponda al tipo di durata selezionato: 1-23 per Ogni ora, 1-30 per Ogni giorno, 1-4 per Ogni settimana e 1-3 per Ogni mese.
 
    Il contatore viene reimpostato automaticamente su 0 quando inizia una nuova finestra temporale. Per un limite di frequenza di 2 giorni, questo si reimposta ogni due giorni alla mezzanotte UTC.
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
