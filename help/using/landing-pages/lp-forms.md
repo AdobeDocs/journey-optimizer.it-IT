@@ -11,9 +11,9 @@ keywords: destinazione, pagina di destinazione, creazione, pagina, modulo
 badge: label="Disponibilità limitata" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
+source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1137'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 >id="ajo_lp_form_connection"
 >title="Seleziona l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -85,6 +85,12 @@ Per accedere all&#39;elenco dei moduli, seleziona **[!UICONTROL Gestione contenu
 Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al loro stato, alla data di creazione o di modifica.
 
 ## Creare e progettare un modulo {#create-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_form_preset"
+>title="Seleziona un predefinito"
+>abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
@@ -129,7 +135,7 @@ Per creare un modulo, attieniti alla procedura seguente.
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="Pagina di ringraziamento"
->abstract="Configurare l&#39;operazione da eseguire quando un utente compila o inoltra un modulo."
+>abstract="Configurare l&#39;operazione da eseguire quando un utente compila o inoltra il modulo."
 
 Nella sezione **[!UICONTROL Pagina di ringraziamento]**, configura cosa accade quando un utente compila il modulo.
 
