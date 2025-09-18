@@ -3,7 +3,7 @@ title: Utilizzare identificatori supplementari nei percorsi
 description: Scopri come utilizzare gli identificatori supplementari nei percorsi.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 4%
@@ -255,4 +255,4 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
