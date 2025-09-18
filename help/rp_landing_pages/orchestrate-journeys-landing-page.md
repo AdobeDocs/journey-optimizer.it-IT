@@ -5,16 +5,16 @@ title: Percorsi
 description: Percorsi
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '276'
-ht-degree: 100%
+source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 85%
 
 ---
 
 # Percorsi{#section-overview}
 
-I percorsi in Adobe Journey Optimizer ti consentono di creare percorsi cliente personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto. Sia che si tratti di esplorare trigger in tempo reale, gestire le proprietà del percorso o utilizzare strumenti avanzati come azioni ed espressioni personalizzate, questa sezione fornisce una chiara roadmap. Approfondisci guide pratiche, casi d’uso e suggerimenti per la risoluzione dei problemi, per progettare e perfezionare in sicurezza percorsi che offrano esperienze cliente significative e tempestive.
+I percorsi in Adobe Journey Optimizer ti consentono di creare percorsi di clienti personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto. Sia che si tratti di esplorare trigger in tempo reale, gestire le proprietà del percorso o utilizzare strumenti avanzati come azioni ed espressioni personalizzate, questa sezione fornisce una chiara roadmap. Approfondisci guide pratiche, casi d’uso e suggerimenti per la risoluzione dei problemi, per progettare e perfezionare in sicurezza percorsi che offrano esperienze cliente significative e tempestive.
 
 ## Panoramica sui percorsi
 
@@ -85,3 +85,7 @@ Esplora le applicazioni reali di Adobe Journey Optimizer, inclusa la messaggisti
 ## Risorse aggiuntive
 
 - **[Risoluzione dei problemi dei percorsi cliente](troubleshoot-journey-landing-page.md)**: diagnostica e risolvi i problemi di esecuzione del percorso con strumenti, codici di errore e best practice per il debug e l’ottimizzazione.
+
+- **[Abbonati agli avvisi di Percorso](../using/reports/alerts.md)** - Scopri come gestire gli avvisi di sistema, abbonarti alle notifiche e risolvere i problemi in percorsi e campagne.
+
+
