@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
+source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1548'
 ht-degree: 30%
 
 ---
@@ -58,6 +58,22 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tr>
 </tbody>
 </table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoraggio e reporting delle azioni personalizzate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono ora disponibili monitoraggio e reporting delle azioni personalizzati. Questa funzionalità fornisce una migliore visibilità sullo stato e sull'esecuzione del percorso, inclusi gli avvisi sullo stato del ciclo di vita e sulle prestazioni. Ora puoi capire rapidamente quando, dove e perché si verifica una situazione anomala in un’azione personalizzata.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -246,9 +262,6 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 
 - **Simulazione delle varianti di contenuto per tutti i canali in entrata**\
   Precedentemente disponibile solo per i canali di notifica e-mail, SMS e push, la simulazione delle varianti di contenuto ora si applica anche a tutti i canali in entrata.
-
-- **Monitoraggio e reporting azioni personalizzati**\
-  Questa funzionalità fornisce una migliore visibilità sullo stato e sull&#39;esecuzione del percorso, inclusi gli avvisi sullo stato del ciclo di vita e sulle prestazioni. Ora puoi capire rapidamente quando, dove e perché si verifica una situazione anomala in un’azione personalizzata.
 
 - **Supporto webhook per campagne attivate da API**\
   Le campagne attivate da API ora supportano i webhook. Configura un URL del webhook per ricevere aggiornamenti di stato in tempo reale per ogni messaggio, migliorando l’osservabilità e abilitando il monitoraggio e l’automazione senza soluzione di continuità.
