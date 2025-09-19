@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 69%
+source-wordcount: '3045'
+ht-degree: 68%
 
 ---
 
@@ -270,9 +270,9 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 * **Supporto di reindirizzamento nelle azioni personalizzate del Percorso**\
   I reindirizzamenti (302) sono ora supportati nelle azioni personalizzate del Percorso.
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **Modalità di throughput elevato per campagne e-mail attivate da API**\
+  Nelle campagne attivate dall’API è ora disponibile la nuova modalità Alta velocità. Questa modalità è progettata per la messaggistica in tempo reale su larga scala (fino a 5000 transazioni al secondo) e fornisce maggiore disponibilità con latenza inferiore.\
+  Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe High Throughput per la messaggistica transazionale. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti e consente di scegliere 1 ora (in precedenza 3 ore). [Ulteriori informazioni](../conflict-prioritization/channel-capping.md). Data di disponibilità: 17 settembre
 
