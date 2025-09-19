@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
+source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
 workflow-type: tm+mt
-source-wordcount: '3045'
-ht-degree: 68%
+source-wordcount: '3064'
+ht-degree: 67%
 
 ---
 
@@ -260,6 +260,8 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 
 * **Supporto per la ricerca di set di dati in percorsi**\
   Una nuova attività in percorsi, **Ricerca set di dati**, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non risiedere nel profilo o nel payload dell’evento, garantendo che le interazioni dei clienti siano pertinenti e tempestive.
+
+  Questa attività è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 * **Simulazione delle varianti di contenuto per tutti i canali in entrata**\
   Precedentemente disponibile solo per i canali di notifica e-mail, SMS e push, la simulazione delle varianti di contenuto ora si applica anche a tutti i canali in entrata.
