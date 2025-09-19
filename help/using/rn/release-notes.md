@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3093'
 ht-degree: 67%
 
 ---
@@ -103,7 +103,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Ai Assistant ora include competenze Journey Agent fondamentali per Journey Optimizer, consentendo ai professionisti di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. Grazie a queste nuove competenze, gli utenti possono analizzare e creare (a breve) percorsi per rilevare e risolvere potenziali conflitti di pianificazione o di pubblico.</p>
+<p>Con tecnologia Adobe Experience Platform Agent Orchestrator, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 * **Avvisi nuovo Percorso**\
   Sono disponibili nuovi avvisi preconfigurati per i percorsi:
+
    * Percentuale di eliminazione profilo superata: rapporto tra gli scarti del profilo e i profili immessi negli ultimi 5 minuti hanno superato la soglia.
    * Frequenza errori azione personalizzata superata: rapporto tra gli errori azione personalizzata e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia.
    * Frequenza errori profilo superata: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.
+
+  Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di percorso anziché a livello globale.
 
 * **I parametri del corpo JSON nidificati sono ora supportati nell&#39;autenticazione personalizzata**\
   Durante la configurazione dell&#39;autenticazione personalizzata per un&#39;azione personalizzata, sono ora supportati gli oggetti JSON nidificati (ad esempio, oggetti secondari all&#39;interno di `bodyParams`).
@@ -252,7 +255,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
   Per personalizzare ulteriormente l’indirizzo e-mail per annullare l’abbonamento, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è già disponibile per il collegamento personalizzato con un solo clic per annullare l’abbonamento a partire dalla versione del 25 agosto.
 
-* ***Supporto mTLS per il canale SMS**
+* Supporto di **mTLS per il canale SMS**
 Durante la configurazione di un provider SMS personalizzato, ora è possibile abilitare l’autenticazione reciproca TLS (mTLS), che richiede sia al client che al server di confermare l’identità dell’altro prima che venga stabilita una connessione sicura.
 
 * **Schemi basati su modelli**\
