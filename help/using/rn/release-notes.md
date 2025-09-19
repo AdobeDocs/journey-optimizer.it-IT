@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
+source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
 workflow-type: tm+mt
-source-wordcount: '3148'
-ht-degree: 65%
+source-wordcount: '3120'
+ht-degree: 66%
 
 ---
 
@@ -248,9 +248,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 * **I parametri del corpo JSON nidificati sono ora supportati nell&#39;autenticazione personalizzata**\
   Durante la configurazione dell&#39;autenticazione personalizzata per un&#39;azione personalizzata, sono ora supportati gli oggetti JSON nidificati (ad esempio, oggetti secondari all&#39;interno di `bodyParams`).
 
-* **Allega frammenti agli elementi decisionali**\
-  Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basate su codice tramite i criteri decisionali.
-
 * **Supporto di attributi personalizzati con URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**\
   Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare un endpoint esterno personalizzato definendo un collegamento con un solo clic per annullare l’abbonamento nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
@@ -278,20 +275,15 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
   Nelle campagne attivate dall’API è ora disponibile la nuova modalità Alta velocità. Questa modalità è progettata per la messaggistica in tempo reale su larga scala (fino a 5000 transazioni al secondo) e fornisce maggiore disponibilità con latenza inferiore.\
   Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe High Throughput per la messaggistica transazionale. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-
 * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti e consente di scegliere 1 ora (in precedenza 3 ore). [Ulteriori informazioni](../conflict-prioritization/channel-capping.md). Data di disponibilità: 17 settembre
 
 * **Supporto di domini dinamici** - Journey Optimizer ora supporta la personalizzazione URL completa/di base per i domini predefiniti accettati da Adobe. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-  >[!NOTE]
-  >
-  >Questa funzionalità è disponibile in Disponibilità limitata per un set di clienti.
+  Questa funzionalità è disponibile in Disponibilità limitata per un set di clienti.
 
 * **Espressione per le regole di limitazione delle decisioni** - È ora possibile creare espressioni personalizzate per definire la soglia di una regola di limitazione per un elemento di decisione. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >Questa funzionalità è attualmente disponibile come Disponibilità limitata per tutti gli utenti.
+  Questa funzionalità è attualmente disponibile come Disponibilità limitata per tutti gli utenti.
 
 * **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui si verifichi un errore di configurazione del canale e-mail utilizzando il tipo di delega del sottodominio personalizzato. [Ulteriori informazioni](../reports/alerts.md#alert-dns-record-missing)
 
