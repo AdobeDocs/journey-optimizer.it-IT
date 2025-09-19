@@ -11,9 +11,9 @@ keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1298'
 ht-degree: 6%
 
 ---
@@ -74,7 +74,7 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
 1. Fai clic su **[!UICONTROL Crea esperimento]**.
 
-1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento.
+1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento. Ulteriori informazioni sulle metriche disponibili e su come configurare l&#39;elenco in [questa sezione](success-metrics.md).
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
 Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso più performante e fornisce informazioni fruibili.
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Segui il successo del tuo percorso con il rapporto Percorsi Path Experiment (Esperimento percorso ). [Ulteriori informazioni](../reports/journey-global-report-cja-experimentation.md)
 
 ### Casi di utilizzo dell’esperimento {#uc-experiment}
 
@@ -224,7 +224,7 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 Una volta che il percorso è attivo, il percorso specificato per ciascun segmento viene elaborato in modo che i membri Gold entrino nel percorso con le offerte e-mail, mentre gli altri membri entrino nel percorso con il promemoria SMS.
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Segui il successo del tuo percorso con il rapporto sul Percorso. [Ulteriori informazioni](../reports/journey-global-report-cja.md#targeting)
 
 ### Casi di utilizzo delle regole di targeting {#uc-targeting}
 
