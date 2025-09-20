@@ -30,7 +30,7 @@ Esplora una panoramica delle funzioni principali disponibili, suddivise per tipo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzo della funzione inAudience
 

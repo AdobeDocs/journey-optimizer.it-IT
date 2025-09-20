@@ -60,7 +60,7 @@ Scopri come gestire array ed elenchi con funzioni quali il conteggio, il recuper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
 
 Libreria delle funzioni di Data e Ora
 

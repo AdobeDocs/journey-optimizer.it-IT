@@ -50,7 +50,7 @@ Scopri come aggiungere messaggi LINE ai percorsi e alle campagne, personalizzare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Verificare e inviare i messaggi LINE
 

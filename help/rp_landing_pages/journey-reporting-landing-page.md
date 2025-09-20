@@ -30,7 +30,7 @@ Scopri come analizzare e ottimizzare le prestazioni del percorso utilizzando met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Rapporti sul percorso basati su codice
 
@@ -70,7 +70,7 @@ Ottieni informazioni approfondite su prestazioni e coinvolgimento delle e-mail e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
 
 Informazioni sulla messaggistica in-app
 

@@ -50,7 +50,7 @@ Salva le pagine di destinazione come modelli e riutilizzali per semplificare il 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Utilizzare JavaScript personalizzato nelle pagine di destinazione
 

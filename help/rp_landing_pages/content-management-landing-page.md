@@ -40,7 +40,7 @@ Scopri strumenti e tutorial per creare, gestire e ottimizzare le pagine di desti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Modelli di contenuto in Adobe Journey Optimizer
 

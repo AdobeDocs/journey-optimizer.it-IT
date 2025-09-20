@@ -60,7 +60,7 @@ Informazioni sui campi relativi all’esecuzione di azioni negli eventi journeyS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Campi di recupero dati
 

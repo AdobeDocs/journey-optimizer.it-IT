@@ -50,7 +50,7 @@ Crea percorsi che sfruttano la segmentazione del pubblico e i trigger di eventi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Inviare un messaggio con Campaign v7/v8
 

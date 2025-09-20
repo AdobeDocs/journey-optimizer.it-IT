@@ -30,7 +30,7 @@ Scopri la gestione delle decisioni in Adobe Journey Optimizer, compresi i vantag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni per la gestione delle decisioni
 
