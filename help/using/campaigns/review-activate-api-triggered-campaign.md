@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 4%
 
 ---
 
 # Rivedi e attiva la campagna attivata dall’API {#api-review}
 
-Una volta configurata la campagna Action, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
+Una volta configurata la campagna attivata dall’API, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,6 @@ Una volta configurata la campagna Action, devi esaminarne il parametro e il cont
    Lo stato **[!UICONTROL Completato]** viene assegnato automaticamente alla campagna 3 giorni dopo la sua attivazione o alla data di fine se ha un&#39;esecuzione ricorrente. [Ulteriori informazioni sugli stati delle campagne](get-started-with-campaigns.md#statuses).
 
    Se non è stata specificata alcuna data di fine, la campagna mantiene lo stato **[!UICONTROL Live]**. Per modificarlo, devi interrompere la campagna manualmente. [Scopri come interrompere una campagna](manage-campaigns.md)
-
 
 1. Dopo l’attivazione di una campagna, puoi controllarne le informazioni in qualsiasi momento aprendola. Il riepilogo consente di ottenere statistiche sul numero di profili target e di azioni consegnate e non riuscite.
 

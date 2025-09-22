@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 31%
 
 ---
 
 # Introduzione alle funzionalità decisionali in [!DNL Journey Optimizer] {#gs-decision}
 
-Le funzionalità decisionali di [!DNL Journey Optimizer] ti consentono di offrire ai tuoi clienti le migliori offerte ed esperienze personalizzate in tutti i punti di contatto, proprio nel momento giusto. Queste funzionalità semplificano la personalizzazione attraverso un catalogo centralizzato di offerte di marketing e un motore decisionale avanzato, che utilizza regole e criteri di classificazione per fornire i contenuti più rilevanti per ogni individuo.
+Le funzionalità decisionali di [!DNL Journey Optimizer] ti consentono di offrire ai tuoi clienti le migliori offerte ed esperienze personalizzate in tutti i punti di contatto, proprio nel momento giusto. Queste funzionalità semplificano la personalizzazione attraverso un catalogo centralizzato di offerte di marketing e un motore decisionale avanzato, che utilizza regole e criteri di classificazione per fornire i contenuti più rilevanti per ogni singolo utente.
 
 Vantaggi principali:
 
@@ -46,6 +46,6 @@ Decisioning è attualmente supportato nel canale di esperienza basato su codice.
 
 La nostra consolidata funzione in Journey Optimizer, Decision Management utilizza una libreria centrale di offerte di marketing e un motore decisionale che applica regole e vincoli ai profili dei clienti in tempo reale, sfruttando i dati di Adobe Experience Platform per fornire l’offerta giusta al momento giusto.
 
-Gestione delle decisioni supporta attualmente quattro canali: e-mail, messaggistica in-app, notifiche push e SMS.
+La funzione di gestione delle decisioni supporta i seguenti canali: e-mail, messaggistica in-app, notifiche push, SMS e direct mail.
 
 ➡️ [Introduzione alla gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
