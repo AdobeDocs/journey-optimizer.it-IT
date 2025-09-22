@@ -11,7 +11,8 @@ keywords: destinazione, pagina di destinazione, creazione, pagina, modulo
 badge: label="Disponibilità limitata" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
+exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 3%
@@ -32,7 +33,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 >id="ajo_lp_form_connection"
 >title="Seleziona l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +69,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -90,7 +91,7 @@ Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al
 >id="ajo_lp_form_preset"
 >title="Seleziona un predefinito"
 >abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
