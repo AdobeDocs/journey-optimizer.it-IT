@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 67%
@@ -292,6 +292,8 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 
 * **Avvisi di monitoraggio della configurazione del canale** - È ora possibile abbonarsi per ricevere gli avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, nel caso in cui si verifichi un errore di configurazione del canale e-mail utilizzando il tipo di delega del sottodominio personalizzato. [Ulteriori informazioni](../reports/alerts.md#alert-dns-record-missing)
 
+* **Richieste di annullamento dell&#39;iscrizione con un solo clic** - Sono stati introdotti miglioramenti che rafforzano ulteriormente la gestione delle richieste di annullamento dell&#39;iscrizione con un solo clic configurate in Gestione Adobe, garantendo un&#39;elaborazione affidabile e coerente.
+
 
 ## Note sulla versione di agosto 2025 {#25-8-rn}
 
@@ -532,8 +534,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
    * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
      Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
-
-   * **Richieste di annullamento dell&#39;iscrizione con un solo clic** - Sono stati introdotti miglioramenti che rafforzano ulteriormente la gestione delle richieste di annullamento dell&#39;iscrizione con un solo clic configurate in Gestione Adobe, garantendo un&#39;elaborazione affidabile e coerente.
 
 * **Set di dati**
 
