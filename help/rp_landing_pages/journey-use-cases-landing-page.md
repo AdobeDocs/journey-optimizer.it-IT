@@ -5,10 +5,10 @@ title: Casi d’uso
 description: Casi d’uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ Crea percorsi che sfruttano la segmentazione del pubblico e i trigger di eventi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inviare un messaggio con Campaign v7/v8
 
@@ -86,3 +86,4 @@ Scopri come configurare azioni personalizzate per trasmettere le raccolte di dat
 
 - **[Limita la velocità effettiva con origini dati esterne e azioni personalizzate](../using/building-journeys/limit-throughput.md)**: ottimizza la velocità effettiva del percorso e gestisci i limiti per i sistemi esterni tramite le origini dati e le azioni personalizzate.
 - **[Utilizza azioni personalizzate per scrivere eventi di percorso in Experience Platform](../using/building-journeys/custom-action-aep.md)**: configura chiamate autenticate ed endpoint API HTTP per scrivere eventi di percorso in Adobe Experience Platform.
+- **[Rimuovi profili da un percorso attivo](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** - Per motivi aziendali o operativi, potrebbe essere necessario rimuovere alcuni profili da un percorso attivo ed escludere i profili che corrispondono a criteri specifici attualmente nel percorso. Questa operazione può essere eseguita sospendendo il percorso.

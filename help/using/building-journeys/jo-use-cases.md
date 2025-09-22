@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Apprendere attraverso i casi d’uso
+title: Apprendi attraverso i casi d’uso
 description: Panoramica sui casi di utilizzo dei percorsi
 feature: Journeys, Use Cases
 role: User, Data Engineer
@@ -9,14 +9,14 @@ level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: d11a34dd13301a141fbd2ca715d3ba9d904c4f08
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '770'
 ht-degree: 9%
 
 ---
 
-# Apprendere attraverso i casi d’uso {#jo-uc-gs}
+# Apprendi attraverso i casi d’uso {#jo-uc-gs}
 
 Questa sezione riunisce una raccolta di casi d’uso pratici per aiutarti a ottenere il massimo da Adobe Journey Optimizer. Di seguito sono riportati collegamenti a esempi rilevanti per la ricerca di modelli tattici (ad esempio logica di soppressione, tecniche di personalizzazione o strategie di uscita dal percorso) o scenari completi che includono flussi di lavoro tecnici e di marketing.
 
@@ -83,7 +83,7 @@ Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi
 </td>
 <td>
 <a href="message-to-subscribers-uc.md">
-<img alt="Inviare un messaggio agli abbonati" src="../assets/do-not-localize/start-quick.png">
+<img alt="Inviare un messaggio agli iscritti" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
 <a href="message-to-subscribers-uc.md"><strong>Invia ai tuoi abbonati</strong></a>
@@ -96,7 +96,7 @@ Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Passaggio dinamico delle raccolte tramite azioni personalizzate" src="../assets/do-not-localize/icon-configure.svg">
+<img alt="Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>Passaggio dinamico delle raccolte con azioni personalizzate</strong></a>
@@ -108,6 +108,14 @@ Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi
 <img alt="Limite di trasmissione con origini dati esterne e azioni personalizzate" src="../assets/do-not-localize/icon-first-journey.svg">
 </a>
 <div><a href="limit-throughput.md"><strong>Velocità effettiva limitata con origini dati esterne e azioni personalizzate</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey">
+<img alt="Rimuovere profili da un percorso live" src="../assets/do-not-localize/icon_profile-audience.svg">
+</a>
+<div><a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey"><strong>Velocità effettiva limitata con origini dati esterne e azioni personalizzate</strong></a>
 </div>
 <p>
 </td>
