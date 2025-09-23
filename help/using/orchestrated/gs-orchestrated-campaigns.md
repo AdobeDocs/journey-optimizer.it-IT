@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
 >[!NOTE]
 >
->I canali supportati sono: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
+>I canali supportati sono: [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
 >
 >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
