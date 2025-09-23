@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La query restituisce, per il periodo definito, il numero di profili che sono entrati nel percorso ogni giorno. Se un profilo immesso tramite più identità, verrà conteggiato due volte. Se è abilitata la rientrata, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è rientrato nel percorso in un giorno diverso.
+
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Controlla se un evento esterno di un profilo è stato scartato per qualsiasi altro motivo
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Controllare il conteggio di tutti gli eventi eliminati da stateMachine tramite errorCode
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 ## Query comuni basate su percorso {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 La query restituisce, per il periodo definito, il numero di percorsi univoci attivati ogni giorno. Un singolo percorso che si attiva su più giorni verrà conteggiato una volta al giorno.
+
 
 +++
 

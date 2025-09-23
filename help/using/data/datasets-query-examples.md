@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -241,7 +241,7 @@ group by
 
 Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso](../reports/query-examples.md).
 
-
+Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percorsi_step_events](../reports/sharing-field-list.md#discarded-events).
 
 ## Set di dati dell’evento Decisioning{#ode-decisionevents}
 
