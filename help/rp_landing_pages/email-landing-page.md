@@ -6,15 +6,15 @@ description: Canale e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Canale e-mail{#section-overview}
 
-Il canale e-mail in Adobe Journey Optimizer ti consente di progettare, configurare e consegnare campagne e-mail di impatto con precisione e creatività. Che tu stia creando messaggi personalizzati con l’intuitivo Email Designer, configurando sofisticati percorsi e campagne e-mail o gestendo rinunce per motivi di conformità, questo canale offre ogni aspetto del marketing via e-mail sotto un unico tetto. Inizia impostando il canale e-mail per una recapitabilità e una personalizzazione ottimali, quindi esplora gli strumenti per creare contenuti dinamici che suscitano interesse nel pubblico. Approfondisci argomenti avanzati, come la gestione della reputazione del mittente e il raggiungimento della conformità DMARC, per garantire che le e-mail arrivino dove dovrebbero. Dalla configurazione perfetta alla progettazione efficace e alla consegna strategica, il canale e-mail ti consente di trasformare il marketing via e-mail in un motore affidabile e basato sui dati per il coinvolgimento cliente.
+Il canale e-mail in Adobe Journey Optimizer ti consente di progettare, configurare e consegnare campagne e-mail di impatto con precisione e creatività. Questo canale raggruppa ogni aspetto del marketing via e-mail in un unico punto: la creazione di messaggi personalizzati con l’intuitivo E-mail designer, la configurazione di percorsi e campagne e-mail sofisticate, oppure la gestione di rinunce per motivi di conformità. Inizia impostando il canale e-mail per una recapitabilità e una personalizzazione ottimali, quindi esplora gli strumenti per creare contenuti dinamici che suscitano interesse nel pubblico. Approfondisci argomenti avanzati, come la gestione della reputazione del mittente e il raggiungimento della conformità DMARC, per garantire che le e-mail arrivino alla destinazione appropriata. Dalla configurazione perfetta alla progettazione efficace e alla consegna strategica, il canale e-mail ti consente di trasformare il marketing via e-mail in un motore affidabile e basato sui dati per il coinvolgimento cliente.
 
 È possibile creare le consegne e-mail:
 
@@ -32,7 +32,7 @@ Il canale e-mail in Adobe Journey Optimizer ti consente di progettare, configura
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare un messaggio e-mail
 
@@ -42,7 +42,7 @@ Guida dettagliata per aggiungere, configurare e testare azioni e-mail in percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Progettare e ottimizzare del contenuto delle e-mail
 
@@ -52,7 +52,7 @@ Esplora gli strumenti e le best practice per la progettazione di contenuti e-mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire la rinuncia alle e-mail
 
@@ -62,7 +62,7 @@ Configura meccanismi di rinuncia con un solo clic o in due passaggi per gestire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale e-mail
 
@@ -72,7 +72,7 @@ Imposta e gestisci le configurazioni delle e-mail, ad esempio la delega dei sott
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Padroneggiare la recapitabilità delle e-mail
 

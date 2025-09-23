@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di
 
 >[!NOTE]
 >
->* I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
+>* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 >
 >* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 >
@@ -360,5 +360,5 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
->title="Attività di ricerca set di dati"
->abstract="L&#39;attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non risiedere nel profilo o nel payload dell’evento, garantendo che le interazioni dei clienti siano pertinenti e tempestive."
+>title="Attività di ricerca del set di dati"
+>abstract="L’attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive."

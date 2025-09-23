@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -56,12 +56,12 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne azioni): ideale per comunicazioni in batch semplici e una tantum che puoi pianificare per essere eseguite in un momento specifico.<br>**Campagne attivate da API** - Attivate tramite una chiamata API, abilitando la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: fornisci un&#39;area di lavoro visiva e trascinata per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi tra i canali."
+>abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne di azione): ideali per comunicazioni batch semplici e una tantum che puoi pianificare per essere eseguite in un momento specifico.<br>**Campagne attivate da API**: vengono attivate tramite una chiamata API e abilitano la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campagne"
->abstract="Crea il flusso di segmentazione, realizza i messaggi cross-channel e pianifica le campagne. Canali supportati: e-mail, SMS, notifica push."
+>abstract="Crea il flusso di segmentazione, definisci i messaggi cross-channel e pianifica le campagne. Canali supportati: e-mail, SMS, notifiche push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -71,37 +71,37 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Campagne"
->abstract="Fornisci azioni transazionali in uscita singole o ricorrenti."
+>abstract="Consegna di azioni transazionali in uscita singole o ricorrenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="Campagne"
->abstract="Consegna comunicazioni di marketing personalizzate a un pubblico target. Canali supportati: e-mail, SMS, notifiche push."
+>abstract="Consegna di comunicazioni di marketing personalizzate a un pubblico target. Canali supportati: e-mail, SMS, notifiche push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="Campagne"
->abstract="Consegna comunicazioni transazionali a singoli profili o a set di profili. Canali supportati: e-mail, SMS, notifiche push."
+>abstract="Consegna di comunicazioni transazionali a singoli profili o a set di profili. Canali supportati: e-mail, SMS, notifiche push."
 
 Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
 ![](assets/gs-campaigns.png)
 
-In Journey Optimizer puoi creare diversi tipi di campagne. I canali supportati e i casi d’uso variano a seconda del tipo di campagna. Questi tipi sono elencati di seguito.
+Puoi creare diversi tipi di campagne in Journey Optimizer: I canali supportati e i casi d’uso variano a seconda del tipo di campagna. Questi tipi sono elencati di seguito.
 
 * **Campagne di azione**
 
-  Le campagne di azione (o campagne pianificate) consentono semplici comunicazioni in batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti delle policy. Ulteriori informazioni sulle funzionalità delle campagne d&#39;azione, sui casi d&#39;uso e sui canali supportati [in questa pagina](create-campaign.md).
+  Le campagne di azione (o campagne pianificate) consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri. Ulteriori informazioni sulle funzionalità delle campagne d’azione, i casi d’uso e i canali supportati sono disponibili [in questa pagina](create-campaign.md).
 
 * **Campagne attivate da API**
 
-  Le campagne attivate da API consentono alle comunicazioni di marketing di raggiungere un pubblico al momento giusto oppure messaggi transazionali/operativi a un individuo come la reimpostazione della password, dove la necessità può comportare la personalizzazione non solo utilizzando l’attributo di profilo, ma anche i dati contestuali in tempo reale nel trigger, che è un payload API REST. Ulteriori informazioni sulle funzionalità delle campagne attivate da API, sui casi d&#39;uso e sui canali supportati [in questa pagina](api-triggered-campaigns.md).
+  Le campagne attivate da API consentono di inviare comunicazioni di marketing a un pubblico al momento giusto oppure messaggi operativi o transazionali a singoli utenti, ad esempio per la reimpostazione della password. Possono includere la personalizzazione basata non solo sugli attributi del profilo, ma anche sui dati contestuali in tempo reale presenti nel trigger, che è un payload API REST. Ulteriori informazioni sulle funzionalità delle campagne attivate da API, i casi d’uso e i canali supportati sono disponibili [in questa pagina](api-triggered-campaigns.md).
 
 * **Campagne orchestrate**
 
   L’orchestrazione delle campagne in Adobe Journey Optimizer potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fidelizzazione della clientela su larga scala.
 
-  Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla consegna dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza. Ulteriori informazioni sulle funzionalità delle campagne orchestrate, sui casi d&#39;uso e sui canali supportati [in questa pagina](../orchestrated/gs-orchestrated-campaigns.md).
+  Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla consegna dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza. Ulteriori informazioni sulle funzionalità delle campagne orchestrate, i casi d&#39;uso e i canali supportati [in questa pagina](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Prerequisiti {#prerequisites}
 

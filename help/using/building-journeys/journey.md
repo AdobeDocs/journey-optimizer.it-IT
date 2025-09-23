@@ -10,7 +10,7 @@ keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ Scopri come creare percorsi [nei seguenti casi d’uso end-to-end](jo-use-cases.
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

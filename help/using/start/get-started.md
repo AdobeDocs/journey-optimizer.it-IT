@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,14 +49,14 @@ Le funzionalità principali includono:
 
 * **Approfondimenti sul cliente in tempo reale e coinvolgimento**: un profilo integrato riunisce i dati live provenienti da tutte le origini nei diversi punti di contatto dei clienti, inclusi i dati comportamentali, transazionali, finanziari e operativi, per ottimizzare le esperienze personali e contestuali dei clienti in tempo reale.
 
-* **Orchestrazione moderna omni-channel ed esecuzione**: un&#39;unica area di lavoro su cui armonizzare e ottimizzare il percorso dei clienti per coinvolgere i clienti e promuovere le attività di marketing 1:1, per consentire ai brand di offrire più valore nel ciclo di vita del cliente. I percorsi del cliente progettati in [!DNL Adobe Journey Optimizer] possono essere dinamici e basati su eventi per aiutare i brand a reagire ai segnali in tempo reale e a collegare tali interazioni con campagne pianificate, in modo da poter prendere le decisioni giuste in merito a quali comunicazioni inviare ai clienti, quando inviarle e attraverso quali canali.
+* **Orchestrazione moderna omnicanale ed esecuzione**: un’unica area di lavoro su cui uniformare e ottimizzare il percorso cliente per coinvolgimento e attività di marketing 1:1, per consentire ai brand di offrire più valore nel ciclo di vita del cliente. I percorsi cliente progettati in [!DNL Adobe Journey Optimizer] possono essere dinamici e basati su eventi per aiutare i brand a reagire ai segnali in tempo reale e a collegare tali interazioni con campagne pianificate, in modo da poter prendere le decisioni giuste in merito a quali comunicazioni inviare alla clientela, quando inviarle e attraverso quali canali.
 
 * **Decisioning intelligente e personalizzazione**: i brand possono applicare decisioni centralizzate e incorporare l’intelligenza artificiale e il machine learning per acquisire approfondimenti predittivi in tutta l’esperienza del cliente, semplificando l’automazione delle decisioni e ottimizzando l’esperienza su larga scala. La funzione Decisioni potenzia le offerte centralizzate su tutti i canali e su larga scala attraverso [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]
 >
->* I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
+>* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 >
 >* Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud sono applicabili anche a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
 
@@ -76,11 +76,11 @@ Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire d
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
-### Blueprint Adobe Journey Optimizer
+### Blueprint di Adobe Journey Optimizer
 
-I blueprint di esperienze digitali forniscono diagrammi dell’architettura del sistema e del flusso di dati per comprendere meglio come Adobe Experience Platform e le applicazioni vengono integrati e implementati. I blueprint forniscono una rappresentazione visiva dei flussi di dati e contenuti tra sistemi e componenti, della sequenza di operazioni e delle dipendenze per agevolare la progettazione dei casi d’uso e l’architettura di Adobe Experience Platform e applicazioni.
+I blueprint di esperienze digitali forniscono diagrammi dell’architettura del sistema e del flusso di dati che aiutano a comprendere meglio come Adobe Experience Platform e le applicazioni vengono integrati e implementati. I blueprint forniscono una rappresentazione visiva dei flussi di dati e contenuti tra sistemi e componenti, della sequenza di operazioni e delle dipendenze per contribuire alla progettazione dei casi d’uso e all’architettura di Adobe Experience Platform e delle applicazioni.
 
-Consulta [Adobe Journey Optimizer blueprint](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Consulta [Blueprint di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
@@ -89,4 +89,4 @@ Consulta [Adobe Journey Optimizer blueprint](https://experienceleague.adobe.com/
 >* [Progettare percorsi e inviare messaggi](../building-journeys/journey-gs.md)
 >* [Rapporti live](../reports/live-report.md)
 >* [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
->* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}
+>* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
