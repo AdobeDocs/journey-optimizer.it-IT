@@ -20,7 +20,7 @@ I casi d’uso di Adobe Journey Optimizer ti consentono di creare esperienze cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Apprendi attraverso i casi d’uso
 
@@ -30,7 +30,7 @@ Esplora esempi pratici e strategie per ottimizzare le funzionalità di Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Ricerca eventi esperienza
 
@@ -40,7 +40,7 @@ Utilizza gli eventi di esperienza per gestire le rinunce, personalizzare i conte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Inviare messaggi multicanale
 
@@ -50,7 +50,7 @@ Crea percorsi che sfruttano la segmentazione del pubblico e i trigger di eventi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Inviare un messaggio con Campaign v7/v8
 
@@ -60,7 +60,7 @@ Integra Adobe Campaign con Journey Optimizer per inviare messaggi e-mail utilizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Inviare un messaggio agli iscritti
 
@@ -70,7 +70,7 @@ Imposta i percorsi per inviare messaggi agli iscritti in base alle preferenze e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate
 
@@ -86,4 +86,4 @@ Scopri come configurare azioni personalizzate per trasmettere le raccolte di dat
 
 - **[Limita la velocità effettiva con origini dati esterne e azioni personalizzate](../using/building-journeys/limit-throughput.md)**: ottimizza la velocità effettiva del percorso e gestisci i limiti per i sistemi esterni tramite le origini dati e le azioni personalizzate.
 - **[Utilizza azioni personalizzate per scrivere eventi di percorso in Experience Platform](../using/building-journeys/custom-action-aep.md)**: configura chiamate autenticate ed endpoint API HTTP per scrivere eventi di percorso in Adobe Experience Platform.
-- **[Rimuovi profili da un percorso attivo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - Per motivi aziendali o operativi, potrebbe essere necessario rimuovere alcuni profili da un percorso attivo ed escludere i profili che corrispondono a criteri specifici attualmente nel percorso. Questa operazione può essere eseguita sospendendo il percorso.
+- **[Rimuovi profili da un percorso attivo](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - Per motivi aziendali o operativi, potrebbe essere necessario rimuovere alcuni profili da un percorso attivo ed escludere i profili che corrispondono a criteri specifici attualmente nel percorso. Questa operazione può essere eseguita sospendendo il percorso.
