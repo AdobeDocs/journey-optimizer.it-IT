@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 67%
+source-wordcount: '3111'
+ht-degree: 66%
 
 ---
 
@@ -237,7 +237,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 * **Autorizzazioni per i criteri di approvazione**
 È stata aggiunta un’opzione durante la creazione o l’impostazione dei Criteri di approvazione per impedire ai creatori di Percorsi/campagne di approvare i propri oggetti.
-
+<!-->
 * **Avvisi nuovo Percorso**\
   Sono disponibili nuovi avvisi preconfigurati per i percorsi:
 
@@ -246,6 +246,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
    * Frequenza errori profilo superata: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.
 
   Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di percorso anziché a livello globale.
+-->
 
 * **I parametri del corpo JSON nidificati sono ora supportati nell&#39;autenticazione personalizzata**\
   Durante la configurazione dell&#39;autenticazione personalizzata per un&#39;azione personalizzata, sono ora supportati gli oggetti JSON nidificati (ad esempio, oggetti secondari all&#39;interno di `bodyParams`).
@@ -258,9 +259,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 * Supporto di **mTLS per il canale SMS**
 Durante la configurazione di un provider SMS personalizzato, ora è possibile abilitare l’autenticazione reciproca TLS (mTLS), che richiede sia al client che al server di confermare l’identità dell’altro prima che venga stabilita una connessione sicura.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **Schemi basati su modelli**\
+  Gli schemi relazionali ora sono denominati schemi basati su modelli nelle campagne orchestrate.
 
 * **Supporto per la ricerca di set di dati in percorsi**\
   Una nuova attività in percorsi, **Ricerca set di dati**, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non risiedere nel profilo o nel payload dell’evento, garantendo che le interazioni dei clienti siano pertinenti e tempestive.
