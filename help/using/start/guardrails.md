@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Questa modifica verrà implementata nelle **sandbox della clientela esistente** 
 
 ### Guardrail per e-mail {#message-guardrails}
 
-Al [canale e-mail](../../rp_landing_pages/email-landing-page.md) vengono applicati i seguenti guardrail:
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* Con [!DNL Journey Optimizer] non è possibile aggiungere allegati a un messaggio e-mail.
-* Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
+Impossibile utilizzare lo stesso dominio di invio per inviare messaggi di posta elettronica da [!DNL Adobe Journey Optimizer] e da un altro prodotto, ad esempio [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
 
 ### Guardrail per SMS {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
 
-### Guardrail per il canale Web {#web-guardrails}
+### Guardrail del canale in entrata {#inbound-guardrails}
 
-Le [campagne web](../web/get-started-web.md) [!DNL Journey Optimizer] eseguono il targeting di nuovi profili che non sono stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo qualora si superi il numero contrattuale di profili coinvolgibili acquistati.
+* Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  I canali in entrata Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo qualora si superi il numero contrattuale di profili coinvolgibili acquistati.
 
-### Guardrail per canali basati su codice {#code-based-guardrails}
+  Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Per utilizzare le azioni di esperienza basate su codice in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+* Journey Optimizer supporta un massimo di 500 azioni in entrata attive in qualsiasi momento. Queste azioni in entrata ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)) vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi meno recenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
+
+* Per utilizzare le azioni di [esperienza basata su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, seguire i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+
+### Guardrail dei messaggi transazionali {#transactional-message-guardrails}
+
+Journey Optimizer supporta un volume massimo di 500 messaggi transazionali al secondo nelle campagne.
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 
@@ -199,7 +204,7 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ### Identificatori supplementari {#supplemental}
 
-All’uso di identificatori supplementari nei percorsi si applicano protezioni specifiche. Sono elencati in [questa pagina](../building-journeys/supplemental-identifier.md#guardrails)
+All’uso di identificatori supplementari nei percorsi si applicano protezioni specifiche. Sono elencati in [questa pagina](../building-journeys/supplemental-identifier.md#guardrails).
 
 ### Editor espressioni {#expression-editor}
 
