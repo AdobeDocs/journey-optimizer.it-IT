@@ -79,7 +79,7 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Aggiungere tipi di pubblico o regole di decisione"
->abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici.
+>abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
