@@ -115,7 +115,7 @@ Una volta che un percorso è attivo, puoi controllare nel report percorso se il 
 
 ![](assets/journey-report.png)
 
-È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempio di query disponibile in [questa sezione](../reports/query-examples.md#common-queries).
+È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempio di query disponibile in [questa sezione](../reports/query-examples.md#common-queries).
 
 ## Video dimostrativo {#video}
 
