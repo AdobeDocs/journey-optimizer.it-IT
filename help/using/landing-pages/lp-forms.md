@@ -12,9 +12,9 @@ badge: label="Disponibilità limitata" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1262'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 >id="ajo_lp_form_connection"
 >title="Seleziona l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -91,7 +91,7 @@ Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al
 >id="ajo_lp_form_preset"
 >title="Seleziona un predefinito"
 >abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
@@ -156,6 +156,32 @@ Imposta una delle azioni seguenti:
   >Le condizioni definite in una regola vengono lette in sequenza.
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## Modificare un modulo pubblicato {#edit-form}
+
+Una volta pubblicato un modulo, è comunque possibile modificarlo. Segui i passaggi seguenti.
+
+1. Accedere all&#39;[elenco moduli](#access-forms) e selezionare un modulo pubblicato.
+
+1. Fare clic sul pulsante **[!UICONTROL Modifica modulo]**.
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. Viene creata una nuova versione del modulo con lo stato Bozza. Fare clic su **[!UICONTROL Crea bozza versione]**.
+
+1. Aggiorna il modulo in base alle esigenze e fai clic su **[!UICONTROL Salva]**. Il modulo è ora nello stato **[!UICONTROL Pubblicato (con bozza)]**:
+
+   * Lo stato della versione corrente continua a **[!UICONTROL Pubblicato]** fino a quando non viene pubblicata la versione aggiornata.
+
+   * La versione aggiornata ha lo stato **[!UICONTROL Bozza]**.
+
+1. Nel riepilogo del modulo è possibile spostarsi tra le due versioni del modulo.
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. Nella sezione **[!UICONTROL Bozza]** è possibile pubblicare o eliminare la bozza, nonché modificare i dettagli o il contenuto del modulo.
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## Sfruttare il modulo in una pagina di destinazione {#leverage-form-in-lp}
 
