@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alle attività dei percorsi
-description: Introduzione alle attività dei percorsi
+title: Consulta le attività dei percorsi
+description: Consulta le attività dei percorsi
 feature: Journeys, Activities, Overview
 topic: Content Management
 role: User
@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 15%
 
 ---
 
-# Introduzione alle attività dei percorsi {#about-journey-activities}
+# Consulta le attività dei percorsi {#about-journey-activities}
 
 Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
 
@@ -47,6 +47,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 * [Read Audience](read-audience.md)
 * [Attendi](wait-activity.md)
 * [Decisione sul contenuto](content-decision.md)
+* [Ricerca nei set di dati](dataset-lookup.md)
 
 ![Tavolozza delle attività di orchestrazione nella finestra di progettazione del percorso](assets/journey-orchestration-activities.png)
 

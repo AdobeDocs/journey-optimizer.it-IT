@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
-workflow-type: ht
-source-wordcount: '1807'
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+workflow-type: tm+mt
+source-wordcount: '1758'
 ht-degree: 100%
 
 ---
@@ -355,10 +355,3 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >id="ajo_journey_business_rules"
 >title="Set di regole"
 >abstract="Set di regole"
-
-<!-- DATASET LOOKUP IN JOURNEYS -->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_dataset_lookup"
->title="Attività di ricerca del set di dati"
->abstract="L’attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive."
