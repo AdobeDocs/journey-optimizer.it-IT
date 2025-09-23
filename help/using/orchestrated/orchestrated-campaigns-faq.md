@@ -5,9 +5,9 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 3%
 
 ---
@@ -253,11 +253,11 @@ Le campagne orchestrate supportano i filtri predefiniti: puoi definire e salvare
 +++
 
 
+## Risorse aggiuntive
 
+Per ulteriori informazioni e aggiornamenti, consulta le risorse seguenti:
 
->[!MORELIKETHIS]
->
->* [Guardrail e limitazioni per campagne orchestrate](../orchestrated/guardrails.md)
->* [Introduzione a schemi e set di dati nelle campagne orchestrate](../orchestrated/gs-schemas.md)
->* [Crea la tua prima campagna orchestrata](../orchestrated/gs-campaign-creation.md)
->* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Guardrail e limitazioni delle campagne orchestrate](../orchestrated/guardrails.md)
+* [Introduzione a schemi e set di dati nelle campagne orchestrate](../orchestrated/gs-schemas.md)
+* [Creare la prima campagna orchestrata](../orchestrated/gs-campaign-creation.md)
+* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

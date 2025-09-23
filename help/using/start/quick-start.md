@@ -8,9 +8,9 @@ role: Admin, Data Engineer, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -94,10 +94,11 @@ Fai clic sul tuo ruolo qui sotto per accedere a istruzioni specifiche su misura 
 
 Per ulteriori informazioni sugli utenti tipo e sulle funzionalità chiave di Journey Optimizer, guarda il video introduttivo. Il video illustra l’interfaccia utente ed evidenzia le funzioni chiave in base ai flussi di lavoro specifici dei ruoli.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430321?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Risorse aggiuntive
 
 Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seguenti:
-* [Note sulla versione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/whats-new/release-notes)
+
+* [Note sulla versione](../rn/release-notes.md)
 * [Video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it)
