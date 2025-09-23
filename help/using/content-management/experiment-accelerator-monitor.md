@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # Tracciare gli esperimenti {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Introduzione a Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Utilizzo dei dati in AI con Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Best practice per Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* **[Esperimenti di monitoraggio](experiment-accelerator-monitor.md)**
-* [Metriche della sperimentazione](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 La scheda **[!UICONTROL Esperimenti]** centralizza il tracciamento e l&#39;analisi dei test da Adobe Journey Optimizer e Adobe Target. Puoi visualizzare tutti gli esperimenti, esaminare i KPI e filtrare o cercare per individuare test specifici.
 
@@ -91,7 +80,7 @@ Tieni presente che per generare [approfondimenti esperimento](#insights) devi co
 
    Tieni presente che lo screenshot deve acquisire l’intera pagina.
 
-1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2&rbrace;.]**
+1. Se necessario, fai clic sull&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per aggiornare l&#39;ipotesi **[!UICONTROL 2}.]**
 
 Una volta completata la configurazione di **[!UICONTROL Ipotesi]**, potrai ottenere [Informazioni](#insights) e [Opportunità](#opportunities) preziose.
 
@@ -158,7 +147,7 @@ Tieni presente che per generare opportunità di esperimento devi prima [conferma
 
    Per gli esperimenti provenienti da **[!DNL Adobe Target]**, le modifiche suggerite verranno invece caricate nel flusso di lavoro di sperimentazione di **[!DNL Adobe Target]**.
 
-   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Ulteriori informazioni nella documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Nella vista dell&#39;esperimento sono accessibili le stesse **[!UICONTROL opportunità di sperimentazione]** di IA emerse da Journey Optimizer Experimentation Accelerator.
 

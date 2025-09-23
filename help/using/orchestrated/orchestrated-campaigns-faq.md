@@ -5,10 +5,10 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -177,13 +177,13 @@ In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quo
 
 +++ Campaign Orchestration accede solo ai dati caricati tramite batch oppure può anche eseguire query su tabelle aggiornate in tempo reale (come i dati di Analytics)?
 
-Journey Optimizer Campaign Orchestration può innanzitutto creare query ad hoc su schemi relazionali. Per il momento, gli schemi relazionali supportano solo origini batch. Inoltre, supporta la funzione Read audience (Lettura pubblico) di qualsiasi tipo di pubblico di Adobe Experience Platform.
+Journey Optimizer Campaign Orchestration può innanzitutto creare query ad hoc sugli schemi basati su modelli. Per il momento, gli schemi basati su modelli supportano solo origini batch. Inoltre, supporta la funzione Read audience (Lettura pubblico) di qualsiasi tipo di pubblico di Adobe Experience Platform.
 
 +++
 
 +++ Le campagne orchestrate supportano il processo decisionale?
 
-Sì.  Il processo decisionale può utilizzare dati relazionali provenienti da campagne orchestrate. Una volta che lo schema relazionale è stato connesso con gli schemi XDM, i dati XDM possono essere utilizzati nel processo decisionale.
+Sì.  Il processo decisionale può utilizzare dati relazionali provenienti da campagne orchestrate. Una volta che lo schema basato su modello è stato connesso con gli schemi XDM, i dati XDM possono essere utilizzati nel processo decisionale.
 
 +++
 

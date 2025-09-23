@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 47%
+source-wordcount: '1538'
+ht-degree: 33%
 
 ---
 
@@ -72,6 +72,43 @@ Una volta arrivati attraverso le API Streaming Ingestion, gli eventi si propagan
 
 Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentano un payload contenente [!DNL Journey Optimizer] eventID (vedi il processo di creazione degli eventi illustrato di seguito) forniti da [!DNL Journey Optimizer] e contenuti nel payload degli eventi. Per gli eventi basati su regole, il sistema identifica l’evento utilizzando la condizione eventID. [!DNL Journey Optimizer] fa da listener agli eventi, il che attiva il percorso corrispondente.
 
+
+## Informazioni sulla velocità effettiva degli eventi di Percorso {#event-thoughput}
+
+Adobe Journey Optimizer supporta un volume massimo di 5.000 eventi percorsi al secondo a livello di organizzazione, in tutte le sandbox. Questa quota si applica a tutti gli eventi utilizzati nei percorsi attivi, che includono **Live**, **Dry run**, **Closed** e **Paused** percorsi. Al raggiungimento di questa quota, i nuovi eventi vengono messi in coda con una velocità di elaborazione di 5.000 al secondo. Il tempo massimo che un evento può trascorrere nella coda è **24 ore**.
+
+Per la quota di 5.000 TPS vengono conteggiati i seguenti tipi di eventi:
+
+* **Eventi unitari esterni**: include eventi basati su regole e generati dal sistema. Se lo stesso evento non elaborato è idoneo per più definizioni di regola, ogni regola qualificata conta come un evento separato. Maggiori dettagli di seguito.
+
+* **Eventi di qualificazione del pubblico**: se lo stesso pubblico di streaming viene utilizzato in più percorsi, ogni utilizzo conta separatamente. Ad esempio, l’utilizzo dello stesso pubblico in un’attività di qualificazione del pubblico in due percorsi determina due eventi conteggiati.
+
+* **Eventi di reazione**: eventi attivati dalle reazioni del profilo (e-mail aperta, e-mail selezionata, ecc.) all&#39;interno di un percorso.
+
+* **Eventi aziendali**: eventi non associati a un profilo specifico, ma a un evento aziendale.
+
+* **Eventi di Analytics**: se l&#39;integrazione [con Adobe Analytics per attivare i percorsi](about-analytics.md) è stata abilitata, vengono inclusi anche questi eventi.
+
+* **Riprendi eventi**: evento tecnico attivato quando un profilo riprende da un percorso in pausa. Ulteriori informazioni sulla ripresa di [percorsi in pausa](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+
+* **Eventi di completamento nodo di attesa**: quando un profilo esce da un nodo di attesa, viene generato un evento tecnico per riprendere il percorso.
+
+>[!NOTE]
+>
+>Ad eccezione degli eventi di attesa e ripresa, anche tutti gli altri tipi di evento vengono conteggiati nella quota se utilizzati in percorsi basati su tipi di pubblico di lettura.
+
+### Informazioni sugli eventi non elaborati qualificati per più definizioni di regole
+
+Lo stesso evento non elaborato può essere qualificato per più definizioni di regole nei percorsi. Quando un evento è configurato nella sezione **Amministrazione**, per lo stesso schema eventi è possibile definire più regole evento. Supponiamo ad esempio di avere un evento di acquisto con campi città e purchaseValue. Prendiamo in considerazione i seguenti scenari:
+
+1. Un evento **E1** denominato `newYorkPurchases` è stato creato con una definizione di regola che indica che `city=='New York'`. Questo evento può essere utilizzato tra 10 percorsi, ma verrà comunque conteggiato come 1 evento, quando verrà.
+
+1. Supponiamo ora che venga creato anche un evento **E2** denominato `highValuePurchases` con `purchaseValue > 1000` come definizione di regola, nello stesso schema evento di **E1**. In questo caso, lo stesso evento in ingresso verrà valutato in base a due regole: `newYorkPurchases` e `highValuePurchases`. Ora può capitare che un acquisto di New York sia anche un acquisto di alto valore.
+
+   In questo caso, Journey Optimizer creerà due eventi, **E1** e **E2**, dello stesso evento in ingresso, che farà di questo singolo evento in ingresso un conteggio di due eventi.
+
+   Tieni presente che questi eventi iniziano a essere conteggiati quando vengono utilizzati in un percorso attivo, tra cui **Live**, **Dry run**, **Closed** e **Paused** percorso.
+
 ## Aggiornamento ed eliminazione di un evento {#update-event}
 
 
@@ -83,8 +120,8 @@ Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non pu�
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

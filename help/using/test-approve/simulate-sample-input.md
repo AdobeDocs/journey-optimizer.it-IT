@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Simulare varianti di contenuto
+title: Simula le varianti di contenuto
 description: Scopri come visualizzare in anteprima il contenuto e inviare bozze e-mail utilizzando dati di input di esempio da un file CSV o JSON o aggiunti manualmente.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 4%
 
 ---
 
-# Simulare varianti di contenuto {#custom-profiles}
+# Simula le varianti di contenuto {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -34,7 +34,10 @@ Tutti gli attributi utilizzati nel contenuto per la personalizzazione vengono ri
 
 Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, considera i seguenti guardrail e prerequisiti.
 
-* **Canali** - La simulazione delle varianti di contenuto è disponibile solo per i canali di notifica e-mail, SMS e push.
+* **Canali** - La simulazione delle varianti di contenuto è disponibile per:
+
+   * i canali di notifica e-mail, SMS e push;
+   * tutti i canali in entrata (web, esperienza basata su codice, in-app, schede di contenuto).
 
 * **Funzionalità supportate** - Le varianti di contenuto possono essere utilizzate con [!DNL Journey Optimizer] contenuti multilingue e funzionalità di sperimentazione dei contenuti. Questo consente di testare i messaggi in più lingue e di ottimizzare il contenuto attraverso la sperimentazione.
 
@@ -42,7 +45,7 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 
   >[!NOTE]
   >
-  >Per il momento, il rendering della casella in entrata e i rapporti di posta indesiderata non sono disponibili nell’esperienza corrente:. Per utilizzare queste funzionalità, seleziona dal contenuto il pulsante **[!UICONTROL Simula contenuto]** per accedere all&#39;interfaccia utente precedente.
+  >Per il momento, il rendering della casella in entrata e i rapporti di posta indesiderata non sono disponibili nell’esperienza corrente. Per utilizzare queste funzionalità, seleziona dal contenuto il pulsante **[!UICONTROL Simula contenuto]** per accedere all&#39;interfaccia utente precedente.
 
 * **Attributi** - Sono supportati sia gli attributi di profilo che quelli contestuali.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '601'
+ht-degree: 9%
 
 ---
 
@@ -77,11 +77,11 @@ Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events
 Questa categoria contiene i campi dell’evento del passaggio originale. Consulta questa [sezione](../reports/sharing-legacy-fields.md).
 
 
-## Risolvere i problemi relativi ai tipi di evento scartati in percorsi_step_events  {#discarded-events}
+## Risolvere i problemi relativi ai tipi di evento scartati negli eventi dei passaggi del Percorso  {#discarded-events}
 
-Quando si esegue una query su percorsi_step_events per i record con `eventCode = 'discard'`, è possibile che si verifichino diversi eventTypes.
+Quando si esegue una query sugli eventi dei passaggi di percorso per i record con `eventCode = 'discard'`, è possibile che si verifichino diversi eventTypes.
 
-Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risoluzione dei problemi per i tipi di evento di eliminazione più frequenti:
+Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risoluzione dei problemi per l&#39;eliminazione più frequente `eventTypes`:
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: impossibile calcolare un identificatore univoco (chiave esterna) per il cliente dai dati dell&#39;evento.
 Cause comuni: identificatori cliente mancanti o non validi (ad esempio e-mail, ID cliente) nel payload dell’evento.

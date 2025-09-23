@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [Domande frequenti](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configurazione dei dati {#data-configuration}
          + [Configurazione dei dati](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gestire schemi e set di dati relazionali {#schemas-datasets}
-            + [Gestire schemi e set di dati relazionali](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gestire schemi e set di dati basati su modelli {#schemas-datasets}
+            + [Gestire schemi e set di dati basati su modelli](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introduzione agli schemi e ai set di dati](using/orchestrated/gs-schemas.md)
             + [Schema manuale](using/orchestrated/manual-schema.md)
             + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
@@ -351,7 +351,7 @@ ht-degree: 98%
          + [Nuovo requisito DMARC](using/configuration/dmarc-record-update.md)
    + Canale in-app {#in-app}
       + [Canale in-app](/help/rp_landing_pages/in-app-landing-page.md)
-      + [Introduzione ai messaggi in-app](using/in-app/get-started-in-app.md)
+      + [Introduzione alle funzionalità in-app](using/in-app/get-started-in-app.md)
       + [Prerequisiti per il canale in-app](using/in-app/inapp-configuration.md)
       + [Creare un messaggio in-app per dispositivi mobili](using/in-app/create-in-app.md)
       + [Creare un messaggio in-app per il web](using/in-app/create-in-app-web.md)
@@ -547,14 +547,15 @@ ht-degree: 98%
       + [Esperimento contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introduzione all’esperimento sui contenuti](using/content-management/get-started-experiment.md)
       + [Creare un esperimento sui contenuti](using/content-management/content-experiment.md)
-      + Acceleratore esperimento {#experiment}
-         + [Introduzione all’acceleratore esperimento](using/content-management/experiment-accelerator.md)
-         + [Utilizzo dei dati in AI con Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
+      + Acceleratore esperimenti {#experiment}
+         + [Introduzione all’acceleratore di esperimenti](using/content-management/experiment-accelerator.md)
+         + [Utilizzo dei dati nell’IA con Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
          + [Best practice per l’acceleratore di esperimenti](using/content-management/experiment-accelerator-best-practices.md)
-         + [Monitor acceleratore esperimento](using/content-management/experiment-accelerator-monitor.md)
-         + [Metriche dell’acceleratore esperimento](using/content-management/experiment-accelerator-metrics.md)
+         + [Monitoraggio dell’acceleratore di esperimenti](using/content-management/experiment-accelerator-monitor.md)
+         + [Metriche dell’acceleratore di esperimenti](using/content-management/experiment-accelerator-metrics.md)
       + Note tecniche {#technotes}
          + [Note tecniche](/help/rp_landing_pages/technotes-landing-page.md)
+         + [Test A/B vs slot machine](using/content-management/mab-vs-ab.md)
          + [Comprendere i calcoli statistici](using/content-management/experiment-calculations.md)
          + [Comprendere i calcoli statistici nel rapporto sulla sperimentazione](using/content-management/experiment-report-calculations.md)
 + Tipi di pubblico, profili e identità {#audiences-profiles-identities}
@@ -615,7 +616,7 @@ ht-degree: 98%
          + [Rapporto sulle schede contenuto del percorso](using/reports/journey-global-report-cja-content.md)
          + [Rapporto sul percorso direct mail](using/reports/journey-global-report-cja-direct.md)
          + [Rapporto sul percorso e-mail](using/reports/journey-global-report-cja-email.md)
-         + [Rapporto percorso di sperimentazione](using/reports/journey-global-report-cja-experimentation.md)
+         + [Rapporto sul percorso di sperimentazione](using/reports/journey-global-report-cja-experimentation.md)
          + [Rapporto sul percorso in-app](using/reports/journey-global-report-cja-inapp.md)
          + [Rapporto sul percorso push](using/reports/journey-global-report-cja-push.md)
          + [Rapporto sul percorso SMS](using/reports/journey-global-report-cja-sms.md)

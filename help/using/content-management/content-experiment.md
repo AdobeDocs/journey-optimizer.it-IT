@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 9%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
->title="Esperimento sui contenuti"
+>title="Esperimento contenuti"
 >abstract="Puoi scegliere di variare il contenuto o l’oggetto del messaggio al fine di definire più trattamenti e determinare la combinazione migliore per il tuo pubblico."
 
 >[!NOTE]
@@ -68,7 +68,21 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento. Assicurati di impostare il set di dati per determinate metriche prima di utilizzarlo."
 
-1. Quando il messaggio è personalizzato, dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti.
+Per l’esperimento sui contenuti, puoi scegliere tra tre tipi di esperimento:
+
+* **[!UICONTROL Esperimento A/B]**: definisci la suddivisione del traffico tra i trattamenti all&#39;inizio del test. Le prestazioni vengono valutate in base alla metrica principale scelta, l’Experimentation Accelerator, quindi, riporta l’incremento osservato tra i trattamenti.
+
+* **[!UICONTROL Slot machine]**: la suddivisione del traffico tra i trattamenti viene gestita automaticamente. Ogni 7 giorni, le prestazioni sulla metrica principale vengono riviste e i pesi vengono regolati di conseguenza. Il reporting in Experimentation Accelerator continua a mostrare l’Incremento, come test A/B.
+
+* **[!UICONTROL Porta una tua slot machine]**: il traffico suddiviso tra i trattamenti viene gestito automaticamente. Puoi determinare quando e come deve cambiare utilizzando le API dell’esperimento per regolare le allocazioni in tempo reale.
+
+➡️ [Ulteriori informazioni sulla differenza tra esperimenti A/B e Multi-armed bandit](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB Esperimento A/B]
+
+1. Quando il messaggio è personalizzato, dalla scheda **[!UICONTROL Azioni]** fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti.
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
    ![](assets/content_experiment_11.png)
 
-1. Quando si configura un esperimento utilizzando il canale in-app o Web e si sceglie **[!UICONTROL Clic in entrata]**, **[!UICONTROL Clic in entrata univoci]**, **[!UICONTROL Visualizzazioni pagina]** o **[!UICONTROL Metriche di Visualizzazioni pagina univoche]** , il menu a discesa **[!UICONTROL Azione clic]** consente di monitorare e tenere traccia con precisione di clic e visualizzazioni su pagine specifiche.
+1. Quando imposti un esperimento utilizzando il canale in-app o web e scegli i **[!UICONTROL clic in entrata]**, i **[!UICONTROL clic in entrata univoci]**, le **[!UICONTROL visualizzazioni di pagina]** o le **[!UICONTROL metriche delle visualizzazioni di pagina univoche]**, il campo **[!UICONTROL dimensioni]** ti consente di monitorare e tenere traccia con precisione dei clic e delle visualizzazioni su pagine specifiche.
 
    ![](assets/content_experiment_20.png)
+
+1. Se hai creato una campagna attivata da API, seleziona **[!UICONTROL Esperimento A/B]** dal menu a discesa **[!UICONTROL Tipo di esperimento]**.
 
 1. Fare clic su **[!UICONTROL Aggiungi trattamento]** per creare il numero di nuovi trattamenti necessario.
 
@@ -104,7 +120,89 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
 1. Abilita l’esperimento di scalabilità automatica per distribuire automaticamente la variante vincente dell’esperimento. [Ulteriori informazioni sulla scalabilità del vincitore](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. Fai clic su **[!UICONTROL Crea]** quando la configurazione è impostata.
+
+>[!TAB Slot machine]
+
+L’esperimento slot machine è disponibile solo con i seguenti elementi:
+
+* Canali in entrata
+* Percorsi unitari
+* Campagne attivate da API (sia transazionali che operative)
+* Canali in uscita se la pianificazione si ripete
+
+1. Quando il messaggio è personalizzato, dalla scheda **[!UICONTROL Azioni]** fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti.
+
+   ![](assets/content_experiment_3.png)
+
+1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento.
+
+   Per questo esempio, seleziona **[!UICONTROL E-mail aperta]** per verificare se i profili aprono le e-mail se il codice promozionale è nella riga dell&#39;oggetto.
+
+   ![](assets/content_experiment_11.png)
+
+1. Se hai creato una campagna attivata da API, seleziona **[!UICONTROL Slot machine]** dal menu a discesa **[!UICONTROL Tipo esperimento]**.
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. Fare clic su **[!UICONTROL Aggiungi trattamento]** per creare il numero di nuovi trattamenti necessario.
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. Modifica il **[!UICONTROL Titolo]** del trattamento per differenziarli meglio.
+
+1. Scegli di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
+
+   Se passi alla barra di attivazione, riceverai automaticamente il 10% della tua popolazione; se necessario puoi regolare questa percentuale.
+
+   >[!IMPORTANT]
+   >
+   >Quando un gruppo di sospensione viene utilizzato in un&#39;azione per la sperimentazione di contenuti, l&#39;assegnazione di sospensione si applica solo a tale azione specifica. Al termine dell’azione, i profili nel percorso di sospensione continueranno a scorrere lungo il percorso e potranno ricevere messaggi da altre azioni. Di conseguenza, assicurati che tutti i messaggi successivi non dipendano dalla ricezione di un messaggio da parte di un profilo che potrebbe trovarsi in un gruppo di attesa. In tal caso, potrebbe essere necessario rimuovere l&#39;assegnazione di blocco.
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB Porta un tuo slot machine]
+
+Tieni presente che l’esperimento Bring your own Multi-armed bandit è disponibile solo con quanto segue:
+
+* Canali in entrata
+* Percorsi unitari
+* Campagne attivate da API (sia transazionali che operative)
+* Canali in uscita se la pianificazione si ripete
+
+1. Quando il messaggio è personalizzato, dalla scheda **[!UICONTROL Azioni]** fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti.
+
+   ![](assets/content_experiment_3.png)
+
+1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento.
+
+   Per questo esempio, seleziona **[!UICONTROL E-mail aperta]** per verificare se i profili aprono le e-mail se il codice promozionale è nella riga dell&#39;oggetto.
+
+   ![](assets/content_experiment_11.png)
+
+1. Se hai creato una campagna attivata da API, seleziona **[!UICONTROL Porta un tuo slot machine]** dal menu a discesa **[!UICONTROL Tipo di esperimento]**.
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. Fare clic su **[!UICONTROL Aggiungi trattamento]** per creare il numero di nuovi trattamenti necessario.
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. Modifica il **[!UICONTROL Titolo]** del trattamento per differenziarli meglio.
+
+1. Scegli di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
+
+   Se passi alla barra di attivazione, riceverai automaticamente il 10% della tua popolazione; se necessario puoi regolare questa percentuale.
+
+   >[!IMPORTANT]
+   >
+   >Quando un gruppo di sospensione viene utilizzato in un&#39;azione per la sperimentazione di contenuti, l&#39;assegnazione di sospensione si applica solo a tale azione specifica. Al termine dell’azione, i profili nel percorso di sospensione continueranno a scorrere lungo il percorso e potranno ricevere messaggi da altre azioni. Di conseguenza, assicurati che tutti i messaggi successivi non dipendano dalla ricezione di un messaggio da parte di un profilo che potrebbe trovarsi in un gruppo di attesa. In tal caso, potrebbe essere necessario rimuovere l&#39;assegnazione di blocco.
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## Progettare i trattamenti {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Puoi scegliere tra due modalità:
 
 * **Ridimensionamento manuale**: rivedi manualmente i risultati dell&#39;esperimento e avvia il rollout del trattamento vincente, mantenendo il controllo completo sui tempi e sulle decisioni.
 
-
 ### Ridimensionamento automatico {#autoscaling}
 
 Il ridimensionamento automatico consente di impostare regole predefinite per il momento in cui eseguire il rollout del trattamento vincente o di un fallback, in base ai risultati dell’esperimento.
@@ -167,9 +264,9 @@ Per abilitare la scalabilità automatica negli esperimenti:
    * Non appena viene trovato il vincitore.
    * Dopo l’esperimento è attivo per il tempo selezionato.
 
-     Il tempo di ridimensionamento automatico deve essere pianificato prima della data di fine dell’esperimento. Se è impostato per un periodo di tempo successivo alla data di fine, verrà visualizzato un avviso di convalida e la campagna o il percorso non verrà pubblicato.
+Il tempo di ridimensionamento automatico deve essere pianificato prima della data di fine dell’esperimento. Se è impostato per un periodo di tempo successivo alla data di fine, verrà visualizzato un avviso di convalida e la campagna o il percorso non verrà pubblicato.
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. Scegli il comportamento di fallback se non viene trovato alcun vincitore in base al tempo di scala:
 

@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Passaggi di configurazione
-description: Scopri come creare schemi relazionali direttamente tramite l’interfaccia utente.
+description: Scopri come creare schemi basati su modelli direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
+# Impostare uno schema manuale basato su modello {#manual-schema}
 
-# Impostare uno schema relazionale manuale {#manual-schema}
-
-Gli schemi relazionali possono essere creati direttamente tramite l’interfaccia utente, consentendo la configurazione dettagliata di attributi, chiavi primarie, campi per il controllo delle versioni e relazioni.
+Gli schemi basati su modelli possono essere creati direttamente tramite l’interfaccia utente, consentendo la configurazione dettagliata di attributi, chiavi primarie, campi per il controllo delle versioni e relazioni.
 
 L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** per illustrare la struttura richiesta per le campagne orchestrate.
 
-1. [Creare manualmente uno schema relazionale](#schema) tramite l&#39;interfaccia di Adobe Experience Platform.
+1. [Creare manualmente uno schema basato su modello](#schema) utilizzando l&#39;interfaccia di Adobe Experience Platform.
 
 1. [Aggiungi attributi](#schema-attributes) quali ID cliente, livello di iscrizione e campi di stato.
 
@@ -27,11 +26,11 @@ L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** p
 
 1. [Crea un set di dati](#dataset) in base allo schema e abilitalo per l&#39;utilizzo in campagne orchestrate.
 
-1. [Acquisisci dati](ingest-data.md) nel set di dati da origini supportate.
+1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
 ## Creare lo schema {#schema}
 
-Inizia creando manualmente un nuovo schema relazionale in Adobe Experience Platform. Questo processo ti consente di definire la struttura dello schema da zero, incluso il nome e il comportamento.
+Inizia creando manualmente un nuovo schema basato su modello in Adobe Experience Platform. Questo processo ti consente di definire la struttura dello schema da zero, incluso il nome e il comportamento.
 
 1. Accedi a Adobe Experience Platform.
 
@@ -39,7 +38,7 @@ Inizia creando manualmente un nuovo schema relazionale in Adobe Experience Platf
 
 1. Fare clic su **[!UICONTROL Crea schema]**.
 
-1. Seleziona **[!UICONTROL Relazionale]** come **tipo di schema**.
+1. Seleziona **[!UICONTROL Basato su modello]** come **Tipo di schema**.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ Quindi, aggiungi gli attributi per definire la struttura dello schema. Questi ca
 
 Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di identità di tipo `String` con uno spazio dei nomi di identità associato. Questo garantisce la compatibilità con le funzionalità di targeting e risoluzione delle identità di Adobe Journey Optimizer.
 
-+++Le seguenti funzioni sono supportate durante la creazione di schemi relazionali in Adobe Experience Platform
++++Le seguenti funzioni sono supportate durante la creazione di schemi basati su modelli in Adobe Experience Platform
 
 * **ENUM**\
   I campi ENUM sono supportati sia nella creazione manuale dello schema basata su DDL, che consente di definire gli attributi con un set fisso di valori consentiti.
@@ -68,7 +67,7 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
   L’etichettatura è supportata a livello di campo dello schema per applicare i criteri di governance dei dati, ad esempio il controllo degli accessi e le restrizioni di utilizzo. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
 * **Chiave composita**\
-  Le chiavi primarie composite sono supportate nelle definizioni degli schemi relazionali, consentendo l’utilizzo di più campi insieme per identificare in modo univoco i record.
+  Le chiavi primarie composite sono supportate nelle definizioni di schemi basate su modelli, consentendo l’utilizzo di più campi insieme per identificare in modo univoco i record.
 
 +++
 
@@ -148,6 +147,12 @@ Dopo aver definito lo schema, il passaggio successivo consiste nel creare un set
 Ora devi abilitare il set di dati per le campagne Orchestrate.
 
 ## Abilitare il set di dati per le campagne orchestrate {#enable}
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="Campagne orchestrate"
+>abstract="Dopo aver creato il set di dati, devi abilitarlo esplicitamente per le campagne orchestrate. Questo passaggio garantisce che il set di dati sia disponibile per l’orchestrazione e la personalizzazione in tempo reale in Adobe Journey Optimizer."
+
 
 Dopo aver creato il set di dati, devi abilitarlo esplicitamente per le campagne orchestrate. Questo passaggio garantisce che il set di dati sia disponibile per l’orchestrazione e la personalizzazione in tempo reale in Adobe Journey Optimizer.
 
