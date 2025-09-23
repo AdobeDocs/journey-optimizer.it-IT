@@ -76,7 +76,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}
