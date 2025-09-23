@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 66%
+source-wordcount: '3032'
+ht-degree: 68%
 
 ---
 
@@ -237,15 +237,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 * **Autorizzazioni per i criteri di approvazione**
 È stata aggiunta un’opzione durante la creazione o l’impostazione dei Criteri di approvazione per impedire ai creatori di Percorsi/campagne di approvare i propri oggetti.
-<!-->
-* **Avvisi nuovo Percorso**\
-  Sono disponibili nuovi avvisi preconfigurati per i percorsi:
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * Percentuale di eliminazione profilo superata: rapporto tra gli scarti del profilo e i profili immessi negli ultimi 5 minuti hanno superato la soglia.
-   * Frequenza errori azione personalizzata superata: rapporto tra gli errori azione personalizzata e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia.
-   * Frequenza errori profilo superata: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-  Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di percorso anziché a livello globale.
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **I parametri del corpo JSON nidificati sono ora supportati nell&#39;autenticazione personalizzata**\
