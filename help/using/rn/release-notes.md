@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 4bb9b6d614a434f3906fded06cbcaef14f1cb255
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 44%
+source-wordcount: '1798'
+ht-degree: 43%
 
 ---
 
@@ -276,7 +276,7 @@ Le funzionalità e i miglioramenti seguenti sono destinati ai prossimi giorni.
 <p>Crea, progetta e gestisci moduli personalizzati adatti alle tue esigenze sulla base di un set di dati specifico. Puoi quindi sfruttare questi moduli nelle pagine di destinazione per aggiungere gli attributi di profilo desiderati nel set di dati definito per ciascun modulo.</p>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../landing-pages/lp-forms.md">documentazione dettagliata</a></p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +310,15 @@ Le funzionalità e i miglioramenti seguenti sono destinati ai prossimi giorni.
 * **Avvisi nuovo Percorso**\
   Sono disponibili nuovi avvisi preconfigurati per i percorsi:
 
-   * [Frequenza di eliminazione profilo superata](../reports/alerts.md#profile-discard-rate-exceeded): rapporto tra gli scarti di profilo e i profili immessi negli ultimi 5 minuti ha superato la soglia.
-   * [Frequenza errori azione personalizzata superata](../reports/alerts.md#custom-action-error-rate-exceeded): rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia.
-   * [Frequenza errori profilo superata](../reports/alerts.md#profile-error-rate-exceeded): rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.
+   * Percentuale di eliminazione profilo superata: rapporto tra gli scarti del profilo e i profili immessi negli ultimi 5 minuti hanno superato la soglia.
+   * Frequenza errori azione personalizzata superata: rapporto tra gli errori azione personalizzata e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia.
+   * Frequenza errori profilo superata: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di percorso anziché a livello globale.
+Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di percorso anziché a livello globale.
 
 
 * **Supporto di attributi personalizzati con URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**\
