@@ -144,7 +144,7 @@ Per creare un modulo, attieniti alla procedura seguente.
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >
