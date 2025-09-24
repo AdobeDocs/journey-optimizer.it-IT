@@ -12,10 +12,10 @@ badge: label="Disponibilità limitata" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 2%
+source-wordcount: '1575'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 >id="ajo_lp_form_connection"
 >title="Seleziona l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -93,7 +93,7 @@ Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al
 >id="ajo_lp_form_preset"
 >title="Seleziona un predefinito"
 >abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
@@ -107,44 +107,62 @@ Per creare un modulo, attieniti alla procedura seguente.
 
 1. Fai clic su **[!UICONTROL Crea]**. Verrà aperto Progettazione moduli, che consente di aggiungere strutture e contenuto [componenti](../email/content-components.md#add-content-components) per creare il contenuto. Puoi utilizzare i componenti [Testo](../email/content-components.md#text) e **[!UICONTROL Campo]**.
 
-1. Per aggiungere campi specifici al modulo, trascina una struttura nell&#39;area di lavoro e trascina un componente **[!UICONTROL Campo]** all&#39;interno di.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. Per acquisire i dati e gli attributi del profilo, aggiungi campi specifici al modulo. [Ulteriori informazioni](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. Configura e progetta questi campi. [Ulteriori informazioni](#configure-fields)
 
-   Quindi seleziona una delle seguenti opzioni:
+1. Puoi regolare il layout, lo stile e le dimensioni del modulo in base alle esigenze utilizzando il riquadro **[!UICONTROL Stili]**. [Ulteriori informazioni sullo stile](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. Dopo aver configurato tutti i campi, fai clic su **[!UICONTROL Salva e chiudi]**.
 
-   >[!TAB Seleziona attributo campo]
+1. Configura la pagina di ringraziamento. [Scopri come](#thank-you-page)
 
-   Utilizza questa opzione per selezionare un attributo basato sullo schema del set di dati collegato al modulo.
+1. **[!UICONTROL Pubblica]** il modulo per renderlo disponibile per la selezione nelle pagine di destinazione.
 
-   >[!NOTE]
-   >
-   >Il set di dati è definito nel predefinito selezionato per il modulo. [Ulteriori informazioni](#create-form-preset)
+### Definire campi specifici {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+Per aggiungere campi specifici al modulo, trascina una struttura nell&#39;area di lavoro e trascina un componente **[!UICONTROL Campo]** all&#39;interno di.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   Ad esempio, puoi impostare l’E-mail e l’ID persona. Quando gli utenti compilano questi campi, le informazioni immesse vengono salvate nel set di dati selezionato.
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+Quindi seleziona una delle seguenti opzioni:
 
-   Per mappare i dati raccolti con un profilo, seleziona un campo di identità del profilo. I campi di identità sono contrassegnati come **[!UICONTROL Obbligatori]** nell&#39;elenco degli attributi. Puoi filtrarli.
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB Seleziona attributo campo]
 
-   >[!TAB Aggiungi campo personalizzato]
+Utilizza questa opzione per selezionare un attributo basato sullo schema del set di dati collegato al modulo.
 
-   Con questa opzione, puoi semplicemente definire un campo libero senza mapparlo su un campo nel set di dati collegato.
+>[!NOTE]
+>
+>Il set di dati è definito nel predefinito selezionato per il modulo. [Ulteriori informazioni](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+Ad esempio, puoi impostare l’E-mail e l’ID persona. Quando gli utenti compilano questi campi, le informazioni immesse vengono salvate nel set di dati selezionato.
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+Per mappare i dati raccolti con un profilo, seleziona un campo di identità del profilo. I campi di identità sono contrassegnati come **[!UICONTROL Obbligatori]** nell&#39;elenco degli attributi. Puoi filtrarli.
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB Aggiungi campo personalizzato]
+
+Con questa opzione, puoi semplicemente definire un campo libero senza mapparlo su un campo nel set di dati collegato.
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### Configurare e progettare un campo {#configure-fields}
+
+Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, è possibile modificarne ulteriormente i dettagli e il comportamento all’invio del modulo.
 
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >
@@ -166,14 +184,6 @@ Per creare un modulo, attieniti alla procedura seguente.
    * Selezionare **[!UICONTROL Abilita maschera di input]** per sostituire l&#39;input degli utenti con caratteri generici. È possibile utilizzare *9* per indicare qualsiasi numero, *a* per indicare qualsiasi lettera o * per indicare qualsiasi numero o lettera.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. Puoi regolare il layout, lo stile e le dimensioni del modulo in base alle esigenze utilizzando il riquadro **[!UICONTROL Stili]**. [Ulteriori informazioni sullo stile](../email/get-started-email-style.md)
-
-1. Dopo aver configurato tutti i campi, fai clic su **[!UICONTROL Salva e chiudi]**.
-
-1. Configura la pagina di ringraziamento. [Scopri come](#thank-you-page)
-
-1. **[!UICONTROL Pubblica]** il modulo per renderlo disponibile per la selezione nelle pagine di destinazione.
 
 ### Configurare la pagina di ringraziamento {#thank-you-page}
 
