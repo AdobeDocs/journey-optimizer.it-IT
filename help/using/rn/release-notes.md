@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
+source-git-commit: 1969a6bcea8627ea48c304f632b21bc41278b1bd
 workflow-type: tm+mt
-source-wordcount: '1794'
+source-wordcount: '1803'
 ht-degree: 44%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 44%
 <tr>
 <td>
 <p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
-<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">detailed documentation</a></p-->
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
 </td>
 </tr>
 </tbody>
