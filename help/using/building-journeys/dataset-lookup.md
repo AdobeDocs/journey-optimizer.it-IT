@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 15%
+source-wordcount: '750'
+ht-degree: 14%
 
 ---
 
@@ -47,6 +47,15 @@ Il set di dati deve essere abilitato per la ricerca in Adobe Experience Platform
 * Massimo 20 campi selezionati.
 * Massimo 500 chiavi nell’array delle chiavi di ricerca.
 * La dimensione dei dati arricchiti è limitata a 10 KB.
+
+### Considerazioni aggiuntive sulle prestazioni
+
+Le seguenti raccomandazioni sono un orientamento per evitare ritardi nella consegna dei messaggi:
+
+| Considerazione | Limite consigliato | Descrizione |
+| ------- | ------- | ------- |
+| Attributi per ricerca | Fino a 20 | Numero di campi dati recuperati per record in una singola attività di ricerca. |
+| Attività di ricerca | Fino a 5 al percorso | Ogni percorso può contenere fino a 5 attività di ricerca separate. Ogni ricerca può eseguire il targeting di un set di dati diverso. |
 
 ## Configurare l’attività di ricerca del set di dati {#configure}
 
