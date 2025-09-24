@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1969a6bcea8627ea48c304f632b21bc41278b1bd
+source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1803'
 ht-degree: 44%
@@ -60,7 +60,7 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
+<p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
 </td>
 </tr>
@@ -191,7 +191,7 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 
   Questa funzionalità è attualmente in disponibilità limitata per tutti gli utenti.
 
-* **Avvisi di monitoraggio della configurazione dei canali**: nel caso si verifichi un errore di configurazione dei canali e-mail utilizzando il tipo di delega dei sottodomini personalizzato, ora è possibile iscriversi per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer. [Ulteriori informazioni](../reports/alerts.md#alert-dns-record-missing)
+* **Avvisi di monitoraggio della configurazione dei canali**: nel caso si verifichi un errore di configurazione dei canali e-mail utilizzando il tipo di delega dei sottodomini personalizzato, ora è possibile iscriversi per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer. [Ulteriori informazioni](../reports/alerts.md#alert-channel-config-failure)
 
 
 
