@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 11%
+source-wordcount: '1444'
+ht-degree: 10%
 
 ---
 
@@ -138,18 +138,19 @@ Ulteriori informazioni sui tipi di percorso e sulla gestione delle voci associat
 
 Lo stato del percorso dipende dal suo ciclo di vita. Può essere:
 
-* **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
 * **Bozza**: il percorso è nella prima fase. Non è ancora stata pubblicata.
-* **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**.
+* **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
-* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**.
-* **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso.
+* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+* **Sospeso**: il percorso live è stato messo in pausa utilizzando il pulsante **Sospendi**. [Ulteriori informazioni](../building-journeys/journey-pause.md)
+* **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso. [Ulteriori informazioni](../building-journeys/end-journey.md#stop-a-journey)
+* **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+>* Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: **Pubblicazione** (tra &quot;Bozza&quot; e &quot;Live&quot;), **Attivazione modalità test** o **Disattivazione modalità test** (tra **Bozza** e **Bozza (test)**), **Interruzione** (tra **Live** e **Interrotto**), **Ripresa** (tra **In pausa** e **Live**), **In pausa** (tra **Live** e **In pausa**) Quando un percorso si trova in uno stato intermedio, è di sola lettura.
 >
->* Se devi modificare un percorso **live**, [crea una nuova versione](#journey-versions) del percorso.
+>* Se devi modificare un percorso **Live**, [crea una nuova versione](#journey-versions) del percorso. Puoi anche mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento. [Ulteriori informazioni sulla sospensione dei percorsi](../building-journeys/journey-pause.md)
 
 
 ## Duplicare un percorso {#duplicate-a-journey}
