@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **
 
 Nel caso in cui si debba fermare il progresso di tutti i singoli individui nel percorso, è possibile fermarlo. Interruzione del timeout del percorso per tutti gli utenti del percorso. Tuttavia, l&#39;arresto di un percorso implica che le persone che sono già entrate in un percorso sono tutte ferme nel loro progresso. Il percorso è spento. Se desideri terminare con un percorso, è consigliabile [chiuderlo](#close-journey).
 
-
 Puoi interrompere un percorso, ad esempio, se un addetto marketing si rende conto che il percorso esegue il targeting del pubblico sbagliato o che un’azione personalizzata destinata a consegnare i messaggi non funziona correttamente. Per interrompere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso e selezionare **[!UICONTROL Interrompi]**.
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ Puoi interrompere un percorso, ad esempio, se un addetto marketing si rende cont
 1. Fai clic su **[!UICONTROL Interrompi]** e conferma nella finestra di dialogo.
 
 Quando viene interrotto, lo stato del percorso è impostato su **[!UICONTROL Arrestato]**.
+
+>[!CAUTION]
+>
+>Autorizzazioni per arrestare un percorso limitato agli utenti con l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).

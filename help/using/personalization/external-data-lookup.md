@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Oppure, ad esempio, puoi recuperare e sfogliare gli elementi per restituire un a
 
 ### Timeout e gestione degli errori
 
-[!DNL Journey Optimizer] utilizza un timeout rigido quando chiama l&#39;endpoint esterno per mantenere le caratteristiche di prestazioni a bassa latenza e throughput elevato per AEP Edge Network.
+[!DNL Journey Optimizer] utilizza un timeout rigido quando chiama l&#39;endpoint esterno per mantenere le caratteristiche di prestazioni a bassa latenza e throughput elevato per Adobe Experience Platform Edge Network.
 
 Se l’endpoint si interrompe o viene rilevato un errore di qualsiasi tipo che raggiunge l’endpoint, la variabile di risultato sarà vuota. Anche eventuali riferimenti agli attributi all’interno della variabile di risultato in questo caso saranno vuoti. Se visualizzi semplicemente l’attributo nel contenuto, questo verrà visualizzato come vuoto. Se si tenta di scorrere ciclicamente un attributo di array nel risultato, non verrà restituito alcun elemento.
 
@@ -198,7 +198,7 @@ oppure puoi eseguire il rendering condizionale di un intero blocco di contenuto 
 
 ### Debug
 
-Per facilitare il debug, i dettagli del timeout e dell’errore per le ricerche di dati esterni sono inclusi nella vista Edge Delivery in AEP Assurance. Se non visualizzi i risultati previsti per un helper externalDataLookup in un&#39;azione in entrata, puoi avviare una sessione Assurance, avviare una chiamata [!DNL Journey Optimizer] da un&#39;implementazione web o mobile e utilizzare la visualizzazione Edge Delivery per verificare i dettagli di timeout o errore.
+Per facilitare il debug, i dettagli del timeout e dell’errore per le ricerche di dati esterni sono inclusi nella vista Edge Delivery in Adobe Experience Platform Assurance. Se non visualizzi i risultati previsti per un helper externalDataLookup in un&#39;azione in entrata, puoi avviare una sessione Assurance, avviare una chiamata [!DNL Journey Optimizer] da un&#39;implementazione web o mobile e utilizzare la visualizzazione Edge Delivery per verificare i dettagli di timeout o errore.
 
 Ad esempio:
 
