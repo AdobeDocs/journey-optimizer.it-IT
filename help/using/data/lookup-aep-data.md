@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare i dati di Adobe Experience Platform
 description: Scopri come utilizzare i set di dati di Adobe Experience Platform nelle funzionalità di  [!DNL Journey Optimizer] decisioning e personalizzazione.
-badge: label="Disponibilità limitata" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -11,10 +10,10 @@ level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 6%
+source-wordcount: '742'
+ht-degree: 5%
 
 ---
 
@@ -24,10 +23,6 @@ ht-degree: 6%
 >id="lookup-aep-data"
 >title="Abilitare per la ricerca"
 >abstract="L’abilitazione di un set di dati per la ricerca consente di sfruttarne i dati nelle funzionalità di personalizzazione, decisioning e orchestrazione del percorso di Journey Optimizer."
-
->[!AVAILABILITY]
->
->Questa funzione è attualmente disponibile per tutti i clienti come versione a disponibilità limitata.
 
 Journey Optimizer consente di sfruttare i dati provenienti dai dati di Adobe Experience Platform con funzionalità di personalizzazione, decisioning e orchestrazione del percorso. A questo scopo, i set di dati basati su record necessari per la personalizzazione della ricerca devono prima essere abilitati per il servizio di ricerca come descritto di seguito.
 
