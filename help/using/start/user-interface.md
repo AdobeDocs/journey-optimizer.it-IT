@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 100%
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 >id="ajo_journey_business_rules"
 >title="Set di regole"
 >abstract="Set di regole"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="Webhook SMS"
+>abstract="Consenti ai webhook di ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi. Prima di attivare questa opzione, assicurati di aver configurato un webhook nel menu **Amministrazione** / **Canali** / **Webhook feedback**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Webhook feedback"
+>abstract="I webhook di feedback consentono di ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi inviati con campagne attivate da API transazionali. È consentita una sola configurazione di webhook per organizzazione e combinazione di sandbox."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="Configurazione di base"
+>abstract="In questa sezione, immetti un nome descrittivo per identificare il webhook e seleziona i canali per i quali questo webhook deve ricevere feedback (e-mail e/o SMS). Nel campo URL webhook, fornisci l’endpoint HTTPS in cui devono essere consegnati gli eventi di feedback."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="Autenticazione"
+>abstract="Se l&#39;endpoint richiede l&#39;autenticazione JWT, selezionare **Autenticazione JWT** dall&#39;elenco e fornire i dettagli richiesti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="Parametri intestazione"
+>abstract="In questa sezione, puoi configurare intestazioni personalizzate aggiuntive da inviare con ogni richiesta di webhook."
