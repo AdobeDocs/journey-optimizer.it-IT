@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21765901738001a8a702bf15d5d2a9d5d930f774
+source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1776'
 ht-degree: 42%
 
 ---
@@ -29,22 +29,22 @@ ht-degree: 42%
 
 ### Nuove funzionalità {#sept-25-9-features}
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>API pubblica per recuperare i percorsi</strong><br/></th>
+<th><strong>Public API to retrieve journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile una nuova API Journey Optimizer per recuperare i percorsi e i relativi oggetti associati, come campagne e superfici.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentazione dettagliata</a></p>
-<p>Data di disponibilità: 25 settembre 2025</p>
+<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
+<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">detailed documentation</a></p>
+<p>Availability date: Sept 25, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -78,8 +78,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
+<p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 24 settembre 2025</p>
 </td>
 </tr>
