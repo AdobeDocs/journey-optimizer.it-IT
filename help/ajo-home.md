@@ -5,7 +5,7 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
+source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 85%
@@ -18,7 +18,7 @@ Adobe Journey Optimizer consente ai team di progettare e fornire esperienze clie
 
 ## Novità {#section-new}
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, miglioramenti e correzioni, consulta le [Note sulla versione](../using/rn/release-notes.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, miglioramenti e correzioni, consulta le [Note sulla versione](using/rn/release-notes.md).
 
 >[!BEGINTABS]
 
@@ -49,7 +49,7 @@ L’integrazione di Adobe Express in Adobe Journey Optimizer consente di acceder
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recente
 
@@ -59,7 +59,7 @@ Resta aggiornato sulle note sulla versione più recente, sulle nuove funzioni e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione
 
@@ -69,7 +69,7 @@ Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’ar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -79,7 +79,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -89,7 +89,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -99,7 +99,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
