@@ -5,42 +5,71 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 85%
 
 ---
 
 # Documentazione di Adobe Journey Optimizer{#section-overview}
 
-Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un marketer, un analista di dati o un responsabile della campagna, troverai guide dettagliate, best practice e risorse su misura per aiutarti a raggiungere i tuoi obiettivi con sicurezza.
+Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un addetto marketing, un analista dati o un manager della campagna, troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere i tuoi obiettivi con sicurezza.
+
+## Novità {#section-overview}
+
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, miglioramenti e correzioni, consulta le [Note sulla versione](../using/rn/release-notes.md).
+
+>[!BEGINTABS]
+
+>[!TAB Versione del &#39;25]
+
+È disponibile la versione di settembre di Journey Optimizer. Scopri le nuove funzioni e i miglioramenti rilasciati questo mese nelle Note sulla versione.
+
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB Orchestrazione della campagna]
+
+Journey Optimizer ora include l’**orchestrazione della campagna**, una nuova funzionalità appositamente creata per le campagne batch avviate dal brand. Questa versione introduce un’area di lavoro di orchestrazione della campagna e una modellazione dati migliorata, per consentire ai marketer di pianificare, eseguire il targeting e distribuire campagne cross-channel personalizzate.
+
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+
+>[!TAB Adobe Express]
+
+L’integrazione di Adobe Express in Adobe Journey Optimizer consente di accedere facilmente ai potenti strumenti di modifica di Adobe Express durante la creazione di contenuti. Questa integrazione consente di ridimensionare le immagini, rimuovere lo sfondo, ritagliare elementi visivi e convertire le risorse in JPEG o PNG senza dover passare da una soluzione all’altra.
+
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+
+
+>[!ENDTABS]
+
 
 ## Inizia ad esplorare
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Novità di Adobe Journey Optimizer
+Note sulla versione più recente
 
-Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e delle modifiche alla documentazione di Adobe Journey Optimizer.
+Resta aggiornato sulle note sulla versione più recente, sulle nuove funzioni e sui miglioramenti apportati in Adobe Journey Optimizer.
 
-[Visualizza le novità](./rp_landing_pages/whats-new-landing-page.md)
+[Visualizza note sulla versione](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Introduzione ad Adobe Journey Optimizer
+Introduzione
 
-Scopri le nozioni di base di Adobe Journey Optimizer, incluse le funzionalità, l’architettura e l’interfaccia utente.
+Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’architettura e l’interfaccia utente.
 
 [Introduzione](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -50,7 +79,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -60,7 +89,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -70,7 +99,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
@@ -98,7 +127,8 @@ Scopri come assegnare priorità e gestire in modo efficace i conflitti di comuni
 ## Risorse aggiuntive
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Adobe Journey Optimizer</strong><br/><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a>: <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a>, <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza (PDF)</a>, <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Riferimento API</a>, <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario dello schema di Journey Optimizer</a>
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a>: <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a>, <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza (PDF)</a>, <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Riferimento API</a>, <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario dello schema di Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

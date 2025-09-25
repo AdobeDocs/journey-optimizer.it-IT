@@ -4,30 +4,21 @@ product: Journey Optimizer
 title: Guida di Adobe Journey Optimizer
 description: Guida di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 93%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer{#section-overview}
 
-Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un marketer, un analista di dati o un responsabile della campagna, troverai guide dettagliate, best practice e risorse su misura per aiutarti a raggiungere i tuoi obiettivi in tutta sicurezza.
+Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un addetto marketing, un analista dati o un manager della campagna, troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere i tuoi obiettivi con sicurezza.
 
 ## Guida di Adobe Journey Optimizer
 
 :::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
-
-Novità di Adobe Journey Optimizer
-
-Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e delle modifiche alla documentazione di Adobe Journey Optimizer.
-
-[Visualizza le novità](whats-new-landing-page.md)
-:::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
