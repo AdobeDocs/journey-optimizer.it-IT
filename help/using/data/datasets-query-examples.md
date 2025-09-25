@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '958'
 ht-degree: 2%
 
 ---
@@ -236,6 +236,33 @@ where
 group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
+```
+
+
+
+
+Questa query recupera i nodi (per nodeID e nodeName) del percorso associati alla consegna di un messaggio a un profilo, utilizzando il relativo ID profilo e il set di dati Evento di feedback del messaggio:
+
+```sql
+select
+    _experience.journeyorchestration.stepevents.nodeID, JSE._experience.journeyorchestration.stepevents.nodeName
+from journey_step_events JSE
+where 
+    _experience.journeyOrchestration.stepEvents.actionID 
+    in
+
+    (
+    select
+        _experience.customerJourneyManagement.messageExecution.journeyActionID
+    from  ajo_message_feedback_event_dataset
+    where 
+        _experience.customerJourneyManagement.messageProfile.messageProfileID = '<PROFILE ID>'
+    group by
+        _experience.customerJourneyManagement.messageExecution.journeyActionID
+    )
+
+group by
+    _experience.journeyorchestration.stepevents.nodeID, JSE._experience.journeyorchestration.stepevents.nodeName  
 ```
 
 
