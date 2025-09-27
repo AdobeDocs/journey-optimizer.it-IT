@@ -60,7 +60,7 @@ Garantisci la conformità agli standard di settore gestendo i processi di rinunc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i sottodomini SMS
 
@@ -70,7 +70,7 @@ Configura i sottodomini SMS per la consegna dei messaggi, incluse la configurazi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Configurare i canali SMS/MMS/RCS
 

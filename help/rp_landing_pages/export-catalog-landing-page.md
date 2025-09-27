@@ -30,7 +30,7 @@ Scopri come esportare il catalogo delle offerte come set di dati in Adobe Experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accedere al catalogo delle offerte esportato
 

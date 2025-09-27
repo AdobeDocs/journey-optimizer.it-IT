@@ -20,7 +20,7 @@ L’implementazione di un piano di preparazione IP in Adobe Journey Optimizer ga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Guida introduttiva ai piani di preparazione IP
 
@@ -50,7 +50,7 @@ Scopri come creare, configurare e gestire il piano di preparazione IP, incluse l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Eseguire e gestire il piano di preparazione IP
 

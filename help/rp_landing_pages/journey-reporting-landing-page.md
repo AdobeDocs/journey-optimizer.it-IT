@@ -50,7 +50,7 @@ Scopri come misurare e valutare il coinvolgimento dell’utente con le schede co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Metriche direct mail
 

@@ -60,7 +60,7 @@ Risparmia tempo utilizzando modelli di e-mail di esempio o personalizzati per se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Sfruttare i temi delle e-mail
 

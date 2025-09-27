@@ -50,7 +50,7 @@ Scopri i requisiti e le configurazioni dello schema per l’acquisizione degli e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Integrazione di Adobe Analytics
 

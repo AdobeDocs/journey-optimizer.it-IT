@@ -70,7 +70,7 @@ Configura gli elenchi di abbonamenti per gestire i profili che hanno manifestato
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Casi d’uso delle pagine di destinazione
 

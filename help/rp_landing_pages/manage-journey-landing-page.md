@@ -50,7 +50,7 @@ Scopri come sfruttare gli identificatori supplementari per una personalizzazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestione del fuso orario
 
