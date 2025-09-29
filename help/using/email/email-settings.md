@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 98%
 
 ---
 
@@ -187,11 +187,6 @@ Puoi utilizzare **[!UICONTROL Parametri di tracciamento URL]** per misurare l’
 
 ## Indirizzo di esecuzione {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="Sovrascrivere l’indirizzo di esecuzione predefinito da utilizzare"
->abstract="Quando nel database sono disponibili diversi indirizzi e-mail (personali, professionali, ecc.), puoi scegliere a quale assegnare la priorità per l’invio. L’indirizzo principale è definito a livello di sandbox, ma in questo caso puoi sovrascrivere l’impostazione predefinita per questa configurazione e-mail specifica."
-
 Quando esegui il targeting di un profilo, nel database potrebbero essere disponibili diversi indirizzi e-mail (indirizzo e-mail professionale, indirizzo e-mail personale, ecc.).
 
 In tal caso, [!DNL Journey Optimizer] utilizza l’indirizzo specificato nei **[!UICONTROL campi di esecuzione]** a livello di sandbox per determinare quale indirizzo e-mail utilizzare dal servizio profilo con priorità. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
@@ -202,8 +197,6 @@ In tal caso, [!DNL Journey Optimizer] utilizza l’indirizzo specificato nei **[
 
 Tuttavia, puoi modificare questo campo di esecuzione predefinito a livello di configurazione dei canali e-mail. Puoi quindi applicare questa impostazione a campagne o percorsi specifici.
 
-A questo scopo, modifica il campo **[!UICONTROL Indirizzo di consegna]** e seleziona un elemento dall’elenco dei campi XDM di tipo e-mail disponibili.
+A questo scopo, modifica il campo **[!UICONTROL Indirizzo di consegna]** e seleziona un elemento dall&#39;elenco dei campi XDM di tipo e-mail disponibili. [Ulteriori informazioni](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-Il campo di esecuzione viene aggiornato e quindi utilizzato come indirizzo principale. Sovrascrive l’impostazione generale a livello di sandbox.

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 14%
+source-wordcount: '474'
+ht-degree: 13%
 
 ---
 
@@ -40,9 +40,9 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
 1. Definisci le **impostazioni SMS**.
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
-   Inizia selezionando il tipo di SMS **[!UICONTROL 1&rbrace; che verrà inviato con la configurazione:]** Transazionale **[!UICONTROL o]** Marketing **[!UICONTROL .]**
+   Inizia selezionando il tipo di SMS **[!UICONTROL 1} che verrà inviato con la configurazione:]** Transazionale **[!UICONTROL o]** Marketing **[!UICONTROL .]**
 
    * Scegli **Marketing** per i messaggi promozionali: questi messaggi richiedono il consenso dell&#39;utente.
    * Scegli **Transazionale** per messaggi non commerciali quali ad esempio conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna.
@@ -59,13 +59,17 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
 1. Immettere il **[!UICONTROL numero mittente]** &#x200B;che si desidera utilizzare per le comunicazioni.
 
-1. Seleziona il **[!UICONTROL Campo di esecuzione SMS]** per selezionare l&#39;**[!UICONTROL attributo profilo]** associato ai numeri di telefono dei profili.
-
 1. Se desideri utilizzare la funzione di abbreviazione URL nei messaggi SMS, seleziona un elemento dall&#39;elenco **[!UICONTROL Sottodominio]**.
 
    >[!NOTE]
    >
    >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio SMS/MMS. [Scopri come](sms-subdomains.md)
+
+1. Nella sezione **[!UICONTROL Dimensione di esecuzione]**, utilizza il **[!UICONTROL Campo di esecuzione SMS]** per selezionare tra gli attributi del profilo il numero di telefono da utilizzare in priorità se nel database sono disponibili più numeri. [Ulteriori informazioni](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >Per impostazione predefinita, [!DNL Journey Optimizer] utilizza il numero di telefono specificato nelle [impostazioni generali](../configuration/primary-email-addresses.md) a livello di sandbox. L’aggiornamento di questo campo sovrascrive il valore predefinito per i percorsi e le campagne che utilizzano questa configurazione.
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. Puoi anche salvare la configurazione del canale come bozza e riprenderla in un secondo momento.
 
