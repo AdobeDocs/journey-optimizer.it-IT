@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca, puoi uti
 
    +++Dove recuperare un ID set di dati?
 
-   Gli ID dei set di dati possono essere recuperati nell’interfaccia utente di Adobe Experience Platform. Scopri come utilizzare i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Gli ID dei set di dati possono essere recuperati nell’interfaccia utente di Adobe Experience Platform. Scopri come utilizzare i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -81,13 +81,15 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca, puoi uti
    >[!NOTE]
    >
    >Quando fai riferimento a un campo di set di dati, accertati di corrispondere al percorso completo del campo definito all’interno dello schema.
+   >
+   >Non vi sono limiti rigidi al numero di campi che possono essere richiamati utilizzando la funzione helper. Tuttavia, per prestazioni ottimali, si consiglia di mantenere il numero di campi al di sotto di 50 per evitare di influire sulla velocità effettiva.
 
    * **result** è il valore assegnato al parametro **result** nella funzione helper **MultiEntity**. In questo esempio &quot;flight&quot;.
    * **fieldID** è l&#39;ID del campo che si desidera recuperare. Questo ID è visibile nell&#39;interfaccia utente di [!DNL Adobe Experience Platform] durante la navigazione nello schema di record relativo al set di dati:
 
      +++Dove recuperare un ID campo?
 
-     Gli ID dei campi possono essere recuperati durante l’anteprima di un set di dati nell’interfaccia utente di Adobe Experience Platform. Scopri come visualizzare in anteprima i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Gli ID dei campi possono essere recuperati durante l’anteprima di un set di dati nell’interfaccia utente di Adobe Experience Platform. Scopri come visualizzare in anteprima i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '752'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 * I set di dati abilitati per la ricerca non devono contenere dati PII (Personally Identifiable Information).
 * I set di dati abilitati per la ricerca e utilizzati nella personalizzazione non sono protetti dall’eliminazione. Spetta a te tenere traccia dei set di dati utilizzati per la personalizzazione per assicurarti che non vengano eliminati o rimossi.
 * I set di dati devono essere associati a uno schema di tipo NON profilo o evento.
-* Gli schemi devono avere un’identità primaria. Per le ricerche è possibile utilizzare una sola chiave primaria.
+* L’acquisizione di dati in streaming è supportata per i set di dati abilitati per la ricerca. Tieni presente che l’elaborazione dell’acquisizione deve ancora essere completata prima che i dati siano disponibili per la personalizzazione o il processo decisionale.
 
 ### Diritto per il servizio di ricerca
 
