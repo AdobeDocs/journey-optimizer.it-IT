@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sottodomini, configurazione
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 20%
+source-wordcount: '1008'
+ht-degree: 18%
 
 ---
 
@@ -133,14 +133,23 @@ Prima di utilizzare un sottodominio per l’invio di messaggi SMS, è necessario
 
 Se non riesci a creare il record di convalida nella soluzione di hosting, il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]**.
 
+## Guardrail {#guardrails}
+
+Attualmente, l&#39;interfaccia utente [!DNL Journey Optimizer] non supporta l&#39;eliminazione o l&#39;annullamento della delega dei sottodomini SMS una volta configurati.
+
+Tuttavia, durante il test delle funzionalità all&#39;interno di [!DNL Journey Optimizer], potrebbe essere necessario creare un sottodominio SMS. Una volta completato il test, si potrebbero verificare ambienti disordinati con configurazioni non necessarie, in quanto l’interfaccia utente non consente di rimuovere o annullare la delega dei sottodomini SMS.
+
+Di seguito sono riportati alcuni passaggi consigliati e considerazioni:
+
+<!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
+
+* Come best practice, è consigliabile mantenere un ambiente ordinato creando solo i componenti e le configurazioni necessari.
+* Nelle situazioni in cui si verifica un impatto aziendale, contatta il rappresentante Adobe, che potrebbe essere in grado di fornire assistenza per la rimozione/rimozione della delega del sottodominio SMS. [Ulteriori informazioni](#undelegate-subdomain)
+* Se è necessaria ulteriore assistenza, contatta Adobe per informazioni su come gestire efficacemente l’istanza.
+
 ## Annullare la delega di un sottodominio {#undelegate-subdomain}
 
 Se desideri annullare la delega di un sottodominio SMS, rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
-
-<!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
 Se il sottodominio SMS punta a un record CNAME, puoi eliminare il record DNS CNAME creato per il sottodominio SMS dalla soluzione di hosting (ma non eliminare l’eventuale sottodominio e-mail originale).
 
