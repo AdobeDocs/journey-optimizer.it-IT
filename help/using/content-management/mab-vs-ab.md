@@ -4,29 +4,23 @@ description: Ulteriori informazioni sui test A/B e sui slot machine
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
 # Esperimenti A/B vs slot machine {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="Tipo di esperimento"
+>abstract="Il tipo di esperimento determina il modo in cui il traffico viene allocato tra i trattamenti durante il test. Scegli il metodo che meglio si allinea agli obiettivi:</br><b>Esperimento A/B</b>: divide il traffico mentre definisci tra trattamenti e misurazioni delle prestazioni fino a quando i risultati non sono statisticamente significativi. Ideale per imparare quale trattamento funziona meglio in un confronto controllato.</br><b>Slot multi-armed</b>: sposta il traffico verso trattamenti con prestazioni migliori durante la raccolta dei dati, bilanciando velocità e ottimizzazione. Utile quando desideri massimizzare le conversioni durante l’esperimento.</br><b>Porta il tuo slot machine</b>: utilizza il tuo algoritmo per decidere l&#39;allocazione del traffico, offrendoti flessibilità se disponi di un modello o di una strategia personalizzati."
 
 Questa pagina fornisce un confronto dettagliato degli esperimenti **A/B** e **Multi-Armed Bandit**, illustrandone i rispettivi punti di forza, limitazioni e scenari in cui ogni approccio è più efficace.
+
 
 ## A/B {#ab-test}
 
@@ -132,4 +126,3 @@ Le principali limitazioni dei metodi di slot machine sono:
 | Hai traffico limitato e desideri ottimizzare rapidamente il ritorno sull’investimento | slot machine |
 | Hai traffico elevato e puoi permetterti un apprendimento più lento | A/B |
 | Le parti interessate hanno bisogno di punti decisionali chiari | A/B |
-
