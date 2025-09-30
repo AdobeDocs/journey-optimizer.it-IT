@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema basato su modello in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1080'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,8 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema basato 
 1. [Collega schemi](#link-schema) per collegare i dati basati su modelli con entità profilo esistenti, ad esempio Destinatari o Marchi.
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
+
+➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Carica un file DDL{#ddl-upload}
 
@@ -91,7 +93,7 @@ Ecco un esempio:
 
 1. Digita il **[!UICONTROL nome dello schema]**.
 
-1. Imposta ogni schema e le relative colonne, assicurandoti che sia specificata una chiave primaria.
+1. Configura ogni schema e le relative colonne, assicurandoti di specificare una chiave primaria e un descrittore di versione.
 
    Un attributo, ad esempio `lastmodified`, deve essere designato come descrittore di versione (tipo `datetime`, `long` o `int`) per garantire che i set di dati vengano aggiornati con i dati più recenti. Gli utenti possono modificare il descrittore di versione, che diventa obbligatorio una volta impostato. Un attributo non può essere sia una chiave primaria (PK) che un descrittore di versione.
 
@@ -107,7 +109,7 @@ Ora puoi verificare le definizioni della tabella e dei campi all’interno dell�
 
 ## Definire le relazioni {#relationships}
 
-Per definire connessioni logiche tra tabelle all’interno dello schema, segui i passaggi seguenti.
+Durante la creazione dello schema, è possibile specificare relazioni direttamente all&#39;interno del file DDL. Se preferisci definire relazioni esterne al file, puoi farlo nell’interfaccia seguendo i passaggi seguenti.
 
 1. Accedi alla vista area di lavoro del modello dati e scegli le due tabelle da collegare
 

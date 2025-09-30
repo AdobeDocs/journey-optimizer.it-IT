@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema basato su modello in Adobe Experience Platform caricando una DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Questa guida illustra i passaggi necessari per creare uno schema basato su model
 
 ## Concetti chiave
 
-Nel contesto di campagne orchestrate, un **set di dati** è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe). I dati acquisiti correttamente in Experience Platform vengono memorizzati nel data lake come set di dati.
+Nel contesto di campagne orchestrate, un **set di dati** è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (righe) e campi (colonne). I dati acquisiti correttamente in Experience Platform vengono memorizzati nel data lake come set di dati.
 
 Uno **schema** rappresenta e convalida la struttura e il formato dei dati. Fornisce una definizione astratta di un oggetto reale (ad esempio una persona) e delinea quali dati includere in ogni istanza di tale oggetto (ad esempio nome, compleanno e così via).
 
@@ -52,6 +52,8 @@ Specifica:
 
 L’organizzazione di schemi o tabelle in un modello di dati basato su modelli riguarda la strutturazione dei dati in più tabelle. Assicurati che ogni tabella memorizzi un tipo di entità/schemi
 
+➡️ [Ulteriori informazioni sugli schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+
 ## Passaggi di implementazione {#implementation}
 
 Per acquisire i dati e creare uno schema basato su modello, effettua le seguenti operazioni:
@@ -62,7 +64,7 @@ Per acquisire i dati e creare uno schema basato su modello, effettua le seguenti
 
    Quando crei manualmente lo schema, anche il set di dati deve essere creato e abilitato manualmente. Quando si utilizza un file DDL, la creazione e l’abilitazione dei set di dati sono automatiche.
 
-1. [Collegare lo schema](file-upload-schema.md)
+1. [Collegare gli schemi](file-upload-schema.md)
 
    Stabilisci relazioni tra gli schemi per garantire la coerenza dei dati e abilitare query tra più entità. Ad esempio, puoi collegare le transazioni di fidelizzazione a destinatari o premi a marchi.
 
@@ -70,7 +72,7 @@ Per acquisire i dati e creare uno schema basato su modello, effettua le seguenti
 
    Dopo aver definito lo schema, devi creare un set di dati basato su di esso. Questo set di dati funge da archiviazione per i dati acquisiti.
 
-1. [Abilita campagna orchestrata](manual-schema.md#enable)
+1. [Abilita campagne orchestrate](manual-schema.md#enable)
 
    Il set di dati memorizza i dati acquisiti e deve essere abilitato per le campagne orchestrate per garantire che sia accessibile in Adobe Journey Optimizer.
 

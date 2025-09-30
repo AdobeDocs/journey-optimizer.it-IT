@@ -5,9 +5,9 @@ title: Passaggi di configurazione
 description: Scopri come creare schemi basati su modelli direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '871'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,8 @@ L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** p
 1. [Crea un set di dati](#dataset) in base allo schema e abilitalo per l&#39;utilizzo in campagne orchestrate.
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
+
+➡️ [Ulteriori informazioni sugli schemi manuali basati su modelli sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Creare lo schema {#schema}
 
@@ -106,11 +108,11 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Una volta creati gli attributi, devi collegare lo schema appena creato con uno schema integrato.
+Dopo aver creato e salvato gli attributi, puoi collegare lo schema con altri schemi relazionali definendo relazioni.
 
 ## Collegare gli schemi {#link-schema}
 
-Creare una relazione tra due schemi consente di arricchire le campagne orchestrate con dati memorizzati al di fuori dello schema del profilo principale.
+La creazione di una relazione tra due schemi consente di migliorare le campagne orchestrate con dati che vanno oltre lo schema di profilo principale.
 
 1. Dallo schema appena creato, seleziona l&#39;attributo che desideri utilizzare come collegamento e fai clic su **[!UICONTROL Aggiungi relazione]**.
 
@@ -126,11 +128,9 @@ Creare una relazione tra due schemi consente di arricchire le campagne orchestra
 
 1. Una volta configurata, fai clic su **[!UICONTROL Applica]**.
 
-Una volta stabilita la relazione, devi creare un set di dati basato sullo schema.
-
 ## Creare un set di dati per lo schema {#dataset}
 
-Dopo aver definito lo schema, il passaggio successivo consiste nel creare un set di dati basato su di esso. Questo set di dati archivia i dati acquisiti e deve essere abilitato per le campagne orchestrate affinché sia accessibile in Adobe Journey Optimizer. L’abilitazione di questa opzione assicura che il set di dati sia riconosciuto per l’utilizzo in flussi di lavoro di orchestrazione e personalizzazione in tempo reale.
+Dopo aver definito lo schema, ora puoi creare un set di dati basato su di esso. Il set di dati memorizza i dati acquisiti e deve essere abilitato affinché le campagne orchestrate siano accessibili.
 
 1. Passa al menu **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** e fai clic su **[!UICONTROL Crea set di dati]**.
 
@@ -144,7 +144,7 @@ Dopo aver definito lo schema, il passaggio successivo consiste nel creare un set
 
 1. Immetti un **[!UICONTROL Nome]** per il **[!UICONTROL Set di dati]** e fai clic su **[!UICONTROL Fine]**.
 
-Ora devi abilitare il set di dati per le campagne Orchestrate.
+Ora devi abilitare il set di dati per le campagne orchestrate.
 
 ## Abilitare il set di dati per le campagne orchestrate {#enable}
 
@@ -160,7 +160,7 @@ Consulta la [documentazione di Adobe Developer](https://developer.adobe.com/jour
 
 1. Individua il set di dati nell&#39;elenco **[!UICONTROL Set di dati]**.
 
-1. Dalle impostazioni **[!UICONTROL Set di dati]**, abilita l&#39;opzione **Campagne orchestrate** per rendere il set di dati disponibile per l&#39;utilizzo nelle campagne orchestrate.
+1. Dalle impostazioni **[!UICONTROL Set di dati]**, abilita l&#39;opzione **Campagne orchestrate** per contrassegnare il set di dati disponibile per l&#39;utilizzo nelle campagne orchestrate.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 
