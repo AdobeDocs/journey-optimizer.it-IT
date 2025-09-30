@@ -4,13 +4,13 @@ product: journey optimizer
 title: API di limitazione di utilizzo
 description: Scopri come utilizzare l’API di limitazione di utilizzo
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
 
-Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Descrizione API di limitazione e raccolta Postman {#description}
 
-Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione di utilizzo. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione di utilizzo. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
 
 | Metodo | Percorso | Descrizione |
 |---|---|---|
@@ -46,13 +46,13 @@ Questa raccolta è stata configurata per condividere la raccolta di variabili Po
 Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway.
 * `{BASE_PATH}`: punto di ingresso per l&#39;API.
-* `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
+* `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target="_blank"}.
 
 ## Configurazione endpoint
 
 Di seguito è riportata la struttura di base di una configurazione di endpoint:
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ Di seguito è riportata la struttura di base di una configurazione di endpoint:
 >
 >Il valore massimo impostabile è 400. Se non viene specificato nulla, il sistema può aprire più di migliaia di connessioni a seconda della scalabilità dinamica del sistema.
 >
->Quando viene distribuita la configurazione dei limiti, se non è stato fornito alcun valore &#39;maxHttpConnection&#39;, nella configurazione distribuita viene aggiunto il valore predefinito &quot;maxHttpConnection = -1&quot;, il che significa che Journey Optimizer utilizzerà il valore predefinito del sistema.
+>Durante la distribuzione della configurazione dei limiti, se non è stato impostato alcun valore `maxHttpConnections`, viene aggiunto un valore predefinito `maxHttpConnections = -1` alla configurazione distribuita e Journey Optimizer utilizza il valore predefinito di sistema.
 
 Esempio:
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ Esempio:
 
 Quando viene chiamato un metodo **canDeploy**, il processo convalida la configurazione e restituisce lo stato di convalida identificato dal relativo ID univoco:
 
-```
+```json
 "ok" or "error"
 ```
 
