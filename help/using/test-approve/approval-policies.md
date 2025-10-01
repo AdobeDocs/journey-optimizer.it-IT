@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 36136c8fce1b6bd9113d95787afbcff5a7605ddf
+source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home)
+>Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 I criteri di approvazione consentono agli amministratori di stabilire un processo di convalida per percorsi e campagne. Questo sistema delinea condizioni specifiche che determinano se un percorso o una campagna richiede l’approvazione. La complessità di tali criteri può variare, dal semplice fatto che tutte le campagne devono essere riviste da un utente o team specifico alla definizione di criteri in base a chi ha creato la campagna.
 
@@ -51,9 +51,11 @@ Per creare un criterio di approvazione, eseguire la procedura seguente:
 
 1. Seleziona se il criterio verrà applicato a **[!UICONTROL Percorsi]** o **[!UICONTROL Campagne]**.
 
-1. Abilita l&#39;**[!UICONTROL autoapprovazione blocco]** per impedire ai creatori di Percorsi/campagne di approvare i propri oggetti.
+<!--
+1. Enable the **[!UICONTROL Block self-approval]** to prevent Journey/Campaign creators from approving their own objects.
 
-   ![](assets/policy_create_2.png)
+    ![](assets/policy_create_2.png)
+-->
 
 È ora possibile perfezionare le condizioni per specificare chi può avviare la richiesta di approvazione e chi può convalidarla.
 
