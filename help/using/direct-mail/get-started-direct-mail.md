@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: d4b300f09a2e0b68ae1b5ba44995dad473ff67b3
+source-git-commit: 73f5cfdedd5a472cf922a5dfd950f3361896ba8d
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 78%
+source-wordcount: '235'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 78%
 
 Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mail di terze parti per inviare e-mail ai clienti.
 
->[!AVAILABILITY]
->
->I messaggi direct mail possono essere creati solo nel contesto di campagne e percorsi pianificati. Non sono disponibili per l’utilizzo in campagne orchestrate e attivate da API.
-
-Durante la creazione di una campagna di direct mailing, [!DNL Journey Optimizer] genera automaticamente un file contenente tutti i profili target e i dati selezionati, ad esempio gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mail di terze parti scelto, che gestirà il processo di invio e-mail effettivo per te.
+Durante la creazione di una campagna direct mail, Journey Optimizer genera automaticamente un file contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mail di terze parti scelto, che gestirà il processo di invio e-mail effettivo per te.
 
 Sarà necessario collaborare con il provider di direct maili di terze parti scelto per ottenere, se applicabile, il consenso necessario dai clienti alla ricezione di posta da parte tua.
 
@@ -32,4 +28,10 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 ![](assets/dm-creation-process.png)
 
+>[!AVAILABILITY]
+>
+>I messaggi direct mail possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo nelle campagne attivate da API o nei percorsi.
+
 ![](../rn/assets/do-not-localize/gif-dm.gif)
+
+
