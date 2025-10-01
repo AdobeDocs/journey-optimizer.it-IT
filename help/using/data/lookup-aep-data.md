@@ -10,9 +10,9 @@ level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '833'
 ht-degree: 5%
 
 ---
@@ -32,10 +32,22 @@ Journey Optimizer consente di sfruttare i dati provenienti dai dati di Adobe Exp
 
 Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 
-* I set di dati abilitati per la ricerca non devono contenere dati PII (Personally Identifiable Information).
-* I set di dati abilitati per la ricerca e utilizzati nella personalizzazione non sono protetti dall’eliminazione. Spetta a te tenere traccia dei set di dati utilizzati per la personalizzazione per assicurarti che non vengano eliminati o rimossi.
-* I set di dati devono essere associati a uno schema di tipo NON profilo o evento.
-* L’acquisizione di dati in streaming è supportata per i set di dati abilitati per la ricerca. Tieni presente che l’elaborazione dell’acquisizione deve ancora essere completata prima che i dati siano disponibili per la personalizzazione o il processo decisionale.
+* **Nessun PII nei set di dati** - I set di dati abilitati per la ricerca non devono contenere informazioni personali (PII, Personally Identifiable Information).
+
+* 
+   * **Rischio di eliminazione** - I set di dati utilizzati nella personalizzazione non sono protetti dall&#39;eliminazione. È necessario tenere traccia dei set di dati utilizzati per assicurarsi che non vengano rimossi.
+
+* **Tipo di schema** - I set di dati devono essere associati a uno schema di tipo **NOT** Profilo o Evento.
+
+* **Mantieni attiva la ricerca** - Evita di attivare e disattivare ripetutamente i set di dati. Procedendo in questo modo si potrebbe verificare un comportamento di indicizzazione imprevisto. La best practice prevede di lasciare abilitato il set di dati per tutto il tempo in cui intendi utilizzarlo per le ricerche.
+
+* **Batch di eliminazione dati** - La rimozione di un batch di dati dal set di dati comporta la rimozione completa di tutte le chiavi corrispondenti dal servizio di ricerca. Ad esempio:
+
+  **Batch 1**: Sku1, Sku2, Sku3\
+  **Batch 2**: Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Batch 3**: Sku7, Sku8, Sku9, Sku10
+
+  Se si elimina **Batch 1**, Sku1, Sku2 e Sku3 verranno rimossi dall&#39;archivio di ricerca. I dati di ricerca risultanti conterranno quindi: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Diritto per il servizio di ricerca
 
