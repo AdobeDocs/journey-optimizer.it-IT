@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c25e3898e02342c90c6495cd979b91657fb03379
+source-git-commit: 0b7adefe5eb2a2f89330437cc09a1361870c6041
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 38%
+source-wordcount: '1876'
+ht-degree: 40%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
+<p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 24 settembre 2025</p>
 </td>
 </tr>
@@ -349,12 +349,5 @@ Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di per
   Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare un endpoint esterno personalizzato definendo un collegamento con un solo clic per annullare l’abbonamento nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
   Per personalizzare ulteriormente l’indirizzo e-mail per annullare l’abbonamento, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è già disponibile per il collegamento personalizzato con un solo clic per annullare l’abbonamento a partire dalla versione del 25 agosto.
-
-  <!-- Availability date: Sept XX, 2025-->
-
-
-* **Modalità di throughput elevato per campagne e-mail attivate da API**\
-  Nelle campagne attivate dall’API è ora disponibile la nuova modalità Alta velocità. Questa modalità è progettata per la messaggistica in tempo reale su larga scala (fino a 5000 transazioni al secondo) e fornisce maggiore disponibilità con latenza inferiore.\
-  Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe High Throughput per la messaggistica transazionale. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
   <!-- Availability date: Sept XX, 2025-->
