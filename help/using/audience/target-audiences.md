@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 22%
 
 ---
@@ -35,11 +35,11 @@ Per i tipi di pubblico con caricamento personalizzato e Composizione federata de
 
 * **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
 
-* **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo UPS, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
+* **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo del servizio profili unificato, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
 
   Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l’attributo scelto come identità nella creazione del pubblico sarà quello utilizzato per il targeting in Journey Optimizer.
 
-* **Record attivati e unione identità:** tutti i record nel pubblico vengono attivati, inclusi eventuali duplicati. Durante la prossima esportazione del profilo UPS, questi record passeranno attraverso l’unione delle identità. Di conseguenza, il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
+* **Record attivati e unione identità:** tutti i record nel pubblico vengono attivati, inclusi eventuali duplicati. Durante la prossima esportazione del profilo Unified Profile Service, questi record passeranno attraverso l’unione delle identità. Di conseguenza, il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
 
 ## Pubblico di destinazione in [!DNL Journey Optimizer]
 
