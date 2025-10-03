@@ -56,7 +56,7 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
 
 Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416871?quality=12&captions=ita)
 
 >[!MORELIKETHIS]
 >
