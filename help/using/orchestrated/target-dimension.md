@@ -5,9 +5,9 @@ title: Creare la dimensione di targeting
 description: Scopri come mappare uno schema relazionale al profilo cliente
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Per iniziare, imposta l’orchestrazione delle campagne mappando uno schema rela
 
    In questo esempio, il profilo cliente è collegato a più sottoscrizioni, ognuna rappresentata da un `crmID` univoco nello schema `Recipient`. Impostando lo schema **[!UICONTROL e la relativa identità]** per `Recipient`Dimension`crmID` di destinazione, è possibile inviare messaggi a livello di sottoscrizione anziché al profilo cliente principale, garantendo che ogni contratto o linea riceva il proprio messaggio personalizzato.
 
-   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity)
+   [Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -61,7 +61,7 @@ Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, procedere c
 
 ## Configurazione del canale {#channel-configuration}
 
-Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, devi configurare la **[!UICONTROL configurazione canale]** e definire i **[!UICONTROL dettagli di esecuzione]** appropriati. Questo consente di definire:
+Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, è necessario configurare la **[!UICONTROL configurazione canale]** e definire i **[!UICONTROL dettagli di esecuzione]** appropriati. Questo consente di definire:
 
 * **Livello di recapito dei messaggi**: ad esempio, l&#39;invio di un messaggio per destinatario, ad esempio una singola e-mail per singolo destinatario.
 
