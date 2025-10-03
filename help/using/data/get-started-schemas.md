@@ -9,9 +9,9 @@ level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 [!DNL Adobe Journey Optimizer] si basa sugli **schemi di Adobe Experience Platform** per descrivere la struttura dei dati in modo coerente e riutilizzabile. Uno schema fornisce una definizione astratta di un oggetto reale (ad esempio una persona) e delinea i dati da includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via). Quando i dati vengono acquisiti in Experience Platform, sono sempre strutturati in base a uno schema **XDM**.
 
-## Schemi standard e basati su modelli
+## Schemi basati su modelli e standard
 
 In Adobe Experience Platform sono disponibili due tipi di schemi:
 
@@ -34,14 +34,14 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
 
   ➡️ [Scopri come creare e configurare uno schema standard in questo video](#video-schema) (video)
 
-* **Gli schemi basati su modello** sono schemi piatti non gerarchici che non utilizzano classi o gruppi di campi. Vengono utilizzati per acquisire dati record per entità relazionali e, principalmente, nelle [!DNL Journey Optimizer] **campagne orchestrate**.
+* **Gli schemi basati su modelli** sono semplici non gerarchici che non utilizzano classi o gruppi di campi. Vengono utilizzati per acquisire dati record per entità relazionali e, principalmente, nelle [!DNL Journey Optimizer] **campagne orchestrate**.
 
   Esempi di entità relazionali includono:
    * Prenotazioni, contratti o abbonamenti
    * Prodotti o cataloghi
    * Negozi, sedi o partner
 
-  Con gli schemi basati su modelli, puoi inviare un messaggio per entità (ad esempio, per prenotazione, per abbonamento), creare segmenti basati sugli attributi di entità (ad esempio, categoria di prodotto, posizione del negozio) e migliorare l’indirizzabilità raggiungendo tutti i contatti collegati a un’entità.
+  Con gli schemi basati su modelli, puoi inviare un messaggio per entità (ad esempio, per prenotazioni, iscrizioni), creare segmenti basati sugli attributi di entità (ad esempio, categoria di prodotto, posizione del negozio) e migliorare l’indirizzabilità raggiungendo tutti i contatti collegati a un’entità.
 
   Funzionamento degli schemi basati su modelli:
 
@@ -56,7 +56,7 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
 
 Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

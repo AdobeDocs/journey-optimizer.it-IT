@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Questa modifica verrà implementata nelle **sandbox della clientela esistente** 
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Impossibile utilizzare lo stesso dominio di invio per inviare messaggi di posta elettronica da [!DNL Adobe Journey Optimizer] e da un altro prodotto, ad esempio [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage].
+Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi e-mail da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
 ### Guardrail per SMS {#sms-guardrails}
 
@@ -64,19 +64,19 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
 
-### Guardrail del canale in entrata {#inbound-guardrails}
+### Guardrail per canali in entrata {#inbound-guardrails}
 
 * Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-  I canali in entrata Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo qualora si superi il numero contrattuale di profili coinvolgibili acquistati.
+  I canali in entrata di Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo qualora si superi il numero contrattuale di profili coinvolgibili acquistati.
 
   Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-* Journey Optimizer supporta un massimo di 500 azioni in entrata attive in qualsiasi momento. Queste azioni in entrata ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)) vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi meno recenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
+* Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)) vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
 
-* Per utilizzare le azioni di [esperienza basata su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, seguire i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+* Per utilizzare le azioni di [esperienza basate su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
-### Guardrail dei messaggi transazionali {#transactional-message-guardrails}
+### Guardrail di un messaggio transazionale {#transactional-message-guardrails}
 
 Journey Optimizer supporta un volume massimo di 500 messaggi transazionali al secondo nelle campagne.
 
@@ -171,7 +171,7 @@ Alle [azioni personalizzate](../action/action.md) nei tuoi percorsi vengono appl
 
 Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Journey Optimizer supporta un volume massimo di 5.000 eventi di percorso in entrata al secondo, in tutte le sandbox. Ulteriori informazioni su questa limitazione [in questa pagina](../event/about-events.md#event-thoughput).
+* Journey Optimizer supporta un volume massimo di 5.000 eventi di percorso in entrata al secondo, su tutte le sandbox. Ulteriori informazioni su questa limitazione [in questa pagina](../event/about-events.md#event-thoughput).
 * I percorsi attivati da eventi possono richiedere fino a 5 minuti per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
@@ -204,18 +204,18 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ### Identificatori supplementari {#supplemental}
 
-All’uso di identificatori supplementari nei percorsi si applicano protezioni specifiche. Sono elencati in [questa pagina](../building-journeys/supplemental-identifier.md#guardrails).
+Guardrail specifici si applicano all’utilizzo di identificatori supplementari nei percorsi. Sono elencati in [questa pagina](../building-journeys/supplemental-identifier.md#guardrails).
 
-### Editor espressioni {#expression-editor}
+### Editor di espressioni {#expression-editor}
 
 All’[editor di espressioni del percorso](../building-journeys/expression/expressionadvanced.md) si applicano i seguenti guardrail:
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. È necessario creare un nuovo pubblico e utilizzare una condizione `inaudience` nel percorso.
 * Non è possibile utilizzare gli attributi `timeSeriesEvents` nell’editor di espressioni. Per accedere agli eventi di esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
 
-### Attività percorso {#activities}
+### Attività del percorso {#activities}
 
-#### Attività qualificazione pubblico {#audience-qualif-g}
+#### Attività Qualificazione del pubblico {#audience-qualif-g}
 
 All’attività del percorso [qualificazione del pubblico](../building-journeys/audience-qualification-events.md) viene applicato il seguente guardrail:
 
@@ -253,7 +253,7 @@ All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti gua
 
 All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono elencati in [questa pagina](../building-journeys/jump.md#jump-limitations).
 
-#### Attività Read audience {#read-segment-g}
+#### Attività Leggi pubblico {#read-segment-g}
 
 All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
@@ -264,7 +264,7 @@ All’attività del percorso [Leggi pubblico](../building-journeys/read-audience
 * Un percorso può disporre di una sola attività **Leggi pubblico**.
 * Consulta anche i consigli su come utilizzare l’attività **Leggi pubblico** in [questa pagina](../building-journeys/read-audience.md).
 * I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
-* Per i percorsi che utilizzano ID supplementari, la velocità di lettura dell’attività di lettura del pubblico per ogni istanza del percorso è limitata a un massimo di 500 profili al secondo.
+* Per i percorsi che utilizzano ID supplementari, il tasso di lettura dell’attività Leggi pubblico per ogni istanza del percorso è limitata a un massimo di 500 profili al secondo.
 
 Consulta anche [questa pagina](../building-journeys/read-audience.md#must-read).
 

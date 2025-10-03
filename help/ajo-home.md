@@ -6,25 +6,25 @@ description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Documentazione di Adobe Journey Optimizer{#section-overview}
 
-Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Che tu sia un addetto marketing, un analista dati o un manager della campagna, troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere i tuoi obiettivi con sicurezza.
+Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere gli obiettivi con sicurezza sia per marketer, analista dati o responsabile della campagna.
 
 ## Novità {#section-new}
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, miglioramenti e correzioni, consulta le [Note sulla versione](using/rn/release-notes.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, miglioramenti e correzioni, consulta le [note sulla versione](using/rn/release-notes.md).
 
 >[!BEGINTABS]
 
->[!TAB Versione del &#39;25]
+>[!TAB Versione di settembre 2025]
 
-È disponibile la versione di settembre di Journey Optimizer. Scopri le nuove funzioni e i miglioramenti rilasciati questo mese nelle Note sulla versione.
+La versione di settembre di Journey Optimizer è ora disponibile. Scopri le nuove funzioni e i miglioramenti rilasciati questo mese nelle note sulla versione.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -49,17 +49,17 @@ L’integrazione di Adobe Express in Adobe Journey Optimizer consente di acceder
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recente
 
-Resta aggiornato sulle note sulla versione più recente, sulle nuove funzioni e sui miglioramenti apportati in Adobe Journey Optimizer.
+Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e dei miglioramenti in Adobe Journey Optimizer.
 
-[Visualizza note sulla versione](using/rn/release-notes.md)
+[Consulta le note sulla versione](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione
 
@@ -69,7 +69,7 @@ Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’ar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -79,7 +79,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -89,7 +89,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -99,7 +99,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
