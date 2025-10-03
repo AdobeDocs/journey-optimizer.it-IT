@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
 source-wordcount: '1726'
-ht-degree: 44%
+ht-degree: 90%
 
 ---
 
@@ -54,12 +54,12 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator è un prodotto di intelligenza artificiale progettato per portare la sperimentazione a un livello successivo. Creato per gli utenti di Adobe Journey Optimizer e Adobe Target, unifica la gestione degli esperimenti, fornisce informazioni e opportunità basate sull’intelligenza artificiale e introduce un nuovo agente di sperimentazione.</p>
-<p>Non vedi l'ora di:</p>
+<p>Journey Optimizer Experimentation Accelerator è un prodotto di intelligenza artificiale progettato migliorare ulteriormente la sperimentazione. Creato per gli utenti di Adobe Journey Optimizer e Adobe Target, unifica la gestione degli esperimenti, fornisce informazioni e opportunità basate sull’intelligenza artificiale e introduce un nuovo agente di sperimentazione.</p>
+<p>Potrai scoprire:</p>
 <ul>
-<li><strong>Inventario unificato degli esperimenti:</strong> Visualizza, filtra e gestisci rapidamente tutti gli esperimenti da Adobe Journey Optimizer e Adobe Target in un'unica area di lavoro centrale.</li>
-<li><strong>Informazioni e opportunità sull'esperimento AI:</strong> Vai oltre le letture statistiche con informazioni e consigli basati su GenAI. Ogni esperimento ora mette in evidenza opportunità utilizzabili, complete di motivazioni di supporto, in modo che i team possano decidere con maggiore sicurezza cosa testare successivamente.</li>
-<li><strong>Supporto Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> massimizzare l'impatto riducendo il traffico sprecato con esperimenti Multi-Armed Bandit. Invece di suddividere i tipi di pubblico in modo uniforme, MAB alloca automaticamente più visitatori alle varianti con le prestazioni migliori in tempo reale, in modo da poter fornire esperienze migliori a più clienti e al tempo stesso imparare cosa funziona.</li></ul>
+<li><strong>Inventario unificato degli esperimenti:</strong> visualizza, filtra e gestisci rapidamente tutti gli esperimenti da Adobe Journey Optimizer e Adobe Target in un’unica area di lavoro centrale.</li>
+<li><strong>Insight e opportunità sull’esperimento IA:</strong> supera la semplice lettura dei dati con insight e consigli basati sull’intelligenza artificiale generativa. Ciascun esperimento ora evidenzia opportunità utilizzabili, corredate da motivazioni a supporto, in modo che i team possano decidere con maggiore sicurezza cosa testare successivamente.</li>
+<li><strong>Supporto Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> massimizza l’impatto riducendo il traffico sprecato con esperimenti Multi-Armed Bandit. Invece di suddividere i tipi di pubblico in modo uniforme, il MAB assegna automaticamente più visitatori alle varianti con le prestazioni migliori in tempo reale, in modo da poter fornire esperienze di maggior valore a una clientela più elevata e continuando ad apprendere al tempo stesso che cosa funziona.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/experiment-accelerator.md">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 23 settembre 2025</p>
@@ -71,13 +71,13 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent è qui!</strong><br/></th>
+<th><strong>L’Agente Journey è ora disponibile.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, Journey Agent è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. L’agente rileva i conflitti di pubblico o pianifica i conflitti e i rilasci di profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
+<p>Basato su <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’Agente Journey è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un’interfaccia in linguaggio naturale. L’agente rileverà i conflitti di pubblico o di pianificazione e gli abbandoni del profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 24 settembre 2025</p>
 </td>
@@ -150,13 +150,13 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Utilizzare i dati di Adobe Experience Platform per la personalizzazione e la funzione Decisioni</strong><br/></th>
+<th><strong>Utilizza i dati di Adobe Experience Platform per la personalizzazione e la funzione Decisioni</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Precedentemente rilasciata in versione beta pubblica, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione, sono stati introdotti i seguenti miglioramenti:</p>
+<p>Precedentemente rilasciata in versione Beta pubblica, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione, sono stati introdotti i seguenti miglioramenti:</p>
 <ul><li>Supporto per la personalizzazione della ricerca di set di dati nei canali in entrata.</li>
 <li>È ora possibile utilizzare la funzione helper “datasetLookup” nei frammenti di espressione. Per il momento, questa funzionalità è disponibile per una parte limitata della clientela. Per potervi accedere, contatta il tuo rappresentante Adobe.</li>
 <li>Un’opzione nell’interfaccia per la gestione del set di dati ora consente di abilitare i set di dati basati su record per la personalizzazione della ricerca, senza dover eseguire una chiamata API.</li>
@@ -178,28 +178,28 @@ ht-degree: 44%
 
   Data di disponibilità: 29 settembre 2025
 
-* Supporto di **mTLS per il canale SMS**
-Durante la configurazione di un provider SMS personalizzato, ora è possibile abilitare l’autenticazione reciproca TLS (mTLS), che richiede sia al client che al server di confermare l’identità dell’altro prima che venga stabilita una connessione sicura. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
+* **Supporto mTLS per il canale SMS**
+Durante la configurazione di un provider SMS personalizzato, ora puoi abilitare l’autenticazione TLS reciproca (mTLS), che richiede sia al client che al server di confermare reciprocamente la propria identità prima che venga stabilita una connessione sicura. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
 
 * **Schemi basati su modelli**\
-  Gli schemi basati su modelli possono ora essere utilizzati da per supportare le tue esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
+  Gli schemi basati su modelli possono ora essere utilizzati per supportare le esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
 
 * **Supporto per la ricerca di set di dati in percorsi**\
-  Una nuova attività in percorsi, **Ricerca set di dati**, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non risiedere nel profilo o nel payload dell’evento, garantendo che le interazioni dei clienti siano pertinenti e tempestive. [Ulteriori informazioni](../building-journeys/dataset-lookup.md) - Data di disponibilità: 23 settembre 2025
+  Una nuova attività nei percorsi, **Ricerca set di dati**, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive. [Ulteriori informazioni](../building-journeys/dataset-lookup.md) - Data di disponibilità: 23 settembre 2025
 
   Questa attività è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
-* **Supporto di reindirizzamento nelle azioni personalizzate del Percorso**\
-  I reindirizzamenti (302) sono ora supportati nelle azioni personalizzate del Percorso. - Data di disponibilità: 23 settembre 2025
+* **Supporto del reindirizzamento nelle azioni personalizzate del percorso**\
+  I reindirizzamenti (302) sono ora supportati nelle azioni personalizzate del percorso. - Data di disponibilità: 23 settembre 2025
 
 * **Avvisi di monitoraggio della configurazione dei canali**: nel caso si verifichi un errore di configurazione dei canali e-mail utilizzando il tipo di delega dei sottodomini personalizzato, ora è possibile iscriversi per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer. [Ulteriori informazioni](../reports/alerts.md#alert-channel-config-failure) - Data di disponibilità: 23 settembre 2025
 
-* **Richieste di annullamento dell&#39;iscrizione con un solo clic** - Sono stati introdotti miglioramenti che rafforzano ulteriormente la gestione delle richieste di annullamento dell&#39;iscrizione con un solo clic configurate in Gestione Adobe, garantendo un&#39;elaborazione affidabile e coerente. - Data di disponibilità: 23 settembre 2025
+* **Richieste di annullamento dell’iscrizione con un solo clic**: sono stati introdotti miglioramenti che rafforzano ulteriormente la gestione delle richieste di annullamento dell’iscrizione con un solo clic configurate in Gestito da Adobe, garantendo un’elaborazione affidabile e coerente. - Data di disponibilità: 23 settembre 2025
 
-* **I parametri del corpo JSON nidificati sono ora supportati nell&#39;autenticazione personalizzata**\
-  Durante la configurazione dell&#39;autenticazione personalizzata per un&#39;azione personalizzata, sono ora supportati gli oggetti JSON nidificati (ad esempio, oggetti secondari all&#39;interno di `bodyParams`). [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode) - Data di disponibilità: 18 settembre 2025
+* **I parametri del corpo JSON nidificati sono ora supportati nell’autenticazione personalizzata**\
+  Durante la configurazione dell’autenticazione personalizzata per un’azione personalizzata, sono ora supportati gli oggetti JSON nidificati (ad esempio, oggetti secondari all’interno di `bodyParams`). [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode) - Data di disponibilità: 18 settembre 2025
 
-* **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti e consente di scegliere 1 ora (in precedenza 3 ore). [Ulteriori informazioni](../conflict-prioritization/channel-capping.md) - Data di disponibilità: 17 settembre 2025
+* **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Precedentemente disponibile in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti e consente di scegliere 1 ora (in precedenza 3 ore). [Ulteriori informazioni](../conflict-prioritization/channel-capping.md) - Data di disponibilità: 17 settembre 2025
 
 * **Simulazione delle varianti di contenuto per tutti i canali in entrata**\
   Precedentemente disponibile solo per i canali di notifica e-mail, SMS e push, la simulazione delle varianti di contenuto ora si applica anche a tutti i canali in entrata. [Ulteriori informazioni](../test-approve/simulate-sample-input.md) - Data di disponibilità: 17 settembre 2025
@@ -208,7 +208,7 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 
 * **Supporto di domini dinamici**: Journey Optimizer ora supporta la personalizzazione dell’URL completa/di base per i domini predefiniti accettati da Adobe. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#where) - Data di disponibilità: 12 settembre 2025
 
-  Questa funzionalità è disponibile in Disponibilità limitata per un set di clienti.
+  Questa funzionalità è in disponibilità limitata per una parte della clientela.
 
 * **Webhook** - Questa versione introduce i seguenti miglioramenti per i webhook durante la configurazione di un provider SMS personalizzato:
 
@@ -229,7 +229,7 @@ Durante la configurazione di un provider SMS personalizzato, ora è possibile ab
 
 ### Disponibile a breve {#sept-25-9-soon}
 
-Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che questi aggiornamenti saranno live in produzione.
+Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
 <!--table>
 <thead>
@@ -316,7 +316,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <ul>
 <li>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno.</li>
 <li>La dimensione massima del file consentita per ciascun allegato è di 5 MB.</li>
-<li>Per ulteriori dimensioni o volumi, è possibile acquistare il componente aggiuntivo Allegati PDF. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</li>
+<li>Per ulteriori dimensioni o volumi, puoi acquistare il componente aggiuntivo per gli allegati PDF. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</li>
 </ul>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -329,25 +329,25 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 
 
 
-* **Avvisi nuovo Percorso**\
+* **Avvisi su nuovi percorsi**\
   Sono disponibili nuovi avvisi preconfigurati per i percorsi:
 
-   * Percentuale di eliminazione profilo superata: rapporto tra gli scarti del profilo e i profili immessi negli ultimi 5 minuti hanno superato la soglia.
-   * Frequenza errori azione personalizzata superata: rapporto tra gli errori azione personalizzata e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia.
-   * Frequenza errori profilo superata: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.
+   * Superamento del tasso di eliminazione dei profili: il rapporto tra i profili eliminati e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia.
+   * Superamento del tasso di errore delle azioni personalizzate: il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti che ha superato la soglia.
+   * Superamento del tasso di errore dei profili: il rapporto tra i profili in errore e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia.
 <!--
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-Puoi modificare i valori di soglia e abbonarti a singoli avvisi a livello di percorso anziché a livello globale.
+Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.
 
 <!-- Availability date: Sept XX, 2025-->
 
 
-* **Supporto di attributi personalizzati con URL per l&#39;annullamento dell&#39;iscrizione con un solo clic**\
-  Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare un endpoint esterno personalizzato definendo un collegamento con un solo clic per annullare l’abbonamento nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
+* **Supporto di attributi personalizzati con URL per l’annullamento dell’iscrizione con un solo clic**\
+  Con Journey Optimizer, se il consenso è gestito al fuori di Adobe, puoi impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
-  Per personalizzare ulteriormente l’indirizzo e-mail per annullare l’abbonamento, ora puoi definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è già disponibile per il collegamento personalizzato con un solo clic per annullare l’abbonamento a partire dalla versione del 25 agosto.
+  Per personalizzare ulteriormente l’indirizzo e-mail di annullamento dell’iscrizione con un solo clic, puoi definire gli attributi personalizzati che verranno aggiunti all’evento del consenso. Questa funzionalità è già disponibile per il collegamento personalizzato per l’annullamento dell’iscrizione con un solo clic a partire dalla versione del 25 agosto.
 
   <!-- Availability date: Sept XX, 2025-->

@@ -235,8 +235,8 @@ ht-degree: 99%
       + [Domande frequenti](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configurazione dei dati {#data-configuration}
          + [Configurazione dei dati](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gestire schemi e set di dati basati su modelli {#schemas-datasets}
-            + [Gestire schemi e set di dati basati su modelli](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gestire gli schemi e i set di dati basati su modelli {#schemas-datasets}
+            + [Gestire gli schemi e i set di dati basati su modelli](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Introduzione agli schemi e ai set di dati](using/orchestrated/gs-schemas.md)
             + [Schema manuale](using/orchestrated/manual-schema.md)
             + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
@@ -555,7 +555,7 @@ ht-degree: 99%
          + [Metriche dell’acceleratore di esperimenti](using/content-management/experiment-accelerator-metrics.md)
       + Note tecniche {#technotes}
          + [Note tecniche](/help/rp_landing_pages/technotes-landing-page.md)
-         + [Test A/B vs slot machine](using/content-management/mab-vs-ab.md)
+         + [Test A/B vs multi-armed bandit](using/content-management/mab-vs-ab.md)
          + [Comprendere i calcoli statistici](using/content-management/experiment-calculations.md)
          + [Comprendere i calcoli statistici nel rapporto sulla sperimentazione](using/content-management/experiment-report-calculations.md)
 + Tipi di pubblico, profili e identità {#audiences-profiles-identities}
