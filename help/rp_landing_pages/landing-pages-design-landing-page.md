@@ -40,7 +40,7 @@ Aggiungi componenti come i moduli, personalizzane gli stili e utilizza dati cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Utilizzare i modelli delle pagine di destinazione
 

@@ -50,7 +50,7 @@ Scopri come salvare i contenuti come frammenti visivi o di espressione riutilizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare i frammenti personalizzabili
 

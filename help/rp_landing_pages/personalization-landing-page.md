@@ -60,7 +60,7 @@ Sfrutta i frammenti di espressione riutilizzabili per una personalizzazione effi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 Utilizzare i dati di Adobe Experience Platform per la personalizzazione (Beta)
 

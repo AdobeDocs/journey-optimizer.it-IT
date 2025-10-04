@@ -30,7 +30,7 @@ Scopri come configurare e gestire il catalogo degli elementi nella funzione Deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire elementi decisionali
 

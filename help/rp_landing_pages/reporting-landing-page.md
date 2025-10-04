@@ -30,7 +30,7 @@ Scopri le funzionalità di reporting in Adobe Journey Optimizer, compresi i rapp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Rapporti live
 

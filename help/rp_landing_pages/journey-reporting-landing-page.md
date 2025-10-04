@@ -20,7 +20,7 @@ I rapporti sul percorso in Adobe Journey Optimizer forniscono potenti strumenti 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Analisi dei rapporti sul percorso
 
@@ -60,7 +60,7 @@ Analizza e interpreta le metriche chiave per le campagne direct mail, inclusi lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=it)
 
 Reporting sul percorso e-mail
 

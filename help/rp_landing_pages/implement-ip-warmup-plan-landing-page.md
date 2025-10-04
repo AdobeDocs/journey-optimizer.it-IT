@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per progettare e attivare campagne per il tuo pi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare e gestire un piano di preparazione IP
 

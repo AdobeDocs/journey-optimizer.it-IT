@@ -20,7 +20,7 @@ La gestione dello stato delle campagne e-mail inizia con il monitoraggio degli i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire l’elenco di soppressione
 

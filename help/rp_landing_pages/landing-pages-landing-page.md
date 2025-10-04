@@ -40,7 +40,7 @@ Linee guida dettagliate per creare, configurare, testare e pubblicare efficaceme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire le pagine di destinazione
 
@@ -60,7 +60,7 @@ Crea e personalizza pagine di destinazione con modelli, moduli e funzioni avanza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire gli elenchi di abbonamenti
 
