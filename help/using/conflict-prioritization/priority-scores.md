@@ -72,4 +72,4 @@ Per assegnare un punteggio di priorità alle azioni in entrata definite nell&#39
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)
