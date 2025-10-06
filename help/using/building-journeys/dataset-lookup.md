@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
+source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 15%
@@ -125,9 +125,9 @@ I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengon
 
 1. **Attività di ricerca set di dati**:
 
-* Set di dati: `products-dataset` (SKU come chiave primaria).
-* Chiavi di ricerca: `list(@event{purchase_event.products.sku})`.
-* Campi da restituire: `["SKU", "category", "price"]`.
+   * Set di dati: `products-dataset` (SKU come chiave primaria).
+   * Chiavi di ricerca: `list(@event{purchase_event.products.sku})`.
+   * Campi da restituire: `["SKU", "category", "price"]`.
 
 1. **Attività condizione**:
 
