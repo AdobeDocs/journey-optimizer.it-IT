@@ -76,7 +76,7 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole** 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo di regola"
->abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Selezionare **Ore non interattive** (disponibile in Disponibilità limitata) per definire esclusioni basate sul tempo in modo da garantire che non vengano inviati messaggi durante specifici periodi di tempo&quot;."
+>abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Selezionare **Ore non interattive** (disponibile in Disponibilità limitata) per definire esclusioni basate sul tempo in modo da garantire che non vengano inviati messaggi durante specifici periodi di tempo&quot;.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -174,4 +174,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
