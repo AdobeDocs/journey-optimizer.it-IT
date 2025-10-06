@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 32%
+source-wordcount: '1018'
+ht-degree: 30%
 
 ---
 
@@ -74,6 +74,11 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole** 
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="Tipo di regola"
+>abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Selezionare **Ore non interattive** (disponibile in Disponibilità limitata) per definire esclusioni basate sul tempo in modo da garantire che non vengano inviati messaggi durante specifici periodi di tempo&quot;.
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="Selezionare la categoria della regola del messaggio"
 >abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
@@ -82,6 +87,11 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole** 
 >id="ajo_rule_set_rule_capping"
 >title="Limitazione delle regole"
 >abstract="Imposta la limitazione della regola. A seconda del dominio del set di regole e della selezione nel campo Tipo di regola, questo campo può definire il numero massimo di messaggi che possono essere inviati a un profilo o il numero massimo di percorsi in cui il profilo può entrare o essere iscritto contemporaneamente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="Set di regole"
+>abstract="Seleziona il set di regole da applicare all’azione personalizzata."
 
 Per creare un set di regole, segui la procedura riportata di seguito.
 
@@ -164,4 +174,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
