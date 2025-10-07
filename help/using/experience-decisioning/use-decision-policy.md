@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -19,29 +19,39 @@ Una volta creato un criterio di decisione, il criterio e gli attributi collegati
 
 ## Inserire il codice del criterio di decisione {#insert-code}
 
+>[!BEGINTABS]
+
+>[!TAB Esperienza basata su codice]
+
 1. Apri l&#39;editor di personalizzazione e accedi al menu **[!UICONTROL Criteri di decisione]**.
 
-1. Seleziona **[!UICONTROL Inserisci criterio]** (esperienza basata su codice) o **[!UICONTROL Inserisci sintassi]** (e-mail) per aggiungere il codice corrispondente al criterio di decisione.
-
-   +++Inserire il codice del criterio di decisione nelle e-mail
-
-   ![](assets/decision-policy-add.png)
-
-   Per le e-mail, se non è stato precedentemente associato alcun posizionamento al componente, selezionane uno dall&#39;elenco e fai clic su **[!UICONTROL Assegna]**.
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++Inserire il codice del criterio di decisione nell’esperienza basata su codice
+1. Selezionare **[!UICONTROL Inserisci criterio]** per aggiungere il codice corrispondente al criterio di decisione.
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >Se il pulsante di inserimento del codice non viene visualizzato, è possibile che per il componente principale sia già stato configurato un criterio di decisione.
+
+1. Viene aggiunto il codice per il criterio di decisione. Questa sequenza verrà ripetuta il numero di volte che si desidera che venga restituito il criterio di decisione. Ad esempio, se si sceglie di restituire 2 elementi durante la [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
+
+>[!TAB E-mail]
+
+1. Apri l&#39;editor di personalizzazione e accedi al menu **[!UICONTROL Criteri di decisione]**.
+
+1. Selezionare **[!UICONTROL Inserisci sintassi]** per aggiungere il codice corrispondente al criterio di decisione.
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >Se il pulsante di inserimento del codice non viene visualizzato, è possibile che per il componente principale sia già stato configurato un criterio di decisione.
+
+1. Se non è stato precedentemente associato alcun posizionamento al componente, selezionarne uno dall&#39;elenco e fare clic su **[!UICONTROL Assegna]**.
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. Viene aggiunto il codice per il criterio di decisione. Questa sequenza verrà ripetuta il numero di volte che si desidera che venga restituito il criterio di decisione. Ad esempio, se si sceglie di restituire 2 elementi durante la [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
 
@@ -54,7 +64,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Per aggiungere un attributo, fai clic sull’icona &quot;+&quot; accanto a esso. Puoi aggiungere al codice tutti gli attributi che desideri.
 

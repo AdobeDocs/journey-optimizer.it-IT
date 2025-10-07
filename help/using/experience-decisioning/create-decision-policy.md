@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 8%
+source-wordcount: '1745'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 >abstract="La sequenza della strategia di selezione determina quale strategia verrà valutata per prima. È necessaria almeno una strategia. Gli elementi decisionali nelle strategie combinate saranno valutati insieme."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creare strategie"
 
-Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiungi un criterio di decisione al contenuto di una campagna o di un percorso, quindi configura gli elementi da restituire e la strategia di selezione da utilizzare. A questo scopo, segui i passaggi riportati qui sotto.
+Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiungi un criterio di decisione al contenuto di una campagna o di un percorso, quindi configura gli elementi da restituire e la strategia di selezione da utilizzare. A questo scopo, segui i passaggi riportati qui sotto:
+
+1. [Aggiungi un criterio di decisione](#add) - Dall&#39;editor di Personalization o dal Designer di posta elettronica.
+1. [Configura il criterio di decisione](#configurre). Aggiungere un nome e specificare il numero di elementi da restituire.
+1. [Imposta una sequenza strategica](#strategy) - Seleziona gli elementi da restituire con il criterio di decisione.
+1. [Seleziona offerte di fallback](#fallback) (facoltativo): seleziona gli elementi da visualizzare se non sono stati qualificati elementi o strategie di selezione.
+1. [Rivedi e salva](#review) la strategia di selezione
 
 >[!AVAILABILITY]
 >
@@ -51,9 +57,7 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
    >
    >Eventuali criteri di decisione configurati all’interno dell’e-mail non verranno salvati nel modello. Se applichi il modello a un’altra e-mail, devi riconfigurare il criterio.
 
-1. Apri l’editor di personalizzazione per creare il criterio decisionale.
-
-   Per le e-mail, puoi anche utilizzare un menu dedicato nella finestra di progettazione e-mail per creare un criterio di decisione. Espandi le sezioni seguenti per esplorare i due metodi.
+1. Apri l&#39;**editor di personalizzazione** per creare il criterio di decisione. Per le e-mail, puoi anche utilizzare un menu dedicato nella **Finestra di progettazione e-mail** per creare un criterio di decisione. Espandi le sezioni seguenti per esplorare i due metodi.
 
    +++Creare un criterio di decisione dall’editor di Personalization
 
@@ -74,7 +78,7 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 
    +++
 
-## Configurare i dettagli dei criteri di decisione {#configure}
+## Configurare il criterio di decisione {#configure}
 
 Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizzata la schermata di configurazione del criterio di decisione.
 
@@ -84,9 +88,9 @@ Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizza
 
    ![](assets/decision-code-based-details.png)
 
-   Se si desidera restituire più elementi in un messaggio e-mail, è necessario utilizzare un componente di contenuto **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
+   Per il canale e-mail, il campo **[!UICONTROL Numero di elementi]** è impostato su 1 per impostazione predefinita e non può essere modificato a meno che il criterio di decisione non venga aggiunto da un componente **[!UICONTROL Ripeti griglia]**. Per restituire più elementi in un messaggio e-mail, devi aggiungere un componente di contenuto **[!UICONTROL Ripeti griglia]** per poter selezionare più elementi nel campo **[!UICONTROL Numero di elementi]**. Per ulteriori informazioni, espandi la sezione seguente:
 
-   +++ Restituire più elementi decisionali nelle e-mail
+   +++Restituire più elementi decisionali nelle e-mail
 
    1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;e-mail e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
 
@@ -102,7 +106,7 @@ Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizza
 
 1. Fai clic su **[!UICONTROL Avanti]**.
 
-## Seleziona gli elementi e imposta le strategie di selezione {#select}
+## Impostare una sequenza strategica {#strategy}
 
 La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elementi decisionali e impostare strategie di selezione da presentare con il criterio decisionale.
 
@@ -203,7 +207,7 @@ Dopo aver selezionato gli elementi decisionali e/o le strategie di selezione, pu
 >[!NOTE]
 > I fallback sono facoltativi. È possibile selezionare fino al numero di elementi richiesti. Se nessuna è idonea e non è impostato alcun fallback, non viene visualizzato nulla.
 
-## Verifica e salva la policy di decisione {#save}
+## Verifica e salva la policy di decisione {#review}
 
 Dopo aver configurato una strategia di selezione e aggiunto le offerte di fallback, fai clic su **[!UICONTROL Avanti]** per rivedere e salvare i criteri di decisione, quindi fai clic su **[!UICONTROL Crea]** per confermare la creazione dei criteri.
 
