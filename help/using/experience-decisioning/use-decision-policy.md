@@ -54,7 +54,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Per aggiungere un attributo, fai clic sull’icona &quot;+&quot; accanto a esso. Puoi aggiungere al codice tutti gli attributi che desideri.
 
