@@ -5,7 +5,7 @@ title: Passaggi di configurazione
 description: Scopri come creare schemi basati su modelli direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 4%
@@ -28,7 +28,7 @@ L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** p
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi manuali basati su modelli sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Ulteriori informazioni sugli schemi manuali basati su modelli sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Creare lo schema {#schema}
 

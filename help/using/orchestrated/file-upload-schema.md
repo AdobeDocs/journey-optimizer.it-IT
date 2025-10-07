@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema basato su modello in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 46%
+source-wordcount: '1058'
+ht-degree: 47%
 
 ---
 
@@ -29,7 +29,7 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema basato 
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/model-based)
+➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Carica un file DDL{#ddl-upload}
 
@@ -57,9 +57,6 @@ Ecco un esempio:
 
 * **Etichetta schema per governance dei dati**\
   L’etichettatura è supportata a livello di campo dello schema per applicare i criteri di governance dei dati, ad esempio il controllo degli accessi e le restrizioni di utilizzo. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
-
-* **Chiave composita**\
-  Le chiavi primarie composite sono supportate nelle definizioni di schemi basate su modelli, consentendo l’utilizzo di più campi insieme per identificare in modo univoco i record.
 
 +++
 
