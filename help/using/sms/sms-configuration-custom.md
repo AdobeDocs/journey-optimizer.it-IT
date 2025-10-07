@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1355'
 ht-degree: 7%
 
 ---
@@ -173,7 +173,7 @@ Se non vengono fornite parole chiave di consenso o rinuncia, vengono utilizzati 
 
 >[!ENDSHADEBOX]
 
-Una volta create correttamente le credenziali API, il passaggio successivo consiste nel creare un webhook e configurare le impostazioni in entrata. Questa configurazione garantisce che il sistema possa ricevere ed elaborare correttamente i dati o i messaggi in arrivo.
+Una volta create correttamente le credenziali API, ora puoi configurare i webhook per acquisire le risposte in entrata e gestire il consenso di consenso e rinuncia e per ricevere i rapporti di consegna, comprese le conferme di lettura, se disponibili.
 
 Durante la configurazione di un webhook, puoi definirne lo scopo in base al tipo di dati che desideri acquisire:
 

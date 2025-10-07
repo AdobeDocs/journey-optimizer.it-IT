@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 16%
+source-wordcount: '836'
+ht-degree: 15%
 
 ---
 
@@ -30,8 +30,8 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 
 1. Configura le credenziali API come descritto di seguito:
 
-   * **Token API**: immetti il token API. Ulteriori informazioni nella [documentazione Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-   * **ID account aziendale**: immetti il numero univoco relativo al tuo portfolio aziendale. Ulteriori informazioni nella [documentazione Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **Token API**: immetti il token API. Ulteriori informazioni nella [documentazione di Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ID account aziendale**: immetti il numero univoco relativo al tuo portfolio aziendale. Ulteriori informazioni nella [documentazione di Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
 
@@ -84,7 +84,7 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare il w
 >
 >Senza le parole chiave di consenso o rinuncia specificate, i messaggi di consenso standard non sono abilitati.
 
-Una volta create correttamente le credenziali API WhatsApp, il passaggio successivo consiste nel creare un webhook e configurare le impostazioni in entrata.
+Una volta create correttamente le credenziali API WhatsApp, ora puoi configurare i webhook per acquisire le risposte in entrata e gestire il consenso di consenso di consenso e rinuncia e per ricevere rapporti di consegna, comprese le conferme di lettura, se disponibili.
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]**, seleziona il menu **[!UICONTROL Webhook WhatsApp]** in **[!UICONTROL Impostazioni WhatsApp]** e fai clic sul pulsante **[!UICONTROL Crea webhook]**.
 
@@ -125,7 +125,7 @@ Una volta create correttamente le credenziali API WhatsApp, il passaggio success
 
 1. Per modificare la configurazione esistente e accedere all&#39;**[!UICONTROL URL webhook]** o al **[!UICONTROL token di verifica webhook]**, individuare il webhook desiderato e fare clic sull&#39;opzione **[!UICONTROL Modifica]** per apportare le modifiche necessarie.
 
-1. Copia il **[!UICONTROL token di verifica del webhook]** generato qui, quindi incollalo nell&#39;interfaccia Meta come parte della configurazione del webhook.
+1. Copia il **[!UICONTROL token di verifica del webhook]** generato qui, quindi incollalo nell&#39;interfaccia di Meta come parte della configurazione del webhook.
 
    Per istruzioni dettagliate su come e dove aggiungere questo token di verifica, consulta [Meta documentation](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
@@ -180,6 +180,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
