@@ -53,4 +53,4 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
