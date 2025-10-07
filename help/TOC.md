@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
    + [Note sulla versione più recente](using/rn/release-notes.md)
@@ -700,7 +700,10 @@ ht-degree: 99%
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
          + [Utilizzare Adobe Experience Platform per la funzione Decisioni](using/experience-decisioning/aep-data-exd.md)
       + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
-      + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
+      + Distribuire le offerte tramite i criteri di decisione {#decision-policies}
+         + [Introduzione ai criteri di decisione](using/experience-decisioning/create-decision.md)
+         + [Creare criteri di decisione](using/experience-decisioning/create-decision-policy.md)
+         + [Utilizzare i criteri di decisione nei messaggi](using/experience-decisioning/use-decision-policy.md)
       + [Rapporto sulla funzione Decisioni](using/experience-decisioning/cja-reporting.md)
       + [Caso d’uso della funzione Decisioni](using/experience-decisioning/experience-decisioning-uc.md)
       + Raccogliere dati evento {#experience-decisioning-collect-event-data}
@@ -875,7 +878,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
