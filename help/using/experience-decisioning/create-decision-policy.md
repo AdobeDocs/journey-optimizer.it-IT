@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 8%
@@ -234,3 +234,4 @@ A tale scopo, fare clic sul pulsante **[!UICONTROL Decisioning]** nel riquadro d
 Ora che sai come creare un criterio di decisione, puoi utilizzarlo in [!DNL Journey Optimizer] canali per distribuire le offerte.
 
 ➡️ [Scopri come utilizzare i criteri di decisione nei messaggi](../experience-decisioning/use-decision-policy.md)
+
