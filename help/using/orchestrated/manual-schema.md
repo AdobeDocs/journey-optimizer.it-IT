@@ -28,7 +28,7 @@ L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** p
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi manuali basati su modelli sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Ulteriori informazioni sugli schemi manuali basati su modelli sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Creare lo schema {#schema}
 
