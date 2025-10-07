@@ -19,7 +19,7 @@ ht-degree: 19%
 >id="ajo_exd_config_strategies"
 >title="Definire le strategie di selezione"
 >abstract="Una strategia di selezione è riutilizzabile e consiste in una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da visualizzare quando vengono selezionate in un criterio di decisione."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="Creare criteri di decisione&quot;—>
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="Creare criteri di decisione&quot;—>"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
@@ -88,7 +88,7 @@ Per creare una strategia di selezione, segui i passaggi indicati di seguito.
 >id="ajo_exd_strategy_ranking"
 >title="Definire la modalità di classificazione delle offerte"
 >abstract="Se più offerte sono idonee per una determinata strategia di selezione, scegli il metodo che selezionerà l’offerta migliore per ciascun profilo durante la creazione di una strategia di selezione: priorità o formula di classificazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Creare criteri di decisione&quot;—>
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Creare criteri di decisione&quot;—>"
 
 Se più offerte sono idonee per una determinata strategia di selezione, puoi scegliere il metodo con cui selezionare l’offerta migliore per ciascun profilo al momento di creare una strategia di selezione. Puoi classificare le offerte in base a:
 
