@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 Per gestire i frammenti, accedi all&#39;elenco di frammenti dal menu a sinistra **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**.
 
-Vengono visualizzati tutti i frammenti creati nella sandbox corrente, ovvero [dal menu **[!UICONTROL Frammenti]**](#create-fragments), utilizzando l&#39;opzione [Salva come frammento](#save-as-fragment).
+Vengono visualizzati tutti i frammenti creati nella sandbox corrente, ovvero [dal menu **[!UICONTROL Frammenti]**](create-fragments.md#create-fragments), utilizzando l&#39;opzione [Salva come frammento](save-fragments.md).
 
 Il riquadro a sinistra consente di organizzare i frammenti in cartelle. Per impostazione predefinita, vengono visualizzati tutti i frammenti. Quando selezioni una cartella, vengono visualizzati solo i frammenti e le cartelle inclusi nella cartella selezionata. [Ulteriori informazioni](#folders)
 

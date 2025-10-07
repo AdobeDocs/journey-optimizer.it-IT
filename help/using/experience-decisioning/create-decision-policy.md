@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1721'
 ht-degree: 7%
 
 ---
@@ -88,9 +88,9 @@ Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizza
 
    ![](assets/decision-code-based-details.png)
 
-   Per il canale e-mail, il campo **[!UICONTROL Numero di elementi]** è impostato su 1 per impostazione predefinita e non può essere modificato a meno che il criterio di decisione non venga aggiunto da un componente **[!UICONTROL Ripeti griglia]**. Per restituire più elementi in un messaggio e-mail, devi aggiungere un componente di contenuto **[!UICONTROL Ripeti griglia]** per poter selezionare più elementi nel campo **[!UICONTROL Numero di elementi]**. Per ulteriori informazioni, espandi la sezione seguente:
+   Per il canale e-mail, il campo **[!UICONTROL Numero di elementi]** è impostato su 1 per impostazione predefinita e non può essere modificato a meno che il criterio di decisione non venga aggiunto da un componente **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
 
-   +++Restituire più elementi decisionali nelle e-mail
+   +++Restituire più elementi decisionali nelle e-mail utilizzando un componente **[!UICONTROL Ripeti griglia]**
 
    1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;e-mail e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
 
@@ -114,13 +114,9 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL Strategia di selezione]** - Le strategie decisionali sfruttano le raccolte associate ai vincoli di idoneità e ai metodi di classificazione per determinare gli elementi da visualizzare.
+   * **[!UICONTROL Strategia di selezione]** - Le strategie decisionali sfruttano le raccolte associate ai vincoli di idoneità e ai metodi di classificazione per determinare gli elementi da visualizzare. Puoi selezionare una o più strategie di selezione esistenti o crearne una nuova utilizzando il pulsante **[!UICONTROL Crea strategia di selezione]**. [Scopri come creare strategie di selezione](selection-strategies.md)
 
-     Puoi selezionare una o più strategie di selezione esistenti o crearne una nuova utilizzando il pulsante **[!UICONTROL Crea strategia di selezione]**. [Scopri come creare strategie di selezione](selection-strategies.md)
-
-   * **[!UICONTROL Elemento decisione]** - Selezionare singoli elementi decisione senza dover eseguire una strategia di selezione.
-
-     È possibile selezionare un solo elemento di decisione alla volta. Eventuali vincoli di idoneità impostati per l’articolo verranno applicati.
+   * **[!UICONTROL Elemento decisione]** - Selezionare singoli elementi decisione senza dover eseguire una strategia di selezione. È possibile selezionare un solo elemento di decisione alla volta. Eventuali vincoli di idoneità impostati per l’articolo verranno applicati.
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ Puoi modificare o eliminare un criterio di decisione in qualsiasi momento utiliz
 
 ## Assegnare un posizionamento (e-mail) {#placement}
 
-Per le e-mail, devi definire un posizionamento per il componente associato al criterio decisionale.
-
-A tale scopo, fare clic sul pulsante **[!UICONTROL Decisioning]** nel riquadro delle proprietà del componente e selezionare **[!UICONTROL Assegna posizionamento]**. [Scopri come utilizzare i posizionamenti](../experience-decisioning/placements.md)
+Per le e-mail, devi definire un posizionamento per il componente associato al criterio decisionale. A tale scopo, fare clic sul pulsante **[!UICONTROL Decisioning]** nel riquadro delle proprietà del componente e selezionare **[!UICONTROL Assegna posizionamento]**. [Scopri come utilizzare i posizionamenti](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 

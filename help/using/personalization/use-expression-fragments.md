@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 24baaa2438c6bbdddd582c71dbdd36188d12f905
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Quando utilizzi l&#39;**editor di personalizzazione**, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
 
-Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti in un processo di progettazione migliorato. [Scopri come creare e gestire i frammenti](../content-management/fragments.md).
+Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti in un processo di progettazione migliorato. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
 
 ➡️ [Scopri come gestire, creare e utilizzare i frammenti in questo video](../content-management/fragments.md#video-fragments)
 
@@ -34,7 +34,8 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
 1. Apri [l&#39;editor di personalizzazione](personalization-build-expressions.md) e seleziona il pulsante **[!UICONTROL Frammenti]** nel riquadro a sinistra.
 
-   Nell’elenco vengono visualizzati tutti i frammenti di espressione creati o salvati come frammenti nella sandbox corrente. Sono ordinati per data di creazione: i frammenti di espressione aggiunti di recente vengono visualizzati per primi nell’elenco. [Ulteriori informazioni](../content-management/fragments.md#create-expression-fragment)
+   Nell’elenco vengono visualizzati tutti i frammenti di espressione creati o salvati come frammenti nella sandbox corrente. [Scopri come creare frammenti](../content-management/create-fragments.md)
+Sono ordinati per data di creazione: i frammenti di espressione aggiunti di recente vengono visualizzati per primi nell’elenco.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -52,17 +53,23 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
    >
    >Puoi aggiungere al contenuto qualsiasi frammento **Bozza** o **Live**. Tuttavia, non potrai attivare il percorso o la campagna se al suo interno viene utilizzato un frammento con lo stato **Bozza**. Durante la pubblicazione di un percorso o di una campagna, i frammenti bozza mostreranno un errore e dovrai approvarli per poterli pubblicare.
 
-1. Una volta aggiunto l&#39;ID frammento, se apri il frammento di espressione corrispondente e lo [modifichi](../content-management/fragments.md#edit-fragments) dall&#39;interfaccia, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutte le bozze o ai percorsi/campagne live che contengono tale ID frammento.
+1. Una volta aggiunto l&#39;ID frammento, se apri il frammento di espressione corrispondente e lo [modifichi](../content-management/manage-fragments.md#edit-fragments) dall&#39;interfaccia, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutte le bozze o ai percorsi/campagne live che contengono tale ID frammento.
 
 1. Fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto a un frammento. Dal menu contestuale visualizzato, selezionare **[!UICONTROL Visualizza frammento]** per ottenere ulteriori informazioni sul frammento. Viene visualizzato anche l&#39;**[!UICONTROL ID frammento]** che può essere copiato da qui.
 
    ![](assets/expression-fragment-view.png)
 
-1. Puoi aprire il frammento di espressione in un&#39;altra finestra per modificarne il contenuto e le proprietà utilizzando l&#39;opzione **[!UICONTROL Apri frammento]** nel menu contestuale o dal riquadro **[!UICONTROL Informazioni frammento]**. [Scopri come modificare un frammento](../content-management/fragments.md#edit-fragments)
+1. Puoi aprire il frammento di espressione in un&#39;altra finestra per modificarne il contenuto e le proprietà utilizzando l&#39;opzione **[!UICONTROL Apri frammento]** nel menu contestuale o dal riquadro **[!UICONTROL Informazioni frammento]**. [Scopri come modificare un frammento](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
 1. Potrai quindi personalizzare e convalidare i contenuti come di consueto utilizzando tutte le funzionalità di personalizzazione e authoring dell&#39;[editor di personalizzazione](personalization-build-expressions.md).
+
+1. In alcuni casi, è necessario calcolare solo le variabili, quindi potrebbe essere utile nascondere il contenuto del frammento di espressione. A tale scopo, utilizzare l&#39;attributo `render` e impostarlo su `false`. Ad esempio:
+
+   ```
+   Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}
+   ```
 
 >[!NOTE]
 >
@@ -76,21 +83,21 @@ Questa funzionalità può essere utilizzata, ad esempio, per inizializzare i par
 
 Sono possibili i seguenti casi d’uso:
 
-1. Utilizzare le variabili di input in un frammento
+1. **Utilizzare variabili di input in un frammento.**
 
-   Quando un frammento viene utilizzato in un contenuto di azione Campaign/percorso, può sfruttare le variabili dichiarate al di fuori del frammento. Di seguito è riportato un esempio:
+   Quando un frammento viene utilizzato in un contenuto di azione campagna/percorso, può sfruttare le variabili dichiarate al di fuori del frammento. Di seguito è riportato un esempio:
 
    ![](../personalization/assets/variable-in-a-fragment.png)
 
    Vediamo che sopra la variabile `utm_content` è dichiarata nel contenuto della campagna. Quando si utilizza il frammento **Blocco principale**, verrà visualizzato un collegamento a cui verrà aggiunto il valore del parametro `utm_content`. Risultato finale: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
 
-1. Utilizzare variabili di output da un frammento
+1. **Utilizzare variabili di output da un frammento.**
 
    Le variabili calcolate o definite all’interno di un frammento sono disponibili per l’utilizzo nel contenuto. Nell&#39;esempio seguente, un frammento **F1** dichiara un set di variabili:
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   In un contenuto e-mail, possiamo avere la seguente personalizzazione:
+   In un contenuto e-mail, puoi avere la seguente personalizzazione:
 
    ![](../personalization/assets/use-fragment-variable.png)
 
@@ -107,7 +114,7 @@ Se alcune parti di un frammento di espressione sono state rese modificabili util
 
 Per personalizzare i campi, effettua le seguenti operazioni:
 
-1. Inserisci il frammento nel codice dal menu **Frammenti**.
+1. Inserisci il frammento nel codice dal menu **[!UICONTROL Frammenti]**.
 
 1. Utilizzare il codice `<fieldId>="<value>"` alla fine della sintassi per sostituire il valore predefinito della variabile.
 
