@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 53%
+source-wordcount: '275'
+ht-degree: 58%
 
 ---
 
@@ -37,11 +37,13 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 
 >[!NOTE]
 >
->I canali supportati sono: [Email](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
+>I canali supportati sono: [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
 >
 >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
 ## Passaggi chiave per la creazione di campagne attivate da API {#steps}
+
+Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [in questa sezione](get-started-with-campaigns.md#permissions). Una volta soddisfatti questi prerequisiti, puoi iniziare a creare la campagna:
 
 1. [Definire le proprietà della campagna](api-triggered-campaign-properties.md)
 1. [Configurare l’azione della campagna](api-triggered-campaign-action.md)
@@ -51,12 +53,8 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 1. [Rivedere e attivare una campagna](review-activate-api-triggered-campaign.md)
 1. [Attivare l’esecuzione della campagna](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->Prima di creare la campagna, assicurati di aver rivisto i [prerequisiti generali per la campagna](../campaigns/get-started-with-campaigns.md#prerequisites).
-
 ## Video sulle procedure {#video}
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452733?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1709'
+ht-degree: 15%
 
 ---
 
 # Accedere alle campagne e gestirle {#manage-campaigns}
-
-Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [in questa sezione](get-started-with-campaigns.md#permissions). Una volta soddisfatti questi prerequisiti, puoi iniziare a creare la campagna:
-
-* **Accedi alle campagne**. Puoi accedere alle campagne dal [elenco campagne](#access) o dal [calendario campagne](#calendar).
-
-* **Crea la campagna**. I passaggi di creazione dipendono dal tipo [ di campagna](get-started-with-campaigns.md#get-started-with-campaigns). Scopri come creare una [campagna di azione](../campaigns/create-campaign.md), una [campagna attivata da API](../campaigns/api-triggered-campaigns.md) o una [campagna orchestrata](../orchestrated/create-orchestrated-campaign.md).
-
-* **Definisci le proprietà della campagna**. Scopri come impostare le proprietà per una [campagna di azioni](../campaigns/campaign-properties.md), per una [campagna attivata da API](../campaigns/api-triggered-campaign-properties.md) o per una [campagna orchestrata](../orchestrated/create-orchestrated-campaign.md).
-
-* **Definisci i canali e i contenuti della campagna**. Scopri come definire il contenuto di una [campagna di azione](../campaigns/campaign-content.md), di una [campagna attivata da API](../campaigns/api-triggered-campaign-content.md) o di una [campagna orchestrata](../orchestrated/orchestrate-activities.md).
-
-* **Pianifica la campagna** - Puoi controllare le campagne pianificate [nel calendario della campagna](#calendar).
-
-Quindi avvia il test, migliora e perfeziona la campagna prima di eseguirla. Una volta che la campagna è attiva, puoi monitorarla e accedere ai rapporti.
-
-Vedi tutti gli stati e gli avvisi della campagna [in questa sezione](#statuses).
-
-
-## Accedere alle campagne {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
