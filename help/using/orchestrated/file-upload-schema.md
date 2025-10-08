@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema basato su modello in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 47%
+source-wordcount: '1084'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema basato 
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/model-based)
+➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Carica un file DDL{#ddl-upload}
 
@@ -149,6 +149,10 @@ Durante la creazione dello schema, è possibile specificare relazioni direttamen
    * **Forza layout automatico**: disponi automaticamente gli schemi per una migliore organizzazione.
 
    * **Visualizza mappa**: consente di attivare o disattivare la sovrapposizione minima per spostarsi più facilmente nei layout di schema complessi o di grandi dimensioni.
+
+   * **Espandi tutto/comprimi tutto**: espandi o comprimi rapidamente tutti i nodi dello schema per mostrare o nascondere i relativi attributi.
+
+   * **Scarica**: scarica il diagramma ER come file .png.
 
 1. Al termine, fai clic su **Salva**. Questa azione crea gli schemi e i set di dati associati e abilita il set di dati da utilizzare nelle campagne orchestrate.
 

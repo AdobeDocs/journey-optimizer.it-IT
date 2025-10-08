@@ -5,9 +5,9 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * Il numero medio di attributi per schema **non deve superare le 50 colonne** per mantenere la gestibilità e le prestazioni.
 
-* Impossibile abilitare gli schemi basati su modelli per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi basati su modelli possono essere abilitati per le campagne orchestrate o le campagne d’azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Impossibile abilitare gli schemi basati su modelli per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi basati su modelli possono essere abilitati per le campagne orchestrate o le campagne d’azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dati
 
@@ -68,6 +68,8 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 * I `table_name` assegnati durante la creazione del set di dati sono permanenti e vengono utilizzati durante tutte le funzioni di segmentazione e personalizzazione.
 
 * **I gruppi di campi non sono supportati** nel framework di modellazione dati corrente.
+
+* Al momento non è disponibile il supporto per le chiavi primarie composite con flussi di caricamento file.
 
 ## Limitazioni delle attività
 
