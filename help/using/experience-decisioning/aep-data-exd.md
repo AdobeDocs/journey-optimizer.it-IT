@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1200'
 ht-degree: 25%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 25%
 >title="Aggiungere set di dati"
 >abstract="Utilizza gli attributi dei set di dati [!DNL Adobe Experience Platform] per definire i criteri di limitazione in base agli attributi dinamici esterni. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
 
+[!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] per Decisioning. Questo consente di estendere la definizione degli attributi di decisione ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.
+
 >[!AVAILABILITY]
 >
 >Questa funzione è attualmente disponibile per tutti i clienti come versione a disponibilità limitata.
 
-[!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] per Decisioning. Questo consente di estendere la definizione degli attributi di decisione ai dati aggiuntivi nei set di dati per aggiornamenti in blocco che vengono modificati periodicamente senza dover aggiornare manualmente gli attributi uno alla volta. Ad esempio disponibilità, tempi di attesa e così via.
+## Guardrail e limitazioni {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer]supporta fino a 1000 ricerche per un singolo criterio di decisione.
+* **Canali supportati** - La ricerca del set di dati con decisioni funziona attualmente per le azioni personalizzate E-mail e Percorso. <!--Support for code-based experience channels is coming soon.-->
+* **Utilizzo attributo** - La funzionalità di ricerca del set di dati per il decisioning estende le definizioni degli elementi decisionali con attributi aggiuntivi, non estende gli attributi ai profili
+* Limiti di ricerca: [!DNL Journey Optimizer] supporta fino a 1.000 ricerche per singolo criterio di decisione.
 
 ## Prerequisiti
 
