@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Per aggiungere un attributo, fai clic sull’icona &quot;+&quot; accanto a esso. Puoi aggiungere al codice tutti gli attributi che desideri.
 
@@ -78,13 +78,13 @@ Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di per
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Sfruttare i frammenti {#fragments}
+## Utilizzo dei frammenti (esperienza basata su codice) {#fragments}
 
 Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, puoi sfruttarli nel codice del criterio di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è attualmente disponibile solo per il canale di esperienza basato su codice e per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
 
