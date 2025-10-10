@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 81%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 81%
 
 ### Miglioramenti {#25-10-improvements}
 
-**Supporto attributi personalizzati per Invia a (annulla iscrizione)**
+**Attributi personalizzati supportati per l&#39;indirizzo di posta elettronica (annullamento iscrizione)**
 
 Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare endpoint esterni personalizzati definendo un collegamento con un solo clic per annullare l’abbonamento e un indirizzo e-mail personalizzato per annullare l’abbonamento nella configurazione e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
-Per personalizzare ulteriormente gli endpoint personalizzati, ora puoi definire attributi personalizzati che verranno aggiunti anche all’evento di consenso.
+Per personalizzare ulteriormente gli endpoint personalizzati, ora puoi definire attributi personalizzati che verranno aggiunti anche all’evento di consenso. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
