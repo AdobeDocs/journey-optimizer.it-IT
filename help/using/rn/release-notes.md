@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0198df405217c7870a471d271987da08d0e2308
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 86%
+source-wordcount: '1625'
+ht-degree: 81%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 86%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese. [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Aggiornamenti di ottobre 2025 {#25-10-rn}
+
+### Nuove funzionalità {#25-10-features}
 
 <table>
 <thead>
@@ -64,6 +66,20 @@ ht-degree: 86%
 </tr>
 </tbody>
 </table>
+
+### Miglioramenti {#25-10-improvements}
+
+**Supporto attributi personalizzati per Invia a (annulla iscrizione)**
+
+Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare endpoint esterni personalizzati definendo un collegamento con un solo clic per annullare l’abbonamento e un indirizzo e-mail personalizzato per annullare l’abbonamento nella configurazione e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
+
+Per personalizzare ulteriormente gli endpoint personalizzati, ora puoi definire attributi personalizzati che verranno aggiunti anche all’evento di consenso.
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è già disponibile per l&#39;URL personalizzato **[!UICONTROL Annulla iscrizione]** con un solo clic da agosto &#39;25 ed è ora disponibile per l&#39;opzione **[!UICONTROL Invia a (annulla iscrizione)]** in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+
+Data di disponibilità: 6 ottobre 2025
 
 ## Note sulla versione di settembre 2025 {#25-9-rn}
 
@@ -343,14 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
   You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
-
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
-
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
   Availability date: Sept XX, 2025
 
