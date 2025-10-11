@@ -30,7 +30,7 @@ Scopri come accedere, personalizzare ed esportare Rapporti live per monitorare p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Elenco delle metriche
 

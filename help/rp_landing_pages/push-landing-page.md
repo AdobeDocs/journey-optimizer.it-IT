@@ -58,7 +58,7 @@ Scopri come progettare e personalizzare le notifiche push con file multimediali,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Visualizzare in anteprima, convalidare e inviare notifiche push
 

@@ -20,7 +20,7 @@ I campi eventi del passaggio precedente in Adobe Journey Optimizer sono essenzia
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Informazioni sui campi precedenti
 
@@ -40,7 +40,7 @@ Scopri i campi nello schema del percorso, i relativi tipi e come supportano lil 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Campi comuni per gli eventi dei passaggi del percorso
 
@@ -50,7 +50,7 @@ Trova campi essenziali condivisi tra journeyStepEvent e journeyStepProfileEvent 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Campi di esecuzione di azioni
 
@@ -70,7 +70,7 @@ Scopri i campi associati al recupero dei dati durante l’elaborazione dei passa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Campi di identità JourneyStep
 

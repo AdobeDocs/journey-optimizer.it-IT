@@ -50,7 +50,7 @@ Accedi, organizza ed esegui azioni quali pubblicazione, duplicazione ed assegnaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare i contenuti per le pagine di destinazione
 

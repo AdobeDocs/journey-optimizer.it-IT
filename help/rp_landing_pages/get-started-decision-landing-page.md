@@ -40,7 +40,7 @@ Scopri i vincoli operativi e le soglie di prestazioni della Gestione delle decis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Guida all’interfaccia utente della libreria di offerte
 
@@ -70,7 +70,7 @@ Scopri come perfezionare i criteri di idoneità e personalizzare le offerte util
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Usare offerte personalizzate in un messaggio e-mail
 

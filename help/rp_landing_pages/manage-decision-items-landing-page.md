@@ -20,7 +20,7 @@ La gestione degli elementi decisionali in Adobe Journey Optimizer è fondamental
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il catalogo degli elementi
 
@@ -40,7 +40,7 @@ Scopri come creare, configurare e gestire gli elementi decisionali, inclusi attr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Gestire le raccolte di elementi
 

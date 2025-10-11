@@ -50,7 +50,7 @@ Scopri l’area di lavoro visiva in cui progettare e configurare le attività pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Avviare e monitorare le campagne
 

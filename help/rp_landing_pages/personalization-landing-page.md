@@ -20,7 +20,7 @@ La personalizzazione in Adobe Journey Optimizer consente di creare esperienze cl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta la personalizzazione
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla personalizzazione in Adobe Journey Optimizer, in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Aggiungere e convalidare la personalizzazione
 
@@ -40,7 +40,7 @@ Padroneggia l’editor di personalizzazione per creare contenuti personalizzati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Scopri la sintassi della personalizzazione
 
@@ -50,7 +50,7 @@ Approfondisci le regole e gli esempi di sintassi della personalizzazione basata 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Riutilizzare i frammenti di espressione
 
@@ -70,7 +70,7 @@ Scopri come utilizzare i set di dati di AEP con la funzione helper “datasetLoo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Guida di riferimento delle funzioni helper
 

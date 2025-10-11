@@ -30,7 +30,7 @@ Scopri come controllare la recapitabilità delle e-mail gestendo gli elenchi di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestione di nuovi tentativi ed elenchi di soppressione
 
@@ -40,7 +40,7 @@ Comprendi e configura i meccanismi di esecuzione di nuovi tentativi per gli erro
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Configurare l’elenco consentiti
 
