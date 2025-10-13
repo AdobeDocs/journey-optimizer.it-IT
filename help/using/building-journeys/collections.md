@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate
-description: Invio di un messaggio tramite Campaign v7/v8
+title: Trasmettere le raccolte nei parametri delle azioni personalizzate
+description: Scopri come passare dinamicamente le raccolte in Journey Optimizer utilizzando azioni personalizzate
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
 
-# Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate{#passing-collection}
+# Trasmettere le raccolte nei parametri delle azioni personalizzate {#passing-collection}
 
-Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte:
+Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che viene compilata dinamicamente in fase di esecuzione.
 
-* **raccolte semplici**: array di tipi di dati semplici, ad esempio con listString:
+Sono supportati due tipi di raccolte:
+
+* **Raccolte semplici**
+
+  Utilizzare raccolte semplici per elenchi di valori di base, ad esempio stringhe, numeri o booleani. Queste proprietà sono utili solo se devi trasmettere un elenco di elementi senza proprietà aggiuntive.
+
+  Ad esempio, un elenco di tipi di dispositivi:
 
   ```json
   {
@@ -32,7 +38,11 @@ Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verr
   }
   ```
 
-* o **insiemi di oggetti**: un array di oggetti JSON, ad esempio:
+* **Raccolte oggetti**
+
+  Utilizzare gli insiemi di oggetti quando ogni elemento include più campi o proprietà. In genere vengono utilizzati per trasmettere dati strutturati, ad esempio dettagli di prodotto, record di eventi o attributi di elementi.
+
+  Ad esempio:
 
   ```json
   {
@@ -56,6 +66,9 @@ Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verr
   }
   ```
 
+>[!NOTE]
+>
+>Gli array nidificati all’interno delle raccolte sono supportati solo parzialmente nei payload di richieste di azioni personalizzate. Per ulteriori dettagli, vedere [Limitazioni](#limitations).
 
 ## Procedura generale {#general-procedure}
 
@@ -125,6 +138,8 @@ Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per
 
 ## Limitazioni {#limitations}
 
+Sebbene le raccolte nelle azioni personalizzate forniscano flessibilità per il passaggio dei dati dinamici, esistono alcuni vincoli strutturali di cui tenere conto:
+
 * **Supporto per array nidificati nelle azioni personalizzate**
 
   Adobe Journey Optimizer supporta array nidificati di oggetti nei payload di risposta **azione personalizzati**, ma questo supporto è limitato nei **payload di richiesta**.
@@ -172,7 +187,7 @@ Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per
       ```
 
 
-* Per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione codice non è al momento supportata per gli eventi di business. Puoi inviare una raccolta solo con un singolo elemento.
+* **Test delle raccolte**: per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione del codice non è supportata per gli eventi di business, pertanto in questo caso è possibile inviare solo una raccolta contenente un singolo elemento.
 
 
 ## Casi particolari{#examples}
@@ -208,6 +223,12 @@ Esempio di array:
 }
 ```
 
-**Argomenti correlati**
+## Risorse aggiuntive
 
-[Utilizzare azioni personalizzate](../building-journeys/using-custom-actions.md)
+Consulta le sezioni seguenti per ulteriori informazioni sulla configurazione, l’utilizzo e la risoluzione dei problemi delle azioni personalizzate:
+
+* [Introduzione alle azioni personalizzate](../action/action.md): scopri cos&#39;è un&#39;azione personalizzata e come ti aiuta a connetterti ai sistemi di terze parti
+* [Configura le azioni personalizzate](../action/about-custom-action-configuration.md) - Scopri come creare e configurare un&#39;azione personalizzata
+* [Usa azioni personalizzate](../building-journeys/using-custom-actions.md) - Scopri come utilizzare le azioni personalizzate nei tuoi percorsi
+* [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
+

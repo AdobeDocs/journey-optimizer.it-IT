@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 19%
+source-wordcount: '1829'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,34 @@ ht-degree: 19%
 Se utilizzi un sistema di terze parti per l’invio di messaggi o desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per configurarne la connessione al tuo percorso. Ad esempio, mediante azioni personalizzate è possibile connettersi ai seguenti sistemi: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, ecc.
 
 Le azioni personalizzate sono azioni aggiuntive definite dagli utenti tecnici e rese disponibili agli esperti di marketing. Una volta configurate, vengono visualizzate nella palette a sinistra del percorso, nella categoria **[!UICONTROL Azione]**. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+
+
+## Passaggi di configurazione {#configuration-steps}
+
+Di seguito sono riportati i passaggi principali necessari per configurare un’azione personalizzata:
+
+1. Nella sezione del menu AMMINISTRAZIONE, selezionare **[!UICONTROL Configurazioni]**. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Gestisci]**. Fai clic su **[!UICONTROL Crea azione]** per creare una nuova azione. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
+
+   ![](assets/custom2.png)
+
+1. Immetti un nome per l&#39;azione.
+
+   >[!NOTE]
+   >
+   >Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri.
+
+1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
+1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel campo **[!UICONTROL Usato in]**. È possibile fare clic sul pulsante **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
+1. Definisci i diversi parametri di **[!UICONTROL configurazione URL]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
+1. Configura la sezione **[!UICONTROL Autenticazione]**. Questa configurazione è la stessa delle origini dati.  Consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Definisci i **[!UICONTROL parametri azione]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Fai clic su **[!UICONTROL Salva]**.
+
+   L’azione personalizzata è ora configurata ed è pronta per essere utilizzata nei percorsi. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+
+   >[!NOTE]
+   >
+   >Quando un’azione personalizzata viene utilizzata in un percorso, la maggior parte dei parametri è di sola lettura. Puoi modificare solo i campi **[!UICONTROL Nome]**, **[!UICONTROL Descrizione]**, **[!UICONTROL URL]** e la sezione **[!UICONTROL Autenticazione]**.
 
 ## Limitazioni{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ In Journey Optimizer, puoi applicare la governance dei dati e i criteri di conse
 * [Governance dei dati](../action/action-privacy.md).
 * [Consenso](../action/action-privacy.md).
 
-
-## Passaggi di configurazione {#configuration-steps}
-
-Di seguito sono riportati i passaggi principali necessari per configurare un’azione personalizzata:
-
-1. Nella sezione del menu AMMINISTRAZIONE, selezionare **[!UICONTROL Configurazioni]**. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Gestisci]**. Fai clic su **[!UICONTROL Crea azione]** per creare una nuova azione. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
-
-   ![](assets/custom2.png)
-
-1. Immetti un nome per l&#39;azione.
-
-   >[!NOTE]
-   >
-   >Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri.
-
-1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
-1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel campo **[!UICONTROL Usato in]**. È possibile fare clic sul pulsante **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
-1. Definisci i diversi parametri di **[!UICONTROL configurazione URL]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
-1. Configura la sezione **[!UICONTROL Autenticazione]**. Questa configurazione è la stessa delle origini dati.  Consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Definisci i **[!UICONTROL parametri azione]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
-1. Fai clic su **[!UICONTROL Salva]**.
-
-   L’azione personalizzata è ora configurata ed è pronta per essere utilizzata nei percorsi. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
-
-   >[!NOTE]
-   >
-   >Quando un’azione personalizzata viene utilizzata in un percorso, la maggior parte dei parametri è di sola lettura. Puoi modificare solo i campi **[!UICONTROL Nome]**, **[!UICONTROL Descrizione]**, **[!UICONTROL URL]** e la sezione **[!UICONTROL Autenticazione]**.
 
 ## Configurazione endpoint {#url-configuration}
 
@@ -156,7 +157,7 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
-L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
@@ -195,6 +196,15 @@ Nella configurazione del campo, devi:
 >
 
 
-## Risoluzione dei problemi
+* [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
 
-Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in questa pagina dedicata](../action/troubleshoot-custom-action.md).
+
+## Risorse aggiuntive
+
+Consulta le sezioni seguenti per ulteriori informazioni sulla configurazione, l’utilizzo e la risoluzione dei problemi delle azioni personalizzate:
+
+* [Introduzione alle azioni personalizzate](../action/action.md): scopri cos&#39;è un&#39;azione personalizzata e come ti aiuta a connetterti ai sistemi di terze parti
+* [Usa azioni personalizzate](../building-journeys/using-custom-actions.md) - Scopri come utilizzare le azioni personalizzate nei tuoi percorsi
+* [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
+* [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md) - Scopri come trasmettere una raccolta nei parametri delle azioni personalizzate compilata dinamicamente in fase di esecuzione
+

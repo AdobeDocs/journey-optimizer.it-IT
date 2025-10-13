@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 46%
+source-wordcount: '358'
+ht-degree: 37%
 
 ---
 
@@ -49,4 +49,14 @@ Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in qu
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+
+## Risorse aggiuntive
+
+Consulta le sezioni seguenti per ulteriori informazioni sulla configurazione e sull’utilizzo delle azioni personalizzate:
+
+* [Configura le azioni personalizzate](../action/about-custom-action-configuration.md) - Scopri come creare e configurare un&#39;azione personalizzata
+* [Usa azioni personalizzate](../building-journeys/using-custom-actions.md) - Scopri come utilizzare le azioni personalizzate nei tuoi percorsi
+* [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md) - Scopri come trasmettere una raccolta nei parametri delle azioni personalizzate compilata dinamicamente in fase di esecuzione
+* [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
+

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Utilizza questa funzionalità per semplificare il processo di test e convalida, 
 
 ## Prerequisiti {#troubleshoot-custom-action-prereq}
 
-Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **&#x200B;**&#x200B;con un URL, intestazioni e impostazioni di autenticazione.
+Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **** con un URL, intestazioni e impostazioni di autenticazione.
 
 Affinché gli amministratori possano utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
 
@@ -88,3 +88,13 @@ Se la richiesta non riesce, puoi controllare:
 * Il metodo di richiesta (GET vs. POST) e il payload corrispondente.
 * L’endpoint API e le intestazioni definiti nell’azione personalizzata.
 * Utilizza i dati di risposta per identificare potenziali configurazioni errate.
+
+## Risorse aggiuntive
+
+Consulta le sezioni seguenti per ulteriori informazioni sulla configurazione e sull’utilizzo delle azioni personalizzate:
+
+* [Introduzione alle azioni personalizzate](../action/action.md): scopri cos&#39;è un&#39;azione personalizzata e come ti aiuta a connetterti ai sistemi di terze parti
+* [Configura le azioni personalizzate](../action/about-custom-action-configuration.md) - Scopri come creare e configurare un&#39;azione personalizzata
+* [Usa azioni personalizzate](../building-journeys/using-custom-actions.md) - Scopri come utilizzare le azioni personalizzate nei tuoi percorsi
+* [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md) - Scopri come trasmettere una raccolta nei parametri delle azioni personalizzate compilata dinamicamente in fase di esecuzione
+
