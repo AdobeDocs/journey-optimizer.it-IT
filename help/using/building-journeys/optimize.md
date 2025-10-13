@@ -11,9 +11,9 @@ keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1305'
 ht-degree: 6%
 
 ---
@@ -53,6 +53,7 @@ Una volta che il percorso è attivo, i profili vengono valutati in base ai crite
 >id="ajo_path_experiment_success_metric"
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per tracciare e valutare il trattamento dalle prestazioni migliori in un esperimento."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 
@@ -75,13 +76,6 @@ Supponiamo che tu voglia confrontare tre percorsi:
 1. Fai clic su **[!UICONTROL Crea esperimento]**.
 
 1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento. Ulteriori informazioni sulle metriche disponibili e su come configurare l&#39;elenco in [questa sezione](success-metrics.md).
-
-   <!--Need to have the list of all default metrics + a description for each.
-    Explain why the metric selection is important.
-    Are there custom metrics? If so explain.
-    If possible, add best practices and examples for each metrics (could even be a dedicated section).
-    Consider adding an example in this step: For this example, select this metric to test xxx.
-    -->
 
    ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
