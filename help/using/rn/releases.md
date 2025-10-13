@@ -6,9 +6,9 @@ feature: Release Notes
 description: Informazioni sul ciclo di rilascio di Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
+source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Come parte di questo modello:
 
 ## Tempistiche e cadenza di rilascio {#release-timing}
 
-[!DNL Adobe Journey Optimizer] segue in genere una cadenza di rilascio mensile, con le distribuzioni che in genere si verificano durante l&#39;ultima settimana di ogni mese. Le note sulla versione mensili e la relativa documentazione sono pubblicate martedì. Le note pre-release vengono pubblicate il venerdì precedente la settimana di rilascio.
+[!DNL Adobe Journey Optimizer] segue in genere una cadenza di rilascio mensile, con le distribuzioni che in genere si verificano durante l&#39;ultima settimana di ogni mese. Le note sulla versione mensili e la relativa documentazione vengono pubblicate il martedì della settimana di rilascio. Le note pre-release vengono pubblicate il venerdì precedente la settimana di rilascio.
 
 >[!TIP]
 >
 > Alla fine di ogni trimestre, è possibile prevedere i rilasci e implementarli fino a due settimane prima della fine del mese per allinearli ai programmi trimestrali o ai rilasci di prodotti dipendenti.
 
-Mentre il rilascio mensile introduce il set principale di nuove funzionalità e correzioni, l’approccio di distribuzione continua consente di distribuire aggiornamenti aggiuntivi tra i cicli quando sono pronti. Le note sulla versione e la relativa documentazione vengono quindi aggiornate di conseguenza e viene indicata la data di disponibilità. Tutte le modifiche rilasciate durante il mese sono consolidate nelle note sulla versione mensili alla data di rilascio.
+Mentre il rilascio mensile introduce il set principale di nuove funzionalità e correzioni, l’approccio di distribuzione continua consente di distribuire aggiornamenti aggiuntivi tra i cicli quando sono pronti. Le note sulla versione vengono quindi aggiornate di conseguenza nella sezione _Ultimi aggiornamenti_ e viene menzionata la data di disponibilità. Tutte le modifiche rilasciate durante il mese sono consolidate nelle note sulla versione mensili alla data di rilascio.
 
 
 ## Percorsi di rilascio {#release-paths}
@@ -48,10 +48,10 @@ Le funzioni di Journey Optimizer seguono percorsi di rilascio diversi a seconda 
 
 I percorsi di rilascio comuni includono:
 
-* **Diretto a GA**. Alcuni miglioramenti più piccoli o incrementali vengono eseguiti direttamente in General Availability (GA).
-* **LA → GA** — Le funzionalità sono disponibili per un pubblico limitato (disponibilità limitata) prima del rollout generale.
+* **Diretto a GA**: alcune nuove funzionalità e miglioramenti sono direttamente disponibili in General Availability (GA).
+* **LA → GA** — Alcune funzionalità sono disponibili per un pubblico limitato (disponibilità limitata) prima del rollout generale.
 * **Beta → LA → GA**: le funzionalità più grandi o sperimentali avanzano in tutte le fasi di test e convalida.
-* **Beta → GA**: alcune funzionalità stabili di Beta possono passare direttamente a GA senza una fase di LA intermedia.
+* **Beta → GA**: alcune funzionalità stabili di Beta possono essere spostate direttamente in GA, senza una fase di LA intermedia.
 
 >[!TIP]
 >
@@ -62,14 +62,14 @@ I percorsi di rilascio comuni includono:
 
 | **Etichetta** | **Finalità** | **Disponibilità** | **Note chiave** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Test preliminari e raccolta di feedback. | Limitato a clienti o organizzazioni selezionati che partecipano al programma Beta di Adobe. | * Non destinato alla produzione.La funzionalità o la progettazione di <br>* potrebbe cambiare prima di GA.<br>- Il feedback consente di perfezionare l&#39;implementazione finale. |
-| **Disponibilità limitata (LA)** | Rollout controllato per la convalida e il monitoraggio. | Abilitato solo per i clienti o gli ambienti selezionati (ad esempio, sandbox di sviluppo). | * La funzione è quasi finale e monitorata attivamente.<br>- Utilizzato per convalidare le prestazioni e la scalabilità prima della versione generale.<br>* L&#39;accesso richiede l&#39;approvazione di Adobe. |
-| **Disponibilità generale (GA)** | Ampia versione di funzionalità completamente supportate. | Abilitata per impostazione predefinita per tutte le organizzazioni idonee. | * Pronto per la produzione e completamente supportato.<br>* Potrebbero essere richieste licenze o autorizzazioni.<br>* può essere implementato progressivamente in più aree geografiche. |
+| **Beta** | Test preliminari e raccolta di feedback. | Limitato a clienti o organizzazioni selezionati che partecipano al programma Beta di Adobe. | - non destinati alla produzione.<br>- La funzionalità o la progettazione potrebbero cambiare prima del GA.<br>- Il feedback consente di perfezionare l&#39;implementazione finale. |
+| **Disponibilità limitata (LA)** | Rollout controllato per la convalida e il monitoraggio. | Abilitato solo per i clienti o gli ambienti selezionati (ad esempio, sandbox di sviluppo). | - La funzione è quasi finale e monitorata attivamente.<br>- Utilizzato per convalidare le prestazioni e la scalabilità prima della versione generale.<br>- L&#39;accesso richiede l&#39;approvazione di Adobe. |
+| **Disponibilità generale (GA)** | Ampia versione di funzionalità completamente supportate. | Abilitata per impostazione predefinita per tutte le organizzazioni idonee. | - Predisposizione alla produzione e supporto completo.<br> - È possibile che vengano applicate licenze o autorizzazioni.<br> - Possibilità di distribuzione progressiva tra aree geografiche. |
 
 
 ## Rollout e disponibilità {#rollout}
 
-Anche dopo un annuncio GA, il rollout può avvenire gradualmente tra organizzazioni o aree geografiche. Se una nuova funzionalità non viene visualizzata immediatamente nell’ambiente, in genere sarà disponibile entro pochi giorni o settimane dal rilascio.
+Anche dopo un annuncio GA, il rollout può avvenire gradualmente tra organizzazioni o aree geografiche. Se una nuova funzionalità non viene visualizzata immediatamente nell’ambiente, in genere sarà disponibile entro pochi giorni dal rilascio.
 
 Questo rollout graduale consente ad Adobe di monitorare la stabilità, le prestazioni e l’esperienza utente prima di completare l’implementazione.
 
