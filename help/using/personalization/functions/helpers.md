@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 6%
 
 ---
 
@@ -106,7 +106,7 @@ L&#39;istruzione `elseif` specificherà una nuova condizione da verificare se la
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui tipi di pubblico e sul servizio di segmentazione, consulta questa [sezione](../../audience/about-audiences.md).
+>Per ulteriori informazioni sui tipi di pubblico e sul servizio di segmentazione, consulta [questa sezione](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}
@@ -211,3 +211,78 @@ L&#39;esempio seguente consente di calcolare la somma totale dei prezzi dei prod
     {{/each}}
 {{sum}}
 ```
+
+## Metadati di esecuzione {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+
+L&#39;helper `executionMetadata` consente di acquisire e archiviare in modo dinamico coppie chiave-valore personalizzate nel contesto di esecuzione del messaggio.
+
+**Sintassi**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+In questa sintassi, `key` fa riferimento al nome dei metadati e `value` sono i metadati da mantenere.
+
+**Caso d’uso**
+
+Con questa funzione, puoi aggiungere informazioni contestuali a qualsiasi azione nativa delle campagne o dei percorsi. Questo consente di esportare i dati contestuali di consegna in tempo reale verso sistemi esterni per vari scopi come il tracciamento, l’analisi, la personalizzazione e l’elaborazione a valle.
+
+>[!NOTE]
+>
+>La funzione dei metadati di esecuzione non è supportata da [azioni personalizzate](../../action/action.md).
+
+Ad esempio, puoi utilizzare l’helper dei metadati di esecuzione per aggiungere un ID specifico a ciascuna consegna inviata a ciascun profilo. Queste informazioni vengono generate durante il runtime e i metadati di esecuzione arricchiti possono quindi essere esportati per la riconciliazione a valle con una piattaforma di reporting esterna.
+
+**Come funziona**
+
+Seleziona qualsiasi elemento dal contenuto del canale all&#39;interno di una campagna o di un percorso e, utilizzando l&#39;editor di personalizzazione, aggiungi l&#39;helper `executionMetadata` a questo elemento.
+
+>[!NOTE]
+>
+>La funzione Execution Metadata non è visibile quando viene visualizzato il contenuto stesso.
+
+
+In fase di esecuzione, il valore dei metadati viene aggiunto al set di dati **[!UICONTROL Message Feedback Event]** esistente con la seguente aggiunta di schema:
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>Ulteriori informazioni sui set di dati in [questa sezione](../../data/get-started-datasets.md).
+
+**Limitazione**
+
+Esiste un limite massimo di 2 kb per le coppie chiave-valore per azione.
+
+Se viene superato il limite di 2 KB, il messaggio viene comunque recapitato, ma è possibile troncare qualsiasi coppia di valori chiave.
+
+**Esempio**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+In questo esempio, supponendo `profile.person.name.firstName` = &quot;Alex&quot;, l&#39;entità risultante è:
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+

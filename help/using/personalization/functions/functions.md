@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2422'
 ht-degree: 27%
 
 ---
@@ -438,6 +438,9 @@ Gli helper sono dettagliati in [questa pagina](helpers.md).
         <td><a href="helpers.md#each">Each</a></td><td>Questa funzione viene utilizzata per eseguire iterazioni su un array</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#execution-metadata">Metadati di esecuzione</a></td><td>Questo helper acquisisce metadati personalizzati chiave-valore durante il rendering dei messaggi in modo che possano essere memorizzati nell’oggetto metadati di esecuzione runtime</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#if-function">Se</a></td><td>Questa funzione viene utilizzata per definire un blocco condizionale. Se la valutazione dell’espressione restituisce true, viene eseguito il rendering del blocco.</td>
     </tr>
     <tr>
@@ -516,4 +519,4 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
