@@ -6,10 +6,10 @@ feature: Release Notes
 description: Informazioni sul ciclo di rilascio di Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 625dfbb66effb30172f6faf56db6fe512aef909a
+source-git-commit: 920c9080768e1972b487b3a258281914a4b7d8de
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +63,7 @@ I percorsi di rilascio comuni includono:
 | **Etichetta** | **Finalità** | **Disponibilità** | **Note chiave** |
 |------------|-------------|------------------|----------------|
 | **Beta** | Test preliminari e raccolta di feedback. | Limitato a clienti o organizzazioni selezionati che partecipano al programma Beta di Adobe. | - non destinati alla produzione.<br>- La funzionalità o la progettazione potrebbero cambiare prima del GA.<br>- Il feedback consente di perfezionare l&#39;implementazione finale. |
-| **Disponibilità limitata (LA)** | Rollout controllato per la convalida e il monitoraggio. | Abilitato solo per i clienti o gli ambienti selezionati (ad esempio, sandbox di sviluppo). | - La funzione è quasi finale e monitorata attivamente.<br>- Utilizzato per convalidare le prestazioni e la scalabilità prima della versione generale.<br>- L&#39;accesso richiede l&#39;approvazione di Adobe. |
+| **Disponibilità limitata (LA)** | Rollout controllato per la convalida e il monitoraggio. | Abilitato solo per i clienti o gli ambienti selezionati (ad esempio, sandbox di sviluppo). | - Predisposizione alla produzione e supporto completo.<br>- Utilizzato per convalidare le prestazioni e la scalabilità prima della versione generale.<br>- L&#39;accesso richiede l&#39;approvazione di Adobe. |
 | **Disponibilità generale (GA)** | Ampia versione di funzionalità completamente supportate. | Abilitata per impostazione predefinita per tutte le organizzazioni idonee. | - Predisposizione alla produzione e supporto completo.<br> - È possibile che vengano applicate licenze o autorizzazioni.<br> - Possibilità di distribuzione progressiva tra aree geografiche. |
 
 
@@ -83,6 +83,13 @@ Per rimanere aggiornati:
 * Monitora **Note pre-release** (se disponibili) per un&#39;anteprima delle prossime funzionalità.
 * Contatta il tuo rappresentante Adobe per informazioni su Beta, disponibilità limitata o adesione.
 
+È possibile sottoscrivere **avvisi e-mail e nel prodotto** per le versioni dei prodotti Journey Optimizer. Per iscriverti:
+
+1. Passa a **Preferenze di Adobe Experience Cloud**
+1. In **Notifiche**, trova **Journey Optimizer**
+1. Abilita **Nuove versioni** notifiche in-app e e-mail
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Domande frequenti {#faq}
 
