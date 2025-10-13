@@ -28,7 +28,7 @@ Utilizza questa funzionalità per semplificare il processo di test e convalida, 
 
 ## Prerequisiti {#troubleshoot-custom-action-prereq}
 
-Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **** con un URL, intestazioni e impostazioni di autenticazione.
+Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **&#x200B;**&#x200B;con un URL, intestazioni e impostazioni di autenticazione.
 
 Affinché gli amministratori possano utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
 
