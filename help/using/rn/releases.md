@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] opera su un modello di distribuzione continua, consentendo un approccio scalabile e graduale alla distribuzione delle funzionalità. Questo modello consente ad Adobe di fornire innovazione più rapidamente e garantire stabilità e prestazioni costanti durante il rollout.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 > Poiché [!DNL Adobe Journey Optimizer] utilizza la distribuzione continua, è possibile che le nuove funzionalità vengano visualizzate progressivamente in più organizzazioni o aree geografiche.
 
@@ -35,7 +35,7 @@ Come parte di questo modello:
 
 [!DNL Adobe Journey Optimizer] segue in genere una cadenza di rilascio mensile, con le distribuzioni che in genere si verificano durante l&#39;ultima settimana di ogni mese. Le note sulla versione mensili e la relativa documentazione sono pubblicate martedì. Le note pre-release vengono pubblicate il venerdì precedente la settimana di rilascio.
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 > Alla fine di ogni trimestre, è possibile prevedere i rilasci e implementarli fino a due settimane prima della fine del mese per allinearli ai programmi trimestrali o ai rilasci di prodotti dipendenti.
 
@@ -53,7 +53,7 @@ I percorsi di rilascio comuni includono:
 * **Beta → LA → GA**: le funzionalità più grandi o sperimentali avanzano in tutte le fasi di test e convalida.
 * **Beta → GA**: alcune funzionalità stabili di Beta possono passare direttamente a GA senza una fase di LA intermedia.
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 > Se ti interessa accedere in anteprima alle funzioni di Beta o a disponibilità limitata, contatta il tuo rappresentante Adobe per discutere le opzioni di partecipazione.
 
