@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Passaggio dinamico delle raccolte tramite azioni personalizzate
+title: Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -9,15 +9,15 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 3d0e2817ef2b544aced441d7bb8b1a94ac2acccf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 7%
+source-wordcount: '564'
+ht-degree: 5%
 
 ---
 
 
-# Passaggio dinamico delle raccolte tramite azioni personalizzate{#passing-collection}
+# Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate{#passing-collection}
 
 Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte:
 
@@ -34,7 +34,7 @@ Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verr
 
 * insiemi di oggetti: un array di oggetti JSON, ad esempio:
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -58,20 +58,52 @@ Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verr
 
 ## Limitazioni {#limitations}
 
-* Gli array nidificati di oggetti all’interno di un array di oggetti non sono al momento supportati. Ad esempio:
+* **Supporto per array nidificati nelle azioni personalizzate**
 
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
+  Adobe Journey Optimizer supporta array nidificati di oggetti nei payload di risposta **azione personalizzati**, ma questo supporto è limitato nei **payload di richiesta**.
+
+  Nei payload delle richieste, gli array nidificati sono supportati solo se contengono un numero fisso di elementi, come definito nella configurazione dell’azione personalizzata. Ad esempio, se un array nidificato include sempre esattamente tre elementi, può essere configurato come costante. Quando il numero di elementi deve essere dinamico, solo gli array non nidificati (array al livello inferiore) possono essere definiti come variabili.
+
+  Esempio:
+
+   1. L&#39;esempio seguente illustra un **caso d&#39;uso non supportato**.
+
+      In questo esempio, l&#39;array prodotti include un array nidificato (`locations`) con un numero dinamico di elementi, che non è supportato nei payload delle richieste.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. Esempio supportato, con elementi fissi definiti come costanti.
+
+      In questo caso, le posizioni nidificate vengono sostituite da campi fissi (`location1`, `location2`), consentendo al payload di rimanere valido all&#39;interno della configurazione supportata.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
 
 * Per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione codice non è al momento supportata per gli eventi di business. Puoi inviare una raccolta solo con un singolo elemento.
 
@@ -79,7 +111,7 @@ Puoi trasmettere una raccolta nei parametri delle azioni personalizzate che verr
 
 In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratta di un array di oggetti con un campo che è un insieme semplice.
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -149,7 +181,7 @@ Per tipi e array di array eterogenei, l’array è definito con il tipo listAny.
 
 Esempio di tipo eterogeneo:
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +194,7 @@ Esempio di tipo eterogeneo:
 
 Esempio di array:
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
