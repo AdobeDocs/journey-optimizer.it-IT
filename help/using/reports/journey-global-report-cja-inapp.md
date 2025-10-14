@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
@@ -37,9 +37,9 @@ Il grafico **[!UICONTROL Tendenza visualizzazione e clic]** presenta un&#39;anal
 
 +++ Ulteriori informazioni sulle metriche di tendenza per visualizzazioni e clic
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
+* **[!UICONTROL Clic]**: numero di volte in cui l&#39;utente ha interagito con i messaggi in-app.
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio in-app è stato visualizzato all&#39;utente.
 
 +++
 
@@ -51,7 +51,7 @@ Il grafico **[!UICONTROL Clic]** visualizza le metriche di clic in-app, illustra
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nei messaggi in-app
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
+* **[!UICONTROL Clic]**: numero di volte in cui l&#39;utente ha interagito con i messaggi in-app.
 
 +++
 
@@ -61,7 +61,7 @@ Il grafico **[!UICONTROL Displays]** ti aiuta a comprendere sia la portata compl
 
 +++ Ulteriori informazioni sulle metriche di visualizzazione
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio in-app è stato visualizzato all&#39;utente.
 
 * **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
 
@@ -79,11 +79,11 @@ La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagl
 
 * **[!UICONTROL Percentuale di apertura dei clic]**: numero di volte in cui i messaggi in-app sono stati aperti.
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
+* **[!UICONTROL Clic]**: numero di volte in cui l&#39;utente ha interagito con i messaggi in-app.
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nei messaggi in-app.
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio in-app è stato visualizzato all&#39;utente.
 
 * **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
 
@@ -105,9 +105,9 @@ La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panora
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nei messaggi in-app.
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
+* **[!UICONTROL Clic]**: numero di volte in cui l&#39;utente ha interagito con i messaggi in-app.
 
-* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
+* **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio in-app è stato visualizzato all&#39;utente.
 
 * **[!UICONTROL Visualizzazioni univoche]**: il numero di volte in cui il messaggio è stato aperto; non vengono prese in considerazione più interazioni di un profilo.
 
@@ -123,6 +123,6 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nei messaggi in-app
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi in-app.
+* **[!UICONTROL Clic]**: numero di volte in cui l&#39;utente ha interagito con i messaggi in-app.
 
 +++
