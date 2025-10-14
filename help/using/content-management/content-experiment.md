@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1843'
 ht-degree: 6%
 
 ---
@@ -264,9 +264,9 @@ Per abilitare la scalabilità automatica negli esperimenti:
    * Non appena viene trovato il vincitore.
    * Dopo l’esperimento è attivo per il tempo selezionato.
 
-Il tempo di ridimensionamento automatico deve essere pianificato prima della data di fine dell’esperimento. Se è impostato per un periodo di tempo successivo alla data di fine, verrà visualizzato un avviso di convalida e la campagna o il percorso non verrà pubblicato.
+   Il tempo di ridimensionamento automatico deve essere pianificato prima della data di fine dell’esperimento. Se è impostato per un periodo di tempo successivo alla data di fine, verrà visualizzato un avviso di convalida e la campagna o il percorso non verrà pubblicato.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. Scegli il comportamento di fallback se non viene trovato alcun vincitore in base al tempo di scala:
 
