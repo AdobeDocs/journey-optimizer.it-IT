@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 17%
@@ -75,7 +75,7 @@ Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del co
 
 Crea una notifica actionable aggiungendo pulsanti al contenuto push.
 
-Se la schermata del dispositivo è bloccata, questi pulsanti non vengono visualizzati: sono visibili solo il **Titolo** e il **Messaggio** della notifica. Se il dispositivo è sbloccato, i destinatari visualizzeranno i pulsanti.
+Se la schermata del dispositivo è bloccata, questi pulsanti non vengono visualizzati: solo allora sono visibili il **Titolo** e il **Messaggio** della notifica. Se il dispositivo è sbloccato, i destinatari visualizzeranno i pulsanti.
 
 Nella versione di Android, puoi aggiungere fino a tre pulsanti.
 
