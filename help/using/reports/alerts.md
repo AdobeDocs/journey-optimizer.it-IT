@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # Accedere e iscriversi agli avvisi di sistema {#alerts}
 
 Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per verificare e risolvere gli errori prima di eseguirli o pubblicarli.
-
-
 
 Dal menu dedicato **[!UICONTROL Avvisi]**, puoi anche abbonarti a [!DNL Adobe Journey Optimizer] avvisi di sistema, come descritto in questa pagina.
 
@@ -76,7 +74,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -92,10 +90,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
-
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -158,16 +153,30 @@ Questo avviso ti avvisa se il rapporto tra gli scarti di profilo e i profili imm
 
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
+Un profilo può essere scartato per diversi motivi, in base ai quali verrà illustrato il metodo di risoluzione dei problemi. Di seguito sono elencati alcuni motivi comuni:
+
+* Profilo scartato all’ingresso perché è già attivo in quel percorso unitario. Per risolvere questo problema, assicurati che il profilo abbia tempo sufficiente per uscire dal percorso prima che arrivi l’evento successivo per quel profilo.
+* L’identità non è impostata per il profilo o lo spazio dei nomi utilizzato dal percorso del pubblico di lettura non è utilizzato in tale profilo. Per risolvere questo problema, assicurati che lo spazio dei nomi nel percorso corrisponda allo spazio dei nomi dell’identità utilizzato dai profili.
+* Velocità effettiva eventi superata. Per risolvere questo problema, assicurati che gli eventi in arrivo nel sistema non superino questi limiti.
+
 
 ### Tasso di errore delle azioni personalizzate superato {#alert-custom-action-error-rate}
 
 Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
+
+Gli errori delle azioni personalizzate possono verificarsi per diversi motivi. Puoi eseguire le seguenti operazioni:
+
+* Verifica che l’azione personalizzata sia configurata correttamente
+* Verifica che l’endpoint sia raggiungibile e che l’azione personalizzata possa raggiungerlo tramite il controllo della connettività delle azioni personalizzate
+* Verifica le credenziali di autenticazione, controlla la connettività Internet, ecc.
 
 ### Tasso di errore del profilo superato {#alert-profile-error-rate}
 
 Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
+
+Per evitare questo problema, puoi eseguire una query sui dati negli eventi dei passaggi per capire dove e perché il profilo non è riuscito nel percorso.
 
 ## Avvisi di configurazione {#configuration-alerts}
 
@@ -295,7 +304,6 @@ Per aggiungere altri abbonati, inserisci il proprio indirizzo e-mail separato da
 Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica e selezionare **[!UICONTROL Aggiorna]**.
 
 ## Risorse aggiuntive {#additional-resources-alerts}
-
 
 * Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md).
 * Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md).
