@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 0%
+source-wordcount: '1650'
+ht-degree: 1%
 
 ---
 
@@ -41,9 +41,9 @@ Esse sono elencate come segue e ogni segnalazione è descritta di seguito.
 
    * l&#39;avviso [Errore azione personalizzata Percorso](#alert-custom-actions)
    * l&#39;avviso [Lettura trigger pubblico non riuscita](#alert-read-audiences)
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * la frequenza di eliminazione del profilo [è stata superata](#alert-discard-rate)
+   * [Frequenza errori azione personalizzata superata](#alert-custom-action-error-rate)
+   * [Frequenza errori profilo superata](#alert-profile-error-rate)
 
 * Avvisi specifici per la configurazione del canale:
 
@@ -55,7 +55,7 @@ Esse sono elencate come segue e ogni segnalazione è descritta di seguito.
 
 Se si verifica un comportamento imprevisto e/o viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), le notifiche di avviso vengono inviate a tutti gli utenti dell’organizzazione che si sono abbonati.
 
-È possibile sottoscrivere ogni singolo avviso dall&#39;interfaccia utente, sia globalmente che dal menu **[!UICONTROL Avvisi]** (vedere [Sottoscrizione globale](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+Puoi iscriverti a ogni singolo avviso dall&#39;interfaccia utente, sia globalmente dal menu **[!UICONTROL Avvisi]** (vedi [Abbonamento globale](#global-subscription)), sia unitariamente per un percorso specifico (vedi [Abbonamento unitario](#unitary-subscription)).
 
 In base alle preferenze dell’abbonato, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente (notifiche in-app). Seleziona la modalità di ricezione di questi avvisi nelle [!DNL Adobe Experience Cloud] **[!UICONTROL Preferenze]**. [Ulteriori informazioni](../start/user-interface.md#in-product-alerts)
 
@@ -76,25 +76,23 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### Abbonamento unitario {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, effettua le seguenti operazioni:
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. Passare all&#39;inventario dei percorsi e selezionare l&#39;opzione **[!UICONTROL Abbonati agli avvisi]** per un percorso specifico.
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![Iscrizione a un avviso per un percorso specifico](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. Scegliere gli avvisi. Sono disponibili i seguenti avvisi: [Frequenza eliminazioni profilo superata](#alert-discard-rate), [Frequenza errori azioni personalizzate superata](#alert-custom-action-error-rate) e [Frequenza errori profilo superata](#alert-profile-error-rate).
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. Per annullare l’abbonamento a un avviso, deselezionalo dalla stessa schermata.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+1. Fai clic su **[!UICONTROL Salva]** per confermare.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ Per risolvere i problemi relativi agli avvisi di **Read Audience**, controlla il
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### Tasso di eliminazione del profilo superato {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+Questo avviso ti avvisa se il rapporto tra gli scarti di profilo e i profili immessi negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### Tasso di errore delle azioni personalizzate superato {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### Tasso di errore del profilo superato {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
-Click the name of the alert to check the alert details and configuration.
--->
+Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
 ## Avvisi di configurazione {#configuration-alerts}
 
@@ -254,29 +249,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### Modificare un avviso
 
 Per controllare i dettagli di un avviso, fai clic sulla riga corrispondente. Il nome, lo stato e i canali di notifica vengono visualizzati nel pannello a sinistra.
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+Per gli avvisi di Percorso, utilizza il pulsante **[!UICONTROL Altre azioni]** per modificarli. È quindi possibile definire una [sospensione personalizzata](#custom-threshold) per questi avvisi.
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### Definire una soglia personalizzata {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+È possibile impostare soglie per [avvisi di Percorso](#journey-alerts). La soglia di avviso sopra indicata è predefinita al 20%.
 
-To change the threshold:
+Per modificare la soglia:
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. Passa alla schermata **Avvisi**
+1. Fai clic sul pulsante **[!UICONTROL Altre azioni]** dell&#39;avviso da aggiornare
+1. Inserisci la nuova soglia e conferma. La nuova soglia si applica a **tutti** percorsi
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>I livelli di soglia sono globali per tutti i percorsi e non possono essere modificati singolarmente per percorso.
 
 ### Disattivare un avviso
 
