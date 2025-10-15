@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -80,7 +80,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Passare all&#39;inventario dei percorsi e selezionare l&#39;opzione **[!UICONTROL Abbonati agli avvisi]** per un percorso specifico.
 
-   ![Iscrizione a un avviso per un percorso specifico](assets/subscribe-journey-alert.png){width=80%}
+   ![Iscrizione a un avviso per un percorso specifico](assets/subscribe-journey-alert.png){width=75%}
 
 1. Scegliere gli avvisi. Sono disponibili i seguenti avvisi: [Frequenza eliminazioni profilo superata](#alert-discard-rate), [Frequenza errori azioni personalizzate superata](#alert-custom-action-error-rate) e [Frequenza errori profilo superata](#alert-profile-error-rate).
 
@@ -88,13 +88,30 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
+
+
+Di seguito sono elencate tutte le notifiche di percorso disponibili nell’interfaccia utente.
 
 >[!CAUTION]
 >
 >Gli avvisi specifici di Adobe Journey Optimizer si applicano solo a **live** percorsi. Gli avvisi non vengono attivati per i percorsi in modalità di test.
+
+### Attivatore Read Audience Non Riuscito {#alert-read-audiences}
+
+Questo avviso ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto. Se l’errore è causato da problemi tecnici, tieni presente che possono comunque verificarsi nuovi tentativi, a seconda del tipo di problema (ad esempio, se la creazione del processo di esportazione non è riuscita, verrà eseguito un nuovo tentativo ogni 10mn per un massimo di 1h).
+
+![](assets/read-audience-alert.png)
+
+Gli avvisi sulle attività **Read Audience** si applicano solo ai percorsi ricorrenti. **Le attività Read Audience** nei percorsi live che hanno una pianificazione per l&#39;esecuzione di **Once** o **As soon as possible** vengono ignorate.
+
+Gli avvisi in **Read Audience** vengono risolti quando un profilo entra nel nodo **Read Audience**.
+
+Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso **Read Audience Trigger Unsuccess** è **Percorso di ritardo, errori e errori di lettura del pubblico**.
+
+Per risolvere i problemi relativi agli avvisi di **Read Audience**, controlla il numero di tipi di pubblico nell&#39;interfaccia di Experience Platform.
 
 
 ### Azione personalizzata percorso non riuscita {#alert-custom-actions}
@@ -103,7 +120,8 @@ Questo avviso ti avvisa se un’azione personalizzata non riesce. Riteniamo che 
 
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 Gli avvisi sulle azioni personalizzate vengono risolti quando, negli ultimi 5 minuti:
 
@@ -115,41 +133,21 @@ Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso
 
 Per risolvere i problemi relativi agli avvisi di **Azione personalizzata**:
 
-* Controlla l’azione personalizzata utilizzando la modalità di test in un altro percorso:
+* Controlla l&#39;azione personalizzata utilizzando la [modalità di test](../building-journeys/testing-the-journey.md) in un altro percorso.
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* Controlla il report di percorso per visualizzare i motivi dell’errore durante l’azione.
-
-  ![](assets/alert-troubleshooting-3.png)
+* Controlla il [report percorso](../reports/journey-live-report.md) per visualizzare i motivi dell&#39;errore durante l&#39;azione.
 
 * Controlla il tuo stepEvents di percorso per cercare ulteriori informazioni su &quot;failureReason&quot;.
 
 * Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Esegui un controllo manuale con Postman, ad esempio.
-
-### Attivatore Read Audience Non Riuscito {#alert-read-audiences}
-
-Questo avviso ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto. Se l’errore è causato da problemi tecnici, tieni presente che possono comunque verificarsi nuovi tentativi, a seconda del tipo di problema (ad esempio, se la creazione del processo di esportazione non è riuscita, verrà eseguito un nuovo tentativo ogni 10mn per un massimo di 1h).
-
-![](assets/alerts1.png)
-
-Gli avvisi sulle attività **Read Audience** si applicano solo ai percorsi ricorrenti. **Le attività Read Audience** nei percorsi live che hanno una pianificazione per l&#39;esecuzione di **Once** o **As soon as possible** vengono ignorate.
-
-Gli avvisi in **Read Audience** vengono risolti quando un profilo entra nel nodo **Read Audience**.
-
-Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso **Read Audience Trigger Unsuccess** è **Percorso di ritardo, errori e errori di lettura del pubblico**.
-
-Per risolvere i problemi relativi agli avvisi di **Read Audience**, controlla il numero di tipi di pubblico nell&#39;interfaccia di Experience Platform.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
 
 ### Tasso di eliminazione del profilo superato {#alert-discard-rate}
 
 Questo avviso ti avvisa se il rapporto tra gli scarti di profilo e i profili immessi negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
+
+![](assets/profile-discard-alert.png)
 
 Un profilo può essere scartato per diversi motivi, in base ai quali verrà illustrato il metodo di risoluzione dei problemi. Di seguito sono elencati alcuni motivi comuni:
 
@@ -162,7 +160,7 @@ Un profilo può essere scartato per diversi motivi, in base ai quali verrà illu
 
 Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
-Gli errori delle azioni personalizzate possono verificarsi per diversi motivi. Puoi eseguire le seguenti operazioni:
+Gli errori delle azioni personalizzate possono verificarsi per diversi motivi. Per risolvere questi errori, è possibile:
 
 * Verifica che l’azione personalizzata sia configurata correttamente
 * Verifica che l’endpoint sia raggiungibile e che l’azione personalizzata possa raggiungerlo tramite il controllo della connettività delle azioni personalizzate
@@ -174,9 +172,11 @@ Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e
 
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
-Per evitare questo problema, puoi eseguire una query sui dati negli eventi dei passaggi per capire dove e perché il profilo non è riuscito nel percorso.
+Per risolvere l’errore del profilo, puoi eseguire una query sui dati negli eventi dei passaggi per capire dove e perché il profilo non è riuscito nel percorso.
 
 ## Avvisi di configurazione {#configuration-alerts}
+
+Gli avvisi di monitoraggio della configurazione del canale disponibili nell’interfaccia utente sono elencati di seguito.
 
 ### Record DNS di dominio AJO mancante {#alert-dns-record-missing}
 
