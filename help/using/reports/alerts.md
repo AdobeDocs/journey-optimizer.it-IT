@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
+source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,19 @@ ht-degree: 1%
 
 Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per verificare e risolvere gli errori prima di eseguirli o pubblicarli.
 
-Dal menu dedicato **[!UICONTROL Avvisi]**, puoi anche abbonarti a [!DNL Adobe Journey Optimizer] avvisi di sistema, come descritto in questa pagina.
+* Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md)
 
-## Accedere agli avvisi {#access-alerts}
+* Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md)
 
-In caso di errore, puoi ricevere gli avvisi di sistema nel centro notifiche di Journey Optimizer (avvisi in-app) e/o ricevere un messaggio e-mail. Per accedere a questi avvisi, segui la procedura indicata di seguito.
 
-<!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
+Inoltre, quando viene raggiunto un determinato insieme di condizioni, i messaggi di avviso possono essere inviati a qualsiasi utente dell’organizzazione che si è iscritto a tali condizioni. Questi avvisi sono disponibili dal menu dedicato **[!UICONTROL Avvisi]**. Adobe Experience Platform fornisce diverse regole di avviso predefinite che è possibile abilitare per l’organizzazione. Inoltre, è possibile abbonarsi agli avvisi di sistema specifici di [!DNL Adobe Journey Optimizer] come descritto in questa pagina.
 
 >[!NOTE]
 >
 >Ulteriori informazioni sugli avvisi in Adobe Experience Platform sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}.
 
-Nel menu a sinistra, nella sezione **[!UICONTROL Amministrazione]**, fare clic su **[!UICONTROL Avvisi]**. Per Journey Optimizer sono disponibili diversi avvisi preconfigurati.
+Nel menu a sinistra, nella sezione **[!UICONTROL Amministrazione]**, fare clic su **[!UICONTROL Avvisi]**. Nella scheda **Sfoglia** sono disponibili diversi avvisi preconfigurati per Journey Optimizer.
 
-Esse sono elencate come segue e ogni segnalazione è descritta di seguito.
 
 * Avvisi specifici dei percorsi:
 
@@ -74,7 +72,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -90,7 +88,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
