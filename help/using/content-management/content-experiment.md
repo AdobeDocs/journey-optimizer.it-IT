@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1855'
 ht-degree: 6%
 
 ---
@@ -67,6 +67,10 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento. Assicurati di impostare il set di dati per determinate metriche prima di utilizzarlo."
+
+>[!AVAILABILITY]
+>
+>Direct Mail supporta la funzionalità di sospensione, ma al momento non supporta i trattamenti.
 
 Per l’esperimento sui contenuti, puoi scegliere tra tre tipi di esperimento:
 

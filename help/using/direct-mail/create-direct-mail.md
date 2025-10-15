@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 18%
+source-wordcount: '761'
+ht-degree: 17%
 
 ---
 
@@ -32,6 +32,10 @@ Per creare messaggi di direct mailing, crea una campagna pianificata e configura
 
 
 ## Creare una campagna di direct mailing{#create-dm-campaign}
+
+>[!AVAILABILITY]
+>
+>Direct Mail supporta la funzionalità di sospensione, ma al momento non supporta i trattamenti.
 
 Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
