@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
+source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
@@ -83,18 +83,30 @@ Quando si esegue una query sugli eventi dei passaggi di percorso per i record co
 
 Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risoluzione dei problemi per l&#39;eliminazione più frequente `eventTypes`:
 
-* **EXTERNAL_KEY_COMPUTATION_ERROR**: impossibile calcolare un identificatore univoco (chiave esterna) per il cliente dai dati dell&#39;evento.
-   * Cause comuni: identificatori cliente mancanti o non validi (ad esempio e-mail, ID cliente) nel payload dell’evento.
-   * Risoluzione dei problemi: controlla la configurazione dell’evento per gli identificatori richiesti, assicurati che i dati dell’evento siano completi e formattati correttamente.
-* **NO_INTEREST_PERCORSI_FOR_SEGMENTMEMBERSHIP_EVENT**: È stato ricevuto un evento di qualificazione del segmento, ma non sono configurati percorsi per rispondere a questo segmento.
-   * Cause comuni: nessun percorso utilizza il segmento come attivatore, i percorsi sono in stato di bozza/interruzione o gli ID del segmento non corrispondono.
-   * Risoluzione dei problemi: assicurati che almeno un percorso sia attivo e configurato per il segmento e verifica gli ID del segmento.
-* **PERCORSI_INSTANCE_ID_NOT_CREATE**: impossibile creare un&#39;istanza di percorso per il cliente.
-   * Cause comuni: eventi duplicati, volume di eventi elevato, vincoli delle risorse di sistema.
-   * Risoluzione dei problemi: implementa la deduplicazione, evita picchi di traffico, ottimizza la progettazione del percorso e, se persistente, contatta il supporto.
-* **EVENT_WITH_NO_PERCORSI**: è stato ricevuto un evento ma nessun percorso attivo è configurato per rispondere.
-   * Cause comuni: mancata corrispondenza nome evento/ID, percorso non pubblicato, sandbox/organizzazione errata, mancata corrispondenza modalità test/profilo.
-   * Risoluzione dei problemi: verifica la configurazione di eventi e percorsi, controlla lo stato del percorso e utilizza gli strumenti di debug.
+* EXTERNAL_KEY_COMPUTATION_ERROR: impossibile calcolare un identificatore univoco (chiave esterna) per il cliente dai dati dell&#39;evento.
+
+|---|---|
+| **Cause comuni** | Identificatori cliente mancanti o in formato non valido (ad esempio e-mail, ID cliente) nel payload dell’evento. |
+| **Risoluzione dei problemi** | Controlla la configurazione dell’evento per gli identificatori richiesti, assicurati che i dati dell’evento siano completi e formattati correttamente. |
+
+* NO_INTEREST_PERCORSI_FOR_SEGMENTMEMBERSHIP_EVENT: È stato ricevuto un evento di qualificazione del segmento, ma non sono configurati percorsi per rispondere a questo segmento.
+
+
+|---|---|
+| **Cause comuni** | Nessun percorso utilizza il segmento come attivatore, i percorsi sono in stato di bozza/interruzione o gli ID segmento non corrispondono. |
+| **Risoluzione dei problemi** | Assicurati che almeno un percorso sia attivo e configurato per il segmento, verifica gli ID segmento. |
+
+### PERCORSI_INSTANCE_ID_NOT_CREATE: Impossibile creare un&#39;istanza di percorso per il cliente.
+
+|---|---|
+| **Cause comuni** | Eventi duplicati, volume di eventi elevato, vincoli delle risorse di sistema. |
+| **Risoluzione dei problemi** | Implementa la deduplicazione, evita picchi di traffico, ottimizza la progettazione del percorso e, se persistente, contatta il supporto. |
+
+### EVENT_WITH_NO_PERCORSI: è stato ricevuto un evento ma nessun percorso attivo è configurato per rispondervi
+
+|---|---|
+| **Cause comuni** | Mancata corrispondenza nome evento/ID, percorso non pubblicato, sandbox/organizzazione errata, mancata corrispondenza modalità test/profilo. |
+| **Risoluzione dei problemi** | Verificare la configurazione di eventi e percorsi, controllare lo stato del percorso e utilizzare gli strumenti di debug. |
 
 Per i rigetti che si verificano nei percorsi in pausa:
 
