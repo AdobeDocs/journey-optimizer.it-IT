@@ -4,7 +4,7 @@ description: Scopri come creare regole di limite per i percorsi e come arbitrare
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 18%
@@ -80,7 +80,7 @@ Per creare una regola di limite di percorso, effettuare le seguenti operazioni:
 
    1. Nel campo **[!UICONTROL Limitazione]**, imposta il numero massimo di percorsi in cui un profilo può essere iscritto contemporaneamente.
 
-   1. Utilizza il campo **[!UICONTROL Prioritization look ahead]** per determinare le voci di percorso in base ai punteggi di priorità in un periodo scelto (ad esempio, 1 giorno, 7 giorni, 30 giorni).
+   1. Utilizza il campo **[!UICONTROL Prioritization look ahead]** per arbitrare le voci di percorso in base ai punteggi di priorità in un periodo scelto (ad esempio, 1 giorno, 7 giorni, 30 giorni).
 
       Questa opzione analizza i prossimi percorsi di Read-Audience pianificati per il resto della settimana per determinare se il profilo deve essere eliminato dall’ingresso nel percorso a causa di un percorso con priorità più elevata in arrivo. Se un profilo è idoneo a più percorsi, consente di dare priorità all’ingresso in percorsi di valore superiore.
 
@@ -115,8 +115,8 @@ Una volta che un percorso è attivo, puoi controllare nel report percorso se il 
 
 ![](assets/journey-report.png)
 
-È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempio di query disponibile in [questa sezione](../reports/query-examples.md#common-queries).
+È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempio di query disponibile in [questa sezione](../reports/query-examples.md#common-queries).
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447623?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

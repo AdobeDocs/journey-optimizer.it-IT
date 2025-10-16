@@ -1,19 +1,19 @@
 ---
-title: Introduzione alla funzione Decisioni
-description: Ulteriori informazioni su Decisioning
+title: Inizia a usare la funzione Decisioni
+description: Ulteriori informazioni sulle funzioni decisionali
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
-# Introduzione alla funzione Decisioni {#get-started-experience-decisioning}
+# Inizia a usare la funzione Decisioni {#get-started-experience-decisioning}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
@@ -48,7 +48,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
       ![](assets/decision_permission_2.png)
 
-   1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+   1. Digita il nome o l&#39;indirizzo e-mail dell&#39;utente o selezionalo dall&#39;elenco e fai clic su **[!UICONTROL Salva]**.
 
       Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
 

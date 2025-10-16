@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Per applicare i criteri di governance dei dati in Journey Optimizer, devi applic
 
 ### Applicare azioni di marketing a percorsi e campagne{#journeys-campaigns}
 
-Dopo aver creato i criteri di governance, è necessario applicare le azioni di marketing pertinenti nelle **configurazioni dei canali** di Journey Optimizer. Per farlo, segui questi passaggi:
+Dopo aver creato i criteri di governance, devi applicare le azioni di marketing pertinenti alle **configurazioni di canale** di Journey Optimizer. Per farlo, segui questi passaggi:
 
 1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni dei canali]**.
 

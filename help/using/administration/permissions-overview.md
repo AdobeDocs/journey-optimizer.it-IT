@@ -9,16 +9,16 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorizzazioni, diritti, restrizioni, accesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 8%
 
 ---
 
 # Introduzione al controllo degli accessi {#permissions-overview}
 
-[!DNL Journey Optimizer] consente di definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzioni e alle funzionalità interne al prodotto.
+[!DNL Journey Optimizer] consente di definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzionalità interne al prodotto.
 
 Il controllo degli accessi per [!DNL Journey Optimizer] viene fornito tramite **Autorizzazioni** in Adobe Experience Cloud. Questa funzionalità sfrutta ruoli e criteri, che collegano gli utenti con autorizzazioni e sandbox.
 

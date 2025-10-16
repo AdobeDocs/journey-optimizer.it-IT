@@ -9,16 +9,16 @@ role: User
 level: Beginner
 keywords: risorse, integrazione
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '694'
 ht-degree: 27%
 
 ---
 
 # Combinare soluzioni e app per gestire i contenuti {#combine-solutions}
 
-Per creare messaggi e contenuti da attivare in campagne e percorsi di clienti omnicanale, gli esperti di marketing e i professionisti dell’esperienza del cliente devono poter utilizzare opzioni di authoring facili da usare, tra cui IA generativa nei flussi di lavoro, funzionalità di modifica, risorse, modelli e gestione dei frammenti.  Con Adobe Journey Optimizer, puoi combinare facilmente le soluzioni e le app Adobe per sfruttare al meglio i tuoi strumenti Adobe. Queste integrazioni native consentono di risolvere casi d’uso specifici ed estendere l’ambito funzionale di Adobe Journey Optimizer.
+Per creare messaggi e contenuti da attivare in campagne e percorsi di clienti omnicanale, gli esperti di marketing e i professionisti dell’esperienza del cliente devono poter utilizzare opzioni di authoring facili da usare, tra cui IA generativa nei flussi di lavoro, funzionalità di modifica, risorse, modelli e gestione dei frammenti.  Con Adobe Journey Optimizer, puoi combinare facilmente le soluzioni e le app Adobe per ottenere il meglio dai tuoi strumenti Adobe. Queste integrazioni native consentono di risolvere casi d’uso specifici ed estendere l’ambito funzionale di Adobe Journey Optimizer.
 
 ## Adobe Experience Manager {#integration-aem}
 

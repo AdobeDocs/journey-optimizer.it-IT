@@ -4,7 +4,7 @@ description: Scopri come assegnare punteggi di priorità a percorsi e campagne.
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -13,7 +13,7 @@ ht-degree: 35%
 
 # Assegnare punteggi di priorità {#priority}
 
-Journey Optimizer consente di assegnare un punteggio di priorità a un percorso, a una campagna o a un&#39;azione del canale in entrata all&#39;interno dell&#39;attività **[!UICONTROL Azione]** di percorso.
+Journey Optimizer ti consente di assegnare un punteggio di priorità a un percorso, a una campagna o a un&#39;azione del canale in entrata all&#39;interno dell&#39;attività **[!UICONTROL Azione]** del percorso.
 
 La priorità è essenziale per assegnare la priorità a un percorso, una campagna o un’azione in presenza di un vincolo imposto (ad esempio un limite di frequenza).
 
@@ -72,4 +72,4 @@ Per assegnare un punteggio di priorità alle azioni in entrata definite nell&#39
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445009?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

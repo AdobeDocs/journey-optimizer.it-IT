@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 15%
+source-wordcount: '1707'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 >title="Azione"
 >abstract="In questa sezione sono elencate tutte le azioni utilizzate all’interno della campagna orchestrata."
 
-Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le schede per sfogliare le campagne, per tipo: **Campagne Azione**, **Campagne attivate da API** e **Campagne orchestrate**. Ulteriori informazioni sul tipo [di campagna](get-started-with-campaigns.md#get-started-with-campaigns). I tipi disponibili dipendono dal contratto di licenza e dalle autorizzazioni.
+Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le schede per sfogliare le campagne per tipo: **Campagne Azione**, **Campagne attivate da API** e **Campagne orchestrate**. Ulteriori informazioni sui [tipi di campagne](get-started-with-campaigns.md#get-started-with-campaigns). I tipi disponibili dipendono dal contratto di licenza e dalle autorizzazioni.
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ Il pulsante ![immagine che mostra il pulsante Altre azioni](assets/do-not-locali
 * **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna. Scopri come [utilizzare i tag nelle campagne](../start/search-filter-categorize.md#add-tags-to-an-object)
 * **[!UICONTROL Duplicato]** - Utilizzare questa opzione per duplicare una campagna, ad esempio per eseguire una campagna orchestrata interrotta. [Ulteriori informazioni](#duplicate-a-campaign)
 * **[!UICONTROL Elimina]** - Utilizzare questa opzione per eliminare una campagna. [Ulteriori informazioni](#delete-a-campaign)
-* **[!UICONTROL Archivia]**: archivia la campagna. Tutte le campagne archiviate vengono eliminate con una nuova pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne **[!UICONTROL Bozza]**. Ulteriori informazioni sull&#39;[archivio campagne](#archive-a-campaign).
+* **[!UICONTROL Archivia]**: archivia la campagna. Tutte le campagne archiviate vengono eliminate secondo una pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne **[!UICONTROL Bozza]**. Ulteriori informazioni sull&#39;[archivio campagne](#archive-a-campaign).
 
 Per le campagne attivate da Azioni e API, sono disponibili le azioni aggiuntive seguenti:
 

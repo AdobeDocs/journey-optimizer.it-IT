@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, inizio, inizia
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 94%
 
 ---
 
-# Introduzione alle pagine di destinazione {#get-sarted-lp}
+# Introduzione alle pagine di destinazione {#get-started-lp}
 
 Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un utente dopo aver fatto clic da un’e-mail, un sito web, un annuncio pubblicitario o qualsiasi altra posizione digitale.
 
@@ -71,4 +71,4 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 
 Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento o annullamento con un messaggio e configurare percorsi rilevanti.
 
->[!VIDEO](https://video.tv.adobe.com/v/344399?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

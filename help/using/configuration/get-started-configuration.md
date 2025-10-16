@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configurazione, configurare, messaggi, canale, sandbox, optimizer
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -68,7 +68,7 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 
    * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](manage-suppression-list.md)
 
-   * Abilitare l’**opzione e-mail Ccn** per conservare una copia dei messaggi inviati ai singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
+   * Abilita l&#39;opzione e-mail **Ccn** per conservare una copia dei messaggi inviati a singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
 
    * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md)
 

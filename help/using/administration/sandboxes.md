@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandbox, virtuale, ambienti, organizzazione, piattaforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 28%
 
 ---
@@ -50,7 +50,7 @@ Per assegnare le sandbox:
 
    ![](assets/sandbox_3.png)
 
-1. Se necessario, fai clic sull&#39;icona X accanto a rimuovere l&#39;accesso sandbox al tuo **[!UICONTROL Ruolo]**.
+1. Se necessario, fai clic sull&#39;icona X accanto ad essa per rimuovere l&#39;accesso alla sandbox dal tuo **[!UICONTROL Ruolo]**.
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la 
 
 Scopri cosa sono le sandbox e come distinguere le sandbox di sviluppo da quelle di produzione. Scopri come creare, reimpostare ed eliminare le sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416654?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

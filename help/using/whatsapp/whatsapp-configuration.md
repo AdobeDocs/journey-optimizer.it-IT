@@ -7,7 +7,7 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 15%
@@ -41,7 +41,7 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 
    ![](assets/whatsapp-api-2.png)
 
-1. Seleziona il **Nome mittente** utilizzato per inviare i messaggi Whatsapp.
+1. Seleziona il **Nome mittente** utilizzato per inviare i messaggi WhatsApp.
 
 1. Le impostazioni del numero di telefono vengono compilate automaticamente:
 
@@ -180,6 +180,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 32%
@@ -52,7 +52,7 @@ Per eventuali problemi o richieste di assistenza relativi alle traduzioni, conta
 
 Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
-* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Per utilizzare la funzione di traduzione in Journey Optimizer, devi assegnare l’API al ruolo corrispondente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Per iniziare a creare contenuti multilingue, è necessario concedere agli utenti l&#39;autorizzazione **[!UICONTROL Gestione impostazioni lingua]**. Per il flusso automatizzato, gli utenti avranno bisogno anche di autorizzazioni relative alle funzionalità di **[!UICONTROL Servizio di traduzione]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 
@@ -100,4 +100,4 @@ Per il contenuto multilingue, è necessario definire le seguenti impostazioni:
 
 Scopri come creare contenuti in più lingue all’interno di una singola campagna o percorso.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452121?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

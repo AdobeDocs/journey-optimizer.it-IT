@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 5%
@@ -35,7 +35,7 @@ Sfoglia le schede seguenti per scoprire come aggiungere un messaggio LINE in una
 
    Il campo **[!UICONTROL configuration]** è precompilato, per impostazione predefinita, con l&#39;ultima configurazione utilizzata per quel canale dall&#39;utente.
 
-Puoi iniziare a progettare il contenuto del messaggio SMS dal pulsante **[!UICONTROL Modifica contenuto]**, come descritto di seguito.
+Puoi iniziare a progettare il contenuto del messaggio LINE dal pulsante **[!UICONTROL Modifica contenuto]**, come descritto di seguito.
 
 >[!TAB Aggiungere un messaggio LINE a una campagna]
 

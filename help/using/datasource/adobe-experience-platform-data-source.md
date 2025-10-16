@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: integrato, sorgente, dati, piattaforma, integrazione
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 27%
@@ -35,9 +35,9 @@ Puoi modificare il gruppo di campi preconfigurato denominato &quot;ProfileFieldG
 >L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso non è supportato. Se il caso d’uso richiede l’utilizzo di eventi esperienza, considera metodi alternativi. [Ulteriori informazioni](../building-journeys/exp-event-lookup.md)
 
 
-I passaggi principali per aggiungere gruppi di campi all’origine dati incorporata sono descritti di seguito:
+Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi all’origine dati incorporata:
 
-1. Dall&#39;elenco delle origini dati, selezionare l&#39;origine dati **Adobe Experience Platform** integrata.
+1. Dall&#39;elenco delle origini dati, selezionare l&#39;origine dati predefinita **Adobe Experience Platform**.
 
    Sul lato destro dello schermo si apre il riquadro di configurazione dell’origine dati .
 
