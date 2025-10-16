@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -21,7 +21,7 @@ In conformità agli standard e alle normative del settore, tutti i messaggi SMS 
 
 >[!IMPORTANT]
 >
->Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi a codici brevi, codici lunghi e numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni di messaggi di testo siano conformi a tutti i requisiti di conformità legale applicabili.
+>Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della loro natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi a codici brevi, codici lunghi e numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni tramite SMS siano conformi a tutti i requisiti di conformità legale applicabili.
 >
 
 ## Parole chiave in entrata native {#sms-native-keywords}
@@ -71,6 +71,6 @@ Gli ID mittente alfanumerico sono solo per la messaggistica unidirezionale e non
 
   +++ Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440287/?learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo (SMS/MMS/RCS) al
 
 I messaggi di testo possono essere creati e inviati in un percorso o in una campagna. Per SMS, MMS e RCS utilizza l’azione SMS.
 
-* In un **percorso**. Crea un percorso, aggiungi un’attività SMS e definisci le impostazioni di base. Quindi, sfoglia le Azioni: riquadro a destra SMS per creare il contenuto per il messaggio SMS, MMS o RCS. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
+* In un **percorso**. Crea un percorso, aggiungi un’attività SMS e definisci le impostazioni di base. Quindi, passa al riquadro Azioni SMS a destra per creare il contenuto per il messaggio SMS, MMS o RCS. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
 * In una **campagna**. Crea una campagna, seleziona SMS come azione e definisci le impostazioni di base. Quindi, modifica il contenuto del messaggio per definire il messaggio SMS, MMS o RCS da inviare. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422695?learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430373?quality=12&learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer invia messaggi di testo tramite fornitori di servizi SMS
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++
