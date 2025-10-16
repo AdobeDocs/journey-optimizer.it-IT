@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Guida introduttiva di Journey Optimizer per gli addetti al marketing
-description: In qualità di professionista dei percorsi, scopri di più su come utilizzare Journey Optimizer
+description: In qualità di professionista di Percorso, scopri di più su come utilizzare Journey Optimizer
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Introduzione per gli addetti al marketing {#get-started-marketers}
 
-Come **addetto al marketing** o **professionista dei percorsi**, sei responsabile della creazione di offerte e percorsi e della progettazione di contenuti. Una volta che l’[amministratore di sistema](administrator.md) e il [Data Engineer](data-engineer.md) ti avranno concesso l’accesso e avranno preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
+In qualità di **addetto al marketing** o di **operatore di Percorso**, sei responsabile della creazione di offerte e percorsi e della progettazione di contenuti. Una volta che l’[amministratore di sistema](administrator.md) e il [Data Engineer](data-engineer.md) ti avranno concesso l’accesso e avranno preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
 Per configurare il primo percorso, aggiungere offerte e risorse e inviare i messaggi, consulta le sezioni seguenti:
 
@@ -34,7 +34,7 @@ Per configurare il primo percorso, aggiungere offerte e risorse e inviare i mess
 
 1. **Testare e convalidare**. Una volta definito il contenuto, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON o aggiunti manualmente per visualizzarne l’anteprima.
 
-   Se hai inserito un [contenuto personalizzato](../../personalization/personalize.md), potrai verificare come viene visualizzato nel messaggio. Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **Litmus** per visualizzare all’istantante l’anteprima del **rendering di e-mail** nei client e-mail più diffusi. Puoi quindi verificare che il contenuto dell’e-mail si presenti e funzioni correttamente in ogni casella in entrata. Per informazioni su come testare e convalidare i messaggi, consulta [questa sezione](../../content-management/preview-test.md).
+   Se hai inserito un [contenuto personalizzato](../../personalization/personalize.md), potrai verificare come viene visualizzato nel messaggio. Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **Litmus** per visualizzare all’istante l’anteprima **Rendering e-mail** nei client e-mail più diffusi. Puoi quindi verificare che il contenuto dell’e-mail si presenti e funzioni correttamente in ogni casella in entrata. Per informazioni su come testare e convalidare i messaggi, consulta [questa sezione](../../content-management/preview-test.md).
 
 1. **Progettare i percorsi cliente** per offrire esperienze personalizzate e contestuali. [!DNL Journey Optimizer] consente di creare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 

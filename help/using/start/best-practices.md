@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Adobe Journey Optimizer sfrutta il servizio Identity per unire profili e persona
 
 Durante la creazione di casi d’uso, considera quanto segue:
 
-1. Il brand vuole coinvolgere nuovamente un visitatore del sito 30 minuti dopo l’abbandono (ad es. e-mail carrello abbandonato):
+1. Il brand desidera coinvolgere nuovamente un visitatore del sito 30 minuti dopo l’abbandono (ad esempio, e-mail del carrello abbandonato):
 
    Utilizza l’identità con i dati: ECID. Se desideri acquisire il 100% dei visitatori che hanno fornito il proprio indirizzo e-mail/installazione dell’app negli ultimi 30 minuti, utilizza l’identità basata su cookie per avviare questo percorso (ECID). Ciò presuppone che l’indirizzo e-mail, il token push o un altro indirizzo per l’esperienza sia associato all’ECID.
 
@@ -57,7 +57,7 @@ Questa sezione ti guiderà su come effettuare la scalabilità con le seguenti du
 
 Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno dei guardrail e a utilizzare il sistema in modo efficiente.
 
-* Se ti avvicini al limite di percorsi attivi, il primo passaggio è passare alla scheda **Panoramica** in **Percorsi** per vedere quanti percorsi erano attivi nelle ultime 24 ore percorsi con profili attivi. Puoi controllare il numero di profili che entrano ed escono dal percorso in questa sezione per determinarlo.
+* Se ti avvicini al limite di percorsi attivi, il primo passaggio è passare alla scheda **Panoramica** in **Percorsi** per vedere quanti percorsi erano attivi nelle ultime 24 ore con profili attivi. Puoi controllare il numero di profili che entrano ed escono dal percorso in questa sezione per determinarlo.
 
   ![](assets/journey-guardrails2.png)
 
@@ -71,4 +71,4 @@ Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno 
 * Se il percorso presenta diverse condizioni che dividono il pubblico per visualizzare i numeri in ogni passaggio, è consigliabile utilizzare Customer Journey Analytics o altre soluzioni di reporting più adatte per l’analisi.
 * Se ti stai avvicinando al limite di nodi nell’area di lavoro, considera il consolidamento delle azioni con parametri dinamici o contenuti per fornire il contenuto giusto invece di nodi espliciti.
 
-* Se disponi di un percorso **Read Audience** con segmento batch (A) e se utilizzi all&#39;interno del percorso nel segmento di streaming Audience (B) per escludere (ovvero esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l&#39;esclusione come parte della logica di segmentazione stessa.
+* Se disponi di un percorso **Read Audience** con segmento batch (A) e utilizzi un segmento inAudience in streaming (B) all&#39;interno del percorso da escludere (ad esempio, esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l&#39;esclusione come parte della logica di segmentazione stessa.

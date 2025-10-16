@@ -7,7 +7,7 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: f46cc01dce5ab0a30c1f0907b2a4684802b216be
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '2746'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Di seguito è riportato un elenco di articoli per la risoluzione dei problemi relativi a Adobe Journey Optimizer. Ogni sezione relativa alla risoluzione dei problemi fornisce le risposte alle domande frequenti e alle soluzioni ai problemi.
 
-Consulta anche le [Domande frequenti su Adobe Experience Platform e la documentazione sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+Consulta anche le [Domande frequenti su Adobe Experience Platform e la documentazione sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
 ## Canale e-mail {#ajo-troubleshooting-email}
 
@@ -28,7 +28,7 @@ In Adobe Journey Optimizer (AJO), la modifica dei blocchi CSS predefiniti nell�
 
 Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}.
 
-Ulteriori informazioni sulla formattazione delle e-mail [&#x200B; in questa pagina](../email/get-started-email-design.md).
+Ulteriori informazioni sulla formattazione delle e-mail [ in questa pagina](../email/get-started-email-design.md).
 
 +++
 
@@ -91,7 +91,7 @@ Il tracciamento dei collegamenti mancanti in Adobe Journey Optimizer si verifica
 
 Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26932){target="_blank"}.
 
-Ulteriori informazioni sul tracciamento delle e-mail [&#x200B; in questa pagina](../email/message-tracking.md).
+Ulteriori informazioni sul tracciamento delle e-mail [ in questa pagina](../email/message-tracking.md).
 
 +++
 
@@ -149,7 +149,7 @@ Le difficoltà di generazione rapporti sul **canale in-app** in Adobe Customer J
 
 Per ulteriori informazioni su questo problema, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}.
 
-Ulteriori informazioni su come integrare i dati di analisi di Journey Optimizer in Customer Journey Analytics [in questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Ulteriori informazioni su come integrare i dati di analisi di Journey Optimizer in Customer Journey Analytics [in questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Consulta anche la [documentazione di Journey Optimizer All-Time Reports](../reports/report-gs-cja.md)
 
@@ -164,7 +164,7 @@ Le organizzazioni che eseguono il provisioning di nuove sandbox in Adobe Journey
 
 Per informazioni su come gestire il TTL, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
 
-Ulteriori informazioni sul set di dati Time-to-live [&#x200B; in questa pagina](../data/datasets-ttl.md).
+Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/datasets-ttl.md).
 
 +++
 
@@ -191,7 +191,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sull&#39;attività **Aggiorna profilo** nei percorsi [in questa pagina](../building-journeys/update-profiles.md).
 
-Consulta anche la [documentazione di Adobe Experience Platform sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Consulta anche la [documentazione di Adobe Experience Platform sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -203,7 +203,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni in [questo post della community Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} per verificare quando è pianificato il processo giornaliero.
+Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} per verificare quando è pianificato il processo giornaliero.
 
 +++
 
@@ -216,7 +216,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Ulteriori informazioni sull&#39;attività **Aggiorna profilo** nei percorsi [in questa pagina](../building-journeys/update-profiles.md).
 
-Consulta anche la [documentazione del profilo Adobe Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Consulta anche la [documentazione del profilo Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
@@ -228,7 +228,7 @@ Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleag
 
 Monitora l&#39;utilizzo delle licenze della tua organizzazione e i profili coinvolgibili utilizzando [Dashboard utilizzo licenze](../audience/license-usage.md)
 
-Consulta anche la [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home?lang=en){target="_blank"}.
+Consulta anche la [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}.
 
 +++
 
@@ -317,7 +317,7 @@ Scopri come duplicare un percorso [in questa pagina](../building-journeys/journe
 
 +++ Perché un’azione personalizzata che chiama un endpoint esterno di terze parti riceve un timeout?
 
-Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **&#x200B;**&#x200B;chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
+Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **** chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
 
 Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} per scoprire i passaggi per risolvere il problema.
 
@@ -343,7 +343,7 @@ I problemi relativi al menu a discesa **Regole di limitazione** si verificano sp
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26204){target="_blank"}.
 
-Scopri come applicare le regole di limitazione di utilizzo [&#x200B; in questa sezione](../conflict-prioritization/rule-sets.md).
+Scopri come applicare le regole di limitazione di utilizzo [ in questa sezione](../conflict-prioritization/rule-sets.md).
 
 +++
 
@@ -388,7 +388,7 @@ Ulteriori informazioni sul contenuto multilingue [in questa pagina](../content-m
 
 +++ Come si abilita TLS v1.3 per le azioni personalizzate?  
 
-Per mantenere l&#39;integrità e la sicurezza dei dati di **1&rbrace; durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
+Per mantenere l&#39;integrità e la sicurezza dei dati di **1} durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
 
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"}.
@@ -413,6 +413,6 @@ Gli errori di accesso quando si utilizza l&#39;API **Query Service API** tramite
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}.
 
-Consulta anche la [Documentazione di gestione delle credenziali API](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
+Consulta anche la [Documentazione di gestione delle credenziali API](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
 
 +++

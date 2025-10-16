@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '2823'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 # Guardrail e limitazioni {#limitations}
 
-Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di [!DNL Adobe Journey Optimizer].
+Qui sotto troverai ulteriori guardrail e limitazioni quando utilizzi [!DNL Adobe Journey Optimizer].
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 

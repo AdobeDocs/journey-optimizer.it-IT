@@ -7,16 +7,16 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
 # Guida introduttiva per gli amministratori di sistema {#get-started-sys-admins}
 
-Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], sono necessari diversi passaggi per preparare l’ambiente.  È necessario eseguire questi passaggi per far sì che l’[ingegnere dati](data-engineer.md) e il [professionista dei percorsi](marketer.md) possano iniziare a utilizzare [!DNL Adobe Journey Optimizer].
+Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], sono necessari diversi passaggi per preparare l’ambiente.  È necessario eseguire questi passaggi in modo che l&#39;[ingegnere dati](data-engineer.md) e l&#39;[operatore di Percorso](marketer.md) possano iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
 In qualità di **Amministratore di sistema**, è necessario **comprendere i ruoli e assegnare le autorizzazioni** per l’amministrazione della sandbox e la configurazione dei canali. È inoltre necessario configurare la sandbox (o le sandbox) e gestirla per i ruoli disponibili. Sarai quindi in grado di assegnare i membri del gruppo ai ruoli.
 
