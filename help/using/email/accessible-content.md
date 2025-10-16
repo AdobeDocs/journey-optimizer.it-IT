@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
 
-Tale regolamento stabilisce che tutte le comunicazioni digitali, compresi e-mail, newsletter, PDF e contenuti scaricabili, dovrebbero essere accessibili. Durante la creazione di contenuti per i destinatari, è quindi necessario seguire linee guida specifiche, ad esempio l’utilizzo di font accessibili e formati leggibili, e fornire testo alternativo per le immagini.
+Tale regolamento stabilisce che tutte le comunicazioni digitali, compresi e-mail, newsletter, PDF e contenuti scaricabili, dovrebbero essere accessibili. Durante la creazione di contenuti per i destinatari, è quindi necessario seguire linee guida specifiche, ad esempio utilizzare font accessibili e formati leggibili, nonché fornire testo alternativo per le immagini.
 
 La [!DNL Journey Optimizer] [E-mail Designer](content-from-scratch.md), che consente agli addetti al marketing di creare contenuti sia per **e-mail** che per **pagine di destinazione**, ti consente di conformarsi facilmente a questa direttiva, in base alle linee guida per l&#39;accessibilità dei contenuti web (WCAG) 2.1, livello AA.
 

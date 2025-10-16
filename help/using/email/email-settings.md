@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Definisci le impostazioni e-mail nella sezione dedicata della configurazione dei
 
 La configurazione e-mail viene rilevata per l’invio di comunicazioni seguendo la logica seguente:
 
-* Per i percorsi batch, questa non viene applicata all’esecuzione batch già avviata prima della configurazione della superficie e-mail. Le modifiche vengono rilevate alla successiva ricorrenza o alla nuova esecuzione.
+* Per i percorsi batch, questa non viene applicata all’esecuzione batch già avviata prima della configurazione della superficie e-mail. La modifica viene rilevata alla successiva ricorrenza o alla nuova esecuzione.
 
 * Per i messaggi transazionali, la modifica viene rilevata immediatamente per la comunicazione successiva (con ritardo massimo di cinque minuti).
 
