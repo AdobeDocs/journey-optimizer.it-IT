@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -65,10 +65,10 @@ ht-degree: 98%
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
    + Gestire i percorsi {#manage-journey}
       + [Gestire i percorsi](/help/rp_landing_pages/manage-journey-landing-page.md)
-      + [Utilizzare gli eventi dei passaggi del percorso](using/reports/journey-step-events-overview.md)
       + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
       + [Ingresso dei profili nei percorsi](using/building-journeys/entry-management.md)
       + [Utilizzare identificatori supplementari nei percorsi](using/building-journeys/supplemental-identifier.md)
+      + [Utilizzare gli eventi dei passaggi del percorso](using/reports/journey-step-events-overview.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
       + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
       + [Terminare il percorso](using/building-journeys/end-journey.md)
@@ -883,7 +883,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
