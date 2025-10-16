@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Per il momento non è disponibile alcun attributo contestuale da utilizzare nel 
 
 **Deve leggere**
 
-* Gli attributi contestuali trasmessi nella richiesta non possono superare i 200 kb e sono sempre considerati di tipo stringa.
+* Gli attributi contestuali passati nella richiesta non possono superare i 200 kb e sono sempre considerati di tipo stringa.
 * La sintassi `context.system` è limitata all&#39;uso interno di Adobe e non deve essere utilizzata per trasmettere attributi contestuali.
 * A differenza degli eventi abilitati per il profilo, i dati contestuali passati nell’API REST vengono utilizzati per una comunicazione una tantum e non memorizzati rispetto al profilo. Al massimo, il profilo viene creato con i dettagli dello spazio dei nomi, se questo è stato trovato mancante.
 * L’utilizzo di un numero elevato o di dati contestuali pesanti nel contenuto può influire sulle prestazioni.

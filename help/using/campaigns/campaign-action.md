@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -69,7 +69,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -77,7 +77,7 @@ Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalit�
 
 +++**Assegna punteggi di priorità** (Web, In-app, basati su codice)
 
-Assegnare un punteggio di priorità alla campagna ti consente di assegnare la priorità a una campagna in entrata in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. [Scopri come assegnare punteggi di priorità a percorsi e campagne](../conflict-prioritization/priority-scores.md)
+L’assegnazione di un punteggio di priorità alla campagna ti consente di assegnare la priorità a una campagna in entrata in presenza di un vincolo imposto, ad esempio un limite di frequenza. Immetti un valore numerico (da 0 a 100). Tieni presente che più alto è il numero, maggiore è la priorità. [Scopri come assegnare punteggi di priorità a percorsi e campagne](../conflict-prioritization/priority-scores.md)
 
 +++
 
@@ -104,9 +104,9 @@ Per semplificare l’orchestrazione delle campagne, puoi definire diverse azioni
 
 >[!NOTE]
 >
->Questa capacità è disponibile solo per i canali in entrata. Attualmente i canali in uscita come e-mail non sono supportati.
+>Questa funzionalità è disponibile solo per i canali in entrata. Attualmente i canali in uscita come e-mail non sono supportati.
 
-Questa capacità ti consente di fornire varie esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse in contemporanea, senza la necessità di creare più campagne. Semplifica l’implementazione della campagna e consente rapporti più fluidi, con tutti i dati consolidati in un’unica campagna.
+Questa funzionalità ti consente di distribuire varie esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse in contemporanea, senza la necessità di creare più campagne. Semplifica l’implementazione della campagna e consente rapporti più fluidi, con tutti i dati consolidati in un’unica campagna.
 
 Ad esempio, puoi inviare un’esperienza basata su codice a più endpoint con contenuti leggermente diversi. A questo scopo, crea più azioni basate su codice all’interno della stessa campagna, ciascuna con una configurazione di endpoint diversa.
 

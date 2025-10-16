@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: ottimizzazione delle campagne, sperimentazione, targeting, test A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -72,7 +72,7 @@ Per impostare il targeting, segui i passaggi indicati di seguito.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Selezionare l&#39;opzione **[!UICONTROL Abilita contenuto di fallback]** in base alle esigenze. Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non sono qualificate regole di targeting.
+1. Selezionare l&#39;opzione **[!UICONTROL Abilita contenuto di fallback]** in base alle esigenze. Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non è stata qualificata alcuna regola di targeting.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Per impostare il targeting, segui i passaggi indicati di seguito.
 
 1. [Attiva](review-activate-campaign.md) il percorso o la campagna.
 
-Una volta che il percorso/la campagna è attivo, vengono inviati contenuti personalizzati per ogni target in modo che i residenti degli Stati Uniti ricevano un messaggio specifico, i residenti della Francia un messaggio diverso e così via.
+Una volta che il percorso/la campagna è attivo, vengono inviati contenuti personalizzati per ciascun target in modo che i residenti degli Stati Uniti ricevano un messaggio specifico, i residenti della Francia un messaggio diverso e così via.
 
 <!--Default content:
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Scopri come sfruttare l’ottimizzazione dei messaggi nelle campagne attivate da azioni o da API. Scoprirai come eseguire il targeting dei tipi di pubblico secondari, creare varianti di messaggio per posizione, abilitare il contenuto di fallback ed eseguire più esperimenti all’interno di una singola campagna. Questo tutorial illustra anche come gestire le campagne multicanale mantenendo al contempo la coerenza dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470376?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

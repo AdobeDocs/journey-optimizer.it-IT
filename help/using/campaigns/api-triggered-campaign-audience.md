@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 2%
+source-wordcount: '487'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Utilizza la scheda **[!UICONTROL Pubblico]** per definire il pubblico della camp
 
 ## Selezionare il pubblico
 
-**Per le campagne attivate dall&#39;API di marketing**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md).
+**Per le campagne attivate dall&#39;API di marketing**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Utilizza la scheda **[!UICONTROL Pubblico]** per definire il pubblico della camp
 
 ## Seleziona il tipo di identità
 
-Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
 È consentito un solo tipo di identità per campagna. Gli individui appartenenti a un segmento che non ha il tipo di identità selezionato tra le loro diverse identità non possono essere targetizzati dalla campagna. Ulteriori informazioni sui tipi di identità e sugli spazi dei nomi sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
 
@@ -51,7 +51,7 @@ Per attivare la creazione del profilo durante l&#39;esecuzione della campagna, a
 >
 >I profili sconosciuti vengono creati nel set di dati del profilo di messaggistica interattiva **AJO**, in tre spazi dei nomi predefiniti (e-mail, telefono e ECID) rispettivamente per ogni canale in uscita (e-mail, SMS e push). Tuttavia, se utilizzi uno spazio dei nomi personalizzato, l’identità viene creata con lo stesso spazio dei nomi personalizzato.
 
-## Webhook SMS {#webhook}
+## Abilitare i webhook {#webhook}
 
 Per le campagne attivate dall’API transazionale, puoi abilitare i webhook per ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi. A tale scopo, attiva l&#39;opzione **[!UICONTROL Abilita webhook]** per inviare eventi di stato di consegna a un webhook configurato.
 

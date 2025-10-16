@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -115,7 +115,7 @@ Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo re
 
 >[!TAB Campagne attivate da API]
 
-Le **campagne attivate da API** ti consentono di attivare l&#39;esecuzione della campagna tramite una chiamata API. Queste comunicazioni possono essere inviate quando la necessità può comportare la personalizzazione non solo tramite un attributo di profilo di reimpostazione della password, ma anche tramite i dati contestuali in tempo reale presenti nell’attivatore, che è un payload dell’API REST.
+Le **campagne attivate da API** ti consentono di attivare l&#39;esecuzione della campagna tramite una chiamata API. Queste comunicazioni possono essere inviate quando la necessità può richiedere la personalizzazione non solo tramite un attributo di profilo di reimpostazione della password, ma anche tramite i dati contestuali in tempo reale presenti nell’attivatore, che è un payload dell’API REST.
 
 * **API attivata - Marketing** - Invia comunicazioni marketing personalizzate a tipi di pubblico mirati.
 * **API attivata - Transazionale** - Invia messaggi in seguito a un&#39;azione eseguita da un individuo come richiesta di reimpostazione della password, acquisto del carrello, ecc.
@@ -164,7 +164,7 @@ Prima di lavorare con le campagne, assicurati di aver rivisto i prerequisiti rip
 
    1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
-   1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+   1. Digita il nome o l&#39;indirizzo e-mail dell&#39;utente o selezionalo dall&#39;elenco e fai clic su **[!UICONTROL Salva]**.
 
       Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
 
