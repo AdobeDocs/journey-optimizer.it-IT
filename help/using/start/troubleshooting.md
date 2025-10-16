@@ -28,7 +28,7 @@ In Adobe Journey Optimizer (AJO), la modifica dei blocchi CSS predefiniti nell�
 
 Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}.
 
-Ulteriori informazioni sulla formattazione delle e-mail [ in questa pagina](../email/get-started-email-design.md).
+Ulteriori informazioni sulla formattazione delle e-mail [&#x200B; in questa pagina](../email/get-started-email-design.md).
 
 +++
 
@@ -91,7 +91,7 @@ Il tracciamento dei collegamenti mancanti in Adobe Journey Optimizer si verifica
 
 Per informazioni su come risolvere il problema, consultare [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26932){target="_blank"}.
 
-Ulteriori informazioni sul tracciamento delle e-mail [ in questa pagina](../email/message-tracking.md).
+Ulteriori informazioni sul tracciamento delle e-mail [&#x200B; in questa pagina](../email/message-tracking.md).
 
 +++
 
@@ -164,7 +164,7 @@ Le organizzazioni che eseguono il provisioning di nuove sandbox in Adobe Journey
 
 Per informazioni su come gestire il TTL, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}.
 
-Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/datasets-ttl.md).
+Ulteriori informazioni sul set di dati Time-to-live [&#x200B; in questa pagina](../data/datasets-ttl.md).
 
 +++
 
@@ -317,7 +317,7 @@ Scopri come duplicare un percorso [in questa pagina](../building-journeys/journe
 
 +++ Perché un’azione personalizzata che chiama un endpoint esterno di terze parti riceve un timeout?
 
-Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **** chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
+Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **&#x200B;**&#x200B;chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
 
 Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} per scoprire i passaggi per risolvere il problema.
 
@@ -343,7 +343,7 @@ I problemi relativi al menu a discesa **Regole di limitazione** si verificano sp
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26204){target="_blank"}.
 
-Scopri come applicare le regole di limitazione di utilizzo [ in questa sezione](../conflict-prioritization/rule-sets.md).
+Scopri come applicare le regole di limitazione di utilizzo [&#x200B; in questa sezione](../conflict-prioritization/rule-sets.md).
 
 +++
 
@@ -388,7 +388,7 @@ Ulteriori informazioni sul contenuto multilingue [in questa pagina](../content-m
 
 +++ Come si abilita TLS v1.3 per le azioni personalizzate?  
 
-Per mantenere l&#39;integrità e la sicurezza dei dati di **1} durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
+Per mantenere l&#39;integrità e la sicurezza dei dati di **1&rbrace; durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
 
 
 Per ulteriori informazioni, consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"}.
