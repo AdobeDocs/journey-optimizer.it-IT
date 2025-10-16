@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Scopri come utilizzare le funzioni matematiche nell’editor di personalizzazion
 
 ## Assoluto {#absolute}
 
-La funzione `absolute` viene utilizzata per convertire un numero in valore assoluto.
+La funzione `absolute` viene utilizzata per convertire un numero nel relativo valore assoluto.
 
 **Sintassi**
 
@@ -71,7 +71,7 @@ La funzione `roundDown` viene utilizzata per arrotondare un numero per difetto.
 
 ## Arrotonda per eccesso {#round-up}
 
-La funzione `Count only null` viene utilizzata per arrotondare un numero.
+La funzione `roundUp` viene utilizzata per arrotondare un numero.
 
 **Sintassi**
 
@@ -97,7 +97,7 @@ Questa query restituisce il valore esadecimale 158, ovvero 9e.
 {%= toHexString(158) %}
 ```
 
-## Per Int {#to-int}
+## A Intero {#to-int}
 
 La funzione `toInt` viene utilizzata per convertire questi tipi (number, double, int, long, float, short, byte, boolean, string) in un numero intero.
 
@@ -125,7 +125,7 @@ La funzione `toPercentage` viene utilizzata per convertire un numero in percentu
 {%= toPercentage(double) %}: string
 ```
 
-## A precisione {#to-precision}
+## Alla precisione {#to-precision}
 
 La funzione `toPrecision` viene utilizzata per convertire un numero con la precisione richiesta.
 

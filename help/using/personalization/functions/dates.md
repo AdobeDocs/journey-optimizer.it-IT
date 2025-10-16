@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 13%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -53,7 +53,7 @@ La funzione `addHours` regola una data specificata di un numero specificato di o
 
 ## Aggiungi minuti {#add-minutes}
 
-La funzione `addMinutes` regola una data specificata di un numero specificato di minuti, utilizzando valori positivi per incrementare e valori negativi per diminuire
+La funzione `addMinutes` regola una data specificata di un numero specificato di minuti, utilizzando valori positivi per l&#39;incremento e valori negativi per la riduzione.
 
 **Sintassi**
 
@@ -87,7 +87,7 @@ La funzione `addMonths` regola una data specificata di un numero specificato di 
 
 ## Aggiungi secondi {#add-seconds}
 
-`addSeconds` regola una data specificata di un numero specificato di secondi, utilizzando valori positivi per l&#39;incremento e valori negativi per la riduzione.
+La funzione `addSeconds` regola una data specificata di un numero specificato di secondi, utilizzando valori positivi per l&#39;incremento e valori negativi per la riduzione.
 
 **Sintassi**
 
@@ -104,7 +104,7 @@ La funzione `addMonths` regola una data specificata di un numero specificato di 
 
 ## Aggiungi anni {#add-years}
 
-`addYears` regola una data specificata di un numero specificato di anni, utilizzando valori positivi per l&#39;incremento e valori negativi per la riduzione.
+La funzione `addYears` regola una data specificata di un numero specificato di anni, utilizzando valori positivi per l&#39;incremento e valori negativi per la riduzione.
 
 **Sintassi**
 
@@ -194,7 +194,7 @@ La funzione `compareDates` confronta la prima data di input con l&#39;altra. Res
 
 +++
 
-## Converti ZonedDateTime {#convert-zoned-date-time}
+## Converti DataOraZona {#convert-zoned-date-time}
 
 La funzione `convertZonedDateTime` converte una data/ora in un determinato fuso orario.
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Giorno del mese {#day-month}
 
-`dayOfWeek` restituisce il numero che rappresenta il giorno del mese.
+`dayOfMonth` restituisce il numero che rappresenta il giorno del mese.
 
 **Sintassi**
 
@@ -309,7 +309,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Differenza in secondi {#diff-seconds}
+## Differenza In Secondi {#diff-seconds}
 
 La funzione `diffInSeconds` restituisce la differenza tra due date in secondi.
 
@@ -355,7 +355,7 @@ La funzione `extractMinutes` estrae il componente del minuto da un determinato t
 
 +++Esempio
 
-* Input: `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Input: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Output: `19`
 
 +++
@@ -556,7 +556,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## A data/ora {#to-date-time}
+## A Data/Ora {#to-date-time}
 
 La funzione `ToDateTime` converte la stringa in data. In caso di input non valido, restituisce la data epoca come output.
 
@@ -593,7 +593,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Tronca a Inizio del giorno {#truncate-day}
+## Tronca all&#39;inizio del giorno {#truncate-day}
 
 La funzione `truncateToStartOfDay` viene utilizzata per modificare una data/ora specificata impostandola sull&#39;inizio del giorno con l&#39;ora impostata su 00:00.
 
@@ -639,7 +639,7 @@ La funzione `truncateToStartOfWeek` modifica una data/ora specificata impostando
 
 +++Esempio
 
-* Input: `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* Input: `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * Output: `2024-11-18T00:00Z // monday`
 
 +++

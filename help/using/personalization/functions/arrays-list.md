@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -53,7 +53,7 @@ La funzione `countWithNull` viene utilizzata per contare tutti gli elementi di u
 
 Restituisce 6.
 
-## Diverso{#distinct}
+## Distinct{#distinct}
 
 La funzione `distinct` viene utilizzata per ottenere valori da un array o da un elenco con valori duplicati rimossi.
 
@@ -71,7 +71,7 @@ L&#39;operazione seguente specifica gli utenti che hanno effettuato ordini in pi
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Conteggio valori univoci con Null {#distinct-count-with-null}
+## Conteggio valori univoci con valori Null {#distinct-count-with-null}
 
 La funzione `distinctCountWithNull` viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori Null.
 
@@ -167,7 +167,7 @@ L&#39;operazione seguente definisce le persone il cui colore preferito include i
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Interseca{#intersects}
+## Intersects{#intersects}
 
 La funzione `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
 
@@ -270,7 +270,7 @@ L&#39;operazione seguente definisce le persone che hanno visitato tutte le loro 
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Superset di{#superset}
+## Soprainsieme di{#superset}
 
 La funzione `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l’array A contiene tutti gli elementi dell’array B.
 
@@ -285,5 +285,5 @@ La funzione `supersetOf` viene utilizzata per determinare se un array specifico 
 L’operazione seguente definisce le persone che hanno mangiato sushi e pizza almeno una volta.
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

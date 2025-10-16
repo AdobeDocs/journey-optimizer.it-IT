@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -99,7 +99,7 @@ L&#39;istruzione `elseif` specificherà una nuova condizione da verificare se la
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   {%else if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
    {%/if%}
    ```
@@ -109,7 +109,7 @@ L&#39;istruzione `elseif` specificherà una nuova condizione da verificare se la
 >Per ulteriori informazioni sui tipi di pubblico e sul servizio di segmentazione, consulta [questa sezione](../../audience/about-audiences.md).
 
 
-## Unless{#unless}
+## A meno che{#unless}
 
 L&#39;helper `unless` viene utilizzato per definire un blocco condizionale. In opposizione all&#39;helper `if`, se la valutazione dell&#39;espressione restituisce false, viene eseguito il rendering del blocco.
 
@@ -127,11 +127,11 @@ Esegui il rendering di alcuni contenuti in base all’estensione dell’indirizz
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
-Some edu specific content Content
+Some edu specific content
 {%/unless%}
 ```
 
-## Each{#each}
+## Ogni{#each}
 
 L&#39;helper `each` viene utilizzato per eseguire l&#39;iterazione su un array.
 La sintassi dell&#39;helper è ```{{#each ArrayName}}``` YourContent {{/each}}
@@ -163,7 +163,7 @@ Esegui il rendering di un elenco di prodotti che questo utente ha nel carrello:
 {{/each}}
 ```
 
-## With{#with}
+## Con{#with}
 
 L&#39;helper `with` viene utilizzato per modificare il token di valutazione della parte modello.
 
