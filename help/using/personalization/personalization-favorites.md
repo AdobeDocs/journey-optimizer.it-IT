@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, attributo, personalizzazione
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
 # Aggiungere attributi ai preferiti {#fav}
 
-L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati con maggiore frequenza. Per aggiungere un attributo ai preferiti, fai clic sul menu con i tre punti e scegli **[!UICONTROL Aggiungi ai preferiti]**.
+L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati più di frequente. Per aggiungere un attributo ai preferiti, fai clic sul menu con i tre punti e scegli **[!UICONTROL Aggiungi ai preferiti]**.
 
 ![](assets/favorite-option.png)
 

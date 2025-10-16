@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Creare contenuti dinamici
-description: Scopri come aggiungere dinamico ai messaggi.
+description: Scopri come aggiungere contenuto dinamico ai messaggi.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '654'
 ht-degree: 23%
 
 ---
@@ -22,7 +22,7 @@ Adobe Journey Optimizer consente di sfruttare le regole condizionali create nell
 
 Il contenuto dinamico può essere creato in qualsiasi campo in cui puoi aggiungere la personalizzazione utilizzando l’editor di personalizzazione. Ciò include l’oggetto, i collegamenti, il contenuto delle notifiche push o le rappresentazioni delle offerte di tipo testo. [Ulteriori informazioni sulla personalizzazione](personalize.md)
 
-Inoltre, puoi utilizzare le regole condizionali in E-mail Designer per creare più varianti di un componente di contenuto.
+Inoltre, puoi utilizzare le regole condizionali nel Designer e-mail per creare più varianti di un componente di contenuto.
 
 ## Aggiungere contenuto dinamico alle espressioni {#perso-expressions}
 
