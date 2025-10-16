@@ -180,6 +180,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470276/?captions=ita&learn=on)
 
 +++
