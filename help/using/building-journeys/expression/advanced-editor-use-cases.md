@@ -11,9 +11,9 @@ hidefromtoc: true
 keywords: espressione, condizione, casi d’uso, eventi
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Innanzitutto, rivolgiti ai clienti che hanno navigato nel negozio online ma non 
 
 **L&#39;espressione cerca tutti gli eventi per l&#39;utente specificato negli ultimi 7 giorni:**
 
-Quindi seleziona tutti gli eventi addtocart che non si sono trasformati in un completePurchase.
+Quindi seleziona tutti gli eventi di aggiunta al carrello che non si sono trasformati in un completePurchase.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Da lì puoi aggiungere un altro percorso nel percorso per quando il prodotto non
 
 **In condizioni**
 
-Questa condizione recupera solo gli eventi del recinto geografico attivati in &quot;Arlington&quot;:
+Questa condizione recupera solo gli eventi di recinto geografico attivati in &quot;Arlington&quot;:
 
 ```json
         @event{GeofenceEntry

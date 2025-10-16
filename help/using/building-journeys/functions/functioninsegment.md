@@ -8,7 +8,7 @@ level: Experienced
 keywords: inSegment, function, expression, percorsi
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 6%
@@ -32,11 +32,11 @@ I tipi di pubblico possono avere due stati:
 * realizzati: l’entità è idonea per la definizione del segmento.
 * uscita: l’entità sta uscendo dalla definizione del segmento.
 
-Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results).
+Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
+`inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 
-`ELSE inSegment('segmentName') == false` significa che hai un segmentMembership con stato di uscita.
+`inSegment('segmentName') == false` significa che hai un segmentMembership con stato di uscita.
 
 ## Categoria
 

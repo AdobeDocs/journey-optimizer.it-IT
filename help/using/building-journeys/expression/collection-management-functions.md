@@ -9,7 +9,7 @@ level: Experienced
 keywords: query, raccolte, funzioni, payload, percorso
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -113,7 +113,7 @@ Il risultato dell&#39;espressione è **3**.
 
 >[!NOTE]
 >
->* Quando la condizione di filtro nella funzione **all()** è vuota, il filtro restituirà tutti gli elementi dell&#39;elenco. **Tuttavia, per contare il numero di elementi di una raccolta, la funzione all non è obbligatoria.
+>* Quando la condizione di filtro nella funzione **all()** è vuota, il filtro restituirà tutti gli elementi dell&#39;elenco. **Tuttavia, per contare il numero di elementi di una raccolta, la funzione all non è obbligatoria.**
 >
 >* `currentEventField` è disponibile solo quando si manipolano le raccolte eventi, `currentDataPackField` quando si manipolano le raccolte origini dati e `currentActionField` quando si manipolano le raccolte di risposte di azioni personalizzate.
 >
@@ -163,7 +163,7 @@ Questa espressione restituisce il secondo token di notifica push dell’elenco.
 
 
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 Risultato: `token_2`.
