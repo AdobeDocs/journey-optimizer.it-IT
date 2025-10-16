@@ -237,7 +237,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 
 **Esempio**: per inviare un messaggio e-mail di &quot;Buongiorno&quot; alle 9 in base al fuso orario di ciascun cliente, utilizza un&#39;attività Attendi con &quot;Attendi fino a una data/ora fissa&quot; e abilita l&#39;opzione relativa al fuso orario.
 
-Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
 
 +++
 
