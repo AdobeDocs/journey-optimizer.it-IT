@@ -22,6 +22,6 @@ Adobe Journey Optimizer consente di acquisire dati da origini esterne e allo ste
 
 Scopri i connettori di origine e come configurarli in Journey Optimizer con questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
 
 Per ulteriori informazioni su come acquisire dati da origini esterne con i connettori Source, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.
