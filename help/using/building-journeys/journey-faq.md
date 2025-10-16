@@ -11,10 +11,10 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 1%
+source-wordcount: '4094'
+ht-degree: 0%
 
 ---
 
@@ -68,6 +68,22 @@ Un percorso è costituito da:
 * **Azioni personalizzate**: integrazione con sistemi di terze parti
 
 Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md).
+
++++
+
++++ Come posso scegliere tra un percorso unitario e un percorso di pubblico lettura?
+
+Utilizza **percorsi unitari** quando:
+
+* Devi reagire alle azioni dei singoli clienti in tempo reale (ad es. conferma di acquisto, abbandono del carrello)
+* Ogni cliente deve progredire al proprio ritmo
+* Desideri attivare in base a eventi specifici
+
+Utilizza **percorsi di pubblico lettura** quando:
+
+* Stai inviando comunicazioni in batch a un gruppo (ad es. newsletter mensile, campagne promozionali)
+* Tutti i clienti devono ricevere il messaggio circa nello stesso momento
+* Stai eseguendo il targeting di un segmento di pubblico predefinito
 
 +++
 
@@ -150,6 +166,104 @@ Ulteriori informazioni su [aggiornamenti del profilo](update-profiles.md).
 
 +++
 
++++ Come posso inviare un’e-mail immediatamente dopo che qualcuno ha effettuato un acquisto?
+
+Crea un **percorso unitario attivato da eventi**:
+
+1. Configurare un evento &quot;Acquisto&quot; con i dettagli dell’ordine
+2. Aggiungere l&#39;evento come punto di ingresso del percorso
+3. Segui immediatamente con un’azione E-mail
+4. Crea un messaggio e-mail di conferma dell’ordine con dettagli personalizzati
+5. Pubblicare il percorso
+
+Il percorso si attiva automaticamente ogni volta che viene ricevuto un evento di acquisto, inviando l’e-mail di conferma in tempo reale.
+
+Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e sulle [azioni e-mail](journeys-message.md).
+
++++
+
++++ Posso inviare di nuovo un messaggio se qualcuno non lo apre o non fa clic?
+
+Sì.  Utilizza un&#39;attività **condizione** combinata con **attività attendi**:
+
+1. Aggiungi un’attività Attendi (ad es. Attendi 3 giorni)
+2. Aggiungi un’attività Condizione per verificare se l’e-mail è stata aperta o su cui è stato fatto clic
+3. Creare due percorsi:
+   * **Se aperto/cliccato**: termina il percorso o continua con i passaggi successivi
+   * **Se non è aperto/non è stato fatto clic**: invia un messaggio e-mail di promemoria con un oggetto diverso
+
+**Best practice**: limita il numero di invii per evitare di apparire come spammy (in genere un massimo di 1-2 promemoria).
+
+Ulteriori informazioni su [eventi di reazione](reaction-events.md).
+
++++
+
++++ Come si crea un percorso di abbandono del carrello?
+
+Crea un percorso attivato da eventi con logica di attesa e condizione:
+
+1. **Configura un evento &quot;Carrello abbandonato&quot;**: attivato quando vengono aggiunti elementi ma l&#39;estrazione non viene completata in un intervallo di tempo
+2. **Aggiungi un&#39;attività Attendi**: attendi 1-2 ore per dare al cliente il tempo di completare naturalmente
+3. **Aggiungi una condizione**: verifica se l&#39;acquisto è stato completato durante l&#39;attesa
+4. **Se non acquistato**: invia un messaggio e-mail di promemoria per l&#39;abbandono con il contenuto del carrello
+5. **Facoltativo**: aggiungi un&#39;altra attesa (24 ore) e invia un secondo promemoria con un incentivo (ad esempio, sconto del 10%)
+
+Ulteriori informazioni sui [casi d&#39;uso percorsi](jo-use-cases.md).
+
++++
+
++++ Come posso suddividere i clienti in percorsi diversi in base alla cronologia degli acquisti?
+
+Utilizza un&#39;attività **Condizione** con appartenenza a un pubblico o attributi di profilo:
+
+1. Aggiungere un’attività Condizione al percorso
+2. Crea più percorsi in base ai criteri:
+   * **Percorso 1**: clienti di alto valore (acquisti totali > $1000)
+   * **Percorso 2**: clienti regolari (acquisti totali compresi tra $ 100 e $ 1000)
+   * **Percorso 3**: nuovi clienti (acquisti totali &lt; $ 100)
+3. Aggiungere messaggi o offerte diversi per ciascun percorso
+
+Ulteriori informazioni su [condizioni](condition-activity.md) e [qualificazione del pubblico](audience-qualification-events.md).
+
++++
+
++++ Come posso gestire diversi fusi orari nel mio percorso?
+
+Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
+
+* **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
+* **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
+* **Attendi fino a un&#39;ora specifica**: utilizza l&#39;attività Attendi per inviare messaggi a un&#39;ora specifica nel fuso orario locale del destinatario (ad esempio, alle 10)
+
+**Esempio**: per inviare un messaggio e-mail di &quot;Buongiorno&quot; alle 9 in base al fuso orario di ciascun cliente, utilizza un&#39;attività Attendi con &quot;Attendi fino a una data/ora fissa&quot; e abilita l&#39;opzione relativa al fuso orario.
+
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
+
++++
+
++++ Quanto tempo devo aspettare tra i messaggi nel mio percorso?
+
+**Procedure consigliate per i tempi di attesa**:
+
+* **Messaggi transazionali** (conferme ordine): invia immediatamente
+* **Serie di benvenuto**: 1-3 giorni tra le e-mail
+* **Contenuto formativo**: 3-7 giorni tra i messaggi
+* **Campagne promozionali**: almeno 7 giorni tra le offerte
+* **Nuovo coinvolgimento**: 14-30 giorni per gli utenti inattivi
+
+**Fattori da considerare**:
+
+* Standard di settore e aspettative dei clienti
+* Urgenza e importanza del messaggio
+* Frequenza complessiva dei messaggi su tutti i canali
+* Modelli di coinvolgimento dei clienti
+
+**Suggerimento**: utilizza le regole di limitazione dei percorsi per limitare il numero totale di messaggi ricevuti da un cliente in tutti i percorsi.
+
+Ulteriori informazioni sulle [attività attendi](wait-activity.md) e sui [limiti di percorso](../conflict-prioritization/journey-capping.md).
+
++++
+
 ## Test e pubblicazione
 
 +++ Come si verifica il percorso prima di pubblicarlo?
@@ -202,6 +316,26 @@ Ulteriori informazioni sulle [versioni di percorso](journey-ui.md#journey-versio
 * **Pausa**: arresta temporaneamente il percorso e lo riprende in un secondo momento (disponibile per tipi di percorso specifici)
 
 Ulteriori informazioni su [percorsi finali](end-journey.md).
+
++++
+
++++ Qual è la differenza tra &quot;Vicino ai nuovi ingressi&quot; e &quot;Fermo&quot;?
+
+**Chiudi ai nuovi ingressi**:
+
+* I nuovi profili non possono entrare nel percorso
+* I profili già nel percorso continuano e completano il loro percorso
+* Utilizzalo quando vuoi chiudere un percorso con facilità
+* Esempio: campagna stagionale terminata ma desideri che i clienti esistenti completino la loro esperienza
+
+**Interrompi**:
+
+* Termina immediatamente il percorso per tutti i profili
+* Tutti i profili attualmente nel percorso sono usciti
+* Utilizzalo per situazioni urgenti o errori critici
+* Esempio: ritiro del prodotto che richiede l&#39;interruzione immediata dei messaggi promozionali
+
+Ulteriori informazioni sulle [opzioni di pausa percorso](journey-pause.md).
 
 +++
 
@@ -277,6 +411,113 @@ Quando un’azione non riesce (ad esempio, timeout della chiamata API, errore di
 **Best practice**: imposta i valori di timeout appropriati per le azioni esterne e definisci percorsi alternativi per gli scenari di errore critici.
 
 Ulteriori informazioni sulle [risposte alle azioni](../action/action-response.md).
+
++++
+
++++ Posso vedere chi si trova attualmente nel mio percorso?
+
+Sì.  Utilizza il **rapporto live del Percorso** per visualizzare:
+
+* Numero di profili attualmente nel percorso
+* Numero di profili per ogni attività
+* Profili immessi nelle ultime 24 ore
+* Metriche di esecuzione in tempo reale
+
+Per visualizzare i singoli profili, utilizza **eventi di passaggio di percorso** in Customer Journey Analytics o esegui una query diretta sui set di dati dell&#39;evento di passaggio.
+
+Ulteriori informazioni sui [rapporti live di percorso](report-journey.md).
+
++++
+
++++ Perché i messaggi non vengono inviati nel percorso?
+
+**Motivi e soluzioni comuni**:
+
+* **Problemi di consenso**: i destinatari non hanno acconsentito alla ricezione di comunicazioni
+Soluzione: controllare i criteri di consenso e lo stato di consenso
+
+* **Elenco di soppressione**: gli indirizzi e-mail sono inclusi nell&#39;elenco di soppressione
+Soluzione: controlla l’elenco di soppressione per i mancati recapiti o i reclami
+
+* **Informazioni di contatto non valide**: indirizzi e-mail/numeri di telefono mancanti o in formato non valido
+Soluzione: convalidare la qualità dei dati del profilo
+
+* **Percorso non pubblicato**: il percorso è ancora in modalità bozza
+Soluzione: pubblicare il percorso per attivarlo
+
+* **Messaggio non approvato**: il contenuto del messaggio richiede l&#39;approvazione prima dell&#39;invio
+Soluzione: invia per l&#39;approvazione o controlla lo stato di approvazione
+
+* **Problema di configurazione del canale**: la configurazione di e-mail/SMS non è corretta
+Soluzione: verificare le configurazioni dei canali e l’autenticazione
+
+Ulteriori informazioni sulla [risoluzione dei problemi](troubleshooting.md) e sulla [gestione del consenso](../action/consent.md).
+
++++
+
++++ Come posso personalizzare i messaggi nel mio percorso?
+
+Puoi personalizzare i messaggi utilizzando l&#39;**editor di personalizzazione**:
+
+**Dati di personalizzazione disponibili**:
+
+* **Attributi del profilo**: nome, cognome, e-mail, campi personalizzati
+* **Dati evento**: dettagli di acquisto, comportamento di navigazione, attività app
+* **Dati contestuali**: variabili di Percorso, dati API esterni
+* **Iscrizione al pubblico**: qualifiche del segmento
+* **Attributi calcolati**: valori precalcolati
+
+**Esempio di personalizzazione**:
+
+* &quot;Salve {{profile.firstName}}, grazie per aver acquistato {{event.productName}}&quot;
+* &quot;In base al livello di fedeltà ({{profile.loyaltyTier}}), ecco un&#39;offerta speciale&quot;
+* Blocchi di contenuto dinamici che cambiano in base alle preferenze del cliente
+
+Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.md).
+
++++
+
++++ Posso inviare messaggi diversi in base al canale preferito?
+
+Sì.  Utilizza un&#39;attività **Condizione** per controllare il canale preferito:
+
+1. Aggiungi un profilo di verifica condizione.preferredChannel
+2. Crea percorsi separati per ciascun canale:
+   * **Percorso e-mail**: invia messaggio e-mail
+   * **Percorso SMS**: invia messaggio SMS
+   * **Percorso push**: invia notifica push
+3. Aggiungi un percorso predefinito per i profili senza preferenza
+
+**Approccio alternativo**: utilizza **azioni multicanale** in cui Journey Optimizer seleziona automaticamente il canale migliore in base alle preferenze e alla disponibilità del profilo.
+
+Ulteriori informazioni sulle [azioni canale](journeys-message.md).
+
++++
+
++++ Posso escludere alcuni clienti dal mio percorso?
+
+Sì, esistono diversi modi per escludere i clienti:
+
+**Alla voce percorso**:
+
+* Utilizzare le definizioni dei tipi di pubblico con le regole di esclusione
+* Aggiungere condizioni di ingresso che escludono profili specifici
+* Configurare i requisiti dello spazio dei nomi
+
+**Nel percorso**:
+
+* Aggiungi un’attività Condizione all’inizio del percorso per uscire dai profili indesiderati
+* Verifica la presenza di attributi di esclusione (ad esempio, stato VIP, account di test)
+* Utilizzare la qualificazione del pubblico per identificare i profili da escludere
+
+**Scenari di esclusione di esempio**:
+
+* Escludi i clienti che hanno acquistato di recente
+* Escludere i clienti VIP dalle promozioni standard
+* Escludi dipendenti e verifica account
+* Escludere i clienti in aree geografiche specifiche
+
+Ulteriori informazioni sulla [gestione delle voci](entry-management.md) e sulle [condizioni](condition-activity.md).
 
 +++
 
@@ -358,6 +599,124 @@ L&#39;**attività Salta** ti consente di cambiare i profili da un percorso all&#
 Quando un profilo raggiunge un’attività Jump (Salta), esce dal percorso corrente e entra nel percorso target nel punto iniziale.
 
 Ulteriori informazioni sull&#39;[attività Salta](jump.md).
+
++++
+
++++ Come si crea un percorso di serie di benvenuto?
+
+Una tipica serie di benvenuto include più punti di contatto nell’arco di diversi giorni:
+
+**Struttura di esempio**:
+
+1. **Voce**: pubblico di nuovi abbonati o evento quando qualcuno si iscrive
+2. **E-mail 1 - Benvenuto immediato**: grazie e introduzione
+3. **Attendi**: 2 giorni
+4. **E-mail 2 - Guida introduttiva**: tutorial o guida del prodotto
+5. **Attendi**: 3 giorni
+6. **Condizione**: il cliente ha effettuato un acquisto?
+   * **Sì**: termina o passa al percorso clienti
+   * **No**: continua serie di benvenuto
+7. **E-mail 3 - Incentivo**: sconto speciale per il primo acquirente
+8. **Attendi**: 5 giorni
+9. **E-mail 4 - Coinvolgimento**: best-seller o contenuti popolari
+
+**Best practice**:
+
+* Conserva fino a 3-5 e-mail in 2-3 settimane
+* Ogni e-mail deve avere uno scopo chiaro e call-to-action
+* Monitorare i tassi di apertura e regolare di conseguenza i tempi e i contenuti
+* Esci anticipatamente dai clienti se si convertono o si impegnano a fondo
+
+Ulteriori informazioni sui [casi d&#39;uso percorsi](jo-use-cases.md).
+
++++
+
++++ È possibile eseguire test A/B su percorsi diversi nel percorso?
+
+Sì.  Utilizza l&#39;**attività Ottimizza** (disponibile in pacchetti Journey Optimizer specifici) o crea manualmente le suddivisioni di test:
+
+**Utilizzo dell&#39;attività Ottimizza**:
+
+* Suddivide automaticamente il traffico tra le varianti
+* Verifica diversi messaggi, offerte o percorsi di percorso interi
+* Misura le prestazioni e dichiara un vincitore
+
+**Test manuali con condizione**:
+
+* Crea una condizione per la suddivisione casuale dei profili (ad esempio, utilizzando una funzione numerica casuale)
+* Invia diverse esperienze a ogni suddivisione
+* Misurare i risultati utilizzando i rapporti di percorso
+
+**Elementi da verificare**:
+
+* Diverse righe oggetto e-mail
+* Contenuto alternativo del messaggio
+* Tempi di attesa diversi
+* Varie offerte o incentivi
+* Percorsi di percorso completamente diversi
+
+Ulteriori informazioni su [ottimizza attività](optimize.md) e [esperimenti di contenuto](../content-management/content-experiment.md).
+
++++
+
++++ Come si attiva un percorso quando l&#39;inventario è basso?
+
+Crea un **percorso di eventi aziendali**:
+
+1. **Configura un evento di business**: imposta un evento attivato dal sistema di inventario quando le scorte scendono al di sotto di una soglia
+2. **Seleziona il pubblico di destinazione**: scegli i profili da notificare (ad esempio, i clienti che hanno visualizzato il prodotto, gli abbonati agli avvisi di riassortimento)
+3. **Aggiungi azione messaggio**: invia e-mail o push di notifica
+4. **Personalizza contenuto**: include dettagli prodotto, livello di inventario corrente, messaggi di urgenza
+
+**Eventi aziendali di esempio**:
+
+* Avviso inventario ridotto
+* Notifica di riduzione prezzo
+* Prodotto di nuovo disponibile
+* Annuncio vendita flash
+* Promozioni in base al tempo
+
+Ulteriori informazioni su [eventi aziendali](general-events.md).
+
++++
+
++++ È possibile sospendere un percorso per una persona specifica senza interrompere l&#39;intero percorso?
+
+Anche se non è possibile mettere in pausa un percorso per i singoli profili direttamente, è possibile ottenere risultati simili:
+
+**Opzioni**:
+
+* **Aggiungi a pubblico di esclusione**: crea un pubblico di profili da escludere e aggiungi una condizione che controlla questo pubblico in punti strategici del percorso
+* **Aggiorna attributo profilo**: imposta un flag di &quot;pausa&quot; sul profilo e utilizza le condizioni per ignorare le azioni per i profili contrassegnati
+* **Azione personalizzata**: utilizza un sistema esterno per tenere traccia dei profili in pausa e controllare lo stato tramite chiamata API
+* **Uscita manuale**: per i casi urgenti, puoi rimuovere manualmente i profili di test
+
+**Nota**: le modifiche al Percorso interessano solo i nuovi partecipanti. I profili già presenti nel percorso seguono il percorso originale, a meno che il percorso non venga interrotto completamente.
+
++++
+
++++ Qual è la differenza tra una condizione e un’attività Attendi?
+
+**Attività condizione**:
+
+* **Scopo**: crea percorsi diversi in base alla logica (if/then)
+* **Funzione**: valuta i dati e instrada i profili di conseguenza
+* **Casi d&#39;uso**: segmentazione clienti, verifica stato, ramo in base al comportamento
+* **Esempio**: se il cliente è VIP, invia un&#39;offerta premium; in caso contrario invia un&#39;offerta standard
+
+**Attività attesa**:
+
+* **Scopo**: sospende il percorso per un periodo di tempo
+* **Funzione**: mantiene i profili in un punto specifico prima di continuare
+* **Casi d&#39;uso**: intervalli tra i messaggi, attesa dell&#39;orario di lavoro, creazione di ritardi
+* **Esempio**: attendi 3 giorni dall&#39;e-mail di benvenuto prima di inviare il messaggio successivo
+
+**Lavorano insieme**:
+
+* Attendi un periodo, quindi utilizza una condizione per verificare se si è verificato un errore durante l’attesa
+* Esempio: attendi 7 giorni, quindi verifica se il cliente ha effettuato un acquisto
+
+Ulteriori informazioni sulle [condizioni](condition-activity.md) e sulle [attività di attesa](wait-activity.md).
 
 +++
 
