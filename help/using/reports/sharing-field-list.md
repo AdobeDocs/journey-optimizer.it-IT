@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
+source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
@@ -85,35 +85,34 @@ Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risolu
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: impossibile calcolare un identificatore univoco (chiave esterna) per il cliente dai dati dell&#39;evento.
 
-|---|---|
-| **Cause comuni** | Identificatori cliente mancanti o in formato non valido (ad esempio e-mail, ID cliente) nel payload dell’evento. |
-| **Risoluzione dei problemi** | Controlla la configurazione dell’evento per gli identificatori richiesti, assicurati che i dati dell’evento siano completi e formattati correttamente. |
+  **Cause comuni**: identificatori cliente mancanti o non validi (ad esempio e-mail, ID cliente) nel payload dell&#39;evento.
+
+  **Risoluzione dei problemi**: controlla la configurazione dell&#39;evento per gli identificatori richiesti, assicurati che i dati dell&#39;evento siano completi e formattati correttamente.
 
 * NO_INTEREST_PERCORSI_FOR_SEGMENTMEMBERSHIP_EVENT: È stato ricevuto un evento di qualificazione del segmento, ma non sono configurati percorsi per rispondere a questo segmento.
 
+  **Cause comuni**: nessun percorso utilizza il segmento come attivatore, i percorsi sono in stato di bozza/interruzione o gli ID del segmento non corrispondono.
 
-|---|---|
-| **Cause comuni** | Nessun percorso utilizza il segmento come attivatore, i percorsi sono in stato di bozza/interruzione o gli ID segmento non corrispondono. |
-| **Risoluzione dei problemi** | Assicurati che almeno un percorso sia attivo e configurato per il segmento, verifica gli ID segmento. |
+  **Risoluzione dei problemi**: assicurati che almeno un percorso sia attivo e configurato per il segmento, verifica gli ID segmento.
 
-### PERCORSI_INSTANCE_ID_NOT_CREATE: Impossibile creare un&#39;istanza di percorso per il cliente.
+* PERCORSI_INSTANCE_ID_NOT_CREATE: Impossibile creare un&#39;istanza di percorso per il cliente.
 
-|---|---|
-| **Cause comuni** | Eventi duplicati, volume di eventi elevato, vincoli delle risorse di sistema. |
-| **Risoluzione dei problemi** | Implementa la deduplicazione, evita picchi di traffico, ottimizza la progettazione del percorso e, se persistente, contatta il supporto. |
+  **Cause comuni**: eventi duplicati, volume di eventi elevato, vincoli delle risorse di sistema.
 
-### EVENT_WITH_NO_PERCORSI: è stato ricevuto un evento ma nessun percorso attivo è configurato per rispondervi
+  **Risoluzione dei problemi**: implementa la deduplicazione, evita i picchi di traffico, ottimizza la progettazione del percorso, contatta il supporto se persiste.
 
-|---|---|
-| **Cause comuni** | Mancata corrispondenza nome evento/ID, percorso non pubblicato, sandbox/organizzazione errata, mancata corrispondenza modalità test/profilo. |
-| **Risoluzione dei problemi** | Verificare la configurazione di eventi e percorsi, controllare lo stato del percorso e utilizzare gli strumenti di debug. |
+* EVENT_WITH_NO_PERCORSI: è stato ricevuto un evento ma nessun percorso attivo è configurato per rispondervi
 
-Per i rigetti che si verificano nei percorsi in pausa:
+  **Cause comuni**: mancata corrispondenza nome evento/ID, percorso non pubblicato, sandbox/organizzazione errata, mancata corrispondenza modalità test/profilo.
 
-* **PAUSED_PERCORSI_VERSION**: ignoramenti verificatisi nel punto di ingresso del percorso
-* **PERCORSO_IN_PAUSED_STATE**: ignora ciò che si è verificato quando i profili si trovano in un percorso
+  **Risoluzione dei problemi**: verificare la configurazione di eventi e percorsi, controllare lo stato del percorso e utilizzare gli strumenti di debug.
 
-Per ulteriori informazioni su questi eventi e su come risolverli, consulta la sezione [Sospendere un Percorso](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+* Per i rigetti che si verificano nei percorsi in pausa:
+
+   * **PAUSED_PERCORSI_VERSION**: ignoramenti verificatisi nel punto di ingresso del percorso
+   * **PERCORSO_IN_PAUSED_STATE**: ignora ciò che si è verificato quando i profili si trovano in un percorso
+
+  Per ulteriori informazioni su questi eventi e su come risolverli, consulta la sezione [Sospendere un Percorso](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Risorse aggiuntive
 
