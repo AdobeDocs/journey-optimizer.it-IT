@@ -10,10 +10,9 @@ level: Intermediate, Experienced
 keywords: percorso, eventi dei passaggi, analisi, reporting, monitoraggio, XDM
 hide: true
 hidefromtoc: true
-exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -165,7 +164,6 @@ Comprendere la struttura completa dei dati degli eventi dei passaggi del percors
 
 - Combina gli eventi dei passaggi del percorso con [dati di feedback del messaggio](../data/datasets-query-examples.md#message-feedback-event-dataset) per un&#39;attribuzione completa
 - Utilizzare l&#39;analisi basata sul tempo per comprendere la velocità del percorso e i colli di bottiglia
-- Creazione di analisi per coorte per confrontare diverse [varianti di percorso](../building-journeys/testing-the-journey.md)
 
 ### Funzionalità di analisi avanzate {#advanced-analytics}
 
@@ -177,13 +175,6 @@ Gli eventi dei passaggi di percorso possono essere analizzati utilizzando [Custo
 - Analisi predittive sui risultati di percorso
 
 Scopri come [configurare Customer Journey Analytics](report-gs-cja.md) per i dati di Journey Optimizer.
-
-**Decisioning in tempo reale**
-Utilizza i pattern di evento del passaggio di percorso per:
-
-- Attiva la [personalizzazione](../personalization/personalize.md) in tempo reale
-- Implementa [ottimizzazione percorso dinamico](../building-journeys/optimize.md)
-- Abilita i consigli contestuali sulle azioni migliori successive con [Gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
 
 ## Risorse aggiuntive {#additional-resources}
 
@@ -199,7 +190,6 @@ Utilizza i pattern di evento del passaggio di percorso per:
 - **[Gestione dati](../data/export-datasets.md)**: esportazione e gestione dei dati di percorso
 - **[Privacy e governance](../privacy/audit-logs.md)**: considerazioni sulla governance dei dati per gli eventi di percorso
 
-Gli eventi dei passaggi di percorso costituiscono la base di analisi avanzate dei percorsi in Adobe Journey Optimizer. Comprendendo e sfruttando questi eventi in modo efficace, puoi ottenere informazioni approfondite sul comportamento dei clienti, [ottimizzare le prestazioni del percorso](../building-journeys/optimize.md) e creare altre [esperienze personalizzate](../personalization/personalize.md) per i tuoi clienti.
 
 **Passaggi successivi:**
 
