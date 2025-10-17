@@ -175,7 +175,7 @@ Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percor
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
 
 +++
 
@@ -185,7 +185,7 @@ Scopri le funzionalità complete di messaggistica mobile offerte da Adobe Journe
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430373?captions=ita&quality=12&learn=on)
 
 +++
 
@@ -195,7 +195,7 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
 
 +++
 
