@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 4%
+source-wordcount: '620'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,10 @@ Oltre ai [rapporti in tempo reale](live-report.md) e alle [funzionalità di repo
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare i dati di [!DNL Journey Optimizer] con i dati di eventi a valle, ad esempio il numero di conversioni avvenute, il livello di coinvolgimento nel sito Web o il numero di transazioni avvenute nello store. Le informazioni sul percorso possono essere combinate con i dati su Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline, per offrire una visione più completa delle prestazioni.
 
 [!DNL Journey Optimizer] crea automaticamente gli schemi e i flussi necessari nei set di dati a Adobe Experience Platform per ogni passaggio che un singolo utente compie in un percorso. Un evento di passaggio corrisponde a un singolo spostamento da un nodo all’altro in un percorso. Ad esempio, in un percorso che ha un evento, una condizione e un’azione, vengono inviati a Adobe Experience Platform tre eventi di passaggio.
+
+>[!NOTE]
+>
+>Oltre agli eventi dei passaggi a livello di profilo, il sistema genera anche eventi interni per le attività **Read Audience**. Questi eventi, denominati `segmentExportJob` eventi, registrano il ciclo di vita del nodo Read Audience (ad esempio creazione di processi di esportazione, accodamento, completamento ed errori) e vengono generati per attività Read Audience, non per singolo profilo. Di conseguenza, a questi eventi potrebbe non essere associato un identificatore di profilo (UPMID). Questi eventi interni sono utili per monitorare e risolvere i problemi relativi alle prestazioni Read Audience e possono essere interrogati utilizzando i campi documentati nella sezione [serviceEvents](../reports/sharing-field-list.md#servicevents-field). Per esempi di query su come utilizzare gli eventi segmentExportJob, vedi [Query relative all&#39;audience di lettura](../reports/query-examples.md#read-segment-queries).
 
 In alcuni casi è possibile creare più eventi per lo stesso nodo. Ad esempio, nel caso dell’attività Attendi:
 
@@ -69,6 +73,6 @@ Il flusso di lavoro generale è:
 
 * [!DNL Customer Journey Analytics] acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In [!DNL Customer Journey Analytics] è quindi possibile collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell&#39;identificatore basato su persona.
-* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=it){target="_blank"}.
+* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Utilizzare Customer Journey Analytics](cja-ajo.md){target="_blank"}

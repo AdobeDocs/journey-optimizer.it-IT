@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '649'
 ht-degree: 9%
 
 ---
@@ -57,7 +57,7 @@ Per journeyStepEvent, è inoltre necessario aggiungere campi relativi all’iden
 
 ## serviceEvents {#servicevents-field}
 
-Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione profilo.
+Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione profilo. Questi eventi vengono generati per ogni attività **Read Audience** per tenere traccia del ciclo di vita delle operazioni di esportazione del pubblico (in coda, avviato, completato, errori). A differenza degli eventi dei passaggi regolari, serviceEvents non sono legati a singoli profili ma al nodo Read Audience stesso, il che significa che potrebbero non avere un identificatore di profilo associato.
 
 | Nome campo | Tipo | Descrizione |
 |---|---|------------|
@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
