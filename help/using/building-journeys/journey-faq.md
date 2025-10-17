@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
+source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
 workflow-type: tm+mt
-source-wordcount: '4189'
+source-wordcount: '4340'
 ht-degree: 0%
 
 ---
@@ -100,10 +100,11 @@ Segui questi passaggi chiave:
 
 1. **Imposta prerequisiti**: configura eventi, origini dati e azioni in base alle esigenze
 2. **Creazione del percorso**: passare al menu Percorsi e fare clic su &quot;Crea Percorso&quot;
-3. **Definisci le proprietà del percorso**: imposta il nome del percorso, la descrizione, lo spazio dei nomi e altre impostazioni
+3. **Definisci le proprietà del percorso**: imposta il nome del percorso, la descrizione e altre impostazioni
 4. **Progetta il percorso**: trascina le attività dalla palette all&#39;area di lavoro
 5. **Verifica il percorso**: utilizza la modalità di test per convalidare la logica del percorso
-6. **Pubblica il percorso**: attiva il percorso per attivarlo
+6. **Esegui il percorso in modalità provvisoria**: utilizza l&#39;esecuzione in modalità provvisoria per testare il percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni sul profilo
+7. **Pubblica il percorso**: attiva il percorso per attivarlo
 
 Segui la [guida dettagliata](journey-gs.md).
 
@@ -124,9 +125,17 @@ Ulteriori informazioni sulla [configurazione percorso](../configuration/about-da
 
 +++ È possibile utilizzare dati provenienti da sistemi esterni del percorso?
 
-Sì.  Puoi configurare **origini dati esterne** per recuperare informazioni dai servizi API di terze parti e utilizzarle nelle condizioni del percorso, nella personalizzazione o nelle azioni. Questo ti consente di arricchire l’esperienza del cliente con dati in tempo reale provenienti dal tuo sistema CRM, sistemi fedeltà, servizi meteo o altre piattaforme esterne.
+Sì, esistono diversi approcci per sfruttare i dati esterni:
 
-Ulteriori informazioni sulle [origini dati esterne](../datasource/external-data-sources.md).
+**Best practice**:
+
+* **Azioni personalizzate**: chiama API esterne tramite azioni personalizzate per recuperare o inviare dati a sistemi di terze parti. Questo è l’approccio consigliato per le interazioni in tempo reale con i sistemi esterni.
+* **Ricerca set di dati**: se è possibile caricare dati da sistemi esterni in Adobe Experience Platform, utilizzare la funzione di ricerca set di dati per recuperare le informazioni archiviate nei set di dati di Experience Platform.
+* **Origini dati esterne**: configura origini dati esterne per recuperare informazioni da servizi API di terze parti (meno consigliato rispetto agli approcci di cui sopra).
+
+Queste opzioni ti consentono di arricchire l’esperienza del cliente con dati provenienti dal CRM, dai sistemi di fidelizzazione, dai servizi meteo o da altre piattaforme esterne.
+
+Ulteriori informazioni sulle [azioni personalizzate](using-custom-actions.md) e sulla [ricerca set di dati](dataset-lookup.md).
 
 +++
 
@@ -146,7 +155,9 @@ Ulteriori informazioni sulle [condizioni](condition-activity.md).
 
 Sì.  Journey Optimizer include **azioni di canale integrate** che consentono di inviare messaggi tramite e-mail, notifiche push, SMS/MMS/RCS, messaggi in-app, esperienze Web, esperienze basate su codice, direct mailing, schede di contenuto, WhatsApp e LINE. Puoi progettare il contenuto dei messaggi direttamente in Journey Optimizer e aggiungerlo come attività di azione nel percorso.
 
-Ulteriori informazioni su [messaggi nei percorsi](journeys-message.md).
+Per i canali non supportati in modalità nativa, puoi utilizzare **azioni personalizzate** per integrarle con piattaforme di messaggistica esterne e inviare messaggi tramite qualsiasi canale di terze parti.
+
+Ulteriori informazioni su [messaggi nei percorsi](journeys-message.md) e [azioni personalizzate](using-custom-actions.md).
 
 +++
 
@@ -155,7 +166,6 @@ Ulteriori informazioni su [messaggi nei percorsi](journeys-message.md).
 Utilizza l&#39;**attività Attendi** per sospendere il percorso per una durata specificata o fino a una data/ora specifica. Le attività Attendi sono utili per:
 
 * Invio di messaggi di follow-up dopo un ritardo (ad esempio, 3 giorni dopo l’acquisto)
-* In attesa dell’orario di lavoro prima di intervenire
 * Creazione di campagne drip con intervalli temporizzati
 * Combinazione di condizioni per creare scenari di timeout
 
@@ -189,13 +199,13 @@ Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e
 
 +++ Posso inviare di nuovo un messaggio se qualcuno non lo apre o non fa clic?
 
-Sì.  Utilizza un&#39;attività **condizione** combinata con **attività attendi**:
+Sì.  Utilizza un **evento di reazione** con **timeout**:
 
-1. Aggiungi un’attività Attendi (ad es. Attendi 3 giorni)
-2. Aggiungi un’attività Condizione per verificare se l’e-mail è stata aperta o su cui è stato fatto clic
+1. Dopo aver inviato il messaggio, aggiungi un evento di reazione che ascolta le aperture dell’e-mail o i clic
+2. Configura un periodo di timeout (ad esempio, 3 giorni) sull’evento Reazione
 3. Creare due percorsi:
-   * **Se aperto/cliccato**: termina il percorso o continua con i passaggi successivi
-   * **Se non è aperto/non è stato fatto clic**: invia un messaggio e-mail di promemoria con un oggetto diverso
+   * **Se aperto/selezionato**: procedere con i passaggi successivi o terminare il percorso
+   * **Percorso timeout (non aperto/non selezionato)**: invia un messaggio e-mail di promemoria con un oggetto diverso
 
 **Best practice**: limita il numero di invii per evitare di apparire come spammy (in genere un massimo di 1-2 promemoria).
 
@@ -205,15 +215,17 @@ Ulteriori informazioni su [eventi di reazione](reaction-events.md).
 
 +++ Come si crea un percorso di abbandono del carrello?
 
-Crea un percorso attivato da eventi con logica di attesa e condizione:
+Creare un percorso attivato da un evento utilizzando un evento Reazione con un Timeout:
 
 1. **Configura un evento &quot;Carrello abbandonato&quot;**: attivato quando vengono aggiunti elementi ma l&#39;estrazione non viene completata in un intervallo di tempo
-2. **Aggiungi un&#39;attività Attendi**: attendi 1-2 ore per dare al cliente il tempo di completare naturalmente
-3. **Aggiungi una condizione**: verifica se l&#39;acquisto è stato completato durante l&#39;attesa
-4. **Se non acquistato**: invia un messaggio e-mail di promemoria per l&#39;abbandono con il contenuto del carrello
-5. **Facoltativo**: aggiungi un&#39;altra attesa (24 ore) e invia un secondo promemoria con un incentivo (ad esempio, sconto del 10%)
+2. **Aggiungi un evento di reazione**: configuralo per l&#39;ascolto di un evento di acquisto
+3. **Imposta un periodo di timeout**: definisci un timeout (ad esempio, 1-2 ore) sull&#39;evento Reazione per dare al cliente il tempo di completare in modo naturale
+4. **Creare due percorsi**:
+   * **Se si verifica un evento di acquisto**: termina il percorso o continua con il flusso successivo all&#39;acquisto
+   * **Percorso timeout (nessun acquisto)**: invia un messaggio e-mail di promemoria per l&#39;abbandono con il contenuto del carrello
+5. **Facoltativo**: aggiungi un altro evento di reazione con timeout (24 ore) e invia un secondo promemoria con un incentivo (ad esempio, sconto del 10%)
 
-Ulteriori informazioni sui [casi d&#39;uso percorsi](jo-use-cases.md).
+Ulteriori informazioni su [Casi d&#39;uso percorsi](jo-use-cases.md) e [eventi di reazione](reaction-events.md).
 
 +++
 
@@ -238,11 +250,8 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
-* **Attendi fino a un&#39;ora specifica**: utilizza l&#39;attività Attendi per inviare messaggi a un&#39;ora specifica nel fuso orario locale del destinatario (ad esempio, alle 10)
 
-**Esempio**: per inviare un messaggio e-mail di &quot;Buongiorno&quot; alle 9 in base al fuso orario di ciascun cliente, utilizza un&#39;attività Attendi con &quot;Attendi fino a una data/ora fissa&quot; e abilita l&#39;opzione relativa al fuso orario.
-
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -288,10 +297,10 @@ Ulteriori informazioni sulla [modalità di test](testing-the-journey.md) e sulla
 
 Quando pubblichi un percorso:
 
-* Il percorso diventa **attivo** e pronto ad accettare nuovi profili
+* Il percorso diventa **Live** e pronto ad accettare nuovi profili
 * I profili possono entrare in base ai criteri di ingresso (evento o pubblico)
 * I messaggi e le azioni iniziano l’esecuzione per i profili che si spostano nel percorso
-* Impossibile modificare direttamente un percorso pubblicato (è necessario creare una nuova versione)
+* Puoi modificare solo elementi limitati su un percorso pubblicato (per modificarne altri devi creare una nuova versione)
 
 Ulteriori informazioni su [percorsi di pubblicazione](publishing-the-journey.md).
 
@@ -299,7 +308,21 @@ Ulteriori informazioni su [percorsi di pubblicazione](publishing-the-journey.md)
 
 +++ Posso modificare un percorso già pubblicato?
 
-Non è possibile modificare direttamente un percorso live. Per apportare modifiche:
+Sì, ma con limitazioni. Puoi modificare alcuni elementi di un percorso live:
+
+**Elementi modificabili**:
+
+* Proprietà percorso (nome, descrizione)
+* Contenuto del messaggio nelle attività di messaggio esistenti
+* Alcune impostazioni di percorso
+
+**Elementi che non è possibile modificare**:
+
+* Struttura del percorso (aggiunta/rimozione di attività)
+* Condizioni di ingresso
+* Logica area di lavoro percorso
+
+**Per apportare modifiche strutturali**:
 
 1. **Crea una nuova versione**: Duplica il percorso pubblicato per creare una bozza di versione
 2. **Apporta le modifiche**: modifica la bozza in base alle esigenze
@@ -318,7 +341,7 @@ Ulteriori informazioni sulle [versioni di percorso](journey-ui.md#journey-versio
 
 * **Chiusura di nuovi ingressi**: impedisci l&#39;accesso di nuovi profili mentre consenti il completamento del percorso di profili esistenti
 * **Interrompi immediatamente**: termina il percorso ed esci da tutti i profili che contiene
-* **Pausa**: arresta temporaneamente il percorso e lo riprende in un secondo momento (disponibile per tipi di percorso specifici)
+* **Pausa**: arresta temporaneamente il percorso e lo riprende in un secondo momento
 
 Ulteriori informazioni su [percorsi finali](end-journey.md).
 
@@ -340,7 +363,7 @@ Ulteriori informazioni su [percorsi finali](end-journey.md).
 * Utilizzalo per situazioni urgenti o errori critici
 * Esempio: ritiro del prodotto che richiede l&#39;interruzione immediata dei messaggi promozionali
 
-Ulteriori informazioni sulle [opzioni di pausa percorso](journey-pause.md).
+Ulteriori informazioni su [percorsi finali](end-journey.md) e [percorsi di pubblicazione](publishing-the-journey.md).
 
 +++
 
@@ -350,10 +373,9 @@ Ulteriori informazioni sulle [opzioni di pausa percorso](journey-pause.md).
 
 Puoi monitorare l’esecuzione del percorso utilizzando:
 
-* **Report live del Percorso**: visualizza metriche e KPI in tempo reale per il tuo percorso
-* **Rapporto Percorso intero**: Analizzare le prestazioni del percorso tramite Customer Journey Analytics
+* **Report live del Percorso**: visualizza le metriche e i KPI in tempo reale per il tuo percorso. È inoltre possibile esaminare i risultati dell’esecuzione di test a secco qui.
+* **Rapporto Percorso intero**: Analizzare le prestazioni del percorso utilizzando Customer Journey Analytics. È inoltre possibile esaminare i risultati dell’esecuzione di test a secco qui.
 * **Eventi passaggio Percorso**: accedere ai dati di esecuzione dettagliati per i rapporti personalizzati
-* **Dry Run Dashboard per Percorsi**: rivedi i risultati dell&#39;esecuzione dei test prima della pubblicazione
 
 Ulteriori informazioni sui [rapporti sui percorsi](report-journey.md).
 
@@ -395,6 +417,7 @@ Journey Optimizer fornisce diverse risorse per la risoluzione dei problemi:
 
 * **Indicatori di errore**: avvisi visivi nell&#39;area di lavoro di percorso evidenziano problemi di configurazione
 * **Modalità di test**: scorri il percorso per identificare dove si verificano i problemi
+* **Modalità di esecuzione a secco**: verifica il percorso utilizzando dati di produzione reali senza contattare i clienti per convalidare il targeting e l&#39;esecuzione
 * **Rapporti Percorso**: controlla le metriche di esecuzione per individuare colli di bottiglia o errori
 * **Eventi del passaggio del Percorso**: analizza dati di esecuzione dettagliati per comprendere il comportamento del profilo
 
@@ -409,15 +432,17 @@ Ulteriori informazioni su [risoluzione dei problemi dei percorsi](troubleshootin
 
 +++
 
-+++ Cosa succede se un’azione non riesce in un percorso?
+<!--
++++ What happens if an action fails in a journey?
 
-Quando un’azione non riesce (ad esempio, timeout della chiamata API, errore di consegna del messaggio), il percorso continua per impostazione predefinita a meno che non venga configurato diversamente. È possibile definire attività di condizione per gestire gli scenari di errore e gli errori vengono registrati nei rapporti di percorso e negli eventi dei passaggi per il monitoraggio.
+When an action fails (e.g., API call timeout, message delivery error), the journey continues by default unless configured otherwise. You can define condition activities to handle failure scenarios, and errors are logged in journey reports and step events for monitoring.
 
-**Best practice**: imposta i valori di timeout appropriati per le azioni esterne e definisci percorsi alternativi per gli scenari di errore critici.
+**Best practice**: Set appropriate timeout values for external actions and define alternative paths for critical failure scenarios.
 
-Ulteriori informazioni sulle [risposte alle azioni](../action/action-response.md).
+Learn more about [action responses](../action/action-response.md).
 
 +++
+-->
 
 +++ Posso vedere chi si trova attualmente nel mio percorso?
 
@@ -450,8 +475,9 @@ Soluzione: convalidare la qualità dei dati del profilo
 * **Percorso non pubblicato**: il percorso è ancora in modalità bozza
 Soluzione: pubblicare il percorso per attivarlo
 
-* **Messaggio non approvato**: il contenuto del messaggio richiede l&#39;approvazione prima dell&#39;invio
-Soluzione: invia per l&#39;approvazione o controlla lo stato di approvazione
+<!-- 
+* **Message not approved**: Message content requires approval before sending
+  Solution: Submit for approval or check approval status-->
 
 * **Problema di configurazione del canale**: la configurazione di e-mail/SMS non è corretta
 Soluzione: verificare le configurazioni dei canali e l’autenticazione
@@ -493,7 +519,8 @@ Sì.  Utilizza un&#39;attività **Condizione** per controllare il canale preferi
    * **Percorso push**: invia notifica push
 3. Aggiungi un percorso predefinito per i profili senza preferenza
 
-**Approccio alternativo**: utilizza **azioni multicanale** in cui Journey Optimizer seleziona automaticamente il canale migliore in base alle preferenze e alla disponibilità del profilo.
+<!--
+**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
 
 Ulteriori informazioni sulle [azioni canale](journeys-message.md).
 
@@ -505,15 +532,15 @@ Sì, esistono diversi modi per escludere i clienti:
 
 **Alla voce percorso**:
 
-* Utilizzare le definizioni dei tipi di pubblico con le regole di esclusione
-* Aggiungere condizioni di ingresso che escludono profili specifici
-* Configurare i requisiti dello spazio dei nomi
+* Usa [definizioni pubblico](../audience/creating-a-segment-definition.md) con regole di esclusione
+* Aggiungi [condizioni di ingresso](entry-management.md) che escludono profili specifici
+* Configura i criteri di uscita [basati sull&#39;attributo del profilo](journey-properties.md) nelle proprietà del percorso per escludere automaticamente i profili in base ad attributi specifici
 
 **Nel percorso**:
 
-* Aggiungi un’attività Condizione all’inizio del percorso per uscire dai profili indesiderati
+* Aggiungi un&#39;attività [Condizione](condition-activity.md) all&#39;inizio del percorso per uscire dai profili indesiderati
 * Verifica la presenza di attributi di esclusione (ad esempio, stato VIP, account di test)
-* Utilizzare la qualificazione del pubblico per identificare i profili da escludere
+* Usa [qualifica pubblico](audience-qualification-events.md) per identificare i profili da escludere
 
 **Scenari di esclusione di esempio**:
 
@@ -521,8 +548,6 @@ Sì, esistono diversi modi per escludere i clienti:
 * Escludere i clienti VIP dalle promozioni standard
 * Escludi dipendenti e verifica account
 * Escludere i clienti in aree geografiche specifiche
-
-Ulteriori informazioni sulla [gestione delle voci](entry-management.md) e sulle [condizioni](condition-activity.md).
 
 +++
 
@@ -545,10 +570,11 @@ Sì, a seconda delle **impostazioni per il rientro**:
 * **Consenti rientro**: i profili possono entrare nel percorso più volte dopo averlo completato
 * **Periodo di attesa per il rientro**: definire un intervallo di tempo minimo tra le voci del percorso (ad esempio, 7 giorni)
 * **Forza il rientro all&#39;evento**: attiva una nuova istanza di percorso anche se il profilo è già presente nel percorso
+* **Identificatore supplementare**: utilizza un ID supplementare per consentire ai profili di rientrare nel percorso più volte per entità diverse (ad esempio, ordini, prenotazioni o transazioni diversi), anche se sono già nel percorso
 
-**Best practice**: utilizza le regole per il rientro per evitare l&#39;affaticamento dei messaggi e garantire il ritmo adeguato.
+**Best practice**: utilizza le regole per il rientro per evitare l&#39;affaticamento dei messaggi e garantire il ritmo adeguato. Valuta l’utilizzo di identificatori supplementari per i percorsi transazionali in cui i profili devono essere immessi più volte per diverse transazioni.
 
-Ulteriori informazioni sulla gestione delle [voci](entry-management.md).
+Ulteriori informazioni sulla [gestione delle voci](entry-management.md) e [identificatori supplementari](supplemental-identifier.md).
 
 +++
 
@@ -568,7 +594,12 @@ Ulteriori informazioni sull&#39;[ottimizzazione in fase di invio](send-time-opti
 
 +++ Cosa sono le regole di limitazione dei percorsi?
 
-**Limitazione Percorsi** consente di limitare il numero di volte in cui un profilo può entrare in percorsi entro un periodo di tempo specificato, evitando l&#39;affaticamento dei messaggi e garantendo un&#39;esperienza cliente ottimale. Puoi impostare il numero massimo di voci per profilo, per percorsi o percorsi specifici, definire gli intervalli di tempo (giornalieri, settimanali, mensili) e assegnare la priorità ai percorsi quando più percorsi competono per lo stesso profilo.
+**Limitazione Percorsi** consente di controllare il modo in cui i profili interagiscono con i percorsi, evitando l&#39;eccesso di messaggi e garantendo un&#39;esperienza ottimale per il cliente:
+
+* **Limite di ingresso**: limita il numero di volte in cui un profilo può entrare in percorsi entro un periodo di tempo specificato
+* **Limite di concorrenza**: limita il numero di percorsi in cui un profilo può trovarsi simultaneamente
+
+Puoi impostare il numero massimo di voci o la concorrenza per profilo in percorsi o percorsi specifici, definire intervalli di tempo (giornalieri, settimanali, mensili) e assegnare la priorità ai percorsi quando più percorsi competono per lo stesso profilo.
 
 Ulteriori informazioni sulla limitazione di [percorsi](../conflict-prioritization/journey-capping.md).
 
@@ -578,7 +609,7 @@ Ulteriori informazioni sulla limitazione di [percorsi](../conflict-prioritizatio
 
 Sì.  Utilizza **azioni personalizzate** per richiamare API di terze parti (CRM, automazione marketing, sistemi fedeltà), inviare dati a sistemi esterni, recuperare informazioni in tempo reale per il processo decisionale e attivare flussi di lavoro in piattaforme esterne.
 
-Le azioni personalizzate supportano l’autenticazione (chiave API, OAuth 2.0), la personalizzazione del payload di richiesta/risposta, la gestione e i timeout degli errori e i parametri dinamici dal contesto del percorso.
+Le azioni personalizzate supportano l’autenticazione (chiave API, autenticazione personalizzata), la personalizzazione del payload di richieste/risposte, la gestione degli errori e i timeout, nonché i parametri dinamici dal contesto del percorso.
 
 Ulteriori informazioni sulle [azioni personalizzate](using-custom-actions.md).
 
@@ -638,15 +669,15 @@ Ulteriori informazioni sui [casi d&#39;uso percorsi](jo-use-cases.md).
 
 +++ È possibile eseguire test A/B su percorsi diversi nel percorso?
 
-Sì.  Utilizza l&#39;**attività Ottimizza** (disponibile in pacchetti Journey Optimizer specifici) o crea manualmente le suddivisioni di test:
+Sì.  Utilizza l&#39;attività **Ottimizza** (disponibilità limitata) o crea manualmente le suddivisioni di test:
 
-**Utilizzo dell&#39;attività Ottimizza**:
+**Utilizzo dell&#39;attività Ottimizza** con il metodo di esperimento:
 
-* Suddivide automaticamente il traffico tra le varianti
-* Verifica diversi messaggi, offerte o percorsi di percorso interi
-* Misura le prestazioni e dichiara un vincitore
+* Suddivide in modo casuale il traffico tra percorsi diversi per determinare quale funziona meglio
+* Verifica diversi messaggi, offerte, tempi di attesa o percorsi di percorso interi
+* Misura le prestazioni in base a metriche di successo predefinite e dichiara un vincitore
 
-**Test manuali con condizione**:
+**Utilizzo dell&#39;attività Ottimizza** con il metodo di condizione Origine dati:
 
 * Crea una condizione per la suddivisione casuale dei profili (ad esempio, utilizzando una funzione numerica casuale)
 * Invia diverse esperienze a ogni suddivisione
