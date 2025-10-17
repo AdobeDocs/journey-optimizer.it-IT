@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0328ffb49ca72d293c0e1a729441cde6c3a16b45
+source-git-commit: 1ecf54bbcb2cc62b5f13434cfbf1e369cd145d93
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 43%
+source-wordcount: '1095'
+ht-degree: 44%
 
 ---
 
@@ -206,8 +206,8 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Journey Optimizer ora consente di creare regole da un menu dedicato dell’interfaccia utente e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione dei contenuti in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
-<p>Le regole di targeting sono attualmente disponibili per le organizzazioni che hanno acquistato l’offerta aggiuntiva Decisioning e sono disponibili su richiesta per le altre organizzazioni (Disponibilità limitata).</p>
-<p>Questa funzionalità verrà implementata progressivamente per tutti i clienti. Nel frattempo, contatta il tuo rappresentante Adobe per ottenere l’accesso.</p>
+<p>Le regole di targeting sono attualmente a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Decisioning. Verrà introdotto progressivamente per tutti i clienti.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -283,7 +283,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l'agente di sperimentazione è disponibile in Journey Optimizer. </p>
 <p>L’agente di sperimentazione è uno strumento basato sull’intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti web, e-mail, messaggi push e applicazioni. Consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 10 ottobre 2025</p>
 </td>
 </tr>
