@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
+source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '964'
 ht-degree: 44%
 
 ---
@@ -30,6 +30,25 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 ### Nuove funzionalità {#oct-25-10-features}
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Ore/Esclusioni basate sul tempo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
+<p>Puoi applicare ore non interattive tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso. Semplificando questi processi.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,24 +196,27 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Ore/Esclusioni basate sul tempo</strong><br/></th>
+<th><strong>Avvisi nuovi Percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
-<p>Puoi applicare ore non interattive tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso. Semplificando questi processi.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Sono disponibili nuovi avvisi preconfigurati per monitorare l’esecuzione del percorso:</p>
+<ul><li><a href="./reports/alerts.md#alert-discard-rate">Frequenza eliminazioni profilo superata</a>: rapporto tra eliminazioni di profili e profili immessi negli ultimi 5 minuti ha superato la soglia</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Frequenza errori azione personalizzata superata</a>: rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Frequenza errori profilo superata</a>: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia</li>.</ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md">documentazione dettagliata</a></p>
+<p>Data di disponibilità: 14 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
@@ -224,7 +246,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l'agente di sperimentazione è disponibile in Journey Optimizer. </p>
 <p>L’agente di sperimentazione è uno strumento basato sull’intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti web, e-mail, messaggi push e applicazioni. Consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 10 ottobre 2025</p>
 </td>
 </tr>
@@ -282,12 +304,6 @@ Ora puoi sfruttare il generatore di regole quando utilizzi le regole di targetin
 **Campo di esecuzione per canale WhatsApp**
 
 Oltre a E-mail e SMS, ora è possibile aggiornare il campo di esecuzione predefinito di WhatsApp. È inoltre possibile sovrascrivere il campo di esecuzione impostato globalmente nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. <!-- [Read more](../FILE.md) -->
-
-**Avvisi su nuovi percorsi**
-
-Sono disponibili nuovi avvisi preconfigurati per i percorsi: [Frequenza eliminazioni profilo superata](../reports/alerts.md#alert-discard-rate) (rapporto tra eliminazioni profilo e profili immessi negli ultimi 5 minuti ha superato la soglia), [Frequenza errori azioni personalizzate superata](../reports/alerts.md#alert-custom-action-error-rate) (rapporto tra errori azioni personalizzate e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia) e [Frequenza errori profilo superata](../reports/alerts.md#alert-profile-error-rate) (rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia). Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.
-
-Data di disponibilità: 14 ottobre 2025
 
 **Attributi personalizzati supportati per l&#39;indirizzo di posta elettronica (annullamento iscrizione)**
 
