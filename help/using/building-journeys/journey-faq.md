@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
+source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
 workflow-type: tm+mt
-source-wordcount: '4340'
+source-wordcount: '4446'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -716,18 +716,23 @@ Ulteriori informazioni su [eventi aziendali](general-events.md).
 
 +++
 
-+++ È possibile sospendere un percorso per una persona specifica senza interrompere l&#39;intero percorso?
++++ Cosa sono i criteri di unione e come influiscono sui percorsi?
 
-Anche se non è possibile mettere in pausa un percorso per i singoli profili direttamente, è possibile ottenere risultati simili:
+**I criteri di unione** determinano il modo in cui Adobe Experience Platform combina dati provenienti da più origini per creare una visualizzazione di profilo unificata. Definiscono regole per la definizione delle priorità dei dati e l’unione delle identità quando esistono frammenti di profilo in set di dati diversi.
 
-**Opzioni**:
+**Impatto sui percorsi**:
 
-* **Aggiungi a pubblico di esclusione**: crea un pubblico di profili da escludere e aggiungi una condizione che controlla questo pubblico in punti strategici del percorso
-* **Aggiorna attributo profilo**: imposta un flag di &quot;pausa&quot; sul profilo e utilizza le condizioni per ignorare le azioni per i profili contrassegnati
-* **Azione personalizzata**: utilizza un sistema esterno per tenere traccia dei profili in pausa e controllare lo stato tramite chiamata API
-* **Uscita manuale**: per i casi urgenti, puoi rimuovere manualmente i profili di test
+* I percorsi utilizzano il criterio di unione associato al pubblico o all’evento per determinare quali dati di profilo sono disponibili
+* Il criterio di unione determina quali attributi e identità sono accessibili in condizioni di percorso, personalizzazione e azioni
+* Criteri di unione diversi possono causare l’utilizzo di dati di profilo diversi nel percorso
 
-**Nota**: le modifiche al Percorso interessano solo i nuovi partecipanti. I profili già presenti nel percorso seguono il percorso originale, a meno che il percorso non venga interrotto completamente.
+**Best practice**:
+
+* Assicurati che il criterio di unione utilizzato dal percorso sia allineato ai requisiti di governance dei dati
+* Scopri quali set di dati sono inclusi nel criterio di unione per conoscere i dati disponibili
+* Utilizzare criteri di unione coerenti tra tipi di pubblico e percorsi correlati per ottenere risultati prevedibili
+
+Ulteriori informazioni su [criteri di unione](../audience/get-started-profiles.md) e [gestione identità](../audience/get-started-identity.md).
 
 +++
 
@@ -764,7 +769,7 @@ Le protezioni importanti includono:
 
 * **Complessità del Percorso**: numero massimo di attività, percorsi e livelli di nidificazione
 * **Throughput**: tariffe di invio dei messaggi e limiti delle chiamate API
-* **Durata**: durata massima del percorso (ad esempio, 91 giorni per percorsi unitari)
+* **Durata**: durata massima del percorso (ad esempio, 91 giorni)
 * **Dimensione pubblico**: limiti alle dimensioni batch del pubblico di lettura
 * **Complessità dell&#39;espressione**: limiti dei caratteri nelle condizioni e nella personalizzazione
 
@@ -778,7 +783,7 @@ Visualizza [guardrail e limitazioni](../start/guardrails.md) completati.
 
 * Mantieni i percorsi concentrati su casi d’uso specifici
 * Utilizzare la denominazione descrittiva per le attività
-* Aggiungere note ed etichette per la logica complessa
+* Aggiungere descrizioni ed etichette per la logica complessa
 * Raggruppa percorsi correlati con tag
 
 **Prestazioni**:
@@ -791,6 +796,8 @@ Visualizza [guardrail e limitazioni](../start/guardrails.md) completati.
 **Test**:
 
 * Verifica sempre i percorsi prima di pubblicare
+* Utilizza la modalità di test per convalidare la logica di percorso e analizzare il percorso
+* Utilizza la modalità di esecuzione in prova per testare i dati di produzione reali senza contattare i clienti
 * Verifica tutti i percorsi e gli scenari condizionali
 * Utilizzare profili di test realistici
 * Convalidare la personalizzazione e il contenuto dinamico
@@ -798,7 +805,7 @@ Visualizza [guardrail e limitazioni](../start/guardrails.md) completati.
 **Manutenzione**:
 
 * Verifica periodica delle prestazioni del percorso
-* Archiviare o chiudere i percorsi inutilizzati
+* Interrompi o chiudi percorsi inutilizzati
 * Logica del percorso di documenti e regole di business
 * Piano per il controllo delle versioni di percorso
 
@@ -808,11 +815,18 @@ Ulteriori informazioni sulle [best practice per la progettazione di percorsi](us
 
 +++ Quante attività posso aggiungere a un percorso?
 
-Anche se non esiste un limite al numero di attività, percorsi molto complessi (oltre 50 attività) possono diventare difficili da mantenere e risolvere i problemi. Percorsi di grandi dimensioni con numerosi rami e condizioni possono influire sui tempi di elaborazione e sulla leggibilità.
+I percorsi sono limitati a un massimo di 50 attività. Tuttavia, consigliamo di mantenere i percorsi più semplici per migliorare la manutenzione e le prestazioni.
 
-**Best practice**: se il percorso diventa troppo complesso, prova a suddividerlo in più percorsi utilizzando l&#39;attività Salta, creando percorsi secondari riutilizzabili o semplificando la logica con condizioni più efficienti.
+Quando i percorsi si avvicinano a 50 attività, possono diventare molto complesse e difficili da mantenere, risolvere i problemi e capire. Percorsi di grandi dimensioni con molti rami e condizioni possono inoltre influire sui tempi di elaborazione, sulla leggibilità e sulla collaborazione tra team.
 
-Ulteriori informazioni sulla progettazione di [percorsi](using-the-journey-designer.md).
+**Best practice**: mantieni i tuoi percorsi concentrati e gestibili. Se il tuo percorso sta diventando complesso, considera:
+
+* Suddividerlo in più percorsi utilizzando l’attività Salta
+* Creazione di pattern riutilizzabili in percorsi più semplici
+* Semplificare la logica con condizioni più efficienti
+* Verifica della necessità di tutte le attività
+
+Ulteriori informazioni su [Progettazione percorso](using-the-journey-designer.md) e [guardrail e limitazioni](../start/guardrails.md).
 
 +++
 
@@ -820,26 +834,26 @@ Ulteriori informazioni sulla progettazione di [percorsi](using-the-journey-desig
 
 **Considerazioni sulla progettazione**:
 
-* Utilizza voce basata sul pubblico per le comunicazioni batch anziché per singoli eventi
-* Implementare tempi di attesa appropriati per distribuire il volume dei messaggi
-* Sfruttare le regole di limite per evitare il sovraccarico del sistema
-* Ottimizzare la logica delle condizioni per ridurre la complessità di elaborazione
+* Utilizza [voce basata su pubblico](read-audience.md) per le comunicazioni batch invece di singoli eventi
+* Implementa [tempi di attesa](wait-activity.md) appropriati per distribuire il volume dei messaggi
+* Sfrutta [regole di limitazione](../conflict-prioritization/journey-capping.md) per evitare un sovraccarico del sistema
+* Ottimizza [logica della condizione](condition-activity.md) per ridurre la complessità di elaborazione
 
 **Controllo**:
 
-* Tracciare regolarmente le metriche del percorso
-* Monitorare le prestazioni API per azioni personalizzate
-* Rivedere le percentuali di errore e le occorrenze di timeout
-* Configurazione degli avvisi per errori critici di percorso
+* Tieni traccia di [metriche di percorso](report-journey.md) regolarmente
+* Monitora le prestazioni API per [azioni personalizzate](using-custom-actions.md)
+* Rivedi le percentuali di errore e le occorrenze di timeout utilizzando [strumenti per la risoluzione dei problemi](troubleshooting.md)
+* Iscriviti a [avvisi di percorso](../reports/alerts.md) errori critici di percorso
 
 **Ottimizzazione**:
 
-* Utilizza la modalità di test ed esegui a secco per convalidare le prestazioni prima della pubblicazione
-* Limitare le chiamate a origini dati esterne a scenari essenziali
-* Memorizza nella cache i dati ad accesso frequente quando possibile
-* Rivedere e ottimizzare le prestazioni di consegna dei messaggi
+* Utilizza la [modalità di test](testing-the-journey.md) e la [esecuzione completa](journey-dry-run.md) per convalidare le prestazioni prima della pubblicazione
+* Riduci al minimo le chiamate API esterne tramite [azioni personalizzate](using-custom-actions.md) per evitare latenza e dipendenza da sistemi di terze parti
+* Archivia i dati utilizzati di frequente in Adobe Experience Platform utilizzando [ricerca set di dati](dataset-lookup.md) invece di eseguire chiamate esterne, quando possibile
+* Rivedi e ottimizza le prestazioni della [consegna messaggi](journeys-message.md)
 
-Ulteriori informazioni sull&#39;[ottimizzazione percorso](../start/guardrails.md).
+Ulteriori informazioni su [guardrail e limitazioni](../start/guardrails.md).
 
 +++
 
