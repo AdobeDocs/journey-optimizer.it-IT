@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 44%
+source-wordcount: '1034'
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 44%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
 
-## Note pre-release del 25 ottobre {#25-10-rn}
+## Note pre-release del 25 ottobre {#oct-25-10-rn}
 
 **Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
 
@@ -196,6 +196,24 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Regole di targeting riutilizzabili</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora consente di creare regole da un menu dedicato dell’interfaccia utente e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione dei contenuti in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
+<p>Le regole di targeting sono attualmente disponibili per le organizzazioni che hanno acquistato l’offerta aggiuntiva Decisioning e sono disponibili su richiesta per le altre organizzazioni (Disponibilità limitata).</p>
+<p>Questa funzionalità verrà implementata progressivamente per tutti i clienti. Nel frattempo, contatta il tuo rappresentante Adobe per ottenere l’accesso.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l'agente di sperimentazione è disponibile in Journey Optimizer. </p>
 <p>L’agente di sperimentazione è uno strumento basato sull’intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti web, e-mail, messaggi push e applicazioni. Consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 10 ottobre 2025</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 ### Miglioramenti
 
-**Seleziona regole riutilizzabili nel targeting**
-
-Ora puoi sfruttare il generatore di regole quando utilizzi le regole di targeting con la funzione Ottimizzazione dei messaggi in percorsi e campagne. <!-- [Read more](../FILE.md) -->
-
 **Campo di esecuzione per canale WhatsApp**
 
-Oltre a E-mail e SMS, ora è possibile aggiornare il campo di esecuzione predefinito di WhatsApp. È inoltre possibile sovrascrivere il campo di esecuzione impostato globalmente nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. <!-- [Read more](../FILE.md) -->
+Oltre a E-mail e SMS, puoi sapere come aggiornare il campo di esecuzione predefinito per le consegne WhatsApp a livello di sandbox. È inoltre possibile ignorare il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. <!-- [Read more](../FILE.md) -->
 
 **Attributi personalizzati supportati per l&#39;indirizzo di posta elettronica (annullamento iscrizione)**
 
