@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
+source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4189'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,11 @@ Ulteriori informazioni su [percorsi](journey.md).
 
 +++ Quali sono i diversi tipi di percorsi?
 
-Adobe Journey Optimizer supporta tre tipi di percorsi:
+Adobe Journey Optimizer supporta quattro tipi di percorsi:
 
 * **percorsi unitari**: attivato singolarmente da un evento (ad esempio, un acquisto, l&#39;accesso all&#39;app). I profili entrano nel percorso uno alla volta quando si verifica l’evento.
 * **Leggi percorsi di pubblico**: inizia con un pubblico da Adobe Experience Platform e invia messaggi in batch a tutti i profili del pubblico.
+* **percorsi di qualificazione del pubblico**: attivato quando i profili si qualificano per (o escono da) un segmento di pubblico specifico. I profili entrano nel percorso quando soddisfano i criteri di pubblico.
 * **percorsi di eventi di business**: attivati da eventi di business (ad esempio, aggiornamenti azionari, avvisi meteo) che interessano più profili contemporaneamente.
 
 Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journeys).
@@ -51,9 +52,13 @@ Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journ
 
 **Percorsi** sono orchestrazioni con più passaggi che reagiscono agli eventi o ai tipi di pubblico di destinazione, consentendo logiche complesse, condizioni, tempi di attesa e più punti di contatto nel ciclo di vita del cliente.
 
-**Le campagne** sono comunicazioni occasionali o ricorrenti inviate a un pubblico specifico, ideali per messaggi autonomi come annunci promozionali o newsletter.
+**Le campagne** sono disponibili in tre tipi:
 
-**Best practice**: utilizza i percorsi per un coinvolgimento continuo in più passaggi e campagne per comunicazioni mirate e autonome.
+* **Campagne di azione**: comunicazioni una tantum o ricorrenti inviate a un pubblico specifico, ideali per messaggi autonomi come annunci promozionali o newsletter.
+* **Campagne attivate da API**: campagne attivate tramite chiamate API, che consentono l&#39;integrazione con sistemi esterni per l&#39;invio di messaggi in base a eventi in tempo reale o alla logica di business.
+* **Campagne orchestrate**: campagne basate su pubblico e con più passaggi create su un&#39;area di lavoro che può includere condizioni, tempi di attesa e più azioni per creare esperienze pianificate e coordinate.
+
+**Best practice**: utilizza i percorsi per un coinvolgimento complesso e attivato da eventi con orchestrazione avanzata; campagne di azione per comunicazioni pianificate basate su pubblico; campagne attivate da API per l&#39;attivazione programmatica da sistemi esterni; campagne orchestrate per comunicazioni in più passaggi con requisiti specifici per le campagne.
 
 +++
 
@@ -237,7 +242,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 
 **Esempio**: per inviare un messaggio e-mail di &quot;Buongiorno&quot; alle 9 in base al fuso orario di ciascun cliente, utilizza un&#39;attività Attendi con &quot;Attendi fino a una data/ora fissa&quot; e abilita l&#39;opzione relativa al fuso orario.
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
