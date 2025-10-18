@@ -11,7 +11,7 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
+source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
 workflow-type: tm+mt
 source-wordcount: '4446'
 ht-degree: 0%
@@ -50,15 +50,15 @@ Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journ
 
 +++ Qual è la differenza tra un percorso e una campagna?
 
-**Percorsi** sono orchestrazioni con più passaggi che reagiscono agli eventi o ai tipi di pubblico di destinazione, consentendo logiche complesse, condizioni, tempi di attesa e più punti di contatto nel ciclo di vita del cliente.
+**[Percorsi](journey.md)** sono orchestrazioni con più passaggi che reagiscono agli eventi o ai tipi di pubblico di destinazione, consentendo logiche complesse, condizioni, tempi di attesa e più punti di contatto nel ciclo di vita del cliente.
 
-**Le campagne** sono disponibili in tre tipi:
+**[Le campagne](../campaigns/get-started-with-campaigns.md)** sono disponibili in tre tipi:
 
-* **Campagne di azione**: comunicazioni una tantum o ricorrenti inviate a un pubblico specifico, ideali per messaggi autonomi come annunci promozionali o newsletter.
-* **Campagne attivate da API**: campagne attivate tramite chiamate API, che consentono l&#39;integrazione con sistemi esterni per l&#39;invio di messaggi in base a eventi in tempo reale o alla logica di business.
-* **Campagne orchestrate**: campagne basate su pubblico e con più passaggi create su un&#39;area di lavoro che può includere condizioni, tempi di attesa e più azioni per creare esperienze pianificate e coordinate.
+* **[Campagne di azione](../campaigns/create-campaign.md)**: comunicazioni una tantum o ricorrenti inviate a un pubblico specifico, ideali per messaggi autonomi come annunci promozionali o newsletter.
+* **[Campagne attivate da API](../campaigns/api-triggered-campaigns.md)**: campagne attivate tramite chiamate API, che consentono l&#39;integrazione con sistemi esterni per l&#39;invio di messaggi in base a eventi in tempo reale o alla logica di business.
+* **[Campagne orchestrate](../orchestrated/get-started-orchestrated.md)**: campagne basate su pubblico e con più passaggi create su un&#39;area di lavoro che può includere condizioni, tempi di attesa e più azioni per creare esperienze pianificate e coordinate.
 
-**Best practice**: utilizza i percorsi per un coinvolgimento complesso e attivato da eventi con orchestrazione avanzata; campagne di azione per comunicazioni pianificate basate su pubblico; campagne attivate da API per l&#39;attivazione programmatica da sistemi esterni; campagne orchestrate per comunicazioni in più passaggi con requisiti specifici per le campagne.
+**Best practice**: utilizza [percorsi](journey.md) per un coinvolgimento complesso attivato da eventi con orchestrazione avanzata; [campagne di azione](../campaigns/create-campaign.md) per comunicazioni pianificate basate su pubblico; [campagne attivate da API](../campaigns/api-triggered-campaigns.md) per l&#39;attivazione programmatica da sistemi esterni; [campagne orchestrate](../orchestrated/get-started-orchestrated.md) per comunicazioni in più passaggi con requisiti specifici per le campagne.
 
 +++
 
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
