@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 29%
+source-wordcount: '1344'
+ht-degree: 27%
 
 ---
 
@@ -114,6 +114,8 @@ Il periodo di conservazione per una pagina mirror è di **90 giorni**. Trascorso
 >[!CAUTION]
 >
 >* I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori di grandi dimensioni può generare URL molto lunghi per le pagine mirror, che potrebbero non funzionare nei browser web in cui la lunghezza dell’URL è soggetta a un limite massimo.
+>
+>* Durante la creazione di e-mail che si basano fortemente sulla personalizzazione in fase di esecuzione (ad esempio, `#each` loop, oggetti nidificati, dati di payload di grandi dimensioni), gli URL delle pagine mirror possono diventare eccessivamente grandi, in particolare nelle campagne attivate dall’API che utilizzano dati contestuali estesi provenienti da payload. Questo può causare errori HTTP (404, 422, 502) nei browser o nei client di posta. Adobe consiglia di limitare l’ampiezza e la profondità dei campi dinamici, riducendo l’affidamento su frammenti complessi e appiattendo le strutture di personalizzazione per evitare errori di collegamento.
 >
 >* Nella [bozza](../content-management/proofs.md) inviata ai profili di test, il collegamento alla pagina mirror non è attivo. È attivo solo nei messaggi finali.
 
