@@ -60,7 +60,7 @@ Tutti i frammenti creati sono accessibili dal menu a sinistra **[!UICONTROL Gest
 
 Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451190/?captions=ita&quality=12)
 
 Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 

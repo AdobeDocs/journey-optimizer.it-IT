@@ -105,4 +105,4 @@ Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e 
 
 Scopri come sfruttare l’area di gioco dell’editor di personalizzazione per scrivere e testare il codice di personalizzazione utilizzando dati di esempio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475960?captions=ita&quality=12)
