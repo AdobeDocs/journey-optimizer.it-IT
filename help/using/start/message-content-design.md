@@ -35,7 +35,7 @@ Padroneggia la progettazione delle e-mail con E-mail Designer, crea layout reatt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
 
 Progettare le notifiche push
 
