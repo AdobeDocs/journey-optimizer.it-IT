@@ -11,7 +11,7 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journ
 
 * **[Campagne di azione](../campaigns/create-campaign.md)**: comunicazioni una tantum o ricorrenti inviate a un pubblico specifico, ideali per messaggi autonomi come annunci promozionali o newsletter.
 * **[Campagne attivate da API](../campaigns/api-triggered-campaigns.md)**: campagne attivate tramite chiamate API, che consentono l&#39;integrazione con sistemi esterni per l&#39;invio di messaggi in base a eventi in tempo reale o alla logica di business.
-* **[Campagne orchestrate](../orchestrated/get-started-orchestrated.md)**: campagne basate su pubblico e con più passaggi create su un&#39;area di lavoro che può includere condizioni, tempi di attesa e più azioni per creare esperienze pianificate e coordinate.
+* **[Campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)**: campagne basate su pubblico e con più passaggi create su un&#39;area di lavoro che può includere condizioni, tempi di attesa e più azioni per creare esperienze pianificate e coordinate.
 
-**Best practice**: utilizza [percorsi](journey.md) per un coinvolgimento complesso attivato da eventi con orchestrazione avanzata; [campagne di azione](../campaigns/create-campaign.md) per comunicazioni pianificate basate su pubblico; [campagne attivate da API](../campaigns/api-triggered-campaigns.md) per l&#39;attivazione programmatica da sistemi esterni; [campagne orchestrate](../orchestrated/get-started-orchestrated.md) per comunicazioni in più passaggi con requisiti specifici per le campagne.
+**Best practice**: utilizza [percorsi](journey.md) per un coinvolgimento complesso attivato da eventi con orchestrazione avanzata; [campagne di azione](../campaigns/create-campaign.md) per comunicazioni pianificate basate su pubblico; [campagne attivate da API](../campaigns/api-triggered-campaigns.md) per l&#39;attivazione programmatica da sistemi esterni; [campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) per comunicazioni in più passaggi con requisiti specifici per le campagne.
 
 +++
 
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
