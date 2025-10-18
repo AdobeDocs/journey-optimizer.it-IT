@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -510,19 +510,25 @@ Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.
 
 +++ Posso inviare messaggi diversi in base al canale preferito?
 
-Sì.  Utilizza un&#39;attività **Condizione** per controllare il canale preferito:
+Sì.  Utilizza un&#39;attività **[Condizione](condition-activity.md)** per instradare i profili in base al loro canale preferito:
 
-1. Aggiungi un profilo di verifica condizione.preferredChannel
-2. Crea percorsi separati per ciascun canale:
-   * **Percorso e-mail**: invia messaggio e-mail
-   * **Percorso SMS**: invia messaggio SMS
-   * **Percorso push**: invia notifica push
-3. Aggiungi un percorso predefinito per i profili senza preferenza
+1. Aggiungi un&#39;attività [Condizione](condition-activity.md) nel percorso
+2. Creare un percorso per ogni canale controllando l&#39;attributo di profilo canale preferito (ad esempio, `profile.preferredChannel`)
+3. Configurare percorsi specifici per il canale:
+   * **Percorso e-mail**: aggiungi [azione e-mail](../email/create-email.md) con contenuto ottimizzato per e-mail
+   * **Percorso SMS**: aggiungi [azione SMS](../sms/create-sms.md) con messaggi concisi
+   * **Percorso push**: aggiungi [azione notifica push](../push/create-push.md) con contenuto breve e actionable
+   * **Percorso in-app**: aggiungi [azione messaggio in-app](../in-app/create-in-app.md) per gli utenti dell&#39;app interessati
+4. Aggiungi un percorso predefinito per i profili senza preferenze, indirizzandoli al canale principale
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**Best practice**:
 
-Ulteriori informazioni sulle [azioni canale](journeys-message.md).
+* Assicurati che i dati del profilo includano preferenze di canale precise
+* Progettare contenuti appropriati per i punti di forza e i limiti di ogni canale
+* Utilizza [superfici di canale](../configuration/channel-surfaces.md) per gestire le configurazioni di canale
+* Verifica tutti i percorsi per garantire la corretta consegna dei messaggi
+
+Ulteriori informazioni su [condizioni](condition-activity.md), [azioni messaggio](journeys-message.md) e [selezione canale](../channels/gs-channels.md).
 
 +++
 
