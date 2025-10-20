@@ -11,8 +11,8 @@ keywords: impostazioni, e-mail, configurazione
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -123,13 +123,13 @@ L’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** deve essere
 
 Con l’opzione **[!UICONTROL Gestito da cliente]** selezionata, se immetti endpoint personalizzati e li utilizzi in una campagna o in un percorso, [!DNL Journey Optimizer] aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso <!--sent to the custom endpoint --> quando i destinatari fanno clic sul collegamento Annulla iscrizione.
 
-Per personalizzare ulteriormente gli endpoint<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, puoi definire attributi personalizzati che verranno aggiunti anche all&#39;evento di consenso.
+Per personalizzare ulteriormente gli endpoint <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)--> ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso.
 
 >[!AVAILABILITY]
 >
->Per l&#39;opzione **[!UICONTROL Invia a (annulla sottoscrizione)]**, questa funzionalità è disponibile in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe. In questo caso, devi utilizzare i nuovi parametri di query descritti in **Invia a (annulla iscrizione) con attributi personalizzati (disponibilità limitata)** sezione [sotto](#configure-decrypt-api).
+>Questa funzionalità è disponibile in Disponibilità limitata per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]**. Per ottenere l’accesso, contatta il rappresentante Adobe. In questo caso, è necessario utilizzare i nuovi parametri di query descritti in **Mailto (annulla iscrizione) con attributi personalizzati (disponibilità limitata)** nella sezione [successiva](#configure-decrypt-api).
 
-Per definire attributi personalizzati per gli endpoint, utilizza la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine degli endpoint personalizzati, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
+Per definire attributi personalizzati per gli endpoint, consulta la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine degli endpoint personalizzati, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
 
 ### Configurare l’API di decrittografia {#configure-decrypt-api}
 
@@ -233,11 +233,11 @@ Risposta di consenso:
 
 +++
 
-+++ Invia a (annulla iscrizione) con attributi personalizzati (disponibilità limitata)
++++ Mailto (annulla iscrizione) con attributi personalizzati (disponibilità limitata)
 
-Con l’opzione **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**, quando si fa clic sul collegamento Annulla iscrizione viene inviata un’e-mail precompilata all’indirizzo di annullamento dell’iscrizione specificato.
+Con l’opzione **[!UICONTROL Mailto (annulla iscrizione)]**, quando fai clic sul collegamento Annulla iscrizione viene inviata un’e-mail precompilata all’indirizzo di annullamento dell’iscrizione specificato.
 
-A partire da ottobre 2025, se utilizzi l&#39;opzione **[!UICONTROL Customer managed]** per l&#39;endpoint **[!UICONTROL Mailto (unsubscribe)]**, puoi definire attributi personalizzati che verranno aggiunti all&#39;evento di consenso. In questo caso, è necessario utilizzare i parametri di query descritti di seguito.
+A partire da ottobre 2025, se utilizzi l’opzione **[!UICONTROL Gestito da cliente]** per l’endpoint **[!UICONTROL Mailto (annulla inscizione)]**, puoi definire attributi personalizzati che verranno aggiunti all’evento di consenso. In questo caso, è necessario utilizzare i parametri di query descritti di seguito.
 
 >[!AVAILABILITY]
 >
@@ -249,23 +249,23 @@ Endpoint: https://platform.adobe.io/journey/imp/consent/decrypt
 
 Parametri query:
 
-* **emailParamsSub**: stringa estratta dall&#39;oggetto dell&#39;e-mail ricevuta all&#39;indirizzo di posta.
+* **emailParamsSub**: stringa estratta dall’oggetto dell’e-mail ricevuta all’indirizzo Mailto.
 
    * Esempio: *unsubscribev1.abc*
 
    * Valore analizzato: *v1.abc*
 
-* **emailParamsBody**: stringa estratta dal corpo dell&#39;e-mail (se presente) nel formato *unsubscribev1.xyz*.
+* **emailParamsBody**: stringa estratta dal corpo dell’e-mail (se presente) nel formato *unsubscribev1.xyz*.
 
    * Valore analizzato: *v1.xyz*
 
-Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->Se utilizzi l&#39;implementazione precedente (ad esempio: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), devi utilizzare i nuovi parametri **emailParamsSub** e **emailParamsBody** invece di **emailParams**. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>Se utilizzi l’implementazione precedente (ad esempio: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), è necessario utilizzare i nuovi parametri **emailParamsSub** e **emailParamsBody** invece di **emailParams**. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-I parametri **emailParamsSub** e **emailParamsBody** verranno inclusi nell&#39;evento di aggiornamento del consenso inviato agli endpoint personalizzati.
+I parametri **emailParamsSub** e **emailParamsBody** verranno inclusi nell’evento di aggiornamento del consenso inviato agli endpoint personalizzati.
 
 Requisiti dell’intestazione:
 

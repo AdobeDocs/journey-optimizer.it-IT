@@ -11,8 +11,8 @@ mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '2823'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -274,4 +274,4 @@ All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail sp
 
 ## Guardrail per l’orchestrazione delle campagne {#orchestration-guardrails}
 
-I guardrail e le limitazioni da tenere presenti quando si lavora con Campaign Orchestration sono descritti in questa sezione: [guardrail e limitazioni](../orchestrated/guardrails.md).
+I guardrail e le limitazioni da tenere presenti quando utilizzi l’orchestrazione di una campagna sono descritti in questa sezione: [Guardrail e limitazioni](../orchestrated/guardrails.md).

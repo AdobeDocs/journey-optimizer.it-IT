@@ -9,8 +9,8 @@ keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 >[!AVAILABILITY]
 >
->I messaggi direct mail possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo in campagne orchestrate e attivate da API o in percorsi.
+>I messaggi direct mail possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo nelle campagne orchestrate e attivate da API o nei percorsi.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 

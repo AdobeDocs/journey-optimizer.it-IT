@@ -7,15 +7,15 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -707,7 +707,7 @@ ht-degree: 98%
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
          + [Utilizzare Adobe Experience Platform per la funzione Decisioni](using/experience-decisioning/aep-data-exd.md)
       + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
-      + Distribuire le offerte tramite i criteri di decisione {#decision-policies}
+      + Consegnare offerte tramite criteri di decisione {#decision-policies}
          + [Introduzione ai criteri di decisione](using/experience-decisioning/create-decision.md)
          + [Creare criteri di decisione](using/experience-decisioning/create-decision-policy.md)
          + [Utilizzare i criteri di decisione nei messaggi](using/experience-decisioning/use-decision-policy.md)
@@ -885,7 +885,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
