@@ -62,7 +62,7 @@ Se più offerte sono idonee per essere presentate in questo posizionamento, la d
 
 ## Classificazione basata su IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando un modello di intelligenza artificiale. Scopri come creare un modello di IA in [questa sezione](../ranking/create-ranking-strategies.md).
 
