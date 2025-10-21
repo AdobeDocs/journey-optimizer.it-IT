@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -35,7 +35,9 @@ Il report delle schede di contenuto è accessibile direttamente dalla campagna c
 
 ## Tendenza di visualizzazione e clic {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 I grafici **[!UICONTROL Tendenza visualizzazione e clic]** consentono di comprendere sia la portata complessiva del messaggio che il numero di profili univoci coinvolti.
 
@@ -51,7 +53,9 @@ I grafici **[!UICONTROL Tendenza visualizzazione e clic]** consentono di compren
 
 ## Dati di tracciamento {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagliata dell&#39;attività di profilo associata alle schede Contenuto, fornendo informazioni essenziali sull&#39;efficacia di questa scheda.
 

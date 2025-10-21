@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ I rapporti per canale fungono da potente strumento che fornisce una panoramica c
 
 I rapporti Canale sono completamente personalizzabili, per cui puoi ridimensionare o rimuovere widget per creare una dashboard che soddisfi le tue esigenze specifiche. Puoi anche esportare i dati del rapporto in un file PDF o CSV per ulteriori analisi.
 
-Ulteriori informazioni sulle diverse metriche e widget disponibili per i rapporti Canale in [questa pagina](channel-report.md).
+Ulteriori informazioni sulle diverse metriche e widget disponibili per i rapporti Canale su <!--[this page](channel-report.md)-->.
 
 ## Prima di iniziare {#manage-reports-prereq}
 

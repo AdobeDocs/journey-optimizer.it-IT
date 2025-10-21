@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, attributo, personalizzazione
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati più di frequente. Per aggiungere un attributo ai preferiti, fai clic sul menu con i tre punti e scegli **[!UICONTROL Aggiungi ai preferiti]**.
 
+<!--
 ![](assets/favorite-option.png)
+-->
 
 Per accedere agli elementi preferiti, usa il menu **[!UICONTROL Preferiti]** nel riquadro a sinistra.
 
 Da questo elenco puoi aggiungere rapidamente l’oggetto di personalizzazione all’espressione corrente.
 
+<!--
 ![](assets/favorite-list.png)
+-->
 
 Se si desidera non visualizzare più un elemento nell&#39;elenco Preferiti, è possibile rimuoverlo dai preferiti.
 
+<!--
 ![](assets/favorite-remove.png)
+-->

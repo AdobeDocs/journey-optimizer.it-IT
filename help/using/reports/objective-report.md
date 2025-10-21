@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 4%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 4%
 
 Il report globale della campagna è accessibile direttamente dalla campagna con il pulsante **[!UICONTROL Visualizza report]**.
 
-Il **[!UICONTROL report globale]** della campagna è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
+Il **[!UICONTROL report globale]** della campagna è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, fare riferimento a <!--[section](../reports/global-report.md#modify-dashboard)-->.
 
-Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](global-report.md#list-of-components-global.md)
+Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, fare riferimento a <!--[this page](global-report.md#list-of-components-global.md)-->
 
 ## Scheda Campagna {#campaign-global-objectives}
 
 ### Consegna {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 Il widget Statistiche **[!UICONTROL della]** campagna descrive le informazioni principali relative alla campagna:
 
@@ -58,7 +60,9 @@ Con il widget **[!UICONTROL Obiettivo campagna]**, puoi anche scegliere di confr
 
 ### Rapporto sulla sperimentazione {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 La scheda **[!UICONTROL Sperimentazione]** fornisce informazioni chiave sulle prestazioni di ogni variante e identifica quella che ha avuto maggior successo.
 

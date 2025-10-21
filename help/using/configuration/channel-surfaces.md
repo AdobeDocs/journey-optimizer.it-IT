@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 12%
@@ -189,7 +189,7 @@ Una volta inviate le modifiche, la configurazione del canale verrà sottoposta a
 >
 >Se modifichi solo i campi **[!UICONTROL Descrizione]**, **[!UICONTROL Tipo e-mail]** e/o **[!UICONTROL Parametri nuovi tentativi e-mail]**, l&#39;aggiornamento è istantaneo.
 
-### Aggiorna i dettagli {#update-details}
+### Dettagli aggiornamento {#update-details}
 
 Per le configurazioni di canale con stato **[!UICONTROL Attivo]**, puoi controllare i dettagli dell&#39;aggiornamento. Per eseguire questa operazione:
 
@@ -238,6 +238,7 @@ Se modifichi una configurazione già attiva:
 #### Operazione riuscita {#success}
 
 Quando il processo di convalida ha esito positivo, la nuova versione della configurazione viene utilizzata automaticamente in tutti i messaggi che la utilizzano. Tuttavia, potrebbe essere necessario attendere:
+
 * pochi minuti prima di essere utilizzato dai messaggi unitari,
 * fino al batch successivo per rendere effettiva la configurazione nei messaggi batch.
 
