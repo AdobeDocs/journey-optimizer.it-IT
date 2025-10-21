@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Simula le varianti di contenuto
+title: Simulare varianti di contenuto
 description: Scopri come visualizzare in anteprima il contenuto e inviare bozze e-mail utilizzando dati di input di esempio da un file CSV o JSON o aggiunti manualmente.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 ---
 
-# Simula le varianti di contenuto {#custom-profiles}
+# Simulare varianti di contenuto {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
