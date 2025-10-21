@@ -4,12 +4,12 @@ product: journey optimizer
 title: Proprietà del percorso
 description: Informazioni sulle proprietà del percorso
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: percorso, espressione, editor, proprietà
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%

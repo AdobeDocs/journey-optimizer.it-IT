@@ -5,12 +5,12 @@ title: Utilizzare gli eventi dei passaggi del percorso
 description: 'Scopri come utilizzare gli eventi dei passaggi di percorso in Adobe Journey Optimizer: cosa sono, perché sono importanti e come utilizzarli per l’analisi e l’ottimizzazione'
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin, User
+role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: percorso, eventi dei passaggi, analisi, reporting, monitoraggio, XDM
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%

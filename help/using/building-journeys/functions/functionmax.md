@@ -3,12 +3,12 @@ product: journey optimizer
 title: max
 description: Scopri il valore massimo della funzione
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: max, funzione, espressione, percorso
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 7%

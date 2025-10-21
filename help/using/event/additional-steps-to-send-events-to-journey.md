@@ -5,11 +5,11 @@ title: Passaggi aggiuntivi per inviare eventi a un percorso
 description: Scopri ulteriori passaggi per inviare eventi a un percorso
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: passaggi, configurazione, percorso, eventi, flusso, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -90,4 +90,4 @@ Ecco un esempio di evento Streaming Ingestion APIs:
 
 Per facilitare l&#39;identificazione della posizione in cui incollare la parte &quot;data&quot;, puoi utilizzare uno strumento di visualizzazione JSON come [JSON formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"}.
+Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

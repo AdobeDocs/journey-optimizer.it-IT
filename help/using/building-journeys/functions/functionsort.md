@@ -3,12 +3,12 @@ product: journey optimizer
 title: ordina
 description: Scopri l’ordinamento delle funzioni
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: sort, function, expression, percorsi
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 7%

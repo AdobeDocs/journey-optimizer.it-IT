@@ -5,10 +5,10 @@ title: Panoramica sulla condivisione delle fasi del percorso
 description: Panoramica sulla condivisione delle fasi del percorso
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 3%
@@ -73,6 +73,6 @@ Il flusso di lavoro generale è:
 
 * [!DNL Customer Journey Analytics] acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In [!DNL Customer Journey Analytics] è quindi possibile collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell&#39;identificatore basato su persona.
-* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=it){target="_blank"}.
+* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Utilizzare Customer Journey Analytics](cja-ajo.md){target="_blank"}

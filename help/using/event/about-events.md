@@ -5,11 +5,11 @@ title: Utilizzare gli eventi del percorso
 description: Scopri come utilizzare gli eventi nei tuoi percorsi
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 33%
@@ -120,8 +120,8 @@ Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non pu�
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
