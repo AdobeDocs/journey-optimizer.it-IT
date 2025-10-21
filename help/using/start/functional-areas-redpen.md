@@ -4,12 +4,12 @@ product: journey optimizer
 title: Aree funzionali
 description: Aree funzionali in AJO
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
-source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -41,6 +41,7 @@ Adobe Journey Optimizer (AJO) include diverse aree funzionali chiave che funzion
 Considera la gestione dei dati come il fondamento del coinvolgimento di tutti i clienti. Una base dati ben strutturata garantisce che ogni decisione, messaggio e percorso utilizzi informazioni accurate e organizzate.
 
 **Componenti chiave**:
+
 - **Creazione e gestione dello schema**: definisci la struttura dei dati del cliente.
    - Esempio: crea uno schema che delinea campi come &quot;Nome&quot;, &quot;Indirizzo e-mail&quot; e &quot;Cronologia acquisti&quot;.
 - **Configurazione set di dati**: organizza i dati in contenitori logici.
@@ -60,6 +61,7 @@ Considera la gestione dei dati come il fondamento del coinvolgimento di tutti i 
 Gli strumenti di gestione dei clienti collegano diversi punti dati per fornire un quadro coerente di ciascun cliente. In questo modo potrai fornire esperienze pertinenti e personalizzate.
 
 **Componenti chiave**:
+
 - **Profilo cliente in tempo reale**: visualizzazione unificata di ciascun cliente.
    - Esempio: combina la cronologia di navigazione web, le interazioni tra app e gli acquisti offline in un unico profilo.
 - **Risoluzione identità**: collega i dati dei clienti tra dispositivi e canali.
@@ -80,6 +82,7 @@ Gli strumenti di gestione dei clienti collegano diversi punti dati per fornire u
 Gli strumenti di gestione dei contenuti assicurano che i team creino e distribuiscano messaggi personalizzati in modo efficiente, mantenendo coerenza e rilevanza in ogni punto di contatto.
 
 **Componenti chiave**:
+
 - **Editor contenuti**: crea e formatta i messaggi visivamente o con il codice.
    - Esempio: utilizza l’editor visivo per progettare una campagna e-mail che promuova le vendite durante le feste.
 - **Gestione delle risorse digitali**: organizza e utilizza immagini e altri supporti.
@@ -101,6 +104,7 @@ Gli strumenti di gestione dei contenuti assicurano che i team creino e distribui
 La gestione delle decisioni garantisce che la personalizzazione funzioni su larga scala offrendo il massimo valore tramite l’automazione intelligente.
 
 **Componenti chiave**:
+
 - **Libreria di offerte**: archivio centrale delle offerte di marketing.
    - Esempio: store offre come &quot;20% Off Coupon&quot; o &quot;Spedizione gratuita&quot; in una libreria condivisa.
 - **Regole di decisione**: logica per la selezione del contenuto ottimale.
@@ -122,6 +126,7 @@ La gestione delle decisioni garantisce che la personalizzazione funzioni su larg
 La gestione dei percorsi assicura che le esperienze si sentano adattive e fluide, guidando gli individui in base alle loro preferenze e azioni.
 
 **Componenti chiave**:
+
 - **Progettazione Percorsi**: area di lavoro visiva per la creazione di percorsi cliente.
    - Esempio: progetta un percorso che invia un’e-mail di benvenuto quando un cliente si iscrive.
 - **Trigger Percorso**: eventi che avviano o anticipano percorsi.
@@ -143,6 +148,7 @@ La gestione dei percorsi assicura che le esperienze si sentano adattive e fluide
 Le connessioni garantiscono che i dati entrino in AJO in modo efficace e raggiungano i clienti in modo affidabile attraverso i punti di contatto giusti.
 
 **Componenti chiave**:
+
 - **Connettori Source**: importa dati nella piattaforma.
    - Esempio: utilizza un connettore per portare i dati di acquisto da una piattaforma di e-commerce.
 - **Configurazione canale**: configurare e gestire i meccanismi di consegna.
@@ -162,6 +168,7 @@ Le connessioni garantiscono che i dati entrino in AJO in modo efficace e raggiun
 Gli strumenti di amministrazione e privacy garantiscono la protezione dell’integrità dei dati e il rispetto di tutte le politiche legali e organizzative.
 
 **Componenti chiave**:
+
 - **Gestione degli utenti e degli accessi**: controllare l&#39;accesso e le autorizzazioni.
    - Esempio: assegna autorizzazioni specifiche ai team di marketing e IT.
 - **Configurazione sandbox**: ambienti separati per sviluppo e test.

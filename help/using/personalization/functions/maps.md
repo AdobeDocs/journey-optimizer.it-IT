@@ -3,13 +3,13 @@ title: Libreria funzioni mappe
 description: Libreria funzioni mappe
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 Utilizza le funzioni Mappa nella personalizzazione per semplificare l’interazione con le mappe.
 
-## Ottieni{#get}
+## Ottenere{#get}
 
 La funzione `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
 

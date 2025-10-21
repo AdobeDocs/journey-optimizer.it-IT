@@ -5,11 +5,11 @@ title: Consulta le origini dati
 description: Scopri come iniziare a utilizzare le origini dati
 feature: Journeys, Data Sources
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 65%
@@ -49,11 +49,11 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 >
 >Le relazioni tra schemi non sono supportate per le origini dati.
 
-Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=it){target="_blank"}.
+Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Video dimostrativo {#video}
 
 Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416635?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

@@ -3,11 +3,11 @@ title: Introduzione
 description: Scopri come iniziare a utilizzare l’API della Libreria di offerte per eseguire operazioni chiave utilizzando il motore decisionale.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -72,5 +72,5 @@ Questo documento tratta le conoscenze preliminari necessarie per effettuare chia
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830?quality=12&captions=ita) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

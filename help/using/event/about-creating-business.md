@@ -5,11 +5,11 @@ title: Configurare un evento di business
 description: Scopri come creare un evento di business
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 
 >[!NOTE]
 >
->Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=it). Non è necessario abilitare lo schema per il profilo.
+>Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 

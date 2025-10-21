@@ -6,7 +6,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -23,14 +23,14 @@ I dati dei tipi di pubblico di caricamento personalizzati possono essere utilizz
 2. Personalizzazione del contenuto nelle rappresentazioni delle offerte.
 
 Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, consulta le sezioni:
+
 * [Guida introduttiva a Audiences e Journey Optimizer](../audience/about-audiences.md)
-* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Da leggere {#must-read}
 
 * Questa funzionalità è supportata solo in **Gestione delle decisioni**, non in Decisioning (precedentemente noto come &quot;Experience Decisioning&quot;).
 * È disponibile esclusivamente tramite le richieste **Decisioning API (Hub)** e non è supportato da **Edge Decisioning API** o **batch decisioning**.
- 
 
 ## Utilizzare un pubblico di caricamento personalizzato come criterio di idoneità {#eligibilty}
 

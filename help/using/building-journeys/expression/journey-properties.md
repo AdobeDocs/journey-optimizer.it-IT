@@ -4,12 +4,12 @@ product: journey optimizer
 title: Proprietà del percorso
 description: Informazioni sulle proprietà del percorso
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: percorso, espressione, editor, proprietà
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Di seguito sono riportati alcuni esempi di casi d’uso:
 | | journeyVersion | Versione percorso | |
 | Istanza percorso | instanceUID | Identificatore istanza percorso | ID dell’istanza |
 | | externalKey | Chiave esterna | Identificatore individuale che attiva il percorso |
-| | organizationId | Identificatore dell’organizzazione | Organizzazione del brand |
+| | organizationId | Identificatore organizzazione | Organizzazione del brand |
 | | sandboxName | Nome sandbox | Nome della sandbox |
 | Identità | profileId | Identificatore dell’identità del profilo | Identificatore del profilo nel percorso |
 | | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (ad esempio: ECID) |

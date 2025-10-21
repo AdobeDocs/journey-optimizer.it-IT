@@ -3,19 +3,19 @@ title: Libreria funzioni oggetti
 description: Libreria funzioni oggetti
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 19%
+ht-degree: 7%
 
 ---
 
 # Funzioni oggetto {#objects}
 
-## È Null{#isNull}
+## È nullo{#isNull}
 
 La funzione `isNull` determina se un riferimento a un oggetto non esiste.
 
@@ -33,7 +33,7 @@ L&#39;operazione seguente verifica se l&#39;indirizzo dell&#39;abitazione della 
 {%= isNull(person.homeAddress) %}
 ```
 
-## Non è Null{#isNotNull}
+## Non è nullo{#isNotNull}
 
 La funzione `isNotNull` determina se esiste un riferimento a un oggetto.
 

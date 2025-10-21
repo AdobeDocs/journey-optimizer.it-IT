@@ -5,13 +5,13 @@ title: Campi di esecuzione dell’azione eventi journeyStep
 description: Campi di esecuzione dell’azione eventi journeyStep
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -67,6 +67,7 @@ Tipo di errore che si verifica quando viene chiamata l’azione.
 Tipo: stringa
 
 Valori:
+
 * http
 * limiti
 * timeout
@@ -113,12 +114,12 @@ Indica il tipo di azione.
 Valori:
 
 * builtin
-* E-mail ACS
-* SMS ACS
-* Push ACS
+   * E-mail ACS
+   * SMS ACS
+   * Push ACS
 * cliente
-* Epsilon
-* ...
+   * Epsilon
+   * ...
 
 Tipo: stringa
 

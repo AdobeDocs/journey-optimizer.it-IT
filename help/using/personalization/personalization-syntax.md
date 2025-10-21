@@ -5,11 +5,11 @@ title: Sintassi di personalizzazione
 description: Scopri come utilizzare la sintassi di personalizzazione.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 3%
@@ -65,7 +65,7 @@ dove:
    * `{{profile.person.name.firstName}}`
    * `{{profile.person.gender}}`
    * `{{profile.personalEmail.address}}`
-   * ` {{profile.mobilePhone.number}}`
+   * `{{profile.mobilePhone.number}}`
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 

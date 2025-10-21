@@ -3,10 +3,10 @@ title: Consegnare offerte
 description: Gestione delle decisioni è una raccolta di servizi e programmi di interfaccia utente che consente agli addetti marketing di creare e fornire esperienze di offerta personalizzate per l’utente finale tramite diversi canali e applicazioni utilizzando la logica di business e le regole decisionali.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 2%
@@ -219,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830/?quality=12&captions=ita) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Passaggi successivi {#next-steps}
 

@@ -3,10 +3,10 @@ title: Creare una strategia di selezione
 description: Le strategie di selezione sono costituite da raccolte associate a vincoli e metodi di classificazione per determinare le offerte.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 0e35c77b-6741-4c32-b012-36fc3a8b6d7a
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 8%

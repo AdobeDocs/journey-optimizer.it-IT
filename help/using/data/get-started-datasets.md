@@ -4,11 +4,11 @@ product: journey optimizer
 title: Introduzione ai set di dati
 description: Scopri come utilizzare i set di dati Adobe Experience Platform in Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Puoi eseguire le seguenti operazioni:
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 

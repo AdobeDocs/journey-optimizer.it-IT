@@ -5,11 +5,11 @@ title: Personalization use case&due punti; notifica stato ordine
 description: Scopri come personalizzare un messaggio con informazioni su profilo, decisione di offerta e contesto.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: espressione, editor, caso d’uso, personalizzazione
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 3%
@@ -110,4 +110,4 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
 Il video seguente mostra un caso d’uso simile, sfruttando i dati contestuali provenienti da un percorso per personalizzare un’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428529?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

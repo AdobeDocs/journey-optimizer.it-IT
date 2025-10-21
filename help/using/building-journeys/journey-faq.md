@@ -11,7 +11,7 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -500,8 +500,8 @@ Puoi personalizzare i messaggi utilizzando l&#39;**editor di personalizzazione**
 
 **Esempio di personalizzazione**:
 
-* &quot;Salve {{profile.firstName}}, grazie per aver acquistato {{event.productName}}&quot;
-* &quot;In base al livello di fedeltà ({{profile.loyaltyTier}}), ecco un&#39;offerta speciale&quot;
+* &quot;Salve `{{profile.firstName}}`, grazie per aver acquistato `{{event.productName}}`&quot;
+* &quot;In base al livello di fedeltà (`{{profile.loyaltyTier}}`), ecco un&#39;offerta speciale&quot;
 * Blocchi di contenuto dinamici che cambiano in base alle preferenze del cliente
 
 Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.md).

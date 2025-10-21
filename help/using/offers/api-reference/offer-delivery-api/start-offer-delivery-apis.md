@@ -3,10 +3,10 @@ title: Introduzione alla recapitabilità delle offerte tramite API
 description: Ulteriori informazioni sulle API disponibili per distribuire le offerte personalizzate.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -20,6 +20,7 @@ Puoi distribuire le offerte utilizzando l&#39;API **Decisioning** o **Edge Decis
 In questa pagina trovi informazioni su funzionalità specifiche disponibili con le API **Decisioning** e **Edge Decisioning**. Anche se entrambi consentono di distribuire offerte ai clienti, ti consigliamo di utilizzare l&#39;API **Edge Decisioning** ogni volta che è possibile per i casi di utilizzo in entrata e per garantire una latenza e una velocità effettiva migliori sulla piattaforma.
 
 Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguenti:
+
 * [API Decisioning](decisioning-api.md)
 * [API Edge Decisioning](edge-decisioning-api.md)
 * [API Batch Decisioning](batch-decisioning-api.md)

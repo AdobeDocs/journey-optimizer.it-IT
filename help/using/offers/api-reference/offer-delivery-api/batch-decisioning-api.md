@@ -3,10 +3,10 @@ title: API Batch Decisioning
 description: Scopri come utilizzare l’API Batch Decisioning per selezionare le offerte migliori per i profili di pubblico all’interno di un ambito decisionale predefinito.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 4%
@@ -30,7 +30,7 @@ A tal fine, l’organizzazione:
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -102,12 +102,12 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Proprietà | Descrizione | Esempio |
 | -------- | ----------- | ------- |
-| `xdm:activityId` | L’identificatore univoco della decisione. |
+| `xdm:activityId` | L’identificatore univoco della decisione. |  |
 | `xdm:dataSetId` | Il set di dati di output in cui è possibile scrivere gli eventi di decisione. | `6196b4a1a63bd118dafe093c` |
 | `xdm:includeContent` | Questo è un campo facoltativo ed è `false` per impostazione predefinita. Se `true`, il contenuto dell&#39;offerta viene incluso negli eventi di decisione del set di dati. | `false` |
-| `xdm:itemCount` | Questo è un campo facoltativo che mostra il numero di elementi, ad esempio le opzioni richieste per l’ambito decisionale. Per impostazione predefinita, l’API restituisce un’opzione per ambito, ma è possibile richiedere esplicitamente più opzioni specificando questo campo. È possibile richiedere un minimo di 1 e un massimo di 30 opzioni per ambito. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:itemCount` | Questo è un campo facoltativo che mostra il numero di elementi, ad esempio le opzioni richieste per l’ambito decisionale. Per impostazione predefinita, l’API restituisce un’opzione per ambito, ma è possibile richiedere esplicitamente più opzioni specificando questo campo. È possibile richiedere un minimo di 1 e un massimo di 30 opzioni per ambito. | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | L’identificatore di posizionamento univoco. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:propositionRequests` | Un wrapper contenente `placementId` e `activityId` |
+| `xdm:propositionRequests` | Un wrapper contenente `placementId` e `activityId` |  |
 | `xdm:segmentIds` | Il valore è un array che contiene l’identificatore univoco del pubblico. Può contenere un solo valore. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 Per una panoramica dei concetti e delle proprietà principali, consulta la [documentazione sulla gestione delle decisioni](../../get-started/starting-offer-decisioning.md).

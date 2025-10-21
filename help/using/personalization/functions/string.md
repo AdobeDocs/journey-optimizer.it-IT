@@ -3,13 +3,13 @@ title: Libreria funzioni stringa
 description: Libreria funzioni stringa
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -53,7 +53,7 @@ La funzione seguente restituisce il valore ASCII o i.e 111.
 {%= charCodeAt("some", 1)%}
 ```
 
-## Concatena {#concate}
+## Concat {#concate}
 
 La funzione `concat` combina due stringhe in una.
 
@@ -232,7 +232,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Uguale a ignora distinzione tra maiuscole e minuscole{#equalsIgnoreCase}
+## Ignora maiuscole/minuscole uguale a{#equalsIgnoreCase}
 
 La funzione `equalsIgnoreCase` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, senza distinzione tra maiuscole e minuscole.
 
@@ -575,7 +575,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Non è uguale con ignora distinzione tra maiuscole e minuscole {#not-equal-with-ignore-case}
+## Non uguale con ignora maiuscole/minuscole {#not-equal-with-ignore-case}
 
 La funzione `notEqualWithIgnoreCase` viene utilizzata per confrontare due stringhe ignorando la distinzione tra maiuscole e minuscole.
 
@@ -788,7 +788,7 @@ Se la persona vive a Washington High Street, questa funzione restituirà Washing
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## A valore booleano {#to-bool}
+## To Bool {#to-bool}
 
 La funzione `toBool` viene utilizzata per convertire un valore di argomento in un valore booleano, a seconda del tipo.
 
@@ -798,7 +798,7 @@ La funzione `toBool` viene utilizzata per convertire un valore di argomento in u
 {= toBool(string) %}: boolean
 ```
 
-## A data/ora {#to-date-time}
+## A Data/Ora {#to-date-time}
 
 La funzione `toDateTime` viene utilizzata per convertire la stringa in data. In caso di input non valido, restituisce la data epoca come output.
 
@@ -808,7 +808,7 @@ La funzione `toDateTime` viene utilizzata per convertire la stringa in data. In 
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Solo a ora/data {#to-date-time-only}
+## Solo a data/ora {#to-date-time-only}
 
 La funzione `toDateTimeOnly` viene utilizzata per convertire un valore di argomento in un valore di sola data e ora. In caso di input non valido, restituisce la data epoca come output. Questa funzione accetta tipi di campo stringa, data, long e int.
 

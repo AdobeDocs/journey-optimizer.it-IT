@@ -4,12 +4,12 @@ product: journey optimizer
 title: Sintassi dell’editor espressioni avanzato
 description: Scopri la sintassi utilizzata nell’editor di espressioni avanzate
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: sintassi, editor, percorso
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 5%
@@ -30,7 +30,7 @@ Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugl
 
 | Espressione | Valutazione |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>&#39;*&#39; ha priorità su &#39;+&#39;: 2 * 10 viene valutato → 20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>&#39;*&#39; ha priorità su &#39;+&#39;: 2 \* 10 viene valutato → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Le parentesi modificano la priorità: (4 + 2) viene valutato → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## Distinzione tra maiuscole e minuscole {#case-sensitivity}

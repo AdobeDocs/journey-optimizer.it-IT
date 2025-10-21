@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -44,6 +44,7 @@ Inoltre, una raccolta Postman è disponibile [qui](https://github.com/AdobeDocs/
 Questa raccolta è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori di integrazione selezionati.
 
 Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
+
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway.
 * `{BASE_PATH}`: punto di ingresso per l&#39;API.
 * `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target="_blank"}.
@@ -182,6 +183,7 @@ Chiamate API per l’utilizzo di:
 >È necessaria una ridistribuzione dopo l’aggiornamento di una configurazione già distribuita.
 
 Chiamate API per l’utilizzo di:
+
 1. **`list`** - Recupera le configurazioni esistenti.
 1. **`get`** - Recupera i dettagli di una configurazione specifica.
 1. **`update`** - Modifica la configurazione.

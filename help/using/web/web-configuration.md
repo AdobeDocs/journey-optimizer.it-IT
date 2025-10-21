@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 11%
@@ -99,11 +99,11 @@ Durante la creazione di una [regola che corrisponde a più pagine](#web-page-mat
 
   | Operatore  | Descrizione  | Esempi  |
   |---|---|---|
-  | Uguale a  | Corrispondenza esatta del dominio.  |
+  | Uguale a  | Corrispondenza esatta del dominio.  | |
   | Inizia con  | Corrisponde a tutti i domini (inclusi i sottodomini) che iniziano con la stringa immessa.  | Esempio: &quot;Starts with: dev&quot; -> rileva tutti i domini e i sottodomini che iniziano con &quot;dev&quot;, come: dev.example.com, dev.products.example.com, developer.example.com  |
   | Termina con  | Corrisponde a tutti i domini (inclusi i sottodomini) che terminano con la stringa immessa.  | Esempio: &quot;Ends with: example.com&quot; -> rileva tutti i domini e i sottodomini che terminano con &quot;example.com&quot;, come: stage.example.com, prod.example.com, myexample.com  |
   | Corrispondenza con caratteri jolly  | L’operatore &quot;Wildcard matching&quot; (Corrispondenza caratteri jolly) consente di definire una corrispondenza con caratteri jolly al centro della stringa, ad esempio &quot;dev.*.example.com&quot; Le regole di convalida prevedono che il valore debba contenere un solo carattere jolly (asterisco) quando l’operatore è &quot;corrispondenza con caratteri jolly&quot;.  | Esempio: &quot;Abbinamento con caratteri jolly: dev.*.example.com&quot; -> corrisponde a domini come: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
-  | Qualsiasi  | Corrisponde a tutti i domini: utile quando si esegue il test di un percorso particolare tra più domini  |
+  | Qualsiasi  | Corrisponde a tutti i domini: utile quando si esegue il test di un percorso particolare tra più domini  |  |
 
 
 * **Percorso**

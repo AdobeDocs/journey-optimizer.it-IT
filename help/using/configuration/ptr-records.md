@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 9%
@@ -153,6 +153,7 @@ Una volta completato correttamente il processo di convalida, il nuovo sottodomin
 Se il processo di convalida non riesce, viene visualizzato il record PTR precedente. Il sottodominio valido precedentemente associato all’indirizzo IP rimane invariato.
 
 I possibili tipi di errore di aggiornamento sono i seguenti:
+
 * Impossibile creare un nuovo DNS di inoltro per il record PTR
 * Impossibile aggiornare il record
 * Impossibile ripetere l’onboarding delle affinità

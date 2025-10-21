@@ -5,14 +5,14 @@ title: Utilizzare i criteri di consenso
 description: Scopri come utilizzare i criteri di consenso di Adobe Experience Platform
 feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 

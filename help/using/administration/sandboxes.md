@@ -5,11 +5,11 @@ title: Utilizzare e assegnare sandbox
 description: Scopri come gestire le sandbox
 feature: Sandboxes
 topic: Administration
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: sandbox, virtuale, ambienti, organizzazione, piattaforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 28%
@@ -70,4 +70,4 @@ Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la 
 
 Scopri cosa sono le sandbox e come distinguere le sandbox di sviluppo da quelle di produzione. Scopri come creare, reimpostare ed eliminare le sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416654?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

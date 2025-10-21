@@ -5,7 +5,7 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema basato su modello in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 46%
@@ -29,7 +29,7 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema basato 
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/model-based)
+➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Carica un file DDL{#ddl-upload}
 

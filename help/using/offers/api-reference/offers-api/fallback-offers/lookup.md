@@ -3,10 +3,10 @@ title: cercare offerte di fallback
 description: Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 7%

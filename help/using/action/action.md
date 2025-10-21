@@ -5,11 +5,11 @@ title: Introduzione alle azioni
 description: Scopri come utilizzare le azioni
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 37%
@@ -43,13 +43,13 @@ Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selez
 
 ![](assets/custom1.png)
 
-Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [&#x200B; in questa pagina dedicata](../action/troubleshoot-custom-action.md).
+Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in questa pagina dedicata](../action/troubleshoot-custom-action.md).
 
 ## Video dimostrativo {#video}
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Risorse aggiuntive
 

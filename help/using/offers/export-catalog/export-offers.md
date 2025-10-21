@@ -4,10 +4,10 @@ description: Questa sezione elenca tutti i campi utilizzati nel set di dati espo
 badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 
@@ -243,6 +243,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
+
 * &quot;none&quot; (impostazione predefinita)
 * &quot;EliabilityRule&quot;: &quot;Il vincolo di profilo è espresso come una singola regola che deve restituire true prima che l’azione vincolata sia consentita.&quot;
 * &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più tipi di pubblico e il profilo deve essere membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;

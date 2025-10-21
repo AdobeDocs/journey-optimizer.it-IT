@@ -3,10 +3,10 @@ title: Creare una regola di idoneità
 description: Le regole di idoneità consentono di definire i candidati idonei in base a ciò di cui desideri eseguire il targeting, ad esempio gli attributi di profilo e i tipi di pubblico.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
-source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 7%

@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 5%
@@ -60,6 +60,7 @@ Il modello prevede due fasi:
 * Nella fase di **inferenza online**, le offerte candidate vengono classificate in base ai punteggi in tempo reale generati dal modello. A differenza delle tecniche di filtro collaborativo tradizionali, che è difficile includere funzioni per utenti e offerte, l’ottimizzazione personalizzata è un metodo di raccomandazione basato sull’apprendimento profondo ed è in grado di includere e imparare pattern di interazione di funzioni complessi e non lineari.
 
 Di seguito è riportato un esempio semplificato per illustrare l’idea di base dietro l’ottimizzazione personalizzata. Supponiamo di avere un set di dati in cui sono memorizzate le interazioni storiche tra utenti e offerte, come illustrato nella Figura 1. Sono disponibili:
+
 * Due offerte, offer_1 e offer_2,
 * Due feature, feature_1 e feature_2,
 * Una colonna di risposta.
