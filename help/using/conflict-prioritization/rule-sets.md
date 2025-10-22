@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Set di regole"
->abstract="Utilizza i set di regole per applicare la quota limite a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere percorsi a una parte del pubblico in base alle regole della quota limite."
+>abstract="Utilizza i set di regole per applicare le regole relative al limite di frequenza o alle ore non interattive a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere percorsi a una parte del pubblico in base alle regole della quota limite."
 
 ## Introduzione ai set di regole {#gs}
 
@@ -31,7 +31,11 @@ I set di regole consentono di **raggruppare più regole in set di regole** e di 
 
 Puoi creare due tipi di set di regole:
 
-* I set di regole **Canale** applicano regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
+* I set di regole **Canale** applicano regole ai canali di comunicazione. Consentono di impostare:
+
+   * **Regole di quota limite** - *Non inviare più di 1 e-mail o SMS al giorno.*
+   * **Regole per le ore non interattive** (disponibilità limitata) - *Non inviare messaggi e-mail al di fuori della fascia oraria dalle 8.00 alle 21.00.*
+
 * I set di regole **Percorso** applicano a un percorso le regole dei limiti di concorrenza e di immissione. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
 
 ➡️ [Scopri questa funzione nel video](#video)
@@ -76,7 +80,7 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole** 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo di regola"
->abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Selezionare **Ore non interattive** (disponibile in Disponibilità limitata) per definire esclusioni basate sul tempo in modo da garantire che non vengano inviati messaggi durante specifici periodi di tempo&quot;."
+>abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Selezionare **Ore non interattive** (disponibile in Disponibilità limitata) per definire esclusioni basate sul tempo in modo da garantire che non vengano inviati messaggi durante specifici periodi di tempo&quot;.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 1. Seleziona il dominio del set di regole e fai clic su **[!UICONTROL Salva]**.
 
-   * Dominio **Canale**: applica regole di limitazione per i canali di comunicazione.
+   * Dominio **Canale**: applica regole di limitazione o di sospensione attività ai canali di comunicazione.
    * Dominio **Percorso**: applica le regole di limitazione della concorrenza e delle voci a un percorso.
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 1. Configura i parametri della regola in base alle tue esigenze. I parametri disponibili per la regola dipendono dal dominio del set di regole selezionato al momento della creazione.
 
-   Informazioni dettagliate su come configurare le regole di limitazione dei percorsi e dei canali sono disponibili nelle sezioni seguenti:
+   Informazioni dettagliate su come configurare le regole di percorso e di canale sono disponibili nelle sezioni seguenti:
 
    * [Limitazione Percorsi](../conflict-prioritization/journey-capping.md)
    * [Quota limite per tipo di comunicazione e canale](../conflict-prioritization/channel-capping.md)
+   * [Ore non interattive](../conflict-prioritization/quiet-hours.md) (disponibile con disponibilità limitata)
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare la creazione della regola. Il messaggio viene aggiunto al set di regole con lo stato **[!UICONTROL Bozza]**.
 
@@ -146,7 +151,8 @@ Per creare un set di regole, segui la procedura riportata di seguito.
    Informazioni dettagliate su come applicare il set di regole sono disponibili in queste sezioni:
 
    * [Applicare un set di regole a un percorso](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Applicare le regole di limitazione a un messaggio](../conflict-prioritization/channel-capping.md#apply)
+   * [Applicare regole di limitazione alle azioni di percorso e campagna](../conflict-prioritization/channel-capping.md#apply)
+   * [Applicare regole di orario non interattivo a percorso e campagna](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Accedere e gestire i set di regole {#access-rule-sets}
 
@@ -174,4 +180,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

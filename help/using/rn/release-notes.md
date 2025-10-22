@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eb73751fdb746dd2659e31c1b776fe2d767809f
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -26,11 +26,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-## Note pre-release del 25 ottobre {#oct-25-10-rn}
-
-**Le note precedenti al rilascio sono soggette a modifiche senza preavviso fino alla data di rilascio**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
-
-Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+## Note sulla versione di ottobre 2025 {#oct-25-10-rn}
 
 **Data di rilascio**: giovedì 22 ottobre 2025
 
@@ -46,31 +42,33 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
-<p>Puoi applicare ore non interattive tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso. Semplificando questi processi.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Puoi applicare ore non interattive tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
+<p>Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per essere aggiunti alla lista d’attesa, contatta il tuo rappresentante Adobe.</p>
+<img src="assets/do-not-localize/quiet-hour.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/quiet-hours.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Monitoraggio e reporting per le azioni personalizzate</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Questa funzionalità fornisce una migliore visibilità sullo stato e sull’esecuzione del percorso, inclusi gli avvisi sullo stato del ciclo di vita e sulle prestazioni. Ora puoi capire rapidamente quando, dove e perché si verifica una situazione anomala in un’azione personalizzata.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -131,75 +129,76 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Nuova API per recuperare le campagne Azione</strong><br/></th>
+<th><strong>New API to retrieve Action Campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile una nuova API di Journey Optimizer che consente di recuperare e ispezionare a livello di programmazione i dati relativi alla campagna, come dettagli, versioni e configurazioni.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>A new Journey Optimizer API is now available, enabling you to programmatically retrieve and inspect campaign-related data such as details, versions, and configurations.</p>
+<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Nuovi connettori di origine per le app fedeltà</strong><br/></th>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Adobe Experience Platform sono ora disponibili nuovi connettori sorgente per le app fedeltà Talon.One, Capillary e Kobie. Questi connettori consentono di trasferire in streaming i dati relativi alla fedeltà in Adobe Experience Platform e di sfruttarli in Journey Optimizer.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary and Kobie loyalty Apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
+<p>For more information, refer to the <a href="../start/get-started-sources.md">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Supporto per le decisioni nel canale e-mail</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne e-mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Modalità a throughput elevato per campagne e-mail attivate da API</strong><br/></th>
+<th><strong>High throughput messaging for API triggered email campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nelle campagne attivate da API è ora disponibile una nuova modalità di velocità effettiva elevata. Questa modalità è progettata per la messaggistica in tempo reale su larga scala (fino a 5000 transazioni al secondo) e fornisce maggiore disponibilità con minore latenza.</p>
-<p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo di velocità effettiva elevata di Adobe per la messaggistica transazionale. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>A new high throughput transactional messaging mode is available in API triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. This mode also supports transactional messages without referencing or creating customer profiles, such as guest checkout, order confirmation, password resets, security notifications, and one-time passwords for two-factor authentication.</p>
+<p>This capability is only available for the email channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.</p>
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaign-action.md">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -210,30 +209,11 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora consente di creare regole da un menu dedicato dell’interfaccia utente e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione dei contenuti in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
-<p>Le regole di targeting sono attualmente disponibili per le organizzazioni che hanno acquistato l’offerta aggiuntiva Decisioning e sono disponibili su richiesta per le altre organizzazioni (Disponibilità limitata).</p>
-<p>Questa funzionalità verrà implementata progressivamente per tutti i clienti. Nel frattempo, contatta il tuo rappresentante Adobe per ottenere l’accesso.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Temi in E-mail designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi applicare rapidamente temi preapprovati per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e creare e-mail di alta qualità in modo indipendente, riducendo al contempo la dipendenza dai team di design.</p>
-<p>Precedentemente rilasciata nella versione beta, questa funzionalità è ora disponibile per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<img src="assets/do-not-localize/themes.gif">
-<p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
-<!--p>Availability date: October 22, 2025</p-->
+<p>Per risparmiare tempo e fatica, Journey Optimizer ora consente di creare regole riutilizzabili da un menu dell’interfaccia utente dedicato e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione dei contenuti in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
+<p>Le regole di targeting sono attualmente a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe. Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Decisioning. Verrà introdotto progressivamente per tutti i clienti.</p>
+<img src="assets/do-not-localize/targeting-rules.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/rules.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -252,7 +232,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <ul><li><a href="../reports/alerts.md#alert-discard-rate">Frequenza eliminazioni profilo superata</a>: rapporto tra eliminazioni di profili e profili immessi negli ultimi 5 minuti ha superato la soglia</li>
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Frequenza errori azione personalizzata superata</a>: rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Frequenza errori profilo superata</a>: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.</li></ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 14 ottobre 2025</p>
 </td>
 </tr>
@@ -270,7 +250,8 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>Nell’editor di personalizzazione è disponibile una nuova funzione helper "executionMetadata". Consente di aggiungere informazioni contestuali a qualsiasi azione nativa e di acquisirle in un set di dati per l’esportazione in sistemi esterni.</p>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../personalization/functions/helpers.md#execution-metadata">documentazione dettagliata</a></p>
+<img src="assets/do-not-localize/execution-metadata.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../personalization/functions/helpers.md#execution-metadata">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: martedì 13 ottobre 2025</p>
 </td>
 </tr>
@@ -280,15 +261,14 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>L'agente della sperimentazione è qui!</strong><br/></th>
+<th><strong>Experimentation Accelerator con agente di sperimentazione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l'agente di sperimentazione è disponibile in Journey Optimizer. </p>
-<p>L’agente di sperimentazione è uno strumento basato sull’intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti web, e-mail, messaggi push e applicazioni. Consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a></p>
+<p>Journey Optimizer Experimentation Accelerator ora include l’agente di sperimentazione, uno strumento di conversazione basato sull’intelligenza artificiale che consente di interagire con esperimenti, informazioni approfondite e opportunità. Migliora l’esperienza di Journey Optimizer Experimentation Accelerator, aiutandoti a eseguire gli esperimenti in modo più efficiente, scoprire cosa funziona e scoprire dove ottimizzarla successivamente.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: sabato 10 ottobre 2025</p>
 </td>
 </tr>
@@ -312,7 +292,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </ul>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../email/pdf-attachments.md">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/pdf-attachments.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 30 settembre 2025</p>
 </td>
 </tr>
@@ -336,9 +316,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tbody>
 </table>
 
-
-
-
 <!--
 ## Latest updates {#updates-rn}
 
@@ -347,9 +324,13 @@ New capabilities and improvements released in the past weeks are listed below, w
 
 ### Miglioramenti {#updates-improvements}
 
+<!--Availability date: October 22, 2025-->
+
 **Campo di esecuzione per canale WhatsApp**
 
-Oltre a E-mail e SMS, puoi sapere come aggiornare il campo di esecuzione predefinito per le consegne WhatsApp a livello di sandbox. È inoltre possibile ignorare il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. <!-- [Read more](../FILE.md) -->
+Oltre a E-mail e SMS, puoi sapere come aggiornare il campo di esecuzione predefinito per le consegne WhatsApp a livello di sandbox. È inoltre possibile ignorare il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
+
+Data di disponibilità: giovedì 22 ottobre 2025
 
 **Supporto di attributi personalizzati per l’indirizzo Mailto (annulla iscrizione)**
 
@@ -363,196 +344,38 @@ Per personalizzare ulteriormente gli endpoint personalizzati, ora è possibile d
 
 Data di disponibilità: 6 ottobre 2025
 
-## Note sulla versione di settembre 2025 {#latest-rn}
+### Disponibile a breve {#oct-25-10-soon}
 
-**Data di rilascio**: 23-24 settembre 2025
+Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
-### Nuove funzionalità {#sept-25-9-features}
+### Nuove funzionalità {#oct-25-10-soon-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+<th><strong>Temi in E-mail designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator è un prodotto di intelligenza artificiale progettato migliorare ulteriormente la sperimentazione. Creato per gli utenti di Adobe Journey Optimizer e Adobe Target, unifica la gestione degli esperimenti, fornisce informazioni e opportunità basate sull’intelligenza artificiale e introduce un nuovo agente di sperimentazione.</p>
-<p>Potrai scoprire:</p>
-<ul>
-<li><strong>Inventario unificato degli esperimenti:</strong> visualizza, filtra e gestisci rapidamente tutti gli esperimenti da Adobe Journey Optimizer e Adobe Target in un’unica area di lavoro centrale.</li>
-<li><strong>Insight e opportunità sull’esperimento IA:</strong> supera la semplice lettura dei dati con insight e consigli basati sull’intelligenza artificiale generativa. Ciascun esperimento ora evidenzia opportunità utilizzabili, corredate da motivazioni a supporto, in modo che i team possano decidere con maggiore sicurezza cosa testare successivamente.</li>
-<li><strong>Supporto Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> massimizza l’impatto riducendo il traffico sprecato con esperimenti Multi-Armed Bandit. Invece di suddividere i tipi di pubblico in modo uniforme, il MAB assegna automaticamente più visitatori alle varianti con le prestazioni migliori in tempo reale, in modo da poter fornire esperienze di maggior valore a una clientela più elevata e continuando ad apprendere al tempo stesso che cosa funziona.</li></ul>
-<p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../content-management/experiment-accelerator.md">documentazione dettagliata</a></p>
-<p>Data di disponibilità: 3 ottobre 2025</p>
+<p>Ora puoi applicare rapidamente temi preapprovati per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e creare e-mail di alta qualità in modo indipendente, riducendo al contempo la dipendenza dai team di design.</p>
+<p>Precedentemente rilasciata nella versione beta, questa funzionalità è ora disponibile per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<!--img src="assets/do-not-localize/themes.gif">
+<p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
+<p>Availability date: November 4, 2025</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>L’Agente Journey è ora disponibile.</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Basato su <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’Agente Journey è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un’interfaccia in linguaggio naturale. L’agente rileverà i conflitti di pubblico o di pianificazione e gli abbandoni del profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
-<p>Data di disponibilità: 24 settembre 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Miglioramenti {#oct-25-10-soon-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Modalità scura in E-mail designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>E-mail designer di Journey Optimizer ora offre la possibilità di passare alla visualizzazione in modalità scura, in cui è possibile definire anche impostazioni personalizzate specifiche da mostrare solo per i destinatari che leggono le e-mail in modalità scura.</p>
-<p>Si noti quanto segue:</p>
-<ul>
-<li>Il rendering finale in modalità scura può variare e dipende dal client e-mail del destinatario.</li>
-<li>Non tutti i client e-mail supportano la modalità scura personalizzata. Inoltre, alcuni client e-mail applicano soltanto la propria modalità scura predefinita per tutte le e-mail ricevute. In entrambi i casi, non è possibile eseguire il rendering delle impostazioni personalizzate definite in E-mail designer.</li>
-</ul>
-<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../email/dark-mode.md">documentazione dettagliata</a></p>
- <p>Data di disponibilità: 16 settembre 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Decisioning nelle e-mail tramite modelli AI**
 
-<table>
-<thead>
-<tr>
-<th><strong>Ottimizzazione del percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Utilizza la nuova funzione Ottimizza nodo per eseguire il targeting di tipi di pubblico specifici oppure esegui test A/B per determinare il percorso migliore per soddisfare i KPI incentrati sull’azienda.</p>
-<p>Questo strumento consente di testare e variare e di personalizzare le comunicazioni, la sequenza e la tempistica per raggiungere al meglio la clientela.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
-<p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/optimize.md">documentazione dettagliata</a></p>
-<p>Data di disponibilità: 4 settembre 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Metodo di delega personalizzato per sottodomini</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata consente di controllare e gestire completamente tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
-<p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/delegate-custom-subdomain.md">documentazione dettagliata</a></p>
-<p>Data di disponibilità: 4 settembre 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Utilizza i dati di Adobe Experience Platform per la personalizzazione e la funzione Decisioni</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Precedentemente rilasciata in versione Beta pubblica, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione, sono stati introdotti i seguenti miglioramenti:</p>
-<ul><li>Supporto per la personalizzazione della ricerca di set di dati nei canali in entrata.</li>
-<li>È ora possibile utilizzare la funzione helper “datasetLookup” nei frammenti di espressione. Per il momento, questa funzionalità è disponibile per una parte limitata della clientela. Per potervi accedere, contatta il tuo rappresentante Adobe.</li>
-<li>Un’opzione nell’interfaccia per la gestione del set di dati ora consente di abilitare i set di dati basati su record per la personalizzazione della ricerca, senza dover eseguire una chiamata API.</li>
-<li>Il monitoraggio è stato migliorato per tenere traccia dello stato di acquisizione dei dati e sapere quando i set di dati sono pronti per la ricerca.</li>
-<li>Le linee guida e i guardrail di utilizzo sono stati aggiornati per garantire prestazioni e affidabilità ottimali.</li>
-<li>Ora è possibile sfruttare i set di dati di Adobe Experience Platform nelle regole di limitazione della funzione Decisioni.</li></ul></p>
-<p>Per ulteriori informazioni, consulta la <a href="../data/lookup-aep-data.md">documentazione dettagliata</a></p>
-<p>Data di disponibilità: 1 settembre 2025</p>
-</td>
-</tr>
-
-
-### Miglioramenti {#sept-25-9-improvements}
-
-* **Supporto webhook per campagne attivate da API**\
-  Le campagne attivate da API ora supportano i webhook. Configura un URL del webhook per ricevere aggiornamenti di stato in tempo reale per ogni messaggio, migliorando l’osservabilità e abilitando un monitoraggio e un’automazione semplici. [Ulteriori informazioni](../configuration/feedback-webhooks.md)
-
-  Data di disponibilità: 29 settembre 2025
-
-* **Supporto mTLS per il canale SMS**
-Durante la configurazione di un provider SMS personalizzato, ora puoi abilitare l’autenticazione TLS reciproca (mTLS), che richiede sia al client che al server di confermare reciprocamente la propria identità prima che venga stabilita una connessione sicura. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
-
-* **Schemi basati su modelli**\
-  Gli schemi basati su modelli possono ora essere utilizzati per supportare le esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
-
-* **Supporto per la ricerca di set di dati in percorsi**\
-  Una nuova attività nei percorsi, **Ricerca set di dati**, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive. [Ulteriori informazioni](../building-journeys/dataset-lookup.md) - Data di disponibilità: 23 settembre 2025
-
-  Questa attività è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
-
-* **Supporto del reindirizzamento nelle azioni personalizzate del percorso**\
-  I reindirizzamenti (302) sono ora supportati nelle azioni personalizzate del percorso. - Data di disponibilità: 23 settembre 2025
-
-* **Avvisi di monitoraggio della configurazione dei canali**: nel caso si verifichi un errore di configurazione dei canali e-mail utilizzando il tipo di delega dei sottodomini personalizzato, ora è possibile iscriversi per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer. [Ulteriori informazioni](../reports/alerts.md#alert-channel-config-failure) - Data di disponibilità: 23 settembre 2025
-
-* **Richieste di annullamento dell’iscrizione con un solo clic**: sono stati introdotti miglioramenti che rafforzano ulteriormente la gestione delle richieste di annullamento dell’iscrizione con un solo clic configurate in Gestito da Adobe, garantendo un’elaborazione affidabile e coerente. - Data di disponibilità: 23 settembre 2025
-
-* **I parametri del corpo JSON nidificati sono ora supportati nell’autenticazione personalizzata**\
-  Durante la configurazione dell’autenticazione personalizzata per un’azione personalizzata, sono ora supportati gli oggetti JSON nidificati (ad esempio, oggetti secondari all’interno di `bodyParams`). [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode) - Data di disponibilità: 18 settembre 2025
-
-* **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Precedentemente disponibile in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti e consente di scegliere 1 ora (in precedenza 3 ore). [Ulteriori informazioni](../conflict-prioritization/channel-capping.md) - Data di disponibilità: 17 settembre 2025
-
-* **Simulazione delle varianti di contenuto per tutti i canali in entrata**\
-  Precedentemente disponibile solo per i canali di notifica e-mail, SMS e push, la simulazione delle varianti di contenuto ora si applica anche a tutti i canali in entrata. [Ulteriori informazioni](../test-approve/simulate-sample-input.md) - Data di disponibilità: 17 settembre 2025
-
-* **Espressioni per le regole di limitazione della funzione Decisioni**: è ora possibile creare espressioni personalizzate per definire la soglia di una regola di limitazione per un elemento decisionale. [Ulteriori informazioni](../experience-decisioning/items.md#capping) - Data di disponibilità: 16 settembre 2025
-
-* **Supporto di domini dinamici**: Journey Optimizer ora supporta la personalizzazione dell’URL completa/di base per i domini predefiniti accettati da Adobe. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#where) - Data di disponibilità: 12 settembre 2025
-
-  Questa funzionalità è in disponibilità limitata per una parte della clientela.
-
-* **Webhook**: in questa versione sono stati introdotti i seguenti miglioramenti per i webhook durante la configurazione di un provider SMS personalizzato:
-
-   * Ora puoi definire lo scopo del webhook, in entrata o di feedback, a seconda del tipo di dati che desideri acquisire. [Ulteriori informazioni](../sms/sms-configuration-custom.md#webhook) - Data di disponibilità: 23 settembre 2025
-
-   * La configurazione delle parole chiave è ora più semplice grazie a un’interfaccia migliore. [Ulteriori informazioni](../sms/sms-configuration-custom.md#webhook) - Data di disponibilità: 23 settembre 2025
-
-* **SMS**
-
-   * Durante la configurazione di un provider SMS personalizzato, è ora possibile definire una parola chiave **predefinita** da utilizzare quando un SMS in arrivo contiene una parola chiave non riconosciuta. Puoi anche creare parole chiave **personalizzate** per azioni specifiche. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
-
-   * È ora possibile accedere alle risposte di parole chiave in entrata non definite inviate tramite un messaggio SMS, inclusi refusi, parole o frasi non esplicitamente definite nella configurazione. Vengono archiviate nel set di dati **Evento esperienza di tracciamento email di AJO**, in **InboundMessage** per 13 mesi. Disponibile solo con Sinch, Infobip e provider SMS personalizzati. Data di disponibilità: 23 settembre 2025
+Ora puoi utilizzare i modelli AI per ottimizzare il contenuto migliore nell’e-mail tramite l’utilizzo di Decisioning. Ad esempio, questa funzionalità ti consente di offrire il contenuto migliore in base a eventi personalizzati come Acquisti, Clic su pulsanti, Aggiungi al carrello e così via.
 
 <!--
-* **Approval policy permissions**
-  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025-->
-
-<!--
-### Coming soon {#sept-25-9-soon}
-
-In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
-
 <table>
 <thead>
 <tr>

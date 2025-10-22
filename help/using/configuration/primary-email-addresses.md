@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '641'
+ht-degree: 20%
 
 ---
 
@@ -34,17 +34,15 @@ In tal caso, [!DNL Journey Optimizer] utilizza **[!UICONTROL Campi di esecuzione
 
 Per verificare i campi attualmente utilizzati per impostazione predefinita, accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
 
-![](assets/primary-address-execution-fields.png)
+![](assets/primary-address-execution-fields.png){width=90%}
 
 >[!NOTE]
 >
->I campi di esecuzione sono disponibili per i canali E-mail e SMS.
+>I campi di esecuzione sono disponibili per i canali E-mail, SMS e WhatsApp.
 
 I valori correnti vengono utilizzati per tutte le consegne a livello di sandbox. Se necessario, puoi aggiornare questi campi.
 
-Nella maggior parte dei casi, modificherai un campo di esecuzione a livello globale e definirai un valore da utilizzare per tutti i messaggi e-mail o SMS. <!--[Learn how](#admin-settings)-->
-
-<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+Nella maggior parte dei casi, modificherai un campo di esecuzione a livello globale e definirai un valore da utilizzare per tutti i messaggi e-mail, SMS o WhatsApp.
 
 ## Aggiornare le impostazioni di amministrazione {#admin-settings}
 
@@ -54,15 +52,15 @@ Per modificare globalmente i campi di esecuzione a livello di sandbox, segui i p
 
 1. Fai clic su **[!UICONTROL Modifica]** per modificare i valori predefiniti.
 
-   ![](assets/primary-address.png)
+   ![](assets/primary-address-edit.png){width=70%}
 
 1. Fai clic sul campo corrente desiderato o sull’icona di modifica per selezionare un nuovo campo.
 
-   ![](assets/primary-address-edit.png)
+   ![](assets/primary-address-edit-field.png){width=70%}
 
 1. Viene visualizzato l’elenco dei campi XDM di tipo e-mail disponibili. Seleziona il campo da utilizzare.
 
-   ![](assets/primary-address-select-field.png)
+   ![](assets/primary-address-select-field.png){width=90%}
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare la scelta.
 
@@ -82,18 +80,18 @@ Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato 
 
 L’override di questo valore può essere utile, ad esempio, per:
 
-* Test di un’e-mail. Puoi aggiungere il tuo indirizzo e-mail: dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
-* Invia un messaggio e-mail agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
+* Verifica la consegna. Puoi aggiungere il tuo indirizzo e-mail o numero di telefono: dopo aver pubblicato il percorso, ti viene inviato il messaggio e-mail, SMS o WhatsApp.
+* Invia un messaggio agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
 
-Quando si aggiunge un&#39;azione **[!UICONTROL E-mail]** o **[!UICONTROL SMS]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale viene visualizzato nei parametri avanzati del percorso.
+Quando si aggiunge un&#39;azione **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale o il numero di telefono viene visualizzato nei parametri avanzati del percorso.
 
 Sostituisci questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo.
 
-![](assets/journey-enable-parameter-override.png)
+![](assets/journey-enable-parameter-override.png){width=85%}
 
 >[!CAUTION]
 >
->La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l&#39;indirizzo e-mail perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** è quello che deve essere utilizzato.
+>La sostituzione dell’indirizzo e-mail o del numero di telefono deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificarlo, perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** a livello di sandbox è quello che deve essere utilizzato.
 
 ## Sostituisci il campo di esecuzione predefinito nella configurazione del canale {#override-execution-address-channel-config}
 
@@ -102,9 +100,13 @@ Sostituisci questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituz
 >title="Sovrascrivere l’indirizzo di esecuzione predefinito da utilizzare"
 >abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere quale dare priorità all’invio. L’indirizzo principale è definito a livello di sandbox, ma in questo caso puoi sovrascrivere l’impostazione predefinita per questa configurazione di canale specifica."
 
-Puoi modificare l&#39;indirizzo di esecuzione predefinito per una configurazione di [canale](channel-surfaces.md) e-mail o SMS specifica.
+Puoi modificare l&#39;indirizzo di esecuzione predefinito per una configurazione di [canale](channel-surfaces.md) specifica per e-mail, SMS o WhatsApp.
 
-A tale scopo, passare alla sezione **[!UICONTROL Dimensione di esecuzione]** e modificare il campo in **[!UICONTROL Indirizzo di esecuzione]**.
+A questo scopo, vai alla sezione **[!UICONTROL Dimensione di esecuzione]** e modifica il campo dedicato in **[!UICONTROL Indirizzo di esecuzione]**.
+
+>[!NOTE]
+>
+>Per il [canale WhatsApp](../whatsapp/whatsapp-configuration.md#whatsapp-configuration), il **[!UICONTROL campo di esecuzione WhatsApp]** si trova nella sezione **[!UICONTROL Impostazioni WhatsApp]**.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

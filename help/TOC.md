@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -284,8 +284,9 @@ ht-degree: 98%
    + Impostare le regole di limitazione dei messaggi e dei percorsi {#capping-rules}
       + [Impostare le regole di limitazione dei messaggi e dei percorsi](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Utilizzare i set di regole](using/conflict-prioritization/rule-sets.md)
-      + [Limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
-      + [Quota limite per tipo di comunicazione e canale](using/conflict-prioritization/channel-capping.md)
+      + [Gestire i limiti di percorso e l&#39;arbitrato](using/conflict-prioritization/journey-capping.md)
+      + [Imposta il limite di frequenza per canale e tipo](using/conflict-prioritization/channel-capping.md)
+      + [Imposta le ore non interattive](using/conflict-prioritization/quiet-hours.md)
 + Testare e approvare {#test}
    + [Testare e approvare](/help/rp_landing_pages/test-landing-page.md)
    + Anteprima e test del contenuto {#preview-test}
@@ -885,7 +886,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
