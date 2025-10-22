@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 49%
@@ -268,7 +268,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator ora include l’agente di sperimentazione, uno strumento di conversazione basato sull’intelligenza artificiale che consente di interagire con esperimenti, informazioni approfondite e opportunità. Migliora l’esperienza di Journey Optimizer Experimentation Accelerator, aiutandoti a eseguire gli esperimenti in modo più efficiente, scoprire cosa funziona e scoprire dove ottimizzarla successivamente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: sabato 10 ottobre 2025</p>
 </td>
 </tr>
@@ -348,7 +348,7 @@ Data di disponibilità: 6 ottobre 2025
 
 Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
-### Nuove funzionalità {#oct-25-10-soon-features}
+#### Nuove funzionalità {#oct-25-10-soon-features}
 
 <table>
 <thead>
@@ -369,7 +369,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 </tbody>
 </table>
 
-### Miglioramenti {#oct-25-10-soon-improvements}
+#### Miglioramenti {#oct-25-10-soon-improvements}
 
 **Decisioning nelle e-mail tramite modelli AI**
 
