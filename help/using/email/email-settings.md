@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1419'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,8 @@ Per iniziare a creare un’e-mail, è necessario impostare le configurazioni del
 >[!NOTE]
 >
 >Per preservare la reputazione e migliorare la recapitabilità dei messaggi, imposta i sottodomini da utilizzare per l’invio di e-mail prima di creare una configurazione e-mail. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
+>
+>Prima di creare una configurazione del canale e-mail, devi aver creato almeno un pool IP. [Ulteriori informazioni](../configuration/ip-pools.md)
 
 Definisci le impostazioni e-mail nella sezione dedicata della configurazione dei canali, come descritto di seguito.
 
