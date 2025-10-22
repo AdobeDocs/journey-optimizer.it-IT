@@ -10,9 +10,9 @@ level: Experienced
 keywords: politiche, governance, piattaforma, consenso, scudo sanitario
 hide: true
 hidefromtoc: true
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
 
 1. Definire gli attributi di preferenza con l&#39;operatore booleano a livello di profilo<!--how??-->. Ad esempio, puoi specificare:
 
-   * Newsletter_Email - Booleano (Vero/Falso)
-   * Offerte - Booleano (True/False)
-   * Lanci di nuovi prodotti - Booleano (True/False)
+   * *E-mail_newsletter* - Booleano (true/false)
+   * *Offers_Push* - Booleano (True/False)
+   * *Nuovi avvii prodotti* - Booleano (True/False)
 
    Questi attributi vengono acquisiti nello schema di un [set di dati](../data/get-started-datasets.md) abilitato per il profilo e mappati al [profilo cliente unificato](../audience/get-started-profiles.md).
 
@@ -59,13 +59,13 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
    >
    >Il consenso del cliente e le preferenze di contatto sono argomenti complessi. Per informazioni su come raccogliere, elaborare e filtrare le preferenze di consenso e di contesto in [!DNL Experience Platform], si consiglia di leggere i seguenti documenti:
    >
-   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
-   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
+   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crea una pagina per acquisire le preferenze dei clienti. Utilizzare uno dei metodi seguenti:
 
-   * Crea una pagina Web per registrare le preferenze dei tuoi clienti utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Crea una pagina Web per registrare le preferenze dei tuoi clienti utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Utilizza una [!DNL Journey Optimizer] [pagina di destinazione](../landing-pages/create-lp.md) che include moduli per acquisire le preferenze dei clienti tramite i dati del profilo.  [Ulteriori informazioni sui moduli](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -75,21 +75,23 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
 
 1. In questa pagina, i clienti possono aggiornare le proprie preferenze, ad esempio gli abbonamenti per argomento, selezionando o deselezionando le caselle di controllo.
 
-   Ogni azione attiva un evento di consenso salvato in base agli attributi di profilo corrispondenti (`True` per consenso, `False` per rinuncia) acquisendo i dati nello schema del set di dati abilitato per il profilo<!-- that contains the corresponding preference fields-->.
+   Ogni azione attiva un evento di consenso salvato in base agli attributi di profilo corrispondenti (`true` per consenso, `false` per rinuncia) acquisendo i dati nello schema del set di dati abilitato per il profilo<!-- that contains the corresponding preference fields-->.
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
-   Ad esempio, un utente il cui indirizzo e-mail è john.black@lumamail.com ha accettato di ricevere offerte ma non desidera ricevere newsletter.
+   Ad esempio, un utente <!--whose email address is john.black@lumamail.com--> ha accettato di ricevere offerte push ma non desidera ricevere newsletter e-mail. Il profilo corrispondente viene aggiornato come segue:
 
-   Il set di dati di profilo corrispondente viene aggiornato come segue:
+   ![](assets/profile-preference-attributes.png){width=80%}
 
-   | Attribute = Email id | Attributo = Offerte | Attributo = Newsletter |
-   |---------|----------|---------|
-   | john.black@lumamail.com | Y | N |
+<!--The corresponding profile dataset is updated as follows:
 
-   >[!NOTE]
-   >
-   >Gli eventi di consenso in arrivo vengono inseriti nel profilo del cliente, garantendo aggiornamenti in tempo reale. Ogni profilo riflette le scelte più recenti nelle preferenze di abbonamento.
+|Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
+|---------|----------|---------|
+| john.black@lumamail.com | Y | N |-->
+
+    >[!NOTE]
+    >
+    >Gli eventi di consenso in arrivo vengono inseriti nel profilo del cliente, garantendo aggiornamenti in tempo reale. Ogni profilo riflette le scelte più recenti nelle preferenze di abbonamento.
 
 1. In Adobe Experience Platform, crea un criterio personalizzato (dal menu **[!UICONTROL Privacy]** > **[!UICONTROL Criteri]**). [Scopri come](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-policy){target="_blank"}
 
@@ -113,11 +115,11 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
     
     * Then **[!UICONTROL E-mail_newsletter]** non esiste **[!UICONTROL false]** O **[!UICONTROL E-mail_newsletter]** non è uguale a **[!UICONTROL false]**
     
-    ![](assets/consent-policy-email-newsletter.png){width=100%}
+    ![](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
-    >Il set di dati abilitato per il profilo deve includere l&#39;attributo di profilo **[!UICONTROL Newsletter_Email]** con il valore impostato su &quot;true&quot; (come descritto nel passaggio 1)
+    >Il set di dati abilitato per il profilo deve includere l&#39;attributo di profilo **[!UICONTROL Newsletter_Email]** con il valore impostato su &quot;true&quot; (come descritto al passaggio 1)
 
 1. Dopo aver creato i criteri di consenso, sfruttali in [!DNL Journey Optimizer] utilizzando [configurazioni di canale](consent.md#surface-marketing-actions) o [azioni personalizzate di percorso](consent.md#journey-custom-actions).
 
