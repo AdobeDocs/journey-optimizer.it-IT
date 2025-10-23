@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '958'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,8 @@ Puoi utilizzare queste regole:
 
 * Durante la creazione di [targeting di ottimizzazione del contenuto](../campaigns/campaigns-message-optimization.md#targeting) in percorsi o campagne;
 * Durante la creazione di [ottimizzazione del percorso di percorso](../building-journeys/optimize.md#targeting).
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Regole di accesso {#access}
 
@@ -129,3 +131,9 @@ Per creare una regola, effettua le seguenti operazioni:
 >Una stringa di regola può avere dimensioni fino a 15 KB per caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno).
 >
 >[Ulteriori informazioni sulle regole di idoneità Guardrail e limitazioni](decisioning-guardrails.md#eligibility-rules)
+
+## Video dimostrativo {#video}
+
+Scopri come creare, duplicare e applicare **regole di targeting** riutilizzabili in Adobe Journey Optimizer per personalizzare in modo efficiente le campagne in base agli attributi del cliente come area geografica, lingua e comportamento, risparmiando tempo e migliorando la precisione del pubblico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
