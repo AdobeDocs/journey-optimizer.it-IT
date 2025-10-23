@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 0%
+source-wordcount: '1638'
+ht-degree: 1%
 
 ---
 
@@ -142,9 +142,9 @@ Per eseguire il check-in in modo più coerente se il contenuto è accessibile in
 
 ## Usa modalità scura {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 La modalità scura migliora l&#39;accessibilità visiva per gli utenti con sensibilità alla luce o disturbi visivi, offrendo un&#39;esperienza di visualizzazione migliore.
+
+Il Designer di posta elettronica consente di passare alla visualizzazione **[!UICONTROL modalità scura]** e di definire impostazioni personalizzate specifiche che verranno visualizzate dai client di posta elettronica di supporto. [Ulteriori informazioni](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
