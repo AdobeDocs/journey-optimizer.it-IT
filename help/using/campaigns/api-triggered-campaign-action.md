@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 55%
+source-wordcount: '438'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
    >[!NOTE]
    >
-   >I canali supportati sono: [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md).
+   >I canali supportati sono: [E-mail](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md). Le campagne attivate dall’API ad alto throughput supportano attualmente solo il canale e-mail.
    >
    >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
@@ -36,7 +36,7 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
    Una configurazione viene definita da un [amministratore di sistema](../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni dei canali](../configuration/channel-surfaces.md)
 
-   ![](assets/create-campaign-action.png)
+   ![](assets/api-triggered-create-campaign-action.png)
 
 1. **Ottimizzazione dell&#39;utilizzo**
 
@@ -66,7 +66,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 

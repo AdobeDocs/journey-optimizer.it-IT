@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '3003'
+source-wordcount: '3011'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -231,6 +231,7 @@ ht-degree: 98%
       + [Pianificare la campagna](using/campaigns/api-triggered-campaign-schedule.md)
       + [Rivedere e attivare una campagna](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Attivare l’esecuzione della campagna](using/campaigns/trigger-campaigns.md)
+      + [Attiva la modalità High Throughput per le campagne attivate dall’API](using/campaigns/api-triggered-high-throughput.md)
    + Campagne orchestrate {#orchestrated-campaigns}
       + [Campagne orchestrate](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -886,7 +887,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

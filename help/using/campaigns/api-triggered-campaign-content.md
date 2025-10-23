@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Il processo di creazione dei contenuti dipende dal canale selezionato. Scopri i 
 <td><a href="../push/create-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Notifica push</strong></a></div></td>
 </tr></table>
+
+>[!IMPORTANT]
+>
+>[Le campagne High Throughput](../campaigns/api-triggered-high-throughput.md) non si basano sui profili Adobe: tutte le personalizzazioni devono essere incluse nel payload API come dati contestuali, come descritto di seguito. Questa modalità è disponibile solo per il canale e-mail e nell’area geografica degli Stati Uniti.
 
 ## Personalizzare i contenuti utilizzando i dati contestuali {#contextual}
 

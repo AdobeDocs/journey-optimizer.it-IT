@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,10 @@ Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio gen
 
    ![](assets/api-triggered-curl.png)
 
-1. Utilizza questa richiesta cURL nelle API per generare il payload e attivare la campagna. Per ulteriori informazioni, consulta la [documentazione dell&#39;API di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+   >[!IMPORTANT]
+   >
+   >Gli endpoint nella sezione cURL differiscono tra le campagne standard e le [campagne con throughput elevato](../campaigns/api-triggered-high-throughput.md).
+
+1. Utilizza questa richiesta cURL nelle API per generare il payload e attivare la campagna. Per ulteriori informazioni, consulta la [documentazione dell&#39;API di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), in cui sono elencati tutti gli endpoint per le campagne Standard e High Throughput.
 
    Gli esempi di chiamate API sono disponibili anche in [questa pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).

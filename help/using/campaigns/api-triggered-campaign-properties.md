@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 24%
+source-wordcount: '297'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,18 @@ Per creare una nuova campagna attivata da API, effettua le seguenti operazioni:
    * **[!UICONTROL API attivata - Marketing]** - Seleziona questo tipo di campagna API attivata per inviare comunicazioni di marketing personalizzate a tipi di pubblico mirati.
 
    * **[!UICONTROL API attivata - Transazionale]** - Le campagne transazionali hanno lo scopo di inviare messaggi transazionali, ovvero messaggi inviati in seguito a un&#39;azione eseguita da un individuo: richiesta di reimpostazione della password, acquisto del carrello, ecc.
+
+     +++Modalità High Throughput
+
+     Per le campagne attivate da API transazionali, puoi abilitare la modalità **[!UICONTROL High Throughput]**. Questa modalità è progettata per la messaggistica in tempo reale su larga scala (fino a 5000 transazioni al secondo) e fornisce maggiore disponibilità con latenza inferiore. [Scopri come utilizzare la modalità Highthrouput](../campaigns/api-triggered-high-throughput.md)
+
+     >[!AVAILABILITY]
+     >
+     >Attualmente, la modalità High Throughput è disponibile solo per il canale e-mail e nell’area degli Stati Uniti.
+     >
+     >Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo **Messaggistica transazionale ad alta velocità** di Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+     +++
 
    ![](assets/api-triggered-modal.png)
 
