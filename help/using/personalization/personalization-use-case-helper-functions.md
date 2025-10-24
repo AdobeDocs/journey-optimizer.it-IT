@@ -344,4 +344,4 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 Scopri come utilizzare le funzioni di assistenza.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)

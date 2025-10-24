@@ -36,4 +36,4 @@ Le regole condizionali possono essere utilizzate in E-mail Designer e nell&#39;e
 
 Scopri come creare contenuti dinamici con il generatore di regole di condizione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413672?captions=ita&quality=12)

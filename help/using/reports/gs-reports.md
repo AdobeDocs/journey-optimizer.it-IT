@@ -140,6 +140,6 @@ Scopri come utilizzare in modo efficace il rapporto All-Time (Tutti i tempi) in 
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
 
 +++
