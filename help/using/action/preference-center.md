@@ -8,11 +8,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: politiche, governance, piattaforma, consenso, scudo sanitario
-hide: true
-hidefromtoc: true
-source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
+source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -59,19 +57,19 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
    >
    >Il consenso del cliente e le preferenze di contatto sono argomenti complessi. Per informazioni su come raccogliere, elaborare e filtrare le preferenze di consenso e di contesto in [!DNL Experience Platform], si consiglia di leggere i seguenti documenti:
    >
-   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
-   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
+   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crea una pagina per acquisire le preferenze dei clienti. Utilizzare uno dei metodi seguenti:
 
-   * Crea una pagina Web per registrare le preferenze dei tuoi clienti utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Crea una pagina Web per registrare le preferenze dei tuoi clienti utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Utilizza una [!DNL Journey Optimizer] [pagina di destinazione](../landing-pages/create-lp.md) che include moduli per acquisire le preferenze dei clienti tramite i dati del profilo.  [Ulteriori informazioni sui moduli](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
      >[!NOTE]
      >
-     >Assicurati che il dominio della pagina di destinazione in uso appartenga al marchio di livello superiore e non a un sottomarca. In questo modo si vuole garantire la fiducia tra gli utenti finali. <!--Please clarify-->
+     >Assicurati che il dominio della pagina di destinazione in uso appartenga al brand superiore e non a un sotto-brand. In effetti, le preferenze raccolte vengono memorizzate nei dati del profilo, che si trovano al livello superiore del marchio.
 
 1. In questa pagina, i clienti possono aggiornare le proprie preferenze, ad esempio gli abbonamenti per argomento, selezionando o deselezionando le caselle di controllo.
 
