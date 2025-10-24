@@ -9,13 +9,11 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo
 badge: label="Disponibilità limitata" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1572'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è attualmente a disponibilità limitata per i clienti negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Optimizer] e arricchire i set di dati [!DNL Experience Platform], puoi sfruttare i moduli nelle pagine di destinazione.
 
@@ -33,7 +31,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 >id="ajo_lp_form_connection"
 >title="Seleziona l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -42,7 +40,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 
 Prima di poter creare un modulo, devi creare un predefinito dedicato in cui selezionare l’endpoint di connessione in cui vengono inviati i dati di invio del modulo e il set di dati in cui verranno memorizzati i dati acquisiti tramite il modulo.
 
-Quando i dati arrivano sull’endpoint di streaming, sono collegati alle informazioni del set di dati. Utilizzando le connessioni di origine/destinazione generate e il flusso di origine, i dati vengono quindi inviati al set di dati.
+Una volta che i dati arrivano sull’endpoint di streaming, vengono collegati alle informazioni del set di dati. Utilizzando le connessioni di origine/destinazione generate e il flusso di origine, i dati vengono quindi inviati al set di dati.
 
 Durante la creazione di un predefinito:
 
@@ -53,9 +51,13 @@ Durante la creazione di un predefinito:
    * **Connessione di destinazione** - in cui i dati vengono archiviati o utilizzati.
    * **Flusso di Source**: la pipeline che sposta i dati dalla connessione di origine in [!DNL Experience Platform], gestendo la mappatura, la trasformazione e la convalida.
 
+<!--
 >[!NOTE]
 >
-> Per accedere e modificare i predefiniti di modulo, è necessario disporre dell&#39;autorizzazione **[!UICONTROL Gestisci predefiniti di modulo]** per la sandbox di produzione. Ulteriori informazioni sulle autorizzazioni in [questa sezione](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+Per creare un predefinito per moduli, effettua le seguenti operazioni.
 
 1. Per accedere all&#39;inventario **[!UICONTROL Predefiniti modulo]**, seleziona **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** >**[!UICONTROL Impostazioni modulo]** dal menu a sinistra.
 
@@ -69,13 +71,13 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
    >[!NOTE]
    >
-   >Al momento sono disponibili solo [!DNL Adobe Experience Platform] set di dati per la selezione. È possibile selezionare un solo set di dati alla volta.
+   >Al momento sono disponibili solo [!DNL Adobe Experience Platform] set di dati per la selezione. È possibile selezionare un set di dati alla volta. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
 
 1. Fai clic su **[!UICONTROL Pubblica]**. Il predefinito è ora pronto per essere utilizzato in un modulo.
 
@@ -93,7 +95,7 @@ Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al
 >id="ajo_lp_form_preset"
 >title="Seleziona un predefinito"
 >abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
@@ -162,7 +164,7 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >
@@ -192,7 +194,7 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 >title="Pagina di ringraziamento"
 >abstract="Configurare l&#39;operazione da eseguire quando un utente compila o inoltra il modulo."
 
-Nella sezione **[!UICONTROL Pagina di ringraziamento]**, configura cosa accade quando un utente compila il modulo.
+Tornando ai dettagli del modulo, dalla sezione **[!UICONTROL Pagina di ringraziamento]** configura ciò che accade quando un utente compila il modulo.
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -239,7 +241,7 @@ Una volta pubblicato un modulo, è comunque possibile modificarlo. Segui i passa
 
 ## Sfruttare il modulo in una pagina di destinazione {#leverage-form-in-lp}
 
-Ora puoi incorporare questo modulo in una pagina di destinazione per acquisire i dati corrispondenti agli attributi definiti nel modulo e salvarli nel set di dati selezionato. Segui i passaggi seguenti.
+Ora puoi incorporare questo modulo in una pagina di destinazione per acquisire i dati corrispondenti agli attributi definiti nel modulo e salvarlo nel set di dati selezionato. Segui i passaggi seguenti.
 
 1. Crea una pagina di destinazione. [Scopri come](create-lp.md#create-landing-page)
 
@@ -263,7 +265,7 @@ Ora puoi incorporare questo modulo in una pagina di destinazione per acquisire i
 
    >[!NOTE]
    >
-   >Puoi aggiornare il modulo selezionato utilizzando il pulsante **[!UICONTROL Modifica modulo]**. Il modulo viene aperto in una nuova scheda. I passaggi per modificare il contenuto del modulo sono gli stessi descritti in [questa sezione](#create-form).
+   >Puoi aggiornare il modulo selezionato utilizzando il pulsante **[!UICONTROL Modifica modulo]**. Il modulo viene aperto in una nuova scheda. I passaggi per modificare il contenuto del modulo sono descritti in [questa sezione](#create-form).
 
 1. Nella sezione **[!UICONTROL Tipo di completamento]**, configura cosa accade quando un utente compila il modulo:
 
