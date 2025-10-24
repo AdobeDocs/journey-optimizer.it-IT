@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

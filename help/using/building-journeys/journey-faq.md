@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
 workflow-type: tm+mt
-source-wordcount: '4531'
+source-wordcount: '4526'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -744,19 +744,12 @@ Ulteriori informazioni su [criteri di unione](../audience/get-started-profiles.m
 
 +++ Qual è la differenza tra una condizione e un’attività Attendi?
 
-**Attività condizione**:
-
-* **Scopo**: crea percorsi diversi in base alla logica (if/then)
-* **Funzione**: valuta i dati e instrada i profili di conseguenza
-* **Casi d&#39;uso**: segmentazione clienti, verifica stato, ramo in base al comportamento
-* **Esempio**: se il cliente è VIP, invia un&#39;offerta premium; in caso contrario invia un&#39;offerta standard
-
-**Attività attesa**:
-
-* **Scopo**: sospende il percorso per un periodo di tempo
-* **Funzione**: mantiene i profili in un punto specifico prima di continuare
-* **Casi d&#39;uso**: intervalli tra i messaggi, attesa dell&#39;orario di lavoro, creazione di ritardi
-* **Esempio**: attendi 3 giorni dall&#39;e-mail di benvenuto prima di inviare il messaggio successivo
+| | **Attività condizione** | **Attività Attendi** |
+|---|---|---|
+| **Finalità** | Crea percorsi diversi in base alla logica (if/then) | Sospende il percorso per un periodo di tempo |
+| **Funzione** | Valuta i dati e instrada i profili di conseguenza | Mantiene i profili in un punto specifico prima di continuare |
+| **Caso d’uso** | Segmentazione clienti, verifica stato, ramo in base al comportamento | Intervallo tra i messaggi, attesa dell’orario di lavoro, creazione di ritardi |
+| **Esempio** | Se il cliente è VIP, invia un’offerta premium; in caso contrario invia un’offerta standard | Attendi 3 giorni dall’e-mail di benvenuto prima di inviare il messaggio successivo |
 
 **Lavorano insieme**:
 

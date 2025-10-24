@@ -120,8 +120,8 @@ Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non pu�
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
