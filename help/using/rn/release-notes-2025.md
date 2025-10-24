@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '7883'
-ht-degree: 100%
+source-wordcount: '7884'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <li><strong>Insight e opportunità sull’esperimento IA:</strong> supera la semplice lettura dei dati con insight e consigli basati sull’intelligenza artificiale generativa. Ciascun esperimento ora evidenzia opportunità utilizzabili, corredate da motivazioni a supporto, in modo che i team possano decidere con maggiore sicurezza cosa testare successivamente.</li>
 <li><strong>Supporto Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> massimizza l’impatto riducendo il traffico sprecato con esperimenti Multi-Armed Bandit. Invece di suddividere i tipi di pubblico in modo uniforme, il MAB assegna automaticamente più visitatori alle varianti con le prestazioni migliori in tempo reale, in modo da poter fornire esperienze di maggior valore a una clientela più elevata e continuando ad apprendere al tempo stesso che cosa funziona.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../content-management/experiment-accelerator.md">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 3 ottobre 2025</p>
 </td>
 </tr>

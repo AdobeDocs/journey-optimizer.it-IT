@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -555,13 +555,8 @@ ht-degree: 98%
    + Esperimento contenuti {#content-experiment}
       + [Esperimento contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introduzione all’esperimento sui contenuti](using/content-management/get-started-experiment.md)
+      + [Introduzione all’acceleratore di esperimenti](using/content-management/experiment-accelerator-gs.md)
       + [Creare un esperimento sui contenuti](using/content-management/content-experiment.md)
-      + Acceleratore esperimenti {#experiment}
-         + [Introduzione all’acceleratore di esperimenti](using/content-management/experiment-accelerator.md)
-         + [Utilizzo dei dati nell’IA con Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
-         + [Best practice per l’acceleratore di esperimenti](using/content-management/experiment-accelerator-best-practices.md)
-         + [Monitoraggio dell’acceleratore di esperimenti](using/content-management/experiment-accelerator-monitor.md)
-         + [Metriche dell’acceleratore di esperimenti](using/content-management/experiment-accelerator-metrics.md)
       + Note tecniche {#technotes}
          + [Note tecniche](/help/rp_landing_pages/technotes-landing-page.md)
          + [Test A/B vs multi-armed bandit](using/content-management/mab-vs-ab.md)
@@ -887,7 +882,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
