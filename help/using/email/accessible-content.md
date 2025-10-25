@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 1%
@@ -73,7 +73,7 @@ Per assicurarti che il contenuto sia accessibile visivamente, segui le best prac
 * Ottimizza la progettazione per layout mobili e reattivi, garantendo pulsanti grandi e spaziati correttamente.
 * Esegui regolarmente test tra dispositivi e dimensioni dello schermo per mantenere l’accessibilità.
 
-In [!DNL Journey Optimizer], le dimensioni e la spaziatura dei diversi elementi del contenuto possono essere ulteriormente migliorate utilizzando i parametri e gli attributi di stile del riquadro **[!UICONTROL Stili]** di E-mail Designer. [Ulteriori informazioni](get-started-email-style.md)
+In [!DNL Journey Optimizer], le dimensioni e la spaziatura dei diversi elementi del contenuto possono essere ulteriormente migliorate utilizzando i parametri e gli attributi di stile del riquadro **[!UICONTROL Stili]** di E-mail Designer. [Scopri come](get-started-email-style.md)
 
 È ad esempio possibile aggiornare lo [sfondo](backgrounds.md) o modificare i margini, la spaziatura interna e l&#39;allineamento per migliorare l&#39;accessibilità visiva del contenuto. [Ulteriori informazioni](alignment-and-padding.md)
 
@@ -89,7 +89,7 @@ Inoltre, il Designer e-mail di [!DNL Journey Optimizer] consente di visualizzare
 
 ## Usa testo alternativo per le immagini {#alt-text}
 
-Utilizza il componente **[!UICONTROL Immagine]** per fornire testo alternativo per le immagini. [Ulteriori informazioni](content-components.md#image)
+Utilizza il componente **[!UICONTROL Immagine]** per fornire testo alternativo per le immagini. [Scopri come](content-components.md#image)
 
 ![](assets/accessible-alt-text.png){width="90%"}
 
@@ -144,7 +144,7 @@ Per eseguire il check-in in modo più coerente se il contenuto è accessibile in
 
 La modalità scura migliora l&#39;accessibilità visiva per gli utenti con sensibilità alla luce o disturbi visivi, offrendo un&#39;esperienza di visualizzazione migliore.
 
-Il Designer di posta elettronica consente di passare alla visualizzazione **[!UICONTROL modalità scura]** e di definire impostazioni personalizzate specifiche che verranno visualizzate dai client di posta elettronica di supporto. [Ulteriori informazioni](dark-mode.md)
+Il Designer di posta elettronica consente di passare alla visualizzazione **[!UICONTROL modalità scura]** e di definire impostazioni personalizzate specifiche che verranno visualizzate dai client di posta elettronica di supporto. [Scopri come](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

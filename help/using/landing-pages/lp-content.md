@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 9%
 
 ---
@@ -33,6 +33,10 @@ Per progettare contenuto specifico che consenta agli utenti di selezionare e inv
 >Puoi anche creare una pagina di destinazione click-through senza un componente **[!UICONTROL Modulo]**. In tal caso, gli utenti visualizzeranno la pagina di destinazione, ma non dovranno inviare alcun modulo. Questa funzione può essere utile se desideri visualizzare una pagina di destinazione solo senza richiedere alcuna azione da parte dei destinatari, ad esempio consenso o rinuncia, oppure se desideri fornire informazioni che non richiedono l’input dell’utente.
 
 Utilizzando la finestra di progettazione del contenuto della pagina di destinazione, puoi anche sfruttare i dati contestuali provenienti dalla pagina principale di una pagina secondaria. [Ulteriori informazioni](#use-primary-page-context)
+
+>[!NOTE]
+>
+>Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
 
 ## Utilizzare il componente modulo {#use-form-component}
 
