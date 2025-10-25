@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,10 @@ Puoi anche modificare ogni campo **[!UICONTROL Valore]** utilizzando l’[editor
 
 I seguenti valori predefiniti sono disponibili tramite l’editor di personalizzazione:
 
+* **ID profilo messaggio**: attributo orientato al messaggio che identifica in modo univoco ogni messaggio inviato a ogni profilo di destinazione in una consegna.
+
+* **ID offerta**: ID dell’offerta utilizzato nell’e-mail.
+
 * **ID azione di origine**: ID dell’azione e-mail aggiunta al percorso o alla campagna.
 
 * **Nome azione di origine**: nome dell’azione e-mail aggiunta al percorso o alla campagna.
@@ -53,8 +57,6 @@ I seguenti valori predefiniti sono disponibili tramite l’editor di personalizz
 * **Nome di origine**: nome del percorso o della campagna con cui è stata inviata l’e-mail.
 
 * **ID versione di origine**: ID della versione del percorso o della campagna con cui è stata inviata l’e-mail.
-
-* **ID offerta**: ID dell’offerta utilizzato nell’e-mail.
 
 >[!NOTE]
 >
