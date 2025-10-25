@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, configurazione, ambiente, sottodominio, predefiniti
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 13%
 
 ---
 
@@ -60,15 +60,23 @@ Per creare un predefinito per pagina di destinazione, effettua le seguenti opera
 
    ![](assets/lp_preset-subdomain.png)
 
-   Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
+   >[!NOTE]
+   >
+   >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](lp-subdomains.md)
 
    Vengono visualizzate le impostazioni corrispondenti al sottodominio selezionato.
 
-1. Puoi selezionare il sottodominio della pagina di destinazione per l&#39;URL di tracciamento selezionando l&#39;opzione **[!UICONTROL Come sottodominio della pagina di destinazione]**. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
+1. Puoi selezionare il sottodominio della pagina di destinazione per l&#39;**[!UICONTROL URL di tracciamento]** selezionando l&#39;opzione **[!UICONTROL Come sottodominio della pagina di destinazione]**. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Ad esempio, se l’URL della pagina di destinazione è &quot;pages.mail.luma.com&quot; e l’URL di tracciamento è &quot;data.mail.luma.com&quot;, puoi scegliere &quot;pages.mail.luma.com&quot; da utilizzare come sottodominio di tracciamento.
+
+   >[!CAUTION]
+   >
+   >Il sottodominio della pagina di destinazione selezionato viene utilizzato per specificare l&#39;**[!UICONTROL URL di tracciamento]** <!--and **[!UICONTROL Image Delivery URL]** -->se il sottodominio è stato creato utilizzando un [sottodominio esistente](lp-subdomains.md#lp-use-existing-subdomain).
+   >
+   >Se il sottodominio è stato creato utilizzando l&#39;opzione [Aggiungi il tuo dominio](lp-subdomains.md#lp-configure-new-subdomain), viene utilizzato il sottodominio principale (ovvero il primo sottodominio delegato).
 
 1. Fai clic su **[!UICONTROL Invia]** per confermare la creazione del predefinito per pagina di destinazione. <!--You can also save the preset as draft and resume its configuration later on.-->
 
