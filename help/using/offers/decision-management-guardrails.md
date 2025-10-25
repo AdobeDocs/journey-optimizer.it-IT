@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 14%
+source-wordcount: '348'
+ht-degree: 12%
 
 ---
 
@@ -89,3 +89,9 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Posizionamenti | 1000 |
 | Modello di classificazione IA | 5 |
 | Limite di frequenza: numero massimo di regole di limite per offerta | 10 |
+
+## Configurazioni  {#configurations}
+
+Il numero totale di configurazioni supportate da Gestione decisioni non può superare i 20.000.
+
+Il conteggio di configurazione totale è il numero totale di [regole di limite](offer-library/add-constraints.md#capping) esistenti nella sandbox. Per ogni regola di limite applicata a tutti i [posizionamenti](offer-library/creating-placements.md), la regola deve essere moltiplicata per tutti i posizionamenti associati all&#39;offerta specificata.

@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 16%
+source-wordcount: '237'
+ht-degree: 15%
 
 ---
 
@@ -67,3 +67,9 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 | Posizionamenti totali | 1 K |
 | Modello di classificazione IA | 5 |
 | Regole di frequenza: numero massimo di regole di limite per offerta | 10 |
+
+## Configurazioni  {#configurations}
+
+Il numero totale di configurazioni supportate da Decisioning non può superare i 20.000.
+
+Il conteggio di configurazione totale è il numero totale di [regole di limite](items.md#capping) esistenti nella sandbox.
