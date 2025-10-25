@@ -78,8 +78,8 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
