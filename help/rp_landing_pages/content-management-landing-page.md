@@ -5,10 +5,10 @@ title: Gestione dei contenuti
 description: Gestione dei contenuti
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '280'
-ht-degree: 100%
+source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Le funzioni di gestione dei contenuti di Adobe Journey Optimizer consentono di c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Personalizzazione in Adobe Journey Optimizer
+Aggiungi Personalization
 
 Scopri come implementare e ottimizzare le funzioni di personalizzazione per creare esperienze cliente personalizzate.
 
@@ -30,9 +30,9 @@ Scopri come implementare e ottimizzare le funzioni di personalizzazione per crea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Le pagine di destinazione in Adobe Journey Optimizer
+Creare pagine di destinazione
 
 Scopri strumenti e tutorial per creare, gestire e ottimizzare le pagine di destinazione per le campagne di marketing.
 
@@ -40,9 +40,9 @@ Scopri strumenti e tutorial per creare, gestire e ottimizzare le pagine di desti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Modelli di contenuto in Adobe Journey Optimizer
+Modelli di contenuto
 
 Semplifica la creazione di contenuti utilizzando modelli riutilizzabili per una gestione efficiente delle campagne e dei percorsi.
 
@@ -50,7 +50,7 @@ Semplifica la creazione di contenuti utilizzando modelli riutilizzabili per una 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Frammenti di contenuto riutilizzabili
 
@@ -60,9 +60,9 @@ Scopri come creare e gestire frammenti di contenuto riutilizzabili per la person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Contenuti dinamici in Adobe Journey Optimizer
+Creare contenuti dinamici
 
 Utilizza le regole condizionali per creare contenuti dinamici e personalizzati per e-mail, SMS e notifiche push.
 
@@ -70,7 +70,7 @@ Utilizza le regole condizionali per creare contenuti dinamici e personalizzati p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casi d’uso per più soluzioni
 
