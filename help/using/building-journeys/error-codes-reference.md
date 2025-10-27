@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: errore, codici, risoluzione dei problemi, percorso, campagna, messaggi
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: d9d0ca98d5f86a32653c9cb73197873cb31a2c6f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -118,8 +118,9 @@ Quando incontri un codice di errore, segui questo approccio sistematico:
 
 ### Prima dell&#39;attivazione del percorso {#journey-best-practices}
 
-* **Convalida tutte le risorse**: verifica che tutti i tipi di pubblico di riferimento, le origini dati e le azioni personalizzate siano attivi
+* **Convalida tutte le risorse**: verifica che tutti i tipi di pubblico, gli eventi, le origini dati e le azioni personalizzate a cui si fa riferimento siano configurati correttamente
 * **Verifica approfondita**: utilizza la modalità di test per identificare i problemi prima di pubblicare ([Ulteriori informazioni](testing-the-journey.md))
+* **Convalida volumi**: utilizza l&#39;esecuzione in prova per convalidare la portata del pubblico e la logica di diramazione prima della pubblicazione ([Ulteriori informazioni](journey-dry-run.md))
 * **Verifica autorizzazioni**: verifica di disporre dei diritti di accesso necessari per tutti i componenti
 * **Verifica dipendenze**: verifica che tutti i messaggi e il contenuto collegati siano pubblicati
 
