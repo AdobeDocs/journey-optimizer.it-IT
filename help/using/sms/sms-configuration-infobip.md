@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
+source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 2%
@@ -49,14 +49,14 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
    | Messaggio di rinuncia | Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
    | Parole chiave della Guida | Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
    | Messaggio di aiuto | Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?captions=ita&learn=on). |
+   | Parole chiave per doppio consenso | Immetti le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Doppio messaggio di consenso | Immetti la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | ID entità principale | Immettere l&#39;ID entità entità principale DLT assegnato. |
    | ID modello contenuto | Immetti l&#39;ID del modello di contenuto DLT registrato. |
    | Periodo di validità | Immetti il periodo di validità del messaggio in ore. Nel caso in cui i messaggi non possano essere consegnati entro questo intervallo di tempo, il sistema effettuerà ulteriori tentativi per inviarli nuovamente. Il periodo di validità predefinito è impostato su 48 ore. |
    | Dati callback | Immetti i dati client aggiuntivi che verranno inviati sull’URL di notifica. |
    | Numero in entrata | Aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata. |
-   | Parole chiave in entrata personalizzate | Definisci parole chiave univoche non correlate al consenso per azioni basate su batch, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare una qualificazione del segmento di streaming all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
+   | Parole chiave in entrata personalizzate | Definisci parole chiave univoche non correlate al consenso per azioni basate su batch, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare la qualifica di un segmento in batch all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
    | Messaggio di risposta in entrata predefinito | Immetti la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite. |
 
    +++
