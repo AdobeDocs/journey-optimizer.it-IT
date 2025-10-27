@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -51,4 +51,11 @@ Scopri come creare percorsi [nei seguenti casi d’uso end-to-end](jo-use-cases.
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## Risorse aggiuntive {#additional-resources}
+
+* [Domande frequenti sui Percorsi](journey-faq.md) - Domande frequenti sui percorsi
+* [Riferimento codici di errore](error-codes-reference.md) - Codici di errore di Percorso e passaggi per la risoluzione dei problemi
+* [Avvisi](../reports/alerts.md) - Configura avvisi per il monitoraggio del percorso
+* [Risoluzione dei problemi](troubleshooting.md) - Problemi e soluzioni comuni del percorso
