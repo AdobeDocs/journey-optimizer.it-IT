@@ -5,10 +5,10 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Quando un percorso cliente non si comporta come previsto, identificare la causa 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Risolvere i problemi prima di testare o pubblicare il percorso
 
@@ -31,7 +31,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Risoluzione dei problemi relativi all’esecuzione di percorsi live in Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Risolvere i problemi relativi alle azioni in entrata nei percorsi Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Risoluzione dei problemi relativi alle azioni personalizzate in Adobe Journey Optimizer
 
@@ -60,8 +60,14 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione �
 [Convalidare le azioni personalizzate](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Riferimento codici di errore
+
+Comprendi i codici di errore comuni in Adobe Journey Optimizer e individua soluzioni rapide per i problemi relativi a percorsi, campagne e messaggi.
+
+[Visualizza riferimento codici di errore](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### Risorse aggiuntive
-
-Inoltre, consulta [questo post di blog della community Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) in cui sono descritti i codici di errore più comuni e come risolverli in modo efficace.
