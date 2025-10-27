@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,11 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
    * Tutte le personalizzazioni devono essere incluse nel payload API come **dati contestuali**. [Scopri come personalizzare il contenuto utilizzando i dati contestuali](../campaigns/api-triggered-campaign-action.md#contextual)
    * La personalizzazione basata su profili non è supportata. Se si utilizzano variabili di profilo, si verificheranno errori di convalida.
 
+* **Configurazioni di canale personalizzate** - Le configurazioni di canale che utilizzano [personalizzazione basata su profilo](../email/surface-personalization.md) non possono essere utilizzate con campagne con throughput elevato. È possibile utilizzare solo superfici senza personalizzazione del profilo.
+
 * **Endpoint API** - Le campagne con throughput elevato utilizzano un endpoint diverso dalle campagne attivate dall&#39;API standard. Per ulteriori dettagli, vedere [Eseguire una campagna attivata da API](../campaigns/trigger-campaigns.md#trigger).
 
-* **Esclusività campagna**: le campagne a velocità elevata non utilizzano i profili di Adobe. I messaggi vengono consegnati indipendentemente dal fatto che esista o meno un profilo.
+* **Esclusività campagna** - Le campagne a velocità elevata non utilizzano i profili di Adobe. I messaggi vengono consegnati indipendentemente dal fatto che esista o meno un profilo.
 
   Inoltre, non è possibile utilizzare una campagna sia per i casi di utilizzo abilitati che per quelli non abilitati per il profilo. Se ti servono entrambe, crea due campagne separate e assicurati che il sistema chiamante decida quale attivare in base al contesto.
 
