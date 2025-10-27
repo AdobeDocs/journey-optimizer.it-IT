@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
       + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
-   + Risoluzione dei problemi {#troubleshoot-journey}
-      + [Risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [Riferimento codici di errore](using/building-journeys/error-codes-reference.md)
-      + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
-      + [Risolvere i problemi relativi all’esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
-      + [Risolvere i problemi relativi alle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
-      + [Risolvere i problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
 + Campagne {#campaigns}
    + [Campagne](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [Dividi](using/orchestrated/activities/split.md)
          + [Test](using/orchestrated/activities/test.md)
          + [Attendi](using/orchestrated/activities/wait.md)
-+ Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
++ Conflitti e assegnazione delle priorità {#conflict-prioritization}
    + [Gestione dei conflitti e assegnazione delle priorità](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [Creare e gestire criteri di approvazione](using/test-approve/approval-policies.md)
       + [Richiedere un’approvazione](using/test-approve/request-approval.md)
       + [Approvare una richiesta](using/test-approve/review-approve-request.md)
++ Monitoraggio e risoluzione dei problemi {#monitor}
+   + [Monitoraggio e risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Avvisi di sistema](using/reports/alerts.md)
+   + [Riferimento codici di errore](using/building-journeys/error-codes-reference.md)
+   + Risoluzione dei problemi dei percorsi {#troubleshoot-journey}
+      + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
+      + [Risolvere i problemi relativi all’esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
+      + [Risolvere i problemi relativi alle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
+      + [Risolvere i problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
 + Canali di comunicazione {#channels}
    + [Introduzione ai canali di comunicazione](using/channels/gs-channels.md)
    + Canale e-mail {#email}
@@ -883,7 +884,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

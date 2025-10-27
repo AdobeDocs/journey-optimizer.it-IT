@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
+source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -729,7 +729,11 @@ Ulteriori informazioni su [eventi aziendali](general-events.md).
 **Impatto sui percorsi**:
 
 * I percorsi utilizzano il criterio di unione associato al pubblico o all’evento per determinare quali dati di profilo sono disponibili
-* Il criterio di unione determina quali attributi e identità sono accessibili in condizioni di percorso, personalizzazione e azioni
+   * In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
+   * Nei percorsi di eventi unitari: viene utilizzato il criterio di unione predefinito
+   * Nei percorsi di eventi aziendali: viene utilizzato il criterio di unione del pubblico di destinazione nella seguente attività Read audience
+
+* Il criterio di unione influisce sugli attributi accessibili in condizioni di percorso, personalizzazione e azioni
 * Criteri di unione diversi possono causare l’utilizzo di dati di profilo diversi nel percorso
 
 **Best practice**:
