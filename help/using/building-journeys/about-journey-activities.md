@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 15%
 
 ---
@@ -118,3 +118,5 @@ Quando si verifica un errore in un’azione o in una condizione, il percorso di 
 Prima di testare e pubblicare il percorso, controlla che tutte le attività siano state configurate correttamente. Non è possibile eseguire test o pubblicazioni se il sistema rileva ancora degli errori.
 
 Scopri come risolvere gli errori nelle attività e nel percorso [in questa pagina](troubleshooting.md).
+
+Vedi anche **[Monitoraggio e risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.

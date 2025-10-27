@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Comprendere il ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [Utilizzare l’Assistente IA](using/start/ai-assistant.md)
    + [Playbook di casi d’uso](using/start/playbooks.md)
    + [Guardrail e limitazioni](using/start/guardrails.md)
-   + [Risoluzione dei problemi](using/start/troubleshooting.md)
 + Percorsi {#orchestrate-journeys}
    + [Percorsi](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [Monitoraggio e risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Avvisi di sistema](using/reports/alerts.md)
    + [Riferimento codici di errore](using/building-journeys/error-codes-reference.md)
+   + [Articoli sulla risoluzione dei problemi](using/start/troubleshooting.md)
    + Risoluzione dei problemi dei percorsi {#troubleshoot-journey}
       + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
       + [Risolvere i problemi relativi all’esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
@@ -884,7 +884,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
