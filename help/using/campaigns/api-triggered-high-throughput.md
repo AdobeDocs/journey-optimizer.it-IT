@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
-source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
+source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '622'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,15 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 * **Esclusività campagna** - Le campagne a velocità elevata non utilizzano i profili di Adobe. I messaggi vengono consegnati indipendentemente dal fatto che esista o meno un profilo.
 
   Inoltre, non è possibile utilizzare una campagna sia per i casi di utilizzo abilitati che per quelli non abilitati per il profilo. Se ti servono entrambe, crea due campagne separate e assicurati che il sistema chiamante decida quale attivare in base al contesto.
+
+* **Set di dati per il feedback e il tracciamento** - I dati di feedback e tracciamento per le campagne con throughput elevato vengono memorizzati in set di dati dedicati che non sono abilitati per i profili. Di conseguenza, questi eventi non vengono uniti ai profili, anche se esiste un profilo corrispondente.
+
+  I set di dati utilizzati sono:
+
+   * **Set Di Dati Evento Feedback Messaggio Di AJO - Non Profilo**
+   * **Set Di Dati Evento Esperienza Tracciamento E-Mail AJO - Non Profilo**
+
+* **Allocazione throughput** - Il throughput fornito con il componente aggiuntivo High Throughput è riservato esclusivamente alle campagne con throughput elevato. Non esiste alcuna condivisione della velocità effettiva tra le campagne attivate dall’API a velocità standard e quella ad alta velocità.
 
 ## Scelta tra campagne standard e campagne a throughput elevato
 
