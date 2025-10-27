@@ -30,7 +30,7 @@ Sfrutta l’intelligenza artificiale generativa per creare e personalizzare cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 Ottimizzazione dei tempi di invio
 
@@ -70,7 +70,7 @@ Genera più varianti di contenuto ed esegui esperimenti per identificare il cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=it)
 
 Integrazione di Customer AI
 
