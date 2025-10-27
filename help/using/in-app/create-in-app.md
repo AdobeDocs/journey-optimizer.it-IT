@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2076'
 ht-degree: 12%
 
 ---
@@ -110,7 +110,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
    1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
 
       * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
-      * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
+      * **[!UICONTROL Mostra una volta]**: questo messaggio viene visualizzato una sola volta per sessione utente e rimane visibile in tutte le finestre o attività fino alla chiusura. Per limitarla a una determinata schermata o farla chiudere automaticamente, utilizza una logica personalizzata con il delegato alla messaggistica.
       * **[!UICONTROL Mostra fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attiva app mobile]** si verificano fino a quando un evento di interazione non viene inviato dal SDK con l&#39;azione &quot;cliccato&quot;.
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
@@ -236,7 +236,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451890?quality=12&learn=on&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?learn=on&autoplay=true&captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
