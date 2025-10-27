@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: errore, codici, risoluzione dei problemi, percorso, campagna, messaggi
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Quando incontri un codice di errore, segui questo approccio sistematico:
 * [Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)
 * [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md)
 * [Domande frequenti sul percorso](journey-faq.md)
-* [Guardrail e limitazioni](limitations.md)
+* [Guardrail e limitazioni](../start/guardrails.md)
 
 ## Ottenere supporto {#getting-support}
 
