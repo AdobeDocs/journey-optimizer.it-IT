@@ -5,23 +5,27 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
+source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 68%
+source-wordcount: '413'
+ht-degree: 31%
 
 ---
 
-# Risoluzione dei problemi{#section-overview}
+# Monitoraggio e risoluzione dei problemi{#section-overview}
 
-Quando un percorso cliente non si comporta come previsto, identificare la causa principale può essere difficile. Per aiutarti a risolvere i problemi in modo efficiente, di seguito sono riportate le risorse relative alla risoluzione e in base alle aree più comuni. Sia che vengano visualizzati errori di percorso, incoerenze di esecuzione o problemi a livello di azione, ogni sezione fornisce indicazioni mirate per analizzarli e risolverli.
+Una gestione efficace dei percorsi dei clienti richiede monitoraggio proattivo, reporting approfondito ed efficienti funzionalità di risoluzione dei problemi. Adobe Journey Optimizer fornisce strumenti completi per tenere traccia delle prestazioni del percorso, identificare potenziali problemi e risolverli rapidamente quando si presentano.
+
+Utilizza [avvisi di sistema](../using/reports/alerts.md) per ricevere notifiche su eventi critici, sfruttare [rapporti di percorso](../using/reports/journey-global-report-cja.md) per analizzare le metriche delle prestazioni e rivedere [eventi di passaggio di percorso](../using/reports/journey-step-events-overview.md) per comprendere i flussi di esecuzione dettagliati. Quando si verificano dei problemi, consultare [codici di errore](../using/building-journeys/error-codes-reference.md) per una rapida risoluzione e seguire le istruzioni mirate per la risoluzione dei problemi per aree specifiche, che si verifichino errori di percorso, incoerenze di esecuzione o problemi a livello di azione.
+
+Questa pagina riunisce risorse essenziali per aiutarti a monitorare lo stato del percorso, accedere a informazioni chiave sulla generazione di rapporti e risolvere i problemi in modo efficiente in tutte le fasi dei percorsi dei clienti.
 
 ## Risoluzione dei problemi
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Accedere e iscriversi agli avvisi di sistema
 
@@ -31,7 +35,7 @@ Scopri come accedere agli avvisi di sistema, abbonarti alle notifiche e monitora
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Riferimento codici di errore
 
@@ -41,7 +45,7 @@ Comprendi i codici di errore comuni in Adobe Journey Optimizer e individua soluz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Risolvere i problemi prima di testare o pubblicare il percorso
 
@@ -51,7 +55,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Risoluzione dei problemi relativi all’esecuzione di percorsi live in Adobe Journey Optimizer
 
@@ -61,7 +65,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Risolvere i problemi relativi alle azioni in entrata nei percorsi Adobe Journey Optimizer
 
@@ -71,7 +75,7 @@ Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Risoluzione dei problemi relativi alle azioni personalizzate in Adobe Journey Optimizer
 
@@ -81,6 +85,20 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione �
 :::
 
 ::::
+
+## Reporting e monitoraggio
+
+Accedi ai report chiave per monitorare le prestazioni del percorso, analizzare le metriche e identificare i problemi:
+
+* [Rapporti globali Percorso](../using/reports/journey-global-report-cja.md) - Visualizza metriche e analisi complete delle prestazioni del percorso su tutti i canali.
+
+* [Report live del Percorso](../using/reports/journey-live-report.md) - Monitora i dati di esecuzione del percorso in tempo reale e tieni traccia delle interazioni attive con i clienti.
+
+* [Eventi del passaggio del Percorso](../using/reports/journey-step-events-overview.md) - Analizza eventi dettagliati di esecuzione del percorso per la risoluzione dei problemi e l&#39;ottimizzazione.
+
+* [Introduzione ai report](../using/reports/report-gs-cja.md): scopri le funzionalità di reporting, le metriche e come accedere agli approfondimenti del percorso.
+
+* [Monitoraggio del recapito messaggi](../using/reports/deliverability.md) - Tieni traccia delle percentuali di recapito dei messaggi e identifica potenziali problemi di recapito tra i canali.
 
 ## Risorse aggiuntive
 
