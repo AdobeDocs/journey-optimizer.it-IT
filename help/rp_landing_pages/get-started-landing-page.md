@@ -5,22 +5,24 @@ title: Introduzione
 description: Introduzione
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 78%
+source-wordcount: '352'
+ht-degree: 54%
 
 ---
 
 # Introduzione{#section-overview}
 
-Adobe Journey Optimizer consente alle aziende di creare esperienze cliente personalizzate e in tempo reale su più canali, consentendo di soddisfare i clienti ovunque si trovino con il messaggio giusto al momento giusto. Questa piattaforma fornisce gli strumenti per ottimizzare ogni interazione tramite l’orchestrazione di percorsi cliente complessi, l’utilizzo delle decisioni basate sull’intelligenza artificiale e la gestione semplice di dati e contenuti. In questa sezione scoprirai in che modo le funzionalità chiave, come l’orchestrazione omnicanale, le informazioni in tempo reale e le decisioni intelligenti, si integrano per fornire risultati di impatto. Ogni argomento approfondisce la conoscenza passo dopo passo, semplificando la comprensione di come Adobe Journey Optimizer trasforma il coinvolgimento cliente in un processo dinamico e basato sui dati.
+Adobe Journey Optimizer ti consente di offrire esperienze cliente personalizzate e in tempo reale su tutti i canali. Incontra i tuoi clienti dove si trovano con il messaggio giusto al momento giusto.
+
+Questa sezione presenta le funzionalità principali della piattaforma, dall’orchestrazione omnicanale e dalle decisioni basate sull’intelligenza artificiale alla gestione fluida dei contenuti e dei dati. Scoprirai come questi potenti strumenti funzionano insieme per ottimizzare ogni interazione con i clienti. Ogni argomento si basa sull’ultimo, guidandoti passo per passo verso la padronanza del coinvolgimento dei clienti in modo dinamico e basato sui dati.
 
 ## Consulta Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Funzionalità principali
 
@@ -30,7 +32,7 @@ Scopri le funzionalità, i casi d’uso e l’architettura di base di Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Panoramica dell’architettura
 
@@ -40,7 +42,7 @@ Scopri come Adobe Journey Optimizer si integra con Adobe Experience Platform per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ruoli e responsabilità
 
@@ -50,7 +52,7 @@ Ottieni una panoramica dei ruoli e dei flussi di lavoro necessari per implementa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Panoramica dell’interfaccia utente
 
@@ -60,7 +62,7 @@ Naviga nell’interfaccia di Adobe Journey Optimizer ed esplora le relative funz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Ricerca, filtro e organizzazione dei contenuti
 
@@ -70,7 +72,7 @@ Utilizza le funzioni di ricerca, filtro e assegnazione tag per gestire e organiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guardrail e limitazioni
 
