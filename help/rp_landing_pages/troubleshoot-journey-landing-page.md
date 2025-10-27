@@ -21,7 +21,7 @@ Quando un percorso cliente non si comporta come previsto, identificare la causa 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Risolvere i problemi prima di testare o pubblicare il percorso
 
@@ -31,7 +31,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Risoluzione dei problemi relativi all’esecuzione di percorsi live in Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Risolvere i problemi relativi alle azioni in entrata nei percorsi Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Risoluzione dei problemi relativi alle azioni personalizzate in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Riferimento codici di errore
 
