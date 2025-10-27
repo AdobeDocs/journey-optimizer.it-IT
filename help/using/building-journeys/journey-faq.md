@@ -11,9 +11,9 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
+source-git-commit: 0b4dc91b945d17647029d89e294221ff97a26881
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '4938'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,63 @@ Un percorso è costituito da:
 * **Azioni personalizzate**: integrazione con sistemi di terze parti
 
 Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md).
+
++++
+
++++ Quali tipi di pubblico sono supportati nei percorsi e quali sono i loro limiti?
+
+Adobe Journey Optimizer supporta tre tipi di pubblico, ciascuno con caratteristiche e protezioni diverse:
+
+**1. Tipi di pubblico in streaming**
+
+* **Descrizione**: tipi di pubblico che vengono valutati in tempo reale in base alle modifiche apportate ai dati del profilo
+* **Valutazione**: valutazione continua quando gli attributi o gli eventi del profilo corrispondono ai criteri del segmento
+* **Utilizzo Percorso**: supportato nelle attività Read Audience, Audience Qualification e Condition
+* **Ideale per**: coinvolgimento in tempo reale basato su modifiche comportamentali o aggiornamenti del profilo
+* **Guardrail**:
+   * La dimensione massima del pubblico dipende dalla licenza Journey Optimizer
+   * Latenza di valutazione generalmente inferiore a 5 minuti
+   * Una logica dei segmenti complessa può influire sulle prestazioni di valutazione
+
+**2. Pubblico in batch**
+
+* **Descrizione**: tipi di pubblico valutati su base pianificata (in genere ogni giorno)
+* **Valutazione**: elaborati in processi batch a intervalli pianificati
+* **Utilizzo Percorso**: supportato nelle attività Read Audience e Condition; supporto limitato nei percorsi di qualificazione del pubblico
+* **Ideale per**: campagne regolari, newsletter, comunicazioni pianificate
+* **Guardrail**:
+   * La valutazione viene eseguita una volta al giorno (impostazione predefinita) o secondo la pianificazione configurata
+   * I profili non possono riflettere le modifiche in tempo reale fino alla valutazione successiva
+   * L’attività Read Audience può elaborare in modo efficiente tipi di pubblico in batch di grandi dimensioni
+
+**3. Carica tipi di pubblico (caricamento personalizzato)**
+
+* **Descrizione**: tipi di pubblico creati caricando file CSV con identificatori di profilo
+* **Valutazione**: elenco statico aggiornato solo quando vengono caricati nuovi file
+* **Utilizzo Percorso**: supportato nelle attività Read Audience e Condition; **non supportato** nei percorsi Audience Qualification
+* **Ideale per**: campagne una tantum, importazioni di elenchi esterni, comunicazioni mirate
+* **Guardrail**:
+   * Si applicano i limiti per la dimensione del file CSV (consulta la documentazione del prodotto per conoscere i limiti attuali)
+   * I membri del pubblico sono statici fino a quando non vengono aggiornati con un nuovo caricamento
+   * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
+   * I profili devono esistere in Adobe Experience Platform
+
+**considerazioni specifiche per il Percorso**:
+
+* **Leggi percorsi di pubblico**: tutti e tre i tipi di pubblico sono supportati; l&#39;esportazione batch viene eseguita quando viene eseguito il percorso
+* **percorsi di qualificazione del pubblico**: i tipi di pubblico in streaming sono consigliati; i tipi di pubblico in batch hanno un rilevamento di qualificazione ritardato; i tipi di pubblico in caricamento non sono supportati
+* **Attività condizionali**: tutti i tipi di pubblico possono essere utilizzati per verificare l&#39;appartenenza
+* **Allineamento dello spazio dei nomi**: lo spazio dei nomi dell&#39;identità del pubblico deve corrispondere allo spazio dei nomi del percorso per l&#39;identificazione corretta del profilo
+
+**Best practice**:
+
+* Utilizza **tipi di pubblico in streaming** per percorsi basati su eventi in tempo reale che richiedono una risposta immediata
+* Utilizza **tipi di pubblico in batch** per le comunicazioni pianificate in cui è sufficiente la valutazione giornaliera
+* Utilizza **carica tipi di pubblico** per campagne una tantum mirate con elenchi esterni
+* Monitorare le dimensioni del pubblico e le prestazioni di valutazione in implementazioni su larga scala
+* Considera le percentuali di aggiornamento del pubblico durante la progettazione della tempistica del percorso e delle condizioni di immissione
+
+Ulteriori informazioni su [tipi di pubblico](../audience/about-audiences.md), [creazione di segmenti](../audience/creating-a-segment-definition.md) e [tipi di pubblico per caricamento personalizzati](../audience/custom-upload.md).
 
 +++
 
@@ -251,7 +308,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
