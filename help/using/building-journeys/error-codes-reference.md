@@ -7,10 +7,8 @@ feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: errore, codici, risoluzione dei problemi, percorso, campagna, messaggi
-source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
+source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
