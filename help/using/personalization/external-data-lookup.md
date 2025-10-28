@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -206,16 +206,24 @@ Nella sezione Edge Delivery di traccia dell’affidabilità come parte dei detta
 
 ![](assets/external-data-troubleshoot.png "larghezza=50%")
 
-## Domande frequenti
+## Domande frequenti {#faq-external-data}
 
-* Come passare un attributo contestuale dalla richiesta come parametro a una ricerca dati esterna?
+Di seguito sono riportate le domande frequenti sull’helper per la ricerca di dati esterni.
 
-  Utilizza il menu Attributi contestuali > Stream di dati > Evento per sfogliare lo schema Experience Event in uso e inserire l’attributo rilevante come valore di parametro come segue:
+Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ Come passare un attributo contestuale dalla richiesta come parametro a una ricerca dati esterna?
 
-* [!DNL Journey Optimizer] esegue la memorizzazione nella cache delle risposte dell&#39;endpoint esterno?
+Utilizza il menu Attributi contestuali > Stream di dati > Evento per sfogliare lo schema Experience Event in uso e inserire l’attributo rilevante come valore di parametro come segue:
 
-  Non al momento. Questa funzione sarà supportata in futuro.
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ [!DNL Journey Optimizer] esegue la memorizzazione nella cache delle risposte dell&#39;endpoint esterno?
+
+Non al momento. Questa funzione sarà supportata in futuro.
+
++++

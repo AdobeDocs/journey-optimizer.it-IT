@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -56,10 +56,11 @@ Di seguito sono elencate le azioni che puoi eseguire utilizzando gli attributi d
 >+++
 
 
+## Domande frequenti {#faq-enrichment}
 
+Di seguito sono riportate le domande frequenti sugli attributi di arricchimento.
 
-
-
+Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Cosa sono gli attributi di arricchimento?
 
