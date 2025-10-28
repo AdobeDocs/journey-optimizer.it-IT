@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ dove:
 * Le parole **true**, **false**, **null** e **undefined** sono consentite solo nella prima parte di un&#39;espressione di percorso.
 
 * In Handlebars, i valori restituiti da {{expression}} sono **con escape HTML**. Se l&#39;espressione contiene `&`, l&#39;output con escape HTML restituito verrà generato come `&amp;`. Se non vuoi che Handlebars sfugga a un valore, utilizza il &quot;triplo-stash&quot;.
+
+  Si supponga che il valore del campo `profile.person.name` sia &quot;Mark &amp; Mary&quot;. La sintassi `{{profile.person.name}}` visualizzerà `Mark &amp; Mary`, mentre `{{{profile.person.name}}}` visualizzerà `Mark & Mary`.
 
 * Per quanto riguarda gli argomenti delle funzioni letterali, il parser del linguaggio del modello non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduto da una barra rovesciata (`\`). Esempio:
 
