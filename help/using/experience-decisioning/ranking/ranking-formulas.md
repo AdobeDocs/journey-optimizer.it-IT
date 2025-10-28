@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -221,6 +221,22 @@ Considerato questo, per un profilo come:
                     ]}
 }
 ```
+
++++
+
++++Incrementa le offerte in base al codice postale di un profilo e al reddito annuo
+
+In questo esempio, il sistema cerca sempre di mostrare prima un’offerta con corrispondenza ZIP, e se non viene trovata alcuna corrispondenza ricorre a un’offerta generale, evitando di mostrare offerte destinate ad altri codici ZIP.
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+Funzionamento della formula:
+
+* Se l’offerta ha lo stesso codice postale dell’utente, assegnagli un punteggio molto alto in modo che venga selezionata per prima.
+* Se l’offerta non ha alcun codice postale (si tratta di un’offerta generale), assegnale un punteggio normale in base al reddito dell’utente.
+* Se l’offerta ha un codice postale diverso da quello dell’utente, assegna un punteggio molto basso in modo che non sia selezionata.
 
 +++
 
