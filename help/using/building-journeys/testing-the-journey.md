@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
+source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1842'
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,10 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 1. Per attivare la modalità di test, fare clic sul pulsante **[!UICONTROL Modalità di test]** nell&#39;angolo in alto a destra.
 
    ![](assets/journeytest1.png)
+
+   >[!NOTE]
+   >
+   >Dopo aver abilitato la modalità di test, attendi circa 1-2 minuti prima di attivare l’entrata di un profilo. Questo consente al pacchetto decisionale di propagarsi completamente attraverso il sistema decisionale. L’attivazione di un ingresso di profilo immediatamente dopo l’abilitazione della modalità di test può causare errori del percorso di tanto in tanto.
 
 1. Se nel percorso è presente almeno un&#39;attività **Wait**, impostare il parametro **[!UICONTROL Wait time]** per definire la durata di ogni attività di attesa e di ogni timeout evento in modalità di test. Il tempo predefinito è di 10 secondi per attese e timeout di eventi. In questo modo potrai ottenere rapidamente i risultati del test.
 
