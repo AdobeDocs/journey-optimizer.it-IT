@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 20%
+source-wordcount: '1654'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +33,7 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, i guardrail tec
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Limitazione e limitazione delle API {#capping}
 
@@ -106,21 +106,31 @@ Prendiamo un esempio per un timeout di 5 secondi.
    * Se uno dei tre tentativi ha esito positivo prima della fine dei 5 secondi, la chiamata viene eseguita e non si verifica alcun errore.
    * Se durante i nuovi tentativi viene raggiunta la fine della durata del timeout, la chiamata viene annullata e conteggiata come un errore di timeout nel reporting.
 
-## Domande frequenti{#faq}
+## Domande frequenti {#faq}
 
-**Come si configura una regola di limitazione o limitazione? Esiste una regola predefinita?**
+Di seguito sono riportate le domande frequenti sull&#39;integrazione di Journey Optimizer con sistemi esterni.
+
+Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+
++++ Come posso configurare una regola di limitazione o limitazione? Esiste una regola predefinita?
 
 Per creare regole di limitazione o limitazione, consultare [questa sezione](../configuration/external-systems.md#capping). Per impostazione predefinita, non esiste una regola di limitazione ma un limite massimo di 300.000 chiamate in un minuto definito per tutte le azioni personalizzate, per host e per sandbox. Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione.
 
-**Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra un nuovo tentativo e l&#39;altro?**
++++
+
++++ Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo minimo di attesa tra un nuovo tentativo e l’altro?
 
 Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi dopo la prima chiamata, fino al raggiungimento della durata di timeout finale. Non è possibile modificare il numero di tentativi e l’intervallo tra un tentativo e l’altro. Fai riferimento a [questa sezione](../configuration/external-systems.md#timeout).
 
-**Dove posso configurare il timeout? Esiste un valore massimo?**
++++
+
++++ Dove posso configurare il timeout? Esiste un valore massimo?
 
 In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Consulta [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
 
-**Qual è il numero massimo di connessioni aperte da Journey Optimizer quando vengono utilizzate azioni personalizzate?**
++++
+
++++ Qual è il numero massimo di connessioni aperte da Journey Optimizer quando vengono utilizzate azioni personalizzate?
 
 Con il proxy IP abilitato e una configurazione di limitazione definita sull’endpoint di destinazione, il numero di connessioni si basa sulla frequenza (stime, numeri non garantiti):
 
@@ -130,3 +140,5 @@ Con il proxy IP abilitato e una configurazione di limitazione definita sull’en
 * tra 4000 e 5000: 125 collegamenti
 
 Se non è definita alcuna configurazione di limitazione su un endpoint, il motore di Journey Optimizer è progettato per aumentare la scalabilità e può raggiungere un numero elevato di connessioni (più di 2.000). Per ottenere un numero limitato di connessioni, i clienti devono utilizzare una configurazione di limitazione.
+
++++
