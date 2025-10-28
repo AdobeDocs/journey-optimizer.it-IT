@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Test del percorso
+title: Testa il percorso
 description: Scopri come testare il percorso
 feature: Journeys, Test Profiles
 topic: Content Management
@@ -10,18 +10,18 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1800'
 ht-degree: 8%
 
 ---
 
-# Test del percorso{#testing_the_journey}
+# Testa il percorso{#testing_the_journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Test del percorso"
+>title="Testa il percorso"
 >abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 
 Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. Journey Optimizer offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell’attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
@@ -31,6 +31,37 @@ Solo i profili di test possono entrare in un percorso in modalità di test. Puoi
 >[!NOTE]
 >
 >Prima di eseguire il test del percorso, è necessario risolvere tutti gli eventuali errori. Scopri come controllare gli errori prima di eseguire il test in [questa sezione](../building-journeys/troubleshooting.md).
+
+## Note importanti {#important_notes}
+
+### Limitazioni generali
+
+* **Solo profili di test** - Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale possono accedere a un percorso in modalità di test. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+* **Requisito spazio dei nomi** - La modalità di test è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere Adobe Experience Platform.
+* **Limite profilo** - Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test.
+* **Attivazione evento** - Gli eventi possono essere attivati solo dall&#39;interfaccia. Gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API.
+* **Tipi di pubblico per caricamento personalizzati** - La modalità di test Percorso non supporta l&#39;arricchimento degli attributi [Pubblico per caricamento personalizzato](../audience/custom-upload.md).
+
+### Comportamento durante e dopo il test
+
+* **Disabilitazione della modalità di test** - Quando si disabilita la modalità di test, tutti i profili attualmente presenti o precedentemente immessi nel percorso vengono rimossi e il reporting viene cancellato.
+* **Flessibilità di riattivazione** - È possibile abilitare e disabilitare la modalità di test il numero di volte necessario.
+* **Disattivazione automatica**: i Percorsi che rimangono inattivi in modalità di test per **per una settimana** tornano automaticamente allo stato Bozza per ottimizzare le prestazioni ed evitare l&#39;utilizzo di risorse obsolete.
+* **Modifica e pubblicazione** - Se la modalità di test è attiva, non è possibile modificare il percorso. Tuttavia, puoi pubblicare direttamente il percorso, senza dover disattivare prima la modalità di test.
+
+### Execution
+
+* **Comportamento divisione** - Quando il percorso raggiunge una divisione, il ramo superiore è sempre selezionato. Riordinare i rami se si desidera testare un percorso diverso.
+* **Tempistica evento** - Se il percorso include*più eventi, attiva ogni evento in sequenza.L&#39;invio di un evento troppo presto (prima del termine del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) comporta l&#39;eliminazione dell&#39;evento e l&#39;invio del profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
+* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati.
+* **Eventi di reazione** - Per gli eventi di reazione con timeout, il tempo di attesa minimo e predefinito è di 40 secondi.
+* **Set di dati di test** - Gli eventi attivati in modalità di test sono archiviati in set di dati dedicati etichettati come segue: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
+
+## Attiva la modalità di test
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
@@ -59,25 +90,6 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
    ![](assets/journeyuctest2.png)
 
 1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Una volta completati i test, puoi pubblicare il percorso. Consulta [questa pagina](../building-journeys/publishing-the-journey.md).
-
-## Note importanti {#important_notes}
-
-* In modalità di test, è possibile attivare eventi solo utilizzando l’interfaccia. Gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API.
-* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale possono accedere al percorso testato. Consulta questa [sezione](../audience/creating-test-profiles.md).
-* La modalità di test è disponibile solo nei percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere Adobe Experience Platform.
-* Il numero massimo di profili di test che può entrare in un percorso durante una sessione di test è 100.
-* Quando disattivi la modalità di test, i percorsi vengono svuotati da tutte le persone che vi sono entrate in passato o che vi si trovano attualmente. Cancella anche la segnalazione.
-* Puoi abilitare/disabilitare la modalità di test il numero di volte necessario.
-* Non è possibile modificare il percorso quando la modalità di test è attivata. In modalità di test, puoi pubblicare direttamente il percorso; non è necessario disattivare prima la modalità di test.
-* Quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi.
-* Per ottimizzare le prestazioni ed evitare l&#39;utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato **Bozza**.
-* Gli eventi attivati dalla modalità di test vengono memorizzati in set di dati dedicati. Questi set di dati sono etichettati come segue: `JOtestmode - <schema of your event>`
-* Quando esegui il test di percorsi che includono più eventi, devi attivare ogni evento in sequenza. L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) elimina l’evento e invia il profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
-* Assicurarsi che la finestra di dialogo Scegli [data/ora di inizio e di fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati.
-
-<!--
-* Fields from related entities are hidden from the test mode.
--->
 
 ## Attivare gli eventi {#firing_events}
 
