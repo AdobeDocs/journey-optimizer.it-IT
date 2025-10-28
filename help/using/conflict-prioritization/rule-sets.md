@@ -180,4 +180,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
