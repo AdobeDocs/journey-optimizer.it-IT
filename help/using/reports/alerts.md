@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
+source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,9 @@ Nel menu a sinistra, nella sezione **[!UICONTROL Amministrazione]**, fare clic s
 
 * Avvisi specifici dei percorsi:
 
-   * l&#39;avviso [Errore azione personalizzata Percorso](#alert-custom-actions)
    * l&#39;avviso [Lettura trigger pubblico non riuscita](#alert-read-audiences)
+   * l&#39;avviso [Frequenza errori azione personalizzata superata](#alert-custom-action-error-rate) (sostituisce l&#39;avviso di errore azione personalizzata Percorso precedente)
    * la frequenza di eliminazione del profilo [è stata superata](#alert-discard-rate)
-   * [Frequenza errori azione personalizzata superata](#alert-custom-action-error-rate)
    * [Frequenza errori profilo superata](#alert-profile-error-rate)
 
 * Avvisi specifici per la configurazione del canale:
@@ -55,7 +54,7 @@ Puoi iscriverti a ogni singolo avviso dall&#39;interfaccia utente, sia globalmen
 
 In base alle preferenze dell’abbonato, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente (notifiche in-app). Seleziona la modalità di ricezione di questi avvisi nelle [!DNL Adobe Experience Cloud] **[!UICONTROL Preferenze]**. [Ulteriori informazioni](../start/user-interface.md#in-product-alerts)
 
-Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;.
+Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;. Gli avvisi vengono risolti dopo 1 ora per proteggerli dall’attivazione/disattivazione dei valori.
 
 
 ### Abbonamento globale {#global-subscription}
@@ -72,7 +71,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -88,7 +87,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -107,39 +106,11 @@ Questo avviso ti avvisa se un&#39;attività **Read Audience** non ha elaborato a
 
 Gli avvisi sulle attività **Read Audience** si applicano solo ai percorsi ricorrenti. **Le attività Read Audience** nei percorsi live che hanno una pianificazione per l&#39;esecuzione di **Once** o **As soon as possible** vengono ignorate.
 
-Gli avvisi in **Read Audience** vengono risolti quando un profilo entra nel nodo **Read Audience**.
+Gli avvisi in **Read Audience** vengono risolti quando un profilo entra nel nodo **Read Audience** o dopo 1 ora.
 
 Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso **Read Audience Trigger Unsuccess** è **Percorso di ritardo, errori e errori di lettura del pubblico**.
 
 Per risolvere i problemi relativi agli avvisi di **Read Audience**, controlla il numero di tipi di pubblico nell&#39;interfaccia di Experience Platform.
-
-
-### Azione personalizzata percorso non riuscita {#alert-custom-actions}
-
-Questo avviso ti avvisa se un’azione personalizzata non riesce. Riteniamo che si sia verificato un errore in cui si è verificato più dell’1% di errori in una specifica azione personalizzata negli ultimi 5 minuti. Questo viene valutato ogni 30 secondi.
-
-Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
-
-<!--
-![](assets/alerts-custom-action.png)-->
-
-Gli avvisi sulle azioni personalizzate vengono risolti quando, negli ultimi 5 minuti:
-
-* l’azione personalizzata non contiene errori (o errori al di sotto della soglia dell’1%),
-
-* oppure, nessun profilo ha raggiunto l’azione personalizzata.
-
-Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso di azione personalizzata è **Errore Percorso azione personalizzata**.
-
-Per risolvere i problemi relativi agli avvisi di **Azione personalizzata**:
-
-* Controlla l&#39;azione personalizzata utilizzando la [modalità di test](../building-journeys/testing-the-journey.md) in un altro percorso.
-
-* Controlla il [report percorso](../reports/journey-live-report.md) per visualizzare i motivi dell&#39;errore durante l&#39;azione.
-
-* Controlla il tuo stepEvents di percorso per cercare ulteriori informazioni su &quot;failureReason&quot;.
-
-* Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Esegui un controllo manuale con Postman, ad esempio.
 
 ### Tasso di eliminazione del profilo superato {#alert-discard-rate}
 
@@ -160,15 +131,24 @@ Un profilo può essere scartato per diversi motivi, in base ai quali verrà illu
 
 Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
+>[!NOTE]
+>
+>Questo avviso sostituisce l&#39;avviso precedente di **Errore azione personalizzata Percorso**.
+
+Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
+
 Gli errori delle azioni personalizzate possono verificarsi per diversi motivi. Per risolvere questi errori, è possibile:
 
-* Verifica che l’azione personalizzata sia configurata correttamente
-* Verifica che l’endpoint sia raggiungibile e che l’azione personalizzata possa raggiungerlo tramite il controllo della connettività delle azioni personalizzate
+* Controlla l&#39;azione personalizzata utilizzando la [modalità di test](../building-journeys/testing-the-journey.md) in un altro percorso.
+* Controlla il [report percorso](../reports/journey-live-report.md) per visualizzare i motivi dell&#39;errore durante l&#39;azione.
+* Controlla il tuo stepEvents di percorso per cercare ulteriori informazioni su &quot;failureReason&quot;.
+* Verifica che l’azione personalizzata sia configurata correttamente e verifica che l’autenticazione sia ancora valida. Esegui un controllo manuale con Postman, ad esempio.
+* Verifica che l’endpoint sia raggiungibile e che l’azione personalizzata possa raggiungerlo tramite il controllo della connettività delle azioni personalizzate.
 * Verifica le credenziali di autenticazione, controlla la connettività Internet, ecc.
 
 ### Tasso di errore del profilo superato {#alert-profile-error-rate}
 
-Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
+Questo avviso ti avvisa se il rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
@@ -256,7 +236,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### Modificare un avviso
 
 Per controllare i dettagli di un avviso, fai clic sulla riga corrispondente. Il nome, lo stato e i canali di notifica vengono visualizzati nel pannello a sinistra.
-Per gli avvisi di Percorso, utilizza il pulsante **[!UICONTROL Altre azioni]** per modificarli. È quindi possibile definire una [sospensione personalizzata](#custom-threshold) per questi avvisi.
+Per gli avvisi di Percorso, utilizza il pulsante **[!UICONTROL Altre azioni]** per modificarli. Puoi quindi definire una [soglia personalizzata](#custom-threshold) per questi avvisi.
 
 ![](assets/alert-more-actions.png){width=60%}
 
