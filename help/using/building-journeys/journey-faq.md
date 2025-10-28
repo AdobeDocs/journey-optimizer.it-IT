@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '5125'
 ht-degree: 0%
 
 ---
@@ -74,65 +74,79 @@ Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md
 
 +++
 
-<!-- WAITING FOR VALIDATION
++++ Quali tipi di pubblico sono supportati nei percorsi e quali sono i loro limiti?
 
-+++ What types of audiences are supported in journeys and what are their limitations?
+Adobe Journey Optimizer supporta quattro tipi di pubblico, ciascuno con caratteristiche e protezioni diverse:
 
-Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
+**1. Tipi di pubblico in streaming**
 
-**1. Streaming audiences**
+* **Descrizione**: tipi di pubblico che vengono valutati in tempo reale in base alle modifiche apportate ai dati del profilo
+* **Valutazione**: valutazione continua quando gli attributi o gli eventi del profilo corrispondono ai criteri del segmento
+* **Utilizzo Percorso**: supportato nelle attività Read Audience, Audience Qualification e Condition
+* **Ideale per**: coinvolgimento in tempo reale basato su modifiche comportamentali o aggiornamenti del profilo
+* **Guardrail**:
+   * La dimensione massima del pubblico dipende dalla licenza Journey Optimizer
+   * Latenza di valutazione generalmente inferiore a 5 minuti
+   * Una logica dei segmenti complessa può influire sulle prestazioni di valutazione
 
-* **Description**: Audiences that evaluate in real-time as profile data changes
-* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
-* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
-* **Best for**: Real-time engagement based on behavioral changes or profile updates
-* **Guardrails**:
-  * Maximum audience size depends on your Journey Optimizer license
-  * Evaluation latency typically under 5 minutes
-  * Complex segment logic may impact evaluation performance
+**2. Pubblico in batch**
 
-**2. Batch audiences**
+* **Descrizione**: tipi di pubblico valutati su base pianificata (in genere ogni giorno)
+* **Valutazione**: elaborati in processi batch a intervalli pianificati
+* **Utilizzo Percorso**: supportato nelle attività Read Audience e Condition; supporto limitato nei percorsi di qualificazione del pubblico
+* **Ideale per**: campagne regolari, newsletter, comunicazioni pianificate
+* **Guardrail**:
+   * La valutazione viene eseguita una volta al giorno (impostazione predefinita) o secondo la pianificazione configurata
+   * I profili non possono riflettere le modifiche in tempo reale fino alla valutazione successiva
+   * L’attività Read Audience può elaborare in modo efficiente tipi di pubblico in batch di grandi dimensioni
 
-* **Description**: Audiences evaluated on a scheduled basis (typically daily)
-* **Evaluation**: Processed in batch jobs at scheduled intervals
-* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
-* **Best for**: Regular campaigns, newsletters, scheduled communications
-* **Guardrails**:
-  * Evaluation occurs once per day (default) or at configured schedule
-  * Profiles may not reflect real-time changes until next evaluation
-  * Read Audience activity can process large batch audiences efficiently
+**3. Carica tipi di pubblico (caricamento personalizzato)**
 
-**3. Upload audiences (Custom upload)**
+* **Descrizione**: tipi di pubblico creati caricando file CSV con identificatori di profilo
+* **Valutazione**: elenco statico aggiornato solo quando vengono caricati nuovi file
+* **Utilizzo Percorso**: supportato nelle attività Read Audience e Condition; **non supportato** nei percorsi Audience Qualification
+* **Ideale per**: campagne una tantum, importazioni di elenchi esterni, comunicazioni mirate
+* **Guardrail**:
+   * Si applicano i limiti per la dimensione del file CSV (consulta la documentazione del prodotto per conoscere i limiti attuali)
+   * I membri del pubblico sono statici fino a quando non vengono aggiornati con un nuovo caricamento
+   * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
+   * I profili devono esistere in Adobe Experience Platform
 
-* **Description**: Audiences created by uploading CSV files with profile identifiers
-* **Evaluation**: Static list updated only when new files are uploaded
-* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
-* **Best for**: One-time campaigns, external list imports, targeted communications
-* **Guardrails**:
-  * CSV file size limits apply (check product documentation for current limits)
-  * Audience members are static until refreshed with new upload
-  * Identity namespace must match journey namespace
-  * Profiles must exist in Adobe Experience Platform
+**4. Pubblico di Federated Audience Composition (FAC)**
 
-**Journey-specific considerations**:
+* **Descrizione**: tipi di pubblico creati utilizzando dati federati, che consentono di eseguire query e comporre tipi di pubblico da data warehouse esterni senza copiare i dati in Adobe Experience Platform
+* **Valutazione**: composizione statica aggiornata quando viene eseguita la composizione del pubblico federato
+* **Utilizzo Percorso**: supportato nelle attività Read Audience and Condition; **non supportato** nei percorsi di qualificazione del pubblico (simile al caricamento di tipi di pubblico da una prospettiva di back-end)
+* **Ideale per**: integrazione di data warehouse aziendale, composizione del pubblico tramite origini dati esterne, scenari che richiedono la conservazione dei dati in sistemi esterni
+* **Guardrail**:
+   * I membri del pubblico sono statici fino alla successiva esecuzione della composizione federata
+   * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
+   * Le prestazioni dipendono dalle funzionalità di query del data warehouse esterno
+   * Richiede il componente aggiuntivo Federated Audience Composition
 
-* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
-* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
-* **Condition activities**: All audience types can be used to check membership
-* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
+**Tipi di pubblico di Customer Journey Analytics (CJA)**:
 
-**Best practices**:
+Anche se i tipi di pubblico di CJA non sono direttamente supportati nei percorsi, puoi utilizzare una **soluzione alternativa** &quot;racchiudendo&quot; un pubblico di CJA in una regola di segmentazione. In questo modo viene creato un pubblico UPS (Unified Profile Service) batch che fa riferimento al pubblico CJA, rendendolo disponibile per l’utilizzo in percorsi come tipo di pubblico batch.
 
-* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
-* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
-* Use **upload audiences** for targeted one-time campaigns with external lists
-* Monitor audience size and evaluation performance in large-scale deployments
-* Consider audience refresh rates when designing journey timing and entry conditions
+**considerazioni specifiche per il Percorso**:
 
-Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
+* **Leggi percorsi di pubblico**: tutti e quattro i tipi di pubblico supportati; l&#39;esportazione batch viene eseguita quando viene eseguito il percorso
+* **percorsi di qualificazione del pubblico**: i tipi di pubblico in streaming sono consigliati; i tipi di pubblico in batch hanno un rilevamento di qualificazione ritardato; il caricamento e i tipi di pubblico FAC non sono supportati
+* **Attività condizionali**: tutti i tipi di pubblico possono essere utilizzati per verificare l&#39;appartenenza
+* **Allineamento dello spazio dei nomi**: lo spazio dei nomi dell&#39;identità del pubblico deve corrispondere allo spazio dei nomi del percorso per l&#39;identificazione corretta del profilo
+
+**Best practice**:
+
+* Utilizza **tipi di pubblico in streaming** per percorsi basati su eventi in tempo reale che richiedono una risposta immediata
+* Utilizza **tipi di pubblico in batch** per le comunicazioni pianificate in cui è sufficiente la valutazione giornaliera
+* Utilizza **carica tipi di pubblico** per campagne una tantum mirate con elenchi esterni
+* Utilizza **tipi di pubblico FAC** quando devi sfruttare le funzionalità di data warehouse aziendale senza duplicazione dei dati
+* Monitorare le dimensioni del pubblico e le prestazioni di valutazione in implementazioni su larga scala
+* Considera le percentuali di aggiornamento del pubblico durante la progettazione della tempistica del percorso e delle condizioni di immissione
+
+Ulteriori informazioni su [tipi di pubblico](../audience/about-audiences.md), [creazione di segmenti](../audience/creating-a-segment-definition.md), [tipi di pubblico per caricamento personalizzati](../audience/custom-upload.md) e [Composizione pubblico federata](../audience/federated-audience-composition.md).
 
 +++
--->
 
 +++ Come posso scegliere tra un percorso unitario e un percorso di pubblico lettura?
 
@@ -309,7 +323,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
