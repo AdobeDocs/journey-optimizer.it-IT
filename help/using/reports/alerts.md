@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
+source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per
 
 * Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md)
 
-* Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md)
+* Scopri come rivedere e attivare le campagne: [Campagne di azione](../campaigns/review-activate-campaign.md) | [Campagne attivate da API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagne orchestrate](../orchestrated/start-monitor-campaigns.md)
 
 
 Inoltre, quando viene raggiunto un determinato insieme di condizioni, i messaggi di avviso possono essere inviati a qualsiasi utente dell’organizzazione che si è iscritto a tali condizioni. Questi avvisi sono disponibili dal menu dedicato **[!UICONTROL Avvisi]**. Adobe Experience Platform fornisce diverse regole di avviso predefinite che è possibile abilitare per l’organizzazione. Inoltre, è possibile abbonarsi agli avvisi di sistema specifici di [!DNL Adobe Journey Optimizer] come descritto in questa pagina.
@@ -72,7 +72,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -88,7 +88,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
