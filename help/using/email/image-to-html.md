@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Conversione di immagini in modelli HTML con Template Accelerator
-description: Scopri come utilizzare l’Acceleratore di modello basato sull’intelligenza artificiale per convertire le progettazioni di immagini in modelli e-mail modificabili di HTML
+title: Conversione di immagini in modelli HTML con l'immagine in HTML converter
+description: Scopri come utilizzare il convertitore di immagini da AI a HTML per convertire le progettazioni di immagini in modelli e-mail HTML modificabili
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: e-mail, modello, immagine, HTML, AI, progettazione, acceleratore
+badge: label="Disponibilità limitata" type="Informative"
+keywords: e-mail, modello, immagine, HTML, AI, progettazione, convertitore
 hide: true
 hidefromtoc: true
-source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1564'
 ht-degree: 3%
 
 ---
 
-# Conversione di immagini in modelli HTML con Template Accelerator {#image-to-html}
+# Conversione di immagini in modelli HTML con l&#39;immagine in HTML converter {#image-to-html}
 
 >[!AVAILABILITY]
 >
@@ -25,9 +26,9 @@ ht-degree: 3%
 
 ## Panoramica {#overview}
 
-Template Accelerator è un&#39;innovativa funzione basata sull&#39;intelligenza artificiale disponibile nel menu **Modelli di contenuto** che accelera notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail di HTML completamente personalizzabili. Questo strumento consente agli addetti al marketing di trasformare i progetti visivi da designer grafici o strumenti di progettazione in modelli e-mail dinamici e modificabili, che possono essere salvati nella libreria Modelli di contenuto e quindi riutilizzati in più percorsi e campagne.
+Il convertitore da immagine a HTML è un&#39;innovativa funzione basata sull&#39;intelligenza artificiale disponibile nel menu **Modelli di contenuto** che accelera notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail di HTML completamente personalizzabili. Questo strumento consente agli addetti al marketing di trasformare i progetti visivi da designer grafici o strumenti di progettazione in modelli e-mail dinamici e modificabili, che possono essere salvati nella libreria Modelli di contenuto e quindi riutilizzati in più percorsi e campagne.
 
-Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore Template Accelerator image to HTML analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e strutturato che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer.
+Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore da immagine a HTML analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e strutturato che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer.
 
 **Vantaggi chiave:**
 
@@ -39,7 +40,7 @@ Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore
 
 ## Prerequisiti {#prerequisites}
 
-Prima di utilizzare il convertitore Modello - Immagine in HTML, assicurati di disporre di:
+Prima di utilizzare il convertitore immagine-HTML, assicurati di disporre di:
 
 * Accedere a Adobe Journey Optimizer con E-mail Designer
 * Un file di immagine in formato JPEG o PNG contenente la progettazione dell’e-mail
@@ -73,7 +74,7 @@ Per convertire una progettazione di immagini in un modello e-mail HTML completam
 
    >[!NOTE]
    >
-   >Il processo di generazione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni del progetto dell’immagine. Attendi mentre l’intelligenza artificiale analizza e converte la tua immagine.
+   >Il processo di generazione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni del progetto dell’immagine. L’elaborazione basata su IA avviene in background, per consentirti di allontanarti da questa schermata e lavorare su altre attività mentre la conversione è in corso. Non è necessario tenere aperta la schermata.
 
 1. Una volta completata la conversione, il modello di contenuto verrà salvato automaticamente come bozza. Puoi quindi rivedere e modificare il modello HTML generato nell’area di lavoro di E-mail Designer.
 
@@ -150,7 +151,7 @@ Tieni presente le seguenti limitazioni quando utilizzi il convertitore da immagi
 
 * **Layout complessi**: le progettazioni molto complesse con livelli complessi, forme insolite o elementi non standard potrebbero non convertirsi perfettamente. Le progettazioni più semplici danno generalmente risultati migliori.
 
-* **Tempo di elaborazione**: il processo di conversione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni dell&#39;immagine. Una volta completata la conversione, il modello viene salvato automaticamente come bozza.
+* **Tempo di elaborazione**: il processo di conversione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni dell&#39;immagine. L’elaborazione basata su IA viene eseguita in background, consentendoti di lavorare su altre attività senza mantenere aperta la schermata. Una volta completata la conversione, il modello viene salvato automaticamente come bozza.
 
 * **Disponibilità limitata**: la funzionalità Disponibilità limitata migliora continuamente l&#39;immagine al convertitore HTML. Le funzionalità e la precisione possono variare e il feedback fornito consente di migliorare la funzionalità.
 
@@ -174,7 +175,7 @@ Il convertitore da immagine a HTML supporta i formati immagine JPEG (.jpg, .jpeg
 
 +++Quanto tempo ci vuole per il processo di conversione?
 
-La conversione può richiedere fino a 5 minuti, a seconda della complessità e delle dimensioni del design dell’immagine. Una volta completata la conversione, il file verrà automaticamente salvato come bozza da rivedere e modificare.
+La conversione può richiedere fino a 5 minuti, a seconda della complessità e delle dimensioni del design dell’immagine. L’elaborazione basata su intelligenza artificiale avviene in background, per consentirti di spostarti e lavorare su altre attività senza dover tenere aperta la schermata. Una volta completata la conversione, il file verrà automaticamente salvato come bozza da rivedere e modificare.
 
 +++
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, importazione, contenuto, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 66%
@@ -30,7 +30,7 @@ ht-degree: 66%
 <!--DOCAC-13676
 >[!TIP]
 >
->If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [image to HTML converter](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
@@ -60,4 +60,4 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
 Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare i contenuti tramite codice di programmazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421911?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
