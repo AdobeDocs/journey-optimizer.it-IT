@@ -11,32 +11,45 @@ badge: label="Disponibilità limitata" type="Informative"
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, convertitore
 hide: true
 hidefromtoc: true
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1769'
 ht-degree: 3%
 
 ---
 
 # Conversione di immagini in modelli HTML con l&#39;immagine in HTML converter {#image-to-html}
 
+
+
+## Panoramica {#overview}
+
+Il convertitore da immagine a HTML è un&#39;innovativa funzione basata sull&#39;intelligenza artificiale disponibile nel menu **Modelli di contenuto** che accelera notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail modulari di HTML completamente personalizzabili. Questo strumento senza codice consente agli addetti al marketing di trasformare le progettazioni visive di designer grafici o strumenti di progettazione in modelli e-mail dinamici e modificabili, che possono essere salvati nella libreria Modelli di contenuto e quindi riutilizzati in più percorsi e campagne senza richiedere competenze tecniche.
+
 >[!AVAILABILITY]
 >
 >Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
-## Panoramica {#overview}
-
-Il convertitore da immagine a HTML è un&#39;innovativa funzione basata sull&#39;intelligenza artificiale disponibile nel menu **Modelli di contenuto** che accelera notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail di HTML completamente personalizzabili. Questo strumento consente agli addetti al marketing di trasformare i progetti visivi da designer grafici o strumenti di progettazione in modelli e-mail dinamici e modificabili, che possono essere salvati nella libreria Modelli di contenuto e quindi riutilizzati in più percorsi e campagne.
-
-Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore da immagine a HTML analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e strutturato che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer.
+Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore da immagine a HTML analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e modulare che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer. In questo modo si elimina il processo manuale di conversione dei modelli in HTML, che richiede molto tempo, e si riduce la dipendenza dalle risorse di sviluppo.
 
 **Vantaggi chiave:**
 
-* **Authoring accelerato**: riduci i tempi di creazione delle e-mail convertendo immediatamente i modelli di progettazione in modelli di contenuto riutilizzabili
-* **Designer-developer bridge**: elimina la necessità di codificare manualmente HTML quando si lavora con le progettazioni visive
-* **Fedeltà progettazione**: mantieni l&#39;integrità della progettazione originale durante la creazione di contenuto modificabile
-* **Riutilizzabilità**: salva i modelli nella libreria dei modelli di contenuto per l&#39;utilizzo in più percorsi e campagne
+* **Progettazione in HTML in pochi minuti**: la conversione senza codice basata sull&#39;intelligenza artificiale trasforma le immagini statiche in modelli modulari modificabili in pochi minuti, riducendo notevolmente i tempi di creazione dei modelli
+* **Autorizza gli utenti non tecnici**: riduce la dipendenza dai team di progettazione o sviluppo: gli addetti al marketing possono generare e personalizzare modelli con conoscenze tecniche minime
+* **Migrazione semplificata delle piattaforme**: converti facilmente modelli o progettazioni esterni da altre piattaforme in HTML pronto per AJO
+* **Crea una libreria di modelli riutilizzabile**: crea una libreria di modelli scalabile e coerente con il marchio che può essere utilizzata in più percorsi e campagne
+* **Fedeltà progettazione**: mantieni la coerenza visiva con la progettazione originale durante la creazione di contenuto completamente modificabile
 * **Compatibilità e-mail**: genera HTML che funzioni perfettamente con E-mail Designer e tra client e-mail
+
+## Casi d’uso comuni {#use-cases}
+
+Il convertitore immagine-HTML è ideale per:
+
+* **Migrazione piattaforma**: migrazione da un&#39;altra piattaforma di e-mail marketing? Converti le progettazioni e-mail esistenti in modelli HTML pronti per AJO senza ricompilare da zero
+* **Conversione di modelli di progettazione**: trasforma i modelli di progettazione da strumenti come Photoshop, Figma o altri software di progettazione in modelli e-mail funzionali
+* **Creazione rapida di modelli**: generazione rapida di modelli e-mail per campagne sensibili al tempo senza attendere risorse per sviluppatori
+* **Creazione di librerie di modelli**: crea una libreria completa di modelli coerenti con il marchio che i membri del team non tecnici possono personalizzare e distribuire
+* **Riduzione delle dipendenze tecniche**: consente agli addetti al marketing di creare e ripetere in modo indipendente i modelli e-mail, velocizzando l&#39;esecuzione della campagna
 
 ## Prerequisiti {#prerequisites}
 
@@ -206,6 +219,12 @@ Il convertitore da immagine a HTML è disponibile in Disponibilità limitata. Pe
 +++È possibile riutilizzare i modelli convertiti in più campagne?
 
 Sì! I modelli creati con l’immagine nel convertitore HTML vengono salvati automaticamente nella libreria Modelli di contenuto. Puoi accedervi e riutilizzarli in qualsiasi e-mail nei tuoi percorsi e campagne. [Ulteriori informazioni](../content-management/content-templates.md)
+
++++
+
++++Posso utilizzarlo per la migrazione della piattaforma?
+
+Sì! L’immagine al convertitore HTML è ideale per la migrazione da altre piattaforme di e-mail marketing. È sufficiente esportare o visualizzare le progettazioni delle e-mail esistenti dalla piattaforma precedente e convertirle in modelli HTML pronti per AJO senza doverle ricreare da zero.
 
 +++
 
