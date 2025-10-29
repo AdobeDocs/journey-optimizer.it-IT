@@ -5,10 +5,10 @@ title: Funzionalità di intelligenza artificiale in Adobe Journey Optimizer
 description: Funzionalità di intelligenza artificiale in Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
+source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 4%
+source-wordcount: '1436'
+ht-degree: 3%
 
 ---
 
@@ -80,68 +80,53 @@ Integra con Adobe Intelligent Services per prevedere il comportamento dei client
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Agente analisi percorso
+Punteggio di Allineamento marchio
 
-Analizzare e ottimizzare i percorsi utilizzando il linguaggio naturale. Identifica i punti di abbandono, rileva i conflitti di pubblico e di pianificazione e ottieni consigli fruibili.
+Valuta il livello di allineamento dei contenuti generati dall’intelligenza artificiale con le linee guida del brand utilizzando il punteggio basato sull’intelligenza artificiale.
 
-[Esplora Journey Agent](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[Informazioni sull’allineamento dei marchi](../using/content-management/brands-score.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-Agente di sperimentazione
+Acceleratore esperimento
 
-Esegui e gestisci esperimenti digitali con informazioni basate sull’intelligenza artificiale. Ottieni riepiloghi delle prestazioni, analisi dei contenuti e consigli per i test successivi.
+Accelera il processo di sperimentazione dei contenuti con informazioni basate sull’intelligenza artificiale e consigli.
 
-[Individua agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[Esplora acceleratore esperimento](../using/content-management/experiment-accelerator-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Agente Audience
+API basate sull’intelligenza artificiale
 
-Crea, analizza e ottimizza i segmenti di pubblico utilizzando l’intelligenza artificiale per la conversazione. Crea segmenti complessi tramite query in linguaggio naturale e ottieni informazioni sulla sovrapposizione di pubblico.
+Accedi alle funzionalità di intelligenza artificiale e machine learning di Journey Optimizer a livello di programmazione tramite API.
 
-[Informazioni su Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
-
-Agent Orchestrator
-
-Coordinare più agenti di intelligenza artificiale per lavorare insieme senza interruzioni. Risolvi attività complesse combinando agenti di Percorso, sperimentazione, pubblico e approfondimenti dati.
-
-[Esplora Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+[Scopri le API basate sull’intelligenza artificiale](../using/configuration/ajo-apis.md)
 :::
 
 ::::
 
 
-## Risorse aggiuntive
-
-- **[Punteggio di allineamento del brand](../using/content-management/brands-score.md)**: valuta se i contenuti generati dall’intelligenza artificiale si allineano alle linee guida del brand utilizzando il punteggio basato sull’intelligenza artificiale.
-- **[Acceleratore esperimento](../using/content-management/experiment-accelerator-gs.md)**: accelera il processo di sperimentazione dei contenuti con consigli e informazioni basate sull’intelligenza artificiale.
-- **[API basate sull&#39;intelligenza artificiale](../using/configuration/ajo-apis.md)**: accedi alle funzionalità di intelligenza artificiale e machine learning di Journey Optimizer a livello di programmazione tramite API.
 
 ## Agenti di intelligenza artificiale in Adobe Experience Cloud
 
 Gli agenti di intelligenza artificiale di Adobe Experience Cloud estendono le funzionalità di intelligenza artificiale oltre Journey Optimizer, consentendo interazioni in linguaggio naturale per attività di marketing complesse:
 
 - **[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - Esegui analisi di fallout del percorso, rileva sovrapposizioni di pubblico e pianificazione e riceve consigli fruibili per ottimizzare le prestazioni del percorso.
-- **[Agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analizza i risultati dell&#39;esperimento, identifica i pattern vincenti e scopri nuove opportunità per il test tra canali diversi.
+- **[Agente di sperimentazione](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analizza i risultati dell&#39;esperimento, identifica i pattern vincenti e scopri nuove opportunità per il test tra canali diversi.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Crea e gestisci segmenti di pubblico tramite IA per la conversazione, analizza la composizione del pubblico e ottimizza le strategie di segmentazione.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Coordina più agenti specializzati per risolvere in modo efficiente problemi di marketing complessi e in più passaggi.
 
 ## Domande frequenti
 
-+++**Quali autorizzazioni sono necessarie per utilizzare le funzionalità di intelligenza artificiale?**
++++**Quali autorizzazioni sono necessarie per utilizzare l&#39;Assistente IA in Journey Optimizer?**
 
-Per utilizzare l&#39;Assistente AI per la generazione di contenuti, agli utenti deve essere concessa l&#39;autorizzazione **Genera contenuto**. Questa autorizzazione viene assegnata tramite la risorsa Assistente IA nel prodotto Autorizzazioni. Per utilizzare l’Assistente all’intelligenza artificiale per conoscere il prodotto e ottenere informazioni operative, gli utenti devono accettare le linee guida per gli utenti di Adobe Experience Cloud Generative AI.
+Per utilizzare l&#39;Assistente AI per la generazione di contenuti, agli utenti deve essere concessa l&#39;autorizzazione **Genera contenuto**. Questa autorizzazione viene assegnata tramite la risorsa Assistente IA nel prodotto Autorizzazioni. Per utilizzare l’Assistente all’intelligenza artificiale per conoscere il prodotto e ottenere informazioni operative, gli utenti devono accettare le linee guida per gli utenti di Adobe Experience Cloud Generative AI. Per le autorizzazioni degli agenti AI, consulta la voce separata di domande frequenti riportata di seguito.
 
 [Ulteriori informazioni sulle autorizzazioni](../using/administration/ootb-permissions.md)
 
@@ -217,9 +202,47 @@ L&#39;Assistente IA per la generazione di contenuti è disponibile per i canali 
 
 +++
 
++++**Cosa sono gli agenti di Adobe Experience Cloud AI?**
+
+Gli agenti di intelligenza artificiale sono assistenti di intelligenza artificiale specializzati basati su Adobe Experience Platform che utilizzano il linguaggio naturale per aiutarti ad analizzare, ottimizzare e gestire attività di marketing complesse. A differenza dell’Assistente all’intelligenza artificiale per la generazione di contenuti, gli agenti di intelligenza artificiale si concentrano su approfondimenti operativi, analisi di percorso, gestione dell’audience e sperimentazione. Gli agenti disponibili sono Percorsi Analyze Agent, Experimentation Agent, Audience Agent e Agent Orchestrator.
+
+[Ulteriori informazioni sugli agenti di IA](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+
++++
+
++++**Quali autorizzazioni sono necessarie per utilizzare gli agenti di intelligenza artificiale?**
+
+Le autorizzazioni variano a seconda dell’agente:
+
+- **Agente analisi Percorso** - Richiede l&#39;autorizzazione **Visualizza Percorsi** per visualizzare informazioni e **Gestisci Percorsi** per creare percorsi. Sono inoltre necessarie le autorizzazioni **Visualizza segmenti** e **Gestisci segmenti** per lavorare con i tipi di pubblico.
+- **Agente di sperimentazione** - Richiede l&#39;autorizzazione **Visualizza esperimenti** per visualizzare approfondimenti e **Gestisci metadati esperimenti** per creare esperimenti.
+- **Audience Agent** - Richiede le autorizzazioni di visualizzazione e gestione dei segmenti appropriate.
+- Tutti gli agenti devono avere accesso all’Assistente all’intelligenza artificiale e accettare le linee guida per gli utenti di IA generativa di Adobe Experience Cloud.
+
++++
+
++++**Quali operazioni può eseguire l&#39;agente di analisi di Percorso?**
+
+L’agente di analisi del Percorso consente di:
+
+- **Analizza l&#39;abbandono del percorso** - Identifica dove e perché i clienti abbandonano durante i percorsi e rileva i pattern di disimpegno.
+- **Rileva sovrapposizioni pubblico** - Analizza la sovrapposizione del pubblico in più percorsi per evitare l&#39;eccesso di targeting.
+- **Identificare i conflitti di pianificazione** - Rilevare i conflitti di tempistica tra percorsi pianificati che si rivolgono allo stesso pubblico.
+- **Informazioni operative di Surface** - Ottieni informazioni basate su prompt come &quot;mostra tutti i percorsi live&quot; o &quot;quali tipi di pubblico vengono utilizzati in più di X percorsi&quot;.
+
+[Esplora agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+
++++
+
++++**Funzionamento congiunto degli agenti di IA**
+
+**Agent Orchestrator** coordina più agenti specializzati per risolvere problemi di marketing complessi e in più passaggi. Ad esempio, puoi utilizzare l’agente di analisi del Percorso per identificare i punti di abbandono, l’Audience Agent per analizzare la composizione dei segmenti e l’agente di sperimentazione per testare le soluzioni, il tutto attraverso query in linguaggio naturale. L&#39;orchestratore determina automaticamente gli agenti da coinvolgere e ne sequenzia il lavoro in modo efficiente.
+
++++
+
 +++**Devo accettare qualsiasi termine per utilizzare le funzionalità di intelligenza artificiale?**
 
-Sì, è necessario accettare le [linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer. Per ulteriori informazioni, contatta il rappresentante Adobe. Inoltre, Adobe applica Content Credentials alle risorse generate da Firefly come parte del suo impegno per la trasparenza nell’utilizzo dell’intelligenza artificiale generativa.
+Sì, è necessario accettare le [linee guida per gli utenti di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer o gli agenti di intelligenza artificiale in Adobe Experience Cloud. Per ulteriori informazioni, contatta il rappresentante Adobe. Inoltre, Adobe applica Content Credentials alle risorse generate da Firefly come parte del suo impegno per la trasparenza nell’utilizzo dell’intelligenza artificiale generativa.
 
 +++
 
