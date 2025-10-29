@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ L’integrazione di WhatsApp con Journey Optimizer richiede quanto segue:
 * [Token di autorizzazione utente con le autorizzazioni appropriate](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modelli di Meta approvati](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-Prima di procedere con l’integrazione, devi inoltre riconoscere quanto segue:
+Prima di procedere con l’integrazione, devi inoltre prendere atto di quanto segue:
 
 * [Regole dei contenuti di WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Conformità ai criteri di Meta](https://www.whatsapp.com/legal)
@@ -58,7 +58,7 @@ Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Jou
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470252?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Le funzionalità principali includono:
 
 * **Orchestrazione moderna omnicanale ed esecuzione**: un’unica area di lavoro su cui uniformare e ottimizzare il percorso cliente per coinvolgimento e attività di marketing 1:1, per consentire ai brand di offrire più valore nel ciclo di vita del cliente. I percorsi cliente progettati in [!DNL Adobe Journey Optimizer] possono essere dinamici e basati su eventi per aiutare i brand a reagire ai segnali in tempo reale e a collegare tali interazioni con campagne pianificate, in modo da poter prendere le decisioni giuste in merito a quali comunicazioni inviare alla clientela, quando inviarle e attraverso quali canali.
 
-* **Intelligent Decisioning e Personalization**: i brand possono applicare decisioni centralizzate e incorporare intelligenza artificiale e machine learning per configurare approfondimenti predittivi in tutta l&#39;esperienza del cliente, semplificando l&#39;automazione delle decisioni e ottimizzando l&#39;esperienza su larga scala. La funzione Decisioni potenzia le offerte centralizzate su tutti i canali e su larga scala attraverso [!DNL Adobe Journey Optimizer].
+* **Processi decisionali intelligenti e personalizzazione**: i brand possono applicare decisioni centralizzate e incorporare l’intelligenza artificiale e il machine learning per acquisire insight predittivi in tutta l’esperienza del cliente, in modo da semplificare l’automazione delle decisioni e ottimizzare l’esperienza su larga scala. La funzione Decisioni potenzia le offerte centralizzate su tutti i canali e su larga scala attraverso [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]

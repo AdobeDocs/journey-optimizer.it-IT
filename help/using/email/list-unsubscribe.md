@@ -10,9 +10,9 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1693'
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Per personalizzare ulteriormente gli endpoint <!-- (**[!UICONTROL Mailto (unsubs
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile in Disponibilità limitata per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]**. Per ottenere l’accesso, contatta il rappresentante Adobe. In questo caso, è necessario utilizzare i nuovi parametri di query descritti in **Mailto (annulla iscrizione) con attributi personalizzati (disponibilità limitata)** nella sezione [successiva](#configure-decrypt-api).
+>Questa funzionalità è disponibile in Disponibilità limitata per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]**. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. In questo caso, è necessario utilizzare i nuovi parametri di query descritti in **Mailto (annulla iscrizione) con attributi personalizzati (disponibilità limitata)** nella sezione [successiva](#configure-decrypt-api).
 
 Per definire attributi personalizzati per gli endpoint, consulta la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine degli endpoint personalizzati, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
 
@@ -241,7 +241,7 @@ A partire da ottobre 2025, se utilizzi l’opzione **[!UICONTROL Gestito da clie
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 La chiamata GET è la seguente:
 
@@ -259,7 +259,7 @@ Parametri query:
 
    * Valore analizzato: *v1.xyz*
 
-Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

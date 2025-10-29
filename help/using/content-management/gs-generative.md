@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Utilizza l’Assistente IA in Adobe Journey Optimizer per ottimizzare l’impatt
 
 >[!IMPORTANT]
 >
->* Prima di iniziare a utilizzare questa funzionalità, leggere le [protezioni e limitazioni](#generative-guardrails) correlate.
+>* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo correlato su [Guardrail e limitazioni](#generative-guardrails).
 >
 >
 >* Prima di poter utilizzare l’Assistente IA in Adobe Journey Optimizer, devi accettare un [accordo utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
