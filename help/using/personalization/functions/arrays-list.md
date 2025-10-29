@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 6%
+source-wordcount: '592'
+ht-degree: 5%
 
 ---
 
@@ -107,10 +107,11 @@ L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il pr
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primi `n` nell&#39;array {#first-n}
+## Ordinare e ottenere il primo N nell’array {#first-n}
 
-La funzione `topN` viene utilizzata per restituire i primi `N` elementi in un array, se ordinati in ordine crescente in base alla data espressione numerica.
+La funzione `topN` ordina una matrice in ordine decrescente in base all&#39;espressione numerica specificata e restituisce i primi `N` elementi. Se la dimensione dell&#39;array è inferiore a `N`, restituisce l&#39;intero array ordinato.
 
+Questa funzione
 **Sintassi**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Ultimi `n` nell&#39;array{#last-n}
+## Ordina e ottieni l’ultimo N nell’array {#last-n}
 
-La funzione `bottomN` viene utilizzata per restituire gli ultimi `N` elementi in un array, se ordinati in ordine crescente in base alla data espressione numerica.
+La funzione `bottomN` ordina una matrice in ordine crescente in base all&#39;espressione numerica specificata e restituisce i primi `N` elementi. Se la dimensione dell&#39;array è inferiore a `N`, restituisce l&#39;intero array ordinato.
 
 **Sintassi**
 
