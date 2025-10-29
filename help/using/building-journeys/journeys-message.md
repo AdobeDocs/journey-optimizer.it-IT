@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ Per aggiungere al percorso un’azione di canale incorporata, trascina e rilasci
 
 ## Aggiungere un messaggio in un percorso  {#add-msg-in-journey}
 
-Con le azioni del canale incorporate, puoi configurare i messaggi in uscita o in entrata. I canali in entrata supportati sono e-mail, messaggi di testo (SMS/MMS) e notifiche push. I canali in uscita supportati sono in-app, web, esperienza basata su codice e scheda di contenuti.
+Con le azioni del canale incorporate, puoi configurare i messaggi in uscita o in entrata. Per ulteriori informazioni sui canali disponibili nei percorsi, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels).
 
 Per aggiungere un’azione di canale incorporata a un percorso, segui la procedura riportata di seguito.
 

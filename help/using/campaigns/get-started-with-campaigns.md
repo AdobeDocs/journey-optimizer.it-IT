@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ Utilizza campagne [!DNL Journey Optimizer] per distribuire contenuti una tantum 
 
 ## Tipi di campagna
 
-[!DNL Journey Optimizer] supporta tre tipi di campagna. Ogni tipo è adatto a casi d’uso diversi e supporta canali diversi.
+[!DNL Journey Optimizer] supporta tre tipi di campagna. Ogni tipo si adatta a casi d’uso diversi e supporta canali diversi. Per ulteriori informazioni sui canali disponibili con ciascun tipo di campagna, consulta la tabella in questa sezione: [Canali in percorsi e campagne](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -124,23 +124,6 @@ Le **campagne attivate da API** consentono di attivare l’esecuzione della camp
 
 
 >[!ENDTABS]
-
-## Canali supportati per tipo di campagna {#channels}
-
-La tabella seguente mostra la disponibilità di ciascun canale tra i diversi tipi di campagne, indicando dove sono supportati.
-
-| Canale | Azione (marketing) | Azione (transazionale) | Attivata da API (marketing) | Attivata da API (transazionale) | Orchestrata |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| E-mail | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Notifica push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| In-app | ✅ | — | — | — | — |
-| Direct mail | ✅ | — | — | — | — |
-| Web | ✅ | — | — | — | — |
-| Esperienza basata su codice | ✅ | — | — | — | — |
-| Schede contenuto | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| LINE | ✅ | — | — | — | — |
 
 ## Prerequisiti {#prerequisites}
 

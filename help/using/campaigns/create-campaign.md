@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 51%
 
 ---
@@ -34,7 +34,7 @@ Le campagne di azione (o campagne pianificate) consentono comunicazioni batch se
 
 >[!NOTE]
 >
->I canali supportati sono: [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifiche push](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [RIGA](../line/get-started-line.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [In-App](../in-app/get-started-in-app.md), [Web](../web/get-started-web.md), [Esperienze basate su codice](../code-based/get-started-code-based.md).
+>Per ulteriori informazioni sui canali supportati, consulta la tabella in questa sezione: [Canali in percorsi e campagne](../channels/gs-channels.md#channels).
 >
 >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
@@ -53,4 +53,4 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

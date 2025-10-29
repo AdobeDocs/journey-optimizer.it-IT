@@ -6,10 +6,10 @@ description: 'Scopri come utilizzare i canali di comunicazione di  [!DNL Adobe J
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '586'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ I canali di consegna dei messaggi in uscita comportano l’invio di messaggi all
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canale e-mail
 
@@ -37,7 +37,7 @@ Scopri come creare, configurare e ottimizzare campagne e-mail, incluse le best p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canale per notifiche push
 
@@ -47,7 +47,7 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messaggistica RCS/MMS/SMS
 
@@ -57,7 +57,7 @@ Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagne direct mail
 
@@ -75,7 +75,7 @@ Con le esperienze in entrata per app mobili e web, la clientela avvia le interaz
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messaggistica in-app
 
@@ -85,7 +85,7 @@ Scopri come configurare, progettare e personalizzare le notifiche in-app per le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Scopri come creare, configurare e personalizzare le esperienze web e integrare i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Esperienza basata su codice
 
@@ -105,7 +105,7 @@ Approfondisci le esperienze basate su codice per distribuire contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Schede contenuto
 
@@ -122,10 +122,30 @@ Scopri come configurare, creare e progettare schede di contenuti per coinvolgere
 - **[Messaggistica WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)**: scopri come integrare e utilizzare la messaggistica WhatsApp tramite l’API Cloud di Meta per campagne di comunicazione personalizzate e conformi.
 - **[Messaggistica LINE](../../rp_landing_pages/line-landing-page.md)**: scopri come configurare, creare e personalizzare i messaggi LINE per una comunicazione efficace nelle campagne e nei percorsi.
 
-## Canali in percorsi e campagne {#leverage}
+## Canali in percorsi e campagne {#channels}
 
 In Adobe Journey Optimizer, puoi sfruttare i canali di comunicazione in due contesti principali:
 
 - **Percorsi**: crea esperienze fluide per la clientela in più punti di contatto. Automatizza le interazioni in base al comportamento e alle preferenze degli utenti, garantendo comunicazioni tempestive e pertinenti che guidino gli utenti attraverso il proprio percorso con il tuo brand. [Scopri come creare ed eseguire un percorso](../building-journeys/journey-gs.md).
 
 - **Campagne**: distribuisci campagne di marketing specifiche che utilizzano un determinato canale per raggiungere gli obiettivi desiderati. Che si tratti di promuovere un nuovo prodotto o di stimolare le vendite stagionali, le campagne consentono di definire strategie di messaggistica mirate e personalizzate per il pubblico. [Scopri come creare ed eseguire una campagna](../campaigns/get-started-with-campaigns.md).
+
+La tabella seguente mostra la disponibilità di ciascun canale nei diversi percorsi e campagne, indicando dove sono supportati.
+
+&lt;&lt;&lt;&lt;&lt;&lt; A monte aggiornato
+| Canale              | Percorsi | Campagne di azione (marketing) | Campagne azione (transazionali) | Campagne attivate da API (marketing) | Campagne attivate da API (transazionali) | Campagne orchestrate |
+=======
+| Canale              | Percorsi | Campagne di azione (marketing) | Campagne di azione (transazionali) | Campagne attivate da API | Campagne orchestrate |
+>>>>>>>>>>Modifiche con stash
+>>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+>>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| Notifica push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Direct mail          | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Scad. basata su codice      | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Schede di contenuto        | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| Linea                 | ✅ | ✅ | — | — | — | — |
+> 
