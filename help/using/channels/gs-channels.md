@@ -136,16 +136,16 @@ La tabella seguente mostra la disponibilità di ciascun canale nei diversi perco
 | Canale              | Percorsi | Campagne di azione (marketing) | Campagne azione (transazionali) | Campagne attivate da API (marketing) | Campagne attivate da API (transazionali) | Campagne orchestrate |
 =======
 | Canale              | Percorsi | Campagne di azione (marketing) | Campagne di azione (transazionali) | Campagne attivate da API | Campagne orchestrate |
->>>>>>>>>>Modifiche con stash
->>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| Notifica push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Direct mail          | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Scad. basata su codice      | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Schede di contenuto        | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Linea                 | ✅ | ✅ | — | — | — | — |
+&#x200B;>>>>>>>>>>Modifiche con stash
+>&#x200B;>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+>&#x200B;>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| Notifica push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Direct mail          | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Scad. basata su codice      | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Schede di contenuto        | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Linea                 | ✅ | ✅ | — | — | — | — |
 > 
