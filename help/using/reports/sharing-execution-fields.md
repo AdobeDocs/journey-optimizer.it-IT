@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +56,6 @@ Il campo `actionExecutionTime` rappresenta il tempo totale (in millisecondi) imp
 Il campo `Timestamp` indica l&#39;ora di fine dell&#39;esecuzione dell&#39;azione. Per determinare quando il profilo è entrato nel nodo dell&#39;azione personalizzata, sottrarre `actionExecutionTime` da `Timestamp`.
 
 Ad esempio, se `Timestamp` è &quot;2025-02-04 09:39:03 UTC&quot; e `actionExecutionTime` è 1.813.227 ms (~31 minuti), il profilo è entrato nel nodo approssimativamente &quot;2025-02-04 09:08:32 UTC&quot;.
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ Tipo: stringa
 Codice di errore di actionExecOrigError.
 
 Tipo: stringa
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+URI dell&#39;endpoint dell&#39;azione personalizzata utilizzato nell&#39;azione.
+
+Tipo: stringa
+
+## actionOriginMethod {#actionoriginmethod}
+
+Descrive il metodo utilizzato nella richiesta HTTP (GET o POST).
+
+Tipo: stringa
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+Descrive se MTLS è abilitato per l’endpoint.
+
+Tipo: booleano
+
+## actionIsProxy {#actionisproxy}
+
+Descrive se per la chiamata viene utilizzato un proxy HTTP con intervallo di indirizzi IP definito.
+
+Tipo: booleano
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+Descrive la marca temporale in cui viene avviata la richiesta HTTP. In caso di un nuovo tentativo, questo è il timestamp in cui viene avviato il tentativo finale di nuovo tentativo. La marca temporale utilizza il formato ISO8601 nel fuso orario UTC.
+
+Tieni presente che questa marca temporale sarà in genere leggermente successiva all’ingresso del profilo nel nodo dell’azione personalizzata, o significativamente successiva all’ingresso nel nodo in caso di limitazione.
+
+Tipo: timestamp
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+Descrive il tempo di risposta della chiamata HTTP. In caso di nuovo tentativo, questo è il tempo impiegato dal tentativo finale di nuovo tentativo. Misura il tempo che intercorre tra l’avvio della richiesta HTTP e la restituzione della risposta completa dal server. Tieni presente che, in caso di limitazione, questo esclude il tempo di attesa in coda.
+
+Tipo: long
+
+## actionIsThrottled {#actionisthrottled}
+
+Descrive se la limitazione è abilitata per l’endpoint.
+
+Tipo: booleano
+
+## actionWaitTime {#actionwaittime}
+
+Descrive quando viene raggiunto il limite di frequenza configurato per un endpoint con limitazione, le chiamate vengono messe in coda ed elaborate alla velocità configurata. Questo campo indica il tempo di attesa della chiamata nella coda prima dell’esecuzione. Specificato solo se actionIsThrottled == true.
+
+Tipo: long
 
 ## actionBusinessType {#actionbusinesstype-field}
 
