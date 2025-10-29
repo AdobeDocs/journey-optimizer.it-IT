@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, acceleratore
 hide: true
 hidefromtoc: true
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1524'
 ht-degree: 3%
 
 ---
@@ -44,11 +44,11 @@ Sfruttando la tecnologia di intelligenza artificiale generativa, Template Accele
 
 ## Prerequisiti {#prerequisites}
 
-Prima di utilizzare l&#39;Acceleratore modello, verificare di disporre dei seguenti elementi:
+Prima di utilizzare il convertitore Modello - Immagine in HTML, assicurati di disporre di:
 
 * Accedere a Adobe Journey Optimizer con E-mail Designer
 * Un file di immagine in formato JPEG o PNG contenente la progettazione dell’e-mail
-* Accesso limitato alla funzionalità Template Accelerator (contatta il tuo rappresentante Adobe)
+* Accesso limitato alla funzione di conversione da immagine a HTML (contatta il tuo rappresentante Adobe)
 
 >[!NOTE]
 >
@@ -62,31 +62,28 @@ Per convertire una progettazione di immagini in un modello e-mail HTML completam
 
 1. Fare clic su **[!UICONTROL Crea modello]**.
 
-1. Compila i dettagli del modello e seleziona **[!UICONTROL E-mail]** come canale.
+1. Inserisci i dettagli del modello e seleziona **[!UICONTROL E-mail]** come canale, quindi fai clic su **[!UICONTROL Crea]**.
 
-1. Fai clic su **[!UICONTROL Crea]** per accedere al Designer e-mail.
+1. Nella sezione di destra, nella sezione **[!UICONTROL Converti immagine in modello]**, fai clic sul pulsante **[!UICONTROL Carica immagine]** per selezionare il file di immagine.
 
-1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Importa HTML]**.
+   ![](assets/email_designer_convert_img.png)
 
-   ![](assets/import-html_2.png)
-
-1. Nella finestra di dialogo di importazione verrà visualizzata la sezione **[!UICONTROL Converti immagine in HTML]**.
 
    >[!CAUTION]
    >
    >Quando carichi un&#39;immagine per la conversione, **tutto il contenuto attualmente aggiunto nell&#39;e-mail verrà eliminato e sostituito** con il modello generato. Se nell’e-mail è presente del contenuto, assicurati di salvarlo prima di procedere con la conversione dell’immagine.
 
-1. Fai clic sul pulsante **[!UICONTROL Carica immagine]** per selezionare il file di immagine.
 
-1. Trascina e rilascia il file di immagine (JPEG o PNG) oppure fai clic su per sfogliarlo e selezionarlo.
-
-1. Fai clic su **[!UICONTROL Genera]** per avviare il processo di conversione basato su IA.
+1. Scegli l&#39;immagine e fai clic su **[!UICONTROL Apri]** per avviare il processo di conversione basato su IA.
 
    >[!NOTE]
    >
    >Il processo di generazione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni del progetto dell’immagine. Attendi mentre l’intelligenza artificiale analizza e converte la tua immagine.
 
 1. Una volta completata la conversione, il modello di contenuto verrà salvato automaticamente come bozza. Puoi quindi rivedere e modificare il modello HTML generato nell’area di lavoro di E-mail Designer.
+
+   ![](assets/email_designer_converted_img.png)
+
 
 1. Il modello convertito si apre in E-mail Designer con funzionalità di modifica complete. Ora puoi:
 
@@ -96,7 +93,7 @@ Per convertire una progettazione di immagini in un modello e-mail HTML completam
    * Aggiungere, rimuovere o ridisporre i componenti di contenuto
    * Sfrutta tutte le funzioni di E-mail Designer come con qualsiasi altro modello
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_html_components.png)
 
 1. Apporta le modifiche necessarie per perfezionare il modello e allinearlo alle linee guida del tuo marchio.
 
@@ -106,17 +103,9 @@ Per convertire una progettazione di immagini in un modello e-mail HTML completam
 
 ## Utilizza il modello convertito nelle e-mail {#use-template}
 
-Dopo aver creato e salvato il modello di contenuto utilizzando Acceleratore modello, puoi utilizzarlo durante la progettazione delle e-mail in percorsi o campagne:
+Dopo aver creato e salvato il modello di contenuto, puoi utilizzarlo durante la progettazione delle e-mail in percorsi o campagne:
 
-1. Durante la creazione di un messaggio e-mail in un percorso o in una campagna, accedi al Designer e-mail dalla schermata **[!UICONTROL Modifica contenuto]**.
-
-1. Nella home page di E-mail Designer, vai alla scheda **[!UICONTROL Modelli salvati]**.
-
-1. Selezionare il modello generato dall&#39;Acceleratore modello dall&#39;elenco.
-
-1. Fai clic su **[!UICONTROL Usa questo modello]** per applicarlo al tuo indirizzo e-mail.
-
-1. Continua a modificare e personalizzare il contenuto delle e-mail in base alle esigenze.
+Durante la creazione di un messaggio e-mail in un percorso o in una campagna, accedi al Designer e-mail dalla schermata **[!UICONTROL Modifica contenuto]**.
 
 Ulteriori informazioni su [utilizzo dei modelli di posta elettronica](use-email-templates.md) e [creazione dei modelli di contenuto](../content-management/content-templates.md).
 
@@ -127,7 +116,7 @@ Per ottenere risultati ottimali con Acceleratore modello, attieniti alle seguent
 **Prima di iniziare**
 
 * **Salva contenuto esistente**: la conversione di un&#39;immagine in HTML sostituirà tutto il contenuto esistente nel messaggio e-mail. Salvare sempre il lavoro corrente prima di utilizzare questa funzione.
-* **Pianifica il flusso di lavoro**: utilizza Acceleratore modelli all&#39;inizio del processo di creazione dell&#39;e-mail oppure assicurati di essere pronto a sostituire tutto il contenuto corrente.
+* **Pianifica il flusso di lavoro**: utilizza l&#39;immagine per il convertitore HTML all&#39;inizio del processo di creazione dell&#39;e-mail oppure assicurati di essere pronto a sostituire tutto il contenuto corrente.
 
 **Preparazione immagine**
 
@@ -156,7 +145,7 @@ Per ottenere risultati ottimali con Acceleratore modello, attieniti alle seguent
 
 ## Limitazioni e considerazioni {#limitations}
 
-Tieni presente le seguenti limitazioni quando utilizzi Acceleratore modello:
+Tieni presente le seguenti limitazioni quando utilizzi il convertitore da immagine a HTML:
 
 * **Interpretazione IA**: l&#39;intelligenza artificiale genera HTML in base all&#39;interpretazione visiva dell&#39;immagine. Progetti complessi o insoliti possono richiedere regolazioni manuali dopo la conversione.
 
@@ -168,7 +157,7 @@ Tieni presente le seguenti limitazioni quando utilizzi Acceleratore modello:
 
 * **Tempo di elaborazione**: il processo di conversione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni dell&#39;immagine. Una volta completata la conversione, il modello viene salvato automaticamente come bozza.
 
-* **Disponibilità limitata**: l&#39;acceleratore modelli viene continuamente migliorato come funzionalità di disponibilità limitata. Le funzionalità e la precisione possono variare e il feedback fornito consente di migliorare la funzionalità.
+* **Disponibilità limitata**: la funzionalità Disponibilità limitata migliora continuamente l&#39;immagine al convertitore HTML. Le funzionalità e la precisione possono variare e il feedback fornito consente di migliorare la funzionalità.
 
 >[!NOTE]
 >
@@ -176,15 +165,15 @@ Tieni presente le seguenti limitazioni quando utilizzi Acceleratore modello:
 
 ## Domande frequenti {#faq}
 
-+++Cosa succede al contenuto dell’e-mail esistente quando utilizzo Template Accelerator?
++++Cosa succede al contenuto delle e-mail esistenti quando utilizzo il convertitore immagine-HTML?
 
-Tutto il contenuto esistente nel messaggio e-mail verrà eliminato e sostituito con il modello appena generato quando carichi un’immagine per la conversione. Prima di utilizzare questa funzione, assicurati di salvare tutti i contenuti importanti. È consigliabile utilizzare Acceleratore modello all’inizio del processo di creazione dell’e-mail.
+Tutto il contenuto esistente nel messaggio e-mail verrà eliminato e sostituito con il modello appena generato quando carichi un’immagine per la conversione. Prima di utilizzare questa funzione, assicurati di salvare tutti i contenuti importanti. È meglio utilizzare il convertitore da immagine a HTML all’inizio del processo di creazione dell’e-mail.
 
 +++
 
 +++Quali formati di file sono supportati?
 
-Acceleratore modelli supporta i formati immagine JPEG (.jpg, .jpeg) e PNG (.png).
+Il convertitore da immagine a HTML supporta i formati immagine JPEG (.jpg, .jpeg) e PNG (.png).
 
 +++
 
@@ -208,19 +197,19 @@ L’intelligenza artificiale fa del suo meglio per interpretare accuratamente il
 
 +++Posso utilizzare questa funzione per pagine di destinazione o altri tipi di contenuto?
 
-Template Accelerator è attualmente progettato in modo specifico per i modelli e-mail. Per altri tipi di contenuto, utilizza le opzioni standard di progettazione e importazione disponibili in E-mail Designer.
+Il convertitore da immagine a HTML è attualmente progettato in modo specifico per i modelli e-mail. Per altri tipi di contenuto, utilizza le opzioni standard di progettazione e importazione disponibili in E-mail Designer.
 
 +++
 
 +++Sono necessarie autorizzazioni speciali per utilizzare questa funzione?
 
-Template Accelerator è disponibile in Disponibilità limitata. Per utilizzare questa funzione, è necessario disporre dell’accesso Disponibilità limitata (per ottenere l’accesso, contatta il rappresentante Adobe) e delle autorizzazioni standard per Designer e-mail.
+Il convertitore da immagine a HTML è disponibile in Disponibilità limitata. Per utilizzare questa funzione, è necessario disporre dell’accesso Disponibilità limitata (per ottenere l’accesso, contatta il rappresentante Adobe) e delle autorizzazioni standard per Designer e-mail.
 
 +++
 
 +++È possibile riutilizzare i modelli convertiti in più campagne?
 
-Sì! I modelli creati con Acceleratore modelli vengono salvati automaticamente nella libreria Modelli di contenuto. Puoi accedervi e riutilizzarli in qualsiasi e-mail nei tuoi percorsi e campagne. [Ulteriori informazioni](../content-management/content-templates.md)
+Sì! I modelli creati con l’immagine nel convertitore HTML vengono salvati automaticamente nella libreria Modelli di contenuto. Puoi accedervi e riutilizzarli in qualsiasi e-mail nei tuoi percorsi e campagne. [Ulteriori informazioni](../content-management/content-templates.md)
 
 +++
 
