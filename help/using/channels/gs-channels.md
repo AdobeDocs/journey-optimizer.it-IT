@@ -6,10 +6,10 @@ description: 'Scopri come utilizzare i canali di comunicazione di  [!DNL Adobe J
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 85%
+source-wordcount: '566'
+ht-degree: 92%
 
 ---
 
@@ -132,20 +132,15 @@ In Adobe Journey Optimizer, puoi sfruttare i canali di comunicazione in due cont
 
 La tabella seguente mostra la disponibilità di ciascun canale nei diversi percorsi e campagne, indicando dove sono supportati.
 
-&lt;&lt;&lt;&lt;&lt;&lt; A monte aggiornato
-| Canale              | Percorsi | Campagne di azione (marketing) | Campagne azione (transazionali) | Campagne attivate da API (marketing) | Campagne attivate da API (transazionali) | Campagne orchestrate |
-=======
-| Canale              | Percorsi | Campagne di azione (marketing) | Campagne di azione (transazionali) | Campagne attivate da API | Campagne orchestrate |
-&#x200B;>>>>>>>>>>Modifiche con stash
->&#x200B;>>>>>>>>>----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->&#x200B;>>>>>>>>>| E-mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| Notifica push    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| In-app               | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Direct mail          | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Scad. basata su codice      | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Schede di contenuto        | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Linea                 | ✅ | ✅ | — | — | — | — |
-> 
+| Canale | Percorsi | Campagne di azione (marketing) | Campagne di azione (transazionali) | Campagne attivate da API | Campagne orchestrate |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+| E-mail | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Notifica push | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-app | ✅ | ✅ | — | — | — | — |
+| Direct mail | ✅ | ✅ | — | — | — | — |
+| Web | ✅ | ✅ | — | — | — | — |
+| Esperienza basata su codice | ✅ | ✅ | — | — | — | — |
+| Schede contenuto | ✅ | ✅ | — | — | — | — |
+| WhatsApp | ✅ | ✅ | — | — | — | — |
+| LINE | ✅ | ✅ | — | — | — | — |
