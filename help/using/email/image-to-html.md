@@ -10,19 +10,14 @@ level: Beginner
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, acceleratore
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1484'
 ht-degree: 3%
 
 ---
 
 # Conversione di immagini in modelli HTML con Template Accelerator {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="Acceleratore modello"
->abstract="Utilizza Template Accelerator per convertire le progettazioni di immagini statiche (JPEG o PNG) in modelli e-mail HTML completamente personalizzabili. Questa funzione basata sull’intelligenza artificiale consente di trasformare rapidamente le progettazioni visive in contenuti e-mail dinamici e modificabili. Nota: tutto il contenuto esistente nella tua e-mail verrà eliminato quando carichi un’immagine per la conversione."
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 3%
 
 Template Accelerator è un&#39;innovativa funzione basata sull&#39;intelligenza artificiale disponibile nel menu **Modelli di contenuto** che accelera notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail di HTML completamente personalizzabili. Questo strumento consente agli addetti al marketing di trasformare i progetti visivi da designer grafici o strumenti di progettazione in modelli e-mail dinamici e modificabili, che possono essere salvati nella libreria Modelli di contenuto e quindi riutilizzati in più percorsi e campagne.
 
-Sfruttando la tecnologia di intelligenza artificiale generativa, Template Accelerator analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e strutturato che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer.
+Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore Template Accelerator image to HTML analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e strutturato che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer.
 
 **Vantaggi chiave:**
 
@@ -111,7 +106,7 @@ Ulteriori informazioni su [utilizzo dei modelli di posta elettronica](use-email-
 
 ## Best practice {#best-practices}
 
-Per ottenere risultati ottimali con Acceleratore modello, attieniti alle seguenti raccomandazioni:
+Per ottenere risultati ottimali quando si utilizza il convertitore immagine/HTML, attenersi alle seguenti raccomandazioni:
 
 **Prima di iniziare**
 
@@ -161,7 +156,7 @@ Tieni presente le seguenti limitazioni quando utilizzi il convertitore da immagi
 
 >[!NOTE]
 >
->Template Accelerator è progettato per fornire un punto di partenza affidabile per la creazione di e-mail. Il HTML generato deve essere rivisto e perfezionato utilizzando E-mail Designer per garantire che soddisfi esattamente i tuoi requisiti.
+>Il convertitore da immagine a HTML è progettato per fornire un forte punto di partenza per la creazione di e-mail. Il HTML generato deve essere rivisto e perfezionato utilizzando E-mail Designer per garantire che soddisfi esattamente i tuoi requisiti.
 
 ## Domande frequenti {#faq}
 
