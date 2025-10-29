@@ -21,6 +21,7 @@ Gli agenti cursore sono strumenti condivisi che consentono di creare e gestire l
    ```
    @setup-agents
    ```
+
 3. Segui le istruzioni
 4. Fine. ✨
 
@@ -32,11 +33,13 @@ Gli agenti cursore sono strumenti condivisi che consentono di creare e gestire l
    ```bash
    ./setup-agents.sh
    ```
+
    Oppure manualmente:
 
    ```bash
    git submodule update --init --recursive
    ```
+
 3. Fine. ✨
 
 ## Verifica
@@ -136,7 +139,7 @@ Il sottomodulo punta a:
 
 In questo modo tutti utilizzano gli stessi agenti aggiornati.
 
----
+&#x200B;---
 
 **Hai bisogno di aiuto?** Contatta il responsabile del team della documentazione o controlla il wiki interno.
 
