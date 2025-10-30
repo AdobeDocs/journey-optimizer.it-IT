@@ -5,9 +5,9 @@ title: Funzionalità di intelligenza artificiale in Adobe Journey Optimizer
 description: Funzionalità di intelligenza artificiale in Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
+source-git-commit: f3c1cfcbc2a76b698399de70493d3fd5136f11d5
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1443'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ Valuta il livello di allineamento dei contenuti generati dall’intelligenza art
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Acceleratore esperimento
 
@@ -100,13 +100,13 @@ Accelera il processo di sperimentazione dei contenuti con informazioni basate su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-API basate sull’intelligenza artificiale
+Informazioni operative sul percorso (Beta)
 
-Accedi alle funzionalità di intelligenza artificiale e machine learning di Journey Optimizer a livello di programmazione tramite API.
+Ottieni istantaneamente informazioni operative sui tuoi percorsi direttamente in AI Assistant utilizzando query in linguaggio naturale.
 
-[Scopri le API basate sull’intelligenza artificiale](../using/configuration/ajo-apis.md)
+[Informazioni su Approfondimenti Percorso](../using/start/ai-assistant.md)
 :::
 
 ::::
@@ -118,7 +118,7 @@ Accedi alle funzionalità di intelligenza artificiale e machine learning di Jour
 Gli agenti di intelligenza artificiale di Adobe Experience Cloud estendono le funzionalità di intelligenza artificiale oltre Journey Optimizer, consentendo interazioni in linguaggio naturale per attività di marketing complesse:
 
 - **[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - Esegui analisi di fallout del percorso, rileva sovrapposizioni di pubblico e pianificazione e riceve consigli fruibili per ottimizzare le prestazioni del percorso.
-- **[Agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analizza i risultati dell&#39;esperimento, identifica i pattern vincenti e scopri nuove opportunità per il test tra canali diversi.
+- **[Agente di sperimentazione](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analizza i risultati dell&#39;esperimento, identifica i pattern vincenti e scopri nuove opportunità per il test tra canali diversi.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Crea e gestisci segmenti di pubblico tramite IA per la conversazione, analizza la composizione del pubblico e ottimizza le strategie di segmentazione.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Coordina più agenti specializzati per risolvere in modo efficiente problemi di marketing complessi e in più passaggi.
 
