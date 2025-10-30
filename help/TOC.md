@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
 workflow-type: tm+mt
 source-wordcount: '3010'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -324,9 +324,9 @@ ht-degree: 99%
             + [Iniziare a creare contenuti](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Creare contenuti da zero](using/email/content-from-scratch.md)
             + [Importare i contenuti](using/email/existing-content.md)
-            + [Conversione di immagini in modelli HTML](using/email/image-to-html.md)
             + [Creare il codice del contenuto](using/email/code-content.md)
             + [Utilizzare modelli di e-mail](using/email/use-email-templates.md)
+            + [Conversione di immagini in modelli HTML](using/email/image-to-html.md)
             + [Sfruttare i temi per e-mail](using/email/apply-email-themes.md)
             + [Allegare i file PDF alle e-mail](using/email/pdf-attachments.md)
          + Progettare i contenuti {#add-content}
@@ -886,7 +886,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
