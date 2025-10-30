@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="Disponibilità limitata" type="Informative"
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, convertitore
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -28,7 +26,7 @@ Il convertitore da immagine a HTML è un&#39;innovativa funzione basata sull&#39
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 Sfruttando la tecnologia di intelligenza artificiale generativa, il convertitore da immagine a HTML analizza il layout, la tipografia, i colori e gli elementi visivi dell’immagine e genera un codice HTML pulito e modulare che mantiene la fedeltà di progettazione, garantendo al contempo la piena modificabilità e compatibilità con E-mail Designer. In questo modo si elimina il processo manuale di conversione dei modelli in HTML, che richiede molto tempo, e si riduce la dipendenza dalle risorse di sviluppo.
 

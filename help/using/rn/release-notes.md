@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 90%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -26,37 +26,40 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-<!-- DOCAC-13676
+<!--
 ## Latest updates {#latest-updates}
 
-New capabilities and improvements released recently are listed below, with their availability date.
 
-### New capabilities {#latest-features}
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+
+-->
+
+
+
+## Note sulla versione di ottobre 2025 {#oct-25-10-rn}
+
+### Nuove funzionalità {#oct-25-10-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Image to HTML converter</strong><br/></th>
+<th><strong>Convertitore da immagine a HTML</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
-<p>Availability date: November 3, 2025</p>
+<p>L’immagine al convertitore HTML è una funzione basata sull’intelligenza artificiale che converte le progettazioni di immagini statiche in modelli di contenuto e-mail di HTML modulari e completamente personalizzabili. Questo strumento senza codice consente agli addetti al marketing di trasformare i progetti visivi in modelli e-mail dinamici e modificabili senza richiedere competenze tecniche, perfetto per la migrazione della piattaforma, la creazione rapida di modelli e la creazione di librerie di modelli riutilizzabili.</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/image-to-html.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 30 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## Note sulla versione di ottobre 2025 {#oct-25-10-rn}
-
-**Data di rilascio**: 22 ottobre 2025
-
-### Nuove funzionalità {#oct-25-10-features}
 
 <table>
 <thead>
@@ -362,15 +365,9 @@ New capabilities and improvements released recently are listed below, with their
 </tbody>
 </table>
 
-<!--
-## Latest updates {#updates-rn}
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
--->
 
 ### Miglioramenti {#updates-improvements}
-
-<!--Availability date: October 22, 2025-->
 
 **Campo di esecuzione per il canale WhatsApp**
 
