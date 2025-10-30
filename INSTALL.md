@@ -177,6 +177,6 @@ Le modifiche degli agenti devono essere effettuate in:
 
 Tutti gli archivi riceveranno aggiornamenti tramite `git submodule update --remote`.
 
----
+&#x200B;---
 
 **Hai bisogno di aiuto?** Contatta il responsabile del team della documentazione o controlla il wiki interno.
