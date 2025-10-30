@@ -20,7 +20,7 @@ Adobe Journey Optimizer sfrutta la potenza dell’intelligenza artificiale e del
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Assistente IA per la generazione di contenuti
 
@@ -30,7 +30,7 @@ Sfrutta l’intelligenza artificiale generativa per creare e personalizzare cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Ottimizzazione dei tempi di invio
 
@@ -40,7 +40,7 @@ Utilizza l’intelligenza artificiale per prevedere il tempo ottimale per l’in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Modelli IA per decisioning
 
@@ -50,7 +50,7 @@ Crea modelli di ottimizzazione automatica e personalizzata per classificare e of
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Conoscenza del prodotto di AI Assistant
 
@@ -60,7 +60,7 @@ Ottieni risposte immediate e informazioni operative su Adobe Journey Optimizer u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Sperimentazione dei contenuti con IA
 
@@ -70,7 +70,7 @@ Genera più varianti di contenuto ed esegui esperimenti per identificare il cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Integrazione di Customer AI
 
@@ -80,7 +80,7 @@ Integra con Adobe Intelligent Services per prevedere il comportamento dei client
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Punteggio di Allineamento marchio
 
@@ -90,7 +90,7 @@ Valuta il livello di allineamento dei contenuti generati dall’intelligenza art
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Acceleratore esperimento
 
@@ -100,7 +100,7 @@ Accelera il processo di sperimentazione dei contenuti con informazioni basate su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Informazioni operative sul percorso (Beta)
 
@@ -118,7 +118,7 @@ Ottieni istantaneamente informazioni operative sui tuoi percorsi direttamente in
 Gli agenti di intelligenza artificiale di Adobe Experience Cloud estendono le funzionalità di intelligenza artificiale oltre Journey Optimizer, consentendo interazioni in linguaggio naturale per attività di marketing complesse:
 
 - **[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - Esegui analisi di fallout del percorso, rileva sovrapposizioni di pubblico e pianificazione e riceve consigli fruibili per ottimizzare le prestazioni del percorso.
-- **[Agente di sperimentazione](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analizza i risultati dell&#39;esperimento, identifica i pattern vincenti e scopri nuove opportunità per il test tra canali diversi.
+- **[Agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analizza i risultati dell&#39;esperimento, identifica i pattern vincenti e scopri nuove opportunità per il test tra canali diversi.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Crea e gestisci segmenti di pubblico tramite IA per la conversazione, analizza la composizione del pubblico e ottimizza le strategie di segmentazione.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Coordina più agenti specializzati per risolvere in modo efficiente problemi di marketing complessi e in più passaggi.
 
