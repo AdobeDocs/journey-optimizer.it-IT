@@ -12,15 +12,15 @@ exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Utilizzare i criteri di consenso {#consent-management}
 
-Questi dati possono essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati in Journey Optimizer siano conformi ai [criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. Questi criteri sono le regole di Adobe Experience Platform che definiscono quali azioni di marketing possono essere eseguite sui dati.
+Questi dati possono essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati all’interno di Journey Optimizer siano conformi ai [criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. Questi criteri sono le regole di Adobe Experience Platform che definiscono quali azioni di marketing possono essere eseguite sui dati.
 
-Per impostazione predefinita, se un profilo ha rinunciato a ricevere comunicazioni da te, il profilo corrispondente viene escluso dalle consegne successive. Puoi creare un **criterio di consenso** che ignora questa logica predefinita. Ad esempio, puoi creare un criterio di consenso in Experience Platform per escludere i clienti che non hanno acconsentito a ricevere comunicazioni per un dato canale. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
+Per impostazione predefinita, se un profilo ha rinunciato a ricevere comunicazioni da te, il profilo corrispondente viene escluso dalle consegne successive. Puoi creare un **criterio di consenso** che ignora questa logica predefinita. Ad esempio, puoi creare un criterio di consenso in Experience Platform per escludere la clientela che non ha acconsentito a ricevere comunicazioni da un determinato canale. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ I passaggi principali per applicare i criteri di consenso sono i seguenti:
 
 1. Crea un criterio di consenso in Adobe Experience Platform con un’azione di marketing associata. [Scopri come creare un criterio di consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy){target="_blank"}
 
-2. Applica i criteri di consenso in Adobe Journey Optimizer utilizzando configurazioni di canale o azioni personalizzate di percorso.
+2. Applica i criteri di consenso in Adobe Journey Optimizer utilizzando le configurazioni dei canali o le azioni personalizzate dei percorsi.
 
    * Crea una configurazione di canale con un’azione di marketing associata. Quando crei una comunicazione utilizzando questa configurazione di canale, la comunicazione erediterà l’azione di marketing associata e verranno applicati i criteri di consenso corrispondenti definiti in Adobe Experience Platform. [Scopri come usare i criteri di consenso tramite le configurazioni dei canali](#surface-marketing-actions)
 
@@ -41,7 +41,7 @@ I passaggi principali per applicare i criteri di consenso sono i seguenti:
 
 ## Sfruttare i criteri di consenso tramite le configurazioni dei canali {#surface-marketing-actions}
 
-In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l&#39;onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"}.
+In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"}.
 
 Per modificare il valore del campo di consenso, puoi creare un criterio di consenso personalizzato in cui definisci un’azione di marketing e le condizioni in cui viene eseguita. [Ulteriori informazioni sulle azioni di marketing](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#marketing-actions){target="_blank"}
 
@@ -61,7 +61,7 @@ Ad esempio, se desideri creare un criterio di consenso per eseguire il targeting
 
       >[!NOTE]
       >
-      >Le azioni di marketing di base fornite da Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#core-actions){target="_blank"}. I passaggi per creare un&#39;azione di marketing personalizzata sono elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
+      >Le azioni di marketing principali fornite già preconfigurate da Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#core-actions){target="_blank"}. I passaggi per creare un’azione di marketing personalizzata sono elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
 
    1. Seleziona cosa accade quando si applica l’azione di marketing. In questo esempio, seleziona **[!UICONTROL Consenso e-mail marketing]**.
 

@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Per applicare i criteri di governance dei dati in Journey Optimizer, devi applic
 
 ### Applicare azioni di marketing a percorsi e campagne{#journeys-campaigns}
 
-Dopo aver creato i criteri di governance, devi applicare le azioni di marketing pertinenti alle **configurazioni di canale** di Journey Optimizer. Per farlo, segui questi passaggi:
+Dopo aver creato i criteri di governance, è necessario applicare le azioni di marketing pertinenti nelle **configurazioni dei canali** di Journey Optimizer. Per farlo, segui questi passaggi:
 
 1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni dei canali]**.
 

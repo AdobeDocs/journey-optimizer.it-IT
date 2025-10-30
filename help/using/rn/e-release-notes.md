@@ -10,7 +10,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 52%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
 
-## Note pre-release del 25 ottobre {#oct-25-10-rn}
+## Note pre-release di ottobre 2025 {#oct-25-10-rn}
 
 **Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
 
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Data di rilascio**: giovedì 22 ottobre 2025
+**Data di rilascio**: 22 ottobre 2025
 
 ### Nuove funzionalità {#oct-25-10-features}
 
@@ -34,15 +34,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Ore/Esclusioni basate sul tempo</strong><br/></th>
+<th><strong>Ore di silenzio/Esclusioni basate sul tempo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
-<p>Puoi applicare ore non interattive tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso. Semplificando questi processi.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Le ore di silenzio consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Garantiscono che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
+<p>Puoi applicare ore di silenzio tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso. Semplificando questi processi.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -146,13 +146,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Nuovi connettori di origine per le app fedeltà</strong><br/></th>
+<th><strong>Nuovi connettori di origini per le app fedeltà</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Adobe Experience Platform sono ora disponibili nuovi connettori sorgente per le app fedeltà Talon.One, Capillary e Kobie. Questi connettori consentono di trasferire in streaming i dati relativi alla fedeltà in Adobe Experience Platform e di sfruttarli in Journey Optimizer.</p>
+<p>In Adobe Experience Platform sono ora disponibili nuovi connettori di origini per le app fedeltà Talon.One, Capillary e Kobie. Questi connettori consentono di trasferire in streaming i dati relativi alla fedeltà in Adobe Experience Platform e di sfruttarli in Journey Optimizer.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -181,7 +181,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Modalità a throughput elevato per campagne e-mail attivate da API</strong><br/></th>
+<th><strong>Modalità di velocità effettiva elevata per campagne e-mail attivate da API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +206,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Journey Optimizer ora consente di creare regole da un menu dedicato dell’interfaccia utente e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione dei contenuti in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
-<p>Le regole di targeting sono attualmente a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Decisioning. Verrà introdotto progressivamente per tutti i clienti.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
@@ -225,7 +225,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Ora puoi applicare rapidamente temi preapprovati per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e creare e-mail di alta qualità in modo indipendente, riducendo al contempo la dipendenza dai team di design.</p>
-<p>Precedentemente rilasciata nella versione beta, questa funzionalità è ora disponibile per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Precedentemente rilasciata nella versione Beta, questa funzionalità è ora disponibile per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a></p>
 <!--p>Availability date: October 22, 2025</p-->
@@ -237,18 +237,18 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Avvisi nuovi Percorsi</strong><br/></th>
+<th><strong>Avvisi su nuovi percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Sono disponibili nuovi avvisi preconfigurati per monitorare l’esecuzione del percorso:</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Frequenza eliminazioni profilo superata</a>: rapporto tra eliminazioni di profili e profili immessi negli ultimi 5 minuti ha superato la soglia</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Frequenza errori azione personalizzata superata</a>: rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Frequenza errori profilo superata</a>: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.</li></ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Superamento del tasso di eliminazione dei profili</a>: il rapporto tra i profili eliminati e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Superamento del tasso di errore delle azioni personalizzate</a>: il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti che ha superato la soglia</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Superamento del tasso di errore dei profili</a>: il rapporto tra i profili in errore e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia.</li></ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md">documentazione dettagliata</a></p>
-<p>Data di disponibilità: mercoledì 14 ottobre 2025</p>
+<p>Data di disponibilità: 14 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -257,16 +257,16 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Helper metadati esecuzione</strong><br/></th>
+<th><strong>Helper per i metadati di esecuzione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nell’editor di personalizzazione è disponibile una nuova funzione helper "executionMetadata". Consente di aggiungere informazioni contestuali a qualsiasi azione nativa e di acquisirle in un set di dati per l’esportazione in sistemi esterni.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Nell’editor di personalizzazione, è disponibile la nuova funzione helper “executionMetadata”. Consente di aggiungere informazioni contestuali a qualsiasi azione nativa e di acquisirle in un set di dati per l’esportazione in sistemi esterni.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/functions/helpers.md#execution-metadata">documentazione dettagliata</a></p>
-<p>Data di disponibilità: martedì 13 ottobre 2025</p>
+<p>Data di disponibilità: 13 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -275,16 +275,16 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>L'agente della sperimentazione è qui!</strong><br/></th>
+<th><strong>L’Agente di sperimentazione è ora disponibile.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l'agente di sperimentazione è disponibile in Journey Optimizer. </p>
-<p>L’agente di sperimentazione è uno strumento basato sull’intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti web, e-mail, messaggi push e applicazioni. Consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.</p>
+<p>Basato su <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’Agente di sperimentazione è disponibile in Journey Optimizer. </p>
+<p>L’Agente di sperimentazione è uno strumento basato sull’intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti web, e-mail, messaggi push e applicazioni. Consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a></p>
-<p>Data di disponibilità: sabato 10 ottobre 2025</p>
+<p>Data di disponibilità: 10 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -334,13 +334,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 ### Miglioramenti
 
-**Decisioning nelle e-mail tramite modelli AI**
+**Funzione Decisioni nelle e-mail tramite modelli di IA**
 
-Ora puoi utilizzare i modelli AI per ottimizzare il contenuto migliore nell’e-mail tramite l’utilizzo di Decisioning. Ad esempio, questa funzionalità ti consente di ottimizzare il contenuto migliore in base a eventi personalizzati come Acquisti, Clic su pulsanti, Aggiungi al carrello e così via.
+Ora puoi utilizzare i modelli di IA per ottimizzare il contenuto migliore nell’e-mail tramite l’utilizzo della funzione Decisioni. Ad esempio, questa funzionalità ti consente di ottimizzare il contenuto migliore in base a eventi personalizzati come Acquisti, Clic su pulsanti, Aggiungi al carrello e così via.
 
-**Campo di esecuzione per canale WhatsApp**
+**Campo di esecuzione per il canale WhatsApp**
 
-Oltre a E-mail e SMS, puoi sapere come aggiornare il campo di esecuzione predefinito per le consegne WhatsApp a livello di sandbox. È inoltre possibile ignorare il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. <!-- [Read more](../FILE.md) -->
+Oltre che per le consegne E-mail e SMS, ora puoi aggiornare il campo di esecuzione predefinito anche per le consegne WhatsApp a livello di sandbox. È possibile inoltre sovrascrivere il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione dei canali di WhatsApp. <!-- [Read more](../FILE.md) -->
 
 **Supporto di attributi personalizzati per l’indirizzo Mailto (annulla iscrizione)**
 
@@ -350,6 +350,6 @@ Per personalizzare ulteriormente gli endpoint personalizzati, ora è possibile d
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è già disponibile per l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]** da agosto 2025 ed è ora disponibile per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]** in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è già disponibile per l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]** da agosto 2025 ed è ora disponibile per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]** in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 Data di disponibilità: 6 ottobre 2025

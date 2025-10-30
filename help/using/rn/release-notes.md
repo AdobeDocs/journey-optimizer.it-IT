@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 46%
+ht-degree: 90%
 
 ---
 
@@ -54,7 +54,7 @@ New capabilities and improvements released recently are listed below, with their
 
 ## Note sulla versione di ottobre 2025 {#oct-25-10-rn}
 
-**Data di rilascio**: giovedì 22 ottobre 2025
+**Data di rilascio**: 22 ottobre 2025
 
 ### Nuove funzionalità {#oct-25-10-features}
 
@@ -87,7 +87,7 @@ New capabilities and improvements released recently are listed below, with their
 <td>
 <p>Con [!DNL Journey Optimizer] è ora possibile acquisire gli attributi di profilo tramite le pagine di destinazione.</p>
 <p>Crea, progetta e gestisci moduli personalizzati adatti alle tue esigenze sulla base di un set di dati specifico. Puoi quindi sfruttare questi moduli nelle pagine di destinazione per aggiungere gli attributi di profilo desiderati nel set di dati definito per ciascun modulo.</p>
-<p>Questa funzionalità è attualmente a disponibilità limitata per i clienti negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è attualmente a disponibilità limitata per i clienti negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../landing-pages/lp-forms.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: venerdì 23 ottobre 2025</p>
@@ -99,18 +99,18 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Ore/Esclusioni basate sul tempo</strong><br/></th>
+<th><strong>Ore di silenzio/Esclusioni basate sul tempo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
-<p>Puoi applicare ore non interattive tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
-<p>Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per essere aggiunti alla lista d’attesa, contatta il tuo rappresentante Adobe.</p>
+<p>Le ore di silenzio consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Garantiscono che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
+<p>Puoi applicare ore di silenzio tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
+<p>Le ore di silenzio sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per essere aggiunti alla lista d’attesa, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/quiet-hours.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
+<p>Data di disponibilità: 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -231,16 +231,16 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Messaggistica ad alta velocità per campagne e-mail attivate da API</strong><br/></th>
+<th><strong>Messaggistica di velocità effettiva elevata per campagne e-mail attivate da API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Una nuova modalità di messaggistica transazionale ad alta velocità è disponibile nelle campagne attivate dall’API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
-<p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe High Throughput Transactional Messaging. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
+<p>Nelle campagne attivate da API è ora disponibile una nuova modalità di messaggistica transazionale di velocità effettiva elevata. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
+<p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo di velocità effettiva elevata di Adobe per la messaggistica transazionale. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../campaigns/api-triggered-high-throughput.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
+<p>Data di disponibilità: 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -255,11 +255,11 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Per risparmiare tempo e fatica, Journey Optimizer ora consente di creare regole riutilizzabili da un menu dell’interfaccia utente dedicato e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione dei contenuti in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
-<p>Le regole di targeting sono attualmente a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe. Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Decisioning. Verrà introdotto progressivamente per tutti i clienti.</p>
+<p>Per risparmiare tempo e fatica, Journey Optimizer ora ti consente di creare regole riutilizzabili da un menu dell’interfaccia utente dedicato e di sfruttarle durante la creazione del targeting, come parte dell’ottimizzazione del contenuto in una campagna o in un percorso, nell’attività Ottimizza percorso.</p>
+<p>Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Decisioning. Verrà introdotto progressivamente per tutti i clienti.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/rules.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
+<p>Data di disponibilità: 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -268,18 +268,18 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Avvisi nuovi Percorsi</strong><br/></th>
+<th><strong>Avvisi su nuovi percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Sono disponibili nuovi avvisi preconfigurati per monitorare l’esecuzione del percorso:</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Frequenza eliminazioni profilo superata</a>: rapporto tra eliminazioni di profili e profili immessi negli ultimi 5 minuti ha superato la soglia</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Frequenza errori azione personalizzata superata</a>: rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Frequenza errori profilo superata</a>: rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia.</li></ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Superamento del tasso di eliminazione dei profili</a>: il rapporto tra i profili eliminati e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Superamento del tasso di errore delle azioni personalizzate</a>: il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti che ha superato la soglia</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Superamento del tasso di errore dei profili</a>: il rapporto tra i profili in errore e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia.</li></ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 14 ottobre 2025</p>
+<p>Data di disponibilità: 14 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -288,17 +288,17 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Helper metadati esecuzione</strong><br/></th>
+<th><strong>Helper per i metadati di esecuzione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nell’editor di personalizzazione è disponibile una nuova funzione helper "executionMetadata". Consente di aggiungere informazioni contestuali a qualsiasi azione nativa e di acquisirle in un set di dati per l’esportazione in sistemi esterni.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Nell’editor di personalizzazione, è disponibile la nuova funzione helper “executionMetadata”. Consente di aggiungere informazioni contestuali a qualsiasi azione nativa e di acquisirle in un set di dati per l’esportazione in sistemi esterni.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/functions/helpers.md#execution-metadata">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: martedì 13 ottobre 2025</p>
+<p>Data di disponibilità: 13 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -313,9 +313,9 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator ora include l’agente di sperimentazione, uno strumento di conversazione basato sull’intelligenza artificiale che consente di interagire con esperimenti, informazioni approfondite e opportunità. Migliora l’esperienza di Journey Optimizer Experimentation Accelerator, aiutandoti a eseguire gli esperimenti in modo più efficiente, scoprire cosa funziona e scoprire dove ottimizzarla successivamente.</p>
+<p>Journey Optimizer Experimentation Accelerator ora include l’agente di sperimentazione, uno strumento conversazionale basato sull’IA che consente di interagire con esperimenti, insight e opportunità. Migliora l’esperienza di Journey Optimizer Experimentation Accelerator, aiutandoti a eseguire gli esperimenti in modo più efficiente, scoprire cosa funziona e dove ottimizzarla successivamente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 10 ottobre 2025</p>
+<p>Data di disponibilità: 10 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -372,11 +372,11 @@ New capabilities and improvements released in the past weeks are listed below, w
 
 <!--Availability date: October 22, 2025-->
 
-**Campo di esecuzione per canale WhatsApp**
+**Campo di esecuzione per il canale WhatsApp**
 
-Oltre a E-mail e SMS, puoi sapere come aggiornare il campo di esecuzione predefinito per le consegne WhatsApp a livello di sandbox. È inoltre possibile ignorare il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
+Oltre che per le consegne E-mail e SMS, ora puoi aggiornare il campo di esecuzione predefinito anche per le consegne WhatsApp a livello di sandbox. È possibile inoltre sostituire il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
-Data di disponibilità: giovedì 22 ottobre 2025
+Data di disponibilità: 22 ottobre 2025
 
 **Supporto di attributi personalizzati per l’indirizzo Mailto (annulla iscrizione)**
 
@@ -386,7 +386,7 @@ Per personalizzare ulteriormente gli endpoint personalizzati, ora è possibile d
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è già disponibile per l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]** da agosto 2025 ed è ora disponibile per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]** in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è già disponibile per l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]** da agosto 2025 ed è ora disponibile per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]** in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 Data di disponibilità: 6 ottobre 2025
 

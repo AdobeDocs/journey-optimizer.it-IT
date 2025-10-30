@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Approfondisci le esperienze basate su codice per distribuire contenuti personali
 
 Schede contenuto
 
-Scopri come configurare, creare e progettare schede di contenuti per coinvolgere e personalizzare la messaggistica all’interno di app mobili e siti web.
+Scopri come configurare, creare e progettare schede di contenuto per coinvolgere e personalizzare la messaggistica nelle app per dispositivi mobili e nei siti web.
 
 [Ulteriori informazioni sull’esperienza basata su codice](../../rp_landing_pages/content-card-landing-page.md)
 :::

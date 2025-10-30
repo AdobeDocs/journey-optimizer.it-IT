@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne di azione): ideali per comunicazioni batch semplici e una tantum che puoi pianificare per essere eseguite in un momento specifico.<br>**Campagne attivate dall&#39;API** - Attivate tramite una chiamata API, abilitando la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
+>abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne di azione): ideali per comunicazioni batch semplici e una tantum che puoi pianificare per essere eseguite in un momento specifico.<br>**Campagne attivate da API**: vengono attivate tramite una chiamata API e abilitano la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -115,7 +115,7 @@ Le **campagne di azione**, note anche come campagne pianificate, consentono semp
 
 >[!TAB Campagne attivate da API]
 
-Le **campagne attivate da API** consentono di attivare l’esecuzione della campagna tramite una chiamata API. Queste comunicazioni possono essere inviate quando la necessità può richiedere la personalizzazione non solo utilizzando attributi di profilo come reimpostazione della password, ma anche dati contestuali in tempo reale nel trigger, che è un payload dell’API REST.
+Le **campagne attivate da API** consentono di attivare l’esecuzione della campagna tramite una chiamata API. Queste comunicazioni possono essere inviate quando è necessario applicare la personalizzazione non solo tramite attributi di profilo (come per il ripristino della password), ma anche tramite dati contestuali in tempo reale presenti nel trigger, che è un payload dell’API REST.
 
 * **Attivata da API - Marketing**: invia comunicazioni di marketing personalizzate a tipi di pubblico mirati.
 * **Attivata da API - Transazionale**: invia messaggi in seguito a un’azione eseguita da un singolo utente come richiesta di reimpostazione della password, acquisto dal carrello, ecc.
@@ -145,9 +145,9 @@ Prima di utilizzare le campagne, assicurati di aver rivisto i prerequisiti di se
 
    1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** incorporati relativi alle campagne.
 
-   1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
+   1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
-   1. Digita il nome o l&#39;indirizzo e-mail dell&#39;utente o selezionalo dall&#39;elenco e fai clic su **[!UICONTROL Salva]**.
+   1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
       Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
 

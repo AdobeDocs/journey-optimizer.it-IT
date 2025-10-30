@@ -12,13 +12,13 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
 source-wordcount: '2861'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Guardrail e limitazioni {#limitations}
 
-Qui sotto troverai ulteriori guardrail e limitazioni quando utilizzi [!DNL Adobe Journey Optimizer].
+Di seguito troverai ulteriori guardrail e limitazioni durante l’utilizzo di [!DNL Adobe Journey Optimizer].
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -106,13 +106,13 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * I frammenti visivi non sono compatibili tra le modalità Utilizza temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
 * Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e quest’ultimo viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e tracciamento](../email/message-tracking.md)
 
-## Guardrail del pubblico e del profilo {#audience}
+## Guardrail del profilo e del pubblico {#audience}
 
 * Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
   Per ulteriori informazioni sulle composizioni del pubblico, consulta [questa pagina](../audience/get-started-audience-orchestration.md).
 
-* Durante l’acquisizione dei dati, nelle e-mail viene fatta distinzione tra maiuscole e minuscole. Ciò significa che è possibile creare profili duplicati (ad esempio, un profilo per John.Greene@luma.com e un altro profilo per john.greene@luma.com) e utilizzarli quando si esegue il targeting del destinatario corrispondente nei percorsi e nelle campagne [!DNL Journey Optimizer].
+* Durante l’acquisizione dei dati, negli indirizzi e-mail viene fatta distinzione tra maiuscole e minuscole. Ciò significa che è possibile creare profili duplicati (ad esempio, un profilo per John.Greene@luma.com e un altro profilo per john.greene@luma.com) e utilizzarli quando si esegue il targeting del destinatario corrispondente nei percorsi e nelle campagne [!DNL Journey Optimizer].
 
 ## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 

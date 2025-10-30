@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [Pianificare la campagna](using/campaigns/api-triggered-campaign-schedule.md)
       + [Rivedere e attivare una campagna](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Attivare l’esecuzione della campagna](using/campaigns/trigger-campaigns.md)
-      + [Attiva la modalità High Throughput per le campagne attivate dall’API](using/campaigns/api-triggered-high-throughput.md)
+      + [Modalità di velocità effettiva elevata per campagne attivate da API](using/campaigns/api-triggered-high-throughput.md)
    + Campagne orchestrate {#orchestrated-campaigns}
       + [Campagne orchestrate](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
             + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
             + [Acquisire i dati](using/orchestrated/ingest-data.md)
          + [Creare una dimensione targeting](using/orchestrated/target-dimension.md)
-         + [Configurare una configurazione di canale](using/orchestrated/channel-config.md)
+         + [Impostare una configurazione dei canali](using/orchestrated/channel-config.md)
       + Avviare la prima campagna orchestrata {#launch}
          + [Avviare la prima campagna orchestrata](/help/rp_landing_pages/launch-landing-page.md)
          + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + Impostare le regole di limitazione dei messaggi e dei percorsi {#capping-rules}
       + [Impostare le regole di limitazione dei messaggi e dei percorsi](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Utilizzare i set di regole](using/conflict-prioritization/rule-sets.md)
-      + [Gestire i limiti di percorso e l&#39;arbitrato](using/conflict-prioritization/journey-capping.md)
-      + [Imposta il limite di frequenza per canale e tipo](using/conflict-prioritization/channel-capping.md)
-      + [Imposta le ore non interattive](using/conflict-prioritization/quiet-hours.md)
+      + [Gestire la limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
+      + [Impostare la quota limite per canale e tipo](using/conflict-prioritization/channel-capping.md)
+      + [Impostare le ore di silenzio](using/conflict-prioritization/quiet-hours.md)
 + Testare e approvare {#test}
    + [Testare e approvare](/help/rp_landing_pages/test-landing-page.md)
    + Anteprima e test del contenuto {#preview-test}
@@ -318,7 +318,7 @@ ht-degree: 97%
       + [Creare un messaggio e-mail](using/email/create-email.md)
       + Progettare i contenuti e-mail {#design-email}
          + [Progettare i contenuti e-mail](/help/rp_landing_pages/design-email-landing-page.md)
-         + [Progettare il contenuto dei messaggi](using/start/message-content-design.md)
+         + [Progettare i contenuti del messaggio](using/start/message-content-design.md)
          + [Introduzione alla progettazione delle e-mail](using/email/get-started-email-design.md)
          + Iniziare a creare contenuti {#start-creating-content}
             + [Iniziare a creare contenuti](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -398,7 +398,7 @@ ht-degree: 97%
          + [Creare una configurazione SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Direct mail](/help/rp_landing_pages/direct-mail-landing-page.md)
-      + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
+      + [Introduzione a direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
       + [Testare e inviare un messaggio di direct mail](using/direct-mail/test-send-direct-mail.md)
       + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
@@ -886,7 +886,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -984,6 +984,6 @@ ht-degree: 97%
       + [Gestire il consenso](/help/rp_landing_pages/consent-landing-page.md)
       + [Gestire la rinuncia](using/privacy/opt-out.md)
       + [Utilizzare i criteri di consenso](using/action/consent.md)
-      + [Gestire le preferenze dei clienti](using/action/preference-center.md)
+      + [Gestire le preferenze della clientela](using/action/preference-center.md)
    + [Governance dei dati](using/action/action-privacy.md)
    + [Configurazione e gestione delle chiavi gestite dal cliente](using/privacy/cmk.md)
