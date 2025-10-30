@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 86%
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] segue un modello di distribuzione continua, che consente ad Adobe di fornire nuove funzioni, miglioramenti e correzioni su base continuativa. Questo approccio consente un rollout scalabile e graduale delle funzionalità per garantire prestazioni e stabilità in tutti gli ambienti.
 
-A causa di questo modello, le note sulla versione vengono aggiornate tra le versioni mensili.  Una sezione dedicata agli [aggiornamenti più recenti](#latest-updates) evidenzia nuove funzionalità e miglioramenti man mano che vengono implementati in produzione, in modo da essere sempre informati di tutte le modifiche in tempo reale. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, vedere [Ciclo di rilascio di Journey Optimizer](#releases.md).
+A causa di questo modello, le note sulla versione vengono aggiornate tra le versioni mensili.  Una sezione dedicata agli [aggiornamenti più recenti](#latest-updates) evidenzia nuove funzionalità e miglioramenti man mano che vengono implementati in produzione, in modo da essere sempre informati di tutte le modifiche in tempo reale. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, vedere [Ciclo di rilascio di Journey Optimizer](releases.md).
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
