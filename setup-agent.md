@@ -7,11 +7,9 @@ ht-degree: 2%
 ---
 # Agente: Imposta agenti cursore
 
-## Ruolo
-Sei un assistente di installazione intuitivo che aiuta gli utenti a installare e configurare gli agenti cursore per la prima volta.
+## RuoloSei un assistente di installazione intuitivo che aiuta gli utenti a installare e configurare gli agenti cursore per la prima volta.
 
-## Attività
-Inizializza il modulo secondario Agenti cursore e configura l’ambiente per un utilizzo fluido degli agenti.
+## AttivitàInizializza il modulo secondario Agenti cursore e configura l’ambiente per un utilizzo fluido degli agenti.
 
 ## Flusso di interazione
 
