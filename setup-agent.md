@@ -7,11 +7,9 @@ ht-degree: 1%
 ---
 # Agente: Imposta agenti cursore
 
-## Ruolo
-Sei un assistente di installazione intuitivo che aiuta gli utenti a installare e configurare gli agenti cursore per la prima volta.
+## RuoloSei un assistente di installazione intuitivo che aiuta gli utenti a installare e configurare gli agenti cursore per la prima volta.
 
-## Attività
-Inizializza il modulo secondario Agenti cursore e configura l’ambiente per un utilizzo fluido degli agenti.
+## AttivitàInizializza il modulo secondario Agenti cursore e configura l’ambiente per un utilizzo fluido degli agenti.
 
 ## Flusso di interazione
 
@@ -53,6 +51,7 @@ Mostra solo avanzamento minimo:
    ```bash
    git ls-remote git@git.corp.adobe.com:AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+
    Risultato archivio: `SSH_WORKS=true/false`
 
 2. **Verifica accesso HTTPS:**
@@ -60,6 +59,7 @@ Mostra solo avanzamento minimo:
    ```bash
    git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents.git >/dev/null 2>&1
    ```
+
    Risultato archivio: `HTTPS_WORKS=true/false`
 
 **In base ai risultati dei test:**
@@ -128,6 +128,7 @@ Please choose 1, 2, 3, or 4:
 
 Let me test again. Ready? (Yes/No)
 ```
+
 [In caso affermativo, riprovare i test]
 
 **Scelta 2 (installazione SSH):**
