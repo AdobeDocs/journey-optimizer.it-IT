@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
+source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2729'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >title="Informazioni sull’idoneità alle offerte"
 >abstract="In questa sezione puoi utilizzare le regole di decisione per determinare quali utenti sono idonei all’offerta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341371?captions=ita" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ La sezione **[!UICONTROL Idoneità all&#39;offerta]** ti consente di limitare l&
 
   >[!CAUTION]
   >
-  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
@@ -148,11 +148,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta. Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore.
 
-Puoi aggiungere fino a 10 regole di limite per una determinata offerta. Per impostare una regola di limite, fai clic sul pulsante **[!UICONTROL Crea limite]**, quindi segui i passaggi seguenti:
-
->[!CAUTION]
->
->Non è possibile abilitare o disabilitare il limite di frequenza per le offerte create in precedenza. A questo scopo, devi creare una nuova offerta.
+Puoi aggiungere fino a 10 regole di limite per una determinata offerta. Per impostare una regola di limitazione di utilizzo, fare clic sul pulsante **[!UICONTROL Crea limitazione di utilizzo]**, quindi eseguire la procedura seguente.
 
 1. Definisci quale **[!UICONTROL evento di limitazione]** verrà preso in considerazione per aumentare il contatore. [Ulteriori informazioni](#capping-event)
 
@@ -217,7 +213,7 @@ Il campo **[!UICONTROL Scegli evento limite]** consente di definire quale evento
 >
 >Per garantire che ogni evento di limitazione venga tracciato e contabilizzato nel contatore delle limitazioni, accertati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. [Ulteriori informazioni](../data-collection/schema-requirement.md)
 
-### Tipo di limitazione {#capping-type}
+### Tipo di limite {#capping-type}
 
 Puoi specificare se desideri applicare il limite a tutti gli utenti o a un profilo specifico:
 
