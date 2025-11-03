@@ -9,9 +9,9 @@ level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Questa operazione può essere eseguita con:
 >
 >Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
 
-Se utilizzi origini dati esterne o azioni personalizzate, puoi proteggere i sistemi esterni limitando la velocità effettiva del percorso: fino a 5.000 istanze/secondo per i percorsi unitari e fino a 20.000 istanze/secondo per quelli attivati dal pubblico.
+Se utilizzi origini dati esterne o azioni personalizzate, puoi proteggere i sistemi esterni limitando la velocità effettiva del percorso: fino a 5.000 istanze/secondo per i percorsi unitari e fino a 20.000 istanze/secondo per quelli attivati dal pubblico. Ulteriori informazioni sulle velocità di elaborazione e la velocità effettiva del percorso in [questa sezione](entry-management.md#journey-processing-rate).
 
 Per le azioni personalizzate, sono disponibili funzionalità di limitazione a livello di prodotto. Consulta [questa pagina](../configuration/external-systems.md#capping).
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 27%
+source-wordcount: '781'
+ht-degree: 26%
 
 ---
 
@@ -40,6 +40,8 @@ I passaggi principali per la creazione di un percorso sono descritti in questa p
 
 Crea percorsi di clienti in più passaggi per avviare in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target sono definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che si sta creando.
 
+Ulteriori informazioni sul modo in cui i profili passano attraverso i percorsi e le velocità di elaborazione dei percorsi in [questa sezione](entry-management.md#journey-processing-rate).
+
 Prima di iniziare a creare il percorso, assicurarsi di aver completato i passaggi di configurazione pertinenti:
 
 * Se si desidera attivare singolarmente i percorsi quando viene ricevuto un evento, **configurare un evento**. Definisci le informazioni previste e come elaborarle. [Ulteriori informazioni](../event/about-events.md).
@@ -50,7 +52,7 @@ Prima di iniziare a creare il percorso, assicurarsi di aver completato i passagg
 
 <!--   ![](assets/segment2.png)  -->
 
-* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1&rbrace;.** [Ulteriori informazioni](../datasource/about-data-sources.md).
+* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -94,7 +96,7 @@ Il designer di percorsi omnicanale, con la sua interfaccia intuitiva basata su s
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 

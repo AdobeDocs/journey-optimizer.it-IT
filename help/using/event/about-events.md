@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 33%
+source-wordcount: '1555'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 33%
 
 Utilizza gli eventi per attivare i singoli percorsi, distribuendo messaggi in tempo reale a ogni utente che entra nel percorso.
 
-Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion (acquisizione dati in streaming) per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Puoi utilizzare più eventi (in passaggi diversi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
+Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API di acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Puoi utilizzare più eventi (in passaggi diversi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
 
 La configurazione dell&#39;evento è **obbligatoria** e deve essere eseguita da un tecnico dati.
 
@@ -77,6 +77,8 @@ Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentan
 
 Adobe Journey Optimizer supporta un volume massimo di 5.000 eventi percorsi al secondo a livello di organizzazione, in tutte le sandbox. Questa quota si applica a tutti gli eventi utilizzati nei percorsi attivi, che includono **Live**, **Dry run**, **Closed** e **Paused** percorsi. Al raggiungimento di questa quota, i nuovi eventi vengono messi in coda con una velocità di elaborazione di 5.000 al secondo. Il tempo massimo che un evento può trascorrere nella coda è **24 ore**.
 
+Per ulteriori dettagli sulle velocità di elaborazione del percorso e su come diversi tipi di percorso influiscono sulla velocità effettiva, consulta [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+
 Per la quota di 5.000 TPS vengono conteggiati i seguenti tipi di eventi:
 
 * **Eventi unitari esterni**: include eventi basati su regole e generati dal sistema. Se lo stesso evento non elaborato è idoneo per più definizioni di regola, ogni regola qualificata conta come un evento separato. Maggiori dettagli di seguito.
@@ -116,12 +118,12 @@ Per evitare di interrompere i percorsi esistenti, quando modifichi un evento uti
 
 Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non può essere eliminato. Per eliminare un evento utilizzato, è necessario interrompere l&#39;utilizzo dei percorsi e/o rimuoverlo dai percorsi 2D in cui viene utilizzato. Puoi controllare il campo **[!UICONTROL Usato in]**. Viene visualizzato il numero di percorsi che utilizzano quel particolare evento. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 
-## Video sulle procedure {#video}
+## Video dimostrativi {#video}
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

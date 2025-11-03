@@ -10,10 +10,10 @@ level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 21%
+source-wordcount: '615'
+ht-degree: 20%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 21%
 Eventi consente di attivare i percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso.
 
 Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stata eseguita dall’utente tecnico. Consulta [questa pagina](../event/about-events.md).
+
+Ulteriori informazioni sulla velocità effettiva degli eventi e sulle velocità di elaborazione percorsi in [questa sezione](entry-management.md#journey-processing-rate).
 
 ![](assets/general-events.png)
 

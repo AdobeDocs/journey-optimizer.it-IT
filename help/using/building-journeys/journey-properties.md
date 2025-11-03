@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2748'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ Ulteriori informazioni sui campi tecnici relativi a un percorso per un determina
 
 La modalità di immissione profilo è definita a livello di percorso, nel riquadro di configurazione di destra. Le impostazioni sono descritte di seguito.
 
-La gestione dell’entrata del profilo dipende dal tipo di percorso. Ulteriori informazioni sulla gestione dell&#39;ingresso e del rientro del profilo, in [questa pagina](entry-management.md).
+La gestione dell’entrata del profilo dipende dal tipo di percorso. Ulteriori informazioni sulla gestione dell&#39;ingresso e del rientro del profilo, in [questa pagina](entry-management.md). Ulteriori informazioni sui tassi di elaborazione del percorso e sul modo in cui i profili passano attraverso i percorsi in [questa sezione](entry-management.md#journey-processing-rate).
 
 ### Consentire il reingresso  {#allow-reentrance}
 

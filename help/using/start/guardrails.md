@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
+source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
 workflow-type: tm+mt
-source-wordcount: '2908'
-ht-degree: 98%
+source-wordcount: '2929'
+ht-degree: 96%
 
 ---
 
@@ -228,6 +228,8 @@ All’attività del percorso [qualificazione del pubblico](../building-journeys/
 * L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
 * Gli identificatori supplementari non sono supportati per i percorsi di qualificazione del pubblico.
 
+Ulteriori informazioni sulle velocità di elaborazione percorsi e sui limiti di velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+
 #### Attività di Campaign {#ac-g}
 
 I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
@@ -264,7 +266,7 @@ All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono el
 All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
-* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con **Leggi pubblico**, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza. Ulteriori informazioni sui tassi percorsi di elaborazione in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
 * L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
 * Un percorso può disporre di una sola attività **Leggi pubblico**.
