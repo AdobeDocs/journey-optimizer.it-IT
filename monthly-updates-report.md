@@ -5,9 +5,9 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: d49ae810865603a083bed3072f68473e93ec6ad4
+source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 0%
 - [Utilizzare i set di regole](help/using/conflict-prioritization/rule-sets.md) - 27 ottobre
 - [Crea un esperimento sui contenuti](help/using/content-management/content-experiment.md) - 15 ottobre
 - [Crea un frammento](help/using/content-management/create-fragments.md) - 7 ottobre
-- [metriche dell&#39;acceleratore dell&#39;esperimento](help/using/content-management/experiment-accelerator-metrics.md) - 24 ottobre
-- [acceleratore esperimento](help/using/content-management/experiment-accelerator.md) - 24 ottobre
 - [Gestisci frammenti](help/using/content-management/manage-fragments.md) - 7 ottobre
 - [Esempi di query per set di dati](help/using/data/datasets-query-examples.md) - 17 ottobre
 - [Informazioni sui set di dati guardrail Time-to-live (TTL)](help/using/data/datasets-ttl.md) - 28 ottobre
