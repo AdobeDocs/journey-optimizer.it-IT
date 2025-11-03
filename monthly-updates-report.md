@@ -5,7 +5,7 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: 2bbb733577d8aeb09a8cbd8e49f2665acaa2c794
+source-git-commit: 2d81708b4829c330732de62177fc781d892d416d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Aggiornamenti alla documentazione - Nuovi contenuti e indicazioni
+# Aggiornamenti alla documentazione - Contenuti nuovi e aggiornati
 
 **Periodo:** 15 ottobre - 3 novembre 2025
 
