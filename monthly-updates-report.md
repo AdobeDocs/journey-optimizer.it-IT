@@ -5,9 +5,9 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
+source-git-commit: edd641112c8b4929990fb7d04972f43a71d53534
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 ## Pagine aggiornate
 
 - [Documentazione di Adobe Journey Optimizer](help/ajo-home.md) - 22 ottobre
-- [Funzionalità IA in Adobe Journey Optimizer](help/rp_landing_pages/ai-capabilities-landing-page.md) - 31 ottobre
 - [Gestione dei contenuti](help/rp_landing_pages/content-management-landing-page.md) - 27 ottobre
 - [Inizia](help/rp_landing_pages/get-started-landing-page.md) - 27 ottobre
 - [Note sulle versioni precedenti](help/rp_landing_pages/previous-rn-new-landing-page.md) - 13 ottobre
@@ -48,8 +47,6 @@ ht-degree: 0%
 - [Risoluzione dei problemi](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 27 ottobre
 - [Introduzione alle azioni](help/using/action/action.md) - 13 ottobre
 - [Utilizzare i criteri di consenso](help/using/action/consent.md) - 21 ottobre
-- [Gestisci le preferenze dei tuoi clienti](help/using/action/preference-center.md) - 24 ottobre
-- [Rapporto Percorso](help/using/action/reporting.md) - 29 ottobre
 - [Risoluzione dei problemi relativi alle azioni personalizzate](help/using/action/troubleshoot-custom-action.md) - 13 ottobre
 - [Crea un profilo di test](help/using/audience/creating-test-profiles.md) - 22 ottobre
 - [Informazioni sui tipi di pubblico di Adobe Experience Platform](help/using/audience/enrichment-attributes.md) - 28 ottobre
@@ -58,10 +55,8 @@ ht-degree: 0%
 - [Trasmettere le raccolte nei parametri delle azioni personalizzate](help/using/building-journeys/collections.md) - 13 ottobre
 - [Attività condizione](help/using/building-journeys/condition-activity.md) - 24 ottobre
 - [Usa dati Adobe Experience Platform in percorsi](help/using/building-journeys/dataset-lookup.md) - 28 ottobre
-- [Riferimento codici errore](help/using/building-journeys/error-codes-reference.md) - 27 ottobre
 - [Ricerca eventi esperienza in percorsi](help/using/building-journeys/exp-event-lookup.md) - 28 ottobre
 - [Utilizza l&#39;attività del percorso di azioni](help/using/building-journeys/journey-action.md) - 14 ottobre
-- [Domande frequenti sui Percorsi](help/using/building-journeys/journey-faq.md) - 28 ottobre
 - [Sospendi un percorso](help/using/building-journeys/journey-pause.md) - 13 ottobre
 - [Introduzione ai percorsi](help/using/building-journeys/journey.md) - 27 ottobre
 - [Aggiungi un&#39;azione di canale incorporata a un percorso](help/using/building-journeys/journeys-message.md) - 29 ottobre
@@ -74,7 +69,6 @@ ht-degree: 0%
 - [Modifica il contenuto della campagna attivata dall&#39;API](help/using/campaigns/api-triggered-campaign-content.md) - 23 ottobre
 - [Definisci le proprietà della campagna attivata dall&#39;API](help/using/campaigns/api-triggered-campaign-properties.md) - 23 ottobre
 - [Utilizzare le campagne attivate dall&#39;API](help/using/campaigns/api-triggered-campaigns.md) - 29 ottobre
-- [Attiva modalità Alta velocità per campagne attivate dall&#39;API](help/using/campaigns/api-triggered-high-throughput.md) - 27 ottobre
 - [Configura l&#39;azione della campagna](help/using/campaigns/campaign-action.md) - 29 ottobre
 - [Ottimizzazione in campagne e percorsi](help/using/campaigns/campaigns-message-optimization.md) - 22 ottobre
 - [Crea una campagna azione](help/using/campaigns/create-campaign.md) - 29 ottobre
@@ -101,20 +95,17 @@ ht-degree: 0%
 - [Introduzione alla configurazione e-mail](help/using/email/get-started-email-config.md) - 22 ottobre
 - [E-mail progettazione](help/using/email/get-started-email-design.md) - 30 ottobre
 - [Introduzione allo stile dell&#39;e-mail](help/using/email/get-started-email-style.md) - 25 ottobre
-- [Converti immagini in modelli HTML con l&#39;immagine in convertitore HTML](help/using/email/image-to-html.md) - 30 ottobre
 - [Configura annullamento iscrizione a elenco](help/using/email/list-unsubscribe.md) - 15 ottobre
 - [Traccia i messaggi](help/using/email/message-tracking.md) - 18 ottobre
 - [Allega un file PDF a un&#39;e-mail](help/using/email/pdf-attachments.md) - 6 ottobre
 - [Configura tracciamento URL](help/using/email/url-tracking.md) - 25 ottobre
 - [Utilizza i dati di Adobe Experience Platform per prendere decisioni](help/using/experience-decisioning/aep-data-exd.md) - 8 ottobre
-- [Crea criteri decisioni](help/using/experience-decisioning/create-decision-policy.md) - 7 ottobre
 - [Introduzione ai criteri delle decisioni](help/using/experience-decisioning/create-decision.md) - 7 ottobre
 - [Guardrail e limitazioni per le decisioni](help/using/experience-decisioning/decisioning-guardrails.md) - 25 ottobre
 - [Elementi decisione](help/using/experience-decisioning/items.md) - 8 ottobre
 - [Classificazione delle formule](help/using/experience-decisioning/ranking/ranking-formulas.md) - 28 ottobre
 - [Regole di compilazione](help/using/experience-decisioning/rules.md) - 23 ottobre
 - [Creare strategie di selezione](help/using/experience-decisioning/selection-strategies.md) - 7 ottobre
-- [Utilizzare i criteri di decisione nei messaggi](help/using/experience-decisioning/use-decision-policy.md) - 9 ottobre
 - [Creazione di una notifica in-app in Journey Optimizer](help/using/in-app/create-in-app.md) - 27 ottobre
 - [Prerequisiti e configurazione del canale in-app](help/using/in-app/inapp-configuration.md) - 23 ottobre
 - [Dynamic Media](help/using/integrations/aem-dynamic.md) - 17 ottobre
@@ -142,7 +133,6 @@ ht-degree: 0%
 - [Rapporto campagna](help/using/reports/campaign-global-report-cja-inapp.md) - 14 ottobre
 - [Introduzione alle funzionalità di reporting in [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md) - 23 ottobre
 - [Rapporto Percorso](help/using/reports/journey-global-report-cja-inapp.md) - 14 ottobre
-- [Operazioni con gli eventi dei passaggi del percorso](help/using/reports/journey-step-events-overview.md) - 16 ottobre
 - [Esempi di query](help/using/reports/query-examples.md) - 29 ottobre
 - [Generazione rapporti](help/using/reports/report-cja-manage.md) - 13 ottobre
 - [campi di esecuzione azione degli eventi journeyStep](help/using/reports/sharing-execution-fields.md) - 29 ottobre
@@ -152,12 +142,10 @@ ht-degree: 0%
 - [Note preliminari sulla versione per Journey Optimizer](help/using/rn/e-release-notes.md) - 20 ottobre
 - [Note sulla versione 2025](help/using/rn/release-notes-2025.md) - 28 ottobre
 - [Note sulla versione](help/using/rn/release-notes.md) - 30 ottobre
-- [Ciclo di rilascio di Adobe Journey Optimizer](help/using/rn/releases.md) - 28 ottobre
 - [Introduzione ai messaggi di testo (SMS/MMS/RCS)](help/using/sms/get-started-sms.md) - 17 ottobre
 - [Configura il provider personalizzato](help/using/sms/sms-configuration-custom.md) - 24 ottobre
 - [Configura provider Infobip](help/using/sms/sms-configuration-infobip.md) - 27 ottobre
 - [Configura provider Sinch](help/using/sms/sms-configuration-sinch.md) - 27 ottobre
 - [Guardrail e limitazioni di Journey Optimizer](help/using/start/guardrails.md) - 3 novembre
-- [Contenuto messaggio progettazione](help/using/start/message-content-design.md) - 18 ottobre
 - [Articoli sulla risoluzione dei problemi di Journey Optimizer](help/using/start/troubleshooting.md) - 27 ottobre
 - [Configura il canale WhatsApp](help/using/whatsapp/whatsapp-configuration.md) - 22 ottobre
