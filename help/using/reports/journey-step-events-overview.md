@@ -8,12 +8,10 @@ topic: Content Management
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: percorso, eventi dei passaggi, analisi, reporting, monitoraggio, XDM
-hide: true
-hidefromtoc: true
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 9320777cfb75fd1370c11b601908644ba17ff21e
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
