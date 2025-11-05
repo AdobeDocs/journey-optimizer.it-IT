@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -112,22 +112,13 @@ ht-degree: 98%
       + Funzioni {#main-functions-journey}
          + [Funzioni](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [Funzioni principali](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + Aggregazione {#aggregation}
-            + [Funzioni di aggregazione](using/building-journeys/functions/aggregation-functions.md)
-         + Conversione {#conversion}
-            + [Funzioni di conversione](using/building-journeys/functions/conversion-functions.md)
-         + Data {#date}
-            + [Funzioni data](using/building-journeys/functions/date-functions.md)
-         + Elenco {#list}
-            + [Elencare funzioni](using/building-journeys/functions/list-functions.md)
-         + Matematica {#math}
-            + [Matematica](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + Stringa {#string}
-            + [Funzioni stringa](using/building-journeys/functions/string-functions.md)
+         + [funzione inAudience](using/building-journeys/functions/functioninaudience.md)
+         + [Funzioni di aggregazione](using/building-journeys/functions/aggregation-functions.md)
+         + [Funzioni di conversione](using/building-journeys/functions/conversion-functions.md)
+         + [Funzioni data](using/building-journeys/functions/date-functions.md)
+         + [Elencare funzioni](using/building-journeys/functions/list-functions.md)
+         + [Funzioni matematiche](using/building-journeys/functions/math-functions.md)
+         + [Funzioni stringa](using/building-journeys/functions/string-functions.md)
    + Casi d’uso {#journey-use-cases}
       + [Casi d’uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Apprendere attraverso i casi d’uso](using/building-journeys/jo-use-cases.md)
@@ -824,7 +815,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
