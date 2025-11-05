@@ -9,7 +9,7 @@ level: Experienced
 keywords: funzione, espressioni, editor, percorso
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -31,15 +31,15 @@ Elenco delle funzioni supportate.
 | Categoria | Funzione |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
-| Aggregazione | [avg](../functions/functionavg.md) |
-| Aggregazione | [count](../functions/functioncount.md) |
-| Aggregazione | [countOnlyNull](../functions/functioncountonlynull.md) |
-| Aggregazione | [countWithNull](../functions/functioncountwithnull.md) |
-| Aggregazione | [distinctCount](../functions/functiondistinctcount.md) |
-| Aggregazione | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| Aggregazione | [max](../functions/functionmax.md) |
-| Aggregazione | [min](../functions/functionmin.md) |
-| Aggregazione | [sum](../functions/functionsum.md) |
+| Aggregazione | [avg](../functions/aggregation-functions.md#avg) |
+| Aggregazione | [count](../functions/aggregation-functions.md#count) |
+| Aggregazione | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| Aggregazione | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| Aggregazione | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| Aggregazione | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| Aggregazione | [max](../functions/aggregation-functions.md#max) |
+| Aggregazione | [min](../functions/aggregation-functions.md#min) |
+| Aggregazione | [sum](../functions/aggregation-functions.md#sum) |
 | Conversione | [toBool](../functions/functiontobool.md) |
 | Conversione | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversione | [toDateTime](../functions/functiontodatetime.md) |

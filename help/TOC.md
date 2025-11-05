@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 013c5758a106cfd3c2eaeecc25cc6ca4a4b41375
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
-source-wordcount: '3015'
+source-wordcount: '3007'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -115,16 +115,7 @@ ht-degree: 99%
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + Aggregazione {#aggregation}
-            + [Aggregazione](/help/rp_landing_pages/aggregation-landing-page.md)
-            + [avg](using/building-journeys/functions/functionavg.md)
-            + [conteggio](using/building-journeys/functions/functioncount.md)
-            + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
-            + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-            + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
-            + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
-            + [max](using/building-journeys/functions/functionmax.md)
-            + [min](using/building-journeys/functions/functionmin.md)
-            + [sum](using/building-journeys/functions/functionsum.md)
+            + [Funzioni di aggregazione](using/building-journeys/functions/aggregation-functions.md)
          + Conversione {#conversion}
             + [Conversione](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -888,7 +879,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
