@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8984a055ef8235d554b6772b0afa0b10e899b2a7
+source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 84%
@@ -28,9 +28,9 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 ## Ultimi aggiornamenti {#latest-updates}
 
-Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione &#x200B;](#latest-rn).
+Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione ](#latest-rn).
 
-### Nuove funzionalità {#oct-25-10-soon-features}
+### Nuove funzionalità {#features}
 
 <table>
 <thead>
