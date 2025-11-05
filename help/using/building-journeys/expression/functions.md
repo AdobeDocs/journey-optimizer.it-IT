@@ -9,7 +9,7 @@ level: Experienced
 keywords: funzione, espressioni, editor, percorso
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -74,26 +74,26 @@ Elenco delle funzioni supportate.
 | Elenco | [sort](../functions/list-functions.md#sort) |
 | Matematica | [random](../functions/functionrandom.md) |
 | Matematica | [round](../functions/functionround.md) |
-| Stringa | [concat](../functions/functionconcat.md) |
-| Stringa | [contain](../functions/functioncontain.md) |
-| Stringa | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| Stringa | [endWith](../functions/functionendwith.md) |
-| Stringa | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Stringa | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| Stringa | [indexOf](../functions/functionindexof.md) |
-| Stringa | [isEmpty](../functions/functionisempty.md) |
-| Stringa | [isNotEmpty](../functions/functionisnotempty.md) |
-| Stringa | [lastIndexOf](../functions/functionlastindexof.md) |
-| Stringa | [length](../functions/functionlength.md) |
-| Stringa | [Lower](../functions/functionlower.md) |
-| Stringa | [matchRegExp](../functions/functionmatchregexp.md) |
-| Stringa | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Stringa | [replace](../functions/functionreplace.md) |
-| Stringa | [replaceAll](../functions/functionreplaceall.md) |
-| Stringa | [split](../functions/functionsplit.md) |
-| Stringa | [startWith](../functions/functionstartwith.md) |
-| Stringa | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| Stringa | [substr](../functions/functionsubstr.md) |
-| Stringa | [trim](../functions/functiontrim.md) |
-| Stringa | [upper](../functions/functionupper.md) |
-| Stringa | [uuid](../functions/functionuuid.md) |
+| Stringa | [concat](../functions/string-functions.md#concat) |
+| Stringa | [contain](../functions/string-functions.md#contain) |
+| Stringa | [containIgnoreCase](../functions/string-functions.md#containIgnoreCase) |
+| Stringa | [endWith](../functions/string-functions.md#endWith) |
+| Stringa | [endWithIgnoreCase](../functions/string-functions.md#endWithIgnoreCase) |
+| Stringa | [equalIgnoreCase](../functions/string-functions.md#equalIgnoreCase) |
+| Stringa | [indexOf](../functions/string-functions.md#indexOf) |
+| Stringa | [isEmpty](../functions/string-functions.md#isEmpty) |
+| Stringa | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| Stringa | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| Stringa | [length](../functions/string-functions.md#length) |
+| Stringa | [Lower](../functions/string-functions.md#lower) |
+| Stringa | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| Stringa | [notEqualIgnoreCase](../functions/string-functions.md#notEqualIgnoreCase) |
+| Stringa | [replace](../functions/string-functions.md#replace) |
+| Stringa | [replaceAll](../functions/string-functions.md#replaceAll) |
+| Stringa | [split](../functions/string-functions.md#split) |
+| Stringa | [startWith](../functions/string-functions.md#startWith) |
+| Stringa | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| Stringa | [substr](../functions/string-functions.md#substr) |
+| Stringa | [trim](../functions/string-functions.md#trim) |
+| Stringa | [upper](../functions/string-functions.md#upper) |
+| Stringa | [uuid](../functions/string-functions.md#uuid) |
