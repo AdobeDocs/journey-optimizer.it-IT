@@ -4,11 +4,10 @@ product: journey optimizer
 title: Utilizzare gli eventi dei passaggi del percorso
 description: 'Scopri come utilizzare gli eventi dei passaggi di percorso in Adobe Journey Optimizer: cosa sono, perché sono importanti e come utilizzarli per l’analisi e l’ottimizzazione'
 feature: Journeys, Reporting
-topic: Content Management
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: percorso, eventi dei passaggi, analisi, reporting, monitoraggio, XDM
-source-git-commit: 9320777cfb75fd1370c11b601908644ba17ff21e
+source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 Gli eventi dei passaggi di percorso sono eventi generati automaticamente che acquisiscono informazioni dettagliate su ogni passaggio di un [profilo](../audience/get-started-profiles.md) durante l&#39;avanzamento in un [percorso](../building-journeys/journey.md) in Adobe Journey Optimizer. Questi eventi forniscono visibilità completa sulle prestazioni di [percorso](../building-journeys/report-journey.md) e abilitano potenti funzionalità di analisi.
 
-## Cosa sono gli eventi delle fasi di percorso? {#what-are-step-events}
+## Cosa sono gli eventi delle fasi del percorso {#what-are-step-events}
 
 Gli eventi dei passaggi di percorso sono eventi [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} generati dal sistema e che Adobe Journey Optimizer crea e invia automaticamente a [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} ogni volta che un profilo si sposta da un nodo a un altro in un percorso. Ogni evento corrisponde a una [attività di percorso](../building-journeys/about-journey-activities.md) specifica o a una transizione nell&#39;esperienza di percorso del cliente.
 
