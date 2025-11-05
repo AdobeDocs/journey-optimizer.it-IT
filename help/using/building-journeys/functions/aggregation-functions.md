@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: aggregazione, funzioni, espressione, percorso, media, conteggio, max, min, sum
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '712'
 ht-degree: 8%
 
 ---
 
 # Funzioni di aggregazione {#aggregation-functions}
 
-Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insieme di valori e restituire un singolo valore. Queste funzioni sono particolarmente utili quando si lavora con elenchi e array nelle espressioni di percorso.
+Le funzioni di aggregazione eseguono calcoli su un insieme di valori e restituiscono un singolo risultato riepilogato. Queste funzioni consentono di analizzare i dati all&#39;interno delle espressioni di percorso calcolando le medie, trovando i valori minimi e massimi, contando gli elementi e sommando i valori numerici.
+
+Utilizzare le funzioni di aggregazione quando è necessario:
+
+* Calcola i valori statistici da elenchi o array (media, somma, min, max)
+* Contare gli elementi nelle raccolte, con opzioni per includere o escludere valori Null
+* Determinare valori univoci all’interno dei set di dati
+* Prendere decisioni basate sui dati in base a metriche calcolate
+
+Le funzioni di aggregazione gestiscono automaticamente i valori Null in base al loro comportamento specifico, semplificando l&#39;utilizzo di dati reali che possono contenere valori mancanti o non definiti.
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ Restituisce il numero di oggetti nella matrice di oggetti specificata (tipo list
 
 Conta il numero di valori Null nell&#39;elenco.
 
-**Nota:** Il parametro `<listObject>` non è supportato in questa funzione.
-
 +++Sintassi
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ Restituisce 1.
 
 +++
 
+**Nota:** Il parametro `<listObject>` non è supportato in questa funzione.
+
 ## countWithNull {#countWithNull}
 
 Conta tutti gli elementi dell’elenco, inclusi i valori Null.
-
-**Nota:** Il parametro `<listObject>` non è supportato in questa funzione.
 
 +++Sintassi
 
@@ -182,6 +190,8 @@ Restituisce un numero intero.
 Restituisce 4.
 
 +++
+
+**Nota:** Il parametro `<listObject>` non è supportato in questa funzione.
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ Restituisce il numero di oggetti con un valore di attributo &quot;SKU&quot; dist
 
 Conta il numero di valori diversi, inclusi i valori Null.
 
-**Nota:** Il parametro `<listObject>` non è supportato in questa funzione.
-
 +++Sintassi
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ Restituisce un numero intero.
 Restituisce 3.
 
 +++
+
+**Nota:** Il parametro `<listObject>` non è supportato in questa funzione.
 
 ## max {#max}
 
