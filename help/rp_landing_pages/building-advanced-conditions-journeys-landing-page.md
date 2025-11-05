@@ -5,8 +5,8 @@ title: Creare espressioni
 description: Creare espressioni
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
-workflow-type: ht
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer include un **editor di espressioni avanzato** che consen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Utilizzo dell’editor di espressioni avanzato
 
@@ -30,7 +30,7 @@ Scopri come utilizzare l’editor di espressioni avanzato per creare espressioni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Sintassi avanzata per le espressioni
 
@@ -40,18 +40,18 @@ Apprendi le regole di sintassi, le istruzioni condizionali e i tipi di dati nece
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funzioni in Adobe Journey Optimizer
 
 Accedi a una guida completa alle funzioni per intervenire sui dati, valutare le condizioni e creare flussi di lavoro complessi nei percorsi.
 
-[Scopri le funzioni disponibili](main-functions-journey-landing-page.md)
+[Scopri le funzioni disponibili](../using/building-journeys/expression/functions.md)
 :::
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Esempi di query sui set di dati di Journey Optimizer e casi d’uso correlati
 
@@ -61,7 +61,7 @@ Accedi a esempi pratici di query SQL per analizzare e gestire i dati tra set di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Esempio di query SQL per l’analisi dei dati
 
