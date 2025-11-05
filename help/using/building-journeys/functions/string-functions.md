@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: stringa, funzioni, espressione, percorso, testo, manipolazione
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,16 @@ Le funzioni stringa consentono di manipolare e utilizzare valori di testo all&#3
 
 Utilizza le funzioni stringa quando devi:
 
-* Concatena e combina più valori di testo
-* Cercare pattern o sottostringhe di testo specifiche
-* Confronta le stringhe con corrispondenza con distinzione tra maiuscole e minuscole o senza distinzione tra maiuscole e minuscole
-* Estrarre parti di testo utilizzando operazioni di sottostringa
-* Trasforma il testo in maiuscolo o minuscolo
-* Verifica se le stringhe sono vuote o contengono valori specifici
-* Sostituisci modelli di testo con nuovi valori
-* Dividere le stringhe in array per un&#39;ulteriore elaborazione
-* Convalida testo in base a espressioni regolari
+* Concatena e combina più valori di testo ([concat](#concat))
+* Cerca pattern o sottostringhe di testo specifiche ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Confronta le stringhe con corrispondenza con distinzione tra maiuscole e minuscole o senza distinzione tra maiuscole e minuscole ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* Controlla se la stringa inizia e termina ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
+* Estrai parti di testo utilizzando operazioni di sottostringa ([substr](#substr))
+* Trasforma il testo in maiuscolo o minuscolo ([upper](#upper), [lower](#lower), [trim](#trim))
+* Verifica se le stringhe sono vuote o contengono valori specifici ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
+* Sostituisci modelli di testo con nuovi valori ([replace](#replace), [replaceAll](#replaceAll))
+* Dividi le stringhe in matrici per ulteriore elaborazione ([split](#split))
+* Ottieni la lunghezza della stringa ([lunghezza](#length)) o genera identificatori univoci ([uuid](#uuid))
 
 Le funzioni stringa forniscono funzionalità complete di manipolazione del testo, consentendo un’elaborazione sofisticata dei dati e una logica condizionale basata sul contenuto di testo nelle espressioni di percorso.
 

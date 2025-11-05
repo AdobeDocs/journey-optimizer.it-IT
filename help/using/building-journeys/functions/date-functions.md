@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: data, funzioni, espressione, percorso, ora
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 12%
 
 ---
@@ -20,9 +20,9 @@ Le funzioni di data consentono di manipolare e utilizzare i valori di data e ora
 
 Utilizza le funzioni data quando devi:
 
-* Ottieni l’ora o la data corrente con una gestione specifica del fuso orario
-* Verifica se una data rientra in un intervallo di tempo specifico (passato o futuro)
-* Modifica dei componenti data e ora (ore, giorni, fusi orari)
+* Ottieni l&#39;ora o la data corrente con gestione del fuso orario specifica ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Controlla se una data rientra in un intervallo di tempo specifico ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
+* Modifica componenti data e ora ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Eseguire calcoli e confronti basati sul tempo
 * Conversione tra diversi formati e rappresentazioni temporali
 

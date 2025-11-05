@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: conversione, funzioni, espressione, percorso, tipo, cast
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,10 @@ Le funzioni di conversione consentono di trasformare i dati da un tipo all’alt
 
 Utilizza le funzioni di conversione quando devi:
 
-* Convertire i valori stringa in tipi numerici, booleani o di data
-* Trasformazione di data e ora tra formati e rappresentazioni diversi
-* Cast valori numerici tra tipi integer e decimal
+* Converti i valori stringa in tipi numerici, booleani o di data ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
+* Trasforma date e ore tra formati e rappresentazioni diversi ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
+* Cast valori numerici tra tipi integer e decimal ([toInteger](#toInteger), [toDecimal](#toDecimal))
+* Converti i valori in formato stringa ([toString](#toString)) o durata ([toDuration](#toDuration))
 * Garantire la compatibilità dei tipi per confronti e operazioni
 * Elabora dati provenienti da origini esterne che possono avere formati di tipo diversi
 

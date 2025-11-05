@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: aggregazione, funzioni, espressione, percorso, media, conteggio, max, min, sum
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 8%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ Le funzioni di aggregazione eseguono calcoli su un insieme di valori e restituis
 
 Utilizzare le funzioni di aggregazione quando è necessario:
 
-* Calcola i valori statistici da elenchi o array (media, somma, min, max)
-* Contare gli elementi nelle raccolte, con opzioni per includere o escludere valori Null
-* Determinare valori univoci all’interno dei set di dati
+* Calcola valori statistici da elenchi o matrici ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
+* Conta elementi nelle raccolte ([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)), con opzioni per includere o escludere valori Null
+* Determina valori univoci nei set di dati ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
 * Prendere decisioni basate sui dati in base a metriche calcolate
 
 Le funzioni di aggregazione gestiscono automaticamente i valori Null in base al loro comportamento specifico, semplificando l&#39;utilizzo di dati reali che possono contenere valori mancanti o non definiti.

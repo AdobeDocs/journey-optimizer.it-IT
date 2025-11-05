@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: elenco, funzioni, espressione, percorso, matrice, raccolta
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1158'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ Le funzioni elenco consentono di manipolare e utilizzare insiemi di valori all�
 
 Utilizza le funzioni elenco quando devi:
 
-* Filtrare ed estrarre elementi specifici dalle raccolte in base a criteri
-* Ordinare e organizzare gli elementi dell’elenco in ordine crescente o decrescente
-* Rimuovi i duplicati e ottieni valori univoci dagli elenchi
-* Verifica se i valori esistono nelle raccolte
-* Limita il numero di elementi restituiti da un elenco
-* Trasformare gli elenchi in diversi formati o tipi di dati
-* Eseguire operazioni sui set come la ricerca di elementi comuni tra gli elenchi
+* Filtra ed estrai elementi specifici dalle raccolte in base ai criteri ([filter](#filter), [getListItem](#getListItem))
+* Ordina e organizza gli elementi elenco in ordine crescente o decrescente ([ordina](#sort))
+* Rimuovi i duplicati e ottieni valori univoci dagli elenchi ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
+* Verifica se i valori esistono nelle raccolte ([in](#in))
+* Limita il numero di elementi restituiti da un elenco ([limit](#limit))
+* Ottenere le dimensioni di un elenco ([listSize](#listSize)) o trasformare gli elenchi in formati diversi ([serializeList](#serializeList))
+* Eseguire operazioni sui set come la ricerca di elementi comuni tra elenchi ([intersect](#intersect))
 
 Le funzioni elenco forniscono potenti strumenti per l’utilizzo di strutture di dati complesse, consentendo una sofisticata manipolazione dei dati e una logica condizionale basata sui contenuti della raccolta.
 
