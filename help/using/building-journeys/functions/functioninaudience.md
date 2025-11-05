@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, funzione, espressione, percorso, pubblico, segmentazione
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ La funzione `inAudience` è una funzione di Adobe Experience Platform che consen
 
 Utilizzare la funzione `inAudience` quando è necessario:
 
-* [Percorsi di percorso diramati in base all’iscrizione al pubblico](../condition-activity.md#using-a-segment)
+* Percorsi del percorso di rami basati sull’iscrizione al pubblico. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
 * Applicare una logica condizionale che dipende dall’appartenenza di un profilo a un segmento specifico
 * Eseguire il targeting di gruppi specifici di clienti con esperienze personalizzate
 * Valutazione della partecipazione del pubblico in tempo reale in condizioni di percorso
@@ -36,7 +36,7 @@ I tipi di pubblico possono avere due stati di partecipazione:
 * **Realizzato**: l&#39;individuo è idoneo per la definizione del pubblico ed è un membro attivo
 * **Uscito**: l&#39;utente ha lasciato il pubblico e non è più idoneo
 
-Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintassi
 
