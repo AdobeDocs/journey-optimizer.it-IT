@@ -9,7 +9,7 @@ level: Experienced
 keywords: funzione, espressioni, editor, percorso
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -62,16 +62,16 @@ Elenco delle funzioni supportate.
 | Data | [setHours](../functions/date-functions.md#setHours) |
 | Data | [setDays](../functions/date-functions.md#setDays) |
 | Data | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
-| Elenco | [distinct](../functions/functiondistinct.md) |
-| Elenco | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Elenco | [filtro](../functions/functionfilter.md) |
-| Elenco | [getListItem](../functions/functiongetlistitem.md) |
-| Elenco | [in](../functions/functionin.md) |
-| Elenco | [intersezione](../functions/functionintersect.md) |
-| Elenco | [limite](../functions/functionlimit.md) |
-| Elenco | [listSize](../functions/functionlistsize.md) |
-| Elenco | [serializeList](../functions/functionserializelist.md) |
-| Elenco | [sort](../functions/functionsort.md) |
+| Elenco | [distinct](../functions/list-functions.md#distinct) |
+| Elenco | [distinctWithNull](../functions/list-functions.md#distinctWithNull) |
+| Elenco | [filtro](../functions/list-functions.md#filter) |
+| Elenco | [getListItem](../functions/list-functions.md#getListItem) |
+| Elenco | [in](../functions/list-functions.md#in) |
+| Elenco | [intersezione](../functions/list-functions.md#intersect) |
+| Elenco | [limite](../functions/list-functions.md#limit) |
+| Elenco | [listSize](../functions/list-functions.md#listSize) |
+| Elenco | [serializeList](../functions/list-functions.md#serializeList) |
+| Elenco | [sort](../functions/list-functions.md#sort) |
 | Matematica | [random](../functions/functionrandom.md) |
 | Matematica | [round](../functions/functionround.md) |
 | Stringa | [concat](../functions/functionconcat.md) |

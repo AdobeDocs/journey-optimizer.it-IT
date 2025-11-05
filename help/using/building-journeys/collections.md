@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -132,7 +132,7 @@ In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratt
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente vengono utilizzate le funzioni [filter](functions/functionfilter.md) e [intersect](functions/functionintersect.md):
+Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente vengono utilizzate le funzioni [filter](functions/list-functions.md#filter) e [intersect](functions/list-functions.md#intersect):
 
 ![](assets/uc-collection-5.png)
 

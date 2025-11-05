@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/3412404?captions=ita">video sulle funzioni</a>.
+<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
 </td>
 </tr>
 </tbody>
@@ -617,7 +617,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 **Percorsi**
 
 * **Leggi pubblico**: i percorsi Leggi pubblico una tantum passano ora allo stato Completato 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico con lettura pianificata, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza. [Ulteriori informazioni](../building-journeys/read-audience.md)
-* **Editor espressioni**: è stata aggiunta la funzione [limit](../building-journeys/functions/functionlimit.md) per consentire di limitare il numero di elementi di un elenco. La funzione [sort](../building-journeys/functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject alle funzioni [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+* **Editor espressioni**: è stata aggiunta la funzione [limit](../building-journeys/functions/list-functions.md#limit) per consentire di limitare il numero di elementi di un elenco. La funzione [sort](../building-journeys/functions/list-functions.md#sort) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject alle funzioni [disctinct](../building-journeys/functions/list-functions.md#distinct) e [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull).
 
 **Amministrazione**
 

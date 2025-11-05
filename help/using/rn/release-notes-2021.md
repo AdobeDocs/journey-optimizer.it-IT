@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 <p>Ora puoi trasferire raccolte o un elenco di dati nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte: raccolte semplici e raccolte di oggetti. Le azioni personalizzate create in precedenza continueranno a funzionare. </p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/collections.md">documentazione dettagliata</a>. </p>
 <p>Le funzioni filtro e intersezione sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre più possibilità per il filtraggio della raccolta e il confronto.</p>
-<p>Consulta la documentazione sulle funzioni <a href="../building-journeys/functions/functionfilter.md">filtro</a> e <a href="../building-journeys/functions/functionintersect.md">intersezione</a>.</p>
+<p>Consulta la documentazione sulle funzioni <a href="../building-journeys/functions/list-functions.md#filter">filtro</a> e <a href="../building-journeys/functions/list-functions.md#intersect">intersezione</a>.</p>
 </td>
 </tr>
 </tbody>
