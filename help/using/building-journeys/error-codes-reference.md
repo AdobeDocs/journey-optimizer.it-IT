@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: errore, codici, risoluzione dei problemi, percorso, campagna, messaggi
-source-git-commit: 405c87f9ca138e4e92438704b5051ce89c73d726
+source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2394'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Questi errori si verificano durante la creazione, la modifica o la pubblicazione
 
 | Codice di errore | Descrizione | Causa principale | Risoluzione |
 |------------|-------------|-----------|-----------|
-| **CJMMAS-1732-500** | Bozza non riuscita: tutte le risorse non vengono pubblicate quando si invia una bozza/prova con una risorsa AEM | La risorsa pubblicata di recente non è ancora in AJO; mancata corrispondenza nell’ID della risorsa; uso cross-repo; ritardo nella sincronizzazione di AEM | &#x200B;1. Utilizza solo ID di risorse pubblicati dall&#39;archivio/ambiente corretto<br/>2. Consenti tempo per la sincronizzazione tra AEM e AJO<br/>3. Riprova con una risorsa valida nota<br/>4. Verifica lo stato di pubblicazione delle risorse in AEM <br/><br/>**Documentazione correlata**: [Integrazione Assets](../content-management/assets.md) |
+| **CJMMAS-1732-500** | Bozza non riuscita: tutte le risorse non vengono pubblicate quando si invia una bozza/prova con una risorsa AEM | La risorsa pubblicata di recente non è ancora in AJO; mancata corrispondenza nell’ID della risorsa; uso cross-repo; ritardo nella sincronizzazione di AEM | &#x200B;1. Utilizza solo ID di risorse pubblicati dall&#39;archivio/ambiente corretto<br/>2. Consenti tempo per la sincronizzazione tra AEM e AJO<br/>3. Riprova con una risorsa valida nota<br/>4. Verifica lo stato di pubblicazione delle risorse in AEM <br/><br/>**Documentazione correlata**: [Integrazione Assets](../integrations/assets.md) |
 | **CJMMAS-1069-500** | Errore interno durante il salvataggio o la pubblicazione del modello di messaggio | Eccezione di back-end (bug di infrastruttura/servizio o problema di contenuto); markup/funzione non supportati | &#x200B;1. Semplificare o ridurre la complessità del modello<br/>2. Aggiungi nuovamente il contenuto nei passaggi incrementali per identificare il problema<br/>3. Controlla la [pagina Stato Adobe](https://status.adobe.com/it)<br/>4. Rimuovi funzioni o markup non supportati <br/><br/>**Documentazione correlata**: [Modelli di contenuto](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | Richiesta non valida durante il salvataggio di un messaggio, un predefinito o una variante | Campi obbligatori mancanti nel messaggio o configurazione non valida | &#x200B;1. Completare tutti i campi obbligatori (contrassegnati da asterisco)<br/>2. Convalida la configurazione del messaggio/predefinito<br/>3. Verifica i formati e i vincoli dei valori dei campi<br/>4. Rivedi i messaggi di convalida nell&#39;interfaccia utente <br/><br/>**Documentazione correlata**: [Canale e-mail](../email/get-started-email.md), [Superfici di canale](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | Entità non elaborabile nella modifica del predefinito per messaggi | Errore di convalida, campo non supportato o sintassi non corretta | &#x200B;1. Correggere gli errori di sintassi/campo come indicato<br/>2. Confronta con una configurazione valida<br/>3. Usa la convalida dell&#39;interfaccia utente dei messaggi prima di salvare<br/>4. Controlla i requisiti dei campi nella documentazione <br/><br/>**Documentazione correlata**: [Predefiniti per messaggi](../configuration/channel-surfaces.md), [Impostazioni e-mail](../email/email-settings.md) |
@@ -113,7 +113,7 @@ Questi errori si verificano durante la configurazione della generazione rapporti
 
 | Codice di errore | Descrizione | Causa principale | Risoluzione |
 |------------|-------------|-----------|-----------|
-| **CJMRPS-1047-409** | &quot;Conflitto. Set di dati già aggiunto&quot; quando si aggiunge un set di dati di reporting | Tentativo di aggiungere un set di dati per il quale è già stato eseguito il provisioning | &#x200B;1. Rivedi la configurazione del set di dati nelle impostazioni di reporting<br/>2. Non aggiungere nuovamente i set di dati già presenti<br/>3. Utilizza elenchi di controllo ufficiali per la migrazione per la generazione di rapporti<br/>4. Rimuovi riferimenti a set di dati duplicati <br/><br/>**Documentazione correlata**: [Report globali](../reports/global-report.md), [Report live](../reports/live-report.md) |
+| **CJMRPS-1047-409** | &quot;Conflitto. Set di dati già aggiunto&quot; quando si aggiunge un set di dati di reporting | Tentativo di aggiungere un set di dati per il quale è già stato eseguito il provisioning | &#x200B;1. Rivedi la configurazione del set di dati nelle impostazioni di reporting<br/>2. Non aggiungere nuovamente i set di dati già presenti<br/>3. Utilizza elenchi di controllo ufficiali per la migrazione per la generazione di rapporti<br/>4. Rimuovi riferimenti a set di dati duplicati <br/><br/>**Documentazione correlata**: [Panoramica sui report](../reports/gs-reports.md), [Report campagne](../reports/campaign-global-report-cja.md), [Report Percorso](../reports/journey-global-report-cja.md) |
 
 ## Approccio generale per la risoluzione dei problemi {#troubleshooting-approach}
 
