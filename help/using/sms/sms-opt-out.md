@@ -71,6 +71,6 @@ Gli ID mittente alfanumerico sono solo per la messaggistica unidirezionale e non
 
   +++ Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440287/?captions=ita&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

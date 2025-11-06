@@ -6,7 +6,7 @@ description: Distribuire offerte tramite API
 redpen-status: CREATED_||_2025-08-11_21-04-29
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le API di consegna delle offerte di Adobe Journey Optimizer ti consentono di for
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alla consegna delle offerte tramite API
 
@@ -30,7 +30,7 @@ Informazioni sulle API disponibili per la distribuzione di offerte personalizzat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Distribuire offerte tramite l’API Decisioning
 
@@ -40,7 +40,7 @@ Crea e distribuisci offerte di marketing personalizzate utilizzando l’API Deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Distribuire offerte tramite l’API Edge Decisioning
 
@@ -50,7 +50,7 @@ Implementa la consegna delle offerte personalizzata con Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilizzo dell’API Batch Decisioning per distribuire le offerte
 

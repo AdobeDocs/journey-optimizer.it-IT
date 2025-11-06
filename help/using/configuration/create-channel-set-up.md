@@ -56,7 +56,7 @@ ht-degree: 100%
 
 Questa configurazione semplifica la configurazione rapida dei canali di marketing, rendendo immediatamente disponibili tutte le risorse essenziali nelle app Experience Platform, Journey Optimizer e Data Collection. Questo consente al team di marketing di iniziare rapidamente a creare campagne e percorsi.
 
-1. Nella pagina Home di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** nella scheda **[!UICONTROL Configura i canali per web e dispositivi mobili]**.
+1. Nella pagina Home di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** nella scheda **[!UICONTROL Configura i canali web e per dispositivi mobili]**.
 
    ![](assets/guided-setup-config-1.png)
 
@@ -88,7 +88,7 @@ Questa configurazione semplifica la configurazione rapida dei canali di marketin
 
 Dopo aver creato la configurazione, puoi rivederla in qualsiasi momento per aggiungere altri canali o apportare ulteriori modifiche in base alle tue esigenze
 
-1. Nella pagina Home di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** nella scheda **[!UICONTROL Configura i canali per web e dispositivi mobili]**.
+1. Nella pagina Home di Journey Optimizer, fai clic su **[!UICONTROL Inizia]** nella scheda **[!UICONTROL Configura i canali web e per dispositivi mobili]**.
 
    ![](assets/guided-setup-config-1.png)
 

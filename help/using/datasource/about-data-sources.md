@@ -49,11 +49,11 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 >
 >Le relazioni tra schemi non sono supportate per le origini dati.
 
-Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=it){target="_blank"}.
+Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Video dimostrativo {#video}
 
 Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416635?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

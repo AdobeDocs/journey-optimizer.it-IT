@@ -20,7 +20,7 @@ Adobe Journey Optimizer include un **editor di espressioni avanzato** che consen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Utilizzo dell’editor di espressioni avanzato
 
@@ -30,7 +30,7 @@ Scopri come utilizzare l’editor di espressioni avanzato per creare espressioni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Sintassi avanzata per le espressioni
 
@@ -40,7 +40,7 @@ Apprendi le regole di sintassi, le istruzioni condizionali e i tipi di dati nece
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funzioni in Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Accedi a una guida completa alle funzioni per intervenire sui dati, valutare le 
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Esempi di query sui set di dati di Journey Optimizer e casi d’uso correlati
 
@@ -61,7 +61,7 @@ Accedi a esempi pratici di query SQL per analizzare e gestire i dati tra set di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Esempio di query SQL per l’analisi dei dati
 

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -22,6 +22,6 @@ Adobe Journey Optimizer consente l’acquisizione di dati da fonti esterne e all
 
 Scopri i connettori di origine e come configurarli in Journey Optimizer con questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Per ulteriori informazioni su come acquisire dati da fonti esterne con i connettori per origini, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.

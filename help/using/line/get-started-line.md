@@ -25,7 +25,7 @@ I messaggi LINE possono essere creati e inviati in un percorso o in una campagna
 
 * In una **campagna**. Crea una campagna, seleziona LINE come azione e definisci le impostazioni di base, quindi modifica il contenuto per definire il messaggio LINE da inviare. Scopri come creare una campagna in [questa pagina](../campaigns/create-campaign.md#configure).
 
-Prima di creare il messaggio LINE, configura il canale LINE con Journey Optimizer. [Maggiori informazioni](line-configuration.md).
+Prima di creare il messaggio LINE, configura il canale LINE con Journey Optimizer. [Ulteriori informazioni](line-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -6,7 +6,7 @@ description: Modificare lo stile
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ L’E-mail Designer di Adobe Journey Optimizer include potenti strumenti di stil
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Personalizzare gli stili delle e-mail
 
@@ -30,7 +30,7 @@ Scopri come regolare i parametri di stile, ad esempio il corpo, la struttura e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalizzare lo sfondo delle e-mail
 
@@ -40,7 +40,7 @@ Scopri come impostare i colori e le immagini di sfondo a diversi livelli della s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Regolare l’allineamento verticale e la spaziatura
 
@@ -50,7 +50,7 @@ Istruzioni dettagliate per la modifica dell’allineamento verticale e della spa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aggiungere attributi di stile in linea
 

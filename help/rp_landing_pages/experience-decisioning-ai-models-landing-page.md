@@ -6,7 +6,7 @@ description: Modelli di IA
 redpen-status: CREATED_||_2025-08-11_20-55-44
 exl-id: 71f24028-0a4c-4945-ad74-d52472f59c1f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I modelli di IA in Adobe Journey Optimizer ti aiutano a fornire l’offerta gius
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione ai modelli di IA
 
@@ -30,7 +30,7 @@ Scopri i tipi, le finalità e i passaggi per creare e utilizzare modelli di inte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modelli di ottimizzazione automatica
 
@@ -40,7 +40,7 @@ Scopri come funzionano i modelli di ottimizzazione automatica, tra cui il campio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Modelli di ottimizzazione personalizzata
 
@@ -50,7 +50,7 @@ Scopri come i modelli di ottimizzazione personalizzata sfruttano i dati della cl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida dettagliata: creazione di modelli IA
 

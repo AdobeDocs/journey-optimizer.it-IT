@@ -6,7 +6,7 @@ description: Configurazione evento
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configurazione dell’evento in Adobe Journey Optimizer riguarda la configura
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utilizzare gli eventi del percorso
 
@@ -30,7 +30,7 @@ Scopri gli eventi del percorso, i relativi tipi, il ciclo di vita e la configura
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurare un evento unitario
 
@@ -40,7 +40,7 @@ Segui una guida dettagliata per configurare eventi unitari, inclusa la definizio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Schemi ExperienceEvent
 
@@ -50,7 +50,7 @@ Scopri i requisiti e le configurazioni dello schema per l’acquisizione degli e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Integrazione di Adobe Analytics
 
@@ -60,7 +60,7 @@ Scopri come integrare i dati di Adobe Analytics per automatizzare i percorsi e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurare un evento di business
 
@@ -70,7 +70,7 @@ Istruzioni dettagliate per la configurazione di eventi di business, inclusa la d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Inviare eventi tramite le API di streaming
 

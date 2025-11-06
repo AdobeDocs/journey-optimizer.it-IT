@@ -6,7 +6,7 @@ description: Elenco funzioni Helper
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le funzioni di supporto in Adobe Journey Optimizer ti consentono di personalizza
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alle funzioni Helper
 
@@ -30,7 +30,7 @@ Scopri come utilizzare le funzioni Helper per la gestione e la personalizzazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Libreria delle funzioni di aggregazione
 
@@ -40,7 +40,7 @@ Scopri le funzioni per riepilogare più valori in un unico valore per la persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Libreria delle funzioni aritmetiche
 
@@ -50,7 +50,7 @@ Esplora il modo in cui le funzioni aritmetiche eseguono calcoli quali addizioni,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Riferimento alle funzioni di Array ed Elenco
 
@@ -60,7 +60,7 @@ Scopri come gestire array ed elenchi con funzioni quali il conteggio, il recuper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Libreria delle funzioni di Data e Ora
 
@@ -70,7 +70,7 @@ Utilizza le funzioni Data e Ora per gestire e formattare le date per i flussi di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Libreria di funzioni booleane e di confronto
 

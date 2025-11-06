@@ -28,17 +28,17 @@ In questo esempio, viene aggiunta un&#39;etichetta al campo schema **Nazionalit�
 
 1. Crea un nuovo **[!UICONTROL Ruolo]** e assegnalo con la **[!UICONTROL Etichetta]** corrispondente affinché gli utenti possano accedere e utilizzare il campo schema.
 
-1. Assegna un&#39;etichetta **[!UICONTROL 1&rbrace; al campo schema]** Nazionalità&#x200B;**in Adobe Experience Platform.**
+1. Assegna un&#39;etichetta **[!UICONTROL 1} al campo schema]** Nazionalità&#x200B;**in Adobe Experience Platform.**
 
 1. Utilizza il campo **[!UICONTROL Schema]** in Adobe Journey Optimizer.
 
-Tieni presente che è possibile accedere a **[!UICONTROL Ruoli]**, **[!UICONTROL Criteri]** e **[!UICONTROL Prodotti]** anche con l&#39;API di controllo degli accessi basata su attributi. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=it){target="_blank"}.
+Tieni presente che è possibile accedere a **[!UICONTROL Ruoli]**, **[!UICONTROL Criteri]** e **[!UICONTROL Prodotti]** anche con l&#39;API di controllo degli accessi basata su attributi. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Creare un ruolo e assegnare etichette {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>Prima di gestire le autorizzazioni per un ruolo, crea un criterio. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=it){target="_blank"}.
+>>Prima di gestire le autorizzazioni per un ruolo, crea un criterio. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=it){target="_blank"}.
 
 **[!UICONTROL I ruoli]** sono un insieme di utenti che condividono le stesse autorizzazioni, etichette e sandbox all&#39;interno dell&#39;organizzazione. Ogni utente appartenente a un **[!UICONTROL Ruolo]** ha diritto alle app e ai servizi Adobe contenuti nel prodotto. Puoi anche creare **[!UICONTROL Ruoli]** personalizzati per ottimizzare l&#39;accesso degli utenti a determinate funzionalità o oggetti nell&#39;interfaccia.
 
@@ -102,11 +102,11 @@ Puoi anche aggiungere **[!UICONTROL Label]** a **[!UICONTROL Schema]**, **[!UICO
 
    ![Modifica etichette di governance per il campo](assets/label_3.png)
 
-1. Selezionare l&#39;**[!UICONTROL etichetta]** corrispondente. In questo caso, i dati C2 - non possono essere esportati a terze parti. Per l&#39;elenco dettagliato delle etichette disponibili, consultare [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it#contract-labels){target="_blank"}.
+1. Selezionare l&#39;**[!UICONTROL etichetta]** corrispondente. In questo caso, i dati C2 - non possono essere esportati a terze parti. Per l&#39;elenco dettagliato delle etichette disponibili, consultare [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Se necessario, personalizza ulteriormente lo schema, quindi attivalo. Per i passaggi dettagliati su come abilitare lo schema, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it#profile){target="_blank"}.
+1. Se necessario, personalizza ulteriormente lo schema, quindi attivalo. Per i passaggi dettagliati su come abilitare lo schema, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
 Il campo dello schema ora sarà visibile e utilizzabile solo dagli utenti che fanno parte di un set di ruoli con l’etichetta C2. Applicando una **[!UICONTROL Etichetta]** al **[!UICONTROL Nome campo]**, la **[!UICONTROL Etichetta]** verrà automaticamente applicata al campo **Nazionalità** in ogni schema creato.
 

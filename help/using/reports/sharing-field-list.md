@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 

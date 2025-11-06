@@ -6,7 +6,7 @@ description: Impostare le regole di limitazione dei messaggi e dei percorsi
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La gestione delle regole di limitazione dei messaggi e dei percorsi in Adobe Jou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzare i set di regole
 
@@ -30,7 +30,7 @@ Scopri come creare, gestire e attivare set di regole per controllare la frequenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limitazione del percorso e arbitrato
 
@@ -40,7 +40,7 @@ Scopri come impostare i limiti di concorrenza e di ingresso nel percorso, assegn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Quota limite per canale
 

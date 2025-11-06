@@ -17,9 +17,9 @@ ht-degree: 83%
 
 # Introduzione alle query {#queries-gs}
 
-Query Editor è uno strumento interattivo fornito dal servizio query di Adobe Experience Platform che consente di scrivere, convalidare ed eseguire query per i dati sulla customer experience nell’interfaccia utente di [!DNL Adobe Journey Optimizer].
+L’editor di query è uno strumento interattivo fornito dal servizio query di Adobe Experience Platform che consente di scrivere, convalidare ed eseguire query per i dati sulla customer experience nell’interfaccia utente di [!DNL Adobe Journey Optimizer].
 
-Query Editor supporta lo sviluppo di query per l’analisi e l’esplorazione dei dati e consente di eseguire query interattive a scopo di sviluppo e query non interattive per la compilazione di [set di dati](get-started-datasets.md).
+L’editor di query supporta lo sviluppo di query per l’analisi e l’esplorazione dei dati e consente di eseguire query interattive a scopo di sviluppo nonché query non interattive per la compilazione di [set di dati](get-started-datasets.md).
 
 ![](assets/queries-home.png)
 

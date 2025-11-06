@@ -6,7 +6,7 @@ description: Campi evento del passaggio precedente
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I campi eventi del passaggio precedente in Adobe Journey Optimizer sono essenzia
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Informazioni sui campi precedenti
 
@@ -30,7 +30,7 @@ Scopri i campi evento dei passaggi precedenti in Adobe Journey Optimizer, inclus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Panoramica sui campi del percorso
 
@@ -40,7 +40,7 @@ Scopri i campi nello schema del percorso, i relativi tipi e come supportano lil 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Campi comuni per gli eventi dei passaggi del percorso
 
@@ -50,7 +50,7 @@ Trova campi essenziali condivisi tra journeyStepEvent e journeyStepProfileEvent 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Campi di esecuzione di azioni
 
@@ -60,7 +60,7 @@ Informazioni sui campi relativi all’esecuzione di azioni negli eventi journeyS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Campi di recupero dati
 
@@ -70,7 +70,7 @@ Scopri i campi associati al recupero dei dati durante l’elaborazione dei passa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Campi di identità JourneyStep
 

@@ -6,7 +6,7 @@ description: Creare esperienze basate su codice
 redpen-status: CREATED_||_2025-08-11_20-42-15
 exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le esperienze basate su codice in Adobe Journey Optimizer ti consentono di crear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creare e comporre esperienze basate su codice
 
@@ -30,7 +30,7 @@ Scopri come creare e configurare esperienze basate su codice in Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilizzare campi modificabili nelle esperienze basate su codice
 
@@ -40,7 +40,7 @@ Scopri come aggiungere campi modificabili ai modelli per consentire agli esperti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Testare le esperienze basate su codice
 
@@ -50,7 +50,7 @@ Scopri come visualizzare in anteprima e simulare esperienze basate su codice uti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Pubblicare e gestire le esperienze basate su codice
 

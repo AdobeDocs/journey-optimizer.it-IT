@@ -6,7 +6,7 @@ description: Configurare le notifiche push
 redpen-status: CREATED_||_2025-08-11_20-36-35
 exl-id: 52a58dc4-20fa-467d-b790-d9c7eecbdaf6
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le notifiche push in Adobe Journey Optimizer ti consentono di connetterti con il
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Flusso e configurazione dei dati delle notifiche push
 
@@ -30,7 +30,7 @@ Informazioni sui componenti, i flussi di lavoro e il flusso di dati necessari pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione dei canali per le notifiche push
 
@@ -40,7 +40,7 @@ Istruzioni dettagliate per la configurazione delle autorizzazioni, l’integrazi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Flusso di lavoro di avvio rapido per l’onboarding su dispositivi mobili
 

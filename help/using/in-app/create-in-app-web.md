@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 7%
@@ -20,9 +20,9 @@ ht-degree: 7%
 
 Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
 
-* Installa l’estensione tag Web SDK per supportare la messaggistica in-app web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it)
+* Installa l’estensione tag Web SDK per supportare la messaggistica in-app web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
-* Personalizza i trigger. La messaggistica Web in-app supporta due tipi di trigger: Inviati dati alla piattaforma e Manuali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=it)
+* Personalizza i trigger. La messaggistica Web in-app supporta due tipi di trigger: Inviati dati alla piattaforma e Manuali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html){target="_blank"}
 
 * Crea la configurazione Web in-app. [Ulteriori informazioni](inapp-configuration.md)
 
@@ -62,7 +62,7 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
-      | Piattaforma | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall&#39;estensione AEP Edge. |
+      | Piattaforma | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent){target="_blank"} dall&#39;estensione AEP Edge. |
       | Manuale | Attivazione manuale | Due elementi dati associati: una chiave, che è una costante che definisce il set di dati (ad esempio, genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad esempio, maschio/femmina, verde, 100). |
 
       +++

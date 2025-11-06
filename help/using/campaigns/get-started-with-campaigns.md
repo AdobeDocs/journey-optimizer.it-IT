@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -149,7 +149,8 @@ Prima di utilizzare le campagne, assicurati di aver rivisto i prerequisiti di se
 
    1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
-      Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
+      Se l&#39;utente non è stato creato in precedenza, consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}
+
 
   L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 

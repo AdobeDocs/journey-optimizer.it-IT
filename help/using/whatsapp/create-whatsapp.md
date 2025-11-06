@@ -128,7 +128,7 @@ Nota che il modello WhatsApp deve prima essere approvato da Meta prima di essere
 
    ![](assets/whatsapp-design-1.png)
 
-1. Dall&#39;elenco a discesa **Modello WhatsApp**, seleziona il modello creato in precedenza e progettato in Meta.
+1. Dal menu a discesa **Modello WhatsApp**, seleziona il modello creato in precedenza e progettato in Meta.
 
    [Ulteriori informazioni su come creare i modelli Whatsapp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
@@ -195,6 +195,6 @@ Il video seguente mostra come creare un percorso WhatsApp in più passaggi utili
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470290/?learn=on&captions=ita")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

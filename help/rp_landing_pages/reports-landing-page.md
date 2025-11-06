@@ -6,7 +6,7 @@ description: Rapporti sui percorsi personalizzati
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I rapporti sui percorsi personalizzati in Adobe Journey Optimizer consentono di 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Creare e analizzare i rapporti sui percorsi
 
@@ -30,7 +30,7 @@ Scopri come creare rapporti sui percorsi, comprendere schemi e set di dati e int
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Elenco dei campi evento del passaggio
 
@@ -40,7 +40,7 @@ Esplora l’elenco completo dei campi evento del passaggio, suddivisi in categor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Campi evento del passaggio precedente
 
@@ -50,7 +50,7 @@ Informazioni sui campi evento del passaggio precedente utilizzati in Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esempio di query SQL per l’analisi dei dati
 

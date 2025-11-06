@@ -25,7 +25,7 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 >[!NOTE]
 >
->* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=it#available-permissions){target="_blank"}.
+>* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 >
 >* Alcune metriche (ad esempio, ore di calcolo, e-mail) non vengono visualizzate per le sandbox di sviluppo, come indicato da `N/A` nella colonna delle quote. Nel dashboard vengono visualizzati solo i valori non nulli: quando le metriche sono pari a zero o vicine a zero, non vengono popolate.
 
@@ -34,6 +34,6 @@ Per [!DNL Adobe Journey Optimizer], il dashboard consente di controllare il nume
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
-* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#exploring-the-license-usage-dashboard){target="_blank"}
+* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}

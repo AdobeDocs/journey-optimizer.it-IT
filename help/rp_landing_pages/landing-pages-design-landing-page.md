@@ -6,7 +6,7 @@ description: Progettazione di contenuti
 redpen-status: CREATED_||_2025-08-12_00-36-39
 exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La progettazione di contenuti in Adobe Journey Optimizer ti consente di creare p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Progettare una pagina di destinazione in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Scopri come creare pagine di destinazione da zero, utilizzare HTML non elaborati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creare e personalizzare il contenuto della pagina di destinazione
 
@@ -40,7 +40,7 @@ Aggiungi componenti come i moduli, personalizzane gli stili e utilizza dati cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilizzare i modelli delle pagine di destinazione
 
@@ -50,7 +50,7 @@ Salva le pagine di destinazione come modelli e riutilizzali per semplificare il 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare JavaScript personalizzato nelle pagine di destinazione
 

@@ -15,13 +15,13 @@ version: Journey Orchestration
 source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 2%
+ht-degree: 29%
 
 ---
 
 # Risolvere i problemi relativi ai percorsi {#troubleshooting}
 
-Quando un percorso di clienti non si comporta come previsto, identificare la causa principale può essere difficile. Per risolvere i problemi in modo efficiente, di seguito sono riportate le risorse per la risoluzione dei problemi in base alle aree più comuni. Sia che vengano visualizzati errori di percorso, incoerenze di esecuzione o problemi a livello di azione, ogni sezione fornisce indicazioni mirate per analizzarli e risolverli.
+Quando un percorso cliente non si comporta come previsto, identificare la causa principale può essere difficile. Per aiutarti a risolvere i problemi in modo efficiente, di seguito sono riportate le risorse relative alla risoluzione e in base alle aree più comuni. Sia che vengano visualizzati errori di percorso, incoerenze di esecuzione o problemi a livello di azione, ogni sezione fornisce indicazioni mirate per analizzarli e risolverli.
 
 Esplora le pagine seguenti per approfondire argomenti specifici sulla risoluzione dei problemi:
 

@@ -1,6 +1,6 @@
 ---
 title: Creare decisioni
-description: Scopri come creare decisioni
+description: Scopri come creare le decisioni
 badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
@@ -405,6 +405,6 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

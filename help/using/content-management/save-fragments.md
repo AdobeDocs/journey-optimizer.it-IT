@@ -53,7 +53,7 @@ Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti
 
 1. Seleziona o crea tag Adobe Experience Platform dal campo **Tag** per categorizzare il modello ai fini di una ricerca migliorata. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
-1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto all&#39;elenco di frammenti [&#128279;](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
+1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto all&#39;elenco di frammenti [](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
 
    >[!NOTE]
    >
@@ -86,6 +86,6 @@ Per salvare il contenuto come frammento di espressione, effettua le seguenti ope
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Il frammento viene aggiunto all&#39;elenco di frammenti [&#128279;](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
+1. Il frammento viene aggiunto all&#39;elenco di frammenti [](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
 
 1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)

@@ -4,10 +4,10 @@ description: Scopri come sfruttare gli strumenti per i conflitti e l’assegnazi
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ I set di regole consentono di **raggruppare più regole in set di regole** e di 
 * **Attivazioni simultanee nei percorsi di qualificazione del pubblico**
 
   Quando più percorsi di qualificazione del pubblico vengono attivati dallo stesso evento di qualificazione del pubblico, i conteggi per la limitazione degli ingressi non sarà precisa. Se i conteggi sono al di sotto del limite, il percorso continuerà ad arbitrare, ma in caso di attivazioni simultanee non sarà in grado di ottenere i conteggi più aggiornati.
+
+## Risorse aggiuntive
+
+* **[Gestione dei conflitti](conflicts.md)** - Scopri come identificare e risolvere i conflitti tra campagne e percorsi sovrapposti.
+* **[Impostare i punteggi di priorità](priority-scores.md)** - Informazioni su come assegnare e utilizzare i punteggi di priorità per controllare la precedenza della consegna dei messaggi.
+* **[Configura il limite di frequenza](channel-capping.md)** - Scopri come impostare i limiti di frequenza a livello di canale per evitare messaggi eccessivi.
+* **[Crea set di regole](rule-sets.md)** - Scopri come creare regole business per la gestione avanzata dei conflitti e la governance dei messaggi.
+* **[Limitazione specifica per il Percorso](journey-capping.md)**: imposta le regole di limitazione a livello di percorso per controllare la frequenza dei messaggi entro pochi percorsi.
+* **[Esercitazioni sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Esplora esercitazioni video dettagliate sulla gestione dei conflitti e la definizione delle priorità.

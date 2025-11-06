@@ -6,7 +6,7 @@ description: Canale in-app
 redpen-status: CREATED_||_2025-08-11_20-36-05
 exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Il canale in-app in Adobe Journey Optimizer consente di connetterti con gli uten
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione dei canali in-app
 
@@ -31,7 +31,7 @@ Guida dettagliata per impostare autorizzazioni, impostazioni di consegna e prere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare messaggi in-app per dispositivi mobili
 
@@ -41,7 +41,7 @@ Scopri come creare, configurare e pubblicare messaggi in-app per dispositivi mob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creare messaggi in-app web
 
@@ -51,7 +51,7 @@ Configura e crea campagne di messaggistica in-app web con trigger, targeting del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 Progettare e personalizzare i contenuti in-app
 
@@ -61,7 +61,7 @@ Esplora le opzioni di layout, personalizza i contenuti e utilizza la formattazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Verificare e inviare le notifiche in-app
 

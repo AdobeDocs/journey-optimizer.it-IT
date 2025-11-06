@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alla recapitabilità
+title: Consulta la recapitabilità
 description: Scopri le linee guida per il recapito messaggi
 feature: Deliverability
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 ---
 
-# Introduzione alla recapitabilità {#manage-deliverability}
+# Consulta la recapitabilità {#manage-deliverability}
 
 Il recapito messaggi misura il successo delle consegne che raggiungono le caselle in entrata dei destinatari.
 

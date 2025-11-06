@@ -43,13 +43,13 @@ Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selez
 
 ![](assets/custom1.png)
 
-Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [&#x200B; in questa pagina dedicata](../action/troubleshoot-custom-action.md).
+Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in questa pagina dedicata](../action/troubleshoot-custom-action.md).
 
 ## Video dimostrativo {#video}
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Risorse aggiuntive
 

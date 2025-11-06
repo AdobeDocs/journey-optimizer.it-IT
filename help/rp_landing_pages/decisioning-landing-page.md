@@ -6,7 +6,7 @@ description: Funzionalità decisionali
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le funzionalità decisionali di Adobe Journey Optimizer ti consentono di offrire
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alle funzioni decisionali
 
@@ -30,7 +30,7 @@ Scopri gli strumenti e le funzionalità di Adobe Journey Optimizer che consenton
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Le funzionalità decisionali in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Scopri come creare, gestire e ottimizzare la consegna personalizzata dei contenu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione delle decisioni in Adobe Journey Optimizer
 

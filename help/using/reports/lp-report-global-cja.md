@@ -23,7 +23,7 @@ Per accedere ai tuoi report, seleziona **[!UICONTROL Report]** dal menu avanzato
 
 ![](assets/cja-lp.png)
 
-Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tasso di conversione pagina di destinazione {#lp-conversion}
 
@@ -101,7 +101,7 @@ La tabella **[!UICONTROL Campagne]** fornisce informazioni approfondite sul nume
 
 * **[!UICONTROL Conversione pagina di destinazione]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l&#39;abbonamento a un modulo.
 
-## Channel {#lp-channels}
+## Canale {#lp-channels}
 
 La tabella **[!UICONTROL Canale]** mostra il numero di visite alla pagina di destinazione suddivise per canale.
 

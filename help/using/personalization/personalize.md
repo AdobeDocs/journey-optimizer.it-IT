@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 25%
+source-wordcount: '519'
+ht-degree: 24%
 
 ---
 
@@ -51,7 +51,7 @@ Questo ambiente playground fornisce un ambiente simulato per scrivere e testare 
 
 ![area di gioco personalizzazione](assets/playground.png)
 
-➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/it/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Approfondiamo
 
@@ -93,16 +93,18 @@ Ora che conosci la personalizzazione in **[!DNL Journey Optimizer]**, è il mome
 <p></td>
 </tr></table>
 
-## Video sulle procedure{#video-perso}
+## Video dimostrativi{#video-perso}
 
 Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da un percorso per personalizzare un messaggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448145?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416271?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Scopri come sfruttare l’area di gioco dell’editor di personalizzazione per scrivere e testare il codice di personalizzazione utilizzando dati di esempio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475960?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+
+Esplora altri tutorial video sulle funzioni di personalizzazione e sulle best practice in [esercitazioni di Personalization](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

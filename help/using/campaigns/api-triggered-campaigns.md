@@ -50,8 +50,8 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 1. [Rivedere e attivare una campagna](review-activate-api-triggered-campaign.md)
 1. [Attivare l’esecuzione della campagna](trigger-campaigns.md)
 
-## Video sulle procedure {#video}
+## Video dimostrativi {#video}
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452733?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

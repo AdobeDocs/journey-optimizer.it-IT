@@ -6,7 +6,7 @@ description: Assistente IA per la generazione di contenuti
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ L’Assistente IA di Adobe Journey Optimizer rivoluziona la creazione di contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva all’Assistente IA
 
@@ -30,7 +30,7 @@ Scopri come accedere e configurare la funzione Assistente IA per migliorare la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generazione di e-mail con l’IA
 
@@ -40,7 +40,7 @@ Scopri come utilizzare Assistente IA per creare, personalizzare e ottimizzare i 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Generazione di contenuti per notifiche push
 
@@ -50,7 +50,7 @@ Crea e personalizza i contenuti delle notifiche push con l’IA, inclusi testo e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generare contenuti in SMS con l’IA
 
@@ -60,7 +60,7 @@ Utilizza l’Assistente IA per generare e perfezionare i contenuti degli SMS che
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Contenuto delle pagine web e generazione delle risorse
 
@@ -70,7 +70,7 @@ Migliora i contenuti e la grafica delle pagine web con l’Assistente IA, garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 Generazione di pagine di destinazione con l’IA
 

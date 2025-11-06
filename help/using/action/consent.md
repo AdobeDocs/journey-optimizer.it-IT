@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Ad esempio, se desideri creare un criterio di consenso per eseguire il targeting
 
       >[!NOTE]
       >
-      >Le azioni di marketing principali fornite già preconfigurate da Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#core-actions){target="_blank"}. I passaggi per creare un’azione di marketing personalizzata sono elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
+      >Le azioni di marketing principali fornite già preconfigurate da Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#core-actions){target="_blank"}. I passaggi per creare un’azione di marketing personalizzata sono elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
 
    1. Seleziona cosa accade quando si applica l’azione di marketing. In questo esempio, seleziona **[!UICONTROL Consenso e-mail marketing]**.
 

@@ -101,7 +101,7 @@ I **KPI decisionali** forniscono informazioni chiave sul coinvolgimento dei visi
 
 ![](assets/cja-engagement-funnel.png)
 
-La tabella **[!UICONTROL Funnel di coinvolgimento]** monitora le prestazioni delle esperienze personalizzate valutando l&#39;efficacia di ogni fase del funnel nelle interazioni dell&#39;utente.
+La tabella **[!UICONTROL Engagement Funnel]** monitora le prestazioni delle esperienze personalizzate valutando l&#39;efficacia di ogni fase di funnel nelle interazioni degli utenti.
 
 * **[!UICONTROL Visualizzazioni]**: numero totale di volte in cui le esperienze personalizzate sono state mostrate o presentate agli utenti attraverso vari punti di contatto.
 
@@ -119,7 +119,7 @@ La tabella **[!UICONTROL Elementi decisionali principali per CTR]** evidenzia le
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-La tabella **[!UICONTROL Funnel di coinvolgimento per strategia di selezione]** consente di monitorare e analizzare l&#39;efficacia con cui le diverse strategie di selezione coinvolgono gli utenti con esperienze personalizzate.
+La tabella **[!UICONTROL Engagement Funnel by Selection Strategy]** consente di monitorare e analizzare l&#39;efficacia con cui le diverse strategie di selezione coinvolgono gli utenti con esperienze personalizzate.
 
 * **[!UICONTROL Visualizzazioni]**: numero totale di volte in cui le esperienze personalizzate sono state mostrate o presentate agli utenti attraverso vari punti di contatto.
 

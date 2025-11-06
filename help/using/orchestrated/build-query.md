@@ -41,7 +41,7 @@ Per aggiungere condizioni nella query, segui questi passaggi:
    >
    >Il pulsante **Modifica espressione** consente di sfruttare l’editor di espressioni per definire manualmente un’espressione utilizzando i campi dal database e le funzioni helper. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
-1. Fai clic sul pulsante ![&#x200B; immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
+1. Fai clic sul pulsante ![ immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
    +++ Distribuzione dei valori
 

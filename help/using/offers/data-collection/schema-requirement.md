@@ -108,4 +108,4 @@ Per gli eventi personalizzati, allo schema utilizzato nel set di dati deve esser
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Se si utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=it){target="_blank"}, la connessione viene stabilita automaticamente.
+>Se si utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la connessione viene stabilita automaticamente.

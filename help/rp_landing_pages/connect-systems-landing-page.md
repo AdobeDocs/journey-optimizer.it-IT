@@ -6,7 +6,7 @@ description: Collegare i sistemi e gli ambienti
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer consente di collegare direttamente sistemi e ambienti, a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrare Adobe Journey Optimizer con altre soluzioni
 
@@ -30,7 +30,7 @@ Scopri come Adobe Journey Optimizer si connette con altre soluzioni Adobe e di t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare le API di Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Scopri come utilizzare le API per fornire esperienze personalizzate su più cana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrare i percorsi con sistemi esterni
 
@@ -50,7 +50,7 @@ Scopri le best practice per l’integrazione di Adobe Journey Optimizer con sist
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Invia con soluzioni Adobe
 
@@ -60,7 +60,7 @@ Configura Adobe Journey Optimizer per l’integrazione con Adobe Campaign, Marke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione delle sandbox in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Gestisci in modo efficace ambienti virtuali, ruoli e flussi di lavoro con le san
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Consulta i connettori di origine
 

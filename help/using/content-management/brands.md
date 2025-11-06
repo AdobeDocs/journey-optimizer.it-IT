@@ -10,7 +10,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -112,7 +112,7 @@ Per creare e gestire la linea guida del brand, puoi inserire i dettagli personal
 
 1. Dal dashboard **[!UICONTROL Brands]**, apri il menu avanzato facendo clic sull&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) per:
 
-   * Visualizza brand
+   * Visualizza marchio
    * Modifica
    * Duplica
    * Pubblicazione
@@ -318,12 +318,12 @@ La sezione **[!UICONTROL Contenuto visivo]** definisce gli standard per le immag
       <td>Evita di essere troppo complessi.</td>
     </tr>
     <tr>
-      <td>Standard per icone</td>
+      <td>Icona standard</td>
       <td>Utilizza un sistema di griglia a 24 px coerente.</td>
       <td>Non combinare le dimensioni delle icone, non utilizzare pesi di traccia incoerenti o non discostarsi dalle regole della griglia.</td>
     </tr>
     <tr>
-      <td>Linee guida per l’utilizzo</td>
+      <td>Linee guida sull’utilizzo</td>
       <td>Scegliete uno stile di vita che rifletta i clienti reali che usano il prodotto in ambienti professionali.</td>
       <td>Non utilizzare immagini che contraddicono il tono del marchio o che appaiono fuori contesto.</td>
     </tr>

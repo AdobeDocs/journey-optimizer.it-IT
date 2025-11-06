@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attiva la modalità High Throughput per le campagne attivate dall’API
+title: Modalità di velocità effettiva elevata per campagne attivate da API
 description: Scopri come attivare la modalità Alta velocità per le campagne attivate dall’API.
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Attiva la modalità High Throughput per le campagne attivate dall’API {#high-throughput}
+# Modalità di velocità effettiva elevata per campagne attivate da API {#high-throughput}
 
 La modalità High Throughput è progettata per le organizzazioni che necessitano di **messaggi transazionali su vasta scala e in tempo reale** (fino a 5000 transazioni al secondo). A differenza delle normali campagne attivate da API, le campagne a throughput elevato operano in modo indipendente dai profili di Adobe e richiedono un modello di configurazione diverso.
 

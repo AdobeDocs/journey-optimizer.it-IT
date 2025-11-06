@@ -28,7 +28,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 ## Ultimi aggiornamenti {#latest-updates}
 
-Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione &#x200B;](#latest-rn).
+Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione ](#latest-rn).
 
 ### Nuove funzionalità {#features}
 

@@ -21,7 +21,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 In alternativa ai metodi [Completamente delegati](about-subdomain-delegation.md#full-subdomain-delegation) e [CNAME configurati](about-subdomain-delegation.md#cname-subdomain-delegation), il metodo **Delega personalizzata** ti consente di acquisire la proprietà dei sottodomini all&#39;interno di Journey Optimizer ans per avere il controllo completo sui certificati generati.
 
@@ -126,7 +126,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 >title="Completare i passaggi del ciclo di feedback"
 >abstract="Passa a Yahoo! Sender Hub e compila il modulo per verificare la proprietà del dominio. Inserisci l’indirizzo e-mail per la generazione di rapporti FBL elencato di seguito e utilizza l’OTP che ricevi per verificare la proprietà su Yahoo! Sender Hub."
 
-1. Vai a [Yahoo! Sito Web dell&#39;hub del mittente &#x200B;](https://senders.yahooinc.com/) e compilare il modulo richiesto per verificare la proprietà del dominio.
+1. Vai a [Yahoo! Sito Web dell&#39;hub del mittente ](https://senders.yahooinc.com/) e compilare il modulo richiesto per verificare la proprietà del dominio.
 
 1. Per verificare la proprietà del dominio, Yahoo! Sender Hub richiede di fornire un indirizzo e-mail. Immetti l&#39;indirizzo e-mail di reporting FBL elencato in **[!UICONTROL Valore]**. Questo è un indirizzo e-mail di proprietà di Adobe.
 

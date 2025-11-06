@@ -5,10 +5,10 @@ title: Introduzione
 description: Introduzione
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,7 @@ Questa sezione presenta le funzionalità principali della piattaforma, dall’or
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Funzionalità principali
 
@@ -32,7 +32,7 @@ Scopri le funzionalità, i casi d’uso e l’architettura di base di Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Panoramica dell’architettura
 
@@ -42,7 +42,7 @@ Scopri come Adobe Journey Optimizer si integra con Adobe Experience Platform per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ruoli e responsabilità
 
@@ -52,7 +52,7 @@ Ottieni una panoramica dei ruoli e dei flussi di lavoro necessari per implementa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Panoramica dell’interfaccia utente
 
@@ -62,7 +62,7 @@ Naviga nell’interfaccia di Adobe Journey Optimizer ed esplora le relative funz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Ricerca, filtro e organizzazione dei contenuti
 
@@ -72,13 +72,13 @@ Utilizza le funzioni di ricerca, filtro e assegnazione tag per gestire e organiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guardrail e limitazioni
 
 Scopri i vincoli e le prassi consigliate per utilizzare in modo efficace le funzioni di Adobe Journey Optimizer.
 
-[Approfondisci i concetti di base](../using/start/guardrails.md)
+[Guardrail di controllo e limitazioni](../using/start/guardrails.md)
 :::
 
 ::::

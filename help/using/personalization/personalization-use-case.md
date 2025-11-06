@@ -110,4 +110,4 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
 Il video seguente mostra un caso d’uso simile, sfruttando i dati contestuali provenienti da un percorso per personalizzare un’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428529?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

@@ -33,7 +33,7 @@ Per trovare un elemento specifico, inizia a digitare un nome nel campo di ricerc
 Puoi ordinare i modelli di contenuto in base a:
 
 * Tipo
-* Channel
+* Canale
 * Data di creazione o modifica
 * Tag - [Ulteriori informazioni sui tag](../start/search-filter-categorize.md#tags)
 

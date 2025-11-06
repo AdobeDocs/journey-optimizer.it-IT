@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -56,3 +56,11 @@ Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni 
 <p>
 </td>
 </tr></table>
+
+## Risorse aggiuntive
+
+* **[Creare messaggi in-app](create-in-app.md)** - Scopri come creare e configurare messaggi in-app per le app mobili.
+* **[Configurare il canale in-app](inapp-configuration.md)** - Configurare il canale di messaggistica in-app con le configurazioni appropriate per le app mobili.
+* **[Progetta contenuto in-app](design-in-app.md)** - Personalizza layout, stili, pulsanti ed elementi interattivi dei messaggi in-app.
+* **[In-app per il Web](create-in-app-web.md)** - Scopri come creare e inviare messaggi in-app per le applicazioni Web.
+* **[Tutorial sul canale in-app](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni di messaggistica in-app e sulle best practice.

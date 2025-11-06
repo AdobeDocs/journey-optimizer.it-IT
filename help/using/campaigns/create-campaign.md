@@ -49,8 +49,8 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 1. [Pianificare la campagna Azione](campaign-schedule.md)
 1. [Rivedi e attiva la campagna Azione](review-activate-campaign.md)
 
-## Video sulle procedure {#video}
+## Video dimostrativi {#video}
 
 Scopri come creare una campagna di azione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412404?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

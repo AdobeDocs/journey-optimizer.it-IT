@@ -6,7 +6,7 @@ description: Campagne attivate da API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le campagne attivate da API in Adobe Journey Optimizer ti consentono di inviare 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare e gestire le campagne attivate da API
 
@@ -30,7 +30,7 @@ Scopri come creare, configurare e gestire le campagne attivate da API in Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definire le proprietà della campagna attivata da API
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per definire le proprietà della campagna, ad es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare l’azione della campagna attivata da API
 
@@ -50,7 +50,7 @@ Scopri come configurare azioni, selezionare canali di comunicazione, ottimizzare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Modificare e personalizzare il contenuto di una campagna attivata da API
 
@@ -60,7 +60,7 @@ Personalizza il contenuto della campagna utilizzando dati contestuali. Scopri co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definire il pubblico della campagna attivata da API
 
@@ -70,7 +70,7 @@ Imposta il pubblico della campagna selezionando i profili, configurando i tipi d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Pianificare una campagna attivata da API
 

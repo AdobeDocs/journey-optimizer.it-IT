@@ -6,7 +6,7 @@ description: Configurazione guidata del canale
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
@@ -20,17 +20,17 @@ La configurazione guidata del canale in Adobe Journey Optimizer semplifica il pr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurare dispositivi mobili e web
+Configurare i canali web e per dispositivi mobili
 
-Scopri come configurare rapidamente i canali per dispositivi mobili e web utilizzando la configurazione del canale guidata in Adobe Journey Optimizer, inclusi i prerequisiti e le risorse create automaticamente.
+Scopri come configurare rapidamente i canali web e per dispositivi mobili utilizzando la configurazione del canale guidata in Adobe Journey Optimizer, inclusi i prerequisiti e le risorse create automaticamente.
 
 [Consulta la configurazione guidata canale](../using/configuration/set-mobile-config.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e modificare le configurazioni dei canali
 

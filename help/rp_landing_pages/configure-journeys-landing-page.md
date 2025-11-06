@@ -6,7 +6,7 @@ description: Configurazione dei percorsi
 redpen-status: CREATED_||_2025-08-11_21-12-10
 exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configurazione dei percorsi in Adobe Journey Optimizer ti consente di creare 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alla configurazione dei percorsi
 
@@ -30,7 +30,7 @@ Scopri come configurare Origini dati, Eventi e Azioni per abilitare la consegna 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurazione degli eventi in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Scopri come configurare e gestire gli eventi che attivano i percorsi, compresi g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione dell’origine dati in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Comprendi e gestisci le origini dati, inclusi i tipi preconfigurati ed esterni, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configurare e utilizzare le azioni personalizzate
 

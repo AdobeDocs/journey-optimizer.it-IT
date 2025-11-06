@@ -36,7 +36,7 @@ Utilizzando la finestra di progettazione del contenuto della pagina di destinazi
 
 >[!NOTE]
 >
->Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
 
 ## Utilizzare il componente modulo {#use-form-component}
 

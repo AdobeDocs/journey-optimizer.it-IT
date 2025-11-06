@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 97%
+source-wordcount: '2085'
+ht-degree: 93%
 
 ---
 
@@ -181,3 +181,12 @@ Dopo aver eseguito l’esperimento, ci sono diverse azioni di follow-up possibil
   >[!CAUTION]
   >
   >Ulteriori analisi indicano una maggiore probabilità di rilevare un effetto spurio o falso positivo.
+
+## Risorse aggiuntive
+
+* **[Crea esperimenti di contenuto](content-experiment.md)** - Scopri come progettare e configurare test A/B per ottimizzare le prestazioni dei messaggi.
+* **[Calcoli dell&#39;esperimento](experiment-calculations.md)** - Comprendere i metodi e le metriche statistiche utilizzati nell&#39;analisi della sperimentazione.
+* **[Test A/B e slot machine](mab-vs-ab.md)**: confronta diversi approcci di sperimentazione e quando utilizzare ogni metodo.
+* **[Acceleratore esperimento](experiment-accelerator-gs.md)** - Scopri come accelerare la sperimentazione con l’ottimizzazione basata sull’intelligenza artificiale.
+* **[Calcoli del rapporto esperimenti](experiment-report-calculations.md)** - Scopri come interpretare i risultati dell’esperimento e la rilevanza statistica.
+* **[Tutorial sulla sperimentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}**: esplora esercitazioni video dettagliate sulla sperimentazione dei contenuti e sulle best practice.

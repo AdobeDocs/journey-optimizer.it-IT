@@ -5,7 +5,7 @@ title: Canali di comunicazione
 description: Canali di comunicazione
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I canali di comunicazione di Adobe Journey Optimizer consentono di connetterti c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione ai canali di comunicazione
 
@@ -30,7 +30,7 @@ Informazioni sui canali di comunicazione in uscita e in entrata disponibili in A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canale e-mail
 
@@ -40,7 +40,7 @@ Scopri come creare, configurare e ottimizzare campagne e-mail, incluse le best p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messaggistica in-app
 
@@ -50,7 +50,7 @@ Scopri come configurare, progettare e personalizzare le notifiche in-app per le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canale per notifiche push
 
@@ -60,7 +60,7 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messaggistica RCS/MMS/SMS
 
@@ -70,7 +70,7 @@ Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagne direct mail
 

@@ -76,7 +76,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >title="Informazioni sull’idoneità alle offerte"
 >abstract="In questa sezione puoi utilizzare le regole di decisione per determinare quali utenti sono idonei all’offerta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341371?captions=ita" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ La sezione **[!UICONTROL Idoneità all&#39;offerta]** ti consente di limitare l&
 
   >[!CAUTION]
   >
-  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
@@ -144,7 +144,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 >id="ajo_decisioning_capping"
 >title="Utilizzare i limiti"
 >abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza il limite per definire il numero massimo di volte in cui è possibile presentare un’offerta. Puoi creare fino a 10 regole di limite per una determinata offerta."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modifica delle date può influire sui limiti"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="La modifica delle date può influire sui limiti"
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta. Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore.
 

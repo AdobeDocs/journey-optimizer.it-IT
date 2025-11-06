@@ -122,7 +122,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile combinare entrambe le opzioni, ma il numero totale di indirizzi in un elenco di seed non può superare i 300.
 
-1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [&#128279;](#access-seed-lists).
+1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [](#access-seed-lists).
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 

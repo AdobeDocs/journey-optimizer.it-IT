@@ -20,13 +20,13 @@ ht-degree: 8%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer], l&#39;authoring Web visivo è basato sull&#39;estensione del browser Chrome **Adobe Experience Cloud Visual Helper**. [Ulteriori informazioni](web-prerequisites.md#visual-authoring-prerequisites)
@@ -170,4 +170,4 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452643/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

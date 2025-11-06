@@ -6,7 +6,7 @@ description: Tipi di pubblico, profili e identità
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I tipi di pubblico, i profili e le identità in Adobe Journey Optimizer si basan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gestione del pubblico e personalizzazione
 
@@ -30,7 +30,7 @@ Scopri come creare, gestire e attivare tipi di pubblico utilizzando gli attribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 Profili: gestire e ottimizzare i dati cliente
 
@@ -40,7 +40,7 @@ Scopri come utilizzare profili, attributi calcolati e profili di test per creare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 Consulta le identità
 
@@ -50,7 +50,7 @@ Scopri come gestire le identità cliente utilizzando il grafo identità e gli st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Dashboard di utilizzo delle licenze
 

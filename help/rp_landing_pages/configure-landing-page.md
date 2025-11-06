@@ -6,7 +6,7 @@ description: Configurare il canale Scheda contenuto
 redpen-status: CREATED_||_2025-08-11_20-43-03
 exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Consulta la sezione “Configurare il canale Scheda contenuto” in Adobe Journe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Prerequisiti per la configurazione del canale Scheda contenuto
 
@@ -30,7 +30,7 @@ Scopri le configurazioni e le impostazioni necessarie per abilitare il canale Sc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurare il canale Scheda contenuto in Journey Optimizer
 
@@ -40,7 +40,7 @@ Segui istruzioni dettagliate per definire le superfici URI e creare configurazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurare il supporto per le schede di contenuto in Mobile SDK
 
@@ -50,7 +50,7 @@ Utilizza Adobe Experience Platform Mobile SDK per abilitare e personalizzare le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurare il supporto per le schede di contenuto in Web SDK
 

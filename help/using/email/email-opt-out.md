@@ -34,7 +34,7 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 Quando un destinatario fa clic sul collegamento di rinuncia, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#attributes-tab). Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -73,7 +73,7 @@ Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inse
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Canale]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia viene applicata a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
+   * **[!UICONTROL Canale]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia si applica a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
    * **[!UICONTROL Identità]**: la rinuncia viene applicata ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
      <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 

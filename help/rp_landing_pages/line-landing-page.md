@@ -6,7 +6,7 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Prima di creare il messaggio LINE, configura il canale LINE con Journey Optimize
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale LINE
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per configurare manualmente il canale LINE o con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e configurare messaggi LINE
 
@@ -50,7 +50,7 @@ Scopri come aggiungere messaggi LINE ai percorsi e alle campagne, personalizzare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verificare e inviare i messaggi LINE
 

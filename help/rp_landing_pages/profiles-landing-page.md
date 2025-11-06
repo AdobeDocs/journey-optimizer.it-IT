@@ -6,7 +6,7 @@ description: Profili
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I profili in Adobe Journey Optimizer consentono di creare visualizzazioni unific
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione ai profili
 
@@ -30,7 +30,7 @@ Scopri come creare, gestire e utilizzare i profili in Adobe Journey Optimizer pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Come creare profili di test
 
@@ -40,7 +40,7 @@ Indicazioni dettagliate sulla creazione di profili di test per testare i percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzare gli attributi calcolati
 

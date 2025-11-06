@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 70%
 
 ---
 
@@ -46,3 +46,9 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 <p>
 </td>
 </tr></table>
+
+## Risorse aggiuntive
+
+* **[Schede di contenuto nelle pagine di destinazione](content-card-lp.md)** - Scopri come implementare le schede di contenuto nelle pagine di destinazione per un coinvolgimento migliorato.
+* **[Generazione rapporti sulle schede di contenuto](content-card-report.md)** - Monitora e analizza le prestazioni delle schede di contenuto con metriche e informazioni dettagliate.
+* **[Esercitazioni sulle schede di contenuto](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Esplora esercitazioni video dettagliate sulle funzioni delle schede di contenuto e sulle best practice.

@@ -6,7 +6,7 @@ description: Attività
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le attività in Adobe Journey Optimizer sono i blocchi predefiniti che danno vit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alle attività di Journey
 
@@ -30,7 +30,7 @@ Scopri le attività relative a eventi, orchestrazione e azioni in Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Utilizzo di eventi generali
 
@@ -40,7 +40,7 @@ Scopri come utilizzare gli eventi generali per attivare i percorsi e gestire eff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurazione degli eventi di reazione
 
@@ -50,7 +50,7 @@ Scopri come reagire ai dati di tracciamento come i clic sui messaggi o le apertu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Eventi di qualificazione del pubblico
 
@@ -60,7 +60,7 @@ Scopri come attivare azioni e condizioni in base agli stati di partecipazione de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzo dell’attività Condizione
 
@@ -70,7 +70,7 @@ Definisci più tratte in un percorso in base a criteri come tempo, origine dati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Configurazione dell’attività Attendi
 

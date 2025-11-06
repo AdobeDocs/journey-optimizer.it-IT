@@ -6,7 +6,7 @@ description: Monitorare gli indirizzi e-mail
 redpen-status: CREATED_||_2025-08-11_21-08-58
 exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La gestione dello stato delle campagne e-mail inizia con il monitoraggio degli i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestire l’elenco di soppressione
 
@@ -30,7 +30,7 @@ Scopri come controllare la recapitabilità delle e-mail gestendo gli elenchi di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione di nuovi tentativi ed elenchi di soppressione
 
@@ -40,7 +40,7 @@ Comprendi e configura i meccanismi di esecuzione di nuovi tentativi per gli erro
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurare l’elenco consentiti
 

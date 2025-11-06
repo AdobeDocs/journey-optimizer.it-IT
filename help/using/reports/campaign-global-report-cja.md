@@ -84,9 +84,9 @@ Tieni presente che le metriche variano in base ai canali utilizzati nella campag
 
 ![](assets/cja-campaign-funnel.png)
 
-Il grafico **[!UICONTROL Risultati funnel campagna]** presenta un&#39;analisi dettagliata del coinvolgimento dei profili con i messaggi, fornendo informazioni utili sulle interazioni tra vari profili e il contenuto.
+Il grafico dei risultati di **[!UICONTROL Campaign funnel]** presenta un&#39;analisi dettagliata del coinvolgimento dei profili con i messaggi, fornendo informazioni utili sulle interazioni tra vari profili e il contenuto.
 
-+++ Ulteriori informazioni sulle metriche dei risultati del funnel di Campaign
++++ Ulteriori informazioni sulle metriche dei risultati di Campaign funnel
 
 * **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente, in relazione al numero totale di messaggi inviati.
 

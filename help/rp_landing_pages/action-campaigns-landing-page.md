@@ -6,7 +6,7 @@ description: Campagne di azione
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Le campagne di azione in Adobe Journey Optimizer ti consentono di inviare messag
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare una campagna di azione
 
@@ -30,7 +30,7 @@ Scopri come creare e gestire le campagne di azione, tra cui proprietà, azioni, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definire le proprietà della campagna di azione
 
@@ -40,7 +40,7 @@ Istruzioni dettagliate per la definizione delle proprietà della campagna, tra c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurare le azioni della campagna
 
@@ -50,7 +50,7 @@ Guida alla configurazione delle azioni della campagna, inclusa la selezione del 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Sfruttare l’ottimizzazione dei messaggi
 
@@ -60,7 +60,7 @@ Utilizza il targeting e la sperimentazione per ottimizzare il coinvolgimento e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 Modificare i contenuti della campagna
 
@@ -70,7 +70,7 @@ Progetta, testa e configura contenuti per le campagne di azione su più canali.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definire il pubblico della campagna
 

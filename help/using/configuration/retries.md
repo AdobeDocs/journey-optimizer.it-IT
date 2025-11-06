@@ -47,7 +47,7 @@ Se tra queste due e-mail non è stata tentata e non si è verificato alcun altro
 >title="Aggiornare la soglia dei tentativi"
 >abstract="Se il valore predefinito non soddisfa le tue esigenze, puoi modificare il numero consentito di mancati recapiti non permanenti consecutivi. Quando il contatore dei tentativi raggiunge la soglia di errore per un indirizzo e-mail specifico, questo indirizzo viene aggiunto all’elenco di soppressione."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=it" text="Understand the suppresion list"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Nel caso in cui il valore predefinito 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura riportata di seguito.
 

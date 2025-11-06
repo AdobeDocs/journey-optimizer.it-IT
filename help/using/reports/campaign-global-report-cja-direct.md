@@ -11,7 +11,7 @@ exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -69,7 +69,7 @@ La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori
 
 ## Motivi di esclusione {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 La tabella **[!UICONTROL Escludi motivi]** mostra visivamente i diversi fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing.
 

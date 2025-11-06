@@ -6,7 +6,7 @@ description: Configurare il canale basato su codice
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La sezione Configurare il canale basato su codice in Adobe Journey Optimizer con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prerequisiti per l’esperienza basata su codice
 
@@ -30,7 +30,7 @@ Scopri i prerequisiti per utilizzare le esperienze basate su codice, inclusi i r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Superfici di esperienza basate su codice
 
@@ -40,7 +40,7 @@ Scopri le superfici e i relativi identificatori, la composizione e l’utilizzo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esempi di metodi di implementazione
 
@@ -50,7 +50,7 @@ Ottieni istruzioni dettagliate per l’implementazione di esperienze lato client
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Funzione Decisioni nelle implementazioni di esperienze basate su codice
 
@@ -60,7 +60,7 @@ Scopri come configurare la deduplica e gestire le richieste di decisioni nelle i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare una configurazione dell’esperienza basata su codice
 

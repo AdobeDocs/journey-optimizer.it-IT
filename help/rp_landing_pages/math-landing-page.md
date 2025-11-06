@@ -22,7 +22,7 @@ La sezione matematica in Adobe Journey Optimizer consente di eseguire calcoli pr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione casuale
 
@@ -32,7 +32,7 @@ Scopri come utilizzare la funzione “casuale” per generare numeri casuali com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione arrotondamento
 

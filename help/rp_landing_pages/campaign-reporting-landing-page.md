@@ -6,7 +6,7 @@ description: Rapporti sulla campagna
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I rapporti sulle campagne in Adobe Journey Optimizer ti consentono di ottenere i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Panoramica sui rapporti sulla campagna
 
@@ -30,7 +30,7 @@ Scopri come analizzare le prestazioni della campagna utilizzando metriche chiave
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rapporto sulla campagna basata su codice
 
@@ -40,7 +40,7 @@ Scopri come valutare esperienze personalizzate e strategie decisionali basate su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rapporto sulla scheda contenuto della campagna
 
@@ -50,7 +50,7 @@ Analizza le campagne con scheda contenuto con metriche quali tendenze di visuali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Rapporto sulla campagna direct mail
 
@@ -60,7 +60,7 @@ Valuta l’efficienza delle campagne di direct mail analizzando lo stato di cons
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 Rapporto sulla campagna e-mail
 
@@ -70,7 +70,7 @@ Ottieni insight sulle metriche delle prestazioni delle e-mail, sui tassi di coin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 Rapporto sulla campagna di sperimentazione
 

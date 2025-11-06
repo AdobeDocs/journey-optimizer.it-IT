@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Imposta le ore non interattive
+title: Impostare le ore di silenzio
 description: Scopri come creare e applicare le ore non interattive
 feature: Rules
 topic: Content Management
@@ -12,16 +12,16 @@ keywords: messaggio, frequenza, regole, pressione
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
-# Imposta le ore non interattive {#quiet-hours}
+# Impostare le ore di silenzio {#quiet-hours}
 
 ## Cosa sono le ore non interattive
 
-**Ore tranquille** ti consente di definire esclusioni basate sul tempo per **Canali E-mail**, **SMS**, **Push** e **WhatsApp**. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.
+**Ore tranquille** ti consente di definire esclusioni basate sul tempo per **Canali E-mail**, **SMS**, **Push** e **WhatsApp**. Garantiscono che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.
 
 Puoi applicare le ore non interattive tramite **set di regole**, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.
 
@@ -34,7 +34,7 @@ Semplificando questi processi è possibile migliorare la customer experience, ri
 
 >[!AVAILABILITY]
 >
->Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per essere aggiunti alla lista d’attesa, contatta il tuo rappresentante Adobe.
+>Le ore di silenzio sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per essere aggiunti alla lista d’attesa, contatta il tuo rappresentante Adobe.
 
 
 ➡️ [Scopri questa funzione nel video](#video)
@@ -187,4 +187,4 @@ Dopo l&#39;attivazione e l&#39;esecuzione del percorso o delle campagne, puoi vi
 
 Scopri come utilizzare la funzione per le ore non interattive in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475860?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

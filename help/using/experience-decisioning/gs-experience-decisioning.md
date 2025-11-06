@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '619'
 ht-degree: 22%
 
 ---
@@ -44,11 +44,11 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
       ![](assets/decision_permission_1.png)
 
-   1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
+   1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
       ![](assets/decision_permission_2.png)
 
-   1. Digita il nome o l&#39;indirizzo e-mail dell&#39;utente o selezionalo dall&#39;elenco e fai clic su **[!UICONTROL Salva]**.
+   1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
       Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
 
@@ -86,4 +86,14 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
+
+## Risorse aggiuntive
+
+* **[Crea elementi decisionali](items.md)** - Scopri come creare e gestire elementi decisionali tra cui offerte, varianti di contenuto ed esperienze.
+* **[Configurare i cataloghi delle decisioni](catalogs.md)** - Informazioni su come organizzare gli elementi decisionali in cataloghi per una migliore gestione.
+* **[Definire le strategie di selezione](selection-strategies.md)** - Scopri come creare strategie di selezione con regole di idoneità e metodi di classificazione.
+* **[Creare criteri di decisione](create-decision-policy.md)** - Scopri come creare criteri di decisione che combinano strategie e vincoli.
+* **[Modelli di classificazione e IA](ranking/ranking.md)** - Formule di classificazione principali e modelli di IA per il decisioning personalizzato.
+* **[Guardrail di decisioning](decisioning-guardrails.md)**: rivedi limitazioni importanti e best practice per l&#39;implementazione del decisioning.
+* **[Tutorial su Decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni decisionali e sulle best practice.
 

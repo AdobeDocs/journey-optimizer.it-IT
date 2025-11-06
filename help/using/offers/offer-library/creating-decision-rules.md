@@ -70,8 +70,8 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341371?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

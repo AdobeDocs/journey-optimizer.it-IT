@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto iscrizione
+title: Rapporto abbonamento
 description: Scopri come utilizzare i dati dei servizi di abbonamento con il rapporto sugli abbonamenti
 feature: Journeys, Subscriptions
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Rapporto iscrizione {#subscription-report-global-cja}
+# Rapporto abbonamento {#subscription-report-global-cja}
 
 Il **report abbonamenti** offre informazioni essenziali sugli abbonamenti e sugli annullamenti di abbonamenti dei profili associati a elenchi specifici, consentendoti di comprendere l&#39;efficacia delle diverse campagne e iniziative di abbonamento nel promuovere il coinvolgimento e le conversioni.
 
@@ -23,7 +23,7 @@ Per accedere ai tuoi report, fai clic sull&#39;icona **[!UICONTROL Report]** del
 
 ![](assets/cja-sub-access.png)
 
-Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Aggiunte all’elenco delle iscrizioni
 
@@ -79,7 +79,7 @@ La tabella **[!UICONTROL Campagne]** offre informazioni utili sugli abbonamenti 
 
 * **[!UICONTROL L&#39;elenco iscrizioni rimuove]**: numero totale di annullamenti di abbonamenti per il periodo in questione.
 
-## Channel
+## Canale
 
 ![](assets/cja-sub-channels.png)
 

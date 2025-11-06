@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai modelli di contenuto
+title: Consulta i modelli di contenuto
 description: Scopri come utilizzare i modelli di contenuto per riutilizzare i contenuti nelle campagne e nei percorsi Journey Optimizer
 feature: Templates
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 6%
 ---
 
 
-# Introduzione ai modelli di contenuto {#content-templates}
+# Consulta i modelli di contenuto {#content-templates}
 
 >[!NOTE]
 >

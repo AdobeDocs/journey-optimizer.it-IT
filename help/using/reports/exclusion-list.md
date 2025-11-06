@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Motivi di esclusione {#exclusion-list}
 
-| Motivo di esclusione | Codice errore | Channel | Spiegazione |
+| Motivo di esclusione | Codice errore | Canale | Spiegazione |
 |-|-|-|-|
 | RuntimeDispatchError | 050301 | Tutti i canali | Evento di esclusione generico per qualsiasi errore di invio runtime. |
 | RuntimeRenderingError | 050302 | Tutti i canali | Evento di esclusione generico per qualsiasi errore di rendering Runtime. |

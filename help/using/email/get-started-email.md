@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <p>
 </td>
 </tr></table>
+
+## Risorse aggiuntive
+
+* **[Creazione di un messaggio e-mail](create-email.md)** - Scopri come creare messaggi e-mail in campagne e percorsi con istruzioni dettagliate.
+* **[Progetta contenuto e-mail](get-started-email-design.md)** - Scopri i diversi modi in cui progettare il contenuto delle e-mail, da zero o utilizzando i modelli.
+* **[Configurazione e-mail](get-started-email-config.md)** - Scopri come configurare le impostazioni e-mail, inclusi superfici e-mail, sottodomini e pool IP.
+* **[Personalizzazione e stile delle e-mail](get-started-email-style.md)** - Tecniche di stile principali tra cui CSS personalizzato, allineamento, spaziatura interna e supporto della modalità scura.
+* **[Tracciare e monitorare le e-mail](message-tracking.md)** - Scopri come tenere traccia di aperture di messaggi, clic e gestire il tracciamento URL per l’analisi delle prestazioni.
+* **[Tutorial sul canale e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni e le best practice per le e-mail.

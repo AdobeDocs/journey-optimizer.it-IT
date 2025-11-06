@@ -6,7 +6,7 @@ description: Sintassi
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Approfondisci le potenti funzionalità di sintassi dell’editor di espressioni 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Sintassi dell’editor di espressioni avanzato
 
@@ -30,7 +30,7 @@ Scopri le regole di sintassi dettagliate per l’utilizzo dell’editor di espre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Istruzione condizionale (if, then, else)
 
@@ -40,7 +40,7 @@ Padroneggia l’utilizzo delle istruzioni condizionali per creare espressioni co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Informazioni sui tipi di dati
 
@@ -50,7 +50,7 @@ Ottieni una panoramica completa dei tipi di dati utilizzati nelle espressioni, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo dei riferimenti dei campi
 
@@ -60,7 +60,7 @@ Scopri come fare riferimento ai campi nelle espressioni, inclusi i casi d’uso 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Funzioni di gestione della raccolta
 
@@ -70,7 +70,7 @@ Esplora funzioni come “all”, “first”, “last” e “at” per manipola
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Operatori nelle espressioni avanzate
 

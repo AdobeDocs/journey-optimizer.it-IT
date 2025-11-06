@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * Installa l&#39;estensione **Adobe Experience Platform Web SDK** nelle **proprietà tag** e abilita l&#39;opzione **Personalization Storage**.
 
-  Questa configurazione è essenziale per l’archiviazione della cronologia degli eventi sul client, un prerequisito per l’implementazione delle Regole di frequenza nel Generatore di regole. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it)
+  Questa configurazione è essenziale per l’archiviazione della cronologia degli eventi sul client, un prerequisito per l’implementazione delle Regole di frequenza nel Generatore di regole. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. Salva la configurazione di **Azione** facendo clic su **Mantieni modifiche**.
 
-1. Passare al menu **Flusso di pubblicazione**. Crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=it#create-a-library)
+1. Passare al menu **Flusso di pubblicazione**. Crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Dalla **libreria**, seleziona **Salva e genera in sviluppo**.
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. Nella sezione **Contesto decisionale**, definisci le coppie **Chiave** e **Valore** che determinano l&#39;esperienza da consegnare.
 
-1. Accedi al menu **Flusso di pubblicazione**, crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=it#create-a-library)
+1. Accedi al menu **Flusso di pubblicazione**, crea una nuova **Libreria** o seleziona una **Libreria** esistente e aggiungi la **Regola** appena creata. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Dalla **libreria**, seleziona **Salva e genera in sviluppo**.
 

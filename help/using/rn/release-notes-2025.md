@@ -42,7 +42,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <li><strong>Insight e opportunità sull’esperimento IA:</strong> supera la semplice lettura dei dati con insight e consigli basati sull’intelligenza artificiale generativa. Ciascun esperimento ora evidenzia opportunità utilizzabili, corredate da motivazioni a supporto, in modo che i team possano decidere con maggiore sicurezza cosa testare successivamente.</li>
 <li><strong>Supporto Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> massimizza l’impatto riducendo il traffico sprecato con esperimenti Multi-Armed Bandit. Invece di suddividere i tipi di pubblico in modo uniforme, il MAB assegna automaticamente più visitatori alle varianti con le prestazioni migliori in tempo reale, in modo da poter fornire esperienze di maggior valore a una clientela più elevata e continuando ad apprendere al tempo stesso che cosa funziona.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/overview">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 3 ottobre 2025</p>
 </td>
 </tr>
@@ -100,7 +100,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Utilizza la nuova funzione Ottimizza nodo per eseguire il targeting di tipi di pubblico specifici oppure esegui test A/B per determinare il percorso migliore per soddisfare i KPI incentrati sull’azienda.</p>
 <p>Questo strumento consente di testare e variare e di personalizzare le comunicazioni, la sequenza e la tempistica per raggiungere al meglio la clientela.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/optimize.md">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 4 settembre 2025</p>
@@ -119,7 +119,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata consente di controllare e gestire completamente tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/delegate-custom-subdomain.md">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 4 settembre 2025</p>
@@ -311,7 +311,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>La possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata.</li>
 <li>La possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
 </ul>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a></p>
 </td>
@@ -334,7 +334,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>La dimensione massima del file consentita per ciascun allegato è di 5 MB.</li>
 <li>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</li>
 </ul>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/pdf-attachments.md">documentazione dettagliata</a></p>
 </td>
@@ -562,7 +562,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tr>
 <td>
 <p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne e-mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a></p>
 </td>
 </tr>

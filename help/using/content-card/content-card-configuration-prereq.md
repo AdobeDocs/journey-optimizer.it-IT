@@ -19,12 +19,12 @@ Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenut
 
 * **Raccolta dati di Adobe Experience Platform**
 
-  [Crea uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"} e [aggiungi il servizio Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Abilita le opzioni **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. In questo modo gli eventi Journey Optimizer vengono gestiti da Adobe Experience Platform Edge Network.
-Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set di dati per includere i dati nei rapporti. [Ulteriori informazioni sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"}
+  [Crea uno stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} e [aggiungi il servizio Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Abilita le opzioni **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. In questo modo gli eventi Journey Optimizer vengono gestiti da Adobe Experience Platform Edge Network.
+Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set di dati per includere i dati nei rapporti. [Ulteriori informazioni sugli stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  Verifica che il criterio di unione predefinito abbia **Criterio di unione attivo su Edge** abilitato nel menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#configure){target="_blank"}
+  Verifica che il criterio di unione predefinito abbia **Criterio di unione attivo su Edge** abilitato nel menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -44,6 +44,6 @@ Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set 
 
 * **Esperimenti contenuto**
 
-  Assicurati che il set di dati utilizzato nello [stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview#_blank){target="_blank"} dell&#39;app sia incluso anche nella configurazione di reporting dell&#39;esperimento sui contenuti. I dati dell’app non vengono visualizzati nei rapporti se i set di dati non corrispondono.
+  Assicurati che il set di dati utilizzato nello [stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"} dell&#39;app sia incluso anche nella configurazione di reporting dell&#39;esperimento sui contenuti. I dati dell’app non vengono visualizzati nei rapporti se i set di dati non corrispondono.
 
   Scopri come aggiungere set di dati per i rapporti sull’esperimento dei contenuti in [questa sezione](../reports/reporting-configuration.md).

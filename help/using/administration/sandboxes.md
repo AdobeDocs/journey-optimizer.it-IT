@@ -70,4 +70,4 @@ Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la 
 
 Scopri cosa sono le sandbox e come distinguere le sandbox di sviluppo da quelle di produzione. Scopri come creare, reimpostare ed eliminare le sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416654?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

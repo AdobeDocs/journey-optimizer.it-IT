@@ -6,7 +6,7 @@ description: Progettare i contenuti
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La progettazione dei contenuti in Adobe Journey Optimizer consiste nella creazio
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utilizzare i componenti del contenuto
 
@@ -30,7 +30,7 @@ Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Sfruttare i frammenti visivi
 
@@ -40,7 +40,7 @@ Scopri come creare frammenti riutilizzabili per semplificare la progettazione de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Aggiungere collegamenti e tracciare i messaggi
 
@@ -50,7 +50,7 @@ Abilita il tracciamento, inserisci collegamenti e gestisci l’aspetto dei colle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inserire offerte personalizzate
 
@@ -60,7 +60,7 @@ Utilizza la gestione delle decisioni per visualizzare in modo dinamico offerte p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Generare una versione di testo
 
@@ -70,7 +70,7 @@ Crea e personalizza la versione in testo semplice dell’e-mail per i destinatar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aggiungere metadati
 

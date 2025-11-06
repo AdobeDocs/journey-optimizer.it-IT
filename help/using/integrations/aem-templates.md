@@ -27,7 +27,7 @@ Con Adobe Journey Optimizer, puoi creare messaggi personalizzati tramite i siti 
 >[!AVAILABILITY]
 >
 >L’integrazione con Adobe Experience Manager è attualmente disponibile come versione beta solo per alcuni utenti.
->&#x200B;>In qualità di utente beta, utilizza [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere feedback.
+>In qualità di utente beta, utilizza [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere feedback.
 
 
 ### Prerequisiti {#prerequisites}
@@ -62,7 +62,7 @@ Per esportare un modello di Adobe Experience Manager in Adobe Journey Optimizer,
 
    ![](assets/aem-outbound-menu.png)
 
-1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=it#creating-a-new-page)
+1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Incorporando la sintassi di personalizzazione di Journey Optimizer nel modello, puoi migliorarne le funzionalità di personalizzazione. [Ulteriori informazioni](../personalization/personalization-syntax.md)
 

@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configurazione, configurare, messaggi, canale, sandbox, optimizer
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 43%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -73,3 +73,12 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
    * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md)
 
    * Determinare l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
+
+## Risorse aggiuntive
+
+* **[Configurare le superfici di canale](channel-surfaces.md)** - Scopri come impostare e gestire le superfici di canale per e-mail, push, SMS e altri canali.
+* **[Delega dei sottodomini](delegate-subdomain.md)** - Scopri come delegare i sottodomini ad Adobe per il recapito messaggi e-mail e il branding.
+* **[Riscaldamento IP](ip-warmup-gs.md)** - Scopri le best practice per il riscaldamento dell&#39;indirizzo IP per migliorare il recapito messaggi e-mail e la reputazione del mittente.
+* **[Gestisci elenco di soppressione](manage-suppression-list.md)** - Scopri come gestire gli elenchi di soppressione per gestire i mancati recapiti e mantenere l&#39;igiene degli elenchi.
+* **[Configura app mobili](set-mobile-config.md)** - Configura le configurazioni di app mobili per le notifiche push e i messaggi in-app.
+* **[Esercitazioni di configurazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: esplora esercitazioni video dettagliate sulla configurazione dei canali e sulle best practice.

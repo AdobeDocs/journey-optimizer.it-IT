@@ -5,7 +5,7 @@ title: Ruoli e responsabilità
 description: Ruoli e responsabilità
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Il successo di Adobe Journey Optimizer dipende dalla collaborazione di un team d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Panoramica su ruoli e responsabilità
 
@@ -30,7 +30,7 @@ Scopri i ruoli chiave, le responsabilità e le dipendenze necessari per implemen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Introduzione al ruolo di addetto marketing
 
@@ -40,7 +40,7 @@ Linee guida dettagliate per i marketer sulla creazione di tipi di pubblico, l’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Iniziare in qualità di data engineer
 
@@ -50,7 +50,7 @@ Istruzioni dettagliate per i data engineer per preparare schemi, set di dati e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Iniziare in qualità di amministratore di sistema
 

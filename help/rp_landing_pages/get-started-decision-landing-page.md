@@ -6,7 +6,7 @@ description: Consulta la gestione delle decisioni
 redpen-status: CREATED_||_2025-08-11_20-58-31
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La gestione delle decisioni di Adobe Journey Optimizer consente ai marketer di f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alla gestione delle decisioni
 
@@ -30,7 +30,7 @@ Scopri la gestione delle decisioni in Adobe Journey Optimizer, compresi i vantag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Guardrail e limitazioni per la gestione delle decisioni
 
@@ -40,7 +40,7 @@ Scopri i vincoli operativi e le soglie di prestazioni della Gestione delle decis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guida all’interfaccia utente della libreria di offerte
 
@@ -50,7 +50,7 @@ Esplora l’interfaccia e le funzionalità della libreria di offerte per creare,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Passaggi chiave per creare e gestire le offerte
 
@@ -60,7 +60,7 @@ Segui una guida dettagliata su come creare, gestire e configurare offerte e deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzo dei tipi di pubblico per il caricamento personalizzato per la funzione Decisioni
 
@@ -70,7 +70,7 @@ Scopri come perfezionare i criteri di idoneità e personalizzare le offerte util
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Usare offerte personalizzate in un messaggio e-mail
 

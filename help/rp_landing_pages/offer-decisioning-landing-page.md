@@ -6,7 +6,7 @@ description: Gestione delle decisioni
 redpen-status: CREATED_||_2025-08-11_21-05-09
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La funzione di gestione delle decisioni in Adobe Journey Optimizer ti consente d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla gestione delle decisioni
 
@@ -30,7 +30,7 @@ Scopri i concetti di base della gestione delle decisioni, che includono componen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creare e gestire i componenti decisionali
 
@@ -40,7 +40,7 @@ Scopri come creare posizionamenti, regole di decisione e qualificatori di raccol
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creare e ottimizzare le classificazioni
 
@@ -50,7 +50,7 @@ Scopri come classificare le offerte utilizzando formule e modelli di intelligenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e gestire le offerte
 
@@ -60,7 +60,7 @@ Istruzioni dettagliate per la creazione di offerte personalizzate, opzioni di fa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare e gestire decisioni
 
@@ -70,7 +70,7 @@ Scopri come configurare, classificare e simulare decisioni per la consegna di of
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Utilizzo di decisioning batch
 

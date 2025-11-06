@@ -6,7 +6,7 @@ description: Controllo degli accessi
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Il controllo degli accessi in Adobe Journey Optimizer consente agli amministrato
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione al controllo degli accessi
 
@@ -30,7 +30,7 @@ Scopri i concetti e i processi per la gestione delle autorizzazioni utente, dei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestire utenti e ruoli
 
@@ -40,7 +40,7 @@ Linee guida dettagliate sull’assegnazione, la modifica e la creazione di ruoli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Ruoli incorporati
 
@@ -50,7 +50,7 @@ Scopri i ruoli predefiniti e le relative autorizzazioni associate per gestire in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Autorizzazioni incorporate
 
@@ -60,7 +60,7 @@ Scopri le autorizzazioni disponibili e le relative funzionalità per configurare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Livelli di autorizzazione
 
@@ -70,7 +70,7 @@ Scopri le autorizzazioni di alto e basso livello e come queste consentono un con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Controllo degli accessi basato su attributi
 

@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer i
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l&#39;onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} oppure utilizzare [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
+>In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} oppure utilizzare i [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
 
 ## Implementare il consenso alla personalizzazione {#opt-out-personalization}
 
@@ -99,7 +99,7 @@ Se un utente:
 
 L’[editor di personalizzazione](../personalization/personalization-build-expressions.md) stesso non esegue alcun controllo o applicazione del consenso, in quanto non è coinvolto nella consegna dei messaggi.
 
-Tuttavia, l’utilizzo di etichette di controllo dell’accesso basate sui diritti consente di limitare quali campi possono essere utilizzati per la personalizzazione. L’[anteprima del messaggio](../content-management/preview.md) e il [servizio di rendering di e-mail](../content-management/rendering.md) maschererà i campi identificati con informazioni sensibili.
+Tuttavia, l’utilizzo di etichette di controllo dell’accesso basate sui diritti consente di limitare quali campi possono essere utilizzati per la personalizzazione. L’[anteprima del messaggio](../content-management/preview.md) e il [servizio Rendering e-mail](../content-management/rendering.md) maschererà i campi identificati con informazioni sensibili.
 
 >[!NOTE]
 >

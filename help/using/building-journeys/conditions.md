@@ -30,7 +30,7 @@ Con **condizioni** puoi definire il modo in cui i singoli utenti avanzano nel tu
 
 >[!AVAILABILITY]
 >
->Queste condizioni sono disponibili tramite l&#39;attività **Ottimizza**, a cui è possibile accedere su richiesta in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Queste condizioni sono disponibili tramite l&#39;attività **Ottimizza**, a cui è possibile accedere su richiesta in Disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 >
 >Se non hai accesso a questa capacità, puoi comunque utilizzare l&#39;[attività Condizione](condition-activity.md) legacy.
 
@@ -192,4 +192,4 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

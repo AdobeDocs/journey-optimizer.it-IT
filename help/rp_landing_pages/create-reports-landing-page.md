@@ -6,7 +6,7 @@ description: Creare rapporti di gestione delle decisioni
 redpen-status: CREATED_||_2025-08-11_21-02-56
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La creazione di rapporti di gestione delle decisioni in Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utilizzare gli eventi di gestione delle decisioni
 
@@ -30,7 +30,7 @@ Scopri come sfruttare i set di dati dell’evento di gestione delle decisioni pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accedere ed esplorare i campi XDM di DecisioningEvents
 

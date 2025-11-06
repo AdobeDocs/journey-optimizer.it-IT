@@ -71,13 +71,13 @@ I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatario non valido]** | L&#39;indirizzo del destinatario non è valido o non esiste. | Permanente |
-| **[!UICONTROL Mancato recapito non permanente]** | Messaggio non recapitato per un motivo diverso dagli errori non permanenti elencati in questa tabella, ad esempio durante l’invio della frequenza consentita consigliata da un ISP. | Non permanente |
-| **[!UICONTROL Errore DNS]** | Messaggio non recapitato a causa di un errore DNS. | Non permanente |
-| **[!UICONTROL Cassetta postale piena]** | Messaggio non recapitato perché la cassetta postale del destinatario è piena e non è in grado di accettare altri messaggi. | Non permanente |
-| **[!UICONTROL Inoltro negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;inoltro non è consentito. | Non permanente |
-| **[!UICONTROL Risposta al problema]** | Il messaggio è un probe challenge-response. | Non permanente |
-| **[!UICONTROL Reclamo spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Permanente |
+| **[!UICONTROL Destinatario non valido]** | L&#39;indirizzo del destinatario non è valido o non esiste. | Rigido |
+| **[!UICONTROL Mancato recapito non permanente]** | Messaggio non recapitato per un motivo diverso dagli errori non permanenti elencati in questa tabella, ad esempio durante l’invio della frequenza consentita consigliata da un ISP. | Morbido |
+| **[!UICONTROL Errore DNS]** | Messaggio non recapitato a causa di un errore DNS. | Morbido |
+| **[!UICONTROL Cassetta postale piena]** | Messaggio non recapitato perché la cassetta postale del destinatario è piena e non è in grado di accettare altri messaggi. | Morbido |
+| **[!UICONTROL Inoltro negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;inoltro non è consentito. | Morbido |
+| **[!UICONTROL Risposta al problema]** | Il messaggio è un probe challenge-response. | Morbido |
+| **[!UICONTROL Reclamo spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Rigido |
 
 >[!NOTE]
 >

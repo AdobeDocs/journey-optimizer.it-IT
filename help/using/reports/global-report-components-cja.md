@@ -675,11 +675,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero totale di volte in cui sono state mostrate o presentate agli utenti esperienze personalizzate attraverso vari punti di contatto.<br/> </td> 
 </tr>
 <tr> 
-   <td>Funnel di coinvolgimento<br/> </td> 
-   <td>Monitora le prestazioni delle esperienze personalizzate valutando l'efficacia di ogni fase del funnel nel determinare le interazioni dell'utente.<br/> </td> 
+   <td>Coinvolgimento Funnel<br/> </td> 
+   <td>Monitora le prestazioni delle esperienze personalizzate valutando l'efficacia di ogni fase di funnel nel determinare le interazioni degli utenti.<br/> </td> 
 </tr>
 <tr> 
-   <td>Funnel di coinvolgimento per strategia di selezione<br/> </td> 
+   <td>Coinvolgimento Funnel per strategia di selezione<br/> </td> 
    <td>Esegue il monitoraggio e l'analisi dell'efficacia con cui le diverse strategie di selezione coinvolgono gli utenti con esperienze personalizzate.<br/> </td> 
 </tr>
 <tr> 

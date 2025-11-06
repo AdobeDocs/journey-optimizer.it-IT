@@ -6,7 +6,7 @@ description: Rapporto live
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La funzione Rapporto live di Adobe Journey Optimizer consente di monitorare e an
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione a Rapporto live
 
@@ -30,7 +30,7 @@ Scopri come accedere, personalizzare ed esportare Rapporti live per monitorare p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Elenco delle metriche
 
@@ -40,7 +40,7 @@ Scopri le definizioni e le categorie delle metriche utilizzate nei rapporti live
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapporto live dei percorsi
 
@@ -50,7 +50,7 @@ Analizza le prestazioni dei percorsi e dei relativi canali di comunicazione in t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapporto live delle campagne
 
@@ -60,7 +60,7 @@ Visualizza le prestazioni di una campagna su più canali come e-mail, notifiche 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapporto live delle pagine di destinazione
 
@@ -70,7 +70,7 @@ Valuta le prestazioni delle pagine di destinazione con metriche in tempo reale q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapporto live delle iscrizioni
 

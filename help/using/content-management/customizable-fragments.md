@@ -194,4 +194,4 @@ Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti posso
 
 Questo video mostra come rendere modificabili i componenti HTML all’interno di un frammento, consentendo aggiornamenti dinamici sia al contenuto che allo stile.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?learn=on&#x26;enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

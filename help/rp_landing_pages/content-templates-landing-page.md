@@ -6,7 +6,7 @@ description: Modelli di contenuto
 redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I modelli di contenuto in Adobe Journey Optimizer sono potenti strumenti progett
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Consulta i modelli di contenuto
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accedere e gestire i modelli
 
@@ -40,7 +40,7 @@ Scopri come accedere, organizzare e gestire i modelli di contenuto, incluse la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creare modelli di contenuto
 
@@ -50,7 +50,7 @@ Guida dettagliata alla creazione di modelli di contenuto riutilizzabili partendo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Bloccare il contenuto nei modelli e-mail
 
@@ -60,7 +60,7 @@ Scopri come bloccare sezioni o interi modelli per evitare modifiche o eliminazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Testare i modelli di contenuto
 
@@ -70,7 +70,7 @@ Convalida i modelli e-mail testando il rendering, le varianti e le bozze prima d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzare i modelli di contenuto
 

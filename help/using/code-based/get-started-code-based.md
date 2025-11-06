@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 90%
 
 ---
 
@@ -101,4 +101,13 @@ I passaggi chiave per creare e consegnare un’esperienza basata su codice sono 
    >[!INFO]
    >
    >Per garantirlo, il team di implementazione dell’app effettua chiamate API o SDK esplicite per recuperare il contenuto per la superficie definita nella configurazione basata su codice, come “Testo banner” o “Area 1 Consigli”, o punti decisionali non correlati all’interfaccia utente in un’applicazione, ad esempio “Parametri dell’algoritmo di ricerca”. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Ulteriori informazioni](code-based-implementation-samples.md)
+
+## Risorse aggiuntive
+
+* **[Creare esperienze basate su codice](create-code-based.md)**: scopri come creare e configurare campagne e percorsi basati su codice per le implementazioni personalizzate.
+* **[Configura canale basato su codice](code-based-configuration.md)**: configura le configurazioni di esperienza basate su codice con le impostazioni di superficie e implementazione corrette.
+* **[Prerequisiti basati su codice](code-based-prerequisites.md)**: comprendere i requisiti tecnici e le risorse per sviluppatori necessarie per l&#39;implementazione.
+* **[Verifica esperienze basate su codice](test-code-based.md)**: scopri come visualizzare in anteprima e testare le esperienze basate su codice prima di pubblicarle.
+* **[Esempi di implementazione](code-based-implementation-samples.md)** - Esplora esempi di codice e modelli di implementazione per vari casi d&#39;uso.
+* **[Esercitazioni sulle esperienze basate su codice](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzionalità basate su codice e sulle best practice.
 

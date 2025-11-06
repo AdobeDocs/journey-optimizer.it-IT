@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai frammenti
+title: Consulta i frammenti
 description: Scopri come utilizzare i frammenti di contenuto per riutilizzare i contenuti nelle campagne e nei percorsi Journey Optimizer
 feature: Fragments
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 ---
 
-# Introduzione ai frammenti {#fragments}
+# Consulta i frammenti {#fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
@@ -60,8 +60,8 @@ Tutti i frammenti creati sono accessibili dal menu a sinistra **[!UICONTROL Gest
 
 Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3451190/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438925/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

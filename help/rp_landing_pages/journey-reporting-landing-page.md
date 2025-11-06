@@ -6,7 +6,7 @@ description: Rapporti sul percorso
 redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I rapporti sul percorso in Adobe Journey Optimizer forniscono potenti strumenti 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Analisi dei rapporti sul percorso
 
@@ -30,7 +30,7 @@ Scopri come analizzare e ottimizzare le prestazioni del percorso utilizzando met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rapporti sul percorso basati su codice
 
@@ -40,7 +40,7 @@ Comprendi e analizza le metriche per il coinvolgimento nelle esperienze basate s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Valutare il coinvolgimento con la scheda contenuto
 
@@ -50,7 +50,7 @@ Scopri come misurare e valutare il coinvolgimento dell’utente con le schede co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Metriche direct mail
 
@@ -60,7 +60,7 @@ Analizza e interpreta le metriche chiave per le campagne direct mail, inclusi lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 Reporting sul percorso e-mail
 
@@ -70,7 +70,7 @@ Ottieni informazioni approfondite su prestazioni e coinvolgimento delle e-mail e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Informazioni sulla messaggistica in-app
 

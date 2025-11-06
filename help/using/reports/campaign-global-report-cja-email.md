@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >Poiché Apple ha introdotto nuove funzioni di protezione della privacy per la sua app Mail nativa, tra cui Protezione privacy della posta, i mittenti non possono più utilizzare i pixel di tracciamento per raccogliere dati sui profili che hanno abilitato la Protezione della privacy della posta di Apple. Di conseguenza, potrebbe essere influenzata la capacità di Adobe Journey Optimizer di tenere traccia delle aperture delle e-mail utilizzando i pixel di tracciamento.
->&#x200B;> [Ulteriori informazioni](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sull&#39;impatto delle modifiche alla privacy di Apple iOS sul marketing via e-mail.
+> [Ulteriori informazioni](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sull&#39;impatto delle modifiche alla privacy di Apple iOS sul marketing via e-mail.
 > 
 > Per informazioni più precise, consigliamo di concentrarti sui clic e sulle metriche di conversione invece dei tassi di apertura.
 
@@ -64,13 +64,13 @@ Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) **[!UICON
 +++
 
 
-## Funnel a clic univoco
+## Click funnel univoco
 
 ![](assets/cja-email-click-funnel.png)
 
-Il grafico **[!UICONTROL Funnel di clic]** presenta un&#39;analisi dettagliata del modo in cui i profili si interfacciano con il contenuto delle e-mail, fornendo informazioni utili in ogni fase dell&#39;interazione, dalla consegna ai clic, consentendoti di comprendere in che modo i messaggi guidano efficacemente il coinvolgimento degli utenti.
+Il grafico di **[!UICONTROL Click funnel]** presenta un&#39;analisi dettagliata del modo in cui i profili coinvolti nel contenuto delle e-mail offrono informazioni utili in ogni fase dell&#39;interazione, dalla consegna ai clic, aiutandoti a comprendere in che modo i messaggi guidano efficacemente il coinvolgimento degli utenti.
 
-+++ Ulteriori informazioni sulle metriche del funnel di clic
++++ Ulteriori informazioni sulle metriche di Click funnel
 
 * **[!UICONTROL Destinazione univoca]**: numero di profili univoci di destinazione durante il processo di invio.
 

@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -46,7 +46,7 @@ I criteri di decisione sono contenitori per le offerte che sfruttano il motore d
 
 >[!AVAILABILITY]
 >
->Per il momento, i criteri decisionali sono disponibili per tutti i clienti del canale di esperienza basato su codice. Sono disponibili per il canale e-mail come Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Per il momento, i criteri decisionali sono disponibili per tutti i clienti del canale di esperienza basato su codice. Sono disponibili per il canale e-mail come Disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 ## Passaggi chiave {#key}
 

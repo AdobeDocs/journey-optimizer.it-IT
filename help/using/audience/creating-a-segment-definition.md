@@ -32,7 +32,7 @@ In questo esempio, puoi creare un pubblico per rivolgerti a tutti i clienti che 
 
    ![](assets/create-segment.png)
 
-   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ In questo esempio, puoi creare un pubblico per rivolgerti a tutti i clienti che 
 
 1. Trascina e rilascia i campi desiderati dal riquadro di sinistra all’area di lavoro centrale, quindi configurali in base alle tue esigenze.
 
-   I blocchi predefiniti di base delle definizioni dei segmenti sono **attributes** e **events**. Inoltre, gli attributi e gli eventi contenuti nei tipi di pubblico esistenti possono essere utilizzati come componenti per nuove definizioni. [Ulteriori informazioni sono disponibili nella documentazione del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   I blocchi predefiniti di base delle definizioni dei segmenti sono **attributes** e **events**. Inoltre, gli attributi e gli eventi contenuti nei tipi di pubblico esistenti possono essere utilizzati come componenti per nuove definizioni. [Ulteriori informazioni sono disponibili nella documentazione del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
@@ -102,11 +102,11 @@ Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazion
 
 +++ Segmentazione Edge
 
-La segmentazione di Edge consente di valutare i segmenti in Adobe Experience Platform [istantaneamente al limite](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"}, abilitando casi di utilizzo di personalizzazione della stessa pagina e della pagina successiva. Attualmente solo i tipi di query selezionati possono essere valutati con la segmentazione Edge. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=it#query-types){target="_blank"}
+La segmentazione di Edge consente di valutare i segmenti in Adobe Experience Platform [istantaneamente al limite](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, abilitando casi di utilizzo di personalizzazione della stessa pagina e della pagina successiva. Attualmente solo i tipi di query selezionati possono essere valutati con la segmentazione Edge. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-Se si conosce il metodo di valutazione da utilizzare, selezionarlo utilizzando l&#39;elenco a discesa. Per visualizzare un elenco dei metodi di valutazione delle definizioni dei segmenti disponibili, puoi anche fare clic sull’icona Sfoglia icona cartella con una lente di ingrandimento. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#segment-properties){target="_blank"}.
+Se si conosce il metodo di valutazione da utilizzare, selezionarlo utilizzando l&#39;elenco a discesa. Per visualizzare un elenco dei metodi di valutazione delle definizioni dei segmenti disponibili, puoi anche fare clic sull’icona Sfoglia icona cartella con una lente di ingrandimento. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}.
 
 ![](assets/evaluation-methods.png)
 
@@ -130,10 +130,10 @@ Con una valutazione flessibile del pubblico, puoi:
 1. Valuta il pubblico in tempo reale per assicurarne la precisione. Per farlo, scegli i tipi di pubblico da valutare e seleziona &quot;Valuta i tipi di pubblico&quot;, a condizione che soddisfino criteri specifici (ad esempio, persone basate, origine del servizio di segmentazione).
 1. Utilizza il pubblico valutato nelle campagne o nei percorsi Adobe Journey Optimizer per un targeting preciso.
 
-È possibile valutare fino a 20 tipi di pubblico alla volta e i tipi di pubblico non idonei vengono automaticamente esclusi. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+È possibile valutare fino a 20 tipi di pubblico alla volta e i tipi di pubblico non idonei vengono automaticamente esclusi. Per ulteriori dettagli, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Video dimostrativo{#video-segment}
 
 Scopri in che modo Journey Optimizer utilizza le regole per generare i tipi di pubblico e come utilizzare gli attributi, gli eventi e i tipi di pubblico esistenti per creare un pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430331?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

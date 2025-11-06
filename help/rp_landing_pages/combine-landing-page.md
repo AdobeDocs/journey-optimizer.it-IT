@@ -6,7 +6,7 @@ description: Casi d’uso per più soluzioni
 redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I casi d’uso per più soluzioni di Adobe Journey Optimizer ti consentono di in
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Combinare soluzioni Adobe per gestire i contenuti
 
@@ -30,7 +30,7 @@ Scopri come integrare Adobe Journey Optimizer con altre soluzioni Adobe come Exp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Utilizzare Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Istruzioni dettagliate sull’integrazione, il caricamento e la gestione delle r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Utilizzare le immagini di Adobe Stock
 
@@ -50,7 +50,7 @@ Scopri come reperire, concedere in licenza e personalizzare le immagini di Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 Modificare le risorse utilizzando Adobe Express
 
@@ -60,7 +60,7 @@ Scopri come ridimensionare, ritagliare e rimuovere gli sfondi dalle risorse con 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare i frammenti di contenuto di AEM
 
@@ -70,7 +70,7 @@ Istruzioni dettagliate per l’integrazione di frammenti di contenuto di AEM con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzare Dynamic Media
 

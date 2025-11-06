@@ -41,7 +41,7 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 
 >[!AVAILABILITY]
 >
->Per il momento, i criteri decisionali sono disponibili per tutti i clienti per il canale **Esperienza basata su codice**. Sono disponibili per il canale **E-mail** come disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Per il momento, i criteri decisionali sono disponibili per tutti i clienti per il canale **Esperienza basata su codice**. Sono disponibili per il canale **E-mail** come disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 ## Aggiungere un criterio di decisione {#add}
 

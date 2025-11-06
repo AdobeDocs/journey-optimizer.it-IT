@@ -6,7 +6,7 @@ description: Gestire i percorsi
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La gestione dei percorsi in Adobe Journey Optimizer consiste nell’offrirti gli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Sfogliare e filtrare i percorsi
 
@@ -30,17 +30,17 @@ Scopri come navigare, filtrare e gestire in modo efficace i percorsi, incluse le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Ingresso del profilo nei percorsi
 
-Scopri in che modo i profili entrano nei percorsi, incluse le regole di reingresso per gli eventi unitari, le qualifiche del pubblico e i percorsi Leggi pubblico.
+Scopri in che modo i profili entrano nei percorsi, incluse le regole di reingresso per gli eventi unitari, le qualificazioni del pubblico e i percorsi Leggi pubblico.
 
 [Scopri l’ingresso del profilo](../using/building-journeys/entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzare identificatori supplementari nei percorsi
 
@@ -50,7 +50,7 @@ Scopri come sfruttare gli identificatori supplementari per una personalizzazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione del fuso orario
 
@@ -60,7 +60,7 @@ Scopri come configurare fusi orari fissi e definiti dal profilo per garantire la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Ottimizzazione dei tempi di invio
 
@@ -70,7 +70,7 @@ Ottimizza il coinvolgimento per e-mail e messaggi push prevedendo tempi di invio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Termine del percorso
 

@@ -149,7 +149,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
@@ -201,7 +201,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 
