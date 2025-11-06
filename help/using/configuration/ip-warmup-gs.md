@@ -52,7 +52,7 @@ I passaggi chiave per implementare un piano di preparazione IP sono i seguenti:
 
 Scopri come creare ed eseguire un piano di preparazione IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453848/?captions=ita&learn=on)
 
 >[!NOTE]
 >

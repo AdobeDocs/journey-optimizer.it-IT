@@ -140,4 +140,4 @@ Dopo aver eseguito l&#39;esperimento, tieni traccia delle prestazioni dei tratta
 
 Scopri come esportare un modello e-mail da Journey Optimizer a GenStudio for Performance Marketing, creare e-mail conformi al brand utilizzando il modello in GenStudio e importarle nuovamente in Journey Optimizer con facilità.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456057/?captions=ita&quality=12)

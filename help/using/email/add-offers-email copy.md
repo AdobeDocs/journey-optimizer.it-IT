@@ -103,4 +103,4 @@ Ulteriori informazioni sui passaggi dettagliati per controllare l&#39;anteprima 
 
 Scopri come aggiungere un componente di gestione delle decisioni ai messaggi in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3415689?captions=ita&quality=12)

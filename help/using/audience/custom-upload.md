@@ -31,4 +31,4 @@ Informazioni dettagliate su come importare tipi di pubblico sono disponibili nel
 
 Scopri come caricare i tipi di pubblico in formato CSV nel video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423358?captions=ita&quality=12)
