@@ -30,7 +30,7 @@ Informazioni sui canali di comunicazione in uscita e in entrata disponibili in A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Canale e-mail
 

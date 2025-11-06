@@ -25,7 +25,7 @@ La progettazione di contenuti per messaggi in Adobe Journey Optimizer ti consent
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Progettazione di contenuti e-mail
 
@@ -35,7 +35,7 @@ Padroneggia la progettazione delle e-mail con E-mail Designer, crea layout reatt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=it)
 
 Progettare le notifiche push
 
@@ -45,7 +45,7 @@ Crea notifiche push coinvolgenti per iOS e Android, configura il contenuto del t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
 
 Progettare messaggi SMS e MMS
 
@@ -55,7 +55,7 @@ Comporre messaggi di testo personalizzati con SMS, migliorare le comunicazioni c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
 
 Progettare messaggi in-app
 
@@ -65,7 +65,7 @@ Crea esperienze in-app coinvolgenti con più opzioni di layout, tra cui formati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Personalizzazione dei contenuti
 
@@ -75,7 +75,7 @@ Aggiungi la personalizzazione ai messaggi utilizzando gli attributi del profilo,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare modelli e frammenti
 

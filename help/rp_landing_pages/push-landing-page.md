@@ -38,7 +38,7 @@ Puoi creare le notifiche push:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e configurare le notifiche push
 
@@ -48,7 +48,7 @@ Guida dettagliata alla creazione e alla configurazione delle notifiche push, inc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare una notifica push
 
@@ -58,7 +58,7 @@ Scopri come progettare e personalizzare le notifiche push con file multimediali,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Visualizzare in anteprima, convalidare e inviare notifiche push
 
@@ -68,7 +68,7 @@ Scopri come visualizzare in anteprima, convalidare e inviare notifiche push, gar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare le notifiche push
 

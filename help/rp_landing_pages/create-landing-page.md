@@ -20,7 +20,7 @@ La creazione di tipi di pubblico in Adobe Journey Optimizer ti consente di defin
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare definizioni di segmenti in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Scopri come definire i segmenti di pubblico, incluse istruzioni dettagliate per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Consulta la composizione del pubblico
 
@@ -40,7 +40,7 @@ Scopri come creare flussi di lavoro che combinano, arricchiscono e gestiscono i 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=it)
 
 Importare tipi di pubblico con caricamento CSV personalizzato
 
@@ -50,7 +50,7 @@ Scopri come importare i tipi di pubblico tramite file CSV e mappare gli attribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Composizione di pubblico federato
 

@@ -20,7 +20,7 @@ L’anteprima e il test dei contenuti in Adobe Journey Optimizer garantiscono ch
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Visualizzare in anteprima e testare i contenuti in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Scopri come utilizzare i profili di test e i dati di input di esempio per visual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Selezionare i profili di test in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Scopri come selezionare e gestire i profili di test per visualizzare in anteprim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Visualizzare l’anteprima del contenuto utilizzando i profili di test
 
@@ -50,7 +50,7 @@ Guida dettagliata per la visualizzazione in anteprima dei contenuti personalizza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Inviare bozze utilizzando i dati del profilo di test
 
@@ -60,7 +60,7 @@ Testa e convalida i messaggi e-mail inviando bozze utilizzando i dati del profil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=it)
 
 Testare il rendering delle e-mail con Litmus in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Integra Litmus per visualizzare in anteprima il rendering delle e-mail per i cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Simulare e testare le varianti di contenuto in Adobe Journey Optimizer
 

@@ -20,7 +20,7 @@ I modelli di contenuto in Adobe Journey Optimizer sono potenti strumenti progett
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta i modelli di contenuto
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accedere e gestire i modelli
 
@@ -40,7 +40,7 @@ Scopri come accedere, organizzare e gestire i modelli di contenuto, incluse la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Creare modelli di contenuto
 
@@ -50,7 +50,7 @@ Guida dettagliata alla creazione di modelli di contenuto riutilizzabili partendo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Bloccare il contenuto nei modelli e-mail
 
@@ -60,7 +60,7 @@ Scopri come bloccare sezioni o interi modelli per evitare modifiche o eliminazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Testare i modelli di contenuto
 
@@ -70,7 +70,7 @@ Convalida i modelli e-mail testando il rendering, le varianti e le bozze prima d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzare i modelli di contenuto
 

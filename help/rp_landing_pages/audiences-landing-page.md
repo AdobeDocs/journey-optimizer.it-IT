@@ -30,7 +30,7 @@ Scopri i concetti di base sulla gestione del pubblico, la segmentazione e l’at
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire i tipi di pubblico
 

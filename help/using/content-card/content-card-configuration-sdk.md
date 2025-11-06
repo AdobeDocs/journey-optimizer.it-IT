@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Configurare il supporto per le schede di contenuto in Web SDK {#content-card-configuration-sdk}
 
-In questo esempio viene illustrato come recuperare le schede di contenuto da Adobe Journey Optimizer (AJO) tramite Adobe Experience Platform. Sfruttando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), il contenuto di personalizzazione viene recuperato e renderizzato interamente sul lato client.
+In questo esempio viene illustrato come recuperare le schede di contenuto da Adobe Journey Optimizer (AJO) tramite Adobe Experience Platform. Sfruttando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home), il contenuto di personalizzazione viene recuperato e renderizzato interamente sul lato client.
 
 Al caricamento della pagina iniziale, viene visualizzato lo stato predefinito della pagina. Tuttavia, se interagisci con i pulsanti **Fondi di deposito** o **Condividi sui social media**, verranno visualizzate schede di contenuto aggiuntive. Queste schede vengono attivate da condizioni lato client, garantendo che vengano visualizzate solo quando vengono intraprese azioni specifiche.
 
@@ -46,7 +46,7 @@ Al caricamento della pagina iniziale, viene visualizzato lo stato predefinito de
 
 ## Come funziona {#setup}
 
-1. Includi e configura il [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) nella pagina utilizzando le impostazioni del file `.env` nella cartella di esempio.
+1. Includi e configura il [Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home) nella pagina utilizzando le impostazioni del file `.env` nella cartella di esempio.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

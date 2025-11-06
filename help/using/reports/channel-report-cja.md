@@ -27,7 +27,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Campagne](#campaign)
 * [Canali](#channel)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 

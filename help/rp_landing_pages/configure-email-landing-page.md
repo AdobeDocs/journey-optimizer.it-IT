@@ -20,7 +20,7 @@ La configurazione del canale e-mail in Adobe Journey Optimizer rappresenta il tu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta la configurazione e-mail
 
@@ -40,7 +40,7 @@ Imposta le configurazioni delle e-mail per la recapitabilità, la conformità e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Abilitare e configurare l’annullamento dell’iscrizione alla mailing list
 
@@ -60,7 +60,7 @@ Personalizza gli indirizzi e-mail del mittente e della risposta, gestisci gli er
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Configurare il tracciamento URL per il canale e-mail
 

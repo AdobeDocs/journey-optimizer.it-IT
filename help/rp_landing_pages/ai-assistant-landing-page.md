@@ -30,7 +30,7 @@ Scopri come accedere e configurare la funzione Assistente IA per migliorare la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Generazione di e-mail con l’IA
 
@@ -60,7 +60,7 @@ Utilizza l’Assistente IA per generare e perfezionare i contenuti degli SMS che
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
 
 Contenuto delle pagine web e generazione delle risorse
 

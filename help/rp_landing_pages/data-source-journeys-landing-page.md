@@ -20,7 +20,7 @@ Le origini dati in Adobe Journey Optimizer consentono di connetterti a sistemi c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta le origini dati
 
@@ -30,7 +30,7 @@ Scopri le origini dati, i relativi tipi, i casi d’uso e i gruppi di campi. È 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare un’origine dati
 
@@ -40,7 +40,7 @@ Guida dettagliata sulla configurazione delle origini dati e sulla gestione dei g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Origine dati di Adobe Experience Platform
 
@@ -50,7 +50,7 @@ Scopri come configurare l’origine dati incorporata di Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Configurazione delle origini dati esterne
 

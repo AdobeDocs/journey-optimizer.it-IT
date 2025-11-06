@@ -20,7 +20,7 @@ Il controllo degli accessi in Adobe Journey Optimizer consente agli amministrato
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione al controllo degli accessi
 
@@ -30,7 +30,7 @@ Scopri i concetti e i processi per la gestione delle autorizzazioni utente, dei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire utenti e ruoli
 
@@ -40,7 +40,7 @@ Linee guida dettagliate sull’assegnazione, la modifica e la creazione di ruoli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Ruoli incorporati
 
@@ -50,7 +50,7 @@ Scopri i ruoli predefiniti e le relative autorizzazioni associate per gestire in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Autorizzazioni incorporate
 

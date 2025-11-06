@@ -60,7 +60,7 @@ Scopri come configurare la deduplica e gestire le richieste di decisioni nelle i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare una configurazione dell’esperienza basata su codice
 

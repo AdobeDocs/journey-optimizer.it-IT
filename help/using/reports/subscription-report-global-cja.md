@@ -23,7 +23,7 @@ Per accedere ai tuoi report, fai clic sull&#39;icona **[!UICONTROL Report]** del
 
 ![](assets/cja-sub-access.png)
 
-Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni sull&#39;area di lavoro di Customer Journey Analytics e su come filtrare e analizzare i dati, vedere [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
 
 ## Aggiunte all’elenco delle iscrizioni
 

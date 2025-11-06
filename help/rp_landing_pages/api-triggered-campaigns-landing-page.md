@@ -30,7 +30,7 @@ Scopri come creare, configurare e gestire le campagne attivate da API in Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Definire le proprietà della campagna attivata da API
 

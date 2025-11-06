@@ -20,7 +20,7 @@ La progettazione dei contenuti e-mail in Adobe Journey Optimizer consente di cre
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla progettazione delle e-mail
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla progettazione delle e-mail in Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e ottimizzare il contenuto delle e-mail
 
@@ -40,7 +40,7 @@ Esplora i metodi per progettare i contenuti e-mail, importare HTML, codificare l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Creare contenuti in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Scopri gli strumenti e le best practice per l’utilizzo di componenti, framment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Modificare lo stile: personalizzare la progettazione delle e-mail
 

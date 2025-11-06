@@ -20,7 +20,7 @@ La gestione dei percorsi in Adobe Journey Optimizer consiste nell’offrirti gli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Sfogliare e filtrare i percorsi
 
@@ -30,7 +30,7 @@ Scopri come navigare, filtrare e gestire in modo efficace i percorsi, incluse le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Ingresso del profilo nei percorsi
 
@@ -40,7 +40,7 @@ Scopri in che modo i profili entrano nei percorsi, incluse le regole di reingres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzare identificatori supplementari nei percorsi
 
@@ -50,7 +50,7 @@ Scopri come sfruttare gli identificatori supplementari per una personalizzazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestione del fuso orario
 
@@ -60,7 +60,7 @@ Scopri come configurare fusi orari fissi e definiti dal profilo per garantire la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Ottimizzazione dei tempi di invio
 
@@ -70,7 +70,7 @@ Ottimizza il coinvolgimento per e-mail e messaggi push prevedendo tempi di invio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Termine del percorso
 

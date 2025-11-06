@@ -30,7 +30,7 @@ Scopri come impostare e gestire il processo di approvazione per i percorsi e le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare e gestire i criteri di approvazione
 

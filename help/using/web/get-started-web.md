@@ -75,6 +75,6 @@ Scopri i passaggi dettagliati per la creazione di una campagna web in [questo vi
 * **[Modifica contenuto Web](create-web.md#edit-web-content)** - Eseguire il master del Web Designer per modificare le pagine utilizzando le modalità di modifica visiva o non visiva.
 * **[Gestire le modifiche Web](manage-web-modifications.md)**: scopri come organizzare, applicare e gestire le modifiche nelle esperienze Web.
 * **[Monitoraggio delle esperienze Web](monitor-web-experiences.md)**: tieni traccia e analizza le prestazioni delle campagne Web con rapporti dettagliati.
-* **[Esercitazioni per campagne Web](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Esplora esercitazioni video dettagliate sulle caratteristiche e le best practice dei canali Web.
+* **[Esercitazioni per campagne Web](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - Esplora esercitazioni video dettagliate sulle caratteristiche e le best practice dei canali Web.
 
 

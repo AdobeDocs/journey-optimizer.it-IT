@@ -144,4 +144,4 @@ Scopri come utilizzare in modo efficace il rapporto All-Time (Tutti i tempi) in 
 
 +++
 
-Esplora altri tutorial video su reporting e analisi in [Tutorial sul reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Esplora altri tutorial video su reporting e analisi in [Tutorial sul reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

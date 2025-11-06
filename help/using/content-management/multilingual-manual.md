@@ -85,7 +85,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
    >
    >Questi prerequisiti sono necessari solo per i canali delle schede in-app e di contenuto.
 
-   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 

@@ -40,6 +40,6 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 * **[Configura canale direct mailing](direct-mail-configuration.md)** - Imposta le superfici di direct mailing e le configurazioni di indirizzamento dei file.
 * **[Direct mailing tra percorsi](direct-mail-journeys.md)** - Scopri come utilizzare le azioni di direct mailing all&#39;interno dei percorsi di clienti.
 * **[Verifica e invia direct mailing](test-send-direct-mail.md)** - Scopri come testare, convalidare e pubblicare le consegne di direct mailing.
-* **[Tutorial di direct mailing](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni di direct mailing e sulle best practice.
+* **[Tutorial di direct mailing](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni di direct mailing e sulle best practice.
 
 

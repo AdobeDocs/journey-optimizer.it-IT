@@ -50,7 +50,7 @@ Abilita il tracciamento, inserisci collegamenti e gestisci l’aspetto dei colle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Inserire offerte personalizzate
 
