@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
 # Introduzione all’Assistente IA {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="Esempi di prompt"
+>abstract="Esplora la documentazione di Journey Optimizer riportata di seguito per scoprire come creare prompt efficaci che producano contenuti di marketing on-brand ad alta conversione."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -161,3 +167,12 @@ L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazio
 <p>
 </td>
 </tr></table>
+
+## Risorse aggiuntive
+
+* **[Assistente AI per la posta elettronica](generative-email.md)** - Scopri come utilizzare l&#39;Assistente AI per generare e ottimizzare le varianti di contenuto e-mail.
+* **[Assistente AI per le notifiche push](generative-push.md)** - Scopri come creare contenuti coinvolgenti per le notifiche push con assistenza AI.
+* **[Assistente IA per SMS](generative-sms.md)** - Genera varianti di messaggi SMS efficaci utilizzando la creazione di contenuti basati su IA.
+* **[Assistente AI per esperienze Web](generative-web.md)** - Scopri come creare e ottimizzare contenuti Web con Assistente AI.
+* **[Sperimentazione generativa](generative-experimentation.md)** - Comprendere come combinare i contenuti generati dall&#39;intelligenza artificiale con la sperimentazione.
+* **[Esercitazioni dell&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni e le best practice dell&#39;Assistente AI.
