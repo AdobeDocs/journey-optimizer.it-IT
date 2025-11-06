@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 16%
@@ -73,7 +73,7 @@ Utilizza il pulsante **[!UICONTROL Elimina]** per rimuovere definitivamente una 
 
 >[!CAUTION]
 >
->Impossibile eliminare un elenco di seed utilizzato in una [campagna](../campaigns/review-activate-campaign.md) o [percorso](../building-journeys/publishing-the-journey.md) attiva. È necessario disattivare la campagna/il percorso o modificarlo per utilizzare un’altra configurazione che non dispone dell’elenco di seed selezionato. [Ulteriori informazioni sull&#39;utilizzo di un elenco di seed](#use-seed-list)
+>Impossibile eliminare un elenco di seed utilizzato in una [campagna](../campaigns/review-activate-campaign.md) o [percorso](../building-journeys/publish-journey.md) attiva. È necessario disattivare la campagna/il percorso o modificarlo per utilizzare un’altra configurazione che non dispone dell’elenco di seed selezionato. [Ulteriori informazioni sull&#39;utilizzo di un elenco di seed](#use-seed-list)
 
 È possibile fare clic sul nome di un elenco di seed per modificarlo. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -122,7 +122,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile combinare entrambe le opzioni, ma il numero totale di indirizzi in un elenco di seed non può superare i 300.
 
-1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [&#128279;](#access-seed-lists).
+1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [](#access-seed-lists).
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 
@@ -150,7 +150,7 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Attiva la [campagna](../campaigns/review-activate-campaign.md) o pubblica il [percorso](../building-journeys/publishing-the-journey.md).
+1. Attiva la [campagna](../campaigns/review-activate-campaign.md) o pubblica il [percorso](../building-journeys/publish-journey.md).
 
 Ora, ogni volta che un messaggio e-mail viene inviato ai clienti tramite tale campagna o percorso, anche gli indirizzi e-mail nell’elenco di seed selezionato lo riceveranno nelle stesse condizioni, contemporaneamente e con lo stesso contenuto dei destinatari target.
 

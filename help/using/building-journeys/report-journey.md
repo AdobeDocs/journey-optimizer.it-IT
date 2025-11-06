@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Pubblica il percorso
+title: Pubblicare il percorso
 description: Scopri come creare rapporti sul tuo percorso
 feature: Journeys
 topic: Content Management
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Per ogni attività di ogni percorso in modalità Live o [Dry run mode](journey-d
 >[!MORELIKETHIS]
 >
 >* [Introduzione al reporting](../reports/gs-reports.md)
->* [Pubblica il tuo percorso](publishing-the-journey.md)
+>* [Pubblica il tuo percorso](publish-journey.md)
 >* [Percorso di prova](journey-dry-run.md)
 >* [Configurare e tenere traccia delle metriche di percorso](success-metrics.md)
 >* [Rapporti percorso personalizzati](../reports/sharing-overview.md)

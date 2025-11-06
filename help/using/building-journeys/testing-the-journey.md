@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 7%
@@ -93,7 +93,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    ![](assets/journeyuctest2.png)
 
-1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Una volta completati i test, puoi pubblicare il percorso. Consulta [questa pagina](../building-journeys/publishing-the-journey.md).
+1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Una volta completati i test, puoi pubblicare il percorso. Consulta [questa pagina](../building-journeys/publish-journey.md).
 
 ## Attivare gli eventi {#firing_events}
 

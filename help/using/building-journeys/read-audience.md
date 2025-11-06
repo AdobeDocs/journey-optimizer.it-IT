@@ -10,7 +10,7 @@ level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 13%
@@ -56,7 +56,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
@@ -70,7 +70,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 
 * Limite simultaneo pubblico di lettura per organizzazione: ogni organizzazione può eseguire fino a cinque istanze Read Audience simultaneamente. Sono incluse sia le esecuzioni pianificate che quelle attivate da eventi aziendali, su tutte le sandbox e i percorsi. Questo limite viene applicato per garantire un’allocazione equa ed equilibrata delle risorse in tutte le organizzazioni.
 
@@ -247,7 +247,7 @@ Quando il test è in esecuzione, il pulsante **[!UICONTROL Mostra registri]** co
 
 ![](assets/read-segment-log.png)
 
-Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](publishing-the-journey.md)). Gli utenti appartenenti al pubblico entreranno nel percorso alla data/ora specificata nella sezione **[!UICONTROL Scheduler]** delle proprietà del percorso.
+Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](publish-journey.md)). Gli utenti appartenenti al pubblico entreranno nel percorso alla data/ora specificata nella sezione **[!UICONTROL Scheduler]** delle proprietà del percorso.
 
 >[!NOTE]
 >
@@ -307,4 +307,4 @@ I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **A
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

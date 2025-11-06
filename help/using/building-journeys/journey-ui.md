@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 10%
@@ -49,7 +49,7 @@ La scheda **[!UICONTROL Sfoglia]** mostra l&#39;elenco dei percorsi esistenti. P
 
 ![Dashboard di percorso che evidenzia la scheda Sfoglia](assets/journeys-browse.png)
 
-Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia dell’edizione del percorso, sopra l’area di lavoro. Ulteriori informazioni sulla [gestione versione percorso](publishing-the-journey.md#journey-versions-journey-versions).
+Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia dell’edizione del percorso, sopra l’area di lavoro. Ulteriori informazioni sulla [gestione versione percorso](publish-journey.md#journey-versions-journey-versions).
 
 ### Calendario percorsi {#calendar}
 
@@ -108,7 +108,7 @@ Nell’elenco dei percorsi, utilizza vari filtri per perfezionare l’elenco dei
 
 ![Schermata che mostra un esempio di filtro percorso con due tipi di percorsi selezionati](assets/filter-journeys.png)
 
-Puoi filtrare i percorsi in base al loro [stato](#journey-statuses), [tipo](#journey-types), [versione](publishing-the-journey.md#journey-versions-journey-versions) e assegnare [tag](../start/search-filter-categorize.md#tags) dai **[!UICONTROL filtri di stato e versione]**.
+Puoi filtrare i percorsi in base al loro [stato](#journey-statuses), [tipo](#journey-types), [versione](publish-journey.md#journey-versions-journey-versions) e assegnare [tag](../start/search-filter-categorize.md#tags) dai **[!UICONTROL filtri di stato e versione]**.
 
 Utilizza **[!UICONTROL Creation filters]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
 
@@ -141,7 +141,7 @@ Lo stato del percorso dipende dal suo ciclo di vita. Può essere:
 * **Bozza**: il percorso è nella prima fase. Non è ancora stata pubblicata.
 * **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 * **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
-* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**. [Ulteriori informazioni](../building-journeys/publish-journey.md)
 * **Sospeso**: il percorso live è stato messo in pausa utilizzando il pulsante **Sospendi**. [Ulteriori informazioni](../building-journeys/journey-pause.md)
 * **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso. [Ulteriori informazioni](../building-journeys/end-journey.md#stop-a-journey)
 * **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. [Ulteriori informazioni](../building-journeys/end-journey.md)

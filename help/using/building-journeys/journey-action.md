@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 16%
@@ -26,7 +26,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 [!DNL Journey Optimizer] include una nuova attività **Action** generica che consente di configurare una singola azione di canale incorporata e più attività in entrata.
 
@@ -102,7 +102,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -179,7 +179,7 @@ Per definire più azioni in entrata in un singolo nodo di azione di percorso, se
 
 1. Procedi in modo simile per aggiungere altre azioni. Puoi aggiungere fino a 10 azioni in entrata in un percorso di azioni di gruppo.
 
-Una volta che il percorso è [live](publishing-the-journey.md), tutte le azioni vengono attivate contemporaneamente.
+Una volta che il percorso è [live](publish-journey.md), tutte le azioni vengono attivate contemporaneamente.
 <!--
 ## Next steps {#next}
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 26%
+source-wordcount: '875'
+ht-degree: 24%
 
 ---
 
@@ -52,7 +52,7 @@ Prima di iniziare a creare il percorso, assicurarsi di aver completato i passagg
 
 <!--   ![](assets/segment2.png)  -->
 
-* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1&rbrace;.** [Ulteriori informazioni](../datasource/about-data-sources.md).
+* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -96,13 +96,13 @@ Il designer di percorsi omnicanale, con la sua interfaccia intuitiva basata su s
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 
 ## Pubblicare il percorso {#jo-pub}
 
-Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori. Ulteriori informazioni sulla pubblicazione di percorso in questa [sezione](publishing-the-journey.md).
+Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili per poterlo inserire. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori. Ulteriori informazioni sulla pubblicazione di percorso in questa [sezione](publish-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -111,6 +111,16 @@ Dopo la pubblicazione, puoi monitorare il percorso utilizzando gli strumenti di 
 ![](assets/jo-dynamic_report_journey_12.png)
 
 Ulteriori informazioni sui report di percorso sono disponibili in questa [sezione](../reports/live-report.md).
+
+## Risorse aggiuntive
+
+* **[Panoramica di Progettazione Percorsi](using-the-journey-designer.md)** - Eseguire il master dell&#39;interfaccia dell&#39;area di lavoro del percorso per progettare e orchestrare percorsi di clienti.
+* **[Attività di Percorso](about-journey-activities.md)** - Scopri tutte le attività disponibili, inclusi eventi, azioni e componenti di orchestrazione.
+* **[Verifica dei percorsi](testing-the-journey.md)** - Scopri come eseguire il test dei percorsi utilizzando la modalità di test prima di pubblicare in produzione.
+* **[percorsi di pubblicazione](publish-journey.md)** - Comprendere il processo di pubblicazione del percorso e come gestire i percorsi live.
+* **[Rapporti sui Percorsi](report-journey.md)** - Tieni traccia e analizza le prestazioni del percorso con metriche e informazioni dettagliate.
+* **[Risoluzione dei problemi dei percorsi](troubleshooting.md)** - Trova soluzioni ai problemi comuni del percorso e alle best practice per il debug.
+* **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Esplora esercitazioni video dettagliate sulla creazione di percorsi e sulle best practice.
 
 >[!NOTE]
 >

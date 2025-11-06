@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
-source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -323,7 +323,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -374,7 +374,7 @@ Quando pubblichi un percorso:
 * I messaggi e le azioni iniziano l’esecuzione per i profili che si spostano nel percorso
 * Puoi modificare solo elementi limitati su un percorso pubblicato (per modificarne altri devi creare una nuova versione)
 
-Ulteriori informazioni su [percorsi di pubblicazione](publishing-the-journey.md).
+Ulteriori informazioni su [percorsi di pubblicazione](publish-journey.md).
 
 +++
 
@@ -435,7 +435,7 @@ Ulteriori informazioni su [percorsi finali](end-journey.md).
 * Utilizzalo per situazioni urgenti o errori critici
 * Esempio: ritiro del prodotto che richiede l&#39;interruzione immediata dei messaggi promozionali
 
-Ulteriori informazioni su [percorsi finali](end-journey.md) e [percorsi di pubblicazione](publishing-the-journey.md).
+Ulteriori informazioni su [percorsi finali](end-journey.md) e [percorsi di pubblicazione](publish-journey.md).
 
 +++
 

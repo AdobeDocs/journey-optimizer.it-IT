@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di
 >[!NOTE]
 >
 >Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Per aggiungere un attributo, fai clic sull’icona &quot;+&quot; accanto a esso. Puoi aggiungere al codice tutti gli attributi che desideri.
 
@@ -166,7 +166,7 @@ In fase di esecuzione, viene convalidato il contenuto della campagna (incluso il
 
 Una volta che il contenuto è pronto, rivedi e pubblica la campagna o il percorso:
 
-* [Pubblicare un percorso](../building-journeys/publishing-the-journey.md)
+* [Pubblicare un percorso](../building-journeys/publish-journey.md)
 * [Rivedere attivare una campagna](../campaigns/review-activate-campaign.md)
 * [Pubblicare e attivare un’esperienza basata su codice](../code-based/publish-code-based.md)
 

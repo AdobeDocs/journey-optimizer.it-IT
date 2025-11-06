@@ -11,7 +11,7 @@ keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 L&#39;attività **Ottimizza** consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più **percorsi** in base a criteri specifici, tra cui sperimentazione, targeting e condizioni specifiche, garantendo il massimo coinvolgimento e successo nella creazione di percorsi altamente personalizzati ed efficaci.
 
@@ -53,7 +53,7 @@ Una volta che il percorso è attivo, i profili vengono valutati in base ai crite
 >id="ajo_path_experiment_success_metric"
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per tracciare e valutare il trattamento dalle prestazioni migliori in un esperimento."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 
@@ -115,7 +115,7 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. [Pubblica](publishing-the-journey.md) il tuo percorso.
+1. [Pubblica](publish-journey.md) il tuo percorso.
 
 Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso più performante e fornisce informazioni fruibili.
 
@@ -238,7 +238,7 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
    In questo esempio, progetta un’e-mail con offerte speciali per gli iscritti Gold e un promemoria SMS per gli altri membri.
 
-1. [Pubblica](publishing-the-journey.md) il tuo percorso.
+1. [Pubblica](publish-journey.md) il tuo percorso.
 
 Una volta che il percorso è attivo, il percorso specificato per ciascun segmento viene elaborato in modo che i membri Gold entrino nel percorso con le offerte e-mail, mentre gli altri membri entrino nel percorso con il promemoria SMS.
 

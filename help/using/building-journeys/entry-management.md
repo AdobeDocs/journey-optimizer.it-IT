@@ -9,7 +9,7 @@ level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 3%
@@ -33,7 +33,7 @@ Con Adobe Journey Optimizer è possibile creare i seguenti tipi di percorsi:
 
 * **Qualificazione del pubblico** percorsi: questi percorsi iniziano con un evento di qualificazione del pubblico. Questi percorsi ascoltano le entrate e le uscite dei profili nei tipi di pubblico. In questo caso, il profilo associato entra nel percorso. [Ulteriori informazioni](#entry-unitary)
 
-In tutti i tipi di percorso, un profilo non può essere presente più volte nello stesso percorso, contemporaneamente, per tutte le [versioni attive del percorso](publishing-the-journey.md#journey-versions-journey-versions). Per verificare che una persona appartenga a un percorso, viene utilizzata come chiave l’identità del profilo. La stessa chiave, ad esempio la chiave `CRMID=3224`, non può trovarsi in posizioni diverse nello stesso percorso.
+In tutti i tipi di percorso, un profilo non può essere presente più volte nello stesso percorso, contemporaneamente, per tutte le [versioni attive del percorso](publish-journey.md#journey-versions-journey-versions). Per verificare che una persona appartenga a un percorso, viene utilizzata come chiave l’identità del profilo. La stessa chiave, ad esempio la chiave `CRMID=3224`, non può trovarsi in posizioni diverse nello stesso percorso.
 
 ## Velocità di elaborazione percorso {#journey-processing-rate}
 

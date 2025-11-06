@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '2946'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -62,7 +62,7 @@ ht-degree: 98%
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Prova del percorso](using/building-journeys/journey-dry-run.md)
-      + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
+      + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
       + [Mettere in pausa un percorso](using/building-journeys/journey-pause.md)
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
    + Gestire i percorsi {#manage-journey}
@@ -814,7 +814,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

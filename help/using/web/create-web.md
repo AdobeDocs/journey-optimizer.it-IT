@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 18%
@@ -63,7 +63,7 @@ Per aggiungere un&#39;attività **Web** a un percorso, eseguire la procedura seg
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
-1. Quando la tua esperienza web è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+1. Quando la tua esperienza web è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publish-journey.md)
 
 Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
@@ -206,7 +206,7 @@ Per rendere la tua esperienza web live da un percorso, segui i passaggi indicati
 
    >[!NOTE]
    >
-   >Ulteriori informazioni sulla pubblicazione di percorsi in [questa sezione](../building-journeys/publishing-the-journey.md).
+   >Ulteriori informazioni sulla pubblicazione di percorsi in [questa sezione](../building-journeys/publish-journey.md).
 
 Il percorso Web assume lo stato **[!UICONTROL Live]** ed è ora di sola lettura. Ogni destinatario del percorso può visualizzare le modifiche aggiunte al sito web.
 
@@ -266,4 +266,4 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449989/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

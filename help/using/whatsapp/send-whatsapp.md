@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 3%
@@ -39,4 +39,4 @@ Informazioni dettagliate su come visualizzare in anteprima e testare il contenut
 >
 > Se la campagna è soggetta a un criterio di approvazione, per poter inviare i messaggi di testo dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
-Quando il messaggio WhatsApp è pronto, completa la configurazione del [percorso](../building-journeys/publishing-the-journey.md) o [campagna](../campaigns/review-activate-campaign.md) per inviarlo.
+Quando il messaggio WhatsApp è pronto, completa la configurazione del [percorso](../building-journeys/publish-journey.md) o [campagna](../campaigns/review-activate-campaign.md) per inviarlo.

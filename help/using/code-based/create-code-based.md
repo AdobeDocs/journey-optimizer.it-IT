@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 8%
@@ -55,7 +55,7 @@ Per aggiungere un&#39;attività **esperienza basata su codice** a un percorso, e
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
-1. Quando l&#39;esperienza basata su codice è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+1. Quando l&#39;esperienza basata su codice è pronta, finalizza la configurazione e pubblica il percorso per attivarla. [Ulteriori informazioni](../building-journeys/publish-journey.md)
 
 Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
@@ -145,4 +145,4 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 
 Il video seguente mostra come creare una campagna di esperienza basata su codice, configurarne le proprietà, testarla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449461/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
