@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** caratteristiche
 **Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
-**Descrizione:** proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. Diverse istanze possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di nome e valore utilizzate per distinguere un’opzione di decisione dalle altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
+**Descrizione:** Le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.
+Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’offerta. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
 +++
@@ -179,7 +180,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 
