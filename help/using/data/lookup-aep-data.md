@@ -34,7 +34,7 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 
 * **Nessun PII nei set di dati** - I set di dati abilitati per la ricerca non devono contenere informazioni personali (PII, Personally Identifiable Information).
 
-* 
+* &#x200B;
    * **Rischio di eliminazione** - I set di dati utilizzati nella personalizzazione non sono protetti dall&#39;eliminazione. È necessario tenere traccia dei set di dati utilizzati per assicurarsi che non vengano rimossi.
 
 * **Tipo di schema** - I set di dati devono essere associati a uno schema di tipo **NOT** Profilo o Evento.
