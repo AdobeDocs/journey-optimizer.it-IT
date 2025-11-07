@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '713'
 ht-degree: 5%
 
 ---
@@ -211,6 +211,37 @@ currentActionField.description == "abc"
 )}
 )
 ```
+
+### Utilizzo di risposte alle azioni personalizzate nei canali nativi {#response-in-channels}
+
+Puoi eseguire l’iterazione su array nidificati da una risposta di azione personalizzata nei canali nativi (ad esempio e-mail, push o SMS) utilizzando la sintassi Handlebars. Questa funzione ti consente di personalizzare il contenuto dei messaggi con dati dinamici provenienti da sistemi esterni.
+
+Ad esempio, se l’azione personalizzata restituisce la seguente risposta da un sistema esterno:
+
+```json
+{    
+    "id": "84632848268632",    
+    "responses": [
+        { "productIDs": [1111,2222,3333] },
+        { "productIDs": [4444,5555,6666] },
+        { "productIDs": [7777,8888,9999] }
+    ]
+}
+```
+
+Puoi eseguire l&#39;iterazione sull&#39;array `responses` e sugli array `productIDs` nidificati in un canale nativo (ad esempio in un messaggio e-mail) come segue:
+
+```handlebars
+{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
+
+  {{#each res.productIDs as |productID|}}
+    <li>{{productID}}</li>
+  {{/each}}
+
+{{/each}}
+```
+
+Sostituisci `<yourcustomaction>` con il nome effettivo dell&#39;azione personalizzata come configurato nel percorso.
 
 ## Risorse aggiuntive
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 6%
+source-wordcount: '652'
+ht-degree: 5%
 
 ---
 
@@ -162,6 +162,10 @@ Esegui il rendering di un elenco di prodotti che questo utente ha nel carrello:
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>È inoltre possibile utilizzare l&#39;helper `each` per eseguire iterazioni sulle matrici restituite dalle risposte alle azioni personalizzate. Per un esempio di iterazione su array nidificati da una risposta di azione personalizzata, vedere [Utilizzo di risposte di azione personalizzate nei canali nativi](../../action/action-response.md#response-in-channels).
 
 ## Con{#with}
 
