@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 1%
+source-wordcount: '2153'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ Inoltre, quando viene raggiunto un determinato insieme di condizioni, i messaggi
 
 Nel menu a sinistra, nella sezione **[!UICONTROL Amministrazione]**, fare clic su **[!UICONTROL Avvisi]**. Nella scheda **Sfoglia** sono disponibili diversi avvisi preconfigurati per Journey Optimizer.
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * Avvisi specifici dei percorsi:
 
@@ -39,6 +40,9 @@ Nel menu a sinistra, nella sezione **[!UICONTROL Amministrazione]**, fare clic s
    * l&#39;avviso [Frequenza errori azione personalizzata superata](#alert-custom-action-error-rate) (sostituisce l&#39;avviso di errore azione personalizzata Percorso precedente)
    * la frequenza di eliminazione del profilo [è stata superata](#alert-discard-rate)
    * [Frequenza errori profilo superata](#alert-profile-error-rate)
+   * l&#39;avviso [Percorso pubblicato](#alert-journey-published)
+   * avviso [Percorso completato](#alert-journey-finished)
+   * l&#39;avviso [Limitazione azione personalizzata attivata](#alert-custom-action-capping)
 
 * Avvisi specifici per la configurazione del canale:
 
@@ -71,7 +75,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -81,13 +85,13 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
    ![Iscrizione a un avviso per un percorso specifico](assets/subscribe-journey-alert.png){width=75%}
 
-1. Scegliere gli avvisi. Sono disponibili i seguenti avvisi: [Frequenza eliminazioni profilo superata](#alert-discard-rate), [Frequenza errori azioni personalizzate superata](#alert-custom-action-error-rate) e [Frequenza errori profilo superata](#alert-profile-error-rate).
+1. Scegliere gli avvisi. Sono disponibili i seguenti avvisi: [Frequenza eliminazioni profilo superata](#alert-discard-rate), [Frequenza errori azioni personalizzate superata](#alert-custom-action-error-rate), [Frequenza errori profilo superata](#alert-profile-error-rate), [Percorso pubblicato](#alert-journey-published), [Percorso completato](#alert-journey-finished) e [Limitazione azioni personalizzate attivata](#alert-custom-action-capping).
 
 1. Per annullare l’abbonamento a un avviso, deselezionalo dalla stessa schermata.
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -101,8 +105,6 @@ Di seguito sono elencate tutte le notifiche di percorso disponibili nell’inter
 ### Attivatore Read Audience Non Riuscito {#alert-read-audiences}
 
 Questo avviso ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto. Se l’errore è causato da problemi tecnici, tieni presente che possono comunque verificarsi nuovi tentativi, a seconda del tipo di problema (ad esempio, se la creazione del processo di esportazione non è riuscita, verrà eseguito un nuovo tentativo ogni 10mn per un massimo di 1h).
-
-![](assets/read-audience-alert.png)
 
 Gli avvisi sulle attività **Read Audience** si applicano solo ai percorsi ricorrenti. **Le attività Read Audience** nei percorsi live che hanno una pianificazione per l&#39;esecuzione di **Once** o **As soon as possible** vengono ignorate.
 
@@ -153,6 +155,42 @@ Questo avviso ti avvisa se il rapporto tra profili in errore e profili immessi n
 Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
 
 Per risolvere l’errore del profilo, puoi eseguire una query sui dati negli eventi dei passaggi per capire dove e perché il profilo non è riuscito nel percorso.
+
+### Percorso pubblicato {#alert-journey-published}
+
+Questo avviso avvisa quando un percorso è stato pubblicato da un operatore nell’area di lavoro del percorso.
+
+Si tratta di un avviso informativo che consente di tenere traccia degli eventi del ciclo di vita del percorso all’interno dell’organizzazione. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
+
+### Percorso completato {#alert-journey-finished}
+
+Questo avviso notifica il completamento di un percorso. La definizione di &quot;finito&quot; varia a seconda del tipo di percorso:
+
+| Tipo di percorso | Ricorrente? | Ha una data di fine? | Definizione di &quot;finito&quot; |
+|--------------|------------|---------------|--------------------------|
+| Leggi pubblico | No | n/d | 91 giorni dopo l’inizio dell’esecuzione |
+| Leggi pubblico | Sì | No | 91 giorni dopo l’inizio dell’esecuzione |
+| Leggi pubblico | Sì | Sì | Quando viene raggiunta la data di fine |
+| Percorso attivato da eventi | n/d | Sì | Quando viene raggiunta la data di fine |
+| Percorso attivato da eventi | n/d | No | Quando è chiuso nell’interfaccia o tramite API |
+
+Questo è un avviso informativo che ti aiuta a tenere traccia del completamento del percorso. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
+
+### Limitazione azioni personalizzate attivata {#alert-custom-action-capping}
+
+Questo avviso ti avvisa quando il limite è stato attivato su un’azione personalizzata. Il limite viene utilizzato per limitare il numero di chiamate inviate a un endpoint esterno per evitare di sopraffare l’endpoint.
+
+Fare clic sul nome dell&#39;avviso per verificare i dettagli e la configurazione dell&#39;avviso.
+
+Quando si attiva il limite, significa che è stato raggiunto il numero massimo di chiamate API entro il periodo di tempo definito e che ulteriori chiamate vengono limitate o messe in coda. Ulteriori informazioni sui limiti per le azioni personalizzate in [questa pagina](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices).
+
+Questo avviso viene risolto quando il limite non è più attivo o quando nessun profilo raggiunge l’azione personalizzata durante il periodo di valutazione.
+
+Per risolvere i problemi relativi ai limiti:
+
+* Controlla la configurazione dei limiti nell’azione personalizzata per verificare che i limiti siano appropriati per il tuo caso d’uso.
+* Verifica se il volume di chiamate API è superiore al previsto e prendi in considerazione la possibilità di regolare la progettazione del percorso o le impostazioni di limitazione.
+* Monitora l’endpoint esterno per garantire che possa gestire il carico previsto.
 
 ## Avvisi di configurazione {#configuration-alerts}
 

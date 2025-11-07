@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -28,9 +28,32 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 ## Ultimi aggiornamenti {#latest-updates}
 
-Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione &#x200B;](#latest-rn).
+Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione ](#latest-rn).
 
 ### Nuove funzionalità {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuovi avvisi di percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono ora disponibili tre nuovi avvisi di percorso per aiutarti a monitorare e tenere traccia degli eventi del ciclo di vita del percorso e delle prestazioni delle azioni personalizzate:</p>
+<ul>
+<li><strong>Percorso pubblicato</strong>: ricevi notifiche quando un percorso viene pubblicato da un operatore nell'area di lavoro del percorso.</li>
+<li><strong>Percorso completato</strong>: ricevere avvisi al termine di un percorso, con definizioni specifiche basate sul tipo di percorso (Read Audience o Event-triggered).</li>
+<li><strong>Attivazione del limite delle azioni personalizzato</strong>: ricevere una notifica quando il limite viene attivato su un endpoint di azione personalizzato.</li>
+</ul>
+<p>Questi avvisi possono essere sottoscritti a livello di organizzazione o per percorsi specifici.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md#journey-alerts">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 5 novembre 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
