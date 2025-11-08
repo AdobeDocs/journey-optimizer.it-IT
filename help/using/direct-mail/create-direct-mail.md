@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: e823be2257d49158492af508e23f40e749bc33be
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 19%
@@ -63,7 +63,7 @@ Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
-1. Le campagne possono essere pianificate per una data specifica o impostate per essere ricorrenti a intervalli regolari. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
+1. Le campagne possono essere pianificate per una data specifica o impostate per essere ricorrenti a intervalli regolari. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/campaign-schedule.md).
 
 Ora puoi iniziare a configurare il file di estrazione da inviare al provider di direct mailing.
 
