@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -131,7 +131,7 @@ Dall’elenco delle offerte, puoi selezionare l’offerta per visualizzarne le p
 
 ![](../assets/offer_created.png)
 
-Seleziona il pulsante **[!UICONTROL Modifica]** per tornare alla modalità di modifica delle offerte, dove puoi modificare [dettagli](#create-offer), [rappresentazioni](#representations) dell&#39;offerta e [regole e vincoli di idoneità](#eligibility).
+Seleziona il pulsante **[!UICONTROL Modifica]** per tornare alla modalità di modifica delle offerte, dove puoi modificare [dettagli](#create-offer), [rappresentazioni](add-representations.md#representations) dell&#39;offerta e [regole e vincoli di idoneità](add-constraints.md#eligibility).
 
 Seleziona un&#39;offerta approvata e fai clic su **[!UICONTROL Annulla approvazione]** per impostare nuovamente lo stato dell&#39;offerta su **[!UICONTROL Bozza]**.
 
@@ -166,10 +166,10 @@ Dopo aver creato un’offerta, puoi fare clic sul nome nell’elenco.
 
 ![](../assets/offer_click-name.png)
 
-Questo consente di accedere a informazioni dettagliate su quell’offerta. Seleziona la scheda **[!UICONTROL Registro modifiche]** per [monitorare tutte le modifiche](../get-started/user-interface.md#monitoring-changes) apportate all&#39;offerta.
+Questo consente di accedere a informazioni dettagliate su quell’offerta. Seleziona la scheda **[!UICONTROL Registro modifiche]** per [monitorare tutte le modifiche](../get-started/user-interface.md#changes-logs) apportate all&#39;offerta.
 
 ![](../assets/offer_information.png)
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

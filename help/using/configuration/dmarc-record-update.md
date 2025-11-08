@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Come parte delle best practice di settore, Google e Yahoo! richiedono entrambi d
 
 Di conseguenza, Adobe consiglia vivamente di assicurarsi di aver impostato il record DMARC per tutti i sottodomini delegati ad Adobe in [!DNL Journey Optimizer]. Segui i passaggi seguenti che si applicano al tuo caso:
 
-* Se l’invio dei sottodomini è stato [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, esegui una delle opzioni seguenti:
+* Se l’invio dei sottodomini è stato [completamente delegato](delegate-subdomain.md#set-up-subdomain) ad Adobe, esegui una delle opzioni seguenti:
 
    * Configura DMARC nel dominio principale dei sottodomini delegati **nella soluzione di hosting**.
 oppure

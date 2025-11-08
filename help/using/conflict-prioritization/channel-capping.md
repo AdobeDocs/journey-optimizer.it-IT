@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 15%
@@ -94,7 +94,7 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
 1. Ripeti i passaggi precedenti per aggiungere al set di regole tutte le regole necessarie.
 
-1. Quando la regola di limite è pronta per essere applicata ai messaggi, attiva il set di regole e la regola in cui è stata aggiunta. [Scopri come attivare i set di regole](../conflict-prioritization/rule-sets.md#create)
+1. Quando la regola di limite è pronta per essere applicata ai messaggi, attiva il set di regole e la regola in cui è stata aggiunta. [Scopri come attivare i set di regole](../conflict-prioritization/rule-sets.md#Create)
 
 ## Applicare i set di regole a un messaggio {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

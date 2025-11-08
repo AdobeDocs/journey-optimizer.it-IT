@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -87,6 +87,6 @@ Per navigare facilmente nelle pagine di destinazione, puoi utilizzare le cartell
 
 1. Utilizzando il pulsante **[!UICONTROL Altre azioni]**, puoi anche spostare le pagine di destinazione in un&#39;altra cartella esistente.
 
-1. Ora puoi passare alla cartella appena creata. Ogni nuova pagina di destinazione [create](create-lp.md#create-landing-page.md) da qui viene salvata nella cartella corrente.
+1. Ora puoi passare alla cartella appena creata. Ogni nuova pagina di destinazione [create](create-lp.md#create-landing-page) da qui viene salvata nella cartella corrente.
 
    ![](assets/lp-folder-create.png)

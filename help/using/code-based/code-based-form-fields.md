@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -104,7 +104,7 @@ Quando crei un modello di contenuto di esperienza basato su codice, puoi utilizz
 
 1. Fai clic su **[!UICONTROL Aggiungi criterio di decisione]** utilizzando l&#39;icona **[!UICONTROL Mostra criterio di decisione]** nella barra a destra della schermata dell&#39;edizione oppure nell&#39;editor espressioni dalla sezione **[!UICONTROL Criterio di decisione]** nel menu a sinistra.
 
-   Scopri come creare un criterio di decisione in [questa sezione](../experience-decisioning/create-decision.md#add-decision).
+   Scopri come creare un criterio di decisione in [questa sezione](../experience-decisioning/create-decision.md#create-decision).
 
 1. Fare clic sul pulsante **[!UICONTROL Inserisci criterio]**. Viene aggiunto il codice corrispondente al criterio di decisione.
 
@@ -246,4 +246,4 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463999/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2929'
 ht-degree: 96%
@@ -143,7 +143,7 @@ Alle [azioni](../building-journeys/about-journey-activities.md) nei tuoi percors
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. Vengono eseguiti nuovi tentativi per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
 * L’evento **Reazione** incorporato consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
-* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente per tutte le [versioni attive del percorso](../building-journeys/publish-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Se è stato abilitato il reingresso, un profilo può entrare nuovamente in un percorso, ma solo dopo essere uscito completamente dalla precedente istanza del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
+* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente per tutte le [versioni attive del percorso](../building-journeys/publish-journey.md#journey-create-new-version). Se è stato abilitato il reingresso, un profilo può entrare nuovamente in un percorso, ma solo dopo essere uscito completamente dalla precedente istanza del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
 ### Versioni del percorso {#journey-versions-g}
 

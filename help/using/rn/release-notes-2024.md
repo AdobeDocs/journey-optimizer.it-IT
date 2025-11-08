@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '6783'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -308,7 +308,7 @@ Questa versione include i miglioramenti elencati di seguito.
    * 90 giorni per i dati nell’archivio dei profili
    * 13 mesi per i dati nel data lake
 
-  In una fase successiva, questa modifica verrà implementata nelle sandbox della clientela esistente. [Ulteriori informazioni](../data/datasets-ttl.md#ttl)
+  In una fase successiva, questa modifica verrà implementata nelle sandbox della clientela esistente. [Ulteriori informazioni](../data/datasets-ttl.md#ttl-guardrail)
 
 * **Parametri nelle azioni personalizzate**: la data di disponibilità è il 3 ottobre 2024. I parametri NULL e facoltativi sono ora supportati nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ Questa versione include i miglioramenti elencati di seguito.
 **Percorsi**
 
 * Nell’attività **Condizione**, per impostazione predefinita, adesso la **[!UICONTROL Condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
-* Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#activity-errors)
 * Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale dello zoom è ora visibile ed è possibile reimpostare più facilmente il valore dello zoom.
 
 **Canale push**
@@ -1129,7 +1129,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Gestione dei contenuti**
 
-* Ora puoi simulare modelli di contenuto per tutti i canali. [Maggiori informazioni](../content-management/content-templates.md#test-templates)
+* Ora puoi simulare modelli di contenuto per tutti i canali. [Maggiori informazioni](../content-management/content-templates.md#video-templates)
 
 **Personalizzazione**
 
@@ -1242,7 +1242,7 @@ Precedentemente disponibili in versione beta, i seguenti miglioramenti sono ora 
 
 * Ora puoi eseguire il targeting dei **tipi di pubblico creati tramite la composizione del pubblico** e sfruttare gli attributi di arricchimento nei percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
-* Ora puoi eseguire il targeting di **tipi di pubblico caricati da un file CSV** nei percorsi e nelle campagne. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Ora puoi eseguire il targeting di **tipi di pubblico caricati da un file CSV** nei percorsi e nelle campagne. [Ulteriori informazioni](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

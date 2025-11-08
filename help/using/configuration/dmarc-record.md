@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
@@ -102,7 +102,7 @@ Per verificare che il record DMARC sia impostato per tutti i sottodomini delegat
 
 1. Se stai modificando un sottodominio:
 
-   * [Delega completa](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, non sono necessarie ulteriori azioni.
+   * [Delega completa](delegate-subdomain.md#set-up-subdomain) ad Adobe, non sono necessarie ulteriori azioni.
 
    * Configurato con [CNAME](delegate-subdomain.md#cname-subdomain-setup), è necessario copiare il record DNS per DMARC nella soluzione di hosting per generare i record DNS corrispondenti.
 

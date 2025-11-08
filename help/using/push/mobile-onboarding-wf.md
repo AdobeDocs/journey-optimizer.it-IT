@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -24,7 +24,7 @@ Questa funzionalità è accessibile tramite la home page di **[!DNL Adobe Experi
 
 ## Introduzione{#gs-mobile-wf}
 
-Questo nuovo flusso di lavoro automatizza la configurazione della raccolta dati riducendo il numero totale di clic e accelerando la configurazione mobile per Journey Optimizer. Questo flusso di lavoro di avvio rapido consente di eseguire quattro semplici passaggi per [configurare](##setup-mobile-wf), [implementare](#implement-mobile-wf), [convalidare](#valid-mobile-wf) e [rivedere](#review-mobile-wf) la configurazione mobile.
+Questo nuovo flusso di lavoro automatizza la configurazione della raccolta dati riducendo il numero totale di clic e accelerando la configurazione mobile per Journey Optimizer. Questo flusso di lavoro di avvio rapido consente di eseguire quattro semplici passaggi per [configurare](#gs-mobile-wf), [implementare](#implement-mobile-wf), [convalidare](#valid-mobile-wf) e [rivedere](#review-mobile-wf) la configurazione mobile.
 
 Per accedere al nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di dispositivi mobili, passa a **[!DNL Data Collection]** dal commutatore della soluzione. Selezionare quindi la scheda **[!DNL Start Collecting Mobile Data]** nella home page.
 
@@ -34,7 +34,7 @@ Di seguito sono riportate alcune funzioni aggiuntive:
 
 * Semplice workflow in quattro fasi e interfaccia utente.
 * Fornisce una configurazione di base per iniziare a raccogliere i dati dell&#39;evento mobile tramite [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in pochi minuti.
-* Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
+* Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea e configura automaticamente tutte le risorse di Data Collection e Journey Optimizer necessarie.
 * Nelle guide del prodotto e nelle descrizioni.
 * Fornisce una transizione naturale per un&#39;implementazione più avanzata, se necessario.
@@ -75,5 +75,5 @@ La configurazione automatica è completata. Ora puoi visitare la proprietà mobi
 * [Introduzione alle notifiche push](../../rp_landing_pages/push-landing-page.md)
 * [Flusso di dati e componenti delle notifiche push](push-gs.md)
 * [Configurare il canale push](push-configuration.md)
-* [Rapporto notifiche push](../reports/journey-global-report-cja-push.md#push-global)
+* [Rapporto notifiche push](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [Creare una notifica push](create-push.md)

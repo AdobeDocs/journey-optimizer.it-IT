@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 15%
@@ -97,7 +97,7 @@ Per una migliore leggibilità, nascondi questi parametri utilizzando il pulsante
 
 ![Nascondi l&#39;icona dei campi di sola lettura nelle proprietà dell&#39;attività del percorso](assets/journey-hide-read-only-fields.png)
 
-In alcuni contesti particolari, è possibile ignorare i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
+In alcuni contesti particolari, è possibile ignorare i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![Abilita l&#39;opzione di sostituzione del parametro nelle proprietà dell&#39;attività E-mail](assets/journey-enable-parameter-override.png)
 

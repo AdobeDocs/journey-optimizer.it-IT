@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 2%
@@ -64,8 +64,8 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 1. Dalla scheda **[!UICONTROL Impostazioni]** puoi effettuare le seguenti operazioni:
 
    * Scegli i dispositivi su cui vuoi visualizzare il frammento.
-   * Apri il frammento in una nuova scheda per modificarlo, se necessario. [Ulteriori informazioni](../content-management/fragments.md#edit-fragments)
-   * Esplora i riferimenti. [Ulteriori informazioni](../content-management/fragments.md#explore-references)
+   * Apri il frammento in una nuova scheda per modificarlo, se necessario. [Ulteriori informazioni](../content-management/fragments.md#fragments)
+   * Esplora i riferimenti. [Ulteriori informazioni](../content-management/fragments.md#visual-expression)
 
 1. Puoi personalizzare ulteriormente il frammento utilizzando la scheda **[!UICONTROL Stili]**.
 

@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 7%
@@ -397,7 +397,7 @@ Dopo aver creato una decisione, puoi fare clic sul nome nell’elenco.
 
 ![](../assets/decision_click-name.png)
 
-Questo consente di accedere a informazioni dettagliate per tale decisione. Selezionare la scheda **[!UICONTROL Registro modifiche]** per [monitorare tutte le modifiche](../get-started/user-interface.md#changes-log) apportate alla decisione.
+Questo consente di accedere a informazioni dettagliate per tale decisione. Selezionare la scheda **[!UICONTROL Registro modifiche]** per [monitorare tutte le modifiche](../get-started/user-interface.md#changes-logs) apportate alla decisione.
 
 ![](../assets/decision_information.png)
 
@@ -405,6 +405,6 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

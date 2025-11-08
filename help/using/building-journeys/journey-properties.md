@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 15%
@@ -307,7 +307,7 @@ Ad esempio, puoi [sospendere un percorso](journey-pause.md), aggiungere una cond
 
 Questa funzione si affianca alla funzionalità Pausa/Riprendi, che consente di gestire i percorsi in modo più sicuro e flessibile. Riduce al minimo gli interventi manuali, riduce i rischi di invio di comunicazioni irrilevanti o non conformi e mantiene la logica di percorso allineata ai requisiti aziendali correnti.
 
-Consulta questa sezione per scoprire come [utilizzare i criteri di uscita degli attributi di profilo nei percorsi in pausa](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+Consulta questa sezione per scoprire come [utilizzare i criteri di uscita degli attributi di profilo nei percorsi in pausa](journey-pause.md#journey-pause-sample).
 
 ### Guardrail e limitazioni {#exit-criteria-guardrails}
 

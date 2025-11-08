@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -39,7 +39,7 @@ Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori i
 
 ## Riduci la percentuale di reclami {#reduce-complaint-rate}
 
-Gli ISP di solito dispongono di un mezzo importante per segnalare un messaggio ricevuto come spam. In questo modo è possibile individuare fonti inaffidabili. Rispettando rapidamente le richieste di rinuncia e dimostrando quindi di essere un mittente affidabile, puoi ridurre la percentuale di reclami. [Ulteriori informazioni sulla gestione delle rinunce](../privacy/opt-out.md#opt-out-management)
+Gli ISP di solito dispongono di un mezzo importante per segnalare un messaggio ricevuto come spam. In questo modo è possibile individuare fonti inaffidabili. Rispettando rapidamente le richieste di rinuncia e dimostrando quindi di essere un mittente affidabile, puoi ridurre la percentuale di reclami. [Ulteriori informazioni sulla gestione delle rinunce](../privacy/opt-out.md#opt-out-decision-management)
 
 Come regola generale, non cercare di intralciare i destinatari che desiderano rinunciare richiedendo loro di compilare campi come il loro indirizzo e-mail o nome, ad esempio. La pagina di destinazione per l’annullamento dell’abbonamento deve avere un solo pulsante di convalida.
 

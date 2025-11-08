@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -91,7 +91,7 @@ Per la quota di 5.000 TPS vengono conteggiati i seguenti tipi di eventi:
 
 * **Eventi di Analytics**: se l&#39;integrazione [con Adobe Analytics per attivare i percorsi](about-analytics.md) è stata abilitata, vengono inclusi anche questi eventi.
 
-* **Riprendi eventi**: evento tecnico attivato quando un profilo riprende da un percorso in pausa. Ulteriori informazioni sulla ripresa di [percorsi in pausa](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+* **Riprendi eventi**: evento tecnico attivato quando un profilo riprende da un percorso in pausa. Ulteriori informazioni sulla ripresa di [percorsi in pausa](../building-journeys/journey-pause.md#journey-resume-steps).
 
 * **Eventi di completamento nodo di attesa**: quando un profilo esce da un nodo di attesa, viene generato un evento tecnico per riprendere il percorso.
 
@@ -122,8 +122,8 @@ Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non pu�
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

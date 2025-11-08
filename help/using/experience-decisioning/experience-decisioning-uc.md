@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 4%
@@ -124,7 +124,7 @@ Dopo aver configurato le due strategie di selezione, crea una campagna di esperi
 
 1. Salva le modifiche e fai clic su **[!UICONTROL Crea]**. La nuova decisione viene aggiunta in **[!UICONTROL Criteri di decisione]**.
 
-1. Fare clic sul pulsante **[!UICONTROL Inserisci criterio]**. Viene aggiunto il codice corrispondente al criterio di decisione. Quindi aggiungi al codice tutti gli attributi che desideri, inclusi quelli del profilo. [Ulteriori informazioni](create-decision.md#use-decision-policy)
+1. Fare clic sul pulsante **[!UICONTROL Inserisci criterio]**. Viene aggiunto il codice corrispondente al criterio di decisione. Quindi aggiungi al codice tutti gli attributi che desideri, inclusi quelli del profilo. [Ulteriori informazioni](create-decision.md#create-decision)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 

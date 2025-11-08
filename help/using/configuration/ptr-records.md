@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 9%
@@ -64,13 +64,13 @@ Quando crei altri sottodomini, devi modificare uno o più record PTR e assegnare
 
 ### Sottodomini completamente delegati {#fully-delegated-subdomains}
 
-Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, effettua le seguenti operazioni.
+Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#set-up-subdomain) ad Adobe, effettua le seguenti operazioni.
 
 1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Seleziona dall&#39;elenco un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe.
+1. Seleziona dall&#39;elenco un sottodominio [completamente delegato](delegate-subdomain.md#set-up-subdomain) ad Adobe.
 
    ![](assets/ptr-record-subdomain.png)
 

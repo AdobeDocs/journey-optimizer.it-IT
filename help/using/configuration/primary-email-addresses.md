@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 20%
@@ -83,7 +83,7 @@ L’override di questo valore può essere utile, ad esempio, per:
 * Verifica la consegna. Puoi aggiungere il tuo indirizzo e-mail o numero di telefono: dopo aver pubblicato il percorso, ti viene inviato il messaggio e-mail, SMS o WhatsApp.
 * Invia un messaggio agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
 
-Quando si aggiunge un&#39;azione **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale o il numero di telefono viene visualizzato nei parametri avanzati del percorso.
+Quando si aggiunge un&#39;azione **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [percorso](../email/create-email.md#create-email), l&#39;indirizzo e-mail principale o il numero di telefono viene visualizzato nei parametri avanzati del percorso.
 
 Sostituisci questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 8%
@@ -123,9 +123,9 @@ Per modificare il contenuto dell’esperienza basata su codice, segui i passaggi
 
 1. Se necessario, puoi aggiungere frammenti di espressione HTML o JSON. [Scopri come](../personalization/use-expression-fragments.md)
 
-   Puoi anche salvare parte del contenuto del codice come frammento. [Scopri come](../content-management/fragments.md#save-as-expression-fragment)
+   Puoi anche salvare parte del contenuto del codice come frammento. [Scopri come](../content-management/fragments.md#visual-expression)
 
-1. Con esperienze basate su codice, puoi utilizzare la funzione Decisioning. Seleziona l&#39;icona **[!UICONTROL Criterio decisione]** dalla barra a sinistra e fai clic su **[!UICONTROL Aggiungi criterio decisione]**. [Ulteriori informazioni](../experience-decisioning/create-decision.md#add-decision)
+1. Con esperienze basate su codice, puoi utilizzare la funzione Decisioning. Seleziona l&#39;icona **[!UICONTROL Criterio decisione]** dalla barra a sinistra e fai clic su **[!UICONTROL Aggiungi criterio decisione]**. [Ulteriori informazioni](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -135,7 +135,7 @@ Per modificare il contenuto dell’esperienza basata su codice, segui i passaggi
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   I passaggi dettagliati per creare un criterio di decisione sono descritti in [questa sezione](../experience-decisioning/create-decision.md#add-decision).
+   I passaggi dettagliati per creare un criterio di decisione sono descritti in [questa sezione](../experience-decisioning/create-decision.md#create-decision).
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
 
@@ -145,4 +145,4 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 
 Il video seguente mostra come creare una campagna di esperienza basata su codice, configurarne le proprietà, testarla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449461/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

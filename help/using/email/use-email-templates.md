@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: e-mail, modelli, progettazione
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 42%
@@ -33,9 +33,9 @@ Puoi scegliere tra:
 
 * **Modelli salvati**. Puoi anche utilizzare un modello personalizzato che:
 
-   * Creato da zero utilizzando il menu **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#create-template-from-scratch)
+   * Creato da zero utilizzando il menu **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#content-templates)
 
-   * Salvato da un&#39;e-mail in un percorso o in una campagna utilizzando l&#39;opzione **[!UICONTROL Salva come modello di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#save-as-template)
+   * Salvato da un&#39;e-mail in un percorso o in una campagna utilizzando l&#39;opzione **[!UICONTROL Salva come modello di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#video-templates)
 
 Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui questi passaggi.
 
@@ -47,7 +47,7 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Viene visualizzato l&#39;elenco di tutti i [modelli di contenuto](../content-management/content-templates.md#create-content-templates) creati nella sandbox corrente. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
+1. Viene visualizzato l&#39;elenco di tutti i [modelli di contenuto](../content-management/content-templates.md#content-templates) creati nella sandbox corrente. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

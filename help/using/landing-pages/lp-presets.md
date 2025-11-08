@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, configurazione, ambiente, sottodominio, predefiniti
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## Introduzione ai predefiniti per pagine di destinazione {#gs-lp-presets}
 
-Quando [crei una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per poterla creare e sfruttarlo tramite **[!DNL Journey Optimizer]**. Il predefinito include il sottodominio da utilizzare per le pagine di destinazione basate su questo predefinito.
+Quando [crei una pagina di destinazione](../landing-pages/create-lp.md#create-lp), devi selezionare un predefinito per la pagina di destinazione per poterla creare e sfruttarlo tramite **[!DNL Journey Optimizer]**. Il predefinito include il sottodominio da utilizzare per le pagine di destinazione basate su questo predefinito.
 
 Prima di creare un predefinito, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come creare un sottodominio della pagina di destinazione](lp-subdomains.md).
 
@@ -93,4 +93,4 @@ Ora puoi [creare pagine di destinazione](../landing-pages/create-lp.md) in [!DNL
 **Argomenti correlati**:
 
 * [Introduzione alle pagine di destinazione](../landing-pages/get-started-lp.md)
-* [Creare una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp)
+* [Creare una pagina di destinazione](../landing-pages/create-lp.md#create-lp)

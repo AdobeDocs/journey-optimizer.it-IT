@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 2%
@@ -62,7 +62,7 @@ Per esportare un modello di Adobe Experience Manager in Adobe Journey Optimizer,
 
    ![](assets/aem-outbound-menu.png)
 
-1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=it#creating-a-new-page)
+1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Incorporando la sintassi di personalizzazione di Journey Optimizer nel modello, puoi migliorarne le funzionalità di personalizzazione. [Ulteriori informazioni](../personalization/personalization-syntax.md)
 
@@ -100,7 +100,7 @@ Una volta che il modello Experience Manager è disponibile in Journey Optimizer 
    >
    > Se desideri modificare e personalizzare il modello, potrai utilizzare solo la modalità di compatibilità.
 
-1. Quando il modello di contenuto è pronto, [verificalo e convalidalo](../content-management/content-templates.md#test-template).
+1. Quando il modello di contenuto è pronto, [verificalo e convalidalo](../content-management/content-templates.md#content-templates).
 
 1. Una volta definiti i contenuti, puoi utilizzarli durante la creazione di un nuovo messaggio e-mail sfogliando la raccolta **[!UICONTROL Modelli salvati]**. Quindi, selezionare **[!UICONTROL Usa questo modello]**.
 

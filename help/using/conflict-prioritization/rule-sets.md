@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 28%
@@ -151,7 +151,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
    Informazioni dettagliate su come applicare il set di regole sono disponibili in queste sezioni:
 
    * [Applicare un set di regole a un percorso](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Applicare regole di limitazione alle azioni di percorso e campagna](../conflict-prioritization/channel-capping.md#apply)
+   * [Applicare regole di limitazione alle azioni di percorso e campagna](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [Applicare regole di orario non interattivo a percorso e campagna](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Accedere e gestire i set di regole {#access-rule-sets}
@@ -180,4 +180,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

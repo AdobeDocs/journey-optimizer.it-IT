@@ -10,7 +10,7 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -30,7 +30,7 @@ I passaggi per pubblicare un percorso sono descritti di seguito:
 1. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori.
 
    * Scopri come verificare il percorso in [questa pagina](testing-the-journey.md).
-   * Scopri come risolvere gli errori di percorso in [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+   * Scopri come risolvere gli errori di percorso in [questa sezione](../building-journeys/troubleshooting.md#activity-errors).
 
 1. Per pubblicare il percorso, fai clic sull&#39;opzione **[!UICONTROL Pubblica]**, che si trova nel menu a discesa in alto a destra.
 
@@ -40,7 +40,7 @@ I passaggi per pubblicare un percorso sono descritti di seguito:
 
    ![](assets/journeyuc1_18.png)
 
-Il percorso pubblicato è in modalità **sola lettura**. In modalità di sola lettura è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso. Se devi apportare ulteriori modifiche a un percorso pubblicato, crea [una nuova versione](journey-ui.md#journey-versions) del percorso.
+Il percorso pubblicato è in modalità **sola lettura**. In modalità di sola lettura è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso. Se devi apportare ulteriori modifiche a un percorso pubblicato, crea [una nuova versione](journey-ui.md#journey-filter) del percorso.
 
 Quando si arresta un percorso, questo viene interrotto in modo permanente. Tutti gli individui che attraversano il percorso vengono bloccati in modo permanente e il percorso smette di consentire nuovi ingressi. Per eseguire nuovamente il percorso, duplicarlo e pubblicare il nuovo percorso.
 
@@ -81,11 +81,11 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 >[!NOTE]
 >
->Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni sono disponibili in [questa pagina](../start/guardrails.md#journey-versions-journey-versions-g).
+>Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni sono disponibili in [questa pagina](../start/guardrails.md#journey-versions-g).
 
 
 ## Video dimostrativo {#video}
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

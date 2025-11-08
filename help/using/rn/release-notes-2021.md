@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +86,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 * **Editor espressioni** - In qualità di utente avanzato, ora puoi utilizzare le funzioni per lavorare con le mappe. Questa funzionalità può essere utilizzata con gli elenchi degli abbonamenti. Ad esempio, da un pubblico, ora puoi ottenere un indirizzo e-mail da un elenco di iscrizioni. [Per ulteriori informazioni, consulta questa pagina](../building-journeys/message-to-subscribers-uc.md)
 
-* **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../reports/sharing-field-list.md#serviceevents) sono stati aggiunti in relazione ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento del passaggio sono ora organizzati in diverse categorie. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nella categoria [stepEvents](../reports/sharing-legacy-fields.md).
+* **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../reports/sharing-field-list.md#servicevents-field) sono stati aggiunti in relazione ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento del passaggio sono ora organizzati in diverse categorie. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nella categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Accessibilità** - I miglioramenti all’accessibilità sono stati implementati nei percorsi.
 * **Raccolte** - Sono ora supportati gli array di oggetti contenenti oggetti secondari. [Ulteriori informazioni](../building-journeys/collections.md)
 * **Elenchi** - Sono state migliorate le schermate degli elenchi per percorsi, eventi, azioni, origini dati.
@@ -277,7 +277,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 **Progettazione dei contenuti**
 
 * **Sfondo** - Le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **Personalizzazione**
 
@@ -351,7 +351,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 **Anteprima e test**
 
-* L’identità e lo spazio dei nomi ora sono visibili nella schermata **[!UICONTROL Anteprima]**. [Ulteriori informazioni](../content-management/preview-test.md#preview-your-messages)
+* L’identità e lo spazio dei nomi ora sono visibili nella schermata **[!UICONTROL Anteprima]**. [Ulteriori informazioni](../content-management/preview-test.md#preview-test)
 * Il numero di e-mail di prova per le bozze è ora limitato a 10.
 * I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../content-management/preview-test.md#send-proofs)
 

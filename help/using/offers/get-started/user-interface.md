@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 33%
@@ -41,7 +41,7 @@ Utilizza il menu **[!UICONTROL Componenti]** per creare e gestire i componenti n
 
 >[!NOTE]
 >
->In caso di problemi durante l’accesso a Gestione decisioni o ad alcune sue funzioni, rivolgiti a un utente amministratore per verificare di disporre dei diritti necessari. Vedere [Concedere l&#39;accesso alla gestione delle decisioni](starting-offer-decisioning.md#granting-access-to-decision-management).
+>In caso di problemi durante l’accesso a Gestione decisioni o ad alcune sue funzioni, rivolgiti a un utente amministratore per verificare di disporre dei diritti necessari. Vedere [Concedere l&#39;accesso alla gestione delle decisioni](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 ## Panoramica {#overview}
 
