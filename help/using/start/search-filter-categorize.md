@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -62,7 +62,7 @@ L’aggiunta di tag significativi ai tipi di pubblico in Journey Optimizer conse
 
 Il campo **[!UICONTROL Tag]** consente di definire i tag per l’oggetto. I tag sono disponibili per i seguenti oggetti:
 
-* [Campagne](../campaigns/create-campaign.md#create)
+* [Campagne](../campaigns/create-campaign.md)
 * [Elementi decisionali](../experience-decisioning/items.md)
 * [Frammenti](../content-management/fragments.md)
 * [Percorsi](../building-journeys/journey-properties.md)
