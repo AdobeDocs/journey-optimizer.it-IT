@@ -34,7 +34,7 @@ Di seguito sono riportate alcune funzioni aggiuntive:
 
 * Semplice workflow in quattro fasi e interfaccia utente.
 * Fornisce una configurazione di base per iniziare a raccogliere i dati dell&#39;evento mobile tramite [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in pochi minuti.
-* Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
 * Crea e configura automaticamente tutte le risorse di Data Collection e Journey Optimizer necessarie.
 * Nelle guide del prodotto e nelle descrizioni.
 * Fornisce una transizione naturale per un&#39;implementazione più avanzata, se necessario.
