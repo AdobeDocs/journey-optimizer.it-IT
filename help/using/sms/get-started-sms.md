@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 99%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ I messaggi di testo possono essere creati e inviati in un percorso o in una camp
 
 * In un **percorso**. Crea un percorso, aggiungi un’attività SMS e definisci le impostazioni di base. Quindi, sfoglia il riquadro Azioni SMS a destra per creare il contenuto per il messaggio SMS, MMS o RCS. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-* In una **campagna**. Crea una campagna, seleziona SMS come azione e definisci le impostazioni di base. Quindi, modifica il contenuto del messaggio per definire il messaggio SMS, MMS o RCS da inviare. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
+* In una **campagna**. Crea una campagna, seleziona SMS come azione e definisci le impostazioni di base. Quindi, modifica il contenuto del messaggio per definire il messaggio SMS, MMS o RCS da inviare. Scopri come creare [una campagna di azioni](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ Crea, personalizza e gestisci il contenuto dei messaggi di testo:
 Assicurati che i messaggi di testo siano conformi alle normative e agli standard sulla privacy:
 
 * [Gestione delle rinunce](sms-opt-out.md)
-* [Privacy e consenso](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+* [Privacy e consenso](../privacy/opt-out.md#opt-out-decision-management)
 
 +++
 
@@ -201,7 +201,7 @@ Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percor
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Scopri le funzionalità complete di messaggistica per dispositivi mobili offerte
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3430373?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

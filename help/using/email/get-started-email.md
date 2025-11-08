@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 * In un **percorso**: dopo aver aggiunto un’attività **[!UICONTROL E-mail]** al percorso e definito le impostazioni di base, utilizza il riquadro **[!UICONTROL Azioni: e-mail]** a destra per creare il contenuto del messaggio. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-* In una **campagna**: dopo aver creato una campagna, seleziona l’azione **[!UICONTROL E-mail]** e definisci le impostazioni di base. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
+* In una **campagna**: dopo aver creato una campagna, seleziona l’azione **[!UICONTROL E-mail]** e definisci le impostazioni di base. Scopri come creare [una campagna di azioni](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]

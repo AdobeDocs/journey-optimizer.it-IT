@@ -9,7 +9,7 @@ badge: label="Disponibilità limitata" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 16%
@@ -39,7 +39,7 @@ Per migliorare l&#39;efficienza del marketing e mantenere la coerenza del brand,
 
 >[!INFO]
 >
->Per andare oltre, vedi questa [panoramica](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e una [demo](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html#demo){target="_blank"} di [!DNL Adobe GenStudio for Performance Marketing].
+>Per andare oltre, vedi questa [panoramica](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e una [demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} di [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -56,7 +56,7 @@ Per migliorare l&#39;efficienza del marketing e mantenere la coerenza del brand,
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](../content-management/gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
@@ -82,13 +82,13 @@ Con questa integrazione, entrambi possono collaborare per integrare facilmente i
 
    >[!NOTE]
    >
-   >Scopri come caricare un modello di HTML in [!DNL GenStudio] nella sezione dedicata della [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
+   >Scopri come caricare un modello di HTML in [!DNL GenStudio] nella sezione dedicata della [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. In GenStudio, utilizza questo modello per creare diverse varianti di e-mail con prompt di IA e salvarle.
 
    >[!NOTE]
    >
-   >Scopri come creare esperienze e-mail nella [sezione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicata a GenStudio.
+   >Scopri come creare esperienze e-mail nella [sezione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicata a GenStudio.
 
 ### Sfruttare le esperienze GenStudio in Journey Optimizer {#leverage-genstudio-experiences}
 
@@ -140,4 +140,4 @@ Dopo aver eseguito l&#39;esperimento, tieni traccia delle prestazioni dei tratta
 
 Scopri come esportare un modello e-mail da Journey Optimizer a GenStudio for Performance Marketing, creare e-mail conformi al brand utilizzando il modello in GenStudio e importarle nuovamente in Journey Optimizer con facilità.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456057/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
