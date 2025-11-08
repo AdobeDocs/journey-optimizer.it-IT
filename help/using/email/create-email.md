@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 11%
 
 ---
@@ -49,9 +49,9 @@ Per ulteriori informazioni su come configurare un percorso, consultare [questa p
 
 >[!TAB Aggiungere un messaggio e-mail a una campagna]
 
-1. Crea una nuova campagna pianificata o attivata da API e seleziona **[!UICONTROL Invia e-mail]** come azione.
+1. [Crea una campagna](../campaigns/create-campaign.md) e seleziona **[!UICONTROL Invia e-mail]** come azione.
 
-1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/campaign-schedule.md#action-campaign-schedule).
+1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/campaign-schedule.md).
 
    ![](assets/email_campaign_steps.png)
 
