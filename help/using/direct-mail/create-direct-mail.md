@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 19%
 
 ---
@@ -37,7 +37,7 @@ Per creare messaggi di direct mailing, crea una campagna pianificata e configura
 >
 >Direct Mail supporta la funzionalità di sospensione, ma al momento non supporta i trattamenti.
 
-Per creare una campagna di direct mailing, effettua le seguenti operazioni:
+Per creare una campagna di direct mailing, devi impostare una campagna pianificata, selezionare il pubblico di destinazione e configurare le impostazioni della direct mailing, inclusa la configurazione del messaggio. Segui questi passaggi:
 
 1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 

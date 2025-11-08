@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1059'
 ht-degree: 11%
 
 ---
@@ -51,7 +51,7 @@ Per ulteriori informazioni su come configurare un percorso, consultare [questa p
 
 1. Crea una nuova campagna pianificata o attivata da API e seleziona **[!UICONTROL Invia e-mail]** come azione.
 
-1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/create-campaign.md#schedule).
+1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md) e [pianificazione](../campaigns/campaign-schedule.md#action-campaign-schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -80,13 +80,15 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 >title="Configurare il contenuto dell’e-mail"
 >abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi usa E-mail Designer per creare e personalizzare il corpo dell’e-mail."
 
+Dopo aver aggiunto l’azione e-mail al percorso o alla campagna, è necessario definire il contenuto dell’e-mail, inclusi l’oggetto, le informazioni sul mittente e il corpo dell’e-mail tramite E-mail Designer. Segui questi passaggi:
+
 1. Dalla schermata di configurazione del percorso o della campagna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto dell&#39;e-mail. [Ulteriori informazioni](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
 1. Attiva **[!UICONTROL Abilita decisioning]** se desideri aggiungere criteri di decisione nel messaggio e-mail.
 
-   I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico. [Scopri come aggiungere un criterio di decisione in un messaggio e-mail](../experience-decisioning/create-decision.md#add)
+   I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico. [Scopri come aggiungere un criterio di decisione in un messaggio e-mail](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +134,7 @@ Possono verificarsi due tipi di avvisi:
 
 * **Avvisi** fai riferimento a consigli e best practice, ad esempio:
 
-   * **[!UICONTROL Il collegamento di rinuncia non è presente nel corpo dell&#39;e-mail]**: è consigliabile aggiungere un collegamento di annullamento all&#39;abbonamento nel corpo dell&#39;e-mail. Scopri come configurarlo in [questa sezione](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Il collegamento di rinuncia non è presente nel corpo dell&#39;e-mail]**: è consigliabile aggiungere un collegamento di annullamento all&#39;abbonamento nel corpo dell&#39;e-mail. Scopri come configurarlo in [questa sezione](../privacy/opt-out.md#opt-out-decision-management).
 
      >[!NOTE]
      >
