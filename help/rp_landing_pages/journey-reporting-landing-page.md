@@ -30,7 +30,7 @@ Scopri come analizzare e ottimizzare le prestazioni del percorso utilizzando met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Rapporti sul percorso basati su codice
 

@@ -30,7 +30,7 @@ Scopri le nozioni di base sulle pagine di destinazione, le loro funzionalità e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e pubblicare le pagine di destinazione
 

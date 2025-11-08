@@ -20,7 +20,7 @@ Adobe Journey Optimizer sfrutta la potenza dell’intelligenza artificiale e del
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Assistente IA per la generazione di contenuti
 
@@ -30,7 +30,7 @@ Sfrutta l’intelligenza artificiale generativa per creare e personalizzare cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Ottimizzazione dei tempi di invio
 
@@ -40,7 +40,7 @@ Utilizza l’intelligenza artificiale per prevedere il tempo ottimale per l’in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Modelli IA per decisioning
 
@@ -50,7 +50,7 @@ Crea modelli di ottimizzazione automatica e personalizzata per classificare e of
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Conoscenza del prodotto di AI Assistant
 
@@ -90,7 +90,7 @@ Accelera il processo di sperimentazione dei contenuti con informazioni basate su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Convertitore da immagine a HTML
 

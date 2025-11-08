@@ -20,7 +20,7 @@ La sezione Configurare il canale basato su codice in Adobe Journey Optimizer con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Prerequisiti per l’esperienza basata su codice
 
@@ -30,7 +30,7 @@ Scopri i prerequisiti per utilizzare le esperienze basate su codice, inclusi i r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Superfici di esperienza basate su codice
 
@@ -40,7 +40,7 @@ Scopri le superfici e i relativi identificatori, la composizione e l’utilizzo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Esempi di metodi di implementazione
 
@@ -50,7 +50,7 @@ Ottieni istruzioni dettagliate per l’implementazione di esperienze lato client
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Funzione Decisioni nelle implementazioni di esperienze basate su codice
 

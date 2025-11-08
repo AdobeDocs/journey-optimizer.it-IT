@@ -20,7 +20,7 @@ La gestione delle regole di limitazione dei messaggi e dei percorsi in Adobe Jou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare i set di regole
 
@@ -30,7 +30,7 @@ Scopri come creare, gestire e attivare set di regole per controllare la frequenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Limitazione del percorso e arbitrato
 
@@ -40,7 +40,7 @@ Scopri come impostare i limiti di concorrenza e di ingresso nel percorso, assegn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Quota limite per canale
 

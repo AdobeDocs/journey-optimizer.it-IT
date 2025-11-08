@@ -70,7 +70,7 @@ Progetta, testa e configura contenuti per le campagne di azione su più canali.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
 
 Definire il pubblico della campagna
 

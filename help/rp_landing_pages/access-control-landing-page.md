@@ -60,7 +60,7 @@ Scopri le autorizzazioni disponibili e le relative funzionalità per configurare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Livelli di autorizzazione
 
@@ -70,7 +70,7 @@ Scopri le autorizzazioni di alto e basso livello e come queste consentono un con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Controllo degli accessi basato su attributi
 

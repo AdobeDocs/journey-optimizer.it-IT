@@ -50,7 +50,7 @@ Scopri come configurare azioni, selezionare canali di comunicazione, ottimizzare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Modificare e personalizzare il contenuto di una campagna attivata da API
 

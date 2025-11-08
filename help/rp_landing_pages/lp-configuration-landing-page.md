@@ -30,7 +30,7 @@ Scopri come configurare, gestire e annullare la delega dei sottodomini per l’h
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Definire i predefiniti per la pagina di destinazione
 

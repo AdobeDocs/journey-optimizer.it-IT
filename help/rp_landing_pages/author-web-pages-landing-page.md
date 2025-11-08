@@ -20,7 +20,7 @@ Scopri come creare, personalizzare e ottimizzare le esperienze web con i potenti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Modificare i contenuti con il designer web
 
@@ -30,7 +30,7 @@ Scopri come utilizzare il designer web visivo di Adobe Journey Optimizer per cre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Modificare i contenuti web con l’editor non visivo
 
@@ -40,7 +40,7 @@ Scopri come utilizzare l’editor non visivo per le modifiche web, ad esempio pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestire le modifiche web in Adobe Journey Optimizer
 

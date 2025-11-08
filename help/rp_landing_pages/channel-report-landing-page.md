@@ -20,7 +20,7 @@ Il “Rapporto tutte le ore” in Adobe Journey Optimizer rappresenta il punto d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alla generazione di Rapporti tutte le ore
 
@@ -30,7 +30,7 @@ Scopri come accedere e sfruttare la funzione “Rapporto tutte le ore” di Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Elenco completo delle metriche
 
@@ -40,7 +40,7 @@ Scopri le definizioni dettagliate delle metriche utilizzate nei diversi canali d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare manualmente Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Guida dettagliata alla configurazione manuale dell’integrazione con Customer J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire i rapporti
 
@@ -60,7 +60,7 @@ Scopri come analizzare, personalizzare, esportare e pianificare i rapporti, nonc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Configurare le origini dati per la generazione di rapporti
 
@@ -70,7 +70,7 @@ Imposta origini dati e set di dati per abilitare la sperimentazione e recuperare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Motivi di esclusione
 

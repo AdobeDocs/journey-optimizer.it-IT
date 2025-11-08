@@ -30,7 +30,7 @@ Informazioni sulle API disponibili per la distribuzione di offerte personalizzat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Distribuire offerte tramite l’API Decisioning
 

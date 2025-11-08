@@ -40,7 +40,7 @@ Scopri come creare e configurare le proprietà di una campagna, pianificarne le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Orchestrare le attività di una campagna
 

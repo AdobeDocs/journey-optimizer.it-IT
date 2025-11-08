@@ -52,7 +52,7 @@ Ottieni una panoramica dei ruoli e dei flussi di lavoro necessari per implementa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Panoramica dell’interfaccia utente
 
