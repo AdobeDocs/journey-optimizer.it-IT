@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -103,7 +103,7 @@ L&#39;aggiornamento è attivo immediatamente o in modo asincrono, a seconda che 
 
 >[!NOTE]
 >
->Durante la [creazione di una configurazione del canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP in corso di modifica (**[!UICONTROL Elaborazione]** stato) e non è mai stato associato al sottodominio selezionato per tale configurazione, non è possibile procedere con la creazione della configurazione. [Ulteriori informazioni](channel-surfaces.md#subdomains-and-ip-pools)
+>Durante la [creazione di una configurazione del canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP in corso di modifica (**[!UICONTROL Elaborazione]** stato) e non è mai stato associato al sottodominio selezionato per tale configurazione, non è possibile procedere con la creazione della configurazione. [Ulteriori informazioni](channel-surfaces.md#create-channel-surface)
 
 Per verificare lo stato di aggiornamento del pool IP, fare clic sul pulsante **[!UICONTROL Altre azioni]** e selezionare **[!UICONTROL Aggiornamenti recenti]**.
 

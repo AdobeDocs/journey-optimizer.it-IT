@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, recapito messaggi
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -29,13 +29,13 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
 1. Crea un canale e-mail [configurazione](channel-surfaces.md) per il dominio e gli IP che hai identificato per il tuo piano di riscaldamento.
 
-   Collabora con il tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare. Scopri come selezionarli in una configurazione e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
+   Collabora con il tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare. Scopri come selezionarli in una configurazione e-mail in [questa sezione](../email/email-settings.md#ip-pools).
 
    >[!CAUTION]
    >
-   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1&rbrace;.](ip-warmup-execution.md)
+   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1}.](ip-warmup-execution.md)
 
-1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email-journey-campaign).
+1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -51,13 +51,13 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   La [pianificazione](../campaigns/create-campaign.md#schedule) della campagna sarà guidata dal piano di riscaldamento IP a cui sarà associata, il che significa che la pianificazione non è più definita nella campagna stessa.
+   La [pianificazione](../campaigns/campaign-schedule.md) della campagna sarà guidata dal piano di riscaldamento IP a cui sarà associata, il che significa che la pianificazione non è più definita nella campagna stessa.
 
 1. Completa i passaggi per creare una campagna e-mail, ad esempio definendo le proprietà della campagna, [pubblico](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> e [contenuto](../email/get-started-email-design.md#key-steps).
 
    >[!IMPORTANT]
    >
-   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
@@ -65,7 +65,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!NOTE]
    >
-   >[Le regole business](../conflict-prioritization/rule-sets.md#apply-frequency-rule) non devono essere utilizzate nei piani di riscaldamento dell&#39;IP. L’applicazione di queste regole potrebbe ostacolare il raggiungimento del numero desiderato di profili mirati per le campagne.
+   >[Le regole business](../conflict-prioritization/rule-sets.md#rule-sets) non devono essere utilizzate nei piani di riscaldamento dell&#39;IP. L’applicazione di queste regole potrebbe ostacolare il raggiungimento del numero desiderato di profili mirati per le campagne.
 
    Per una campagna live con il piano di riscaldamento IP attivato, il pulsante **[!UICONTROL Elimina]** è disponibile finché non viene associato a un piano di riscaldamento IP. Una volta utilizzata in un piano, la campagna non può più essere eliminata.
 
@@ -75,7 +75,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
 Una volta pubblicata, la campagna è pronta per essere utilizzata in un piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md)
 
-Una campagna di riscaldamento IP può essere utilizzata solo in un piano di riscaldamento IP. Tuttavia, la stessa campagna può essere utilizzata in una o più fasi dello stesso piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md#define-phases)
+Una campagna di riscaldamento IP può essere utilizzata solo in un piano di riscaldamento IP. Tuttavia, la stessa campagna può essere utilizzata in una o più fasi dello stesso piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >
