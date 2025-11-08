@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
+source-git-commit: bb672c8eb917a29aaebc7134cc833c423c0ecc5c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 15%
+source-wordcount: '247'
+ht-degree: 5%
 
 ---
 
@@ -20,53 +20,54 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 
 ## Richieste di decisioni {#decision-requests}
 
-| Guardrail | Limite |
-| ------- | ------- |
-| Richiesta API di esperienza basata su codice con criteri decisionali utilizzando la segmentazione di Edge | 1500 |
-| Richiesta API di esperienza basata su codice con criterio di decisione che non utilizza la segmentazione di Edge | 5000 |
+|| Guardrail | Limite |
+|| ------- | ------- |
+|| Richiesta API di esperienza basata su codice con criteri decisionali utilizzando la segmentazione di Edge | 1500 |
+|| Richiesta API di esperienza basata su codice con criterio di decisione che non utilizza la segmentazione di Edge | 5000 |
+|| Numero massimo di URI di superficie per richiesta di Edge Decisioning | 30 |
 
 ## Raccolte elementi {#item-collections}
 
-| Guardrail | Limite |
-| ------- | ------- |
-| Raccolte di elementi | 10K |
-| Totale elementi offerta per raccolta articoli | 500 |
+|| Guardrail | Limite |
+|| ------- | ------- |
+|| Raccolte elementi | 10K |
+|| Totale elementi offerta per raccolta articoli | 500 |
 
 ## Criterio di decisione {#decision-policy}
 
-| Guardrail | Limite |
-| ------- | ------- |
-| Numero di strategie di selezione e di elementi manuali per criterio di decisione | 10 |
-| Numero massimo di elementi di offerta restituiti per criterio di decisione | 30 |
+|| Guardrail | Limite |
+|| ------- | ------- |
+|| Numero di strategie di selezione e di elementi manuali per criterio di decisione | 10 |
+|| Numero massimo di elementi di offerta restituiti per criterio di decisione | 30 |
 
 ## Regole di idoneità {#eligibility-rules}
 
-| Guardrail | Limite |
-| ------- | ------- |
-| Regole di decisione totali e formule di classificazione | 10K combinati |
-| Numero massimo di attributi di profilo per regola | 25 |
-| Numero massimo di attributi di dati contestuali per regola | 30 |
-| Dimensione massima della regola Pql | 15K (UTF-8) |
-| Numero massimo di livelli di nidificazione | 30 |
+|| Guardrail | Limite |
+|| ------- | ------- |
+|| Regole di decisione totali e formule di classificazione | 10K combinati |
+|| Numero massimo di attributi di profilo per regola | 25 |
+|| Numero massimo di attributi di dati contestuali per regola | 30 |
+|| Dimensione massima della regola Pql | 15K (UTF-8) |
+|| Numero massimo di livelli di nidificazione | 30 |
 
 ## Formule di classificazione {#ranking-formulas}
 
-| Guardrail | Limite |
-| ------- | ------- |
-| Dimensione massima della formula di classificazione PQL | 8.000 (UTF-8) |
-| Numero massimo di attributi di profilo | 25 |
-| Numero massimo di attributi di dati contestuali | 30 |
-| Numero massimo di livelli di nidificazione | 30 |
+|| Guardrail | Limite |
+|| ------- | ------- |
+|| Dimensione massima della formula di classificazione PQL | 8.000 (UTF-8) |
+|| Numero massimo di attributi di profilo |25 |
+|| Numero massimo di attributi di dati contestuali | 30 |
+|| Numero massimo di livelli di nidificazione | 30 |
 
 ## Altre {#others}
 
-| Guardrail | Limite |
-| ------- | ------- |
-| Numero di attributi personalizzati per schema catalogo offerte | 100 |
-| Elementi offerta totali | 10K |
-| Posizionamenti totali | 1 K |
-| Modello di classificazione IA | 5 |
-| Regole di frequenza: numero massimo di regole di limite per offerta | 10 |
+|| Guardrail | Limite |
+|| ------- | ------- |
+|| Numero di attributi personalizzati per schema catalogo offerte | 100 |
+|| Elementi offerta totali | 10K |
+|| Posizionamenti totali | 1 K |
+|| Modello di classificazione IA | 5 |
+|| Regole di frequenza: numero massimo di regole di limite per offerta | 10 |
 
 ## Configurazioni  {#configurations}
 
