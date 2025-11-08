@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Si supponga, ad esempio, di organizzare un evento il mese prossimo e di voler av
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Pubblica](create-lp.md#publish) la pagina di destinazione.
+1. [Pubblica](create-lp.md#publish-landing-page) la pagina di destinazione.
 
 1. In un [percorso](../building-journeys/journey.md), aggiungi un&#39;attività **E-mail** per indirizzare il traffico alla pagina di destinazione della registrazione.
 
@@ -62,7 +62,7 @@ Si supponga, ad esempio, di organizzare un evento il mese prossimo e di voler av
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [&#x200B; in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
    Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco di iscrizioni.
 
@@ -127,7 +127,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
    >
    >Assicurati di fare riferimento alla pagina secondaria nella sezione **[!UICONTROL Call to action]** della pagina principale del componente **[!UICONTROL Form]**. [Ulteriori informazioni](design-lp.md)
 
-1. Dopo aver configurato e definito il contenuto delle pagine, [pubblica](create-lp.md#publish) la pagina di destinazione.
+1. Dopo aver configurato e definito il contenuto delle pagine, [pubblica](create-lp.md#publish-landing-page) la pagina di destinazione.
 
 1. [Creazione di un messaggio e-mail](../email/get-started-email-design.md) in un percorso.
 
@@ -139,7 +139,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [&#x200B; in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
 1. Pubblica ed esegui il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
@@ -163,7 +163,7 @@ Le informazioni di rinuncia sono memorizzate nel **Set di dati del servizio di c
 
 >[!NOTE]
 >
->Se il metodo di unione per il criterio di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare il **[!UICONTROL Set di dati del servizio di consenso di AJO]** e di assegnargli l&#39;ordine di priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#dataset-precedence-profile){target="_blank"}
+>Se il metodo di unione per il criterio di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare il **[!UICONTROL Set di dati del servizio di consenso di AJO]** e di assegnargli l&#39;ordine di priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Anche se non sono stati aggiunti batch a questo set di dati, questo conterrà comunque le informazioni di consenso/rinuncia.
 
@@ -171,7 +171,7 @@ Le informazioni di rinuncia sono memorizzate nel **Set di dati del servizio di c
 
 **Vedere anche:**
 
-* [Rinuncia con un clic](../email/email-opt-out.md#one-click-opt-out-link)
+* [Rinuncia con un clic](../email/email-opt-out.md#one-click-opt-out)
 * [Collegamento per la rinuncia nell’intestazione dell’e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,11 +182,11 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
 ////////
 

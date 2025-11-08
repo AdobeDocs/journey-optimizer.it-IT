@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -88,7 +88,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    ![](assets/lp_subdomain-processing.png)
 
-   Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Prima di poter utilizzare il sottodominio per l&#39;invio di messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere **fino a 4 ore**.<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->
 
 1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Completato]**. È pronto per essere utilizzato per creare predefiniti per pagine di destinazione.
 
@@ -141,7 +141,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 Se desideri annullare la delega di un sottodominio di una pagina di destinazione, segui i passaggi indicati di seguito.
 
-1. In [!DNL Journey Optimizer], annulla la pubblicazione di tutte le pagine di destinazione associate al sottodominio. [Scopri come](create-lp.md#access-landing-pages)
+1. In [!DNL Journey Optimizer], annulla la pubblicazione di tutte le pagine di destinazione associate al sottodominio. [Scopri come](create-lp.md#create-landing-page)
 
 1. Se il sottodominio della pagina di destinazione punta a un record CNAME, puoi eliminare il record DNS CNAME creato per il sottodominio della pagina di destinazione dalla soluzione di hosting (ma non eliminare l’eventuale sottodominio e-mail originale).
 
