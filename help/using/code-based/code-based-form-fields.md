@@ -246,4 +246,4 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463999/?captions=ita&learn=on&#x26;enablevpops)
