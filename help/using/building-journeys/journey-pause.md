@@ -9,7 +9,7 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 6%
@@ -149,7 +149,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
@@ -158,7 +158,7 @@ Questo limite viene controllato ogni 30 minuti. Ciò significa che potresti temp
 
   Se riprendi i percorsi per riportare il numero di profili bloccati al di sotto del limite, il percorso riprende immediatamente, ma l’aggiornamento del conteggio dei profili può richiedere fino a 30 minuti. Durante tale periodo, il sistema può ancora considerare tali profili come in pausa.
 
-* Per i percorsi che includono [attività in entrata](../channels/gs-channels.md#mobile-app-and-web-experiences) (ad esempio in-app, web, ecc.), la sospensione del percorso non interrompe le comunicazioni già attivate. Se un profilo è qualificato per un’attività in entrata prima della pausa, il messaggio corrispondente verrà comunque consegnato. Per interrompere completamente tutte le comunicazioni in entrata, è necessario arrestare il percorso.
+* Per i percorsi che includono [attività in entrata](../channels/gs-channels.md#inbound-channels) (ad esempio in-app, web, ecc.), la sospensione del percorso non interrompe le comunicazioni già attivate. Se un profilo è qualificato per un’attività in entrata prima della pausa, il messaggio corrispondente verrà comunque consegnato. Per interrompere completamente tutte le comunicazioni in entrata, è necessario arrestare il percorso.
 * I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi
 * I profili che sono entrati nel percorso ma sono stati scartati durante la pausa vengono comunque conteggiati come profili coinvolgibili
 * I percorsi in pausa vengono considerati in tutte le regole aziendali, come se fossero live
@@ -201,7 +201,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 

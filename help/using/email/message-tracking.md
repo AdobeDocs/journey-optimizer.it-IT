@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -73,7 +73,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * Seleziona **[!UICONTROL Consenso/Iscrizione esterno]** per inserire un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
 
-   * Seleziona **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]** per inserire un collegamento che consenta di annullare l&#39;iscrizione alla ricezione di comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce in [questa sezione](email-opt-out.md#opt-out-management).
+   * Seleziona **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]** per inserire un collegamento che consenta di annullare l&#39;iscrizione alla ricezione di comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce in [questa sezione](email-opt-out.md#email-opt-out).
 
    * Seleziona **[!UICONTROL Pagina mirror]** per aggiungere un collegamento alla pagina mirror della posta elettronica. [Ulteriori informazioni](#mirror-page)
 
@@ -93,7 +93,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [configurazione canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
+>I messaggi e-mail di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-decision-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [configurazione canale](email-settings.md#email-type) durante la creazione del messaggio.
 
 Una volta inviato il messaggio, il periodo di conservazione per un collegamento è di **25 mesi**. Dopo questo ritardo, il collegamento non è più disponibile.
 
@@ -204,4 +204,4 @@ Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automatica
 
 >[!NOTE]
 >
->Per verificare l&#39;URL finale, puoi [inviare una bozza](../content-management/preview-test.md#send-proofs) e fare clic sul collegamento nel contenuto dell&#39;e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell&#39;esempio precedente, l&#39;URL finale sarà: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>Per verificare l&#39;URL finale, puoi [inviare una bozza](../content-management/proofs.md) e fare clic sul collegamento nel contenuto dell&#39;e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell&#39;esempio precedente, l&#39;URL finale sarà: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

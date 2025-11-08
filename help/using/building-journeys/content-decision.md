@@ -11,7 +11,7 @@ badge: label="Disponibilità limitata" type="Informative"
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 4%
@@ -60,13 +60,13 @@ Per configurare l&#39;attività **[!UICONTROL Decisione contenuto]**, eseguire l
 
 1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori. Fai clic su **[!UICONTROL Avanti]**.
 
-1. Nella sezione **[!UICONTROL Sequenza strategica]** selezionare gli elementi di decisione e/o le strategie di selezione da presentare con il criterio di decisione. [Ulteriori informazioni](../experience-decisioning/create-decision.md#select)
+1. Nella sezione **[!UICONTROL Sequenza strategica]** selezionare gli elementi di decisione e/o le strategie di selezione da presentare con il criterio di decisione. [Ulteriori informazioni](../experience-decisioning/create-decision.md#create-decision)
 
 1. Disporre l&#39;ordine di valutazione in base alle esigenze.
 
-   Quando si aggiungono più elementi decisionali e/o strategie, questi vengono valutati in ordine sequenziale, indicato da numeri a sinistra di ciascun oggetto o gruppo di oggetti. Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni](../experience-decisioning/create-decision.md#evaluation-order)
+   Quando si aggiungono più elementi decisionali e/o strategie, questi vengono valutati in ordine sequenziale, indicato da numeri a sinistra di ciascun oggetto o gruppo di oggetti. Per modificare la sequenza predefinita, è possibile trascinare e rilasciare gli oggetti e/o i gruppi per riordinarli in base alle esigenze. [Ulteriori informazioni](../experience-decisioning/create-decision.md#create-decision)
 
-1. (facoltativo) aggiungi un’offerta di fallback. [Ulteriori informazioni](../experience-decisioning/create-decision.md#fallback)
+1. (facoltativo) aggiungi un’offerta di fallback. [Ulteriori informazioni](../experience-decisioning/create-decision.md#create-decision)
 
 1. Rivedi e salva il criterio decisionale.
 
@@ -146,7 +146,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -168,7 +168,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publish-journey.md):
+Una volta attivato il percorso [](publish-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

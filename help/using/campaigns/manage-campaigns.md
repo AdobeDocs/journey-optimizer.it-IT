@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 14%
@@ -29,7 +29,7 @@ ht-degree: 14%
 >title="Azione"
 >abstract="In questa sezione sono elencate tutte le azioni utilizzate all’interno della campagna orchestrata."
 
-Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le schede per sfogliare le campagne per tipo: **Campagne Azione**, **Campagne attivate da API** e **Campagne orchestrate**. Ulteriori informazioni sui [tipi di campagne](get-started-with-campaigns.md#get-started-with-campaigns). I tipi disponibili dipendono dal contratto di licenza e dalle autorizzazioni.
+Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le schede per sfogliare le campagne per tipo: **Campagne Azione**, **Campagne attivate da API** e **Campagne orchestrate**. Ulteriori informazioni sui [tipi di campagne](get-started-with-campaigns.md#get-started-campaigns). I tipi disponibili dipendono dal contratto di licenza e dalle autorizzazioni.
 
 >[!BEGINTABS]
 
@@ -66,7 +66,7 @@ Il pulsante ![immagine che mostra il pulsante Altre azioni](assets/do-not-locali
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
 * **[!UICONTROL Visualizza report completo]** / **[!UICONTROL Visualizza report delle ultime 24 ore]** - Accedi ai report per misurare e visualizzare l&#39;impatto e le prestazioni delle campagne. Ulteriori informazioni sui [report campagne](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna. Scopri come [utilizzare i tag nelle campagne](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna. Scopri come [utilizzare i tag nelle campagne](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicato]** - Utilizzare questa opzione per duplicare una campagna, ad esempio per eseguire una campagna orchestrata interrotta. [Ulteriori informazioni](#duplicate-a-campaign)
 * **[!UICONTROL Elimina]** - Utilizzare questa opzione per eliminare una campagna. [Ulteriori informazioni](#delete-a-campaign)
 * **[!UICONTROL Archivia]**: archivia la campagna. Tutte le campagne archiviate vengono eliminate secondo una pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne **[!UICONTROL Bozza]**. Ulteriori informazioni sull&#39;[archivio campagne](#archive-a-campaign).
@@ -200,7 +200,7 @@ Per modificare e creare una nuova versione di una campagna Azione ricorrente, ef
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Quando le modifiche sono pronte, puoi attivare la nuova versione della campagna (vedi [Rivedi e attiva una campagna](create-campaign.md#review-activate)).
+1. Quando le modifiche sono pronte, puoi attivare la nuova versione della campagna (vedi [Rivedi e attiva una campagna](review-activate-campaign.md)).
 
    >[!IMPORTANT]
    >

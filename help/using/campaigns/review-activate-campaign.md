@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
@@ -39,7 +39,7 @@ Una volta configurata la campagna Action, devi esaminarne il parametro e il cont
 
 1. La campagna è attivata. Il suo stato è **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** se hai immesso una data di inizio. Il messaggio configurato nella campagna viene inviato immediatamente o alla data specificata.
 
-   Lo stato **[!UICONTROL Completato]** viene assegnato automaticamente alla campagna 3 giorni dopo la sua attivazione o alla data di fine se ha un&#39;esecuzione ricorrente. [Ulteriori informazioni sugli stati delle campagne](get-started-with-campaigns.md#statuses).
+   Lo stato **[!UICONTROL Completato]** viene assegnato automaticamente alla campagna 3 giorni dopo la sua attivazione o alla data di fine se ha un&#39;esecuzione ricorrente. [Ulteriori informazioni sugli stati delle campagne](manage-campaigns.md#statuses).
 
    Se non è stata specificata alcuna data di fine, la campagna mantiene lo stato **[!UICONTROL Live]**. Per modificarlo, devi interrompere la campagna manualmente. [Scopri come interrompere una campagna](manage-campaigns.md)
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 35%
@@ -40,7 +40,7 @@ A questo scopo, devi innanzitutto creare una campagna attivata da API in Journey
 
 ## Passaggi chiave per la creazione di campagne attivate da API {#steps}
 
-Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [in questa sezione](get-started-with-campaigns.md#permissions). Una volta soddisfatti questi prerequisiti, puoi iniziare a creare la campagna:
+Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [in questa sezione](get-started-with-campaigns.md#prerequisites). Una volta soddisfatti questi prerequisiti, puoi iniziare a creare la campagna:
 
 1. [Definire le proprietà della campagna](api-triggered-campaign-properties.md)
 1. [Configurare l’azione della campagna](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452733?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

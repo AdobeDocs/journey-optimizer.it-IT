@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 
 * **Personalization**:
 
-   * Tutte le personalizzazioni devono essere incluse nel payload API come **dati contestuali**. [Scopri come personalizzare il contenuto utilizzando i dati contestuali](../campaigns/api-triggered-campaign-action.md#contextual)
+   * Tutte le personalizzazioni devono essere incluse nel payload API come **dati contestuali**. [Scopri come personalizzare il contenuto utilizzando i dati contestuali](../campaigns/api-triggered-campaign-content.md#contextual)
    * La personalizzazione basata su profili non è supportata. Se si utilizzano variabili di profilo, si verificheranno errori di convalida.
 
 * **Configurazioni di canale personalizzate** - Le configurazioni di canale che utilizzano [personalizzazione basata su profilo](../email/surface-personalization.md) non possono essere utilizzate con campagne con throughput elevato. È possibile utilizzare solo superfici senza personalizzazione del profilo.
@@ -69,7 +69,7 @@ Utilizza questa tabella per decidere quale tipo di campagna attivata da API è a
 In altre parole:
 
 * Scegli **le campagne API standard attivate** se:
-   * Non hai un contratto per il throughput elevato.
+   * Non si dispone di un contratto per il throughput elevato.
    * Il throughput richiesto è &lt;500 TPS.
    * È necessaria la personalizzazione basata sui profili Adobe.
    * Desideri che i dati della campagna siano uniti ai profili per il targeting futuro.
@@ -77,7 +77,7 @@ In altre parole:
 
 * Scegli **Alta velocità** campagne se:
    * Hai bisogno di un throughput > 500 TPS.
-   * Non è necessaria l’unione di profili.
+   * Non è necessario unire i profili.
    * Puoi trasmettere tutte le personalizzazioni nel payload API.
    * Desideri utilizzare il canale e-mail.
 
