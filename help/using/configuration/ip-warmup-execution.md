@@ -164,7 +164,7 @@ Dopo aver definito le fasi del piano di riscaldamento IP, è necessario configur
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nella [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra accanto al nome del piano e utilizzare l&#39;elenco a discesa **[!UICONTROL Riprova runtime]** per selezionare una durata fino a 240 minuti (4 ore).
+1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nella [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra accanto al nome del piano e utilizzare l&#39;elenco a discesa **[!UICONTROL Riprova runtime]** per selezionare una durata fino a 240 minuti (4 ore).
 
    >[!NOTE]
    >
@@ -222,7 +222,7 @@ Per attivare un&#39;esecuzione, selezionare il pulsante **[!UICONTROL Attiva]**.
 
 Quando si eseguono più piani di riscaldamento IP simultaneamente, tutti rivolti agli stessi domini e pool IP, è fondamentale prevedere le potenziali conseguenze. Ad esempio, se un ISP applica un limite giornaliero di 100 e-mail, l’esecuzione di diversi piani destinati agli stessi domini potrebbe superare questa soglia.
 
-Assicurati di aver pianificato abbastanza tempo per consentire l&#39;esecuzione della [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}.
+Assicurati di aver pianificato abbastanza tempo per consentire l&#39;esecuzione della [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 
