@@ -30,7 +30,7 @@ Per utilizzare i dati contestuali, devi innanzitutto definire i dati che desider
 
 I passaggi per alimentare Decisioning con i dati di Adobe Experience Platform sono i seguenti:
 
-1. Crea uno **schema evento esperienza** in Adobe Experience Platform e il relativo **set di dati** associato. [Scopri come creare schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crea uno **schema evento esperienza** in Adobe Experience Platform e il relativo **set di dati** associato. [Scopri come creare schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Crea un nuovo flusso di dati Adobe Experience Platform:
 
@@ -48,6 +48,6 @@ Una volta salvato lo stream di dati, le informazioni del set di dati selezionato
 
 Per ulteriori informazioni su come lavorare con Adobe Experience Platform, consulta le risorse seguenti:
 
-* [Schemi Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Schemi Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview){target="_blank"}
