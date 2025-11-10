@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 31%
@@ -68,11 +69,11 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
    * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere tutti i metadati o solo i campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su vero.
 
-   Questi parametri possono anche essere impostati direttamente nella richiesta API se si utilizza l&#39;[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=it). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
+   Questi parametri possono anche essere impostati direttamente nella richiesta API se si utilizza l&#39;[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
 
    >[!NOTE]
    >
-   >Se si utilizza l&#39;[API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=it&), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata.
+   >Se si utilizza l&#39;[API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata.
    >
    >Se si utilizza l&#39;[API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), è possibile impostare questi parametri in questa schermata o nella richiesta API. In caso di mancata corrispondenza dei valori dei parametri tra la schermata e la richiesta APi, verranno utilizzati i valori della richiesta.
 
@@ -86,5 +87,5 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
 Scopri come creare posizionamenti nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/341386?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

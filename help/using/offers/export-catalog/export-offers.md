@@ -7,7 +7,8 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 0%
@@ -180,7 +181,7 @@ Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta 
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 

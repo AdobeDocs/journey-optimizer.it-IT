@@ -6,7 +6,8 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 5%
@@ -29,7 +30,7 @@ Prima di configurare una richiesta di processo, assicurati di aver creato:
 
 * **Un set di dati** in Adobe Experience Platform. Questo set di dati verrà utilizzato per memorizzare il risultato della decisione utilizzando lo schema &quot;ODE DecisionEvents&quot;. Ulteriori informazioni sono disponibili nella [documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it).
 
-* **Un pubblico** in Adobe Experience Platform. Il pubblico deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al pubblico nella [documentazione del servizio di segmentazione](https://www.adobe.com/go/segmentation-overview-en_it)
+* **Un pubblico** in Adobe Experience Platform. Il pubblico deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al pubblico nella [documentazione del servizio di segmentazione](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >

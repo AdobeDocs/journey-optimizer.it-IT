@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 8%
@@ -70,8 +71,8 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341371?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
