@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Configurare l’acquisizione di eventi
 description: Scopri come configurare lo schema di offerta per acquisire gli eventi
 badge: label="Legacy" type="Informative"
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 2%
@@ -109,4 +109,4 @@ Per gli eventi personalizzati, allo schema utilizzato nel set di dati deve esser
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Se si utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=it){target="_blank"}, la connessione viene stabilita automaticamente.
+>Se si utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la connessione viene stabilita automaticamente.

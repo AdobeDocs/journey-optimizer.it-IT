@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: Creare un set di dati per raccogliere gli eventi
 description: Scopri come creare un set di dati per raccogliere gli eventi
 badge: label="Legacy" type="Informative"
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 8%
@@ -53,7 +53,7 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
 >[!NOTE]
 >
->Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#understanding-schemas){target="_blank"}.
+>Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 
