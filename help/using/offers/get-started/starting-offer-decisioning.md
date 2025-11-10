@@ -117,12 +117,12 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 Il video seguente fornisce un’introduzione alle funzionalità chiave di gestione delle decisioni, alla sua architettura e ai casi d’uso:
 
->[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340415?captions=ita&quality=12&learn=on)
 
 ### Definire e gestire le offerte {#use-offer-decisioning}
 
 Il video seguente mostra come utilizzare la funzione di gestione delle decisioni per definire e gestire le offerte e sfruttare i dati sui clienti in tempo reale.
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340352?captions=ita&quality=12&learn=on)
 
 

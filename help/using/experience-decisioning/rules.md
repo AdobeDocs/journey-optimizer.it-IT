@@ -137,4 +137,4 @@ Per creare una regola, effettua le seguenti operazioni:
 
 Scopri come creare, duplicare e applicare **regole di targeting** riutilizzabili in Adobe Journey Optimizer per personalizzare in modo efficiente le campagne in base agli attributi del cliente come area geografica, lingua e comportamento, risparmiando tempo e migliorando la precisione del pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476135/?captions=ita&quality=12)
