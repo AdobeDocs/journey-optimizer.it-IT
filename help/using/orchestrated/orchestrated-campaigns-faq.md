@@ -5,9 +5,9 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a166534edc3e9b52cc3f1f905ec310378a18a67a
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1415'
 ht-degree: 4%
 
 ---
@@ -183,7 +183,7 @@ Journey Optimizer Campaign Orchestration può innanzitutto creare query ad hoc s
 
 +++ Le campagne orchestrate supportano il processo decisionale?
 
-Sì.  Il processo decisionale può utilizzare dati relazionali provenienti da campagne orchestrate. Una volta che lo schema basato su modello è stato connesso con gli schemi XDM, i dati XDM possono essere utilizzati nel processo decisionale.
+No, le campagne orchestrate non supportano le funzionalità decisionali.
 
 +++
 
