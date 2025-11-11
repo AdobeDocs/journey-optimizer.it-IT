@@ -64,4 +64,4 @@ I passaggi principali per creare e utilizzare modelli di intelligenza artificial
 
 Scopri come creare un modello di intelligenza artificiale per Offer Decisioning e come applicarlo a una decisione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445652?captions=ita&quality=12)

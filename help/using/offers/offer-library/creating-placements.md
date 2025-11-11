@@ -89,5 +89,5 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
 
 Scopri come creare posizionamenti nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341386?captions=ita&quality=12)
 
