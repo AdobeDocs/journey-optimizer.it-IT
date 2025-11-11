@@ -52,11 +52,11 @@ Invece di passare il contesto in un formato piuttosto libero utilizzando l’API
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Scopri come utilizzare gli schemi nella guida di Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
+   Scopri come utilizzare gli schemi nella guida di Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crea un set di dati (qui &quot;Contesto dell’offerta&quot;) e assicurati che sia abilitato per il profilo.
 
-1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [guida sugli stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} di Adobe Experience Platform
+1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [guida sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"} di Adobe Experience Platform
 
    In questo caso, abbiamo creato un flusso di dati &quot;Contesto offerta&quot;, con lo schema evento &quot;Contenuto offerta&quot; selezionato.
 
