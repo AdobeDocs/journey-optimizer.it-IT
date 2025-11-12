@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -168,7 +168,7 @@ ht-degree: 98%
             + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
             + [Acquisire i dati](using/orchestrated/ingest-data.md)
          + [Creare una dimensione targeting](using/orchestrated/target-dimension.md)
-         + [Impostare una configurazione dei canali](using/orchestrated/channel-config.md)
+         + [Configurare una configurazione del canale](using/orchestrated/channel-config.md)
       + Avviare la prima campagna orchestrata {#launch}
          + [Avviare la prima campagna orchestrata](/help/rp_landing_pages/launch-landing-page.md)
          + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [Configurare il canale LINE in Journey Optimizer](using/line/line-configuration.md)
       + [Creare un messaggio LINE](using/line/create-line.md)
       + [Verificare e inviare i messaggi LINE](using/line/send-line.md)
+   + Attività live {#live-activity}
+      + [Introduzione all’attività live](using/mobile-live/get-started-mobile-live.md)
+      + [Creare un’attività Live](using/mobile-live/create-mobile-live.md)
+      + [Domande frequenti](using/mobile-live/mobile-live-faq.md)
+      + Configurare il canale Scheda contenuto {#configure}
+         + [Configurare l’attività Live in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Configurare l’integrazione di Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestione dei contenuti {#content-management}
    + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalizzazione {#personalization}
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [Rapporto sulla campagna e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapporto sulla sperimentazione della campagna](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapporto sulla campagna in-app](using/reports/campaign-global-report-cja-inapp.md)
+         + [Rapporto campagna attività live](using/reports/campaign-global-report-cja-activity.md)
          + [Rapporto sulle notifiche push della campagna](using/reports/campaign-global-report-cja-push.md)
          + [Rapporto sulla campagna SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapporto sulla campagna web](using/reports/campaign-global-report-cja-web.md)
@@ -814,7 +822,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
