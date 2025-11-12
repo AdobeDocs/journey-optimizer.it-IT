@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 6%
+source-wordcount: '675'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 ## Usa contenuto esistente
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Dimostrazione animata che mostra l&#39;Assistente AI che riutilizza il contenuto della campagna esistente per generare nuove varianti](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Dopo aver configurato la campagna, seleziona **[!UICONTROL Modifica contenuto]**.
 
@@ -41,7 +41,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 ## Perfeziona variante
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Dimostrazione animata dell&#39;ottimizzazione delle varianti di contenuto generato da IA tramite le opzioni Riformula e Riepiloga](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -71,7 +71,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 ## Genera immagine simile
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Dimostrazione animata della generazione di varianti di immagine simili in base a un&#39;immagine generata da IA selezionata](assets/do-not-localize/uc-image-similar.gif)
 
 1. Dopo aver configurato la campagna, seleziona **[!UICONTROL Modifica contenuto]**.
 
@@ -91,7 +91,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 ## Carica un riferimento di stile
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Dimostrazione animata del caricamento di un&#39;immagine di riferimento per guidare lo stile di generazione dell&#39;immagine dell&#39;Assistente di intelligenza artificiale](assets/do-not-localize/uc-image-reference.gif)
 
 1. Dopo aver configurato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -115,7 +115,7 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 ## Generare contenuti nelle lingue supportate{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![Dimostrazione animata dell&#39;Assistente di intelligenza artificiale che genera contenuti in più lingue, tra cui francese, spagnolo e tedesco](assets/do-not-localize/gen-ai-language.gif)
 
 1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 6%
+source-wordcount: '1887'
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
 
 1. Personalizza il layout in base alle esigenze e accedi al menu **[!UICONTROL Assistente AI]**.
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![Finestra di progettazione pagina di destinazione con pannello Assistente AI aperto per la generazione di contenuti a pagina intera](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
@@ -50,7 +50,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare la pagina di destinazione.
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   ![Assistente AI per la pagina di destinazione con campo Prompt e accesso alla libreria Prompt per la generazione di pagine intere](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
@@ -58,7 +58,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
    * **[!UICONTROL Lingue]**: scegli la lingua del contenuto generato.
    * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   ![Pannello impostazioni testo per la pagina di destinazione che mostra le opzioni Strategia di comunicazione, Lingue e Tono](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
@@ -68,7 +68,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![Pannello impostazioni immagine per pagina di destinazione con tipo di contenuto, intensità visiva, colore e tono, illuminazione e composizione](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
@@ -84,7 +84,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![Varianti di pagina di destinazione generate con l&#39;indicatore percentuale del punteggio di allineamento del marchio e controlli di anteprima](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -94,7 +94,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per perfezionare un modello di
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![Perfeziona il menu per la pagina di destinazione che mostra la riformulazione, utilizza un linguaggio più semplice con i menu a discesa Tono e Strategia di comunicazione](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
@@ -114,7 +114,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
 1. Seleziona un **[!UICONTROL componente testo]** per eseguire il targeting solo di un contenuto specifico. e accedere al menu **[!UICONTROL Assistente AI]**.
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![Progettazione pagina di destinazione con il componente Testo selezionato e il pannello Assistente IA per la generazione di testo](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
@@ -122,7 +122,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le pagine di destinazione.
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![Generazione del testo dell&#39;Assistente AI per la pagina di destinazione con il campo Prompt e il pulsante Libreria prompt](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
@@ -131,7 +131,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
    * **[!UICONTROL Tono]**: il tono della pagina di destinazione dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![Impostazioni di testo per la pagina di destinazione con il cursore Strategia di comunicazione, Lingue, Tono e Lunghezza testo](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
@@ -148,7 +148,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![Varianti di testo della pagina di destinazione generate con le opzioni di selezione e la percentuale del punteggio di allineamento del marchio](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -164,7 +164,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![Rifinisci il menu per il testo della pagina di destinazione che mostra Elaborare, Riepilogare, Riformulare, Utilizzare un linguaggio più semplice con il menu a discesa Tono](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
@@ -186,7 +186,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
 1. Dal menu di destra, selezionare **[!UICONTROL Assistente AI]**.
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Finestra di progettazione pagina di destinazione con la risorsa immagine selezionata e pannello Assistente AI aperto per la generazione di immagini](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
 
@@ -194,7 +194,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le pagine di destinazione.
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![Generazione di immagini dell&#39;Assistente AI per la pagina di destinazione con attivazione/disattivazione stile riferimento, campo Prompt e libreria Prompt](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
@@ -205,7 +205,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![Impostazioni immagine per la pagina di destinazione con proporzioni, tipo di contenuto, intensità visiva, colore e tono, illuminazione e composizione](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
@@ -221,7 +221,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Varianti immagine pagina di destinazione generate con la percentuale di punteggio di Allineamento marchio e controlli anteprima](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -232,7 +232,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    * **[!UICONTROL Salva]** per archiviare le risorse per un accesso successivo.
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![Opzioni di ottimizzazione per le immagini della pagina di destinazione che mostrano i pulsanti Genera simile, Modifica in Adobe Express e Salva](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 

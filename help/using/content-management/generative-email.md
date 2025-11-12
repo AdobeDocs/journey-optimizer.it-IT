@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 7%
+source-wordcount: '1978'
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
 1. Personalizza il layout in base alle esigenze e accedi al menu **[!UICONTROL Assistente AI]**.
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![Pannello Assistente IA in E-mail Designer che mostra la selezione del brand e il campo del prompt](assets/full-email-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
@@ -52,7 +52,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![Campo Prompt con il pulsante Prompt Library che visualizza suggerimenti di prompt prescritti](assets/full-email-2.png){zoomable="yes"}
 
 1. Puoi attivare/disattivare le opzioni **[!UICONTROL Oggetto]** e **[!UICONTROL Preintestazione]** per includerle nella generazione della variante.
 
@@ -62,7 +62,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
    * **[!UICONTROL Lingue]**: scegli la lingua del contenuto generato.
    * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![Pannello impostazioni testo con le opzioni Strategia di comunicazione, Lingue e Tono](assets/full-email-4.png){zoomable="yes"}
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
@@ -72,13 +72,13 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![Pannello impostazioni immagine che visualizza le opzioni Tipo di contenuto, Intensità visiva, Colore e tono, Illuminazione e Composizione](assets/full-email-6.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![Sezione risorse marchio con pulsante Carica risorsa marchio ed elenco delle risorse caricate in precedenza](assets/full-email-3.png){zoomable="yes"}
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -88,7 +88,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![Pannello Punteggio Allineamento marchio che mostra il punteggio percentuale con metriche di allineamento dettagliate](assets/full-email-7.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -98,7 +98,7 @@ Nell’esempio seguente, sfrutteremo l’Assistente all’intelligenza artificia
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![Ridefinisci il menu visualizzando Ridefinisci e utilizza opzioni di lingua più semplici con i menu a discesa Tono e Strategia di comunicazione](assets/full-email-5.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
@@ -120,7 +120,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
 1. Seleziona un **[!UICONTROL componente testo]** per eseguire il targeting solo di un contenuto specifico. e accedere al menu **[!UICONTROL Assistente AI]**.
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![Invia un&#39;e-mail a Designer con il componente Testo selezionato e il menu dell&#39;Assistente AI aperto nel pannello destro](assets/text-genai-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
@@ -130,7 +130,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![Pannello Generazione testo Assistente AI con campo Prompt, selettore del marchio e accesso alla libreria dei prompt](assets/text-genai-2.png){zoomable="yes"}
 
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
@@ -139,13 +139,13 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
    * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
    * **Lunghezza testo**: utilizza il cursore per selezionare la lunghezza desiderata del testo.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![Impostazioni di testo espanse che mostrano i controlli del cursore Strategia di comunicazione, Lingue, Tono e Lunghezza testo](assets/text-genai-4.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![Menu a discesa delle risorse marchio con visualizzazione dei pulsanti per le risorse marchio caricate in precedenza](assets/text-genai-3.png){zoomable="yes"}
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -157,7 +157,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![Varianti di testo generate con l&#39;indicatore percentuale del punteggio di allineamento del marchio e le opzioni di anteprima](assets/text-genai-6.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -173,7 +173,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant per migliorare il contenuto de
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![Ridefinisci il menu delle opzioni che mostra Elaborazione, Riepiloga, Riformula e Utilizza pulsanti di lingua più semplici con menu a discesa Tono](assets/text-genai-5.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
@@ -197,7 +197,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
 1. Dal menu di destra, selezionare **[!UICONTROL Assistente AI]**.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![Invia un&#39;e-mail a Designer con la risorsa immagine selezionata e apri il pannello dell&#39;Assistente AI per la generazione dell&#39;immagine](assets/image-genai-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
 
@@ -207,7 +207,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![Pannello generazione immagini Assistente AI con attivazione/disattivazione stile di riferimento, selettore marchio e campo Prompt](assets/image-genai-2.png){zoomable="yes"}
 
 1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
@@ -218,7 +218,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![Pannello impostazioni immagine con i controlli delle proporzioni, del tipo di contenuto, dell&#39;intensità visiva, del colore e del tono, dell&#39;illuminazione e della composizione](assets/image-genai-4.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
@@ -247,7 +247,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
    * **[!UICONTROL Salva]** per archiviare le risorse per un accesso successivo.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![Opzioni di ottimizzazione per le immagini generate che mostrano i pulsanti Genera simile, Modifica in Adobe Express e Salva](assets/image-genai-5.png){zoomable="yes"}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 

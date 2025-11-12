@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 36%
+source-wordcount: '1102'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -74,3 +74,79 @@ Se gli individui si spostano nel modo giusto all’interno del percorso ma non r
 * [!DNL Journey Optimizer] ha inviato correttamente il messaggio. Controlla la segnalazione del percorso per assicurarti che non ci siano errori.
 
 Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test di percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno associata all’azione personalizzata non genera un errore ma non causa l’invio di un messaggio, è necessario eseguire alcune indagini sul lato del sistema esterno.
+
+## Informazioni sulle voci duplicate negli eventi dei passaggi del Percorso {#duplicate-step-events}
+
+### Perché trovo più voci con gli stessi ID istanza, profilo, nodo e richiesta di percorso?
+
+Quando si esegue una query sui dati degli eventi delle fasi del Percorso, è possibile osservare occasionalmente voci di registro duplicate per la stessa esecuzione del percorso. Queste voci condividono valori identici per:
+
+* `profileID` - Identità del profilo
+* `instanceID` - Identificatore dell&#39;istanza del percorso
+* `nodeID` - Nodo percorso specifico
+* `requestID` - Identificatore della richiesta
+
+Tuttavia, queste voci hanno **valori `_id` diversi**, che è l&#39;indicatore chiave che distingue questo scenario dalla duplicazione effettiva dei dati.
+
+### Da cosa deriva questo comportamento?
+
+Ciò si verifica a causa delle operazioni di scalabilità automatica back-end (o &quot;ribilanciamento&quot;) nell’architettura dei microservizi di Adobe Journey Optimizer. Durante i periodi di carico elevato o di ottimizzazione del sistema:
+
+1. Un evento del passaggio di percorso inizia l’elaborazione e viene registrato nel set di dati Eventi del passaggio di Percorso
+2. Un&#39;operazione di ridimensionamento automatico ridistribuisce il carico di lavoro tra le istanze del servizio
+3. Lo stesso evento può essere rielaborato da un&#39;altra istanza del servizio, creando una seconda voce di registro con un `_id` diverso
+
+Si tratta di un comportamento di sistema previsto e **funziona come previsto**.
+
+### Vi è un impatto sull’esecuzione del percorso o sulla consegna dei messaggi?
+
+**No.** L&#39;impatto è limitato solo alla registrazione. Adobe Journey Optimizer dispone di meccanismi di deduplicazione incorporati a livello di esecuzione dei messaggi che garantiscono:
+
+* A ciascun profilo viene inviato un solo messaggio (e-mail, SMS, notifica push, ecc.)
+* Le azioni vengono eseguite una sola volta
+* L&#39;esecuzione del percorso procede correttamente
+
+È possibile verificare questa situazione eseguendo una query su `ajo_message_feedback_event_dataset` o controllando i registri di esecuzione dell&#39;azione. Si noterà che è stato effettivamente inviato un solo messaggio, nonostante le voci di evento del passaggio di percorso duplicate.
+
+### Come posso identificare questi casi nelle mie query?
+
+Durante l’analisi dei dati degli eventi dei passaggi del Percorso:
+
+1. **Controllare il campo `_id`**: i duplicati a livello di sistema effettivi avrebbero lo stesso `_id`. Valori `_id` diversi indicano voci di registro separate dallo scenario di ribilanciamento descritto sopra.
+
+2. **Verifica recapito messaggi**: riferimento incrociato con i dati di feedback del messaggio per confermare che è stato inviato un solo messaggio:
+
+   ```sql
+   SELECT
+     timestamp,
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+   FROM ajo_message_feedback_event_dataset
+   WHERE
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journeyVersionID>'
+     AND TO_JSON(identityMap) like '%<profileID>%'
+   ORDER BY timestamp DESC;
+   ```
+
+3. **Raggruppa per identificatori univoci**: durante il conteggio delle esecuzioni, utilizza `_id` per ottenere conteggi accurati:
+
+   ```sql
+   SELECT
+     COUNT(DISTINCT _id) as unique_executions
+   FROM journey_step_events
+   WHERE
+     _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+     AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
+   ```
+
+### Cosa devo fare se osservo questo?
+
+Si tratta di un comportamento normale del sistema e **non è richiesta alcuna azione**. La registrazione duplicata non indica un problema nella configurazione del percorso o nella consegna del messaggio.
+
+Se stai creando rapporti o analisi basati su eventi dei passaggi del Percorso:
+
+* Usa `_id` come chiave primaria per il conteggio degli eventi univoci
+* Riferimento incrociato con i set di dati di feedback dei messaggi durante l’analisi della consegna dei messaggi
+* Tieni presente che l’analisi dei tempi può mostrare le voci raggruppate in pochi secondi l’una dall’altra
+
+Per ulteriori informazioni sull&#39;esecuzione di query sugli eventi dei passaggi del Percorso, vedere [Esempi di query](../reports/query-examples.md).

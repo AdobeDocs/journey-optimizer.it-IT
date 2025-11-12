@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 12%
+source-wordcount: '629'
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Questa risorsa offre consigli dettagliati per ottimizzare i contenuti, aiutando 
 
 1. Accedere al menu **[!UICONTROL Mostra Assistente AI]**.
 
-   ![](assets/sms-genai-1.png){zoomable="yes"}
+   ![L&#39;editor di messaggi SMS con il pannello Assistente AI aperto mostra il selettore del marchio e il campo Prompt](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -48,7 +48,7 @@ Questa risorsa offre consigli dettagliati per ottimizzare i contenuti, aiutando 
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![](assets/sms-genai-2.png){zoomable="yes"}
+   ![Assistente AI per SMS con selettore marchio, campo Prompt e pulsante di accesso alla libreria di richieste](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
@@ -57,7 +57,7 @@ Questa risorsa offre consigli dettagliati per ottimizzare i contenuti, aiutando 
    * **[!UICONTROL Tono]**: verifica che il testo sia appropriato per il pubblico e lo scopo.
    * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore di intervallo.
 
-   ![](assets/sms-genai-3.png){zoomable="yes"}
+   ![Pannello delle impostazioni di testo per gli SMS che mostrano i controlli del dispositivo di scorrimento Strategia di comunicazione, Lingue, Tono e Lunghezza](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
@@ -73,7 +73,7 @@ Questa risorsa offre consigli dettagliati per ottimizzare i contenuti, aiutando 
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![](assets/sms-genai-5.png){zoomable="yes"}
+   ![Varianti SMS generate con l&#39;indicatore percentuale del punteggio di allineamento del marchio e opzioni di anteprima](assets/sms-genai-5.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione e perfezionare la variante in base alle tue preferenze:
 
@@ -85,7 +85,7 @@ Questa risorsa offre consigli dettagliati per ottimizzare i contenuti, aiutando 
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
-   ![](assets/sms-genai-4.png){zoomable="yes"}
+   ![Affina le opzioni per gli SMS che mostrano la rifrazione, usa un linguaggio più semplice con menu a discesa Tono e Strategia di comunicazione](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
