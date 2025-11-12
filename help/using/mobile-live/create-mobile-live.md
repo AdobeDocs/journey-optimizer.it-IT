@@ -74,45 +74,45 @@ Dopo aver configurato la configurazione mobile e aver implementato il SDK mobile
    La maggior parte dei campi del seguente esempio di payload sono obbligatori, solo `requestId`, `dismissal-date` e `alert` sono facoltativi.
 
        &quot;json
-       {
+       &lbrace;
        &quot;requestId&quot;: &quot;your-request-id&quot;,
        &quot;campaignId&quot;: &quot;your-campaign-id&quot;,
-       &quot;destinatari&quot;: [
-       {
+       &quot;destinatari&quot;: &lbrack;
+       &lbrace;
        &quot;type&quot;: &quot;aep&quot;,
        &quot;userId&quot;: &quot;testemail@gmail.com&quot;,
        &quot;namespace&quot;: &quot;email&quot;,
-       &quot;contesto&quot;: {
-       &quot;requestPayload&quot;: {
-       &quot;aps&quot;: {
+       &quot;contesto&quot;: &lbrace;
+       &quot;requestPayload&quot;: &lbrace;
+       &quot;aps&quot;: &lbrace;
        &quot;contenuto disponibile&quot;: 1,
        &quot;timestamp&quot;: 1756984054,              // ora attuale
        &quot;dismissal-date&quot;: 1756984084,         // facoltativo - rimozione automatica quando event=&quot;end&quot;
        &quot;event&quot;: &quot;update&quot;,                    // inizio | aggiorna | fine
        
        // Campi da FoodDeliveryLiveActivityAttributes
-       &quot;content-state&quot;: {
+       &quot;content-state&quot;: &lbrace;
        &quot;orderStatus&quot;: &quot;Consegnato&quot;
-       },
+       &rbrace;,
        
        &quot;attributes-type&quot;: &quot;FoodDeliveryLiveActivityAttributes&quot;,
-       &quot;attributi&quot;: {
+       &quot;attributi&quot;: &lbrace;
        &quot;RestaurantName&quot;: &quot;Pizza&quot;,
-       &quot;liveActivityData&quot;: {
+       &quot;liveActivityData&quot;: &lbrace;
        &quot;liveActivityID&quot;: &quot;orderId1&quot;       // ID riferimento cliente
-       }
-       },
+       &rbrace;
+       &rbrace;,
        
-       &quot;avviso&quot;: {
+       &quot;avviso&quot;: &lbrace;
        &quot;title&quot;: &quot;Ordine consegnato!&quot;,
        &quot;body&quot;: &quot;La tua pizza è arrivata.&quot;
-       }
-       }
-       }
-       }
-       }
-       ]
-       }
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrack;
+       &rbrace;
        &quot;
    +++
 
