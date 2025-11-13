@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Per eseguire questa operazione:
 ## Aggiungere testo RTF a un frammento personalizzabile {#rich-text}
 
 È possibile aggiungere testo formattato come interruzioni di riga, grassetto, corsivo e così via a un frammento modificabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
-
-➡️ [Scopri come aggiungere e utilizzare testo RTF a un frammento modificabile in questo video](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### Creare un frammento con testo RTF {#add-rich-text}
 
@@ -190,8 +190,10 @@ Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti posso
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## Video dimostrativo {#video}
+<!--
+## How-to video {#video}
 
-Questo video mostra come rendere modificabili i componenti HTML all’interno di un frammento, consentendo aggiornamenti dinamici sia al contenuto che allo stile.
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
