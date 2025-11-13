@@ -195,5 +195,5 @@ Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti posso
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464376/?captions=ita&learn=on&#x26;enablevpops)
 -->
