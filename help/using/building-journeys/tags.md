@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, tag
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 30%
+source-wordcount: '255'
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ In qualità di utente Journey Optimizer, puoi organizzare i percorsi utilizzando
 
 Il campo **Tag**, nelle proprietà del percorso, consente di definire i tag per il percorso. Puoi selezionare un tag esistente o crearne uno nuovo. Inizia a digitare il nome del tag desiderato e selezionalo dall’elenco. Se non è disponibile, fai clic su **Crea** per crearne uno nuovo e aggiungerlo al percorso. Puoi definire tutti i tag necessari.
 
-![](assets/tags1.png)
+![Pannello Tag nelle proprietà del percorso per la categorizzazione e l&#39;organizzazione](assets/tags1.png)
 
 L’elenco dei tag definiti viene visualizzato sotto il campo **Tag**.
 
@@ -41,11 +41,11 @@ L’elenco Percorso presenta una colonna dedicata che consente di visualizzare f
 
 È inoltre disponibile un filtro per visualizzare solo i percorsi con determinati tag.
 
-![](assets/tags2.png)
+![Elenco a discesa dei tag selezionati con i tag disponibili per la classificazione di percorso](assets/tags2.png)
 
 Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso (live, draft, ecc.). Fai clic sull&#39;icona **Altre azioni** accanto al percorso e seleziona **Modifica tag**.
 
-![](assets/tags3.png)
+![Elenco Percorsi filtrato per tag che mostrano percorsi categorizzati](assets/tags3.png)
 
 ## Gestire i tag
 

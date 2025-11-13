@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: percorso, caso d’uso
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -34,13 +34,13 @@ Lo scopo di questo caso d’uso è la creazione di un percorso per incrementare 
 
    1. Imposta il campo **[!UICONTROL Limite]** sul numero massimo di destinatari per questa consegna.
 
-   ![](assets/profile-cap-condition.png)
+   ![Condizione limite profilo per controllare il volume di esecuzione azioni personalizzato](assets/profile-cap-condition.png)
 
    Puoi aumentare gradualmente questo limite fino al numero totale dei tuoi abbonati.
 
 1. Aggiungi un&#39;attività di azione **[!UICONTROL Email]** al percorso nominale dopo l&#39;attività **[!UICONTROL Condition]**.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![Percorso con azione personalizzata per l&#39;invio di dati al sistema esterno](assets/ramp-up-deliveries-message.png)
 
    Quando il percorso è in esecuzione, il messaggio viene inviato ai profili in entrata, fino al numero massimo di profili specificato. Quando questo limite viene raggiunto, i profili in ingresso seguono il percorso alternativo.
 

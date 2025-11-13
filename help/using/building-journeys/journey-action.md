@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 15%
 
 ---
 
@@ -50,17 +50,17 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
 1. Seleziona l’attività di canale incorporata che desideri sfruttare nel percorso.
 
-   ![](assets/journey-action-type-cbe.png)
+   ![Elenco a discesa del tipo di azione che mostra le opzioni di azione del canale e azione personalizzata](assets/journey-action-type-cbe.png)
 
 1. Aggiungi un&#39;etichetta all&#39;azione e seleziona **[!UICONTROL Configura azione]**.
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![Riquadro di configurazione attività azione con campi di etichetta e descrizione](assets/journey-action-configure.png){width="80%"}
 
 1. Sei stato indirizzato alla scheda **[!UICONTROL Azioni]** della schermata di configurazione delle azioni di percorso.
 
    Seleziona la configurazione da utilizzare per il canale selezionato.
 
-   ![](assets/journey-action-actions-tab.png)
+   ![Scheda Azioni nel menu Amministrazione che mostra le azioni personalizzate e Adobe](assets/journey-action-actions-tab.png)
 
 1. Se hai selezionato un canale in entrata, puoi aggiungere più azioni. [Ulteriori informazioni](#multi-action)
 
@@ -102,7 +102,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -159,15 +159,15 @@ Per definire più azioni in entrata in un singolo nodo di azione di percorso, se
 
 1. Seleziona **[!UICONTROL Azione multipla]** come tipo di azione.
 
-   ![](assets/journey-multi-action.png)
+   ![Attività con più azioni nella palette percorso in Orchestrazione](assets/journey-multi-action.png)
 
 1. Aggiungi un&#39;etichetta se necessario e seleziona **[!UICONTROL Configura azione]**.
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![Riquadro di configurazione a più azioni con campi di etichetta e descrizione](assets/journey-multi-action-configure.png){width="60%"}
 
 1. Sei stato indirizzato alla scheda **[!UICONTROL Azioni]** della schermata di configurazione delle azioni di percorso.
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![Configurazione con più azioni che mostra l&#39;elenco delle azioni da eseguire](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Seleziona un&#39;azione in entrata (**Esperienza basata su codice**, **Messaggio in-app**, **Scheda contenuto** o **Web**) dalla sezione **[!UICONTROL Azioni]**.
 
@@ -175,7 +175,7 @@ Per definire più azioni in entrata in un singolo nodo di azione di percorso, se
 
 1. Utilizza il pulsante **[!UICONTROL Aggiungi azione]** per selezionare un&#39;altra azione in entrata dall&#39;elenco a discesa.
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![Pulsante Aggiungi azione per includere azioni aggiuntive nell&#39;attività con più azioni](assets/journey-multi-action-add.png){width="80%"}
 
 1. Procedi in modo simile per aggiungere altre azioni. Puoi aggiungere fino a 10 azioni in entrata in un percorso di azioni di gruppo.
 

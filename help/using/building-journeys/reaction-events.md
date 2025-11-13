@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, eventi, reazione, tracciamento, piattaforma
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '387'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ Tieni presente che puoi utilizzare un’attività di reazione nell’area di lav
 
 Consulta [Informazioni sulle attività di azione](../building-journeys/about-journey-activities.md#action-activities).
 
-![](assets/journey45.png)
+![Configurazione evento di reazione con selezione canale e opzioni tipo evento](assets/journey45.png)
 
 Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazione:
 

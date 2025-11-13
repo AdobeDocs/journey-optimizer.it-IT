@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 40%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 
@@ -33,11 +33,11 @@ Gli errori vengono visualizzati con un simbolo di avviso visualizzato sulle atti
 
 * se un campo obbligatorio è vuoto, viene visualizzato un errore
 
-  ![](assets/journey63.png)
+  ![Errori di convalida Percorsi visualizzati nell&#39;area di lavoro con indicatori di errore](assets/journey63.png)
 
 * quando due attività vengono disconnesse, nell’area di lavoro viene visualizzato un avviso
 
-  ![](assets/canvas-disconnected.png)
+  ![Icona di avviso che mostra le attività disconnesse nell&#39;area di lavoro del percorso](assets/canvas-disconnected.png)
 
 ## Errori nel percorso {#canvas-errors}
 
@@ -45,7 +45,7 @@ Gli errori sono visibili anche dal pulsante **[!UICONTROL Avvisi]**, sopra l&#39
 
 Il sistema rileva due tipi di problemi: **errori** e **avvisi**. Gli errori bloccano la pubblicazione e l’attivazione di test. Gli avvisi indicano i potenziali problemi che non impediscono l’attivazione del test o la pubblicazione. Vedrai una descrizione del problema e un ID di registro del problema del tipo ERR_XXX_XXX. Questo può aiutare a identificare il problema.
 
-![](assets/journey-error-and-warning.png)
+![Indicatori di errore e di avviso nel percorso con descrizioni comandi](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

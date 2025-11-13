@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Durante la creazione di un percorso, alla fine di ciascun percorso viene visuali
 
 Se il percorso dispone di diversi percorsi, si consiglia di aggiungere un’etichetta a ogni estremità per facilitare la lettura dei rapporti. Ulteriori informazioni sui [report percorso](../reports/live-report.md).
 
-![](assets/journey-end.png)
+![Pulsante azione Fine percorso nella barra degli strumenti percorso](assets/journey-end.png)
 
 ## Chiudi un percorso {#close-journey}
 
@@ -69,14 +69,14 @@ La chiusura manuale di un percorso consente ai clienti che sono già entrati nel
 
 Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso e selezionare **[!UICONTROL Chiudi ai nuovi ingressi]**.
 
-![](assets/journey-finish-quick-action.png)
+![Menu a discesa Fine azione nel menu Azioni rapide per il percorso finale](assets/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
 1. Nell&#39;elenco **[!UICONTROL Percorsi]** selezionare il percorso che si desidera chiudere.
 1. In alto a destra, fare clic sulla freccia giù.
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![Menu Opzioni fine che mostra il percorso finale e le azioni alternative](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Chiudi ai nuovi ingressi]** e conferma nella finestra di dialogo.
 
@@ -89,14 +89,14 @@ Nel caso in cui si debba fermare il progresso di tutti i singoli individui nel p
 
 Puoi interrompere un percorso, ad esempio, se un addetto marketing si rende conto che il percorso esegue il targeting del pubblico sbagliato o che un’azione personalizzata destinata a consegnare i messaggi non funziona correttamente. Per interrompere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso e selezionare **[!UICONTROL Interrompi]**.
 
-![](assets/journey-finish-quick-action.png)
+![Menu a discesa Fine azione nel menu Azioni rapide per il percorso finale](assets/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
 1. Nell&#39;elenco **[!UICONTROL Percorsi]** fare clic sul percorso che si desidera interrompere.
 1. In alto a destra, fare clic sulla freccia giù.
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![Altre opzioni di fine, tra cui chiusura percorso e pulizia](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Interrompi]** e conferma nella finestra di dialogo.
 

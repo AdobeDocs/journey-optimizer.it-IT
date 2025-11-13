@@ -10,10 +10,10 @@ level: Intermediate
 keywords: fuso orario, proprietà, percorso, condizione, ora, data, personalizzato
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 28%
+source-wordcount: '375'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,7 @@ Il fuso orario può essere corretto. Cancella il fuso orario predefinito e selez
 
 A tale scopo, nel riquadro **[!UICONTROL Proprietà Percorso]** selezionare un fuso orario.
 
-![](assets/journey72.png)
+![Elenco a discesa per la selezione del fuso orario nelle proprietà del percorso](assets/journey72.png)
 
 ## Utilizzare il fuso orario dei profili {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ Se l’evento di ingresso del percorso ha uno spazio dei nomi, il che significa 
 
 Se per un profilo è stato definito un fuso orario, questo verrà recuperato e utilizzato dal percorso. In caso contrario, il fuso orario utilizzato sarà quello definito nel campo del fuso orario.
 
-![](assets/journey73.png)
+![Configurazione del fuso orario del profilo nelle origini dati per intervalli personalizzati](assets/journey73.png)
 
 >[!NOTE]
 >

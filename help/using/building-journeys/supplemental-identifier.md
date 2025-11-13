@@ -3,9 +3,9 @@ title: Utilizzare identificatori supplementari nei percorsi
 description: Scopri come utilizzare gli identificatori supplementari nei percorsi.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1424'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ Per utilizzare un identificatore supplementare in un percorso attivato da un eve
 
    1. Contrassegna l&#39;identificatore come **[!UICONTROL Identità]**.
 
-      ![](assets/supplemental-ID-schema.png)
+      ![Configurazione dello schema con gruppo di campi identificatore supplementare](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ Per utilizzare un identificatore supplementare in un percorso attivato da un eve
 
    1. Nella schermata di configurazione dell&#39;evento, selezionare l&#39;opzione **[!UICONTROL Usa identificatore supplementare]**.
 
-      ![](assets/supplemental-ID-event.png)
+      ![Configurazione evento con selezione spazio dei nomi dell&#39;identificatore supplementare](assets/supplemental-ID-event.png)
 
    1. Utilizza l’editor espressioni per selezionare l’attributo contrassegnato come ID supplementare.
 
@@ -119,7 +119,7 @@ Per utilizzare un identificatore supplementare in un percorso attivato da un eve
 
    Trascina l’evento configurato nell’area di lavoro del percorso. Attiva la voce percorso in base sia all’ID profilo che all’ID supplementare.
 
-   ![](assets/supplemental-ID-journey.png)
+   ![Percorso con identificatore supplementare per attivazione evento](assets/supplemental-ID-journey.png)
 
 >[!TAB Leggi percorso di destinatari]
 
@@ -131,7 +131,7 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
    1. Contrassegna l&#39;identificatore come **[!UICONTROL Identità]**.
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![Schema profilo con campo identificatore supplementare configurato](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
    1. Nel riquadro delle proprietà dell&#39;attività attivare l&#39;opzione **[!UICONTROL Usa identificatore supplementare]**.
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![Attività di lettura del pubblico con configurazione dell&#39;identificatore supplementare](assets/supplemental-ID-read-audience.png)
 
    1. Nel campo **[!UICONTROL Identificatore supplemento]**, utilizzare l&#39;editor espressioni per selezionare l&#39;attributo contrassegnato come ID supplementare.
 
@@ -171,7 +171,7 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
 Utilizza l’editor di espressioni e l’editor di personalizzazione per fare riferimento agli attributi dell’identificatore supplementare per la personalizzazione o la logica condizionale. Gli attributi sono accessibili dal menu **[!UICONTROL Attributi contestuali]**.
 
-![](assets/supplemental-ID-perso.png)
+![Editor Personalization che mostra i campi dell&#39;identificatore supplementare per il contenuto](assets/supplemental-ID-perso.png)
 
 Per i percorsi attivati da eventi se si utilizzano array (ad esempio, più prescrizioni o criteri), utilizzare una formula per estrarre elementi specifici.
 
@@ -246,4 +246,4 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

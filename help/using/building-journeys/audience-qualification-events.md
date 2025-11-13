@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1285'
 ht-degree: 6%
 
 ---
@@ -46,7 +46,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 
 1. Espandi la categoria **[!UICONTROL Eventi]** e rilascia un&#39;attività **[!UICONTROL Qualifica pubblico]** nell&#39;area di lavoro.
 
-   ![](assets/segment5.png)
+   ![Evento di qualificazione del pubblico nella palette percorsi](assets/segment5.png)
 
 1. Aggiungi un&#39;etichetta **[!UICONTROL Label]** all&#39;attività. Questo passaggio è facoltativo.
 
@@ -56,19 +56,19 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
    >
    >Puoi personalizzare e ordinare le colonne visualizzate nell’elenco.
 
-   ![](assets/segment6.png)
+   ![Menu a discesa per la selezione del pubblico per la configurazione dell&#39;evento di qualificazione](assets/segment6.png)
 
    Una volta aggiunto il pubblico, il pulsante **[!UICONTROL Copia]** ti consente di copiarne il nome e l&#39;ID:
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![Pulsante Copia per copiare il nome e l&#39;ID del pubblico in formato JSON](assets/segment-copy.png)
 
 1. Nel campo **[!UICONTROL Comportamento]**, scegli se desideri ascoltare le entrate del pubblico, le uscite o entrambe.
 
    >[!NOTE]
    >
-   >**[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
@@ -76,7 +76,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
    >
    >È possibile selezionare solo uno spazio dei nomi delle identità basato su persone. Se è stato definito uno spazio dei nomi per una tabella di ricerca (ad esempio, Spazio dei nomi ProductID per una ricerca di prodotti), questo non sarà disponibile nell&#39;elenco a discesa **Spazio dei nomi**.
 
-   ![](assets/segment7.png)
+   ![Selezione dello spazio dei nomi per l&#39;identità di qualificazione del pubblico](assets/segment7.png)
 
 Il payload contiene le seguenti informazioni contestuali, che è possibile utilizzare in condizioni e azioni:
 
@@ -88,7 +88,7 @@ Quando utilizzi l&#39;editor espressioni in una condizione o in un&#39;azione ch
 
 Vedi [Attività condizione](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![Configurazione dell&#39;entrata e dell&#39;uscita del pubblico nelle impostazioni evento](assets/segment8.png)
 
 Un nuovo percorso che include un evento **Qualificazione del pubblico** diventa operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all&#39;intervallo di aggiornamento della cache del servizio dedicato. Pertanto, è necessario attendere dieci minuti prima di utilizzare questo percorso.
 
@@ -110,7 +110,7 @@ Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in stre
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole di business anziché inviare eventi. [Ulteriori informazioni](../audience/about-audiences.md)
 
-Per ulteriori informazioni sulla segmentazione in streaming, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Per ulteriori informazioni sulla segmentazione in streaming, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Come evitare gli overload {#overloads-speed-segment-qualification}
 
@@ -118,13 +118,13 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
 * Non utilizzare un pubblico batch immediatamente dopo la sua creazione in un&#39;attività **[!UICONTROL Qualificazione del pubblico]**. Questo evita il picco del primo calcolo. Se stai per utilizzare un pubblico che non è mai stato calcolato, nell’area di lavoro del percorso viene visualizzato un avviso giallo.
 
-  ![](assets/segment-error.png)
+  ![Messaggio di errore quando il pubblico non è stato trovato in Adobe Experience Platform](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 
-  ![](assets/segment-overload.png)
+  ![Messaggio di avviso quando il pubblico ha troppi eventi da elaborare in tempo reale](assets/segment-overload.png)
 
 Ulteriori informazioni sui limiti di velocità di ingresso e la velocità effettiva in [questa sezione](entry-management.md#profile-entrance-rate).
 
@@ -164,4 +164,4 @@ Segui le protezioni e le raccomandazioni riportate di seguito per creare percors
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446212?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

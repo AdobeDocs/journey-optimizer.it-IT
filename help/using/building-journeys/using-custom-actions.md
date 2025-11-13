@@ -10,10 +10,10 @@ level: Intermediate
 keywords: azione, personalizzato, API, percorso, configurazione, servizio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 20%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ L’URL concatenato ha il seguente modulo:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![Configurazione URL azione personalizzata con mappatura dinamica dei parametri](assets/journey-custom-action-url.png)
 
 ### Intestazioni e parametri di query {#headers}
 
@@ -68,7 +68,7 @@ La sezione **[!UICONTROL Configurazione URL]** mostra i campi intestazione dinam
 
 Per specificare il valore dei campi con intestazione dinamica e parametri di query, fai clic all’interno del campo o sull’icona a forma di matita e seleziona il campo desiderato.
 
-![](assets/journey-dynamicheaderfield.png)
+![Configurazione del campo intestazione dinamica nell&#39;azione personalizzata](assets/journey-dynamicheaderfield.png)
 
 ## Parametri azione
 

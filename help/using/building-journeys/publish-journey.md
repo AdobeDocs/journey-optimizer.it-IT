@@ -10,10 +10,10 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '624'
+ht-degree: 40%
 
 ---
 
@@ -38,7 +38,7 @@ I passaggi per pubblicare un percorso sono descritti di seguito:
    >
    > Se il tuo percorsi percorso è soggetto a una policy di approvazione, devi richiedere l’approvazione per pubblicarlo. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   ![Pulsante Pubblica nella barra degli strumenti del percorso per attivare il percorso](assets/journeyuc1_18.png)
 
 Il percorso pubblicato è in modalità **sola lettura**. In modalità di sola lettura è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso. Se devi apportare ulteriori modifiche a un percorso pubblicato, crea [una nuova versione](journey-ui.md#journey-filter) del percorso.
 
@@ -52,7 +52,7 @@ Quando si arresta un percorso, questo viene interrotto in modo permanente. Tutti
 
 Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia di modifica del percorso, sopra l’area di lavoro.
 
-![](assets/journeyversions1.png)
+![Elenco delle versioni di Percorso con le versioni pubblicate e bozze](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Se devi apportare delle modifiche a un percorso live, crea una nuova versione de
 
 1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Crea una nuova versione]** e conferma.
 
-   ![](assets/journeyversions2.png)
+   ![Finestra di dialogo Crea nuova versione per duplicare il percorso](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

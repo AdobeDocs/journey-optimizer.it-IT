@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 10%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -76,16 +76,16 @@ Nel percorso B, il primo evento viene attivato internamente tramite l&#39;attivi
 
 1. Progetta il tuo **percorso di origine**.
 
-   ![](assets/jump1.png)
+   ![Attività Salta nella palette percorsi per la transizione tra percorsi](assets/jump1.png)
 
 1. In qualsiasi passaggio del percorso, aggiungi un&#39;attività **[!UICONTROL Jump]** dalla categoria **[!UICONTROL ACTIONS]**. Aggiungi un’etichetta e una descrizione.
 
-   ![](assets/jump2.png)
+   ![Menu a discesa per la selezione del percorso di destinazione nella configurazione delle attività di salto](assets/jump2.png)
 
 1. Fai clic nel campo **percorso di destinazione**.
 L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. I percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un evento **Qualificazione del pubblico** non sono disponibili. Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
 
-   ![](assets/jump3.png)
+   ![Attività Salta che mostra il percorso di destinazione e i parametri delle azioni](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modal
 1. Selezionare il percorso di destinazione in cui si desidera passare.
 Il campo **Primo evento** è precompilato con il nome del primo evento del percorso di destinazione. Se il percorso di destinazione include più eventi, il **[!UICONTROL Salto]** è consentito solo sul primo evento.
 
-   ![](assets/jump4.png)
+   ![Configurazione mappatura parametri per attività di salto con editor espressioni](assets/jump4.png)
 
 1. La sezione **Parametri azione** visualizza tutti i campi dell&#39;evento di destinazione. Mappa ogni campo con i campi dell’evento di origine o dell’origine dati, come con altri tipi di azioni. Queste informazioni verranno passate al percorso target in fase di runtime.
 1. Aggiungi le attività successive per completare il percorso di origine.
 
-   ![](assets/jump5.png)
+   ![Interfaccia della modalità di test per testare l&#39;attività di salto tra percorsi](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ L&#39;attività **[!UICONTROL Jump]** è configurata. Non appena il percorso è 
 
 Quando un&#39;attività **[!UICONTROL Jump]** è configurata in un percorso, viene aggiunta automaticamente un&#39;icona di voce **[!UICONTROL Jump]** all&#39;inizio del percorso di destinazione. Questo consente di identificare che il percorso può essere attivato esternamente ma anche internamente da un&#39;attività **[!UICONTROL Jump]**.
 
-![](assets/jump7.png)
+![Flusso Percorso che mostra il salto dal percorso di origine al percorso di destinazione](assets/jump7.png)
 
 ## Risoluzione dei problemi {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ Si verificano errori se:
 * Il percorso di destinazione è bozza, chiuso o interrotto
 * Il primo evento del percorso target è stato modificato e la mappatura è interrotta
 
-![](assets/jump6.png)
+![Analisi dei Percorsi che mostra le metriche di esecuzione delle attività di salto](assets/jump6.png)

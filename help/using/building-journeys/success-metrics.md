@@ -10,9 +10,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '546'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ L&#39;elenco delle metriche varia a seconda dei [gruppi di campi](https://experi
 
 Se il set di dati non è configurato, saranno disponibili solo le metriche seguenti: **[!UICONTROL Clic]**, **[!UICONTROL Clic univoco]**, **[!UICONTROL Frequenza clickthrough]** e **[!UICONTROL Frequenza aperture]**.
 
-Tieni presente che con una licenza Customer Journey Analytics puoi creare metriche di successo personalizzate. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Tieni presente che con una licenza Customer Journey Analytics puoi creare metriche di successo personalizzate. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Metriche | Gruppo di campi correlato |
@@ -70,7 +70,7 @@ Ogni metrica viene fornita con una determinata attribuzione che determina quali 
 
   Con entrambe le licenze Journey Optimizer e Customer Journey Analytics, puoi creare metriche personalizzate con impostazioni di attribuzione specifiche o modificare le attribuzioni delle metriche integrate.
 
-  Ulteriori informazioni su [Modelli di attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Ulteriori informazioni su [Modelli di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Assegnare le metriche del percorso {#assign}
 
@@ -88,7 +88,7 @@ Per iniziare a tracciare le metriche del percorso, segui i passaggi descritti di
 
    Le metriche si applicano al percorso stesso e sono applicabili a tutti gli elementi del percorso.
 
-   ![](assets/success_metric.png)
+   ![Pannello di configurazione delle metriche di successo nelle proprietà del percorso](assets/success_metric.png)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -100,5 +100,5 @@ Per iniziare a tracciare le metriche del percorso, segui i passaggi descritti di
 
    Le metriche scelte vengono visualizzate nella tabella KPI e statistiche Percorso del rapporto.
 
-   ![](assets/success_metric_2.png)
+   ![Elenco a discesa delle metriche di successo che mostra gli eventi disponibili per il tracciamento degli obiettivi](assets/success_metric_2.png)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2558'
 ht-degree: 13%
 
 ---
@@ -56,21 +56,21 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
-   ![](assets/read-segment-selection.png)
+   ![Interfaccia di selezione del pubblico con i tipi di pubblico di Adobe Experience Platform disponibili](assets/read-segment-selection.png)
 
    Una volta aggiunto il pubblico, il pulsante **[!UICONTROL Copia]** ti consente di copiarne il nome e l&#39;ID:
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![Pulsante Copia per copiare il nome e l&#39;ID del pubblico in formato JSON](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 
 * Limite simultaneo pubblico di lettura per organizzazione: ogni organizzazione può eseguire fino a cinque istanze Read Audience simultaneamente. Sono incluse sia le esecuzioni pianificate che quelle attivate da eventi aziendali, su tutte le sandbox e i percorsi. Questo limite viene applicato per garantire un’allocazione equa ed equilibrata delle risorse in tutte le organizzazioni.
 
@@ -165,15 +165,15 @@ Per impostazione predefinita, il percorso è configurato per essere eseguito una
 
 1. Nelle proprietà dell&#39;attività **[!UICONTROL Read audience]**, pa,e seleziona **[!UICONTROL Modifica pianificazione percorso]**.
 
-   ![](assets/read-segment-schedule.png)
+   ![Pulsante Modifica pianificazione percorso nelle proprietà dell&#39;attività Read audience](assets/read-segment-schedule.png)
 
 1. Vengono visualizzate le proprietà del percorso. Nell&#39;elenco a discesa **[!UICONTROL Tipo modulo di pianificazione]** selezionare la frequenza di esecuzione del percorso.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![Elenco a discesa del tipo di modulo di pianificazione con opzioni di frequenza: una volta al giorno, ogni settimana, ogni mese](assets/read-segment-schedule-list.png)
 
 Per i percorsi ricorrenti, sono disponibili opzioni specifiche per aiutarti a gestire l’immissione di profili nel percorso. Per ulteriori informazioni su ciascuna opzione, espandi le sezioni seguenti.
 
-![](assets/read-audience-options.png)
+![Leggi le opzioni ricorrenti del pubblico: Lettura incrementale, Forza rientro, Attiva dopo batch](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lettura incrementale]**
 
@@ -239,13 +239,13 @@ L&#39;attività **[!UICONTROL Read Audience]** ti consente di testare il percors
 
 A questo scopo, attiva la modalità di test.
 
-![](assets/read-segment-test-mode.png)
+![Interfaccia della modalità di test per l&#39;attività Read Audience con la selezione del profilo di test](assets/read-segment-test-mode.png)
 
 Configura ed esegui la modalità di test normalmente. [Scopri come verificare un percorso](testing-the-journey.md).
 
 Quando il test è in esecuzione, il pulsante **[!UICONTROL Mostra registri]** consente di visualizzare i risultati del test. Per ulteriori informazioni, consulta [questa sezione](testing-the-journey.md#viewing_logs)
 
-![](assets/read-segment-log.png)
+![Registri di test che mostrano i risultati dell&#39;esecuzione del pubblico e il flusso del profilo](assets/read-segment-log.png)
 
 Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](publish-journey.md)). Gli utenti appartenenti al pubblico entreranno nel percorso alla data/ora specificata nella sezione **[!UICONTROL Scheduler]** delle proprietà del percorso.
 
@@ -273,7 +273,7 @@ La segmentazione può essere basata su:
 * un’ora, ad esempio: è mattina nel fuso orario della persona?
 * un algoritmo che divide il pubblico che scorre nel percorso in base a una percentuale, ad esempio: 90% - 10% per escludere un gruppo di controllo
 
-![](assets/read-segment-audience1.png)
+![Attività condizione per la segmentazione del pubblico in percorsi VIP e non VIP](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ La stessa attività **Condition** utilizzata per la segmentazione (vedi sopra) t
 
 Questa esclusione può verificarsi subito dopo il recupero del pubblico, per scopi di conteggio della popolazione o lungo un percorso a più passaggi.
 
-![](assets/read-segment-audience2.png)
+![Percorso di Percorso con ramo di esclusione tramite Attività finale](assets/read-segment-audience2.png)
 
 **Unione**
 
@@ -295,7 +295,7 @@ I percorsi consentono di creare N rami e unirli dopo una segmentazione. Di conse
 
 Ad esempio, dopo aver seguito un’esperienza diversa per dieci giorni di un percorso, i clienti VIP e non VIP possono tornare allo stesso percorso. Dopo un’unione, puoi dividere nuovamente il pubblico eseguendo una segmentazione o un’esclusione.
 
-![](assets/read-segment-audience3.png)
+![Percorsi di Percorso che si uniscono nuovamente dopo la segmentazione utilizzando l&#39;unione](assets/read-segment-audience3.png)
 
 ## Nuovi tentativi {#read-audience-retry}
 
@@ -307,4 +307,4 @@ I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **A
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

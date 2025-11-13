@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '569'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
 1. Dalla sezione **Azioni** della palette, trascina e rilascia un&#39;attività di canale nell&#39;area di lavoro.
 
-   ![](assets/journey-web-activity.png)
+   ![Attività azione canale Web nell&#39;area di lavoro percorso](assets/journey-web-activity.png)
 
 1. È inoltre possibile selezionare l&#39;attività **[!UICONTROL Azione]**, che consente di selezionare più azioni in entrata. [Ulteriori informazioni](journey-action.md)
 
@@ -139,7 +139,7 @@ Puoi aggiornare il contenuto di un’azione del canale incorporata in un percors
 
 A questo scopo, apri il percorso live, seleziona l&#39;attività del canale e fai clic su **Modifica contenuto**.
 
-![](assets/add-a-message2.png)
+![Elenco a discesa dell&#39;attività Aggiungi azione che mostra le opzioni di canale disponibili](assets/add-a-message2.png)
 
 Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o di percorso).
 

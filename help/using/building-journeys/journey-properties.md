@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2771'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ Puoi eseguire le seguenti operazioni:
 * Definisci una [durata timeout](#timeout) nelle attività di percorso (solo per utenti amministratori)
 * Monitora i conflitti e assegna priorità ai percorsi utilizzando [strumenti di gestione dei conflitti](#conflict)
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+![riquadro di configurazione delle proprietà del Percorso con impostazioni generali e opzioni avanzate](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -285,7 +285,7 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
 1. Apri il percorso.
 
-1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostra criteri di uscita]** nella sezione superiore destra dell&#39;area di lavoro del percorso.
+1. Fai clic sull&#39;icona ![Mostra criteri di uscita](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Mostra criteri di uscita]** nella sezione superiore destra dell&#39;area di lavoro del percorso.
 
 1. Selezionare **[!UICONTROL Aggiungi criteri di uscita]**.
 
@@ -296,7 +296,7 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
 È possibile aggiungere più criteri di uscita.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Il pannello dei criteri di uscita mostra le condizioni del pubblico per la cessazione del percorso](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Criteri di uscita basati su attributi di profilo {#profile-exit-criteria}

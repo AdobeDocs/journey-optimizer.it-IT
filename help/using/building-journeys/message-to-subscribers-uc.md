@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: percorso, caso d’uso, messaggio, abbonati, elenco, lettura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ Per configurare il percorso, eseguire la procedura seguente:
 
    1. Fai clic sull&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo **[!UICONTROL Indirizzo]**, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![Flusso di Percorso con pubblico di lettura per il targeting dell&#39;elenco degli abbonati](assets/message-to-subscribers-uc-1.png)
 
    1. Nell’editor espressioni, immetti l’espressione per recuperare gli indirizzi e-mail degli abbonati. [Ulteriori informazioni](expression/expressionadvanced.md).
 
@@ -54,7 +54,7 @@ Per configurare il percorso, eseguire la procedura seguente:
 
       Ulteriori informazioni su [riferimenti ai campi](expression/field-references.md) nelle espressioni.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![Configurazione e-mail con contenuti personalizzati per gli abbonati](assets/message-to-subscribers-uc-2.png)
 
    1. Nella finestra di dialogo **[!UICONTROL Aggiungi espressione]** fare clic su **[!UICONTROL Ok]**.
 

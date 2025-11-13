@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Utilizzare l&#39;attività di azione **[!UICONTROL Aggiorna profilo]** per aggio
 * Proprio come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi inserire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Adobe Experience Platform è immediata/entro un secondo. Ci vorrà normalmente qualche secondo, ma a volte di più senza alcuna garanzia. Di conseguenza, ad esempio, se un&#39;azione utilizza il &quot;campo 1&quot; aggiornato da un&#39;azione **Aggiorna profilo** posizionata in precedenza, non è previsto che &quot;campo 1&quot; venga aggiornato nell&#39;azione.
 * L&#39;attività **Aggiorna profilo** non supporta campi XDM definiti come enumerazioni o valori suggeriti.
-* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}, non il Data Lake.
+* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
 
 ## Selezione set di dati {#dataset-selection}
 
@@ -48,13 +48,13 @@ Inoltre, la configurazione dell&#39;attività **Aggiorna profilo** non richiede 
 
 1. Nella sezione **Azione** della palette, rilascia l&#39;attività **Aggiorna profilo** nell&#39;area di lavoro.
 
-   ![](assets/profileupdate0.png)
+   ![Aggiorna l&#39;attività profilo nella palette percorso in Azioni](assets/profileupdate0.png)
 
 1. Seleziona uno schema dall’elenco.
 
 1. Fai clic su **Campo** per selezionare il campo da aggiornare. È possibile selezionare un solo campo.
 
-   ![](assets/profileupdate2.png)
+   ![Pannello di configurazione dell&#39;aggiornamento del profilo con elenco a discesa per la selezione del campo](assets/profileupdate2.png)
 
 1. Seleziona un set di dati dall’elenco.
 
@@ -66,15 +66,15 @@ Inoltre, la configurazione dell&#39;attività **Aggiorna profilo** non richiede 
 
    * Utilizzando l’editor di espressioni semplici, puoi selezionare un campo da un’origine dati o dall’evento in ingresso.
 
-     ![](assets/profileupdate4.png)
+     ![Selettore di campi in modalità semplice per gli aggiornamenti degli attributi di profilo](assets/profileupdate4.png)
 
    * Se si desidera definire un valore specifico o sfruttare funzioni avanzate, selezionare **Modalità avanzata**.
 
-     ![](assets/profileupdate3.png)
+     ![Editor espressioni modalità avanzata per aggiornamenti di profilo complessi](assets/profileupdate3.png)
 
 **Aggiorna profilo** è configurato.
 
-![](assets/profileupdate1.png)
+![Attività di aggiornamento profilo nel percorso con configurazione campi](assets/profileupdate1.png)
 
 
 ## Utilizzo della modalità di test {#using-the-test-mode}

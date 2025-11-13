@@ -10,9 +10,9 @@ level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione 
 
 Utilizza Ottimizzazione del tempo di invio su un’azione e-mail o push attivando lo switch Ottimizzazione del tempo di invio dai parametri dell’azione.
 
-![](assets/jo-message5.png)
+![Attivazione/disattivazione ottimizzazione ora di invio nella configurazione del canale e-mail](assets/jo-message5.png)
 
 L’ottimizzazione dell’ora di invio non deve essere utilizzata per messaggi operativi urgenti e sensibili al tempo, come ad esempio una conferma di un ordine, una notifica di reimpostazione della password o una notifica di modifica del gate di volo. L’ottimizzazione dell’ora di invio è ideale per comunicazioni di marketing meno urgenti, ad esempio annunci settimanali, informazioni promozionali su un nuovo prodotto o informazioni su una vendita della durata di un mese.
 
@@ -80,11 +80,11 @@ L’ottimizzazione dell’ora di invio effettua previsioni per ogni ora della se
 
 Queste previsioni sono ponderate e combinate utilizzando un approccio bayesiano, che risulta in una &quot;mappa di calore&quot; per ogni metrica (aperture delle e-mail, clic delle e aperture push), per ogni cliente, che indica le ore della settimana in cui contattare l’utente ha la maggiore e minore probabilità di produrre il risultato di coinvolgimento desiderato (apertura/clic), come illustrato nella mappa di calore dell’esempio seguente:
 
-![](assets/heatmap-1.png)
+![Heatmap del coinvolgimento che mostra tempi di invio ottimali per e-mail per giorno e ora](assets/heatmap-1.png)
 
 Se un utente con le probabilità previste sopra è indirizzato a un messaggio alle 9 di mercoledì con Ottimizzazione dell’ora di invio attivata e un tempo di attesa massimo di 7 ore, l’ora di invio selezionata per il messaggio sarà le 12:
 
-![](assets/heatmap-2.png)
+![Heatmap del coinvolgimento con dati di ottimizzazione dettagliati per ora](assets/heatmap-2.png)
 
 ## Dettagli sull’apprendimento del modello di ottimizzazione del tempo di invio e sul punteggio  {#model-send-time}
 

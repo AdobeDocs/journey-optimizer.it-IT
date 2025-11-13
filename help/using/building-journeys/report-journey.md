@@ -10,9 +10,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Dopo la pubblicazione del percorso, all&#39;attivazione della [modalità di esec
 
 Gli eventi visualizzati si sono verificati nelle ultime 24 ore, con un intervallo minimo di due minuti tra l’evento e la visualizzazione, in genere entro cinque minuti.
 
-![](assets/journey_live_report.png)
+![Dashboard dei report live dei Percorsi con metriche delle prestazioni in tempo reale](assets/journey_live_report.png)
 
 Per i percorsi in modalità Live o [Dry run](journey-dry-run.md), puoi controllare:
 

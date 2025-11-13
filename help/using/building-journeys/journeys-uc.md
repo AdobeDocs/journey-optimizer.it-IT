@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, messaggi, percorso, canale, eventi, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Questa sezione presenta un caso d’uso che combina un Read Audience, un evento, eventi di reazione e messaggi e-mail/push.
 
-![](assets/jo-uc1.png)
+![Flusso di percorso semplice con attività Read Audience, Wait e Email](assets/jo-uc1.png)
 
 ## Descrizione del caso d’uso
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sui tipi di pubblico, [fai riferimento a questa pagin
 1. Trascina e rilascia i campi desiderati dal riquadro di sinistra all’area di lavoro centrale e configurali in base alle tue esigenze. In questo esempio, utilizzare i campi attributo **Città** e **Anno di nascita**.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   ![](assets/add-attributes.png)
+   ![Pannello Attributi aggiuntivi per la selezione dei dati di arricchimento](assets/add-attributes.png)
 
 Il pubblico ora è stato creato ed è pronto per essere utilizzato nel percorso. Utilizzando un&#39;attività **Read Audience**, tutti gli utenti appartenenti al pubblico possono entrare nel percorso.
 
@@ -76,7 +76,7 @@ Per questo, utilizza un [evento basato su regole](../event/about-events.md).
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   ![](assets/jo-uc2.png)
+   ![Percorso con attività Condizione ramificato in membri Gold e altri percorsi](assets/jo-uc2.png)
 
 L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utilizzando l’attività evento corrispondente, è possibile attivare un’azione ogni volta che un cliente effettua un acquisto.
 
@@ -84,11 +84,11 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
 
 1. Avvia il percorso con un&#39;attività **Read Audience**. Seleziona il pubblico creato in precedenza. Tutti gli individui appartenenti al pubblico entrano nel percorso.
 
-   ![](assets/jo-uc4.png)
+   ![Verifica delle condizioni meteorologiche se la temperatura è inferiore a 50 gradi](assets/jo-uc4.png)
 
 1. Rilascia un&#39;attività di azione **E-mail** e definisci il contenuto del &quot;primo messaggio&quot;. Questo messaggio viene inviato a tutti i singoli utenti del percorso. Consulta questa [sezione](../email/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
 
-   ![](assets/jo-uc5.png)
+   ![percorso completo basato sul meteo con condizione di temperatura e azioni e-mail](assets/jo-uc5.png)
 
 1. Aggiungi un evento **Reaction** e seleziona **Email open**. L’evento viene attivato quando una persona appartenente al pubblico apre l’e-mail.
 

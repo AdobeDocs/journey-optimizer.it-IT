@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '767'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratt
 
 1. Nella sezione **[!UICONTROL Parametri azione]**, incolla l&#39;esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
-   ![](assets/uc-collection-1.png)
+   ![Editor espressioni che mostra le funzioni e le operazioni della raccolta](assets/uc-collection-1.png)
 
 1. Se necessario, regola i tipi di campo. Per gli insiemi sono supportati i tipi di campo seguenti: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -120,21 +120,21 @@ In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratt
 
 1. Per ogni campo, definisci l’etichetta che verrà visualizzata nell’area di lavoro del percorso.
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Funzione di raccolta filtri con interfaccia generatore di condizioni](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/using-custom-actions.md).
 
 1. Nella sezione **[!UICONTROL Parametri azione]**, definisci il parametro dell&#39;array (`products` nel nostro esempio) utilizzando l&#39;editor di espressioni avanzate.
 
-   ![](assets/uc-collection-3.png)
+   ![Espressione filtro raccolta con selezione campo](assets/uc-collection-3.png)
 
 1. Per ciascuno dei seguenti campi oggetto, digita il nome del campo corrispondente dallo schema XDM di origine. Se i nomi sono identici, non è necessario. Nel nostro esempio, è sufficiente definire `product id` e &quot;color&quot;.
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Funzione di ordinamento della raccolta con configurazione dell&#39;ordinamento](assets/uc-collection-4.png){width="50%" align="left"}
 
 Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente vengono utilizzate le funzioni [filter](functions/list-functions.md#filter) e [intersect](functions/list-functions.md#intersect):
 
-![](assets/uc-collection-5.png)
+![Espressione raccolta completa con operazioni filtro, ordinamento e limite](assets/uc-collection-5.png)
 
 ## Limitazioni {#limitations}
 
@@ -194,7 +194,7 @@ Sebbene le raccolte nelle azioni personalizzate forniscano flessibilità per il 
 
 Per tipi e array di array eterogenei, l’array è definito con il tipo listAny. È possibile mappare solo singoli elementi, ma non è possibile modificare la matrice in variabile.
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Raccolta eterogenea con tipi di dati misti e selezione dei campi](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 Esempio di tipo eterogeneo:
 

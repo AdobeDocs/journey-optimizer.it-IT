@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 17%
+source-wordcount: '1696'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ Per aggiungere una condizione al percorso, attieniti alla procedura seguente.
 
 1. Selezionare una condizione dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
 
-   ![](assets/journey-optimize-condition.png){width=80%}
+   ![Ottimizza attività con metodo condizione selezionato](assets/journey-optimize-condition.png){width=80%}
 
    Sono disponibili i seguenti tipi di condizioni:
 
@@ -66,13 +66,13 @@ Quando utilizzi più condizioni in un percorso, puoi definire le etichette per c
 
 Fare clic su **[!UICONTROL Aggiungi un percorso]** se si desidera definire più condizioni. Per ogni condizione, nell’area di lavoro viene aggiunto un nuovo percorso dopo l’attività.
 
-![](assets/journey-condition-add-path.png){width=80%}
+![Aggiungi un pulsante percorso per creare più percorsi condizione](assets/journey-condition-add-path.png){width=80%}
 
 Si noti che la progettazione dei percorsi ha un impatto funzionale. Quando più percorsi vengono definiti dopo una condizione, verrà eseguito solo il primo percorso idoneo. Ciò significa che puoi variare la priorità dei percorsi posizionandoli uno sopra l’altro o al di sotto di esso.
 
 Prendiamo l’esempio di una condizione del primo percorso &quot;La persona è un VIP&quot; e di una condizione del secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso verrà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
 
-![](assets/journey48.png)
+![Esempio di prioritizzazione del percorso che mostra la condizione di VIP al di sopra della condizione maschile](assets/journey48.png)
 
 Puoi creare un altro percorso per i tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Mostra percorso per casi diversi da quelli sopra]**.
 
@@ -85,7 +85,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 * **AND** - Intersezione di due criteri. Vengono presi in considerazione solo gli elementi che corrispondono a tutti i criteri.
 * **OR** - Unione di due criteri. Vengono considerati gli elementi che corrispondono ad almeno uno dei due criteri.
 
-![](assets/journey64.png){width=80%}
+![Editor espressioni semplici con campi trascinati e operatori logici](assets/journey64.png){width=80%}
 
 Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -105,7 +105,7 @@ Ad esempio, se esegui il targeting di un pubblico con attributi di arricchimento
 
 Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. [Ulteriori informazioni](../datasource/external-data-sources.md)
 
-![](assets/journey50.png){width=80%}
+![Condizione Data Source con editor di espressioni avanzate](assets/journey50.png){width=80%}
 
 ## Condizione data {#date_condition}
 
@@ -115,7 +115,7 @@ Ciò ti consente di definire un flusso diverso in base alla data. Ad esempio, se
 >
 >Il fuso orario non è più specifico di una condizione ed è ora definito a livello di percorso nelle proprietà del percorso. [Ulteriori informazioni](../building-journeys/timezone-management.md)
 
-![](assets/journey53.png)
+![Configurazione condizione data con campi data di inizio e data di fine](assets/journey53.png)
 
 ## Suddivisione percentuale {#percentage_split}
 
@@ -127,7 +127,7 @@ In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto 
 >
 >Non è presente alcun pulsante per aggiungere un percorso nella condizione di suddivisione percentuale. Il numero di percorsi dipende dal numero di divisioni. Nelle condizioni di [PROD143]e non è possibile aggiungere un percorso per altri casi in quanto non può verificarsi. Le persone andranno sempre in uno dei percorsi divisi.
 
-![](assets/journey52.png)
+![Configurazione con suddivisione percentuale con cursore che mostra la distribuzione del traffico](assets/journey52.png)
 
 ## Condizione temporale {#time_condition}
 
@@ -139,7 +139,7 @@ Utilizza una **[!UICONTROL Condizione temporale]** per eseguire azioni diverse i
 >
 >* Per impostazione predefinita, la **[!UICONTROL condizione temporale]** è impostata per ora, da 00:00 a 12:00.
 
-![](assets/journey51.png)
+![Condizione temporale con intervallo di ore e selettori del giorno della settimana](assets/journey51.png)
 
 Sono disponibili tre opzioni di filtro dell’ora:
 
@@ -172,7 +172,7 @@ Per i percorsi live, le soglie da considerare per garantire il raggiungimento de
 
 Il limite del profilo non viene preso in considerazione nella modalità di test.
 
-![](assets/profile-cap-condition.png)
+![Condizione limite profilo con campo di input limite profilo massimo](assets/profile-cap-condition.png)
 
 ## Utilizzare i tipi di pubblico nelle condizioni {#using-a-segment}
 
@@ -182,14 +182,14 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
 1. Apri un percorso, rilascia un&#39;attività **[!UICONTROL Ottimizza]** e scegli la **[!UICONTROL condizione origine dati]**.
 
-   ![](assets/segment3.png)
+   ![Metodo condizione Data Source selezionato nel menu a discesa](assets/segment3.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi un percorso]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fare clic sul campo **[!UICONTROL Espressione]**.
 
 1. Sul lato sinistro, apri il nodo **[!UICONTROL Tipi di pubblico]**. Trascina e rilascia il pubblico da utilizzare per la condizione. Per impostazione predefinita, la condizione sul pubblico è true.
 
-   ![](assets/segment4.png){width=80%}
+   ![Nodo tipi di pubblico nell&#39;editor espressioni per la selezione dei tipi di pubblico di Adobe Experience Platform](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

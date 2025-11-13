@@ -9,7 +9,7 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -77,7 +77,7 @@ Potete utilizzare la funzionalità di esecuzione di prova in qualsiasi percorso 
 Per attivare l&#39;esecuzione in prova, effettuare le seguenti operazioni:
 
 1. Aprire il percorso che si desidera verificare.
-1. Selezionare il pulsante **Esegui**.
+1. Selezionare il pulsante **[!UICONTROL Esegui]**.
 
    ![Avvia l&#39;esecuzione di prova del percorso](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ Per attivare l&#39;esecuzione in prova, effettuare le seguenti operazioni:
 
    ![Conferma la pubblicazione dell&#39;esecuzione a secco del percorso](assets/dry-run-publish.png){width="50%" align="left"}
 
-   Durante la transizione viene visualizzato il messaggio di stato **Attivazione dell&#39;esecuzione di prova**.
+   Durante la transizione viene visualizzato il messaggio di stato **[!UICONTROL Attivazione dell&#39;esecuzione di prova]**.
 
-1. Dopo l&#39;attivazione, il percorso entra in modalità **Esecuzione a secco**.
+1. Dopo l&#39;attivazione, il percorso entra in modalità **[!UICONTROL Esecuzione a secco]**.
 
 
 ## Monitorare un’esecuzione in prova {#journey-dry-monitor}
@@ -109,17 +109,17 @@ Le metriche vengono visualizzate direttamente nell’area di lavoro del percorso
 
 ## Interrompere un&#39;esecuzione di prova {#journey-dry-run-stop}
 
-Dopo 14 giorni, i percorsi di esecuzione di prova passano automaticamente allo stato **Bozza**.
+Dopo 14 giorni, i percorsi di esecuzione di prova passano automaticamente allo stato **[!UICONTROL Bozza]**.
 
 È inoltre possibile arrestare manualmente i percorsi di esecuzione di prova. Per disattivare la modalità di esecuzione a secco, effettuare le seguenti operazioni:
 
 1. Aprire il percorso di esecuzione di prova che si desidera interrompere.
-1. Seleziona il pulsante **Chiudi** per terminare il test.
+1. Seleziona il pulsante **[!UICONTROL Chiudi]** per terminare il test.
 Nella schermata di conferma sono disponibili i collegamenti alle ultime 24 ore e tutti i rapporti temporali.
 
    ![Interrompere l&#39;esecuzione di prova del percorso](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. Fai clic su **Torna alla bozza** per confermare.
+1. Fai clic su **[!UICONTROL Torna alla bozza]** per confermare.
 
 
 ## Guardrail e limitazioni {#journey-dry-run-limitations}
@@ -149,4 +149,4 @@ Quando si analizzano **metriche di reporting di percorso** tramite il servizio A
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

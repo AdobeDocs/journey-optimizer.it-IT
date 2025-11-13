@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ Questo caso d’uso spiega come scrivere eventi personalizzati in Adobe Experien
 
 1. Nella sezione **Credenziali**, fai clic su **OAuth Server-to-Server**.
 
-   ![](assets/custom-action-aep-1.png)
+   ![Schermata di configurazione azione personalizzata con elenco a discesa del tipo di azione](assets/custom-action-aep-1.png)
 
 1. Fare clic su **Visualizza comando cURL**.
 
-   ![](assets/custom-action-aep-2.png)
+   ![Selezione tipo azione Adobe Experience Platform](assets/custom-action-aep-2.png)
 
 1. Copiare il comando cURL e archiviare client_id, client_secret, grant_type e scope.
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Dopo aver creato il progetto su Adobe Developer Console, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Dopo aver creato il progetto su Adobe Developer Console, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurare l’origine utilizzando l’ingresso API HTTP
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. In Adobe Experience Platform, fai clic su **Origini**, in **Connessioni** nel menu a sinistra. In **API HTTP**, fare clic su **Aggiungi dati**.
 
-   ![](assets/custom-action-aep-3.png)
+   ![Menu a discesa di selezione sandbox per Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Seleziona **Nuovo account** e abilita l&#39;autenticazione. Selezionare **Connetti a Source**.
 
-   ![](assets/custom-action-aep-4.png)
+   ![Interfaccia di selezione del set di dati per i dati in streaming](assets/custom-action-aep-4.png)
 
 1. Seleziona **Avanti** e il set di dati in cui desideri scrivere i dati. Fai clic su **Avanti** e **Fine**.
 
-   ![](assets/custom-action-aep-5.png)
+   ![Campi dello schema XDM mappati a parametri di azione](assets/custom-action-aep-5.png)
 
 1. Apri il flusso di dati appena creato. Copia il payload dello schema e salvalo nel blocco note.
 
@@ -109,7 +109,7 @@ Per questo esempio, segui questi passaggi:
 
 1. Assicurati che le intestazioni (Content-Type, Charset, sandbox-name) siano configurate.
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![Azione personalizzata nell&#39;area di lavoro del percorso con riquadro di configurazione](assets/custom-action-aep-7bis.png)
 
 ### Configurare l’autenticazione {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ Per questo esempio, segui questi passaggi:
 
 1. Utilizza **Fare clic per verificare l&#39;autenticazione** per verificare la connessione.
 
-   ![](assets/custom-action-aep-8.png)
+   ![Interfaccia di mappatura dei parametri con editor di espressioni](assets/custom-action-aep-8.png)
 
 ### Impostare il payload {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ Per questo esempio, segui questi passaggi:
 
 1. Popola l’ID versione del Percorso, l’ID nodo, il nome del nodo e altri attributi in base al tuo caso d’uso.
 
-   ![](assets/custom-action-aep-9.png)
+   ![Editor modalità avanzata per mapping campi complessi](assets/custom-action-aep-9.png)

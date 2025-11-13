@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '776'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Ricerca set di dati]** nell&#39;area di lavoro.
 
-   ![](assets/aep-data-activity.png)
+   ![Attività di ricerca set di dati Adobe Experience Platform nel percorso](assets/aep-data-activity.png)
 
 1. Aggiungi un’etichetta e una descrizione.
 
@@ -81,7 +81,7 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
    +++Esempio
 
-   ![](assets/aep-data-leaf-primitive.png)
+   ![Selezione del campo del set di dati con tipi di dati e struttura di base](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
    +++Esempio
 
-   ![](assets/aep-data-strings.png)
+   ![Editor espressioni con funzioni di ricerca campi set di dati e stringhe](assets/aep-data-strings.png)
 
    +++
 

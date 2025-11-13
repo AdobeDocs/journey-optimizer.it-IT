@@ -11,10 +11,10 @@ keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 6%
+source-wordcount: '1636'
+ht-degree: 5%
 
 ---
 
@@ -43,7 +43,7 @@ Tramite l&#39;attività **Ottimizza**, è possibile eseguire le azioni seguenti 
 * Sfrutta le regole di [targeting](#targeting) in ogni percorso di percorso
 * Applica [condizioni](#conditions) ai tuoi percorsi
 
-![](assets/journey-optimize.png)
+![Pulsante Ottimizza nella tavolozza attività percorso](assets/journey-optimize.png)
 
 Una volta che il percorso è attivo, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono inviati lungo il percorso appropriato dal percorso.
 
@@ -53,7 +53,7 @@ Una volta che il percorso è attivo, i profili vengono valutati in base ai crite
 >id="ajo_path_experiment_success_metric"
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per tracciare e valutare il trattamento dalle prestazioni migliori in un esperimento."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 
@@ -71,13 +71,13 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
 1. Selezionare **[!UICONTROL Esperimento]** dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![Pannello di configurazione dell&#39;esperimento sui contenuti](assets/journey-optimize-experiment.png){width=65%}
 
 1. Fai clic su **[!UICONTROL Crea esperimento]**.
 
 1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento. Ulteriori informazioni sulle metriche disponibili e su come configurare l&#39;elenco in [questa sezione](success-metrics.md).
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![Selezione delle metriche primaria e aggiuntiva per l&#39;esperimento](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Puoi scegliere di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non entrerà in alcun percorso da questo esperimento.
 
@@ -91,7 +91,7 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
 1. Puoi allocare una percentuale precisa a ogni **[!UICONTROL Trattamento]** o semplicemente attivare la barra di selezione **[!UICONTROL Distribuisci uniformemente]**.
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![Cursore allocazione trattamento con distribuzione percentuale](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
@@ -103,17 +103,17 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
    * Trascina e rilascia un&#39;attività [E-mail](../email/create-email.md) nel terzo ramo, seguito da un&#39;attività [SMS](../sms/create-sms.md) (**Trattamento C**).
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![Esempio di esperimento con tre percorsi di trattamento](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. Facoltativamente, utilizzare **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** per definire un&#39;azione di fallback. [Ulteriori informazioni](using-the-journey-designer.md#paths)
 
 1. Seleziona un&#39;azione del canale e utilizza il pulsante **[!UICONTROL Modifica contenuto]** per accedere agli strumenti di progettazione.
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![Pulsante Modifica contenuto nell&#39;attività Azione canale](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. Da lì, utilizzando il riquadro a sinistra puoi spostarti tra i diversi contenuti di ogni azione nell’esperimento. Seleziona ogni contenuto e progettalo in base alle esigenze.
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![Pannello di selezione dei contenuti che mostra i trattamenti per l&#39;esperimento](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. [Pubblica](publish-journey.md) il tuo percorso.
 
@@ -131,7 +131,7 @@ Verifica se l’invio del primo messaggio tramite e-mail rispetto agli SMS deter
 
 ➡️ Utilizza il tasso di conversione come metrica di successo (ad esempio: acquisti, iscrizioni).
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![Esperimento sull&#39;efficacia del canale che confronta e-mail e SMS](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ Esegui un esperimento per verificare se l’invio di un’e-mail rispetto a tre 
 
 ➡️ Utilizza gli acquisti o il tasso di annullamento dell&#39;iscrizione come metrica di successo.
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![Esperimento sulla frequenza dei messaggi che verifica un messaggio e-mail rispetto a tre messaggi](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up 
 
 ➡️ Utilizza il tasso di click-through o i ricavi come metrica di successo.
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![Esperimento del tempo di attesa che confronta ritardi di 24 ore rispetto a ritardi di 72 ore](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Selezionare **[!UICONTROL Regola di targeting]** dall&#39;elenco a discesa **[!UICONTROL Metodo]**.
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   ![Selezione di regole di targeting nell&#39;attività Ottimizza](assets/journey-optimize-targeting.png){width=60%}
 
 1. Fai clic su **[!UICONTROL Crea regola di targeting]**.
 
 1. Fai clic su **[!UICONTROL Crea regola]** > **[!UICONTROL Crea nuovo]** e utilizza il generatore di regole per definire i criteri.
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![Interfaccia del generatore di regole per la creazione di criteri di targeting](assets/journey-targeting-create-rule.png){width=100%}
 
    Definire ad esempio una regola per i membri Gold del programma fedeltà (`loyalty.status.equals("Gold", false)`) e una regola per gli altri membri (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![](assets/journey-targeting-rule.png)
+   ![Regola di targeting dello stato di fedeltà per i membri Gold e non Gold](assets/journey-targeting-rule.png)
 
 1. Puoi anche fare clic su **[!UICONTROL Crea regola]** > **[!UICONTROL Seleziona regola]** per selezionare una regola di targeting esistente creata dal menu **[!UICONTROL Regole]**. [Ulteriori informazioni](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![Seleziona regola di targeting esistente dal menu Regole](assets/journey-targeting-select-rule.png){width=70%}
 
    In questo caso, la formula che costituisce la regola viene semplicemente copiata nell’attività di percorso. Eventuali modifiche successive apportate alla regola dal menu **[!UICONTROL Regole]** non influiranno sulla copia del percorso.
 
@@ -208,7 +208,7 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Dopo aver aggiunto una regola, puoi comunque modificarla. Scegli **[!UICONTROL Modifica in linea]** per aggiornarlo in movimento utilizzando il generatore di regole, oppure **[!UICONTROL Seleziona regola]** per raccogliere un&#39;altra regola esistente.
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![Modifica le opzioni in linea o Seleziona regola per modificare le regole di targeting](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 
 1. Sempre nel percorso, rilascia azioni specifiche per personalizzare ogni percorso. Ad esempio, crea un’e-mail con offerte personalizzate per i membri Gold Loyalty e un promemoria SMS per tutti gli altri membri.
 
-   ![](assets/journey-targeting-paths.png)
+   ![Percorsi Percorsi con e-mail per iscritti Gold e SMS per altri](assets/journey-targeting-paths.png)
 
 1. Se hai selezionato l&#39;opzione **[!UICONTROL Abilita contenuto di fallback]** durante la definizione delle impostazioni della regola, definisci una o più azioni per il percorso di fallback aggiunto automaticamente.
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   ![Configurazione del percorso di fallback per profili non qualificati](assets/journey-targeting-fallback.png){width=70%}
 
 1. Facoltativamente, utilizzare **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** per definire un&#39;azione alternativa in caso di problemi. [Ulteriori informazioni](using-the-journey-designer.md#paths)
 
 1. Progetta il contenuto appropriato per ogni azione corrispondente a ciascun gruppo definito dalle impostazioni della regola di targeting. Puoi navigare facilmente tra i diversi contenuti di ogni azione.
 
-   ![](assets/journey-targeting-design.png)
+   ![Pannello Progettazione contenuto per azioni regola targeting](assets/journey-targeting-design.png)
 
    In questo esempio, progetta un’e-mail con offerte speciali per gli iscritti Gold e un promemoria SMS per gli altri membri.
 
@@ -254,7 +254,7 @@ I membri fedeltà con stato Gold possono ricevere offerte personalizzate tramite
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![Canali specifici del segmento destinati a iscritti Gold con e-mail e altri con SMS](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ Ai clienti che hanno aperto un’e-mail ma non hanno fatto clic su viene inviata
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![Destinazione basata sul comportamento per il coinvolgimento e-mail con fallback push o SMS](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ I clienti che hanno acquistato di recente possono entrare in un breve percorso d
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![Destinazione cronologia acquisti con percorso di cross-selling per acquirenti e percorso di sviluppo per non acquirenti](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ I clienti che hanno acquistato di recente possono entrare in un breve percorso d
 
 Le condizioni sono un tipo di regole di [targeting](#targeting) che ti consentono di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici.
 
-![](assets/journey-condition.png)
+![Attività condizione nel percorso creazione di più percorsi in base ai criteri](assets/journey-condition.png)
 
 Scopri come definire una condizione in [questa sezione](conditions.md).
 
