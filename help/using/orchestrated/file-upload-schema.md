@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Passaggi di configurazione
-description: Scopri come creare uno schema basato su modello in Adobe Experience Platform caricando una DDL
+description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
 
-# Creare schemi basati su modelli utilizzando un file DDL {#file-upload-schema}
+# Creare schemi relazionali utilizzando un file DDL {#file-upload-schema}
 
-Definisci il modello di dati basato su modello richiesto per le campagne orchestrate creando schemi come **Iscrizioni fedeltà**, **Transazioni fedeltà** e **Premi fedeltà**. Ogni schema deve includere una chiave primaria, un attributo di controllo delle versioni e relazioni appropriate con entità di riferimento quali **Destinatari** o **Marchi**.
+Definisci il modello di dati relazionali necessario per le campagne orchestrate creando schemi come **Iscrizioni fedeltà**, **Transazioni fedeltà** e **Premi fedeltà**. Ogni schema deve includere una chiave primaria, un attributo di controllo delle versioni e relazioni appropriate con entità di riferimento quali **Destinatari** o **Marchi**.
 
 Gli schemi possono essere creati manualmente tramite l’interfaccia o importati in blocco utilizzando un file DDL.
 
-Questa sezione fornisce istruzioni dettagliate su come creare uno schema basato su modelli in Adobe Experience Platform caricando un file DDL (Data Definition Language). L’utilizzo di un file DDL consente di definire in anticipo la struttura del modello dati, incluse tabelle, attributi, chiavi e relazioni.
+Questa sezione fornisce istruzioni dettagliate su come creare uno schema relazionale all’interno di Adobe Experience Platform caricando un file DDL (Data Definition Language). L’utilizzo di un file DDL consente di definire in anticipo la struttura del modello dati, incluse tabelle, attributi, chiavi e relazioni.
 
-1. [Caricare un file DDL](#ddl-upload) per creare schemi basati su modelli e definirne la struttura.
+1. [Carica un file DDL](#ddl-upload) per creare schemi relazionali e definirne la struttura.
 
 1. [Definisci le relazioni](#relationships) tra le tabelle nel modello dati.
 
-1. [Collega schemi](#link-schema) per collegare i dati basati su modelli con entità profilo esistenti, ad esempio Destinatari o Marchi.
+1. [Collega schemi](#link-schema) per collegare i dati relazionali con entità profilo esistenti, ad esempio Destinatari o Marchi.
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi basati su modelli nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Carica un file DDL{#ddl-upload}
 
@@ -37,7 +37,7 @@ Caricando un file DDL, puoi definire in anticipo la struttura del modello dati, 
 
 Sono supportati i caricamenti di file di schema basati su Excel. Scarica il [modello fornito](assets/template.zip) per preparare facilmente le definizioni dello schema.
 
-+++Le seguenti funzioni sono supportate durante la creazione di schemi basati su modelli in Adobe Experience Platform
++++Le seguenti funzioni sono supportate durante la creazione di schemi relazionali in Adobe Experience Platform
 
 * **ENUM**\
   I campi ENUM sono supportati sia nella creazione manuale dello schema basata su DDL, che consente di definire gli attributi con un set fisso di valori consentiti.
@@ -66,7 +66,7 @@ Ecco un esempio:
 
 1. Fare clic su **Crea schema**.
 
-1. Seleziona **[!UICONTROL Basato su modello]** come **Tipo di schema**.
+1. Seleziona **[!UICONTROL Relazionale]** come **tipo di schema**.
 
    ![](assets/admin_schema_1.png)
 

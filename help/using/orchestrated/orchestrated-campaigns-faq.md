@@ -5,7 +5,7 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 13%
@@ -247,7 +247,7 @@ In Campaign Orchestration, si fa riferimento alla segmentazione ad hoc come &quo
 
 +++ Campaign Orchestration accede solo ai dati caricati tramite batch oppure può anche eseguire query su tabelle aggiornate in tempo reale (come i dati di Analytics)?
 
-Journey Optimizer Campaign Orchestration può creare query ad hoc oltre a schemi basati su modelli. Gli schemi basati su modelli supportano solo origini batch per il momento. Inoltre, supporta le attività Read audience di qualsiasi tipo di pubblico Adobe Experience Platform.
+Journey Optimizer Campaign Orchestration può creare query ad hoc oltre agli schemi relazionali. Per il momento, gli schemi relazionali supportano solo origini batch. Inoltre, supporta le attività Read audience di qualsiasi tipo di pubblico Adobe Experience Platform.
 
 **Ulteriori informazioni**
 

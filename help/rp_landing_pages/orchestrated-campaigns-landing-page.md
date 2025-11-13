@@ -5,7 +5,7 @@ title: Campagne orchestrate
 description: Campagne orchestrate
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Le campagne orchestrate in Adobe Journey Optimizer ti consentono di progettare e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alle campagne orchestrate
 
@@ -30,7 +30,7 @@ Scopri le funzionalità di base, i componenti e le distinzioni delle campagne or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Guardrail e limitazioni
 
@@ -40,17 +40,17 @@ Scopri i vincoli e le limitazioni da prendere in considerazione quando utilizzi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione dei dati per le campagne orchestrate
 
-Configura schemi, set di dati e canali basati su modelli per garantire la compatibilità dei dati per le campagne orchestrate.
+Configura schemi relazionali, set di dati e canali per garantire la preparazione dei dati per le campagne orchestrate.
 
 [Esplora la configurazione dei dati](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Avviare e gestire le campagne orchestrate
 
@@ -60,7 +60,7 @@ Guida dettagliata alla creazione, all’orchestrazione, al monitoraggio e all’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Eseguire una query sul database per le campagne orchestrate
 
@@ -70,7 +70,7 @@ Padroneggia il database che esegue query per indirizzare, segmentare ed eseguire
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Guida completa alle attività della campagna
 
