@@ -8,9 +8,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Dopo aver configurato la configurazione mobile e aver implementato il SDK mobile
    >
    > Tieni presente che per **Transazionale attivato da API**, l&#39;opzione **[!UICONTROL Alta velocità effettiva]** non deve essere abilitata.
 
-
    ![](assets/create-live-1.png)
 
 1. Dalla sezione **[!UICONTROL Proprietà]**, modifica il **[!UICONTROL Titolo]** e la **[!UICONTROL Descrizione]** della tua campagna.
@@ -73,47 +72,48 @@ Dopo aver configurato la configurazione mobile e aver implementato il SDK mobile
 
    La maggior parte dei campi del seguente esempio di payload sono obbligatori, solo `requestId`, `dismissal-date` e `alert` sono facoltativi.
 
-       &quot;json
-       &lbrace;
-       &quot;requestId&quot;: &quot;your-request-id&quot;,
-       &quot;campaignId&quot;: &quot;your-campaign-id&quot;,
-       &quot;destinatari&quot;: &lbrack;
-       &lbrace;
-       &quot;type&quot;: &quot;aep&quot;,
-       &quot;userId&quot;: &quot;testemail@gmail.com&quot;,
-       &quot;namespace&quot;: &quot;email&quot;,
-       &quot;contesto&quot;: &lbrace;
-       &quot;requestPayload&quot;: &lbrace;
-       &quot;aps&quot;: &lbrace;
-       &quot;contenuto disponibile&quot;: 1,
-       &quot;timestamp&quot;: 1756984054,              // ora attuale
-       &quot;dismissal-date&quot;: 1756984084,         // facoltativo - rimozione automatica quando event=&quot;end&quot;
-       &quot;event&quot;: &quot;update&quot;,                    // inizio | aggiorna | fine
-       
-       // Campi da FoodDeliveryLiveActivityAttributes
-       &quot;content-state&quot;: &lbrace;
-       &quot;orderStatus&quot;: &quot;Consegnato&quot;
-       &rbrace;,
-       
-       &quot;attributes-type&quot;: &quot;FoodDeliveryLiveActivityAttributes&quot;,
-       &quot;attributi&quot;: &lbrace;
-       &quot;RestaurantName&quot;: &quot;Pizza&quot;,
-       &quot;liveActivityData&quot;: &lbrace;
-       &quot;liveActivityID&quot;: &quot;orderId1&quot;       // ID riferimento cliente
-       &rbrace;
-       &rbrace;,
-       
-       &quot;avviso&quot;: &lbrace;
-       &quot;title&quot;: &quot;Ordine consegnato!&quot;,
-       &quot;body&quot;: &quot;La tua pizza è arrivata.&quot;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &quot;
+   ```json
+   {
+       "requestId": "your-request-id",
+       "campaignId": "your-campaign-id",
+       "recipients": [
+   {
+       "type": "aep",
+       "userId": "testemail@gmail.com",
+       "namespace": "email",
+       "context": {
+        "requestPayload": {
+       "aps": {
+       "content-available": 1,
+       "timestamp": 1756984054,              // current epoch time
+       "dismissal-date": 1756984084,         // optional – auto remove when event="end"
+       "event": "update",                    // start | update | end
+   
+       // Fields from FoodDeliveryLiveActivityAttributes
+       "content-state": {
+         "orderStatus": "Delivered"
+       },
+   
+       "attributes-type": "FoodDeliveryLiveActivityAttributes",
+       "attributes": {
+         "restaurantName": "Pizza",
+         "liveActivityData": {
+           "liveActivityID": "orderId1"       // customer reference ID
+         }
+       },
+   
+       "alert": {
+         "title": "Order Delivered!",
+         "body": "Your pizza has arrived."
+       }
+     }
+   }
+   }
+   }
+   ]
+   }
+   ```
+
    +++
 
 Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&#39;impatto della tua attività Live con [rapporti incorporati](../reports/campaign-global-report-cja-activity.md).
