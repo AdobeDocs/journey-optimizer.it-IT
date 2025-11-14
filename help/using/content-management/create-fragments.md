@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 25%
+source-wordcount: '758'
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 
   >[!CAUTION]
   >
-  >I frammenti non sono compatibili tra le modalità Usa temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
+  >I frammenti non sono compatibili tra le modalità Usa temi e Stile manuale. Quando utilizzi un frammento nel contenuto dell’e-mail, accertati di applicare un tema definito per questo frammento. [Ulteriori informazioni](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * Per i frammenti di espressione, utilizza l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le funzionalità di personalizzazione e authoring per creare il contenuto del frammento. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 

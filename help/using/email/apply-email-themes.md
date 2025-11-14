@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazione e-mail, CSS personalizzato, ottimizzazione mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -42,7 +42,7 @@ Questa funzione consente agli addetti al marketing di sfruttare le e-mail visiva
 
    * Per sfruttare un [frammento](../content-management/fragments.md) in un contenuto a tema, questo frammento deve essere stato creato utilizzando i temi. [Ulteriori informazioni](#leverage-themes-fragment)
 
-   * Quando utilizzi un frammento in un contenuto e-mail, assicurati di applicare un tema definito per questo frammento. In caso contrario, potrebbero verificarsi problemi di visualizzazione, in particolare in Outlook 2021 e nelle versioni precedenti. [Ulteriori informazioni](#leverage-themes-fragment)
+   * Quando utilizzi un frammento nel contenuto dell’e-mail, accertati di applicare un tema definito per questo frammento. In caso contrario, potrebbero verificarsi problemi di visualizzazione, in particolare in Outlook 2021 e nelle versioni precedenti. [Ulteriori informazioni](#leverage-themes-fragment)
 
 * Se utilizzi un contenuto creato in HTML, sarai in [modalità di compatibilità](existing-content.md) e non puoi applicare temi direttamente a questo contenuto.
 
