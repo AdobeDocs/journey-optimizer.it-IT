@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -363,16 +363,16 @@ ht-degree: 97%
          + [Utilizzare campi modificabili nelle esperienze basate su codice](using/code-based/code-based-form-fields.md)
          + [Testare le esperienze basate su codice](using/code-based/test-code-based.md)
          + [Gestire le esperienze basate su codice](using/code-based/publish-code-based.md)
-   + Schede contenuto {#content-card}
-      + [Schede contenuto](/help/rp_landing_pages/content-card-landing-page.md)
+   + Schede di contenuto {#content-card}
+      + [Schede di contenuto](/help/rp_landing_pages/content-card-landing-page.md)
       + Configurare il canale della scheda contenuto {#configure}
          + [Configurare il canale Scheda contenuto](/help/rp_landing_pages/configure-landing-page.md)
-         + [Prerequisiti per le schede contenuto](using/content-card/content-card-configuration-prereq.md)
-         + [Configurare il canale delle schede contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
+         + [Prerequisiti per le schede di contenuto](using/content-card/content-card-configuration-prereq.md)
+         + [Configurare il canale delle schede di contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configurare il supporto delle schede di contenuto nell’SDK per dispositivi mobili](using/content-card/content-card-lp.md)
          + [Configurare il supporto per le schede di contenuto in Web SDK](using/content-card/content-card-configuration-sdk.md)
-      + [Creare schede contenuto](using/content-card/create-content-card.md)
-      + [Progettare schede contenuto](using/content-card/design-content-card.md)
+      + [Creare schede di contenuto](using/content-card/create-content-card.md)
+      + [Progettare schede di contenuto](using/content-card/design-content-card.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Introduzione ai messaggi WhatsApp](using/whatsapp/get-started-whatsapp.md)
@@ -544,7 +544,7 @@ ht-degree: 97%
          + [Rapporti sulla campagna](/help/rp_landing_pages/campaign-reporting-landing-page.md)
          + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
          + [Rapporto sulla campagna basata su codice](using/reports/campaign-global-report-cja-code.md)
-         + [Rapporto sulle schede contenuto della campagna](using/reports/campaign-global-report-cja-content.md)
+         + [Rapporto sulle schede di contenuto della campagna](using/reports/campaign-global-report-cja-content.md)
          + [Rapporto sulle campagne Direct mail](using/reports/campaign-global-report-cja-direct.md)
          + [Rapporto sulla campagna e-mail](using/reports/campaign-global-report-cja-email.md)
          + [Rapporto sulla sperimentazione della campagna](using/reports/campaign-global-report-cja-experimentation.md)
@@ -557,7 +557,7 @@ ht-degree: 97%
          + [Rapporti sul percorso](/help/rp_landing_pages/journey-reporting-landing-page.md)
          + [Rapporto percorso](using/reports/journey-global-report-cja.md)
          + [Rapporto sul percorso basato su codice](using/reports/journey-global-report-cja-code.md)
-         + [Rapporto sulle schede contenuto del percorso](using/reports/journey-global-report-cja-content.md)
+         + [Rapporto sulle schede di contenuto del percorso](using/reports/journey-global-report-cja-content.md)
          + [Rapporto sul percorso direct mail](using/reports/journey-global-report-cja-direct.md)
          + [Rapporto sul percorso e-mail](using/reports/journey-global-report-cja-email.md)
          + [Rapporto sul percorso di sperimentazione](using/reports/journey-global-report-cja-experimentation.md)
@@ -822,7 +822,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -857,7 +857,7 @@ ht-degree: 97%
       + [Elenco Consentiti](using/configuration/allow-list.md)
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
-   + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
+   + [Gestire i campi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Creare webhook di feedback](using/configuration/feedback-webhooks.md)
 + Configurazione dei percorsi {#configure-journeys}
    + [Configurazione dei percorsi](/help/rp_landing_pages/configure-journeys-landing-page.md)

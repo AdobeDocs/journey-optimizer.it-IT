@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 20%
+source-wordcount: '647'
+ht-degree: 14%
 
 ---
 
-# Modificare gli indirizzi di esecuzione {#change-primary-email}
+# Gestire i campi di esecuzione predefiniti {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,8 +73,7 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Definire un valore personalizzato"
->abstract="In alcuni casi specifici, puoi sostituire l’indirizzo di esecuzione predefinito. Utilizza l’icona **Abilita sovrasccrittura parametro** a destra del campo per definire un indirizzo primario personalizzato."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informazioni sull’indirizzo di esecuzione"
+>abstract="In alcuni casi specifici, puoi sovrascrivere il valore del campo di esecuzione predefinito. Utilizza l&#39;icona **Abilita sostituzione parametro** a destra di questo campo per definire un indirizzo e-mail o un numero di telefono personalizzato con cui assegnare la priorità per l&#39;invio."
 
 Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di percorso.
 
@@ -91,7 +90,7 @@ Sostituisci questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituz
 
 >[!CAUTION]
 >
->La sostituzione dell’indirizzo e-mail o del numero di telefono deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificarlo, perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** a livello di sandbox è quello che deve essere utilizzato.
+>La sostituzione dell’indirizzo e-mail o del numero di telefono deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificarlo, perché il valore definito come campo primario nei **[!UICONTROL campi di esecuzione]** a livello di sandbox è quello che deve essere utilizzato. [Ulteriori informazioni](#change-primary-email)
 
 ## Sostituisci il campo di esecuzione predefinito nella configurazione del canale {#override-execution-address-channel-config}
 
