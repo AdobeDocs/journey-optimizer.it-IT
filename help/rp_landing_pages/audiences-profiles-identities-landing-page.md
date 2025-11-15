@@ -30,7 +30,7 @@ Scopri come creare, gestire e attivare tipi di pubblico utilizzando gli attribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=it)
 
 Profili: gestire e ottimizzare i dati cliente
 

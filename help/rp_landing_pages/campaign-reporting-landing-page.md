@@ -40,7 +40,7 @@ Scopri come valutare esperienze personalizzate e strategie decisionali basate su
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Rapporto sulla scheda contenuto della campagna
 
@@ -50,7 +50,7 @@ Analizza le campagne con scheda contenuto con metriche quali tendenze di visuali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Rapporto sulla campagna direct mail
 

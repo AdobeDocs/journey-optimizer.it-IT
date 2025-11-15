@@ -60,7 +60,7 @@ Ottieni risposte immediate e informazioni operative su Adobe Journey Optimizer u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Sperimentazione dei contenuti con IA
 
@@ -70,7 +70,7 @@ Genera più varianti di contenuto ed esegui esperimenti per identificare il cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Punteggio di Allineamento marchio
 
@@ -80,7 +80,7 @@ Valuta il livello di allineamento dei contenuti generati dall’intelligenza art
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Acceleratore esperimento
 
@@ -100,7 +100,7 @@ Trasforma le progettazioni di immagini statiche in modelli e-mail HTML modificab
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Informazioni operative sul percorso (Beta)
 

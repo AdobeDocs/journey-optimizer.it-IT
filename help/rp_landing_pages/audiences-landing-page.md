@@ -20,7 +20,7 @@ I tipi di pubblico in Adobe Journey Optimizer consentono di connettersi con le p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta i tipi di pubblico
 

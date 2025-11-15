@@ -50,7 +50,7 @@ Scopri come gestire le modifiche web utilizzando il riquadro Modifiche, ad esemp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Monitorare le esperienze web
 
@@ -60,7 +60,7 @@ Scopri come monitorare il coinvolgimento web utilizzando i rapporti e il traccia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Come creare applicazioni a pagina singola in Adobe Journey Optimizer
 
