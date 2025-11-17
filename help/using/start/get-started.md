@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,6 +88,6 @@ Consulta [Blueprint di Adobe Journey Optimizer](https://experienceleague.adobe.c
 >* [Passaggi fondamentali per iniziare](quick-start.md)
 >* [Progettare percorsi e inviare messaggi](../building-journeys/journey-gs.md)
 >* [Rapporti live](../reports/live-report.md)
->* [Introduzione all&#39;esercitazione di Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [Introduzione al tutorial di Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
 >* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

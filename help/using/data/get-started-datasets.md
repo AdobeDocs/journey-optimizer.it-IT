@@ -9,7 +9,7 @@ level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Puoi eseguire le seguenti operazioni:
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 

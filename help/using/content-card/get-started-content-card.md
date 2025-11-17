@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -49,6 +49,6 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 
 ## Risorse aggiuntive
 
-* **[Schede di contenuto nelle pagine di destinazione](content-card-lp.md)** - Scopri come implementare le schede di contenuto nelle pagine di destinazione per un coinvolgimento migliorato.
-* **[Generazione rapporti sulle schede di contenuto](content-card-report.md)** - Monitora e analizza le prestazioni delle schede di contenuto con metriche e informazioni dettagliate.
-* **[Esercitazioni sulle schede di contenuto](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Esplora esercitazioni video dettagliate sulle funzioni delle schede di contenuto e sulle best practice.
+* **[Schede contenuto nelle pagine di destinazione](content-card-lp.md)**: scopri come implementare le schede contenuto nelle pagine di destinazione per un coinvolgimento migliorato.
+* **[Reporting sulle schede contenuto](content-card-report.md)**: traccia e analizza le prestazioni delle schede contenuto con metriche e insight dettagliati.
+* **[Tutorial sulle schede contenuto](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: esplora i video tutorial dettagliati sulle funzioni e sulle best practice delle schede contenuto.

@@ -7,9 +7,9 @@ short-description: Scopri le funzioni chiave e i casi d’uso delle campagne orc
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui canali supportati, consulta la tabella in questa sezione: [Canali in percorsi e campagne](../channels/gs-channels.md#channels).
+>Per ulteriori informazioni sui canali supportati, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels).
 >
 >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
@@ -92,7 +92,7 @@ Scopri i concetti chiave e le funzionalità disponibili con le campagne orchestr
 
 ## Approfondiamo
 
-Ora che conosci le campagne orchestrate, è ora di approfondire queste sezioni della documentazione per iniziare a lavorare con questa funzione.
+Ora che sai che cosa sono le campagne orchestrate, è necessario approfondire le sezioni della documentazione per iniziare a utilizzare questa funzione.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -124,10 +124,10 @@ Ora che conosci le campagne orchestrate, è ora di approfondire queste sezioni d
 
 ## Risorse aggiuntive
 
-* **[Genera la prima regola](build-query.md)**: esegui il master del generatore di regole per creare query mirate e segmentare i tipi di pubblico con precisione utilizzando i dati relazionali.
-* **[Creare schemi relazionali](gs-schemas.md)**: scopri come impostare e configurare schemi relazionali per sfruttare i dati di più entità nelle campagne.
-* **[Generazione rapporti per campagne orchestrate](reporting-campaigns.md)** - Monitora e analizza le prestazioni della campagna con metriche di reporting dettagliate e informazioni approfondite.
-* **[Avvia e monitora le campagne](start-monitor-campaigns.md)**: scopri le best practice per avviare le campagne e monitorarne l&#39;esecuzione in tempo reale.
-* **[Guardrail e limitazioni](guardrails.md)** - Rivedi guardrail, limitazioni e best practice importanti per garantire prestazioni ottimali per la campagna.
-* **[Domande frequenti](orchestrated-campaigns-faq.md)** - Trova le risposte alle domande più frequenti sulle caratteristiche, le funzionalità e i casi d&#39;uso delle campagne orchestrate.
-* **[Esercitazioni orchestrate per le campagne](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Esplora esercitazioni video dettagliate che descrivono le funzionalità e le best practice.
+* **[Creare la prima regola](build-query.md)**: padroneggia il generatore di regole per creare query mirate e segmentare i tipi di pubblico con precisione utilizzando i dati relazionali.
+* **[Creare schemi relazionali](gs-schemas.md)**: scopri come impostare e configurare schemi relazionali per sfruttare i dati con più entità nelle campagne.
+* **[Reporting per campagne orchestrate](reporting-campaigns.md)**: tieni traccia e analizza le prestazioni delle campagne con metriche di reporting e insight dettagliati.
+* **[Avviare e monitorare le campagne](start-monitor-campaigns.md)**: scopri le best practice per avviare le campagne e monitorarne l’esecuzione in tempo reale.
+* **[Guardrail e limitazioni](guardrails.md)**: esamina guardrail, limitazioni e best practice importanti per garantire prestazioni ottimali della campagna.
+* **[Domande frequenti](orchestrated-campaigns-faq.md)**: trova le risposte alle domande comuni sulle funzioni, funzionalità e casi d’uso delle campagne orchestrate.
+* **[Tutorial per le campagne orchestrate](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: esplora i tutorial video dettagliati che descrivono le funzioni e le best practice.

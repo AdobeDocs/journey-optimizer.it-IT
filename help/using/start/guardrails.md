@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2929'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti g
 
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi e-mail da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
-Durante la progettazione dei messaggi e-mail, il sistema controlla le impostazioni chiave e visualizza avvisi relativi a avvisi (consigli e best practice) ed errori (problemi di blocco che impediscono il test o l’attivazione). Ulteriori informazioni sugli avvisi e-mail e sui requisiti di convalida in [questa sezione](../email/create-email.md#check-email-alerts).
+Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazioni chiave e mostra avvisi relativi ad avvertenze (consigli e best practice) ed errori (problemi critici che impediscono il test o l’attivazione). Scopri di più sugli avvisi e-mail e sui requisiti di convalida in [questa sezione](../email/create-email.md#check-email-alerts).
 
 ### Guardrail per SMS {#sms-guardrails}
 
@@ -228,7 +228,7 @@ All’attività del percorso [qualificazione del pubblico](../building-journeys/
 * L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
 * Gli identificatori supplementari non sono supportati per i percorsi di qualificazione del pubblico.
 
-Ulteriori informazioni sulle velocità di elaborazione percorsi e sui limiti di velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 
 #### Attività di Campaign {#ac-g}
 
@@ -266,7 +266,7 @@ All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono el
 All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
-* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza. Ulteriori informazioni sui tassi percorsi di elaborazione in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I nuovi tentativi verranno eseguiti dal sistema, ma evita di creare più di cinque percorsi (con l’attività **Leggi pubblico**, programmata o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
 * L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
 * Un percorso può disporre di una sola attività **Leggi pubblico**.

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Per le best practice per la progettazione di e-mail, fai riferimento alla tabell
 
 >[!NOTE]
 >
->Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Oltre alle best practice per la progettazione delle e-mail elencate in questa sezione, assicurati di seguire anche le linee guida elencate in [questa pagina](accessible-content.md) specifiche per la creazione di contenuti accessibili con E-mail Designer.
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Oltre alle best practice per la progettazione delle e-mail elencate in questa sezione, assicurati di seguire anche le linee guida riportare in [questa pagina](accessible-content.md) specifiche per la creazione di contenuti accessibili con E-mail designer.
 
 ## Passaggi chiave per la creazione di contenuti e-mail {#key-steps}
 
@@ -66,7 +66,7 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
    * **Importa contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare un contenuto e-mail in [questa sezione](existing-content.md).
 
-   * **Convertire le progettazioni di immagini in modelli HTML** utilizzando l&#39;immagine basata sull&#39;intelligenza artificiale in un convertitore HTML. Scopri come trasformare le immagini statiche in modelli e-mail modificabili in [questa sezione](image-to-html.md).
+   * **Converti le progettazioni di immagini in modelli HTML** utilizzando il convertitore da immagine a HTML basato sull’IA. Scopri come trasformare le immagini statiche in modelli e-mail modificabili in [questa sezione](image-to-html.md).
 
    * **Seleziona un contenuto esistente** da un elenco di modelli incorporati o personalizzati. Scopri come utilizzare i modelli e-mail in [questa sezione](../email/use-email-templates.md).
 
@@ -80,8 +80,8 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

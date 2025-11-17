@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ I set di regole consentono di **raggruppare più regole in set di regole** e di 
 
 ## Risorse aggiuntive
 
-* **[Gestione dei conflitti](conflicts.md)** - Scopri come identificare e risolvere i conflitti tra campagne e percorsi sovrapposti.
-* **[Impostare i punteggi di priorità](priority-scores.md)** - Informazioni su come assegnare e utilizzare i punteggi di priorità per controllare la precedenza della consegna dei messaggi.
-* **[Configura il limite di frequenza](channel-capping.md)** - Scopri come impostare i limiti di frequenza a livello di canale per evitare messaggi eccessivi.
-* **[Crea set di regole](rule-sets.md)** - Scopri come creare regole business per la gestione avanzata dei conflitti e la governance dei messaggi.
-* **[Limitazione specifica per il Percorso](journey-capping.md)**: imposta le regole di limitazione a livello di percorso per controllare la frequenza dei messaggi entro pochi percorsi.
-* **[Esercitazioni sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Esplora esercitazioni video dettagliate sulla gestione dei conflitti e la definizione delle priorità.
+* **[Gestire i conflitti](conflicts.md)**: scopri come identificare e risolvere i conflitti tra le campagne e i percorsi sovrapposti.
+* **[Impostare punteggi di priorità](priority-scores.md)**: informazioni su come assegnare e utilizzare i punteggi di priorità per controllare la precedenza della consegna dei messaggi.
+* **[Configurare la quota limite](channel-capping.md)**: scopri come impostare le quote limite a livello di canale per evitare l’invio eccessivo di messaggi.
+* **[Creare set di regole](rule-sets.md)**: scopri come creare regole di business per la gestione avanzata dei conflitti e la governance dei messaggi.
+* **[Limitazione specifica del percorso](journey-capping.md)**: imposta le regole di limitazione a livello di percorso per controllare la frequenza dei messaggi all’interno dei percorsi.
+* **[Tutorial sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: esplora i tutorial video dettagliati sulla gestione dei conflitti e l’assegnazione delle priorità.

@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Puoi monitorare tutte le richieste di approvazione e modifica inviate per un det
 
 ## Risorse aggiuntive
 
-* **[Crea criteri di approvazione](approval-policies.md)** - Scopri come impostare i criteri di approvazione per applicare i flussi di lavoro di revisione per campagne e percorsi.
-* **[Richiedi approvazione](request-approval.md)** - Scopri come inviare contenuti per l&#39;approvazione e tenere traccia dello stato di approvazione.
-* **[Rivedere e approvare le richieste](review-approve-request.md)** - Scopri come rivedere, approvare o rifiutare le richieste di approvazione come approvatore.
-* **[Simula con input di esempio](simulate-sample-input.md)** - Scopri come testare e convalidare il contenuto utilizzando i dati del profilo di esempio.
+* **[Creare criteri di approvazione](approval-policies.md)**: scopri come impostare i criteri di approvazione da applicare nei flussi di lavoro di revisione per le campagne e i percorsi.
+* **[Richiedere l’approvazione](request-approval.md)**: scopri come inviare contenuti per l’approvazione e tenere traccia dello stato di approvazione.
+* **[Rivedere e approvare le richieste](review-approve-request.md)**: scopri come rivedere, approvare o rifiutare le richieste di approvazione in qualità di approvatore.
+* **[Simulare con input di esempio](simulate-sample-input.md)**: scopri come testare e convalidare il contenuto utilizzando i dati del profilo di esempio.

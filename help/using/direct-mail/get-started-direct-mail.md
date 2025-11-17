@@ -8,9 +8,9 @@ level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 ## Risorse aggiuntive
 
-* **[Crea direct mailing](create-direct-mail.md)** - Scopri come creare consegne di direct mailing e configurare i file di estrazione per i canali offline.
-* **[Configura canale direct mailing](direct-mail-configuration.md)** - Imposta le superfici di direct mailing e le configurazioni di indirizzamento dei file.
-* **[Direct mailing tra percorsi](direct-mail-journeys.md)** - Scopri come utilizzare le azioni di direct mailing all&#39;interno dei percorsi di clienti.
-* **[Verifica e invia direct mailing](test-send-direct-mail.md)** - Scopri come testare, convalidare e pubblicare le consegne di direct mailing.
-* **[Tutorial di direct mailing](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni di direct mailing e sulle best practice.
+* **[Creare direct mail](create-direct-mail.md)**: scopri come creare consegne direct mail e configurare i file di estrazione per i canali offline.
+* **[Configurare il canale direct mail](direct-mail-configuration.md)**: imposta le superfici direct mail e le configurazioni di indirizzamento dei file.
+* **[Direct mail nei percorsi](direct-mail-journeys.md)**: scopri come utilizzare le azioni direct mail all’interno dei percorsi cliente.
+* **[Testare e inviare direct mail](test-send-direct-mail.md)**: scopri come testare, convalidare e pubblicare le consegne direct mail.
+* **[Tutorial su direct mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice di direct mail.
 
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 * In un **percorso**: dopo aver aggiunto un’attività **[!UICONTROL E-mail]** al percorso e definito le impostazioni di base, utilizza il riquadro **[!UICONTROL Azioni: e-mail]** a destra per creare il contenuto del messaggio. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-* In una **campagna**: dopo aver creato una campagna, seleziona l’azione **[!UICONTROL E-mail]** e definisci le impostazioni di base. Scopri come creare [una campagna di azioni](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
+* In una **campagna**: dopo aver creato una campagna, seleziona l’azione **[!UICONTROL E-mail]** e definisci le impostazioni di base. Scopri come creare [una campagna di azione](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 ## Risorse aggiuntive
 
-* **[Creazione di un messaggio e-mail](create-email.md)** - Scopri come creare messaggi e-mail in campagne e percorsi con istruzioni dettagliate.
-* **[Progetta contenuto e-mail](get-started-email-design.md)** - Scopri i diversi modi in cui progettare il contenuto delle e-mail, da zero o utilizzando i modelli.
-* **[Configurazione e-mail](get-started-email-config.md)** - Scopri come configurare le impostazioni e-mail, inclusi superfici e-mail, sottodomini e pool IP.
-* **[Personalizzazione e stile delle e-mail](get-started-email-style.md)** - Tecniche di stile principali tra cui CSS personalizzato, allineamento, spaziatura interna e supporto della modalità scura.
-* **[Tracciare e monitorare le e-mail](message-tracking.md)** - Scopri come tenere traccia di aperture di messaggi, clic e gestire il tracciamento URL per l’analisi delle prestazioni.
-* **[Tutorial sul canale e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni e le best practice per le e-mail.
+* **[Creare un’e-mail](create-email.md)**: scopri come creare messaggi e-mail nelle campagne e nei percorsi con istruzioni dettagliate.
+* **[Progettare contenuti e-mail](get-started-email-design.md)**: scopri i diversi modi in cui progettare i contenuti delle e-mail, da zero o utilizzando i modelli.
+* **[Configurazione e-mail](get-started-email-config.md)**: scopri come configurare le impostazioni e-mail, inclusi superfici e-mail, sottodomini e pool IP.
+* **[Personalizzazione e stile delle e-mail](get-started-email-style.md)**: padroneggia le tecniche di stile tra cui CSS personalizzato, allineamento, spaziatura e supporto della modalità scura.
+* **[Tracciare e monitorare le e-mail](message-tracking.md)**: scopri come tenere traccia di aperture di messaggi, clic e gestire il tracciamento URL per l’analisi delle prestazioni.
+* **[Tutorial sul canale e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice delle e-mail.

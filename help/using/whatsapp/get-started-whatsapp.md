@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer utiliz
 
 * In un **percorso**. Crea un percorso, aggiungi un’attività **WhatsApp** e definisci le impostazioni di base, quindi passa al riquadro a destra **[!UICONTROL Azioni: WhatsApp]** per creare il contenuto per il messaggio WhatsApp. Ulteriori informazioni su come creare un percorso sono disponibili in [questa pagina](../building-journeys/journey-gs.md).
 
-* In una **campagna**. Crea una campagna, seleziona **WhatsApp** come azione e definisci le impostazioni di base, quindi modifica il contenuto del messaggio per definire il messaggio WhatsApp da inviare. Scopri come creare [una campagna di azioni](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
+* In una **campagna**. Crea una campagna, seleziona **WhatsApp** come azione e definisci le impostazioni di base, quindi modifica il contenuto del messaggio per definire il messaggio WhatsApp da inviare. Scopri come creare [una campagna di azione](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
@@ -58,13 +58,13 @@ Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Jou
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470252?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
 ## Risorse di apprendimento aggiuntive
 
-Esplora ulteriori esercitazioni video sulla messaggistica e la configurazione di WhatsApp.
+Esplora ulteriori tutorial video sulla messaggistica e la configurazione di WhatsApp.
 
 ➡️ [Tutorial sul canale WhatsApp](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

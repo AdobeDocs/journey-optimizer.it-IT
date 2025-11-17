@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Utilizza campagne [!DNL Journey Optimizer] per distribuire contenuti una tantum 
 
 ## Tipi di campagna
 
-[!DNL Journey Optimizer] supporta tre tipi di campagna. Ogni tipo si adatta a casi d’uso diversi e supporta canali diversi. Per ulteriori informazioni sui canali disponibili con ciascun tipo di campagna, consulta la tabella in questa sezione: [Canali in percorsi e campagne](../channels/gs-channels.md#channels)
+[!DNL Journey Optimizer] supporta tre tipi di campagna. Ogni tipo è adatto a casi d’uso diversi e supporta canali diversi. Per ulteriori informazioni sui canali disponibili con ciascun tipo di campagna, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -149,7 +149,7 @@ Prima di utilizzare le campagne, assicurati di aver rivisto i prerequisiti di se
 
    1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
-      Se l&#39;utente non è stato creato in precedenza, consulta la [documentazione sull&#39;aggiunta di utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}
+      Se l’utente non è stato creato in precedenza, consulta la [documentazione per aggiungere gli utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}
 
 
   L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.

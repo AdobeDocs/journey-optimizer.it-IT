@@ -7,9 +7,9 @@ topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 04a08f237e126e782355197b64239512e24b27da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,34 +22,34 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] segue un modello di distribuzione continua, che consente ad Adobe di fornire nuove funzioni, miglioramenti e correzioni su base continuativa. Questo approccio consente un rollout scalabile e graduale delle funzionalità per garantire prestazioni e stabilità in tutti gli ambienti.
 
-A causa di questo modello, le note sulla versione vengono aggiornate tra le versioni mensili.  Una sezione dedicata agli [aggiornamenti più recenti](#latest-updates) evidenzia nuove funzionalità e miglioramenti man mano che vengono implementati in produzione, in modo da essere sempre informati di tutte le modifiche in tempo reale. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, vedere [Ciclo di rilascio di Journey Optimizer](releases.md).
+A causa di questo modello, le note sulla versione vengono aggiornate tra le versioni mensili.  Una sezione dedicata agli [aggiornamenti più recenti](#latest-updates) evidenzia nuove funzionalità e miglioramenti man mano che vengono distribuiti in produzione, in modo da non perderti alcuna modifica in tempo reale. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](releases.md).
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Ultimi aggiornamenti {#latest-updates}
 
-Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche le ultime [note sulla versione &#x200B;](#latest-rn).
+Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nelle ultime settimane, con la relativa data di disponibilità. Saranno raggruppati con il contenuto delle prossime note sulla versione alla fine del mese. Consulta anche [note sulla versione più recenti di seguito](#latest-rn).
 
 ### Nuove funzionalità {#features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Nuovi avvisi di percorso</strong><br/></th>
+<th><strong>Avvisi su nuovi percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sono ora disponibili tre nuovi avvisi di percorso per aiutarti a monitorare e tenere traccia degli eventi del ciclo di vita del percorso e delle prestazioni delle azioni personalizzate:</p>
+<p>Sono ora disponibili tre avvisi su nuovi percorsi per aiutarti a monitorare e tenere traccia degli eventi del ciclo di vita del percorso e delle prestazioni delle azioni personalizzate:</p>
 <ul>
-<li><strong>Percorso pubblicato</strong>: ricevi notifiche quando un percorso viene pubblicato da un operatore nell'area di lavoro del percorso.</li>
-<li><strong>Percorso completato</strong>: ricevere avvisi al termine di un percorso, con definizioni specifiche basate sul tipo di percorso (Read Audience o Event-triggered).</li>
-<li><strong>Attivazione del limite delle azioni personalizzato</strong>: ricevere una notifica quando il limite viene attivato su un endpoint di azione personalizzato.</li>
+<li><strong>Percorso pubblicato</strong>: ricevi notifiche quando un percorso viene pubblicato da un professionista nell’area di lavoro del percorso.</li>
+<li><strong>Percorso completato</strong>: ricevi avvisi al termine di un percorso, con definizioni specifiche basate sul tipo di percorso (Leggi pubblico o Attivato da eventi).</li>
+<li><strong>Limitazione azione personalizzata attivata</strong>: ricevi una notifica quando il limite viene attivato su un endpoint dell’azione personalizzata.</li>
 </ul>
-<p>Questi avvisi possono essere sottoscritti a livello di organizzazione o per percorsi specifici.</p>
+<p>È possibile iscriversi a questi avvisi a livello organizzativo o per singoli percorsi.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md#journey-alerts">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 5 novembre 2025</p>
+<p>Data di disponibilità: 5 novembre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nel
 <p>Precedentemente rilasciata nella versione Beta, questa funzionalità è ora disponibile per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 5 novembre 2025</p>
+<p>Data di disponibilità: 5 novembre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nel
 <tbody>
 <tr>
 <td>
-<p>L’immagine al convertitore HTML è una funzione basata sull’intelligenza artificiale che converte le progettazioni di immagini statiche in modelli di contenuto e-mail di HTML modulari e completamente personalizzabili. Questo strumento senza codice consente agli addetti al marketing di trasformare i progetti visivi in modelli e-mail dinamici e modificabili senza richiedere competenze tecniche, perfetto per la migrazione della piattaforma, la creazione rapida di modelli e la creazione di librerie di modelli riutilizzabili.</p>
+<p>Il convertitore da immagine a HTML è una funzione basata sull’IA che converte le progettazioni di immagini statiche in modelli di contenuto e-mail HTML modulari e completamente personalizzabili. Questo strumento senza codice consente ai marketer di trasformare i progetti visivi in modelli e-mail dinamici e modificabili senza richiedere competenze tecniche, perfetto per la migrazione della piattaforma, la creazione rapida di modelli e la creazione di librerie di modelli riutilizzabili.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/image-to-html.md">documentazione dettagliata</a>.</p>
@@ -108,8 +108,8 @@ Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nel
 <tbody>
 <tr>
 <td>
-<p>Questa funzionalità fornisce una migliore visibilità sullo stato e sulle prestazioni degli endpoint di azione personalizzati. Un nuovo dashboard di monitoraggio delle azioni personalizzato e i campi corrispondenti nel set di dati dell’evento del passaggio di percorso ti aiuteranno a monitorare chiamate, errori, velocità effettiva, tempo di risposta e tempo di attesa della coda per gli endpoint dell’azione personalizzata. Ora puoi capire rapidamente quando, dove e perché si verifica una situazione anomala in un’azione personalizzata.</p>
-<p>Questa funzionalità è attualmente a disponibilità limitata per i clienti.</p>
+<p>Questa funzionalità offre una migliore visibilità sullo stato e sulle prestazioni dell’endpoint dell’azione personalizzata. Una nuova dashboard di monitoraggio delle azioni personalizzate e i campi corrispondenti nel set di dati dell’evento di passaggio del percorso ti aiuteranno a monitorare chiamate, errori, velocità effettiva, tempo di risposta e tempo di attesa in coda per gli endpoint dell’azione personalizzata. Ora puoi comprendere rapidamente quando, dove e perché si verifica una situazione anomala in un’azione personalizzata.</p>
+<p>Al momento questa funzionalità è in disponibilità limitata per la clientela.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/reporting.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 28 ottobre 2025</p>
 </td>
@@ -128,10 +128,10 @@ Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nel
 <td>
 <p>Con [!DNL Journey Optimizer] è ora possibile acquisire gli attributi di profilo tramite le pagine di destinazione.</p>
 <p>Crea, progetta e gestisci moduli personalizzati adatti alle tue esigenze sulla base di un set di dati specifico. Puoi quindi sfruttare questi moduli nelle pagine di destinazione per aggiungere gli attributi di profilo desiderati nel set di dati definito per ciascun modulo.</p>
-<p>Questa funzionalità è attualmente a disponibilità limitata per i clienti negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Al momento questa funzionalità è in disponibilità limitata per la clientela negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../landing-pages/lp-forms.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: venerdì 23 ottobre 2025</p>
+<p>Data di disponibilità: 23 ottobre 2025</p>
 </td>
 </tr>
 </tbody>

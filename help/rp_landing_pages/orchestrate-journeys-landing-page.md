@@ -6,9 +6,9 @@ description: Percorsi
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ I percorsi in Adobe Journey Optimizer consentono di creare percorsi cliente pers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione ai percorsi Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Scopri come creare percorsi cliente in tempo reale e a più passaggi, utilizzand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guida completa alla creazione e alla gestione dei percorsi
 
@@ -40,7 +40,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guida completa alla gestione dei percorsi
 
@@ -50,7 +50,7 @@ Gestisci i percorsi cliente in modo efficiente con strumenti per filtrare, gesti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Attività in Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creare espressioni in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casi d’uso pratici per Adobe Journey Optimizer
 
@@ -88,6 +88,6 @@ Esplora le applicazioni reali di Adobe Journey Optimizer, inclusa la messaggisti
 
 - **[Iscriviti agli avvisi sui percorsi](../using/reports/alerts.md)**: scopri come gestire gli avvisi di sistema, iscriverti alle notifiche e risolvere i problemi nei percorsi e nelle campagne.
 
-- **[Esercitazioni per Percorsi](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Scopri come creare percorsi tramite esercitazioni video pratiche che includono funzionalità, funzionalità e best practice.
+- **[Tutorial sui percorsi](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}**: scopri come creare percorsi tramite pratici tutorial video che includono funzioni, funzionalità e best practice.
 
 

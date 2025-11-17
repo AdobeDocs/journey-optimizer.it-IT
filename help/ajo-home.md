@@ -6,9 +6,9 @@ description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ La versione di ottobre di Journey Optimizer è ora disponibile. Scopri le nuove 
 
 >[!TAB Orchestrazione della campagna]
 
-Journey Optimizer ora include **Campaign Orchestration**, una nuova funzionalità appositamente creata per le campagne batch avviate dal marchio.
+Journey Optimizer ora include l’**orchestrazione delle campagne**, una nuova funzionalità appositamente creata per le campagne batch avviate dal brand.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB Ore non interattive]
+>[!TAB Ore di silenzio]
 
-Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp.
+Le ore di silenzio ti consentono di definire esclusioni basate sul tempo per i canali e-mail, SMS, push e WhatsApp.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
@@ -49,7 +49,7 @@ Le ore di pausa consentono di definire esclusioni basate sul tempo per i canali 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recente
 
@@ -59,7 +59,7 @@ Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione
 
@@ -69,7 +69,7 @@ Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’ar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -79,7 +79,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -89,7 +89,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -99,7 +99,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
