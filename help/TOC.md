@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -28,11 +28,11 @@ ht-degree: 97%
       + [2022](using/rn/release-notes-2022.md)
       + [2021](using/rn/release-notes-2021.md)
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
-   + [Rapporto aggiornamenti mensili](../monthly-updates-report.md)
+   + [Rapporto sugli aggiornamenti mensili](../monthly-updates-report.md)
    + [Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
 + Introduzione {#get-started}
    + [Introduzione](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Funzionalità principali](using/start/get-started.md)
+   + [Funzionalità chiave](using/start/get-started.md)
    + [Architettura](using/start/architecture-concepts-redpen.md)
    + [Concetti di base](using/start/functional-areas-redpen.md)
    + [Terminologia chiave](using/start/terminology-md-redpen.md)
@@ -46,8 +46,8 @@ ht-degree: 97%
       + [Introduzione all’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
       + [Accessibilità](using/start/accessibility.md)
-   + [Utilizzare l’Assistente IA](using/start/ai-assistant.md)
-   + [Funzionalità di intelligenza artificiale in AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
+   + [Utilizza l’Assistente IA](using/start/ai-assistant.md)
+   + [Funzionalità IA in AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [Playbook di casi d’uso](using/start/playbooks.md)
    + [Guardrail e limitazioni](using/start/guardrails.md)
 + Percorsi {#orchestrate-journeys}
@@ -60,7 +60,7 @@ ht-degree: 97%
       + [Impostare le proprietà del percorso](using/building-journeys/journey-properties.md)
       + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
-      + [Test del percorso](using/building-journeys/testing-the-journey.md)
+      + [Testare il percorso](using/building-journeys/testing-the-journey.md)
       + [Prova del percorso](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
       + [Mettere in pausa un percorso](using/building-journeys/journey-pause.md)
@@ -111,11 +111,11 @@ ht-degree: 97%
          + [Esempi](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Funzioni {#main-functions-journey}
          + [Funzioni principali](using/building-journeys/expression/functions.md)
-         + [funzione inAudience](using/building-journeys/functions/functioninaudience.md)
+         + [Funzione inAudience](using/building-journeys/functions/functioninaudience.md)
          + [Funzioni di aggregazione](using/building-journeys/functions/aggregation-functions.md)
          + [Funzioni di conversione](using/building-journeys/functions/conversion-functions.md)
          + [Funzioni data](using/building-journeys/functions/date-functions.md)
-         + [Elencare funzioni](using/building-journeys/functions/list-functions.md)
+         + [Funzioni elenco](using/building-journeys/functions/list-functions.md)
          + [Funzioni matematiche](using/building-journeys/functions/math-functions.md)
          + [Funzioni stringa](using/building-journeys/functions/string-functions.md)
    + Casi d’uso {#journey-use-cases}
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [Campagne](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Accedere alle campagne e gestirle](using/campaigns/manage-campaigns.md)
-   + [Ore non interattive](using/campaigns/quiet-hours.md)
+   + [Ore di silenzio](using/campaigns/quiet-hours.md)
    + Campagne di azione {#action-campaigns}
       + [Campagne di azione](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Utilizzare le campagne di azione](using/campaigns/create-campaign.md)
@@ -228,10 +228,10 @@ ht-degree: 97%
       + [Creare e gestire criteri di approvazione](using/test-approve/approval-policies.md)
       + [Richiedere un’approvazione](using/test-approve/request-approval.md)
       + [Approvare una richiesta](using/test-approve/review-approve-request.md)
-+ Monitoraggio e risoluzione dei problemi {#monitor}
++ Monitorare e risolvere i problemi {#monitor}
    + [Monitoraggio e risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Avvisi di sistema](using/reports/alerts.md)
-   + [Riferimento codici di errore](using/building-journeys/error-codes-reference.md)
+   + [Riferimento ai codici di errore](using/building-journeys/error-codes-reference.md)
    + [Articoli sulla risoluzione dei problemi](using/start/troubleshooting.md)
    + Risoluzione dei problemi dei percorsi {#troubleshoot-journey}
       + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
@@ -254,8 +254,8 @@ ht-degree: 97%
             + [Importare i contenuti](using/email/existing-content.md)
             + [Creare il codice del contenuto](using/email/code-content.md)
             + [Utilizzare modelli di e-mail](using/email/use-email-templates.md)
-            + [Conversione di immagini in modelli HTML](using/email/image-to-html.md)
-            + [Sfruttare i temi per e-mail](using/email/apply-email-themes.md)
+            + [Convertire immagini in modelli HTML](using/email/image-to-html.md)
+            + [Sfruttare i temi delle e-mail](using/email/apply-email-themes.md)
             + [Allegare i file PDF alle e-mail](using/email/pdf-attachments.md)
          + Progettare i contenuti {#add-content}
             + [Progettare i contenuti](/help/rp_landing_pages/add-content-landing-page.md)
@@ -494,7 +494,7 @@ ht-degree: 97%
    + [Ottimizzazione dei messaggi](using/campaigns/campaigns-message-optimization.md)
    + Esperimento contenuti {#content-experiment}
       + [Esperimento contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
-      + [Introduzione all’esperimento sui contenuti](using/content-management/get-started-experiment.md)
+      + [Introduzione agli esperimenti sui contenuti](using/content-management/get-started-experiment.md)
       + [Introduzione all’acceleratore di esperimenti](using/content-management/experiment-accelerator-gs.md)
       + [Creare un esperimento sui contenuti](using/content-management/content-experiment.md)
       + Note tecniche {#technotes}
@@ -823,7 +823,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

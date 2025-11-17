@@ -222,7 +222,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>È ora possibile mettere in pausa e riprendere i percorsi. Questa funzionalità offre ai professionisti del percorso maggiore controllo e flessibilità, consentendo di sospendere temporaneamente i percorsi live senza compromettere l’esperienza cliente. Quando il percorso è in pausa, le comunicazioni non vengono inviate e i profili rimangono in stato di sospensione fino a quando il percorso non viene ripreso.</p>
 <p>È possibile mettere in pausa e riprendere un singolo percorso, oppure eseguire operazioni di pausa e di ripresa in blocco su un gruppo di percorsi.</p>
-<p>Inoltre, puoi applicare ai percorsi in pausa i criteri di uscita basati sugli attributi del profilo (precedentemente denominati "filtri globali") per escludere i profili in base ai loro attributi.</p>
+<p>Inoltre, puoi applicare criteri di uscita basati sull’attributo profilo (in precedenza “filtro globale”) ai percorsi in pausa per escludere i profili in base ai rispettivi attributi.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-pause.md">documentazione dettagliata</a></p>
@@ -419,7 +419,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Campagne programmate per azioni transazionali**: le campagne programmate per azioni transazionali sono ora disponibili per l’invio di comunicazioni transazionali batch e basate sul pubblico tramite canali e-mail, SMS e push.
 
-* **Canale: schede contenuto**
+* **Canale: schede di contenuto**
 
    * **Modelli layout per schede di contenuto**: il canale della scheda di contenuto ora fornisce layout di messaggi OOTB che semplificano l’esperienza di authoring. Questa versione include i modelli layout Immagine piccola, Immagine grande e Solo immagine. [Ulteriori informazioni](../content-card/design-content-card.md)
 
@@ -475,7 +475,7 @@ Journey Optimizer ora include l’ **orchestrazione della campagna**, una nuova 
 
 Include [Schemi relazionali e set di dati](#oc-relational) e [Area di lavoro della campagna](#oc-canvas). Insieme, queste due innovazioni sbloccano un nuovo standard per l’orchestrazione di campagne batch in Journey Optimizer. Le funzionalità principali sono elencate di seguito.
 
-### Funzionalità principali {#oc-capabilities}
+### Funzionalità chiave {#oc-capabilities}
 
 * **Flussi di lavoro con più passaggi**
 
