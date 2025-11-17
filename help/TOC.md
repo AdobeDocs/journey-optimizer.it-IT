@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -316,7 +316,7 @@ ht-degree: 97%
       + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
       + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
       + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
-      + [Best practice per l’ottimizzazione dei costi degli SMS](using/sms/sms-subdomains.md)
+      + [Best practice per l’ottimizzazione dei costi degli SMS](using/sms/sms-cost-optimization.md)
       + Configurare il canale SMS/MMS/RCS {#configure-sms}
          + [Configurare il canale SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introduzione alla configurazione di SMS/MMS/RCS](using/sms/sms-configuration.md)
@@ -823,7 +823,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
