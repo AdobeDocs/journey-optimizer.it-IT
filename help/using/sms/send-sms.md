@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,22 @@ A tale scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi controlla il
 ![](assets/sms_preview_2.png)
 
 Informazioni dettagliate su come visualizzare in anteprima e testare il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
+
+### Codifica e limiti dei caratteri {#sms-character-limits}
+
+Durante l&#39;accesso al menu **[!UICONTROL Simula contenuto]** viene visualizzato un conteggio di caratteri che facilita la pianificazione e la gestione dei messaggi SMS.
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizer utilizza la codifica UTF-8 nel proprio editor SMS, che consente di digitare o incollare caratteri a doppio byte o Unicode. Questi caratteri vengono quindi trasmessi al fornitore di servizi per la consegna. La maggior parte dei provider SMS utilizza la codifica GSM a 7 bit per i messaggi standard con un limite di 160 caratteri e passa a UTF-16 (UCS-2) quando vengono rilevati caratteri non GSM con un limite di 70 caratteri.
+
+Il conteggio dei caratteri non riflette le varianti introdotte dalla personalizzazione dinamica o dai caratteri speciali non GSM a 7 bit.
+
+>[!IMPORTANT]
+>
+>Il reporting sulla consegna di SMS Journey Optimizer non tiene conto dei messaggi concatenati e della personalizzazione dinamica, pertanto potrebbe non riflettere il numero effettivo di messaggi inviati dal provider. Per informazioni dettagliate sull’utilizzo e sulla fatturazione, contatta il tuo rappresentante Adobe.
+>
+>Per informazioni sulle best practice per ridurre al minimo le interruzioni di fatturazione SMS, consulta [Best practice SMS per l&#39;ottimizzazione dei caratteri](sms-cost-optimization.md).
 
 ## Convalidare il contenuto {#sms-validate}
 
