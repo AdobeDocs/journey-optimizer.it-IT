@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -75,5 +75,5 @@ Questo documento tratta le conoscenze preliminari necessarie per effettuare chia
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830?captions=ita&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

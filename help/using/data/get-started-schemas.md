@@ -9,7 +9,7 @@ level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
 
 Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
