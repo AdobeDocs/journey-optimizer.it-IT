@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazione e-mail, CSS personalizzato, ottimizzazione mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ Questa funzione consente agli addetti al marketing di sfruttare le e-mail visiva
   Se scegli la modalità Stile manuale, non potrai applicare alcun tema a meno che non reimposti l’e-mail.
 
 * [I frammenti](../content-management/fragments.md) non sono compatibili tra le modalità Usa temi e Stile manuale.
+
+   * I frammenti con tema non sono disponibili nei contenuti e-mail creati senza l’utilizzo di temi.
 
    * Per sfruttare un [frammento](../content-management/fragments.md) in un contenuto a tema, questo frammento deve essere stato creato utilizzando i temi. [Ulteriori informazioni](#leverage-themes-fragment)
 
@@ -227,6 +229,10 @@ Per creare un frammento compatibile con i temi, effettua le seguenti operazioni.
 ## Rendere un modello compatibile con i temi {#theme-convertor}
 
 [!DNL Journey Optimizer] consente di convertire un modello creato con lo stile manuale in un contenuto compatibile con il tema. Ciò può essere particolarmente utile se sono stati creati modelli di contenuto prima dell&#39;introduzione dei temi in [!DNL Journey Optimizer] o se si sta importando contenuto esterno.
+
+>[!NOTE]
+>
+> Solo i **modelli e-mail** possono essere convertiti per essere compatibili con i temi. Le singole e-mail non possono essere convertite; devi prima salvare il contenuto come modello.
 
 1. Apri un [modello di contenuto](../content-management/create-content-templates.md) per e-mail e modificane il contenuto tramite E-mail Designer.
 
