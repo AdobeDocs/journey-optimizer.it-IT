@@ -75,5 +75,5 @@ Questo documento tratta le conoscenze preliminari necessarie per effettuare chia
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/342830?captions=ita&quality=12) -->
 
