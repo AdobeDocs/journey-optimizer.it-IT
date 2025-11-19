@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Mentre Journey Optimizer visualizza un conteggio di caratteri, spazi inclusi, du
 
 ## Informazioni sul reporting {#understanding-reporting}
 
-**Il reporting di Journey Optimizer** conta il messaggio completo come un invio, indipendentemente dalle parti SMS. Questo consente di ridurre la quantità di profili coinvolgibili.
+**Il reporting di Journey Optimizer** conta il messaggio completo come un invio, indipendentemente dalle parti SMS.
 
-**Generazione rapporti sul provider** mostra le parti SMS effettive per la consegna e deve essere utilizzato per determinare la fatturazione e le interruzioni.
+**Il rapporto del provider** riflette il numero effettivo di parti del messaggio SMS utilizzate per la consegna e deve essere utilizzato come riferimento per confermare la fatturazione ed eventuali interruzioni. Se Adobe è il tuo provider SMS tramite Sinch, riceverai questo rapporto di fatturazione separatamente su base mensile.
 
 ## Considerazioni su Personalization {#personalization-considerations}
 
