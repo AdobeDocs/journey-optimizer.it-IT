@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%
@@ -42,15 +42,13 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
 1. Inserisci il nome dell’evento. Puoi anche aggiungere una descrizione.
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri.
 
-1. Nel campo **[!UICONTROL Tipo]** scegliere **Unitario**.
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. Nel campo **[!UICONTROL Tipo]** scegliere **Unitario**.
 
 1. Nel campo **[!UICONTROL Tipo ID evento]**, selezionare il tipo di ID evento che si desidera utilizzare: **Basato su regole** o **Generato dal sistema**. Ulteriori informazioni sui tipi di ID evento in [questa sezione](../event/about-events.md#event-id-type).
 
@@ -68,8 +66,6 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
 1. Per gli eventi basati su regole, fai clic nel campo **[!UICONTROL Event ID condition]**. Utilizzando l’editor di espressioni semplice o avanzato, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
 
-   ![](assets/jo-event6.png)
-
    Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (campo **[!UICONTROL Città]** e valore **[!UICONTROL Parigi]**), lo trasmetterà ai percorsi.
 
    >[!NOTE]
@@ -81,8 +77,6 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 1. Aggiungi un tipo di identità. Questo passaggio è facoltativo ma consigliato, in quanto l’aggiunta di un tipo di identità ti consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale. definendo il tipo di chiave di cui dispone l’evento. Ulteriori informazioni in [questa sezione](../event/about-creating.md#select-the-namespace).
 
 1. Definire l’identificatore del profilo: scegli un campo dai campi del payload o definisci una formula per identificare la persona associata all’evento. Se selezioni un tipo di identità, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, i percorsi selezionano la chiave che deve corrispondere al tipo di identità (ad esempio, se selezioni un tipo di identità e-mail, verrà selezionata la chiave e-mail). Ulteriori informazioni in [questa sezione](../event/about-creating.md#define-the-event-key).
-
-   ![](assets/jo-event7.png)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -163,7 +157,7 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 
 1. Seleziona il campo scelto come chiave nell’elenco dei campi del payload.
 
-Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [&#128279;](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
 La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
 ## Editor di espressioni avanzate {#adv-exp-editor}
