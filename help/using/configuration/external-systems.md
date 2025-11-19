@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 19%
+source-wordcount: '1781'
+ht-degree: 18%
 
 ---
 
@@ -33,7 +33,7 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, i guardrail tec
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Limitazione e limitazione delle API {#capping}
 
@@ -127,6 +127,24 @@ Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi 
 +++ Dove posso configurare il timeout? Esiste un valore massimo?
 
 In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Consulta [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
+
++++
+
++++ Qual è il proxy in uscita e quando dovrei usarlo?
+
+Il proxy in uscita fornisce un **indirizzo IP statico** per le chiamate in uscita da Journey Optimizer verso i sistemi esterni. Utilizzalo quando gli endpoint di terze parti richiedono l’inserire nell&#39;elenco Consentiti dell’IP.
+
+**Importante:** Il proxy di uscita NON controlla la velocità effettiva, i limiti di velocità o il numero di connessioni simultanee. Per gestire il volume di chiamate e i limiti di connessione, utilizzare l&#39;[API di limitazione](capping.md) o l&#39;[API di limitazione](throttling.md).
+
+**Utilizza il proxy di uscita per:**
+* Inserire nell&#39;elenco Consentiti un IP statico sul firewall o sull’endpoint di terze parti
+
+**Usa API di limitazione/limitazione per:**
+* Limitazione del numero di chiamate API al secondo
+* Controllo delle connessioni simultanee all’endpoint
+* Protezione del sistema esterno da sovraccarichi
+
+Contatta Adobe per abilitare il proxy di uscita per la tua organizzazione, se hai bisogno di un IP statico a scopo di inserire nell&#39;elenco Consentiti di un’organizzazione. Per favore, contatta l’amministratore di sistema.
 
 +++
 
