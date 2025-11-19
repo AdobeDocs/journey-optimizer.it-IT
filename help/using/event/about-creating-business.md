@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 
 >[!NOTE]
 >
->Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Non è necessario abilitare lo schema per il profilo.
+>Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 
@@ -56,7 +56,7 @@ Gli eventi di business seguono le regole di rientro nello stesso modo degli even
 
 **Quali sono i guardrail per evitare il sovraccarico dei tipi di pubblico materializzati?**
 
-Nel caso di eventi di business on-shot, per un determinato percorso, i dati inviati dal primo processo evento vengono riutilizzati durante un intervallo di tempo di 1 ora. Per i percorsi programmati, non c&#39;è guardrail. Per ulteriori informazioni sui tipi di pubblico, consulta la [documentazione sul servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it).
+Nel caso di eventi di business on-shot, per un determinato percorso, i dati inviati dal primo processo evento vengono riutilizzati durante un intervallo di tempo di 1 ora. Per i percorsi programmati, non c&#39;è guardrail. Per ulteriori informazioni sui tipi di pubblico, consulta la [documentazione sul servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 
 ## Introduzione agli eventi di business {#gs-business-events}
 
