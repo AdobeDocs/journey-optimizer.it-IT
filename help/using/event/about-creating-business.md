@@ -31,7 +31,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 
 >[!NOTE]
 >
->Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
+>Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 
