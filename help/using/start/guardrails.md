@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti g
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi e-mail da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
 Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazioni chiave e mostra avvisi relativi ad avvertenze (consigli e best practice) ed errori (problemi critici che impediscono il test o l’attivazione). Scopri di più sugli avvisi e-mail e sui requisiti di convalida in [questa sezione](../email/create-email.md#check-email-alerts).
+
+#### Dimensione del contenuto del messaggio per la pubblicazione del percorso {#message-content-size}
+
+Quando si pubblicano percorsi che contengono messaggi e-mail, la dimensione totale del contenuto del messaggio non deve superare **2 MB** dopo l&#39;elaborazione back-end. Durante la pubblicazione, il sistema elabora automaticamente il contenuto dei messaggi applicando patch a collegamenti, immagini e trasformazioni, aumentando le dimensioni del payload oltre le dimensioni del contenuto creato.
+
+>[!CAUTION]
+>
+>Se il contenuto finale del messaggio elaborato supera i 2 MB, la pubblicazione del percorso non riuscirà. Per evitare errori di pubblicazione, mantieni il contenuto del messaggio creato ben al di sotto di 2 MB, idealmente al di sotto di **1 MB**, per consentire un buffer di 300-400 KB per il sovraccarico di elaborazione del back-end.
+
+**Best practice per evitare errori di pubblicazione:**
+
+* Mantieni contenuti e-mail creati sotto 1 MB
+* Riduci al minimo il numero di varianti di contenuto
+* Ottimizzare e comprimere le immagini prima di aggiungerle ai messaggi
+* Rimuovere le risorse inutilizzate e gli elementi HTML non necessari
+* Verifica la dimensione del messaggio prima di pubblicare i percorsi in produzione
+
+Se la pubblicazione del percorso non riesce a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e ripubblica il percorso.
 
 ### Guardrail per SMS {#sms-guardrails}
 
