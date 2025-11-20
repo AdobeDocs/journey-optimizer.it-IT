@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3f035ccae6970988927d20a5b2e6dfe588fb0b7
+source-git-commit: 3ecc3fd4f7535ab3aee15989bf1a509589a338e4
 workflow-type: tm+mt
-source-wordcount: '2989'
-ht-degree: 96%
+source-wordcount: '3229'
+ht-degree: 89%
 
 ---
 
@@ -23,6 +23,16 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È stata aggiunta una nota alla documentazione sulla definizione del segmento per chiarire che l&#39;attributo `frequencyMap` non è supportato per l&#39;utilizzo nelle definizioni dei segmenti e non può essere utilizzato come parte dei criteri di segmentazione del pubblico. Per il targeting basato sulla frequenza, considera l’utilizzo delle regole di quota limite nelle regole business. [Ulteriori informazioni](../audience/creating-a-segment-definition.md)
 * Nella documentazione sulle risposte alle chiamate API è stato aggiunto un nuovo esempio che illustra come utilizzare le risposte alle azioni personalizzate nei canali nativi. L’esempio dimostra l’iterazione su array nidificati delle risposte di azioni personalizzate tramite la sintassi Handlebars nei messaggi e-mail, push e SMS. [Ulteriori informazioni](../action/action-response.md#response-in-channels)
+
+* È stata aggiunta una nuova sezione alla documentazione sull’integrazione di Campaign v7/v8 che spiega come aggiornare le azioni personalizzate esistenti quando l’endpoint in tempo reale (RT) cambia. La sezione include istruzioni dettagliate per aggiornare l’URL dell’endpoint, testare la connessione e convalidare le modifiche prima di salvarle. [Ulteriori informazioni](../action/acc-action.md#update-action)
+
+* Sono state aggiunte nuove sezioni sulle limitazioni e sulle best practice alla documentazione dei frammenti visivi per avvisare gli utenti in merito a nidificazioni non supportate di frammenti contenenti Contenuto dinamico all’interno di altri frammenti sbloccati con Contenuto dinamico. Le linee guida includono i passaggi per la risoluzione dei problemi relativi alla modalità di compatibilità e raccomandazioni per una progettazione corretta della struttura delle e-mail. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* È stata aggiunta una sezione per la risoluzione dei problemi alla documentazione di reporting live del percorso per aiutare gli utenti a risolvere i problemi relativi ai dati mancanti. La sezione descrive la sincronizzazione dei nomi dei percorsi con i set di dati di reporting, la tempistica di aggiornamento dei dati, la verifica delle autorizzazioni di accesso e i requisiti di stato del percorso. [Ulteriori informazioni](../building-journeys/report-journey.md#troubleshooting-missing-data)
+
+* Alla documentazione delle risorse sono stati aggiunti tre nuovi elementi di domanda frequente che illustrano la scadenza delle risorse e la gestione del ciclo di vita. Gli argomenti trattati includono la policy TTL (Time-To-Live) per le risorse di AEM (730 giorni), come risolvere le immagini interrotte a causa della scadenza delle risorse e informazioni sui prossimi miglioramenti alla logica di scadenza delle risorse. [Ulteriori informazioni](../integrations/assets.md#faq-assets)
+
+* Alla documentazione dell’attività Read Audience è stata aggiunta una sezione completa sulla risoluzione dei problemi per risolvere le discrepanze nel conteggio del pubblico tra i profili stimati ed effettivi che accedono ai percorsi. La sezione tratta i problemi relativi alla tempistica e alla propagazione dei dati, le tecniche di convalida e monitoraggio dei dati e le best practice, tra cui l’utilizzo dell’opzione &quot;Trigger dopo la valutazione in batch del pubblico&quot;. [Ulteriori informazioni](../building-journeys/read-audience.md#audience-count-mismatch)
 
 * È stata aggiunta una nota ai guardrail di ricerca nei set di dati per specificare che le ricerche non possono essere concatenate tra loro. [Ulteriori informazioni](../data/lookup-aep-data.md#guidelines)
 
@@ -355,7 +365,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -385,7 +395,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -460,7 +470,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -588,7 +598,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
