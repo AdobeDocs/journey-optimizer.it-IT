@@ -10,9 +10,9 @@ level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 5%
 >title="Abilitare per la ricerca"
 >abstract="L’abilitazione di un set di dati per la ricerca consente di sfruttarne i dati nelle funzionalità di personalizzazione, decisioning e orchestrazione del percorso di Journey Optimizer."
 
-Journey Optimizer consente di sfruttare i dati provenienti dai dati di Adobe Experience Platform con funzionalità di personalizzazione, decisioning e orchestrazione del percorso. A questo scopo, i set di dati basati su record necessari per la personalizzazione della ricerca devono prima essere abilitati per il servizio di ricerca come descritto di seguito.
+[!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] con funzionalità di personalizzazione, decisioning e orchestrazione di percorso. A questo scopo, i set di dati basati su record necessari per la personalizzazione della ricerca devono prima essere abilitati per il servizio di ricerca come descritto di seguito.
+
+Per ulteriori informazioni su come accedere e utilizzare i set di dati, consulta questa sezione: [Introduzione ai set di dati](../data/get-started-datasets.md)
 
 ## Da leggere
 
@@ -34,8 +36,7 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 
 * **Nessun PII nei set di dati** - I set di dati abilitati per la ricerca non devono contenere informazioni personali (PII, Personally Identifiable Information).
 
-* 
-   * **Rischio di eliminazione** - I set di dati utilizzati nella personalizzazione non sono protetti dall&#39;eliminazione. È necessario tenere traccia dei set di dati utilizzati per assicurarsi che non vengano rimossi.
+* **Rischio di eliminazione** - I set di dati utilizzati nella personalizzazione non sono protetti dall&#39;eliminazione. È necessario tenere traccia dei set di dati utilizzati per assicurarsi che non vengano rimossi.
 
 * **Tipo di schema** - I set di dati devono essere associati a uno schema di tipo **NOT** Profilo o Evento.
 
