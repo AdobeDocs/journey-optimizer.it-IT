@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
@@ -42,6 +42,10 @@ Tipo: stringa
 Nome del percorso.
 
 Tipo: stringa
+
+>[!NOTE]
+>
+>Il nome del percorso viene utilizzato per collegare i dati di esecuzione del percorso con i set di dati di reporting. Se rinomini un percorso, assicurati che il nuovo nome corrisponda al nome nel set di dati di reporting per mantenere una generazione rapporti accurata. Una mancata corrispondenza può causare la mancata visualizzazione dei dati di reporting come previsto. Ulteriori informazioni su [risoluzione dei problemi relativi ai dati mancanti](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## descrizione {#description-field}
 

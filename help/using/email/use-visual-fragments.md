@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 2%
+source-wordcount: '998'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,6 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 >[!NOTE]
 >
 >Puoi aggiungere fino a 30 frammenti in una determinata consegna. I frammenti possono essere nidificati solo fino a un livello.
-
 
 1. Apri qualsiasi contenuto e-mail o modello utilizzando [E-mail Designer](get-started-email-design.md).
 
@@ -73,6 +72,35 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 
 1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le modifiche.
 
+### Limitazioni durante l’utilizzo di contenuto dinamico nei frammenti {#fragment-dynamic-content}
+
+>[!CAUTION]
+>
+>Quando lavori con frammenti che contengono Contenuto dinamico (contenuto condizionale), tieni presente le seguenti limitazioni:
+>
+>**La nidificazione di frammenti con contenuto dinamico non è supportata.** Non è possibile inserire un frammento contenente Contenuto dinamico all&#39;interno di un frammento sbloccato contenente anche Contenuto dinamico. Questa configurazione non supportata può causare:
+>
+>* Perdita di mappature di contenuto condizionale
+>* Avvisi sulla modalità di compatibilità in E-mail Designer
+>* Rendering e-mail incoerente
+>
+>**Approccio consigliato:** quando utilizzi più frammenti con contenuto dinamico nell&#39;e-mail, aggiungi ciascun frammento direttamente nel proprio blocco di struttura a livello di e-mail. In questo modo si garantisce il corretto funzionamento e si evitano i problemi sopra menzionati.
+
+## Best practice per i frammenti con contenuti dinamici {#fragment-best-practices}
+
+Segui queste best practice quando lavori con frammenti visivi e contenuti dinamici (contenuti condizionali):
+
+* **Struttura correttamente l&#39;e-mail**: durante la creazione di e-mail con frammenti contenenti Contenuto dinamico, aggiungi ciascun frammento in un blocco di struttura dedicato a livello di e-mail. Evita di nidificare frammenti con contenuto dinamico all’interno di altri frammenti sbloccati che contengono anche contenuto dinamico.
+
+* **Pianifica in anticipo**: prima di aggiungere frammenti all&#39;e-mail, identifica quelli contenenti Contenuto dinamico e pianifica il layout di conseguenza. In questo modo è possibile evitare problemi di configurazione e garantire una struttura pulita fin dall’inizio.
+
+* **Progetta con attenzione i frammenti riutilizzabili**: durante la creazione di frammenti che includeranno il contenuto dinamico, considera come verranno utilizzati. Se un frammento deve essere nidificato all’interno di altri frammenti, evita di aggiungere Contenuto dinamico ai frammenti padre e figlio.
+
+* **Risoluzione dei problemi**: in caso di perdita dei mapping di contenuto condizionale o di avvisi della modalità di compatibilità:
+   * Controlla la struttura delle e-mail per individuare frammenti nidificati contenenti Contenuto dinamico
+   * Ristruttura spostando ogni frammento con contenuto dinamico nel proprio blocco di struttura a livello di e-mail
+   * Salvare e verificare che le mappature di contenuto condizionale siano ripristinate correttamente
+
 ## Usa variabili implicite {#implicit-variables-in-fragments}
 
 Le variabili implicite migliorano la funzionalità dei frammenti esistenti per migliorare l’efficienza in termini di riutilizzabilità dei contenuti e casi di utilizzo di script. I frammenti possono utilizzare variabili di input e creare variabili di output utilizzabili nel contenuto di campagne e percorsi.
@@ -81,7 +109,7 @@ Scopri come utilizzare le variabili implicite in [questa sezione](../personaliza
 
 ## Personalizza campi modificabili {#customize-fields}
 
-Se alcune parti del frammento selezionato sono state rese modificabili, è possibile ignorarne il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i tuoi frammenti](../content-management/customizable-fragments.md)
+Se alcune parti del frammento selezionato sono state rese modificabili, è possibile sovrascrivere il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i tuoi frammenti](../content-management/customizable-fragments.md)
 
 Per personalizzare i campi modificabili in un frammento, effettua le seguenti operazioni:
 

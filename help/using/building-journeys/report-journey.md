@@ -10,9 +10,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,19 @@ Per ogni attività di ogni percorso in modalità Live o [Dry run mode](journey-d
 * **[!UICONTROL Uscita (uscita forzata)]**: numero totale di individui che sono usciti dal percorso mentre era in pausa a causa di una configurazione di percorso da parte di un operatore. Questa metrica è sempre uguale a zero per i percorsi in modalità di esecuzione a secco.
 * **[!UICONTROL Errore]**: numero totale di persone che hanno avuto un errore in quell&#39;attività.
 
+## Risoluzione dei problemi relativi a dati di reporting mancanti {#troubleshooting-missing-data}
+
+Se i rapporti sul percorso non contengono i dati previsti, considera quanto segue:
+
+* **Sincronizzazione nome Percorso**: verificare che il nome del percorso in Adobe Journey Optimizer corrisponda al nome archiviato nel set di dati di reporting. Una mancata corrispondenza tra questi nomi può impedire la corretta visualizzazione dei dati di reporting.
+
+* **Intervallo di aggiornamento dati**: dopo aver aggiornato il nome o la configurazione di un percorso, attendere che i dati vengano aggiornati. I dati di reporting vengono generalmente visualizzati entro pochi minuti, ma in alcuni casi possono richiedere più tempo.
+
+* **Autorizzazioni di accesso**: assicurati di disporre delle autorizzazioni necessarie per visualizzare i rapporti sul percorso. Se non trovi dati, verifica con l&#39;amministratore che sia abilitata l&#39;autorizzazione per il rapporto **[!UICONTROL Visualizza percorsi]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
+
+* **Stato Percorso**: i dati di reporting sono disponibili solo per percorsi o percorsi pubblicati in esecuzione in [Modalità di esecuzione di prova](journey-dry-run.md). Le bozze di percorsi non generano dati di reporting.
+
+Se i problemi persistono dopo aver verificato questi elementi, contatta l’amministratore di Adobe o il supporto Adobe per assistenza.
 
 >[!MORELIKETHIS]
 >
