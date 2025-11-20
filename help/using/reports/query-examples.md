@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 19e237f8b83d26eb7fa2c6b7548fcb6c4c01c9ce
+source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 2%
+source-wordcount: '2598'
+ht-degree: 1%
 
 ---
 
@@ -53,6 +53,8 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 
 +++Quale regola ha impedito l’ingresso di un profilo in un determinato percorso
 
+Questa query restituisce il set di regole e le informazioni sulle regole rifiutate quando a un profilo viene impedito l’accesso a un percorso a causa di regole di limite o idoneità.
+
 _Esempio_
 
 ```sql
@@ -75,6 +77,8 @@ AND
 +++
 
 +++Quanti errori si sono verificati in ogni nodo di un percorso specifico per un determinato periodo di tempo
+
+Questa query conta i profili distinti che hanno riscontrato errori in ciascun nodo di un percorso, raggruppati per nome di nodo. Include tutti i tipi di errori di esecuzione delle azioni e di recupero.
 
 _Query Data Lake_
 
@@ -100,6 +104,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++Quanti eventi sono stati eliminati da un percorso specifico in un determinato intervallo di tempo
 
+Questa query conta il numero totale di eventi eliminati da un percorso. Filtra vari codici evento di eliminazione, tra cui errori del processo di esportazione del segmento, scartamenti del dispatcher e scartamenti della macchina dello stato.
+
 _Query Data Lake_
 
 ```sql
@@ -120,9 +126,9 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++Cosa succede a un profilo specifico in un percorso specifico in un intervallo di tempo specifico
 
-_Query Data Lake_
-
 Questa query restituisce tutti gli eventi di passaggio e di servizio per il profilo e il percorso specificati per il tempo specificato in ordine cronologico.
+
+_Query Data Lake_
 
 ```sql
 SELECT
@@ -330,6 +336,8 @@ Questa query restituisce tutti i diversi errori che si sono verificati durante l
 
 +++Trovare se un profilo è stato immesso in un Percorso specifico
 
+Questa query controlla se un profilo specifico è stato inserito in un percorso contando gli eventi associati a tale combinazione di profilo e percorso.
+
 _Query Data Lake_
 
 ```sql
@@ -406,6 +414,8 @@ La query restituisce l’elenco di tutti i messaggi con il relativo conteggio ri
 
 +++Trova tutti i messaggi ricevuti da un profilo negli ultimi 30 giorni
 
+Questa query recupera tutte le azioni di messaggio eseguite correttamente per un profilo specifico negli ultimi 30 giorni, raggruppate per nome del messaggio.
+
 _Query Data Lake_
 
 ```sql
@@ -434,6 +444,8 @@ La query restituisce l’elenco di tutti i messaggi con il relativo conteggio ri
 
 +++Trova tutti i percorsi inseriti da un profilo negli ultimi 30 giorni
 
+Questa query restituisce tutti i percorsi immessi da un profilo specifico negli ultimi 30 giorni, insieme al conteggio delle voci per ogni percorso.
+
 _Query Data Lake_
 
 ```sql
@@ -459,6 +471,8 @@ La query restituisce l&#39;elenco di tutti i nomi di percorso insieme al numero 
 +++
 
 +++Numero di profili idonei per un percorso giornaliero
+
+Questa query fornisce un raggruppamento giornaliero del numero di profili distinti che sono entrati in un percorso in un determinato periodo di tempo.
 
 _Query Data Lake_
 
@@ -490,6 +504,8 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 ## Query relative al pubblico di lettura {#read-segment-queries}
 
 +++Tempo impiegato per completare un processo di esportazione del pubblico
+
+Questa query calcola la durata di un processo di esportazione del pubblico rilevando la differenza di tempo tra il momento in cui il processo è stato messo in coda e quello in cui è stato completato.
 
 _Query Data Lake_
 
@@ -525,6 +541,8 @@ La query restituisce la differenza di tempo, espressa in minuti, tra il momento 
 
 +++Numero di profili scartati dal percorso perché duplicati
 
+Questa query conta il numero di profili distinti che sono stati eliminati a causa di errori di duplicazione delle istanze durante l’attività Read Audience.
+
 _Query Data Lake_
 
 ```sql
@@ -548,6 +566,8 @@ La query restituisce tutti gli ID profilo che sono stati scartati dal percorso p
 +++
 
 +++Numero di profili eliminati dal percorso a causa di uno spazio dei nomi non valido
+
+Questa query restituisce il numero di profili scartati perché presentavano uno spazio dei nomi non valido o un’identità mancante per lo spazio dei nomi richiesto.
 
 _Query Data Lake_
 
@@ -573,6 +593,8 @@ La query restituisce tutti gli ID profilo scartati dal percorso perché presenta
 
 +++Numero di profili scartati dal percorso perché nessuna mappa di identità
 
+Questa query conta i profili scartati perché mancava una mappa di identità necessaria per l’esecuzione del percorso.
+
 _Query Data Lake_
 
 ```sql
@@ -597,6 +619,8 @@ La query restituisce tutti gli ID profilo scartati dal percorso perché manca la
 
 +++Numero di profili scartati dal percorso perché il percorso si trovava nel nodo di test e il profilo non era un profilo di test
 
+Questa query identifica i profili scartati quando il percorso era in esecuzione in modalità di test, ma per il profilo non era impostato l’attributo testProfile su true.
+
 _Query Data Lake_
 
 ```sql
@@ -615,11 +639,13 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-La query restituisce tutti gli ID profilo che sono stati scartati dal percorso perché il processo di esportazione è stato eseguito in modalità di test ma l’attributo testProfile del profilo non è stato impostato su true.
+La query restituisce tutti gli ID profilo scartati dal percorso perché il processo di esportazione è stato eseguito in modalità di test ma l&#39;attributo testProfile del profilo non è stato impostato su true.
 
 +++
 
 +++Numero di profili eliminati dal percorso a causa di un errore interno
+
+Questa query restituisce il numero di profili che sono stati eliminati a causa di errori di sistema interni durante l’esecuzione del percorso.
 
 _Query Data Lake_
 
@@ -644,6 +670,8 @@ La query restituisce tutti gli ID profilo scartati dal percorso a causa di un er
 +++
 
 +++Panoramica del pubblico di lettura per una determinata versione del percorso
+
+Questa query fornisce una panoramica completa dell’attività Read Audience, inclusi i dettagli del processo di esportazione dei segmenti, i codici evento, gli stati e i conteggi dei profili per tutte le fasi del processo di esportazione del pubblico.
 
 _Query Data Lake_
 
@@ -686,6 +714,8 @@ IMPORTANTE: se questa query non restituisce alcun evento, la causa potrebbe esse
 
 +++Errori di lettura del pubblico per una determinata versione del percorso
 
+Questa query filtra i codici evento di errore specifici correlati agli errori Read Audience, come gli errori di creazione di argomenti, di chiamata API, i timeout e i processi di esportazione non riusciti.
+
 _Query Data Lake_
 
 ```sql
@@ -713,6 +743,8 @@ WHERE
 +++
 
 +++Ottieni stato elaborazione processo di esportazione
+
+Questa query recupera lo stato di elaborazione dei processi di esportazione del pubblico, mostrando se hanno avuto esito positivo o negativo insieme alle metriche di esportazione del profilo.
 
 _Query Data Lake_
 
@@ -744,6 +776,8 @@ Se non viene restituito alcun record, significa che:
 +++
 
 +++Ottieni metriche sui profili esportati, compresi gli scarti e le metriche dei processi di esportazione per ogni processo di esportazione
+
+Questa query combina i conteggi dei profili scartati con le metriche dei processi di esportazione per fornire una visualizzazione completa delle prestazioni di esportazione del pubblico per ogni singolo processo di esportazione.
 
 _Query Data Lake_
 
@@ -806,6 +840,8 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 +++
 
 +++Ottieni metriche aggregate (processi di esportazione e scarti del pubblico) su tutti i processi di esportazione
+
+Questa query aggrega le metriche generali in tutti i processi di esportazione per una determinata versione del percorso, utili per percorsi ricorrenti o percorsi attivati da eventi business con riutilizzo degli argomenti.
 
 _Query Data Lake_
 
@@ -874,6 +910,8 @@ Restituisce le metriche complessive per una determinata versione del percorso, i
 
 +++Profilo scartato a causa di una realizzazione del pubblico diversa da quella configurata
 
+Questa query identifica i profili scartati perché il loro stato di realizzazione del pubblico non corrisponde alla configurazione di Qualificazione del pubblico del percorso (ad esempio, configurato per &quot;entrate&quot; ma profilo &quot;uscito&quot;).
+
 _Query Data Lake_
 
 ```sql
@@ -899,6 +937,8 @@ Questa query restituisce tutti gli ID profilo scartati dalla versione del percor
 +++
 
 +++Eventi di qualificazione del pubblico eliminati per qualsiasi altro motivo per un profilo specifico
+
+Questa query recupera tutte le qualifiche del pubblico o gli eventi esterni scartati per un profilo specifico a causa di errori del servizio interno.
 
 _Query Data Lake_
 
@@ -930,6 +970,8 @@ Questa query restituisce tutti gli eventi (eventi esterni/eventi di qualificazio
 
 +++Verifica se è stato ricevuto un evento di business per un percorso
 
+Questa query conta quante volte un evento di business è stato ricevuto da un percorso, raggruppato per data, entro un intervallo di tempo specificato.
+
 _Query Data Lake_
 
 ```sql
@@ -958,6 +1000,8 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++Controlla se un evento esterno di un profilo è stato eliminato perché non è stato trovato alcun percorso correlato
 
+Questa query identifica quando un evento esterno per un profilo specifico è stato scartato perché non vi era alcun percorso attivo o corrispondente configurato per ricevere tale evento.
+
 _Query Data Lake_
 
 ```sql
@@ -985,6 +1029,8 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 +++
 
 +++Controlla se un evento esterno di un profilo è stato scartato per qualsiasi altro motivo
+
+Questa query recupera gli eventi esterni scartati per un profilo specifico a causa di errori del servizio interno, insieme all’ID evento e al codice di errore.
 
 _Query Data Lake_
 
@@ -1016,6 +1062,8 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 
 +++Controllare il conteggio di tutti gli eventi eliminati da stateMachine tramite errorCode
 
+Questa query aggrega tutti gli eventi eliminati dal computer dello stato del percorso, raggruppati per codice di errore per identificare i motivi più comuni degli scarti.
+
 _Query Data Lake_
 
 ```sql
@@ -1037,6 +1085,8 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 +++
 
 +++Controlla tutti gli eventi scartati perché il rientro non era consentito
+
+Questa query identifica tutti gli eventi scartati perché un profilo ha tentato di entrare nuovamente in un percorso quando il rientro non era consentito nella configurazione del percorso.
 
 _Query Data Lake_
 
@@ -1068,6 +1118,8 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 
 +++Numero di percorsi attivi giornalieri
 
+Questa query restituisce un conteggio giornaliero di versioni univoche del percorso con attività, che consente di comprendere i pattern di esecuzione del percorso nel tempo.
+
 _Query Data Lake_
 
 ```sql
@@ -1094,6 +1146,8 @@ La query restituisce, per il periodo definito, il numero di percorsi univoci att
 ## Query su istanze di percorso {#journey-instances-queries}
 
 +++Numero di profili in uno stato specifico per un tempo specifico
+
+Questa query utilizza espressioni di tabella comuni (CTE, Common Table Expression) per identificare i profili attualmente in attesa in un nodo specifico di un percorso, individuando i profili passati attraverso il nodo ma non ancora passati ai nodi successivi.
 
 _Query Data Lake_
 
@@ -1245,6 +1299,8 @@ ORDER BY
 
 +++Quanti profili sono usciti dal percorso nello specifico periodo di tempo
 
+Questa query conta le istanze di percorso che sono uscite durante un determinato periodo di tempo, comprese le uscite dovute a completamento, errori, timeout o errori di limitazione.
+
 _Query Data Lake_
 
 ```sql
@@ -1284,6 +1340,8 @@ ORDER BY
 +++
 
 +++Quanti profili sono usciti dal percorso nello specifico periodo di tempo con nodo/stato
+
+Questa query fornisce un’analisi dettagliata delle uscite di percorso, mostrando il nome del nodo e lo stato di uscita per ogni istanza uscita per aiutare a identificare dove e perché i profili hanno lasciato il percorso.
 
 _Query Data Lake_
 
@@ -1330,6 +1388,8 @@ ORDER BY
 ## Query relative alle metriche delle prestazioni Azione personalizzata {#query-custom-action}
 
 +++ Numero totale di chiamate, errori e richieste riuscite al secondo di ciascun endpoint in un periodo di tempo specifico
+
+Questa query fornisce metriche delle prestazioni per le azioni HTTP personalizzate, tra cui chiamate totali, chiamate riuscite, conteggi di errori per tipo (4xx, 5xx, timeout, limitate) e velocità effettiva nelle richieste al secondo per ogni endpoint.
 
 _Query Data Lake_
 
@@ -1390,6 +1450,8 @@ ORDER BY
 +++
 
 +++ Serie temporale di chiamate riuscite, errori e velocità effettiva di ciascun endpoint in un periodo di tempo specifico
+
+Questa query fornisce le stesse metriche delle prestazioni della query precedente, ma è organizzata come una serie temporale, mostrando come le prestazioni degli endpoint variano nel tempo con granularità minuto per minuto.
 
 _Query Data Lake_
 
@@ -1457,6 +1519,8 @@ ORDER BY
 
 +++Latenza di risposta di ciascun endpoint al 50°, 95°, 99° e 99,9° percentile in un periodo di tempo specifico
 
+Questa query calcola i percentili del tempo di risposta per gli endpoint di azione personalizzati, consentendoti di comprendere la distribuzione della latenza e identificare i valori anomali delle prestazioni con soglie percentili diverse.
+
 _Query Data Lake_
 
 ```sql
@@ -1508,6 +1572,8 @@ ORDER BY
 +++
 
 +++Serie temporale dei percentili della latenza di risposta di ciascun endpoint in un periodo di tempo specifico
+
+Questa query fornisce percentili di latenza organizzati come serie temporali, che consentono di monitorare come i tempi di risposta degli endpoint cambiano nel tempo a diversi livelli percentili.
 
 _Query Data Lake_
 
@@ -1567,6 +1633,8 @@ ORDER BY
 
 +++ Tempo di attesa in coda sugli endpoint limitati al 50° e 95° percentile in un periodo di tempo specifico
 
+Questa query analizza i tempi di attesa in coda per gli endpoint limitati, mostrando i tempi di attesa del 50° e del 95° percentile per aiutarti a comprendere l’impatto della limitazione sulle azioni personalizzate.
+
 _Query Data Lake_
 
 ```sql
@@ -1614,6 +1682,8 @@ ORDER BY
 +++
 
 +++ Serie temporale dei percentili del tempo di attesa della coda per ogni endpoint limitato
+
+Questa query fornisce percentili del tempo di attesa della coda come serie temporale, consentendoti di monitorare l’impatto della limitazione sui tempi di attesa nel tempo per ogni endpoint.
 
 _Query Data Lake_
 
@@ -1668,6 +1738,8 @@ ORDER BY
 +++
 
 +++ Numero di errori per tipo e codice per un endpoint specifico in un periodo di tempo specifico
+
+Questa query fornisce una suddivisione dettagliata degli errori per un endpoint specifico, raggruppati per tipo di errore e codice di errore, incluse informazioni sui tentativi.
 
 _Query Data Lake_
 
