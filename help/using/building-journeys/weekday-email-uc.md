@@ -329,7 +329,7 @@ Per escludere le festività dall’invio di e-mail:
 
 Scopri come inviare e-mail solo nei giorni feriali utilizzando Adobe Journey Optimizer. Questo video illustra l’implementazione passo passo delle attività relative alle condizioni e delle formule di attesa per mettere in coda le voci del fine settimana per la consegna del lunedì.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469388?captions=ita&quality=12&learn=on)
 
 ## Risorse aggiuntive
 
