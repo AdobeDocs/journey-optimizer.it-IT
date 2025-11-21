@@ -11,10 +11,10 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
+source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 1%
+source-wordcount: '1833'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ Questo approccio mostra come utilizzare un’attività condizione per verificare
 
 Questo approccio è ideale per le campagne e-mail business-to-business (B2B), newsletter e comunicazioni professionali, annunci aziendali, aggiornamenti dei prodotti relativi al lavoro e qualsiasi campagna di marketing in cui non si desidera la consegna nel fine settimana.
 
-Guarda il [tutorial video](#how-to-video) passo per passo nella parte inferiore di questa pagina per vedere l&#39;implementazione completa.
+➡️ Guarda il [tutorial video](#how-to-video) dettagliato
 
-## Prerequisiti
+>[!NOTE]
+>
+>Per implementare questo caso d&#39;uso, è necessaria un&#39;istanza di Adobe Journey Optimizer attiva con una [superficie del canale e-mail](../configuration/channel-surfaces.md) configurata, un [pubblico](../audience/about-audiences.md) o un [evento](../event/about-events.md) per attivare il percorso e una conoscenza di base delle [condizioni del percorso](condition-activity.md) e delle [espressioni](expression/expressionadvanced.md).
 
-Per implementare questo caso d&#39;uso, è necessaria un&#39;istanza di Adobe Journey Optimizer attiva con una [superficie del canale e-mail](../configuration/channel-surfaces.md) configurata, un [pubblico](../audience/about-audiences.md) o un [evento](../event/about-events.md) per attivare il percorso e una conoscenza di base delle [condizioni del percorso](condition-activity.md) e delle [espressioni](expression/expressionadvanced.md).
+
+
+
 
 ## Passaggi di implementazione
 
@@ -293,29 +297,25 @@ Se la condizione corrisponde a una festività, aggiungi un’attività Attendi p
 
 ## Argomenti correlati
 
-| Argomento | Descrizione |
-|-------|-------------|
-| [Informazioni sulle attività condizionali](condition-activity.md) | Scopri come creare percorsi diversi nel percorso |
-| [Condizioni d&#39;uso in un percorso](conditions.md) | Guida dettagliata sulle condizioni del percorso |
-| [Attività attendi](wait-activity.md) | Configurare durate di attesa e formule |
-| [Funzioni data](functions/date-functions.md) | Riferimento completo per le funzioni data e ora |
-| [Editor espressioni](expression/expressionadvanced.md) | Creare espressioni complesse |
-| [Verifica il percorso](testing-the-journey.md) | Convalida logica di percorso prima della pubblicazione |
-| [Gestione del fuso orario](timezone-management.md) | Gestire fusi orari diversi in percorsi |
-| [Best practice per i Percorsi](journey-gs.md#best-practices) | Approcci consigliati per la progettazione del percorso |
+* [Informazioni sulle attività condizionali](condition-activity.md) - Scopri come creare percorsi diversi nel percorso
+* [Condizioni di utilizzo in un percorso](conditions.md) - Guida dettagliata sulle condizioni del percorso
+* [Attività attendi](wait-activity.md) - Configurare le durate di attesa e le formule
+* [Funzioni data](functions/date-functions.md) - Riferimento completo per le funzioni data e ora
+* [Editor espressioni](expression/expressionadvanced.md) - Genera espressioni complesse
+* [Verifica il percorso](testing-the-journey.md) - Convalida logica di percorso prima della pubblicazione
+* [Gestione del fuso orario](timezone-management.md) - Gestione di fusi orari diversi in percorsi
+* [Best practice per i Percorsi](journey-gs.md#best-practices) - Approcci consigliati per la progettazione dei percorsi
 
 ## Video dimostrativo
 
 Scopri come inviare e-mail solo nei giorni feriali utilizzando Adobe Journey Optimizer. Questo video illustra l’implementazione passo passo delle attività relative alle condizioni e delle formule di attesa per mettere in coda le voci del fine settimana per la consegna del lunedì.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469388?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Risorse aggiuntive
 
-| Risorsa | Descrizione |
-|----------|-------------|
-| [Documentazione dell&#39;editor espressioni](expression/expressionadvanced.md) | Creare e convalidare espressioni di percorso |
-| [Guida di Progettazione Percorsi](using-the-journey-designer.md) | Schema del percorso |
-| [Panoramica dei casi d&#39;uso per i Percorsi](jo-use-cases.md) | Esplora altri modelli ed esempi di percorso |
-| [Post del blog della community: come inviare e-mail solo nei giorni feriali](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | Post di blog originale con esempi dettagliati |
+* [Documentazione dell&#39;editor espressioni](expression/expressionadvanced.md) - Creare e convalidare le espressioni di percorso
+* [Guida alla progettazione dei Percorsi](using-the-journey-designer.md) - Eseguire il master dell&#39;area di lavoro del percorso
+* [Panoramica sui casi d&#39;uso per i Percorsi](jo-use-cases.md) - Esplora altri modelli ed esempi per i percorsi
+* [Post di blog della community: come inviare e-mail solo nei giorni feriali](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Post di blog originale con esempi dettagliati
 
