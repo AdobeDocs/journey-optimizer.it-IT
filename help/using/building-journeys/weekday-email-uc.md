@@ -8,12 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificazione
-version: Journey Optimizer
+version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ Per il percorso **Giorno feriale** (da lunedì a venerdì):
    * Configura i [parametri e-mail](../email/email-settings.md)
    * Configura [personalization](../personalization/personalize.md) in base alle esigenze
 
-1. Aggiungi un&#39;attività **[!UICONTROL End]** dopo l&#39;e-mail. [Ulteriori informazioni sulle attività finali](end-activity.md)
+1. Aggiungi un&#39;attività **[!UICONTROL End]** dopo l&#39;e-mail.
 
 ### Passaggio 6: unire i percorsi del fine settimana all’e-mail
 
@@ -343,7 +343,7 @@ Se la condizione corrisponde a una festività, aggiungi un’attività Attendi p
 
 Scopri come inviare e-mail solo nei giorni feriali utilizzando Adobe Journey Optimizer. Questo video illustra l’implementazione passo passo delle attività relative alle condizioni e delle formule di attesa per mettere in coda le voci del fine settimana per la consegna del lunedì.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469388?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Risorse aggiuntive
 
