@@ -11,9 +11,9 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
+source-git-commit: 72f3396bc662e75efd0f82754bfa964baf51ab8e
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -221,79 +221,98 @@ Una volta completato il test:
 
 ## Best practice e considerazioni
 
-+++**Ottimizza flusso di lavoro con formule migliorate**
+### Ottimizzare il flusso di lavoro con formule migliorate
 
-Per migliorare il flusso di lavoro e gestire requisiti aziendali più complessi, è possibile estendere le formule per tenere conto di festività, fusi orari o orari di lavoro specifici oltre il controllo base del giorno feriale. Regola il parametro dell’ora (H) nella formula Attendi in modo che corrisponda all’ora di invio ottimale, ad esempio, se alle ore 10 vengono mostrate percentuali di coinvolgimento migliori, modifica la formula in modo da utilizzare l’ora 10. Per il supporto di più fusi orari, è consigliabile creare percorsi separati per aree geografiche diverse per garantire la consegna del lunedì nel fuso orario locale di ciascun destinatario.
+Migliora il tuo flusso di lavoro e gestisci requisiti aziendali più complessi:
 
-+++
+* **Orario lavorativo complesso**: estendere le formule per tenere conto di festività, fusi orari o orari lavorativi specifici oltre il controllo base del giorno feriale.
+* **Orari di consegna personalizzati**: regola il parametro dell&#39;ora (H) nella formula di attesa in modo che corrisponda all&#39;orario di invio ottimale. Ad esempio, se alle ore 10 vengono mostrati tassi di coinvolgimento migliori, modifica la formula per utilizzare l’ora 10.
+* **Supporto di più fusi orari**: crea percorsi separati per aree geografiche diverse per garantire la consegna del lunedì nel fuso orario locale di ciascun destinatario.
 
-+++**Gestione del fuso orario**
+### Gestione del fuso orario
 
-La funzione `now()` e l&#39;esecuzione del percorso utilizzano il fuso orario configurato a livello di percorso. Assicurati che il fuso orario del percorso corrisponda alle tue esigenze configurandolo nelle proprietà del percorso prima di pubblicarlo ([Ulteriori informazioni sulla gestione del fuso orario](timezone-management.md)). Se il pubblico si estende su più fusi orari, tieni presente che il controllo del giorno della settimana si verifica nel fuso orario configurato del percorso, non in quello locale del destinatario. Per la consegna specifica per il fuso orario, crea percorsi separati per aree geografiche diverse o utilizza le impostazioni del fuso orario nell’attività Read Audience.
+La funzione `now()` e l&#39;esecuzione del percorso utilizzano il fuso orario configurato a livello di percorso. Considera questi punti chiave:
 
-+++
+* **Fuso orario del Percorso**: assicurati che il fuso orario del percorso corrisponda alle tue esigenze configurandolo nelle proprietà del percorso prima di pubblicarlo. [Ulteriori informazioni sulla gestione del fuso orario](timezone-management.md)
+* **Pubblico globale**: se il pubblico si estende su più fusi orari, la verifica giornaliera si verifica nel fuso orario configurato del percorso e non nel fuso orario locale del destinatario.
+* **Pianificazione localizzata**: per la consegna specifica per il fuso orario, crea percorsi separati per aree diverse o utilizza le impostazioni del fuso orario nell&#39;attività Read Audience.
 
-+++**voce Percorso e tempistica**
+### Immissione e tempistica percorso
 
-Per i percorsi batch, [pianifica l&#39;attivazione di Read Audience](read-audience.md#schedule) in un momento appropriato per il pubblico. Le esecuzioni nelle prime ore del mattino (ad esempio, le ore 6:00) sono comuni per le comunicazioni aziendali. Per i percorsi basati su eventi, la condizione verrà valutata immediatamente alla ricezione dell&#39;evento e i profili che entrano nei fine settimana attenderanno automaticamente fino a lunedì ([Ulteriori informazioni sugli eventi](../event/about-events.md)). Assicurati che le [impostazioni di timeout del percorso](journey-properties.md#timeout) soddisfino il periodo di attesa massimo (fino a 2 giorni da sabato a lunedì).
+Configura la tempistica del percorso in base al tipo di voce:
 
-+++
+* **Leggi percorsi di pubblico**: [Pianifica l&#39;attivazione di Read audience](read-audience.md#schedule) in un momento appropriato per il pubblico. Le esecuzioni nelle prime ore del mattino (ad esempio, 6:00 AM) sono comuni per le comunicazioni aziendali.
+* **percorsi basati su eventi**: la condizione verrà valutata immediatamente alla ricezione dell&#39;evento. I profili che entrano nei fine settimana attenderanno automaticamente fino a lunedì. [Ulteriori informazioni sugli eventi](../event/about-events.md)
+* **Considerazioni sul timeout di attesa**: verifica che le [impostazioni di timeout percorsi](journey-properties.md#timeout) soddisfino il periodo di attesa massimo (fino a 2 giorni da sabato a lunedì).
 
-+++**Il test è essenziale**
+### I test sono essenziali
 
-Come sottolineato nella guida all’implementazione, verifica sempre la logica di percorso per verificare che tutto funzioni come previsto. Utilizza la **modalità test** per simulare diversi scenari di ingresso senza inviare e-mail reali. Test di tutti e tre i percorsi (voci di sabato, domenica e giorni feriali), verifica che i calcoli della durata di attesa siano corretti, conferma che la consegna del lunedì avvenga all’ora specificata e controlla la visualizzazione del percorso per garantire un percorso corretto.
+Prima di pubblicare in produzione, verifica sempre la logica di percorso:
 
-+++
+* Utilizza la **modalità test** per simulare diversi scenari di ingresso senza inviare e-mail reali
+* Test di tutti e tre i percorsi: voci del sabato, voci della domenica e voci dei giorni feriali
+* Verificare che i calcoli della durata di attesa siano corretti
+* Conferma consegna lunedì all’ora specificata
+* Controlla la visualizzazione del percorso per garantire un percorso corretto
 
-+++**Rientro e frequenza**
+[Ulteriori informazioni sui percorsi di test](testing-the-journey.md)
 
-Per le campagne ricorrenti, configura le impostazioni di **[!UICONTROL Rientro]** in modo appropriato ([Ulteriori informazioni sulle impostazioni di rientro](entry-management.md)). Se i profili possono rientrare nel percorso, saranno soggetti al controllo del giorno della settimana ogni volta, garantendo che le voci del fine settimana siano sempre in coda per lunedì. Valuta l&#39;aggiunta di [regole di quota limite](../conflict-prioritization/journey-capping.md) per evitare messaggi eccessivi se i profili possono rientrare frequentemente.
+### Rientro e frequenza
 
-+++
+Per le campagne ricorrenti, gestisci con attenzione il reinserimento del profilo:
+
+* **Configura il rientro**: configura le impostazioni **[!UICONTROL Rientro]** in modo appropriato. [Ulteriori informazioni sulle impostazioni di rientro](entry-management.md)
+* **Comportamento coerente**: se i profili possono rientrare nel percorso, saranno soggetti alla verifica del giorno della settimana ogni volta, assicurandosi che le voci del fine settimana siano sempre in coda per lunedì.
+* **Limitazione della frequenza**: puoi aggiungere [regole di limitazione della frequenza](../conflict-prioritization/journey-capping.md) per evitare messaggi eccessivi se i profili possono rientrare frequentemente.
 
 ## Varianti avanzate
 
-+++**Impostazione destinazione giorno specifica**
+### Targeting giornaliero specifico
 
-Per inviare e-mail solo in giorni specifici (ad esempio, martedì e giovedì), modifica la condizione:
+Per inviare e-mail solo in giorni specifici (ad esempio, martedì e giovedì):
 
-```javascript
-dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
-```
+1. **Modificare la condizione** per verificare la presenza di giorni specifici:
 
-Per tutti gli altri giorni, aggiungi un’attività Attendi che calcola il numero di giorni mancanti al martedì o giovedì successivo.
+   ```javascript
+   dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
+   ```
 
-+++
+2. **Aggiungi attività di attesa** per tutti gli altri giorni che calcolano il numero di giorni fino al martedì o giovedì successivo.
 
-+++**Orari di invio diversi per giorni diversi**
+### Orari di invio diversi per giorni diversi
 
-Puoi creare più percorsi con diverse formule di attesa per diversi comportamenti durante il fine settimana. Utilizzare ad esempio `nowWithDelta(4, "days")` per la consegna da sabato a mercoledì o `nowWithDelta(2, "days")` per la consegna da domenica a martedì. Ciò consente una maggiore flessibilità nella pianificazione degli invii.
+Crea più percorsi con diverse formule di attesa per la pianificazione flessibile:
 
-+++
+* **Sabato → mercoledì consegna**: utilizzare `nowWithDelta(4, "days")`
+* **Domenica → Martedì consegna**: Usa `nowWithDelta(2, "days")`
 
-+++**Consegna in orario d&#39;ufficio**
+Questo approccio consente di personalizzare i giorni di consegna in base alle esigenze aziendali.
 
-Per garantire la consegna durante l’orario di lavoro, regola il parametro dell’ora nella formula Attendi. Ad esempio, per la consegna alle 14 invece delle 9:
+### Consegna negli orari lavorativi
 
-```javascript
-setHours(nowWithDelta(1, "days"), 14)
-```
+Per garantire la consegna durante l&#39;orario di lavoro:
 
-Puoi anche aggiungere una seconda condizione dopo Attendi per verificare se l’ora corrente è entro l’orario di lavoro prima dell’invio.
+1. **Regola il parametro ora** nella formula Attendi. Ad esempio, per la consegna alle 14 invece delle 9:
 
-+++
+   ```javascript
+   setHours(nowWithDelta(1, "days"), 14)
+   ```
 
-+++**Esclusione festività**
+2. **Aggiungi un controllo dell&#39;ora** (facoltativo): aggiungi una seconda condizione dopo Attendi per verificare che l&#39;ora corrente sia entro l&#39;orario di ufficio prima dell&#39;invio.
 
-Per escludere le festività, aggiungi un percorso di condizione aggiuntivo che verifichi la presenza di date specifiche:
+### Esclusione festività
 
-```javascript
-toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
-```
+Per escludere le festività dall’invio di e-mail:
 
-Se la condizione corrisponde a una festività, aggiungi un’attività Attendi per rimandare al giorno lavorativo successivo. [Ulteriori informazioni sulle funzioni di confronto delle date](functions/date-functions.md)
+1. **Aggiungi un percorso di condizione** per verificare date festive specifiche:
 
-+++
+   ```javascript
+   toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
+   ```
+
+2. **Aggiungi un&#39;attività Attendi** se la condizione corrisponde a una festività, per rimandare al giorno lavorativo successivo.
+
+[Ulteriori informazioni sulle funzioni di confronto delle date](functions/date-functions.md)
 
 ## Argomenti correlati
 
@@ -310,7 +329,7 @@ Se la condizione corrisponde a una festività, aggiungi un’attività Attendi p
 
 Scopri come inviare e-mail solo nei giorni feriali utilizzando Adobe Journey Optimizer. Questo video illustra l’implementazione passo passo delle attività relative alle condizioni e delle formule di attesa per mettere in coda le voci del fine settimana per la consegna del lunedì.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469388?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Risorse aggiuntive
 
