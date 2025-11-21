@@ -11,9 +11,9 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4b7d406e39328571a157b2d4c7b17f2adba77cdf
+source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,9 @@ Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL C
 
 1. Nella sezione **[!UICONTROL Tipo di condizione]**, selezionare **[!UICONTROL Condizione Source dati]**. [Ulteriori informazioni sui tipi di condizione](condition-activity.md#data_source_condition)
 
+   ![Configurazione della condizione Saturday nell&#39;editor espressioni](assets/weekday-email-uc-condition-expression.png)
+
+
 ### Passaggio 3: configurare la condizione per identificare sabato
 
 Crea il primo percorso condizione per identificare le voci del sabato.
@@ -81,7 +84,6 @@ Crea il primo percorso condizione per identificare le voci del sabato.
 
    Questa opzione utilizza la funzione `dayOfWeek()` con `now()` per ottenere il giorno corrente. [Ulteriori informazioni sulle funzioni data](functions/date-functions.md)
 
-   ![Configurazione della condizione Saturday nell&#39;editor espressioni](assets/weekday-email-uc-condition-expression.png)
 
 1. Fare clic su **[!UICONTROL Ok]** per salvare la condizione.
 
@@ -103,17 +105,6 @@ Crea il primo percorso condizione per identificare le voci del sabato.
 
 1. Seleziona **[!UICONTROL Mostra percorso per casi diversi da quelli sopra]** per creare un percorso per le voci dei giorni feriali (dal lunedì al venerdì).
 
-**Valori giorno della settimana:**
-
-| Valore | Day |
-|-------|-----|
-| 1 | Domenica |
-| 2 | Lunedì |
-| 3 | Martedì |
-| 4 | Mercoledì |
-| 5 | Giovedì |
-| 6 | Venerdì |
-| 7 | Sabato |
 
 >[!NOTE]
 >
@@ -123,7 +114,6 @@ Crea il primo percorso condizione per identificare le voci del sabato.
 
 Per i profili che entrano il sabato o la domenica, utilizza Attività di attesa con formule personalizzate per ritardare l’e-mail fino a lunedì nell’ora desiderata.
 
-![Percorso con tre percorsi di condizione: sabato, domenica e giorni feriali](assets/weekday-email-uc-paths.png)
 
 **Per il percorso del sabato:**
 
@@ -144,6 +134,8 @@ Per i profili che entrano il sabato o la domenica, utilizza Attività di attesa 
    ```javascript
    setHours(nowWithDelta(2, "days"), 9)
    ```
+
+   ![Percorso con tre percorsi di condizione: sabato, domenica e giorni feriali](assets/weekday-email-uc-paths.png)
 
    **Spiegazione**: questa formula calcola il tempo di attesa da sabato a lunedì alle 9. Il valore X=2 rappresenta 2 giorni avanti (sabato + 2 giorni = lunedì). [Ulteriori informazioni sulle funzioni data](functions/date-functions.md#nowWithDelta)
 
@@ -316,7 +308,7 @@ Se la condizione corrisponde a una festività, aggiungi un’attività Attendi p
 
 Scopri come inviare e-mail solo nei giorni feriali utilizzando Adobe Journey Optimizer. Questo video illustra l’implementazione passo passo delle attività relative alle condizioni e delle formule di attesa per mettere in coda le voci del fine settimana per la consegna del lunedì.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469388?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Risorse aggiuntive
 
