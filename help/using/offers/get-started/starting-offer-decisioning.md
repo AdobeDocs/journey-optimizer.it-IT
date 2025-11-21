@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -119,12 +119,12 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 Il video seguente fornisce un’introduzione alle funzionalità chiave di gestione delle decisioni, alla sua architettura e ai casi d’uso:
 
->[!VIDEO](https://video.tv.adobe.com/v/340415?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definire e gestire le offerte {#use-offer-decisioning}
 
 Il video seguente mostra come utilizzare la funzione di gestione delle decisioni per definire e gestire le offerte e sfruttare i dati sui clienti in tempo reale.
 
->[!VIDEO](https://video.tv.adobe.com/v/340352?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
