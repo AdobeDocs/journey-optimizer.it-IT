@@ -11,9 +11,9 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 1. Passa a **[!UICONTROL Gestione Percorsi]** > **[!UICONTROL Percorsi]** in Adobe Journey Optimizer.
 
-1. Fare clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso. [Ulteriori informazioni sulla creazione di percorsi](journey-gs.md)
+1. Fare clic su **[!UICONTROL Crea Percorso]** per [creare un nuovo percorso](journey-gs.md).
 
 1. Configura le [proprietà percorso](journey-properties.md).
 
@@ -55,7 +55,7 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività **[!UICONTROL Condition]** nell&#39;area di lavoro dopo il punto di ingresso. [Ulteriori informazioni sulle attività condizionali](condition-activity.md)
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition ]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 
@@ -76,7 +76,7 @@ Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL C
 
 >[!NOTE]
 >
->Il fuso orario utilizzato per la valutazione del giorno della settimana è definito a livello di percorso nelle proprietà del percorso e non a livello di condizione. Il fuso orario del percorso utilizzato nella formula è quello configurato dal percorso, non quello del destinatario. [Ulteriori informazioni sulla gestione del fuso orario](timezone-management.md).
+>Il fuso orario utilizzato per la valutazione del giorno della settimana è definito a livello di percorso nelle proprietà del percorso e non a livello di condizione. Il percorso [fuso orario](timezone-management.md) utilizzato nella formula è il fuso orario configurato del percorso, non quello del destinatario.
 
 ### Passaggio 3: configurare le attività di attesa per le voci del fine settimana
 
@@ -155,7 +155,7 @@ Prima di pubblicare, verifica accuratamente la logica di percorso nella modalit�
 
 1. Fai clic sul pulsante **[!UICONTROL Test]** nell&#39;angolo superiore destro.
 
-1. Abilita la modalità di test. [Scopri come verificare il percorso](testing-the-journey.md)
+1. Abilita [modalità di test](testing-the-journey.md).
 
 1. Crea [profili di test](../audience/creating-test-profiles.md) con orari di immissione simulati in giorni diversi della settimana:
    * **Voce sabato**: verifica che il profilo segua il percorso del sabato, attendi e riceva e-mail il lunedì all&#39;ora specificata
@@ -164,13 +164,13 @@ Prima di pubblicare, verifica accuratamente la logica di percorso nella modalit�
 
 1. Rivedi la visualizzazione percorso per garantire che i profili seguano i percorsi condizionali corretti (sabato, domenica o giorno feriale).
 
-1. Controllare eventuali errori o avvisi nel percorso. [Informazioni sulla risoluzione dei problemi dei percorsi](troubleshooting.md)
+1. Verifica la presenza di [errori o avvisi](troubleshooting.md) nel percorso.
 
 1. Verifica che le formule di attesa calcolino la durata corretta per l’ora di consegna di lunedì desiderata.
 
 >[!IMPORTANT]
 >
->Verifica sempre la logica di percorso in modalità di test per garantire che le attività Attendi si comportino come previsto. Utilizza la modalità di test per simulare diversi scenari di immissione e verificare che le voci del fine settimana siano correttamente inserite nella coda per la consegna del lunedì. [Ulteriori informazioni sulle best practice per i test di percorso](testing-the-journey.md)
+>Verifica sempre la logica di percorso in modalità di test per garantire che le attività Attendi si comportino come previsto. Utilizza la modalità di test per simulare diversi scenari di immissione e verificare che le voci del fine settimana siano correttamente inserite nella coda per la consegna del lunedì. Per ulteriori dettagli, consulta [Best practice per i test di percorso](testing-the-journey.md).
 
 ### Passaggio 7: pubblicare il percorso
 
@@ -178,18 +178,16 @@ Una volta completato il test:
 
 1. Fai clic su **[!UICONTROL Pubblica]** nell&#39;angolo superiore destro.
 
-1. Conferma la pubblicazione. [Ulteriori informazioni sulla pubblicazione dei percorsi](publish-journey.md)
+1. Conferma la [pubblicazione](publish-journey.md).
 
 1. Monitora le prestazioni del percorso utilizzando [rapporti sul Percorso](report-journey.md) e [rapporti live](../reports/journey-live-report.md).
 
 
 ## Argomenti correlati
 
-* [Informazioni sulle attività condizionali](condition-activity.md) - Scopri come creare percorsi diversi nel percorso
-* [Condizioni di utilizzo in un percorso](conditions.md) - Guida dettagliata sulle condizioni del percorso
-* [Attività attendi](wait-activity.md) - Configurare le durate di attesa e le formule
-* [Funzioni data](functions/date-functions.md) - Riferimento completo per le funzioni data e ora
-* [Editor espressioni](expression/expressionadvanced.md) - Genera espressioni complesse
-* [Best practice per i Percorsi](journey-gs.md#best-practices) - Approcci consigliati per la progettazione dei percorsi
-* [Post di blog della community: come inviare e-mail solo nei giorni feriali](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Post di blog originale con esempi dettagliati
-
+* Scopri come creare percorsi diversi nel tuo percorso con [Attività condizionali](condition-activity.md)
+* Guida dettagliata su [utilizzo delle condizioni in un percorso](conditions.md)
+* Configura le durate di attesa e le formule con l&#39;[Attività di attesa](wait-activity.md)
+* Riferimento completo per [funzioni data](functions/date-functions.md)
+* Crea espressioni complesse con [editor espressioni](expression/expressionadvanced.md)
+* Approcci consigliati per la progettazione di [percorsi e best practice](journey-gs.md#best-practices)
