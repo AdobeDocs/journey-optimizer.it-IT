@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 5%
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la tua campagna e-mail. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)
 
-## Perfeziona variante
+## Perfeziona variante {#refine}
 
 ![Dimostrazione animata dell&#39;ottimizzazione delle varianti di contenuto generato da IA tramite le opzioni Riformula e Riepiloga](assets/do-not-localize/gen-ai-variation.gif)
 
