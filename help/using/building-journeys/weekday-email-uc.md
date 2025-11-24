@@ -11,9 +11,9 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
+source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Questo caso d’uso illustra come configurare un percorso in Adobe Journey Optim
 Questo approccio mostra come utilizzare un’attività condizione per verificare se il giorno corrente è sabato o domenica, implementare attività di attesa con formule personalizzate per gli invii nel weekend, mettere in coda le e-mail nel weekend per la consegna del lunedì a un’ora specifica e inviare immediatamente le e-mail per gli invii nei giorni feriali (dal lunedì al venerdì).
 
 Questo approccio è ideale per le campagne e-mail business-to-business (B2B), newsletter e comunicazioni professionali, annunci aziendali, aggiornamenti dei prodotti relativi al lavoro e qualsiasi campagna di marketing in cui non si desidera la consegna nel fine settimana.
-
-➡️ Guarda il [tutorial video](#how-to-video) dettagliato
 
 >[!NOTE]
 >
@@ -55,21 +53,21 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 ### Passaggio 2: aggiungi un’attività Condizione per controllare il giorno della settimana
 
-Subito dopo l’inizio del percorso, aggiungi una condizione per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
+Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
 1. Trascina e rilascia un&#39;attività **[!UICONTROL Condition]** nell&#39;area di lavoro dopo il punto di ingresso. [Ulteriori informazioni sulle attività condizionali](condition-activity.md)
 
-1. Fai clic sull’attività Condizione per aprire il relativo pannello di configurazione.
+1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 
 1. Seleziona **[!UICONTROL Condizione temporale]** come tipo di condizione.
 
-1. Seleziona **Giorno della settimana** come opzione di filtro dell&#39;ora.
+1. Seleziona **[!UICONTROL Giorno della settimana]** come opzione di filtro dell&#39;ora.
 
 1. Per il **primo percorso (sabato)**, seleziona solo **Sabato**. Etichetta questo percorso come &quot;sabato&quot;.
 
 1. Fai clic su **[!UICONTROL Aggiungi un percorso]** per creare una seconda condizione.
 
-1. Per il **secondo percorso (domenica)**, seleziona **Giorno della settimana** e scegli solo **Domenica**. Etichetta questo percorso come &quot;Domenica&quot;.
+1. Per il **secondo percorso (domenica)**, seleziona **[!UICONTROL Giorno della settimana]** e scegli solo **Domenica**. Etichetta questo percorso come &quot;Domenica&quot;.
 
    ![Configurazione delle condizioni di sabato e domenica nell&#39;editor espressioni](assets/weekday-email-uc-condition-expression.png)
 
@@ -82,9 +80,9 @@ Subito dopo l’inizio del percorso, aggiungi una condizione per verificare se i
 
 ### Passaggio 3: configurare le attività di attesa per le voci del fine settimana
 
-Per i profili che entrano il sabato o la domenica, utilizza Attività di attesa con formule personalizzate per ritardare l’e-mail fino a lunedì nell’ora desiderata.
+Per i profili che entrano sabato o domenica, utilizza le attività **[!UICONTROL Attendi]** con formule personalizzate per posticipare l&#39;e-mail a lunedì nell&#39;ora desiderata.
 
-Nell’attività Attendi, utilizza la seguente formula:
+Nell&#39;attività **[!UICONTROL Attendi]** utilizzare la formula seguente:
 
 ```javascript
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
@@ -132,22 +130,22 @@ Per implementarlo nel percorso:
 
 Per i profili che entrano dal lunedì al venerdì, procedi come di consueto al passaggio di invio dell’e-mail.
 
-1. Nel percorso **Giorno feriale** (il percorso &quot;Altri casi&quot;), procedi direttamente per aggiungere un&#39;attività di azione **[!UICONTROL E-mail]**. Non è necessaria alcuna attività Attendi per i movimenti nei giorni feriali.
+1. Nel percorso **Giorno feriale** (il percorso &quot;Altri casi&quot;), procedi direttamente per aggiungere un&#39;attività di azione **[!UICONTROL E-mail]**. Non è necessaria alcuna attività **[!UICONTROL Attendi]** per le voci nei giorni feriali.
 
 1. Configura il messaggio e-mail in base alle esigenze.
 
 ### Passaggio 5: completare il flusso di percorso
 
-Dopo le attività Attendi nei percorsi sia di sabato che di domenica, tutti e tre i percorsi (sabato, domenica e giorni feriali) devono scorrere nella stessa attività di azione E-mail. Aggiungi un&#39;attività **[!UICONTROL End]** dopo l&#39;e-mail.
+Dopo le attività **[!UICONTROL Attendi]** nei percorsi sabato e domenica, tutti e tre i percorsi (sabato, domenica e giorni feriali) devono scorrere nella stessa attività azione **[!UICONTROL E-mail]**. Aggiungi un&#39;attività **[!UICONTROL End]** dopo l&#39;e-mail.
 
 ### Panoramica del flusso di lavoro visivo
 
 Il flusso di lavoro di percorso completo segue questa logica:
 
-* **Inizio** → **Condizione: è sabato o domenica?**
-   * **Sì (sabato):** Attendi fino a lunedì 9 → Invia e-mail
-   * **Sì (domenica):** Attendi fino a lunedì 9 → Invia e-mail
-   * **No (lunedì-venerdì):** Invia immediatamente un&#39;e-mail
+* **Inizio** → **[!UICONTROL Condizione]**: è sabato o domenica?
+   * **Sì (sabato):** **[!UICONTROL Attendi]** fino a lunedì 9 → **[!UICONTROL Invia e-mail]**
+   * **Sì (domenica):** **[!UICONTROL Attendi]** fino a lunedì 9 → **[!UICONTROL Invia e-mail]**
+   * **No (lunedì-venerdì):** **[!UICONTROL Invia immediatamente e-mail]**
 
 In questo modo, tutte le e-mail vengono inviate solo nei giorni feriali, con le voci del fine settimana messe automaticamente in coda per la consegna del lunedì.
 
