@@ -11,9 +11,9 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition ]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 
@@ -185,9 +185,9 @@ Una volta completato il test:
 
 ## Argomenti correlati
 
-* Scopri come creare percorsi diversi nel tuo percorso con [Attività condizionali](condition-activity.md)
-* Guida dettagliata su [utilizzo delle condizioni in un percorso](conditions.md)
-* Configura le durate di attesa e le formule con l&#39;[Attività di attesa](wait-activity.md)
-* Riferimento completo per [funzioni data](functions/date-functions.md)
-* Crea espressioni complesse con [editor espressioni](expression/expressionadvanced.md)
-* Approcci consigliati per la progettazione di [percorsi e best practice](journey-gs.md#best-practices)
+* [Attività condizionali](condition-activity.md) - Scopri come creare percorsi diversi nel tuo percorso
+* [Condizioni di utilizzo in un percorso](conditions.md) - Guida dettagliata sulle condizioni del percorso
+* [Attività attendi](wait-activity.md) - Configurare le durate di attesa e le formule
+* [Funzioni data](functions/date-functions.md) - Riferimento completo per le funzioni data e ora
+* [Editor espressioni](expression/expressionadvanced.md) - Genera espressioni complesse
+* [Best practice per i Percorsi](journey-gs.md#best-practices) - Approcci consigliati per la progettazione dei percorsi
