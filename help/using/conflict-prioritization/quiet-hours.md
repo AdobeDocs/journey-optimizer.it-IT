@@ -187,4 +187,4 @@ Dopo l&#39;attivazione e l&#39;esecuzione del percorso o delle campagne, puoi vi
 
 Scopri come utilizzare la funzione per le ore non interattive in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475860?captions=ita&quality=12)
