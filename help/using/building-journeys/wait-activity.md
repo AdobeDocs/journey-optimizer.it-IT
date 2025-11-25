@@ -10,10 +10,10 @@ level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 17%
+source-wordcount: '732'
+ht-degree: 15%
 
 ---
 
@@ -90,6 +90,15 @@ Si consiglia di utilizzare date personalizzate specifiche per i profili ed evita
 >
 >Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, dall’interfaccia utente non è possibile puntare direttamente a una marca temporale ISO-8601 completa per la combinazione di tempo e scostamento fuso orario, ad esempio 2023-08-12T09:46:06.982-05. [Ulteriori informazioni](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>Durante la creazione di un&#39;espressione di attesa personalizzata con `toDateTimeOnly()`, evitare di aggiungere &#39;Z&#39; o qualsiasi scostamento di fuso orario (ad esempio, &#39;-05:00&#39;) nel risultato dell&#39;espressione. L’espressione deve utilizzare una sintassi data/ora ISO valida che faccia riferimento al fuso orario configurato dal percorso senza indicatori di fuso orario espliciti.
+>
+>**Esempio corretto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**Esempio non corretto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contiene &#39;Z&#39;)
+>
+>L’utilizzo di indicatori di fuso orario non supportati può causare il blocco dei profili nell’attività di attesa, anziché procedere come previsto.
 
 Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. [Ulteriori informazioni](../reports/query-examples.md#common-queries).
 
