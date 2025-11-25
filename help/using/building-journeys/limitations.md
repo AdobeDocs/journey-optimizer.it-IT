@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 45%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
@@ -23,10 +23,11 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Limitazioni delle azioni generali {#action-limitations}
 
-* Non esiste alcuna limitazione di invio. 
-* In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
-* L&#39;evento predefinito **Reaction** ti consente di reagire alle azioni predefinite (vedi questa [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
+* Non esiste alcuna limitazione di invio.
+* In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
+* L&#39;evento predefinito **Reaction** ti consente di reagire alle azioni predefinite (vedi questa [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
+
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 ## Limitazioni degli eventi {#events-limitations}
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+
+## Limitazioni degli eventi di reazione {#reaction-limitations}
+
+* Le attività **[!UICONTROL Reaction]** devono essere inserite immediatamente dopo un&#39;attività [channel action](../building-journeys/journeys-message.md) nell&#39;area di lavoro del percorso. Il posizionamento di un&#39;attività **[!UICONTROL Wait]** o di qualsiasi altra attività tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]** non è supportato e potrebbe impedire il funzionamento previsto dell&#39;attività Reaction. Ulteriori informazioni in [questa sezione](../building-journeys/reaction-events.md).
 
 ## Limitazioni delle origini dati {#data-sources-limitations}
 
