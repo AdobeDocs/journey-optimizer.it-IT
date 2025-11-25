@@ -10,10 +10,10 @@ level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 18%
+source-wordcount: '1773'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ Sono disponibili i seguenti tipi di condizioni:
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Aggiungere e gestire i percorsi Condizione {#about_condition}
 
@@ -90,6 +90,14 @@ Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le c
 Utilizzare una **[!UICONTROL condizione Data Source]** per definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Questo tipo di condizione viene definito con l’editor di espressioni. Scopri come utilizzare l’editor di espressioni in [questa sezione](expression/expressionadvanced.md).
 
 Ad esempio, se esegui il targeting di un pubblico con attributi di arricchimento generati utilizzando un flusso di lavoro di composizione o un caricamento personalizzato (file CSV), puoi sfruttare questi attributi di arricchimento per creare la condizione.
+
+>[!IMPORTANT]
+>
+>**Gestione di attributi mancanti o non acquisiti**
+>
+>Se nello schema del profilo è definito un campo schema ma non sono stati acquisiti dati per tale campo, Journey Optimizer e il profilo cliente in tempo reale sottostante interpretano il campo come `null`. Di conseguenza, le condizioni che verificano per `isEmpty()`, `isNull()` o funzioni simili restituiranno `true` anche se l&#39;attributo non è mai stato acquisito. Questo può causare un comportamento di percorso imprevisto se non si è consapevoli che il campo non contiene dati.
+>
+>Per evitare confusione, assicurati che gli attributi utilizzati nelle espressioni di condizione siano stati acquisiti con i dati effettivi prima che il profilo entri nel percorso. Puoi verificare i valori degli attributi nel [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} per verificare se esistono dati per i campi utilizzati nelle tue condizioni.
 
 Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. [Ulteriori informazioni](../datasource/external-data-sources.md).
 
@@ -180,4 +188,4 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
