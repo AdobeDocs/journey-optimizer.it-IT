@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 23%
+source-wordcount: '1199'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -150,3 +150,13 @@ Se stai creando rapporti o analisi basati su eventi dei passaggi del Percorso:
 * Tieni presente che l’analisi dei tempi può mostrare le voci raggruppate in pochi secondi l’una dall’altra
 
 Per ulteriori informazioni sull&#39;esecuzione di query sugli eventi dei passaggi del Percorso, vedere [Esempi di query](../reports/query-examples.md).
+
+## Risolvere i problemi relativi alle discrepanze nelle metriche del dashboard {#dashboard-metrics}
+
+Se le metriche visualizzate nel dashboard **Panoramica** non corrispondono al numero effettivo di percorsi nella scheda **Sfoglia**, verificare quanto segue:
+
+* Assicurati che i percorsi in questione abbiano avuto traffico nelle ultime 24 ore, in quanto i percorsi senza attività recente vengono esclusi dal dashboard.
+* Verifica di disporre delle autorizzazioni di accesso appropriate per visualizzare tutti i percorsi dell’organizzazione.
+* Attendi fino a 30 minuti per l’aggiornamento delle metriche dopo aver apportato modifiche ai percorsi.
+
+Se le discrepanze persistono, contatta il supporto Adobe con le schermate delle schede Panoramica e Sfoglia per ulteriori informazioni.
