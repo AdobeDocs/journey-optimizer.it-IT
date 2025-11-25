@@ -8,14 +8,35 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
 # Motivi di esclusione {#exclusion-list}
+
+## Conteggio delle esclusioni nei rapporti delle campagne
+
+Quando visualizzi i rapporti sulle campagne, tieni presente che la metrica *Esclusioni* viene calcolata come segue:
+
+**Esclusioni = Esclusioni univoche + Eventi di esclusione duplicati**
+
+Ciò significa che se un profilo viene escluso più volte (ad esempio, a causa di più eventi di esclusione per lo stesso profilo), ogni evento viene conteggiato nel totale Esclusioni. Di conseguenza, la somma di *Delivered* e *Exclusions* potrebbe superare le dimensioni del pubblico di destinazione originale. Questo comportamento è previsto e riflette il modo in cui gli eventi di esclusione vengono tracciati nel sistema.
+
+**Esempio:**
+
+- Pubblico di destinazione: 94.000 profili
+- Consegnato: 69.000
+- Esclusioni: 37.000 (include eventi di esclusione duplicati)
+- Totale (Consegne + Esclusioni): 106.000
+
+Il totale supera il pubblico di destinazione perché nel conteggio delle esclusioni sono inclusi eventi di esclusione duplicati.
+
+Per ulteriori dettagli sui motivi specifici di esclusione, consulta la tabella seguente.
+
+## Elenco motivi di esclusione
 
 | Motivo di esclusione | Codice errore | Canale | Spiegazione |
 |-|-|-|-|

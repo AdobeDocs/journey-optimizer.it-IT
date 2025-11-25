@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Tieni presente che le metriche variano in base ai canali utilizzati nella campag
 
 * **[!UICONTROL Errori in uscita]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
-* **[!UICONTROL Esclusioni in uscita]**: numero di profili esclusi da Adobe Journey Optimizer.
+* **[!UICONTROL Esclusioni in uscita]**: numero di profili esclusi da Adobe Journey Optimizer. [Ulteriori informazioni sul conteggio delle esclusioni](exclusion-list.md#exclusion-list).
 
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 

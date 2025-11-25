@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Invia esclusioni<br/> </td> 
-   <td> Numero di profili esclusi da Adobe Journey Optimizer.<br/> </td> 
+   <td> Numero di profili esclusi da Adobe Journey Optimizer. <a href="exclusion-list.md">Ulteriori informazioni sul conteggio delle esclusioni</a>.<br/> </td> 
   </tr>
   <tr> 
    <td> Nome posizionamento<br/> </td> 
@@ -193,7 +193,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr>
   <tr> 
    <td> Esclusioni di invio univoche<br/> </td> 
-   <td>Numero di profili univoci esclusi dalla ricezione dei messaggi a causa di regole di idoneità, segmentazione del pubblico o stato del profilo.<br/> </td> 
+   <td>Numero di profili univoci esclusi dalla ricezione dei messaggi a causa di regole di idoneità, segmentazione del pubblico o stato del profilo. <a href="exclusion-list.md">Ulteriori informazioni sul conteggio delle esclusioni</a>.<br/> </td> 
   </tr>
   <tr> 
    <td>Destinazione univoca<br/> </td> 
@@ -234,7 +234,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
     </tr>
     <tr> 
       <td>Esclusioni SMS in uscita</td> 
-      <td>Numero di profili esclusi dalla ricezione di messaggi SMS da parte di Adobe Journey Optimizer.</td> 
+      <td>Numero di profili esclusi dalla ricezione di messaggi SMS da parte di Adobe Journey Optimizer. <a href="exclusion-list.md">Ulteriori informazioni sul conteggio delle esclusioni</a>.</td> 
     </tr>
     <tr> 
       <td>Clic univoci</td> 
@@ -548,7 +548,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr>
 <tr> 
    <td>Esclusioni in uscita<br/> </td> 
-   <td>Numero di profili esclusi dalla ricezione della direct mailing a causa di criteri predefiniti o filtro da parte di Adobe Journey Optimizer.<br/> </td> 
+   <td>Numero di profili esclusi dalla ricezione della direct mailing a causa di criteri predefiniti o filtri da Adobe Journey Optimizer. <a href="exclusion-list.md">Ulteriori informazioni sul conteggio delle esclusioni</a>.<br/> </td> 
 </tr>
 <tr> 
    <td>Profili<br/> </td> 
