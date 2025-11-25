@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, guida
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
-source-wordcount: '5125'
+source-wordcount: '5226'
 ht-degree: 0%
 
 ---
@@ -271,31 +271,36 @@ Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e
 
 +++ Posso inviare di nuovo un messaggio se qualcuno non lo apre o non fa clic?
 
-Sì.  Utilizza un **evento di reazione** con **timeout**:
+Sì.  Utilizza un evento **[!UICONTROL Reazione]** con **Timeout**:
 
-1. Dopo aver inviato il messaggio, aggiungi un evento di reazione che ascolta le aperture dell’e-mail o i clic
-2. Configura un periodo di timeout (ad esempio, 3 giorni) sull’evento Reazione
+1. Dopo aver inviato il messaggio, aggiungi un evento **[!UICONTROL Reazione]** **immediatamente** dopo l&#39;azione del canale (senza alcuna attività **[!UICONTROL Attendi]** nel mezzo)
+2. Configura un periodo di timeout (ad esempio, 3 giorni) sull&#39;evento **[!UICONTROL Reaction]** per l&#39;ascolto delle aperture delle e-mail o dei clic
 3. Creare due percorsi:
    * **Se aperto/selezionato**: procedere con i passaggi successivi o terminare il percorso
    * **Percorso timeout (non aperto/non selezionato)**: invia un messaggio e-mail di promemoria con un oggetto diverso
 
 **Best practice**: limita il numero di invii per evitare di apparire come spammy (in genere un massimo di 1-2 promemoria).
 
-Ulteriori informazioni su [eventi di reazione](reaction-events.md).
+Ulteriori informazioni su [Eventi di reazione](reaction-events.md).
 
 +++
 
 +++ Come si crea un percorso di abbandono del carrello?
 
-Creare un percorso attivato da un evento utilizzando un evento Reazione con un Timeout:
+Crea un percorso attivato da un evento utilizzando un evento **[!UICONTROL Reazione]** con timeout:
 
 1. **Configura un evento &quot;Carrello abbandonato&quot;**: attivato quando vengono aggiunti elementi ma l&#39;estrazione non viene completata in un intervallo di tempo
-2. **Aggiungi un evento di reazione**: configuralo per l&#39;ascolto di un evento di acquisto
-3. **Imposta un periodo di timeout**: definisci un timeout (ad esempio, 1-2 ore) sull&#39;evento Reazione per dare al cliente il tempo di completare in modo naturale
-4. **Creare due percorsi**:
+2. **Invio di un messaggio iniziale** (facoltativo): messaggio e-mail di conferma degli elementi del carrello
+3. **Aggiungi un evento [!UICONTROL Reazione] immediatamente dopo l&#39;azione del canale**: configuralo per l&#39;ascolto di un evento di acquisto
+4. **Imposta un periodo di timeout**: definisci un timeout (ad esempio, 1-2 ore) nell&#39;evento **[!UICONTROL Reaction]** per dare al cliente il tempo di completare in modo naturale
+5. **Creare due percorsi**:
    * **Se si verifica un evento di acquisto**: termina il percorso o continua con il flusso successivo all&#39;acquisto
    * **Percorso timeout (nessun acquisto)**: invia un messaggio e-mail di promemoria per l&#39;abbandono con il contenuto del carrello
-5. **Facoltativo**: aggiungi un altro evento di reazione con timeout (24 ore) e invia un secondo promemoria con un incentivo (ad esempio, sconto del 10%)
+6. **Facoltativo**: aggiungi un altro evento **[!UICONTROL Reazione]** **immediatamente dopo** l&#39;e-mail di promemoria con timeout (24 ore) e invia un secondo promemoria con un incentivo (ad esempio, sconto del 10%)
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Reazione]** eventi devono essere inseriti immediatamente dopo [azioni canale](journeys-message.md). Non inserire attività **[!UICONTROL Wait]** tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]**.
 
 Ulteriori informazioni su [Casi d&#39;uso percorsi](jo-use-cases.md) e [eventi di reazione](reaction-events.md).
 
@@ -323,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -463,8 +468,9 @@ I profili dei motivi comuni non possono entrare in un percorso:
 * **Percorso non pubblicato**: il percorso è in stato Bozza
 * **Spazio dei nomi non valido**: lo spazio dei nomi del percorso non corrisponde all&#39;identità del profilo
 * **Percorso chiuso**: il percorso non accetta più nuovi ingressi
+* **Tempistica per la qualifica del pubblico in streaming**: per i percorsi che utilizzano la qualifica del pubblico con tipi di pubblico in streaming, i profili non possono entrare se facevano già parte del pubblico prima che il percorso fosse pubblicato o se il percorso non ha completato il periodo di attivazione (fino a 10 minuti dopo la pubblicazione)
 
-Ulteriori informazioni sulla gestione delle [voci](entry-management.md).
+Ulteriori informazioni sulla [gestione delle voci](entry-management.md) e sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 
