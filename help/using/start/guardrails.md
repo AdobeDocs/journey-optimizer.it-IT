@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
 workflow-type: tm+mt
-source-wordcount: '3075'
-ht-degree: 95%
+source-wordcount: '3131'
+ht-degree: 93%
 
 ---
 
@@ -178,7 +178,7 @@ Alle [versioni del percorso](../start/user-interface.md) vengono applicati i seg
 
 Alle [azioni personalizzate](../action/action.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e per sandbox. Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
+* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e per sandbox. Il limite &quot;per host&quot; si applica a livello di dominio (ad esempio, example.com). Questo limite viene applicato come finestra scorrevole per sandbox e per endpoint per gli endpoint con tempi di risposta inferiori a 0,75 secondi. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di 150.000 chiamate per 30 secondi (anche una finestra scorrevole). Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”

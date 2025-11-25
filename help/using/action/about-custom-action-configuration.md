@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 15%
+source-wordcount: '1974'
+ht-degree: 13%
 
 ---
 
@@ -74,12 +74,18 @@ Le azioni personalizzate supportano il formato JSON solo quando si utilizza [ric
 
 Quando scegli un endpoint per il targeting utilizzando un’azione personalizzata, assicurati che:
 
-* Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS. Ulteriori informazioni sui tassi percorsi di elaborazione in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+* Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 * Questo endpoint deve avere un tempo di risposta il più basso possibile. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva.
 
 Per tutte le azioni personalizzate viene definito un limite massimo di 300.000 chiamate in un minuto. Inoltre, il limite predefinito viene eseguito per host e per sandbox. Ad esempio, in una sandbox, se disponi di due endpoint con lo stesso host (ad esempio, `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), il limite verrà applicato a tutti gli endpoint nell&#39;host adobe.com. &quot;endpoint1&quot; ed &quot;endpoint2&quot; condivideranno la stessa configurazione di limitazione e il fatto che un endpoint raggiunga il limite avrà un impatto sull’altro endpoint.
 
-Questo limite è stato impostato in base all’utilizzo da parte del cliente per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5.000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
+>[!NOTE]
+>
+>Il limite di 300.000 chiamate al minuto viene applicato come **finestra scorrevole** per sandbox ed endpoint per gli endpoint con tempi di risposta inferiori a 0,75 secondi. La finestra scorrevole può iniziare a qualsiasi millisecondo, il che significa che gli errori di limitazione possono verificarsi anche se la velocità appare inferiore a 300k/min quando allineata ai minuti dell&#39;orologio. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di 150.000 chiamate per 30 secondi (anche una finestra scorrevole). Ulteriori informazioni sugli endpoint lenti in [questa pagina](../configuration/external-systems.md#response-time).
+
+Il limite predefinito di 300.000 chiamate al minuto si applica a livello di dominio (ovvero example.com). Se hai bisogno di un limite più alto, consulta il supporto Adobe con prove di utilizzo e conferma la velocità effettiva dell’endpoint. Per richiedere un aumento del limite, fornisci dettagli sul volume di chiamate previsto e sulla capacità dell’endpoint. Adobe può personalizzare il limite se il test della capacità dimostra che l’endpoint è in grado di gestire una velocità effettiva più elevata. Per le best practice, considera la ristrutturazione dei percorsi o l’implementazione delle attività di attesa per scaglionare le chiamate in uscita ed evitare errori di limitazione.
+
+Questo limite è stato impostato in base all’utilizzo da parte del cliente per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 
 Non eseguire il targeting degli endpoint pubblici con azioni personalizzate per vari motivi:
 
@@ -157,7 +163,7 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
-L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
