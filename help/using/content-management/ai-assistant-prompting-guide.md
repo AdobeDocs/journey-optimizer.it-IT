@@ -120,19 +120,19 @@ Queste richieste non sono supportate e devono essere gestite tramite altri strum
 
 Prima di generare il contenuto, verifica quanto segue:
 
-&check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
+&amp;check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
 
-&check; **Pubblico di destinazione definito**: specifica il gruppo demografico, la mansione o il segmento.
+&amp;check; **Pubblico di destinazione definito**: specifica il gruppo demografico, la mansione o il segmento.
 
-&check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
+&amp;check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
 
-&check; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
+&amp;check; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
 
-&check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
+&amp;check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
 
-&check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
+&amp;check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
 
-&check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
+&amp;check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
 
 ## Scrivi obiettivi di marketing efficaci {#marketing-objectives}
 
@@ -142,11 +142,11 @@ Quando definisci gli obiettivi di marketing, assicurati che siano chiari, utiliz
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
+&amp;check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
 
-&check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
+&amp;check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
 
-&check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
+&amp;check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
 
 **Esempi da evitare:**
 
@@ -163,11 +163,11 @@ Usa questa formula per scrivere obiettivi efficaci: **Azione + Prodotto/Servizio
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
+&amp;check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
 
-&check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
+&amp;check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
 
-&check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
+&amp;check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
 
 **Esempi da evitare:**
 
