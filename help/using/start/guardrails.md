@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 93%
+source-wordcount: '3233'
+ht-degree: 89%
 
 ---
 
@@ -88,15 +88,21 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 
 ### Guardrail per canali in entrata {#inbound-guardrails}
 
+Per utilizzare le azioni di [esperienza basate su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+
+Per poter accedere e creare [pagine Web](../web/get-started-web.md) nell&#39;interfaccia utente [!DNL Journey Optimizer], seguire i prerequisiti elencati in [questa pagina](../web/web-prerequisites.md).
+
+Per inviare messaggi in-app nei tuoi percorsi e campagne con [!DNL Journey Optimizer], segui i prerequisiti di consegna elencati in [questa pagina](../in-app/inapp-configuration.md).
+
+Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenuto, devi configurare le impostazioni di Adobe Experience Platform elencate in [questa pagina](../content-card/content-card-configuration-prereq.md).
+
 * Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-  I canali in entrata di Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. In questo modo, il conteggio totale dei profili coinvolgibili verrà aumentato, il che potrebbe avere implicazioni di costo qualora si superi il numero contrattuale di profili coinvolgibili acquistati.
+* I canali in entrata di Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. Questo aumenta il numero totale di profili coinvolgibili, il che può avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-  Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+  Per mantenere i profili coinvolgibili entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-To-Live) di 14 giorni per eliminare automaticamente i profili pseudonimi sull’hub se non sono stati visualizzati o coinvolti in questa finestra temporale. Scopri come fare nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
 * Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)) vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
-
-* Per utilizzare le azioni di [esperienza basate su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
 ### Guardrail di un messaggio transazionale {#transactional-message-guardrails}
 
