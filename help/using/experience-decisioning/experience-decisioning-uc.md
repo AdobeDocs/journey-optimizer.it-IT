@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '841'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 4%
 # Utilizzare il decisioning in un’esperienza basata su codice con un esperimento sui contenuti {#experience-decisioning-uc}
 
 Questo caso d&#39;uso presenta tutti i passaggi necessari per utilizzare Decisioning con il canale basato su codice [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>La funzionalità di gestione delle decisioni legacy non è supportata con il canale di esperienza basato su codice.
 
 In questo esempio, non sei sicuro se una formula di classificazione specifica funzionerà meglio delle priorità di offerta preassegnate. Per misurare quale funziona meglio per il tuo pubblico di destinazione, crea una campagna utilizzando [Esperimento sui contenuti](../content-management/content-experiment.md) in cui definisci due trattamenti di consegna:
 

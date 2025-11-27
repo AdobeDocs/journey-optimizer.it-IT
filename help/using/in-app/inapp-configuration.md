@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 7%
+source-wordcount: '1011'
+ht-degree: 8%
 
 ---
 
@@ -26,13 +26,17 @@ Per inviare messaggi in-app nei tuoi percorsi e nelle tue campagne con [!DNL Jou
 
 Al termine, puoi creare, configurare e inviare il primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
 
+>[!CAUTION]
+>
+>Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con i messaggi in-app, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](../start/guardrails.md#profile-management-inbound)
+
 ## Prerequisiti per la consegna {#delivery-prerequisites}
 
 Affinché i messaggi in-app vengano recapitati correttamente, è necessario definire le seguenti impostazioni:
 
 * Nella [raccolta dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target="_blank"}, assicurati di avere uno stream di dati definito, ad esempio nel servizio **[!UICONTROL Adobe Experience Platform]** hai l&#39;opzione Adobe Experience Platform Edge e **[!UICONTROL Adobe Journey Optimizer]** abilitata.
 
-  In questo modo gli eventi in entrata Journey Optimizer vengono gestiti correttamente da Adobe Experience Platform Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it){target="_blank"}
+  In questo modo gli eventi in entrata Journey Optimizer vengono gestiti correttamente da Adobe Experience Platform Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   >[!NOTE]
   >
@@ -40,7 +44,7 @@ Affinché i messaggi in-app vengano recapitati correttamente, è necessario defi
 
   ![](assets/inapp_config_6.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di aver abilitato l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]** per i criteri di unione predefiniti. A questo scopo, seleziona un criterio dal menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di aver abilitato l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]** per i criteri di unione predefiniti. A questo scopo, seleziona un criterio dal menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Questo criterio di unione viene utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul server Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it){target="_blank"}
 
@@ -126,9 +130,9 @@ Ora puoi selezionare la tua configurazione durante la creazione del messaggio in
 >
 >Il set di dati viene utilizzato in sola lettura dal sistema di reporting [!DNL Journey Optimizer] e non influisce sulla raccolta o sull&#39;acquisizione dei dati.
 
-Per abilitare il reporting per il canale in-app, devi assicurarti che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione in-app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} sia incluso anche nella configurazione di reporting. In altre parole, quando configuri il reporting, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti. Scopri come aggiungere set di dati per il reporting in [questa sezione](../reports/reporting-configuration.md#add-datasets).
+Per abilitare il reporting per il canale in-app, devi assicurarti che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione in-app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso anche nella configurazione di reporting. In altre parole, quando configuri il reporting, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti. Scopri come aggiungere set di dati per il reporting in [questa sezione](../reports/reporting-configuration.md#add-datasets).
 
-Se **non** utilizza i seguenti [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"} predefiniti per lo schema del set di dati: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (come definito in [questa pagina](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=it#add-field-groups){target="_blank"}), assicurati di aggiungere i seguenti gruppi di campi: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Questi sono necessari per il reporting di [!DNL Journey Optimizer] in quanto tengono traccia di quali campagne e percorsi partecipano ogni profilo.
+Se **non** utilizza i seguenti [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"} predefiniti per lo schema del set di dati: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (come definito in [questa pagina](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), assicurati di aggiungere i seguenti gruppi di campi: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Questi sono necessari per il reporting di [!DNL Journey Optimizer] in quanto tengono traccia di quali campagne e percorsi partecipano ogni profilo.
 
 [Ulteriori informazioni sulla configurazione del reporting](../reports/reporting-configuration.md)
 
@@ -143,17 +147,4 @@ Se **non** utilizza i seguenti [gruppi di campi](https://experienceleague.adobe.
 * [Progettare un messaggio in-app](design-in-app.md)
 * [Rapporto in-app](../reports/campaign-global-report-cja-inapp.md)
 
-## Guardrail di gestione del profilo {#profile-management-guardrail}
-
-[!DNL Journey Optimizer] i messaggi in-app possono essere indirizzati a profili pseudonimi, ovvero profili non autenticati o non ancora noti perché non sono stati precedentemente utilizzati su altri canali. Questo è il caso, ad esempio, quando si esegue il targeting di tutti i visitatori o tipi di pubblico in base a ID temporanei come ECID.
-
-Questo aumenta il numero totale di profili coinvolgibili, il che può avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili coinvolgibili nel [dashboard di utilizzo delle licenze](../audience/license-usage.md).
-
-Per mantenere i profili coinvolgibili entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-To-Live) per eliminare automaticamente i profili pseudonimi dal profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico.
-
->[!NOTE]
->
->Scopri come configurare la scadenza dei dati per i profili pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
-
-Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda al valore TTL del profilo Edge corrente.
 

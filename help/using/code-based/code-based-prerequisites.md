@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,17 @@ Per poter utilizzare in [!DNL Journey Optimizer] le azioni di esperienza basate 
 
 * Quando crei una configurazione del canale esperienza basata su [codice](code-based-configuration.md), accertati di immettere una stringa o un percorso o un URI di superficie che corrisponda a quello dichiarato nella tua implementazione. In questo modo il contenuto viene consegnato nella posizione desiderata all’interno dell’app o della pagina specificata. In caso contrario, non sarà possibile consegnare le modifiche. [Ulteriori informazioni](code-based-surface.md)
 
->[!NOTE]
+>[!CAUTION]
 >
->Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con esperienze basate su codice, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](#profile-management-guardrail)
+>Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con esperienze basate su codice, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](../start/guardrails.md#profile-management-inbound)
 
 ## Prerequisiti per l’implementazione {#implementation-prerequisites}
 
 L’esperienza basata su codice supporta qualsiasi tipo di implementazione del cliente, come illustrato nelle opzioni seguenti. Puoi utilizzare un metodo di implementazione lato client, lato server o ibrido per le proprietà:
 
-* Solo lato client: per aggiungere modifiche alle pagine Web o alle app mobili, devi implementare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} sul tuo sito Web o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} nelle tue app mobili.
+* Solo lato client: per aggiungere modifiche alle pagine Web o alle app mobili, devi implementare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} sul tuo sito Web o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} nelle tue app mobili.
 
-* Modalità ibrida: è possibile utilizzare l&#39;[API server AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it){target="_blank"} per richiedere la personalizzazione lato server; la risposta viene fornita a Adobe Experience Platform Web SDK per eseguire il rendering delle modifiche lato client. Per ulteriori informazioni, consulta la [documentazione sulle API server di Adobe Experience Platform per Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=it){target="_blank"}. Per ulteriori informazioni sulla modalità ibrida, consulta alcuni esempi di implementazione in [questo post di blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Modalità ibrida: è possibile utilizzare l&#39;[API server AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it){target="_blank"} per richiedere la personalizzazione lato server; la risposta viene fornita a Adobe Experience Platform Web SDK per eseguire il rendering delle modifiche lato client. Per ulteriori informazioni, consulta la [documentazione sulle API server di Adobe Experience Platform per Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. Per ulteriori informazioni sulla modalità ibrida, consulta alcuni esempi di implementazione in [questo post di blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 * Lato server: è possibile utilizzare l&#39;[API server di AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it){target="_blank"} per richiedere la personalizzazione lato server. Il team di sviluppo deve gestire la risposta ed eseguire il rendering delle modifiche lato client nell’implementazione dell’app.
 
@@ -47,11 +47,11 @@ Per consegnare correttamente le esperienze basate su codice, è necessario defin
 
 * Nella [raccolta dati di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target="_blank"}, assicurati di avere uno stream di dati definito, ad esempio nel servizio **[!UICONTROL Adobe Experience Platform]** hai l&#39;opzione **[!UICONTROL Adobe Journey Optimizer]** abilitata.
 
-  In questo modo gli eventi in entrata Journey Optimizer vengono gestiti correttamente da Adobe Experience Platform Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it){target="_blank"}
+  In questo modo gli eventi in entrata Journey Optimizer vengono gestiti correttamente da Adobe Experience Platform Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di avere abilitato un criterio di unione con l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]**. A questo scopo, seleziona un criterio dal menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, assicurati di avere abilitato un criterio di unione con l&#39;opzione **[!UICONTROL Criterio di unione attivo su Edge]**. A questo scopo, seleziona un criterio dal menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Questo criterio di unione viene utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul server Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it){target="_blank"}
 
@@ -65,7 +65,7 @@ Per consegnare correttamente le esperienze basate su codice, è necessario defin
 
 ## Prerequisiti per la generazione di rapporti {#reporting-prerequisites}
 
-Per abilitare il reporting per il canale basato su codice, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} sia incluso anche nella configurazione del reporting.
+Per abilitare il reporting per il canale basato su codice, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} sia incluso anche nella configurazione del reporting.
 
 In altre parole, quando configuri il reporting, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti.
 
@@ -75,16 +75,3 @@ Scopri come aggiungere set di dati per il reporting in [questa sezione](../repor
 >
 >Il set di dati viene utilizzato in sola lettura dal sistema di reporting [!DNL Journey Optimizer] e non influisce sulla raccolta o sull&#39;acquisizione dei dati.
 
-## Guardrail di gestione del profilo {#profile-management-guardrail}
-
-[!DNL Journey Optimizer] esperienze basate su codice possono eseguire il targeting di profili pseudonimi, ovvero profili non autenticati o non ancora noti perché non sono stati utilizzati in precedenza su altri canali. Questo è il caso, ad esempio, quando si esegue il targeting di tutti i visitatori o tipi di pubblico in base a ID temporanei come ECID.
-
-Questo aumenta il numero totale di profili coinvolgibili, il che può avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili coinvolgibili nel [dashboard di utilizzo delle licenze](../audience/license-usage.md).
-
-Per mantenere i profili coinvolgibili entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-To-Live) per eliminare automaticamente i profili pseudonimi dal profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico.
-
->[!NOTE]
->
->Scopri come configurare la scadenza dei dati per i profili pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
-
-Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda al valore TTL del profilo Edge corrente.

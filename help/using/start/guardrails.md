@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '3233'
-ht-degree: 89%
+source-wordcount: '3331'
+ht-degree: 86%
 
 ---
 
@@ -98,11 +98,21 @@ Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenut
 
 * Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-* I canali in entrata di Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. Questo aumenta il numero totale di profili coinvolgibili, il che può avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
-  Per mantenere i profili coinvolgibili entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-To-Live) di 14 giorni per eliminare automaticamente i profili pseudonimi sull’hub se non sono stati visualizzati o coinvolti in questa finestra temporale. Scopri come fare nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
-
 * Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)) vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
+
+#### Gestione dei profili con canali in entrata {#profile-management-inbound}
+
+[!DNL Journey Optimizer] canali in entrata possono eseguire il targeting di profili pseudonimi, ovvero profili non autenticati o non ancora noti perché non sono stati precedentemente coinvolti su altri canali. Questo è il caso, ad esempio, quando si esegue il targeting di tutti i visitatori o tipi di pubblico in base a ID temporanei come ECID.
+
+Questo aumenta il numero totale di profili coinvolgibili, il che può avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili coinvolgibili nel [dashboard di utilizzo delle licenze](../audience/license-usage.md).
+
+Per mantenere i profili coinvolgibili entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-To-Live) per eliminare automaticamente i profili pseudonimi dal profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico.
+
+>[!NOTE]
+>
+>Scopri come configurare la scadenza dei dati per i profili pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda al valore TTL del profilo Edge corrente.
 
 ### Guardrail di un messaggio transazionale {#transactional-message-guardrails}
 
@@ -141,6 +151,8 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
   Per ulteriori informazioni sulle composizioni del pubblico, consulta [questa pagina](../audience/get-started-audience-orchestration.md).
 
 * Durante l’acquisizione dei dati, negli indirizzi e-mail viene fatta distinzione tra maiuscole e minuscole. Ciò significa che è possibile creare profili duplicati (ad esempio, un profilo per John.Greene@luma.com e un altro profilo per john.greene@luma.com) e utilizzarli quando si esegue il targeting del destinatario corrispondente nei percorsi e nelle campagne [!DNL Journey Optimizer].
+
+* Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con le tue schede di contenuto, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](#profile-management-inbound)
 
 ## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 
