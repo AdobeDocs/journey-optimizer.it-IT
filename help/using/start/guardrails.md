@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '3331'
-ht-degree: 86%
+source-wordcount: '3324'
+ht-degree: 85%
 
 ---
 
@@ -88,17 +88,17 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 
 ### Guardrail per canali in entrata {#inbound-guardrails}
 
-Per utilizzare le azioni di [esperienza basate su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
+* Per utilizzare le azioni di [esperienza basate su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
-Per poter accedere e creare [pagine Web](../web/get-started-web.md) nell&#39;interfaccia utente [!DNL Journey Optimizer], seguire i prerequisiti elencati in [questa pagina](../web/web-prerequisites.md).
+* Per poter accedere e creare [pagine Web](../web/get-started-web.md) nell&#39;interfaccia utente [!DNL Journey Optimizer], seguire i prerequisiti elencati in [questa pagina](../web/web-prerequisites.md).
 
-Per inviare messaggi in-app nei tuoi percorsi e campagne con [!DNL Journey Optimizer], segui i prerequisiti di consegna elencati in [questa pagina](../in-app/inapp-configuration.md).
+* Per inviare messaggi in-app nei tuoi percorsi e campagne con [!DNL Journey Optimizer], segui i prerequisiti di consegna elencati in [questa pagina](../in-app/inapp-configuration.md).
 
-Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenuto, devi configurare le impostazioni di Adobe Experience Platform elencate in [questa pagina](../content-card/content-card-configuration-prereq.md).
+* Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenuto, devi configurare le impostazioni di Adobe Experience Platform elencate in [questa pagina](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)) vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
+* Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
 
 #### Gestione dei profili con canali in entrata {#profile-management-inbound}
 
@@ -152,7 +152,7 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 
 * Durante l’acquisizione dei dati, negli indirizzi e-mail viene fatta distinzione tra maiuscole e minuscole. Ciò significa che è possibile creare profili duplicati (ad esempio, un profilo per John.Greene@luma.com e un altro profilo per john.greene@luma.com) e utilizzarli quando si esegue il targeting del destinatario corrispondente nei percorsi e nelle campagne [!DNL Journey Optimizer].
 
-* Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con le tue schede di contenuto, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](#profile-management-inbound)
+* Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con canali in entrata, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](#profile-management-inbound)
 
 ## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 

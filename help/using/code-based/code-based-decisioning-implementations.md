@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 Quando utilizzi Decisioning nelle esperienze basate su codice, prendi in considerazione l’aggiunta dei seguenti flag all’implementazione client nei casi descritti di seguito.
 
-➡️ Ulteriori informazioni sulla configurazione di Web SDK per il decisioning e le esperienze basate su codice sono disponibili in [queste esercitazioni](#tutorials).
-
 >[!CAUTION]
 >
 >Il canale di esperienza basato su codice supporta solo la funzionalità [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). La funzionalità di gestione delle decisioni legacy non è disponibile con esperienze basate su codice.
+
+➡️ Ulteriori informazioni sulla configurazione di Web SDK per il decisioning e le esperienze basate su codice sono disponibili in [queste esercitazioni](#tutorials).
 
 ## Verifica di esperienze basate su codice tramite decisioni {#code-based-test-decisions}
 
@@ -295,7 +295,7 @@ Supponiamo che tu abbia lo stesso criterio di decisione con posizionamento di in
 
 +++
 
-## Tutorial{#tutorials}
+## Tutorial {#tutorials}
 
 Scopri come utilizzare il decisioning in Journey Optimizer per personalizzare le offerte di contenuti sul tuo sito web, con particolare attenzione alla configurazione di Web SDK in [questa esercitazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
