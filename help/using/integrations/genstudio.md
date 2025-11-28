@@ -91,8 +91,8 @@ Questa integrazione sfrutta funzionalità avanzate per la tua organizzazione di 
 
 ### Casi d’uso comuni {#genstudio-use-cases}
 
-Integrazione tra [!DNL GenStudio for Performance Marketing] e [!DNL
-Journey Optimizer] supporta vari scenari di marketing:
+Integrazione tra [!DNL GenStudio for Performance Marketing] e 
+Journey Optimizer&rbrack; supporta vari scenari di marketing:
 
 * **Campagne di lancio del prodotto**: genera rapidamente più varianti di e-mail per gli annunci di prodotti, testale con diversi segmenti di pubblico e ridimensiona la versione vincente in tutta la tua base di clienti.
 
