@@ -34,7 +34,7 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 Quando un destinatario fa clic sul collegamento di rinuncia, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Nella [scheda Attributi](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**. Ulteriori informazioni sull&#39;elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Nella [scheda Attributi](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**. Ulteriori informazioni sull&#39;elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=it){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
