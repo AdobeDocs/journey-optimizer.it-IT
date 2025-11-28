@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ In [!DNL Journey Optimizer], ora puoi inserire e organizzare manualmente i detta
 
 >[!AVAILABILITY]
 >
->Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 
 ## Accedere ai brand {#generative-access}
@@ -275,11 +275,21 @@ Per personalizzare lo **[!UICONTROL stile di scrittura]**:
 
 1. Dalla scheda **[!UICONTROL Stile scrittura]**, fare clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida, un&#39;eccezione o un&#39;esclusione.
 
-1. Inserisci la linea guida, l&#39;eccezione o l&#39;esclusione e fai clic su **[!UICONTROL Aggiungi]**.
+1. Immettere la linea guida, l&#39;eccezione o l&#39;esclusione. Puoi anche includere **[!UICONTROL Esempi]** per illustrare meglio come deve essere applicato.
 
    ![](assets/brands-3.png)
 
-1. Seleziona una linea guida o un’esclusione da aggiornare o eliminare.
+1. Specifica il contesto di utilizzo per la linea guida, l’eccezione o l’esclusione:
+
+   * **[!UICONTROL Tipo di canale]**: scegli dove applicare questa linea guida, eccezione o esclusione. Ad esempio, potrebbe essere necessario visualizzare uno stile di scrittura specifico solo nei canali di posta elettronica, mobile, stampa o altri canali di comunicazione.
+
+   * **[!UICONTROL Tipo di elemento]**: specifica a quale elemento di contenuto si applica la regola. Può includere elementi come Intestazioni, Pulsanti, Collegamenti o altri componenti all’interno del contenuto.
+
+     ![](assets/brands-16.png)
+
+1. Dopo aver impostato la linea guida, l&#39;eccezione o l&#39;esclusione, fai clic su **[!UICONTROL Aggiungi]**.
+
+1. Se necessario, seleziona una linea guida o un’esclusione da aggiornare o eliminare.
 
 1. Fai clic sul ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_Edit_18_N.svg "Modifica") per modificare l&#39;esempio o sull&#39;icona ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_Delete_18_N.svg "Elimina") per eliminarlo.
 
@@ -337,18 +347,29 @@ Per personalizzare il **[!UICONTROL contenuto visivo]**:
 
 1. Dalla scheda **[!UICONTROL Contenuto visivo]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida, un&#39;esclusione o un esempio.
 
-1. Inserisci la linea guida, l&#39;esclusione o l&#39;esempio e fai clic su **[!UICONTROL Aggiungi]**.
+1. Inserisci la linea guida, l’esclusione o l’esempio.
 
    ![](assets/brands-4.png)
+
+1. Specifica il contesto di utilizzo per la linea guida o l’esclusione:
+
+   * **[!UICONTROL Tipo di canale]**: scegli dove applicare questa linea guida, eccezione o esclusione. Ad esempio, potrebbe essere necessario visualizzare uno stile di scrittura specifico solo nei canali di posta elettronica, mobile, stampa o altri canali di comunicazione.
+
+   * **[!UICONTROL Tipo di elemento]**: specifica a quale elemento di contenuto si applica la regola. Può includere elementi come Intestazioni, Pulsanti, Collegamenti o altri componenti all’interno del contenuto.
+
+     ![](assets/brands-16.png)
+
+1. Dopo aver impostato la linea guida, l&#39;eccezione o l&#39;esclusione, fai clic su **[!UICONTROL Aggiungi]**.
 
 1. Per aggiungere un&#39;immagine che mostra l&#39;utilizzo corretto, selezionare **[!UICONTROL Esempio]** e fare clic su **[!UICONTROL Seleziona immagine]**. È inoltre possibile aggiungere un’immagine che mostra un utilizzo errato come esempio di esclusione.
 
    ![](assets/brands-13.png)
 
-1. Seleziona una linea guida o un’esclusione da aggiornare o eliminare.
+1. Se necessario, seleziona una linea guida o un’esclusione da aggiornare o eliminare.
 
 1. Seleziona una linea guida o un’esclusione per aggiornarla. Fai clic sull&#39;icona ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_Delete_18_N.svg "Elimina")per eliminarlo.
 
    ![](assets/brands-14.png)
 
 Ora puoi personalizzare ulteriormente il tuo marchio o [pubblicare il tuo marchio](#create-brand-kit).
+
