@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -135,11 +135,3 @@ Un picco di traffico temporaneo (ad esempio, 2x traffico giornaliero) ha un effe
 **Chiave insight**: la finestra continua di dati di 30 giorni fornisce stabilità del modello durante fluttuazioni temporanee del traffico. Picchi o cadute a breve termine non compromettono in modo significativo le previsioni o le prestazioni dei modelli.
 
 +++
-
-## Argomenti correlati {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [Creare elementi decisionali](items.md)
-* [Panoramica dei modelli AI](ranking/ai-models.md)
-* [Guardrail e limitazioni per la funzione Decisioni](decisioning-guardrails.md)
-
