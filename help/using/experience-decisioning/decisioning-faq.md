@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 0%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,12 @@ Questa pagina fornisce le risposte alle domande più frequenti sulle funzionalit
 
 ## Regole di limitazione {#capping-rules}
 
-+++**Cosa succede quando si creano più regole di limite per un&#39;offerta? La visualizzazione dell&#39;offerta verrà interrotta quando si abbina una qualsiasi delle regole di limite o tutte?**
++++**Cosa succede quando più regole di limite vengono applicate a una singola offerta?**
 
-Il limite dell&#39;offerta viene raggiunto non appena viene soddisfatta **una condizione**. Ciò significa che una qualsiasi delle regole di limite impedirà la visualizzazione dell’offerta una volta raggiunta la soglia.
+Il limite massimo di un&#39;offerta viene raggiunto non appena **viene soddisfatta una singola condizione**. In presenza di più regole di limite, l’offerta non viene più visualizzata quando una regola raggiunge la soglia.
 
-Ad esempio, in presenza di due regole di limite:
+**Esempio:**
+Se definisci due regole di limite per un’offerta:
 * 5 volte per profilo a settimana
 * 100 volte il totale per tutti gli utenti
 
@@ -37,32 +38,34 @@ Ulteriori informazioni sulle [regole per la limitazione dei limiti](items.md#cap
 
 ## Formule di classificazione {#ranking-formulas}
 
-+++**Perché aggiungere un pubblico a un modello di IA? Quali vantaggi offre l’aggiunta di tipi di pubblico rispetto a un set di dati completo? Limiterà il modello o espanderà il modello?**
++++**Qual è il ruolo dei tipi di pubblico nei modelli di IA?**
 
-Quando si lavora con modelli AI (in particolare [modelli di ottimizzazione personalizzati](ranking/personalized-optimization-model.md)):
+Durante la configurazione di [modelli di ottimizzazione personalizzati](ranking/personalized-optimization-model.md), sia i set di dati che i tipi di pubblico hanno scopi distinti:
 
-* **Set di dati** aggiunti per raccogliere i tuoi eventi di conversione (clic, ordini, ricavi). Questi sono i risultati che il modello cerca di ottimizzare.
-* **I tipi di pubblico** sono stati aggiunti per essere utilizzati come variabili predittive nel modello. Consentono di personalizzare le previsioni per cercare di prevedere clic, ordini o ricavi per diversi segmenti di clienti.
+* **Set di dati**: acquisisce eventi di conversione (clic, ordini, ricavi) che fungono da target di ottimizzazione per il modello.
+* **Tipi di pubblico**: funge da variabile predittiva che consente al modello di personalizzare i consigli in base all&#39;iscrizione al segmento del cliente.
 
-Affinché il modello di ottimizzazione personalizzata funzioni efficacemente, sono necessari set di dati e tipi di pubblico. I tipi di pubblico **non limitano né espandono** il modello, ma forniscono un contesto aggiuntivo che consente al modello di prendere decisioni personalizzate migliori.
+I tipi di pubblico non limitano né espandono l’ambito del modello. Al contrario, forniscono attributi contestuali che migliorano la capacità del modello di effettuare previsioni personalizzate tra diversi segmenti di clienti.
 
-Ulteriori informazioni sui [modelli AI](ranking/ai-models.md).
+Entrambi i componenti sono necessari per ottenere prestazioni efficaci del modello di ottimizzazione personalizzato. Ulteriori informazioni sui [modelli AI](ranking/ai-models.md).
 
 +++
 
-+++**L&#39;aggiunta o la rimozione di offerte in una raccolta avrà un impatto sul modello se si utilizzano modelli di ottimizzazione automatica o di ottimizzazione personalizzata?**
++++**In che modo le modifiche alle raccolte di offerte influiscono sui modelli AI se si utilizzano modelli di ottimizzazione automatica o di ottimizzazione personalizzata?**
 
 Entrambi i modelli distribuiranno il traffico alla migliore offerta disponibile successiva in base ai dati di traffico degli ultimi 30 giorni.
 
-Se più offerte vengono rimosse in una sola volta e le offerte rimanenti hanno ricevuto un traffico molto ridotto negli ultimi 30 giorni, la distribuzione delle offerte potrebbe comportarsi in modo imprevisto. Questo potrebbe comportare una distribuzione casuale o una distorsione verso alcune offerte che hanno un tasso di conversione più elevato in base a poche impression.
+Quando più offerte vengono rimosse simultaneamente e le offerte rimanenti presentano dati di traffico minimi entro la finestra di 30 giorni, il modello potrebbe presentare un comportamento non ottimale, tra cui:
+* Modelli di distribuzione casuale
+* Inclinazione verso offerte con tassi di conversione più elevati basati su dati di impression limitati
 
-**Best practice**: quando apporti modifiche significative alle raccolte di offerte, assicurati che le offerte rimanenti dispongano di dati sulle prestazioni cronologiche sufficienti per mantenere prestazioni ottimali del modello.
+**Best practice**: quando modifichi in modo significativo le raccolte di offerte, verifica che le offerte rimanenti dispongano di dati cronologici sulle prestazioni sufficienti per mantenere l&#39;efficacia del modello.
 
 +++
 
-+++**Quanto tempo ci vuole affinché i modelli AI comprendano che sono stati aggiunti nuovi contenuti e inizino ad aggiungerli al mix?**
++++**Con quale rapidità i modelli AI incorporano le nuove offerte?**
 
-Entrambi i modelli di intelligenza artificiale identificheranno le nuove offerte disponibili alla prossima esecuzione di formazione:
+I modelli di intelligenza artificiale identificano e iniziano a testare le nuove offerte disponibili sul loro prossimo ciclo di formazione:
 
 * **Ottimizzazione automatica**: esecuzioni di formazione giornaliere
 * **Ottimizzazione personalizzata**: esecuzioni di formazione settimanali
@@ -73,25 +76,25 @@ Ulteriori informazioni sui modelli [ottimizzazione automatica](ranking/auto-opti
 
 +++
 
-+++**Se nei modelli AI non sono presenti gruppi di controllo, stiamo apprendendo e ottimizzando tutto il traffico contemporaneamente?**
++++**Come vengono ottimizzati i modelli AI senza gruppi di controllo?**
 
-Sì.  Entrambi i modelli di intelligenza artificiale (ottimizzazione automatica e ottimizzazione personalizzata) utilizzano un approccio &quot;esplora e sfrutta&quot;:
+Sia i modelli di ottimizzazione automatica che quelli di ottimizzazione personalizzata utilizzano una strategia di esplorazione e sfruttamento che elimina la necessità di gruppi di controllo dedicati:
 
-* Inizialmente, entrambi i modelli sono **esplorazione al 100%**, il che significa che sottopongono a test offerte diverse per raccogliere dati sulle prestazioni.
-* Nel tempo, i modelli **gestiscono automaticamente il compromesso tra esplorazione e sfruttamento**, man mano che gli eventi comportamentali vengono raccolti e le previsioni migliorano.
-* I modelli spostano gradualmente più traffico verso offerte con prestazioni migliori, continuando al contempo a esplorare e testare altre opzioni.
+* **Fase iniziale**: i modelli iniziano con un&#39;esplorazione del 100%, eseguendo test su offerte diverse per stabilire i dati delle prestazioni di base.
+* **Ottimizzazione adattiva**: con l&#39;accumularsi degli eventi comportamentali e il miglioramento della precisione delle previsioni, i modelli bilanciano automaticamente l&#39;esplorazione e lo sfruttamento.
+* **Apprendimento in corso**: il sistema alloca progressivamente più traffico alle offerte ad alte prestazioni, continuando a testare le alternative.
 
 Questo garantisce l’apprendimento continuo e l’ottimizzazione di tutto il traffico senza richiedere gruppi di controllo separati.
 
 +++
 
-+++**Quanti eventi di ottimizzazione devono essere statisticamente significativi? Esiste una soglia minima di traffico per una superficie?**
++++**Quali sono i requisiti minimi di traffico per le prestazioni ottimali del modello di intelligenza artificiale?**
 
-Per garantire prestazioni ottimali del modello, Adobe consiglia i seguenti valori minimi:
+Adobe consiglia le seguenti soglie minime per garantire prestazioni efficaci del modello:
 
 **Minimi consigliati (a settimana):**
-* Almeno **1.000 impression** per offerta/elemento
-* Almeno **100 eventi di conversione** per offerta/elemento
+* 1.000 impression per offerta/articolo
+* 100 eventi di conversione per offerta/articolo
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -99,36 +102,37 @@ Per garantire prestazioni ottimali del modello, Adobe consiglia i seguenti valor
 
 Per impostazione predefinita, il sistema non tenta di generare modelli personalizzati per offerte/articoli con meno di 1.000 impression o 50 eventi di conversione.
 
-**Importante**: in pratica, alcuni clienti hanno molte offerte (~300) in un unico modello e alcune offerte possono avere regole aziendali molto restrittive. I valori minimi assoluti (250 impression/25 conversioni ogni 30 giorni) rappresentano la soglia più bassa che il sistema è in grado di supportare per la creazione di modelli.
+>[!NOTE]
+>
+>In ambienti di produzione con cataloghi di offerte di grandi dimensioni (~300 offerte) e regole aziendali restrittive, alcune offerte potrebbero avvicinarsi a soglie assolute più basse (250 impression e 25 conversioni ogni 30 giorni). Questi rappresentano i requisiti minimi di dati per la formazione dei modelli, ma potrebbero non garantire prestazioni ottimali.
 
 Ulteriori informazioni su [requisiti raccolta dati](data-collection/data-collection.md).
 
 +++
 
-+++**Il contenuto delle offerte deve essere chiaramente differenziato affinché i modelli AI funzionino correttamente? Cosa succede se dispongo di più offerte troppo simili tra loro?**
++++**In che modo la somiglianza delle offerte influisce sulle prestazioni del modello di IA?**
 
-In generale, è più probabile che il modello di intelligenza artificiale generi vantaggi dalla personalizzazione quando **offerte sono adatte a diversi tipi di clienti**.
+I modelli AI generano vantaggi di personalizzazione maggiori quando le offerte interessano segmenti di clienti distinti. Quando le offerte sono molto simili, sono tipici due risultati:
 
-Quando le offerte sono molto simili, è probabile che si verifichi uno dei due risultati seguenti:
-
-* **Prestazioni simili**: le prestazioni delle offerte saranno identiche e riceveranno una quota di traffico relativamente uniforme.
-* **Dominanza**: piccole differenze possono far sì che un&#39;offerta domini le altre su tutti i tipi di clienti e riceverà la maggior parte del traffico.
+* **Prestazioni equivalenti**: le offerte hanno prestazioni identiche e ricevono una distribuzione del traffico approssimativamente uguale.
+* **Offerta dominante**: differenze minori causano prestazioni migliori di un&#39;offerta su tutti i segmenti, con la maggior parte del traffico generato.
 
 >[!NOTE]
 >
->Le differenze nelle offerte non sono una garanzia che un&#39;offerta non dominerà le altre. Ad esempio, un’offerta di sconto di €100 supererà quasi sempre un’offerta di sconto di €50 per tutti i tipi di clienti, indipendentemente dalla personalizzazione.
+>La differenziazione delle offerte non garantisce una distribuzione equilibrata del traffico. Le offerte con proposte di valore oggettivamente superiori (ad esempio, sconto di €100 rispetto a €50) solitamente dominano su tutti i segmenti di clienti indipendentemente dalle attività di personalizzazione.
 
-**Best practice**: assicurati che le offerte forniscano una differenziazione significativa che possa attrarre diversi segmenti di clienti per prestazioni ottimali del modello di intelligenza artificiale.
+**Best practice**: progetta offerte con differenziazioni significative che si allineano con preferenze distinte del segmento di clienti per massimizzare l&#39;efficacia del modello di intelligenza artificiale.
 
 +++
 
-+++**Cosa succede al modello se si verifica un&#39;anomalia di traffico, ad esempio un picco di traffico enorme? Questo causerà problemi o solleverà stranezze?**
++++**In che modo le anomalie del traffico influiscono sulle prestazioni del modello di IA?**
 
-Un picco di traffico verrebbe incluso nella modellazione in modo proporzionale al traffico degli ultimi 30 giorni.
+Le anomalie di traffico vengono incorporate nel modello in modo proporzionale nell’intervallo continuo di 30 giorni.
 
-Ad esempio, un picco di traffico giornaliero raddoppiato avrà un effetto relativamente modesto sul modello generale, perché ci sono 29 giorni di traffico normale che rappresentano una quantità significativamente maggiore dei dati comportamentali complessivi.
+**Valutazione d&#39;impatto:**
+Un picco di traffico temporaneo (ad esempio, 2x traffico giornaliero) ha un effetto minimo sulle prestazioni complessive del modello, perché il traffico anomalo rappresenta una piccola frazione del set di dati di 30 giorni.
 
-**Punto chiave**: la finestra continua di 30 giorni consente al modello di mantenere la stabilità durante le anomalie temporanee del traffico. Picchi o ribassi a breve termine non compromettono significativamente le prestazioni del modello.
+**Chiave insight**: la finestra continua di dati di 30 giorni fornisce stabilità del modello durante fluttuazioni temporanee del traffico. Picchi o cadute a breve termine non compromettono in modo significativo le previsioni o le prestazioni dei modelli.
 
 +++
 
