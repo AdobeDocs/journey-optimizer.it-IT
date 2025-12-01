@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
 workflow-type: tm+mt
-source-wordcount: '2153'
+source-wordcount: '2216'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -91,7 +91,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -158,11 +158,19 @@ Per risolvere l’errore del profilo, puoi eseguire una query sui dati negli eve
 
 ### Percorso pubblicato {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>Questo avviso è attualmente disponibile con funzionalità limitate. Sebbene tu possa iscriverti a questo avviso, le notifiche non sono ancora completamente operative.
+
 Questo avviso avvisa quando un percorso è stato pubblicato da un operatore nell’area di lavoro del percorso.
 
 Si tratta di un avviso informativo che consente di tenere traccia degli eventi del ciclo di vita del percorso all’interno dell’organizzazione. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
 
 ### Percorso completato {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>Questo avviso è attualmente disponibile con funzionalità limitate. Sebbene tu possa iscriverti a questo avviso, le notifiche non sono ancora completamente operative.
 
 Questo avviso notifica il completamento di un percorso. La definizione di &quot;finito&quot; varia a seconda del tipo di percorso:
 
@@ -177,6 +185,10 @@ Questo avviso notifica il completamento di un percorso. La definizione di &quot;
 Questo è un avviso informativo che ti aiuta a tenere traccia del completamento del percorso. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
 
 ### Limitazione azioni personalizzate attivata {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>Questo avviso è attualmente disponibile con funzionalità limitate. Sebbene tu possa iscriverti a questo avviso, le notifiche non sono ancora completamente operative.
 
 Questo avviso ti avvisa quando il limite è stato attivato su un’azione personalizzata. Il limite viene utilizzato per limitare il numero di chiamate inviate a un endpoint esterno per evitare di sopraffare l’endpoint.
 
