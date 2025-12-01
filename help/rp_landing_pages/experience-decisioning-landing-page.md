@@ -5,10 +5,10 @@ title: Funzione Decisioni
 description: Funzione Decisioni
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Con la a funzione Decisioni di Adobe Journey Optimizer puoi fornire offerte di m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alla funzione Decisioni
 
@@ -30,7 +30,7 @@ Scopri i concetti di base della funzione Decisioni in Adobe Journey Optimizer, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Guardrail e limitazioni per la funzione Decisioni
 
@@ -40,7 +40,17 @@ Scopri i vincoli e le best practice per utilizzare in modo efficace la funzione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Domande frequenti
+
+Risposte alle domande frequenti su Decisioning, incluse le regole di limitazione di utilizzo, i modelli AI e i requisiti di ottimizzazione.
+
+[Visualizza le domande frequenti](../using/experience-decisioning/decisioning-faq.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione delle API: consegna delle offerte
 
@@ -50,7 +60,7 @@ Scopri come consegnare le offerte mediante il canale Esperienza basata su codice
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestire elementi decisionali e cataloghi
 
@@ -60,7 +70,7 @@ Configura e gestisci elementi decisionali, cataloghi e raccolte per organizzare 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creare regole di decisione
 
@@ -70,7 +80,7 @@ Definisci le regole di decisione per rivolgerti con precisione a un pubblico tar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare classificazioni con modelli IA
 
