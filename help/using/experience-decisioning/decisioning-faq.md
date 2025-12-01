@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
+source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -38,26 +38,24 @@ Ulteriori informazioni sulle [regole per la limitazione dei limiti](items.md#cap
 
 ## Formule di classificazione {#ranking-formulas}
 
-+++**Qual è il ruolo dei tipi di pubblico nei modelli di IA?**
++++**Qual è il ruolo dei tipi di pubblico rispetto a un set di dati completo nei modelli di IA?**
 
-Durante la configurazione di [modelli di ottimizzazione personalizzati](ranking/personalized-optimization-model.md), sia i set di dati che i tipi di pubblico hanno scopi distinti:
+Durante la configurazione di [modelli AI](ranking/ai-models.md), sia i set di dati che i tipi di pubblico hanno scopi distinti.
 
 * **Set di dati**: acquisisce eventi di conversione (clic, ordini, ricavi) che fungono da target di ottimizzazione per il modello.
 * **Tipi di pubblico**: funge da variabile predittiva che consente al modello di personalizzare i consigli in base all&#39;iscrizione al segmento del cliente.
 
 I tipi di pubblico non limitano né espandono l’ambito del modello. Al contrario, forniscono attributi contestuali che migliorano la capacità del modello di effettuare previsioni personalizzate tra diversi segmenti di clienti.
 
-Entrambi i componenti sono necessari per ottenere prestazioni efficaci del modello di ottimizzazione personalizzato. Ulteriori informazioni sui [modelli AI](ranking/ai-models.md).
+Entrambi i componenti sono necessari per le prestazioni effettive del modello [modelli di ottimizzazione personalizzati](ranking/personalized-optimization-model.md).
 
 +++
 
-+++**In che modo le modifiche alle raccolte di offerte influiscono sui modelli AI se si utilizzano modelli di ottimizzazione automatica o di ottimizzazione personalizzata?**
++++**In che modo le modifiche alle raccolte di offerte influiscono sui modelli di ottimizzazione automatica o personalizzata?**
 
 Entrambi i modelli distribuiranno il traffico alla migliore offerta disponibile successiva in base ai dati di traffico degli ultimi 30 giorni.
 
-Quando più offerte vengono rimosse simultaneamente e le offerte rimanenti presentano dati di traffico minimi entro la finestra di 30 giorni, il modello potrebbe presentare un comportamento non ottimale, tra cui:
-* Modelli di distribuzione casuale
-* Inclinazione verso offerte con tassi di conversione più elevati basati su dati di impression limitati
+Quando diverse offerte vengono rimosse simultaneamente e le offerte rimanenti hanno dati di traffico minimi entro la finestra di 30 giorni, il modello può mostrare un comportamento non ottimale, inclusi pattern di distribuzione casuale o distorsioni verso offerte con tassi di conversione più elevati basati su dati di impression limitati.
 
 **Best practice**: quando modifichi in modo significativo le raccolte di offerte, verifica che le offerte rimanenti dispongano di dati cronologici sulle prestazioni sufficienti per mantenere l&#39;efficacia del modello.
 
@@ -67,8 +65,8 @@ Quando più offerte vengono rimosse simultaneamente e le offerte rimanenti prese
 
 I modelli di intelligenza artificiale identificano e iniziano a testare le nuove offerte disponibili sul loro prossimo ciclo di formazione:
 
-* **Ottimizzazione automatica**: esecuzioni di formazione giornaliere
-* **Ottimizzazione personalizzata**: esecuzioni di formazione settimanali
+* **Ottimizzazione automatica**: ogni giorno
+* **Ottimizzazione personalizzata**: settimanale
 
 Una volta identificati, entrambi i modelli inizieranno a fornire le nuove offerte ad alcuni visitatori immediatamente per testarne le prestazioni e raccogliere dati sulla loro efficacia.
 
@@ -78,7 +76,7 @@ Ulteriori informazioni sui modelli [ottimizzazione automatica](ranking/auto-opti
 
 +++**Come vengono ottimizzati i modelli AI senza gruppi di controllo?**
 
-Sia i modelli di ottimizzazione automatica che quelli di ottimizzazione personalizzata utilizzano una strategia di esplorazione e sfruttamento che elimina la necessità di gruppi di controllo dedicati:
+Sia i modelli di ottimizzazione automatica che quelli di ottimizzazione personalizzata utilizzano una strategia di &quot;esplorazione e sfruttamento&quot; che elimina la necessità di gruppi di controllo dedicati.
 
 * **Fase iniziale**: i modelli iniziano con un&#39;esplorazione del 100%, eseguendo test su offerte diverse per stabilire i dati delle prestazioni di base.
 * **Ottimizzazione adattiva**: con l&#39;accumularsi degli eventi comportamentali e il miglioramento della precisione delle previsioni, i modelli bilanciano automaticamente l&#39;esplorazione e lo sfruttamento.
@@ -91,10 +89,8 @@ Questo garantisce l’apprendimento continuo e l’ottimizzazione di tutto il tr
 +++**Quali sono i requisiti minimi di traffico per le prestazioni ottimali del modello di intelligenza artificiale?**
 
 Adobe consiglia le seguenti soglie minime per garantire prestazioni efficaci del modello:
-
-**Minimi consigliati (a settimana):**
-* 1.000 impression per offerta/articolo
-* 100 eventi di conversione per offerta/articolo
+* 1.000 impression per offerta/oggetto a settimana
+* 100 eventi di conversione per offerta/articolo a settimana
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -110,7 +106,7 @@ Ulteriori informazioni su [requisiti raccolta dati](data-collection/data-collect
 
 +++
 
-+++**In che modo la somiglianza delle offerte influisce sulle prestazioni del modello di IA?**
++++**In che modo offerte simili influiscono sulle prestazioni del modello di IA?**
 
 I modelli AI generano vantaggi di personalizzazione maggiori quando le offerte interessano segmenti di clienti distinti. Quando le offerte sono molto simili, sono tipici due risultati:
 
@@ -127,11 +123,8 @@ I modelli AI generano vantaggi di personalizzazione maggiori quando le offerte i
 
 +++**In che modo le anomalie del traffico influiscono sulle prestazioni del modello di IA?**
 
-Le anomalie di traffico vengono incorporate nel modello in modo proporzionale nell’intervallo continuo di 30 giorni.
+Le anomalie di traffico vengono incorporate nel modello in modo proporzionale nell&#39;intervallo continuo di 30 giorni, che fornisce stabilità al modello durante fluttuazioni temporanee del traffico. Picchi o cadute a breve termine non compromettono in modo significativo le previsioni o le prestazioni dei modelli.
 
-**Valutazione d&#39;impatto:**
-Un picco di traffico temporaneo (ad esempio, 2x traffico giornaliero) ha un effetto minimo sulle prestazioni complessive del modello, perché il traffico anomalo rappresenta una piccola frazione del set di dati di 30 giorni.
-
-**Chiave insight**: la finestra continua di dati di 30 giorni fornisce stabilità del modello durante fluttuazioni temporanee del traffico. Picchi o cadute a breve termine non compromettono in modo significativo le previsioni o le prestazioni dei modelli.
+Un picco di traffico temporaneo (ad esempio, il doppio del traffico giornaliero) ha un effetto minimo sulle prestazioni complessive del modello, perché il traffico anomalo rappresenta una piccola frazione del set di dati di 30 giorni.
 
 +++
