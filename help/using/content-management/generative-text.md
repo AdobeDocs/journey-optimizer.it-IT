@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1605'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Prima di poter iniziare a generare il contenuto di testo con l’Assistente AI, 
 
    * **E-mail**: dopo aver creato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../email/create-email.md)
    * **Web**: dopo aver creato e configurato la pagina Web, fare clic su **[!UICONTROL Modifica pagina Web]**. [Ulteriori informazioni](../web/create-web.md)
-   * **Pagina di destinazione**: dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../landing-pages/create-lp.md)
+   * **Pagina di destinazione**: dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Apri Designer]**. [Ulteriori informazioni](../landing-pages/create-lp.md)
 
 1. Seleziona un **[!UICONTROL componente testo]** per eseguire il targeting solo di un contenuto specifico e accedere al menu **[!UICONTROL Assistente AI]** (o **[!UICONTROL Mostra Assistente AI]** per il Web).
 
@@ -134,19 +134,17 @@ Prima di iniziare a generare il testo con l’Assistente AI per i canali mobili,
    * **SMS**: [Ulteriori informazioni](../sms/create-sms.md)
 
 1. Accedi all’Assistente AI:
-   * **Per le notifiche push**: fai clic sul menu **[!UICONTROL Modifica testo con Assistente AI]** accanto ai tuoi campi **[!UICONTROL Titolo]** o **[!UICONTROL Messaggio]**.
+   * **Per le notifiche push**: fai clic sul menu **[!UICONTROL Modifica testo con Assistente AI]** accanto ai tuoi campi **[!UICONTROL Titolo]** o **[!UICONTROL Messaggio]**. Puoi anche accedere direttamente al menu **Assistente AI**.
 
-     ![Schermata di composizione delle notifiche push con pulsante Modifica testo con Assistente IA](assets/push-genai-1.png){zoomable="yes"}
+     ![Schermata di composizione delle notifiche push con pulsante Modifica testo con Assistente IA](assets/push-text-1.png){zoomable="yes"}
 
-   * **Per SMS**: accedere al menu **[!UICONTROL Mostra Assistente IA]**.
+   * **Per SMS**: fai clic sul menu **[!UICONTROL Modifica testo con Assistente AI]** accanto al tuo **[!UICONTROL Messaggio]** o accedi al menu **[!UICONTROL Mostra Assistente AI]**.
 
      ![Editor messaggi SMS con pannello di assistenza AI aperto](assets/sms-genai-1.png){zoomable="yes"}
 
 ### Genera contenuto {#mobile-generate-content}
 
 Dopo aver effettuato l’accesso a AI Assistant, puoi configurare le impostazioni di generazione per creare contenuti mobili che corrispondano agli obiettivi del tuo marchio e della tua campagna. Personalizza i parametri di testo, aggiungi risorse del brand e fornisci prompt per guidare l’intelligenza artificiale nella generazione di varianti rilevanti.
-
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto di riferimento]** (per push) o **[!UICONTROL Usa contenuto originale]** (per SMS) per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -158,20 +156,19 @@ Dopo aver effettuato l’accesso a AI Assistant, puoi configurare le impostazion
 
    ![Assistente AI con campo Prompt e opzioni](assets/push-genai-2.png){zoomable="yes"}
 
+1. **Per la notifica push**, scegli il campo da generare: Titolo e/o Messaggio.
+
 1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
    * **[!UICONTROL Lingue]**: scegli la lingua del contenuto generato.
    * **[!UICONTROL Tono]**: il tono dovrebbe risuonare con il tuo pubblico. Che tu voglia essere informativo, giocoso o persuasivo, AI Assistant può adattare il messaggio di conseguenza.
-   * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore di intervallo.
 
-   ![Pannello impostazioni testo](assets/push-genai-4.png){zoomable="yes"}
+     ![Pannello impostazioni testo](assets/push-genai-4.png){zoomable="yes"}
 
-1. Per Push, scegli il campo da generare: Titolo e/o Messaggio.
+1. Dal menu **[!UICONTROL Contenuto di riferimento]**, fai clic su **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa del marchio contenente contenuto che possa fornire un&#39;Assistente di IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere qualsiasi risorsa per i marchi contenente contenuto che possa fornire un&#39;Assistente IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
-
-   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
+   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Contenuto di riferimento caricato]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -181,13 +178,13 @@ Dopo aver generato varianti di testo per i messaggi mobili, puoi perfezionare i 
 
 1. Dopo la generazione, sfoglia le **[!UICONTROL Varianti]**.
 
-   Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata oppure fai clic su **[!UICONTROL Applica]** per sostituire il contenuto corrente.
-
 1. Fai clic sull&#39;icona percentuale per visualizzare il **[!UICONTROL punteggio di allineamento del brand]** e identificare eventuali disallineamenti con il brand.
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
    ![Varianti di testo generate con il punteggio di allineamento del marchio](assets/push-genai-5.png){zoomable="yes"}
+
+1. Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata oppure fai clic su **[!UICONTROL Applica]** per sostituire il contenuto corrente.
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -197,11 +194,13 @@ Dopo aver generato varianti di testo per i messaggi mobili, puoi perfezionare i 
 
    * **[!UICONTROL Usa un linguaggio più semplice]**: sfrutta l&#39;Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
+   * **[!UICONTROL Traduci]**: semplifica la lingua per garantire chiarezza e accessibilità a un pubblico più ampio.
+
    * **[!UICONTROL Cambia tono]**: regola il tono del messaggio per adattarlo al tuo stile di comunicazione, rendendolo più amichevole, professionale, urgente o ispiratore.
 
    * **[!UICONTROL Modifica strategia di comunicazione]**: modifica l&#39;approccio di messaggistica in base agli obiettivi, ad esempio la creazione di messaggi urgenti o l&#39;enfasi sull&#39;aspetto interessante.
 
-   ![Perfeziona menu](assets/push-genai-6.png){zoomable="yes"}
+     ![Perfeziona menu](assets/push-genai-6.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
