@@ -11,7 +11,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -79,7 +79,7 @@ Puoi creare un set di dati da uno schema o da un file CSV. Informazioni dettagli
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 
@@ -91,7 +91,7 @@ Una delle funzionalità principali di [!DNL Adobe Experience Platform] è quella
 
 Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utilizzo dei dati sono disponibili nella [documentazione sulla governance dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=it){target="_blank"}
 
-## Casi d’uso e di esempio {#samples}
+## Esempi e casi d’uso {#samples}
 
 * [Esercitazione - Acquisire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=it){target="_blank"}
 * [Caso d&#39;uso end-to-end](../audience/creating-test-profiles.md) - Crea uno schema, un set di dati e acquisisci dati per aggiungere profili di test in [!DNL Adobe Journey Optimizer]

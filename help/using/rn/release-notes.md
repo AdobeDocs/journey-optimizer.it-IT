@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
 workflow-type: tm+mt
 source-wordcount: '1498'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nel
 <td>
 <p>È ora disponibile una nuova API di Journey Optimizer che consente di recuperare e ispezionare a livello di programmazione i dati relativi alla campagna, come dettagli, versioni e configurazioni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: martedì 24 novembre 2025</p>
+<p>Data di disponibilità: 24 novembre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -165,7 +165,7 @@ Di seguito sono elencati le nuove funzionalità e i miglioramenti rilasciati nel
 <td>
 <p>Le ore di silenzio consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Garantiscono che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
 <p>Puoi applicare ore di silenzio tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
-<p>Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Saranno progressivamente disponibili per tutti i clienti nelle prossime versioni.</p>
+<p>Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Saranno disponibili progressivamente per tutta la clientela nelle prossime versioni.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/quiet-hours.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 22 ottobre 2025</p>

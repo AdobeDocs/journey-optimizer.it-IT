@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -125,7 +125,7 @@ ht-degree: 98%
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
-      + [Invia e-mail solo nei giorni feriali](using/building-journeys/weekday-email-uc.md)
+      + [Inviare e-mail solo nei giorni feriali](using/building-journeys/weekday-email-uc.md)
       + [Trasmettere le raccolte nei parametri delle azioni personalizzate](using/building-journeys/collections.md)
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
@@ -169,7 +169,7 @@ ht-degree: 98%
             + [Schema di caricamento del file](using/orchestrated/file-upload-schema.md)
             + [Acquisire i dati](using/orchestrated/ingest-data.md)
          + [Creare una dimensione targeting](using/orchestrated/target-dimension.md)
-         + [Configurare una configurazione del canale](using/orchestrated/channel-config.md)
+         + [Impostare una configurazione dei canali](using/orchestrated/channel-config.md)
       + Avviare la prima campagna orchestrata {#launch}
          + [Avviare la prima campagna orchestrata](/help/rp_landing_pages/launch-landing-page.md)
          + [Passaggi chiave per creare una campagna orchestrata](using/orchestrated/gs-campaign-creation.md)
@@ -388,12 +388,12 @@ ht-degree: 98%
       + [Creare un messaggio LINE](using/line/create-line.md)
       + [Verificare e inviare i messaggi LINE](using/line/send-line.md)
    + Attività live {#live-activity}
-      + [Introduzione all’attività live](using/mobile-live/get-started-mobile-live.md)
-      + [Creare un’attività Live](using/mobile-live/create-mobile-live.md)
+      + [Introduzione alle attività live](using/mobile-live/get-started-mobile-live.md)
+      + [Creare un’attività live](using/mobile-live/create-mobile-live.md)
       + [Domande frequenti](using/mobile-live/mobile-live-faq.md)
-      + Configurare il canale Scheda contenuto {#configure}
-         + [Configurare l’attività Live in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configurare l’integrazione di Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
+      + Configurare il canale della scheda contenuto {#configure}
+         + [Configurare un’attività live in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Configurare l’integrazione Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestione dei contenuti {#content-management}
    + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalizzazione {#personalization}
@@ -826,7 +826,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
 source-wordcount: '3324'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -60,9 +60,9 @@ Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti g
 
 Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazioni chiave e mostra avvisi relativi ad avvertenze (consigli e best practice) ed errori (problemi critici che impediscono il test o l’attivazione). Scopri di più sugli avvisi e-mail e sui requisiti di convalida in [questa sezione](../email/create-email.md#check-email-alerts).
 
-#### Dimensione del contenuto del messaggio per la pubblicazione del percorso {#message-content-size}
+#### Dimensione del contenuto dei messaggi per la pubblicazione del percorso {#message-content-size}
 
-Quando si pubblicano percorsi che contengono messaggi e-mail, la dimensione totale del contenuto del messaggio non deve superare **2 MB** dopo l&#39;elaborazione back-end. Durante la pubblicazione, il sistema elabora automaticamente il contenuto dei messaggi applicando patch a collegamenti, immagini e trasformazioni, aumentando le dimensioni del payload oltre le dimensioni del contenuto creato.
+Quando si pubblicano percorsi che contengono messaggi e-mail, la dimensione totale del contenuto del messaggio non deve superare **2 MB** dopo l&#39;elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuto creato.
 
 >[!CAUTION]
 >
@@ -70,13 +70,13 @@ Quando si pubblicano percorsi che contengono messaggi e-mail, la dimensione tota
 
 **Best practice per evitare errori di pubblicazione:**
 
-* Mantieni contenuti e-mail creati sotto 1 MB
-* Riduci al minimo il numero di varianti di contenuto
+* Mantienere i contenuti e-mail creati al di sotto di 1 MB
+* Ridurre al minimo il numero di varianti di contenuto
 * Ottimizzare e comprimere le immagini prima di aggiungerle ai messaggi
 * Rimuovere le risorse inutilizzate e gli elementi HTML non necessari
-* Verifica la dimensione del messaggio prima di pubblicare i percorsi in produzione
+* Verificare la dimensione del messaggio prima di pubblicare i percorsi in produzione
 
-Se la pubblicazione del percorso non riesce a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e ripubblica il percorso.
+Se la pubblicazione del percorso non riesce a causa della dimensione del contenuto, riduci il contenuto del messaggio e ripubblica il percorso.
 
 ### Guardrail per SMS {#sms-guardrails}
 
