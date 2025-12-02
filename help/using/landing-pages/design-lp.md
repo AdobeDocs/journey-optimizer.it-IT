@@ -38,4 +38,4 @@ Da qui, puoi:
 >
 >Il designer del contenuto della pagina di destinazione è per lo più simile al Designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
