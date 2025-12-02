@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2988'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -475,12 +475,10 @@ ht-degree: 99%
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introduzione all’Assistente IA](using/content-management/gs-generative.md)
       + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
-      + [Generazione di e-mail con l’IA](using/content-management/generative-email.md)
-      + [Generazione di push con l’IA](using/content-management/generative-push.md)
-      + [Generazione di SMS con l’IA](using/content-management/generative-sms.md)
-      + [Generazione web con l’IA](using/content-management/generative-web.md)
+      + [Generare contenuti completi con IA](using/content-management/generative-full-content.md)
+      + [Generare testo con IA](using/content-management/generative-text.md)
+      + [Generare immagini con AI](using/content-management/generative-image.md)
       + [Esperimento sui contenuti con l’IA](using/content-management/generative-experimentation.md)
-      + [Pagina di destinazione con IA](using/content-management/generative-lp.md)
       + [Casi d’uso dell’Assistente IA](using/content-management/generative-uc.md)
       + Brand {#brands}
          + [Brand](/help/rp_landing_pages/brands-landing-page.md)
@@ -826,7 +824,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

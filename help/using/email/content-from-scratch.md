@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '723'
 ht-degree: 55%
 
 ---
@@ -64,13 +64,16 @@ Utilizza il Designer e-mail di [!DNL Adobe Journey Optimizer] per definire facil
 
 >[!NOTE]
 >
->Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](accessible-content.md)questa pagina[!DNL Journey Optimizer].
 
 Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
 1. Dalla home page di Designer, selezionare l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
    ![](assets/email_designer.png)
+
+
+1. Accelera la creazione di e-mail con l&#39;Assistente AI e genera contenuti e-mail completi con testo e immagini utilizzando l&#39;[Assistente AI per la generazione di contenuti completi](../content-management/generative-full-content.md).
 
 1. Inizia a progettare il contenuto trascinando **[!UICONTROL Strutture]** nell&#39;area di lavoro per definire il layout dell&#39;e-mail.
 

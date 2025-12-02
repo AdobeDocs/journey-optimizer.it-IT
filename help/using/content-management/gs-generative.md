@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Utilizza l’Assistente IA in Adobe Journey Optimizer per ottimizzare l’impatt
 
 >[!IMPORTANT]
 >
->* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo correlato su [Guardrail e limitazioni](#generative-guardrails).
+>* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](#generative-guardrails).
 >
 >
 >* Prima di poter utilizzare l’Assistente IA in Adobe Journey Optimizer, devi accettare un [accordo utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
@@ -128,45 +128,34 @@ L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazio
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-email.md">
-<img alt="Generazione di e-mail" src="assets/do-not-localize/text-genai.jpeg">
+<a href="generative-full-content.md">
+<img alt="Generazione completa dei contenuti" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Generazione di e-mail</strong></a>
+<a href="generative-full-content.md"><strong>Genera contenuto completo</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-sms.md">
-<img alt="Generazione di SMS" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-text.md">
+<img alt="Generazione di testo" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>Generazione di SMS</strong>
+<div><a href="generative-text.md"><strong>Genera testo</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-push.md">
-<img alt="Generazione di push" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-image.md">
+<img alt="Generazione di immagini" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Generazione di notifiche push</strong></a>
+<a href="generative-image.md"><strong>Genera immagini</strong></a>
 </div>
 <p></td>
-<td>
-<a href="generative-web.md">
-<img alt="Generazione web" src="assets/do-not-localize/web-genai.jpeg">
-</a>
-<div><a href="generative-web.md"><strong>Generazione di pagine web</strong>
-</div>
-<p>
-</td>
 </tr></table>
 
 ## Risorse aggiuntive
 
-* **[Assistente IA per le e-mail](generative-email.md)**: scopri come utilizzare l’Assistente IA per generare e ottimizzare le varianti di contenuto delle e-mail.
-* **[Assistente IA per le notifiche push](generative-push.md)**: scopri come creare contenuti coinvolgenti per le notifiche push con l’assistenza dell’IA.
-* **[Assistente IA per SMS](generative-sms.md)**: genera varianti di messaggi SMS efficaci utilizzando la creazione di contenuti basata sull’IA.
-* **[Assistente IA per esperienze web](generative-web.md)**: scopri come creare e ottimizzare contenuti web con l’Assistente IA.
 * **[Sperimentazione generativa](generative-experimentation.md)**: scopri informazioni su come combinare i contenuti generati dall’IA con la sperimentazione.
+* **[Casi d&#39;uso dell&#39;Assistente IA](generative-uc.md)**: scopri come utilizzare l&#39;Assistente AI nei casi d&#39;uso
 * **[Tutorial sull’Assistente IA](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice dell’Assistente IA.
