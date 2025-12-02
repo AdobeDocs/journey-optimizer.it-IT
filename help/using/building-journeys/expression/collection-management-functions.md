@@ -9,9 +9,9 @@ level: Experienced
 keywords: query, raccolte, funzioni, payload, percorso
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 Il linguaggio delle espressioni introduce anche un set di funzioni per le raccolte di query. Queste funzioni sono descritte di seguito.
 
-Nell’esempio seguente, utilizziamo il payload dell’evento contenente una raccolta:
+Negli esempi seguenti, utilizziamo un evento denominato &quot;LobbyBeacon&quot; contenente una raccolta di token di notifica push. Gli esempi in questa pagina utilizzano la struttura del payload dell’evento mostrata di seguito:
 
 ```json
                 { 
@@ -65,6 +65,10 @@ Nell’esempio seguente, utilizziamo il payload dell’evento contenente una rac
 }
 ```
 
+>[!NOTE]
+>
+>Negli esempi seguenti, si fa riferimento a questo payload utilizzando `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}`, dove &quot;LobbyBeacon&quot; è il nome dell&#39;evento e il resto del percorso corrisponde alla struttura mostrata sopra.
+
 ## La funzione all(`<condition>`)
 
 La funzione **[!UICONTROL all]** abilita la definizione di un filtro per una determinata raccolta utilizzando un&#39;espressione booleana.
@@ -73,9 +77,13 @@ La funzione **[!UICONTROL all]** abilita la definizione di un filtro per una det
 <listExpression>.all(<condition>)
 ```
 
-Ad esempio, tra tutti gli utenti dell’app, puoi ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app utilizzata == IOS 13&quot;). Il risultato di questa funzione è l’elenco filtrato contenente gli elementi che corrispondono all’espressione booleana (ad esempio: utente app 1, utente app 34, utente app 432).
+**Esempio concettuale:** tra tutti gli utenti dell&#39;app, puoi ottenere quelli che usano IOS 13 (espressione booleana &quot;app used == IOS 13&quot;). Il risultato di questa funzione è l’elenco filtrato contenente gli elementi che corrispondono all’espressione booleana (ad esempio: utente app 1, utente app 34, utente app 432).
 
 In un&#39;attività Condizione Data Source è possibile verificare se il risultato della funzione **[!UICONTROL all]** è nullo o meno. È inoltre possibile combinare questa funzione **[!UICONTROL all]** con altre funzioni quali **[!UICONTROL count]**. Per ulteriori informazioni, vedere [Attività condizione Data Source](../condition-activity.md#data_source_condition).
+
+**Esempi di codice con il payload LobbyBeacon:**
+
+Gli esempi seguenti utilizzano il payload dell’evento mostrato nella parte superiore di questa pagina.
 
 
 >[!CAUTION]
