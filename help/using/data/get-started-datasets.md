@@ -74,8 +74,8 @@ L’aggiunta di dati a [!DNL Adobe Experience Platform] è la base per la creazi
 
 Puoi creare un set di dati da uno schema o da un file CSV. Informazioni dettagliate su come creare set di dati sono disponibili nella documentazione di [!DNL Adobe Experience Platform]:
 
-* [Crea un set di dati con uno schema esistente](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [Mappare un file CSV su uno schema XDM esistente](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [Crea un set di dati con uno schema esistente](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Mappare un file CSV su uno schema XDM esistente](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
@@ -101,4 +101,4 @@ Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utili
 >
 >* [Documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}
 >* [Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
->* [Best practice per l&#39;adesione alle licenze di gestione dati](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Best practice per l&#39;adesione alle licenze di gestione dati](https://experienceleague.adobe.com/it/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
