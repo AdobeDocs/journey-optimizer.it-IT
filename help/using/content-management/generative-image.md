@@ -7,7 +7,7 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 6%
@@ -171,7 +171,7 @@ Dopo aver generato le varianti di immagine per le notifiche push, puoi perfezion
 
    Ulteriori informazioni sul [Punteggio di allineamento del marchio](brands-score.md).
 
-   ![Punteggio di allineamento del marchio per varianti](assets/q.png){zoomable="yes"}
+   ![Punteggio di allineamento del marchio per varianti](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata o su **[!UICONTROL Applica]** per sostituire il contenuto corrente.
 
