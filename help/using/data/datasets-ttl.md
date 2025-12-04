@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 15%
+source-wordcount: '1061'
+ht-degree: 12%
 
 ---
 
@@ -78,13 +78,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target=_blank}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ Viene utilizzato il timestamp dell’evento (ovvero, non la data di acquisizione
 
 +++
 
++++In che modo il nuovo TTL influisce sui casi di utilizzo che richiedono una conservazione dei dati più lunga (ad esempio, escludendo i profili che hanno ricevuto un’e-mail negli ultimi 120 giorni o limitando le e-mail in un anno)?
+
+Il nuovo criterio TTL limiterà il periodo di look-back per i dati del set di dati generati dal sistema nell’archivio dei profili a 90 giorni e nel data lake a 13 mesi. Saranno interessati i casi d’uso che richiedono l’accesso ai dati oltre tali periodi. Ad esempio, la segmentazione del pubblico o il limite di frequenza basato su eventi di età superiore a 90 giorni nell’archivio dei profili non sarà più possibile utilizzando i set di dati di sistema.
+
++++
+
++++Quali alternative sono disponibili per la conservazione dei dati più a lungo del TTL?
+
+I clienti che richiedono una conservazione più lunga devono considerare l’esportazione di dati rilevanti dai set di dati di AJO all’archiviazione esterna prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in diverse destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
+
++++
+
++++Cosa devono fare i clienti per prepararsi alla modifica del TTL?
+
+* Esamina i tuoi casi d’uso e identifica quelli che richiedono la conservazione dei dati oltre i nuovi TTL.
+* Imposta le query automatizzate per copiare i dati critici in set di dati derivati prima dell’eliminazione dei dati.
+* Rivolgiti al tuo rappresentante Adobe per discutere di eventuali esigenze aggiuntive o potenziali estensioni TTL (pianificate per le versioni future).
+
++++
+
++++I clienti riceveranno una notifica prima che il TTL venga applicato alle sandbox esistenti?
+
+Sì, i clienti interessati verranno informati in anticipo e il team di prodotto collaborerà con loro per garantire una transizione senza intoppi.
+
 +++Posso eliminare i set di dati generati dal sistema di Journey Optimizer?
 
 I set di dati generati dal sistema Journey Optimizer sono protetti e non possono essere eliminati tramite l’interfaccia utente standard di Adobe Experience Platform. Questi set di dati sono essenziali per la funzionalità di Journey Optimizer e sono gestiti dal sistema.
@@ -123,5 +147,6 @@ Se devi rimuovere definitivamente un set di dati di sistema Journey Optimizer (a
 >[!NOTE]
 >
 >Per la pulizia di routine dei dati all&#39;interno di questi set di dati di sistema, utilizza le operazioni del **[!UICONTROL ciclo di vita dei dati]** disponibili tramite Privacy Service per eliminare record o identità specifici. [Ulteriori informazioni](../privacy/data-hygiene.md)
+
 
 +++
