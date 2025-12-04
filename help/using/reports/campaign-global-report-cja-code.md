@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,10 @@ Puoi accedere al report della campagna basato su codice facendo clic sul pulsant
 ![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Le esperienze basate su codice funzionano come interazioni in entrata in cui gli utenti danno il consenso accedendo al sito o all’app. Di conseguenza, le metriche **Target** o **Pubblico**, che tengono traccia dei profili scelti per la consegna dei messaggi in uscita, non vengono incrementate per le campagne basate su codice.
 
 ## Visualizza e fai clic {#impressions-code}
 
