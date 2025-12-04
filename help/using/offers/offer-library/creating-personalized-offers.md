@@ -170,4 +170,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
