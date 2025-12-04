@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ Per ulteriori dettagli sui motivi specifici di esclusione, consulta la tabella s
 | InAppNoVariantDefined | 050041 | InApp | Un evento di esclusione viene generato quando non è definita alcuna variante per il messaggio InApp. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | PushNoTokenFoundInProfile | 050030 | Push | Quando il profilo non dispone di token push, viene generato un evento di esclusione. |
-| PushNoValidTokenFoundForApps | 050031 | Push | Quando non viene trovato alcun token valido per le app di destinazione nella configurazione, viene generato un evento di esclusione. |
+| PushNoValidTokenFoundForApps | 050031 | Push | Quando non viene trovato alcun token valido per le app di destinazione nella configurazione, viene generato un evento di esclusione. **Importante:** quando si utilizza un certificato di produzione, l&#39;attributo `pushNotificationDetails.platform` nel profilo utente deve essere impostato su `apns`. Se utilizzi un certificato sandbox, impostalo su `apnsSandbox`. Questa esclusione verrà attivata da una mancata corrispondenza tra l’attributo di piattaforma e il tipo di certificato. |
 | PushMalformedProfile | 050034 | Push | Quando il formato di pushNotificationDetails nel profilo non è corretto, viene generato un evento di esclusione. |
 | PushNoConsent | 050111 | Push | Un evento di esclusione viene generato quando l’utente ha rinunciato alle notifiche push di marketing. |
 | PushNoApplicationDefinedInPreset | 050033 | Push | Un evento di esclusione viene generato quando la configurazione non contiene alcuna applicazione di destinazione. |

@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '807'
+ht-degree: 16%
 
 ---
 
@@ -52,11 +52,6 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 >id="ajo_decisioning_new_personalized"
 >title="Offerta personalizzata"
 >abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su vincoli e regole di idoneità."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="Fallback offer (Offerta fallback)"
->abstract="Un’offerta di fallback è l’offerta predefinita che viene visualizzata quando un utente finale non è idoneo per alcuna delle offerte personalizzate."
 
 Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
@@ -175,4 +170,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

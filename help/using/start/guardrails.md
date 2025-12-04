@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 88%
+source-wordcount: '3530'
+ht-degree: 83%
 
 ---
 
@@ -171,6 +171,23 @@ I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 * Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono archiviati in quell’istanza percorso e influiscono sulle sue dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
+
+### Seleziona le limitazioni del pacchetto per i percorsi unitari {#select-package-limitations}
+
+>[!NOTE]
+>
+>Queste limitazioni non si applicano ai percorsi Read Audience o Business Event con il pacchetto **Select**. Se hai bisogno di una logica di percorso più complessa con più azioni, condizioni o attività di attesa, valuta l’aggiornamento del pacchetto di licenze o l’utilizzo di percorsi Read Audience, se applicabile.
+
+Per i clienti che utilizzano il pacchetto di licenza **Select**, le seguenti limitazioni aggiuntive si applicano in modo specifico ai percorsi unitari, ai percorsi che iniziano con un evento o a una qualifica di pubblico:
+
+* **Pacchetto SELECT: nel percorso unitario è consentita una sola azione (ERR_PKG_SELECT_8)**: i percorsi unitari possono contenere una sola attività di azione. Non puoi aggiungere più attività e-mail, push, SMS o altre attività all’interno dello stesso percorso.
+
+* **Pacchetto SELECT: nessuna condizione consentita nel percorso unitario (ERR_PKG_SELECT_7)**: le attività condizione non possono essere utilizzate nei percorsi unitari. Il percorso deve seguire un unico percorso lineare senza logica di diramazione.
+
+* **Pacchetto SELECT: nessuna attesa consentita nel percorso unitario (ERR_PKG_SELECT_6)**: impossibile aggiungere attività di attesa ai percorsi unitari. Le azioni devono essere eseguite immediatamente senza ritardi.
+
+* **Pacchetto SELECT: la transizione timeout/errore dal nodo deve puntare solo al nodo finale (ERR_PKG_SELECT_2)**: se configuri le transizioni timeout o errore per un&#39;azione, ad esempio un&#39;azione e-mail, questi percorsi devono puntare direttamente a un nodo finale. Non possono connettersi ad altre attività o azioni nel percorso.
+
 
 ### Azioni generali {#general-actions-g}
 

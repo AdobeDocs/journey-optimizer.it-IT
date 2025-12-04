@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 16%
+source-wordcount: '634'
+ht-degree: 14%
 
 ---
 
@@ -42,6 +42,8 @@ Quando utilizzi Infobip, accertati che l’azione Inoltro sia impostata su Confi
 
 Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS funzionino in Adobe Journey Optimizer, in quanto le risposte alle parole chiave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE vengono riconosciute automaticamente. Gli stati di rinuncia dei profili vengono aggiornati in tempo reale in Adobe Journey Optimizer.
 
+Se definisci parole chiave di rinuncia personalizzate nelle credenziali API SMS, queste sovrascrivono le parole chiave in entrata predefinite elencate sopra. Per mantenere funzionali le parole chiave predefinite, come STOP, QUIT, CANCEL, END e UNSUBSCRIBE, includile esplicitamente insieme alle parole chiave personalizzate nel campo Parole chiave di rinuncia della configurazione SMS. In caso contrario, vengono riconosciute solo le parole chiave personalizzate e le parole chiave predefinite non attivano più le azioni di rinuncia.
+
 Se un cliente risponde STOP a un messaggio di testo, il provider blocca tutti gli SMS successivi provenienti dall’ID mittente specifico (codice breve o numero lungo), inclusi i messaggi transazionali. Per garantire la consegna ininterrotta degli SMS transazionali, utilizza un ID mittente separato che non era stato precedentemente escluso.
 
 
@@ -71,6 +73,6 @@ Gli ID mittente alfanumerico sono solo per la messaggistica unidirezionale e non
 
   +++ Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440287/?captions=ita&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

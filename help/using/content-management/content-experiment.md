@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1927'
 ht-degree: 6%
 
 ---
@@ -105,6 +105,12 @@ Per l’esperimento sui contenuti, puoi scegliere tra tre tipi di esperimento:
 1. Fare clic su **[!UICONTROL Aggiungi trattamento]** per creare il numero di nuovi trattamenti necessario.
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >Quando crei un esperimento basato su codice, tieni presente le seguenti limitazioni:
+   >* **Conteggio trattamenti**: la creazione di più di 3-5 trattamenti può causare problemi di prestazioni e di interfaccia. Se si verificano errori durante l’aggiunta di trattamenti, prova a ridurre il numero di trattamenti o ad aggiungerli in modo incrementale fino a quando il problema non viene risolto.
+   >* **Parole chiave riservate**: evita di utilizzare parole chiave riservate come &quot;holdout&quot; nei nomi dei trattamenti, in quanto ciò potrebbe causare errori di mappatura del nodo decisionale e impedire il corretto funzionamento dell&#39;esperimento.
 
 1. Modifica il **[!UICONTROL Titolo]** del trattamento per differenziarli meglio.
 

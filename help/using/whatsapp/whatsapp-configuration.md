@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 14%
+source-wordcount: '1061'
+ht-degree: 13%
 
 ---
 
@@ -127,7 +127,7 @@ Una volta create correttamente le credenziali API WhatsApp, ora puoi configurare
 
 1. Copia il **[!UICONTROL token di verifica del webhook]** generato qui, quindi incollalo nell&#39;interfaccia di Meta come parte della configurazione del webhook.
 
-   Per istruzioni dettagliate su come e dove aggiungere questo token di verifica, consulta [Meta documentation](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
+   Per istruzioni dettagliate su come e dove aggiungere questo token di verifica, consulta la [documentazione di Meta](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
 1. Accedi e copia il nuovo **[!UICONTROL URL webhook]** dal **[!UICONTROL webhook WhatsApp]** inviato in precedenza.
 
@@ -179,6 +179,23 @@ Una volta configurata, puoi sfruttare tutte le funzionalità di canale predefini
 
 Ora puoi inviare messaggi WhatsApp con Journey Optimizer.
 
+## Risoluzione dei problemi relativi alla configurazione del canale WhatsApp {#troubleshooting}
+
+### Errori HTTP 500 durante la configurazione delle credenziali API
+
+Se riscontri un errore HTTP 500 durante la configurazione delle credenziali API WhatsApp, segui questi passaggi per la risoluzione dei problemi:
+
+1. **Verifica diritti**: verifica che sia stato eseguito il provisioning di `cjm_whatsapp` diritti per la tua organizzazione. Senza questo diritto, il canale WhatsApp non può essere configurato.
+
+1. **Convalida campi account aziendale**: verificare che tutti i campi obbligatori siano compilati correttamente:
+   * **Token API**: deve essere un token di accesso Meta valido con le autorizzazioni appropriate. [Ulteriori informazioni](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ID account aziendale**: deve corrispondere esattamente all&#39;ID account aziendale Meta. [Ulteriori informazioni](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **Verifica le credenziali esternamente**: verifica le credenziali direttamente con l&#39;API Meta per verificare se il problema riguarda le credenziali o la gestione delle credenziali Journey Optimizer.
+
+1. **Abilita registrazione avanzata**: per identificare errori di configurazione interni del server o di autenticazione, abilita i registri avanzati nell&#39;ambiente Journey Optimizer per fornire informazioni dettagliate sugli errori di chiamata API.
+
+1. **Contatta il supporto**: se l&#39;ambiente e le adesioni sono confermate valide, ma l&#39;errore HTTP 500 persiste, contatta il rappresentante Adobe.
 
 ## Video dimostrativo {#video}
 
@@ -186,6 +203,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
