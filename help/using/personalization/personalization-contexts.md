@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: 44999e7b1a246d584dccd81bfb426222169d4f67
+source-git-commit: 61f5302510cc5082a36f17314378760e5ba7c3ae
 workflow-type: tm+mt
 source-wordcount: '2484'
 ht-degree: 3%
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come segue:
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come segue:
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -529,6 +529,7 @@ serializeList(
 * Risultato: `"SKU-1,SKU-3"` (adatto a un parametro di query)
 
 Ulteriori informazioni su:
+
 * [&#39;all&#39;](../building-journeys/expression/collection-management-functions.md)
 * [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
@@ -565,11 +566,11 @@ La gestione delle raccolte per le azioni personalizzate è descritta in [Trasmet
 
 1. In modalità avanzata, imposta l’espressione della raccolta:
 
-```javascript
-@event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
-```
+   ```javascript
+   @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
+   ```
 
-&#x200B;2. Nell’interfaccia utente per la mappatura della raccolta:
+1. Nell’interfaccia utente per la mappatura della raccolta:
    * Mappa `id` → `productListItems.SKU`
    * Mappa `name` → `productListItems.name`
    * Mappa `price` → `productListItems.priceTotal`
@@ -685,13 +686,13 @@ Ulteriori informazioni in [Utilizzare le risposte alle chiamate API](../action/a
 **Passaggio 3: esegui l&#39;azione nel percorso**
 
 1. Aggiungi l’azione personalizzata dopo l’evento di abbandono del carrello
-2. In modalità avanzata per la raccolta `cartItems`:
+1. In modalità avanzata per la raccolta `cartItems`:
 
-```javascript
-@event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
-```
+   ```javascript
+   @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
+   ```
 
-&#x200B;3. Mappa i campi della raccolta:
+1. Mappa i campi della raccolta:
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
