@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2992'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -403,6 +403,7 @@ ht-degree: 99%
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
       + [Riutilizzare frammenti di espressione](using/personalization/use-expression-fragments.md)
       + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione](using/personalization/aep-data-perso.md)
+      + [Eseguire iterazioni sui dati contestuali](using/personalization/personalization-contexts.md)
       + Elenco funzioni Helper {#functions}
          + [Elenco funzioni Helper](/help/rp_landing_pages/functions-landing-page.md)
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
@@ -824,7 +825,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, helper, caso d’uso, personalizzazione
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Creare un evento il cui schema include l&#39;array `productListItems`.
 1. Definisci tutti i campi di questo array come campi payload per questo evento.
 
-   Ulteriori informazioni sul tipo di dati dell&#39;elemento dell&#39;elenco prodotti nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"}.
+   Ulteriori informazioni sul tipo di dati dell&#39;elemento dell&#39;elenco prodotti nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crea un percorso che inizia con questo evento.
 1. Aggiungi un&#39;attività **E-mail** al percorso.
@@ -105,7 +105,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Ulteriori informazioni sul tipo di dati del nome della persona nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=it){target="_blank"}.
+      Ulteriori informazioni sul tipo di dati del nome della persona nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Fai clic su **[!UICONTROL Convalida]**, quindi su **[!UICONTROL Salva]**.
 
@@ -114,6 +114,8 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Salva il messaggio.
 
 ## Passaggio 4: inserire l’elenco degli articoli dal carrello {#each-helper}
+
+<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](personalization-contexts.md).-->
 
 1. Riapri il contenuto del messaggio.
 
@@ -344,4 +346,4 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 Scopri come utilizzare le funzioni di assistenza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

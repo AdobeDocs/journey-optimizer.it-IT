@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '659'
 ht-degree: 5%
 
 ---
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### Utilizzo di risposte alle azioni personalizzate nei canali nativi {#response-in-channels}
 
-Puoi eseguire l’iterazione su array nidificati da una risposta di azione personalizzata nei canali nativi (ad esempio e-mail, push o SMS) utilizzando la sintassi Handlebars. Questa funzione ti consente di personalizzare il contenuto dei messaggi con dati dinamici provenienti da sistemi esterni.
+I campi del payload di risposta da azioni personalizzate possono essere utilizzati nei canali nativi (e-mail, push, SMS) per la personalizzazione dei messaggi. Ciò include la possibilità di eseguire iterazioni su array e strutture di dati nidificate restituite da API esterne.
 
-Ad esempio, se l’azione personalizzata restituisce la seguente risposta da un sistema esterno:
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-Puoi eseguire l&#39;iterazione sull&#39;array `responses` e sugli array `productIDs` nidificati in un canale nativo (ad esempio in un messaggio e-mail) come segue:
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-Sostituisci `<yourcustomaction>` con il nome effettivo dell&#39;azione personalizzata come configurato nel percorso.
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## Risorse aggiuntive
 
