@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare un pubblico in un percorso
-description: Scopri come utilizzare un pubblico in un percorso
+description: Scopri come configurare e utilizzare l’attività Read Audience per fare in modo che i singoli utenti dei tipi di pubblico di Adobe Experience Platform entrino nei percorsi.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b6323cd34b7429120edc4ab10dae2e78778727ce
+source-git-commit: 67fe852bfeb64932999e7c5930114c027423aeb9
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3045'
 ht-degree: 10%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
->abstract="L’attività Leggi pubblico consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico di Adobe Experience Platform entrino in un percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare."
+>abstract="L&#39;attività Read Audience ti consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico [!DNL Adobe Experience Platform] entrino in un percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare."
 
 Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
-Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot; creato nel caso d’uso [Genera tipi di pubblico](../audience/about-audiences.md). Con l’attività Read Audience, puoi fare in modo che tutti gli individui appartenenti a questo pubblico entrino in un percorso e li facciano confluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
+Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot; creato nel caso d’uso [Genera tipi di pubblico](../audience/about-audiences.md). Con l’attività Read Audience, puoi fare in modo che tutti i singoli utenti appartenenti a questo pubblico entrino in un percorso. confluiranno in percorsi personalizzati che sfruttano tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -38,7 +38,7 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 >[!CAUTION]
 >
->* Prima di iniziare a utilizzare l&#39;attività Read audience, [leggi i guardrail e le limitazioni](#must-read).
+>* Prima di utilizzare l&#39;attività Read audience, [leggi i guardrail e le limitazioni](#must-read).
 
 ## Configurare l’attività {#configuring-segment-trigger-activity}
 
@@ -52,11 +52,11 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
 1. Aggiungi un&#39;etichetta **[!UICONTROL Label]** all&#39;attività (facoltativo).
 
-1. Nel campo **[!UICONTROL Pubblico]**, scegli il pubblico di Adobe Experience Platform che entrerà nel percorso, quindi fai clic su **[!UICONTROL Salva]**. Puoi selezionare qualsiasi pubblico Adobe Experience Platform generato utilizzando [definizioni di segmenti](../audience/creating-a-segment-definition.md).
+1. Nel campo **[!UICONTROL Pubblico]** scegliere il pubblico [!DNL Adobe Experience Platform] che entrerà nel percorso, quindi fare clic su **[!UICONTROL Salva]**. Puoi selezionare qualsiasi pubblico [!DNL Adobe Experience Platform] generato utilizzando [definizioni segmento](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting di [!DNL Adobe Experience Platform] tipi di pubblico creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
@@ -70,7 +70,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -84,31 +84,27 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
 * L&#39;attività **[!UICONTROL Read audience]** può essere indirizzata a un solo pubblico. Se sono necessari più tipi di pubblico, è consigliabile unirli in un unico pubblico prima dell’uso. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md)
 
-* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
+* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema. Tuttavia, evita di avere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire nello stesso momento. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
 
 * I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un&#39;attività **Read audience**, **[Audience qualification](audience-qualification-events.md)** o un&#39;attività di evento business.
 
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 
-* Limite simultaneo pubblico di lettura per organizzazione: ogni organizzazione può eseguire fino a cinque istanze Read Audience simultaneamente. Sono incluse sia le esecuzioni pianificate che quelle attivate da eventi aziendali, su tutte le sandbox e i percorsi. Questo limite viene applicato per garantire un’allocazione equa ed equilibrata delle risorse in tutte le organizzazioni.
+* Limite simultaneo pubblico di lettura per organizzazione: ogni organizzazione può eseguire fino a cinque istanze Read Audience simultaneamente. Sono incluse sia le esecuzioni pianificate che quelle attivate da eventi aziendali. Il limite si applica a tutte le sandbox e a tutti i percorsi. Questo limite viene applicato per garantire un’allocazione equa ed equilibrata delle risorse in tutte le organizzazioni.
 
-* Gestione della velocità effettiva delle sandbox: il sistema gestisce in modo dinamico la velocità effettiva di elaborazione per sandbox con un limite massimo di 20.000 profili al secondo condivisi tra tutte le attività Read Audience. È possibile configurare singole attività Read Audience con una frequenza minima di 500 profili al secondo. I processi possono essere messi in coda se vengono raggiunti i limiti di velocità effettiva a livello di sandbox per garantire un’allocazione equa delle risorse.
+* Gestione della velocità effettiva delle sandbox: il sistema gestisce in modo dinamico la velocità effettiva di elaborazione per sandbox con un limite massimo di 20.000 profili al secondo condivisi tra tutte le attività Read Audience. È possibile configurare singole attività Read Audience con una frequenza minima di 500 profili al secondo. Se vengono raggiunti i limiti di velocità effettiva a livello di sandbox, i processi possono essere messi in coda per garantire un’allocazione equa delle risorse.
 
 * Timeout di elaborazione del processo: i processi di lettura del pubblico che non possono essere elaborati entro 12 ore a causa dei limiti di guardrail verranno automaticamente puliti e non verranno mai eseguiti. Ciò impedisce l&#39;accumulo di posti di lavoro e garantisce la stabilità del sistema.
 
-* Quando utilizzi i segmenti batch, assicurati che l’acquisizione e gli aggiornamenti giornalieri delle istantanee vengano completati ben prima dell’inizio del percorso. Considera un periodo di attesa aggiuntivo se i segmenti devono riflettere i dati acquisiti nello stesso giorno. Se l’aggiornamento immediato del profilo è fondamentale, è consigliabile utilizzare un caso di utilizzo basato su eventi o in streaming invece di un approccio batch giornaliero, oppure inserire un meccanismo di attesa aggiuntivo per consentire la propagazione dei dati aggiornati prima della valutazione del percorso.
-
-
+* Quando utilizzi i segmenti batch, assicurati che l’acquisizione e gli aggiornamenti giornalieri delle istantanee vengano completati ben prima dell’inizio del percorso. Considera un periodo di attesa aggiuntivo se i segmenti devono riflettere i dati acquisiti nello stesso giorno. Se l’aggiornamento immediato del profilo è fondamentale, utilizza un approccio basato su eventi o streaming invece di un approccio batch giornaliero. In alternativa, inserisci un meccanismo in attesa per consentire la propagazione dei dati aggiornati prima della valutazione del percorso.
 
 I guardrail relativi all&#39;attività **Read Audience** sono elencati in [questa pagina](../start/guardrails.md#read-segment-g).
 
-
 >[!CAUTION]
 >
->[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} vengono applicati anche a Adobe Journey Optimizer.
-
+>[I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"} si applicano anche a [!DNL Adobe Journey Optimizer].
 
 ### Gestire la voce dei profili nel percorso
 
@@ -157,13 +153,13 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >title="Tempo di attesa per una nuova valutazione del pubblico"
 >abstract="Specifica la durata di attesa del percorso per la nuova valutazione del pubblico in batch. Il periodo di attesa è limitato a valori interi, può essere specificato in minuti o ore e deve essere compreso tra 1 e 6 ore."
 
-Per impostazione predefinita, il percorso è configurato per essere eseguito una sola volta. Per definire una data, un&#39;ora e una frequenza specifiche per l&#39;esecuzione del percorso, effettuare le seguenti operazioni.
+Per impostazione predefinita, i percorsi sono configurati per l&#39;esecuzione una sola volta. Per definire una data, un&#39;ora e una frequenza specifiche per l&#39;esecuzione del percorso, effettuare le seguenti operazioni.
 
 >[!NOTE]
 >
 >I percorsi Read audience univoci passano allo stato **Finished** 91 percorsi ([timeout globale del percorso](journey-properties.md#global_timeout)) dopo l&#39;esecuzione. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 91 giorni dall’esecuzione dell’ultima occorrenza.
 
-1. Nelle proprietà dell&#39;attività **[!UICONTROL Read audience]**, pa,e seleziona **[!UICONTROL Modifica pianificazione percorso]**.
+1. Nelle proprietà dell&#39;attività **[!UICONTROL Read audience]**, seleziona **[!UICONTROL Modifica pianificazione percorso]**.
 
    ![Pulsante Modifica pianificazione percorso nelle proprietà dell&#39;attività Read audience](assets/read-segment-schedule.png)
 
@@ -177,25 +173,20 @@ Per i percorsi ricorrenti, sono disponibili opzioni specifiche per aiutarti a ge
 
 +++**[!UICONTROL Lettura incrementale]**
 
-Quando viene eseguito per la prima volta un percorso con un pubblico ricorrente di tipo **Lettura**, tutti i profili del pubblico entrano nel percorso.
+Quando viene eseguito per la prima volta un percorso con un pubblico ricorrente di tipo **Lettura**, tutti i profili del pubblico entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
 
-Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
+Quando si utilizza questa opzione, il sistema riprende **24 ore** dall&#39;ora dell&#39;ultimo processo di valutazione del pubblico eseguito dal servizio di segmentazione di [!DNL Adobe Experience Platform].
 
-Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#about-segments), i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
+Al termine della segmentazione, inizia un processo di esportazione dello snapshot del profilo che consente a Journey Optimizer di rilevare ed elaborare nuovi profili. Se il percorso è pianificato tra questi due processi, la lettura incrementale non raccoglierà i profili che sono diventati membri del pubblico dall’ultima esecuzione del percorso.
 
+Per ridurre al minimo il rischio di profili mancanti:
+* Abilita l&#39;opzione **[!UICONTROL Trigger dopo la valutazione del pubblico in batch]** per estendere il periodo di look-back all&#39;ora dell&#39;ultima esecuzione riuscita del percorso, indipendentemente da quanto tempo si è verificato
+* Pianifica l’esecuzione corretta dei percorsi dopo il completamento dei processi di segmentazione batch giornalieri (in genere 2-3 ore di buffer)
+* Per casi d&#39;uso critici in termini di tempo che richiedono l&#39;inclusione immediata del profilo, puoi utilizzare le attività [Qualificazione del pubblico](audience-qualification-events.md) con tipi di pubblico in streaming
 
 >[!CAUTION]
 >
->La lettura incrementale si basa sugli snapshot del profilo giornalieri creati dal processo di segmentazione batch di Adobe Experience Platform. Se si verifica l&#39;esecuzione pianificata del percorso:
->
->* **Prima della creazione di un nuovo snapshot**: i profili qualificati per il pubblico dopo l&#39;ultimo snapshot ma prima dell&#39;esecuzione del percorso non verranno inclusi in tale esecuzione
->* **Più di 24 ore dopo l&#39;ultima esecuzione** (senza utilizzare l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot;): sono inclusi solo i profili dello snapshot più recente nell&#39;intervallo di look-back di 24 ore. Verranno esclusi i profili qualificati tra l’ultima esecuzione e le 24 ore precedenti l’esecuzione corrente
->
->Per ridurre al minimo il rischio di profili mancanti:
->* Abilita l&#39;opzione **[!UICONTROL Trigger dopo la valutazione del pubblico in batch]** per estendere il periodo di look-back all&#39;ora dell&#39;ultima esecuzione riuscita del percorso, indipendentemente da quanto tempo si è verificato
->* Pianifica l’esecuzione corretta dei percorsi dopo il completamento dei processi di segmentazione batch giornalieri (in genere 2-3 ore di buffer)
->* Per casi d&#39;uso critici in termini di tempo che richiedono l&#39;inclusione immediata del profilo, puoi utilizzare le attività [Qualificazione del pubblico](audience-qualification-events.md) con tipi di pubblico in streaming
-
+>Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#about-segments), i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
 
 +++
 
@@ -213,16 +204,7 @@ Se la durata dei profili in questo percorso può essere più lunga della frequen
 
 Per i percorsi pianificati giornalmente e per il targeting dei tipi di pubblico in blocco, puoi definire un intervallo di tempo fino a 6 ore affinché il percorso attenda nuovi dati sul pubblico dai processi di segmentazione in blocco. Se il processo di segmentazione viene completato entro l’intervallo di tempo, il percorso si attiva. In caso contrario, ignora il percorso fino alla sua occorrenza successiva. Questa opzione assicura che i percorsi vengano eseguiti con dati accurati e aggiornati sul pubblico.
 
-Se, ad esempio, un percorso è pianificato per le 18.00, è possibile specificare un numero di minuti o di ore di attesa prima dell&#39;esecuzione del percorso. Quando il percorso si sveglia alle 18, verifica la presenza di un nuovo pubblico, ovvero un pubblico più recente di quello utilizzato nell’esecuzione del percorso precedente. Durante l’intervallo di tempo specificato, il percorso viene eseguito immediatamente dopo aver rilevato il nuovo pubblico. Tuttavia, se non viene rilevato alcun nuovo pubblico, l’esecuzione del percorso viene ignorata.
-
-**Periodo di look-back per percorsi di lettura incrementali**
-
-Quando **[!UICONTROL Trigger dopo la valutazione del pubblico in batch]** è selezionato, [!DNL Journey Optimizer] cerca una nuova valutazione del pubblico. Per il punto iniziale del periodo di look-back, viene utilizzata l’ora dell’ultima esecuzione riuscita del percorso, anche se si è verificata più di 24 ore fa. Ciò è significativo per i percorsi di lettura incrementali che in genere hanno un periodo di look-back di 24 ore.
-
-Esempi di percorsi di lettura incrementali giornalieri:
-
-* Con &quot;Trigger dopo valutazione del pubblico in batch&quot; attivo: se sono trascorsi tre giorni dall’ingresso dei profili incrementali nel percorso, il periodo di look-back si estenderebbe di tre giorni alla ricerca dei profili incrementali.
-* Con &quot;Trigger dopo valutazione del pubblico in batch&quot; non attivo: se sono trascorsi tre giorni da quando i profili incrementali sono entrati nel percorso, il periodo di look-back torna indietro solo di 24 ore quando si cercano profili incrementali.
+Se, ad esempio, un percorso è pianificato per le 18.00, è possibile specificare un numero di minuti o di ore di attesa prima dell&#39;esecuzione del percorso. Quando il percorso si sveglia alle 18, verifica la presenza di un nuovo pubblico, ovvero un pubblico più recente di quello utilizzato nell’esecuzione del percorso precedente. Durante l’intervallo di tempo specificato, il percorso viene eseguito immediatamente dopo aver rilevato il nuovo pubblico. Se non viene rilevato alcun nuovo pubblico, l’esecuzione del percorso viene ignorata.
 
 +++
 
@@ -259,7 +241,7 @@ Quando il test è in esecuzione, il pulsante **[!UICONTROL Mostra registri]** co
 
 ![Registri di test che mostrano i risultati dell&#39;esecuzione del pubblico e il flusso del profilo](assets/read-segment-log.png)
 
-Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](publish-journey.md)). Gli utenti appartenenti al pubblico entreranno nel percorso alla data/ora specificata nella sezione **[!UICONTROL Scheduler]** delle proprietà del percorso.
+Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](../building-journeys/publish-journey.md)). Gli utenti appartenenti al pubblico entreranno nel percorso alla data/ora specificata nella sezione **[!UICONTROL Scheduler]** delle proprietà del percorso.
 
 >[!NOTE]
 >
@@ -267,7 +249,7 @@ Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione de
 
 ## Targeting del pubblico in percorsi basati sul pubblico
 
-I percorsi basati sul pubblico iniziano sempre con un&#39;attività **Read Audience** per recuperare gli individui appartenenti a un pubblico Adobe Experience Platform.
+I percorsi basati sul pubblico iniziano sempre con un&#39;attività **Read Audience** per recuperare gli individui appartenenti a un pubblico [!DNL Adobe Experience Platform].
 
 Il pubblico appartenente al pubblico viene recuperato una volta o su base regolare.
 
@@ -315,7 +297,7 @@ Se noti discrepanze tra i conteggi stimati del pubblico, i profili qualificati e
 
 ### Tempistica e propagazione dei dati
 
-* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#evaluate-segments){target="_blank"}.
+* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tempistica acquisizione dati**: verificare che l&#39;acquisizione dei dati del profilo sia stata completata prima dell&#39;esecuzione del percorso. Se i profili sono stati acquisiti poco prima dell’inizio del percorso, potrebbero non essere ancora riflessi nel pubblico. Ulteriori informazioni sull&#39;acquisizione di [dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 
@@ -325,9 +307,9 @@ Se noti discrepanze tra i conteggi stimati del pubblico, i profili qualificati e
 
 ### Convalida e monitoraggio dei dati
 
-* **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=it){target="_blank"} di Adobe Experience Platform per verificare quando i dati del pubblico sono pronti.
+* **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"} di Adobe Experience Platform per verificare quando i dati del pubblico sono pronti.
 
-* **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=it){target="_blank"}.
+* **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
 * **Rivedi le definizioni dei segmenti**: verifica che le definizioni dei segmenti siano configurate correttamente e includano tutti i criteri di qualificazione previsti. Ulteriori informazioni sulla creazione di [tipi di pubblico](../audience/creating-a-segment-definition.md). Presta particolare attenzione a:
    * Condizioni basate sul tempo che possono escludere i profili in base ai timestamp dell’evento
@@ -354,8 +336,16 @@ I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi
 
 I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **Alerts**. L&#39;avviso **Read Audience** ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto. Se l’errore è causato da problemi tecnici, tieni presente che possono comunque verificarsi nuovi tentativi, a seconda del tipo di problema (ad esempio, se la creazione del processo di esportazione non è riuscita, verrà eseguito un nuovo tentativo ogni 10mn per un massimo di 1h). [Ulteriori informazioni](../reports/alerts.md#alert-read-audiences)
 
-## Video introduttivo {#video}
+## Argomenti correlati
+
+* [Crea tipi di pubblico](../audience/about-audiences.md)
+* [Attività Qualificazione del pubblico](audience-qualification-events.md)
+* [Proprietà e guardrail del percorso](../start/guardrails.md#read-segment-g)
+* [Testare un percorso](testing-the-journey.md)
+* [Pubblicare un percorso](../building-journeys/publish-journey.md)
+
+## Video dimostrativo {#video}
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
