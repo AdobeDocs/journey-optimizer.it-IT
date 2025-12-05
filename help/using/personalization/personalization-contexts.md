@@ -569,7 +569,7 @@ La gestione delle raccolte per le azioni personalizzate è descritta in [Trasmet
 @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
 ```
 
-2. Nell’interfaccia utente per la mappatura della raccolta:
+&#x200B;2. Nell’interfaccia utente per la mappatura della raccolta:
    * Mappa `id` → `productListItems.SKU`
    * Mappa `name` → `productListItems.name`
    * Mappa `price` → `productListItems.priceTotal`
@@ -691,7 +691,7 @@ Ulteriori informazioni in [Utilizzare le risposte alle chiamate API](../action/a
 @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
 ```
 
-3. Mappa i campi della raccolta:
+&#x200B;3. Mappa i campi della raccolta:
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
