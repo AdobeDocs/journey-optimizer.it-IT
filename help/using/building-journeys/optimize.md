@@ -11,9 +11,9 @@ keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1662'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ Una volta che il percorso è attivo, i profili vengono valutati in base ai crite
 >id="ajo_path_experiment_success_metric"
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per tracciare e valutare il trattamento dalle prestazioni migliori in un esperimento."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configurare e tenere traccia della metriche del percorso"
 
 La sperimentazione consente di testare percorsi diversi in base a una suddivisione casuale per determinare quale funziona meglio in base a metriche di successo predefinite.
 
@@ -120,6 +120,10 @@ Supponiamo che tu voglia confrontare tre percorsi:
 Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso più performante e fornisce informazioni fruibili.
 
 Segui il successo del tuo percorso con il rapporto Percorsi Path Experiment (Esperimento percorso ). [Ulteriori informazioni](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>Non modificare i metadati di un esperimento di percorsi una volta pubblicato. La modifica dei metadati interrompe il calcolo e la generazione di rapporti sui risultati dell’esperimento.
 
 ### Casi di utilizzo dell’esperimento {#uc-experiment}
 
