@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 19%
@@ -33,7 +33,7 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, i guardrail tec
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Limitazione e limitazione delle API {#capping}
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguen
 * [API di limitazione di utilizzo](capping.md)
 * [API di limitazione](throttling.md)
 
-Una descrizione dettagliata delle API è disponibile nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Una descrizione dettagliata delle API è disponibile nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
 
 ### Origini dati e capacità di azioni personalizzate {#capacity}
 
