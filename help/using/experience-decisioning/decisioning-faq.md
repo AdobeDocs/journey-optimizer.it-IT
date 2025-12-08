@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
+source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,9 @@ Entrambi i componenti sono necessari per le prestazioni effettive del modello [m
 
 +++**In che modo le modifiche alle raccolte di offerte influiscono sui modelli di ottimizzazione automatica o personalizzata?**
 
-Entrambi i modelli distribuiranno il traffico alla migliore offerta disponibile successiva in base ai dati di traffico degli ultimi 30 giorni.
+Il modello di ottimizzazione automatica indirizza il traffico alla migliore offerta disponibile successiva in base ai dati di traffico degli ultimi 14 giorni, indipendentemente dal fatto che il modello di ottimizzazione personalizzata utilizzi i dati di traffico degli ultimi 30 giorni.
 
-Quando diverse offerte vengono rimosse simultaneamente e le offerte rimanenti hanno dati di traffico minimi entro la finestra di 30 giorni, il modello può mostrare un comportamento non ottimale, inclusi pattern di distribuzione casuale o distorsioni verso offerte con tassi di conversione più elevati basati su dati di impression limitati.
+Quando diverse offerte vengono rimosse simultaneamente e le offerte rimanenti presentano dati di traffico minimi entro la finestra di 14 o 30 giorni, il modello può mostrare un comportamento non ottimale, inclusi pattern di distribuzione casuali o distorsioni verso offerte con tassi di conversione più elevati basati su dati di impression limitati.
 
 **Best practice**: quando modifichi in modo significativo le raccolte di offerte, verifica che le offerte rimanenti dispongano di dati cronologici sulle prestazioni sufficienti per mantenere l&#39;efficacia del modello.
 
