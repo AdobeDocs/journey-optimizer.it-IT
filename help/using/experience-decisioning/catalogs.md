@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '426'
 ht-degree: 6%
 
 ---
@@ -53,11 +53,11 @@ Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degl
 1. Lo schema del catalogo viene aperto in una nuova scheda, seguendo la struttura riportata di seguito:
 
    * Il nodo **`_experience`** include attributi di elementi decisionali standard quali nome, data di inizio e di fine e descrizione.
-   * Il nodo **`_<imsOrg>`** ospita gli attributi degli elementi decisionali personalizzati. Per impostazione predefinita, non sono configurati attributi personalizzati, ma puoi aggiungerne quanti ne servono in base alle tue esigenze. Al termine, gli attributi personalizzati vengono visualizzati nella schermata di creazione dell’elemento decisionale insieme agli attributi standard.
+   * Il nodo **`_<imsOrg>`** ospita gli attributi degli elementi decisionali personalizzati, dove `<imsOrg>` viene sostituito dal nome dell’organizzazione (ad esempio, `_luma` per la società Luma). Per impostazione predefinita, non sono configurati attributi personalizzati, ma puoi aggiungerne quanti ne servono in base alle tue esigenze. Al termine, gli attributi personalizzati vengono visualizzati nella schermata di creazione dell’elemento decisionale insieme agli attributi standard.
 
    ![](assets/catalogs-schema.png)
 
-1. Per aggiungere un attributo personalizzato allo schema, espandere il nodo **`_<imsOrg>`** e fare clic sul pulsante &quot;+&quot; nella posizione desiderata nella struttura.
+1. Per aggiungere un attributo personalizzato allo schema, espandi il nodo dell&#39;organizzazione (ad esempio, **`_luma`**) e fai clic sul pulsante &quot;+&quot; nella posizione desiderata nella struttura.
 
    ![](assets/catalogs-add.png)
 
