@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -104,6 +104,10 @@ Assicurati che i seguenti campi siano configurati correttamente:
 
 Ogni offerta all’interno di una proposta include un token di tracciamento, che è un identificatore univoco generato da Adobe. Questo token deve essere trasmesso esattamente come ricevuto, senza modifiche, nell’evento di clic o impression corrispondente. La corrispondenza dei token di tracciamento garantisce che Adobe possa associare con precisione l’azione dell’utente alla decisione di offerta corretta, abilitando il reporting a valle e l’ottimizzazione basata sull’intelligenza artificiale.
 
+>[!CAUTION]
+>
+>Se non si passa il token di tracciamento nel campo `propositionAction.tokens` durante il tracciamento dei clic, gli eventi di clic non verranno attribuiti correttamente all&#39;offerta corrispondente. Questo comporterà dati di tracciamento incompleti e avrà un impatto negativo sul reporting e sull’ottimizzazione del ranking basata sull’intelligenza artificiale. Accertati sempre di includere il token di tracciamento della proposta nell’implementazione del tracciamento dei clic.
+
 +++**Payload di esempio:**
 
 ```json
@@ -179,4 +183,4 @@ Per gli eventi personalizzati, allo schema utilizzato nel set di dati deve esser
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=it){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
