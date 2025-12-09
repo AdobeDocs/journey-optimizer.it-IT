@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Con la funzione di gestione delle decisioni, puoi creare e fornire esperienze di
 È possibile creare e distribuire offerte effettuando una richiesta POST all&#39;API [!DNL Decisioning].
 
 Questo tutorial richiede una buona conoscenza delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md). Questo tutorial richiede anche di avere a disposizione un ID posizionamento e un valore ID decisione univoci. Se non hai acquisito questi valori, consulta i tutorial per [creare un posizionamento](../offers-api/placements/create.md) e [creare una decisione](../activities-api/activities/create.md).
+
+>[!NOTE]
+>
+>**Trasmissione dei dati contestuali nelle richieste Decisioning**
+>
+>Puoi trasmettere dati contestuali (come tipo di dispositivo, posizione o preferenze utente) nelle richieste di Decisioning per creare regole di idoneità dinamiche e distribuire offerte personalizzate in base a condizioni in tempo reale. [Ulteriori informazioni sui dati contestuali e sulle richieste Decisioning](../../context-data-decisioning.md)
 
 ## Intestazioni richieste {#required-headers}
 
@@ -222,7 +228,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830/?captions=ita&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Passaggi successivi {#next-steps}
 

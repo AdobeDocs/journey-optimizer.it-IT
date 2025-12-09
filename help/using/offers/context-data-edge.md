@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Questo caso d’uso prevede diversi passaggi chiave:
 
 >[!BEGINSHADEBOX]
 
-Per andare oltre, puoi anche sfruttare i dati contestuali nelle **formule di classificazione** o per **personalizzare le rappresentazioni delle offerte** in modo dinamico. Ad esempio, puoi creare una singola offerta e utilizzare i campi di personalizzazione per adattarne la rappresentazione in base ai dati contestuali. Ad esempio, puoi visualizzare una determinata immagine se l’utente ha un iphone, e un’altra per gli utenti di ipad. Per ulteriori informazioni, consulta le sezioni seguenti:
+Per andare oltre, puoi anche sfruttare i dati contestuali nelle **formule di classificazione** o per **personalizzare le rappresentazioni delle offerte** in modo dinamico. Ad esempio, puoi creare una singola offerta e utilizzare i campi di personalizzazione per adattarne la rappresentazione in base ai dati contestuali. Ad esempio, puoi visualizzare una determinata immagine se l’utente dispone di un iPhone, e un’altra per gli utenti di iPad. Per ulteriori informazioni, consulta queste sezioni:
 
 * [Classificazione delle formule: incrementa le offerte in base ai dati contestuali](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personalizzare le rappresentazioni in base ai dati contestuali](../offers/offer-library/add-representations.md#context-data)
@@ -40,7 +40,7 @@ Per andare oltre, puoi anche sfruttare i dati contestuali nelle **formule di cla
 
 ## Prerequisiti per trasmettere i dati contestuali nelle richieste di Edge Decisioning {#prerequisites}
 
-Invece di passare il contesto in un formato piuttosto libero utilizzando l’API Decisioning, il payload del contesto di Edge Decisioning deve essere conforme all’evento esperienza XDM. A questo scopo, il contesto deve essere definito come parte dell’evento &quot;Esperienza XDM&quot; utilizzato per la raccolta dati.
+A differenza del passaggio del contesto in un formato libero utilizzando l’API Decisioning, il contesto Edge Decisioning richiede la conformità XDM. Il payload di contesto deve essere conforme all’evento esperienza XDM. A questo scopo, il contesto deve essere definito come parte dell’evento &quot;Esperienza XDM&quot; utilizzato per la raccolta dati.
 
 1. Definisci uno schema di evento esperienza. Ai fini di questo caso d’uso, viene creato uno schema &quot;Contesto dell’offerta&quot; e i campi del contesto dell’offerta fanno parte di un gruppo di campi &quot;Contesto dell’offerta&quot;. In realtà, il gruppo di campi viene aggiunto allo schema evento esperienza utilizzato per la raccolta dati associata allo stream di dati &quot;Edge Collection Network&quot;.
 
@@ -50,31 +50,31 @@ Invece di passare il contesto in un formato piuttosto libero utilizzando l’API
 
    In questo esempio, il gruppo di campi &quot;Contesto offerta&quot; ha due proprietà: language e deviceType. Queste proprietà verranno utilizzate nelle regole di classificazione e idoneità delle offerte.
 
-   ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
+   ![Schema XDM che mostra il gruppo di campi Contesto offerta con proprietà language e deviceType](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Scopri come utilizzare gli schemi nella guida di Adobe Experience Platform [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}
+   Scopri come utilizzare gli schemi nella [!DNL Adobe Experience Platform] [guida di Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crea un set di dati (qui &quot;Contesto dell’offerta&quot;) e assicurati che sia abilitato per il profilo.
 
-1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [guida sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"} di Adobe Experience Platform
+1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [!DNL Adobe Experience Platform] [guida dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    In questo caso, abbiamo creato un flusso di dati &quot;Contesto offerta&quot;, con lo schema evento &quot;Contenuto offerta&quot; selezionato.
 
-   ![](assets/context-edge-datastream.png)
+   ![Configurazione dello stream di dati di Contesto offerta con schema evento selezionato](assets/context-edge-datastream.png)
 
 1. Modifica lo stream di dati appena creato e seleziona &quot;Adobe Experience Platform&quot; come servizio e &quot;Contesto offerta&quot; come set di dati dell’evento.
 
-   ![](assets/context-edge-datastream-new.png)
+   ![Configurazione del servizio Datastream con set di dati Adobe Experience Platform e Offer Context](assets/context-edge-datastream-new.png)
 
 1. Salva lo stream di dati e copiane l’ID. Questo ID verrà utilizzato nell’endpoint di richiesta API. [Scopri come generare la chiamata API](#request)
 
-   ![](assets/context-edge-datastream-copy.png)
+   ![Copia dell&#39;ID dello stream di dati dall&#39;interfaccia di configurazione](assets/context-edge-datastream-copy.png)
 
 ## Utilizzare i dati contestuali nelle regole di idoneità {#rules}
 
 Crea regole di idoneità che determinano le offerte da mostrare in base al tipo di dispositivo dell’utente:
 
-![](assets/context-edge-device.png)
+![Regole di idoneità per il tipo di dispositivo per le offerte iPhone e iPad](assets/context-edge-device.png)
 
 * regola dispositivo iphone:
 
@@ -100,14 +100,14 @@ Crea regole di idoneità che determinano le offerte da mostrare in base al tipo 
 
 Crea un’offerta per ciascun tipo di dispositivo e collegala alla regola di idoneità corrispondente creata in precedenza:
 
-* Offerta per gli utenti di iphone:
+* Offerta per gli utenti di iPhone:
 
-   * Nome offerta : &quot;Contesto Edge - Contenuto offerta iPhone&quot;
+   * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPhone&quot;
    * Regola associata: &quot;Edge Context Rule - iphone&quot;
 
-* Offerta per gli utenti ipad:
+* Offerta per gli utenti di iPad:
 
-   * Nome offerta: Contesto Edge - Contenuto offerta iPad :
+   * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPad&quot;
    * Regola associata: &quot;Edge Context Rule - ipad&quot;
 
 Inoltre, crea un’offerta di fallback (qui &quot;Contenuto di fallback contestuale&quot;) da visualizzare se non sono soddisfatti criteri specifici del dispositivo.
@@ -116,13 +116,13 @@ Inoltre, crea un’offerta di fallback (qui &quot;Contenuto di fallback contestu
 
 Aggiungi le offerte create in precedenza a una raccolta statica denominata qui &quot;Edge Device Context&quot;. Questa raccolta sarà il luogo in cui la decisione di offerta selezionerà le offerte idonee da presentare ai clienti.
 
-![](assets/context-edge-collection.png)
+![Raccolta contesto dispositivo Edge contenente offerte specifiche per il dispositivo](assets/context-edge-collection.png)
 
 ## Crea decisione di offerta {#decision}
 
 Crea una nuova decisione che sfrutta il motore delle decisioni per le offerte per scegliere l’offerta migliore da presentare agli utenti in base al tipo di dispositivo con l’offerta &quot;Context Fallback&quot; selezionata come offerta di fallback.
 
-![](assets/context-edge-decision.png)
+![Configurazione della decisione di offerta con Fallback contestuale come offerta di fallback](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Di seguito è riportato un esempio di richiesta che trasmette dati contestuali.
 
   +++Dove recuperare l’ambito della decisione
 
-  ![](assets/context-edge-copy-scope.png)
+  ![Posizione in cui copiare l&#39;ambito di decisione dall&#39;interfaccia di decisione dell&#39;offerta](assets/context-edge-copy-scope.png)
 
   +++
 
