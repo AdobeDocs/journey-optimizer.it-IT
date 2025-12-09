@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 17%
+source-wordcount: '2162'
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ Per creare un elemento di decisione, passa a **[!UICONTROL Decisioning]** > **[!
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Definire gli attributi personalizzati"
->abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Vengono creati nello schema del catalogo degli elementi decisionali. Questa sezione viene visualizzata solo se hai aggiunto almeno un attributo personalizzato allo schema del catalogo."
+>abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Vengono create nello schema di catalogo degli elementi decisionali."
 
 Per iniziare, definisci gli attributi standard e personalizzati dell’elemento decisionale:
 
@@ -83,8 +83,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
