@@ -10,17 +10,17 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Introduzione alla progettazione delle e-mail {#get-started-content-design}
 
-Per accedere a E-mail Designer e iniziare a progettare il contenuto delle e-mail, devi prima [creare un&#39;e-mail](create-email.md) in un percorso o in una campagna.
+Per accedere a E-mail Designer e iniziare a progettare il contenuto delle e-mail, devi prima [creare un’e-mail](create-email.md) in un percorso o in una campagna.
 
-Puoi quindi utilizzare [!DNL Journey Optimizer] **funzionalità di progettazione e-mail** per importare contenuto esistente o iniziare a creare e-mail dinamiche da zero. [Ulteriori informazioni](content-from-scratch.md)
+Puoi quindi utilizzare la **funzionalità di progettazione e-mail** di [!DNL Journey Optimizer] per importare contenuto esistente o iniziare a creare e-mail dinamiche da zero. [Ulteriori informazioni](content-from-scratch.md)
 
 E-mail Designer consente inoltre di:
 
@@ -34,7 +34,7 @@ E-mail Designer consente inoltre di:
 
 ## Passaggi chiave per la creazione di contenuti e-mail {#key-steps}
 
-Dopo aver creato un’e-mail, puoi iniziare a progettare il contenuto dell’e-mail.
+Dopo aver creato un’e-mail, puoi iniziare a progettarne il contenuto.
 
 1. Dalla schermata di configurazione del percorso o della campagna, passa alla schermata **[!UICONTROL Modifica contenuto]** per accedere a E-mail Designer. [Ulteriori informazioni](create-email.md#define-email-content)
 
@@ -82,8 +82,8 @@ Per le best practice per la progettazione di e-mail, fai riferimento alla tabell
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
