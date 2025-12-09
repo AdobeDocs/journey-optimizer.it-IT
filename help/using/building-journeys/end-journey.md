@@ -9,14 +9,18 @@ level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # Termina un percorso {#journey-ending}
+
+>[!TIP]
+>
+>Cerchi indicazioni pratiche su quando e come i profili devono uscire dai percorsi? Consulta la [guida completa ai criteri di entrata e uscita dal percorso](entry-exit-criteria-guide.md), che include scenari di uscita reali, best practice e indicazioni sulla configurazione.
 
 ## Come termina un percorso live
 
@@ -105,3 +109,10 @@ Quando viene interrotto, lo stato del percorso è impostato su **[!UICONTROL Arr
 >[!CAUTION]
 >
 >Autorizzazioni per arrestare un percorso limitato agli utenti con l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
+
+## Argomenti correlati
+
+* [Guida ai criteri di entrata e uscita del Percorso](entry-exit-criteria-guide.md) - Guida completa con esempi reali e best practice
+* [Gestione dell&#39;ingresso del profilo](entry-management.md) - Configura l&#39;accesso dei profili ai percorsi
+* [Configura criteri di uscita](journey-properties.md#exit-criteria) - Imposta la rimozione automatica del profilo dai percorsi
+* [Sospendi un percorso](journey-pause.md) - Interrompi temporaneamente l&#39;esecuzione del percorso

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1207'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 3%
 # Gestione dell’ingresso del profilo {#entry-management}
 
 La gestione dell’entrata del profilo dipende dal tipo di percorso.
+
+>[!TIP]
+>
+>Cerchi indicazioni pratiche con esempi reali? Consulta la [guida completa ai criteri di entrata e di uscita dal percorso](entry-exit-criteria-guide.md), che include casi d&#39;uso come campagne di benvenuto, recupero del carrello abbandonato e programmi fedeltà con esempi completi di configurazione di entrata e uscita.
 
 ## Tipi di percorsi {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Sono disponibili diverse opzioni per percorsi di pubblico Read ricorrenti. Per u
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## Argomenti correlati
+
+* [Guida ai criteri di entrata e uscita del Percorso](entry-exit-criteria-guide.md) - Guida completa con esempi reali e best practice
+* [Configura i criteri di uscita](journey-properties.md#exit-criteria) - Definisci quando i profili devono lasciare il percorso
+* [Termina un percorso](end-journey.md) - Comprendere come chiudono e finiscono i percorsi
+* [Casi d&#39;uso Percorsi](jo-use-cases.md) - Vedi esempi completi con configurazioni di entrata e uscita

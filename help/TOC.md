@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
+source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2997'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -121,6 +121,7 @@ ht-degree: 99%
    + Casi d’uso {#journey-use-cases}
       + [Casi d’uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Apprendere attraverso i casi d’uso](using/building-journeys/jo-use-cases.md)
+      + [Criteri percorsi di entrata e di uscita](using/building-journeys/entry-exit-criteria-guide.md)
       + [Ricerca eventi esperienza](using/building-journeys/exp-event-lookup.md)
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -133,7 +134,7 @@ ht-degree: 99%
 + Campagne {#campaigns}
    + [Campagne](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
-   + [Accedere alle campagne e gestirle](using/campaigns/manage-campaigns.md)
+   + [Accedere e gestire le campagne](using/campaigns/manage-campaigns.md)
    + [Ore di silenzio](using/campaigns/quiet-hours.md)
    + Campagne di azione {#action-campaigns}
       + [Campagne di azione](/help/rp_landing_pages/action-campaigns-landing-page.md)
@@ -188,7 +189,7 @@ ht-degree: 99%
          + [Introduzione alle attività](using/orchestrated/activities/about-activities.md)
          + [AND-join](using/orchestrated/activities/and-join.md)
          + [Crea pubblico](using/orchestrated/activities/build-audience.md)
-         + [Cambiare dimensione](using/orchestrated/activities/change-dimension.md)
+         + [Cambia dimensione](using/orchestrated/activities/change-dimension.md)
          + [Attività di canale](using/orchestrated/activities/channels.md)
          + [Combina](using/orchestrated/activities/combine.md)
          + [Deduplica](using/orchestrated/activities/deduplication.md)
@@ -368,7 +369,7 @@ ht-degree: 99%
    + Schede di contenuto {#content-card}
       + [Schede di contenuto](/help/rp_landing_pages/content-card-landing-page.md)
       + Configurare il canale della scheda contenuto {#configure}
-         + [Configurare il canale Scheda contenuto](/help/rp_landing_pages/configure-landing-page.md)
+         + [Configurare il canale della scheda contenuto](/help/rp_landing_pages/configure-landing-page.md)
          + [Prerequisiti per le schede di contenuto](using/content-card/content-card-configuration-prereq.md)
          + [Configurare il canale delle schede di contenuto in Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configurare il supporto delle schede di contenuto nell’SDK per dispositivi mobili](using/content-card/content-card-lp.md)
@@ -825,7 +826,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

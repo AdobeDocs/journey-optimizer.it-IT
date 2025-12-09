@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Apprendi attraverso i casi d’uso
+title: Apprendere attraverso i casi d’uso
 description: Panoramica sui casi di utilizzo dei percorsi
 feature: Journeys, Use Cases
 role: User, Developer
@@ -9,18 +9,22 @@ level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '832'
 ht-degree: 9%
 
 ---
 
-# Apprendi attraverso i casi d’uso {#jo-uc-gs}
+# Apprendere attraverso i casi d’uso {#jo-uc-gs}
 
 Questa sezione riunisce una raccolta di casi d’uso pratici per aiutarti a ottenere il massimo da Adobe Journey Optimizer. Di seguito sono riportati collegamenti a esempi rilevanti per la ricerca di modelli tattici (ad esempio logica di soppressione, tecniche di personalizzazione o strategie di uscita dal percorso) o scenari completi che includono flussi di lavoro tecnici e di marketing.
 
 Utilizza questa libreria come punto di riferimento per la progettazione di percorsi, la modellazione di dati o la creazione di una logica di attivazione. Ogni esempio include consigli che puoi personalizzare in base alle tue esigenze specifiche.
+
+>[!TIP]
+>
+>Ti avvicini ora ai criteri di ingresso e uscita dal percorso? Inizia con la [guida completa ai criteri di entrata e uscita dal percorso](entry-exit-criteria-guide.md), che include casi d&#39;uso reali, best practice e indicazioni dettagliate sulla configurazione.
 
 
 ## Utilizzare gli eventi di esperienza
@@ -83,7 +87,7 @@ Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi
 </td>
 <td>
 <a href="message-to-subscribers-uc.md">
-<img alt="Inviare un messaggio agli iscritti" src="../assets/do-not-localize/start-quick.png">
+<img alt="Inviare un messaggio agli abbonati" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
 <a href="message-to-subscribers-uc.md"><strong>Invia ai tuoi abbonati</strong></a>
@@ -94,7 +98,7 @@ Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="weekday-email-uc.md">
-<img alt="Invia e-mail solo nei giorni feriali" src="../assets/do-not-localize/icon-first-journey.svg">
+<img alt="Inviare e-mail solo nei giorni feriali" src="../assets/do-not-localize/icon-first-journey.svg">
 </a>
 <div>
 <a href="weekday-email-uc.md"><strong>Invia e-mail solo nei giorni feriali</strong></a>
@@ -195,7 +199,7 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Best practice: leggi i Percorsi di pubblico</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Caso d’uso: testare i Percorsi</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Caso d’uso: flussi di lavoro di approvazione</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">Caso d’uso: criteri di entrata e uscita dal Percorso</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">Blog della community: Criteri di entrata e di uscita dal Percorso</a> - Consulta anche la <a href="entry-exit-criteria-guide.md">Guida ai criteri di entrata e di uscita dal Percorso</a> con esempi reali, best practice e istruzioni di configurazione complete</p>
 </div>
 <p>
 </td>

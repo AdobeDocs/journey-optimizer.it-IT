@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2849'
 ht-degree: 15%
 
 ---
@@ -114,7 +114,7 @@ Se necessario, puoi definire **Data inizio** e **Data fine** personalizzate. Que
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="Timeout o errore"
->abstract="Specifica per quanto tempo il percorso deve tentare di eseguire un’azione o valutare una condizione prima di considerarla scaduta. I valori consigliati sono compresi tra 1 e 30 secondi."
+>abstract="Specifica per quanto tempo il percorso deve tentare di eseguire un’azione o valutare una condizione prima di considerarla scaduta per timeout. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività di interrogazione di un sistema di terze parti supera la durata di timeout definita nel campo **[!UICONTROL Timeout o errore]** delle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
@@ -273,6 +273,10 @@ Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso n
 
 Puoi rimuovere i profili da un percorso quando non soddisfano più lo scopo del percorso. Ciò può essere ottenuto mediante **criteri di uscita globali**, strettamente associati alla gestione degli obiettivi.
 
+>[!TIP]
+>
+>Cerchi indicazioni pratiche con esempi reali? Consulta la [guida completa ai criteri di entrata e di uscita dal percorso](entry-exit-criteria-guide.md), che include casi d&#39;uso completi con configurazioni di entrata e di uscita, best practice e strategie di ottimizzazione.
+
 **Caso d&#39;uso di esempio**
 
 Un addetto al marketing dispone di un percorso promozionale con una serie di comunicazioni. Ciascuna di queste comunicazioni ha lo scopo di spingere il cliente ad effettuare un acquisto. Appena effettuato l&#39;acquisto, il cliente non deve ricevere il resto dei messaggi della serie. Definendo un criterio di uscita, tutti i profili che hanno effettuato un acquisto vengono rimossi dal percorso.
@@ -331,6 +335,13 @@ Le seguenti protezioni si applicano quando si utilizza la funzionalità [Criteri
 
    * In un **percorso 2D**, l&#39;opzione *Attributo profilo* è disabilitata (sola lettura), mentre le opzioni *Evento* e *Pubblico* rimangono attive.
    * In un **percorso sospeso**, l&#39;opzione *Attributo profilo* diventa modificabile e le opzioni *Evento* e *Pubblico* diventano di sola lettura.
+
+### Argomenti correlati {#exit-criteria-related}
+
+* [Guida ai criteri di entrata e uscita del Percorso](entry-exit-criteria-guide.md) - Guida completa con esempi reali e best practice
+* [Gestione dell&#39;ingresso del profilo](entry-management.md) - Configura l&#39;accesso dei profili ai percorsi
+* [Fine dei percorsi](end-journey.md) - Comprendere il completamento naturale del percorso
+* [Sospendi un percorso con i criteri di uscita dell&#39;attributo del profilo](journey-pause.md#journey-exit-criteria) - Utilizza i criteri di uscita durante la sospensione dei percorsi
 
 ## Pianificazione percorso {#schedule}
 
