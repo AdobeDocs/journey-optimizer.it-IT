@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
 source-wordcount: '3530'
-ht-degree: 83%
+ht-degree: 94%
 
 ---
 
@@ -62,21 +62,21 @@ Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazion
 
 #### Dimensione del contenuto dei messaggi per la pubblicazione del percorso {#message-content-size}
 
-Quando si pubblicano percorsi che contengono messaggi e-mail, la dimensione totale del contenuto del messaggio non deve superare **2 MB** dopo l&#39;elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuto creato.
+Quando pubblichi dei percorsi che contengono messaggi e-mail, la dimensione totale del contenuto dei messaggi non deve superare **2 MB** dopo l’elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuti creati.
 
 >[!CAUTION]
 >
->Se il contenuto finale del messaggio elaborato supera i 2 MB, la pubblicazione del percorso non riuscirà. Per evitare errori di pubblicazione, mantieni il contenuto del messaggio creato ben al di sotto di 2 MB, idealmente al di sotto di **1 MB**, per consentire un buffer di 300-400 KB per il sovraccarico di elaborazione del back-end.
+>La pubblicazione del percorso non riuscirà se il contenuto finale del messaggio elaborato supera i 2 MB. Per evitare errori di pubblicazione, mantieni il contenuto del messaggio creato ben al di sotto di 2 MB, e preferibilmente inferiore a **1 MB**, in modo da avere un margine di 300-400 KB per l’incremento dovuto all’elaborazione back-end.
 
 **Best practice per evitare errori di pubblicazione:**
 
-* Mantienere i contenuti e-mail creati al di sotto di 1 MB
+* Mantenere i contenuti e-mail creati al di sotto di 1 MB
 * Ridurre al minimo il numero di varianti di contenuto
 * Ottimizzare e comprimere le immagini prima di aggiungerle ai messaggi
 * Rimuovere le risorse inutilizzate e gli elementi HTML non necessari
-* Verificare la dimensione del messaggio prima di pubblicare i percorsi in produzione
+* Verificare le dimensioni del messaggio prima di pubblicare i percorsi in produzione
 
-Se la pubblicazione del percorso non riesce a causa della dimensione del contenuto, riduci il contenuto del messaggio e ripubblica il percorso.
+Se la pubblicazione del percorso non riesce a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e pubblica nuovamente il percorso.
 
 ### Guardrail per SMS {#sms-guardrails}
 
@@ -90,29 +90,29 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 
 * Per utilizzare le azioni di [esperienza basate su codice](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] e distribuire il payload del contenuto del codice utilizzabile dalle applicazioni, segui i prerequisiti descritti in [questa pagina](../code-based/code-based-prerequisites.md).
 
-* Per poter accedere e creare [pagine Web](../web/get-started-web.md) nell&#39;interfaccia utente [!DNL Journey Optimizer], seguire i prerequisiti elencati in [questa pagina](../web/web-prerequisites.md).
+* Per poter accedere e creare [pagine web](../web/get-started-web.md) nell’interfaccia utente di [!DNL Journey Optimizer], segui i prerequisiti elencati in [questa pagina](../web/web-prerequisites.md).
 
 * Per inviare messaggi in-app nei tuoi percorsi e campagne con [!DNL Journey Optimizer], segui i prerequisiti di consegna elencati in [questa pagina](../in-app/inapp-configuration.md).
 
-* Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenuto, devi configurare le impostazioni di Adobe Experience Platform elencate in [questa pagina](../content-card/content-card-configuration-prereq.md).
+* Affinché Adobe Journey Optimizer mostri correttamente le schede contenuto, devi configurare le impostazioni di Adobe Experience Platform elencate in [questa pagina](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
 * Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
 
-#### Gestione dei profili con canali in entrata {#profile-management-inbound}
+#### Gestione profilo con canali in entrata {#profile-management-inbound}
 
-[!DNL Journey Optimizer] canali in entrata possono eseguire il targeting di profili pseudonimi, ovvero profili non autenticati o non ancora noti perché non sono stati precedentemente coinvolti su altri canali. Questo è il caso, ad esempio, quando si esegue il targeting di tutti i visitatori o tipi di pubblico in base a ID temporanei come ECID.
+[!DNL Journey Optimizer] canali in entrata possono eseguire il targeting di profili identificati da pseudonimi, ovvero profili non autenticati o non ancora noti perché non sono stati precedentemente coinvolti su altri canali. È il caso, ad esempio, quando si esegue il targeting di tutti i visitatori o tipi di pubblico in base a ID temporanei come ECID.
 
-Questo aumenta il numero totale di profili coinvolgibili, il che può avere implicazioni di costo se viene superato il numero contrattuale di profili coinvolgibili acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili coinvolgibili nel [dashboard di utilizzo delle licenze](../audience/license-usage.md).
+In questo modo aumenta il conteggio totale dei profili coinvolti, il che potrebbe avere implicazioni sui costi se viene superato il numero contrattuale di profili coinvolti acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili coinvolti nella [dashboard di utilizzo delle licenze](../audience/license-usage.md).
 
-Per mantenere i profili coinvolgibili entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-To-Live) per eliminare automaticamente i profili pseudonimi dal profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico.
+Per mantenere i profili coinvoltii entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-to-live) per eliminare automaticamente i profili identificati da pseudonimi dal Profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico.
 
 >[!NOTE]
 >
->Scopri come configurare la scadenza dei dati per i profili pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+>Scopri come configurare la scadenza dei dati per i profili identificati da pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
-Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda al valore TTL del profilo Edge corrente.
+Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda al TTL del profilo Edge corrente.
 
 ### Guardrail di un messaggio transazionale {#transactional-message-guardrails}
 
@@ -152,7 +152,7 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 
 * Durante l’acquisizione dei dati, negli indirizzi e-mail viene fatta distinzione tra maiuscole e minuscole. Ciò significa che è possibile creare profili duplicati (ad esempio, un profilo per John.Greene@luma.com e un altro profilo per john.greene@luma.com) e utilizzarli quando si esegue il targeting del destinatario corrispondente nei percorsi e nelle campagne [!DNL Journey Optimizer].
 
-* Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con canali in entrata, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](#profile-management-inbound)
+* Quando esegui il targeting di profili identificati da pseudonimi (visitatori non autenticati) con canali in entrata, puoi impostare un valore TTL (Time-to-live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolti e i costi associati. [Ulteriori informazioni](#profile-management-inbound)
 
 ## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 
@@ -213,7 +213,7 @@ Alle [versioni del percorso](../start/user-interface.md) vengono applicati i seg
 
 Alle [azioni personalizzate](../action/action.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e per sandbox. Il limite &quot;per host&quot; si applica a livello di dominio (ad esempio, example.com). Questo limite viene applicato come finestra scorrevole per sandbox e per endpoint per gli endpoint con tempi di risposta inferiori a 0,75 secondi. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di 150.000 chiamate per 30 secondi (anche una finestra scorrevole). Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
+* Per tutte le azioni personalizzate, viene definito un limite di di 300.000 chiamate in un minuto per host e per sandbox. Il limite “per host” si applica a livello di dominio (ad esempio, example.com). Questo limite viene applicato come intervallo scorrevole per sandbox e per endpoint nel caso di endpoint con tempi di risposta inferiori a 0,75 secondi. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di 150.000 chiamate per 30 secondi (anche in questo caso come intervallo scorrevole). Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”

@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 79%
+ht-degree: 96%
 
 ---
 
@@ -35,36 +35,36 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La pagina Introduzione alla progettazione delle e-mail è stata aggiornata per chiarire come accedere a E-mail Designer. [Ulteriori informazioni](../email/get-started-email-design.md)
 
-* Nella pagina dei record di DMARC è stata aggiunta una sezione per la risoluzione dei problemi che consente di risolvere il problema della latenza di propagazione DNS. [Ulteriori informazioni](../configuration/dmarc-record.md#troubleshooting)
+* Nella pagina dei record DMARC è stata aggiunta una sezione per la risoluzione dei problemi che consente di risolvere il problema della latenza di propagazione DNS. [Ulteriori informazioni](../configuration/dmarc-record.md#troubleshooting)
 
-* La pagina Utilizzo di GenStudio for Performance Marketing è stata migliorata con nuove sezioni che includono funzionalità chiave, casi d’uso comuni, prerequisiti e domande frequenti. [Ulteriori informazioni](../integrations/genstudio.md)
+* La pagina Utilizzare GenStudio for Performance Marketing è stata migliorata con nuove sezioni che includono funzionalità chiave, casi d’uso comuni, prerequisiti e domande frequenti. [Ulteriori informazioni](../integrations/genstudio.md)
 
-* Alla pagina Guardrail and restrictions è stato aggiunto un guardrail sul targeting di profili pseudonimi con canali in entrata: il targeting di visitatori non autenticati aumenta il numero totale di profili coinvolgibili, pertanto Adobe consiglia di impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, per gestire i costi associati. [Ulteriori informazioni](../start/guardrails.md#profile-management-inbound)
+* Nella pagina Guardrail e limitazioni è stato aggiunto un guardrail sul targeting di profili identificati da pseudonimi con canali in entrata: il targeting di visitatori non autenticati aumenta il numero totale di profili coinvolti, pertanto Adobe consiglia di impostare un valore TTL (Time-to-live) per l’eliminazione automatica del profilo, per gestire i costi associati. [Ulteriori informazioni](../start/guardrails.md#profile-management-inbound)
 
-* Nella pagina di esempio dei metodi di implementazione basati su codice sono ora disponibili due esercitazioni sulla configurazione del Web SDK per il decisioning e le esperienze basate su codice. [Ulteriori informazioni](../code-based/code-based-decisioning-implementations.md#tutorials)
+* Nella pagina di esempio dei metodi di implementazione basati su codice sono ora disponibili due tutorial sulla configurazione del Web SDK per il decisioning e le esperienze basate su codice. [Ulteriori informazioni](../code-based/code-based-decisioning-implementations.md#tutorials)
 
 * È stata aggiunta una nota per specificare che le risorse e le immagini rimangono accessibili per un massimo di 2 anni (730 giorni) dalla prima pubblicazione e devono essere ripubblicate dopo la scadenza. [Ulteriori informazioni](../content-management/proofs.md)
 
-* È ora disponibile una guida completa alla richiesta di informazioni sui contenuti dell’Assistente AI. Questa guida illustra come creare prompt efficaci per creare contenuti di marketing altamente convertibili e allineati al brand. Scopri le best practice per scrivere obiettivi di marketing, utilizzare risorse del brand e ottimizzare i contenuti per diversi canali. [Ulteriori informazioni](../content-management/ai-assistant-prompting-guide.md)
+* È ora disponibile una guida completa ai prompt per contenuti per l’Assistente IA. Questa guida illustra come generare prompt efficaci per creare contenuti di marketing in grado di stimolare le conversioni e allineati al brand. Scopri le best practice per scrivere obiettivi di marketing, utilizzare risorse del brand e ottimizzare i contenuti per diversi canali. [Ulteriori informazioni](../content-management/ai-assistant-prompting-guide.md)
 
-* È stata aggiunta una nota alla documentazione sulla definizione del segmento per chiarire che l&#39;attributo `frequencyMap` non è supportato per l&#39;utilizzo nelle definizioni dei segmenti e non può essere utilizzato come parte dei criteri di segmentazione del pubblico. Per il targeting basato sulla frequenza, considera l’utilizzo delle regole di quota limite nelle regole business. [Ulteriori informazioni](../audience/creating-a-segment-definition.md)
+* È stata aggiunta una nota alla documentazione su come definire i segmenti per chiarire che l’attributo `frequencyMap` non è supportato nelle definizioni dei segmenti e non può essere utilizzato come parte dei criteri di segmentazione del pubblico. Per il targeting basato sulla frequenza, prendi in considerazione l’utilizzo della quota limite, disponibile nelle regole di business. [Ulteriori informazioni](../audience/creating-a-segment-definition.md)
 * Nella documentazione sulle risposte alle chiamate API è stato aggiunto un nuovo esempio che illustra come utilizzare le risposte alle azioni personalizzate nei canali nativi. L’esempio dimostra l’iterazione su array nidificati delle risposte di azioni personalizzate tramite la sintassi Handlebars nei messaggi e-mail, push e SMS. [Ulteriori informazioni](../action/action-response.md#response-in-channels)
 
 * È stata aggiunta una nuova sezione alla documentazione sull’integrazione di Campaign v7/v8 che spiega come aggiornare le azioni personalizzate esistenti quando l’endpoint in tempo reale (RT) cambia. La sezione include istruzioni dettagliate per aggiornare l’URL dell’endpoint, testare la connessione e convalidare le modifiche prima di salvarle. [Ulteriori informazioni](../action/acc-action.md#update-action)
 
-* Sono state aggiunte nuove sezioni sulle limitazioni e sulle best practice alla documentazione dei frammenti visivi per avvisare gli utenti in merito a nidificazioni non supportate di frammenti contenenti Contenuto dinamico all’interno di altri frammenti sbloccati con Contenuto dinamico. Le linee guida includono i passaggi per la risoluzione dei problemi relativi alla modalità di compatibilità e raccomandazioni per una progettazione corretta della struttura delle e-mail. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
+* Nella documentazione sui frammenti visivi sono state aggiunte nuove sezioni sulle limitazioni e best practice in merito alla nidificazione non supportata di frammenti con contenuti dinamici all’interno di altri frammenti sbloccati con contenuti dinamici. Le linee guida includono passaggi per la risoluzione dei problemi relativi alla modalità di compatibilità e consigli per la corretta progettazione della struttura delle e-mail. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
 
-* È stata aggiunta una sezione per la risoluzione dei problemi alla documentazione di reporting live del percorso per aiutare gli utenti a risolvere i problemi relativi ai dati mancanti. La sezione descrive la sincronizzazione dei nomi dei percorsi con i set di dati di reporting, la tempistica di aggiornamento dei dati, la verifica delle autorizzazioni di accesso e i requisiti di stato del percorso. [Ulteriori informazioni](../building-journeys/report-journey.md#troubleshooting-missing-data)
+* Nella documentazione sul reporting live dei percorsi è stata aggiunta una sezione su come risolvere i problemi relativi a dati di reporting mancanti. La sezione tratta la sincronizzazione dei nomi dei percorsi con i set di dati di reporting, la tempistica di aggiornamento dei dati, la verifica delle autorizzazioni di accesso e i requisiti di stato del percorso. [Ulteriori informazioni](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
-* Alla documentazione delle risorse sono stati aggiunti tre nuovi elementi di domanda frequente che illustrano la scadenza delle risorse e la gestione del ciclo di vita. Gli argomenti trattati includono la policy TTL (Time-To-Live) per le risorse di AEM (730 giorni), come risolvere le immagini interrotte a causa della scadenza delle risorse e informazioni sui prossimi miglioramenti alla logica di scadenza delle risorse. [Ulteriori informazioni](../integrations/assets.md#faq-assets)
+* Nella documentazione relativa alle risorse sono state aggiunte tre nuove domande frequenti sulla scadenza delle risorse e la gestione del ciclo di vita. Gli argomenti trattati includono i criteri TTL (Time-to-live) per le risorse di AEM (730 giorni), come risolvere errori relativi alle immagini danneggiate a causa della scadenza delle risorse e informazioni su miglioramenti alla logica di scadenza delle risorse che verranno introdotti prossimamente. [Ulteriori informazioni](../integrations/assets.md#faq-assets)
 
-* Alla documentazione dell’attività Read Audience è stata aggiunta una sezione completa sulla risoluzione dei problemi per risolvere le discrepanze nel conteggio del pubblico tra i profili stimati ed effettivi che accedono ai percorsi. La sezione tratta i problemi relativi alla tempistica e alla propagazione dei dati, le tecniche di convalida e monitoraggio dei dati e le best practice, tra cui l’utilizzo dell’opzione &quot;Trigger dopo la valutazione in batch del pubblico&quot;. [Ulteriori informazioni](../building-journeys/read-audience.md#audience-count-mismatch)
+* Nella documentazione dell’attività Leggi pubblico è stata aggiunta una sezione completa su come risolvere problemi di discrepanza nel conteggio del pubblico tra i profili stimati ed effettivi che accedono ai percorsi. La sezione tratta problemi relativi alla tempistica e alla propagazione dei dati, tecniche di convalida e monitoraggio dei dati e best practice, tra cui l’utilizzo dell’opzione “Attiva dopo la valutazione del pubblico batch”. [Ulteriori informazioni](../building-journeys/read-audience.md#audience-count-mismatch)
 
-* È stata aggiunta una nota alla documentazione degli eventi di qualificazione del pubblico per chiarire la latenza della segmentazione in streaming (fino a 2 ore) e consigliare di aggiungere un’attività Attendi o un tempo di buffer per i percorsi sensibili al tempo. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
+* Nella documentazione degli eventi di qualificazione del pubblico è stata aggiunta una nota per chiarire la latenza della segmentazione in streaming (fino a 2 ore) e consigliare di aggiungere un’attività Attendi o un tempo di buffer per i percorsi urgenti. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
 
-* È stata aggiunta una nuova sezione ai guardrail delle e-mail che documentano il limite di 2 MB per la dimensione del contenuto del messaggio per la pubblicazione del percorso, incluse le best practice per mantenere il contenuto creato sotto 1 MB per consentire il sovraccarico di elaborazione del back-end. [Ulteriori informazioni](../start/guardrails.md#message-content-size)
+* Ai guardrail e-mail è stata aggiunta una nuova sezione che documenta il limite di 2 MB per la dimensione del contenuto dei messaggi per la pubblicazione del percorso, con best practice su come mantenere il contenuto creato al di sotto di 1 MB per consentire l’incremento dovuto all’elaborazione back-end. [Ulteriori informazioni](../start/guardrails.md#message-content-size)
 
-* È stata migliorata la documentazione relativa all’opzione Lettura incrementale nelle attività Read Audience per chiarire le dipendenze tra i tempi di snapshot e il limite di look-back di 24 ore, compresi i consigli per evitare profili mancanti. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* È stata migliorata la documentazione relativa all’opzione Lettura incrementale nelle attività Leggi pubblico per chiarire le dipendenze della tempistica delle istantanee e il limite di lookback di 24 ore, compresi consigli su come evitare profili mancanti. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 * È stata aggiunta una nota ai guardrail di ricerca nei set di dati per specificare che le ricerche non possono essere concatenate tra loro. [Ulteriori informazioni](../data/lookup-aep-data.md#guidelines)
 
@@ -78,9 +78,9 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È ora disponibile la documentazione su come utilizzare gli eventi del passaggio del percorso. [Ulteriori informazioni](../reports/journey-step-events-overview.md)
 
-* La query per identificare gli eventi scartati nei percorsi è stata corretta per includere filtri corretti per gli errori dei processi di esportazione dei segmenti, gli scartamenti del dispatcher e gli scartamenti delle macchine di stato. [Ulteriori informazioni](../reports/query-examples.md#common-queries)
+* La query per identificare gli eventi eliminati nei percorsi è stata corretta per includere filtri appropriati per gli errori dei processi di esportazione dei segmenti, le eliminazioni da parte del dispatcher e le eliminazioni automatiche dello stato. [Ulteriori informazioni](../reports/query-examples.md#common-queries)
 
-* Sono state aggiunte frasi introduttive a tutti e 37 gli esempi di query nella documentazione sugli esempi di query per fornire un contesto migliore e spiegare cosa fa ogni query prima di presentare il codice SQL. Ciò migliora la comprensione da parte dell’utente e fornisce indicazioni più chiare su quando utilizzare ciascuna query. [Ulteriori informazioni](../reports/query-examples.md)
+* Sono state aggiunte frasi introduttive a tutti e 37 gli esempi di query nella relativa documentazione, per fornire più contesto e spiegare cosa fa ogni query prima di presentare il codice SQL. Offre all’utente indicazioni più chiare su quando utilizzare ciascuna query. [Ulteriori informazioni](../reports/query-examples.md)
 
 ## Ottobre 2025 {#october-2025}
 
@@ -397,7 +397,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -427,7 +427,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -502,7 +502,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -630,7 +630,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
