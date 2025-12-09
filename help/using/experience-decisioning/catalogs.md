@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
+source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="Definire gli attributi personalizzati"
+>title="Accedere e modificare lo schema del catalogo"
 >abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Vengono create nello schema di catalogo degli elementi decisionali."
 
 In Decisioning, i cataloghi fungono da contenitori centrali per l’organizzazione degli elementi decisionali. Ogni catalogo è collegato a uno schema [!DNL Adobe Experience Platform], che include tutti gli attributi assegnabili a un elemento decisionale.
