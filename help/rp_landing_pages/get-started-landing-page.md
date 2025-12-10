@@ -5,7 +5,7 @@ title: Introduzione
 description: Introduzione a Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: a83be759a20b8b1592164119762a6dbaa5ac469a
+source-git-commit: 8bedc1162edb042767b3cab68bfac25e85c7f283
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -24,7 +24,7 @@ Scopri le nozioni di base di Adobe Journey Optimizer e come consente la personal
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Cos’è Journey Optimizer?
 
@@ -34,7 +34,7 @@ Scopri le funzionalità di base, i casi di utilizzo e come Journey Optimizer off
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Come funziona
 
@@ -44,7 +44,7 @@ Scopri come Journey Optimizer si integra con Adobe Experience Platform e come le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminologia chiave
 
@@ -61,7 +61,7 @@ Inizia con indicazioni specifiche per il tuo ruolo e personalizzate in base alle
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Per gli addetti al marketing
 
@@ -71,7 +71,7 @@ Progetta percorsi di clienti, crea campagne e personalizza contenuti per coinvol
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Per data engineer
 
@@ -81,7 +81,7 @@ Configura strutture di dati, gestisci schemi e set di dati e assicurati che la q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Per gli amministratori
 
@@ -91,7 +91,7 @@ Imposta gli ambienti, gestisci le autorizzazioni e configura i canali per la tua
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Per sviluppatori
 
@@ -120,7 +120,7 @@ Scopri come utilizzare l’interfaccia di Journey Optimizer, accedere alle funzi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/search.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
 
 Cerca e organizza
 
@@ -173,8 +173,6 @@ Inizia subito a creare con queste guide essenziali:
 | Creare un pubblico | [Guida alla creazione del pubblico](../using/audience/creating-a-segment-definition.md) |
 | Configurare i canali | [Guida alla configurazione dei canali](../using/configuration/get-started-configuration.md) |
 | Creare le offerte personalizzate | [Guida alla gestione delle decisioni](../using/offers/get-started/starting-offer-decisioning.md) |
-
-&#x200B;---
 
 ## Sei pronto per iniziare?
 
