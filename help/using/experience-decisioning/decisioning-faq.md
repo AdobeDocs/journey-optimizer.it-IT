@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -65,8 +63,8 @@ Quando diverse offerte vengono rimosse simultaneamente e le offerte rimanenti pr
 
 I modelli di intelligenza artificiale identificano e iniziano a testare le nuove offerte disponibili sul loro prossimo ciclo di formazione:
 
-* **Ottimizzazione automatica**: ogni giorno
-* **Ottimizzazione personalizzata**: settimanale
+* **Ottimizzazione automatica** identifica e inizia a testare le nuove offerte nel prossimo ciclo di formazione. L’apprendimento dell’ottimizzazione automatica viene eseguito da 3 a 4 volte al giorno, circa ogni 6 ore.
+* **L&#39;ottimizzazione personalizzata** identifica e inizia a testare le nuove offerte man mano che vengono aggiunte alla strategia di offerta. Saranno inclusi nel traffico di esplorazione casuale. Queste offerte saranno poi personalizzate nel prossimo ciclo di formazione del modello, con cadenza settimanale.
 
 Una volta identificati, entrambi i modelli inizieranno a fornire le nuove offerte ad alcuni visitatori immediatamente per testarne le prestazioni e raccogliere dati sulla loro efficacia.
 
