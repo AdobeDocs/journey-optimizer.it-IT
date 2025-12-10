@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, recapitabilità
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 73%
+source-wordcount: '322'
+ht-degree: 56%
 
 ---
 
@@ -52,8 +52,18 @@ I passaggi chiave per implementare un piano di preparazione IP sono i seguenti:
 
 Scopri come creare ed eseguire un piano di preparazione IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453848/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
 >Ulteriori informazioni sull&#39;aumento della reputazione e-mail con la preparazione degli indirizzi IP nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it).
+
+## Risorse aggiuntive {#additional-resources}
+
+Esplora questi utili post di blog per una guida più approfondita sul riscaldamento dell’IP:
+
+* [Informazioni su come impostare il riscaldamento dell&#39;IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949): scopri le nozioni di base per la configurazione dei piani di riscaldamento dell&#39;IP e le best practice per una corretta implementazione.
+
+* [Funzionalità avanzate nei piani di riscaldamento IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Scopri le funzionalità avanzate e i controlli granulari per ottimizzare la tua strategia di riscaldamento IP.
+
+* [Risoluzione dei problemi di riscaldamento dell&#39;IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Trova soluzioni ai problemi comuni, ad esempio ritardi del pubblico, e scopri i meccanismi di esecuzione intelligente dei tentativi.

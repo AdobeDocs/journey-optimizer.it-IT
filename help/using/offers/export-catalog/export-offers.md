@@ -10,9 +10,9 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** caratteristiche
 **Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
-**Descrizione:** Le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.
-Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’offerta. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
+**Descrizione:** Le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** oggetto
 
 +++
@@ -183,7 +182,7 @@ Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta 
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 
