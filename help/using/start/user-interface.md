@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 34%
+source-wordcount: '1126'
+ht-degree: 33%
 
 ---
 
@@ -57,6 +57,7 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 * **Modelli di contenuto** - Modelli di messaggio riutilizzabili per campagne e percorsi. [Crea modelli](../content-management/content-templates.md)
 * **Frammenti** - Blocchi di contenuto che possono essere utilizzati in più messaggi. [Operazioni con frammenti](../content-management/fragments.md)
 * **Pagine di destinazione** - Moduli Web per abbonamenti e preferenze. [Progettazione di pagine di destinazione](../landing-pages/get-started-lp.md)
+* **Playbook di casi d&#39;uso** - Flussi di lavoro predefiniti per scenari di marketing comuni. [Esplora playbook](ai-features.md#playbooks)
 
 **Gestione dati** - Gestisci le tue basi dati. [Informazioni su schemi e set di dati](../data/get-started-schemas.md)
 * **Schemi** - Definire la struttura dati
@@ -81,12 +82,12 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 * **Ciclo di vita dei dati** - Configurare la conservazione dei dati
 
 **Amministrazione** - Configura le impostazioni di sistema. [Panoramica sul controllo degli accessi](../administration/permissions-overview.md)
-* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali &#x200B;](../configuration/get-started-configuration.md)
+* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali ](../configuration/get-started-configuration.md)
 * **Regole aziendali** - Controlla la frequenza dei messaggi e l&#39;immissione di percorso. [Imposta regole business](../conflict-prioritization/rule-sets.md)
 * **Avvisi** - Visualizza e gestisci gli avvisi di sistema. [Monitorare gli avvisi](../reports/alerts.md)
 * **Sandbox** - Gestisci gli ambienti e copia gli oggetti tra le sandbox. [Operazioni con le sandbox](../administration/sandboxes.md)
-* **Canali** - Configura impostazioni canale e recapito messaggi
-* **Tag** - Organizzazione e categorizzazione del contenuto
+* **Canali** - Configura le impostazioni del canale e il recapito messaggi. [Configurare le configurazioni dei canali](../configuration/channel-surfaces.md) | [Introduzione alla configurazione](../configuration/get-started-configuration.md)
+* **Tag** - Organizza e categorizza il contenuto. [Utilizzo di tag unificati](search-filter-categorize.md#tags)
 
 ## Funzioni barra superiore {#top-bar}
 
