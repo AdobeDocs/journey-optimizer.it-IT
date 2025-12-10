@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Accedere alle campagne e gestirle
+title: Accedere e gestire le campagne
 description: Scopri come accedere e gestire le campagne in Journey Optimizer.
 feature: Campaigns
 topic: Content Management
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 ---
 
-# Accedere alle campagne e gestirle {#manage-campaigns}
+# Accedere e gestire le campagne {#manage-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

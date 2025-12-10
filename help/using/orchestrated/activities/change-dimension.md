@@ -13,7 +13,7 @@ ht-degree: 74%
 ---
 
 
-# Cambiare dimensione {#change-dimension}
+# Cambia dimensione {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"
