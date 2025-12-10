@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 21%
+source-wordcount: '753'
+ht-degree: 14%
 
 ---
 
@@ -19,27 +19,27 @@ ht-degree: 21%
 
 Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utilizzando le definizioni dei segmenti, il caricamento personalizzato, i flussi di lavoro di composizione o la Composizione federata del pubblico.
 
->[!AVAILABILITY]
->
->L’utilizzo dei tipi di pubblico e degli attributi della composizione del pubblico non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
+## Guardrail e limitazioni {#guardrails}
+
+* **Healthcare Shield o Privacy and Security Shield** - L&#39;utilizzo di tipi di pubblico e attributi dalla composizione del pubblico non è attualmente disponibile con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment)
+
+* **Caricamento personalizzato e composizione pubblico federato** - Per i tipi di pubblico Caricamento personalizzato e Composizione pubblico federato, tieni presente i seguenti guardrail:
+
+   * **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
+
+   * **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo del servizio profili unificato, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in [!DNL Journey Optimizer] (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti. Pertanto, questi campi non possono essere utilizzati per il targeting.
+
+     Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l&#39;attributo scelto come identità durante la creazione del pubblico sarà quello utilizzato per il targeting in [!DNL Journey Optimizer].
+
+   * **Record attivati e unione identità:** tutti i record nel pubblico vengono attivati, inclusi eventuali duplicati. Durante la prossima esportazione del profilo del servizio profili unificato, questi record passano attraverso l’unione di identità. Di conseguenza, il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
 
 ## Ritardo di attivazione del pubblico {#activation}
 
-I tipi di pubblico sono pronti per essere utilizzati in Journey Optimizer al termine dell’acquisizione. Sebbene questo avvenga in genere entro un’ora, è soggetto ad alcune variabilità. I tipi di pubblico risultanti dalle composizioni devono essere disponibili 24 ore dopo la pubblicazione.
+I tipi di pubblico sono pronti per essere utilizzati in [!DNL Journey Optimizer] al termine dell&#39;acquisizione. Sebbene questo avvenga in genere entro un’ora, è soggetto ad alcune variabilità. I tipi di pubblico risultanti dalle composizioni devono essere disponibili 24 ore dopo la pubblicazione.
 
-Per i tipi di pubblico risultanti da processi di segmentazione in batch, l’attivazione può essere ritardata a causa della variabilità dell’acquisizione in batch. Per i percorsi Read-audience pianificati quotidianamente, puoi definire una finestra temporale nelle proprietà del percorso per garantire che siano disponibili nuovi dati sul pubblico prima dell’esecuzione del percorso. Se il processo di segmentazione non viene completato entro l’intervallo di tempo definito, il percorso verrà ignorato fino alla sua occorrenza successiva. [Scopri come pianificare un percorso Read-audience](../building-journeys/read-audience.md)
+Per i tipi di pubblico risultanti da processi di segmentazione in batch, l’attivazione può essere ritardata a causa della variabilità dell’acquisizione in batch. Per i percorsi Read-audience pianificati quotidianamente, puoi definire una finestra temporale nelle proprietà del percorso per garantire che siano disponibili nuovi dati sul pubblico prima dell’esecuzione del percorso.
 
-## Caricamento personalizzato e composizione federata del pubblico
-
-Per i tipi di pubblico con caricamento personalizzato e Composizione federata del pubblico, tieni presente i seguenti guardrail:
-
-* **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
-
-* **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo del servizio profili unificato, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in Journey Optimizer (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti e quindi non possono essere utilizzati per il targeting.
-
-  Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l’attributo scelto come identità nella creazione del pubblico sarà quello utilizzato per il targeting in Journey Optimizer.
-
-* **Record attivati e unione identità:** tutti i record nel pubblico vengono attivati, inclusi eventuali duplicati. Durante la prossima esportazione del profilo Unified Profile Service, questi record passeranno attraverso l’unione delle identità. Di conseguenza, il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
+Se il processo di segmentazione non viene completato entro l’intervallo di tempo definito, il percorso verrà ignorato fino alla sua occorrenza successiva. [Scopri come pianificare un percorso Read-audience](../building-journeys/read-audience.md)
 
 ## Pubblico di destinazione in [!DNL Journey Optimizer]
 
@@ -47,14 +47,22 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 * Scegli un pubblico per una **campagna**: il messaggio viene inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Scopri come definire il pubblico di una campagna](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilizza un&#39;attività di orchestrazione **Read audience** in un percorso per fare in modo che tutti i singoli utenti del pubblico entrino nel percorso e ricevano i messaggi inclusi nel percorso. Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare in modo che tutti i clienti silver entrino in un percorso e inviare loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi pubblico](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Utilizza un&#39;attività di orchestrazione **Read audience** in un percorso per fare in modo che tutti i singoli utenti del pubblico entrino nel percorso e ricevano i messaggi inclusi nel percorso. Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare entrare in un percorso tutti i clienti silver. Puoi quindi inviare loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi pubblico](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
   Per i percorsi che utilizzano tipi di pubblico da composizione del pubblico o caricamento personalizzato, gli attributi del profilo sono aggiornati quanto l’ultima valutazione batch all’ingresso del percorso. Tuttavia, dopo un&#39;attività **Wait**, il percorso aggiorna gli attributi del profilo da Unified Profile Service (UPS), recuperando i dati disponibili più recenti, il che significa che gli attributi del profilo possono cambiare durante l&#39;esecuzione del percorso. [Ulteriori informazioni sull&#39;aggiornamento del profilo dopo un&#39;attività Attendi](../building-journeys/wait-activity.md#profile-refresh)
 
 * Utilizza l’attività **Condizione** in un percorso per generare condizioni basate sull’iscrizione al pubblico. [Scopri come utilizzare i tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
-* Utilizza l&#39;attività evento **Qualificazione del pubblico** in un percorso per consentire ai singoli utenti di entrare o proseguire nel percorso in base alle entrate e alle uscite del pubblico Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviare loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, fai riferimento a [Scopri come configurare un’attività di qualificazione del pubblico](../building-journeys/audience-qualification-events.md).
+* Utilizza l&#39;attività evento **Qualificazione del pubblico** in un percorso per consentire ai singoli utenti di entrare o proseguire nel percorso in base alle entrate e alle uscite del pubblico Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviare loro messaggi. [Scopri come configurare un&#39;attività di qualificazione del pubblico](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
   >A causa della natura batch dei tipi di pubblico creati utilizzando flussi di lavoro di composizione, caricamento personalizzato o composizione di pubblico federato, non puoi indirizzare questi tipi di pubblico in un’attività &quot;Qualificazione del pubblico&quot;. Solo i tipi di pubblico creati utilizzando le definizioni dei segmenti possono essere utilizzati in questa attività.
+
+## Attivazione di tipi di pubblico non supportati in [!DNL Journey Optimizer]
+
+Solo i tipi di pubblico creati nel portale del pubblico possono essere indirizzati direttamente in [!DNL Journey Optimizer] percorsi e campagne. [Ulteriori informazioni sui tipi di pubblico disponibili](../audience/about-audiences.md#types).
+
+Se devi eseguire il targeting dei profili di un pubblico non supportato, ad esempio un pubblico di Customer Journey Analytics, devi racchiuderli in una nuova definizione di segmento nel portale del pubblico. Informazioni dettagliate su come aggiungere tipi di pubblico in una definizione di segmento sono disponibili nella [documentazione di Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+
+Al termine, attendi che la valutazione della segmentazione sia completata per utilizzarla nei percorsi e nelle campagne.

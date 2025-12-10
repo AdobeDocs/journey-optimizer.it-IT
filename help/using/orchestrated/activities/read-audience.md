@@ -5,9 +5,9 @@ title: Utilizzare l’attività Leggi pubblico
 description: Scopri come utilizzare l’attività Read audience in una campagna orchestrata
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '662'
 ht-degree: 11%
 
 ---
@@ -52,7 +52,7 @@ Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Read audienc
 
 1. Immetti un&#39;etichetta **[!UICONTROL Label]** per l&#39;attività. Questa etichetta fungerà da nome del pubblico.
 
-1. Fai clic su ![icona di ricerca cartella](../assets/do-not-localize/folder-search.svg) per selezionare il pubblico di destinazione della campagna orchestrata.
+1. Fai clic su ![icona di ricerca cartella](../assets/do-not-localize/folder-search.svg) per selezionare il pubblico di destinazione della campagna orchestrata. [Ulteriori informazioni su come generare e indirizzare tipi di pubblico in Journey Optimizer](../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 
