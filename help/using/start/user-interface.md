@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -46,14 +46,14 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 **Gestione dei Percorsi** - Creazione e gestione delle esperienze cliente
 * **Campagne** - Crea messaggi una tantum o pianificati per tipi di pubblico specifici. [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 * **Percorsi** - Crea esperienze cliente in più passaggi tra canali. [Creare il primo percorso](../building-journeys/journey-gs.md)
-* **Rapporti** - Analizza le prestazioni con il reporting integrato di Customer Journey Analytics. [Visualizza la documentazione di reporting](../reports/campaign-global-report.md)
+* **Rapporti** - Analizza le prestazioni con il reporting integrato di Customer Journey Analytics. [Visualizza la documentazione di reporting](../reports/campaign-global-report-cja.md)
 
 **Gestione delle decisioni** - Gestire le offerte personalizzate. [Informazioni sulla gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
 * **Offerte** - Crea e gestisci offerte personalizzate
 * **Componenti** - Configura posizionamenti, regole e tag per le offerte
 
 **Gestione dei contenuti** - Crea e organizza contenuti
-* **Assets** - Archivio centralizzato per immagini e file multimediali. [Gestione delle risorse](../content-management/assets.md)
+* **Assets** - Archivio centralizzato per immagini e file multimediali. [Gestione delle risorse](../integrations/assets.md)
 * **Modelli di contenuto** - Modelli di messaggio riutilizzabili per campagne e percorsi. [Crea modelli](../content-management/content-templates.md)
 * **Frammenti** - Blocchi di contenuto che possono essere utilizzati in più messaggi. [Operazioni con frammenti](../content-management/fragments.md)
 * **Pagine di destinazione** - Moduli Web per abbonamenti e preferenze. [Progettazione di pagine di destinazione](../landing-pages/get-started-lp.md)
@@ -65,7 +65,7 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 * **Monitoraggio** - Traccia acquisizione dati
 
 **Connessioni** - Integrazione con altri sistemi
-* **Origini** - Acquisisce dati da sistemi esterni. [Configura origini](../data/get-started-sources.md)
+* **Origini** - Acquisisce dati da sistemi esterni. [Configura origini](get-started-sources.md)
 * **Destinazioni** - Esporta dati nell&#39;archiviazione cloud. [Impostare le destinazioni](../data/export-datasets.md)
 
 **Cliente** - Gestione di tipi di pubblico e profili
@@ -81,8 +81,8 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 * **Ciclo di vita dei dati** - Configurare la conservazione dei dati
 
 **Amministrazione** - Configura le impostazioni di sistema. [Panoramica sul controllo degli accessi](../administration/permissions-overview.md)
-* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali &#x200B;](../configuration/get-started-configuration.md)
-* **Regole aziendali** - Controlla la frequenza dei messaggi e l&#39;immissione di percorso. [Imposta regole business](../configuration/frequency-rules.md)
+* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali ](../configuration/get-started-configuration.md)
+* **Regole aziendali** - Controlla la frequenza dei messaggi e l&#39;immissione di percorso. [Imposta regole business](../conflict-prioritization/rule-sets.md)
 * **Avvisi** - Visualizza e gestisci gli avvisi di sistema. [Monitorare gli avvisi](../reports/alerts.md)
 * **Sandbox** - Gestisci gli ambienti e copia gli oggetti tra le sandbox. [Operazioni con le sandbox](../administration/sandboxes.md)
 * **Canali** - Configura impostazioni canale e recapito messaggi
