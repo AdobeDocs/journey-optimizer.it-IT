@@ -63,6 +63,6 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 Solo i tipi di pubblico creati nel portale del pubblico possono essere indirizzati direttamente in [!DNL Journey Optimizer] percorsi e campagne. [Ulteriori informazioni sui tipi di pubblico disponibili](../audience/about-audiences.md#types).
 
-Se devi eseguire il targeting dei profili di un pubblico non supportato, ad esempio un pubblico di Customer Journey Analytics, devi racchiuderli in una nuova definizione di segmento nel portale del pubblico. Informazioni dettagliate su come aggiungere tipi di pubblico in una definizione di segmento sono disponibili nella [documentazione di Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Se devi eseguire il targeting dei profili di un pubblico non supportato, ad esempio un pubblico di Customer Journey Analytics, devi racchiuderli in una nuova definizione di segmento nel portale del pubblico. Informazioni dettagliate su come aggiungere tipi di pubblico in una definizione di segmento sono disponibili nella [documentazione di Segment Builder](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Al termine, attendi che la valutazione della segmentazione sia completata per utilizzarla nei percorsi e nelle campagne.
