@@ -39,7 +39,7 @@ Adobe Journey Optimizer applica i dati e le informazioni provenienti da Adobe Ex
 * **Informazioni sui clienti** - I profili cliente in tempo reale consentono la segmentazione in tipi di pubblico per la messaggistica mirata. [Creare tipi di pubblico](../audience/about-audiences.md)
 * **Contenuto e offerte** - Strumenti per la creazione, la gestione e la personalizzazione dei contenuti; logica in tempo reale per selezionare l&#39;offerta migliore per ogni persona. [Progetta contenuto](../../rp_landing_pages/content-management-landing-page.md) | [Gestione offerte](../offers/get-started/starting-offer-decisioning.md)
 * **Gestione Percorsi e campagne** - Automatizza le sequenze di interazioni (percorsi) o pianifica messaggi con targeting occasionale (campagne). [percorsi di compilazione](../building-journeys/journey-gs.md) | [Crea campagne](../campaigns/get-started-with-campaigns.md)
-* **Consegna (connessioni)**: consegna messaggi tramite canali quali e-mail, SMS, notifiche push e direct mail; esporta dati in sistemi esterni. [Configurare i canali ](../configuration/get-started-configuration.md)
+* **Consegna (connessioni)**: consegna messaggi tramite canali quali e-mail, SMS, notifiche push e direct mail; esporta dati in sistemi esterni. [Configurare i canali &#x200B;](../configuration/get-started-configuration.md)
 * **Misurazione e analisi** - Tiene traccia del coinvolgimento del cliente e delle prestazioni della campagna con rapporti per un miglioramento continuo. [Visualizza report](../reports/campaign-global-report-cja.md)
 
 ### Ciclo di ottimizzazione continua {#optimization-cycle}
