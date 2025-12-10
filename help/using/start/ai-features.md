@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: c2e19786356ecf9604dc7f661c74a72cabcee6d4
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Fai clic sull’icona Assistente AI nella barra superiore per aprire il pannello
 4. Fai clic su **Mostra origini** per accedere alla documentazione correlata
 5. Utilizza i pollici su/giù per valutare la qualità della risposta
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="center"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
 [Ulteriori informazioni sull&#39;Assistente IA in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}
 
@@ -253,7 +253,7 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 ![Interfaccia playbook casi d&#39;uso](assets/playbooks-filter.png)
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
@@ -312,5 +312,5 @@ La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adob
 >* [Documentazione dell&#39;agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [Guida all&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md)
 >* [Crea modelli di classificazione IA](../experience-decisioning/ranking/create-ai-models.md)
->* [Documentazione sui playbook per casi d&#39;uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+>* [Documentazione sui playbook per casi d&#39;uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 

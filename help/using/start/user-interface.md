@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 33%
+source-wordcount: '1103'
+ht-degree: 34%
 
 ---
 
@@ -44,51 +44,49 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 **Home** - Punto di partenza con accesso rapido agli elementi creati di recente e alle risorse utili
 
 **Gestione dei Percorsi** - Creazione e gestione delle esperienze cliente
-* **Campagne** - Creazione di messaggi una tantum o pianificati per tipi di pubblico specifici
-* **Percorsi** - Crea esperienze cliente in più passaggi e cross-channel
-* **Rapporti** - Analizzare le prestazioni con il reporting integrato di Customer Journey Analytics
+* **Campagne** - Crea messaggi una tantum o pianificati per tipi di pubblico specifici. [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
+* **Percorsi** - Crea esperienze cliente in più passaggi tra canali. [Creare il primo percorso](../building-journeys/journey-gs.md)
+* **Rapporti** - Analizza le prestazioni con il reporting integrato di Customer Journey Analytics. [Visualizza la documentazione di reporting](../reports/campaign-global-report.md)
 
-**Gestione delle decisioni** - Gestire le offerte personalizzate
+**Gestione delle decisioni** - Gestire le offerte personalizzate. [Informazioni sulla gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
 * **Offerte** - Crea e gestisci offerte personalizzate
 * **Componenti** - Configura posizionamenti, regole e tag per le offerte
 
 **Gestione dei contenuti** - Crea e organizza contenuti
-* **Assets** - Archivio centralizzato per immagini e file multimediali
-* **Modelli di contenuto** - Modelli di messaggio riutilizzabili per campagne e percorsi
-* **Frammenti** - Blocchi di contenuto che possono essere utilizzati in più messaggi
-* **Pagine di destinazione** - Moduli web per abbonamenti e preferenze
+* **Assets** - Archivio centralizzato per immagini e file multimediali. [Gestione delle risorse](../content-management/assets.md)
+* **Modelli di contenuto** - Modelli di messaggio riutilizzabili per campagne e percorsi. [Crea modelli](../content-management/content-templates.md)
+* **Frammenti** - Blocchi di contenuto che possono essere utilizzati in più messaggi. [Operazioni con frammenti](../content-management/fragments.md)
+* **Pagine di destinazione** - Moduli Web per abbonamenti e preferenze. [Progettazione di pagine di destinazione](../landing-pages/get-started-lp.md)
 
-**Gestione dati** - Gestisci la base dati
+**Gestione dati** - Gestisci le tue basi dati. [Informazioni su schemi e set di dati](../data/get-started-schemas.md)
 * **Schemi** - Definire la struttura dati
 * **Set di dati** - Archivia e gestisci raccolte dati
 * **Query** - Scrittura ed esecuzione di query
 * **Monitoraggio** - Traccia acquisizione dati
 
 **Connessioni** - Integrazione con altri sistemi
-* **Origini** - Acquisisci dati da sistemi esterni
-* **Destinazioni** - Esporta dati nell&#39;archiviazione cloud
+* **Origini** - Acquisisce dati da sistemi esterni. [Configura origini](../data/get-started-sources.md)
+* **Destinazioni** - Esporta dati nell&#39;archiviazione cloud. [Impostare le destinazioni](../data/export-datasets.md)
 
 **Cliente** - Gestione di tipi di pubblico e profili
-* **Tipi di pubblico** - Crea e gestisci segmenti di clienti
-* **Elenchi di abbonamento** - Gestisci gli elenchi di consenso
-* **Profili** - Visualizza profili cliente unificati
-* **Identità** - Gestisci risoluzione identità
+* **Tipi di pubblico** - Crea e gestisci segmenti di clienti. [Utilizzare i tipi di pubblico](../audience/about-audiences.md)
+* **Elenchi di abbonamento** - Gestisci gli elenchi di consenso. [Gestire gli abbonamenti](../landing-pages/subscription-list.md)
+* **Profili** - Visualizza i profili cliente unificati. [Esplora i profili](../audience/get-started-profiles.md)
+* **Identità** - Gestisci risoluzione identità. [Informazioni sulle identità](../audience/get-started-identity.md)
 
-**Privacy** - Controlla privacy e conformità
+**Privacy** - Controlla la privacy e la conformità. [Panoramica sulla privacy](../privacy/get-started-privacy.md)
 * **Criteri** - Definisci i criteri di governance dei dati
 * **Richieste** - Gestione delle richieste di privacy (RGPD, CCPA)
-* **Audit** - Esamina i registri attività
+* **Audit** - Esamina i registri attività. [Visualizza registri di controllo](../privacy/audit-logs.md)
 * **Ciclo di vita dei dati** - Configurare la conservazione dei dati
 
-**Amministrazione** - Configura impostazioni di sistema
-* **Configurazioni** - Configura eventi, origini dati e azioni
-* **Regole aziendali** - Controlla la frequenza dei messaggi e la voce di percorso
-* **Avvisi** - Visualizza e gestisci gli avvisi di sistema
-* **Sandbox** - Gestisci ambienti e copia oggetti tra sandbox
+**Amministrazione** - Configura le impostazioni di sistema. [Panoramica sul controllo degli accessi](../administration/permissions-overview.md)
+* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali ](../configuration/get-started-configuration.md)
+* **Regole aziendali** - Controlla la frequenza dei messaggi e l&#39;immissione di percorso. [Imposta regole business](../configuration/frequency-rules.md)
+* **Avvisi** - Visualizza e gestisci gli avvisi di sistema. [Monitorare gli avvisi](../reports/alerts.md)
+* **Sandbox** - Gestisci gli ambienti e copia gli oggetti tra le sandbox. [Operazioni con le sandbox](../administration/sandboxes.md)
 * **Canali** - Configura impostazioni canale e recapito messaggi
 * **Tag** - Organizzazione e categorizzazione del contenuto
-
-[Per ulteriori informazioni su ciascuna funzionalità, consulta la documentazione dettagliata delle funzioni.](#feature-links)
 
 ## Funzioni barra superiore {#top-bar}
 
@@ -159,20 +157,6 @@ L’Assistente AI fornisce assistenza immediata e informazioni operative. Fai cl
 * Navigare tra concetti e best practice
 
 [Ulteriori informazioni sull’Assistente IA](ai-features.md#ai-assistant)
-
-## Collegamenti dettagliati alle funzioni {#feature-links}
-
-Per la documentazione completa su ciascuna funzionalità:
-
-* **Percorsi** - [Crea il tuo primo percorso](../building-journeys/journey-gs.md)
-* **Campagne** - [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
-* **Offerte e decisioni** - [Gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
-* **Creazione di contenuti** - [Progettazione e-mail](../email/get-started-email-design.md)
-* **Tipi di pubblico** - [Gestione dell&#39;audience](../audience/about-audiences.md)
-* **Configurazione canale** - [Configurazione canali](../configuration/get-started-configuration.md)
-* **Gestione dati** - [Operazioni con schemi](../data/get-started-schemas.md)
-* **Privacy e governance** - [Panoramica sulla privacy](../privacy/get-started-privacy.md)
-* **Amministrazione** - [Controllo degli accessi](../administration/permissions-overview.md)
 
 ## Argomenti correlati {#related-topics}
 
