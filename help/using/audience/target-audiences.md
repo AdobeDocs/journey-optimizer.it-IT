@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 22%
+source-wordcount: '667'
+ht-degree: 21%
 
 ---
 
@@ -49,9 +49,7 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 * Utilizza un&#39;attività di orchestrazione **Read audience** in un percorso per fare in modo che tutti i singoli utenti del pubblico entrino nel percorso e ricevano i messaggi inclusi nel percorso. Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare in modo che tutti i clienti silver entrino in un percorso e inviare loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi pubblico](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  >[!NOTE]
-  >
-  >Qualsiasi percorso che utilizza un pubblico dalla composizione del pubblico o dal caricamento personalizzato nell’attività &quot;Read Audience&quot; (Leggi pubblico) avrà attributi di profilo aggiornati come l’ultima valutazione batch. Ciò include il consenso/la soppressione nel percorso.
+  Per i percorsi che utilizzano tipi di pubblico da composizione del pubblico o caricamento personalizzato, gli attributi del profilo sono aggiornati quanto l’ultima valutazione batch all’ingresso del percorso. Tuttavia, dopo un&#39;attività **Wait**, il percorso aggiorna gli attributi del profilo da Unified Profile Service (UPS), recuperando i dati disponibili più recenti, il che significa che gli attributi del profilo possono cambiare durante l&#39;esecuzione del percorso. [Ulteriori informazioni sull&#39;aggiornamento del profilo dopo un&#39;attività Attendi](../building-journeys/wait-activity.md#profile-refresh)
 
 * Utilizza l’attività **Condizione** in un percorso per generare condizioni basate sull’iscrizione al pubblico. [Scopri come utilizzare i tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
 

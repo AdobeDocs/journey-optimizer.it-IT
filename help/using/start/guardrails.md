@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '3530'
-ht-degree: 94%
+source-wordcount: '3575'
+ht-degree: 92%
 
 ---
 
@@ -319,6 +319,7 @@ All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono el
 All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
+* All’ingresso del percorso, i profili utilizzano i valori degli attributi dello snapshot del pubblico batch. Tuttavia, quando un profilo raggiunge un’attività **Wait**, il percorso aggiorna automaticamente gli attributi del profilo recuperando i dati più recenti da Unified Profile Service (UPS). Ciò significa che gli attributi del profilo possono cambiare durante l’esecuzione del percorso.
 * Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I nuovi tentativi verranno eseguiti dal sistema, ma evita di creare più di cinque percorsi (con l’attività **Leggi pubblico**, programmata o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
 * L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
