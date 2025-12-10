@@ -2,239 +2,184 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Interfaccia utente
-description: Scopri di più sull’interfaccia utente di Journey Optimizer
+description: Scopri come navigare nell’interfaccia di Adobe Journey Optimizer
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1894'
-ht-degree: 100%
+source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 33%
 
 ---
 
-# Interfaccia utente {#cjm-user-interface}
+# Navigare nell’interfaccia {#user-interface}
 
-Per accedere a [!DNL Adobe Journey Optimizer], connettiti a [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID e seleziona [!DNL Journey Optimizer].
-
-I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target="_blank"}.
-
+Per accedere a Adobe Journey Optimizer, accedi a [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID, quindi seleziona [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
->
->* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
->
+>* I componenti e le funzionalità disponibili nell&#39;ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+>* Questa documentazione viene aggiornata frequentemente. Alcune schermate potrebbero essere leggermente diverse dall’interfaccia.
 
-## Pannello di navigazione a sinistra {#left-nav}
+## Presentazione rapida {#quick-tour}
 
-Sfoglia i collegamenti a sinistra per accedere alle funzionalità di [!DNL Journey Optimizer].
+L&#39;interfaccia di Journey Optimizer è costituita da quattro aree principali:
 
 ![](assets/ajo-home.png)
 
->[!NOTE]
->
->Le funzionalità disponibili possono variare a seconda delle autorizzazioni e del contratto di licenza.
+1. **Navigazione a sinistra** - Accedi a tutte le funzionalità organizzate per funzione
+2. **Barra superiore** - Ricerca universale, Guida, notifiche e impostazioni
+3. **Home page** - Accesso rapido a elementi recenti e risorse utili
+4. **Area di lavoro principale** - Dove creare e gestire i contenuti
 
-Di seguito è riportato l’elenco completo dei servizi e delle funzionalità disponibili nella barra a sinistra, con i collegamenti alle relative pagine di assistenza.
+## Navigazione a sinistra {#left-nav}
 
-### Home {#left-nav-home}
+Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono organizzate in categorie funzionali. Le voci di menu disponibili dipendono dalle autorizzazioni e dalla licenza.
 
-La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiave per iniziare.
+### Sezioni principali {#main-sections}
 
-L’elenco **[!UICONTROL Recenti]** fornisce collegamenti agli eventi e ai percorsi creati di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
+**Home** - Punto di partenza con accesso rapido agli elementi creati di recente e alle risorse utili
 
-Sfoglia i casi d’uso accessibili dal prodotto per iniziare a creare risorse e messaggi. [Ulteriori informazioni](#in-product-use-cases).
+**Gestione dei Percorsi** - Creazione e gestione delle esperienze cliente
+* **Campagne** - Creazione di messaggi una tantum o pianificati per tipi di pubblico specifici
+* **Percorsi** - Crea esperienze cliente in più passaggi e cross-channel
+* **Rapporti** - Analizzare le prestazioni con il reporting integrato di Customer Journey Analytics
 
-Utilizza i collegamenti nella parte inferiore della pagina Home per scoprire come iniziare con [!DNL Journey Optimizer]. [Ulteriori informazioni](#find-help-and-support).
+**Gestione delle decisioni** - Gestire le offerte personalizzate
+* **Offerte** - Crea e gestisci offerte personalizzate
+* **Componenti** - Configura posizionamenti, regole e tag per le offerte
 
-### [!UICONTROL GESTIONE PERCORSI] {#left-nav-journey}
+**Gestione dei contenuti** - Crea e organizza contenuti
+* **Assets** - Archivio centralizzato per immagini e file multimediali
+* **Modelli di contenuto** - Modelli di messaggio riutilizzabili per campagne e percorsi
+* **Frammenti** - Blocchi di contenuto che possono essere utilizzati in più messaggi
+* **Pagine di destinazione** - Moduli web per abbonamenti e preferenze
 
-Crea campagne e percorsi da questa sezione.
+**Gestione dati** - Gestisci la base dati
+* **Schemi** - Definire la struttura dati
+* **Set di dati** - Archivia e gestisci raccolte dati
+* **Query** - Scrittura ed esecuzione di query
+* **Monitoraggio** - Traccia acquisizione dati
 
-* **[!UICONTROL Campagne]**: crea, configura e gestisci campagne per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md)
+**Connessioni** - Integrazione con altri sistemi
+* **Origini** - Acquisisci dati da sistemi esterni
+* **Destinazioni** - Esporta dati nell&#39;archiviazione cloud
 
-* **[!UICONTROL Percorsi]**: crea, configura e gestisci i percorsi dei clienti combinando gli eventi, le attività di orchestrazione e di azione per creare scenari cross-channel con più passaggi. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
+**Cliente** - Gestione di tipi di pubblico e profili
+* **Tipi di pubblico** - Crea e gestisci segmenti di clienti
+* **Elenchi di abbonamento** - Gestisci gli elenchi di consenso
+* **Profili** - Visualizza profili cliente unificati
+* **Identità** - Gestisci risoluzione identità
 
-* **[!UICONTROL Rapporti]**: la funzione di reporting di Journey Optimizer è ora completamente integrata con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione ottimizzata tra Journey Optimizer e Customer Journey Analytics consente una visione più chiara delle metriche delle prestazioni, a supporto di decisioni più informate. [Ulteriori informazioni](../reports/report-gs-cja.md)
+**Privacy** - Controlla privacy e conformità
+* **Criteri** - Definisci i criteri di governance dei dati
+* **Richieste** - Gestione delle richieste di privacy (RGPD, CCPA)
+* **Audit** - Esamina i registri attività
+* **Ciclo di vita dei dati** - Configurare la conservazione dei dati
 
+**Amministrazione** - Configura impostazioni di sistema
+* **Configurazioni** - Configura eventi, origini dati e azioni
+* **Regole aziendali** - Controlla la frequenza dei messaggi e la voce di percorso
+* **Avvisi** - Visualizza e gestisci gli avvisi di sistema
+* **Sandbox** - Gestisci ambienti e copia oggetti tra sandbox
+* **Canali** - Configura impostazioni canale e recapito messaggi
+* **Tag** - Organizzazione e categorizzazione del contenuto
 
-### [!UICONTROL GESTIONE DECISIONI] {#left-nav-decision}
+[Per ulteriori informazioni su ciascuna funzionalità, consulta la documentazione dettagliata delle funzioni.](#feature-links)
 
-Crea offerte e componenti da questa sezione.
+## Funzioni barra superiore {#top-bar}
 
-* **[!UICONTROL Offerte]**: accedi alle origini e ai set di dati recenti da questo menu. Usa questa sezione per creare nuove offerte. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md)
+### Ricerca universale {#search}
 
-* **[!UICONTROL Componenti]**: crea posizionamenti, regole e tag. [Ulteriori informazioni](../offers/offer-library/key-steps.md)
+Utilizza l’icona di ricerca per trovare rapidamente percorsi, campagne, risorse e altri oggetti in Journey Optimizer. Digita parole chiave per visualizzare i risultati rilevanti da tutte le aree della piattaforma.
 
-### [!UICONTROL GESTIONE DEI CONTENUTI] {#left-nav-content}
+### Guida e supporto {#help}
 
-Crea e gestisci i contenuti di questa sezione.
+Fai clic sull&#39;icona **Guida** per:
+* Cerca articoli e video della guida
+* Accedi all’aiuto contestuale per la pagina corrente
+* Contatta il supporto Adobe
+* Condividi feedback
 
-* **[!UICONTROL Risorse]**: [!DNL Adobe Experience Manager Assets] è un archivio centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../integrations/assets.md)
+![Esempio di aiuto contestuale](assets/do-not-localize/Context-help.gif)
 
-* **[!UICONTROL Modelli di contenuto]**: per una progettazione più rapida e migliorata, crea modelli autonomi per riutilizzare facilmente i contenuti personalizzati nelle campagne e nei percorsi di Journey Optimizer. [Ulteriori informazioni](../content-management/content-templates.md)
+### Notifiche {#notifications}
 
-* **[!UICONTROL Frammenti]**: crea e gestisci frammenti per semplificare il processo di progettazione delle e-mail precompilando blocchi di contenuto personalizzati che possono essere utilizzati per assemblare rapidamente i contenuti delle e-mail. [Ulteriori informazioni](../content-management/fragments.md)
+Abilita le notifiche interne al prodotto e via e-mail per rimanere informato su:
+* **Avvisi** - Errori di sistema e problemi di prestazioni
+* **Approvazioni** - Richieste che richiedono la revisione
+* **Nuove versioni** - Aggiornamenti del prodotto e nuove funzioni
 
-* **[!UICONTROL Pagine di destinazione]**: crea, progetta, testa e pubblica pagine di destinazione per inviare agli utenti i collegamenti ai moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a servizi specifici. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+Per configurare le notifiche:
 
+1. Fai clic sull&#39;icona del tuo profilo e seleziona **[!UICONTROL Preferenze]**
+2. In **[!UICONTROL Notifiche]**, individua **[!UICONTROL Journey Optimizer]**
+3. Abilita i tipi di notifica che desideri ricevere
 
-### [!UICONTROL GESTIONE DATI] {#left-nav-data}
+![Preferenze di notifica](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-Gestisci i dati da questa sezione.
+### Preferenze lingua {#language}
 
-* **[!UICONTROL Schemi]**: utilizza Adobe Experience Platform per creare e gestire gli schemi Experience Data Model (XDM) in un’area di lavoro visiva e interattiva, denominata Editor di schema. [Ulteriori informazioni](../data/get-started-schemas.md)
+L’interfaccia è disponibile in inglese, francese, tedesco, italiano, spagnolo, portoghese (brasiliano), giapponese, coreano, cinese tradizionale e cinese semplificato.
 
-* **[!UICONTROL Set di dati]**: tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). [Ulteriori informazioni](../data/get-started-datasets.md)
+Per cambiare lingua:
 
-* **[!UICONTROL Query]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](../data/get-started-queries.md)
+1. Fai clic su **Preferenze** nel menu del tuo profilo
+2. Seleziona la lingua preferita
+3. Facoltativamente, seleziona una seconda lingua come fallback
+4. Fai clic su **Salva**
 
-* **[!UICONTROL Monitoraggio]**: usa questo menu per monitorare l’acquisizione dei dati nell’interfaccia utente di Adobe Experience Platform. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target="_blank"}
+## Home page {#home-page}
 
-### [!UICONTROL CONNESSIONI] {#left-nav-connections}
+La home page fornisce:
 
-In questa sezione puoi gestire le connessioni dati con altre app e altri cloud.
+* **Recenti** - Collegamenti a eventi, percorsi, campagne e altri oggetti creati di recente
+* **Casi d&#39;uso** - Scenari predefiniti per iniziare rapidamente (creazione di profili di test, invio di messaggi di compleanno, ecc.)
+* **Risorse** - Collegamenti a documentazione, tutorial e supporto
 
-* **[!UICONTROL Origini]**: utilizza questo menu per acquisire i dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e altro ancora. Puoi strutturare, etichettare e migliorare i dati in arrivo. [Ulteriori informazioni](get-started-sources.md)
+### Casi d’uso interni al prodotto {#use-cases}
 
-* **[!UICONTROL Destinazioni]**: utilizza questo menu per creare una connessione in tempo reale con le posizioni di archiviazione cloud per esportare il contenuto dei set di dati. [Ulteriori informazioni](../data/export-datasets.md)
+I flussi di lavoro con avvio rapido consentono di eseguire attività comuni:
 
-### [!UICONTROL CLIENTE] {#left-nav-customers}
+* **Crea profili di test** - Genera profili di test utilizzando modelli CSV
+* **Invia messaggi di compleanno** - Invia automaticamente e-mail di compleanno (presto disponibili)
+* **Nuovi clienti integrati** - Serie di benvenuto per i nuovi clienti (disponibile a breve)
+* **Invia notifiche push agli elenchi importati** - Notifiche push rapide dai dati CSV (presto disponibili)
 
-Gestisci i tuoi tipi di pubblico e i dati del profilo da questa sezione.
-
-* **[!UICONTROL Tipi di pubblico]**: crea e gestisci tipi di pubblico di Experience Platform e sfruttali nei percorsi. [Ulteriori informazioni](../audience/about-audiences.md)
-
-* **[!UICONTROL Elenchi di abbonamenti]**: in [!DNL Journey Optimizer], i clienti che hanno acconsentito a un servizio in abbonamento vengono riuniti in un elenco abbonamenti. [Ulteriori informazioni](../landing-pages/subscription-list.md)
-
-* **[!UICONTROL Profili]**: Il profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei singoli clienti, combinando dati provenienti da più canali tra cui dati online, offline, del sistema CRM e di terze parti. [Ulteriori informazioni](../audience/get-started-profiles.md)
-
-* **[!UICONTROL Identità]**: Adobe Experience Platform Identity Service gestisce l’identificazione dei clienti in tempo quasi reale tra dispositivi e canali diversi, in quello che viene definito un grafo di identità in Adobe Experience Platform. [Ulteriori informazioni](../audience/get-started-identity.md)
-
-### [!UICONTROL PRIVACY] {#left-nav-privacy}
-
-Controlla la gestione della privacy e le richieste da questa sezione.
-
-* **[!UICONTROL Criteri]**: Adobe Experience Platform consente di etichettare i campi e creare azioni di marketing per ogni canale. Puoi quindi definire un criterio di governance collegato a un’etichetta e a un’azione di marketing. [Ulteriori informazioni](../action/action-privacy.md)
-
-* **[!UICONTROL Richieste]**: le richieste di privacy sono gestite in Adobe Experience Platform Privacy Service. Fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati della clientela. [Ulteriori informazioni](../privacy/requests.md)
-
-* **[!UICONTROL Audit]**: passa a questa sezione per verificare i registri delle attività. [Ulteriori informazioni](../privacy/audit-logs.md)
-
-* **[!UICONTROL Ciclo di vita dei dati]**: questa sezione ti consente di configurare e pianificare le operazioni relative al ciclo di vita dei dati, per una corretta manutenzione dei record. [Ulteriori informazioni](../privacy/data-hygiene.md)
-
-### [!UICONTROL AMMINISTRAZIONE] {#left-nav-admin}
-
-* **[!UICONTROL Configurazioni]**: utilizza questo menu per configurare [eventi](../event/about-events.md), [origini dati](../datasource/about-data-sources.md) e [azioni](../action/action.md) da utilizzare nei percorsi.
-
-  È inoltre possibile accedere alla sezione **Reporting** per configurare i rapporti per la sperimentazione delle campagne e per web o dispositivi mobili. [Ulteriori informazioni](../reports/reporting-configuration.md)
-
-* **[!UICONTROL Regole di business]**: utilizza questa sezione per creare regole di frequenza cross-channel e controllare la frequenza con cui gli utenti ricevono un messaggio o entrano in un percorso. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md)
-
-* **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](../reports/alerts.md)
-
-* **[!UICONTROL Sandbox]**: Adobe Experience Platform fornisce sandbox che suddividono una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Inoltre, [!DNL Journey Optimizer] consente di utilizzare le funzionalità di esportazione e importazione dei pacchetti per copiare oggetti quali percorsi, modelli di contenuto o frammenti in più sandbox. [Ulteriori informazioni](../administration/sandboxes.md)
-
-* **[!UICONTROL Canali]**: utilizza questa sezione per configurare i canali, inclusi i sottodomini, le configurazioni e le impostazioni di recapitabilità. [Ulteriori informazioni](../configuration/get-started-configuration.md)
-
-* **[!UICONTROL Tag]**: con i Tag unificati, è possibile classificare facilmente i percorsi e le campagne per migliorare la ricerca dagli elenchi. [Ulteriori informazioni](../start/search-filter-categorize.md#manage-tags)
-
-## Casi d’uso accessibili dal prodotto {#in-product-uc}
-
-Dalla pagina home page di [!DNL Adobe Journey Optimizer], i casi d’uso dei prodotti forniscono un input rapido per la creazione di profili di test o il primo percorso della clientela.
-
-![](assets/use-cases-home.png)
-
-+++ **Casi d’uso disponibili**
-
-I casi di utilizzo disponibili sono:
-
-* **Creare profili di test**, per creare profili di test utilizzando il modello CSV per sperimentare messaggi e percorsi personalizzati. Scopri come implementare questo caso d’uso [in questa pagina](../audience/creating-test-profiles.md#use-case-1).
-* **Inviare un messaggio di compleanno ai clienti**, per inviare automaticamente un’e-mail ai clienti in occasione del loro compleanno. (disponibile a breve)
-* **Invia e-mail per accogliere i nuovi clienti**, per inviare facilmente fino a due e-mail per dare il benvenuto ai clienti appena registrati. (disponibile a breve)
-* **Inviare messaggi push a un elenco importato dei clienti**, per inviare rapidamente una notifica push a un elenco di clienti importati da un file CSV. (disponibile a breve)
-
-+++
-
-Per ulteriori informazioni su ogni caso d’uso, fai clic sul collegamento **[!UICONTROL Visualizza dettagli]**.
-
-Per eseguire un caso d’uso, fai clic sul pulsante **[!UICONTROL Inizia]**.
-
-Puoi accedere ai casi d’uso eseguiti dal pulsante **[!UICONTROL Visualizza libreria]**.
-
-## Assistenza e supporto {#find-help}
-
-Dalla sezione inferiore della pagina Home puoi accedere alle pagine importanti della guida di Adobe Journey Optimizer.
-
-Utilizza l’icona **Aiuto** per accedere alle pagine della guida, contattare il supporto e condividere un tuo feedback. Puoi cercare articoli e video di supporto dal campo di ricerca.
-
-![](assets/ajo-help.png)
-
-In ogni pagina, utilizza i pulsanti di aiuto contestuali per ulteriori informazioni su una funzione e naviga nella documentazione di **[!DNL Adobe Experience League]**.
-
-![](assets/do-not-localize/Context-help.gif)
-
-
-## Notifiche interne al prodotto {#in-product-notifications}
-
-È possibile abilitare **avvisi interni al prodotto e tramite e-mail** per ricevere notifiche su diversi eventi che potrebbero essere di tuo interesse: errori rilevati dal sistema, richieste di approvazione e/o versioni del prodotto [!DNL Journey Optimizer].
-
-Per abilitare queste notifiche, segui la procedura indicata di seguito.
-
-1. Passa a [!DNL Adobe Experience Cloud] **[!UICONTROL Preferenze]**.
-1. In **[!UICONTROL Notifiche]**, individua **[!UICONTROL Journey Optimizer]**.
-1. Abilita le notifiche in-app e/o e-mail nel modo desiderato:
-
-   * **[!UICONTROL Avvisi]**: quando si verifica un errore, puoi ricevere notifiche di sistema per gli avvisi di cui disponi dell’abbonamento. [Ulteriori informazioni](../reports/alerts.md)
-   * **[!UICONTROL Approvazioni]**: ricevi una notifica quando qualcuno ti chiede di approvare un oggetto o di accedervi.
-   * **[!UICONTROL Nuove versioni]**: vengono fornite informazioni su nuove versioni del prodotto [!DNL Journey Optimizer].
-
-![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+Fai clic su **[!UICONTROL Visualizza dettagli]** per ulteriori informazioni su ogni caso d&#39;uso, oppure su **[!UICONTROL Inizia]** per iniziare.
 
 ## Assistente IA {#ai-assistant}
 
-L’Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
+L’Assistente AI fornisce assistenza immediata e informazioni operative. Fai clic sull’icona Assistente IA nella barra superiore per:
+* Ottieni risposte sulle funzionalità del prodotto
+* Ricevi informazioni operative sui tuoi percorsi
+* Navigare tra concetti e best practice
 
-Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L’Assistente IA viene visualizzato nella sezione destra della schermata.
+[Ulteriori informazioni sull’Assistente IA](ai-features.md#ai-assistant)
 
-Per informazioni su come accedere all’Assistente IA e utilizzarlo, visita [questa pagina](ai-assistant.md).
+## Collegamenti dettagliati alle funzioni {#feature-links}
 
-## Preferenze di lingua {#language-pref}
+Per la documentazione completa su ciascuna funzionalità:
 
-L’interfaccia utente è disponibile nelle seguenti lingue:
+* **Percorsi** - [Crea il tuo primo percorso](../building-journeys/journey-gs.md)
+* **Campagne** - [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
+* **Offerte e decisioni** - [Gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
+* **Creazione di contenuti** - [Progettazione e-mail](../email/get-started-email-design.md)
+* **Tipi di pubblico** - [Gestione dell&#39;audience](../audience/about-audiences.md)
+* **Configurazione canale** - [Configurazione canali](../configuration/get-started-configuration.md)
+* **Gestione dati** - [Operazioni con schemi](../data/get-started-schemas.md)
+* **Privacy e governance** - [Panoramica sulla privacy](../privacy/get-started-privacy.md)
+* **Amministrazione** - [Controllo degli accessi](../administration/permissions-overview.md)
 
-* Inglese
-* Francese
-* Tedesco
-* Italiano
-* Spagnolo
-* Portoghese (brasiliano)
-* Giapponese
-* Coreano
-* Cinese tradizionale
-* Cinese semplificato
+## Argomenti correlati {#related-topics}
 
-La lingua predefinita dell’interfaccia è determinata dalla lingua preferita specificata nel profilo utente.
-
-+++ **Come cambiare lingua**
-
-Per cambiare la lingua, segui questi passaggi:
-
-1. Fai clic su **Preferenze** dal tuo avatar, in alto a destra.
-   ![](assets/preferences.png)
-1. Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail
-1. Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
-   ![](assets/select-language.png)
-
-+++
-
-## Ulteriori informazioni {#more}
-
-Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto con domande specifiche? Sei l’amministratore dell’istanza aziendale? [Segui il tuo percorso per raggiungere più velocemente i tuoi obiettivi](quick-start.md).
+* [Scegli il percorso di apprendimento in base al ruolo](quick-start.md)
+* [Cercare, filtrare e classificare i contenuti](search-filter-categorize.md)
+* [Come funziona Journey Optimizer](understanding-ajo.md)
+* [Funzioni di accessibilità](accessibility.md)
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->

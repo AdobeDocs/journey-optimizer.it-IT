@@ -5,9 +5,9 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: afa3c88093b7a3802b98aee1ed391a519499ccc2
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Nuove pagine
 
-- [Funzionalità IA in Adobe Journey Optimizer](help/rp_landing_pages/ai-capabilities-landing-page.md) - 31 ottobre
+- [IA e funzionalità intelligenti in Adobe Journey Optimizer](help/using/start/ai-features.md) - 31 ottobre
 - [Gestisci le preferenze dei tuoi clienti](help/using/action/preference-center.md) - 24 ottobre
 - [Rapporto Percorso](help/using/action/reporting.md) - 29 ottobre
 - [Riferimento codici errore](help/using/building-journeys/error-codes-reference.md) - 27 ottobre

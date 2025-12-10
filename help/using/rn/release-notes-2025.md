@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -852,7 +852,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale sono stati introdotti i seguenti miglioramenti:</p>
 <ul>
 <li>Supporto esteso: gli strumenti per la gestione dei conflitti ora supportano sia i percorsi unitari che i percorsi di qualificazione di un pubblico, oltre ai percorsi Leggi pubblico.</li>
-<li>Risoluzione dei problemi migliorata: nel servizio query sono ora disponibili due nuovi campi evento del passaggio che consentono di analizzare il motivo per cui un profilo è stato rifiutato da un percorso o da una campagna.</li>
+<li>Risoluzione dei problemi migliorata: nel servizio Query Service sono ora disponibili due nuovi campi evento del passaggio che consentono di analizzare il motivo per cui un profilo è stato rifiutato da un percorso o da una campagna.</li>
 <li>Rapporti migliorati: i rapporti ora indicano la regola specifica che ha determinato l’esclusione di un profilo da un percorso o da una campagna, fornendo maggiore trasparenza e informazioni actionable.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p>
@@ -1403,7 +1403,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 **Usare i playbook sui casi d’uso**
 
-* **Creazione e condivisione di playbook (Private Beta)**: ora puoi creare, gestire e condividere i playbook personalizzati per i casi d’uso. Questa funzionalità è attualmente disponibile in versione Private Beta solo per alcune organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/playbooks.md)
+* **Creazione e condivisione di playbook (Private Beta)**: ora puoi creare, gestire e condividere i playbook personalizzati per i casi d’uso. Questa funzionalità è attualmente disponibile in versione Private Beta solo per alcune organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/ai-features.md#playbooks)
 
 **Navigazione**
 

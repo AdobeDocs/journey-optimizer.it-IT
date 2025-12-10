@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
 + Introduzione {#get-started}
    + [Introduzione](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Funzionalità chiave](using/start/get-started.md)
-   + [Architettura](using/start/architecture-concepts-redpen.md)
-   + [Concetti di base](using/start/functional-areas-redpen.md)
-   + [Terminologia chiave](using/start/terminology-md-redpen.md)
-   + Ruoli e responsabilità {#quick-start}
-      + [Panoramica](using/start/quick-start.md)
+   + Elementi di base {#essentials}
+      + [Cos’è Journey Optimizer?](using/start/get-started.md)
+      + [Comprendere come funziona](using/start/understanding-ajo.md)
+      + [Terminologia chiave](using/start/terminology.md)
+      + [Guardrail e limitazioni](using/start/guardrails.md)
+   + Introduzione per ruolo {#by-role}
+      + [Scegli il tuo percorso di apprendimento](using/start/quick-start.md)
       + [Introduzione per addetti marketing](using/start/path/marketer.md)
-      + [Introduzione per Data Engineer](using/start/path/data-engineer.md)
+      + [Introduzione al ruolo di Data Engineer](using/start/path/data-engineer.md)
       + [Introduzione per amministratori](using/start/path/administrator.md)
       + [Introduzione per sviluppatori](using/start/path/developer.md)
-   + Interfaccia utente {#ui}
-      + [Introduzione all’interfaccia](using/start/user-interface.md)
-      + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
+   + Lavorare in modo efficiente {#work-efficiently}
+      + [Navigare nell’interfaccia](using/start/user-interface.md)
+      + [Cerca, filtra e organizza](using/start/search-filter-categorize.md)
+      + [Funzioni intelligenti e AI](using/start/ai-features.md)
       + [Accessibilità](using/start/accessibility.md)
-   + [Utilizza l’Assistente IA](using/start/ai-assistant.md)
-   + [Funzionalità IA in AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [Playbook di casi d’uso](using/start/playbooks.md)
-   + [Guardrail e limitazioni](using/start/guardrails.md)
 + Percorsi {#orchestrate-journeys}
    + [Percorsi](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
@@ -826,7 +824,7 @@ ht-degree: 99%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
