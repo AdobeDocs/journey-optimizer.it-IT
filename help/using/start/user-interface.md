@@ -81,7 +81,7 @@ Nella barra di navigazione a sinistra le funzionalità di Journey Optimizer sono
 * **Ciclo di vita dei dati** - Configurare la conservazione dei dati
 
 **Amministrazione** - Configura le impostazioni di sistema. [Panoramica sul controllo degli accessi](../administration/permissions-overview.md)
-* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali ](../configuration/get-started-configuration.md)
+* **Configurazioni** - Configura eventi, origini dati e azioni. [Configurare i canali &#x200B;](../configuration/get-started-configuration.md)
 * **Regole aziendali** - Controlla la frequenza dei messaggi e l&#39;immissione di percorso. [Imposta regole business](../configuration/frequency-rules.md)
 * **Avvisi** - Visualizza e gestisci gli avvisi di sistema. [Monitorare gli avvisi](../reports/alerts.md)
 * **Sandbox** - Gestisci gli ambienti e copia gli oggetti tra le sandbox. [Operazioni con le sandbox](../administration/sandboxes.md)
