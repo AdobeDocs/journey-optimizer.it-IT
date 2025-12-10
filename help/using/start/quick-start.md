@@ -94,7 +94,7 @@ Fai clic sul tuo ruolo qui sotto per accedere a istruzioni specifiche su misura 
 
 Per ulteriori informazioni sugli utenti tipo e sulle funzionalità chiave di Journey Optimizer, guarda il video introduttivo. Il video illustra l’interfaccia utente ed evidenzia le funzioni chiave in base ai flussi di lavoro specifici dei ruoli.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
 
 ## Risorse aggiuntive
 
