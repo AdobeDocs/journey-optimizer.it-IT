@@ -253,7 +253,7 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 ![Interfaccia playbook casi d&#39;uso](assets/playbooks-filter.png)
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
@@ -312,5 +312,5 @@ La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adob
 >* [Documentazione dell&#39;agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [Guida all&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md)
 >* [Crea modelli di classificazione IA](../experience-decisioning/ranking/create-ai-models.md)
->* [Documentazione sui playbook per casi d&#39;uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+>* [Documentazione sui playbook per casi d&#39;uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
 
