@@ -1,13 +1,13 @@
 ---
 title: Creare un elemento di decisione
 description: Scopri come creare un elemento di decisione utilizzando l’API della Libreria di offerte.
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e60b0eec-29bc-4411-9eab-08eaf738fc79
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 8%
