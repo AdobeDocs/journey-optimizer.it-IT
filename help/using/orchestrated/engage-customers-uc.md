@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Coinvolgi i clienti tramite l’attività di navigazione
 description: Coinvolgi i clienti tramite l’attività di navigazione
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schemi necessari per questo caso d&#39;uso:**
 

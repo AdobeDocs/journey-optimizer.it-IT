@@ -4,10 +4,10 @@ product: journey optimizer
 title: Generare immagini con l’Assistente AI
 description: Scopri come generare le immagini con l’Assistente AI in Journey Optimizer.
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 6%

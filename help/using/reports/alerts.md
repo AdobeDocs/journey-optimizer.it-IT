@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Accedere e iscriversi agli avvisi di sistema
 description: Scopri come accedere e abbonarti agli avvisi di sistema
-feature: Journeys, Alerts
+feature: Journeys, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 2%
@@ -75,7 +75,7 @@ Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le ca
 
 1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [](#journey-alerts).
 
 ### Abbonamento unitario {#unitary-subscription}
 
@@ -91,7 +91,7 @@ Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, e
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
