@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+source-git-commit: 4847276532155a698cf997e22a0894c737208595
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 3%
+source-wordcount: '1479'
+ht-degree: 4%
 
 ---
 
@@ -70,32 +70,38 @@ Basandosi sulle funzionalità di conversazione dell’Assistente all’intellige
 
 L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
 
-**Funzionalità chiave:**
++++**Funzionalità chiave**
 
 * **Analisi dell&#39;abbandono dei Percorsi** - Identifica dove e perché i clienti abbandonano durante i percorsi, rileva i pattern di disimpegno
 * **Rilevamento sovrapposizione pubblico** - Analizza la sovrapposizione del pubblico in più percorsi per evitare l&#39;eccesso di targeting
 * **Pianifica rilevamento conflitti** - Identifica i conflitti di tempistica tra percorsi pianificati che hanno come destinazione lo stesso pubblico
 * **Operational Insights** - Ottieni informazioni basate su prompt come &quot;mostra tutti i percorsi live&quot; o &quot;quali tipi di pubblico vengono utilizzati in più di X percorsi&quot;
 
-**Prompt di esempio:**
++++
+
++++**Prompt di esempio**
 
 * &quot;Eseguire un&#39;analisi dell&#39;abbandono per il percorso \[Nome Percorso\]&quot;
 * &quot;Esistono conflitti di pianificazione per il percorso \[Nome Percorso\]?&quot;
 * &quot;Mostra conflitti di sovrapposizione del pubblico per il percorso \[Nome Percorso\]&quot;
 * &quot;Quale pubblico viene utilizzato in più di 5 percorsi?&quot;
 
-**Autorizzazioni richieste:**
++++
+
++++**Autorizzazioni richieste**
 
 * **Visualizza Percorsi** - Visualizza informazioni sui percorsi direttamente nell&#39;Assistente di intelligenza artificiale
 * **Gestisci Percorsi** - Crea nuovi percorsi direttamente nell&#39;Assistente IA
 * **Visualizza segmenti** - Visualizza informazioni approfondite sui tipi di pubblico
 * **Gestione segmenti** - Crea nuovi tipi di pubblico direttamente nell&#39;Assistente IA
 
++++
+
 ### Agente di sperimentazione {#experimentation-agent}
 
 L&#39;[agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti Web, e-mail, messaggi push e applicazioni:
 
-**Funzionalità chiave:**
++++**Funzionalità chiave**
 
 * **Analisi delle prestazioni** - Chiara visualizzazione di ciò che è successo negli esperimenti
 * **Generazione approfondimenti** - Spiegazione del motivo per cui si sono verificati i risultati
@@ -103,7 +109,9 @@ L&#39;[agente di sperimentazione](https://experienceleague.adobe.com/it/docs/exp
 * **Analisi dei contenuti** - Esamina gli elementi di messaggistica per capire perché alcuni trattamenti hanno superato altri
 * **Generazione di consigli** - Suggerisci nuovi trattamenti o regolazioni in base a informazioni approfondite
 
-**Prompt di esempio:**
++++
+
++++**Prompt di esempio**
 
 * &quot;Quali esperimenti sono in esecuzione per \[Nome campagna\]?&quot;
 * &quot;Quale trattamento porta il mio \[Nome esperimento\]?&quot;
@@ -111,12 +119,16 @@ L&#39;[agente di sperimentazione](https://experienceleague.adobe.com/it/docs/exp
 * &quot;Cosa consiglia di fare dopo questo esperimento?&quot;
 * &quot;Quali pattern comuni stanno emergendo dai test recenti?&quot;
 
-**Autorizzazioni richieste:**
++++
+
++++**Autorizzazioni richieste**
 
 * **Visualizza esperimenti** - Visualizza informazioni approfondite sugli esperimenti nell&#39;Assistente IA
 * **Gestisci metadati esperimento** - Crea nuovi esperimenti nell&#39;Assistente IA
 
 **Nota:** disponibile con licenza Journey Optimizer Experimentation Accelerator.
+
++++
 
 ### Agenti di IA aggiuntivi
 
@@ -130,24 +142,15 @@ Gli agenti di intelligenza artificiale sono disponibili per i clienti con access
 
 ## Generazione di contenuti basati sull’intelligenza artificiale {#content-generation}
 
-Utilizza l’intelligenza artificiale generativa per creare e personalizzare contenuti su più canali, accelerando il processo di creazione dei contenuti e mantenendo al contempo la coerenza del brand.
-
-### Canali supportati
-
-L’Assistente IA per la generazione di contenuti è disponibile per:
-
-* **E-mail** - Genera oggetto, corpo del testo e immagini
-* **Notifiche push** - Crea messaggi di notifica coinvolgenti
-* **SMS** - Scrivi messaggi di testo concisi e convincenti
-* **Web** - Genera contenuti ed esperienze di pagine Web
+Utilizza l’intelligenza artificiale generativa per creare e personalizzare contenuti su più canali, accelerando il processo di creazione dei contenuti e mantenendo al contempo la coerenza del brand. L&#39;Assistente IA per la generazione di contenuti è disponibile per [e-mail](../email/get-started-email.md), [notifiche push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) e [web](../web/get-started-web.md) esperienze, che consentono di generare oggetti, corpo del testo, immagini e varianti di messaggi complete.
 
 ### Funzioni chiave
 
-* **Generazione di testo** - Crea una copia convincente in base alla voce e agli obiettivi del tuo marchio
-* **Generazione immagine** - Genera immagini personalizzate con Adobe Firefly
-* **Varianti di contenuto** - Produce più varianti per il test A/B
-* **Allineamento marchio** - Assicurati che il contenuto generato corrisponda alle linee guida del tuo marchio
-* **Supporto modelli** - Sfrutta i modelli e-mail esistenti
+* **Generazione di testo** - Crea una copia convincente in base alla voce e agli obiettivi del tuo marchio. [Genera testo con IA](../content-management/generative-text.md)
+* **Generazione immagine** - Genera immagini personalizzate tramite Adobe Firefly. [Genera immagini con IA](../content-management/generative-image.md)
+* **Varianti di contenuto** - Produce più varianti per il test A/B. [Esperimento contenuti con IA](../content-management/generative-experimentation.md)
+* **Allineamento marchio** - Assicurati che il contenuto generato corrisponda alle linee guida del tuo marchio. [Valuta l&#39;allineamento del brand](../content-management/brands-score.md)
+* **Supporto modelli** - Sfrutta i modelli e-mail esistenti. [Utilizzare i modelli di contenuto](../content-management/content-templates.md)
 
 ### Best practice
 
@@ -169,25 +172,12 @@ L’ottimizzazione del tempo di invio analizza i dati storici del coinvolgimento
 
 ### Quando utilizzarlo
 
-**Ideale per:**
-
-* Campagne di marketing e newsletter
-* Messaggi promozionali
-* Contenuti educativi
-* Campagne di coinvolgimento
-
-**Non consigliato per:**
-
-* Messaggi operativi sensibili al tempo (conferme d&#39;ordine, reimpostazioni password)
-* Notifiche urgenti (ritardi dei voli, avvisi di emergenza)
-* Messaggi basati su eventi con requisiti temporali specifici
-
-### Suggerimenti configurazione
-
-* **Attendi 30 giorni** - Raccogli almeno 30 giorni di e-mail o dati push storici prima di abilitare
-* **Imposta tempi di attesa ottimali** - Utilizza 6-24 ore per ottenere risultati ottimali (ottimizzazione dei limiti più brevi; più lunghi possono causare contenuti obsoleti)
-* **Scegli la metrica giusta** - Ottimizza per clic (messaggi azione-guida) o aperture (messaggi di consapevolezza)
-* **Pianifica gli invii del mattino**. Per le notifiche push, inizia presto per evitare la consegna notturna
+| Ideale per | Non consigliato per |
+|----------|---------------------|
+| Campagne di marketing e newsletter | Messaggi operativi sensibili al tempo (conferme d&#39;ordine, reimpostazioni password) |
+| Messaggi promozionali | Notifiche urgenti (ritardi dei voli, avvisi di emergenza) |
+| Contenuti educativi | Messaggi basati su eventi con requisiti temporali specifici |
+| Campagne di coinvolgimento | |
 
 [Scopri di più sull’ottimizzazione dell’ora di invio](../building-journeys/send-time-optimization.md)
 
@@ -209,7 +199,7 @@ Crea modelli di classificazione intelligenti che ottimizzano automaticamente le 
    * Negli ultimi 14 giorni
 * Massimo 5 modelli di classificazione IA per organizzazione
 
-[Ulteriori informazioni sui modelli AI per il decisioning](../experience-decisioning/ranking/ai-models.md)
+[Ulteriori informazioni sui modelli di IA per il decisioning](../experience-decisioning/ranking/ai-models.md) | [Creare modelli di classificazione IA](../experience-decisioning/ranking/create-ai-models.md)
 
 ## Sperimentazione dei contenuti con l’IA {#experimentation}
 
@@ -228,6 +218,8 @@ Funzionalità principali:
 
 Le cartelle dei casi d’uso sono flussi di lavoro predefiniti che consentono di implementare rapidamente scenari di marketing comuni. Ogni playbook include percorsi pronti all’uso, messaggi, schemi e segmenti.
 
+![Interfaccia playbook casi d&#39;uso](assets/playbooks-filter.png)
+
 ### Funzionamento dei playbook
 
 1. **Sfoglia** la libreria del playbook per trovare casi d&#39;uso corrispondenti ai tuoi obiettivi
@@ -245,15 +237,15 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 * Messaggi di compleanno
 * Campagne di ricoinvolgimento
 
-### Prerequisiti
++++**Prerequisiti**
 
 * Sandbox con le autorizzazioni appropriate
 * Configurazioni del canale per e-mail, push e/o SMS
 * Autorizzazioni utente per la creazione di percorsi e messaggi
 
-![Interfaccia playbook casi d&#39;uso](assets/playbooks-filter.png)
++++
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
@@ -273,10 +265,10 @@ Valuta l’allineamento dei contenuti con le linee guida del tuo marchio utilizz
 
 +++**Quali autorizzazioni sono necessarie per le funzionalità di intelligenza artificiale?**
 
-* **Assistente IA per la generazione di contenuti** - Richiede l&#39;autorizzazione &quot;Genera contenuto&quot;
-* **Informazioni sul prodotto Assistente AI** - È necessario accettare le linee guida per l&#39;utente di Adobe Generative AI
-* **Agente di analisi Percorso** - Richiede le autorizzazioni Visualizza/Gestisci Percorsi e Visualizza/Gestisci segmenti
-* **Agente di sperimentazione** - Richiede le autorizzazioni Visualizza esperimenti e Gestisci metadati esperimenti
+* **[Assistente IA per la generazione di contenuti](#content-generation)** - Richiede l&#39;autorizzazione &quot;Genera contenuto&quot;
+* **[Informazioni sul prodotto per l&#39;Assistente all&#39;intelligenza artificiale](#ai-assistant)** - È necessario accettare le linee guida per l&#39;utente di Adobe Generative AI
+* **[Agente di analisi Percorso](#journey-agent)** - Richiede le autorizzazioni Visualizza/Gestisci Percorsi e Visualizza/Gestisci segmenti
+* **[Agente di sperimentazione](#experimentation-agent)** - Richiede le autorizzazioni Visualizza esperimenti e Gestisci metadati esperimenti
 
 Tutti gli agenti di intelligenza artificiale devono avere accesso all’Assistente di intelligenza artificiale e accettare le linee guida per gli utenti di intelligenza artificiale generativa di Adobe Experience Cloud.
 
@@ -286,31 +278,20 @@ Tutti gli agenti di intelligenza artificiale devono avere accesso all’Assisten
 
 +++**I contenuti generati da IA sono sempre accurati?**
 
-No. Rivedi sempre i contenuti generati dall’intelligenza artificiale per l’accuratezza e l’appropriatezza del brand. Utilizza gli strumenti di feedback (miniature verso l’alto o verso il basso) per migliorare i modelli.
+No. Rivedi sempre [contenuti generati da IA](#content-generation) per l&#39;accuratezza e l&#39;appropriatezza del brand. Utilizza gli strumenti di feedback (miniature verso l’alto o verso il basso) per migliorare i modelli.
 
 +++
 
 +++**Quali sono i limiti principali?**
 
-* **Ottimizzazione dell&#39;ora di invio** - Disponibile solo per e-mail e push in percorsi; richiede un periodo di formazione di 30 giorni
-* **Generazione di contenuti AI** - Non disponibile per direct mailing, schede di contenuto, LINE o WhatsApp
-* **Modelli di classificazione IA** - Massimo 5 modelli per organizzazione; richiede un minimo di dati di interazione
+* **[Ottimizzazione dell&#39;ora di invio](#send-time-optimization)** - Disponibile solo per e-mail e push in percorsi; richiede un periodo di formazione di 30 giorni
+* **[Generazione di contenuti AI](#content-generation)** - Non disponibile per direct mailing, schede di contenuto, LINE o WhatsApp
+* **[Modelli di classificazione IA](#ai-decisioning)** - Massimo 5 modelli per organizzazione; richiede un minimo di dati di interazione
 
 +++
 
 +++**Come posso accedere a queste funzionalità?**
 
-La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adobe Journey Optimizer. Alcune funzionalità come Ottimizzazione dell’ora di invio o Agenti AI potrebbero richiedere l’abilitazione da parte di Adobe. Contatta il rappresentante Adobe per informazioni dettagliate sulla licenza specifica e sulle funzioni disponibili.
+La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adobe Journey Optimizer. Alcune funzionalità come [Ottimizzazione dell&#39;ora di invio](#send-time-optimization) o [Agenti di IA](#ai-agents) possono richiedere l&#39;abilitazione da parte di Adobe. Contatta il rappresentante Adobe per informazioni dettagliate sulla licenza specifica e sulle funzioni disponibili.
 
 +++
-
->[!MORELIKETHIS]
->
->* [Introduzione all&#39;Assistente di intelligenza artificiale per la generazione di contenuti](../content-management/gs-generative.md)
->* [Assistente IA in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}
->* [Documentazione dell&#39;agente di analisi del Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
->* [Documentazione dell&#39;agente di sperimentazione](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
->* [Guida all&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md)
->* [Crea modelli di classificazione IA](../experience-decisioning/ranking/create-ai-models.md)
->* [Documentazione sui playbook per casi d&#39;uso](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
-
