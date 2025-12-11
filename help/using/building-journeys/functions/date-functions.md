@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 keywords: data, funzioni, espressione, percorso, ora
 version: Journey Orchestration
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 11%
@@ -18,10 +18,6 @@ ht-degree: 11%
 
 Le funzioni di data consentono di manipolare e utilizzare i valori di data e ora all&#39;interno delle espressioni di percorso. Queste funzioni sono essenziali per le condizioni basate sul tempo, la pianificazione e i calcoli temporali nei percorsi dei clienti.
 
->[!NOTE]
->
->Le funzioni presenti in questa pagina sono disponibili nelle espressioni di percorso. Alcune funzioni come `now()` non sono disponibili nell&#39;editor di personalizzazione per i contenuti e-mail. [Ulteriori informazioni](../../personalization/functions/dates.md)
-
 Utilizza le funzioni data quando devi:
 
 * Ottieni l&#39;ora o la data corrente con gestione del fuso orario specifica ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
@@ -31,6 +27,10 @@ Utilizza le funzioni data quando devi:
 * Conversione tra diversi formati e rappresentazioni temporali
 
 Le funzioni di data forniscono un controllo preciso sulla logica temporale, consentendo di creare percorsi e condizioni di percorso sensibili al tempo che rispondono a specifici intervalli di tempo e pianificazioni.
+
+>[!NOTE]
+>
+>Le funzioni presenti in questa pagina sono disponibili nelle espressioni di percorso. Alcune funzioni come `now()` non sono disponibili nell&#39;editor di personalizzazione per i contenuti e-mail. [Ulteriori informazioni](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
