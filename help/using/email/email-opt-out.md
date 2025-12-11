@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1031'
 ht-degree: 26%
 
 ---
@@ -34,7 +34,7 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 Quando un destinatario fa clic sul collegamento di rinuncia, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Nella [scheda Attributi](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**. Ulteriori informazioni sull&#39;elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=it){target="_blank"}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Nella [scheda Attributi](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**. Scopri di più sull’elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=it){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -169,6 +169,10 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
 1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento per annullare l’iscrizione, viene visualizzata la pagina di destinazione.
 
    ![](assets/opt-out-lp-example.png)
+
+   >[!WARNING]
+   >
+   >Fai clic sul collegamento per annullare l’iscrizione nell’e-mail per aprire solo la pagina di destinazione. Il destinatario deve **inviare il modulo facendo clic sul pulsante di rinuncia nella pagina di destinazione** per completare l&#39;annullamento dell&#39;abbonamento e aggiornare il consenso al profilo.
 
 1. Se il destinatario invia il modulo (in questo esempio, premendo il pulsante **[!UICONTROL Annulla iscrizione]** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite la chiamata API.
 
