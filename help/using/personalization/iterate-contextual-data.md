@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,9 @@ Questa guida illustra come eseguire iterazioni su array da ciascuna di queste or
 
 ## Sintassi di iterazione Handlebars {#syntax}
 
-Handlebars fornisce a `{{#each}}` [helper](functions/helpers.md) l&#39;iterazione su array. La sintassi di base è:
+Handlebars fornisce a `{{#each}}` [helper](functions/helpers.md) l&#39;iterazione su array.
+
++++ Sintassi di base
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -52,6 +54,8 @@ Handlebars fornisce a `{{#each}}` [helper](functions/helpers.md) l&#39;iterazion
 * Sostituisci `item` con il nome di variabile desiderato (ad esempio `product`, `response`, `element`)
 * Accedere alle proprietà di ogni elemento utilizzando `{{item.propertyName}}`
 * È possibile nidificare più blocchi `{{#each}}` per array multilivello
+
++++
 
 ## Iterazione dei dati evento {#event-data}
 
@@ -72,7 +76,9 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come segue:
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come segue:
+
++++ Visualizza codice di esempio
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -84,9 +90,13 @@ Se lo schema [evento](../event/experience-event-schema.md) include un array `pro
 {{/each}}
 ```
 
++++
+
 ### Esempio: array nidificati negli eventi
 
 Per le strutture nidificate, utilizzare blocchi `{{#each}}` nidificati. Ulteriori informazioni sulla nidificazione in [Best practice](#best-practices).
+
++++ Visualizza codice di esempio
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -98,6 +108,8 @@ Per le strutture nidificate, utilizzare blocchi `{{#each}}` nidificati. Ulterior
   </ul>
 {{/each}}
 ```
+
++++
 
 ## Alterna le risposte di azione personalizzate {#custom-action-responses}
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### Esempio: consigli di prodotto da un’API
 
 Se l’azione personalizzata restituisce consigli di prodotto:
+
++++ Visualizza codice di esempio
 
 **Risposta API:**
 
@@ -156,9 +170,13 @@ Se l’azione personalizzata restituisce consigli di prodotto:
 </div>
 ```
 
++++
+
 ### Esempio: array nidificati da azioni personalizzate
 
 Se l’azione personalizzata restituisce array nidificati (ad esempio, categorie con prodotti). Per schemi di nidificazione più complessi, consulta [Best practice](#best-practices).
+
++++ Visualizza codice di esempio
 
 **Risposta API:**
 
@@ -188,9 +206,13 @@ Se l’azione personalizzata restituisce array nidificati (ad esempio, categorie
 {{/each}}
 ```
 
++++
+
 ### Esempio: vantaggi del livello fedeltà
 
 Visualizzare i vantaggi dinamici in base allo stato di fedeltà:
+
++++ Visualizza codice di esempio
 
 **Risposta API:**
 
@@ -219,6 +241,8 @@ Visualizzare i vantaggi dinamici in base allo stato di fedeltà:
 </ul>
 ```
 
++++
+
 ## Alterna i risultati della ricerca del set di dati {#dataset-lookup}
 
 L&#39;[attività di ricerca set di dati](../building-journeys/dataset-lookup.md) ti consente di recuperare dati dai [set di dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"} durante il runtime di percorso. I dati arricchiti vengono memorizzati come array e possono essere iterati nei messaggi.
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### Esempio: dettagli del prodotto da un set di dati
 
 Se utilizzi un’attività di ricerca del set di dati per recuperare informazioni di prodotto in base agli SKU:
+
++++ Visualizza codice di esempio
 
 **Configurazione ricerca set di dati:**
 
@@ -271,9 +297,13 @@ Se utilizzi un’attività di ricerca del set di dati per recuperare informazion
 </table>
 ```
 
++++
+
 ### Esempio: iterazione filtrata con dati del set di dati
 
 Visualizza solo i prodotti di una categoria specifica. Ulteriori informazioni sul filtro condizionale in [Best practice](#best-practices).
+
++++ Visualizza codice di esempio
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ Visualizza solo i prodotti di una categoria specifica. Ulteriori informazioni su
 {{/each}}
 ```
 
++++
+
 ### Esempio: calcolare i totali dalla ricerca del set di dati
+
++++ Visualizza codice di esempio
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ Visualizza solo i prodotti di una categoria specifica. Ulteriori informazioni su
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## Usa proprietà tecniche del percorso {#technical-properties}
 
@@ -317,6 +353,8 @@ Quando si utilizzano identificatori supplementari in percorsi attivati da eventi
 
 **Scenario**: un percorso viene attivato con più prenotazioni, ma desideri visualizzare solo le informazioni per la prenotazione specifica (identificata dall&#39;ID supplementare) che ha attivato questa istanza di percorso.
 
++++ Visualizza codice di esempio
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ Quando si utilizzano identificatori supplementari in percorsi attivati da eventi
 {{/each}}
 ```
 
++++
+
 ### Esempio: Includi ID percorso per il tracciamento
+
++++ Visualizza codice di esempio
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## Combinare più origini di contesto {#combine-sources}
 
@@ -350,6 +394,8 @@ Puoi combinare dati provenienti da origini diverse nello stesso messaggio per cr
 ### Esempio: articoli del carrello con inventario in tempo reale
 
 Combina i dati evento (contenuti del carrello) con i dati azione personalizzati (stato inventario):
+
++++ Visualizza codice di esempio
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ Combina i dati evento (contenuti del carrello) con i dati azione personalizzati 
 {{/each}}
 ```
 
++++
+
 ### Esempio: dati evento arricchiti con la ricerca del set di dati
 
 Combina [SKU evento](#event-data) con informazioni dettagliate sul prodotto da una [ricerca set di dati](#dataset-lookup):
+
++++ Visualizza codice di esempio
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ Combina [SKU evento](#event-data) con informazioni dettagliate sul prodotto da u
 {{/each}}
 ```
 
++++
+
 ### Esempio: combinare più origini con proprietà tecniche
+
++++ Visualizza codice di esempio
 
 ```handlebars
 <div class="personalized-content">
@@ -428,6 +482,8 @@ Combina [SKU evento](#event-data) con informazioni dettagliate sul prodotto da u
   </footer>
 </div>
 ```
+
++++
 
 ## Altri tipi di contesto {#other-contexts}
 
@@ -464,6 +520,8 @@ Ulteriori informazioni sul passaggio delle raccolte in [Trasmettere le raccolte 
 
 **Scenario di esempio**: estrarre il primo SKU con un prezzo maggiore di 0 da un elenco di prodotti.
 
++++ Visualizza codice di esempio
+
 **Esempio di schema evento**:
 
 ```json
@@ -499,9 +557,13 @@ Ulteriori informazioni sul passaggio delle raccolte in [Trasmettere le raccolte 
 
 Ulteriori informazioni sulla funzione `first` in [Funzioni di gestione della raccolta](../building-journeys/expression/collection-management-functions.md).
 
++++
+
 #### Creare un elenco di valori da un array
 
 **Caso d&#39;uso**: crea un elenco separato da virgole di ID da passare come parametro di query (ad esempio, `/products?ids=sku1,sku2,sku3`).
+
++++ Visualizza codice di esempio
 
 **Configurazione azione personalizzata**:
 
@@ -535,9 +597,13 @@ Ulteriori informazioni su:
 
 La gestione delle raccolte per le azioni personalizzate è descritta in [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection).
 
++++
+
 #### Trasmettere un array di oggetti a un’azione personalizzata
 
 **Caso d&#39;uso**: invia una matrice completa di oggetti nel corpo di una richiesta (per POST o GET con corpo).
+
++++ Visualizza codice di esempio
 
 **Esempio di corpo della richiesta**:
 
@@ -584,11 +650,15 @@ Journey Optimizer crea l’array di oggetti che corrispondono alla struttura del
 
 Ulteriori informazioni in [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection).
 
++++
+
 ### Utilizzare gli array con le ricerche dei set di dati {#arrays-with-dataset-lookup}
 
 Quando si utilizza l&#39;[attività di ricerca set di dati](../building-journeys/dataset-lookup.md), è possibile passare una matrice di valori come chiavi di ricerca per recuperare dati arricchiti.
 
 **Esempio**: cerca i dettagli del prodotto per tutti gli SKU in un array di eventi.
+
++++ Visualizza codice di esempio
 
 **Configurazione ricerca set di dati**:
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 Viene creato un elenco di tutti i valori SKU da cercare nel set di dati. I risultati sono disponibili come array in `context.journey.datasetLookup.<activityID>.entities` e possono essere ripetuti nel messaggio (vedi [Iterare nei risultati della ricerca del set di dati](#dataset-lookup)).
+
++++
 
 ### Limitazioni e pattern {#array-limitations}
 
@@ -638,6 +710,8 @@ Gli array di grandi dimensioni possono influire sulle prestazioni del percorso:
 Questo è un flusso di lavoro completo che mostra come utilizzare un array di eventi con un’azione personalizzata.
 
 **Scenario**: quando un utente abbandona il carrello, invia i dati del carrello a un&#39;API di consigli esterna per ottenere suggerimenti personalizzati, quindi visualizzali in un messaggio e-mail.
+
++++ Visualizza esempio completo
 
 **Passaggio 1: configurare l&#39;azione personalizzata**
 
@@ -731,6 +805,8 @@ Prima di eseguire un percorso live, verifica l’azione personalizzata utilizzan
 
 Ulteriori informazioni in [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md).
 
++++
+
 ## Best practice {#best-practices}
 
 Segui queste best practice durante l’iterazione di dati contestuali per creare una personalizzazione manutenibile ed performante.
@@ -738,6 +814,8 @@ Segui queste best practice durante l’iterazione di dati contestuali per creare
 ### Usa nomi di variabili descrittive
 
 Scegli nomi di variabili che indichino chiaramente ciò su cui stai eseguendo l’iterazione. Questo rende il codice più leggibile e di facile gestione. Ulteriori informazioni sulla [sintassi di personalizzazione](personalization-syntax.md):
+
++++ Visualizza esempio
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ Scegli nomi di variabili che indichino chiaramente ciò su cui stai eseguendo l�
 {{#each array as |element|}}
 ```
 
++++
+
 ### Gestire gli array vuoti
 
 Utilizzare la clausola `{{else}}` per fornire contenuto di fallback quando un array è vuoto. Ulteriori informazioni sulle [funzioni helper](functions/helpers.md):
+
++++ Visualizza esempio
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ Utilizzare la clausola `{{else}}` per fornire contenuto di fallback quando un ar
 {{/each}}
 ```
 
++++
+
 ### Combina con helper condizionali
 
 Utilizza `{{#if}}` nei cicli per il contenuto condizionale. Ulteriori informazioni sulle [regole condizionali](create-conditions.md) e esempi nelle [risposte alle azioni personalizzate](#custom-action-responses) e nelle [sezioni di ricerca set di dati](#dataset-lookup).
+
++++ Visualizza esempio
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ Utilizza `{{#if}}` nei cicli per il contenuto condizionale. Ulteriori informazio
 {{/each}}
 ```
 
++++
+
 ### Limita iterazione per prestazioni
 
 Per array di grandi dimensioni, è consigliabile limitare il numero di iterazioni:
+
++++ Visualizza esempio
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ Per array di grandi dimensioni, è consigliabile limitare il numero di iterazion
 {{/each}}
 ```
 
++++
+
 ### Accedere ai metadati dell’array
 
 Handlebars fornisce variabili speciali all&#39;interno di loop utili per i pattern di iterazione avanzati:
@@ -801,6 +893,8 @@ Handlebars fornisce variabili speciali all&#39;interno di loop utili per i patte
 * `@first`: True per la prima iterazione
 * `@last`: True per l&#39;ultima iterazione
 
++++ Visualizza esempio
+
 ```handlebars
 {{#each products as |product|}}
   <div class="product {{#if @first}}featured{{/if}}">
@@ -808,6 +902,8 @@ Handlebars fornisce variabili speciali all&#39;interno di loop utili per i patte
   </div>
 {{/each}}
 ```
+
++++
 
 >[!NOTE]
 >
@@ -821,6 +917,8 @@ Problemi di iterazione? In questa sezione vengono descritti problemi e soluzioni
 
 **Problema**: l&#39;iterazione dell&#39;array non mostra alcun contenuto.
 
++++ Visualizzare possibili cause e soluzioni
+
 **Possibili cause e soluzioni**:
 
 1. **Percorso non corretto**: verificare il percorso esatto dell&#39;array in base all&#39;origine del contesto:
@@ -832,9 +930,13 @@ Problemi di iterazione? In questa sezione vengono descritti problemi e soluzioni
 
 3. **Dati non ancora disponibili**: assicurati che l&#39;azione personalizzata, l&#39;evento o l&#39;attività di ricerca del set di dati sia stata eseguita prima dell&#39;attività messaggio nel flusso di percorso.
 
++++
+
 ### Errori di sintassi
 
 **Problema**: la convalida dell&#39;espressione non riesce o il messaggio non viene visualizzato.
+
++++ Visualizza errori comuni
 
 **Errori comuni**:
 
@@ -842,53 +944,30 @@ Problemi di iterazione? In questa sezione vengono descritti problemi e soluzioni
 * Nome variabile non corretto: assicurati che il nome della variabile sia utilizzato in modo coerente in tutto il blocco. Consulta [Best practice](#best-practices) per le convenzioni di denominazione.
 * Separatori di percorso non corretti: utilizzare punti (`.`) non barre o altri caratteri
 
++++
+
 ### Verifica delle iterazioni
 
 Utilizza [modalità test percorso](../building-journeys/testing-the-journey.md) per verificare le iterazioni. Ciò è particolarmente importante quando si utilizzano [azioni personalizzate](#custom-action-responses) o [ricerche set di dati](#dataset-lookup):
+
++++ Visualizza passaggi di test
 
 1. Avvia il percorso in [modalità di test](../building-journeys/testing-the-journey.md)
 2. Attiva l&#39;evento o l&#39;azione personalizzata con i dati di esempio
 3. Controlla l&#39;[anteprima del messaggio](../content-management/preview.md) per verificare che l&#39;iterazione venga visualizzata correttamente
 4. Esaminare i registri della modalità di test per individuare eventuali errori (vedere [Registri della modalità di test delle azioni personalizzati](../action/action-response.md#test-mode-logs))
 
++++
+
 ## Argomenti correlati {#related-topics}
 
-**Nozioni di base di Personalization:**
+**Nozioni di base di Personalization:** [Introduzione alla personalizzazione](personalize.md) | [Aggiungi personalizzazione](personalization-build-expressions.md) | [Sintassi Personalization](personalization-syntax.md) | [Funzioni di supporto](functions/helpers.md) | [Creare regole condizionali](create-conditions.md)
 
-* [Introduzione alla personalizzazione](personalize.md)
-* [Aggiungere personalizzazione](personalization-build-expressions.md)
-* [Sintassi di personalizzazione](personalization-syntax.md)
-* [Funzioni Helper](functions/helpers.md)
-* [Creare regole condizionali](create-conditions.md)
+**Configurazione Percorso:** [Informazioni sugli eventi](../event/about-events.md) | [Configurare azioni personalizzate](../action/about-custom-action-configuration.md) | [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection) | [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md) | [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) | [Utilizzare i dati di Adobe Experience Platform nei percorsi](../building-journeys/dataset-lookup.md) | [Utilizzare identificatori supplementari nei percorsi](../building-journeys/supplemental-identifier.md) | [Guardrail e limitazioni](../start/guardrails.md) | [Verifica il percorso](../building-journeys/testing-the-journey.md)
 
-**Configurazione Percorso:**
+**Funzioni espressione di Percorso:** [Editor espressioni avanzate](../building-journeys/expression/expressionadvanced.md) | [Funzioni di gestione della raccolta](../building-journeys/expression/collection-management-functions.md) (prima, tutte, ultima) | [Funzioni elenco](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funzioni array](../personalization/functions/arrays-list.md) (head, tail)
 
-* [Informazioni sugli eventi](../event/about-events.md)
-* [Utilizzare le azioni personalizzate](../action/about-custom-action-configuration.md)
-* [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection)
-* [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md)
-* [Risolvere i problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md)
-* [Utilizzare i dati di Adobe Experience Platform nei percorsi](../building-journeys/dataset-lookup.md)
-* [Utilizzare identificatori supplementari nei percorsi](../building-journeys/supplemental-identifier.md)
-* [Guardrail e limitazioni](../start/guardrails.md)
-* [Testare il percorso](../building-journeys/testing-the-journey.md)
+**Casi di utilizzo di Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
 
-**Funzioni espressione Percorso:**
-
-* [Editor di espressioni avanzate](../building-journeys/expression/expressionadvanced.md)
-* [Funzioni di gestione della raccolta](../building-journeys/expression/collection-management-functions.md) (prima, tutte, ultima)
-* [Funzioni elenco](../building-journeys/functions/list-functions.md) (serializeList, filter, sort)
-* [Funzioni array](../personalization/functions/arrays-list.md) (head, tail)
-
-**Casi di utilizzo di Personalization:**
-
-* [E-mail di abbandono carrello](personalization-use-case-helper-functions.md)
-* [Notifica dello stato dell’ordine](personalization-use-case.md)
-
-**Progettazione messaggi:**
-
-* [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md)
-* [Creare notifiche push](../push/create-push.md)
-* [Creare messaggi SMS](../sms/create-sms.md)
-* [Anteprima e test del contenuto](../content-management/preview-test.md)
+**Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)
 
