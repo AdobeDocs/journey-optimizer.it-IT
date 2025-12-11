@@ -66,7 +66,7 @@ Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
 
 **Azioni incorporate**
 
@@ -76,7 +76,7 @@ Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
 
 **Azioni personalizzate**
 
@@ -128,7 +128,7 @@ Invia un percorso di benvenuto personalizzato quando i clienti si abbonano al se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=it)
 
 **Ottimizza orari di invio e-mail**
 
@@ -184,7 +184,7 @@ Scopri i componenti di un percorso e le nozioni di base sulla creazione di un pe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 **Crea e gestisci percorsi**
 
@@ -194,7 +194,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **attività Percorso**
 
@@ -204,7 +204,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 **Espressioni e condizioni**
 
