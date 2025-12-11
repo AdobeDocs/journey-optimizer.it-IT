@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 1%
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,15 @@ Di seguito sono riportati scenari comuni che dimostrano come i criteri di entrat
 
 **Campagna di benvenuto per i nuovi abbonati**
 
+Crea una prima impressione personalizzata guidando automaticamente i nuovi abbonati attraverso un’introduzione al tuo marchio, ai tuoi prodotti e ai tuoi servizi.
+
 * **Voce**: i profili entrano nel percorso quando si abbonano a una newsletter
 * **Uscita**: i profili escono una volta completata una serie di e-mail di benvenuto o dopo un determinato periodo di tempo se non interagiscono
 * **Vantaggio**: assicura che i nuovi abbonati ricevano l&#39;onboarding tempestivo evitando messaggi ripetitivi
 
 **Ripristino carrello abbandonato**
+
+Recuperare i ricavi persi ricordando ai clienti gli articoli che hanno lasciato indietro e fornendo incentivi per completare il loro acquisto.
 
 * **Voce**: i clienti entrano nel percorso se aggiungono elementi a un carrello ma non completano l&#39;estrazione entro 24 ore
 * **Uscita**: i profili escono quando completano l&#39;acquisto o dopo 7 giorni se non viene effettuato alcun acquisto
@@ -76,11 +80,15 @@ Di seguito sono riportati scenari comuni che dimostrano come i criteri di entrat
 
 **Programma fedeltà**
 
+Premiate i vostri clienti più importanti con vantaggi esclusivi e comunicazioni personalizzate che rafforzano la brand loyalty e aumentano il valore del ciclo di vita.
+
 * **Voce**: i clienti partecipano al percorso dopo aver raggiunto una determinata soglia di punti fedeltà
 * **Uscita**: i profili escono dopo aver rimborsato i premi o se sono inattivi per 60 giorni
 * **Vantaggio**: mantiene i clienti di alto valore coinvolti in offerte personalizzate ed evita l&#39;affaticamento della comunicazione
 
 **Raccolta feedback prodotto**
+
+Raccogliere informazioni sulla soddisfazione dei clienti e sulle prestazioni dei prodotti richiedendo un feedback nel momento migliore dopo la consegna.
 
 * **Voce**: i clienti entrano nel percorso dopo aver ricevuto un evento di conferma della consegna del prodotto
 * **Uscita**: i profili escono una volta inviato il feedback o dopo 10 giorni in assenza di risposta
@@ -138,7 +146,7 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 
 >[!TIP]
 >
->Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [&#x200B; Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [ Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best practice per la gestione di entrata e uscita {#best-practices}
 
@@ -188,26 +196,12 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Documentazione tecnica**
 
-* [Gestione dell&#39;ingresso al profilo](entry-management.md) - Guida tecnica dettagliata per i controlli di ingresso
-* [Proprietà Percorso e criteri di uscita](journey-properties.md) - Riferimento completo alla configurazione
-* [Fine dei percorsi](end-journey.md) - Gestione del ciclo di vita del Percorso
-* [Identificatori supplementari](supplemental-identifier.md) - Scenari di rientro avanzati
-* [Progettazione Percorsi](using-the-journey-designer.md) - Genera e progetta percorsi
+[Gestione dell&#39;ingresso al profilo](entry-management.md) | [Proprietà Percorso e criteri di uscita](journey-properties.md) | [Fine percorsi](end-journey.md) | [Identificatori supplementari](supplemental-identifier.md) | [Progettazione Percorsi](using-the-journey-designer.md)
 
 **Esercitazioni ed esempi**
 
-* [Casi d&#39;uso per i Percorsi](jo-use-cases.md) - Esempi e modelli di percorso completi
-* [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funzionalità correlate**
 
-* [Eventi di qualificazione del pubblico](audience-qualification-events.md)
-* [Metriche e obiettivi di successo](success-metrics.md)
-* [Gestione dei conflitti](../conflict-prioritization/conflicts.md)
-* [Quota limite](../conflict-prioritization/rule-sets.md)
-* [Percorsi di prova](testing-the-journey.md)
-* [Attività Condizione](condition-activity.md)
-* [Eventi di reazione](reaction-events.md)
-* [Attività Attendi](wait-activity.md)
+[Eventi di qualificazione del pubblico](audience-qualification-events.md) | [Metriche e obiettivi di successo](success-metrics.md) | [Gestione dei conflitti](../conflict-prioritization/conflicts.md) | [Limite di frequenza](../conflict-prioritization/rule-sets.md) | [percorsi di prova](testing-the-journey.md) | [Attività condizione](condition-activity.md) | [Eventi di reazione](reaction-events.md) | [Attività in attesa](wait-activity.md)
