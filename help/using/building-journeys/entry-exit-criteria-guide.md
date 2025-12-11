@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
-source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
+source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -146,11 +146,13 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 
 >[!TIP]
 >
->Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [&#x200B; Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [ Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best practice per la gestione di entrata e uscita {#best-practices}
 
 **Cancella definizione**
+
+Stabilisci chiare convenzioni di denominazione e documentazione per far sì che il tuo team comprenda come i profili passano attraverso i tuoi percorsi:
 
 * Documenta la logica di entrata e uscita prima di creare percorsi per allineare i team di marketing e analisi
 * Creazione di diagrammi di flusso che mostrano punti di ingresso, percorsi di percorso e condizioni di uscita
@@ -159,6 +161,8 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 * [Assegna tag ai percorsi](../start/search-filter-categorize.md#tags) in modo coerente per la generazione di rapporti e l&#39;applicazione di filtri
 
 **Evita percorsi sovrapposti**
+
+Previeni la confusione dei clienti e i conflitti di messaggi coordinando la strategia di percorso tra le campagne:
 
 * [Controlla i percorsi attivi](journey-ui.md) prima di avviarne altri simili per evitare conflitti
 * Sfrutta [gestione dei conflitti](../conflict-prioritization/conflicts.md) e [punteggi di priorità](../conflict-prioritization/priority-scores.md) per risolvere le sovrapposizioni e assegnare priorità ai percorsi
@@ -170,6 +174,8 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 
 **Monitora e ottimizza**
 
+Valuta continuamente le prestazioni del percorso e perfeziona i criteri di entrata e uscita in base al comportamento effettivo del cliente:
+
 * Tieni traccia della percentuale di ingresso, della percentuale di uscita e della percentuale di completamento per ogni percorso utilizzando [rapporti percorso](../reports/journey-global-report-cja.md)
 * Monitora [metriche di successo](success-metrics.md): percentuale di uscita tramite completamento metrica di successo rispetto al timeout
 * [Verifica i criteri di entrata e uscita](testing-the-journey.md) con vari scenari di profilo prima dell&#39;avvio
@@ -177,6 +183,8 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 * Rivedi tutti i percorsi attivi trimestralmente
 
 **Rispetta i limiti di frequenza**
+
+Mantenere la fiducia e il coinvolgimento dei clienti controllando la frequenza dei messaggi in tutte le comunicazioni di percorso:
 
 * Imposta [periodi di attesa per il rientro](entry-management.md) appropriati o disattiva il rientro per percorsi occasionali
 * Utilizza [regole di quota limite](../conflict-prioritization/rule-sets.md) per evitare comunicazioni eccessive
