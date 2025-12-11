@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -838,6 +838,44 @@ Scegli nomi di variabili che indichino chiaramente ciò su cui stai eseguendo l�
 
 +++
 
+### Frammenti di espressione in cicli
+
+Quando utilizzi [frammenti di espressione](use-expression-fragments.md) all&#39;interno di `{{#each}}` loop, tieni presente che non puoi trasmettere variabili con ambito di loop come parametri di frammento. Tuttavia, i frammenti possono accedere alle variabili globali definite nel contenuto del messaggio all’esterno del frammento.
+
++++ Visualizza codice di esempio
+
+**Schema supportato - Usa variabili globali:**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+Il frammento può fare riferimento a `globalDiscount` perché è definito globalmente nel messaggio.
+
+**Non supportato - Passaggio delle variabili di loop:**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**Soluzione**: includere la logica di personalizzazione direttamente nel ciclo anziché utilizzare un frammento oppure chiamare il frammento all&#39;esterno del ciclo.
+
++++
+
+Ulteriori informazioni sull&#39;utilizzo di [frammenti di espressione all&#39;interno di cicli](use-expression-fragments.md#fragments-in-loops), inclusi esempi dettagliati e soluzioni alternative.
+
+
+
 ### Gestire gli array vuoti
 
 Utilizzare la clausola `{{else}}` per fornire contenuto di fallback quando un array è vuoto. Ulteriori informazioni sulle [funzioni helper](functions/helpers.md):
@@ -951,6 +989,34 @@ Problemi di iterazione? In questa sezione vengono descritti problemi e soluzioni
 * Tag di chiusura mancanti: ogni `{{#each}}` deve avere un `{{/each}}`. Verificare la struttura corretta della sintassi di iterazione [Handlebars](#syntax).
 * Nome variabile non corretto: assicurati che il nome della variabile sia utilizzato in modo coerente in tutto il blocco. Consulta [Best practice](#best-practices) per le convenzioni di denominazione.
 * Separatori di percorso non corretti: utilizzare punti (`.`) non barre o altri caratteri
+
++++
+
+### I frammenti di espressione non funzionano in loop
+
+**Problema**: un frammento di espressione non visualizza il contenuto previsto quando viene utilizzato all&#39;interno di un ciclo `{{#each}}` oppure mostra un output vuoto o imprevisto.
+
++++ Visualizzare possibili cause e soluzioni
+
+**Possibili cause e soluzioni**:
+
+1. **Tentativo di passare variabili di loop come parametri**: i frammenti di espressione non possono ricevere variabili con ambito di loop (come l&#39;elemento di iterazione corrente) come parametri. Si tratta di una limitazione nota.
+
+   **Soluzione**: utilizzare una delle seguenti soluzioni alternative:
+
+   * Definisci le variabili globali nel messaggio a cui il frammento può accedere
+   * Includere la logica di personalizzazione direttamente nel ciclo anziché utilizzare un frammento
+   * Chiama il frammento all’esterno del ciclo se non ha bisogno di dati specifici del ciclo
+
+2. **Il frammento prevede un parametro non disponibile**: se il frammento è stato progettato per ricevere parametri di input specifici, non funzionerà correttamente se tali parametri non possono essere trasmessi da un ciclo.
+
+   **Soluzione**: ristrutturare l&#39;approccio per l&#39;utilizzo di variabili globali accessibili al frammento. Per esempi, consulta [Best practice - Frammenti di espressione nei cicli](#best-practices).
+
+3. **Ambito variabile non corretto**: è possibile che il frammento stia tentando di fare riferimento a una variabile presente solo nell&#39;ambito del ciclo.
+
+   **Soluzione**: definisci le variabili di cui il frammento ha bisogno a livello di messaggio (al di fuori del ciclo) in modo che siano accessibili a livello globale.
+
+Ulteriori informazioni sull&#39;utilizzo di [frammenti di espressione all&#39;interno di cicli](use-expression-fragments.md#fragments-in-loops), incluse spiegazioni dettagliate, esempi e modelli consigliati.
 
 +++
 

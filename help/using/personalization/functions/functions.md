@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibil
 
 >[!NOTE]
 >
->Le funzioni e le funzionalità disponibili nell&#39;editor di personalizzazione sono diverse da quelle disponibili nell&#39;editor di espressioni avanzate di [Percorso](../../building-journeys/expression/expressionadvanced.md).
+>Le funzioni e le funzionalità disponibili nell&#39;editor di personalizzazione sono diverse da quelle disponibili nell&#39;editor di espressioni avanzate di [Percorso](../../building-journeys/expression/expressionadvanced.md). La funzione `now()` è ad esempio disponibile solo nelle espressioni di percorso. [Ulteriori informazioni](../../email/code-content.md#date-time-limitations)
 
 Nell&#39;editor di personalizzazione [!DNL Journey Optimizer], le funzioni di supporto sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
 
@@ -518,4 +518,4 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

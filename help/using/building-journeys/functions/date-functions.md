@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: data, funzioni, espressione, percorso, ora
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 12%
+source-wordcount: '834'
+ht-degree: 11%
 
 ---
 
 # Funzioni data {#date-functions}
 
 Le funzioni di data consentono di manipolare e utilizzare i valori di data e ora all&#39;interno delle espressioni di percorso. Queste funzioni sono essenziali per le condizioni basate sul tempo, la pianificazione e i calcoli temporali nei percorsi dei clienti.
+
+>[!NOTE]
+>
+>Le funzioni presenti in questa pagina sono disponibili nelle espressioni di percorso. Alcune funzioni come `now()` non sono disponibili nell&#39;editor di personalizzazione per i contenuti e-mail. [Ulteriori informazioni](../../personalization/functions/dates.md)
 
 Utilizza le funzioni data quando devi:
 
@@ -347,6 +351,10 @@ Restituisce true.
 ## now {#now}
 
 Restituisce la data corrente in formato data e ora. Per ulteriori informazioni sui tipi di dati, consultare [questa pagina](../expression/data-types.md).
+
+>[!NOTE]
+>
+>Questa funzione è disponibile solo nelle espressioni di percorso. Per la personalizzazione delle e-mail e altri contenuti, utilizza invece `getCurrentZonedDateTime()`. [Ulteriori informazioni](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Sintassi
 

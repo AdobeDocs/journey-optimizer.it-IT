@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 20%
+source-wordcount: '1591'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -57,9 +57,43 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
   Content-type - application/json
   ```
 
+>>
+**Per i percorsi di qualificazione del pubblico con pubblico in streaming**: se utilizzi un&#39;attività di qualificazione del pubblico come punto di ingresso del percorso, tieni presente che non tutti i profili idonei per il pubblico entreranno necessariamente nel percorso a causa di fattori di tempistica, uscite rapide dal pubblico o se i profili erano già presenti nel pubblico prima della pubblicazione. Ulteriori informazioni sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+## Risolvere i problemi relativi alle transizioni della modalità di test {#troubleshooting-test-transitions}
+
+Se i profili di test non riescono ad avanzare nel percorso in modalità di test o il flusso visivo non visualizza frecce verdi che indicano la progressione del passaggio, il problema può essere correlato alla convalida della transizione. Questa sezione fornisce indicazioni sulla diagnosi e la risoluzione di problemi comuni relativi alla modalità di test.
+
+### Profili di test non in avanzamento
+
+Se i profili di test entrano nel percorso ma non superano il passaggio iniziale, verifica quanto segue:
+
+* **Data di inizio Percorso** - La causa più comune è quando la data di inizio del percorso è impostata in futuro. I profili di test vengono eliminati immediatamente se l&#39;ora corrente non rientra nella finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso. Per risolvere:
+   * Verifica che la data di inizio del percorso non sia impostata in futuro
+   * Assicurarsi che l&#39;ora corrente rientri nell&#39;intervallo di date attivo del percorso
+   * Se necessario, aggiorna le proprietà del percorso per regolare la data di inizio
+
+* **Configurazione profilo di test** - Verificare che il profilo sia contrassegnato correttamente come profilo di test in Adobe Experience Platform. Per ulteriori informazioni, vedere [come creare profili di test](../audience/creating-test-profiles.md).
+
+* **Spazio dei nomi identità** - Verificare che lo spazio dei nomi identità utilizzato nella configurazione dell&#39;evento corrisponda allo spazio dei nomi del profilo di test.
+
+### Indicatori di transizione nulli
+
+Durante la risoluzione dei problemi tecnici, è possibile che nei dettagli tecnici del percorso venga rilevata una proprietà `isValidTransition` impostata su null. Questa proprietà di sola interfaccia utente non influisce sull’elaborazione back-end o sulle prestazioni del percorso. Tuttavia, un valore null può indicare:
+
+* **Configurazione errata del Percorso** - La data di inizio del percorso è impostata in futuro, causando l&#39;eliminazione silenziosa degli eventi di test
+* **Transizione danneggiata** - In rari casi, potrebbe essere necessario riconnettere i nodi del percorso
+
+Se riscontri problemi di transizione persistenti:
+
+1. Verifica che la data di inizio del percorso sia corrente
+1. Disattivare e riattivare la modalità di test
+1. Se il problema persiste, è consigliabile duplicare i nodi del percorso interessati e riconnetterli
+1. Per i casi non risolti, contatta il supporto con i registri del percorso, gli ID profilo interessati e i dettagli sulla transizione null
+
 >[!NOTE]
 >
->**Per i percorsi di qualificazione del pubblico con pubblico in streaming**: se utilizzi un&#39;attività di qualificazione del pubblico come punto di ingresso del percorso, tieni presente che non tutti i profili idonei per il pubblico entreranno necessariamente nel percorso a causa di fattori di tempistica, uscite rapide dal pubblico o se i profili erano già presenti nel pubblico prima della pubblicazione. Ulteriori informazioni sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
+>Ricorda che gli eventi inviati al di fuori della finestra della data attiva del percorso vengono automaticamente scartati senza alcun messaggio di errore. Verifica sempre la configurazione degli intervalli di percorso prima di risolvere i problemi relativi alla progressione del profilo di test.
 
 ## Controllare il modo in cui le persone si spostano nel percorso {#checking-how-people-navigate-through-the-journey}
 

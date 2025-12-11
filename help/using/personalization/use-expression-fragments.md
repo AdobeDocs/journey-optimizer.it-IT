@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,89 @@ Sono possibili i seguenti casi d’uso:
 >
 >In fase di runtime, il sistema espande il contenuto dei frammenti e quindi interpreta il codice di personalizzazione dall’alto verso il basso. Tenendo presente questo aspetto, è possibile ottenere casi d’uso più complessi. Ad esempio, puoi avere un frammento F1 che passa le variabili a un altro frammento F2 che si trova sotto. È inoltre possibile che un frammento visivo F1 passi delle variabili a un frammento di espressione nidificato F2.
 
+## Utilizzare frammenti di espressione all’interno di cicli {#fragments-in-loops}
+
+Quando si utilizzano frammenti di espressione nei cicli di `{{#each}}`, è importante comprendere come funziona l&#39;ambito delle variabili. I frammenti di espressione possono accedere alle variabili globali definite nel contenuto del messaggio, ma non possono ricevere variabili specifiche per il ciclo come parametri.
+
+### Schema supportato: utilizza variabili globali {#global-variables-in-loops}
+
+I frammenti di espressione possono fare riferimento a variabili globali definite all’esterno del frammento, anche quando il frammento viene chiamato dall’interno di un loop. Questo è l’approccio consigliato quando devi utilizzare frammenti in contesti iterativi.
+
+**Esempio: utilizzo di un frammento con variabili globali all&#39;interno di un loop**
+
+Nel contenuto del messaggio, definisci una variabile globale e utilizza un frammento che vi faccia riferimento:
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+Nel frammento di espressione (fragment123), è possibile fare riferimento alla variabile `globalDiscount`:
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+Questo modello funziona perché la variabile globale è accessibile in tutto il messaggio, inclusi i frammenti, indipendentemente dal contesto del loop.
+
+### Non supportato: passaggio delle variabili di loop come parametri di frammento {#loop-variables-limitations}
+
+Impossibile passare l&#39;elemento di iterazione corrente (ad esempio `product` nell&#39;esempio precedente) come parametro a un frammento di espressione. Il frammento non può accedere direttamente alle variabili con ambito di loop dal blocco `{{#each}}` circostante.
+
+**Esempio: cosa NON funziona**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+Il frammento non può ricevere `product` come parametro e utilizzarlo internamente perché il passaggio del parametro per variabili specifiche del ciclo non è supportato nell&#39;implementazione corrente.
+
+### Soluzioni consigliate {#fragments-in-loops-workarounds}
+
+Quando devi utilizzare frammenti di espressione con dati provenienti da un ciclo, considera questi approcci:
+
+1. **Includi la logica direttamente nel messaggio**: anziché utilizzare un frammento per la logica specifica del ciclo, aggiungi il codice di personalizzazione direttamente nel blocco `{{#each}}`.
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **Usa frammenti all&#39;esterno di cicli**: se il contenuto del frammento non è dipendente dal ciclo, chiamare il frammento prima o dopo il blocco dell&#39;iterazione.
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **Imposta più variabili globali**: se devi passare valori diversi a un frammento in più iterazioni, imposta le variabili globali prima di ogni chiamata al frammento (anche se questo limita la flessibilità).
+
+>[!NOTE]
+>
+>Per l&#39;iterazione dei dati contestuali e l&#39;utilizzo dei loop, vedere la guida completa sull&#39;[iterazione dei dati contestuali](iterate-contextual-data.md), che include best practice, suggerimenti per la risoluzione dei problemi e modelli avanzati.
 
 ## Personalizza campi modificabili {#customize-fields}
 

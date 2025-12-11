@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testa il percorso
+title: Testare il percorso
 description: Scopri come testare il percorso
 feature: Journeys, Test Profiles
 topic: Content Management
@@ -10,18 +10,18 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1904'
 ht-degree: 7%
 
 ---
 
-# Testa il percorso{#testing_the_journey}
+# Testare il percorso{#testing_the_journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Testa il percorso"
+>title="Testare il percorso"
 >abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 
 Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. Journey Optimizer offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell’attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
@@ -30,7 +30,7 @@ Solo i profili di test possono entrare in un percorso in modalità di test. Puoi
 
 >[!NOTE]
 >
->Prima di eseguire il test del percorso, è necessario risolvere tutti gli eventuali errori. Scopri come controllare gli errori prima di eseguire il test in [questa sezione](../building-journeys/troubleshooting.md).
+>Prima di eseguire il test del percorso, è necessario risolvere tutti gli eventuali errori. Scopri come controllare gli errori prima di eseguire il test in [questa sezione](../building-journeys/troubleshooting.md). Se l&#39;avanzamento dei profili di test non riesce in modalità di test, vedere [risoluzione dei problemi relativi alle transizioni della modalità di test](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Note importanti {#important_notes}
 
@@ -53,7 +53,7 @@ Solo i profili di test possono entrare in un percorso in modalità di test. Puoi
 
 * **Comportamento divisione** - Quando il percorso raggiunge una divisione, il ramo superiore è sempre selezionato. Riordinare i rami se si desidera testare un percorso diverso.
 * **Tempistica evento** - Se il percorso include*più eventi, attiva ogni evento in sequenza.L&#39;invio di un evento troppo presto (prima del termine del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) comporta l&#39;eliminazione dell&#39;evento e l&#39;invio del profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
-* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati.
+* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventi di reazione** - Per gli eventi di reazione con timeout, il tempo di attesa minimo e predefinito è di 40 secondi.
 * **Set di dati di test** - Gli eventi attivati in modalità di test sono archiviati in set di dati dedicati etichettati come segue: `JOtestmode - <schema of your event>`
 
