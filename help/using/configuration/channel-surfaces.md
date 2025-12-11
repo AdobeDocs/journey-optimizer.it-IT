@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 12%
 
 ---
@@ -256,9 +256,7 @@ Per rendere non disponibile una configurazione del canale **[!UICONTROL Active]*
 
 Non è possibile disattivare una configurazione di canale nei seguenti casi:
 
-* Se un percorso live vi fa riferimento. Se si tenta di disattivare una configurazione ancora in uso da un percorso live, viene generato un errore.
-
-  Per disattivare una configurazione di canale, accertati che tutti i percorsi live che la utilizzano siano chiusi o interrotti. [Scopri come terminare un percorso](../building-journeys/end-journey.md)
+* Se un percorso live vi fa riferimento. Se si tenta di disattivare una configurazione ancora in uso da un percorso live, viene generato un errore. Per disattivare una configurazione di canale, accertati che tutti i percorsi live che la utilizzano siano chiusi o interrotti. [Scopri come terminare un percorso](../building-journeys/end-journey.md)
 
 * Durante l’elaborazione di un aggiornamento della configurazione del canale. È necessario attendere che l’aggiornamento abbia esito positivo o negativo. Ulteriori informazioni sulla [modifica delle configurazioni del canale](#edit-channel-surface) e sugli [stati di aggiornamento](#update-statuses).
 
