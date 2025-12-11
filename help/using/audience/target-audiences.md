@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 14%
+source-wordcount: '764'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,8 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 ## Attivazione di tipi di pubblico non supportati in [!DNL Journey Optimizer]
 
-Solo i tipi di pubblico creati nel portale del pubblico possono essere indirizzati direttamente in [!DNL Journey Optimizer] percorsi e campagne. [Ulteriori informazioni sui tipi di pubblico disponibili](../audience/about-audiences.md#types).
+Solo i tipi di pubblico generati con **definizione segmento**, **composizioni pubblico**, **caricamento personalizzato (file CSV)** e **composizione pubblico federato** possono essere indirizzati direttamente ai percorsi e alle campagne di Journey Optimizer. [Ulteriori informazioni sui tipi di pubblico disponibili](../audience/about-audiences.md#types)
 
-Se devi eseguire il targeting dei profili di un pubblico non supportato, ad esempio un pubblico di Customer Journey Analytics, devi racchiuderli in una nuova definizione di segmento nel portale del pubblico. Informazioni dettagliate su come aggiungere tipi di pubblico in una definizione di segmento sono disponibili nella [documentazione di Segment Builder](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Se devi eseguire il targeting dei profili di un pubblico non supportato, ad esempio un pubblico di Customer Journey Analytics, devi racchiuderli in una nuova definizione di segmento nel portale del pubblico. Informazioni dettagliate su come aggiungere tipi di pubblico in una definizione di segmento sono disponibili nella [documentazione di Segment Builder](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Al termine, attendi che la valutazione della segmentazione sia completata per utilizzarla nei percorsi e nelle campagne.
