@@ -7,10 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 0%
@@ -72,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
