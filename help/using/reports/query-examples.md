@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2734'
 ht-degree: 1%
 
 ---
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++Quanti errori si sono verificati in ogni nodo di un percorso specifico per un determinato periodo di tempo
++++Quale regola ha impedito a un profilo di ricevere un’azione di percorso
 
-Questa query conta i profili distinti che hanno riscontrato errori in ciascun nodo di un percorso, raggruppati per nome di nodo. Include tutti i tipi di errori di esecuzione delle azioni e di recupero.
-
-_Query Data Lake_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++Quanti eventi sono stati eliminati da un percorso specifico in un determinato intervallo di tempo
-
-Questa query conta il numero totale di eventi eliminati da un percorso. Filtra vari codici evento di eliminazione, tra cui errori del processo di esportazione del segmento, scartamenti del dispatcher e scartamenti della macchina dello stato.
-
-_Query Data Lake_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++Visualizzare gli eventi dei passaggi per i profili eliminati
-
-Questa query restituisce i dettagli dell’evento del passaggio per i profili eliminati da un percorso. Consente di identificare il motivo per cui i profili sono stati eliminati, ad esempio a causa di regole di business o vincoli di orario non interattivo. La query filtra per tipi di evento di eliminazione specifici e mostra le informazioni chiave tra cui l’ID profilo, l’ID istanza, i dettagli del percorso e l’errore che ha causato l’eliminazione.
+Questa query restituisce i dettagli dell’evento del passaggio per i profili scartati durante un percorso e che non hanno ricevuto un’azione di percorso. Consente di identificare il motivo per cui i profili sono stati eliminati a causa di regole aziendali come i vincoli di orario non interattivo.
 
 _Query Data Lake_
 
@@ -181,6 +133,54 @@ I risultati della query visualizzano campi chiave che consentono di identificare
 * **eventType** - Specifica il tipo di regola business che ha causato l&#39;eliminazione:
    * `quietHours`: profilo scartato a causa della configurazione delle ore non interattive
    * `forcedDiscardDueToQuietHours`: il profilo è stato eliminato forzatamente perché è stato raggiunto il limite di guardrail per i profili mantenuti in ore non interattive
+
++++
+
++++Quanti errori si sono verificati in ogni nodo di un percorso specifico per un determinato periodo di tempo
+
+Questa query conta i profili distinti che hanno riscontrato errori in ciascun nodo di un percorso, raggruppati per nome di nodo. Include tutti i tipi di errori di esecuzione delle azioni e di recupero.
+
+_Query Data Lake_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++Quanti eventi sono stati eliminati da un percorso specifico in un determinato intervallo di tempo
+
+Questa query conta il numero totale di eventi eliminati da un percorso. Filtra vari codici evento di eliminazione, tra cui errori del processo di esportazione del segmento, scartamenti del dispatcher e scartamenti della macchina dello stato.
+
+_Query Data Lake_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
