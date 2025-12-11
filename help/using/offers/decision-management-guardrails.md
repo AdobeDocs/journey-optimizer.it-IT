@@ -4,15 +4,15 @@ product: Journey Optimizer
 title: Guardrail e limitazioni per la gestione delle decisioni
 description: Ulteriori informazioni sui guardrail e le limitazioni della gestione delle decisioni.
 badge: label="Legacy" type="Informative"
-feature: Decisioning
+feature: Decision Management
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -63,8 +63,8 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | ------- | ------- |
 | Offerte totali | 10K |
 | Numero massimo di **offerte attive** per sandbox | 10K |
-| Dimensione massima delle offerte, inclusi gli attributi (1 KB), fino a 30 attributi | 1 KB |
-| Dimensione massima della rappresentazione dell’offerta (totale per tutti i posizionamenti) | 1 KB |
+| Dimensione massima delle offerte, inclusi gli attributi (1 KB), fino a 30 attributi | 1KB |
+| Dimensione massima della rappresentazione dell’offerta (totale per tutti i posizionamenti) | 1KB |
 
 ## Regole di idoneità
 
