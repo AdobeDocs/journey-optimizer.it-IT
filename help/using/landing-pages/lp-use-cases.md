@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 12%
+source-wordcount: '1148'
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ Per impostare una pagina di destinazione per la registrazione degli eventi, crea
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [&#x200B; in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
    Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco di iscrizioni.
 
@@ -141,7 +141,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [&#x200B; in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
 1. Pubblica ed esegui il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
@@ -165,11 +165,9 @@ Le informazioni di rinuncia sono memorizzate nel **Set di dati del servizio di c
 
 >[!NOTE]
 >
->Se il metodo di unione per il criterio di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare il **[!UICONTROL Set di dati del servizio di consenso di AJO]** e di assegnargli l&#39;ordine di priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#dataset-precedence-profile){target="_blank"}
+>Se il metodo di unione per il criterio di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare il **[!UICONTROL Set di dati del servizio di consenso di AJO]** e di assegnargli l&#39;ordine di priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Anche se non sono stati aggiunti batch a questo set di dati, questo conterrà comunque le informazioni di consenso/rinuncia.
-
-
 
 **Vedere anche:**
 
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## Sfruttare l’evento di invio della pagina di destinazione {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+Puoi utilizzare le informazioni inviate in una pagina di destinazione per eseguire ulteriori azioni. Ad esempio, se un utente si iscrive a un determinato elenco di abbonamenti, puoi sfruttare tali informazioni per inviare all’utente un messaggio e-mail di raccomandazione di altri elenchi di abbonamenti.
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+A questo scopo, devi creare un [evento unitario basato su regole](../event/about-creating.md) basato sullo **[!UICONTROL schema AJO Email Tracking Experience Event]** contenente le informazioni di invio e [utilizzare questo evento in un percorso](../building-journeys/general-events.md).
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>Quando si lavora con gli eventi di invio della pagina di destinazione, tenere presente che il campo evento `interactionType` potrebbe non sempre riflettere con precisione l&#39;azione utente specifica. Per determinare con precisione se un utente ha rinunciato, effettuato l&#39;abbonamento o eseguito un&#39;altra azione, verificare sempre gli attributi effettivi del profilo (ad esempio le preferenze di consenso) o i valori dei campi modulo, anziché affidarsi esclusivamente all&#39;evento `interactionType`.
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
