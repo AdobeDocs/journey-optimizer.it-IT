@@ -5,9 +5,9 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [Configurazione dell&#39;applicazione mobile](help/using/configuration/set-mobile-config.md) - 6 dicembre
 - [Contenuto multilingue con traduzione manuale](help/using/content-management/multilingual-provider.md) - 5 dicembre
 - [Utilizza il processo decisionale nelle esperienze basate su codice](help/using/experience-decisioning/experience-decisioning-uc.md) - 3 dicembre
-- [Report schede contenuto](help/using/content-card/content-card-report.md) - 2 dicembre
-- [Crea una scheda di contenuti](help/using/content-card/create-content-card.md) - 2 dicembre
-- [Introduzione alla scheda dei contenuti](help/using/content-card/get-started-content-card.md) - 2 dicembre
-- [Progettare le schede di contenuto](help/using/content-card/design-content-card.md) - 2 dicembre
-- [Prerequisiti per la configurazione della scheda dei contenuti](help/using/content-card/content-card-configuration-prereq.md) - 2 dicembre
-- [Configurazione SDK scheda contenuti](help/using/content-card/content-card-configuration-sdk.md) - 2 dicembre
-- [Configurazione scheda contenuto](help/using/content-card/content-card-configuration.md) - 2 dicembre
 - [Crea una campagna azione](help/using/campaigns/create-campaign.md) - 2 dicembre
 - [Esecuzione riscaldamento IP](help/using/configuration/ip-warmup-execution.md) - 26 novembre
 - [Crea una pagina di destinazione](help/using/landing-pages/create-lp.md) - 25 novembre

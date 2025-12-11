@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
 source-wordcount: '3013'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -50,7 +50,7 @@ ht-degree: 97%
 + Percorsi {#orchestrate-journeys}
    + [Percorsi](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
-   + [Journey Orchestration - Guida completahide="yes"](using/building-journeys/journey-get-started.md)
+   + [Journey Orchestration - Guida completa](using/building-journeys/journey-get-started.md)
    + [Domande frequenti su Journey Orchestration](using/building-journeys/journey-faq.md)
    + Creare un percorso {#create-journey}
       + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -828,7 +828,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
