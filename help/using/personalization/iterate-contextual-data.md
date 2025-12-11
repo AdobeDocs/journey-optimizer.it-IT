@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
+source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -128,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### Esempio: consigli di prodotto da un’API
 
-Per visualizzare i consigli di prodotto restituiti da una chiamata API di azione personalizzata, vedi l’esempio seguente.
+Per scorrere un array di consigli di prodotti restituiti da un’azione personalizzata e visualizzarli come schede singole nel messaggio, vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -172,7 +172,7 @@ Per visualizzare i consigli di prodotto restituiti da una chiamata API di azione
 
 ### Esempio: array nidificati da azioni personalizzate
 
-Per scorrere gli array nidificati restituiti da un’azione personalizzata (ad esempio, categorie con prodotti), vedi l’esempio seguente.
+Per scorrere sopra una risposta di azione personalizzata contenente array nidificati (un array di oggetti, in cui ogni oggetto contiene un altro array), vedi l’esempio seguente. Ciò dimostra l&#39;utilizzo di `{{#each}}` loop nidificati per accedere a più livelli di dati.
 
 +++ Visualizza codice di esempio
 
@@ -301,7 +301,7 @@ Se utilizzi un’attività di ricerca del set di dati per recuperare informazion
 
 ### Esempio: iterazione filtrata con dati del set di dati
 
-Per filtrare e visualizzare solo i prodotti di una categoria specifica quando si esegue l’iterazione sui risultati della ricerca di set di dati, vedi l’esempio seguente.
+Per filtrare i risultati della ricerca del set di dati durante l&#39;iterazione e visualizzare solo gli elementi che corrispondono a criteri specifici (ad esempio, prodotti di una particolare categoria), utilizzare le istruzioni `{{#if}}` condizionali all&#39;interno del ciclo `{{#each}}`. Vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
