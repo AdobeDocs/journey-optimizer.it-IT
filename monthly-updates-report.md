@@ -5,9 +5,9 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,91 @@ ht-degree: 0%
 
 # Rapporto sugli aggiornamenti mensili della documentazione
 
-*Report generato per il 1° ottobre - 3 novembre 2025*
+*Report generato per il 3 novembre - 11 dicembre 2024*
 
 ## Nuove pagine
+
+- [Guida ai criteri di ingresso e uscita del Percorso](help/using/building-journeys/entry-exit-criteria-guide.md) - 11 dicembre
+- [Casi d&#39;uso Percorsi](help/using/building-journeys/jo-use-cases.md) - 11 dicembre
+- [Invia e-mail solo nei giorni feriali](help/using/building-journeys/weekday-email-uc.md) - 11 dicembre
+- [Iterazione su dati contestuali](help/using/personalization/iterate-contextual-data.md) - 11 dicembre
+- [Introduzione alle funzionalità di decisione in Journey Optimizer](help/using/experience-decisioning/gs-decision.md) - 18 novembre
+- [Definisci una superficie per le esperienze basate su codice](help/using/code-based/code-based-surface.md) - 22 novembre
+- [Pubblica e gestisci esperienze basate su codice](help/using/code-based/publish-code-based.md) - 22 novembre
+- [Verifica esperienze basate su codice](help/using/code-based/test-code-based.md) - 22 novembre
+
+## Pagine aggiornate
+
+- [Ricerca dati Adobe Experience Platform per personalizzazione](help/using/personalization/lookup-aep-data.md) - 10 dicembre
+- [Configurazione dell&#39;applicazione mobile](help/using/configuration/set-mobile-config.md) - 6 dicembre
+- [Contenuto multilingue con traduzione manuale](help/using/content-management/multilingual-provider.md) - 5 dicembre
+- [Utilizza il processo decisionale nelle esperienze basate su codice](help/using/experience-decisioning/experience-decisioning-uc.md) - 3 dicembre
+- [Report schede contenuto](help/using/content-card/content-card-report.md) - 2 dicembre
+- [Crea una scheda di contenuti](help/using/content-card/create-content-card.md) - 2 dicembre
+- [Introduzione alla scheda dei contenuti](help/using/content-card/get-started-content-card.md) - 2 dicembre
+- [Progettare le schede di contenuto](help/using/content-card/design-content-card.md) - 2 dicembre
+- [Prerequisiti per la configurazione della scheda dei contenuti](help/using/content-card/content-card-configuration-prereq.md) - 2 dicembre
+- [Configurazione SDK scheda contenuti](help/using/content-card/content-card-configuration-sdk.md) - 2 dicembre
+- [Configurazione scheda contenuto](help/using/content-card/content-card-configuration.md) - 2 dicembre
+- [Crea una campagna azione](help/using/campaigns/create-campaign.md) - 2 dicembre
+- [Esecuzione riscaldamento IP](help/using/configuration/ip-warmup-execution.md) - 26 novembre
+- [Crea una pagina di destinazione](help/using/landing-pages/create-lp.md) - 25 novembre
+- [Rapporto live pagina di destinazione](help/using/reports/lp-report-live.md) - 25 novembre
+- [Configurazione basata su codice](help/using/code-based/code-based-configuration.md) - 22 novembre
+- [Esempi di metodi di implementazione basati su codice](help/using/code-based/code-based-implementation-samples.md) - 22 novembre
+- [Prerequisiti e guardrail basati su codice](help/using/code-based/code-based-prerequisites.md) - 22 novembre
+- [Crea un&#39;esperienza basata su codice](help/using/code-based/create-code-based.md) - 22 novembre
+- [Introduzione alle esperienze basate su codice](help/using/code-based/get-started-code-based.md) - 22 novembre
+- [Anteprima e verifica del contenuto](help/using/content-management/preview.md) - 22 novembre
+- [Configurazione canale web](help/using/web/web-configuration.md) - 22 novembre
+- [Crea un profilo di test](help/using/building-journeys/creating-test-profiles.md) - 22 novembre
+- [Invia bozze](help/using/content-management/proofs.md) - 22 novembre
+- [Modelli di contenuto di prova](help/using/content-management/test-content-templates.md) - 22 novembre
+- [Usa profili di test](help/using/content-management/test-profiles.md) - 22 novembre
+- [Crea un&#39;e-mail](help/using/email/create-email.md) - 22 novembre
+- [Personalizzazione superficie](help/using/email/surface-personalization.md) - 22 novembre
+- [Crea una notifica push](help/using/push/create-push.md) - 22 novembre
+- [Invia una notifica push](help/using/push/send-push.md) - 22 novembre
+- [Invia un SMS (SMS/MMS)](help/using/sms/send-sms.md) - 22 novembre
+- [Percorso utente per addetto marketing](help/using/start/path/marketer.md) - 22 novembre
+- [Percorso utente per l&#39;amministratore](help/using/start/path/administrator.md) - 22 novembre
+- [Anteprima e verifica del messaggio](help/using/content-management/preview-test.md) - 22 novembre
+- [Controllo dell&#39;accesso basato su attributi](help/using/administration/attribute-based-access.md) - 21 novembre
+- [Controllo dell&#39;accesso a livello di oggetto](help/using/administration/object-based-access.md) - 21 novembre
+- [Utilizzare le campagne attivate dall&#39;API](help/using/campaigns/api-triggered-campaigns.md) - 21 novembre
+- [Introduzione alla gestione delle decisioni](help/using/offers/get-started/starting-offer-decisioning.md) - 21 novembre
+- [Campagne di riscaldamento IP](help/using/configuration/ip-warmup-campaign.md) - 20 novembre
+- [Piano di riscaldamento IP](help/using/configuration/ip-warmup-plan.md) - 20 novembre
+- [Panoramica autorizzazioni](help/using/administration/permissions-overview.md) - 15 novembre
+- [Decisioning rapporti di CJA](help/using/experience-decisioning/cja-reporting.md) - 15 novembre
+- [Frammenti](help/using/content-management/fragments.md) - 15 novembre
+- [Introduzione ai tipi di pubblico di Adobe Experience Platform](help/using/audience/about-audiences.md) - 14 novembre
+- [Utilizza tipi di pubblico di caricamento personalizzati per il decisioning (composizione federata)](help/using/audience/custom-upload-fac.md) - 14 novembre
+- [Configura provider Sinch](help/using/sms/sms-configuration-sinch.md) - 12 novembre
+- [Rapporti sulle campagne in Customer Journey Analytics](help/using/reports/channel-report-cja.md) - 12 novembre
+- [Rapporti Percorso in Customer Journey Analytics](help/using/reports/journey-global-report-cja.md) - 12 novembre
+- [Contenuto multilingue con traduzione automatica](help/using/content-management/multilingual-automated.md) - 12 novembre
+- [Decisioning cataloghi](help/using/experience-decisioning/catalogs.md) - 7 novembre
+- [Crea e gestisci raccolte di elementi di decisione](help/using/experience-decisioning/collections.md) - 7 novembre
+- [Dati contestuali](help/using/experience-decisioning/context-data.md) - 7 novembre
+- [Introduzione ai criteri di decisione](help/using/experience-decisioning/create-decision.md) - 7 novembre
+- [Introduzione a Experience Decisioning](help/using/experience-decisioning/gs-experience-decisioning.md) - 7 novembre
+- [Elementi decisionali](help/using/experience-decisioning/items.md) - 7 novembre
+- [Metodi di classificazione delle decisioni](help/using/experience-decisioning/ranking.md) - 7 novembre
+- [Regole di compilazione](help/using/experience-decisioning/rules.md) - 7 novembre
+- [Creare strategie di selezione](help/using/experience-decisioning/selection-strategies.md) - 7 novembre
+- [Operazioni con i set di regole](help/using/configuration/rule-sets.md) - 6 novembre
+- [Crea decisioni](help/using/offers/offer-activities/create-offer-activities.md) - 5 novembre
+- [Crea una raccolta](help/using/offers/offer-library/creating-collections.md) - 5 novembre
+- [Crea offerte personalizzate](help/using/offers/offer-library/creating-personalized-offers.md) - 5 novembre
+- [Crea posizionamenti](help/using/offers/offer-library/creating-placements.md) - 5 novembre
+- [Creare strategie di classificazione](help/using/offers/ranking/create-ranking-strategies.md) - 5 novembre
+
+---
+
+## Relazione precedente: 1 ottobre - 3 novembre 2025
+
+### Nuove pagine
 
 - [IA e funzionalità intelligenti in Adobe Journey Optimizer](help/using/start/ai-features.md) - 31 ottobre
 - [Gestisci le preferenze dei tuoi clienti](help/using/action/preference-center.md) - 24 ottobre
@@ -37,7 +119,7 @@ ht-degree: 0%
 - [Ciclo di rilascio di Adobe Journey Optimizer](help/using/rn/releases.md) - 28 ottobre
 - [Contenuto messaggio progettazione](help/using/start/message-content-design.md) - 18 ottobre
 
-## Pagine aggiornate
+### Pagine aggiornate
 
 - [Documentazione di Adobe Journey Optimizer](help/ajo-home.md) - 22 ottobre
 - [Gestione dei contenuti](help/rp_landing_pages/content-management-landing-page.md) - 27 ottobre
