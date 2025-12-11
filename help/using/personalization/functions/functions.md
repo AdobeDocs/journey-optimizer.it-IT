@@ -6,30 +6,39 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 2%
 
 ---
 
 # Introduzione alle funzioni helper{#functions}
 
-Utilizza il linguaggio di modelli [!DNL Journey Optimizer] per eseguire operazioni sui dati, ad esempio calcoli, formattazione o conversioni di dati, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
+Le funzioni di supporto consentono di trasformare e manipolare i dati all’interno dei contenuti personalizzati. Puoi utilizzarli per eseguire calcoli, formattare dati, applicare condizioni ed eseguire varie operazioni per creare esperienze dinamiche e personalizzate per i clienti.
+
+Queste funzioni sfruttano il linguaggio di modelli [!DNL Journey Optimizer]. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
 
 ➡️ [Scopri come utilizzare le funzioni di assistenza in questo video](#video)
 
-Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibili nell’elenco a discesa di personalizzazione dell’editor di personalizzazione, come segue:
+## Accedere alle funzioni di assistenza
+
+Le funzioni helper sono disponibili dal menu delle funzioni dell’editor di personalizzazione:
 
 ![](../assets/access-helper-functions.png)
 
-Nell&#39;editor di personalizzazione [!DNL Journey Optimizer], le funzioni di supporto sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
+Le funzioni sono organizzate in tre categorie per facilitarne la navigazione:
 
-Seleziona una categoria per accedere alle sottocategorie e alle funzioni.
+* **[Funzioni](#functions-helper)** - Operazioni di trasformazione e manipolazione dei dati
+* **[Helpers](#helper-helper)** - Logica condizionale e funzioni di utilità
+* **[Operatori](#operators-helper)** - Operatori logici e di confronto
 
-Accedere alle sottocategorie facendo clic sull&#39;icona `>`. Selezionare una funzione facendo clic sull&#39;icona `+`: la funzione viene aggiunta automaticamente alla schermata di personalizzazione.
+**Per utilizzare una funzione helper:**
 
-Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e aggiungerla ai preferiti. [Ulteriori informazioni](../personalize.md#fav)
+1. Seleziona una categoria per visualizzarne le sottocategorie e le funzioni disponibili
+1. Fai clic sull&#39;icona `>` per espandere le sottocategorie
+1. Fai clic sull&#39;icona `+` accanto a una funzione per aggiungerla al codice di personalizzazione
+1. Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione o aggiungerla ai preferiti. [Ulteriori informazioni](../personalize.md#fav)
 
 >[!NOTE]
 >
@@ -518,4 +527,4 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
