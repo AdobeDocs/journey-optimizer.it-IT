@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Invia e-mail solo nei giorni feriali
+title: Inviare e-mail solo nei giorni feriali
 description: Scopri come configurare un percorso per l’invio di e-mail solo nei giorni feriali in Adobe Journey Optimizer
 feature: Journeys, Use Cases, Email
 topic: Content Management
@@ -9,16 +9,14 @@ role: User
 level: Intermediate
 keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificazione
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Invia e-mail solo nei giorni feriali {#send-emails-only-on-weekdays}
+# Inviare e-mail solo nei giorni feriali {#send-emails-only-on-weekdays}
 
 Questo caso d’uso illustra come configurare un percorso in Adobe Journey Optimizer che invia e-mail solo nei giorni feriali (dal lunedì al venerdì). Per i profili che entrano nel percorso nei fine settimana (sabato o domenica), le e-mail vengono automaticamente messe in coda e inviate il lunedì a un’ora specificata. Questo assicura un coinvolgimento ottimale distribuendo messaggi durante la settimana lavorativa.
 
@@ -55,7 +53,7 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition ]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 

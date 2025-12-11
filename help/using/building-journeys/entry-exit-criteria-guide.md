@@ -6,11 +6,9 @@ description: Scopri come gestire in modo efficace il momento in cui i profili en
 feature: Journeys, Profiles
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
-source-git-commit: 9e5b85dec8a58a4d008ab63337589352c0fa5ee6
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -140,7 +138,7 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 
 >[!TIP]
 >
->Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [&#x200B; Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [ Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best practice per la gestione di entrata e uscita {#best-practices}
 
