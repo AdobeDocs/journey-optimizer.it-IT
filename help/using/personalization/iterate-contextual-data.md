@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
+source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2666'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,7 @@ Questa guida illustra come eseguire iterazioni su array da ciascuna di queste or
 
 ## Sintassi di iterazione Handlebars {#syntax}
 
-Handlebars fornisce a `{{#each}}` [helper](functions/helpers.md) l&#39;iterazione su array.
-
-+++ Sintassi di base
+Handlebars fornisce a `{{#each}}` [helper](functions/helpers.md) l&#39;iterazione su array. La sintassi di base è:
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -54,8 +52,6 @@ Handlebars fornisce a `{{#each}}` [helper](functions/helpers.md) l&#39;iterazion
 * Sostituisci `item` con il nome di variabile desiderato (ad esempio `product`, `response`, `element`)
 * Accedere alle proprietà di ogni elemento utilizzando `{{item.propertyName}}`
 * È possibile nidificare più blocchi `{{#each}}` per array multilivello
-
-+++
 
 ## Iterazione dei dati evento {#event-data}
 
@@ -76,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come segue:
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -94,7 +90,7 @@ Se lo schema [evento](../event/experience-event-schema.md) include un array `pro
 
 ### Esempio: array nidificati negli eventi
 
-Per le strutture nidificate, utilizzare blocchi `{{#each}}` nidificati. Ulteriori informazioni sulla nidificazione in [Best practice](#best-practices).
+Per le strutture nidificate, utilizzare blocchi `{{#each}}` nidificati.
 
 +++ Visualizza codice di esempio
 
@@ -110,6 +106,8 @@ Per le strutture nidificate, utilizzare blocchi `{{#each}}` nidificati. Ulterior
 ```
 
 +++
+
+Ulteriori informazioni sulla nidificazione in [Best practice](#best-practices).
 
 ## Alterna le risposte di azione personalizzate {#custom-action-responses}
 
@@ -130,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### Esempio: consigli di prodotto da un’API
 
-Se l’azione personalizzata restituisce consigli di prodotto:
+Per visualizzare i consigli di prodotto restituiti da una chiamata API di azione personalizzata, vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -174,7 +172,7 @@ Se l’azione personalizzata restituisce consigli di prodotto:
 
 ### Esempio: array nidificati da azioni personalizzate
 
-Se l’azione personalizzata restituisce array nidificati (ad esempio, categorie con prodotti). Per schemi di nidificazione più complessi, consulta [Best practice](#best-practices).
+Per scorrere gli array nidificati restituiti da un’azione personalizzata (ad esempio, categorie con prodotti), vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -208,9 +206,11 @@ Se l’azione personalizzata restituisce array nidificati (ad esempio, categorie
 
 +++
 
+Per schemi di nidificazione più complessi, consulta [Best practice](#best-practices).
+
 ### Esempio: vantaggi del livello fedeltà
 
-Visualizzare i vantaggi dinamici in base allo stato di fedeltà:
+Per visualizzare i vantaggi dinamici in base allo stato di fedeltà, vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -264,7 +264,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ### Esempio: dettagli del prodotto da un set di dati
 
-Se utilizzi un’attività di ricerca del set di dati per recuperare informazioni di prodotto in base agli SKU:
+Se utilizzi un’attività di ricerca del set di dati per recuperare informazioni di prodotto in base agli SKU, vedi l’esempio di seguito.
 
 +++ Visualizza codice di esempio
 
@@ -301,7 +301,7 @@ Se utilizzi un’attività di ricerca del set di dati per recuperare informazion
 
 ### Esempio: iterazione filtrata con dati del set di dati
 
-Visualizza solo i prodotti di una categoria specifica. Ulteriori informazioni sul filtro condizionale in [Best practice](#best-practices).
+Per filtrare e visualizzare solo i prodotti di una categoria specifica quando si esegue l’iterazione sui risultati della ricerca di set di dati, vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -319,7 +319,11 @@ Visualizza solo i prodotti di una categoria specifica. Ulteriori informazioni su
 
 +++
 
+Ulteriori informazioni sul filtro condizionale in [Best practice](#best-practices).
+
 ### Esempio: calcolare i totali dalla ricerca del set di dati
+
+Per calcolare e visualizzare i totali mentre si esegue l’iterazione sui risultati della ricerca di set di dati, vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -371,6 +375,8 @@ Quando si utilizzano identificatori supplementari in percorsi attivati da eventi
 
 ### Esempio: Includi ID percorso per il tracciamento
 
+Per includere l’ID percorso nel messaggio a scopo di tracciamento, vedi l’esempio seguente.
+
 +++ Visualizza codice di esempio
 
 ```handlebars
@@ -393,7 +399,7 @@ Puoi combinare dati provenienti da origini diverse nello stesso messaggio per cr
 
 ### Esempio: articoli del carrello con inventario in tempo reale
 
-Combina i dati evento (contenuti del carrello) con i dati azione personalizzati (stato inventario):
+Per combinare i dati evento (contenuti del carrello) con i dati azione personalizzati (stato inventario), vedi il campione di seguito.
 
 +++ Visualizza codice di esempio
 
@@ -425,7 +431,7 @@ Combina i dati evento (contenuti del carrello) con i dati azione personalizzati 
 
 ### Esempio: dati evento arricchiti con la ricerca del set di dati
 
-Combina [SKU evento](#event-data) con informazioni dettagliate sul prodotto da una [ricerca set di dati](#dataset-lookup):
+Per combinare [SKU evento](#event-data) con informazioni dettagliate sul prodotto da una [ricerca set di dati](#dataset-lookup), vedi l&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -451,6 +457,8 @@ Combina [SKU evento](#event-data) con informazioni dettagliate sul prodotto da u
 +++
 
 ### Esempio: combinare più origini con proprietà tecniche
+
+Per combinare più origini di contesto (dati di profilo, dati di evento, azioni personalizzate e proprietà tecniche) in un singolo messaggio, vedi l’esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -518,9 +526,9 @@ Ulteriori informazioni sul passaggio delle raccolte in [Trasmettere le raccolte 
 
 **Caso d&#39;uso**: ottieni un campo specifico da un array di eventi da passare come parametro di query in una richiesta GET.
 
-**Scenario di esempio**: estrarre il primo SKU con un prezzo maggiore di 0 da un elenco di prodotti.
-
 +++ Visualizza codice di esempio
+
+**Scenario di esempio**: estrarre il primo SKU con un prezzo maggiore di 0 da un elenco di prodotti.
 
 **Esempio di schema evento**:
 
@@ -711,7 +719,7 @@ Questo è un flusso di lavoro completo che mostra come utilizzare un array di ev
 
 **Scenario**: quando un utente abbandona il carrello, invia i dati del carrello a un&#39;API di consigli esterna per ottenere suggerimenti personalizzati, quindi visualizzali in un messaggio e-mail.
 
-+++ Visualizza esempio completo
++++ Visualizza codice di esempio
 
 **Passaggio 1: configurare l&#39;azione personalizzata**
 
@@ -815,7 +823,7 @@ Segui queste best practice durante l’iterazione di dati contestuali per creare
 
 Scegli nomi di variabili che indichino chiaramente ciò su cui stai eseguendo l’iterazione. Questo rende il codice più leggibile e di facile gestione. Ulteriori informazioni sulla [sintassi di personalizzazione](personalization-syntax.md):
 
-+++ Visualizza esempio
++++ Visualizza codice di esempio
 
 ```handlebars
 <!-- Good -->
@@ -834,7 +842,7 @@ Scegli nomi di variabili che indichino chiaramente ciò su cui stai eseguendo l�
 
 Utilizzare la clausola `{{else}}` per fornire contenuto di fallback quando un array è vuoto. Ulteriori informazioni sulle [funzioni helper](functions/helpers.md):
 
-+++ Visualizza esempio
++++ Visualizza codice di esempio
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -850,7 +858,7 @@ Utilizzare la clausola `{{else}}` per fornire contenuto di fallback quando un ar
 
 Utilizza `{{#if}}` nei cicli per il contenuto condizionale. Ulteriori informazioni sulle [regole condizionali](create-conditions.md) e esempi nelle [risposte alle azioni personalizzate](#custom-action-responses) e nelle [sezioni di ricerca set di dati](#dataset-lookup).
 
-+++ Visualizza esempio
++++ Visualizza codice di esempio
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -872,7 +880,7 @@ Utilizza `{{#if}}` nei cicli per il contenuto condizionale. Ulteriori informazio
 
 Per array di grandi dimensioni, è consigliabile limitare il numero di iterazioni:
 
-+++ Visualizza esempio
++++ Visualizza codice di esempio
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -893,7 +901,7 @@ Handlebars fornisce variabili speciali all&#39;interno di loop utili per i patte
 * `@first`: True per la prima iterazione
 * `@last`: True per l&#39;ultima iterazione
 
-+++ Visualizza esempio
++++ Visualizza codice di esempio
 
 ```handlebars
 {{#each products as |product|}}
