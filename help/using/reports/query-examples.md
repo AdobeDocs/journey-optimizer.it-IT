@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2749'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++Visualizzare gli eventi dei passaggi per i profili eliminati
+
+Questa query restituisce i dettagli dell’evento del passaggio per i profili eliminati da un percorso. Consente di identificare il motivo per cui i profili sono stati eliminati, ad esempio a causa di regole di business o vincoli di orario non interattivo. La query filtra per tipi di evento di eliminazione specifici e mostra le informazioni chiave tra cui l’ID profilo, l’ID istanza, i dettagli del percorso e l’errore che ha causato l’eliminazione.
+
+_Query Data Lake_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_Esempio_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![Esempio di risultati di query che mostrano i dettagli del profilo scartato](assets/query-discarded-profiles.png)
+
+I risultati della query visualizzano campi chiave che consentono di identificare il motivo degli scarti di profilo:
+
+* **actionExecutionError** - Se impostato su `businessRuleProfileDiscarded`, indica che il profilo è stato eliminato a causa di una regola business. Il campo `eventType` fornisce ulteriori dettagli sulla regola business specifica che ha causato l&#39;eliminazione.
+
+* **eventType** - Specifica il tipo di regola business che ha causato l&#39;eliminazione:
+   * `quietHours`: profilo scartato a causa della configurazione delle ore non interattive
+   * `forcedDiscardDueToQuietHours`: il profilo è stato eliminato forzatamente perché è stato raggiunto il limite di guardrail per i profili mantenuti in ore non interattive
 
 +++
 
