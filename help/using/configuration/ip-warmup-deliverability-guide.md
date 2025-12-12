@@ -144,7 +144,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 
 Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell’IP in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463790/?captions=ita&learn=on)
 
 <!--
 >[!NOTE]
