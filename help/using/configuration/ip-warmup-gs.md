@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, recapitabilità
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 49%
+source-wordcount: '366'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 49%
 
 Con [!DNL Journey Optimizer] è possibile eseguire facilmente flussi di lavoro di riscaldamento IP direttamente dall&#39;interfaccia utente in modo standardizzato ed efficiente, seguendo le best practice per una consegna ottimale. Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) possono ritenere sospetti gli indirizzi IP che non vengono riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente da un nuovo indirizzo IP, gli ISP spesso le contrassegnano come spam.
 
-Per evitare che i messaggi di una tua nuova campagna vengano contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione Piano di preparazione IP. Questa nuova opzione disponibile nel menu **[!UICONTROL Amministrazione]** agevola questo compito in modo consolidato, senza dover creare complessi percorsi giornalieri.
+Per evitare che i messaggi di una tua nuova campagna vengano contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione Piano di preparazione IP. Questa nuova opzione del menu **[!UICONTROL Amministrazione]** consente di automatizzare la gestione dei volumi e di semplificare il processo di riscaldamento senza richiedere complesse configurazioni di percorso.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ I passaggi chiave per implementare un piano di preparazione IP sono i seguenti:
 
 Scopri come creare ed eseguire un piano di preparazione IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453848/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
