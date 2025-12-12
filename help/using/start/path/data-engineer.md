@@ -7,16 +7,16 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '848'
+ht-degree: 50%
 
 ---
 
 # Guida introduttiva per l’ingegnere dati {#data-engineer}
 
-In qualità di **Adobe Journey Optimizer Data Engineer**, devi preparare e gestire i dati del profilo cliente per potenziare le esperienze orchestrate da [!DNL Journey Optimizer], modellare i dati di clienti e aziende negli schemi e configurare i connettori di origine per l&#39;acquisizione dei dati. Una volta che l’[amministratore di sistema](administrator.md) ti avrà concesso l’accesso e avrà preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
+In qualità di **architetto dati** o **ingegnere dati**, devi impostare e gestire i dati del profilo cliente e altre origini dati che alimentano le esperienze orchestrate da [!DNL Journey Optimizer]. Ciò include l’integrazione di tutti i dati aziendali e dei clienti, provenienti da origini web, CRM o offline, in una visualizzazione unificata a 360 gradi del cliente. Puoi modellare i dati del profilo cliente e i dati aziendali in schemi, configurare connettori sorgente per l’acquisizione dei dati e garantire un flusso di dati fluido per consentire approfondimenti sul cliente e coinvolgimento in tempo reale. Una volta che l’[amministratore di sistema](administrator.md) ti avrà concesso l’accesso e avrà preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
 >[!NOTE]
 >

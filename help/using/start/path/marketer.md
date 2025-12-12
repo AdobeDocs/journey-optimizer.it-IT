@@ -7,20 +7,27 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # Introduzione per marketer {#get-started-marketers}
 
-Come **marketer** o **esperto di percorsi**, sei responsabile della creazione di offerte e percorsi e della progettazione del contenuto. Una volta che l’[amministratore di sistema](administrator.md) e il [Data Engineer](data-engineer.md) ti avranno concesso l’accesso e avranno preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
+In qualità di **addetto al marketing** o **professionista aziendale**, progetti percorsi di clienti per fornire esperienze personali e contestuali ai clienti. Puoi creare e gestire tutti i vari componenti di questi percorsi personalizzati, inclusi e-mail e messaggi push, offerte e componenti decisionali, per personalizzare in modo intelligente il contenuto dei messaggi. Journey Optimizer offre un’esperienza utente unificata in cui puoi implementare interi casi d’uso end-to-end in un’unica posizione. Una volta che l’[amministratore di sistema](administrator.md) e il [Data Engineer](data-engineer.md) ti avranno concesso l’accesso e avranno preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
 ## Introduzione alle funzionalità di base
 
-Journey Optimizer ti consente di creare esperienze cliente personalizzate e connesse per e-mail, SMS, push, in-app, web, schede di contenuto e altro ancora. Collabora con i tuoi [amministratori](administrator.md) per ottenere l&#39;accesso e con [Data Engineer](data-engineer.md) per configurare tipi di pubblico e dati.
+Journey Optimizer riunisce in un&#39;unica applicazione approfondimenti sul cliente in tempo reale, orchestrazione omnicanale moderna e decisioni intelligenti. Crea esperienze cliente personalizzate e connesse tramite e-mail, SMS, push, in-app, web, schede di contenuti e altro ancora.
+
+Journey Optimizer offre due potenti approcci di orchestrazione:
+
+* **Percorsi**: coinvolgimento in tempo reale, uno a uno, in cui ogni cliente si sposta secondo il proprio ritmo, attivato da comportamenti o eventi
+* **Campagne orchestrate**: campagne batch complesse e in più passaggi su larga scala in cui il pubblico avanza insieme attraverso i flussi di lavoro; perfetto per campagne avviate dal brand come promozioni stagionali, avvii di prodotti o comunicazioni basate su account
+
+Collabora con i tuoi [amministratori](administrator.md) per ottenere l&#39;accesso e con [data engineer](data-engineer.md) per configurare tipi di pubblico, dati e schemi relazionali per la segmentazione avanzata.
 
 Per iniziare a creare esperienze, segui i passaggi principali seguenti:
 
@@ -63,6 +70,17 @@ Per iniziare a creare esperienze, segui i passaggi principali seguenti:
 
    Scopri come [progettare ed eseguire percorsi](../../building-journeys/journey-gs.md) ed esplorare [casi d&#39;uso percorsi](../../building-journeys/jo-use-cases.md). Comprendere i criteri di [entrata/uscita](../../building-journeys/entry-exit-criteria-guide.md) per controllare il flusso del profilo.
 
+1. **Avvia campagne orchestrate**. Progetta campagne batch complesse e in più fasi su larga scala utilizzando un’area di lavoro visiva:
+
+   * Crea **tipi di pubblico on-demand** all&#39;istante utilizzando query relazionali per collegare i dati dei clienti con account, acquisti, abbonamenti e altre entità
+   * Crea **segmentazione multi-entità** per il targeting preciso (ad esempio, &quot;clienti con abbonamenti in scadenza tra 30 giorni&quot; o &quot;account con acquisti di valore elevato recenti&quot;)
+   * Ottieni **visibilità pre-invio** con conteggi accurati del pubblico prima dell&#39;avvio
+   * Progetta **flussi di lavoro con più passaggi** per promozioni stagionali, avvii di prodotti, offerte fedeltà o marketing basato su account
+   * Pianifica l’esecuzione immediata delle campagne, in orari specifici o su pianificazioni ricorrenti (giornaliere, settimanali, mensili)
+   * Elabora i tipi di pubblico in **modalità batch** in cui tutti i profili avanzano insieme attraverso il flusso di lavoro
+
+   Scopri come [iniziare a utilizzare le campagne orchestrate](../../orchestrated/gs-orchestrated-campaigns.md) e quando [utilizzare le campagne rispetto ai percorsi](../../orchestrated/orchestrated-campaigns-faq.md).
+
 1. **Monitora e ottimizza**. Monitora le prestazioni e migliora i risultati nel tempo:
    * Monitora le prestazioni di **live percorsi** e identifica i colli di bottiglia
    * Analizza **tassi di recapito messaggi** e metriche di coinvolgimento
@@ -91,6 +109,15 @@ Per iniziare a creare esperienze, segui i passaggi principali seguenti:
 
 [Scopri le best practice per i percorsi](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
 
+### Orchestrazione delle campagne
+
+* **Scegliere l&#39;approccio corretto**: utilizzare Percorsi per esperienze attivate dal comportamento in tempo reale; utilizzare campagne orchestrate per campagne pianificate in batch
+* **Definire chiari gli obiettivi della campagna**: stabilire gli obiettivi prima di progettare flussi di lavoro con più passaggi
+* **Inizia con tipi di pubblico pilota**: convalida i conteggi e la logica di segmentazione prima del ridimensionamento
+* **Sfruttare i dati relazionali**: utilizza la segmentazione tra più entità per collegare i dati dei clienti con account, acquisti e abbonamenti per un targeting preciso
+* **Segmentazione semplice**: ottimizzazione delle prestazioni e della trasparenza con regole chiare e gestibili
+* **Utilizza nomi coerenti**: semplifica la gestione delle campagne con la cancellazione delle convenzioni di denominazione
+
 ### Targeting del pubblico
 
 * **Segmento attento**: crea segmenti di pubblico specifici e actionable in base a criteri chiari
@@ -111,14 +138,22 @@ Per iniziare a creare esperienze, segui i passaggi principali seguenti:
 
 Scopri alcuni esempi pratici che illustrano le funzionalità di Journey Optimizer:
 
-**Casi d&#39;uso comuni:**
+**Casi d&#39;uso Percorsi** (in tempo reale, uno a uno):
 
 * **Serie di benvenuto**: consente di integrare nuovi clienti con percorsi personalizzati e in più passaggi. [Visualizza caso d&#39;uso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * **Ripristino carrello abbandonato**: coinvolgi nuovamente i clienti che hanno lasciato elementi nel carrello. [Visualizza caso d&#39;uso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **Campagne di ricoinvolgimento**: riconquista i clienti inattivi con offerte mirate. [Visualizza caso d&#39;uso](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **Campagne di compleanno**: invia messaggi di compleanno personalizzati con offerte speciali
-* **Consigli sui prodotti**: suggerisci prodotti rilevanti in base alla cronologia di navigazione e acquisto
 * **Messaggistica basata su eventi**: rispondi alle azioni dei clienti in tempo reale
+* **Campagne di compleanno**: invia messaggi di compleanno personalizzati attivati dalle date del profilo
+* **Consigli sui prodotti**: suggerisci prodotti rilevanti in base alla cronologia di navigazione e acquisto
+
+**Casi di utilizzo di campagne orchestrate** (batch, uno-a-molti):
+
+* **Promozioni stagionali**: avvia campagne coordinate tra i segmenti di clienti (ad esempio, vendite per vacanze, ritorno a scuola)
+* **Lanci di prodotti**: annunciare nuovi prodotti a tipi di pubblico mirati con messaggi in sequenza
+* **Offerte del programma fedeltà**: ricompensa i clienti di valore elevato con offerte su più livelli basate sulla cronologia degli acquisti
+* **Marketing basato su account**: account di destinazione con caratteristiche specifiche e contatti correlati
+* **Rinnovi degli abbonamenti**: raggiungi i clienti con abbonamenti in scadenza a breve utilizzando query con più entità
+* **Campagne di ricoinvolgimento**: riconquista i clienti inattivi con offerte mirate in modalità batch. [Visualizza caso d&#39;uso](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **Modelli di Percorso:**
 
@@ -126,15 +161,15 @@ Scopri alcuni esempi pratici che illustrano le funzionalità di Journey Optimize
 * [Messaggistica multicanale](../../building-journeys/journeys-uc.md): combina e-mail e push con eventi di reazione
 * [E-mail solo per il giorno feriale](../../building-journeys/weekday-email-uc.md): pianifica le comunicazioni utilizzando condizioni basate sul tempo
 
-Sfoglia la [libreria dei casi d&#39;uso di percorso](../../building-journeys/jo-use-cases.md) completa per altri modelli e implementazioni.
+Sfoglia la [libreria dei casi d&#39;uso di percorso](../../building-journeys/jo-use-cases.md) e scopri di più sulle [campagne orchestrate](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Collaborare con altri ruoli
 
 Il tuo lavoro di marketing si connette con altri team:
 
-* **Lavora con [Data Engineer](data-engineer.md)**: richiedi nuovi attributi calcolati, fornisci feedback sulla qualità del pubblico e coordina i requisiti dei dati
+* **Lavora con [Data Engineer](data-engineer.md)**: richiedi nuovi attributi calcolati, coordina gli schemi relazionali per le campagne orchestrate, fornisci feedback sulla qualità del pubblico e allinea i requisiti di dati per più entità per la segmentazione avanzata
 * **Lavora con [Sviluppatori](developer.md)**: allinea i trigger degli eventi, verifica le implementazioni mobili e convalida il tracciamento
-* **Lavora con [Amministratori](administrator.md)**: richiedi configurazioni del canale, segnala i problemi con le autorizzazioni e coordina l&#39;abilitazione della nuova funzionalità
+* **Lavora con [Amministratori](administrator.md)**: richiedi configurazioni canale, conferma accesso licenza per campagne orchestrate, segnala problemi con le autorizzazioni e coordina l&#39;abilitazione della nuova funzione
 
 ## Rimani aggiornato
 
