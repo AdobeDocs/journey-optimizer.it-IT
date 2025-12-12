@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, elenco, abbonamento, servizio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '721'
 ht-degree: 7%
 
 ---
@@ -37,6 +37,10 @@ Un servizio di abbonamento può essere utilizzato per:
 I profili possono essere aggiunti a un elenco di iscrizioni tramite una [pagina di destinazione](create-lp.md). Un esempio è presentato in [questa sezione](lp-use-cases.md#subscription-to-a-service).
 
 ## Creare un elenco di iscrizione {#define-subscription-list}
+
+>[!NOTE]
+>
+>Quando crei un elenco di abbonamenti, in Adobe Experience Platform viene generato automaticamente un segmento di streaming associato. Affinché il segmento di streaming venga creato correttamente, il criterio di unione deve avere l&#39;opzione **Attivo su Edge** abilitata. Ulteriori informazioni sui criteri di idoneità per i segmenti in streaming sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 
