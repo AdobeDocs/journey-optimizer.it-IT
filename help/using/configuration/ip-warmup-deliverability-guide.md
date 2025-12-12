@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, recapito messaggi, reputazione, ISP, coinvolgimento
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -145,7 +144,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 
 Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell’IP in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463790/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
