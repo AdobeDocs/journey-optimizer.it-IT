@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1475'
 ht-degree: 3%
 
 ---
@@ -163,21 +163,40 @@ Scopri alcuni esempi pratici che illustrano le funzionalità di Journey Optimize
 
 Sfoglia la [libreria dei casi d&#39;uso di percorso](../../building-journeys/jo-use-cases.md) e scopri di più sulle [campagne orchestrate](../../orchestrated/gs-orchestrated-campaigns.md).
 
-## Collaborare con altri ruoli
+## Collaborazione tra ruoli
 
 Il tuo lavoro di marketing si connette con altri team:
 
-* **Lavora con [Data Engineer](data-engineer.md)**: richiedi nuovi attributi calcolati, coordina gli schemi relazionali per le campagne orchestrate, fornisci feedback sulla qualità del pubblico e allinea i requisiti di dati per più entità per la segmentazione avanzata
-* **Lavora con [Sviluppatori](developer.md)**: allinea i trigger degli eventi, verifica le implementazioni mobili e convalida il tracciamento
-* **Lavora con [Amministratori](administrator.md)**: richiedi configurazioni canale, conferma accesso licenza per campagne orchestrate, segnala problemi con le autorizzazioni e coordina l&#39;abilitazione della nuova funzione
+>[!BEGINTABS]
 
-## Rimani aggiornato
+>[!TAB Lavora con Data Engineer]
 
-Tieniti al passo con le funzionalità di marketing e le funzionalità di Journey Optimizer più recenti:
+Collabora con [Data Engineer](data-engineer.md) sulle configurazioni di dati e pubblico:
 
-* **[Note sulla versione](../../rn/release-notes.md)**: rivedi le nuove funzioni, gli aggiornamenti dei canali e i miglioramenti rilasciati ogni mese
-* **[Aggiornamenti alla documentazione](../../rn/documentation-updates.md)**: tieni traccia delle modifiche recenti, inclusi nuovi casi d&#39;uso, best practice e documentazione delle funzioni
-* **[Notifiche sul prodotto](../../rn/releases.md#staying-informed)**: scopri come abbonarti agli avvisi e-mail e nel prodotto per gli aggiornamenti di Journey Optimizer, inclusi nuovi canali, i prossimi avvii di funzionalità e importanti annunci di campagne
+* Richiedi nuovi attributi calcolati per la personalizzazione e la segmentazione
+* Coordinare gli schemi relazionali per le campagne orchestrate
+* Fornire feedback sulla qualità del pubblico e sulla precisione dei dati
+* Allineamento ai requisiti di dati per più entità per la segmentazione avanzata
+
+>[!TAB Lavora con gli sviluppatori]
+
+Collabora con [Sviluppatori](developer.md) per il tracciamento degli eventi e l&#39;implementazione:
+
+* Allineare le interazioni utente che devono attivare gli eventi di percorso
+* Test delle implementazioni per dispositivi mobili e web prima del lancio
+* Convalidare il tracciamento per le prestazioni dei contenuti e il coinvolgimento degli utenti
+* Risolvere i problemi relativi alla consegna o alla personalizzazione dei messaggi
+
+>[!TAB Lavora con gli amministratori]
+
+Collabora con [amministratori](administrator.md) per l&#39;accesso e le configurazioni:
+
+* Richiedi configurazioni del canale per campagne e percorsi
+* Conferma l’accesso alla licenza per le campagne orchestrate e altre funzioni
+* Segnala i problemi relativi alle autorizzazioni o all’accesso
+* Coordinazione in nuovi ambienti di abilitazione e test delle funzioni
+
+>[!ENDTABS]
 
 ## Passaggi successivi
 

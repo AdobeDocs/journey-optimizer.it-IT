@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -67,10 +67,37 @@ Una volta che i percorsi sono in esecuzione, puoi eseguire query sugli eventi de
 
 Esplora gli esempi di query pronti all&#39;uso [per l&#39;analisi dei percorsi](../../reports/query-examples.md) per iniziare a utilizzare l&#39;analisi dei dati e la risoluzione dei problemi.
 
-## Rimani aggiornato
+## Collaborazione tra ruoli
 
-Tenere il passo con le funzionalità e i miglioramenti più recenti di Journey Optimizer:
+Il lavoro di configurazione dei dati è essenziale per gli altri team:
 
-* **[Note sulla versione](../../rn/release-notes.md)**: rivedi le nuove funzioni, i miglioramenti e le correzioni rilasciati ogni mese
-* **[Aggiornamenti alla documentazione](../../rn/documentation-updates.md)**: tieni traccia delle modifiche recenti apportate alla documentazione, inclusi nuove pagine e contenuto aggiornato
-* **[Notifiche sul prodotto](../../rn/releases.md#staying-informed)**: scopri come abbonarti agli avvisi e-mail e nel prodotto per gli aggiornamenti di Journey Optimizer, incluse nuove funzioni, finestre di manutenzione e modifiche importanti al sistema
+>[!BEGINTABS]
+
+>[!TAB Lavora con gli amministratori]
+
+Collabora con [Amministratori](administrator.md) per l&#39;accesso e la governance:
+
+* Richiedi le autorizzazioni necessarie per la gestione dei dati e la creazione di schemi
+* Coordinazione sull’accesso alla sandbox per sviluppo e test
+* Allinea i criteri di governance dei dati e la gestione del consenso
+* Analisi delle regole di conservazione dei dati e dei requisiti di storage
+
+>[!TAB Lavora con gli sviluppatori]
+
+Collabora con [sviluppatori](developer.md) sulla struttura dei dati e sugli eventi:
+
+* Fornire schemi XDM e strutture di eventi necessari per l’implementazione
+* Definisci quali eventi devono essere inviati e il formato del payload richiesto
+* Allineamento ai requisiti di raccolta dei dati e agli standard di qualità dei dati
+* Testare insieme la consegna degli eventi e l’acquisizione dei dati
+
+>[!TAB Lavora con gli addetti al marketing]
+
+Collabora con [addetti al marketing](marketer.md) su tipi di pubblico e dati:
+
+* Creare attributi calcolati per la personalizzazione e la segmentazione
+* Crea tipi di pubblico in base ai requisiti di campagna e percorso
+* Configurare schemi relazionali per campagne orchestrate
+* Supporto della segmentazione di più entità per casi d’uso avanzati
+
+>[!ENDTABS]

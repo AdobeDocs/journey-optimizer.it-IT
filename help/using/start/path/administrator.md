@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 51%
 
 ---
 
@@ -88,23 +88,40 @@ Man mano che le esigenze della tua organizzazione aumentano, considera queste fu
 
 * **Piani di riscaldamento IP**: aumenta gradualmente i volumi di invio di e-mail per creare la reputazione del mittente con i provider di e-mail. [Ulteriori informazioni](../../configuration/ip-warmup-gs.md)
 
-## Collaborare con altri ruoli
+## Collaborazione tra ruoli
 
 Il tuo lavoro amministrativo consente a tutti i team di avere successo:
 
-* **Supporto per [Data Engineer](data-engineer.md)**: concedere autorizzazioni per la gestione dei dati, approvare l&#39;accesso alla sandbox e coordinare i criteri di conservazione dei dati
+>[!BEGINTABS]
 
-* **Abilita [Sviluppatori](developer.md)**: fornisci le credenziali API, configura gli ambienti sandbox per i test e approva le configurazioni dei canali
+>[!TAB Tecnici dei dati di supporto]
 
-* **Potenziare [Gli addetti al marketing](marketer.md)**: assegna le autorizzazioni appropriate per creare percorsi e campagne, configurare i canali da utilizzare e supportare gli ambienti di test
+Collabora con [Data Engineer](data-engineer.md) per la gestione dei dati e l&#39;accesso:
 
-## Rimani aggiornato
+* Concedere le autorizzazioni per la gestione dei dati e la creazione di schemi
+* Approvare l’accesso alla sandbox per lo sviluppo e il test
+* Coordinare le regole di conservazione dei dati e le regole di governance
+* Abilita l’accesso a funzioni avanzate come Federated Audience Composition
 
-Aggiornamenti più recenti della piattaforma Journey Optimizer e modifiche amministrative:
+>[!TAB Abilita sviluppatori]
 
-* **[Note sulla versione](../../rn/release-notes.md)**: rivedi nuove funzioni, aggiornamenti della piattaforma, patch di sicurezza e modifiche alla configurazione rilasciati ogni mese
-* **[Aggiornamenti alla documentazione](../../rn/documentation-updates.md)**: tieni traccia delle modifiche recenti alle guide alla configurazione, agli aggiornamenti delle autorizzazioni e alle nuove funzionalità amministrative
-* **[Notifiche sul prodotto](../../rn/releases.md#staying-informed)**: scopri come abbonarti agli avvisi e-mail e nel prodotto per gli aggiornamenti di Journey Optimizer, inclusi la manutenzione del sistema, gli aggiornamenti per la sicurezza e gli annunci critici sui prodotti. In qualità di amministratore, devi abilitare tutte le notifiche critiche del sistema
+Collabora con [sviluppatori](developer.md) per l&#39;accesso e il test API:
+
+* Fornire le credenziali API tramite Adobe Developer Console
+* Configurare gli ambienti sandbox per lo sviluppo e il test
+* Approvare le configurazioni del canale (certificati push, provider SMS)
+* Coordinare gli ambienti di test e la strategia di implementazione
+
+>[!TAB Potenziare gli addetti al marketing]
+
+Collabora con [addetti al marketing](marketer.md) per le autorizzazioni e la configurazione dei canali:
+
+* Assegnare le autorizzazioni appropriate per la creazione di percorsi e campagne
+* Configura i canali da utilizzare (e-mail, push, SMS, ecc.)
+* Supporto di ambienti di test e flussi di lavoro di approvazione
+* Abilitare l’accesso a nuove funzioni e funzionalità
+
+>[!ENDTABS]
 
 ## Passaggi successivi
 
