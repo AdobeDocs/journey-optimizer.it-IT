@@ -201,7 +201,7 @@ Journey Optimizer fornisce API REST complete per l’accesso programmatico:
 
 ## Test e debug {#testing}
 
-1. **Implementazione debug di SDK**: utilizza Adobe Experience Platform Assurance per controllare gli eventi di SDK, convalidare la raccolta dati e risolvere in tempo reale i problemi di integrazione. [Ulteriori informazioni su Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+1. **Implementazione debug di SDK**: utilizza Adobe Experience Platform Assurance per controllare gli eventi di SDK, convalidare la raccolta dati e risolvere in tempo reale i problemi di integrazione. [Ulteriori informazioni su Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
 
 1. **Consegna evento di test**: verifica che gli eventi dell&#39;applicazione siano ricevuti correttamente da Adobe Experience Platform e attiva i percorsi come previsto. Monitora l’acquisizione degli eventi e convalida la struttura del payload.
 
