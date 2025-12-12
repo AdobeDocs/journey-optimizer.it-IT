@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 1%
 
 ---
 
 # Esempi di query{#query-examples}
 
-In questa sezione sono elencati diversi esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi di Percorso in Data Lake.
+Questa sezione fornisce esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi di Percorso in Data Lake. Prima di immergerti in casi d’uso specifici, è importante comprendere gli identificatori chiave utilizzati nei dati dell’evento di percorso.
 
 Assicurati che i campi utilizzati nelle query abbiano valori associati nello schema corrispondente.
 
-+++Qual è la differenza tra ID, ID istanza e ID profilo
+## Informazioni sugli identificatori chiave {#key-identifiers}
+
++++Qual è la differenza tra id, instanceID e profileID
 
 * id: univoco per tutte le voci evento del passaggio. Due eventi di passaggio diversi non possono avere lo stesso ID.
-* instanceId: instanceID è lo stesso per tutti gli eventi di passaggio associati a un profilo all’interno di un’esecuzione di percorso. Se un profilo torna nel percorso, verrà utilizzato un instanceId diverso. Questo nuovo instanceId sarà lo stesso per tutti gli eventi di passaggio dell’istanza reinserita (dall’inizio alla fine).
+* instanceID: instanceID è lo stesso per tutti gli eventi di passaggio associati a un profilo all’interno di un’esecuzione di percorso. Se un profilo entra nuovamente nel percorso, verrà utilizzato un instanceID diverso. Questo nuovo instanceID sarà lo stesso per tutti gli eventi di passaggio dell’istanza reinserita (dall’inizio alla fine).
 * profileID: l’identità del profilo corrispondente allo spazio dei nomi del percorso.
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![Esempio di risultati di query che mostrano i dettagli del profilo scartato](assets/query-discarded-profiles.png)
 
 I risultati della query visualizzano campi chiave che consentono di identificare il motivo degli scarti di profilo:
 
@@ -1068,7 +1069,7 @@ _Query Data Lake_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
