@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1570'
 ht-degree: 14%
 
 ---
@@ -176,7 +176,7 @@ Le implementazioni Journey Optimizer di successo richiedono collaborazione tra t
 
 Per ulteriori informazioni sugli utenti tipo e sulle funzionalità chiave di Journey Optimizer, guarda il video introduttivo. Il video illustra l’interfaccia utente ed evidenzia le funzioni chiave in base ai flussi di lavoro specifici dei ruoli.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Risorse aggiuntive
 
@@ -193,7 +193,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 
 * [Note sulla versione](../rn/release-notes.md) - Funzioni, miglioramenti e correzioni più recenti
 * [Aggiornamenti alla documentazione](../rn/documentation-updates.md) - Tracciare le recenti modifiche alla documentazione
-* **Notifiche sui prodotti** - Abilita gli avvisi nel tuo [profilo Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} per ricevere notifiche su nuove versioni, finestre di manutenzione e annunci importanti. Fai clic sull’icona del profilo > Preferenze > Notifiche per configurare.
+* [Notifiche sui prodotti](../rn/releases.md#staying-informed) - Scopri come abbonarti agli avvisi e-mail e nel prodotto per gli aggiornamenti Journey Optimizer
 
 **Community e supporto:**
 

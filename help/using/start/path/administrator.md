@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -104,14 +104,7 @@ Aggiornamenti più recenti della piattaforma Journey Optimizer e modifiche ammin
 
 * **[Note sulla versione](../../rn/release-notes.md)**: rivedi nuove funzioni, aggiornamenti della piattaforma, patch di sicurezza e modifiche alla configurazione rilasciati ogni mese
 * **[Aggiornamenti alla documentazione](../../rn/documentation-updates.md)**: tieni traccia delle modifiche recenti alle guide alla configurazione, agli aggiornamenti delle autorizzazioni e alle nuove funzionalità amministrative
-* **Notifiche prodotto**: abilita le notifiche nel tuo [profilo Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} per ricevere avvisi critici su:
-   * Finestre di manutenzione del sistema e tempi di inattività pianificati
-   * Aggiornamenti e patch di sicurezza
-   * Nuove funzioni amministrative e modifiche alle autorizzazioni
-   * Aggiornamenti delle licenze e delle adesioni
-   * Annunci di prodotti critici
-
-  Per abilitare le notifiche, fai clic sull&#39;icona del tuo profilo in alto a destra di Adobe Experience Cloud, vai a **Preferenze > Notifiche** e configura le preferenze per le notifiche Journey Optimizer. In qualità di amministratore, devi abilitare tutte le notifiche critiche del sistema.
+* **[Notifiche sul prodotto](../../rn/releases.md#staying-informed)**: scopri come abbonarti agli avvisi e-mail e nel prodotto per gli aggiornamenti di Journey Optimizer, inclusi la manutenzione del sistema, gli aggiornamenti per la sicurezza e gli annunci critici sui prodotti. In qualità di amministratore, devi abilitare tutte le notifiche critiche del sistema
 
 ## Passaggi successivi
 

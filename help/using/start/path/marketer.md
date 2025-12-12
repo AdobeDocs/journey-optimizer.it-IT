@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1477'
 ht-degree: 3%
 
 ---
@@ -177,13 +177,7 @@ Tieniti al passo con le funzionalità di marketing e le funzionalità di Journey
 
 * **[Note sulla versione](../../rn/release-notes.md)**: rivedi le nuove funzioni, gli aggiornamenti dei canali e i miglioramenti rilasciati ogni mese
 * **[Aggiornamenti alla documentazione](../../rn/documentation-updates.md)**: tieni traccia delle modifiche recenti, inclusi nuovi casi d&#39;uso, best practice e documentazione delle funzioni
-* **Notifiche prodotto**: abilita le notifiche nel tuo [profilo Adobe Experience Cloud](https://experience.adobe.com/preferences){target="_blank"} per ricevere avvisi su:
-   * Nuovi canali e funzionalità disponibili
-   * Prossimi avvii di funzionalità e programmi beta
-   * Best practice e opportunità di formazione
-   * Annunci importanti che influiscono sulle campagne
-
-  Per abilitare le notifiche, fai clic sull&#39;icona del tuo profilo in alto a destra di Adobe Experience Cloud, vai a **Preferenze > Notifiche** e configura le preferenze per le notifiche Journey Optimizer.
+* **[Notifiche sul prodotto](../../rn/releases.md#staying-informed)**: scopri come abbonarti agli avvisi e-mail e nel prodotto per gli aggiornamenti di Journey Optimizer, inclusi nuovi canali, i prossimi avvii di funzionalità e importanti annunci di campagne
 
 ## Passaggi successivi
 
