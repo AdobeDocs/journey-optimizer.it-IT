@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 6%
@@ -73,7 +73,7 @@ Per iniziare a creare esperienze, segui i passaggi principali seguenti:
 
 Journey Optimizer si evolve continuamente con nuove funzioni per migliorare l&#39;efficacia del marketing:
 
-* **Schede di contenuto**: consegna di messaggi persistenti e non intrusivi all&#39;interno di app mobili e siti Web che gli utenti possono utilizzare quando lo desiderano. A differenza delle notifiche push, le schede di contenuto rimangono visibili fino a quando non vengono chiuse. [Informazioni sulle schede dei contenuti](../../content-card/get-started-content-card.md)
+* **Schede di contenuto**: consegna di messaggi persistenti e non intrusivi all&#39;interno di app mobili e siti Web che gli utenti possono utilizzare quando lo desiderano. A differenza delle notifiche push, le schede di contenuto rimangono visibili fino a quando non vengono chiuse. [Informazioni sulle schede dei contenuti](../../content-card/create-content-card.md)
 
 * **Gestione dei conflitti e definizione delle priorità**: controlla la frequenza dei messaggi ed evita la comunicazione eccessiva con le regole di limitazione avanzate. Imposta i punteggi di priorità per garantire che i messaggi più importanti arrivino prima ai clienti. [Informazioni sulla gestione dei conflitti](../../conflict-prioritization/gs-conflict-prioritization.md)
 
