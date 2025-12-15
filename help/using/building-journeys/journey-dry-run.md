@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esecuzione di prova del percorso
+title: Prova del percorso
 description: Scopri come pubblicare un percorso in modalità di esecuzione in prova
 feature: Journeys
 role: User
@@ -9,14 +9,14 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
 
 ---
 
-# Esecuzione di prova del percorso {#journey-dry-run}
+# Prova del percorso {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -149,4 +149,4 @@ Quando si analizzano **metriche di reporting di percorso** tramite il servizio A
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

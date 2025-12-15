@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -357,13 +357,13 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Lavori decisionali in batch</strong><br/></th>
+<th><strong>Processi decisionali in batch</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile eseguire lavori decisionali in batch direttamente dall’interfaccia utente; non è quindi più necessario ricorrere a uno sviluppatore per eseguire processi API in batch, riducendo il tempo necessario per il marketing. Questa nuova interfaccia consente di creare nuovi lavori e gestire quelli correnti o passati.</p>
+<p>È ora possibile eseguire lavori decisionali in batch direttamente dall’interfaccia utente; non è quindi più necessario ricorrere a uno sviluppatore per eseguire processi API in batch, riducendo il tempo necessario per il marketing. Questa nuova interfaccia consente di creare nuovi processi e gestire quelli correnti o passati.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/batch-delivery.md">documentazione dettagliata.</p>
 </td>
@@ -588,7 +588,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Registri di audit di Journey Optimizer</strong><br/></th>
+<th><strong>Registri di controllo di Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -6,7 +6,7 @@ description: Scopri come accedere e lavorare con  [!DNL Adobe Journey Optimizer]
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 23%
@@ -130,8 +130,8 @@ Seleziona un&#39;esperienza in entrata per individuare i **report globali all-ti
 <div align="center"><p><strong>Canale web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Rapporto percorso</strong></a></p></div></td>
 <td><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Esperienze basate su codice</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto campagna</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto percorso</strong></a></p></div></td>
-<td><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>Schede contenuto</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapporto percorso</strong></a></p></div></td>
+<td><img alt="schede di contenuto" src="../channels/assets/do-not-localize/cards.png">
+<div align="center"><p><strong>Schede di contenuto</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapporto percorso</strong></a></p></div></td>
 </tr></table>
 
 ### Video dimostrativo {#video}
@@ -140,8 +140,8 @@ Scopri come utilizzare in modo efficace il rapporto All-Time (Tutti i tempi) in 
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-Esplora altri tutorial video su reporting e analisi in [Tutorial sul reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Esplora altri tutorial video su reporting e analisi in [Tutorial sul reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

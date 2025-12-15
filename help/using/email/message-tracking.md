@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -113,7 +113,7 @@ Il periodo di conservazione per una pagina mirror è di **90 giorni**. Trascorso
 
 >[!CAUTION]
 >
->* I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori di grandi dimensioni può generare URL molto lunghi per le pagine mirror, che potrebbero non funzionare nei browser web in cui la lunghezza dell’URL è soggetta a un limite massimo.
+>* I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori elevati può generare URL di pagine mirror lunghi, che possono impedire il funzionamento del collegamento in browser web che hanno una lunghezza massima per gli URL.
 >
 >* Durante la creazione di e-mail che si basano fortemente sulla personalizzazione in fase di esecuzione (ad esempio, `#each` loop, oggetti nidificati, dati di payload di grandi dimensioni), gli URL delle pagine mirror possono diventare eccessivamente grandi, in particolare nelle campagne attivate dall’API che utilizzano dati contestuali estesi provenienti da payload. Questo può causare errori HTTP (404, 422, 502) nei browser o nei client di posta. Adobe consiglia di limitare l’ampiezza e la profondità dei campi dinamici, riducendo l’affidamento su frammenti complessi e appiattendo le strutture di personalizzazione per evitare errori di collegamento.
 >

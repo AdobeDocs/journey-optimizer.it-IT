@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: messaggio, frequenza, regole, pressione
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Semplificando questi processi è possibile migliorare la customer experience, ri
 
 >[!AVAILABILITY]
 >
->Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Saranno progressivamente disponibili per tutti i clienti nelle prossime versioni.
+>Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Saranno disponibili progressivamente per tutta la clientela nelle prossime versioni.
 
 
 ➡️ [Scopri questa funzione nel video](#video)
@@ -187,4 +187,4 @@ Dopo l&#39;attivazione e l&#39;esecuzione del percorso o delle campagne, puoi vi
 
 Scopri come utilizzare la funzione per le ore non interattive in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475860?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
