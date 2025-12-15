@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1943'
 ht-degree: 7%
 
 ---
@@ -56,6 +56,7 @@ Solo i profili di test possono entrare in un percorso in modalità di test. Puoi
 * **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventi di reazione** - Per gli eventi di reazione con timeout, il tempo di attesa minimo e predefinito è di 40 secondi.
 * **Set di dati di test** - Gli eventi attivati in modalità di test sono archiviati in set di dati dedicati etichettati come segue: `JOtestmode - <schema of your event>`
+* **Infrastruttura condivisa** - La modalità di test viene eseguita sulla stessa infrastruttura di produzione. Durante periodi di traffico elevato, puoi notare ritardi negli invii di e-mail o nell’elaborazione di eventi. In questo caso, controlla le dashboard del traffico della piattaforma o riprova i test nelle ore non di punta.
 
 <!--
 * Fields from related entities are hidden from the test mode.
