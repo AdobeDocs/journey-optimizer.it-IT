@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,10 @@ Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio gen
    Gli esempi di chiamate API sono disponibili anche in [questa pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
 ## Risoluzione dei problemi {#troubleshooting}
+
+### Ritardi nella consegna delle e-mail {#delivery-delays}
+
+Se i tempi di consegna delle e-mail superano le aspettative, esamina potenziali interruzioni o problemi di prestazioni con i servizi esterni, come i provider di infrastrutture cloud o di servizi e-mail. I registri di Journey Optimizer registrano i timestamp di partenza del messaggio, che possono aiutare a determinare se si sono verificati ritardi a valle nella pipeline di consegna.
 
 ### Errori di autenticazione di Azure Cosmos DB (errore 500 del server interno) {#cosmosdb-auth-errors}
 
