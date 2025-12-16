@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1117'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 
 Quando un destinatario fa clic sul collegamento di rinuncia, la sua richiesta di annullamento dell’iscrizione viene elaborata di conseguenza.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Nella [scheda Attributi](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**. Scopri di più sull’elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=it){target="_blank"}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e [individua il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Nella [scheda Attributi](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**. Scopri di più sull’elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=it){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 1. Fai clic su **[!UICONTROL Salva]**.
 
 
-### Inviare il messaggio con il collegamento per annullare l’iscrizione {#send-message-unsubscribe-link}
+### Comprendere il flusso di annullamento dell’abbonamento {#send-message-unsubscribe-link}
 
-Una volta configurato il collegamento che apre la pagina di destinazione in cui sarà possibile per annullare l’iscrizione, puoi creare e inviare il messaggio.
+Dopo aver configurato il collegamento che apre la pagina di destinazione in cui sarà possibile per annullare l’iscrizione, potrai completare e inviare il messaggio agli abbonati.
 
-1. Configura il messaggio con un collegamento di annullamento dell’abbonamento e invialo ai tuoi abbonati.
+Affinché il flusso di rinuncia dell’intera pagina di destinazione venga completato correttamente, si prevede che si verifichino i seguenti eventi in ordine:
 
-1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento per annullare l’iscrizione, viene visualizzata la pagina di destinazione.
+1. **Clic** - Una volta ricevuto il messaggio, il destinatario fa clic sul collegamento per annullare l&#39;iscrizione nell&#39;e-mail.
+
+1. **Visita** - La pagina di destinazione viene caricata e visualizzata al destinatario.
 
    ![](assets/opt-out-lp-example.png)
+
+1. **Invia** - Il destinatario invia il modulo di rinuncia facendo clic sul pulsante di annullamento dell&#39;iscrizione nella pagina di destinazione.
 
    >[!WARNING]
    >
    >Fai clic sul collegamento per annullare l’iscrizione nell’e-mail per aprire solo la pagina di destinazione. Il destinatario deve **inviare il modulo facendo clic sul pulsante di rinuncia nella pagina di destinazione** per completare l&#39;annullamento dell&#39;abbonamento e aggiornare il consenso al profilo.
 
-1. Se il destinatario invia il modulo (in questo esempio, premendo il pulsante **[!UICONTROL Annulla iscrizione]** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite la chiamata API.
-
-1. Il destinatario che ha scelto l’opt-out viene quindi reindirizzato a una schermata con un messaggio di conferma che indica che la rinuncia è avvenuta con successo.
+1. **Annulla iscrizione** - Il sistema elabora la richiesta di annullamento dell&#39;iscrizione. Il destinatario che ha rinunciato viene reindirizzato a una schermata con un messaggio di conferma che indica che la rinuncia è avvenuta con successo.
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **Aggiornamento del consenso** - I dati del profilo vengono aggiornati con il consenso negli attributi del profilo tramite la chiamata API, che esclude il profilo da futuri invii e-mail.
+
    L’utente non riceverà più comunicazioni dal tuo marchio, a meno che non acconsenta nuovamente.
 
+Questa sequenza di eventi assicura che il processo di annullamento dell’abbonamento sia tracciato correttamente e che le preferenze di consenso del profilo siano riflesse accuratamente nel sistema. Se una qualsiasi fase di questo flusso risulta mancante o non valida, potrebbe indicare un problema con l’implementazione della rinuncia che dovrebbe essere esaminato.
