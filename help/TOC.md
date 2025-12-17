@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [Cercare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [Elenco regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Aggiornare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + Posizionamenti {#placements}
+            + [Creare i posizionamenti](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Elenco Posizionamenti](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Ricercare posizionamenti](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Aggiornare i posizionamenti](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Gestire gli elementi decisionali {#manage-decision-items}
          + [Gestire gli elementi decisionali](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
@@ -828,7 +833,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
