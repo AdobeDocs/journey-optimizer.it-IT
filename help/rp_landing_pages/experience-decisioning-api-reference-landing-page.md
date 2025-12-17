@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 94%
@@ -22,13 +22,13 @@ Con il canale Esperienza basata su codice di Adobe Journey Optimizer puoi fornir
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Consegne di offerte tramite il canale Esperienza basata su codice
 
 Scopri come consegnare offerte personalizzate mediante implementazioni lato client, lato server o ibride con il canale Esperienza basata su codice di Adobe Journey Optimizer.
 
-[Scopri i metodi di implementazione](../using/experience-decisioning/api-reference/deliver.md)
+[Scopri i metodi di implementazione](../using/experience-decisioning/use-decision-policy.md)
 :::
 
 ::::
