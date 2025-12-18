@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer supporta diversi tipi di origini per la connessione con i sist
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ Vedi l&#39;elenco completo nel [catalogo origini Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"}
+➡️ Vedi l&#39;elenco completo nel [catalogo origini Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## Prima di iniziare {#prerequisites}
 
@@ -81,7 +81,7 @@ Prima di configurare le origini, assicurati di disporre di:
 * **Credenziali di sistema di Source** - Dettagli di autenticazione per il sistema esterno da connettere
 * **Informazioni sui dati** - Scopri di quali campi dati hai bisogno e come mapparli ai profili Journey Optimizer
 
-➡️ Informazioni su [controllo degli accessi e autorizzazioni](../../administration/permissions.md)
+➡️ Informazioni su [controllo degli accessi e autorizzazioni](../administration/permissions.md)
 
 ## Funzionamento delle origini {#how-sources-work}
 
@@ -101,7 +101,7 @@ Una volta configurate, le origini vengono eseguite automaticamente in background
 
 Guarda questo video per comprendere i connettori sorgente e come configurarli in Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Per informazioni dettagliate sulla configurazione e la gestione delle origini, consulta la [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.
 
@@ -109,7 +109,7 @@ Per informazioni dettagliate sulla configurazione e la gestione delle origini, c
 
 Ora che capisci cosa sono le sorgenti e perché sono importanti:
 
-* Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
+* Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
 * Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
-* Comprendere la mappatura e la trasformazione dei dati di [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
+* Comprendere la mappatura e la trasformazione dei dati di [](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
