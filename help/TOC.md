@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
+source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3024'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -472,9 +472,7 @@ ht-degree: 96%
       + [Utilizzare Adobe Stock](using/integrations/stock.md)
       + [Utilizzare Adobe Express](using/integrations/express.md)
       + [Utilizzare i modelli di Experience Manager](using/integrations/aem-templates.md)
-      + Frammenti di contenuto di Experience Manager {#fragments}
-         + [Introduzione ai frammenti di contenuto di Experience Manager](using/integrations/aem-fragments-gs.md)
-         + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
+      + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + [Utilizzare le integrazioni](using/integrations/external-sources.md)
@@ -835,7 +833,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
