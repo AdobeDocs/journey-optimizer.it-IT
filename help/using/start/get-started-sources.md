@@ -111,5 +111,5 @@ Ora che capisci cosa sono le sorgenti e perché sono importanti:
 
 * Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
 * Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
-* Comprendere la mappatura e la trasformazione dei dati di [](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
+* Comprendere la mappatura e la trasformazione dei dati di [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
