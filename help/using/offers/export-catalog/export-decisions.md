@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 0%
+source-wordcount: '1547'
+ht-degree: 1%
 
 ---
 
 # Set di dati sulle decisioni {#decisions-dataset}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 Ogni volta che viene modificata un’offerta, il set di dati generato automaticamente per le decisioni viene aggiornato.
 
@@ -241,7 +245,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Tipo:** stringa
   **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
-* Strategia di classificazione
+* Strategia di ranking
 
   **Campo:** strategia di classificazione
   **Titolo:** Strategia di classificazione

@@ -10,14 +10,18 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 33%
+source-wordcount: '654'
+ht-degree: 35%
 
 ---
 
 # Interfaccia utente della libreria di offerte {#user-interface}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 La sezione **[!UICONTROL Gestione delle decisioni]** nella barra a sinistra fornisce due menu che consentono di accedere alle funzionalità di gestione delle decisioni:
 

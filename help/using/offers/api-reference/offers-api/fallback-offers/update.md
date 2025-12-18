@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Aggiornare un’offerta di fallback
 description: Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte
 feature: Decision Management, API
+badge: label="Legacy" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 12%
+source-wordcount: '173'
+ht-degree: 21%
 
 ---
 
 # Aggiornare un’offerta di fallback {#update-fallback-offer}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 È possibile modificare o aggiornare un&#39;offerta di fallback nel contenitore effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 

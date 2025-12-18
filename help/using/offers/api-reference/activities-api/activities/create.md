@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Creare una decisione
 description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
 feature: Decision Management, API
+badge: label="Legacy" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '114'
+ht-degree: 29%
 
 ---
 
 # Creare una decisione {#create-decision}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 È possibile creare una decisione effettuando una richiesta POST all&#39;API [!DNL Offer Library].
 

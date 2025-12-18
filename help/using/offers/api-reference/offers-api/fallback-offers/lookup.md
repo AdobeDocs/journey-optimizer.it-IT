@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: cercare offerte di fallback
 description: Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte
 feature: Decision Management, API
+badge: label="Legacy" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 7%
+source-wordcount: '106'
+ht-degree: 23%
 
 ---
 
 # Cercare le offerte di fallback {#look-up-fallback-offers}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Per cercare offerte di fallback specifiche, devi eseguire una richiesta GET all&#39;API [!DNL Offer Library] che includa l&#39;ID offerta di fallback nel percorso della richiesta.
 

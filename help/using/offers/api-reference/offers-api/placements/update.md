@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: aggiornare un posizionamento
 description: I posizionamenti sono contenitori utilizzati per presentare le offerte.
 feature: Decision Management, API
+badge: label="Legacy" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 10%
+source-wordcount: '161'
+ht-degree: 20%
 
 ---
 
 # Aggiornare un posizionamento {#update-placement}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 È possibile modificare o aggiornare un posizionamento effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 

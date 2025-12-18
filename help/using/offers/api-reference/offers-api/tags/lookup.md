@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: Cercare un qualificatore di raccolta
 description: I qualificatori di raccolta ti consentono di organizzare e ordinare meglio le offerte.
 feature: Decision Management, API
+badge: label="Legacy" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 21%
 
 ---
 
 # Cercare un qualificatore di raccolta {#look-up-tag}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Per cercare qualificatori di raccolta specifici (noti in precedenza come &quot;tag&quot;), devi effettuare una richiesta GET all’API della Libreria di offerte che includa l’ID qualificatore della raccolta nel percorso della richiesta.
 

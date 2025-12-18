@@ -10,18 +10,22 @@ role: User, Developer
 level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
 
 # Introduzione agli eventi di gestione delle decisioni {#monitor-offer-events}
 
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+
 Ogni volta che il servizio per la gestione delle decisioni prende una decisione per un determinato profilo, le informazioni relative a tali eventi vengono inviate automaticamente ad Adobe Experience Platform.
 
-Questo ti consente di ottenere informazioni approfondite sulle tue decisioni, ad esempio per sapere quale offerta è stata presentata a un dato profilo. Puoi esportare questi dati per analizzarli nel tuo sistema di reporting o sfruttare il [Servizio query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) di Adobe Experience Platform in combinazione con altri strumenti per analisi e reporting migliorati.
+Questo ti consente di ottenere informazioni approfondite sulle tue decisioni, ad esempio per sapere quale offerta è stata presentata a un dato profilo. Puoi esportare questi dati per analizzarli nel tuo sistema di reporting o sfruttare il servizio [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) di Adobe Experience Platform in combinazione con altri strumenti per analisi e reporting migliorati.
 
 ## Informazioni chiave disponibili nei set di dati {#key-information}
 
