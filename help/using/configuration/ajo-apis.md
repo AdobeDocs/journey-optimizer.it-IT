@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
+source-git-commit: f0b9eb87608eb8183cf0b08926b1dee695634e11
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 6%
+source-wordcount: '529'
+ht-degree: 7%
 
 ---
 
@@ -72,13 +72,13 @@ Ulteriori informazioni sono disponibili in [Riferimento API di Experience Decisi
 
 * [Riferimento API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
 * [Guida all&#39;autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
-* [API per la gestione delle decisioni - Guida per sviluppatori &#x200B;](../offers/api-reference/getting-started.md)
+* [API per la gestione delle decisioni - Guida per sviluppatori ](../offers/api-reference/getting-started.md)
 * [Riferimento API di Experience Decisioning](../experience-decisioning/api-reference/getting-started.md)
 
 **Integrazione Journey Optimizer**
 
-* [Integrare Adobe Analytics](../integrations/integration-ajo-analytics.md)
-* [Integrare Adobe Target](../integrations/integration-ajo-target.md)
+* [Integrazioni con altre soluzioni](../integrations/ajo-integrations.md)
+* [Integrare con Adobe Analytics](../event/about-analytics.md)
 * [Integrare Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
 
 **Risorse per sviluppatori**
