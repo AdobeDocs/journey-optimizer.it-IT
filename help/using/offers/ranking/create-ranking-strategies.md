@@ -101,4 +101,4 @@ Per poter inviare in tipi di evento (offerta visualizzata o offerta selezionata)
 
 Scopri come creare un modello di ottimizzazione personalizzato e come applicarlo a una decisione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445959?captions=ita&quality=12)
