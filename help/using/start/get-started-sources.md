@@ -71,7 +71,7 @@ Journey Optimizer supporta diversi tipi di origini per la connessione con i sist
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ Vedi l&#39;elenco completo nel [catalogo origini Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
+➡️ Vedi l&#39;elenco completo nel [catalogo origini Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"}
 
 ## Prima di iniziare {#prerequisites}
 
@@ -109,7 +109,7 @@ Per informazioni dettagliate sulla configurazione e la gestione delle origini, c
 
 Ora che capisci cosa sono le sorgenti e perché sono importanti:
 
-* Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
+* Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
 * Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Comprendere la mappatura e la trasformazione dei dati di [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
