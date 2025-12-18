@@ -72,7 +72,7 @@ Ulteriori informazioni sono disponibili in [Riferimento API di Experience Decisi
 
 * [Riferimento API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
 * [Guida all&#39;autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
-* [API per la gestione delle decisioni - Guida per sviluppatori ](../offers/api-reference/getting-started.md)
+* [API per la gestione delle decisioni - Guida per sviluppatori &#x200B;](../offers/api-reference/getting-started.md)
 * [Riferimento API di Experience Decisioning](../experience-decisioning/api-reference/deliver.md)
 
 **Integrazione Journey Optimizer**
