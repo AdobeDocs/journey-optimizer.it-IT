@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Integrando Adobe Experience Manager as a Cloud Service con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nei contenuti Journey Optimizer. Questa connessione diretta facilita il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
-Per ulteriori informazioni sui frammenti di contenuto di AEM, consulta [Utilizzo dei frammenti di contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} nella documentazione di Experience Manager.
+Per ulteriori informazioni sui frammenti di contenuto di AEM, consulta [Utilizzo dei frammenti di contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} nella documentazione di Experience Manager.
 
 ## Prima di iniziare {#start}
 
@@ -50,7 +50,7 @@ Quando si lavora con frammenti di contenuto Adobe Experience Manager in Journey 
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-I frammenti di contenuto seguono diverse fasi del ciclo di vita a seconda del livello Adobe Experience Manager in cui esistono. [Ulteriori informazioni nella documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+I frammenti di contenuto seguono diverse fasi del ciclo di vita a seconda del livello Adobe Experience Manager in cui esistono. [Ulteriori informazioni nella documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 Il contenuto viene creato e gestito nel **livello di authoring**, dove i frammenti possono avere stati come Nuovo, Bozza, Pubblicato, Modificato o Non pubblicato. Questi stati sono validi solo per il **livello di authoring** e supportano la creazione e la revisione dei contenuti.
 
