@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 5d1e62ba9f42a0828cc1faec5f0b7aa4e4f90a24
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 6%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 5%
 
 ## Accesso rapido {#quick-access}
 
->[!IMPORTANT]
->
->**Introduzione alle API di Journey Optimizer:**
->
->* **[Sfoglia il riferimento API completo](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - Accedi a tutte le API Journey Optimizer e testale direttamente
->* **[Configura autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - Raccogli le credenziali richieste per iniziare a utilizzare le API
->* **[API di gestione delle decisioni](../offers/api-reference/getting-started.md)** - Gestire le offerte e le decisioni a livello di programmazione
->* **[API Experience Decisioning](../experience-decisioning/api-reference/getting-started.md)** - Gestisci gli elementi decisionali, le strategie di selezione e le regole di idoneità a livello di programmazione
+Sfoglia il [riferimento API completo](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} per accedere a tutte le API Journey Optimizer e testarle direttamente. Per iniziare, assicurati di [configurare l&#39;autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} per raccogliere le credenziali richieste.
 
 ## Panoramica {#overview}
 
 L’API di Adobe Journey Optimizer ti consente di fornire esperienze cliente personalizzate, connesse e tempestive su qualsiasi app, dispositivo o canale e, a sua volta, di gestire efficacemente il percorso cliente end-to-end. Per percorso di clienti si intende l’intero processo di interazione del cliente con un marchio, dal primo contatto fino a quando il cliente se ne va. Inizia con la fase di consapevolezza, in cui il cliente viene a conoscenza del marchio e inizia a essere coinvolto. Il cliente interagirà ulteriormente con il marchio, visiterà siti online e fisici, effettuerà acquisti, invierà messaggi o pubblicherà recensioni.
 
 Adobe Journey Optimizer è stato sviluppato in modalità nativa su Adobe Experience Platform e combina un profilo cliente unificato e in tempo reale, un framework aperto API-first, offer decisioning centralizzato, nonché intelligenza artificiale (IA) e machine learning (ML) per la personalizzazione e l’ottimizzazione. Integrandosi con l’API di Journey Optimizer, i brand possono determinare in modo intelligente la migliore interazione successiva con scalabilità, velocità e flessibilità nell’intero percorso di clienti.
+
+**Introduzione alle API di Journey Optimizer:**
+
+* **[Sfoglia il riferimento API completo](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - Accedi a tutte le API Journey Optimizer e testale direttamente
+* **[Configura autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - Raccogli le credenziali richieste per iniziare a utilizzare le API
+* **[API di gestione delle decisioni](../offers/api-reference/getting-started.md)** - Gestire le offerte e le decisioni a livello di programmazione
+* **[API Experience Decisioning](../experience-decisioning/api-reference/deliver.md)** - Distribuisci elementi decisionali personalizzati utilizzando esperienze basate su codice
 
 ## Autenticazione {#authentication}
 
@@ -64,4 +64,25 @@ Journey Optimizer offre anche API Experience Decisioning per la distribuzione di
 * **Formule di classificazione** - Configura logica di classificazione personalizzata
 * **Posizionamenti** - Definisci dove possono comparire gli elementi decisionali
 
-Ulteriori informazioni sono disponibili in [Riferimento API di Experience Decisioning](../experience-decisioning/api-reference/getting-started.md)
+Ulteriori informazioni sono disponibili in [Riferimento API di Experience Decisioning](../experience-decisioning/api-reference/deliver.md) e scopri come [distribuire offerte utilizzando esperienze basate su codice](../experience-decisioning/api-reference/deliver.md).
+
+## Argomenti correlati {#related-topics}
+
+**Documentazione e guide API**
+
+* [Riferimento API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
+* [Guida all&#39;autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
+* [API per la gestione delle decisioni - Guida per sviluppatori ](../offers/api-reference/getting-started.md)
+* [Riferimento API di Experience Decisioning](../experience-decisioning/api-reference/deliver.md)
+
+**Integrazione Journey Optimizer**
+
+* [Integrare Adobe Analytics](../integrations/integration-ajo-analytics.md)
+* [Integrare Adobe Target](../integrations/integration-ajo-target.md)
+* [Integrare Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
+
+**Risorse per sviluppatori**
+
+* [API Adobe Experience Platform](https://developer.adobe.com/experience-platform-apis/){target="_blank"}
+* [Adobe Developer Console](https://developer.adobe.com/console){target="_blank"}
+* [Azioni personalizzate in percorsi](../action/about-custom-action-configuration.md)
