@@ -32,7 +32,7 @@ I dati dei tipi di pubblico di caricamento personalizzati possono essere utilizz
 Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, consulta le sezioni:
 
 * [Guida introduttiva a Audiences e Journey Optimizer](../audience/about-audiences.md)
-* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Da leggere {#must-read}
 
