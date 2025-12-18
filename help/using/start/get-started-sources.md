@@ -101,7 +101,7 @@ Una volta configurate, le origini vengono eseguite automaticamente in background
 
 Guarda questo video per comprendere i connettori sorgente e come configurarli in Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
 
 Per informazioni dettagliate sulla configurazione e la gestione delle origini, consulta la [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.
 
