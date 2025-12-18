@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
 ht-degree: 92%
@@ -155,7 +155,7 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 
 ## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 
-I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione Decisioni o la gestione delle decisioni sono descritti nelle seguenti sezioni:
+I guardrail e le limitazioni da tenere presenti quando si lavora con Decisioning o Gestione delle decisioni sono descritti in queste sezioni relative alla gestione delle decisioni e delle decisioni:
 
 * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
 * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
