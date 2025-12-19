@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [Approvare una richiesta](using/test-approve/review-approve-request.md)
 + Monitorare e risolvere i problemi {#monitor}
    + [Monitoraggio e risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Avvisi di sistema](using/reports/alerts.md)
-   + [Riferimento ai codici di errore](using/building-journeys/error-codes-reference.md)
-   + [Articoli sulla risoluzione dei problemi](using/start/troubleshooting.md)
-   + Risoluzione dei problemi dei percorsi {#troubleshoot-journey}
-      + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
-      + [Risolvere i problemi relativi all’esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
-      + [Risolvere i problemi relativi alle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
-      + [Risolvere i problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
+   + [Introduzione al tracciamento](using/start/get-started-tracking.md)
+   + Recapitabilità delle e-mail {#deliverability}
+      + [Recapitabilità delle e-mail](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [Introduzione alla recapitabilità](using/reports/deliverability.md)
+      + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
+      + [Nuovo requisito DMARC](using/configuration/dmarc-record-update.md)
+   + Monitorare avvisi e codici di errore {#monitor-alerts-errors}
+      + [Avvisi di sistema](using/reports/alerts.md)
+      + [Riferimento ai codici di errore](using/building-journeys/error-codes-reference.md)
+   + Risoluzione dei problemi {#troubleshooting}
+      + [Domande frequenti sulla risoluzione dei problemi](using/start/troubleshooting.md)
+      + Risoluzione dei problemi dei percorsi {#troubleshoot-journey}
+         + [Risolvere i problemi relativi agli errori di percorso](using/building-journeys/troubleshooting.md)
+         + [Risolvere i problemi relativi all’esecuzione del percorso](using/building-journeys/troubleshooting-execution.md)
+         + [Risolvere i problemi relativi alle azioni in entrata](using/building-journeys/troubleshooting-inbound.md)
+         + [Risolvere i problemi relativi alle azioni personalizzate](using/action/troubleshoot-custom-action.md)
 + Canali di comunicazione {#channels}
    + [Introduzione ai canali di comunicazione](using/channels/gs-channels.md)
    + Canale e-mail {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [Parametri per intestazione](using/email/header-parameters.md)
          + [Tracciamento URL](using/email/url-tracking.md)
          + [Personalizzare la configurazione e-mail](using/email/surface-personalization.md)
-      + Recapitabilità delle e-mail {#deliverability}
-         + [Recapitabilità delle e-mail](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [Introduzione alla recapitabilità](using/reports/deliverability.md)
-         + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
-         + [Nuovo requisito DMARC](using/configuration/dmarc-record-update.md)
    + Canale in-app {#in-app}
       + [Canale in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introduzione alle funzionalità in-app](using/in-app/get-started-in-app.md)
@@ -833,7 +836,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
