@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: tracciamento, monitoraggio, analisi, reporting, recapito messaggi
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Il tracciamento e-mail viene attivato automaticamente quando crei un messaggio e
 
 * **Configura i parametri di tracciamento URL** - Configura i parametri di tracciamento a livello di superficie per aggiungere automaticamente gli identificatori della campagna (utm_campaign, utm_source, ecc.) a tutti i collegamenti e-mail. Questo consente il tracciamento dell’attribuzione in tutto l’ecosistema digitale. [Ulteriori informazioni](../email/url-tracking.md)
 
-* **Traccia collegamenti nei frammenti** - Tutti i collegamenti nei frammenti di contenuto riutilizzabili vengono tracciati automaticamente, fornendo una visione completa del coinvolgimento tra i componenti di contenuto condiviso.
+* **Traccia collegamenti nei frammenti salvati** - Quando il tracciamento è abilitato in un percorso o in una campagna, quando il frammento viene riutilizzato vengono tracciati anche i collegamenti in un frammento salvato dal contenuto di questo percorso o campagna. [Ulteriori informazioni](../content-management/save-fragments.md)
 
 * **Aggiungi tracciamento pagina mirror** - Abilita l&#39;opzione della pagina mirror per creare una versione Web dell&#39;e-mail con tracciamento automatico di chi la visualizza. [Ulteriori informazioni](../email/message-tracking.md#mirror-page)
 
@@ -129,7 +129,7 @@ Il tracciamento push viene abilitato automaticamente e acquisisce impression (co
 
 >[!NOTE]
 >
->Il tracciamento push richiede l’implementazione di un SDK mobile. Assicurati che l’app disponga del SDK mobile di Adobe Experience Platform configurato correttamente.
+>Il tracciamento push richiede l’implementazione di un SDK mobile. Assicurati che l’app disponga del SDK mobile di Adobe Experience Platform configurato correttamente. [Ulteriori informazioni](../push/push-configuration.md#integrate-mobile-app)
 
 **Analisi del coinvolgimento:** Visualizza i tassi di click-through, le prestazioni dei pulsanti e i dettagli dei collegamenti tracciati nei report. [Rapporti sulle campagne](../reports/campaign-global-report-cja-push.md) | [Rapporti Percorso](../reports/journey-global-report-cja-push.md)
 
@@ -175,7 +175,7 @@ Prima che il tracciamento funzioni, devi configurare l’implementazione per inv
 
 * Configurazione di uno stream di dati configurato per Adobe Experience Platform
 * Implementazione della raccolta di eventi nel codice tramite Web SDK o Mobile SDK
-* Invio di eventi di interazione della proposta quando gli utenti visualizzano o fanno clic su contenuti personalizzati
+* Invio di eventi di visualizzazione e interazione quando il contenuto viene visualizzato o fatto clic
 
 [Ulteriori informazioni sui prerequisiti per l’implementazione](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +185,7 @@ Prima che il tracciamento funzioni, devi configurare l’implementazione per inv
 
 +++Tracciamento delle schede di contenuto
 
-Le schede di contenuto tengono traccia automaticamente delle interazioni degli utenti. Configura il contenuto e visualizza le regole per controllare il comportamento di tracciamento.
+[Le schede dei contenuti](../content-card/create-content-card.md) tengono traccia automaticamente delle interazioni utente. Configura il contenuto e visualizza le regole per controllare il comportamento di tracciamento.
 
 **Come implementare:**
 
@@ -201,7 +201,7 @@ Le schede di contenuto tengono traccia automaticamente delle interazioni degli u
 
 +++Tracciamento della pagina di destinazione
 
-Le pagine di destinazione sono dotate di tracciamento integrato che non richiede alcuna configurazione aggiuntiva. Journey Optimizer acquisisce automaticamente visite, conversioni e tassi di mancato recapito.
+[Le pagine di destinazione](../reports/lp-report-global-cja.md) sono dotate di tracciamento integrato che non richiede alcuna configurazione aggiuntiva. Journey Optimizer acquisisce automaticamente visite, conversioni e tassi di mancato recapito.
 
 **Elementi tracciati automaticamente:**
 
@@ -210,27 +210,19 @@ Le pagine di destinazione sono dotate di tracciamento integrato che non richiede
 * **Percentuale non recapitate** - Percentuale di visitatori che partono senza interagire
 * **Tendenze delle prestazioni** - Dati della serie temporale che mostrano l&#39;evoluzione delle metriche
 
-**Ottimizza le prestazioni:** Utilizza i dati di tracciamento per perfezionare i campi del modulo, testare le varianti di contenuto, identificare le origini di traffico effettive e ridurre l&#39;abbandono. [Ulteriori informazioni](../reports/lp-report-global-cja.md)
+**Ottimizza le prestazioni:** Utilizza i dati di tracciamento per perfezionare i campi del modulo, testare le varianti di contenuto, identificare le origini di traffico effettive e ridurre l&#39;abbandono.
 
 +++
 
-## Tracciamento percorso e attività campagna {#journey-campaign-tracking}
+## Tracciare il percorso e l’attività della campagna {#journey-campaign-tracking}
 
 Oltre al tracciamento a livello di canale, configura il tracciamento per misurare le prestazioni generali e comprendere il comportamento dei clienti nelle iniziative di marketing.
-
-**Configura tracciamento campagna:**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **Definisci le metriche di conversione** - Specifica quali azioni contano come conversioni (acquisti, iscrizioni, download) per misurare l&#39;efficacia della campagna oltre le metriche di coinvolgimento.
-
-* **Imposta pianificazione**: configura l&#39;ottimizzazione del tempo di invio per tenere traccia delle prestazioni in diverse strategie di tempo e identificare le finestre di invio ottimali. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
-
-**Configura tracciamento percorso:**
 
 * **Definisci metriche di successo personalizzate**: configura KPI specifici allineati agli obiettivi aziendali (acquisti, iscrizioni, rinnovi, ecc.) oltre le metriche di coinvolgimento standard. [Ulteriori informazioni](../building-journeys/success-metrics.md)
 
 * **Attiva eventi dei passaggi del percorso** - Attiva il tracciamento dettagliato di ogni azione intrapresa dai clienti durante il passaggio nei percorsi. Questo fornisce una visibilità granulare dei punti di entrata/uscita, della selezione del percorso e delle posizioni di rilascio. [Ulteriori informazioni](../reports/journey-step-events-overview.md)
+
+* **Imposta pianificazione**: configura l&#39;ottimizzazione del tempo di invio per tenere traccia delle prestazioni in diverse strategie di tempo e identificare le finestre di invio ottimali. [Ulteriori informazioni](../building-journeys/send-time-optimization.md)
 
 * **Configurare il monitoraggio delle azioni personalizzate** - Configurare il monitoraggio per le integrazioni con i sistemi esterni per monitorare le chiamate API, i tempi di risposta e i modelli di errore. [Ulteriori informazioni](../action/reporting.md)
 
@@ -258,7 +250,7 @@ Quando si utilizza Decisioning per personalizzare il contenuto, Journey Optimize
 * **Tracciamento impression** - Per le e-mail, le impression vengono tracciate automaticamente. Per le esperienze basate su codice, devi implementare gli eventi di visualizzazione delle proposte nel codice.
 * **Tracciamento dei clic** - I clic sugli elementi decisionali vengono tracciati automaticamente nelle e-mail; le esperienze basate su codice richiedono l&#39;implementazione di eventi di clic.
 
-**Prerequisiti per il tracciamento basato su codice:** Per tenere traccia delle decisioni nelle esperienze basate su codice, assicurati che l&#39;implementazione invii eventi di interazione della proposta (visualizzazioni e clic) a Adobe Experience Platform utilizzando Web SDK o Mobile SDK. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+**Prerequisiti per il tracciamento basato su codice:** Per tenere traccia delle decisioni nelle esperienze basate su codice, assicurati che l&#39;implementazione invii eventi di interazione della proposta (visualizzazioni e clic) a Adobe Experience Platform utilizzando Web SDK o Mobile SDK. [Ulteriori informazioni](../experience-decisioning/data-collection/schema-requirement.md)
 
 **Analizzare le prestazioni:** visualizzare i KPI di decisioning, confrontare gli elementi decisionali, analizzare le strategie di selezione e monitorare le prestazioni del modello di IA nei report. [Ulteriori informazioni](../experience-decisioning/cja-reporting.md)
 
@@ -288,7 +280,7 @@ Oltre a monitorare il coinvolgimento, configura il monitoraggio per garantire ch
 
 **Monitoraggio recapito messaggi:**
 
-* **Rivedi regolarmente gli elenchi di soppressione** per capire perché gli indirizzi sono bloccati e mantenere l&#39;igiene degli elenchi. [Ulteriori informazioni](../reports/suppression-list.md)
+* **Rivedi regolarmente l&#39;elenco di soppressione** per capire perché gli indirizzi sono bloccati e mantenere l&#39;igiene degli elenchi. [Ulteriori informazioni](../reports/suppression-list.md)
 
 * **Analizza gli errori di consegna** per diagnosticare gli errori e intraprendere azioni correttive. [Ulteriori informazioni](../configuration/email-error-types.md)
 
