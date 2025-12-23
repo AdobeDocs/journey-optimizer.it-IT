@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
+source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 38%
+source-wordcount: '1139'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,75 @@ Utilizza [!DNL Journey Optimizer] per generare casi d’uso di orchestrazione in
 Journey Optimizer [Progettazione percorsi](using-the-journey-designer.md) fornisce tutto ciò di cui gli addetti al marketing e i professionisti del percorso hanno bisogno per orchestrare più passaggi di 1:1 percorsi tra i canali. Ciò include un’area di lavoro intuitiva con trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali visualizzati dai membri del pubblico target in base a comportamento, dati contestuali ed eventi di business. Esplora [casi d&#39;uso reali](jo-use-cases.md) per scoprire come applicare queste funzionalità.
 
 ➡️ [Scopri Journey Optimizer nel video](#video)
+
+## Panoramica sui percorsi
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Guida introduttiva alla creazione di Percorsi
+
+Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il tracciamento dei percorsi cliente per creare campagne omnicanale personalizzate.
+
+[Creare il primo percorso](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration - Guida completa
+
+Documentazione completa che tratta tutti gli aspetti relativi alla creazione, alla gestione e all&#39;ottimizzazione del percorso in Adobe Journey Optimizer.
+
+[Esplora la guida completa](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Gestione dei Percorsi
+
+Gestisci i percorsi cliente in modo efficiente con strumenti per filtrare, gestire i profili, i fusi orari e le tecniche di ottimizzazione.
+
+[Scopri la gestione del percorso](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Attività percorso
+
+Scopri come configurare e utilizzare attività come trigger, passaggi decisionali, gestione del pubblico e messaggistica personalizzata nei percorsi.
+
+[Esplora le attività](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Creazione di espressioni
+
+Diventa esperto nella creazione di espressioni principali per flussi di lavoro dinamici, nella manipolazione di dati e nell’orchestrazione dei percorsi avanzata tramite potenti strumenti e sintassi.
+
+[Informazioni sulle espressioni](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Casi d’uso percorso
+
+Esplora le applicazioni reali di Adobe Journey Optimizer, inclusa la messaggistica multicanale e l’integrazione con sistemi esterni.
+
+[Scopri i casi d’uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## Cosa si può fare con i percorsi?
+
+Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando una persona si iscrive a un servizio, può [essere attivata un’e-mail di benvenuto](message-to-subscribers-uc.md), invitandola ad accedere all’app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per far avanzare i nuovi clienti lungo i relativi percorsi.
 
 ## Tipi di percorso
 
@@ -124,78 +193,17 @@ Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato p
 
 >[!ENDTABS]
 
-## Panoramica sui percorsi
+## Designer percorso{#journey-designer}
 
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+[Progettazione percorsi](using-the-journey-designer.md) è un&#39;area di lavoro intuitiva che consente di creare e orchestrare visivamente i percorsi di clienti. Offre tutto il necessario per progettare esperienze in più passaggi:
 
-Guida introduttiva alla creazione di Percorsi
+* **[Azioni canale incorporate](journeys-message.md)** - Invia messaggi tramite e-mail, notifiche push, SMS/MMS, in-app, web, esperienze basate su codice e altro ancora, tutte progettate direttamente in Journey Optimizer
+* **[Azioni personalizzate](using-custom-actions.md)** - Integra sistemi di terze parti per inviare messaggi o attivare flussi di lavoro in piattaforme esterne
+* **[Attività di orchestrazione](about-journey-activities.md)** - Aggiungi logica, condizioni, tempi di attesa e targeting del pubblico per creare esperienze cliente sofisticate
+* **[Condizioni](condition-activity.md)** - Crea un ramo del percorso in base agli attributi del profilo, all&#39;iscrizione al pubblico o a eventi in tempo reale
+* **[Espressioni](expression/expressionadvanced.md)** - Crea logica e personalizzazione avanzate utilizzando l&#39;editor espressioni
 
-Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il tracciamento dei percorsi cliente per creare campagne omnicanale personalizzate.
-
-[Creare il primo percorso](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
-
-Journey Orchestration - Guida completa
-
-Documentazione completa che tratta tutti gli aspetti relativi alla creazione, alla gestione e all&#39;ottimizzazione del percorso in Adobe Journey Optimizer.
-
-[Esplora la guida completa](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
-
-Gestione dei Percorsi
-
-Gestisci i percorsi cliente in modo efficiente con strumenti per filtrare, gestire i profili, i fusi orari e le tecniche di ottimizzazione.
-
-[Scopri la gestione del percorso](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
-
-Attività percorso
-
-Scopri come configurare e utilizzare attività come trigger, passaggi decisionali, gestione del pubblico e messaggistica personalizzata nei percorsi.
-
-[Esplora le attività](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
-
-Creazione di espressioni
-
-Diventa esperto nella creazione di espressioni principali per flussi di lavoro dinamici, nella manipolazione di dati e nell’orchestrazione dei percorsi avanzata tramite potenti strumenti e sintassi.
-
-[Informazioni sulle espressioni](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
-
-Casi d’uso percorso
-
-Esplora le applicazioni reali di Adobe Journey Optimizer, inclusa la messaggistica multicanale e l’integrazione con sistemi esterni.
-
-[Scopri i casi d’uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## Casi d’uso{#uc-journey}
-
-Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando una persona si iscrive a un servizio, può [essere attivata un’e-mail di benvenuto](message-to-subscribers-uc.md), invitandola ad accedere all’app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per far avanzare i nuovi clienti lungo i relativi percorsi.
-
-Il [designer del percorso](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journeys-message.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/MMS, nonché i canali in entrata, inclusi siti web, app per dispositivi mobili ed esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi, tramite e-mail, testo o altri canali. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l’integrazione di tali sistemi nei percorsi direttamente dal designer del percorso.
-
-Scopri come creare percorsi [nei seguenti casi d’uso end-to-end](jo-use-cases.md):
+Scopri come utilizzare la finestra di progettazione del percorso [in questi casi d&#39;uso end-to-end](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -205,7 +213,7 @@ Scopri come creare percorsi [nei seguenti casi d’uso end-to-end](jo-use-cases.
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Risorse aggiuntive {#additional-resources}
 
