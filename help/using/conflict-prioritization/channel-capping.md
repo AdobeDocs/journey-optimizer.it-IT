@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1249'
 ht-degree: 15%
 
 ---
@@ -128,6 +128,10 @@ Per applicare un set di regole a un messaggio, effettua le seguenti operazioni:
 
 Durante il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, perché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al periodo successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
 
+>[!CAUTION]
+>
+>Le regole di limite di frequenza si applicano anche quando si inviano [bozze](../content-management/proofs.md). Se un profilo di test ha già raggiunto il limite di frequenza, le bozze verranno visualizzate come completate, ma non verrà consegnata alcuna e-mail.
+
 <!--add a new section for default priority namespace.-->
 
 <!--
@@ -159,6 +163,6 @@ In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
-## Video introduttivo {#video}
+## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
