@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: tracciamento, monitoraggio, analisi, reporting, recapito messaggi
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Il tracciamento e-mail viene attivato automaticamente quando crei un messaggio e
 
 * **Configura i parametri di tracciamento URL** - Configura i parametri di tracciamento a livello di superficie per aggiungere automaticamente gli identificatori della campagna (utm_campaign, utm_source, ecc.) a tutti i collegamenti e-mail. Questo consente il tracciamento dell’attribuzione in tutto l’ecosistema digitale. [Ulteriori informazioni](../email/url-tracking.md)
 
-* **Traccia collegamenti nei frammenti salvati** - Quando il tracciamento è abilitato in un percorso o in una campagna, quando il frammento viene riutilizzato vengono tracciati anche i collegamenti in un frammento salvato dal contenuto di questo percorso o campagna. [Ulteriori informazioni](../content-management/save-fragments.md)
+* **Traccia collegamenti nei frammenti salvati** - Quando salvi un frammento da un contenuto per il quale è abilitato il tracciamento, i collegamenti in tale frammento rimangono tracciati quando lo riutilizzi in altri percorsi o campagne. [Ulteriori informazioni](../content-management/save-fragments.md)
 
 * **Aggiungi tracciamento pagina mirror** - Abilita l&#39;opzione della pagina mirror per creare una versione Web dell&#39;e-mail con tracciamento automatico di chi la visualizza. [Ulteriori informazioni](../email/message-tracking.md#mirror-page)
 
@@ -105,11 +105,11 @@ Il tracciamento web richiede una configurazione esplicita per tenere traccia del
 
 **Configura tracciamento clic:**
 
-Durante la progettazione di una modifica web, puoi selezionare elementi specifici (pulsanti, immagini, collegamenti) di cui desideri tenere traccia. Questo consente il tracciamento dei clic per tali elementi senza richiedere codice aggiuntivo. [Ulteriori informazioni](../web/monitor-web-experiences.md)
+Durante l’authoring di una pagina web, puoi selezionare elementi specifici (pulsanti, immagini, collegamenti) di cui desideri tenere traccia. Questo consente il tracciamento dei clic per tali elementi senza richiedere codice aggiuntivo. [Ulteriori informazioni](../web/monitor-web-experiences.md)
 
-* **Tieni traccia di qualsiasi elemento cliccabile** - Seleziona pulsanti, immagini, collegamenti o qualsiasi elemento interattivo nella personalizzazione Web
-* **Raccolta dati automatica** - Una volta configurata, Journey Optimizer acquisisce automaticamente gli eventi di clic e li associa ai profili
-* **Monitoraggio in tempo reale** - Tieni traccia delle interazioni degli utenti quando avvengono per convalidare l&#39;efficacia della personalizzazione
+* **Tieni traccia di qualsiasi elemento cliccabile** - Seleziona pulsanti, immagini, collegamenti o qualsiasi elemento interattivo nella personalizzazione Web.
+* **Raccolta dati automatica** - Una volta configurata, Journey Optimizer acquisisce automaticamente gli eventi di clic e li associa ai profili.
+* **Monitoraggio in tempo reale** - Tieni traccia delle interazioni degli utenti quando convalidano l&#39;efficacia della personalizzazione.
 
 **Visualizza dati di tracciamento:** Accedi a metriche di visualizzazione, tassi di click-through e prestazioni a livello di elemento nei rapporti. [Rapporti sulle campagne](../reports/campaign-global-report-cja-web.md) | [Rapporti Percorso](../reports/journey-global-report-cja-web.md)
 
@@ -141,11 +141,13 @@ I messaggi in-app tengono automaticamente traccia delle visualizzazioni e delle 
 
 **Configura tracciamento:**
 
-* **Imposta regole di visualizzazione**: definisci quando e dove vengono visualizzati i messaggi in-app utilizzando trigger (avvio app, caricamento schermo), regole di frequenza e condizioni di pubblico. La corretta configurazione garantisce il tracciamento accurato dei messaggi attivati e visualizzati. [Ulteriori informazioni](../in-app/create-in-app.md)
+* **Definisci le regole di visualizzazione** - Imposta quando e dove vengono visualizzati i messaggi in-app utilizzando trigger (avvio app, caricamento schermo), regole di frequenza e condizioni di pubblico. La corretta configurazione garantisce il tracciamento accurato dei messaggi attivati e visualizzati.
 
 * **Aggiungi elementi tracciati** - Includi pulsanti, collegamenti ed elementi interattivi nel contenuto del messaggio. Ogni interazione viene tracciata automaticamente con etichette dettagliate.
 
 * **Ottimizza tempo di visualizzazione** - Configura le regole del giorno della settimana e dell&#39;ora del giorno per aumentare la probabilità che i messaggi attivati vengano effettivamente visualizzati agli utenti.
+
+[Scopri come configurare i messaggi in-app](../in-app/create-in-app.md)
 
 **Elementi tracciati:** Journey Optimizer acquisisce automaticamente visualizzazioni, clic su pulsanti, chiusure, metriche attivate e visualizzate e prestazioni dei collegamenti. [Rapporti sulle campagne](../reports/campaign-global-report-cja-inapp.md) | [Rapporti Percorso](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ Il tracciamento SMS richiede una configurazione minima: Journey Optimizer abbrev
 
 **Funzionamento:**
 
-* **Tracciamento automatico dei collegamenti** - Aggiungi qualsiasi URL al contenuto SMS utilizzando la funzione URL helper. Journey Optimizer accorcia automaticamente il collegamento e tiene traccia dei clic senza configurazioni aggiuntive. Per utilizzare la riduzione degli URL, devi prima configurare un sottodominio SMS. [Ulteriori informazioni](../sms/create-sms.md#sms-content)
+* **Tracciamento automatico dei collegamenti** - Aggiungi qualsiasi URL al contenuto SMS utilizzando la funzione URL helper. Journey Optimizer accorcia automaticamente il collegamento e tiene traccia dei clic senza configurazioni aggiuntive. Per utilizzare la riduzione degli URL, devi prima configurare un sottodominio SMS. [Ulteriori informazioni](../sms/sms-subdomains.md)
 
-* **Tracciamento messaggi in entrata** - Le risposte dei destinatari vengono acquisite automaticamente, consentendo di monitorare le conversazioni bidirezionali e i modelli di risposta.
+* **Tracciamento messaggi in entrata** - Le risposte dei destinatari vengono acquisite automaticamente, consentendo di monitorare le conversazioni bidirezionali e i modelli di risposta. [Ulteriori informazioni](../sms/sms-opt-out.md#sms-native-keywords)
 
 **Visualizza metriche:** Accedi ai dati dei clic sui collegamenti, ai volumi dei messaggi in entrata e alle prestazioni del tipo di messaggio nei report. [Rapporti sulle campagne](../reports/campaign-global-report-cja-sms.md) | [Rapporti Percorso](../reports/journey-global-report-cja-sms.md)
 
@@ -173,9 +175,9 @@ Le esperienze basate su codice richiedono la configurazione dell’implementazio
 
 Prima che il tracciamento funzioni, devi configurare l’implementazione per inviare eventi di interazione (visualizzazioni, clic) a Adobe Experience Platform. Ciò richiede:
 
-* Configurazione di uno stream di dati configurato per Adobe Experience Platform
-* Implementazione della raccolta di eventi nel codice tramite Web SDK o Mobile SDK
-* Invio di eventi di visualizzazione e interazione quando il contenuto viene visualizzato o fatto clic
+* Configurazione di uno stream di dati configurato per Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it)
+* Implementazione della raccolta di eventi nel codice utilizzando Web SDK o Mobile SDK.
+* Invio di eventi di visualizzazione e interazione quando il contenuto viene visualizzato o selezionato.
 
 [Ulteriori informazioni sui prerequisiti per l’implementazione](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +187,7 @@ Prima che il tracciamento funzioni, devi configurare l’implementazione per inv
 
 +++Tracciamento delle schede di contenuto
 
-[Le schede dei contenuti](../content-card/create-content-card.md) tengono traccia automaticamente delle interazioni utente. Configura il contenuto e visualizza le regole per controllare il comportamento di tracciamento.
+Le schede di contenuto tengono traccia automaticamente delle interazioni degli utenti. Configura il contenuto e visualizza le regole per controllare il comportamento di tracciamento.
 
 **Come implementare:**
 
@@ -195,13 +197,15 @@ Prima che il tracciamento funzioni, devi configurare l’implementazione per inv
 
 * **Imposta regole di visualizzazione**: definisci quando e dove vengono visualizzate le schede per garantire un tracciamento accurato delle visualizzazioni rispetto alle interazioni.
 
+[Scopri come configurare le schede di contenuto](../content-card/create-content-card.md)
+
 **Coinvolgimento monitor:** tieni traccia di visualizzazioni, clic, tassi di click-through e pattern di coinvolgimento in più sessioni. [Rapporti sulle campagne](../reports/campaign-global-report-cja-content.md) | [Rapporti Percorso](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++Tracciamento della pagina di destinazione
 
-[Le pagine di destinazione](../reports/lp-report-global-cja.md) sono dotate di tracciamento integrato che non richiede alcuna configurazione aggiuntiva. Journey Optimizer acquisisce automaticamente visite, conversioni e tassi di mancato recapito.
+Le pagine di destinazione sono dotate di tracciamento integrato che non richiede alcuna configurazione aggiuntiva. Journey Optimizer acquisisce automaticamente visite, conversioni e tassi di mancato recapito.
 
 **Elementi tracciati automaticamente:**
 
@@ -210,7 +214,9 @@ Prima che il tracciamento funzioni, devi configurare l’implementazione per inv
 * **Percentuale non recapitate** - Percentuale di visitatori che partono senza interagire
 * **Tendenze delle prestazioni** - Dati della serie temporale che mostrano l&#39;evoluzione delle metriche
 
-**Ottimizza le prestazioni:** Utilizza i dati di tracciamento per perfezionare i campi del modulo, testare le varianti di contenuto, identificare le origini di traffico effettive e ridurre l&#39;abbandono.
+[Scopri come configurare le pagine di destinazione](../landing-pages/create-lp.md)
+
+**Monitora le prestazioni:** tieni traccia di pattern di visite, tassi di conversione e tassi di mancato recapito nel tempo per comprendere in che modo gli utenti interagiscono con i moduli e identificare aree da migliorare. [Rapporti sulla campagna](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ Oltre al tracciamento a livello di canale, configura il tracciamento per misurar
 
 Journey Optimizer tiene traccia automaticamente degli esperimenti di ottimizzazione, delle strategie di targeting e delle prestazioni del processo decisionale. Configura le impostazioni per garantire la corretta raccolta dei dati.
 
-**Configura tracciamento ottimizzazione:**
+### Configurare il tracciamento dell’ottimizzazione {#optimization-tracking}
 
-* **Configura la sperimentazione** - Quando crei esperimenti o utilizzi il targeting, definisci quali metriche monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md)
+* **Ottimizzazione nelle campagne e nei percorsi**
 
-* **Configura ottimizzazione percorsi** - Aggiungi un&#39;attività **Ottimizza** al percorso e configura più percorsi. Journey Optimizer tiene traccia automaticamente dei percorsi seguiti dai profili e misura le prestazioni. [Ulteriori informazioni](../building-journeys/optimize.md)
+   * Durante la creazione di esperimenti, definisci le metriche da monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**Analizzare i risultati:** Visualizzare i tassi di conversione, la significatività statistica e l&#39;incremento tra i trattamenti nei report di sperimentazione. [Rapporti sulle campagne](../reports/campaign-global-report-cja-experimentation.md) | [Rapporti Percorso](../reports/journey-global-report-cja-experimentation.md)
+   * Crea regole di targeting per fornire contenuti diversi a segmenti di pubblico diversi. Journey Optimizer tiene traccia automaticamente delle metriche di coinvolgimento per ogni gruppo target, consentendo di confrontare le prestazioni tra segmenti diversi. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md#targeting)
 
-**Monitoraggio delle prestazioni di decisioning:**
+* **Ottimizzazione percorso Percorso** - Aggiungi un&#39;attività **Ottimizza** al percorso e configura più percorsi. Journey Optimizer tiene traccia automaticamente dei percorsi seguiti dai profili e misura le prestazioni. [Ulteriori informazioni](../building-journeys/optimize.md)
+
+**Analizzare i risultati:** visualizzare i tassi di conversione, la significatività statistica e l&#39;incremento tra i trattamenti nei rapporti di sperimentazione oppure confrontare le metriche di coinvolgimento tra i segmenti di destinazione. [Rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md) | [Rapporto percorso sperimentazioni](../reports/journey-global-report-cja-experimentation.md) | [Rapporto targeting Percorso](../reports/journey-global-report-cja.md#targeting)
+
+### Tracciare le prestazioni di decisioning {#decisioning-tracking}
 
 Quando si utilizza Decisioning per personalizzare il contenuto, Journey Optimizer tiene traccia automaticamente di eventi decisionali, impression e clic senza richiedere alcuna configurazione aggiuntiva.
 
@@ -270,19 +280,19 @@ La governance dei dati garantisce la conformità a normative come RGPD e CCPA, c
 
 Oltre a monitorare il coinvolgimento, configura il monitoraggio per garantire che i messaggi raggiungano le caselle in entrata e che i sistemi funzionino in modo ottimale.
 
-**Imposta monitoraggio proattivo:**
-
-* **Configura avvisi** - Imposta le notifiche in tempo reale per gli errori di percorso, gli errori delle azioni personalizzate e i problemi critici, in modo da rispondere rapidamente ai problemi. [Ulteriori informazioni](../reports/alerts.md)
-
-* **Abilita registri di controllo** - Attiva la registrazione di controllo per tenere traccia di tutte le azioni sulle risorse per la conformità e la risoluzione dei problemi. [Ulteriori informazioni](../privacy/audit-logs.md)
-
-* **Monitora le integrazioni** - Tieni traccia delle prestazioni delle azioni personalizzate e della connettività di sistema esterna per identificare in anticipo i problemi di integrazione. [Ulteriori informazioni](../action/reporting.md)
-
-**Monitoraggio recapito messaggi:**
+Il monitoraggio del recapito messaggi consente di garantire che i messaggi raggiungano le caselle in entrata dei destinatari e mantengano una buona reputazione del mittente tenendo traccia degli indicatori chiave:
 
 * **Rivedi regolarmente l&#39;elenco di soppressione** per capire perché gli indirizzi sono bloccati e mantenere l&#39;igiene degli elenchi. [Ulteriori informazioni](../reports/suppression-list.md)
 
 * **Analizza gli errori di consegna** per diagnosticare gli errori e intraprendere azioni correttive. [Ulteriori informazioni](../configuration/email-error-types.md)
 
 * **Segui le best practice** per DMARC, SPF e DKIM per massimizzare il posizionamento della casella in entrata. [Ulteriori informazioni](../reports/deliverability.md)
+
+Imposta il monitoraggio proattivo per ricevere notifiche in tempo reale su eventi critici e problemi di sistema, consentendo di rispondere rapidamente prima che influiscano sull’esperienza del cliente:
+
+* **Configura avvisi** - Imposta le notifiche in tempo reale per gli errori di percorso, gli errori delle azioni personalizzate e i problemi critici, in modo da rispondere rapidamente ai problemi. [Ulteriori informazioni](../reports/alerts.md)
+
+* **Abilita registri di controllo** - Attiva la registrazione di controllo per tenere traccia di tutte le azioni sulle risorse per la conformità e la risoluzione dei problemi. [Ulteriori informazioni](../privacy/audit-logs.md)
+
+* **Monitora le integrazioni** - Tieni traccia delle prestazioni delle azioni personalizzate e della connettività di sistema esterna per identificare in anticipo i problemi di integrazione. [Ulteriori informazioni](../action/reporting.md)
 
