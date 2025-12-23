@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
@@ -95,7 +95,7 @@ Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risolu
 
   **Risoluzione dei problemi**: assicurati che almeno un percorso sia attivo e configurato per il segmento, verifica gli ID segmento.
 
-* **PERCORSI_INSTANCE_ID_NOT_CREATE**: impossibile creare un&#39;istanza di percorso per il cliente.
+* **PERCORSI_INSTANCE_ID_NOT_CREATED**: impossibile creare un&#39;istanza di percorso per il cliente.
 
   **Cause comuni**: eventi duplicati, volume di eventi elevato, vincoli delle risorse di sistema.
 
