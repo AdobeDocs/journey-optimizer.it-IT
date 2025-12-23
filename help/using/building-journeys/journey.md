@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 38%
 
 ---
 
@@ -35,11 +35,100 @@ Journey Optimizer [Progettazione percorsi](using-the-journey-designer.md) fornis
 
 ➡️ [Scopri Journey Optimizer nel video](#video)
 
+## Tipi di percorso
+
+Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato per casi d&#39;uso e meccanismi di accesso diversi. Scegli il tipo giusto in base a come desideri che i profili entrino e progrediscano nelle esperienze dei clienti.
+
+>[!BEGINTABS]
+
+>[!TAB percorsi unitari]
+
+**I percorsi unitari** vengono attivati singolarmente da un evento quando si verifica un&#39;azione specifica, ad esempio un acquisto, l&#39;accesso all&#39;app o l&#39;invio di un modulo. I profili entrano nel percorso uno alla volta in tempo reale quando viene ricevuto l’evento, rendendolo ideale per esperienze personalizzate e guidate dal comportamento.
+
+**Caratteristiche chiave:**
+
+* Immissione in tempo reale basata su eventi
+* Elaborazione di singoli profili
+* Ideale per messaggi transazionali e risposte immediate
+* Supporta dati contestuali dall&#39;evento che attiva
+
+**Casi d&#39;uso:**
+
+* Conferma ordine dopo l’acquisto
+* E-mail di benvenuto quando qualcuno si abbona
+* Abbandono del carrello attivato dal comportamento di navigazione
+* Notifiche di reimpostazione della password
+
+➡️ [Informazioni sulla configurazione dell&#39;evento](../event/about-events.md) | [Eventi generali](general-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
+
+>[!TAB Leggi percorsi di pubblico]
+
+**Leggi percorsi di pubblico** inizia con un pubblico da Adobe Experience Platform e invia messaggi in batch a tutti i profili del pubblico. Questo tipo di percorso elabora l’intero pubblico contemporaneamente, rendendolo ideale per campagne pianificate e comunicazioni ricorrenti.
+
+**Caratteristiche chiave:**
+
+* Elaborazione in batch di segmenti di pubblico
+* Esecuzione pianificata o occasionale
+* Tutti i profili entrano contemporaneamente
+* Supporto di comunicazioni su larga scala
+
+**Casi d&#39;uso:**
+
+* Newsletter mensili
+* Campagne promozionali per il targeting dei segmenti
+* Annunci di prodotti a tutti i clienti
+* Campagne di marketing stagionale
+
+➡️ [Scopri l&#39;attività Read Audience](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md) | [Caso di utilizzo della messaggistica multicanale](journeys-uc.md)
+
+>[!TAB percorsi di qualificazione del pubblico]
+
+**I percorsi di qualificazione del pubblico** vengono attivati quando i profili si qualificano per (o escono da) un segmento di pubblico specifico. I profili entrano nel percorso singolarmente in quanto soddisfano i criteri di pubblico in tempo reale, consentendo un coinvolgimento immediato quando il comportamento del cliente cambia.
+
+**Caratteristiche chiave:**
+
+* Immissione in tempo reale basata sulla qualifica
+* Monitoraggio continuo dell’iscrizione al pubblico
+* Elaborazione di singoli profili in base ai requisiti
+* Il meglio con i tipi di pubblico in streaming
+
+**Casi d&#39;uso:**
+
+* Notifiche di aggiornamento livello VIP
+* Nuovo coinvolgimento quando i clienti diventano inattivi
+* Messaggi celebrativi per il primo acquisto
+* Targeting geografico quando i clienti si spostano
+
+➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Attività condizione](condition-activity.md) | [Creazione delle definizioni dei segmenti](../audience/creating-a-segment-definition.md)
+
+>[!TAB percorsi di eventi di business]
+
+**I percorsi di eventi di business** sono attivati da eventi di business (come aggiornamenti delle azioni, avvisi meteo o variazioni di prezzo) che interessano più profili contemporaneamente. Anziché reagire alle azioni dei singoli clienti, questi percorsi rispondono a condizioni aziendali più ampie o a fattori esterni.
+
+**Caratteristiche chiave:**
+
+* Attivato da eventi a livello aziendale, non da singole azioni
+* Interessa più profili contemporaneamente
+* Indirizza un pubblico specifico quando si verifica l&#39;evento
+* Combina la tempistica basata sugli eventi con il targeting del pubblico
+
+**Casi d&#39;uso:**
+
+* Avvisi di inventario ridotti per i clienti interessati
+* Annunci di vendita flash
+* Promozioni in base al tempo
+* Notifiche di riduzione prezzo
+* Avvisi back-in-stock del prodotto
+
+➡️ [Informazioni sugli eventi di business](general-events.md) | [Configura eventi di business](../event/about-creating-business.md) | [Gestione delle voci](entry-management.md)
+
+>[!ENDTABS]
+
 ## Panoramica sui percorsi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla creazione di Percorsi
 
@@ -49,7 +138,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - Guida completa
 
@@ -59,7 +148,7 @@ Documentazione completa che tratta tutti gli aspetti relativi alla creazione, al
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione dei Percorsi
 
@@ -69,7 +158,7 @@ Gestisci i percorsi cliente in modo efficiente con strumenti per filtrare, gesti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Attività percorso
 
@@ -79,7 +168,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creazione di espressioni
 
@@ -89,7 +178,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casi d’uso percorso
 
@@ -116,7 +205,7 @@ Scopri come creare percorsi [nei seguenti casi d’uso end-to-end](jo-use-cases.
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Risorse aggiuntive {#additional-resources}
 
