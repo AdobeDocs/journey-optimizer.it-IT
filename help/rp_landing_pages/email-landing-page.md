@@ -5,7 +5,7 @@ title: Canale e-mail
 description: Canale e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
+source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Il canale e-mail in Adobe Journey Optimizer ti consente di progettare, configura
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare un messaggio e-mail
 
@@ -42,7 +42,7 @@ Guida dettagliata per aggiungere, configurare e testare azioni e-mail in percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Progettare e ottimizzare del contenuto delle e-mail
 
@@ -52,7 +52,7 @@ Esplora gli strumenti e le best practice per la progettazione di contenuti e-mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire la rinuncia alle e-mail
 
@@ -62,7 +62,7 @@ Configura meccanismi di rinuncia con un solo clic o in due passaggi per gestire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale e-mail
 
@@ -72,13 +72,13 @@ Imposta e gestisci le configurazioni delle e-mail, ad esempio la delega dei sott
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Padroneggiare la recapitabilità delle e-mail
 
 Comprendi e ottimizza la recapitabilità delle e-mail con strumenti, best practice e informazioni actionable per migliorare la reputazione del mittente.
 
-[Migliorare la recapitabilità delle e-mail](deliverability-landing-page.md)
+[Migliorare la recapitabilità delle e-mail](../using/reports/deliverability.md)
 :::
 
 ::::
