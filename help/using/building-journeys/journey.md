@@ -128,7 +128,7 @@ Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alla creazione di Percorsi
 
@@ -138,7 +138,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Journey Orchestration - Guida completa
 
@@ -148,7 +148,7 @@ Documentazione completa che tratta tutti gli aspetti relativi alla creazione, al
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestione dei Percorsi
 
@@ -158,7 +158,7 @@ Gestisci i percorsi cliente in modo efficiente con strumenti per filtrare, gesti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Attività percorso
 
@@ -168,7 +168,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Creazione di espressioni
 
@@ -178,7 +178,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Casi d’uso percorso
 
