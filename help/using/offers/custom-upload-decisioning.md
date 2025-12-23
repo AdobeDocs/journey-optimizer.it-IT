@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '609'
 ht-degree: 5%
 
 ---
@@ -32,12 +32,13 @@ I dati dei tipi di pubblico di caricamento personalizzati possono essere utilizz
 Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, consulta le sezioni:
 
 * [Guida introduttiva a Audiences e Journey Optimizer](../audience/about-audiences.md)
-* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Da leggere {#must-read}
 
-* Questa funzionalità è supportata solo in **Gestione delle decisioni**, non in Decisioning (precedentemente noto come &quot;Experience Decisioning&quot;).
-* È disponibile esclusivamente tramite le richieste **Decisioning API (Hub)** e non è supportato da **Edge Decisioning API** o **batch decisioning**.
+* **Solo gestione delle decisioni** - Questa funzionalità è supportata solo in gestione delle decisioni, non in decisioning (precedentemente noto come &quot;Experience Decisioning&quot;).
+* **Solo API Decisioning (Hub)**: è disponibile esclusivamente tramite richieste API Decisioning (Hub) e non è supportato dall&#39;API Edge Decisioning o dalle decisioni batch.
+* **Flag API richiesto per i dati di arricchimento** - Quando utilizzi un pubblico CSV (Custom upload) e desideri recuperare i dati di arricchimento nella risposta alla decisione sull&#39;offerta, devi includere `"xdm:enrichedAudience": true` nel payload della richiesta API. Senza questo flag, gli attributi di arricchimento del pubblico caricato da CSV non verranno restituiti. [Ulteriori informazioni sull&#39;API Decisioning](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## Utilizzare un pubblico di caricamento personalizzato come criterio di idoneità {#eligibilty}
 
