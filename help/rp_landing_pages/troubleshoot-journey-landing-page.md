@@ -49,7 +49,7 @@ Accedi ai rapporti chiave per monitorare le prestazioni del percorso, analizzare
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
 
 Accedere e iscriversi agli avvisi di sistema
 
@@ -59,7 +59,7 @@ Scopri come accedere agli avvisi di sistema, iscriverti alle notifiche e monitor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Riferimento ai codici di errore
 
@@ -69,7 +69,7 @@ Informazioni sui i codici di errore comuni in Adobe Journey Optimizer per indivi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Risolvere i problemi prima di testare o pubblicare il percorso
 
@@ -79,7 +79,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Risolvere i problemi relativi all’esecuzione dei percorsi live
 
@@ -89,7 +89,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Risolvere i problemi relativi alle azioni in entrata nei percorsi
 
@@ -99,7 +99,7 @@ Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Risolvere i problemi relativi alle azioni personalizzate
 
