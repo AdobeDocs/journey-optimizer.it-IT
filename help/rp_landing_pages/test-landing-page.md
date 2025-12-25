@@ -63,7 +63,7 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 * Progetta [e-mail](../using/email/create-email.md), [SMS](../using/sms/create-sms.md), [notifica push](../using/push/create-push.md) o altro contenuto del canale
 * Utilizza la funzionalità **[Simula contenuto](../using/content-management/preview-test.md)** per visualizzare in anteprima con i profili di test
 * Controlla [token di personalizzazione](../using/personalization/personalization-syntax.md), contenuto dinamico e valori di fallback
-* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
