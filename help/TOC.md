@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3026'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -49,9 +49,7 @@ ht-degree: 96%
       + [Funzioni intelligenti e AI](using/start/ai-features.md)
       + [Accessibilità](using/start/accessibility.md)
 + Percorsi {#orchestrate-journeys}
-   + [Percorsi](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
-   + [Journey Orchestration - Guida completa](using/building-journeys/journey-get-started.md)
    + [Domande frequenti su Journey Orchestration](using/building-journeys/journey-faq.md)
    + Creare un percorso {#create-journey}
       + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -835,7 +833,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

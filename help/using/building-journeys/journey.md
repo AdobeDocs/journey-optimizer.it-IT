@@ -9,27 +9,95 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
+source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 34%
+source-wordcount: '1438'
+ht-degree: 35%
 
 ---
 
 
 # Introduzione ai percorsi{#jo-general-principle}
 
-I percorsi in Adobe Journey Optimizer consentono di creare percorsi cliente personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto. Esplorando trigger in tempo reale, gestendo le proprietà del percorso o utilizzando strumenti avanzati come azioni ed espressioni personalizzate, questa sezione fornisce una chiara roadmap per aiutarti a progettare e perfezionare percorsi che forniscano esperienze cliente significative e tempestive.
+I percorsi in Adobe Journey Optimizer consentono di creare percorsi cliente personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
 
-Utilizza [!DNL Journey Optimizer] per generare casi d’uso di orchestrazione in tempo reale, sfruttando i dati contestuali memorizzati in eventi o in origini dati. Puoi progettare scenari avanzati in più passaggi con le seguenti funzionalità:
+Esplorando trigger in tempo reale, gestendo le proprietà del percorso o utilizzando strumenti avanzati come azioni ed espressioni personalizzate, questa guida fornisce una chiara roadmap per progettare e perfezionare con sicurezza i percorsi che forniscono esperienze cliente significative e tempestive.
 
-* Invia **consegna unitaria** in tempo reale attivata quando viene ricevuto un [evento](general-events.md) o **in batch** utilizzando [tipi di pubblico](read-audience.md) di Adobe Experience Platform.
+## Cosa sono i percorsi?
 
-* Sfrutta **dati contestuali** da [eventi](../event/about-events.md), informazioni da Adobe Experience Platform o dati da servizi API di terze parti tramite [origini dati](../datasource/about-data-sources.md).
+Utilizza [!DNL Journey Optimizer] per generare casi d’uso di orchestrazione in tempo reale, sfruttando i dati contestuali memorizzati in eventi o in origini dati. Progetta scenari avanzati a più passaggi che rispondano in tempo reale al comportamento dei clienti e agli eventi di business.
 
-* Utilizza le **[azioni incorporate](journeys-message.md)** per inviare messaggi progettati in [!DNL Journey Optimizer] o crea **[azioni personalizzate](using-custom-actions.md)** se utilizzi un sistema di terze parti l’invio dei messaggi.
+Il designer del percorso di Journey Optimizer fornisce tutto ciò che serve ai marketer e professionisti del percorso per orchestrare percorsi 1:1 in più passaggi su più canali. Ciò include un’area di lavoro intuitiva con modalità di trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali che i membri del pubblico target visualizzeranno in base al comportamento, ai dati contestuali e agli eventi di business.
 
-* Con **[Progettazione percorsi](using-the-journey-designer.md)**, genera i tuoi casi d&#39;uso a più passaggi: trascina facilmente un evento di partecipazione o un&#39;attività [Read audience](read-audience.md), aggiungi [condizioni](condition-activity.md) e invia messaggi personalizzati.
+![Interfaccia di Progettazione Percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
+
+**Iniziare la generazione?** Scopri come creare e progettare il tuo primo percorso in [questa pagina](journey-gs.md).
+
+## Funzionalità principali {#capabilities}
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+**Consegna in tempo reale e in batch**
+
+Invia in tempo reale una **consegna unitaria** attivata quando viene ricevuto un evento o **in batch** utilizzando i tipi di pubblico di Adobe Experience Platform.
+
+[Informazioni sulla voce percorso](entry-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+**Dati contestuali**
+
+Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
+
+[Utilizzare le origini dati](../datasource/about-data-sources.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**Azioni incorporate**
+
+Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL Journey Optimizer] tramite e-mail, push, SMS/MMS e altro ancora.
+
+[Inviare messaggi in percorsi](journeys-message.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**Azioni personalizzate**
+
+Crea **azioni personalizzate** se utilizzi un sistema di terze parti per inviare i messaggi o connettersi alle API esterne.
+
+[Utilizzare le azioni personalizzate](../action/about-custom-action-configuration.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+**Progettazione percorso visivo**
+
+Con il **designer del percorso**, genera casi d’uso in più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
+
+[Esplora il designer del percorso](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**Verifica e ottimizza**
+
+Esegui il test dei percorsi prima di pubblicarli, monitorane le prestazioni e ottimizza la distribuzione con funzioni avanzate come l’ottimizzazione del tempo di invio.
+
+[Test e pubblicazione dei percorsi](testing-the-journey.md)
+:::
+
+::::
 
 ➡️ [Scopri Journey Optimizer nel video](#video)
 
@@ -37,7 +105,7 @@ Utilizza [!DNL Journey Optimizer] per generare casi d’uso di orchestrazione in
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla creazione di Percorsi
 
@@ -47,17 +115,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
-
-Journey Orchestration - Guida completa
-
-Documentazione completa che tratta tutti gli aspetti relativi alla creazione, alla gestione e all&#39;ottimizzazione del percorso in Adobe Journey Optimizer.
-
-[Esplora la guida completa](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione dei Percorsi
 
@@ -67,7 +125,7 @@ Gestisci i percorsi cliente in modo efficiente con strumenti per filtrare, gesti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Attività percorso
 
@@ -77,7 +135,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creazione di espressioni
 
@@ -87,7 +145,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casi d’uso percorso
 
@@ -98,9 +156,76 @@ Esplora le applicazioni reali di Adobe Journey Optimizer, inclusa la messaggisti
 
 ::::
 
-## Cosa si può fare con i percorsi?
+## Casi d’uso ed esempi {#use-cases}
 
 Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando una persona si iscrive a un servizio, può [essere attivata un’e-mail di benvenuto](message-to-subscribers-uc.md), invitandola ad accedere all’app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per far avanzare i nuovi clienti lungo i relativi percorsi.
+
+Il [designer del percorso](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journeys-message.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/MMS, nonché i canali in entrata, inclusi siti web, app per dispositivi mobili ed esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l&#39;integrazione di tali sistemi nei percorsi direttamente dal progettista del percorso.
+
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**Scopri i casi d&#39;uso**
+
+Esplora casi di utilizzo completi del percorso che dimostrino implementazioni e best practice reali.
+
+[Scopri tutti i casi d’uso](jo-use-cases.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**Nuovi abbonati**
+
+Invia un percorso di benvenuto personalizzato quando i clienti si abbonano al servizio, guidandoli attraverso i passaggi di onboarding.
+
+[Ulteriori informazioni](message-to-subscribers-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**Ottimizza orari di invio e-mail**
+
+Utilizza l’ottimizzazione del tempo di invio basata sull’intelligenza artificiale per inviare e-mail quando è più probabile che ogni cliente si rivolga a lui.
+
+[Ulteriori informazioni](send-time-optimization.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Incrementa le consegne**
+
+Aumenta gradualmente il volume dei messaggi per migliorare la reputazione del mittente ed evitare problemi di recapito dei messaggi.
+
+[Ulteriori informazioni](ramp-up-deliveries-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**Destinazione per giorno feriale**
+
+Invia contenuti diversi in base al giorno della settimana in cui i clienti entrano nel percorso.
+
+[Ulteriori informazioni](weekday-email-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+**Domande frequenti sui Percorsi**
+
+Risposte alle domande frequenti sulla creazione di percorsi, la risoluzione dei problemi e le best practice.
+
+[Visualizza le domande frequenti](journey-faq.md)
+:::
+
+::::
 
 ## Tipi di percorso
 
@@ -213,7 +338,8 @@ Scopri come utilizzare la finestra di progettazione del percorso [in questi casi
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
 
 ## Risorse aggiuntive {#additional-resources}
 
@@ -223,3 +349,4 @@ Scopri i componenti di un percorso e le nozioni di base sulla creazione di un pe
 * **[Riferimento ai codici di errore](error-codes-reference.md)**: codici di errore del percorso e passaggi per la risoluzione dei problemi
 * **[Risoluzione dei problemi](troubleshooting.md)**: problemi e soluzioni comuni del percorso
 * **[Esercitazioni Percorso (video)](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Scopri la creazione di percorsi tramite esercitazioni video pratiche che includono funzionalità, funzionalità e best practice
+* **[Guardrail e limitazioni di Percorso](../start/guardrails.md)** - Controlla guardrail e limitazioni quando utilizzi [!DNL Adobe Journey Optimizer]
