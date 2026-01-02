@@ -10,7 +10,7 @@ keywords: Tipi di percorso, unitari, pubblico di lettura, qualificazione del pub
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 3%
@@ -177,5 +177,6 @@ Ora che conosci i tipi di percorso, puoi effettuare le seguenti operazioni:
 * **[Visualizza domande frequenti sul percorso](journey-faq.md)** - Risposte alle domande comuni
 
 **È necessario eseguire un confronto con le campagne?**
-&#x200B;- [Guida al confronto tra Percorsi e campagne](../start/journeys-vs-campaigns.md) - Scegli tra percorsi, campagne Action/API e campagne orchestrate
+
+* [Guida al confronto tra Percorsi e campagne](../start/journeys-vs-campaigns.md) - Scegli tra percorsi, campagne Action/API e campagne orchestrate
 
