@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1424'
 ht-degree: 3%
 
 ---
@@ -49,12 +49,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 **I percorsi unitari** vengono attivati singolarmente quando si verifica un&#39;azione specifica (acquisto, accesso all&#39;app, invio di moduli). I profili vengono inseriti uno alla volta in tempo reale, rendendolo ideale per risposte immediate e basate sul comportamento.
 
-**Ideale per:**
-
-* Conferme ordine dopo l’acquisto
-* E-mail di benvenuto quando qualcuno si abbona
-* Abbandono del carrello attivato dalla navigazione
-* Notifiche di reimpostazione della password
+**Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, abbandono del carrello attivato dalla navigazione e notifiche di reimpostazione della password.
 
 ➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
 
@@ -64,12 +59,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 **Leggi percorsi di pubblico** inizia con un pubblico Adobe Experience Platform e invia messaggi in batch a tutti i profili contemporaneamente. Questo percorso è ideale per comunicazioni pianificate su larga scala.
 
-**Ideale per:**
-
-* Newsletter mensili
-* Campagne promozionali per il targeting dei segmenti
-* Annunci sui prodotti
-* Campagne di marketing stagionale
+**Ideale per:** newsletter mensili, campagne promozionali per segmenti di destinazione, annunci di prodotti e campagne di marketing stagionali.
 
 ➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
 
@@ -79,12 +69,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 **I percorsi di qualificazione del pubblico** si attivano quando i profili si qualificano per un pubblico specifico (o ne escono). I profili vengono inseriti singolarmente in quanto soddisfano i criteri in tempo reale, consentendo un coinvolgimento immediato quando il comportamento del cliente cambia.
 
-**Ideale per:**
-
-* Notifiche di aggiornamento livello VIP
-* Nuovo coinvolgimento quando i clienti diventano inattivi
-* Messaggi celebrativi per il primo acquisto
-* Targeting geografico quando i clienti si spostano
+**Ideale per:** notifiche di aggiornamento a livello VIP, nuovo coinvolgimento quando i clienti diventano inattivi, messaggi di festeggiamento del primo acquisto e targeting geografico quando i clienti si spostano.
 
 ➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Creazione di tipi di pubblico](../audience/creating-a-segment-definition.md)
 
@@ -94,13 +79,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 **I percorsi di eventi aziendali** sono attivati da eventi a livello aziendale (aggiornamenti delle scorte, avvisi meteo, variazioni di prezzo) che interessano più profili contemporaneamente. Questi rispondono a condizioni di business più ampie piuttosto che ad azioni individuali.
 
-**Ideale per:**
-
-* Avvisi di inventario ridotti per i clienti interessati
-* Annunci di vendita flash
-* Promozioni in base al tempo
-* Notifiche di riduzione prezzo
-* Avvisi back-in-stock del prodotto
+**Ideale per:** avvisi di inventario ridotti per i clienti interessati, annunci di vendita flash, promozioni basate su meteo, notifiche di calo dei prezzi e avvisi di back-in-stock dei prodotti.
 
 ➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione delle voci](entry-management.md)
 
@@ -121,7 +100,7 @@ Utilizza [!DNL Journey Optimizer] per:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definisci i punti di ingresso**
 
@@ -131,7 +110,7 @@ Scegli come i clienti inseriscono: attraverso un evento, un segmento di pubblico
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Inviare messaggi**
 
@@ -141,7 +120,7 @@ Utilizza azioni di canale integrate per e-mail, push, SMS/MMS, in-app, web e alt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Aggiungi logica e condizioni**
 
@@ -151,7 +130,7 @@ Crea un ramo del percorso in base agli attributi del profilo, all’iscrizione a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Sfruttare i dati**
 
@@ -161,7 +140,7 @@ Utilizza dati contestuali provenienti da eventi, Adobe Experience Platform o ser
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connetti sistemi esterni**
 
@@ -171,7 +150,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Aggiungi attività di orchestrazione**
 
@@ -190,7 +169,7 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 **1. Piano** → **2. Progettazione** → **3. Test** → **4. Pubblica** → **5. Monitora** → **6. Ottimizza**
 
-### &#x200B;1. **Pianifica il tuo percorso** {#plan}
+### &#x200B;1. Pianificare il percorso {#plan}
 
 Prima di aprire la finestra di progettazione, specificare gli obiettivi:
 
@@ -199,7 +178,7 @@ Prima di aprire la finestra di progettazione, specificare gli obiettivi:
 * **Quale tipo di percorso è adatto?** (vedi [Tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
 
-### &#x200B;2. **Progettazione nell&#39;area di lavoro** {#design}
+### &#x200B;2. Progettazione nel quadro {#design}
 
 Utilizza Progettazione percorsi per generare il flusso:
 
@@ -211,7 +190,7 @@ Utilizza Progettazione percorsi per generare il flusso:
 
 [Scopri come utilizzare la → di Progettazione percorsi](using-the-journey-designer.md)
 
-### &#x200B;3. **Verifica prima della pubblicazione** {#test}
+### &#x200B;3. Eseguire il test prima della pubblicazione {#test}
 
 Esegui sempre il test del percorso per individuare eventuali problemi prima che si verifichino:
 
@@ -222,7 +201,7 @@ Esegui sempre il test del percorso per individuare eventuali problemi prima che 
 
 [Verifica il percorso →](testing-the-journey.md) | [Informazioni sull&#39;esecuzione →](journey-dry-run.md)
 
-### &#x200B;4. **Pubblica il tuo percorso** {#publish}
+### &#x200B;4. Pubblicare il percorso {#publish}
 
 Una volta completato il test, pubblica per rendere attivo il percorso:
 
@@ -232,7 +211,7 @@ Una volta completato il test, pubblica per rendere attivo il percorso:
 
 [Pubblicare il → di percorso](publish-journey.md)
 
-### &#x200B;5. **Monitorare le prestazioni** {#monitor}
+### &#x200B;5. Monitorare le prestazioni {#monitor}
 
 Monitora le prestazioni del percorso nel mondo reale:
 
@@ -242,7 +221,7 @@ Monitora le prestazioni del percorso nel mondo reale:
 
 [Monitora e segnala →](report-journey.md) | [Configura avvisi →](../reports/alerts.md)
 
-### &#x200B;6. **Ottimizza e ripeti** {#optimize}
+### &#x200B;6. Ottimizzare e ripetere {#optimize}
 
 Utilizza le informazioni per migliorare:
 
@@ -262,7 +241,7 @@ Scopri dagli esempi pratici che mostrano come applicare concetti di percorso per
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Nuovi abbonati**
 
@@ -272,7 +251,7 @@ Quando un cliente si abbona al servizio, attiva un percorso di benvenuto che li 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizzazione dell&#39;ora di invio**
 
@@ -282,7 +261,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando è più probabil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementa le consegne**
 
@@ -292,7 +271,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione del mi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione per giorno feriale**
 
@@ -302,7 +281,7 @@ Inviare contenuti diversi in base al giorno della settimana in cui i clienti ins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagne multicanale**
 
@@ -312,7 +291,7 @@ Organizza esperienze senza soluzione di continuità tra canali e-mail, push, SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tutti i casi d&#39;uso**
 
@@ -330,7 +309,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Espressioni avanzate**
 
@@ -340,7 +319,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestione del fuso orario**
 
@@ -350,7 +329,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modalità di test ed esecuzione a secco**
 
@@ -360,7 +339,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copia nella sandbox**
 
@@ -370,7 +349,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tag e organizzazione**
 
@@ -380,7 +359,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo velocità effettiva**
 
@@ -397,7 +376,7 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 Ottieni un’introduzione visiva ai componenti di percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Desideri altri video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
