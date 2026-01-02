@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
+source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 31%
@@ -183,10 +183,7 @@ Imposta le basi della campagna:
 4. **Imposta priorità** se si utilizza la gestione dei conflitti
 5. **Configura pianificazione** (per campagne Azione) o dettagli API (per attivate da API)
 
-**Guide specifiche per tipo:**
-* [Proprietà campagna azione →](campaign-properties.md)
-* [→ delle proprietà di una campagna attivata da API](api-triggered-campaign-properties.md)
-* [→ di configurazione della campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
+**Guide specifiche per tipo:** [Proprietà campagna azione](campaign-properties.md) | [Proprietà campagna attivata da API](api-triggered-campaign-properties.md) | [Configurazione campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. Progettare i contenuti {#design}
 
@@ -198,10 +195,7 @@ Creare messaggi convincenti per il pubblico:
 * Crea **esperienze in-app** e **web**
 * Aggiungi **personalizzazione** utilizzando gli attributi del profilo e i dati contestuali
 
-**Guide specifiche per tipo:**
-* [→ del contenuto della campagna di azione](campaign-content.md)
-* [→ di contenuto di campagne attivate da API](api-triggered-campaign-content.md)
-* [→ del contenuto della campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
+**Guide specifiche per tipo:** [Contenuto della campagna d&#39;azione](campaign-content.md) | [Contenuto della campagna attivato da API](api-triggered-campaign-content.md) | [Contenuto della campagna orchestrato](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Riesame e prova {#review}
 
@@ -213,10 +207,7 @@ Rivedi sempre la campagna prima dell’attivazione:
 * **Richiedi l&#39;approvazione** se si utilizza il flusso di lavoro di approvazione
 * **Verifica recapito messaggi** con elenchi di seed
 
-**Guide specifiche per tipo:**
-* [Campagne Rivedi azione →](review-activate-campaign.md)
-* [Rivedi le campagne attivate da API →](review-activate-api-triggered-campaign.md)
-* [Rivedi → campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
+**Guide specifiche per tipo:** [Campagne per azioni di revisione](review-activate-campaign.md) | [Rivedi campagne attivate da API](review-activate-api-triggered-campaign.md) | [Rivedi campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. Attivare la campagna {#activate}
 
@@ -227,10 +218,7 @@ Al termine della revisione, attiva la campagna:
 * **Processo di approvazione** - Se necessario, attendi l&#39;approvazione delle parti interessate
 * Nota: non è possibile modificare le campagne attive (è necessario duplicarle per apportare modifiche)
 
-**Guide specifiche per tipo:**
-* [Attivare campagne di azione →](review-activate-campaign.md)
-* [Attivare le campagne attivate da API →](review-activate-api-triggered-campaign.md)
-* [Attiva → campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
+**Guide specifiche per tipo:** [Attiva campagne azione](review-activate-campaign.md) | [Attiva campagne attivate da API](review-activate-api-triggered-campaign.md) | [Attiva campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. Monitorare e analizzare {#monitor}
 
@@ -242,10 +230,7 @@ Monitora le prestazioni della campagna:
 * Analisi della conversione e del ROI
 * Utilizzare gli approfondimenti per l’ottimizzazione
 
-**Guide specifiche per tipo:**
-* [Rapporti sulle campagne d’azione →](../reports/campaign-global-report-cja.md)
-* [→ di monitoraggio delle campagne attivate da API](api-triggered-campaigns.md#monitor)
-* [→ orchestrato di analisi delle campagne](../orchestrated/create-orchestrated-campaign.md)
+**Guide specifiche per tipo:** [Report campagne azioni](../reports/campaign-global-report-cja.md) | [Monitoraggio di campagne attivate da API](api-triggered-campaigns.md#monitor) | [Analisi orchestrata delle campagne](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **Inizio?** Scegli il tipo di campagna:
 * [Crea → campagna azione](create-campaign.md)
@@ -291,7 +276,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -301,7 +286,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo frequenza**
 
@@ -311,7 +296,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione pubblico**
 
@@ -321,7 +306,7 @@ Puoi indirizzare l’attività a tipi di pubblico specifici di Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -331,7 +316,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore non interattive**
 
@@ -341,7 +326,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione dell&#39;ora di invio**
 
