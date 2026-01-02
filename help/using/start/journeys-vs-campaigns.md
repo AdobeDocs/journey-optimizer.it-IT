@@ -159,33 +159,33 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 ### Casi di utilizzo del percorso
 
-* **Ripristino dell&#39;abbandono del carrello**: attivato dall&#39;evento di aggiunta al carrello, attendi l&#39;estrazione, invia promemoria se non viene effettuato alcun acquisto
-* **Onboarding del cliente**: serie di benvenuto in più passaggi con contenuti personalizzati basati sui dati del profilo
-* **Aggiornamento livello fedeltà**: attivato quando il cliente raggiunge un nuovo livello, invia congratulazioni e benefici
-* **Campagne di compleanno**: ingresso basato sulla data di nascita, offerte personalizzate
-* **Nuovo coinvolgimento**: attivato dalla qualifica del pubblico (inattività), dalla diffusione progressiva
+&#x200B;* **Ripristino dell&#39;abbandono del carrello**: attivato dall&#39;evento di aggiunta al carrello, attendi l&#39;estrazione, invia promemoria se non viene effettuato alcun acquisto
+&#x200B;* **Onboarding del cliente**: serie di benvenuto in più passaggi con contenuti personalizzati basati sui dati del profilo
+&#x200B;* **Aggiornamento livello fedeltà**: attivato quando il cliente raggiunge un nuovo livello, invia congratulazioni e benefici
+&#x200B;* **Campagne di compleanno**: ingresso basato sulla data di nascita, offerte personalizzate
+&#x200B;* **Nuovo coinvolgimento**: attivato dalla qualifica del pubblico (inattività), dalla diffusione progressiva
 
 ### Casi di utilizzo delle campagne (attivati da Azione e API)
 
 **Campagne azioni:**
-* **Newsletter mensili**: consegna batch pianificata al segmento sottoscrittore
-* **Annunci promozionali**: offerte sensibili al tempo per i tipi di pubblico di destinazione
-* **Lanci di prodotti**: annuncio coordinato a tutti i clienti
-* **Saluti stagionali**: messaggi di vacanza in date specifiche
+&#x200B;* **Newsletter mensili**: consegna batch pianificata al segmento sottoscrittore
+&#x200B;* **Annunci promozionali**: offerte sensibili al tempo per i tipi di pubblico di destinazione
+&#x200B;* **Lanci di prodotti**: annuncio coordinato a tutti i clienti
+&#x200B;* **Saluti stagionali**: messaggi di vacanza in date specifiche
 
 **Campagne attivate da API:**
-* **Conferme ordine**: attivato dal sistema di e-commerce dopo l&#39;acquisto
-* **Notifiche di spedizione**: attivato dal sistema logistico
-* **Avvisi account**: attivato dal sistema di rilevamento delle frodi
-* **Reimpostazione password**: attivata dall&#39;azione dell&#39;utente nell&#39;applicazione
+&#x200B;* **Conferme ordine**: attivato dal sistema di e-commerce dopo l&#39;acquisto
+&#x200B;* **Notifiche di spedizione**: attivato dal sistema logistico
+&#x200B;* **Avvisi account**: attivato dal sistema di rilevamento delle frodi
+&#x200B;* **Reimpostazione password**: attivata dall&#39;azione dell&#39;utente nell&#39;applicazione
 
 ### Casi d’uso della campagna orchestrata
 
-* **Promozione stagionale con integrazione catalogo**: esegui query sul catalogo dei prodotti, identifica i clienti idonei, segmenta per preferenze, invia consigli di prodotti personalizzati
-* **Campagne specifiche per lo store**: rivolgiti a clienti vicini a posizioni specifiche dello store con dati di inventario dello store
-* **Comunicazioni con più prenotazioni**: invia un messaggio per ogni prenotazione (prenotazioni di hotel e voli)
-* **Orchestrazione dei segmenti complessa**: crea i tipi di pubblico in modo dettagliato con l&#39;arricchimento da più origini dati
-* **Convalida pre-invio**: ottieni conteggi esatti dei destinatari prima di avviare campagne principali
+&#x200B;* **Promozione stagionale con integrazione catalogo**: esegui query sul catalogo dei prodotti, identifica i clienti idonei, segmenta per preferenze, invia consigli di prodotti personalizzati
+&#x200B;* **Campagne specifiche per lo store**: rivolgiti a clienti vicini a posizioni specifiche dello store con dati di inventario dello store
+&#x200B;* **Comunicazioni con più prenotazioni**: invia un messaggio per ogni prenotazione (prenotazioni di hotel e voli)
+&#x200B;* **Orchestrazione dei segmenti complessa**: crea i tipi di pubblico in modo dettagliato con l&#39;arricchimento da più origini dati
+&#x200B;* **Convalida pre-invio**: ottieni conteggi esatti dei destinatari prima di avviare campagne principali
 
 ## Disponibilità delle funzioni {#feature-availability}
 
@@ -252,9 +252,9 @@ R: Sì, i tipi di pubblico creati in Adobe Experience Platform possono essere ut
 
 Pronto per iniziare a creare? Esplora la documentazione dettagliata dell’approccio scelto:
 
-* **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Informazioni sui tipi di percorso, sulla progettazione e sul flusso di lavoro
-* **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Esplora le campagne attivate da API e azioni
-* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Esplorazione dei flussi di lavoro dell&#39;area di lavoro batch
+&#x200B;* **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Informazioni sui tipi di percorso, sulla progettazione e sul flusso di lavoro
+&#x200B;* **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Esplora le campagne attivate da API e azioni
+&#x200B;* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Esplorazione dei flussi di lavoro dell&#39;area di lavoro batch
 
 **Ulteriori informazioni sulla decisione?**
 - [Confronto dei tipi di percorso](../building-journeys/journey.md#journey-types-comparison)
