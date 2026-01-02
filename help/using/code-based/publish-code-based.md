@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -69,13 +69,13 @@ Il percorso basato su codice accetta lo stato **[!UICONTROL Live]** ed è ora vi
    >
    >Ulteriori informazioni sull&#39;attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
 
-La campagna basata su codice assume lo stato **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al contenuto.
+La campagna basata su codice accetta lo **[!UICONTROL Live]** [status](../campaigns/manage-campaigns.md#statuses) ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al contenuto.
 
 >[!NOTE]
 >
 >Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti perché le modifiche siano disponibili in tempo reale.
 >
->Se hai definito una pianificazione per una campagna basata su codice, questa avrà lo stato **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell&#39;ora di inizio.
+>Se hai definito una pianificazione per la campagna basata su codice, questa avrà **[!UICONTROL Pianificato]** [stato](../campaigns/manage-campaigns.md#statuses) fino a raggiungere la data e l&#39;ora di inizio.
 
 ## Interrompere un percorso o una campagna basata su codice {#stop-code-based-experience}
 

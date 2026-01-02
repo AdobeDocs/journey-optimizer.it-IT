@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 9%
@@ -82,7 +82,7 @@ Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ri
 
 ## Operazioni della campagna {#operations}
 
-L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
+L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
@@ -191,7 +191,7 @@ Modalità di rappresentazione delle campagne:
 
 ## Modificare e interrompere le campagne di azione ricorrenti {#modify}
 
-### Modificare una campagna di azioni
+### Modificare una campagna di azioni {#modify-an-action-campaign}
 
 Per modificare e creare una nuova versione di una campagna Azione ricorrente, effettua le seguenti operazioni:
 

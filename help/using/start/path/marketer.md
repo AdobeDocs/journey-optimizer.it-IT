@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1476'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ Per iniziare a creare esperienze, segui i passaggi principali seguenti:
 
 ### Orchestrazione delle campagne
 
-* **Scegliere l&#39;approccio corretto**: utilizzare Percorsi per esperienze attivate dal comportamento in tempo reale; utilizzare campagne orchestrate per campagne pianificate in batch
+* **Scegli l&#39;approccio corretto**: [Confronta tipi di percorso](../../building-journeys/journey.md#journey-types) per esperienze attivate dal comportamento in tempo reale o [tipi di campagna](../../campaigns/get-started-with-campaigns.md#campaign-types) per campagne pianificate in batch
 * **Definire chiari gli obiettivi della campagna**: stabilire gli obiettivi prima di progettare flussi di lavoro con più passaggi
 * **Inizia con tipi di pubblico pilota**: convalida i conteggi e la logica di segmentazione prima del ridimensionamento
 * **Sfruttare i dati relazionali**: utilizza la segmentazione tra più entità per collegare i dati dei clienti con account, acquisti e abbonamenti per un targeting preciso

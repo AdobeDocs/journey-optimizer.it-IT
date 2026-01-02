@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home)
+>Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 I criteri di approvazione consentono agli amministratori di stabilire un processo di convalida per percorsi e campagne. Questo sistema delinea condizioni specifiche che determinano se un percorso o una campagna richiede l’approvazione. Queste regole possono essere di complessità variabile. Possono semplicemente richiedere che tutte le campagne siano riviste da un particolare utente o team, o stabilire criteri in base a chi ha creato la campagna.
 
@@ -66,7 +66,7 @@ I criteri di approvazione offrono opzioni di targeting flessibili per soddisfare
 * **Nomi campagna/Percorso**: oggetti specifici di destinazione per nome
 * **Tag**: applica i criteri a tutte le campagne o percorsi con un tag specifico
 * **Tipi di canale**: è necessaria l&#39;approvazione per azioni specifiche (e-mail, SMS, push, ecc.)
-* **Tipi di campagna**: imposta regole diverse per le campagne pianificate rispetto a quelle attivate da API
+* **Tipi di campagna**: imposta regole diverse per [Campagne attivate da azioni rispetto a quelle attivate da API](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Richiedenti**: definisci i criteri in base a chi crea la campagna o il percorso
 
 Per definire le condizioni associate a un criterio di approvazione, effettuare le operazioni riportate di seguito.

@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 35%
+source-wordcount: '282'
+ht-degree: 40%
 
 ---
 
@@ -34,7 +34,7 @@ A questo scopo, devi innanzitutto creare una campagna attivata da API in Journey
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui canali supportati, consulta la tabella in questa sezione: [Canali in percorsi e campagne](../channels/gs-channels.md#channels).
+>Per ulteriori informazioni sui canali supportati, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels).
 >
 >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
@@ -50,8 +50,10 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 1. [Rivedere e attivare una campagna](review-activate-api-triggered-campaign.md)
 1. [Attivare l’esecuzione della campagna](trigger-campaigns.md)
 
+Ulteriori informazioni sul [flusso di lavoro completo per la creazione di campagne con guide specifiche per tipo →](get-started-with-campaigns.md#workflow)
+
 ## Video dimostrativi {#video}
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452733?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
