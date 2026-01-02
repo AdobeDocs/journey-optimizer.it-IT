@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -276,27 +276,27 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
-Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimizza gli orari di invio per il massimo impatto.
+Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimizza gli orari di invio per il massimo impatto. (Campagne attivate da azioni e API)
 
 [Informazioni sulla pianificazione](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo frequenza**
 
-Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistemi a valle come pagine di destinazione o piattaforme di assistenza clienti.
+Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistemi a valle come pagine di destinazione o piattaforme di assistenza clienti. (Campagne attivate da azioni e API)
 
 [Limiti della velocità di controllo](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione pubblico**
 
@@ -306,33 +306,33 @@ Puoi indirizzare l’attività a tipi di pubblico specifici di Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
-Implementa i processi di revisione e approvazione prima che le campagne vengano pubblicate, garantendo qualità e conformità.
+Implementa i processi di revisione e approvazione prima che le campagne vengano pubblicate, garantendo qualità e conformità. (Campagne attivate da azioni e API)
 
 [Rivedi e attiva](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore non interattive**
 
-Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli intervalli di tempo specificati.
+Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli intervalli di tempo specificati. (Campagne attivate da azioni e API)
 
 [Configurare le ore non interattive](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Ottimizzazione dell&#39;ora di invio**
+**Ottimizzazione**
 
-Utilizza l’intelligenza artificiale per determinare il momento migliore per inviare messaggi in modo da coinvolgere al massimo ogni individuo.
+Utilizza le regole di targeting e gli esperimenti sui contenuti per fornire contenuti personalizzati e massimizzare il coinvolgimento.
 
-[Ottimizza tempo di invio](campaigns-message-optimization.md)
+[Ottimizza le campagne](campaigns-message-optimization.md)
 :::
 
 ::::
