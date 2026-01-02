@@ -26,7 +26,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+>Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home)
 
 I criteri di approvazione consentono agli amministratori di stabilire un processo di convalida per percorsi e campagne. Questo sistema delinea condizioni specifiche che determinano se un percorso o una campagna richiede l’approvazione. Queste regole possono essere di complessità variabile. Possono semplicemente richiedere che tutte le campagne siano riviste da un particolare utente o team, o stabilire criteri in base a chi ha creato la campagna.
 
