@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1928'
 ht-degree: 18%
 
 ---
@@ -125,6 +125,10 @@ Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la pro
 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
+
+    >[!NOTE]
+    >
+    >Dopo aver creato un nuovo sottodominio con il provider DNS, attendi 24-48 ore per la propagazione DNS prima di tentare la delega ad Adobe.
 
 1. Configura **[!UICONTROL record DMARC]** nella sezione dedicata. Se il sottodominio ha un [record DMARC](dmarc-record.md) esistente e viene recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Scopri come gestire il record DMARC](dmarc-record.md#set-up-dmarc)
 
@@ -277,4 +281,4 @@ Dopo che la richiesta Ã¨ gestita da Adobe, il dominio non delegato non viene piÃ
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
