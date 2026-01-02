@@ -82,7 +82,7 @@ Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ri
 
 ## Operazioni della campagna {#operations}
 
-L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
+L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
