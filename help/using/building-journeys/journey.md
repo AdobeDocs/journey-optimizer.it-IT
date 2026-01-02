@@ -45,7 +45,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB percorsi unitari]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **Quando utilizzare:** Esperienze in tempo reale attivate da eventi
+![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it) **Quando utilizzare:** Esperienze in tempo reale attivate da eventi
 
 **I percorsi unitari** vengono attivati singolarmente quando si verifica un&#39;azione specifica (acquisto, accesso all&#39;app, invio di moduli). I profili vengono inseriti uno alla volta in tempo reale, rendendolo ideale per risposte immediate e basate sul comportamento.
 
@@ -60,7 +60,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB Leggi percorsi di pubblico]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/database.svg) **Quando utilizzare:** campagne pianificate per i segmenti di pubblico
+![icona](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it) **Quando utilizzare:** campagne pianificate per i segmenti di pubblico
 
 **Leggi percorsi di pubblico** inizia con un pubblico Adobe Experience Platform e invia messaggi in batch a tutti i profili contemporaneamente. Questo percorso è ideale per comunicazioni pianificate su larga scala.
 
@@ -75,7 +75,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB percorsi di qualificazione del pubblico]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **Quando utilizzare:** risposte in tempo reale alle modifiche di iscrizione al pubblico
+![icona](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it) **Quando utilizzare:** risposte in tempo reale alle modifiche di iscrizione al pubblico
 
 **I percorsi di qualificazione del pubblico** si attivano quando i profili si qualificano per un pubblico specifico (o ne escono). I profili vengono inseriti singolarmente in quanto soddisfano i criteri in tempo reale, consentendo un coinvolgimento immediato quando il comportamento del cliente cambia.
 
@@ -90,7 +90,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB percorsi di eventi di business]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Quando utilizzare:** Condizioni aziendali che interessano più clienti
+![icona](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it) **Quando utilizzare:** Condizioni aziendali che interessano più clienti
 
 **I percorsi di eventi aziendali** sono attivati da eventi a livello aziendale (aggiornamenti delle scorte, avvisi meteo, variazioni di prezzo) che interessano più profili contemporaneamente. Questi rispondono a condizioni di business più ampie piuttosto che ad azioni individuali.
 
@@ -121,7 +121,7 @@ Utilizza [!DNL Journey Optimizer] per:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Definisci i punti di ingresso**
 
@@ -131,7 +131,7 @@ Scegli come i clienti inseriscono: attraverso un evento, un segmento di pubblico
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 **Inviare messaggi**
 
@@ -141,7 +141,7 @@ Utilizza azioni di canale integrate per e-mail, push, SMS/MMS, in-app, web e alt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 **Aggiungi logica e condizioni**
 
@@ -151,7 +151,7 @@ Crea un ramo del percorso in base agli attributi del profilo, all’iscrizione a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Sfruttare i dati**
 
@@ -161,7 +161,7 @@ Utilizza dati contestuali provenienti da eventi, Adobe Experience Platform o ser
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Connetti sistemi esterni**
 
@@ -171,7 +171,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Aggiungi attività di orchestrazione**
 
@@ -269,7 +269,7 @@ Scopri dagli esempi pratici che mostrano come applicare concetti di percorso per
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 **Nuovi abbonati**
 
@@ -279,7 +279,7 @@ Quando un cliente si abbona al servizio, attiva un percorso di benvenuto che li 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
 
 **Ottimizzazione dell&#39;ora di invio**
 
@@ -289,7 +289,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando è più probabil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Incrementa le consegne**
 
@@ -299,7 +299,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione del mi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Destinazione per giorno feriale**
 
@@ -309,7 +309,7 @@ Inviare contenuti diversi in base al giorno della settimana in cui i clienti ins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Campagne multicanale**
 
@@ -319,7 +319,7 @@ Organizza esperienze senza soluzione di continuità tra canali e-mail, push, SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Tutti i casi d&#39;uso**
 
@@ -337,7 +337,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Espressioni avanzate**
 
@@ -347,7 +347,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 **Gestione del fuso orario**
 
@@ -357,7 +357,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 **Modalità di test ed esecuzione a secco**
 
@@ -367,7 +367,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Copia nella sandbox**
 
@@ -377,7 +377,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Tag e organizzazione**
 
@@ -387,7 +387,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Controllo velocità effettiva**
 
