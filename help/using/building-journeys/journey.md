@@ -73,7 +73,7 @@ Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato p
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Definisci i punti di ingresso**
 
@@ -83,7 +83,7 @@ Scegli come i clienti inseriscono: attraverso un evento, un segmento di pubblico
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 **Inviare messaggi**
 
@@ -93,7 +93,7 @@ Utilizza azioni di canale integrate per e-mail, push, SMS/MMS, in-app, web e alt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 **Aggiungi logica e condizioni**
 
@@ -103,7 +103,7 @@ Crea un ramo del percorso in base agli attributi del profilo, all’iscrizione a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Sfruttare i dati**
 
@@ -113,7 +113,7 @@ Utilizza dati contestuali provenienti da eventi, Adobe Experience Platform o ser
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Connetti sistemi esterni**
 
@@ -123,7 +123,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Aggiungi attività di orchestrazione**
 
@@ -214,7 +214,7 @@ Scopri dagli esempi pratici che mostrano come applicare concetti di percorso per
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 **Nuovi abbonati**
 
@@ -224,7 +224,7 @@ Quando un cliente si abbona al servizio, attiva un percorso di benvenuto che li 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
 
 **Ottimizzazione dell&#39;ora di invio**
 
@@ -234,7 +234,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando è più probabil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Incrementa le consegne**
 
@@ -244,7 +244,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione del mi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Destinazione per giorno feriale**
 
@@ -254,7 +254,7 @@ Inviare contenuti diversi in base al giorno della settimana in cui i clienti ins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Campagne multicanale**
 
@@ -264,7 +264,7 @@ Organizza esperienze senza soluzione di continuità tra canali e-mail, push, SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Tutti i casi d&#39;uso**
 
@@ -282,7 +282,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Espressioni avanzate**
 
@@ -292,7 +292,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 **Gestione del fuso orario**
 
@@ -302,7 +302,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 **Modalità di test ed esecuzione a secco**
 
@@ -312,7 +312,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Copia nella sandbox**
 
@@ -322,7 +322,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Tag e organizzazione**
 
@@ -332,7 +332,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Controllo velocità effettiva**
 
