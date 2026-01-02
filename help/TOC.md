@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4cafa9bb5cf481ba79a6b8ccc43e0b7bf02566ec
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '3029'
+source-wordcount: '3037'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -48,8 +48,10 @@ ht-degree: 96%
       + [Cerca, filtra e organizza](using/start/search-filter-categorize.md)
       + [Funzioni intelligenti e AI](using/start/ai-features.md)
       + [Accessibilità](using/start/accessibility.md)
+      + [Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
+   + [Tipi di percorso e guida alla selezione](using/building-journeys/journey-types-selection.md)
    + [Domande frequenti su Journey Orchestration](using/building-journeys/journey-faq.md)
    + Creare un percorso {#create-journey}
       + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -834,7 +836,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

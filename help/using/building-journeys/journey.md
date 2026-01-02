@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai percorsi
-description: Introduzione ai percorsi
+description: 'Guida introduttiva ai percorsi: scopri tipi di percorso, flusso di lavoro, funzionalità e best practice per creare esperienze cliente personalizzate in Adobe Journey Optimizer'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: percorsi, scopri, inizia
+keywords: percorsi, discovery, get-start, unitario, pubblico di lettura, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -37,57 +37,29 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ➡️ **Inizio generazione?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
 
+### Percorsi e campagne: quando utilizzarle {#journeys-vs-campaigns-intro}
+
+Adobe Journey Optimizer offre tre approcci per raggiungere i clienti: **Percorsi** (1:1 orchestrazione in tempo reale), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch con dati di più entità).
+
+**Decisione rapida:**
+
+* Utilizza **Percorsi** per esperienze con più passaggi basate sul comportamento, in cui ogni cliente procede al proprio ritmo
+* Utilizza **Campagne Azione/API** per la consegna di messaggi semplice, pianificata o attivata ai tipi di pubblico
+* Utilizza **Campagne orchestrate** per flussi di lavoro batch complessi che richiedono segmentazione di più entità e conteggi pre-invio esatti
+
+<!-- waiting for DOCAC-13912
+➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
+
 ## Scegli il tipo di percorso {#journey-types}
 
-**Prima di iniziare a generare**, è importante capire quale tipo di percorso si adatta al tuo caso d&#39;uso. Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
+Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
 
->[!BEGINTABS]
+* **percorsi unitari**: esperienze in tempo reale attivate da eventi (conferme d&#39;ordine, e-mail di benvenuto)
+* **Leggi percorsi di pubblico**: comunicazioni batch pianificate ai segmenti di pubblico (newsletter, campagne promozionali)
+* **percorsi di qualificazione del pubblico**: risposte in tempo reale alle modifiche di iscrizione al pubblico (aggiornamenti di VIP, ricoinvolgimento)
+* **percorsi di eventi aziendali**: condizioni aziendali che interessano più clienti (avvisi di inventario, vendite flash)
 
->[!TAB percorsi unitari]
-
-**Quando utilizzare:** esperienze in tempo reale attivate da eventi
-
-**I percorsi unitari** vengono attivati singolarmente quando si verifica un&#39;azione specifica (acquisto, accesso all&#39;app, invio di moduli). I profili vengono inseriti uno alla volta in tempo reale, rendendolo ideale per risposte immediate e basate sul comportamento.
-
-**Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, abbandono del carrello attivato dalla navigazione e notifiche di reimpostazione della password.
-
-➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
-
->[!TAB Leggi percorsi di pubblico]
-
-**Quando utilizzare:** campagne pianificate per i segmenti di pubblico
-
-**Leggi percorsi di pubblico** inizia con un pubblico Adobe Experience Platform e invia messaggi in batch a tutti i profili contemporaneamente. Questo percorso è ideale per comunicazioni pianificate su larga scala.
-
-**Ideale per:** newsletter mensili, campagne promozionali per segmenti di destinazione, annunci di prodotti e campagne di marketing stagionali.
-
-➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
-
->[!TAB percorsi di qualificazione del pubblico]
-
-**Quando utilizzare:** le risposte in tempo reale alle modifiche di iscrizione al pubblico
-
-**I percorsi di qualificazione del pubblico** si attivano quando i profili si qualificano per un pubblico specifico (o ne escono). I profili vengono inseriti singolarmente in quanto soddisfano i criteri in tempo reale, consentendo un coinvolgimento immediato quando il comportamento del cliente cambia.
-
-**Ideale per:** notifiche di aggiornamento a livello VIP, nuovo coinvolgimento quando i clienti diventano inattivi, messaggi di festeggiamento del primo acquisto e targeting geografico quando i clienti si spostano.
-
-➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Creazione di tipi di pubblico](../audience/creating-a-segment-definition.md)
-
->[!TAB percorsi di eventi di business]
-
-**Quando utilizzare:** condizioni aziendali che interessano più clienti
-
-**I percorsi di eventi aziendali** sono attivati da eventi a livello aziendale (aggiornamenti delle scorte, avvisi meteo, variazioni di prezzo) che interessano più profili contemporaneamente. Questi rispondono a condizioni di business più ampie piuttosto che ad azioni individuali.
-
-**Ideale per:** avvisi di inventario ridotti per i clienti interessati, annunci di vendita flash, promozioni basate su meteo, notifiche di calo dei prezzi e avvisi di back-in-stock dei prodotti.
-
-➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione delle voci](entry-management.md)
-
->[!ENDTABS]
-
->[!NOTE]
->
->Non sei sicuro del tipo da scegliere? Inizia con **percorsi unitari** per le esperienze basate su eventi o **Leggi percorsi di pubblico** per le campagne pianificate; questi riguardano i casi d&#39;uso più comuni.
+➡️ **[Tipi di Percorso e guida alla selezione](journey-types-selection.md)** - Confronto dettagliato, struttura decisionale e matrice di compatibilità delle funzionalità
 
 ## Creare con il progettista del percorso {#journey-designer}
 
@@ -100,7 +72,7 @@ Utilizza [!DNL Journey Optimizer] per:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definisci i punti di ingresso**
 
@@ -110,7 +82,7 @@ Scegli come i clienti inseriscono: attraverso un evento, un segmento di pubblico
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Inviare messaggi**
 
@@ -120,7 +92,7 @@ Utilizza azioni di canale integrate per e-mail, push, SMS/MMS, in-app, web e alt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Aggiungi logica e condizioni**
 
@@ -130,7 +102,7 @@ Crea un ramo del percorso in base agli attributi del profilo, all’iscrizione a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Sfruttare i dati**
 
@@ -140,7 +112,7 @@ Utilizza dati contestuali provenienti da eventi, Adobe Experience Platform o ser
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connetti sistemi esterni**
 
@@ -150,7 +122,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Aggiungi attività di orchestrazione**
 
@@ -241,7 +213,7 @@ Scopri dagli esempi pratici che mostrano come applicare concetti di percorso per
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Nuovi abbonati**
 
@@ -251,7 +223,7 @@ Quando un cliente si abbona al servizio, attiva un percorso di benvenuto che li 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizzazione dell&#39;ora di invio**
 
@@ -261,7 +233,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando è più probabil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementa le consegne**
 
@@ -271,7 +243,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione del mi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione per giorno feriale**
 
@@ -281,7 +253,7 @@ Inviare contenuti diversi in base al giorno della settimana in cui i clienti ins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagne multicanale**
 
@@ -291,7 +263,7 @@ Organizza esperienze senza soluzione di continuità tra canali e-mail, push, SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tutti i casi d&#39;uso**
 
@@ -309,7 +281,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Espressioni avanzate**
 
@@ -319,7 +291,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestione del fuso orario**
 
@@ -329,7 +301,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modalità di test ed esecuzione a secco**
 
@@ -339,7 +311,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copia nella sandbox**
 
@@ -349,7 +321,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tag e organizzazione**
 
@@ -359,7 +331,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo velocità effettiva**
 
@@ -376,9 +348,37 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 Ottieni un’introduzione visiva ai componenti di percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Desideri altri video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## Domande comuni {#common-questions}
+
+**D: Qual è la differenza tra un percorso e una campagna?**
+
+R: Adobe Journey Optimizer offre tre approcci:
+
+* **Percorsi**: 1:1 orchestrazione in tempo reale in cui ogni profilo procede secondo il proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
+
+* **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi ai tipi di pubblico, in esecuzione simultanea a tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
+
+* **Campagne orchestrate**: flussi di lavoro batch con più passaggi e segmentazione complessa utilizzando dati relazionali (profili + prodotti/negozi/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, avvii di prodotti, campagne che richiedono dati su più entità.
+
+**Differenza chiave**: i Percorsi mantengono uno stato cliente individuale per le azioni in tempo reale; le campagne Azione/API distribuiscono messaggi semplici in batch; le campagne orchestrate forniscono l&#39;area di lavoro del flusso di lavoro batch con funzionalità di segmentazione multi-entità.
+
+<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
+
+<!-- Waiting for DOCAC-13912
+**Q: Which journey type should I use?**
+
+A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+-->
+
+**Q: posso modificare un percorso attivo?**
+
+R: Puoi modificare elementi limitati (nome, contenuto del messaggio), ma le modifiche strutturali richiedono la creazione di una nuova versione. [Informazioni sulle versioni di percorso](publish-journey.md#journey-versions)
+
+➡️ **Altre domande?** [Visualizza le domande frequenti complete sul Percorso](journey-faq.md) con più di 40 risposte dettagliate
 
 ## Hai bisogno di aiuto? {#help}
 
