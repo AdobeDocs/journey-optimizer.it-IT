@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
+source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 32%
+source-wordcount: '1542'
+ht-degree: 31%
 
 ---
 
@@ -122,13 +122,7 @@ Utilizza [!DNL Journey Optimizer] per:
 * **Marketing** - Offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti dei criteri. Richiede il consenso dei destinatari.
 * **Transazionale** - Interruzioni, emergenze, annullamenti. Non richiede il consenso.
 
-**Ideale per:**
-
-* Newsletter mensili per segmenti di clienti
-* Annunci promozionali
-* Campagne di marketing stagionale
-* Comunicazioni per il lancio dei prodotti
-* Notifiche di interruzione del servizio
+**Ideale per:** newsletter mensili ai segmenti di clienti, annunci promozionali con scadenza precisa, campagne di marketing stagionali, comunicazioni sul lancio di prodotti e notifiche di interruzione del servizio.
 
 ➡️ [Informazioni sulle campagne Azione](create-campaign.md)
 
@@ -143,13 +137,7 @@ Utilizza [!DNL Journey Optimizer] per:
 * **Marketing** - Comunicazioni di marketing personalizzate per tipi di pubblico mirati
 * **Transazionale** - Messaggi successivi a singole azioni (reimpostazione password, acquisti carrello, ecc.)
 
-**Ideale per:**
-
-* Conferme reimpostazione password
-* Recupero abbandono carrello
-* Conferme degli ordini e aggiornamenti della spedizione
-* Notifiche di attività dell’account
-* Consigli personalizzati in tempo reale
+**Ideale per:** conferme di reimpostazione password, recupero dell&#39;abbandono del carrello, conferme di ordini e aggiornamenti di spedizione, notifiche di attività account e consigli personalizzati in tempo reale.
 
 ➡️ [Informazioni sulle campagne attivate da API](api-triggered-campaigns.md)
 
@@ -159,13 +147,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 **Le campagne orchestrate** forniscono un&#39;area di lavoro visiva e trascinata per progettare e automatizzare flussi di lavoro di marketing sofisticati. Dalla segmentazione del pubblico alla consegna personalizzata dei messaggi attraverso i canali, tutto avviene in un ambiente intuitivo costruito per velocità e controllo.
 
-**Ideale per:**
-
-* Programmi di coinvolgimento dei clienti in più fasi
-* Strategie di segmentazione e targeting complesse
-* Orchestrazione di campagne cross-channel
-* Marketing avviato dal brand su larga scala
-* Automazione avanzata dei flussi di lavoro con più punti decisionali
+**Ideale per:** programmi di coinvolgimento dei clienti in più passaggi, strategie di segmentazione e targeting complesse, orchestrazione di campagne cross-channel, marketing su larga scala avviato dal brand e automazione avanzata dei flussi di lavoro con più punti decisionali.
 
 ➡️ [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -181,7 +163,7 @@ La creazione di campagne di successo segue un processo chiaro e ripetibile. Di s
 
 **1. Piano** → **2. Configura** → **3. Progettazione** → **4. Rivedi** → **5. Attiva** → **6. Monitora**
 
-### &#x200B;1. **Pianifica la tua campagna** {#plan}
+### &#x200B;1. Pianificare la campagna {#plan}
 
 Prima di iniziare, chiarisci i tuoi obiettivi:
 
@@ -191,7 +173,7 @@ Prima di iniziare, chiarisci i tuoi obiettivi:
 * **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.) → [Visualizza i canali supportati per tipo di campagna](../channels/gs-channels.md#channels)
 * **Quando deve essere eseguito?** (immediato, pianificato o attivato da API)
 
-### &#x200B;2. **Configurare le proprietà della campagna** {#configure}
+### &#x200B;2. Configurare le proprietà della campagna {#configure}
 
 Imposta le basi della campagna:
 
@@ -206,7 +188,7 @@ Imposta le basi della campagna:
 * [→ delle proprietà di una campagna attivata da API](api-triggered-campaign-properties.md)
 * [→ di configurazione della campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. **Progetta il contenuto** {#design}
+### &#x200B;3. Progettare i contenuti {#design}
 
 Creare messaggi convincenti per il pubblico:
 
@@ -221,7 +203,7 @@ Creare messaggi convincenti per il pubblico:
 * [→ di contenuto di campagne attivate da API](api-triggered-campaign-content.md)
 * [→ del contenuto della campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. **Verifica e verifica** {#review}
+### &#x200B;4. Riesame e prova {#review}
 
 Rivedi sempre la campagna prima dell’attivazione:
 
@@ -236,7 +218,7 @@ Rivedi sempre la campagna prima dell’attivazione:
 * [Rivedi le campagne attivate da API →](review-activate-api-triggered-campaign.md)
 * [Rivedi → campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. **Attiva la campagna** {#activate}
+### &#x200B;5. Attivare la campagna {#activate}
 
 Al termine della revisione, attiva la campagna:
 
@@ -250,7 +232,7 @@ Al termine della revisione, attiva la campagna:
 * [Attivare le campagne attivate da API →](review-activate-api-triggered-campaign.md)
 * [Attiva → campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. **Monitorare e analizzare** {#monitor}
+### &#x200B;6. Monitorare e analizzare {#monitor}
 
 Monitora le prestazioni della campagna:
 
@@ -309,7 +291,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -319,7 +301,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo frequenza**
 
@@ -329,7 +311,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione pubblico**
 
@@ -339,7 +321,7 @@ Puoi indirizzare l’attività a tipi di pubblico specifici di Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -349,7 +331,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore non interattive**
 
@@ -359,7 +341,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione dell&#39;ora di invio**
 
