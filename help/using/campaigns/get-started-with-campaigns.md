@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 43b82a251eca802a14b83df670b479dd05f90b8e
+source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 31%
@@ -113,7 +113,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB Campagne azione (pianificate)]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it) **Quando utilizzare:** Comunicazioni batch semplici e pianificate
+![icona](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Quando utilizzare:** Comunicazioni batch semplici e pianificate
 
 **Le campagne di azione** (dette anche campagne pianificate) sono ideali per comunicazioni in batch semplici, una tantum o ricorrenti che vengono eseguite in un momento specifico.
 
@@ -134,7 +134,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB Campagne attivate da API]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it) **Quando utilizzare:** Messaggistica basata su eventi in tempo reale con sistemi esterni
+![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Quando utilizzare:** Messaggistica basata su eventi in tempo reale con sistemi esterni
 
 **Le campagne attivate da API** vengono attivate tramite chiamate API, abilitando la messaggistica automatizzata direttamente da sistemi esterni. Queste campagne supportano la personalizzazione utilizzando sia gli attributi del profilo che i dati contestuali in tempo reale dal payload API.
 
@@ -155,7 +155,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 >[!TAB Campagne orchestrate]
 
-![icona](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it) **Quando utilizzare:** flussi di lavoro di marketing complessi e con più passaggi
+![icona](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Quando utilizzare:** flussi di lavoro di marketing complessi e con più passaggi
 
 **Le campagne orchestrate** forniscono un&#39;area di lavoro visiva e trascinata per progettare e automatizzare flussi di lavoro di marketing sofisticati. Dalla segmentazione del pubblico alla consegna personalizzata dei messaggi attraverso i canali, tutto avviene in un ambiente intuitivo costruito per velocità e controllo.
 
@@ -204,7 +204,7 @@ Imposta le basi della campagna:
 **Guide specifiche per tipo:**
 * [Proprietà campagna azione →](campaign-properties.md)
 * [→ delle proprietà di una campagna attivata da API](api-triggered-campaign-properties.md)
-* [→ di configurazione della campagna orchestrata](../orchestrated/create-orchestrated-campaigns.md)
+* [→ di configurazione della campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. **Progetta il contenuto** {#design}
 
@@ -219,7 +219,7 @@ Creare messaggi convincenti per il pubblico:
 **Guide specifiche per tipo:**
 * [→ del contenuto della campagna di azione](campaign-content.md)
 * [→ di contenuto di campagne attivate da API](api-triggered-campaign-content.md)
-* [→ del contenuto della campagna orchestrata](../orchestrated/create-orchestrated-campaigns.md)
+* [→ del contenuto della campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. **Verifica e verifica** {#review}
 
@@ -234,7 +234,7 @@ Rivedi sempre la campagna prima dell’attivazione:
 **Guide specifiche per tipo:**
 * [Campagne Rivedi azione →](review-activate-campaign.md)
 * [Rivedi le campagne attivate da API →](review-activate-api-triggered-campaign.md)
-* [Rivedi → campagne orchestrate](../orchestrated/create-orchestrated-campaigns.md)
+* [Rivedi → campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. **Attiva la campagna** {#activate}
 
@@ -248,7 +248,7 @@ Al termine della revisione, attiva la campagna:
 **Guide specifiche per tipo:**
 * [Attivare campagne di azione →](review-activate-campaign.md)
 * [Attivare le campagne attivate da API →](review-activate-api-triggered-campaign.md)
-* [Attiva → campagne orchestrate](../orchestrated/create-orchestrated-campaigns.md)
+* [Attiva → campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. **Monitorare e analizzare** {#monitor}
 
@@ -309,7 +309,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -319,7 +319,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo frequenza**
 
@@ -329,7 +329,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione pubblico**
 
@@ -339,7 +339,7 @@ Puoi indirizzare l’attività a tipi di pubblico specifici di Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -349,7 +349,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore non interattive**
 
@@ -359,7 +359,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione dell&#39;ora di invio**
 
