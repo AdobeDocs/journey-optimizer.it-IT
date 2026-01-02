@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 8b57aa06f40cfc5c1b4d1971e54eecb224338cc7
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 98%
+source-wordcount: '1566'
+ht-degree: 31%
 
 ---
 
@@ -84,81 +84,299 @@ ht-degree: 98%
 >title="Campagne"
 >abstract="Consegna di comunicazioni transazionali a singoli profili o a set di profili. Canali supportati: e-mail, SMS, notifiche push."
 
-Utilizza campagne [!DNL Journey Optimizer] per distribuire contenuti una tantum a un pubblico specifico su più canali. A differenza dei percorsi, che eseguono le azioni passaggio dopo passaggio, le campagne eseguono le azioni in maniera simultanea, immediatamente o secondo una pianificazione definita.
+Adobe Journey Optimizer consente di fornire contenuti una tantum mirati a tipi di pubblico specifici su più canali. Utilizzando le campagne, puoi eseguire contemporaneamente azioni di marketing coordinate, raggiungendo il pubblico con il messaggio giusto al momento giusto.
+
+Questa guida fornisce una roadmap chiara che ti aiuta a comprendere le nozioni di base della campagna, a scegliere il tipo di campagna adatto al tuo caso d’uso e a progettare con sicurezza campagne in grado di fornire esperienze cliente significative.
+
+## Cosa sono le campagne?
+
+**Le campagne** sono azioni di marketing coordinate che distribuiscono contenuti a un pubblico specifico su uno o più canali. A differenza dei percorsi in cui le azioni vengono eseguite in sequenza, le campagne eseguono le azioni contemporaneamente, immediatamente o secondo una pianificazione definita.
+
+Utilizza [!DNL Journey Optimizer] per:
+
+* Consegna di **contenuti occasionali o ricorrenti** ai segmenti di pubblico di destinazione
+* Esegui **comunicazioni multicanale coordinate** tramite e-mail, push, SMS, in-app, Web e altro ancora
+* Attiva **risposte automatizzate** tramite chiamate API per messaggi in tempo reale basati su eventi
+* Progetta **flussi di lavoro di marketing complessi** con strumenti di orchestrazione visiva
 
 ![](assets/gs-campaigns.png)
 
-## Tipi di campagna
+➡️ **Inizio generazione?** [Crea la tua prima campagna](create-campaign.md) in pochi minuti.
 
-[!DNL Journey Optimizer] supporta tre tipi di campagna. Ogni tipo è adatto a casi d’uso diversi e supporta canali diversi. Per ulteriori informazioni sui canali disponibili con ciascun tipo di campagna, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels)
+## Scegli il tipo di campagna {#campaign-types}
+
+**Prima di iniziare a generare**, è importante capire quale tipo di campagna si adatta al tuo caso d&#39;uso. Adobe Journey Optimizer supporta tre tipi di campagne, ciascuno progettato per diversi scenari e meccanismi di attivazione:
 
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB Campagne orchestrate]
+>[!TAB Campagne azione (pianificate)]
 
-L’**orchestrazione delle campagne** potenzia campagne di marketing sofisticate e avviate dal brand su tutti i canali, aiutandoti a incrementare il coinvolgimento, i ricavi e la fidelizzazione della clientela su larga scala.
+![icona](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Quando utilizzare:** Comunicazioni batch semplici e pianificate
 
-Anche se il marketing cross-channel è essenziale, le campagne orchestrate lo rendono semplice. Grazie a un’interfaccia visiva basata su un trascinamento, puoi progettare e automatizzare flussi di lavoro di marketing complessi, dalla segmentazione alla consegna dei messaggi, su più canali. Tutto avviene in un ambiente intuitivo, progettato per velocità, controllo ed efficienza.
+**Le campagne di azione** (dette anche campagne pianificate) sono ideali per comunicazioni in batch semplici, una tantum o ricorrenti che vengono eseguite in un momento specifico.
 
-➡️ [Scopri come utilizzare le campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
+**Due categorie:**
 
->[!TAB Campagne azione (o campagne pianificate)]
+* **Marketing** - Offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti dei criteri. Richiede il consenso dei destinatari.
+* **Transazionale** - Interruzioni, emergenze, annullamenti. Non richiede il consenso.
 
-Le **campagne di azione**, note anche come campagne pianificate, consentono semplici comunicazioni batch ad hoc.
+**Ideale per:**
 
-* **Pianificata - Marketing**: per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, note legali o aggiornamenti dei criteri. Richiede il consenso dei destinatari.
-* **Pianificata - Transazionale**: a differenza delle campagne di marketing, le campagne transazionali non richiedono il consenso dei destinatari. Utilizza questa categoria per le comunicazioni relative a interruzioni, emergenze, cancellazioni. Canali supportati: e-mail, SMS, notifiche push.
+* Newsletter mensili per segmenti di clienti
+* Annunci promozionali
+* Campagne di marketing stagionale
+* Comunicazioni per il lancio dei prodotti
+* Notifiche di interruzione del servizio
 
-➡️ [Scopri come utilizzare le campagne di azione](create-campaign.md)
+➡️ [Informazioni sulle campagne Azione](create-campaign.md)
 
 >[!TAB Campagne attivate da API]
 
-Le **campagne attivate da API** consentono di attivare l’esecuzione della campagna tramite una chiamata API. Queste comunicazioni possono essere inviate quando è necessario applicare la personalizzazione non solo tramite attributi di profilo (come per il ripristino della password), ma anche tramite dati contestuali in tempo reale presenti nel trigger, che è un payload dell’API REST.
+![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **Quando utilizzare:** Messaggistica basata su eventi in tempo reale con sistemi esterni
 
-* **Attivata da API - Marketing**: invia comunicazioni di marketing personalizzate a tipi di pubblico mirati.
-* **Attivata da API - Transazionale**: invia messaggi in seguito a un’azione eseguita da un singolo utente come richiesta di reimpostazione della password, acquisto dal carrello, ecc.
+**Le campagne attivate da API** vengono attivate tramite chiamate API, abilitando la messaggistica automatizzata direttamente da sistemi esterni. Queste campagne supportano la personalizzazione utilizzando sia gli attributi del profilo che i dati contestuali in tempo reale dal payload API.
 
-➡️ [Scopri come utilizzare le campagne attivate da API](api-triggered-campaigns.md)
+**Due categorie:**
 
+* **Marketing** - Comunicazioni di marketing personalizzate per tipi di pubblico mirati
+* **Transazionale** - Messaggi successivi a singole azioni (reimpostazione password, acquisti carrello, ecc.)
+
+**Ideale per:**
+
+* Conferme reimpostazione password
+* Recupero abbandono carrello
+* Conferme degli ordini e aggiornamenti della spedizione
+* Notifiche di attività dell’account
+* Consigli personalizzati in tempo reale
+
+➡️ [Informazioni sulle campagne attivate da API](api-triggered-campaigns.md)
+
+>[!TAB Campagne orchestrate]
+
+![icona](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Quando utilizzare:** flussi di lavoro di marketing complessi e con più passaggi
+
+**Le campagne orchestrate** forniscono un&#39;area di lavoro visiva e trascinata per progettare e automatizzare flussi di lavoro di marketing sofisticati. Dalla segmentazione del pubblico alla consegna personalizzata dei messaggi attraverso i canali, tutto avviene in un ambiente intuitivo costruito per velocità e controllo.
+
+**Ideale per:**
+
+* Programmi di coinvolgimento dei clienti in più fasi
+* Strategie di segmentazione e targeting complesse
+* Orchestrazione di campagne cross-channel
+* Marketing avviato dal brand su larga scala
+* Automazione avanzata dei flussi di lavoro con più punti decisionali
+
+➡️ [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
 
+>[!NOTE]
+>
+>Non sei sicuro del tipo da scegliere? Inizia con **Campagne azione** per le comunicazioni in batch pianificate o **Campagne attivate da API** per la messaggistica in tempo reale. Queste campagne riguardano i casi d&#39;uso più comuni.
+
+>[!NOTE]
+>
+>Non sei sicuro del tipo da scegliere? Inizia con **Campagne azione** per le comunicazioni in batch pianificate o **Campagne attivate da API** per la messaggistica in tempo reale. Queste campagne riguardano i casi d&#39;uso più comuni.
+
+## Flusso di lavoro di creazione della campagna {#workflow}
+
+La creazione di campagne di successo segue un processo chiaro e ripetibile. Di seguito è riportato il flusso di lavoro dettagliato:
+
+**1. Piano** → **2. Configura** → **3. Progettazione** → **4. Rivedi** → **5. Attiva** → **6. Monitora**
+
+### &#x200B;1. **Pianifica la tua campagna** {#plan}
+
+Prima di iniziare, chiarisci i tuoi obiettivi:
+
+* **Qual è l&#39;obiettivo?** (ad esempio conversioni di unità, aumento del coinvolgimento, notifica ai clienti)
+* **Chi è il pubblico?** (segmento specifico da Adobe Experience Platform)
+* **Quale tipo di campagna è adatto?** (vedi [tipi di campagna](#campaign-types) sopra)
+* **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.)
+* **Quando deve essere eseguito?** (immediato, pianificato o attivato da API)
+
+### &#x200B;2. **Configurare le proprietà della campagna** {#configure}
+
+Imposta le basi della campagna:
+
+1. **Denomina e descrivi** la tua campagna per una facile identificazione
+2. **Seleziona tipo di campagna** (azione, attivata da API o orchestrata)
+3. **Scegli il tuo pubblico** da Adobe Experience Platform
+4. **Imposta priorità** se si utilizza la gestione dei conflitti
+5. **Configura pianificazione** (per campagne Azione) o dettagli API (per attivate da API)
+
+**Guide specifiche per tipo:**
+* [Proprietà campagna azione →](campaign-properties.md)
+* [→ delle proprietà di una campagna attivata da API](api-triggered-campaign-properties.md)
+* [→ di configurazione della campagna orchestrata](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;3. **Progetta il contenuto** {#design}
+
+Creare messaggi convincenti per il pubblico:
+
+* Utilizza **E-mail Designer** per esperienze e-mail avanzate
+* Configura **notifiche push** con immagini e collegamenti profondi
+* Progetta **messaggi SMS/MMS** con personalizzazione
+* Crea **esperienze in-app** e **web**
+* Aggiungi **personalizzazione** utilizzando gli attributi del profilo e i dati contestuali
+
+**Guide specifiche per tipo:**
+* [→ del contenuto della campagna di azione](campaign-content.md)
+* [→ di contenuto di campagne attivate da API](api-triggered-campaign-content.md)
+* [→ del contenuto della campagna orchestrata](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;4. **Verifica e verifica** {#review}
+
+Rivedi sempre la campagna prima dell’attivazione:
+
+* **Anteprima contenuto** con profili di test
+* **Controlla il targeting** per assicurarti che il pubblico sia quello giusto
+* **Verifica pianificazione** e impostazioni di attivazione
+* **Richiedi l&#39;approvazione** se si utilizza il flusso di lavoro di approvazione
+* **Verifica recapito messaggi** con elenchi di seed
+
+**Guide specifiche per tipo:**
+* [Campagne Rivedi azione →](review-activate-campaign.md)
+* [Rivedi le campagne attivate da API →](review-activate-api-triggered-campaign.md)
+* [Rivedi → campagne orchestrate](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;5. **Attiva la campagna** {#activate}
+
+Al termine della revisione, attiva la campagna:
+
+* **Attivazione manuale** - Attivazione immediata o programmata
+* **Attivazione API** - Per le campagne attivate da API, utilizza l&#39;endpoint di attivazione
+* **Processo di approvazione** - Se necessario, attendi l&#39;approvazione delle parti interessate
+* Nota: non è possibile modificare le campagne attive (è necessario duplicarle per apportare modifiche)
+
+**Guide specifiche per tipo:**
+* [Attivare campagne di azione →](review-activate-campaign.md)
+* [Attivare le campagne attivate da API →](review-activate-api-triggered-campaign.md)
+* [Attiva → campagne orchestrate](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;6. **Monitorare e analizzare** {#monitor}
+
+Monitora le prestazioni della campagna:
+
+* Visualizzare i rapporti e le analisi delle campagne
+* Monitorare i tassi di consegna e le metriche di coinvolgimento
+* Tracciare errori e mancati recapiti
+* Analisi della conversione e del ROI
+* Utilizzare gli approfondimenti per l’ottimizzazione
+
+**Guide specifiche per tipo:**
+* [Rapporti sulle campagne d’azione →](../reports/campaign-global-report-cja.md)
+* [→ di monitoraggio delle campagne attivate da API](api-triggered-campaigns.md#monitor)
+* [→ orchestrato di analisi delle campagne](../orchestrated/create-orchestrated-campaigns.md)
+
+➡️ **Inizio?** Scegli il tipo di campagna:
+* [Crea → campagna azione](create-campaign.md)
+* [Creare → di campagne attivate da API](api-triggered-campaigns.md)
+* [Creare → orchestrati per le campagne](../orchestrated/gs-orchestrated-campaigns.md)
+
 ## Prerequisiti {#prerequisites}
 
-Prima di utilizzare le campagne, assicurati di aver rivisto i prerequisiti di seguito.
+Prima di lavorare con le campagne, assicurati di disporre dei seguenti elementi:
 
-* I **tipi di pubblico** devono essere disponibili prima di creare la campagna. [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
+### Configurazione richiesta
 
-* **Configurazione dei canali**: per poter selezionare un canale, è necessario che la configurazione dei canali corrispondente (ovvero, predefinita) sia stata creata e che sia disponibile. [Scopri come impostare la configurazione di canale](../configuration/channel-surfaces.md).
+* **Tipi di pubblico** - I tipi di pubblico devono essere disponibili in Adobe Experience Platform prima di creare le campagne. [Introduzione ai tipi di pubblico →](../audience/about-audiences.md)
 
-* **Autorizzazioni**: le campagne sono disponibili solo per gli utenti con le autorizzazioni appropriate elencate di seguito. Se non riesci ad accedere alle funzionalità delle campagne, contatta l’amministratore per richiedere le autorizzazioni necessarie. [Ulteriori informazioni sui ruoli incorporati di Journey Optimizer](../administration/ootb-product-profiles.md)
+* **Configurazioni canale** - Le configurazioni canale (predefiniti) devono essere create e disponibili per i canali che desideri utilizzare. [Configurare le configurazioni del canale →](../configuration/channel-surfaces.md)
 
-  | Tipo di campagna | Autorizzazioni |
-  |----------------------------|----------------------------------------------------------------------------|
-  | **Campagne di azione** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
-  | **Campagne attivate da API** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
-  | **Campagne orchestrate** | Amministratore campagna orchestrata<br>Approvatore campagna orchestrata<br>Responsabile campagna orchestrata<br>Visualizzatore campagna orchestrata |
+* **Autorizzazioni** - Sono necessarie le autorizzazioni appropriate in base al tipo di campagna. Se non riesci ad accedere alle funzionalità della campagna, contatta l’amministratore. [Informazioni sui ruoli incorporati →](../administration/ootb-product-profiles.md)
 
-  +++Scopri come assegnare un ruolo relativo alla campagna
+| Tipo di campagna | Autorizzazioni |
+|----------------------------|----------------------------------------------------------------------------|
+| **Campagne di azione** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
+| **Campagne attivate da API** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
+| **Campagne orchestrate** | Amministratore campagna orchestrata<br>Approvatore campagna orchestrata<br>Responsabile campagna orchestrata<br>Visualizzatore campagna orchestrata |
 
-   1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** incorporati relativi alle campagne.
++++Assegnare le autorizzazioni della campagna
 
-   1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
+1. Passa alla scheda **[!UICONTROL Ruoli]** nel prodotto [!DNL Permissions] e seleziona una delle **[!UICONTROL Mansioni]** correlate alla campagna incorporata.
 
-   1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
-      Se l’utente non è stato creato in precedenza, consulta la [documentazione per aggiungere gli utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}
+1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
+   Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-  L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
+L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-  +++
++++
 
-## Approfondiamo
+## Funzionalità di Campaign {#capabilities}
 
-Ora che conosci le campagne in [!DNL Journey Optimizer], è il momento di approfondire queste sezioni della documentazione per iniziare a creare le prime campagne.
+Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti funzionalità:
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**Pianificazione e tempistica**
+
+Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimizza gli orari di invio per il massimo impatto.
+
+[Informazioni sulla pianificazione](campaign-schedule.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**Controllo frequenza**
+
+Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistemi a valle come pagine di destinazione o piattaforme di assistenza clienti.
+
+[Limiti della velocità di controllo](create-campaign.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**Destinazione pubblico**
+
+Puoi indirizzare l’attività a tipi di pubblico specifici di Adobe Experience Platform con precisione e gestire dinamicamente le qualifiche del pubblico.
+
+[Selezionare il pubblico della campagna](campaign-audience.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**Flussi di lavoro di approvazione**
+
+Implementa i processi di revisione e approvazione prima che le campagne vengano pubblicate, garantendo qualità e conformità.
+
+[Rivedi e attiva](review-activate-campaign.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+**Ore non interattive**
+
+Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli intervalli di tempo specificati.
+
+[Configurare le ore non interattive](quiet-hours.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Ottimizzazione dell&#39;ora di invio**
+
+Utilizza l’intelligenza artificiale per determinare il momento migliore per inviare messaggi in modo da coinvolgere al massimo ogni individuo.
+
+[Ottimizza tempo di invio](campaigns-message-optimization.md)
+:::
+
+::::
+
+## Introduzione ai tipi di campagna {#get-started-types}
+
+Ora che conosci le campagne in [!DNL Journey Optimizer], scegli il tipo di campagna per iniziare:
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img width="70%" alt="campagne di azione" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Campagne di azione</a></td>
