@@ -177,5 +177,5 @@ Ora che conosci i tipi di percorso, puoi effettuare le seguenti operazioni:
 * **[Visualizza domande frequenti sul percorso](journey-faq.md)** - Risposte alle domande comuni
 
 **È necessario eseguire un confronto con le campagne?**
-- [Guida al confronto tra Percorsi e campagne](../start/journeys-vs-campaigns.md) - Scegli tra percorsi, campagne Action/API e campagne orchestrate
+&#x200B;- [Guida al confronto tra Percorsi e campagne](../start/journeys-vs-campaigns.md) - Scegli tra percorsi, campagne Action/API e campagne orchestrate
 
