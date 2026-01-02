@@ -9,9 +9,9 @@ level: Beginner
 keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, con più passaggi, pianificato, attivato da API, basato su eventi
 hide: true
 hidefromtoc: true
-source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
+source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -221,32 +221,42 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 ## Domande comuni {#common-questions}
 
-**D: posso combinare percorsi e campagne nella mia strategia di marketing?**
++++ Posso combinare percorsi e campagne nella mia strategia di marketing?
 
-R: Assolutamente! La maggior parte delle organizzazioni utilizza tutti e tre gli approcci per scenari diversi:
+Assolutamente! La maggior parte delle organizzazioni utilizza tutti e tre gli approcci per scenari diversi:
 - Percorsi di coinvolgimento comportamentale in tempo reale
 - Campagne di azione per le comunicazioni broadcast pianificate
 - Campagne attivate da API per i messaggi transazionali
 - Campagne orchestrate per campagne batch complesse e a uso intensivo di dati
 
-**Q: posso convertire una campagna in un percorso o viceversa?**
++++
 
-R: No, devi ricreare l’esperienza nel formato appropriato. Tuttavia, puoi riutilizzare contenuti, tipi di pubblico e concetti logici.
++++ Posso convertire una campagna in un percorso o viceversa?
 
-**Q: quale approccio è più semplice da compilare?**
+No, devi ricreare l’esperienza nel formato appropriato. Tuttavia, puoi riutilizzare contenuti, tipi di pubblico e concetti logici.
 
-R: Le campagne d’azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API, Percorsi (più complessi con logica a più passaggi) e campagne orchestrate (più complessi a causa del flusso di lavoro dell’area di lavoro e delle funzionalità con più entità).
++++
 
-**Q: quali sono le migliori proporzioni per i tipi di pubblico di grandi dimensioni?**
++++ Quale approccio è più facile da creare?
 
-R: Tutti e tre possono avere una buona scalabilità, ma:
+Le campagne d’azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API, Percorsi (più complessi con logica a più passaggi) e campagne orchestrate (più complessi a causa del flusso di lavoro dell’area di lavoro e delle funzionalità con più entità).
+
++++
+
++++ Qual è la scala migliore per il pubblico di grandi dimensioni?
+
+Tutti e tre possono avere una buona scalabilità, ma:
 - **Percorsi di pubblico di lettura** e **Le campagne d&#39;azione** sono ottimizzate per i tipi di pubblico batch di grandi dimensioni
 - **Campagne orchestrate** eccellono nella segmentazione complessa con set di dati di grandi dimensioni
 - **Percorsi unitari** elaborano i profili singolarmente, quindi la scalabilità dipende dal volume dell&#39;evento
 
-**Q: posso utilizzare lo stesso pubblico in percorsi e campagne?**
++++
 
-R: Sì, i tipi di pubblico creati in Adobe Experience Platform possono essere utilizzati con tutti e tre gli approcci.
++++ Posso utilizzare lo stesso pubblico in più percorsi e campagne?
+
+Sì, i tipi di pubblico creati in Adobe Experience Platform possono essere utilizzati con tutti e tre gli approcci.
+
++++
 
 ## Passaggi successivi {#next-steps}
 
