@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1612'
 ht-degree: 9%
 
 ---
@@ -31,18 +31,17 @@ ht-degree: 9%
 
 Scopri come accedere, organizzare e gestire le campagne in Adobe Journey Optimizer. Questa guida descrive tutte le operazioni, dalla ricerca delle campagne alla comprensione degli stati, all’esecuzione di operazioni comuni e alla manutenzione dell’area di lavoro della campagna.
 
-## Guida introduttiva: Attività comuni {#quick-tasks}
+>[!BEGINSHADEBOX]
 
-Passa direttamente a ciò che ti serve:
+**Passa direttamente a ciò di cui hai bisogno:**
 
-* **Crea una nuova campagna** → [Scegli il tipo di campagna](get-started-with-campaigns.md#campaign-types)
-   * [Crea campagna di azione](create-campaign.md)
-   * [Creare una campagna attivata da API](api-triggered-campaigns.md)
-   * [Crea campagna orchestrata](../orchestrated/gs-orchestrated-campaigns.md)
-* **Trova campagne esistenti** → [Cerca e filtra](#access)
-* **Visualizza prestazioni campagna** → [Report campagna](../reports/campaign-global-report-cja.md)
-* **Pianifica campagne** → [Utilizza il calendario](#calendar)
-* **Gestione dei conflitti** → [Guida alla gestione dei conflitti](../conflict-prioritization/gs-conflict-prioritization.md)
+* **Crea una nuova campagna** - [Scegli il tipo di campagna](get-started-with-campaigns.md#campaign-types) | [Crea campagna azione](create-campaign.md) | [Crea campagna attivata da API](api-triggered-campaigns.md) | [Crea campagna orchestrata](../orchestrated/gs-orchestrated-campaigns.md)
+* **Trova campagne esistenti** - [Cerca e filtra](#access)
+* **Visualizza prestazioni campagna** - [Report campagna](../reports/campaign-global-report-cja.md)
+* **Pianifica campagne** - [Utilizza il calendario](#calendar)
+* **Gestione dei conflitti** - [Guida alla gestione dei conflitti](../conflict-prioritization/gs-conflict-prioritization.md)
+
+>[!ENDSHADEBOX]
 
 ## Accedere e sfogliare le campagne {#access}
 
@@ -82,7 +81,7 @@ Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ri
 
 ## Operazioni della campagna {#operations}
 
-L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
+L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
