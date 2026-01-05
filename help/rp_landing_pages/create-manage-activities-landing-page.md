@@ -6,7 +6,7 @@ description: Creare e gestire le decisioni
 redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="Legacy" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../using/experience-decisioning/gs-experience-decisioning.md)
 
 In Adobe Journey Optimizer, la creazione e la gestione delle decisioni consente di fornire ai clienti le offerte più rilevanti al momento giusto. Le decisioni fungono da contenitori intelligenti che valutano i dati del cliente e le regole di business per selezionare l’offerta migliore per ogni persona. Scoprirai come definire gli ambiti decisionali, configurare i metodi di classificazione come priorità o IA e impostare le opzioni di fallback affinché ogni cliente riceva un’offerta. Dalla creazione della prima decisione a un test con simulazioni, questa guida suddivide ogni passaggio e ti fornisce gli strumenti necessari per personalizzare le esperienze e stimolare un coinvolgimento significativo.
 
@@ -25,7 +25,7 @@ In Adobe Journey Optimizer, la creazione e la gestione delle decisioni consente 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare decisioni in Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Scopri come creare le decisioni, definirne l’ambito, impostare le offerte di f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare i metodi di selezione delle offerte
 
@@ -45,7 +45,7 @@ Scopri come configurare i metodi di classificazione per le decisioni, inclusi i 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simulare le decisioni sulle offerte
 

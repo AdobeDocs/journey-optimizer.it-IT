@@ -6,7 +6,7 @@ description: Modelli di IA
 redpen-status: CREATED_||_2025-08-11_20-59-35
 badge: label="Legacy" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../using/experience-decisioning/gs-experience-decisioning.md)
 
 I modelli di intelligenza artificiale in Adobe Journey Optimizer consentono di prendere decisioni più consapevoli e basate sui dati classificando le offerte in base agli obiettivi aziendali. Che tu voglia puntare a tassi di conversione più elevati, maggiori ricavi o esperienze cliente personalizzate, questi modelli si adattano alle tue esigenze. Esplorerai due tipi di modelli di intelligenza artificiale: ottimizzazione automatica, che si concentra sul miglioramento delle prestazioni complessive in base ai dati esistenti, e ottimizzazione personalizzata, che personalizza i consigli per i singoli clienti. Seguendo una guida chiara sulla creazione e l’utilizzo di questi modelli, imparerai a sfruttare il loro potenziale per ottimizzare ogni interazione, rendendo le tue strategie di marketing più efficaci e di impatto.
 
@@ -25,7 +25,7 @@ I modelli di intelligenza artificiale in Adobe Journey Optimizer consentono di p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione ai modelli di IA
 
@@ -35,7 +35,7 @@ Scopri i modelli di intelligenza artificiale di Adobe Journey Optimizer nonché 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informazioni sui modelli di ottimizzazione automatica
 
@@ -45,7 +45,7 @@ Scopri come i modelli di ottimizzazione automatica utilizzano algoritmi come il 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Informazioni sui modelli di ottimizzazione personalizzati
 
@@ -55,7 +55,7 @@ Scopri in che modo i modelli di ottimizzazione personalizzati utilizzano i dati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare i modelli di AI
 
