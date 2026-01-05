@@ -25,7 +25,7 @@ I dati contestuali consentono ad Adobe Journey Optimizer di creare esperienze pi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta i dati contestuali
 
@@ -35,7 +35,7 @@ Scopri come utilizzare i dati contestuali nel motore decisionale di Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Utilizzo dei dati contestuali nelle richieste di Edge Decisioning
 
@@ -45,7 +45,7 @@ Scopri come trasmettere i dati contestuali nelle richieste di Edge Decisioning p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Utilizzo dei dati contestuali nelle richieste di Decisioning e nelle regole di idoneità
 
