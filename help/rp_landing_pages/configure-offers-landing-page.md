@@ -25,7 +25,7 @@ La sezione &quot;Configurare le offerte&quot; in Adobe Journey Optimizer consent
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare offerte personalizzate
 
@@ -35,7 +35,7 @@ Scopri come creare e gestire offerte personalizzate con istruzioni dettagliate, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Aggiungere rappresentazioni alle offerte
 
@@ -45,7 +45,7 @@ Definisci e configura dove vengono visualizzate le offerte utilizzando le rappre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Aggiungere vincoli alle offerte
 
