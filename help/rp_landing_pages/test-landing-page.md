@@ -209,7 +209,7 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 
 * Test di più varianti utilizzando **[dati di input di esempio](../using/test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
 
-* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
