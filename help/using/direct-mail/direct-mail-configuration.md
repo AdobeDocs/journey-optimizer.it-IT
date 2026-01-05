@@ -149,7 +149,7 @@ Se hai selezionato **[!UICONTROL Area di destinazione dati]** come **[!UICONTROL
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -185,7 +185,7 @@ Se utilizzi SFTP con autenticazione a chiave SSH, devi disporre di una chiave pr
 >
 >Dopo la codifica Base64, la chiave non conterrà più i marcatori `-----BEGIN/END RSA PRIVATE KEY-----` e non deve includere interruzioni di riga. La chiave pubblica corrispondente deve essere aggiunta al file delle chiavi autorizzate del server SFTP.
 
-Per ulteriori informazioni sulla connessione dell&#39;account SFTP ad Experience Platform, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Per ulteriori informazioni sulla connessione dell&#39;account SFTP ad Experience Platform, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
