@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Raccogliere dati evento
 description: Raccogliere dati evento
 redpen-status: CREATED_||_2025-08-11_21-02-07
+badge: label="Legacy" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
 # Raccogliere dati evento{#section-overview}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 
 La raccolta dei dati evento in Adobe Journey Optimizer consente di tenere traccia di interazioni chiave come decisioni, impression, clic ed eventi personalizzati, per creare offerte personalizzate ed efficaci. Questi dati alimentano processi critici come il reporting, la quota limite la creazione di modelli di IA tramite l’integrazione diretta con Adobe Experience Platform. Scoprirai in che modo diversi tipi di eventi, attivati automaticamente o personalizzati, insieme contribuiscono a fornire feedback fruibili. Dalla creazione di set di dati alla configurazione di schemi, ogni passaggio funge da base per l’acquisizione e l’utilizzo di insight, per aiutarti a prendere decisioni informate e a ottimizzare l’esperienza cliente con sicurezza.
 
@@ -20,7 +25,7 @@ La raccolta dei dati evento in Adobe Journey Optimizer consente di tenere tracci
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Guida introduttiva alla raccolta dati per la gestione delle decisioni
 
@@ -30,7 +35,7 @@ Scopri i concetti di base sulla raccolta dati per la gestione delle decisioni, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Come creare un set di dati per raccogliere eventi di esperienze
 
@@ -40,7 +45,7 @@ Segui le istruzioni dettagliate per creare un set di dati e uno schema per la ra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare l’acquisizione di dati evento per la gestione delle decisioni
 

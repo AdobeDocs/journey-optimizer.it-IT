@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: Gestione delle decisioni
 description: Gestione delle decisioni
 redpen-status: CREATED_||_2025-08-11_21-05-09
+badge: label="Legacy" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
 
 # Gestione delle decisioni{#section-overview}
+
+>[!TIP]
+>
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 
 La funzione di gestione delle decisioni in Adobe Journey Optimizer ti consente di fornire l’offerta giusta al pubblico giusto nel momento migliore. Combinando strumenti per la creazione di offerte personalizzate, classificandole in modo intelligente utilizzando l’intelligenza artificiale o regole personalizzate e analizzando i feedback in tempo reale, puoi creare esperienze cliente dirette basate su dati su tutti i canali. Questa sezione ti guida alla creazione di componenti fondamentali come posizionamenti e regole decisionali, all’integrazione di dati evento e contestuali ed eventi per un targeting preciso e allo sfruttamento delle API per flussi di lavoro avanzati. Sia che tu stia progettando campagne e-mail o ottimizzando le interazioni web, otterrai informazioni e strategie utilizzabili per migliorare le funzionalità decisionali.
 
@@ -20,7 +25,7 @@ La funzione di gestione delle decisioni in Adobe Journey Optimizer ti consente d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla gestione delle decisioni
 
@@ -30,7 +35,7 @@ Scopri i concetti di base della gestione delle decisioni, che includono componen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creare e gestire i componenti decisionali
 
@@ -40,7 +45,7 @@ Scopri come creare posizionamenti, regole di decisione e qualificatori di raccol
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creare e ottimizzare le classificazioni
 
@@ -50,7 +55,7 @@ Scopri come classificare le offerte utilizzando formule e modelli di intelligenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e gestire le offerte
 
@@ -60,7 +65,7 @@ Istruzioni dettagliate per la creazione di offerte personalizzate, opzioni di fa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare e gestire decisioni
 
@@ -70,7 +75,7 @@ Scopri come configurare, classificare e simulare decisioni per la consegna di of
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Utilizzo di decisioning batch
 
