@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: fb13aee243757de7fe47bdd9d9ebad47069e24ba
+source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 4%
@@ -147,8 +147,8 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 * Anteprima e test del contenuto tramite [profili di test](../using/content-management/test-profiles.md) o [dati di input di esempio](../test-approve/simulate-sample-input.md)
 * Controlla [il rendering di e-mail](../using/content-management/rendering.md) tra dispositivi e client (solo canale e-mail)
 * Esegui [controlli punteggio posta indesiderata](../using/content-management/spam-report.md) (solo canale e-mail)
-* Rivedi [conflitti](../conflict-prioritization/conflicts.md) con altre campagne e altri percorsi
-* Configura [elenchi seed](../configuration/seed-lists.md) per il monitoraggio delle parti interessate (solo canale e-mail)
+* Rivedi [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne e altri percorsi
+* Configura [elenchi seed](../using/configuration/seed-lists.md) per il monitoraggio delle parti interessate (solo canale e-mail)
 * Invia per [approvazione](../using/test-approve/gs-approval.md) prima dell&#39;attivazione
 
 **Per test A/B e ottimizzazione:**
@@ -165,7 +165,7 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 
 * Utilizza la [modalità di test](../using/building-journeys/testing-the-journey.md) per simulare la progressione del profilo (solo per percorsi bozza, richiede spazio dei nomi) oppure [esecuzione inattiva](../using/building-journeys/journey-dry-run.md) per analizzare i percorsi di esecuzione senza inviare messaggi
 * Verifica singoli messaggi tramite [anteprima e bozze](../using/content-management/preview-test.md)
-* Controlla [conflitti](../conflict-prioritization/conflicts.md) con altri percorsi e campagne
+* Controlla [conflitti](../using/conflict-prioritization/conflicts.md) con altri percorsi e campagne
 * Invia per [approvazione](../using/test-approve/gs-approval.md) prima di pubblicare
 
 **Per percorsi complessi:**
@@ -200,7 +200,7 @@ Per massimizzare l’efficacia delle attività di test, segui queste pratiche co
 
 1. **Verifica varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../test-approve/simulate-sample-input.md) da file CSV o JSON per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test, risparmiando tempo e garantendo al contempo una copertura completa. Supporta i canali di e-mail, SMS, push, web, esperienza basata su codice, in-app e schede di contenuto.
 
-1. **Utilizza elenchi seed per il monitoraggio delle parti interessate**. Configura [elenchi seed](../configuration/seed-lists.md) per includere automaticamente le parti interessate interne che riceveranno copie di tutte le consegne al momento dell&#39;esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
+1. **Utilizza elenchi seed per il monitoraggio delle parti interessate**. Configura [elenchi seed](../using/configuration/seed-lists.md) per includere automaticamente le parti interessate interne che riceveranno copie di tutte le consegne al momento dell&#39;esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
 
 1. **Simula percorsi di percorso**. Per percorsi complessi con più rami, utilizza la [modalità di test](../using/building-journeys/testing-the-journey.md) per testare condizioni di ingresso e attributi di profilo diversi e convalidare tutti i percorsi possibili. Disponibile per i percorsi 2D che utilizzano uno spazio dei nomi.
 
@@ -228,7 +228,7 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 
 * Test di più varianti utilizzando **[dati di input di esempio](../test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
 
-* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
@@ -244,7 +244,7 @@ Convalidare gli aspetti tecnici che influiscono sulla consegna dei messaggi e su
 
 * Test della [progettazione reattiva](../using/email/content-from-scratch.md) su dispositivi mobili e desktop
 
-* Verifica la presenza di [potenziali conflitti](../conflict-prioritization/conflicts.md) con altre campagne e altri percorsi per evitare problemi di affaticamento dei messaggi del cliente e di tempistica
+* Verifica la presenza di [potenziali conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne e altri percorsi per evitare problemi di affaticamento dei messaggi del cliente e di tempistica
 
 ### &#x200B;3. Prove di Percorso (solo percorsi)
 
@@ -311,7 +311,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -321,7 +321,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -331,7 +331,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -341,7 +341,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -351,7 +351,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -361,7 +361,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +381,7 @@ Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -391,7 +391,7 @@ Includi automaticamente nelle consegne gli indirizzi interni delle parti interes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento dei conflitti
 
