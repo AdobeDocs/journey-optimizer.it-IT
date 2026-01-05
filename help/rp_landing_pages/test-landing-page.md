@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
+source-git-commit: f774ce00cea82eca84410bd76f482e53d3c60bf6
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 4%
@@ -38,7 +38,7 @@ Questa pagina di destinazione consente di scegliere l’approccio di test corret
 | Funzionalità | Applicabile a | Limitazioni per il canale | Prerequisiti | Scopo principale | Documentazione |
 |------------|-----------|---------------------|--------------|-----------------|---------------|
 | [Profili di test](../using/content-management/test-profiles.md) | Campagne, Percorsi | Tutti i canali | Profili di test creati | Anteprima di contenuti personalizzati | [Guida](#testing-campaigns) |
-| [Dati di input di esempio](../test-approve/simulate-sample-input.md) | Campagne, Percorsi | E-mail, SMS, push, web, basato su codice, in-app, schede di contenuto | File CSV/JSON | Test di più varianti di personalizzazione | [Guida](#simulate-content-variations) |
+| [Dati di input di esempio](../using/test-approve/simulate-sample-input.md) | Campagne, Percorsi | E-mail, SMS, push, web, basato su codice, in-app, schede di contenuto | File CSV/JSON | Test di più varianti di personalizzazione | [Guida](#simulate-content-variations) |
 | [Modalità di prova](../using/building-journeys/testing-the-journey.md) | Solo percorsi | N/D | Bozza di percorso, spazio dei nomi configurato | Simula progressione profilo | [Scheda](#test-your-journey) |
 | [Esecuzione a secco](../using/building-journeys/journey-dry-run.md) | Solo percorsi | N/D | Percorso creato | Analizzare i percorsi di esecuzione | [Scheda](#journey-dry-run) |
 | [Rendering e-mail](../using/content-management/rendering.md) | Campagne, Percorsi | Solo e-mail | Integrazione con Litmus | Verifica della visualizzazione tra client | [Flusso di lavoro](#2-technical-validation) |
@@ -81,7 +81,7 @@ I processi di test e approvazione fungono da gate di qualità essenziali che pro
 
 **[Esecuzione in prova](../using/building-journeys/journey-dry-run.md)** = strumento di analisi dell&#39;esecuzione del Percorso che traccia i percorsi senza inviare messaggi o effettuare chiamate API. Caso di utilizzo: convalida della logica senza utilizzare risorse. [Informazioni sull&#39;esecuzione in prova](../using/building-journeys/journey-dry-run.md)
 
-**[Dati di input di esempio](../test-approve/simulate-sample-input.md)** = file CSV o JSON contenenti i valori degli attributi di profilo per testare la personalizzazione. Supporta fino a 30 varianti. Alternativa alla creazione di profili di test. [Simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)** = file CSV o JSON contenenti i valori degli attributi di profilo per testare la personalizzazione. Supporta fino a 30 varianti. Alternativa alla creazione di profili di test. [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 
 **[Elenchi seed](../using/configuration/seed-lists.md)** = Indirizzi e-mail delle parti interessate interne inclusi automaticamente nelle consegne effettive (non negli invii di test). Solo canale e-mail. Caso d’uso: monitoraggio della qualità e conformità. [Configura elenchi seed](../using/configuration/seed-lists.md)
 
@@ -144,7 +144,7 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 
 **Per tutte le campagne:**
 
-* Anteprima e test del contenuto tramite [profili di test](../using/content-management/test-profiles.md) o [dati di input di esempio](../test-approve/simulate-sample-input.md)
+* Anteprima e test del contenuto tramite [profili di test](../using/content-management/test-profiles.md) o [dati di input di esempio](../using/test-approve/simulate-sample-input.md)
 * Controlla [il rendering di e-mail](../using/content-management/rendering.md) tra dispositivi e client (solo canale e-mail)
 * Esegui [controlli punteggio posta indesiderata](../using/content-management/spam-report.md) (solo canale e-mail)
 * Rivedi [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne e altri percorsi
@@ -184,7 +184,7 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 **Durante la creazione del contenuto:**
 
 * Anteprima con [profili di test](../using/content-management/test-profiles.md) per convalidare correttamente i rendering di personalizzazione
-* Verifica più scenari utilizzando [dati di input di esempio](../test-approve/simulate-sample-input.md) da file CSV/JSON (supporta fino a 30 varianti)
+* Verifica più scenari utilizzando [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV/JSON (supporta fino a 30 varianti)
 
 ## Best practice di test
 
@@ -198,7 +198,7 @@ Per massimizzare l’efficacia delle attività di test, segui queste pratiche co
 
 1. **Convalida della personalizzazione in modo completo** - Verifica con più [profili di test](../using/content-management/test-profiles.md) che hanno valori di attributo diversi per confermare che i token di personalizzazione vengano visualizzati correttamente e che i valori di fallback funzionino. Utilizza il [parco giochi di personalizzazione](../using/personalization/personalize.md#playground) per sperimentare espressioni di personalizzazione e testare il codice con dati di esempio prima di applicarli alle campagne.
 
-1. **Verifica varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../test-approve/simulate-sample-input.md) da file CSV o JSON per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test, risparmiando tempo e garantendo al contempo una copertura completa. Supporta i canali di e-mail, SMS, push, web, esperienza basata su codice, in-app e schede di contenuto.
+1. **Verifica varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test, risparmiando tempo e garantendo al contempo una copertura completa. Supporta i canali di e-mail, SMS, push, web, esperienza basata su codice, in-app e schede di contenuto.
 
 1. **Utilizza elenchi seed per il monitoraggio delle parti interessate**. Configura [elenchi seed](../using/configuration/seed-lists.md) per includere automaticamente le parti interessate interne che riceveranno copie di tutte le consegne al momento dell&#39;esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
 
@@ -226,9 +226,9 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 
 * Prova le espressioni di personalizzazione nel **[parco giochi di personalizzazione](../using/personalization/personalize.md#playground)** per testare e perfezionare il codice con dati di esempio prima di applicarlo al contenuto live
 
-* Test di più varianti utilizzando **[dati di input di esempio](../test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
+* Test di più varianti utilizzando **[dati di input di esempio](../using/test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
 
-* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
@@ -311,7 +311,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -321,7 +321,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -331,7 +331,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -341,7 +341,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -351,7 +351,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -361,7 +361,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +381,7 @@ Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -391,7 +391,7 @@ Includi automaticamente nelle consegne gli indirizzi interni delle parti interes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento dei conflitti
 
@@ -406,7 +406,7 @@ Identifica potenziali sovrapposizioni tra campagne e percorsi per evitare di sop
 
 ### Guide alla verifica e alla convalida essenziali
 
-* [Simula varianti di contenuto](../test-approve/simulate-sample-input.md) - Puoi testare fino a 30 scenari di personalizzazione utilizzando file CSV o JSON. Ideale per il test dei contenuti multilingue senza creare più profili di test. Supporta e-mail, SMS, push, web, schede basate su codice, in-app e di contenuto.
+* [Simula varianti di contenuto](../using/test-approve/simulate-sample-input.md) - Puoi testare fino a 30 scenari di personalizzazione utilizzando file CSV o JSON. Ideale per il test dei contenuti multilingue senza creare più profili di test. Supporta e-mail, SMS, push, web, schede basate su codice, in-app e di contenuto.
 
 * [Creazione di profili di test](../using/audience/creating-test-profiles.md) - Creazione e gestione di profili di test per simulare scenari cliente. Scopri come contrassegnare i profili per il test, impostare gli attributi e organizzare i segmenti di test.
 
@@ -479,7 +479,7 @@ Scopri in che modo le funzionalità di test si connettono tra loro e ai flussi d
 
 +++**D: come posso testare la personalizzazione senza creare molti profili di test?**
 
-**Soluzione primaria:** utilizza [dati di input di esempio](../test-approve/simulate-sample-input.md) con file CSV/JSON (supporta fino a 30 varianti)
+**Soluzione primaria:** utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) con file CSV/JSON (supporta fino a 30 varianti)
 **Alternativa:** creare da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
 **Strumento di apprendimento:** Esperimento iniziale in [area giochi di personalizzazione](../using/personalization/personalize.md#playground)
 
