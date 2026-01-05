@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 652014d97d7806a90473f5b75b1fe0b2aefdfed5
+source-git-commit: 1b774d95a117903695e6954fb2c820adfdf0d3bb
 workflow-type: tm+mt
-source-wordcount: '3091'
-ht-degree: 4%
+source-wordcount: '2768'
+ht-degree: 5%
 
 ---
 
@@ -140,7 +140,9 @@ Utilizza questa struttura decisionale per identificare rapidamente gli strumenti
 
 L’approccio corretto per i test dipende da cosa stai creando e da cosa devi convalidare. Usa questa guida per identificare gli strumenti di test più rilevanti per lo scenario.
 
-### Test delle campagne
+>[!BEGINTABS]
+
+>[!TAB Test delle campagne]
 
 **Per tutte le campagne:**
 
@@ -159,7 +161,7 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 
 * Utilizza l&#39;[API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} per attivare i processi di bozza a livello di programmazione
 
-### Percorsi di prova
+>[!TAB percorsi di prova]
 
 **Per tutti i percorsi:**
 
@@ -175,7 +177,7 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 
 **Nota:** il rilevamento dei conflitti e la limitazione dei percorsi sono disponibili solo per percorsi di pubblico unitari, di qualificazione del pubblico e di lettura.
 
-### Verifica della personalizzazione
+>[!TAB Verifica della personalizzazione]
 
 **Prima di creare il contenuto:**
 
@@ -185,6 +187,8 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 
 * Anteprima con [profili di test](../using/content-management/test-profiles.md) per convalidare correttamente i rendering di personalizzazione
 * Verifica più scenari utilizzando [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV/JSON (supporta fino a 30 varianti)
+
+>[!ENDTABS]
 
 ## Best practice di test
 
@@ -228,7 +232,7 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 
 * Test di più varianti utilizzando **[dati di input di esempio](../using/test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
 
-* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
@@ -311,7 +315,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -321,7 +325,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -331,7 +335,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -341,7 +345,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -351,7 +355,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -361,7 +365,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +385,7 @@ Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -391,7 +395,7 @@ Includi automaticamente nelle consegne gli indirizzi interni delle parti interes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento dei conflitti
 
@@ -414,58 +418,59 @@ Identifica potenziali sovrapposizioni tra campagne e percorsi per evitare di sop
 
 * [Domande frequenti sul Percorso](../using/building-journeys/journey-faq.md) - Riferimento rapido per le domande comuni su test, esecuzione e risoluzione dei problemi del percorso.
 
-### Dipendenze e relazioni
+<!-- ### Dependencies and relationships
 
-Scopri in che modo le funzionalità di test si connettono tra loro e ai flussi di lavoro Journey Optimizer più ampi. In questa sezione vengono mappati i prerequisiti, le dipendenze a monte/a valle e le combinazioni di funzionalità comuni.
+Understand how testing capabilities connect to each other and to your broader Journey Optimizer workflows. This section maps prerequisites, upstream/downstream dependencies, and common capability combinations.
 
-+++**Prerequisiti (necessari prima del test)**
++++**Prerequisites (required before testing)**
 
-* I profili di test devono essere creati prima di utilizzare la modalità di test o l’anteprima del contenuto
-* I criteri di approvazione devono essere configurati prima dell’invio per l’approvazione
-* È necessario creare elenchi di seed prima di aggiungerli a campagne/percorsi
-* Integrazione Litmus necessaria per i test di rendering di e-mail
-* Per utilizzare la modalità di test, il percorso deve essere in stato bozza
-* Il percorso deve avere uno spazio dei nomi configurato per utilizzare la modalità di test
-
-+++
-
-+++**Da cosa dipende il test (a monte)**
-
-* Creazione di contenuti: campagne o percorsi da testare
-* Profili di test: necessari per la modalità di test e l’anteprima del contenuto
-* Criteri di approvazione: necessari per i flussi di lavoro di approvazione
-* Configurazione: configurazioni del canale, autenticazione e-mail, impostazioni del dominio
+* Test profiles must be created before using test mode or content preview
+* Approval policies must be configured before submitting for approval
+* Seed lists must be created before adding to campaigns/journeys
+* Litmus integration required for email rendering tests
+* Journey must be in draft status to use test mode
+* Journey must have namespace configured to use test mode
 
 +++
 
-+++**Dipende dai test (downstream)**
++++**What testing depends on (upstream)**
 
-* Attivazione campagna/percorso: impossibile attivare senza risolvere gli errori
-* Pubblicazione: potrebbe essere necessaria l’approvazione prima della pubblicazione
-* Monitoraggio live: monitoraggio e reporting dopo il lancio
-* Ottimizzazione: utilizza i risultati dei test per perfezionare le campagne future
-
-+++
-
-+++**Funzionalità correlate**
-
-* Flussi di lavoro di test e approvazione = processo di controllo qualità
-* Test + Rilevamento dei conflitti = Impedire ai clienti di inviare messaggi eccessivi
-* Test + esperimenti di contenuto = ottimizzazione delle prestazioni
-* Test + Reporting = Ciclo di miglioramento continuo
-* Profili di test + Personalization = convalida del contenuto
-* Esecuzione a secco + modalità test = convalida completa del percorso
+* Content creation: Need campaigns or journeys to test
+* Test profiles: Required for test mode and content preview
+* Approval policies: Required for approval workflows
+* Configuration: Channel configurations, email authentication, domain settings
 
 +++
 
-+++**Combinazioni di funzionalità comuni**
++++**What depends on testing (downstream)**
 
-* Test dei contenuti: profili di test + dati di input di esempio + area di riproduzione Personalization
-* Convalida e-mail: test di rendering + punteggi spam + profili di test + bozze
-* Convalida del percorso: modalità di test + esecuzione a secco + profili di test
-* Lista di controllo per il pre-lancio: tutti i test tecnici + rilevamento dei conflitti + flussi di lavoro di approvazione
+* Campaign/journey activation: Cannot activate without resolving errors
+* Publishing: Approval may be required before publishing
+* Live monitoring: Post-launch monitoring and reporting
+* Optimization: Use test results to refine future campaigns
 
 +++
+
++++**Related capabilities**
+
+* Testing + Approval workflows = Quality assurance process
+* Testing + Conflict detection = Preventing customer over-messaging
+* Testing + Content experiments = Performance optimization
+* Testing + Reporting = Continuous improvement cycle
+* Test profiles + Personalization = Content validation
+* Dry run + Test mode = Comprehensive journey validation
+
++++
+
++++**Common capability combinations**
+
+* Content testing: Test profiles + Sample input data + Personalization playground
+* Email validation: Rendering tests + Spam scores + Test profiles + Proofs
+* Journey validation: Test mode + Dry run + Test profiles
+* Pre-launch checklist: All technical tests + Conflict detection + Approval workflows
+
++++
+-->
 
 ### Domande comuni
 
@@ -519,13 +524,3 @@ Scopri in che modo le funzionalità di test si connettono tra loro e ai flussi d
 
 +++
 
-
-### Argomenti correlati
-
-* [Gestione dei contenuti](content-management-landing-page.md) - Scopri come progettare, visualizzare in anteprima e gestire i contenuti utilizzando modelli, frammenti e il Designer e-mail. Best practice per la creazione di contenuti principali per un branding coerente.
-
-* [Reporting e analisi](reporting-landing-page.md) - Analizza le prestazioni di campagne e percorsi con report, dashboard e metriche complete. Prendi decisioni basate sui dati per ottimizzare le esperienze dei clienti.
-
-* [Configurazione Percorso](configure-journeys-landing-page.md) - Configura origini dati, eventi e azioni personalizzate per abilitare una sofisticata orchestrazione del percorso. Imposta le basi tecniche per la creazione del percorso.
-
-* [Gestione campagne](../using/campaigns/get-started-with-campaigns.md) - Esplora diversi tipi di campagne e scopri come creare, pianificare e ottimizzare campagne batch e in tempo reale per il massimo impatto.
