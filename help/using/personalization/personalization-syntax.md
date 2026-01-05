@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ dove:
 
 ## Regole generali di sintassi {#general-rules}
 
-* Gli identificatori possono essere qualsiasi carattere Unicode ad eccezione dei seguenti:
+* Gli identificatori possono essere qualsiasi carattere Unicode ad eccezione dei seguenti caratteri speciali, che sono riservati per la sintassi Handlebars:
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -136,7 +136,7 @@ Se non vengono utilizzati i backtick, l’editor di personalizzazione non riusci
 
   +++
 
-## Helper{#helpers-all}
+## Helper {#helpers-all}
 
 Un helper Handlebars è un semplice identificatore che può essere seguito da parametri. Ogni parametro è un&#39;espressione Handlebars. È possibile accedere a questi helper da qualsiasi contesto in un modello.
 
@@ -144,7 +144,7 @@ Questi helper di blocco sono identificati da un `#` che precede il nome dell&#39
 
 I blocchi sono espressioni con un blocco di apertura (`{{# }}`) e chiusura (`{{/}}`).
 
-Per ulteriori informazioni sulle funzioni di supporto, fare riferimento a [questa sezione](functions/helpers.md).
+    Per ulteriori informazioni sulle funzioni di supporto, vedere [questa sezione](functions/helpers.md).
 
 ## Tipi letterali {#literal-types}
 
