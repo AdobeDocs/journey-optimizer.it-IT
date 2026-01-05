@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: f774ce00cea82eca84410bd76f482e53d3c60bf6
+source-git-commit: 652014d97d7806a90473f5b75b1fe0b2aefdfed5
 workflow-type: tm+mt
-source-wordcount: '3103'
+source-wordcount: '3091'
 ht-degree: 4%
 
 ---
@@ -21,41 +21,6 @@ ht-degree: 4%
 Questa sezione descrive tutte le funzionalità di test e approvazione in Journey Optimizer. Troverai strumenti per visualizzare in anteprima i contenuti con profili di test, convalidare la logica di percorso, controllare il rendering di e-mail e i punteggi di spam, eseguire esperimenti A/B, rilevare i conflitti e impostare flussi di lavoro di approvazione.
 
 Questa pagina di destinazione consente di scegliere l’approccio di test corretto in base a ciò che stai creando (campagne anziché percorsi), illustra i flussi di lavoro di test consigliati e fornisce un accesso rapido a tutte le risorse di test e approvazione. Inizia con [Scegli il tuo approccio di test](#choose-your-testing-approach) di seguito per identificare gli strumenti applicabili al tuo caso d&#39;uso.
-
-## Panoramica delle funzionalità di test
-
-**Tipi di test disponibili:**
-
-* Test del contenuto: visualizza l&#39;anteprima e convalida del contenuto del messaggio prima di inviare → [Campagne di test](#testing-campaigns), [Verifica della personalizzazione](#testing-personalization)
-* Test della logica di percorso: simulare la progressione del cliente attraverso i percorsi di percorso → [percorsi di test](#testing-journeys)
-* Test tecnici: Convalida rendering, recapito messaggi e autenticazione → [Convalida tecnica](#2-technical-validation)
-* Test delle prestazioni: confrontare le varianti di contenuto utilizzando esperimenti A/B → [Esperimenti di contenuto](#content-experiments--ab-testing)
-* Test dei conflitti: rilevamento sovrapposizioni campagna e percorso → [Rilevamento conflitti](#conflict-detection)
-* Test di approvazione: flussi di lavoro di revisione strutturati prima dell&#39;attivazione → [Flussi di lavoro di approvazione](#approval-workflows-for-journeys-and-campaigns)
-
-**Funzionalità chiave per contesto:**
-
-| Funzionalità | Applicabile a | Limitazioni per il canale | Prerequisiti | Scopo principale | Documentazione |
-|------------|-----------|---------------------|--------------|-----------------|---------------|
-| [Profili di test](../using/content-management/test-profiles.md) | Campagne, Percorsi | Tutti i canali | Profili di test creati | Anteprima di contenuti personalizzati | [Guida](#testing-campaigns) |
-| [Dati di input di esempio](../using/test-approve/simulate-sample-input.md) | Campagne, Percorsi | E-mail, SMS, push, web, basato su codice, in-app, schede di contenuto | File CSV/JSON | Test di più varianti di personalizzazione | [Guida](#simulate-content-variations) |
-| [Modalità di prova](../using/building-journeys/testing-the-journey.md) | Solo percorsi | N/D | Bozza di percorso, spazio dei nomi configurato | Simula progressione profilo | [Scheda](#test-your-journey) |
-| [Esecuzione a secco](../using/building-journeys/journey-dry-run.md) | Solo percorsi | N/D | Percorso creato | Analizzare i percorsi di esecuzione | [Scheda](#journey-dry-run) |
-| [Rendering e-mail](../using/content-management/rendering.md) | Campagne, Percorsi | Solo e-mail | Integrazione con Litmus | Verifica della visualizzazione tra client | [Flusso di lavoro](#2-technical-validation) |
-| [Punteggio posta indesiderata](../using/content-management/spam-report.md) | Campagne, Percorsi | Solo e-mail | Nessuna | Convalida del recapito | [Flusso di lavoro](#2-technical-validation) |
-| [Elenchi seed](../using/configuration/seed-lists.md) | Campagne, Percorsi | Solo e-mail | Elenco seed configurato | Monitoraggio delle parti interessate | [Scheda](#seed-lists-for-stakeholder-monitoring) |
-| [Esperimenti sui contenuti](../using/content-management/get-started-experiment.md) | Solo campagne | Tutti i canali | Nessuna | Test A/B e slot machine | [Scheda](#content-experiments--ab-testing) |
-| [Rilevamento conflitti](../using/conflict-prioritization/conflicts.md) | Campagne, Percorsi (limitati) | Tutti i canali | Nessuna | Impedisci messaggi eccessivi del cliente | [Scheda](#conflict-detection) |
-| [Flussi di lavoro di approvazione](../using/test-approve/gs-approval.md) | Campagne, Percorsi | Tutti i canali | Criterio di approvazione creato | Processo di revisione strutturato | [Scheda](#approval-workflows-for-journeys-and-campaigns) |
-| [Area di riproduzione Personalization](../using/personalization/personalize.md#playground) | Tutto | Tutti i canali | Nessuna | Scopri e verifica la sintassi di personalizzazione | [Scheda](#personalization-playground) |
-
-**Flussi di lavoro di test comuni:**
-
-1. Pre-sviluppo: utilizza [area di riproduzione per la personalizzazione](#testing-personalization) per apprendere la sintassi
-2. Durante lo sviluppo: anteprima con [profili di test](#testing-campaigns), convalida con [dati di input di esempio](#simulate-content-variations)
-3. Pre-avvio: esegui [test tecnici](#2-technical-validation) (rendering, spam), seleziona [conflitti](#conflict-detection), invia per [approvazione](#approval-workflows-for-journeys-and-campaigns)
-4. Post-avvio: monitoraggio con rapporti live (vedi [Monitoraggio e risoluzione dei problemi](#monitoring--troubleshooting)), iterazione in base ai risultati
-
 
 ## Perché le prove e le approvazioni sono importanti
 
@@ -72,6 +37,41 @@ I processi di test e approvazione fungono da gate di qualità essenziali che pro
 * **Stabilisci la responsabilità** - Implementa flussi di lavoro di approvazione formali che richiedono l&#39;approvazione delle parti interessate, creando una chiara proprietà e riducendo i lanci non autorizzati o prematuri di campagne.
 
 * **Risparmia tempo e risorse** - Rileva i problemi all&#39;inizio del ciclo di sviluppo quando le correzioni sono più economiche e veloci, evitando costose correzioni post-avvio o escalation del servizio clienti.
+
+## Panoramica delle funzionalità di test
+
+**Tipi di test disponibili:**
+
+* Test del contenuto: visualizza l&#39;anteprima e convalida del contenuto del messaggio prima di inviare → [Campagne di test](#testing-campaigns), [Verifica della personalizzazione](#testing-personalization)
+* Test della logica di percorso: simulare la progressione del cliente attraverso i percorsi di percorso → [percorsi di test](#testing-journeys)
+* Test tecnici: Convalida rendering, recapito messaggi e autenticazione → [Convalida tecnica](#2-technical-validation)
+* Test delle prestazioni: confrontare le varianti di contenuto utilizzando esperimenti A/B → [Esperimenti di contenuto](#content-experiments--ab-testing)
+* Test dei conflitti: rilevamento sovrapposizioni campagna e percorso → [Rilevamento conflitti](#conflict-detection)
+* Test di approvazione: flussi di lavoro di revisione strutturati prima dell&#39;attivazione → [Flussi di lavoro di approvazione](#approval-workflows-for-journeys-and-campaigns)
+
+**Funzionalità chiave per contesto:**
+
+| Funzionalità | Applicabile a | Limitazioni per il canale | Prerequisiti | Scopo principale |
+|------------|-----------|---------------------|--------------|-----------------|
+| [Profili di test](../using/content-management/test-profiles.md) | Campagne, Percorsi | Tutti i canali | Profili di test creati | Anteprima di contenuti personalizzati |
+| [Dati di input di esempio](../using/test-approve/simulate-sample-input.md) | Campagne, Percorsi | E-mail, SMS, push, web, basato su codice, in-app, schede di contenuto | File CSV/JSON | Test di più varianti di personalizzazione |
+| [Modalità di prova](../using/building-journeys/testing-the-journey.md) | Solo percorsi | N/D | Bozza di percorso, spazio dei nomi configurato | Simula progressione profilo |
+| [Esecuzione a secco](../using/building-journeys/journey-dry-run.md) | Solo percorsi | N/D | Percorso creato | Analizzare i percorsi di esecuzione |
+| [Rendering e-mail](../using/content-management/rendering.md) | Campagne, Percorsi | Solo e-mail | Integrazione con Litmus | Verifica della visualizzazione tra client |
+| [Punteggio posta indesiderata](../using/content-management/spam-report.md) | Campagne, Percorsi | Solo e-mail | Nessuna | Convalida del recapito |
+| [Elenchi seed](../using/configuration/seed-lists.md) | Campagne, Percorsi | Solo e-mail | Elenco seed configurato | Monitoraggio delle parti interessate |
+| [Esperimenti sui contenuti](../using/content-management/get-started-experiment.md) | Solo campagne | Tutti i canali | Nessuna | Test A/B e slot machine |
+| [Rilevamento conflitti](../using/conflict-prioritization/conflicts.md) | Campagne, Percorsi (limitati) | Tutti i canali | Nessuna | Impedisci messaggi eccessivi del cliente |
+| [Flussi di lavoro di approvazione](../using/test-approve/gs-approval.md) | Campagne, Percorsi | Tutti i canali | Criterio di approvazione creato | Processo di revisione strutturato |
+| [Area di riproduzione Personalization](../using/personalization/personalize.md#playground) | Tutto | Tutti i canali | Nessuna | Scopri e verifica la sintassi di personalizzazione |
+
+**Flussi di lavoro di test comuni:**
+
+1. Pre-sviluppo: utilizza [area di riproduzione per la personalizzazione](#testing-personalization) per apprendere la sintassi
+2. Durante lo sviluppo: anteprima con [profili di test](#testing-campaigns), convalida con [dati di input di esempio](#simulate-content-variations)
+3. Pre-avvio: esegui [test tecnici](#2-technical-validation) (rendering, spam), seleziona [conflitti](#conflict-detection), invia per [approvazione](#approval-workflows-for-journeys-and-campaigns)
+4. Post-avvio: monitoraggio con rapporti live (vedi [Monitoraggio e risoluzione dei problemi](#monitoring--troubleshooting)), iterazione in base ai risultati
+
 
 ## Terminologia chiave
 
@@ -228,7 +228,7 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 
 * Test di più varianti utilizzando **[dati di input di esempio](../using/test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
 
-* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
@@ -311,7 +311,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -321,7 +321,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -331,7 +331,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -341,7 +341,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -351,7 +351,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -361,7 +361,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -381,7 +381,7 @@ Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -391,7 +391,7 @@ Includi automaticamente nelle consegne gli indirizzi interni delle parti interes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento dei conflitti
 
