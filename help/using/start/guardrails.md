@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3574'
-ht-degree: 99%
+source-wordcount: '3661'
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ Di seguito sono riportati guardrail e limitazioni relativi all&#39;utilizzo di [
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-
 >[!CAUTION]
 >
 >* [I guardrail per i dati e la segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"} vengono applicati anche a Adobe Journey Optimizer.
 >
 >* Consulta anche [Guardrail per l’acquisizione di dati nel Profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
+## Sistema e piattaforma {#system-platform}
 
-## Browser supportati {#browsers}
+### Browser supportati {#browsers}
 
 L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare in modo ottimale nell’ultima versione di Google Chrome. L’utilizzo di versioni precedenti o di altri browser potrebbe comportare problemi durante l’utilizzo di alcune funzioni.
 
-## Guardrail per set di dati {#datasets-guardrails}
+### Guardrail per set di dati {#datasets-guardrails}
 
 A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema in **nuove sandbox e nuove organizzazioni** come segue:
 
@@ -42,12 +42,13 @@ A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di d
 
 Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
 
-## Guardrail per canali {#channel-guardrails}
+## Canali e messaggi {#channel-guardrails}
+
+Questa sezione descrive i guardrail per tutti i canali di comunicazione, inclusi e-mail, SMS, canali in entrata (web, in-app, basati su codice, schede di contenuto) e messaggi transazionali.
 
 >[!NOTE]
 >
 >In rare circostanze, interruzioni temporanee in una area geografica specifica possono comportare l’esclusione dai percorsi di profili validi oppure e-mail erroneamente contrassegnate come mancati recapiti. Una volta ripristinati i servizi, ricontrolla i registri del percorso, verifica i campi del profilo di consenso e, se necessario, ripubblica il percorso. In caso di interruzione di un ISP, scopri come rimuovere i profili dall’elenco di soppressione in [questa sezione](../configuration/manage-suppression-list.md#remove-from-suppression-list).
->
 
 ### Guardrail per e-mail {#message-guardrails}
 
@@ -117,7 +118,11 @@ Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda
 
 Journey Optimizer supporta un volume massimo di 500 messaggi transazionali al secondo nelle campagne.
 
-## Guardrail delle pagine di destinazione {#lp-guardrails}
+## Contenuti e Assets {#content-assets}
+
+Questa sezione descrive i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
+
+### Guardrail delle pagine di destinazione {#lp-guardrails}
 
 Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applicati i seguenti guardrail:
 
@@ -126,11 +131,11 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 * Non puoi aggiungere una preintestazioni  a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
-## Guardrail per i sottodomini {#subdomain-guardrails}
+### Guardrail per i sottodomini {#subdomain-guardrails}
 
 I guardrail e le limitazioni applicabili alla delega di un sottodominio in Journey Optimizer sono descritti in dettaglio in [questa pagina](../configuration/delegate-subdomain.md#guardrails).
 
-## Guardrail per i frammenti {#fragments-guardrails}
+### Guardrail per i frammenti {#fragments-guardrails}
 
 Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti guardrail:
 
@@ -143,7 +148,11 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * I frammenti visivi non sono compatibili tra le modalità Utilizza temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
 * Quando il tracciamento è abilitato in un percorso o in una campagna, se aggiungi collegamenti a un frammento e quest’ultimo viene utilizzato in un messaggio, tali collegamenti vengono tracciati come tutti gli altri collegamenti inclusi nel messaggio. [Ulteriori informazioni su collegamenti e tracciamento](../email/message-tracking.md)
 
-## Guardrail del profilo e del pubblico {#audience}
+## Tipi di pubblico e profili {#audiences-profiles}
+
+Questa sezione descrive i guardrail per la gestione dell’audience, la gestione del profilo e considerazioni di profilo coinvolgibili.
+
+### Guardrail del profilo e del pubblico {#audience}
 
 * Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
@@ -153,14 +162,18 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 
 * Quando esegui il targeting di profili identificati da pseudonimi (visitatori non autenticati) con canali in entrata, puoi impostare un valore TTL (Time-to-live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolti e i costi associati. [Ulteriori informazioni](#profile-management-inbound)
 
-## Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
+## Gestione delle decisioni {#decision-management}
+
+### Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 
 I guardrail e le limitazioni da tenere presenti quando si lavora con Decisioning o Gestione delle decisioni sono descritti in queste sezioni relative alla gestione delle decisioni e delle decisioni:
 
 * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
 * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
 
-## Guardrail di percorso {#journeys-guardrails}
+## Percorsi {#journeys-guardrails}
+
+Questa sezione descrive i guardrail e le limitazioni per i percorsi, incluse le limitazioni generali del percorso, i componenti del percorso (azioni, eventi, origini dati), le attività del percorso e funzioni specifiche come le azioni personalizzate e l’editor di espressioni.
 
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 
@@ -333,6 +346,8 @@ Consulta anche [questa pagina](../building-journeys/read-audience.md#must-read).
 
 All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail specifici. Sono elencati in [questa pagina](../building-journeys/update-profiles.md).
 
-## Guardrail per l’orchestrazione delle campagne {#orchestration-guardrails}
+## Orchestrazione della campagna {#campaign-orchestration}
+
+### Guardrail per l’orchestrazione delle campagne {#orchestration-guardrails}
 
 I guardrail e le limitazioni da tenere presenti quando utilizzi l’orchestrazione di una campagna sono descritti in questa sezione: [Guardrail e limitazioni](../orchestrated/guardrails.md).
