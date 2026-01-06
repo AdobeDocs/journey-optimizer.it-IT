@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -171,21 +171,21 @@ I guardrail e le limitazioni da tenere presenti quando si lavora con Decisioning
 * Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono archiviati in quell’istanza percorso e influiscono sulle sue dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
-### Seleziona le limitazioni del pacchetto per i percorsi unitari {#select-package-limitations}
+### Selezionare le limitazioni del pacchetto per i percorsi unitari {#select-package-limitations}
 
 >[!NOTE]
 >
->Queste limitazioni non si applicano ai percorsi Read Audience o Business Event con il pacchetto **Select**. Se hai bisogno di una logica di percorso più complessa con più azioni, condizioni o attività di attesa, valuta l’aggiornamento del pacchetto di licenze o l’utilizzo di percorsi Read Audience, se applicabile.
+>Queste limitazioni non si applicano ai percorsi Leggi pubblico o Evento di business con il pacchetto **Select**. Se hai bisogno di una logica di percorso più complessa con più azioni, condizioni o attività di attesa, valuta l’aggiornamento del pacchetto di licenza o l’utilizzo di percorsi Leggi pubblico, se applicabile.
 
-Per i clienti che utilizzano il pacchetto di licenza **Select**, le seguenti limitazioni aggiuntive si applicano in modo specifico ai percorsi unitari, ai percorsi che iniziano con un evento o a una qualifica di pubblico:
+Per chi utilizza il pacchetto di licenza **Select**, le seguenti limitazioni aggiuntive si applicano in modo specifico ai percorsi unitari, ai percorsi che iniziano con un evento o a una qualificazione del pubblico:
 
-* **Pacchetto SELECT: nel percorso unitario è consentita una sola azione (ERR_PKG_SELECT_8)**: i percorsi unitari possono contenere una sola attività di azione. Non puoi aggiungere più attività e-mail, push, SMS o altre attività all’interno dello stesso percorso.
+* **Pacchetto SELECT: nel percorso unitario è consentita una sola azione (ERR_PKG_SELECT_8)**: i percorsi unitari possono contenere una sola attività azione. Non puoi aggiungere più attività e-mail, push, SMS o altre attività all’interno dello stesso percorso.
 
 * **Pacchetto SELECT: nessuna condizione consentita nel percorso unitario (ERR_PKG_SELECT_7)**: le attività condizione non possono essere utilizzate nei percorsi unitari. Il percorso deve seguire un unico percorso lineare senza logica di diramazione.
 
 * **Pacchetto SELECT: nessuna attesa consentita nel percorso unitario (ERR_PKG_SELECT_6)**: impossibile aggiungere attività di attesa ai percorsi unitari. Le azioni devono essere eseguite immediatamente senza ritardi.
 
-* **Pacchetto SELECT: la transizione timeout/errore dal nodo deve puntare solo al nodo finale (ERR_PKG_SELECT_2)**: se configuri le transizioni timeout o errore per un&#39;azione, ad esempio un&#39;azione e-mail, questi percorsi devono puntare direttamente a un nodo finale. Non possono connettersi ad altre attività o azioni nel percorso.
+* **Pacchetto SELECT: la transizione timeout/errore dal nodo deve puntare solo al nodo finale (ERR_PKG_SELECT_2)**: se configuri le transizioni timeout o errore per un’azione, ad esempio un’azione e-mail, questi percorsi devono puntare direttamente a un nodo finale. Non possono connettersi ad altre attività o azioni nel percorso.
 
 
 ### Azioni generali {#general-actions-g}
@@ -318,7 +318,7 @@ All’attività **[!UICONTROL Salta]** si applicano guardrail specifici. Sono el
 All’attività del percorso [Leggi pubblico](../building-journeys/read-audience.md), vengono applicati i seguenti guardrail:
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
-* All’ingresso del percorso, i profili utilizzano i valori degli attributi dello snapshot del pubblico batch. Tuttavia, quando un profilo raggiunge un’attività **Wait**, il percorso aggiorna automaticamente gli attributi del profilo recuperando i dati più recenti da Unified Profile Service (UPS). Ciò significa che gli attributi del profilo possono cambiare durante l’esecuzione del percorso.
+* All’ingresso nel percorso, i profili utilizzano i valori degli attributi dell’istantanea pubblico batch. Tuttavia, quando un profilo raggiunge un’attività **Attendi**, il percorso aggiorna automaticamente gli attributi del profilo recuperando i dati più recenti dal servizio Profilo unificato (UPS). Ciò significa che gli attributi del profilo possono cambiare durante l’esecuzione del percorso.
 * Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I nuovi tentativi verranno eseguiti dal sistema, ma evita di creare più di cinque percorsi (con l’attività **Leggi pubblico**, programmata o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
 * L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.

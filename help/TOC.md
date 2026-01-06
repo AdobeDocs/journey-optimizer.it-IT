@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -34,25 +34,25 @@ ht-degree: 96%
    + [Introduzione](/help/rp_landing_pages/get-started-landing-page.md)
    + Elementi di base {#essentials}
       + [Cos’è Journey Optimizer?](using/start/get-started.md)
-      + [Comprendere come funziona](using/start/understanding-ajo.md)
+      + [Informazioni sul funzionamento](using/start/understanding-ajo.md)
       + [Terminologia chiave](using/start/terminology.md)
       + [Guardrail e limitazioni](using/start/guardrails.md)
    + Introduzione per ruolo {#by-role}
-      + [Scegli il tuo percorso di apprendimento](using/start/quick-start.md)
-      + [Introduzione per addetti marketing](using/start/path/marketer.md)
-      + [Introduzione al ruolo di Data Engineer](using/start/path/data-engineer.md)
+      + [Scegliere il percorso di apprendimento](using/start/quick-start.md)
+      + [Introduzione per il ruolo di marketer](using/start/path/marketer.md)
+      + [Introduzione al ruolo di data engineer](using/start/path/data-engineer.md)
       + [Introduzione per amministratori](using/start/path/administrator.md)
       + [Introduzione per sviluppatori](using/start/path/developer.md)
    + Lavorare in modo efficiente {#work-efficiently}
-      + [Navigare nell’interfaccia](using/start/user-interface.md)
-      + [Cerca, filtra e organizza](using/start/search-filter-categorize.md)
-      + [Funzioni intelligenti e AI](using/start/ai-features.md)
+      + [Scoprire l’interfaccia](using/start/user-interface.md)
+      + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
+      + [IA e funzioni intelligenti](using/start/ai-features.md)
       + [Accessibilità](using/start/accessibility.md)
       + [Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
    + [Tipi di percorso e guida alla selezione](using/building-journeys/journey-types-selection.md)
-   + [Domande frequenti su Journey Orchestration](using/building-journeys/journey-faq.md)
+   + [Domande frequenti di Journey Orchestration](using/building-journeys/journey-faq.md)
    + Creare un percorso {#create-journey}
       + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Creare il primo percorso](using/building-journeys/journey-gs.md)
@@ -121,7 +121,7 @@ ht-degree: 96%
    + Casi d’uso {#journey-use-cases}
       + [Casi d’uso](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Apprendere attraverso i casi d’uso](using/building-journeys/jo-use-cases.md)
-      + [Criteri percorsi di entrata e di uscita](using/building-journeys/entry-exit-criteria-guide.md)
+      + [Criteri di entrata e uscita del percorso](using/building-journeys/entry-exit-criteria-guide.md)
       + [Ricerca eventi esperienza](using/building-journeys/exp-event-lookup.md)
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -202,9 +202,9 @@ ht-degree: 96%
          + [Test](using/orchestrated/activities/test.md)
          + [Attendi](using/orchestrated/activities/wait.md)
       + Apprendere attraverso i casi d’uso {#use-cases}
-         + [Invia aggiornamenti voci elenco desideri](using/orchestrated/wishlist-uc.md)
-         + [Coinvolgi i clienti tramite l’attività di navigazione](using/orchestrated/engage-customers-uc.md)
-         + [Notifica agli utenti la disponibilità del prodotto](using/orchestrated/product-availability-uc.md)
+         + [Inviare aggiornamenti voci della wishlist](using/orchestrated/wishlist-uc.md)
+         + [Coinvolgere la clientela tramite l’attività di navigazione](using/orchestrated/engage-customers-uc.md)
+         + [Notificare agli utenti la disponibilità del prodotto](using/orchestrated/product-availability-uc.md)
 + Conflitti e assegnazione delle priorità {#conflict-prioritization}
    + [Gestione dei conflitti e assegnazione delle priorità](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -483,9 +483,9 @@ ht-degree: 96%
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introduzione all’Assistente IA](using/content-management/gs-generative.md)
       + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
-      + [Generare contenuti completi con IA](using/content-management/generative-full-content.md)
-      + [Generare testo con IA](using/content-management/generative-text.md)
-      + [Generare immagini con AI](using/content-management/generative-image.md)
+      + [Generare contenuti completi con l’IA](using/content-management/generative-full-content.md)
+      + [Generare testo con l’IA](using/content-management/generative-text.md)
+      + [Generare immagini con l’IA](using/content-management/generative-image.md)
       + [Esperimento sui contenuti con l’IA](using/content-management/generative-experimentation.md)
       + [Casi d’uso dell’Assistente IA](using/content-management/generative-uc.md)
       + Brand {#brands}
@@ -633,7 +633,7 @@ ht-degree: 96%
             + [Aggiornare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + Posizionamenti {#placements}
             + [Creare i posizionamenti](using/experience-decisioning/api-reference/exd-placements/create.md)
-            + [Elenco Posizionamenti](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Elenco posizionamenti](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
             + [Ricercare posizionamenti](using/experience-decisioning/api-reference/exd-placements/lookup.md)
             + [Aggiornare i posizionamenti](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Gestire gli elementi decisionali {#manage-decision-items}
@@ -680,7 +680,7 @@ ht-degree: 96%
          + [Caso d’uso: inserire offerte in un messaggio e-mail](using/offers/offers-e2e.md)
       + Creare componenti {#create-components}
          + [Creare componenti](/help/rp_landing_pages/create-components-landing-page.md)
-         + [Creare posizionamenti](using/offers/offer-library/creating-placements.md)
+         + [Creare i posizionamenti](using/offers/offer-library/creating-placements.md)
          + [Creare regole di decisione](using/offers/offer-library/creating-decision-rules.md)
          + [Creare qualificatori di raccolta](using/offers/offer-library/creating-tags.md)
       + Creare classificazioni {#rankings}
@@ -697,7 +697,7 @@ ht-degree: 96%
          + [Creare e gestire le offerte](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + Configurare le offerte {#configure-offers}
             + [Configurare le offerte](/help/rp_landing_pages/configure-offers-landing-page.md)
-            + [Creare le offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
+            + [Creare offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
             + [Aggiungere rappresentazioni](using/offers/offer-library/add-representations.md)
             + [Aggiungere vincoli](using/offers/offer-library/add-constraints.md)
          + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
@@ -836,7 +836,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [Creare pool IP](using/configuration/ip-pools.md)
    + Implementare un piano di preparazione IP {#implement-ip-warmup-plan}
       + [Implementare un piano di preparazione IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guida alla consegna del calore IP](using/configuration/ip-warmup-deliverability-guide.md)
+      + [Guida alla recapitabilità della preparazione IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Introduzione ai piani di preparazione IP](using/configuration/ip-warmup-gs.md)
       + [Creare campagne di preparazione IP](using/configuration/ip-warmup-campaign.md)
       + [Creare un piano di preparazione IP](using/configuration/ip-warmup-plan.md)
@@ -872,7 +872,7 @@ ht-degree: 96%
       + [Elenco Consentiti](using/configuration/allow-list.md)
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
-   + [Gestire i campi di esecuzione](using/configuration/primary-email-addresses.md)
+   + [Gestire campi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Creare webhook di feedback](using/configuration/feedback-webhooks.md)
 + Configurazione dei percorsi {#configure-journeys}
    + [Configurazione dei percorsi](/help/rp_landing_pages/configure-journeys-landing-page.md)

@@ -163,7 +163,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 Durante la configurazione di un provider SMS personalizzato, ora puoi abilitare l’autenticazione TLS reciproca (mTLS), che richiede sia al client che al server di confermare reciprocamente la propria identità prima che venga stabilita una connessione sicura. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
 
 * **Schemi relazionali**\
-  Gli schemi relazionali possono ora essere utilizzati da per supportare le tue esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
+  Puoi ora utilizzare gli schemi relazionali per supportare le esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
 
 * **Supporto per la ricerca di set di dati in percorsi**\
   Una nuova attività nei percorsi, **Ricerca set di dati**, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive. [Ulteriori informazioni](../building-journeys/dataset-lookup.md) - Data di disponibilità: 23 settembre 2025
