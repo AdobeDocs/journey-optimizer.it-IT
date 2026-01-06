@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
+source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 5%
+source-wordcount: '2328'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Questa pagina di destinazione consente di scegliere l’approccio di test corret
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -36,7 +36,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -46,7 +46,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -56,7 +56,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -66,7 +66,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -76,7 +76,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -106,7 +106,7 @@ Includi automaticamente nelle consegne gli indirizzi interni delle parti interes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento dei conflitti
 
@@ -305,12 +305,55 @@ Segui questo approccio in 4 fasi per convalidare le campagne e i percorsi prima 
 
 Scopri come i concetti di test si applicano agli scenari reali:
 
-| Caso d’uso | Cosa imparerai | Obiettivo principali dei test |
-|----------|-------------------|-------------------|
-| **[Inviare messaggi multicanale](../using/building-journeys/journeys-uc.md)** | Test di un percorso che combina Read Audience, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. | Coordinazione multicanale, eventi di reazione, convalida del flusso end-to-end, passaggi di test e pubblicazione |
-| **[Invia un messaggio ai sottoscrittori](../using/building-journeys/message-to-subscribers-uc.md)** | Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indirizzi e-mail dinamici. Convalida le espressioni di personalizzazione per il targeting corretto del sottoscrittore. | Espressioni Personalization, indirizzamento dinamico, targeting degli elenchi di iscrizioni |
-| **[Invio di messaggi con limiti di tempo](../using/building-journeys/weekday-email-uc.md)** | Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. | Condizioni basate sul tempo, attività di attesa, convalida della pianificazione |
-| **[Esplora altri casi d&#39;uso del percorso](../using/building-journeys/jo-use-cases.md)** | Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterne. | Vari scenari, modelli avanzati, test dell’integrazione |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/journeys-uc.md">
+<img alt="Inviare messaggi multicanale" src="../using/assets/do-not-localize/start-journey.jpeg">
+</a>
+<div>
+<a href="../using/building-journeys/journeys-uc.md"><strong>Inviare messaggi multicanale</strong></a>
+</div>
+<p>
+Test di un percorso che combina Read Audience, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/message-to-subscribers-uc.md">
+<img alt="Inviare un messaggio agli abbonati" src="../using/assets/do-not-localize/start-quick.png">
+</a>
+<div>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Invia un messaggio ai sottoscrittori</strong></a>
+</div>
+<p>
+Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indirizzi e-mail dinamici. Convalida le espressioni di personalizzazione per il targeting corretto del sottoscrittore. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting degli elenchi di abbonamento.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/weekday-email-uc.md">
+<img alt="Inviare messaggi con limiti di tempo" src="../using/assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>Invio di messaggi con limiti di tempo</strong></a>
+</div>
+<p>
+Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
+</p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/jo-use-cases.md">
+<img alt="Esplora altri casi di utilizzo del percorso" src="../using/assets/do-not-localize/icon-quick-start.svg">
+</a>
+<div>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>Esplora altri casi d'uso del percorso</strong></a>
+</div>
+<p>
+Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterne. Esplora vari scenari, modelli avanzati e approcci di test dell’integrazione.
+</p>
+</td>
+</tr></table>
 
 ## Terminologia chiave
 
