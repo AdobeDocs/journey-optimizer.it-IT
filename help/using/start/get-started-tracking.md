@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: tracciamento, monitoraggio, analisi, reporting, recapito messaggi
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Introduzione al tracciamento in Journey Optimizer {#get-started-tracking}
 
-Il tracciamento e il monitoraggio consentono di misurare l’efficacia della campagna, ottimizzare le esperienze dei clienti e garantire che i messaggi raggiungano i destinatari desiderati. Journey Optimizer fornisce funzionalità di tracciamento complete che acquisiscono le interazioni dei clienti, le prestazioni di consegna e lo stato del sistema, consentendo di prendere decisioni basate sui dati nel rispetto della privacy e mantenendo la conformità.
+Il tracciamento consente di misurare l’efficacia della campagna, ottimizzare le esperienze dei clienti e garantire che i messaggi raggiungano i destinatari desiderati. Journey Optimizer fornisce funzionalità di tracciamento complete che acquisiscono le interazioni dei clienti, le prestazioni di consegna e lo stato del sistema, consentendo di prendere decisioni basate sui dati nel rispetto della privacy e mantenendo la conformità.
 
 La maggior parte del tracciamento viene configurata automaticamente durante la creazione di messaggi e percorsi. Per scenari avanzati, puoi impostare metriche personalizzate, configurare parametri URL e integrarli con piattaforme di analisi esterne. Accedi ai dati di tracciamento tramite rapporti incorporati o esportali per un’analisi più approfondita in Customer Journey Analytics.
 
@@ -232,9 +232,9 @@ Oltre al tracciamento a livello di canale, configura il tracciamento per misurar
 
 * **Configurare il monitoraggio delle azioni personalizzate** - Configurare il monitoraggio per le integrazioni con i sistemi esterni per monitorare le chiamate API, i tempi di risposta e i modelli di errore. [Ulteriori informazioni](../action/reporting.md)
 
-* **Creazione di rapporti personalizzati ed esportazione di dati** - Creazione di rapporti personalizzati ed esportazione di dati di tracciamento in sistemi esterni per analisi più approfondite. [Ulteriori informazioni](../reports/sharing-overview.md)
+* **Creazione di report personalizzati ed esportazione di dati** - Creazione di report personalizzati ed esportazione di dati di tracciamento in sistemi esterni per analisi più approfondite. [Ulteriori informazioni](../reports/sharing-overview.md)
 
-**Visualizza prestazioni unificate:** Accedi a report completi sia per le campagne che per i percorsi per confrontare le prestazioni per e-mail, push, SMS e altri canali e per capire quali combinazioni generano i risultati migliori. [Rapporti sulle campagne](../reports/campaign-global-report-cja.md) | [Rapporti Percorso](../reports/journey-global-report-cja.md)
+* **Visualizza prestazioni unificate:** Accedi a report completi sia per le campagne che per i percorsi per confrontare le prestazioni per e-mail, push, SMS e altri canali e per capire quali combinazioni generano i risultati migliori. [Rapporti sulle campagne](../reports/campaign-global-report-cja.md) | [Rapporti Percorso](../reports/journey-global-report-cja.md)
 
 ## Tracciare le prestazioni di ottimizzazione e decisioning {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ Journey Optimizer tiene traccia automaticamente degli esperimenti di ottimizzazi
 
 ### Configurare il tracciamento dell’ottimizzazione {#optimization-tracking}
 
-* **Ottimizzazione nelle campagne e nei percorsi**
+* **Ottimizzazione nelle campagne e nei percorsi**:
 
    * Durante la creazione di esperimenti, definisci le metriche da monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * Crea regole di targeting per fornire contenuti diversi a segmenti di pubblico diversi. Journey Optimizer tiene traccia automaticamente delle metriche di coinvolgimento per ogni gruppo target, consentendo di confrontare le prestazioni tra segmenti diversi. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **Ottimizzazione percorso Percorso** - Aggiungi un&#39;attività **Ottimizza** al percorso e configura più percorsi. Journey Optimizer tiene traccia automaticamente dei percorsi seguiti dai profili e misura le prestazioni. [Ulteriori informazioni](../building-journeys/optimize.md)
+* **Ottimizzazione percorso Percorso**: aggiungi un&#39;attività **Ottimizza** al percorso e configura più percorsi. Journey Optimizer tiene traccia automaticamente dei percorsi seguiti dai profili e misura le prestazioni. [Ulteriori informazioni](../building-journeys/optimize.md)
 
-**Analizzare i risultati:** visualizzare i tassi di conversione, la significatività statistica e l&#39;incremento tra i trattamenti nei rapporti di sperimentazione oppure confrontare le metriche di coinvolgimento tra i segmenti di destinazione. [Rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md) | [Rapporto percorso sperimentazioni](../reports/journey-global-report-cja-experimentation.md) | [Rapporto targeting Percorso](../reports/journey-global-report-cja.md#targeting)
+Per analizzare i risultati: visualizza i tassi di conversione, la significatività statistica e l’incremento tra i trattamenti nei rapporti di sperimentazione oppure confronta le metriche di coinvolgimento tra i segmenti target. [Rapporto sulla campagna di sperimentazione](../reports/campaign-global-report-cja-experimentation.md) | [Rapporto percorso sperimentazioni](../reports/journey-global-report-cja-experimentation.md) | [Rapporto targeting Percorso](../reports/journey-global-report-cja.md#targeting)
 
 ### Tracciare le prestazioni di decisioning {#decisioning-tracking}
 
 Quando si utilizza Decisioning per personalizzare il contenuto, Journey Optimizer tiene traccia automaticamente di eventi decisionali, impression e clic senza richiedere alcuna configurazione aggiuntiva.
 
 * **Acquisizione automatica degli eventi** - Journey Optimizer acquisisce automaticamente gli eventi di decisione ogni volta che viene selezionato un elemento di decisione per un profilo.
-* **Tracciamento impression** - Per le e-mail, le impression vengono tracciate automaticamente. Per le esperienze basate su codice, devi implementare gli eventi di visualizzazione delle proposte nel codice.
+* **Tracciamento impression** - Per le e-mail, le impression vengono tracciate automaticamente. Per le esperienze basate su codice, devi implementare gli eventi di visualizzazione delle proposte nel codice. [Ulteriori informazioni](../code-based/code-based-implementation-samples.md#client-side-how)
 * **Tracciamento dei clic** - I clic sugli elementi decisionali vengono tracciati automaticamente nelle e-mail; le esperienze basate su codice richiedono l&#39;implementazione di eventi di clic.
 
-**Prerequisiti per il tracciamento basato su codice:** Per tenere traccia delle decisioni nelle esperienze basate su codice, assicurati che l&#39;implementazione invii eventi di interazione della proposta (visualizzazioni e clic) a Adobe Experience Platform utilizzando Web SDK o Mobile SDK. [Ulteriori informazioni](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>Per tenere traccia delle decisioni nelle **esperienze basate su codice**, assicurati che l&#39;implementazione invii eventi di interazione della proposta (visualizzazioni e clic) a Adobe Experience Platform utilizzando Web SDK o Mobile SDK. [Ulteriori informazioni](../experience-decisioning/data-collection/schema-requirement.md)
 
-**Analizzare le prestazioni:** visualizzare i KPI di decisioning, confrontare gli elementi decisionali, analizzare le strategie di selezione e monitorare le prestazioni del modello di IA nei report. [Ulteriori informazioni](../experience-decisioning/cja-reporting.md)
+Per monitorare le prestazioni: visualizza i KPI di decisioning, confronta gli elementi decisionali, analizza le strategie di selezione e monitora le prestazioni del modello di IA nei rapporti. [Ulteriori informazioni](../experience-decisioning/cja-reporting.md)
 
 ## Controllare l’utilizzo dei dati di tracciamento {#data-governance}
 
