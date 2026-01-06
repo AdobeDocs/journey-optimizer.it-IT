@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
+source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 4%
@@ -21,6 +21,101 @@ ht-degree: 4%
 Questa sezione descrive tutte le funzionalità di test e approvazione in Journey Optimizer. Troverai strumenti per visualizzare in anteprima i contenuti con profili di test, convalidare la logica di percorso, controllare il rendering di e-mail e i punteggi di spam, eseguire esperimenti A/B, rilevare i conflitti e impostare flussi di lavoro di approvazione.
 
 Questa pagina di destinazione consente di scegliere l’approccio di test corretto in base a ciò che stai creando (campagne anziché percorsi), illustra i flussi di lavoro di test consigliati e fornisce un accesso rapido a tutte le risorse di test e approvazione. Inizia con [Scegli il tuo approccio di test](#choose-your-testing-approach) di seguito per identificare gli strumenti applicabili al tuo caso d&#39;uso. Per le definizioni dei termini di test chiave, vedere [Terminologia chiave](#key-terminology).
+
+## Testare e approvare il contenuto
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Visualizzare anteprima, testare e convalidare il contenuto
+
+Scopri come visualizzare in anteprima, testare e convalidare contenuti personalizzati utilizzando profili di test, test di rendering e-mail, valutazioni del punteggio di posta indesiderata e altro ancora.
+
+[Esplora l’anteprima e il test del contenuto](preview-test-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+Flussi di lavoro di approvazione per percorsi e campagne
+
+Scopri come impostare, gestire ed eseguire i processi di approvazione per garantire il controllo di qualità dei percorsi e delle campagne.
+
+[Scopri i flussi di lavoro di approvazione](approve-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Testare il percorso
+
+Convalida il percorso prima di pubblicarlo testandolo con profili specifici per garantire che eventi, condizioni e azioni funzionino come previsto. Disponibile per i percorsi 2D che utilizzano uno spazio dei nomi.
+
+[Testare il percorso](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Esecuzione di prova del percorso
+
+Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del percorso, identificando potenziali problemi prima della pubblicazione.
+
+[Scopri l’esecuzione di prova del percorso](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Monitoraggio e risoluzione dei problemi
+
+Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e codici di errore per risolvere i problemi relativi all’esecuzione e alle prestazioni del percorso.
+
+[Consulta monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Personalization Playground
+
+Prova le espressioni di personalizzazione in un ambiente sicuro. Prima di applicare il codice a campagne e percorsi, prova il codice con i dati di esempio e i risultati di anteprima.
+
+[Informazioni su Personalization Playground](../using/personalization/personalize.md#playground)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+
+Esperimenti sui contenuti e test A/B
+
+Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando le prestazioni per identificare i trattamenti con le prestazioni migliori. Disponibile solo per le campagne (supporta esperimenti A/B e slot machine).
+
+[Scopri gli esperimenti sui contenuti](../using/content-management/get-started-experiment.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Elenchi di seed per il monitoraggio delle parti interessate
+
+Includi automaticamente nelle consegne gli indirizzi interni delle parti interessate per monitorare i messaggi effettivi inviati ai clienti per il controllo della qualità e la conformità. Disponibile solo per il canale e-mail.
+
+[Configura elenchi seed](../using/configuration/seed-lists.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+Rilevamento dei conflitti
+
+Identifica potenziali sovrapposizioni tra campagne e percorsi per evitare di sopraffare i clienti con troppe comunicazioni simultanee. Disponibile per campagne e percorsi unitari, Qualificazione del pubblico e Read Audience.
+
+[Rileva conflitti](../using/conflict-prioritization/conflicts.md)
+:::
+
+::::
 
 ## Perché le prove e le approvazioni sono importanti
 
@@ -209,7 +304,7 @@ Inizia creando i contenuti e utilizzando le funzionalità di anteprima per verif
 
 * Test di più varianti utilizzando **[dati di input di esempio](../using/test-approve/simulate-sample-input.md)** da file CSV/JSON per convalidare la personalizzazione in diversi scenari di profilo
 
-* Verifica il rendering di [1&rbrace; in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
+* Verifica il rendering di [1} in diverse dimensioni dello schermo e client di posta elettronica](../using/content-management/rendering.md)
 
 ### &#x200B;2. Convalida tecnica
 
@@ -287,101 +382,6 @@ Scopri come i concetti di test si applicano agli scenari reali:
 | **[Invia un messaggio ai sottoscrittori](../using/building-journeys/message-to-subscribers-uc.md)** | Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indirizzi e-mail dinamici. Convalida le espressioni di personalizzazione per il targeting corretto del sottoscrittore. | Espressioni Personalization, indirizzamento dinamico, targeting degli elenchi di iscrizioni |
 | **[Invio di messaggi con limiti di tempo](../using/building-journeys/weekday-email-uc.md)** | Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. | Condizioni basate sul tempo, attività di attesa, convalida della pianificazione |
 | **[Esplora altri casi d&#39;uso del percorso](../using/building-journeys/jo-use-cases.md)** | Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterne. | Vari scenari, modelli avanzati, test dell’integrazione |
-
-## Testare e approvare il contenuto
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
-
-Visualizzare anteprima, testare e convalidare il contenuto
-
-Scopri come visualizzare in anteprima, testare e convalidare contenuti personalizzati utilizzando profili di test, test di rendering e-mail, valutazioni del punteggio di posta indesiderata e altro ancora.
-
-[Esplora l’anteprima e il test del contenuto](preview-test-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
-
-Flussi di lavoro di approvazione per percorsi e campagne
-
-Scopri come impostare, gestire ed eseguire i processi di approvazione per garantire il controllo di qualità dei percorsi e delle campagne.
-
-[Scopri i flussi di lavoro di approvazione](approve-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
-
-Testare il percorso
-
-Convalida il percorso prima di pubblicarlo testandolo con profili specifici per garantire che eventi, condizioni e azioni funzionino come previsto. Disponibile per i percorsi 2D che utilizzano uno spazio dei nomi.
-
-[Testare il percorso](../using/building-journeys/testing-the-journey.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
-
-Esecuzione di prova del percorso
-
-Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del percorso, identificando potenziali problemi prima della pubblicazione.
-
-[Scopri l’esecuzione di prova del percorso](../using/building-journeys/journey-dry-run.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
-
-Monitoraggio e risoluzione dei problemi
-
-Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e codici di errore per risolvere i problemi relativi all’esecuzione e alle prestazioni del percorso.
-
-[Consulta monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
-
-Personalization Playground
-
-Prova le espressioni di personalizzazione in un ambiente sicuro. Prima di applicare il codice a campagne e percorsi, prova il codice con i dati di esempio e i risultati di anteprima.
-
-[Informazioni su Personalization Playground](../using/personalization/personalize.md#playground)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
-
-Esperimenti sui contenuti e test A/B
-
-Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando le prestazioni per identificare i trattamenti con le prestazioni migliori. Disponibile solo per le campagne (supporta esperimenti A/B e slot machine).
-
-[Scopri gli esperimenti sui contenuti](../using/content-management/get-started-experiment.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
-
-Elenchi di seed per il monitoraggio delle parti interessate
-
-Includi automaticamente nelle consegne gli indirizzi interni delle parti interessate per monitorare i messaggi effettivi inviati ai clienti per il controllo della qualità e la conformità. Disponibile solo per il canale e-mail.
-
-[Configura elenchi seed](../using/configuration/seed-lists.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
-
-Rilevamento dei conflitti
-
-Identifica potenziali sovrapposizioni tra campagne e percorsi per evitare di sopraffare i clienti con troppe comunicazioni simultanee. Disponibile per campagne e percorsi unitari, Qualificazione del pubblico e Read Audience.
-
-[Rileva conflitti](../using/conflict-prioritization/conflicts.md)
-:::
-
-::::
 
 ## Terminologia chiave
 
