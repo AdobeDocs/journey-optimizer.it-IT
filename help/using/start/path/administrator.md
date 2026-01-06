@@ -8,23 +8,23 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Guida introduttiva per gli amministratori di sistema {#get-started-sys-admins}
 
-In qualità di **amministratore di sistema**, devi configurare l&#39;ambiente Journey Optimizer e gestire l&#39;accesso per consentire ai team di lavorare in modo efficiente e sicuro. Eseguire i passaggi di configurazione essenziali in modo che l&#39;[ingegnere dati](data-engineer.md), [sviluppatore](developer.md) e [addetto marketing](marketer.md) possa iniziare a lavorare con [!DNL Adobe Journey Optimizer].
+In qualità di **amministratore di sistema**, devi impostare l’ambiente Journey Optimizer e gestire l’accesso per consentire ai team di lavorare in modo efficiente e sicuro. Esegui i passaggi di configurazione essenziali in modo che i [data engineer](data-engineer.md), gli [sviluppatori](developer.md) e i [marketer](marketer.md) possano iniziare a utilizzare [!DNL Adobe Journey Optimizer].
 
-Le tue responsabilità principali includono la configurazione di gruppi di utenti e autorizzazioni, la creazione e la gestione di sandbox per il partizionamento di dati e percorsi per diversi gruppi di utenti e la configurazione di canali di consegna e predefiniti per messaggi per garantire un branding coerente tra i vari messaggi e risorse consegnate tramite Journey Optimizer. Assicurati che le persone giuste abbiano accesso alle funzionalità giuste, mantenendo al contempo la sicurezza e la governance.
+Le tue responsabilità principali includono la configurazione di gruppi di utenti e autorizzazioni, la creazione e la gestione di sandbox per il partizionamento di dati e percorsi per diversi gruppi di utenti e la configurazione di canali di consegna e predefiniti per messaggi per garantire un branding coerente tra i vari messaggi e risorse consegnati tramite Journey Optimizer. Assicurati che le persone giuste abbiano accesso alle funzionalità giuste, mantenendo al contempo la sicurezza e la governance.
 
 Queste funzionalità possono essere gestite dagli **[!UICONTROL amministratori di prodotto]** che hanno accesso alle autorizzazioni del prodotto. [Ulteriori informazioni sulle Autorizzazioni](../../administration/permissions.md){target="_blank"}.
 
-## Configurare l’accesso e le autorizzazioni
+## Impostare l’accesso e le autorizzazioni
 
-Per configurare la gestione degli accessi, segui la procedura riportata di seguito.
+Per configurare la gestione degli accessi, segui questi passaggi:
 
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. Le **Sandbox** vengono create in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Sandbox](../../administration/sandboxes.md).
 
@@ -35,7 +35,7 @@ Per configurare la gestione degli accessi, segui la procedura riportata di segui
 
 1. **Imposta le autorizzazioni** per i ruoli, incluse le **sandbox**, e consenti l’accesso ai membri del gruppo assegnandoli a ruoli diversi. Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate al **[!UICONTROL Ruolo]**. Ogni autorizzazione viene riunita nelle funzionalità, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Livelli di autorizzazione](../../administration/high-low-permissions.md).
 
-1. **Utilizzare il controllo dell&#39;accesso a livello di oggetto** (facoltativo). Applica etichette di accesso a oggetti come percorsi, campagne e configurazioni di canale per controllare quali utenti possono accedere a risorse specifiche. Ulteriori informazioni su [Controllo dell&#39;accesso a livello di oggetto](../../administration/object-based-access.md).
+1. **Utilizzare il controllo degli accessi a livello di oggetto** (facoltativo). Applica etichette di accesso a oggetti come percorsi, campagne e configurazioni dei canale per controllare quali utenti possono accedere a risorse specifiche. Ulteriori informazioni su [Controllo degli accessi a livello di oggetto (OLAC)](../../administration/object-based-access.md).
 
 Inoltre, è necessario aggiungere gli utenti che hanno bisogno di accedere ad Assets Essentials per i ruoli di **Utenti consumer di Assets Essentials** e/o **Utenti di Assets Essentials**. [Ulteriori informazioni sono disponibili nella documentazione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=it){target="_blank"}.
 
@@ -43,20 +43,20 @@ Quando accedi a [!DNL Journey Optimizer] per la prima volta, viene effettuato il
 
 ## Configurare canali e messaggi
 
-Per consentire agli [addetti al marketing](marketer.md) di creare e inviare messaggi, accedere al menu **AMMINISTRAZIONE**. Sfoglia il menu **[!UICONTROL Canali]** per configurare le impostazioni dei canali.
+Per consentire ai [marketer](marketer.md) di creare e inviare messaggi, accedi al menu **AMMINISTRAZIONE**. Sfoglia il menu **[!UICONTROL Canali]** per configurare le impostazioni dei canali.
 
 >[!NOTE]
 >In qualità di **Amministratore di sistema**, se non visualizzi il menu **[!UICONTROL Canali]** in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Autorizzazioni](../../administration/permissions.md){target="_blank"} prodotto.
 
 Segui questi passaggi:
 
-1. **Configurare le configurazioni del canale**. Definisci tutti i parametri tecnici richiesti per e-mail, SMS, notifiche push e altri canali:
+1. **Imposta le configurazioni dei canali**. Definisci tutti i parametri tecnici richiesti per e-mail, SMS, notifiche push e altri canali:
 
-   * Definisci le **impostazioni di notifica push** sia in [!DNL Adobe Experience Platform] che in Raccolta dati di Adobe Experience Platform. [Ulteriori informazioni](../../push/push-gs.md)
+   * Definisci le **impostazioni di notifica push** sia in [!DNL Adobe Experience Platform] che nella Raccolta dati di Adobe Experience Platform. [Ulteriori informazioni](../../push/push-gs.md)
 
    * Crea **configurazioni canale** per configurare tutti i parametri tecnici necessari per e-mail, SMS, push, in-app, web e altri canali. [Ulteriori informazioni](../../configuration/channel-surfaces.md)
 
-   * Configura il **canale SMS** per impostare tutti i parametri tecnici richiesti per gli SMS. [Ulteriori informazioni](../../sms/sms-configuration.md)
+   * Configura il **Canale SMS** per impostare tutti i parametri tecnici richiesti per gli SMS. [Ulteriori informazioni](../../sms/sms-configuration.md)
 
    * Gestisci il numero di giorni durante i quali vengono eseguiti **nuovi tentativi** prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](../../configuration/manage-suppression-list.md)
 
@@ -82,44 +82,44 @@ Segui questi passaggi:
 
 Man mano che le esigenze della tua organizzazione aumentano, considera queste funzionalità avanzate:
 
-* **Criteri di consenso**: se l&#39;organizzazione ha acquistato Healthcare Shield o Privacy and Security Shield, crea criteri di consenso per rispettare le preferenze del cliente nei vari canali. [Ulteriori informazioni](../../action/consent.md)
+* **Criteri di consenso**: se l’organizzazione ha acquistato Healthcare Shield o Privacy and Security Shield, crea criteri del consenso per rispettare le preferenze della clientela nei vari canali. [Ulteriori informazioni](../../action/consent.md)
 
 * **Criteri di governance dei dati**: applica etichette di utilizzo dei dati e criteri per controllare il modo in cui i dati vengono utilizzati nelle azioni di marketing. [Ulteriori informazioni](../../action/action-privacy.md)
 
-* **Piani di riscaldamento IP**: aumenta gradualmente i volumi di invio di e-mail per creare la reputazione del mittente con i provider di e-mail. [Ulteriori informazioni](../../configuration/ip-warmup-gs.md)
+* **Piani di preparazione IP**: aumenta gradualmente i volumi di invio di e-mail per creare la reputazione del mittente con i provider di e-mail. [Ulteriori informazioni](../../configuration/ip-warmup-gs.md)
 
-## Collaborazione tra ruoli
+## Collaborare tra ruoli
 
 Il tuo lavoro amministrativo consente a tutti i team di avere successo:
 
 >[!BEGINTABS]
 
->[!TAB Tecnici dei dati di supporto]
+>[!TAB Data engineer di supporto]
 
-Collabora con [Data Engineer](data-engineer.md) per la gestione dei dati e l&#39;accesso:
+Collabora con i [data engineer](data-engineer.md) per la gestione dei dati e dell’accesso:
 
-* Concedere le autorizzazioni per la gestione dei dati e la creazione di schemi
-* Approvare l’accesso alla sandbox per lo sviluppo e il test
-* Coordinare le regole di conservazione dei dati e le regole di governance
-* Abilita l’accesso a funzioni avanzate come Federated Audience Composition
+* Concedi le autorizzazioni per la gestione dei dati e la creazione di schemi
+* Approva l’accesso alla sandbox per lo sviluppo e il test
+* Coordina i criteri di conservazione dei dati e le regole di governance
+* Abilita l’accesso a funzioni avanzate come la Composizione di pubblico federato
 
->[!TAB Abilita sviluppatori]
+>[!TAB Abilitare gli sviluppatori]
 
-Collabora con [sviluppatori](developer.md) per l&#39;accesso e il test API:
+Collabora con gli [sviluppatori](developer.md) per l’accesso e il test delle API:
 
-* Fornire le credenziali API tramite Adobe Developer Console
-* Configurare gli ambienti sandbox per lo sviluppo e il test
-* Approvare le configurazioni del canale (certificati push, provider SMS)
-* Coordinare gli ambienti di test e la strategia di implementazione
+* Fornisci le credenziali API tramite Adobe Developer Console
+* Imposta gli ambienti sandbox per lo sviluppo e il test
+* Approva le configurazioni dei canali (certificati push, provider SMS)
+* Coordina gli ambienti di test e la strategia di implementazione
 
->[!TAB Potenziare gli addetti al marketing]
+>[!TAB Potenziare i marketer]
 
-Collabora con [addetti al marketing](marketer.md) per le autorizzazioni e la configurazione dei canali:
+Collabora con i [marketer](marketer.md) per le autorizzazioni e l’impostazione del canale:
 
-* Assegnare le autorizzazioni appropriate per la creazione di percorsi e campagne
-* Configura i canali da utilizzare (e-mail, push, SMS, ecc.)
-* Supporto di ambienti di test e flussi di lavoro di approvazione
-* Abilitare l’accesso a nuove funzioni e funzionalità
+* Assegna le autorizzazioni appropriate per la creazione di percorsi e campagne
+* Configura i canali che utilizzeranno (e-mail, push, SMS, ecc.)
+* Supporta gli ambienti di test e flussi di lavoro di approvazione
+* Abilita l’accesso a nuove funzioni e funzionalità
 
 >[!ENDTABS]
 
@@ -127,6 +127,6 @@ Collabora con [addetti al marketing](marketer.md) per le autorizzazioni e la con
 
 Una volta configurato l’ambiente:
 
-1. **Verifica installazione**: verificare che tutti i membri del team possano accedere alle funzionalità richieste
-2. **Monitoraggio dell&#39;utilizzo**: utilizza le dashboard di amministrazione per tenere traccia dell&#39;utilizzo del sistema e identificare i problemi
-3. **Gestisci autorizzazioni**: controlla e aggiorna regolarmente le autorizzazioni man mano che i ruoli del team si evolvono
+1. **Verifica l’impostazione**: verifica che tutti i membri del team possano accedere alle funzionalità richieste
+2. **Monitora l’utilizzo**: utilizza le dashboard di amministrazione per tenere traccia dell’utilizzo del sistema e identificare i problemi
+3. **Gestisci le autorizzazioni**: controlla e aggiorna regolarmente le autorizzazioni man mano che i ruoli del team si evolvono

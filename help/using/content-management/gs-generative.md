@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -129,10 +129,10 @@ L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazio
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="Generazione completa dei contenuti" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Generazione contenuto completo" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Genera contenuto completo</strong></a>
+<a href="generative-full-content.md"><strong>Generare contenuto completo</strong></a>
 </div>
 <p>
 </td>
@@ -140,7 +140,7 @@ L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazio
 <a href="generative-text.md">
 <img alt="Generazione di testo" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong>Genera testo</strong>
+<div><a href="generative-text.md"><strong>Generare testo</strong>
 </div>
 <p>
 </td>
@@ -149,7 +149,7 @@ L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazio
 <img alt="Generazione di immagini" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>Genera immagini</strong></a>
+<a href="generative-image.md"><strong>Generare immagini</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -157,5 +157,5 @@ L’Assistente IA in Adobe Journey Optimizer è soggetto alle seguenti limitazio
 ## Risorse aggiuntive
 
 * **[Sperimentazione generativa](generative-experimentation.md)**: scopri informazioni su come combinare i contenuti generati dall’IA con la sperimentazione.
-* **[Casi d&#39;uso dell&#39;Assistente IA](generative-uc.md)**: scopri come utilizzare l&#39;Assistente AI nei casi d&#39;uso
+* **[Casi d’uso dell’Assistente IA](generative-uc.md)**: scopri come utilizzare l’Assistente AI tramite i casi d’uso
 * **[Tutorial sull’Assistente IA](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice dell’Assistente IA.
