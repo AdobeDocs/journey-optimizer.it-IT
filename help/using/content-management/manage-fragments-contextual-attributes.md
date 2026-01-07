@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -82,8 +82,7 @@ Per aggiungere attributi contestuali a un frammento pubblicato, effettua le segu
 ## Argomenti correlati {#related-topics}
 
 * [Gestire i frammenti](manage-fragments.md)
-* [Utilizzare frammenti visivi nelle e-mail](../email/use-visual-fragments.md)
-* [Utilizzare frammenti di espressione](../personalization/use-expression-fragments.md)
+* [Modificare un frammento](manage-fragments.md#edit-fragments)
 * [Campagne attivate da API](../campaigns/api-triggered-campaigns.md)
 * [Sintassi di personalizzazione](../personalization/personalization-syntax.md)
 
