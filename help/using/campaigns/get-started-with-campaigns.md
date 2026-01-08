@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1525'
 ht-degree: 31%
 
 ---
@@ -92,7 +92,7 @@ Questa guida fornisce una roadmap chiara che ti aiuta a comprendere le nozioni d
 
 **Le campagne** sono azioni di marketing coordinate che distribuiscono contenuti a un pubblico specifico su uno o più canali. A differenza dei percorsi in cui le azioni vengono eseguite in sequenza, le campagne eseguono le azioni contemporaneamente, immediatamente o secondo una pianificazione definita.
 
-Utilizza [!DNL Journey Optimizer] per:
+Utilizza [!DNL Journey Optimizer] campagne per:
 
 * Consegna di **contenuti occasionali o ricorrenti** ai segmenti di pubblico di destinazione
 * Esegui **comunicazioni multicanale coordinate** tramite e-mail, push, SMS, in-app, Web e altro ancora
@@ -110,6 +110,16 @@ Utilizza [!DNL Journey Optimizer] per:
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
+
+>[!TAB Campagne orchestrate]
+
+**Quando utilizzare:** flussi di lavoro di marketing complessi e con più passaggi
+
+**Le campagne orchestrate** forniscono un&#39;area di lavoro visiva e trascinata per progettare e automatizzare flussi di lavoro di marketing sofisticati. Dalla segmentazione del pubblico alla consegna personalizzata dei messaggi attraverso i canali, tutto avviene in un ambiente intuitivo costruito per velocità e controllo.
+
+**Ideale per:** programmi di coinvolgimento dei clienti in più passaggi, strategie di segmentazione e targeting complesse, orchestrazione di campagne cross-channel, marketing su larga scala avviato dal brand e automazione avanzata dei flussi di lavoro con più punti decisionali.
+
+➡️ [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Campagne azione (pianificate)]
 
@@ -141,16 +151,6 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ➡️ [Informazioni sulle campagne attivate da API](api-triggered-campaigns.md)
 
->[!TAB Campagne orchestrate]
-
-**Quando utilizzare:** flussi di lavoro di marketing complessi e con più passaggi
-
-**Le campagne orchestrate** forniscono un&#39;area di lavoro visiva e trascinata per progettare e automatizzare flussi di lavoro di marketing sofisticati. Dalla segmentazione del pubblico alla consegna personalizzata dei messaggi attraverso i canali, tutto avviene in un ambiente intuitivo costruito per velocità e controllo.
-
-**Ideale per:** programmi di coinvolgimento dei clienti in più passaggi, strategie di segmentazione e targeting complesse, orchestrazione di campagne cross-channel, marketing su larga scala avviato dal brand e automazione avanzata dei flussi di lavoro con più punti decisionali.
-
-➡️ [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
-
 >[!ENDTABS]
 
 >[!NOTE]
@@ -161,9 +161,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 La creazione di campagne di successo segue un processo chiaro e ripetibile. Di seguito è riportato il flusso di lavoro dettagliato:
 
-**1. Piano** → **2. Configura** → **3. Progettazione** → **4. Rivedi** → **5. Attiva** → **6. Monitora**
-
-### &#x200B;1. Pianificare la campagna {#plan}
++++ &#x200B;1. Pianificare la campagna
 
 Prima di iniziare, chiarisci i tuoi obiettivi:
 
@@ -173,7 +171,9 @@ Prima di iniziare, chiarisci i tuoi obiettivi:
 * **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.) → [Visualizza i canali supportati per tipo di campagna](../channels/gs-channels.md#channels)
 * **Quando deve essere eseguito?** (immediato, pianificato o attivato da API)
 
-### &#x200B;2. Configurare le proprietà della campagna {#configure}
++++
+
++++Configurare le proprietà della campagna
 
 Imposta le basi della campagna:
 
@@ -185,7 +185,9 @@ Imposta le basi della campagna:
 
 **Guide specifiche per tipo:** [Proprietà campagna azione](campaign-properties.md) | [Proprietà campagna attivata da API](api-triggered-campaign-properties.md) | [Configurazione campagna orchestrata](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. Progettare i contenuti {#design}
++++
+
++++Progettare i contenuti
 
 Creare messaggi convincenti per il pubblico:
 
@@ -197,7 +199,9 @@ Creare messaggi convincenti per il pubblico:
 
 **Guide specifiche per tipo:** [Contenuto della campagna d&#39;azione](campaign-content.md) | [Contenuto della campagna attivato da API](api-triggered-campaign-content.md) | [Contenuto della campagna orchestrato](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. Riesame e prova {#review}
++++
+
++++Revisione e test
 
 Rivedi sempre la campagna prima dell’attivazione:
 
@@ -209,18 +213,23 @@ Rivedi sempre la campagna prima dell’attivazione:
 
 **Guide specifiche per tipo:** [Campagne per azioni di revisione](review-activate-campaign.md) | [Rivedi campagne attivate da API](review-activate-api-triggered-campaign.md) | [Rivedi campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. Attivare la campagna {#activate}
++++
+
++++Attivare la campagna
 
 Al termine della revisione, attiva la campagna:
 
 * **Attivazione manuale** - Attivazione immediata o programmata
 * **Attivazione API** - Per le campagne attivate da API, utilizza l&#39;endpoint di attivazione
 * **Processo di approvazione** - Se necessario, attendi l&#39;approvazione delle parti interessate
-* Nota: non è possibile modificare le campagne attive (è necessario duplicarle per apportare modifiche)
+
+Nota: non è possibile modificare le campagne attive (è necessario duplicarle per apportare modifiche)
 
 **Guide specifiche per tipo:** [Attiva campagne azione](review-activate-campaign.md) | [Attiva campagne attivate da API](review-activate-api-triggered-campaign.md) | [Attiva campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. Monitorare e analizzare {#monitor}
++++
+
++++Monitorare e analizzare
 
 Monitora le prestazioni della campagna:
 
@@ -232,6 +241,8 @@ Monitora le prestazioni della campagna:
 
 **Guide specifiche per tipo:** [Report campagne azioni](../reports/campaign-global-report-cja.md) | [Monitoraggio di campagne attivate da API](api-triggered-campaigns.md#monitor) | [Analisi orchestrata delle campagne](../orchestrated/create-orchestrated-campaign.md)
 
++++
+
 ➡️ **Inizio?** Scegli il tipo di campagna:
 * [Crea → campagna azione](create-campaign.md)
 * [Creare → di campagne attivate da API](api-triggered-campaigns.md)
@@ -241,8 +252,6 @@ Monitora le prestazioni della campagna:
 
 Prima di lavorare con le campagne, assicurati di disporre dei seguenti elementi:
 
-### Configurazione richiesta
-
 * **Tipi di pubblico** - I tipi di pubblico devono essere disponibili in Adobe Experience Platform prima di creare le campagne. [Introduzione ai tipi di pubblico →](../audience/about-audiences.md)
 
 * **Configurazioni canale** - Le configurazioni canale (predefiniti) devono essere create e disponibili per i canali che desideri utilizzare. [Configurare le configurazioni del canale →](../configuration/channel-surfaces.md)
@@ -250,24 +259,23 @@ Prima di lavorare con le campagne, assicurati di disporre dei seguenti elementi:
 * **Autorizzazioni** - Sono necessarie le autorizzazioni appropriate in base al tipo di campagna. Se non riesci ad accedere alle funzionalità della campagna, contatta l’amministratore. [Informazioni sui ruoli incorporati →](../administration/ootb-product-profiles.md)
 
   | Tipo di campagna | Autorizzazioni |
-  |----------------------------|----------------------------------------------------------------------------|
-  | **Campagne di azione** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
-  | **Campagne attivate da API** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
+  |-------------|---------------|
+  | **Campagne attivate da azioni** e **Campagne attivate da API** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
   | **Campagne orchestrate** | Amministratore campagna orchestrata<br>Approvatore campagna orchestrata<br>Responsabile campagna orchestrata<br>Visualizzatore campagna orchestrata |
 
-+++Assegnare le autorizzazioni della campagna
+  +++Come assegnare le autorizzazioni per la campagna
 
-1. Passa alla scheda **[!UICONTROL Ruoli]** nel prodotto [!DNL Permissions] e seleziona una delle **[!UICONTROL Mansioni]** correlate alla campagna incorporata.
+   1. Passa alla scheda **[!UICONTROL Ruoli]** nel prodotto [!DNL Permissions] e seleziona una delle **[!UICONTROL Mansioni]** correlate alla campagna incorporata.
 
    1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
    1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
-   Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}.
+  Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-   L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
+  L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-   +++
+  +++
 
 ## Funzionalità di Campaign {#capabilities}
 
@@ -276,7 +284,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -286,7 +294,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo frequenza**
 
@@ -296,7 +304,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Destinazione pubblico**
 
@@ -306,7 +314,7 @@ Puoi indirizzare l’attività a tipi di pubblico specifici di Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -316,7 +324,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore non interattive**
 
@@ -326,7 +334,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione**
 
