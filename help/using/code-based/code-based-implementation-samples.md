@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '935'
+ht-degree: 3%
 
 ---
 
@@ -308,7 +308,45 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di seguito.
 
 * Blog di Adobe Tech: [Personalization ibrido nel SDK Web Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=it){target="_blank"}
+* Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+
+## Eseguire il debug delle chiamate API di rete di Edge con Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+
+Quando utilizzi direttamente l’API di Edge Network per esperienze basate su codice (non utilizzando Web SDK o Mobile SDK), puoi eseguire il debug delle chiamate API con Adobe Experience Platform Assurance includendo l’ID sessione di Assurance come intestazione del token di convalida.
+
+1. Ottieni l’ID della sessione Assurance da una sessione Adobe Experience Platform Assurance attiva oppure creane una utilizzando l’API Assurance.
+
+1. Aggiungi l&#39;intestazione `x-adobe-aep-validation-token` con il tuo ID sessione Assurance per instradare le richieste API di Edge Network tramite la sessione Assurance.
+
+   **Esempio:**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. Una volta configurata, apri la sessione Assurance e seleziona la visualizzazione **[!UICONTROL Edge Delivery]** per visualizzare le richieste e le risposte API di Edge Network in tempo reale, inclusi i payload delle richieste, il contenuto delle risposte, le proposte di personalizzazione e i messaggi di errore.
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
