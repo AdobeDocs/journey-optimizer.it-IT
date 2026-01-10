@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Creare le offerte di fallback
+title: Creare offerte di fallback
 description: Scopri come creare offerte di fallback da visualizzare per i clienti che non sono idonei per nessuna offerta
 badge: label="Legacy" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 ---
 
-# Creare le offerte di fallback {#create-fallback-offers}
+# Creare offerte di fallback {#create-fallback-offers}
 
 >[!TIP]
 >
@@ -79,5 +79,5 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341355?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
