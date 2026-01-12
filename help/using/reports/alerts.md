@@ -40,7 +40,7 @@ Gli avvisi di sistema sono disponibili dal menu **[!UICONTROL Avvisi]** in **[!U
 
 Prima di utilizzare gli avvisi:
 
-* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it#permissions){target="_blank"}.
 
 * **Riconoscimento sandbox**: le sottoscrizioni agli avvisi sono specifiche per la sandbox. Quando ti abboni agli avvisi, questi si applicano solo alla sandbox corrente. Quando viene reimpostata una sandbox, vengono reimpostate anche tutte le sottoscrizioni agli avvisi.
 
@@ -90,7 +90,7 @@ Rileva problemi con la configurazione del recapito messaggi e-mail:
 
 >[!NOTE]
 >
->Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
+>Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"}.
 
 ## Iscriversi agli avvisi {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Le sottoscrizioni di avvisi determinano quali utenti ricevono le notifiche quand
 
 **Metodo di sottoscrizione alternativo:**
 
-Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
+Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}.
 
 
 ### Abbonamento globale {#global-subscription}
@@ -149,7 +149,7 @@ Fai clic su **[!UICONTROL Annulla iscrizione]** accanto all&#39;avviso.
 
 **Metodo di sottoscrizione alternativo:**
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
 
 ### abbonamento specifico per il percorso {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UIC
 >
 >L&#39;avviso [Read Audience Trigger Unsuccess](#alert-read-audiences) è disponibile solo tramite la sottoscrizione globale, non tramite la sottoscrizione al percorso.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -413,4 +413,4 @@ Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica 
 **Framework avvisi:**
 
 * [Panoramica avvisi Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it) - Informazioni sul framework degli avvisi
-* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html) - Opzioni di integrazione avanzate
+* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it) - Opzioni di integrazione avanzate
