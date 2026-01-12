@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <P>Una volta che la campagna o il percorso sono attivi, i profili vengono valutati in base ai criteri definiti e vengono consegnati con l’esperienza o il contenuto appropriato in base ai criteri di corrispondenza.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>Precedentemente rilasciata l’8 agosto solo nelle campagne, questa funzione è ora disponibile anche nei percorsi a partire dal 22 agosto.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../campaigns/gs-message-optimization.md">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/gs-message-optimization.md">documentazione dettagliata</a></p>
 </td>
 </tr>
 </tbody>

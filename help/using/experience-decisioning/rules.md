@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -52,7 +52,7 @@ Spesso si tratta di una combinazione di più attributi, oltre a eventi di compor
 
 Puoi utilizzare queste regole:
 
-* Durante la creazione di [targeting di ottimizzazione del contenuto](../campaigns/optimization-targeting.md) in percorsi o campagne;
+* Durante la creazione di [targeting di ottimizzazione del contenuto](../content-management/optimization-targeting.md) in percorsi o campagne;
 * Durante la creazione di [ottimizzazione del percorso di percorso](../building-journeys/optimize.md#targeting).
 
 ➡️ [Scopri questa funzione nel video](#video)
@@ -90,7 +90,7 @@ Per creare una regola, effettua le seguenti operazioni:
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Elemento decisione]** - La regola può essere applicata a un [elemento decisione](#decision-rules) nel contesto di Decisioning;
-   * **[!UICONTROL Targeting]** - La regola può essere utilizzata durante la creazione di [regole di targeting](#targeting-rules), come parte della [ottimizzazione del contenuto](../campaigns/optimization-targeting.md) in una campagna o in un percorso, nell&#39;attività [Ottimizza percorso](../building-journeys/optimize.md#targeting).
+   * **[!UICONTROL Targeting]** - La regola può essere utilizzata durante la creazione di [regole di targeting](#targeting-rules), come parte della [ottimizzazione del contenuto](../content-management/optimization-targeting.md) in una campagna o in un percorso, nell&#39;attività [Ottimizza percorso](../building-journeys/optimize.md#targeting).
 
 1. Se crei una regola di tipo **[!UICONTROL Elemento decisione]**, puoi selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform per arricchire la logica decisionale con dati esterni. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale.
 
@@ -137,4 +137,4 @@ Per creare una regola, effettua le seguenti operazioni:
 
 Scopri come creare, duplicare e applicare **regole di targeting** riutilizzabili in Adobe Journey Optimizer per personalizzare in modo efficiente le campagne in base agli attributi del cliente come area geografica, lingua e comportamento, risparmiando tempo e migliorando la precisione del pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476135/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
