@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -113,7 +113,7 @@ La tabella **[!UICONTROL Tracked link label]** offre informazioni essenziali sul
 
 Se imposti **[!UICONTROL Regole di targeting]** per il contenuto, la tabella **[!UICONTROL Panoramica targeting]** fornisce una visualizzazione dettagliata delle metriche chiave di coinvolgimento, mostrando come i profili target per ogni regola interagivano con il contenuto.
 
-➡️ [Ulteriori informazioni sulle regole di targeting](../campaigns/campaigns-message-optimization.md)
+➡️ [Ulteriori informazioni sulle regole di targeting](../campaigns/optimization-targeting.md)
 
 +++ Ulteriori informazioni sulle metriche di panoramica del targeting
 

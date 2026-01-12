@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: tracciamento, monitoraggio, analisi, reporting, recapito messaggi
-source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -244,9 +244,9 @@ Journey Optimizer tiene traccia automaticamente degli esperimenti di ottimizzazi
 
 * **Ottimizzazione nelle campagne e nei percorsi**:
 
-   * Durante la creazione di esperimenti, definisci le metriche da monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md#experimentation)
+   * Durante la creazione di esperimenti, definisci le metriche da monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../campaigns/optimization-experimentation.md)
 
-   * Crea regole di targeting per fornire contenuti diversi a segmenti di pubblico diversi. Journey Optimizer tiene traccia automaticamente delle metriche di coinvolgimento per ogni gruppo target, consentendo di confrontare le prestazioni tra segmenti diversi. [Ulteriori informazioni](../campaigns/campaigns-message-optimization.md#targeting)
+   * Crea regole di targeting per fornire contenuti diversi a segmenti di pubblico diversi. Journey Optimizer tiene traccia automaticamente delle metriche di coinvolgimento per ogni gruppo target, consentendo di confrontare le prestazioni tra segmenti diversi. [Ulteriori informazioni](../campaigns/optimization-targeting.md)
 
 * **Ottimizzazione percorso Percorso**: aggiungi un&#39;attività **Ottimizza** al percorso e configura più percorsi. Journey Optimizer tiene traccia automaticamente dei percorsi seguiti dai profili e misura le prestazioni. [Ulteriori informazioni](../building-journeys/optimize.md)
 

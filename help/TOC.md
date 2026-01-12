@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3061'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -501,9 +501,12 @@ ht-degree: 98%
       + [Creare un provider di lingua](using/content-management/multilingual-provider.md)
       + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
       + [Creare contenuto multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
-   + [Ottimizzazione dei messaggi](using/campaigns/campaigns-message-optimization.md)
+   + Ottimizzazione dei contenuti {#message-optimization}
+      + [Introduzione all’ottimizzazione](using/campaigns/gs-message-optimization.md)
+      + [Usa targeting](using/campaigns/optimization-targeting.md)
+      + [Utilizzare la sperimentazione](using/campaigns/optimization-experimentation.md)
+      + [Combinare targeting e sperimentazione](using/campaigns/optimization-combination.md)
    + Esperimento contenuti {#content-experiment}
-      + [Esperimento contenuti](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Introduzione agli esperimenti sui contenuti](using/content-management/get-started-experiment.md)
       + [Introduzione all’acceleratore di esperimenti](using/content-management/experiment-accelerator-gs.md)
       + [Creare un esperimento sui contenuti](using/content-management/content-experiment.md)
@@ -838,7 +841,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

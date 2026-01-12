@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 15%
@@ -68,7 +68,7 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
 1. Utilizza la sezione **[!UICONTROL Ottimizzazione]** per eseguire esperimenti di contenuto, sfruttare le regole di targeting o utilizzare combinazioni avanzate di sperimentazione e targeting.
 
-   Queste diverse opzioni e i passaggi da seguire sono descritti in [questa sezione](../campaigns/campaigns-message-optimization.md).
+   Queste diverse opzioni e i passaggi da seguire sono descritti in [questa sezione](../campaigns/gs-message-optimization.md).
 
 1. Utilizza la sezione **[!UICONTROL Lingue]** per creare contenuti in più lingue all&#39;interno dell&#39;azione di percorso. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi lingue]** e selezionare le **[!UICONTROL impostazioni lingua]** desiderate.
 
@@ -102,7 +102,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
