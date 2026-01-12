@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '794'
 ht-degree: 3%
 
 ---
@@ -231,5 +231,5 @@ Consulta le sezioni seguenti per ulteriori informazioni sulla configurazione, lâ
 * [Configura le azioni personalizzate](../action/about-custom-action-configuration.md) - Scopri come creare e configurare un&#39;azione personalizzata
 * [Usa azioni personalizzate](../building-journeys/using-custom-actions.md) - Scopri come utilizzare le azioni personalizzate nei tuoi percorsi
 * [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
-  <!--* [Iterate over contextual data](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Learn how to work with arrays in Journey expressions and iterate over custom action responses, event data, and dataset lookups in message personalization-->
+* [Eseguire iterazioni sui dati contestuali](../personalization/iterate-contextual-data.md#arrays-in-journeys): scopri come utilizzare gli array nelle espressioni di Percorso e iterare le risposte alle azioni personalizzate, i dati evento e le ricerche di set di dati nella personalizzazione dei messaggi.
 
