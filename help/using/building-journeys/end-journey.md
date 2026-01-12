@@ -9,10 +9,10 @@ level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 2%
 
 ---
 
@@ -66,6 +66,20 @@ Dopo il timeout globale del percorso di **91 giorni**, un percorso Read audience
 >[!TIP]
 >
 >Un percorso basato su un solo segmento mantiene lo stato **Live** anche dopo l&#39;esecuzione di una sola volta. I profili non possono essere reinseriti una volta completato, ma il percorso rimane nello stato **Live** fino alla scadenza del timeout globale predefinito. È possibile chiuderlo manualmente prima utilizzando l&#39;opzione **Chiudi ai nuovi ingressi**.
+
+### Quando un percorso viene considerato &quot;completato&quot;? {#journey-finished-definition}
+
+La definizione di &quot;finito&quot; varia a seconda del tipo di percorso:
+
+| Tipo di percorso | Ricorrente? | Ha una data di fine? | Definizione di &quot;finito&quot; |
+|--------------|------------|---------------|--------------------------|
+| Leggi pubblico | No | n/d | 91 giorni dopo l’inizio dell’esecuzione |
+| Leggi pubblico | Sì | No | 91 giorni dopo l’inizio dell’esecuzione |
+| Leggi pubblico | Sì | Sì | Quando viene raggiunta la data di fine |
+| Percorso attivato da eventi | n/d | Sì | Quando viene raggiunta la data di fine |
+| Percorso attivato da eventi | n/d | No | Quando è chiuso nell’interfaccia o tramite API |
+
+Questo è un avviso informativo che ti aiuta a tenere traccia del completamento del percorso. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
 
 ### Chiudi ai nuovi ingressi {#close-to-new-entrances}
 

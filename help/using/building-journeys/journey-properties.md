@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2866'
 ht-degree: 15%
 
 ---
@@ -129,6 +129,10 @@ I percorsi utilizzano anche un timeout globale, come descritto di seguito.
 Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, viene applicato un timeout di percorso globale. Non viene visualizzato nell’interfaccia e non può essere modificato.
 
 Questo timeout globale interrompe l&#39;avanzamento dei singoli utenti nel percorso **91 giorni** dopo l&#39;immissione. Ciò significa che la durata del percorso di un individuo non può superare i 91 giorni. Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
+
+>[!NOTE]
+>
+>La definizione esatta di quando un percorso è considerato &quot;finito&quot; varia in base al tipo di percorso. [Vedi i criteri dettagliati](end-journey.md#journey-finished-definition).
 
 A causa del timeout di 91 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 91 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 91 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 91 giorni fa.
 

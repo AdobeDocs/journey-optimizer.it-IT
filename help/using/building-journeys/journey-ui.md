@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1483'
 ht-degree: 10%
 
 ---
@@ -140,7 +140,7 @@ Lo stato del percorso dipende dal suo ciclo di vita. Può essere:
 
 * **Bozza**: il percorso è nella prima fase. Non è ancora stata pubblicata.
 * **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
-* **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
+* **Completato**: il percorso passa automaticamente a questo stato in base al tipo e alla configurazione del percorso. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso. [Scopri quando i percorsi sono considerati finiti](end-journey.md#journey-finished-definition).
 * **Live**: il percorso è stato pubblicato utilizzando il pulsante **Pubblica**. [Ulteriori informazioni](../building-journeys/publish-journey.md)
 * **Sospeso**: il percorso live è stato messo in pausa utilizzando il pulsante **Sospendi**. [Ulteriori informazioni](../building-journeys/journey-pause.md)
 * **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso. [Ulteriori informazioni](../building-journeys/end-journey.md#stop-journey)
