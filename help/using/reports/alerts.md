@@ -2,96 +2,188 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Accedere e iscriversi agli avvisi di sistema
-description: Scopri come accedere e abbonarti agli avvisi di sistema
+description: Scopri come accedere, abbonarti e gestire gli avvisi di sistema in Adobe Journey Optimizer. Monitora le prestazioni del percorso, gli errori delle azioni personalizzate, i problemi del profilo e il recapito messaggi e-mail con notifiche di avviso proattive.
 feature: Journeys, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 455e462078cffd43f1654278e0478951e78717b2
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2638'
 ht-degree: 1%
 
 ---
 
 # Accedere e iscriversi agli avvisi di sistema {#alerts}
 
-Durante la creazione di percorsi e campagne, utilizza il pulsante **Avvisi** per verificare e risolvere gli errori prima di eseguirli o pubblicarli.
+## Panoramica
 
-* Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md)
+Gli avvisi sono notifiche automatizzate che consentono di monitorare e risolvere i problemi in Adobe Journey Optimizer. Consentono di essere consapevoli in tempo reale dei potenziali problemi dei percorsi, delle campagne e delle configurazioni dei canali, consentendo di intraprendere azioni correttive prima che le esperienze dei clienti siano influenzate.
 
-* Scopri come rivedere e attivare le campagne: [Campagne di azione](../campaigns/review-activate-campaign.md) | [Campagne attivate da API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagne orchestrate](../orchestrated/start-monitor-campaigns.md)
+In Adobe Journey Optimizer sono disponibili due tipi di avvisi:
 
+* **Avvisi di convalida nell&#39;area di lavoro**: durante la creazione di percorsi e campagne, utilizzare il pulsante **Avvisi** nell&#39;area di lavoro per identificare e risolvere gli errori di configurazione prima della pubblicazione. Scopri come [risolvere i problemi dei percorsi](../building-journeys/troubleshooting.md) e rivedere le campagne: [Campagne d&#39;azione](../campaigns/review-activate-campaign.md) | [Campagne attivate da API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagne orchestrate](../orchestrated/start-monitor-campaigns.md).
 
-Inoltre, quando viene raggiunto un determinato insieme di condizioni, i messaggi di avviso possono essere inviati a qualsiasi utente dell’organizzazione che si è iscritto a tali condizioni. Questi avvisi sono disponibili dal menu dedicato **[!UICONTROL Avvisi]**. Adobe Experience Platform fornisce diverse regole di avviso predefinite che è possibile abilitare per l’organizzazione. Inoltre, è possibile abbonarsi agli avvisi di sistema specifici di [!DNL Adobe Journey Optimizer] come descritto in questa pagina.
+* **Avvisi di monitoraggio del sistema** (descritti in questa pagina): puoi ricevere notifiche proattive quando vengono superate le soglie operative o rilevati problemi nei percorsi attivi e nelle configurazioni dei canali. Gli avvisi di sistema monitorano metriche quali tassi di errore, scarti di profilo e problemi di recapito dei messaggi e-mail.
+
+**Vantaggi principali degli avvisi di sistema:**
+
+* Rilevamento proattivo dei problemi prima dell’impatto sui clienti
+* Monitoraggio automatico delle prestazioni e dello stato del percorso
+* Avviso precoce per problemi di recapito messaggi e-mail
+* Riduzione dei tempi di identificazione e risoluzione dei problemi operativi
+
+Gli avvisi di sistema sono disponibili dal menu **[!UICONTROL Avvisi]** in **[!UICONTROL Amministrazione]**. Adobe Experience Platform fornisce diverse regole di avviso predefinite che è possibile abilitare, inclusi gli avvisi specifici di [!DNL Adobe Journey Optimizer] per le configurazioni di percorsi e canali.
+
+## Prerequisiti
+
+Prima di utilizzare gli avvisi:
+
+* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+
+* **Riconoscimento sandbox**: le sottoscrizioni agli avvisi sono specifiche per la sandbox. Quando ti abboni agli avvisi, questi si applicano solo alla sandbox corrente. Quando viene reimpostata una sandbox, vengono reimpostate anche tutte le sottoscrizioni agli avvisi.
+
+* **Preferenze di notifica**: configura la modalità di ricezione degli avvisi (e-mail e/o in-app) nelle [Preferenze Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli avvisi in Adobe Experience Platform sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}.
+>Gli avvisi specifici per Journey Optimizer si applicano solo a **live** percorsi. Gli avvisi non vengono attivati per i percorsi in modalità di test. Per ulteriori informazioni sul framework degli avvisi, vedere la [documentazione degli avvisi di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}.
 
-Nel menu a sinistra, nella sezione **[!UICONTROL Amministrazione]**, fare clic su **[!UICONTROL Avvisi]**. Nella scheda **Sfoglia** sono disponibili diversi avvisi preconfigurati per Journey Optimizer.
+## Avvisi disponibili in Journey Optimizer {#available-alerts}
+
+Journey Optimizer fornisce regole di avviso preconfigurate che monitorano aspetti specifici dei percorsi e delle configurazioni dei canali. Non è necessario creare questi avvisi, sono disponibili come predefiniti e possono essere attivati tramite abbonamento.
+
+**Per accedere all&#39;elenco di avvisi:**
+
+Passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvisi]** nel menu a sinistra. Nella scheda **Sfoglia** sono visualizzati tutti gli avvisi preconfigurati disponibili per Journey Optimizer.
 
 ![](assets/updated-alerts-list.png){width=50%}
 
-* Avvisi specifici dei percorsi:
+### Categorie di avvisi
 
-   * l&#39;avviso [Lettura trigger pubblico non riuscita](#alert-read-audiences)
-   * l&#39;avviso [Frequenza errori azione personalizzata superata](#alert-custom-action-error-rate) (sostituisce l&#39;avviso di errore azione personalizzata Percorso precedente)
-   * la frequenza di eliminazione del profilo [è stata superata](#alert-discard-rate)
-   * [Frequenza errori profilo superata](#alert-profile-error-rate)
-   * l&#39;avviso [Percorso pubblicato](#alert-journey-published)
-   * avviso [Percorso completato](#alert-journey-finished)
-   * l&#39;avviso [Limitazione azione personalizzata attivata](#alert-custom-action-capping)
+In Journey Optimizer sono disponibili due categorie di avvisi di sistema:
 
-* Avvisi specifici per la configurazione del canale:
+>[!BEGINTABS]
 
-   * avviso [record DNS di dominio AJO mancante](#alert-dns-record-missing)
-   * l&#39;avviso [errore di configurazione del canale AJO](#alert-channel-config-failure)
-     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+>[!TAB Avvisi di Percorso]
+
+Monitorare l&#39;esecuzione e le prestazioni del percorso:
+
+* [Lettura trigger pubblico non riuscita](#alert-read-audiences) - Avvisa quando un&#39;attività Lettura pubblico non riesce a elaborare i profili
+* [Frequenza errori azione personalizzata superata](#alert-custom-action-error-rate) - Rileva tassi di errore elevati nelle chiamate API azione personalizzata (sostituisce l&#39;avviso di errore azione personalizzata Percorso precedente)
+* [Frequenza di eliminazione profili superata](#alert-discard-rate) - Identifica quando i profili vengono eliminati a una frequenza anomala
+* [Frequenza errori profilo superata](#alert-profile-error-rate) - Segnala quando i profili rilevano errori durante l&#39;esecuzione del percorso
+* [Percorso pubblicato](#alert-journey-published) - Notifica informativa alla pubblicazione di un percorso
+* [Percorso completato](#alert-journey-finished) - Notifica informativa al completamento di un percorso
+* [Attivazione del limite delle azioni personalizzate](#alert-custom-action-capping) - Notifica quando vengono raggiunti i limiti delle chiamate API
+
+>[!TAB Avvisi configurazione canale]
+
+Rileva problemi con la configurazione del recapito messaggi e-mail:
+
+* [Record DNS di dominio AJO mancante](#alert-dns-record-missing) - Identifica i record DNS mancanti o non configurati correttamente
+* [Errore di configurazione del canale AJO](#alert-channel-config-failure) - Rileva problemi di configurazione e-mail (record SPF, DKIM, MX)
+  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Iscriversi agli avvisi {#subscribe-alerts}
 
-Se si verifica un comportamento imprevisto e/o viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), le notifiche di avviso vengono inviate a tutti gli utenti dell’organizzazione che si sono abbonati.
+Le sottoscrizioni di avvisi determinano quali utenti ricevono le notifiche quando vengono soddisfatte determinate condizioni (ad esempio quando vengono superate le soglie del tasso di errore o rilevati problemi di configurazione). Solo gli utenti abbonati ricevono le notifiche di avviso per gli avvisi selezionati.
 
-Puoi iscriverti a ogni singolo avviso dall&#39;interfaccia utente, sia globalmente dal menu **[!UICONTROL Avvisi]** (vedi [Abbonamento globale](#global-subscription)), sia unitariamente per un percorso specifico (vedi [Abbonamento unitario](#unitary-subscription)).
+### Metodi di abbonamento
 
-In base alle preferenze dell’abbonato, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente (notifiche in-app). Seleziona la modalità di ricezione di questi avvisi nelle [!DNL Adobe Experience Cloud] **[!UICONTROL Preferenze]**. [Ulteriori informazioni](../start/user-interface.md#in-product-uc)
+È possibile iscriversi agli avvisi in due modi:
 
-Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;. Gli avvisi vengono risolti dopo 1 ora per proteggerli dall’attivazione/disattivazione dei valori.
+* **[Sottoscrizione globale](#global-subscription)**: applica a tutti i percorsi e le campagne nella sandbox corrente. Utilizzare questo metodo quando si desidera monitorare tutte le attività del percorso all&#39;interno dell&#39;organizzazione.
+* **[Sottoscrizione specifica per il Percorso](#unitary-subscription)**: applica solo a singoli percorsi. Utilizzare questo metodo per monitorare specifici percorsi ad alta priorità senza ricevere avvisi per tutti i percorsi.
+
+### Funzionamento delle notifiche di avviso
+
+**Ciclo di vita avviso:**
+
+1. **Attivazione**: l&#39;avviso viene attivato quando viene soddisfatta la relativa condizione specifica (ad esempio, la percentuale di errore supera il 20%)
+2. **Notifica**: tutti gli utenti abbonati ricevono le notifiche tramite i canali configurati
+3. **Monitoraggio**: l&#39;avviso continua a monitorare la condizione a intervalli regolari
+4. **Risoluzione**: quando la condizione viene risolta, i sottoscrittori ricevono una notifica &quot;Risolto&quot;
+
+**Consegna notifiche:**
+
+* **Canali di consegna**: gli avvisi vengono inviati tramite e-mail e/o notifiche in-app nel centro notifiche di Journey Optimizer (icona a forma di campana nell&#39;angolo in alto a destra). Configura i canali di consegna preferiti nelle [Preferenze Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+
+* **Tipi di avviso**: Journey Optimizer fornisce avvisi occasionali (eventi informativi come &quot;percorso pubblicato&quot;) e avvisi ripetuti (soglie di monitoraggio). Gli avvisi ripetuti continuano a valutare e a inviare notifiche fino alla risoluzione della condizione.
+
+* **Risoluzione automatica**: per evitare che i valori fluttuino a causa dell&#39;eccesso di notifiche, gli avvisi si risolvono automaticamente dopo 1 ora anche se la condizione persiste. Questo impedisce la generazione di notifiche continue quando le metriche si spostano attorno ai valori di soglia.
+
+**Metodo di sottoscrizione alternativo:**
+
+Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Abbonamento globale {#global-subscription}
 
-Per iscriverti/annullare l’iscrizione a un avviso per tutti i percorsi e le campagne, effettua le seguenti operazioni:
+Gli abbonamenti globali ti consentono di ricevere avvisi per tutti i percorsi e le campagne nella sandbox corrente.
 
-1. Passa alla dashboard **[!UICONTROL Avvisi]** dal menu a sinistra e seleziona l&#39;opzione **[!UICONTROL Abbonati]** per l&#39;avviso a cui desideri abbonarti.
+**Per iscriversi a un avviso:**
+
+1. Passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvisi]** nel menu a sinistra.
+
+1. Nella scheda **[!UICONTROL Sfoglia]**, individua l&#39;avviso che desideri monitorare.
+
+1. Fare clic su **[!UICONTROL Sottoscrivi]** per visualizzare l&#39;avviso desiderato.
 
    ![Abbonamento a un avviso](assets/alert-subscribe.png){width=80%}
 
-   >[!NOTE]
-   >
-   >L’abbonamento si applica solo a una sandbox specifica. Devi iscriverti agli avvisi di ogni sandbox singolarmente.
+**Per annullare l&#39;abbonamento:**
 
-1. Utilizza lo stesso metodo per **[!UICONTROL annullare l&#39;abbonamento]**.
+Fai clic su **[!UICONTROL Annulla iscrizione]** accanto all&#39;avviso.
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito [&#128279;](#journey-alerts).
+>[!IMPORTANT]
+>
+>Le sottoscrizioni agli avvisi sono specifiche per sandbox. Devi iscriverti agli avvisi separatamente in ogni sandbox in cui desideri ricevere le notifiche.
 
-### Abbonamento unitario {#unitary-subscription}
+**Metodo di sottoscrizione alternativo:**
 
-Per iscriversi/annullare l’iscrizione a un avviso per un percorso specifico, effettua le seguenti operazioni:
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
 
-1. Passare all&#39;inventario dei percorsi e selezionare l&#39;opzione **[!UICONTROL Abbonati agli avvisi]** per un percorso specifico.
+### abbonamento specifico per il percorso {#unitary-subscription}
+
+Gli abbonamenti specifici del percorso consentono di monitorare singoli percorsi ad alta priorità senza ricevere avvisi per tutti i percorsi dell’organizzazione.
+
+**Per sottoscrivere avvisi per un percorso specifico:**
+
+1. Passare all&#39;inventario del percorso.
+
+1. Fare clic sul menu **⋯** (altre azioni) per il percorso che si desidera monitorare.
+
+1. Seleziona **[!UICONTROL Abbonati agli avvisi]**.
 
    ![Iscrizione a un avviso per un percorso specifico](assets/subscribe-journey-alert.png){width=75%}
 
-1. Scegliere gli avvisi. Sono disponibili i seguenti avvisi: [Frequenza eliminazioni profilo superata](#alert-discard-rate), [Frequenza errori azioni personalizzate superata](#alert-custom-action-error-rate), [Frequenza errori profilo superata](#alert-profile-error-rate), [Percorso pubblicato](#alert-journey-published), [Percorso completato](#alert-journey-finished) e [Limitazione azioni personalizzate attivata](#alert-custom-action-capping).
+1. Seleziona gli avvisi da abilitare tra le opzioni disponibili:
+   * [Tasso di eliminazione del profilo superato](#alert-discard-rate)
+   * [Tasso di errore delle azioni personalizzate superato](#alert-custom-action-error-rate)
+   * [Tasso di errore del profilo superato](#alert-profile-error-rate)
+   * [Percorso pubblicato](#alert-journey-published)
+   * [Percorso completato](#alert-journey-finished)
+   * [Limitazione azioni personalizzate attivata](#alert-custom-action-capping)
 
-1. Per annullare l’abbonamento a un avviso, deselezionalo dalla stessa schermata.
+1. Fai clic su **[!UICONTROL Salva]** per confermare i tuoi abbonamenti.
 
-1. Fai clic su **[!UICONTROL Salva]** per confermare.
+**Per annullare l&#39;abbonamento:**
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UICONTROL Salva]**.
+
+>[!NOTE]
+>
+>L&#39;avviso [Read Audience Trigger Unsuccess](#alert-read-audiences) è disponibile solo tramite la sottoscrizione globale, non tramite la sottoscrizione al percorso.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -311,7 +403,14 @@ Per aggiungere altri abbonati, inserisci il proprio indirizzo e-mail separato da
 
 Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica e selezionare **[!UICONTROL Aggiorna]**.
 
-## Risorse aggiuntive {#additional-resources-alerts}
+## Argomenti correlati {#additional-resources-alerts}
 
-* Scopri come risolvere i problemi dei percorsi in [questa pagina](../building-journeys/troubleshooting.md).
-* Scopri come rivedere le campagne in [questa pagina](../campaigns/review-activate-campaign.md).
+**Gestione Percorsi e campagne:**
+
+* [Risoluzione dei problemi dei percorsi](../building-journeys/troubleshooting.md) - Risoluzione dei problemi e degli errori comuni del percorso
+* [Rivedi e attiva campagne](../campaigns/review-activate-campaign.md) - Convalida campagna pre-pubblicazione
+
+**Framework avvisi:**
+
+* [Panoramica avvisi Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it) - Informazioni sul framework degli avvisi
+* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html) - Opzioni di integrazione avanzate
