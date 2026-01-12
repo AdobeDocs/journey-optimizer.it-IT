@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -78,8 +78,6 @@ La definizione di &quot;finito&quot; varia a seconda del tipo di percorso:
 | Leggi pubblico | Sì | Sì | Quando viene raggiunta la data di fine |
 | Percorso attivato da eventi | n/d | Sì | Quando viene raggiunta la data di fine |
 | Percorso attivato da eventi | n/d | No | Quando è chiuso nell’interfaccia o tramite API |
-
-Questo è un avviso informativo che ti aiuta a tenere traccia del completamento del percorso. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
 
 ### Chiudi ai nuovi ingressi {#close-to-new-entrances}
 
