@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7909'
-ht-degree: 99%
+source-wordcount: '7916'
+ht-degree: 100%
 
 ---
 
@@ -306,10 +306,10 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <td>
 <p>Journey Optimizer supporta una nuova attività Azione generica che consente di configurare sia azioni singole che gruppi di azioni multiple in uscita, semplificandone la configurazione nell’area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
 <ul>
-<li>Una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso.</li>
-<li>La capacità di creare gruppi di azioni in entrata con più azioni.</li>
-<li>La possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata.</li>
-<li>La possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
+<li>una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso;</li>
+<li>la capacità di creare gruppi di azioni in entrata con più azioni;</li>
+<li>la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata;</li>
+<li>la possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
 </ul>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
@@ -375,11 +375,11 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p>Journey Optimizer ora offre gli strumenti necessari per fornire al pubblico contenuti personalizzati e ottimizzati, consentendoti di eseguire esperimenti sui contenuti, creare targeting basato su regole e utilizzare combinazioni avanzate di entrambi per ottimizzare l’efficacia delle campagne.</p>
 <p>Con l'ottimizzazione è possibile:</p>
 <ul>
-<li>Testare più varianti di contenuto per identificare la messaggistica più efficace.</li>
-<li>Distribuire contenuti personalizzati in base agli attributi utente e ai dati contestuali.</li>
-<li>Combinare targeting e sperimentazione per strategie avanzate.</li>
-<li>Escludere gli utenti che non corrispondono ai criteri della variante.</li>
-<li>Includere meccanismi di fallback per mantenere vivo il coinvolgimento dell’utente.</li>
+<li>Testare più varianti di contenuto per identificare la messaggistica più efficace</li>
+<li>Distribuire contenuti personalizzati in base agli attributi utente e ai dati contestuali</li>
+<li>Combinare targeting e sperimentazione per strategie avanzate</li>
+<li>Escludere gli utenti che non corrispondono ai criteri della variante</li>
+<li>Includere meccanismi di fallback per mantenere vivo il coinvolgimento dell’utente</li>
 </ul>
 <P>Una volta che la campagna o il percorso sono attivi, i profili vengono valutati in base ai criteri definiti e vengono consegnati con l’esperienza o il contenuto appropriato in base ai criteri di corrispondenza.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
@@ -409,7 +409,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Controllo della frequenza nelle campagne in uscita**: ora puoi abilitare il controllo della frequenza per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. [Ulteriori informazioni](../campaigns/campaign-schedule.md#set-rate-control)
 
-   * **Pianificazione delle campagne di azione**: le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
+   * **Pianificazione delle campagne con azioni**: le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
 
       * **Ricorrenza settimanale**: ora è possibile scegliere di ripetere la campagna ogni settimana o ogni due settimane e selezionare il giorno o i giorni della settimana in cui deve essere eseguita.
 
@@ -417,7 +417,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
       * **Pianificazioni giornaliere, settimanali o mensili**: ora è possibile specificare se la pianificazione ricorrente deve terminare in una data specifica o dopo un determinato numero di occorrenze.
 
-   * **Campagne programmate per azioni transazionali**: le campagne programmate per azioni transazionali sono ora disponibili per l’invio di comunicazioni transazionali batch e basate sul pubblico tramite canali e-mail, SMS e push.
+   * **Campagne transazionali pianificate con azioni**: le campagne transazionali pianificate con azioni sono ora disponibili per l’invio di comunicazioni transazionali in batch e basate sul pubblico tramite i canali e-mail, SMS e push.
 
 * **Canale: schede di contenuto**
 
@@ -441,7 +441,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
-     Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
+     Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è in disponibilità limitata. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
 
 * **Set di dati**
 
@@ -1080,7 +1080,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare formule di classificazione di decisioning specifiche definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di classificazione personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
+<p>Ora puoi creare formule di ranking specifiche per le decisioni definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di ranking personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/ranking/ranking-formulas.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 14 maggio 2025</p>
@@ -1749,7 +1749,7 @@ I miglioramenti riportati di seguito sono inclusi nell’aggiornamento di febbra
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **Configurazione e-mail**: se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l’annullamento dell’iscrizione e un URL personalizzato per l’annullamento dell’iscrizione con un solo clic, come parte delle impostazioni di configurazione del canale e-mail.[Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
+* **Configurazione e-mail**: se gestisci il consenso al di fuori di Adobe, ora puoi impostare un indirizzo e-mail personalizzato per l’annullamento dell’iscrizione e un URL personalizzato per l’annullamento dell’iscrizione con un solo clic, come parte delle impostazioni di configurazione del canale e-mail. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
