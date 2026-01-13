@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione all’ottimizzazione dei contenuti
 description: Scopri come utilizzare l’ottimizzazione dei contenuti per fornire contenuti personalizzati e ottimizzati nelle campagne e nei percorsi.
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: ottimizzazione, targeting, sperimentazione, test A/B, campagne, percorsi, personalizzazione
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 8%
@@ -111,7 +111,7 @@ Una volta che il percorso o la campagna è attiva, i profili vengono valutati in
 
 Scopri come sfruttare l’ottimizzazione dei contenuti nelle campagne attivate da azioni o API. Scoprirai come eseguire il targeting dei tipi di pubblico secondari, creare varianti di messaggio per posizione, abilitare il contenuto di fallback ed eseguire più esperimenti all’interno di una singola campagna. Questo tutorial illustra anche come gestire le campagne multicanale mantenendo al contempo la coerenza dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470376?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Argomenti correlati**
 
