@@ -6,7 +6,7 @@ description: Scopri come combinare il targeting e gli esperimenti in un singolo 
 role: User
 level: Intermediate
 keywords: ottimizzazione, targeting, sperimentazione, combinazione, avanzato
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Per combinare sia il targeting che gli esperimenti in un percorso o in una campa
 
 1. Procedi in modo simile per le altre regole di targeting e progetta il contenuto corrispondente per ogni variante.
 
-1. Salva le modifiche e [attiva](review-activate-campaign.md) il percorso o la campagna.
+1. Salva le modifiche e [attiva](../campaigns/review-activate-campaign.md) il percorso o la campagna.
 
 Una volta che il percorso/la campagna è attivo, agli utenti di ciascun gruppo target vengono assegnate in modo casuale le diverse varianti di contenuto definite per il gruppo a cui appartengono.
 

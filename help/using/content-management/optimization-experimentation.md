@@ -6,7 +6,7 @@ description: Scopri come utilizzare gli esperimenti sui contenuti per testare pi
 role: User
 level: Intermediate
 keywords: sperimentazione, ottimizzazione, test A/B, esperimento sui contenuti, trattamenti
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Per impostare la sperimentazione e determinare quale messaggio determina il magg
    >
    >Puoi selezionare altre azioni: la sperimentazione si applica a tutte le azioni aggiunte alla campagna o all&#39;[attività Azione](../building-journeys/journey-action.md) del percorso.
 
-1. [Attiva](review-activate-campaign.md) il percorso o la campagna.
+1. [Attiva](../campaigns/review-activate-campaign.md) il percorso o la campagna.
 
 Una volta che il percorso/la campagna è attivo, agli utenti vengono assegnate in modo casuale le diverse varianti di contenuto. [!DNL Journey Optimizer] tiene traccia della variante che determina più acquisti e fornisce informazioni fruibili.
 

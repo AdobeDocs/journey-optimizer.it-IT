@@ -6,7 +6,7 @@ description: Scopri come sfruttare le regole di targeting per fornire contenuti 
 role: User
 level: Intermediate
 keywords: targeting, ottimizzazione, pubblico, personalizzazione, regole
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Per impostare il targeting, segui i passaggi indicati di seguito.
 
    In questo esempio, progetta un contenuto specifico per i residenti negli Stati Uniti, un contenuto diverso per i residenti francesi e un altro contenuto per i residenti in India.
 
-1. [Attiva](review-activate-campaign.md) il percorso o la campagna.
+1. [Attiva](../campaigns/review-activate-campaign.md) il percorso o la campagna.
 
 Una volta che il percorso/la campagna è attivo, vengono inviati contenuti personalizzati per ciascun target in modo che i residenti degli Stati Uniti ricevano un messaggio specifico, i residenti della Francia un messaggio diverso e così via.
 
