@@ -45,7 +45,7 @@ Definisci le regole decisionali per personalizzare le offerte indirizzando speci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=it)
 
 Creare e gestire i qualificatori di raccolta in Adobe Journey Optimizer
 

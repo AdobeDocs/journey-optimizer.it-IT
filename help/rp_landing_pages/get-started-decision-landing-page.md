@@ -55,7 +55,7 @@ Esplora l’interfaccia e le funzionalità della libreria di offerte per creare,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Passaggi chiave per creare e gestire le offerte
 
@@ -65,7 +65,7 @@ Segui una guida dettagliata su come creare, gestire e configurare offerte e deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzo dei tipi di pubblico per il caricamento personalizzato per la funzione Decisioni
 
@@ -75,7 +75,7 @@ Scopri come perfezionare i criteri di idoneità e personalizzare le offerte util
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Usare offerte personalizzate in un messaggio e-mail
 

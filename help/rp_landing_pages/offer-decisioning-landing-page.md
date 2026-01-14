@@ -35,7 +35,7 @@ Scopri i concetti di base della gestione delle decisioni, che includono componen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Creare e gestire i componenti decisionali
 
@@ -45,7 +45,7 @@ Scopri come creare posizionamenti, regole di decisione e qualificatori di raccol
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare e ottimizzare il ranking
 
@@ -55,7 +55,7 @@ Scopri come classificare le offerte utilizzando formule e modelli di intelligenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e gestire le offerte
 

@@ -25,7 +25,7 @@ L’esportazione del catalogo delle offerte in Adobe Journey Optimizer è come a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida all’esportazione dei cataloghi delle offerte
 
@@ -35,7 +35,7 @@ Scopri come esportare il catalogo delle offerte come set di dati in Adobe Experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accedere al catalogo delle offerte esportato
 

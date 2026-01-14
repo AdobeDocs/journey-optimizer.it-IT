@@ -28,7 +28,7 @@ Assicurati una consegna dei messaggi impeccabile rilevando gli errori per tempo.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Come visualizzare in anteprima e testare contenuti
 
@@ -58,7 +58,7 @@ Guida dettagliata per la visualizzazione in anteprima dei contenuti personalizza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Inviare bozze utilizzando i dati del profilo di test
 
@@ -68,7 +68,7 @@ Testa e convalida i messaggi e-mail inviando bozze utilizzando i dati del profil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=it)
 
 Come testare il rendering di e-mail con Litmus
 

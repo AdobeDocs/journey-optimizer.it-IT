@@ -55,7 +55,7 @@ Implementa la consegna delle offerte personalizzata con Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Utilizzo dell’API Batch Decisioning per distribuire le offerte
 

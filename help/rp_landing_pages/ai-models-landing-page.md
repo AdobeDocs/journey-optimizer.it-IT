@@ -35,7 +35,7 @@ Scopri i modelli di intelligenza artificiale di Adobe Journey Optimizer nonché 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Informazioni sui modelli di ottimizzazione automatica
 
@@ -55,7 +55,7 @@ Scopri in che modo i modelli di ottimizzazione personalizzati utilizzano i dati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare i modelli di AI
 
