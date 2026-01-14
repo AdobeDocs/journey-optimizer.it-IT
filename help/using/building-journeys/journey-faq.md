@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
+source-wordcount: '5231'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Ulteriori informazioni sulle [condizioni](condition-activity.md).
 
 +++ Posso inviare messaggi ai profili in un percorso?
 
-Sì.  Journey Optimizer include **azioni di canale integrate** che consentono di inviare messaggi tramite e-mail, notifiche push, SMS/MMS/RCS, messaggi in-app, esperienze Web, esperienze basate su codice, direct mailing, schede di contenuto, WhatsApp e LINE. Puoi progettare il contenuto dei messaggi direttamente in Journey Optimizer e aggiungerlo come attività di azione nel percorso.
+Sì.  Journey Optimizer include **azioni di canale integrate** che consentono di inviare messaggi tramite e-mail, notifiche push, SMS/MMS/RCS, messaggi in-app, esperienze web, esperienze basate su codice, schede di contenuto, WhatsApp e LINE. Puoi progettare il contenuto dei messaggi direttamente in Journey Optimizer e aggiungerlo come attività di azione nel percorso.
 
 Per i canali non supportati in modalità nativa, puoi utilizzare **azioni personalizzate** per integrarle con piattaforme di messaggistica esterne e inviare messaggi tramite qualsiasi canale di terze parti.
 
@@ -328,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
