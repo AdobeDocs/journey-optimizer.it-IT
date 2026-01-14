@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Creare componenti
-description: Creare componenti
+title: Creare i componenti
+description: Creare i componenti
 badge: label="Legacy" type="Informative"
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
 ---
 
-# Creare componenti{#section-overview}
+# Creare i componenti{#section-overview}
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ In Adobe Journey Optimizer, la creazione di componenti come posizionamenti, rego
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Guida alla creazione di posizionamenti per le offerte
 
@@ -35,7 +35,7 @@ Scopri come creare e gestire i posizionamenti affinché il giusto contenuto dell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creare regole decisionali in Adobe Journey Optimizer
 
@@ -45,7 +45,7 @@ Definisci le regole decisionali per personalizzare le offerte indirizzando speci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 Creare e gestire i qualificatori di raccolta in Adobe Journey Optimizer
 

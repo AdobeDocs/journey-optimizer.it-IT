@@ -2,31 +2,31 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Test, convalida e approvazione
-description: Scopri tutte le funzionalità di test e approvazione in Journey Optimizer. Contenuto in anteprima, simula percorsi, convalida e-mail, esegui esperimenti, rileva i conflitti e imposta i flussi di lavoro di approvazione prima del lancio.
+description: Scopri tutte le funzionalità di test e approvazione in Journey Optimizer. Visualizza in anteprima il contenuto, simula i percorsi, convalida le e-mail, esegui esperimenti, rileva eventuali conflitti e configura i flussi di lavoro di approvazione prima del lancio.
 feature: Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: test, convalida, approvazione, approvazione, controllo qualità, controllo qualità, profili di test, personalizzazione, rendering, spam-check, content-experiment, a/b-test, rilevamento conflitti, elenco seed, bozze, dati di esempio, approvazione-flusso di lavoro, test e-mail, convalida-flusso di lavoro
+keywords: test, convalida, approva, approvazione, garanzia qualità, controllo qualità, profili di test, personalizzazione, rendering, controllo spam, esperimenti sui contenuti, test a/b, rilevamento conflitti, elenco seed, bozze, dati di esempio, flusso di lavoro di approvazione, test e-mail, flusso di lavoro di convalida
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: c3535f39b351d671054031b9cc391bf6d9d83a09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2328'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Test, convalida e approvazione{#section-overview}
 
-Questa sezione descrive tutte le funzionalità di test e approvazione in Journey Optimizer. Troverai strumenti per visualizzare in anteprima i contenuti con profili di test, convalidare la logica di percorso, controllare il rendering di e-mail e i punteggi di spam, eseguire esperimenti A/B, rilevare i conflitti e impostare flussi di lavoro di approvazione.
+Questa sezione descrive tutte le funzionalità di test e approvazione in Journey Optimizer. Troverai strumenti per visualizzare in anteprima i contenuti con profili di test, convalidare la logica dei percorsi, controllare il rendering delle e-mail e i punteggi di spam, eseguire esperimenti A/B, rilevare eventuali conflitti e configurare i flussi di lavoro per l’approvazione.
 
-Questa pagina di destinazione consente di scegliere l’approccio di test corretto in base a ciò che stai creando (campagne anziché percorsi), illustra i flussi di lavoro di test consigliati e fornisce un accesso rapido a tutte le risorse di test e approvazione. Inizia con [Scegli il tuo approccio di test](#choose-your-testing-approach) di seguito per identificare gli strumenti applicabili al tuo caso d&#39;uso. Per le definizioni dei termini di test chiave, vedere [Terminologia chiave](#key-terminology).
+Questa pagina di destinazione consente di scegliere l’approccio di test corretto in base a ciò che stai creando (campagne anziché percorsi), illustra i flussi di lavoro di test consigliati e fornisce un accesso rapido a tutte le risorse di test e approvazione. Inizia con [Scegli l’approccio di test](#choose-your-testing-approach) di seguito per identificare gli strumenti applicabili al tuo caso d’uso. Per le definizioni dei termini di test chiave, consulta [Terminologia chiave](#key-terminology).
 
 ## Testare e approvare il contenuto
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -36,7 +36,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -46,17 +46,17 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
-Convalida il percorso prima di pubblicarlo testandolo con profili specifici per garantire che eventi, condizioni e azioni funzionino come previsto. Disponibile per i percorsi 2D che utilizzano uno spazio dei nomi.
+Convalida il percorso prima di pubblicarlo testandolo con profili specifici per garantire che eventi, condizioni e azioni funzionino come previsto. Disponibile per percorsi di bozza che utilizzano uno spazio dei nomi.
 
 [Testare il percorso](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -66,7 +66,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -76,62 +76,62 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
-Personalization Playground
+Playground di personalizzazione
 
-Prova le espressioni di personalizzazione in un ambiente sicuro. Prima di applicare il codice a campagne e percorsi, prova il codice con i dati di esempio e i risultati di anteprima.
+Sperimenta con le espressioni di personalizzazione in un ambiente sicuro. Prima di applicare il codice a campagne e percorsi, testalo con i dati di esempio e i risultati di anteprima.
 
-[Informazioni su Personalization Playground](../using/personalization/personalize.md#playground)
+[Informazioni sul playground di personalizzazione](../using/personalization/personalize.md#playground)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Esperimenti sui contenuti e test A/B
 
-Ottimizza le campagne sottoponendo a test più varianti di contenuto e misurando le prestazioni per identificare i trattamenti con le prestazioni migliori. Disponibile solo per le campagne (supporta esperimenti A/B e slot machine).
+Ottimizza le campagne testando più varianti di contenuto e misurando le prestazioni per identificare i trattamenti con le prestazioni migliori. Disponibile solo per le campagne (supporta esperimenti multi-armed bandit e A/B).
 
-[Scopri gli esperimenti sui contenuti](../using/content-management/get-started-experiment.md)
+[Informazioni sugli esperimenti sui contenuti](../using/content-management/get-started-experiment.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
-Includi automaticamente nelle consegne gli indirizzi interni delle parti interessate per monitorare i messaggi effettivi inviati ai clienti per il controllo della qualità e la conformità. Disponibile solo per il canale e-mail.
+Includi automaticamente nelle consegne gli indirizzi interni degli stakeholder per monitorare i messaggi effettivi inviati alla clientela per il controllo qualità e la conformità. Disponibile solo per il canale e-mail.
 
-[Configura elenchi seed](../using/configuration/seed-lists.md)
+[Configurare elenchi di seed](../using/configuration/seed-lists.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
-Rilevamento dei conflitti
+Rilevamento di conflitti
 
-Identifica potenziali sovrapposizioni tra campagne e percorsi per evitare di sopraffare i clienti con troppe comunicazioni simultanee. Disponibile per campagne e percorsi unitari, Qualificazione del pubblico e Read Audience.
+Identifica potenziali sovrapposizioni tra campagne e percorsi per evitare di esporre la clientela a un eccesso di comunicazioni simultanee. Disponibili per campagne e percorsi unitari, qualificazione del pubblico e percorsi Leggi pubblico.
 
-[Rileva conflitti](../using/conflict-prioritization/conflicts.md)
+[Rilevare conflitti](../using/conflict-prioritization/conflicts.md)
 :::
 
 ::::
 
-## Perché le prove e le approvazioni sono importanti
+## Perché test e approvazione sono importanti
 
-I processi di test e approvazione fungono da gate di qualità essenziali che proteggono la reputazione del tuo marchio e garantiscono il successo della campagna. Ecco perché sono importanti:
+I processi di test e approvazione fungono da controlli qualità essenziali che proteggono la reputazione del brand e garantiscono il successo della campagna. Ecco perché sono importanti:
 
-* **Rileva gli errori prima che raggiungano i clienti** - Identifica collegamenti interrotti, personalizzazione non corretta, problemi di rendering e errori di logica in un ambiente controllato in cui le correzioni sono rapide e prive di rischi.
+* **Per rilevare per tempo eventuali errori**: puoi individuare errori quali collegamenti interrotti, personalizzazione non corretta, problemi di rendering e di logica in un ambiente controllato in cui puoi apportare correzioni in modo rapido e privo di rischi.
 
-* **Migliora il recapito messaggi** - Verifica i punteggi di posta indesiderata, convalida l&#39;autenticazione e-mail e verifica il rendering tra client e-mail per massimizzare il posizionamento della casella in entrata e le percentuali di coinvolgimento.
+* **Per migliorare la recapitabilità**: convalidare l’autenticazione delle e-mail e verificarne il rendering per client e-mail diversi, per massimizzarne la consegna nella casella in entrata e i tassi di coinvolgimento.
 
-* **Assicurati della coerenza del brand** - Anteprima di contenuti con profili di test diversi per verificare che la personalizzazione venga visualizzata correttamente per vari segmenti di clienti e mantenga gli standard del brand.
+* **Per assicurare la coerenza del brand**: puoi visualizzare in anteprima i contenuti con profili di test diversi per verificare che la personalizzazione si presenti correttamente per diversi segmenti di clientela e rispetti gli standard del brand.
 
-* **Convalida percorsi complessi** - Simula flussi di percorso con più passaggi per verificare che i trigger vengano attivati correttamente, che le condizioni vengano valutate correttamente e che i clienti ricevano i messaggi corretti al momento giusto.
+* **Per convalidare percorsi complessi**: puoi simulare flussi di percorso con più passaggi per verificare che l’attivazione dei trigger e la valutazione delle condizioni avvengano correttamente e per assicurarti che la clientela riceva i messaggi giusti al momento giusto.
 
-* **Stabilisci la responsabilità** - Implementa flussi di lavoro di approvazione formali che richiedono l&#39;approvazione delle parti interessate, creando una chiara proprietà e riducendo i lanci non autorizzati o prematuri di campagne.
+* **Per sostenere trasparenza e responsabilità**: puoi implementare flussi di lavoro formali che richiedono l’approvazione degli stakeholder, definendo chiaramente chi è responsabile e riducendo il rischio di lanci non autorizzati o prematuri delle campagne.
 
-* **Risparmia tempo e risorse** - Rileva i problemi all&#39;inizio del ciclo di sviluppo quando le correzioni sono più economiche e veloci, evitando costose correzioni post-avvio o escalation del servizio clienti.
+* **Per risparmiare tempo e risorse**: rilevando eventuali problemi nelle prime fasi del ciclo di sviluppo, quando è possibile correggerli in modo più economico e veloce, puoi evitare costose correzioni post-avvio o escalation del servizio clienti.
 
 <!--## Testing capabilities overview
 
@@ -210,9 +210,9 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 -->
 
-## Scegli il tuo approccio di test
+## Scegliere l’approccio al test
 
-L’approccio corretto per i test dipende da cosa stai creando e da cosa devi convalidare. Usa questa guida per identificare gli strumenti di test più rilevanti per lo scenario.
+L’approccio al test corretto dipende da cosa stai creando e da cosa devi convalidare. Utilizza questa guida per identificare gli strumenti di test più rilevanti per lo scenario.
 
 >[!BEGINTABS]
 
@@ -221,11 +221,11 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 **Per tutte le campagne:**
 
 * Anteprima e test del contenuto tramite [profili di test](../using/content-management/test-profiles.md) o [dati di input di esempio](../using/test-approve/simulate-sample-input.md)
-* Controlla [il rendering di e-mail](../using/content-management/rendering.md) tra dispositivi e client (solo canale e-mail)
-* Esegui [controlli punteggio posta indesiderata](../using/content-management/spam-report.md) (solo canale e-mail)
-* Rivedi [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne e altri percorsi
-* Configura [elenchi seed](../using/configuration/seed-lists.md) per il monitoraggio delle parti interessate (solo canale e-mail)
-* Invia per [approvazione](../using/test-approve/gs-approval.md) prima dell&#39;attivazione
+* Controlla [il rendering di e-mail](../using/content-management/rendering.md) per dispositivi e client diversi (solo canale e-mail)
+* Esegui [controlli del punteggio di spam](../using/content-management/spam-report.md) (solo canale e-mail)
+* Rivedi i [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne e percorsi
+* Configura [elenchi di seed](../using/configuration/seed-lists.md) per il monitoraggio degli stakeholder (solo canale e-mail)
+* Invia per l’[approvazione](../using/test-approve/gs-approval.md) prima dell’attivazione
 
 **Per test A/B e ottimizzazione:**
 
@@ -233,73 +233,73 @@ L’approccio corretto per i test dipende da cosa stai creando e da cosa devi co
 
 **Per campagne attivate da API:**
 
-* Utilizza l&#39;[API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} per attivare i processi di bozza a livello di programmazione
+* Utilizza l’[API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} per attivare in modo programmatico i processi di bozza
 
->[!TAB percorsi di prova]
+>[!TAB Test dei percorsi]
 
 **Per tutti i percorsi:**
 
-* Utilizza la [modalità di test](../using/building-journeys/testing-the-journey.md) per simulare la progressione del profilo (solo per percorsi bozza, richiede spazio dei nomi) oppure [esecuzione inattiva](../using/building-journeys/journey-dry-run.md) per analizzare i percorsi di esecuzione senza inviare messaggi
-* Verifica singoli messaggi tramite [anteprima e bozze](../using/content-management/preview-test.md)
-* Controlla [conflitti](../using/conflict-prioritization/conflicts.md) con altri percorsi e campagne
-* Invia per [approvazione](../using/test-approve/gs-approval.md) prima di pubblicare
+* Utilizza la [modalità test](../using/building-journeys/testing-the-journey.md) per simulare la progressione del profilo (solo per percorsi di bozza, richiede lo spazio dei nomi) oppure l’[esecuzione di prova](../using/building-journeys/journey-dry-run.md) per analizzare i percorsi di esecuzione senza inviare messaggi
+* Testare singoli messaggi tramite [anteprima e bozze](../using/content-management/preview-test.md)
+* Controlla i [conflitti](../using/conflict-prioritization/conflicts.md) con altri percorsi e campagne
+* Invia per l’[approvazione](../using/test-approve/gs-approval.md) prima della pubblicazione
 
 **Per percorsi complessi:**
 
-* Utilizza la modalità di test ed esegui a secco insieme per convalidare completamente la logica di diramazione e i percorsi di esecuzione
-* Verificare sistematicamente condizioni di ingresso e attributi di profilo diversi
+* Utilizza la modalità test e l’esecuzione di prova insieme per convalidare completamente la logica di diramazione e i percorsi di esecuzione
+* Testare sistematicamente condizioni di ingresso e attributi di profilo diversi
 
-**Nota:** il rilevamento dei conflitti e la limitazione dei percorsi sono disponibili solo per percorsi di pubblico unitari, di qualificazione del pubblico e di lettura.
+**Nota:** il rilevamento dei conflitti e la limitazione dei percorsi sono disponibili solo per percorsi di qualificazione del pubblico, unitari e di Leggi pubblico.
 
->[!TAB Verifica della personalizzazione]
+>[!TAB Testare la personalizzazione]
 
 **Prima di creare il contenuto:**
 
-* Esperimento nel [parco giochi di personalizzazione](../using/personalization/personalize.md#playground) per apprendere la sintassi e testare le espressioni con dati di esempio
+* Sperimenta nel [playground di personalizzazione](../using/personalization/personalize.md#playground) per apprendere la sintassi e testare le espressioni con dati di esempio
 
-**Durante la creazione del contenuto:**
+**Durante la creazione di contenuti:**
 
-* Anteprima con [profili di test](../using/content-management/test-profiles.md) per convalidare correttamente i rendering di personalizzazione
-* Verifica più scenari utilizzando [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV/JSON (supporta fino a 30 varianti)
+* Visualizza l’anteprima con [profili di test](../using/content-management/test-profiles.md) per convalidare correttamente i rendering di personalizzazione
+* Testa più scenari utilizzando [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV/JSON (supporta fino a 30 varianti)
 
 >[!ENDTABS]
 
-## Best practice di test
+## Testare le best practice
 
-Per massimizzare l’efficacia delle attività di test, segui queste pratiche consigliate:
+Per ottimizzare l’efficacia dell’analisi delle attività di test, segui queste procedure consigliate:
 
-1. **Esegui il test in anticipo e spesso** - Non aspettare che una campagna sia completamente generata. Puoi testare contenuti, personalizzazione e logica in modo incrementale durante lo sviluppo.
+1. **Testa in anticipo e spesso**: non aspettare che una campagna sia completamente generata. Testa contenuti, personalizzazione e logica in modo incrementale durante lo sviluppo.
 
-1. **Utilizza profili di test realistici** - [Crea profili di test](../using/audience/creating-test-profiles.md) che rappresentino con precisione i segmenti di pubblico target, inclusi casi limite e diversi scenari di personalizzazione.
+1. **Utilizza profili di test realistici**: [crea profili di test](../using/audience/creating-test-profiles.md) che rappresentino con precisione i segmenti di pubblico target, inclusi casi Edge e diversi scenari di personalizzazione.
 
-1. **Verifica tra dispositivi e client** - Verifica il [rendering di e-mail](../using/content-management/rendering.md) nei client e-mail più diffusi (Gmail, Outlook, Apple Mail) e nei dispositivi (desktop, dispositivi mobili, tablet) per garantire una visualizzazione coerente (solo canale e-mail).
+1. **Testa per dispositivi e client diversi**: verifica il [rendering delle e-mail](../using/content-management/rendering.md) nei più diffusi client e-mail (Gmail, Outlook, Mail di Apple) e dispositivi (desktop, dispositivi mobili, tablet) per assicurarti che vengano visualizzate correttamente (solo canale e-mail).
 
-1. **Convalida della personalizzazione in modo completo** - Verifica con più [profili di test](../using/content-management/test-profiles.md) che hanno valori di attributo diversi per confermare che i token di personalizzazione vengano visualizzati correttamente e che i valori di fallback funzionino. Utilizza il [parco giochi di personalizzazione](../using/personalization/personalize.md#playground) per sperimentare espressioni di personalizzazione e testare il codice con dati di esempio prima di applicarli alle campagne.
+1. **Convalida la personalizzazione attentamente**: testa con più [profili di test](../using/content-management/test-profiles.md) che hanno valori di attributo diversi per confermare che nei token di personalizzazione venga eseguito il rendering correttamente e che i valori di fallback funzionino. Utilizza il [playground di personalizzazione](../using/personalization/personalize.md#playground) per sperimentare espressioni di personalizzazione e testare il codice con dati di esempio prima di applicarli alle campagne.
 
-1. **Verifica varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test, risparmiando tempo e garantendo al contempo una copertura completa. Supporta i canali di e-mail, SMS, push, web, esperienza basata su codice, in-app e schede di contenuto.
+1. **Testa varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test, risparmiando tempo e garantendo al contempo una copertura completa. Supporta i canali di e-mail, SMS, push, web, esperienza basata su codice, in-app e schede contenuto.
 
-1. **Utilizza elenchi seed per il monitoraggio delle parti interessate**. Configura [elenchi seed](../using/configuration/seed-lists.md) per includere automaticamente le parti interessate interne che riceveranno copie di tutte le consegne al momento dell&#39;esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
+1. **Utilizza elenchi di seed per il monitoraggio degli stakeholder**: configura [elenchi di seed](../using/configuration/seed-lists.md) per includere automaticamente stakeholder interni che riceveranno copie di tutte le consegne al momento dell’esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
 
-1. **Simula percorsi di percorso**. Per percorsi complessi con più rami, utilizza la [modalità di test](../using/building-journeys/testing-the-journey.md) per testare condizioni di ingresso e attributi di profilo diversi e convalidare tutti i percorsi possibili. Disponibile per i percorsi 2D che utilizzano uno spazio dei nomi.
+1. **Simula percorsi di percorso**: per percorsi complessi con più rami, utilizza la [modalità test](../using/building-journeys/testing-the-journey.md) per testare condizioni di ingresso e attributi di profilo diversi per convalidare tutti i percorsi possibili. Disponibile per percorsi di bozza che utilizzano uno spazio dei nomi.
 
-1. **Verifica gli indicatori di recapito messaggi** - Rivedi [i punteggi di posta indesiderata](../using/content-management/spam-report.md), lo stato di autenticazione e le metriche di integrità delle e-mail prima degli invii di grandi dimensioni (solo canale e-mail).
+1. **Controlla gli indicatori di recapitabilità**: rivedi i [punteggi di spam](../using/content-management/spam-report.md), lo stato di autenticazione e le metriche di integrità delle e-mail prima degli invii di grandi dimensioni (solo canale e-mail).
 
-1. **Documenta i risultati dei test** - Conserva i record dei risultati dei test, dei problemi rilevati e delle risoluzioni per migliorare i processi di test futuri e condividi gli insegnamenti con il tuo team.
+1. **Documenta i risultati dei test**: tieni traccia dei risultati dei test, dei problemi rilevati e delle risoluzioni per migliorare i processi di test futuri e condividi con il tuo team le informazioni raccolte.
 
-1. **Coinvolgi le parti interessate in anticipo** - Condividi anteprime e risultati dei test con le parti interessate prima dell&#39;[approvazione formale](../using/test-approve/gs-approval.md) per raccogliere feedback e allineare le aspettative.
+1. **Coinvolgi gli stakeholder fin dalle fasi iniziali**: condividi anteprime e risultati dei test con gli stakeholder prima dell’[approvazione formale](../using/test-approve/gs-approval.md) per raccogliere feedback e allineare le aspettative.
 
 ## Flusso di lavoro di test consigliato
 
 Segui questo approccio in 4 fasi per convalidare le campagne e i percorsi prima del lancio:
 
-| Fase | Cosa testare | Azioni chiave |
+| Fase | Che cosa testare | Azioni chiave |
 |-------|-------------|-------------|
-| **1. Convalida del contenuto** | Personalization, progettazione, rendering | [Anteprima con profili di test](../using/content-management/preview-test.md), verifica [più varianti](../using/test-approve/simulate-sample-input.md) con CSV/JSON, verifica [rendering](../using/content-management/rendering.md) tra dispositivi |
-| **2. Controlli tecnici** | Recapito messaggi, collegamenti, conflitti | Esegui [controlli punteggio posta indesiderata](../using/content-management/spam-report.md), convalida i collegamenti, verifica la presenza di [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne |
-| **3. Logica percorso** (solo percorsi) | Condizioni di ingresso, flusso, diramazione | Utilizza la [modalità di test](../using/building-journeys/testing-the-journey.md) per simulare la progressione, esegui [esecuzione in prova](../using/building-journeys/journey-dry-run.md) per percorsi complessi |
-| **4. Pre-avvio** | Impostazioni, approvazioni, monitoraggio | Invia per [approvazione](../using/test-approve/gs-approval.md), verifica pianificazioni e pubblico, abilita [avvisi](../using/reports/alerts.md) |
+| **1. Convalida dei contenuti** | Personalizzazione, progettazione, rendering | [Visualizza anteprima con profili di test](../using/content-management/preview-test.md), testa [più varianti](../using/test-approve/simulate-sample-input.md) con CSV/JSON, verifica [rendering](../using/content-management/rendering.md) tra dispositivi |
+| **2. Controlli tecnici** | Recapitabilità, collegamenti, conflitti | Esegui i [controlli del punteggio di spam](../using/content-management/spam-report.md), convalida i collegamenti, controlla la presenza di [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne |
+| **3. Logica del percorso** (solo percorsi) | Condizioni di ingresso, flusso, diramazione | Utilizza la [modalità test](../using/building-journeys/testing-the-journey.md) per simulare la progressione, esegui l’[esecuzione di prova](../using/building-journeys/journey-dry-run.md) per percorsi complessi |
+| **4. Pre-avvio** | Impostazioni, approvazioni, monitoraggio | Invia per l’[approvazione](../using/test-approve/gs-approval.md), verifica pianificazioni e pubblico, abilita gli [avvisi](../using/reports/alerts.md) |
 
-**Suggerimento pro:** inizia con [area di riproduzione per la personalizzazione](../using/personalization/personalize.md#playground) per testare le espressioni prima di creare il contenuto e controlla sempre [rilevamento conflitti](../using/conflict-prioritization/conflicts.md) prima dell&#39;avvio per evitare messaggi eccessivi.
+**Suggerimento:** inizia con il [playground per la personalizzazione](../using/personalization/personalize.md#playground) per testare le espressioni prima di creare il contenuto; e controlla sempre il [rilevamento di conflitti](../using/conflict-prioritization/conflicts.md) prima del lancio per evitare un invio eccessivo di messaggi.
 
 ## Test in azione: casi d’uso
 
@@ -314,29 +314,29 @@ Scopri come i concetti di test si applicano agli scenari reali:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Inviare messaggi multicanale</strong></a>
 </div>
 <p>
-Test di un percorso che combina Read Audience, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
+Testa un percorso che combina Leggi pubblico, eventi di reazione e messaggi push/e-mail. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
 </p>
 </td>
 <td>
 <a href="../using/building-journeys/message-to-subscribers-uc.md">
-<img alt="Inviare un messaggio agli abbonati" src="../using/assets/do-not-localize/start-quick.png">
+<img alt="Inviare un messaggio agli iscritti" src="../using/assets/do-not-localize/start-quick.png">
 </a>
 <div>
-<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Invia un messaggio ai sottoscrittori</strong></a>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Inviare un messaggio agli iscritti</strong></a>
 </div>
 <p>
-Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indirizzi e-mail dinamici. Convalida le espressioni di personalizzazione per il targeting corretto del sottoscrittore. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting degli elenchi di abbonamento.
+Testa i percorsi che hanno come target elenchi di iscrizioni con indirizzamento e-mail dinamico. Convalida le espressioni di personalizzazione per il targeting di iscritti corretto. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting di elenchi di iscrizioni.
 </p>
 </td>
 <td>
 <a href="../using/building-journeys/weekday-email-uc.md">
-<img alt="Inviare messaggi con limiti di tempo" src="../using/assets/do-not-localize/calendar.jpeg">
+<img alt="Inviare messaggi con limite di tempo" src="../using/assets/do-not-localize/calendar.jpeg">
 </a>
 <div>
-<a href="../using/building-journeys/weekday-email-uc.md"><strong>Invio di messaggi con limiti di tempo</strong></a>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>Inviare messaggi con limite di tempo</strong></a>
 </div>
 <p>
-Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
+Testa i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
 </p>
 </td>
 </tr></table>
@@ -344,13 +344,13 @@ Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../using/building-journeys/jo-use-cases.md">
-<img alt="Esplora altri casi di utilizzo del percorso" src="../using/assets/do-not-localize/icon-quick-start.svg">
+<img alt="Esplorare più casi d’uso del percorso" src="../using/assets/do-not-localize/icon-quick-start.svg">
 </a>
 <div>
-<a href="../using/building-journeys/jo-use-cases.md"><strong>Esplora altri casi d'uso del percorso</strong></a>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>Esplorare più casi d’uso del percorso</strong></a>
 </div>
 <p>
-Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterne. Esplora vari scenari, modelli avanzati e approcci di test dell’integrazione.
+Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterni. Esplora vari scenari, pattern avanzati e approcci di test dell’integrazione.
 </p>
 </td>
 </tr></table>
@@ -359,27 +359,27 @@ Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperi
 
 Acquisisci familiarità con questi concetti di test essenziali per comprendere meglio le funzionalità di test e approvazione di Journey Optimizer. Ogni termine si collega alla documentazione dettagliata.
 
-**[Profili di test](../using/content-management/test-profiles.md)** - Profili cliente sintetici (non clienti reali) utilizzati per visualizzare in anteprima i contenuti personalizzati. Contrassegnato nel servizio Profilo cliente in tempo reale. Obbligatorio per la modalità di test e l’anteprima del contenuto. [Scopri come creare profili di test](../using/audience/creating-test-profiles.md)
+**[Profili di test](../using/content-management/test-profiles.md)**: profili cliente sintetici (non di clienti reali) utilizzati per visualizzare in anteprima i contenuti personalizzati. Contrassegnato nel servizio profilo cliente in tempo reale. Richiesto per la modalità test e l’anteprima del contenuto. [Scopri come creare i profili di test](../using/audience/creating-test-profiles.md)
 
-**[Modalità di test](../using/building-journeys/testing-the-journey.md)** - Funzionalità di simulazione del Percorso che invia i profili di test attraverso i percorsi del percorso. Limitazioni: solo percorsi in stato di bozza, richiede spazio dei nomi e solo profili di test. [Consulta la documentazione sulla modalità di test](../using/building-journeys/testing-the-journey.md)
+**[Modalità test](../using/building-journeys/testing-the-journey.md)**: funzione di simulazione del percorso che invia i profili di test attraverso i percorsi del percorso. Limitazioni: solo percorsi di bozza, richiede spazio dei nomi e solo profili di test. [Consulta la documentazione sulla modalità test](../using/building-journeys/testing-the-journey.md)
 
-**[Esecuzione in prova](../using/building-journeys/journey-dry-run.md)**: strumento di analisi dell&#39;esecuzione del Percorso che traccia i percorsi senza inviare messaggi o effettuare chiamate API. Caso di utilizzo: convalida della logica senza utilizzare risorse. [Informazioni sull&#39;esecuzione in prova](../using/building-journeys/journey-dry-run.md)
+**[Esecuzione di prova](../using/building-journeys/journey-dry-run.md)**: strumento di analisi dell’esecuzione del percorso che traccia i percorsi senza inviare messaggi o effettuare chiamate API. Caso d’uso: convalida della logica senza l’utilizzo di risorse. [Informazioni sull’esecuzione di prova](../using/building-journeys/journey-dry-run.md)
 
-**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)**: file CSV o JSON contenenti i valori degli attributi di profilo per testare la personalizzazione. Supporta fino a 30 varianti. Alternativa alla creazione di profili di test. [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
+**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)**: file CSV o JSON contenenti i valori dell’attributo di profilo per testare la personalizzazione. Supporta fino a 30 varianti. Alternativa alla creazione di profili di test. [Come simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 
-**[Elenchi seed](../using/configuration/seed-lists.md)** - Indirizzi e-mail di stakeholder interni inclusi automaticamente nelle consegne effettive (non invii di test). Solo canale e-mail. Caso d’uso: monitoraggio della qualità e conformità. [Configura elenchi seed](../using/configuration/seed-lists.md)
+**[Elenchi di seed](../using/configuration/seed-lists.md)**: indirizzi e-mail di stakeholder interni inclusi automaticamente nelle consegne effettive (non invii di test). Solo canale e-mail. Caso d’uso: monitoraggio della qualità e conformità. [Configurare gli elenchi di seed](../using/configuration/seed-lists.md)
 
-**[Esperimenti di contenuto](../using/content-management/get-started-experiment.md)** - Test A/B o esperimenti con slot machine che mettono a confronto varianti di contenuto. Solo campagne, non disponibile in percorsi. [Introduzione agli esperimenti](../using/content-management/get-started-experiment.md) | [Crea esperimenti](../using/content-management/content-experiment.md)
+**[Esperimenti sui contenuti](../using/content-management/get-started-experiment.md)**: test A/B o esperimenti multi-armed bandit che mettono a confronto varianti di contenuto. Solo campagne, non disponibile in percorsi. [Introduzione agli esperimenti](../using/content-management/get-started-experiment.md) | [Creare esperimenti](../using/content-management/content-experiment.md)
 
-**[Bozze](../using/content-management/proofs.md)** - Verifica le consegne e-mail inviate a indirizzi e-mail specifici utilizzando i dati del profilo di test. Diverso dagli elenchi seed (le bozze sono invii di test manuali, gli elenchi seed sono copie automatiche delle parti interessate). [Invia bozze](../using/content-management/proofs.md)
+**[Bozze](../using/content-management/proofs.md)**: testa le consegne e-mail inviate a indirizzi e-mail specifici utilizzando i dati del profilo di test. Diverso dagli elenchi di seed (le bozze sono invii di test manuali, gli elenchi di seed sono copie automatiche degli stakeholder). [Invia bozze](../using/content-management/proofs.md)
 
-**[Rilevamento conflitti](../using/conflict-prioritization/conflicts.md)** - Strumento che identifica campagne e percorsi sovrapposti che si rivolgono agli stessi tipi di pubblico. Supporto limitato per il percorso: unitari, qualificazione del pubblico e solo tipi di pubblico lettura. [Scopri la gestione dei conflitti](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[Rilevamento dei conflitti](../using/conflict-prioritization/conflicts.md)**: strumento che identifica campagne e percorsi sovrapposti il cui targeting sono gli stessi tipi di pubblico. Supporto limitato per il percorso: unitario, qualificazione del pubblico e solo tipi di Leggi pubblico. [Scopri la gestione dei conflitti](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
-**[Flussi di lavoro di approvazione](../using/test-approve/gs-approval.md)** - Processo di revisione in più passaggi che richiede l&#39;approvazione delle parti interessate prima dell&#39;attivazione. Richiede la configurazione dei criteri di approvazione. [Configura approvazioni](../using/test-approve/gs-approval.md) | [Crea criteri](../using/test-approve/approval-policies.md)
+**[Flussi di lavoro di approvazione](../using/test-approve/gs-approval.md)**: processo di revisione in più passaggi che richiede l’approvazione degli stakeholder prima dell’attivazione. Richiede la configurazione dei criteri di approvazione. [Configurare le approvazioni](../using/test-approve/gs-approval.md) | [Creare i criteri](../using/test-approve/approval-policies.md)
 
-**[Test di rendering](../using/content-management/rendering.md)** - Convalida della visualizzazione delle e-mail tra client e-mail (Gmail, Outlook, Apple Mail) e dispositivi. Richiede l&#39;integrazione con Litmus. [Test rendering e-mail](../using/content-management/rendering.md)
+**[Test di rendering](../using/content-management/rendering.md)**: convalida della visualizzazione delle e-mail tra client e-mail (Gmail, Outlook, Apple Mail) e dispositivi. Richiede l’integrazione Litmus. [Testare il rendering delle e-mail](../using/content-management/rendering.md)
 
-**[Ambiente playground di Personalization](../using/personalization/personalize.md#playground)** - Ambiente di apprendimento interattivo per sperimentare la sintassi di personalizzazione e testare le espressioni con dati di esempio. Non è richiesto alcun set di dati live. [Accedi al parco giochi](../using/personalization/personalize.md#playground)
+**[Playground di personalizzazione](../using/personalization/personalize.md#playground)**: ambiente di apprendimento interattivo per sperimentare la sintassi di personalizzazione e testare le espressioni con dati di esempio. Non è richiesto alcun set di dati live. [Accedere al playground](../using/personalization/personalize.md#playground)
 
 ## Risorse aggiuntive
 
@@ -387,116 +387,116 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 >[!TAB Guide essenziali]
 
-* [Simula varianti di contenuto](../using/test-approve/simulate-sample-input.md) - Puoi testare fino a 30 scenari di personalizzazione utilizzando file CSV o JSON. Ideale per il test dei contenuti multilingue senza creare più profili di test. Supporta e-mail, SMS, push, web, schede basate su codice, in-app e di contenuto.
+* [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md): testa fino a 30 scenari di personalizzazione utilizzando file CSV o JSON. Ideale per il test dei contenuti multilingue senza creare più profili di test. Supporta e-mail, SMS, push, web, schede basate su codice, in-app e schede di contenuto.
 
-* [Creazione di profili di test](../using/audience/creating-test-profiles.md) - Creazione e gestione di profili di test per simulare scenari cliente. Scopri come contrassegnare i profili per il test, impostare gli attributi e organizzare i segmenti di test.
+* [Creazione di profili di test](../using/audience/creating-test-profiles.md): crea e gestisci i profili di test per simulare scenari reali della clientela. Scopri come contrassegnare i profili per il test, impostare gli attributi e organizzare i segmenti di test.
 
-* [Rapporto posta indesiderata](../using/content-management/spam-report.md) - Controlla i punteggi di posta indesiderata prima dell&#39;invio per migliorare il recapito messaggi e il posizionamento della casella in entrata. Consigli fruibili per l’ottimizzazione dei contenuti.
+* [Rapporto spam sulle e-mail](../using/content-management/spam-report.md): controlla il punteggio di spam prima dell’invio per migliorare la recapitabilità e la consegna nella casella in entrata. Consigli fruibili per l’ottimizzazione dei contenuti.
 
-* [Domande frequenti sul Percorso](../using/building-journeys/journey-faq.md) - Riferimento rapido per le domande comuni su test, esecuzione e risoluzione dei problemi del percorso.
+* [Domande frequenti sui percorsi](../using/building-journeys/journey-faq.md): riferimenti rapidi per domande comuni sul test, l’esecuzione e la risoluzione dei problemi relativi ai percorsi.
 
 >[!TAB Dipendenze e relazioni]
 
-Scopri in che modo le funzionalità di test si connettono tra loro e ai flussi di lavoro Journey Optimizer più ampi. In questa sezione vengono mappati i prerequisiti, le dipendenze a monte/a valle e le combinazioni di funzionalità comuni.
+Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavoro Journey Optimizer più ampi. In questa sezione vengono mappati i prerequisiti, le dipendenze a monte/a valle e le combinazioni di funzionalità comuni.
 
-+++**Prerequisiti (necessari prima del test)**
++++**Prerequisiti (richiesti prima del test)**
 
-* I profili di test devono essere creati prima di utilizzare la modalità di test o l’anteprima del contenuto
+* I profili di test devono essere creati prima di utilizzare la modalità test o l’anteprima del contenuto
 * I criteri di approvazione devono essere configurati prima dell’invio per l’approvazione
 * È necessario creare elenchi di seed prima di aggiungerli a campagne/percorsi
-* Integrazione Litmus necessaria per i test di rendering di e-mail
-* Per utilizzare la modalità di test, il percorso deve essere in stato bozza
-* Il percorso deve avere uno spazio dei nomi configurato per utilizzare la modalità di test
+* Integrazione Litmus richiesta per i test di rendering di e-mail
+* Per utilizzare la modalità test, il percorso deve essere in stato bozza
+* Il percorso deve avere uno spazio dei nomi configurato per utilizzare la modalità test
 
 +++
 
-+++**Da cosa dipende il test (a monte)**
++++**Da che cosa dipende il test (a monte)**
 
 * Creazione di contenuti: campagne o percorsi da testare
-* Profili di test: necessari per la modalità di test e l’anteprima del contenuto
-* Criteri di approvazione: necessari per i flussi di lavoro di approvazione
+* Profili di test: richiesti per la modalità test e l’anteprima del contenuto
+* Criteri di approvazione: richiesti per i flussi di lavoro di approvazione
 * Configurazione: configurazioni del canale, autenticazione e-mail, impostazioni del dominio
 
 +++
 
-+++**Dipende dai test (downstream)**
++++**Che cosa dipende dai test (a valle)**
 
 * Attivazione campagna/percorso: impossibile attivare senza risolvere gli errori
-* Pubblicazione: potrebbe essere necessaria l’approvazione prima della pubblicazione
-* Monitoraggio live: monitoraggio e reporting dopo il lancio
+* Pubblicazione: potrebbe essere richiesta l’approvazione prima della pubblicazione
+* Monitoraggio live: monitoraggio e rapporti dopo l’avvio
 * Ottimizzazione: utilizza i risultati dei test per perfezionare le campagne future
 
 +++
 
 +++**Funzionalità correlate**
 
-* Flussi di lavoro di test e approvazione - Processo di controllo qualità
-* Test e rilevamento dei conflitti: prevenzione dei messaggi eccessivi dei clienti
-* Test + Esperimenti di contenuto - Ottimizzazione delle prestazioni
-* Test e reporting: ciclo di miglioramento continuo
-* Profili di test + Personalization - Convalida del contenuto
-* Esecuzione a secco + modalità test - Convalida completa del percorso
+* Test + Flussi di lavoro di approvazione: processo di controllo qualità
+* Test + Rilevamento dei conflitti: prevenzione dell’invio eccessivo di messaggi della clientela
+* Test + Esperimenti di contenuto: ottimizzazione delle prestazioni
+* Test + Rapporti: ciclo di miglioramento continuo
+* Profili di test + Personalizzazione: convalida dei contenuti
+* Esecuzione di prova + Modalità test: convalida del percorso completa
 
 +++
 
 +++**Combinazioni di funzionalità comuni**
 
-* Test dei contenuti: profili di test + dati di input di esempio + area di riproduzione Personalization
-* Convalida e-mail: test di rendering + punteggi spam + profili di test + bozze
-* Convalida del percorso: modalità di test + esecuzione a secco + profili di test
-* Lista di controllo per il pre-lancio: tutti i test tecnici + rilevamento dei conflitti + flussi di lavoro di approvazione
+* Test dei contenuti: profili di test + dati di input di esempio + playground di personalizzazione
+* Convalida e-mail: test di rendering + punteggi di spam + profili di test + bozze
+* Convalida del percorso: modalità test + esecuzione di prova + profili di test
+* Lista di controllo per il pre-avvio: tutti i test tecnici + rilevamento dei conflitti + flussi di lavoro di approvazione
 
 +++
 
 >[!TAB Domande comuni]
 
-+++**D: quali test sono necessari prima di avviare una campagna?**
++++**D: Quali test sono richiesti prima di avviare una campagna?**
 
-**Minimo:** anteprima contenuto con profili di test + controllo punteggio posta indesiderata (e-mail)
-**Consigliato:** + Rendering di e-mail + Rilevamento conflitti + Flusso di lavoro di approvazione
-**Best practice:** + Test dei dati di input di esempio + Elenchi seed + Esperimento A/B (in caso di ottimizzazione)
+**Minimo:** anteprima contenuto con profili di test + controllo punteggio di spam (e-mail)
+**Consigliato:** + Rendering di e-mail + Rilevamento dei conflitti + Flusso di lavoro di approvazione
+**Best practice:** + Test dati di input di esempio + Elenchi di seed + Esperimento A/B (in caso di ottimizzazione)
 
 +++
 
-+++**D: come posso testare la personalizzazione senza creare molti profili di test?**
++++**D: Come posso testare la personalizzazione senza creare molti profili di test?**
 
 **Soluzione primaria:** utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) con file CSV/JSON (supporta fino a 30 varianti)
-**Alternativa:** creare da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
-**Strumento di apprendimento:** Esperimento iniziale in [area giochi di personalizzazione](../using/personalization/personalize.md#playground)
+**Alternativa:** crea da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
+**Strumento di apprendimento:** Primo esperimento in [playground di personalizzazione](../using/personalization/personalize.md#playground)
 
 +++
 
-+++**D: qual è la differenza tra la modalità di test e l&#39;esecuzione in prova per i percorsi?**
++++**D: Qual è la differenza tra la modalità test e l’esecuzione di prova per i percorsi?**
 
-**Modalità di test:** invia i profili di test tramite il percorso, attiva le azioni effettive e genera i messaggi di test. Richiede bozza di percorso e spazio dei nomi.
-**Esecuzione in prova:** traccia i percorsi di esecuzione senza inviare nulla. Funziona su qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
-**Usare insieme:** modalità di test per il test dei messaggi + Esecuzione a secco per la convalida logica - copertura completa.
-
-+++
-
-+++**Q: posso testare i percorsi nello stato produzione/live?**
-
-**Modalità di test:** No - solo percorsi bozza
-**Esecuzione in prova:** Sì - funziona su qualsiasi stato del percorso
-**Anteprima contenuto:** Sì - visualizza l&#39;anteprima di singoli messaggi in qualsiasi momento
-**Soluzione:** duplicare il percorso live nella bozza per la convalida completa della modalità di test
+**Modalità test:** invia profili di test tramite percorso, attiva azioni effettive e genera messaggi di test. Richiede percorso della bozza + spazio dei nomi.
+**Esecuzione di prova:** traccia i percorsi di esecuzione senza inviare nulla. Funziona su qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
+**Utilizzare insieme:** modalità test per test dei messaggi + Esecuzione di prova per convalida della logica - copertura completa.
 
 +++
 
-+++**Q: quali funzionalità di test richiedono integrazioni esterne?**
++++**D: Come posso testare i percorsi nello stato produzione/live?**
 
-**Rendering di e-mail:** richiede l&#39;integrazione con Litmus (licenza separata)
-**Tutti gli altri:** integrati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
-**Nota:** i profili di test richiedono il servizio Profilo cliente in tempo reale (incluso)
+**Modalità test:** No. Solo in percorsi in bozza
+**Esecuzione di prova:** Sì. Funziona su qualsiasi stato del percorso
+**Anteprima contenuto:** Sì. Puoi visualizzare l’anteprima di singoli messaggi in qualsiasi momento
+**Soluzione:** duplica il percorso live per ottenerne uno con lo stato “bozza” su cui puoi eseguire la convalida completa in modalità test
 
 +++
 
-+++**D: come posso testare le campagne attivate da API?**
++++**D: Quali funzionalità di test richiedono integrazioni esterne?**
 
-**Opzione 1:** Utilizza [API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} per test programmatici
-**Opzione 2:** Anteprima del contenuto con i profili di test nell&#39;interfaccia utente
-**Opzione 3:** Inviare bozze agli indirizzi e-mail di prova
-**Best practice:** combina tutti e tre per una convalida completa
+**Rendering di e-mail:** richiede l’integrazione Litmus (licenza separata)
+**Tutti gli altri:** incorporati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
+**Nota:** i profili di test richiedono il servizio profilo cliente in tempo reale (incluso)
+
++++
+
++++**D: Come posso testare le campagne attivate da API?**
+
+**Opzione 1:** utilizza [API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} per test programmatici
+**Opzione 2:** visualizza anteprima del contenuto con i profili di test nell’interfaccia utente
+**Opzione 3:** invia bozze per testare gli indirizzi e-mail
+**Best practice:** combina queste tre opzioni per una convalida completa
 
 +++
 

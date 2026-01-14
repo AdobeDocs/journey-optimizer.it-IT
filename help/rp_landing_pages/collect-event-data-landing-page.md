@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-07
 badge: label="Legacy" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La raccolta dei dati evento in Adobe Journey Optimizer consente di tenere tracci
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Guida introduttiva alla raccolta dati per la gestione delle decisioni
 
@@ -35,7 +35,7 @@ Scopri i concetti di base sulla raccolta dati per la gestione delle decisioni, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Come creare un set di dati per raccogliere eventi di esperienze
 
@@ -45,7 +45,7 @@ Segui le istruzioni dettagliate per creare un set di dati e uno schema per la ra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare l’acquisizione di dati evento per la gestione delle decisioni
 

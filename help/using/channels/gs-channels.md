@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: c4e877b0d064938ef3a3bc7e67fc5dc00aa09bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ I canali di consegna dei messaggi in uscita comportano l’invio di messaggi all
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canale e-mail
 
@@ -37,7 +37,7 @@ Scopri come creare, configurare e ottimizzare campagne e-mail, incluse le best p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canale per notifiche push
 
@@ -47,7 +47,7 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messaggistica RCS/MMS/SMS
 
@@ -57,7 +57,7 @@ Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagne direct mail
 
@@ -75,7 +75,7 @@ Con le esperienze in entrata per app mobili e web, la clientela avvia le interaz
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messaggistica in-app
 
@@ -85,7 +85,7 @@ Scopri come configurare, progettare e personalizzare le notifiche in-app per le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Scopri come creare, configurare e personalizzare le esperienze web e integrare i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Esperienza basata su codice
 
@@ -105,7 +105,7 @@ Approfondisci le esperienze basate su codice per distribuire contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Schede di contenuto
 
@@ -130,9 +130,9 @@ In Adobe Journey Optimizer, puoi sfruttare i canali di comunicazione in due cont
 
 - **Campagne**: distribuisci campagne di marketing specifiche che utilizzano un determinato canale per raggiungere gli obiettivi desiderati. Che si tratti di promuovere un nuovo prodotto o di stimolare le vendite stagionali, le campagne consentono di definire strategie di messaggistica mirate e personalizzate per il pubblico. [Scopri come creare ed eseguire una campagna](../campaigns/get-started-with-campaigns.md).
 
-La tabella seguente mostra la disponibilità di ciascun canale nei diversi percorsi e campagne, indicando dove sono supportati.
+La tabella seguente mostra la disponibilità di ciascun canale nei diversi tipi di campagne e percorsi, indicando dove sono supportati.
 
-| Canale | Percorsi | Campagne di azione (marketing) | Campagne di azione (transazionali) | Campagne attivate da API | Campagne orchestrate |
+| Canale | Percorsi | Campagne con azioni (marketing) | Campagne con azioni (transazionali) | Campagne attivate da API | Campagne orchestrate |
 |----------------------|----------|------------------------------|----------------------------------|-------------------------|------------------------|
 | E-mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -141,6 +141,6 @@ La tabella seguente mostra la disponibilità di ciascun canale nei diversi perco
 | Direct mail | ✅ | ✅ | — | — | — |
 | Web | ✅ | ✅ | — | — | — |
 | Esperienza basata su codice | ✅ | ✅ | — | — | — |
-| Schede di contenuto | ✅ | ✅ | — | — | — |
+| Schede contenuto | ✅ | ✅ | — | — | — |
 | WhatsApp | ✅ | ✅ | — | — | — |
 | LINE | ✅ | ✅ | — | — | — |

@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Guardrail e limitazioni {#limitations}
 
-Di seguito sono riportati guardrail e limitazioni relativi all&#39;utilizzo di [!DNL Adobe Journey Optimizer].
+Di seguito troverai ulteriori guardrail e limitazioni durante l’utilizzo di [!DNL Adobe Journey Optimizer].
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -42,9 +42,9 @@ A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di d
 
 Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
 
-## Canali e messaggi {#channel-guardrails}
+## Messaggistica e canali {#channel-guardrails}
 
-Questa sezione descrive i guardrail per tutti i canali di comunicazione, inclusi e-mail, SMS, canali in entrata (web, in-app, basati su codice, schede di contenuto) e messaggi transazionali.
+Questa sezione illustra i guardrail per tutti i canali di comunicazione, inclusi e-mail, SMS, canali in entrata (web, in-app, basati su codice, schede di contenuto) e messaggi transazionali.
 
 >[!NOTE]
 >
@@ -118,9 +118,9 @@ Adobe consiglia di impostare il valore TTL su 14 giorni, in modo che corrisponda
 
 Journey Optimizer supporta un volume massimo di 500 messaggi transazionali al secondo nelle campagne.
 
-## Contenuti e Assets {#content-assets}
+## Contenuti e risorse {#content-assets}
 
-Questa sezione descrive i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
+Questa sezione illustra i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
 
 ### Guardrail delle pagine di destinazione {#lp-guardrails}
 
@@ -128,7 +128,7 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 
 * Solo un componente **Modulo** può essere utilizzato in una singola pagina principale.
 * Il componente **Modulo** non può essere utilizzato nelle pagine secondarie.
-* Non puoi aggiungere una preintestazioni  a una pagina di destinazione.
+* Non puoi aggiungere una preintestazione a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
 ### Guardrail per i sottodomini {#subdomain-guardrails}
@@ -150,7 +150,7 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 
 ## Tipi di pubblico e profili {#audiences-profiles}
 
-Questa sezione descrive i guardrail per la gestione dell’audience, la gestione del profilo e considerazioni di profilo coinvolgibili.
+Questa sezione illustra i guardrail per la gestione del pubblico, la gestione del profilo e le considerazioni per i profili da coinvolgere.
 
 ### Guardrail del profilo e del pubblico {#audience}
 
@@ -166,14 +166,14 @@ Questa sezione descrive i guardrail per la gestione dell’audience, la gestione
 
 ### Guardrail per la funzione Decisioni e la gestione delle decisioni {#decisioning-guardrails}
 
-I guardrail e le limitazioni da tenere presenti quando si lavora con Decisioning o Gestione delle decisioni sono descritti in queste sezioni relative alla gestione delle decisioni e delle decisioni:
+I guardrail e le limitazioni da tenere presenti quando si lavora con la funzione Decisioni o la gestione delle decisioni sono descritti nelle seguenti sezioni:
 
 * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
 * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
 
 ## Percorsi {#journeys-guardrails}
 
-Questa sezione descrive i guardrail e le limitazioni per i percorsi, incluse le limitazioni generali del percorso, i componenti del percorso (azioni, eventi, origini dati), le attività del percorso e funzioni specifiche come le azioni personalizzate e l’editor di espressioni.
+Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le limitazioni generali, i componenti (azioni, eventi, origini dati), le attività e funzioni specifiche come le azioni personalizzate e l’editor di espressioni.
 
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 

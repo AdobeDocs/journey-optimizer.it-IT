@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Introduzione
+title: Guida introduttiva
 description: Scopri come iniziare a utilizzare l’API della Libreria di offerte per eseguire operazioni chiave utilizzando il motore decisionale.
 badge: label="Legacy" type="Informative"
 feature: Decision Management, API
@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -80,5 +80,5 @@ Questo documento tratta le conoscenze preliminari necessarie per effettuare chia
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342830?captions=ita&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

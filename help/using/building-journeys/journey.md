@@ -2,120 +2,120 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai percorsi
-description: 'Guida introduttiva ai percorsi: scopri tipi di percorso, flusso di lavoro, funzionalità e best practice per creare esperienze cliente personalizzate in Adobe Journey Optimizer'
+description: 'Introduzione ai percorsi: informazioni sui tipi di percorso, flusso di lavoro, funzionalità e best practice per creare esperienze cliente personalizzate in Adobe Journey Optimizer'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: percorsi, discovery, get-start, unitario, pubblico di lettura, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
+keywords: percorso, informazioni, guida introduttiva, unitario, leggi pubblico, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1448'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # Introduzione ai percorsi{#jo-general-principle}
 
-Adobe Journey Optimizer ti consente di creare percorsi di clienti personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
+Adobe Journey Optimizer consente di creare percorsi cliente personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
 
 Questa guida fornisce una roadmap chiara per aiutarti a comprendere le nozioni di base del percorso, scegliere il tipo di percorso adatto al tuo caso d’uso e progettare con sicurezza percorsi che forniscano esperienze cliente significative e tempestive.
 
-## Cosa sono i percorsi?
+## Che cosa sono i percorsi?
 
-**Percorsi** sono esperienze cliente automatizzate e a più passaggi che orchestrano interazioni personalizzate tra canali in risposta al comportamento del cliente, a eventi di business o a campagne pianificate.
+I **percorsi** sono esperienze cliente automatizzate e a più passaggi che orchestrano interazioni personalizzate in canali diversi in risposta al comportamento del cliente, a eventi di business o a campagne pianificate.
 
 Utilizza [!DNL Journey Optimizer] per:
 
-* Crea **orchestrazione in tempo reale** casi d&#39;uso utilizzando dati contestuali archiviati in eventi o origini dati
-* Progetta **scenari avanzati a più passaggi** che rispondono in modo dinamico al comportamento del cliente e agli eventi di business
-* Distribuisci **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
+* Creare casi d’uso di **orchestrazione in tempo reale** utilizzando dati contestuali memorizzati negli eventi o nelle origini dati
+* Progettare **scenari avanzati a più passaggi** che rispondono in modo dinamico al comportamento del cliente e agli eventi di business
+* Consegnare **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
 
-![Interfaccia di Progettazione Percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
+![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
-➡️ **Inizio generazione?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
+➡️ **Vuoi iniziare subito?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
 
-### Percorsi e campagne: quando utilizzarle {#journeys-vs-campaigns-intro}
+### Percorsi o campagne: quando utilizzare l’uno o l’altra {#journeys-vs-campaigns-intro}
 
-Adobe Journey Optimizer offre tre approcci per raggiungere i clienti: **Percorsi** (1:1 orchestrazione in tempo reale), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch con dati di più entità).
+Adobe Journey Optimizer offre tre approcci per raggiungere la clientela: **Percorsi** (1:1 orchestrazione in tempo reale), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro con aree di lavoro in batch con dati di più entità).
 
 **Decisione rapida:**
 
 * Utilizza **Percorsi** per esperienze con più passaggi basate sul comportamento, in cui ogni cliente procede al proprio ritmo
 * Utilizza **Campagne Azione/API** per la consegna di messaggi semplice, pianificata o attivata ai tipi di pubblico
-* Utilizza **Campagne orchestrate** per flussi di lavoro batch complessi che richiedono segmentazione di più entità e conteggi pre-invio esatti
+* Utilizza **Campagne orchestrate** per flussi di lavoro in batch complessi che richiedono segmentazione di più entità e conteggi pre-invio esatti
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
 
-## Scegli il tipo di percorso {#journey-types}
+## Scegliere il tipo di percorso {#journey-types}
 
 Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
 
-* **percorsi unitari**: esperienze in tempo reale attivate da eventi (conferme d&#39;ordine, e-mail di benvenuto)
-* **Leggi percorsi di pubblico**: comunicazioni batch pianificate ai segmenti di pubblico (newsletter, campagne promozionali)
-* **percorsi di qualificazione del pubblico**: risposte in tempo reale alle modifiche di iscrizione al pubblico (aggiornamenti di VIP, ricoinvolgimento)
-* **percorsi di eventi aziendali**: condizioni aziendali che interessano più clienti (avvisi di inventario, vendite flash)
+* **Percorsi unitari**: esperienze in tempo reale attivate da eventi (conferme d’ordine, e-mail di benvenuto)
+* **Percorsi Leggi pubblico**: comunicazioni in batch pianificate ai segmenti di pubblico (newsletter, campagne promozionali)
+* **Percorsi di qualificazione del pubblico**: risposte in tempo reale alle modifiche di appartenenza al pubblico (aggiornamenti di VIP, ricoinvolgimento)
+* **Percorsi di eventi di business**: condizioni aziendali che interessano più clienti (avvisi di inventario, vendite flash)
 
 <!-- waiting for DOCAC-13912 
 ➡️ **[Journey types and selection guide](journey-types-selection.md)** - Detailed comparison, decision tree, and feature compatibility matrix -->
 
-## Creare con il progettista del percorso {#journey-designer}
+## Creare con designer percorsi {#journey-designer}
 
-**[Progettazione percorsi](using-the-journey-designer.md)** è l&#39;area di lavoro visiva per la creazione di esperienze cliente. Grazie all&#39;intuitiva interfaccia di trascinamento, è possibile orchestrare ogni passaggio del percorso senza scrivere codice.
+Il **[designer percorsi](using-the-journey-designer.md)** è l’area di lavoro visiva per la creazione di esperienze cliente. Grazie all’intuitiva interfaccia di trascinamento, è possibile orchestrare ogni passaggio del percorso senza scrivere codice.
 
-![Interfaccia di Progettazione Percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
+![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
-### Operazioni possibili nella finestra di progettazione:
+### Cosa puoi fare nel designer:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-**Definisci i punti di ingresso**
+**Definire i punti di ingresso**
 
-Scegli come i clienti inseriscono: attraverso un evento, un segmento di pubblico o una qualificazione del pubblico.
+Scegli come si verificherà l’ingresso nel percorso: attraverso un evento, un segmento di pubblico o la qualificazione del pubblico.
 
-[Informazioni sulla gestione delle voci](entry-management.md)
+[Informazioni sulla gestione degli ingressi](entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Inviare messaggi**
 
-Utilizza azioni di canale integrate per e-mail, push, SMS/MMS, in-app, web e altro, tutte progettate in Journey Optimizer.
+Utilizza azioni di canale incorporate per e-mail, push, SMS/MMS, in-app, web e altro, tutte progettate in Journey Optimizer.
 
-[Inviare messaggi in percorsi](journeys-message.md)
+[Aggiungere messaggi nei percorsi](journeys-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-**Aggiungi logica e condizioni**
+**Aggiungere logica e condizioni**
 
-Crea un ramo del percorso in base agli attributi del profilo, all’iscrizione al pubblico o a eventi in tempo reale.
+Crea un ramo del percorso in base agli attributi profilo, all’appartenenza al pubblico o a eventi in tempo reale.
 
 [Condizioni d’uso](condition-activity.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Sfruttare i dati**
 
 Utilizza dati contestuali provenienti da eventi, Adobe Experience Platform o servizi API di terze parti.
 
-[Utilizzare le origini dati](../datasource/about-data-sources.md)
+[Utilizzare origini dati](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-**Connetti sistemi esterni**
+**Connettere sistemi esterni**
 
 Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di messaggi o l’attivazione di flussi di lavoro.
 
@@ -123,166 +123,166 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-**Aggiungi attività di orchestrazione**
+**Aggiungere attività di orchestrazione**
 
-Utilizza tempi di attesa, salti, aggiornamenti del profilo e gestione dell&#39;audience per creare flussi sofisticati.
+Utilizza tempi di attesa, salti, aggiornamenti del profilo e gestione del pubblico per creare flussi sofisticati.
 
-[Esplora tutte le attività](about-journey-activities.md)
+[Esplorare tutte le attività](about-journey-activities.md)
 :::
 
 ::::
 
-➡️ **Apprendimento pratico:** [Guarda il video di Progettazione percorsi](#video) o [esplora casi d&#39;uso end-to-end](jo-use-cases.md)
+➡️ **Apprendimento pratico:** [guarda il video del designer percorsi](#video) o [esplora casi d’uso end-to-end](jo-use-cases.md)
 
 ## Flusso di lavoro di creazione del percorso {#workflow}
 
 La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di seguito è riportato il flusso di lavoro dettagliato:
 
-**1. Piano** → **2. Progettazione** → **3. Test** → **4. Pubblica** → **5. Monitora** → **6. Ottimizza**
+**1. Pianifica** → **2. Progetta** → **3. Testa** → **4. Pubblica** → **5. Monitora** → **6. Ottimizza**
 
 ### &#x200B;1. Pianificare il percorso {#plan}
 
-Prima di aprire la finestra di progettazione, specificare gli obiettivi:
+Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l&#39;obiettivo?** (ad esempio, per integrare nuovi clienti, coinvolgere nuovamente gli utenti inattivi)
+* **Qual è l’obiettivo?** (ad esempio, per dare il benvenuto alla nuova clientela, coinvolgi gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
-* **Quale tipo di percorso è adatto?** (vedi [Tipi di percorso](#journey-types) sopra)
+* **Quale tipo di percorso è adatto?** (consulta [Tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
 
-### &#x200B;2. Progettazione nel quadro {#design}
+### &#x200B;2. Progettare nell’area di lavoro {#design}
 
-Utilizza Progettazione percorsi per generare il flusso:
+Utilizza il designer percorsi per generare il flusso:
 
-* **Imposta condizioni di ingresso** - Definisci come entrano i profili (evento, pubblico, qualifica)
-* **Aggiungi logica di orchestrazione** - Include tempi di attesa, condizioni e punti decisionali
-* **Configura messaggi** - Progetta le comunicazioni o sfrutta i modelli esistenti
-* **Imposta azioni** - Configura azioni predefinite o personalizzate da eseguire
-* **Definisci i criteri di uscita** - Specifica quando e come i profili completano il percorso
+* **Imposta le condizioni di ingresso**: definisci come verrà determinato l’ingresso dei profili (evento, pubblico, qualificazione)
+* **Aggiungi la logica di orchestrazione**: include tempi di attesa, condizioni e punti decisionali
+* **Configura i messaggi**: progetta le comunicazioni o sfrutta i modelli esistenti
+* **Configura le azioni**: configura le azioni incorporate o personalizzate da eseguire
+* **Definisci i criteri di uscita**: specifica quando e come i profili completano il percorso
 
-[Scopri come utilizzare la → di Progettazione percorsi](using-the-journey-designer.md)
+[Scopri come utilizzare il designer percorsi →](using-the-journey-designer.md)
 
-### &#x200B;3. Eseguire il test prima della pubblicazione {#test}
+### &#x200B;3. Testare prima della pubblicazione {#test}
 
-Esegui sempre il test del percorso per individuare eventuali problemi prima che si verifichino:
+Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
-* Utilizza la **modalità di test** per simulare il percorso con profili di test
-* Utilizza **prova** per visualizzare in anteprima l&#39;esecuzione del percorso senza influire sui dati reali o inviare messaggi
+* Utilizza la **modalità test** per simulare il percorso con profili di test
+* Utilizza l’**esecuzione di prova** per visualizzare in anteprima l’esecuzione del percorso senza influire sui dati reali o inviare messaggi
 * Verifica che tutte le condizioni, i messaggi e le azioni funzionino come previsto
-* Controllare tempistica, flussi di dati e personalizzazione
+* Controlla tempistica, flussi di dati e personalizzazione
 
-[Verifica il percorso →](testing-the-journey.md) | [Informazioni sull&#39;esecuzione →](journey-dry-run.md)
+[Testa il percorso →](testing-the-journey.md) | [Informazioni sull’esecuzione di prova →](journey-dry-run.md)
 
 ### &#x200B;4. Pubblicare il percorso {#publish}
 
-Una volta completato il test, pubblica per rendere attivo il percorso:
+Una volta completato il test, pubblica per rendere live il percorso:
 
-* Verifica impostazioni e proprietà finali
-* Pubblica per attivare per clienti reali
+* Rivedi le impostazioni e le proprietà finali
+* Pubblica per attivare per clientela reale
 * Nota: i percorsi live possono essere interrotti ma non modificati (è necessario creare una nuova versione)
 
-[Pubblicare il → di percorso](publish-journey.md)
+[Pubblica il percorso →](publish-journey.md)
 
 ### &#x200B;5. Monitorare le prestazioni {#monitor}
 
-Monitora le prestazioni del percorso nel mondo reale:
+Tieni traccia delle prestazioni del percorso nel mondo reale:
 
-* Visualizzare report e analisi di percorso
-* Monitorare l&#39;immissione, il completamento e le percentuali di errore
-* Impostare gli avvisi per i problemi critici
+* Visualizza rapporti e analisi del percorso
+* Monitora l’ingresso, il completamento e i tassi di errore
+* Configura gli avvisi per i problemi critici
 
-[Monitora e segnala →](report-journey.md) | [Configura avvisi →](../reports/alerts.md)
+[Monitora e segnala →](report-journey.md) | [Configura gli avvisi →](../reports/alerts.md)
 
-### &#x200B;6. Ottimizzare e ripetere {#optimize}
+### &#x200B;6. Ottimizzare ed eseguire l’iterazione {#optimize}
 
 Utilizza le informazioni per migliorare:
 
-* Analizzare le metriche di coinvolgimento e i tassi di conversione
-* Ottimizzazione del tempo di invio dei test
-* Creazione di nuove versioni di percorso con miglioramenti
-* Utilizzare consigli basati sull’intelligenza artificiale
+* Analizza le metriche di coinvolgimento e i tassi di conversione
+* Testa l’ottimizzazione del tempo di invio
+* Crea nuove versioni di percorso con miglioramenti
+* Utilizza consigli basati sull’intelligenza artificiale
 
-[Ottimizza i percorsi →](optimize.md) | [Ottimizzazione dell&#39;ora di invio →](send-time-optimization.md)
+[Ottimizza i percorsi →](optimize.md) | [Ottimizzazione del tempo di invio →](send-time-optimization.md)
 
-➡️ **Inizio?** [Crea il tuo primo percorso ora →](journey-gs.md)
+➡️ **Vuoi iniziare?** [Crea il primo percorso ora →](journey-gs.md)
 
-## Casi d’uso reali {#use-cases}
+## Casi d’uso del mondo reale {#use-cases}
 
-Scopri dagli esempi pratici che mostrano come applicare concetti di percorso per risolvere le problematiche di marketing comuni:
+Scopri dagli esempi pratici che dimostrano come applicare concetti di percorso per risolvere le sfide di marketing comuni:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-**Nuovi abbonati**
+**Dare il benvenuto a chi si iscrive**
 
-Quando un cliente si abbona al servizio, attiva un percorso di benvenuto che li incoraggia a completare i passaggi di onboarding.
+Quando un cliente si iscrive al servizio, attiva un percorso di benvenuto che lo incoraggi a completare i passaggi di onboarding.
 
-[Visualizza → del caso d’uso](message-to-subscribers-uc.md)
+[Visualizza caso d’uso →](message-to-subscribers-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
-**Ottimizzazione dell&#39;ora di invio**
+**Ottimizzazione del tempo di invio**
 
-Utilizza l’intelligenza artificiale per inviare e-mail quando è più probabile che ogni cliente si interessi, massimizzando le percentuali di apertura e clic.
+Utilizza l’intelligenza artificiale per inviare e-mail quando il coinvolgimento del cliente è più probabile, massimizzando i tassi di apertura e clic.
 
-[Visualizza → del caso d’uso](send-time-optimization.md)
+[Visualizza caso d’uso →](send-time-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Incrementa le consegne**
+**Incrementare gradualmente le consegne**
 
-Aumenta gradualmente il volume dei messaggi per migliorare la reputazione del mittente ed evitare problemi di recapito dei messaggi.
+Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell’invio ed evitare problemi di recapitabilità.
 
-[Visualizza → del caso d’uso](ramp-up-deliveries-uc.md)
+[Visualizza caso d’uso →](ramp-up-deliveries-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-**Destinazione per giorno feriale**
+**Target per giorno feriale**
 
-Inviare contenuti diversi in base al giorno della settimana in cui i clienti inseriscono il percorso, per maggiore rilevanza.
+Invia contenuti diversi in base al giorno della settimana in cui si verifica l’ingresso nel percorso, per migliorarne la rilevanza.
 
-[Visualizza → del caso d’uso](weekday-email-uc.md)
+[Visualizza caso d’uso →](weekday-email-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagne multicanale**
 
-Organizza esperienze senza soluzione di continuità tra canali e-mail, push, SMS e web in un unico percorso.
+Orchestra esperienze semplici tra canali e-mail, push, SMS e web in un unico percorso.
 
-[Visualizza → del caso d’uso](journeys-uc.md)
+[Visualizza caso d’uso →](journeys-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-**Tutti i casi d&#39;uso**
+**Tutti i casi d’uso**
 
-Esplora la libreria completa dei casi di utilizzo del percorso con implementazioni dettagliate.
+Esplora la libreria completa dei casi d’uso del percorso con implementazioni dettagliate.
 
-[Sfoglia tutte le →](jo-use-cases.md) | [Libreria casi d&#39;uso →](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[Sfoglia tutti →](jo-use-cases.md) | [Libreria casi d’uso →](/help/rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
 
-## Esplora le funzionalità del percorso {#capabilities}
+## Esplorare le funzionalità del percorso {#capabilities}
 
 Man mano che acquisisci dimestichezza con la creazione del percorso, esplora queste potenti funzionalità per creare esperienze cliente sofisticate:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Espressioni avanzate**
 
@@ -292,7 +292,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestione del fuso orario**
 
@@ -302,37 +302,37 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-**Modalità di test ed esecuzione a secco**
+**Modalità test ed esecuzione di prova**
 
-Convalida i percorsi con i profili di test prima della pubblicazione e visualizza l’esecuzione dell’anteprima senza influire sui dati reali.
+Convalida i percorsi con i profili di test prima della pubblicazione e visualizza in anteprima l’esecuzione senza influire sui dati reali.
 
-[Utilizzare la prova a secco](journey-dry-run.md)
+[Utilizzare l’esecuzione di prova](journey-dry-run.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
-**Copia nella sandbox**
+**Copiare nella sandbox**
 
-Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e distribuzione.
+Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e implementazione.
 
-[Copia percorsi](copy-to-sandbox.md)
+[Copiare i percorsi](copy-to-sandbox.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tag e organizzazione**
 
 Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione su larga scala.
 
-[Organizzazione con tag](tags.md)
+[Organizzare con i tag](tags.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo velocità effettiva**
 
@@ -343,15 +343,15 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 ::::
 
-[Visualizza tutte le funzionalità di percorso →](/help/rp_landing_pages/manage-journey-landing-page.md)
+[Visualizza tutte le funzionalità del percorso →](/help/rp_landing_pages/manage-journey-landing-page.md)
 
-## Imparare guardando {#video}
+## Apprendere guardando {#video}
 
-Ottieni un’introduzione visiva ai componenti di percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
+Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Desideri altri video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Desideri più video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Domande comuni {#common-questions}
 
@@ -359,13 +359,13 @@ Ottieni un’introduzione visiva ai componenti di percorso e scopri le nozioni d
 
 Adobe Journey Optimizer offre tre approcci:
 
-* **Percorsi**: 1:1 orchestrazione in tempo reale in cui ogni profilo procede secondo il proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
+* **Percorsi**: 1:1 orchestrazione in tempo reale in cui ogni profilo percorre i diversi passaggi al proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
 
-* **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi ai tipi di pubblico, in esecuzione simultanea a tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
+* **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi al pubblico, con esecuzione simultanea per tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
 
-* **Campagne orchestrate**: flussi di lavoro batch con più passaggi e segmentazione complessa utilizzando dati relazionali (profili + prodotti/negozi/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, avvii di prodotti, campagne che richiedono dati su più entità.
+* **Campagne orchestrate**: flussi di lavoro in batch con più passaggi e segmentazione complessa utilizzando dati relazionali (profili + prodotti/negozi/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, lanci di prodotti, campagne che richiedono dati su più entità.
 
-**Differenza chiave**: i Percorsi mantengono uno stato cliente individuale per le azioni in tempo reale; le campagne Azione/API distribuiscono messaggi semplici in batch; le campagne orchestrate forniscono l&#39;area di lavoro del flusso di lavoro batch con funzionalità di segmentazione multi-entità.
+**Differenze chiave**: i percorsi mantengono lo stato dei singoli clienti per le azioni in tempo reale; le campagne con azioni o attivate da API consegnano messaggi semplici in batch; le campagne orchestrate forniscono un’area di lavoro con flusso di lavoro in batch con funzionalità di segmentazione per più entità.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
@@ -382,31 +382,31 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++ Posso modificare un percorso live?
 
-Puoi modificare elementi limitati (nome, contenuto del messaggio), ma le modifiche strutturali richiedono la creazione di una nuova versione. [Informazioni sulle versioni di percorso](publish-journey.md#journey-versions)
+Puoi modificare elementi limitati (nome, contenuto del messaggio), ma le modifiche strutturali richiedono la creazione di una nuova versione. [Informazioni sulle versioni del percorso](publish-journey.md#journey-versions)
 
 +++
 
-➡️ **Altre domande?** [Visualizza le domande frequenti complete sul Percorso](journey-faq.md) con più di 40 risposte dettagliate
+➡️ **Altre domande?** [Visualizza le domande frequenti complete sul percorso](journey-faq.md) con più di 40 risposte dettagliate
 
 ## Hai bisogno di aiuto? {#help}
 
 ### Collegamenti rapidi per le attività comuni
 
-* **[Crea il tuo primo percorso](journey-gs.md)** - Guida dettagliata per principianti
-* **[Domande frequenti sui Percorsi](journey-faq.md)** - Risposte alle domande comuni
-* **[Risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - Diagnosi e risoluzione dei problemi
-* **[Riferimento codici errore](error-codes-reference.md)** - Comprendere i messaggi di errore
-* **[Guardrail e limitazioni](../start/guardrails.md)** - Limiti tecnici e best practice
+* **[Crea il tuo primo percorso](journey-gs.md)**: guida dettagliata per principianti
+* **[Domande frequenti sul percorso](journey-faq.md)**: risposte alle domande comuni
+* **[Risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**: diagnosi e correzione dei problemi
+* **[Riferimento codici errore](error-codes-reference.md)**: comprendere i messaggi di errore
+* **[Guardrail e limitazioni](../start/guardrails.md)**: limiti tecnici e best practice
 
-### Ricevi notifiche sui problemi
+### Ricevere notifiche sui problemi
 
-Configura **[avvisi di percorso](../reports/alerts.md)** per ricevere notifiche in tempo reale quando i percorsi rilevano errori o pattern insoliti.
+Configura gli **[avvisi di percorso](../reports/alerts.md)** per ricevere notifiche in tempo reale quando i percorsi rilevano errori o pattern insoliti.
 
 ### Risorse aggiuntive
 
-* **[Hub gestione Percorsi](/help/rp_landing_pages/manage-journey-landing-page.md)** - Strumenti per filtrare, ottimizzare e gestire profili
-* **[Riferimento attività Percorso](/help/rp_landing_pages/about-journey-building-landing-page.md)** - Guida completa a tutti i tipi di attività
-* **[Risoluzione dei problemi di esecuzione](troubleshooting-execution.md)** - Debug dei problemi di esecuzione del percorso
-* **[Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)** - Correzione dei problemi di immissione e qualificazione
+* **[Hub per la gestione del percorso](/help/rp_landing_pages/manage-journey-landing-page.md)**: strumenti per filtrare, ottimizzare e gestire profili
+* **[Riferimento alle attività di percorso](/help/rp_landing_pages/about-journey-building-landing-page.md)**: guida completa a tutti i tipi di attività
+* **[Risoluzione dei problemi di esecuzione](troubleshooting-execution.md)**: eseguire il debug dei problemi di esecuzione del percorso
+* **[Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)**: correzione dei problemi di immissione e qualificazione
 
-**Creare il primo percorso?** [Introduzione →](journey-gs.md)
+**Vuoi creare il tuo primo percorso?** [Inizia ora →](journey-gs.md)

@@ -5,7 +5,7 @@ title: Guida di Adobe Journey Optimizer
 description: Guida di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -14,16 +14,16 @@ ht-degree: 100%
 
 # Guida di Adobe Journey Optimizer{#section-overview}
 
-Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere gli obiettivi con sicurezza sia per marketer, analista dati o responsabile della campagna.
+Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere con sicurezza i tuoi obiettivi di marketer, analista dati o responsabile della campagna.
 
 ## Guida di Adobe Journey Optimizer
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Consulta Adobe Journey Optimizer
+Introduzione ad Adobe Journey Optimizer
 
 Scopri le nozioni di base di Adobe Journey Optimizer, incluse le funzionalità, l’architettura e l’interfaccia utente.
 
@@ -31,7 +31,7 @@ Scopri le nozioni di base di Adobe Journey Optimizer, incluse le funzionalità, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -41,7 +41,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -51,7 +51,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
