@@ -349,7 +349,7 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
 
 ➡️ **Desideri più video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
