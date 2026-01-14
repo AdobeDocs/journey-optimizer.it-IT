@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 19%
 
 ---
@@ -30,12 +30,7 @@ Per creare messaggi di direct mailing, crea una campagna pianificata e configura
 >1. Una [configurazione di indirizzamento file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui deve essere caricato e memorizzato il file di estrazione,
 >1. [configurazione del messaggio di direct mailing](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
 
-
 ## Creare una campagna di direct mailing{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->Direct Mail supporta la funzionalità di sospensione, ma al momento non supporta i trattamenti.
 
 Per creare una campagna di direct mailing, devi impostare una campagna pianificata, selezionare il pubblico di destinazione e configurare le impostazioni della direct mailing, inclusa la configurazione del messaggio. Segui questi passaggi:
 
@@ -62,6 +57,10 @@ Per creare una campagna di direct mailing, devi impostare una campagna pianifica
 1. Selezionare o creare una **[!UICONTROL configurazione direct mailing]** da utilizzare. [Scopri come creare una configurazione di direct mailing](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >Direct Mail supporta la funzionalità **Holdout** ma non supporta attualmente **Trattamenti**. [Scopri come utilizzare gli esperimenti](../content-management/get-started-experiment.md)
 
 1. Le campagne possono essere pianificate per una data specifica o impostate per essere ricorrenti a intervalli regolari. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/campaign-schedule.md).
 
