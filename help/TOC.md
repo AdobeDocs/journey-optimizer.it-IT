@@ -7,15 +7,15 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
-source-wordcount: '3061'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -48,7 +48,7 @@ ht-degree: 98%
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
       + [IA e funzioni intelligenti](using/start/ai-features.md)
       + [Accessibilità](using/start/accessibility.md)
-      + [Percorsi e campagne](using/start/journeys-vs-campaigns.md)
+      + [Percorsi o campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
    + [Guida introduttiva al percorso](using/building-journeys/journey-get-started.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
    + Gestire i percorsi {#manage-journey}
       + [Gestire i percorsi](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [Sfogliare e filtrare i percorsi](using/building-journeys/journey-ui.md)
-      + [Organizzazione con tag](using/building-journeys/tags.md)
+      + [Organizzare con i tag](using/building-journeys/tags.md)
       + [Ingresso dei profili nei percorsi](using/building-journeys/entry-management.md)
       + [Utilizzare identificatori supplementari nei percorsi](using/building-journeys/supplemental-identifier.md)
       + [Utilizzare gli eventi dei passaggi del percorso](using/reports/journey-step-events-overview.md)
@@ -126,7 +126,7 @@ ht-degree: 98%
       + [Ricerca eventi esperienza](using/building-journeys/exp-event-lookup.md)
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/ajo-ac.md)
-      + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
+      + [Inviare un messaggio agli iscritti](using/building-journeys/message-to-subscribers-uc.md)
       + [Inviare e-mail solo nei giorni feriali](using/building-journeys/weekday-email-uc.md)
       + [Trasmettere le raccolte nei parametri delle azioni personalizzate](using/building-journeys/collections.md)
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
@@ -137,15 +137,15 @@ ht-degree: 98%
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Accedere e gestire le campagne](using/campaigns/manage-campaigns.md)
    + [Ore di silenzio](using/campaigns/quiet-hours.md)
-   + Campagne di azione {#action-campaigns}
-      + [Campagne di azione](/help/rp_landing_pages/action-campaigns-landing-page.md)
-      + [Utilizzare le campagne di azione](using/campaigns/create-campaign.md)
+   + Campagne con azioni {#action-campaigns}
+      + [Campagne con azioni](/help/rp_landing_pages/action-campaigns-landing-page.md)
+      + [Utilizzare le campagne con azioni](using/campaigns/create-campaign.md)
       + [Definire le proprietà della campagna](using/campaigns/campaign-properties.md)
       + [Configurare l’azione della campagna](using/campaigns/campaign-action.md)
       + [Modificare il contenuto della campagna](using/campaigns/campaign-content.md)
       + [Definire il pubblico della campagna](using/campaigns/campaign-audience.md)
       + [Pianificare la campagna](using/campaigns/campaign-schedule.md)
-      + [Rivedere e attivare una campagna di azione](using/campaigns/review-activate-campaign.md)
+      + [Rivedere e attivare una campagna con azioni](using/campaigns/review-activate-campaign.md)
    + Campagne attivate da API {#api-triggered-campaigns}
       + [Campagne attivate da API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
       + [Utilizzare le campagne attivate da API](using/campaigns/api-triggered-campaigns.md)
@@ -219,8 +219,8 @@ ht-degree: 98%
       + [Impostare le ore di silenzio](using/conflict-prioritization/quiet-hours.md)
 + Testare e approvare {#test}
    + [Test, convalida e approvazione](/help/rp_landing_pages/test-landing-page.md)
-   + Anteprima e test del contenuto {#preview-test}
-      + [Anteprima e test del contenuto](/help/rp_landing_pages/preview-test-landing-page.md)
+   + Anteprima e test dei contenuti {#preview-test}
+      + [Anteprima e test dei contenuti](/help/rp_landing_pages/preview-test-landing-page.md)
       + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
       + [Selezionare i profili di test](using/content-management/test-profiles.md)
       + [Visualizzare l’anteprima utilizzando i profili di test](using/content-management/preview.md)
@@ -236,7 +236,7 @@ ht-degree: 98%
       + [Richiedere un’approvazione](using/test-approve/request-approval.md)
       + [Approvare una richiesta](using/test-approve/review-approve-request.md)
 + Monitorare e risolvere i problemi {#monitor}
-   + [Guida introduttiva al monitoraggio e alla risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Introduzione al monitoraggio e alla risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Tracciamento in Journey Optimizer](using/start/get-started-tracking.md)
    + Recapitabilità delle e-mail {#deliverability}
       + [Introduzione alla recapitabilità](using/reports/deliverability.md)
@@ -373,8 +373,8 @@ ht-degree: 98%
          + [Utilizzare campi modificabili nelle esperienze basate su codice](using/code-based/code-based-form-fields.md)
          + [Testare le esperienze basate su codice](using/code-based/test-code-based.md)
          + [Gestire le esperienze basate su codice](using/code-based/publish-code-based.md)
-   + Schede di contenuto {#content-card}
-      + [Schede di contenuto](/help/rp_landing_pages/content-card-landing-page.md)
+   + Schede contenuto {#content-card}
+      + [Schede contenuto](/help/rp_landing_pages/content-card-landing-page.md)
       + Configurare il canale della scheda contenuto {#configure}
          + [Configurare il canale della scheda contenuto](/help/rp_landing_pages/configure-landing-page.md)
          + [Prerequisiti per le schede di contenuto](using/content-card/content-card-configuration-prereq.md)
@@ -624,12 +624,12 @@ ht-degree: 98%
             + [Cercare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
             + [Elenco strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
             + [Aggiornare strategie di selezione](using/experience-decisioning/api-reference/selection-strategies/update.md)
-         + Formule di classificazione {#ranking-formulas}
-            + [Creare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-            + [Eliminare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-            + [Cercare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-            + [Formule di classificazione della selezione](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-            + [Aggiornare formule di classificazione](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + Formule di ranking {#ranking-formulas}
+            + [Creare formule di ranking](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [Eliminare formule di ranking](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [Cercare formule di ranking](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [Formule di ranking della selezione](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [Aggiornare le formule di ranking](using/experience-decisioning/api-reference/ranking-formulas/update.md)
          + Regole di idoneità {#eligibility-rules}
             + [Creare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/create.md)
             + [Eliminare regole di idoneità](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
@@ -647,9 +647,9 @@ ht-degree: 98%
          + [Creare elementi decisionali](using/experience-decisioning/items.md)
          + [Gestire le raccolte di elementi](using/experience-decisioning/collections.md)
       + [Creare regole di decisione](using/experience-decisioning/rules.md)
-      + Creare classificazioni {#experience-decisioning-rankings}
-         + [Creare classificazioni](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
-         + [Creare metodi di classificazione](using/experience-decisioning/ranking/ranking.md)
+      + Creare il ranking {#experience-decisioning-rankings}
+         + [Creare il ranking](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
+         + [Creare metodi di ranking](using/experience-decisioning/ranking/ranking.md)
          + [Utilizzare il generatore di formule basato sull’IA](using/experience-decisioning/ranking/ranking-formulas.md)
          + Modelli di IA {#experience-decisioning-ai-models}
             + [Modelli di IA](/help/rp_landing_pages/experience-decisioning-ai-models-landing-page.md)
@@ -675,23 +675,23 @@ ht-degree: 98%
          + [Configurare l’acquisizione di eventi](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestione delle decisioni {#offer-decisioning}
       + [Gestione delle decisioni](/help/rp_landing_pages/offer-decisioning-landing-page.md)
-      + Consulta la gestione delle decisioni {#get-started-decision}
-         + [Consulta la gestione delle decisioni](/help/rp_landing_pages/get-started-decision-landing-page.md)
+      + Introduzione alla gestione delle decisioni {#get-started-decision}
+         + [Introduzione alla gestione delle decisioni](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
          + [Guardrail e limitazioni per la gestione delle decisioni](using/offers/decision-management-guardrails.md)
          + [Interfaccia utente](using/offers/get-started/user-interface.md)
          + [Passaggi chiave per creare e gestire le offerte](using/offers/offer-library/key-steps.md)
          + [Sfruttare i tipi di pubblico con caricamento personalizzato per la funzione Decisioni](using/offers/custom-upload-decisioning.md)
          + [Caso d’uso: inserire offerte in un messaggio e-mail](using/offers/offers-e2e.md)
-      + Creare componenti {#create-components}
-         + [Creare componenti](/help/rp_landing_pages/create-components-landing-page.md)
+      + Creare i componenti {#create-components}
+         + [Creare i componenti](/help/rp_landing_pages/create-components-landing-page.md)
          + [Creare i posizionamenti](using/offers/offer-library/creating-placements.md)
          + [Creare regole di decisione](using/offers/offer-library/creating-decision-rules.md)
          + [Creare qualificatori di raccolta](using/offers/offer-library/creating-tags.md)
-      + Creare classificazioni {#rankings}
-         + [Creare classificazioni](/help/rp_landing_pages/rankings-landing-page.md)
-         + [Introduzione alle classificazioni](using/offers/ranking/get-started-rankings.md)
-         + [Formule di classificazione](using/offers/ranking/create-ranking-formulas.md)
+      + Creare il ranking {#rankings}
+         + [Creare il ranking](/help/rp_landing_pages/rankings-landing-page.md)
+         + [Introduzione al ranking](using/offers/ranking/get-started-rankings.md)
+         + [Formule di ranking](using/offers/ranking/create-ranking-formulas.md)
          + Modelli di IA {#ai-models}
             + [Modelli di IA](/help/rp_landing_pages/ai-models-landing-page.md)
             + [Informazioni sui modelli di IA](using/offers/ranking/ai-models.md)
@@ -735,9 +735,9 @@ ht-degree: 98%
          + [Set di dati sulle decisioni](using/offers/export-catalog/export-decisions.md)
          + [Set di dati sui posizionamenti](using/offers/export-catalog/export-placements.md)
          + [Set di dati sui fallback](using/offers/export-catalog/export-fallback.md)
-      + Documentazione delle API {#api-reference}
-         + [Documentazione delle API](/help/rp_landing_pages/api-reference-landing-page.md)
-         + [Introduzione](using/offers/api-reference/getting-started.md)
+      + Riferimento API {#api-reference}
+         + [Riferimento API](/help/rp_landing_pages/api-reference-landing-page.md)
+         + [Guida introduttiva](using/offers/api-reference/getting-started.md)
          + Creare e gestire le offerte tramite API {#offers-api}
             + Posizionamenti {#placements}
                + [Elencare posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
@@ -825,8 +825,8 @@ ht-degree: 98%
                   + [Creare una decisione](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Aggiornare una decisione](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Eliminare una decisione](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + Distribuire offerte tramite API {#offer-delivery-api}
-            + [Distribuire offerte tramite API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
+         + Distribuire offerte utilizzando le API {#offer-delivery-api}
+            + [Distribuire offerte utilizzando le API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [Introduzione alla recapitabilità delle offerte tramite API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -841,7 +841,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
