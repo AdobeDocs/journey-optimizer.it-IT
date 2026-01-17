@@ -38,7 +38,7 @@ Scopri come utilizzare i profili di test e i dati di input di esempio per visual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Come selezionare profili di test
 
@@ -48,7 +48,7 @@ Scopri come selezionare e gestire i profili di test per visualizzare in anteprim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Visualizzare l’anteprima del contenuto utilizzando i profili di test
 
@@ -78,7 +78,7 @@ Integra Litmus per visualizzare in anteprima il rendering delle e-mail per i cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Come simulare e testare le varianti di contenuto
 

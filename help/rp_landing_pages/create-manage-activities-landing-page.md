@@ -35,7 +35,7 @@ Scopri come creare le decisioni, definirne l’ambito, impostare le offerte di f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i metodi di selezione delle offerte
 

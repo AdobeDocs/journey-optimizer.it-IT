@@ -22,7 +22,7 @@ I percorsi in Adobe Journey Optimizer consentono di creare percorsi cliente pers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione ai percorsi Adobe Journey Optimizer
 
@@ -32,7 +32,7 @@ Scopri come creare percorsi cliente in tempo reale e a più passaggi, utilizzand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Guida completa alla creazione e alla gestione dei percorsi
 
@@ -42,7 +42,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Guida completa alla gestione dei percorsi
 

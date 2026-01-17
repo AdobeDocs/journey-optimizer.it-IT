@@ -49,7 +49,7 @@ Accedi ai rapporti chiave per monitorare le prestazioni del percorso, analizzare
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
 
 Accedere e iscriversi agli avvisi di sistema
 
@@ -79,7 +79,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Risolvere i problemi relativi all’esecuzione dei percorsi live
 

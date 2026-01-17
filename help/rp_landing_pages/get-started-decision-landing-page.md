@@ -25,7 +25,7 @@ La gestione delle decisioni di Adobe Journey Optimizer consente ai marketer di f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alla gestione delle decisioni
 
@@ -35,7 +35,7 @@ Scopri la gestione delle decisioni in Adobe Journey Optimizer, compresi i vantag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni per la gestione delle decisioni
 
@@ -45,7 +45,7 @@ Scopri i vincoli operativi e le soglie di prestazioni della Gestione delle decis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Guida all’interfaccia utente della libreria di offerte
 
