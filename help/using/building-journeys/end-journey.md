@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ Quando viene interrotto, lo stato del percorso è impostato su **[!UICONTROL Arr
 
 >[!CAUTION]
 >
->Autorizzazioni per arrestare un percorso limitato agli utenti con l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
+>L&#39;arresto di un percorso richiede l&#39;autorizzazione **[!DNL Manage journeys]**. Se il percorso include campagne in linea o nodi di messaggistica, gli utenti dovranno disporre anche di autorizzazioni **Campagne > Pubblica campagne**. Se il percorso utilizza le risorse (ad esempio nelle e-mail), gli utenti devono avere accesso a tali cartelle di risorse. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
 
 ## Argomenti correlati
 
