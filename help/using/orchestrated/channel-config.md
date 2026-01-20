@@ -4,9 +4,9 @@ product: journey optimizer
 title: Configurazione del canale
 description: Scopri come configurare la configurazione del canale
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -66,3 +66,25 @@ Per configurare la configurazione del canale:
 1. Una volta configurata, fai clic su **[!UICONTROL Invia]**.
 
 Il tuo canale è ora pronto per essere utilizzato con **Campagne orchestrate** e i messaggi verranno recapitati in base alla dimensione di destinazione selezionata.
+
+## Parametri di tracciamento URL {#url-tracking}
+
+Durante la configurazione del canale, puoi definire i parametri di tracciamento URL per monitorare le prestazioni delle campagne e-mail aggiungendo metadati ai collegamenti tracciati, a scopo di analisi e reporting.
+
+A questo scopo, sono disponibili attributi contestuali specifici per le campagne orchestrate utilizzando la sintassi `{{context.system.source.*}}`:
+
+* **`context.system.source.id`**: ID campagna orchestrato
+* **`context.system.source.name`**: nome campagna orchestrata
+* **`context.system.source.versionId`**: ID versione della campagna orchestrata
+* **`context.system.source.actionId`**: ID nodo azione canale
+* **`context.system.source.actionName`**: nome nodo azione canale
+* **`context.system.source.channel`**: tipo di canale (e-mail, SMS, push)
+* **`context.system.IdentityNamespace`**: spazio dei nomi identità utilizzato
+
+Ad esempio:
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+Ulteriori informazioni sui parametri di tracciamento URL in [questa sezione](../email/url-tracking.md).
