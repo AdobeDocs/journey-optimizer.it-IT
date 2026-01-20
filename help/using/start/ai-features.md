@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Funzioni intelligenti e intelligenza artificiale
+title: IA e funzioni intelligenti
 description: Scopri come l’intelligenza artificiale e l’apprendimento automatico migliorano le funzionalità di Adobe Journey Optimizer
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 4%
+source-wordcount: '1676'
+ht-degree: 3%
 
 ---
 
-# Funzioni intelligenti e intelligenza artificiale {#ai-features}
+# IA e funzioni intelligenti {#ai-features}
 
 Adobe Journey Optimizer sfrutta la potenza dell’intelligenza artificiale e dell’apprendimento automatico per aiutarti a creare, ottimizzare e fornire esperienze cliente eccezionali. Dalla generazione di contenuti personalizzati alla previsione di tempi di invio ottimali, le funzionalità di intelligenza artificiale semplificano il flusso di lavoro e massimizzano l’impatto. I playbook basati su casi d’uso forniscono modelli predefiniti per implementare rapidamente scenari di marketing comuni.
 
@@ -66,7 +66,21 @@ Fai clic sull’icona Assistente AI nella barra superiore per aprire il pannello
 
 Basandosi sulle funzionalità di conversazione dell’Assistente all’intelligenza artificiale, Adobe Journey Optimizer offre agenti di intelligenza artificiale specializzati che forniscono analisi approfondite e consigli actionable per l’ottimizzazione e la sperimentazione del percorso.
 
-### Agente analisi percorso {#journey-agent}
+### Journey Agent {#journey-agent}
+
+Journey Agent include due competenze in AI Assistant: Analizza e Crea. Utilizzali per ottimizzare i percorsi esistenti o crearne di nuovi a partire dai prompt del linguaggio naturale.
+
++++**Autorizzazioni richieste**
+
+* **Visualizza Percorsi** - Visualizza informazioni sui percorsi direttamente nell&#39;Assistente di intelligenza artificiale
+* **Gestisci Percorsi** - Crea nuovi percorsi direttamente nell&#39;Assistente IA
+* **Visualizza segmenti** - Visualizza informazioni approfondite sui tipi di pubblico e cerca quelli esistenti
+* **Gestione segmenti** - Crea nuovi tipi di pubblico direttamente nell&#39;Assistente IA
+* **Visualizza eventi di Percorso, origini dati e azioni** - Necessario affinché l&#39;abilità di creazione possa eseguire ricerche in eventi di percorso e azioni personalizzate
+
++++
+
+#### Abilità analisi percorso {#journey-analyze-skill}
 
 L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
 
@@ -88,12 +102,27 @@ L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/exper
 
 +++
 
-+++**Autorizzazioni richieste**
++++
 
-* **Visualizza Percorsi** - Visualizza informazioni sui percorsi direttamente nell&#39;Assistente di intelligenza artificiale
-* **Gestisci Percorsi** - Crea nuovi percorsi direttamente nell&#39;Assistente IA
-* **Visualizza segmenti** - Visualizza informazioni approfondite sui tipi di pubblico
-* **Gestione segmenti** - Crea nuovi tipi di pubblico direttamente nell&#39;Assistente IA
+#### Abilità creazione percorso {#journey-create-skill}
+
+L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
+
++++**Funzionalità chiave**
+
+* **Creazione Percorso lingua naturale** - Descrivi il percorso desiderato e crealo automaticamente
+* **Avvii basati su eventi e pubblico**: creazione di percorsi di qualificazione del pubblico, degli eventi di business o attivati da eventi
+* **Logica condizionale** - Crea percorsi suddivisi in base agli attributi o al comportamento del cliente
+* **Messaggistica multicanale** - Aggiungere azioni e-mail, push e SMS
+* **Pianificazione** - Configura le date di inizio e gli intervalli tra i passaggi
+
++++
+
++++**Prompt di esempio**
+
+* &quot;Crea un percorso che inizia quando un cliente effettua un acquisto online e invia una notifica push di ringraziamento.&quot;
+* &quot;Costruisci un percorso destinato al pubblico di escursionisti con tre e-mail in due settimane, a partire dal 20/12.&quot;
+* &quot;Crea un percorso che inizia quando un utente accede alla posizione del mio negozio e prosegue in base al fatto che abbia o meno un indirizzo e-mail valido.&quot;
 
 +++
 
@@ -241,7 +270,7 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 +++
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
@@ -264,6 +293,7 @@ Valuta l’allineamento dei contenuti con le linee guida del tuo marchio utilizz
 * **[Assistente IA per la generazione di contenuti](#content-generation)** - Richiede l&#39;autorizzazione &quot;Genera contenuto&quot;
 * **[Informazioni sul prodotto per l&#39;Assistente all&#39;intelligenza artificiale](#ai-assistant)** - È necessario accettare le linee guida per l&#39;utente di Adobe Generative AI
 * **[Agente di analisi Percorso](#journey-agent)** - Richiede le autorizzazioni Visualizza/Gestisci Percorsi e Visualizza/Gestisci segmenti
+* **[Agente di creazione Percorso](#journey-create-agent)** - Richiede le autorizzazioni Gestisci Percorsi, Visualizza eventi Percorso/Origini dati/Azioni, Visualizza segmenti e Gestisci segmenti
 * **[Agente di sperimentazione](#experimentation-agent)** - Richiede le autorizzazioni Visualizza esperimenti e Gestisci metadati esperimenti
 
 Tutti gli agenti di intelligenza artificiale devono avere accesso all’Assistente di intelligenza artificiale e accettare le linee guida per gli utenti di intelligenza artificiale generativa di Adobe Experience Cloud.
