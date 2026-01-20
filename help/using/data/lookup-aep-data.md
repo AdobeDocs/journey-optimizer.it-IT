@@ -10,9 +10,9 @@ level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '889'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,8 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
 * **Tipo di schema** - I set di dati devono essere associati a uno schema di tipo **NOT** Profilo o Evento.
 
 * **Mantieni attiva la ricerca** - Evita di attivare e disattivare ripetutamente i set di dati. Procedendo in questo modo si potrebbe verificare un comportamento di indicizzazione imprevisto. La best practice prevede di lasciare abilitato il set di dati per tutto il tempo in cui intendi utilizzarlo per le ricerche.
+
+* **Area di attivazione di Edge** - I set di dati abilitati per la ricerca sono disponibili per l&#39;attivazione in entrata basata su Edge solo nell&#39;area in cui risiede la sandbox del set di dati (ad esempio, NLD2 o VA7). Puoi visualizzare l’area sandbox nell’interfaccia utente accanto al nome della sandbox.
 
 * **Batch di eliminazione dati** - La rimozione di un batch di dati dal set di dati comporta la rimozione completa di tutte le chiavi corrispondenti dal servizio di ricerca. Ad esempio:
 
