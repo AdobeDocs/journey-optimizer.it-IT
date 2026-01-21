@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
+source-git-commit: 07c2ec1b0bcb9d41a607fd4eeb90eee2d7b45eca
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 49%
+source-wordcount: '1934'
+ht-degree: 48%
 
 ---
 
@@ -156,29 +156,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Supporto per le decisioni nel canale push</strong><br/></th>
+<th><strong>Supporto per le decisioni nei canali push e SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere i criteri di decisione nei percorsi di notifica push e nelle campagne. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto per le decisioni nel canale SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne SMS. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
+<p>Ora puoi aggiungere i criteri di decisione in percorsi push e SMS e campagne. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
