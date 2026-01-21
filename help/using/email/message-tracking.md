@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 24%
+source-wordcount: '1370'
+ht-degree: 25%
 
 ---
 
@@ -99,7 +99,7 @@ Una volta inviato il messaggio, il periodo di conservazione per un collegamento 
 
 >[!CAUTION]
 >
->Quando sia l&#39;**etichetta** che l&#39;**URL** di un pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. Il campo `_experience.customerJourneyManagement.messageInteraction.label` nel set di dati di tracciamento registrerà il valore URL.
+>Quando sia l&#39;**etichetta** che l&#39;**URL** di un pulsante sono resi modificabili in un [frammento personalizzabile](../content-management/customizable-fragments.md), nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante.
 
 ## Collegare a una pagina mirror {#mirror-page}
 
