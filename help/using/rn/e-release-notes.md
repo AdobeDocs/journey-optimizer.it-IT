@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 34%
+source-wordcount: '2068'
+ht-degree: 32%
 
 ---
 
@@ -218,6 +218,21 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
+<th><strong>Esportazione messaggio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile <strong>esportare le consegne inviate</strong> in un set di dati specifico, a scopo di archiviazione e conformità. Questa capacità è disponibile non solo per la posta elettronica, ma anche per altri canali come gli SMS.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nuova API per recuperare le campagne Azione</strong><br/></th>
 </tr>
 </thead>
@@ -291,23 +306,21 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Canali
 
-* **Esportazione messaggi** - È ora possibile <strong>esportare le consegne inviate</strong> in un set di dati specifico, a scopo di archiviazione e conformità. Questa capacità è disponibile non solo per la posta elettronica, ma anche per altri canali come gli SMS.
-
 * **Webhook SMS: fase II** - Descrizione da fornire.
 
 * **Offerta di vendita WhatsApp** - Descrizione da fornire.
 
 #### E-mail Designer
 
-* **Correzioni sul posto - Acrite - E-mail e pagine di destinazione** - Descrizione da fornire.
+* **Correzioni sul posto in E-mail designer** - <strong>Sono ora disponibili suggerimenti di contenuto automatico basati su IA</strong> in E-mail Designer quando vengono rilevate violazioni durante la convalida del contenuto. Se il contenuto viene segnalato come non allineato con le linee guida del marchio o non soddisfa i criteri di qualità, il sistema genera in modo proattivo alternative corrette che possono essere riviste e applicate in linea, migliorando la conformità e accelerando la produzione.
 
 #### Experience Decisioning
 
-* **Arbitrato Percorso - Formule** - È ora possibile utilizzare <strong>formule e modelli AI</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, garantendo ai clienti l&#39;accesso ai percorsi più rilevanti.
+* **Arbitrato di Percorso** - È ora possibile utilizzare <strong>formule e modelli di IA</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti entrino nei percorsi più rilevanti.
 
 * **documentazione degli strumenti sandbox exd - aggiornamento** - Descrizione da fornire.
 
-* **API per strumenti di migrazione self-service** - Descrizione da fornire.
+* **API per strumenti di migrazione self-service** - È disponibile un nuovo set di <strong>API per strumenti di migrazione</strong> per migrare le entità di Gestione offerte in Experience Decisioning. Gli strumenti consentono una migrazione fluida tra sandbox con risoluzione delle dipendenze e funzionalità di rollback.
 
 * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare <strong>frammenti</strong> agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basate su codice tramite i criteri decisionali.
 
@@ -316,6 +329,8 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 #### Percorsi
 
 * **Sfrutta un payload di risposta di errore nelle azioni personalizzate del percorso** - Descrizione da fornire.
+
+* **Combina azioni messaggio native e Adobe Campaign** - Journey Optimizer ora consente di combinare azioni messaggio Adobe Campaign v7/v8 con azioni canale native nello stesso percorso.
 
 * **Convalida dimensioni payload di Percorso in percorsi** - Journey Optimizer fornisce ora <strong>la convalida dimensioni payload</strong> per garantire prestazioni e stabilità del sistema ottimali. Quando crei o pubblichi percorsi, ricevi chiari avvisi ed errori se le dimensioni del payload si avvicinano o superano i limiti consigliati, insieme a indicazioni fruibili per ottimizzare la configurazione del percorso. Questa convalida proattiva consente di identificare tempestivamente i potenziali problemi e di mantenere le prestazioni del percorso.
 
@@ -359,6 +374,23 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <tr>
 <td>
 <p>Con tecnologia Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. Ora puoi anche generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile attraverso i prompt e aprendo contenuti in Content Designer per la modifica nel contesto.</p>
+<p>Data di disponibilità: martedì 2 febbraio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività di decisione sui contenuti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi includere <strong>offerte personalizzate</strong> nei tuoi percorsi tramite un'attività di decisione Contenuto dedicata nell'area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
+<p>Data di disponibilità: martedì 2 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
