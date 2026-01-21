@@ -244,9 +244,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il fuso orario di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Questo miglioramento è disponibile solo per alcune organizzazioni (disponibilità limitata).
 
 #### Canali
@@ -271,9 +271,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
 #### Percorsi
@@ -284,9 +284,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Più azioni in entrata nei percorsi**: per semplificare l’orchestrazione del percorso, ora puoi definire più azioni in entrata in un singolo percorso. Precedentemente disponibile nelle campagne, questa funzionalità consente di distribuire contemporaneamente verso posizioni diverse più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web, ciascuna con un contenuto specifico.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
 #### Campagne orchestrate
