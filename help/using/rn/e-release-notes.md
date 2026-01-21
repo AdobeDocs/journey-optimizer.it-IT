@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
+source-git-commit: 86bd616a9331c5225c78ccf52c5d26a063fa8654
 workflow-type: tm+mt
-source-wordcount: '2068'
-ht-degree: 32%
+source-wordcount: '2080'
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 32%
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
 
-## Note pre-release di gennaio 2026 {#jan-26-01-rn}
+## Gennaio &#39;26 pre-note sulla versione {#jan-26-01-rn}
 
 **Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
 
@@ -38,7 +38,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supporta una nuova attività <strong>Action</strong> generica che consente di configurare sia le azioni singole che i gruppi di azioni in entrata <strong>con più azioni</strong>, semplificando la configurazione delle azioni nell'area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
+<p>Journey Optimizer supporta una nuova attività<strong> Azione generica </strong>che consente di configurare sia azioni singole che <strong>gruppi di azioni</strong> in ingresso con più azioni, consentendo una configurazione semplificata delle azioni all'interno dell'area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
 <ul>
 <li>una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso;</li>
 <li>la capacità di creare gruppi di azioni in entrata con più azioni;</li>
@@ -54,29 +54,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Attività di decisione sui contenuti</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi includere <strong>offerte personalizzate</strong> nei tuoi percorsi tramite un'attività di decisione Contenuto dedicata nell'area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Monitoraggio delle azioni personalizzato</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Approfondisci insight sullo stato e sulle prestazioni degli endpoint di azione personalizzati con un nuovo <strong>dashboard di monitoraggio</strong> e dati arricchiti dell'evento del passaggio di percorso. Tieni traccia di chiamate, errori, velocità effettiva, tempi di risposta e tempi di attesa delle code per capire rapidamente quando, dove e perché si verificano anomalie.</p>
+<p>Ottieni informazione approfondita più approfondite sullo stato e sulle prestazioni dei tuoi endpoint di azione personalizzati con un nuovo <strong>dashboard</strong> di monitoraggio e dati avanzati sugli eventi delle fasi del percorso. Tieni traccia delle chiamate riuscite, degli errori, della velocità effettiva, dei tempi di risposta e dei tempi di attesa coda per capire rapidamente quando, dove e perché si verificano anomalie.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
@@ -92,8 +76,8 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Le ore di pausa consentono di definire <strong>esclusioni basate sul tempo</strong> per i canali e-mail, SMS, push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità. Puoi applicare le ore non interattive tramite <strong>set di regole</strong>, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzione è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale, la funzione ora include la possibilità per il cliente di mettere in coda un’azione della campagna fino al completamento delle Ore non interattive e la possibilità di visualizzare in anteprima la regola delle Ore non interattive.</p>
+<p>Le ore di silenzio consentono di definire <strong>esclusioni</strong> basate sul tempo per i canali e-mail, SMS, push e WhatsApp. Garantiscono che nessun messaggio venga inviato durante specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità. È possibile applicare ore di silenzio attraverso <strong>regola set</strong>, che possono essere assegnati a singole azioni in campagne o percorsi per un controllo preciso.</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione di disponibilità generale, la funzionalità include ora la possibilità per il cliente di coda un'azione della campagna fino al completamento delle ore silenziose e la possibilità di visualizzare in anteprima la regola delle ore silenziose attivate.</p>
 </td>
 </tr>
 </tbody>
@@ -102,13 +86,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Canale direct mailing in percorsi</strong><br/></th>
+<th><strong>Canale Direct Mail nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Precedentemente limitato alle campagne, il <strong>canale Direct Mail</strong> è ora disponibile nell'<strong>area di lavoro percorsi</strong>, consentendoti di incorporare Direct Mail nei tuoi percorsi. La direct mailing può ora essere utilizzata sia in scenari batch che in scenari di percorso 1:1, con il supporto per la configurazione dell'estrazione dei file e le impostazioni di frequenza basate sul tempo.</p>
+<p>Precedentemente limitato alle campagne, il <strong>canale</strong> Direct Mail è ora disponibile nell'area di lavoro<strong> del viaggio, consentendoti di incorporare Direct </strong>Mail nei tuoi percorsi. Direct Mail può ora essere utilizzato sia in batch che in scenari di percorso 1:1, con supporto per la configurazione dell'estrazione dei file e le impostazioni di frequenza basate sul tempo.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
@@ -118,13 +102,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Canale notifiche push web</strong><br/></th>
+<th><strong>Canale notifiche push Web</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora supporta <strong>notifiche Web push</strong>, espandendo il canale push oltre i dispositivi mobili. Puoi inviare facilmente le notifiche ai browser mobili e desktop, per raggiungere i clienti direttamente sui loro dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per le notifiche push dei dispositivi mobili.</p>
+<p>Adobe Systems Journey Optimizer ora supporta <strong>le notifiche</strong> push Web, espandendo il canale push oltre i dispositivi mobili. Puoi inviare senza problemi notifiche ai browser sia mobili che desktop, consentendoti di raggiungere i clienti direttamente sui loro dispositivi senza richiedere un'app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per le notifiche push dei dispositivi mobili.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
@@ -140,7 +124,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Con la nuova offerta del componente aggiuntivo <strong>RCS Basic</strong>, è ora possibile distribuire messaggi RCS (Rich Communication Services) di base in Journey Optimizer, abilitando le seguenti funzionalità di messaggistica avanzate soggette al supporto di provider e gestori:</p>
+<p>Con la nuova <strong>offerta di componenti aggiuntivi</strong> RCS Basic, è ora possibile fornire servizi RCS (Rich Communication Services) di base messaggistica si trovano nel Journey Optimizer, consentendo le seguenti funzionalità di messaggistica avanzate soggette al supporto del provider e dell'operatore:</p>
 <ul>
 <li>Supporto per mittente brandizzato e verificato: invia messaggi utilizzando profili aziendali verificati con elementi di branding (logo, nome del mittente, ecc.).</li>
 <li>Informazioni approfondite sulla consegna dei messaggi: puoi ricevere rapporti di consegna dettagliati, inclusi gli aggiornamenti sullo stato del messaggio (ad esempio inviato, consegnato, letto).</li>
@@ -156,13 +140,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Supporto per le decisioni nei canali push e SMS</strong><br/></th>
+<th><strong>Supporto decisionale nei canali Push e SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere <strong>Criteri di decisione</strong> in percorsi e campagne push e SMS. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
+<p>Ora puoi aggiungere <strong>criteri decisionali</strong> nei percorsi e nelle campagne push e SMS. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
@@ -172,13 +156,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Canale direct mail nelle campagne orchestrate</strong><br/></th>
+<th><strong>Canale di direct mail nelle campagne orchestrate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il canale direct mailing è ora disponibile nelle campagne orchestrate. L'<strong>attività Direct Mail</strong> facilita l'invio di direct mailing all'interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Consente di automatizzare il processo di generazione del <strong>file di estrazione</strong> richiesto dai provider di direct mailing. È possibile combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.</p>
+<p>Il canale di direct mail è ora disponibile nelle campagne orchestrate. L'attività <strong></strong> di Direct mail facilita l'invio di direct mail all'interno della campagna orchestrata, sia per i messaggi una tantum che per quelli ricorrenti. Serve ad automatizzare il processo di generazione <strong>del file</strong> di estrazione richiesto dai provider di direct mail. È possibile combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.</p>
 </td>
 </tr>
 </tbody>
@@ -193,7 +177,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Con Journey Optimizer, ora puoi acquisire <strong>attributi di profilo</strong> tramite le tue pagine di destinazione. Crea, progetta e gestisci <strong>moduli personalizzati</strong> in base alle tue esigenze in base a un set di dati specifico. Puoi quindi sfruttare questi moduli nelle pagine di destinazione per aggiungere gli attributi di profilo desiderati nel set di dati definito per ciascun modulo.</p>
+<p>Con Journey Optimizer, ora puoi acquisire <strong>gli attributi del</strong> profilo attraverso le pagine di destinazione. Crea, progetta e gestire <strong>moduli</strong> personalizzati su misura per le tue esigenze basati su un set di dati specifico. Puoi quindi sfruttare questi moduli nelle pagine di destinazione per aggiungere gli attributi di profilo desiderati nel set di dati definito per ciascun modulo.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
@@ -209,7 +193,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>I nuovi <strong>connettori di origine</strong> sono ora disponibili in Adobe Experience Platform per le app fedeltà Talon.One, Capillary e Kobie. Questi connettori consentono di trasferire in streaming i dati relativi alla fedeltà in Adobe Experience Platform e di sfruttarli in Journey Optimizer.</p>
+<p><strong>Nuovo connettori</strong> sorgente sono ora disponibili in Adobe Experience Platform per le app fedeltà Talon.One, Capillary e Kobie. Questi connettori consentono di trasferire in streaming i dati relativi alla fedeltà in Adobe Experience Platform e di sfruttarli in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
@@ -218,13 +202,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Esportazione messaggio</strong><br/></th>
+<th><strong>Esportazione Invia messaggio</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile <strong>esportare le consegne inviate</strong> in un set di dati specifico, a scopo di archiviazione e conformità. Questa capacità è disponibile non solo per la posta elettronica, ma anche per altri canali come gli SMS.</p>
+<p>Ora è possibile <strong>esportare le</strong> consegne inviate in un set di dati specifico, per scopi di archiviazione e conformità. Questa capacità è disponibile non solo per la posta elettronica, ma anche per altri canali come gli SMS. La conservazione dei dati per il set di dati di esportazione dei messaggi è ora <strong>di 7 giorni</strong>.</p>
 </td>
 </tr>
 </tbody>
@@ -239,7 +223,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>È ora disponibile una nuova <strong>API Journey Optimizer</strong> che consente di recuperare ed esaminare a livello di programmazione i dati relativi alla campagna, ad esempio dettagli, versioni e configurazioni.</p>
+<p>È ora disponibile una nuova <strong>API</strong> Journey Optimizer, che consente di recuperare e ispezionare a livello di codice i dati relativi alla campagna come dettagli, versioni e configurazioni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: martedì 24 novembre 2025</p>
 </td>
@@ -256,7 +240,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Sono ora disponibili tre nuovi <strong>avvisi di percorso</strong> per aiutarti a monitorare e tenere traccia degli eventi del ciclo di vita del percorso e delle prestazioni delle azioni personalizzate:</p>
+<p>Sono ora disponibili tre nuovi <strong>avvisi relativi al percorso che consentono di monitorare e tenere traccia degli eventi del ciclo di</strong> vita del viaggio e delle prestazioni delle azioni personalizzate:</p>
 <ul>
 <li><strong>Percorso pubblicato</strong>: ricevi notifiche quando un percorso viene pubblicato da un professionista nell’area di lavoro del percorso.</li>
 <li><strong>Percorso completato</strong>: ricevi avvisi al termine di un percorso, con definizioni specifiche basate sul tipo di percorso (Leggi pubblico o Attivato da eventi).</li>
@@ -279,7 +263,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Ora puoi applicare rapidamente <strong>temi approvati in precedenza</strong> per garantire la coerenza del brand in tutte le e-mail, velocizzare il processo di creazione delle campagne e produrre in modo indipendente e-mail di alta qualità, riducendo al contempo la dipendenza dai team di progettazione.</p>
+<p>Ora puoi applicare <strong>rapidamente temi</strong> pre-approvati per garantire la coerenza del brand su tutte le e-mail, accelerare il processo di creazione delle campagne e produrre autonomamente e-mail di alta qualità, riducendo al contempo la dipendenza dai team di progettazione.</p>
 <p>Precedentemente rilasciata nella versione Beta, questa funzionalità è ora disponibile per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
@@ -293,72 +277,74 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-#### AI
+#### Intelligenza artificiale
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità complessiva dei contenuti</strong> per individuare potenziali problemi di leggibilità, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali.
-* **Aggiorna i marchi con la nuova scheda colore**: le linee guida per i marchi garantiscono che il tuo marchio venga presentato in modo coerente in tutti i punti di contatto. La nuova <strong>sezione Colori</strong> definisce gli standard per il sistema di colori del tuo marchio, delineando il modo in cui i colori vengono selezionati, organizzati e applicati tra le esperienze. Garantisce un uso coerente dei colori primari, secondari, di accento e neutri per supportare un&#39;identità del brand coesa, accessibile e riconoscibile.
+* **Controlli** di qualità dei contenuti dell&#39;assistente AI - Oltre all&#39;allineamento marchio, ora puoi valutare la qualità<strong> complessiva </strong>del contenuto per scoprire potenziali problemi con leggibilità, coesione ed efficacia, indipendentemente dalle tue linee guida marchio. Questi controlli automatici aiutano a identificare messaggistica poco chiari, tono incoerente o lacune strutturali.
+* **Aggiorna i marchi con nuove scheda** colore: le linee guida del marchio aiutano a garantire che i tuoi marchio siano presentati in modo coerente su tutti i punti di contatto. La nuova <strong>sezione</strong> Colori definisce gli standard per il sistema di colori del tuo marchio, delineando il modo in cui i colori vengono selezionati, organizzati e applicati tra le esperienze. Garantisce un uso coerente di colori primari, secondari, accentati e neutri per supportare un identità del brand coeso, accessibile e riconoscibile.
 
 #### Campagne
 
-* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
+* **Pianificare Campaign utilizzando il fuso** orario del profilo: Campaign pianificazione può ora utilizzare il fuso<strong> orario di </strong>ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
 
-  **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
+  **Nota**: questo miglioramento è disponibile solo per un gruppo di organizzazioni (disponibilità limitata).
 
 #### Canali
 
-* **Webhook SMS: fase II** - Descrizione da fornire.
+* **Webhook SMS: Fase II** - Descrizione da fornire.
 
-* **Offerta di vendita WhatsApp** - Descrizione da fornire.
+* **Offerta** di rivendita WhatsApp - Descrizione da fornire.
 
 #### E-mail Designer
 
-* **Correzioni sul posto in E-mail designer** - <strong>Sono ora disponibili suggerimenti di contenuto automatico basati su IA</strong> in E-mail Designer quando vengono rilevate violazioni durante la convalida del contenuto. Se il contenuto viene segnalato come non allineato con le linee guida del marchio o non soddisfa i criteri di qualità, il sistema genera in modo proattivo alternative corrette che possono essere riviste e applicate in linea, migliorando la conformità e accelerando la produzione.
+* **Correzioni sul posto in Email Designer** - <strong>I suggerimenti</strong> di contenuto automatici basati sull&#39;intelligenza artificiale sono ora disponibili in Email Designer quando vengono rilevate violazioni durante contenuto convalida. Se contenuto viene contrassegnato come disallineato con le linee guida marchio o non soddisfa i criteri di qualità, il sistema genera in modo proattivo alternative corrette che possono essere riviste e applicate in linea, migliorando la conformità e accelerando la produzione.
 
-#### Experience Decisioning
+#### Esperienza decisionale
 
-* **Arbitrato di Percorso** - È ora possibile utilizzare <strong>formule e modelli di IA</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti entrino nei percorsi più rilevanti.
+* **Arbitrato** del percorso - Ora puoi utilizzare <strong>formule e modelli</strong> di intelligenza artificiale per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo del cliente e ai fattori contestuali, garantendo che i clienti inseriscano i percorsi più pertinenti.
 
-* **documentazione degli strumenti sandbox exd - aggiornamento** - Descrizione da fornire.
+  **Nota**: questo miglioramento è disponibile solo per un gruppo di organizzazioni (disponibilità limitata).
 
-* **API per strumenti di migrazione self-service** - È disponibile un nuovo set di <strong>API per strumenti di migrazione</strong> per migrare le entità di Gestione offerte in Experience Decisioning. Gli strumenti consentono una migrazione fluida tra sandbox con risoluzione delle dipendenze e funzionalità di rollback.
+* **Documentazione sugli strumenti sandbox EXD - Aggiornamento** - Descrizione da fornire.
 
-* **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare <strong>frammenti</strong> agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basate su codice tramite i criteri decisionali.
+* **API** degli strumenti di migrazione self-service: è disponibile un nuovo set di API degli strumenti di migrazione per migrare le entità di gestione dell&#39;offerta <strong></strong> a Experience Decisioning. Gli strumenti consentono una migrazione senza soluzione di continuità tra le sandbox con risoluzione delle dipendenze e funzionalità di rollback.
 
-  **Nota**: rilasciato in precedenza in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
+* **Allegare frammenti agli elementi decisionali** - Journey Optimizer offre ora la possibilità di allegare <strong>frammenti</strong> agli elementi decisionali che possono essere sfruttati nelle campagne di esperienza basate su codice tramite criteri decisionali.
+
+  **Nota**: precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
 #### Percorsi
 
-* **Sfrutta un payload di risposta di errore nelle azioni personalizzate del percorso** - Descrizione da fornire.
+* **Sfrutta un payload di risposta di errore nel percorso Azioni** personalizzate: ora è possibile definire un payload<strong> facoltativo </strong>di risposta di errore per le azioni personalizzate. Quando una chiamata non riesce, il payload di errore viene esposto nel contesto del percorso ed è disponibile nel ramo timeout/errore per supportare una logica di fallback e un debug più avanzati.
 
-* **Combina azioni messaggio native e Adobe Campaign** - Journey Optimizer ora consente di combinare azioni messaggio Adobe Campaign v7/v8 con azioni canale native nello stesso percorso.
+* **Combinare azioni** di messaggi nativo e Adobe Campaign - Journey Optimizer ora ti consente di combinare le azioni dei messaggi Adobe Campaign v7/v8 con le azioni del canale nativo nello stesso percorso.
 
-* **Convalida dimensioni payload di Percorso in percorsi** - Journey Optimizer fornisce ora <strong>la convalida dimensioni payload</strong> per garantire prestazioni e stabilità del sistema ottimali. Quando crei o pubblichi percorsi, ricevi chiari avvisi ed errori se le dimensioni del payload si avvicinano o superano i limiti consigliati, insieme a indicazioni fruibili per ottimizzare la configurazione del percorso. Questa convalida proattiva consente di identificare tempestivamente i potenziali problemi e di mantenere le prestazioni del percorso.
+* **Dimensioni del carico utile del viaggio convalida nei percorsi** - Journey Optimizer ora fornisce <strong>convalida</strong> delle dimensioni del carico utile per garantire prestazioni ottimali e stabilità del sistema. Quando crei o pubblichi percorsi, ricevi avvisi ed errori chiari se le dimensioni del carico utile si avvicinano o superano i limiti consigliati, insieme a indicazioni utili per ottimizzare la configurazione del percorso. Questo convalida proattivo ti aiuta a identificare tempestivamente potenziali problemi e a mantenere le prestazioni del percorso.
 
-* **Più azioni in entrata nei percorsi**. Per semplificare l&#39;orchestrazione del percorso, è ora possibile definire <strong>più azioni in entrata</strong> in un singolo percorso. Precedentemente disponibile nelle campagne, questa funzionalità consente di distribuire contemporaneamente verso posizioni diverse più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web, ciascuna con un contenuto specifico.
+* **Più azioni in entrata nei percorsi: per semplificare l&#39;orchestrazione** del percorso, è ora possibile definire <strong>più azioni</strong> in entrata in un unico percorso. Precedentemente disponibile nelle campagne, questa funzionalità consente di distribuire contemporaneamente verso posizioni diverse più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web, ciascuna con un contenuto specifico.
 
-  **Nota**: rilasciato in precedenza in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
+  **Nota**: precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
 #### Campagne orchestrate
 
-* **Selezionare gli attributi e copiare i valori di distribuzione** - È ora possibile selezionare o copiare i valori direttamente dalla visualizzazione Distribuzione dei valori nelle campagne orchestrate.
+* **Selezionare gli attributi e copiare i valori** di distribuzione: ora è possibile selezionare o copiare i valori direttamente dalla visualizzazione della distribuzione dei valori nelle campagne orchestrate.
 
-* **Ereditarietà delle etichette di utilizzo dati per i tipi di pubblico** - <strong>Le etichette di utilizzo dati</strong> applicate in Adobe Experience Platform ora vengono riportate automaticamente durante il salvataggio dei tipi di pubblico in campagne orchestrate, riducendo l&#39;assegnazione manuale di tag DULE.
+* **Ereditarietà delle etichette di utilizzo dei dati per i tipi di pubblico:** le<strong> etichette</strong> di utilizzo dei dati applicate in Adobe Experience Platform ora vengono trasferite automaticamente quando si salvano le audience nelle campagne orchestrate, riducendo il assegnazione tag DULE manuale.
 
-* **Filtri di retargeting predefiniti** - Per supportare il retargeting più semplice per i casi di utilizzo di campagne orchestrate, questa versione introduce nuovi <strong>filtri di retargeting</strong>. Questi filtri ti consentono di indirizzare direttamente i tipi di pubblico in base al coinvolgimento nei messaggi, ad esempio inviato, aperto o su cui è stato fatto clic, oppure aperto e su cui è stato fatto clic, e selezionare la campagna specifica o in transizione di cui desideri eseguire il retargeting.
+* **Filtri** di retargeting predefiniti: per facilitare il retargeting per i casi d&#39;uso delle campagne orchestrate, questa versione introduce nuovi <strong>filtri</strong> di retargeting. Questi filtri ti consentono di destinazione direttamente i tipi di pubblico in base al coinvolgimento del messaggio, ad esempio inviato, aperto solo, aperto o cliccato o aperto e cliccato e selezionare la campagna specifica o la campagna in-transizione di cui desideri eseguire il retargeting.
 
-* **Filtri predefiniti con parametri** - È ora possibile creare <strong>filtri con parametri</strong> in campagne orchestrate per regole riutilizzabili e modificabili.
+* **Filtri predefiniti con parametri** : è ora possibile creare <strong>filtri con parametri</strong> in campagne orchestrate per regole riutilizzabili e modificabili.
 
-* **Conferma del messaggio prima dell&#39;invio** - Un <strong>passaggio di conferma</strong> è ora abilitato per impostazione predefinita prima dell&#39;invio di campagne orchestrate per ridurre gli invii accidentali.
+* **Invia messaggio conferma prima dell&#39;invio** - Un <strong>passaggio</strong> di conferma è ora abilitato per impostazione predefinita prima dell&#39;invio di campagne orchestrate per ridurre gli invii accidentali.
 
-* **Supporto dei metadati generati dall&#39;utente**. La funzione <strong>executionMetadata helper</strong> è ora disponibile nell&#39;editor di personalizzazione per le campagne orchestrate e consente di allegare informazioni contestuali a qualsiasi azione nativa e di memorizzarle in un set di dati per l&#39;esportazione in sistemi esterni.
+* **Supporto** metadati generato dall&#39;utente - La <strong>funzione</strong> di supporto executionMetadata è ora disponibile nel editor personalizzazione per campagne orchestrate, consentendo di allegare informazioni contestuali a qualsiasi azione nativo e di store in un set di dati per l&#39;esportazione in sistemi esterni.
 
-* **Pulsante di riavvio** - Le campagne orchestrate ora includono un <strong>pulsante di riavvio</strong> che consente di riavviare rapidamente le esecuzioni quando necessario prima di pubblicare la campagna.
+* **Riavvia pulsante** - Le campagne orchestrate ora includono un <strong>pulsante</strong> di riavvio in modo da poter rapidamente lanciare le esecuzioni quando necessario prima di pubblicare la campagna.
 
-* **Supporto per il controllo dei tassi** - Le campagne orchestrate ora supportano il <strong>controllo dei tassi</strong> per aiutarti a pianificare le consegne e allinearsi ai vincoli del volume.
+* **Supporto per il controllo** delle tariffe - Le campagne orchestrate ora supportano <strong>il controllo</strong> delle tariffe per aiutarti a velocizzare le consegne e allinearti ai vincoli di volume.
 
 #### Autorizzazioni
 
-* **Impedisci l&#39;autoapprovazione per percorsi e campagne** - È ora possibile richiedere che i creatori non possano approvare i propri percorsi o campagne, migliorando <strong>la separazione dei compiti</strong> nei flussi di lavoro di approvazione.
+* **Impedisci l&#39;autoapprovazione per percorsi e campagne** : ora puoi richiedere che i creator non possano approvare i propri percorsi o campagne, migliorando <strong>la separazione dei compiti</strong> nei flussi di lavoro di approvazione.
 
 ## Disponibile a breve {#jan-26-01-coming-soon}
 
@@ -367,13 +353,13 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <table>
 <thead>
 <tr>
-<th><strong>Generazione di contenuti in Journey Agent</strong><br/></th>
+<th><strong>Generazione di contenuti all'interno di Journey Agent</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con tecnologia Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. Ora puoi anche generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile attraverso i prompt e aprendo contenuti in Content Designer per la modifica nel contesto.</p>
+<p>Basato su Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi attraverso un'interfaccia in linguaggio naturale. Ora puoi anche generare e gestire contenuto specifici del canale direttamente in Journey Agent, creando contenuto per canali come e-mail e push, applicando e visualizzando in anteprima i modelli, perfezionando il tono e lo stile tramite prompt e aprendo contenuto in Content Designer per la modifica in contesto.</p>
 <p>Data di disponibilità: martedì 2 febbraio 2026</p>
 </td>
 </tr>
@@ -383,13 +369,13 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <table>
 <thead>
 <tr>
-<th><strong>Attività di decisione sui contenuti</strong><br/></th>
+<th><strong>Attività decisionale sui contenuti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi includere <strong>offerte personalizzate</strong> nei tuoi percorsi tramite un'attività di decisione Contenuto dedicata nell'area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
+<p>Ora puoi includere <strong>offerte</strong> personalizzate nei tuoi percorsi attraverso un'attività decisionale dedicata ai contenuti nell'area di lavoro del percorso e usarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
 <p>Data di disponibilità: martedì 2 febbraio 2026</p>
 </td>
 </tr>
