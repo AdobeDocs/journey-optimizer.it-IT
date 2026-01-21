@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 45%
+source-wordcount: '1990'
+ht-degree: 49%
 
 ---
 
@@ -312,16 +312,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Webhook SMS: fase II** - Descrizione da fornire.
 
 * **Offerta di vendita WhatsApp** - Descrizione da fornire.
-
-* **Campo di esecuzione per il canale WhatsApp** - Oltre a E-mail e SMS, ora puoi aggiornare il campo di esecuzione predefinito per le consegne WhatsApp a livello di sandbox. Puoi anche ignorare il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
-
-  Data di disponibilità: giovedì 22 ottobre 2025
-
-* **Supporto di attributi personalizzati per l&#39;indirizzo di posta elettronica (annullamento iscrizione)** - Con Journey Optimizer, se gestisci il consenso al di fuori di Adobe, puoi impostare endpoint personalizzati esterni definendo un collegamento per l&#39;annullamento dell&#39;iscrizione con un solo clic e un indirizzo e-mail per l&#39;annullamento dell&#39;iscrizione personalizzato nella configurazione dell&#39;e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’abbonamento, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso. Per personalizzare ulteriormente gli endpoint personalizzati, ora puoi definire attributi personalizzati che verranno anche aggiunti all’evento di consenso. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
-
-  **Nota**: questa funzionalità è già disponibile per l&#39;URL personalizzato **[!UICONTROL Annulla iscrizione]** con un solo clic da agosto &#39;25 ed è ora disponibile per l&#39;opzione **[!UICONTROL Invia a (annulla iscrizione)]** in Disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
-
-  Data di disponibilità: martedì 6 ottobre 2025
 
 #### E-mail Designer
 
