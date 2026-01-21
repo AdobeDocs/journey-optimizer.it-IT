@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,10 @@ Scopri come utilizzare le variabili implicite in [questa sezione](../personaliza
 ## Personalizza campi modificabili {#customize-fields}
 
 Se alcune parti del frammento selezionato sono state rese modificabili, è possibile sovrascrivere il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i tuoi frammenti](../content-management/customizable-fragments.md)
+
+>[!CAUTION]
+>
+>Quando sia l&#39;**etichetta** che l&#39;**URL** di un componente Pulsante sono modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
 
 Per personalizzare i campi modificabili in un frammento, effettua le seguenti operazioni:
 

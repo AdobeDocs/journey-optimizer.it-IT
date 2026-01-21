@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 25%
+source-wordcount: '1380'
+ht-degree: 24%
 
 ---
 
@@ -96,6 +96,10 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 >I messaggi e-mail di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-decision-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [configurazione canale](email-settings.md#email-type) durante la creazione del messaggio.
 
 Una volta inviato il messaggio, il periodo di conservazione per un collegamento è di **25 mesi**. Dopo questo ritardo, il collegamento non è più disponibile.
+
+>[!CAUTION]
+>
+>Quando sia l&#39;**etichetta** che l&#39;**URL** di un pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. Il campo `_experience.customerJourneyManagement.messageInteraction.label` nel set di dati di tracciamento registrerà il valore URL.
 
 ## Collegare a una pagina mirror {#mirror-page}
 
