@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7965928aca9d4e36bacc058776c24065b8cfff21
+source-git-commit: 738f5bc3145bac022aebc39888f2644f2dae5b3e
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1779'
 ht-degree: 43%
 
 ---
@@ -244,10 +244,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il fuso orario di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Questo miglioramento è disponibile solo per alcune organizzazioni (disponibilità limitata).
+  **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
 
 #### Canali
 
@@ -271,10 +268,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
+  **Nota**: rilasciato in precedenza in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
 #### Percorsi
 
@@ -284,10 +278,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Più azioni in entrata nei percorsi**: per semplificare l’orchestrazione del percorso, ora puoi definire più azioni in entrata in un singolo percorso. Precedentemente disponibile nelle campagne, questa funzionalità consente di distribuire contemporaneamente verso posizioni diverse più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web, ciascuna con un contenuto specifico.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
+  **Nota**: rilasciato in precedenza in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
 #### Campagne orchestrate
 
