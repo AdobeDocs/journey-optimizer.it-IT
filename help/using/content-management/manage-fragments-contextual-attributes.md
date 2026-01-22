@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Per aggiungere attributi contestuali a un frammento pubblicato, effettua le segu
 
 >[!IMPORTANT]
 >
->Procedi solo se comprendi appieno l’impatto su percorsi e campagne che fanno riferimento al frammento. [Ulteriori informazioni](#limitations)
+>Procedi solo se [comprendi completamente gli impatti](#limitations) sui percorsi e sulle campagne che fanno riferimento al frammento.
 
 1. Passa a **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**.
 
@@ -56,11 +56,7 @@ Per aggiungere attributi contestuali a un frammento pubblicato, effettua le segu
 
 1. Passa a **[!UICONTROL editor di codice]** o **[!UICONTROL modalità avanzata]** nell&#39;editor di personalizzazione.
 
-1. Digita o copia-incolla manualmente l’attributo contestuale utilizzando la sintassi:
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. Digita o copia-incolla manualmente l&#39;attributo contestuale utilizzando la sintassi `{{context.attribute_name}}`:
 
    Esempio per un attributo `promotionCode`:
 
