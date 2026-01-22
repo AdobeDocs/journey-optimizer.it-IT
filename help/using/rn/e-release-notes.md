@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2358'
 ht-degree: 23%
 
 ---
@@ -188,6 +188,24 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
+<th><strong>Journey Agent - Creazione di un Percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’agente di creazione percorsi consente agli utenti di Journey Optimizer di creare e configurare percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con l’agente di creazione del Percorso, i professionisti possono creare rapidamente i percorsi descrivendo i loro requisiti nei prompt conversazionali. L’agente semplifica la creazione del percorso, consentendo agli addetti al marketing di concentrarsi sulla strategia anziché sulla configurazione tecnica.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Ulteriori informazioni</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Collegamento all'attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Collega all'attività PRODUCT JIRA</a></p>
+<p>Data di disponibilità: martedì 12 gennaio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nuova API per recuperare le campagne Azione</strong><br/></th>
 </tr>
 </thead>
@@ -279,11 +297,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Collegamento all&#39;attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Collega all&#39;attività PRODUCT JIRA</a>
 
 #### Experience Decisioning
-
-* **Arbitrato di Percorso** - È ora possibile utilizzare <strong>formule e modelli di IA</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti entrino nei percorsi più rilevanti.
-
-  **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">Collegamento all&#39;attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">Collega all&#39;attività PRODUCT JIRA</a>
 
 * **documentazione degli strumenti sandbox exd - aggiornamento** - Descrizione da fornire.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Collegamento all&#39;attività JIRA DOCAC</a>
@@ -380,3 +393,4 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 </tr>
 </tbody>
 </table>
+
