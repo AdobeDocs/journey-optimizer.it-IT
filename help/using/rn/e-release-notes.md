@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f300d46ec6705ccef2d14a2c84c13a63f66f756
+source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 23%
@@ -25,7 +25,7 @@ ht-degree: 23%
 
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Data di rilascio**: martedì 26 gennaio 2026
+**Data di rilascio**: mercoledì 27 gennaio 2026
 
 ### Nuove funzionalità {#jan-26-01-features}
 
