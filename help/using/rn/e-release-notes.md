@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 23%
+source-wordcount: '2407'
+ht-degree: 22%
 
 ---
 
@@ -178,7 +178,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>È ora possibile <strong>esportare le consegne inviate</strong> in un set di dati specifico, a scopo di archiviazione e conformità. Questa capacità è disponibile non solo per la posta elettronica, ma anche per altri canali come gli SMS. La conservazione dei dati per il set di dati di esportazione del messaggio è ora <strong>7 giorni</strong>.</p>
+<p>È ora disponibile una nuova funzionalità <strong>Esportazione messaggi</strong> per i canali e-mail e SMS. Questa funzione consente di esportare automaticamente il contenuto dei messaggi inviati in un set di dati Experience Platform dedicato, consentendoti di:</p>
+<ul>
+<li>Soddisfare i requisiti di conformità alle normative (ad esempio HIPAA)</li>
+<li>Archiviare i messaggi per richieste di rimborso legali e richieste di assistenza clienti</li>
+<li>Mantieni copie dei contenuti personalizzati inviati a singoli utenti</li>
+</ul>
+<p>I record vengono conservati nel set di dati di esportazione dei messaggi di AJO per <strong>7 giorni di calendario dall'acquisizione</strong>. Durante questo periodo di conservazione, puoi esportare i dati nel tuo archivio tramite le destinazioni Experience Platform. La funzione è abilitata a livello di configurazione del canale, per fornire un controllo granulare sui messaggi esportati.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Collegamento all'attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Collega all'attività PRODUCT JIRA</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Collegamento all&#39;attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Collega all&#39;attività PRODUCT JIRA</a>
 
 #### Experience Decisioning
-
-* **documentazione degli strumenti sandbox exd - aggiornamento** - Descrizione da fornire.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Collegamento all&#39;attività JIRA DOCAC</a>
 
 * **API per strumenti di migrazione self-service** - È disponibile un nuovo set di <strong>API per strumenti di migrazione</strong> per migrare le entità di Gestione offerte in Experience Decisioning. Gli strumenti consentono una migrazione fluida tra sandbox con risoluzione delle dipendenze e funzionalità di rollback.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">Collegamento all&#39;attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">Collega all&#39;attività PRODUCT JIRA</a>
