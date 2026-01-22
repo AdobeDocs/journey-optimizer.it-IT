@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 47e85275ff83689fe914e734e4a272bb4ef72d13
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 15%
@@ -54,7 +54,7 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
    >
    >I frammenti negli elementi decisionali sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-   Nella sezione **[!UICONTROL Frammenti]**, seleziona i frammenti pubblicati che desideri utilizzare e assegna loro una chiave di riferimento. Puoi quindi sfruttare questi frammenti nei criteri decisionali. [Scopri come](create-decision.md#fragments)
+   Nella sezione **[!UICONTROL Frammenti]**, seleziona i frammenti pubblicati che desideri utilizzare e assegna loro una chiave di riferimento. Puoi quindi sfruttare questi frammenti nei criteri decisionali. [Scopri come](use-decision-policy.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -78,8 +78,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
