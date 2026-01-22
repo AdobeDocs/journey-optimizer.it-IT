@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 23%
@@ -388,7 +388,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <td>
 <p>Ora puoi includere <strong>offerte personalizzate</strong> nei tuoi percorsi tramite un'attività di decisione Contenuto dedicata nell'area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">Collegamento all'attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">Collega all'attività PRODUCT JIRA</a></p>
-<p>Data di disponibilità: martedì 2 febbraio 2026</p>
+<p>Data di disponibilità: mercoledì 3 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
