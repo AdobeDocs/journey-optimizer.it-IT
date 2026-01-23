@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
+source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 28%
+source-wordcount: '2086'
+ht-degree: 30%
 
 ---
 
@@ -26,11 +26,13 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-## Note sulla versione di gennaio 2026 {#latest-rn}
+## Note pre-release di gennaio 2026 {#latest-rn}
 
 **Data di rilascio**: mercoledì 27 gennaio 2026
 
-Queste note sulla versione sono pre-release e soggette a modifiche fino alla data di disponibilità del rilascio. I collegamenti, le schermate e la documentazione aggiornata verranno pubblicati nelle note sulla versione alla data di rilascio.
+**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
+
+Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -116,6 +118,7 @@ Queste note sulla versione sono pre-release e soggette a modifiche fino alla dat
 <td>
 <p>Adobe Journey Optimizer ora supporta <strong>notifiche Web push</strong>, espandendo il canale push oltre i dispositivi mobili. Puoi inviare facilmente le notifiche ai browser mobili e desktop, per raggiungere i clienti direttamente sui loro dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per le notifiche push dei dispositivi mobili.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p><strong>Nota</strong>: la notifica silenziosa non è ancora supportata per le notifiche Web Push.</p>
 </td>
 </tr>
 </tbody>
@@ -276,7 +279,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Campagne
 
-* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
+* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista. La pianificazione tramite i fusi orari del profilo è disponibile per i canali E-mail, Push, SMS, WhatsApp e LINE.
 
   **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
 
