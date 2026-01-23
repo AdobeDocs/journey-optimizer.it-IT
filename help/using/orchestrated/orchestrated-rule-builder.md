@@ -5,20 +5,15 @@ title: Utilizzare il generatore di regole
 description: Scopri come creare regole per le campagne orchestrate
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 78%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
 
 # Utilizzare il generatore di regole {#orchestrated-rule-builder}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="Filtro preimpostato"
->abstract="Con l’opzione **Filtro preimpostato** puoi selezionare un filtro preimpostato dall’elenco dei filtri personalizzati o dai preferiti."
 
 Le campagne orchestrate dispongono di un generatore di regole che semplifica il processo di filtro del database in base a vari criteri. Il generatore di regole gestisce in modo efficiente query molto complesse e lunghe, offrendo maggiore flessibilità e precisione.
 
