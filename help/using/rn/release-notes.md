@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
+source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2087'
 ht-degree: 29%
 
 ---
@@ -284,9 +284,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
 
-#### Canali
-
-* **Webhook SMS: fase II** - Descrizione da fornire.
 
 #### E-mail Designer
 
