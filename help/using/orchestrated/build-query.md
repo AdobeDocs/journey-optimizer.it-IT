@@ -5,25 +5,15 @@ title: Creare la prima regola
 description: Scopri come creare regole per le campagne orchestrate
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 97%
+source-wordcount: '1818'
+ht-degree: 96%
 
 ---
 
 
 # Creare la prima regola {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="Selezionare il tipo di pubblico"
->abstract="Utilizzando l’opzione **Seleziona pubblico**, puoi scegliere il pubblico da utilizzare per filtrare la query."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="Filtro preimpostato"
->abstract="Con l’opzione **Filtro preimpostato** puoi selezionare un filtro preimpostato dall’elenco dei filtri personalizzati o dai preferiti."
 
 I passaggi principali per creare regole per le campagne orchestrate sono i seguenti:
 
@@ -56,7 +46,7 @@ Per aggiungere condizioni nella query, segui questi passaggi:
    >
    >Il pulsante **Modifica espressione** consente di sfruttare l’editor di espressioni per definire manualmente un’espressione utilizzando i campi dal database e le funzioni helper. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
-1. Fai clic sul pulsante ![&#x200B; immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
+1. Fai clic sul pulsante ![ immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
    +++ Distribuzione dei valori
 
@@ -174,11 +164,6 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
    ![Schermata dell’opzione Aggrega dati](assets/rule-builder-aggregate.png)
 
 ## Combinare le condizioni utilizzando gli operatori {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="Gruppo"
->abstract="In questo riquadro, puoi modificare l’operatore utilizzato per collegare insieme più condizioni di filtro."
 
 Ogni volta che aggiungi una nuova condizione alla regola, questa viene collegata automaticamente alla condizione esistente da un operatore **AND**. Ciò significa che i risultati delle due condizioni sono combinati.
 
