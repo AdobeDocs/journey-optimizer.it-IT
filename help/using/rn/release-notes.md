@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
+source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '1984'
 ht-degree: 30%
 
 ---
@@ -151,21 +151,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Il canale direct mailing è ora disponibile nelle campagne orchestrate. L'<strong>attività Direct Mail</strong> facilita l'invio di direct mailing all'interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Consente di automatizzare il processo di generazione del <strong>file di estrazione</strong> richiesto dai provider di direct mailing. È possibile combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuovi connettori di origini per le app fedeltà</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>I nuovi <strong>connettori di origine</strong> sono ora disponibili in Adobe Experience Platform per le app fedeltà Talon.One, Capillary e Kobie. Questi connettori consentono di trasferire in streaming i dati relativi alla fedeltà in Adobe Experience Platform e di sfruttarli in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
