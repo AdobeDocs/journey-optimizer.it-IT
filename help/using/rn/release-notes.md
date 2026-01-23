@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 28%
 
 ---
@@ -100,7 +100,6 @@ Queste note sulla versione sono pre-release e soggette a modifiche fino alla dat
 <td>
 <p>Precedentemente limitato alle campagne, il <strong>canale Direct Mail</strong> è ora disponibile nell'<strong>area di lavoro percorsi</strong>, consentendoti di incorporare Direct Mail nei tuoi percorsi. La direct mailing può ora essere utilizzata sia in scenari batch che in scenari di percorso 1:1, con il supporto per la configurazione dell'estrazione dei file e le impostazioni di frequenza basate sul tempo.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ Queste note sulla versione sono pre-release e soggette a modifiche fino alla dat
 <tr>
 <td>
 <p>Il canale direct mailing è ora disponibile nelle campagne orchestrate. L'<strong>attività Direct Mail</strong> facilita l'invio di direct mailing all'interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Consente di automatizzare il processo di generazione del <strong>file di estrazione</strong> richiesto dai provider di direct mailing. È possibile combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -288,7 +286,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### E-mail Designer
 
-* **Correzioni sul posto in E-mail designer** - <strong>Sono ora disponibili suggerimenti di contenuto automatico basati su IA</strong> in E-mail Designer quando vengono rilevate violazioni durante la convalida del contenuto. Se il contenuto viene segnalato come non allineato con le linee guida del marchio o non soddisfa i criteri di qualità, il sistema genera in modo proattivo alternative corrette che possono essere riviste e applicate in linea, migliorando la conformità e accelerando la produzione.
+* **Correzioni sul posto nella finestra di progettazione e-mail** - Durante la gestione del contenuto in base alle linee guida del brand, sono ora disponibili <strong>suggerimenti di contenuto automatici basati sull&#39;intelligenza artificiale</strong> quando vengono rilevate violazioni durante la convalida del contenuto. Se il contenuto viene segnalato come non allineato con le linee guida del marchio o non soddisfa i criteri di qualità, il sistema genera in modo proattivo alternative corrette che possono essere riviste e applicate in linea, migliorando la conformità e accelerando la produzione.
 
 #### Experience Decisioning
 
