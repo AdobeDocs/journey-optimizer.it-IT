@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
+source-git-commit: 7c505152995cc54bea4fb3cbb8ca7eecd68df737
 workflow-type: tm+mt
-source-wordcount: '2407'
-ht-degree: 22%
+source-wordcount: '2388'
+ht-degree: 23%
 
 ---
 
@@ -293,9 +293,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Webhook SMS: fase II** - Descrizione da fornire.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">Collegamento all&#39;attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-93914">Collega all&#39;attività PRODUCT JIRA</a>
-
-* **Offerta di vendita WhatsApp** - Descrizione da fornire.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13669">Collegamento all&#39;attività JIRA DOCAC</a> | <a href="https://jira.corp.adobe.com/browse/CJM-86420">Collega all&#39;attività PRODUCT JIRA</a>
 
 #### E-mail Designer
 
