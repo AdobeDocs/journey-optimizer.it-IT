@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 29%
+source-wordcount: '2027'
+ht-degree: 30%
 
 ---
 
@@ -284,10 +284,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
 
-
-#### E-mail Designer
-
-* **Correzioni sul posto nella finestra di progettazione e-mail** - Durante la gestione del contenuto in base alle linee guida del brand, sono ora disponibili <strong>suggerimenti di contenuto automatici basati sull&#39;intelligenza artificiale</strong> quando vengono rilevate violazioni durante la convalida del contenuto. Se il contenuto viene segnalato come non allineato con le linee guida del marchio o non soddisfa i criteri di qualità, il sistema genera in modo proattivo alternative corrette che possono essere riviste e applicate in linea, migliorando la conformità e accelerando la produzione.
 
 #### Experience Decisioning
 
