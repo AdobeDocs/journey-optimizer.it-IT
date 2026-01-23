@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Note sulla versione
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 30%
+source-wordcount: '2096'
+ht-degree: 29%
 
 ---
 
@@ -363,6 +364,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <tr>
 <td>
 <p>Ora puoi includere <strong>offerte personalizzate</strong> nei tuoi percorsi tramite un'attività di decisione Contenuto dedicata nell'area di lavoro del percorso e utilizzarle nelle attività del percorso, incluse condizioni e azioni personalizzate.</p>
+<p>Questa funzionalità sarà disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Data di disponibilità: mercoledì 3 febbraio 2026</p>
 </td>
 </tr>
