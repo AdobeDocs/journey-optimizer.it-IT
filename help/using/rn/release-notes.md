@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
+source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 30%
+source-wordcount: '1962'
+ht-degree: 28%
 
 ---
 
@@ -120,22 +120,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <p>Adobe Journey Optimizer ora supporta <strong>notifiche Web push</strong>, espandendo il canale push oltre i dispositivi mobili. Puoi inviare facilmente le notifiche ai browser mobili e desktop, per raggiungere i clienti direttamente sui loro dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per le notifiche push dei dispositivi mobili.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><strong>Nota</strong>: la notifica silenziosa non è ancora supportata per le notifiche Web Push.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto per le decisioni nei canali push e SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile aggiungere <strong>Criteri di decisione</strong> in percorsi e campagne push e SMS. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -327,6 +311,22 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <td>
 <p>Con tecnologia Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. Ora puoi anche generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile attraverso i prompt e aprendo contenuti in Content Designer per la modifica nel contesto.</p>
 <p>Data di disponibilità: martedì 2 febbraio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto per le decisioni nei canali push e SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi personalizzare e ottimizzare il contenuto dei messaggi push e SMS con <strong>Decisioning</strong>. Utilizza <strong>Punteggi di priorità</strong>, Formule o Modelli di intelligenza artificiale per mostrare il contenuto migliore ai tuoi clienti.</p>
+<p>Data di disponibilità: mercoledì 3 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
