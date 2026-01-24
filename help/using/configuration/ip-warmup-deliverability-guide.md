@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Quando si lanciano campagne e-mail con nuovi indirizzi IP o domini in Adobe Journey Optimizer, è fondamentale comprendere le nozioni di base sul recapito messaggi per creare una solida reputazione del mittente. Questa guida descrive i concetti chiave, i passaggi di preparazione e le best practice per aiutarti a passare da una reputazione pari a zero al posizionamento di successo nella casella in entrata.
 
-➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
+➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it){target="_blank"}.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it).-->
 
 ## Argomenti correlati {#related-topics}
 

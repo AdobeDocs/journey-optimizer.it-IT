@@ -182,15 +182,15 @@ Se si verificano errori persistenti che non possono essere risolti utilizzando q
 1. **Raccogli informazioni**: raccogli il codice di errore, l&#39;ID richiesta, i timestamp e i passaggi da riprodurre
 2. **Verifica lo stato del sistema**: visita [Stato Adobe](https://status.adobe.com/it){target="_blank"} per problemi noti del servizio
 3. **Documentazione di ricerca**: consulta [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it){target="_blank"} per informazioni sulle soluzioni
-4. **Coinvolgi community**: pubblica domande nella [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+4. **Coinvolgi community**: pubblica domande nella [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
 5. **Contatta il supporto Adobe**: invia un ticket di supporto con tutti i dettagli pertinenti
 
 >[!NOTE]
 >
->Questo riferimento al codice di errore viene continuamente aggiornato man mano che vengono identificati e documentati nuovi codici. Per informazioni aggiornate, controlla regolarmente i [blog della community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
+>Questo riferimento al codice di errore viene continuamente aggiornato man mano che vengono identificati e documentati nuovi codici. Per informazioni aggiornate, controlla regolarmente i [blog della community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=it){target="_blank"}.
 
 **Argomenti correlati**
 
-* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=it){target="_blank"}
+* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=it){target="_blank"}
 

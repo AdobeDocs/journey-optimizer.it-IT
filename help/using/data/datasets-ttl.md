@@ -52,7 +52,7 @@ La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-
 
 Di seguito sono riportate le domande frequenti sui set di dati Time-to-live (TTL).
 
-Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
 +++Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
 

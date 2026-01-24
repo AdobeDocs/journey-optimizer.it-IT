@@ -230,7 +230,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 
 >[!TAB Community e supporto]
 
-* [Community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: connettiti con altri utenti ed esperti
-* [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: fai domande e condividi le tue conoscenze
+* [Community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: connettiti con altri utenti ed esperti
+* [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: fai domande e condividi le tue conoscenze
 
 >[!ENDTABS]

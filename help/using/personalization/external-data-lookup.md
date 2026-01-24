@@ -210,7 +210,7 @@ Nella sezione Edge Delivery di traccia dell’affidabilità come parte dei detta
 
 Di seguito sono riportate le domande frequenti sull’helper per la ricerca di dati esterni.
 
-Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
 +++ Come passare un attributo contestuale dalla richiesta come parametro a una ricerca dati esterna?
 

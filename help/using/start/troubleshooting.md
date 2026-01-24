@@ -201,7 +201,7 @@ La discrepanza può verificarsi quando il percorso utilizza uno snapshot del pro
 
 Consulta [questo articolo sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} per scoprire i passaggi per risolvere il problema.
 
-Ulteriori informazioni in [questo post della community Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+Ulteriori informazioni in [questo post della community Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=it){target="_blank"}.
 
 Consulta anche la [documentazione API delle pianificazioni di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/schedules){target="_blank"} per verificare quando è pianificato il processo giornaliero.
 
