@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,14 @@ In qualità di amministratore, utilizza la funzionalità **[!UICONTROL Invia ric
 
 Utilizza questa funzionalità per semplificare il processo di test e convalida, garantendo il corretto funzionamento delle azioni personalizzate nei percorsi live.
 
+>[!NOTE]
+>
+>Se nell&#39;organizzazione è abilitato il proxy IP (in uscita), la chiamata **[!UICONTROL Invia richiesta di test]** lo ignora. Per confermare il routing proxy, esegui un test o un percorso live. Ulteriori informazioni sul proxy IP (in uscita) e sull&#39;abilitazione in [Integrare con sistemi esterni](../configuration/external-systems.md#faq).
+
+
 ## Prerequisiti {#troubleshoot-custom-action-prereq}
 
-Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **&#x200B;**&#x200B;con un URL, intestazioni e impostazioni di autenticazione.
+Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **** con un URL, intestazioni e impostazioni di autenticazione.
 
 Affinché gli amministratori possano utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
 
