@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
+source-git-commit: 868debfda4791dde687a8db5edd04af79e8f4081
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 17%
+source-wordcount: '1734'
+ht-degree: 16%
 
 ---
 
@@ -145,11 +145,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Campagne
 
-* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
-
-  **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
-
-
 #### Experience Decisioning
 
 * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare <strong>frammenti</strong> agli elementi decisionali, che possono essere utilizzati nelle campagne di esperienza basate su codice tramite i criteri decisionali.
@@ -190,6 +185,14 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
+### Miglioramenti
+
+* **Webhook SMS** - <strong>Webhook</strong> saranno supportati in tutti i provider SMS. Potrai configurare ogni webhook in base allo scopo previsto: i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi. Data di disponibilità: 28 gennaio 2026.
+
+* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne potrà utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista. **Nota**: questo miglioramento sarà disponibile solo per un set di organizzazioni (disponibilità limitata). Data di disponibilità: 28 gennaio 2026.
+
+### Funzioni
+
 <table>
 <thead>
 <tr>
@@ -207,22 +210,6 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 </ul>
 <p>I record vengono conservati nel set di dati di esportazione dei messaggi di AJO per 7 giorni di calendario dall’acquisizione. Durante questo periodo di conservazione, puoi esportare i dati nel tuo archivio tramite le destinazioni Experience Platform. La funzione è abilitata a livello di configurazione del canale, per fornire un controllo granulare sui messaggi esportati.</p>
 <p>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Webhook SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Webhook</strong> saranno supportati in tutti i provider SMS. Potrai configurare ogni webhook in base allo scopo previsto: i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi.</p>
 <p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
