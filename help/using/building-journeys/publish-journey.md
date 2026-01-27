@@ -10,16 +10,20 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 36%
+source-wordcount: '725'
+ht-degree: 34%
 
 ---
 
-# Pubblica il percorso {#publishing-the-journey}
+# Pubblicare il percorso {#publishing-the-journey}
 
 Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili che potranno entrare nel percorso. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori.
+
+>[!NOTE]
+>
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -90,4 +94,4 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
