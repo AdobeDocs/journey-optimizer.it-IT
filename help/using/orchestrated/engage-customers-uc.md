@@ -1,29 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Coinvolgi i clienti tramite l’attività di navigazione
-description: Coinvolgi i clienti tramite l’attività di navigazione
+title: Coinvolgere la clientela tramite l’attività di navigazione
+description: Coinvolgere la clientela tramite l’attività di navigazione
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Coinvolgi i clienti tramite l’attività di navigazione {#engage-customers-uc}
+# Coinvolgere la clientela tramite l’attività di navigazione {#engage-customers-uc}
 
 >[!BEGINSHADEBOX]
 
-Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schemi necessari per questo caso d&#39;uso:**
 
 * **Destinatari**: utilizzato come dimensione di targeting, con campi: `email`, `churnprop`
 * **Elenco desideri**: con campi: `description`, `priceref`, `imageurl`
 
-➡️ [Scopri come configurare gli schemi basati su modelli](gs-schemas.md)
+➡️ [Scopri come configurare gli schemi relazionali](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Invia aggiornamenti voci elenco desideri
-description: Invia aggiornamenti voci elenco desideri
+title: Inviare aggiornamenti voci della wishlist
+description: Inviare aggiornamenti voci della wishlist
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Invia aggiornamenti voci elenco desideri {#wishist-uc}
+# Inviare aggiornamenti voci della wishlist {#wishist-uc}
 
 >[!BEGINSHADEBOX]
 
@@ -25,7 +25,7 @@ Anche se questo esempio utilizza uno schema **Lista dei desideri**, lo stesso me
 * **Prodotto**: con campi: `description`, `priceref`, `imageurl`
 * **AbandonedCarts** (facoltativo): con campo: `lastmodified`
 
-➡️ [Scopri come configurare gli schemi basati su modelli](gs-schemas.md)
+➡️ [Scopri come configurare gli schemi relazionali](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

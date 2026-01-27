@@ -5,10 +5,10 @@ title: Utilizzare l’attività Salva pubblico
 description: Scopri come utilizzare l’attività Save audience in una campagna orchestrata
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 23%
+source-wordcount: '555'
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,9 @@ Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizz
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>Se la definizione del pubblico utilizza gli attributi dello schema di Experience Platform etichettati con l’utilizzo dei dati (DULE), queste etichette vengono ereditate automaticamente dal pubblico salvato. Non è necessario riapplicarli. [Ulteriori informazioni sulla governance dei dati](../../action/action-privacy.md)
 
 ## Esempio {#save-audience-example}
 

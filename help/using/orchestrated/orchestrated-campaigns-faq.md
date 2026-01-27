@@ -5,10 +5,10 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 13%
+source-wordcount: '1819'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Di seguito sono riportate le domande frequenti sulle campagne orchestrate di Adobe Journey Optimizer.
 
-Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
+Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
 +++ Cos’è l’orchestrazione di Campaign?
 
@@ -28,7 +28,7 @@ Rispetto alle campagne di invio/azione singole, portano **orchestrazione e seque
 
 **Ulteriori informazioni**
 
-* [Consulta le campagne orchestrate](gs-orchestrated-campaigns.md)
+* [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)
 * [Creare la prima campagna orchestrata](gs-campaign-creation.md)
 
 +++
@@ -63,7 +63,7 @@ Per accedere all’orchestrazione della campagna, la licenza deve includere il p
 
 **Ulteriori informazioni**
 
-* [Consulta le campagne orchestrate](gs-orchestrated-campaigns.md)
+* [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)
 * [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
@@ -77,9 +77,9 @@ Per accedere all’orchestrazione della campagna, la licenza deve includere il p
 
 **Ulteriori informazioni**
 
-* [Consulta le campagne orchestrate](gs-orchestrated-campaigns.md)
+* [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)
 * [Creare il primo percorso](../building-journeys/journey-gs.md)
-* [Consulta le campagne](../campaigns/get-started-with-campaigns.md)
+* [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 
 +++
 
@@ -265,7 +265,7 @@ No, le campagne orchestrate non supportano le funzionalità decisionali. Per le 
 
 * [Introduzione alle decisioni per le esperienze](../experience-decisioning/gs-experience-decisioning.md)
 * [Creare il primo percorso](../building-journeys/journey-gs.md)
-* [Consulta le campagne](../campaigns/get-started-with-campaigns.md)
+* [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 
 +++
 
@@ -357,7 +357,7 @@ Sì, puoi arricchire i dati dall’archivio relazionale e dai tipi di pubblico d
 
 +++ Tutti i filtri devono essere definiti tramite tipi di pubblico oppure è possibile configurare un qualche tipo di filtro?
 
-Le campagne orchestrate supportano i filtri predefiniti: puoi definire e salvare una query come filtro e aggiungerla ai preferiti per riutilizzarla in ulteriori attività di segmentazione.
+Le campagne orchestrate supportano filtri predefiniti: puoi definire e salvare una query come filtro, aggiungerla ai preferiti e riutilizzarla in ulteriori attività di segmentazione. I filtri predefiniti possono includere parametri che consentono di immettere valori al momento dell’utilizzo. [Scopri come utilizzare i filtri predefiniti](predefined-filters.md).
 
 **Ulteriori informazioni**
 

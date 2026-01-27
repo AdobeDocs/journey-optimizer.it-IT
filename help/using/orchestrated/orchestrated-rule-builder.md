@@ -5,10 +5,10 @@ title: Utilizzare il generatore di regole
 description: Scopri come creare regole per le campagne orchestrate
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ Le campagne orchestrate dispongono di un generatore di regole che semplifica il 
 
 Supporta anche filtri preimpostati all’interno di condizioni, consentendoti di perfezionare le query con facilità utilizzando espressioni avanzate e operatori per strategie complete di targeting e segmentazione del pubblico.
 
-## Accedere al generatore di regole
+## Accedere al generatore di regole {#access}
 
 Il generatore di regole è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
 
@@ -40,3 +40,7 @@ Il generatore di regole fornisce un’area di lavoro centrale in cui generare la
 * Il riquadro **[!UICONTROL Proprietà regola]** fornisce informazioni sulla regola. Consente di eseguire varie operazioni per verificare la regola e assicurarti che si adatti alle tue esigenze.
 
   Questo riquadro viene visualizzato quando si genera una query per creare un pubblico. [Scopri come controllare e convalidare la query](build-query.md#check-and-validate-your-query)
+
+## Utilizzare filtri preimpostati
+
+I filtri predefiniti consentono di riutilizzare le query salvate nel generatore di regole, incluse le versioni con parametri. Per informazioni dettagliate su come salvare, applicare e gestire filtri predefiniti, vedere [Operazioni con filtri predefiniti](predefined-filters.md).

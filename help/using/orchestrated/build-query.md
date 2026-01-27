@@ -5,10 +5,10 @@ title: Creare la prima regola
 description: Scopri come creare regole per le campagne orchestrate
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 96%
+source-wordcount: '1895'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ Per aggiungere condizioni nella query, segui questi passaggi:
 
 1. Fai clic sul pulsante **Aggiungi condizione** per creare una prima condizione per la query.
 
-   Puoi inoltre avviare la query utilizzando un filtro predefinito. A tale scopo, fai clic sul pulsante **[!UICONTROL Seleziona o salva filtro]** e scegli **[!UICONTROL Seleziona filtro predefinito]**.
+   Puoi inoltre avviare la query utilizzando un filtro predefinito. A tale scopo, fare clic sul pulsante **[!UICONTROL Seleziona o salva filtro]** e scegliere **[!UICONTROL Seleziona filtro predefinito]**. Per ulteriori dettagli, vedere [Utilizzare filtri predefiniti](predefined-filters.md).
 
    ![immagine che mostra il generatore di regole](assets/rule-builder-add.png)
 
@@ -46,13 +46,17 @@ Per aggiungere condizioni nella query, segui questi passaggi:
    >
    >Il pulsante **Modifica espressione** consente di sfruttare l’editor di espressioni per definire manualmente un’espressione utilizzando i campi dal database e le funzioni helper. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
-1. Fai clic sul pulsante ![&#x200B; immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
+1. Fai clic sul pulsante ![ immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
    +++ Distribuzione dei valori
 
-   Analizza la distribuzione dei valori per un determinato attributo all’interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
+   La distribuzione dei valori consente di identificare il modo in cui i valori vengono utilizzati all’interno del database. È utile per comprendere i valori disponibili, i loro conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
 
    Per gli attributi con un numero elevato di valori, lo strumento mostra solo i primi venti. In questi casi, viene visualizzata la notifica **[!UICONTROL Caricamento parziale]** per indicare questa limitazione. Puoi applicare filtri avanzati per perfezionare i risultati visualizzati e concentrarti su valori o sottoinsiemi di dati specifici.
+
+   Per creare la condizione più velocemente, selezionare un valore e fare clic su **[!UICONTROL Seleziona attributo e valore]** per popolare l&#39;attributo e il valore nella condizione corrente.
+
+   Puoi anche copiare un valore negli Appunti utilizzando l&#39;immagine ![che mostra l&#39;icona dell&#39;editor di espressioni](assets/do-not-localize/activity-copy.svg), ad esempio per incollarlo nell&#39;editor di espressioni.
 
    ![immagine che mostra l’interfaccia Distribuzione dei valori](assets/rule-builder-distribution-values.png)
 
@@ -215,7 +219,7 @@ Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il
 * **Visualizza risultati:** visualizza i dati risultanti dalla query.
 * **Vista codice**: visualizza una versione della query basata su codice in SQL.
 * **Calcola**: aggiorna e visualizza il numero di record interessati dalla regola.
-* **Seleziona o salva il filtro**: scegli un filtro preimpostato esistente da utilizzare nell’area di lavoro oppure salva la query come filtro preimpostato per riutilizzarla in futuro.
+* **Selezionare o salvare il filtro**: scegli un filtro preimpostato esistente da utilizzare nell’area di lavoro oppure salva la query come filtro preimpostato per riutilizzarla in futuro. Se il filtro include parametri, fornisci i valori prima di applicarlo. Per ulteriori dettagli, vedere [Utilizzare filtri predefiniti](predefined-filters.md).
 
 <br/>
 
@@ -224,4 +228,3 @@ Quando la regola è pronta, fai clic sul pulsante **[!UICONTROL Conferma]** per 
 >[!IMPORTANT]
 >
 >Se si seleziona un filtro predefinito dal riquadro Proprietà regola, la regola creata nell’area di lavoro viene sostituita con il filtro selezionato.
-

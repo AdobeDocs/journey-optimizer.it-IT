@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 2%
+source-wordcount: '946'
+ht-degree: 1%
 
 ---
 
@@ -83,9 +83,11 @@ Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di per
 
 Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, puoi sfruttarli nel codice del criterio di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Questa funzionalità è attualmente disponibile solo per il canale di esperienza basato su codice e per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è attualmente disponibile solo per il canale di esperienza basato su codice.
+>
+>Attualmente è possibile utilizzare solo [frammenti di espressione](../personalization/use-expression-fragments.md). I frammenti nidificati (frammenti che fanno riferimento ad altri frammenti) non sono supportati.
 
 Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
 
