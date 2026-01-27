@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa66cc14a9d10df066f91403ed072cb95eebaa8f
+source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 14%
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -128,7 +128,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Campagne orchestrate
 
-* **Selezionare gli attributi e copiare i valori di distribuzione** - È ora possibile selezionare o copiare i valori direttamente dalla visualizzazione Distribuzione dei valori nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/orchestrated-rule-builder.md)
+* **Selezionare gli attributi e copiare i valori di distribuzione** - È ora possibile selezionare o copiare i valori direttamente dalla visualizzazione Distribuzione dei valori nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/build-query.md)
 
 * **Ereditarietà delle etichette di utilizzo dei dati per i tipi di pubblico** - Le etichette applicate in Adobe Experience Platform ora vengono riportate automaticamente durante il salvataggio dei tipi di pubblico in campagne orchestrate, riducendo l&#39;assegnazione manuale di tag DULE. [Ulteriori informazioni](../orchestrated/activities/save-audience.md)
 
