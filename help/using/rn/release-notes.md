@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1707'
 ht-degree: 17%
 
 ---
@@ -111,28 +111,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>È ora possibile aggiungere <strong>Criteri di decisione</strong> ai percorsi e alle campagne SMS. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
 <p>Questa funzionalità è disponibile in Disponibilità limitata per un set di organizzazioni. Contatta il tuo rappresentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Esportazione messaggio</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora disponibile una nuova funzionalità <strong>Esportazione messaggi</strong> per i canali e-mail e SMS. Questa funzione consente di esportare automaticamente il contenuto dei messaggi inviati in un set di dati Experience Platform dedicato, consentendoti di:</p>
-<ul>
-<li>Soddisfare i requisiti di conformità alle normative (ad esempio HIPAA)</li>
-<li>Archiviare i messaggi per richieste di rimborso legali e richieste di assistenza clienti</li>
-<li>Mantieni copie dei contenuti personalizzati inviati a singoli utenti</li>
-</ul>
-<p>I record vengono conservati nel set di dati di esportazione dei messaggi di AJO per 7 giorni di calendario dall’acquisizione. Durante questo periodo di conservazione, puoi esportare i dati nel tuo archivio tramite le destinazioni Experience Platform. La funzione è abilitata a livello di configurazione del canale, per fornire un controllo granulare sui messaggi esportati.</p>
-<p>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <td>
 <p>Ora puoi personalizzare e ottimizzare il contenuto dei messaggi push con <strong>Decisioning</strong>. Utilizza <strong>Punteggi di priorità</strong>, Formule o Modelli di intelligenza artificiale per mostrare il contenuto migliore ai tuoi clienti.</p>
 <p>Data di disponibilità: mercoledì 3 febbraio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Esportazione messaggio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora disponibile una nuova funzionalità <strong>Esportazione messaggi</strong> per i canali e-mail e SMS. Questa funzione consente di esportare automaticamente il contenuto dei messaggi inviati in un set di dati Experience Platform dedicato, consentendoti di:</p>
+<ul>
+<li>Soddisfare i requisiti di conformità alle normative (ad esempio HIPAA)</li>
+<li>Archiviare i messaggi per richieste di rimborso legali e richieste di assistenza clienti</li>
+<li>Mantieni copie dei contenuti personalizzati inviati a singoli utenti</li>
+</ul>
+<p>I record vengono conservati nel set di dati di esportazione dei messaggi di AJO per 7 giorni di calendario dall’acquisizione. Durante questo periodo di conservazione, puoi esportare i dati nel tuo archivio tramite le destinazioni Experience Platform. La funzione è abilitata a livello di configurazione del canale, per fornire un controllo granulare sui messaggi esportati.</p>
+<p>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
+<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
