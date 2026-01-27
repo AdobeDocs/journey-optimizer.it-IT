@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+workflow-type: tm+mt
+source-wordcount: '3908'
+ht-degree: 92%
 
 ---
 
@@ -184,6 +184,34 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 * Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono archiviati in quell’istanza percorso e influiscono sulle sue dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
+
+#### Convalida dimensione payload percorso {#journey-payload-size}
+
+Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso per mantenerne la stabilità e le prestazioni.
+
+**Configurazione predefinita**
+
+* **Dimensione massima predefinita richiesta**: 2 MB (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
+* **Soglia di avvertenza**: 90% del limite massimo.
+* **Soglia di errore**: 100% del limite massimo. Salvataggio o pubblicazione bloccato. La richiesta restituisce **HTTP 413 - Entità richiesta troppo grande**.
+
+**Scenari esperienza utente**
+
+* **Payload &lt; 90% del limite**: il Percorso salva e pubblica correttamente. Non vengono visualizzati avvisi o errori.
+* **Payload 90-99% del limite**: il Percorso salva e pubblica correttamente, con un avviso per l&#39;ottimizzazione. Messaggio di avviso: **Avviso**: la dimensione Percorso del payload è vicina al limite. Nodo più grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, dimensione: [N] byte).
+* **Payload >= 100% del limite**: il salvataggio o la pubblicazione del Percorso è bloccata con un errore. Messaggio di errore: **Errore**: le dimensioni del payload Percorso superano il limite. Nodo più grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, dimensione: [N] byte).
+
+**Dettagli risposta errore**
+
+Se la richiesta supera le dimensioni massime consentite, la risposta include **Entità richiesta troppo grande**. Il payload percorso supera la dimensione massima consentita. Rivedi i dettagli dell’errore e ottimizza il percorso.
+
+**Risoluzione dei problemi e raccomandazioni**
+
+* Rivedi il nodo più grande evidenziato nell’avviso o nell’errore.
+* Semplifica le condizioni, riduci le mappature dei dati e rimuovi passaggi o parametri non necessari.
+* Se necessario, valutare la possibilità di suddividere il percorso in percorsi più piccoli.
+* Se ritieni che la tua organizzazione abbia bisogno di un limite più alto, contatta il rappresentante Adobe.
+
 ### Selezionare le limitazioni del pacchetto per i percorsi unitari {#select-package-limitations}
 
 >[!NOTE]
@@ -300,7 +328,8 @@ Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocit
 I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
-* Le attività di Campaign non possono essere utilizzate con le attività degli altri canali: schede, esperienze basate su codice, e-mail, push, SMS, messaggi in-app, web.
+* Le attività **[!UICONTROL Campaign Standard]** non possono essere utilizzate con altre attività del canale: carta, esperienza basata su codice, e-mail, push, SMS, messaggi in-app, Web.
+* Le attività **[!UICONTROL Campaign v7/v8]** possono essere utilizzate insieme alle attività native del canale nello stesso percorso.
 
 #### Attività in-app {#in-app-activity-limitations}
 
@@ -310,7 +339,7 @@ All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti gua
 
 * La personalizzazione può contenere solo attributi di profilo.
 
-* L’attività in-app non può essere utilizzata con le attività di Adobe Campaign.
+* Impossibile utilizzare l&#39;attività in-app con **[!UICONTROL attività Campaign Standard]**.
 
 * La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app all’interno di quel percorso cesseranno di essere visualizzati per quel profilo.  Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Al contrario, per impedire la visualizzazione dei messaggi in-app nel profilo, devi terminare l’intero percorso.
 
