@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 13%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -45,7 +45,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel campo **[!UICONTROL Usato in]**. È possibile fare clic sul pulsante **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
 1. Definisci i diversi parametri di **[!UICONTROL configurazione URL]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
-1. Configura la sezione **[!UICONTROL Autenticazione]**. Questa configurazione è la stessa delle origini dati.  Consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Configura la sezione **[!UICONTROL Autenticazione]**. Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definisci i **[!UICONTROL parametri azione]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -81,7 +81,7 @@ Per tutte le azioni personalizzate viene definito un limite massimo di 300.000 c
 
 >[!NOTE]
 >
->Il limite di 300.000 chiamate al minuto viene applicato come **finestra scorrevole** per sandbox ed endpoint per gli endpoint con tempi di risposta inferiori a 0,75 secondi. La finestra scorrevole può iniziare a qualsiasi millisecondo, il che significa che gli errori di limitazione possono verificarsi anche se la velocità appare inferiore a 300k/min quando allineata ai minuti dell&#39;orologio. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di 150.000 chiamate per 30 secondi (anche una finestra scorrevole). Ulteriori informazioni sugli endpoint lenti in [questa pagina](../configuration/external-systems.md#response-time).
+>Il limite di 300.000 chiamate al minuto viene applicato come **finestra scorrevole** per sandbox ed endpoint per gli endpoint con tempi di risposta inferiori a 0,75 secondi. La finestra scorrevole può iniziare a qualsiasi millisecondo, il che significa che gli errori di limitazione possono verificarsi anche se la velocità appare inferiore a 300k/min quando allineata ai minuti dell&#39;orologio. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di 150.000 chiamate per 30 secondi (anche in questo caso come intervallo scorrevole). Ulteriori informazioni sugli endpoint lenti in [questa pagina](../configuration/external-systems.md#response-time).
 
 Il limite predefinito di 300.000 chiamate al minuto si applica a livello di dominio (ovvero example.com). Se hai bisogno di un limite più alto, consulta il supporto Adobe con prove di utilizzo e conferma la velocità effettiva dell’endpoint. Per richiedere un aumento del limite, fornisci dettagli sul volume di chiamate previsto e sulla capacità dell’endpoint. Adobe può personalizzare il limite se il test della capacità dimostra che l’endpoint è in grado di gestire una velocità effettiva più elevata. Per le best practice, considera la ristrutturazione dei percorsi o l’implementazione delle attività di attesa per scaglionare le chiamate in uscita ed evitare errori di limitazione.
 
@@ -163,7 +163,7 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
-L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
@@ -175,7 +175,13 @@ Puoi definire il parametro payload come descritto di seguito:
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito dalla chiamata. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
+1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito quando la chiamata ha esito positivo. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. (Facoltativo) Seleziona **[!UICONTROL Definisci un payload di risposta di errore]** per abilitare il campo payload di risposta di errore. Se abilitata, utilizza la sezione **[!UICONTROL Risposta di errore]** per incollare un esempio del payload restituito quando la chiamata non riesce. Si applicano gli stessi requisiti del payload di risposta (tipi di campo e formato). Scopri come sfruttare il payload di risposta agli errori nei percorsi [qui](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ Puoi definire il parametro payload come descritto di seguito:
 
 ![](assets/customactionpayloadmessage2.png)
 
-Nella configurazione del campo, devi:
+In questa configurazione di campo, devi:
 
 * Seleziona il tipo di parametro, ad esempio stringa, numero intero e così via.
 

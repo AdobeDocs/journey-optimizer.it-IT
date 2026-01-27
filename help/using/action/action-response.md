@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 5%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Crea l’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-1. Fai clic nel campo **Risposta**.
+1. Fai clic all&#39;interno del campo **Risposta** (risposta di successo).
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload.
 
+1. (Facoltativo) Abilita un payload di risposta di errore per acquisire il formato restituito quando la chiamata non riesce, quindi incolla un payload di esempio. A questo scopo, seleziona **Definisci un payload di risposta all&#39;errore** nella configurazione dell&#39;azione personalizzata. Ulteriori informazioni sulla configurazione dei campi payload in [Configurare un&#39;azione personalizzata](../action/about-custom-action-configuration.md).
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   Il payload di risposta dell’errore è disponibile solo se lo abiliti nella configurazione dell’azione personalizzata.
+
 1. Aggiungiamo anche il customerID come parametro di query.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## Sfruttare la risposta in un percorso {#response-in-journey}
 
 È sufficiente aggiungere l’azione personalizzata a un percorso. Puoi quindi sfruttare i campi del payload di risposta in condizioni, altre azioni e personalizzazione dei messaggi.
+
+Se hai definito un payload di risposta di errore, questo viene esposto in **Attributi contestuali** > **Journey Orchestration** > **Azioni** > `<action name>` > **errorResponse**. Puoi utilizzarlo nel ramo di timeout ed errore per indirizzare la logica di fallback e la gestione degli errori.
 
 Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fedeltà. Quando la persona accede al ristorante, l’endpoint locale invia una chiamata con le informazioni sulla fedeltà del profilo. Puoi inviare un messaggio push se il profilo è un cliente Gold. E se nella chiamata viene rilevato un errore, invia un’azione personalizzata per informare l’amministratore di sistema.
 
@@ -144,10 +156,16 @@ Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fed
    >Ogni profilo che accede all’azione personalizzata attiva una chiamata. Anche se la risposta è sempre la stessa, il Percorso eseguirà comunque una chiamata per profilo.
 
 1. Nel ramo timeout ed errore, aggiungi una condizione e sfrutta il campo **jo_status_code** integrato. Nel nostro esempio, utilizziamo
-   Tipo di errore **http_400**. Consulta [questa sezione](#error-status).
+   Tipo di errore **http_400**. Vedi [questa sezione](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   Se è stato definito un payload di risposta di errore, puoi anche eseguire il targeting dei relativi campi, ad esempio:
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
    ```
 
    ![](assets/action-response7.png)
@@ -158,7 +176,7 @@ Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fed
 
 ## Registri della modalità di test {#test-mode-logs}
 
-Puoi accedere ai registri di stato relativi alle risposte alle azioni personalizzate tramite la modalità di test. Se hai definito azioni personalizzate con risposte nel tuo percorso, visualizzerai una sezione **actionsHistory** in tali registri in cui viene visualizzato il payload restituito dall&#39;endpoint esterno (come risposta da tale azione personalizzata). Questo può essere molto utile in termini di debug.
+Puoi accedere ai registri di stato relativi alle risposte alle azioni personalizzate tramite la modalità di test. Se hai definito azioni personalizzate con risposte nel tuo percorso, visualizzerai una sezione **actionsHistory** in tali registri in cui viene visualizzato il payload restituito dall&#39;endpoint esterno (come risposta da tale azione personalizzata). Quando viene definito un payload di risposta di errore, questo viene incluso per le chiamate non riuscite. Questo può essere molto utile in termini di debug.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ Di seguito sono riportati i possibili valori per questo campo:
 * errore interno: **internalError**
 
 Una chiamata di azione viene considerata in errore quando il codice http restituito è maggiore di 2xx o se si verifica un errore. In questi casi, il percorso passa al ramo dedicato relativo al timeout o all’errore.
+
+Se per l&#39;azione personalizzata è stato configurato un payload di risposta di errore, i relativi campi vengono esposti nel nodo **errorResponse** per le chiamate non riuscite. Se non è configurato alcun payload di risposta di errore, tale nodo non è disponibile.
 
 >[!WARNING]
 >
