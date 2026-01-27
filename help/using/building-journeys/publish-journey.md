@@ -94,4 +94,4 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
