@@ -291,7 +291,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
 
 **Pianificazione e tempistica**
 
@@ -301,7 +301,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Controllo della velocità**
 
@@ -311,7 +311,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Targeting del pubblico**
 
@@ -321,7 +321,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 **Flussi di lavoro di approvazione**
 
@@ -331,7 +331,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 **Ore di silenzio**
 
@@ -341,7 +341,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Ottimizzazione**
 
