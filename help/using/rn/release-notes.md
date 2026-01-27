@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 17%
 
 ---
@@ -184,7 +184,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>L'agente di creazione dei percorsi consente agli utenti di Journey Optimizer di creare e configurare percorsi di marketing utilizzando <strong>un'interfaccia in linguaggio naturale</strong>. I professionisti possono creare rapidamente percorsi descrivendo i propri requisiti nei prompt conversazionali, semplificando la creazione dei percorsi e consentendo agli addetti al marketing di concentrarsi sulla strategia anziché sulla configurazione tecnica.</p>
+<p>Journey Agent ora offre funzionalità di creazione che consentono agli utenti di Journey Optimizer di creare e configurare percorsi di marketing tramite un'interfaccia <strong>in linguaggio naturale</strong>. I professionisti possono creare rapidamente percorsi descrivendo i propri requisiti nei prompt conversazionali. Ciò semplifica il processo di creazione del percorso, consentendo agli addetti al marketing di concentrarsi sulla strategia anziché sulla configurazione tecnica.</p>
 </td>
 </tr>
 </tbody>
