@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1070'
 ht-degree: 28%
 
 ---
@@ -101,7 +101,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!NOTE]
 >
->Puoi creare fino a 10 set di regole locali attivi per ciascun dominio di canale e per il dominio di percorso.
+>Puoi creare fino a 10 set di regole per il dominio del canale e 10 set di regole per il dominio del percorso, per un totale di 20 set di regole.
 
 1. Accedi all&#39;elenco **[!UICONTROL Set di regole]**, quindi fai clic su **[!UICONTROL Crea set di regole]**.
 
@@ -180,4 +180,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
