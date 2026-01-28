@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: esportazione, messaggi, HIPAA, e-mail, SMS, configurazione
-badge: label="Disponibilità limitata" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 10%
+source-wordcount: '695'
+ht-degree: 4%
 
 ---
 
@@ -24,28 +21,22 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="Conservare ed esportare i contenuti inviati"
->abstract="Seleziona questa opzione per scrivere i contenuti dei messaggi e-mail o SMS inviati utilizzando questa configurazione in un set di dati [!DNL Experience Platform]. I record vengono conservati per 7 giorni di calendario dall’acquisizione, durante i quali puoi esportarli nel tuo archivio."
+>abstract="Selezionando questa opzione è possibile scrivere il contenuto dei messaggi e-mail o SMS inviati utilizzando questa configurazione in un set di dati [!DNL Experience Platform]. I record vengono conservati per 7 giorni di calendario dall’acquisizione, durante i quali puoi esportarli nel tuo archivio."
 
 >[!AVAILABILITY]
 >
->Questa funzione è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 **Esportazione messaggi** consente di trasferire il contenuto dei messaggi e-mail e SMS inviati da [!DNL Journey Optimizer] al proprio archivio tramite [!DNL Adobe Experience Platform] destinazioni, che consentono di inviare dati da [!DNL Experience Platform] agli endpoint esterni. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home){target="_blank"}
 
-Con questa funzione, il contenuto dei messaggi e-mail e SMS inviati tramite [!DNL Journey Optimizer] che sono stati contrassegnati per l&#39;esportazione viene scritto nel [!DNL Experience Platform] **set di dati di esportazione messaggi di AJO**.
+Con questa funzione, il contenuto dei messaggi e-mail e SMS inviati tramite [!DNL Journey Optimizer] che sono stati contrassegnati per l&#39;esportazione viene scritto nel [!DNL Experience Platform] **set di dati di esportazione messaggi di AJO**. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
 
-I record vengono quindi conservati nel **set di dati di esportazione messaggi di AJO** per sette giorni di calendario dall&#39;acquisizione, durante i quali è possibile esportarli nel sistema esterno desiderato.
-<!--
-## Terminology
-
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home){target="_blank"}
-* **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
-* **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
+I record vengono quindi conservati nel set di dati per sette giorni di calendario dall’acquisizione, durante i quali puoi esportarli nel sistema esterno desiderato.
 
 ## Guardrail
 
-* Questa funzione supporta solo i canali E-mail e SMS.
-* I record nel set di dati di esportazione dei messaggi di AJO vengono conservati per sette giorni di calendario dall’acquisizione.
+* Questa funzionalità supporta solo i canali **Email** e **SMS**.
+* I record nel set di dati di esportazione dei messaggi di AJO vengono conservati **per sette giorni di calendario dall&#39;acquisizione**.
 * Il backfill non è supportato per i messaggi inviati prima di abilitare l’esportazione dei messaggi come descritto di seguito.
 
 ## Abilita esportazione messaggi {#enable-message-export}
@@ -67,9 +58,9 @@ Prima di poter esportare i dati, è necessario impostare il processo di esportaz
 >
 >Questa configurazione deve essere configurata per ogni sandbox.
 
-1. Scegli un tipo di destinazione [Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/destination-types){target="_blank"}. Un elenco delle piattaforme di destinazione disponibili pronte per la ricezione dei dati è disponibile in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Scegli un tipo di destinazione [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Un elenco delle piattaforme di destinazione disponibili pronte per la ricezione dei dati è disponibile in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], configura la destinazione definendo credenziali, bucket/contenitore, prefisso percorso e opzioni di sicurezza. [Scopri come](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], configura la destinazione definendo credenziali, bucket/contenitore, prefisso percorso e opzioni di sicurezza. [Scopri come](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Crea un flusso di esportazione di set di dati utilizzando i seguenti dati:
 
@@ -89,6 +80,31 @@ Per applicare l’esportazione dei messaggi alle campagne e ai percorsi, devi ab
 
 1. Salva le modifiche e invia la configurazione del canale.
 
-I messaggi e-mail e SMS inviati tramite campagne o percorsi utilizzando questa configurazione di canale vengono scritti nel **set di dati di esportazione messaggi di AJO**. I record vengono quindi esportati nella destinazione di archiviazione selezionata in base al flusso di dati di esportazione definito.
+Dopo aver inviato messaggi tramite campagne o percorsi utilizzando questa configurazione di canale, i messaggi e-mail e SMS vengono scritti nel **set di dati di esportazione messaggi di AJO**. Potrai quindi [accedere ai record](#access-exported-data) nel set di dati ed esportarli nella destinazione di archiviazione selezionata in base al flusso di dati di esportazione definito.
 
-Se si disabilita l&#39;opzione **[!UICONTROL Abilita esportazione messaggi]**, i nuovi record per questa configurazione del canale non verranno acquisiti nel set di dati. I record esistenti rimangono fino alla scadenza della conservazione.
+>[!NOTE]
+>
+>Se si disabilita l&#39;opzione **[!UICONTROL Abilita esportazione messaggi]**, i nuovi record per questa configurazione del canale non verranno acquisiti nel set di dati. I record esistenti rimangono fino alla scadenza della conservazione.
+
+## Accedere ai dati dei messaggi esportati {#access-exported-data}
+
+Dopo aver inviato i messaggi utilizzando una configurazione di canale con Esportazione messaggi abilitata, puoi accedere ai dati esportati e rivederli nel **Set di dati di esportazione messaggi di AJO**.
+
+Per visualizzare i dati del messaggio esportato:
+
+1. In [!DNL Journey Optimizer], passa a **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** nell&#39;area di navigazione a sinistra. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
+
+1. Assicurati di visualizzare i set di dati generati dal sistema.
+
+1. Selezionare il **set di dati di esportazione messaggi di AJO** dall&#39;elenco.
+
+   ![](assets/datasets-list.png)
+
+1. Nella pagina dei dettagli del set di dati fare clic su **[!UICONTROL Anteprima set di dati]** per visualizzare i record più recenti.
+
+   ![](assets/ajo-message-export-dataset.png)
+
+Il set di dati contiene informazioni complete per ogni messaggio inviato tramite la configurazione del canale con Esportazione messaggi abilitata, tra cui: oggetto, corpo del messaggio, indirizzo e-mail o numero di telefono del destinatario, indirizzo del mittente o numero di telefono, data e ora di invio, dati di personalizzazione e altro ancora.
+
+Tutti i record nel set di dati vengono conservati per **sette giorni di calendario dall&#39;acquisizione**. Durante questo periodo di conservazione, è possibile accedere ai dati per i controlli di conformità, le indagini legali o esportarli nel proprio sistema di storage tramite la destinazione Experience Platform configurata.
+

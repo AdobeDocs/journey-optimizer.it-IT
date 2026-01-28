@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 79%
+source-wordcount: '889'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,7 @@ Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’inte
 
 ## Guardrail e limitazioni
 
-* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=it){target="_blank"}.
+* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * A partire da febbraio 2025, è in corso l’introduzione di un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer. [Ulteriori informazioni](datasets-ttl.md)
 
@@ -50,7 +50,7 @@ In questa sezione sono elencati i set di dati di sistema utilizzati da [!DNL Jou
 >
 > I set di dati di sistema **non devono essere modificati**. Qualsiasi modifica viene ripristinata automaticamente ad ogni aggiornamento del prodotto.
 
-* Reporting
+* Generazione dei rapporti
 
    * _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati.
    * _Generazione rapporti - Set di dati evento esperienza di tracciamento e-mail_: registri di interazione per il canale e-mail utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc.).
@@ -62,6 +62,10 @@ In questa sezione sono elencati i set di dati di sistema utilizzati da [!DNL Jou
 * Consenso
 
   _Set di dati del servizio di consenso_: memorizza le informazioni sul consenso di un profilo.
+
+* Esportazione messaggio
+
+  _Set di dati esportazione messaggi AJO_: memorizza il contenuto dei messaggi e-mail e SMS inviati a scopo di esportazione. I record vengono conservati per 7 giorni di calendario dall’acquisizione. Disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Esportazione messaggi. [Ulteriori informazioni](../configuration/message-export.md)
 
 * Intelligent Services
 
@@ -79,7 +83,7 @@ Puoi creare un set di dati da uno schema o da un file CSV. Informazioni dettagli
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 
