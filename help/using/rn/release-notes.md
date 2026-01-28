@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a9751fb7a95a761cb84fd1a00ea6bae9d32e37
+source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * Convalida delle dimensioni del payload di **Percorso in percorsi** - Journey Optimizer ora convalida le <strong>dimensioni del payload</strong> per garantire prestazioni e stabilità ottimali del sistema. Durante la creazione o la pubblicazione di percorsi, se le dimensioni del payload si avvicinano o superano i limiti consigliati, riceverai <strong>avvisi ed errori</strong> chiari insieme a indicazioni utili per ottimizzare la configurazione del percorso. Questa convalida proattiva consente di identificare tempestivamente i potenziali problemi e di mantenere le prestazioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journey-payload-size)
 
 * **Avvisi di Percorso** - Nuovi <strong>avvisi preconfigurati</strong> sono disponibili per percorsi.
-   &#x200B;- <strong>Frequenza eliminazioni profilo superata</strong> - Rapporto tra eliminazioni profilo e profili immessi negli ultimi 5 minuti ha superato la soglia
-   &#x200B;- <strong>Frequenza errori azione personalizzata superata</strong> - Rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia
-   &#x200B;- <strong>Frequenza errori profilo superata</strong> - Rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia
+   * <strong>Frequenza eliminazioni profilo superata</strong> - Rapporto tra eliminazioni profilo e profili immessi negli ultimi 5 minuti ha superato la soglia
+   * <strong>Frequenza errori azione personalizzata superata</strong> - Rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia
+   * <strong>Frequenza errori profilo superata</strong> - Rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../reports/alerts.md).
 
