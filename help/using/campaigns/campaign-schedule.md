@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
+source-git-commit: e6aa361229f068c475732c715160b7c644189e51
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '745'
+ht-degree: 7%
 
 ---
 
@@ -23,15 +23,46 @@ Utilizza la scheda **[!UICONTROL Pianificazione]** per definire la pianificazion
 
 ## Impostare una data di inizio campagna
 
-Per impostazione predefinita, le campagne di azione iniziano una volta attivate manualmente e terminano non appena il messaggio viene inviato una volta.
+Per impostazione predefinita, le campagne di azione iniziano una volta attivate manualmente e terminano non appena il messaggio viene inviato una volta. Se non desideri eseguire la campagna subito dopo l&#39;attivazione, puoi specificare la data e l&#39;ora dell&#39;invio del messaggio nella sezione **[!UICONTROL Inizio campagna]**.
 
-Se non desideri eseguire la campagna subito dopo l&#39;attivazione, puoi specificare la data e l&#39;ora dell&#39;invio del messaggio nella sezione **[!UICONTROL Inizio campagna]**.
+Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la data/ora di inizio sia allineata alla prima consegna desiderata. Per le campagne ricorrenti, se l’ora pianificata iniziale è già passata, le campagne passeranno al successivo intervallo di tempo disponibile in base alle relative regole di ricorrenza.
 
 ![](assets/campaign-start.png)
 
->[!NOTE]
+## Invia all’ora locale del destinatario {#profile-timezone}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_profile_timezone"
+>title="Usa fuso orario del profilo"
+>abstract="Invia messaggi in base al fuso orario del profilo di ciascun destinatario. Tutti i destinatari riceveranno il messaggio alla stessa ora locale, indipendentemente dalla loro posizione geografica. Il sistema utilizza il campo &quot;timeZone&quot; dai profili Adobe Experience Platform, con il fuso orario del creatore della campagna come fallback."
+
+Quando pianifichi una campagna per una data e un’ora specifiche, puoi scegliere di inviare messaggi in base al fuso orario del profilo di ciascun destinatario. In questo modo tutti i destinatari ricevono il messaggio alla stessa ora locale, indipendentemente dalla loro posizione geografica.
+
+Ad esempio, se pianifichi una campagna da inviare alle 9 utilizzando il fuso orario del profilo, i destinatari a New York (ET) la riceveranno alle 9 (ET), mentre i destinatari a Los Angeles (PT) la riceveranno alle 9 (PT).
+
+>[!AVAILABILITY]
 >
->Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la data/ora di inizio sia allineata alla prima consegna desiderata. Per le campagne ricorrenti, se l’ora pianificata iniziale è già passata, le campagne passeranno al successivo intervallo di tempo disponibile in base alle relative regole di ricorrenza.
+>Questa funzione è a disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>
+>La pianificazione utilizzando i fusi orari del profilo è disponibile solo per questi canali in uscita: E-mail, Push, SMS, WhatsApp e LINE.
+
+Per abilitare la pianificazione del fuso orario del profilo:
+
+1. Nella sezione **[!UICONTROL Inizio campagna]**, specifica la data e l&#39;ora in cui il messaggio deve essere inviato.
+
+1. Abilita l&#39;opzione **[!UICONTROL Usa fuso orario del profilo]**.
+
+   ![](assets/campaign-profile-timezone.png)
+
+**Funzionamento:**
+
+Il sistema utilizza il campo `profile.timeZone` del profilo Adobe Experience Platform di ogni destinatario per determinare il proprio fuso orario locale. Se un profilo non ha un valore di fuso orario, il sistema utilizza come fallback il fuso orario in cui è stata creata la campagna.
+
+La campagna rimane nello stato **Live** mentre i messaggi vengono recapitati in tutti i fusi orari. Una volta elaborati tutti i fusi orari, lo stato della campagna diventa **Completata**.
+
+**Identificatori fuso orario supportati:**
+
+Journey Optimizer convalida il valore `profile.timeZone` rispetto agli identificatori del fuso orario IANA standard. Gli identificatori fanno distinzione tra maiuscole e minuscole e devono corrispondere alla denominazione ufficiale IANA. Gli offset possono cambiare nel tempo a causa delle regole di salvataggio dell&#39;ora legale e degli aggiornamenti cronologici. Per l&#39;elenco ufficiale degli identificatori, fare riferimento al [database del fuso orario IANA](https://www.iana.org/time-zones){_blank}.
 
 ## Impostare una frequenza di esecuzione
 
