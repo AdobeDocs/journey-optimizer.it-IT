@@ -9,10 +9,10 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 6%
+source-wordcount: '2515'
+ht-degree: 5%
 
 ---
 
@@ -149,11 +149,12 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
 * Una versione di percorso può essere sospesa per un massimo di **14 giorni**, con un massimo di **10 milioni di profili** consentiti nei percorsi in pausa in tutta l&#39;organizzazione.
+Questo limite conta il numero totale di profili mantenuti in tutti i percorsi in pausa, non i profili distinti. Ad esempio, se gli stessi profili 5M si trovano in due percorsi in pausa, viene raggiunto il limite di 10M.
 Questo limite viene controllato ogni 30 minuti. Ciò significa che potresti temporaneamente superare la soglia di 10 milioni, ma una volta rilevata dal sistema, eventuali profili aggiuntivi verranno automaticamente eliminati.
 
   Se riprendi i percorsi per riportare il numero di profili bloccati al di sotto del limite, il percorso riprende immediatamente, ma l’aggiornamento del conteggio dei profili può richiedere fino a 30 minuti. Durante tale periodo, il sistema può ancora considerare tali profili come in pausa.
@@ -201,7 +202,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 
