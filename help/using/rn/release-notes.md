@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: d819b559e335ed743e1835edb170bca6e6653a4d
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -110,24 +110,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Canale notifiche push web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer supporterà <strong>notifiche Web push</strong>, espandendo il canale push oltre i dispositivi mobili. Potrai inviare notifiche sia ai browser mobili che a quelli desktop, consentendoti di raggiungere i clienti direttamente sui loro dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per il push mobile.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../push/push-configuration-web.md">documentazione dettagliata</a>.</p>
-<p>Precedentemente rilasciata in Beta, questa funzionalità sarà disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Miglioramenti {#jan-26-01-improv}
 
 #### Experience Decisioning
@@ -166,10 +148,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Impedisci l&#39;autoapprovazione per percorsi e campagne** - È stata aggiunta un&#39;opzione durante la creazione o l&#39;impostazione dei criteri di approvazione per impedire ai creatori di percorsi o campagne di approvare i propri oggetti. [Ulteriori informazioni](../test-approve/approval-policies.md)
 
-#### Assistente IA
-
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, potrai valutare la <strong>qualità complessiva dei contenuti</strong> per individuare potenziali problemi di leggibilità, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati aiuteranno a identificare messaggi poco chiari, toni incoerenti o lacune strutturali. Data di disponibilità: 28 gennaio 2026.
-
 ## Disponibile a breve {#jan-26-01-coming-soon}
 
 Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
@@ -193,6 +171,23 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 </ul>
 <p>I record vengono conservati nel set di dati di esportazione dei messaggi di AJO per 7 giorni di calendario dall’acquisizione. Durante questo periodo di conservazione, puoi esportare i dati nel tuo archivio tramite le destinazioni Experience Platform. La funzione è abilitata a livello di configurazione del canale, per fornire un controllo granulare sui messaggi esportati.</p>
 <p>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
+<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canale notifiche push web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer supporterà <strong>notifiche Web push</strong>, espandendo il canale push oltre i dispositivi mobili. Potrai inviare notifiche sia ai browser mobili che a quelli desktop, consentendoti di raggiungere i clienti direttamente sui loro dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per il push mobile.</p>
+<p>Precedentemente rilasciata in Beta, questa funzionalità sarà disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
@@ -338,6 +333,10 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 </table>
 
 ### Miglioramenti
+
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, potrai valutare la <strong>qualità complessiva dei contenuti</strong> per individuare potenziali problemi di leggibilità, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati aiuteranno a identificare messaggi poco chiari, toni incoerenti o lacune strutturali. Data di disponibilità: 28 gennaio 2026.
+
+* **Aggiorna i marchi con la nuova scheda colore**: le linee guida per i marchi ti aiuteranno a garantire che il tuo marchio venga presentato in modo coerente in tutti i punti di contatto. La nuova <strong>sezione Colori</strong> definirà gli standard per il sistema di colori del tuo marchio, delineando il modo in cui i colori vengono selezionati, organizzati e applicati tra le esperienze. Garantirà un uso coerente dei colori primari, secondari, di accento e neutri per supportare un&#39;identità del marchio coesa, accessibile e riconoscibile. Data di disponibilità: 28 gennaio 2026.
 
 * **Webhook SMS** - <strong>Webhook</strong> saranno supportati in tutti i provider SMS. Potrai configurare ogni webhook in base allo scopo previsto: i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi. Data di disponibilità: 28 gennaio 2026.
 
