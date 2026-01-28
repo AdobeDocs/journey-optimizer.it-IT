@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 55%
+source-wordcount: '743'
+ht-degree: 54%
 
 ---
 
@@ -64,7 +64,7 @@ Utilizza il Designer e-mail di [!DNL Adobe Journey Optimizer] per definire facil
 
 >[!NOTE]
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](accessible-content.md)questa pagina[!DNL Journey Optimizer].
 
 Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
@@ -126,5 +126,7 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
 1. Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per verificare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
+
+1. Puoi anche convalidare la qualità dei contenuti per valutarne la leggibilità, l’efficacia e la coerenza. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
 
 1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Salva]**.

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,8 @@ Dopo aver creato un’e-mail, puoi iniziare a progettarne il contenuto.
 
    ![](assets/email_designer_export.png)
 
+1. Puoi anche convalidare la qualità dei contenuti per identificare potenziali problemi di leggibilità, coerenza ed efficacia dei contenuti. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
+
 ## Best practice per la progettazione e-mail {#best-practices}
 
 Quando si inviano le e-mail, è importante tenere presente che i destinatari possono inoltrarle e, a volte, questo può causare problemi con il rendering dell’e-mail. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider di posta elettronica utilizzato per l’inoltro, ad esempio, se si utilizza la classe CSS “is-desktop-hidden” per nascondere un’immagine su dispositivi mobili.
@@ -78,12 +80,12 @@ Per le best practice per la progettazione di e-mail, fai riferimento alla tabell
 >
 >La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Oltre alle best practice per la progettazione delle e-mail elencate in questa sezione, assicurati di seguire anche le linee guida riportare in [questa pagina](accessible-content.md) specifiche per la creazione di contenuti accessibili con E-mail designer.
 
-## Video sulle procedure {#video}
+## Video dimostrativi {#video}
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

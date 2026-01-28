@@ -9,16 +9,16 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
 
 # Progettare contenuti accessibili {#accessible-content}
 
-L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
+L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
 
 Tale regolamento stabilisce che tutte le comunicazioni digitali, compresi e-mail, newsletter, PDF e contenuti scaricabili, dovrebbero essere accessibili. Durante la creazione di contenuti per i destinatari, è quindi necessario seguire linee guida specifiche, ad esempio utilizzare font accessibili e formati leggibili, nonché fornire testo alternativo per le immagini.
 
@@ -131,6 +131,8 @@ Per verificare l&#39;accessibilità del contenuto, è possibile utilizzare le fu
 * Utilizza l&#39;opzione [Rendering di e-mail](../content-management/rendering.md) che sfrutta Litmus per simulare le progettazioni tra i principali client e-mail (Apple Mail, Gmail, Outlook) e vedere se testo, colori e immagini rendono accessibili i contenuti. <!--Litmus includes accessibility testing-->
 
 * Invia bozze per testare il rendering del contenuto prima di inviarlo al pubblico reale. [Scopri come](../content-management/proofs.md)
+
+* Convalida la qualità dei contenuti per valutarne la leggibilità, la coerenza e l’efficacia complessiva. [Scopri come](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 

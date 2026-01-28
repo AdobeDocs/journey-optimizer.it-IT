@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1075'
 ht-degree: 11%
 
 ---
@@ -163,6 +163,8 @@ Possono verificarsi due tipi di avvisi:
 ## Controllare e inviare l’e-mail
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+
+Puoi anche convalidare la qualità dei contenuti per valutarne la leggibilità, l’efficacia e la coerenza. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >
