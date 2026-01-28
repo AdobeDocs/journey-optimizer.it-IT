@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
+source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 21%
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -238,7 +238,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <td>
 <p><strong>Ore tranquille</strong> ti consente di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Assicura che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità. Puoi applicare le ore non interattive tramite <strong>set di regole</strong>, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
 <p>Precedentemente rilasciata in Disponibilità limitata, questa funzione è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale, la funzione ora include la possibilità per il cliente di mettere in coda un’azione della campagna fino al completamento delle Ore non interattive e la possibilità di visualizzare in anteprima la regola delle Ore non interattive.</p>
-<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
+<p>Data di disponibilità: venerdì 29 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -260,7 +260,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <li>Supporto del rollback per le migrazioni completate</li>
 <li>Rapporti dettagliati sulla migrazione con mappature oggetto</li>
 </ul>
-<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
+<p>Data di disponibilità: venerdì 29 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +277,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <td>
 <p>Approfondisci insight sullo stato e sulle prestazioni dei tuoi <strong>endpoint di azione personalizzati</strong> con un nuovo dashboard di monitoraggio e dati arricchiti dell'evento del passaggio di percorso. Tieni traccia di chiamate, errori, velocità effettiva, tempi di risposta e tempi di attesa delle code per capire rapidamente quando, dove e perché si verificano anomalie.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
+<p>Data di disponibilità: venerdì 29 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
