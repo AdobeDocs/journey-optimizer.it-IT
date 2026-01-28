@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 99%
@@ -475,7 +475,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Basato su <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>, l’Agente Journey è disponibile in Journey Optimizer. Consente di analizzare i percorsi attraverso un’interfaccia in linguaggio naturale. L’agente rileverà i conflitti di pubblico o di pianificazione e gli abbandoni del profilo in un percorso per aiutarti a risolverli. Presto, potrai creare percorsi con supporto agentico.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 24 settembre 2025</p>
 </td>
 </tr>
