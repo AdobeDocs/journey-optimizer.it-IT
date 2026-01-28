@@ -5,9 +5,9 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * Il numero medio di attributi per schema **non deve superare le 50 colonne** per mantenere la gestibilità e le prestazioni.
 
-* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per le campagne orchestrate o le campagne d’azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per le campagne orchestrate o le campagne d’azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dati
 
@@ -91,4 +91,4 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 ## Limitazioni del canale
 
-Nelle campagne orchestrate sono supportati solo i canali SMS, push ed e-mail.
+Nelle campagne orchestrate sono supportati solo i canali SMS, push, e-mail e direct mail.

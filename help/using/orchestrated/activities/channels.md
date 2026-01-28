@@ -5,10 +5,10 @@ title: Aggiungere un’attività di canale in una campagna con più passaggi
 description: Scopri come aggiungere un’attività di canale in una campagna con più passaggi
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 40%
+source-wordcount: '1448'
+ht-degree: 38%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="Attività direct mail"
 >abstract="L’attività direct mail facilita l’invio con direct mail all’interno della campagna orchestrata, sia per messaggi singoli che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. È possibile combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
-[!DNL Adobe Journey Optimizer] consente di automatizzare ed eseguire campagne di marketing su più canali: e-mail, SMS e notifiche push. Puoi combinare queste attività di canale nell’area di lavoro della campagna per creare campagne orchestrate cross-channel. Queste campagne possono attivare azioni in base al comportamento dei clienti e ai dati.
+[!DNL Adobe Journey Optimizer] consente di automatizzare ed eseguire campagne di marketing su più canali: e-mail, SMS, notifiche push e direct mail. Puoi combinare queste attività di canale nell’area di lavoro della campagna per creare campagne orchestrate cross-channel. Queste campagne possono attivare azioni in base al comportamento dei clienti e ai dati.
 
 Ad esempio:
 
-* Invia una serie di messaggi di benvenuto tramite e-mail, SMS e push.
+* Invia una serie di benvenuto tramite e-mail, SMS, push e direct mail.
 * Consegna un’e-mail di follow-up dopo l’acquisto.
 * Invia messaggi di auguri di compleanno personalizzati tramite SMS.
 
@@ -62,7 +62,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 >[!CAUTION]
 >
->Nelle campagne orchestrate sono supportati solo i canali SMS, push ed e-mail.
+>Nelle campagne orchestrate sono supportati solo i canali SMS, push, e-mail e direct mail.
 
 ## Aggiungere un’attività di canale e definirne le proprietà {#add}
 
@@ -70,11 +70,11 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >
 >Prima di aggiungere un&#39;attività di canale, definisci il pubblico di destinazione utilizzando un&#39;attività [Genera pubblico](build-audience.md) o [Leggi pubblico](read-audience.md).
 
-1. Aggiungi un’attività di canale nell’area di lavoro. Le attività del canale disponibili sono **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** e **[!UICONTROL Push]**.
+1. Aggiungi un’attività di canale nell’area di lavoro. Le attività del canale disponibili sono **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** e **[!UICONTROL Direct mail]**.
 
    ![immagine che mostra l’area di lavoro con le attività disponibili](../assets/channel-add.png)
 
-1. Seleziona l’attività e fai clic su **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]** o **[!UICONTROL Modifica push]** a seconda del canale scelto.
+1. Seleziona l&#39;attività e fai clic su **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]**, **[!UICONTROL Modifica push]** o **[!UICONTROL Modifica direct mailing]** a seconda del canale scelto.
 
    ![immagine che mostra l’area di lavoro con un’attività e-mail](../assets/channel-edit.png)
 
@@ -114,7 +114,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -132,7 +132,7 @@ Passa alla scheda **[!UICONTROL Contenuto]** per creare il messaggio. I passaggi
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="e-mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Creare un messaggio e-mail</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Creare un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creare una direct mail</strong></a></td>
 </tr></table>
 
 ### Aggiungere personalizzazione

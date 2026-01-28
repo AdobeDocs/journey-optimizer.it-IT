@@ -5,10 +5,10 @@ title: Generazione di rapporti per campagne orchestrate con Adobe Journey Optimi
 description: Scopri come accedere ai rapporti sulle campagne orchestrate con Adobe Journey Optimizer
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 64%
+source-wordcount: '187'
+ht-degree: 63%
 
 ---
 
@@ -44,6 +44,6 @@ La campagna orchestrata offre informazioni fruibili grazie alle solide funzional
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../reports/campaign-global-report-cja-email.md"><img alt="e-mail" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>Rapporto e-mail</strong></a></td>
 <td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>Rapporto SMS</strong></a></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Rapporto push</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Rapporto push</strong></a></td><td><a href="../reports/campaign-global-report-cja-direct.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../reports/campaign-global-report-cja-direct.md"><strong>Report direct mail</strong></a></td>
 </tr></table>
 
