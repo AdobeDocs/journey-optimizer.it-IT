@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '390'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. Se hai inserito dei contenuti personalizzati, puoi controllare come questi contenuti vengono visualizzati nel messaggio.
 
-A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**. Puoi quindi selezionare il tipo di dispositivo per l&#39;anteprima del contenuto: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
+A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**. È quindi possibile selezionare il tipo di dispositivo per l&#39;anteprima del contenuto: **[!UICONTROL iOS]**, **[!UICONTROL Android]** o **[!UICONTROL Web]**.
 
 ![](assets/push_preview_3.png)
 
@@ -58,7 +58,8 @@ Quando il messaggio push è pronto, completa la configurazione del [percorso](..
 
 **Argomenti correlati**
 
-* [Configurare il canale push](push-configuration.md)
+* [Configurare il canale push per dispositivi mobili](push-configuration.md)
+* [Configurare il canale push per il web](push-configuration-web.md)
 * [Rapporto notifiche push](../reports/journey-global-report-cja-push.md)
 * [Creare una notifica push](create-push.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)

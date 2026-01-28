@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Se è la prima volta che crei una notifica push, assicurati che il canale push sia stato configurato. [Maggiori informazioni](push-gs.md).
+>Se è la prima volta che crei una notifica push, assicurati che il canale push sia stato configurato. [Ulteriori informazioni](push-gs.md).
 
-Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in qualsiasi momento, specialmente quando non stanno utilizzando attivamente l’app. Le notifiche push possono aiutarti a raggiungere una varietà di casi d’uso, come fornire aggiornamenti sul servizio, chiedere a un utente di agire, avvisare l’utente di una nuova offerta, ecc. Le piattaforme di dispositivi richiedono il consenso prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere il consenso dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione oppure in una sessione o in un flusso di lavoro successivi, a seconda delle necessità.
+Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile e i visitatori web in qualsiasi momento, in particolare quando non stanno utilizzando attivamente l’app o navigando nel sito web. Le notifiche push possono aiutarti a raggiungere una varietà di casi d’uso, come fornire aggiornamenti sul servizio, chiedere a un utente di agire, avvisare l’utente di una nuova offerta, ecc. Le piattaforme di dispositivi richiedono il consenso prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere il consenso dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione oppure in una sessione o in un flusso di lavoro successivi, a seconda delle necessità.
 
 [!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti ai tassi di velocità leader di settore. Le notifiche push possono includere la personalizzazione e il contesto basato su percorsi per sfruttare le informazioni sui dati del marchio con Adobe Experience Cloud.
 
@@ -31,11 +31,11 @@ Puoi creare le notifiche push:
 
 * In una **campagna**: dopo aver creato una campagna, seleziona l’azione Notifica push e definisci le impostazioni di base. Scopri come creare [una campagna di azione](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
-Utilizza le schede dedicate per definire le impostazioni di notifica push per i sistemi operativi **iOS** e **Android**.
+Utilizza le schede dedicate per definire le impostazioni delle notifiche push per le piattaforme **iOS**, **Android** e **Web**.
 
 >[!NOTE]
 >
->**[!DNL Journey Optimizer]** permette di gestire la rinuncia nelle e-mail e nei messaggi SMS; tuttavia, le notifiche push non richiedono alcun intervento da parte tua, in quanto i destinatari possono annullare l’iscrizione direttamente dal proprio dispositivo. Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegliere di interrompere le notifiche. Analogamente, possono modificare le impostazioni di notifica tramite il sistema operativo mobile.
+>**[!DNL Journey Optimizer]** permette di gestire la rinuncia nelle e-mail e nei messaggi SMS; tuttavia, le notifiche push non richiedono alcun intervento da parte tua, in quanto i destinatari possono annullare l’iscrizione direttamente dal proprio dispositivo. Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegliere di interrompere le notifiche. Analogamente, possono modificare le impostazioni di notifica tramite il sistema operativo mobile o le impostazioni del browser web.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
