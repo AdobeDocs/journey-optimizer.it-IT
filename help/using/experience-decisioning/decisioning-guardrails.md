@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 14%
+source-wordcount: '272'
+ht-degree: 15%
 
 ---
 
@@ -26,6 +26,15 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 | Richiesta API di esperienza basata su codice con criteri decisionali utilizzando la segmentazione di Edge | 1500 |
 | Richiesta API di esperienza basata su codice con criterio di decisione che non utilizza la segmentazione di Edge | 5000 |
 | Numero massimo di URI di superficie per richiesta di Edge Decisioning | 30 |
+
+## Elementi decisionali {#decision-items}
+
+| Guardrail | Limite |
+| ------- | ------- |
+| Elementi decisionali totali | 10K |
+| Dimensione massima degli elementi inclusi gli attributi (1 KB), massimo 30 attributi | 1KB |
+| Dimensione massima della rappresentazione dell’elemento (totale per tutti i posizionamenti) | 1KB |
+| Regole di frequenza: numero massimo di regole di limite per offerta | 10 |
 
 ## Raccolte elementi {#item-collections}
 
@@ -51,7 +60,7 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 | Dimensione massima della regola Pql | 15K (UTF-8) |
 | Numero massimo di livelli di nidificazione | 30 |
 
-## Formule di classificazione {#ranking-formulas}
+## Formule di ranking {#ranking-formulas}
 
 | Guardrail | Limite |
 | ------- | ------- |
@@ -65,10 +74,8 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 | Guardrail | Limite |
 | ------- | ------- |
 | Numero di attributi personalizzati per schema catalogo offerte | 100 |
-| Elementi offerta totali | 10K |
 | Posizionamenti totali | 1 K |
 | Modello di classificazione IA | 5 |
-| Regole di frequenza: numero massimo di regole di limite per offerta | 10 |
 
 ## Configurazioni  {#configurations}
 
