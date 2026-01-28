@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -207,6 +207,10 @@ Dopo aver selezionato gli elementi decisionali e/o le strategie di selezione, pu
 ## Verifica e salva la policy di decisione {#review}
 
 Dopo aver configurato una strategia di selezione e aggiunto le offerte di fallback, fai clic su **[!UICONTROL Avanti]** per rivedere e salvare i criteri di decisione, quindi fai clic su **[!UICONTROL Crea]** per confermare la creazione dei criteri.
+
+>[!IMPORTANT]
+>
+>Una volta creato un criterio decisionale, qualsiasi modifica apportata può richiedere fino a 15 minuti per propagarsi in tutte le aree di dati e fino a 30 minuti per il Canada. Ciò include modifiche quali l’aggiunta di un nuovo elemento decisionale a una raccolta, la modifica di una regola in un elemento, la modifica del contenuto di un elemento o l’aggiornamento di una formula.
 
 Puoi modificare o eliminare un criterio di decisione in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;editor di personalizzazione o nel menu **[!UICONTROL Decisioning]** all&#39;interno del riquadro delle proprietà del componente.
 
