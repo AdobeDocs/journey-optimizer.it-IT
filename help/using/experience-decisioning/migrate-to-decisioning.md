@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 48d7d6e9e92c6bcd35cf0b88e5383aa068cdefd0
+source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Decisioning offre funzionalità e vantaggi significativi rispetto al framework d
 
 ### Funzionalità di intelligenza artificiale e apprendimento automatico
 
-* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
+* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
 
 * **Misurazione dell&#39;incremento**: possibilità di visualizzare il traffico di esplorazione e di sfruttamento nei modelli AI. Questo consente agli esperti di marketing e ai data scientist di quantificare in che modo l’esplorazione basata su IA migliora le prestazioni dei modelli a lungo termine e la reperibilità di nuove offerte vincenti. La trasparenza nell’allocazione del traffico crea fiducia nelle decisioni di intelligenza artificiale e consente ai team di ottimizzare sia l’apprendimento che le prestazioni nel tempo. [Ulteriori informazioni](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 * **Supporto del canale di messaggistica nativa**: messaggistica integrata e decisioning in un singolo framework su più canali ([Esperienza basata su codice](../code-based/get-started-code-based.md) e [E-mail](../email/get-started-email.md) attualmente disponibili, altri canali in arrivo nella prima metà del 2026). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
 
-* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
+* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
 
 * **Scalabilità e prestazioni**: miglioramento architettonico che sposta il calcolo delle decisioni dall&#39;hub all&#39;edge, riducendo in modo significativo la latenza e migliorando la velocità effettiva per i casi di utilizzo con traffico elevato.
 
@@ -74,16 +74,16 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 | Caso d’uso | Gestione delle decisioni | Funzione Decisioni |
 |----------|---------------------|-------------|
-| **Strategia di posizionamento multiplo** | Una singola strategia potenzia sia la home page che l’app mobile | Logica decisionale associata a un posizionamento specifico (ad esempio, percorso web o e-mail) |
-| **Attributi di offerta coerenti** | Un addetto al marketing definisce &quot;discountType&quot; e &quot;offerValue&quot; una volta; ogni offerta eredita automaticamente questi campi | Ogni offerta gestisce i propri attributi manualmente, senza alcuna coerenza a livello di schema |
-| **Classificazione IA dinamica** | Un addetto al marketing può regolare la ponderazione (ad esempio, 60% di punteggio di conversione IA + 40% di margine di profitto) per bilanciare i ricavi e gli obiettivi di coinvolgimento | Le classificazioni si basano esclusivamente sull’output del modello o su regole statiche |
-| **Strategie di test A/B** | Un team può testare A/B se &quot;IA + regole di business&quot; fornisce prestazioni migliori rispetto al &quot;posizionamento basato sulla priorità&quot; | Nessun supporto integrato per la sperimentazione |
-| **Metriche di IA personalizzate** | Retailer addestra un modello di &quot;probabilità di acquisto&quot; e monitora l&#39;incremento tra i prodotti nuovi e quelli noti | Ottimizza solo in base alla propensione al clic; nessuna visibilità nell&#39;esplorazione o nell&#39;incremento del modello |
-| **Riutilizzabilità dei contenuti** | L’aggiornamento di un’intestazione o di un CTA si propaga automaticamente a centinaia di offerte | Ogni offerta memorizza il contenuto completo in modo indipendente |
-| **Authoring integrato** | Un addetto al marketing inserisce offerte personalizzate in un messaggio e-mail senza uscire dall’editor di messaggi | Decisioning e messaggistica live in framework separati con integrazione limitata |
-| **Conformità in materia di privacy** | Un addetto al marketing crea una regola di offerta sapendo che le preferenze di consenso escludono automaticamente alcuni profili | Richiede il coordinamento manuale con i team tecnici e di dati per l’applicazione |
-| **Inventario in tempo reale** | Utilizza un set di dati di inventario dei prodotti per eliminare in tempo reale le offerte per articoli esauriti | Dati statici; flessibilità limitata per l’utilizzo di set di dati esterni o contestuali |
-| **Scalabilità prestazioni** | Personalizzazione in tempo reale per milioni di richieste in arrivo con tempo di risposta inferiore a 100 ms | Decisioni prese nell&#39;hub con latenza più elevata |
+| **Strategia di posizionamento multiplo** | Logica decisionale associata a un posizionamento specifico (ad esempio, percorso web o e-mail) | Una singola strategia potenzia sia la home page che l’app mobile |
+| **Attributi di offerta coerenti** | Ogni offerta gestisce i propri attributi manualmente, senza alcuna coerenza a livello di schema | Un addetto al marketing definisce &quot;discountType&quot; e &quot;offerValue&quot; una volta; ogni offerta eredita automaticamente questi campi |
+| **Classificazione IA dinamica** | Le classificazioni si basano esclusivamente sull’output del modello o su regole statiche | Un addetto al marketing può regolare la ponderazione (ad esempio, 60% di punteggio di conversione IA + 40% di margine di profitto) per bilanciare i ricavi e gli obiettivi di coinvolgimento |
+| **Strategie di test A/B** | Nessun supporto integrato per la sperimentazione | Un team può testare A/B se &quot;IA + regole di business&quot; fornisce prestazioni migliori rispetto al &quot;posizionamento basato sulla priorità&quot; |
+| **Metriche di IA personalizzate** | Ottimizza solo in base alla propensione al clic; nessuna visibilità nell&#39;esplorazione o nell&#39;incremento del modello | Retailer addestra un modello di &quot;probabilità di acquisto&quot; e monitora l&#39;incremento tra i prodotti nuovi e quelli noti |
+| **Riutilizzabilità dei contenuti** | Ogni offerta memorizza il contenuto completo in modo indipendente | L’aggiornamento di un’intestazione o di un CTA si propaga automaticamente a centinaia di offerte |
+| **Authoring integrato** | Decisioning e messaggistica live in framework separati con integrazione limitata | Un addetto al marketing inserisce offerte personalizzate in un messaggio e-mail senza uscire dall’editor di messaggi |
+| **Conformità in materia di privacy** | Richiede il coordinamento manuale con i team tecnici e di dati per l’applicazione | Un addetto al marketing crea una regola di offerta sapendo che le preferenze di consenso escludono automaticamente alcuni profili |
+| **Inventario in tempo reale** | Dati statici; flessibilità limitata per l’utilizzo di set di dati esterni o contestuali | Utilizza un set di dati di inventario dei prodotti per eliminare in tempo reale le offerte per articoli esauriti |
+| **Scalabilità prestazioni** | Decisioni prese nell&#39;hub con latenza più elevata | Personalizzazione in tempo reale per milioni di richieste in arrivo con tempo di risposta inferiore a 100 ms |
 
 ## Strumenti di migrazione {#migration-tooling}
 
