@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * Convalida delle dimensioni del payload di **Percorso in percorsi** - Journey Optimizer ora convalida le <strong>dimensioni del payload</strong> per garantire prestazioni e stabilità ottimali del sistema. Durante la creazione o la pubblicazione di percorsi, se le dimensioni del payload si avvicinano o superano i limiti consigliati, riceverai <strong>avvisi ed errori</strong> chiari insieme a indicazioni utili per ottimizzare la configurazione del percorso. Questa convalida proattiva consente di identificare tempestivamente i potenziali problemi e di mantenere le prestazioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journey-payload-size)
 
 * **Avvisi di Percorso** - Nuovi <strong>avvisi preconfigurati</strong> sono disponibili per percorsi.
-   - <strong>Frequenza eliminazioni profilo superata</strong> - Rapporto tra eliminazioni profilo e profili immessi negli ultimi 5 minuti ha superato la soglia
-   - <strong>Frequenza errori azione personalizzata superata</strong> - Rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia
-   - <strong>Frequenza errori profilo superata</strong> - Rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia
+   &#x200B;- <strong>Frequenza eliminazioni profilo superata</strong> - Rapporto tra eliminazioni profilo e profili immessi negli ultimi 5 minuti ha superato la soglia
+   &#x200B;- <strong>Frequenza errori azione personalizzata superata</strong> - Rapporto tra errori azione personalizzata e chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia
+   &#x200B;- <strong>Frequenza errori profilo superata</strong> - Rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../reports/alerts.md).
 
