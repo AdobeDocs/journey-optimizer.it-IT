@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eaf35e2c75bde0c8ce613b10fd7945cb707e1c7a
+source-git-commit: f0f647467186e9a64994cc5ab44ea5d05193ab44
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -173,6 +173,12 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Pulsante di riavvio** - Le campagne orchestrate ora includono un <strong>pulsante di riavvio</strong> che consente di <strong>riavviare rapidamente le esecuzioni</strong> quando necessario prima di pubblicare la campagna. [Ulteriori informazioni](../orchestrated/start-monitor-campaigns.md)
 
 * **Supporto metadati generato dall&#39;utente**. La funzione <strong>helper executionMetadata</strong> è ora disponibile nell&#39;editor di personalizzazione per le campagne orchestrate, consentendo di allegare informazioni contestuali a qualsiasi azione nativa e di memorizzarle in un set di dati per l&#39;esportazione in sistemi esterni. [Ulteriori informazioni](../personalization/functions/helpers.md#execution-metadata)
+
+#### Campagne
+
+* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista. [Ulteriori informazioni](../campaigns/campaign-schedule.md)
+
+  **Nota**: questo miglioramento sarà disponibile solo per un set di organizzazioni (disponibilità limitata).
 
 #### Autorizzazioni
 
@@ -330,12 +336,6 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 </table>
 
 ### Miglioramenti
-
-* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista.
-
-  **Nota**: questo miglioramento sarà disponibile solo per un set di organizzazioni (disponibilità limitata).
-
-  Data di disponibilità: 29 gennaio 2026.
 
 * **Webhook SMS** - <strong>Webhook</strong> ora supportati in tutti i provider SMS. Puoi configurare ogni webhook in base allo scopo previsto, ai webhook in entrata per acquisire i messaggi in arrivo e ai webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi.
 
