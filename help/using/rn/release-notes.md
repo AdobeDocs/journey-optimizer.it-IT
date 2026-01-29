@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 21%
+source-wordcount: '1849'
+ht-degree: 22%
 
 ---
 
@@ -29,13 +29,13 @@ A causa di questo modello, le note sulla versione vengono aggiornate tra le vers
 
 ## Note sulla versione di gennaio 2026 {#latest-rn}
 
-**Data di rilascio**: 27-28 gennaio 2026
+<!--**Release date**: January 27-28, 2026-->
 
 Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-improv) riguardano le funzionalità già disponibili, mentre [Prossimamente](#jan-26-01-coming-soon) elenca gli elementi pianificati per una data di disponibilità successiva.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/message-export.md#message-export">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Precedentemente rilasciata in versione Beta, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../push/push-configuration-web.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Il canale direct mailing è ora disponibile nelle campagne orchestrate. L'<strong>attività Direct Mail</strong> facilita l'invio di direct mailing all'interno della campagna orchestrata, sia per messaggi occasionali che ricorrenti. Consente di automatizzare il processo di generazione del <strong>file di estrazione</strong> richiesto dai provider di direct mailing. È possibile combinare le attività del canale nell’area di lavoro della campagna orchestrata per creare campagne cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../orchestrated/activities/channels.md#channel">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Combina azioni messaggio native e Adobe Campaign** - Journey Optimizer ora consente di combinare <strong>azioni messaggio Adobe Campaign v7/v8</strong> con <strong>azioni canale native</strong> nello stesso percorso. [Ulteriori informazioni](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  Data di disponibilità: 27 gennaio 2026.
+
 * **Payload risposta errore azione personalizzata** - È ora possibile definire un payload <strong>risposta errore</strong> facoltativo per le azioni personalizzate. Quando una chiamata non riesce, il payload dell&#39;errore viene esposto nel contesto del percorso (sotto il nodo errorResponse dell&#39;azione) ed è disponibile nel ramo <strong>timeout/errore</strong>, insieme a `jo_status_code`, per supportare una logica di fallback e un debug più completi. [Ulteriori informazioni](../action/action-response.md)
 
+  Data di disponibilità: 27 gennaio 2026.
+
 * Convalida delle dimensioni del payload di **Percorso in percorsi** - Journey Optimizer ora convalida le <strong>dimensioni del payload</strong> per garantire prestazioni e stabilità ottimali del sistema. Durante la creazione o la pubblicazione di percorsi, se le dimensioni del payload si avvicinano o superano i limiti consigliati, riceverai <strong>avvisi ed errori</strong> chiari insieme a indicazioni utili per ottimizzare la configurazione del percorso. Questa convalida proattiva consente di identificare tempestivamente i potenziali problemi e di mantenere le prestazioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journey-payload-size)
+
+  Data di disponibilità: 27 gennaio 2026.
+
 
 * **Avvisi di Percorso** - Nuovi <strong>avvisi preconfigurati</strong> sono disponibili per percorsi.
    * <strong>Frequenza eliminazioni profilo superata</strong> - Rapporto tra eliminazioni profilo e profili immessi negli ultimi 5 minuti ha superato la soglia
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Supporto metadati generato dall&#39;utente**. La funzione <strong>helper executionMetadata</strong> è ora disponibile nell&#39;editor di personalizzazione per le campagne orchestrate, consentendo di allegare informazioni contestuali a qualsiasi azione nativa e di memorizzarle in un set di dati per l&#39;esportazione in sistemi esterni. [Ulteriori informazioni](../personalization/functions/helpers.md#execution-metadata)
 
+  Data di disponibilità: 27 gennaio 2026.
+
 #### Campagne
 
 * **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista. [Ulteriori informazioni](../campaigns/campaign-schedule.md)
 
-  **Nota**: questo miglioramento sarà disponibile solo per un set di organizzazioni (disponibilità limitata).
+  **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
+
+  Data di disponibilità: 27 gennaio 2026.
 
 #### Autorizzazioni
 
 * **Impedisci l&#39;autoapprovazione per percorsi e campagne** - È stata aggiunta un&#39;opzione durante la creazione o l&#39;impostazione di <strong>Criteri di approvazione</strong> per impedire ai creatori di percorsi o campagne di <strong>approvare i propri oggetti</strong>. [Ulteriori informazioni](../test-approve/approval-policies.md)
+
+  Data di disponibilità: 27 gennaio 2026.
 
 ## Disponibile a breve {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <tr>
 <td>
 <p>Precedentemente limitato alle campagne, il canale <strong>Direct Mail</strong> è ora disponibile nell'area di lavoro del percorso e consente di incorporare Direct Mail nei percorsi. La direct mailing può ora essere utilizzata in <strong>scenari di percorso batch e 1:1</strong>, con il supporto per la configurazione dell'estrazione dei file e le impostazioni di frequenza basate sul tempo.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità sarà disponibile per tutti gli ambienti (Disponibilità generale).</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Data di disponibilità: giovedì 28 gennaio 2026</p>
 </td>
 </tr>
@@ -336,7 +352,7 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 
 * **Webhook SMS** - <strong>Webhook</strong> ora supportati in tutti i provider SMS. Puoi configurare ogni webhook in base allo scopo previsto, ai webhook in entrata per acquisire i messaggi in arrivo e ai webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi.
 
-  Data di disponibilità: 29 gennaio 2026.
+  Data di disponibilità: 30 gennaio 2026.
 
 * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare <strong>frammenti</strong> a <strong>elementi decisionali</strong> che possono essere utilizzati nelle campagne di esperienza basate su codice tramite i criteri decisionali.
 
