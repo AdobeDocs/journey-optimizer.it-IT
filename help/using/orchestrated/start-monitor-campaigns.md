@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 36%
+source-wordcount: '1141'
+ht-degree: 29%
 
 ---
 
@@ -65,6 +65,22 @@ Una volta che la campagna è testata e pronta, fai clic su **[!UICONTROL Pubblic
 Il flusso visivo si riavvia e i profili reali iniziano a fluire nel percorso in tempo reale.
 
 Se l’azione di pubblicazione non riesce (ad esempio, a causa di contenuto del messaggio mancante), viene visualizzato un avviso e devi risolvere il problema prima di riprovare. Una volta completata la pubblicazione, la campagna inizia l&#39;esecuzione (immediatamente o secondo programma), si sposta dallo stato **Bozza** a **Live** e diventa &quot;Sola lettura&quot;.
+
+## Ripristinare una campagna alla bozza {#back-to-draft}
+
+La funzione **[!UICONTROL Torna alla bozza]** consente di annullare la pubblicazione e ripristinare lo stato bozza di una campagna orchestrata in situazioni specifiche. Questo è progettato come un meccanismo di ripristino per risolvere i problemi prima dell’invio di qualsiasi messaggio, mantenendo al contempo l’integrità del ciclo di vita della campagna.
+
+Questa opzione è disponibile in due scenari:
+
+* **Campagne pianificate in attesa di esecuzione**: quando è pianificata l&#39;esecuzione di una campagna in un momento specifico e tale momento non è ancora stato raggiunto, è possibile riutilizzare la bozza per rivedere e modificare la campagna prima che inizi l&#39;esecuzione. Tuttavia, se la campagna è ricorrente (ad esempio, una campagna pianificata giornaliera) e almeno un’esecuzione si è già verificata, l’opzione non è più disponibile. In tal caso, devi [duplicare la campagna](../campaigns/manage-campaigns.md#duplicate-a-campaign).
+
+* **Campagne live con errori di esecuzione**: quando una campagna ha rilevato un errore durante l&#39;esecuzione e viene sospesa e non è ancora stata completata alcuna esecuzione della campagna, puoi riutilizzarla come bozza per correggere l&#39;errore e ripubblicare la campagna.
+
+Per ripristinare lo stato bozza di una campagna, apri la campagna orchestrata e fai clic sul pulsante **[!UICONTROL Torna alla bozza]** nella barra degli strumenti dell&#39;area di lavoro della campagna.
+
+![](assets/back-to-draft.png)
+
+La pubblicazione della campagna viene annullata e il flusso di lavoro viene interrotto. La campagna torna allo stato **Bozza**. Ora puoi risolvere i problemi identificati, quindi [verifica la campagna](#test) e [pubblicala](#publish) di nuovo quando sarà pronta.
 
 ## Conferma invio messaggio {#confirm-sending}
 

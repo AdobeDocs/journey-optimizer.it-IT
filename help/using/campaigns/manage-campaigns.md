@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 9%
+source-wordcount: '1682'
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le sch
 
 >[!BEGINTABS]
 
->[!TAB Campagne di azione]
+>[!TAB Campagne con azioni]
 
 Seleziona la scheda **[!UICONTROL Azione]** per accedere all&#39;elenco delle campagne Azione.
 
@@ -81,7 +81,7 @@ Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ri
 
 ## Operazioni della campagna {#operations}
 
-L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
+L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
@@ -100,15 +100,19 @@ L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-loc
 * **[!UICONTROL Aggiungi al pacchetto]** - Aggiungi la campagna a un pacchetto per esportarla in un&#39;altra sandbox. [Scopri come esportare gli oggetti →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Apri bozza versione]** - Se è stata creata una nuova versione della campagna e non è ancora stata attivata, puoi accedere alla versione bozza utilizzando questa azione.
 
+**Solo per campagne orchestrate:**
+
+* **[!UICONTROL Torna alla bozza]** - Annulla la pubblicazione e ripristina lo stato di bozza di una campagna per il recupero degli errori. Questa azione è disponibile quando una campagna pianificata non è ancora stata avviata o quando una campagna live rileva un errore prima del completamento di qualsiasi esecuzione. [Ulteriori informazioni sul ripristino delle campagne →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## Informazioni sullo stato della campagna {#statuses}
 
 Ogni campagna attraversa un ciclo di vita che si riflette sul suo stato nell’interfaccia. Comprendere questi stati consente di sapere quali azioni sono disponibili e cosa fare dopo.
 
-| Stato | Campagne di azione | Campagne attivate da API | Campagne orchestrate | Che cosa significa | Azioni successive |
+| Stato | Campagne con azioni | Campagne attivate da API | Campagne orchestrate | Che cosa significa | Azioni successive |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Bozza]** | ✅ | ✅ | ✅ | In fase di modifica, non attivato | Continua a modificare o [attivare la campagna](review-activate-campaign.md) |
 | **[!UICONTROL Pianificato]** | ✅ | ✅ | ✅ | Configurato per una data di inizio specifica | Attendi l&#39;avvio, [modifica se necessario](#modify) o [visualizza nel calendario](#calendar) |
-| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Attivato ed in esecuzione | [Monitora le prestazioni](../reports/campaign-global-report-cja.md), [crea nuova versione](#modify) se necessario |
+| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Attivato ed in esecuzione | [Monitorare le prestazioni](../reports/campaign-global-report-cja.md), [creare una nuova versione](#modify) se necessario. Per le campagne orchestrate: [ripristina la bozza](../orchestrated/start-monitor-campaigns.md#back-to-draft) per le campagne pianificate non ancora avviate o per le campagne con errori di esecuzione prima dell&#39;invio di messaggi |
 | **[!UICONTROL In revisione]** | ✅ | ✅ | — | Presentato per l’omologazione | Attendi [approvazione](../test-approve/gs-approval.md) o modifica |
 | **[!UICONTROL Arrestata]** | ✅ | ✅ | ✅ | Arrestato manualmente, impossibile riattivarlo | [Duplicato da riutilizzare](#duplicate-a-campaign) |
 | **[!UICONTROL Completato]** | ✅ | ✅ | ✅ | Esecuzione completata (assegnata automaticamente 3 giorni dopo l’attivazione o alla data di fine per ricorrenti) | [Visualizza report](../reports/campaign-global-report-cja.md), [archivio](#archive-a-campaign) o [duplicato](#duplicate-a-campaign) |
