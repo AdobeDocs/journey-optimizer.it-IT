@@ -9,7 +9,7 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -124,7 +124,7 @@ Nella schermata di conferma sono disponibili i collegamenti alle ultime 24 ore e
 
 ## Guardrail e limitazioni {#journey-dry-run-limitations}
 
-* I profili in modalità di esecuzione in prova vengono conteggiati per i profili coinvolgibili
+* I profili in modalità di esecuzione a secco vengono conteggiati per [Profili coinvolgibili](../audience/license-usage.md)
 * I percorsi in modalità di esecuzione in prova vengono conteggiati ai fini della quota di percorso in tempo reale
 * I percorsi di esecuzione in prova non influiscono sulle regole aziendali
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -149,4 +149,4 @@ Quando si analizzano **metriche di reporting di percorso** tramite il servizio A
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
