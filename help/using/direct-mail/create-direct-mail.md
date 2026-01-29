@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 17%
@@ -92,6 +92,8 @@ Quando il file di estrazione è pronto, completa la configurazione del [percorso
 1. Le campagne possono essere pianificate per una data specifica o impostate per essere ricorrenti a intervalli regolari. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/campaign-schedule.md).
 
 Ora puoi iniziare a configurare il file di estrazione da inviare al provider di direct mailing.
+
+>[!ENDTABS]
 
 ## Configurare il file di estrazione {#extraction-file}
 
