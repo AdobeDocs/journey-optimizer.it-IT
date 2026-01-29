@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 13%
+source-wordcount: '1130'
+ht-degree: 12%
 
 ---
 
@@ -84,7 +84,13 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare il w
 >
 >Senza le parole chiave di consenso o rinuncia specificate, i messaggi di consenso standard non sono abilitati.
 
-Una volta create correttamente le credenziali API WhatsApp, ora puoi configurare i webhook per acquisire le risposte in entrata e gestire il consenso di consenso di consenso e rinuncia e per ricevere rapporti di consegna, comprese le conferme di lettura, se disponibili.
+Una volta create correttamente le credenziali API WhatsApp, ora puoi configurare i webhook per:
+
+* **Acquisisci le risposte in entrata** per la gestione del consenso di consenso e rinuncia
+* **Ricevi i report di consegna**, ad esempio le conferme di lettura (se disponibili) e lo stato di consegna dei messaggi
+* **Abilita eventi di tracciamento** per analisi e reporting nei set di dati di Adobe Experience Platform
+
+I webhook fungono da ponte di comunicazione tra WhatsApp Business Platform e Adobe Journey Optimizer di Meta e consentono di ricevere notifiche in tempo reale sugli eventi dei messaggi e sulle interazioni degli utenti.
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]**, seleziona il menu **[!UICONTROL Webhook WhatsApp]** in **[!UICONTROL Impostazioni WhatsApp]** e fai clic sul pulsante **[!UICONTROL Crea webhook]**.
 
@@ -101,6 +107,7 @@ Una volta create correttamente le credenziali API WhatsApp, ora puoi configurare
    * **[!UICONTROL Parole chiave di consenso]**
    * **[!UICONTROL Parole chiave per la rinuncia]**
    * **[!UICONTROL Parole chiave della Guida]**
+   * **[!UICONTROL Predefinito]** - Categoria di fallback per tutti i messaggi in entrata che non corrispondono ad altre parole chiave. Utilizza questa categoria per abilitare il tracciamento degli eventi (aperture, rapporti di consegna) nei set di dati di Adobe Experience Platform.
 
 1. Immetti **[!UICONTROL Parole chiave]** e fai clic su ![aggiungi](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
@@ -203,6 +210,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
