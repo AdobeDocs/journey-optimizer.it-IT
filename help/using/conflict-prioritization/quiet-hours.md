@@ -7,12 +7,11 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilità limitata" type="Informative"
 keywords: messaggio, frequenza, regole, pressione
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 6%
+source-wordcount: '909'
+ht-degree: 4%
 
 ---
 
@@ -32,24 +31,21 @@ Semplificando questi processi è possibile migliorare la customer experience, ri
 * **Risparmio di tempo** - Gestisci le esclusioni in un&#39;unica posizione creando una **regola basata sul tempo**, invece di aggiungere più nodi condizione con espressioni personalizzate.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Saranno disponibili progressivamente per tutta la clientela nelle prossime versioni.
-
-
 ➡️ [Scopri questa funzione nel video](#video)
 
 ## Guardrail e limitazioni
 
 * **Canali supportati** - E-mail, SMS, push e WhatsApp.
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **Campagne orchestrate** - Le ore non interattive non sono supportate per le campagne orchestrate.
 * **Ritardo di propagazione** - Gli aggiornamenti a una regola relativa alle ore non interattive possono richiedere fino a 12 ore per essere applicati alle azioni del canale che utilizzano già tale regola.
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **Latenza per volumi elevati** - In caso di comunicazioni di volumi elevati, il sistema potrebbe impiegare più tempo per iniziare ad applicare correttamente la soppressione delle ore non interattive.
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## Creare regole per le ore non interattive
 
-Per impostare le ore non interattive, crea una regola all’interno di un set di regole personalizzato. Segui questi passaggi:
+Per impostare le ore non interattive, crea una regola all’interno di un set di regole personalizzato. [Scopri come creare i set di regole](../conflict-prioritization/rule-sets.md#Create). Segui questi passaggi:
 
 1. Passare a **[!UICONTROL Regole aziendali]** per accedere all&#39;inventario dei set di regole.
 
@@ -85,22 +81,21 @@ Per impostare le ore non interattive, crea una regola all’interno di un set di
 
 1. Nella sezione **[!UICONTROL Date e ore]**, definisci quando applicare le ore non interattive:
 
-   1. Scegli il **[!UICONTROL fuso orario]** da utilizzare:
+   1. Nell&#39;elenco a discesa **[!UICONTROL Fuso orario]**, applica un fuso orario standard a tutti i destinatari nel pubblico, indipendentemente dai singoli fusi orari.
 
-      * **[!UICONTROL UTC/GMT]** - Applica una finestra temporale GMT standard a tutti i destinatari nel pubblico, indipendentemente dal loro fuso orario individuale.
-      * **[!UICONTROL Usa fuso orario locale dei destinatari]** - Utilizza il campo del fuso orario di ciascun profilo. [Ulteriori informazioni sulla gestione del fuso orario nei percorsi](../building-journeys/timezone-management.md#timezone-from-profiles)
+      Per utilizzare il campo del fuso orario da ciascun profilo, selezionare **[!UICONTROL Usa fuso orario locale destinatari]**. [Ulteriori informazioni sulla gestione del fuso orario nei percorsi](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >Se un profilo non ha un valore per il fuso orario, le ore non interattive non vengono applicate per quel profilo.
+      >[!IMPORTANT]
+      >
+      >Se un profilo non ha un valore per il fuso orario, le ore non interattive non vengono applicate per quel profilo.
 
    1. Specifica il periodo di tempo in cui applicare le ore non interattive.
 
-      * **[!UICONTROL Settimanale]** - Scegli giorni specifici della settimana e una fascia oraria. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]** (questa opzione è disponibile solo per un massimo di 3 giorni consecutivi).
+      * **[!UICONTROL Settimanale]** - Scegli giorni specifici della settimana e una fascia oraria. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]**.
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL Data personalizzata]** - Scegli date specifiche nel calendario e una sequenza temporale. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]** (questa opzione è disponibile solo per un massimo di 3 giorni consecutivi).
+      * **[!UICONTROL Data personalizzata]** - Scegli date specifiche nel calendario e una sequenza temporale. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]**.
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ Per impostare le ore non interattive, crea una regola all’interno di un set di
 
      >[!NOTE]
      >
-     >Questa opzione è disponibile solo per le azioni di percorso. Se applicata a un&#39;azione della campagna, si comporta come se si selezionasse l&#39;opzione **[!UICONTROL Elimina messaggio]**.
+     >Se un messaggio rimane in coda per un profilo per più di 7 giorni, viene eliminato.
 
-   * **[!UICONTROL Elimina messaggio]** - I messaggi non vengono mai inviati. Se si desidera che il percorso o la campagna che contiene il messaggio termini con l&#39;annullamento dell&#39;invio, selezionare **[!UICONTROL Elimina ed esci dal percorso o dalla campagna]**.
+   * **[!UICONTROL Elimina messaggio]** - I messaggi non vengono mai inviati.
+
+     >[!NOTE]
+     >
+     >Se si seleziona **[!UICONTROL Ignora]** e si applica questa regola a un&#39;azione del percorso, il profilo viene rimosso dalla consegna del messaggio e lasciato dal percorso.
+
+La regola ora viene visualizzata nel set di regole. Puoi selezionarlo per visualizzarne i dettagli nel riquadro delle proprietà.
+
+![](assets/quiet-hours-preview.png)
+
+Se la regola è pronta, attivala e completa la configurazione del set di regole. [Scopri come creare e attivare i set di regole](../conflict-prioritization/rule-sets.md#Create)
 
 ## Applicare ore di pausa a percorsi e campagne {#apply}
 
@@ -187,4 +192,4 @@ Dopo l&#39;attivazione e l&#39;esecuzione del percorso o delle campagne, puoi vi
 
 Scopri come utilizzare la funzione per le ore non interattive in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475860?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

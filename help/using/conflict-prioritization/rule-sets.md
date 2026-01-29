@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1060'
 ht-degree: 28%
 
 ---
@@ -34,7 +34,7 @@ Puoi creare due tipi di set di regole:
 * I set di regole **Canale** applicano regole ai canali di comunicazione. Consentono di impostare:
 
    * **Regole di quota limite** - *Non inviare più di 1 e-mail o SMS al giorno.*
-   * **Regole per le ore non interattive** (disponibilità limitata) - *Non inviare messaggi e-mail al di fuori della fascia oraria dalle 8.00 alle 21.00.*
+   * **Regole per le ore non interattive** - *Non inviare messaggi e-mail al di fuori del timeslot delle 8.00 - 21.00.*
 
 * I set di regole **Percorso** applicano a un percorso le regole dei limiti di concorrenza e di immissione. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
 
@@ -80,7 +80,7 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole** 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo di regola"
->abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Seleziona **Ore non interattive** (disponibile in Disponibilità limitata) per definire esclusioni basate sul tempo in modo che non vengano inviati messaggi durante specifici periodi di tempo."
+>abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Seleziona **Ore non interattive** per definire esclusioni basate sul tempo in modo che non vengano inviati messaggi durante specifici periodi di tempo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
    * [Limitazione Percorsi](../conflict-prioritization/journey-capping.md)
    * [Quota limite per tipo di comunicazione e canale](../conflict-prioritization/channel-capping.md)
-   * [Ore non interattive](../conflict-prioritization/quiet-hours.md) (disponibile con disponibilità limitata)
+   * [Ore di silenzio](../conflict-prioritization/quiet-hours.md)
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare la creazione della regola. Il messaggio viene aggiunto al set di regole con lo stato **[!UICONTROL Bozza]**.
 
@@ -180,4 +180,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video dimostrativo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
