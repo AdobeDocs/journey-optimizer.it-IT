@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 18%
+source-wordcount: '1708'
+ht-degree: 21%
 
 ---
 
@@ -60,6 +60,11 @@ Prima di poter generare questo file, devi creare:
 >id="ajo_dm_file_routing_aws_region"
 >title="Scegliere l’area geografica di AWS"
 >abstract="Seleziona l’area geografica del server AWS in cui desideri esportare i file di direct mail. In genere, è preferibile scegliere quella più vicina al luogo in cui si trova il provider di direct mail."
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="Scegliere l’area geografica di AWS"
+>abstract="Se la configurazione di indirizzamento dei file verrà inviata utilizzando i percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server."
 
 >[!NOTE]
 >
@@ -149,11 +154,15 @@ Se hai selezionato **[!UICONTROL Area di destinazione dati]** come **[!UICONTROL
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
 Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
+
+Se la configurazione di indirizzamento dei file verrà inviata utilizzando i percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server.
+
+![](assets/file-routing-journey.png)
 
 Dopo aver inserito i dettagli per il tipo di server, seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
 
@@ -185,7 +194,7 @@ Se utilizzi SFTP con autenticazione a chiave SSH, devi disporre di una chiave pr
 >
 >Dopo la codifica Base64, la chiave non conterrà più i marcatori `-----BEGIN/END RSA PRIVATE KEY-----` e non deve includere interruzioni di riga. La chiave pubblica corrispondente deve essere aggiunta al file delle chiavi autorizzate del server SFTP.
 
-Per ulteriori informazioni sulla connessione dell&#39;account SFTP ad Experience Platform, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Per ulteriori informazioni sulla connessione dell&#39;account SFTP ad Experience Platform, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

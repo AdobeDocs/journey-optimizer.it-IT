@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Azioni canale incorporate"
->abstract="Journey Optimizer viene fornito con funzionalità di azioni canale incorporate. Puoi semplicemente aggiungere al tuo percorso un messaggio (e-mail, messaggio di testo (SMS/MMS), push) o un’attività di un’esperienza in entrata (in-app, web, esperienza basata su codice, scheda contenuto) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
+>abstract="Journey Optimizer viene fornito con funzionalità di azioni canale incorporate. Puoi semplicemente aggiungere al tuo percorso un’attività di messaggio (e-mail, messaggio di testo (SMS/MMS), push, direct mailing) o un’attività di esperienza in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
 
 [!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale incorporate utilizzate per inviare messaggi: quando un profilo accede a questa attività, viene inviato un messaggio.
 
@@ -75,6 +75,15 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong>Creare messaggi di testo (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="Convalida" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>Creare messaggi direct mail</strong></a>
       </div>
       <p>
       </td>

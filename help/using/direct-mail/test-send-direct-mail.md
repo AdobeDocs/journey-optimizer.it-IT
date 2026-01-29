@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 11%
+source-wordcount: '457'
+ht-degree: 13%
 
 ---
 
@@ -34,7 +34,7 @@ Quando il contenuto del file è pronto per essere inviato, chiudere la schermata
 >
 > Se la campagna è soggetta a una policy di approvazione, dovrai richiedere l’approvazione per poter inviare la tua campagna Direct Mail. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
-Prima di attivare la campagna di direct mailing, assicurati che la campagna e il file di estrazione siano configurati correttamente. A questo scopo, seleziona gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
+Prima di attivare la campagna di direct mailing, assicurati che la campagna o il percorso e il file di estrazione siano configurati correttamente. A questo scopo, seleziona gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
 
 * **Avvisi** fai riferimento a consigli e best practice. Ad esempio, se il messaggio SMS è vuoto, viene visualizzato un messaggio di avviso.
 
@@ -42,14 +42,15 @@ Prima di attivare la campagna di direct mailing, assicurati che la campagna e il
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Quando la campagna di direct mailing è pronta, fai clic sul pulsante **[!UICONTROL Attiva]**. All&#39;avvio della campagna, il file di estrazione viene generato ed esportato automaticamente nel server specificato nella [configurazione di indirizzamento file](../direct-mail/direct-mail-configuration.md).
+Quando la tua campagna di direct mailing è pronta, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o della [campagna](../campaigns/create-campaign.md) per inviarla.
 
 >[!NOTE]
 >
 >Per impostazione predefinita, il file esportato termina con una nuova riga. Questo garantisce la compatibilità con gli strumenti standard di elaborazione dei dati.
 
-
-Una volta inviato, puoi misurare l’impatto della campagna di direct mailing all’interno dei rapporti della campagna. Per ulteriori informazioni sul reporting di direct mailing, consulta [questa sezione](../reports/campaign-global-report-cja-direct.md).
+Una volta inviato, puoi misurare l’impatto della campagna di direct mailing o del percorso all’interno dei rapporti. Per ulteriori informazioni sul reporting della direct mailing, consulta le sezioni seguenti:
+* [Rapporto sulle campagne Direct mail](../reports/campaign-global-report-cja-direct.md)
+* [Rapporto sul percorso direct mail](../reports/journey-global-report-cja-direct.md)
 
 ## Gestire il consenso per la direct mailing {#dm-consent-management}
 

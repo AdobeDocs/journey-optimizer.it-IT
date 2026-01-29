@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1910'
 ht-degree: 22%
 
 ---
@@ -35,9 +35,28 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Canale direct mailing in percorsi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Precedentemente limitato alle campagne, il canale <strong>Direct Mail</strong> è ora disponibile nell'area di lavoro del percorso e consente di incorporare Direct Mail nei percorsi. La direct mailing può ora essere utilizzata in <strong>scenari di percorso batch e 1:1</strong>, con il supporto per la configurazione dell'estrazione dei file e le impostazioni di frequenza basate sul tempo.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p><img src="assets/do-not-localize/dm-journey.gif"/></p>
+<p>Per ulteriori informazioni, consulta la <a href="../direct-mail/get-started-direct-mail.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: venerdì 29 gennaio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,7 +196,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -246,23 +265,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
 ### Funzioni
-
-<table>
-<thead>
-<tr>
-<th><strong>Canale direct mailing in percorsi</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Precedentemente limitato alle campagne, il canale <strong>Direct Mail</strong> è ora disponibile nell'area di lavoro del percorso e consente di incorporare Direct Mail nei percorsi. La direct mailing può ora essere utilizzata in <strong>scenari di percorso batch e 1:1</strong>, con il supporto per la configurazione dell'estrazione dei file e le impostazioni di frequenza basate sul tempo.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p>Data di disponibilità: giovedì 28 gennaio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

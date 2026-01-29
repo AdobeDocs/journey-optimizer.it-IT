@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 19%
+source-wordcount: '972'
+ht-degree: 17%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Creazione di direct mail"
->abstract="Crea messaggi di direct mail in campagne pianificate e progetta i file di estrazione richiesti dai provider di direct mail che desideri inviare ai tuoi clienti."
+>abstract="Crea messaggi di direct mailing in campagne e percorsi pianificati e progetta i file di estrazione necessari ai provider di direct mailing per inviare la posta ai clienti."
 
-Per creare messaggi di direct mailing, crea una campagna pianificata e configura il file di estrazione. Questo file è richiesto dai provider di direct mailing per inviare e-mail ai clienti.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_direct_mail"
+>title="Attività Fine"
+>abstract="Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mail di terze parti per inviare e-mail ai clienti."
+
+Per creare messaggi di direct mailing, crea una campagna pianificata o un percorso e configura il file di estrazione. Questo file è richiesto dai provider di direct mailing per inviare e-mail ai clienti.
 
 >[!IMPORTANT]
 >
@@ -30,17 +35,39 @@ Per creare messaggi di direct mailing, crea una campagna pianificata e configura
 >1. Una [configurazione di indirizzamento file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui deve essere caricato e memorizzato il file di estrazione,
 >1. [configurazione del messaggio di direct mailing](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
 
-## Creare una campagna di direct mailing{#create-dm-campaign}
+## Aggiungere un messaggio direct mail {#create-dm-campaign}
 
-Per creare una campagna di direct mailing, devi impostare una campagna pianificata, selezionare il pubblico di destinazione e configurare le impostazioni della direct mailing, inclusa la configurazione del messaggio. Segui questi passaggi:
+Sfoglia le schede seguenti per scoprire come aggiungere un messaggio di direct mailing in una campagna o in un percorso.
+
+>[!BEGINTABS]
+
+>[!TAB Aggiungere un messaggio di direct mailing a un Percorso]
+
+1. Apri il percorso, quindi trascina un&#39;attività di **[!UICONTROL Direct mail]** dalla sezione **Actions** della palette.
+
+1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli la configurazione del messaggio da utilizzare. Il campo **[!UICONTROL configuration]** è precompilato, per impostazione predefinita, con l&#39;ultima configurazione utilizzata per quel canale dall&#39;utente. Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
+
+1. Configura il file di estrazione da inviare al provider di direct mailing. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica contenuto]**.
+
+   ![](assets/direct-mail-add-journey.png)
+
+1. Regola le proprietà del file di estrazione, ad esempio il nome del file o le colonne da visualizzare. Per ulteriori informazioni su come configurare le proprietà del file di estrazione, consulta questa sezione: [Creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md#extraction-file).
+
+   ![](assets/direct-mail-journey-content.png)
+
+1. Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+
+   A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**, quindi aggiungere un profilo di test per verificare il rendering del file di estrazione utilizzando i dati del profilo di test. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
+
+   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+
+Quando il file di estrazione è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) per inviarlo.
+
+>[!TAB Aggiungere un messaggio di direct mailing a una campagna]
 
 1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
-1. Seleziona il tipo di campagna da eseguire
-
-   * **Pianificato - Marketing**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare messaggi di marketing. Vengono configurati ed eseguiti dall’interfaccia utente di.
-
-   * **Attivato da API - Marketing/Transazionale**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare messaggi di marketing o transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc.
+1. Seleziona il tipo di campagna **Pianificato - Marketing**.
 
 1. Nella sezione **[!UICONTROL Proprietà]**, modifica il **[!UICONTROL Titolo]** e la **[!UICONTROL Descrizione]** della tua campagna.
 
@@ -113,4 +140,3 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
       Per modificare la posizione di una colonna, trascinarla nella posizione desiderata nella sezione **[!UICONTROL Campo dati]**. Per eliminare una colonna, selezionarla e fare clic sul pulsante **[!UICONTROL Rimuovi]** nel riquadro **[!UICONTROL Formattazione]**.
 
 Ora puoi testare il messaggio direct mailing e inviarlo al pubblico. [Scopri come testare e inviare messaggi di direct mailing](test-send-direct-mail.md)
-
