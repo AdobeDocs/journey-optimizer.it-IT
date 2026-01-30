@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '792'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,11 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 1. Registrazione dell’app mobile di marca (Android o iOS) con i servizi di messaggistica push APN e Google FCM di Apple
 1. I servizi di messaggistica generano un token push, ovvero un identificatore che [!DNL Adobe Journey Optimizer] utilizzerà per eseguire il targeting del dispositivo specifico con una notifica push.
 1. Il token push generato in precedenza viene passato a Adobe Experience Platform e sincronizzato con Real-time Customer Profile; questa operazione viene eseguita OOTB con un SDK client di facile integrazione
+
+   >[!NOTE]
+   >
+   >La gestione dei token varia tra le piattaforme. In **Android (FCM)**, i token vengono automaticamente contrassegnati come non validi quando gli utenti cancellano la cache dell&#39;app o reinstallano l&#39;app, generando un nuovo token ed ECID. In **iOS (APNs)**, i token non vengono costantemente contrassegnati come non validi in questi scenari. Se un profilo contiene più ECID con token validi, le notifiche push vengono inviate a tutti i dispositivi associati.
+
 1. I messaggi push sono creati in [!DNL Adobe Journey Optimizer], i messaggi push sono creati in base a una configurazione di canale (ossia un predefinito per messaggi)
 1. I messaggi push possono essere inclusi nell’area di lavoro di orchestrazione in Percorsi
 1. Al momento della pubblicazione del Percorso, i profili cliente basati sulle condizioni del Percorso sono qualificati per ricevere notifiche push, e in questo passaggio i payload dei messaggi push sono personalizzati
@@ -56,7 +61,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 
 * **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. SDK fornisce inoltre una serie di altre estensioni che consentono di utilizzare altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
 
-  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati [&#x200B; di Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"}come:
+  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati [ di Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"}come:
 
    * Creazione di un flusso di dati per configurare il profilo e i set di dati evento di esperienza rispetto ai quali i dati fluiscono in Adobe Experience Platform
    * Creazione di proprietà mobili lato client e aggiunta di estensioni. SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
