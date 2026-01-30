@@ -1,5 +1,5 @@
 ---
-title: Inizia a usare la funzione Decisioni
+title: Introduzione alla funzione Decisioni
 description: Ulteriori informazioni sulle funzioni decisionali
 feature: Decisioning
 topic: Integrations
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '631'
 ht-degree: 22%
 
 ---
 
-# Inizia a usare la funzione Decisioni {#get-started-experience-decisioning}
+# Introduzione alla funzione Decisioni {#get-started-experience-decisioning}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
@@ -25,11 +25,13 @@ ht-degree: 22%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni singolo utente gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [nuovo canale di esperienza basato su codice](../code-based/get-started-code-based.md), accessibile nelle campagne Journey Optimizer.
+Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [canale di esperienza basato su codice](../code-based/get-started-code-based.md), accessibile nelle campagne [!DNL Adobe Journey Optimizer].
 
 >[!IMPORTANT]
 >
 >I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne e-mail e nelle esperienze basate su codice.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ➡️ Un caso d&#39;uso end-to-end che mostra come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice è presentato in [questa sezione](experience-decisioning-uc.md).
 
@@ -98,3 +100,8 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 * **[Guardrail di decisioning](decisioning-guardrails.md)**: rivedi limitazioni importanti e best practice per l&#39;implementazione del decisioning.
 * **[Tutorial su Decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni decisionali e sulle best practice.
 
+## Video dimostrativo {#video}
+
+Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

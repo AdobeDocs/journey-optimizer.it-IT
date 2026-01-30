@@ -1,5 +1,5 @@
 ---
-title: Formule di classificazione
+title: Formule di ranking
 description: Scopri come creare formule per classificare le offerte
 feature: Ranking, Decisioning
 topic: Integrations
@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 6%
 
 ---
 
 # Utilizzare il generatore di formule basato sull’IA {#create-ranking-formulas}
 
-**Le formule di classificazione** ti consentono di definire regole che determineranno quale offerta deve essere presentata per prima, anziché tenere conto dei punteggi di priorità.
+**Le formule di classificazione** ti consentono di definire regole che determinano quale offerta deve essere presentata per prima, anziché tenere conto dei punteggi di priorità.
 
 Per creare queste regole, il generatore di formule di IA in **[!UICONTROL Adobe Journey Optimizer]** offre maggiore flessibilità e controllo nella classificazione delle offerte. Invece di affidarti solo a una priorità di offerta statica, ora puoi definire formule di classificazione personalizzate che combinano punteggi di modelli AI, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali tramite un’interfaccia guidata.
 
@@ -24,11 +24,13 @@ Questo approccio consente di regolare dinamicamente la classificazione delle off
 
 Una volta creata una formula di classificazione, puoi assegnarla a una [strategia di selezione](../selection-strategies.md). Se più offerte sono idonee per essere presentate quando si utilizza questa strategia di selezione, il motore decisionale utilizzerà la formula selezionata per calcolare quale offerta consegnare per prima.
 
+➡️ [Scopri questa funzione nel video](#video)
+
 ## Creare una formula di classificazione {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
->title="Creare formule di classificazione"
+>title="Creare formule di ranking"
 >abstract="Le formule consentono di definire regole che determinano quale elemento decisionale deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creata una formula di classificazione, puoi assegnarla a una strategia di selezione."
 
 Per creare una formula di classificazione, segui i passaggi seguenti.
@@ -93,9 +95,9 @@ Per definire i criteri direttamente dall’interfaccia, segui i passaggi indicat
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. Nella sezione **[!UICONTROL Criterio 1]**, specificare gli elementi decisionali a cui si desidera applicare un punteggio di classificazione eseguendo le operazioni seguenti:
-   * seleziona un [attributo elemento decisione](../items.md#attributes),
-   * selezionare un operatore logico,
-   * aggiungi una condizione corrispondente. puoi digitare un valore oppure selezionare un attributo di profilo o [dati contestuali](../context-data.md).
+   * seleziona un [attributo elemento decisione](../items.md#attributes)
+   * seleziona un operatore logico
+   * aggiungi una condizione corrispondente. puoi digitare un valore oppure selezionare un attributo di profilo o [dati contestuali](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -274,3 +276,9 @@ Tieni presente che quando utilizzi l&#39;API **Decisioning**, i dati contestuali
 ```
 
 +++
+
+## Video dimostrativo {#video}
+
+Scopri come utilizzare il generatore di formule IA in Adobe Journey Optimizer per creare strategie di classificazione delle offerte personalizzate.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
