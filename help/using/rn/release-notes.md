@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aaee9f7ed3ddcbf4678dacbf2e43d0410f334261
+source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -196,7 +196,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality). [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+* **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
+
+  [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -206,7 +208,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   Data di disponibilità: 27 gennaio 2026.
 
-* **Payload risposta errore azione personalizzata** - È ora possibile definire un payload <strong>risposta errore</strong> facoltativo per le azioni personalizzate. Quando una chiamata non riesce, il payload dell&#39;errore viene esposto nel contesto del percorso (sotto il nodo errorResponse dell&#39;azione) ed è disponibile nel ramo <strong>timeout/errore</strong>, insieme a `jo_status_code`, per supportare una logica di fallback e un debug più completi. [Ulteriori informazioni](../action/action-response.md)
+* **Payload risposta errore azione personalizzata** - È ora possibile definire un payload <strong>risposta errore</strong> facoltativo per le azioni personalizzate. Quando una chiamata non riesce, il payload dell&#39;errore viene esposto nel contesto del percorso (sotto il nodo errorResponse dell&#39;azione) ed è disponibile nel ramo <strong>timeout/errore</strong>, insieme a `jo_status_code`, per supportare una logica di fallback e un debug più completi. [Ulteriori informazioni](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
   Data di disponibilità: 27 gennaio 2026.
 
