@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1772'
 ht-degree: 14%
 
 ---
 
 # Progettare una notifica push {#design-push-notification}
 
-Dopo aver creato una notifica push, puoi progettarne il contenuto per le piattaforme iOS, Android e Web. Questa pagina ti guida attraverso la composizione del messaggio, la configurazione del comportamento al clic, l’aggiunta di supporti e pulsanti e l’impostazione di opzioni avanzate per creare notifiche push coinvolgenti che risuonano con il tuo pubblico.
+Dopo aver creato una notifica push, puoi progettarne il contenuto per le piattaforme iOS e Android. Questa pagina ti guida attraverso la composizione del messaggio, la configurazione del comportamento al clic, l’aggiunta di supporti e pulsanti e l’impostazione di opzioni avanzate per creare notifiche push coinvolgenti che risuonano con il tuo pubblico.
 
 ## Titolo e corpo {#push-title-body}
 
@@ -30,7 +30,7 @@ Dopo aver creato una notifica push, puoi progettarne il contenuto per le piattaf
 
 Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di personalizzazione per definire i contenuti, personalizzare i dati e aggiungere contenuti dinamici. Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.md) e sul [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell&#39;editor di personalizzazione.
 
-Utilizza la sezione anteprima dispositivo per visualizzare come viene visualizzata la notifica push su iOS, Android e Web.
+Utilizza la sezione di anteprima del dispositivo per visualizzare come viene visualizzata la notifica push su iOS e Android.
 
 Accelera la creazione dei contenuti con l&#39;Assistente di intelligenza artificiale e genera un testo di notifica push convincente con [Assistente di intelligenza artificiale per la generazione di testo](../content-management/generative-text.md) oppure crea notifiche push complete con [Assistente di intelligenza artificiale per la generazione di contenuti completi](../content-management/generative-full-content.md).
 
@@ -96,13 +96,15 @@ Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del co
 >
 >Quando si includono allegati multimediali nel payload della notifica push (ad esempio immagini nei campi dati personalizzati come `adb_media`), l&#39;app mobile deve implementare una gestione lato client specifica affinché le immagini vengano riprodotte sui dispositivi. L&#39;app deve implementare un&#39;[estensione del servizio di notifica](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} per scaricare ed elaborare contenuti multimediali dal payload. Inoltre, l&#39;opzione **[!UICONTROL Aggiungi flag di contenuto mutabile]** deve essere abilitata nella sezione [Opzioni avanzate](#advanced-options-push).
 
+<!--
 >[!TAB Web]
 
-Immetti l&#39;URL del supporto nel campo **[!UICONTROL Aggiungi supporto]**. Puoi anche includere token di personalizzazione nell’URL per personalizzare il contenuto di ogni utente.
+Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
 
-Fai clic su ![Modifica testo con l&#39;assistente di IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) per generare rapidamente file multimediali utilizzando l&#39;Assistente di IA per Journey Optimizer.
+Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_18_N.svg) to quickly generate media using the Journey Optimizer AI Assistant.
 
 ![](assets/web-media.png)
+-->
 
 >[!ENDTABS]
 
@@ -135,15 +137,17 @@ Per Android, puoi aggiungere fino a tre pulsanti.
 
 Per iOS, viene specificato un identificatore di categoria di notifica. Le categorie di notifica devono essere preconfigurate nell’app iOS che definirà i pulsanti da visualizzare e le azioni da intraprendere. Per ulteriori dettagli, consulta la [documentazione di Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types).
 
+<!--
 >[!TAB Web]
 
 ![](assets/push_buttons-web.png)
 
-Utilizza l&#39;opzione **[!UICONTROL Aggiungi pulsante]** per definire l&#39;etichetta di ogni pulsante e l&#39;azione associata, come descritto di seguito:
+Use the **[!UICONTROL Add Button]** option to define each button's label and associated action, as detailed below:
 
-* **[!UICONTROL Deeplink]**: reindirizza gli utenti a una visualizzazione, sezione o scheda specifica nell&#39;app. Immetti l’URL del collegamento diretto nel campo associato.
+* **[!UICONTROL Deeplink]**: Redirect users to a specific view, section, or tab within your app. Enter the deeplink URL in the associated field.
 
-* **[!UICONTROL URL Web]**: reindirizzare gli utenti a una pagina Web esterna. Immetti l’URL nel campo associato.
+* **[!UICONTROL Web URL]**: Redirect users to an external webpage. Enter the URL in the associated field.
+-->
 
 >[!ENDTABS]
 
@@ -154,9 +158,11 @@ Utilizza l&#39;opzione **[!UICONTROL Aggiungi pulsante]** per definire l&#39;eti
 >title="Informazioni sulla notifica silenziosa"
 >abstract="Invia notifiche senza disturbare l’utente: le notifiche non verranno visualizzate nel centro notifiche o nella barra delle notifiche."
 
+<!--
 >[!AVAILABILITY]
 >
->Le notifiche Web push in Journey Optimizer non supportano la funzionalità **Notifica silenziosa**.
+>Web push notifications in Journey Optimizer do not support the **Silent Notification** feature.
+-->
 
 Una notifica push invisibile all’utente (o notifica in background) è un’istruzione nascosta distribuita all’applicazione. Viene utilizzato ad esempio per notificare all’applicazione la disponibilità di nuovo contenuto o per avviare un download in background.
 
