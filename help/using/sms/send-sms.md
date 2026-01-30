@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -45,18 +45,23 @@ Il conteggio dei caratteri non riflette le varianti introdotte dalla personalizz
 
 ## Convalidare il contenuto {#sms-validate}
 
+>[!NOTE]
+>
+> Per migliorare il recapito messaggi, utilizza i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
+
 È necessario controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
 
 ![](assets/sms-alert-button.png)
 
-* **Avvisi** fai riferimento a consigli e best practice. Ad esempio, se il messaggio di testo è vuoto, viene visualizzato un messaggio di avviso.
+* **Avvisi** fai riferimento a consigli e best practice. Ad esempio, viene visualizzato un messaggio di avviso se il messaggio di testo è vuoto o se i limiti dei caratteri con il contenuto dinamico possono essere superati.
+
+  **Limiti di caratteri:** 160 caratteri per segmento (GSM a 7 bit), 70 caratteri per Unicode/emojis, fino a un totale di 1500 caratteri.
 
 * **Gli errori** impediscono di testare o attivare il percorso o di pubblicare la campagna, purché non siano risolti. Ad esempio, un messaggio di errore ti avvisa quando manca la riga dell’oggetto.
 
+L&#39;avviso **&quot;Il limite di caratteri del testo SMS è stato superato&quot;** può essere visualizzato anche quando il messaggio simulato è più breve, perché la convalida calcola la **lunghezza massima possibile** valutando tutti i rami condizionali, i campi di personalizzazione e il contenuto dinamico al massimo.
 
->[!NOTE]
->
-> Per migliorare il recapito messaggi, utilizza i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
+La convalida calcola la lunghezza massima per tutti i dati di profilo possibili, mentre la simulazione mostra l’output effettivo per un profilo di test.
 
 ## Inviare i messaggi di testo {#sms-send}
 
