@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '263'
 ht-degree: 15%
 
 ---
@@ -33,22 +33,21 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 | ------- | ------- |
 | Elementi decisionali totali | 10K |
 | Dimensione massima degli elementi inclusi gli attributi (1 KB), massimo 30 attributi | 1KB |
-| Dimensione massima della rappresentazione dell’elemento (totale per tutti i posizionamenti) | 1KB |
-| Regole di frequenza: numero massimo di regole di limite per offerta | 10 |
+| Regole di frequenza: numero massimo di regole di limite per elemento decisionale | 10 |
 
 ## Raccolte elementi {#item-collections}
 
 | Guardrail | Limite |
 | ------- | ------- |
 | Raccolte di elementi | 10K |
-| Totale elementi offerta per raccolta articoli | 500 |
+| Totale elementi decisionali per raccolta | 500 |
 
 ## Criterio di decisione {#decision-policy}
 
 | Guardrail | Limite |
 | ------- | ------- |
 | Numero di strategie di selezione e di elementi manuali per criterio di decisione | 10 |
-| Numero massimo di elementi di offerta restituiti per criterio di decisione | 30 |
+| Numero massimo di elementi di decisione restituiti per criterio di decisione | 30 |
 
 ## Regole di idoneità {#eligibility-rules}
 
@@ -73,7 +72,7 @@ L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimiz
 
 | Guardrail | Limite |
 | ------- | ------- |
-| Numero di attributi personalizzati per schema catalogo offerte | 100 |
+| Numero di attributi personalizzati per schema catalogo articoli | 100 |
 | Posizionamenti totali | 1 K |
 | Modello di classificazione IA | 5 |
 
