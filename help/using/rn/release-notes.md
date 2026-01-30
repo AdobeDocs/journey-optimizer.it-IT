@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
+source-git-commit: 5a9dd033754c827960133e762628b0cf7b4c6a20
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1636'
 ht-degree: 21%
 
 ---
@@ -35,7 +35,7 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -285,22 +285,6 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <li>Rapporti dettagliati sulla migrazione con mappature oggetto</li>
 </ul>
 <p>Data di disponibilità: sabato 30 gennaio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Generazione di contenuti in Journey Agent</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con tecnologia Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. Ora puoi anche <strong>generare e gestire i contenuti</strong> direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima i modelli, perfezionando il tono e lo stile tramite le richieste e aprendo i contenuti in Content Designer per la modifica nel contesto.</p>
-<p>Data di disponibilità: martedì 9 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
