@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '387'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce un riepilogo completo 
 
 * **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
 
-* **[!UICONTROL Destinati]**: numero totale di messaggi di direct mailing elaborati durante il processo di invio.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso. Nei percorsi in cui è abilitato il rientro, un profilo può essere sottoposto a targeting più volte.
 
 * **[!UICONTROL Invii]**: numero totale di invii per i messaggi di direct mailing.
 
@@ -69,7 +69,7 @@ La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori
 
 ## Motivi di esclusione {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 La tabella **[!UICONTROL Escludi motivi]** mostra visivamente i diversi fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing.
 

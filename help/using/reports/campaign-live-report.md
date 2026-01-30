@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3543'
 ht-degree: 27%
 
 ---
@@ -108,7 +108,7 @@ La tabella **[!UICONTROL Invio di metriche per e-mail]** offre un riepilogo comp
 
 * **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell&#39;e-mail ricorrente. Per eseguire il targeting solo di una o più e-mail ricorrenti, selezionale dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
-* **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante il processo di invio.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
@@ -330,7 +330,7 @@ La tabella **[!UICONTROL Notifica push - Statistiche]** fornisce un riepilogo co
 
 * **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting solo di una o più notifiche push ricorrenti, selezionala dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
-* **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante il processo di invio.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
@@ -400,7 +400,7 @@ Il grafico e la tabella **[!UICONTROL Notifica push - Raggruppamento per piattaf
 
 +++ Ulteriori informazioni sulla notifica push: suddivisione per metriche della piattaforma
 
-* **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante l&#39;analisi.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 

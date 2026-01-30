@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '538'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce un riepilogo completo 
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
-* **[!UICONTROL Target]**: numero totale di notifiche push elaborate durante l&#39;analisi.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso. Nei percorsi in cui è abilitato il rientro, un profilo può essere sottoposto a targeting più volte.
 
 * **[!UICONTROL Invii]**: numero totale di invii per la notifica push.
 

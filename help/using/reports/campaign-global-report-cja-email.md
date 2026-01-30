@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >Poiché Apple ha introdotto nuove funzioni di protezione della privacy per la sua app Mail nativa, tra cui Protezione privacy della posta, i mittenti non possono più utilizzare i pixel di tracciamento per raccogliere dati sui profili che hanno abilitato la Protezione della privacy della posta di Apple. Di conseguenza, potrebbe essere influenzata la capacità di Adobe Journey Optimizer di tenere traccia delle aperture delle e-mail utilizzando i pixel di tracciamento.
-> [Ulteriori informazioni](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=it) sull&#39;impatto delle modifiche alla privacy di Apple iOS sul marketing via e-mail.
+> [Ulteriori informazioni](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sull&#39;impatto delle modifiche alla privacy di Apple iOS sul marketing via e-mail.
 > 
 > Per informazioni più precise, consigliamo di concentrarti sui clic e sulle metriche di conversione invece dei tassi di apertura.
 
@@ -72,7 +72,7 @@ Il grafico di **[!UICONTROL Click funnel]** presenta un&#39;analisi dettagliata 
 
 +++ Ulteriori informazioni sulle metriche di Click funnel
 
-* **[!UICONTROL Destinazione univoca]**: numero di profili univoci di destinazione durante il processo di invio.
+* **[!UICONTROL Destinazione univoca]**: numero di profili univoci qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
 * **[!UICONTROL Invii univoci]**: numero di profili univoci per i quali è stato tentato l&#39;invio di almeno un&#39;e-mail.
 
@@ -124,7 +124,7 @@ La tabella **[!UICONTROL Statistiche di invio univoche]** presenta una panoramic
 
 +++ Ulteriori informazioni sulle metriche delle statistiche di invio univoche
 
-* **[!UICONTROL Destinazione univoca]**: numero di profili univoci di destinazione durante il processo di invio.
+* **[!UICONTROL Destinazione univoca]**: numero di profili univoci qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
 * **[!UICONTROL Invii univoci]**: numero di profili univoci per i quali è stato tentato l&#39;invio di almeno un&#39;e-mail.
 
@@ -170,7 +170,7 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce un riepilogo completo 
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
-* **[!UICONTROL Destinato]**: numero totale di e-mail elaborate durante il processo di invio.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso. Nei percorsi in cui è abilitato il rientro, un profilo può essere sottoposto a targeting più volte.
 
 * **[!UICONTROL Invii]**: numero totale di invii per e-mail.
 

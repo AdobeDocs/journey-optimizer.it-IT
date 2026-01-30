@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '561'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ La tabella **[!UICONTROL Statistiche di invio]** consente di comprendere le pres
 
 * **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi SMS.
 
-* **[!UICONTROL Target]**: numero totale di notifiche push elaborate durante l&#39;analisi.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso. Nei percorsi in cui è abilitato il rientro, un profilo può essere sottoposto a targeting più volte.
 
 * **[!UICONTROL Invii]**: numero totale di invii per la notifica push.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Destinato<br/> </td> 
-   <td> Numero totale di messaggi elaborati durante l'analisi della consegna.<br/> </td> 
+   <td> Numero di profili idonei per il pubblico prima che venissero applicate esclusioni, soppressioni o rimozioni del consenso. Nei percorsi in cui è abilitato il rientro, è possibile eseguire il targeting di un profilo più volte.<br/> </td> 
   </tr>
   <tr> 
    <td>Mancati recapiti univoci<br/> </td> 
@@ -197,7 +197,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr>
   <tr> 
    <td>Destinazione univoca<br/> </td> 
-   <td>Numero di profili univoci target durante il processo di invio.<br/> </td> 
+   <td>Numero di profili univoci qualificati per il pubblico prima dell'applicazione di esclusioni, eliminazioni o rimozioni del consenso.<br/> </td> 
   </tr> 
   <tr> 
    <td> Annulla iscrizione<br/> </td> 

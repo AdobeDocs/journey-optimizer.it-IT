@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce una panoramica dettagl
 
 +++ Ulteriori informazioni sull’invio di metriche delle statistiche
 
-* **[!UICONTROL Target]**: numero totale di profili target durante l&#39;attività Live.
+* **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
 * **[!UICONTROL Invii]**: numero totale di notifiche push tentate da inviare ai profili di destinazione.
 
