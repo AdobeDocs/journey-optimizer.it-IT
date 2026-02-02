@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1831'
 ht-degree: 14%
 
 ---
@@ -178,6 +178,12 @@ Utilizza la sezione **[!UICONTROL Dati personalizzati]** per aggiungere coppie c
 >abstract="Aggiungi variabili personalizzate al payload, a seconda della configurazione dell’app mobile."
 
 Nella sezione **[!UICONTROL Dati personalizzati]** puoi aggiungere variabili personalizzate al payload, a seconda della configurazione dell&#39;app mobile. Per ulteriori informazioni su come impostare le notifiche push in Adobe Experience Platform, consulta [questa sezione](push-gs.md)
+
+## Personalizzare con Experience Decisioning {#decisioning-push}
+
+Puoi personalizzare e ottimizzare il contenuto delle notifiche push con **Experience Decisioning**. Questa funzionalità consente di utilizzare Punteggi di priorità, Formule o Modelli di intelligenza artificiale per selezionare e visualizzare in modo dinamico il contenuto migliore per i clienti.
+
+Per ulteriori informazioni su come creare e utilizzare i criteri di decisione nelle notifiche push, consulta [questa sezione](../experience-decisioning/create-decision.md).
 
 ## Opzioni avanzate {#advanced-options-push}
 

@@ -7,177 +7,123 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 1%
+source-wordcount: '694'
+ht-degree: 3%
 
 ---
 
 # Utilizzare i criteri di decisione nei messaggi {#create-decision}
 
-Una volta creato un criterio di decisione, il criterio e gli attributi collegati agli elementi di decisione restituiti possono essere utilizzati nel contenuto per la personalizzazione. A questo scopo, il codice associato al criterio di decisione deve prima essere inserito nel contenuto. Al termine, puoi sfruttarne gli attributi per la personalizzazione.
+Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la personalizzazione gli attributi degli elementi di decisione restituiti. A tal fine, inserisci innanzitutto il codice del criterio di decisione nel contenuto.
 
-## Inserire il codice del criterio di decisione {#insert-code}
+>[!CAUTION]
+>
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice** e **Notifica push**.
+>
+>Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
+
+## Inserire il codice del criterio di decisione {#insert}
 
 >[!BEGINTABS]
 
 >[!TAB Esperienza basata su codice]
 
-1. Apri l&#39;editor di personalizzazione e accedi al menu **[!UICONTROL Criteri di decisione]**.
+1. Modifica l&#39;esperienza basata su codice e passa a **[!UICONTROL Criterio decisionale]**.
 
-1. Selezionare **[!UICONTROL Inserisci criterio]** per aggiungere il codice corrispondente al criterio di decisione.
+2. Selezionare **[!UICONTROL Inserisci criterio]** per aggiungere il codice del criterio di decisione.
 
    ![](assets/decision-code-based-add-decision.png)
 
-   >[!NOTE]
-   >
-   >Se il pulsante di inserimento del codice non viene visualizzato, è possibile che per il componente principale sia già stato configurato un criterio di decisione.
-
-1. Viene aggiunto il codice per il criterio di decisione. Questa sequenza verrà ripetuta il numero di volte che si desidera che venga restituito il criterio di decisione. Ad esempio, se si sceglie di restituire 2 elementi durante la [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
+>[!NOTE]
+>
+>Per le esperienze basate su codice, se il criterio di decisione contiene elementi di decisione, compresi i frammenti, puoi sfruttarli nel codice del criterio di decisione. [Scopri come sfruttare i frammenti](../experience-decisioning/fragments-decision-policies.md)
 
 >[!TAB E-mail]
 
-1. Apri l&#39;editor di personalizzazione e accedi al menu **[!UICONTROL Criteri di decisione]**.
+1. Apri **Personalization Editor** e passa a **[!UICONTROL Criteri di decisione]**.
 
-1. Selezionare **[!UICONTROL Inserisci sintassi]** per aggiungere il codice corrispondente al criterio di decisione.
+2. Seleziona **[!UICONTROL Inserisci sintassi]** per aggiungere il codice per il criterio decisionale.
 
    ![](assets/decision-policy-add.png)
 
    >[!NOTE]
    >
-   >Se il pulsante di inserimento del codice non viene visualizzato, è possibile che per il componente principale sia già stato configurato un criterio di decisione.
+   >Se l’opzione di inserimento non viene visualizzata, è possibile che per il componente principale sia già configurato un criterio di decisione.
 
-1. Se non è stato precedentemente associato alcun posizionamento al componente, selezionarne uno dall&#39;elenco e fare clic su **[!UICONTROL Assegna]**.
+3. Se al componente non è ancora stato assegnato alcun posizionamento, selezionarne uno dall&#39;elenco e fare clic su **[!UICONTROL Assegna]**.
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB Invia]
+
+1. Apri **Personalization Editor** e passa a **[!UICONTROL Criteri di decisione]**.
+
+2. Seleziona **[!UICONTROL Inserisci sintassi]** per aggiungere il codice per il criterio decisionale.
+
+   ![](assets/decision-policy-add-push-insert-syntax.png)
+
+>[!IMPORTANT]
+>
+>Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+
 >[!ENDTABS]
 
-Una volta aggiunto il codice per il criterio di decisione, questa sequenza verrà ripetuta il numero di volte che si desidera che il criterio di decisione venga restituito. Ad esempio, se si sceglie di restituire 2 elementi durante la [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
-
-## Sfruttare gli attributi degli elementi di decisione {#attributes}
-
-Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di tale codice. Gli attributi disponibili sono archiviati nello schema del catalogo **[!UICONTROL Offerte]**. Gli attributi personalizzati sono archiviati nella cartella **`_<imsOrg`>** e gli attributi standard nella cartella **`_experience`**. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
-
-![](assets/decision-code-based-decision-attributes.png)
+Viene aggiunto il codice del criterio di decisione. Ora puoi utilizzare gli attributi degli elementi decisionali restituiti per personalizzare il contenuto.
 
 >[!NOTE]
 >
->Per il tracciamento degli elementi dei criteri di decisione, è necessario aggiungere l&#39;attributo `trackingToken` come segue per il contenuto dei criteri di decisione:
->`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>Per l’esperienza basata su codice e i canali e-mail, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per il canale push, può essere restituito un solo elemento di decisione.
 
-Per aggiungere un attributo, fai clic sull’icona &quot;+&quot; accanto a esso. Puoi aggiungere al codice tutti gli attributi che desideri.
+## Personalizzare con gli attributi degli elementi di decisione {#attributes}
 
-![](assets/decision-code-based-add-decision-attributes.png)
+Dopo aver aggiunto il codice per un criterio di decisione nel contenuto, tutti gli attributi degli elementi di decisione restituiti diventano disponibili per la personalizzazione. [Scopri come utilizzare la personalizzazione](../personalization/personalize.md).
 
-Assicurarsi di racchiudere il loop `#each` in una coppia di parentesi quadre `[ ]` e aggiungere una virgola immediatamente prima del `/each` di chiusura.
-
-![](assets/decision-code-based-wrap-code.png)
-
-Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di personalizzazione, ad esempio gli attributi del profilo.
-
-![](assets/decision-code-based-decision-profile-attribute.png)
-
-## Utilizzo dei frammenti (esperienza basata su codice) {#fragments}
-
-Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, puoi sfruttarli nel codice del criterio di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
-
->[!CAUTION]
->
->Questa funzionalità è attualmente disponibile solo per il canale di esperienza basato su codice.
->
->Attualmente è possibile utilizzare solo [frammenti di espressione](../personalization/use-expression-fragments.md). I frammenti nidificati (frammenti che fanno riferimento ad altri frammenti) non sono supportati.
-
-Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
-
-![](assets/item-fragments.png){width=70%}
-
-Al termine, puoi utilizzare uno dei seguenti metodi:
-
->[!BEGINTABS]
-
->[!TAB Inserisci direttamente il codice]
-
-È sufficiente copiare e incollare il blocco di codice riportato di seguito nel codice del criterio di decisione. Sostituisci `variable` con l&#39;ID frammento e `placement` con la chiave di riferimento frammento:
-
-```
-{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
-{{fragment id = variable}}
-```
-
->[!TAB Segui i passaggi dettagliati]
-
-1. Passare alle **[!UICONTROL Funzioni helper]** e aggiungere la funzione **Let** `{% let variable = expression %} {{variable}}` al riquadro del codice, in cui è possibile dichiarare la variabile per il frammento.
-
-   ![](assets/decision-let-function.png)
-
-1. Utilizza la **Mappa** > **Ottieni** funzione `{%= get(map, string) %}` per generare la tua espressione. La mappa è il frammento a cui si fa riferimento nell&#39;elemento di decisione e la stringa può essere il modello di dispositivo immesso nell&#39;elemento di decisione come **[!UICONTROL chiave di riferimento frammento]**.
-
-   ![](assets/decision-map-function.png)
-
-1. Puoi anche utilizzare un attributo contestuale che contenga questo ID modello dispositivo.
-
-   ![](assets/decision-contextual-attribute.png)
-
-1. Aggiungi la variabile scelta per il frammento come ID frammento.
-
-   ![](assets/decision-fragment-id.png)
-
->[!ENDTABS]
-
-L&#39;ID frammento e la chiave di riferimento verranno selezionati dalla sezione **[!UICONTROL Frammenti]** dell&#39;elemento di decisione.
-
->[!WARNING]
->
->Se la chiave del frammento non è corretta o se il contenuto del frammento non è valido, il rendering non riuscirà e verrà generato un errore nella chiamata di Edge.
-
-### Guardrail quando si utilizzano frammenti {#fragments-guardrails}
-
-**Attributi di contesto ed elemento della decisione**
+Gli attributi sono archiviati nello schema [catalogo](catalogs.md) delle &quot;Offerte&quot;. Vengono visualizzati nelle seguenti cartelle dell’editor di personalizzazione:
+* **Attributi personalizzati**: cartella `_\<imsOrg\>`
+* **Attributi standard**: cartella `_experience`
 
 Gli attributi degli elementi decisionali e gli attributi contestuali non sono supportati per impostazione predefinita nei frammenti [!DNL Journey Optimizer]. Tuttavia, puoi utilizzare in alternativa le variabili globali, come descritto di seguito.
 
-Supponiamo che desideri utilizzare la variabile *sport* nel frammento.
+![](assets/decision-code-based-decision-attributes.png)
 
-1. Fai riferimento a questa variabile nel frammento, ad esempio:
+Per aggiungere un attributo, fare clic sull&#39;icona **`+`** accanto all&#39;attributo. Puoi aggiungere tutti gli attributi necessari. Puoi anche includere altri attributi di personalizzazione, ad esempio i dati del profilo.
 
-   ```
-   Elevate your practice with new {{sport}} gear!
-   ```
+* Per i canali **Email** e **Code-based**, racchiudi gli attributi nel loop `#each` tra parentesi quadre `[ ]` e aggiungi una virgola prima del tag `/each` di chiusura.
 
-1. Definisci la variabile con la funzione **Let** all&#39;interno del blocco dei criteri di decisione. Nell&#39;esempio seguente, *sport* è definito con l&#39;attributo elemento decisione:
+  +++Vedi esempio
 
-   ```
-   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
-   {% let sport = item._cjmstage.value %}
-   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
-   {{/each}}
-   ```
+  ![](assets/decision-code-based-wrap-code.png)
 
-**Convalida del contenuto del frammento di elemento decisione**
+  +++
 
-* A causa della natura dinamica di questi frammenti, quando vengono utilizzati in una campagna, la convalida del messaggio durante la creazione del contenuto della campagna viene ignorata per i frammenti a cui si fa riferimento negli elementi decisionali.
+* Per il canale **Push**, assicurati di inserire gli attributi dopo il codice di sintassi per il criterio decisionale. Questa sintassi deve essere sempre mantenuta alla riga 1.
 
-* La convalida del contenuto del frammento viene eseguita solo durante la creazione e la pubblicazione del frammento.
+  >[!NOTE]
+  >Se inserisci un attributo di risorsa immagine nel contenuto push (ad esempio, nel titolo o nel corpo), il valore dell’attributo viene visualizzato come URL. L’immagine stessa non viene rappresentata in questi campi.
 
-* In caso di frammenti JSON, la validità dell’oggetto JSON non è garantita. Assicurati che il contenuto del frammento di espressione sia un JSON valido in modo che possa essere utilizzato negli elementi decisionali.
+* Per abilitare il tracciamento dell&#39;elemento di decisione, aggiungere l&#39;attributo `trackingToken`: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
-In fase di esecuzione, viene convalidato il contenuto della campagna (incluso il contenuto del frammento dagli elementi decisionali). In caso di errore di convalida, la campagna non verrà rappresentata.
+## Anteprima e test del contenuto
+
+Dopo aver generato il contenuto, visualizzalo in anteprima e testalo prima di attivare il percorso o la campagna. Gli elementi decisionali eseguono il rendering in base ai profili selezionati nell’interfaccia di simulazione. [Scopri come visualizzare in anteprima e verificare il contenuto](../content-management/preview-test.md).
 
 ## Passaggi successivi {#final-steps}
 
 Una volta che il contenuto è pronto, rivedi e pubblica la campagna o il percorso:
 
 * [Pubblicare un percorso](../building-journeys/publish-journey.md)
-* [Rivedere attivare una campagna](../campaigns/review-activate-campaign.md)
-* [Pubblicare e attivare un’esperienza basata su codice](../code-based/publish-code-based.md)
+* [Rivedere e attivare una campagna](../campaigns/review-activate-campaign.md)
 
 Per le esperienze basate su codice, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
 
 >[!NOTE]
 >
->Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso [esperienza basata su codice](../code-based/create-code-based.md) utilizzando le decisioni. Una soluzione alternativa è disponibile in [questa sezione](../code-based/code-based-decisioning-implementations.md).
+>Attualmente non puoi simulare contenuti basati su decisioni per [campagne o percorsi basati su codice](../code-based/create-code-based.md). Una soluzione alternativa è disponibile [qui](../code-based/code-based-decisioning-implementations.md).
 
-Per visualizzare le prestazioni delle decisioni, puoi creare [dashboard di reporting di Customer Journey Analytics](cja-reporting.md) personalizzati.
+## Utilizzare le dashboard di reporting
 
+Per visualizzare le prestazioni delle decisioni, puoi visualizzare le metriche di decisione predefinite nel rapporto della campagna o del percorso, oppure puoi creare dashboard di Customer Journey Analytics personalizzati per misurare le prestazioni e ottenere informazioni approfondite sul modo in cui i criteri decisionali e le offerte vengono consegnati e utilizzati. [Ulteriori informazioni sul reporting di Decisioning](cja-reporting.md).
+
+![](../reports/assets/cja-decisioning-item-performance.png)

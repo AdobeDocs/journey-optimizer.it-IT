@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 7%
+source-wordcount: '2029'
+ht-degree: 6%
 
 ---
 
@@ -34,64 +34,131 @@ ht-degree: 7%
 
 Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiungi un criterio di decisione al contenuto di una campagna o di un percorso, quindi configura gli elementi da restituire e la strategia di selezione da utilizzare. A questo scopo, segui i passaggi riportati qui sotto:
 
-1. [Aggiungi un criterio di decisione](#add) - Dall&#39;editor di Personalization o dal Designer di posta elettronica.
-1. [Configura il criterio di decisione](#configurre). Aggiungere un nome e specificare il numero di elementi da restituire.
+1. [Aggiungere un criterio di decisione](#add)
+1. [Configura il criterio di decisione](#configure). Aggiungere un nome e specificare il numero di elementi da restituire per il canale e-mail.
 1. [Imposta una sequenza strategica](#strategy) - Seleziona gli elementi da restituire con il criterio di decisione.
 1. [Seleziona offerte di fallback](#fallback) (facoltativo): seleziona gli elementi da visualizzare se non sono stati qualificati elementi o strategie di selezione.
 1. [Rivedi e salva](#review) la strategia di selezione
+1. [Assegna un posizionamento](#placement) (canale e-mail)
 
 >[!AVAILABILITY]
 >
->Per il momento, i criteri decisionali sono disponibili per tutti i clienti per il canale **Esperienza basata su codice**. Sono disponibili per il canale **E-mail** come disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice** e **Notifica push**.
+>
+>Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 ## Aggiungere un criterio di decisione {#add}
 
-1. Apri un percorso o una campagna, seleziona un&#39;[azione canale](../building-journeys/journeys-message.md) e modifica il contenuto del messaggio.
+Per aggiungere un criterio di decisione al messaggio, apri un percorso o una campagna e seleziona un&#39;[azione canale](../building-journeys/journeys-message.md).
 
-1. Per le e-mail, attiva l&#39;opzione **[!UICONTROL Abilita decisioning]**.
+Modifica il contenuto del messaggio e sfoglia le schede seguenti per ulteriori informazioni su come aggiungere il criterio di decisione in base al canale selezionato.
+
+>[!BEGINTABS]
+
+>[!TAB Esperienza basata su codice]
+
+Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di codice** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
+
++++Aggiungere un criterio di decisione dall’editor di codice
+
+1. Apri l&#39;editor di codice utilizzando il pulsante **[!UICONTROL Modifica codice]**.
+
+1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
+
+   ![](assets/decision-policy-add-code-editor.png)
+
++++
+
++++Aggiungere un criterio di decisione dal menu Decisioning
+
+1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
+
+   ![](assets/decision-policy-add-code.png)
+
++++
+
+>[!TAB E-mail]
+
+1. Attiva/disattiva l&#39;opzione **[!UICONTROL Abilita decisioning]**.
 
    ![](assets/decision-policy-enable.png)
 
    >[!IMPORTANT]
    >
    >L’abilitazione del decisioning cancella il contenuto delle e-mail esistenti. Se hai già progettato l’e-mail, assicurati di salvare preventivamente il contenuto come modello.
+
+1. Aggiungi un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile in E-mail Designer.
+
+   +++Aggiungere un criterio di decisione dall’editor di Personalization
+
+   1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg) disponibile nel campo dell&#39;oggetto o in qualsiasi campo del corpo dell&#39;e-mail in cui puoi aggiungere la personalizzazione.
+
+   1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
+
+      ![](assets/decision-policy-add-email-editor.png)
+
+   +++
+
+   +++Aggiungere un criterio di decisione dal menu Decisioning
+
+   1. Apri E-mail Designer e seleziona un componente nella struttura dell’e-mail.
+
+   1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+
+   1. Fare clic sul pulsante **[!UICONTROL Aggiungi nuovo criterio]**.
+
+      ![](assets/decision-policy-add-email-add.png)
+
+   >[!NOTE]
    >
-   >Eventuali criteri di decisione configurati all’interno dell’e-mail non verranno salvati nel modello. Se applichi il modello a un’altra e-mail, devi riconfigurare il criterio.
+   >L&#39;**[!UICONTROL Output decisione di riutilizzo]** consente di riutilizzare un criterio di decisione già creato in questa e-mail.
 
-1. Apri l&#39;**editor di personalizzazione** per creare il criterio di decisione. Per le e-mail, puoi anche utilizzare un menu dedicato nella **Finestra di progettazione e-mail** per creare un criterio di decisione. Espandi le sezioni seguenti per esplorare i due metodi.
+>[!TAB Notifica push]
 
-   +++Creare un criterio di decisione dall’editor di Personalization
+Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-   1. Apri l&#39;editor di personalizzazione e seleziona **[!UICONTROL Criteri di decisione]**.
-   1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]** per creare un nuovo criterio.
++++Aggiungere un criterio di decisione dall’editor di personalizzazione
 
-      ![](assets/decision-code-based-create.png)
+1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
+1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
-   +++
+   ![](assets/decision-policy-add-push.png)
 
-   +++Creare un criterio di decisione da E-mail Designer
++++
 
-   Seleziona un componente nel contenuto dell&#39;e-mail, fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra degli strumenti o nel riquadro delle proprietà, quindi seleziona **[!UICONTROL Aggiungi nuovo criterio]**.
++++Aggiungere un criterio di decisione dal menu Decisioning
 
-   L&#39;**[!UICONTROL Output decisione di riutilizzo]** consente di riutilizzare un criterio di decisione già creato in questa e-mail.
+1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
-   ![](assets/decision-policy-email-designer.png)
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
-   +++
+   ![](assets/decision-policy-add-push-menu.png)
+
+>[!IMPORTANT]
+>
+>Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+
+>[!ENDTABS]
 
 ## Configurare il criterio di decisione {#configure}
 
-Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizzata la schermata di configurazione del criterio di decisione.
+Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizzata la schermata di configurazione del criterio di decisione. Per configurare i criteri di decisione, segui la procedura riportata di seguito.
 
 1. Specifica un nome per il criterio di decisione e seleziona un catalogo (attualmente limitato al catalogo predefinito **[!UICONTROL Offerte]**).
 
-1. Seleziona il numero di elementi da restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la configurazione corrente.
-
    ![](assets/decision-code-based-details.png)
 
-   Per il canale e-mail, il campo **[!UICONTROL Numero di elementi]** è impostato su 1 per impostazione predefinita e non può essere modificato a meno che il criterio di decisione non venga aggiunto da un componente **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
+1. Il campo **[!UICONTROL Numero di elementi]** consente di definire il numero di elementi decisionali da restituire con i criteri di decisione. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la configurazione corrente.
 
-   +++Restituire più elementi decisionali nelle e-mail utilizzando un componente **[!UICONTROL Ripeti griglia]**
+   >[!NOTE]
+   >
+   >Questa opzione è disponibile solo per i canali di esperienza basati su e-mail e codice. Per tutti gli altri canali, può essere restituito solo 1 elemento di decisione per azione.
+
+   Per restituire più elementi per il canale e-mail, devi aggiungere il criterio di decisione all&#39;interno di un componente **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
+
+   +++Restituire più elementi decisionali nelle e-mail
 
    1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;e-mail e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
 
@@ -220,7 +287,7 @@ Puoi modificare o eliminare un criterio di decisione in qualsiasi momento utiliz
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB Modifica o elimina un criterio dalle proprietà del componente]
+>[!TAB Modificare o eliminare un criterio dal menu Decisioning]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -237,4 +304,3 @@ Per le e-mail, devi definire un posizionamento per il componente associato al cr
 Ora che sai come creare un criterio di decisione, puoi utilizzarlo in [!DNL Journey Optimizer] canali per distribuire le offerte.
 
 ➡️ [Scopri come utilizzare i criteri di decisione nei messaggi](../experience-decisioning/use-decision-policy.md)
-
