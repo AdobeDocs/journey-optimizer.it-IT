@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2108'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 
 >[!AVAILABILITY]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice** e **Notifica push**.
+>I criteri delle decisioni sono disponibili per tutti i clienti per **Esperienza basata su codice**, **Notifica push** e canali SMS.
 >
 >Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
@@ -114,6 +114,27 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
    >[!NOTE]
    >
    >L&#39;**[!UICONTROL Output decisione di riutilizzo]** consente di riutilizzare un criterio di decisione già creato in questa e-mail.
+
+>[!TAB SMS]
+
+Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
+
++++Aggiungere un criterio di decisione dall’editor di personalizzazione
+
+1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
+1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
+
+   ![](assets/decision-policy-add-sms-editor.png)
+
++++
+
++++Aggiungere un criterio di decisione dal menu Decisioning
+
+1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
+
+   ![](assets/decision-policy-add-sms.png)
 
 >[!TAB Notifica push]
 

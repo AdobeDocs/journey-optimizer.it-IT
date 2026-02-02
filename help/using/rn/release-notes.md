@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1819'
 ht-degree: 22%
 
 ---
@@ -35,9 +35,44 @@ Le sezioni [Funzionalità](#jan-26-01-features) e [Miglioramenti](#jan-26-01-imp
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto per le decisioni nel canale SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi personalizzare e ottimizzare il contenuto dei <strong>messaggi SMS</strong> con <strong>Decisioning</strong>. Utilizza Punteggi di priorità, Formule o Modelli di intelligenza artificiale per mostrare ai clienti il contenuto migliore.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: martedì 2 febbraio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto per le decisioni nel canale push</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi personalizzare e ottimizzare il contenuto delle <strong>notifiche push</strong> con <strong>decisioni</strong>. Utilizza Punteggi di priorità, Formule o Modelli di intelligenza artificiale per mostrare ai clienti il contenuto migliore.</p>
+<p>Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le <a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank">note sulla versione</a> per identificare la versione richiesta e assicurarti di aver effettuato l'aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank">questa sezione</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: sabato 30 gennaio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -179,7 +214,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Controlli di qualità dei contenuti dell&#39;Assistente AI** - Oltre all&#39;allineamento del brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi con <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di identificare messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Scopri questa funzione nel video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -265,22 +300,6 @@ Nei prossimi giorni, saranno rilasciati i seguenti miglioramenti e funzionalità
 <li>Supporto del rollback per le migrazioni completate</li>
 <li>Rapporti dettagliati sulla migrazione con mappature oggetto</li>
 </ul>
-<p>Data di disponibilità: giovedì 11 febbraio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto per le decisioni nei canali push e SMS</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi personalizzare e ottimizzare il contenuto dei <strong>messaggi push e SMS</strong> con <strong>decisioning</strong>. Utilizza Punteggi di priorità, Formule o Modelli di intelligenza artificiale per mostrare ai clienti il contenuto migliore.</p>
 <p>Data di disponibilità: giovedì 11 febbraio 2026</p>
 </td>
 </tr>

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
 >[!CAUTION]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice** e **Notifica push**.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **SMS** e **Notifica push**.
 >
 >Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
@@ -56,6 +56,14 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB SMS]
+
+1. Apri **Personalization Editor** e passa a **[!UICONTROL Criteri di decisione]**.
+
+2. Seleziona **[!UICONTROL Inserisci sintassi]** per aggiungere il codice per il criterio decisionale.
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
 >[!TAB Invia]
 
 1. Apri **Personalization Editor** e passa a **[!UICONTROL Criteri di decisione]**.
@@ -74,7 +82,7 @@ Viene aggiunto il codice del criterio di decisione. Ora puoi utilizzare gli attr
 
 >[!NOTE]
 >
->Per l’esperienza basata su codice e i canali e-mail, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per il canale push, può essere restituito un solo elemento di decisione.
+>Per l’esperienza basata su codice e i canali e-mail, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per i canali SMS e Push, è possibile restituire un solo elemento decisionale.
 
 ## Personalizzare con gli attributi degli elementi di decisione {#attributes}
 
@@ -98,10 +106,16 @@ Per aggiungere un attributo, fare clic sull&#39;icona **`+`** accanto all&#39;at
 
   +++
 
-* Per il canale **Push**, assicurati di inserire gli attributi dopo il codice di sintassi per il criterio decisionale. Questa sintassi deve essere sempre mantenuta alla riga 1.
+* Per i canali **SMS** e **Push**, accertati di inserire gli attributi dopo il codice di sintassi per il criterio di decisione. Questa sintassi deve essere sempre mantenuta alla riga 1.
+
+  +++Vedi esempio
+
+  ![](assets/decision-added-sms.png)
+
+  +++
 
   >[!NOTE]
-  >Se inserisci un attributo di risorsa immagine nel contenuto push (ad esempio, nel titolo o nel corpo), il valore dell’attributo viene visualizzato come URL. L’immagine stessa non viene rappresentata in questi campi.
+  >Se inserisci un attributo di risorsa immagine nel contenuto SMS o Push (ad esempio, nel titolo o nel corpo), il valore dell’attributo viene visualizzato come URL. L’immagine stessa non viene rappresentata in questi campi.
 
 * Per abilitare il tracciamento dell&#39;elemento di decisione, aggiungere l&#39;attributo `trackingToken`: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
