@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 6cfea1a34cb004d4028f190be92d8365f90de6b2
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '661'
+ht-degree: 27%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 29%
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico. Il loro obiettivo è quello di selezionare le offerte migliori per ciascun profilo, mentre l’authoring della campagna/del percorso ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio.
 
->[!AVAILABILITY]
->
->Per il momento, i criteri decisionali sono disponibili per tutti i clienti del canale di esperienza basato su codice. Sono disponibili per il canale e-mail come Disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
-
-## Passaggi chiave {#key}
-
-I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i seguenti:
-
-1. [Creare un criterio di decisione](../experience-decisioning/create-decision-policy.md)
-
-   Imposta un criterio di decisione nel messaggio scegliendo il numero di elementi da restituire, configurando strategie di selezione, opzioni di fallback e ordine di valutazione.
-
-1. [Utilizzare il criterio di decisione nel contenuto](../experience-decisioning/use-decision-policy.md)
-
-   Personalizza il contenuto con l’output del criterio di decisione e gli attributi degli elementi di decisione che desideri visualizzare nel messaggio.
-
-1. [Creare dashboard di reporting](cja-reporting.md)
-
-   Crea dashboard di Customer Journey Analytics personalizzati per misurare le prestazioni e ottenere informazioni approfondite su come vengono distribuite e utilizzate le politiche e le offerte decisionali.
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Guardrail e limitazioni
 
+* **Canali supportati** - I criteri di decisione sono disponibili per questi canali: esperienza basata su codice, e-mail e notifiche push.
+* **Requisito SDK per le notifiche push** - Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Pagine mirror e-mail** - Per il momento, gli elementi di decisione non vengono riprodotti nelle pagine mirror e-mail.
 * **Tipo di tracciamento e collegamenti** - Per tenere traccia dei collegamenti generati dal decisioning, definiscili nello schema come &quot;Decisioning Assets&quot;. I collegamenti basati su attributi non sono tracciabili.
 * **Nidificazione dei criteri di decisione nelle e-mail** - Non è possibile nidificare più criteri di decisione all&#39;interno di un componente e-mail principale a cui è già associato un criterio di decisione.
@@ -79,14 +63,30 @@ I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i se
 
 * **Classifica IA** - Per il momento, la classificazione IA non è supportata per il canale e-mail nei percorsi con decisioning.
 
-## Passaggi successivi {#next-steps}
+* **Modelli di contenuto** - Tutti i criteri di decisione configurati nel contenuto non verranno salvati nel modello. Se si applica il modello a un&#39;altra azione, è necessario riconfigurare il criterio.
 
-Ora che sai come funzionano i criteri di decisione e come aiutano a fornire offerte personalizzate, puoi creare il tuo primo criterio di decisione.
+## Passaggi chiave {#key}
 
-➡️ [Scopri come creare un criterio di decisione](../experience-decisioning/create-decision-policy.md)
+I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i seguenti:
 
-## Video dimostrativo {#video}
+1. **Creare un criterio di decisione**
+
+   Aggiungi un criterio di decisione nel messaggio e configura il numero di elementi da restituire, la strategia di selezione e le opzioni di fallback.
+
+   ➡️ [Scopri come creare un criterio di decisione](../experience-decisioning/create-decision-policy.md)
+
+1. **Utilizza il criterio di decisione nel contenuto**
+
+   Personalizza il contenuto con l’output del criterio di decisione inserendo gli attributi dagli elementi di decisione che desideri visualizzare nel messaggio
+
+   ➡️ [Scopri come utilizzare i criteri di decisione nei messaggi](../experience-decisioning/create-decision-policy.md)
+
+## Video dimostrativi {#video}
 
 Scopri come utilizzare Decisioning per personalizzare le e-mail per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479218?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+Scopri come utilizzare Decisioning per personalizzare le notifiche push per il pubblico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
