@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 >[!AVAILABILITY]
 >
->I messaggi direct mail possono essere creati solo nel contesto di percorsi e campagne pianificate. Non sono disponibili per l’utilizzo in campagne orchestrate e attivate da API.
+>I messaggi direct mail possono essere creati nel contesto di percorsi e campagne. Non sono disponibili per l’utilizzo in campagne attivate da API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 Scopri come sfruttare il canale Direct Mail in Adobe Journey Optimizer per automatizzare e pianificare le consegne di direct mailing all’interno dei tuoi percorsi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479170?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
