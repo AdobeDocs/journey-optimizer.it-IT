@@ -89,4 +89,4 @@ Ora che sai come funzionano i criteri di decisione e come aiutano a fornire offe
 
 Scopri come utilizzare Decisioning per personalizzare le e-mail per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479218?captions=ita&quality=12)
