@@ -85,8 +85,8 @@ I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i se
 
 Scopri come utilizzare Decisioning per personalizzare le e-mail per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479218?captions=ita&quality=12)
 
 Scopri come utilizzare Decisioning per personalizzare le notifiche push per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479218?captions=ita&quality=12)
