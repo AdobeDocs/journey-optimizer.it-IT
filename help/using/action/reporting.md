@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto percorso
+title: Monitorare le azioni personalizzate
 description: Scopri come utilizzare i dati del rapporto sul percorso
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 2%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 1%
 >title="Monitorare le azioni personalizzate"
 >abstract="La pagina di reporting **[!UICONTROL Azione personalizzata]** consente di monitorare le prestazioni e l&#39;affidabilità delle chiamate API effettuate dai percorsi a sistemi di terze parti."
 
->[!AVAILABILITY]
->
->Il reporting delle azioni personalizzate è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata).
-
 La pagina di reporting **[!UICONTROL Azione personalizzata]** consente di monitorare l&#39;affidabilità e le prestazioni delle chiamate API effettuate dai percorsi ai sistemi di terze parti. Questi rapporti consentono di identificare rapidamente i problemi di integrazione, i colli di bottiglia della latenza o i limiti di limitazione/limite che possono influire sulla distribuzione.
 
 La pagina per la generazione di rapporti sulle azioni personalizzate funziona come altri rapporti all-time in Journey Optimizer. Per informazioni dettagliate sulle funzionalità del dashboard, consulta [questa documentazione](../reports/report-cja-manage.md).
@@ -34,7 +30,7 @@ Per accedere alla pagina di reporting **[!UICONTROL Azione personalizzata]**, fa
 
 ![](assets/monitor-1.png)
 
-➡️ [Ulteriori informazioni su come configurare le azioni personalizzate](../action/about-custom-action-configuration.md)
+➡️ [Ulteriori informazioni sulla configurazione delle azioni personalizzate](../action/about-custom-action-configuration.md)
 
 Oltre alla pagina di reporting **[!UICONTROL Azione personalizzata]**, è possibile utilizzare **[!DNL Adobe Experience Platform Query Service]** per creare query per creare rapporti sulle metriche delle prestazioni delle azioni personalizzate. Esempi di query disponibili in [questa sezione](../reports/query-examples.md).
 
@@ -56,19 +52,34 @@ Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) **[!UICON
 
 * **[!UICONTROL RPS medio]**: numero di richieste al secondo elaborate dall&#39;azione personalizzata nell&#39;intervallo di tempo selezionato.
 
+* **[!UICONTROL Latenza media]**: tempo medio di risposta end-to-end (in millisecondi) per tutte le chiamate HTTP, incluse le chiamate riuscite, gli errori e i timeout.
+
+* **[!UICONTROL Latenza media riuscita]**: tempo medio di risposta end-to-end (in millisecondi) solo per le chiamate riuscite, escluse le richieste non riuscite e i timeout.
+
+* **[!UICONTROL Tempo medio coda]**: tempo medio (in millisecondi) di attesa delle chiamate nella coda di esecuzione prima dell&#39;invio. Questo si applica solo agli endpoint limitati, in cui Journey Optimizer mette in coda le chiamate quando viene raggiunto il limite di velocità effettiva.
+
 +++
 
-## Chiamate straordinarie {#calls}
+## Chiamate nel tempo {#calls}
 
 ![](assets/monitor-3.png)
 
-Il grafico **[!UICONTROL Chiamate straordinarie]** mostra la tendenza dell&#39;indicatore KPI per le chiamate HTTP nel periodo di tempo selezionato per il rapporto. La granularità della serie temporale dipende dall’intervallo temporale selezionato. Ad esempio:
+Il grafico **[!UICONTROL Chiamate nel tempo]** mostra la tendenza dell&#39;indicatore KPI della chiamata HTTP nel periodo di tempo selezionato per il rapporto. La granularità della serie temporale dipende dall’intervallo temporale selezionato. Ad esempio:
 
 * Per un rapporto di 7 giorni, ogni punto dati mostrerà i KPI per un giorno.
 * Se selezioni un intervallo di tempo di 1 giorno, il grafico mostra i KPI all’ora.
 * Se selezioni un intervallo di tempo di 1 ora, il grafico mostra i KPI al minuto.
 
 ➡️[Consulta la sezione KPI per una descrizione delle metriche della chiamata HTTP](#kpis)
+
+## Latenza nel tempo {#latency-overtime}
+
+![](assets/monitor-6.png)
+
+Il grafico **[!UICONTROL Latenza nel tempo]** visualizza la tendenza delle metriche di latenza nel periodo di tempo selezionato. Questa vista della serie temporale consente di tenere traccia dei modelli di prestazioni, identificare i periodi di latenza di picco e monitorare l’impatto delle ottimizzazioni o dei cambiamenti del sistema nel tempo.
+
+➡️[Consulta la sezione KPI per una descrizione delle metriche di latenza](#kpis)
+
 
 ## Suddivisione chiamata {#breakdown}
 
@@ -78,4 +89,11 @@ La tabella **[!UICONTROL Analisi stratificata chiamate]** fornisce una suddivisi
 
 ➡️[Consulta la sezione KPI per una descrizione delle metriche della chiamata HTTP](#kpis)
 
+## Suddivisione latenza {#latency-breakdown}
+
+![](assets/monitor-5.png)
+
+La tabella **[!UICONTROL Analisi stratificata latenza]** fornisce una suddivisione dettagliata delle metriche di latenza nelle azioni personalizzate. Questa vista consente di identificare gli endpoint o le azioni specifici che presentano problemi di prestazioni, consentendo di individuare e risolvere in modo efficace i colli di bottiglia di latenza.
+
+➡️[Consulta la sezione KPI per una descrizione delle metriche di latenza](#kpis)
 
