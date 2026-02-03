@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5146'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Sfide di fidelizzazione consente di creare offerte di coinvolgimento personalizz
 >**In questa guida:**
 >
 >* [Panoramica](#overview) - Comprendere le sfide della fedeltà
+>* [Funzionamento](#how-it-works) - Flusso di lavoro dettagliato dalla configurazione al monitoraggio
 >* [Prerequisiti](#prerequisites) - Configurare l&#39;acquisizione dei dati e le autorizzazioni
 >* [Accedi alle sfide di fidelizzazione](#access) - Apri il menu e visualizza le sfide
 >* [Crea sfide](#create-challenges) - Crea nuove sfide fedeltà
@@ -43,6 +44,32 @@ Sfide di fidelizzazione consente di creare offerte di coinvolgimento personalizz
 ## Panoramica {#overview}
 
 Sfide di fidelizzazione consente di progettare e distribuire offerte di coinvolgimento personalizzate che motivano i clienti a completare azioni specifiche e a ricevere premi. Questa funzione fornisce una soluzione completa per la creazione di programmi fedeltà su larga scala, dalla definizione di attività e attività cardine alla distribuzione di contenuti e al tracciamento delle prestazioni su tutti i canali. Puoi creare tre tipi di esperienze di sfida, configurare premi, inviare notifiche multicanale nelle fasi principali del ciclo di vita e monitorare le prestazioni tramite percorsi generati automaticamente, mantenendo al contempo l’integrazione con il sistema di gestione della fedeltà esterno.
+
+## Come funziona {#how-it-works}
+
+La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
+
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (come Capillary) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni dei clienti e dell&#39;avanzamento.
+
+2. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale), pubblico e intervallo di date.
+
+3. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa, visita, ecc.), le quantità, i filtri dei prodotti e i premi.
+
+4. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti.
+
+5. **Configurazione della messaggistica** (facoltativo): configurazione di messaggi multicanale (in-app, e-mail, push) per le fasi chiave: avvio, in corso e completamento.
+
+6. **Rivedi e pubblica** - Verifica la tua sfida con i profili di test, quindi pubblicala per renderla disponibile al pubblico di destinazione.
+
+7. **percorso generato automaticamente** - Quando si pubblica, Journey Optimizer crea automaticamente un percorso che orchestra la consegna e la messaggistica delle schede di contenuto.
+
+8. **Attiva percorso** - Il percorso generato automaticamente si attiva alla data di inizio della sfida e gestisce tutte le interazioni dei clienti.
+
+9. **Monitora le prestazioni** - Tieni traccia della partecipazione, dei tassi di completamento, della distribuzione dei premi e del coinvolgimento nei messaggi tramite rapporti incorporati e l&#39;area di lavoro del percorso.
+
+>[!NOTE]
+>
+>Il percorso generato automaticamente viene visualizzato nell&#39;inventario del percorso e, se necessario, può essere personalizzato. Tuttavia, le modifiche apportate direttamente al percorso non vengono sincronizzate con la configurazione di verifica.
 
 ## Funzionalità principali
 
@@ -90,7 +117,7 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
   Per istruzioni dettagliate, consulta:
 
-   * [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+   * [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 * Autorizzazioni richieste {#required-permissions}
@@ -147,6 +174,59 @@ Visualizza le sfide in un intervallo di date specifico utilizzando **[!UICONTROL
 
 Mostra le sfide con tag specifici applicati utilizzando **[!UICONTROL Filtra per tag]**.
 
+
+**[!UICONTROL Sconto]**: fornisci un codice o un valore di sconto.
+
+* Immettere il tipo di sconto (percentuale o importo fisso)
+* Inserisci il valore dello sconto
+* Facoltativamente, specifica il codice sconto o lascia che il sistema ne generi uno
+
+**[!UICONTROL Elemento gratuito]**: concedere un prodotto o un servizio gratuito.
+
+* Specifica l&#39;SKU o la descrizione dell&#39;articolo
+* Indicare in che modo l&#39;articolo gratuito deve essere richiesto
+
+**[!UICONTROL Premio personalizzato]**: definisci un tipo di premio personalizzato.
+
+* Inserisci la descrizione del premio
+* Indicare eventuali codici o identificatori pertinenti
+* Configurare il modo in cui il premio viene consegnato o richiesto
+
+#### Esempio di configurazione del premio {#reward-example}
+
+**Sfida**: &quot;Sfida per gli amanti del caffè&quot;
+
+**Attività 1**: Acquista 3 caffè
+
+* Premio: 30 punti (10 punti per caffè)
+* Tempistica: dopo il completamento dell’attività
+
+**Attività 2**: provare 2 nuove bevande stagionali
+
+* Premio: 50 punti
+* Tempistica: dopo il completamento dell’attività
+
+**Premio per il completamento della sfida**:
+
+* Premio: caffè gratis + 100 punti bonus
+* Tempistica: dopo il completamento di tutte le attività
+
+**Premi totali possibili**: 180 punti + 1 caffè gratuito
+
+### Attributi attività avanzati {#advanced-attributes}
+
+Per i casi d’uso avanzati, puoi configurare attributi di attività aggiuntivi:
+
+**[!UICONTROL Condizioni personalizzate]**: aggiungi una logica o condizioni personalizzate oltre i tipi di attività standard utilizzando i segmenti o le regole di Experience Platform.
+
+**[!UICONTROL Geofencing]**: (per le attività Visita) richiede visite a posizioni specifiche definite da coordinate geografiche e raggio.
+
+**[!UICONTROL Requisiti basati sul tempo]**: è necessario completare le attività in ore, giorni o intervalli di date specifici.
+
+**[!UICONTROL Periodo di consolidamento]**: impostare un intervallo di tempo minimo tra il completamento dell&#39;attività per evitare azioni ripetute rapide.
+
+**[!UICONTROL Dipendenze attività]**: (per le sfide sequenziali) definire i prerequisiti che devono essere completati prima che l&#39;attività diventi disponibile.
+
 ## Creare le sfide {#create-challenges}
 
 Crea una sfida di fidelizzazione per definire l’offerta di coinvolgimento, configurare le schede di contenuto per la consegna, aggiungere attività, impostare premi e facoltativamente configurare la messaggistica tra i canali.
@@ -198,7 +278,7 @@ Per creare una nuova sfida di fedeltà:
 
 Per creare o perfezionare i tipi di pubblico, vedi [Creare tipi di pubblico in Journey Optimizer](../audience/about-audiences.md).
 
-&#x200B;4. Seleziona **[!UICONTROL Salva come bozza]** per continuare a configurare la sfida.
+1. Seleziona **[!UICONTROL Salva come bozza]** per continuare a configurare la sfida.
 
 ## Creare le attività {#create-tasks}
 
@@ -372,59 +452,6 @@ Scegli quando i clienti ricevono i premi:
 
 * Immetti il numero di punti (ad esempio, 100)
 * I punti vengono comunicati al sistema di gestione della fedeltà esterno tramite API
-
-**[!UICONTROL Sconto]**: fornisci un codice o un valore di sconto.
-
-* Immettere il tipo di sconto (percentuale o importo fisso)
-* Inserisci il valore dello sconto
-* Facoltativamente, specifica il codice sconto o lascia che il sistema ne generi uno
-
-**[!UICONTROL Elemento gratuito]**: concedere un prodotto o un servizio gratuito.
-
-* Specifica l&#39;SKU o la descrizione dell&#39;articolo
-* Indicare in che modo l&#39;articolo gratuito deve essere richiesto
-
-**[!UICONTROL Premio personalizzato]**: definisci un tipo di premio personalizzato.
-
-* Inserisci la descrizione del premio
-* Indicare eventuali codici o identificatori pertinenti
-* Configurare il modo in cui il premio viene consegnato o richiesto
-
-#### Esempio di configurazione del premio {#reward-example}
-
-**Sfida**: &quot;Sfida per gli amanti del caffè&quot;
-
-**Attività 1**: Acquista 3 caffè
-
-* Premio: 30 punti (10 punti per caffè)
-* Tempistica: dopo il completamento dell’attività
-
-**Attività 2**: provare 2 nuove bevande stagionali
-
-* Premio: 50 punti
-* Tempistica: dopo il completamento dell’attività
-
-**Premio per il completamento della sfida**:
-
-* Premio: caffè gratis + 100 punti bonus
-* Tempistica: dopo il completamento di tutte le attività
-
-**Premi totali possibili**: 180 punti + 1 caffè gratuito
-
-### Attributi attività avanzati {#advanced-attributes}
-
-Per i casi d’uso avanzati, puoi configurare attributi di attività aggiuntivi:
-
-**[!UICONTROL Condizioni personalizzate]**: aggiungi una logica o condizioni personalizzate oltre i tipi di attività standard utilizzando i segmenti o le regole di Experience Platform.
-
-**[!UICONTROL Geofencing]**: (per le attività Visita) richiede visite a posizioni specifiche definite da coordinate geografiche e raggio.
-
-**[!UICONTROL Requisiti basati sul tempo]**: è necessario completare le attività in ore, giorni o intervalli di date specifici.
-
-**[!UICONTROL Periodo di consolidamento]**: impostare un intervallo di tempo minimo tra il completamento dell&#39;attività per evitare azioni ripetute rapide.
-
-**[!UICONTROL Dipendenze attività]**: (per le sfide sequenziali) definire i prerequisiti che devono essere completati prima che l&#39;attività diventi disponibile.
-
 ## Configurare le schede di contenuto {#configure-content-cards}
 
 Le schede di contenuto sono il modo principale in cui le sfide vengono visualizzate ai clienti sui loro dispositivi. Devi configurare una scheda di contenuto per la tua sfida.
@@ -1040,5 +1067,5 @@ Durante la fase beta, il tuo feedback è prezioso per aiutarci a migliorare le S
 * [Creare notifiche push](../push/create-push.md)
 * [Genera percorsi](../building-journeys/journey-gs.md)
 * [Monitorare i percorsi](../building-journeys/report-journey.md)
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
