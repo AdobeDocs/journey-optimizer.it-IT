@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ Le sfide passano attraverso stati diversi:
 * **Arrestato**: arrestato manualmente prima del completamento
 * **Archiviato**: archiviato per scopi organizzativi
 
-Per informazioni dettagliate su ogni stato e sulla gestione delle sfide, consulta la [documentazione principale](loyalty-challenges.md#manage-challenges).
-
 ## Modifica le sfide {#edit-challenges}
 
 Puoi modificare le sfide in base al loro stato corrente:
@@ -60,8 +58,6 @@ Puoi modificare le sfide in base al loro stato corrente:
 
 Per le modifiche che richiedono modifiche principali, duplica la sfida e crea una nuova versione.
 
-Per istruzioni dettagliate sulla modifica, consulta la [documentazione principale](loyalty-challenges.md#edit-challenges).
-
 ## Sfide duplicate {#duplicate-challenges}
 
 Sfide duplicate per:
@@ -69,8 +65,6 @@ Sfide duplicate per:
 * Creare varianti per tipi di pubblico diversi
 * Aggiorna i requisiti o i premi delle attività
 * Riattivare le sfide interrotte o completate
-
-Per i passaggi dettagliati, consulta la [documentazione principale](loyalty-challenges.md#duplicate-challenge).
 
 ## Monitorare le prestazioni {#monitor-performance}
 
@@ -82,8 +76,6 @@ Monitora le prestazioni della sfida tramite:
 * **Metriche di coinvolgimento**: impression scheda di contenuto, consegna messaggi
 
 Accedi ai dati sulle prestazioni nella scheda Prestazioni della sfida e ai rapporti di percorso generati automaticamente.
-
-Per informazioni dettagliate su metriche e reporting, consulta la [documentazione principale](loyalty-challenges.md#monitor-performance).
 
 ## Best practice {#best-practices}
 
@@ -101,8 +93,6 @@ Per informazioni dettagliate su metriche e reporting, consulta la [documentazion
 * Applicare tag coerenti per l’organizzazione
 * Archiviare le sfide completate per mantenere gestibile l&#39;inventario
 
-Per informazioni complete sulle best practice, consulta la [documentazione principale](loyalty-challenges.md#best-practices).
-
 ## Risoluzione dei problemi {#troubleshooting}
 
 Problemi comuni e soluzioni:
@@ -111,8 +101,6 @@ Problemi comuni e soluzioni:
 * **Basse percentuali di partecipazione**: verifica visibilità dei contenuti, chiarezza dei messaggi, realizzabilità delle attività
 * **Attività non attivate**: controlla l&#39;acquisizione dei dati, gli attributi dell&#39;evento, l&#39;idoneità del pubblico
 * **Premi non allocati**: conferma la configurazione e la connessione al sistema esterno
-
-Per istruzioni dettagliate sulla risoluzione dei problemi, consulta la [documentazione principale](loyalty-challenges.md#troubleshooting).
 
 ## Passaggi successivi {#next-steps}
 
