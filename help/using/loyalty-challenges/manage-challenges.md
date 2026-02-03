@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -87,9 +87,19 @@ Per informazioni dettagliate su metriche e reporting, consulta la [documentazion
 
 ## Best practice {#best-practices}
 
-### Creazione di una sfida* Iniziare con semplicità per la prima sfida* Esegui il test completo prima di pubblicare in produzione* Garantire una comunicazione chiara su requisiti e premi* Definire un calendario realistico che consenta ai clienti di completare le sfide
+### Creazione di una sfida
 
-### Gestione e monitoraggio* Verifica regolarmente le prestazioni della sfida (almeno una volta alla settimana per le sfide live)* Utilizza nomi descrittivi che indicano lo scopo, il pubblico o il periodo di tempo* Applicare tag coerenti per l’organizzazione* Archiviare le sfide completate per mantenere gestibile l&#39;inventario
+* Iniziare con semplicità per la prima sfida
+* Esegui il test completo prima di pubblicare in produzione
+* Garantire una comunicazione chiara su requisiti e premi
+* Definire un calendario realistico che consenta ai clienti di completare le sfide
+
+### Gestione e monitoraggio
+
+* Verifica regolarmente le prestazioni della sfida (almeno una volta alla settimana per le sfide live)
+* Utilizza nomi descrittivi che indicano lo scopo, il pubblico o il periodo di tempo
+* Applicare tag coerenti per l’organizzazione
+* Archiviare le sfide completate per mantenere gestibile l&#39;inventario
 
 Per informazioni complete sulle best practice, consulta la [documentazione principale](loyalty-challenges.md#best-practices).
 
