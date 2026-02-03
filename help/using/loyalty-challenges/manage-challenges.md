@@ -87,17 +87,9 @@ Per informazioni dettagliate su metriche e reporting, consulta la [documentazion
 
 ## Best practice {#best-practices}
 
-### Creazione di una sfida
-* Iniziare con semplicità per la prima sfida
-* Esegui il test completo prima di pubblicare in produzione
-* Garantire una comunicazione chiara su requisiti e premi
-* Definire un calendario realistico che consenta ai clienti di completare le sfide
+### Creazione di una sfida* Iniziare con semplicità per la prima sfida* Esegui il test completo prima di pubblicare in produzione* Garantire una comunicazione chiara su requisiti e premi* Definire un calendario realistico che consenta ai clienti di completare le sfide
 
-### Gestione e monitoraggio
-* Verifica regolarmente le prestazioni della sfida (almeno una volta alla settimana per le sfide live)
-* Utilizza nomi descrittivi che indicano lo scopo, il pubblico o il periodo di tempo
-* Applicare tag coerenti per l’organizzazione
-* Archiviare le sfide completate per mantenere gestibile l&#39;inventario
+### Gestione e monitoraggio* Verifica regolarmente le prestazioni della sfida (almeno una volta alla settimana per le sfide live)* Utilizza nomi descrittivi che indicano lo scopo, il pubblico o il periodo di tempo* Applicare tag coerenti per l’organizzazione* Archiviare le sfide completate per mantenere gestibile l&#39;inventario
 
 Per informazioni complete sulle best practice, consulta la [documentazione principale](loyalty-challenges.md#best-practices).
 
