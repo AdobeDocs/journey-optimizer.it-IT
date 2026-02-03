@@ -117,7 +117,7 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
   Per istruzioni dettagliate, consulta:
 
-   * [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
    * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 * Autorizzazioni richieste {#required-permissions}
@@ -1068,5 +1068,5 @@ Durante la fase beta, il tuo feedback è prezioso per aiutarci a migliorare le S
 * [Creare notifiche push](../push/create-push.md)
 * [Genera percorsi](../building-journeys/journey-gs.md)
 * [Monitorare i percorsi](../building-journeys/report-journey.md)
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
