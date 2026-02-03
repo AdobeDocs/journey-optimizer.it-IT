@@ -452,6 +452,7 @@ Scegli quando i clienti ricevono i premi:
 
 * Immetti il numero di punti (ad esempio, 100)
 * I punti vengono comunicati al sistema di gestione della fedeltà esterno tramite API
+
 ## Configurare le schede di contenuto {#configure-content-cards}
 
 Le schede di contenuto sono il modo principale in cui le sfide vengono visualizzate ai clienti sui loro dispositivi. Devi configurare una scheda di contenuto per la tua sfida.
