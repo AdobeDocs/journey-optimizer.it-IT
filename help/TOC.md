@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
       + [Best practice per l’ottimizzazione dei costi degli SMS](using/sms/sms-cost-optimization.md)
       + Configurare il canale SMS/MMS/RCS {#configure-sms}
-         + [Configurare il canale SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Introduzione alla configurazione di SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configurare il provider Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurare il provider Twilio](using/sms/sms-configuration-twilio.md)
          + [Configurare un provider personalizzato](using/sms/sms-configuration-custom.md)
+         + [Creare webhook](using/sms/sms-webhook.md)
          + [Creare una configurazione SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Direct mail](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -844,7 +844,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

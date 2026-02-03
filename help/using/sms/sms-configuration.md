@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '414'
 ht-degree: 41%
 
 ---
@@ -50,6 +50,7 @@ I passaggi dipendono dal provider SMS. Sfoglia i collegamenti riportati di segui
    * [Sinch](sms-configuration-sinch.md)
    * [Twilio](sms-configuration-twilio.md)
    * [Provider personalizzato](sms-configuration-custom.md)
+1. [Creare webhook](sms-webhook.md)
 1. [Creare una configurazione SMS](sms-configuration-surface.md)
 
 Questi passaggi devono essere eseguiti da un [amministratore di sistema](../start/path/administrator.md) di Adobe Journey Optimizer.

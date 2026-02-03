@@ -7,16 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
 # Configurare il provider Twilio {#sms-configuration-twilio}
 
-## Configurare le credenziali API per SMS/MMS
+Integrando Twilio con Adobe Journey Optimizer, puoi inviare messaggi di testo ai profili come parte dei tuoi percorsi e delle tue campagne.
+
+Per configurare Twilio come provider SMS, effettua le seguenti operazioni:
+
+1. [Crea credenziali API](#api-credential)
+1. [Creare webhook](sms-webhook.md)
+1. [Crea configurazione canale](sms-configuration-surface.md)
+1. [Creare un Percorso o una campagna con un’azione del canale SMS](create-sms.md)
+
+## Configurare le credenziali API per SMS/MMS {#api-credential}
 
 Per configurare Twilio con Journey Optimizer, è necessario creare nuove credenziali API per Twilio:
 
