@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazione e-mail, CSS personalizzato, ottimizzazione mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1741'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,12 @@ Questa funzione consente agli addetti al marketing di sfruttare le e-mail visiva
    * Puoi anche convertire i contenuti HTML importati. [Ulteriori informazioni](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* Quando si utilizzano font Web personalizzati (inclusi font Google) nei temi, tenere presente che molti client di posta elettronica non li supportano. Definisci sempre i font di fallback appropriati nel tema per garantire la leggibilità in tutti i client e-mail.
+
+   * Gmail e Yahoo! non caricare font web esterni e torneranno ai font di sistema, indipendentemente dalla famiglia di font specificata in HTML/CSS.
+   * Gli unici font Google supportati da Gmail sono Roboto e Google Sans.
+   * I client di posta elettronica che *do* supportano i caratteri Web includono Apple Mail, iOS Mail, Android Mail, Thunderbird e Outlook per macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ Per definire un tema che puoi sfruttare nei contenuti delle e-mail future, segui
 1. Nelle **[!UICONTROL Impostazioni testo]** è possibile impostare il tipo di carattere globale che si desidera utilizzare per l&#39;intero tema. Per un controllo più granulare, è inoltre possibile modificare ogni intestazione e tipo di paragrafo per regolare il carattere, le dimensioni, lo stile e così via.
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >Quando selezioni i font web personalizzati, tieni presente che molti client e-mail come Gmail e Yahoo! non supportano i font per web esterni e torneranno ai font di sistema. Prendi in considerazione l’inclusione di font di fallback per garantire che il contenuto venga visualizzato correttamente in tutti i client e-mail. [Ulteriori informazioni](#themes-guardrails)
 
 1. Nella scheda **[!UICONTROL Spaziatura]** selezionare un singolo elemento dall&#39;elenco per disporlo correttamente tra i diversi componenti.
 
