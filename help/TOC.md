@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
 workflow-type: tm+mt
-source-wordcount: '3074'
+source-wordcount: '3086'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -132,7 +132,11 @@ ht-degree: 98%
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
       + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
-+ [Sfide di fedeltà](using/loyalty-challenges/loyalty-challenges.md)
++ Sfide di fedeltà {#loyalty-challenges}
+   + [Introduzione alle sfide di fedeltà](using/loyalty-challenges/gs-loyalty-challenges.md)
+   + [Comprendere le sfide della fedeltà](using/loyalty-challenges/get-started.md)
+   + [Creare le sfide](using/loyalty-challenges/create-challenges.md)
+   + [Gestire le sfide](using/loyalty-challenges/manage-challenges.md)
 + Campagne {#campaigns}
    + [Campagne](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
@@ -844,7 +848,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
