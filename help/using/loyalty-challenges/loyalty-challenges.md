@@ -198,7 +198,7 @@ Per creare una nuova sfida di fedeltà:
 
 Per creare o perfezionare i tipi di pubblico, vedi [Creare tipi di pubblico in Journey Optimizer](../audience/about-audiences.md).
 
-4. Seleziona **[!UICONTROL Salva come bozza]** per continuare a configurare la sfida.
+&#x200B;4. Seleziona **[!UICONTROL Salva come bozza]** per continuare a configurare la sfida.
 
 ## Creare le attività {#create-tasks}
 
