@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 version: Journey Orchestration
-source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
+source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +117,7 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
   Per istruzioni dettagliate, consulta:
 
-   * [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+   * [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 * Autorizzazioni richieste {#required-permissions}
@@ -1068,5 +1068,5 @@ Durante la fase beta, il tuo feedback è prezioso per aiutarci a migliorare le S
 * [Creare notifiche push](../push/create-push.md)
 * [Genera percorsi](../building-journeys/journey-gs.md)
 * [Monitorare i percorsi](../building-journeys/report-journey.md)
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
