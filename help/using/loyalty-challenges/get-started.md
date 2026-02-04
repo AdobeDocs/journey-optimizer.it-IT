@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Con le sfide della fidelizzazione, è possibile configurare i premi, inviare not
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il connettore Capillary) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni dei clienti e dell&#39;avanzamento. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
 1. **Seleziona il pubblico di destinazione** - Definisci quali clienti possono partecipare alla tua sfida selezionando un pubblico da Adobe Experience Platform.
 
@@ -75,14 +75,11 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
 Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettori di origine di Experience Platform per monitorare l’avanzamento dei clienti e il completamento delle attività.
 
-1. **Configurare un connettore di origine supportato**: attualmente il connettore Capillary è generalmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future.
+1. **Configurare un connettore di origine supportato**: il connettore Capillary è attualmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Convalida acquisizione dati**: assicurati che gli eventi fedeltà e i dati dei clienti vengano trasmessi ad Experience Platform e siano disponibili in Journey Optimizer. Verifica che lo schema dati includa i campi necessari per monitorare le azioni e l’avanzamento del cliente.
 
-Per istruzioni dettagliate, consulta:
-
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
-* [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
+Per istruzioni dettagliate, consulta [Panoramica sulle origini di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -143,14 +140,14 @@ Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a
     </p>
   </td>
   <td>
-    <a href="manage-challenges.md">
+    <a href="access-loyalty-challenges.md">
     <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
-    <a href="manage-challenges.md"><strong>Gestire le sfide</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Gestire sfide e attività</strong></a>
     </div>
     <p>
-    <em>Modificare, monitorare e ottimizzare le sfide</em>
+    <em>Modifica, duplica ed elimina sfide e attività</em>
     </p>
   </td>
 </tr>
