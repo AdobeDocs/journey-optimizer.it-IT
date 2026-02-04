@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ A seconda del tipo di sfida (Standard, Streak o Sequenziale), i clienti completa
 
 +++Dall&#39;inventario Attività
 
-1. Passa a **[!UICONTROL Sfide fedeltà]** in Journey Optimizer.
+1. Passa a **[!UICONTROL Sfide fedeltà (Beta)]** in Journey Optimizer.
 
 1. Selezionare la scheda **[!UICONTROL Attività]**.
 

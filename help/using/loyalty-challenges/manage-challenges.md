@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -45,67 +45,38 @@ ht-degree: 0%
 Le sfide passano attraverso stati diversi durante il loro ciclo di vita:
 
 * **Bozza**: è in corso la creazione o la modifica della richiesta di verifica e non è ancora disponibile per i clienti
-* **Pianificato**: la sfida è stata pubblicata e diventerà automaticamente attiva alla data di inizio specificata
-* **Live**: la sfida è attualmente attiva e i clienti possono partecipare
-* **Completato**: la sfida è terminata - la data di fine è passata o tutti gli obiettivi sono stati raggiunti
-* **Interrotto**: la sfida è stata interrotta manualmente prima del completamento naturale
-* **Archiviato**: la sfida è stata archiviata per scopi organizzativi e non è più visibile nell&#39;inventario principale
+* **Pubblicato**: la sfida è attiva, il percorso associato è stato creato.
 
 ### Modifica le sfide {#edit-challenges}
 
-Puoi modificare le sfide in base al loro stato corrente:
+Puoi modificare le sfide aprendole nell’inventario Sfide. Il comportamento di modifica varia a seconda dello stato della sfida:
 
-* **Sfide bozza**: funzionalità di modifica completa - tutte le proprietà possono essere modificate
-* **Sfide pianificate/live**: modifiche limitate. È possibile aggiornare il contenuto, i messaggi e le date di estensione, ma non modificare la struttura delle sfide principali (definizioni di tipo, pubblico o attività)
+**Sfide bozza**: è disponibile la funzionalità di modifica completa. Tutte le proprietà, le attività, il contenuto e la messaggistica possono essere modificati senza limitazioni.
 
-Per modificare una richiesta di verifica:
+**Sfide pubblicate**: quando apri una sfida pubblicata per la modifica, devi prima ripristinarla allo stato Bozza.
 
-1. Passa alla scheda **[!UICONTROL Sfide]** nell&#39;inventario Sfide fedeltà.
+* Tutte le personalizzazioni apportate direttamente al percorso generato automaticamente andranno perse
+* La sfida torna allo stato Bozza
+* Dopo aver apportato le modifiche, è necessario salvare e pubblicare nuovamente la sfida
+* Devi riattivare il percorso associato per rendere la sfida aggiornata disponibile ai clienti
 
-1. Individua la sfida da modificare.
-
-1. Seleziona il nome della richiesta di verifica per aprirla in modalità di modifica.
-
-1. Apporta le modifiche in base allo stato della sfida:
-   * **Sfide bozza**: modifica proprietà, attività, contenuto o messaggi
-   * **Sfide pianificate/live**: aggiorna le schede di contenuto, i messaggi o estendi le date di fine in base alle esigenze
-
-1. Salva le modifiche. Per le sfide pianificate o live, le modifiche diventano effettive immediatamente o in base alla pianificazione degli aggiornamenti.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Per le modifiche che richiedono modifiche principali (come la modifica del tipo di sfida, del pubblico o della struttura delle attività), duplica la sfida e crea una nuova versione invece di modificare quella esistente.
+>Il ripristino di una richiesta di verifica pubblicata in bozza non può essere annullato. Prima di procedere, considera l’impatto sul percorso attivo.
 
 ### Sfide duplicate {#duplicate-challenges}
-
-Sfide duplicate per:
-
-* Riesecuzione delle sfide riuscite per nuovi periodi di tempo
-* Creare varianti per tipi di pubblico diversi
-* Aggiorna i requisiti o i premi delle attività
-* Riattivare le sfide interrotte o completate
 
 La duplicazione di una sfida crea una copia esatta con tutte le attività, il contenuto e i messaggi intatti, consentendo di creare rapidamente nuove versioni senza iniziare da zero.
 
 Per duplicare una richiesta di verifica:
 
-1. Passa alla scheda **[!UICONTROL Sfide]** nell&#39;inventario Sfide fedeltà.
+1. Passa alla scheda **[!UICONTROL Sfide]** e individua la sfida da duplicare.
 
-1. Individua la sfida da duplicare.
+1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) accanto a quella sfida e scegli **[!UICONTROL Duplica]**.
 
-1. Seleziona il menu altre azioni (tre punti) accanto a quella sfida.
+1. Viene creata una copia della sfida. Apri la richiesta duplicata e modifica le proprietà necessarie.
 
-1. Scegli **[!UICONTROL Duplica]**.
-
-1. Viene creata una copia della sfida con &quot;[Copia]&quot; aggiunto al nome.
-
-1. Apri la richiesta duplicata e modifica le proprietà necessarie:
-   * Aggiorna il nome della richiesta di verifica
-   * Regolare le date di inizio e fine
-   * Se necessario, modifica il pubblico di destinazione
-   * Modifica attività, premi, contenuto o messaggi in base alle esigenze
-
-1. Rivedi e pubblica la sfida duplicata.
+1. Salva la richiesta duplicata e genera il percorso associato.
 
 ### Monitorare le prestazioni {#monitor-performance}
 
@@ -184,7 +155,7 @@ Per eliminare un&#39;attività:
 
 1. Verifica che il conteggio **[!UICONTROL Usato nelle sfide]** indichi 0. Se il conteggio è maggiore di 0, è necessario rimuovere l&#39;attività da tutte le sfide prima di eliminarla.
 
-1. Selezionare il menu Altre azioni (tre punti) accanto all&#39;attività.
+1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) accanto all&#39;attività.
 
 1. Scegliere **[!UICONTROL Elimina]**.
 

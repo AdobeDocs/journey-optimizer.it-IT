@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettor
 
 Per istruzioni dettagliate, consulta:
 
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ Per istruzioni dettagliate, consulta:
 
 Per utilizzare le sfide di fidelizzazione, è necessario disporre delle autorizzazioni appropriate in Journey Optimizer. Le autorizzazioni necessarie includono:
 
-* Accesso alla funzionalità **[!UICONTROL Sfide fedeltà]**
+* Accesso alla funzionalità **[!UICONTROL Sfide fedeltà (Beta)]**
 * Autorizzazioni per la creazione e la gestione di percorsi
 * Autorizzazioni per creare e gestire schede di contenuto
 * Autorizzazioni per creare e gestire i tipi di pubblico
@@ -106,7 +106,7 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++Tipi di pubblico di destinazione
 
-Crea dei tipi di pubblico target in Experience Platform prima di creare delle sfide. Questi tipi di pubblico definiscono quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Per ulteriori informazioni su come creare tipi di pubblico, consulta [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
+Definisci i tipi di pubblico target che specificano quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Puoi selezionare tipi di pubblico esistenti o crearne di nuovi direttamente dall’interfaccia di creazione delle sfide. Per ulteriori informazioni su come utilizzare i tipi di pubblico, consulta [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
 
 +++
 
