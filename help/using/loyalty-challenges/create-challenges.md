@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,13 @@ Nella scheda **[!UICONTROL Struttura]**, definisci come è organizzata la sfida:
 
 ### Pianificare la sfida {#schedule}
 
-Configura quando viene eseguita la richiesta di verifica selezionando l&#39;icona ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Apri pianificazione]**:
+Configura quando viene eseguita la richiesta di verifica selezionando l&#39;icona **[!UICONTROL Apri pianificazione]**:
 
-![](assets/challenge-create-properties.png)
+![](assets/challenge-create-schedule.png)
 
 * **[!UICONTROL Data e ora di inizio]**: imposta il momento in cui la sfida diventa disponibile per i clienti.
 * **[!UICONTROL Data e ora di fine]**: imposta la scadenza della richiesta e non accetta più nuovi completamenti.
-   * **[!UICONTROL Fuso orario]**: per impostazione predefinita, la sfida utilizza il fuso orario locale del destinatario.
+* **[!UICONTROL Fuso orario]**: per impostazione predefinita, la sfida utilizza il fuso orario locale del destinatario.
 * **[!UICONTROL Le attività devono essere completate]**: scegli quando i clienti possono completare le attività:
 
    * **[!UICONTROL In qualsiasi momento durante la verifica]**: i clienti possono completare le attività in qualsiasi momento tra le date di inizio e di fine della verifica.
@@ -89,17 +89,6 @@ La pianificazione delle sfide è ora configurata. Quindi, aggiungi le attività 
 
 Le attività definiscono le azioni specifiche che i clienti devono completare per ottenere dei premi. Puoi configurare tipi di task (acquisto, spesa), quantità, filtri prodotto e altri attributi.
 
-A seconda del tipo di sfida, i clienti completano le attività in modo diverso:
-
-* **Sfide standard**: completa un numero specificato di attività in qualsiasi ordine\
-  *Esempio: completa 3 attività su 5 - effettui un acquisto, scrivi una recensione, fai riferimento a un amico, condividi sui social media o aggiorna profilo*
-
-* **Sfide in streaming**: completa la stessa attività più volte consecutivamente\
-  *Esempio: effettuare un acquisto per 7 giorni consecutivi per ottenere premi bonus*
-
-* **Sfide sequenziali**: attività completate in un ordine definito\
-  *Esempio: prima effettua un acquisto, poi scrivi una recensione, quindi condividi sui social media - le attività devono essere completate in questa esatta sequenza*
-
 Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
 1. Nella sezione **[!UICONTROL Attività]**, seleziona **[!UICONTROL Aggiungi attività]**.
@@ -108,12 +97,41 @@ Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
 1. Viene aperto **[!UICONTROL Inventario attività]**. Selezionare una o più attività dall&#39;elenco e selezionare **[!UICONTROL Aggiungi]**. Per creare una nuova attività, selezionare **[!UICONTROL Nuova]**. [Scopri come creare e configurare le attività](create-tasks.md).
 
-1. Nella sezione **[!UICONTROL Requisito completamento attività]**, specifica quando la richiesta di verifica viene considerata completata:
+1. Specifica quando la richiesta di verifica è considerata completata. Le impostazioni disponibili dipendono dal tipo di sfida:
 
-   * **[!UICONTROL Il cliente sceglie 1 attività da completare]**: i clienti possono selezionare e completare qualsiasi singola attività per ottenere premi.
-   * **[!UICONTROL Il cliente completa un numero specifico di attività]**: i clienti devono completare un numero definito di attività.
+   +++Sfide standard
 
-1. Per impostazione predefinita, le sfide consentono ai clienti di completare le attività in più transazioni. Per richiedere che tutte le attività vengano completate in una singola transazione, seleziona l&#39;icona ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Impostazioni]** e attiva l&#39;opzione seguente.
+   **[!UICONTROL Requisito completamento attività]** - Scegliere tra:
+
+   * **[!UICONTROL Il cliente sceglie 1 attività da completare]**: i clienti possono selezionare e completare qualsiasi singola attività per ottenere premi
+   * **[!UICONTROL Il cliente completa un numero specifico di attività]**: i clienti devono completare un numero definito di attività. Specifica il numero richiesto - *Esempio: completamento di 3 attività su 5*
+
+   +++
+
+   +++Sfide in streaming
+
+   * **[!UICONTROL Tipo di flusso]**:
+
+      * **Consecutivo**: i clienti devono completare l&#39;attività in giorni consecutivi senza pause - *Esempio: acquisto effettuato il lunedì, martedì, mercoledì - un giorno mancante interrompe la striscia*
+
+      * **Non consecutivo**: i clienti possono completare l&#39;attività con intervalli tra i completamenti - *Esempio: completare 7 acquisti in 30 giorni, con pause consentite*
+
+   * **[!UICONTROL Lunghezza flusso]**: specifica quante volte l&#39;attività deve essere completata - *Esempio: imposta su 7 per un &quot;flusso di acquisto di 7 giorni&quot;*
+
+   +++
+
+   +++Sfide sequenziali
+
+   **[!UICONTROL Requisito completamento attività]** - Scegliere tra:
+
+   * **[!UICONTROL Il cliente sceglie 1 attività da completare]**: i clienti possono selezionare e completare qualsiasi singola attività per ottenere premi
+   * **[!UICONTROL Il cliente completa un numero specifico di attività]**: i clienti devono completare un numero definito di attività nell&#39;ordine esatto definito dall&#39;utente. Un&#39;attività mancante o ignorata interrompe la sequenza. Specifica il numero richiesto (ad esempio, completa 3 attività su 5)
+
+   *Esempio: l&#39;attività 1 (acquisto) → l&#39;attività 2 (revisione) → l&#39;attività 3 (condivisione) - deve essere completata in questo ordine*
+
+   +++
+
+1. Per impostazione predefinita, le sfide standard e sequenziali consentono ai clienti di completare attività in più transazioni. Per richiedere che tutte le attività vengano completate in una singola transazione, seleziona l&#39;icona ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Impostazioni]** e attiva l&#39;opzione seguente.
 
    ![](assets/challenge-create-single-transaction.png)
 

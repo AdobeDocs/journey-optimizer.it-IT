@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
@@ -39,29 +39,36 @@ ht-degree: 1%
 
 Le sfide relative alla fedeltà offrono una soluzione completa per la creazione di programmi fedeltà su larga scala, dalla definizione di attività e obiettivi intermedi alla distribuzione di contenuti e al tracciamento delle prestazioni su tutti i canali.
 
+![](assets/challenges-gs.png)
+
 Puoi creare tre tipi di esperienze di sfida:
 
-* **Sfide standard**: i clienti completano un numero specificato di attività in qualsiasi ordine
-* **Sfide**: i clienti completano la stessa attività più volte di seguito
-* **Sfide sequenziali**: i clienti completano le attività in un ordine definito
+* **Sfide standard**: i clienti completano un numero specificato di attività in qualsiasi ordine\
+  *Esempio: completamento di 3 attività su 5 disponibili*
 
-Con le sfide della fidelizzazione, è possibile configurare i premi, inviare notifiche multicanale nelle fasi principali del ciclo di vita e monitorare le prestazioni tramite percorsi generati automaticamente, mantenendo al contempo l&#39;integrazione con il sistema di gestione della fidelizzazione esterno.
+* **Sfide**: i clienti completano la stessa attività più volte di seguito\
+  *Esempio: effettuare un acquisto in 7 giorni consecutivi*
+
+* **Sfide sequenziali**: i clienti completano le attività in un ordine definito\
+  *Esempio: acquistare → rivedere → condividere (deve essere completato in questa sequenza)*
+
+Con le sfide della fidelizzazione, puoi configurare i premi, inviare notifiche multicanale nelle fasi principali del ciclo di vita, utilizzando percorsi generati automaticamente e mantenendo al contempo l’integrazione con il sistema di gestione della fedeltà esterno.
 
 ## Come funziona {#how-it-works}
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
-
-1. **Seleziona il pubblico di destinazione** - Definisci quali clienti possono partecipare alla tua sfida selezionando un pubblico da Adobe Experience Platform.
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
 
-1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa, visita, coinvolgimento, eventi personalizzati), le quantità, i filtri dei prodotti e i premi.
+1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa), le quantità, i filtri dei prodotti e i premi.
 
 1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
 
 1. **Configurazione della messaggistica** (facoltativo): configurazione di messaggi multicanale (in-app, e-mail, push) per le fasi principali del ciclo di vita: avvio, in corso e completamento.
+
+1. **Seleziona il pubblico di destinazione** - Definisci quali clienti possono partecipare alla tua sfida selezionando un pubblico da Adobe Experience Platform.
 
 1. **Pubblica percorso** - Journey Optimizer genera automaticamente un percorso per la tua sfida. Passa all’inventario dei Percorsi e pubblica il percorso generato automaticamente per rendere la sfida disponibile ai clienti.
 
@@ -75,11 +82,11 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
 Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettori di origine di Experience Platform per monitorare l’avanzamento dei clienti e il completamento delle attività.
 
-1. **Configurare un connettore di origine supportato**: il connettore Capillary è attualmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty).
+1. **Configurare un connettore di origine supportato**: il connettore Capillary è attualmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Convalida acquisizione dati**: assicurati che gli eventi fedeltà e i dati dei clienti vengano trasmessi ad Experience Platform e siano disponibili in Journey Optimizer. Verifica che lo schema dati includa i campi necessari per monitorare le azioni e l’avanzamento del cliente.
 
-Per istruzioni dettagliate, consulta [Panoramica sulle origini di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+Per istruzioni dettagliate, consulta [Panoramica sulle origini di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -136,18 +143,7 @@ Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a
     <a href="create-tasks.md"><strong>Crea attività</strong></a>
     </div>
     <p>
-    <em>Definire azioni e premi per le sfide</em>
-    </p>
-  </td>
-  <td>
-    <a href="access-loyalty-challenges.md">
-    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
-    </a>
-    <div>
-    <a href="access-loyalty-challenges.md"><strong>Gestire sfide e attività</strong></a>
-    </div>
-    <p>
-    <em>Modifica, duplica ed elimina sfide e attività</em>
+    <em>Definisci le azioni da completare per le sfide</em>
     </p>
   </td>
 </tr>
