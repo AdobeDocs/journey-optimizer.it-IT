@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Per istruzioni dettagliate sulla creazione e la configurazione delle attività, 
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-Le schede di contenuto forniscono una rappresentazione visiva della sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. Ulteriori informazioni sulle [schede di contenuto](../content-card/get-started-content-card.md).
+Le schede di contenuto forniscono una rappresentazione visiva della sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. Ulteriori informazioni sulle [schede di contenuto](../content-card/create-content-card.md).
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
