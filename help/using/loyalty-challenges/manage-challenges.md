@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 Le sfide passano attraverso stati diversi durante il loro ciclo di vita:
 
-* **Bozza**: è in corso la creazione o la modifica della richiesta di verifica e non è ancora disponibile per i clienti
-* **Pubblicato**: la sfida è attiva, il percorso associato è stato creato.
+* **Bozza**: è in corso la creazione o la modifica della richiesta di verifica e non è ancora disponibile per i clienti.
+* **Pubblicato**: la sfida è attiva e il percorso associato è stato creato.
 
 ### Modifica le sfide {#edit-challenges}
 
@@ -53,10 +53,10 @@ Puoi modificare le sfide aprendole nell’inventario Sfide. Il comportamento di 
 
 **Sfide pubblicate**: quando apri una sfida pubblicata per la modifica, devi prima ripristinarla allo stato Bozza.
 
-* Tutte le personalizzazioni apportate direttamente al percorso generato automaticamente andranno perse
-* La sfida torna allo stato Bozza
-* Dopo aver apportato le modifiche, è necessario salvare e pubblicare nuovamente la sfida
-* Devi riattivare il percorso associato per rendere la sfida aggiornata disponibile ai clienti
+* Tutte le personalizzazioni apportate direttamente al percorso generato automaticamente andranno perse.
+* La sfida torna allo stato Bozza.
+* Dopo aver apportato le modifiche, è necessario salvare e pubblicare nuovamente la sfida.
+* Devi ripubblicare il percorso associato per rendere la sfida aggiornata disponibile ai clienti.
 
 >[!IMPORTANT]
 >
@@ -115,8 +115,8 @@ Le attività sono componenti riutilizzabili che possono essere utilizzati in pi�
 
 È possibile modificare le attività esistenti dall&#39;inventario Attività. Considera i seguenti aspetti:
 
-* **Attività non utilizzate in sfide attive**: possono essere modificate liberamente - tutte le proprietà possono essere modificate senza alcun impatto
-* **Attività utilizzate nelle sfide live**: fai attenzione, poiché le modifiche influiscono su tutte le sfide utilizzando l&#39;attività: le modifiche vengono applicate immediatamente a tutte le sfide di riferimento
+* **Attività non utilizzate in sfide attive**: possono essere modificate liberamente. Tutte le proprietà possono essere modificate senza alcun impatto.
+* **Attività utilizzate nelle sfide live**: presta attenzione, poiché le modifiche influiscono su tutte le sfide che utilizzano l&#39;attività. Le modifiche si applicano immediatamente a tutte le sfide di riferimento.
 
 Per modificare un&#39;attività:
 
@@ -142,8 +142,8 @@ Per modificare un&#39;attività:
 
 Le attività possono essere eliminate solo se non sono attualmente utilizzate in alcuna sfida. Prima di eliminare un’attività:
 
-* Controlla il conteggio **[!UICONTROL Usato nelle sfide]** nell&#39;inventario Attività
-* Assicurati che nessuna sfida in bozza, pianificata o live faccia riferimento all’attività
+* Controlla il conteggio **[!UICONTROL Usato nelle sfide]** nell&#39;inventario Attività.
+* Assicurati che nessuna sfida in bozza, pianificata o live faccia riferimento all’attività.
 
 Per eliminare un&#39;attività:
 

@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 1%
 **Documentazione sulle sfide di fedeltà:**
 
 * **Introduzione alle sfide di fidelizzazione** ◀︎ **Sei qui** - Panoramica, flusso di lavoro, prerequisiti
-* [Accedere alle sfide di fidelizzazione](access-loyalty-challenges.md) - Inventario e filtro
+* [Accesso e gestione delle sfide di fidelizzazione](access-loyalty-challenges.md) - Gestione di inventario, sfide e attività
 * [Crea problemi](create-challenges.md) - Genera e configura problemi
 * [Crea attività](create-tasks.md) - Definisci le attività di verifica
-* [Gestire le sfide](manage-challenges.md) - Modificare, monitorare, ottimizzare
 
 >[!ENDSHADEBOX]
 
@@ -48,29 +47,25 @@ Puoi creare tre tipi di esperienze di sfida:
 
 Con le sfide della fidelizzazione, è possibile configurare i premi, inviare notifiche multicanale nelle fasi principali del ciclo di vita e monitorare le prestazioni tramite percorsi generati automaticamente, mantenendo al contempo l&#39;integrazione con il sistema di gestione della fidelizzazione esterno.
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## Come funziona {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
 1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il connettore Capillary) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni dei clienti e dell&#39;avanzamento. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
-1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale), pubblico e intervallo di date. Consulta [Creare le sfide](create-challenges.md) per i passaggi dettagliati.
+1. **Seleziona il pubblico di destinazione** - Definisci quali clienti possono partecipare alla tua sfida selezionando un pubblico da Adobe Experience Platform.
 
-1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa, visita, coinvolgimento, eventi personalizzati), le quantità, i filtri dei prodotti e i premi. Per istruzioni dettagliate, consulta [Creare attività](create-tasks.md).
+1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
 
-1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le [schede di contenuto](../content-card/create-content-card.md) di Journey Optimizer visualizzate sui dispositivi del cliente. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
+1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa, visita, coinvolgimento, eventi personalizzati), le quantità, i filtri dei prodotti e i premi.
 
-1. **Configura messaggi** (facoltativo) - Configura messaggi multicanale ([in-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [push](../push/get-started-push.md)) per le fasi chiave del ciclo di vita: avvio, in corso e completamento.
+1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
 
-1. **Rivedi e pubblica** - Verifica la tua sfida con [profili di test](../content-management/test-profiles.md), quindi pubblicala per renderla disponibile al pubblico di destinazione.
+1. **Configurazione della messaggistica** (facoltativo): configurazione di messaggi multicanale (in-app, e-mail, push) per le fasi principali del ciclo di vita: avvio, in corso e completamento.
 
-1. **Attiva percorso** - Quando si pubblica una sfida, Journey Optimizer crea automaticamente un [percorso](../building-journeys/journey-gs.md) in stato Bozza che orchestra la consegna e la messaggistica delle schede di contenuto. Passa all&#39;inventario dei Percorsi, individua il percorso generato automaticamente (denominato &quot;Sfida: [Nome sfida]&quot;) e [attivalo](../building-journeys/publish-journey.md) per rendere la sfida disponibile ai tuoi clienti.
+1. **Pubblica percorso** - Journey Optimizer genera automaticamente un percorso per la tua sfida. Passa all’inventario dei Percorsi e pubblica il percorso generato automaticamente per rendere la sfida disponibile ai clienti.
 
-1. **Monitora le prestazioni** - Tieni traccia della partecipazione, dei tassi di completamento, della distribuzione dei premi e del coinvolgimento nei messaggi tramite rapporti incorporati e l&#39;area di lavoro del percorso. Consulta [Gestire le sfide](manage-challenges.md) per informazioni sul monitoraggio.
+Per istruzioni dettagliate, consulta [Creare le sfide](create-challenges.md).
 
 ## Prerequisiti {#prerequisites}
 
@@ -86,7 +81,7 @@ Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettor
 
 Per istruzioni dettagliate, consulta:
 
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -104,9 +99,9 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++
 
-+++Tipi di pubblico di destinazione
++++Pubblico target
 
-Definisci i tipi di pubblico target che specificano quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Puoi selezionare tipi di pubblico esistenti o crearne di nuovi direttamente dall’interfaccia di creazione delle sfide. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
+Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Puoi selezionare tipi di pubblico esistenti o crearne di nuovi direttamente dall’interfaccia di creazione delle sfide. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
 
 +++
 
