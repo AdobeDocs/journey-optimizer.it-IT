@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 31%
+source-wordcount: '303'
+ht-degree: 29%
 
 ---
 
@@ -40,6 +40,10 @@ Il nostro framework decisionale di nuova generazione, progettato per unificare i
 Decisioning è attualmente supportato nel canale di esperienza basato su codice.
 
 ➡️ [Introduzione a Decisioning](../experience-decisioning/gs-experience-decisioning.md)
+
+>[!NOTE]
+>
+>Per migrare da Gestione decisioni a Decisioning, consulta la [documentazione sulla migrazione](../experience-decisioning/migrate-to-decisioning.md) e la [guida API per la migrazione](../experience-decisioning/decisioning-migration-api.md).
 
 ## Gestione delle decisioni {#decision-management}
 

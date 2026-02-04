@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3091'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -608,7 +608,9 @@ ht-degree: 98%
       + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
       + [Guardrail e limitazioni per la funzione Decisioni](using/experience-decisioning/decisioning-guardrails.md)
       + [Domande frequenti su Decisioning](using/experience-decisioning/decisioning-faq.md)
-      + [Migrazione dalla gestione delle decisioni a Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
+      + Migrare a Decisioning {#migrate-to-decisioning}
+         + [Vantaggi della migrazione a Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
+         + [Decisioning Migration API](using/experience-decisioning/decisioning-migration-api.md)
       + Documentazione delle API {#experience-decisioning-api-reference}
          + [Documentazione delle API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Introduzione alle API Decisioning](using/experience-decisioning/api-reference/getting-started.md)
@@ -848,7 +850,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 22%
 
 ---
@@ -97,6 +97,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 * **[Definire le strategie di selezione](selection-strategies.md)** - Scopri come creare strategie di selezione con regole di idoneità e metodi di classificazione.
 * **[Creare criteri di decisione](create-decision-policy.md)** - Scopri come creare criteri di decisione che combinano strategie e vincoli.
 * **[Modelli di classificazione e IA](ranking/ranking.md)** - Formule di classificazione principali e modelli di IA per il decisioning personalizzato.
+* **[Migra da Gestione decisioni](migrate-to-decisioning.md)** - Comprendi i vantaggi della migrazione a Decisioning e utilizza le API degli strumenti di migrazione.
 * **[Guardrail di decisioning](decisioning-guardrails.md)**: rivedi limitazioni importanti e best practice per l&#39;implementazione del decisioning.
 * **[Tutorial su Decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni decisionali e sulle best practice.
 
@@ -104,4 +105,4 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
