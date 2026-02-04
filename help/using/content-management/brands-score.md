@@ -5,9 +5,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 8%
 
 ---
@@ -89,7 +89,7 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
 >[!NOTE]
 >
->La valutazione della qualità dei contenuti è indipendente dal marchio. Anche se un brand è selezionato nel menu a discesa, le sue linee guida non vengono applicate al controllo di qualità. La selezione del brand è pertinente solo per il punteggio di allineamento del brand.
+>La valutazione della qualità dei contenuti è indipendente dalle linee guida del brand. Anche se un brand è selezionato nel menu a discesa, le sue linee guida non vengono applicate al controllo di qualità. La selezione del brand è pertinente solo per il punteggio di allineamento del brand.
 
 Oltre all’allineamento del brand, puoi valutare la qualità generale dei contenuti per identificare potenziali problemi di leggibilità, coerenza ed efficacia dei contenuti, indipendentemente dalle linee guida del brand.
 
@@ -134,6 +134,6 @@ Il video seguente mostra come creare e personalizzare i propri marchi per defini
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

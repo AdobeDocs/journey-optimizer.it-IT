@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3091'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -499,7 +499,7 @@ ht-degree: 97%
          + [Brand](/help/rp_landing_pages/brands-landing-page.md)
          + [Creare e gestire i brand personali](using/content-management/brands.md)
          + [Personalizzazione dei brand](using/content-management/brands-personalize.md)
-         + [Valutare il punteggio di allineamento al brand](using/content-management/brands-score.md)
+         + [Valuta i contenuti](using/content-management/brands-score.md)
    + Contenuto multilingue {#content-multilingual}
       + [Contenuto multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
@@ -851,7 +851,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
