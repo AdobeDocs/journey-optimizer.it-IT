@@ -86,7 +86,7 @@ Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettor
 
 Per istruzioni dettagliate, consulta:
 
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 +++
