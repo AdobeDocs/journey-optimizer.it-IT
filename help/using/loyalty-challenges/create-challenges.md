@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -68,29 +68,29 @@ La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di l
 
 ## Configurare la struttura delle sfide {#structure}
 
-Nella scheda Struttura puoi definire l’organizzazione della sfida: le proprietà, la pianificazione, le attività da completare e i premi da assegnare.
+Nella scheda Struttura, definisci come è organizzata la sfida: le proprietà, la pianificazione, le attività da completare e i premi da assegnare.
 
 ### Definire le proprietà della sfida e utilizzare metadati personalizzati {#properties}
 
-1. Nel riquadro delle proprietà della sfida, configura le proprietà della sfida:
+1. Nel riquadro delle proprietà Sfida, definisci le impostazioni della sfida:
 
    ![](assets/challenge-create-properties.png)
 
-   **Nome**: immetti un nome descrittivo per la richiesta. Questo nome viene visualizzato nell’inventario delle sfide e consente di identificare la sfida.
+   **Nome**: immetti un nome descrittivo per la richiesta. Questo nome viene visualizzato nell&#39;inventario delle sfide.
 
-   **Descrizione**: immetti una descrizione per la richiesta di verifica.
+   **Descrizione**: immetti una descrizione che spieghi lo scopo e gli obiettivi della sfida.
 
 1. Utilizza la sezione **[!UICONTROL Metadati personalizzati]** per aggiungere metadati personalizzati utilizzando coppie chiave/valore. Questi metadati possono essere utilizzati per il tracciamento, la segmentazione o l’integrazione con sistemi esterni.
 
 ### Pianificare la sfida {#schedule}
 
-Pianifica la sfida selezionando l&#39;icona ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Apri pianificazione]**.
+Configura quando viene eseguita la richiesta di verifica selezionando l&#39;icona ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Apri pianificazione]**:
 
-* **Data e ora di inizio**: imposta quando la sfida diventa disponibile per i clienti (formato: mm/gg/aaaa, —:— AM/PM).
+* **Data e ora di inizio**: imposta quando la sfida diventa disponibile per i clienti
 
-* **Data e ora di fine**: imposta quando scade la sfida e non accetta più nuovi completamenti (formato: mm/gg/aaaa, —:— AM/PM).
+* **Data e ora di fine**: imposta la scadenza della richiesta e non accetta più nuovi completamenti
 
-* **Fuso orario**: per impostazione predefinita, la sfida utilizza il fuso orario locale del destinatario.
+* **Fuso orario**: per impostazione predefinita, la sfida utilizza il fuso orario locale del destinatario
 
 * **Le attività devono essere completate**: scegli quando i clienti possono completare le attività:
 
@@ -101,13 +101,18 @@ La pianificazione delle sfide è ora configurata. Ora puoi aggiungere le attivit
 
 ### Aggiungi attività {#add-tasks}
 
-Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi. Puoi configurare i tipi di attività (acquisto, spesa, visita, coinvolgimento, eventi personalizzati), le quantità, i filtri dei prodotti e i premi.
+Le attività definiscono le azioni specifiche che i clienti devono completare per ottenere dei premi. Puoi configurare tipi di task (acquisto, spesa), quantità, filtri prodotto e altri attributi.
 
 A seconda del tipo di sfida, i clienti completano le attività in modo diverso:
 
-* **Sfide standard**: completa un numero specificato di attività in qualsiasi ordine
-* **Sfide in streaming**: completa la stessa attività più volte consecutivamente
-* **Sfide sequenziali**: attività completate in un ordine definito
+* **Sfide standard**: completa un numero specificato di attività in qualsiasi ordine\
+  *Esempio: completa 3 attività su 5 - effettui un acquisto, scrivi una recensione, fai riferimento a un amico, condividi sui social media o aggiorna profilo*
+
+* **Sfide in streaming**: completa la stessa attività più volte consecutivamente\
+  *Esempio: effettuare un acquisto per 7 giorni consecutivi per ottenere premi bonus*
+
+* **Sfide sequenziali**: attività completate in un ordine definito\
+  *Esempio: prima effettua un acquisto, poi scrivi una recensione, quindi condividi sui social media - le attività devono essere completate in questa esatta sequenza*
 
 Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
@@ -117,12 +122,12 @@ Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
 1. Viene aperto l&#39;inventario Attività. Selezionare una o più attività dall&#39;elenco e selezionare **[!UICONTROL Aggiungi]**. Per creare una nuova attività, selezionare **[!UICONTROL Nuova]**.
 
-   Per istruzioni dettagliate sulla creazione e la configurazione delle attività, vedi [Creare le attività](create-tasks.md).
+   [Scopri come creare e configurare le attività](create-tasks.md).
 
-1. Nella sezione **[!UICONTROL Requisito completamento attività]**, specifica quando la richiesta di verifica deve essere considerata completata:
+1. Nella sezione **[!UICONTROL Requisito completamento attività]**, specifica quando la richiesta di verifica viene considerata completata:
 
-   * **[!UICONTROL Il cliente sceglie 1 attività da completare]**: il cliente può selezionare e completare qualsiasi singola attività dalla sfida per ottenere premi
-   * **[!UICONTROL Il cliente completa un numero specifico di attività]**: il cliente deve completare un numero definito di attività. Immettere il numero richiesto di completamenti attività.
+   * **[!UICONTROL Il cliente sceglie 1 attività da completare]**: i clienti possono selezionare e completare qualsiasi singola attività per ottenere premi
+   * **[!UICONTROL Il cliente completa un numero specifico di attività]**: i clienti devono completare un numero definito di attività. Specifica il numero richiesto.
 
 1. Per impostazione predefinita, le sfide consentono ai clienti di completare le attività in più transazioni. Per richiedere che tutte le attività vengano completate in una singola transazione, seleziona l&#39;icona ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Impostazioni]** e attiva l&#39;opzione **[!UICONTROL Transazione singola]**.
 
@@ -130,26 +135,26 @@ Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
 ### Configurare i premi {#rewards}
 
-I premi sono i punti fedeltà o i vantaggi che i clienti ricevono per il completamento delle sfide. Configura come e quando vengono consegnati i premi per motivare la partecipazione dei clienti.
+I premi sono i punti fedeltà o i vantaggi che i clienti ricevono per il completamento delle sfide. Configura quando e come vengono consegnati i premi.
 
-1. Nel menu a discesa **[!UICONTROL Consegna premi]**, scegli quando devono essere consegnati i premi:
+1. Nel menu a discesa **[!UICONTROL Consegna premi]**, scegli quando distribuire i premi:
 
-   * **[!UICONTROL Distribuisci premi al completamento della sfida]**: assegna tutti i premi quando il cliente completa l&#39;intera sfida
-   * **[!UICONTROL Distribuisci i premi alle attività cardine di completamento man mano che vengono completate le sfide]**: premi assegnati in modo incrementale man mano che i clienti completano le singole attività (disponibile solo quando la sfida richiede il completamento di più di un&#39;attività)
+   * **[!UICONTROL Distribuisci premi al completamento della sfida]**: Riconosci premi quando i clienti completano l&#39;intera sfida
+   * **[!UICONTROL Distribuisci premi alle fasi cardine di completamento dell&#39;attività man mano che l&#39;avanzamento della sfida viene completato]**: Riconosci premi in modo incrementale man mano che i clienti completano le singole attività (disponibile solo per le sfide che richiedono più di un&#39;attività)
 
-1. Seleziona il provider di premi dal menu a discesa. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente.
+1. Seleziona il **[!UICONTROL Provider di premi]** dal menu a discesa. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente.
 
 1. Configura gli importi dei premi in base al metodo di consegna selezionato:
 
    +++Distribuisci premi al termine della sfida
 
-   Nel campo **Numero di [punti fedeltà] al completamento della sfida**, specifica l&#39;importo totale del premio da assegnare quando il cliente completa l&#39;intera sfida.
+   Nel campo **Numero di [punti fedeltà] al completamento della sfida**, specifica l&#39;importo totale della ricompensa da assegnare quando i clienti completano l&#39;intera sfida.
 
    Il nome del campo visualizza il nome dei punti fedeltà come definito nel provider selezionato. Ad esempio, se il provider utilizza &quot;Punti Luma&quot;, il campo mostra &quot;Numero di punti Luma al completamento della sfida&quot;.
 
    ![](assets/challenge-create-reward-total.png)
 
-   **Esempio**: nella schermata precedente, i clienti ricevono 100 punti al completamento della sfida.
+   **Esempio**: i clienti ricevono 100 punti al completamento della sfida.
 
    +++
 
@@ -161,7 +166,7 @@ I premi sono i punti fedeltà o i vantaggi che i clienti ricevono per il complet
 
    ![](assets/challenge-create-reward-milestones.png)
 
-   **Esempio**: nella schermata precedente, i clienti ricevono 10 punti al completamento della prima attività e 50 punti aggiuntivi dopo il completamento della seconda attività, per un totale di 60 punti al completamento della sfida.
+   **Esempio**: i clienti ricevono 10 punti al completamento della prima attività e 50 punti in più al completamento della seconda attività, per un totale di 60 punti al completamento della sfida.
 
    >[!TIP]
    >
@@ -169,31 +174,35 @@ I premi sono i punti fedeltà o i vantaggi che i clienti ricevono per il complet
 
    +++
 
+>[!NOTE]
+>
+>Le sfide di fidelizzazione non includono un sistema di contabilità generale integrato per tenere traccia dei saldi dei premi. Assicurati che il provider di premi selezionato gestisca il tracciamento e il rimborso dei punti.
+
 La struttura di sfida è ora configurata con attività e premi. Ora puoi progettare le schede di contenuto per presentare la sfida ai clienti.
 
 ## Configurare le schede di contenuto {#configure-content-cards}
 
-Le schede di contenuto forniscono una rappresentazione visiva della sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. Ulteriori informazioni sulle [schede di contenuto](../content-card/create-content-card.md).
+Le schede dei contenuti rappresentano visivamente la sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. [Ulteriori informazioni sulle schede dei contenuti](../content-card/create-content-card.md).
 
 Per configurare le schede di contenuto per la sfida:
 
-1. Nell&#39;editor delle richieste di verifica passare alla scheda **[!UICONTROL Contenuto]**.
+1. Passa alla scheda **[!UICONTROL Contenuto]**.
 
 1. Immetti un **[!UICONTROL Nome]** per la scheda di contenuto.
 
-1. Seleziona la **[!UICONTROL configurazione canale]** associata. Le configurazioni di canale definiscono come e dove i contenuti vengono consegnati ai clienti. Per ulteriori informazioni, consulta [Configurazioni canale](../configuration/channel-surfaces.md).
+1. Selezionare la **[!UICONTROL configurazione canale]**. Le configurazioni del canale contengono tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni sulle configurazioni dei canali](../configuration/channel-surfaces.md).
 
 1. Seleziona **[!UICONTROL Modifica contenuto]** per progettare la scheda dei contenuti.
 
    ![](assets/challenge-create-content.png)
 
-Per ulteriori informazioni sulla progettazione e la personalizzazione delle schede di contenuto, vedere [Progettare le schede di contenuto](../content-card/design-content-card.md).
+[Scopri come progettare e personalizzare schede di contenuto](../content-card/design-content-card.md).
 
 La scheda di contenuto è ora configurata. È ora possibile configurare la messaggistica per coinvolgere i clienti durante l&#39;intero ciclo di vita della sfida.
 
 ### Configurare la messaggistica {#configure-messaging}
 
-Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida.
+Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida. La messaggistica è facoltativa ma consigliata per massimizzare il coinvolgimento dei clienti.
 
 1. Passa alla scheda **[!UICONTROL Messaggistica]**.
 
@@ -201,9 +210,9 @@ Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del
 
    ![](assets/challenge-create-messaging.png)
 
-   * **Messaggi di avvio**: avvisa i clienti quando inizia la verifica e fornisci i dettagli iniziali
-   * **Messaggi in corso**: mantenere i clienti coinvolti durante la sfida con promemoria, aggiornamenti sull&#39;avanzamento e incoraggiamento a continuare
-   * **Messaggi di completamento**: celebra il successo, conferma l&#39;allocazione delle ricompense e suggerisce le sfide o le azioni successive
+   * **Messaggio di avvio**: avvisa i clienti quando inizia la richiesta di verifica
+   * **Messaggio in corso**: mantenere i clienti coinvolti con promemoria e aggiornamenti sull&#39;avanzamento
+   * **Completamento** messaggio: celebra il successo e conferma l&#39;allocazione dei premi
 
 1. Per ogni fase, selezionare **[!UICONTROL Aggiungi *fase* messaggio]** per creare un messaggio per quella fase.
 
@@ -211,11 +220,11 @@ Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del
 
 1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Modifica]** per progettare il contenuto del messaggio.
 
-   Per ulteriori informazioni sulla creazione di messaggi per canali specifici, consulta:
+   Scopri come creare messaggi per canali specifici:
 
-   * [Documentazione dei messaggi in-app](../in-app/get-started-in-app.md)
-   * [Documentazione dei messaggi e-mail](../email/get-started-email.md)
-   * [Documentazione delle notifiche push](../push/get-started-push.md)
+   * [Scopri come creare messaggi in-app](../in-app/get-started-in-app.md)
+   * [Scopri come creare messaggi e-mail](../email/get-started-email.md)
+   * [Scopri come creare notifiche push](../push/get-started-push.md)
 
 1. Ripetere questi passaggi per ogni fase e canale, in base alle esigenze.
 
@@ -223,15 +232,15 @@ La configurazione della messaggistica è stata completata. Ora puoi definire qua
 
 ## Seleziona il pubblico della sfida {#audience}
 
-Definisci quali clienti sono idonei a partecipare alla sfida di fidelizzazione.
+Definisci quali clienti possono partecipare alla sfida di fidelizzazione.
 
-1. Passa alla scheda **[!UICONTROL Pubblico]** e fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
+1. Passa alla scheda **[!UICONTROL Pubblico]** e seleziona **[!UICONTROL Seleziona pubblico]**.
 
    ![](assets/challenge-create-audience.png)
 
-1. Vengono visualizzati tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico desiderato dall’elenco.
+1. Seleziona il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili.
 
-1. Seleziona **[!UICONTROL Aggiungi pubblico]** per confermare la selezione.
+1. Seleziona **[!UICONTROL Aggiungi pubblico]**.
 
 La configurazione della sfida è stata completata. Ora puoi generare il percorso che orchestrerà la consegna della sfida.
 
@@ -249,9 +258,8 @@ Il percorso inizierà automaticamente alla data di inizio della sfida specificat
 
 >[!NOTE]
 >
->Se necessario, il percorso generato automaticamente può essere personalizzato per aggiungere logica o messaggi aggiuntivi. Tuttavia, le modifiche apportate direttamente al percorso non vengono sincronizzate con la configurazione di verifica. Se si modifica la sfida in un secondo momento, tutte le personalizzazioni di percorso andranno perse durante la rigenerazione del percorso.
+>Il percorso generato automaticamente può essere personalizzato per aggiungere logica o messaggi aggiuntivi. Tuttavia, le modifiche apportate direttamente al percorso non vengono sincronizzate con la configurazione di verifica. Se si modifica la sfida in un secondo momento, tutte le personalizzazioni di percorso andranno perse durante la rigenerazione del percorso.
 
 ## Passaggi successivi {#next-steps}
 
-* [Gestire le sfide](manage-challenges.md) - Scopri come modificare, monitorare e ottimizzare le sfide
-* [Comprendere le sfide relative alla fedeltà](get-started.md) - Rivedere le funzionalità
+* [Gestione delle sfide](manage-challenges.md) - Modifica, monitora e ottimizza le sfide

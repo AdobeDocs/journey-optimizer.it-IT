@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettor
 
 Per istruzioni dettagliate, consulta:
 
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++Tipi di pubblico di destinazione
 
-Definisci i tipi di pubblico target che specificano quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Puoi selezionare tipi di pubblico esistenti o crearne di nuovi direttamente dall’interfaccia di creazione delle sfide. Per ulteriori informazioni su come utilizzare i tipi di pubblico, consulta [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
+Definisci i tipi di pubblico target che specificano quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Puoi selezionare tipi di pubblico esistenti o crearne di nuovi direttamente dall’interfaccia di creazione delle sfide. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
 
 +++
 
