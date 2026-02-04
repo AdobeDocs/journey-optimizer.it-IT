@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Creare le sfide {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Creare una sfida di fidelizzazione"
->abstract="Crea una sfida di fidelizzazione per definire l’offerta di coinvolgimento, configurare le schede di contenuto per la consegna, aggiungere attività, impostare premi e facoltativamente configurare la messaggistica tra i canali."
-
-Crea una sfida di fidelizzazione per definire l’offerta di coinvolgimento, configurare le schede di contenuto, aggiungere attività, impostare premi e configurare la messaggistica tra canali diversi.
-
 >[!BEGINSHADEBOX]
 
 **Documentazione sulle sfide di fedeltà:**
 
-* [Introduzione alle sfide di fidelizzazione](gs-loyalty-challenges.md) - Panoramica rapida e passaggi successivi
-* [Informazioni sulle sfide relative alla fedeltà](get-started.md) - Caratteristiche, flusso di lavoro, prerequisiti
+* [Introduzione alle sfide di fidelizzazione](get-started.md) - Panoramica, flusso di lavoro, prerequisiti
+* [Accedere alle sfide di fidelizzazione](access-loyalty-challenges.md) - Inventario e filtro
 * **Crea problemi** ◀︎ **Sei qui** - Genera e configura problemi
 * [Gestire le sfide](manage-challenges.md) - Modificare, monitorare, ottimizzare
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="Creare una sfida di fidelizzazione"
+>abstract="Crea una sfida di fidelizzazione per definire l’offerta di coinvolgimento, configurare le schede di contenuto per la consegna, aggiungere attività, impostare premi e facoltativamente configurare la messaggistica tra i canali."
 
 ## Prima di iniziare {#before-you-start}
 

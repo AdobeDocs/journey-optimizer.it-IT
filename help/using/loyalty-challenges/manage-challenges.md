@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Gestire le sfide {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="Gestire le sfide di fidelizzazione"
->abstract="Dopo aver creato e pubblicato le sfide relative alla fidelizzazione, puoi visualizzarle, modificarle, monitorarle e ottimizzarle per garantire che forniscano i risultati desiderati per il programma fedeltà."
-
-Dopo aver creato e pubblicato le sfide relative alla fidelizzazione, puoi visualizzarle, modificarle, monitorarle e ottimizzarle per garantire che forniscano i risultati desiderati per il programma fedeltà.
-
 >[!BEGINSHADEBOX]
 
 **Documentazione sulle sfide di fedeltà:**
 
-* [Introduzione alle sfide di fidelizzazione](gs-loyalty-challenges.md) - Panoramica rapida e passaggi successivi
-* [Informazioni sulle sfide relative alla fedeltà](get-started.md) - Caratteristiche, flusso di lavoro, prerequisiti
+* [Introduzione alle sfide di fidelizzazione](get-started.md) - Panoramica, flusso di lavoro, prerequisiti
+* [Accedere alle sfide di fidelizzazione](access-loyalty-challenges.md) - Inventario e filtro
 * [Crea problemi](create-challenges.md) - Genera e configura problemi
 * **Gestisci le sfide** ◀︎ **Sei qui** - Modifica, monitora, ottimizza
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="Gestire le sfide di fidelizzazione"
+>abstract="Dopo aver creato e pubblicato le sfide relative alla fidelizzazione, puoi visualizzarle, modificarle, monitorarle e ottimizzarle per garantire che forniscano i risultati desiderati per il programma fedeltà."
 
 ## Ciclo di vita della sfida {#challenge-lifecycle}
 
