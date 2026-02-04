@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -27,29 +27,34 @@ ht-degree: 0%
 * [Introduzione alle sfide di fidelizzazione](get-started.md) - Panoramica, flusso di lavoro, prerequisiti
 * **Accedi alle sfide di fidelizzazione** ◀︎ **Sei qui** - Inventario e filtro
 * [Crea problemi](create-challenges.md) - Genera e configura problemi
+* [Crea attività](create-tasks.md) - Definisci le attività di verifica
 * [Gestire le sfide](manage-challenges.md) - Modificare, monitorare, ottimizzare
 
 >[!ENDSHADEBOX]
 
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente in **versione beta privata** e potrebbe non essere disponibile nel tuo ambiente. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
+
 ## Accedere all’inventario delle sfide di fedeltà {#access-inventory}
 
-Per accedere alle sfide di fedeltà:
+<!-- SCREENSHOT: Journey Optimizer main menu showing "Loyalty challenges" under "Customer journeys" section -->
 
-1. In Adobe Journey Optimizer, seleziona **[!UICONTROL Sfide fedeltà]** nel menu di navigazione a sinistra nella sezione **[!UICONTROL percorsi di clienti]**.
+Per accedere alle sfide di fedeltà, passa a Journey Optimizer e seleziona **[!UICONTROL Sfide di fedeltà]** nella sezione **[!UICONTROL percorsi di clienti]**.
 
-2. Viene visualizzata la pagina Sfide di fedeltà con due schede:
-   * **[!UICONTROL Sfide]**: visualizza e gestisci tutte le sfide relative alla fedeltà
-   * **[!UICONTROL Attività]**: visualizza e gestisci tutte le attività che possono essere riutilizzate in più sfide
+<!-- SCREENSHOT: Loyalty Challenges landing page showing the two tabs: Challenges and Tasks -->
 
-Per impostazione predefinita, la scheda **[!UICONTROL Sfide]** è selezionata e mostra tutte le sfide esistenti nell&#39;organizzazione.
+Viene visualizzata la pagina Sfide di fedeltà con due schede:
 
-## Scheda Problemi {#challenges-tab}
+* **[!UICONTROL Sfide]**: visualizza e gestisci tutte le sfide relative alla fedeltà
 
-Nella scheda Sfide vengono visualizzate tutte le sfide ordinate in base alla data dell’ultima modifica, con le sfide modificate più di recente visualizzate per prime.
+* **[!UICONTROL Attività]**: visualizza e gestisci tutte le attività che possono essere riutilizzate in più sfide
 
-### Informazioni sull’inventario delle sfide {#inventory-overview}
+## Inventario delle sfide {#challenges-tab}
 
-Nell&#39;inventario Sfide vengono visualizzate tutte le sfide con le seguenti informazioni:
+<!-- SCREENSHOT: Challenges tab showing the inventory table with columns: Challenge name, Status, Type, Start date, End date, Created by, Last modified, Tags -->
+
+Nella scheda Sfide vengono visualizzate tutte le sfide ordinate in base alla data dell’ultima modifica, con le sfide modificate più di recente visualizzate per prime. Vengono visualizzate le seguenti informazioni:
 
 * **[!UICONTROL Nome sfida]**: il nome assegnato alla sfida
 * **[!UICONTROL Stato]**: stato corrente della richiesta di verifica (vedere le descrizioni dello stato di seguito)
@@ -62,51 +67,63 @@ Nell&#39;inventario Sfide vengono visualizzate tutte le sfide con le seguenti in
 
 ### Stati di sfida {#challenge-statuses}
 
-Le sfide possono avere i seguenti stati:
+<!-- VISUAL: Status badges showing different challenge statuses with color coding: Draft (gray), Scheduled (blue), Live (green), Completed (gray), Stopped (red), Archived (gray) -->
 
-* **[!UICONTROL Bozza]**: è in corso la creazione o la modifica della richiesta di verifica, ma non è ancora stata pubblicata
-* **[!UICONTROL Pianificato]**: la sfida è pubblicata e pianificata per iniziare in una data futura
-* **[!UICONTROL Live]**: la sfida è attualmente attiva e disponibile per il pubblico di destinazione
-* **[!UICONTROL Completato]**: la sfida ha superato la data di fine oppure tutti gli obiettivi sono stati raggiunti
-* **[!UICONTROL Arrestato]**: la verifica è stata arrestata manualmente prima del completamento
-* **[!UICONTROL Archiviato]**: la sfida è stata archiviata per scopi organizzativi
+Le sfide vengono visualizzate con diversi stati che indicano il loro stato corrente nel ciclo di vita:
+
+* **Bozza**: è in corso la creazione o la modifica della sfida
+* **Pianificato**: la sfida è pubblicata e diventerà attiva alla data di inizio
+* **Live**: la sfida è attiva e i clienti possono partecipare
+* **Completato**: la data di fine della sfida è passata o gli obiettivi sono stati raggiunti
+* **Arrestato**: la verifica è stata arrestata manualmente prima del completamento
+* **Archiviato**: la sfida è stata archiviata per scopi organizzativi
+
+Per informazioni dettagliate sulle transizioni di stato e sul ciclo di vita della sfida, vedere [Ciclo di vita della sfida](manage-challenges.md#challenge-lifecycle).
 
 ### Problemi di ricerca e filtro {#search-challenges}
 
-Utilizza la funzionalità di ricerca per trovare rapidamente problemi specifici per nome o descrizione.
+<!-- SCREENSHOT: Search bar and filter panel showing available filters (status, type, dates, tags) with an example of active filters applied -->
 
-Puoi anche applicare i filtri per restringere l’elenco delle sfide in base a criteri specifici. Puoi combinare più filtri per perfezionare la ricerca.
+Puoi individuare rapidamente le sfide utilizzando la ricerca e i filtri:
 
-Puoi filtrare le sfide in base al loro stato corrente, al tipo di sfida, alle date di inizio o fine o ai tag applicati per l’organizzazione.
+**Ricerca:**
+
+* Utilizza la barra di ricerca per trovare le sfide immettendo parole chiave dal nome o dalla descrizione della sfida. Gli aggiornamenti della ricerca vengono eseguiti in tempo reale durante la digitazione.
+
+**Filtri:**
+
+* Applica uno o più filtri per limitare i risultati:
+   * **Stato**: filtra per stato della richiesta di verifica (bozza, pianificato, live, completato, interrotto, archiviato)
+   * **Tipo**: filtra per tipo di richiesta (Standard, Streak, Sequenziale)
+   * **Date**: filtra per intervalli di date di inizio o fine
+   * **Tag**: filtra per tag applicati alle sfide
+
+È possibile combinare più filtri contemporaneamente. Ad esempio, filtra per le sfide Live Standard con tag &quot;Estate 2024&quot; per trovare rapidamente campagne stagionali attive.
+
+Per cancellare i filtri, selezionare **[!UICONTROL Cancella tutto]** o rimuovere i singoli filtri.
 
 ### Intervenire sulle sfide {#inventory-actions}
 
+<!-- SCREENSHOT: More actions menu (three dots) expanded showing options: Edit, Duplicate, Stop, Archive, Delete -->
+
 Dalla scheda Sfide, puoi eseguire azioni rapide sulle sfide:
 
-* **Visualizza dettagli richiesta di verifica**: seleziona un nome di richiesta di verifica per aprire la pagina dei dettagli
-* **Modifica una sfida**: seleziona il menu altre azioni (tre punti) e scegli **[!UICONTROL Modifica]**
-* **Duplica una sfida**: seleziona il menu Altre azioni e scegli **[!UICONTROL Duplica]**
-* **Interrompi una sfida dal vivo**: seleziona il menu Altre azioni e scegli **[!UICONTROL Interrompi]**
-* **Archivia una sfida**: seleziona il menu Altre azioni e scegli **[!UICONTROL Archivia]**
-* **Elimina una bozza di richiesta di verifica**: seleziona il menu Altre azioni e scegli **[!UICONTROL Elimina]** (disponibile solo per le bozze)
+* **Visualizza dettagli richiesta di verifica**: seleziona il nome della richiesta di verifica per aprirne la pagina dei dettagli
+* **Modifica una sfida**: seleziona il menu **[!UICONTROL Altre azioni]** (tre punti) e scegli **[!UICONTROL Modifica]**
+* **Duplica una sfida**: seleziona il menu **[!UICONTROL Altre azioni]** e scegli **[!UICONTROL Duplica]**
+* **Interrompi una sfida dal vivo**: seleziona il menu **[!UICONTROL Altre azioni]** e scegli **[!UICONTROL Interrompi]**
+* **Archivia una sfida**: seleziona il menu **[!UICONTROL Altre azioni]** e scegli **[!UICONTROL Archivia]**
+* **Elimina una bozza di richiesta**: seleziona il menu **[!UICONTROL Altre azioni]** e scegli **[!UICONTROL Elimina]** (disponibile solo per le bozze)
 
-### Crea una nuova sfida {#create-from-inventory}
+Per informazioni dettagliate sulla gestione delle problematiche dopo la creazione, incluse limitazioni di modifica, strategie di duplicazione, monitoraggio delle prestazioni e risoluzione dei problemi, consulta [Gestione delle problematiche](manage-challenges.md).
 
-Per creare una nuova sfida dalla scheda Sfide:
+## Inventario attività {#tasks-tab}
 
-1. Seleziona **[!UICONTROL Crea sfida]** nell&#39;angolo in alto a destra.
-
-2. Viene avviato il flusso di lavoro per la creazione della sfida.
-
-Per istruzioni dettagliate, consulta [Creare le sfide](create-challenges.md).
-
-## Scheda Attività {#tasks-tab}
+<!-- SCREENSHOT: Tasks tab showing the inventory table with columns: Task name, Task type, Description, Created by, Last modified, Used in challenges -->
 
 Nella scheda Attività vengono visualizzate tutte le attività riutilizzabili che possono essere utilizzate in più sfide. Le attività create qui diventano disponibili per la selezione durante la creazione o la modifica di qualsiasi sfida.
 
-### Informazioni sull&#39;inventario dei task {#tasks-inventory-overview}
-
-Nell&#39;inventario dei task vengono visualizzati tutti i task con le seguenti informazioni:
+Nell&#39;inventario dei task vengono visualizzate le seguenti informazioni:
 
 * **[!UICONTROL Nome attività]**: nome assegnato all&#39;attività
 * **[!UICONTROL Tipo di attività]**: tipo di azione (acquisto, importo spesa, visita, coinvolgimento, evento personalizzato)
@@ -115,38 +132,20 @@ Nell&#39;inventario dei task vengono visualizzati tutti i task con le seguenti i
 * **[!UICONTROL Ultima modifica]**: data e ora dell&#39;ultima modifica
 * **[!UICONTROL Utilizzato nelle sfide]**: numero di sfide che attualmente utilizzano questa attività
 
-### Creare attività dalla scheda Attività {#create-tasks-from-tab}
-
-È possibile creare le attività in due modi:
-
-1. **Dalla scheda Attività** (consigliato per le attività riutilizzabili):
-   * Passa alla scheda **[!UICONTROL Attività]**
-   * Seleziona **[!UICONTROL Crea attività]**
-   * Configurare le proprietà del task (nome, tipo, quantità, filtri prodotti, premi)
-   * Salva l’attività per renderla disponibile per l’utilizzo in qualsiasi sfida
-
-2. **Durante la creazione di una sfida** (per attività specifiche della sfida):
-   * Durante la creazione della sfida, seleziona **[!UICONTROL Aggiungi attività]** nella sezione Attività
-   * Scegli **[!UICONTROL Crea nuova attività]** o seleziona un&#39;attività esistente
-   * Le attività create in questo modo vengono salvate anche nell&#39;inventario Attività e possono essere riutilizzate
-
->[!TIP]
->
->La creazione di attività dalla scheda Attività è consigliata quando si prevede di utilizzare la stessa attività in più sfide. Ciò garantisce la coerenza e semplifica l&#39;aggiornamento centralizzato delle definizioni delle attività.
-
 ### Azioni sulle attività {#tasks-actions}
 
 Dalla scheda Attività è possibile eseguire le azioni seguenti sulle attività:
 
-* **Visualizza dettagli attività**: selezionare un nome attività per visualizzare la configurazione completa
-* **Modifica un&#39;attività**: seleziona il menu altre azioni (tre punti) e scegli **[!UICONTROL Modifica]**
-* **Duplica un&#39;attività**: seleziona il menu Altre azioni e scegli **[!UICONTROL Duplica]**
-* **Elimina un&#39;attività**: seleziona il menu Altre azioni e scegli **[!UICONTROL Elimina]** (solo se non utilizzato in alcuna sfida attiva)
+* **Visualizza dettagli attività**: selezionare il nome attività per visualizzare la configurazione completa
+* **Modifica attività**: seleziona il menu **[!UICONTROL Altre azioni]** (tre punti) e scegli **[!UICONTROL Modifica]**
+* **Duplica attività**: seleziona il menu **[!UICONTROL Altre azioni]** e scegli **[!UICONTROL Duplica]**
+* **Elimina un&#39;attività**: seleziona il menu **[!UICONTROL Altre azioni]** e scegli **[!UICONTROL Elimina]** (solo se non viene utilizzato in alcuna sfida attiva)
 * **Utilizzo visualizzazione**: individuare le sfide attualmente associate all&#39;attività
 
 ## Passaggi successivi {#next-steps}
 
 Ora che sai come accedere e navigare nell’inventario delle sfide di fedeltà:
 
-* [Crea sfide](create-challenges.md) - Scopri come creare la tua prima sfida
-* [Gestire le sfide](manage-challenges.md) - Scopri come modificare e monitorare le sfide
+* [Crea sfide](create-challenges.md) - Scopri come creare la tua prima sfida e configurare le attività
+* [Crea attività](create-tasks.md) - Scopri come definire attività riutilizzabili per le sfide
+* [Gestire le sfide](manage-challenges.md) - Scopri come modificare, monitorare e ottimizzare le sfide

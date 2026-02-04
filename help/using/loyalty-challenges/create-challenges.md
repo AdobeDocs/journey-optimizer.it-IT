@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 1%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
@@ -27,241 +27,174 @@ ht-degree: 1%
 * [Introduzione alle sfide di fidelizzazione](get-started.md) - Panoramica, flusso di lavoro, prerequisiti
 * [Accedere alle sfide di fidelizzazione](access-loyalty-challenges.md) - Inventario e filtro
 * **Crea problemi** ◀︎ **Sei qui** - Genera e configura problemi
+* [Crea attività](create-tasks.md) - Definisci le attività di verifica
 * [Gestire le sfide](manage-challenges.md) - Modificare, monitorare, ottimizzare
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Creare una sfida di fidelizzazione"
->abstract="Crea una sfida di fidelizzazione per definire l’offerta di coinvolgimento, configurare le schede di contenuto per la consegna, aggiungere attività, impostare premi e facoltativamente configurare la messaggistica tra i canali."
-
-## Prima di iniziare {#before-you-start}
-
-Prima di creare una sfida, assicurati di disporre di:
-
-* Acquisizione dei dati configurata e convalidata tramite i connettori di origine
-* Creazione di un pubblico richiesto in Experience Platform
-* Risorse di contenuto preparate (immagini, testo, ecc.) per la sfida
-* Definire le attività e i premi che si desidera offrire
-
-## Crea una sfida {#create-a-challenge}
-
-Per i passaggi dettagliati sulla creazione di sfide, tra cui:
-* Configurazione delle proprietà della sfida
-* Tipi di sfida (Standard, Streak, Sequenziale)
-* Selezione del pubblico
-* Configurazione data
-
-## Aggiungi attività {#add-tasks}
-
-Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare tipi di task, quantità, requisiti di prodotto e valori di ricompensa per creare esperienze di fidelizzazione coinvolgenti e personalizzate.
-
-### Panoramica attività {#task-overview}
-
-Ogni attività rappresenta un’azione misurabile che contribuisce al completamento della sfida. A seconda del tipo di sfida (Standard, Streak o Sequenziale), i clienti completano le attività in modo diverso:
-
-* **Sfide standard**: i clienti completano un numero specificato di attività in qualsiasi ordine
-* **Sfide**: i clienti completano la stessa attività più volte di seguito
-* **Sfide sequenziali**: i clienti completano le attività in un ordine definito
-
-### Aggiungi un&#39;attività {#add-task}
-
-Per aggiungere un&#39;attività alla sfida:
-
-1. Apri la sfida o creane una nuova.
-
-2. Passa alla sezione **[!UICONTROL Attività]**.
-
-3. Seleziona **[!UICONTROL Aggiungi attività]** o **[!UICONTROL Crea nuova attività]**.
-
-4. Nella schermata di creazione dell’attività, configura le seguenti proprietà.
-
-### Proprietà attività {#task-properties}
-
-#### Informazioni attività di base {#basic-info}
-
-**[!UICONTROL Nome attività]**: immettere un nome descrittivo per l&#39;attività. Questo nome è visibile a te e al tuo team, ma potrebbe non essere mostrato ai clienti a seconda della progettazione della scheda di contenuto.
-
-**[!UICONTROL Descrizione attività]**: (facoltativo) aggiungi dettagli sullo scopo o sui requisiti dell&#39;attività.
-
-**[!UICONTROL Tipo di attività]**: selezionare il tipo di azione che i clienti devono eseguire. I tipi di attività disponibili includono:
-
-* **[!UICONTROL Acquisto]**: il cliente effettua una transazione di acquisto
-* **[!UICONTROL Importo spesa]**: il cliente spende un importo monetario specificato
-* **[!UICONTROL Visita]**: il cliente visita una posizione fisica o una proprietà digitale
-* **[!UICONTROL Coinvolgimento]**: il cliente è interessato al contenuto, ad esempio alla visualizzazione di un video o alla lettura di un articolo
-* **[!UICONTROL Evento personalizzato]**: il cliente attiva un evento personalizzato tracciato attraverso l&#39;acquisizione dei dati
-
-#### Quantità richiesta {#quantity-requirements}
-
-**[!UICONTROL Quantità richiesta]**: specificare quante volte il cliente deve eseguire l&#39;attività per completarla.
-
-Ad esempio:
-
-* Per un task di acquisto: &quot;Acquista 2 articoli&quot; (quantità = 2)
-* Per un&#39;attività Importo spesa: &quot;Spesa $50&quot; (quantità = 50)
-* Per un&#39;attività Visita: &quot;Visita 5 volte&quot; (quantità = 5)
-
-**[!UICONTROL Periodo di verifica]**: (facoltativo) definisci l&#39;intervallo di tempo per il completamento di questa attività:
-
-* Durata per richiesta di verifica (impostazione predefinita)
-* Al giorno
-* Alla settimana
-* Al mese
-* Intervallo di date personalizzato
-
-### Filtraggio di prodotti e SKU {#product-filtering}
-
-Per i task Importo acquisti e Spesa, è possibile specificare i prodotti idonei per il completamento del task.
-
-#### Inclusioni dei prodotti {#product-inclusions}
-
-Definire quali prodotti o categorie contano per l&#39;attività:
-
-1. Seleziona **[!UICONTROL Aggiungi criteri prodotto]**.
-
-2. Scegliere come definire i prodotti qualificati:
-   * **[!UICONTROL Per SKU]**: immettere codici SKU di prodotto specifici
-   * **[!UICONTROL Per categoria]**: seleziona le categorie di prodotti dal catalogo
-   * **[!UICONTROL Per attributo]**: filtra per attributi di prodotto quali marchio, dimensione, colore o attributi personalizzati
-
-3. Inserire o selezionare gli identificatori del prodotto:
-
-   **Esempio - Per SKU**:
-
-   ```text
-   SKU001, SKU002, SKU003
-   ```
-
-   **Esempio - Per categoria**:
-
-   * Bevande > Caffè
-   * Panetteria > Pasticceria
-
-   **Esempio - Per attributo**:
-
-   * Marchio = &quot;Marchio Premium&quot;
-   * Categoria = &quot;Articoli stagionali&quot;
-   * Prezzo > 20 $
-
-4. Seleziona **[!UICONTROL Aggiungi]** per salvare i criteri del prodotto.
-
-#### Esclusioni di prodotto {#product-exclusions}
-
-È possibile escludere prodotti specifici dal conteggio per l&#39;attività:
-
-1. Seleziona **[!UICONTROL Aggiungi esclusioni]**.
-
-2. Utilizza gli stessi metodi di filtro delle inclusioni di prodotto per specificare quali prodotti escludere.
-
-3. Scenari di esclusione comuni:
-
-   * Articoli di vendita o sdoganamento
-   * Biglietti regalo
-   * Articoli promozionali o gratuiti
-   * Marchi o categorie specifici
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->**Logica di inclusione ed esclusione**: quando sono definite sia le inclusioni che le esclusioni:
->
->* I prodotti devono soddisfare i criteri di inclusione
->* I prodotti che corrispondono ai criteri di esclusione vengono rimossi, anche se corrispondono alle inclusioni
->* Se non sono definite inclusioni, tutti i prodotti sono idonei ad eccezione di quelli esplicitamente esclusi
+>Questa funzionalità è attualmente in **versione beta privata** e potrebbe non essere disponibile nel tuo ambiente. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
-#### Esempi di filtraggio dei prodotti {#product-filtering-examples}
+## Come funziona {#how-it-works}
 
-##### Esempio 1: Coffee Challenge {#example-1}
+<!-- SCHEMA: Visual workflow showing the 5 main steps with icons: Create challenge → Add tasks → Design content cards → Configure messaging → Review and publish -->
 
-* Tipo di attività: Acquisto
-* Quantità richiesta: 3
-* Inclusioni: Categoria = &quot;Bevande > Caffè&quot;
-* Risultato: il cliente deve acquistare 3 bevande a base di caffè
+La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-##### Esempio 2: spesa Premium {#example-2}
+1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale), pubblico e intervallo di date.
 
-* Tipo di attività: importo spesa
-* Quantità richiesta: $100
-* Inclusioni: Marchio = &quot;Marchio Premium&quot;
-* Esclusioni: Categoria = &quot;Gioco&quot;
-* Risultato: il cliente deve spendere $ 100 per gli articoli Premium con marchio, esclusi gli articoli di cancellazione
+1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa, visita, ecc.), le quantità, i filtri dei prodotti e i premi.
 
-##### Esempio 3: acquisto di prodotti specifici {#example-3}
+1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti.
 
-* Tipo di attività: Acquisto
-* Quantità richiesta: 1
-* Inclusioni: SKU = &quot;NEWPRODUCT2024&quot;
-* Risultato: il cliente deve acquistare il prodotto specifico con SKU &quot;NEWPRODUCT2024&quot;
+1. **Configura messaggi** (facoltativo): configura messaggi multicanale (in-app, e-mail, push, SMS) per le fasi chiave: avvio, in corso e completamento.
 
-### Configurare i premi {#configure-rewards}
+1. **Rivedi e pubblica** - Verifica la tua sfida con i profili di test, quindi pubblicala per renderla disponibile al pubblico di destinazione.
 
-Definire cosa guadagnano i clienti per il completamento delle attività. I premi possono essere concessi a livello di attività o a livello di sfida dopo il completamento di tutte le attività.
+## Crea la sfida {#create-challenge}
 
-#### Tempistica premio {#reward-timing}
+<!-- SCREENSHOT: Challenge creation screen showing challenge properties form with fields for name, type, audience, dates -->
 
-Scegli quando i clienti ricevono i premi:
+Per creare una nuova sfida di fedeltà:
 
-**[!UICONTROL Dopo il completamento dell&#39;attività]**: i clienti ricevono un premio subito dopo aver completato questa attività specifica (detti anche &quot;premi progressivi&quot; o &quot;premi milestone&quot;).
+1. Passa a **[!UICONTROL Sfide fedeltà]** in Journey Optimizer.
 
-**[!UICONTROL Dopo il completamento della sfida]**: i clienti ricevono un premio solo dopo aver completato tutte le attività richieste nella sfida (detti anche &quot;premi finali&quot; o &quot;premi speciali&quot;).
+1. Selezionare la scheda **[!UICONTROL Sfide]**.
 
->[!TIP]
->
->È possibile combinare entrambi i tipi di premi in un&#39;unica sfida per mantenere il coinvolgimento in tutto il percorso del cliente. Ad esempio:
->
->* Assegna 10 punti dopo il completamento di ogni attività (premi progressivi)
->* Attribuisci altri 100 punti dopo aver completato l&#39;intera sfida (premio finale)
+1. Seleziona **[!UICONTROL Crea sfida]**.
 
-#### Tipi e valori di premi {#reward-types}
+1. Configura le proprietà di verifica:
 
-**[!UICONTROL Punti]**: punti fedeltà premio all&#39;account del cliente.
+   **Nome sfida**: immetti un nome descrittivo per la sfida. Questo nome viene visualizzato nell’inventario delle sfide e consente di identificare la sfida.
 
-* Immetti il numero di punti (ad esempio, 100)
-* I punti vengono comunicati al sistema di gestione della fedeltà esterno tramite API
+   **Tipo di verifica**: selezionare uno dei tipi seguenti:
+   * **[!UICONTROL Standard]**: i clienti completano un numero specificato di attività in qualsiasi ordine
+   * **[!UICONTROL Streak]**: i clienti completano la stessa attività più volte consecutivamente
+   * **[!UICONTROL Sequenziale]**: i clienti completano le attività in un ordine definito
 
-**[!UICONTROL Sconto]**: fornisci un codice o un valore di sconto.
+   **Pubblico di destinazione**: seleziona il segmento di pubblico che definisce chi può partecipare a questa sfida. Devi creare dei tipi di pubblico in Experience Platform prima di creare delle sfide. Per ulteriori informazioni, vedere [Introduzione ai tipi di pubblico](../audience/about-audiences.md).
 
-* Immettere il tipo di sconto (percentuale o importo fisso)
-* Inserisci il valore dello sconto
-* Facoltativamente, specifica il codice sconto o lascia che il sistema ne generi uno
+   **Data di inizio**: imposta quando la sfida diventa disponibile per i clienti.
 
-**[!UICONTROL Elemento gratuito]**: concedere un prodotto o un servizio gratuito.
+   **Data di fine**: imposta quando la richiesta scade e non accetta più nuovi completamenti.
 
-* Specifica l&#39;SKU o la descrizione dell&#39;articolo
-* Indicare in che modo l&#39;articolo gratuito deve essere richiesto
+<!-- VISUAL: Comparison table or diagram showing the three challenge types (Standard, Streak, Sequential) with examples of each -->
 
-**[!UICONTROL Premio personalizzato]**: definisci un tipo di premio personalizzato.
+### Aggiungi attività {#add-tasks}
 
-* Inserisci la descrizione del premio
-* Indicare eventuali codici o identificatori pertinenti
-* Configurare il modo in cui il premio viene consegnato o richiesto
+Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi. Puoi configurare i tipi di attività (acquisto, spesa, visita, coinvolgimento, eventi personalizzati), le quantità, i filtri dei prodotti e i premi.
 
-## Configurare le schede di contenuto {#configure-content-cards}
+A seconda del tipo di sfida, i clienti completano le attività in modo diverso:
 
-Per i passaggi dettagliati sulla configurazione delle schede di contenuto, tra cui:
-* Configurazione scheda contenuto
-* Progettazione e personalizzazione
-* Anteprima e test
+* **Sfide standard**: completa un numero specificato di attività in qualsiasi ordine
+* **Sfide in streaming**: completa la stessa attività più volte consecutivamente
+* **Sfide sequenziali**: attività completate in un ordine definito
 
-## Configurare la messaggistica {#configure-messaging}
+Per aggiungere attività alla tua richiesta, seleziona **[!UICONTROL Aggiungi attività]** nella sezione Attività e configura le proprietà dell&#39;attività.
 
-Per i passaggi dettagliati sulla configurazione della messaggistica multicanale, tra cui:
-* Canali dei messaggi (in-app, e-mail, push)
-* Fasi del messaggio (lancio, in corso, completo)
-* Tempistica dei messaggi e attivatori
+Per istruzioni dettagliate sulla creazione e la configurazione delle attività, vedi [Creare le attività](create-tasks.md).
 
-## Revisione e pubblicazione {#review-and-publish}
+### Configurare le schede di contenuto {#configure-content-cards}
+
+<!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
+
+Le schede di contenuto forniscono una rappresentazione visiva della sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. Ulteriori informazioni sulle [schede di contenuto](../content-card/get-started-content-card.md).
+
+<!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
+
+Per configurare le schede di contenuto per la sfida:
+
+1. Nell&#39;editor delle sfide, passa alla sezione **[!UICONTROL Schede di contenuto]**.
+
+1. Seleziona **[!UICONTROL Crea scheda contenuto]** o scegli un modello esistente.
+
+1. Progettare la scheda di contenuto:
+   * Aggiungere immagini, testo ed elementi di branding
+   * Includi [token di personalizzazione](../personalization/personalization-syntax.md) per visualizzare informazioni specifiche per il cliente
+   * Mostra gli indicatori di avanzamento delle sfide
+   * Visualizza premi e incentivi
+
+1. Configura quando viene visualizzata la scheda di contenuto:
+   * **Inizio sfida**: mostra quando la sfida diventa disponibile
+   * **In corso**: visualizzazione durante la partecipazione attiva dei clienti
+   * **Completamento**: mostra dopo che i clienti hanno completato tutte le attività
+
+1. Visualizza l’anteprima della scheda di contenuto su diversi dispositivi per garantire una visualizzazione corretta.
+
+1. Salva la configurazione della scheda di contenuto.
+
+Per ulteriori informazioni sulla progettazione e la personalizzazione delle schede di contenuto, vedere [Progettare le schede di contenuto](../content-card/design-content-card.md).
+
+### Configurare la messaggistica {#configure-messaging}
+
+<!-- SCREENSHOT: Messaging configuration section showing the three lifecycle stages: Launch, In-progress, Completion -->
+
+Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida.
+
+<!-- VISUAL: Timeline diagram showing when each message type is sent during the challenge lifecycle -->
+
+Per configurare la messaggistica per la sfida:
+
+1. Nell&#39;editor delle sfide, passa alla sezione **[!UICONTROL Messaggistica]**.
+
+1. Configurare i messaggi per ogni fase del ciclo di vita:
+
+   **Messaggi di avvio** - Avvisa i clienti all&#39;avvio della richiesta di verifica:
+   * Seleziona canali: [In-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [notifica push](../push/get-started-push.md) o [SMS](../sms/get-started-sms.md)
+   * Progetta il messaggio con i dettagli della sfida e call-to-action
+   * Imposta tempistica: invia immediatamente quando la sfida diventa attiva o pianifica per un orario specifico
+
+   **Messaggi in corso** - Mantenere i clienti coinvolti durante la verifica:
+   * Definire le condizioni di attivazione (ad esempio, completamento al 50%, completamento di attività specifiche)
+   * Crea messaggi di promemoria per incoraggiare la partecipazione continua
+   * Includi aggiornamenti sull’avanzamento e passaggi successivi
+
+   **Messaggi di completamento** - Celebra il successo e consegna dei premi:
+   * Congratulazioni ai clienti per aver completato la sfida
+   * Conferma allocazione premi
+   * Fornire istruzioni per la richiesta di premi
+   * Suggerisci sfide o azioni future
+
+Per ulteriori informazioni sulla creazione di messaggi per canali specifici, consulta:
+
+* [Documentazione dei messaggi in-app](../in-app/get-started-in-app.md)
+* [Documentazione dei messaggi e-mail](../email/get-started-email.md)
+* [Documentazione delle notifiche push](../push/get-started-push.md)
+* [Documentazione sui messaggi SMS](../sms/get-started-sms.md)
+
+## Rivedi e pubblica la sfida {#review-and-publish}
+
+<!-- SCREENSHOT: Review screen showing summary of challenge configuration with all components listed -->
 
 Prima di pubblicare la sfida:
 
-1. **Rivedi tutti i componenti**: verifica proprietà, attività, premi, contenuto, messaggi
-2. **Verifica l&#39;esperienza**: utilizza i profili di test per convalidare il contenuto e i trigger delle attività
-3. **Pubblicazione**: attiva la sfida per il pubblico di destinazione
+1. **Controlla tutti i componenti**: verifica proprietà della sfida, attività, premi, schede di contenuto e configurazioni di messaggistica.
 
-Il percorso generato automaticamente si attiva alla data di inizio specificata.
+1. **Verifica l&#39;esperienza**: utilizza [profili di test](../test-approve/test-profiles.md) per convalidare la visualizzazione della scheda dei contenuti e il comportamento dell&#39;attivazione delle attività.
+
+1. **Pubblica**: seleziona **[!UICONTROL Pubblica]** per rendere la sfida disponibile per il pubblico di destinazione.
+
+<!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
+
+Quando si pubblica una richiesta di verifica, Journey Optimizer crea automaticamente un [percorso](../building-journeys/journey-gs.md) in stato Bozza. Il percorso generato automaticamente viene visualizzato nell&#39;inventario del percorso con il formato del nome &quot;Sfida: [Nome sfida]&quot;.
+
+Per rendere la sfida disponibile ai clienti:
+
+1. Passa all&#39;inventario **[!UICONTROL Percorsi]** in Journey Optimizer.
+
+1. Individua il percorso generato automaticamente (il nome conterrà il prefisso &quot;Challenge:&quot;).
+
+1. [Attiva il percorso](../building-journeys/publishing-the-journey.md).
+
+Il percorso inizia automaticamente alla data di inizio richiesta di verifica specificata.
+
+>[!NOTE]
+>
+>Il percorso generato automaticamente viene visualizzato nell&#39;inventario del percorso e, se necessario, può essere personalizzato. Tuttavia, le modifiche apportate direttamente al percorso non vengono sincronizzate con la configurazione di verifica.
 
 ## Passaggi successivi {#next-steps}
 
 * [Gestire le sfide](manage-challenges.md) - Scopri come modificare, monitorare e ottimizzare le sfide
 * [Comprendere le sfide relative alla fedeltà](get-started.md) - Rivedere le funzionalità
+
