@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
+source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -96,3 +96,12 @@ La tabella **[!UICONTROL Analisi stratificata latenza]** fornisce una suddivisio
 
 ➡️[Consulta la sezione KPI per una descrizione delle metriche di latenza](#kpis)
 
+## Video dimostrativo {#video}
+
+Il video seguente mostra come monitorare l’affidabilità e le prestazioni delle chiamate API effettuate dai tuoi percorsi a sistemi di terze parti.
+
++++Guarda il video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+
++++
