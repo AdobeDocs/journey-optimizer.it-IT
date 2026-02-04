@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -62,7 +62,7 @@ La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di l
 
 1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa, visita, coinvolgimento, eventi personalizzati), le quantità, i filtri dei prodotti e i premi. Per istruzioni dettagliate, consulta [Creare attività](create-tasks.md).
 
-1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le [schede di contenuto](../content-card/get-started-content-card.md) di Journey Optimizer visualizzate sui dispositivi del cliente. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
+1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le [schede di contenuto](../content-card/create-content-card.md) di Journey Optimizer visualizzate sui dispositivi del cliente. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
 
 1. **Configura messaggi** (facoltativo) - Configura messaggi multicanale ([in-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [push](../push/get-started-push.md)) per le fasi chiave del ciclo di vita: avvio, in corso e completamento.
 
@@ -86,7 +86,7 @@ Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettor
 
 Per istruzioni dettagliate, consulta:
 
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 +++
