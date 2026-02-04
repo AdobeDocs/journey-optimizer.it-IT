@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ L’API del servizio di migrazione di Decisioning consente di migrare gli oggett
 
 Questa API consente di passare facilmente al contenuto decisionale tra ambienti diversi (ad esempio, da sviluppo a staging o da staging a produzione), mantenendo al contempo l’integrità e le relazioni tra i dati.
 
-Per informazioni sui vantaggi e le funzionalità di Decisioning rispetto alla gestione delle decisioni, consulta [Vantaggi della migrazione a Decisioning](migrate-to-decisioning.md).
+Per informazioni sui vantaggi e le funzionalità di Decisioning rispetto alla gestione delle decisioni, consulta [questa pagina](migrate-to-decisioning.md).
 
 ## Funzionalità {#capabilities}
 
