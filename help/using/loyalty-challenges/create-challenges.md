@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Prima di pubblicare la sfida:
 
 1. **Controlla tutti i componenti**: verifica proprietà della sfida, attività, premi, schede di contenuto e configurazioni di messaggistica.
 
-1. **Verifica l&#39;esperienza**: utilizza [profili di test](../test-approve/test-profiles.md) per convalidare la visualizzazione della scheda dei contenuti e il comportamento dell&#39;attivazione delle attività.
+1. **Verifica l&#39;esperienza**: utilizza [profili di test](../content-management/test-profiles.md) per convalidare la visualizzazione della scheda dei contenuti e il comportamento dell&#39;attivazione delle attività.
 
 1. **Pubblica**: seleziona **[!UICONTROL Pubblica]** per rendere la sfida disponibile per il pubblico di destinazione.
 
@@ -185,7 +185,7 @@ Per rendere la sfida disponibile ai clienti:
 
 1. Individua il percorso generato automaticamente (il nome conterrà il prefisso &quot;Challenge:&quot;).
 
-1. [Attiva il percorso](../building-journeys/publishing-the-journey.md).
+1. [Attiva il percorso](../building-journeys/publish-journey.md).
 
 Il percorso inizia automaticamente alla data di inizio richiesta di verifica specificata.
 

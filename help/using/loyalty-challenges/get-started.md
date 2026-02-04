@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -66,9 +66,9 @@ La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di l
 
 1. **Configura messaggi** (facoltativo) - Configura messaggi multicanale ([in-app](../in-app/get-started-in-app.md), [e-mail](../email/get-started-email.md), [push](../push/get-started-push.md)) per le fasi chiave del ciclo di vita: avvio, in corso e completamento.
 
-1. **Rivedi e pubblica** - Verifica la tua sfida con [profili di test](../test-approve/test-profiles.md), quindi pubblicala per renderla disponibile al pubblico di destinazione.
+1. **Rivedi e pubblica** - Verifica la tua sfida con [profili di test](../content-management/test-profiles.md), quindi pubblicala per renderla disponibile al pubblico di destinazione.
 
-1. **Attiva percorso** - Quando si pubblica una sfida, Journey Optimizer crea automaticamente un [percorso](../building-journeys/journey-gs.md) in stato Bozza che orchestra la consegna e la messaggistica delle schede di contenuto. Passa all&#39;inventario dei Percorsi, individua il percorso generato automaticamente (denominato &quot;Sfida: [Nome sfida]&quot;) e [attivalo](../building-journeys/publishing-the-journey.md) per rendere la sfida disponibile ai tuoi clienti.
+1. **Attiva percorso** - Quando si pubblica una sfida, Journey Optimizer crea automaticamente un [percorso](../building-journeys/journey-gs.md) in stato Bozza che orchestra la consegna e la messaggistica delle schede di contenuto. Passa all&#39;inventario dei Percorsi, individua il percorso generato automaticamente (denominato &quot;Sfida: [Nome sfida]&quot;) e [attivalo](../building-journeys/publish-journey.md) per rendere la sfida disponibile ai tuoi clienti.
 
 1. **Monitora le prestazioni** - Tieni traccia della partecipazione, dei tassi di completamento, della distribuzione dei premi e del coinvolgimento nei messaggi tramite rapporti incorporati e l&#39;area di lavoro del percorso. Consulta [Gestire le sfide](manage-challenges.md) per informazioni sul monitoraggio.
 
@@ -86,7 +86,7 @@ Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettor
 
 Per istruzioni dettagliate, consulta:
 
-* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+* [Documentazione origini Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Configurare i connettori di origine in Journey Optimizer](../start/get-started-sources.md)
 
 +++
