@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Decisioning offre funzionalità e vantaggi significativi rispetto al framework d
 
 ### Funzionalità di intelligenza artificiale e apprendimento automatico
 
-* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
+* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
 
 * **Misurazione dell&#39;incremento**: possibilità di visualizzare il traffico di esplorazione e di sfruttamento nei modelli AI. Questo consente agli esperti di marketing e ai data scientist di quantificare in che modo l’esplorazione basata su IA migliora le prestazioni dei modelli a lungo termine e la reperibilità di nuove offerte vincenti. La trasparenza nell’allocazione del traffico crea fiducia nelle decisioni di intelligenza artificiale e consente ai team di ottimizzare sia l’apprendimento che le prestazioni nel tempo. [Ulteriori informazioni](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 * **Supporto del canale di messaggistica nativa**: messaggistica integrata e decisioning in un singolo framework su più canali ([Esperienza basata su codice](../code-based/get-started-code-based.md) e [E-mail](../email/get-started-email.md) attualmente disponibili, altri canali in arrivo nella prima metà del 2026). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
 
-* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
+* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
 
 * **Scalabilità e prestazioni**: miglioramento architettonico che sposta il calcolo delle decisioni dall&#39;hub all&#39;edge, riducendo in modo significativo la latenza e migliorando la velocità effettiva per i casi di utilizzo con traffico elevato.
 
@@ -95,12 +95,11 @@ Le API degli strumenti di migrazione consentono di:
 * **Esegui migrazione a diversi ambiti**: sandbox, offerta o livello di decisione
 * **Migrazioni rollback** se vengono rilevati problemi
 
-Per la documentazione API completa, inclusi autenticazione, endpoint, esempi di richieste/risposte e flussi di lavoro dettagliati, consulta la [documentazione sulle API di migrazione Decisioning](decisioning-migration-api.md).
+Per la documentazione API completa, inclusi autenticazione, endpoint, esempi di richieste/risposte e flussi di lavoro dettagliati, fai riferimento a [questa pagina](decisioning-migration-api.md).
 
 ## Argomenti correlati {#related-topics}
 
 * [Introduzione alla funzione Decisioni](gs-experience-decisioning.md)
 * [Guardrail e limitazioni decisionali](decisioning-guardrails.md)
 * [Domande frequenti su Decisioning](decisioning-faq.md)
-* [Decisioning Migration API](decisioning-migration-api.md)
 

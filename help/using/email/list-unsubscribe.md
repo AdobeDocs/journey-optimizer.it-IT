@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 98%
+source-wordcount: '1736'
+ht-degree: 96%
 
 ---
 
@@ -132,6 +132,10 @@ Per personalizzare ulteriormente gli endpoint <!-- (**[!UICONTROL Mailto (unsubs
 >Per l&#39;opzione **[!UICONTROL Invia a (annulla sottoscrizione)]**, è necessario utilizzare i nuovi parametri di query descritti in **Invia a (annulla sottoscrizione) con attributi personalizzati (disponibilità limitata)** sezione [sotto](#configure-decrypt-api).
 
 Per definire attributi personalizzati per gli endpoint, consulta la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine degli endpoint personalizzati, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
+
+>[!NOTE]
+>
+>L&#39;ordine dei parametri UTM aggiunti all&#39;URL è casuale e non può essere controllato. Se il sistema richiede parametri in un ordine specifico, sarà necessario analizzarli e riordinarli sul proprio lato.
 
 ### Configurare l’API di decrittografia {#configure-decrypt-api}
 
@@ -261,7 +265,7 @@ Parametri query:
 
    * Valore analizzato: *v1.xyz*
 
-Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
