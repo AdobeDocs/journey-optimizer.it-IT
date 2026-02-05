@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 89ce77c686e7faec2b7baba5f2c498515ddcfe0f
+source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Puoi creare tre tipi di esperienze di sfida:
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
 
@@ -89,7 +89,7 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
 Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettori di origine di Experience Platform per monitorare l’avanzamento dei clienti e il completamento delle attività.
 
-Prima di iniziare, configura un connettore di origine supportato. Attualmente, è disponibile il connettore Capillary. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty).
+Prima di iniziare, configura un connettore di origine supportato. Attualmente, è disponibile il connettore Capillary. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
@@ -111,13 +111,15 @@ Assicurati che il pubblico di destinazione di cui hai bisogno esista in Adobe Ex
 
 +++
 
-## Passaggi successivi {#next-steps}
+## Argomenti di approfondimento {#lets-dive-deeper}
+
+Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento di entrare nei dettagli. Esplora i seguenti argomenti per accedere all’interfaccia, creare la prima sfida e definire le attività che i clienti completeranno.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-      <img alt="Accesso" src="assets/do-not-localize/icon-access.png" width="48"/>
+      <img alt="Accesso" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>Accesso e gestione di attività e problemi</strong></a>
@@ -128,7 +130,7 @@ Assicurati che il pubblico di destinazione di cui hai bisogno esista in Adobe Ex
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="Creare" src="assets/do-not-localize/icon-challenge.png" width="48"/>
+      <img alt="Creare" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
     <a href="create-challenges.md"><strong>Crea problemi</strong></a>
@@ -139,7 +141,7 @@ Assicurati che il pubblico di destinazione di cui hai bisogno esista in Adobe Ex
   </td>
   <td>
     <a href="create-tasks.md">
-      <img alt="Attività" src="assets/do-not-localize/icon-task.png" width="48"/>
+      <img alt="Attività" src="assets/do-not-localize/icon-task.png" width="200"/>
     </a>
     <div>
     <a href="create-tasks.md"><strong>Crea attività</strong></a>
