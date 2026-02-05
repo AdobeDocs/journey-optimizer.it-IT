@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -269,11 +269,11 @@ In fase di esecuzione, il valore dei metadati viene aggiunto al set di dati **[!
 >
 >Ulteriori informazioni sui set di dati in [questa sezione](../../data/get-started-datasets.md).
 
-**Limitazione**
+**Limitazioni**
 
-Esiste un limite massimo di 2 kb per le coppie chiave-valore per azione.
+Esiste un limite massimo di 2 kb per le coppie chiave-valore per azione. Se viene superato il limite di 2 KB, il messaggio viene comunque recapitato, ma è possibile troncare qualsiasi coppia di valori chiave.
 
-Se viene superato il limite di 2 KB, il messaggio viene comunque recapitato, ma è possibile troncare qualsiasi coppia di valori chiave.
+I metadati non vengono acquisiti per i profili esclusi dall’azione. Quando un profilo viene escluso dalla ricezione di un messaggio, non viene creata alcuna voce di metadati per tale profilo nel set di dati.
 
 **Esempio**
 
