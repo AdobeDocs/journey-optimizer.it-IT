@@ -28,7 +28,7 @@ In questo esempio, viene aggiunta un&#39;etichetta al campo schema **Nazionalit�
 
 1. Crea un nuovo **[!UICONTROL Ruolo]** e assegnalo con la **[!UICONTROL Etichetta]** corrispondente affinché gli utenti possano accedere e utilizzare il campo schema.
 
-1. Assegna un&#39;etichetta **[!UICONTROL 1} al campo schema]** Nazionalità&#x200B;**in Adobe Experience Platform.**
+1. Assegna un&#39;etichetta **[!UICONTROL 1&rbrace; al campo schema]** Nazionalità&#x200B;**in Adobe Experience Platform.**
 
 1. Utilizza il campo **[!UICONTROL Schema]** in Adobe Journey Optimizer.
 
@@ -38,7 +38,7 @@ Tieni presente che è possibile accedere a **[!UICONTROL Ruoli]**, **[!UICONTROL
 
 >[!IMPORTANT]
 >
->>Prima di gestire le autorizzazioni per un ruolo, crea un criterio. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=it){target="_blank"}.
+>&#x200B;>Prima di gestire le autorizzazioni per un ruolo, crea un criterio. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=it){target="_blank"}.
 
 **[!UICONTROL I ruoli]** sono un insieme di utenti che condividono le stesse autorizzazioni, etichette e sandbox all&#39;interno dell&#39;organizzazione. Ogni utente appartenente a un **[!UICONTROL Ruolo]** ha diritto alle app e ai servizi Adobe contenuti nel prodotto. Puoi anche creare **[!UICONTROL Ruoli]** personalizzati per ottimizzare l&#39;accesso degli utenti a determinate funzionalità o oggetti nell&#39;interfaccia.
 

@@ -123,7 +123,7 @@ Per attivare i percorsi basati sugli acquisti ed eliminare se il valore è super
 
 Ulteriori informazioni:
 
-* Panoramica sugli attributi calcolati di Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Panoramica sugli attributi calcolati di Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 

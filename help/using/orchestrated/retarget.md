@@ -44,7 +44,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Selezionare la regola di filtro e scegliere il **[!UICONTROL Comportamento]** di destinazione, ad esempio **[!UICONTROL Messaggio inviato]**.
 
-   1. Fai clic sull&#39;icona ![ della cartella ](assets/do-not-localize/folder-search.svg) per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
+   1. Fai clic sull&#39;icona ![&#x200B; della cartella &#x200B;](assets/do-not-localize/folder-search.svg) per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
 
       * **[!UICONTROL Seleziona una campagna specifica]**: scegli una determinata campagna dal tuo elenco per eseguire il retargeting dei destinatari che hanno interagito con quella campagna.
 
@@ -135,7 +135,7 @@ Per eseguire il retargeting dei destinatari in base alle interazioni con i messa
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Fai clic sull&#39;icona ![ della cartella ](assets/do-not-localize/folder-search.svg) per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
+   1. Fai clic sull&#39;icona ![&#x200B; della cartella &#x200B;](assets/do-not-localize/folder-search.svg) per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
 
       * **[!UICONTROL Seleziona una campagna specifica]**: scegli una determinata campagna dal tuo elenco per eseguire il retargeting dei destinatari che hanno interagito con quella campagna.
 
