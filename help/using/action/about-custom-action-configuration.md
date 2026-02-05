@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 12%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -163,7 +163,7 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
-L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
@@ -207,13 +207,14 @@ In questa configurazione di campo, devi:
 >Se si configurano parametri facoltativi consentendo valori Null, i parametri non compilati da un operatore di percorso vengono inviati come Null.
 >
 
-## Esempi JSON completi {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-Questa sezione fornisce esempi JSON completi che illustrano tutti i tipi di parametri e le configurazioni supportati per le azioni personalizzate.
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### Esempio 1: tipi di parametri di base
+### Example 1: Basic parameter types
 
-Questo esempio mostra come utilizzare diversi tipi di dati nel payload dell’azione personalizzata:
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ Questo esempio mostra come utilizzare diversi tipi di dati nel payload dell’az
 }
 ```
 
-Nella configurazione dell’azione:
-* `userId` - Parametro variabile (stringa) - Mapping a nome profilo
-* `accountId` - Parametro costante (stringa) - Invia sempre &quot;ABC123&quot;
-* `age` - Parametro variabile (numero intero) - Mapping alla pagina del profilo
-* `isActive` - Parametro costante (booleano) - Invia sempre true
-* `loyaltyScore` - Parametro variabile (decimale) - Mapping al campo del profilo personalizzato
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### Esempio 2: utilizzo di costanti di sistema e contesto di percorso
+### Example 2: Using system constants and journey context
 
-È possibile fare riferimento a informazioni specifiche del percorso e valori di sistema:
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ Nella configurazione dell’azione:
 }
 ```
 
-**Variabili di contesto di percorso disponibili:**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->È in corso la verifica della sintassi delle variabili di contesto di percorso con il team di prodotto. I nomi dei campi effettivi possono essere: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName in base alla documentazione sulle proprietà del Percorso.
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` - Identificatore univoco del percorso
-* `@{journey.name}` - Nome del percorso
-* `@{journey.version}` - Numero di versione del percorso
-* `@{journey.startTime}` - Timestamp dell&#39;avvio del percorso per questo profilo (verifica necessaria)
-* `@{journey.stepId}` - Identificatore passaggio corrente
-* `@{journey.stepName}` - Nome del passaggio corrente
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### Esempio 3: parametri facoltativi e obbligatori
+### Example 3: Optional and required parameters
 
-Configura i parametri che i professionisti del percorso possono facoltativamente compilare:
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Configura i parametri che i professionisti del percorso possono facoltativamente
 }
 ```
 
-Nell’interfaccia utente per la configurazione dell’azione:
-* Imposta `email` come **obbligatorio** (non selezionare &quot;Facoltativo&quot;)
-* Imposta `mobilePhone` come **facoltativo** (verifica &quot;Facoltativo&quot;)
-* Imposta `preferredLanguage` come **facoltativo** con valore predefinito
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->Quando un parametro è contrassegnato come facoltativo e non viene compilato dall’operatore di percorso, verrà omesso dal payload o inviato come nullo (se &quot;Consenti valori NULL&quot; è abilitato).
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### Esempio 4: utilizzo di array e raccolte
+### Example 4: Working with arrays and collections
 
-Passa raccolte di dati alle azioni personalizzate:
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ Passa raccolte di dati alle azioni personalizzate:
 
 >[!NOTE]
 >
->Ulteriori informazioni sul passaggio delle raccolte nelle azioni personalizzate in [questa pagina](../building-journeys/collections.md).
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### Esempio 5: oggetti nidificati e strutture complesse
+### Example 5: Nested objects and complex structures
 
-Creare strutture di dati gerarchiche:
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ Creare strutture di dati gerarchiche:
 }
 ```
 
-### Esempio 6: azione personalizzata completa nel mondo reale
+### Example 6: Complete real-world custom action
 
-Un esempio completo che integra più concetti:
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ Un esempio completo che integra più concetti:
 }
 ```
 
-**Suggerimenti di configurazione per questo esempio:**
-* Combinazione di valori costanti (`eventSource`, `specialPromotion`, `sandbox`) e parametri delle variabili
-* Utilizza il contesto di percorso per il tracciamento e il debug
-* Include i dati del profilo per la personalizzazione nel sistema di terze parti
-* Aggiunge un contesto decisionale durante l’utilizzo delle offerte
-* Metadati di sistema per il routing e il tracciamento a livello di organizzazione
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### Suggerimenti per la configurazione delle costanti
+### Tips for configuring constants
 
-**Nome sandbox:** utilizza un parametro costante impostato sul nome dell&#39;ambiente (ad esempio, &quot;prod&quot;, &quot;dev&quot;, &quot;stage&quot;)
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**Timestamp di esecuzione:** Utilizzare `@{journey.startTime}` o creare un parametro di variabile che i professionisti del percorso possono mappare alla funzione `#{nowWithDelta()}`
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**Versione API:** Utilizza una costante per i numeri di versione API per garantire la coerenza tra i percorsi
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**Token di autenticazione:** Non inserire mai token di autenticazione nel payload. Utilizza invece la sezione Autenticazione della configurazione dell&#39;azione personalizzata
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->I nomi dei campi nel payload non possono contenere un punto `.` né iniziare con un carattere `$`. Assicurati che la struttura JSON rispetti queste convenzioni di denominazione.
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
 
