@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ Definisci quali clienti possono partecipare alla sfida di fidelizzazione.
 
 1. Nella finestra di dialogo di selezione del pubblico, seleziona il pubblico di destinazione dall&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili e seleziona **[!UICONTROL Aggiungi pubblico]**. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
 
-La sfida è ora completamente configurata con la sua struttura, il contenuto, la messaggistica e il pubblico di destinazione. Il passaggio finale consiste nel generare e pubblicare il percorso.
+La sfida è ora completamente configurata con la sua struttura, il contenuto, la messaggistica e il pubblico di destinazione. Per avviarlo, devi pubblicare la sfida e il percorso associato.
 
-## Generare e pubblicare il percorso {#review-and-publish}
+## Lancio della sfida {#launch}
 
-Dopo aver configurato tutti i componenti della sfida, genera il percorso che orchestrerà la consegna della sfida:
+L&#39;avvio di una sfida richiede **tre passaggi**: (1) pubblicare la sfida, (2) generare il percorso, (3) pubblicare il percorso. Tutti e tre devono essere completati per consegnare la sfida ai clienti.
 
 1. Esamina la configurazione della sfida per assicurarti che tutti i campi obbligatori siano completati.
 
-1. Seleziona **[!UICONTROL Salva]** per salvare la configurazione di verifica e seleziona **[!UICONTROL Genera Percorso]**.
+1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e seleziona **[!UICONTROL Pubblica]**.
+
+   ![](assets/challenge-create-publish.png)
+
+1. Seleziona **[!UICONTROL Genera Percorso]** per creare il percorso che orchestrerà la consegna delle richieste.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crea automaticamente un percorso in stato &quot;Bozza&quot;. Il percorso generato automaticamente viene visualizzato nell&#39;inventario dei percorsi con il formato nome *&quot;Percorso: [Nome richiesta di verifica]&quot;*. [Ulteriori informazioni sull&#39;inventario dei percorsi](../building-journeys/journey-ui.md).
+1. Journey Optimizer crea automaticamente un percorso in stato &quot;Bozza&quot;. Il percorso viene visualizzato nell&#39;inventario dei percorsi con il formato nome *&quot;Percorso: [Nome richiesta di verifica]&quot;*. [Ulteriori informazioni sull&#39;inventario dei percorsi](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Quando è pronto, pubblica il percorso per rendere la sfida disponibile ai clienti. Il percorso inizierà automaticamente alla data di inizio della sfida specificata e distribuirà contenuti e messaggi in base alla configurazione. [Scopri come pubblicare un percorso](../building-journeys/publish-journey.md).
+1. Apri il percorso e pubblicalo. Il percorso inizierà automaticamente alla data di inizio della sfida specificata e distribuirà contenuti e messaggi in base alla configurazione. [Scopri come pubblicare un percorso](../building-journeys/publish-journey.md).
+
+1. Una volta che la tua sfida è attiva, monitora le prestazioni e la consegna dei messaggi nel [rapporto percorso](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
