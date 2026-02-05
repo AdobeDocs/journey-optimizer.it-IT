@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -20,45 +21,51 @@ ht-degree: 1%
 
 # Introduzione alle sfide di fedeltà {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente in **versione beta privata** e potrebbe non essere disponibile nel tuo ambiente. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **Documentazione sulle sfide di fedeltà:**
 
 * **Introduzione alle sfide di fidelizzazione** ◀︎ **Sei qui** - Panoramica, flusso di lavoro, prerequisiti
-* [Accesso e gestione delle sfide di fidelizzazione](access-loyalty-challenges.md) - Gestione di inventario, sfide e attività
+* [Accesso e gestione di attività e problemi](access-loyalty-challenges.md) - Gestione di attività, problemi e inventario
 * [Crea problemi](create-challenges.md) - Genera e configura problemi
 * [Crea attività](create-tasks.md) - Definisci le attività di verifica
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata** e potrebbe non essere disponibile nel tuo ambiente. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
-
 ## Panoramica {#overview}
 
-Le sfide relative alla fedeltà offrono una soluzione completa per la creazione di programmi fedeltà su larga scala, dalla definizione di attività e obiettivi intermedi alla distribuzione di contenuti e al tracciamento delle prestazioni su tutti i canali.
+Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento.
+
+Con Sfide di fedeltà, puoi:
+
+* **Progetta tipi di sfida flessibili**: crea sfide standard, sequenziali o in streaming per soddisfare gli obiettivi aziendali
+* **Configura i premi in modo strategico**: consegna punti alle attività cardine o al completamento completo per mantenere l&#39;impegno
+* **Personalizza l&#39;esperienza**: utilizza le schede dei contenuti e la messaggistica multicanale per creare esperienze coinvolgenti e di marchio
+* **Integrazione perfetta**: collegati con i provider fedeltà esistenti e sfrutta i dati di Experience Platform
+* **Tieni traccia automaticamente**: monitora l&#39;avanzamento dei clienti tramite percorsi generati automaticamente senza sviluppo personalizzato
 
 ![](assets/challenges-gs.png)
 
 Puoi creare tre tipi di esperienze di sfida:
 
-* **Sfide standard**: i clienti completano un numero specificato di attività in qualsiasi ordine\
-  *Esempio: completamento di 3 attività su 5 disponibili*
+* **Sfide standard**: i clienti completano un numero specificato di attività in qualsiasi ordine. Utilizzate questo tipo quando desiderate la flessibilità e più percorsi per il completamento.\
+  *Esempio: &quot;Summer Wellness Challenge&quot; - Completa 3 attività su 5: acquistare prodotti per la salute, condividere sui social media, contattare un amico, scrivere una recensione o partecipare a un evento virtuale*
 
-* **Sfide**: i clienti completano la stessa attività più volte di seguito\
-  *Esempio: effettuare un acquisto in 7 giorni consecutivi*
+* **Sfide di Streak**: i clienti completano la stessa attività più volte consecutivamente. Utilizza questo tipo per incoraggiare un comportamento coerente e ripetuto nel tempo.\
+  *Esempio: &quot;Coffee Lover&#39;s Week&quot; - Acquista prodotti a base di caffè per 7 giorni consecutivi per sbloccare un premio per bevande gratuite*
 
-* **Sfide sequenziali**: i clienti completano le attività in un ordine definito\
-  *Esempio: acquistare → rivedere → condividere (deve essere completato in questa sequenza)*
-
-Con le sfide della fidelizzazione, puoi configurare i premi, inviare notifiche multicanale nelle fasi principali del ciclo di vita, utilizzando percorsi generati automaticamente e mantenendo al contempo l’integrazione con il sistema di gestione della fedeltà esterno.
+* **Sfide sequenziali**: i clienti completano le attività in un ordine definito. Utilizza questo tipo di guida per i clienti attraverso un percorso specifico o un processo di onboarding.\
+  *Esempio: &quot;Nuovo Percorso membro&quot; - Iscriviti alle e-mail → Effettua il tuo primo acquisto → Scrivi una recensione del prodotto → Fai riferimento a un amico (completa nell&#39;ordine esatto)*
 
 ## Come funziona {#how-it-works}
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
 
@@ -82,30 +89,23 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
 Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettori di origine di Experience Platform per monitorare l’avanzamento dei clienti e il completamento delle attività.
 
-1. **Configurare un connettore di origine supportato**: il connettore Capillary è attualmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty).
-
-1. **Convalida acquisizione dati**: assicurati che gli eventi fedeltà e i dati dei clienti vengano trasmessi ad Experience Platform e siano disponibili in Journey Optimizer. Verifica che lo schema dati includa i campi necessari per monitorare le azioni e l’avanzamento del cliente.
-
-Per istruzioni dettagliate, consulta [Panoramica sulle origini di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+Prima di iniziare, configura un connettore di origine supportato. Attualmente, è disponibile il connettore Capillary. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-+++Autorizzazioni richieste
+<!--+++Required permissions
 
-Per utilizzare le sfide di fidelizzazione, è necessario disporre delle autorizzazioni appropriate in Journey Optimizer. Le autorizzazioni necessarie includono:
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* Accesso alla funzionalità **[!UICONTROL Sfide fedeltà (Beta)]**
-* Autorizzazioni per la creazione e la gestione di percorsi
-* Autorizzazioni per creare e gestire schede di contenuto
-* Autorizzazioni per creare e gestire i tipi di pubblico
+TBD
 
-Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiuntive, contatta l’amministratore.
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++Pubblico target
 
-Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a partecipare alle sfide di fidelizzazione. Puoi selezionare tipi di pubblico esistenti o crearne di nuovi direttamente dall’interfaccia di creazione delle sfide. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
+Assicurati che il pubblico di destinazione di cui hai bisogno esista in Adobe Experience Platform prima di creare la tua sfida. Durante la configurazione della sfida, seleziona il pubblico che definisce quali clienti sono idonei a partecipare. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
 
 +++
 
@@ -118,7 +118,7 @@ Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>Accedere Alle Sfide Di Fedeltà</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Accesso e gestione di attività e problemi</strong></a>
     </div>
     <p>
     <em>Scopri come accedere alle sfide di inventario e filtro</em>
@@ -132,7 +132,7 @@ Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a
     <a href="create-challenges.md"><strong>Crea problemi</strong></a>
     </div>
     <p>
-    <em>Crea e configura la prima sfida fedeltà</em>
+    <em>Scopri come creare e configurare la tua prima sfida fedeltà</em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ Definisci un pubblico di destinazione che specifichi quali clienti sono idonei a
     <a href="create-tasks.md"><strong>Crea attività</strong></a>
     </div>
     <p>
-    <em>Definisci le azioni da completare per le sfide</em>
+    <em>Scopri come configurare le azioni completate dai clienti per le sfide</em>
     </p>
   </td>
 </tr>
