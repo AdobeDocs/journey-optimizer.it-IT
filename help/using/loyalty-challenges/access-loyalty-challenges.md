@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
 
 # Accesso e gestione di sfide e attività {#access-loyalty-challenges}
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata** e potrebbe non essere disponibile nel tuo ambiente. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 0%
 * [Creare le attività](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente in **versione beta privata**. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 ## Accesso e gestione di sfide e attività
 

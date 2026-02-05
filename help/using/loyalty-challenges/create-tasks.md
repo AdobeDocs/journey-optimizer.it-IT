@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 
 # Creare le attività {#create-tasks}
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata** e potrebbe non essere disponibile nel tuo ambiente. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 0%
 * **Crea attività** ◀︎ **Sei qui**
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente in **versione beta privata**. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare tipi di attività, quantità e requisiti di prodotto per creare esperienze di fidelizzazione coinvolgenti e personalizzate.
 
