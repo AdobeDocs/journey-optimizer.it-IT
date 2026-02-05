@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 **Documentazione sulle sfide di fedeltà:**
 
-* [Introduzione alle sfide di fidelizzazione](get-started.md) - Panoramica, flusso di lavoro, prerequisiti
-* [Accesso e gestione di attività e problemi](access-loyalty-challenges.md) - Gestione di attività, problemi e inventario
-* [Crea problemi](create-challenges.md) - Genera e configura problemi
-* **Crea attività** ◀︎ **Sei qui** - Definisci le attività di verifica
+* [Introduzione alle sfide di fedeltà](get-started.md)
+* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
+* [Creare le sfide](create-challenges.md)
+* **Crea attività** ◀︎ **Sei qui**
 
 >[!ENDSHADEBOX]
 
