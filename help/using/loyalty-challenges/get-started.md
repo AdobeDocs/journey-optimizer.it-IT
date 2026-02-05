@@ -10,8 +10,8 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-mini-toc-levels: 2
-source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Puoi creare tre tipi di esperienze di sfida:
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
 
@@ -89,7 +89,7 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
 Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettori di origine di Experience Platform per monitorare l’avanzamento dei clienti e il completamento delle attività.
 
-Prima di iniziare, configura un connettore di origine supportato. Attualmente, è disponibile il connettore Capillary. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty).
+Prima di iniziare, configura un connettore di origine supportato. Attualmente, è disponibile il connettore Capillary. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 

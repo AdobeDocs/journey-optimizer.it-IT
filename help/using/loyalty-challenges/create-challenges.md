@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta privata" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 * [Crea attività](create-tasks.md) - Definisci le attività di verifica
 
 >[!ENDSHADEBOX]
+
+Questa pagina descrive l’intero processo di creazione di una sfida di fidelizzazione, dalla selezione del tipo di sfida e la configurazione delle relative proprietà alla generazione e pubblicazione del percorso che fornirà la sfida ai clienti.
 
 ## Crea la sfida {#create-the-challenge}
 
@@ -68,9 +70,9 @@ Nella scheda **[!UICONTROL Struttura]**, definisci come è organizzata la sfida:
    * **[!UICONTROL Nome]**: immetti un nome descrittivo per la richiesta. Questo nome viene visualizzato nell&#39;inventario delle sfide.
    * **[!UICONTROL Descrizione]**: immetti una descrizione che spieghi lo scopo e gli obiettivi della sfida.
 
-   ![](assets/challenge-create-properties.png)
-
 1. Utilizza la sezione **[!UICONTROL Metadati personalizzati]** per aggiungere metadati personalizzati utilizzando coppie chiave/valore. Questi metadati possono essere utilizzati per il tracciamento o l’integrazione con sistemi esterni.
+
+   ![](assets/challenge-create-properties.png)
 
 ### Pianificare la sfida {#schedule}
 
@@ -117,13 +119,13 @@ Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
    +++Sfide in streaming
 
-   * **[!UICONTROL Tipo di flusso]**:
+   Nel menu a discesa **[!UICONTROL Tipo di flusso]**, scegli tra:
 
-      * **Consecutivo**: i clienti devono completare l&#39;attività in giorni consecutivi senza interruzioni. *Esempio: l&#39;acquisto viene effettuato lunedì, martedì e mercoledì. Un giorno mancante interrompe la sequenza.*
+   * **Consecutivo**: i clienti devono completare l&#39;attività in giorni consecutivi senza interruzioni. *Esempio: l&#39;acquisto viene effettuato lunedì, martedì e mercoledì. Un giorno mancante interrompe la sequenza.*
 
-      * **Non consecutivi**: i clienti possono completare l&#39;attività con intervalli tra i completamenti. *Esempio: completare 7 acquisti nell&#39;arco di 30 giorni, con pause consentite.*
+   * **Non consecutivi**: i clienti possono completare l&#39;attività con intervalli tra i completamenti. *Esempio: completare 7 acquisti nell&#39;arco di 30 giorni, con pause consentite.*
 
-   * **[!UICONTROL Lunghezza flusso]**: specificare il numero di volte che l&#39;attività deve essere completata. *Esempio: impostare su 7 per una &quot;sequenza di acquisti di 7 giorni&quot;*.
+   Nel campo **[!UICONTROL Lunghezza flusso]**, specifica quante volte l&#39;attività deve essere completata. *Esempio: impostare su 7 per una &quot;sequenza di acquisti di 7 giorni&quot;*.
 
    +++
 
@@ -157,6 +159,8 @@ Per configurare quando e come vengono distribuiti i premi:
      *Esempio: assegna 10 punti dopo l&#39;attività 1, 20 punti dopo l&#39;attività 2 e 50 punti dopo l&#39;attività 3*
 
 1. Selezionare il provider di premi. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente.
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. Configura gli importi dei premi in base al metodo di consegna selezionato:
 
@@ -210,7 +214,7 @@ Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del
    * **Messaggio in corso**: mantenere i clienti coinvolti con promemoria e aggiornamenti sull&#39;avanzamento
    * **Completamento** messaggio: celebra il successo e conferma l&#39;allocazione dei premi
 
-1. Per ogni fase, aggiungi il pulsante messaggio per creare un messaggio per quella fase.
+1. Per ogni fase, fai clic sul pulsante Aggiungi messaggio per creare un messaggio per quella fase.
 
 1. Scegli il tuo canale desiderato: **[!UICONTROL In-app]**, **[!UICONTROL E-mail]** o **[!UICONTROL Notifica push]** e seleziona la configurazione del canale associata.
 
@@ -245,8 +249,6 @@ Dopo aver configurato tutti i componenti della sfida, genera il percorso che orc
    ![](assets/challenge-create-generate-journey.png)
 
 1. Journey Optimizer crea automaticamente un percorso in stato &quot;Bozza&quot;. Il percorso generato automaticamente viene visualizzato nell&#39;inventario dei percorsi con il formato nome *&quot;Percorso: [Nome richiesta di verifica]&quot;*. [Ulteriori informazioni sull&#39;inventario dei percorsi](../building-journeys/journey-ui.md).
-
-   Passa all&#39;inventario **[!UICONTROL Percorsi]** per rivedere la configurazione del percorso generato automaticamente, se necessario.
 
    ![](assets/challenge-create-journey.png)
 
