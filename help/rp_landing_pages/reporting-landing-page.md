@@ -20,7 +20,7 @@ Il reporting in Adobe Journey Optimizer si basa sulla trasformazione dei dati no
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione al reporting
 
@@ -30,7 +30,7 @@ Scopri le funzionalità di reporting in Adobe Journey Optimizer, compresi i rapp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapporti live
 
@@ -40,7 +40,7 @@ Esplora gli strumenti di reporting in tempo reale per misurare e ottimizzare per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rapporto tutte le ore
 
@@ -50,7 +50,7 @@ Scopri metriche, integrazione con Customer Journey Analytics e strumenti per ana
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Reporting sui percorsi personalizzati
 

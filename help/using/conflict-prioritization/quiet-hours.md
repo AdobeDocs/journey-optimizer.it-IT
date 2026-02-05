@@ -11,7 +11,7 @@ keywords: messaggio, frequenza, regole, pressione
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 **Ore tranquille** ti consente di definire esclusioni basate sul tempo per **Canali E-mail**, **SMS**, **Push** e **WhatsApp**. Garantiscono che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.
 
-Puoi applicare le ore non interattive tramite **set di regole**, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.
+Puoi applicare ore di silenzio tramite **set di regole**, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.
 
 Semplificando questi processi è possibile migliorare la customer experience, risparmiare tempo e garantire la conformità alle regole di comunicazione:
 
@@ -188,8 +188,8 @@ Dopo l&#39;attivazione e l&#39;esecuzione del percorso o delle campagne, puoi vi
 -->
 
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri come utilizzare la funzione per le ore non interattive in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475860?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

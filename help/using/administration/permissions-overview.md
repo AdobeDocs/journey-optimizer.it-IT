@@ -50,7 +50,7 @@ Con [!DNL Journey Optimizer] puoi scegliere tra una serie di **[!UICONTROL Ruoli
 * **Controllo dell&#39;accesso basato su attributi**: autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici. Il controllo dell&#39;accesso basato su attributi consente agli amministratori di controllare l&#39;accesso a oggetti e/o funzionalità specifiche in base agli attributi. Gli attributi possono essere metadati aggiunti a un oggetto, ad esempio un’etichetta aggiunta a un campo o a un segmento dello schema. Un amministratore definisce i criteri di accesso che includono attributi per gestire le autorizzazioni di accesso degli utenti. Ulteriori informazioni sulla [Gestione degli accessi basata su attributi](attribute-based-access.md).
 
 
-## Approfondiamo
+## Argomenti di approfondimento
 
 Ora che conosci i concetti del controllo di accesso in **[!DNL Journey Optimizer]**, è ora di approfondire queste sezioni della documentazione per iniziare a configurare le autorizzazioni.
 

@@ -24,7 +24,7 @@ Sono disponibili due tipi di metodi di classificazione:
 
 * I **modelli AI** consentono di utilizzare sistemi di modelli addestrati che sfrutteranno più punti dati per determinare quale elemento deve essere presentato per primo.
 
-## Creare metodi di classificazione {#create}
+## Creare metodi di ranking {#create}
 
 Per creare un metodo di classificazione, effettua le seguenti operazioni:
 
@@ -36,7 +36,7 @@ Per creare un metodo di classificazione, effettua le seguenti operazioni:
 
    Informazioni dettagliate su come creare formule di classificazione e modelli di IA sono disponibili nelle sezioni seguenti:
 
-   * [Formule di classificazione](ranking-formulas.md)
+   * [Formule di ranking](ranking-formulas.md)
    * [Modelli di IA](ai-models.md)
 
 1. Configura la formula o il modello di IA in base alle tue esigenze, quindi salvalo.

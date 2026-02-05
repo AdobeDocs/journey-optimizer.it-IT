@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-37
 badge: label="Legacy" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ I dati contestuali consentono ad Adobe Journey Optimizer di creare esperienze pi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Consulta i dati contestuali
 
@@ -35,7 +35,7 @@ Scopri come utilizzare i dati contestuali nel motore decisionale di Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo dei dati contestuali nelle richieste di Edge Decisioning
 
@@ -45,7 +45,7 @@ Scopri come trasmettere i dati contestuali nelle richieste di Edge Decisioning p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilizzo dei dati contestuali nelle richieste di Decisioning e nelle regole di idoneità
 

@@ -69,7 +69,7 @@ Valori:
 * http
 * limiti
 * timeout
-* errore
+* error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 

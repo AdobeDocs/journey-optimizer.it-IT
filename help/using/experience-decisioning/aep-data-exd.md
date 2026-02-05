@@ -113,7 +113,7 @@ Per utilizzare i dati di Adobe Experience Platform nelle regole di decisione, ef
 
    ![](assets/exd-lookup-menu.png)
 
-### Formule di classificazione {#ranking-formulas}
+### Formule di ranking {#ranking-formulas}
 
 Le formule di classificazione definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale.
 

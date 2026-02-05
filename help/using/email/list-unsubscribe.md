@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '1736'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ In entrambi i casi, quando un destinatario fa clic sul collegamento di rinuncia,
 >
 >Talvolta, gli eventi per l’annullamento dell’iscrizione potrebbero richiedere più tempo per essere riflessi a livello di profilo, a causa dell’elaborazione dei dati a valle. È necessario attendere affinché il sistema si aggiorni.
 
-## Abilitare l’annullamento di iscrizione a mailing list {#enable-list-unsubscribe}
+## Abilitare l’annullamento iscrizione a mailing list {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
@@ -127,9 +127,9 @@ Per personalizzare ulteriormente gli endpoint <!-- (**[!UICONTROL Mailto (unsubs
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 >
->Per l&#39;opzione **[!UICONTROL Invia a (annulla sottoscrizione)]**, è necessario utilizzare i nuovi parametri di query descritti in **Invia a (annulla sottoscrizione) con attributi personalizzati (disponibilità limitata)** sezione [sotto](#configure-decrypt-api).
+>Per l’opzione **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]**, è necessario utilizzare i nuovi parametri di query descritti nella sezione **Indirizzo Mailto (annulla iscrizione) con attributi personalizzati (disponibilità limitata)**, [qui sotto](#configure-decrypt-api).
 
 Per definire attributi personalizzati per gli endpoint, consulta la sezione **[!UICONTROL Parametri di tracciamento URL]**. Tutti i parametri di tracciamento URL definiti nella sezione corrispondente verranno aggiunti alla fine degli endpoint personalizzati, oltre ai parametri predefiniti. [Scopri come impostare il tracciamento URL personalizzato](url-tracking.md)
 
@@ -247,7 +247,7 @@ A partire da ottobre 2025, se utilizzi l’opzione **[!UICONTROL Gestito da clie
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 La chiamata GET è la seguente:
 
@@ -265,7 +265,7 @@ Parametri query:
 
    * Valore analizzato: *v1.xyz*
 
-Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

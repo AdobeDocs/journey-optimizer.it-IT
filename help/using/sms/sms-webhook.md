@@ -237,7 +237,7 @@ Una volta configurata, puoi sfruttare tutte le funzionalità di canale predefini
 >[!ENDTABS]
 
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)
 

@@ -14,17 +14,17 @@ ht-degree: 6%
 
 ---
 
-# Rapporto delle schede contenuto {#content-card-report}
+# Rapporto delle schede di contenuto {#content-card-report}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
-* [Introduzione alle schede contenuto](../../rp_landing_pages/content-card-landing-page.md)
-* [Prerequisiti per le schede contenuto](content-card-configuration-prereq.md)
-* [Configurare il canale delle schede contenuto in Journey Optimizer](content-card-configuration.md)
-* [Creare schede contenuto](create-content-card.md)
-* [Progettare schede contenuto](design-content-card.md)
+* [Introduzione alle schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)
+* [Prerequisiti per le schede di contenuto](content-card-configuration-prereq.md)
+* [Configurare il canale delle schede di contenuto in Journey Optimizer](content-card-configuration.md)
+* [Creare schede di contenuto](create-content-card.md)
+* [Progettare schede di contenuto](design-content-card.md)
 * **Report schede contenuto**
 
 >[!ENDSHADEBOX]

@@ -81,6 +81,6 @@ Di seguito sono riportati alcuni suggerimenti per ridurre i potenziali conflitti
 
 Sfruttando queste funzionalità, potrai allineare le tue attività di marketing e mantenere il giusto equilibrio nella strategia di comunicazione.
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

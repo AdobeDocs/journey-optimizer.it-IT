@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '4813'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -29,23 +29,23 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È stata aggiunta una nota alla documentazione sui temi e-mail Designer per chiarire le limitazioni relative al supporto dei font web. [Ulteriori informazioni](../email/apply-email-themes.md#themes-guardrails)
 
-* È stata aggiunta una nuova sezione guardrail per documentare la convalida delle dimensioni del payload del percorso, con soglie di avvertenza ed errore e indicazioni su come ottimizzare i percorsi. [Ulteriori informazioni](../start/guardrails.md#journey-payload-size)
+* È stata aggiunta una nuova sezione guardrail per documentare la convalida della dimensione del payload del percorso, comprese le soglie per avvertenze ed errori e indicazioni su come ottimizzare i percorsi. [Ulteriori informazioni](../start/guardrails.md#journey-payload-size)
 
-* La documentazione sui guardrail di Decisioning è stata aggiornata per includere i limiti di dimensione degli elementi decisionali (1 KB per gli elementi che includono attributi con un massimo di 30 attributi). [Ulteriori informazioni](../experience-decisioning/decisioning-guardrails.md)
+* La documentazione sui guardrail per la funzione Decisioni è stata aggiornata per includere i limiti di dimensione degli elementi decisionali (1 KB per gli elementi che includono attributi, con un massimo di 30 attributi). [Ulteriori informazioni](../experience-decisioning/decisioning-guardrails.md)
 
-* È stata aggiunta una nota alla documentazione sulla creazione dei criteri di decisione per informare gli utenti che, una volta creato un criterio di decisione, le modifiche possono richiedere fino a 15 minuti per propagarsi in tutte le aree di dati e fino a 30 minuti per il Canada. [Ulteriori informazioni](../experience-decisioning/create-decision-policy.md#review)
+* È stata aggiunta una nota alla documentazione sulla creazione dei criteri di decisione per informare gli utenti che, una volta creato un criterio di decisione, eventuali modifiche possono richiedere fino a 15 minuti per essere propagate in tutte le aree geografiche dei dati e fino a 30 minuti per il Canada. [Ulteriori informazioni](../experience-decisioning/create-decision-policy.md#review)
 
-* È stata aggiunta una nota alla documentazione dei frammenti per avvisare che, quando sia l’etichetta del pulsante che l’URL sono resi modificabili in un frammento, il set di dati di tracciamento registra il valore dell’URL invece del valore dell’etichetta. [Ulteriori informazioni](../content-management/customizable-fragments.md#visual)
+* È stata aggiunta una nota alla documentazione sui frammenti per avvisare che, quando sia l’etichetta che l’URL del pulsante sono resi modificabili in un frammento, il set di dati di tracciamento registra il valore dell’URL invece del valore dell’etichetta. [Ulteriori informazioni](../content-management/customizable-fragments.md#visual)
 
-* È ora disponibile una nuova pagina che descrive i vantaggi della migrazione da Gestione delle decisioni a Decisioning, con informazioni sulle prossime API per gli strumenti di migrazione. [Ulteriori informazioni](../experience-decisioning/migrate-to-decisioning.md)
+* È ora disponibile una nuova pagina che descrive i vantaggi della migrazione dalla gestione delle decisioni alla funzione Decisioni, con informazioni sulle API per gli strumenti di migrazione in arrivo. [Ulteriori informazioni](../experience-decisioning/migrate-to-decisioning.md)
 
-* È stato aggiunto un guardrail per chiarire che i set di dati di ricerca sono disponibili per l’attivazione in entrata basata su Edge solo nell’area in cui risiede la sandbox del set di dati. [Ulteriori informazioni](../data/lookup-aep-data.md#guidelines)
+* È stato aggiunto un guardrail per chiarire che i set di dati di ricerca sono disponibili per l’attivazione in entrata basata su Edge solo nell’area geografica in cui risiede la sandbox del set di dati. [Ulteriori informazioni](../data/lookup-aep-data.md#guidelines)
 
-* È stata aggiunta una nuova sezione alla documentazione sulla configurazione del canale delle campagne orchestrate che spiega come utilizzare gli attributi contestuali (come ID campagna, nome e dettagli delle azioni) nei parametri di tracciamento URL a scopo di analisi e reporting. [Ulteriori informazioni](../orchestrated/channel-config.md#url-tracking)
+* È stata aggiunta una nuova sezione alla documentazione sulla configurazione del canale delle campagne orchestrate, in cui viene spiegato come utilizzare gli attributi contestuali (come ID campagna, nome e dettagli delle azioni) nei parametri di tracciamento URL a scopo di analisi e reporting. [Ulteriori informazioni](../orchestrated/channel-config.md#url-tracking)
 
-* La documentazione sull’ottimizzazione dei contenuti è stata ristrutturata per migliorarne la chiarezza. La pagina di ottimizzazione principale è stata suddivisa in quattro pagine secondarie mirate: una pagina iniziale, una pagina dedicata al targeting, una per la sperimentazione e un’altra per la combinazione di entrambi gli approcci. [Ulteriori informazioni](../content-management/gs-message-optimization.md)
+* La documentazione sull’ottimizzazione dei contenuti è stata ristrutturata per migliorarne la chiarezza. La pagina di ottimizzazione principale è stata suddivisa in quattro specifiche pagine secondarie: una pagina di introduzione, una pagina dedicata al targeting, una alla sperimentazione e un’altra alla combinazione di entrambi questi approcci. [Ulteriori informazioni](../content-management/gs-message-optimization.md)
 
-* Le note sulla disponibilità limitata sono state rimosse da tre avvisi di percorso (Percorso pubblicato, Percorso completato e Limitazione azione personalizzata attivata) poiché queste funzioni sono ora generalmente disponibili. [Ulteriori informazioni](../reports/alerts.md)
+* Le note in merito alla disponibilità limitata sono state rimosse da tre avvisi di percorso (Percorso pubblicato, Percorso completato e Limitazione azione personalizzata attivata), in quanto queste funzioni sono ora state rilasciate in disponibilità generale. [Ulteriori informazioni](../reports/alerts.md)
 
 * La pagina di destinazione Test, convalida e approvazione è stata migliorata con nuove sezioni che includono una panoramica delle funzionalità di test, risposte alle domande più comuni, struttura decisionale con collegamenti di navigazione e terminologia migliorata con collegamenti alla documentazione. [Ulteriori informazioni](../../rp_landing_pages/test-landing-page.md)
 
@@ -467,7 +467,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -497,7 +497,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -572,7 +572,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -700,7 +700,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

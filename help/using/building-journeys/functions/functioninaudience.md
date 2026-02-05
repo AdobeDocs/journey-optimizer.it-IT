@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: funzione inAudience
+title: Funzione inAudience
 description: Scopri la funzione Adobe Experience Platform inAudience
 feature: Journeys
 role: Developer
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# funzione inAudience {#inAudience}
+# Funzione inAudience {#inAudience}
 
 La funzione `inAudience` è una funzione di Adobe Experience Platform che consente di verificare se un individuo del percorso appartiene a un pubblico specifico. Questa potente funzione ti consente di creare percorsi di percorso personalizzati in base all’iscrizione al pubblico, abilitando segmentazione e targeting sofisticati all’interno delle esperienze dei clienti.
 
@@ -36,7 +36,7 @@ I tipi di pubblico possono avere due stati di partecipazione:
 * **Realizzato**: l&#39;individuo è idoneo per la definizione del pubblico ed è un membro attivo
 * **Uscito**: l&#39;utente ha lasciato il pubblico e non è più idoneo
 
-Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintassi
 

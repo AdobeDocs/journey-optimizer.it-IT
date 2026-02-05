@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Creare le offerte personalizzate
+title: Creare offerte personalizzate
 description: Scopri come creare, configurare e gestire le offerte
 badge: label="Legacy" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 ---
 
-# Creare le offerte personalizzate {#create-personalized-offers}
+# Creare offerte personalizzate {#create-personalized-offers}
 
 >[!TIP]
 >
@@ -174,4 +174,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

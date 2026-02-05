@@ -20,7 +20,7 @@ La delega dei sottodomini e-mail in Adobe Journey Optimizer consente agli ammini
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alla delega dei sottodomini
 
@@ -30,7 +30,7 @@ Scopri i vantaggi, i metodi di configurazione e le considerazioni per la delega 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Delegare un sottodominio
 
@@ -40,7 +40,7 @@ Linee guida dettagliate per la delega dei sottodomini ad Adobe, inclusa la deleg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurare i record DMARC
 
@@ -50,7 +50,7 @@ Configura i record DMARC per migliorare la sicurezza e la recapitabilità delle 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aggiungere un record TXT di Google
 
@@ -60,7 +60,7 @@ Verifica i sottodomini per la recapitabilità relativa a Gmail aggiungendo recor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Accedere ai record PTR e modificarli
 
@@ -70,7 +70,7 @@ Gestisci i record PTR per i sottodomini delegati, incluse le informazioni sulla 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare i pool IP
 

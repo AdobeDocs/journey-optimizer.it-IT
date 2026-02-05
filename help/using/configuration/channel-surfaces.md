@@ -292,7 +292,7 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 1. Una volta assegnati i tag alle configurazioni dei canali, puoi [filtrarli](../start/search-filter-categorize.md#filter-on-tags) sui tag.
 
-## Video dimostrativo{#video-presets}
+## Video introduttivo{#video-presets}
 
 Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 

@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -106,7 +106,7 @@ Per selezionare il tipo di percorso appropriato per il caso d’uso, segui quest
 
 >[!NOTE]
 >
->Non sei sicuro del tipo da scegliere? Inizia con **percorsi unitari** per le esperienze basate su eventi o **Leggi percorsi di pubblico** per le campagne pianificate; questi riguardano i casi d&#39;uso più comuni.
+>Quale tipo scegliere? Inizia con **percorsi unitari** per le esperienze basate su eventi o **Leggi percorsi di pubblico** per le campagne pianificate; questi riguardano i casi d&#39;uso più comuni.
 
 ## Confronto dettagliato dei tipi di percorso {#journey-types-comparison}
 
@@ -156,7 +156,7 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Messaggi in-app | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
-| Schede di contenuto | ✅ | ✅ | ✅ | ✅ |
+| Schede contenuto | ✅ | ✅ | ✅ | ✅ |
 | **Funzionalità avanzate** |
 | Lettura incrementale | ❌ | ✅ | ❌ | ❌ |
 | Esporta pubblico | ✅ | ✅ | ✅ | ✅ |

@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: Elencare funzioni
+title: Funzioni elenco
 description: Informazioni sulle funzioni elenco
 feature: Journeys
 role: Developer
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 ---
 
-# Elencare funzioni {#list-functions}
+# Funzioni elenco {#list-functions}
 
 Le funzioni elenco consentono di manipolare e utilizzare insiemi di valori all’interno delle espressioni di percorso. Queste funzioni sono essenziali per filtrare, ordinare, trasformare e analizzare array ed elenchi nei percorsi dei clienti.
 

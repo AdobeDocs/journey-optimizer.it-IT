@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
 
@@ -207,7 +207,7 @@ Le corrette implementazioni di Journey Optimizer richiedono collaborazione tra t
 
 Per ulteriori informazioni sugli utenti tipo e sulle funzionalità chiave di Journey Optimizer, guarda il video introduttivo. Il video illustra l’interfaccia utente ed evidenzia le funzioni chiave in base ai flussi di lavoro specifici dei ruoli.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Risorse aggiuntive
 
@@ -230,7 +230,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 
 >[!TAB Community e supporto]
 
-* [Community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: connettiti con altri utenti ed esperti
-* [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: fai domande e condividi le tue conoscenze
+* [Community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: connettiti con altri utenti ed esperti
+* [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: fai domande e condividi le tue conoscenze
 
 >[!ENDTABS]

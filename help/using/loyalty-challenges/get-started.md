@@ -58,7 +58,7 @@ Con le sfide della fidelizzazione, puoi configurare i premi, inviare notifiche m
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
+1. **Configura l&#39;acquisizione dei dati**. Configura i connettori di origine di Experience Platform (ad esempio il [connettore capillare](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) per acquisire i dati dell&#39;evento fedeltà che tengono traccia delle azioni e dell&#39;avanzamento dei clienti. Questi dati consentono il rilevamento delle sfide e il completamento delle attività.
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
 
@@ -82,11 +82,11 @@ Prima di utilizzare le sfide di fedeltà, assicurati di disporre di:
 
 Le sfide relative alla fedeltà si basano sui dati acquisiti tramite i connettori di origine di Experience Platform per monitorare l’avanzamento dei clienti e il completamento delle attività.
 
-1. **Configurare un connettore di origine supportato**: il connettore Capillary è attualmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home#loyalty).
+1. **Configurare un connettore di origine supportato**: il connettore Capillary è attualmente disponibile. Connettori aggiuntivi sono pianificati per le versioni future. [Scopri i connettori di origine fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **Convalida acquisizione dati**: assicurati che gli eventi fedeltà e i dati dei clienti vengano trasmessi ad Experience Platform e siano disponibili in Journey Optimizer. Verifica che lo schema dati includa i campi necessari per monitorare le azioni e l’avanzamento del cliente.
 
-Per istruzioni dettagliate, consulta [Panoramica sulle origini di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home)
+Per istruzioni dettagliate, consulta [Panoramica sulle origini di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 

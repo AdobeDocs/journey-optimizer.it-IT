@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Rapporto sulle schede contenuto del percorso {#journey-global-report}
+# Rapporto sulle schede di contenuto del percorso {#journey-global-report}
 
 >[!BEGINSHADEBOX]
 

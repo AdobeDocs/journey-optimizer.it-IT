@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Rapporto sulle schede contenuto della campagna {#campaign-global-report-cja-content}
+# Rapporto sulle schede di contenuto della campagna {#campaign-global-report-cja-content}
 
 >[!BEGINSHADEBOX]
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Consulta le attività dei percorsi
-description: Consulta le attività dei percorsi
+title: Introduzione alle attività dei percorsi
+description: Introduzione alle attività dei percorsi
 feature: Journeys, Activities, Overview
 topic: Content Management
 role: User
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 ---
 
-# Consulta le attività dei percorsi {#about-journey-activities}
+# Introduzione alle attività dei percorsi {#about-journey-activities}
 
 Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
 
@@ -109,7 +109,7 @@ In alcuni contesti particolari, è possibile ignorare i valori di questi paramet
 
 ### Aggiungi un percorso alternativo
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![Aggiungi un&#39;opzione di percorso alternativa nelle proprietà dell&#39;attività Condizione](assets/journey42.png)
 

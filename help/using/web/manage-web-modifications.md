@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
@@ -142,7 +142,7 @@ Per aggiungere una modifica del tipo **Pagina`<head>`**, eseguire la procedura s
 
 * Configurare uno stile in linea o un collegamento a un foglio di stile esterno.
 
-  Ad esempio, per definire una classe per un elemento di sovrapposizione:
+  Ad esempio, per definire una classe per un elemento sovrapposto:
 
   ```
   <style>
@@ -153,7 +153,7 @@ Per aggiungere una modifica del tipo **Pagina`<head>`**, eseguire la procedura s
 
 #### Best practice per il codice personalizzato {#custom-code-best-practices}
 
-+++ **Racchiudere sempre il codice personalizzato in un elemento.**
++++ **Racchiudi sempre il codice personalizzato in un elemento.**
 
 Ad esempio:
 
@@ -163,26 +163,26 @@ Ad esempio:
 </script>
 ```
 
-Nel caso in cui siano necessarie modifiche, apporta modifiche all’interno del contenitore.
+Nel caso in cui siano necessarie modifiche, apporta modifiche all&#39;interno di questo contenitore.
 
-Se non hai più bisogno del codice personalizzato, lascia vuoto questo contenitore, ma non rimuoverlo. In questo modo, non influisce sulle altre modifiche dell’esperienza.
+Se non è più necessario il codice personalizzato, è sufficiente lasciare vuoto questo contenitore, ma non rimuoverlo. Ciò assicura che altre modifiche di esperienza non siano influenzate.
 
 +++
 
-+++ **Non eseguire azioni document.write negli script di codice personalizzato.**
++++ **Non eseguire azioni document.write negli script di codice personalizzati.**
 
 Gli script vengono eseguiti in modo asincrono. Questo causa spesso la visualizzazione delle azioni document.write nella posizione sbagliata della pagina. Non è consigliabile utilizzare document.write negli script creati nel codice personalizzato.
 
 +++
 
-+++ **Se si crea un elemento e quindi lo si modifica, non eliminare l&#39;elemento originale.**
++++ **Se crei un elemento e quindi lo modifichi, non eliminare l&#39;elemento originale.**
 
 Ogni modifica crea un nuovo elemento nel pannello **[!UICONTROL Modifiche]**. La seconda azione modifica l&#39;elemento 1: se lo elimini, questa azione non avrà più nulla da modificare e la modifica non funzionerà più.
 
 +++
 
-+++ **Presta attenzione quando utilizzi il tipo di modifica**&#x200B;[!UICONTROL &#x200B; Pagina `<head>`]&#x200B;**per due campagne che interessano lo stesso URL.**
++++ **Presta attenzione quando utilizzi il tipo di modifica**[!UICONTROL  Pagina `<head>`]**per due campagne che interessano lo stesso URL.**
 
-Se utilizzi il tipo di modifica **[!UICONTROL Pagina`<head>`]** per due campagne che interessano lo stesso URL, il JavaScript viene inserito nella pagina da entrambe le campagne. [!DNL Journey Optimizer] determina automaticamente l&#39;ordine del contenuto consegnato. Assicurati che il codice non dipenda dal posizionamento. Sta a te verificare che il codice non contenga conflitti.
+Se utilizzi il tipo di modifica **[!UICONTROL Pagina`<head>`]** per due campagne che interessano lo stesso URL, il JavaScript viene inserito nella pagina da entrambe le campagne. [!DNL Journey Optimizer] determina automaticamente l&#39;ordine del contenuto consegnato. Assicurati che il codice non dipenda dal posizionamento. Spetta a te verificare che non vi siano conflitti nel codice.
 
 +++

@@ -20,9 +20,9 @@ I modelli di contenuto in Adobe Journey Optimizer sono potenti strumenti progett
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Consulta i modelli di contenuto
+Introduzione ai modelli di contenuto
 
 Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto per semplificare il riutilizzo dei contenuti tra le campagne e i percorsi.
 
@@ -30,9 +30,9 @@ Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Accedere e gestire i modelli
+Accesso e gestione dei modelli
 
 Scopri come accedere, organizzare e gestire i modelli di contenuto, incluse la creazione di cartelle, la modifica e l’esportazione dei modelli.
 
@@ -40,7 +40,7 @@ Scopri come accedere, organizzare e gestire i modelli di contenuto, incluse la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creare modelli di contenuto
 
@@ -50,7 +50,7 @@ Guida dettagliata alla creazione di modelli di contenuto riutilizzabili partendo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Bloccare il contenuto nei modelli e-mail
 
@@ -60,9 +60,9 @@ Scopri come bloccare sezioni o interi modelli per evitare modifiche o eliminazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Testare i modelli di contenuto
+Testare modelli di contenuto
 
 Convalida i modelli e-mail testando il rendering, le varianti e le bozze prima di utilizzarli nelle campagne o nei percorsi.
 
@@ -70,7 +70,7 @@ Convalida i modelli e-mail testando il rendering, le varianti e le bozze prima d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utilizzare i modelli di contenuto
 

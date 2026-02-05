@@ -34,7 +34,7 @@ La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disp
 
 Quando si avvia un nuovo percorso, gli elementi che non possono essere rilasciati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l’attività della condizione, l’attesa e la reazione.
 
-![Interfaccia di Progettazione Percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
+![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
 L&#39;icona **[!UICONTROL Filtra elementi]** nell&#39;angolo superiore sinistro consente di visualizzare i filtri seguenti:
 
@@ -116,7 +116,7 @@ Per aggiungere un&#39;azione di fallback per un&#39;attività, selezionare la ca
 
 Varie attività (evento, azione, attesa) ti consentono di aggiungere diversi percorsi dopo di essi. A questo scopo, posiziona il cursore sull’attività e fai clic sul simbolo &quot;+&quot;. Solo le attività event e wait possono essere impostate in parallelo. Se più eventi sono impostati in parallelo, il percorso scelto sarà quello del primo evento in corso.
 
-Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una best practice. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività Attendi in parallelo. Consulta [questa sezione](../building-journeys/general-events.md#events-specific-time).
+Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una best practice. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività Attendi in parallelo. Vedi [questa sezione](../building-journeys/general-events.md#events-specific-time).
 
 Per eliminare il percorso, posizionare il cursore e fare clic sull&#39;icona **[!UICONTROL Elimina percorso]**.
 

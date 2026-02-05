@@ -38,7 +38,7 @@ Man mano che si verificano flussi di dati in tempo reale o caricamenti in batch,
 
 Questa documentazione fornisce informazioni su come lavorare con i tipi di pubblico in [!DNL Adobe Journey Optimizer]. Informazioni dettagliate sul portale del pubblico e sui tipi di pubblico sono disponibili nella documentazione del servizio di segmentazione di Adobe Experience Platform. Per ulteriori informazioni, consulta queste sezioni:
 
-* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servizio di segmentazione - Domande frequenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -78,7 +78,7 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 Una volta che i tipi di pubblico sono pronti, puoi selezionarli durante la creazione di percorsi o campagne, per raggiungere le persone giuste al momento giusto con messaggi pertinenti. [Ulteriori informazioni su Audience Activation in Journey Optimizer](target-audiences.md).
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri i profili cliente unificati e i tipi di pubblico in Journey Optimizer.
 

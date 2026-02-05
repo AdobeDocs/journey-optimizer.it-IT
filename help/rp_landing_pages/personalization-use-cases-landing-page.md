@@ -20,7 +20,7 @@ Immagina di creare sempre comunicazioni su misura per il tuo pubblco. I casi d�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Tutorial della personalizzazione sulla notifica dello stato dell’ordine
 
@@ -30,7 +30,7 @@ Scopri come creare notifiche push personalizzate per gli aggiornamenti dello sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Guida alla personalizzazione dell’e-mail relativa al abbandono del carrello
 
@@ -40,7 +40,7 @@ Scopri come personalizzare le e-mail relative al carrello abbandonato utilizzand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Esempio di personalizzazione dell’e-mail di prescrizione del piano sanitario
 

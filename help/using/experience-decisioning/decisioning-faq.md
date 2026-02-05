@@ -34,7 +34,7 @@ Ulteriori informazioni sulle [regole per la limitazione dei limiti](items.md#cap
 
 +++
 
-## Formule di classificazione {#ranking-formulas}
+## Formule di ranking {#ranking-formulas}
 
 +++**Qual è il ruolo dei tipi di pubblico rispetto a un set di dati completo nei modelli di IA?**
 

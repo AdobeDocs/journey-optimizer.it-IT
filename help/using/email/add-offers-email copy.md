@@ -99,8 +99,8 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
 Ulteriori informazioni sui passaggi dettagliati per controllare l&#39;anteprima dei messaggi in [questa sezione](#preview-your-messages).
 
-## Video dimostrativo{#video-offers}
+## Video introduttivo{#video-offers}
 
 Scopri come aggiungere un componente di gestione delle decisioni ai messaggi in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415689?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

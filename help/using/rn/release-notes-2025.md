@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Il convertitore da immagine a HTML è una funzione basata sull’IA che converte le progettazioni di immagini statiche in modelli di contenuto e-mail HTML modulari e completamente personalizzabili. Questo strumento senza codice consente ai marketer di trasformare i progetti visivi in modelli e-mail dinamici e modificabili senza richiedere competenze tecniche, perfetto per la migrazione della piattaforma, la creazione rapida di modelli e la creazione di librerie di modelli riutilizzabili.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/image-to-html.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 30 ottobre 2025</p>
 </td>
@@ -54,7 +54,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Questa funzionalità offre una migliore visibilità sullo stato e sulle prestazioni dell’endpoint dell’azione personalizzata. Una nuova dashboard di monitoraggio delle azioni personalizzate e i campi corrispondenti nel set di dati dell’evento di passaggio del percorso ti aiuteranno a monitorare chiamate, errori, velocità effettiva, tempo di risposta e tempo di attesa in coda per gli endpoint dell’azione personalizzata. Ora puoi comprendere rapidamente quando, dove e perché si verifica una situazione anomala in un’azione personalizzata.</p>
 <p>Al momento questa funzionalità è in disponibilità limitata per la clientela.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/reporting.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 28 ottobre 2025</p>
+<p>Data di disponibilità: 28 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -71,10 +71,10 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Con [!DNL Journey Optimizer] è ora possibile acquisire gli attributi di profilo tramite le pagine di destinazione.</p>
 <p>Crea, progetta e gestisci moduli personalizzati adatti alle tue esigenze sulla base di un set di dati specifico. Puoi quindi sfruttare questi moduli nelle pagine di destinazione per aggiungere gli attributi di profilo desiderati nel set di dati definito per ciascun modulo.</p>
-<p>Al momento questa funzionalità è in disponibilità limitata per la clientela negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Al momento questa funzionalità è in disponibilità limitata per la clientela negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../landing-pages/lp-forms.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: venerdì 23 ottobre 2025</p>
+<p>Data di disponibilità: 23 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -91,9 +91,9 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Le ore di silenzio consentono di definire esclusioni basate sul tempo per i canali E-mail, SMS, Push e WhatsApp. Garantiscono che non vengano inviati messaggi in specifici periodi di tempo, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità.</p>
 <p>Puoi applicare ore di silenzio tramite set di regole, che possono essere assegnate a singole azioni in campagne o percorsi per un controllo preciso.</p>
-<p>Le regole di orario non interattivo sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Saranno disponibili progressivamente per tutta la clientela nelle prossime versioni.</p>
+<p>Le regole per le ore di silenzio sono attualmente disponibili solo per un set di organizzazioni (disponibilità limitata).  Diventeranno progressivamente disponibili per tutta la clientela nelle prossime versioni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/quiet-hours.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
+<p>Data di disponibilità: 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +206,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Nelle campagne attivate da API è ora disponibile una nuova modalità di messaggistica transazionale di velocità effettiva elevata. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
 <p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo di velocità effettiva elevata di Adobe per la messaggistica transazionale. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../campaigns/api-triggered-high-throughput.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
+<p>Data di disponibilità: 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo Decisioning. Verrà introdotto progressivamente per tutti i clienti.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/rules.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 22 ottobre 2025</p>
+<p>Data di disponibilità: 22 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Superamento del tasso di errore delle azioni personalizzate</a>: il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti che ha superato la soglia</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Superamento del tasso di errore dei profili</a>: il rapporto tra i profili in errore e i profili in ingresso negli ultimi 5 minuti che ha superato la soglia.</li></ul> <p>Puoi modificare i valori di soglia e iscriverti agli avvisi a livello di singolo percorso invece che globalmente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/alerts.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 14 ottobre 2025</p>
+<p>Data di disponibilità: 14 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -261,10 +261,10 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tr>
 <td>
 <p>Nell’editor di personalizzazione, è disponibile la nuova funzione helper “executionMetadata”. Consente di aggiungere informazioni contestuali a qualsiasi azione nativa e di acquisirle in un set di dati per l’esportazione in sistemi esterni.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/functions/helpers.md#execution-metadata">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: martedì 13 ottobre 2025</p>
+<p>Data di disponibilità: 13 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Journey Optimizer Experimentation Accelerator ora include l’agente di sperimentazione, uno strumento conversazionale basato sull’IA che consente di interagire con esperimenti, insight e opportunità. Migliora l’esperienza di Journey Optimizer Experimentation Accelerator, aiutandoti a eseguire gli esperimenti in modo più efficiente, scoprire cosa funziona e dove ottimizzarla successivamente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 10 ottobre 2025</p>
+<p>Data di disponibilità: 10 ottobre 2025</p>
 </td>
 </tr>
 </tbody>
@@ -300,7 +300,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <ul>
 <li>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno.</li>
 <li>La dimensione massima del file consentita per ciascun allegato è di 5 MB.</li>
-<li>Per ulteriori dimensioni o volumi, puoi acquistare il componente aggiuntivo per gli allegati PDF. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</li>
+<li>Per ulteriori dimensioni o volumi, puoi acquistare il componente aggiuntivo per gli allegati PDF. Per ulteriori informazioni, contatta il rappresentante Adobe.</li>
 </ul>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -334,19 +334,19 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 Oltre che per le consegne E-mail e SMS, ora puoi aggiornare il campo di esecuzione predefinito anche per le consegne WhatsApp a livello di sandbox. È possibile inoltre sostituire il campo di esecuzione impostato a livello globale modificandolo nei parametri avanzati dell’attività di percorso WhatsApp o nella configurazione del canale WhatsApp. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
-Data di disponibilità: giovedì 22 ottobre 2025
+Data di disponibilità: 22 ottobre 2025
 
 **Supporto di attributi personalizzati per l’indirizzo Mailto (annulla iscrizione)**
 
-Con Journey Optimizer, se il consenso è gestito al fuori di Adobe, puoi impostare endpoint personalizzati esterni definendo un collegamento per l’annullamento dell’iscrizione con un solo clic e un indirizzo e-mail di annullamento dell’iscrizione personalizzato nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
+Con Journey Optimizer, se il consenso è gestito al fuori di Adobe, puoi impostare endpoint personalizzati esterni definendo un collegamento per l’annullamento dell’iscrizione con un solo clic e un indirizzo e-mail di annullamento dell’iscrizione personalizzato nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento per Annulla iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
 Per personalizzare ulteriormente gli endpoint personalizzati, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è già disponibile per l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]** da agosto 2025 ed è ora disponibile per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]** in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è già disponibile per l’**[!UICONTROL URL di annullamento dell’iscrizione con un solo clic]** da agosto 2025 ed è ora disponibile per l’opzione **[!UICONTROL Mailto (annulla iscrizione)]** in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
-Data di disponibilità: martedì 6 ottobre 2025
+Data di disponibilità: 6 ottobre 2025
 
 <!--
 ### Coming soon {#oct-25-10-soon}
@@ -516,7 +516,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>Utilizza la nuova funzione Ottimizza nodo per eseguire il targeting di tipi di pubblico specifici oppure esegui test A/B per determinare il percorso migliore per soddisfare i KPI incentrati sull’azienda.</p>
 <p>Questo strumento consente di testare e variare e di personalizzare le comunicazioni, la sequenza e la tempistica per raggiungere al meglio la clientela.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/optimize.md">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 4 settembre 2025</p>
@@ -535,7 +535,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>Oltre alla delega completa e al metodo CNAME, ora è disponibile un nuovo metodo di configurazione del sottodominio: il metodo di delega personalizzata consente di controllare e gestire completamente tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/delegate-custom-subdomain.md">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 4 settembre 2025</p>
@@ -727,7 +727,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <li>la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata;</li>
 <li>la possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
 </ul>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a></p>
 </td>
@@ -748,9 +748,9 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <ul>
 <li>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno.</li>
 <li>La dimensione massima del file consentita per ciascun allegato è di 5 MB.</li>
-<li>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</li>
+<li>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe.</li>
 </ul>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/pdf-attachments.md">documentazione dettagliata</a></p>
 </td>
@@ -855,7 +855,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Configurazione**
 
-   * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento di annullamento dell’iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
+   * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento per Annulla iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
      Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è in disponibilità limitata. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
 
@@ -977,8 +977,8 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne e-mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di Decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.</p>
+<p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne e-mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
+<p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a></p>
 </td>
 </tr>

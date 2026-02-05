@@ -408,10 +408,10 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 ![](../assets/decision_information.png)
 
-## Video dimostrativo{#video}
+## Video introduttivo{#video}
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

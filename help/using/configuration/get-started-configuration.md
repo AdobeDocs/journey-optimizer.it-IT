@@ -48,8 +48,8 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
     <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
     <td><a href="../code-based/code-based-configuration.md"><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png"></a>
     <div align="center"><a href="../code-based/code-based-configuration.md"><strong>Esperienza basata su codice</strong></a></div></td>
-    <td><a href="../content-card/content-card-configuration-prereq.md"><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
-    <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Schede contenuto</strong></a></div></td>
+    <td><a href="../content-card/content-card-configuration-prereq.md"><img alt="schede di contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
+    <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Schede di contenuto</strong></a></div></td>
     </tr></table>
 
    >[!NOTE]

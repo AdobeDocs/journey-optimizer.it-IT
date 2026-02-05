@@ -20,7 +20,7 @@ I rapporti sul percorso in Adobe Journey Optimizer forniscono potenti strumenti 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Analisi dei rapporti sul percorso
 
@@ -30,7 +30,7 @@ Scopri come analizzare e ottimizzare le prestazioni del percorso utilizzando met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rapporti sul percorso basati su codice
 
@@ -40,17 +40,17 @@ Comprendi e analizza le metriche per il coinvolgimento nelle esperienze basate s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Valutare il coinvolgimento con la scheda contenuto
 
-Scopri come misurare e valutare il coinvolgimento dell’utente con le schede contenuto utilizzando metriche dettagliate.
+Scopri come misurare e valutare il coinvolgimento dell’utente con le schede di contenuto utilizzando metriche dettagliate.
 
 [Consulta i rapporti delle schede di contenuto](../using/reports/journey-global-report-cja-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Metriche direct mail
 
@@ -60,7 +60,7 @@ Analizza e interpreta le metriche chiave per le campagne direct mail, inclusi lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 Reporting sul percorso e-mail
 
@@ -70,7 +70,7 @@ Ottieni informazioni approfondite su prestazioni e coinvolgimento delle e-mail e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Informazioni sulla messaggistica in-app
 

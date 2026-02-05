@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Consulta i modelli di contenuto
+title: Introduzione ai modelli di contenuto
 description: Scopri come utilizzare i modelli di contenuto per riutilizzare i contenuti nelle campagne e nei percorsi Journey Optimizer
 feature: Templates
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 6%
 ---
 
 
-# Consulta i modelli di contenuto {#content-templates}
+# Introduzione ai modelli di contenuto {#content-templates}
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Per creare, modificare ed eliminare modelli di contenuto, assicurarsi di disporr
 >
 >Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
-## Video dimostrativo {#video-templates}
+## Video introduttivo {#video-templates}
 
 Scopri come creare, modificare e utilizzare i modelli di contenuto in [!DNL Journey Optimizer].
 

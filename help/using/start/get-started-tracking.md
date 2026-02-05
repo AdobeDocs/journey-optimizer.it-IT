@@ -65,7 +65,7 @@ Per aiutarti a iniziare, esplora questi argomenti essenziali relativi al traccia
   </td>
   <td>
     <a href="../reports/gs-reports.md">
-    <img alt="Reporting" src="../assets/do-not-localize/reporting.jpeg">
+    <img alt="Generazione dei rapporti" src="../assets/do-not-localize/reporting.jpeg">
     </a>
     <div>
     <a href="../reports/gs-reports.md"><strong>Esplora reporting</strong></a>

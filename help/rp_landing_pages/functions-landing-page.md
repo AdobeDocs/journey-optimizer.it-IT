@@ -20,7 +20,7 @@ Le funzioni di supporto in Adobe Journey Optimizer ti consentono di personalizza
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alle funzioni Helper
 
@@ -30,7 +30,7 @@ Scopri come utilizzare le funzioni Helper per la gestione e la personalizzazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Libreria delle funzioni di aggregazione
 
@@ -40,7 +40,7 @@ Scopri le funzioni per riepilogare più valori in un unico valore per la persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Libreria delle funzioni aritmetiche
 
@@ -50,7 +50,7 @@ Esplora il modo in cui le funzioni aritmetiche eseguono calcoli quali addizioni,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Riferimento alle funzioni di Array ed Elenco
 
@@ -60,7 +60,7 @@ Scopri come gestire array ed elenchi con funzioni quali il conteggio, il recuper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Libreria delle funzioni di Data e Ora
 
@@ -70,7 +70,7 @@ Utilizza le funzioni Data e Ora per gestire e formattare le date per i flussi di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Libreria di funzioni booleane e di confronto
 

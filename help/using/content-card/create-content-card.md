@@ -1,5 +1,5 @@
 ---
-title: Creare schede contenuto
+title: Creare schede di contenuto
 description: Scopri come creare schede di contenuti e modificarne i contenuti in Journey Optimizer
 topic: Content Management
 feature: Content Cards
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# Creare schede contenuto {#create-content-card}
+# Creare schede di contenuto {#create-content-card}
 
 >[!IMPORTANT]
 >

@@ -145,8 +145,8 @@ Se esporti dati stepEvent in **sistemi esterni**, puoi filtrare le esecuzioni di
 
 Quando si analizzano **metriche di reporting di percorso** tramite il servizio Adobe Experience Platform Query, è necessario escludere gli eventi di passaggio generati da Dry Run. Per eseguire questa operazione, impostare il flag `inDryRun` su `false`.
 
-## Video dimostrativo {#dry-run-video}
+## Video introduttivo {#dry-run-video}
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

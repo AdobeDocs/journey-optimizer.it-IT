@@ -31,7 +31,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 
 >[!NOTE]
 >
->Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
+>Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 
@@ -84,7 +84,7 @@ Di seguito sono riportati i primi passaggi per configurare un evento di business
 
 1. Il numero di percorsi che utilizzano questo evento viene visualizzato nel campo **[!UICONTROL Usato in]**. È possibile fare clic sull&#39;icona **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo evento.
 
-1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento (o payload) che i percorsi prevedono di ricevere. Queste informazioni verranno utilizzate successivamente nel percorso. Consulta [questa sezione](../event/about-creating-business.md#define-the-payload-fields).
+1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento (o payload) che i percorsi prevedono di ricevere. Queste informazioni verranno utilizzate successivamente nel percorso. Vedi [questa sezione](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 

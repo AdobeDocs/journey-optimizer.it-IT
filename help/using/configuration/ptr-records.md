@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -144,7 +144,7 @@ Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sott
 
 Durante il processo di convalida, il vecchio sottodominio è ancora associato all’indirizzo IP.
 
-### Operazione riuscita {#success}
+### Completato {#success}
 
 Una volta completato correttamente il processo di convalida, il nuovo sottodominio viene associato automaticamente all’indirizzo IP.
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 
 ## Annullamento iscrizione a mailing list {#list-unsubscribe}
 
-Quando selezioni un sottodominio dall’elenco, viene visualizzata l’opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]**. Per impostazione predefinita, questa opzione è abilitata.
+Quando selezioni un sottodominio dall’elenco, viene visualizzata l’opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]**. Questa opzione è abilitata per impostazione predefinita.
 
 Consente di includere un URL per l’annullamento dell’iscrizione con un solo clic nell’intestazione dell’e-mail. [Ulteriori informazioni](list-unsubscribe.md)
 

@@ -189,12 +189,12 @@ Once you have performed your tests and validated the content, you can send your 
 -->
 
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Il video seguente mostra come creare un percorso WhatsApp in più passaggi utilizzando Adobe Journey Optimizer.
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470290/?captions=ita&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

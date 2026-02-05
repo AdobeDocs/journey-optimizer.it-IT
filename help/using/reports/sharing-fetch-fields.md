@@ -49,7 +49,7 @@ Valori:
 * http
 * limiti
 * timeout
-* errore
+* error
 
 ## fetchErrorCode {#fetcherrorcode-field}
 

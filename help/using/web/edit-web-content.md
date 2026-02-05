@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -172,7 +172,7 @@ L&#39;utilizzo della modalità **[!UICONTROL Sfoglia]** consente inoltre di spos
 
 ![](assets/web-designer-device.png)
 
-La possibilità di modificare le dimensioni del dispositivo è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, inclusi desktop, laptop, tablet o telefoni cellulari.
+La possibilità di modificare le dimensioni del dispositivo è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, compresi desktop, laptop, tablet o telefoni cellulari.
 
 >[!CAUTION]
 >
@@ -180,8 +180,8 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 >
 >Attualmente, [!DNL Journey Optimizer] non supporta le modifiche di pagina specifiche per le dimensioni del dispositivo. Ciò significa che, ad esempio, se disponi di un sito web mobile separato con una struttura del sito separata, dovrai apportare le modifiche specifiche al sito mobile in un’altra campagna.
 
-## Video dimostrativo{#video}
+## Video introduttivo{#video}
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452643/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

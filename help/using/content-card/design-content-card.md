@@ -1,5 +1,5 @@
 ---
-title: Progettare schede contenuto
+title: Progettare schede di contenuto
 description: Scopri come progettare i contenuti delle schede di contenuto
 topic: Content Management
 feature: Content Cards

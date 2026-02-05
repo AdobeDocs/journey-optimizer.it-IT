@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Note sulla versione 2023
+title: Note sulle versioni 2023
 description: Note sulle versioni 2023 di Journey Optimizer
 feature: Release Notes
 topic: Content Management
@@ -11,13 +11,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
 ---
 
-# Note sulla versione 2023 {#release-notes-2023}
+# Note sulle versioni 2023 {#release-notes-2023}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2023.
 
@@ -223,7 +223,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Ora è possibile crittografare i file destinati ai provider di direct mail quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file, nuovo campo consente di copiare e incollare la chiave di crittografia. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
 
-**Reporting**
+**Generazione rapporti**
 
 * Ora è possibile esportare i rapporti di Journey Optimizer come file CSV. Per ulteriori informazioni, consulta la [documentazione dettagliata](../reports/report-gs-cja.md).
 
@@ -617,12 +617,12 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canale SMS**
 
-* Infobip è stato aggiunto come provider disponibile per le configurazioni dei canali SMS. [Maggiori informazioni](../sms/sms-configuration.md)
-* Twilio: la configurazione delle credenziali API ora include la possibilità di aggiungere l’identificatore SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Maggiori informazioni](../sms/sms-configuration.md)
+* Infobip è stato aggiunto come provider disponibile per le configurazioni dei canali SMS. [Ulteriori informazioni](../sms/sms-configuration.md)
+* Twilio: la configurazione delle credenziali API ora include la possibilità di aggiungere l’identificatore SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Ulteriori informazioni](../sms/sms-configuration.md)
 
 **Canale in-app**
 
-* Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service. [Maggiori informazioni](../in-app/inapp-configuration.md)
+* Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * Sono state aggiunte nuove funzionalità di Adobe Experience Platform Assurance per acquisire eventi del dispositivo da aggiungere come regole di attivazione.
 
 <!--
@@ -633,13 +633,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Campagne**
 
-* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu Azioni con i tre puntini. [Maggiori informazioni](../campaigns/manage-campaigns.md#duplicate)
+* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu Azioni con i tre puntini. [Ulteriori informazioni](../campaigns/manage-campaigns.md#duplicate)
 * Ora puoi eliminare le modifiche apportate alle bozze in una campagna live.
-* I passaggi per attivare una campagna sono stati semplificati. [Maggiori informazioni](../campaigns/manage-campaigns.md)
+* I passaggi per attivare una campagna sono stati semplificati. [Ulteriori informazioni](../campaigns/manage-campaigns.md)
 
 **Gestione delle decisioni**
 
-* Ora puoi modificare la quota limite se l’offerta è in stato **[!UICONTROL Bozza]** e non è mai stata pubblicata prima con la quota limite abilitata. [Maggiori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
+* Ora puoi modificare la quota limite se l’offerta è in stato **[!UICONTROL Bozza]** e non è mai stata pubblicata prima con la quota limite abilitata. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalizzazione**
 

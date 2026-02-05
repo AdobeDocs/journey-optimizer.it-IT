@@ -20,7 +20,7 @@ I tipi di pubblico, i profili e le identità in Adobe Journey Optimizer si basan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gestione del pubblico e personalizzazione
 
@@ -30,7 +30,7 @@ Scopri come creare, gestire e attivare tipi di pubblico utilizzando gli attribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 Profili: gestire e ottimizzare i dati cliente
 
@@ -40,7 +40,7 @@ Scopri come utilizzare profili, attributi calcolati e profili di test per creare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 Consulta le identità
 
@@ -50,7 +50,7 @@ Scopri come gestire le identità cliente utilizzando il grafo identità e gli st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Dashboard di utilizzo delle licenze
 

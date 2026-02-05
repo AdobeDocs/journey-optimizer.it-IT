@@ -220,7 +220,7 @@ L&#39;esempio seguente consente di calcolare la somma totale dei prezzi dei prod
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 L&#39;helper `executionMetadata` consente di acquisire e archiviare in modo dinamico coppie chiave-valore personalizzate nel contesto di esecuzione del messaggio.
 

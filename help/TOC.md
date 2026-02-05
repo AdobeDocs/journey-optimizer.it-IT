@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -51,7 +51,7 @@ ht-degree: 97%
       + [Percorsi o campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
-   + [Guida introduttiva al percorso](using/building-journeys/journey-get-started.md)
+   + [Guida introduttiva ai percorsi](using/building-journeys/journey-get-started.md)
    + [Tipi di percorso e guida alla selezione](using/building-journeys/journey-types-selection.md)
    + [Domande frequenti di Journey Orchestration](using/building-journeys/journey-faq.md)
    + Creare un percorso {#create-journey}
@@ -298,7 +298,7 @@ ht-degree: 97%
          + [Configurare il canale e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
          + [Definire le impostazioni della configurazione e-mail](using/email/email-settings.md)
-         + [Abilitare l’annullamento di iscrizione a mailing list](using/email/list-unsubscribe.md)
+         + [Abilitare l’annullamento iscrizione a mailing list](using/email/list-unsubscribe.md)
          + [Parametri per intestazione](using/email/header-parameters.md)
          + [Tracciamento URL](using/email/url-tracking.md)
          + [Personalizzare la configurazione e-mail](using/email/surface-personalization.md)
@@ -341,7 +341,7 @@ ht-degree: 97%
          + [Creare una configurazione SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Direct mail](/help/rp_landing_pages/direct-mail-landing-page.md)
-      + [Introduzione a direct mail](using/direct-mail/get-started-direct-mail.md)
+      + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
       + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
       + [Testare e inviare un messaggio di direct mail](using/direct-mail/test-send-direct-mail.md)
       + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
@@ -497,7 +497,7 @@ ht-degree: 97%
       + Brand {#brands}
          + [Brand](/help/rp_landing_pages/brands-landing-page.md)
          + [Creare e gestire i brand personali](using/content-management/brands.md)
-         + [Personalizzazione dei brand](using/content-management/brands-personalize.md)
+         + [Personalizzare i brand](using/content-management/brands-personalize.md)
          + [Valuta i contenuti](using/content-management/brands-score.md)
    + Contenuto multilingue {#content-multilingual}
       + [Contenuto multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
@@ -508,7 +508,7 @@ ht-degree: 97%
       + [Creare contenuto multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
    + Ottimizzazione dei contenuti {#message-optimization}
       + [Introduzione all’ottimizzazione](using/content-management/gs-message-optimization.md)
-      + [Usa targeting](using/content-management/optimization-targeting.md)
+      + [Utilizzare il targeting](using/content-management/optimization-targeting.md)
       + [Utilizzare la sperimentazione](using/content-management/optimization-experimentation.md)
       + [Combinare targeting e sperimentazione](using/content-management/optimization-combination.md)
    + Esperimento contenuti {#content-experiment}
@@ -850,7 +850,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

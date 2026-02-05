@@ -29,7 +29,7 @@ Di seguito sono riportati i passaggi principali per creare, configurare e gestir
 
 Per un esempio completo end-to-end che mostra come configurare le offerte, utilizzarle in una decisione e sfruttare questa decisione in un messaggio e-mail, vedi [questa pagina](../offers-e2e.md).
 
-## Creare componenti {#create-components}
+## Creare i componenti {#create-components}
 
 Prima di iniziare a creare le offerte, devi definire diversi componenti da utilizzare nelle offerte.
 

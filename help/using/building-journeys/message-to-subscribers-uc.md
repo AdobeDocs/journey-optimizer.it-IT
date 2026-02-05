@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inviare un messaggio agli abbonati
+title: Inviare un messaggio agli iscritti
 description: Scopri come creare un percorso per inviare un messaggio agli abbonati di un elenco
 feature: Journeys, Use Cases, Subscriptions
 topic: Content Management

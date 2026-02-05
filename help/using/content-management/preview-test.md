@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 Una volta definito il contenuto, puoi visualizzarne l’anteprima prima di inviare il messaggio. Questo è un passaggio fondamentale per garantire che sia accurato ma anche privo di errori, sia nelle impostazioni del contenuto che della personalizzazione.
 
-Puoi anche inviare le consegne di prova dei messaggi e-mail a destinatari o abbonati specifici per il test e la convalida e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Inoltre, puoi valutare aspetti generali della qualità dei contenuti, come leggibilità ed efficacia. [Ulteriori informazioni sulla convalida della qualità dei contenuti](brands-score.md#validate-quality)
+Puoi anche inviare le consegne di test dei messaggi e-mail a destinatari o iscritti specifici a scopo di test e convalida, e verificarne il rendering nei più diffusi client per desktop, dispositivi mobili e basati su web. Inoltre, puoi valutare aspetti generali della qualità dei contenuti, come leggibilità ed efficacia. [Ulteriori informazioni sulla convalida della qualità dei contenuti](brands-score.md#validate-quality)
 
 Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata di modifica del contenuto del messaggio oppure dai designer e-mail e web per i rispettivi canali.
 
@@ -68,4 +68,4 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

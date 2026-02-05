@@ -70,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -247,7 +247,7 @@ L&#39;[attività di ricerca set di dati](../building-journeys/dataset-lookup.md)
 
 >[!AVAILABILITY]
 >
->L’attività di ricerca del set di dati è disponibile solo per un set limitato di organizzazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>L’attività di ricerca del set di dati è disponibile solo per un set limitato di organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Ulteriori informazioni sulla configurazione dell&#39;attività di ricerca del set di dati in [questa sezione](../building-journeys/dataset-lookup.md). La ricerca del set di dati è particolarmente efficace quando viene combinata con i dati dell&#39;evento. Vedere [Esempio: dati dell&#39;evento arricchiti con la ricerca del set di dati](#combine-sources) per un caso d&#39;uso pratico.
 

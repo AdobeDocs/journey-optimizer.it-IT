@@ -133,7 +133,7 @@ Durante la creazione di una [regola che corrisponde a più pagine](#web-page-mat
         <td></td>
     </tr>
     <tr>
-        <td>Qualsiasi</td>
+        <td>Any</td>
         <td>Corrisponde a tutti i percorsi: utile quando si esegue il targeting di tutti i percorsi sotto uno o più domini.</td>
         <td></td>
     </tr>

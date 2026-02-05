@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -44,11 +44,11 @@ Puoi aggiungere tutti i componenti di contenuto necessari all’interno di uno o
 
 >[!NOTE]
 >
->Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Segui le linee guida specifiche elencate in [questa pagina](accessible-content.md) quando utilizzi i componenti di contenuto per progettare e-mail in [!DNL Journey Optimizer], ad esempio utilizzando font accessibili e formati leggibili e fornendo testo alternativo per le immagini.
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Segui le linee guida specifiche elencate in [questa pagina](accessible-content.md) quando utilizzi i componenti di contenuto per progettare e-mail in [!DNL Journey Optimizer], ad esempio utilizzando font accessibili e formati leggibili e fornendo testo alternativo per le immagini.
 
 ## Aggiungere componenti per contenuti {#add-content-components}
 
-Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle tue esigenze, segui la procedura seguente.
+Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle tue esigenze, segui i passaggi indicati di seguito:
 
 1. In E-mail Designer, utilizza un contenuto esistente oppure trascina i **[!UICONTROL componenti struttura]** desiderati nel contenuto vuoto per definire il layout dell’e-mail. [Scopri come](content-from-scratch.md)
 
@@ -173,7 +173,7 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire un file immagine d
 
 1. Dalla scheda **[!UICONTROL Impostazioni]**, fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse oppure su **[!UICONTROL Importa file multimediali]** per caricare una risorsa in Adobe Experience Manager Assets.
 
-   Per ulteriori informazioni su [!DNL Adobe Experience Manager Assets], consulta la [documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
+   Per ulteriori informazioni su [!DNL Adobe Experience Manager Assets], consulta la [documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

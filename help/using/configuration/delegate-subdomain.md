@@ -277,8 +277,8 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 >* Non è possibile riattivare le configurazioni del canale che utilizzavano quel sottodominio.
 >* Non puoi delegare nuovamente lo stesso sottodominio tramite l’interfaccia utente. Se lo desideri, contatta il tuo rappresentante Adobe.
 
-## Video dimostrativo{#video}
+## Video introduttivo{#video}
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

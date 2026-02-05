@@ -34,7 +34,7 @@ Inoltre, per ottimizzare il recapito messaggi delle esperienze [!DNL Journey Opt
   Se possiedi una licenza Adobe Customer Journey Analytics, puoi analizzare i rapporti Journey Optimizer in Customer Journey Analytics. Questa potente opzione ti reindirizza direttamente all’ambiente Customer Journey Analytics, consentendoti di personalizzare estensivamente i rapporti. Puoi arricchire i tuoi widget con metriche Customer Journey Analytics specializzate, portando le tue informazioni a un livello completamente nuovo. [Ulteriori informazioni](report-cja-manage.md)
 
 
-## Approfondiamo
+## Argomenti di approfondimento
 
 Ora che conosci i tipi di report disponibili in **[!DNL Journey Optimizer]**, è il momento di approfondire queste sezioni della documentazione per scoprire come accedere e comprendere le funzionalità di reporting.
 
@@ -131,17 +131,17 @@ Seleziona un&#39;esperienza in entrata per individuare i **report globali all-ti
 <td><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Esperienze basate su codice</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto campagna</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapporto percorso</strong></a></p></div></td>
 <td><img alt="schede di contenuto" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>Schede di contenuto</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapporto percorso</strong></a></p></div></td>
+<div align="center"><p><strong>Schede contenuto</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapporto campagna</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapporto percorso</strong></a></p></div></td>
 </tr></table>
 
-### Video dimostrativo {#video}
+### Video introduttivo {#video}
 
 Scopri come utilizzare in modo efficace il rapporto All-Time (Tutti i tempi) in Adobe Journey Optimizer.
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-Esplora altri tutorial video su reporting e analisi in [Tutorial sul reporting](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Esplora altri tutorial video su reporting e analisi in [Tutorial sul reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

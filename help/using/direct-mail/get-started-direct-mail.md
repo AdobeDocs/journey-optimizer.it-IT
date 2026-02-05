@@ -1,5 +1,5 @@
 ---
-title: Introduzione a direct mail
+title: Introduzione alle direct mail
 description: Scopri come creare un messaggio direct mail in Journey Optimizer
 feature: Direct Mail
 topic: Content Management
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 ---
 
-# Introduzione a direct mail {#create-direct}
+# Introduzione alle direct mail {#create-direct}
 
 Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mail di terze parti per inviare e-mail ai clienti.
 
@@ -41,8 +41,8 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 * **[Testare e inviare direct mail](test-send-direct-mail.md)**: scopri come testare, convalidare e pubblicare le consegne direct mail.
 * **[Tutorial su direct mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice di direct mail.
 
-## Video dimostrativo
+## Video introduttivo
 
 Scopri come sfruttare il canale Direct Mail in Adobe Journey Optimizer per automatizzare e pianificare le consegne di direct mailing all’interno dei tuoi percorsi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479170?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

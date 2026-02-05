@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
 source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Con il canale Esperienza basata su codice di Adobe Journey Optimizer puoi fornir
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Consegne di offerte tramite il canale Esperienza basata su codice
 

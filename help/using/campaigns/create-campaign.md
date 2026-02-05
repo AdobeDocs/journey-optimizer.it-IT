@@ -18,11 +18,11 @@ ht-degree: 57%
 ---
 
 
-# Utilizzare le campagne di azione {#gs-action-campaigns}
+# Utilizzare le campagne con azioni {#gs-action-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
->title="Campagne di azione"
+>title="Campagne con azioni"
 >abstract="**Interfaccia guidata per creare e inviare una campagna**<br/> Imposta una o più azioni con un canale, scegli un pubblico, imposta un contenuto, definisci una pianificazione ed è tutto pronto per l’invio <br/><br/>**Canali disponibili**<br/> E-mail, SMS, notifiche push, in-app, Web, esperienze basate su codice"
 
 ## Informazioni sulle campagne d’azione {#about}

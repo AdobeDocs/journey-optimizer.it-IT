@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -74,11 +74,11 @@ Questa guida di riferimento definisce i termini essenziali che si incontrano qua
 
 >[!NOTE]
 >
->Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it){target="_blank"}.
+>Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Argomenti correlati {#related-topics}
 
-* [Come funziona Journey Optimizer](understanding-ajo.md)
+* [Informazioni sul funzionamento di Journey Optimizer](understanding-ajo.md)
 * [Introduzione all’interfaccia utente](user-interface.md)
 * [Scegli il tuo ruolo e il percorso di apprendimento](quick-start.md)
 

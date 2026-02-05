@@ -164,7 +164,7 @@ Una volta create le credenziali API, completa i campi richiesti per l’autentic
 
 >[!ENDTABS]
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)
 

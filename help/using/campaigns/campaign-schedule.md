@@ -42,7 +42,7 @@ Ad esempio, se pianifichi una campagna da inviare alle 9 utilizzando il fuso ora
 
 >[!AVAILABILITY]
 >
->Questa funzione è a disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzione è a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 >
 >La pianificazione utilizzando i fusi orari del profilo è disponibile solo per questi canali in uscita: E-mail, Push, SMS, WhatsApp e LINE.
 

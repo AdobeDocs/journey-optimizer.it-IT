@@ -12,7 +12,7 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ L&#39;helper `externalDataLookup` nell&#39;editor di personalizzazione [!DNL Jou
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata).
+>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata).
 
 Per utilizzare l&#39;helper, devi prima definire un&#39;azione nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**. Un’azione è il luogo in cui puoi configurare i dettagli di un endpoint esterno, ad esempio URL, metodo GET vs. POST, parametri di intestazione, parametri di query, schema JSON del corpo del POST e schema JSON di risposta.
 
@@ -196,7 +196,7 @@ oppure puoi eseguire il rendering condizionale di un intero blocco di contenuto 
 {%/if%}
 ```
 
-### Debug
+### Eseguire il debug
 
 Per facilitare il debug, i dettagli del timeout e dell’errore per le ricerche di dati esterni sono inclusi nella vista Edge Delivery in Adobe Experience Platform Assurance. Se non visualizzi i risultati previsti per un helper externalDataLookup in un&#39;azione in entrata, puoi avviare una sessione Assurance, avviare una chiamata [!DNL Journey Optimizer] da un&#39;implementazione web o mobile e utilizzare la visualizzazione Edge Delivery per verificare i dettagli di timeout o errore.
 
@@ -210,7 +210,7 @@ Nella sezione Edge Delivery di traccia dell’affidabilità come parte dei detta
 
 Di seguito sono riportate le domande frequenti sull’helper per la ricerca di dati esterni.
 
-Hai bisogno di ulteriori dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
+Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
 +++ Come passare un attributo contestuale dalla richiesta come parametro a una ricerca dati esterna?
 

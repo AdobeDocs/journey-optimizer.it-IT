@@ -41,7 +41,7 @@ Per configurare l’attività **[!UICONTROL Crea pubblico]**, segui questi passa
 
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 
-1. Scegli la **[!UICONTROL Dimensione targeting]**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.
+1. Scegli la **[!UICONTROL Dimensione targeting]**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.
 
 1. Fai clic su **[!UICONTROL Continua]**.
 

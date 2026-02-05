@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testare i modelli di contenuto
+title: Testare modelli di contenuto
 description: Scopri come verificare il rendering di alcuni modelli di contenuto e-mail
 feature: Templates
 topic: Content Management

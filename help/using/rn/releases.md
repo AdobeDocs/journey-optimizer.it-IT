@@ -5,7 +5,7 @@ title: Ciclo di rilascio di Adobe Journey Optimizer
 feature: Release Notes
 description: Informazioni sul ciclo di rilascio di Adobe Journey Optimizer
 source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
 

@@ -39,7 +39,7 @@ Le funzionalità principali includono:
 
 * **Tipi di pubblico on demand**: crea e perfeziona immediatamente i gruppi di destinazione utilizzando query relazionali.
 * **Segmentazione di più entità**: crea tipi di pubblico precisi connettendo i dati dei clienti con entità correlate (ad esempio account, acquisti, prenotazioni).
-* **Visibilità pre-invio**: consulta conteggi accurati del pubblico prima dell&#39;avvio per ottimizzare il targeting.
+* **Visibilità pre-invio**: vedi conteggi dei pubblici precisi prima dell&#39;avvio per ottimizzare il targeting.
 * **Flussi di lavoro a più passaggi**: esegui campagne in sequenza, ad esempio promozioni stagionali, avvii di prodotti o offerte fedeltà.
 
 **Procedure consigliate**

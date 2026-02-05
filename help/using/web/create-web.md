@@ -33,7 +33,7 @@ Per iniziare a creare la tua esperienza web attraverso una campagna o un percors
 
 >[!NOTE]
 >
->Se è la prima volta che crei un’esperienza web, assicurati di seguire i prerequisiti descritti in [questa sezione](web-prerequisites.md).
+>Se questa è la prima volta che crei un’esperienza web, assicurati di seguire i prerequisiti descritti in [questa sezione](web-prerequisites.md).
 
 >[!BEGINTABS]
 
@@ -262,8 +262,8 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 >
 >Una volta interrotto un percorso web o una campagna, non puoi più modificarlo o attivarlo. Puoi solo duplicarlo e attivare il percorso o la campagna duplicati.
 
-## Video dimostrativo{#video}
+## Video introduttivo{#video}
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449989/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

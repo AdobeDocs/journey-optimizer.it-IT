@@ -192,8 +192,8 @@ Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazion
 | Componente con stili bloccati che non può essere eliminato. Gli utenti possono solo modificare il contenuto. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Componente modificabile in una struttura bloccata. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri come bloccare il contenuto nei modelli e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451615?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

@@ -31,7 +31,7 @@ Di seguito sono elencati i passaggi chiave per configurare le offerte, includerl
 
 1. Prima di creare le offerte, [definisci i componenti](#define-components)
 
-   * Creare posizionamenti
+   * Creare i posizionamenti
    * Creare regole di decisione
    * Creare qualificatori di raccolta (noti in precedenza come &quot;tag&quot;)
    * Creare classificazioni (facoltativo)

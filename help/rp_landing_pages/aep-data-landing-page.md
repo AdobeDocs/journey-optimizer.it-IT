@@ -20,7 +20,7 @@ Adobe Journey Optimizer consente di prendere decisioni più rapide e consapevoli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sfruttare i dati contestuali nei processi decisionali
 
@@ -30,7 +30,7 @@ Scopri come integrare i dati contestuali da Adobe Experience Platform nei proces
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzare i dati di Adobe Experience Platform per i processi decisionali
 

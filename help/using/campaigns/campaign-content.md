@@ -45,8 +45,8 @@ Il processo di creazione dei contenuti dipende dal canale selezionato. Scopri i 
 <div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
 <td><a href="../code-based/create-code-based.md"><img alt="esperienza basata su codice" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/create-code-based.md"><strong>Esperienza basata su codice</strong></a></div></td>
-<td><a href="../content-card/create-content-card.md"><img alt="schede contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/create-content-card.md"><strong>Schede contenuto</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="schede di contenuto" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>Schede di contenuto</strong></a></div></td>
 </tr></table>
 
 <table style="table-layout:fixed"><tr style="border: 0;">

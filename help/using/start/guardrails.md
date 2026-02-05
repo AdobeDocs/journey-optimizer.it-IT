@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3977'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -189,32 +189,32 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
 
-#### Convalida dimensione payload percorso {#journey-payload-size}
+#### Convalida della dimensione del payload del percorso {#journey-payload-size}
 
 Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso per mantenerne la stabilità e le prestazioni.
 
 **Configurazione predefinita**
 
-* **Dimensione massima predefinita richiesta**: 2 MB (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
+* **Dimensione massima predefinita delle richieste**: 2 MB (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
 * **Soglia di avvertenza**: 90% del limite massimo.
-* **Soglia di errore**: 100% del limite massimo. Salvataggio o pubblicazione bloccato. La richiesta restituisce **HTTP 413 - Entità richiesta troppo grande**.
+* **Soglia di errore**: 100% del limite massimo. Il salvataggio o la pubblicazione vengono bloccati e la richiesta restituisce l’errore **HTTP 413: entità richiesta troppo grande**.
 
-**Scenari esperienza utente**
+**Scenari di esperienza utente**
 
-* **Payload &lt; 90% del limite**: il Percorso salva e pubblica correttamente. Non vengono visualizzati avvisi o errori.
-* **Payload 90-99% del limite**: il Percorso salva e pubblica correttamente, con un avviso per l&#39;ottimizzazione. Messaggio di avviso: **Avviso**: la dimensione Percorso del payload è vicina al limite. Nodo più grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, dimensione: [N] byte).
-* **Payload >= 100% del limite**: il salvataggio o la pubblicazione del Percorso è bloccata con un errore. Messaggio di errore: **Errore**: le dimensioni del payload Percorso superano il limite. Nodo più grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, dimensione: [N] byte).
+* **Payload &lt; 90% del limite**: il percorso viene salvato e pubblicato correttamente. Non vengono visualizzati avvisi o errori.
+* **Payload 90-99% del limite**: il percorso viene salvato e pubblicato correttamente, con un avvertenza di ottimizzazione necessaria. Messaggio di avvertenza: **Avvertenza**: la dimensione del payload del percorso è vicina al limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte).
+* **Payload >= 100% del limite**: il salvataggio o la pubblicazione del percorso sono bloccati e viene visualizzato un messaggio di errore. Messaggio di errore: **Errore**: la dimensione del payload del percorso supera il limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte).
 
-**Dettagli risposta errore**
+**Dettagli nella risposta in caso di errore**
 
-Se la richiesta supera le dimensioni massime consentite, la risposta include **Entità richiesta troppo grande**. Il payload percorso supera la dimensione massima consentita. Rivedi i dettagli dell’errore e ottimizza il percorso.
+Se la richiesta supera la dimensione massima consentita, la risposta include **Entità richiesta troppo grande**. Il payload del percorso supera la dimensione massima consentita. Rivedi i dettagli dell’errore e ottimizza il percorso.
 
-**Risoluzione dei problemi e raccomandazioni**
+**Risoluzione di problemi e consigli**
 
-* Rivedi il nodo più grande evidenziato nell’avviso o nell’errore.
+* Rivedi il nodo più grande evidenziato nell’avvertenza o nell’errore.
 * Semplifica le condizioni, riduci le mappature dei dati e rimuovi passaggi o parametri non necessari.
-* Se necessario, valutare la possibilità di suddividere il percorso in percorsi più piccoli.
-* Se ritieni che la tua organizzazione abbia bisogno di un limite più alto, contatta il rappresentante Adobe.
+* Se necessario, potrebbe essere utile suddividere il percorso in percorsi più piccoli.
+* Se ritieni che la tua organizzazione necessiti di un limite più alto, contatta il rappresentante Adobe.
 
 ### Selezionare le limitazioni del pacchetto per i percorsi unitari {#select-package-limitations}
 
@@ -332,8 +332,8 @@ Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocit
 I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
 
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
-* Le attività **[!UICONTROL Campaign Standard]** non possono essere utilizzate con altre attività del canale: carta, esperienza basata su codice, e-mail, push, SMS, messaggi in-app, Web.
-* Le attività **[!UICONTROL Campaign v7/v8]** possono essere utilizzate insieme alle attività native del canale nello stesso percorso.
+* Le attività di **[!UICONTROL Campaign Standard]** non possono essere utilizzate con altre attività di canali: Scheda, Esperienza basata su codice, E-mail, Push, SMS, Messaggi in-app, Web.
+* Le attività di **[!UICONTROL Campaign v7/v8]** possono essere utilizzate insieme alle attività native dei canal nello stesso percorso.
 
 #### Attività in-app {#in-app-activity-limitations}
 
@@ -343,7 +343,7 @@ All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti gua
 
 * La personalizzazione può contenere solo attributi di profilo.
 
-* Impossibile utilizzare l&#39;attività in-app con **[!UICONTROL attività Campaign Standard]**.
+* L’attività In-app non può essere utilizzata con le attività di **[!UICONTROL Campaign Standard]**.
 
 * La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app all’interno di quel percorso cesseranno di essere visualizzati per quel profilo.  Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Al contrario, per impedire la visualizzazione dei messaggi in-app nel profilo, devi terminare l’intero percorso.
 

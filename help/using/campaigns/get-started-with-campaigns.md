@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Questa guida fornisce una roadmap chiara che ti aiuta a comprendere le nozioni d
 
 Le **campagne** sono azioni di marketing coordinate per la consegna di contenuti a un pubblico specifico su uno o più canali. A differenza dei percorsi in cui le azioni vengono eseguite in sequenza, le campagne eseguono le azioni contemporaneamente, immediatamente o secondo una pianificazione definita.
 
-Utilizza [!DNL Journey Optimizer] campagne per:
+Utilizza le campagne di [!DNL Journey Optimizer] per:
 
 * consegnare **contenuti una tantum o ricorrenti** ai segmenti di pubblico mirati;
 * eseguire **comunicazioni multicanale coordinate** tramite e-mail, push, SMS, in-app, web e altro ancora;
@@ -171,12 +171,12 @@ Prima di utilizzare le campagne, assicurati di aver rivisto quanto segue:
 
   | Tipo di campagna | Autorizzazioni |
   |-------------|---------------|
-  | **Campagne attivate da azioni** e **Campagne attivate da API** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
+  | **Campagne con azioni** e **Campagne attivate da API** | Amministratore campagna<br>Approvatore campagna<br>Responsabile campagna<br>Visualizzatore campagna |
   | **Campagne orchestrate** | Amministratore campagna orchestrata<br>Approvatore campagna orchestrata<br>Responsabile campagna orchestrata<br>Visualizzatore campagna orchestrata |
 
   +++
 
-  +++Come assegnare le autorizzazioni per la campagna
+  +++Scopri come assegnare le autorizzazioni per l campagne
 
    1. Passa alla scheda **[!UICONTROL Ruoli]** nel prodotto [!DNL Permissions] e seleziona uno dei **[!UICONTROL Ruoli]** correlati alla campagna incorporata.
 
@@ -276,7 +276,7 @@ Tieni traccia delle prestazioni della campagna:
 
 +++
 
-## Approfondiamo {#get-started-types}
+## Argomenti di approfondimento {#get-started-types}
 
 Ora che comprendi le campagne in [!DNL Journey Optimizer], scegli il tipo di campagna per iniziare:
 
@@ -291,7 +291,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -301,17 +301,17 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo della velocità**
 
-Limita la velocità effettiva dei messaggi per evitare il sovraccarico su sistemi a valle come pagine di destinazione o piattaforme di assistenza clienti.
+Limita la velocità effettiva dei messaggi per evitare il sovraccarico dei sistemi a valle, ad esempio nelle pagine di destinazione o sulle piattaforme di assistenza clienti.
 
 [Controllare i limiti della velocità](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting del pubblico**
 
@@ -321,7 +321,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -331,7 +331,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore di silenzio**
 
@@ -341,7 +341,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione**
 

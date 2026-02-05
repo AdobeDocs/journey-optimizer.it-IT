@@ -79,7 +79,7 @@ Ulteriori informazioni su [Journey Optimizer + Adobe Express](../integrations/ex
 
 ## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing è un’applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing incisive e personalizzate che aderiscono ai tuoi standard del brand e sono conformi ai tuoi criteri aziendali. Sfruttando la tecnologia di intelligenza artificiale Adobe, fornisce una suite completa di strumenti che semplificano le complessità della creazione e della gestione dei contenuti in modo che i creativi possano concentrarsi sull’innovazione.
+Adobe GenStudio for Performance Marketing è un’applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing incisive e personalizzate che aderiscono ai tuoi standard del brand e sono conformi ai tuoi criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano le complessità di creazione e gestione dei contenuti, consentendo ai creativi di concentrarsi sull’innovazione.
 
 Per migliorare l&#39;efficienza del marketing e mantenere la coerenza del brand, puoi integrare perfettamente [!DNL **esperienze GenStudio for Performance Marketing**] con [!DNL **Adobe Journey Optimizer**]. Questo consente di sfruttare la creazione di contenuti basata sull&#39;intelligenza artificiale di [!DNL GenStudio] insieme alle funzionalità di orchestrazione avanzate di [!DNL Journey Optimizer].
 

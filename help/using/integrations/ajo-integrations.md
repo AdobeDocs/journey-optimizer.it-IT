@@ -20,7 +20,7 @@ Con Adobe Journey Optimizer puoi gestire, conservare ed esportare facilmente que
 
 >[!NOTE]
 >
-> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che è entrato in un percorso è un cliente oppure no). Ti consente di utilizzare i dati del profilo. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
+> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa a [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che è entrato in un percorso è un cliente oppure no). Ti consente di utilizzare i dati del profilo. [Ulteriori informazioni](../datasource/adobe-experience-platform-data-source.md).
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -92,7 +92,7 @@ Ulteriori informazioni su [Journey Optimizer + Adobe Express](../integrations/ex
 
 ## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing è un’applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing incisive e personalizzate che aderiscono ai tuoi standard del brand e sono conformi ai tuoi criteri aziendali. Sfruttando la tecnologia di intelligenza artificiale Adobe, fornisce una suite completa di strumenti che semplificano le complessità della creazione e della gestione dei contenuti in modo che i creativi possano concentrarsi sull’innovazione.
+Adobe GenStudio for Performance Marketing è un’applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing incisive e personalizzate che aderiscono ai tuoi standard del brand e sono conformi ai tuoi criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano le complessità di creazione e gestione dei contenuti, consentendo ai creativi di concentrarsi sull’innovazione.
 
 Ulteriori informazioni su [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md).
 
@@ -121,9 +121,9 @@ Ulteriori informazioni su [Journey Optimizer + Campaign Standard](../building-jo
 
 Utilizza i moduli di Adobe Journey Optimizer in Adobe Workfront per creare, leggere, aggiornare o eliminare record oppure eseguire una chiamata API personalizzata all’API di Adobe Journey Optimizer.
 
-Una panoramica del passaggio chiave di questa integrazione è disponibile [in questo post di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=it){target="_blank"}.
+Una panoramica del passaggio chiave di questa integrazione è disponibile [in questo post di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Ulteriori informazioni su Journey Optimizer + Adobe Workfront [&#x200B; nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"}.
+Ulteriori informazioni su Journey Optimizer + Adobe Workfront [ nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"}.
 
 ## Canali personalizzati {#integration-custom}
 

@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è a disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 Con i temi, gli utenti non tecnici hanno la possibilità di creare contenuti riutilizzabili che si adattano a un marchio e a un linguaggio di progettazione specifici aggiungendo stili personalizzati sopra i modelli standard<!-- to achieve brand specific results-->.
 

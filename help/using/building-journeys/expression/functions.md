@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 99053c6c1327818645adc4ab9a5d3dd30eb96b87
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -123,7 +123,7 @@ Utilizza date, ore e fusi orari per creare condizioni basate sul tempo, pianific
 
 [Visualizza tutte le funzioni data →](../functions/date-functions.md)
 
-### Elencare funzioni {#list-functions}
+### Funzioni elenco {#list-functions}
 
 **Analisi e manipolazione della raccolta**
 

@@ -96,12 +96,12 @@ La tabella **[!UICONTROL Analisi stratificata latenza]** fornisce una suddivisio
 
 ➡️[Consulta la sezione KPI per una descrizione delle metriche di latenza](#kpis)
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Il video seguente mostra come monitorare l’affidabilità e le prestazioni delle chiamate API effettuate dai tuoi percorsi a sistemi di terze parti.
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3479549?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

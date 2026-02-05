@@ -277,7 +277,7 @@ Tieni presente che quando utilizzi l&#39;API **Decisioning**, i dati contestuali
 
 +++
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri come utilizzare il generatore di formule IA in Adobe Journey Optimizer per creare strategie di classificazione delle offerte personalizzate.
 

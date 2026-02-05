@@ -80,7 +80,7 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Dimensione massima della regola PQL | 15K (UTF-8) |
 | Numero massimo di livelli di nidificazione | 30 |
 
-## Formule di classificazione
+## Formule di ranking
 
 | Guardrail | Limite |
 | ------- | ------- |

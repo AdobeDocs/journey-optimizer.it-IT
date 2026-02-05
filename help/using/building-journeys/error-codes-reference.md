@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Riferimento codici di errore
+title: Riferimento ai codici di errore
 description: Scopri i codici di errore comuni in Adobe Journey Optimizer e come risolverli
 feature: Journeys, Monitoring
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 1%
 ---
 
 
-# Riferimento codici di errore {#error-codes}
+# Riferimento ai codici di errore {#error-codes}
 
 Adobe Journey Optimizer utilizza codici di errore standardizzati per aiutarti a identificare e risolvere rapidamente i problemi tra percorsi, campagne e configurazioni di messaggi. Comprendere questi codici di errore può ridurre in modo significativo i tempi di risoluzione dei problemi e aiutarti a mantenere prestazioni ottimali della campagna.
 
@@ -139,7 +139,7 @@ Quando incontri un codice di errore, segui questo approccio sistematico:
 7. **Inoltra a nuovo quando necessario**: se l&#39;errore persiste dopo i seguenti passaggi di risoluzione, contatta il supporto Adobe con:
    * Codice di errore completo
    * ID richiesta (se disponibile)
-   * Passaggi da riprodurre
+   * Passaggi per riprodurre il problema
    * Dettagli di configurazione rilevanti
 
 ## Best practice per evitare errori comuni {#best-practices}
@@ -182,15 +182,15 @@ Se si verificano errori persistenti che non possono essere risolti utilizzando q
 1. **Raccogli informazioni**: raccogli il codice di errore, l&#39;ID richiesta, i timestamp e i passaggi da riprodurre
 2. **Verifica lo stato del sistema**: visita [Stato Adobe](https://status.adobe.com/it){target="_blank"} per problemi noti del servizio
 3. **Documentazione di ricerca**: consulta [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it){target="_blank"} per informazioni sulle soluzioni
-4. **Coinvolgi community**: pubblica domande nella [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
+4. **Coinvolgi community**: pubblica domande nella [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Contatta il supporto Adobe**: invia un ticket di supporto con tutti i dettagli pertinenti
 
 >[!NOTE]
 >
->Questo riferimento al codice di errore viene continuamente aggiornato man mano che vengono identificati e documentati nuovi codici. Per informazioni aggiornate, controlla regolarmente i [blog della community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=it){target="_blank"}.
+>Questo riferimento al codice di errore viene continuamente aggiornato man mano che vengono identificati e documentati nuovi codici. Per informazioni aggiornate, controlla regolarmente i [blog della community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
 
 **Argomenti correlati**
 
-* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=it){target="_blank"}
-* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=it){target="_blank"}
+* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Demistificazione dei codici di errore di Adobe Journey Optimizer: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 

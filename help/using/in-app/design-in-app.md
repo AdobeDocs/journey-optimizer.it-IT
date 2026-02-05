@@ -262,8 +262,8 @@ Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https:
 * [Rapporto in-app](../reports/campaign-global-report-cja-inapp.md)
 * [Configurazione in-app](inapp-configuration.md)
 
-## Video dimostrativo{#video}
+## Video introduttivo{#video}
 
 Il video seguente mostra come creare e testare i messaggi in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422078?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

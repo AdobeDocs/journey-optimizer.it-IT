@@ -50,6 +50,6 @@ Per creare un qualificatore di raccolta, effettua le seguenti operazioni:
 
    ![](../assets/tags_created.png)
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341370?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

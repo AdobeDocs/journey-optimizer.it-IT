@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Creare le raccolte
+title: Creare raccolte
 description: Scopri come organizzare le offerte utilizzando le raccolte
 badge: label="Legacy" type="Informative"
 feature: Decision Management, Collections
@@ -17,7 +17,7 @@ ht-degree: 34%
 
 ---
 
-# Creare le raccolte {#create-collections}
+# Creare raccolte {#create-collections}
 
 >[!TIP]
 >
@@ -94,8 +94,8 @@ Per creare una raccolta, effettua le seguenti operazioni:
 
    ![](../assets/collection_created.png)
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346688?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: e-mail, stile, css, corpo, struttura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

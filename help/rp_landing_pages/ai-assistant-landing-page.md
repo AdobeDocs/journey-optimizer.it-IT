@@ -6,7 +6,7 @@ description: Assistente IA per la generazione di contenuti
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ L’Assistente IA di Adobe Journey Optimizer rivoluziona la creazione di contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva all’Assistente IA
 
@@ -30,7 +30,7 @@ Scopri come accedere e configurare la funzione Assistente IA per migliorare la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generare contenuto completo
 
@@ -40,7 +40,7 @@ Scopri come utilizzare l’Assistente IA per creare contenuti completi, inclusi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generare solo il testo
 
@@ -50,7 +50,7 @@ Utilizza l’Assistente IA per generare e perfezionare contenuti di testo per tu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Generare solo immagini
 

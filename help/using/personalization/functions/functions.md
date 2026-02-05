@@ -523,8 +523,8 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
     </tr>
 </table>
 
-## Video dimostrativo{#video}
+## Video introduttivo{#video}
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

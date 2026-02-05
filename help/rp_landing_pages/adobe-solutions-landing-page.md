@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Invia con soluzioni Adobe{#section-overview}
+# Inviare con soluzioni Adobe{#section-overview}
 
 Adobe Journey Optimizer può anche inviare messaggi tramite altre soluzioni Adobe, ad esempio **Adobe Campaign Standard**, **Campaign v7/v8** o **Marketo Engage**, se li hai acquisiti. Queste integrazioni offrono un’alternativa alla messaggistica incorporata e sono adatte per i casi d’uso che richiedono controlli avanzati o l’accesso a dati specifici della clientela. Campaign Standard supporta la messaggistica transazionale con trigger in tempo reale, Campaign v7/v8 consente una configurazione dettagliata del payload e Marketo Engage consente un coinvolgimento mirato utilizzando dati di profilo avanzati. Questa sezione spiega come configurare e utilizzare queste integrazioni per supportare strategie di messaggistica basate sui dati multipiattaforma.
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer può anche inviare messaggi tramite altre soluzioni Adob
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrare Adobe Journey Optimizer con Adobe Campaign Standard
 
@@ -30,7 +30,7 @@ Scopri come integrare Adobe Journey Optimizer con Adobe Campaign Standard per ab
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrare Adobe Journey Optimizer con Adobe Campaign v7/v8
 
@@ -40,7 +40,7 @@ Scopri come collegare Adobe Journey Optimizer ad Adobe Campaign v7/v8 per la mes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrare Adobe Journey Optimizer con Marketo Engage
 

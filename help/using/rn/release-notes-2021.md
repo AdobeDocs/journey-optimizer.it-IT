@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Note sulle versioni 2021 {#release-notes-2021}
 
-In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati nel 2021 per [!DNL Journey Optimizer].
+In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2021.
 
 ## Versione di novembre 2021 {#november-2021-release}
 

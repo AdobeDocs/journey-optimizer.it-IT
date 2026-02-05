@@ -76,17 +76,17 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Consulta [questa sezione](../building-journeys/reaction-events.md).
+   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
 
 1. Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare e inviare eventi al percorso.
 
    ![Attiva un pulsante evento in modalità di test](assets/journeyuctest1.png)
 
-1. Configura i diversi campi previsti. Nel campo **Identificatore profilo** immettere il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Consulta [questa sezione](#firing_events).
+1. Configura i diversi campi previsti. Nel campo **Identificatore profilo** immettere il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Vedi [questa sezione](#firing_events).
 
    ![Campi configurazione evento con input identificatore profilo](assets/journeyuctest1-bis.png)
 
-1. Dopo aver ricevuto gli eventi, fare clic sul pulsante **[!UICONTROL Mostra registro]** per visualizzare i risultati del test e verificarli. Consulta [questa sezione](#viewing_logs).
+1. Dopo aver ricevuto gli eventi, fare clic sul pulsante **[!UICONTROL Mostra registro]** per visualizzare i risultati del test e verificarli. Vedi [questa sezione](#viewing_logs).
 
    ![Mostra pulsante di registro per visualizzare i risultati del test](assets/journeyuctest2.png)
 

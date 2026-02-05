@@ -20,7 +20,7 @@ La gestione di schemi e set di dati relazionali in Adobe Journey Optimizer conse
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Consulta gli schemi e i set di dati relazionali
 
@@ -30,7 +30,7 @@ Scopri come creare schemi, configurare set di dati e acquisire dati per le campa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Imposta uno schema relazionale manuale
 
@@ -40,7 +40,7 @@ Istruzioni dettagliate per la creazione manuale di schemi, l’aggiunta di attri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creare schemi relazionali utilizzando un file DDL
 
@@ -50,7 +50,7 @@ Definisci gli schemi caricando file DDL, collegando tabelle e stabilendo relazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Acquisire dati per campagne Adobe Journey Optimizer
 

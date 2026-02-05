@@ -1,5 +1,5 @@
 ---
-title: Aggiornare formule di classificazione
+title: Aggiornare le formule di ranking
 description: Le formule di classificazione consentono di definire le funzioni per il punteggio, utilizzate per classificare gli elementi.
 feature: API, Collections, Decisioning
 topic: Integrations

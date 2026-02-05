@@ -38,7 +38,7 @@ A tal fine, l’organizzazione:
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ A tal fine, l’organizzazione:
 * **Numero di processi batch in esecuzione per set di dati**: è possibile eseguire fino a cinque processi batch alla volta per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene selezionato per l&#39;elaborazione al termine dell&#39;esecuzione del processo precedente.
 * **Limitazione della frequenza**: viene eseguito un batch dello snapshot del profilo che si verifica una volta al giorno. L&#39;API [!DNL Batch Decisioning] limita la frequenza e carica sempre i profili dallo snapshot più recente.
 
-## Introduzione {#getting-started}
+## Guida introduttiva {#getting-started}
 
 Prima di utilizzare questa API, assicurati di completare i seguenti passaggi preliminari richiesti.
 

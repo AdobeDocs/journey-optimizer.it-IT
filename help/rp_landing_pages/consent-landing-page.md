@@ -20,7 +20,7 @@ La gestione del consenso è fondamentale per creare fiducia nel pubblico e garan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire la rinuncia e il consenso alla personalizzazione
 
@@ -30,7 +30,7 @@ Scopri come gestire le preferenze di rinuncia e applicare il consenso alla perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzare i criteri del consenso
 

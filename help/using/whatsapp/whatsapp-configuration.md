@@ -204,12 +204,12 @@ Se riscontri un errore HTTP 500 durante la configurazione delle credenziali API 
 
 1. **Contatta il supporto**: se l&#39;ambiente e le adesioni sono confermate valide, ma l&#39;errore HTTP 500 persiste, contatta il rappresentante Adobe.
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Optimizer.
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

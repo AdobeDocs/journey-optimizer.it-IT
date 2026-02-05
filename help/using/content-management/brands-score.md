@@ -128,12 +128,12 @@ Per valutare la qualità dei contenuti:
 
 1. Fai clic su **[!UICONTROL Rivaluta il punteggio]** dopo aver apportato modifiche per aggiornare il punteggio di qualità.
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Il video seguente mostra come creare e personalizzare i propri marchi per definire chiaramente la propria identità visiva e verbale nelle comunicazioni.
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

@@ -156,7 +156,7 @@ Se il risultato è conclusivo:
 * Puoi inviare il trattamento con la classificazione delle prestazioni migliori a tutti i tuoi clienti.
 * Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri una procedura dettagliata end-to-end che mostra come utilizzare il decisioning in un’esperienza basata su codice.
 

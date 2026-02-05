@@ -20,17 +20,17 @@ La recapitabilità delle email è fondamentale per garantire che le e-mail raggi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alla recapitabilità delle e-mail
 
 Scopri i concetti, le best practice e gli strumenti per ottimizzare la recapitabilità delle e-mail in Adobe Journey Optimizer.
 
-[Consulta la recapitabilità](../using/reports/deliverability.md)
+[Introduzione alla recapitabilità](../using/reports/deliverability.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Informazioni sugli elenchi di soppressione
 
@@ -40,7 +40,7 @@ Scopri in che modo gli elenchi di soppressione proteggono la reputazione del mit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Rispettare i nuovi requisiti DMARC
 

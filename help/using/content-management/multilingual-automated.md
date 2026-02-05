@@ -166,7 +166,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
    1. In Raccolta dati di Adobe Experience Platform, accedi alle proprietà del tag.
 
-   1. Accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 

@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-* [Introduzione all’attività live](get-started-mobile-live.md)
-* [Configurazione attività live](mobile-live-configuration.md)
-* [Integrazione di Live Activity con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Creare un’attività Live](create-mobile-live.md)
+* [Introduzione alle attività live](get-started-mobile-live.md)
+* [Configurazione dell’attività live](mobile-live-configuration.md)
+* [Integrazione dell’attività live con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
+* [Creare un’attività live](create-mobile-live.md)
 * **[Domande frequenti](mobile-live-faq.md)**
 * [Rapporto campagna attività live](../reports/campaign-global-report-cja-activity.md)
 
@@ -240,7 +240,7 @@ Cause comuni:
 
 +++Impossibile riconoscere il campo `attributes-type`. Cosa devo controllare?
 
-* Assicurati che il nome della classe corrisponda esattamente a **1&rbrace; (distinzione maiuscole/minuscole) con il nome dello struct Swift**
+* Assicurati che il nome della classe corrisponda esattamente a **1} (distinzione maiuscole/minuscole) con il nome dello struct Swift**
 * Verificare che la struttura sia definita e registrata correttamente
 * Verifica la presenza di errori di battitura nel payload JSON
 * Conferma che la versione dell&#39;app installata abbia l&#39;implementazione Live Activity

@@ -543,7 +543,7 @@ La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sos
 | Parametro | Tipo |
 |-----------|--------------|
 | base | stringa |
-| destinazione | stringa (RegExp) |
+| target | stringa (RegExp) |
 | sostituzione | stringa |
 
 +++
@@ -601,7 +601,7 @@ La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sos
 | Parametro | Tipo |
 |-----------|--------------|
 | base | stringa |
-| destinazione | stringa (RegExp) |
+| target | stringa (RegExp) |
 | sostituzione | stringa |
 
 +++

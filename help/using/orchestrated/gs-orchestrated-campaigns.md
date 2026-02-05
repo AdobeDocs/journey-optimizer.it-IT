@@ -90,7 +90,7 @@ Scopri i concetti chiave e le funzionalità disponibili con le campagne orchestr
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
 
 
-## Approfondiamo
+## Argomenti di approfondimento
 
 Ora che sai che cosa sono le campagne orchestrate, è necessario approfondire le sezioni della documentazione per iniziare a utilizzare questa funzione.
 

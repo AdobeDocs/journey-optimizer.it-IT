@@ -16,27 +16,27 @@ ht-degree: 100%
 
 # Azioni di audit sulle risorse di Journey Optimizer {#track-changes}
 
-## Informazioni sui registri di audit {#audit-logs}
+## Informazioni sui registri di controllo {#audit-logs}
 
 >[!IMPORTANT]
 >
->Per visualizzare ed esportare il registro di audit, è necessario disporre dell‘**[!DNL View User Activity Log]** autorizzazione. [Ulteriori informazioni](../administration/ootb-product-profiles.md)
+>Per visualizzare ed esportare il registro di controllo, è necessario disporre dell’autorizzazione **[!DNL View User Activity Log]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md)
 
 Con Journey Optimizer puoi identificare le azioni eseguite dagli utenti nel sistema su vari servizi e funzionalità come percorsi, messaggi, pagine di destinazione, ecc.
 
 Questo consente di aumentare la visibilità delle attività eseguite nel sistema, risolvere i problemi e aiutare la tua azienda a rispettare le normative e le politiche aziendali di gestione dei dati.
 
-Ogni azione viene registrata con i metadati nei “registri di audit”, accessibili in Adobe Experience Platform. Per ulteriori informazioni sui registri di audit, tra cui come visualizzarli e gestirli nell’interfaccia utente o nell’API, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it).
+Ogni azione viene registrata con i metadati nei “registri di controllo”, accessibili in Adobe Experience Platform. Per ulteriori informazioni sui registri di controllo, tra cui come visualizzarli e gestirli nell’interfaccia utente o nell’API, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it).
 
 ![](assets/audit-logs.png)
 
-## Tipi di eventi acquisiti dai registri di audit {#events}
+## Tipi di eventi acquisiti dai registri di controllo {#events}
 
-La tabella seguente presenta le azioni per le quali le diverse risorse di Journey Optimizer vengono riportate nei registri di audit. L’elenco completo delle azioni riportate nei registri di audit è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it#category).
+La tabella seguente presenta le azioni che vengono riportate nei registri di controllo per le diverse risorse Journey Optimizer. L’elenco completo delle azioni riportate nei registri di controllo è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it#category).
 
 >[!NOTE]
 >
->I registri di audit relativi alla **gestione delle decisioni** sono visibili solo dal file CSV scaricabile tramite il pulsante **[!UICONTROL Scarica registro]**.
+>I registri di controllo relativi alla **gestione delle decisioni** sono visibili solo dal file CSV scaricabile tramite il pulsante **[!UICONTROL Scarica registro]**.
 
 | Risorsa | Azione |
 |-----------|------------------|

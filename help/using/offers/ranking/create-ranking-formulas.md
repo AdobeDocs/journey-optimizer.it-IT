@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Formule di classificazione
+title: Formule di ranking
 description: Scopri come creare formule per classificare le offerte
 badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 ---
 
-# Formule di classificazione {#create-ranking-formulas}
+# Formule di ranking {#create-ranking-formulas}
 
 >[!TIP]
 >

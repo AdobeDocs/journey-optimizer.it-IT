@@ -49,4 +49,4 @@ A seconda del contesto di utilizzo, l’editor di espressioni può restituire va
 |--- |--- |
 | Condizione (condizione origine dati, condizione data) | booleano |
 | Timer personalizzato | dateTimeOnly |
-| Mappatura dei parametri delle azioni | Qualsiasi |
+| Mappatura dei parametri delle azioni | Any |

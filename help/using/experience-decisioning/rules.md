@@ -42,7 +42,7 @@ Ad esempio, consideriamo uno scenario in cui si hanno elementi decisionali con p
 
 >[!AVAILABILITY]
 >
->Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 >
 >Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo **Decisioning**. Verrà introdotto progressivamente per tutti i clienti.
 
@@ -133,8 +133,8 @@ Per creare una regola, effettua le seguenti operazioni:
 >
 >[Ulteriori informazioni sulle regole di idoneità Guardrail e limitazioni](decisioning-guardrails.md#eligibility-rules)
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri come creare, duplicare e applicare **regole di targeting** riutilizzabili in Adobe Journey Optimizer per personalizzare in modo efficiente le campagne in base agli attributi del cliente come area geografica, lingua e comportamento, risparmiando tempo e migliorando la precisione del pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476135/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

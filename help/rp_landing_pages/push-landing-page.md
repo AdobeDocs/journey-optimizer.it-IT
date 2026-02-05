@@ -18,7 +18,7 @@ Le notifiche push in Adobe Journey Optimizer sono un modo potente per coinvolger
 
 >[!IMPORTANT]
 >
->Se è la prima volta che crei una notifica push, assicurati che il canale push sia stato configurato. [Maggiori informazioni](../using/push/push-configuration.md).
+>Se è la prima volta che crei una notifica push, assicurati che il canale push sia stato configurato. [Ulteriori informazioni](../using/push/push-configuration.md).
 
 
 Puoi creare le notifiche push:
@@ -30,7 +30,7 @@ Puoi creare le notifiche push:
 
 >[!NOTE]
 >
->**[!DNL Journey Optimizer]** permette di gestire la rinuncia nelle e-mail e nei messaggi SMS; tuttavia, le notifiche push non richiedono alcun intervento da parte tua, in quanto i destinatari possono annullare l’iscrizione direttamente dal proprio dispositivo. Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegliere di interrompere le notifiche. Analogamente, possono modificare le impostazioni di notifica tramite il sistema operativo mobile.
+>**[!DNL Journey Optimizer]** permette di gestire la rinuncia nelle e-mail e nei messaggi SMS; tuttavia, le notifiche push non richiedono alcun intervento da parte tua, in quanto i destinatari possono annullare l’iscrizione direttamente dal proprio dispositivo. Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegliere di bloccare le notifiche. Analogamente, possono modificare le impostazioni di notifica tramite il sistema operativo mobile.
 
 
 ## Canale per notifiche push
@@ -38,7 +38,7 @@ Puoi creare le notifiche push:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare e configurare le notifiche push
 
@@ -48,7 +48,7 @@ Guida dettagliata alla creazione e alla configurazione delle notifiche push, inc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Progettare una notifica push
 
@@ -58,7 +58,7 @@ Scopri come progettare e personalizzare le notifiche push con file multimediali,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare in anteprima, convalidare e inviare notifiche push
 
@@ -68,7 +68,7 @@ Scopri come visualizzare in anteprima, convalidare e inviare notifiche push, gar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare le notifiche push
 

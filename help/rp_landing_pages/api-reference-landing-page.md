@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Legacy" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La sezione della documentazione delle API in Adobe Journey Optimizer sblocca gli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva all’API Libreria di offerte
 
@@ -35,7 +35,7 @@ Scopri come integrare l’API Libreria di offerte per la gestione delle decision
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fornire offerte tramite le API di Adobe Journey Optimizer
 

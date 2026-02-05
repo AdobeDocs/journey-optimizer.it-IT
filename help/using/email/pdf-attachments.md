@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Allegare un PDF"
->abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno. La dimensione massima del file consentita per ciascun allegato è di 5 MB.</br>Per qualsiasi ulteriore dimensione o volume, puoi acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il tuo rappresentante Adobe."
+>abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno. La dimensione massima del file consentita per ciascun allegato è di 5 MB.</br>Per qualsiasi ulteriore dimensione o volume, puoi acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe."
 
 È possibile allegare un file PDF statico ai messaggi di posta elettronica inviati con [!DNL Journey Optimizer].
 
@@ -31,7 +31,7 @@ ht-degree: 38%
 >
 >* La dimensione massima del file consentita per ciascun allegato è di 5 MB.
 >
->Per ulteriori dimensioni o volumi, puoi acquistare il componente aggiuntivo per gli allegati PDF. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Per ulteriori dimensioni o volumi, puoi acquistare il componente aggiuntivo per gli allegati PDF. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
@@ -45,7 +45,7 @@ Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
    >[!NOTE]
    >
-   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
+   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Utilizza il filtro **[!UICONTROL PDF]** nella sezione **[!UICONTROL Tipo MIME]** per limitare la selezione al formato di file corretto.
 

@@ -20,7 +20,7 @@ Adobe Experience Platform è la base per offrire alla clientela esperienze altam
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo della funzione inAudience
 

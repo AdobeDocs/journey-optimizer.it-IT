@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione all’esperimento sui contenuti
+title: Introduzione agli esperimenti sui contenuti
 description: Ulteriori informazioni sull’esperimento sui contenuti in Journey Optimizer
 feature: Experimentation
 topic: Content Management

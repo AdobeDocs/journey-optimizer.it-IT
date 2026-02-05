@@ -178,6 +178,6 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 >
 >La disattivazione di una regola o di un set di regole non influisce né reimposta i conteggi sui singoli profili.
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

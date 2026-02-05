@@ -18,7 +18,7 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collections"
->title="Creare le raccolte"
+>title="Creare raccolte"
 >abstract="Le raccolte consentono di categorizzare e raggruppare gli elementi decisionali in base alle preferenze. Queste categorie vengono create creando regole che sfruttano gli attributi degli elementi decisionali."
 
 >[!CONTEXTUALHELP]

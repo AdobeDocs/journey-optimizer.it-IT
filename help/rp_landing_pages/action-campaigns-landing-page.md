@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Campagne di azione
-description: Campagne di azione
+title: Campagne con azioni
+description: Campagne con azioni
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Campagne di azione{#section-overview}
+# Campagne con azioni{#section-overview}
 
 Le campagne di azione in Adobe Journey Optimizer ti consentono di inviare messaggi tempestivi e mirati per comunicazioni in batch come promozioni, aggiornamenti o avvisi legali. Progettate per offrire flessibilità, queste campagne ti consentono di definire le proprietà, scegliere i canali di comunicazione, ottimizzare i contenuti, impostare i tipi di pubblico, pianificare la consegna e attivare le campagne con facilità. Ogni passaggio si basa sulla creazione di un coinvolgimento incisivo e personalizzato per creare contenuti multilingue, testare le varianti o assegnare la priorità a notifiche urgenti. Questa sezione suddivide il processo in passaggi gestibili, che ti guidano dalla pianificazione all’esecuzione, in modo da poter progettare con sicurezza campagne che suscitino interesse nel tuo pubblico e promuovano i risultati.
 
@@ -20,7 +20,7 @@ Le campagne di azione in Adobe Journey Optimizer ti consentono di inviare messag
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare una campagna di azione
 
@@ -30,7 +30,7 @@ Scopri come creare e gestire le campagne di azione, tra cui proprietà, azioni, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definire le proprietà della campagna di azione
 
@@ -40,7 +40,7 @@ Istruzioni dettagliate per la definizione delle proprietà della campagna, tra c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurare le azioni della campagna
 
@@ -50,17 +50,17 @@ Guida alla configurazione delle azioni della campagna, inclusa la selezione del 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Sfruttare l’ottimizzazione dei messaggi
 
 Utilizza il targeting e la sperimentazione per ottimizzare il coinvolgimento e creare campagne personalizzate.
 
-[Ottimizza le campagne](../using/content-management/gs-message-optimization.md)
+[Ottimizzare le campagne](../using/content-management/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 Modificare i contenuti della campagna
 
@@ -70,7 +70,7 @@ Progetta, testa e configura contenuti per le campagne di azione su più canali.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definire il pubblico della campagna
 

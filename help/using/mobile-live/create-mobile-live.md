@@ -11,17 +11,17 @@ hidefromtoc: true
 source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
-# Creare un’attività Live {#create-mobile-live}
+# Creare un’attività live {#create-mobile-live}
 
 >[!BEGINSHADEBOX]
 
-* [Introduzione all’attività live](get-started-mobile-live.md)
-* [Configurazione attività live](mobile-live-configuration.md)
-* [Integrazione di Live Activity con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
+* [Introduzione alle attività live](get-started-mobile-live.md)
+* [Configurazione dell’attività live](mobile-live-configuration.md)
+* [Integrazione dell’attività live con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
 * **[Crea un&#39;attività live](create-mobile-live.md)**
 * [Domande frequenti](mobile-live-faq.md)
 * [Rapporto campagna attività live](../reports/campaign-global-report-cja-activity.md)

@@ -6,7 +6,7 @@ description: Implementare un piano di preparazione IP
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ L’implementazione di un piano di preparazione IP in Adobe Journey Optimizer ga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Guida alla recapitabilità della preparazione IP
 
@@ -30,7 +30,7 @@ Informazioni sui concetti di base sulla recapitabilità, la creazione di reputaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Guida introduttiva ai piani di preparazione IP
 
@@ -40,7 +40,7 @@ Scopri lo scopo, i vantaggi e i passaggi dei piani di preparazione IP per miglio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crea campagne di preparazione IP
 
@@ -50,7 +50,7 @@ Segui le istruzioni dettagliate per progettare e attivare campagne per il tuo pi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare e gestire un piano di preparazione IP
 
@@ -60,7 +60,7 @@ Scopri come creare, configurare e gestire il piano di preparazione IP, incluse l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Eseguire e gestire il piano di preparazione IP
 

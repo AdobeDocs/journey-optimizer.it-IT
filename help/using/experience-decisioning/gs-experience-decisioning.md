@@ -101,8 +101,8 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 * **[Guardrail di decisioning](decisioning-guardrails.md)**: rivedi limitazioni importanti e best practice per l&#39;implementazione del decisioning.
 * **[Tutorial su Decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: esplora esercitazioni video dettagliate sulle funzioni decisionali e sulle best practice.
 
-## Video dimostrativo {#video}
+## Video introduttivo {#video}
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

@@ -44,7 +44,7 @@ Può essere aggiunto anche in altre sezioni del contenuto. Ad esempio, per [noti
 
 +++
 
-+++E-mail Designer
++++E-mail designer
 
 Quando modifichi il contenuto delle e-mail in [E-mail Designer](../email/get-started-email-design.md), puoi aggiungere la personalizzazione in blocchi di testo e in URL utilizzando l&#39;icona nella barra degli strumenti contestuale.
 

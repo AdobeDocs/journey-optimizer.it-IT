@@ -7,7 +7,7 @@ badge: label="Legacy" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Il ranking in Adobe Journey Optimizer consente di definire quali offerte appaion
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Guida introduttiva sul ranking
 
@@ -35,7 +35,7 @@ Scopri le nozioni di base del ranking in Adobe Journey Optimizer, incluse le for
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creazione e utilizzo delle formule di ranking
 
@@ -45,7 +45,7 @@ Segui le istruzioni dettagliate per creare formule di ranking utilizzando la sin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Modelli di intelligenza artificiale per il ranking delle offerte
 

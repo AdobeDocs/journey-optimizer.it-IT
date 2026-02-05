@@ -9,7 +9,7 @@ keywords: ottimizzazione, targeting, sperimentazione, combinazione, avanzato
 source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 

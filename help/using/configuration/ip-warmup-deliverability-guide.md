@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guida alla consegna del calore IP
+title: Guida alla recapitabilità della preparazione IP
 description: Scopri le nozioni di base sul recapito messaggi e le best practice per il riscaldamento dell’IP
 feature: IP Warmup Plans
 topic: Administration
@@ -11,15 +11,15 @@ keywords: IP, recapito messaggi, reputazione, ISP, coinvolgimento
 source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Guida alla consegna del calore IP {#ip-warmup-deliverability-guide}
+# Guida alla recapitabilità della preparazione IP {#ip-warmup-deliverability-guide}
 
 Quando si lanciano campagne e-mail con nuovi indirizzi IP o domini in Adobe Journey Optimizer, è fondamentale comprendere le nozioni di base sul recapito messaggi per creare una solida reputazione del mittente. Questa guida descrive i concetti chiave, i passaggi di preparazione e le best practice per aiutarti a passare da una reputazione pari a zero al posizionamento di successo nella casella in entrata.
 
-➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it){target="_blank"}.
+➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 
 * **Mantieni autenticazione corrente**: verifica regolarmente che i record SPF, DKIM e DMARC rimangano configurati correttamente.
 
-## Punti chiave da eliminare {#key-takeaways}
+## Concetti chiave {#key-takeaways}
 
 * **Il riscaldamento dell&#39;IP è essenziale**: saltare il processo di riscaldamento costa più tempo e reputazione rispetto allo sforzo necessario per farlo correttamente.
 
@@ -135,7 +135,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## Argomenti correlati {#related-topics}
 
@@ -144,7 +144,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 * [Creare un piano di preparazione IP](ip-warmup-plan.md)
 * [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
 * [Impostare le configurazioni dei canali](channel-surfaces.md)
-* [Delega sottodomini](delegate-subdomain.md)
+* [Delegare i sottodomini](delegate-subdomain.md)
 * [Gestire elenco di soppressione](manage-suppression-list.md)
 * [Guida alle procedure consigliate per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it)
 

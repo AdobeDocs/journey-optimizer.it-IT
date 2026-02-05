@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Una volta configurate, le origini vengono eseguite automaticamente in background
 
 Guarda questo video per comprendere i connettori di origine e come configurarli in Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Per informazioni dettagliate sulla configurazione e la gestione delle origini, consulta la [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.
 

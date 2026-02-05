@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Limitazioni degli eventi {#events-limitations}
 
-* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 
 ## Limitazioni degli eventi di reazione {#reaction-limitations}
 
