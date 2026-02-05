@@ -97,14 +97,14 @@ Ora che conosci la personalizzazione in **[!DNL Journey Optimizer]**, è il mome
 
 Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da un percorso per personalizzare un messaggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448145?captions=ita&quality=12)
 
 Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416271?captions=ita&quality=12)
 
 Scopri come sfruttare l’area di gioco dell’editor di personalizzazione per scrivere e testare il codice di personalizzazione utilizzando dati di esempio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475960?captions=ita&quality=12)
 
 Esplora altri tutorial video sulle funzioni di personalizzazione e sulle best practice in [esercitazioni di Personalization](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

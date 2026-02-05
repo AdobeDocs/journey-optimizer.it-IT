@@ -102,6 +102,6 @@ Il video seguente mostra come monitorare l’affidabilità e le prestazioni dell
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479549?captions=ita&quality=12&learn=on)
 
 +++

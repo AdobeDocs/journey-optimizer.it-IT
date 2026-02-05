@@ -266,4 +266,4 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449989/?captions=ita&quality=12&learn=on)
