@@ -73,6 +73,6 @@ Il flusso di lavoro generale è:
 
 * [!DNL Customer Journey Analytics] acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * Il campo **profileID** nello &quot;Schema evento passaggio di Percorso per Journey Orchestration&quot; associato è definito come campo Identity. In [!DNL Customer Journey Analytics] è quindi possibile collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell&#39;identificatore basato su persona.
-* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento alla [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=it){target="_blank"}.
 
 ➡️ [Utilizzare Customer Journey Analytics](cja-ajo.md){target="_blank"}

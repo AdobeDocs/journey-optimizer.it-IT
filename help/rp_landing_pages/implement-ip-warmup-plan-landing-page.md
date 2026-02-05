@@ -50,7 +50,7 @@ Segui le istruzioni dettagliate per progettare e attivare campagne per il tuo pi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare e gestire un piano di preparazione IP
 
@@ -60,7 +60,7 @@ Scopri come creare, configurare e gestire il piano di preparazione IP, incluse l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Eseguire e gestire il piano di preparazione IP
 

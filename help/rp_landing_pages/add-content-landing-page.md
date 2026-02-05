@@ -30,7 +30,7 @@ Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=it)
 
 Sfruttare i frammenti visivi
 

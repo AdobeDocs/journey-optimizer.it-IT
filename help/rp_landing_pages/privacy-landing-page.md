@@ -20,7 +20,7 @@ Gli strumenti per la privacy di Adobe Journey Optimizer ti consentono di gestire
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Panoramica sulla gestione della privacy
 

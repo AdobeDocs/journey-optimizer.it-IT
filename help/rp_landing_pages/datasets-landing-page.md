@@ -50,7 +50,7 @@ Scopri come esportare i set di dati nelle destinazioni di archiviazione cloud pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Adobe Journey Optimizer: esempi di query per set di dati
 

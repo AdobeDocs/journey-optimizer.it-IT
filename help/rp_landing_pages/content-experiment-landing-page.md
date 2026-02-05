@@ -30,7 +30,7 @@ Scopri le nozioni di base degli esperimenti sui contenuti, il rispettivo scopo e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e scalare gli esperimenti sui contenuti
 

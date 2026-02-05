@@ -70,7 +70,7 @@ Istruzioni dettagliate per l’integrazione di frammenti di contenuto di AEM con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzare Dynamic Media
 

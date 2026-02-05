@@ -160,7 +160,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    >[!NOTE]
    >
-   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Altre piattaforme {#other}
 

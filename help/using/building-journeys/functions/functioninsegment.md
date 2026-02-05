@@ -32,7 +32,7 @@ I tipi di pubblico possono avere due stati:
 * realizzati: l’entità è idonea per la definizione del segmento.
 * uscita: l’entità sta uscendo dalla definizione del segmento.
 
-Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results).
 
 `inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 

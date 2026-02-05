@@ -25,7 +25,7 @@ In Adobe Journey Optimizer, la creazione e la gestione delle decisioni consente 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare decisioni in Adobe Journey Optimizer
 

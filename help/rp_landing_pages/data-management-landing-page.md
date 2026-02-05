@@ -20,7 +20,7 @@ La gestione dati in Adobe Journey Optimizer consente di assumere il controllo de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alla gestione dei dati
 
@@ -30,7 +30,7 @@ Scopri come Adobe Journey Optimizer offre agli utenti funzionalità avanzate di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare degli schemi in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Comprendi e gestisci gli schemi di Adobe Experience Platform per creare modellaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 Set di dati di Journey Optimizer
 

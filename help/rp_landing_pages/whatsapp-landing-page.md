@@ -30,7 +30,7 @@ Scopri come integrare WhatsApp con Adobe Journey Optimizer, compresi prerequisit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione del canale WhatsApp
 
@@ -50,7 +50,7 @@ Scopri come progettare e inviare messaggi WhatsApp personalizzati, inclusi model
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=it)
 
 Anteprima, convalida e invio di messaggi WhatsApp
 

@@ -40,7 +40,7 @@ Guida dettagliata alla creazione, alla configurazione e alla gestione dei criter
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Richiedere l’approvazione per percorsi e campagne
 

@@ -43,7 +43,7 @@ Tutorial dettagliato per creare, personalizzare e implementare schede di contenu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare le schede di contenuto
 

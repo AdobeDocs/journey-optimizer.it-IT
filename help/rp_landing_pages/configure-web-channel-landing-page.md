@@ -40,7 +40,7 @@ Linee guida dettagliate sulla configurazione, la gestione e l’annullamento del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e configurare un canale web
 

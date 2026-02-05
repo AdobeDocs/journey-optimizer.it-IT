@@ -57,7 +57,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!IMPORTANT]
    >
-   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
    >I tipi di pubblico di caricamento CSV non sono supportati per le campagne di riscaldamento IP e genereranno un errore al momento dell’attivazione della campagna.
 

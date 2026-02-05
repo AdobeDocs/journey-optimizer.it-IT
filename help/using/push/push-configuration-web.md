@@ -28,11 +28,11 @@ ht-degree: 7%
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
-Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
 
 >[!CAUTION]
 >
->La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti nell&#39;implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore di app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Tag** sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+>La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti nell&#39;implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore di app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Tag** sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -49,7 +49,7 @@ Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti o
 
    ![](assets/push_product_1.png)
 
-1. Seleziona un **[!UICONTROL profilo prodotto]** esistente o creane uno nuovo con il pulsante **[!UICONTROL Nuovo profilo]**. Scopri come creare un nuovo **[!UICONTROL nuovo profilo]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. Seleziona un **[!UICONTROL profilo prodotto]** esistente o creane uno nuovo con il pulsante **[!UICONTROL Nuovo profilo]**. Scopri come creare un nuovo **[!UICONTROL nuovo profilo]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=it#ui){target="_blank"}.
 
 1. Dalla scheda **[!UICONTROL Autorizzazioni]**, seleziona **[!UICONTROL Diritti di proprietà]**.
 
@@ -95,7 +95,7 @@ Per assegnare questo **[!UICONTROL profilo di prodotto]** agli utenti, effettua 
 
    >[!NOTE]
    >
-   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -118,7 +118,7 @@ Con il canale di notifica push sono disponibili i seguenti schemi e set di dati:
 
 ### Configurare la proprietà pushNotification {#push-property}
 
-Per abilitare le **notifiche push Web**, è necessario innanzitutto verificare che la proprietà [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) sia configurata correttamente in Web SDK. Questa proprietà controlla il modo in cui le notifiche push vengono gestite dall’applicazione web.
+Per abilitare le **notifiche push Web**, è necessario innanzitutto verificare che la proprietà [pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/pushnotifications) sia configurata correttamente in Web SDK. Questa proprietà controlla il modo in cui le notifiche push vengono gestite dall’applicazione web.
 
 Inoltre, devi generare le chiavi VAPID, necessarie per configurare [le credenziali push dell&#39;app](#push-credentials-launch) in Journey Optimizer.
 
@@ -175,7 +175,7 @@ Ora puoi selezionare la configurazione durante la creazione delle notifiche push
 
 ## Passaggio 3: configurare la proprietà sendPushSubscription {#sendPushSubscription-property}
 
-Una volta configurate le credenziali push e la configurazione del canale, devi implementare [il comando sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) nell&#39;applicazione Web. Questo comando registra gli abbonamenti push degli utenti a Adobe Experience Platform, consentendo al sistema di tenere traccia degli utenti che hanno acconsentito alla ricezione di notifiche push e di mantenere il proprio stato di abbonamento. Questa registrazione è essenziale per consentire a Journey Optimizer di inviare notifiche push mirate agli utenti.
+Una volta configurate le credenziali push e la configurazione del canale, devi implementare [il comando sendPushSubscription](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendpushsubscription) nell&#39;applicazione Web. Questo comando registra gli abbonamenti push degli utenti a Adobe Experience Platform, consentendo al sistema di tenere traccia degli utenti che hanno acconsentito alla ricezione di notifiche push e di mantenere il proprio stato di abbonamento. Questa registrazione è essenziale per consentire a Journey Optimizer di inviare notifiche push mirate agli utenti.
 
 ## Passaggio 4: testare l’app mobile con un evento {#mobile-app-test}
 

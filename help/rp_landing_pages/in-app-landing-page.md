@@ -31,7 +31,7 @@ Guida dettagliata per impostare autorizzazioni, impostazioni di consegna e prere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare messaggi in-app per dispositivi mobili
 
@@ -61,7 +61,7 @@ Esplora le opzioni di layout, personalizza i contenuti e utilizza la formattazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=it)
 
 Verificare e inviare le notifiche in-app
 

@@ -40,7 +40,7 @@ I profili possono essere aggiunti a un elenco di iscrizioni tramite una [pagina 
 
 >[!NOTE]
 >
->Quando crei un elenco di abbonamenti, in Adobe Experience Platform viene generato automaticamente un segmento di streaming associato. Affinché il segmento di streaming venga creato correttamente, il criterio di unione deve avere l&#39;opzione **Attivo su Edge** abilitata. Ulteriori informazioni sui criteri di idoneità per i segmenti in streaming sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Quando crei un elenco di abbonamenti, in Adobe Experience Platform viene generato automaticamente un segmento di streaming associato. Affinché il segmento di streaming venga creato correttamente, il criterio di unione deve avere l&#39;opzione **Attivo su Edge** abilitata. Ulteriori informazioni sui criteri di idoneità per i segmenti in streaming sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 

@@ -42,7 +42,7 @@ Scopri come accedere, gestire, modificare o archiviare le campagne ed esplorare 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Campagne con azioni
 

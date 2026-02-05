@@ -32,7 +32,7 @@ Il canale e-mail in Adobe Journey Optimizer ti consente di progettare, configura
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare un messaggio e-mail
 
@@ -42,7 +42,7 @@ Guida dettagliata per aggiungere, configurare e testare azioni e-mail in percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare e ottimizzare del contenuto delle e-mail
 

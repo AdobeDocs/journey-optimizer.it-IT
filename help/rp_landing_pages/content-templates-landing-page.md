@@ -60,7 +60,7 @@ Scopri come bloccare sezioni o interi modelli per evitare modifiche o eliminazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Testare modelli di contenuto
 

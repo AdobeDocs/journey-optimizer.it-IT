@@ -40,7 +40,7 @@ Segui una guida dettagliata per creare frammenti visivi e di espressioni riutili
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Salvare un contenuto esistente come frammenti
 

@@ -50,7 +50,7 @@ Risposte alle domande frequenti sulla funzione Decisioni, incluse le regole di l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Documentazione delle API: consegna delle offerte
 

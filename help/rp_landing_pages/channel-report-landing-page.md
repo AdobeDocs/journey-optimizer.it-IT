@@ -40,7 +40,7 @@ Scopri le definizioni dettagliate delle metriche utilizzate nei diversi canali d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare manualmente Customer Journey Analytics
 
@@ -70,7 +70,7 @@ Imposta origini dati e set di dati per abilitare la sperimentazione e recuperare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Motivi di esclusione
 

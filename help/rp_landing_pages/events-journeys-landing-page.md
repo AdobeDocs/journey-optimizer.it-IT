@@ -40,7 +40,7 @@ Segui una guida dettagliata per configurare eventi unitari, inclusa la definizio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Schemi ExperienceEvent
 

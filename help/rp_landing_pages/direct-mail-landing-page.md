@@ -50,7 +50,7 @@ Visualizza in anteprima, convalida, attiva e gestisci efficacemente il consenso 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale Direct mail
 

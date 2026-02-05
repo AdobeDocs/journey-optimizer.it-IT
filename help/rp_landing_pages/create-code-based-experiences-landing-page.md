@@ -40,7 +40,7 @@ Scopri come aggiungere campi modificabili ai modelli per consentire agli esperti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Testare le esperienze basate su codice
 

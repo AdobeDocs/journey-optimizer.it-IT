@@ -16,7 +16,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schemi necessari per questo caso d&#39;uso:**
 
