@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 14%
+source-wordcount: '2437'
+ht-degree: 12%
 
 ---
 
@@ -163,7 +163,7 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
-L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
@@ -207,6 +207,205 @@ In questa configurazione di campo, devi:
 >Se si configurano parametri facoltativi consentendo valori Null, i parametri non compilati da un operatore di percorso vengono inviati come Null.
 >
 
+## Esempi JSON completi {#json-examples}
+
+Questa sezione fornisce esempi JSON completi che illustrano tutti i tipi di parametri e le configurazioni supportati per le azioni personalizzate.
+
+### Esempio 1: tipi di parametri di base
+
+Questo esempio mostra come utilizzare diversi tipi di dati nel payload dell’azione personalizzata:
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+Nella configurazione dell’azione:
+* `userId` - Parametro variabile (stringa) - Mapping a nome profilo
+* `accountId` - Parametro costante (stringa) - Invia sempre &quot;ABC123&quot;
+* `age` - Parametro variabile (numero intero) - Mapping alla pagina del profilo
+* `isActive` - Parametro costante (booleano) - Invia sempre true
+* `loyaltyScore` - Parametro variabile (decimale) - Mapping al campo del profilo personalizzato
+
+### Esempio 2: utilizzo di costanti di sistema e contesto di percorso
+
+È possibile fare riferimento a informazioni specifiche del percorso e valori di sistema:
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**Variabili di contesto di percorso disponibili:**
+
+>[!NOTE]
+>
+>È in corso la verifica della sintassi delle variabili di contesto di percorso con il team di prodotto. I nomi dei campi effettivi possono essere: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName in base alla documentazione sulle proprietà del Percorso.
+
+* `@{journey.id}` - Identificatore univoco del percorso
+* `@{journey.name}` - Nome del percorso
+* `@{journey.version}` - Numero di versione del percorso
+* `@{journey.startTime}` - Timestamp dell&#39;avvio del percorso per questo profilo (verifica necessaria)
+* `@{journey.stepId}` - Identificatore passaggio corrente
+* `@{journey.stepName}` - Nome del passaggio corrente
+
+### Esempio 3: parametri facoltativi e obbligatori
+
+Configura i parametri che i professionisti del percorso possono facoltativamente compilare:
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+Nell’interfaccia utente per la configurazione dell’azione:
+* Imposta `email` come **obbligatorio** (non selezionare &quot;Facoltativo&quot;)
+* Imposta `mobilePhone` come **facoltativo** (verifica &quot;Facoltativo&quot;)
+* Imposta `preferredLanguage` come **facoltativo** con valore predefinito
+
+>[!TIP]
+>
+>Quando un parametro è contrassegnato come facoltativo e non viene compilato dall’operatore di percorso, verrà omesso dal payload o inviato come nullo (se &quot;Consenti valori NULL&quot; è abilitato).
+
+### Esempio 4: utilizzo di array e raccolte
+
+Passa raccolte di dati alle azioni personalizzate:
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>Ulteriori informazioni sul passaggio delle raccolte nelle azioni personalizzate in [questa pagina](../building-journeys/collections.md).
+
+### Esempio 5: oggetti nidificati e strutture complesse
+
+Creare strutture di dati gerarchiche:
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### Esempio 6: azione personalizzata completa nel mondo reale
+
+Un esempio completo che integra più concetti:
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**Suggerimenti di configurazione per questo esempio:**
+* Combinazione di valori costanti (`eventSource`, `specialPromotion`, `sandbox`) e parametri delle variabili
+* Utilizza il contesto di percorso per il tracciamento e il debug
+* Include i dati del profilo per la personalizzazione nel sistema di terze parti
+* Aggiunge un contesto decisionale durante l’utilizzo delle offerte
+* Metadati di sistema per il routing e il tracciamento a livello di organizzazione
+
+### Suggerimenti per la configurazione delle costanti
+
+**Nome sandbox:** utilizza un parametro costante impostato sul nome dell&#39;ambiente (ad esempio, &quot;prod&quot;, &quot;dev&quot;, &quot;stage&quot;)
+
+**Timestamp di esecuzione:** Utilizzare `@{journey.startTime}` o creare un parametro di variabile che i professionisti del percorso possono mappare alla funzione `#{nowWithDelta()}`
+
+**Versione API:** Utilizza una costante per i numeri di versione API per garantire la coerenza tra i percorsi
+
+**Token di autenticazione:** Non inserire mai token di autenticazione nel payload. Utilizza invece la sezione Autenticazione della configurazione dell&#39;azione personalizzata
+
+>[!CAUTION]
+>
+>I nomi dei campi nel payload non possono contenere un punto `.` né iniziare con un carattere `$`. Assicurati che la struttura JSON rispetti queste convenzioni di denominazione.
 
 * [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
 

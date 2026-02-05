@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '994'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,9 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
                interact: 1
              },
              propositionAction: {
-               label: label
+               id: label,
+               label: label,
+               tokens: proposition.items?.[0]?.characteristics?.tokens || []
              },
            },
          },
@@ -113,6 +115,15 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
      });
    }
    ```
+
+   >[!IMPORTANT]
+   >
+   >Il campo `tokens` in `propositionAction` è fondamentale per il tracciamento e l&#39;attribuzione accurati in Adobe Journey Optimizer Decisioning (AJO-D). Questi token consentono:
+   >- Attribuzione corretta dei clic per le attività decisionali
+   >- Rapporti accurati sulle interazioni degli utenti con i contenuti decisi
+   >- Ottimizzazione delle prestazioni dell’offerta in base al coinvolgimento degli utenti
+   >
+   >I token si trovano in genere in `proposition.items[0].characteristics.tokens` e devono sempre essere inclusi durante il tracciamento delle interazioni dell&#39;utente con contenuti decisi.
 
 ### Osservazioni chiave
 
@@ -308,7 +319,7 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di seguito.
 
 * Blog di Adobe Tech: [Personalization ibrido nel SDK Web Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=it){target="_blank"}
+* Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Eseguire il debug delle chiamate API di rete di Edge con Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
 
@@ -357,4 +368,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
