@@ -6,7 +6,7 @@ description: Gestione dei contenuti
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
