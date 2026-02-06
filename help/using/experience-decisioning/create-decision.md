@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '685'
 ht-degree: 26%
 
 ---
@@ -49,7 +49,7 @@ I criteri di decisione sono contenitori per le offerte che sfruttano il motore d
 
 ## Guardrail e limitazioni
 
-* **Canali supportati** - I criteri di decisione sono disponibili per questi canali: esperienze basate su codice, e-mail, SMS e notifiche push.
+* **Canali supportati** - I criteri decisionali sono disponibili per tutti i clienti per le notifiche basate su codice, SMS e push. Le decisioni per il canale e-mail sono disponibili solo in Disponibilità limitata.
 * **Requisito SDK per le notifiche push** - Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **Pagine mirror e-mail** - Per il momento, gli elementi di decisione non vengono riprodotti nelle pagine mirror e-mail.
 * **Tipo di tracciamento e collegamenti** - Per tenere traccia dei collegamenti generati dal decisioning, definiscili nello schema come &quot;Decisioning Assets&quot;. I collegamenti basati su attributi non sono tracciabili.
@@ -85,12 +85,12 @@ I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i se
 
 Scopri come utilizzare Decisioning per personalizzare le e-mail per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476172?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Scopri come utilizzare Decisioning per personalizzare le notifiche push per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479218?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Scopri come utilizzare Decisioning per personalizzare i messaggi SMS per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479537?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
