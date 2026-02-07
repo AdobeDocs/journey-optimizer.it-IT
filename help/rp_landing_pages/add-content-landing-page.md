@@ -20,7 +20,7 @@ La progettazione dei contenuti in Adobe Journey Optimizer consiste nella creazio
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare i componenti del contenuto
 

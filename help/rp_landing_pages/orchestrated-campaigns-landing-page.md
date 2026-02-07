@@ -30,7 +30,7 @@ Scopri le funzionalità di base, i componenti e le distinzioni delle campagne or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni
 

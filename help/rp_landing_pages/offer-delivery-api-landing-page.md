@@ -45,7 +45,7 @@ Crea e distribuisci offerte di marketing personalizzate utilizzando l’API Deci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Distribuire offerte tramite l’API Edge Decisioning
 

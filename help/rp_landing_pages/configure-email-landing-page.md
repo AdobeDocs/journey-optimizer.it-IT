@@ -30,7 +30,7 @@ Scopri i passaggi essenziali per configurare le funzionalità e-mail, inclusa la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Definire le impostazioni della configurazione e-mail
 
@@ -50,7 +50,7 @@ Scopri come abilitare la funzione “Annulla iscrizione a mailing list” per in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i parametri dell’intestazione e-mail
 
@@ -60,7 +60,7 @@ Personalizza gli indirizzi e-mail del mittente e della risposta, gestisci gli er
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Configurare il tracciamento URL per il canale e-mail
 

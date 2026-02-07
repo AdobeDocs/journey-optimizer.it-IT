@@ -30,7 +30,7 @@ Scopri i passaggi chiave per creare, gestire e analizzare una campagna orchestra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e pianificare una campagna orchestrata
 

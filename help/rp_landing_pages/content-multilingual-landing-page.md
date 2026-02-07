@@ -30,7 +30,7 @@ Scopri come impostare e utilizzare la funzione per contenuti multilingue in Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare una lingua per contenuti multilingue
 

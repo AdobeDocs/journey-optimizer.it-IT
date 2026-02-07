@@ -20,7 +20,7 @@ I casi d’uso per più soluzioni di Adobe Journey Optimizer ti consentono di in
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Combinare soluzioni Adobe per gestire i contenuti
 

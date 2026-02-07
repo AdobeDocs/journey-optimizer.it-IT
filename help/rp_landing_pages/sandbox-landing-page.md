@@ -30,7 +30,7 @@ Scopri come gestire e assegnare le sandbox per gli ambienti di partizionamento, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Copiare oggetti da una sandbox a un’altra
 

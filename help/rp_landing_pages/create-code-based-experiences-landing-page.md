@@ -30,7 +30,7 @@ Scopri come creare e configurare esperienze basate su codice in Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Utilizzare campi modificabili nelle esperienze basate su codice
 

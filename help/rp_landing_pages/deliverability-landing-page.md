@@ -20,7 +20,7 @@ La recapitabilità delle email è fondamentale per garantire che le e-mail raggi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alla recapitabilità delle e-mail
 

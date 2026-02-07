@@ -50,7 +50,7 @@ Scopri come i modelli di ottimizzazione personalizzata sfruttano i dati della cl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida dettagliata: creazione di modelli IA
 

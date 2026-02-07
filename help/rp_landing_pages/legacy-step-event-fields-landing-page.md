@@ -30,7 +30,7 @@ Scopri i campi evento dei passaggi precedenti in Adobe Journey Optimizer, inclus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Panoramica sui campi del percorso
 
@@ -70,7 +70,7 @@ Scopri i campi associati al recupero dei dati durante l’elaborazione dei passa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Campi di identità JourneyStep
 

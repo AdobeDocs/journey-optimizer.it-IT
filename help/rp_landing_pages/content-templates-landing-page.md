@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accesso e gestione dei modelli
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer permette di connetterti con il tuo pubblico su WhatsApp,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alla messaggistica di WhatsApp
 
@@ -40,7 +40,7 @@ Istruzioni dettagliate per configurare le credenziali API di WhatsApp, i webhook
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creazione di messaggi WhatsApp
 

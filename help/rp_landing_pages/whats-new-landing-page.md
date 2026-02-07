@@ -52,7 +52,7 @@ Integrando Adobe Experience Manager as a Cloud Service con Adobe Journey Optimiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Note sulla versione più recenti di Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Scopri le funzioni, i miglioramenti e gli aggiornamenti più recenti di Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Note sulle versioni precedenti di Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Esplora le note sulla versione complete degli anni precedenti, con aggiornamenti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Aggiornamenti più recenti della documentazione di Adobe Journey Optimizer
 

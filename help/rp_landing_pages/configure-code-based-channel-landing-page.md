@@ -20,7 +20,7 @@ La sezione Configurare il canale basato su codice in Adobe Journey Optimizer con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Prerequisiti per l’esperienza basata su codice
 

@@ -51,7 +51,7 @@ Utilizza l’interfaccia di trascinamento per progettare percorsi di marketing p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Eseguire il test del percorso
 

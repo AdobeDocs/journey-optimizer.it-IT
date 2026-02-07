@@ -30,7 +30,7 @@ Scopri come accedere e configurare la funzione Assistente IA per migliorare la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Generare contenuto completo
 

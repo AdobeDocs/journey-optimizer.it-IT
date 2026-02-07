@@ -20,7 +20,7 @@ Approfondisci le potenti funzionalità di sintassi dell’editor di espressioni 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Sintassi dell’editor di espressioni avanzato
 
@@ -30,7 +30,7 @@ Scopri le regole di sintassi dettagliate per l’utilizzo dell’editor di espre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Istruzione condizionale (if, then, else)
 
@@ -40,7 +40,7 @@ Padroneggia l’utilizzo delle istruzioni condizionali per creare espressioni co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Informazioni sui tipi di dati
 
@@ -50,7 +50,7 @@ Ottieni una panoramica completa dei tipi di dati utilizzati nelle espressioni, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Utilizzo dei riferimenti dei campi
 
@@ -60,7 +60,7 @@ Scopri come fare riferimento ai campi nelle espressioni, inclusi i casi d’uso 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Funzioni di gestione della raccolta
 
@@ -70,7 +70,7 @@ Esplora funzioni come “all”, “first”, “last” e “at” per manipola
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Operatori nelle espressioni avanzate
 

@@ -40,7 +40,7 @@ Tutorial dettagliato su come configurare le azioni personalizzate, che si soffer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Utilizzare le risposte a chiamate API nelle azioni personalizzate
 

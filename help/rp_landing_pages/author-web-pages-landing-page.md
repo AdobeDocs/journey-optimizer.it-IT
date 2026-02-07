@@ -40,7 +40,7 @@ Scopri come utilizzare l’editor non visivo per le modifiche web, ad esempio pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestire le modifiche web in Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Scopri come monitorare il coinvolgimento web utilizzando i rapporti e il traccia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Come creare applicazioni a pagina singola in Adobe Journey Optimizer
 

@@ -20,7 +20,7 @@ Le origini dati in Adobe Journey Optimizer consentono di connetterti a sistemi c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta le origini dati
 

@@ -40,7 +40,7 @@ Esplora i metodi per progettare i contenuti e-mail, importare HTML, codificare l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Creare contenuti in Adobe Journey Optimizer
 

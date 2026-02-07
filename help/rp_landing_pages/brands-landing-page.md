@@ -20,7 +20,7 @@ In Adobe Journey Optimizer, la funzione “Brand” ti consente di definire e ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e gestire le linee guida del brand
 

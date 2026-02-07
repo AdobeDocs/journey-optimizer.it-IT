@@ -30,7 +30,7 @@ Scopri gli eventi del percorso, i relativi tipi, il ciclo di vita e la configura
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Configurare un evento unitario
 

@@ -51,7 +51,7 @@ Configura e crea campagne di messaggistica in-app web con trigger, targeting del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=it)
 
 Progettare e personalizzare i contenuti in-app
 

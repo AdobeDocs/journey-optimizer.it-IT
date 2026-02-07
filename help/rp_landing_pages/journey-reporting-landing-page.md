@@ -40,7 +40,7 @@ Comprendi e analizza le metriche per il coinvolgimento nelle esperienze basate s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Valutare il coinvolgimento con la scheda contenuto
 

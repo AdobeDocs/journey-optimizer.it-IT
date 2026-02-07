@@ -40,7 +40,7 @@ Linee guida dettagliate per la delega dei sottodomini ad Adobe, inclusa la deleg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Configurare i record DMARC
 
@@ -60,7 +60,7 @@ Verifica i sottodomini per la recapitabilità relativa a Gmail aggiungendo recor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Accedere ai record PTR e modificarli
 

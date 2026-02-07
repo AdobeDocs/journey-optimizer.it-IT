@@ -20,7 +20,7 @@ La configurazione dei canali in Adobe Journey Optimizer ti consente di gestire i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alla configurazione dei canali
 

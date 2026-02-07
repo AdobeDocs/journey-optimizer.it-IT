@@ -20,7 +20,7 @@ Le attività in Adobe Journey Optimizer sono i blocchi predefiniti che danno vit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alle attività di Journey
 
@@ -40,7 +40,7 @@ Scopri come utilizzare gli eventi generali per attivare i percorsi e gestire eff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Configurazione degli eventi di reazione
 
@@ -70,7 +70,7 @@ Definisci più tratte in un percorso in base a criteri come tempo, origine dati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 Configurazione dell’attività Attendi
 

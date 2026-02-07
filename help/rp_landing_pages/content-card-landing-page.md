@@ -23,7 +23,7 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale Scheda contenuto
 

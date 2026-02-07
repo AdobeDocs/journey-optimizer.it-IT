@@ -45,7 +45,7 @@ Scopri come configurare i metodi di ranking per le decisioni, inclusi i punteggi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Simulare le decisioni sulle offerte
 

@@ -50,7 +50,7 @@ Scopri le istruzioni complete sulla gestione dei set di dati, incluse le regole 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzare i dati di Adobe Experience Platform
 
@@ -60,7 +60,7 @@ Abilita e utilizza i set di dati di Adobe Experience Platform in Journey Optimiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Consulta le query in Journey Optimizer
 

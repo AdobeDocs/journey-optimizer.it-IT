@@ -20,7 +20,7 @@ Le attività di campagne orchestrate in Adobe Journey Optimizer ti consentono di
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Utilizzare le attività della campagna orchestrata
 
