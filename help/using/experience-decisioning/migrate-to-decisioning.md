@@ -5,9 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
@@ -26,7 +27,7 @@ Decisioning offre funzionalità e vantaggi significativi rispetto al framework d
 
 ### Funzionalità di intelligenza artificiale e apprendimento automatico
 
-* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
+* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
 
 * **Misurazione dell&#39;incremento**: possibilità di visualizzare il traffico di esplorazione e di sfruttamento nei modelli AI. Questo consente agli esperti di marketing e ai data scientist di quantificare in che modo l’esplorazione basata su IA migliora le prestazioni dei modelli a lungo termine e la reperibilità di nuove offerte vincenti. La trasparenza nell’allocazione del traffico crea fiducia nelle decisioni di intelligenza artificiale e consente ai team di ottimizzare sia l’apprendimento che le prestazioni nel tempo. [Ulteriori informazioni](ranking/auto-optimization-model.md#lift)
 
@@ -64,9 +65,9 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 * **Applicazione dei criteri**: autorizzazione degli utenti aziendali a utilizzare funzionalità come [Etichettatura e applicazione dell&#39;utilizzo dati (DULE)](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"} e [Consenso](../action/consent.md) all&#39;interno di Decisioning, abilitando la protezione dello scudo per la privacy nel flusso di lavoro decisionale. In questo modo le decisioni rispettano automaticamente i criteri di utilizzo dei dati e le preferenze di consenso dei clienti.
 
-* **Supporto del canale di messaggistica nativa**: messaggistica integrata e decisioning in un singolo framework su più canali ([Esperienza basata su codice](../code-based/get-started-code-based.md) e [E-mail](../email/get-started-email.md) attualmente disponibili, altri canali in arrivo nella prima metà del 2026). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
+* **Supporto del canale di messaggistica nativo**: messaggistica integrata e decisioning in un singolo framework su più canali: [Esperienza basata su codice](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilità limitata), [SMS](../sms/get-started-sms.md) e [Notifiche push](../push/get-started-push.md). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
 
-* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
+* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
 
 * **Scalabilità e prestazioni**: miglioramento architettonico che sposta il calcolo delle decisioni dall&#39;hub all&#39;edge, riducendo in modo significativo la latenza e migliorando la velocità effettiva per i casi di utilizzo con traffico elevato.
 
@@ -102,4 +103,3 @@ Per la documentazione API completa, inclusi autenticazione, endpoint, esempi di 
 * [Introduzione alla funzione Decisioni](gs-experience-decisioning.md)
 * [Guardrail e limitazioni decisionali](decisioning-guardrails.md)
 * [Domande frequenti su Decisioning](decisioning-faq.md)
-

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 22%
+source-wordcount: '674'
+ht-degree: 21%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 22%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni singolo utente gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un&#39;ampia gamma di superfici in entrata tramite il [canale di esperienza basato su codice](../code-based/get-started-code-based.md), accessibile nelle campagne [!DNL Adobe Journey Optimizer].
+Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle esperienze su [!DNL Adobe Journey Optimizer] canali: [esperienza basata su codice](../code-based/get-started-code-based.md), e-mail, SMS e notifiche push.
 
 >[!IMPORTANT]
 >
->I criteri decisionali sono disponibili per l’utilizzo solo nelle campagne e-mail e nelle esperienze basate su codice.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **Notifica push** e **SMS**. Le decisioni per il canale **E-mail** sono disponibili solo in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -85,7 +85,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    ➡️ [Scopri come creare strategie di selezione nell&#39;interfaccia utente](selection-strategies.md) nell&#39;interfaccia utente (e nella [documentazione API](api-reference/selection-strategies/create.md))
 
-1. **Crea un criterio di decisione e incorporalo nel tuo percorso/campagna basata su codice o e-mail**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
+1. **Creare un criterio di decisione e incorporarlo nel percorso o nella campagna** (esperienza basata su codice, e-mail, SMS o push): i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
@@ -105,4 +105,4 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
