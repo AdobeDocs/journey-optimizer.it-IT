@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '891'
 ht-degree: 8%
 
 ---
@@ -60,6 +60,7 @@ Per ulteriori dettagli sui motivi specifici di esclusione, consulta la tabella s
 | EmailNoVariantDefined | 050026 | E-mail | Un evento di esclusione viene generato quando nel messaggio e-mail non è definita alcuna variante. |
 | EmailNoMessageFoundForTreatment | 050027 | E-mail | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | EmailMalformedAddress | 050024 | E-mail | Se l’e-mail contiene un indirizzo non valido, viene generato un evento di esclusione. |
+| UnsubscribeLinkNotValid | 050081 | E-mail | Un evento di esclusione viene generato quando la lunghezza dell’oggetto mailTo per l’annullamento dell’iscrizione a mailing list supera il limite RFC di 998 caratteri. |
 | InAppNoVariantDefined | 050041 | InApp | Un evento di esclusione viene generato quando non è definita alcuna variante per il messaggio InApp. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Un evento di esclusione viene generato quando l’esperimento è abilitato per il messaggio e non viene trovato alcun messaggio per il trattamento qualificato. |
 | PushNoTokenFoundInProfile | 050030 | Push | Quando il profilo non dispone di token push, viene generato un evento di esclusione. |
