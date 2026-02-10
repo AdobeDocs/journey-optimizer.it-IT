@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ Dopo aver creato la campagna o il percorso, fai clic sul pulsante **[!UICONTROL 
 
 Viene aperto il riquadro **[!UICONTROL Richiedi approvazione]**. Fornisci un messaggio per gli approvatori, se necessario, e fai clic su **[!UICONTROL Invia]** per inviare la richiesta.
 
-![](assets/approval-request.png)
+![Finestra di dialogo per la richiesta di approvazione](assets/approval-request.png)
 
 Mentre la campagna o il percorso è nello stato **[!UICONTROL In revisione]**, è possibile annullare la richiesta di approvazione. Facendo clic sul pulsante **[!UICONTROL Annulla richiesta]**, la campagna o il percorso torneranno alla fase di bozza e verrà inviata una notifica ai revisori per informarli che la richiesta è stata annullata. Puoi quindi apportare le modifiche necessarie e inviare nuovamente la campagna o il percorso per l’approvazione.
 
-![](assets/approval-cancel.png)
+![Pulsante Annulla richiesta di approvazione](assets/approval-cancel.png)
 
 ## Gestire le richieste di approvazione
 
@@ -52,6 +52,6 @@ Una volta inviata la richiesta di approvazione agli approvatori, questi possono 
 
 Se la richiesta degli approvatori cambia, riceverai una notifica tramite e-mail e un avviso di Journey Optimizer, accessibile facendo clic sull&#39;icona a forma di campana in alto a destra dello schermo nella scheda **[!UICONTROL Richieste]**.
 
-![](assets/changes-requested.png)
+![Notifica modifiche richieste](assets/changes-requested.png)
 
 Per esaminare la richiesta di modifica, aprila dall’e-mail o dall’avviso per accedere al percorso o alla campagna e apportare le modifiche richieste. Quando il tuo percorso/campagna è pronto per essere rivisto, invia una nuova richiesta di approvazione utilizzando il pulsante **[!UICONTROL Richiedi approvazione]**.

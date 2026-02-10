@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '713'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home)
+>Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 I criteri di approvazione consentono agli amministratori di stabilire un processo di convalida per percorsi e campagne. Questo sistema delinea condizioni specifiche che determinano se un percorso o una campagna richiede l’approvazione. Queste regole possono essere di complessità variabile. Possono semplicemente richiedere che tutte le campagne siano riviste da un particolare utente o team, o stabilire criteri in base a chi ha creato la campagna.
 
@@ -58,7 +58,7 @@ Per creare un criterio di approvazione, eseguire la procedura seguente:
 
 1. Abilita l&#39;**[!UICONTROL autoapprovazione blocco]** per impedire ai creatori di Percorsi/campagne di approvare i propri oggetti.
 
-   ![](assets/policy_create_2.png)
+   ![Modulo dettagli criteri di approvazione](assets/policy_create_2.png)
 
 È ora possibile perfezionare le condizioni per specificare chi può avviare la richiesta di approvazione e chi può convalidarla.
 
@@ -72,7 +72,7 @@ I criteri di approvazione offrono opzioni di targeting flessibili per soddisfare
 * **Tipi di campagna**: imposta regole diverse per [Campagne attivate da azioni rispetto a quelle attivate da API](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Richiedenti**: definisci i criteri in base a chi crea la campagna o il percorso
 
-Per definire le condizioni associate a un criterio di approvazione, effettuare le operazioni riportate di seguito.
+Per definire le condizioni associate a un criterio di approvazione, eseguire la procedura seguente:
 
 1. Accedi al **[!UICONTROL criterio di approvazione]**.
 

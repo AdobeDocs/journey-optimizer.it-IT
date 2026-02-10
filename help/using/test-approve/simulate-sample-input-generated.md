@@ -11,9 +11,9 @@ badge: label="Beta privata" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,11 @@ Per generare varianti per il contenuto e visualizzarle in anteprima, segui quest
 
 1. Apri il contenuto e seleziona **[!UICONTROL Simula contenuto]** / **[!UICONTROL Simula varianti di contenuto]**.
 
-   ![](assets/simulate-sample.png)
+   ![Opzione Simula varianti di contenuto](assets/simulate-sample.png)
 
 2. Fare clic sul pulsante **[!UICONTROL Genera]**.
 
-   ![](assets/simulate-generate-variant.png)
+   ![Pulsante Genera varianti](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer] genera automaticamente varianti in base agli attributi rilevati.
 
