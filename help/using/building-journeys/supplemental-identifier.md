@@ -248,4 +248,4 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464800?captions=ita&quality=12)
