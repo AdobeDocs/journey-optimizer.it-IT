@@ -9,11 +9,12 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor
 mini-toc-levels: 1
+badge: label="Disponibilità limitata" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '917'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +26,10 @@ ht-degree: 5%
 >abstract="L’abilitazione di un set di dati per la ricerca consente di sfruttarne i dati nelle funzionalità di personalizzazione, decisioning e orchestrazione del percorso di Journey Optimizer."
 
 [!DNL Journey Optimizer] consente di sfruttare i dati di [!DNL Adobe Experience Platform] con funzionalità di personalizzazione, decisioning e orchestrazione di percorso. A questo scopo, i set di dati basati su record necessari per la personalizzazione della ricerca devono prima essere abilitati per il servizio di ricerca come descritto di seguito.
+
+>[!NOTE]
+>
+>La funzionalità di ricerca dati è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
 
 Per ulteriori informazioni su come accedere e utilizzare i set di dati, consulta questa sezione: [Introduzione ai set di dati](../data/get-started-datasets.md)
 
